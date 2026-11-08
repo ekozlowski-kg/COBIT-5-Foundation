@@ -887,8 +887,8 @@ Pełny standard (SD, §17) nie mieści się w 5 dniach. Dzień 1 miał 261 slajd
 | **6** | Aktywatory, część 2, i atlas APO | EN 2.6–2.9, atlas PR 1.16–1.20 | 101 |
 | **7** | Wdrożenie | IM 3.1–3.5, atlas PR 1.21–1.24 (BAI/DSS) | ≈ 100 |
 | **8** | Model zdolności, część 1 | PC 4.1–4.2e, PC 4.3–4.3b | ≈ 101 |
-| **9** | Model zdolności, część 2, i pierwszy próbny egzamin | PC 4.4–4.5, EX 9.3–9.4, atlas PR 1.25 (MEA), **próbny egzamin 1** zamiast testu dnia | 80 + egzamin |
-| **10** | Strategia i niezależny pomiar | EX 9.2 „Kategoria odpowiedzi”, EX 9.5 powtórka IM/PC i pułapek, **SP1** (odblokowany w tym dniu, §7) i analiza, **próbny egzamin 2**, EX 9.6 „Dzień egzaminu”; bez testu dnia | 40 + 2 egzaminy |
+| **9** | Model zdolności, część 2, i pierwszy próbny egzamin | PC 4.4–4.5, EX 9.2 „Kategoria odpowiedzi” (przeniesiona z dnia 6 – budżet §18.1; 9.3 jej wymaga), EX 9.3–9.4, atlas PR 1.25 (MEA), **próbny egzamin 1** zamiast testu dnia | ≈ 100 + egzamin |
+| **10** | Strategia i niezależny pomiar | EX 9.5 powtórka IM/PC i pułapek, **SP1** (odblokowany w tym dniu, §7) i analiza, **próbny egzamin 2**, EX 9.6 „Dzień egzaminu”; bez testu dnia | 40 + 2 egzaminy |
 | **11** | Finał „skrajnie biegły” | FN 10.1–10.3 (F1 z omówieniem SP1, F2, F3), **egzamin mistrzowski** ×2 (§15.3), projekt końcowy; bez testu dnia | 27 + 2 egzaminy |
 | **12 = po egzaminie** | Mentor | moduł MT (§12.4) MT.1–MT.7, karty prowadzącego (§13), powtórki rdzenia | 69 |
 

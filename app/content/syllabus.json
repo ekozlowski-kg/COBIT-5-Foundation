@@ -1718,7 +1718,7 @@
     },
     {
       "dzien": 6,
-      "tytul": "Aktywatory, część 2 i strategia",
+      "tytul": "Aktywatory, część 2",
       "pustaKartka": {
         "tytul": "Siedem aktywatorów – szczegóły",
         "polecenie": "Dla każdego z 7 aktywatorów zapisz 2–3 najważniejsze elementy egzaminacyjne (np. cechy dobrej polityki, kategorie celów procesu, dobre praktyki struktur, poziomy etyki, cykl informacji, zasady architektury, kategorie umiejętności) oraz role RACI.",
@@ -1728,8 +1728,7 @@
         "Potrafię podać przykład kultury, etyki i zachowania, które pomagają albo szkodzą.",
         "Potrafię rozróżnić jakość wewnętrzną, kontekstową oraz dostęp i bezpieczeństwo informacji.",
         "Potrafię powiedzieć, czym są usługi, infrastruktura i aplikacje oraz zasady architektury.",
-        "Potrafię wyjaśnić, po co dla każdej roli określa się umiejętności i kompetencje.",
-        "Potrafię odrzucić odpowiedź z innej kategorii COBIT, nawet jeśli brzmi mądrze."
+        "Potrafię wyjaśnić, po co dla każdej roli określa się umiejętności i kompetencje."
       ],
       "rusztowanie": "zwiniety",
       "podpowiedzi": "widoczne",

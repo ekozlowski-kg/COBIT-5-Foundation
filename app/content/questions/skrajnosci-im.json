@@ -180,7 +180,7 @@
           "pulapka": "falsz"
         },
         {
-          "tekst": "Obie czynności to faza 1, bo faza 1 identyfikuje punkty zapalne.",
+          "tekst": "Obie czynności to faza 1, bo faza 1 identyfikuje punkty zapalne, a pomiar czasów pokazuje, jak bardzo one bolą.",
           "poprawna": false,
           "wyjasnienie": "Faza 1 identyfikuje punkty zapalne, ale ich nie mierzy. Ocena aktualnego stanu to faza 2.",
           "pulapka": "zbyt-waskie"
@@ -827,7 +827,7 @@
           "pulapka": "forma-podrecznikowa"
         },
         {
-          "tekst": ">50–85%: systematyczne podejście, ale z pewnymi słabościami.",
+          "tekst": ">50–85%: systematyczne podejście i znaczące osiągnięcie atrybutu, ale z pewnymi słabościami.",
           "poprawna": false,
           "wyjasnienie": "To W – Większościowy (EN: L).",
           "pulapka": "falsz"

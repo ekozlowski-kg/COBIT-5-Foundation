@@ -137,7 +137,7 @@ Nazwa egzaminu PL niepotwierdzona: rozpoznawaj proces po kodzie i słowach *Solu
 **Wniosek:** BAI03 odpowiada na pytanie „JAK to zrobimy?” i sprawdza, czy rzecz zbudowano dobrze.
 
 :::wykladowca
-BAI03 to Manage Solutions Identification and Build. Po polsku: identyfikacja i budowanie rozwiązań. Tu powstaje odpowiedź na pytanie „jak?”. Ktoś projektuje rozwiązanie, pisze program albo kupuje gotowe elementy, łączy je i testuje. Zwróćcie uwagę na słowo „nabywaj” w nazwie domeny. Kupno gotowego systemu to też BAI03, nie tylko programowanie. W komendzie Kwant-Sygnał projektuje zapasową bramkę SMS i testuje ją w swoim laboratorium. Testy z BAI03 sprawdzają, czy zbudowano zgodnie z projektem. Czy użytkownicy to przyjmą, sprawdza się później, w BAI07.
+BAI03 to Manage Solutions Identification and Build. Po polsku: identyfikacja i budowanie rozwiązań. Tu powstaje odpowiedź na pytanie „jak?”. Ktoś projektuje rozwiązanie, pisze program albo kupuje gotowe elementy, łączy je i testuje. Zwróćcie uwagę na słowo „nabywaj” w nazwie domeny. Kupno gotowego systemu to też BAI03, nie tylko programowanie. W komendzie Kwant-Sygnał projektuje zapasową bramkę SMS i testuje ją w swoim laboratorium. Testy z BAI03 sprawdzają, czy zbudowano zgodnie z projektem. Czy użytkownicy to przyjmą, sprawdza się później, w BAI07 (Zarządzanie procesem akceptacji zmian i przejścia).
 :::
 
 :::sb nie-mylic

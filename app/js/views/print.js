@@ -76,16 +76,18 @@ export async function renderTeacherCard(main, unitId) {
 }
 
 export async function renderPrint(main, kind, arg) {
+  // Dzień 0 to pełnoprawny dzień – nie zamieniamy go na 1 (dawniej `+arg || 1`).
+  const nrArg = arg !== undefined && arg !== null && arg !== '' ? +arg : 1;
   const [m, units, days, syl, sciagi] = await Promise.all([C.mapa(), C.units(), C.days(), C.syllabus(), C.sciagi()]);
   // §16.5 – gotowe ściągi z content/sciagi/dzien-N.md mają pierwszeństwo przed generowanymi.
-  const ready = kind === 'dzien' ? sciagi[`dzien-${+arg || 1}`] : sciagi['dzien-5'];
+  const ready = kind === 'dzien' ? sciagi[`dzien-${nrArg}`] : sciagi['dzien-5'];
   if (ready) {
-    main.innerHTML = `<div class="page print-page" style="max-width:900px">${tools(kind === 'dzien' ? `#/dzien/${+arg || 1}` : '#/')}<div class="sheet">${render(ready.replace(/^---\n[\s\S]*?\n---\n/, ''))}</div></div>`;
+    main.innerHTML = `<div class="page print-page" style="max-width:900px">${tools(kind === 'dzien' ? `#/dzien/${nrArg}` : '#/')}<div class="sheet">${render(ready.replace(/^---\n[\s\S]*?\n---\n/, ''))}</div></div>`;
     bindPrint();
     return;
   }
   if (kind === 'dzien') {
-    const nr = +arg || 1;
+    const nr = nrArg;
     const d = days.find((x) => x.nr === nr) || {};
     const us = units.filter((u) => u.dzien === nr && u.modul.kod !== 'MT');
     const claims = us.flatMap((u) => u.twierdzenia || []);

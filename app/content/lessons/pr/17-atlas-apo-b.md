@@ -145,7 +145,7 @@ Szczebel „skrajny”: pytanie o „zależność od jednego eksperta” i czter
 **Wniosek:** APO07 to praca z ludźmi IT, a nie kierunek dla wszystkich zasobów (EDM04) ani spis sprzętu (BAI09).
 
 :::wykladowca
-Trzeci proces to APO07, po angielsku Manage Human Resources. Komendantka w EDM04 ustaliła kierunek: żadna kluczowa czynność nie może zależeć od jednej osoby. Sikora wykonuje to w APO07. Spisuje umiejętności potrzebne w każdej roli i planuje szkolenia. Dyżurna Kasia Nowik ćwiczy tryb awaryjny z Grabem, żeby móc go zastąpić. APO07 obejmuje też osoby z zewnątrz, które pracują dla IT. Uwaga: spisanie instrukcji trybu awaryjnego to wiedza, czyli BAI08. APO07 pilnuje, żeby kolejna osoba naprawdę umiała to zrobić.
+Trzeci proces to APO07, po angielsku Manage Human Resources. Komendantka w EDM04 ustaliła kierunek: żadna kluczowa czynność nie może zależeć od jednej osoby. Sikora wykonuje to w APO07. Spisuje umiejętności potrzebne w każdej roli i planuje szkolenia. Dyżurna Kasia Nowik ćwiczy tryb awaryjny z Grabem, żeby móc go zastąpić. APO07 obejmuje też osoby z zewnątrz, które pracują dla IT. Uwaga: spisanie instrukcji trybu awaryjnego to wiedza, czyli BAI08 (Zarządzanie wiedzą). APO07 pilnuje, żeby kolejna osoba naprawdę umiała to zrobić.
 :::
 
 :::sb skrot

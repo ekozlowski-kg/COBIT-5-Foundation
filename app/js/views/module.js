@@ -30,7 +30,8 @@ export async function moduleStatus() {
 
 export async function renderModules(main) {
   const [mods, units, questions] = await Promise.all([C.moduly(), C.units(), C.questions()]);
-  const codes = [...new Set([...mods.map((m) => m.modul), ...units.map((u) => u.modul.kod)])];
+  // Kolejność kursu (lekcje są posortowane jak w planie), a moduły bez lekcji na końcu.
+  const codes = [...new Set([...units.map((u) => u.modul.kod), ...mods.map((m) => m.modul)])];
   const withExam = new Set([...questions.values()].filter((q) => q.sprawdzian).map((q) => q.sprawdzian));
   main.innerHTML = `<div class="page page-narrow"><p class="eyebrow">Kurs w modułach</p><h1>Moduły</h1>
     <p class="page-lead">Każdy moduł kończy się sprawdzianem w 6 częściach. Próg: 70% w każdej części. Można iść dalej bez zaliczenia, ale moduł zostaje „niezaliczony” w Gotowości.</p>

@@ -381,6 +381,8 @@ def plain_sentences(body):
     t = re.sub(r"^(---|\+\+\+|\?\?\?|:::.*)\s*$", "", t, flags=re.M)
     # Pola bloków (twierdzenie:, poLudzku:, sprawdz: …, pytanie:, odpowiedz:) to osobne zdania.
     t = re.sub(r"^\s*([a-zA-Z]\w*):\s+", "\n\n", t, flags=re.M)
+    # Szczeble :::progresja („0: …”, „1: …”) to osobne przykłady, nie jedno zdanie.
+    t = re.sub(r"^\s*\d+:\s+", "\n\n", t, flags=re.M)
     t = re.sub(r"\[\[[^\]|]+\|([^\]]+)\]\]", r"\1", t)
     t = re.sub(r"\[\[([^\]]+)\]\]", r"\1", t)
     t = re.sub(r"[*_#>`]", "", t)
@@ -1075,7 +1077,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         super().do_GET()
 
     def log_message(self, fmt, *args):
-        if "bundle.json" in (args[0] if args else ""):
+        if "bundle.json" in (str(args[0]) if args else ""):
             return
         sys.stderr.write("%s\n" % (fmt % args))
 

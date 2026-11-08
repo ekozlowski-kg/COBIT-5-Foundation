@@ -232,7 +232,7 @@ Wytłumacz Kasi Nowik w 3–4 zdaniach, czym różni się APO09 od APO10. Użyj 
 „APO09 to uzgodnienie usług z naszymi użytkownikami. Sikora spisał z kierownikiem SK, że alarm ma dotrzeć w 60 sekund, i co miesiąc to mierzy. APO10 to praca z dostawcą. Żeby dotrzymać 60 sekund, Sikora musi mieć odpowiedni zapis w umowie z Kwant-Sygnałem i oceniać, czy firma się wywiązuje. APO09 mówi, czego potrzebują nasi ludzie, a APO10, czego żądamy od dostawcy.”
 :::
 
-**Co dalej i dlaczego:** w lekcji 1.19 zamkniesz domenę APO procesami APO11, APO12 i APO13: jakość, ryzyko i bezpieczeństwo.
+**Co dalej i dlaczego:** w lekcji 1.19 zamkniesz domenę APO procesami APO11 (Zarządzanie jakością), APO12 i APO13: jakość, ryzyko i bezpieczeństwo.
 
 :::wykladowca
 Podsumujmy trzy procesy współpracy. APO08 to relacja z własną organizacją. APO09 to zapisany i mierzony poziom usług dla użytkowników. APO10 to praca z dostawcą: wybór, kontrakt i ocena. Teraz wytłumaczcie Kasi Nowik, czym różni się APO09 od APO10. Kasia słyszała Wolnego, który mówił „zgodnie z umową”. Pomóżcie jej zrozumieć, że to była umowa z dostawcą, a nie obietnica dla SK. Potem porównajcie wyjaśnienie ze wzorcem.

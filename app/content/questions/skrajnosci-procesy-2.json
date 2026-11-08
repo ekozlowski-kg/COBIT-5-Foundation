@@ -18,7 +18,7 @@
           "pulapka": "zbyt-waskie"
         },
         {
-          "tekst": "BAI01 powinien w przeglądzie po wdrożeniu sprawdzić, czy projekt dał obiecaną korzyść, i wyciągnąć wnioski.",
+          "tekst": "W przeglądzie po wdrożeniu BAI01 sprawdza, czy projekt dał obiecaną korzyść.",
           "poprawna": true,
           "wyjasnienie": "Tak. Projekt dowiózł rezultat, ale nie korzyść. Przegląd po wdrożeniu i wnioski należą do BAI01, a szefostwo ocenia korzyści w EDM02."
         },
@@ -63,7 +63,7 @@
           "wyjasnienie": "To wymaganie: mówi, CO ma być spełnione. Może brzmieć technicznie, a i tak należy do BAI02."
         },
         {
-          "tekst": "„Zapasowa bramka SMS modelu X, podłączona przez port szeregowy do serwera komendy”.",
+          "tekst": "„Zapasowa bramka SMS modelu X, podłączona przez port szeregowy do głównego serwera komendy”.",
           "poprawna": false,
           "wyjasnienie": "To opis wybranego rozwiązania, czyli JAK spełnić wymaganie. Projekt i budowa to BAI03.",
           "pulapka": "inna-kategoria"
@@ -115,7 +115,7 @@
           "wyjasnienie": "Tak. BAI03 sprawdza, czy rozwiązanie zbudowano poprawnie. BAI07 – czy użytkownicy je przyjmują i można przejść do eksploatacji."
         },
         {
-          "tekst": "Test w laboratorium to BAI07, a test z dyżurnymi to BAI03.",
+          "tekst": "Test w laboratorium dostawcy to BAI07, a test scenariuszy z dyżurnymi to już BAI03.",
           "poprawna": false,
           "wyjasnienie": "Przyporządkowanie odwrócone. Dostawca testuje budowę (BAI03), użytkownicy odbierają (BAI07).",
           "pulapka": "odwrocone"
@@ -167,7 +167,7 @@
           "pulapka": "prawda-nie-na-temat"
         },
         {
-          "tekst": "APO09 – bo umowa o poziomie usług określa, ile alarmów ma obsłużyć Syrena.",
+          "tekst": "APO09 – bo umowa o poziomie usług określa, ile alarmów na minutę ma obsłużyć Syrena w szczycie.",
           "poprawna": false,
           "wyjasnienie": "APO09 uzgadnia obiecany poziom usług. Plan, jak go spełnić w szczycie, to BAI04.",
           "pulapka": "zbyt-waskie"
@@ -196,7 +196,7 @@
       "scenariusz": "Nową Syrenę zatwierdziła Rada ds. Informatyki. Dyżurni przeszli testy odbiorcze, a system działa bez awarii. Po dwóch miesiącach połowa doświadczonych dyżurnych nadal alarmuje OSP telefonem, bo „tak zawsze było”.",
       "opcje": [
         {
-          "tekst": "BAI06 – bo nazywa się „Zarządzanie zmianami”, a zmiana nie została przyjęta.",
+          "tekst": "BAI06 – bo nazywa się „Zarządzanie zmianami”, a zmiana nie została przez ludzi przyjęta.",
           "poprawna": false,
           "wyjasnienie": "Krótka nazwa kusi, ale BAI06 kontroluje zmianę w systemie (ocena, autoryzacja). Tę zmianę zatwierdzono poprawnie.",
           "pulapka": "inna-kategoria"
@@ -246,12 +246,12 @@
       "scenariusz": "O 2:00 dyżurna Kasia Nowik zgłasza, że Syrena nie wysyła SMS-ów. Ola Dudek zmienia ustawienie bramki SMS bez czekania na Radę ds. Informatyki i po kilku minutach alarmy wracają. Rano Dudek zamyka zgłoszenie incydentu.",
       "opcje": [
         {
-          "tekst": "Przywrócenie usługi to DSS02, a zmiana ustawienia to zmiana awaryjna w BAI06, którą trzeba zarejestrować i zatwierdzić po fakcie.",
+          "tekst": "To incydent w DSS02, a zmiana ustawienia to zmiana awaryjna w BAI06, rejestrowana i zatwierdzana po fakcie.",
           "poprawna": true,
           "wyjasnienie": "Tak. Zmiany awaryjne są częścią BAI06: wolno je wprowadzić szybciej, ale nie wolno ich pominąć."
         },
         {
-          "tekst": "Zmiany awaryjne są poza BAI06, bo w nocy liczy się czas, a nie procedury.",
+          "tekst": "Zmiany awaryjne są poza BAI06, bo w nocy liczy się czas przywrócenia usługi, a nie procedury i formalne zatwierdzanie.",
           "poprawna": false,
           "wyjasnienie": "Fałsz. BAI06 ma osobną, szybszą ścieżkę dla zmian awaryjnych, z oceną i autoryzacją po fakcie.",
           "pulapka": "falsz"
@@ -292,12 +292,12 @@
       "scenariusz": "Dyżurni podpisali odbiór nowej Syreny i od tygodnia na niej pracują. Zespół wdrożeniowy zapewnia jeszcze dwa tygodnie wzmożonego wsparcia. W piątek pada bramka SMS i Kasia Nowik dzwoni po pomoc.",
       "opcje": [
         {
-          "tekst": "Awaria z piątku to incydent w DSS02. BAI07 zapewnia wsparcie na starcie i ocenia przejście w przeglądzie po wdrożeniu.",
+          "tekst": "Awaria to incydent w DSS02, a BAI07 daje wsparcie na starcie i ocenia przejście w przeglądzie po wdrożeniu.",
           "poprawna": true,
           "wyjasnienie": "Tak. Awaria zawsze jest incydentem. BAI07 obejmuje wsparcie po uruchomieniu i przegląd, czy przejście się udało (interpretacja kursu w szczegółach)."
         },
         {
-          "tekst": "Dopóki trwa wsparcie startowe, awarie obsługuje się tylko w BAI07, poza DSS02.",
+          "tekst": "Dopóki trwa wsparcie startowe po uruchomieniu, awarie obsługuje się wyłącznie w BAI07, z pominięciem DSS02.",
           "poprawna": false,
           "wyjasnienie": "Fałsz. Wsparcie startowe nie wyłącza obsługi incydentów. Incydent rejestruje się w DSS02.",
           "pulapka": "falsz"
@@ -393,7 +393,7 @@
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "Decyzji szefostwa, czy organizacja ma dość ludzi, pieniędzy i sprzętu na swoje cele.",
+          "tekst": "Decyzji szefostwa, czy organizacja ma dość ludzi, pieniędzy i sprzętu, aby osiągnąć swoje cele strategiczne.",
           "poprawna": false,
           "wyjasnienie": "To EDM04 *Resource Optimisation*, proces Ładu. BAI09 to codzienne prowadzenie aktywów IT.",
           "pulapka": "inna-kategoria"
@@ -439,7 +439,7 @@
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "Zmiana nie została domknięta aktualizacją konfiguracji w BAI06, a weryfikacja w BAI10 nie wykryła rozbieżności.",
+          "tekst": "Zmiany nie domknięto aktualizacją konfiguracji (BAI06), a weryfikacja w BAI10 nie wykryła rozbieżności.",
           "poprawna": true,
           "wyjasnienie": "Tak. BAI06 decyduje, czy wolno zmienić, i zamyka zmianę. BAI10 pamięta, jak jest teraz, i sprawdza zapis z rzeczywistością (interpretacja kursu)."
         },
@@ -450,7 +450,7 @@
           "pulapka": "falsz"
         },
         {
-          "tekst": "To sprawa BAI08, bo brakuje instrukcji obsługi nowej wersji.",
+          "tekst": "To sprawa BAI08, bo brakuje aktualnej instrukcji obsługi nowej wersji bramki dla dyżurnych i informatyków.",
           "poprawna": false,
           "wyjasnienie": "Instrukcje to wiedza (BAI08). Tu chodzi o zapis tego, z czego system się składa.",
           "pulapka": "prawda-nie-na-temat"
@@ -485,7 +485,7 @@
           "pulapka": "falsz"
         },
         {
-          "tekst": "Nie. DSS01 nadal obowiązuje: komenda nadzoruje eksploatację usługi zleconej dostawcy, a umowę i ocenę dostawcy prowadzi APO10.",
+          "tekst": "Nie. DSS01 nadal obowiązuje: komenda nadzoruje eksploatację zleconą dostawcy, a umowę i ocenę dostawcy prowadzi APO10.",
           "poprawna": true,
           "wyjasnienie": "Tak. Zleca się wykonanie, nie odpowiedzialność. Rola zmienia się z „robimy” na „pilnujemy, żeby dostawca robił”."
         },
@@ -496,7 +496,7 @@
           "pulapka": "zbyt-waskie"
         },
         {
-          "tekst": "Nie, ale tylko dlatego, że komenda musi sama robić kopie zapasowe w chmurze.",
+          "tekst": "Nie, ale tylko dlatego, że komenda musi sama, własnymi siłami, robić kopie zapasowe danych trzymanych w chmurze dostawcy.",
           "poprawna": false,
           "wyjasnienie": "Uzasadnienie nie trafia w sedno. Chodzi o nadzór nad całą eksploatacją usługi zleconej, a nie o jedną czynność.",
           "pulapka": "prawda-nie-na-temat"
@@ -723,13 +723,13 @@
       "tresc": "Który podział zadań między APO13 a [[proc-dss05]] jest **poprawny**?",
       "opcje": [
         {
-          "tekst": "APO13 na co dzień nadaje uprawnienia i przegląda alerty, a DSS05 ustanawia system zarządzania bezpieczeństwem.",
+          "tekst": "APO13 na co dzień nadaje uprawnienia, aktualizuje antywirusa i przegląda alerty, a DSS05 ustanawia i utrzymuje system zarządzania bezpieczeństwem.",
           "poprawna": false,
           "wyjasnienie": "Odwrotnie. APO13 organizuje, DSS05 wykonuje.",
           "pulapka": "odwrocone"
         },
         {
-          "tekst": "APO13 ustanawia i utrzymuje system zarządzania bezpieczeństwem informacji, a DSS05 na co dzień realizuje ochronę: konta, antywirus, monitorowanie zdarzeń.",
+          "tekst": "APO13 ustanawia i utrzymuje system zarządzania bezpieczeństwem informacji, a DSS05 na co dzień realizuje ochronę: konta, antywirus, zdarzenia.",
           "poprawna": true,
           "wyjasnienie": "Tak. „Usługi” w nazwie DSS05 wskazują na operacyjną ochronę. Ocena, czy kontrole działają, to MEA02."
         },
@@ -939,7 +939,7 @@
           "pulapka": "forma-podrecznikowa"
         },
         {
-          "tekst": "Umowa z OSP nie jest wymogiem zewnętrznym, bo OSP to partner, a nie regulator.",
+          "tekst": "Umowa z OSP nie jest wymogiem zewnętrznym, bo OSP to partner współpracujący z komendą, a nie regulator ani organ nadzoru – więc 60 s nie ocenia MEA03.",
           "poprawna": false,
           "wyjasnienie": "Fałsz. Wymogi zewnętrzne obejmują też wymogi wynikające z umów (il. 33, funkcja „Zgodność”).",
           "pulapka": "falsz"

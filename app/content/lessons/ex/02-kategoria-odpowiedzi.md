@@ -4,7 +4,7 @@ modul: EX
 modulNazwa: Strategia egzaminacyjna
 temat: Kategoria odpowiedzi – eliminuj „prawdziwe, ale z innej półki”
 lekcja: "9.2"
-dzien: 6
+dzien: 9
 sylabus: [M0-00-08]
 minuty: 28
 zgadnij: [q-pre-ex-02]
@@ -336,7 +336,7 @@ status: uproszczenie
 refleksja: Który typ pułapki z tabeli kosztował Cię najwięcej punktów w ćwiczeniach?
 :::
 
-**Co dalej i dlaczego:** następna lekcja to 1.21 „Czy wolno, czy działa, czy ludzie z tego korzystają – jak odróżnić BAI05, BAI06 i BAI07?” (dzień 7).
+**Co dalej i dlaczego:** następna lekcja to 9.3 „Tempo, oznaczanie i »wszystkie powyższe«”. Umiesz już odrzucać odpowiedzi z innej półki. Teraz nauczysz się rozłożyć 40 minut na 50 pytań przed pierwszym próbnym egzaminem.
 
 :::wykladowca
 Podsumujmy. Powiedzcie na głos trzy zdania. Najczęstszy dystraktor jest prawdziwy, ale z innej kategorii. Poprawna odpowiedź jest prawdziwa i pochodzi z szuflady pytania. Pułapki mają sześć typów. Spróbujcie je wymienić: inna kategoria, zbyt wąskie, forma podręcznikowa, prawdziwe, ale nie na temat, fałsz i odwrócone. Jeśli potraficie to bez patrzenia, przejdźcie do ćwiczeń. W dniu 7 zaczyna się wdrożenie COBIT 5, gdzie sąsiednich szuflad jest szczególnie dużo.

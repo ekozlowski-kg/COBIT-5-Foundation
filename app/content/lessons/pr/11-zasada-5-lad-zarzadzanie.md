@@ -497,7 +497,7 @@ Rozwiążmy to razem. Najpierw szukamy, kto działa i co robi. Działa komendant
 teza: Na egzaminie wybieraj „Ład” dla oceny, priorytetów i decyzji kierunkowych, a „Zarządzanie” dla planowania, tworzenia, utrzymania i pomiaru.
 uzasadnienie: Tak rozdziela to definicja z FW-PL s. 31; dystraktory często używają słowa „monitorowanie”.
 powiazanie: Zasada 5
-przyklad: „Opracowanie strategii IT” to Zarządzanie (APO02, Zarządzanie strategią), a jej zatwierdzenie to Ład.
+przyklad: „Opracowanie strategii IT” to Zarządzanie (APO02 – Zarządzanie strategią), a jej zatwierdzenie to Ład.
 status: uproszczenie
 refleksja: Do której strony należy „ustalenie priorytetów portfela projektów”?
 :::

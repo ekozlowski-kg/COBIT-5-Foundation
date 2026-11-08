@@ -146,7 +146,8 @@ const routes = [
   [/^#\/powtorki$/, () => renderReview(main), 'powtorki'],
   [/^#\/notatki$/, () => renderNotes(main), 'notatki'],
   [/^#\/egzamin$/, () => renderExam(main), 'egzamin'],
-  [/^#\/dzien(?:\/(\d))?(?:\/([\w-]+))?$/, (m) => renderDay(main, m[1], m[2] || null), 'dzien'],
+  // Dni 0–11 – numer może mieć dwie cyfry (inaczej „#/dzien/10” otwierał dzień 0 z akcją „10”).
+  [/^#\/dzien(?:\/(\d{1,2}))?(?:\/([\w-]+))?$/, (m) => renderDay(main, m[1], m[2] || null), 'dzien'],
   [/^#\/mapa$/, () => renderMap(main), 'mapa'],
   [/^#\/mentor$/, () => renderMentor(main), 'mentor'],
   [/^#\/moduly$/, () => renderModules(main), 'home'],
@@ -154,7 +155,7 @@ const routes = [
   [/^#\/szybka\/(rano|przerwa)$/, (m) => renderQuick(main, m[1]), 'home'],
   [/^#\/sprawdzian-mentora$/, () => renderMentorExam(main), 'mentor'],
   [/^#\/karta\/([\w-]+)$/, (m) => renderTeacherCard(main, m[1]), 'mentor'],
-  [/^#\/druk\/(cobit|dzien)(?:\/(\d))?$/, (m) => renderPrint(main, m[1], m[2]), 'home'],
+  [/^#\/druk\/(cobit|dzien)(?:\/(\d{1,2}))?$/, (m) => renderPrint(main, m[1], m[2]), 'home'],
 ];
 
 // Przerwa w nauce (§16.5): ile minut minęło od ostatniej aktywności – Start może zaproponować mikropowtórkę.

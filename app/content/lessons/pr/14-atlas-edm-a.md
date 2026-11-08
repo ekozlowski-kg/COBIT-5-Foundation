@@ -168,7 +168,7 @@ EDM01, EDM02 i EDM03 to pierwsze trzy z pięciu procesów domeny EDM.
 |---|---|---|---|
 | EDM01 / APO01 | EDM01 ustala, kto i jak decyduje o IT | APO01 organizuje role, polityki i procesy wydziału IT | Zasady decydowania czy organizacja pracy IT? |
 | EDM02 / APO05 | EDM02 rozlicza, czy inwestycje dały wartość | APO05 wybiera i równoważy zestaw inwestycji (portfel) | „Czy to się opłaciło?” czy „w co inwestujemy?” |
-| EDM03 / APO12 / MEA02 | EDM03 ustala apetyt na ryzyko i go rozlicza | APO12 prowadzi rejestr ryzyk i reakcje; MEA02 ocenia, czy mechanizmy kontrolne działają | Granica ryzyka, lista ryzyk czy działanie kontroli? |
+| EDM03 / APO12 / MEA02 (kontrola wewnętrzna) | EDM03 ustala apetyt na ryzyko i go rozlicza | APO12 prowadzi rejestr ryzyk i reakcje; MEA02 ocenia, czy mechanizmy kontrolne działają | Granica ryzyka, lista ryzyk czy działanie kontroli? |
 
 Procesy APO poznasz w lekcjach 1.16–1.19, a MEA02 w części atlasu o domenie MEA.
 
