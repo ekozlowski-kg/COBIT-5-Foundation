@@ -1,0 +1,97 @@
+{
+  "id": "it-zmiana",
+  "en": "Change",
+  "wymowa": "czejndż",
+  "wymowaAkcent": "czejndż",
+  "plEgzamin": "Zmiana",
+  "plPodrecznik": "zmiana",
+  "plInne": [
+    "modyfikacja",
+    "zmiana w systemie"
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "zmiana (FW-PL s. 33: BAI06)",
+    "kurs": "Zmiana (Change)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Na egzaminie słowo występuje w nazwie procesu BAI06 Zarządzanie zmianami (Manage Changes). Uwaga: „Aktywowanie zmiany” (pierścień środkowy wdrożenia) dotyczy ludzi, a nie systemów."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-infrastruktura",
+    "it-aplikacja"
+  ],
+  "poLudzku": "Zaplanowana przeróbka w sprzęcie, programie albo ustawieniach, zrobiona tak, żeby niczego nie zepsuć.",
+  "poziom1": "Zmiana to każde dodanie, poprawienie albo usunięcie czegoś w infrastrukturze lub aplikacjach: nowa wersja programu, wymiana serwera, nowe ustawienia. Zarządzanie zmianami pilnuje, żeby zmiana była przemyślana, sprawdzona i zatwierdzona.",
+  "poziom2": "Typowa droga zmiany: wniosek → ocena skutków i ryzyka → zatwierdzenie → test → wdrożenie (najlepiej w spokojnej porze) → sprawdzenie, czy działa, i plan powrotu, gdyby nie działała. Wiele awarii zaczyna się od niezaplanowanej „drobnej poprawki”.",
+  "poziom3": "W COBIT 5 zmianami w IT zajmuje się proces BAI06 Zarządzanie zmianami (FW-PL s. 33). Nie myl go ze zmianą w ludziach podczas wdrożenia COBIT 5 – pierścień „Umożliwienie zmian” (s. 38), który poznasz w dniu 4.",
+  "wyobrazSobie": "Remont instalacji elektrycznej w domu: elektryk planuje, wyłącza prąd w zapowiedzianym czasie i sprawdza obwody, zanim znów włączy.",
+  "poCo": "Żeby ulepszać systemy, nie psując tego, co działa.",
+  "jakDziala": "Ktoś składa wniosek o zmianę. Specjaliści oceniają, co może pójść źle. Osoba odpowiedzialna zatwierdza. Zmianę testuje się, wdraża w ustalonym czasie i sprawdza. Gdy coś nie działa, wraca się do poprzedniej wersji.",
+  "dlaczegoWazne": "Niekontrolowane zmiany to jedna z najczęstszych przyczyn incydentów.",
+  "przyklady": {
+    "zycie": "Telefon pyta: „Zainstalować aktualizację dziś o 2:00 w nocy?”. To zaplanowana zmiana w porze, gdy nie korzystasz z telefonu.",
+    "biuro": "Informatyk zapowiada: „W sobotę wymieniamy serwer plików, w poniedziałek foldery będą jak zwykle”. Zmiana jest zaplanowana poza godzinami pracy.",
+    "organizacja": "Bank zmienia system kont. Najpierw testuje go miesiąc na kopii danych, potem wdraża w długi weekend.",
+    "psp": "Sikora planuje powiększyć dysk serwera „Syreny”. Wybiera godzinę, gdy jest najmniej alarmów, i ustala, że Grab ma w tym czasie pod ręką papierową listę telefonów.",
+    "it": "Zmianami w IT zarządza proces BAI06 Zarządzanie zmianami (FW-PL s. 33)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "pierscien-zmiana",
+      "roznica": "„Aktywowanie zmiany” we wdrożeniu COBIT 5 dotyczy ludzi i ich zachowań. Zmiana w tym haśle to modyfikacja systemu IT."
+    },
+    {
+      "termin": "it-problem",
+      "roznica": "Problem to przyczyna awarii. Zmiana to często sposób, by tę przyczynę usunąć."
+    }
+  ],
+  "przykladWypowiedzi": "A change, czyli zmiana, musi przejść change management, czyli zarządzanie zmianami; w COBIT 5 to proces BAI06 Manage Changes.",
+  "egzamin": "BAI06 Zarządzanie zmianami (Manage Changes). Nie myl z pierścieniem „Aktywowanie zmiany” (change enablement) we wdrożeniu (dzień 4).",
+  "powiazane": [
+    "it-problem",
+    "it-incydent",
+    "pierscien-zmiana",
+    "proc-bai06"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "BAI06 Zarządzanie zmianami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "Umożliwienie zmian (krąg środkowy)"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Przestawiasz meble w salonie. Jeśli zrobisz to w nocy po ciemku, ktoś się potknie. Lepiej uprzedzić domowników, zrobić to w dzień i sprawdzić, czy wszyscy wiedzą, gdzie teraz stoi stół.",
+    "zaawansowany": "Kwant-Sygnał w piątek o 16:00 wgrywa nową wersję „Syreny” bez uprzedzenia. O 17:30 dyżurni nie mogą wysłać alarmu. To zmiana bez planu, testu i zgody komendy, która wywołała [[it-incydent|incydent]]. Odtąd Sikora wymaga: każda zmiana „Syreny” tylko po zgodzie i z planem powrotu do starej wersji.",
+    "skrajny": "Czy wymiana papieru w drukarce to zmiana? Nie – to zwykła obsługa, nie zmienia działania systemu. Czy pilna poprawka w nocy, bo system nie działa, to zmiana? Tak – tak zwana zmiana awaryjna, z uproszczonym, ale zapisanym zatwierdzeniem. Czy aktualizacja przez dostawcę to „jego sprawa”? Nie – wpływa na usługę organizacji. **Rozstrzygnięcie:** zmiana to każda modyfikacja, która może wpłynąć na działanie usługi; nawet pilna albo zrobiona przez dostawcę wymaga zgody i zapisu."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Drobne poprawki nie wymagają zgody.",
+      "prawda": "Wiele awarii zaczyna się od „drobnej poprawki”. Liczy się wpływ na usługę, a nie wielkość zmiany."
+    },
+    {
+      "mit": "Zmiana wykonana przez dostawcę to nie nasza sprawa.",
+      "prawda": "Zmiana dotyka naszej usługi, więc organizacja musi ją znać i zatwierdzić."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Robienie zmian „na szybko” bez testu i planu powrotu.",
+    "jakTlumaczyc": "Przestawianie mebli: uprzedź, zrób za dnia, sprawdź, czy da się wrócić do starego układu.",
+    "pytanieKontrolne": "Dostawca chce w piątek po południu wgrać nową wersję „Syreny”. Co powinien wcześniej zrobić?",
+    "odpowiedzKontrolna": "Złożyć wniosek o zmianę, przetestować ją, uzyskać zgodę komendy, wybrać spokojną porę i przygotować plan powrotu do starej wersji."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "zdarzenia-wyzwalajace",
+  "en": "Trigger events",
+  "wymowa": "triger iwents",
+  "wymowaAkcent": "TRI-ger i-WENTS",
+  "plEgzamin": "Zdarzenia wyzwalające",
+  "plPodrecznik": "Zdarzenia inicjujące",
+  "mapa": "zdarzenia-wyzwalajace",
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Zdarzenia wyzwalające”. Podręcznik: „Zdarzenia inicjujące”.",
+  "poLudzku": "Iskra, która sprawia, że zmiana rusza teraz, np. nowy szef, kontrola albo nowy przepis.",
+  "wyobrazSobie": "Zapowiedziana wizyta teściowej: bałagan był od miesięcy, ale dopiero ona sprawia, że sprzątanie rusza dziś.",
+  "poCo": "Żeby rozpoznać moment, w którym organizacja ma okazję i powód, by wreszcie zająć się Ładem i Zarządzaniem IT.",
+  "jakDziala": "Zdarzenia wyzwalające (trigger events) zachodzą w środowisku wewnętrznym albo zewnętrznym, np. fuzja lub przejęcie, nowe regulacje, istotna zmiana technologii, nowy CEO, CFO lub CIO, audyt zewnętrzny, nowa strategia. Razem z punktami zapalnymi (pain points) pokazują w fazie 1 wdrożenia („Jakie są wyznaczniki?”), że zmiana jest potrzebna. Mogą też być podstawą uzasadnienia biznesowego inicjatywy.",
+  "dlaczegoWazne": "Należą do wdrażania COBIT 5 (obszar IM sylabusa). Egzamin podaje np. fuzję, nową regulację albo nowego CIO i każe nazwać to zdarzeniem wyzwalającym, a nie punktem zapalnym.",
+  "skadNazwa": "*Trigger events*. Podręcznik: „zdarzenia inicjujące”, egzamin: „wyzwalające”.",
+  "poziom1": "Coś, co się wydarzyło wewnątrz albo na zewnątrz i daje impuls, żeby wreszcie zająć się Ładem i Zarządzaniem IT (np. fuzja, nowe przepisy, nowy szef albo szef IT, duża zmiana technologii, raport audytu zewnętrznego).",
+  "poziom2": "Przykłady (s. 37): **fuzje, przejęcia, zbycie**; zmiana pozycji rynkowej, ekonomicznej lub konkurencyjnej; zmiana modelu funkcjonowania albo zaopatrzenia; **nowe wymagania regulacyjne lub dotyczące zgodności**; **istotna zmiana technologii** (przesunięcie paradygmatu); ogólnofirmowa inicjatywa Ładu; **nowy CEO, CFO, CIO**; **audyt zewnętrzny lub ocena konsultantów**; nowa strategia lub priorytet.",
+  "poziom3": "(s. 37): zdarzenia w wewnętrznym lub zewnętrznym środowisku przedsiębiorstwa, które mogą być sygnałem do skupienia się na Ładzie i Zarządzaniu IT.",
+  "przyklady": {
+    "zycie": "Przez lata nikt w rodzinie nie myślał o hasłach i kopiach zdjęć. Potem tata przechodzi na emeryturę i zostaje „domowym informatykiem”, a teściowie wprowadzają się do Was z własnymi laptopami. Te zmiany są impulsem, żeby uporządkować domowe IT – to zdarzenia wyzwalające.",
+    "biuro": "Do firmy przychodzi nowa dyrektorka i od razu zapowiada audyt zewnętrzny. Bałagan w segregatorach i w dostępach do wspólnej skrzynki trwał od lat, ale dopiero te dwa zdarzenia sprawiają, że biuro zaczyna porządki.",
+    "firma": "Piekarnia przejmuje sąsiednią cukiernię razem z jej kasami i programem do zamówień. W tym samym roku wchodzi obowiązek e-faktur. Przejęcie i nowe przepisy to zdarzenia wyzwalające, które skłaniają właściciela, żeby wziąć się za IT na poważnie.",
+    "admin": "Do urzędu gminy przychodzi nowy sekretarz, a jednocześnie wchodzi obowiązek e-Doręczeń. Na dodatek audyt zewnętrzny wytyka braki w zabezpieczeniach. Każde z tych wydarzeń to zdarzenie wyzwalające, po którym urząd bierze się za Ład i Zarządzanie IT.",
+    "psp": "KW PSP postanawia połączyć stanowiska kierowania trzech komend powiatowych w jedno. W tym samym roku przychodzi nowy komendant wojewódzki i wchodzą nowe wymagania cyberbezpieczeństwa. Te wydarzenia są sygnałem, żeby na nowo przyjrzeć się Ładowi i Zarządzaniu IT – to zdarzenia wyzwalające.",
+    "it": "Nowe wymogi prawne to zdarzenie wyzwalające: organizacja uruchamia inicjatywę wdrożenia COBIT 5 od fazy 1. W kolejnych fazach ocenia i usprawnia m.in. MEA03 (Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi) i APO13 (Zarządzanie bezpieczeństwem)."
+  },
+  "glebokosc": {
+    "prosty": "Od miesięcy w szafie panuje bałagan i jakoś się z tym żyje. Nagle dzwoni teściowa: „Przyjeżdżam w sobotę”. Bałagan był od dawna, ale dopiero ten telefon sprawia, że sprzątasz teraz – to zdarzenie wyzwalające.",
+    "zaawansowany": "Awaria przy Lipowej to [[punkty-zapalne|punkt zapalny]], czyli ból, który komenda czuje. Dopiero gdy mł. bryg. Ostrowska z komendy wojewódzkiej zapowiada kontrolę, komendantka uruchamia program wdrożenia COBIT 5 – to zdarzenie wyzwalające. Oba mogą być podstawą [[uzasadnienie-biznesowe|uzasadnienia biznesowego]] i budują poczucie pilności. Innym zdarzeniem wyzwalającym byłby np. nowy naczelnik wydziału IT albo nowe przepisy o powiadamianiu.",
+    "skrajny": "Dwa zdania z listy wyglądają prawie tak samo: „niespełnienie wymagań regulacyjnych” i „nowe wymagania regulacyjne”. Pierwsze to punkt zapalny (s. 36), bo opisuje trwający problem, a drugie to zdarzenie wyzwalające (s. 37), bo opisuje zmianę w otoczeniu. Ta sama para pułapek dotyczy audytu: „wyniki audytu regularnie wskazują na problemy” to punkt zapalny, a „audyt zewnętrzny lub ocena konsultantów” to zdarzenie wyzwalające. Intuicja „wszystko o przepisach i audycie to jedno” zawodzi. Co więcej, nowe przepisy w pytaniu o kaskadę celów to wyznacznik, a nie zdarzenie wyzwalające. **Rozstrzygnięcie:** trwający ból („niespełnienie”, „regularnie”, „powielające się”) → punkt zapalny; zmiana lub impuls („nowy”, „fuzja”, „audyt zewnętrzny”) → zdarzenie wyzwalające."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Każdy problem, który skłania do zmiany, to zdarzenie wyzwalające.",
+      "prawda": "Trwający problem to punkt zapalny. Zdarzenie wyzwalające to zmiana w otoczeniu wewnętrznym lub zewnętrznym, np. fuzja czy nowy CIO."
+    },
+    {
+      "mit": "Zdarzenie wyzwalające musi przyjść z zewnątrz.",
+      "prawda": "Może być też wewnętrzne: nowy CEO, CFO albo CIO, nowa strategia, ogólnofirmowa inicjatywa w zakresie Ładu (s. 37)."
+    },
+    {
+      "mit": "„Zdarzenia inicjujące” to inne pojęcie.",
+      "prawda": "To ta sama lista (*trigger events*): podręcznik mówi „inicjujące”, egzamin „wyzwalające”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie zdarzeń wyzwalających z punktami zapalnymi, zwłaszcza w parach o przepisach i audycie.",
+    "jakTlumaczyc": "Ból zęba i telefon od dentysty: ząb boli od miesiąca (punkt zapalny), ale idziesz do gabinetu, bo zwolnił się termin (zdarzenie wyzwalające). Potem pary z s. 36–37: „niespełnienie” kontra „nowe” wymagania, „regularne wyniki audytu” kontra „audyt zewnętrzny”.",
+    "pytanieKontrolne": "„Niespełnienie wymagań regulacyjnych” i „nowe wymagania regulacyjne” – które jest punktem zapalnym, a które zdarzeniem wyzwalającym? Po czym to poznajesz?",
+    "odpowiedzKontrolna": "„Niespełnienie” = **punkt zapalny** (trwający problem, s. 36). „Nowe wymagania” = **zdarzenie wyzwalające** (zmiana w otoczeniu, s. 37). Poznajesz po tym, czy zdanie opisuje stan, który boli, czy zmianę, która daje impuls."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "punkty-zapalne",
+      "roznica": "Punkt zapalny to trwający problem. Zdarzenie wyzwalające to zmiana."
+    }
+  ],
+  "przykladWypowiedzi": "A trigger event, czyli zdarzenie wyzwalające, np. nowa regulacja albo nowy CIO, daje impuls do zajęcia się Ładem i Zarządzaniem IT, a pain point, czyli punkt zapalny, to problem, który trwa już od dawna.",
+  "egzamin": "„Fuzje i przejęcia”, „nowe regulacje”, „nowy CIO”, „audyt zewnętrzny”, „istotna zmiana technologii” → **zdarzenia wyzwalające**.",
+  "powiazane": [
+    "punkty-zapalne",
+    "czynniki-srodowiskowe"
+  ],
+  "sylabus": [
+    "IM-02-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 37,
+      "cytat": "fuzje, przejęcia lub inne zbycie"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Zdarzenia wyzwalające",
+    "podrecznik": "Zdarzenia inicjujące",
+    "kurs": "Zdarzenia wyzwalające (Trigger events)",
+    "uwaga": "Egzamin PL: „Zdarzenia wyzwalające”; podręcznik PL: „Zdarzenia inicjujące” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 16, 35; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "lad",
+    "zarzadzanie"
+  ]
+}

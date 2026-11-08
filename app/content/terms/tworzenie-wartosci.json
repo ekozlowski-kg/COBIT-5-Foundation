@@ -1,0 +1,116 @@
+{
+  "id": "tworzenie-wartosci",
+  "en": "Value Creation (governance objective)",
+  "wymowa": "welju kriejszyn",
+  "wymowaAkcent": "WE-lju kri-EJ-szyn",
+  "plEgzamin": "Tworzenie Wartości – Cel Ładu",
+  "plPodrecznik": "Tworzenie wartości – cel nadzoru",
+  "plInne": [
+    {
+      "nazwa": "kreowanie wartości",
+      "zrodlo": "SP1 – uzasadnienie"
+    }
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Tworzenie Wartości – Cel Ładu",
+    "podrecznik": "Tworzenie wartości – cel nadzoru",
+    "kurs": "Tworzenie Wartości – Cel Ładu (Value Creation)",
+    "uwaga": "Value nie oznacza wyłącznie wartości finansowej (rejestr rozdz. V). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 9, 17, 23. Inne formy w obiegu: kreowanie wartości (SP1 – uzasadnienie)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Cel Ładu”. Podręcznik: „Cel nadzoru”. To ten sam cel – tworzenie wartości.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "potrzeba",
+    "realizacja-korzysci",
+    "ryzyko"
+  ],
+  "poLudzku": "Pożytek większy niż koszt i ryzyko: dostajemy korzyści, nie przepłacając i nie narażając się bez potrzeby.",
+  "wyobrazSobie": "Jak wybór rodzinnego samochodu: liczy się, ile daje (wygoda, bezpieczeństwo), ile kosztuje w zakupie i utrzymaniu i jak duże jest ryzyko awarii – dobry wybór to taki, w którym te trzy rzeczy są w równowadze.",
+  "poCo": "Żeby każdą decyzję o IT oceniać nie tylko po korzyściach, ale też po ryzyku i zużytych zasobach, bo dopiero ich równowaga daje interesariuszom wartość.",
+  "jakDziala": "Tworzenie wartości (value creation) to cel Ładu wynikający z potrzeb interesariuszy. Składa się z trzech elementów: realizacji korzyści (benefits realisation), optymalizacji ryzyka (risk optimisation) i optymalizacji zasobów (resource optimisation). Ład równoważy je przy każdej decyzji, pytając, kto odnosi korzyści, kto ponosi ryzyko i jakie zasoby są potrzebne; w procesach odpowiadają za to EDM02, EDM03 i EDM04.",
+  "dlaczegoWazne": "To sedno zasady 1 („Realizacja potrzeb interesariusza”) i pierwszy komponent Podejścia do Ładu (zasada 2). Na egzaminie odpowiedź podająca tylko jeden składnik, np. same korzyści, jest niepełna.",
+  "skadNazwa": "Z angielskiego *value creation*. Podręcznik: „cel nadzoru”, egzamin: „Cel Ładu”. W uzasadnieniach arkusza pada też „kreowanie wartości”.",
+  "poziom1": "Główny cel Ładu: mieć korzyści z tego, w co się inwestuje, przy rozsądnym ryzyku i bez marnowania pieniędzy, ludzi i czasu (np. nowy system skraca obsługę, nie jest za drogi i nie grozi awarią w kluczowym momencie). Trzy składniki: realizacja korzyści, optymalizacja ryzyka i optymalizacja zasobów.",
+  "poziom2": "Wartość to **równowaga** trzech elementów: **realizacji korzyści**, **optymalizacji ryzyka** i **optymalizacji zasobów**. Brak któregoś z nich oznacza, że wartości nie ma: korzyść kupiona ogromnym ryzykiem albo zbyt dużym kosztem to nie jest wartość. Wartość zależy od interesariusza – w firmie to często zysk, w administracji to usługi publiczne.",
+  "poziom3": "Rozdział 2 (s. 17): *„Tworzenie wartości oznacza osiąganie korzyści w sposób maksymalnie oszczędny pod względem wykorzystania zasobów i umożliwiający optymalizację ryzyka.”* Ilustracja 3: potrzeby interesariuszy → cel nadzoru: tworzenie wartości = realizacja korzyści + optymalizacja ryzyka + optymalizacja zasobów. Przy każdej decyzji pytaj: *Kto odnosi korzyści? Kto ponosi ryzyko? Jakie zasoby są wymagane?*",
+  "warianty": {
+    "prosto": "Kupujesz rower, żeby dojeżdżać do pracy. Oszczędzasz na paliwie, ale musisz kupić porządne zapięcie i kask i znaleźć miejsce w piwnicy. Tworzenie wartości to dostać korzyść tak, żeby ryzyko i koszty nie zjadły jej po drodze.",
+    "dokladniej": "Wartość = korzyści osiągnięte przy optymalnym ryzyku i optymalnym zużyciu zasobów.",
+    "ekspercko": "Value creation to cel Ładu; równoważenie trzech celów cząstkowych to negocjacja między interesariuszami (różne apetyty na ryzyko, horyzonty zwrotu), dokonywana przez organ Ładu w procesach EDM."
+  },
+  "przyklady": {
+    "zycie": "Zastanawiasz się nad rowerem do dojazdów. Liczysz: 300 zł miesięcznie mniej na paliwo i pół godziny mniej w korkach (korzyść), ryzyko kradzieży i wypadku (kupujesz zapięcie i kask), cena 2500 zł i miejsce w piwnicy (zasoby). Kupujesz, bo te trzy rzeczy się bilansują – to jest tworzenie wartości.",
+    "biuro": "Biuro rozważa przejście na elektroniczny obieg faktur. Korzyść to księgowanie w jeden dzień zamiast w tydzień, ryzyko to awaria systemu przy zamknięciu miesiąca, więc potrzebna jest kopia zapasowa, a zasoby to abonament i dwa dni szkolenia. Kierownik się decyduje, bo te trzy elementy się bilansują.",
+    "firma": "Właściciel warsztatu rozważa program do rezerwacji wizyt online. Zyska więcej klientów i mniej telefonów, ale ryzykuje wyciek danych klientów, a do tego płaci 150 zł abonamentu i traci dwa dni na szkolenie. Decyduje się, gdy znajduje dostawcę z dobrymi zabezpieczeniami – korzyść, ryzyko i koszt są w równowadze.",
+    "admin": "Starostwo wdraża elektroniczny obieg dokumentów. Sprawy idą o tydzień szybciej (korzyść), ale trzeba robić kopie zapasowe, żeby awaria nie zgubiła akt (ryzyko), i kupić licencje oraz oddelegować dwie osoby do wdrożenia (zasoby). Gdyby system był szybki, ale zawodny albo za drogi, nie byłoby z niego wartości.",
+    "psp": "Komenda daje dowódcom zastępów tablety z mapą i danymi o zdarzeniu. Dojazd i rozpoznanie idą szybciej (korzyść), ale na wypadek braku zasięgu zostają papierowe mapy i łączność radiowa (ryzyko), a komenda płaci za sprzęt, transmisję danych i szkolenia (zasoby). Wartość jest dopiero wtedy, gdy te trzy elementy są w równowadze.",
+    "it": "W procesach EDM02 (Zapewnienie realizacji korzyści), EDM03 (Zapewnienie optymalizacji ryzyka) i EDM04 (Zapewnienie optymalizacji zasobów) zarząd ocenia inwestycję w usługi chmurowe: jakie korzyści da, czy ryzyko mieści się w apetycie na ryzyko i czy wystarczy ludzi i pieniędzy. Wartość jest dopiero przy równowadze tych trzech ocen."
+  },
+  "glebokosc": {
+    "prosty": "Kupujesz samochód rodzinny. Liczy się, czy wygodnie dowiezie dzieci (korzyść), czy nie zepsuje się w trasie (ryzyko) i czy nie zjada całej pensji na paliwo i raty (zasoby). Sportowe auto, które często się psuje i kosztuje fortunę, nie jest dla rodziny dobrą wartością, choć daje dużo frajdy.",
+    "zaawansowany": "Halina Mak, kpt. Sikora i bryg. Wrzos rozważają zapasowy serwer Syreny. Korzyść: alarm dociera nawet przy awarii. Ryzyko: krótsze przerwy w działaniu, czyli [[optymalizacja-ryzyka]]. Zasoby: 80 tys. zł i czas mł. kpt. Dudek, czyli [[optymalizacja-zasobow]]. Komendantka szuka równowagi tych trzech składników, bo dopiero ona oznacza tworzenie wartości. W komendzie korzyścią nie jest zysk, tylko bezpieczeństwo mieszkańców, takich jak Zofia Kaczmarek – to cel [[lad|Ładu]] z [[zasada-1|Zasady 1]].",
+    "skrajny": "Kpt. Sikora proponuje wyłączyć zapasowe łącza i ciąć koszty IT o połowę. Halina Mak się cieszy, bo zasoby są „zoptymalizowane”. Jeśli jednak Syrena traci zapasowe łącze, rośnie ryzyko, a korzyść – pewny alarm – słabnie. Odwrotny błąd to inwestycja, która daje dużą korzyść kosztem ogromnego ryzyka. W obu przypadkach jeden składnik wygrywa z pozostałymi, więc wartości nie przybywa. **Rozstrzygnięcie:** tworzenie wartości = równowaga realizacji korzyści, optymalizacji ryzyka i optymalizacji zasobów naraz; maksymalizacja jednego składnika to za mało, a wartość zależy od interesariusza (w PSP to usługa publiczna, nie zysk)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wartość to zysk.",
+      "prawda": "Zysk to jedna z postaci korzyści. W administracji i PSP wartością są usługi publiczne."
+    },
+    {
+      "mit": "Najwięcej wartości daje najtańsze rozwiązanie.",
+      "prawda": "Optymalizacja zasobów to tylko jeden składnik. Bez korzyści i przy dużym ryzyku tanio nie znaczy wartościowo."
+    },
+    {
+      "mit": "Cel Ładu to realizacja korzyści.",
+      "prawda": "Cel Ładu to tworzenie wartości: korzyści, ryzyko i zasoby w równowadze. Odpowiedź z jednym składnikiem jest zbyt wąska."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Sprowadzanie wartości do jednego składnika – korzyści albo oszczędności.",
+    "jakTlumaczyc": "Stołek na trzech nogach: korzyści, ryzyko, zasoby. Utnij jedną nogę, a stołek się przewróci. Przy każdej decyzji zadaj trzy pytania z s. 17: kto odnosi korzyści, kto ponosi ryzyko, jakie zasoby są potrzebne.",
+    "pytanieKontrolne": "Projekt dał duże korzyści, ale naraził komendę na wielodniową przerwę w alarmowaniu. Czy stworzył wartość w rozumieniu COBIT 5?",
+    "odpowiedzKontrolna": "Nie w pełni. Wartość wymaga równowagi korzyści, ryzyka i zasobów, a korzyść okupiona nieakceptowalnym ryzykiem nie jest wartością."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Zysk",
+      "roznica": "Zysk to tylko jedna postać korzyści. W sektorze publicznym korzyścią są usługi publiczne."
+    },
+    {
+      "termin": "realizacja-korzysci",
+      "roznica": "Realizacja korzyści to tylko jeden z trzech składników tworzenia wartości."
+    }
+  ],
+  "przykladWypowiedzi": "Value creation, czyli tworzenie wartości, to cel Ładu: benefits realisation (realizacja korzyści) osiągana jednocześnie z risk optimisation (optymalizacją ryzyka) i resource optimisation (optymalizacją zasobów).",
+  "egzamin": "Cel Ładu „Tworzenie Wartości” realizuje się przez **wszystkie trzy** składniki naraz. Odpowiedź z jednym składnikiem jest niepełna (pułapka „zbyt wąskie”).",
+  "powiazane": [
+    "realizacja-korzysci",
+    "optymalizacja-ryzyka",
+    "optymalizacja-zasobow",
+    "lad",
+    "zasada-1"
+  ],
+  "sylabus": [
+    "M0-00-03",
+    "PR-02-01",
+    "PR-02-08"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 17,
+      "ilustracja": "3",
+      "cytat": "Tworzenie wartości oznacza osiąganie korzyści w sposób maksymalnie oszczędny pod względem wykorzystania zasobów i umożliwiający optymalizację ryzyka."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Główny cel nadzoru w przedsiębiorstwie, który osiąga się po zapewnieniu równowagi między trzema podstawowymi celami"
+    }
+  ],
+  "mapa": "cel-ladu"
+}

@@ -1,0 +1,1598 @@
+{
+  "pytania": [
+    {
+      "id": "q-atl-bai-a-01",
+      "typ": "rozpoznanie",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-20-atlas-bai-a",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Firma informatyczna projektuje, buduje i testuje nowy moduł systemu według zatwierdzonej listy wymagań. Do którego procesu COBIT 5 to pasuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "pretest": true,
+      "opcje": [
+        {
+          "tekst": "BAI03 – identyfikacja i budowanie rozwiązań",
+          "poprawna": true,
+          "wyjasnienie": "Projekt, budowa i testy rozwiązania to BAI03: odpowiedź na pytanie, JAK to zrobić."
+        },
+        {
+          "tekst": "BAI02 – definiowanie wymagań",
+          "poprawna": false,
+          "wyjasnienie": "BAI02 spisuje, CO rozwiązanie ma robić. Tu lista wymagań już jest, a trwa budowa."
+        },
+        {
+          "tekst": "BAI04 – dostępność i pojemność",
+          "poprawna": false,
+          "wyjasnienie": "BAI04 planuje moc i dostępność systemu, a nie jego budowę."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-a-02",
+      "typ": "dopasowanie",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-20-atlas-bai-a",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Dopasuj proces do tego, co w nim robisz.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "pary": [
+        {
+          "lewa": "BAI01 Programy i projekty",
+          "prawa": "Prowadzisz zatwierdzony projekt: harmonogram, budżet, zamknięcie i przegląd korzyści"
+        },
+        {
+          "lewa": "BAI02 Definiowanie wymagań",
+          "prawa": "Ustalasz i dajesz do zatwierdzenia, CO rozwiązanie ma robić"
+        },
+        {
+          "lewa": "BAI03 Identyfikacja i budowanie rozwiązań",
+          "prawa": "Projektujesz, budujesz albo kupujesz rozwiązanie i je testujesz"
+        },
+        {
+          "lewa": "BAI04 Dostępność i pojemność",
+          "prawa": "Planujesz, żeby system wytrzymał szczyt i działał, gdy jest potrzebny"
+        }
+      ],
+      "wyjasnienie": "Każdy z czterech pierwszych procesów BAI odpowiada na inne pytanie: prowadzimy (BAI01), co (BAI02), jak (BAI03), czy wystarczy mocy (BAI04)."
+    },
+    {
+      "id": "q-atl-bai-a-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-20-atlas-bai-a",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Sklep internetowy przed świętami ma trzy razy więcej zamówień niż zwykle. W październiku dział IT prognozuje ruch i dokupuje moc serwerów na ten okres. Który proces COBIT 5 **najlepiej** opisuje to działanie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "BAI04 Zarządzanie dostępnością i pojemnością",
+          "poprawna": true,
+          "wyjasnienie": "Prognoza obciążenia i rozbudowa przed szczytem to planowanie pojemności i dostępności."
+        },
+        {
+          "tekst": "DSS04 Zarządzanie ciągłością",
+          "poprawna": false,
+          "wyjasnienie": "DSS04 przygotowuje przetrwanie katastrofy, np. pożaru serwerowni. Świąteczny szczyt to normalne działanie, tylko w tłoku.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS01 Zarządzanie eksploatacją",
+          "poprawna": false,
+          "wyjasnienie": "DSS01 dostarcza bieżące dane o obciążeniu. Prognozą i rozbudową na przyszłość zajmuje się BAI04.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "APO09 Zarządzanie umowami o świadczenie usług",
+          "poprawna": false,
+          "wyjasnienie": "APO09 uzgadnia z odbiorcą obiecany poziom usług. Jak tę obietnicę spełnić przy dużym ruchu, planuje BAI04.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-a-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-20-atlas-bai-a",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który proces COBIT 5 **przede wszystkim** opisuje pracę kpt. Sikory?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "scenariusz": "Rada ds. Informatyki komendy zatwierdziła projekt nowego modułu Syreny dla OSP. Kpt. Sikora rozpisuje harmonogram i zadania. Co tydzień raportuje komendantce postęp, koszty i ryzyka. Po zakończeniu sprawdza, czy alarm rzeczywiście dochodzi szybciej.",
+      "opcje": [
+        {
+          "tekst": "APO05 Zarządzanie portfelem",
+          "poprawna": false,
+          "wyjasnienie": "Portfel wybiera inwestycje i ustala ich priorytety. Ten wybór zapadł, gdy Rada zatwierdziła projekt.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "EDM02 Zapewnienie realizacji korzyści",
+          "poprawna": false,
+          "wyjasnienie": "EDM02 to Ład: szefostwo ocenia i kieruje korzyściami. Sikora prowadzi projekt po stronie Zarządzania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BAI01 Zarządzanie programami i projektami",
+          "poprawna": true,
+          "wyjasnienie": "Prowadzenie zatwierdzonego projektu: harmonogram, raporty postępu i przegląd korzyści po zakończeniu."
+        },
+        {
+          "tekst": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+          "poprawna": false,
+          "wyjasnienie": "MEA01 mierzy wyniki procesów względem celów. Raporty postępu jednego projektu są częścią jego prowadzenia.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-a-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-20-atlas-bai-a",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Urząd miasta chce kupić system kolejkowy. Kierowniczka spisuje z urzędnikami: bilet z numerem, SMS, gdy zbliża się kolej, i obsługa po angielsku. Potem zatwierdza tę listę. Który proces COBIT 5 **najlepiej** opisuje to działanie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "BAI03 Zarządzanie identyfikacją i budowaniem rozwiązań",
+          "poprawna": false,
+          "wyjasnienie": "BAI03 odpowiada, JAK zbudować albo kupić rozwiązanie. Tu ustala się, CO system ma robić.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BAI02 Zarządzanie definiowaniem wymagań",
+          "poprawna": true,
+          "wyjasnienie": "Spisanie i zatwierdzenie, czego system ma dostarczyć, to definiowanie wymagań."
+        },
+        {
+          "tekst": "BAI01 Zarządzanie programami i projektami",
+          "poprawna": false,
+          "wyjasnienie": "Zakup może być prowadzony jako projekt, ale opis nie dotyczy harmonogramu ani budżetu.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "APO10 Zarządzanie dostawcami",
+          "poprawna": false,
+          "wyjasnienie": "APO10 wybiera dostawców i pilnuje umów z nimi. Lista potrzeb urzędników to wymagania.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-a-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-20-atlas-bai-a",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które działanie **najlepiej** pasuje do procesu BAI04 Zarządzanie dostępnością i pojemnością?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Napisanie planu pracy na wypadek zalania serwerowni i ćwiczenie odtworzenia z kopii",
+          "poprawna": false,
+          "wyjasnienie": "To przygotowanie na katastrofę, czyli DSS04 Zarządzanie ciągłością.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Codzienne sprawdzanie dzienników nocnych zadań i zasilania awaryjnego",
+          "poprawna": false,
+          "wyjasnienie": "To zaplanowana rutyna, czyli DSS01 Zarządzanie eksploatacją.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Uzgodnienie z odbiorcą, przez ile godzin w miesiącu usługa ma działać",
+          "poprawna": false,
+          "wyjasnienie": "Obietnicę poziomu usług uzgadnia APO09. BAI04 planuje, jak ją spełnić.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Prognoza wzrostu ruchu i rozbudowa serwera, zanim zabraknie mocy",
+          "poprawna": true,
+          "wyjasnienie": "Planowanie pojemności z wyprzedzeniem to sedno BAI04."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-b-01",
+      "typ": "rozpoznanie",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-21-atlas-bai-b",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "W urzędzie wdrożono elektroniczny obieg dokumentów. Po miesiącu urzędnicy dalej drukują pisma i noszą je w teczkach. Kierowniczka tłumaczy, po co jest zmiana, i wyznacza w każdym pokoju osobę do pomocy. Który to proces?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "pretest": true,
+      "opcje": [
+        {
+          "tekst": "BAI05 – wdrażanie zmian organizacyjnych",
+          "poprawna": true,
+          "wyjasnienie": "Opór, stare nawyki i przekonywanie ludzi do nowego sposobu pracy to BAI05."
+        },
+        {
+          "tekst": "BAI06 – zmiany",
+          "poprawna": false,
+          "wyjasnienie": "BAI06 ocenia i zatwierdza zmiany w systemach. Tu system działa, a problemem są nawyki ludzi."
+        },
+        {
+          "tekst": "BAI07 – akceptacja zmian i przejście",
+          "poprawna": false,
+          "wyjasnienie": "BAI07 to odbiór i przełączenie. To już się odbyło, bo system jest wdrożony."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-b-02",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-21-atlas-bai-b",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Przypisz każde działanie przy wdrażaniu zmiany do właściwego procesu.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "kategorie": [
+        "BAI05",
+        "BAI06",
+        "BAI07"
+      ],
+      "elementy": [
+        {
+          "tekst": "Komitet ocenia wpływ zmiany ustawień serwera i wyznacza termin",
+          "kategoria": "BAI06",
+          "wyjasnienie": "Ocena wpływu i zgoda na termin to kontrola zmian."
+        },
+        {
+          "tekst": "Rejestracja zmiany wprowadzonej nocą w trybie awaryjnym i jej zatwierdzenie po fakcie",
+          "kategoria": "BAI06",
+          "wyjasnienie": "Zmiana awaryjna idzie szybszą ścieżką BAI06, ale jej nie omija."
+        },
+        {
+          "tekst": "Użytkownicy testują system na prawdziwych scenariuszach i podpisują odbiór",
+          "kategoria": "BAI07",
+          "wyjasnienie": "Testy akceptacyjne i odbiór to BAI07."
+        },
+        {
+          "tekst": "Migracja danych i przełączenie na nowy system w weekend",
+          "kategoria": "BAI07",
+          "wyjasnienie": "Przejście do eksploatacji to druga połowa BAI07."
+        },
+        {
+          "tekst": "Pracownicy wracają do starego arkusza, więc kierownik tłumaczy cel zmiany",
+          "kategoria": "BAI05",
+          "wyjasnienie": "Praca z oporem i nawykami ludzi to BAI05."
+        },
+        {
+          "tekst": "Ogłoszenie na zebraniu pierwszych sukcesów nowego sposobu pracy",
+          "kategoria": "BAI05",
+          "wyjasnienie": "Pokazywanie szybkich sukcesów utrwala zmianę u ludzi – BAI05."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-b-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-21-atlas-bai-b",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Administrator chce zmienić ustawienia poczty w całej firmie. Składa wniosek, komitet ocenia wpływ na pracę działów i wyznacza termin na sobotę rano. Po zmianie administrator zamyka wniosek. Który proces COBIT 5 **najlepiej** opisuje to postępowanie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych",
+          "poprawna": false,
+          "wyjasnienie": "BAI05 dotyczy ludzi i ich nawyków. Tu chodzi o zgodę na zmianę w systemie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BAI06 Zarządzanie zmianami",
+          "poprawna": true,
+          "wyjasnienie": "Wniosek, ocena wpływu, zatwierdzenie terminu i zamknięcie wniosku to kontrola zmian."
+        },
+        {
+          "tekst": "BAI07 Zarządzanie procesem akceptacji zmian i przejścia",
+          "poprawna": false,
+          "wyjasnienie": "BAI07 odbiera rozwiązanie z użytkownikami i przenosi je do eksploatacji. Tu chodzi o zgodę i termin zmiany.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "BAI10 Zarządzanie konfiguracją",
+          "poprawna": false,
+          "wyjasnienie": "Opis konfiguracji trzeba po zmianie zaktualizować, ale zgodę na zmianę daje BAI06.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-b-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-21-atlas-bai-b",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które przyporządkowanie zdarzeń do procesów jest **poprawne**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "scenariusz": "Szpital wdraża nowy system rejestracji pacjentów. Dzieją się trzy rzeczy.\n1. Komitet ds. zmian zatwierdza termin uruchomienia na noc z soboty na niedzielę.\n2. Rejestratorki przez tydzień obsługują w systemie prawdziwe przypadki i podpisują odbiór.\n3. Starsze rejestratorki nadal zapisują pacjentów w zeszycie, więc kierowniczka organizuje dyżury koleżeńskiej pomocy.",
+      "opcje": [
+        {
+          "tekst": "1 – BAI07, 2 – BAI06, 3 – BAI05",
+          "poprawna": false,
+          "wyjasnienie": "Zamieniono zgodę z odbiorem. Zatwierdzenie terminu to BAI06, a testy z użytkownikami i odbiór to BAI07.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "1 – BAI06, 2 – BAI03, 3 – BAI05",
+          "poprawna": false,
+          "wyjasnienie": "Testy w BAI03 sprawdzają, czy rozwiązanie zbudowano dobrze. Testy rejestratorek i odbiór to testy akceptacyjne w BAI07.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "1 – BAI06, 2 – BAI07, 3 – BAI06",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznikowa nazwa BAI06 „Zarządzanie zmianami” kusi przy oporze ludzi. Opór i nawyki to BAI05.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "1 – BAI06, 2 – BAI07, 3 – BAI05",
+          "poprawna": true,
+          "wyjasnienie": "Zgoda na zmianę to BAI06, odbiór przez użytkowników to BAI07, a praca z nawykami ludzi to BAI05."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-b-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-21-atlas-bai-b",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Która sytuacja **najlepiej** pokazuje proces BAI05 Zarządzanie wdrażaniem zmian organizacyjnych?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Komitet zatwierdza termin aktualizacji systemu płacowego",
+          "poprawna": false,
+          "wyjasnienie": "Zgoda i termin zmiany w systemie to BAI06.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kadrowe testują nowy system płacowy i podpisują protokół odbioru",
+          "poprawna": false,
+          "wyjasnienie": "Testy akceptacyjne i odbiór to BAI07.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kierownik przekonuje zespół, który wraca do starego arkusza",
+          "poprawna": true,
+          "wyjasnienie": "Opór i powrót do starych nawyków to ludzka strona zmiany, czyli BAI05."
+        },
+        {
+          "tekst": "Dostawca testuje w laboratorium, czy moduł płacowy liczy podatek poprawnie",
+          "poprawna": false,
+          "wyjasnienie": "Testy w trakcie budowy to BAI03.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-b-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-21-atlas-bai-b",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "O 3:00 w nocy przestaje działać sklep internetowy. Administrator zmienia ustawienie serwera i sklep wraca. Rano rejestruje tę zmianę, a komitet ocenia ją i zatwierdza po fakcie. Do którego procesu należy **rejestracja i zatwierdzenie tej zmiany**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "BAI06 Zarządzanie zmianami, ścieżką zmiany awaryjnej",
+          "poprawna": true,
+          "wyjasnienie": "Zmiana awaryjna może wejść szybciej, ale trzeba ją zarejestrować oraz ocenić i zatwierdzić po fakcie – w BAI06."
+        },
+        {
+          "tekst": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+          "poprawna": false,
+          "wyjasnienie": "DSS02 obejmuje przywrócenie działania sklepu. Rejestracja i zatwierdzenie samej zmiany to BAI06.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "BAI07 Zarządzanie procesem akceptacji zmian i przejścia",
+          "poprawna": false,
+          "wyjasnienie": "BAI07 to odbiór przez użytkowników i przejście do eksploatacji, a nie zgoda na zmianę.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Żaden – zmiany awaryjne są poza kontrolą zmian",
+          "poprawna": false,
+          "wyjasnienie": "Zmiany awaryjne są częścią BAI06. Pilne nie znaczy poza kontrolą.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-c-01",
+      "typ": "rozpoznanie",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-22-atlas-bai-c",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Do którego procesu pasuje spisana instrukcja krok po kroku, jak przełączyć system w tryb awaryjny, sprawdzana po każdej zmianie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "pretest": true,
+      "opcje": [
+        {
+          "tekst": "BAI08 – wiedza",
+          "poprawna": true,
+          "wyjasnienie": "Spisana, dostępna i aktualizowana instrukcja to wiedza, czyli BAI08."
+        },
+        {
+          "tekst": "BAI10 – konfiguracja",
+          "poprawna": false,
+          "wyjasnienie": "BAI10 opisuje, z czego system się składa i co od czego zależy, a nie jak z nim pracować."
+        },
+        {
+          "tekst": "BAI09 – zasoby",
+          "poprawna": false,
+          "wyjasnienie": "BAI09 to majątek: sprzęt i licencje, ich koszt i cykl życia."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-c-02",
+      "typ": "dopasowanie",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-22-atlas-bai-c",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Dopasuj słowo z angielskiej nazwy procesu do procesu i jego znaczenia.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "pary": [
+        {
+          "lewa": "Assets",
+          "prawa": "BAI09 – majątek: sprzęt, oprogramowanie, licencje"
+        },
+        {
+          "lewa": "Human Resources",
+          "prawa": "APO07 – ludzie i ich kompetencje"
+        },
+        {
+          "lewa": "Resource Optimisation",
+          "prawa": "EDM04 – decyzja Ładu o wszystkich zasobach"
+        },
+        {
+          "lewa": "Configuration",
+          "prawa": "BAI10 – elementy systemu, ustawienia i powiązania"
+        },
+        {
+          "lewa": "Knowledge",
+          "prawa": "BAI08 – spisana, dostępna i aktualna wiedza"
+        }
+      ],
+      "wyjasnienie": "Polskie „zasoby” pojawia się w nazwach BAI09, APO07 i EDM04. Rozstrzyga angielskie słowo: Assets, Human Resources albo Resource Optimisation."
+    },
+    {
+      "id": "q-atl-bai-c-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-22-atlas-bai-c",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Przed aktualizacją systemu informatyk sprawdza w repozytorium, z jakimi elementami połączony jest serwer i jaką wersję oprogramowania ma bramka. Z którego procesu COBIT 5 pochodzi ta informacja?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "BAI09 Zarządzanie zasobami",
+          "poprawna": false,
+          "wyjasnienie": "Serwer jest też aktywem w BAI09, ale wersje i powiązania elementów opisuje konfiguracja.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "BAI08 Zarządzanie wiedzą",
+          "poprawna": false,
+          "wyjasnienie": "BAI08 przechowuje instrukcje i wnioski, a nie opis elementów systemu i ich powiązań.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BAI10 Zarządzanie konfiguracją",
+          "poprawna": true,
+          "wyjasnienie": "Elementy systemu, ich wersje i powiązania to repozytorium konfiguracji, czyli BAI10."
+        },
+        {
+          "tekst": "BAI06 Zarządzanie zmianami",
+          "poprawna": false,
+          "wyjasnienie": "BAI06 korzysta z tej informacji przy ocenie wpływu zmiany. Sam opis elementów prowadzi BAI10.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-c-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-22-atlas-bai-c",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który proces COBIT 5 **przede wszystkim** obejmuje prowadzenie tej ewidencji?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "scenariusz": "W firmie transportowej księgowa prosi o zestawienie: ile laptopów ma firma, kiedy kończą się ich gwarancje i które licencje trzeba odnowić w przyszłym roku. Dyrektor IT przygotowuje je z ewidencji, którą jego zespół prowadzi od zakupu do wycofania sprzętu.",
+      "opcje": [
+        {
+          "tekst": "BAI09 Zarządzanie zasobami",
+          "poprawna": true,
+          "wyjasnienie": "Koszt, gwarancja, licencje i cykl życia sprzętu to aktywa (Assets), czyli BAI09."
+        },
+        {
+          "tekst": "APO07 Zarządzanie zasobami ludzkimi",
+          "poprawna": false,
+          "wyjasnienie": "Słowo „zasoby” kusi, ale APO07 dotyczy ludzi i ich kompetencji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "EDM04 Zapewnienie optymalizacji zasobów",
+          "poprawna": false,
+          "wyjasnienie": "EDM04 to decyzja Ładu o wszystkich zasobach organizacji, a nie ewidencja laptopów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO06 Zarządzanie budżetem i kosztami",
+          "poprawna": false,
+          "wyjasnienie": "Koszty interesują księgową, ale ewidencję sprzętu i licencji prowadzi BAI09. APO06 planuje budżet IT.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-c-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-22-atlas-bai-c",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Który opis **najlepiej** pasuje do procesu BAI08 Zarządzanie wiedzą?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Prowadzenie ewidencji licencji z datami ich odnowienia",
+          "poprawna": false,
+          "wyjasnienie": "To aktywa w cyklu życia, czyli BAI09.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Opis elementów systemu, ich wersji i powiązań",
+          "poprawna": false,
+          "wyjasnienie": "To repozytorium konfiguracji, czyli BAI10.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Plan szkoleń, rekrutacji i zastępstw dla wszystkich pracowników działu IT",
+          "poprawna": false,
+          "wyjasnienie": "Kompetencje, rekrutacja i zastępstwa to przede wszystkim APO07.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Spisanie instrukcji, jej udostępnienie i wycofanie starej wersji",
+          "poprawna": true,
+          "wyjasnienie": "BAI08 dba, żeby wiedza była spisana, dostępna i aktualna, także przez wycofanie nieaktualnej."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-bai-c-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-22-atlas-bai-c",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Kierownik zespołu informatyków mówi: „Brakuje mi dwóch specjalistów od sieci, a jeden odchodzi na emeryturę”. Którego procesu COBIT 5 dotyczy ta sprawa?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "BAI09 Zarządzanie zasobami",
+          "poprawna": false,
+          "wyjasnienie": "„Zasoby” w BAI09 to aktywa (Assets): sprzęt i licencje, a nie ludzie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO07 Zarządzanie zasobami ludzkimi",
+          "poprawna": true,
+          "wyjasnienie": "Braki w zespole, rekrutacja i zastępstwa to zasoby ludzkie (Human Resources), czyli APO07."
+        },
+        {
+          "tekst": "EDM04 Zapewnienie optymalizacji zasobów",
+          "poprawna": false,
+          "wyjasnienie": "EDM04 to decyzja Ładu o wszystkich zasobach organizacji. Braki w zespole kierownika to codzienne Zarządzanie ludźmi.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BAI08 Zarządzanie wiedzą",
+          "poprawna": false,
+          "wyjasnienie": "Odejście eksperta grozi utratą wiedzy, którą chroni BAI08. Same braki kadrowe i zastępstwa to APO07.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-dss-a-01",
+      "typ": "rozpoznanie",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-23-atlas-dss-a",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "W poniedziałek rano w biurze przestaje działać poczta. Informatyk restartuje serwer i poczta wraca. Do którego procesu należy to działanie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "pretest": true,
+      "opcje": [
+        {
+          "tekst": "DSS02 – zgłoszenia serwisowe i incydenty",
+          "poprawna": true,
+          "wyjasnienie": "Szybkie przywrócenie usługi po przerwie to obsługa incydentu, czyli DSS02."
+        },
+        {
+          "tekst": "DSS03 – problemy",
+          "poprawna": false,
+          "wyjasnienie": "DSS03 szuka przyczyny powtarzających się awarii. Tu chodzi o szybki powrót poczty."
+        },
+        {
+          "tekst": "DSS01 – eksploatacja",
+          "poprawna": false,
+          "wyjasnienie": "DSS01 to zaplanowana rutyna. Przerwa w usłudze trafia do DSS02."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-dss-a-02",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-23-atlas-dss-a",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Przypisz każde działanie do procesu domeny DSS.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "kategorie": [
+        "DSS01",
+        "DSS02",
+        "DSS03"
+      ],
+      "elementy": [
+        {
+          "tekst": "Codzienne sprawdzanie dzienników nocnych zadań",
+          "kategoria": "DSS01",
+          "wyjasnienie": "Zaplanowana rutyna i monitorowanie to eksploatacja."
+        },
+        {
+          "tekst": "Cotygodniowa kontrola zasilania awaryjnego i klimatyzacji w serwerowni",
+          "kategoria": "DSS01",
+          "wyjasnienie": "Dbanie o środowisko i pomieszczenia IT należy do DSS01."
+        },
+        {
+          "tekst": "Odblokowanie hasła na prośbę pracownika",
+          "kategoria": "DSS02",
+          "wyjasnienie": "Zwykła prośba użytkownika to zgłoszenie serwisowe w DSS02."
+        },
+        {
+          "tekst": "Restart bramki SMS, żeby alarm znów wychodził",
+          "kategoria": "DSS02",
+          "wyjasnienie": "Szybkie przywrócenie usługi to obsługa incydentu."
+        },
+        {
+          "tekst": "Analiza zgłoszeń z pół roku w poszukiwaniu wspólnej przyczyny",
+          "kategoria": "DSS03",
+          "wyjasnienie": "Szukanie przyczyny źródłowej to zarządzanie problemami."
+        },
+        {
+          "tekst": "Zapisanie znanego błędu i obejścia do czasu trwałej poprawki",
+          "kategoria": "DSS03",
+          "wyjasnienie": "Znany błąd i obejście należą do DSS03; problem zostaje otwarty do usunięcia przyczyny."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-dss-a-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-23-atlas-dss-a",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Pracownik prosi o założenie konta w systemie kadrowym dla nowej koleżanki. Żadna usługa się nie zepsuła. Który proces COBIT 5 **najlepiej** obejmuje przyjęcie i obsługę tej prośby?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "DSS01 Zarządzanie eksploatacją",
+          "poprawna": false,
+          "wyjasnienie": "DSS01 to zaplanowana rutyna. Prośba użytkownika to zgłoszenie serwisowe.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS03 Zarządzanie problemami",
+          "poprawna": false,
+          "wyjasnienie": "Nie ma tu awarii ani przyczyny do szukania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BAI09 Zarządzanie zasobami",
+          "poprawna": false,
+          "wyjasnienie": "BAI09 prowadzi ewidencję majątku, a nie prośby użytkowników.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+          "poprawna": true,
+          "wyjasnienie": "DSS02 obsługuje i incydenty, i zwykłe zgłoszenia serwisowe użytkowników."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-dss-a-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-23-atlas-dss-a",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który proces COBIT 5 powinien teraz **przede wszystkim** zająć się sprawą?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "scenariusz": "W bibliotece miejskiej system wypożyczeń zawiesza się w każdy poniedziałek rano. Za każdym razem informatyk go restartuje i po kwadransie wszystko działa. Średni czas przywrócenia jest bardzo dobry. Dyrektorka mimo to pyta, dlaczego zawieszenia wracają.",
+      "opcje": [
+        {
+          "tekst": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+          "poprawna": false,
+          "wyjasnienie": "DSS02 dobrze przywraca usługę, ale nie szuka przyczyny powtarzających się awarii.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "DSS03 Zarządzanie problemami",
+          "poprawna": true,
+          "wyjasnienie": "Powtarzające się incydenty o nieznanej przyczynie to problem. Przyczynę źródłową ustala DSS03."
+        },
+        {
+          "tekst": "DSS01 Zarządzanie eksploatacją",
+          "poprawna": false,
+          "wyjasnienie": "Rutyna i monitorowanie nie wyjaśniają przyczyny powtarzającej się awarii.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+          "poprawna": false,
+          "wyjasnienie": "MEA01 raportuje wyniki względem celów. Przyczynę konkretnej awarii ustala DSS03.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-dss-a-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-23-atlas-dss-a",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Która sytuacja **najlepiej** pokazuje proces DSS01 Zarządzanie eksploatacją?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Informatyk co tydzień sprawdza zasilanie awaryjne i temperaturę w serwerowni",
+          "poprawna": true,
+          "wyjasnienie": "Zaplanowana rutyna i dbanie o pomieszczenia IT to eksploatacja."
+        },
+        {
+          "tekst": "Informatyk w nocy restartuje serwer, który przestał odpowiadać",
+          "poprawna": false,
+          "wyjasnienie": "Przywrócenie usługi po przerwie to incydent w DSS02.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Informatyk zestawia awarie z kwartału i szuka ich wspólnej przyczyny",
+          "poprawna": false,
+          "wyjasnienie": "Szukanie przyczyny powtarzających się awarii to DSS03.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Informatyk prognozuje wzrost ruchu i planuje rozbudowę serwera na przyszły rok",
+          "poprawna": false,
+          "wyjasnienie": "Prognoza i planowanie pojemności to BAI04. DSS01 daje do niego tylko bieżące dane.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-dss-a-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-23-atlas-dss-a",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Informatyk znalazł przyczynę powtarzających się awarii: błędne ustawienie kolejki SMS. Jak COBIT 5 **najlepiej** opisuje dalsze postępowanie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Informatyk od razu sam wgrywa poprawkę na serwer, bo DSS03 obejmuje też każdą naprawę",
+          "poprawna": false,
+          "wyjasnienie": "Kto znalazł przyczynę, nie wgrywa poprawki po cichu. Trwała poprawka to zmiana i przechodzi przez BAI06.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Problem zostaje zamknięty, bo obejście w postaci restartu działa",
+          "poprawna": false,
+          "wyjasnienie": "Obejście pozwala szybko obsłużyć incydent, ale problem zostaje otwarty, dopóki przyczyna istnieje.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "DSS03 inicjuje poprawkę, a jej wprowadzenie przechodzi jako zmiana przez BAI06",
+          "poprawna": true,
+          "wyjasnienie": "DSS03 znajduje przyczynę i proponuje rozwiązanie. Poprawkę w systemie wprowadza się przez BAI06."
+        },
+        {
+          "tekst": "Sprawa wraca do DSS02, bo to on obsługuje awarie",
+          "poprawna": false,
+          "wyjasnienie": "DSS02 przywraca usługę. Trwałe usunięcie przyczyny inicjuje DSS03, a poprawkę wprowadza BAI06.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-dss-b-01",
+      "typ": "rozpoznanie",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-24-atlas-dss-b",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Firma ma spisany i przećwiczony plan: co robi, gdy pożar zniszczy serwerownię i trzeba pracować z innego miejsca. Do którego procesu należy ten plan?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "pretest": true,
+      "opcje": [
+        {
+          "tekst": "DSS04 – ciągłość",
+          "poprawna": true,
+          "wyjasnienie": "Plan przetrwania poważnego zakłócenia, ćwiczony i aktualizowany, to DSS04."
+        },
+        {
+          "tekst": "BAI04 – dostępność i pojemność",
+          "poprawna": false,
+          "wyjasnienie": "BAI04 planuje moc i dostępność w zwykłych warunkach i w szczycie, a nie przetrwanie katastrofy."
+        },
+        {
+          "tekst": "DSS02 – zgłoszenia serwisowe i incydenty",
+          "poprawna": false,
+          "wyjasnienie": "DSS02 obsługuje zwykłe przerwy w usługach. Gdy to nie wystarcza, działa plan ciągłości."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-dss-b-02",
+      "typ": "dopasowanie",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-24-atlas-dss-b",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Przed kontrolą Ostrowskiej Sikora porządkuje zadania komendy. Połącz każde z nich z procesem COBIT 5, który za nie odpowiada.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "pary": [
+        {
+          "lewa": "Plan i ćwiczenie pracy po zalaniu serwerowni",
+          "prawa": "DSS04"
+        },
+        {
+          "lewa": "Blokada konta pracownika, który odszedł",
+          "prawa": "DSS05"
+        },
+        {
+          "lewa": "Zatwierdzanie zwrotu przez drugą osobę w procesie płatności",
+          "prawa": "DSS06"
+        },
+        {
+          "lewa": "Zasady i system zarządzania bezpieczeństwem informacji",
+          "prawa": "APO13"
+        }
+      ],
+      "wyjasnienie": "DSS04 przygotowuje przetrwanie katastrofy. DSS05 wykonuje codzienną ochronę. DSS06 wbudowuje kontrole w proces biznesowy. APO13 organizuje bezpieczeństwo."
+    },
+    {
+      "id": "q-atl-dss-b-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-24-atlas-dss-b",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Informatyk w szkole codziennie przegląda alerty nieudanych logowań, aktualizuje antywirusa i blokuje konta uczniów, którzy skończyli szkołę. Który proces COBIT 5 **najlepiej** opisuje tę pracę?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "DSS05 Zarządzanie usługami bezpieczeństwa",
+          "poprawna": true,
+          "wyjasnienie": "Codzienna, operacyjna ochrona: konta, antywirus i monitorowanie logowań to DSS05."
+        },
+        {
+          "tekst": "APO13 Zarządzanie bezpieczeństwem",
+          "poprawna": false,
+          "wyjasnienie": "APO13 organizuje system zarządzania bezpieczeństwem. Codzienną ochronę wykonuje DSS05.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS06 Zarządzanie mechanizmami kontrolnymi procesów biznesowych",
+          "poprawna": false,
+          "wyjasnienie": "DSS06 ustala, kto w procesie co zatwierdza. Techniczne konta i alerty to DSS05.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+          "poprawna": false,
+          "wyjasnienie": "MEA02 ocenia, czy ochrona działa, ale jej nie wykonuje.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-dss-b-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-24-atlas-dss-b",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który wniosek jest **najbardziej zgodny** z COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "scenariusz": "Gmina ma plan na wypadek długiej awarii prądu w urzędzie. Plan opisuje tylko, jak informatyk odtworzy serwer z kopii. Nikt go dotąd nie ćwiczył. Plan nie mówi, jak urzędnicy mają w tym czasie przyjmować mieszkańców.",
+      "opcje": [
+        {
+          "tekst": "Plan jest kompletny, bo odtworzenie serwera z kopii to cała ciągłość działania",
+          "poprawna": false,
+          "wyjasnienie": "DSS04 dotyczy ciągłości działania organizacji, a nie tylko serwera. Plan trzeba też ćwiczyć.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "To sprawa BAI04, bo chodzi o dostępność systemu",
+          "poprawna": false,
+          "wyjasnienie": "BAI04 planuje moc i dostępność w zwykłych warunkach i w szczycie. Długa awaria prądu to poważne zakłócenie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "To sprawa DSS02, bo każda awaria to incydent",
+          "poprawna": false,
+          "wyjasnienie": "DSS02 obsługuje zwykłe incydenty. Gdy zwykła obsługa nie wystarcza, działa plan z DSS04.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Plan trzeba rozszerzyć o pracę urzędu i przećwiczyć – to DSS04",
+          "poprawna": true,
+          "wyjasnienie": "Ciągłość obejmuje krytyczne procesy organizacji, ćwiczenia i przegląd planu."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-dss-b-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-24-atlas-dss-b",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "W sklepie kasjerka może przyjąć zwrot towaru, ale zatwierdzić go musi kierowniczka. Do którego procesu COBIT 5 **najlepiej** pasuje to zabezpieczenie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "DSS05 Zarządzanie usługami bezpieczeństwa",
+          "poprawna": false,
+          "wyjasnienie": "DSS05 prowadzi techniczne konta i dostęp. Zasada, kto co zatwierdza w procesie, to DSS06.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS06 Zarządzanie mechanizmami kontrolnymi procesów biznesowych",
+          "poprawna": true,
+          "wyjasnienie": "Rozdział obowiązków wbudowany w proces biznesowy to DSS06."
+        },
+        {
+          "tekst": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+          "poprawna": false,
+          "wyjasnienie": "MEA02 ocenia, czy takie zabezpieczenia działają, ale ich nie wykonuje.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "APO13 Zarządzanie bezpieczeństwem",
+          "poprawna": false,
+          "wyjasnienie": "APO13 organizuje system zarządzania bezpieczeństwem informacji, a nie kontrole w procesie sprzedaży.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-dss-b-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-24-atlas-dss-b",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która para „proces – działanie” jest **poprawna**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "APO13 – codzienne blokowanie kont osób, które odeszły",
+          "poprawna": false,
+          "wyjasnienie": "Blokowanie kont to codzienna ochrona w DSS05. APO13 organizuje system zarządzania bezpieczeństwem.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "DSS04 – dokupienie mocy serwera przed świątecznym szczytem zamówień",
+          "poprawna": false,
+          "wyjasnienie": "Szczyt obciążenia to BAI04. DSS04 przygotowuje przetrwanie katastrofy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS05 – przegląd alertów logowania i aktualizacja antywirusa",
+          "poprawna": true,
+          "wyjasnienie": "Operacyjna ochrona na co dzień to DSS05."
+        },
+        {
+          "tekst": "DSS06 – audyt, czy kontrole w procesach działają",
+          "poprawna": false,
+          "wyjasnienie": "Ocena skuteczności kontroli to MEA02. DSS06 to same kontrole działające w procesie.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-mea-01",
+      "typ": "rozpoznanie",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-25-atlas-mea",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Przed kontrolą urzędu firma spisuje przepisy i warunki umów, które musi spełniać, i sprawdza, czy je spełnia. Do którego procesu to pasuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 59
+        }
+      ],
+      "status": "oficjalne",
+      "pretest": true,
+      "opcje": [
+        {
+          "tekst": "MEA03 – zgodność z wymogami zewnętrznymi",
+          "poprawna": true,
+          "wyjasnienie": "Prawo, regulacje i umowy to wymogi zewnętrzne (compliance), czyli MEA03."
+        },
+        {
+          "tekst": "MEA01 – wydajność i zgodność",
+          "poprawna": false,
+          "wyjasnienie": "MEA01 sprawdza zgodność z naszymi celami i ustaleniami (conformance), a nie z przepisami."
+        },
+        {
+          "tekst": "MEA02 – system kontroli wewnętrznej",
+          "poprawna": false,
+          "wyjasnienie": "MEA02 ocenia, czy działają nasze mechanizmy kontrolne. Tu chodzi o same wymogi z zewnątrz."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-mea-02",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-25-atlas-mea",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Przypisz każde działanie do procesu domeny MEA.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 59
+        }
+      ],
+      "status": "uproszczenie",
+      "kategorie": [
+        "MEA01",
+        "MEA02",
+        "MEA03"
+      ],
+      "elementy": [
+        {
+          "tekst": "Miesięczny raport czasu alarmu względem celu 40 sekund",
+          "kategoria": "MEA01",
+          "wyjasnienie": "Pomiar wyników względem celów i raport to MEA01."
+        },
+        {
+          "tekst": "Działania korygujące po słabym wyniku wskaźnika",
+          "kategoria": "MEA01",
+          "wyjasnienie": "MEA01 pilnuje też działań korygujących."
+        },
+        {
+          "tekst": "Próbka nocnych alarmów: czy dyżurni nie omijają czerwonego okna",
+          "kategoria": "MEA02",
+          "wyjasnienie": "Ocena, czy zabezpieczenie działa w praktyce, to MEA02."
+        },
+        {
+          "tekst": "Samoocena kierownictwa, czy zabezpieczenia w procesie działają",
+          "kategoria": "MEA02",
+          "wyjasnienie": "MEA02 obejmuje też samoocenę kontroli, nie tylko audyt."
+        },
+        {
+          "tekst": "Lista przepisów i umów, które dotyczą systemu",
+          "kategoria": "MEA03",
+          "wyjasnienie": "Rozpoznanie wymogów zewnętrznych to MEA03."
+        },
+        {
+          "tekst": "Sprawdzenie, czy firma spełnia warunki umowy z partnerem",
+          "kategoria": "MEA03",
+          "wyjasnienie": "Wymogi wynikające z umów to także wymogi zewnętrzne – MEA03."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-mea-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-25-atlas-mea",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Zarząd spółki na kwartalnym posiedzeniu czyta raport dyrektora IT o wynikach i decyduje, że cele na kolejny rok trzeba zmienić. Gdzie w COBIT 5 leży to działanie zarządu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 32
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "W MEA01, bo zarząd monitoruje wyniki",
+          "poprawna": false,
+          "wyjasnienie": "MEA01 to Zarządzanie: kierownictwo mierzy i raportuje. Zarząd ocenia ten raport w Ładzie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "W MEA02, bo zarząd ocenia kontrolę",
+          "poprawna": false,
+          "wyjasnienie": "MEA02 ocenia mechanizmy kontrolne. Tu zarząd ocenia wyniki i zmienia kierunek.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "W domenie EDM, bo Ład też monitoruje i koryguje kierunek",
+          "poprawna": true,
+          "wyjasnienie": "Monitorowanie w Ładzie to sprawdzanie przez organ Ładu, czy kierunek jest realizowany (FW-PL s. 32)."
+        },
+        {
+          "tekst": "W APO02 Zarządzanie strategią, bo zmiana celów zawsze oznacza nową strategię IT",
+          "poprawna": false,
+          "wyjasnienie": "APO02 opracowuje strategię IT po stronie Zarządzania. Ocena raportu i zmiana kierunku przez zarząd to Ład.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-mea-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-25-atlas-mea",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Którym procesem COBIT 5 jest praca **kierownika IT**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 59
+        }
+      ],
+      "status": "uproszczenie",
+      "scenariusz": "Umowa sklepu internetowego z bankiem wymaga, żeby dane kart płatniczych były szyfrowane. Kierownik IT spisuje ten wymóg razem z przepisami o ochronie danych i sprawdza, czy sklep je spełnia. Osobno audytorka wewnętrzna testuje, czy szyfrowanie i blokady kont naprawdę działają.",
+      "opcje": [
+        {
+          "tekst": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+          "poprawna": false,
+          "wyjasnienie": "To praca audytorki: ocena, czy zabezpieczenia działają. Kierownik IT zajmuje się wymogami z zewnątrz.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi",
+          "poprawna": true,
+          "wyjasnienie": "Rozpoznanie wymogów z umowy i przepisów oraz ocena, czy są spełnione, to MEA03."
+        },
+        {
+          "tekst": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+          "poprawna": false,
+          "wyjasnienie": "MEA01 sprawdza zgodność z naszymi celami (conformance). Umowa z bankiem i przepisy to wymogi zewnętrzne.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS05 Zarządzanie usługami bezpieczeństwa",
+          "poprawna": false,
+          "wyjasnienie": "DSS05 wykonuje ochronę, np. szyfrowanie i blokady kont. Kierownik IT ocenia zgodność z wymogami.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-mea-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-25-atlas-mea",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Który opis **najlepiej** pasuje do procesu MEA02?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 59
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Ustalenie, jakie przepisy i umowy obowiązują organizację",
+          "poprawna": false,
+          "wyjasnienie": "To rozpoznanie wymogów zewnętrznych, czyli MEA03.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zbieranie wskaźników wyników i porównanie ich z celami",
+          "poprawna": false,
+          "wyjasnienie": "To pomiar wyników, czyli MEA01.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wbudowanie w proces zasady „dwóch par oczu” przy zatwierdzaniu",
+          "poprawna": false,
+          "wyjasnienie": "Kontrola działająca w procesie to DSS06. MEA02 ją ocenia, ale jej nie wbudowuje.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Ocena, czy mechanizmy kontrolne w procesach naprawdę działają",
+          "poprawna": true,
+          "wyjasnienie": "MEA02 monitoruje i ocenia skuteczność systemu kontroli wewnętrznej."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-mea-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-25-atlas-mea",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które zdanie o słowie „zgodność” w nazwach MEA01 i MEA03 jest **poprawne**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 59
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "MEA01: zgodność z naszymi celami (conformance); MEA03: z wymogami z zewnątrz (compliance)",
+          "poprawna": true,
+          "wyjasnienie": "Polskie słowo „zgodność” tłumaczy dwa różne angielskie słowa: conformance i compliance."
+        },
+        {
+          "tekst": "Oba procesy oceniają tę samą zgodność z prawem, tylko na różnych poziomach organizacji",
+          "poprawna": false,
+          "wyjasnienie": "To różne zgodności. MEA01 dotyczy naszych celów i ustaleń, a MEA03 wymogów zewnętrznych.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "MEA01 to zgodność z przepisami, a MEA03 to zgodność z wewnętrznymi celami i politykami firmy",
+          "poprawna": false,
+          "wyjasnienie": "Odwrócono role. Przepisy, regulacje i umowy to MEA03, a własne cele to MEA01.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Zgodność ocenia tylko Ład w domenie EDM, a MEA jedynie zbiera dane do raportu",
+          "poprawna": false,
+          "wyjasnienie": "MEA to Zarządzanie, które samo ocenia i raportuje zgodność. Ład ocenia raporty względem kierunku.",
+          "pulapka": "falsz"
+        }
+      ]
+    }
+  ]
+}

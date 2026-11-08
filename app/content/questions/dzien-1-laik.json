@@ -1,0 +1,181 @@
+{
+  "pytania": [
+    {
+      "id": "q-pre-m0-00",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": ["M0-00-07"],
+      "lekcja": "m0-00-zanim-zaczniesz",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Komenda kupiła nowy system powiadamiania. Kto powinien rozstrzygnąć, **po co** komendzie ten system i co ma dzięki niemu zyskać?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {"tekst": "Komendant, który za komendę odpowiada i decyduje o jej pieniądzach", "poprawna": true, "wyjasnienie": "„Po co” rozstrzyga ten, kto odpowiada za całość i płaci. W COBIT 5 nazywa się to Ładem (poznasz go w lekcji 0.6)."},
+        {"tekst": "Informatyk, bo zna się na systemach", "poprawna": false, "wyjasnienie": "Informatyk wie, **jak** system ustawić, ale nie on odpowiada za to, czemu komenda ma służyć."},
+        {"tekst": "Firma, która sprzedała system", "poprawna": false, "wyjasnienie": "Dostawca ma własny interes (sprzedać i utrzymać umowę). Nie decyduje o celach komendy."}
+      ]
+    },
+    {
+      "id": "q-m0-00-01",
+      "typ": "rozpoznanie",
+      "sylabus": ["M0-00-07"],
+      "lekcja": "m0-00-zanim-zaczniesz",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Czym jest COBIT 5?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {"tekst": "Zbiorem sprawdzonych zasad i praktyk (ramami), które pomagają organizacji decydować o informatyce i nią kierować", "poprawna": true, "wyjasnienie": "COBIT 5 to struktura ramowa wydana przez ISACA w 2012 r. Mówi, co trzeba ustalić i kto za co odpowiada, ale nie narzuca jednego sposobu."},
+        {"tekst": "Programem komputerowym do zarządzania serwerami", "poprawna": false, "wyjasnienie": "COBIT to nie oprogramowanie, tylko zbiór zasad i dobrych praktyk."},
+        {"tekst": "Ustawą, którą każda instytucja musi stosować", "poprawna": false, "wyjasnienie": "COBIT nie jest prawem. Organizacja stosuje go dobrowolnie i dopasowuje do siebie."},
+        {"tekst": "Instrukcją wyłącznie dla informatyków", "poprawna": false, "wyjasnienie": "COBIT dotyczy całej organizacji: szefów, księgowości, użytkowników, a nie tylko działu IT."}
+      ]
+    },
+    {
+      "id": "q-m0-00-02",
+      "typ": "klasyfikacja",
+      "sylabus": ["M0-00-07"],
+      "lekcja": "m0-00-zanim-zaczniesz",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Co jest **celem** organizacji, a co tylko **narzędziem informatycznym**, które ma pomóc ten cel osiągnąć?",
+      "zrodlo": [],
+      "status": "przyklad",
+      "kategorie": ["Cel organizacji", "Narzędzie (IT)"],
+      "elementy": [
+        {"tekst": "Szybka pomoc mieszkańcom w razie pożaru", "kategoria": "Cel organizacji", "wyjasnienie": "To jest powód, dla którego komenda istnieje."},
+        {"tekst": "Serwer, na którym działa system powiadamiania", "kategoria": "Narzędzie (IT)", "wyjasnienie": "Serwer sam niczego nie osiąga. Pomaga wysłać alarm."},
+        {"tekst": "Sprzedaż świeżego chleba i zarobek piekarni", "kategoria": "Cel organizacji", "wyjasnienie": "Po to piekarnia działa."},
+        {"tekst": "Program w kasie fiskalnej piekarni", "kategoria": "Narzędzie (IT)", "wyjasnienie": "Ułatwia sprzedaż, ale nie jest celem."},
+        {"tekst": "Sprawne załatwianie spraw mieszkańców w urzędzie gminy", "kategoria": "Cel organizacji", "wyjasnienie": "Po to jest urząd."},
+        {"tekst": "Sieć Wi-Fi w urzędzie", "kategoria": "Narzędzie (IT)", "wyjasnienie": "Pomaga urzędnikom pracować, ale sama nie jest celem."}
+      ]
+    },
+    {
+      "id": "q-m0-00-03",
+      "typ": "rozpoznanie",
+      "sylabus": ["M0-00-07"],
+      "lekcja": "m0-00-zanim-zaczniesz",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Po co organizacji ramy takie jak COBIT 5?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {"tekst": "Żeby nie wymyślać od zera, kto o czym decyduje i jak dbać o informatykę, tylko skorzystać ze sprawdzonych praktyk", "poprawna": true, "wyjasnienie": "Ramy dają gotowy, sprawdzony porządek, który organizacja dopasowuje do siebie."},
+        {"tekst": "Żeby kupować tańszy sprzęt", "poprawna": false, "wyjasnienie": "Ramy nie dotyczą cen sprzętu. Mogą pomóc mądrzej wydawać pieniądze, ale to nie jest ich cel."},
+        {"tekst": "Żeby zastąpić informatyków", "poprawna": false, "wyjasnienie": "Ramy porządkują pracę ludzi, a nie ich zastępują."},
+        {"tekst": "Bo wymaga tego prawo", "poprawna": false, "wyjasnienie": "COBIT stosuje się dobrowolnie."}
+      ]
+    },
+    {
+      "id": "q-pre-m0-09",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": ["M0-00-08"],
+      "lekcja": "m0-09-slowa-wytrychy",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Na naradzie pada zdanie: „Ten projekt to duże **ryzyko**”. Co to znaczy po ludzku?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {"tekst": "Coś może pójść źle i trzeba się zastanowić, jak bardzo zaszkodzi i jak bardzo jest prawdopodobne", "poprawna": true, "wyjasnienie": "Ryzyko to możliwość, że coś pójdzie nie tak. To jeszcze nie jest problem, który się wydarzył."},
+        {"tekst": "Coś już poszło źle", "poprawna": false, "wyjasnienie": "To problem albo incydent. Ryzyko dotyczy tego, co **może** się zdarzyć."},
+        {"tekst": "Projekt jest za drogi", "poprawna": false, "wyjasnienie": "Wysoki koszt to nie to samo co ryzyko."}
+      ]
+    },
+    {
+      "id": "q-m0-09-01",
+      "typ": "dopasowanie",
+      "sylabus": ["M0-00-08"],
+      "lekcja": "m0-09-slowa-wytrychy",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Dopasuj słowo z narady do jego ludzkiego znaczenia.",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "pary": [
+        {"lewa": "Interesariusz", "prawa": "każdy, kogo dana sprawa obchodzi, bo coś zyska albo straci"},
+        {"lewa": "Zasób", "prawa": "to, czym dysponujemy: ludzie, pieniądze, sprzęt, czas"},
+        {"lewa": "Proces", "prawa": "coś, co robimy regularnie, zawsze w podobny sposób"},
+        {"lewa": "Projekt", "prawa": "jednorazowe przedsięwzięcie z początkiem i końcem"},
+        {"lewa": "Rezultat", "prawa": "konkretny produkt pracy, np. raport albo działający program"}
+      ],
+      "wyjasnienie": "To słowa, które pojawiają się w COBIT od pierwszego dnia. Ich dokładne znaczenie poznasz w lekcjach 0.1–0.5."
+    },
+    {
+      "id": "q-m0-09-02",
+      "typ": "dopasowanie",
+      "sylabus": ["M0-00-08"],
+      "lekcja": "m0-09-slowa-wytrychy",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Dopasuj słowo z egzaminu COBIT 5 do jego ludzkiego znaczenia.",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "pary": [
+        {"lewa": "Ład", "prawa": "decydowanie, po co i co robimy, oraz pilnowanie, czy idziemy w dobrą stronę"},
+        {"lewa": "Zarządzanie", "prawa": "planowanie i wykonywanie pracy w kierunku wyznaczonym z góry"},
+        {"lewa": "Aktywator", "prawa": "wszystko, co musi zagrać, żeby informatyka działała: ludzie, zasady, narzędzia, informacje"},
+        {"lewa": "Wyznacznik", "prawa": "coś z zewnątrz albo ze środka, co sprawia, że zaczynamy czegoś potrzebować, np. nowy przepis"},
+        {"lewa": "Struktura ramowa", "prawa": "uporządkowany zbiór zasad i praktyk, z którego się korzysta zamiast wymyślać od zera"}
+      ],
+      "wyjasnienie": "Na egzaminie pojawiają się nazwy z lewej kolumny. Dlatego trzeba je znać, nawet jeśli brzmią dziwnie."
+    },
+    {
+      "id": "q-pre-ex-00",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": ["M0-00-08"],
+      "lekcja": "ex-00-jak-czytac-pytanie",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Pytanie brzmi: „Która osoba **NIE** jest interesariuszem systemu powiadamiania?”. Czego szukasz wśród odpowiedzi?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {"tekst": "Jedynej odpowiedzi, która do reszty nie pasuje, bo trzy pozostałe są interesariuszami", "poprawna": true, "wyjasnienie": "Słowo NIE odwraca pytanie: trzy odpowiedzi są prawdziwe, a Ty szukasz wyjątku."},
+        {"tekst": "Najważniejszego interesariusza", "poprawna": false, "wyjasnienie": "Pytanie nie pyta o ważność, tylko o to, kto **nie** jest interesariuszem."},
+        {"tekst": "Odpowiedzi, która jest prawdziwa", "poprawna": false, "wyjasnienie": "Przy słowie NIE trzy odpowiedzi są prawdziwe. Szukasz tej, która nie pasuje."}
+      ]
+    },
+    {
+      "id": "q-ex-00-01",
+      "typ": "egzamin",
+      "sylabus": ["M0-00-08", "M0-00-01"],
+      "lekcja": "ex-00-jak-czytac-pytanie",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Który z wymienionych **NIE** jest interesariuszem zewnętrznym komendy PSP?",
+      "zrodlo": [{"doc": "FW-PL", "strona": 22, "ilustracja": "7"}],
+      "status": "uproszczenie",
+      "opcje": [
+        {"tekst": "Dyżurny stanowiska kierowania", "poprawna": true, "wyjasnienie": "Dyżurny pracuje w komendzie, więc jest interesariuszem **wewnętrznym**."},
+        {"tekst": "Mieszkaniec czekający na zastęp", "poprawna": false, "wyjasnienie": "Mieszkaniec jest spoza komendy, więc to interesariusz zewnętrzny.", "pulapka": "odwrocone"},
+        {"tekst": "Dostawca systemu powiadamiania", "poprawna": false, "wyjasnienie": "Dostawcy są w COBIT 5 interesariuszami zewnętrznymi.", "pulapka": "odwrocone"},
+        {"tekst": "Komenda wojewódzka, która nadzoruje komendę", "poprawna": false, "wyjasnienie": "Nadzór spoza jednostki jest interesariuszem zewnętrznym (jak regulator).", "pulapka": "odwrocone"}
+      ]
+    },
+    {
+      "id": "q-ex-00-02",
+      "typ": "egzamin",
+      "sylabus": ["M0-00-08", "M0-00-05"],
+      "lekcja": "ex-00-jak-czytac-pytanie",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co **NAJLEPIEJ** opisuje różnicę między procesem a projektem?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {"tekst": "Proces powtarza się stale, a projekt jest jednorazowy i ma początek oraz koniec", "poprawna": true, "wyjasnienie": "To pełna, ogólna różnica, a słowo NAJLEPIEJ każe wybrać właśnie najpełniejszą odpowiedź."},
+        {"tekst": "Projekt ma koniec", "poprawna": false, "wyjasnienie": "To prawda, ale opisuje tylko projekt, a pytanie dotyczy różnicy.", "pulapka": "zbyt-waskie"},
+        {"tekst": "Projekty prowadzi zawsze dział informatyki", "poprawna": false, "wyjasnienie": "Nieprawda: projekty prowadzą różne działy.", "pulapka": "falsz"},
+        {"tekst": "Proces ma właściciela, który za niego odpowiada", "poprawna": false, "wyjasnienie": "Bywa prawdą, ale nie odpowiada na pytanie o różnicę.", "pulapka": "prawda-nie-na-temat"}
+      ]
+    }
+  ]
+}

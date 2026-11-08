@@ -1,0 +1,108 @@
+{
+  "id": "pa-4-1",
+  "en": "PA 4.1 Process measurement",
+  "wymowa": "piej 4 1 prołses meżerment",
+  "wymowaAkcent": "pi-ej 4 1 PROŁ-ses ME-żer-ment",
+  "plEgzamin": "PA 4.1 Miara procesu",
+  "plPodrecznik": "PA 4.1 Pomiar procesu",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "PA 4.1 Miara procesu",
+    "podrecznik": "PA 4.1 Pomiar procesu",
+    "kurs": "PA 4.1 Miara procesu (PA 4.1 Process measurement)",
+    "uwaga": "Egzamin PL: „PA 4.1 Miara procesu”; podręcznik PL: „PA 4.1 Pomiar procesu” – konkurencyjne odpowiedniki. SP1 (pytanie z luką o atrybut poziomu 4) potwierdza formę „Miara” procesu. Forma egzaminu PL potwierdzona: Sample Paper 1 PL."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Miara procesu”. Podręcznik (Il. 19 i 21): „Pomiar procesu”. To ten sam atrybut poziomu 4. Nie myl go z monitorowaniem wykonania z PA 2.1.",
+  "skadNazwa": "Z angielskiego *Process measurement*. Podręcznik tłumaczy to jako „pomiar”, a egzamin jako „miara”. Chodzi o mierzenie procesu liczbami.",
+  "kategoria": "egzaminacyjne",
+  "status": "uproszczenie",
+  "poziomP": "P3",
+  "wymaga": [
+    "pa-2-1",
+    "poziom-3"
+  ],
+  "poziom1": "Pierwszy atrybut poziomu 4. Sprawdza, czy wyniki pomiarów pokazują, że proces wspiera swoje cele. Muszą być potrzeby informacyjne, cele pomiaru, miary oraz zbieranie i analiza danych.",
+  "poLudzku": "Czy mierzysz tę robotę liczbami i sprawdzasz, czy wyniki są takie, jak zaplanowano.",
+  "wyobrazSobie": "Licznik na rowerze treningowym: znasz cel, widzisz wynik i porównujesz go z poprzednimi.",
+  "poCo": "Żeby o procesie mówiły liczby, a nie wrażenia.",
+  "jakDziala": "Organizacja ustala, czego chce się dowiedzieć o procesie, i stawia cele ilościowe. Wybiera miary, zbiera dane i analizuje je. Wyniki służą do oceny, czy proces wspiera swoje cele.",
+  "dlaczegoWazne": "To atrybut procesu przewidywalnego, o który pyta egzamin. Egzaminacyjna nazwa „Miara procesu” różni się od podręcznikowego „Pomiaru procesu”.",
+  "poziom2": "| Co sprawdza asesor (uproszczenie według ISO/IEC 15504) | Przykład |\n|---|---|\n| potrzeby informacyjne i cele pomiaru | co chcemy wiedzieć o procesie |\n| cele ilościowe procesu | 95% alarmów w 60 s |\n| miary i częstotliwość | czas alarmu, co tydzień |\n| zbieranie i analiza wyników | raport, trend |\n| wyniki służą do oceny procesu | wniosek na odprawie |\n\nRóżnica z [[pa-2-1|PA 2.1]]: tam patrzysz, czy wykonanie idzie zgodnie z planem. Tu mierzysz proces ilościowo względem jego celów, na bazie wspólnego standardu z poziomu 3.",
+  "poziom3": "Il. 19 (s. 42) i Il. 21 (s. 44): „Pomiar procesu”. Egzamin: „Miara procesu”. (s. 42): poziom 4 to proces działający w ramach zdefiniowanych limitów. Szczegóły atrybutu według ISO/IEC 15504-2 to uproszczenie kursu, spoza korpusu.",
+  "przyklady": {
+    "zycie": "Biegasz trzy razy w tygodniu. Zegarek zapisuje czas i tętno, a co miesiąc porównujesz wyniki z celem: 5 km poniżej 30 minut. Pomiar i analiza względem celu to PA 4.1.",
+    "biuro": "Biuro mierzy, ile dni trwa obieg faktury od wpływu do zapłaty. Cel to 7 dni, a raport co miesiąc pokazuje trend. To PA 4.1.",
+    "organizacja": "Sklep internetowy mierzy czas od zamówienia do wysyłki i procent zwrotów. Co tydzień analityk porównuje dane z celem 24 godzin i pokazuje trend kierownikowi. To miara procesu.\n\nUrząd mierzy czas wydania decyzji i liczbę odwołań. Cele są zapisane w liczbach, a dane analizuje się co kwartał. To PA 4.1.",
+    "psp": "**Raport czasów.** Naczelnik Marek Sikora ustala cel: 95% alarmów ma dotrzeć do wszystkich w 60 sekund. Syrena zapisuje czasy, a Ola Dudek co tydzień robi z nich raport. Audytorka Ewa Lis sprawdza, czy cel jest liczbowy, dane kompletne, a raport omawiany na odprawie. To PA 4.1.",
+    "it": "Proces APO09 (zarządzanie umowami o świadczenie usług): dostępność usług jest mierzona względem celów z umowy SLA, a raport analizuje trend. To dowody dla PA 4.1."
+  },
+  "glebokosc": {
+    "prosty": "Pieczesz chleb według przepisu. Teraz ważysz każdy bochenek i zapisujesz wynik w zeszycie. Po miesiącu wiesz, ile zwykle waży i czy trzymasz się celu. To miara procesu.",
+    "zaawansowany": "Proces powiadamiania ma [[poziom-3|poziom 3]]: wszyscy pracują według jednej procedury. Sikora dodaje cel liczbowy i cotygodniowy raport czasów. Ewa Lis ocenia miarę procesu: czy pomiar ma cel, jest systematyczny i prowadzi do wniosków. Co się dzieje, gdy wynik wypada poza limit, oceni [[pa-4-2|kontrola procesu]].",
+    "skrajny": "Grab mówi: „Zawsze liczyliśmy, ile alarmów wysłaliśmy, więc mamy PA 4.1”. Lis pyta o trzy rzeczy. Czy jest cel liczbowy procesu, a nie samo liczenie? Czy dane pochodzą z jednego standardu, skoro bez poziomu 3 każda zmiana liczy co innego? Czy wyniki służą do oceny procesu? Policzone zdarzenia bez celu to raczej monitorowanie z PA 2.1. Druga pułapka: egzamin mówi „Miara procesu”, a podręcznik „Pomiar procesu”. **Rozstrzygnięcie:** PA 4.1 to systematyczny pomiar procesu względem celów ilościowych, na bazie standardu z poziomu 3. Samo liczenie to jeszcze nie PA 4.1 (interpretacja kursu według ISO/IEC 15504)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Każdy wskaźnik w procesie oznacza PA 4.1.",
+      "prawda": "Pilnowanie wykonania według planu to PA 2.1. PA 4.1 wymaga celów ilościowych procesu i systematycznej analizy pomiarów."
+    },
+    {
+      "mit": "„Miara procesu” i „Pomiar procesu” to dwa różne atrybuty.",
+      "prawda": "To ten sam PA 4.1: „Miara” na egzaminie, „Pomiar” w podręczniku."
+    },
+    {
+      "mit": "PA 4.1 to cele i miary procesu z opisu procesu w COBIT 5.",
+      "prawda": "Cele i miary w opisie procesu to wzór z *Procesów umożliwiających*. PA 4.1 sprawdza, czy organizacja faktycznie mierzy swój proces i korzysta z wyników."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń widzi licznik albo tabelkę i od razu uznaje PA 4.1.",
+    "jakTlumaczyc": "Zapytaj: „Po co liczysz?”. Jeśli jest cel liczbowy, analiza i wniosek, to PA 4.1. Jeśli tylko liczysz, to monitorowanie z poziomu 2.",
+    "pytanieKontrolne": "Jaki atrybut kryje się pod nazwą „Miara procesu” i na którym poziomie leży?",
+    "odpowiedzKontrolna": "PA 4.1, poziom 4 (przewidywalny). W podręczniku: „Pomiar procesu”. Drugi atrybut tego poziomu to PA 4.2 Kontrola procesu."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "pa-4-2",
+      "roznica": "PA 4.2 to reakcja na odchylenia od limitów. PA 4.1 dostarcza liczb, na których ta reakcja się opiera."
+    },
+    {
+      "termin": "pa-2-1",
+      "roznica": "PA 2.1 pilnuje wykonania według planu. PA 4.1 mierzy proces ilościowo względem jego celów."
+    },
+    {
+      "termin": "wskaznik-opozniony",
+      "roznica": "Wskaźniki wiodące i opóźnione należą do modelu aktywatora. PA 4.1 to atrybut w ocenie zdolności procesu."
+    }
+  ],
+  "przykladWypowiedzi": "PA 4.1 Process measurement, czyli na egzaminie miara procesu (w podręczniku: pomiar procesu), to pierwszy atrybut poziomu 4.",
+  "egzamin": "Atrybuty **procesu przewidywalnego** (poziom 4): **Miara procesu** (podręcznik: pomiar) i **Kontrola procesu**.",
+  "powiazane": [
+    "atrybuty-procesu",
+    "poziom-4",
+    "pa-4-2",
+    "pa-2-1"
+  ],
+  "sylabus": [
+    "PC-01-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "Pomiar procesu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "cytat": "działa teraz w ramach zdefiniowanych limitów"
+    },
+    {
+      "doc": "SP1"
+    }
+  ],
+  "mapa": "pa-4-1"
+}

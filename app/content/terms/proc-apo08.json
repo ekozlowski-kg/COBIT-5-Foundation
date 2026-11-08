@@ -1,0 +1,118 @@
+{
+  "id": "proc-apo08",
+  "en": "APO08 Manage Relationships",
+  "wymowa": "ejpio 08 menydż rilejszynszyps",
+  "wymowaAkcent": "ej-pi-O 08 ME-nydż ri-LEJ-szyn-szyps",
+  "plEgzamin": "APO08 Zarządzanie relacjami",
+  "plPodrecznik": "APO08 Zarządzanie relacjami",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO08 Zarządzanie relacjami",
+    "podrecznik": "APO08 Zarządzanie relacjami",
+    "kurs": "APO08 Zarządzanie relacjami (APO08 Manage Relationships)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 30, 33, 52."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie APO08 i słowie kluczowym EN *Relationships*. Chodzi o relacje IT z resztą organizacji (z „biznesem”). Relacje z dostawcami to APO10.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "interesariusz"
+  ],
+  "poLudzku": "Informatycy regularnie rozmawiają z resztą organizacji, żeby dobrze rozumieć potrzeby ludzi i budować zaufanie.",
+  "wyobrazSobie": "Lekarz rodzinny, który zna pacjenta od lat i wcześnie zauważa, że coś jest nie tak.",
+  "poCo": "Żeby IT i reszta organizacji rozumiały się nawzajem, ufały sobie i razem ustalały potrzeby.",
+  "jakDziala": "IT utrzymuje stały kontakt z użytkownikami i kierownikami w organizacji. Zbiera potrzeby, tłumaczy możliwości IT i uzgadnia priorytety. Mierzy zadowolenie i reaguje na sygnały.",
+  "dlaczegoWazne": "Bez dobrej relacji strategia i umowy o usługi rozmijają się z potrzebami. Framework używa APO08 jako przykładu celów i mierników procesu.",
+  "skadNazwa": "EN *Manage Relationships*. Chodzi o relację między IT a resztą organizacji. Polskie „relacje” bywa mylone z kontaktami z dostawcami (APO10).",
+  "poziom1": "Proces Zarządzania o relacji IT z „biznesem”. Buduje przejrzystą, partnerską współpracę: IT rozumie potrzeby organizacji, a organizacja rozumie możliwości IT.",
+  "poziom2": "**Czym się zajmuje:** utrzymuje stały kontakt IT z użytkownikami i kierownikami w organizacji oraz wspólne rozumienie potrzeb i priorytetów.\n\n**Wejścia (intuicja):** strategie i plany organizacji, opinie użytkowników, skargi i pochwały.\n\n**Wyjścia (intuicja):** uzgodnione potrzeby i priorytety, plan komunikacji, wyniki badań zadowolenia.\n\n**Współpraca:** formalne poziomy usług zapisuje [[proc-apo09]]. Strategia ([[proc-apo02]]) i portfel ([[proc-apo05]]) korzystają z rozpoznanych potrzeb.",
+  "poziom3": "Il. 16 (s. 33): „APO08 Zarządzanie relacjami”. Framework podaje APO08 jako przykład celów i mierników procesu (s. 30). Cel: *„istnieją dobre relacje między przedsiębiorstwem i działem IT.”* Miernik: *„wskaźniki na podstawie badań dotyczących zadowolenia użytkowników i personelu IT.”* Drugi cel: *„strategie biznesowe, plany i wymogi są dobrze zrozumiane, udokumentowane i zatwierdzone.”* Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Fryzjer przy każdej wizycie pyta, jak sprawdziła się ostatnia fryzura i czego szukasz teraz. Zna Twoje potrzeby, zanim je powiesz. To relacja, a nie cennik. W IT to APO08.",
+    "biuro": "Informatyk obsługujący biuro raz w miesiącu pyta pracowników, co ich denerwuje w komputerach. Dzięki temu wie, że najpilniejsza jest wolna drukarka, a nie nowy program.",
+    "organizacja": "Opiekun biznesowy z działu IT co miesiąc spotyka się z kierownikami sprzedaży i magazynu. Słucha, co ich boli, i tłumaczy, co IT może zrobić. Raz w roku robi ankietę zadowolenia. To APO08. Informatyk urzędu raz w miesiącu odwiedza każdy wydział i pyta o problemy z systemami. Zbiera potrzeby na kolejny rok. Wydziały mu ufają i zgłaszają kłopoty wcześniej. To APO08.",
+    "psp": "**Kawa w SK.** Naczelnik Marek Sikora co tydzień przychodzi na stanowisko kierowania. Pyta dyżurnych Graba i Nowik, co ich w Syrenie męczy. Rozmawia też z dowódcą zmiany Dębem z JRG 1. Dzięki temu zna potrzeby, zanim wybuchnie awaria. To jest [[proc-apo08|APO08]].",
+    "it": "Opiekun biznesowy (*business relationship manager*) prowadzi kwartalne spotkania z dyrektorami działów i badania zadowolenia. To APO08. Spisane poziomy usług to [[proc-apo09]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-apo09",
+      "roznica": "APO09 zapisuje formalne poziomy usług (SLA) i je monitoruje. APO08 buduje relację i wspólne rozumienie potrzeb."
+    },
+    {
+      "termin": "proc-apo10",
+      "roznica": "APO10 to relacje z dostawcami zewnętrznymi. APO08 to relacja IT z organizacją, którą IT obsługuje."
+    },
+    {
+      "termin": "interesariusz",
+      "roznica": "Interesariusze to wszyscy zainteresowani. APO08 skupia się na relacji IT z resztą organizacji."
+    }
+  ],
+  "przykladWypowiedzi": "APO08 *Manage Relationships*, czyli „Zarządzanie relacjami”, buduje relację IT z organizacją; relacje z dostawcami to APO10 *Manage Suppliers*.",
+  "egzamin": "Słowa-klucze: **relacja IT–biznes, wspólne rozumienie potrzeb, opiekun biznesowy, zadowolenie użytkowników** → APO08. Framework używa APO08 jako przykładu celów i mierników procesu (s. 30).",
+  "powiazane": [
+    "apo",
+    "proc-apo09",
+    "proc-apo10",
+    "interesariusz",
+    "kategorie-celow-procesu"
+  ],
+  "sylabus": [
+    "PR-01-04",
+    "EN-02-08"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO08 Zarządzanie relacjami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 30,
+      "cytat": "Cel: istnieją dobre relacje między przedsiębiorstwem i działem IT."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 30,
+      "cytat": "Miernik: wskaźniki na podstawie badań dotyczących zadowolenia użytkowników i personelu IT."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 30,
+      "cytat": "Cel: strategie biznesowe, plany i wymogi są dobrze zrozumiane, udokumentowane i zatwierdzone."
+    }
+  ],
+  "mapa": "proc-apo08",
+  "glebokosc": {
+    "prosty": "Lekarz rodzinny zna Cię od lat. Pyta o samopoczucie, nawet gdy przychodzisz po receptę. Dzięki temu wcześnie widzi kłopoty. Taka stała, życzliwa rozmowa to relacja.",
+    "zaawansowany": "Sikora z rozmów w SK wie, że dyżurni chcą potwierdzenia odbioru alarmu. To APO08: rozumienie potrzeb. Potrzeba trafia do strategii ([[proc-apo02]]) i portfela ([[proc-apo05]]). Gdy usługa powstanie, jej poziom zapisze się w umowie o usługi ([[proc-apo09]]). Relacja jest pierwsza, zapis formalny przychodzi później.",
+    "skrajny": "Grab skarży się Sikorze: „Syrena za wolno się uruchamia”. Sikora obiecuje, że start potrwa najwyżej minutę, i to zapisuje w karcie usługi. Gdzie kończy się APO08, a zaczyna APO09? Rozmowa i zrozumienie potrzeby to APO08. Uzgodniony i mierzony poziom usługi to APO09. Gdyby Sikora rozmawiał o tym z Kwant-Sygnałem, byłby to APO10. **Rozstrzygnięcie:** zrozumienie potrzeb i zaufanie → APO08; zapisany i mierzony poziom usługi → APO09; dostawca → APO10. (interpretacja kursu)"
+  },
+  "zagmatwania": [
+    {
+      "mit": "APO08 to relacje z dostawcami.",
+      "prawda": "Z dostawcami jest APO10. APO08 dotyczy relacji IT z organizacją."
+    },
+    {
+      "mit": "Relacja to miękki dodatek bez mierników.",
+      "prawda": "Framework podaje miernik: badania zadowolenia użytkowników i personelu IT (s. 30)."
+    },
+    {
+      "mit": "Wystarczy SLA, relacja jest niepotrzebna.",
+      "prawda": "SLA (APO09) zapisuje poziomy usług. Bez relacji (APO08) nie wiadomo, czego naprawdę potrzeba."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń przypisuje APO08 do dostawców albo myli go z APO09.",
+    "jakTlumaczyc": "APO08 to rozmowa przy kawie. APO09 to podpisana karta usługi. APO10 to umowa z firmą zewnętrzną.",
+    "pytanieKontrolne": "Dział IT robi ankietę zadowolenia wśród pracowników i spotyka się z kierownikami działów. Który to proces?",
+    "odpowiedzKontrolna": "APO08, czyli zarządzanie relacjami IT z organizacją."
+  }
+}

@@ -1,0 +1,1632 @@
+{
+  "pytania": [
+    {
+      "id": "q-atl-edm-a-01",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-14-atlas-edm-a",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Jak sądzisz, który proces sprawdza, czy pieniądze wydane na informatykę dały organizacji prawdziwy pożytek?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "APO06 Zarządzanie budżetem i kosztami",
+          "poprawna": false,
+          "wyjasnienie": "APO06 liczy i kontroluje koszty IT, ale nie ocenia, czy inwestycja dała pożytek."
+        },
+        {
+          "tekst": "EDM02 Zapewnienie realizacji korzyści",
+          "poprawna": true,
+          "wyjasnienie": "EDM02 (*Ensure Benefits Delivery*) to proces Ładu, który rozlicza wartość inwestycji w IT."
+        },
+        {
+          "tekst": "BAI01 Zarządzanie programami i projektami",
+          "poprawna": false,
+          "wyjasnienie": "BAI01 dowozi projekt: zakres, termin, budżet. Nie ocenia, czy organizacja ma z niego pożytek."
+        },
+        {
+          "tekst": "MEA03 (zgodność z wymogami zewnętrznymi)",
+          "poprawna": false,
+          "wyjasnienie": "MEA03 sprawdza zgodność z przepisami i umowami zewnętrznymi, a nie wartość inwestycji."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-edm-a-02",
+      "typ": "dopasowanie",
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-14-atlas-edm-a",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Dopasuj proces do opisu pracy.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "pary": [
+        {
+          "lewa": "EDM01",
+          "prawa": "Organ Ładu ustala, kto i na jakich zasadach decyduje o IT, i sprawdza, czy ten układ działa."
+        },
+        {
+          "lewa": "EDM02",
+          "prawa": "Organ Ładu ocenia, czy inwestycje w IT przyniosły oczekiwaną wartość."
+        },
+        {
+          "lewa": "EDM03",
+          "prawa": "Organ Ładu ustala apetyt na ryzyko i rozlicza, czy go przestrzegamy."
+        },
+        {
+          "lewa": "APO12",
+          "prawa": "Kierownik IT prowadzi rejestr ryzyk, ocenia je i dobiera reakcje."
+        }
+      ],
+      "wyjasnienie": "EDM01–EDM03 to Ład: zasady decydowania, wartość i granica ryzyka. APO12 to Zarządzanie, które pracuje w granicy ustalonej w EDM03."
+    },
+    {
+      "id": "q-atl-edm-a-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-14-atlas-edm-a",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Który proces należy do Ładu i dotyczy ustanowienia oraz utrzymania zasad, według których organizacja decyduje o IT?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego",
+          "poprawna": true,
+          "wyjasnienie": "EDM01 (*Ensure Governance Framework Setting and Maintenance*) ustanawia i utrzymuje ramy Ładu nad IT."
+        },
+        {
+          "tekst": "APO01 Zarządzanie metodyką zarządzania IT",
+          "poprawna": false,
+          "wyjasnienie": "APO01 to Zarządzanie: organizuje role, polityki i procesy IT w ramach zasad ustalonych w EDM01.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "EDM05 Zapewnienie Transparentności Interesariuszy",
+          "poprawna": false,
+          "wyjasnienie": "EDM05 to proces Ładu, ale dotyczy przejrzystości wobec interesariuszy, a nie zasad decydowania.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+          "poprawna": false,
+          "wyjasnienie": "MEA02 to Zarządzanie (domena MEA). Ocenia, czy mechanizmy kontrolne działają.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-edm-a-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-14-atlas-edm-a",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "scenariusz": "Gmina od roku używa nowego systemu obsługi wniosków. Rada gminy pyta, czy mieszkańcy załatwiają sprawy szybciej i czy system jest wart swojej ceny. Burmistrz, który w urzędzie odpowiada za Ład, zleca ocenę. Na jej podstawie decyduje, czy dalej finansować rozwój systemu.",
+      "tresc": "Który proces COBIT 5 opisuje działanie burmistrza?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "BAI01 Zarządzanie programami i projektami",
+          "poprawna": false,
+          "wyjasnienie": "BAI01 prowadzi projekt do odbioru. Tu system już działa, a pytanie dotyczy wartości dla mieszkańców.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO05 Zarządzanie Portfelem",
+          "poprawna": false,
+          "wyjasnienie": "APO05 to Zarządzanie, które wybiera i równoważy inwestycje. Tu wartość ocenia osoba odpowiedzialna za Ład.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "EDM02 Zapewnienie realizacji korzyści",
+          "poprawna": true,
+          "wyjasnienie": "Organ Ładu ocenia, czy inwestycja dała oczekiwaną wartość, i na tej podstawie kieruje dalszym finansowaniem. To EDM02."
+        },
+        {
+          "tekst": "APO06 Zarządzanie budżetem i kosztami",
+          "poprawna": false,
+          "wyjasnienie": "Koszt jest częścią oceny, ale APO06 liczy i kontroluje wydatki. Nie rozlicza wartości inwestycji.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-edm-a-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-14-atlas-edm-a",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Na egzaminie pada nazwa angielska *Ensure Risk Optimisation*. Które zdanie najlepiej opisuje ten proces?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Proces Zarządzania, który prowadzi rejestr ryzyk IT i dobiera na nie reakcje",
+          "poprawna": false,
+          "wyjasnienie": "To APO12 *Manage Risk*. Pracuje w granicy ryzyka, którą wyznacza Ład.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Proces Zarządzania, który ocenia, czy mechanizmy kontrolne działają",
+          "poprawna": false,
+          "wyjasnienie": "To MEA02, czyli ocena systemu kontroli wewnętrznej w domenie MEA.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Proces Ładu, który ustala, kto i jak decyduje o IT",
+          "poprawna": false,
+          "wyjasnienie": "To EDM01. Jest w Ładzie, ale dotyczy zasad decydowania, a nie ryzyka.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Proces Ładu, który wyznacza granicę akceptowalnego ryzyka",
+          "poprawna": true,
+          "wyjasnienie": "*Ensure Risk Optimisation* to EDM03. Ład ustala apetyt na ryzyko i rozlicza jego przestrzeganie (FW-PL s. 31)."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-edm-a-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-14-atlas-edm-a",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Komenda porządkuje sprawy informatyki. Która praca należy do Ładu, a NIE do Zarządzania?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Wyznaczenie właścicieli procesów w wydziale informatyki",
+          "poprawna": false,
+          "wyjasnienie": "To organizacja pracy zarządczej IT, czyli APO01.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Podział decyzji o wydatkach na IT między radę a komendantkę",
+          "poprawna": true,
+          "wyjasnienie": "Ustalenie, kto i na jakich zasadach decyduje o IT, to EDM01, czyli Ład."
+        },
+        {
+          "tekst": "Napisanie polityki IT i rozpisanie ról dla całego wydziału informatyki",
+          "poprawna": false,
+          "wyjasnienie": "Polityka IT i role w wydziale to system zarządzania IT, czyli APO01.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Comiesięczna aktualizacja rejestru ryzyk systemu alarmowego",
+          "poprawna": false,
+          "wyjasnienie": "Rejestr ryzyk to APO12 w Zarządzaniu. Ład ustala tylko granicę ryzyka (EDM03).",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-edm-b-01",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-15-atlas-edm-b",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Jak sądzisz, który proces odpowiada za to, żeby interesariusze dostawali od szefostwa rzetelny obraz informatyki, także jej porażek?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "MEA01 (monitorowanie wydajności i zgodności)",
+          "poprawna": false,
+          "wyjasnienie": "MEA01 to Zarządzanie: mierzy wyniki i raportuje w górę, do organu Ładu."
+        },
+        {
+          "tekst": "APO08 Zarządzanie relacjami",
+          "poprawna": false,
+          "wyjasnienie": "APO08 buduje relację IT z resztą organizacji. Nie odpowiada za raportowanie Ładu wobec interesariuszy."
+        },
+        {
+          "tekst": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego",
+          "poprawna": false,
+          "wyjasnienie": "EDM01 ustala zasady decydowania o IT, a nie to, co i komu raportujemy."
+        },
+        {
+          "tekst": "EDM05 Zapewnienie Transparentności Interesariuszy",
+          "poprawna": true,
+          "wyjasnienie": "EDM05 (*Ensure Stakeholder Transparency*) to przejrzystość organu Ładu wobec interesariuszy."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-edm-b-02",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-15-atlas-edm-b",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Słowo „zasoby” pasuje po polsku do trzech procesów. Przypisz każde działanie do właściwego procesu.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "kategorie": [
+        "EDM04 Zapewnienie optymalizacji zasobów",
+        "APO07 Zarządzanie zasobami ludzkimi",
+        "BAI09 Zarządzanie zasobami (aktywa)"
+      ],
+      "elementy": [
+        {
+          "tekst": "Zarząd ocenia, czy IT ma dość ludzi, pieniędzy i technologii, i ustala zasady ich podziału",
+          "kategoria": "EDM04 Zapewnienie optymalizacji zasobów",
+          "wyjasnienie": "Ocena i kierunek dla wszystkich zasobów na poziomie zarządu to Ład, czyli EDM04."
+        },
+        {
+          "tekst": "Komendantka kieruje: dwie osoby na każdą kluczową czynność i pieniądze na drugi serwer",
+          "kategoria": "EDM04 Zapewnienie optymalizacji zasobów",
+          "wyjasnienie": "Decyzja organu Ładu obejmuje ludzi i sprzęt naraz, więc to EDM04."
+        },
+        {
+          "tekst": "Plan szkoleń i zastępstw dla dyżurnych, którzy obsługują system",
+          "kategoria": "APO07 Zarządzanie zasobami ludzkimi",
+          "wyjasnienie": "Szkolenia i zastępstwa to praca z ludźmi w Zarządzaniu, czyli APO07 *Human Resources*."
+        },
+        {
+          "tekst": "Ocena kompetencji informatyków i plan rekrutacji",
+          "kategoria": "APO07 Zarządzanie zasobami ludzkimi",
+          "wyjasnienie": "Kompetencje, ocena i rekrutacja to APO07."
+        },
+        {
+          "tekst": "Ewidencja laptopów i licencji przez cały ich cykl życia",
+          "kategoria": "BAI09 Zarządzanie zasobami (aktywa)",
+          "wyjasnienie": "Spis aktywów przez cały cykl życia to BAI09 *Manage Assets*."
+        },
+        {
+          "tekst": "Sprawdzenie w spisie sprzętu, kiedy wymienić stare radiotelefony",
+          "kategoria": "BAI09 Zarządzanie zasobami (aktywa)",
+          "wyjasnienie": "Cykl życia konkretnego sprzętu, łącznie z wymianą, to BAI09."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-edm-b-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-15-atlas-edm-b",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Który proces Ładu dotyczy oceny, kierowania i monitorowania wykorzystania ludzi, pieniędzy i technologii w IT?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "APO07 Zarządzanie zasobami ludzkimi",
+          "poprawna": false,
+          "wyjasnienie": "APO07 to Zarządzanie i dotyczy tylko ludzi. Pytanie mówi o Ładzie i o wszystkich zasobach.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "BAI09 Zarządzanie zasobami",
+          "poprawna": false,
+          "wyjasnienie": "Tak podręcznik nazywa BAI09, ale ten proces dotyczy aktywów (*Assets*): sprzętu i licencji.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "EDM04 Zapewnienie optymalizacji zasobów",
+          "poprawna": true,
+          "wyjasnienie": "EDM04 (*Ensure Resource Optimisation*) to proces Ładu dla wszystkich zasobów IT."
+        },
+        {
+          "tekst": "EDM02 Zapewnienie realizacji korzyści",
+          "poprawna": false,
+          "wyjasnienie": "EDM02 to proces Ładu, ale dotyczy wartości inwestycji, a nie zasobów.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-edm-b-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-15-atlas-edm-b",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "scenariusz": "Audytorka Ewa Lis co miesiąc mierzy czas dotarcia alarmu i przekazuje wyniki naczelnikowi Sikorze. Sikora składa z nich raport komendantce. Komendantka Wrzos decyduje, które dane komenda pokaże komendzie wojewódzkiej, OSP i mieszkańcom. Pilnuje też, żeby raport nie przemilczał awarii.",
+      "tresc": "Który proces COBIT 5 opisuje działanie komendantki Wrzos?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "EDM05 Zapewnienie Transparentności Interesariuszy",
+          "poprawna": true,
+          "wyjasnienie": "Organ Ładu decyduje, co i komu raportuje, i odpowiada za rzetelność. To EDM05."
+        },
+        {
+          "tekst": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+          "poprawna": false,
+          "wyjasnienie": "MEA01 opisuje pracę Lis i Sikory: pomiar i raport w górę. Pytanie dotyczy decyzji komendantki.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "EDM02 Zapewnienie realizacji korzyści",
+          "poprawna": false,
+          "wyjasnienie": "EDM02 rozlicza wartość inwestycji. Tu chodzi o rzetelny obraz dla interesariuszy.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "APO08 Zarządzanie relacjami",
+          "poprawna": false,
+          "wyjasnienie": "APO08 to relacja IT z własną organizacją w Zarządzaniu, a nie raportowanie Ładu na zewnątrz.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-edm-b-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-15-atlas-edm-b",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Które trzy procesy domeny EDM odpowiadają trzem składnikom Celu Ładu: korzyściom, ryzyku i zasobom?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 71,
+          "cytat": "procesy nadzoru odnoszą się do celów związanych z nadzorem"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "EDM01, EDM02 i EDM03",
+          "poprawna": false,
+          "wyjasnienie": "EDM01 to rama Ładu, a nie składnik Celu Ładu. Brakuje też EDM04, czyli zasobów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "EDM02, EDM03 i EDM04",
+          "poprawna": true,
+          "wyjasnienie": "Korzyści to EDM02, ryzyko to EDM03, a zasoby to EDM04. Procesy Ładu odnoszą się do tych celów (FW-PL s. 71)."
+        },
+        {
+          "tekst": "EDM03, EDM04 i EDM05",
+          "poprawna": false,
+          "wyjasnienie": "EDM05 to przejrzystość wobec interesariuszy, a nie składnik Celu Ładu. Brakuje EDM02, czyli korzyści.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "APO05, APO12 i APO07",
+          "poprawna": false,
+          "wyjasnienie": "To procesy Zarządzania, które współpracują z EDM02–EDM04. Nie należą do domeny EDM.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-edm-b-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-15-atlas-edm-b",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Naczelnik informatyki przygotowuje kwartalny raport o działaniu systemu alarmowego i przekazuje go komendantce. Który proces NAJLEPIEJ opisuje przygotowanie tego raportu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "EDM05 Zapewnienie Transparentności Interesariuszy",
+          "poprawna": false,
+          "wyjasnienie": "EDM05 to raport organu Ładu dla interesariuszy. Tu raport płynie odwrotnie: od Zarządzania do Ładu.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "EDM04 Zapewnienie optymalizacji zasobów",
+          "poprawna": false,
+          "wyjasnienie": "EDM04 dotyczy wystarczalności zasobów, a nie raportowania wyników.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO08 Zarządzanie relacjami",
+          "poprawna": false,
+          "wyjasnienie": "Relacja z użytkownikami pomaga, ale nie jest pomiarem i raportem wyników.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+          "poprawna": true,
+          "wyjasnienie": "Zbieranie mierników, ocena względem celów i raport kierownictwa w górę to MEA01."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-a-01",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-16-atlas-apo-a",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Jak sądzisz, w którym procesie informatyka sprawdza nową technologię w małej próbie, zanim organizacja zdecyduje o zakupie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "APO04 Zarządzanie innowacjami",
+          "poprawna": true,
+          "wyjasnienie": "APO04 (*Manage Innovation*) śledzi nowości i sprawdza je, np. w pilotażu, zanim zapadnie decyzja o inwestycji."
+        },
+        {
+          "tekst": "APO02 Zarządzanie strategią",
+          "poprawna": false,
+          "wyjasnienie": "Strategia wyznacza kierunek i kolejność kroków, a nie testuje nowinek."
+        },
+        {
+          "tekst": "BAI06 Zarządzanie zmianami",
+          "poprawna": false,
+          "wyjasnienie": "BAI06 wprowadza zatwierdzone zmiany w działających systemach. Nie sprawdza nowych pomysłów."
+        },
+        {
+          "tekst": "EDM02 Zapewnienie realizacji korzyści",
+          "poprawna": false,
+          "wyjasnienie": "EDM02 to Ład, który rozlicza wartość po inwestycji, a nie testuje technologii przed nią."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-a-02",
+      "typ": "dopasowanie",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-16-atlas-apo-a",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Dopasuj proces do wyniku pracy.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "pary": [
+        {
+          "lewa": "APO01",
+          "prawa": "Właściciele procesów, polityka IT i podział ról w dziale informatyki"
+        },
+        {
+          "lewa": "APO02",
+          "prawa": "Stan obecny, stan docelowy, luka i mapa drogowa IT na trzy lata"
+        },
+        {
+          "lewa": "APO03",
+          "prawa": "Opis, jak aplikacje i dane łączą się w całość, oraz zasady budowy nowych systemów"
+        },
+        {
+          "lewa": "APO04",
+          "prawa": "Rekomendacja po pilotażu nowej technologii"
+        }
+      ],
+      "wyjasnienie": "APO01 organizuje pracę IT, APO02 wyznacza kierunek, APO03 opisuje budowę całości, a APO04 sprawdza nowości."
+    },
+    {
+      "id": "q-atl-apo-a-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-16-atlas-apo-a",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Który proces obejmuje ustalenie stanu obecnego i docelowego IT, luki między nimi oraz mapy drogowej działań?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "APO03 Zarządzanie architekturą korporacyjną",
+          "poprawna": false,
+          "wyjasnienie": "Architektura też opisuje stan docelowy, ale jako budowę całości i zasady budowy, a nie kolejność działań.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego",
+          "poprawna": false,
+          "wyjasnienie": "EDM01 to Ład i zasady decydowania o IT, a nie plan działań IT.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO05 Zarządzanie Portfelem",
+          "poprawna": false,
+          "wyjasnienie": "Portfel wybiera inwestycje. Inicjatywy z mapy drogowej trafiają do niego dopiero później.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO02 Zarządzanie strategią",
+          "poprawna": true,
+          "wyjasnienie": "Stan obecny, stan docelowy, luka i mapa drogowa to elementy strategii IT, czyli APO02."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-a-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-16-atlas-apo-a",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "scenariusz": "Szpital tworzy dział informatyki od nowa. Kierowniczka działu ustala, kto odpowiada za sieć, kto za system rejestracji pacjentów, a kto za kopie zapasowe. Spisuje zasady pracy działu i sposób zgłaszania usprawnień w procesach IT.",
+      "tresc": "Który proces COBIT 5 najlepiej opisuje pracę kierowniczki?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego",
+          "poprawna": false,
+          "wyjasnienie": "EDM01 to Ład: zasady decydowania o IT na samej górze. Kierowniczka organizuje pracę działu, czyli Zarządzanie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO01 Zarządzanie metodyką zarządzania IT",
+          "poprawna": true,
+          "wyjasnienie": "Role, odpowiedzialności, zasady pracy i doskonalenie procesów IT to system zarządzania IT, czyli APO01."
+        },
+        {
+          "tekst": "BAI01 Zarządzanie programami i projektami",
+          "poprawna": false,
+          "wyjasnienie": "„Metodyka” w nazwie APO01 kusi skojarzeniem z projektami. Tu nie ma jednak projektu z początkiem i końcem.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO07 Zarządzanie zasobami ludzkimi",
+          "poprawna": false,
+          "wyjasnienie": "Chodzi o ludzi, ale role i zasady pracy działu to APO01. APO07 to obsada, kompetencje i szkolenia.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-a-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-16-atlas-apo-a",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która praca należy do APO03 Zarządzanie architekturą korporacyjną, a NIE do APO02 Zarządzanie strategią?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Zasada, że każdy nowy system korzysta z jednej bazy adresów",
+          "poprawna": true,
+          "wyjasnienie": "Zasady budowy całości to architektura, czyli APO03."
+        },
+        {
+          "tekst": "Wybór, które inicjatywy IT zrealizować w pierwszym roku, a które później",
+          "poprawna": false,
+          "wyjasnienie": "Kolejność kroków to strategia, czyli APO02. Pytanie pyta o odwrotną stronę pary.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Opisanie luki między obecnym a docelowym stanem informatyki",
+          "poprawna": false,
+          "wyjasnienie": "Luka między stanami to element strategii, czyli APO02.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Prowadzenie spisu serwerów z numerami wersji oprogramowania",
+          "poprawna": false,
+          "wyjasnienie": "Spis konkretnych elementów i wersji to konfiguracja, czyli BAI10.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-a-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-16-atlas-apo-a",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Pilotaż nowego rozwiązania w APO04 zakończył się sukcesem. Gdzie zapada decyzja, czy organizacja w nie zainwestuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "W APO04, bo udany pilotaż oznacza już wdrożenie",
+          "poprawna": false,
+          "wyjasnienie": "Wynikiem pilotażu jest rekomendacja, a nie decyzja o inwestycji.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "W BAI06, bo każda nowość to zmiana w systemach",
+          "poprawna": false,
+          "wyjasnienie": "BAI06 wprowadza zatwierdzone zmiany. Nie wybiera inwestycji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "W APO05, który wybiera inwestycje do portfela",
+          "poprawna": true,
+          "wyjasnienie": "Decyzja, czy pomysł wygra z innymi inwestycjami, zapada w portfelu, czyli w APO05."
+        },
+        {
+          "tekst": "W EDM01, bo chodzi o zasady decydowania o IT",
+          "poprawna": false,
+          "wyjasnienie": "EDM01 ustala zasady decydowania, ale nie wybiera konkretnych inwestycji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-b-01",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-17-atlas-apo-b",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Jak sądzisz, który proces wybiera, które z wielu pomysłów na inwestycje w IT dostaną pieniądze?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "APO06 Zarządzanie budżetem i kosztami",
+          "poprawna": false,
+          "wyjasnienie": "APO06 planuje budżet i śledzi koszty, ale nie wybiera inwestycji."
+        },
+        {
+          "tekst": "BAI01 Zarządzanie programami i projektami",
+          "poprawna": false,
+          "wyjasnienie": "BAI01 prowadzi jeden projekt, który już wybrano."
+        },
+        {
+          "tekst": "APO05 Zarządzanie Portfelem",
+          "poprawna": true,
+          "wyjasnienie": "APO05 (*Manage Portfolio*) wybiera i równoważy zestaw inwestycji IT."
+        },
+        {
+          "tekst": "APO02 Zarządzanie strategią",
+          "poprawna": false,
+          "wyjasnienie": "Strategia wskazuje kierunek i kolejność, ale wyboru inwestycji dokonuje się w portfelu."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-b-02",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-17-atlas-apo-b",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Przypisz każde działanie do właściwego procesu.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "kategorie": [
+        "APO05 Portfel",
+        "APO06 Budżet i koszty",
+        "APO07 Zasoby ludzkie"
+      ],
+      "elementy": [
+        {
+          "tekst": "Porównanie korzyści i ryzyk pięciu pomysłów i wybór dwóch do sfinansowania",
+          "kategoria": "APO05 Portfel",
+          "wyjasnienie": "Wybór zestawu inwestycji to APO05."
+        },
+        {
+          "tekst": "Wstrzymanie projektu, żeby przesunąć pieniądze na ważniejszą inwestycję",
+          "kategoria": "APO05 Portfel",
+          "wyjasnienie": "Decyzja o projekcie na tle innych inwestycji to portfel, czyli APO05."
+        },
+        {
+          "tekst": "Wyjaśnienie, dlaczego rachunek za SMS-y przekroczył plan",
+          "kategoria": "APO06 Budżet i koszty",
+          "wyjasnienie": "Śledzenie kosztów i wyjaśnianie odchyleń to APO06."
+        },
+        {
+          "tekst": "Podział kosztów systemu między jednostki, które z niego korzystają",
+          "kategoria": "APO06 Budżet i koszty",
+          "wyjasnienie": "Przydział i rozliczanie kosztów to APO06."
+        },
+        {
+          "tekst": "Plan szkoleń, żeby dwie kolejne osoby umiały obsłużyć tryb awaryjny",
+          "kategoria": "APO07 Zasoby ludzkie",
+          "wyjasnienie": "Szkolenia i zastępstwa to APO07."
+        },
+        {
+          "tekst": "Ocena kompetencji informatyków i plan zatrudnienia kontraktora",
+          "kategoria": "APO07 Zasoby ludzkie",
+          "wyjasnienie": "Ocena, kompetencje i obsada, także z zewnątrz, to APO07."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-b-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-17-atlas-apo-b",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Które zdanie o procesie APO05 jest prawdziwe?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Prowadzi pojedynczy projekt od startu do odbioru",
+          "poprawna": false,
+          "wyjasnienie": "To BAI01. APO05 decyduje o projekcie na tle innych inwestycji, a nie prowadzi go.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Równoważy cały zestaw programów, projektów i usług IT",
+          "poprawna": true,
+          "wyjasnienie": "Portfel obejmuje programy, projekty i działające usługi. APO05 wybiera je i równoważy."
+        },
+        {
+          "tekst": "Jest procesem Ładu, który ocenia wartość inwestycji dla wszystkich interesariuszy",
+          "poprawna": false,
+          "wyjasnienie": "Ocena wartości przez organ Ładu to EDM02. APO05 należy do Zarządzania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Planuje budżet IT i wyjaśnia odchylenia kosztów w ciągu roku",
+          "poprawna": false,
+          "wyjasnienie": "Budżet i odchylenia to APO06.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-b-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-17-atlas-apo-b",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "scenariusz": "Urząd miasta przyjmuje do działu IT dwóch kontraktorów z zewnętrznej firmy. Umowę z firmą podpisał już dział zamówień. Kierownik IT ustala, jakie umiejętności muszą mieć kontraktorzy, wprowadza ich w zasady pracy i co pół roku ocenia ich pracę razem z pracownikami etatowymi.",
+      "tresc": "Który proces COBIT 5 najlepiej opisuje pracę kierownika IT?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "APO10 Zarządzanie dostawcami",
+          "poprawna": false,
+          "wyjasnienie": "Umowa z firmą to APO10, ale jest już podpisana. Kierownik zajmuje się ludźmi: umiejętnościami i oceną.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "EDM04 Zapewnienie optymalizacji zasobów",
+          "poprawna": false,
+          "wyjasnienie": "EDM04 to Ład i kierunek dla wszystkich zasobów. Tu kierownik IT pracuje z konkretnymi ludźmi.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BAI09 Zarządzanie zasobami",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznikowa nazwa kusi, ale BAI09 to aktywa, czyli sprzęt i licencje, a nie ludzie.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "APO07 Zarządzanie zasobami ludzkimi",
+          "poprawna": true,
+          "wyjasnienie": "Kompetencje, wprowadzenie i ocena ludzi pracujących dla IT, także z zewnątrz, to APO07."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-b-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-17-atlas-apo-b",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która praca należy do APO06 Zarządzanie budżetem i kosztami?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Wybór, który z trzech projektów dostanie pieniądze w przyszłym roku",
+          "poprawna": false,
+          "wyjasnienie": "Wybór inwestycji to portfel, czyli APO05.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Decyzja zarządu o zasadach podziału zasobów między dziedziny IT",
+          "poprawna": false,
+          "wyjasnienie": "Kierunek Ładu dla zasobów to EDM04.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Porównanie wydatków IT z planem i wyjaśnienie różnic",
+          "poprawna": true,
+          "wyjasnienie": "Śledzenie kosztów i wyjaśnianie odchyleń od budżetu to APO06."
+        },
+        {
+          "tekst": "Negocjowanie niższej stawki w umowie z operatorem SMS",
+          "poprawna": false,
+          "wyjasnienie": "Negocjacje z dostawcą to APO10, choć wynik wpłynie na koszty.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-b-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-17-atlas-apo-b",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Kierowniczka projektu nowej bramki SMS przesuwa termin testów i dokłada zadania do harmonogramu. Który proces opisuje tę pracę?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "BAI01 Zarządzanie programami i projektami",
+          "poprawna": true,
+          "wyjasnienie": "Decyzje wewnątrz jednego projektu, np. harmonogram i zakres testów, to BAI01."
+        },
+        {
+          "tekst": "APO05 Zarządzanie Portfelem",
+          "poprawna": false,
+          "wyjasnienie": "APO05 decyduje o projekcie na tle innych inwestycji. Harmonogram wewnątrz projektu to BAI01.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO06 Zarządzanie budżetem i kosztami",
+          "poprawna": false,
+          "wyjasnienie": "APO06 śledzi koszty, ale nie układa harmonogramu projektu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "EDM02 Zapewnienie realizacji korzyści",
+          "poprawna": false,
+          "wyjasnienie": "EDM02 to Ład, który ocenia wartość, a nie prowadzi projektu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-c-01",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-18-atlas-apo-c",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Jak sądzisz, w którym procesie IT uzgadnia z własnymi użytkownikami, jak szybko i jak dobrze mają działać usługi?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "APO10 Zarządzanie dostawcami",
+          "poprawna": false,
+          "wyjasnienie": "APO10 dotyczy firm zewnętrznych, a nie własnych użytkowników."
+        },
+        {
+          "tekst": "APO08 Zarządzanie relacjami",
+          "poprawna": false,
+          "wyjasnienie": "APO08 buduje relację i rozumienie potrzeb. Zapisany poziom usług powstaje w innym procesie."
+        },
+        {
+          "tekst": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+          "poprawna": false,
+          "wyjasnienie": "DSS02 obsługuje awarie i prośby, ale nie ustala poziomu usług."
+        },
+        {
+          "tekst": "APO09 Zarządzanie umowami o świadczenie usług",
+          "poprawna": true,
+          "wyjasnienie": "APO09 (*Manage Service Agreements*) uzgadnia z organizacją katalog usług i ich poziomy, czyli SLA."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-c-02",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-18-atlas-apo-c",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Przypisz każde działanie do właściwego procesu.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "kategorie": [
+        "APO08 Relacje",
+        "APO09 Umowy o świadczenie usług",
+        "APO10 Dostawcy"
+      ],
+      "elementy": [
+        {
+          "tekst": "Cotygodniowa rozmowa z dyżurnymi o tym, co ich męczy w systemie",
+          "kategoria": "APO08 Relacje",
+          "wyjasnienie": "Rozumienie potrzeb własnych użytkowników to APO08."
+        },
+        {
+          "tekst": "Stałe spotkania z kierownikami jednostek, żeby znać ich plany i potrzeby",
+          "kategoria": "APO08 Relacje",
+          "wyjasnienie": "Relacja IT z resztą organizacji to APO08."
+        },
+        {
+          "tekst": "Zapis w katalogu usług: alarm u odbiorcy w 60 sekund",
+          "kategoria": "APO09 Umowy o świadczenie usług",
+          "wyjasnienie": "Katalog usług i uzgodniony poziom usługi to APO09."
+        },
+        {
+          "tekst": "Miesięczny raport dla użytkowników, czy uzgodniony poziom usług został dotrzymany",
+          "kategoria": "APO09 Umowy o świadczenie usług",
+          "wyjasnienie": "APO09 także mierzy, czy SLA jest dotrzymywane."
+        },
+        {
+          "tekst": "Porównanie ofert trzech firm i wybór wykonawcy",
+          "kategoria": "APO10 Dostawcy",
+          "wyjasnienie": "Wybór dostawcy to APO10."
+        },
+        {
+          "tekst": "Kwartalna ocena, czy firma zewnętrzna wywiązuje się z kontraktu",
+          "kategoria": "APO10 Dostawcy",
+          "wyjasnienie": "Ocena wykonania kontraktu przez dostawcę to APO10."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-c-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-18-atlas-apo-c",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Który proces obejmuje wybór dostawcy, umowę z nim, ocenę jego wykonania i ryzyko związane z dostawcą?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "APO10 Zarządzanie dostawcami",
+          "poprawna": true,
+          "wyjasnienie": "Cały cykl współpracy z firmą zewnętrzną to APO10 (*Manage Suppliers*)."
+        },
+        {
+          "tekst": "APO09 Zarządzanie umowami o świadczenie usług",
+          "poprawna": false,
+          "wyjasnienie": "Słowo „umowy” w podręcznikowej nazwie kusi, ale APO09 to uzgodnienia usług z własną organizacją.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "APO08 Zarządzanie relacjami",
+          "poprawna": false,
+          "wyjasnienie": "APO08 to relacja IT z własną organizacją, a nie z dostawcami.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO12 Zarządzanie ryzykiem",
+          "poprawna": false,
+          "wyjasnienie": "Ryzyko dostawcy trafia do rejestru ryzyk, ale wybór, umowa i ocena dostawcy to APO10.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-c-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-18-atlas-apo-c",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "scenariusz": "Dział IT uczelni obsługuje system zapisów na zajęcia. Kierownik IT spisuje z dziekanatem, że system ma działać w dni robocze od 7 do 22, a zgłoszona awaria ma być usunięta w 4 godziny. Co miesiąc pokazuje dziekanatowi, czy te poziomy zostały dotrzymane.",
+      "tresc": "Który proces COBIT 5 najlepiej opisuje pracę kierownika IT?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "APO10 Zarządzanie dostawcami",
+          "poprawna": false,
+          "wyjasnienie": "W scenariuszu nie ma firmy zewnętrznej. Dziekanat to część własnej organizacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+          "poprawna": false,
+          "wyjasnienie": "Usuwanie awarii to DSS02, ale kierownik ustala i mierzy poziom usług, a nie usuwa awarii.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "APO09 Zarządzanie umowami o świadczenie usług",
+          "poprawna": true,
+          "wyjasnienie": "Uzgodnione z użytkownikami poziomy usług i pomiar ich dotrzymania to APO09."
+        },
+        {
+          "tekst": "APO08 Zarządzanie relacjami",
+          "poprawna": false,
+          "wyjasnienie": "Rozmowa z dziekanatem to relacja, ale jej wynikiem jest zapisany i mierzony poziom usług, czyli APO09.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-c-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-18-atlas-apo-c",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które zdanie o procesie APO08 Zarządzanie relacjami jest prawdziwe?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 30,
+          "cytat": "istnieją dobre relacje między przedsiębiorstwem i działem IT"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Dotyczy relacji z dostawcami i kontraktów z nimi",
+          "poprawna": false,
+          "wyjasnienie": "Dostawcy i kontrakty to APO10.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "To miękki dodatek, dla którego nie da się ustalić mierników",
+          "poprawna": false,
+          "wyjasnienie": "FW-PL s. 30 podaje dla APO08 miernik: badania zadowolenia użytkowników i personelu IT.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Kończy się podpisaniem umowy o poziomie usług z użytkownikami",
+          "poprawna": false,
+          "wyjasnienie": "Umowa o poziomie usług (SLA) to APO09.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Buduje wspólne rozumienie potrzeb IT i organizacji",
+          "poprawna": true,
+          "wyjasnienie": "APO08 dba o dobre relacje i wspólne rozumienie potrzeb między organizacją a IT (FW-PL s. 30)."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-c-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-18-atlas-apo-c",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Pracownik zgłasza, że system kadrowy przestał działać, a informatyk przywraca jego działanie. Który proces obejmuje tę pracę?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "APO09 Zarządzanie umowami o świadczenie usług",
+          "poprawna": false,
+          "wyjasnienie": "APO09 ustala, jak szybko awaria ma być usunięta, ale samej awarii nie obsługuje.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+          "poprawna": true,
+          "wyjasnienie": "Przyjęcie zgłoszenia i przywrócenie działania usługi to DSS02."
+        },
+        {
+          "tekst": "APO08 Zarządzanie relacjami",
+          "poprawna": false,
+          "wyjasnienie": "APO08 to rozumienie potrzeb organizacji, a nie usuwanie awarii.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO10 Zarządzanie dostawcami",
+          "poprawna": false,
+          "wyjasnienie": "W scenariuszu nie ma firmy zewnętrznej. To codzienna obsługa w domenie DSS.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-d-01",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-19-atlas-apo-d",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Jak sądzisz, który proces ustala politykę bezpieczeństwa informacji i plan ochrony dla całej organizacji?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "DSS05 Zarządzanie usługami bezpieczeństwa",
+          "poprawna": false,
+          "wyjasnienie": "DSS05 to codzienna ochrona: konta, hasła, antywirus. Polityka i plan powstają gdzie indziej."
+        },
+        {
+          "tekst": "APO13 Zarządzanie bezpieczeństwem",
+          "poprawna": true,
+          "wyjasnienie": "APO13 (*Manage Security*) buduje system zarządzania bezpieczeństwem informacji: politykę, plan i przegląd."
+        },
+        {
+          "tekst": "APO12 Zarządzanie ryzykiem",
+          "poprawna": false,
+          "wyjasnienie": "APO12 obejmuje całe ryzyko IT, ale nie buduje systemu bezpieczeństwa informacji."
+        },
+        {
+          "tekst": "MEA02 (ocena systemu kontroli wewnętrznej)",
+          "poprawna": false,
+          "wyjasnienie": "MEA02 ocenia, czy mechanizmy kontrolne działają, a nie pisze polityki bezpieczeństwa."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-d-02",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-19-atlas-apo-d",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Przypisz każde działanie do właściwego procesu.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "kategorie": [
+        "APO11 Jakość",
+        "APO12 Ryzyko",
+        "APO13 Bezpieczeństwo"
+      ],
+      "elementy": [
+        {
+          "tekst": "Ustalenie standardu testów po każdej aktualizacji systemu",
+          "kategoria": "APO11 Jakość",
+          "wyjasnienie": "Wymagania jakości i standardy pracy to APO11."
+        },
+        {
+          "tekst": "Zmiana procedury po skargach użytkowników na jakość usługi",
+          "kategoria": "APO11 Jakość",
+          "wyjasnienie": "Doskonalenie na podstawie opinii klientów to APO11."
+        },
+        {
+          "tekst": "Comiesięczna aktualizacja rejestru ryzyk IT",
+          "kategoria": "APO12 Ryzyko",
+          "wyjasnienie": "Rejestr i profil ryzyka to APO12."
+        },
+        {
+          "tekst": "Analiza scenariusza „jedyny dostawca zbankrutuje” i dobór reakcji",
+          "kategoria": "APO12 Ryzyko",
+          "wyjasnienie": "Analiza scenariuszy i reakcja na ryzyko to APO12."
+        },
+        {
+          "tekst": "Napisanie polityki bezpieczeństwa informacji",
+          "kategoria": "APO13 Bezpieczeństwo",
+          "wyjasnienie": "Polityka bezpieczeństwa informacji to APO13."
+        },
+        {
+          "tekst": "Półroczny przegląd systemu zarządzania bezpieczeństwem informacji",
+          "kategoria": "APO13 Bezpieczeństwo",
+          "wyjasnienie": "Przegląd ISMS to APO13."
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-d-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-19-atlas-apo-d",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Słowa „rejestr ryzyk”, „profil ryzyka” i „analiza scenariuszy” w pytaniu najlepiej wskazują proces:",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "EDM03 Zapewnienie optymalizacji ryzyka",
+          "poprawna": false,
+          "wyjasnienie": "EDM03 to Ład: apetyt na ryzyko i kierunek. Rejestr i analiza należą do Zarządzania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+          "poprawna": false,
+          "wyjasnienie": "MEA02 ocenia, czy mechanizmy kontrolne działają, a nie prowadzi rejestru ryzyk.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO12 Zarządzanie ryzykiem",
+          "poprawna": true,
+          "wyjasnienie": "Rejestr ryzyk, profil ryzyka, analiza scenariuszy i reakcje to APO12 (*Manage Risk*)."
+        },
+        {
+          "tekst": "APO13 Zarządzanie bezpieczeństwem",
+          "poprawna": false,
+          "wyjasnienie": "Ryzyko bezpieczeństwa to tylko część ryzyka IT. Pełny rejestr i profil ryzyka to APO12.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-d-04",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-19-atlas-apo-d",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "scenariusz": "W sieci sklepów dział IT co tydzień przegląda dziennik zdarzeń bezpieczeństwa, nadaje i odbiera uprawnienia kasjerom oraz aktualizuje antywirusa na komputerach w sklepach. Raz w roku kierownik bezpieczeństwa przegląda politykę bezpieczeństwa informacji.",
+      "tresc": "Do którego procesu należą cotygodniowe działania działu IT?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "DSS05 Zarządzanie usługami bezpieczeństwa",
+          "poprawna": true,
+          "wyjasnienie": "Dziennik zdarzeń, uprawnienia i antywirus to codzienna ochrona, czyli DSS05."
+        },
+        {
+          "tekst": "APO13 Zarządzanie bezpieczeństwem",
+          "poprawna": false,
+          "wyjasnienie": "Roczny przegląd polityki to APO13, ale pytanie dotyczy cotygodniowych działań działu IT.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "APO12 Zarządzanie ryzykiem",
+          "poprawna": false,
+          "wyjasnienie": "APO12 analizuje ryzyka i dobiera reakcje, a nie nadaje uprawnień i nie aktualizuje antywirusa.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+          "poprawna": false,
+          "wyjasnienie": "MEA02 ocenia, czy mechanizmy kontrolne działają. Tu dział IT sam wykonuje zabezpieczenia.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-d-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-19-atlas-apo-d",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Dlaczego proces Zarządzanie jakością (APO11) leży w domenie APO, a NIE w domenie MEA?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "cytat": "są one umieszczane w domenach odpowiadających zasadniczo najwłaściwszemu obszarowi"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Bo jakość dotyczy wyłącznie planowania nowych systemów IT",
+          "poprawna": false,
+          "wyjasnienie": "APO11 dotyczy jakości procesów i usług IT, nie tylko nowych systemów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Bo procesy trafiają do domeny najbliższej ich charakterowi",
+          "poprawna": true,
+          "wyjasnienie": "FW-PL s. 33: procesy, np. jakości i bezpieczeństwa, trafiają do domeny odpowiadającej najwłaściwszemu obszarowi działania."
+        },
+        {
+          "tekst": "Bo domena MEA zawiera wyłącznie procesy Ładu",
+          "poprawna": false,
+          "wyjasnienie": "MEA to domena Zarządzania. Ład ma tylko domenę EDM.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Bo jakość informacji jest jednym z celów aktywatora Informacja",
+          "poprawna": false,
+          "wyjasnienie": "To prawda o aktywatorze Informacja, ale nie wyjaśnia, gdzie leży proces APO11.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-atl-apo-d-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-19-atlas-apo-d",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Firma serwisowa ustala, że każde zamknięte zgłoszenie klienta kończy się krótką ankietą. Co kwartał wyniki ankiet służą do zmiany standardów obsługi. Który proces NAJLEPIEJ opisuje ustalanie standardów i ich poprawę?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+          "poprawna": false,
+          "wyjasnienie": "Ankiety to pomiar, ale celem jest doskonalenie standardu, a nie przekrojowy raport wyników dla kierownictwa.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "APO08 Zarządzanie relacjami",
+          "poprawna": false,
+          "wyjasnienie": "Opinie klientów pomagają w relacji, ale ustalanie i poprawa standardów to zarządzanie jakością.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+          "poprawna": false,
+          "wyjasnienie": "Obsługa i zamykanie zgłoszeń to DSS02, ale pytanie dotyczy standardów i ich poprawy.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "APO11 Zarządzanie jakością",
+          "poprawna": true,
+          "wyjasnienie": "Standardy jakości, zadowolenie klientów i ciągłe doskonalenie to APO11."
+        }
+      ]
+    }
+  ]
+}

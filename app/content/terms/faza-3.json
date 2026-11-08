@@ -1,0 +1,117 @@
+{
+  "id": "faza-3",
+  "en": "Phase 3: Where do we want to be?",
+  "wymowa": "fejz 3 łer du łi łont tu bi",
+  "wymowaAkcent": "fejz 3 łer du łi łont tu bi",
+  "plEgzamin": "Faza 3: Dokąd chcemy dojść?",
+  "plPodrecznik": "Faza 3: Do czego dążymy?",
+  "plInne": [
+    {
+      "nazwa": "Dokąd zmierzamy?",
+      "zrodlo": "sylabus PL (SYL)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Faza 3: Dokąd chcemy dojść?",
+    "podrecznik": "Faza 3: Do czego dążymy?",
+    "kurs": "Faza 3: Dokąd chcemy dojść? (Phase 3: Where do we want to be?)",
+    "uwaga": "Egzamin PL: „Faza 3: Dokąd chcemy dojść?”; podręcznik PL: „Faza 3: Do czego dążymy?” – konkurencyjne odpowiedniki. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Inne formy w obiegu: Dokąd zmierzamy? (sylabus PL (SYL))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Działanie programu w fazie 3 na egzaminie to „Definiowanie mapy drogowej”. Podręcznik (il. 17) pisze „Zdefiniowanie planu działań”. Słowo „plan” kusi, żeby wskazać fazę 4, a to faza 3.",
+  "skadNazwa": "Angielskie *Define road map* egzamin tłumaczy jako „mapa drogowa”, a podręcznik jako „plan działań”. Pytanie fazy *Where do we want to be?* podręcznik oddaje jako „Do czego dążymy?”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "faza-2"
+  ],
+  "poLudzku": "Trzeci krok: mówisz jasno, gdzie chcesz być, i widzisz, ile brakuje do celu.",
+  "wyobrazSobie": "Planujesz wyprawę: wpisujesz cel w nawigację i widzisz, ile kilometrów brakuje.",
+  "poziom1": "Trzecia z [[fazy-wdrozenia|siedmiu faz]]. Określa się cel doskonalenia, robi analizę luk i szuka rozwiązań. Wybiera się **szybkie korzyści** i inicjatywy najprostsze oraz najbardziej opłacalne.",
+  "poziom2": "| Pierścień | Działanie w fazie 3 („Dokąd chcemy dojść?”) |\n|---|---|\n| Zarządzanie programem (zewnętrzny) | Definiowanie mapy drogowej (SP1; podr. „Zdefiniowanie planu działań”) |\n| Aktywowanie zmiany (środkowy) | Komunikowanie rezultatu (SP1) |\n| Cykl życia ciągłego doskonalenia (wewnętrzny) | Zdefiniowanie stanu docelowego (SP1) |\n\nOznaczenia nazw działań: **(SP1)** – nazwa z polskiego arkusza egzaminacyjnego; bez oznaczenia – tłumaczenie kursu z *COBIT 5 Implementation* (ISACA), jak w lekcji 3.4.\n\nWszystkie trzy działania fazy 3 widać w polskim arkuszu. To dobra kotwica: **stan docelowy, komunikowanie rezultatu, mapa drogowa**.",
+  "poziom3": "(s. 38): *„W trakcie fazy 3 określa się cel procesu doskonalenia”*, a potem przeprowadza bardziej szczegółową analizę opartą na wytycznych COBIT w celu zidentyfikowania luk i rozwiązań. Niektóre rozwiązania dają szybkie korzyści. Priorytet mają inicjatywy prostsze i najkorzystniejsze.",
+  "poCo": "Żeby jasno nazwać cel i zobaczyć lukę między dziś a celem. Wtedy wiesz, co zrobić najpierw.",
+  "jakDziala": "Definiujesz stan docelowy, np. wyższy poziom zdolności procesu. Analiza luk pokazuje, czego brakuje. Wybierasz szybkie korzyści i najbardziej opłacalne inicjatywy. Rezultat komunikujesz ludziom, a program układa mapę drogową.",
+  "dlaczegoWazne": "Wszystkie trzy działania fazy 3 są w polskim arkuszu egzaminacyjnym. Analiza luk i szybkie korzyści to też faza 3.",
+  "przyklady": {
+    "zycie": "Ważysz 92 kg. Ustalasz cel: 84 kg do lipca. Widzisz lukę – 8 kg. Najprostszy ruch to rzucić słodzone napoje, więc zaczynasz od niego. Mówisz rodzinie, do czego dążysz. To faza 3.",
+    "biuro": "Cel: każdą umowę znajdziesz w 2 minuty. Brakuje spisu teczek i jednego sposobu opisywania. Ogłaszasz cel całemu biuru.",
+    "organizacja": "Sklep chce wysyłać paczki w 2 dni zamiast 4: najpierw nowy kurier, potem nowy magazyn. Starostwo celuje w połowę spraw z e-rezerwacją, a analiza luk pokazuje brak systemu i szkoleń.",
+    "psp": "**Cel na tablicy**\nKomendantka Anna Wrzos ogłasza cel: alarm ma docierać do OSP w 60 sekund. Naczelnik Marek Sikora rysuje mapę drogową: najpierw aktualne numery, potem zasilanie serwera, na końcu nowa aplikacja. Aktualizacja numerów to szybka korzyść. Każda zmiana SK słyszy ten sam komunikat o celu. To [[faza-3|faza 3: Dokąd chcemy dojść?]]",
+    "it": "Stan docelowy: DSS02 na poziomie 3. Analiza luk pokazuje braki w atrybutach PA 2.1, PA 2.2, PA 3.1 i PA 3.2."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "faza-4",
+      "roznica": "Mapa drogowa (faza 3) wyznacza kierunek i kolejność kroków. Planowanie programu (faza 4) to szczegółowy plan z projektami i uzasadnieniami biznesowymi."
+    },
+    {
+      "termin": "faza-2",
+      "roznica": "Faza 2 opisuje stan obecny. Faza 3 ustala stan docelowy i lukę."
+    }
+  ],
+  "przykladWypowiedzi": "W fazie 3, Where do we want to be?, czyli Dokąd chcemy dojść?, definiujemy stan docelowy (target state).",
+  "egzamin": "Elementy fazy 3: **Zdefiniowanie stanu docelowego**, **Komunikowanie rezultatu**, **Definiowanie mapy drogowej**. Faza 3 to też **analiza luk** i **szybkie korzyści**. „Identyfikacja odtwórców ról” to już faza 4.",
+  "powiazane": [
+    "fazy-wdrozenia",
+    "faza-2",
+    "faza-4",
+    "pierscien-program",
+    "pierscien-zmiana",
+    "pierscien-doskonalenie"
+  ],
+  "sylabus": [
+    "IM-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "W trakcie fazy 3 określa się cel procesu doskonalenia"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "Niektóre rozwiązania mogą umożliwiać uzyskanie szybkich korzyści"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "ilustracja": "17"
+    },
+    {
+      "doc": "ALTKOM"
+    },
+    {
+      "doc": "SP1"
+    }
+  ],
+  "mapa": "faza-3",
+  "glebokosc": {
+    "prosty": "Jedziesz na wakacje. Wiesz już, gdzie mieszkasz, więc wybierasz cel: morze. Patrzysz na mapę i wybierasz trasę przez dwa miasta. Mówisz dzieciom, dokąd jedziecie. Bilety i nocleg załatwisz w następnym kroku.",
+    "zaawansowany": "Po pomiarze z [[faza-2|fazy 2]] komenda zna lukę: alarm idzie 3 minuty, a ma iść minutę. Wrzos ustala stan docelowy, Sikora rysuje mapę drogową, a plan komunikacji niesie cel do każdej zmiany SK. Szybka korzyść to poprawa listy numerów OSP. Szczegółowe projekty z budżetem powstaną w [[faza-4|fazie 4]].",
+    "skrajny": "W podręczniku działanie programu w fazie 3 to „Zdefiniowanie planu działań”. Kandydat czyta pytanie „w której fazie powstaje plan działań?” i odruchowo zaznacza fazę 4, bo tam jest „Planowanie programu”. Tymczasem „plan działań” z il. 17 to egzaminacyjna **mapa drogowa**, czyli faza 3. Mapa drogowa mówi, w jakiej kolejności dojdziemy do celu. Plan programu w fazie 4 rozpisuje projekty, budżety i uzasadnienia biznesowe. **Rozstrzygnięcie:** „mapa drogowa” = „plan działań” z podręcznika = faza 3; „Planowanie programu” = faza 4."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Każdy „plan” to faza 4.",
+      "prawda": "Mapa drogowa (w podręczniku „plan działań”) to faza 3. Faza 4 to „Planowanie programu”."
+    },
+    {
+      "mit": "Szybkie korzyści wybiera się w fazie 5, gdy coś już działa.",
+      "prawda": "Podręcznik wskazuje szybkie korzyści i priorytety w fazie 3, przy analizie luk."
+    },
+    {
+      "mit": "Komunikowanie rezultatu to ogólny plan komunikacji dla całego wdrożenia.",
+      "prawda": "W fazie 3 komunikuje się rezultat, czyli cel. Plan komunikacji obejmuje każdą fazę."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń przypisuje „mapę drogową” do fazy 4, bo myli ją z planem programu.",
+    "jakTlumaczyc": "Mapa drogowa to trasa na mapie: „przez Łódź, potem Poznań”. Plan programu to rezerwacja hoteli, tankowania i budżet. Najpierw trasa, potem szczegóły.",
+    "pytanieKontrolne": "Wymień trzy działania fazy 3 – po jednym z każdego pierścienia.",
+    "odpowiedzKontrolna": "Program: **Definiowanie mapy drogowej**. Zmiana: **Komunikowanie rezultatu**. Doskonalenie: **Zdefiniowanie stanu docelowego**."
+  }
+}

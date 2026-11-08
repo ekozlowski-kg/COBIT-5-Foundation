@@ -1,0 +1,123 @@
+{
+  "id": "proc-edm04",
+  "en": "EDM04 Ensure Resource Optimisation",
+  "wymowa": "idiem 04 inszor rizors optimajzejszyn",
+  "wymowaAkcent": "i-di-EM 04 in-SZOR ri-ZORS op-ti-maj-ZEJ-szyn",
+  "plEgzamin": "EDM04 Zapewnienie optymalizacji zasobów",
+  "plPodrecznik": "EDM04 Zapewnienie optymalizacji zasobów",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "EDM04 Zapewnienie optymalizacji zasobów",
+    "podrecznik": "EDM04 Zapewnienie optymalizacji zasobów",
+    "kurs": "EDM04 Zapewnienie optymalizacji zasobów (EDM04 Ensure Resource Optimisation)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie EDM04 i słowie kluczowym EN *Resource Optimisation*. Pułapka tłumaczenia „zasoby”: EDM04 to *Resource* (wszystkie zasoby, Ład), APO07 to *Human Resources* (zasoby ludzkie), a BAI09 to *Assets* (aktywa, w podręczniku też „Zarządzanie zasobami”). Po polsku trzy razy „zasoby”, po angielsku trzy różne słowa.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "lad",
+    "edm",
+    "zasob",
+    "optymalizacja-zasobow"
+  ],
+  "poLudzku": "Szefostwo pilnuje, żeby ludzi, pieniędzy i sprzętu do informatyki było tyle, ile trzeba, i żeby ich nie marnować.",
+  "wyobrazSobie": "Dowódca wyprawy w góry sprawdza, czy starczy ludzi, jedzenia i sprzętu, i decyduje, co zabrać. Plecaków sam nie pakuje.",
+  "poCo": "Żeby IT miało dość ludzi, pieniędzy i technologii do realizacji celów i żeby tych zasobów nie marnować.",
+  "jakDziala": "Organ Ładu ocenia, czy zasoby IT wystarczają i czy są dobrze używane. Ustala zasady ich zdobywania i podziału oraz priorytety. Monitoruje, czy zasoby są wykorzystywane optymalnie, i koryguje kierunek.",
+  "dlaczegoWazne": "EDM04 to trzeci składnik Celu Ładu (zasoby). Polskie słowo „zasoby” występuje też w APO07 i BAI09, więc to częsta pułapka tłumaczenia.",
+  "skadNazwa": "EN *Ensure Resource Optimisation*. *Resource* to wszystko, czym dysponujemy. Podręcznik PL tłumaczy też *Assets* (BAI09) jako „zasoby”, stąd zamieszanie. Zawsze sprawdzaj słowo angielskie: *Resource* ≠ *Human Resources* ≠ *Assets*.",
+  "poziom1": "Proces Ładu o zasobach. Organ Ładu ocenia, czy organizacja ma wystarczające i dobrze wykorzystane zasoby IT: ludzi, procesy i technologię. Kieruje ich podziałem i to monitoruje.",
+  "poziom2": "**Czym się zajmuje:** ustala zasady zdobywania i dzielenia zasobów IT i sprawdza, czy są używane optymalnie.\n\n**Wejścia (intuicja):** strategia, raporty o budżecie, kadrach, sprzęcie i pojemności systemów.\n\n**Wyjścia (intuicja):** zasady przydziału zasobów, priorytety, decyzje „dokładamy, przesuwamy, ograniczamy”.\n\n**Współpraca:** w Zarządzaniu kierunek wykonują m.in. [[proc-apo07]] (ludzie), [[proc-apo06]] (pieniądze), [[proc-apo03]] (architektura), BAI09 (aktywa) i BAI04 (dostępność i pojemność).",
+  "poziom3": "Il. 16 (s. 33): „EDM04 Zapewnienie optymalizacji zasobów”. Słownik (s. 93): optymalizacja zasobów *„Obejmuje skuteczne, wydajne i odpowiedzialne wykorzystanie wszystkich zasobów — ludzkich, finansowych, sprzętu, infrastruktury itd.”* Załącznik E (s. 61): komponenty TOGAF 9 dotyczące Rady ds. Architektury, *„nadzoru nad architekturą oraz modeli dojrzałości architektury odpowiadają optymalizacji zasobów”* w domenie EDM. Opis praktyk i działań procesu jest w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Planujesz przeprowadzkę. Sprawdzasz, czy wystarczy rąk do noszenia, pieniędzy na auto i czasu. Sam nie nosisz kartonów. Decydujesz, ile czego potrzeba i czy niczego nie marnujesz. To EDM04.",
+    "biuro": "Właścicielka biura rachunkowego widzi, że trzy osoby czekają na jedną drukarkę, a dwa laptopy leżą w szafie. Decyduje: laptopy wracają do pracy, a na drukarkę dokłada pieniądze. Wykonanie zleca kierowniczce.",
+    "organizacja": "Zarząd firmy kurierskiej widzi, że dwóch programistów obsługuje dziesięć systemów, a serwery stoją w połowie puste. Każe przesunąć pieniądze ze sprzętu na ludzi. Dyrektor IT wykonuje to w swoich procesach. Zarząd sprawdza efekt po kwartale. Starosta widzi, że każdy wydział kupuje własne skanery i programy. Decyduje: jeden wspólny zakup i jeden informatyk na trzy wydziały. Potem sprawdza, czy zasoby nie leżą odłogiem. To EDM04.",
+    "psp": "**Kto umie obsłużyć Syrenę.** Komendantka Anna Wrzos dowiaduje się, że tylko dyżurny Grab zna tryb awaryjny Syreny. Ocenia, że ludzi jest za mało, a serwer pod schodami jest za słaby. Kieruje: „Dwie osoby na każdą kluczową czynność i pieniądze na drugi serwer”. Monitoruje to na odprawach. Szkolenia organizuje już Sikora ([[proc-apo07|APO07]]), a Wrzos działa w [[proc-edm04|EDM04]].",
+    "it": "Zarząd ocenia, że dział IT ma za mało specjalistów od chmury i za dużo nieużywanych licencji. Ustala kierunek: mniej licencji, więcej szkoleń. Wykonują to [[proc-apo07]] i BAI09."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-apo07",
+      "roznica": "APO07 (Zarządzanie) zajmuje się tylko ludźmi: role, kompetencje, szkolenia, zastępstwa. EDM04 (Ład) patrzy na wszystkie zasoby i ustala kierunek."
+    },
+    {
+      "termin": "proc-bai09",
+      "roznica": "BAI09 *Manage Assets* to aktywa: sprzęt i licencje w cyklu życia. Podręcznik nazywa go „Zarządzanie zasobami”, ale to nie EDM04."
+    },
+    {
+      "termin": "optymalizacja-zasobow",
+      "roznica": "Optymalizacja zasobów to składnik Celu Ładu (pojęcie). EDM04 to proces Ładu, który go zapewnia."
+    }
+  ],
+  "przykladWypowiedzi": "EDM04 *Ensure Resource Optimisation*, czyli „Zapewnienie optymalizacji zasobów”, dotyczy wszystkich zasobów na poziomie Ładu; *Human Resources* to APO07, a *Assets* to BAI09.",
+  "egzamin": "Trzy „zasoby”: **EDM04** *Resource Optimisation* (Ład, wszystkie zasoby), **APO07** *Human Resources* (Zarządzanie, ludzie), **BAI09** *Assets* (Zarządzanie, aktywa). W pytaniu szukaj poziomu (kierunek czy wykonanie) i rodzaju zasobu.",
+  "powiazane": [
+    "edm",
+    "optymalizacja-zasobow",
+    "zasob",
+    "proc-apo07",
+    "proc-apo06",
+    "proc-bai09",
+    "ludzie-umiejetnosci-kompetencje"
+  ],
+  "sylabus": [
+    "PR-01-03",
+    "PR-02-01"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "EDM04 Zapewnienie optymalizacji zasobów"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Obejmuje skuteczne, wydajne i odpowiedzialne wykorzystanie wszystkich zasobów — ludzkich, finansowych, sprzętu, infrastruktury itd."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 61,
+      "cytat": "nadzoru nad architekturą oraz modeli dojrzałości architektury odpowiadają optymalizacji zasobów"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "proc-edm04",
+  "glebokosc": {
+    "prosty": "Prowadzisz dom. Sprawdzasz, czy starcza pieniędzy, czasu i rąk do pracy. Decydujesz: w tym roku mniej na sprzęt, więcej na kurs dla syna. Sam niczego nie kupujesz. Ustalasz, na co idą zasoby.",
+    "zaawansowany": "Komendantka Wrzos widzi, że Syrena ma jednego eksperta i jeden serwer. Kieruje: drugi serwer i drugi przeszkolony dyżurny. Naczelnik Sikora szkoli ludzi w [[proc-apo07]], a ewidencję serwerów i licencji prowadzi w BAI09. Wrzos monitoruje, czy zasoby wystarczają i nie są marnowane. Jej część to EDM04.",
+    "skrajny": "Na egzaminie widzisz słowo „zasoby”. Po polsku pasują trzy procesy. „Ewidencja laptopów i licencji przez cały cykl życia” to BAI09 *Manage Assets*. „Plan szkoleń i zastępstw w kluczowych rolach” to APO07 *Human Resources*. „Zarząd ocenia, czy IT ma dość ludzi, pieniędzy i technologii, i ustala zasady ich podziału” to EDM04. Podręcznik PL nazywa BAI09 „Zarządzanie zasobami”, co jeszcze bardziej miesza. **Rozstrzygnięcie:** kierunek i nadzór nad *wszystkimi* zasobami → EDM04; ludzie → APO07; konkretne aktywa (sprzęt, licencje) → BAI09."
+  },
+  "zagmatwania": [
+    {
+      "mit": "„Zarządzanie zasobami” z il. 16 to EDM04.",
+      "prawda": "„Zarządzanie zasobami” w il. 16 to BAI09 (*Assets*). EDM04 to „Zapewnienie optymalizacji zasobów” i jest w Ładzie."
+    },
+    {
+      "mit": "Zasoby to tylko pieniądze.",
+      "prawda": "Zasoby w COBIT to także ludzie, sprzęt i infrastruktura (słownik, s. 93), a w szerszym ujęciu też informacja i czas."
+    },
+    {
+      "mit": "Skoro zasobem są ludzie, to każde pytanie o ludzi w IT to EDM04.",
+      "prawda": "To, że zasobem są ludzie, nie przesądza o poziomie Ładu. Szkolenia, sukcesja i rekrutacja to APO07, a EDM04 to kierunek i nadzór."
+    },
+    {
+      "mit": "EDM04 sam zatrudnia ludzi i kupuje sprzęt.",
+      "prawda": "EDM04 ocenia, kieruje i monitoruje. Zatrudnianie, szkolenia i zakupy wykonują procesy Zarządzania, np. APO07 i BAI09."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń tłumaczy „zasoby” jednym słowem i myli EDM04, APO07 i BAI09.",
+    "jakTlumaczyc": "Każ uczniowi przy każdym „zasobie” dopisać słowo angielskie: *Resource*, *Human Resources*, *Assets*. Potem zadaj pytanie: „decyzja na górze czy wykonanie?”.",
+    "pytanieKontrolne": "Informatyk aktualizuje listę licencji i wycofuje stare laptopy. Który to proces? Dlaczego nie EDM04?",
+    "odpowiedzKontrolna": "BAI09 *Manage Assets* (aktywa w cyklu życia). EDM04 to Ład: ocenia i kieruje wykorzystaniem wszystkich zasobów, ale nie prowadzi ewidencji."
+  }
+}

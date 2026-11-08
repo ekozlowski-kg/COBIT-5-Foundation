@@ -1,0 +1,122 @@
+{
+  "id": "proc-dss01",
+  "en": "DSS01 Manage Operations",
+  "wymowa": "dieses 01 menydż operejszyns",
+  "wymowaAkcent": "di-es-ES 01 ME-nydż o-pe-REJ-szyns",
+  "plEgzamin": "DSS01 Zarządzanie eksploatacją",
+  "plPodrecznik": "DSS01 Zarządzanie eksploatacją",
+  "plInne": [
+    {
+      "nazwa": "Zarządzanie operacjami",
+      "zrodlo": "opracowanie „Prosto, krok po kroku” (nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "DSS01 Zarządzanie eksploatacją",
+    "podrecznik": "DSS01 Zarządzanie eksploatacją",
+    "kurs": "DSS01 Zarządzanie eksploatacją (DSS01 Manage Operations)",
+    "uwaga": "Egzamin PL i podręcznik zgodne, ale w obiegu są konkurencyjne odpowiedniki: Zarządzanie operacjami. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 74. Inne formy w obiegu: Zarządzanie operacjami (opracowanie „Prosto, krok po kroku” (nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „DSS01 Zarządzanie eksploatacją”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Manage Operations*.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "dss",
+    "uslugi-infrastruktura-aplikacje"
+  ],
+  "poLudzku": "Codzienna, rutynowa robota, dzięki której systemy chodzą: zaplanowane zadania, pilnowanie sprzętu, prądu i serwerowni.",
+  "wyobrazSobie": "Codzienne dbanie o dom: zmywarka włączona na noc, piec sprawdzony, lodówka nie cieknie. Gdy to działa, nikt tego nie zauważa.",
+  "skadNazwa": "Z angielskiego *Manage Operations*. Podręcznik tłumaczy *operations* jako „eksploatacja”, czyli codzienne utrzymanie działania. Bywa też tłumaczone jako „operacje”.",
+  "poziom1": "Proces domeny [[dss]], który koordynuje i wykonuje codzienne procedury operacyjne potrzebne do świadczenia usług IT – własnych i zleconych na zewnątrz. Obejmuje zaplanowane zadania, monitorowanie infrastruktury i dbanie o środowisko fizyczne (zasilanie, klimatyzacja, pomieszczenia).",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** wykonuje procedury operacyjne według harmonogramu, nadzoruje usługi IT zlecone na zewnątrz, monitoruje infrastrukturę i zdarzenia, dba o środowisko (zasilanie, temperatura, ochrona przed zalaniem) i o pomieszczenia IT.\n\n**Wejścia (intuicja):** rozwiązania przekazane do eksploatacji ([[proc-bai07]]), uzgodnione poziomy usług (APO09), umowy z dostawcami (APO10).\n\n**Wyjścia (intuicja):** harmonogram prac operacyjnych, dzienniki zdarzeń, raporty z monitorowania, dane o obciążeniu.\n\n**Współpracuje z:** [[proc-dss02]] (zdarzenie, które przerywa usługę, staje się incydentem), [[proc-bai04]] (dane o obciążeniu), [[proc-dss05]] (bezpieczeństwo), APO10 (dostawcy).",
+  "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Il. 39 (s. 88) wymienia przy DSS umiejętność „Eksploatacja IT”. Słownik (s. 92): usługi IT to *„Codzienne zapewnianie klientom infrastruktury i aplikacji IT oraz wsparcia przy korzystaniu z nich.”* Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby usługi IT działały dzień po dniu. To rutyna, dzięki której systemy po prostu chodzą.",
+  "jakDziala": "Wykonujesz zaplanowane procedury operacyjne. Pilnujesz usług zleconych na zewnątrz i monitorujesz infrastrukturę. Dbasz o środowisko i pomieszczenia: zasilanie, klimatyzację, serwerownię.",
+  "dlaczegoWazne": "Rutyna eksploatacji to DSS01, a reakcja na awarię to DSS02. Wybór dostawcy i umowa to APO10, a pilnowanie jego codziennej pracy to DSS01.",
+  "przyklady": {
+    "zycie": "W domu masz rutynę: w niedzielę wynosisz śmieci, co miesiąc czyścisz filtr w okapie, zimą sprawdzasz ciśnienie w piecu. Nic się nie psuje, a dom działa. Ta codzienna, zaplanowana obsługa to eksploatacja.",
+    "biuro": "Woźny co rano włącza ogrzewanie, sprawdza zamki i opróżnia skrzynkę na listy. Gdy wszystko gra, nikt o nim nie myśli.",
+    "organizacja": "Informatyk hurtowni co rano sprawdza nocne zadania, klimatyzację serwerowni i komunikaty dostawcy chmury. W urzędzie gminy informatyk testuje zasilacz awaryjny i pilnuje firmy od poczty.",
+    "psp": "**Serwer pod schodami.** Ola Dudek co rano sprawdza panel Syreny: czy nocne zadania się wykonały i czy łącze do OSP Zawilce odpowiada. Kpt. Sikora przenosi serwer ze schowka do pomieszczenia z klimatyzacją i zasilaniem awaryjnym. Od teraz Dudek raz w tygodniu sprawdza temperaturę i stan akumulatorów. Codzienna, zaplanowana obsługa i dbałość o otoczenie sprzętu to [[proc-dss01]].",
+    "it": "Praktyki DSS01: procedury operacyjne, usługi zlecone na zewnątrz, monitorowanie infrastruktury, środowisko i pomieszczenia. Przykład: kontrola, czy nocna kopia zapasowa się wykonała."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-dss02",
+      "roznica": "DSS01 to zaplanowana rutyna i monitorowanie. Gdy usługa zostaje przerwana albo pogorszona, obsługa tego zdarzenia przechodzi do DSS02 jako incydent."
+    },
+    {
+      "termin": "proc-apo10",
+      "roznica": "APO10 wybiera dostawców i zarządza umowami z nimi. DSS01 pilnuje codziennej eksploatacji usług, które dostawca dla nas prowadzi."
+    },
+    {
+      "termin": "proc-bai04",
+      "roznica": "DSS01 zbiera dane o obciążeniu na bieżąco. BAI04 na ich podstawie planuje pojemność na przyszłość."
+    }
+  ],
+  "przykladWypowiedzi": "DSS01 Manage Operations, czyli Zarządzanie eksploatacją, to codzienna rutyna, dzięki której usługi IT działają.",
+  "egzamin": "Słowa-klucze: procedury operacyjne, harmonogram zadań, monitorowanie infrastruktury, środowisko i pomieszczenia IT, eksploatacja usług zleconych na zewnątrz → **DSS01**.",
+  "powiazane": [
+    "dss",
+    "uslugi-infrastruktura-aplikacje",
+    "itil",
+    "proc-dss02",
+    "proc-bai04"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "DSS01 Zarządzanie eksploatacją"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39",
+      "cytat": "Eksploatacja IT"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 92,
+      "cytat": "Codzienne zapewnianie klientom infrastruktury i aplikacji IT oraz wsparcia przy korzystaniu z nich."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "podzbiór procesów w domenie DSS"
+    }
+  ],
+  "mapa": "proc-dss01",
+  "glebokosc": {
+    "prosty": "Masz kota. Codziennie dajesz jeść, raz w tygodniu czyścisz kuwetę, raz w roku idziesz na szczepienie. Robisz to według planu, nie czekając, aż coś się stanie. To jest eksploatacja.",
+    "zaawansowany": "Dudek co rano sprawdza panel Syreny i dzienniki nocnych zadań, a co tydzień stan zasilania awaryjnego w nowej serwerowni. To [[proc-dss01]]. Gdy pewnej nocy łącze do OSP przestaje odpowiadać i alarm nie wychodzi, sprawa przechodzi do [[proc-dss02]] jako incydent. Dane o rosnącym obciążeniu Dudek przekazuje Sikorze do planowania w [[proc-bai04]].",
+    "skrajny": "Komendantka Wrzos proponuje, żeby Syrena działała w chmurze firmy Kwant-Sygnał. Sikora cieszy się: „Wtedy DSS01 nas nie dotyczy, bo serwerem zajmie się dostawca”. To błąd. DSS01 obejmuje także eksploatację usług zleconych na zewnątrz. Komenda nadal musi wiedzieć, czy zadania się wykonują, czy dostawca monitoruje usługę i czy dane są chronione. Zmienia się tylko rola: z „robimy sami” na „pilnujemy, żeby dostawca robił”. Umowa i ocena dostawcy to APO10, a obiecany poziom usług to APO09. **Rozstrzygnięcie:** oddanie eksploatacji na zewnątrz nie usuwa DSS01. Odpowiedzialności nie da się zlecić, można zlecić tylko wykonanie."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Jeśli system jest w chmurze, DSS01 nas nie dotyczy.",
+      "prawda": "DSS01 obejmuje też nadzór nad eksploatacją usług zleconych na zewnątrz. Zmienia się rola, nie odpowiedzialność."
+    },
+    {
+      "mit": "Eksploatacja to naprawianie awarii.",
+      "prawda": "Naprawa po awarii to DSS02. DSS01 to zaplanowana rutyna i monitorowanie, które mają awarie wykrywać i im zapobiegać."
+    },
+    {
+      "mit": "Prąd i klimatyzacja w serwerowni to sprawa administracji budynku, nie COBIT.",
+      "prawda": "Dbanie o środowisko i pomieszczenia IT jest częścią DSS01."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli eksploatację (DSS01) z obsługą awarii (DSS02), bo oba dzieją się „na co dzień”.",
+    "jakTlumaczyc": "DSS01 to przegląd i tankowanie auta według planu. DSS02 to laweta, gdy auto stanie na trasie.",
+    "pytanieKontrolne": "Dostawca prowadzi pocztę urzędu w chmurze. Kto w urzędzie odpowiada za to, że poczta jest codziennie eksploatowana zgodnie z wymaganiami?",
+    "odpowiedzKontrolna": "Urząd, w ramach **DSS01** – nadzór nad eksploatacją usług zleconych na zewnątrz. Umowę z dostawcą i jego ocenę prowadzi APO10."
+  }
+}

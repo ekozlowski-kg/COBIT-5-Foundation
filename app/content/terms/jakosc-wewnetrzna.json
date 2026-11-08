@@ -1,0 +1,109 @@
+{
+  "id": "jakosc-wewnetrzna",
+  "en": "Intrinsic quality",
+  "wymowa": "intrinzik kłoliti",
+  "wymowaAkcent": "in-TRIN-zik KŁO-li-ti",
+  "plEgzamin": "Jakość wewnętrzna",
+  "plPodrecznik": "Jakość rzeczywista",
+  "plInne": [
+    {
+      "nazwa": "Cele wewnętrzne (kategoria celów procesu)",
+      "zrodlo": "SP1 – uzasadnienia"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Jakość wewnętrzna",
+    "podrecznik": "Jakość rzeczywista",
+    "kurs": "Jakość wewnętrzna (Intrinsic quality)",
+    "uwaga": "Egzamin PL: „Jakość wewnętrzna”; podręcznik PL: „Jakość rzeczywista” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 28, 29, 65. Inne formy w obiegu: Cele wewnętrzne (kategoria celów procesu) (SP1 – uzasadnienia)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Jakość wewnętrzna” / „Cel wewnętrzny”. Podręcznik: „Jakość rzeczywista”. EN: intrinsic quality.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "aktywator",
+    "wymiar-cele"
+  ],
+  "poLudzku": "Informacja jest sama w sobie dobra: prawdziwa, dokładna, z pewnego źródła.",
+  "skadNazwa": "Z angielskiego *intrinsic* („sama w sobie”). Podręcznik mówi „jakość rzeczywista”. „Wewnętrzna” nie oznacza „wewnątrz organizacji”.",
+  "wyobrazSobie": "Termometr lekarski: ma pokazać prawdziwą temperaturę każdemu pacjentowi, bez względu na to, kto go trzyma i czy wynik się komuś podoba.",
+  "poCo": "Żeby sprawdzić, czy aktywator sam w sobie działa poprawnie i daje prawdziwe, obiektywne wyniki, zanim zapytamy, czy pasuje do sytuacji.",
+  "jakDziala": "Oceniasz aktywator niezależnie od tego, kto i do czego go używa: czy działa dokładnie (accurately) i obiektywnie (objectively) oraz czy daje dokładne, obiektywne i wiarygodne wyniki (believable results). Dla informacji to dokładność, obiektywność, wiarygodność i reputacja. Dla procesów cele wewnętrzne obejmują też zgodność z dobrą praktyką oraz z regułami wewnętrznymi i zewnętrznymi.",
+  "dlaczegoWazne": "To pierwsza z trzech kategorii celów aktywatora (wymiar Cele). Na egzaminie „dokładne, obiektywne, wiarygodne” wskazuje jakość wewnętrzną, a zgodność procesu z przepisami to cel wewnętrzny, nie kontekstowy.",
+  "poziom1": "Czy aktywator sam w sobie działa poprawnie i daje prawdziwe, obiektywne wyniki – bez względu na to, kto i do czego go używa (np. waga, która każdemu pokazuje prawdziwą wagę). Dla procesów liczy się tu też zgodność z przepisami i wewnętrznymi zasadami.",
+  "poziom2": "Jedna z trzech kategorii **celów aktywatora**. Dotyczy jakości „samej w sobie”. Dla procesów cele wewnętrzne obejmują też **zgodność z regułami wewnętrznymi i zewnętrznymi**.",
+  "poziom3": "(s. 29): *„Jakość rzeczywista — stopień, w jakim czynniki umożliwiające działają w sposób dokładny i obiektywny oraz zapewniają dokładne, obiektywne i uznane wyniki.”*",
+  "przyklady": {
+    "zycie": "Kupujesz w markecie kilogram jabłek, a w domu kuchenna waga pokazuje 870 gramów. Któraś z wag kłamie – a waga ma pokazywać prawdę bez względu na to, kto i co na niej kładzie. To jest jakość wewnętrzna: wynik dokładny i obiektywny sam w sobie.",
+    "biuro": "Arkusz do rozliczania delegacji liczy diety według aktualnych stawek i każdemu daje ten sam, poprawny wynik. Gdy ktoś wpisze w nim złą stawkę, wynik jest błędny dla wszystkich, a to problem jakości wewnętrznej, a nie tego, kto z arkusza korzysta.",
+    "firma": "W piekarni kasa fiskalna nalicza VAT według przepisów i drukuje paragon zgodny z tym, co klient kupił. Nieważne, czy przy kasie stoi właściciel, czy uczeń na pierwszej zmianie – suma ma się zgadzać. Dokładność i zgodność z regułami to jakość wewnętrzna.",
+    "admin": "Mieszkanka przychodzi do urzędu gminy po zaświadczenie o zameldowaniu, a w rejestrze wciąż figuruje jej stary adres, bo ktoś nie wprowadził zmiany. Zaświadczenie jest czytelne i wydane od ręki, ale nieprawdziwe. Zawodzi jakość wewnętrzna: dane w rejestrze nie są dokładne.",
+    "psp": "Dyżurny na stanowisku kierowania chce zadysponować zastęp do wypadku, a SWD-PSP pokazuje, że samochód z JRG stoi w koszarach, choć od godziny jest na innym zdarzeniu. Ekran jest czytelny i system działa szybko, ale status jest nieprawdziwy. To problem jakości wewnętrznej: wynik nie jest dokładny.",
+    "it": "Audytor w MEA02 (Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej) sprawdza, czy raport uprawnień z systemu kadrowego pokazuje rzeczywiste konta, bez pominięć i przekłamań. Badanie dokładności i obiektywności tego raportu to ocena jakości wewnętrznej aktywatora Informacja."
+  },
+  "glebokosc": {
+    "prosty": "Waga łazienkowa, która każdemu pokazuje prawdziwą wagę, jest dobra sama w sobie – bez względu na to, kto na nią wchodzi i po co. Jeśli zawyża o dwa kilo, jest zła, nawet gdy stoi w idealnym miejscu i ma piękny wyświetlacz. To jest jakość „sama w sobie”.",
+    "zaawansowany": "W rejestrze OSP w Syrenie ktoś przestawił dwie cyfry w numerze dh. Pietrzaka. Numer jest na miejscu, czytelny i dostępny, ale niedokładny, więc zawodzi jakość wewnętrzna. Dla procesu powiadamiania jakość wewnętrzna obejmuje też zgodność z przepisami i wewnętrznymi zasadami komendy, co sprawdzi mł. bryg. Ostrowska na kontroli. To pierwsza z trzech kategorii [[cele-aktywatorow|celów aktywatora]], obok [[jakosc-kontekstowa|jakości kontekstowej]] i [[dostep-i-bezpieczenstwo|Dostępu i Bezpieczeństwa]].",
+    "skrajny": "Na liście kryteriów jakości informacji stoi „reputacja” – stopień, w jakim informacje są cenione ze względu na wartość źródła lub treści. Brzmi jak opinia otoczenia, więc intuicja wysyła ją do jakości kontekstowej. Tymczasem s. 82 zalicza reputację, obok dokładności, obiektywności i wiarygodności, do jakości rzeczywistej, czyli wewnętrznej. Słowo „wewnętrzna” to tłumaczenie *intrinsic* („sama w sobie”), a nie „wewnątrz organizacji”, i dlatego podręcznik mówi „jakość rzeczywista”. Ta sama pułapka działa przy procesach: zgodność z regułami zewnętrznymi (przepisy) jest celem wewnętrznym, choć przepisy przychodzą z zewnątrz (s. 69). **Rozstrzygnięcie:** „wewnętrzna” = *intrinsic* = sama w sobie; reputacja, wiarygodność i zgodność z regułami zewnętrznymi należą do jakości wewnętrznej, mimo że brzmią „zewnętrznie”."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Jakość wewnętrzna to jakość z punktu widzenia pracowników, a zewnętrzna – klientów.",
+      "prawda": "„Wewnętrzna” = *intrinsic*, sama w sobie: dokładność, obiektywność, wiarygodność, reputacja. W COBIT 5 nie ma podziału jakości na „wewnątrz” i „na zewnątrz” organizacji."
+    },
+    {
+      "mit": "Zgodność procesu z przepisami zewnętrznymi to cel kontekstowy.",
+      "prawda": "Dla procesu to cel wewnętrzny (s. 69). Cele kontekstowe to dopasowanie do sytuacji organizacji, zrozumiałość i łatwość zastosowania."
+    },
+    {
+      "mit": "„Jakość rzeczywista” z podręcznika to inne pojęcie niż „jakość wewnętrzna” z egzaminu.",
+      "prawda": "To samo pojęcie (*intrinsic quality*): podręcznik mówi „rzeczywista”, egzamin „wewnętrzna”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Czytanie „wewnętrzna” jako „wewnątrz organizacji”, przez co reputacja i zgodność z przepisami lądują w złej kategorii.",
+    "jakTlumaczyc": "Zacznij od angielskiego *intrinsic* – „sama w sobie”, jak próba złota, która nie zależy od tego, kto trzyma pierścionek. Dopiero potem dodaj, że dla procesów do tej poprawności „samej w sobie” należy też przestrzeganie reguł – i własnych, i zewnętrznych.",
+    "pytanieKontrolne": "Dlaczego zgodność procesu z ustawą (regułą zewnętrzną) jest celem wewnętrznym, a nie kontekstowym?",
+    "odpowiedzKontrolna": "Bo „wewnętrzny” znaczy *intrinsic*, czyli dotyczący poprawności procesu samego w sobie, a COBIT 5 zalicza do niej zgodność z regułami wewnętrznymi i zewnętrznymi (s. 69). Cele kontekstowe dotyczą czego innego: dopasowania procesu do sytuacji organizacji, zrozumiałości i łatwości zastosowania."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "jakosc-kontekstowa",
+      "roznica": "Kontekstowa ocenia, czy wynik jest przydatny w danej sytuacji: aktualny, kompletny, zrozumiały."
+    },
+    {
+      "termin": "Jakość wewnętrzna jako „wewnątrz organizacji”",
+      "roznica": "„Wewnętrzna” = intrinsic = sama w sobie. Nie chodzi o „wewnątrz firmy”."
+    }
+  ],
+  "przykladWypowiedzi": "Intrinsic quality, czyli jakość wewnętrzna, oznacza, że aktywator działa dokładnie i obiektywnie i daje wiarygodne wyniki; zgodność procesu z przepisami też jest celem wewnętrznym (intrinsic goal).",
+  "egzamin": "„Dokładne, obiektywne, wiarygodne wyniki” → **jakość wewnętrzna**, a nie kontekstowa (s. 29).",
+  "powiazane": [
+    "wymiary-aktywatora",
+    "jakosc-kontekstowa",
+    "dostep-i-bezpieczenstwo"
+  ],
+  "sylabus": [
+    "PR-02-12",
+    "EN-02-08"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "stopień, w jakim czynniki umożliwiające działają w sposób dokładny i obiektywny oraz zapewniają dokładne, obiektywne i uznane wyniki"
+    },
+    {
+      "doc": "SP1",
+      "strona": 4
+    },
+    {
+      "doc": "SP1",
+      "strona": 21
+    }
+  ],
+  "mapa": "jakosc-wewnetrzna"
+}

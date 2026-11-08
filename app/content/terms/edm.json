@@ -1,0 +1,105 @@
+{
+  "id": "edm",
+  "en": "Evaluate, Direct and Monitor (EDM)",
+  "wymowa": "iweljuejt dajrekt end moniter",
+  "wymowaAkcent": "i-WE-lju-ejt daj-REKT end MO-ni-ter",
+  "plEgzamin": "Oszacuj, Kieruj i Monitoruj (EDM)",
+  "plPodrecznik": "Ocena, kierowanie i monitorowanie (EDM)",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Oszacuj, Kieruj i Monitoruj (EDM)",
+    "podrecznik": "Ocena, kierowanie i monitorowanie (EDM)",
+    "kurs": "Oszacuj, Kieruj i Monitoruj (EDM) – Evaluate, Direct and Monitor",
+    "uwaga": "Egzamin PL: „Oszacuj, Kieruj i Monitoruj (EDM)”; podręcznik PL: „Ocena, kierowanie i monitorowanie (EDM)” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 8, 31, 32; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Oszacuj, Kieruj i Monitoruj”. Podręcznik: „Ocena, kierowanie i monitorowanie”. Nie myl z MEA: „Monitoruj, Oszacuj i Oceń”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "lad",
+    "proces"
+  ],
+  "poLudzku": "Trzy obowiązki szefostwa: ocenić sytuację, wskazać kierunek i sprawdzać, czy idziemy w dobrą stronę.",
+  "wyobrazSobie": "Rada nadzorcza klubu sportowego: ocenia sytuację klubu, wyznacza cel sezonu i budżet, a po rundzie sprawdza, czy zarząd klubu go realizuje; sama nie prowadzi treningów.",
+  "poCo": "Żeby organ Ładu miał uporządkowane procesy do oceny potrzeb, wyznaczania kierunku i sprawdzania, czy kierunek jest realizowany. Dzięki temu Ład jest oddzielony od codziennego Zarządzania.",
+  "jakDziala": "EDM to jedyna domena Ładu i ma 5 procesów (EDM01–EDM05). W każdym są praktyki Oszacuj (Evaluate), Kieruj (Direct) i Monitoruj (Monitor): organ Ładu ocenia potrzeby i możliwości, kieruje przez priorytety i decyzje, a potem monitoruje wyniki i zgodność względem wyznaczonego kierunku. EDM02–EDM04 odpowiadają trzem składnikom Celu Ładu: korzyściom, ryzyku i zasobom.",
+  "dlaczegoWazne": "To podstawa zasady 5 „Oddzielenie Ładu od Zarządzania”: egzamin sprawdza, czy rozpoznasz proces EDM i odróżnisz go od MEA. Trzeba znać podział na 5 procesów Ładu i 32 procesy Zarządzania.",
+  "skadNazwa": "Skrót od *Evaluate, Direct and Monitor*. *Evaluate* egzamin tłumaczy jako „Oszacuj”, a nie „Oceń”. „Oceń” pojawia się w MEA.",
+  "poziom1": "Jedyna domena Ładu: tu ci na samej górze oceniają sytuację, wyznaczają kierunek i sprawdzają, czy jest wcielany w życie (np. zarząd, rada nadzorcza, rada gminy). Ma 5 procesów, a każdy z nich zawiera praktyki Oszacuj, Kieruj i Monitoruj.",
+  "poziom2": "| Kod | Podręcznik PL | EN |\n|---|---|---|\n| EDM01 | Zapewnienie i utrzymanie ładu korporacyjnego | Ensure Governance Framework Setting and Maintenance |\n| EDM02 | Zapewnienie realizacji korzyści | Ensure Benefits Delivery |\n| EDM03 | Zapewnienie optymalizacji ryzyka | Ensure Risk Optimisation |\n| EDM04 | Zapewnienie optymalizacji zasobów | Ensure Resource Optimisation |\n| EDM05 | Zapewnienie przejrzystości dotyczącej interesariuszy | Ensure Stakeholder Transparency |\n\nEDM02–EDM04 to trzy składniki Celu Ładu (korzyści, ryzyko, zasoby).",
+  "poziom3": "(s. 32): *„Nadzór — obejmuje pięć procesów nadzoru; w ramach każdego procesu zdefiniowano praktyki w zakresie oceny, kierowania i monitorowania (EDM)”*. Przypis: monitorowanie w Ładzie to sprawdzanie przez organ nadzorujący, w jakim stopniu kierunek został wcielony w życie.",
+  "przyklady": {
+    "zycie": "Raz na kwartał siadacie z partnerem przy kuchennym stole. Patrzycie, jak wygląda sytuacja w domu (Oszacuj), ustalacie, że w tym roku priorytetem jest remont, a nie nowe auto (Kieruj), i po trzech miesiącach sprawdzacie, czy remont idzie zgodnie z planem (Monitoruj). Sami nie kładziecie płytek – od tego jest ekipa. To jest EDM, czyli Ład.",
+    "biuro": "Właściciel biura raz na kwartał przegląda koszty i skargi klientów (Oszacuj), decyduje, że priorytetem jest szybsza obsługa, a nie tańszy papier (Kieruj), i po kwartale sprawdza, czy kierowniczka to osiągnęła (Monitoruj). Sam nie wysyła pism ani nie zamawia tonerów.",
+    "firma": "Wspólnicy sklepu internetowego spotykają się raz na kwartał. Oceniają, czy sklep się opłaca i czy ryzyko wycieku danych jest pod kontrolą, postanawiają, że w tym roku stawiają na aplikację mobilną, a po trzech miesiącach sprawdzają, jak kierownik ją wdraża. Nie konfigurują serwerów – wyznaczają kierunek i go pilnują, czyli działają w domenie EDM.",
+    "admin": "Rada gminy uchwala strategię cyfryzacji, a po roku słucha sprawozdania wójta i ocenia, czy pieniądze na e-usługi dały efekt. Radni nie wdrażają systemów – oceniają, kierują i monitorują. To jest rola EDM.",
+    "psp": "Raz na kwartał komendant powiatowy z zastępcami przegląda sytuację IT komendy: czy systemy w SK są pewne, ile kosztują, jakie niosą ryzyko. Ustala priorytety na kolejny rok, a na następnej odprawie sprawdza, czy zostały wcielone w życie. Komendant nie naprawia serwera – ocenia, kieruje i monitoruje, czyli działa w domenie EDM.",
+    "it": "EDM03 Zapewnienie optymalizacji ryzyka: komendantka Wrzos ocenia ryzyko przestoju Syreny, ustala, że przestój nie może przekroczyć 5 minut w roku, i co kwartał sprawdza raport Sikory. Codzienne rozpoznawanie i analizę ryzyka prowadzi Zarządzanie w APO12 Zarządzanie ryzykiem."
+  },
+  "glebokosc": {
+    "prosty": "Rodzice raz w miesiącu siadają razem. Oceniają, jak idzie (oszacuj), mówią, co jest teraz najważniejsze, np. oszczędzamy na wakacje (kieruj), i potem sprawdzają, czy wszyscy się tego trzymają (monitoruj). Nie muszą sami robić każdej rzeczy.",
+    "zaawansowany": "Komendantka Wrzos jako [[organ-ladu|organ Ładu]] ocenia potrzeby komendy po awarii z Lipowej (Oszacuj). Wyznacza Sikorze kierunek i priorytet: najpierw niezawodne powiadamianie OSP (Kieruj). Co kwartał sprawdza, w jakim stopniu ten kierunek wcielono w życie (Monitoruj). W EDM03 dba o określenie apetytu na ryzyko, ale rejestr ryzyk prowadzi już Sikora w [[apo|APO12]]. Bieżące monitorowanie wydajności i celów to MEA, czyli [[zarzadzanie|Zarządzanie]].",
+    "skrajny": "Słowo „monitoruj” pojawia się i w EDM, i w MEA. Kusi, by uznać, że komendantka monitoruje cele procesów. W EDM organ Ładu sprawdza, w jakim stopniu wytyczony kierunek wcielono w życie (przypis na s. 32). MEA należy do Zarządzania: kierownictwo monitoruje wydajność i zgodność z celami, system kontroli wewnętrznej i zgodność z wymaganiami zewnętrznymi. Druga pułapka: Oszacuj, Kieruj i Monitoruj to praktyki każdego z 5 procesów EDM, a nie trzy osobne procesy. Trzecia: *Evaluate* w EDM to „Oszacuj”, a „Oceń” należy do nazwy MEA. **Rozstrzygnięcie:** EDM to Ład (5 procesów, w każdym praktyki Oszacuj–Kieruj–Monitoruj), a monitorowanie wydajności i celów to MEA, czyli Zarządzanie."
+  },
+  "zagmatwania": [
+    {
+      "mit": "EDM to trzy procesy: Oszacuj, Kieruj i Monitoruj.",
+      "prawda": "EDM ma 5 procesów (EDM01–EDM05), a Oszacuj, Kieruj i Monitoruj to praktyki w każdym z nich."
+    },
+    {
+      "mit": "EDM i MEA robią to samo, bo oba „monitorują”.",
+      "prawda": "EDM (Ład) sprawdza, czy kierunek wcielono w życie. MEA (Zarządzanie) monitoruje wydajność i zgodność z celami."
+    },
+    {
+      "mit": "Skoro EDM03 dotyczy ryzyka, to organ Ładu prowadzi rejestr ryzyk.",
+      "prawda": "EDM03 zapewnia, że apetyt na ryzyko jest określony i przestrzegany. Rejestr i analizę ryzyk prowadzi kierownictwo w APO12."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Przypisywanie organowi Ładu bieżącego monitorowania celów i traktowanie Oszacuj–Kieruj–Monitoruj jako trzech procesów.",
+    "jakTlumaczyc": "Armator i kapitan: armator (Ład) ocenia potrzeby, wyznacza port docelowy i sprawdza, czy statek tam płynie. Kapitan z załogą (Zarządzanie) planują trasę, sterują i mierzą prędkość. Armator nie stoi przy sterze.",
+    "pytanieKontrolne": "Komendantka chce co tydzień sama przeglądać wskaźniki czasu wysyłki alarmów. Czy to EDM? Co powinna robić w EDM, a co zostawić Sikorze?",
+    "odpowiedzKontrolna": "Bieżące monitorowanie wydajności to MEA, czyli Zarządzanie, więc to zadanie Sikory. W EDM komendantka ocenia potrzeby, wyznacza kierunek i sprawdza, w jakim stopniu kierunek wcielono w życie, korzystając z informacji od kierownictwa."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "mea",
+      "roznica": "MEA to domena ZARZĄDZANIA (monitorowanie wydajności, kontroli wewnętrznej i zgodności). EDM to domena ŁADU."
+    }
+  ],
+  "przykladWypowiedzi": "EDM, czyli Evaluate, Direct and Monitor – Oszacuj, Kieruj i Monitoruj – to jedyna domena Ładu; organ Ładu monitoruje w niej realizację wyznaczonego kierunku, a MEA (Monitor, Evaluate and Assess) to monitorowanie po stronie Zarządzania.",
+  "egzamin": "„Oszacuj, Kieruj i Monitoruj” to **praktyki każdego procesu Ładu**, a nie komponent Podejścia do Ładu. EDM05 bywa nazywany „Zapewnienie Transparentności Interesariuszy”.",
+  "powiazane": [
+    "lad",
+    "prm",
+    "mea",
+    "zasada-5"
+  ],
+  "sylabus": [
+    "PR-01-03",
+    "PR-02-14"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 32,
+      "cytat": "Nadzór — obejmuje pięć procesów nadzoru; w ramach każdego procesu zdefiniowano praktyki w zakresie oceny, kierowania i monitorowania (EDM)"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16"
+    },
+    {
+      "doc": "ALTKOM"
+    },
+    {
+      "doc": "SP1",
+      "strona": 24
+    }
+  ],
+  "mapa": "domena-edm"
+}

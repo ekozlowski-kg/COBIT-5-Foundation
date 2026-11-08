@@ -1,0 +1,94 @@
+{
+  "id": "struktury-organizacyjne",
+  "en": "Organisational Structures (enabler 3)",
+  "wymowa": "organajzejszynal strakczers",
+  "wymowaAkcent": "or-ga-naj-ZEJ-szy-nal STRAK-czers",
+  "plEgzamin": "Struktury organizacyjne",
+  "plPodrecznik": "Struktury organizacyjne",
+  "mapa": "akt-struktury",
+  "poLudzku": "Zespoły, komisje i stanowiska, które podejmują decyzje, np. narada kierownictwa czy komisja przetargowa.",
+  "wyobrazSobie": "Jak rada rodziców w szkole: ma ustalony skład, zakres spraw, o których decyduje, zasady głosowania i kadencję, po której kończy działanie albo jest wybierana na nowo.",
+  "poCo": "Żeby było wiadomo, które zespoły i gremia podejmują jakie decyzje, z jakim umocowaniem i według jakich zasad.",
+  "jakDziala": "Struktury organizacyjne (organisational structures) to kluczowe jednostki decyzyjne, np. zarząd, komitet ds. strategii IT czy komitet sterujący. Każda ma mandat, skład i zasady działania, a dobre praktyki obejmują też zakres kontroli (span of control), poziom uprawnień (level of authority), delegowanie uprawnień i procedury eskalacji. Wynikiem ich pracy są decyzje, a tabele RACI łączą je z praktykami procesów.",
+  "dlaczegoWazne": "To jeden z siedmiu aktywatorów COBIT 5 (zasada 4, „Aktywacja holistycznego podejścia”). Egzamin pyta, że produktem struktury są decyzje, oraz o dobre praktyki: zasady operacyjne, skład, zakres kontroli, poziom uprawnień, delegowanie i eskalację.",
+  "poziom1": "Zespoły, które podejmują decyzje (np. zarząd, komitet sterujący, komisja przetargowa). Każdy taki zespół potrzebuje mandatu, czyli jasnego powodu istnienia i zakresu tego, o czym może decydować.",
+  "poziom2": "Cele: właściwe **umocowanie** (mandat), dobrze zdefiniowane zasady działania, stosowanie dobrych praktyk. **Wynikiem są decyzje** i działania. Cykl życia: struktura jest tworzona (z **mandatem**, czyli powodem i celem istnienia), działa, jest dostosowywana, a w końcu rozwiązywana.\n\nDobre praktyki (s. 75): **zasady operacyjne** (działania), **skład**, **zakres kontroli**, **poziom uprawnień** (uprawnienia decyzyjne), **delegowanie uprawnień**, **procedury eskalacji**.",
+  "poziom3": "(s. 27): *„Struktury organizacyjne to kluczowe jednostki odpowiedzialne za podejmowanie decyzji w przedsiębiorstwie.”* Powiązania (s. 75): RACI łączy procesy ze strukturami; kultura i etyka determinują skuteczność decyzji; skład odzwierciedla umiejętności; mandat i zasady działania określa struktura polityk.",
+  "przyklady": {
+    "zycie": "Trójka rodzeństwa opiekuje się starszym tatą i umawia się: każdy wydatek powyżej 1000 zł na leczenie czy remont jego mieszkania zatwierdzają we trójkę, na rozmowie w niedzielę. Drobne zakupy robi ten, kto akurat jest u taty. Ta niedzielna „rada” to struktura organizacyjna – ma skład, mandat i zasady podejmowania decyzji.",
+    "biuro": "W biurze działa komisja zakupów: kierowniczka, księgowa i jeden pracownik. Raz w miesiącu decyduje o wydatkach powyżej 2000 zł, np. o nowej drukarce, mniejsze zakupy kierowniczka zatwierdza sama, a sprawy, których komisja nie rozstrzygnie, trafiają do dyrektora.",
+    "firma": "W rodzinnej stolarni powstaje komitet inwestycyjny: właściciel, jego córka i księgowa. Raz w miesiącu decydują o zakupach maszyn powyżej 20 tys. zł, a mniejsze wydatki zatwierdza sam kierownik warsztatu. Komitet to struktura organizacyjna z określonym zakresem uprawnień.",
+    "admin": "Wójt zarządzeniem powołuje komisję przetargową do zakupu komputerów dla szkół. Zarządzenie mówi, kto w niej zasiada, co ocenia i kiedy kończy pracę – po podpisaniu umowy. To struktura organizacyjna z mandatem i cyklem życia.",
+    "psp": "Przy dużej powodzi w komendzie powiatowej zbiera się sztab: komendant, zastępca, kierownik SK i logistyk. Sztab decyduje o rozdziale zastępów, ściąganiu ludzi z wolnej zmiany i zamawianiu sprzętu, a gdy woda opada, kończy działanie. To struktura organizacyjna – ma skład, mandat do decyzji i cykl życia.",
+    "it": "Komitet sterujący programu wdrożenia nowego systemu zatwierdza zmiany zakresu i budżetu w procesie BAI01 (Zarządzanie programami i projektami), a sprawy przekraczające jego uprawnienia eskaluje do komitetu ds. strategii IT. To aktywator „Struktury organizacyjne” w działaniu: mandat, poziom uprawnień i eskalacja."
+  },
+  "glebokosc": {
+    "prosty": "Rada rodziców w szkole zbiera się, dyskutuje i decyduje, na co wydać pieniądze z kiermaszu. Ma jasny mandat: wie, o czym może decydować, a o czym nie. Gdyby spotykała się tylko na kawę i niczego nie postanawiała, byłaby towarzystwem, a nie strukturą decyzyjną.",
+    "zaawansowany": "Bryg. Wrzos powołuje komitet sterujący wdrożenia Syreny i daje mu mandat: decyzje o harmonogramie i zmianach do 50 tys. zł. Wyższe kwoty komitet przekazuje komendantce – to procedura eskalacji, jedna z [[dobre-praktyki-struktur|dobrych praktyk struktur]]. W składzie są kpt. Sikora, Halina Mak i asp. sztab. Grab jako głos użytkowników. Członkowie pełnią w komitecie [[role-organizacyjne|role]], a ich udział w decyzjach opisuje tabela [[raci|RACI]]. Po uruchomieniu systemu komitet zostaje rozwiązany i kończy swój cykl życia.",
+    "skrajny": "Komitet sterujący Syreny zebrał się pięć razy, przyjął protokoły i listy obecności, ale nie podjął żadnej decyzji. Formalnie wszystko jest: skład, terminy, dokumenty. Intuicja mówi, że struktura działa, bo pracuje. Według COBIT 5 wynikiem struktur organizacyjnych są jednak **decyzje**, a protokoły bez decyzji nie dostarczają tego, po co struktura istnieje. Druga pułapka: CIO jako osoba to rola, a zarząd czy komitet to struktura, choć Ilustracja 33 zawiera oba rodzaje. **Rozstrzygnięcie:** struktura organizacyjna = jednostka decyzyjna z mandatem, a jej wynikiem są decyzje; rola to funkcja osoby w strukturze lub procesie."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Struktura organizacyjna to schemat organizacyjny firmy.",
+      "prawda": "W COBIT 5 to jednostki podejmujące decyzje (zarząd, komitety, rady), z mandatem i zasadami działania."
+    },
+    {
+      "mit": "CIO to struktura organizacyjna.",
+      "prawda": "CIO to rola, czyli funkcja osoby. Struktura to jednostka, np. komitet ds. strategii IT."
+    },
+    {
+      "mit": "Struktura działa, dopóki się zbiera.",
+      "prawda": "Liczy się wynik: decyzje. Struktura, która nic nie postanawia, nie realizuje swojego celu."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie struktur z rolami albo ze schematem organizacyjnym i pomijanie tego, że ich wynikiem są decyzje.",
+    "jakTlumaczyc": "Sąd: skład orzekający to struktura (ma mandat, skład i zasady, wydaje wyrok), a sędzia to rola. Przy każdej strukturze zadawaj jedno pytanie: co ona postanowiła?",
+    "pytanieKontrolne": "Po czym poznasz, że komitet jest strukturą organizacyjną w sensie COBIT 5, a nie tylko spotkaniem? Wymień co najmniej trzy dobre praktyki struktur.",
+    "odpowiedzKontrolna": "Ma mandat i zasady działania, a jego wynikiem są decyzje. Dobre praktyki: zasady operacyjne, skład, zakres kontroli, poziom uprawnień, delegowanie uprawnień, procedury eskalacji."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "role-organizacyjne",
+      "roznica": "Struktura to jednostka (np. komitet), a rola to funkcja osoby (np. CIO). Ilustracja 33 zawiera i jedne, i drugie."
+    }
+  ],
+  "przykladWypowiedzi": "Organisational structures, czyli struktury organizacyjne, to aktywator COBIT 5 obejmujący jednostki decyzyjne, np. steering committee (komitet sterujący); każda ma mandat i level of authority (poziom uprawnień), a jej produktem są decyzje.",
+  "egzamin": "Produkt działań struktury to **decyzje**. Pytania o „zasady operacyjne”, „zakres kontroli”, „poziom uprawnień”, „delegowanie” i „eskalację” dotyczą tego aktywatora.",
+  "powiazane": [
+    "dobre-praktyki-struktur",
+    "role-organizacyjne",
+    "raci"
+  ],
+  "sylabus": [
+    "EN-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 27,
+      "cytat": "Struktury organizacyjne to kluczowe jednostki odpowiedzialne za podejmowanie decyzji w przedsiębiorstwie."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 75,
+      "ilustracja": "32"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Struktury organizacyjne",
+    "podrecznik": "Struktury organizacyjne",
+    "kurs": "Struktury organizacyjne (Organisational Structures)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 8, 9, 14; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "aktywator",
+    "organizacja"
+  ]
+}

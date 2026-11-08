@@ -1,0 +1,112 @@
+{
+  "id": "faza-7",
+  "en": "Phase 7: How do we keep the momentum going?",
+  "wymowa": "fejz 7 hał du łi kip de momentum gołing",
+  "wymowaAkcent": "fejz 7 hał du łi kip de mo-MEN-tum GOŁ-ing",
+  "plEgzamin": "Faza 7: Jak utrzymać motywację do działania?",
+  "plPodrecznik": "Faza 7: Jak utrzymać obecną dynamikę?",
+  "plInne": [
+    {
+      "nazwa": "Jak utrzymać impet?",
+      "zrodlo": "sylabus PL (SYL)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Faza 7: Jak utrzymać motywację do działania?",
+    "podrecznik": "Faza 7: Jak utrzymać obecną dynamikę?",
+    "kurs": "Faza 7: Jak utrzymać motywację do działania? (Phase 7: How do we keep the momentum going?)",
+    "uwaga": "Egzamin PL: „Faza 7: Jak utrzymać motywację do działania?”; podręcznik PL: „Faza 7: Jak utrzymać obecną dynamikę?” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL (uzasadnienie SP1: „jak utrzymać motywację do działania”). – przyjęta w kursie przez analogię. Inne formy w obiegu: Jak utrzymać impet? (sylabus PL (SYL))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Działanie doskonalenia w fazie 7 to „Monitorowanie i szacowanie”. Nie myl go z domeną MEA (Monitoruj, Oszacuj i Oceń) ani z „Monitoruj” w EDM. Faza 7 nie kończy cyklu: po niej rusza kolejna iteracja.",
+  "skadNazwa": "Angielskie *How do we keep the momentum going?*. *Momentum* tłumaczy się jako „dynamika” (egzamin, podręcznik) albo „impet” (sylabus PL).",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "faza-6",
+    "pierscien-doskonalenie"
+  ],
+  "poLudzku": "Siódmy krok: sprawdzasz, czy całość się udała, i ustalasz, co poprawiać dalej, żeby nie stracić tempa.",
+  "wyobrazSobie": "Po roku z nową kuchnią mówisz: udało się, teraz pora na łazienkę. Przegląd mieszkania wpisujesz do corocznych planów.",
+  "poziom1": "Siódma z [[fazy-wdrozenia|siedmiu faz]]. Weryfikuje się ogólny sukces inicjatywy, identyfikuje dalsze wymagania dotyczące Ładu i Zarządzania IT i wzmacnia potrzebę ciągłego doskonalenia. Potem cykl rusza od nowa.",
+  "poziom2": "| Pierścień | Działanie w fazie 7 („Jak utrzymać motywację do działania?”) |\n|---|---|\n| Zarządzanie programem (zewnętrzny) | Przegląd skuteczności |\n| Aktywowanie zmiany (środkowy) | Utrzymanie |\n| Cykl życia ciągłego doskonalenia (wewnętrzny) | Monitorowanie i szacowanie (SP1) |\n\nOznaczenia nazw działań: **(SP1)** – nazwa z polskiego arkusza egzaminacyjnego; bez oznaczenia – tłumaczenie kursu z *COBIT 5 Implementation* (ISACA), jak w lekcji 3.4.\n\nPo fazie 7 cykl wraca do fazy 1: nowe wyznaczniki, nowa iteracja. Z czasem cykl życia realizuje się **iteracyjnie** (s. 38).",
+  "poziom3": "(s. 38): *„W trakcie fazy 7 weryfikuje się ogólny sukces inicjatywy”*, identyfikuje dalsze wymagania dotyczące nadzoru (Ładu) nad IT i zarządzania nim oraz wzmacnia potrzebę ciągłego doskonalenia.",
+  "poCo": "Żeby sprawdzić sukces całej inicjatywy i nie stracić tempa. Z tej fazy wychodzą cele na następną iterację.",
+  "jakDziala": "Weryfikujesz ogólny sukces inicjatywy. Rozpoznajesz dalsze wymagania dotyczące Ładu i Zarządzania IT. Wzmacniasz potrzebę ciągłego doskonalenia, a pętla wraca do fazy 1. Działanie pierścienia doskonalenia to Monitorowanie i szacowanie.",
+  "dlaczegoWazne": "Egzamin pyta, gdzie weryfikuje się ogólny sukces inicjatywy. To faza 7, a jej działanie w pierścieniu doskonalenia to Monitorowanie i szacowanie.",
+  "przyklady": {
+    "zycie": "Schudłeś 8 kg. Siadasz z żoną i oceniacie cały rok: co zadziałało, co nie. Ustalacie, że teraz zajmiecie się snem. Zostawiacie bieganie we wtorki, żeby nie wrócić do starego. To faza 7.",
+    "biuro": "Po roku biuro uznaje nowe archiwum za sukces. Kolejnym celem staje się obieg faktur, a przegląd trafia do rocznego planu.",
+    "organizacja": "Sklep po roku ocenia program logistyki: wysyłki są szybsze, więc następnym celem są zwroty. Starosta wpisuje stały przegląd do planu i wybiera wydział geodezji.",
+    "psp": "**Kolejna iteracja**\nPo pół roku komendantka Anna Wrzos ocenia cały program „Syrena 2.0”: alarm dochodzi szybciej, kontrola wypadła dobrze. Audytorka Ewa Lis wskazuje, co dalej: proces kopii zapasowych kuleje. Dyżurni co kwartał przypominają nową procedurę nowym kolegom. Wrzos zapowiada kolejny obrót cyklu. To [[faza-7|faza 7: Jak utrzymać motywację do działania?]]",
+    "it": "Ponowna ocena zdolności DSS02 i raporty z MEA01 pokazują efekt całości. Nowe wymagania, np. dla DSS03, uruchamiają kolejną iterację."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "mea",
+      "roznica": "MEA to domena procesów Zarządzania (Monitoruj, Oszacuj i Oceń). „Monitorowanie i szacowanie” w fazie 7 to działanie pierścienia doskonalenia we wdrożeniu."
+    },
+    {
+      "termin": "faza-6",
+      "roznica": "Faza 6 sprawdza korzyści tej iteracji. Faza 7 ocenia ogólny sukces i ustala dalsze wymagania."
+    }
+  ],
+  "przykladWypowiedzi": "W fazie 7, How do we keep the momentum going?, czyli Jak utrzymać motywację do działania?, pierścień doskonalenia prowadzi Monitorowanie i szacowanie.",
+  "egzamin": "Faza, w której **weryfikuje się ogólny sukces**, identyfikuje dalsze wymagania i wzmacnia potrzebę ciągłego doskonalenia → **faza 7**. Działanie doskonalenia: **Monitorowanie i szacowanie**.",
+  "powiazane": [
+    "fazy-wdrozenia",
+    "faza-6",
+    "faza-1",
+    "pierscien-doskonalenie",
+    "mea",
+    "cykl-wdrozenia"
+  ],
+  "sylabus": [
+    "IM-02-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "W trakcie fazy 7 weryfikuje się ogólny sukces inicjatywy"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "wzmacnia potrzebę ciągłego doskonalenia"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "ilustracja": "17"
+    }
+  ],
+  "mapa": "faza-7",
+  "glebokosc": {
+    "prosty": "Skończyłeś pierwszy rok nauki gry na gitarze. Oceniasz, co już umiesz. Wybierasz nowy cel na kolejny rok. Grasz dalej codziennie po kwadransie, żeby nie zapomnieć. Nauka się nie kończy, zaczyna się następny etap.",
+    "zaawansowany": "Wrzos ocenia cały program, a nie jedną liczbę. Lis wskazuje następny słaby proces, więc pojawia się nowy powód do zmiany – nowa [[faza-1]]. Pierścień zmiany robi „Utrzymanie”: nowe nawyki mają przetrwać rotację ludzi. Pierścień [[pierscien-doskonalenie|doskonalenia]] monitoruje i ocenia, co poprawić w kolejnej iteracji.",
+    "skrajny": "Na egzaminie widzisz opcje: „Monitorowanie i szacowanie”, „Monitoruj, Oszacuj i Oceń”, „Oszacuj, Kieruj i Monitoruj”. Wszystkie mają „monitor”, ale tylko pierwsza to działanie fazy 7. Druga to domena procesów [[mea|MEA]], trzecia – praktyki Ładu [[edm|EDM]]. W komendzie wszystkie trzy mogą działać naraz: Lis monitoruje procesy (MEA), Wrzos ocenia kierunek (EDM), a zespół wdrożenia robi fazę 7. Do tego faza 7 nie jest końcem: identyfikuje dalsze wymagania i otwiera nową iterację. **Rozstrzygnięcie:** „Monitorowanie i szacowanie” jako działanie cyklu = faza 7 w pierścieniu doskonalenia; MEA i EDM to domeny procesów, a nie fazy wdrożenia."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Faza 7 to koniec wdrożenia COBIT.",
+      "prawda": "Faza 7 identyfikuje dalsze wymagania i wzmacnia potrzebę ciągłego doskonalenia. Potem rusza kolejna iteracja."
+    },
+    {
+      "mit": "„Monitorowanie i szacowanie” w fazie 7 to domena MEA.",
+      "prawda": "MEA to domena 3 procesów Zarządzania. Działanie fazy 7 należy do cyklu wdrożenia."
+    },
+    {
+      "mit": "„Utrzymanie dynamiki” to tylko sprawa techniki.",
+      "prawda": "W fazie 7 każdy pierścień ma działanie: Przegląd skuteczności, Utrzymanie, Monitorowanie i szacowanie."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń traktuje fazę 7 jako zakończenie i myli jej działanie z domeną MEA.",
+    "jakTlumaczyc": "Pokaż koło zamiast linii: strzałka z fazy 7 wraca do fazy 1. Faza 7 to „rozmowa po sezonie”, po której zaczyna się nowy sezon.",
+    "pytanieKontrolne": "Co dzieje się po fazie 7 i czym różni się jej „Monitorowanie i szacowanie” od domeny MEA?",
+    "odpowiedzKontrolna": "Cykl rusza od nowa (kolejna iteracja). „Monitorowanie i szacowanie” to działanie pierścienia doskonalenia we wdrożeniu, a **MEA** to domena procesów Zarządzania."
+  }
+}

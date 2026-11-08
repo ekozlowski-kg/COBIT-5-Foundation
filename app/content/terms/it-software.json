@@ -1,0 +1,89 @@
+{
+  "id": "it-software",
+  "en": "Software",
+  "wymowa": "softłer",
+  "wymowaAkcent": "SOFT-łer",
+  "plEgzamin": "Oprogramowanie",
+  "plPodrecznik": "oprogramowanie",
+  "plInne": [
+    "program",
+    "software (potocznie)"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "oprogramowanie (FW-PL s. 86: „oprogramowanie systemowe”)",
+    "kurs": "Oprogramowanie (Software)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. W mowie potocznej często zostaje angielskie „software”."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P0",
+  "wymaga": [
+    "it-hardware"
+  ],
+  "poLudzku": "Polecenia zapisane w komputerze, które mówią sprzętowi, co ma zrobić krok po kroku.",
+  "poziom1": "Wszystkie programy, czyli zapisane listy poleceń dla komputera. Oprogramowania nie da się dotknąć; jest zapisane na dysku albo w pamięci urządzenia.",
+  "poziom2": "Oprogramowanie dzieli się na dwie grupy. **Oprogramowanie systemowe** (przede wszystkim system operacyjny) uruchamia komputer i pilnuje jego pracy. **Aplikacje** (programy użytkowe) służą ludziom do konkretnych zadań: pisania, liczenia, wysyłania wiadomości. Program można zainstalować (wgrać), zaktualizować (wymienić na nowszą wersję) i odinstalować.",
+  "poziom3": "FW-PL wymienia „oprogramowanie systemowe” jako część infrastruktury technicznej, a aplikacje osobno – jako to, co zapewnia funkcjonalność biznesową (s. 86).",
+  "wyobrazSobie": "Przepis kulinarny. Kuchnia i garnki to sprzęt, a przepis mówi, co i w jakiej kolejności zrobić.",
+  "poCo": "Żeby jeden sprzęt mógł robić wiele różnych rzeczy. Ten sam komputer raz pisze list, raz pokazuje mapę – zależnie od programu.",
+  "jakDziala": "Program to lista poleceń zapisana na dysku. Gdy go uruchamiasz, komputer czyta polecenia i wykonuje je po kolei. Inny program to inne polecenia, więc ten sam sprzęt robi coś innego.",
+  "dlaczegoWazne": "W organizacji programy kosztują, wymagają aktualizacji i mogą zawieść. COBIT 5 każe nimi zarządzać tak samo starannie jak pieniędzmi czy ludźmi.",
+  "przyklady": {
+    "zycie": "Telefon ma aparat (sprzęt) i program „Aparat”, który robi zdjęcie po dotknięciu ekranu. Gdy program się zawiesi, aparat jest sprawny, ale zdjęcia nie zrobisz.",
+    "biuro": "Pani w sekretariacie pisze pismo w edytorze tekstu (programie do pisania), a potem je drukuje. Po południu ten sam komputer liczy faktury w innym programie.",
+    "organizacja": "Szpital kupuje licencję (prawo do używania) programu do rejestracji pacjentów na 3 lata. Płaci za oprogramowanie, a nie za nowe komputery.",
+    "psp": "Na komputerze dyżurnej Kasi Nowik działa kilka programów: poczta, mapa okolicy i system powiadamiania „Syrena”. Komputer jest jeden, programów kilka.",
+    "it": "COBIT 5 rozróżnia oprogramowanie systemowe (część infrastruktury technicznej) i aplikacje (FW-PL s. 86)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-hardware",
+      "roznica": "Sprzęt to rzecz, oprogramowanie to polecenia dla tej rzeczy."
+    },
+    {
+      "termin": "it-aplikacja",
+      "roznica": "Aplikacja to jeden rodzaj oprogramowania – ten, którego ludzie używają do swoich zadań."
+    }
+  ],
+  "przykladWypowiedzi": "Software, czyli oprogramowanie, to programy, które mówią hardware, czyli sprzętowi, co ma robić.",
+  "egzamin": "Termin „software” nie jest pytany wprost. Pomaga zrozumieć aktywator Usługi, infrastruktura i aplikacje oraz proces BAI06 Zarządzanie zmianami – podmiana programu to też zmiana.",
+  "powiazane": [
+    "it-hardware",
+    "it-system-operacyjny",
+    "it-aplikacja"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 86,
+      "cytat": "infrastruktura techniczna, w tym sprzęt, oprogramowanie systemowe oraz infrastruktura sieciowa"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Ten sam odtwarzacz (sprzęt) gra różną muzykę, zależnie od płyty. Płyta z nagraniem jest jak program: zmienia to, co urządzenie robi, choć urządzenie zostaje to samo.",
+    "zaawansowany": "Ola Dudek instaluje na komputerze SK nową wersję programu „Syrena”. Sprzęt się nie zmienia, ale komputer zaczyna działać inaczej. Dlatego każda taka podmiana programu musi być zaplanowana – w lekcji 0A.8 nazwiemy ją [[it-zmiana|zmianą]].",
+    "skrajny": "Czy system operacyjny to aplikacja? Nie: oba są oprogramowaniem, ale system operacyjny obsługuje sam komputer, a aplikacja – zadanie człowieka. Czy program „wbudowany” w pralkę to oprogramowanie? Tak, choć nie da się go odinstalować. Czy dokument zapisany w edytorze to oprogramowanie? Nie, to dane. **Rozstrzygnięcie:** oprogramowanie to polecenia wykonywane przez sprzęt; to, co program tworzy albo pokazuje (teksty, zdjęcia, liczby), to dane."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Program i plik to to samo.",
+      "prawda": "Program to polecenia do wykonania. Plik może zawierać program, ale najczęściej zawiera dane, np. list czy zdjęcie."
+    },
+    {
+      "mit": "Oprogramowanie kupuje się raz na zawsze.",
+      "prawda": "Programy trzeba aktualizować, a często płaci się za prawo do używania (licencję) przez określony czas."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie programu z dokumentem, który w nim powstał.",
+    "jakTlumaczyc": "Przepis i ciasto: przepis to program, ciasto to wynik (dane). Ten sam przepis daje wiele ciast.",
+    "pytanieKontrolne": "Czy zdjęcie zrobione telefonem to oprogramowanie?",
+    "odpowiedzKontrolna": "Nie. Zdjęcie to dane. Oprogramowaniem jest program „Aparat”, który je zrobił."
+  }
+}

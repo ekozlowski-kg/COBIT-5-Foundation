@@ -1,0 +1,97 @@
+{
+  "id": "polityka",
+  "en": "Policy",
+  "wymowa": "polisi",
+  "wymowaAkcent": "PO-li-si",
+  "plEgzamin": "Polityka",
+  "plPodrecznik": "Polityka",
+  "mapa": "zasady-vs-polityki",
+  "kategoria": "podstawowe",
+  "poLudzku": "Spisane reguły: co wolno, czego nie wolno, kogo to dotyczy i co grozi za złamanie.",
+  "wyobrazSobie": "Jak regulamin basenu przy wejściu: ogólna zasada „bezpiecznie dla wszystkich” zamienia się w konkretne reguły, np. czepek obowiązkowy i zakaz skakania z brzegu, które ratownik egzekwuje, a kierownik co sezon odświeża.",
+  "poCo": "Żeby ogólne zasady organizacji przełożyć na konkretne reguły postępowania, które każdy zna i stosuje w codziennej pracy.",
+  "jakDziala": "Kierownictwo formalnie zatwierdza politykę (policy), czyli szczegółowe wytyczne, jak w praktyce stosować zasady (principles). Polityka musi być dostępna dla interesariuszy, a dobra polityka jest skuteczna, wydajna i nieinwazyjna. Ma cykl życia: powstaje, jest stosowana, przeglądana i aktualizowana. W COBIT 5 należy do aktywatora „Zasady, Polityki i Struktury ramowe”.",
+  "dlaczegoWazne": "Egzamin sprawdza cechy dobrej polityki (skuteczna, wydajna, nieinwazyjna) i odróżnienie polityki od zasady, która jest ogólniejsza i ograniczona liczbowo. Polityki są elementem aktywatora 1, więc wracają w pytaniach o zasadę 4 („Aktywacja holistycznego podejścia”).",
+  "poziom1": "Spisane i zatwierdzone przez kierownictwo reguły, które mówią, jak w praktyce stosować ogólne zasady (np. „służbowego laptopa nie pożyczamy rodzinie”, „hasło ma co najmniej 12 znaków”). Polityka jest bardziej szczegółowa niż zasada.",
+  "poziom2": "Polityka jest **bardziej szczegółowa** niż zasada. Dobra polityka jest **skuteczna** (osiąga cel), **wydajna** (najmniejszym kosztem) i **nieinwazyjna** (wydaje się logiczna i nie budzi zbędnego oporu). Musi być **dostępna**, czyli interesariusze wiedzą, gdzie ją znaleźć. Ma **cykl życia** i trzeba ją aktualizować.",
+  "poziom3": "Słownik (s. 92): *„Ogólne zamierzenia i wytyczne formalnie wyrażone przez kierownictwo.”* (s. 67): *„Polityki zawierają bardziej szczegółowe wytyczne dotyczące sposobu praktycznego zastosowania zasad”*.",
+  "przyklady": {
+    "zycie": "Rodzice mają ogólną zasadę: dzieci uczą się gospodarować pieniędzmi. Żeby to działało, wieszają na lodówce kartkę: 50 zł kieszonkowego co poniedziałek, bez zaliczek, za skoszenie trawy dodatkowe 20 zł. Ta kartka to polityka – przekłada ogólną zasadę na konkretne reguły.",
+    "biuro": "Kierownik biura ma zasadę „dokumenty klientów są poufne” i zamienia ją w politykę: poufne wydruki odbiera się z drukarki od razu, zbędne kopie idą do niszczarki, a teczek nie wynosi się z biura. Kartka z tymi regułami wisi przy drukarce, a kierownik raz w roku ją przegląda.",
+    "firma": "Właściciel biura rachunkowego powtarza: „dane klientów chronimy”. Pracownicy dostają od niego jedną stronę reguł: hasło co najmniej 12 znaków, blokada ekranu przy odejściu od biurka, żadnych plików klientów na prywatnym pendrivie. To polityka – szczegółowa, zatwierdzona przez szefa i dostępna dla każdego.",
+    "admin": "Wójt zatwierdza politykę bezpieczeństwa informacji urzędu: kto ma dostęp do których rejestrów, jak zgłosić zgubiony telefon służbowy, jak niszczyć wydruki z danymi. Urzędnicy mają ją w intranecie, a raz w roku sekretarz ją przegląda i aktualizuje. Tak działa polityka: spisana przez kierownictwo, znana wszystkim i żywa.",
+    "psp": "Komendant powiatowy wydaje reguły korzystania z radiostacji: kanał ratowniczy tylko do działań, łączność próbna o ustalonych porach, żadnych prywatnych rozmów. Dowódcy zmian omawiają je na odprawie, a kopia wisi w świetlicy JRG. To polityka: kierownictwo mówi, jak w praktyce stosować ogólną zasadę dyscypliny łączności.",
+    "it": "W procesie APO13 (Zarządzanie bezpieczeństwem) kierownictwo zatwierdza politykę bezpieczeństwa informacji z konkretnymi regułami, np. o hasłach, dostępie zdalnym i klasyfikacji danych. Przekłada ona zasady bezpieczeństwa organizacji na codzienne postępowanie i jest częścią aktywatora „Zasady, Polityki i Struktury ramowe”."
+  },
+  "glebokosc": {
+    "prosty": "Na basenie wisi tabliczka: przed wejściem do wody prysznic, w czepku, bez biegania. Ogólna myśl to „dbamy o higienę i bezpieczeństwo”, a tabliczka mówi konkretnie, jak to robić. Gdyby reguła była absurdalna, np. prysznic przez kwadrans, ludzie zaczęliby ją omijać.",
+    "zaawansowany": "Kpt. Sikora pisze politykę korzystania z Syreny: kto może wysłać alarm testowy, jak zgłosić utracone hasło, kiedy konto się blokuje. Wyprowadza ją z ogólnej zasady komendantki „alarm musi być wiarygodny”, czyli z poziomu [[zasady-polityki-struktury|zasad]]. Asp. sztab. Grab czyta projekt i mówi, że potwierdzanie każdego alarmu dwoma kodami opóźni wyjazd. Sikora upraszcza zapis, bo dobra polityka ma być skuteczna, wydajna i nieinwazyjna. Na koniec publikuje ją w intranecie, żeby każdy dyżurny wiedział, gdzie ją znaleźć.",
+    "skrajny": "Komenda ma dokument „Polityka bezpieczeństwa informacji”, ale zawiera on tylko pięć ogólnych haseł, np. „chronimy dane obywateli”. Intuicja mówi: w tytule jest „polityka”, więc to polityka. Według COBIT 5 nieliczne, proste zdania wyrażające podstawowe wartości to cechy **zasad**, a polityka podaje szczegółowe wytyczne, jak zasady stosować. Odwrotny przypadek: reguła, która skutecznie blokuje wycieki, ale ludzie uważają ją za absurdalną i ją obchodzą, nie jest dobrą polityką, bo nie jest nieinwazyjna. Podręcznik PL nazywa tę cechę „nieingerencyjna” – to ta sama cecha. **Rozstrzygnięcie:** o tym, czy dokument jest zasadą, czy polityką, decyduje treść, a nie tytuł (interpretacja kursu); dobra polityka jest naraz skuteczna, wydajna i nieinwazyjna."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Polityka i zasada to synonimy.",
+      "prawda": "Zasady są nieliczne, proste i wyrażają podstawowe wartości. Polityki są bardziej szczegółowe i mówią, jak zasady stosować w praktyce."
+    },
+    {
+      "mit": "Nieinwazyjna polityka to taka, która niczego nie zabrania.",
+      "prawda": "Nieinwazyjna znaczy, że osobom, które muszą jej przestrzegać, wydaje się logiczna i nie budzi niepotrzebnego oporu. Może przy tym wiele zabraniać."
+    },
+    {
+      "mit": "Polityka to cały aktywator 1.",
+      "prawda": "Polityka to tylko element aktywatora „Zasady, polityki i struktury ramowe”."
+    },
+    {
+      "mit": "Wystarczy, że polityka jest zatwierdzona.",
+      "prawda": "Musi też być dostępna (interesariusze wiedzą, gdzie ją znaleźć) i aktualizowana w swoim cyklu życia."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Przypisywanie polityce cech zasad („ograniczona liczba”, „wyraża podstawowe wartości”) i rozumienie „nieinwazyjna” jako „łagodna”.",
+    "jakTlumaczyc": "Analogia: statut (zasady) i regulamin (polityka). Pokaż jedną zasadę, wyprowadź z niej trzy konkretne reguły, a potem sprawdź każdą trzema pytaniami: czy działa? czy nie kosztuje za dużo? czy ludzie uznają ją za sensowną?",
+    "pytanieKontrolne": "Polityka haseł każe zmieniać hasło co tydzień. Wycieków nie ma, koszt jest mały, ale ludzie zapisują hasła na karteczkach. Której cechy dobrej polityki brakuje i jaki ma to skutek?",
+    "odpowiedzKontrolna": "Brakuje nieinwazyjności: reguła budzi opór i ludzie ją obchodzą. W praktyce podważa to też skuteczność, bo karteczki z hasłami tworzą nowe ryzyko."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "zasady-polityki-struktury",
+      "roznica": "Polityka to element aktywatora 1, a nie cały aktywator."
+    }
+  ],
+  "przykladWypowiedzi": "A policy, czyli polityka, to formalnie zatwierdzone przez kierownictwo szczegółowe wytyczne, jak stosować principles (zasady) w praktyce; dobra polityka jest skuteczna, wydajna i nieinwazyjna.",
+  "egzamin": "Cechy dobrej polityki: **skuteczna, wydajna, nieinwazyjna**. Odpowiedzi typu „inwazyjna”, „ograniczona liczbowo” (to cecha ZASAD) czy „wyraża główne wartości” (też ZASADY) są błędne.",
+  "powiazane": [
+    "zasady-polityki-struktury"
+  ],
+  "sylabus": [
+    "EN-02-02",
+    "EN-02-03"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 92,
+      "cytat": "Ogólne zamierzenia i wytyczne formalnie wyrażone przez kierownictwo."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 67,
+      "cytat": "Polityki zawierają bardziej szczegółowe wytyczne dotyczące sposobu praktycznego zastosowania zasad"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Polityka",
+    "podrecznik": "Polityka",
+    "kurs": "Polityka (Policy)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 8, 9, 13."
+  },
+  "pulapka": false,
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "organizacja",
+    "zarzadzanie"
+  ]
+}

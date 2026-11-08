@@ -1,0 +1,101 @@
+{
+  "id": "pa-2-2",
+  "en": "PA 2.2 Work product management",
+  "wymowa": "piej 2 2 łerk prodakt menydżment",
+  "wymowaAkcent": "pi-ej 2 2 łerk PRO-dakt ME-nydż-ment",
+  "plEgzamin": "PA 2.2 Zarządzanie produktami pracy",
+  "plPodrecznik": "PA 2.2 Zarządzanie produktami działań",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "PA 2.2 Zarządzanie produktami pracy",
+    "podrecznik": "PA 2.2 Zarządzanie produktami działań",
+    "kurs": "PA 2.2 Zarządzanie produktami pracy (PA 2.2 Work product management)",
+    "uwaga": "Egzamin PL: „PA 2.2 Zarządzanie produktami pracy”; podręcznik PL: „PA 2.2 Zarządzanie produktami działań” – konkurencyjne odpowiedniki. Formy „Zarządzanie produktami pracy” nie ma ani w SP1, ani w zestawieniu Altkom. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „Zarządzanie produktami działań”. Kurs: „Zarządzanie produktami pracy” (nazwy egzaminacyjnej nie potwierdziliśmy w arkuszu). „Produkt” nie oznacza tu towaru dla klienta, tylko dokument lub plik z pracy procesu.",
+  "skadNazwa": "Z angielskiego *Work product management*. *Work product* to wszystko, co powstaje w trakcie pracy: plan, raport, rejestr, lista.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "atrybuty-procesu",
+    "produkt-pracy",
+    "pa-2-1"
+  ],
+  "poziom1": "Drugi atrybut poziomu 2. Sprawdza, czy produkty pracy procesu są właściwie określone, kontrolowane i utrzymywane: mają wymagania, są oznaczone, przeglądane i poprawiane.",
+  "poLudzku": "Czy papiery i pliki z tej roboty mają wzór, są sprawdzane i trzymane w porządku.",
+  "wyobrazSobie": "Biblioteka z katalogiem: każda książka ma numer, miejsce na półce i datę przeglądu.",
+  "poCo": "Żeby dokumenty i pliki procesu były wiarygodne: wiadomo, co mają zawierać, która wersja jest aktualna i kto je sprawdził.",
+  "jakDziala": "Asesor sprawdza wymagania wobec produktów pracy, zasady ich dokumentowania i kontroli oraz to, czy są oznaczone, przeglądane i poprawiane. Ocena co najmniej W, razem z PA 2.1 i P na PA 1.1, daje poziom 2.",
+  "dlaczegoWazne": "To atrybut, który odróżnia „dokument jest” od „dokument jest pod kontrolą”. Ta różnica wraca w pytaniach o produkty pracy i poziom 2.",
+  "poziom2": "| Co sprawdza asesor (uproszczenie według ISO/IEC 15504) | Przykład |\n|---|---|\n| wymagania wobec produktów pracy | co ma zawierać karta zdarzenia |\n| zasady dokumentowania i kontroli | wersje, kto zatwierdza, gdzie leży |\n| oznaczenie i kontrola | numer wersji, data |\n| przegląd i poprawki | kto sprawdza i kiedy |\n\nPA 2.2 nie pyta, czy produkt pracy **istnieje**, bo to dowód dla [[pa-1-1|PA 1.1]]. Pyta, czy jest **pod kontrolą**.",
+  "poziom3": "(s. 42): na poziomie 2 *„jego produkty działań są właściwie określone, kontrolowane i utrzymywane”*. Nazwa atrybutu w Il. 19: „Zarządzanie produktami działań”. Szczegóły atrybutu według ISO/IEC 15504-2 to uproszczenie kursu, spoza korpusu.",
+  "przyklady": {
+    "zycie": "Prowadzisz domowy segregator: każdy rachunek ma swoją przegródkę, umowy są w wersji podpisanej, a stare papiery co roku przeglądasz. Dokumenty są pod kontrolą. To PA 2.2.",
+    "biuro": "W biurze umowy mają wzór, numer wersji i podpis prawnika, a w folderze widać, która wersja jest ostateczna. To PA 2.2.",
+    "organizacja": "W biurze rachunkowym każdy raport dla klienta ma wzór, numer wersji i podpis osoby, która go sprawdziła. Poprawki trafiają do nowej wersji, a stara zostaje w archiwum. Tak wygląda zarządzanie produktami pracy.\n\nW starostwie decyzje mają jeden wzór, każdą sprawdza radca prawny, a w systemie widać, która wersja jest ostateczna. To PA 2.2.",
+    "psp": "**Lista z datą.** Lista numerów OSP w Syrenie dostaje właściciela (Ola Dudek), numer wersji i datę przeglądu. Każdą zmianę zatwierdza naczelnik Sikora, a stara wersja trafia do archiwum. Audytorka Ewa Lis sprawdza trzy ostatnie wersje i widzi porządek. PA 2.2 ma co najmniej W.",
+    "it": "Proces BAI06: wnioski o zmianę mają jeden wzór, numer, status i zatwierdzającego, a historia zmian jest w narzędziu. To dowody dla PA 2.2."
+  },
+  "glebokosc": {
+    "prosty": "Prowadzisz zeszyt z przepisami. Każdy przepis ma tytuł i datę, a po zmianie przekreślasz stary wpis i piszesz nowy. Zawsze wiesz, który przepis jest aktualny. To PA 2.2.",
+    "zaawansowany": "Na [[poziom-1|poziomie 1]] wystarczy, że lista numerów istnieje i działa jako [[produkt-pracy|produkt pracy]], czyli dowód. Na poziomie 2 Lis pyta, czy lista jest pod kontrolą. Czy wiadomo, co ma zawierać, kto ją zatwierdza, która wersja jest aktualna i kiedy ją przejrzano? Jeśli tak, PA 2.2 ma W lub P, a razem z [[pa-2-1|PA 2.1]] daje [[poziom-2|poziom 2]].",
+    "skrajny": "Numer Pietrzaka w Syrenie był sprzed dwóch lat. Lista istniała, więc produkt pracy był. Nikt jej jednak nie przeglądał ani nie wersjonował, więc PA 2.2 wypada słabo. Kusi, żeby to uznać wyłącznie za problem PA 1.1. Częściowo słusznie: przez złą listę alarm nie dochodził, więc ucierpiał też rezultat. Ale brak kontroli nad listą to dokładnie przedmiot PA 2.2. Druga pułapka: „produkt pracy” to nie towar dla klienta, tylko dokument lub plik procesu. **Rozstrzygnięcie:** samo istnienie dokumentu to dowód dla PA 1.1, a wymagania, wersje i przeglądy to PA 2.2. Jedno zdarzenie może obniżyć oba atrybuty (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Produkt pracy to produkt, który sprzedajemy klientowi.",
+      "prawda": "To dowolny dokument lub plik z pracy procesu: plan, rejestr, raport, lista. Podręcznik mówi „produkt działań”."
+    },
+    {
+      "mit": "Jak dokument istnieje, PA 2.2 jest spełniony.",
+      "prawda": "Istnienie dokumentu to dowód dla PA 1.1. PA 2.2 wymaga, żeby był określony, kontrolowany i utrzymywany."
+    },
+    {
+      "mit": "PA 2.2 to wspólna dokumentacja procesu dla całej organizacji.",
+      "prawda": "PA 2.2 dotyczy produktów pracy danego procesu. Wspólny standard procesu dla organizacji to PA 3.1."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli „produkt pracy istnieje” (poziom 1) z „produkt pracy jest pod kontrolą” (poziom 2).",
+    "jakTlumaczyc": "Pokaż dwa zeszyty. W jednym notatki po prostu są (poziom 1). W drugim mają daty, wersje i podpis osoby, która je sprawdziła (PA 2.2).",
+    "pytanieKontrolne": "Raporty z przeglądów istnieją, ale nie wiadomo, która wersja jest aktualna. Który atrybut cierpi?",
+    "odpowiedzKontrolna": "PA 2.2 Zarządzanie produktami pracy. Raporty są dowodem wykonania, ale nie są kontrolowane i utrzymywane."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "produkt-pracy",
+      "roznica": "Produkt pracy to sam artefakt (np. lista). PA 2.2 to atrybut, który sprawdza, czy takie artefakty są pod kontrolą."
+    },
+    {
+      "termin": "pa-2-1",
+      "roznica": "PA 2.1 zarządza wykonaniem procesu (plan, pilnowanie). PA 2.2 zarządza jego dokumentami i plikami."
+    },
+    {
+      "termin": "pa-3-1",
+      "roznica": "PA 3.1 to wspólny standard procesu dla organizacji. PA 2.2 to porządek w produktach pracy jednego procesu."
+    }
+  ],
+  "przykladWypowiedzi": "PA 2.2 Work product management, czyli zarządzanie produktami pracy (w podręczniku: zarządzanie produktami działań), sprawdza, czy produkty pracy są określone, kontrolowane i utrzymywane.",
+  "egzamin": "Drugi atrybut poziomu 2: **zarządzanie produktami pracy**. Słowa-klucze: produkty pracy **określone, kontrolowane, utrzymywane**.",
+  "powiazane": [
+    "atrybuty-procesu",
+    "poziom-2",
+    "produkt-pracy",
+    "pa-2-1"
+  ],
+  "sylabus": [
+    "PC-01-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "a jego produkty działań są właściwie określone, kontrolowane i utrzymywane"
+    }
+  ],
+  "mapa": "pa-2-2"
+}

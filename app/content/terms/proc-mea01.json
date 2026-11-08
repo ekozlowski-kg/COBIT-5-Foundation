@@ -1,0 +1,128 @@
+{
+  "id": "proc-mea01",
+  "en": "MEA01 Monitor, Evaluate and Assess Performance and Conformance",
+  "wymowa": "emiej 01 moniter iweljuejt end ases performens end konformens",
+  "wymowaAkcent": "em-i-EJ 01 MO-ni-ter i-WE-lju-ejt end a-SES per-FOR-mens end kon-FOR-mens",
+  "plEgzamin": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+  "plPodrecznik": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+  "plInne": [
+    {
+      "nazwa": "Monitorowanie i ocena wyników oraz zgodności",
+      "zrodlo": "opracowanie „Prosto, krok po kroku” (nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+    "podrecznik": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+    "kurs": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności (MEA01 Monitor, Evaluate and Assess Performance and Conformance)",
+    "uwaga": "Egzamin PL i podręcznik zgodne, ale w obiegu są konkurencyjne odpowiedniki: Monitorowanie i ocena wyników oraz zgodności. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 59. Inne formy w obiegu: Monitorowanie i ocena wyników oraz zgodności (opracowanie „Prosto, krok po kroku” (nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Performance and Conformance*. Domena MEA na egzaminie to „Monitoruj, Oszacuj i Oceń”, więc nazwy procesów MEA mogą tam brzmieć np. trybem rozkazującym. Uwaga na słowo „zgodność”: w MEA01 to *conformance* (zgodność z uzgodnionymi celami i ustaleniami), a w MEA03 to *compliance* (zgodność z wymogami zewnętrznymi).",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "mea",
+    "cele-zwiazane-z-it"
+  ],
+  "poLudzku": "Zbierasz liczby o tym, jak idzie praca, porównujesz je z celami i raportujesz, co trzeba poprawić.",
+  "wyobrazSobie": "Zegarek sportowy liczy kroki i porównuje je z celem. Gdy brakuje, wieczorem idziesz na spacer.",
+  "skadNazwa": "Z angielskiego *Monitor, Evaluate and Assess Performance and Conformance*. *Performance* to wydajność (czy osiągamy cele), *conformance* to zgodność z tym, co uzgodniliśmy. Podręcznik tłumaczy i *conformance*, i *compliance* (MEA03) jako „zgodność”.",
+  "poziom1": "Proces domeny [[mea]], który zbiera, sprawdza i ocenia cele i mierniki: biznesowe, IT i procesów. Monitoruje, czy procesy osiągają uzgodnione cele wydajności i zgodności, dostarcza systematyczne i terminowe raporty i uruchamia działania korygujące.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** ustala podejście do monitorowania, wyznacza cele i mierniki, zbiera i przetwarza dane, analizuje wyniki i raportuje, pilnuje wdrożenia działań korygujących.\n\n**Wejścia (intuicja):** cele i mierniki z kaskady celów ([[cele-zwiazane-z-it]]), dane z procesów APO, BAI i DSS, uzgodnione poziomy usług (APO09).\n\n**Wyjścia (intuicja):** raporty wydajności, analiza odchyleń, działania korygujące, informacja dla organu Ładu.\n\n**Współpracuje z:** domeną [[edm]] (raporty dla monitorowania w Ładzie, np. EDM02, EDM05), [[proc-mea02]] (kontrole), [[proc-mea03]] (wymogi zewnętrzne), [[wskaznik-wiodacy]] i [[wskaznik-opozniony]].",
+  "poziom3": "Oficjalnie (FW-PL, s. 59): *„W procesie MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności metodyka COBIT 5 zapewnia wytyczne dotyczące zakresu odpowiedzialności kadry zarządzającej za te działania.”* Przypis do s. 32: w Ładzie *„monitorowanie oznacza te działania, w ramach których organ nadzorujący sprawdza, w jakim stopniu określony kierunek wytyczony dla zarządzania został wcielony w życie”*. Il. 39 (s. 88) wymienia przy MEA umiejętność „Monitorowanie sprawności”. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby wiedzieć, czy procesy osiągają cele wydajności i zgodności. I żeby szybko uruchomić poprawki.",
+  "jakDziala": "Ustalasz podejście do monitorowania i cele. Zbierasz dane, analizujesz je i raportujesz. Pilnujesz, żeby działania korygujące zostały wykonane.",
+  "dlaczegoWazne": "MEA01 to monitorowanie w Zarządzaniu. Ład też monitoruje (FW-PL s. 14), ale robi to w EDM, na podstawie raportów z Zarządzania.",
+  "przyklady": {
+    "zycie": "Postanowiłeś schudnąć 5 kg do wakacji. Co niedzielę stajesz na wadze i zapisujesz wynik w tabelce. Gdy przez dwa tygodnie waga stoi, zmieniasz plan treningów. Mierzenie, porównywanie z celem i korekta to MEA01.",
+    "biuro": "Kierowniczka co tydzień liczy, ile pism wyszło w terminie. Porównuje to z celem i ustala, kto pomoże przy zaległościach.",
+    "organizacja": "Kierowniczka sklepu co tydzień porównuje czas wysyłki i zwroty z celami i zleca poprawki. Sekretarz gminy co kwartał raportuje wójtowi sprawy załatwione w terminie i proponuje działania.",
+    "psp": "**Liczby na odprawę.** Kpt. Marek Sikora co miesiąc zbiera z Syreny wskaźniki: czas od kliknięcia do SMS-a w OSP, odsetek potwierdzonych alarmów, liczbę przerw w działaniu. Porównuje je z celem „alarm w 40 sekund” i pisze raport dla komendantki. Tam, gdzie wyniki odstają, od razu zleca poprawki. Zbieranie mierników, ocena i raportowanie w Zarządzaniu to [[proc-mea01]].",
+    "it": "Praktyki MEA01: podejście do monitorowania, cele wydajności i zgodności, zbieranie danych, analiza i raport oraz działania korygujące. Raporty trafiają do Ładu, który monitoruje w EDM."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "edm",
+      "roznica": "MEA01 to Zarządzanie: kierownictwo mierzy, ocenia i raportuje. „Monitoruj” w EDM to Ład: organ Ładu sprawdza na podstawie tych raportów, czy kierunek został wcielony w życie."
+    },
+    {
+      "termin": "proc-mea03",
+      "roznica": "MEA01 sprawdza wydajność i zgodność z uzgodnionymi celami i ustaleniami (*conformance*). MEA03 – zgodność z wymogami zewnętrznymi: prawem, regulacjami, umowami (*compliance*)."
+    },
+    {
+      "termin": "proc-mea02",
+      "roznica": "MEA01 mierzy wyniki procesów. MEA02 ocenia, czy działają mechanizmy kontroli wewnętrznej."
+    }
+  ],
+  "przykladWypowiedzi": "MEA01 Monitor, Evaluate and Assess Performance and Conformance, czyli Monitorowanie, ocena i oszacowanie wydajności i zgodności, to monitorowanie w Zarządzaniu.",
+  "egzamin": "Słowa-klucze: mierniki, cele wydajności, raportowanie wyników, działania korygujące → **MEA01**. Kto mierzy i raportuje → MEA01 (Zarządzanie). Kto ocenia raport względem kierunku → EDM (Ład). „Zgodność” w MEA01 to *conformance*, a w MEA03 *compliance*.",
+  "powiazane": [
+    "mea",
+    "edm",
+    "zarzadzanie",
+    "wskaznik-wiodacy",
+    "wskaznik-opozniony",
+    "proc-mea03"
+  ],
+  "sylabus": [
+    "PR-01-04",
+    "PR-02-15"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 59,
+      "cytat": "W procesie MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności metodyka COBIT 5 zapewnia wytyczne dotyczące zakresu odpowiedzialności kadry zarządzającej za te działania."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 32,
+      "cytat": "W kontekście domeny nadzoru monitorowanie oznacza te działania, w ramach których organ nadzorujący sprawdza, w jakim stopniu określony kierunek wytyczony dla zarządzania został wcielony w życie."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39",
+      "cytat": "Monitorowanie sprawności"
+    }
+  ],
+  "mapa": "proc-mea01",
+  "glebokosc": {
+    "prosty": "Masz cel: odłożyć 6 tysięcy do grudnia. Co miesiąc sprawdzasz konto i wpisujesz kwotę do zeszytu. Gdy w maju odłożyłeś mniej, tniesz wydatki w czerwcu. Mierzysz, porównujesz z celem i poprawiasz.",
+    "zaawansowany": "Sikora co miesiąc zbiera wskaźniki Syreny i porównuje je z celem „alarm w 40 sekund”. Raport trafia do komendantki. To [[proc-mea01]]. Część wskaźników ostrzega wcześniej ([[wskaznik-wiodacy]], np. odsetek sprawdzonych numerów OSP), a część pokazuje efekt po fakcie ([[wskaznik-opozniony]], np. czas dotarcia alarmu). Czy działają mechanizmy kontrolne, ocenia osobno [[proc-mea02]].",
+    "skrajny": "Raport Sikory o Syrenie leży na dwóch biurkach. Sikora go przygotował: zebrał dane, porównał z celami i zlecił poprawki. Komendantka Wrzos czyta go na kwartalnym przeglądzie i decyduje, że cel „40 sekund” nadal jest słuszny, ale trzeba dać więcej pieniędzy na łącze. Obie osoby „monitorują”. Sikora robi to w Zarządzaniu (MEA01), a Wrzos w Ładzie (Monitoruj w EDM). FW-PL mówi, że monitorowanie w Ładzie to sprawdzanie przez organ nadzorujący, w jakim stopniu kierunek został wcielony w życie. **Rozstrzygnięcie:** kto zbiera dane, liczy i raportuje → MEA01. Kto ocenia raport względem kierunku i go koryguje → EDM. Ten sam raport może być wyjściem MEA01 i wejściem dla EDM."
+  },
+  "zagmatwania": [
+    {
+      "mit": "MEA to domena Ładu, bo „monitoruje”.",
+      "prawda": "MEA to domena Zarządzania. Ład ma własne monitorowanie w EDM."
+    },
+    {
+      "mit": "„Zgodność” w MEA01 i MEA03 to to samo.",
+      "prawda": "MEA01: zgodność z uzgodnionymi celami i ustaleniami (*conformance*). MEA03: zgodność z wymogami zewnętrznymi (*compliance*)."
+    },
+    {
+      "mit": "MEA01 tylko zbiera liczby.",
+      "prawda": "MEA01 także ocenia wyniki, raportuje je i pilnuje działań korygujących."
+    },
+    {
+      "mit": "Jest miernik, więc to MEA01.",
+      "prawda": "Mierników używa wiele procesów, np. APO11 (system jakości) do własnego doskonalenia. MEA01 to przekrojowe monitorowanie wyników i zgodności z celami oraz raport z działaniami korygującymi."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli MEA01 z monitorowaniem w EDM, bo w obu jest słowo „monitoruj”.",
+    "jakTlumaczyc": "Trener zbiera wyniki zawodników i robi raport (MEA01). Prezes klubu czyta raport i decyduje, czy zmienić cel sezonu (EDM).",
+    "pytanieKontrolne": "Komendantka na przeglądzie kwartalnym stwierdza, że Syrena nie realizuje celu i zmienia priorytety budżetu. MEA01 czy EDM?",
+    "odpowiedzKontrolna": "**EDM** – organ Ładu ocenia wyniki względem kierunku i go koryguje. MEA01 dostarczył raport, na podstawie którego podjęła decyzję."
+  }
+}

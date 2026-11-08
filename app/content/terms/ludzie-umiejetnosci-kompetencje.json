@@ -1,0 +1,91 @@
+{
+  "id": "ludzie-umiejetnosci-kompetencje",
+  "en": "People, Skills and Competencies (enabler 7)",
+  "wymowa": "pipl skilz end kompetensiz",
+  "wymowaAkcent": "PI-pl skilz end KOM-pe-ten-siz",
+  "plEgzamin": "Ludzie, Umiejętności i Kompetencje",
+  "plPodrecznik": "Ludzie, umiejętności i kompetencje",
+  "mapa": "akt-ludzie",
+  "poLudzku": "Właściwi ludzie z właściwą wiedzą na właściwych miejscach.",
+  "wyobrazSobie": "Drużyna piłkarska: trener potrzebuje zawodników na każdą pozycję, szkoli ich, dokupuje brakujących, co sezon ocenia formę i żegna tych, których już nie potrzebuje.",
+  "poCo": "Żeby w każdej roli byli ludzie z wiedzą i umiejętnościami potrzebnymi do wykonania pracy, podejmowania decyzji i naprawiania błędów.",
+  "jakDziala": "Dla każdej roli określa się wymagane umiejętności i kompetencje (skills and competencies), przypisane do kategorii umiejętności w domenach procesów. W cyklu życia planuje się bazę umiejętności, rozwija ją szkoleniami albo pozyskuje z zewnątrz, wykorzystuje w rolach, okresowo ocenia i wygasza umiejętności, które przestają być potrzebne. Cele obejmują m.in. wykształcenie i umiejętności techniczne (jakość wewnętrzna) oraz doświadczenie, wiedzę i dostępność ludzi (jakość kontekstowa).",
+  "dlaczegoWazne": "To jeden z 7 aktywatorów (zasada 4: „Aktywacja holistycznego podejścia”). Egzamin pyta o dobre praktyki: wymagania umiejętności dla każdej roli, przypisanie kategorii umiejętności do domen procesów i zewnętrzne źródła, np. SFIA.",
+  "poziom1": "Ludzie i to, co potrafią: czy masz osoby z odpowiednią wiedzą, doświadczeniem i umiejętnościami, żeby robić, co trzeba, podejmować decyzje i naprawiać błędy (np. czy w nocy jest ktoś, kto umie przywrócić serwer). To jeden z 7 aktywatorów; umiejętności się planuje, rozwija albo pozyskuje z zewnątrz, ocenia, a niepotrzebne – wygasza.",
+  "poziom2": "Cele: **wykształcenie i kwalifikacje, umiejętności techniczne** (jakość wewnętrzna); **doświadczenie, wiedza, umiejętności behawioralne, dostępność, rotacja** (jakość kontekstowa). Cykl życia: planowanie bazy umiejętności, **rozwijanie** (szkolenia) albo **pozyskiwanie** (rekrutacja), wdrażanie w rolach, okresowa ocena (np. raz w roku), **pozbywanie się** (np. po automatyzacji lub outsourcingu).\n\nDobre praktyki: **zdefiniowanie wymagań umiejętności dla każdej roli**, poziomy i **kategorie umiejętności** odpowiadające domenom procesów (Ilustracja 39), zewnętrzne źródła, np. **SFIA**.",
+  "poziom3": "(s. 87–88), Ilustracje 38 i 39.",
+  "przyklady": {
+    "zycie": "Babcia zostaje sama po śmierci dziadka, który zawsze płacił rachunki. Wnuczka przez kilka niedziel uczy ją bankowości w telefonie, po miesiącu sprawdza, czy babcia radzi sobie sama, a rozliczenie podatku zleca znajomej księgowej, bo tego babcia uczyć się nie musi. Ustalić, jakie umiejętności są potrzebne, a potem je wyćwiczyć albo wziąć z zewnątrz – tego dotyczy ten aktywator.",
+    "biuro": "W biurze tylko jedna osoba umie nadawać listy polecone przez platformę pocztową. Kierowniczka zapisuje tę umiejętność jako wymaganą na recepcji, szkoli drugą osobę i raz w roku sprawdza, czy obie dalej sobie radzą.",
+    "firma": "Piekarnia kupuje piec sterowany z panelu dotykowego. Właściciel spisuje, co musi umieć piekarz na nocnej zmianie, jednego pracownika wysyła na szkolenie u producenta, a gdy drugi odchodzi, przyjmuje kogoś, kto takie piece już obsługiwał. Po pół roku sprawdza, kto sobie radzi, a ręczne pilnowanie temperatury przestaje być umiejętnością, której trzeba uczyć – to cały cykl życia aktywatora Ludzie, Umiejętności i Kompetencje.",
+    "admin": "Szkoła przechodzi na e-dziennik. Dyrektor ustala, co musi umieć każdy nauczyciel i sekretarka, organizuje szkolenie, a konfigurację systemu zleca informatykowi z gminy, zamiast uczyć tego kogoś na miejscu. Na koniec semestru sprawdza, kto jeszcze potrzebuje pomocy – właściwi ludzie z właściwymi umiejętnościami we właściwych rolach to sedno tego aktywatora.",
+    "psp": "Komenda ustala, co musi umieć dyżurny stanowiska kierowania: obsługa SWD-PSP, znajomość terenu powiatu, spokój w rozmowie z panikującym zgłaszającym. Nowych dyżurnych szkoli się na stanowisku pod okiem doświadczonych i co roku ocenia, a gdy alarmowanie OSP przejmuje system, ręczne obdzwanianie jednostek przestaje być umiejętnością, którą trzeba utrzymywać. To cały cykl życia aktywatora Ludzie, Umiejętności i Kompetencje.",
+    "it": "W APO07 (Zarządzanie zasobami ludzkimi) dział IT ustala, że administrator kopii zapasowych musi umieć odtworzyć bazę danych, a na nocnej zmianie zawsze jest ktoś z tą umiejętnością. Brakujące kompetencje uzupełnia szkoleniem albo umową z firmą zewnętrzną."
+  },
+  "glebokosc": {
+    "prosty": "Drużyna piłkarska potrzebuje nie tylko jedenastu osób, ale bramkarza, obrońców i napastników, którzy umieją grać na swoich pozycjach. Trener sprawdza, czego komu brakuje, trenuje zawodników albo sprowadza nowego, a tego, kto przestał być potrzebny, oddaje do innego klubu. Ludzie, ich umiejętności i to, czy są na właściwym miejscu, to jedna całość.",
+    "zaawansowany": "W noc pożaru na Lipowej nikt na zmianie nie umiał ręcznie wysłać alarmu do OSP z pominięciem Syreny. Kpt. Sikora definiuje więc wymagania umiejętności dla roli dyżurnego, korzystając z [[kategorie-umiejetnosci|kategorii umiejętności]] przypisanych do domen procesów. Brakujące umiejętności rozwija szkoleniami, do konfiguracji bramki SMS pozyskuje specjalistę z zewnątrz i raz w roku ocenia, czy umiejętności wystarczają. Proces kadrowy, który to obsługuje, to APO07, ale sami ludzie i ich kompetencje to osobny aktywator.",
+    "skrajny": "Ewa Lis pisze w raporcie: „aktywator Ludzie, Umiejętności i Kompetencje jest słaby, bo proces APO07 nie ma opisu”. Brzmi spójnie, ale miesza dwa aktywatory: APO07 Zarządzanie zasobami ludzkimi to proces, czyli aktywator Procesy, a ludzie i ich kompetencje to aktywator siódmy. Komenda może mieć wzorcowo opisany proces kadrowy i nikogo, kto w nocy umie przywrócić serwer. Bywa też odwrotnie: świetni ludzie i żadnego opisanego procesu. Drugi przypadek graniczny to cykl życia umiejętności, do którego należy także pozbywanie się umiejętności, np. gdy po automatyzacji ręczna obsługa staje się zbędna – to nie porażka, tylko normalna faza. **Rozstrzygnięcie:** APO07 to proces, a Ludzie, Umiejętności i Kompetencje to osobny aktywator; ocenia się je osobno, a w cyklu życia umiejętności jest też ich wygaszanie."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Ludzie, Umiejętności i Kompetencje to po prostu proces kadrowy.",
+      "prawda": "Proces kadrowy to APO07 (aktywator Procesy). Ten aktywator to sami ludzie, ich wiedza, doświadczenie i umiejętności."
+    },
+    {
+      "mit": "Wykształcenie i doświadczenie to to samo kryterium jakości.",
+      "prawda": "Wykształcenie, kwalifikacje i umiejętności techniczne to jakość wewnętrzna; doświadczenie, wiedza, umiejętności behawioralne, dostępność i rotacja – jakość kontekstowa."
+    },
+    {
+      "mit": "Umiejętności zawsze trzeba rozwijać we własnym zespole.",
+      "prawda": "Cykl życia obejmuje też pozyskiwanie z zewnątrz (rekrutacja) i pozbywanie się umiejętności, które przestały być potrzebne."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie aktywatora z procesem APO07 i pomijanie fazy pozbywania się umiejętności.",
+    "jakTlumaczyc": "Oddziel „kogo mamy i co umieją” (aktywator) od „jak rekrutujemy, szkolimy i oceniamy” (proces APO07). Pokaż to na drużynie: zawodnicy to aktywator, praca działu kadr klubu to proces.",
+    "pytanieKontrolne": "Komenda ma doskonale opisany proces szkoleń, ale nocna zmiana nie umie obsłużyć ręcznego alarmu. Który aktywator jest słaby i dlaczego opis procesu tego nie zmienia?",
+    "odpowiedzKontrolna": "Słaby jest aktywator Ludzie, Umiejętności i Kompetencje: brakuje umiejętności tam, gdzie są potrzebne. Opis procesu (APO07, aktywator Procesy) nie gwarantuje, że ludzie mają umiejętności; trzeba zdefiniować wymagania dla roli dyżurnego i faktycznie je rozwinąć albo pozyskać."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "APO07 Zarządzanie zasobami ludzkimi",
+      "roznica": "APO07 to proces. Ludzie, umiejętności i kompetencje to aktywator."
+    }
+  ],
+  "przykladWypowiedzi": "People, Skills and Competencies, czyli Ludzie, Umiejętności i Kompetencje, to aktywator, w którym dla każdej roli określa się wymagane umiejętności (skills), a potem je rozwija albo pozyskuje i okresowo ocenia.",
+  "egzamin": "Dobra praktyka: **wymagania umiejętności dla każdej roli** + **mapowanie kategorii umiejętności na domeny procesów** + **zewnętrzne źródła (SFIA)**.",
+  "powiazane": [
+    "kategorie-umiejetnosci"
+  ],
+  "sylabus": [
+    "EN-02-22"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 87,
+      "cytat": "Dobra praktyka dotycząca umiejętności i kompetencji obejmuje zdefiniowanie wymogów dotyczących obiektywnych zestawów umiejętności"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 87,
+      "ilustracja": "38"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Ludzie, Umiejętności i Kompetencje",
+    "podrecznik": "Ludzie, umiejętności i kompetencje",
+    "kurs": "Ludzie, Umiejętności i Kompetencje (People, Skills and Competencies)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 8, 9, 14."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "aktywator"
+  ]
+}

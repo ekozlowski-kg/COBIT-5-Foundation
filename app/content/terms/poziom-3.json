@@ -1,0 +1,113 @@
+{
+  "id": "poziom-3",
+  "en": "Level 3 – Established process",
+  "wymowa": "lewel 3 istebliszt prołses",
+  "wymowaAkcent": "LE-wel 3 is-TEB-liszt PROŁ-ses",
+  "plEgzamin": "Poziom 3 – Proces ustanowiony",
+  "plPodrecznik": "Poziom 3 potencjału – proces ustanowiony",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Poziom 3 – Proces ustanowiony",
+    "podrecznik": "Poziom 3 potencjału – proces ustanowiony",
+    "kurs": "Poziom 3 – Proces ustanowiony (Level 3 – Established process)",
+    "uwaga": "Egzamin PL: „Poziom 3 – Proces ustanowiony”; podręcznik PL: „Poziom 3 potencjału – proces ustanowiony” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 42, 44."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "W COBIT 4.1 poziom 3 to „Zdefiniowany proces”. W COBIT 5 poziom 3 to „Ustanowiony”, a „Definicja procesu” to nazwa jednego z jego atrybutów (PA 3.1).",
+  "skadNazwa": "Z angielskiego *Established*, czyli „ustanowiony, osadzony na stałe”. Skojarzenie: jest jeden ustanowiony sposób dla wszystkich.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "poziom-2",
+    "pa-3-1",
+    "pa-3-2"
+  ],
+  "poziom1": "Proces zarządzany (poziom 2) jest realizowany według zdefiniowanego procesu, opartego na standardzie organizacji. Warunek: PA 3.1 (definicja) i PA 3.2 (wdrożenie) co najmniej W, a wszystkie atrybuty poziomów 1 i 2 = P.",
+  "poLudzku": "Wszyscy robią to tak samo, według jednego spisanego sposobu, który naprawdę stosują.",
+  "wyobrazSobie": "Sieć restauracji z jedną książką przepisów: w każdym mieście ta sama zupa, choć kucharze są inni.",
+  "poCo": "Żeby cała organizacja robiła daną rzecz według jednego, sprawdzonego wzorca, a nie według nawyków poszczególnych zespołów.",
+  "jakDziala": "Organizacja ma standardowy proces (PA 3.1) i stosuje go w każdym wykonaniu (PA 3.2). Oba atrybuty muszą mieć co najmniej W, a wszystkie atrybuty poziomów 1 i 2 muszą mieć P.",
+  "dlaczegoWazne": "Na poziomie 3 łatwo pomylić „mamy dokument” z „wszyscy go stosują”. Do tego nazwa „ustanowiony” różni się od „Zdefiniowanego procesu” z COBIT 4.1.",
+  "poziom2": "| Atrybut | Wymagana ocena |\n|---|---|\n| PA 1.1, PA 2.1, PA 2.2 | **P** |\n| PA 3.1 Definicja procesu | **W lub P** |\n| PA 3.2 Wdrożenie procesu | **W lub P** |\n\nRóżnica 2 → 3: na poziomie 2 każdy zespół może zarządzać po swojemu. Na poziomie 3 jest **jeden standard**, a każde wykonanie jest jego dopasowaną wersją. W Il. 20 poziomy od 3 w górę opisano jako punkt widzenia przedsiębiorstwa (wiedza korporacyjna).",
+  "poziom3": "(s. 42): *„3 Proces ustanowiony (dwa atrybuty) — opisany wcześniej proces zarządzany jest wdrażany za pomocą zdefiniowanego procesu umożliwiającego osiągnięcie wyniku procesu.”* Przykład z tej samej strony: poziom 3 wymaga zdefiniowania procesu i osiągnięcia (w znacznym stopniu) atrybutów wdrożenia oraz pełnego osiągnięcia wszystkich atrybutów poziomu 2.",
+  "przyklady": {
+    "zycie": "Cała rodzina płaci rachunki według jednej kartki na lodówce: z którego konta, do kiedy, gdzie odłożyć potwierdzenie. Gdy babcia zastępuje mamę, robi to tak samo, bo zna tę kartkę. To proces ustanowiony, poziom 3.",
+    "biuro": "Wszystkie działy firmy przyjmują nowych pracowników według jednej listy kroków od kadr: konto, karta, szkolenie BHP. Każdy dział może dodać swoje punkty, ale podstawa jest wspólna. To poziom 3.",
+    "organizacja": "Sieć pięciu piekarni ma jedną instrukcję przyjmowania dostaw. Szkoli z niej każdego nowego pracownika i dopasowuje ją do wielkości sklepu. Kierowniczka sprawdza, czy wszyscy ją stosują. To poziom 3: standard jest zdefiniowany i wdrożony.\n\nWszystkie szkoły w gminie przyjmują zapisy do pierwszej klasy według jednej procedury i jednego formularza. Każda szkoła może dodać swoje terminy dni otwartych, ale reszta jest wspólna. To proces ustanowiony.",
+    "psp": "**Ćwiczenie nocne.** Pół roku po pożarze przy Lipowej każda zmiana SK pracuje według jednej procedury powiadamiania, podpisanej przez komendantkę Annę Wrzos. Kasia Nowik i Paweł Grab przeszli z niej szkolenie, a procedura ma wariant na awarię zasięgu. Audytorka Ewa Lis widzi P na atrybutach poziomów 1 i 2 oraz W na PA 3.1 i PA 3.2. Potwierdza poziom 3.",
+    "it": "Proces DSS02: cała organizacja obsługuje incydenty według jednej procedury, z jednym narzędziem i szkoleniem dla każdego zespołu wsparcia. Standard jest zdefiniowany i stosowany, więc przy P na poziomach 1–2 proces ma poziom 3."
+  },
+  "glebokosc": {
+    "prosty": "W rodzinie każdy piekł sernik po swojemu. Teraz jest jeden przepis babci w zeszycie i każdy piecze według niego. Wolno dodać rodzynki, ale podstawa jest wspólna. To poziom 3.",
+    "zaawansowany": "Po pożarze przy Lipowej Sikora spisuje jedną procedurę powiadamiania dla wszystkich zmian SK ([[pa-3-1|definicja procesu]]). Potem szkoli dyżurnych i sprawdza, czy każda zmiana z niej korzysta ([[pa-3-2|wdrożenie procesu]]). Ewa Lis wymaga też, żeby [[pa-2-1|PA 2.1]] i [[pa-2-2|PA 2.2]] miały P. Dopiero wtedy proces ma poziom 3.",
+    "skrajny": "Komenda ma świetną, wspólną procedurę na intranecie, więc PA 3.1 dostaje P. Ale połowa dyżurnych jej nie zna, więc PA 3.2 = C. W drugim procesie procedura jest wdrożona (PA 3.1 = P, PA 3.2 = P), ale PA 2.2 ma tylko W. W obu przypadkach proces zostaje na poziomie 2. Kusi myśl „mamy standard, więc 3”. Framework mówi jednak, że poziom 3 wymaga zdefiniowania procesu, w znacznym stopniu jego wdrożenia i pełnego osiągnięcia atrybutów poziomu 2. **Rozstrzygnięcie:** poziom 3 = standard spisany (PA 3.1) i używany (PA 3.2), oba co najmniej W. Do tego P na PA 1.1, PA 2.1 i PA 2.2."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Poziom 3 to „zdefiniowany proces”, czyli wystarczy mieć dokument.",
+      "prawda": "Sam dokument to PA 3.1. Potrzebne jest też wdrożenie standardu w praktyce (PA 3.2). „Zdefiniowany proces” to nazwa poziomu 3 z COBIT 4.1."
+    },
+    {
+      "mit": "Poziom 3 to proces w pełni dojrzały.",
+      "prawda": "Nad nim są jeszcze poziom 4 (pomiar i kontrola w limitach) i poziom 5 (ciągłe doskonalenie)."
+    },
+    {
+      "mit": "Na poziomie 3 wszyscy muszą robić wszystko identycznie.",
+      "prawda": "Standard można dopasować do sytuacji, bo każde wykonanie to dopasowana wersja wzorca. Ważne, że wszystkie wywodzą się z jednego wzorca (uproszczenie według ISO/IEC 15504)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli poziom 2 z 3: myśli, że planowanie i porządek w dokumentach to już standard organizacji.",
+    "jakTlumaczyc": "Pytaj: „Gdyby jutro przyszedł nowy pracownik do innego zespołu, czy pracowałby tak samo, z tego samego wzorca?”. Jeśli tak, myślisz o poziomie 3.",
+    "pytanieKontrolne": "Co musi być prawdą o PA 2.2, żeby proces mógł mieć poziom 3?",
+    "odpowiedzKontrolna": "PA 2.2 musi mieć **P** (pełny), tak samo jak PA 1.1 i PA 2.1. Atrybuty niższych poziomów muszą być w pełni osiągnięte."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "poziom-2",
+      "roznica": "Poziom 2 to plan, pilnowanie i porządek w dokumentach. Poziom 3 dodaje jeden standard i jego stosowanie w każdym wykonaniu."
+    },
+    {
+      "termin": "Poziom 3 dojrzałości COBIT 4.1 („Zdefiniowany proces”)",
+      "roznica": "Tam wystarczyły ustandaryzowane i zakomunikowane procedury. W COBIT 5 poziom 3 wymaga też P na wszystkich atrybutach poziomów 1 i 2."
+    },
+    {
+      "termin": "pa-3-1",
+      "roznica": "PA 3.1 to tylko jeden z dwóch atrybutów poziomu 3: wzorzec. Drugi, PA 3.2, sprawdza jego stosowanie."
+    }
+  ],
+  "przykladWypowiedzi": "Level 3 – Established process, czyli poziom 3 – proces ustanowiony, wymaga atrybutów PA 3.1 Process definition (definicja procesu) i PA 3.2 Process deployment (wdrożenie procesu).",
+  "egzamin": "„Proces **ustanowiony**” → **poziom 3**. Atrybuty: **definicja** procesu (PA 3.1) i **wdrożenie** procesu (PA 3.2).",
+  "powiazane": [
+    "poziomy-zdolnosci",
+    "pa-3-1",
+    "pa-3-2",
+    "poziom-2",
+    "poziom-4"
+  ],
+  "sylabus": [
+    "PC-01-01",
+    "PC-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "jest wdrażany za pomocą zdefiniowanego procesu umożliwiającego osiągnięcie wyniku procesu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "cytat": "wymaga zdefiniowania procesu oraz osiągnięcia (w znacznym stopniu) atrybutów wdrożenia"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 44,
+      "ilustracja": "20"
+    }
+  ],
+  "mapa": "poziom-3"
+}

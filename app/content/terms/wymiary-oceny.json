@@ -1,0 +1,94 @@
+{
+  "id": "wymiary-oceny",
+  "en": "Assessment dimensions: process and capability",
+  "wymowa": "asesment dajmenszyns prołses end kejpabiliti",
+  "wymowaAkcent": "a-SES-ment daj-MEN-szyns PROŁ-ses end kej-pa-BI-li-ti",
+  "plEgzamin": "Wymiar Procesu i Wymiar Zdolności",
+  "plPodrecznik": "Wskaźniki wydajności i wskaźniki potencjału",
+  "mapa": "wymiary-oceny",
+  "poLudzku": "Dwie strony oceny: czy w ogóle robimy to, co trzeba, i jak dobrze tym kierujemy.",
+  "wyobrazSobie": "Odbiór domu: najpierw czy dom stoi i spełnia projekt, potem czy budowę prowadzono według harmonogramu, standardów i z kontrolą jakości.",
+  "poCo": "Żeby w ocenie procesu oddzielić dwa pytania: czy proces w ogóle osiąga swój cel i jak dobrze jest prowadzony.",
+  "jakDziala": "Model oceny procesów zgodny z ISO/IEC 15504 ma dwa wymiary. Wymiar procesu (process dimension) bierze procesy z Referencyjnego Modelu Procesu (PRM) i bada wskaźniki wykonania: praktyki bazowe (base practices) i produkty pracy (work products); to decyduje o poziomie 1. Wymiar zdolności (capability dimension) bada atrybuty procesu na poziomach 1–5 za pomocą ogólnych (generic) praktyk, zasobów i produktów pracy.",
+  "dlaczegoWazne": "Ocena zdolności procesów to obszar PC sylabusa. Egzamin pyta, że Referencyjny Model Procesu (PRM) odnosi się do wymiaru procesu, a nie do wymiaru zdolności.",
+  "poziom1": "Ocena procesu według ISO 15504 patrzy z dwóch stron: czy proces w ogóle robi to, co ma robić (wymiar procesu, który decyduje o poziomie 1), i jak dobrze jest prowadzony (wymiar zdolności, poziomy 1–5). Trochę jak ocena kucharza: czy danie wychodzi i czy kuchnia działa według planu i spisanych przepisów.",
+  "poziom2": "| Wymiar | Wskaźniki | Do czego |\n|---|---|---|\n| **Wymiar procesu** (z PRM) | **wskaźniki wykonania procesu**: **praktyki bazowe** i **produkty pracy** (specyficzne dla każdego procesu) | ocena, czy proces osiąga **poziom 1** |\n| **Wymiar zdolności** | **wskaźniki atrybutów zdolności**: ogólne (typowe) praktyki, ogólne zasoby, ogólne produkty pracy | atrybuty na poziomach **1–5** |\n\n**Referencyjny Model Procesu (PRM)** odnosi się **tylko do wymiaru procesu**: opisuje 37 procesów z przeznaczeniem, rezultatami, praktykami bazowymi i produktami pracy.",
+  "poziom3": "Ilustracja 19 (s. 42): „wskaźniki wydajności: wyniki procesu, podstawowe praktyki, produkty działań” oraz „wskaźniki potencjału: typowe praktyki, typowe zasoby, typowe produkty działań”. Sylabus PC-02-03 i PC-02-04.",
+  "przyklady": {
+    "zycie": "Oceniasz, jak sąsiad piecze chleb. Najpierw patrzysz, czy robi kolejne kroki – zaczyn, wyrabianie, pieczenie – i czy z pieca wychodzi chleb (wymiar procesu). Potem sprawdzasz, czy planuje wypieki, ma spisany przepis i porównuje efekty (wymiar zdolności). To dwa osobne wymiary jednej oceny.",
+    "biuro": "Kontrola sprawdza obieg korespondencji w biurze. Najpierw: czy pisma są rejestrowane, dekretowane i doręczane i czy powstaje dziennik korespondencji (wymiar procesu). Potem: czy obieg jest planowany, monitorowany i opisany w instrukcji kancelaryjnej (wymiar zdolności).",
+    "firma": "Oceniający przychodzi do warsztatu i bierze pod lupę przyjmowanie aut do naprawy. Sprawdza, czy wykonuje się podstawowe kroki (oględziny, wycena, zlecenie) i czy powstaje karta zlecenia – to wymiar procesu: praktyki bazowe i produkty pracy. Potem pyta, czy proces jest planowany, taki sam u każdego mechanika i mierzony – to wymiar zdolności.",
+    "admin": "Kontrola w starostwie ocenia proces wydawania praw jazdy. Najpierw sprawdza, czy urzędnik przyjmuje wniosek, weryfikuje go i wydaje dokument oraz czy zostaje ślad w systemie (wymiar procesu). Potem pyta, czy praca jest zaplanowana, ujednolicona i mierzona (wymiar zdolności, poziomy 1–5).",
+    "psp": "Zespół oceniający bada obsługę zgłoszeń w stanowisku kierowania. Najpierw sprawdza, czy dyżurni rejestrują zgłoszenie, kwalifikują je i dysponują zastępy oraz czy w SWD-PSP powstaje karta zdarzenia – to wymiar procesu. Potem pyta, czy praca jest planowana, jednakowa na każdej zmianie i mierzona – to wymiar zdolności.",
+    "it": "Asesor ocenia DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami). W wymiarze procesu sprawdza praktyki bazowe i produkty pracy, np. rejestr incydentów. W wymiarze zdolności ocenia atrybuty, np. PA 2.1 Zarządzanie wydajnością i PA 2.2 Zarządzanie produktami pracy, w skali N/C/W/P."
+  },
+  "glebokosc": {
+    "prosty": "Kucharza oceniasz z dwóch stron. Najpierw: czy zupa w ogóle wyszła i da się ją zjeść. Potem: czy gotuje według planu, ma spisany przepis i czy za każdym razem wychodzi tak samo. Pierwsze to „czy robi”, drugie to „jak dobrze tym kieruje”.",
+    "zaawansowany": "W dniu 4 audytorka Ewa Lis ocenia proces powiadamiania. Najpierw patrzy na wymiar procesu: czy wykonuje się praktyki bazowe (np. weryfikację danych kontaktowych OSP) i czy powstają produkty pracy (np. raport z testu alarmu); opisuje je [[prm|Referencyjny Model Procesu]]. Potem przechodzi do wymiaru zdolności: czy pracę się planuje i monitoruje, czy proces jest zdefiniowany i mierzony – to [[atrybuty-procesu]] poziomów 1–5 w skali [[skala-ocen|N/C/W/P]]. Praktyki bazowe są inne dla każdego procesu, a typowe praktyki, zasoby i produkty pracy – wspólne dla wszystkich.",
+    "skrajny": "Lis stwierdza: praktyki bazowe są wykonywane, produkty pracy powstają. Kolega pyta: „To wymiar procesu czy wymiar zdolności? Przecież poziom 1 leży już na skali zdolności”. Obaj mają rację po części: poziom 1 i atrybut PA 1.1 leżą na skali zdolności, ale głównymi dowodami dla PA 1.1 są wskaźniki wykonania procesu z wymiaru procesu, czyli praktyki bazowe i produkty pracy. Dla atrybutów poziomów 2–5 dowodami są już ogólne wskaźniki zdolności: typowe praktyki, zasoby i produkty pracy. Do tego podręcznik (il. 19) mówi o „wskaźnikach wydajności” i „wskaźnikach potencjału”, co nie brzmi jak egzaminacyjne „Wymiar Procesu” i „Wymiar Zdolności”. **Rozstrzygnięcie:** PRM odpowiada tylko wymiarowi procesu; wymiar procesu dostarcza dowodów dla poziomu 1, a ogólne wskaźniki wymiaru zdolności – dla atrybutów poziomów 2–5 (interpretacja kursu na podstawie ISO 15504)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "PRM opisuje oba wymiary oceny.",
+      "prawda": "PRM odnosi się tylko do wymiaru procesu: 37 procesów z przeznaczeniem, rezultatami, praktykami bazowymi i produktami pracy. Wymiar zdolności pochodzi z modelu zdolności ISO 15504."
+    },
+    {
+      "mit": "Wymiar zdolności to tylko poziomy 2–5.",
+      "prawda": "Wymiar zdolności obejmuje atrybuty poziomów 1–5. Poziom 1 jest szczególny, bo jego dowody pochodzą głównie z wymiaru procesu."
+    },
+    {
+      "mit": "„Wskaźniki wydajności” i „Wymiar Procesu” to dwie różne rzeczy.",
+      "prawda": "To ta sama strona oceny: podręcznik (il. 19) mówi o wskaźnikach wydajności, egzamin o Wymiarze Procesu. Analogicznie wskaźniki potencjału = Wymiar Zdolności."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Przypisywanie PRM do wymiaru zdolności i mylenie wymiarów oceny z czterema wymiarami aktywatora.",
+    "jakTlumaczyc": "Dwie osie wykresu: oś pozioma to 37 procesów (co robimy – wymiar procesu, z PRM), oś pionowa to poziomy 0–5 (jak dobrze tym kierujemy – wymiar zdolności). Każdy proces dostaje swoje miejsce na osi pionowej.",
+    "pytanieKontrolne": "Skąd audytor bierze praktyki bazowe, a skąd typowe praktyki? Który z tych zestawów jest inny dla każdego procesu?",
+    "odpowiedzKontrolna": "Praktyki bazowe pochodzą z **wymiaru procesu** (PRM) i są **specyficzne dla każdego procesu**. Typowe (ogólne) praktyki, zasoby i produkty pracy należą do **wymiaru zdolności** i są **wspólne dla wszystkich procesów**."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "wymiary-aktywatora",
+      "roznica": "Wymiary aktywatora (interesariusze, cele, cykl życia, dobre praktyki) to model aktywatora, a nie ocena procesów."
+    }
+  ],
+  "przykladWypowiedzi": "The process dimension, czyli Wymiar Procesu, opiera się na PRM i bada, czy proces osiąga rezultaty, a the capability dimension, czyli Wymiar Zdolności, ocenia atrybuty procesu na poziomach od 1 do 5.",
+  "egzamin": "Z **Referencyjnym Modelem Procesu** wiąże się **Wymiar Procesu**, a nie wymiar zdolności. PRM określa wymiar procesu, który nakreśla strukturę 37 procesów.",
+  "powiazane": [
+    "prm",
+    "pojecia-iso15504",
+    "atrybuty-procesu"
+  ],
+  "sylabus": [
+    "PC-02-03",
+    "PC-02-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19"
+    },
+    {
+      "doc": "SYL"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Wymiar Procesu i Wymiar Zdolności",
+    "podrecznik": "Wskaźniki wydajności i wskaźniki potencjału",
+    "kurs": "Wymiar Procesu i Wymiar Zdolności (Assessment dimensions: process and capability)",
+    "uwaga": "Egzamin PL: „Wymiar Procesu i Wymiar Zdolności”; podręcznik PL: „Wskaźniki wydajności i wskaźniki potencjału” – konkurencyjne odpowiedniki. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "proces",
+    "prm",
+    "pojecia-iso15504"
+  ]
+}

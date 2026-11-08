@@ -1,0 +1,125 @@
+{
+  "id": "lad",
+  "en": "Governance",
+  "wymowa": "gawernens",
+  "wymowaAkcent": "GA-wer-nens",
+  "plEgzamin": "Ład",
+  "plPodrecznik": "Nadzór",
+  "plInne": [
+    {
+      "nazwa": "Ład informatyczny",
+      "zrodlo": "ITwiz 2014"
+    },
+    {
+      "nazwa": "Ład i nadzór",
+      "zrodlo": "SP1"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Ład",
+    "podrecznik": "Nadzór",
+    "kurs": "Ład (Governance)",
+    "uwaga": "Governance: Ład (egzamin) / Nadzór (podręcznik) / ład informatyczny (ITwiz). „Nadzór” sugeruje samą kontrolę, a governance obejmuje też ocenę i wyznaczanie kierunku. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 1, 2, 7; zestawienie Altkom (kolumna „Podręczniki PL”). Inne formy w obiegu: Ład informatyczny (ITwiz 2014); Ład i nadzór (SP1)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin PL: „Ład”. Podręcznik PL: „Nadzór”. EN: Governance. To jedno i to samo pojęcie. Słowo „nadzór” w pytaniu egzaminacyjnym może też pojawić się w zbitce „ład i nadzór”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "organizacja",
+    "interesariusz",
+    "zarzadzanie"
+  ],
+  "poLudzku": "Szefostwo decyduje, po co i co robimy, i pilnuje, czy idziemy w dobrą stronę.",
+  "skadNazwa": "Angielskie *governance* nie ma dobrego polskiego odpowiednika. Podręcznik mówi „nadzór”, inne teksty „ład informatyczny”, a egzamin konsekwentnie „Ład”.",
+  "wyobrazSobie": "Armator statku: decyduje, dokąd i po co płynie statek, i sprawdza, czy trzyma kurs, ale nie stoi przy sterze.",
+  "poCo": "Żeby informatyka robiła to, czego potrzebuje cała organizacja, a nie tylko to, co umieją informatycy.",
+  "jakDziala": "Organ Ładu, zwykle zarząd pod przewodnictwem prezesa, ocenia potrzeby, warunki i opcje interesariuszy (Evaluate), ustala priorytety i podejmuje decyzje (Direct), a potem monitoruje sprawność i zgodność z wyznaczonym kierunkiem (Monitor). Wyniki z Zarządzania wracają do Ładu i cykl się powtarza.",
+  "dlaczegoWazne": "To podstawa zasady 5 (Oddzielenie Ładu od Zarządzania). Na egzaminie odróżnienie Ładu (EDM) od Zarządzania (PBRM) i pułapka słowa „nadzór” pojawiają się w wielu pytaniach.",
+  "poziom1": "Ład to decydowanie, dokąd zmierzamy i co jest najważniejsze, a potem sprawdzanie, czy idziemy w tę stronę – bez wykonywania samej pracy (np. zarząd spółki ustala priorytety i rozlicza wyniki, ale nie prowadzi projektów). W COBIT 5 to trzy czynności: Oszacuj, Kieruj, Monitoruj.",
+  "poziom2": "Ład = **Oszacuj, Kieruj, Monitoruj** (EDM). Ocenia potrzeby, warunki i opcje interesariuszy i ustala zrównoważone cele. Kieruje przez priorytety i decyzje. Monitoruje wyniki i zgodność. W większości organizacji odpowiada za to **zarząd pod przewodnictwem prezesa**. Ład nie realizuje projektów – to zadanie Zarządzania.",
+  "poziom3": "Definicja (Załącznik H, s. 91): *„Dzięki nadzorowi zyskuje się pewność, że oceniono potrzeby, warunki i opcje interesariuszy w celu ustalenia zrównoważonych, uzgodnionych celów przedsiębiorstwa, które mają zostać osiągnięte. Nadzór polega również na ukierunkowaniu działań poprzez nadanie priorytetów i podejmowanie decyzji, a także na monitorowaniu sprawności i zgodności w odniesieniu do uzgodnionego kierunku i szczegółowych celów.”* Zasada 5 – Oddzielenie Ładu od Zarządzania.",
+  "warianty": {
+    "prosto": "Rodzina siada w styczniu i ustala: w tym roku odkładamy na wkład własny, wakacje tylko w Polsce, a co miesiąc razem sprawdzamy stan konta. Nikt tu nie mówi, co kupić w sobotę na obiad – to już codzienne zarządzanie. Ocenić sytuację, wyznaczyć kierunek i sprawdzać, czy idziemy w dobrą stronę – to jest Ład.",
+    "dokladniej": "Ład ocenia potrzeby, wyznacza kierunek (priorytety, decyzje) i monitoruje realizację celów.",
+    "ekspercko": "Governance zapewnia ocenę potrzeb interesariuszy, określanie priorytetów i monitorowanie wyników (EDM), przy czym pozostaje odrębny od Management – wymaga innych struktur i służy innym celom."
+  },
+  "przyklady": {
+    "zycie": "Wspólnota mieszkaniowa na zebraniu rocznym ocenia stan budynku i decyduje: w tym roku najpierw dach, elewacja dopiero za dwa lata, a zarządca co kwartał pokazuje wydatki. Wyboru dekarza i pilnowania ekipy zebranie już nie robi – to robota zarządcy. Ocenić, wyznaczyć kierunek, monitorować: to jest Ład.",
+    "biuro": "Po skargach klientów kierownik biura ocenia, co szwankuje, ustala priorytet: odpowiedź na każde pismo w 3 dni, i co miesiąc przegląda zestawienie z dziennika korespondencji. Kto i jak odpisuje, ustala już sekretariat.",
+    "firma": "Właścicielka restauracji raz na kwartał siada z wynikami i decyduje: celujemy w rodziny z dziećmi, marża ma wynosić co najmniej 20%, a za trzy miesiące sprawdzamy, czy to działa. Co i jak gotować każdego dnia, ustala już szef kuchni. Ona sprawuje Ład, on zarządza.",
+    "admin": "Rada gminy przyjmuje strategię cyfryzacji: najpierw e-usługi dla mieszkańców, potem nowy system księgowy. Ustala na to budżet i co pół roku każe sobie przedstawić, co zrobiono. Wybór dostawcy i prowadzenie wdrożenia zostawia urzędowi – rada sprawuje Ład, a nie zarządza projektem.",
+    "psp": "Komendant powiatowy z zastępcami na naradzie rocznej ustala priorytety: krótszy czas dysponowania i odporna łączność. Zatwierdza na to pieniądze i co kwartał przegląda wskaźniki ze stanowiska kierowania. Sam nie konfiguruje systemu ani nie układa grafiku dyżurnych – to zadania Zarządzania; tu komendant z zastępcami sprawuje Ład.",
+    "it": "W EDM03 (Zapewnienie optymalizacji ryzyka) zarząd ocenia ryzyko IT, ustala apetyt na ryzyko i monitoruje, czy organizacja go nie przekracza."
+  },
+  "glebokosc": {
+    "prosty": "Rodzice decydują, że w tym roku oszczędzamy na wakacje, i co miesiąc sprawdzają, ile udało się odłożyć. Nie robią za dzieci zakupów ani nie gotują za babcię – wyznaczają kierunek i pilnują, czy rodzina się go trzyma. To jest ład: decydowanie „dokąd” i sprawdzanie „czy idziemy w tę stronę”, bez wykonywania samej pracy.",
+    "zaawansowany": "Komendantka Wrzos po Lipowej najpierw ocenia, czego potrzebują interesariusze – mieszkańcy, OSP, komenda wojewódzka (Oszacuj). Potem ustala priorytet: niezawodne alarmowanie przed nowymi funkcjami Syreny, i przydziela na to środki (Kieruj). Co miesiąc sprawdza, czy komenda trzyma się tego kierunku (Monitoruj). Nie wybiera dostawcy SMS ani nie konfiguruje serwera – to [[zarzadzanie|Zarządzanie]] kpt. Sikory. Rozdział tych ról opisuje [[zasada-5]].",
+    "skrajny": "St. ogn. Nowik zauważa: „Komendantka monitoruje i naczelnik Sikora monitoruje – to kto tu jest Ładem?”. Słowo „Monitoruj” występuje w obu zestawach czasowników: w EDM (Oszacuj, Kieruj, Monitoruj) i w PBRM (Planuj, Twórz, Wykonuj, Monitoruj). Czasownik nie przesądza więc o kategorii; przesądza to, czego dotyczy. Ład monitoruje sprawność i zgodność względem kierunku, który sam wyznaczył, a Zarządzanie monitoruje realizację własnych planów i działań, m.in. w domenie MEA. Do tego podręcznik pisze „nadzór”, co po polsku brzmi jak kontrola, a *governance* obejmuje także ocenę potrzeb i wyznaczanie kierunku przez priorytety i decyzje. **Rozstrzygnięcie:** Ład rozpoznajesz po parze „ocenia potrzeby, warunki i opcje” + „kieruje przez priorytety i decyzje”; samo „monitoruje” nie wystarcza, bo monitoruje też Zarządzanie."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Ład to kontrola i inspekcja – stąd podręcznikowe „nadzór”.",
+      "prawda": "Ład (*governance*) to także ocenianie potrzeb, warunków i opcji oraz wyznaczanie kierunku przez priorytety i decyzje, a nie tylko sprawdzanie."
+    },
+    {
+      "mit": "Każda decyzja najwyższego szefa to Ład.",
+      "prawda": "O kategorii decyduje czynność, nie stanowisko. Wybór dostawcy czy ułożenie harmonogramu to planowanie i budowanie, czyli Zarządzanie, nawet jeśli robi to komendantka."
+    },
+    {
+      "mit": "Ład realizuje najważniejsze projekty, a Zarządzanie drobniejsze.",
+      "prawda": "Ład nie realizuje żadnych projektów: ocenia, kieruje i monitoruje. Realizacja to zawsze Zarządzanie."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie Ładu z „najwyższym szefem” albo z kontrolą zamiast z trzema czynnościami: Oszacuj, Kieruj, Monitoruj.",
+    "jakTlumaczyc": "Armator i kapitan: armator (Ład) decyduje, dokąd i po co płynie statek, i sprawdza, czy trzyma kurs; kapitan z załogą (Zarządzanie) planuje trasę, steruje i pilnuje maszyn. Najpierw czasowniki EDM, potem kto je wykonuje, a na końcu pułapka słowa „nadzór”.",
+    "pytanieKontrolne": "Komendantka osobiście wybiera dostawcę modułu SMS i układa harmonogram wdrożenia. Czy w tym momencie sprawuje Ład? Uzasadnij.",
+    "odpowiedzKontrolna": "Nie. Wybór dostawcy i harmonogram to planowanie i budowanie, czyli Zarządzanie (Planuj, Twórz, Wykonuj, Monitoruj), nawet jeśli robi to komendantka. Ład to ocena potrzeb i opcji, wyznaczenie kierunku przez priorytety i decyzje oraz monitorowanie zgodności z tym kierunkiem. O kategorii decyduje czynność, a nie stanowisko."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "zarzadzanie",
+      "roznica": "Zarządzanie (management) planuje, buduje, uruchamia i monitoruje działania ZGODNIE z kierunkiem wyznaczonym przez Ład."
+    },
+    {
+      "termin": "Nadzór w znaczeniu kontroli / inspekcji",
+      "roznica": "Polskie „nadzór” kojarzy się z kontrolą. W COBIT to coś szerszego: także wyznaczanie kierunku i ustalanie priorytetów."
+    },
+    {
+      "termin": "Ład korporacyjny (enterprise governance)",
+      "roznica": "Ład nad IT w organizacji (GEIT) jest CZĘŚCIĄ ładu korporacyjnego (Zasada 2)."
+    }
+  ],
+  "przykladWypowiedzi": "Governance, czyli Ład, ocenia potrzeby, wyznacza kierunek i monitoruje jego realizację (EDM); Management, czyli Zarządzanie, planuje, tworzy, wykonuje i monitoruje działania zgodnie z tym kierunkiem (PBRM).",
+  "egzamin": "Zapamiętaj czasowniki: Ład = **Oszacuj, Kieruj, Monitoruj** (EDM); odpowiada **zarząd** pod przewodnictwem **prezesa**. Zarządzanie = Planuj, Twórz, Wykonuj, Monitoruj; odpowiada **kierownictwo** pod przewodnictwem **CEO**.",
+  "powiazane": [
+    "zarzadzanie",
+    "zasada-5",
+    "organ-ladu",
+    "tworzenie-wartosci"
+  ],
+  "sylabus": [
+    "M0-00-06",
+    "PR-02-14",
+    "PR-02-15"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 91,
+      "cytat": "Dzięki nadzorowi zyskuje się pewność, że oceniono potrzeby, warunki i opcje interesariuszy"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 14,
+      "cytat": "W większości przedsiębiorstw za nadzór odpowiada zarząd pod przywództwem prezesa."
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "lad"
+}

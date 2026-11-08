@@ -1,0 +1,791 @@
+{
+  "pytania": [
+    {
+      "id": "q-pre-m0-01-interesariusz",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "M0-00-01"
+      ],
+      "lekcja": "m0-01-interesariusz",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Mieszkaniec, który nigdy nie korzysta z systemu stanowiska kierowania, ale czeka na przyjazd zastępu – czy jest interesariuszem tego systemu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Tak – ponosi skutki działania systemu",
+          "poprawna": true,
+          "wyjasnienie": "Interesariuszem jest każdy, kto ma oczekiwania lub odczuwa skutki – nie tylko użytkownik."
+        },
+        {
+          "tekst": "Nie – interesariuszem jest tylko użytkownik",
+          "poprawna": false,
+          "wyjasnienie": "To częsty błąd: interesariusz ≠ użytkownik.",
+          "zycie": "W życiu to tak, jakbyś myślał, że remont bloku dotyczy tylko tych, którzy jeżdżą windą."
+        },
+        {
+          "tekst": "Nie – interesariuszem jest tylko ten, kto płaci",
+          "poprawna": false,
+          "wyjasnienie": "Udziałowiec/płatnik to tylko jeden z interesariuszy.",
+          "zycie": "W życiu to tak, jakbyś myślał, że wesele obchodzi tylko tego, kto za nie płaci."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-m0-02-potrzeba",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-02-02"
+      ],
+      "lekcja": "m0-02-potrzeba",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Co jest przykładem czynnika, który ZMIENIA potrzeby interesariuszy?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Nowa ustawa nakładająca obowiązki",
+          "poprawna": true,
+          "wyjasnienie": "Zmiana otoczenia regulacyjnego to typowy wyznacznik (s. 17)."
+        },
+        {
+          "tekst": "Dobra praktyka zarządzania projektami",
+          "poprawna": false,
+          "wyjasnienie": "Dobre praktyki to wymiar aktywatora, nie wyznacznik.",
+          "zycie": "W życiu to tak, jakbyś myślał, że to sprawdzony przepis, a nie narodziny dziecka, zmienia potrzeby rodziny."
+        },
+        {
+          "tekst": "Tabela RACI procesu",
+          "poprawna": false,
+          "wyjasnienie": "RACI opisuje role w procesie.",
+          "zycie": "W życiu to tak, jakby grafik zmywania naczyń miał zmieniać, czego rodzina potrzebuje."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-m0-03-wartosc",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-03-wartosc",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Wdrożono system zgodnie z umową, ale nikt go nie używa. Co osiągnięto?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Rezultat, ale nie korzyść",
+          "poprawna": true,
+          "wyjasnienie": "Produkt istnieje (rezultat), ale nie przynosi poprawy (brak korzyści)."
+        },
+        {
+          "tekst": "Korzyść i wartość",
+          "poprawna": false,
+          "wyjasnienie": "Korzyść to faktyczna poprawa – tu jej nie ma.",
+          "zycie": "W życiu to tak, jakbyś nieużywany rower w garażu uznał za poprawę kondycji rodziny."
+        },
+        {
+          "tekst": "Nic – system nie istnieje",
+          "poprawna": false,
+          "wyjasnienie": "System istnieje – to właśnie rezultat.",
+          "zycie": "W życiu to tak, jakbyś twierdził, że roweru nie ma, choć stoi w garażu, tylko nikt nim nie jeździ."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-m0-04-ryzyko-zasob",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "M0-00-04"
+      ],
+      "lekcja": "m0-04-ryzyko-zasob",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Jaki jest cel zarządzania ryzykiem według COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Utrzymanie ryzyka na akceptowalnym poziomie",
+          "poprawna": true,
+          "wyjasnienie": "Optymalizacja ryzyka – w granicach apetytu na ryzyko."
+        },
+        {
+          "tekst": "Całkowite wyeliminowanie ryzyka",
+          "poprawna": false,
+          "wyjasnienie": "Zero ryzyka zwykle oznacza zero działania i zero korzyści.",
+          "zycie": "W życiu to tak, jakbyś w ogóle nie wychodził z domu, żeby na pewno nie zmoknąć."
+        },
+        {
+          "tekst": "Przeniesienie całego ryzyka na dostawcę",
+          "poprawna": false,
+          "wyjasnienie": "Transfer to tylko jedna ze strategii.",
+          "zycie": "W życiu to tak, jakbyś całe dbanie o bezpieczeństwo w aucie sprowadził do kupienia polisy."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-m0-05-proces-projekt",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "M0-00-05"
+      ],
+      "lekcja": "m0-05-proces-projekt",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Codzienne przyjmowanie zgłoszeń alarmowych to:",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Proces",
+          "poprawna": true,
+          "wyjasnienie": "Działanie ciągłe i powtarzalne."
+        },
+        {
+          "tekst": "Projekt",
+          "poprawna": false,
+          "wyjasnienie": "Projekt jest jednorazowy.",
+          "zycie": "W życiu to tak, jakbyś codzienne odbieranie dziecka ze szkoły nazwał jednorazową wyprawą."
+        },
+        {
+          "tekst": "Program",
+          "poprawna": false,
+          "wyjasnienie": "Program to zbiór powiązanych projektów.",
+          "zycie": "W życiu to tak, jakbyś codzienne gotowanie obiadu nazwał planem kilku remontów w całym domu."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-m0-06-lad-zarzadzanie",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "M0-00-06"
+      ],
+      "lekcja": "m0-06-lad-zarzadzanie",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Komendant ustala priorytet „skrócić czas dysponowania” i co kwartał sprawdza postępy. To przykład:",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Ładu",
+          "poprawna": true,
+          "wyjasnienie": "Kierowanie (priorytety) i monitorowanie kierunku to Ład."
+        },
+        {
+          "tekst": "Zarządzania",
+          "poprawna": false,
+          "wyjasnienie": "Zarządzanie planuje i realizuje – nie wyznacza kierunku.",
+          "zycie": "W życiu to tak, jakbyś decyzję rodziców „w tym roku oszczędzamy” pomylił z robieniem zakupów według listy."
+        },
+        {
+          "tekst": "Audytu",
+          "poprawna": false,
+          "wyjasnienie": "Audyt to niezależna ocena.",
+          "zycie": "W życiu to tak, jakbyś decyzję rodziców „oszczędzamy” pomylił z kontrolą rachunków przez niezależnego księgowego."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-m0-07-cobit-standardy",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-07-cobit-standardy",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Ile procesów zawiera model referencyjny COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "37",
+          "poprawna": true,
+          "wyjasnienie": "5 procesów Ładu + 32 Zarządzania."
+        },
+        {
+          "tekst": "40",
+          "poprawna": false,
+          "wyjasnienie": "40 celów to COBIT 2019.",
+          "zycie": "W życiu to tak, jakbyś pytany o swoje auto podał dane nowszego modelu z salonu."
+        },
+        {
+          "tekst": "34",
+          "poprawna": false,
+          "wyjasnienie": "34 procesy miał COBIT 4.1.",
+          "zycie": "W życiu to tak, jakbyś pytany o swoje auto podał dane poprzedniego rocznika."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-m0-08-egzamin",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-08-egzamin",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Na polskim egzaminie termin „Aktywator” odpowiada w podręczniku PL:",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Czynnikowi umożliwiającemu",
+          "poprawna": true,
+          "wyjasnienie": "Enabler: podręcznik „czynnik umożliwiający”, egzamin „aktywator”."
+        },
+        {
+          "tekst": "Wyznacznikowi",
+          "poprawna": false,
+          "wyjasnienie": "Wyznacznik to driver.",
+          "zycie": "W życiu to tak, jakbyś pomylił garnki, które pomagają gotować, z głodem, który skłania do gotowania."
+        },
+        {
+          "tekst": "Procesowi",
+          "poprawna": false,
+          "wyjasnienie": "Proces to jeden z aktywatorów.",
+          "zycie": "W życiu to tak, jakbyś pytany, czym jest „sprzęt kuchenny”, podał tylko „garnek”: to jeden z wielu."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-01-piec-zasad",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-01-01"
+      ],
+      "lekcja": "pr-01-piec-zasad",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Ile zasad ma COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "5",
+          "poprawna": true,
+          "wyjasnienie": "Pięć zasad (Rysunek 2)."
+        },
+        {
+          "tekst": "7",
+          "poprawna": false,
+          "wyjasnienie": "Siedem to liczba aktywatorów.",
+          "zycie": "W życiu to tak, jakbyś pytany o liczbę domowników podał liczbę pokoi."
+        },
+        {
+          "tekst": "4",
+          "poprawna": false,
+          "wyjasnienie": "Cztery to liczba wymiarów aktywatora.",
+          "zycie": "W życiu to tak, jakbyś pytany o liczbę domowników podał liczbę kół w aucie."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-02-tworzenie-wartosci",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-02-01"
+      ],
+      "lekcja": "pr-02-tworzenie-wartosci",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Z ilu składników składa się Cel Ładu „Tworzenie Wartości”?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Z trzech: korzyści, ryzyko, zasoby",
+          "poprawna": true,
+          "wyjasnienie": "Rysunek 3."
+        },
+        {
+          "tekst": "Z jednego: korzyści",
+          "poprawna": false,
+          "wyjasnienie": "To zbyt wąskie.",
+          "zycie": "W życiu to tak, jakbyś udane wakacje oceniał tylko po atrakcjach, bez kosztów i bezpieczeństwa."
+        },
+        {
+          "tekst": "Z czterech wymiarów BSC",
+          "poprawna": false,
+          "wyjasnienie": "BSC porządkuje cele organizacji.",
+          "zycie": "W życiu to tak, jakbyś pytany o trzy składniki ciasta wymienił cztery rubryki domowego budżetu."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-03-kaskada-celow",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-02-03"
+      ],
+      "lekcja": "pr-03-kaskada-celow",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Na co potrzeby interesariuszy przekładają się w pierwszej kolejności?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 18,
+          "ilustracja": "4"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Na cele organizacji",
+          "poprawna": true,
+          "wyjasnienie": "Krok 2 kaskady."
+        },
+        {
+          "tekst": "Na cele procesów",
+          "poprawna": false,
+          "wyjasnienie": "To ostatni poziom (cele aktywatora).",
+          "zycie": "W życiu to tak, jakbyś przy decyzji o przeprowadzce od razu wybierał firmę do pakowania kartonów."
+        },
+        {
+          "tekst": "Na cele związane z informatyką",
+          "poprawna": false,
+          "wyjasnienie": "To krok 3 – po celach organizacji.",
+          "zycie": "W życiu to tak, jakbyś po „chcemy mieszkać bliżej szkoły” od razu wybierał auto, zanim ustalisz cel rodziny."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-04-cele-organizacji",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-02-03"
+      ],
+      "lekcja": "pr-04-cele-organizacji",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Ile typowych celów organizacji definiuje COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "17",
+          "poprawna": true,
+          "wyjasnienie": "Rysunek 5."
+        },
+        {
+          "tekst": "37",
+          "poprawna": false,
+          "wyjasnienie": "To liczba procesów.",
+          "zycie": "W życiu to tak, jakbyś pytany o liczbę celów rodziny policzył wszystkie domowe obowiązki."
+        },
+        {
+          "tekst": "7",
+          "poprawna": false,
+          "wyjasnienie": "To liczba aktywatorów.",
+          "zycie": "W życiu to tak, jakbyś pytany o liczbę celów rodziny podał liczbę pokoi w domu."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-05-po-co-kaskada",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-02-07"
+      ],
+      "lekcja": "pr-05-po-co-kaskada",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Czy tabele mapowania Kaskady Celów należy stosować dokładnie tak, jak są w podręczniku?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 20
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Nie – trzeba je dostosować do organizacji",
+          "poprawna": true,
+          "wyjasnienie": "Nie są uniwersalną prawdą (s. 20)."
+        },
+        {
+          "tekst": "Tak – są normatywne",
+          "poprawna": false,
+          "wyjasnienie": "COBIT nie ma charakteru normatywnego.",
+          "zycie": "W życiu to tak, jakbyś przepis na osiem osób stosował co do grama, choć gotujesz dla dwóch."
+        },
+        {
+          "tekst": "Tak – ale tylko w sektorze publicznym",
+          "poprawna": false,
+          "wyjasnienie": "Brak takiej reguły.",
+          "zycie": "W życiu to tak, jakbyś twierdził, że przepis wolno zmieniać tylko w szkolnych stołówkach."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-06-zasada-2",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-02-08"
+      ],
+      "lekcja": "pr-06-zasada-2",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Który komponent Podejścia do Ładu (Rysunek 8) mówi, CZEGO dotyczy Ład: całej organizacji czy jednej jednostki?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 23,
+          "ilustracja": "8"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zakres Ładu",
+          "poprawna": true,
+          "wyjasnienie": "s. 24."
+        },
+        {
+          "tekst": "Cel Ładu",
+          "poprawna": false,
+          "wyjasnienie": "Cel to tworzenie wartości.",
+          "zycie": "W życiu to tak, jakbyś pytany, które pokoje sprzątasz, odpowiadał, że chodzi o czysty dom."
+        },
+        {
+          "tekst": "Role, działania i relacje",
+          "poprawna": false,
+          "wyjasnienie": "To kto i jak sprawuje Ład.",
+          "zycie": "W życiu to tak, jakbyś pytany, które pokoje sprzątasz, opowiadał, kto komu przydziela zadania."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-07-zasada-3",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-02-11"
+      ],
+      "lekcja": "pr-07-zasada-3",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Czy COBIT 5 musi być stosowany razem z innymi standardami?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Nie – może je integrować, ale nie musi",
+          "poprawna": true,
+          "wyjasnienie": "Może pełnić rolę nadrzędnej ramy."
+        },
+        {
+          "tekst": "Tak – zawsze z ITIL",
+          "poprawna": false,
+          "wyjasnienie": "Brak takiego wymogu.",
+          "zycie": "W życiu to tak, jakbyś myślał, że książki kucharskiej wolno używać tylko z jednym konkretnym garnkiem."
+        },
+        {
+          "tekst": "Tak – z ISO/IEC 27001",
+          "poprawna": false,
+          "wyjasnienie": "Brak takiego wymogu.",
+          "zycie": "W życiu to tak, jakbyś myślał, że auto pojedzie tylko na oponach jednego producenta."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-08-zasada-4",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-01-02"
+      ],
+      "lekcja": "pr-08-zasada-4",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Który z poniższych jest aktywatorem COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 27
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Kultura, Etyka i Zachowanie",
+          "poprawna": true,
+          "wyjasnienie": "Aktywator nr 4."
+        },
+        {
+          "tekst": "Zrównoważona karta wyników",
+          "poprawna": false,
+          "wyjasnienie": "BSC to narzędzie do porządkowania celów.",
+          "zycie": "W życiu to tak, jakbyś zeszyt z rodzinnymi celami na rok uznał za domowy sprzęt, jak pralka."
+        },
+        {
+          "tekst": "Kaskada Celów",
+          "poprawna": false,
+          "wyjasnienie": "To mechanizm Zasady 1.",
+          "zycie": "W życiu to tak, jakbyś sposób rozpisywania planu „od marzeń do zakupów” uznał za domowy sprzęt."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-09-wymiary-aktywatora",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-02-12"
+      ],
+      "lekcja": "pr-09-wymiary-aktywatora",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "„Wyniki są dokładne i obiektywne” – która to kategoria celów aktywatora?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Jakość wewnętrzna",
+          "poprawna": true,
+          "wyjasnienie": "Dokładność i obiektywność = jakość wewnętrzna (rzeczywista)."
+        },
+        {
+          "tekst": "Jakość kontekstowa",
+          "poprawna": false,
+          "wyjasnienie": "Kontekstowa = przydatność w sytuacji.",
+          "zycie": "W życiu to tak, jakbyś dokładną prognozę pogody pomylił z tym, czy przydała się na twoją wycieczkę."
+        },
+        {
+          "tekst": "Dostęp i bezpieczeństwo",
+          "poprawna": false,
+          "wyjasnienie": "To dostępność i ochrona.",
+          "zycie": "W życiu to tak, jakbyś dokładność prognozy pogody pomylił z tym, kto może ją przeczytać."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-10-wskazniki",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-02-13"
+      ],
+      "lekcja": "pr-10-wskazniki",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Liczba treningów w tygodniu przed maratonem to wskaźnik:",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Wiodący",
+          "poprawna": true,
+          "wyjasnienie": "Mierzy funkcjonowanie (stosowanie praktyki) i przewiduje wynik."
+        },
+        {
+          "tekst": "Opóźniony",
+          "poprawna": false,
+          "wyjasnienie": "Opóźniony to wynik – czas w dniu biegu.",
+          "zycie": "W życiu to tak, jakbyś liczbę lekcji jazdy przed egzaminem nazwał wynikiem egzaminu na prawo jazdy."
+        },
+        {
+          "tekst": "Kontekstowy",
+          "poprawna": false,
+          "wyjasnienie": "Nie ma takiego typu wskaźnika.",
+          "zycie": "W życiu to tak, jakbyś szukał na desce rozdzielczej licznika, którego nie ma żaden samochód."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-11-zasada-5",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-02-15"
+      ],
+      "lekcja": "pr-11-zasada-5",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Co następuje po „Kieruj” w przepływie modelu COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 32,
+          "ilustracja": "15"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Planuj",
+          "poprawna": true,
+          "wyjasnienie": "Ład kieruje → Zarządzanie planuje."
+        },
+        {
+          "tekst": "Oszacuj",
+          "poprawna": false,
+          "wyjasnienie": "Oszacuj jest przed Kieruj.",
+          "zycie": "W życiu to tak, jakbyś po decyzji o remoncie wracał do oglądania, czy dom go potrzebuje."
+        },
+        {
+          "tekst": "Wykonuj",
+          "poprawna": false,
+          "wyjasnienie": "Wykonuj jest po Planuj i Twórz.",
+          "zycie": "W życiu to tak, jakbyś po decyzji o remoncie od razu kładł płytki, bez planu i zakupów."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-12-prm-edm",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-01-03"
+      ],
+      "lekcja": "pr-12-prm-edm",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Który proces należy do domeny Ładu (EDM)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zapewnienie optymalizacji ryzyka",
+          "poprawna": true,
+          "wyjasnienie": "EDM03."
+        },
+        {
+          "tekst": "Zarządzanie ryzykiem",
+          "poprawna": false,
+          "wyjasnienie": "To APO12 – Zarządzanie.",
+          "zycie": "W życiu to tak, jakbyś codzienne zamykanie drzwi na klucz pomylił z rodzinną decyzją, ile ryzyka akceptujecie."
+        },
+        {
+          "tekst": "Monitorowanie systemu kontroli wewnętrznej",
+          "poprawna": false,
+          "wyjasnienie": "To MEA02 – Zarządzanie.",
+          "zycie": "W życiu to tak, jakbyś sprawdzanie, czy zamki działają, pomylił z rodzinną decyzją o bezpieczeństwie domu."
+        }
+      ]
+    },
+    {
+      "id": "q-pre-pr-13-domeny-zarzadzania",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "lekcja": "pr-13-domeny-zarzadzania",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Do której domeny należy „Zarządzanie ciągłością”?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "DSS",
+          "poprawna": true,
+          "wyjasnienie": "DSS04."
+        },
+        {
+          "tekst": "APO",
+          "poprawna": false,
+          "wyjasnienie": "APO to planowanie.",
+          "zycie": "W życiu to tak, jakbyś zapas świec na wypadek braku prądu przypisał planowaniu budżetu na przyszły rok."
+        },
+        {
+          "tekst": "BAI",
+          "poprawna": false,
+          "wyjasnienie": "BAI to budowanie i zmiany.",
+          "zycie": "W życiu to tak, jakbyś zapas świec na wypadek braku prądu przypisał ekipie, która buduje dom."
+        }
+      ]
+    }
+  ]
+}

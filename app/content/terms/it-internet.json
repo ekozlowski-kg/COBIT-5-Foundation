@@ -1,0 +1,82 @@
+{
+  "id": "it-internet",
+  "en": "Internet",
+  "wymowa": "internet",
+  "wymowaAkcent": "IN-ter-net",
+  "plEgzamin": "Internet",
+  "plPodrecznik": "—",
+  "plInne": [
+    "sieć (potocznie)"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "—",
+    "kurs": "Internet (Internet)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Nazwa jednakowa w obu językach."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P0",
+  "wymaga": [
+    "it-siec"
+  ],
+  "poLudzku": "Ogromna sieć łącząca komputery i sieci z całego świata.",
+  "poziom1": "Internet to ogólnoświatowe połączenie milionów sieci. Dzięki niemu Twój telefon może dostać dane z komputera na drugim końcu świata: stronę internetową, wiadomość, film.",
+  "poziom2": "Z Internetem łączysz się przez **dostawcę Internetu**, czyli firmę, która za opłatą podłącza dom albo firmę. Przez Internet działa wiele rzeczy: strony internetowe (oglądane w przeglądarce), poczta elektroniczna, komunikatory, płatności. Internet to „drogi”, a strony i poczta to „przesyłki”, które po nich jeżdżą.",
+  "poziom3": "COBIT 5 nie definiuje Internetu. Łącze internetowe to element infrastruktury sieciowej, a jego dostawca – przykład dostawcy zewnętrznego (lekcja 0A.7).",
+  "wyobrazSobie": "Wszystkie drogi świata połączone ze sobą. Twoja ulica (sieć domowa) jest tylko ich małym kawałkiem.",
+  "poCo": "Żeby urządzenia z różnych miejsc i różnych organizacji mogły się porozumiewać.",
+  "jakDziala": "Twój router wysyła dane do sieci dostawcy Internetu. Stamtąd dane przechodzą przez kolejne sieci, aż dotrą do komputera, do którego były adresowane. Odpowiedź wraca w ten sam sposób.",
+  "dlaczegoWazne": "Wiele usług, z których korzystają organizacje, działa przez Internet. Gdy łącze internetowe zawiedzie, alarmy, płatności czy poczta mogą stanąć.",
+  "przyklady": {
+    "zycie": "Sprawdzasz rozkład jazdy w telefonie. Telefon łączy się przez Internet z komputerem przewoźnika i pobiera aktualny rozkład.",
+    "biuro": "Pracownik biura wysyła mailem ofertę do klienta w innym mieście. Wiadomość leci przez Internet.",
+    "organizacja": "Sklep internetowy przyjmuje zamówienia przez Internet całą dobę. Gdy łącze pada, sklep nie zarabia.",
+    "psp": "„Syrena” wysyła SMS-y do OSP Zawilce przez łącze internetowe komendy. W historii kursu komenda miała tylko jedno takie łącze.",
+    "it": "Łącze internetowe należy do infrastruktury sieciowej; zapewnia je zwykle dostawca zewnętrzny (APO10 Zarządzanie dostawcami)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-siec",
+      "roznica": "Sieć może być lokalna. Internet łączy sieci na całym świecie."
+    },
+    {
+      "termin": "it-wifi",
+      "roznica": "Wi-Fi to bezprzewodowe połączenie z siecią w pobliżu. Możesz mieć Wi-Fi bez dostępu do Internetu."
+    }
+  ],
+  "przykladWypowiedzi": "The Internet, czyli Internet, to sieć sieci; nasz network, czyli sieć w komendzie, łączy się z Internetem przez łącze od dostawcy.",
+  "egzamin": "Nie jest terminem egzaminu. Pomaga zrozumieć zależność od dostawców i ciągłość usług.",
+  "powiazane": [
+    "it-siec",
+    "it-wifi",
+    "it-dostawca"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [],
+  "glebokosc": {
+    "prosty": "Wysyłasz kartkę świąteczną do cioci w Kanadzie. Kartka jedzie przez pocztę w Polsce, samolotem i przez pocztę w Kanadzie. Internet działa podobnie: wiadomość przechodzi przez wiele sieci, zanim dotrze.",
+    "zaawansowany": "W nocy łącze internetowe komendy przestaje działać. Sieć w budynku działa: dyżurni widzą zgłoszenia na ekranach. Ale „Syrena” nie wyśle SMS-ów do OSP, bo potrzebuje Internetu. To pokazuje, że [[it-siec|sieć]] w budynku i Internet to dwie różne rzeczy.",
+    "skrajny": "Czy strona internetowa to Internet? Nie – strona to treść, którą Internet przenosi. Czy poczta elektroniczna to Internet? To usługa działająca przez Internet. Czy Internet jest „w powietrzu”? Nie: to fizyczne kable, maszty i urządzenia na całym świecie. **Rozstrzygnięcie:** Internet to ogólnoświatowa sieć sieci, czyli droga; strony, poczta i aplikacje to rzeczy, które tą drogą przesyłamy."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Internet to strona wyszukiwarki.",
+      "prawda": "Wyszukiwarka to jedna ze stron. Internet to sieć, przez którą strony do Ciebie docierają."
+    },
+    {
+      "mit": "Jak działa Wi-Fi, to działa Internet.",
+      "prawda": "Wi-Fi łączy Cię z routerem. Jeśli router nie ma łącza z Internetem, Wi-Fi działa, a Internetu nie ma."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie Internetu z przeglądarką, stroną albo z Wi-Fi.",
+    "jakTlumaczyc": "Internet to drogi, strony to przesyłki, przeglądarka to okno, przez które patrzysz na przesyłkę.",
+    "pytanieKontrolne": "Wi-Fi w domu działa, ale strony się nie otwierają. Co może nie działać?",
+    "odpowiedzKontrolna": "Łącze z Internetem (np. u dostawcy). Wi-Fi łączy tylko z domowym routerem."
+  }
+}

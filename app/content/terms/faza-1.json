@@ -1,0 +1,113 @@
+{
+  "id": "faza-1",
+  "en": "Phase 1: What are the drivers?",
+  "wymowa": "fejz 1 łot ar de drajwers",
+  "wymowaAkcent": "fejz 1 łot ar de DRAJ-wers",
+  "plEgzamin": "Faza 1: Jakie są wyznaczniki?",
+  "plPodrecznik": "Faza 1: Jakie są wyznaczniki?",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Faza 1: Jakie są wyznaczniki?",
+    "podrecznik": "Faza 1: Jakie są wyznaczniki?",
+    "kurs": "Faza 1: Jakie są wyznaczniki? (Phase 1: What are the drivers?)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Opis fazy 1 w podręczniku mówi o „czynnikach inicjujących”. Na egzaminie to „zdarzenia wyzwalające”. Do tego „wyznacznik” w fazie 1 to powód wdrożenia, a nie „czynnik wpływający na potrzeby interesariuszy” z zasady 1.",
+  "skadNazwa": "Angielskie *What are the drivers?*: *driver* to „to, co pcha do działania”. Podręcznik tłumaczy *trigger events* jako „zdarzenia/czynniki inicjujące”, egzamin – „zdarzenia wyzwalające”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "fazy-wdrozenia",
+    "punkty-zapalne",
+    "zdarzenia-wyzwalajace"
+  ],
+  "poLudzku": "Pierwszy krok: wspólnie przyznajecie, że coś trzeba zmienić, i mówicie dlaczego.",
+  "wyobrazSobie": "Ząb boli od miesiąca, a za tydzień masz wesele. Wtedy wreszcie mówisz: „Idę do dentysty”.",
+  "poziom1": "Pierwsza z [[fazy-wdrozenia|siedmiu faz]]. Organizacja stwierdza i uzgadnia potrzebę zmiany. Wskazuje [[punkty-zapalne]] i [[zdarzenia-wyzwalajace]] oraz to, że zmiana jest potrzebna na poziomie kierownictwa.",
+  "poziom2": "| Pierścień | Działanie w fazie 1 („Jakie są wyznaczniki?”) |\n|---|---|\n| Zarządzanie programem (zewnętrzny) | Inicjowanie programu (SP1) |\n| Aktywowanie zmiany (środkowy) | Ustanowienie chęci zmiany |\n| Cykl życia ciągłego doskonalenia (wewnętrzny) | Rozpoznanie potrzeby działania |\n\nOznaczenia nazw działań: **(SP1)** – nazwa z polskiego arkusza egzaminacyjnego; bez oznaczenia – tłumaczenie kursu z *COBIT 5 Implementation* (ISACA), jak w lekcji 3.4.\n\nW tej fazie **nie mierzysz** jeszcze stanu obecnego (to faza 2). Odpowiadasz na pytanie „**dlaczego** w ogóle zmieniamy?”. Na s. 39 podręcznik dodaje: potrzebę trzeba powszechnie uznać i zakomunikować, np. jako „dzwonek alarmowy”.",
+  "poziom3": "(s. 38): *„Faza 1 rozpoczyna się od stwierdzenia i uzgodnienia potrzeby realizacji inicjatywy związanej z wdrożeniem lub doskonaleniem.”* Identyfikuje się w niej aktualne punkty zapalne oraz czynniki inicjujące (egzamin: zdarzenia wyzwalające).",
+  "poCo": "Żeby wszyscy, łącznie z kierownictwem, zgodzili się, że zmiana jest potrzebna. Bez tej zgody kolejne fazy nie mają paliwa.",
+  "jakDziala": "Zbierasz punkty zapalne, czyli to, co boli teraz. Dodajesz zdarzenia wyzwalające, np. zapowiedzianą kontrolę albo nowe przepisy. Kierownictwo uznaje potrzebę zmiany, a program zostaje zainicjowany.",
+  "dlaczegoWazne": "Egzamin łączy punkty zapalne i zdarzenia wyzwalające z fazą 1. Pomiar stanu obecnego to już faza 2.",
+  "przyklady": {
+    "zycie": "Lekarz mówi, że masz za wysokie ciśnienie. Do tego za miesiąc wesele, a garnitur nie dopina się w pasie. Siadasz z żoną i ustalacie: „Musimy coś zmienić”. Jeszcze nie ważysz się i nie wybierasz diety. To faza 1.",
+    "biuro": "W biurze ginie trzecia umowa w miesiącu, a szef zapowiada audyt. Zespół na zebraniu przyznaje: „Musimy zmienić archiwum”.",
+    "organizacja": "Sklep internetowy dostaje lawinę skarg na spóźnione paczki, a duży klient grozi odejściem, więc właściciele uznają potrzebę zmian. Tak samo starosta po skargach na kolejki i zapowiedzi kontroli ogłasza: „Musimy to naprawić”.",
+    "psp": "**Ból i iskra**\nPo pożarze na Lipowej komendantka Anna Wrzos zbiera zastępców. Awaria Syreny to punkt zapalny, a zapowiedź kontroli inspektorki Ostrowskiej – zdarzenie wyzwalające. Wrzos mówi: „Nie gasimy już pożarów w IT od przypadku do przypadku”. Nikt jeszcze niczego nie mierzy. To [[faza-1|faza 1: Jakie są wyznaczniki?]]",
+    "it": "Seria podobnych incydentów obsługiwanych w DSS02 to punkt zapalny. Zapowiedziany audyt zgodności z przepisami (MEA03) to zdarzenie wyzwalające."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "faza-2",
+      "roznica": "Faza 1 mówi, dlaczego zmieniamy. Faza 2 określa zakres i mierzy, jak jest teraz."
+    },
+    {
+      "termin": "wyznacznik",
+      "roznica": "Wyznacznik z zasady 1 zmienia potrzeby interesariuszy i otwiera kaskadę celów. „Wyznaczniki” w fazie 1 to powody, dla których zaczynamy wdrożenie."
+    }
+  ],
+  "przykladWypowiedzi": "Faza 1, What are the drivers? (Jakie są wyznaczniki?), wskazuje punkty zapalne (pain points) i zdarzenia wyzwalające (trigger events).",
+  "egzamin": "Faza, w której **identyfikuje się punkty zapalne i zdarzenia wyzwalające** oraz uzgadnia potrzebę zmiany → **faza 1**. Działanie programu w tej fazie: **Inicjowanie programu**.",
+  "powiazane": [
+    "fazy-wdrozenia",
+    "faza-2",
+    "punkty-zapalne",
+    "zdarzenia-wyzwalajace",
+    "pierscien-program",
+    "wyznacznik"
+  ],
+  "sylabus": [
+    "IM-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "Faza 1 rozpoczyna się od stwierdzenia i uzgodnienia potrzeby realizacji inicjatywy związanej z wdrożeniem lub doskonaleniem."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "Identyfikuje się w niej aktualne punkty zapalne oraz czynniki inicjujące"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 39,
+      "cytat": "konieczne jest powszechne uznanie i zakomunikowanie potrzeby działania"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "ilustracja": "17"
+    }
+  ],
+  "mapa": "faza-1",
+  "glebokosc": {
+    "prosty": "Zanim zaczniesz remont, mówisz głośno: „W tej łazience nie da się już żyć”. Domownicy się zgadzają. Jeszcze nie mierzysz ścian i nie kupujesz płytek. Najpierw pada wspólne „trzeba”.",
+    "zaawansowany": "Wrzos uznaje dwa powody naraz: [[punkty-zapalne|punkt zapalny]] (awaria z Lipowej) i [[zdarzenia-wyzwalajace|zdarzenie wyzwalające]] (kontrola z komendy wojewódzkiej). Program dostaje sponsora – to „Inicjowanie programu”. Sikora tłumaczy dyżurnym, po co to wszystko, żeby była chęć zmiany. Pomiar czasów alarmu zostawia na [[faza-2]].",
+    "skrajny": "Na pierwszej naradzie Sikora proponuje: „Zanim cokolwiek ustalimy, zmierzmy czasy alarmów z ostatniego roku”. Brzmi rozsądnie, ale pomiar stanu obecnego to praca fazy 2. W fazie 1 komenda ma uzgodnić **potrzebę** i powody, a nie diagnozować. Druga pułapka: hasło „wyznacznik” w fazie 1 nie jest tym samym co wyznacznik z zasady 1, choć oba to *driver*. W fazie 1 to powód wdrożenia (np. awaria, kontrola). **Rozstrzygnięcie:** jeśli pytanie brzmi „dlaczego zmieniamy i czy wszyscy to uznają?”, to faza 1; jeśli „jak jest teraz i co obejmie zmiana?”, to faza 2."
+  },
+  "zagmatwania": [
+    {
+      "mit": "W fazie 1 robi się ocenę zdolności procesów.",
+      "prawda": "Ocena stanu obecnego i oszacowanie potencjału procesu to faza 2. Faza 1 uzgadnia potrzebę i powody."
+    },
+    {
+      "mit": "Do fazy 1 potrzebny jest punkt zapalny, samo zdarzenie nie wystarczy.",
+      "prawda": "Faza 1 identyfikuje i punkty zapalne, i zdarzenia wyzwalające. Każde z nich może być bodźcem."
+    },
+    {
+      "mit": "Faza 1 dotyczy tylko kierownictwa programu.",
+      "prawda": "Każda faza ma działanie w trzech pierścieniach. W fazie 1 to: Inicjowanie programu, Ustanowienie chęci zmiany, Rozpoznanie potrzeby działania."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wkłada do fazy 1 pierwszy pomiar albo analizę, bo „to przecież początek”.",
+    "jakTlumaczyc": "Faza 1 kończy się zdaniem „musimy to zmienić, bo…”. Wszystko, co wymaga liczb o stanie obecnym, to już faza 2.",
+    "pytanieKontrolne": "W której fazie identyfikuje się punkty zapalne i zdarzenia wyzwalające, i jak nazywa się działanie programu w tej fazie?",
+    "odpowiedzKontrolna": "W **fazie 1** („Jakie są wyznaczniki?”). Działanie programu: **Inicjowanie programu**."
+  }
+}

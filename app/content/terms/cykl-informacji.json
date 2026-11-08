@@ -1,0 +1,87 @@
+{
+  "id": "cykl-informacji",
+  "en": "Information cycle",
+  "wymowa": "informejszyn sajkl",
+  "wymowaAkcent": "in-for-MEJ-szyn SAJ-kl",
+  "plEgzamin": "Cykl informacji",
+  "plPodrecznik": "Cykl informacji (metadane COBIT 5)",
+  "mapa": "cykl-informacji",
+  "poLudzku": "Droga od surowych danych przez informację i wiedzę do pożytku, np. odczyt licznika → rachunek → decyzja o oszczędzaniu.",
+  "wyobrazSobie": "Od zboża przez mąkę i ciasto do chleba: każdy etap przetwarza poprzedni, a pożytek pojawia się dopiero na końcu.",
+  "poCo": "Żeby pokazać, że dane same w sobie nie dają pożytku: dopiero przetworzone w informacje i wiedzę tworzą wartość dla organizacji.",
+  "jakDziala": "Procesy biznesowe, wspierane przez procesy IT, generują i przetwarzają dane (data). Dane przekształca się w informacje (information), informacje w wiedzę (knowledge), a z wiedzy powstaje wartość (value) dla organizacji (Ilustracja 35). Aktywator Informacja dotyczy głównie fazy informacji, ale COBIT 5 uwzględnia też dane i wiedzę.",
+  "dlaczegoWazne": "Cykl informacji wyjaśnia, dlaczego informacja nie ma wartości sama w sobie, tylko wtedy, gdy ktoś z niej korzysta. W pytaniach o aktywator Informacja może paść kolejność dane → informacje → wiedza → wartość.",
+  "poziom1": "Droga od surowych zapisów do pożytku: procesy biznesowe wytwarzają dane, z danych robi się informacje, z informacji wiedza, a z wiedzy wartość (np. paragony → zestawienie wydatków → „za dużo jemy na mieście” → oszczędności).",
+  "poziom2": "Ilustracja 35: **wyznacznikiem** są procesy biznesowe, które generują i przetwarzają dane (wspierane przez procesy IT) → **Dane** → przekształcanie → **Informacje** → przekształcanie → **Wiedza** → tworzenie → **Wartość**. Aktywator Informacja dotyczy głównie fazy „informacje”, ale COBIT uwzględnia też dane i wiedzę.",
+  "poziom3": "(s. 81): *„W cyklu informacji (ilustracja 35) procesy biznesowe generują i przetwarzają dane, przekształcając je w informacje i wiedzę, a na koniec generując wartość dla przedsiębiorstwa.”*",
+  "przyklady": {
+    "zycie": "Przez miesiąc wrzucasz paragony do pudełka (dane). Na koniec układasz je w tabelkę wydatków (informacja) i widzisz, że prawie połowa idzie na jedzenie na mieście (wiedza). Zaczynasz gotować w domu i odkładasz pieniądze – tu pojawia się wartość, koniec cyklu informacji.",
+    "biuro": "Rejestr korespondencji zapisuje datę wpływu i odpowiedzi każdego pisma (dane). Kierowniczka dostaje zestawienie czasów odpowiedzi (informacja) i widzi, że pisma z działu kadr czekają najdłużej (wiedza). Przesuwa tam drugą osobę i odpowiedzi przyspieszają (wartość).",
+    "firma": "Kasa w piekarni zapisuje każdą sprzedaż (dane). Właścicielka co tydzień dostaje zestawienie, co schodzi o której godzinie (informacja), i odkrywa, że po 17 zostaje połowa chleba (wiedza). Piecze mniej na wieczór i przestaje wyrzucać pieczywo – to wartość na końcu cyklu informacji.",
+    "admin": "Urząd gminy rejestruje każdą sprawę w EZD z datą wpływu i załatwienia (dane). Z tego powstaje raport czasu obsługi w wydziałach (informacja), z którego wynika, że wnioski budowlane leżą najdłużej (wiedza). Sekretarz przesuwa jedną osobę do tego wydziału i kolejka maleje – to wartość.",
+    "psp": "SWD-PSP zapisuje godziny zadysponowania i przybycia zastępów (dane). Z tego wychodzi średni czas dotarcia w każdej gminie (informacja), a analiza pokazuje, że w jednej strefie dojazd stale trwa ponad 15 minut (wiedza). Komendant zmienia rejony działania i włącza do nich bliższą jednostkę OSP, więc pomoc dociera szybciej (wartość).",
+    "it": "Proces DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami zapisuje każde zgłoszenie (dane). Raport pokazuje, że co tydzień pada ta sama usługa (informacja), analiza wskazuje przyczynę (wiedza), a DSS03 Zarządzanie problemami usuwa ją na stałe, więc przestojów jest mniej (wartość)."
+  },
+  "glebokosc": {
+    "prosty": "Paragony w szufladzie to dane. Gdy je zsumujesz w zeszycie, masz informację: na jedzenie na mieście idzie 600 zł miesięcznie. Gdy zrozumiesz, że to przez brak obiadów w tygodniu, masz wiedzę. Gdy zaczniesz gotować i oszczędzać, powstaje wartość.",
+    "zaawansowany": "Syrena co noc zapisuje logi wysyłek SMS, czyli dane. Ola Dudek robi z nich zestawienie, ile alarmów nie doszło do OSP, i to jest informacja. Sikora zauważa wzorzec: numery z Zawilców są stare, a to już wiedza. Gdy komenda poprawia bazę i pomoc dociera szybciej, powstaje wartość. Wyznacznikiem całej drogi są procesy biznesowe, a jakość każdego kroku ocenia się [[jakosc-informacji|kryteriami jakości informacji]].",
+    "skrajny": "W COBIT 5 są dwie różne „drogi informacji”. Cykl informacji (il. 35) to łańcuch: dane → informacje → wiedza → wartość, napędzany przez procesy biznesowe. Cykl życia informacji (s. 82–83) to wymiar aktywatora: planowanie, projektowanie, budowanie/nabywanie, użytkowanie (przechowywanie, udostępnianie, wykorzystanie), monitorowanie i pozbywanie się. Opis „ktoś ją planuje, zbiera, przechowuje, używa i usuwa” to cykl życia, a nie łańcuch z ilustracji 35. Do tego aktywator Informacja dotyczy głównie fazy „informacje”, ale COBIT uwzględnia też dane i wiedzę. **Rozstrzygnięcie:** „dane → informacje → wiedza → wartość” to cykl informacji; „planowanie … pozbywanie się” to cykl życia aktywatora Informacja."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Cykl informacji kończy się na informacji albo na wiedzy.",
+      "prawda": "Kończy się na wartości dla organizacji: dane → informacje → wiedza → wartość."
+    },
+    {
+      "mit": "Wyznacznikiem cyklu informacji są procesy IT.",
+      "prawda": "Wyznacznikiem są procesy biznesowe, a procesy IT je wspierają (il. 35)."
+    },
+    {
+      "mit": "Cykl informacji i cykl życia informacji to to samo.",
+      "prawda": "Cykl informacji to łańcuch od danych do wartości (il. 35). Cykl życia to fazy od planowania do pozbycia się, czyli wymiar aktywatora (s. 82)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie cyklu informacji z cyklem życia informacji i zaczynanie łańcucha od „informacji” zamiast od danych.",
+    "jakTlumaczyc": "Mąka, ciasto, przepis w głowie, zadowoleni goście: surowiec (dane), przerób (informacje), zrozumienie (wiedza), efekt (wartość). Dopiero potem osobno wprowadź „życiorys” informacji, od zaplanowania po zniszczenie.",
+    "pytanieKontrolne": "Logi Syreny leżą na serwerze od roku i nikt ich nie czyta. Na którym etapie cyklu informacji są i czy dają wartość?",
+    "odpowiedzKontrolna": "To wciąż dane: nie zostały przekształcone w informacje ani wiedzę, więc nie dają wartości. Wartość powstaje dopiero na końcu łańcucha, gdy proces biznesowy przekształci je i wykorzysta."
+  },
+  "egzamin": "Kolejność: **dane → informacje → wiedza → wartość**. Wyznacznikiem cyklu są **procesy biznesowe**. Wniosek egzaminacyjny: procesy biznesowe przekształcają wiedzę, aby stworzyć **wartość** dla organizacji.",
+  "powiazane": [
+    "informacja"
+  ],
+  "sylabus": [
+    "EN-02-18"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 81,
+      "cytat": "procesy biznesowe generują i przetwarzają dane, przekształcając je w informacje i wiedzę, a na koniec generując wartość dla przedsiębiorstwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 81,
+      "ilustracja": "35"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cykl informacji",
+    "podrecznik": "Cykl informacji (metadane COBIT 5)",
+    "kurs": "Cykl informacji (Information cycle)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 8, 9, 81."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "informacja",
+    "proces"
+  ],
+  "nieMylicZ": [],
+  "przykladWypowiedzi": "W cyklu informacji (information cycle) procesy biznesowe wytwarzają dane (data), które przekształca się w informacje (information) i wiedzę (knowledge), a dopiero na końcu powstaje wartość (value)."
+}

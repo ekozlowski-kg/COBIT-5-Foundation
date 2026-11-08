@@ -1,0 +1,91 @@
+{
+  "id": "cykl-zycia-aktywatora",
+  "en": "Enabler life cycle",
+  "wymowa": "inejbler lajf sajkl",
+  "wymowaAkcent": "i-NEJ-bler lajf SAJ-kl",
+  "plEgzamin": "Cykl życia aktywatora",
+  "plPodrecznik": "Cykl życia (czynnika umożliwiającego)",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cykl życia aktywatora",
+    "podrecznik": "Cykl życia (czynnika umożliwiającego)",
+    "kurs": "Cykl życia aktywatora (Enabler life cycle)",
+    "uwaga": "Egzamin PL: „Cykl życia aktywatora”; podręcznik PL: „Cykl życia (czynnika umożliwiającego)” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 28, 29, 65, 66."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "aktywator"
+  ],
+  "poLudzku": "Każda „część układanki” rodzi się, działa, jest poprawiana i kiedyś odchodzi, jak samochód w remizie.",
+  "wyobrazSobie": "Regulamin klasy: ktoś go wymyśla i pisze, klasa go stosuje, po semestrze sprawdza się, czy działa, a potem się go poprawia albo znosi.",
+  "poCo": "Żeby każdy aktywator był świadomie zaplanowany, utrzymywany, oceniany i w porę zmieniany albo wycofany, a nie zostawiony sam sobie po wdrożeniu.",
+  "jakDziala": "Cykl życia to jeden z czterech wymiarów aktywatora. Ma 6 faz: planowanie (plan), projektowanie (design), budowanie/nabywanie/tworzenie/wdrażanie (build/acquire/create/implement), użytkowanie/eksploatacja (use/operate), ocena/monitorowanie (evaluate/monitor) oraz aktualizacja/pozbywanie się (update/dispose). Wynik oceny może prowadzić do poprawek, więc fazy się powtarzają.",
+  "dlaczegoWazne": "Egzamin miesza 6 faz cyklu życia aktywatora z 7 fazami cyklu życia wdrożenia. Trzeba też wiedzieć, że cykl życia jest wymiarem każdego aktywatora, nie tylko procesu.",
+  "poziom1": "Każdy aktywator ma swoje „życie”: ktoś go planuje, projektuje, wprowadza, potem się go używa i ocenia, a w końcu poprawia albo wycofuje (np. regulamin, procedura, formularz, system).",
+  "poziom2": "Fazy: **Planowanie** (koncepcja i wybór) → **Projektowanie** → **Budowanie/nabywanie/tworzenie/wdrażanie** → **Użytkowanie/eksploatacja** → **Ocena/monitorowanie** → **Aktualizacja/pozbywanie się**.",
+  "poziom3": "(s. 29): *„każdy czynnik umożliwiający ma cykl życia, od rozpoczęcia, przez okres funkcjonowania/żywotności, aż po jego wycofanie.”*",
+  "przyklady": {
+    "zycie": "Gdy córka dostaje pierwszy telefon, ustalacie zasady: bez telefonu przy stole i po 21. Spisujecie je, wieszacie na lodówce i stosujecie, a po miesiącu rozmawiacie, co się sprawdza. Gdy córka idzie do liceum, zmieniacie albo znosicie zasady. Od pomysłu do wycofania – to cykl życia aktywatora.",
+    "biuro": "Biuro wprowadza wzór zamówienia materiałów: kierowniczka go planuje i projektuje, asystentka wrzuca go do folderu, wszyscy z niego korzystają, a po roku okazuje się, że brakuje rubryki na numer budżetu. Wzór jest poprawiany, a gdy firma przechodzi na system zamówień, zostaje wycofany.",
+    "firma": "Sklep internetowy przygotowuje nowy regulamin zwrotów. Właściciel go planuje, prawnik pisze treść, regulamin trafia na stronę i klienci z niego korzystają, a po pół roku właściciel sprawdza, ile było sporów. Potem regulamin jest poprawiany albo zastępowany nowym – to cykl życia aktywatora.",
+    "admin": "Wydział w urzędzie gminy projektuje nowy formularz wniosku o wycinkę drzewa. Formularz trafia na stronę i do BIP, mieszkańcy go wypełniają, a po roku urzędnicy sprawdzają, które pola sprawiają kłopot. Po zmianie przepisów stary wzór jest wycofywany i zastępowany nowym. To pełny cykl życia aktywatora.",
+    "psp": "Komenda opracowuje procedurę postępowania dyżurnego przy awarii łączności. Procedura jest zatwierdzana, dyżurni przechodzą szkolenie i stosują ją na służbie. Po burzy, w której padło kilka przekaźników, kierownik SK ocenia procedurę i ją poprawia, a po wymianie sprzętu stara wersja zostaje uchylona. Od powstania do wycofania – to cykl życia aktywatora.",
+    "it": "Proces DSS04 Zarządzanie ciągłością też ma cykl życia: komenda planuje i projektuje plan ciągłości dla Syreny, wdraża go, stosuje, ocenia po ćwiczeniu awaryjnym i aktualizuje. Gdy Syrenę zastąpi inny system, część procedur zostanie wycofana."
+  },
+  "glebokosc": {
+    "prosty": "Samochód w rodzinie: najpierw myślisz, jaki kupić, potem wybierasz wersję, kupujesz i jeździsz. Robisz przeglądy, a w końcu sprzedajesz go albo oddajesz na złom. Każda rzecz ma takie „życie”, które nie kończy się na zakupie.",
+    "zaawansowany": "Rada ds. Informatyki w komendzie też ma cykl życia. Komendantka Wrzos ją planuje i projektuje (skład, mandat), potem powołuje, a Rada działa. Ewa Lis ocenia jej pracę, a po roku Rada zostaje zmieniona albo rozwiązana. To samo dotyczy polityki powiadamiania i bazy numerów OSP. Pytanie „czy cyklem życia się zarządza?” należy do [[zarzadzanie-wydajnoscia-aktywatora|zarządzania wydajnością aktywatora]] i mierzy go [[wskaznik-wiodacy|wskaźnik wiodący]].",
+    "skrajny": "Czy faza „ocena/monitorowanie” w cyklu życia aktywatora to to samo co monitorowanie w EDM albo w MEA? Nie: to etap życia jednego aktywatora, np. coroczny przegląd polityki. EDM to praktyki Ładu, a MEA to domena procesów Zarządzania. Druga pułapka: cykl życia aktywatora ma 6 faz, a cykl życia wdrożenia 7 faz i 3 pierścienie. Trzecia: „czy zarządzamy cyklem życia?” brzmi jak wynik, ale mierzy go wskaźnik wiodący, a nie opóźniony. **Rozstrzygnięcie:** 6 faz od planowania po aktualizację lub pozbycie się to wymiar każdego aktywatora, mierzony wskaźnikiem wiodącym; nie myl go z cyklem wdrożenia ani z domenami EDM i MEA."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Cykl życia mają tylko systemy informatyczne.",
+      "prawda": "Ma go każdy aktywator: informacje, struktury, procesy, polityki (s. 29). Struktura organizacyjna jest tworzona, działa, jest dostosowywana i może zostać rozwiązana (s. 75)."
+    },
+    {
+      "mit": "Cykl życia aktywatora ma 7 faz.",
+      "prawda": "Ma 6 faz: planowanie, projektowanie, budowanie/nabywanie/tworzenie/wdrażanie, użytkowanie/eksploatacja, ocena/monitorowanie, aktualizacja/pozbywanie się. 7 faz ma cykl wdrożenia."
+    },
+    {
+      "mit": "Zarządzanie cyklem życia mierzy wskaźnik opóźniony.",
+      "prawda": "Mierzy je wskaźnik wiodący. Opóźnione dotyczą potrzeb interesariuszy i osiągnięcia celów (s. 29)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie 6 faz cyklu życia aktywatora z 7 fazami cyklu życia wdrożenia.",
+    "jakTlumaczyc": "Życiorys i remont: cykl życia aktywatora to życiorys jednej rzeczy, a cykl wdrożenia to akcja naprawcza całej organizacji. Życiorys ma 6 etapów, a akcja naprawcza 7 pytań.",
+    "pytanieKontrolne": "Komenda co roku przegląda politykę powiadamiania, a raz wycofała ją i zastąpiła nową. Które to fazy i jak zmierzysz, czy komenda dba o ten cykl?",
+    "odpowiedzKontrolna": "Przegląd to ocena/monitorowanie, a wycofanie i zastąpienie to aktualizacja/pozbywanie się (z nowym planowaniem). Dbałość o cykl życia mierzy wskaźnik wiodący, np. odsetek polityk przejrzanych w terminie."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Cykl życia wdrożenia (IM)",
+      "roznica": "Cykl życia wdrożenia (7 faz, 3 pierścienie) dotyczy programu wdrażania COBIT, a nie pojedynczego aktywatora."
+    },
+    {
+      "termin": "Cykl informacji",
+      "roznica": "Cykl informacji to szczegółowy cykl aktywatora Informacja (dzień 3)."
+    }
+  ],
+  "przykladWypowiedzi": "The enabler life cycle, czyli cykl życia aktywatora, prowadzi każdy aktywator od plan i design przez build i use/operate do evaluate/monitor i update/dispose; nie mylę go z siedmioma fazami cyklu życia wdrożenia.",
+  "egzamin": "„Czy cykl życia aktywatora jest zarządzany?” to jedno z 4 pytań zarządzania wydajnością. Mierzy się je **wskaźnikiem wiodącym**.",
+  "powiazane": [
+    "wymiary-aktywatora",
+    "zarzadzanie-wydajnoscia-aktywatora"
+  ],
+  "sylabus": [
+    "PR-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "każdy czynnik umożliwiający ma cykl życia, od rozpoczęcia"
+    }
+  ],
+  "mapa": "cykl-zycia-aktywatora"
+}

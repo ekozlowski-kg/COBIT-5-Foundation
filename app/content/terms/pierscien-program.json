@@ -1,0 +1,112 @@
+{
+  "id": "pierscien-program",
+  "en": "Programme management (outer ring)",
+  "wymowa": "prołgrem menydżment",
+  "wymowaAkcent": "PROŁ-grem ME-nydż-ment",
+  "plEgzamin": "Zarządzanie programem",
+  "plPodrecznik": "Zarządzanie programem (krąg zewnętrzny)",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Zarządzanie programem",
+    "podrecznik": "Zarządzanie programem (krąg zewnętrzny)",
+    "kurs": "Zarządzanie programem (Programme management)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 37, 38."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "cykl-wdrozenia",
+    "projekt"
+  ],
+  "poLudzku": "Pilnowanie całego przedsięwzięcia: kto prowadzi, ile kosztuje, jakie terminy i czy przyniosło obiecany zysk.",
+  "wyobrazSobie": "Kierownik budowy domu: nie kładzie cegieł, ale pilnuje planu, pieniędzy, terminów i odbioru.",
+  "poziom1": "Pierścień zewnętrzny [[cykl-wdrozenia|cyklu życia wdrożenia]]. Prowadzi wdrożenie jak program: sponsor, budżet, harmonogram, projekty, role i korzyści. W każdej z siedmiu faz ma swoje działanie, od „Inicjowania programu” do „Przeglądu skuteczności”.",
+  "poziom2": "| Faza | Działanie w pierścieniu Zarządzanie programem |\n|---|---|\n| 1 | Inicjowanie programu (SP1) |\n| 2 | Definiowanie problemów i okazji (SP1) |\n| 3 | Definiowanie mapy drogowej (SP1) |\n| 4 | Planowanie programu (SP1) |\n| 5 | Wykonywanie planu (SP1) |\n| 6 | Realizacja korzyści |\n| 7 | Przegląd skuteczności |\n\nOznaczenia nazw działań: **(SP1)** – nazwa z polskiego arkusza egzaminacyjnego; bez oznaczenia – tłumaczenie kursu z *COBIT 5 Implementation* (ISACA), jak w lekcji 3.4.\n\nPierścień odpowiada na pytanie **„czy przedsięwzięcie jest dobrze prowadzone i czy daje korzyści?”**. Ludźmi i oporem zajmuje się pierścień środkowy ([[pierscien-zmiana]]), a samym ulepszaniem – wewnętrzny ([[pierscien-doskonalenie]]).",
+  "poziom3": "(s. 37): trzy wzajemnie powiązane komponenty cyklu życia; trzeci to *„Zarządzanie programem”*. Il. 17 (s. 38) podpisuje go jako *„Zarządzanie programem (krąg zewnętrzny)”*. Na s. 36 podręcznik dodaje: po uzyskaniu zaangażowania trzeba zapewnić zasoby, zdefiniować kluczowe role i zakresy odpowiedzialności w programie. Na s. 39: inicjatywą kieruje **sponsor**, a opiera się ona na **uzasadnieniu biznesowym**.",
+  "poCo": "Żeby wdrożenie miało sponsora, budżet i terminy. I żeby ktoś na końcu rozliczył, czy dało obiecane korzyści.",
+  "jakDziala": "Pierścień zewnętrzny ma swoje działanie w każdej z siedmiu faz. Zaczyna od Inicjowania programu, potem definiuje problemy i okazje, mapę drogową i plan. Na końcu realizuje plan, rozlicza korzyści i robi przegląd skuteczności.",
+  "dlaczegoWazne": "Egzamin pyta, który pierścień wykonuje dane działanie. Terminy, budżet i korzyści przedsięwzięcia to zawsze pierścień zewnętrzny.",
+  "przyklady": {
+    "zycie": "Organizujesz wesele siostry. Trzymasz listę zadań, budżet i terminy, a po weselu sprawdzasz, czy zmieściliście się w kosztach. To Ty zarządzasz programem, choć nie pieczesz tortu ani nie grasz w zespole.",
+    "biuro": "Kierowniczka biura organizuje przeprowadzkę do nowej siedziby. Ma listę zadań, budżet i termin, a po wszystkim rozlicza koszty.",
+    "organizacja": "Sieć piekarni wdraża wspólny system zamówień: wspólnik pilnuje harmonogramu, budżetu i mniejszych strat pieczywa. Podobnie sekretarz powiatu prowadzi e-rezerwację wizyt i po pół roku rozlicza, czy kolejki się skróciły.",
+    "psp": "**Program „Syrena 2.0”**\nKomendantka Anna Wrzos wyznacza sponsora i prosi naczelnika Marka Sikorę o harmonogram. Księgowa Halina Mak liczy budżet w uzasadnieniu biznesowym. Co miesiąc Wrzos pyta: czy terminy są dotrzymane i czy alarm dochodzi szybciej? To pierścień zewnętrzny – [[pierscien-program|Zarządzanie programem]].",
+    "it": "Proces BAI01 (Zarządzanie programami i projektami) daje praktyki dla tego pierścienia, od inicjowania do zamknięcia programu. Korzyści monitoruje Ład w EDM02."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "projekt",
+      "roznica": "Program obejmuje kilka powiązanych projektów i działań, które razem mają dać korzyści. Projekt ma jeden konkretny wynik i koniec."
+    },
+    {
+      "termin": "pierscien-doskonalenie",
+      "roznica": "Program pilnuje terminów, budżetu i korzyści. Pierścień wewnętrzny dotyczy samego ulepszania aktywatorów (ocena stanu, usprawnienia, pomiar)."
+    }
+  ],
+  "przykladWypowiedzi": "Programme management, czyli Zarządzanie programem, to zewnętrzny pierścień: sponsor, budżet, harmonogram i realizacja korzyści.",
+  "egzamin": "Pierścień **zewnętrzny** = **Zarządzanie programem**. Jego działania z arkusza PL: Inicjowanie programu (1), Definiowanie problemów i okazji (2), **Definiowanie mapy drogowej** (3), **Planowanie programu** (4). Aspekty behawioralne i kulturowe to **nie** ten pierścień, tylko Aktywowanie zmiany.",
+  "powiazane": [
+    "cykl-wdrozenia",
+    "fazy-wdrozenia",
+    "pierscien-zmiana",
+    "pierscien-doskonalenie",
+    "uzasadnienie-biznesowe",
+    "projekt"
+  ],
+  "sylabus": [
+    "IM-01-01",
+    "IM-02-05"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 37,
+      "cytat": "Trzy wzajemnie powiązane komponenty cyklu życia"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "ilustracja": "17",
+      "cytat": "Zarządzanie programem (krąg zewnętrzny)"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 36,
+      "cytat": "Należy zdefiniować i przydzielić kluczowe role oraz zakresy odpowiedzialności w programie."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 39,
+      "cytat": "Za realizację inicjatywy powinien odpowiadać sponsor"
+    }
+  ],
+  "mapa": "pierscien-program",
+  "glebokosc": {
+    "prosty": "Remontujesz mieszkanie z kilkoma ekipami. Ktoś musi trzymać plan, pieniądze i terminy, a na końcu sprawdzić, czy było warto. Tym kimś jest kierownik całego przedsięwzięcia. On nie kładzie płytek, tylko pilnuje całości.",
+    "zaawansowany": "W komendzie Sikora prowadzi „Syrenę 2.0” jako program: kilka projektów (serwer, aplikacja, szkolenia), jeden budżet i sponsor. W fazie 4 każdy projekt dostaje [[uzasadnienie-biznesowe]], które Halina Mak aktualizuje do końca. W fazie 6 program pyta o korzyści: czy alarm dochodzi szybciej? Opór dyżurnych to już zadanie pierścienia [[pierscien-zmiana|Aktywowanie zmiany]].",
+    "skrajny": "W fazie 7 trzy pierścienie robią coś, co brzmi podobnie. Program robi „Przegląd skuteczności”, zmiana – „Utrzymanie”, a doskonalenie – „Monitorowanie i szacowanie”. Sikora pyta: czy budżet i korzyści się zgadzają? To pytanie programu. Grab pyta: czy dyżurni nie wracają do starych nawyków? To pierścień zmiany. Dudek pyta: czy proces działa i co poprawić w następnej iteracji? To doskonalenie. **Rozstrzygnięcie:** pytanie o terminy, koszty i korzyści przedsięwzięcia należy do Zarządzania programem; pytania o ludzi i o sam proces należą do pozostałych pierścieni (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Zarządzanie programem to cały cykl wdrożenia.",
+      "prawda": "To tylko jeden z trzech pierścieni, zewnętrzny. Równolegle działają Aktywowanie zmiany i Cykl życia ciągłego doskonalenia."
+    },
+    {
+      "mit": "Program to po prostu duży projekt.",
+      "prawda": "Program łączy kilka projektów i działań, które razem mają dać korzyści. Dlatego w fazie 6 jego działanie to „Realizacja korzyści”."
+    },
+    {
+      "mit": "Mapa drogowa powstaje w fazie 4, razem z planem.",
+      "prawda": "„Definiowanie mapy drogowej” to faza 3. W fazie 4 jest „Planowanie programu”, czyli szczegółowy plan z uzasadnieniami biznesowymi."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wrzuca do pierścienia zewnętrznego wszystko, co „organizacyjne”, także komunikację i opór ludzi.",
+    "jakTlumaczyc": "Porównaj do budowy domu: kierownik budowy (program) pilnuje kosztów i terminów, ktoś przekonuje rodzinę do przeprowadzki (zmiana), a ekipa poprawia usterki (doskonalenie).",
+    "pytanieKontrolne": "Kierownik wdrożenia sprawdza, czy obiecane w uzasadnieniu biznesowym korzyści naprawdę się pojawiły. Który to pierścień i która faza?",
+    "odpowiedzKontrolna": "Pierścień zewnętrzny – **Zarządzanie programem**, faza 6 („Czy dotarliśmy do celu?”), działanie **Realizacja korzyści**."
+  }
+}

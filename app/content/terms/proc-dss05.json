@@ -1,0 +1,113 @@
+{
+  "id": "proc-dss05",
+  "en": "DSS05 Manage Security Services",
+  "wymowa": "dieses 05 menydż sikjuriti serwisiz",
+  "wymowaAkcent": "di-es-ES 05 ME-nydż si-KJU-ri-ti SER-wi-siz",
+  "plEgzamin": "DSS05 Zarządzanie usługami bezpieczeństwa",
+  "plPodrecznik": "DSS05 Zarządzanie usługami bezpieczeństwa",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "DSS05 Zarządzanie usługami bezpieczeństwa",
+    "podrecznik": "DSS05 Zarządzanie usługami bezpieczeństwa",
+    "kurs": "DSS05 Zarządzanie usługami bezpieczeństwa (DSS05 Manage Security Services)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „DSS05 Zarządzanie usługami bezpieczeństwa”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Security Services*. Nie myl z APO13 „Zarządzanie bezpieczeństwem” (*Manage Security*). Słowo „usługi” (*services*) w DSS05 wskazuje na codzienną, operacyjną ochronę.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "dss",
+    "dostep-i-bezpieczenstwo"
+  ],
+  "poLudzku": "Codzienna ochrona: antywirus, hasła, uprawnienia, zamknięte drzwi i pilnowanie, czy ktoś się nie włamuje.",
+  "wyobrazSobie": "Zamykasz drzwi na klucz, nie dajesz obcym kodu do domofonu i patrzysz w wizjer, zanim otworzysz.",
+  "skadNazwa": "Z angielskiego *Manage Security Services*. Słowo *services* odróżnia go od APO13 *Manage Security*: DSS05 wykonuje ochronę na co dzień, APO13 ją organizuje.",
+  "poziom1": "Proces domeny [[dss]], który na co dzień chroni informacje organizacji tak, żeby ryzyko bezpieczeństwa było na akceptowalnym poziomie, zgodnie z polityką bezpieczeństwa. Obejmuje ochronę przed złośliwym oprogramowaniem, bezpieczeństwo sieci i urządzeń, tożsamość i dostęp, dostęp fizyczny i monitorowanie zdarzeń bezpieczeństwa.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** chroni przed złośliwym oprogramowaniem, zabezpiecza sieć i połączenia, urządzenia końcowe, zarządza tożsamością użytkowników i dostępem do systemów, kontroluje dostęp fizyczny do sprzętu, zabezpiecza dokumenty i nośniki, monitoruje infrastrukturę pod kątem zdarzeń bezpieczeństwa.\n\n**Wejścia (intuicja):** polityka i plan bezpieczeństwa (APO13), ocena ryzyka (APO12), lista ról i uprawnień ([[proc-dss06]]).\n\n**Wyjścia (intuicja):** nadane i odebrane uprawnienia, dzienniki zdarzeń bezpieczeństwa, raporty z incydentów bezpieczeństwa.\n\n**Współpracuje z:** APO13 (system zarządzania bezpieczeństwem), [[proc-dss02]] (incydenty bezpieczeństwa), [[proc-dss06]] (uprawnienia w procesach biznesowych), [[proc-mea02]] (ocena, czy kontrole działają).",
+  "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Il. 39 (s. 88) wymienia przy DSS umiejętność *„Administracja bezpieczeństwa”*. ISO/IEC 27000 obejmuje *„procesy związane z bezpieczeństwem i ryzykiem w domenach EDM, APO oraz DSS”* (s. 60). Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby na co dzień chronić informacje i trzymać ryzyko bezpieczeństwa na akceptowalnym poziomie, zgodnie z polityką bezpieczeństwa.",
+  "jakDziala": "Chronisz przed złośliwym oprogramowaniem, zabezpieczasz sieć i urządzenia końcowe. Zarządzasz tożsamością oraz dostępem logicznym i fizycznym. Monitorujesz infrastrukturę pod kątem zdarzeń bezpieczeństwa.",
+  "dlaczegoWazne": "DSS05 to codzienne usługi bezpieczeństwa. System zarządzania bezpieczeństwem informacji ustala APO13, a nie DSS05.",
+  "przyklady": {
+    "zycie": "Codziennie zamykasz drzwi na klucz, w telefonie masz blokadę ekranu, a w banku podwójne logowanie. Gdy dostajesz dziwnego SMS-a z linkiem, nie klikasz. Gdy zgubisz klucze, wymieniasz zamek. To codzienna ochrona.",
+    "biuro": "Gdy pracownik odchodzi, oddaje klucze i kartę wejścia. Szafa z teczkami osobowymi jest zamknięta, a klucz ma tylko kadrowa.",
+    "organizacja": "W biurze rachunkowym administrator aktualizuje antywirusa, odbiera dostęp byłym pracownikom i przegląda logi. W starostwie informatyk nadaje uprawnienia według wniosków i codziennie sprawdza alerty zapory.",
+    "psp": "**Cudze konto.** Ola Dudek odkrywa, że Kasia Nowik loguje się do Syreny na koncie Graba, bo jej konto nie działało. Dudek od razu zakłada Nowik własne konto, zmienia hasło Graba i włącza powiadomienie o logowaniu z dwóch stanowisk naraz. Drzwi do nowej serwerowni otwiera tylko karta. Codzienna ochrona dostępu, kont i sprzętu to [[proc-dss05]].",
+    "it": "Praktyki DSS05: ochrona przed złośliwym oprogramowaniem, sieć, urządzenia końcowe, tożsamość i dostęp, dostęp fizyczny, dokumenty wrażliwe i monitorowanie zdarzeń."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-apo13",
+      "roznica": "APO13 ustanawia, utrzymuje i doskonali system zarządzania bezpieczeństwem informacji (plan, zasady, organizacja). DSS05 realizuje ochronę na co dzień."
+    },
+    {
+      "termin": "proc-dss06",
+      "roznica": "DSS06 ustala, kto w procesie biznesowym może co zatwierdzać (rozdział obowiązków). DSS05 technicznie zarządza tożsamością, kontami i dostępem."
+    },
+    {
+      "termin": "dostep-i-bezpieczenstwo",
+      "roznica": "„Dostęp i bezpieczeństwo” to kategoria jakości informacji. DSS05 to proces, który na co dzień tę kategorię chroni."
+    }
+  ],
+  "przykladWypowiedzi": "DSS05 Manage Security Services, czyli Zarządzanie usługami bezpieczeństwa, to codzienna ochrona informacji, a APO13 ustala system zarządzania bezpieczeństwem.",
+  "egzamin": "APO13 = **organizuje** bezpieczeństwo (system zarządzania bezpieczeństwem). DSS05 = **wykonuje** ochronę (antywirus, konta, uprawnienia, monitorowanie). Ocena, czy kontrole działają → MEA02.",
+  "powiazane": [
+    "dss",
+    "iso-27001",
+    "dostep-i-bezpieczenstwo",
+    "proc-apo13",
+    "proc-dss06",
+    "proc-mea02"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "DSS05 Zarządzanie usługami bezpieczeństwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39",
+      "cytat": "Administracja bezpieczeństwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "procesy związane z bezpieczeństwem i ryzykiem w domenach EDM, APO oraz DSS"
+    }
+  ],
+  "mapa": "proc-dss05",
+  "glebokosc": {
+    "prosty": "Rodzina ustaliła zasadę: klucze tylko dla domowników, a hasło do wi-fi nie dla gości. To zasada. Codzienne zamykanie drzwi, zmiana hasła po wizycie hydraulika i sprawdzanie, kto stoi pod domofonem – to już wykonywanie ochrony.",
+    "zaawansowany": "Sikora spisuje zasady bezpieczeństwa Syreny: kto może mieć konto, jak często zmieniać hasła, kto odpowiada za ochronę. To APO13 ([[proc-apo13]]). Dudek na co dzień zakłada konta, aktualizuje antywirusa i przegląda alerty logowania – to [[proc-dss05]]. Ewa Lis raz na kwartał sprawdza, czy te zabezpieczenia działają ([[proc-mea02]]).",
+    "skrajny": "W jednym tygodniu dzieją się trzy rzeczy. Sikora aktualizuje plan bezpieczeństwa informacji komendy i przedstawia go komendantce. Dudek blokuje konto byłego dyżurnego i odkrywa próbę logowania z zewnątrz. Lis sprawdza na próbce, czy konta odchodzących osób są blokowane w ciągu doby. Wszystko dotyczy „bezpieczeństwa”, ale to trzy różne procesy. Plan i system zarządzania to APO13. Codzienna ochrona i reakcja to DSS05. Ocena, czy kontrole działają, to MEA02. **Rozstrzygnięcie:** APO13 organizuje bezpieczeństwo, DSS05 je wykonuje, MEA02 sprawdza, czy działa. Słowo „usługi” w nazwie DSS05 to wskazówka, że chodzi o operacyjną ochronę."
+  },
+  "zagmatwania": [
+    {
+      "mit": "APO13 i DSS05 to ten sam proces w dwóch domenach.",
+      "prawda": "APO13 ustanawia i utrzymuje system zarządzania bezpieczeństwem. DSS05 wykonuje codzienną ochronę."
+    },
+    {
+      "mit": "DSS05 to tylko technika: antywirus i zapora.",
+      "prawda": "Obejmuje też dostęp fizyczny do sprzętu, ochronę dokumentów i nośników oraz zarządzanie tożsamością."
+    },
+    {
+      "mit": "Jeśli DSS05 działa, nie trzeba go sprawdzać.",
+      "prawda": "Ocena skuteczności kontroli należy do MEA02 – ktoś musi sprawdzić, czy ochrona działa naprawdę."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera APO13 przy każdym pytaniu o bezpieczeństwo, także przy codziennym nadawaniu uprawnień.",
+    "jakTlumaczyc": "APO13 to regulamin ochrony osiedla i umowa z firmą ochroniarską. DSS05 to ochroniarz na bramie, który dziś wpuszcza i sprawdza.",
+    "pytanieKontrolne": "Informatyk co dzień przegląda alerty z zapory i blokuje podejrzane adresy. APO13 czy DSS05?",
+    "odpowiedzKontrolna": "**DSS05** – to codzienne, operacyjne usługi bezpieczeństwa. APO13 ustala ramy, w których informatyk to robi."
+  }
+}

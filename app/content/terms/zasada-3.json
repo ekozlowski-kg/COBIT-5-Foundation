@@ -1,0 +1,112 @@
+{
+  "id": "zasada-3",
+  "en": "Principle 3: Applying a Single Integrated Framework",
+  "wymowa": "prinsipl 3 aplajing e singl integrejtyd frejmłerk",
+  "wymowaAkcent": "PRIN-si-pl 3 a-PLAJ-ing e SIN-gl IN-te-grej-tyd FREJM-łerk",
+  "plEgzamin": "Zasada 3: Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej",
+  "plPodrecznik": "Zasada 3: Stosowanie jednej zintegrowanej metodyki",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Zasada 3: Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej",
+    "podrecznik": "Zasada 3: Stosowanie jednej zintegrowanej metodyki",
+    "kurs": "Zasada 3: Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej (Principle 3: Applying a Single Integrated Framework)",
+    "uwaga": "Egzamin PL: „Zasada 3: Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej”; podręcznik PL: „Zasada 3: Stosowanie jednej zintegrowanej metodyki” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 13, 14."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej”. Podręcznik: „Stosowanie jednej zintegrowanej metodyki”. Struktura ramowa = metodyka = framework.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "struktura-ramowa",
+    "cobit-5"
+  ],
+  "poLudzku": "Jedne spójne reguły, w które da się wpiąć inne normy, zamiast pięciu osobnych instrukcji.",
+  "wyobrazSobie": "Jeden segregator ze wspólnym spisem treści, do którego wpinasz instrukcje z różnych źródeł: każda ma swoje miejsce, a całość czyta się jak jedną.",
+  "poCo": "Żeby organizacja korzystała z jednej spójnej ramy, w którą da się wpiąć inne standardy i wytyczne, zamiast utrzymywać kilka osobnych.",
+  "jakDziala": "COBIT 5 jest pojedynczą zintegrowaną strukturą ramową (single integrated framework) z czterech powodów: jest spójny z innymi standardami (np. ITIL, ISO 27001, TOGAF), obejmuje całą organizację, ma prostą architekturę i łączy wiedzę rozproszoną wcześniej w metodykach ISACA (np. Val IT, Risk IT). Ta wiedza trafia do bazy wiedzy COBIT 5, z której powstaje rodzina produktów. COBIT 5 może działać z innymi standardami, ale nie musi.",
+  "dlaczegoWazne": "To trzecia z pięciu zasad COBIT 5. Egzamin pyta o jej kluczowe aspekty (np. prosta architektura) i łapie na zdaniu, że COBIT 5 musi być stosowany z innymi standardami.",
+  "skadNazwa": "Tłumaczenie *Applying a Single Integrated Framework*. Podręcznik: „jednej zintegrowanej metodyki”, egzamin: „Pojedynczej Zintegrowanej Struktury Ramowej”.",
+  "poziom1": "COBIT 5 to jedna rama-„parasol”, pod którą da się podpiąć inne standardy (np. ITIL, ISO 27001, TOGAF) i wcześniejsze wytyczne ISACA, zamiast pracować na kilku osobnych naraz.",
+  "poziom2": "Cztery powody, dla których COBIT 5 jest zintegrowaną strukturą ramową (s. 25): (1) jest **spójny z innymi normami i metodykami**, więc może być ramą nadrzędną; (2) **obejmuje całą organizację**; (3) zapewnia **prostą architekturę** porządkującą materiały i produkty; (4) **łączy wiedzę wcześniej rozproszoną** w metodykach ISACA: COBIT, Val IT, Risk IT, BMIS, Board Briefing, ITAF. COBIT 5 **nie musi** być stosowany z innymi standardami. Może z nimi współpracować.",
+  "poziom3": "Ilustracja 10 (s. 25): wytyczne ISACA (obecne i nowe) + inne standardy → **Baza wiedzy COBIT 5** → filtr zawartości (aktywatory COBIT 5) → **Rodzina produktów COBIT 5**: COBIT 5 (Framework), przewodniki o aktywatorach (np. *Procesy umożliwiające*, *Informacje umożliwiające*), przewodniki specjalistyczne (*Wdrożenie*, *Bezpieczeństwo informacji*, *Audyt*, *Ryzyko*), środowisko współpracy online. Tytuły przewodników: Ilustracja 11 „Rodzina produktów COBIT 5” (s. 26).",
+  "przyklady": {
+    "zycie": "Mama prowadzi kalendarz szkolny dzieci, tata grafik treningów, a babcia karteczki z wizytami u lekarza. Rodzina przenosi wszystko do jednego wspólnego kalendarza w telefonie, w którym każdy widzi całość. Jeden kalendarz, do którego trafiają wszystkie źródła – to idea Zasady 3.",
+    "biuro": "Biuro ma wymagania RODO, instrukcję kancelaryjną i regulamin pracy zdalnej. Kierowniczka spina je w jeden podręcznik biura z jednym spisem treści, zamiast trzech osobnych segregatorów, w których reguły się dublują.",
+    "firma": "Restauracja musi spełniać wymagania sanepidu, BHP i franczyzodawcy. Zamiast trzech osobnych segregatorów właściciel tworzy jeden system jakości, w którym każde wymaganie ma swoje miejsce. Jedna rama, do której wpinają się inne normy – to Zasada 3.",
+    "admin": "Informatyk starostwa ma na głowie KRI, RODO, ISO 27001 i praktyki ITIL. Zamiast pisać osobne procedury do każdego dokumentu, układa jedną politykę IT i przypisuje do niej wymagania z poszczególnych źródeł. To Zasada 3.",
+    "psp": "Komenda wojewódzka ma wytyczne KG PSP, wymagania ustawy o krajowym systemie cyberbezpieczeństwa i własne praktyki obsługi zgłoszeń. Wpina je w jedną ramę nadzoru nad IT, zamiast prowadzić każdą sprawę osobno. To Zasada 3.",
+    "it": "APO01 (Zarządzanie metodyką zarządzania IT) ustala jedną ramę zarządzania IT. Praktyki ITIL podpina się w niej np. pod DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami), a zabezpieczenia z ISO 27001 pod APO13 (Zarządzanie bezpieczeństwem)."
+  },
+  "glebokosc": {
+    "prosty": "W kuchni masz przepisy od babci, z internetu i z książki kucharskiej. Zamiast trzech luźnych zeszytów wklejasz je do jednego segregatora z jednym spisem treści. Nic nie wyrzucasz, a wreszcie wiesz, gdzie czego szukać.",
+    "zaawansowany": "Sikora ma w szafie ITIL do obsługi zgłoszeń, normę ISO 27001 do bezpieczeństwa i wytyczne KG PSP. Zamiast prowadzić trzy osobne porządki, używa COBIT 5 jako ramy nadrzędnej, pod którą podpina pozostałe ([[itil]], [[iso-27001]]). COBIT 5 nie każe tych standardów wyrzucać ani nie wymaga ich stosowania – jest z nimi spójny i daje prostą architekturę. Zebrał też dawne wytyczne ISACA, takie jak Val IT, Risk IT i BMIS, więc Sikora nie musi ich szukać osobno.",
+    "skrajny": "Ola Dudek pyta: „Skoro COBIT 5 integruje ITIL, to czy wolno nam używać COBIT bez ITIL?”. Wiele osób odpowiada, że nie, bo „zintegrowana” brzmi jak „stosowana razem”. Tymczasem COBIT 5 jest spójny z innymi normami i może być ramą nadrzędną, ale nie musi być stosowany z innymi standardami. Druga pułapka: jednym z czterech powodów zasady 3 jest to, że COBIT 5 „obejmuje swoim zakresem całe przedsiębiorstwo” (s. 25), co brzmi jak zasada 2. Tu jednak chodzi o podstawę do integracji innych metodyk, a nie o ład nad IT jako część ładu korporacyjnego. **Rozstrzygnięcie:** zasada 3 = jedna rama, która **może** objąć inne standardy (spójność z normami, całe przedsiębiorstwo jako podstawa integracji, prosta architektura, wiedza ISACA w jednym miejscu); „musi” to fałsz, a „całe przedsiębiorstwo” w kontekście integracji to nadal zasada 3."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Zintegrowana struktura ramowa oznacza, że COBIT trzeba stosować razem z ITIL i ISO.",
+      "prawda": "COBIT 5 może być ramą nadrzędną i jest spójny z innymi standardami, ale nie musi być z nimi stosowany."
+    },
+    {
+      "mit": "COBIT 5 zastępuje ITIL, TOGAF i ISO 27001.",
+      "prawda": "Nie zastępuje ich, tylko porządkuje je pod jedną ramą. Szczegółowe wytyczne nadal dają te standardy."
+    },
+    {
+      "mit": "Struktura ramowa, metodyka i framework to trzy różne rzeczy.",
+      "prawda": "To jedno pojęcie: podręcznik mówi „metodyka”, egzamin „struktura ramowa”, a angielski oryginał „framework”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uznawanie, że integracja oznacza obowiązek stosowania innych standardów, i mylenie zasady 3 z zasadą 2.",
+    "jakTlumaczyc": "Parasol: COBIT 5 to parasol, pod którym mogą stanąć ITIL, ISO i TOGAF, ale parasol stoi też sam. Cztery powody z s. 25 to cztery druty parasola: spójność z normami, całe przedsiębiorstwo jako podstawa integracji, prosta architektura, wiedza ISACA w jednym miejscu.",
+    "pytanieKontrolne": "Czy komenda, która poza COBIT 5 nie stosuje żadnego innego standardu, łamie zasadę 3? Uzasadnij.",
+    "odpowiedzKontrolna": "Nie. Zasada 3 mówi, że COBIT 5 **może** być nadrzędną, zintegrowaną ramą, bo jest spójny z innymi normami i metodykami (s. 25). Nie wymaga stosowania innych standardów."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "zasada-2",
+      "roznica": "Zasada 2 to zakres (cała organizacja). Zasada 3 to integracja wielu wytycznych w jedną ramę."
+    }
+  ],
+  "przykladWypowiedzi": "Principle 3, Applying a Single Integrated Framework, czyli Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej, oznacza, że COBIT 5 jako framework-parasol integruje inne standardy i wytyczne ISACA w jedną strukturę ramową.",
+  "egzamin": "Kluczowe aspekty: **prosta architektura**, spójność z innymi standardami, pokrycie całej organizacji, integracja wytycznych ISACA. Twierdzenie, że COBIT **musi** być stosowany z innymi standardami, jest fałszywe.",
+  "powiazane": [
+    "struktura-ramowa",
+    "integrator",
+    "itil",
+    "iso-27001"
+  ],
+  "sylabus": [
+    "PR-01-01",
+    "PR-02-10",
+    "PR-02-11"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 25,
+      "cytat": "Zapewnia prostą architekturę umożliwiającą ustrukturyzowanie materiałów pomocniczych i uzyskanie spójnego zbioru produktów."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 25,
+      "ilustracja": "10"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 26,
+      "ilustracja": "11"
+    },
+    {
+      "doc": "SP1",
+      "strona": 15
+    },
+    {
+      "doc": "SP1",
+      "strona": 17
+    }
+  ],
+  "mapa": "zasada-3"
+}

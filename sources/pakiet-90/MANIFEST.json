@@ -1,0 +1,132 @@
+{
+  "package": "COBIT5_Foundation_pakiet_do_nauki",
+  "version": "1.0",
+  "encoding": "UTF-8",
+  "files": [
+    {
+      "path": "RAPORT_KONTROLI.json",
+      "bytes": 567,
+      "sha256": "75b61b4bbce2e6424ab2eafd22a58eeaa21a771ce731630cfef0ae04852ee8a1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2256,
+      "sha256": "950131cbe65ac238b81fbe38a6c96b3065e34597c9e8eea01fd44d14d372b2ca"
+    },
+    {
+      "path": "nauka/LEKCJE_I_SCIAGA.md",
+      "bytes": 6781,
+      "sha256": "838ce2dde528b218b52f72ef3cbb3f60d6e05d6f78d53063889cf51c1366942e"
+    },
+    {
+      "path": "nauka/MAPA_37_PROCESOW.md",
+      "bytes": 9432,
+      "sha256": "8a883726fb10479f954ff2f3eb5a1a8e0f48bfa22bc57613fe012bc6d5b850e2"
+    },
+    {
+      "path": "nauka/NAJCZESTSZE_POMYLKI.md",
+      "bytes": 2900,
+      "sha256": "740a80342b0a000f59f64ab1e05d792ac9742455210f9832b6b68775b9fb6871"
+    },
+    {
+      "path": "nauka/ZAKRES_I_PLAN_NAUKI.md",
+      "bytes": 5128,
+      "sha256": "052132c368cbf20475e2f43ec8828850995378eda32064ae55e836a88301acfd"
+    },
+    {
+      "path": "nauka/fiszki.json",
+      "bytes": 22073,
+      "sha256": "12b90cb0299513a66be2750fcdb9f8c44978b9b17cfc8ee02dc744963e077b2b"
+    },
+    {
+      "path": "nauka/procesy_37.json",
+      "bytes": 15259,
+      "sha256": "f09f3f154cdfb72ab3287f24b953faa973defd1758891328bdce7de03a2f0093"
+    },
+    {
+      "path": "nauka/slownik_pojec.json",
+      "bytes": 13919,
+      "sha256": "8cda910b37a2d030ae41bdf4da2a0f64ccdcda81c993b5ae06c8ff5c59418731"
+    },
+    {
+      "path": "panel/INSTRUKCJA_DLA_NOWEGO_OKNA.md",
+      "bytes": 2512,
+      "sha256": "487ead87466c4c06ba23a9698df52ed3142ff6d727cfc68ff7a3ea1856f7df83"
+    },
+    {
+      "path": "panel/WYMAGANIA.md",
+      "bytes": 2948,
+      "sha256": "af31de9b3e9815bbbca24c7af8ce35a2f655b32eb5ad0530d16d7ad4cdc73bca"
+    },
+    {
+      "path": "panel/generator_testow.py",
+      "bytes": 5417,
+      "sha256": "5dbc29268a5e7ab3b5c09f2672683b78533d38741c523b1ac49044379d65f2ba"
+    },
+    {
+      "path": "panel/przykladowy_format_proby.json",
+      "bytes": 588,
+      "sha256": "7f42de859274458e332fa2c40672538c1c24ce8e56f489930e9ae6325e40c80a"
+    },
+    {
+      "path": "panel/question.schema.json",
+      "bytes": 1474,
+      "sha256": "6bfbebca1b83eb607c668b35926a229a598a85d6b7c10d613e74a74c6dc63a84"
+    },
+    {
+      "path": "postepy/CO_WIEMY_O_WYNIKACH.md",
+      "bytes": 954,
+      "sha256": "d5f5296be3a026d8e61a716f2de1acef19f05af26a0ef65eb6c30d918872a2b5"
+    },
+    {
+      "path": "postepy/historia_import.json",
+      "bytes": 3658,
+      "sha256": "b718d2d80634aa3e08d35ed4197b667723f6db25b493b49e922880635b2f7eeb"
+    },
+    {
+      "path": "postepy/profil_startowy.json",
+      "bytes": 2499,
+      "sha256": "8e94be3d3570bfeef9b17a1139e112cac42a545c3a6770f6a02f969c670a6cc5"
+    },
+    {
+      "path": "pytania/KLUCZE_I_WYJASNIENIA.md",
+      "bytes": 127276,
+      "sha256": "ccadaf615a3d3b11871eb9e6f973d8a37226dfd9ec385864342add2d8e3b0ff3"
+    },
+    {
+      "path": "pytania/TESTY_BEZ_ODPOWIEDZI.md",
+      "bytes": 37386,
+      "sha256": "30c91f28e9339784620e3558f539d52945e8c7bc01ad102063c98029cdbd281d"
+    },
+    {
+      "path": "pytania/bank_pytan_90.json",
+      "bytes": 211276,
+      "sha256": "3128cdbe5f3093be7d0843d920ce66b30ca2bff6cde2d3813dfa2effcf7ecad7"
+    },
+    {
+      "path": "pytania/klucze.json",
+      "bytes": 1884,
+      "sha256": "a546eff292224eca8300fa951d76206b37a88e293cd91a3178a189e4236fe59d"
+    },
+    {
+      "path": "pytania/pokrycie_banku.json",
+      "bytes": 9312,
+      "sha256": "c71d083f3a9fd7150c0a1a404a61e9bf3e00c053192f5884335857d235244be2"
+    },
+    {
+      "path": "pytania/testy_1_9.json",
+      "bytes": 3189,
+      "sha256": "3aefac6f0f6ed831b8ff3fb9dbcc84fd5241581ab741bda25b2765c704bb6680"
+    },
+    {
+      "path": "zrodla/KOREKTY_I_OGRANICZENIA.md",
+      "bytes": 2381,
+      "sha256": "6ed2b31834b28c33be3841401cff3942f707507ab0fdf880f491c11d99f8a856"
+    },
+    {
+      "path": "zrodla/ZRODLA_I_UWAGI.md",
+      "bytes": 2298,
+      "sha256": "98e1b9b292ab3451b54fbb6f4371bcf4cd3bf3abe579864e39595c2247006978"
+    }
+  ]
+}

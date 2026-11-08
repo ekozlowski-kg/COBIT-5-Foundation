@@ -1,0 +1,99 @@
+{
+  "id": "zarzadzanie",
+  "en": "Management",
+  "wymowa": "menydżment",
+  "wymowaAkcent": "ME-nydż-ment",
+  "plEgzamin": "Zarządzanie",
+  "plPodrecznik": "Zarządzanie",
+  "plInne": [],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Zarządzanie",
+    "podrecznik": "Zarządzanie",
+    "kurs": "Zarządzanie (Management)",
+    "uwaga": "Management = „Zarządzanie” (zasada 5, PBRM), ale jako rola na Rysunku 9 – „Kierownictwo”. Znaczenie zależy od kontekstu. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 1, 2, 7."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "organizacja"
+  ],
+  "poLudzku": "Kierownicy planują i wykonują pracę w kierunku, który wyznaczyło szefostwo.",
+  "wyobrazSobie": "Kapitan z załogą: dostaje od armatora cel rejsu, planuje trasę, steruje, pilnuje przyrządów i melduje, jak idzie.",
+  "poCo": "Żeby kierunek wyznaczony przez Ład zamienić w zaplanowaną, wykonaną i sprawdzoną pracę, która prowadzi do celów organizacji.",
+  "jakDziala": "Kierownictwo pod przewodnictwem CEO planuje, tworzy, wykonuje i monitoruje działania (Plan, Build, Run, Monitor) zgodnie z kierunkiem wskazanym przez Ład. W COBIT 5 to cztery domeny: APO, BAI, DSS i MEA, razem 32 procesy. Wyniki i informacje zwrotne wracają do Ładu, który je ocenia i w razie potrzeby koryguje kierunek.",
+  "dlaczegoWazne": "Na tym rozróżnieniu opiera się zasada 5 (Oddzielenie Ładu od Zarządzania). Egzamin pyta o czasowniki Planuj, Twórz, Wykonuj, Monitoruj, o liczbę procesów (32) i o to, kto odpowiada: kierownictwo z CEO, a nie zarząd z prezesem.",
+  "poziom1": "Codzienne prowadzenie spraw tak, żeby dojść tam, dokąd wskazał Ład: planuje się, tworzy, wykonuje i monitoruje działania (np. kierownik układa grafik, zamawia sprzęt i raportuje szefowi). Odpowiada za nie kierownictwo pod przewodnictwem CEO.",
+  "poziom2": "Zarządzanie = **Planuj, Twórz, Wykonuj, Monitoruj** (PBRM). Działa *w sposób spójny z kierunkiem wskazanym przez organ Ładu*. Odpowiada za nie **kierownictwo pod przewodnictwem dyrektora generalnego (CEO)**. Ład mówi „dokąd”, Zarządzanie mówi „jak tam dojść” i prowadzi.",
+  "poziom3": "Definicja (Załącznik H): *„Zarządzanie polega na planowaniu, budowaniu, realizacji i monitorowaniu działań w sposób spójny z kierunkiem wskazanym przez organ nadzorujący, aby osiągnąć cele przedsiębiorstwa.”* (s. 14): *„W większości przedsiębiorstw za zarządzanie odpowiada kadra zarządzająca pod przywództwem dyrektora generalnego (CEO).”*",
+  "warianty": {
+    "prosto": "Rodzina zdecydowała: w wakacje remontujemy kuchnię. Ty umawiasz ekipę, zamawiasz płytki, pilnujesz terminów i co wieczór sprawdzasz, co zrobiono. Decyzja „remontujemy” to kierunek, a cała ta codzienna robota, żeby remont się udał, to zarządzanie.",
+    "dokladniej": "Zarządzanie planuje, buduje, uruchamia i monitoruje działania zgodnie z kierunkiem wyznaczonym przez Ład.",
+    "ekspercko": "Management: domeny APO, BAI, DSS, MEA (32 procesy); odpowiedzialność kierownictwa wykonawczego (CEO); raportuje do organu Ładu, który ocenia i koryguje kierunek."
+  },
+  "przyklady": {
+    "zycie": "Rodzina ustaliła: „oszczędzamy na wakacje” (to Ład). Ty robisz plan zakupów, porównujesz ceny, co miesiąc przelewasz 1000 zł na lokatę i sprawdzasz, czy kwota rośnie. Ta codzienna robota to Zarządzanie.",
+    "biuro": "Prezes zdecydował: od marca dokumenty krążą po firmie elektronicznie. Kierowniczka biura planuje harmonogram, zamawia skaner, szkoli ludzi, pilnuje, żeby papier nie wracał, i co tydzień raportuje prezesowi.",
+    "firma": "Właściciel restauracji ustalił, że w weekendy ma być nowe menu. Kierownik zmiany układa grafik, zamawia towar, pilnuje jakości dań i w poniedziałek raportuje właścicielowi, jak poszło. Praca kierownika to Zarządzanie.",
+    "admin": "Wójt zdecydował, że mieszkańcy mają załatwiać sprawy przez internet. Sekretarz gminy i kierownik informatyki planują projekt, wybierają dostawcę, wdrażają e-usługi i co miesiąc raportują wójtowi. Ich praca to Zarządzanie.",
+    "psp": "Komendant powiatowy zdecydował o wdrożeniu nowej wersji SWD-PSP. Kierownik SK układa harmonogram, organizuje szkolenia dyżurnych na każdej zmianie, pilnuje działania systemu i raportuje komendantowi. To jest Zarządzanie: Planuj, Twórz, Wykonuj, Monitoruj.",
+    "it": "W dziale IT szpitala APO09 (Zarządzanie umowami o świadczenie usług) planuje poziomy usług, BAI03 (Zarządzanie identyfikacją i budowaniem rozwiązań) buduje nowy moduł rejestracji, DSS01 (Zarządzanie eksploatacją) utrzymuje go w ruchu, a MEA01 (Monitorowanie, ocena i oszacowanie wydajności i zgodności) mierzy wyniki i raportuje je do Ładu."
+  },
+  "glebokosc": {
+    "prosty": "Rodzina postanowiła: w wakacje jedziemy nad morze. Teraz ktoś musi zarezerwować nocleg, spakować auto, zaplanować trasę i w drodze pilnować, czy zdążacie. Cała ta robota, żeby dojechać tam, gdzie postanowiono, to zarządzanie.",
+    "zaawansowany": "Komendantka Wrzos postanowiła: alarm ma docierać do OSP w 40 sekund. Kpt. Sikora planuje modernizację (APO), z Olą Dudek wdraża zmiany w Syrenie (BAI), pilnuje codziennej pracy systemu i zgłoszeń (DSS) i co miesiąc sprawdza wyniki (MEA), a potem raportuje komendantce. To [[pbrm|Planuj, Twórz, Wykonuj, Monitoruj]], czyli 32 procesy Zarządzania. Sikora nie zmienia kierunku sam: gdy cel okazuje się nierealny, wraca z informacją do [[lad|Ładu]], który ocenia sytuację i koryguje kierunek.",
+    "skrajny": "Sikora co miesiąc sprawdza, czy Syrena osiąga cele, i myśli: „Monitoruję, więc to Ład”. Pułapka polega na tym, że monitorowanie występuje po obu stronach. W Zarządzaniu (domena MEA) monitoruje się realizację działań i osiąganie celów, a w Ładzie (EDM) monitorowanie oznacza sprawdzanie przez organ Ładu, w jakim stopniu wytyczony kierunek wcielono w życie (s. 32, przypis 5). O przynależności nie decyduje czasownik, tylko kto i po co to robi: Sikora jako kierownictwo monitoruje realizację, Wrzos jako organ Ładu – czy kierunek jest realizowany. Do tego podręcznik nazywa tę stronę raz „Zarządzanie”, raz „Kierownictwo” (s. 31), a to ta sama rzecz. **Rozstrzygnięcie:** „Monitoruj” w PBRM (MEA) to Zarządzanie i monitorowanie celów; „Monitoruj” w EDM to Ład, który sprawdza realizację swojego kierunku."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Każde monitorowanie należy do Ładu.",
+      "prawda": "Zarządzanie też monitoruje (MEA, czwarty czasownik PBRM). Ład monitoruje, czy jego kierunek wcielono w życie."
+    },
+    {
+      "mit": "Zarządzanie to dział IT.",
+      "prawda": "Zarządzanie to kierownictwo pod przewodnictwem CEO, także biznesowe. Dział IT jest tylko częścią obrazu (zasada 2)."
+    },
+    {
+      "mit": "Zarządzanie samo ustala kierunek i priorytety.",
+      "prawda": "Działa w sposób spójny z kierunkiem wskazanym przez organ Ładu (definicja, s. 14). Priorytety ustala Ład."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Przypisywanie każdego „monitorowania” Ładowi oraz mylenie CEO (Zarządzanie) z prezesem zarządu (Ład).",
+    "jakTlumaczyc": "Analogia: armator i kapitan statku. Armator mówi, dokąd płyniemy, i sprawdza, czy statek płynie w tę stronę; kapitan planuje kurs, prowadzi załogę i co godzinę patrzy na przyrządy. Obaj „monitorują”, ale co innego.",
+    "pytanieKontrolne": "Kpt. Sikora co miesiąc sprawdza, czy Syrena osiąga cele, i raportuje to komendantce. Ład czy Zarządzanie – i która domena?",
+    "odpowiedzKontrolna": "**Zarządzanie**, domena **MEA** (Monitoruj w PBRM). Ład (EDM) dostaje ten raport i sprawdza, w jakim stopniu jego kierunek wcielono w życie (s. 32, przypis 5)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "lad",
+      "roznica": "Ład ocenia, kieruje i monitoruje; Zarządzanie planuje, wytwarza, wykonuje i monitoruje. Oba „monitorują”, ale Ład monitoruje kierunek i cele, a Zarządzanie – realizację działań."
+    }
+  ],
+  "przykladWypowiedzi": "Management, czyli Zarządzanie, planuje, tworzy, wykonuje i monitoruje działania (Plan, Build, Run, Monitor) zgodnie z kierunkiem, który wyznacza Governance, czyli Ład.",
+  "egzamin": "Zarządzanie działa zgodnie z kierunkiem wyznaczonym przez organ Ładu, aby osiągnąć **cele organizacji** (definicja, s. 31).",
+  "powiazane": [
+    "lad",
+    "zasada-5"
+  ],
+  "sylabus": [
+    "M0-00-06",
+    "PR-02-14",
+    "PR-02-15"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 92,
+      "cytat": "Zarządzanie polega na planowaniu, budowaniu, realizacji i monitorowaniu działań w sposób spójny z kierunkiem wskazanym przez organ nadzorujący"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 14,
+      "cytat": "za zarządzanie odpowiada kadra zarządzająca pod przywództwem dyrektora generalnego (CEO)."
+    }
+  ],
+  "mapa": "zarzadzanie"
+}

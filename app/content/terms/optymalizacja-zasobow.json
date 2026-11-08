@@ -1,0 +1,95 @@
+{
+  "id": "optymalizacja-zasobow",
+  "en": "Resource Optimisation",
+  "wymowa": "rizors optimajzejszyn",
+  "wymowaAkcent": "ri-ZORS op-ti-maj-ZEJ-szyn",
+  "plEgzamin": "Optymalizacja zasobów",
+  "plPodrecznik": "Optymalizacja zasobów",
+  "plInne": [],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Optymalizacja zasobów",
+    "podrecznik": "Optymalizacja zasobów",
+    "kurs": "Optymalizacja zasobów (Resource Optimisation)",
+    "uwaga": "Resource – patrz „zasób” (kolizja z Assets). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 17, 18, 23."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "zasob",
+    "lad"
+  ],
+  "poLudzku": "Mądre korzystanie z ludzi, pieniędzy i sprzętu: ani za mało, ani na wyrost.",
+  "wyobrazSobie": "Domowa spiżarnia: nie chodzi o to, żeby kupować jak najmniej, tylko żeby było to, czego rodzina naprawdę potrzebuje, nic się nie psuło i niczego nie brakowało, gdy przyjdą goście.",
+  "poCo": "Żeby ludzie, pieniądze, sprzęt i infrastruktura były wykorzystane skutecznie, wydajnie i odpowiedzialnie: wystarczyło ich na to, co ważne, i nic się nie marnowało.",
+  "jakDziala": "Ład w EDM04 (Zapewnienie optymalizacji zasobów) ocenia, jakich zasobów (resources) organizacja potrzebuje teraz i w przyszłości, kieruje ich przydziałem i monitoruje, czy są dobrze wykorzystane. Zasoby mają być użyte skutecznie (effective), wydajnie (efficient) i odpowiedzialnie (responsible). Czasem optymalizacja oznacza wydanie więcej, np. na szkolenie, bez którego drogi system stoi nieużywany.",
+  "dlaczegoWazne": "To jeden z trzech składników celu Ładu (tworzenie wartości), obok realizacji korzyści i optymalizacji ryzyka. Na egzaminie pułapką jest utożsamianie jej z cięciem kosztów.",
+  "poziom1": "Mądrze korzystać z ludzi, pieniędzy, sprzętu i infrastruktury: osiągać cel, nie marnować i działać odpowiedzialnie (np. jedna serwerownia na trzy gminy zamiast osobnej w każdej). To nie samo cięcie kosztów – czasem trzeba wydać więcej, np. na szkolenie, a to jeden z trzech celów Ładu.",
+  "poziom2": "Optymalizacja zasobów to nie „cięcie kosztów za wszelką cenę”. Zasoby mają być wykorzystane **skutecznie** (osiągają cel), **wydajnie** (bez marnotrawstwa) i **odpowiedzialnie**. Czasem optymalizacja oznacza wydanie **więcej**, np. na szkolenie, bez którego drogi system leży odłogiem.",
+  "poziom3": "Definicja (Załącznik H): *„Jeden z celów nadzoru. Obejmuje skuteczne, wydajne i odpowiedzialne wykorzystanie wszystkich zasobów — ludzkich, finansowych, sprzętu, infrastruktury itd.”*",
+  "przyklady": {
+    "zycie": "Rodzina ma dwa samochody, ale drugi stoi pod blokiem sześć dni w tygodniu i tylko kosztuje. Sprzedaje go, mąż dostaje bilet miesięczny, a część pieniędzy idzie na drugi fotelik do pierwszego auta, żeby dzieci mógł wozić każdy z rodziców. Mniej marnowania, a codzienne sprawy dalej załatwione – to optymalizacja zasobów.",
+    "biuro": "W biurze stoją cztery stare drukarki, każda na inny toner, a dwie ciągle się psują. Kierowniczka zastępuje je jedną drukarką sieciową z umową serwisową: wydaje więcej od razu, ale mniej traci na przestojach i tonerach.",
+    "firma": "W pizzerii od 11 do 22 stało pięciu kucharzy, choć tłok jest tylko w porze obiadu i wieczorem. Właściciel układa grafik pod godziny ruchu, a zaoszczędzone pieniądze wydaje na szkolenie dwóch osób z obsługi nowego pieca, który dotąd pracował na pół gwizdka. Optymalizacja zasobów to nie samo cięcie kosztów, tylko lepsze wykorzystanie ludzi i sprzętu.",
+    "admin": "Trzy sąsiednie gminy miały każda własną serwerownię i jednego informatyka, którego nikt nie mógł zastąpić na urlopie. Teraz utrzymują jedną wspólną serwerownię i zespół trzech informatyków, którzy nawzajem się zastępują. Mniej dublowania, a obsługa pewniejsza – to optymalizacja zasobów.",
+    "psp": "Komenda ma w magazynie kamery termowizyjne, ale dowódcy zastępów rzadko biorą je do akcji, bo mało kto przeszedł szkolenie. Zamiast kupować kolejne, komenda wydaje pieniądze na szkolenie wszystkich zmian i rozdziela kamery tak, żeby każdy samochód ratowniczo-gaśniczy miał jedną pod ręką. Lepsze wykorzystanie ludzi i sprzętu, nawet kosztem dodatkowego wydatku – to optymalizacja zasobów.",
+    "it": "W EDM04 (Zapewnienie optymalizacji zasobów) zarząd decyduje, że wydziały zamiast trzech serwerowni korzystają z jednej, a zaoszczędzone pieniądze idą na drugiego administratora, bo jeden był wąskim gardłem. Zatrudnienie i rozwój tej osoby prowadzi kierownictwo IT w APO07 (Zarządzanie zasobami ludzkimi)."
+  },
+  "glebokosc": {
+    "prosty": "Dwie rodziny kupują na spółkę jedną dobrą kosiarkę zamiast dwóch tanich, które psują się co sezon. Czasem trzeba wydać więcej, żeby nie wydawać ciągle. Mądre korzystanie z pieniędzy, czasu i rzeczy to nie to samo co wybieranie zawsze najtaniej.",
+    "zaawansowany": "Księgowa Mak proponuje najtańszą ofertę na nowy moduł Syreny, bo budżet jest napięty. Kpt. Sikora pokazuje, że bez szkolenia dyżurnych i drugiej bramki SMS nowy moduł będzie leżał odłogiem jak poprzedni. Komendantka Wrzos zatwierdza droższy wariant: zasoby mają być wykorzystane skutecznie, wydajnie i odpowiedzialnie, a nie tylko tanio. To trzeci składnik [[tworzenie-wartosci|tworzenia wartości]], obok [[realizacja-korzysci|realizacji korzyści]] i [[optymalizacja-ryzyka|optymalizacji ryzyka]].",
+    "skrajny": "W wydziale informatyki dwie osoby mają spokojne zmiany, a trzecia jest przeciążona. Księgowa Mak proponuje zwolnić jedną ze „spokojnych” – koszty spadną, więc zasoby będą „zoptymalizowane”. Tylko że w noc awarii właśnie te osoby są potrzebne, więc cięcie może uderzyć w skuteczność i podnieść ryzyko. Optymalizacja zasobów to skuteczne, wydajne i odpowiedzialne wykorzystanie wszystkich zasobów – ludzkich, finansowych, sprzętu, infrastruktury – i czasem oznacza przesunięcie pracy, a czasem wydanie więcej. Trzeba też odróżnić zasób, czyli rzecz (ludzie, pieniądze, sprzęt), od optymalizacji zasobów, czyli celu Ładu dotyczącego sposobu ich użycia. **Rozstrzygnięcie:** optymalizacja zasobów ≠ cięcie kosztów; liczy się skuteczne, wydajne i odpowiedzialne użycie zasobów w równowadze z korzyściami i ryzykiem (interpretacja kursu w ocenie przykładu ze zwolnieniem)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Optymalizacja zasobów to cięcie kosztów.",
+      "prawda": "Liczy się skuteczne, wydajne i odpowiedzialne wykorzystanie zasobów; czasem trzeba wydać więcej, np. na szkolenie."
+    },
+    {
+      "mit": "Zasoby to tylko pieniądze.",
+      "prawda": "Definicja obejmuje zasoby ludzkie, finansowe, sprzęt, infrastrukturę itd."
+    },
+    {
+      "mit": "Optymalizacja zasobów to zadanie księgowości, a nie Ładu.",
+      "prawda": "To jeden z trzech składników celu Ładu; w EDM odpowiada mu proces EDM04 Zapewnienie optymalizacji zasobów."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie optymalizacji zasobów z oszczędzaniem.",
+    "jakTlumaczyc": "Kosiarka na spółkę: nie najtańsza, tylko taka, która najlepiej służy celowi przy rozsądnym koszcie. Trzy słowa do zapamiętania: skutecznie (osiągam cel), wydajnie (nie marnuję), odpowiedzialnie.",
+    "pytanieKontrolne": "Kiedy wydanie większej kwoty jest optymalizacją zasobów? Podaj przykład z komendy.",
+    "odpowiedzKontrolna": "Gdy dzięki temu zasoby są wykorzystane skutecznie i wydajnie – np. dopłata do szkolenia dyżurnych sprawia, że drogi system jest naprawdę używany, zamiast leżeć odłogiem. Najtańsza opcja, która nie osiąga celu, marnuje zasoby."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Cięcie kosztów",
+      "roznica": "Najtańsza opcja nie zawsze jest optymalna – liczy się skuteczność i wydajność, nie sama cena."
+    },
+    {
+      "termin": "zasob",
+      "roznica": "Zasób to rzecz (ludzie, pieniądze, sprzęt); optymalizacja zasobów to cel Ładu dotyczący ich wykorzystania."
+    }
+  ],
+  "przykladWypowiedzi": "Resource optimisation, czyli optymalizacja zasobów, to skuteczne, wydajne i odpowiedzialne wykorzystanie wszystkich zasobów, a nie samo cięcie kosztów; Ład zapewnia ją w EDM04.",
+  "egzamin": "Jeden z trzech składników celu Ładu. SP1: „Skuteczne użycie wszystkich Zasobów (Optymalizacja Zasobów) jest Celem Ładu”.",
+  "powiazane": [
+    "zasob",
+    "tworzenie-wartosci",
+    "realizacja-korzysci",
+    "optymalizacja-ryzyka"
+  ],
+  "sylabus": [
+    "M0-00-04",
+    "PR-02-01"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Obejmuje skuteczne, wydajne i odpowiedzialne wykorzystanie wszystkich zasobów"
+    }
+  ],
+  "mapa": "optymalizacja-zasobow"
+}

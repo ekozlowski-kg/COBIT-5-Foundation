@@ -1,0 +1,103 @@
+{
+  "id": "wymiary-aktywatora",
+  "en": "Enabler dimensions",
+  "wymowa": "inejbler dajmenszyns",
+  "wymowaAkcent": "i-NEJ-bler daj-MEN-szyns",
+  "plEgzamin": "Wymiary aktywatora",
+  "plPodrecznik": "Wymiary czynnika umożliwiającego",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Wymiary aktywatora",
+    "podrecznik": "Wymiary czynnika umożliwiającego",
+    "kurs": "Wymiary aktywatora (Enabler dimensions)",
+    "uwaga": "Egzamin PL: „Wymiary aktywatora”; podręcznik PL: „Wymiary czynnika umożliwiającego” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 8, 28."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Wymiar aktywatora”. Podręcznik: „Wymiar czynnika umożliwiającego”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "aktywator",
+    "interesariusz"
+  ],
+  "poLudzku": "Cztery pytania o każdą część układanki: kogo dotyczy, po co jest, jak żyje, jak ją dobrze robić.",
+  "wyobrazSobie": "Formularz z czterema rubrykami, który wypełniasz dla każdej rzeczy w domu: kto z niej korzysta, po co jest, jak długo żyje i jak o nią dobrze dbać.",
+  "poCo": "Żeby każdy z 7 aktywatorów opisywać i ulepszać tymi samymi czterema pytaniami, w sposób typowy, prosty i uporządkowany.",
+  "jakDziala": "Każdy aktywator ma cztery wspólne wymiary (enabler dimensions): interesariusze (stakeholders), cele (goals), cykl życia (life cycle) i dobre praktyki (good practice). Cele dzielą się na jakość wewnętrzną, jakość kontekstową oraz dostęp i bezpieczeństwo. Do wymiarów dochodzi zarządzanie wydajnością aktywatora: wskaźniki opóźnione mierzą interesariuszy i cele, a wskaźniki wiodące cykl życia i dobre praktyki.",
+  "dlaczegoWazne": "To rdzeń modelu aktywatora z zasady 4 (Aktywacja holistycznego podejścia). Egzamin pyta o cztery wymiary po nazwie i miesza je z pojęciami spoza modelu, np. z wyznacznikami potrzeb.",
+  "skadNazwa": "*Enabler dimensions*. Podręcznik: „wymiary czynnika umożliwiającego”, bo tak tłumaczy *enabler*.",
+  "poziom1": "Cztery pytania, które zadaje się o każdy aktywator: kto z niego korzysta albo odczuwa jego skutki (interesariusze), co ma dawać (cele), jak powstaje, działa, zmienia się i kończy (cykl życia) oraz jak robić to dobrze (dobre praktyki).",
+  "poziom2": "| Wymiar | Co zawiera |\n|---|---|\n| **Interesariusze** | wewnętrzni i zewnętrzni, czyli kto ma rolę lub interes w aktywatorze |\n| **Cele** | jakość wewnętrzna, jakość kontekstowa, dostęp i bezpieczeństwo |\n| **Cykl życia** | planowanie, projektowanie, budowanie/nabywanie/tworzenie/wdrażanie, użytkowanie/eksploatacja, ocena/monitorowanie, aktualizacja/pozbywanie się |\n| **Dobre praktyki** | praktyki oraz produkty działań (dane wejściowe i wyniki) |\n\nWspólne wymiary pozwalają używać aktywatorów w sposób typowy, prosty i ustrukturyzowany.",
+  "poziom3": "(s. 28): *„Wszystkie czynniki umożliwiające mają zbiór wspólnych wymiarów.”* Ilustracja 13 – model typowego czynnika umożliwiającego.",
+  "przyklady": {
+    "zycie": "Rodzina prowadzi domowy budżet w arkuszu. Korzystają z niego rodzice, a nastolatek sprawdza swoje kieszonkowe; budżet ma pokazać, czy starczy na wakacje; w styczniu zakładacie nowy, co miesiąc go uzupełniacie, a stary archiwizujecie; podpatrzyliście metodę kopertową. Kto, po co, jak żyje i jak robić dobrze – to cztery wymiary aktywatora.",
+    "biuro": "Grafik urlopów w biurze: korzystają z niego pracownicy i kierownik (interesariusze), ma zapewnić obsadę każdego dnia (cele), co roku zakłada się nowy, uzupełnia go i archiwizuje stary (cykl życia), a wzór wzięto z poradnika kadrowego (dobre praktyki).",
+    "firma": "Sklep internetowy z butami ma procedurę reklamacji. Dotyczy klienta i pracownika magazynu, ma dać odpowiedź w 14 dni, ktoś ją napisał, wdrożył i raz w roku przegląda, a oparto ją na wzorze z branżowego poradnika. Te same cztery wymiary – interesariusze, cele, cykl życia, dobre praktyki – opisują każdy aktywator.",
+    "admin": "Szkoła wprowadza zgłaszanie nieobecności przez dziennik elektroniczny. Dotyczy rodziców, wychowawców i sekretariatu; usprawiedliwienie ma trafić w 7 dni; procedurę opracowano, przeszkolono nauczycieli i poprawia się ją po zmianie statutu; wzorowano się na sprawdzonym rozwiązaniu z sąsiedniej szkoły. To cztery wymiary aktywatora.",
+    "psp": "Dyżurny SK dysponuje zastępy według procedury. Korzystają z niej dyżurni i dowódcy JRG, a skutki odczuwają mieszkańcy (interesariusze); właściwe zastępy mają wyjechać szybko (cele); procedurę opracowano, przeszkolono zmiany i przegląda się ją po trudnych zdarzeniach (cykl życia); opiera się na wytycznych KG PSP (dobre praktyki).",
+    "it": "Proces DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) opisany wymiarami: interesariusze to użytkownicy i dział wsparcia, cel to przywracanie usług w uzgodnionym czasie, cykl życia to zaprojektowanie, wdrożenie i przeglądy procesu, a dobre praktyki to praktyki procesu z wejściami i wyjściami."
+  },
+  "glebokosc": {
+    "prosty": "Gdy kupujesz pralkę, zadajesz cztery pytania: kto będzie z niej korzystał, co ma umieć, ile posłuży i kiedy ją wymienisz, oraz jak ją dobrze obsługiwać. Te same cztery pytania pasują do roweru, kuchni czy domowego budżetu. To są cztery wymiary – wspólne dla wszystkiego, co pomaga osiągnąć cel.",
+    "zaawansowany": "W dniu 3 komenda opisuje nową politykę powiadamiania czterema wymiarami. Interesariusze: dyżurni Grab i Nowik, dowódca Dąb, dh Pietrzak z OSP, a pośrednio mieszkańcy, jak Zofia Kaczmarek. Cele: polityka ma być poprawna (jakość wewnętrzna), pasować do pracy SK (jakość kontekstowa) i być dostępna dla każdej zmiany (dostęp i bezpieczeństwo). Cykl życia to projekt, wdrożenie, przegląd po trudnym zdarzeniu i wycofanie starej instrukcji, a dobre praktyki to m.in. struktura polityk. Tymi samymi wymiarami Sikora opisze potem Syrenę ([[uslugi-infrastruktura-aplikacje]]) i [[ludzie-umiejetnosci-kompetencje|szkolenia dyżurnych]].",
+    "skrajny": "Sikora rysuje na tablicy „pięć wymiarów aktywatora”: interesariusze, cele, cykl życia, dobre praktyki i zarządzanie wydajnością. Na ilustracji 13 zarządzanie wydajnością leży tuż pod wymiarami, więc pomyłka jest łatwa. To jednak nie piąty wymiar, tylko pomiar oparty na wymiarach: każde z czterech pytań odpowiada jednemu wymiarowi (potrzeby → interesariusze, cele → cele, cykl życia → cykl życia, praktyki → dobre praktyki). Podobnie „dostęp i bezpieczeństwo” to kategoria celów, a „ocena/monitorowanie” to faza cyklu życia, a nie osobne wymiary. **Rozstrzygnięcie:** wymiary są dokładnie cztery; reszta ilustracji 13 to ich zawartość (kategorie celów, fazy cyklu) albo pomiar (zarządzanie wydajnością)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Każdy aktywator ma własne, inne wymiary.",
+      "prawda": "Wszystkie aktywatory mają zbiór wspólnych wymiarów (s. 28). Różni się tylko zawartość, np. dobre praktyki dla usług to pryncypia architektury."
+    },
+    {
+      "mit": "Zarządzanie wydajnością to piąty wymiar.",
+      "prawda": "To pomiar oparty na czterech wymiarach. Wymiary to interesariusze, cele, cykl życia i dobre praktyki."
+    },
+    {
+      "mit": "Wymiary aktywatora to to samo co wymiar procesu i wymiar zdolności.",
+      "prawda": "Wymiar procesu i wymiar zdolności należą do oceny zdolności procesów (ISO 15504), a nie do modelu aktywatora."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Doliczanie piątego wymiaru (zarządzanie wydajnością albo bezpieczeństwo) i mylenie wymiarów aktywatora z wymiarami oceny procesu.",
+    "jakTlumaczyc": "Cztery pytania dziennikarza: kto? po co? jak żyje? jak to dobrze robić? Najpierw zadaj je o przedmiot z domu, potem o politykę komendy, a na końcu pokaż ilustrację 13 i powiedz, co jest wymiarem, a co tylko zawartością albo pomiarem.",
+    "pytanieKontrolne": "Na ilustracji 13 widzisz „dostęp i bezpieczeństwo”, „ocenę/monitorowanie” i „zarządzanie wydajnością”. Czy któreś z nich jest wymiarem? Gdzie należy każde z nich?",
+    "odpowiedzKontrolna": "Żadne. „Dostęp i bezpieczeństwo” to kategoria w wymiarze **Cele**, „ocena/monitorowanie” to faza w wymiarze **Cykl życia**, a „zarządzanie wydajnością” to pomiar oparty na czterech wymiarach (wskaźniki opóźnione i wiodące)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "aktywator",
+      "roznica": "Aktywatorów jest 7 kategorii. Wymiary (4) są wspólne dla każdego z nich."
+    },
+    {
+      "termin": "Wymiar procesu / wymiar zdolności (ISO 15504)",
+      "roznica": "To wymiary modelu oceny procesów (PAM), a nie modelu aktywatora."
+    }
+  ],
+  "przykladWypowiedzi": "Every enabler has four dimensions, czyli każdy aktywator ma cztery wymiary: stakeholders, goals, life cycle and good practice, czyli interesariusze, cele, cykl życia i dobre praktyki.",
+  "egzamin": "Cztery wymiary to **Interesariusze, Cele, Cykl życia, Dobre praktyki**. „Dobre praktyki” to wymiar aktywatora, a nie wyznacznik potrzeb (s. 28).",
+  "powiazane": [
+    "jakosc-wewnetrzna",
+    "jakosc-kontekstowa",
+    "dostep-i-bezpieczenstwo",
+    "cykl-zycia-aktywatora",
+    "dobre-praktyki",
+    "zarzadzanie-wydajnoscia-aktywatora"
+  ],
+  "sylabus": [
+    "PR-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 28,
+      "cytat": "Wszystkie czynniki umożliwiające mają zbiór wspólnych wymiarów."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 28,
+      "ilustracja": "13"
+    }
+  ],
+  "mapa": "wymiary-aktywatora"
+}

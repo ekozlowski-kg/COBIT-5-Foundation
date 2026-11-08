@@ -1,0 +1,113 @@
+{
+  "id": "proc-apo11",
+  "en": "APO11 Manage Quality",
+  "wymowa": "ejpio 11 menydż kłoliti",
+  "wymowaAkcent": "ej-pi-O 11 ME-nydż KŁO-li-ti",
+  "plEgzamin": "APO11 Zarządzanie jakością",
+  "plPodrecznik": "APO11 Zarządzanie jakością",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO11 Zarządzanie jakością",
+    "podrecznik": "APO11 Zarządzanie jakością",
+    "kurs": "APO11 Zarządzanie jakością (APO11 Manage Quality)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie APO11 i słowie kluczowym EN *Quality*. Nie myl z MEA01 (monitorowanie wyników i zgodności) ani z kryteriami jakości informacji z aktywatora Informacja.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "proc-apo09"
+  ],
+  "poLudzku": "Ustalenie, co znaczy „dobrze zrobione”, pilnowanie tego i ciągłe poprawianie pracy, żeby użytkownicy byli zadowoleni.",
+  "wyobrazSobie": "Piekarz, który ma przepis, waży losowe bochenki i zmienia przepis po skargach klientów.",
+  "poCo": "Żeby było jasne, co znaczy „dobrze zrobione” w IT, i żeby praca była stale poprawiana.",
+  "jakDziala": "Kierownictwo IT ustala wymagania i standardy jakości dla procesów, usług i rozwiązań. Utrzymuje system zarządzania jakością, robi przeglądy i słucha klientów. Na tej podstawie wprowadza usprawnienia.",
+  "dlaczegoWazne": "Jakość wpływa na zadowolenie użytkowników i wartość IT. Na egzaminie APO11 myli się z MEA01 oraz z jakością informacji.",
+  "skadNazwa": "EN *Manage Quality*. Proste tłumaczenie. Myli słowo „jakość”, które w COBIT występuje też przy informacji (jakość wewnętrzna, kontekstowa).",
+  "poziom1": "Proces Zarządzania o jakości. Ustala i komunikuje wymagania jakości dla procesów, usług i rozwiązań. Utrzymuje system zarządzania jakością i prowadzi ciągłe doskonalenie.",
+  "poziom2": "**Czym się zajmuje:** określa standardy jakości, sprawdza, czy są stosowane, słucha klientów i wprowadza poprawki.\n\n**Wejścia (intuicja):** oczekiwania użytkowników (z [[proc-apo08]]), poziomy usług z [[proc-apo09]], wyniki przeglądów.\n\n**Wyjścia (intuicja):** standardy i wymagania jakości, wyniki przeglądów jakości, plany usprawnień.\n\n**Współpraca:** z [[proc-apo01]] (doskonalenie procesów) i z MEA01, który mierzy wyniki wszystkich procesów i raportuje je w górę.",
+  "poziom3": "Il. 16 (s. 33): „APO11 Zarządzanie jakością”. Framework (s. 33) o tematach przekrojowych: *„(np. jakość, bezpieczeństwo), są one umieszczane w domenach odpowiadających zasadniczo najwłaściwszemu obszarowi”* działania. Słownik (s. 93): jakość to *„Przydatność dla danego celu (uzyskanie zamierzonej wartości).”* Załącznik E (s. 61): CMMI obejmuje *„niektóre procesy organizacyjne i związane z jakością z domeny APO.”* Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Gotujesz obiady dla gości. Ustalasz: zupa zawsze gorąca, porcje równe. Pytasz gości o opinię i poprawiasz przepis. Wymagania, sprawdzanie i poprawki to zarządzanie jakością.",
+    "biuro": "Biuro ustala standard: każda odpowiedź na e-mail klienta w ciągu doby i bez literówek. Kierowniczka sprawdza próbki i raz w miesiącu poprawia szablony odpowiedzi.",
+    "organizacja": "Firma programistyczna wprowadza zasadę: żaden kod bez przeglądu drugiej osoby i bez testów. Co kwartał analizuje skargi klientów i poprawia standard. To APO11. Urząd wprowadza standard: odpowiedź na e-mail mieszkańca w 3 dni, prostym językiem. Kierownik sprawdza próbki i poprawia szablony. To APO11.",
+    "psp": "**Alarm testowy w każdy poniedziałek.** Naczelnik Marek Sikora ustala standard: co tydzień alarm testowy do OSP i lista kontrolna po każdej aktualizacji Syreny. Raz na kwartał pyta dyżurnych o zadowolenie i poprawia procedurę. To jest [[proc-apo11|APO11]].",
+    "it": "Dział IT utrzymuje system zarządzania jakością: standard przeglądu kodu, testy przed wdrożeniem, analiza skarg. To APO11. Przekrojowy raport mierników dla zarządu przygotowuje [[proc-mea01]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-mea01",
+      "roznica": "MEA01 zbiera i ocenia wyniki i zgodność wszystkich procesów względem celów i raportuje je w górę. APO11 ustala wymagania jakości i prowadzi doskonalenie."
+    },
+    {
+      "termin": "jakosc-informacji",
+      "roznica": "Jakość informacji to cechy informacji, np. dokładność i aktualność. APO11 to proces zarządzania jakością pracy i usług IT."
+    }
+  ],
+  "przykladWypowiedzi": "APO11 *Manage Quality*, czyli „Zarządzanie jakością”, ustala standardy jakości i prowadzi doskonalenie; przekrojowy pomiar wyników to MEA01 *Monitor, Evaluate and Assess Performance and Conformance*.",
+  "egzamin": "Słowa-klucze: **standardy jakości, system zarządzania jakością, zadowolenie klienta, ciągłe doskonalenie** → APO11. **Mierniki wyników i zgodności, raport dla kierownictwa i Ładu** → MEA01.",
+  "powiazane": [
+    "apo",
+    "proc-mea01",
+    "jakosc-informacji",
+    "proc-apo01",
+    "proc-apo09"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO11 Zarządzanie jakością"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "cytat": "(np. jakość, bezpieczeństwo), są one umieszczane w domenach odpowiadających zasadniczo najwłaściwszemu obszarowi"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Przydatność dla danego celu (uzyskanie zamierzonej wartości)."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 61,
+      "cytat": "niektóre procesy organizacyjne i związane z jakością z domeny APO."
+    }
+  ],
+  "mapa": "proc-apo11",
+  "glebokosc": {
+    "prosty": "Piekarnia ustala: chleb ma ważyć 500 gramów i mieć chrupiącą skórkę. Piekarz waży losowe bochenki i słucha klientów. Gdy coś nie gra, zmienia przepis. To dbanie o jakość.",
+    "zaawansowany": "Sikora w APO11 ustala standard: alarm testowy co tydzień i lista kontrolna po aktualizacji. Audytorka Lis co miesiąc zbiera mierniki procesów i raportuje je wyżej (MEA01). Jej dane pokazują spadek jakości po ostatniej aktualizacji. Sikora w APO11 poprawia standard testów. Pomiar i raport to MEA01, poprawa standardu to APO11.",
+    "skrajny": "Oba procesy korzystają z pomiarów, więc łatwo je pomylić. Nie rozstrzygaj po samym słowie „miernik”. MEA01 to przekrojowy mechanizm: zbiera mierniki ze wszystkich procesów, ocenia je względem celów i raportuje kierownictwu i Ładowi. APO11 skupia się na wymaganiach jakości, opiniach klientów i doskonaleniu. „Zbierz mierniki i zaraportuj zarządowi” to MEA01. „Ustal standard i popraw proces, bo klienci narzekają” to APO11. **Rozstrzygnięcie:** przekrojowy pomiar i raport wyników i zgodności → MEA01; wymagania jakości i doskonalenie → APO11. (interpretacja kursu: uproszczony podział)"
+  },
+  "zagmatwania": [
+    {
+      "mit": "APO11 to kontrola, więc należy do MEA.",
+      "prawda": "APO11 jest w APO. Framework umieszcza jakość w domenie najbliższej jej charakterowi (s. 33)."
+    },
+    {
+      "mit": "Jakość w APO11 to jakość informacji.",
+      "prawda": "Jakość informacji to cecha aktywatora Informacja. APO11 zarządza jakością procesów i usług IT."
+    },
+    {
+      "mit": "Gdzie jest miernik, tam jest MEA01.",
+      "prawda": "APO11 też używa mierników, np. zadowolenia klientów. Rozstrzyga cel: doskonalenie jakości (APO11) czy przekrojowa ocena wyników (MEA01)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli APO11 z MEA01 albo z jakością informacji.",
+    "jakTlumaczyc": "Kucharz ustala przepis i poprawia smak (APO11). Inspektor co miesiąc sprawdza wyniki wszystkich kuchni i raportuje dyrektorowi (MEA01).",
+    "pytanieKontrolne": "Po skargach klientów firma zmienia standard testowania oprogramowania. Który to proces?",
+    "odpowiedzKontrolna": "APO11, czyli wymagania jakości i ciągłe doskonalenie."
+  }
+}

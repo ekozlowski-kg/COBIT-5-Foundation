@@ -1,0 +1,107 @@
+{
+  "id": "przeznaczenie-procesu",
+  "en": "Process purpose",
+  "wymowa": "prołses perpes",
+  "wymowaAkcent": "PROŁ-ses PER-pes",
+  "plEgzamin": "Przeznaczenie procesu",
+  "plPodrecznik": "Cel procesu",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Przeznaczenie procesu",
+    "podrecznik": "Cel procesu",
+    "kurs": "Przeznaczenie procesu (Process purpose)",
+    "uwaga": "Egzamin PL: „Przeznaczenie procesu”; podręcznik PL: „Cel procesu” – konkurencyjne odpowiedniki. Zestawienie Altkom: „Przeznaczenie procesu” (process purpose, referencyjny model procesu). Forma egzaminu PL potwierdzona: zestawienie Altkom. Forma podręcznika: FW-PL s. 43, 45; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Przeznaczenie procesu”. Podręcznik (rozdział 8): „cel procesu”. Uwaga: w aktywatorze Procesy „cel procesu” to *process goal*, czyli coś innego, bliższego rezultatowi.",
+  "skadNazwa": "Z angielskiego *process purpose*, czyli „po co jest proces”. Podręcznik tłumaczy to jako „cel”, przez co miesza się z *process goal*.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "pojecia-iso15504",
+    "proces"
+  ],
+  "poziom1": "Ogólne zdanie o tym, po co proces istnieje i jakich efektów się po nim spodziewamy. Od niego zaczyna się opis każdego ocenianego procesu. Na poziomie 1 pytamy, czy proces osiąga swoje przeznaczenie.",
+  "poLudzku": "Jedno zdanie o tym, po co w ogóle ta robota istnieje.",
+  "wyobrazSobie": "Napis na drzwiach pokoju: „Tu rozpatrujemy reklamacje”. Od razu wiesz, po co jest ten pokój.",
+  "poCo": "Żeby każdy wiedział, po co dany proces w ogóle istnieje, zanim zacznie oceniać jego kroki.",
+  "jakDziala": "Opis każdego procesu zaczyna się od zdania o przeznaczeniu. Z niego wynikają rezultaty, a z rezultatów praktyki. Na poziomie 1 asesor sprawdza, czy proces osiąga swoje przeznaczenie.",
+  "dlaczegoWazne": "Egzamin PL używa słowa „przeznaczenie”, a podręcznik „cel”. Ten „cel” łatwo pomylić z celem procesu z aktywatora Procesy.",
+  "poziom2": "| Pojęcie | Pytanie | Przykład (powiadamianie) |\n|---|---|---|\n| **przeznaczenie** | po co jest proces? | właściwe jednostki zaalarmowane bez zwłoki |\n| [[rezultat-procesu|rezultaty]] | po czym poznać, że działa? | alarm dotarł, odbiór potwierdzony |\n| [[praktyka-bazowa|praktyki bazowe]] | co robimy? | wybór jednostek, wysyłka |\n\nPrzeznaczenie jest jedno i ogólne, a rezultatów jest kilka i można je zaobserwować. W *COBIT 5: Procesy umożliwiające* każdy proces ma opis i deklarację przeznaczenia (uproszczenie, spoza korpusu).",
+  "poziom3": "(s. 43): opis każdego ocenianego procesu *„zawiera jego cel i wyniki”*, a model referencyjny wymaga opisu procesu *„ze wskazanym celem”*. „Cel” oznacza tu przeznaczenie (*purpose*), a egzamin PL używa formy „przeznaczenie procesu” (Altkom).",
+  "przyklady": {
+    "zycie": "Przeznaczenie porannego gotowania: rodzina wychodzi z domu najedzona. Nie chodzi o to, ile jajek usmażysz, tylko po co w ogóle wstajesz wcześniej.",
+    "biuro": "Przeznaczenie procesu obiegu dokumentów w biurze: każde pismo trafia do właściwej osoby na czas. To jedno zdanie, od którego zaczyna się jego opis.",
+    "organizacja": "Przeznaczenie procesu reklamacji w sklepie: klient z wadliwym towarem szybko dostaje uczciwe rozwiązanie. Z tego zdania wynikają rezultaty, kroki i dokumenty.\n\nPrzeznaczenie procesu wydawania dowodów osobistych: mieszkaniec dostaje ważny dokument bez zbędnej zwłoki. To jedno zdanie, od którego zaczyna się opis procesu.",
+    "psp": "**Po co jest powiadamianie.** Komendantka Anna Wrzos pyta na odprawie, po co jest proces powiadamiania. Grab mówi „żeby klikać alarm”, a Nowik „żeby właściwe jednostki szybko wiedziały, gdzie jechać”. Audytorka Ewa Lis zapisuje wersję Nowik jako przeznaczenie procesu. Klikanie to tylko krok, czyli praktyka.",
+    "it": "Każdy z 37 procesów w *COBIT 5: Procesy umożliwiające* ma opis i deklarację przeznaczenia. Dla DSS02 brzmi ona w skrócie: szybko przywrócić normalne działanie usług po incydencie."
+  },
+  "glebokosc": {
+    "prosty": "Pytasz dziecko, po co myje zęby. „Żeby szczoteczka była mokra” to zła odpowiedź. „Żeby zęby nie bolały” to przeznaczenie. Przeznaczenie mówi, po co coś robimy, a nie jak.",
+    "zaawansowany": "Ewa Lis zaczyna ocenę procesu powiadamiania od przeznaczenia: „właściwe jednostki zaalarmowane bez zwłoki”. Z niego wynikają [[rezultat-procesu|rezultaty]], np. potwierdzenie odbioru od każdej jednostki. Potem Lis sprawdza [[praktyka-bazowa|praktyki bazowe]]. Gdy rezultaty są osiągane, proces osiąga przeznaczenie i ma [[poziom-1|poziom 1]].",
+    "skrajny": "Na teście pojawia się „cel procesu” i Nowik nie wie, o który cel chodzi. W rozdziale o ocenie zdolności podręcznik pisze „cel procesu” o *purpose*, a egzamin mówi „przeznaczenie”. W aktywatorze Procesy „cel procesu” to *process goal*: mierzalny cel wewnętrzny, kontekstowy albo dostępności. Ten drugi bliżej odpowiada rezultatowi procesu. Do tego cel związany z IT z kaskady to jeszcze coś innego. **Rozstrzygnięcie:** „przeznaczenie” = po co proces jest. Gdy widzisz słowo „cel”, sprawdź kontekst: ocena zdolności (przeznaczenie), aktywator Procesy (cel procesu) czy kaskada (cel związany z IT)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Przeznaczenie procesu i cel procesu z aktywatora Procesy to jedno.",
+      "prawda": "Przeznaczenie (*purpose*) mówi, po co proces jest. Cel procesu (*process goal*) to mierzalny cel, bliższy rezultatowi."
+    },
+    {
+      "mit": "Przeznaczenie to lista kroków procesu.",
+      "prawda": "Kroki to praktyki bazowe. Przeznaczenie to jedno zdanie „po co”."
+    },
+    {
+      "mit": "Przeznaczenie może wymagać, żeby proces był mierzony.",
+      "prawda": "Opis procesu w PRM nie może zawierać cech powyżej poziomu 1. Pomiar to atrybut PA 4.1."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli przeznaczenie z celem procesu z aktywatora Procesy i z celem związanym z IT.",
+    "jakTlumaczyc": "Trzy pytania: „po co?” (przeznaczenie), „po czym poznam?” (rezultat), „co robię?” (praktyka). Ćwicz je na jednym procesie, zawsze w tej kolejności.",
+    "pytanieKontrolne": "Jak podręcznik PL nazywa przeznaczenie procesu w rozdziale o modelu zdolności?",
+    "odpowiedzKontrolna": "„Cel procesu”. Egzamin używa formy „przeznaczenie procesu”, żeby nie mylić go z celem procesu (*process goal*) z aktywatora Procesy."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "rezultat-procesu",
+      "roznica": "Rezultat to obserwowalny efekt osiągnięcia przeznaczenia. Przeznaczenie to ogólne „po co”."
+    },
+    {
+      "termin": "kategorie-celow-procesu",
+      "roznica": "Cele procesu (wewnętrzne, kontekstowe, dostępności) należą do aktywatora Procesy. To *process goals*, a nie przeznaczenie."
+    },
+    {
+      "termin": "cele-zwiazane-z-it",
+      "roznica": "Cele związane z IT pochodzą z kaskady celów. Przeznaczenie dotyczy jednego procesu."
+    }
+  ],
+  "przykladWypowiedzi": "The process purpose, czyli przeznaczenie procesu (w podręczniku: cel procesu), mówi, po co proces istnieje. Nie myl go z process goal, czyli celem procesu w aktywatorze Procesy.",
+  "egzamin": "„Po co proces istnieje” → **przeznaczenie procesu** (*process purpose*). W podręczniku: „cel procesu”.",
+  "powiazane": [
+    "pojecia-iso15504",
+    "rezultat-procesu",
+    "wymiar-procesu",
+    "opis-procesu"
+  ],
+  "sylabus": [
+    "PC-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "opis procesu zawiera jego cel i wyniki"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "opis procesu ze wskazanym celem"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "przeznaczenie-procesu"
+}

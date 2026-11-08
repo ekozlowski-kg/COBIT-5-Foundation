@@ -1,0 +1,96 @@
+{
+  "id": "kategorie-umiejetnosci",
+  "en": "Skill categories per process domain (Figure 39)",
+  "wymowa": "skil ketegoriz per prołses dołmejn",
+  "wymowaAkcent": "skil KE-te-go-riz per PROŁ-ses doł-MEJN",
+  "plEgzamin": "Kategorie umiejętności",
+  "plPodrecznik": "Kategorie umiejętności w ramach metodyki COBIT 5",
+  "mapa": "kategorie-umiejetnosci",
+  "poLudzku": "Jakie umiejętności są potrzebne do jakich zadań, np. planista do planowania, serwisant do napraw.",
+  "wyobrazSobie": "Szpitalna lista kompetencji: blok operacyjny potrzebuje anestezjologa i instrumentariuszki, izba przyjęć ratownika, apteka farmaceuty, a każdy oddział ma swoją listę.",
+  "poCo": "Żeby wiedzieć, jakich umiejętności trzeba w każdym obszarze pracy IT, i planować rekrutację oraz szkolenia według domen procesów, a nie na wyczucie.",
+  "jakDziala": "COBIT 5 (Ilustracja 39) przypisuje przykładowe kategorie umiejętności (skill categories) do pięciu domen procesów. EDM: Ład nad IT; APO: m.in. strategia IT, architektura korporacyjna, zarządzanie portfelami; BAI: m.in. analiza biznesowa, zarządzanie projektami, zarządzanie pojemnością; DSS: m.in. zarządzanie dostępnością, Service Desk i incydenty, administracja bezpieczeństwa; MEA: weryfikacja zgodności, monitorowanie sprawności, audyt mechanizmów kontrolnych. To dobra praktyka aktywatora Ludzie, Umiejętności i Kompetencje.",
+  "dlaczegoWazne": "Egzamin pyta, do której domeny należy dana umiejętność, z typowymi pułapkami: pojemność (BAI) kontra dostępność (DSS) oraz projekty (BAI) kontra portfel (APO).",
+  "poziom1": "Lista typowych umiejętności potrzebnych w IT, poukładana według pięciu domen procesów COBIT 5 (np. EDM – nadzór nad IT, APO – strategia IT, BAI – zarządzanie projektami, DSS – Service Desk i incydenty, MEA – audyt mechanizmów kontrolnych).",
+  "poziom2": "| Domena | Kategorie umiejętności (Ilustracja 39) |\n|---|---|\n| **EDM** | nadzór (Ład) nad IT w organizacji |\n| **APO** | opracowanie polityki IT, strategia IT, **architektura korporacyjna**, innowacje, zarządzanie finansowe, **zarządzanie portfelami projektów** |\n| **BAI** | analiza biznesowa, **zarządzanie projektami**, ocena użyteczności, definiowanie wymagań, programowanie, ergonomia systemu, wycofanie oprogramowania, **zarządzanie pojemnością** |\n| **DSS** | **zarządzanie dostępnością**, zarządzanie problemami, **Service Desk i incydenty**, administracja bezpieczeństwa, eksploatacja IT, administrowanie bazami danych |\n| **MEA** | weryfikacja zgodności, monitorowanie sprawności, **audyt mechanizmów kontrolnych** |",
+  "poziom3": "Ilustracja 39 (s. 88).",
+  "przyklady": {
+    "zycie": "Planujecie remont mieszkania. Ktoś musi zdecydować, czy w ogóle w to wchodzicie i ile najwyżej wydacie (EDM), ktoś ułożyć plan i budżet (APO), ktoś kierować ekipą i pilnować prac (BAI), ktoś potem naprawiać usterki (DSS), a ktoś na końcu sprawdzić, czy wyszło zgodnie z planem i fakturami (MEA). Każde z tych zadań wymaga innych umiejętności – tak COBIT układa kategorie umiejętności według domen.",
+    "biuro": "Kierowniczka biura spisuje, czego potrzeba w każdym dziale: recepcja – centrala i poczta, księgowość – program finansowy i przepisy podatkowe, kadry – prawo pracy i grafik. Ogłoszenia o pracę i szkolenia układa według tej listy, osobno dla każdego działu.",
+    "firma": "W sklepie internetowym właścicielka decyduje, czy w ogóle inwestować w nowy system (EDM), wspólnik liczy budżet i wybiera kierunek rozwoju IT (APO), zewnętrzny programista wdraża nowy koszyk (BAI), pracownik odbiera zgłoszenia klientów, że strona nie działa (DSS), a księgowa sprawdza, czy przestrzegano zasad (MEA). Każda z tych osób potrzebuje innych umiejętności, przypisanych do innej domeny.",
+    "admin": "W starostwie zarząd powiatu nadzoruje informatykę jako całość (EDM), naczelnik wydziału IT układa strategię i budżet (APO), informatyk wdraża nowy system obiegu dokumentów i zbiera wymagania od urzędników (BAI), administrator odbiera zgłoszenia i przywraca dostęp do sieci (DSS), a audytor wewnętrzny sprawdza mechanizmy kontrolne (MEA). Każda z tych ról wymaga innego zestawu umiejętności z innej domeny procesów.",
+    "psp": "W komendzie wojewódzkiej kierownictwo nadzoruje informatykę jako całość (EDM), naczelnik wydziału informatyki i łączności planuje budżet i architekturę (APO), informatyk wdraża nowy moduł SWD-PSP (BAI), informatyk pełniący dyżur w nocy przywraca łączność ze stanowiskiem kierowania (DSS), a audytor wewnętrzny sprawdza mechanizmy kontrolne (MEA). Każdy z nich potrzebuje innych umiejętności – to kategorie umiejętności przypisane do domen.",
+    "it": "W APO07 (Zarządzanie zasobami ludzkimi) dział IT przypisuje role do domen: kierownik projektów (BAI, zarządzanie projektami), analityk pojemności (BAI, zarządzanie pojemnością), konsultant Service Desk (DSS), audytor IT (MEA, audyt mechanizmów kontrolnych). Na tej podstawie planuje szkolenia, np. według SFIA."
+  },
+  "glebokosc": {
+    "prosty": "W szpitalu nie wystarczy powiedzieć „potrzebujemy ludzi”. Potrzebny jest ktoś do układania grafiku, ktoś do operacji, ktoś do przyjmowania pacjentów i ktoś, kto sprawdza, czy wszystko idzie zgodnie z zasadami. Lista potrzebnych umiejętności jest ułożona tak samo jak lista zadań.",
+    "zaawansowany": "Kpt. Sikora szuka ludzi do swojego wydziału i korzysta z Ilustracji 39. Zarządzanie portfelem projektów i architektura korporacyjna to umiejętności z [[apo|APO]], prowadzenie projektu wymiany Syreny i zarządzanie pojemnością – z [[bai|BAI]], Service Desk, incydenty i zarządzanie dostępnością – z [[dss|DSS]], a weryfikacja zgodności i audyt mechanizmów kontrolnych, czyli praca Ewy Lis – z [[mea|MEA]]. Tak spełnia dobrą praktykę aktywatora [[ludzie-umiejetnosci-kompetencje|Ludzie, Umiejętności i Kompetencje]]: kategorie umiejętności odpowiadają domenom procesów.",
+    "skrajny": "Mł. kpt. Ola Dudek ma zaplanować szkolenie z „zarządzania dostępnością i pojemnością”, bo tak nazywa się jeden proces COBIT 5, BAI04. Naturalny wniosek: obie umiejętności należą do BAI. Ilustracja 39 rozkłada je jednak na dwie domeny: zarządzanie pojemnością jest w BAI, a zarządzanie dostępnością – w DSS. Podobnie z projektami: zarządzanie projektami to BAI, ale zarządzanie portfelami projektów to APO. Kategorie umiejętności nie są więc kopią nazw procesów, tylko osobną listą przypisaną do domen. **Rozstrzygnięcie:** przy pytaniu o kategorię umiejętności patrz na Ilustrację 39, a nie na nazwę procesu: pojemność → BAI, dostępność → DSS, projekty → BAI, portfel projektów → APO."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Skoro BAI04 obejmuje dostępność i pojemność, obie umiejętności są w BAI.",
+      "prawda": "Na Ilustracji 39 zarządzanie pojemnością jest w BAI, a zarządzanie dostępnością w DSS."
+    },
+    {
+      "mit": "Zarządzanie projektami i zarządzanie portfelem projektów to jedna kategoria.",
+      "prawda": "Projekty → BAI, portfele projektów → APO."
+    },
+    {
+      "mit": "Audyt to umiejętność Ładu (EDM), bo kojarzy się z nadzorem.",
+      "prawda": "Weryfikacja zgodności, monitorowanie sprawności i audyt mechanizmów kontrolnych są w MEA. W EDM jest „nadzór (Ład) nad IT w organizacji”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Wywodzenie kategorii umiejętności z nazwy procesu zamiast z Ilustracji 39.",
+    "jakTlumaczyc": "Ułóż pięć szuflad z kodami domen i wkładaj do nich karteczki z umiejętnościami. Najpierw zapamiętaj trzy pary pułapek: pojemność/dostępność, projekty/portfel, audyt w MEA. Reszta wynika z czasowników domen.",
+    "pytanieKontrolne": "Do której domeny należy umiejętność zarządzania dostępnością, a do której zarządzania pojemnością? Dlaczego to zaskakuje?",
+    "odpowiedzKontrolna": "Dostępność – DSS, pojemność – BAI (Ilustracja 39). Zaskakuje, bo w modelu procesów obie są w jednym procesie BAI04, więc kategorie umiejętności trzeba znać z ilustracji, a nie wywodzić z nazw procesów."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Pułapka: pojemność vs dostępność",
+      "roznica": "Na Ilustracji 39 zarządzanie POJEMNOŚCIĄ jest w BAI, a zarządzanie DOSTĘPNOŚCIĄ w DSS, choć proces BAI04 obejmuje oba."
+    },
+    {
+      "termin": "Pułapka: projekty vs portfel",
+      "roznica": "Zarządzanie PROJEKTAMI to BAI, a zarządzanie PORTFELAMI projektów to APO."
+    }
+  ],
+  "przykladWypowiedzi": "Skill categories, czyli kategorie umiejętności, są przypisane do domen procesów: project management, czyli zarządzanie projektami, należy do BAI, a portfolio management, czyli zarządzanie portfelem, do APO.",
+  "egzamin": "Portfel i architektura korporacyjna → **APO**; projekty, wymagania, pojemność → **BAI**; dostępność, Service Desk, incydenty → **DSS**; zgodność i audyt → **MEA**.",
+  "powiazane": [
+    "ludzie-umiejetnosci-kompetencje",
+    "apo",
+    "bai",
+    "dss",
+    "mea"
+  ],
+  "sylabus": [
+    "EN-02-22",
+    "EN-02-23"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Kategorie umiejętności",
+    "podrecznik": "Kategorie umiejętności w ramach metodyki COBIT 5",
+    "kurs": "Kategorie umiejętności (Skill categories per process domain)",
+    "uwaga": "Egzamin PL: „Kategorie umiejętności”; podręcznik PL: „Kategorie umiejętności w ramach metodyki COBIT 5” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 9, 88."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "ludzie-umiejetnosci-kompetencje",
+    "prm"
+  ]
+}

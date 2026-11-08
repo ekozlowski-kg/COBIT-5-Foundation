@@ -1,0 +1,96 @@
+{
+  "id": "it-aplikacja",
+  "en": "Application (app)",
+  "wymowa": "eplikejszyn",
+  "wymowaAkcent": "ep-li-KEJ-szyn",
+  "plEgzamin": "Aplikacja",
+  "plPodrecznik": "Aplikacja IT",
+  "plInne": [
+    "program użytkowy",
+    "apka (potocznie)"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "Aplikacja IT (FW-PL s. 92)",
+    "kurs": "Aplikacja (Application)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Na egzaminie słowo „aplikacje” występuje w nazwie aktywatora Usługi, infrastruktura i aplikacje."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P0",
+  "wymaga": [
+    "it-software",
+    "it-system-operacyjny"
+  ],
+  "poLudzku": "Program, którego używasz do konkretnego zadania: pisania, liczenia, płacenia, wysyłania wiadomości.",
+  "poziom1": "Program użytkowy – oprogramowanie, z którego człowiek korzysta, żeby coś załatwić. Na telefonie to „apka” banku czy pogody; w pracy to np. program kadrowy albo system powiadamiania.",
+  "poziom2": "Aplikacja działa w systemie operacyjnym. Może działać tylko na Twoim urządzeniu (np. kalkulator) albo łączyć się przez sieć z innym komputerem (np. aplikacja banku – takie połączenie poznasz w lekcji 0A.4). W organizacji aplikacje wspierają pracę ludzi: przyjmowanie zgłoszeń, rozliczanie faktur, prowadzenie spraw.",
+  "poziom3": "Słownik COBIT 5: aplikacja IT to *„Funkcjonalność elektroniczna stanowiąca część procesów biznesowych podejmowanych przez dział IT lub z jego pomocą.”* (FW-PL s. 92). Aplikacje są częścią aktywatora Usługi, infrastruktura i aplikacje (s. 27).",
+  "wyobrazSobie": "Narzędzia w skrzynce. Młotek do gwoździ, śrubokręt do śrub – każda aplikacja to narzędzie do jednego rodzaju pracy.",
+  "poCo": "Żeby ludzie mogli szybko i bez błędów wykonać konkretne zadanie, np. wysłać przelew albo zapisać zgłoszenie.",
+  "jakDziala": "Klikasz ikonę aplikacji. System operacyjny ją uruchamia. Aplikacja pokazuje okno z przyciskami i polami. Ty wpisujesz albo klikasz, a aplikacja wykonuje zadanie i pokazuje wynik.",
+  "dlaczegoWazne": "W COBIT 5 aplikacje to jeden z trzech elementów aktywatora Usługi, infrastruktura i aplikacje. Organizacja musi wiedzieć, jakie ma aplikacje i komu służą.",
+  "przyklady": {
+    "zycie": "Aplikacja banku na telefonie: logujesz się, sprawdzasz saldo, płacisz za prąd. Telefon to sprzęt, a „apka” banku to aplikacja.",
+    "biuro": "Księgowa pracuje w aplikacji do faktur, a sekretarka w aplikacji do obiegu pism. Obie działają na takich samych komputerach.",
+    "organizacja": "Szkoła prowadzi dziennik elektroniczny – aplikację, w której nauczyciele wpisują oceny, a rodzice je czytają.",
+    "psp": "„Syrena” to aplikacja: dyżurny klika „Alarm”, a ona wysyła SMS-y do strażaków ochotników z OSP Zawilce (ochotniczej straży pożarnej).",
+    "it": "Aplikacje to część aktywatora Usługi, infrastruktura i aplikacje; słownik FW-PL definiuje „aplikację IT” (s. 92)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-system-operacyjny",
+      "roznica": "System operacyjny obsługuje urządzenie. Aplikacja obsługuje zadanie człowieka."
+    },
+    {
+      "termin": "it-usluga-it",
+      "roznica": "Aplikacja to narzędzie. Usługa IT to to, co ludzie dostają dzięki aplikacjom, serwerom i wsparciu, np. „wysyłanie alarmów całą dobę”."
+    }
+  ],
+  "przykladWypowiedzi": "An application, czyli aplikacja, to program użytkowy; w komendzie taką aplikacją jest system powiadamiania „Syrena”.",
+  "egzamin": "Na egzaminie „aplikacje” pojawiają się w nazwie aktywatora Usługi, infrastruktura i aplikacje (Services, Infrastructure and Applications). Nie myl aplikacji z usługą: usługa to efekt dla użytkownika.",
+  "powiazane": [
+    "it-software",
+    "it-system-operacyjny",
+    "it-usluga-it",
+    "uslugi-infrastruktura-aplikacje"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 92,
+      "cytat": "Funkcjonalność elektroniczna stanowiąca część procesów biznesowych podejmowanych przez dział IT lub z jego pomocą."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 27,
+      "cytat": "Usługi, infrastruktura i aplikacje obejmują infrastrukturę, technologię i aplikacje zapewniające przedsiębiorstwu możliwości przetwarzania oraz usługi IT."
+    }
+  ],
+  "glebokosc": {
+    "prosty": "W kuchni masz mikser, czajnik i toster. Każde urządzenie robi jedną rzecz. Aplikacje w telefonie są jak te urządzenia, tylko „zapisane” w jednym telefonie: jedna do zdjęć, druga do wiadomości, trzecia do płacenia.",
+    "zaawansowany": "Dyżurny Grab mówi o „Syrenie” „system”. Ma rację w potocznym sensie: aplikacja działa razem z innymi komputerami i z listą numerów telefonów. Gdy „Syrena” nie powiadomiła OSP Zawilce, trzeba było sprawdzić, co zawiodło: aplikacja, [[it-hardware|sprzęt]] czy zapisane numery.",
+    "skrajny": "Czy strona internetowa banku to aplikacja? W praktyce tak: daje te same funkcje co „apka”, tylko otwierasz ją w przeglądarce (programie do oglądania stron). Czy przeglądarka to aplikacja? Też tak. Czy system operacyjny telefonu to aplikacja? Nie. **Rozstrzygnięcie:** aplikacja to program, który wykonuje zadanie człowieka, niezależnie od tego, czy ma ikonę, czy otwierasz ją w przeglądarce; system operacyjny aplikacją nie jest."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Aplikacja jest tylko na telefonie.",
+      "prawda": "Aplikacje działają też na komputerach i w przeglądarce; w pracy to np. program kadrowy."
+    },
+    {
+      "mit": "Aplikacja i usługa IT to to samo.",
+      "prawda": "Aplikacja to narzędzie. Usługa to to, co dostaje użytkownik – z aplikacji, sprzętu i pomocy ludzi razem."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie aplikacji z całym „systemem” albo z usługą.",
+    "jakTlumaczyc": "Skrzynka z narzędziami: aplikacja to jedno narzędzie; usługa to naprawione krzesło, które dostajesz od fachowca z narzędziami.",
+    "pytanieKontrolne": "Czy przeglądarka internetowa jest aplikacją, czy systemem operacyjnym?",
+    "odpowiedzKontrolna": "Aplikacją. Działa w systemie operacyjnym i służy człowiekowi do oglądania stron."
+  }
+}

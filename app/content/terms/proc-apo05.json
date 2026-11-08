@@ -1,0 +1,129 @@
+{
+  "id": "proc-apo05",
+  "en": "APO05 Manage Portfolio",
+  "wymowa": "ejpio 05 menydż portfołlioł",
+  "wymowaAkcent": "ej-pi-O 05 ME-nydż port-FOŁ-li-oł",
+  "plEgzamin": "APO05 Zarządzanie Portfelem",
+  "plPodrecznik": "APO05 Zarządzanie portfelem projektów",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO05 Zarządzanie Portfelem",
+    "podrecznik": "APO05 Zarządzanie portfelem projektów",
+    "kurs": "APO05 Zarządzanie Portfelem (APO05 Manage Portfolio)",
+    "uwaga": "Egzamin PL: „APO05 Zarządzanie Portfelem”; podręcznik PL: „APO05 Zarządzanie portfelem projektów” – konkurencyjne odpowiedniki. SP1 używa „Zarządzanie Portfelem” – jako kategorii umiejętności (Rysunek 39), nie w nazwie procesu; nazwa procesu APO05 potwierdzona pośrednio. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 33, 52, 58."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Zarządzanie Portfelem”. Podręcznik: „Zarządzanie portfelem projektów”. To ten sam APO05. Portfel to nie tylko projekty: obejmuje inwestycje, programy i usługi. Nie myl z BAI01 Zarządzanie programami i projektami.",
+  "kategoria": "egzaminacyjne",
+  "status": "uproszczenie",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "projekt",
+    "uzasadnienie-biznesowe"
+  ],
+  "poLudzku": "Wybieranie, w które pomysły wydać ograniczone pieniądze, i pilnowanie, żeby cały zestaw się opłacał.",
+  "wyobrazSobie": "Trener, który z dwudziestu zawodników wybiera jedenastu na mecz i zmienia skład w przerwie.",
+  "poCo": "Żeby ograniczone pieniądze trafiały do zestawu inwestycji, który razem daje organizacji najwięcej wartości.",
+  "jakDziala": "Kierownictwo zbiera propozycje inwestycji z uzasadnieniami biznesowymi. Porównuje je pod względem wartości, ryzyka i zgodności ze strategią. Wybiera, równoważy i monitoruje portfel, a słabe inwestycje wstrzymuje.",
+  "dlaczegoWazne": "APO05 łączy strategię z budżetem i projektami. Na egzaminie występuje jako „Zarządzanie Portfelem” i myli się z BAI01.",
+  "skadNazwa": "EN *Manage Portfolio*. Podręcznik dopisał „projektów”, choć angielska nazwa tego nie ma. Egzamin trzyma się EN: „Zarządzanie Portfelem”.",
+  "poziom1": "Proces Zarządzania o portfelu. Wybiera, porządkuje i równoważy inwestycje, programy i usługi IT, żeby razem dawały najwięcej wartości przy dostępnych zasobach. Monitoruje cały portfel.",
+  "poziom2": "**Czym się zajmuje:** patrzy na **cały zestaw** inwestycji naraz: które rozpocząć, które wstrzymać, które zakończyć.\n\n**Wejścia (intuicja):** strategia z [[proc-apo02]], pomysły z [[proc-apo04]], budżet z [[proc-apo06]], [[uzasadnienie-biznesowe|uzasadnienia biznesowe]], kierunek z [[proc-edm02]].\n\n**Wyjścia (intuicja):** priorytety, decyzje o uruchomieniu programów, raporty o wartości portfela.\n\n**Współpraca:** pojedyncze programy i projekty prowadzi BAI01. Ład ocenia wartość w [[proc-edm02]].",
+  "poziom3": "Il. 16 (s. 33): „APO05 Zarządzanie portfelem projektów”. Załącznik E (s. 58): *„Proces APO05 Zarządzanie portfelem projektów odnosi się do sposobu zapewnienia efektywnego zarządzania portfelem projektów i programami”* z myślą o realizacji korzyści i optymalizacji kosztów. Słownik (s. 92): portfel inwestycyjny to *„Zbiór rozważanych i/lub realizowanych inwestycji.”* Załącznik E (s. 61): PRINCE2 obejmuje *„procesy związane z portfelem w domenie APO”* oraz *„procesy zarządzania programami i projektami w domenie BAI.”* Szczegóły praktyk: *COBIT 5: Procesy umożliwiające* (poza korpusem).",
+  "przyklady": {
+    "zycie": "Masz 20 tys. zł i pięć pomysłów: auto, kurs językowy, wakacje, remont, lokata. Nie starczy na wszystko. Wybierasz zestaw, który da najwięcej. Co pół roku sprawdzasz, czy wybór był dobry.",
+    "biuro": "Biuro ma pieniądze na jedną rzecz z trzech: nowe krzesła, program księgowy albo szkolenie z obsługi klienta. Zespół porównuje korzyści i wybiera program księgowy. Krzesła wracają na listę za pół roku.",
+    "organizacja": "Firma ma 12 pomysłów na nowe systemy i budżet na cztery. Komitet porównuje uzasadnienia biznesowe, ryzyko i zgodność ze strategią. Wybiera cztery, resztę odkłada. Co kwartał przegląda cały portfel. To APO05. Miasto zgłosiło do budżetu 30 projektów cyfrowych. Zespół wybiera te, które najbardziej skrócą sprawy mieszkańców. Jeden projekt w trakcie zostaje wstrzymany, bo przestał się opłacać. Takie decyzje to APO05.",
+    "psp": "**Pięć pomysłów, pieniądze na dwa.** Naczelnik Marek Sikora ma listę: zasilanie awaryjne, drugi serwer, aplikacja dla OSP, nowa centrala, moduł statystyk. Budżet starczy na dwa. Z księgową Haliną Mak porównuje korzyści i ryzyka. Wybiera zasilanie i drugi serwer, resztę odkłada. Ten wybór to [[proc-apo05|APO05]].",
+    "it": "Komitet portfelowy co kwartał przegląda wszystkie programy IT, porównuje uzasadnienia biznesowe i wstrzymuje jeden program. To APO05. Prowadzenie programów to [[proc-bai01]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-bai01",
+      "roznica": "BAI01 prowadzi pojedynczy program albo projekt do końca. APO05 wybiera i równoważy cały zestaw inwestycji."
+    },
+    {
+      "termin": "proc-edm02",
+      "roznica": "EDM02 (Ład) ustala, jakiej wartości oczekujemy, i ją rozlicza. APO05 (Zarządzanie) układa portfel, żeby tę wartość dać."
+    },
+    {
+      "termin": "projekt",
+      "roznica": "Projekt to jedno przedsięwzięcie z końcem. Portfel to zbiór wielu inwestycji, programów i usług."
+    }
+  ],
+  "przykladWypowiedzi": "APO05 *Manage Portfolio*, na egzaminie „Zarządzanie Portfelem”, wybiera i równoważy inwestycje; pojedynczy projekt prowadzi BAI01 *Manage Programmes and Projects*.",
+  "egzamin": "Na egzaminie **„Zarządzanie Portfelem”**. Słowa-klucze: **priorytety inwestycji, równoważenie, wybór programów, wartość całego portfela** → APO05. Prowadzenie konkretnego projektu → BAI01. Kategoria umiejętności „Zarządzanie portfelami projektów” należy do APO (il. 39).",
+  "powiazane": [
+    "apo",
+    "proc-edm02",
+    "proc-bai01",
+    "proc-apo06",
+    "uzasadnienie-biznesowe",
+    "projekt",
+    "realizacja-korzysci"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO05 Zarządzanie portfelem projektów"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 58,
+      "cytat": "Proces APO05 Zarządzanie portfelem projektów odnosi się do sposobu zapewnienia efektywnego zarządzania portfelem projektów i programami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 92,
+      "cytat": "Zbiór rozważanych i/lub realizowanych inwestycji."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 61,
+      "cytat": "procesy związane z portfelem w domenie APO"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 61,
+      "cytat": "procesy zarządzania programami i projektami w domenie BAI."
+    },
+    {
+      "doc": "SP1",
+      "strona": 7
+    }
+  ],
+  "mapa": "proc-apo05",
+  "glebokosc": {
+    "prosty": "W sklepie z zabawkami masz 100 zł dla trojga dzieci. Każde chce czegoś innego. Wybierasz zestaw, żeby wszyscy byli zadowoleni i żeby starczyło pieniędzy. To portfel: wybór całości, a nie jednej zabawki.",
+    "zaawansowany": "Naczelnik Sikora w APO05 wybiera dwa z pięciu pomysłów. Projekt zasilania awaryjnego prowadzi potem Dudek jako kierowniczka projektu (BAI01). Po kwartale koszt zasilania rośnie. Sikora w portfelu decyduje: kontynuujemy, a moduł statystyk wypada. Komendantka Wrzos ocenia wartość całości w [[proc-edm02]].",
+    "skrajny": "Projekt drugiego serwera ma opóźnienie. Kierowniczka projektu Dudek zmienia harmonogram i dokłada testy. To BAI01. Ale Sikora zauważa, że opóźniony projekt blokuje pieniądze na aplikację dla OSP. Decyzja „wstrzymać serwer i przesunąć pieniądze” dotyczy całego zestawu inwestycji. To APO05, choć dotyczy jednego projektu. Podręcznikowe „portfel projektów” dodatkowo myli, bo portfel obejmuje też usługi. **Rozstrzygnięcie:** decyzje *wewnątrz* projektu → BAI01; decyzje *o* projekcie na tle innych inwestycji → APO05; ocena wartości przez organ Ładu → EDM02."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Portfel to lista projektów, więc APO05 i BAI01 to to samo.",
+      "prawda": "APO05 wybiera i równoważy zestaw inwestycji. BAI01 prowadzi pojedynczy program albo projekt."
+    },
+    {
+      "mit": "Na egzaminie APO05 to „Zarządzanie portfelem projektów”.",
+      "prawda": "Na egzaminie: „Zarządzanie Portfelem”. Forma z „projektów” jest podręcznikowa."
+    },
+    {
+      "mit": "Portfel obejmuje tylko nowe projekty.",
+      "prawda": "Obejmuje też programy i działające usługi IT, które też można ograniczyć albo wycofać."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera BAI01 przy każdym słowie „projekt”, nawet gdy pytanie dotyczy wyboru między projektami.",
+    "jakTlumaczyc": "Trener piłkarski: wybór składu na mecz to APO05. Praca z jednym zawodnikiem na treningu to BAI01.",
+    "pytanieKontrolne": "Komitet wstrzymuje projekt, bo inny daje więcej wartości przy tym samym budżecie. Który to proces?",
+    "odpowiedzKontrolna": "APO05, bo to decyzja na poziomie portfela. BAI01 prowadziłby projekt, ale nie porównuje go z innymi."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "model-zdolnosci",
+  "en": "COBIT 5 Process Capability Model (ISO/IEC 15504)",
+  "wymowa": "kołbit 5 prołses kejpabiliti model",
+  "wymowaAkcent": "KOŁ-bit 5 PROŁ-ses kej-pa-BI-li-ti MO-del",
+  "plEgzamin": "Model Zdolności Procesu",
+  "plPodrecznik": "Model potencjału procesu COBIT 5",
+  "mapa": "model-zdolnosci",
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „zdolność procesu”, „Ocena Zdolności Procesu”. Podręcznik: „potencjał procesu”, „ocena potencjału procesu”.",
+  "poLudzku": "Szkolna skala od 0 do 5, która mówi, jak dobrze robimy konkretną rzecz.",
+  "skadNazwa": "Angielskie *capability* podręcznik tłumaczy jako „potencjał”, a egzamin jako „zdolność”.",
+  "wyobrazSobie": "Stopnie pływackie w jednej dyscyplinie: każdy wyższy wymaga zaliczenia wszystkich niższych, a instruktor sprawdza konkretne elementy, a nie ogólne wrażenie o całym sportowcu.",
+  "poCo": "Żeby ocenić, jak dobrze działa i jak jest zarządzany konkretny proces, w sposób porównywalny i powtarzalny, i wiedzieć, co poprawić, by wejść poziom wyżej.",
+  "jakDziala": "Model Zdolności Procesu (Process Capability Model) opiera się na ISO/IEC 15504. Proces ocenia się na sześciu poziomach, od 0 (Niekompletny, incomplete) do 5 (Zoptymalizowany, optimising), a o poziomach decyduje 9 atrybutów procesu (process attributes). Atrybuty ocenia się skalą N/C/W/P: proces osiąga poziom, gdy atrybuty tego poziomu mają W lub P, a wszystkie atrybuty niższych poziomów mają P (Pełny).",
+  "dlaczegoWazne": "To oś dnia 4 i częsty temat pytań: model opiera się na ISO/IEC 15504, zastąpił model dojrzałości COBIT 4.1, daje zwykle niższe wyniki i ocenia tylko procesy, czyli 1 z 7 aktywatorów.",
+  "poziom1": "Skala do oceny, jak dobrze działa konkretny proces: od 0 (niekompletny) do 5 (zoptymalizowany), oparta na normie ISO/IEC 15504, w której o poziomie decyduje 9 atrybutów procesu (np. naprawa usterek, która działa, ale nikt jej nie planuje, to poziom 1). Zastąpiła model dojrzałości z COBIT 4.1 i ocenia tylko procesy, nie pozostałe aktywatory.",
+  "poziom2": "Zastępuje **model dojrzałości COBIT 4.1**. Różnice: inne **nazwy i znaczenie poziomów**; poziomy definiuje **9 atrybutów procesu** (zamiast 6 atrybutów dojrzałości); wyniki są zwykle **niższe** niż w COBIT 4.1; **nie ma osobnego modelu dojrzałości dla każdego procesu**. Model referencyjny procesu podaje opis procesu z celem, **praktyki bazowe** (= praktyki nadzoru i zarządzania) oraz **produkty pracy** (= wejścia i wyjścia).\n\nOcenia się **procesy**, czyli tylko 1 z 7 aktywatorów, więc ocena procesów nie daje pełnego obrazu Ładu.",
+  "poziom3": "Rozdział 8 (s. 41–45), Ilustracje 18–21.",
+  "przyklady": {
+    "zycie": "Rodzina ocenia swoje domowe sprawy tą samą skalą 0–5: płacenie rachunków, sprzątanie, gotowanie. Wychodzi, że rachunki są na poziomie 3 (wszyscy robią to według jednej ustalonej procedury), a sprzątanie ledwie na 1 (jakoś się robi, ale bez planu). Jedna skala do porównania różnych procesów – to model zdolności procesu.",
+    "biuro": "Audytorka sprawdza w biurze proces obsługi reklamacji. Reklamacje są załatwiane (poziom 1), ale nikt nie planuje terminów ani nie sprawdza kompletności pism, więc proces nie osiąga poziomu 2 (Zarządzany). Ocenia tylko ten proces, a nie całe biuro.",
+    "firma": "Warsztat samochodowy przez lata oceniał się starą skalą i wychodziło mu „trzy na pięć”. Po przejściu na nową, gdzie każdy poziom trzeba udowodnić konkretnymi atrybutami (np. czy przyjmowanie aut jest planowane, a dokumenty pod kontrolą), wychodzi poziom 1. Warsztat nie stał się gorszy – skala jest bardziej wymagająca, tak jak model zdolności COBIT 5 wobec modelu dojrzałości COBIT 4.1.",
+    "admin": "Audytor ocenia w starostwie trzy procesy IT: obsługa zgłoszeń wychodzi na poziom 2 (zarządzany), kopie zapasowe na 1 (wykonywany), a zarządzanie zmianami na 0 (niekompletny). O strukturach, ludziach czy kulturze urzędu ta ocena nic nie mówi. Model zdolności mierzy procesy, czyli jeden z siedmiu aktywatorów, a nie cały Ład IT.",
+    "psp": "Komenda wojewódzka porównuje stanowiska kierowania w kilku powiatach na jednej skali 0–5. Obsługa zgłoszeń w jednej komendzie wychodzi na poziom 2 (zarządzany: dyżury planowane, karty zdarzeń pod kontrolą), a zarządzanie problemami z systemem na 0 (niekompletny), bo nikt nie szuka przyczyn powtarzających się awarii. Wspólna skala z atrybutami pozwala uczciwie porównać procesy – to model zdolności procesu.",
+    "it": "Audytor ocenia DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami): PA 1.1 dostaje P, a PA 2.1 i PA 2.2 dostają W, więc proces osiąga poziom 2. Ocena dotyczy tylko DSS02, a nie całego IT."
+  },
+  "glebokosc": {
+    "prosty": "Kucharka w barze smaży naleśniki. Najpierw po prostu wychodzą, choć każdego dnia trochę inaczej; potem planuje, ile ich zrobi, i pilnuje jakości; jeszcze wyżej jest spisany przepis dla całej sieci barów, mierzony i ciągle ulepszany. Taka skala mówi, jak dojrzale robimy jedną konkretną rzecz, a nie jak dobra jest cała restauracja.",
+    "zaawansowany": "Ewa Lis ocenia proces powiadamiania jednostek według modelu zdolności opartego na ISO/IEC 15504. Alarmy w dużej mierze dochodzą, więc proces osiąga swój cel – to podstawa poziomu 1. Nikt jednak nie planuje ani nie monitoruje jego wykonania, więc poziomu 2 nie ma. O wyniku decydują [[atrybuty-procesu|atrybuty procesu]] oceniane w [[skala-ocen|skali N/C/W/P]]: atrybuty danego poziomu muszą mieć co najmniej W, a wszystkie niższe – P. Komendantka dostaje wynik o jednym procesie, a nie o całym IT komendy.",
+    "skrajny": "Komenda miała w COBIT 4.1 „poziom dojrzałości 3” dla procesu powiadamiania, a ocena zdolności według COBIT 5 daje poziom 1. St. ogn. Nowik pyta, czy komenda się pogorszyła. Niekoniecznie: model zdolności ma inne nazwy i znaczenie poziomów, poziomy definiuje 9 atrybutów procesu, a wyniki są zwykle niższe niż w COBIT 4.1 (s. 43), więc obu liczb nie da się prosto porównać. Drugi przypadek graniczny: komendantka chce ocenić modelem zdolności kulturę zgłaszania błędów albo Radę ds. Informatyki, a model ocenia tylko procesy, czyli jeden z siedmiu aktywatorów (s. 41). Dlatego nawet bardzo wysokie wyniki procesów nie dają pełnego obrazu stanu Ładu. **Rozstrzygnięcie:** model zdolności COBIT 5 (ISO/IEC 15504) ocenia wyłącznie procesy, jego poziomy nie są porównywalne z poziomami dojrzałości COBIT 4.1, a niższy wynik po zmianie modelu nie oznacza pogorszenia."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Poziom zdolności 3 w COBIT 5 to to samo co poziom dojrzałości 3 w COBIT 4.1.",
+      "prawda": "To różne modele z innymi nazwami i znaczeniem poziomów, a wyniki w COBIT 5 są zwykle niższe. Nie porównuj ich wprost."
+    },
+    {
+      "mit": "Modelem zdolności można ocenić każdy aktywator, np. kulturę czy struktury.",
+      "prawda": "Ocenia się tylko procesy, czyli 1 z 7 aktywatorów. Dlatego ocena procesów nie daje pełnego obrazu Ładu."
+    },
+    {
+      "mit": "„Potencjał procesu” z podręcznika to inny model niż „zdolność procesu” z egzaminu.",
+      "prawda": "To to samo *capability*: podręcznik mówi „potencjał”, egzamin „zdolność”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Porównywanie wyników z modelem dojrzałości COBIT 4.1 i rozciąganie oceny zdolności na inne aktywatory.",
+    "jakTlumaczyc": "Linijka i waga: model dojrzałości COBIT 4.1 i model zdolności to dwa różne przyrządy, więc „3” z linijki nic nie mówi o „3” z wagi. A ta waga waży tylko procesy – kultury ani struktur nią nie zważysz.",
+    "pytanieKontrolne": "Po przejściu na COBIT 5 wynik procesu spadł z 3 do 1. Co powiesz komendantce?",
+    "odpowiedzKontrolna": "Że to nie musi oznaczać pogorszenia: model zdolności (ISO/IEC 15504) ma inne poziomy, definiuje je 9 atrybutów procesu, a wyniki są zwykle niższe niż w modelu dojrzałości COBIT 4.1. Wyników nie da się porównać wprost; sens ma porównywanie kolejnych ocen tym samym modelem. Dodam, że ocena dotyczy tylko procesów, a nie całego Ładu."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Model dojrzałości COBIT 4.1",
+      "roznica": "Poziomy dojrzałości 0–5 (nie istnieje… zoptymalizowany) ≠ poziomy zdolności ISO 15504. Nie da się ich prosto porównać."
+    }
+  ],
+  "przykladWypowiedzi": "The Process Capability Model, czyli Model Zdolności Procesu, oparty na ISO/IEC 15504, ocenia zdolność (capability) jednego procesu na poziomach 0–5 za pomocą 9 atrybutów procesu, a nie dojrzałość (maturity) całej organizacji.",
+  "egzamin": "Model zdolności COBIT 5 opiera się na **ISO/IEC 15504**. Ocena procesów nie daje pełnego obrazu stanu Ładu, bo procesy to tylko jeden z 7 aktywatorów.",
+  "powiazane": [
+    "poziomy-zdolnosci",
+    "atrybuty-procesu",
+    "skala-ocen",
+    "przewodniki-oceny"
+  ],
+  "sylabus": [
+    "PC-01-01",
+    "PC-02-05"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 41,
+      "cytat": "Do produktów COBIT 5 należy również model potencjału procesu oparty na uznanej międzynarodowej normie ISO/"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 43
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Model Zdolności Procesu",
+    "podrecznik": "Model potencjału procesu COBIT 5",
+    "kurs": "Model Zdolności Procesu (COBIT 5 Process Capability Model)",
+    "uwaga": "Capability: Zdolność (egzamin) / Potencjał (podręcznik). Nie utożsamiać z dojrzałością (maturity, COBIT 4.1). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 8, 9, 16."
+  },
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "proces",
+    "prm"
+  ]
+}

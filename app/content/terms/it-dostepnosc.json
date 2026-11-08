@@ -1,0 +1,101 @@
+{
+  "id": "it-dostepnosc",
+  "en": "Availability",
+  "wymowa": "awejlabiliti",
+  "wymowaAkcent": "a-wej-la-BI-li-ti",
+  "plEgzamin": "Dostępność",
+  "plPodrecznik": "dostępność",
+  "plInne": [
+    "gotowość usługi"
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "dostępność (FW-PL s. 19, 33, 82)",
+    "kurs": "Dostępność (Availability)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. W COBIT 5 „dostępność” występuje w kilku miejscach: dostępność usług (cel organizacji 7, proces BAI04) i dostępność informacji (jakość informacji, s. 82). Nie myl z „accessibility” (dostęp) w kategorii „Dostęp i Bezpieczeństwo”."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-usluga-it",
+    "it-ciaglosc-dzialania"
+  ],
+  "poLudzku": "Usługa albo informacja działa i można z niej skorzystać wtedy, gdy jest potrzebna.",
+  "poziom1": "Dostępność to cecha usługi lub informacji: jest „pod ręką” w chwili potrzeby. Mierzy się ją często w procentach czasu, np. „usługa działa 99,9% czasu w roku”.",
+  "poziom2": "99,9% brzmi świetnie, ale to prawie 9 godzin przerwy w roku. 99,99% to niecała godzina. Większa dostępność kosztuje: zapasowe serwery, zasilanie, dyżury. Dlatego organizacja musi zdecydować, jakiej dostępności potrzebuje dla każdej usługi.",
+  "poziom3": "W COBIT 5: cel organizacji nr 7 *„Ciągłość i dostępność usług biznesowych”* (FW-PL s. 19), proces BAI04 Zarządzanie dostępnością i pojemnością (s. 33) oraz kryterium jakości informacji „dostępność/terminowość”, czyli *„stopień, w jakim informacje są dostępne, gdy są wymagane”* (s. 82).",
+  "wyobrazSobie": "Apteka dyżurna: ważne nie tylko, że ma leki, ale że jest otwarta o 3 w nocy, gdy ich potrzebujesz.",
+  "poCo": "Żeby ludzie mogli pracować wtedy, kiedy muszą, a nie tylko wtedy, gdy system akurat działa.",
+  "jakDziala": "Organizacja ustala, kiedy i jak niezawodnie usługa ma działać. Informatycy dobierają infrastrukturę (np. zapasowy serwer), pilnują, by starczyło mocy, i mierzą przerwy. Gdy dostępność spada, szukają przyczyn.",
+  "dlaczegoWazne": "Dla systemu alarmowego dostępność to sprawa życia. COBIT 5 łączy ją z ciągłością i z jakością informacji.",
+  "przyklady": {
+    "zycie": "Bankomat pod blokiem działa całą dobę – to dobra dostępność. Gdy co weekend jest „nieczynny”, dostępność jest słaba, choć pieniądze w banku są.",
+    "biuro": "System do rejestracji gości ma działać od 7 do 17. Przerwa w nocy nikomu nie szkodzi – to świadomie niższa dostępność.",
+    "organizacja": "Sklep internetowy przed świętami dokupuje serwery, żeby strona nie padała przy tłumie klientów.",
+    "psp": "Komendantka Wrzos decyduje: „Syrena” ma działać całą dobę, a przerwa nie może przekroczyć 5 minut w roku. To wymaganie dostępności.",
+    "it": "BAI04 Zarządzanie dostępnością i pojemnością; cel organizacji 7 i kryterium jakości informacji „dostępność/terminowość” (FW-PL s. 19, 33, 82)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-ciaglosc-dzialania",
+      "roznica": "Dostępność to codzienne „działa, gdy trzeba”. Ciągłość to przygotowanie na poważne zakłócenia."
+    },
+    {
+      "termin": "dostep-i-bezpieczenstwo",
+      "roznica": "Kategoria jakości informacji „Dostęp i Bezpieczeństwo” obejmuje dostępność, ale też ograniczenie dostępu dla nieuprawnionych."
+    }
+  ],
+  "przykladWypowiedzi": "Availability, czyli dostępność, mówi, czy usługa działa wtedy, gdy jest potrzebna; „Syrena” potrzebuje availability całą dobę.",
+  "egzamin": "BAI04 Zarządzanie dostępnością i pojemnością (Manage Availability and Capacity); dostępność to też kryterium jakości informacji (FW-PL s. 82).",
+  "powiazane": [
+    "it-ciaglosc-dzialania",
+    "it-bezpieczenstwo-informacji",
+    "dostep-i-bezpieczenstwo",
+    "proc-bai04"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "BAI04 Zarządzanie dostępnością i pojemnością"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 82,
+      "cytat": "stopień, w jakim informacje są dostępne, gdy są wymagane"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 19,
+      "cytat": "Ciągłość i dostępność usług biznesowych"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Twój lekarz rodzinny przyjmuje tylko we wtorki od 10 do 12. Jest świetnym lekarzem, ale gdy zachorujesz w piątek, nic Ci po nim. Dostępność to właśnie to: czy usługa jest wtedy, gdy jej potrzebujesz.",
+    "zaawansowany": "Sikora liczy: 5 minut przerwy w roku to dostępność około 99,999%. Sam serwer pod schodami tego nie da. Potrzebny jest drugi serwer, zasilanie awaryjne i drugie łącze. Halina Mak liczy koszt, a komendantka decyduje, ile dostępności komenda kupuje. Część tych środków przyda się też w planie [[it-ciaglosc-dzialania|ciągłości działania]].",
+    "skrajny": "Czy system, który działa, ale odpowiada po 5 minutach, jest dostępny? Formalnie tak, praktycznie nie – dla alarmu to za późno. Czy dostępność 100% jest możliwa? W praktyce nie, a każda kolejna „dziewiątka” po przecinku kosztuje więcej. Czy dostępność to cecha bezpieczeństwa? Tak – to jedna z trzech cech bezpieczeństwa informacji. **Rozstrzygnięcie:** dostępność to możliwość skorzystania z usługi lub informacji w chwili potrzeby i w użytecznym czasie; jej poziom wybiera kierownictwo, ważąc koszt."
+  },
+  "zagmatwania": [
+    {
+      "mit": "99% dostępności to prawie zawsze.",
+      "prawda": "99% to ponad 3,5 doby przerwy w roku. Dla alarmów to bardzo dużo."
+    },
+    {
+      "mit": "O dostępności decyduje informatyk, bo to sprawa techniczna.",
+      "prawda": "Ile dostępności potrzeba i ile za nią zapłacić, decyduje kierownictwo. Informatyk mówi, jak to osiągnąć."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie dostępności z ciągłością i lekceważenie różnicy między 99% a 99,9%.",
+    "jakTlumaczyc": "Apteka dyżurna i lekarz przyjmujący tylko we wtorki.",
+    "pytanieKontrolne": "Ile godzin przerwy w roku oznacza dostępność 99,9%?",
+    "odpowiedzKontrolna": "Około 9 godzin (0,1% z 8760 godzin w roku)."
+  }
+}

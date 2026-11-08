@@ -1,0 +1,47 @@
+{
+  "pytania": [
+    {
+      "id": "q-men-m0-06-lad-zarzadzanie-1",
+      "typ": "bledy",
+      "mentor": true,
+      "sylabus": [
+        "M0-00-06"
+      ],
+      "lekcja": "m0-06-lad-zarzadzanie",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "postac": "Kasia Nowik, dyżurna SK",
+      "tresc": "Popraw kolegę. Dyżurny z drugiej zmiany tłumaczy Kasi Nowik, czym jest Ład. Które jego zdania są **błędne**?",
+      "tekst": "„Ład to po prostu kontrola, czyli inspekcje i audyty. Za Ład w większości organizacji odpowiada zarząd pod przewodnictwem prezesa. Zarządzanie planuje, tworzy, wykonuje i monitoruje. Ład to wyższy szczebel Zarządzania, więc oba słowa znaczą to samo.”",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "przyklad",
+      "twierdzenia": [
+        {
+          "tekst": "Ład to po prostu kontrola, czyli inspekcje i audyty.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. Ład ocenia potrzeby, wyznacza kierunek i monitoruje (Oszacuj, Kieruj, Monitoruj). Kontrola to tylko część monitorowania, a audyt to coś innego."
+        },
+        {
+          "tekst": "Za Ład w większości organizacji odpowiada zarząd pod przewodnictwem prezesa.",
+          "poprawne": true,
+          "wyjasnienie": "Prawda. Tak podaje podręcznik (s. 14)."
+        },
+        {
+          "tekst": "Zarządzanie planuje, tworzy, wykonuje i monitoruje.",
+          "poprawne": true,
+          "wyjasnienie": "Prawda. To cztery czynności Zarządzania: Planuj, Twórz, Wykonuj, Monitoruj."
+        },
+        {
+          "tekst": "Ład to wyższy szczebel Zarządzania, więc oba słowa znaczą to samo.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. Ład i Zarządzanie to różne dziedziny: inne działania, inne struktury i inne cele. Nie są zamienne."
+        }
+      ]
+    }
+  ]
+}

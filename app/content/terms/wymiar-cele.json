@@ -1,0 +1,120 @@
+{
+  "id": "wymiar-cele",
+  "en": "Goals (enabler dimension)",
+  "wymowa": "gołlz",
+  "wymowaAkcent": "gołlz",
+  "plEgzamin": "Cele (wymiar aktywatora)",
+  "plPodrecznik": "Cele (wymiar czynnika umożliwiającego)",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cele (wymiar aktywatora)",
+    "podrecznik": "Cele (wymiar czynnika umożliwiającego)",
+    "kurs": "Cele (wymiar aktywatora) – Goals",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 8, 9; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Kategorie celów: egzamin „Jakość wewnętrzna”, podręcznik „Jakość rzeczywista”. Ilustracja 13 pisze „Dostępność i bezpieczeństwo”, a tekst na s. 29 „Dostęp i bezpieczeństwo”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "wymiary-aktywatora",
+    "cele-aktywatorow",
+    "kaskada-celow"
+  ],
+  "poLudzku": "Co konkretnie dana procedura, system czy zespół ma dawać i po czym poznasz, że to daje.",
+  "skadNazwa": "*Goals*. Kategorię *intrinsic quality* podręcznik tłumaczy jako „jakość rzeczywista”, a egzamin jako „jakość wewnętrzna”.",
+  "wyobrazSobie": "Termometr: ma mierzyć dokładnie, w stopniach, które rozumiesz, i leżeć tam, gdzie go znajdziesz.",
+  "poCo": "Żeby dla aktywatora wiedzieć, co dokładnie ma osiągać i jak sprawdzić, czy to osiąga.",
+  "jakDziala": "Cele opisujesz przez oczekiwane wyniki albo przez samo stosowanie aktywatora. Dzielisz je na trzy kategorie: jakość wewnętrzna, jakość kontekstowa oraz dostęp i bezpieczeństwo. Osiągnięcie celów mierzy wskaźnik opóźniony.",
+  "dlaczegoWazne": "To ostatni etap kaskady celów i częsty temat pytań. Trzeba umieć przypisać cechę, np. „aktualne”, do właściwej kategorii.",
+  "poziom1": "Drugi wymiar aktywatora. Każdy aktywator ma cele i daje wartość, gdy je osiąga. Cele dzielą się na trzy kategorie: jakość wewnętrzna, jakość kontekstowa oraz dostęp i bezpieczeństwo. To ostatni etap kaskady celów.",
+  "poziom2": "| Kategoria | Pytanie (uproszczenie) | Hasło |\n|---|---|---|\n| **Jakość wewnętrzna** | czy działa dokładnie i obiektywnie? | [[jakosc-wewnetrzna]] |\n| **Jakość kontekstowa** | czy pasuje do celu i sytuacji (istotne, kompletne, aktualne)? | [[jakosc-kontekstowa]] |\n| **Dostęp i bezpieczeństwo** | czy jest dostępny i chroniony? | [[dostep-i-bezpieczenstwo]] |\n\nCele można definiować przez **oczekiwane wyniki** aktywatora albo przez **zastosowanie samego aktywatora**. Pytanie wydajności „Czy osiągnięto cele?” mierzy [[wskaznik-opozniony|wskaźnik opóźniony]].",
+  "poziom3": "(s. 29): *„Dla każdego czynnika umożliwiającego istnieje określona liczba celów”*. *„Cele czynników umożliwiających to ostateczny etap w kaskadzie celów COBIT 5.”* Jakość kontekstowa: wyniki *„powinny być istotne, kompletne, aktualne, odpowiednie, spójne, zrozumiałe i łatwe do wykorzystania”*.",
+  "przyklady": {
+    "zycie": "Domowa apteczka ma cele. Leki mają być prawdziwe i nieprzeterminowane (jakość wewnętrzna). Mają pasować do tego, na co choruje rodzina (jakość kontekstowa). Apteczka ma być pod ręką, ale poza zasięgiem małych dzieci (dostęp i bezpieczeństwo).",
+    "biuro": "Książka adresowa klientów w biurze ma mieć poprawne dane, aktualne numery i być dostępna tylko dla pracowników. To trzy kategorie celów jednego aktywatora.",
+    "organizacja": "Cennik w sklepie internetowym ma podawać prawdziwe ceny (jakość wewnętrzna). Ma być aktualny i zrozumiały dla klienta (jakość kontekstowa). Ma działać także w nocy, ale zmieniać go może tylko kierowniczka (dostęp i bezpieczeństwo).\n\nRejestr mieszkańców w gminie ma zawierać dane zgodne z dokumentami. Ma być kompletny i aktualny dla urzędników. Ma być dostępny w godzinach pracy, ale tylko dla uprawnionych osób. To trzy kategorie celów aktywatora.",
+    "psp": "**Trzy pytania o listę numerów** Kpt. Marek Sikora zapisuje cele listy numerów OSP w Syrenie. Numery mają być wpisane bez błędów (jakość wewnętrzna). Mają być aktualne i kompletne dla każdej OSP (jakość kontekstowa). Lista ma być dostępna dla każdego dyżurnego o każdej porze, a zmieniać ją może tylko Ola Dudek (dostęp i bezpieczeństwo). To wymiar „Cele” aktywatora Informacja.",
+    "it": "Dla procesu APO08 (Zarządzanie relacjami) FW-PL podaje przykładowy cel: dobre relacje między przedsiębiorstwem a działem IT. Miernik to wyniki badań zadowolenia użytkowników i personelu IT (Przykład 5, s. 30)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cele-aktywatorow",
+      "roznica": "To ten sam poziom: cele aktywatora to ostatni etap kaskady. Hasło kaskady pokazuje, skąd cele się biorą; wymiar pokazuje, jak je opisać (3 kategorie)."
+    },
+    {
+      "termin": "cele-zwiazane-z-it",
+      "roznica": "Cele związane z informatyką to poziom wyżej w kaskadzie (17 celów). Wymiar „Cele” dotyczy jednego aktywatora."
+    },
+    {
+      "termin": "jakosc-wewnetrzna",
+      "roznica": "„Wewnętrzna” znaczy „sama w sobie” (dokładność, obiektywność), a nie „wewnątrz organizacji”."
+    }
+  ],
+  "przykladWypowiedzi": "Enabler goals, czyli cele aktywatora, dzielą się na intrinsic quality (jakość wewnętrzna), contextual quality (jakość kontekstowa) oraz accessibility and security (dostęp i bezpieczeństwo).",
+  "egzamin": "Trzy kategorie celów aktywatora: **jakość wewnętrzna**, **jakość kontekstowa**, **dostęp i bezpieczeństwo**. „Aktualne” i „kompletne” to jakość **kontekstowa**, a nie wewnętrzna. „Czy osiągnięto cele?” → wskaźnik **opóźniony**.",
+  "powiazane": [
+    "wymiary-aktywatora",
+    "cele-aktywatorow",
+    "jakosc-wewnetrzna",
+    "jakosc-kontekstowa",
+    "dostep-i-bezpieczenstwo",
+    "wskaznik-opozniony"
+  ],
+  "sylabus": [
+    "PR-02-12",
+    "PR-02-06",
+    "PR-01-05"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Dla każdego czynnika umożliwiającego istnieje określona liczba celów"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Cele czynników umożliwiających to ostateczny etap w kaskadzie celów COBIT 5."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "wyniki powinny być istotne, kompletne, aktualne, odpowiednie, spójne, zrozumiałe i łatwe do wykorzystania"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 28,
+      "ilustracja": "13",
+      "cytat": "Dostępność i bezpieczeństwo"
+    }
+  ],
+  "mapa": "wymiar-cele",
+  "glebokosc": {
+    "prosty": "Kupujesz wagę łazienkową. Ma pokazywać prawdziwą wagę. Ma ważyć w kilogramach, a nie w funtach. Ma stać w łazience, a wynik ma widzieć tylko ten, kto się waży. To trzy rodzaje celów jednej rzeczy.",
+    "zaawansowany": "Numer druha Pietrzaka w Syrenie był sprzed dwóch lat. Sikora pyta: która kategoria celu zawiodła? Numer był wpisany poprawnie, ale już nieaktualny, więc zawiodła [[jakosc-kontekstowa|jakość kontekstowa]]. Część dyżurnych nie miała dostępu do listy, więc zawiódł też [[dostep-i-bezpieczenstwo|dostęp i bezpieczeństwo]]. Te cele to dolny koniec [[kaskada-celow|kaskady celów]]: od „szybszej pomocy” do „aktualnego numeru OSP”.",
+    "skrajny": "„Jakość wewnętrzna” brzmi jak „jakość wewnątrz firmy”, więc uczeń przypisuje jej wszystko, co dotyczy komendy. To błąd. „Wewnętrzna” znaczy „sama w sobie”: czy aktywator działa dokładnie i obiektywnie. Aktualność, kompletność i zrozumiałość to jakość kontekstowa, bo zależą od tego, do czego wynik ma służyć. Podręcznik dokłada zamieszania: pisze „jakość rzeczywista”, a raz „dostępność”, raz „dostęp” i bezpieczeństwo. **Rozstrzygnięcie:** dokładne i obiektywne to jakość wewnętrzna; istotne, kompletne i aktualne to jakość kontekstowa; dostępne i chronione to dostęp i bezpieczeństwo."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Jakość wewnętrzna to jakość wewnątrz organizacji.",
+      "prawda": "To jakość aktywatora samego w sobie: dokładność i obiektywność."
+    },
+    {
+      "mit": "Nieaktualny numer telefonu to błąd jakości wewnętrznej.",
+      "prawda": "Aktualność należy do jakości kontekstowej (s. 29)."
+    },
+    {
+      "mit": "Wymiar „Cele” i 4. krok kaskady celów to dwie różne rzeczy.",
+      "prawda": "FW-PL: cele aktywatorów to ostateczny etap kaskady. To te same cele."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Wrzucanie „aktualności” do jakości wewnętrznej.",
+    "jakTlumaczyc": "Zadaj dwa pytania. „Czy to jest prawdziwe?” sprawdza jakość wewnętrzną. „Czy to się teraz do czegoś nada?” sprawdza jakość kontekstową. Stary, ale prawdziwy numer odpada na drugim pytaniu.",
+    "pytanieKontrolne": "Lista numerów jest wpisana bez literówek, ale połowa numerów jest sprzed dwóch lat. Która kategoria celu zawodzi?",
+    "odpowiedzKontrolna": "**Jakość kontekstowa** (aktualność, kompletność). Jakość wewnętrzna dotyczy dokładności i obiektywności."
+  }
+}

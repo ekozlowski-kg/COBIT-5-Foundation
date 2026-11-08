@@ -1,0 +1,110 @@
+{
+  "id": "zdolnosc-uslugowa",
+  "en": "Service capabilities",
+  "wymowa": "serwis kejpabilitiz",
+  "wymowaAkcent": "SER-wis kej-pa-BI-li-tiz",
+  "plEgzamin": "Zdolność usługowa",
+  "plPodrecznik": "Zdolność do świadczenia usług",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Zdolność usługowa",
+    "podrecznik": "Zdolność do świadczenia usług",
+    "kurs": "Zdolność usługowa (Service capabilities)",
+    "uwaga": "Egzamin PL: „Zdolność usługowa”; podręcznik PL: „Zdolność do świadczenia usług” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 24, 28, 71."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „zdolność usługowa”, podręcznik: „zdolność do świadczenia usług”. Nie myl ze „zdolnością procesu” (poziomy 0–5 z modelu oceny). To zupełnie inne pojęcie.",
+  "skadNazwa": "*Service capabilities*. Podręcznik: „zdolność do świadczenia usług”, egzamin: „zdolność usługowa”. Słowo „zdolność” pojawia się też w „zdolności procesu” (*process capability*), ale to inny termin.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "uslugi-infrastruktura-aplikacje",
+    "informacja"
+  ],
+  "mapa": "zdolnosc-uslugowa",
+  "poziom1": "Zdolność usługowa to zasoby, dzięki którym da się świadczyć usługi IT, czyli aplikacje i infrastruktura. Podręcznik używa tego terminu łącznie dla usług, infrastruktury i aplikacji. Informacja też jest jedną ze zdolności usługowych.",
+  "poLudzku": "Wszystko, na czym stoją usługi informatyczne: sprzęt, sieć, programy i same usługi.",
+  "wyobrazSobie": "Zaplecze pizzerii: piec, skuter, telefon i lista adresów. Bez nich nie ma dowozu.",
+  "poCo": "Żeby nazwać wszystko, na czym stoją usługi IT, i móc tym świadomie zarządzać.",
+  "jakDziala": "Zdolność usługowa obejmuje usługi, infrastrukturę i aplikacje, a także informację. Procesy z niej korzystają i ją dostarczają. Obecny stan opisuje architektura referencyjna, a przyszły architektura docelowa.",
+  "dlaczegoWazne": "Egzamin lubi zdanie, że informacja jest jedną ze zdolności usługowych. Częsty błąd to pomylenie ze zdolnością procesu z modelu oceny.",
+  "poziom2": "| Co obejmuje | Przykład |\n|---|---|\n| aplikacje | system powiadamiania, poczta |\n| infrastruktura (sprzęt, oprogramowanie systemowe, sieć, infrastruktura fizyczna) | serwer, łącza, zasilanie |\n| usługi i poziomy usług | „alarm dociera w minutę, całą dobę” |\n| informacja | lista numerów OSP |\n\nPowiązania: procesy **zapewniają i wymagają** zdolności usługowych (s. 71). Wejścia i wyjścia praktyk mogą obejmować zdolności usługowe (s. 86). Cykl życia opisują architektury: **referencyjna** (obecna), **przejściowa** i **docelowa** (przyszła).",
+  "poziom3": "(s. 85): *„Zdolność do świadczenia usług odnosi się do zasobów takich jak aplikacje oraz infrastruktura, które wykorzystuje się do świadczenia usług związanych z IT.”* To *„termin obejmujący łącznie usługi, infrastrukturę i aplikacje”*. (s. 86): *„Informacje stanowią jedną ze zdolności do świadczenia usług”*.",
+  "przyklady": {
+    "zycie": "Wieczorny film w domu zależy od routera, telewizora i aplikacji z filmami. Razem dają usługę „oglądamy film”. Router i telewizor to infrastruktura, a aplikacja to aplikacja. Całość to zdolność usługowa twojego domu.",
+    "biuro": "Biuro ma serwer plików, Wi-Fi, program do faktur i bazę klientów. Razem pozwalają wystawić fakturę w 5 minut. To zdolność usługowa biura.",
+    "organizacja": "Przychodnia umawia wizyty przez internet. Potrzebuje serwera, systemu rejestracji, łącza i aktualnej listy lekarzy. Wszystko to razem jest zdolnością usługową, dzięki której pacjent zapisze się o północy. Gmina oferuje e-płatności za odbiór śmieci. Działa to dzięki serwerom, systemowi podatkowemu, bramce płatności i bazie mieszkańców. Te zasoby, łącznie z bazą danych, tworzą zdolność usługową gminy.",
+    "psp": "Naczelnik Marek Sikora rysuje, na czym stoi Syrena: serwer w schowku pod schodami, łącze do operatora SMS, aplikacja Syrena i lista numerów ochotników. Usługa to „alarm do JRG i OSP w minutę, całą dobę”. Po nocy na Lipowej widać, że najsłabszym elementem była lista numerów, czyli informacja. Ona też jest częścią zdolności usługowej komendy.",
+    "it": "Proces BAI04 (Zarządzanie dostępnością i pojemnością) dba, żeby infrastruktura i aplikacje udźwignęły potrzebne usługi. APO09 (Zarządzanie umowami o świadczenie usług) zapisuje uzgodnione poziomy usług. Oba procesy zarządzają zdolnością usługową."
+  },
+  "glebokosc": {
+    "prosty": "Żeby pizzeria mogła dowozić pizzę, potrzebuje pieca, skutera, telefonu i listy adresów. Bez któregokolwiek dowozu nie będzie. Te rzeczy razem to zdolność do świadczenia usługi. W informatyce to samo nazywa się zdolnością usługową.",
+    "zaawansowany": "Sikora opisuje zdolność usługową Syreny: serwer i łącze (infrastruktura), aplikację Syrena i usługę alarmowania. Proces obsługi alarmu korzysta z tej zdolności, a proces aktualizacji numerów ją dostarcza. Procesy zapewniają i wymagają zdolności usługowych. Lista numerów trafia do procesu jako [[wejscia-wyjscia|wejście]]. Bez niej usługa nie działa, nawet gdy serwer jest sprawny.",
+    "skrajny": "Audytorka Ewa Lis mówi na odprawie: „Sprawdzę zdolność procesu powiadamiania”. Sikora odpowiada, że zdolność usługowa jest świetna, bo kupili nowy serwer. Mówią o dwóch różnych rzeczach. Zdolność procesu to poziom 0–5 z modelu oceny. Zdolność usługowa to zasoby, na których stoją usługi IT. Druga pułapka: Sikora liczy do zdolności usługowej tylko sprzęt i programy. Tymczasem podręcznik mówi wprost, że informacja jest jedną ze zdolności usługowych, a na Lipowej zawiodła właśnie lista numerów. **Rozstrzygnięcie:** zdolność usługowa to usługi, infrastruktura i aplikacje, a także informacja. Nie myl jej ze zdolnością procesu z modelu oceny."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Zdolność usługowa to poziom dojrzałości usług, jak poziomy 0–5.",
+      "prawda": "Poziomy 0–5 to zdolność procesu. Zdolność usługowa to zasoby: aplikacje, infrastruktura, usługi."
+    },
+    {
+      "mit": "Informacja to osobny aktywator, więc nie jest zdolnością usługową.",
+      "prawda": "Informacja jest osobnym aktywatorem i zarazem jedną ze zdolności usługowych (s. 86)."
+    },
+    {
+      "mit": "Procesy tylko korzystają ze zdolności usługowych.",
+      "prawda": "Procesy zarówno zapewniają, jak i wymagają zdolności usługowych (s. 71)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń widzi słowo „zdolność” i myli zdolność usługową ze zdolnością procesu z dnia 4.",
+    "jakTlumaczyc": "Powiedz: zdolność usługowa to „na czym to stoi” (rzeczy), a zdolność procesu to „jak dobrze to robimy” (ocena). Pokaż pizzerię: piec to zdolność usługowa, ocena pracy kuchni to zdolność procesu.",
+    "pytanieKontrolne": "Audytor mówi o „zdolności”, a informatyk o „zdolności usługowej”. Czym różnią się te dwa pojęcia?",
+    "odpowiedzKontrolna": "**Zdolność procesu** to ocena, jak dobrze działa proces (poziomy 0–5). **Zdolność usługowa** to zasoby, na których stoją usługi IT: aplikacje, infrastruktura, usługi, a także informacja."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "model-zdolnosci",
+      "roznica": "Zdolność procesu (poziomy 0–5) mierzy, jak dobrze działa proces. Zdolność usługowa to zasoby: aplikacje, infrastruktura, usługi."
+    },
+    {
+      "termin": "uslugi-infrastruktura-aplikacje",
+      "roznica": "Usługi, Infrastruktura i Aplikacje to nazwa całego aktywatora 6. Zdolność usługowa to termin na to, co ten aktywator obejmuje."
+    }
+  ],
+  "przykladWypowiedzi": "Service capabilities, czyli zdolność usługowa, include applications, infrastructure and services, and information is one of them.",
+  "egzamin": "Zdolność usługowa = **usługi, infrastruktura i aplikacje** łącznie. **Informacja jest jedną ze zdolności usługowych** (s. 86). Procesy **zapewniają i wymagają** zdolności usługowych.",
+  "powiazane": [
+    "uslugi-infrastruktura-aplikacje",
+    "informacja",
+    "zasady-architektury",
+    "proces"
+  ],
+  "sylabus": [
+    "EN-02-21"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 85,
+      "cytat": "Zdolność do świadczenia usług odnosi się do zasobów takich jak aplikacje oraz infrastruktura"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 85,
+      "cytat": "termin obejmujący łącznie usługi, infrastrukturę i aplikacje"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 86,
+      "cytat": "Informacje stanowią jedną ze zdolności do świadczenia usług"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 71,
+      "cytat": "Procesy zapewniają (lecz także wymagają) zdolności do świadczenia usług"
+    }
+  ]
+}

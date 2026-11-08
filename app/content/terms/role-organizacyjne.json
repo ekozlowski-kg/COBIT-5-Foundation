@@ -1,0 +1,104 @@
+{
+  "id": "role-organizacyjne",
+  "en": "Roles and organisational structures (Figure 33)",
+  "wymowa": "rołlz end organajzejszynal strakczers",
+  "wymowaAkcent": "rołlz end or-ga-naj-ZEJ-szy-nal STRAK-czers",
+  "plEgzamin": "Role i struktury organizacyjne",
+  "plPodrecznik": "Role i struktury organizacyjne w ramach metodyki COBIT 5",
+  "mapa": "role-organizacyjne",
+  "poLudzku": "Typowe stanowiska i zespoły, np. szef informatyki czy komisja ds. ryzyka, i za co odpowiadają.",
+  "wyobrazSobie": "Jak lista funkcji w drużynie harcerskiej z poradnika (drużynowy, przyboczny, kwatermistrz, skarbnik): w małej drużynie jedna osoba pełni kilka funkcji, ale każda funkcja musi mieć kogoś, kto ją pełni.",
+  "poCo": "Żeby organizacja miała wzorcowy zestaw ról i struktur, do których może przypisać odpowiedzialność w tabelach RACI, nawet jeśli u niej stanowiska nazywają się inaczej.",
+  "jakDziala": "COBIT 5 podaje ilustracyjną listę ról i struktur organizacyjnych (Ilustracja 33), np. zarząd (Board), CEO, CFO, CIO, CISO, komitet ds. strategii IT (IT Strategy Committee), komitety sterujące (Steering Committees) i PMO. Dla każdej opisuje, za co odpowiada, np. CIO za dopasowanie strategii IT i biznesowej, a CISO za bezpieczeństwo informacji. Te role są kolumnami tabel RACI, a organizacja przypisuje je do swoich stanowisk i może łączyć kilka ról w jednej osobie.",
+  "dlaczegoWazne": "Egzamin pyta o konkretne role z Ilustracji 33, np. kto odpowiada za dopasowanie strategii IT i biznesowej (CIO) albo kto przewodniczy komitetowi ds. strategii IT (członek zarządu, a nie CIO). Bez nich trudno czytać tabele RACI procesów COBIT 5.",
+  "poziom1": "Wzorcowa lista stanowisk i zespołów, które COBIT 5 wpisuje do tabel RACI (np. zarząd, CEO, CFO, CIO, CISO, komitet sterujący, PMO). To ilustracja – u Ciebie mogą się nazywać inaczej, a jedna osoba może pełnić kilka ról.",
+  "poziom2": "| Rola / struktura | Kluczowe słowo (Ilustracja 33) |\n|---|---|\n| **Zarząd** | rozliczany za nadzór, ogólna kontrola nad zasobami |\n| **CEO** | najwyższy rangą, pełne zarządzanie organizacją |\n| **CFO** | finanse, ryzyko finansowe, rachunkowość |\n| **COO** | funkcjonowanie (operacje) organizacji |\n| **CRO** | ryzyko w całej organizacji |\n| **CIO** | **dopasowanie strategii IT i biznesowej**, planowanie, zasoby, dostarczanie usług IT |\n| **CISO** | bezpieczeństwo informacji we wszystkich formach |\n| **Właściciel procesu biznesowego** | sprawność i doskonalenie procesu, zatwierdzanie zmian |\n| **Komitet ds. strategii (wykonawczy IT)** | portfele inwestycji IT. **Przewodniczy członek zarządu, nie CIO** |\n| **Komitety sterujące** | programy i projekty |\n| **Rada ds. architektury** | architektura korporacyjna, polityki i standardy |\n| **Komitet ds. ryzyka (ERM)** | ryzyko na poziomie organizacji |\n| **PMO** | wsparcie kierowników projektów i programów |\n| **VMO** | sekretariat portfela inwestycji i usług, uzasadnienia biznesowe |\n| **Kierownicy:** usług, bezpieczeństwa informacji, ciągłości działania; **dyrektor ds. prywatności** | |",
+  "poziom3": "Ilustracja 33 (s. 76–77). Uwaga z podręcznika: role nie muszą odpowiadać rzeczywistym funkcjom w organizacji, a tabela ma charakter ilustracyjny.",
+  "przyklady": {
+    "zycie": "Rodzina buduje dom. Mama decyduje o całości i podpisuje kredyt (jak CEO), tata pilnuje rat i rachunków (CFO), córka-informatyczka ogarnia internet, kamery i alarm (CIO), a co tydzień cała trójka siada jako „komitet sterujący” budowy. To te same funkcje co w tabeli COBIT, tylko pod innymi nazwami.",
+    "biuro": "W małym biurze kierowniczka jest jednocześnie szefową biura i osobą zatwierdzającą wydatki, a informatyk z firmy zewnętrznej dba i o komputery, i o hasła. Gdy powstaje tabela, kto co robi przy przeprowadzce biura, kierowniczka wpisuje do kolumn te role, a dopiero przy nich nazwiska.",
+    "firma": "W sklepie internetowym na 8 osób właścicielka jest jednocześnie CEO i CFO, a jedyny informatyk pełni rolę CIO i CISO – dba i o serwer, i o hasła. Co poniedziałek właścicielka, informatyk i kierownik magazynu spotykają się jako komitet sterujący nowego projektu. Role z Ilustracji 33 są te same, tylko obsadzone przez mniej osób.",
+    "admin": "W starostwie starosta pełni rolę zbliżoną do CEO, skarbnik do CFO, a kierownik referatu informatyki do CIO. Inspektor ochrony danych odpowiada dyrektorowi ds. prywatności, a osoba odpowiedzialna za bezpieczeństwo informacji – CISO. Nazwy w urzędzie są inne, ale funkcje z tabeli COBIT da się do nich przypisać.",
+    "psp": "Komenda rozpisuje tabelę RACI dla nowego systemu i szuka odpowiedników ról z COBIT (przykład autorski). Komendant to mniej więcej CEO, główny księgowy – CFO, naczelnik wydziału operacyjnego – COO, kierownik sekcji informatyki – CIO, pełnomocnik ds. ochrony informacji – CISO, a IOD – dyrektor ds. prywatności. Tabela COBIT jest ilustracyjna, więc takie dopasowanie jest w porządku.",
+    "it": "Organizacja rozpisuje RACI dla procesu APO13 (Zarządzanie bezpieczeństwem) i kolumnę CISO przypisuje kierownikowi bezpieczeństwa informacji, a kolumnę CIO dyrektorowi IT. Ilustracja 33 jest ilustracyjna, więc w mniejszej firmie te kolumny mogą trafić do innych stanowisk albo do jednej osoby."
+  },
+  "glebokosc": {
+    "prosty": "W klubie sportowym jest prezes, skarbnik, trener i komisja rewizyjna. To nazwy funkcji, a nie konkretnych ludzi: w małym klubie jedna osoba bywa naraz skarbnikiem i trenerem. Liczy się, za co odpowiada każda funkcja.",
+    "zaawansowany": "W komendzie nikt nie nosi tytułu CIO, ale kpt. Sikora pełni tę rolę: dopasowuje strategię IT do zadań komendy i dostarcza usługi IT. Halina Mak odpowiada za finanse, czyli pełni rolę zbliżoną do CFO. Gdy bryg. Wrzos tworzy komitet ds. strategii IT, przewodniczy mu jej zastępca, a Sikora jest członkiem. Te role trafiają potem do tabel [[raci|RACI]], a komitety to [[struktury-organizacyjne|struktury organizacyjne]].",
+    "skrajny": "Kpt. Sikora zna IT najlepiej, więc proponuje, że będzie przewodniczył komitetowi ds. strategii IT. Intuicja mówi, że to logiczne, ale Ilustracja 33 podaje, że przewodniczącym jest **zazwyczaj członek zarządu, a nie CIO**. Komitet zajmuje się portfelem inwestycji IT z perspektywy całej organizacji, więc prowadzi go biznes, a CIO wnosi wiedzę jako członek. Druga pułapka: role z Ilustracji 33 nie muszą odpowiadać stanowiskom – jedna osoba może pełnić kilka ról, a nazwy roli może nie być w schemacie organizacyjnym. Trzecia: CIO to rola, a komitet to struktura, choć oba są w tej samej tabeli. **Rozstrzygnięcie:** za dopasowanie strategii IT i biznesu odpowiada CIO, ale komitetowi strategicznemu IT przewodniczy zwykle członek zarządu; role czytaj jako funkcje, nie jako etaty."
+  },
+  "zagmatwania": [
+    {
+      "mit": "CIO przewodniczy komitetowi ds. strategii IT.",
+      "prawda": "Zazwyczaj przewodniczy członek zarządu, a nie CIO (s. 76)."
+    },
+    {
+      "mit": "CIO i CISO to to samo stanowisko.",
+      "prawda": "CIO: dopasowanie strategii IT do biznesu i dostarczanie usług IT. CISO: bezpieczeństwo informacji we wszystkich formach."
+    },
+    {
+      "mit": "Jeśli w organizacji nie ma stanowiska CRO, tej roli nie ma.",
+      "prawda": "Role są ilustracyjne i nie muszą odpowiadać stanowiskom. Zadania roli może pełnić ktoś inny, np. osoba odpowiedzialna za finanse."
+    },
+    {
+      "mit": "PMO i VMO robią to samo.",
+      "prawda": "PMO wspiera kierowników projektów i programów. VMO prowadzi sekretariat portfela inwestycji i usług oraz uzasadnienia biznesowe."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Branie ról za etaty i oddawanie CIO przewodnictwa komitetu strategicznego IT.",
+    "jakTlumaczyc": "Teatr: rola (Hamlet) to nie aktor – jeden aktor może zagrać dwie role. Potem tabela: rola → jedno kluczowe słowo (CIO – dopasowanie, CISO – bezpieczeństwo informacji, CRO – ryzyko).",
+    "pytanieKontrolne": "W małej komendzie jedna osoba jest naraz CIO i CISO. Czy to sprzeczne z COBIT 5? Kto powinien przewodniczyć komitetowi ds. strategii IT?",
+    "odpowiedzKontrolna": "Nie jest sprzeczne – role są ilustracyjne i jedna osoba może pełnić kilka. Komitetowi strategicznemu IT zwykle przewodniczy członek zarządu, a nie CIO."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "CIO vs CISO",
+      "roznica": "CIO: dopasowanie strategii IT do biznesu i dostarczanie IT. CISO: bezpieczeństwo informacji."
+    },
+    {
+      "termin": "PMO vs VMO",
+      "roznica": "PMO wspiera realizację projektów. VMO zajmuje się wartością portfela i uzasadnieniami biznesowymi."
+    }
+  ],
+  "przykladWypowiedzi": "Chief Information Officer (CIO) odpowiada za dopasowanie strategii IT i strategii biznesowej, a Chief Information Security Officer (CISO) za bezpieczeństwo informacji we wszystkich formach; obie role z Ilustracji 33 są kolumnami tabel RACI.",
+  "egzamin": "Najwyższa rangą rola odpowiedzialna za **dopasowanie strategii IT i biznesowej** to **CIO**. Komitetowi strategicznemu IT przewodniczy **członek zarządu**, a nie CIO.",
+  "powiazane": [
+    "struktury-organizacyjne",
+    "raci"
+  ],
+  "sylabus": [
+    "EN-02-13"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 76,
+      "cytat": "Menedżer najwyższego szczebla w przedsiębiorstwie odpowiedzialny za dopasowanie strategii IT i strategii biznesowej"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 76,
+      "ilustracja": "33"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 77
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Role i struktury organizacyjne",
+    "podrecznik": "Role i struktury organizacyjne w ramach metodyki COBIT 5",
+    "kurs": "Role i struktury organizacyjne (Roles and organisational structures)",
+    "uwaga": "Egzamin PL: „Role i struktury organizacyjne”; podręcznik PL: „Role i struktury organizacyjne w ramach metodyki COBIT 5” – konkurencyjne odpowiedniki. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 9, 76, 77."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "struktury-organizacyjne"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "rola-kierownictwo",
+  "en": "Management",
+  "wymowa": "menydżment",
+  "wymowaAkcent": "ME-nydż-ment",
+  "plEgzamin": "Kierownictwo",
+  "plPodrecznik": "Zarządzanie (podpis roli na Ilustracji 9)",
+  "plInne": [
+    {
+      "nazwa": "Kierownictwo (nagłówek opisu roli)",
+      "zrodlo": "FW-PL s. 31"
+    },
+    {
+      "nazwa": "Kadra zarządzająca",
+      "zrodlo": "FW-PL s. 31"
+    }
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Kierownictwo",
+    "podrecznik": "Zarządzanie (podpis roli na Ilustracji 9)",
+    "kurs": "Kierownictwo (Management)",
+    "uwaga": "Ta sama EN „Management” co obszar Zarządzania; jako rola – „Kierownictwo”. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 24 (il. 9: podpis roli „Zarządzanie”); na s. 31 podręcznik używa nagłówka „Kierownictwo”. Inne formy w obiegu: Kierownictwo (FW-PL s. 31); Kadra zarządzająca (FW-PL s. 31)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Na Ilustracji 9 podręcznik podpisuje tę rolę „Zarządzanie”, a egzamin mówi „Kierownictwo” (tę formę podręcznik ma też w nagłówku na s. 31). W uzasadnieniach egzaminacyjnych to kierownictwo odpowiada wykonawczo za monitorowanie, a nie organ Ładu.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "organ-ladu",
+    "zarzadzanie",
+    "role-dzialania-relacje"
+  ],
+  "poLudzku": "Kierownicy, którzy dostają kierunek od szefostwa, rozdzielają pracę ludziom i pilnują, czy idzie dobrze.",
+  "skadNazwa": "*Management*. Na Ilustracji 9 podręcznik pisze „Zarządzanie”, bo tak tłumaczy *management*. Na s. 31 ta sama grupa to „kadra zarządzająca” pod przywództwem dyrektora generalnego (CEO).",
+  "wyobrazSobie": "Kierownik budowy: plan dostaje od inwestora, rozdziela pracę ekipom i codziennie sprawdza postęp.",
+  "poCo": "Żeby kierunek od organu Ładu zamienił się w konkretne zadania i żeby ktoś pilnował ich wykonania.",
+  "jakDziala": "Kierownictwo dostaje kierunek od organu Ładu. Instruuje i dopasowuje role operacyjne, odbiera ich raporty i monitoruje wykonanie. Swoją pracę prowadzi w obszarze Planuj, Twórz, Wykonuj i Monitoruj.",
+  "dlaczegoWazne": "Egzamin sprawdza, komu przypisujesz monitorowanie na Ilustracji 9. Według uzasadnień egzaminacyjnych to kierownictwo, choć Ład też monitoruje w ramach EDM.",
+  "poziom1": "Trzecia rola z Ilustracji 9. Dostaje kierunek od organu Ładu, **instruuje i dopasowuje** role operacyjne i odbiera od nich raporty. W uzasadnieniach egzaminacyjnych to kierownictwo odpowiada wykonawczo za **monitorowanie**.",
+  "poziom2": "| Relacja | Z kim |\n|---|---|\n| otrzymuje **kierunek** | od organu Ładu i nadzoru |\n| **instruuje i dopasowuje** | role operacyjne |\n| otrzymuje **raporty** | od ról operacyjnych |\n| **monitorowanie** | strzałka między organem Ładu a kierownictwem; egzamin wiąże je z kierownictwem |\n\nW większości organizacji to kadra zarządzająca pod przywództwem dyrektora generalnego (s. 31). Jej obszar działań to [[pbrm|Planuj, Twórz, Wykonuj i Monitoruj]].",
+  "poziom3": "(s. 31): *„Zarządzanie polega na planowaniu, budowaniu, realizacji i monitorowaniu działań w sposób spójny z kierunkiem wskazanym przez organ nadzorujący”*. Ilustracja 9 (s. 24): *Wyznaczanie kierunku* → Zarządzanie → *Instruowanie i dopasowanie* → Eksploatacja i wykonanie; w górę *Raportowanie* i *Monitorowanie*.",
+  "przyklady": {
+    "zycie": "Zarząd wspólnoty postanawia: w tym roku remont dachu. Administrator budynku wybiera firmę, ustala jej harmonogram i co tydzień sprawdza postęp. Firma raportuje administratorowi. Administrator to kierownictwo: instruuje, dopasowuje i monitoruje.",
+    "biuro": "Kierowniczka sekretariatu dostaje od dyrektora zadanie: wszystkie pisma mają wychodzić w 3 dni. Rozdziela pracę asystentkom i co piątek sprawdza rejestr pism.",
+    "organizacja": "Rada spółki ustala: otwieramy czwarty sklep bez kredytu. Dyrektor zarządzający układa plan, rozdziela zadania kierownikom i co tydzień patrzy na raporty sprzedaży. To kierownictwo z Ilustracji 9.\n\nRada gminy uchwala strategię e-usług. Sekretarz gminy rozdziela zadania wydziałom, dopasowuje grafik informatyków i co miesiąc sprawdza postępy. Sekretarz działa jako kierownictwo.",
+    "psp": "**Sikora dostaje kierunek** Komendantka Anna Wrzos mówi: „żaden alarm nie może zginąć”. Kpt. Marek Sikora, naczelnik Wydziału Łączności i Informatyki, rozpisuje zadania: Ola Dudek sprawdza numery OSP, dostawca poprawia bramkę SMS. Co tydzień Sikora czyta raporty i sprawdza, czy praca idzie zgodnie z kierunkiem. Sikora pełni rolę kierownictwa: instruuje, dopasowuje i monitoruje.",
+    "it": "Kierownictwo IT monitoruje wykonanie m.in. przez proces MEA01 (Monitorowanie, ocena i oszacowanie wydajności i zgodności) z domeny MEA."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "organ-ladu",
+      "roznica": "Organ Ładu wyznacza kierunek i jest rozliczany przed interesariuszami. Kierownictwo realizuje kierunek, instruuje role operacyjne i monitoruje wykonanie."
+    },
+    {
+      "termin": "zarzadzanie",
+      "roznica": "Zarządzanie to obszar działań (PBRM, 32 procesy). Kierownictwo to rola z Ilustracji 9, czyli ludzie, którzy te działania prowadzą."
+    },
+    {
+      "termin": "edm",
+      "roznica": "„Monitoruj” w EDM to praktyka procesów Ładu: Ład monitoruje sprawność i zgodność względem kierunku (s. 14). W pytaniu o role z Ilustracji 9 egzamin wiąże monitorowanie z kierownictwem."
+    }
+  ],
+  "przykladWypowiedzi": "Management, czyli kierownictwo, otrzymuje kierunek od governing body i instruuje oraz dopasowuje (instruct and align) role operacyjne, monitorując ich pracę.",
+  "egzamin": "„Kto **instruuje i dopasowuje** role operacyjne?” → **Kierownictwo**. Kto odpowiada wykonawczo za **monitorowanie** w rolach z Ilustracji 9? Według uzasadnień egzaminacyjnych także **Kierownictwo**, a nie organ Ładu. Podręcznikowy podpis „Zarządzanie” na Ilustracji 9 to ta sama rola.",
+  "powiazane": [
+    "role-dzialania-relacje",
+    "organ-ladu",
+    "rola-operacyjne",
+    "zarzadzanie",
+    "pbrm"
+  ],
+  "sylabus": [
+    "PR-02-09",
+    "PR-02-14"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 24,
+      "ilustracja": "9"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 31,
+      "cytat": "Zarządzanie polega na planowaniu, budowaniu, realizacji i monitorowaniu działań w sposób spójny z kierunkiem wskazanym przez organ nadzorujący"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 31,
+      "cytat": "W większości przedsiębiorstw za zarządzanie odpowiada kadra zarządzająca pod przywództwem dyrektora generalnego"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 14,
+      "cytat": "na monitorowaniu sprawności i zgodności w odniesieniu do uzgodnionego kierunku i szczegółowych celów"
+    },
+    {
+      "doc": "SP1"
+    }
+  ],
+  "mapa": "rola-kierownictwo",
+  "glebokosc": {
+    "prosty": "Trener ustala, że drużyna gra w tym sezonie ofensywnie. Asystent trenera układa ćwiczenia, przydziela zawodników do grup i patrzy, kto się przykłada. Zawodnicy mówią mu, jak im idzie. Asystent to „kierownictwo”.",
+    "zaawansowany": "Na odprawie komendantka Wrzos daje kierunek: krótszy czas alarmu. Sikora przekłada go na zadania dla Oli Dudek i dyżurnych, czyli dla [[rola-operacyjne|ról operacyjnych]]. Dyżurni raportują mu, ile alarmów doszło. Sikora śledzi wyniki co tydzień i co kwartał zdaje relację Wrzos. Jego codzienna praca to [[pbrm|Planuj, Twórz, Wykonuj i Monitoruj]], a na Ilustracji 9 to rola kierownictwa.",
+    "skrajny": "Kto monitoruje: komendantka czy Sikora? Obie odpowiedzi brzmią dobrze. Ład naprawdę monitoruje: FW-PL (s. 14) mówi o monitorowaniu sprawności i zgodności względem kierunku, stąd „Monitoruj” w EDM. Na Ilustracji 9 strzałka „Monitorowanie” łączy jednak organ Ładu z kierownictwem, a uzasadnienia egzaminacyjne przypisują wykonawczą odpowiedzialność za monitorowanie kierownictwu. Do tego samo kierownictwo ma w PBRM własne „Monitoruj” (domena MEA). Pytanie o role, działania i relacje pyta o rolę z Ilustracji 9, a nie o praktykę EDM. **Rozstrzygnięcie:** w pytaniu o role z Ilustracji 9 monitorowanie łącz z kierownictwem; „Monitoruj” w EDM to praktyka procesów Ładu, czyli inna kategoria."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Monitorowanie na Ilustracji 9 to zadanie organu Ładu, bo EDM ma „Monitoruj”.",
+      "prawda": "Uzasadnienia egzaminacyjne wiążą monitorowanie w rolach z kierownictwem. EDM to praktyki procesów, inna kategoria."
+    },
+    {
+      "mit": "Skoro na Ilustracji 9 monitoruje kierownictwo, to Ład niczego nie monitoruje.",
+      "prawda": "Ład monitoruje sprawność i zgodność względem kierunku (s. 14, EDM). To inne ujęcie niż relacja ról z Ilustracji 9."
+    },
+    {
+      "mit": "Kierownictwo wyznacza kierunek rolom operacyjnym.",
+      "prawda": "Kierunek wyznacza organ Ładu. Kierownictwo instruuje i dopasowuje."
+    },
+    {
+      "mit": "„Zarządzanie” na Ilustracji 9 to domena procesów.",
+      "prawda": "To podręcznikowy podpis roli Kierownictwo, a nie domeny APO, BAI, DSS czy MEA."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Przypisywanie monitorowania organowi Ładu, bo słowo „Monitoruj” pada w EDM.",
+    "jakTlumaczyc": "Rozdziel dwa pytania. „Jaka praktyka procesu?” to EDM: Oszacuj, Kieruj, Monitoruj. „Jaka rola w łańcuchu?” to Ilustracja 9: organ kieruje, kierownictwo instruuje i monitoruje, role operacyjne raportują.",
+    "pytanieKontrolne": "Według Ilustracji 9 i uzasadnień egzaminacyjnych: kto instruuje role operacyjne, a kto odpowiada wykonawczo za monitorowanie?",
+    "odpowiedzKontrolna": "W obu przypadkach **kierownictwo**. Organ Ładu wyznacza kierunek i jest rozliczany przed interesariuszami."
+  }
+}

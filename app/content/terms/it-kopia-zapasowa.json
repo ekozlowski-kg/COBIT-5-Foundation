@@ -1,0 +1,92 @@
+{
+  "id": "it-kopia-zapasowa",
+  "en": "Backup",
+  "wymowa": "bekap",
+  "wymowaAkcent": "BEK-ap",
+  "plEgzamin": "Kopia zapasowa",
+  "plPodrecznik": "—",
+  "plInne": [
+    "backup (potocznie)",
+    "kopia bezpieczeństwa"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "—",
+    "kurs": "Kopia zapasowa (backup)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. FW-PL nie ma tego hasła w słowniku."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-dane",
+    "it-plik"
+  ],
+  "poLudzku": "Dodatkowa kopia plików i danych, trzymana osobno, żeby odzyskać je po awarii lub pomyłce.",
+  "poziom1": "Kopia zapasowa to regularnie robiona kopia danych (plików, baz danych, ustawień), przechowywana w innym miejscu niż oryginał. Gdy oryginał zginie, odtwarza się dane z kopii.",
+  "poziom2": "Ważne są trzy pytania: **jak często** robimy kopię (co tydzień? co godzinę?), **gdzie** ją trzymamy (inny budynek, inny serwer) i **czy umiemy z niej odtworzyć dane** – to trzeba regularnie sprawdzać. Kopia trzymana obok oryginału zginie razem z nim, np. w pożarze.",
+  "poziom3": "FW-PL nie definiuje kopii zapasowej. Kopie zapasowe są elementem zapewniania ciągłości (proces DSS04 Zarządzanie ciągłością, FW-PL s. 33); szczegółowe praktyki opisuje publikacja COBIT 5: Procesy umożliwiające (nie ma jej w materiałach kursu).",
+  "wyobrazSobie": "Zapasowy klucz do mieszkania u mamy. Gdy zgubisz swój, nie wyważasz drzwi.",
+  "poCo": "Żeby awaria, pożar, pomyłka albo włamanie nie zniszczyły pracy i informacji na zawsze.",
+  "jakDziala": "Program co noc kopiuje wybrane dane na inny dysk albo serwer, najlepiej w innym budynku. Po awarii informatyk wybiera kopię z wybranego dnia i odtwarza z niej dane.",
+  "dlaczegoWazne": "Bez kopii zapasowej jedna awaria dysku może zniszczyć lata pracy. W komendzie – listę numerów strażaków.",
+  "przyklady": {
+    "zycie": "Telefon co noc zapisuje kopię zdjęć na koncie w Internecie. Gdy zgubisz telefon, odzyskasz zdjęcia na nowym.",
+    "biuro": "Biuro rachunkowe co wieczór kopiuje faktury klientów na zewnętrzny dysk, który szef zabiera do domu.",
+    "organizacja": "Szpital trzyma kopie danych pacjentów w drugim budynku. Pożar w serwerowni nie zniszczy wszystkiego.",
+    "psp": "Ola Dudek co noc robi kopię bazy „Syreny”. Gdy ktoś omyłkowo usunął numery OSP Zawilce, odtworzyła je z kopii z poprzedniej nocy.",
+    "it": "Kopie zapasowe wspierają ciągłość działania – proces DSS04 Zarządzanie ciągłością (FW-PL s. 33)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-ciaglosc-dzialania",
+      "roznica": "Kopia zapasowa ratuje dane. Ciągłość działania to cały plan, jak pracować dalej po poważnej awarii – kopia to tylko jeden jego element."
+    },
+    {
+      "termin": "Kopia pliku wysłana mailem",
+      "roznica": "To zwykła kopia jednego pliku. Kopia zapasowa jest regularna, zaplanowana i trzymana osobno, by odtworzyć dane."
+    }
+  ],
+  "przykladWypowiedzi": "A backup, czyli kopia zapasowa, pozwala odtworzyć data, czyli dane, po awarii; ale backup trzeba testować – sprawdzać odtwarzanie.",
+  "egzamin": "Nie jest terminem egzaminu. Wspiera DSS04 Zarządzanie ciągłością (Manage Continuity).",
+  "powiazane": [
+    "it-ciaglosc-dzialania",
+    "it-plik",
+    "it-baza-danych",
+    "proc-dss04"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "DSS04 Zarządzanie ciągłością"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Mama zapisuje przepisy w zeszycie, a co roku przepisuje najważniejsze do drugiego zeszytu, który trzyma u córki. Gdy w kuchni zaleje zeszyt, przepisy nie przepadną.",
+    "zaawansowany": "Ola Dudek robi co noc kopię bazy „Syreny”, ale trzyma ją na tym samym serwerze pod schodami. Sikora pyta: „A jeśli zaleje schowek?”. Kopia zginie razem z oryginałem. Ola przenosi kopię do drugiej jednostki, JRG 2. Teraz awaria jednego miejsca nie zniszczy obu. To pierwszy krok do [[it-ciaglosc-dzialania|ciągłości działania]].",
+    "skrajny": "Czy kopia, z której nigdy nie próbowano odtworzyć danych, jest pewna? Nie – może być niepełna albo uszkodzona. Czy kopia na tym samym dysku chroni przed awarią dysku? Nie. Czy kopia z zeszłego miesiąca wystarczy? Zależy, ile danych możesz stracić – dla bazy numerów raczej nie. **Rozstrzygnięcie:** kopia zapasowa ma sens tylko wtedy, gdy jest regularna, trzymana osobno od oryginału i sprawdzona przez próbne odtworzenie."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Mamy kopię, więc dane są bezpieczne.",
+      "prawda": "Tylko jeśli kopia jest aktualna, leży osobno i ktoś sprawdził, że da się z niej odtworzyć dane."
+    },
+    {
+      "mit": "Kopia zapasowa zapewnia ciągłość działania.",
+      "prawda": "Kopia ratuje dane. Ciągłość wymaga też planu, ludzi, zapasowego sprzętu i ćwiczeń."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Trzymanie kopii obok oryginału i niesprawdzanie odtwarzania.",
+    "jakTlumaczyc": "Zapasowy klucz u mamy, a nie w tej samej torebce co główny klucz.",
+    "pytanieKontrolne": "Kopia bazy „Syreny” leży na tym samym serwerze co baza. Co się stanie przy pożarze serwerowni?",
+    "odpowiedzKontrolna": "Zginie oryginał i kopia naraz. Kopię trzeba trzymać w innym miejscu."
+  }
+}

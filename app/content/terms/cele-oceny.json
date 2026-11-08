@@ -1,0 +1,93 @@
+{
+  "id": "cele-oceny",
+  "en": "Purposes of process capability assessment",
+  "wymowa": "perpesiz ow prołses kejpabiliti asesment",
+  "wymowaAkcent": "PER-pe-siz ow PROŁ-ses kej-pa-BI-li-ti a-SES-ment",
+  "plEgzamin": "Cele oceny zdolności procesu",
+  "plPodrecznik": "Cele oszacowania potencjału procesu",
+  "mapa": "cele-oceny",
+  "poLudzku": "Po co ktoś sprawdza, jak dobrze coś robimy: żeby wiedzieć, gdzie jesteśmy i co poprawić.",
+  "wyobrazSobie": "Badanie okresowe: porównujesz wyniki z normą, widzisz, co odbiega, dostajesz zalecenia, a za rok sprawdzasz, czy się poprawiło.",
+  "poCo": "Żeby organ Ładu i kierownictwo mieli rzetelną podstawę do decyzji: gdzie procesy są teraz, gdzie mają być i w co zainwestować, żeby zmniejszyć różnicę.",
+  "jakDziala": "Ocena zdolności procesu (process capability assessment) pozwala porównywać (benchmarking) zdolność procesów, np. między jednostkami. Pokazuje stan „jak jest” (as-is) i „jak ma być” (to-be), a różnica między nimi to analiza luk (gap analysis), z której wynika plan usprawnień. Powtarzane oceny pozwalają mierzyć i monitorować bieżące zdolności.",
+  "dlaczegoWazne": "Egzamin pyta, po co prowadzi się ocenę zdolności procesu (s. 45) i jakie korzyści daje podejście COBIT 5 względem COBIT 4.1 (s. 44–45). Pułapka: ocena dotyczy procesów, a nie pracowników.",
+  "poziom1": "Po co w ogóle ocenia się procesy: żeby porównać się z innymi, zobaczyć, gdzie jesteśmy i gdzie chcemy być, znaleźć luki i zaplanować poprawki, a potem śledzić postęp (np. ocena kilku oddziałów przed decyzją, w co zainwestować).",
+  "poziom2": "Cele (s. 45): umożliwienie organowi Ładu i kierownictwu **porównania (benchmarkingu)** zdolności procesów; **wysokopoziomowe określenie stanu „jak jest” i „jak ma być”** jako podstawa decyzji inwestycyjnych; **analiza luk i planowanie usprawnień**; **klasyfikacja ocen** do pomiaru i monitorowania bieżących zdolności.\n\n**Korzyści** podejścia COBIT 5 względem COBIT 4.1 (s. 44–45): skupienie na **osiąganiu celu procesu**; **uproszczenie** (bez powielania treści); większa **niezawodność i powtarzalność** ocen; większa **użyteczność**, bo to podstawa formalnej oceny; **zgodność z uznanym standardem** i wsparcie rynku.",
+  "poziom3": "(s. 45) cele; (s. 44–45) korzyści z wprowadzenia zmian.",
+  "przyklady": {
+    "zycie": "Ty i brat prowadzicie domowe budżety, więc siadacie i porównujecie: kto zapisuje wydatki, kto odkłada co miesiąc, kto nie wie, ile wydał. Wychodzi, że brakuje Ci planu oszczędzania, więc ustalasz, co poprawić do wiosny, a za pół roku porównujecie się znowu. Porównanie, luka, plan poprawy i ponowny pomiar – to cele oceny.",
+    "biuro": "Szef porównuje, jak trzy biura firmy obsługują korespondencję: w jednym jest rejestr i terminy, w drugim każdy robi po swojemu. Ustala, jak obsługa ma wyglądać za pół roku, planuje szkolenie dla drugiego biura i zapowiada, że ocenę powtórzy.",
+    "firma": "Właścicielka trzech piekarni zleca ocenę, jak w każdej działa przyjmowanie dostaw. W jednej wszystko jest spisane, w drugiej każdy robi po swojemu, w trzeciej nikt nie sprawdza dat ważności. Dzięki ocenie wie, gdzie są luki, w co najpierw zainwestować i jak za rok sprawdzić postęp.",
+    "admin": "Starostwo porównuje obsługę wniosków w swoich wydziałach. Ocena pokazuje stan „jak jest”, kierownictwo ustala „jak ma być”, a różnica wyznacza plan szkoleń i zmian na przyszły rok. Po roku ta sama ocena pokaże, czy coś się poprawiło – tak wyglądają cele oceny w praktyce.",
+    "psp": "KW PSP ocenia ten sam proces w SK pięciu komend powiatowych. Wychodzi, że trzy dobrze usuwają awarie, ale żadna nie szuka przyczyn awarii, które wracają (brak zarządzania problemami). Komendant wojewódzki ma podstawę do decyzji, gdzie dać pieniądze i szkolenia, a ocena za rok pokaże postęp.",
+    "it": "Ewa Lis ocenia w komendzie proces DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami: dziś jest poziom 1, a komendantka Wrzos wyznacza cel na poziom 3. Luka pokazuje, co poprawić najpierw, np. spisać standardową procedurę (PA 3.1), a ocena za rok zmierzy postęp."
+  },
+  "glebokosc": {
+    "prosty": "Przed remontem mieszkania robisz obchód: co działa, co przecieka, co chcesz zmienić. Spisujesz różnicę między „jak jest” a „jak ma być”. Dzięki temu wiesz, na co wydać pieniądze najpierw.",
+    "zaawansowany": "Komendantka Wrzos zleca Ewie Lis ocenę zdolności procesu powiadamiania. Nie chodzi o ukaranie dyżurnych, tylko o ustalenie stanu „jak jest” i „jak ma być”. Wynik pokaże luki i pomoże Sikorze zaplanować usprawnienia. Pozwoli też porównać się z innymi obszarami i uzasadnić wydatek przed Haliną Mak. Ocena używa [[model-zdolnosci|modelu zdolności procesu]], a w cyklu wdrożenia należy do fazy 2 ([[fazy-wdrozenia]]).",
+    "skrajny": "Ostrowska z komendy wojewódzkiej porównuje wynik oceny COBIT 5 z dawną oceną dojrzałości według COBIT 4.1. Proces „spadł” z poziomu 2 na 1, choć nic się w nim nie zmieniło. FW-PL (s. 43) ostrzega, że takie porównanie jest trudne, bo modele różnią się zakresem i intencją. W COBIT 4.1 można było mieć poziom 1 lub 2 bez pełnego osiągnięcia celów procesu, więc w COBIT 5 wyniki są zwykle niższe. Druga pułapka: ocena zdolności nie służy ocenianiu ludzi ani analizie nakładów i korzyści. **Rozstrzygnięcie:** cele oceny to porównanie, stan „jak jest / jak ma być”, analiza luk z planem usprawnień i klasyfikacja ocen do monitorowania; spadek po zmianie modelu to zwykle efekt innej skali, a nie gorszy proces."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Ocena zdolności sprawdza, jak dobrze pracują ludzie.",
+      "prawda": "Oceniany jest proces: czy osiąga swój cel i jak jest zarządzany. To nie jest ocena pracowników."
+    },
+    {
+      "mit": "Celem oceny jest jak najwyższy poziom.",
+      "prawda": "Cele oceny (s. 45) to porównanie, „jak jest / jak ma być”, analiza luk i monitorowanie. Poziom docelowy wybiera się z rachunku kosztów i korzyści i bardzo rzadko jest to najwyższy poziom (s. 43)."
+    },
+    {
+      "mit": "Wynik COBIT 5 można wprost porównać z poziomem dojrzałości COBIT 4.1.",
+      "prawda": "Porównanie jest trudne, a wyniki COBIT 5 są zwykle niższe (s. 43, il. 20)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Traktowanie oceny zdolności jako kontroli personelu albo wyścigu po poziom 5.",
+    "jakTlumaczyc": "Badanie okresowe u lekarza: nikogo nie karze, tylko pokazuje wynik, normę i to, co poprawić. Wynik porównuje się z normą dobraną do Ciebie, a nie z rekordem świata.",
+    "pytanieKontrolne": "Proces powiadamiania w komendzie ma poziom 2. Czy komenda powinna dążyć do poziomu 5? Uzasadnij celami oceny.",
+    "odpowiedzKontrolna": "Niekoniecznie. Ocena służy do ustalenia stanu „jak ma być” i luk, a poziom docelowy każda organizacja wybiera z rachunku kosztów i korzyści; bardzo rzadko jest to najwyższy poziom (s. 43). Ocena pokazuje, co poprawić, a nie nakazuje maksimum."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Ocena ludzi",
+      "roznica": "Ocena zdolności dotyczy procesów, a nie oceny jakości pracowników."
+    }
+  ],
+  "przykladWypowiedzi": "Process capability assessment, czyli ocena zdolności procesu, służy porównaniu (benchmarking), ustaleniu stanu as-is i to-be oraz analizie luk (gap analysis), na podstawie której organ Ładu i kierownictwo planują usprawnienia.",
+  "egzamin": "Ocenę zdolności wykonuje się m.in. po to, aby **zidentyfikować, co w procesie należy usprawnić** (analiza luk). Nie służy do oceniania ludzi ani do analizy nakłady-korzyści.",
+  "powiazane": [
+    "model-zdolnosci",
+    "przewodniki-oceny"
+  ],
+  "sylabus": [
+    "PC-02-01",
+    "PC-02-05"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "zapewnienie analizy luk oraz informacji dotyczących planowania udoskonaleń"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 44
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cele oceny zdolności procesu",
+    "podrecznik": "Cele oszacowania potencjału procesu",
+    "kurs": "Cele oceny zdolności procesu (Purposes of process capability assessment)",
+    "uwaga": "Egzamin PL: „Cele oceny zdolności procesu”; podręcznik PL: „Cele oszacowania potencjału procesu” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL, zestawienie Altkom. Forma podręcznika: FW-PL s. 8, 43, 45."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "proces",
+    "model-zdolnosci"
+  ]
+}

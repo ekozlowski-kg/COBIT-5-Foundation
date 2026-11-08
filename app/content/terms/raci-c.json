@@ -1,0 +1,98 @@
+{
+  "id": "raci-c",
+  "en": "Consulted (C)",
+  "wymowa": "konsaltyd",
+  "wymowaAkcent": "kon-SAL-tyd",
+  "plEgzamin": "Konsultowany (C)",
+  "plPodrecznik": "Strona konsultowana",
+  "plInne": [],
+  "statusTlumaczenia": "D",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Konsultowany (C)",
+    "podrecznik": "Strona konsultowana",
+    "kurs": "Konsultowany (C) – Consulted",
+    "uwaga": "Litera C = Consulted – zachować literę EN. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 90."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "raci"
+  ],
+  "mapa": "raci-c",
+  "poziom1": "C to rola, której zasięga się opinii przed działaniem lub w jego trakcie. Odpowiada na pytanie: kto zapewnia dane wejściowe? Komunikacja z C jest dwukierunkowa: pytasz, słuchasz odpowiedzi i bierzesz ją pod uwagę.",
+  "poLudzku": "Ktoś, kogo pytasz o zdanie przed zrobieniem zadania i z kim naprawdę rozmawiasz.",
+  "wyobrazSobie": "Rozmowa z mechanikiem przed kupnem auta: pytasz, on pyta, ty bierzesz jego radę pod uwagę.",
+  "poCo": "Żeby przed decyzją albo w trakcie pracy zebrać wiedzę od osób, które ją mają.",
+  "jakDziala": "W tabeli RACI przy działaniu wpisujesz C rolom, które zapewniają dane wejściowe. Komunikacja jest dwukierunkowa. R i A muszą uwzględnić wejścia od C i w razie potrzeby eskalować sprawę.",
+  "dlaczegoWazne": "Egzamin odróżnia C od I kierunkiem komunikacji. Kto pamięta „dwie strzałki przy C”, nie pomyli tych liter.",
+  "poziom2": "| | C – Konsultowany |\n|---|---|\n| Pytanie RACI | Kto **zapewnia dane wejściowe**? |\n| Komunikacja | **dwukierunkowa** (pytanie i odpowiedź) |\n| Kiedy | przed decyzją lub w trakcie zadania |\n| Obowiązek R i A | uwzględnić wejścia od C, a w razie potrzeby **eskalować**, np. do właściciela procesu lub komitetu sterującego (s. 90) |\n\nRóżnica z I: C mówi do Ciebie, a I tylko słucha.",
+  "poziom3": "Słownik (s. 90): strona konsultowana *„Odnosi się do osób, u których zasięga się opinii na temat danego działania (komunikacja dwukierunkowa).”* W tabeli RACI: *„Kto zapewnia dane wejściowe?”*",
+  "przyklady": {
+    "zycie": "Przed kupnem auta dzwonisz do szwagra mechanika i pytasz, na co uważać. On zadaje ci pytania, ty odpowiadasz, on doradza. Szwagier jest C: rozmawiacie w obie strony.",
+    "biuro": "W biurze przed zakupem nowego programu do faktur kierownik pyta księgowe, czego potrzebują. Księgowe odpowiadają i proponują zmiany. Przy tym zadaniu są C.",
+    "organizacja": "Agencja reklamowa przed drukiem katalogu pyta prawnika o zgody na zdjęcia. Prawnik odsyła uwagi, a grafik je wprowadza. Prawnik jest C przy tym zadaniu. Przed zmianą organizacji ruchu przy szkole urząd gminy pyta policję i dyrekcję szkoły o opinię. Ich uwagi trafiają do projektu. Policja i szkoła są C.",
+    "psp": "Ola Dudek przed aktualizacją numerów w Syrenie dzwoni do druha Stanisława Pietrzaka, naczelnika OSP Zawilce. Pyta, kto doszedł do jednostki, a kto zmienił telefon. Pietrzak podaje zmiany i dopytuje o aplikację. To rozmowa w obie strony, więc Pietrzak jest C.",
+    "it": "Przy praktykach APO12 (Zarządzanie ryzykiem) rolę C pełnią np. właściciele procesów biznesowych. Dostarczają wiedzę o tym, co ryzyko IT oznacza dla ich obszaru (przykład kursu, nie cytat z tabeli)."
+  },
+  "glebokosc": {
+    "prosty": "Przed remontem kuchni pytasz żonę, jaki kolor płytek woli. Ona odpowiada i coś proponuje. Bierzesz to pod uwagę. Żona jest C: pytasz i słuchasz.",
+    "zaawansowany": "Pietrzak jest C przy aktualizacji numerów. Dudek ([[raci-r|R]]) musi uwzględnić jego dane wejściowe. Pietrzak zgłasza, że połowa ochotników zmieniła numery, a Dudek nie ma uprawnień, żeby zmienić tylu odbiorców naraz. Sprawa idzie więc do Sikory ([[raci-a|A]]). Słownik COBIT 5 przewiduje taką [[procedury-eskalacji|eskalację]], gdy wejścia od C wymagają działania.",
+    "skrajny": "Kierownik SK mówi: „Konsultowałem nową procedurę z dyżurnymi. Wysłałem im ją mailem”. Ale dyżurni nie mieli jak odpowiedzieć, a ich uwag nikt nie zbierał. To nie była konsultacja, tylko informowanie. Litera nie zależy od tego, jak ktoś nazwie rozmowę, tylko od kierunku komunikacji. Jeśli wiadomość idzie tylko w jedną stronę, rola działa jak I, nawet gdy w tabeli wpisano C. **Rozstrzygnięcie:** C to komunikacja dwukierunkowa, a wejścia bierze się pod uwagę. I to komunikacja jednokierunkowa, czyli sama wiadomość."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Każdy, komu wyślesz dokument, jest konsultowany.",
+      "prawda": "Konsultowany odpowiada i dostarcza wejścia. Sam odbiorca dokumentu to I."
+    },
+    {
+      "mit": "C podejmuje decyzję razem z A.",
+      "prawda": "C doradza. Odpowiedzialność za sukces należy do A."
+    },
+    {
+      "mit": "Opinie C można pominąć, bo to tylko doradca.",
+      "prawda": "R i A powinni uwzględnić wejścia od C i w razie potrzeby eskalować sprawę (s. 90)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli C z I, bo w obu przypadkach „ktoś dostaje informację”.",
+    "jakTlumaczyc": "Narysuj strzałki: przy C dwie (tam i z powrotem), przy I jedna. Zapytaj: czy ta osoba może coś zmienić swoją odpowiedzią?",
+    "pytanieKontrolne": "Dział prawny dostaje projekt umowy i odsyła uwagi, które trzeba wprowadzić. Jaką literę RACI ma dział prawny?",
+    "odpowiedzKontrolna": "**C (konsultowany)**: dostarcza wejścia, a komunikacja jest dwukierunkowa."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "raci-i",
+      "roznica": "C dostarcza wejścia i rozmowa idzie w obie strony. I tylko otrzymuje informacje, w jedną stronę."
+    },
+    {
+      "termin": "raci-r",
+      "roznica": "C doradza, ale nie wykonuje zadania. Wykonuje R."
+    }
+  ],
+  "przykladWypowiedzi": "Consulted, czyli konsultowany (C), provides input in two-way communication.",
+  "egzamin": "„Kto **zapewnia dane wejściowe** / kogo pytamy o opinię” → **C**. Słowo-klucz: **dwukierunkowa** komunikacja.",
+  "powiazane": [
+    "raci",
+    "raci-i",
+    "raci-r",
+    "raci-a",
+    "procedury-eskalacji"
+  ],
+  "sylabus": [
+    "EN-02-25"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 90,
+      "cytat": "u których zasięga się opinii na temat danego działania (komunikacja dwukierunkowa)"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 90,
+      "cytat": "Kto zapewnia dane wejściowe?"
+    }
+  ]
+}

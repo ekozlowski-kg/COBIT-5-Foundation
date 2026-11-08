@@ -1,0 +1,108 @@
+{
+  "id": "poziomy-etyki",
+  "en": "Organisational ethics, individual ethics, individual behaviour",
+  "wymowa": "organajzejszynal etiks indiwidżuel etiks indiwidżuel bihejwjer",
+  "wymowaAkcent": "or-ga-naj-ZEJ-szy-nal E-tiks in-di-WI-dżu-el E-tiks in-di-WI-dżu-el bi-HEJ-wjer",
+  "plEgzamin": "Etyka organizacyjna, etyka indywidualna, zachowania",
+  "plPodrecznik": "Etyka organizacji, etyka indywidualna, indywidualne wzorce zachowań",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Etyka organizacyjna, etyka indywidualna, zachowania",
+    "podrecznik": "Etyka organizacji, etyka indywidualna, indywidualne wzorce zachowań",
+    "kurs": "Etyka organizacyjna, etyka indywidualna, zachowania (Organisational ethics, individual ethics, individual behaviour)",
+    "uwaga": "Egzamin PL: „Etyka organizacyjna, etyka indywidualna, zachowania”; podręcznik PL: „Etyka organizacji, etyka indywidualna, indywidualne wzorce zachowań” – konkurencyjne odpowiedniki. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „etyka organizacyjna”, podręcznik: „etyka organizacji”. Etyka organizacyjna to wartości, w oparciu o które organizacja CHCE działać, a nie to, jak ludzie faktycznie się zachowują.",
+  "skadNazwa": "Cele aktywatora Kultura, Etyka i Zachowanie mają trzy poziomy. Podręcznik pisze „etyka organizacji” i „indywidualne wzorce zachowań”, a egzamin „etyka organizacyjna” i „zachowania”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "kultura-etyka-zachowanie"
+  ],
+  "mapa": "poziomy-etyki",
+  "poziom1": "Cele aktywatora kultury dotyczą trzech poziomów. Etyka organizacyjna to wartości, na których organizacja chce się opierać. Etyka indywidualna to osobiste wartości każdego pracownika. Zachowania to to, jak ludzie naprawdę postępują. Razem tworzą one kulturę organizacji.",
+  "poLudzku": "Trzy warstwy: w co wierzy firma, w co wierzy człowiek i co ludzie naprawdę robią.",
+  "wyobrazSobie": "Trzy warstwy jednej osoby w pracy: plakat z wartościami firmy na ścianie, jej własne sumienie i to, co naprawdę robi, gdy nikt nie patrzy.",
+  "poCo": "Żeby oddzielić to, co organizacja deklaruje, od tego, co myślą i robią ludzie.",
+  "jakDziala": "Organizacja określa wartości, na których chce się opierać (etyka organizacyjna). Każdy pracownik ma własne wartości (etyka indywidualna). Ich połączenie i wiele innych czynników kształtuje zachowania, które razem tworzą kulturę.",
+  "dlaczegoWazne": "Egzamin pyta o definicje poziomów, np. „wartości, w oparciu o które organizacja chce działać”. Częsty błąd to pomylenie deklarowanych wartości z faktycznym zachowaniem.",
+  "poziom2": "| Poziom | Co to jest | Skąd się bierze |\n|---|---|---|\n| **Etyka organizacyjna** | wartości, w oparciu o które organizacja **chce** działać | decyzje kierownictwa |\n| **Etyka indywidualna** | **osobiste** wartości pracownika | religia, pochodzenie, status społeczno-ekonomiczny, miejsce, doświadczenia |\n| **Zachowania indywidualne** | faktyczne postępowanie, które **łącznie tworzy kulturę** | czynniki zewnętrzne, relacje, osobiste cele i ambicje |\n\nPrzykładowe zachowania (s. 79): podejmowanie **ryzyka**, przestrzeganie **polityk**, reakcja na **negatywne wyniki** (nauka czy szukanie winnych).",
+  "poziom3": "(s. 79): cele odnoszą się do *„etyki organizacji determinowanej przez wartości, które mają być podstawą funkcjonowania przedsiębiorstwa”*, do *„etyki indywidualnej determinowanej osobistymi wartościami każdego z pracowników przedsiębiorstwa”* i do *„indywidualnych wzorców zachowań, które łącznie określają kulturę przedsiębiorstwa”*.",
+  "przyklady": {
+    "zycie": "Drużyna harcerska ma prawo harcerskie: „harcerz mówi prawdę” (etyka organizacji). Każdy harcerz przynosi z domu własne wartości (etyka indywidualna). To, czy na obozie ktoś przyzna się do zgubienia namiotu, to zachowanie. Razem te zachowania tworzą atmosferę drużyny.",
+    "biuro": "Biuro ma kodeks: „Szanujemy czas klientów”. Pracownica z domu wyniosła punktualność. To, czy oddzwania klientowi w obiecanym terminie, to zachowanie.",
+    "organizacja": "Firma kurierska pisze w kodeksie: „Szanujemy czas klienta” (etyka organizacyjna). Kurier Tomek wyniósł z domu, że słowa trzeba dotrzymać (etyka indywidualna). To, czy kurier zostawia awizo bez pukania, to jego zachowanie. Suma takich zachowań to prawdziwa kultura firmy. Urząd gminy przyjmuje kodeks etyki: „Bezstronnie traktujemy mieszkańców” (etyka organizacyjna). Urzędniczka ma własne przekonania, np. że sąsiadom trzeba pomagać (etyka indywidualna). To, czy załatwia sprawę znajomego poza kolejką, to zachowanie. Te zachowania razem pokazują kulturę urzędu.",
+    "psp": "Komendantka Anna Wrzos ogłasza wartość komendy: „Każdy błąd zgłaszamy, bo od tego zależy życie ludzi” (etyka organizacyjna). Dyżurny Paweł Grab ma własną zasadę: „Nie donoszę na kolegów” (etyka indywidualna). Miesiąc temu nie zgłosił, że Syrena nie wysłała SMS-a, i to jest zachowanie. Dopiero gdy Wrzos publicznie mu podziękowała za przyznanie się, zachowania dyżurnych zaczęły się zmieniać, a z nimi kultura komendy.",
+    "it": "W APO13 (Zarządzanie bezpieczeństwem) organizacja ogłasza wartość „chronimy dane klientów”. Zachowanie widać w tym, czy pracownicy zgłaszają podejrzane maile. Dopiero takie zachowania pokazują prawdziwą kulturę bezpieczeństwa."
+  },
+  "glebokosc": {
+    "prosty": "W twoim domu obowiązuje zasada „nie kłamiemy”. To wartość rodziny. Twój syn ma własne przekonania, które przyniósł ze szkoły i od kolegów. To, czy przyzna się do stłuczonego wazonu, to jego zachowanie. To trzy różne rzeczy, choć wszystkie dotyczą uczciwości.",
+    "zaawansowany": "Komendantka ogłosiła wartość: zgłaszamy każdy błąd. To etyka organizacyjna. Grab ma własną zasadę lojalności wobec kolegów, czyli etykę indywidualną. Przez miesiąc nie zgłosił awarii i to jest jego zachowanie. Żeby zmienić zachowania, Wrzos sięga po [[praktyki-zachowan|dobre praktyki]]: daje przykład, chwali zgłoszenia i wpisuje regułę do polityki. Wartości komunikuje się przez [[zasady-polityki-struktury|zasady i polityki]].",
+    "skrajny": "Na kursie pada pytanie: „Czy kultura organizacji to czwarty poziom celów obok trzech pozostałych?”. Nie. Według podręcznika kulturę przedsiębiorstwa łącznie określają indywidualne wzorce zachowań. Kultura jest więc sumą zachowań, a nie osobną warstwą. Druga pułapka: etyka organizacyjna to wartości, na których organizacja CHCE się opierać. Jeśli kodeks mówi „zgłaszamy błędy”, a nikt tego nie robi, etyka organizacyjna istnieje, ale zachowania jej nie odzwierciedlają. **Rozstrzygnięcie:** trzy poziomy to etyka organizacyjna (deklarowane wartości), etyka indywidualna (osobiste wartości) i zachowania (to, co ludzie robią). Kulturę tworzą zachowania."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Etyka organizacyjna to to, jak ludzie w firmie się zachowują.",
+      "prawda": "To wartości, w oparciu o które organizacja CHCE działać. Faktyczne postępowanie to zachowania."
+    },
+    {
+      "mit": "Kultura to czwarty, osobny poziom celów.",
+      "prawda": "Kulturę łącznie określają indywidualne wzorce zachowań."
+    },
+    {
+      "mit": "Etykę indywidualną organizacja ustala w regulaminie.",
+      "prawda": "To osobiste wartości pracownika, zależne m.in. od religii, pochodzenia, statusu i doświadczeń."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli deklarowane wartości firmy (etyka organizacyjna) z jej faktycznymi zachowaniami.",
+    "jakTlumaczyc": "Użyj trzech obrazów: plakat z wartościami na ścianie (organizacja), myśli w głowie pracownika (etyka indywidualna), nagranie z kamery (zachowanie).",
+    "pytanieKontrolne": "Pracownik wychował się w rodzinie, w której nigdy się nie kłamie. Do którego poziomu celów aktywatora kultury należy ta cecha?",
+    "odpowiedzKontrolna": "Do **etyki indywidualnej**: osobistych wartości pracownika, zależnych od czynników zewnętrznych, np. pochodzenia i doświadczeń."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "praktyki-zachowan",
+      "roznica": "Poziomy etyki to CELE aktywatora (co chcemy osiągnąć). Praktyki zachowań to DOBRE PRAKTYKI (jak to kształtować: komunikacja, przykład, zachęty, reguły)."
+    },
+    {
+      "termin": "zasady-polityki-struktury",
+      "roznica": "Zasady i polityki są mechanizmem komunikowania wartości. Sama etyka organizacyjna to wartości, a nie dokument."
+    }
+  ],
+  "przykladWypowiedzi": "Organisational ethics, czyli etyka organizacyjna, are the values by which the enterprise wants to operate, while individual behaviour, czyli zachowania, together determine the culture.",
+  "egzamin": "„Wartości, w oparciu o które **organizacja chce działać**” → **etyka organizacyjna**. „Osobiste wartości pracownika, zależne od religii, pochodzenia…” → **etyka indywidualna**. „Zachowania, które łącznie tworzą kulturę” → **zachowania indywidualne**.",
+  "powiazane": [
+    "kultura-etyka-zachowanie",
+    "praktyki-zachowan",
+    "zasady-polityki-struktury"
+  ],
+  "sylabus": [
+    "EN-02-15"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 79,
+      "cytat": "etyki organizacji determinowanej przez wartości, które mają być podstawą funkcjonowania przedsiębiorstwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 79,
+      "cytat": "etyki indywidualnej determinowanej osobistymi wartościami każdego z pracowników przedsiębiorstwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 79,
+      "cytat": "indywidualnych wzorców zachowań, które łącznie określają kulturę przedsiębiorstwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 79,
+      "ilustracja": "34"
+    }
+  ]
+}

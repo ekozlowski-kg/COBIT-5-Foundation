@@ -1,0 +1,97 @@
+{
+  "id": "czynniki-srodowiskowe",
+  "en": "Internal and external environment factors",
+  "wymowa": "internal end eksternal enwajronment fekters",
+  "wymowaAkcent": "in-TER-nal end eks-TER-nal en-WAJ-ron-ment FEK-ters",
+  "plEgzamin": "Czynniki środowiskowe (kontekst organizacji)",
+  "plPodrecznik": "Czynniki związane ze środowiskiem wewnętrznym i zewnętrznym",
+  "mapa": "czynniki-srodowiskowe",
+  "poLudzku": "Wszystko wokół, co pomaga albo przeszkadza: przepisy, budżet, nastawienie ludzi, sytuacja w kraju.",
+  "wyobrazSobie": "Ogrodnik dobiera rośliny do gleby, nasłonecznienia i klimatu swojej działki, zamiast sadzić to samo co sąsiad.",
+  "poCo": "Żeby każda organizacja dopasowała plan wdrożenia COBIT 5 do własnych warunków, bo Ład i Zarządzanie IT nie odbywają się w próżni.",
+  "jakDziala": "Przed wdrożeniem trzeba uwzględnić czynniki wewnętrzne i zewnętrzne (internal and external environment factors): m.in. etykę i kulturę, przepisy i regulacje, misję i wartości, polityki i praktyki Ładu, plan biznesowy, model operacyjny i poziom dojrzałości, styl zarządzania, apetyt na ryzyko (risk appetite), potencjał i zasoby oraz praktyki branżowe. Od nich zależy, jak duży ma być program, w jakim tempie iść i od czego zacząć.",
+  "dlaczegoWazne": "Na egzaminie trzeba odróżnić czynniki środowiskowe (kontekst, który się uwzględnia) od punktów zapalnych i zdarzeń wyzwalających (które wywołują potrzebę wdrożenia) oraz od wyznaczników w kaskadzie celów.",
+  "poziom1": "Warunki, w których wdrażasz COBIT: kultura, przepisy, misja, styl szefa, apetyt na ryzyko, pieniądze i ludzie (np. urząd ma inne prawo i tempo niż mała firma). Nie ma jednego planu dla wszystkich – każdy dopasowuje go do swoich warunków.",
+  "poziom2": "Lista z s. 35: **etyka i kultura**; **obowiązujące przepisy, regulacje i polityki**; **misja, wizja i wartości**; **polityki i praktyki Ładu**; **plan biznesowy i kierunki strategiczne**; **model operacyjny i poziom dojrzałości**; **styl zarządzania**; **apetyt na ryzyko**; **potencjał i dostępne zasoby**; **praktyki branżowe**.\n\nŁad i Zarządzanie IT „nie odbywa się w próżni”. Każda organizacja projektuje **własny** plan wdrożenia.",
+  "poziom3": "(s. 35): *„Każde przedsiębiorstwo musi zaprojektować własny plan wdrożenia lub mapę działań, uwzględniając poniższe czynniki związane ze środowiskiem wewnętrznym i zewnętrznym”*.",
+  "przyklady": {
+    "zycie": "Dwie rodziny chcą wprowadzić domowy budżet. W pierwszej rodzice ustalają wszystko razem i lubią tabelki, w drugiej decyduje jedna osoba, dochody są nieregularne, a każda rozmowa o pieniądzach kończy się kłótnią. Ten sam pomysł trzeba więc wprowadzić u nich zupełnie inaczej. Zwyczaje, sposób decydowania i pieniądze w domu to czynniki środowiskowe.",
+    "biuro": "Dwa biura tej samej firmy wprowadzają elektroniczny obieg dokumentów. W jednym kierownik decyduje sam, a zespół lubi nowinki, w drugim wszystko ustala się na naradach, a pracownicy boją się nowych programów. To samo wdrożenie trzeba więc zaplanować w każdym biurze inaczej.",
+    "firma": "Rodzinna piekarnia z jednym laptopem i właścicielem, który decyduje o wszystkim, porządkuje informatykę zupełnie inaczej niż sieć 20 sklepów z działem IT, audytorem i danymi tysięcy klientów karty lojalnościowej. Inna kultura, styl zarządzania, przepisy i budżet oznaczają inny plan. To czynniki środowiskowe, które kształtują plan wdrożenia.",
+    "admin": "Gmina chce uporządkować zarządzanie IT. Musi brać pod uwagę KPA i KRI, styl zarządzania wójta, napięty budżet, dwóch informatyków na cały urząd i to, co sprawdziło się w sąsiednich gminach. Te warunki to czynniki środowiskowe, więc planu nie da się skopiować z korporacji.",
+    "psp": "Komenda powiatowa wdraża COBIT. Działa w kulturze rozkazu i dyscypliny, w ramach ustawy o PSP i przepisów o KSC, z misją ratowniczą, przy której nikt nie zaakceptuje przestoju w SK, z ograniczonym budżetem i etatami oraz według praktyk KSRG. Plan wdrożenia musi to uwzględnić, bo te warunki to czynniki środowiskowe.",
+    "it": "Komenda w Modrzewiowie wdraża COBIT 5 inaczej niż prywatna firma: wiążą ją przepisy, nadzór komendy wojewódzkiej i mały wydział informatyki, a apetyt na ryzyko przestoju Syreny jest bardzo niski. Dlatego plan zaczyna od procesu DSS04 Zarządzanie ciągłością, a nie od APO04 Zarządzanie innowacjami."
+  },
+  "glebokosc": {
+    "prosty": "Ten sam przepis na ciasto inaczej wychodzi w górach, a inaczej nad morzem. Liczy się też piekarnik, czas, dieta gości i ceny jajek. Dobry kucharz dopasowuje przepis do warunków, a nie warunki do przepisu.",
+    "zaawansowany": "Komenda nie może skopiować planu wdrożenia z prywatnej firmy. Działa według przepisów o PSP, ma stały budżet pilnowany przez Halinę Mak i kulturę rozkazu, w której dyżurni boją się zgłaszać błędy. Komendantka Wrzos ma niski apetyt na ryzyko, bo chodzi o życie ludzi. To czynniki środowiskowe i od nich zależy kształt planu. Nie myl ich z [[punkty-zapalne|punktami zapalnymi]] ani ze [[zdarzenia-wyzwalajace|zdarzeniami wyzwalającymi]].",
+    "skrajny": "„Przepisy o powiadamianiu ludności” – to czynnik środowiskowy czy zdarzenie wyzwalające? Zależy od ich roli. Lista ze s. 35 wymienia „obowiązujące przepisy, regulacje i polityki” jako kontekst, który plan musi uwzględnić. Lista ze s. 37 wymienia „nowe wymagania regulacyjne” jako zdarzenie, które skłania do zajęcia się Ładem i Zarządzaniem IT. Tak samo „styl zarządzania” to kontekst, a „nowy dyrektor” to zdarzenie. **Rozstrzygnięcie:** stan obowiązujący („są takie przepisy, jest taki styl”) → czynnik środowiskowy; zmiana, która uruchamia działanie („nowe przepisy, nowy szef”) → zdarzenie wyzwalające; bolesny objaw („ukryte wydatki na IT”) → punkt zapalny."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wystarczy wziąć gotowy plan wdrożenia COBIT 5 i go zastosować.",
+      "prawda": "Każda organizacja musi zaprojektować własny plan, uwzględniając swój kontekst (s. 35)."
+    },
+    {
+      "mit": "Czynniki środowiskowe to tylko otoczenie zewnętrzne: prawo i rynek.",
+      "prawda": "Są też wewnętrzne: etyka i kultura, styl zarządzania, apetyt na ryzyko, potencjał i dostępne zasoby."
+    },
+    {
+      "mit": "Czynnik środowiskowy to to samo co wyznacznik z kaskady celów.",
+      "prawda": "Wyznaczniki zmieniają potrzeby interesariuszy (kaskada celów). Czynniki środowiskowe to kontekst planu wdrożenia."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Wrzucanie do jednego worka czynników środowiskowych, punktów zapalnych i zdarzeń wyzwalających.",
+    "jakTlumaczyc": "Pogoda, ból i telefon. Pogoda (czynnik środowiskowy) to warunki, w których planujesz wycieczkę. Ból (punkt zapalny) to objaw, że coś jest źle. Telefon (zdarzenie wyzwalające) to impuls, żeby wreszcie działać.",
+    "pytanieKontrolne": "Jak rozpoznasz, że „styl zarządzania komendantki” to czynnik środowiskowy, a „nowa komendantka” to zdarzenie wyzwalające?",
+    "odpowiedzKontrolna": "Styl zarządzania to stały element kontekstu, który plan musi uwzględnić (s. 35). Zmiana na stanowisku szefa to zdarzenie, które skłania do zajęcia się Ładem i Zarządzaniem IT (s. 37). Stan oznacza czynnik, a zmiana-impuls oznacza zdarzenie."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "punkty-zapalne",
+      "roznica": "Czynniki środowiskowe to kontekst, który trzeba UWZGLĘDNIĆ. Punkty zapalne to problemy, które WYWOŁUJĄ potrzebę wdrożenia."
+    },
+    {
+      "termin": "wyznacznik",
+      "roznica": "Wyznaczniki zmieniają potrzeby interesariuszy (kaskada). Czynniki środowiskowe to kontekst wdrożenia (IM)."
+    }
+  ],
+  "przykladWypowiedzi": "Internal and external environment factors, czyli czynniki środowiskowe, takie jak kultura, przepisy czy apetyt na ryzyko (risk appetite), kształtują własny plan wdrożenia COBIT 5; nie są tym samym co punkty zapalne (pain points).",
+  "egzamin": "Czynnik środowiskowy, który trzeba uwzględnić przy planie wdrożenia, to np. **obowiązujące prawa i regulacje**, styl zarządzania albo apetyt na ryzyko. „Ukryte wydatki na IT” i „złożone modele operacyjne IT” to **punkty zapalne**, a „audyt zewnętrzny” to **zdarzenie wyzwalające**, czyli inne kategorie.",
+  "powiazane": [
+    "punkty-zapalne",
+    "zdarzenia-wyzwalajace",
+    "cykl-wdrozenia"
+  ],
+  "sylabus": [
+    "IM-02-01"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 35,
+      "cytat": "Każde przedsiębiorstwo musi zaprojektować własny plan wdrożenia lub mapę działań"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 35
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Czynniki środowiskowe (kontekst organizacji)",
+    "podrecznik": "Czynniki związane ze środowiskiem wewnętrznym i zewnętrznym",
+    "kurs": "Czynniki środowiskowe (kontekst organizacji) – Internal and external environment factors",
+    "uwaga": "Egzamin PL: „Czynniki środowiskowe (kontekst organizacji)”; podręcznik PL: „Czynniki związane ze środowiskiem wewnętrznym i zewnętrznym” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 35."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "organizacja",
+    "cobit-5"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "faza-6",
+  "en": "Phase 6: Did we get there?",
+  "wymowa": "fejz 6 did łi get der",
+  "wymowaAkcent": "fejz 6 did łi get der",
+  "plEgzamin": "Faza 6: Czy dotarliśmy do celu?",
+  "plPodrecznik": "Faza 6: Czy cel został osiągnięty?",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Faza 6: Czy dotarliśmy do celu?",
+    "podrecznik": "Faza 6: Czy cel został osiągnięty?",
+    "kurs": "Faza 6: Czy dotarliśmy do celu? (Phase 6: Did we get there?)",
+    "uwaga": "Egzamin PL: „Faza 6: Czy dotarliśmy do celu?”; podręcznik PL: „Faza 6: Czy cel został osiągnięty?” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin i kurs: „Czy dotarliśmy do celu?”. Il. 17: „Czy cel został osiągnięty?”. Działanie pierścienia zmiany w podręczniku to „Integracja nowych podejść”, w arkuszu egzaminacyjnym (SP1) i w kursie „Umożliwianie nowych podejść”.",
+  "skadNazwa": "Angielskie *Did we get there?*. Działanie *Embed new approaches* podręcznik tłumaczy jako „Integracja nowych podejść”, a arkusz egzaminacyjny (SP1) i kurs – „Umożliwianie nowych podejść”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "faza-5",
+    "uzasadnienie-biznesowe"
+  ],
+  "poLudzku": "Szósty krok: nowe rozwiązanie działa na co dzień, a Ty sprawdzasz, czy dało obiecane korzyści.",
+  "wyobrazSobie": "Nowa kuchnia stoi od trzech miesięcy. Sprawdzasz, czy gotuje się wygodniej i czy rachunki spadły, jak obiecywał sprzedawca.",
+  "poziom1": "Szósta z [[fazy-wdrozenia|siedmiu faz]]. Działania skupiają się na **zrównoważonym wykorzystaniu** nowych lub udoskonalonych aktywatorów i na **monitorowaniu uzyskania spodziewanych korzyści**.",
+  "poziom2": "| Pierścień | Działanie w fazie 6 („Czy dotarliśmy do celu?”) |\n|---|---|\n| Zarządzanie programem (zewnętrzny) | Realizacja korzyści |\n| Aktywowanie zmiany (środkowy) | Umożliwianie nowych podejść (SP1; podr. „Integracja nowych podejść”) |\n| Cykl życia ciągłego doskonalenia (wewnętrzny) | Eksploatacja i pomiar |\n\nOznaczenia nazw działań: **(SP1)** – nazwa z polskiego arkusza egzaminacyjnego; bez oznaczenia – tłumaczenie kursu z *COBIT 5 Implementation* (ISACA), jak w lekcji 3.4.\n\nFaza 6 patrzy na **tę iterację**: czy rozwiązanie się przyjęło i czy dało korzyści. Szersze pytanie „czy cała inicjatywa się udała i co dalej?” zadaje faza 7.",
+  "poziom3": "(s. 38): *„Działania w fazie 6 koncentrują się na zrównoważonym wykorzystaniu nowych lub udoskonalonych czynników umożliwiających i monitorowaniu uzyskania spodziewanych korzyści.”*",
+  "poCo": "Żeby sprawdzić, czy rozwiązanie przyjęło się na co dzień i dało obiecane korzyści. To rozliczenie tej iteracji.",
+  "jakDziala": "Nowe lub ulepszone aktywatory działają w codziennej pracy. Mierzysz wyniki miarami z fazy 5. Program porównuje korzyści z uzasadnieniem biznesowym, a zespół osadza nowe podejścia.",
+  "dlaczegoWazne": "Egzamin łączy zrównoważone wykorzystanie aktywatorów i monitorowanie korzyści z fazą 6. Działanie programu w tej fazie to Realizacja korzyści.",
+  "przyklady": {
+    "zycie": "Od dwóch miesięcy biegasz i gotujesz po nowemu. To już nawyk, nie zryw. Stajesz na wadze: minus 6 kg i lepsze ciśnienie. Sprawdzasz, czy dostałeś to, po co zacząłeś. To faza 6.",
+    "biuro": "Od kwartału archiwum działa po nowemu. Liczysz: umowę znajdziesz średnio w 3 minuty, a nikt nie chowa teczek „po staremu”.",
+    "organizacja": "Sklep po kwartale porównuje czasy wysyłek i skargi z kosztorysem. Starostwo po pół roku liczy sprawy z e-rezerwacji i skrócenie kolejki.",
+    "psp": "**Czy alarm dochodzi szybciej?**\nPo trzech miesiącach informatyczka Ola Dudek pokazuje pomiary: alarm do OSP Zawilce idzie średnio 50 sekund. Księgowa Halina Mak porównuje to z korzyściami z uzasadnienia biznesowego. Dyżurny Paweł Grab sam uczy nowych kolegów nowej procedury. To [[faza-6|faza 6: Czy dotarliśmy do celu?]]",
+    "it": "Czas rozwiązania incydentów w DSS02 porównujesz z uzasadnieniem biznesowym. Ład monitoruje korzyści w EDM02 (Zapewnienie realizacji korzyści)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "faza-7",
+      "roznica": "Faza 6 sprawdza korzyści tej iteracji i utrwala nowe podejścia. Faza 7 weryfikuje ogólny sukces i ustala dalsze wymagania."
+    },
+    {
+      "termin": "realizacja-korzysci",
+      "roznica": "„Realizacja korzyści” jako cel Ładu dotyczy całej organizacji, zawsze. Działanie programu w fazie 6 sprawdza korzyści tego wdrożenia."
+    }
+  ],
+  "przykladWypowiedzi": "W fazie 6, Did we get there?, czyli Czy dotarliśmy do celu?, sprawdzamy realizację korzyści (benefits realisation) z tej iteracji.",
+  "egzamin": "Faza, w której koncentrujemy się na **zrównoważonym wykorzystaniu** nowych aktywatorów i **monitorowaniu uzyskania spodziewanych korzyści** → **faza 6**. Działanie programu: **Realizacja korzyści**.",
+  "powiazane": [
+    "fazy-wdrozenia",
+    "faza-5",
+    "faza-7",
+    "realizacja-korzysci",
+    "uzasadnienie-biznesowe",
+    "wskaznik-opozniony"
+  ],
+  "sylabus": [
+    "IM-02-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "Działania w fazie 6 koncentrują się na zrównoważonym wykorzystaniu nowych lub udoskonalonych czynników umożliwiających i monitorowaniu uzyskania spodziewanych korzyści."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "ilustracja": "17"
+    }
+  ],
+  "mapa": "faza-6",
+  "glebokosc": {
+    "prosty": "Kupiłeś zmywarkę, żeby mieć wolne wieczory. Po miesiącu zmywarka to już codzienność. Pytasz siebie: czy faktycznie mam więcej czasu? Jeśli tak, dotarłeś do celu.",
+    "zaawansowany": "Nowa Syrena działa od kwartału. Dudek mierzy czasy alarmów, a program porównuje je z korzyściami z [[uzasadnienie-biznesowe|uzasadnienia biznesowego]]. Pierścień zmiany pilnuje, żeby nowe podejście się osadziło: Grab uczy nowych. Czas dotarcia alarmu to [[wskaznik-opozniony|wskaźnik opóźniony]] – pokazuje efekt po fakcie.",
+    "skrajny": "Na odprawie padają dwa pytania. Księgowa Mak pyta: „Czy alarm dochodzi szybciej, tak jak obiecaliśmy?”. Komendantka Wrzos pyta: „Czy cała inicjatywa się udała i co robimy dalej?”. Pierwsze to faza 6, drugie – faza 7. Kusi też, żeby „Realizację korzyści” z fazy 6 utożsamić z celem Ładu o tej samej nazwie. Cel Ładu obowiązuje komendę zawsze, a działanie fazy 6 sprawdza korzyści tego jednego programu. **Rozstrzygnięcie:** „czy dostaliśmy obiecane korzyści i czy rozwiązanie się przyjęło?” to faza 6; „czy całość się udała i jakie są dalsze potrzeby?” to faza 7."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Faza 6 kończy wdrożenie, bo „dotarliśmy”.",
+      "prawda": "Po fazie 6 jest jeszcze faza 7 i kolejna iteracja. Faza 6 sprawdza tylko korzyści tej iteracji."
+    },
+    {
+      "mit": "Realizacja korzyści w fazie 6 to to samo co cel Ładu „realizacja korzyści”.",
+      "prawda": "Ta sama nazwa, inny poziom. Cel Ładu dotyczy całej organizacji, działanie fazy 6 – jednego programu."
+    },
+    {
+      "mit": "W fazie 6 dopiero ustala się miary.",
+      "prawda": "Miary ustala faza 5. Faza 6 z nich korzysta: eksploatacja i pomiar."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli fazę 6 z fazą 7, bo obie „sprawdzają”.",
+    "jakTlumaczyc": "Faza 6 to waga po diecie: czy jest wynik? Faza 7 to rozmowa z lekarzem: czy całość się udała i co dalej?",
+    "pytanieKontrolne": "W której fazie monitoruje się uzyskanie spodziewanych korzyści i jak nazywa się tam działanie programu?",
+    "odpowiedzKontrolna": "W **fazie 6** („Czy dotarliśmy do celu?”). Działanie programu: **Realizacja korzyści**."
+  }
+}

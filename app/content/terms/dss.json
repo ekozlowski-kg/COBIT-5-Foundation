@@ -1,0 +1,91 @@
+{
+  "id": "dss",
+  "en": "Deliver, Service and Support (DSS)",
+  "wymowa": "deliwer serwis end saport",
+  "wymowaAkcent": "de-LI-wer SER-wis end sa-PORT",
+  "plEgzamin": "Dostarczaj, Obsługuj i Wspieraj (DSS)",
+  "plPodrecznik": "Dostarczanie, obsługa i wsparcie (DSS)",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Dostarczaj, Obsługuj i Wspieraj (DSS)",
+    "podrecznik": "Dostarczanie, obsługa i wsparcie (DSS)",
+    "kurs": "Dostarczaj, Obsługuj i Wspieraj (DSS) – Deliver, Service and Support",
+    "uwaga": "Egzamin PL: „Dostarczaj, Obsługuj i Wspieraj (DSS)”; podręcznik PL: „Dostarczanie, obsługa i wsparcie (DSS)” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 32, 33, 53; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Dostarczaj, Obsługuj i Wspieraj (DSS)”. Podręcznik: „Dostarczanie, obsługa i wsparcie (DSS)”. Nazwy procesów na egzaminie mogą brzmieć inaczej niż w podręczniku. Rozpoznawaj je po kodzie i angielskim słowie kluczowym.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "pbrm",
+    "proces"
+  ],
+  "poLudzku": "Szuflada zadań „codzienna praca”: żeby systemy chodziły, awarie były usuwane, a dane bezpieczne.",
+  "wyobrazSobie": "Codzienna obsługa hotelu: recepcja przyjmuje gości, konserwator naprawia cieknący kran, ochrona pilnuje wejścia, a na wypadek pożaru jest plan ewakuacji.",
+  "poCo": "Żeby usługi IT działały dziś i jutro: były dostarczane, obsługiwane, naprawiane i chronione zgodnie z tym, co zaplanowano i wdrożono.",
+  "jakDziala": "DSS to domena Zarządzania odpowiadająca obszarowi Wykonuj (Run) w cyklu Planuj, Twórz, Wykonuj, Monitoruj. Ma 6 procesów: eksploatacja (DSS01), zgłoszenia serwisowe i incydenty (DSS02), problemy (DSS03), ciągłość (DSS04), usługi bezpieczeństwa (DSS05) i mechanizmy kontrolne procesów biznesowych (DSS06). Przejmuje od BAI gotowe rozwiązania i utrzymuje je w codziennym działaniu.",
+  "dlaczegoWazne": "Na egzaminie trzeba odróżnić incydent (DSS02, przywrócenie działania) od problemu (DSS03, usunięcie przyczyny) oraz DSS05 od APO13. Nazwa egzaminacyjna to „Dostarczaj, Obsługuj i Wspieraj”.",
+  "skadNazwa": "Skrót od *Deliver, Service and Support*. Podręcznik: rzeczowniki („Dostarczanie, obsługa…”). Egzamin: tryb rozkazujący („Dostarczaj, Obsługuj i Wspieraj”).",
+  "poziom1": "Domena Zarządzania od codziennej pracy IT, czyli tego, żeby wszystko działało dziś i jutro (np. obsługa zgłoszeń i awarii, szukanie przyczyn powtarzających się usterek, plan na wypadek katastrofy, ochrona przed włamaniem, kontrole w procesach biznesowych). Ma 6 procesów.",
+  "poziom2": "| Kod | Podręcznik PL | EN |\n|---|---|---|\n| DSS01 | Zarządzanie eksploatacją | Manage Operations |\n| DSS02 | Zarządzanie zgłoszeniami serwisowymi i incydentami | Manage Service Requests and Incidents |\n| DSS03 | Zarządzanie problemami | Manage Problems |\n| DSS04 | Zarządzanie ciągłością | Manage Continuity |\n| DSS05 | Zarządzanie usługami bezpieczeństwa | Manage Security Services |\n| DSS06 | Zarządzanie mechanizmami kontrolnymi procesów biznesowych | Manage Business Process Controls |",
+  "poziom3": "Ilustracja 16 (s. 33) – model referencyjny procesu COBIT 5. Szczegóły w przewodniku *COBIT 5: Procesy umożliwiające*.",
+  "przyklady": {
+    "zycie": "W poniedziałek rano pada router, więc go restartujesz i dzwonisz do operatora (incydent). Gdy pada trzeci raz w miesiącu, szukasz przyczyny i wymieniasz zasilacz (problem). Zapasowy klucz leży u sąsiada, a zdjęcia mają kopię na dysku (ciągłość). Codzienne utrzymanie, żeby dom działał, to DSS.",
+    "biuro": "W biurze zacina się drukarka, więc asystentka zgłasza to serwisowi i do czasu naprawy drukuje na drugim piętrze. Gdy drukarka psuje się trzeci raz w miesiącu, serwis szuka przyczyny i wymienia podajnik. Codzienne utrzymanie, usuwanie awarii i ich przyczyn to obszar DSS.",
+    "firma": "W sobotę rano w piekarni przestaje działać terminal płatniczy. Sprzedawczyni zgłasza awarię, serwis przywraca terminal w godzinę, a do tego czasu klienci płacą gotówką według spisanej instrukcji awaryjnej. Codzienna obsługa, usuwanie awarii i plan na czarną godzinę to DSS.",
+    "admin": "Urzędniczka w starostwie nie może zalogować się do EZD i dzwoni do informatyka (zgłoszenie). Informatyk przywraca dostęp, w nocy system robi kopię zapasową, a raz w roku urząd ćwiczy, co robić, gdy padnie serwerownia. To codzienna praca IT w domenie DSS.",
+    "psp": "W nocy w SK zawiesza się stanowisko dyżurnego. Dyżurny przechodzi na stanowisko zapasowe według planu ciągłości i zgłasza awarię informatykowi, który rano ją usuwa i sprawdza, dlaczego to już trzeci raz w miesiącu. Obsługa awarii, szukanie przyczyny i działanie mimo przestoju to domena DSS.",
+    "it": "W nocy Syrena nie wysyła SMS-ów do OSP Zawilce. Ola Dudek przywraca wysyłkę według procedury obsługi incydentu (DSS02), a potem zespół szuka przyczyny i ustala, że w bazie były nieaktualne numery (DSS03 Zarządzanie problemami)."
+  },
+  "glebokosc": {
+    "prosty": "Kuchnia po remoncie jest gotowa i teraz codziennie w niej gotujesz i sprzątasz. Naprawiasz cieknący kran i szukasz, czemu ciągle wybija bezpiecznik. Masz też plan, gdzie zjeść, gdy prąd zniknie na tydzień. To codzienne życie, a nie budowa.",
+    "zaawansowany": "W nocy Syrena przestaje wysyłać SMS-y. Grab zgłasza awarię, a Ola Dudek przywraca działanie: to incydent (DSS02). Następnego dnia Ola szuka przyczyny, dla której awaria wraca co miesiąc: to problem (DSS03). Sikora przygotowuje zapasowe powiadamianie przez radio na wypadek długiej awarii (DSS04). Codzienne pilnowanie uprawnień to DSS05. Jeśli usunięcie przyczyny wymaga przebudowy systemu, to już zmiana w domenie [[bai|BAI]].",
+    "skrajny": "Ta sama nocna awaria Syreny przechodzi przez kilka procesów. Szybkie przywrócenie działania to DSS02, a szukanie przyczyny powtarzających się awarii to DSS03, choć chodzi o to samo zdarzenie. Jeśli naprawa wymaga zmiany w systemie, przechodzi przez BAI06, a nie przez DSS. Plan na wielodniową awarię to DSS04 (ciągłość), a nie BAI04 (dostępność i pojemność). DSS05 to codzienne usługi bezpieczeństwa, a APO13 – zarządzanie bezpieczeństwem jako systemem. **Rozstrzygnięcie:** przywróć szybko → DSS02; znajdź przyczynę → DSS03; przetrwaj katastrofę → DSS04; zmień system → BAI06; chroń na co dzień → DSS05; zaplanuj system bezpieczeństwa → APO13."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Incydent i problem to to samo.",
+      "prawda": "Incydent (DSS02) to przywrócenie usługi. Problem (DSS03) to znalezienie i usunięcie przyczyny powtarzających się incydentów."
+    },
+    {
+      "mit": "Całe bezpieczeństwo jest w jednym procesie.",
+      "prawda": "APO13 to Zarządzanie bezpieczeństwem (system i plan), a DSS05 to Zarządzanie usługami bezpieczeństwa (codzienna ochrona)."
+    },
+    {
+      "mit": "DSS06 to kontrola pracy działu IT.",
+      "prawda": "DSS06 to mechanizmy kontrolne procesów biznesowych, czyli kontrole wbudowane w pracę samej organizacji."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie DSS02 z DSS03 oraz DSS05 z APO13.",
+    "jakTlumaczyc": "Pogotowie i lekarz rodzinny: pogotowie ratuje teraz (incydent, DSS02), a lekarz szuka przyczyny, żeby choroba nie wracała (problem, DSS03). Szpital polowy na wypadek katastrofy to ciągłość (DSS04).",
+    "pytanieKontrolne": "Syrena trzeci raz w miesiącu gubi SMS-y do OSP, a Ola za każdym razem restartuje serwer. Czego brakuje w procesach DSS?",
+    "odpowiedzKontrolna": "Brakuje zarządzania problemami (DSS03). Restart to obsługa incydentu (DSS02), ale nikt nie szuka przyczyny powtarzających się incydentów. Gdy przyczyna się znajdzie, poprawkę w systemie wprowadza się przez zarządzanie zmianami (BAI06)."
+  },
+  "nieMylicZ": [],
+  "przykladWypowiedzi": "DSS, czyli Deliver, Service and Support – Dostarczaj, Obsługuj i Wspieraj – to domena Zarządzania od codziennej pracy IT; DSS02 przywraca usługę po incydencie, a DSS03 Manage Problems usuwa przyczynę powtarzających się awarii.",
+  "egzamin": "Odróżniaj **APO13** (Zarządzanie bezpieczeństwem, czyli planowanie systemu bezpieczeństwa) od **DSS05** (Zarządzanie usługami bezpieczeństwa, czyli codzienna ochrona). Ciągłość działania to **DSS04**.",
+  "powiazane": [
+    "prm",
+    "pbrm",
+    "zarzadzanie"
+  ],
+  "sylabus": [
+    "PR-01-04",
+    "EN-02-23"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "domena-dss"
+}

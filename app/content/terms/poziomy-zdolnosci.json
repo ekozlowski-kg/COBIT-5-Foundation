@@ -1,0 +1,103 @@
+{
+  "id": "poziomy-zdolnosci",
+  "en": "Capability levels 0–5",
+  "wymowa": "kejpabiliti lewelz 0 5",
+  "wymowaAkcent": "kej-pa-BI-li-ti LE-welz 0 5",
+  "plEgzamin": "Poziomy zdolności 0–5",
+  "plPodrecznik": "Poziomy potencjału procesu",
+  "mapa": "poziomy-zdolnosci",
+  "poLudzku": "Sześć stopni od „nie robimy” przez „robimy z planem” do „ciągle poprawiamy”.",
+  "wyobrazSobie": "Jak stopnie w szkole pływania: najpierw w ogóle pływasz, potem według planu treningów, potem jedną techniką klubu, potem w zmierzonych granicach czasu, a na końcu stale poprawiasz styl – i nie dostaniesz wyższego stopnia bez pełnego zaliczenia niższego.",
+  "poCo": "Żeby dało się porównywalnie i obiektywnie powiedzieć, jak dobrze działa dany proces i co trzeba poprawić, żeby wejść wyżej.",
+  "jakDziala": "Model zdolności (capability model) oparty na ISO/IEC 15504 ma sześć poziomów: 0 niekompletny (Incomplete), 1 wykonywany (Performed), 2 zarządzany (Managed), 3 ustanowiony (Established), 4 przewidywalny (Predictable) i 5 zoptymalizowany (Optimising). Każdy poziom ma atrybuty procesu (poziom 1 jeden, kolejne po dwa), które asesor ocenia w skali N/C/W/P. Proces osiąga poziom, gdy atrybuty tego poziomu mają W lub P, a wszystkie atrybuty niższych poziomów mają P.",
+  "dlaczegoWazne": "Ocena zdolności procesów to osobny obszar egzaminu: trzeba znać nazwy i kolejność poziomów (np. „ustanowiony” to 3, „przewidywalny” to 4), wiedzieć, że poziomu 6 nie ma, i umieć zastosować regułę przejścia na wyższy poziom.",
+  "poziom1": "Sześć szczebli od 0 do 5, które mówią, jak dojrzale działa proces: 0 niekompletny, 1 wykonywany, 2 zarządzany, 3 ustanowiony, 4 przewidywalny, 5 zoptymalizowany. Żeby wejść na wyższy szczebel, niższe muszą być spełnione w pełni.",
+  "poziom2": "| Poziom | Nazwa | Atrybuty | Sens (s. 42) |\n|---|---|---|---|\n| 0 | **Niekompletny** | – | proces nie wdrożony albo nie osiąga celu |\n| 1 | **Wykonywany** | PA 1.1 | proces **osiąga swój cel** |\n| 2 | **Zarządzany** | PA 2.1, 2.2 | planowany, monitorowany, dostosowywany; produkty pracy kontrolowane |\n| 3 | **Ustanowiony** | PA 3.1, 3.2 | realizowany według **zdefiniowanego** (standardowego) procesu |\n| 4 | **Przewidywalny** | PA 4.1, 4.2 | działa w **zdefiniowanych limitach** (mierzony, kontrolowany) |\n| 5 | **Zoptymalizowany** | PA 5.1, 5.2 | **nieustannie doskonalony** pod cele biznesowe |\n\nPoziom 1 ma **jeden** atrybut, a poziomy 2–5 mają po **dwa**. Osiągnięcie poziomu 1 jest już **ważnym osiągnięciem**.",
+  "poziom3": "(s. 42): *„Istnieje sześć poziomów potencjału, które może osiągnąć proces.”* Każdy poziom można osiągnąć tylko wtedy, gdy w pełni uzyskano niższy.",
+  "warianty": {
+    "prosto": "Pieczesz ciasto: raz w ogóle nie wychodzi (0), raz wyszło (1), zapisujesz przepis i planujesz zakupy (2), cała rodzina piecze z tego samego przepisu (3), ważycie składniki i pilnujecie czasu, więc zawsze wychodzi tak samo (4), a co jakiś czas poprawiacie przepis (5). Tak wyglądają poziomy zdolności procesu – od „nie działa” do „stale się ulepsza”.",
+    "dokladniej": "Każdy poziom dodaje atrybuty: 1 wykonanie; 2 zarządzanie wydajnością i produktami pracy; 3 definicja i wdrożenie; 4 pomiar i kontrola; 5 innowacja i optymalizacja.",
+    "ekspercko": "Poziom 1 ocenia się wskaźnikami wykonania (praktyki bazowe, produkty pracy) w wymiarze procesu. Poziomy 2–5 ocenia się ogólnymi praktykami i zasobami w wymiarze zdolności."
+  },
+  "przyklady": {
+    "zycie": "Domowe rachunki. 0 – czasem przychodzi wezwanie do zapłaty; 1 – wszystko jest zapłacone; 2 – masz kalendarz terminów i teczkę z potwierdzeniami; 3 – cała rodzina płaci według jednej spisanej listy z jednego konta. 4 – co miesiąc sprawdzasz wydatki i trzymasz się ustalonych kwot, 5 – co roku szukasz tańszego prądu i internetu i zmieniasz sposób na lepszy.",
+    "biuro": "Obieg faktur w biurze: 0 – faktury czasem giną; 1 – wszystkie są zaksięgowane; 2 – jest grafik księgowania, a kierownik sprawdza teczki; 3 – wszystkie działy stosują ten sam spisany obieg. 4 – biuro mierzy czas od wpływu do zaksięgowania i trzyma go w ustalonym limicie, 5 – na podstawie tych pomiarów co roku ulepsza obieg.",
+    "firma": "Sklep internetowy z kawą, wysyłka paczek. Na poziomie 1 paczki po prostu wychodzą; na 2 ktoś planuje wysyłki na dany dzień i sprawdza etykiety; na 3 jest jedna spisana instrukcja pakowania dla wszystkich. Na 4 mierzą czas od zamówienia do nadania i trzymają się limitu 24 godzin, a na 5 co kwartał zmieniają sposób pakowania, żeby szło szybciej i taniej.",
+    "admin": "Zapisy do pierwszej klasy w gminie. 1 – dzieci są zapisane; 2 – sekretariat ma harmonogram i sprawdza kompletność dokumentów; 3 – wszystkie szkoły w gminie używają tej samej procedury i formularza. 4 – gmina mierzy czas rozpatrzenia i liczbę odwołań i trzyma je w ustalonych granicach, 5 – co roku poprawia procedurę na podstawie tych danych.",
+    "psp": "Obsługa zgłoszeń w SK. 1 – każde zgłoszenie jest obsłużone; 2 – dyżury są zaplanowane, kierownik SK sprawdza karty zdarzeń, a wzory dokumentów są pod kontrolą; 3 – wszystkie SK w województwie pracują według jednej procedury. 4 – mierzy się czas od przyjęcia zgłoszenia do zadysponowania i trzyma go w ustalonych limitach, 5 – na podstawie tych pomiarów procedurę stale się poprawia.",
+    "it": "Asesor ocenia BAI06 (Zarządzanie zmianami): zmiany są wdrażane i rejestrowane (PA 1.1 = P), planowane i nadzorowane (PA 2.1 = P), a wnioski o zmianę jako produkty pracy są kontrolowane tylko w większości (PA 2.2 = W). Proces osiąga poziom 2 (zarządzany); żeby myśleć o poziomie 3, musi najpierw mieć P także na PA 2.2."
+  },
+  "glebokosc": {
+    "prosty": "Nauka jazdy na rowerze. Na początku się wywracasz (0), potem jakoś jedziesz (1), potem planujesz trasę i sprawdzasz hamulce (2), a w końcu cała rodzina jeździ według tych samych zasad (3). Nie da się przeskoczyć szczebla: jeśli nadal się wywracasz, plan trasy nic nie pomoże.",
+    "zaawansowany": "Ewa Lis ocenia proces obsługi zgłoszeń awarii Syreny. Mł. kpt. Dudek naprawia każdą awarię, więc proces osiąga swój cel – to poziom 1, oceniany przez [[pojecia-iso15504|praktyki bazowe i produkty pracy]]. Kpt. Sikora planuje dyżury i sprawdza zgłoszenia, więc Ewa ocenia też [[atrybuty-procesu|atrybuty]] PA 2.1 i PA 2.2. Każdy atrybut dostaje ocenę na [[skala-ocen|skali N/C/W/P]]. Poziom 3 wymagałby jednej, standardowej procedury dla całego wydziału, a takiej jeszcze nie ma.",
+    "skrajny": "Ewa Lis wystawia oceny: PA 1.1 = W, PA 2.1 = P, PA 2.2 = P. Intuicja mówi „poziom 2”, bo oba atrybuty poziomu 2 są pełne. Reguła wymaga jednak, by wszystkie atrybuty niższych poziomów miały **P**. PA 1.1 ma tylko W, więc proces jest na poziomie 1, choć zarządza się nim wzorowo. Odwrotny przypadek: PA 1.1 = C to poziom 0, nawet jeśli proces „coś robi” – „niekompletny” nie znaczy „nieistniejący”. **Rozstrzygnięcie:** poziom n jest osiągnięty, gdy atrybuty poziomu n mają co najmniej W, a wszystkie atrybuty niższych poziomów mają P."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Poziom 0 oznacza, że procesu w ogóle nie ma.",
+      "prawda": "Poziom 0 (niekompletny) obejmuje też proces, który się wykonuje, ale nie osiąga swojego celu (PA 1.1 = N albo C)."
+    },
+    {
+      "mit": "Bardzo dobre oceny na wyższym poziomie podciągają wynik.",
+      "prawda": "Nie da się przeskoczyć szczebla: każdy atrybut niższego poziomu musi mieć P, zanim policzy się wyższy poziom."
+    },
+    {
+      "mit": "Poziom 1 to prawie nic.",
+      "prawda": "Osiągnięcie poziomu 1 jest już ważnym osiągnięciem – proces osiąga swój cel (s. 42)."
+    },
+    {
+      "mit": "Ustanowiony to 4, a przewidywalny to 3.",
+      "prawda": "3 = ustanowiony (zdefiniowany, standardowy proces), 4 = przewidywalny (działa w zdefiniowanych limitach). Poziomu 6 nie ma."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Liczenie poziomu tylko z atrybutów danego poziomu, bez sprawdzenia, czy niższe mają P.",
+    "jakTlumaczyc": "Drabina: na szczebel stajesz, gdy stoisz na nim co najmniej „w większości” (W), ale żeby wejść wyżej, poprzedni szczebel musi być pod stopami w pełni (P). Ćwicz na tabelkach: czytaj od dołu i zatrzymaj się na pierwszym niższym atrybucie bez P.",
+    "pytanieKontrolne": "Proces ma PA 1.1 = P, PA 2.1 = W, PA 2.2 = P, PA 3.1 = P, PA 3.2 = P. Jaki to poziom i co trzeba poprawić, by wejść wyżej?",
+    "odpowiedzKontrolna": "Poziom 2: atrybuty poziomu 2 mają co najmniej W, a PA 1.1 = P. Poziomu 3 nie ma, bo PA 2.1 ma tylko W. Po podniesieniu PA 2.1 do P proces osiągnąłby poziom 3."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Poziom 6",
+      "roznica": "Nie ma poziomu 6. Poziomy to 0–5."
+    }
+  ],
+  "przykladWypowiedzi": "Capability levels, czyli poziomy zdolności, idą od 0 Incomplete (niekompletny) do 5 Optimising (zoptymalizowany); proces osiąga dany poziom, gdy jego atrybuty mają W lub P, a wszystkie atrybuty niższych poziomów mają P.",
+  "egzamin": "„Proces ustanowiony” → **poziom 3**. „Przewidywalny” → 4. Nie istnieje poziom 6. Atrybut procesu przewidywalnego to m.in. **Miara (pomiar) procesu** (PA 4.1).",
+  "powiazane": [
+    "atrybuty-procesu",
+    "skala-ocen",
+    "model-zdolnosci"
+  ],
+  "sylabus": [
+    "PC-01-01"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "cytat": "Istnieje sześć poziomów potencjału, które może osiągnąć proces."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Poziomy zdolności 0–5",
+    "podrecznik": "Poziomy potencjału procesu",
+    "kurs": "Poziomy zdolności 0–5 (Capability levels 0–5)",
+    "uwaga": "Capability: Zdolność / Potencjał; nie mylić z poziomami dojrzałości. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 9, 30, 43."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "proces",
+    "prm"
+  ]
+}

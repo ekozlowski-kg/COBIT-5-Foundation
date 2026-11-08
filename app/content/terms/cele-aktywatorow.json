@@ -1,0 +1,96 @@
+{
+  "id": "cele-aktywatorow",
+  "en": "Enabler goals",
+  "wymowa": "inejbler gołlz",
+  "wymowaAkcent": "i-NEJ-bler gołlz",
+  "plEgzamin": "Cele aktywatora",
+  "plPodrecznik": "Cele czynników umożliwiających",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cele aktywatora",
+    "podrecznik": "Cele czynników umożliwiających",
+    "kurs": "Cele aktywatora (Enabler goals)",
+    "uwaga": "Egzamin PL: „Cele aktywatora”; podręcznik PL: „Cele czynników umożliwiających” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 8, 9; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Cele aktywatora”. Podręcznik: „Cele czynników umożliwiających”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "cele-zwiazane-z-it",
+    "aktywator"
+  ],
+  "poLudzku": "Konkretne, sprawdzalne cele dla każdej „części układanki”, np. dla danych: mają być aktualne.",
+  "wyobrazSobie": "Trener rozpisuje cel „wygrać mecz” na zadania dla bramkarza, obrony i napastników, każde sprawdzalne po meczu.",
+  "poCo": "Żeby cel związany z IT przełożyć na konkretne, sprawdzalne oczekiwania wobec każdego aktywatora: procesu, polityki, struktury, informacji czy ludzi.",
+  "jakDziala": "To czwarty krok kaskady celów (goals cascade): potrzeby interesariuszy → cele organizacji → cele związane z IT → cele aktywatora. Dla każdego aktywatora określa się cele, które wspierają cele związane z IT; najczęściej są to cele procesów, a mapowanie celów IT na procesy podaje Załącznik C. Cele są też jednym z czterech wymiarów aktywatora i dzielą się na kategorie: jakość wewnętrzna, jakość kontekstowa oraz dostęp i bezpieczeństwo.",
+  "dlaczegoWazne": "Na egzaminie trzeba ułożyć kroki kaskady w poprawnej kolejności i wiedzieć, że ostatnim krokiem są cele aktywatora, a nie tylko cele procesów. Kategorie celów aktywatora wracają w pytaniach o wymiary aktywatora.",
+  "skadNazwa": "Z angielskiego *enabler goals*. Podręcznik pisze „cele czynników umożliwiających”, bo tak tłumaczy *enabler*.",
+  "poziom1": "Konkretne cele dla poszczególnych aktywatorów: co ma osiągnąć dany proces, polityka, struktura czy grupa ludzi, żeby udał się cel IT (np. „każda awaria systemu usunięta w 2 godziny”, „każdy pracownik umie zmienić hasło”). To 4. krok kaskady celów.",
+  "poziom2": "To **krok 4** kaskady. Dla każdego aktywatora można zdefiniować zbiór celów, które wspierają cele związane z informatyką. Najczęściej chodzi o **cele procesów**. Mapowanie celów IT na procesy jest w Załączniku C. Same procesy nie wystarczą: kultura, struktury organizacyjne i kompetencje też potrzebują celów.",
+  "poziom3": "(s. 18): *„Osiągnięcie celów związanych z IT wymaga skutecznego stosowania i wykorzystania kilku czynników umożliwiających.”* Przykład 1 (s. 21): *„Same procesy jednak nie wystarczą.”*",
+  "przyklady": {
+    "zycie": "Chcesz, żeby zdjęcia rodzinne nie zginęły, gdy padnie laptop. Ustalasz konkretnie: kopia na dysk zewnętrzny pierwszego dnia miesiąca (cel dla procesu) i każdy domownik umie odzyskać zdjęcie z kopii (cel dla ludzi). Takie małe, sprawdzalne cele dla poszczególnych „narzędzi” to cele aktywatorów.",
+    "biuro": "Cel biura „pisma do klientów wychodzą bez błędów” kierowniczka rozpisuje: każde pismo sprawdza druga osoba (cel dla procesu), baza adresów jest aktualizowana co tydzień (cel dla informacji), a nowa asystentka w pierwszym miesiącu przechodzi szkolenie z szablonów (cel dla ludzi).",
+    "firma": "Sklep internetowy ma cel IT: system zamówień ma działać. Właściciel rozpisuje go na kawałki: awaria usunięta w 2 godziny (cel dla procesu), dwie osoby umieją zrestartować serwer (cel dla ludzi), instrukcja awaryjna jest aktualna i wisi przy komputerze (cel dla informacji). Każdy z tych celów dotyczy innego aktywatora.",
+    "admin": "Gmina chce chronić dane mieszkańców. Sekretarz ustala: polityka haseł obowiązuje każdego pracownika, nowe konto zakłada się tylko na pisemny wniosek kierownika, a wszyscy urzędnicy raz w roku przechodzą szkolenie. Polityka, proces nadawania uprawnień i ludzie dostają własne cele – to cele aktywatorów.",
+    "psp": "Komenda chce niezawodnego dysponowania. Informatyk dostaje cel dla procesu: każda awaria w SK obsłużona w trybie pilnym, a kierownik SK cel dla ludzi: każdy dyżurny raz na kwartał ćwiczy pracę na stanowisku zapasowym. Takie cele przypisane do konkretnego procesu czy grupy ludzi to cele aktywatorów.",
+    "it": "Cel związany z IT 10 (bezpieczeństwo informacji) zamienia się w cele aktywatorów: dla procesu DSS05 Zarządzanie usługami bezpieczeństwa „konto odchodzącego pracownika zablokowane tego samego dnia”, a dla aktywatora Ludzie, umiejętności i kompetencje „każdy pracownik raz w roku przechodzi szkolenie z phishingu”."
+  },
+  "glebokosc": {
+    "prosty": "Chcesz, żeby rodzina jadła zdrowo, i to jest cel główny. Z niego wynikają małe cele: lista zakupów ma mieć warzywa, lodówka ma działać, a ktoś ma umieć ugotować zupę. Każda „część” dostaje swój mały, sprawdzalny cel.",
+    "zaawansowany": "Cel związany z informatyką w komendzie brzmi: usługi powiadamiania działają zgodnie z potrzebami. Sikora rozpisuje go na cele aktywatorów. Proces obsługi alarmu: każdy alarm wysłany w 60 sekund. Informacja: numery OSP sprawdzane co miesiąc. Ludzie: każdy dyżurny po ćwiczeniu z Syreny. To ostatni krok [[kaskada-celow|kaskady celów]], a osiągnięcie tych celów mierzą [[wskaznik-opozniony|wskaźniki opóźnione]].",
+    "skrajny": "„Dane OSP w Syrenie są aktualne” – to cel aktywatora czy cel związany z informatyką? Cel IT 14 mówi ogólnie o dostępności wiarygodnych i przydatnych informacji. Cel przypięty do konkretnego aktywatora Informacja to już cel aktywatora, w kategorii jakości kontekstowej. Druga pułapka: kategorie celów aktywatora to jakość wewnętrzna, jakość kontekstowa oraz dostęp i bezpieczeństwo, a aktualność należy do kontekstowej. Trzecia: cele mają wszystkie 7 aktywatorów, nie tylko procesy (s. 21: „Same procesy jednak nie wystarczą”). **Rozstrzygnięcie:** cel konkretny, przypięty do jednego aktywatora i sprawdzalny, to cel aktywatora, czyli 4. i ostatni krok kaskady."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Cele aktywatora to tylko cele procesów.",
+      "prawda": "Procesy to najczęstszy przykład, ale cele ma każdy z 7 aktywatorów: struktury, kultura, informacja, ludzie i pozostałe."
+    },
+    {
+      "mit": "Ostatnim krokiem kaskady są cele związane z informatyką.",
+      "prawda": "Ostatni, czwarty krok to cele aktywatora. Cele związane z informatyką są krokiem trzecim."
+    },
+    {
+      "mit": "Osiągnięcie celów aktywatora mierzy wskaźnik wiodący.",
+      "prawda": "Pytanie „czy osiągnięto cele aktywatora?” mierzy wskaźnik opóźniony. Wiodący dotyczy cyklu życia i dobrych praktyk (s. 29)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Zawężanie celów aktywatora do celów procesów i pomijanie ich jako ostatniego kroku kaskady.",
+    "jakTlumaczyc": "Drzewo: pień to cel organizacji, gałęzie to cele związane z informatyką, a liście to cele aktywatorów. Liść musi być mały i konkretny, a każdy wisi na jakiejś gałęzi.",
+    "pytanieKontrolne": "Podaj przykład celu aktywatora Kultura, etyka i zachowanie w komendzie i powiedz, jaki cel wyżej on wspiera.",
+    "odpowiedzKontrolna": "Np. „każdy dyżurny zgłasza błąd Syreny jeszcze na tej samej zmianie, bez obawy o karę”. Wspiera cel związany z informatyką dotyczący dostarczania usług IT zgodnie z wymogami albo zarządzania ryzykiem IT. Liczy się to, że cel jest konkretny, sprawdzalny i przypięty do jednego aktywatora."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cele-zwiazane-z-it",
+      "roznica": "Cele aktywatorów są jeszcze bardziej szczegółowe – dotyczą konkretnego procesu, struktury itd."
+    }
+  ],
+  "przykladWypowiedzi": "Enabler goals, czyli cele aktywatora, to ostatni krok kaskady celów: przekładają cele związane z IT (IT-related goals) na konkretne cele dla procesów, struktur, informacji czy ludzi.",
+  "egzamin": "Ostatni poziom kaskady: Cele związane z informatyką → **Cele aktywatora**.",
+  "powiazane": [
+    "kaskada-celow",
+    "aktywator",
+    "cele-zwiazane-z-it"
+  ],
+  "sylabus": [
+    "PR-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 18,
+      "cytat": "Osiągnięcie celów związanych z IT wymaga skutecznego stosowania i wykorzystania kilku czynników umożliwiających."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 21,
+      "cytat": "Same procesy jednak nie wystarczą."
+    }
+  ],
+  "mapa": "cele-aktywatora-kaskada"
+}

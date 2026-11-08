@@ -1,0 +1,91 @@
+{
+  "id": "bai",
+  "en": "Build, Acquire and Implement (BAI)",
+  "wymowa": "bild akłajer end implement",
+  "wymowaAkcent": "bild a-KŁAJ-er end IM-ple-ment",
+  "plEgzamin": "Twórz, Nabywaj i Wdrażaj (BAI)",
+  "plPodrecznik": "Budowanie, nabywanie i wdrażanie (BAI)",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Twórz, Nabywaj i Wdrażaj (BAI)",
+    "podrecznik": "Budowanie, nabywanie i wdrażanie (BAI)",
+    "kurs": "Twórz, Nabywaj i Wdrażaj (BAI) – Build, Acquire and Implement",
+    "uwaga": "Egzamin PL: „Twórz, Nabywaj i Wdrażaj (BAI)”; podręcznik PL: „Budowanie, nabywanie i wdrażanie (BAI)” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 32, 33, 53; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Twórz, Nabywaj i Wdrażaj (BAI)”. Podręcznik: „Budowanie, nabywanie i wdrażanie (BAI)”. Nazwy procesów na egzaminie mogą brzmieć inaczej niż w podręczniku. Rozpoznawaj je po kodzie i angielskim słowie kluczowym.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "pbrm",
+    "proces"
+  ],
+  "poLudzku": "Szuflada zadań „budowa i zmiany”: kupić, zbudować, wdrożyć i bezpiecznie zmieniać systemy.",
+  "wyobrazSobie": "Ekipa remontowa: według zatwierdzonego planu kupuje materiały, montuje, testuje i oddaje mieszkanie z protokołem odbioru.",
+  "poCo": "Żeby nowe rozwiązania i zmiany w IT powstawały lub były kupowane zgodnie z wymaganiami i wchodziły do użytku w kontrolowany sposób, bez psucia tego, co już działa.",
+  "jakDziala": "BAI to domena Zarządzania odpowiadająca obszarowi Twórz (Build) w cyklu Planuj, Twórz, Wykonuj, Monitoruj. Ma 10 procesów: od programów i projektów (BAI01) przez wymagania, budowę rozwiązań, zmiany i ich akceptację po wiedzę, aktywa i konfigurację (BAI08–BAI10). Realizuje to, co zaplanowano w APO, i przekazuje gotowe rozwiązania do codziennej eksploatacji w DSS.",
+  "dlaczegoWazne": "Na egzaminie trzeba odróżnić BAI od DSS (wprowadzanie zmiany kontra codzienna obsługa) oraz BAI05 (zmiana organizacyjna) od BAI06 (zmiany w systemach). Nazwę egzaminacyjną „Twórz, Nabywaj i Wdrażaj” trzeba rozpoznać obok podręcznikowej.",
+  "skadNazwa": "Skrót od *Build, Acquire and Implement*. Podręcznik: „Budowanie, nabywanie…”. Egzamin: tryb rozkazujący „Twórz, Nabywaj i Wdrażaj”.",
+  "poziom1": "Domena Zarządzania od wprowadzania zmian: budujemy albo kupujemy rozwiązanie, wdrażamy je, odbieramy i prowadzimy jego ewidencję (np. nowy system, wymiana sprzętu, szkolenia przed uruchomieniem). Ma 10 procesów.",
+  "poziom2": "| Kod | Podręcznik PL | EN |\n|---|---|---|\n| BAI01 | Zarządzanie programami i projektami | Manage Programmes and Projects |\n| BAI02 | Zarządzanie definiowaniem wymagań | Manage Requirements Definition |\n| BAI03 | Zarządzanie identyfikacją i budowaniem rozwiązań | Manage Solutions Identification and Build |\n| BAI04 | Zarządzanie dostępnością i pojemnością | Manage Availability and Capacity |\n| BAI05 | Zarządzanie wdrażaniem zmian organizacyjnych | Manage Organisational Change Enablement |\n| BAI06 | Zarządzanie zmianami | Manage Changes |\n| BAI07 | Zarządzanie procesem akceptacji zmian i przejścia | Manage Change Acceptance and Transitioning |\n| BAI08 | Zarządzanie wiedzą | Manage Knowledge |\n| BAI09 | Zarządzanie zasobami | Manage Assets |\n| BAI10 | Zarządzanie konfiguracją | Manage Configuration |",
+  "poziom3": "Ilustracja 16 (s. 33) – model referencyjny procesu COBIT 5. Szczegóły w przewodniku *COBIT 5: Procesy umożliwiające*.",
+  "przyklady": {
+    "zycie": "Remontujecie kuchnię. Spisujecie, czego potrzebujecie, wybieracie ekipę, kupujecie szafki, montujecie, a na koniec sprawdzacie, czy wszystko działa, zanim zapłacicie ostatnią ratę. Instrukcje i gwarancje lądują w jednej teczce. Plan, zakup, montaż, odbiór i spis tego, co macie, to obszar BAI.",
+    "biuro": "Biuro wymienia stare drukarki na urządzenie wielofunkcyjne. Kierowniczka spisuje, czego potrzeba (skan do maila, druk dwustronny), wybiera ofertę, technik instaluje sprzęt, pracownicy uczą się obsługi, a urządzenie trafia do spisu wyposażenia. Zakup, wdrożenie, odbiór i ewidencja to obszar BAI.",
+    "firma": "Piekarnia uruchamia sklep internetowy z dowozem. Właścicielka spisuje wymagania, wybiera gotową platformę, testuje zamówienia na rodzinie, szkoli sprzedawczynie i dopiero potem włącza sklep dla klientów. Budowa lub zakup i wdrożenie zmiany to domena BAI.",
+    "admin": "Starostwo wdraża EZD. Najpierw spisuje wymagania i ogłasza przetarg, potem dostawca konfiguruje system, urzędnicy przechodzą szkolenia, a papierowy obieg jest wygaszany dopiero po odbiorze. Cały ten projekt zmiany mieści się w BAI.",
+    "psp": "Komenda dostaje nowe stanowisko dla dyżurnego SK i nowe radiotelefony. Informatyk spisuje wymagania, testuje sprzęt na stanowisku zapasowym, przełącza dyżurnych dopiero po próbie i wpisuje każdy radiotelefon do ewidencji z przydziałem do zastępu. Wdrożenie zmiany, odbiór i ewidencja sprzętu to BAI.",
+    "it": "BAI06 Zarządzanie zmianami: Ola Dudek chce zaktualizować oprogramowanie serwera Syreny. Zmiana dostaje wniosek, ocenę skutków i zgodę, jest testowana na stanowisku zapasowym, a po wdrożeniu nową wersję zapisuje się w bazie konfiguracji (BAI10 Zarządzanie konfiguracją)."
+  },
+  "glebokosc": {
+    "prosty": "Remont kuchni: wybierasz projekt, kupujesz szafki albo zamawiasz je u stolarza, montujesz i sprawdzasz, czy szuflady się domykają. Na koniec zapisujesz, co gdzie stoi i do kiedy jest gwarancja. To etap robienia zmiany, a nie codziennego gotowania.",
+    "zaawansowany": "Komenda wymienia moduł SMS w Syrenie. Sikora prowadzi to jako projekt (BAI01), z dyżurnymi spisuje wymagania (BAI02), a Kwant-Sygnał buduje poprawkę (BAI03). Szkolenie Graba i Nowik przed zmianą to wsparcie zmiany organizacyjnej (BAI05). Ola Dudek wprowadza poprawkę przez formalną procedurę zmian (BAI06) i przed odbiorem robi test z OSP Zawilce (BAI07). To domena „Twórz” z [[pbrm]], a sam projekt opiera się na [[uzasadnienie-biznesowe|uzasadnieniu biznesowym]].",
+    "skrajny": "BAI09 „Zarządzanie zasobami” brzmi jak EDM04 „Zapewnienie optymalizacji zasobów” albo APO07 „Zarządzanie zasobami ludzkimi”. Tymczasem BAI09 to *Manage Assets*, czyli ewidencja aktywów: sprzętu i licencji. Druga pułapka: BAI06 „Zarządzanie zmianami” dotyczy zmian w systemach, a BAI05 – przygotowania ludzi i organizacji do zmiany. Trzecia: rutynowa prośba użytkownika, np. o reset hasła, to nie BAI06, tylko zgłoszenie serwisowe w DSS02. **Rozstrzygnięcie:** patrz na angielskie słowo: *Assets* = aktywa (BAI09), *Resources* w sensie Ładu = EDM04, *Human Resources* = APO07; zmiana w systemie → BAI06, zmiana w ludziach → BAI05, rutynowa prośba → DSS02."
+  },
+  "zagmatwania": [
+    {
+      "mit": "BAI zajmuje się tylko budowaniem oprogramowania.",
+      "prawda": "„Nabywaj” znaczy, że BAI obejmuje też zakup gotowych rozwiązań, wdrażanie, wiedzę (BAI08), aktywa (BAI09) i konfigurację (BAI10)."
+    },
+    {
+      "mit": "BAI09 „Zarządzanie zasobami” to optymalizacja zasobów z Celu Ładu.",
+      "prawda": "BAI09 to *Manage Assets*, czyli aktywa: sprzęt, licencje. Optymalizacja zasobów to EDM04 w domenie Ładu."
+    },
+    {
+      "mit": "BAI04 i DSS04 to to samo, bo oba chronią przed przestojem.",
+      "prawda": "BAI04 dba, żeby systemu wystarczyło na obciążenie (dostępność i pojemność). DSS04 przygotowuje działanie w razie poważnej awarii lub katastrofy (ciągłość)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie BAI06 (zmiany w systemach) z BAI05 (zmiana organizacyjna) oraz BAI09 (aktywa) z zasobami w sensie Ładu.",
+    "jakTlumaczyc": "Opowiedz jedną zmianę od początku do końca: projekt, wymagania, budowa, przygotowanie ludzi, wprowadzenie zmiany, odbiór, zapisanie wiedzy i ewidencji. Większość kroków to kolejne procesy BAI w porządku numerów. Numeracja prawie odtwarza życie zmiany.",
+    "pytanieKontrolne": "Ola Dudek wymienia dysk w serwerze Syreny według zatwierdzonego planu zmiany i wpisuje nowy dysk do ewidencji sprzętu. Które to procesy i dlaczego nie DSS?",
+    "odpowiedzKontrolna": "Wymiana według zatwierdzonej zmiany to BAI06 (Zarządzanie zmianami), a wpis do ewidencji to BAI09 (aktywa), ewentualnie BAI10 (konfiguracja). To wprowadzanie zmiany, a nie codzienna obsługa. DSS byłoby wtedy, gdyby chodziło o przywrócenie działania po awarii (DSS02) albo o rutynowe operacje (DSS01)."
+  },
+  "nieMylicZ": [],
+  "przykladWypowiedzi": "BAI, czyli Build, Acquire and Implement – Twórz, Nabywaj i Wdrażaj – to domena Zarządzania, która buduje lub kupuje rozwiązania i wprowadza zmiany; BAI06 Manage Changes, czyli Zarządzanie zmianami, pilnuje, żeby każda zmiana w systemie była zatwierdzona i przetestowana.",
+  "egzamin": "Uwaga: **BAI09 „Zarządzanie zasobami”** to po angielsku *Assets*, czyli aktywa (sprzęt, licencje). To NIE jest optymalizacja zasobów (EDM04) ani zasoby ludzkie (APO07).",
+  "powiazane": [
+    "prm",
+    "pbrm",
+    "zarzadzanie"
+  ],
+  "sylabus": [
+    "PR-01-04",
+    "EN-02-23"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "domena-bai"
+}

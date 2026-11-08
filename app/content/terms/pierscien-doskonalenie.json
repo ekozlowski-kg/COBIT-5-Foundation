@@ -1,0 +1,117 @@
+{
+  "id": "pierscien-doskonalenie",
+  "en": "Continual improvement life cycle (inner ring)",
+  "wymowa": "kontinjuel impruwment lajf sajkl",
+  "wymowaAkcent": "kon-TI-nju-el im-PRUW-ment lajf SAJ-kl",
+  "plEgzamin": "Główny cykl życia ciągłego doskonalenia",
+  "plPodrecznik": "Podstawowy cykl życia ciągłego doskonalenia",
+  "plInne": [
+    {
+      "nazwa": "Cykl życia ciągłego doskonalenia (krąg wewnętrzny)",
+      "zrodlo": "FW-PL s. 38, il. 17"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Główny cykl życia ciągłego doskonalenia",
+    "podrecznik": "Podstawowy cykl życia ciągłego doskonalenia",
+    "kurs": "Główny cykl życia ciągłego doskonalenia (Continual improvement life cycle)",
+    "uwaga": "Egzamin PL: „Główny cykl życia ciągłego doskonalenia”; podręcznik PL: „Podstawowy cykl życia ciągłego doskonalenia” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 37. Inne formy w obiegu: Cykl życia ciągłego doskonalenia (krąg wewnętrzny) (FW-PL s. 38, il. 17)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Główny cykl życia ciągłego doskonalenia” albo krótko „Cykl życia ciągłego doskonalenia”. Podręcznik na s. 37: „Podstawowy cykl…”. To ten sam pierścień wewnętrzny. Nie myl go z cyklem życia aktywatora ani z poziomem 5 zdolności.",
+  "skadNazwa": "Angielskie *core continual improvement life cycle*: *core* podręcznik tłumaczy jako „podstawowy”, a egzamin jako „główny”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "cykl-wdrozenia",
+    "aktywator"
+  ],
+  "poLudzku": "Stałe poprawianie w kółko: sprawdź, jak jest, popraw, zmierz efekt i zacznij od nowa.",
+  "wyobrazSobie": "Odchudzanie: ważysz się, zmieniasz jeden nawyk, ważysz znowu i wybierasz kolejny krok.",
+  "poziom1": "Pierścień wewnętrzny [[cykl-wdrozenia|cyklu życia wdrożenia]]. To samo ulepszanie: rozpoznanie potrzeby, ocena stanu obecnego, stan docelowy, budowanie i wdrażanie usprawnień, pomiar, monitorowanie. Podręcznik podkreśla: **nie jest to projekt jednorazowy**.",
+  "poziom2": "| Faza | Działanie w pierścieniu Cykl życia ciągłego doskonalenia |\n|---|---|\n| 1 | Rozpoznanie potrzeby działania |\n| 2 | Ocena stanu obecnego |\n| 3 | Zdefiniowanie stanu docelowego (SP1) |\n| 4 | Budowanie usprawnień (SP1) |\n| 5 | Wdrażanie usprawnień (SP1) |\n| 6 | Eksploatacja i pomiar |\n| 7 | Monitorowanie i szacowanie (SP1) |\n\nOznaczenia nazw działań: **(SP1)** – nazwa z polskiego arkusza egzaminacyjnego; bez oznaczenia – tłumaczenie kursu z *COBIT 5 Implementation* (ISACA), jak w lekcji 3.4.\n\nPo fazie 7 pętla rusza od nowa. Duże inicjatywy dzieli się na **iteracje**: wdrożenie dłuższe niż 6 miesięcy grozi utratą dynamiki (s. 38).",
+  "poziom3": "(s. 37): *„Podstawowy cykl życia ciągłego doskonalenia — nie jest to projekt jednorazowy.”* Il. 17 (s. 38): *„Cykl życia ciągłego doskonalenia (krąg wewnętrzny)”*. Na s. 38: z czasem cykl życia powinien być realizowany w sposób **iteracyjny**.",
+  "poCo": "Żeby aktywatory poprawiały się stale, a nie jeden raz. Ten pierścień to samo ulepszanie, krok po kroku.",
+  "jakDziala": "Najpierw rozpoznajesz potrzebę i oceniasz stan obecny. Potem definiujesz stan docelowy, budujesz i wdrażasz usprawnienia. Na koniec eksploatujesz, mierzysz i prowadzisz Monitorowanie i szacowanie. Potem pętla rusza od nowa.",
+  "dlaczegoWazne": "Egzamin pyta, który komponent nie jest projektem jednorazowym. Odpowiedź to Cykl życia ciągłego doskonalenia, czyli pierścień wewnętrzny.",
+  "przyklady": {
+    "zycie": "Uczysz się piec chleb. Pieczesz, próbujesz, za twardy – dodajesz wody. Następnym razem za blady – dłużej pieczesz. Nie ma dnia, w którym kończysz naukę na zawsze. To ciągłe doskonalenie.",
+    "biuro": "Biuro co miesiąc liczy, ile dni czeka się na podpis szefa. Zmienia jeden krok obiegu pism i liczy znowu.",
+    "organizacja": "Kawiarnia mierzy czas obsługi, dodaje drugą kasę, mierzy znowu i bierze kolejny problem. Urząd gminy co kwartał poprawia jeden krok wydawania zaświadczeń i ponownie mierzy czas.",
+    "psp": "**Pomiar, poprawka, pomiar**\nInformatyczka Ola Dudek co miesiąc sprawdza, ile sekund idzie alarm z Syreny do OSP Zawilce. Gdy czas rośnie, szuka przyczyny, poprawia i mierzy znowu. Po ostatniej fazie nie zamyka teczki, tylko otwiera kolejną iterację. To pierścień wewnętrzny – [[pierscien-doskonalenie|Cykl życia ciągłego doskonalenia]].",
+    "it": "Ocena zdolności procesu, np. DSS02, w fazie 2 daje stan obecny. Ponowna ocena w fazie 7 pokazuje, czy proces wszedł na wyższy poziom."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cykl-zycia-aktywatora",
+      "roznica": "Cykl życia aktywatora (planowanie… pozbywanie się) opisuje życie jednego aktywatora. Ciągłe doskonalenie to pierścień wdrożenia COBIT."
+    },
+    {
+      "termin": "poziomy-zdolnosci",
+      "roznica": "Poziom 5 (proces zoptymalizowany) to ocena jednego procesu. Ciągłe doskonalenie to sposób prowadzenia wdrożenia, a nie ocena."
+    }
+  ],
+  "przykladWypowiedzi": "Continual improvement life cycle, czyli Cykl życia ciągłego doskonalenia, to wewnętrzny pierścień, który nie jest projektem jednorazowym.",
+  "egzamin": "Komponent, który **nie jest projektem jednorazowym** → **(Główny) Cykl życia ciągłego doskonalenia**, pierścień **wewnętrzny**. W arkuszu PL widać jego działania m.in.: **Zdefiniowanie stanu docelowego** (3), **Budowanie usprawnień** (4), **Wdrażanie usprawnień** (5), **Monitorowanie i szacowanie** (7).",
+  "powiazane": [
+    "cykl-wdrozenia",
+    "fazy-wdrozenia",
+    "pierscien-program",
+    "pierscien-zmiana",
+    "poziomy-zdolnosci",
+    "cykl-zycia-aktywatora"
+  ],
+  "sylabus": [
+    "IM-01-01",
+    "IM-02-05"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 37,
+      "cytat": "Podstawowy cykl życia ciągłego doskonalenia — nie jest to projekt jednorazowy."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "ilustracja": "17",
+      "cytat": "Cykl życia ciągłego doskonalenia (krąg wewnętrzny)"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "Z czasem cykl życia powinien być realizowany w sposób iteracyjny"
+    },
+    {
+      "doc": "SP1"
+    }
+  ],
+  "mapa": "pierscien-doskonalenie",
+  "glebokosc": {
+    "prosty": "Myjesz zęby codziennie, a nie raz w życiu. Co pół roku dentysta sprawdza efekt i coś doradza. Ty zmieniasz szczoteczkę i myjesz dalej. Tak działa ciągłe doskonalenie: nigdy się nie kończy.",
+    "zaawansowany": "W fazie 2 audytorka Ewa Lis ocenia stan obecny procesu powiadamiania. W fazie 3 komenda ustala stan docelowy, w 4 buduje usprawnienia, a w 5 je wdraża. W fazie 6 Dudek mierzy, w 7 monitoruje i ocenia. Potem pętla rusza znowu. Budżet i harmonogram tej pracy pilnuje [[pierscien-program]].",
+    "skrajny": "Po roku proces powiadamiania dostaje u Lis poziom 5 – proces jest stale ulepszany. Ktoś mówi: „Skoro mamy poziom 5, mamy już Cykl życia ciągłego doskonalenia, więc wdrożenie jest skończone”. To mieszanie dwóch rzeczy. Poziom 5 to ocena jednego procesu w [[poziomy-zdolnosci|modelu zdolności]]. Pierścień wewnętrzny to sposób prowadzenia całego wdrożenia COBIT, także innych procesów i aktywatorów. Do tego podręcznik sam mówi, że pierścień nie jest projektem jednorazowym. **Rozstrzygnięcie:** wysoki poziom zdolności nie „zamyka” pierścienia; po fazie 7 cykl zaczyna kolejną iterację."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Po fazie 7 wdrożenie COBIT się kończy.",
+      "prawda": "Pierścień wewnętrzny nie jest projektem jednorazowym. Po fazie 7 zaczyna się kolejna iteracja."
+    },
+    {
+      "mit": "„Podstawowy” i „Główny” cykl to dwa różne pierścienie.",
+      "prawda": "To dwa tłumaczenia słowa *core*. Podręcznik pisze „Podstawowy”, egzamin – „Główny”."
+    },
+    {
+      "mit": "Ciągłe doskonalenie to to samo co poziom 5 zdolności.",
+      "prawda": "Poziom 5 ocenia jeden proces. Pierścień wewnętrzny opisuje, jak prowadzić całe wdrożenie."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń sądzi, że pierścień wewnętrzny to „techniczna część” wdrożenia, którą można skończyć jak projekt.",
+    "jakTlumaczyc": "Narysuj spiralę zamiast koła: każda iteracja wraca do fazy 1, ale na wyższym poziomie. Spirala nie ma końca.",
+    "pytanieKontrolne": "Który komponent cyklu wdrożenia podręcznik opisuje słowami „nie jest to projekt jednorazowy”? Podaj nazwę egzaminacyjną.",
+    "odpowiedzKontrolna": "**Główny cykl życia ciągłego doskonalenia** (pierścień wewnętrzny). Podręcznik: „Podstawowy cykl życia ciągłego doskonalenia”."
+  }
+}

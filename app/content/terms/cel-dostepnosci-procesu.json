@@ -1,0 +1,105 @@
+{
+  "id": "cel-dostepnosci-procesu",
+  "en": "Accessibility and security goals (process goals)",
+  "wymowa": "aksesebiliti end sikjuriti gołlz",
+  "wymowaAkcent": "ak-se-se-BI-li-ti end si-KJU-ri-ti gołlz",
+  "plEgzamin": "Cele dostępności i bezpieczeństwa (procesu)",
+  "plPodrecznik": "Cele dotyczące dostępności i bezpieczeństwa",
+  "plInne": [
+    {
+      "nazwa": "Dostęp i Bezpieczeństwo (ta sama kategoria w ogólnym modelu aktywatora)",
+      "zrodlo": "FW-PL s. 29"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cele dostępności i bezpieczeństwa (procesu)",
+    "podrecznik": "Cele dotyczące dostępności i bezpieczeństwa",
+    "kurs": "Cele dostępności i bezpieczeństwa (procesu) – Accessibility and security goals",
+    "uwaga": "Egzamin PL: „Cele dostępności i bezpieczeństwa (procesu)”; podręcznik PL: „Cele dotyczące dostępności i bezpieczeństwa” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 69. Inne formy w obiegu: Dostęp i Bezpieczeństwo (ta sama kategoria w ogólnym modelu aktywatora) (FW-PL s. 29)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "W ogólnym modelu aktywatora ta kategoria to „Dostęp i Bezpieczeństwo”. Dla procesu pyta, czy sam proces jest znany i dostępny dla potrzebujących, a poufny, gdy trzeba. Nie chodzi o bezpieczeństwo systemu, który proces obsługuje.",
+  "skadNazwa": "*Accessibility and security*. Podręcznik przy procesach pisze „dostępność i bezpieczeństwo”, a przy ogólnych celach aktywatora „dostęp i bezpieczeństwo”. To ta sama kategoria.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "kategorie-celow-procesu",
+    "proces",
+    "dostep-i-bezpieczenstwo"
+  ],
+  "mapa": "cel-dostepnosci-procesu",
+  "poziom1": "Cel dostępności i bezpieczeństwa pyta, czy proces trafia do właściwych ludzi. Ci, którzy go potrzebują, znają go i mają do niego dostęp. Gdy jest to wymagane, proces pozostaje poufny dla innych.",
+  "poLudzku": "Czy ci, którzy mają pracować według instrukcji, mogą ją znaleźć, a obcy nie mogą.",
+  "wyobrazSobie": "Klucz do skrzynki z apteczką: wisi tam, gdzie każdy go znajdzie, a klucz do sejfu ma tylko szef.",
+  "poCo": "Żeby proces znali ci, którzy mają według niego pracować, a jego wrażliwe szczegóły nie trafiły do obcych.",
+  "jakDziala": "Sprawdzasz dwie strony. Czy osoby, które potrzebują procesu, wiedzą o nim i mają do niego dostęp? Czy proces jest poufny tam, gdzie jest to wymagane? Kategorię wyznacza to pytanie, a nie temat procesu.",
+  "dlaczegoWazne": "Egzamin miesza tę kategorię z „bezpieczeństwem” w potocznym sensie. Zgodność z polityką bezpieczeństwa to cel wewnętrzny, a nie ten.",
+  "poziom2": "Dwie strony jednego celu (s. 69):\n\n| Strona | Pytanie | Przykład |\n|---|---|---|\n| **Dostępność** | Czy osoby, które potrzebują procesu, znają go i mają do niego dostęp? | instrukcja na każdym stanowisku |\n| **Bezpieczeństwo (poufność)** | Czy proces pozostaje poufny, gdy jest to wymagane? | procedura z hasłami administratora tylko w sejfie |\n\nW ogólnym modelu aktywatora (s. 29) ta kategoria to „dostęp i bezpieczeństwo”.",
+  "poziom3": "(s. 69): *„Cele dotyczące dostępności i bezpieczeństwa — proces pozostaje poufny, gdy jest to wymagane, oraz jest znany i dostępny dla osób, które tego potrzebują.”*",
+  "przyklady": {
+    "zycie": "Rodzina ma plan ewakuacji na wypadek pożaru. Każdy domownik go zna, a kartka wisi w przedpokoju (dostępność). Kod do sejfu z dokumentami znają tylko rodzice (poufność). Obie rzeczy razem to cel dostępności i bezpieczeństwa.",
+    "biuro": "W biurze rachunkowym instrukcja wystawiania faktur jest w folderze wspólnym dla wszystkich. Instrukcja dostępu do bankowości firmowej leży w folderze tylko dla dwóch osób. Obie spełniają cel dostępności i bezpieczeństwa.",
+    "organizacja": "Bank ma procedurę na wypadek napadu. Kasjerki znają ją na pamięć i mają ją w szufladzie. Szczegóły, np. sygnał dla ochrony, są poufne, żeby nie poznał ich przestępca. Procedura jest dostępna dla potrzebujących i poufna dla innych. Urząd ma procedurę przyjmowania wniosków o świadczenia. Jest w intranecie, więc każda urzędniczka ją zna. Procedurę nadawania haseł do systemu świadczeń znają tylko dwie osoby z działu IT. Oba procesy spełniają cel dostępności i bezpieczeństwa.",
+    "psp": "Informatyczka Ola Dudek wiesza w SK komendy w Modrzewiowie instrukcję trybu awaryjnego Syreny. Wcześniej tryb znał tylko Paweł Grab, więc proces nie był dostępny dla tych, którzy go potrzebują. Instrukcja przełączania serwera z hasłami administratora trafia jednak do sejfu wydziału. Tak proces jest dostępny dla dyżurnych i poufny tam, gdzie trzeba.",
+    "it": "Procedura reagowania na incydent bezpieczeństwa w DSS05 (Zarządzanie usługami bezpieczeństwa) jest znana administratorom i dyżurnemu. Jej szczegóły techniczne są poufne dla reszty firmy."
+  },
+  "glebokosc": {
+    "prosty": "Instrukcja obsługi gaśnicy wisi obok gaśnicy, bo każdy może jej potrzebować. Szyfr do sejfu zna tylko szef. Jedno ma być dostępne, drugie poufne. Cel dostępności i bezpieczeństwa pilnuje obu stron.",
+    "zaawansowany": "Audytorka Lis pyta dyżurnych komendy, gdzie jest procedura trybu awaryjnego Syreny. Wie tylko Grab, a procedura leży w jego szafce. Proces może spełniać [[cel-wewnetrzny-procesu|cel wewnętrzny]], bo jest zgodny z wytycznymi. Nie spełnia jednak celu dostępności: nie jest znany tym, którzy go potrzebują. Sikora wiesza instrukcję w SK, a hasła administratora zostawia w sejfie.",
+    "skrajny": "Proces DSS05 to zarządzanie usługami bezpieczeństwa. Kursant myśli: skoro proces jest o bezpieczeństwie, to wszystkie jego cele należą do kategorii „dostępność i bezpieczeństwo”. To skrót myślowy. Kategorię celu wyznacza pytanie, a nie temat procesu. „Zabezpieczenia są zgodne z normą” to cel wewnętrzny. „Procedura jest zrozumiała dla małego zespołu” to cel kontekstowy. „Procedura jest znana administratorom i poufna dla innych” to cel dostępności i bezpieczeństwa. **Rozstrzygnięcie:** cel dostępności i bezpieczeństwa pyta, kto zna proces i kto ma do niego dostęp. Temat procesu nie przesądza o kategorii celu (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Ten cel dotyczy bezpieczeństwa systemów IT.",
+      "prawda": "Dotyczy samego procesu: czy jest znany i dostępny dla potrzebujących i poufny, gdy trzeba."
+    },
+    {
+      "mit": "Bezpieczny proces to taki, którego nikt nie zna.",
+      "prawda": "Proces ma być znany i dostępny dla tych, którzy go potrzebują. Poufny jest tylko wtedy, gdy jest to wymagane."
+    },
+    {
+      "mit": "Każdy cel procesu o bezpieczeństwie należy do tej kategorii.",
+      "prawda": "Kategorię wyznacza pytanie (poprawność, dopasowanie, dostęp), a nie temat procesu."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wrzuca do tej kategorii wszystko, co ma w nazwie „bezpieczeństwo”, np. zgodność z polityką bezpieczeństwa.",
+    "jakTlumaczyc": "Zapytaj: kto może przeczytać instrukcję tego procesu? Jeśli pytanie brzmi „kto zna, a kto nie powinien znać”, to ta kategoria.",
+    "pytanieKontrolne": "Nowy pracownik nie wie, że w firmie istnieje procedura zgłaszania wycieku danych. Którego celu procesu to dotyczy?",
+    "odpowiedzKontrolna": "**Celu dostępności i bezpieczeństwa**: proces nie jest znany ani dostępny dla osoby, która go potrzebuje."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "dostep-i-bezpieczenstwo",
+      "roznica": "Dostęp i Bezpieczeństwo to ogólna kategoria celów każdego aktywatora (np. informacji). Cel dostępności procesu dotyczy tego, kto zna sam proces i ma do niego dostęp."
+    },
+    {
+      "termin": "cel-wewnetrzny-procesu",
+      "roznica": "Zgodność z polityką bezpieczeństwa to cel wewnętrzny (zgodność z regułami). Cel dostępności pyta, kto zna proces i czy jest poufny, gdy trzeba."
+    }
+  ],
+  "przykladWypowiedzi": "Accessibility and security goals, czyli cele dostępności i bezpieczeństwa, ask whether the process is known to those who need it and confidential when required.",
+  "egzamin": "Słowa-klucze: **znany i dostępny dla tych, którzy go potrzebują**, **poufny, gdy jest to wymagane**. „Proces jest zgodny z polityką bezpieczeństwa” to cel wewnętrzny (zgodność z regułami).",
+  "powiazane": [
+    "kategorie-celow-procesu",
+    "dostep-i-bezpieczenstwo",
+    "cel-wewnetrzny-procesu",
+    "cel-kontekstowy-procesu"
+  ],
+  "sylabus": [
+    "EN-02-08"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 69,
+      "cytat": "proces pozostaje poufny, gdy jest to wymagane, oraz jest znany i dostępny dla osób, które tego potrzebują"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 29
+    }
+  ]
+}

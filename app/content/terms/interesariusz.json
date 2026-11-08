@@ -1,0 +1,108 @@
+{
+  "id": "interesariusz",
+  "en": "Stakeholder",
+  "wymowa": "stejkhołder",
+  "wymowaAkcent": "STEJK-hoł-der",
+  "plEgzamin": "Interesariusz",
+  "plPodrecznik": "Interesariusz",
+  "plInne": [],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Interesariusz",
+    "podrecznik": "Interesariusz",
+    "kurs": "Interesariusz (Stakeholder)",
+    "uwaga": "Stakeholder to nie tylko „strona zainteresowana” – obejmuje też tych, na których decyzje wpływają (rejestr rozdz. V). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 8, 13."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "organizacja"
+  ],
+  "poLudzku": "Każdy, kogo dana sprawa obchodzi, bo coś na niej zyska albo straci.",
+  "wyobrazSobie": "Budowa obwodnicy: liczy się nie tylko gmina i wykonawca, ale też mieszkańcy, którzy miesiącami jeżdżą objazdem, choć nikt nie pyta ich o zdanie.",
+  "poCo": "Żeby organizacja wiedziała, czyje potrzeby ma zaspokajać i przed kim się rozlicza. Od interesariuszy zaczyna się cała kaskada celów COBIT 5.",
+  "jakDziala": "Spisuje się wszystkich, którzy mają wobec organizacji oczekiwania, odpowiadają za nią albo ponoszą skutki jej działań (stakeholders). Dzieli się ich na wewnętrznych (internal: zarząd, kierownictwo, właściciele procesów, użytkownicy, audyt wewnętrzny) i zewnętrznych (external: klienci, dostawcy, regulatorzy, audytorzy zewnętrzni, udziałowcy). Ich potrzeby (stakeholder needs) Ład ocenia i przekłada na cele organizacji.",
+  "dlaczegoWazne": "Od interesariuszy zaczyna się zasada 1 (Realizacja potrzeb interesariusza), a interesariusze to też jeden z czterech wymiarów aktywatora. Egzamin każe odróżniać interesariuszy wewnętrznych od zewnętrznych (Ilustracja 7).",
+  "poziom1": "Każdy, kto coś zyskuje albo traci na tym, co robi firma czy urząd, kto za nią odpowiada albo czegoś od niej chce – nawet jeśli sam nic nie decyduje i nie dotyka żadnego systemu (np. właściciel, pracownik, klient, dostawca, urząd skarbowy, sąsiedzi zakładu). Dzielą się na wewnętrznych i zewnętrznych.",
+  "poziom2": "Interesariusz **nie musi** korzystać z systemu ani podejmować decyzji. Wystarczy, że ma oczekiwania wobec organizacji, odpowiada za nią lub ponosi skutki jej działań. COBIT 5 dzieli interesariuszy na **wewnętrznych** (zarząd, kierownictwo, właściciele procesów, użytkownicy IT, audyt wewnętrzny…) i **zewnętrznych** (klienci, dostawcy, partnerzy biznesowi, regulatorzy, audytorzy zewnętrzni, udziałowcy…).",
+  "poziom3": "Definicja (Załącznik H): *„Każda osoba, na której spoczywa odpowiedzialność za przedsiębiorstwo, mająca wobec niego oczekiwania lub jakiś udział w przedsiębiorstwie, np. udziałowcy, użytkownicy, rząd, dostawcy, klienci oraz opinia publiczna.”* Ilustracja 7 (s. 22) wymienia przykładowych interesariuszy wewnętrznych i zewnętrznych wraz z ich typowymi pytaniami o IT.",
+  "warianty": {
+    "prosto": "Planujesz rodzinny wyjazd. Partner chce spokoju, dzieci aquaparku, a sąsiad, który zostaje z psem, pyta, kiedy wracacie. Nikt z nich nie trzyma kierownicy, ale każde coś zyska albo straci na Twojej decyzji – to są interesariusze.",
+    "dokladniej": "Osoba lub podmiot mający oczekiwania wobec organizacji, odpowiedzialność za nią lub udział w niej; może być wewnętrzny albo zewnętrzny.",
+    "ekspercko": "Punkt wyjścia całego COBIT 5: potrzeby interesariuszy (kształtowane przez wyznaczniki) uruchamiają kaskadę celów; Ład negocjuje między sprzecznymi oczekiwaniami różnych interesariuszy."
+  },
+  "przyklady": {
+    "zycie": "Wspólnota w bloku decyduje o wymianie windy. Pani z parteru zapłaci tyle samo co inni, choć z windy nie korzysta, starszy pan z dziesiątego piętra bez niej nie wyjdzie z domu, a zarządca chce zamknąć temat przed zimą. Każde z nich coś na tej decyzji zyskuje albo traci – wszyscy są interesariuszami, także ci, którzy windą nie jeżdżą.",
+    "biuro": "Zmiana dostawcy tonera obchodzi nie tylko kierownika, który podpisuje umowę. Obchodzi też pracowników, którym drukarka zaczyna smużyć, księgowość płacącą faktury i klientów czekających na wydruk umowy. Wszyscy oni są interesariuszami tej decyzji.",
+    "firma": "Właściciel piekarni kupuje na kredyt nowy piec. Piekarze martwią się, czy ogarną nową obsługę, klienci liczą na świeże bułki od szóstej, bank pyta o spłatę rat, a sanepid przyjdzie sprawdzić, czy wszystko jest zgodnie z przepisami. Każdy z nich coś zyska albo straci na tej decyzji: piekarze to interesariusze wewnętrzni, klienci, bank i sanepid – zewnętrzni.",
+    "admin": "Urząd gminy przenosi zapisy do przedszkoli do internetu. Rodzice chcą zapisać dziecko z telefonu, dyrektorki przedszkoli boją się bałaganu na listach, a babcia, która wychowuje wnuka, nie ma komputera i pyta, czy dalej może przyjść z papierem. Wszyscy oni są interesariuszami tej zmiany – również babcia, która z systemu nigdy nie skorzysta.",
+    "psp": "Komenda powiatowa przechodzi na nową wersję SWD-PSP na stanowisku kierowania. Dyżurni uczą się nowych ekranów, dowódcy zmian w JRG i naczelnicy OSP pytają, czy alarmowanie dalej zadziała, CPR 112 musi bez przerwy przekazywać zgłoszenia, a KW PSP wyznacza termin przejścia dla całego województwa. Mieszkaniec, który dzwoni z pożarem, nic o tej zmianie nie wie, ale jeśli system padnie, odczuje to pierwszy – on też jest interesariuszem.",
+    "it": "W EDM05 (Zapewnienie przejrzystości dotyczącej interesariuszy) zarząd ustala, którym interesariuszom i jak raportuje wyniki IT, np. udziałowcom raport kwartalny, a regulatorowi wymagane sprawozdania. Relacje z interesariuszami biznesowymi wewnątrz organizacji prowadzi APO08 (Zarządzanie relacjami)."
+  },
+  "glebokosc": {
+    "prosty": "Sąsiedzi z kamienicy decydują, czy wyciąć stare drzewo na podwórku. Pani z parteru zyska światło w kuchni, dzieci stracą cień do zabawy, a pan, który bywa tu tylko w weekendy, dołoży się do kosztów wycinki. Każde z nich jest interesariuszem, choć decyzję podpisze tylko zarządca.",
+    "zaawansowany": "Gdy Syrena nie wysłała SMS-a do OSP Zawilce, skutki poczuła Zofia Kaczmarek – nigdy nie dotknęła systemu, a straciła strych. Jest interesariuszem zewnętrznym, tak jak dh Pietrzak (partner), Igor Wolny (dostawca) i mł. bryg. Ostrowska (regulator). Dyżurni Grab i Nowik oraz dowódca zmiany Dąb to interesariusze wewnętrzni. Ich [[potrzeba|potrzeby]] są różne, a czasem sprzeczne, i właśnie od nich startuje [[kaskada-celow|kaskada celów]]. Komendantka Wrzos jako Ład musi te oczekiwania wyważyć, zanim powstanie jakikolwiek cel.",
+    "skrajny": "Ewa Lis jest audytorką wewnętrzną komendy, a mł. bryg. Ostrowska kontroluje komendę z zewnątrz. Obie sprawdzają, czy procesy działają, więc kusi, by wrzucić je do jednego worka „audyt”. COBIT 5 dzieli jednak interesariuszy na wewnętrznych i zewnętrznych, a nie według tego, czym się zajmują: audyt wewnętrzny to interesariusz wewnętrzny, a regulatorzy i audytorzy zewnętrzni – zewnętrzni (Ilustracja 7). Drugi przypadek graniczny: dh Pietrzak dostaje alarmy z Syreny, więc jest jej użytkownikiem, a mimo to OSP Zawilce to partner zewnętrzny, bo nie jest częścią komendy. Kategorii nie wyznacza więc korzystanie z systemu ani rola kontrolna, tylko położenie względem organizacji. **Rozstrzygnięcie:** wewnętrzny albo zewnętrzny zależy od tego, czy ktoś należy do organizacji; to, czy korzysta z systemu, decyduje albo kontroluje, kategorii nie zmienia (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Interesariusz to ten, kto korzysta z systemu albo o nim decyduje.",
+      "prawda": "Wystarczy mieć oczekiwania wobec organizacji, odpowiadać za nią albo mieć w niej udział. Mieszkanka Lipowej 7 nie dotyka Syreny, a jest interesariuszem."
+    },
+    {
+      "mit": "Interesariusz to udziałowiec (akcjonariusz).",
+      "prawda": "Udziałowiec to tylko jeden z interesariuszy. W urzędzie czy komendzie udziałowców nie ma wcale, a interesariuszy jest wielu."
+    },
+    {
+      "mit": "Audytor zawsze jest interesariuszem zewnętrznym, bo patrzy z boku.",
+      "prawda": "Audyt wewnętrzny jest interesariuszem wewnętrznym, a audytor zewnętrzny – zewnętrznym (Ilustracja 7). Decyduje przynależność do organizacji."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Zawężanie interesariuszy do użytkowników i decydentów oraz zaliczanie audytu wewnętrznego do interesariuszy zewnętrznych.",
+    "jakTlumaczyc": "Zacznij od pytania: „Kto coś zyska albo straci, jeśli to się uda lub nie uda?”. Wypisz wszystkich, a dopiero potem podziel ich jedną kreską: kto jest w organizacji, a kto poza nią.",
+    "pytanieKontrolne": "Czy mieszkaniec Modrzewiowa, który nigdy nie dzwonił pod 112, jest interesariuszem komendy? Czy audytorka Lis jest interesariuszem wewnętrznym, czy zewnętrznym?",
+    "odpowiedzKontrolna": "Mieszkaniec – tak: ma wobec komendy oczekiwania (szybka pomoc, gdy będzie potrzebna) i poniesie skutki jej działania, choć z żadnego systemu nie korzysta. Audytorka Lis – wewnętrzny, bo audyt wewnętrzny należy do organizacji; to, że kontroluje, nie robi z niej interesariusza zewnętrznego."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Shareholder – udziałowiec / akcjonariusz",
+      "roznica": "Udziałowiec to tylko jeden z interesariuszy – ten, który ma udziały. Interesariuszem jest też np. klient czy regulator, choć nie ma żadnych udziałów."
+    },
+    {
+      "termin": "Użytkownik systemu",
+      "roznica": "Użytkownik jest interesariuszem, ale interesariuszem może być też ktoś, kto z systemu w ogóle nie korzysta (np. mieszkaniec czekający na zastęp)."
+    },
+    {
+      "termin": "Decydent",
+      "roznica": "Interesariusz nie musi podejmować decyzji – wystarczy, że decyzja na niego wpływa."
+    }
+  ],
+  "przykladWypowiedzi": "A stakeholder, czyli interesariusz, to każdy, kto ma oczekiwania wobec organizacji, odpowiada za nią albo ponosi skutki jej działań; regulator jest interesariuszem zewnętrznym (external stakeholder), choć nie korzysta z naszych systemów.",
+  "egzamin": "Rozróżniaj interesariuszy **wewnętrznych** (kierownictwo, zarząd, CIO, właściciele procesów, audyt wewnętrzny) i **zewnętrznych** (klienci, partnerzy biznesowi, regulatorzy, dostawcy, audytorzy zewnętrzni). Źródło: Ilustracja 7 (s. 22); por. s. 69 (il. 29).",
+  "powiazane": [
+    "potrzeba",
+    "wyznacznik",
+    "tworzenie-wartosci",
+    "kaskada-celow"
+  ],
+  "sylabus": [
+    "M0-00-01",
+    "PR-02-03",
+    "EN-02-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Każda osoba, na której spoczywa odpowiedzialność za przedsiębiorstwo, mająca wobec niego oczekiwania lub jakiś udział w przedsiębiorstwie"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 22,
+      "ilustracja": "7"
+    }
+  ]
+}

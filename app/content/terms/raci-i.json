@@ -1,0 +1,102 @@
+{
+  "id": "raci-i",
+  "en": "Informed (I)",
+  "wymowa": "informd",
+  "wymowaAkcent": "in-FORMD",
+  "plEgzamin": "Informowany (I)",
+  "plPodrecznik": "Strona informowana",
+  "plInne": [],
+  "statusTlumaczenia": "D",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Informowany (I)",
+    "podrecznik": "Strona informowana",
+    "kurs": "Informowany (I) – Informed",
+    "uwaga": "Litera I = Informed – zachować literę EN. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 92."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "raci"
+  ],
+  "mapa": "raci-i",
+  "poziom1": "I to rola, która otrzymuje informacje o postępach lub efektach zadania. Odpowiada na pytanie: kto otrzymuje informacje? Komunikacja jest jednokierunkowa: I dostaje wiadomość, ale nie dostarcza wejść.",
+  "poLudzku": "Ktoś, komu dajesz znać, co się stało, ale nie pytasz go o zdanie.",
+  "wyobrazSobie": "Ogłoszenie na klatce schodowej: czytasz, wiesz, co się stanie, ale nikt nie pyta cię o zdanie.",
+  "poCo": "Żeby osoby, których dotyczy wynik, wiedziały o postępach i efektach zadania.",
+  "jakDziala": "W tabeli RACI przy działaniu wpisujesz I rolom, które otrzymują informacje o postępach i efektach. Komunikacja jest jednokierunkowa. A też dostaje informacje, ale pozostaje A.",
+  "dlaczegoWazne": "Egzamin odróżnia I od C kierunkiem komunikacji. Pułapką jest też wpisanie I komuś, kto ma A, tylko dlatego, że dostaje raporty.",
+  "poziom2": "| | I – Informowany |\n|---|---|\n| Pytanie RACI | Kto **otrzymuje informacje**? |\n| Komunikacja | **jednokierunkowa** |\n| O czym | o postępach, osiągnięciach i efektach zadania |\n| Uwaga | rola A zawsze powinna dostawać informacje, żeby nadzorować zadanie, ale nie staje się przez to rolą I |",
+  "poziom3": "Słownik (s. 92): strona informowana *„Odnosi się do osób, które otrzymują aktualne dane dotyczące postępów w realizacji działań (komunikacja jednokierunkowa).”* W tabeli RACI: *„Kto otrzymuje informacje?”*",
+  "przyklady": {
+    "zycie": "Po wymianie zamków w drzwiach wysyłasz rodzicom SMS: „Zmieniłem zamki, nowy klucz jest u sąsiadki”. Nie pytasz ich o zdanie, tylko dajesz znać. Rodzice są I.",
+    "biuro": "W biurze dział IT wysyła wszystkim maila: „W sobotę od 8 do 12 nie będzie poczty”. Pracownicy niczego nie zatwierdzają. Są I.",
+    "organizacja": "Firma kurierska zmienia godziny odbioru paczek. Klienci dostają maila z nowymi godzinami. Nikt ich nie pyta o opinię. Klienci są I przy tej zmianie. Wójt podpisuje nowy regulamin pracy urzędu. Wszyscy pracownicy dostają go do zapoznania się i potwierdzają odbiór podpisem. Są I: dostają informację, ale nie współtworzą treści.",
+    "psp": "Po aktualizacji numerów w Syrenie Ola Dudek wysyła krótką notatkę do dyżurnych SK: „Lista OSP Zawilce zaktualizowana 3 maja”. Paweł Grab i Kasia Nowik nie muszą nic odpowiadać, mają tylko wiedzieć, że lista jest świeża. Dyżurni SK są I.",
+    "it": "Przy wdrażaniu zmiany w BAI06 (Zarządzanie zmianami) użytkowników zwykle tylko się informuje o terminie i skutkach zmiany. Mają wtedy rolę I (przykład kursu, nie cytat z tabeli)."
+  },
+  "glebokosc": {
+    "prosty": "Gdy wyjeżdżasz na urlop, mówisz sąsiadowi: „Nie będzie mnie tydzień”. Nie pytasz go o zgodę ani o radę. Po prostu dajesz znać. Sąsiad jest I.",
+    "zaawansowany": "W tabeli RACI aktualizacji numerów dyżurni SK mają I. Dostają notatkę o nowej liście i nie muszą odpowiadać. Gdy Kasia Nowik zauważa błędny numer i dzwoni do Dudek, przez chwilę dostarcza wejście jak [[raci-c|C]]. Sikora sprawdza, czy tabela dobrze opisuje role, i dopisuje dyżurnym kanał zgłaszania uwag.",
+    "skrajny": "Sikora dostaje co miesiąc raport z aktualizacji numerów. Kursant wpisuje mu więc w tabeli I. Ale Sikora odpowiada za listę, więc ma A. Słownik mówi wprost: rola rozliczana zawsze powinna otrzymywać odpowiednie informacje, żeby nadzorować zadanie. Samo otrzymywanie informacji nie czyni roli I. Literę wyznacza najważniejszy związek z zadaniem, a nie fakt dostawania raportów. **Rozstrzygnięcie:** I to rola, która tylko otrzymuje informacje, w jedną stronę. A też je otrzymuje, ale pozostaje A."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Każdy, kto dostaje raport, jest I.",
+      "prawda": "A też dostaje informacje (s. 92). I to ten, kto tylko je otrzymuje, bez odpowiedzialności za wynik i bez dostarczania wejść."
+    },
+    {
+      "mit": "I może zablokować zadanie, jeśli się nie zgadza.",
+      "prawda": "Komunikacja z I jest jednokierunkowa. I nie dostarcza wejść ani nie decyduje."
+    },
+    {
+      "mit": "Rola I jest mało ważna, więc można ją pominąć.",
+      "prawda": "Bez informowania ludzie pracują na starych danych. I to też część opisu ról w procesie."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli I z C albo wpisuje I osobie z A, bo ona dostaje raporty.",
+    "jakTlumaczyc": "Pokaż ogłoszenie na tablicy: czytasz, ale nie odpowiadasz. To I. Potem pokaż, że szef też czyta raporty, ale za wynik odpowiada, więc jest A.",
+    "pytanieKontrolne": "Kierownik dostaje raport o wykonaniu zadania i odpowiada za jego wynik. Czy jest I?",
+    "odpowiedzKontrolna": "Nie. Jest **A**: rola rozliczana zawsze powinna dostawać informacje, żeby nadzorować zadanie. I to tylko odbiorca informacji."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "raci-c",
+      "roznica": "I tylko dostaje informacje (jednokierunkowo). C dostarcza wejścia i rozmowa idzie w obie strony."
+    },
+    {
+      "termin": "raci-a",
+      "roznica": "A też dostaje informacje, ale po to, by nadzorować zadanie i odpowiadać za wynik. I nie odpowiada za wynik."
+    }
+  ],
+  "przykladWypowiedzi": "Informed, czyli informowany (I), receives information in one-way communication.",
+  "egzamin": "„Kto **otrzymuje informacje** / kogo powiadamiamy o efektach” → **I**. Słowo-klucz: **jednokierunkowa** komunikacja.",
+  "powiazane": [
+    "raci",
+    "raci-c",
+    "raci-a",
+    "raci-r"
+  ],
+  "sylabus": [
+    "EN-02-25"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 92,
+      "cytat": "które otrzymują aktualne dane dotyczące postępów w realizacji działań (komunikacja jednokierunkowa)"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 92,
+      "cytat": "Kto otrzymuje informacje?"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 92,
+      "cytat": "Role informowane o osiągnięciach i/lub efektach realizacji zadania."
+    }
+  ]
+}

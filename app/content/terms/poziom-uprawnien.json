@@ -1,0 +1,109 @@
+{
+  "id": "poziom-uprawnien",
+  "en": "Level of authority / decision rights",
+  "wymowa": "lewel ow otoriti",
+  "wymowaAkcent": "LE-wel ow o-TO-ri-ti",
+  "plEgzamin": "Poziom uprawnień",
+  "plPodrecznik": "Poziom decyzyjny / uprawnienia decyzyjne",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Poziom uprawnień",
+    "podrecznik": "Poziom decyzyjny / uprawnienia decyzyjne",
+    "kurs": "Poziom uprawnień (Level of authority / decision rights)",
+    "uwaga": "Egzamin PL: „Poziom uprawnień”; podręcznik PL: „Poziom decyzyjny / uprawnienia decyzyjne” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 75; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „poziom uprawnień”. Podręcznik w tekście: „poziom decyzyjny/uprawnienia decyzyjne”, a na il. 32 i s. 72 też „poziom uprawnień”. To ten sam element.",
+  "skadNazwa": "*Level of authority / decision rights*. Podręcznik w tekście pisze „poziom decyzyjny/uprawnienia decyzyjne”, a na ilustracji 32 „poziom uprawnień”. Egzamin: „poziom uprawnień”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "struktury-organizacyjne",
+    "dobre-praktyki-struktur",
+    "zakres-kontroli"
+  ],
+  "mapa": "poziom-uprawnien",
+  "poziom1": "Poziom uprawnień mówi, jakie decyzje struktura ma prawo podjąć. Na przykład komitet może sam zatwierdzić zakup do określonej kwoty albo wybrać dostawcę. Decyzje ponad ten poziom należą do kogoś wyżej.",
+  "poLudzku": "Lista decyzji, które zespół może podjąć sam, bez pytania nikogo wyżej.",
+  "wyobrazSobie": "Limit na karcie płatniczej: do pewnej kwoty płacisz sam, powyżej potrzebujesz zgody.",
+  "poCo": "Żeby struktura wiedziała, jakie decyzje może podjąć sama, a które musi oddać wyżej.",
+  "jakDziala": "Zarządzenie albo regulamin wymienia decyzje, do których struktura jest uprawniona, np. zakupy do określonej kwoty. Decyzje ponad ten poziom należą do kogoś wyżej. Część swoich uprawnień struktura może delegować w dół.",
+  "dlaczegoWazne": "Egzamin mówi „poziom uprawnień”, a podręcznik w tekście „poziom decyzyjny / uprawnienia decyzyjne”. Kto to wie, nie da się złapać na formę podręcznikową.",
+  "poziom2": "| Pytanie | Dobra praktyka |\n|---|---|\n| Czego dotyczy władza? | zakres kontroli |\n| **Jakie decyzje wolno podjąć?** | **poziom uprawnień** |\n| Co przekazujemy niżej? | delegowanie uprawnień |\n| Co robić, gdy decyzji nie da się podjąć? | procedury eskalacji |\n\nProduktem struktury organizacyjnej są **decyzje** (il. 32), więc poziom uprawnień mówi, jakie decyzje struktura może wytworzyć.",
+  "poziom3": "(s. 75): *„Poziom decyzyjny/uprawnienia decyzyjne — decyzje, do których podjęcia struktura jest uprawniona”*. Il. 32 (s. 75) i przykład 10 (s. 72) używają nazwy „poziom uprawnień”.",
+  "przyklady": {
+    "zycie": "Nastolatek dostaje kartę z limitem 200 zł miesięcznie. Za tę kwotę kupuje, co chce, bez pytania. Na droższy telefon potrzebuje zgody rodziców. 200 zł to jego poziom uprawnień.",
+    "biuro": "W biurze kierownik zmiany może sam zatwierdzić nadgodziny do 10 godzin w miesiącu. Więcej zatwierdza dyrektor. To poziom uprawnień kierownika.",
+    "organizacja": "Kierowniczka sklepu może sama dać klientowi rabat do 10%. Większy rabat zatwierdza właściciel. Rabat do 10% to poziom uprawnień kierowniczki. Dyrektor szkoły sam zatwierdza wycieczki klasowe i zakup pomocy do 5 tys. zł. Większe wydatki zatwierdza organ prowadzący. To poziom uprawnień dyrektora.",
+    "psp": "Zarządzenie komendantki Wrzos mówi: Rada ds. Informatyki sama zatwierdza zakupy IT do 30 tys. zł i wybiera firmę serwisującą Syrenę. Kupno nowego serwera za 80 tys. zł Rada może tylko zaopiniować. To poziom uprawnień Rady.",
+    "it": "Komitety sterujące programów i projektów z il. 33 mają określone, o czym mogą zdecydować same, np. o przesunięciu zasobów w ramach programu. Większe decyzje inwestycyjne wracają do komitetu ds. strategii (przykład kursu)."
+  },
+  "glebokosc": {
+    "prosty": "Opiekunka do dziecka może sama zdecydować, co dziecko zje na obiad i kiedy idzie spać. Nie może sama zapisać go na basen. Tę decyzję podejmują rodzice. Lista spraw, o których decyduje sama, to jej poziom uprawnień.",
+    "zaawansowany": "Rada ds. Informatyki zatwierdza zakupy do 30 tys. zł. To jej poziom uprawnień. Część tych decyzji, np. zakup tonerów i myszek, Rada przekazuje wydziałowi Sikory. To [[delegowanie-uprawnien|delegowanie]]. Gdy Rada nie może się zgodzić w sprawie nowego dostawcy, sprawa idzie do komendantki zgodnie z [[procedury-eskalacji|procedurą eskalacji]].",
+    "skrajny": "Rada ds. Informatyki chce kupić serwer za 80 tys. zł. Temat mieści się w jej zakresie kontroli, bo dotyczy IT. Ale decyzja przekracza jej poziom uprawnień, bo Rada zatwierdza zakupy do 30 tys. zł. Jedno nie wynika z drugiego: sprawa może leżeć w granicach struktury, a decyzja i tak być poza jej uprawnieniami. To nie jest eskalacja z powodu sporu, tylko brak uprawnień. Rada przygotowuje opinię, a decyzję podejmuje komendantka. **Rozstrzygnięcie:** zakres kontroli mówi, CZEGO dotyczy władza, a poziom uprawnień mówi, JAKIE decyzje wolno podjąć. Obie granice sprawdzasz osobno (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Jeśli temat jest w zakresie kontroli, struktura może podjąć każdą decyzję.",
+      "prawda": "Poziom uprawnień może ograniczać decyzje także wewnątrz zakresu, np. kwotą."
+    },
+    {
+      "mit": "„Poziom decyzyjny” i „poziom uprawnień” to dwie różne praktyki.",
+      "prawda": "To ta sama praktyka w dwóch tłumaczeniach: w tekście podręcznika i na egzaminie (oraz na il. 32)."
+    },
+    {
+      "mit": "Poziom uprawnień to miejsce struktury w schemacie organizacyjnym.",
+      "prawda": "To lista decyzji, do których struktura jest uprawniona, a nie jej „piętro” w hierarchii."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń skleja zakres kontroli i poziom uprawnień w jedno: „Rada zajmuje się IT, więc decyduje o wszystkim w IT”.",
+    "jakTlumaczyc": "Powtórz obraz działki: płot to zakres kontroli, a pozwolenie na dom parterowy, ale nie na wieżowiec, to poziom uprawnień.",
+    "pytanieKontrolne": "Komitet może zatwierdzać projekty do 100 tys. zł. Jak nazywa się ta dobra praktyka na egzaminie, a jak w podręczniku?",
+    "odpowiedzKontrolna": "Egzamin: **poziom uprawnień**. Podręcznik: **poziom decyzyjny / uprawnienia decyzyjne**, czyli decyzje, do których struktura jest uprawniona."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "zakres-kontroli",
+      "roznica": "Zakres kontroli to granice tematów. Poziom uprawnień to rodzaj i wielkość decyzji w tych granicach."
+    },
+    {
+      "termin": "delegowanie-uprawnien",
+      "roznica": "Poziom uprawnień mówi, co struktura może zdecydować. Delegowanie mówi, co z tego przekazuje strukturze podległej."
+    }
+  ],
+  "przykladWypowiedzi": "Level of authority, czyli poziom uprawnień, defines which decisions a structure is entitled to make.",
+  "egzamin": "„**Jakie decyzje** struktura może podejmować” → **poziom uprawnień**. Podręcznikowe „poziom decyzyjny” i „uprawnienia decyzyjne” to ta sama praktyka.",
+  "powiazane": [
+    "dobre-praktyki-struktur",
+    "zakres-kontroli",
+    "delegowanie-uprawnien",
+    "procedury-eskalacji"
+  ],
+  "sylabus": [
+    "EN-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 75,
+      "cytat": "decyzje, do których podjęcia struktura jest uprawniona"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 75,
+      "ilustracja": "32"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 72,
+      "cytat": "zakres kontroli, zasady działania struktury, poziom uprawnień"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ]
+}

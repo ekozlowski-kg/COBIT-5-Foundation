@@ -1,0 +1,97 @@
+{
+  "id": "wskaznik-wiodacy",
+  "en": "Lead indicator",
+  "wymowa": "lid indikejter",
+  "wymowaAkcent": "lid IN-di-kej-ter",
+  "plEgzamin": "Wskaźnik wiodący",
+  "plPodrecznik": "Wskaźnik wyprzedzający",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Wskaźnik wiodący",
+    "podrecznik": "Wskaźnik wyprzedzający",
+    "kurs": "Wskaźnik wiodący (Lead indicator)",
+    "uwaga": "Egzamin PL: „Wskaźnik wiodący”; podręcznik PL: „Wskaźnik wyprzedzający” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 28, 29, 65; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Wskaźniki wiodące”. Podręcznik: „Wskaźniki wyprzedzające”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie-wydajnoscia-aktywatora"
+  ],
+  "poLudzku": "Liczba, która ostrzega wcześniej, czy idziemy w dobrą stronę, np. ile godzin się uczysz.",
+  "wyobrazSobie": "Kontrolka przeglądu w aucie: mówi, czy auto jest serwisowane zgodnie z planem, zanim cokolwiek się zepsuje.",
+  "poCo": "Żeby wcześnie, zanim pojawi się wynik, zobaczyć, czy aktywator działa jak trzeba, i zdążyć to poprawić.",
+  "jakDziala": "Dwa ostatnie z czterech pytań zarządzania wydajnością aktywatora (enabler performance management) dotyczą jego funkcjonowania: czy cykl życia aktywatora jest zarządzany i czy stosowane są dobre praktyki. Mierniki, które na nie odpowiadają, to wskaźniki wiodące (lead indicators). Przewidują przyszły wynik, który potem pokażą wskaźniki opóźnione (lag indicators).",
+  "dlaczegoWazne": "Należy do modelu aktywatora z zasady 4 (Aktywacja holistycznego podejścia). Na egzaminie pytanie o zarządzanie cyklem życia albo stosowanie dobrych praktyk wskazuje wskaźnik wiodący.",
+  "skadNazwa": "Z angielskiego *lead indicator*. Podręcznik: „wyprzedzający”, egzamin: „wiodący”.",
+  "poziom1": "Miernik, który sprawdza, czy aktywator działa jak trzeba (czy dbamy o jego cykl życia i stosujemy dobre praktyki), zanim zobaczymy wynik – dzięki temu pozwala wynik przewidzieć (np. liczba treningów w tygodniu przed maratonem).",
+  "poziom2": "Dotyczy pytań **„Czy cykl życia aktywatora jest zarządzany?”** i **„Czy stosowane są dobre praktyki?”**. Mierzy funkcjonowanie samego aktywatora i **przewiduje** przyszły wynik.",
+  "poziom3": "(s. 29): *„Ostatnie dwa punkty dotyczą rzeczywistego funkcjonowania samego czynnika umożliwiającego, a mierniki stosowane w tym celu można nazwać «wskaźnikami wyprzedzającymi».”*",
+  "przyklady": {
+    "zycie": "Za trzy miesiące biegniesz półmaraton. Co tydzień sprawdzasz, czy zrobiłeś zaplanowane cztery treningi. Jeśli od miesiąca wychodzą dwa, już wiesz, że wynik będzie słaby, i możesz to jeszcze zmienić – to wskaźnik wiodący.",
+    "biuro": "Kierownik biura co tydzień sprawdza, czy wszyscy księgują faktury według nowej instrukcji. Widzi, że dwie osoby dalej robią to po staremu, więc wie, że na koniec miesiąca będą opóźnienia, i reaguje od razu.",
+    "firma": "Właściciel warsztatu samochodowego sprawdza, czy mechanicy wypełniają listę kontrolną przy każdym aucie. Jeśli połowa ją pomija, spodziewa się reklamacji, zanim te przyjdą, i od razu reaguje – to wskaźnik wiodący.",
+    "admin": "Tydzień przed wejściem nowej procedury w urzędzie gminy sekretarz sprawdza, ilu urzędników przeszło szkolenie. Jest 60%, więc wie, że będą kłopoty, zanim wpłynie pierwsza skarga – to wskaźnik wiodący.",
+    "psp": "Kierownik SK sprawdza, ilu dyżurnych w tym kwartale przećwiczyło pracę awaryjną bez SWD-PSP. Wychodzi połowa, więc wie, że przy awarii systemu dysponowanie może się posypać, zanim awaria w ogóle nastąpi – to wskaźnik wiodący.",
+    "it": "W BAI06 (Zarządzanie zmianami) odsetek zmian wdrażanych po zatwierdzeniu i z planem wycofania to wskaźnik wiodący. Gdy spada, można przewidzieć więcej incydentów w DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami), zanim one wystąpią."
+  },
+  "glebokosc": {
+    "prosty": "Przed egzaminem na prawo jazdy liczysz, ile godzin jazd już masz. Jeśli zostały dwa tygodnie, a masz połowę, wiesz, że może być źle, i możesz jeszcze dokupić jazdy. Liczba, która mówi, czy robisz to, co prowadzi do wyniku, to wskaźnik wiodący.",
+    "zaawansowany": "Po awarii przy Lipowej mł. kpt. Ola Dudek co tydzień sprawdza, czy dane kontaktowe OSP w Syrenie zweryfikowano w terminie i czy dyżurni przeszli ćwiczenie z nowej procedury. To pytania „czy zarządzamy cyklem życia” i „czy stosujemy [[dobre-praktyki]]”, więc to wskaźniki wiodące. Gdy weryfikacja kuleje, Sikora wie, że wynik (alarm w 40 sekund) się pogorszy, zanim pokaże to [[wskaznik-opozniony]]. Oba rodzaje są częścią [[zarzadzanie-wydajnoscia-aktywatora|zarządzania wydajnością aktywatora]].",
+    "skrajny": "Ewa Lis w styczniu liczy, w ilu procentach zeszłorocznych zmian w Syrenie wypełniono listę kontrolną przed wdrożeniem. Pomiar dotyczy przeszłości, robi się go raz w roku i „przychodzi późno”, więc intuicja mówi: opóźniony. A jednak to wskaźnik wiodący, bo mierzy stosowanie praktyk, a nie osiągnięcie celu (il. 13: mierniki stosowania praktyk = wskaźniki wyprzedzające). W drugą stronę: najważniejsza liczba komendy, czas alarmu dla OSP, jest wskaźnikiem opóźnionym. Słowo „wiodący” nie znaczy więc ani „najważniejszy”, ani „mierzony wcześniej”. **Rozstrzygnięcie:** wiodący = mierzy dbanie o cykl życia albo stosowanie dobrych praktyk, niezależnie od tego, czy liczy się go na bieżąco, czy po roku."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wskaźnik wiodący to ten najważniejszy, który „wiedzie prym”.",
+      "prawda": "Wiodący (podręcznik: wyprzedzający) mierzy przebieg: dbanie o cykl życia i stosowanie dobrych praktyk. Ważność nie ma tu nic do rzeczy."
+    },
+    {
+      "mit": "Wiodący to każdy wskaźnik mierzony na bieżąco.",
+      "prawda": "Decyduje treść, nie czas. Roczne zestawienie stosowania listy kontrolnej to nadal wskaźnik wiodący."
+    },
+    {
+      "mit": "Wiodący sam mówi, czy cel osiągnięto.",
+      "prawda": "Wiodący tylko przewiduje wynik. Czy cel osiągnięto, mówi wskaźnik opóźniony."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie „wiodący” z „ważniejszy” albo z „mierzony wcześniej” oraz zamiana wiodący ↔ opóźniony przy czterech pytaniach modelu.",
+    "jakTlumaczyc": "Najpierw cztery pytania zarządzania wydajnością aktywatora, potem podział 2 + 2: dwa pierwsze (potrzeby, cele) = wynik = opóźnione, dwa ostatnie (cykl życia, dobre praktyki) = przebieg = wiodące. Analogia: treningi (wiodący) i czas na mecie (opóźniony).",
+    "pytanieKontrolne": "Raz w roku liczysz, jaki odsetek zeszłorocznych zmian przeszedł przez listę kontrolną. Wiodący czy opóźniony? Co o tym przesądza?",
+    "odpowiedzKontrolna": "**Wiodący**, bo mierzy stosowanie dobrych praktyk (il. 13, s. 28–29). Przesądza to, **co** się mierzy, a nie **kiedy**."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "wskaznik-opozniony",
+      "roznica": "Opóźniony mierzy wynik, czyli osiągnięcie celów i zaspokojenie potrzeb."
+    }
+  ],
+  "przykladWypowiedzi": "A lead indicator, czyli wskaźnik wiodący, mierzy, czy cykl życia aktywatora jest zarządzany i czy stosowane są dobre praktyki, więc przewiduje wynik, zanim pokaże go lag indicator.",
+  "egzamin": "Wskaźnik wiodący mierzy, **czy cykl życia jest zarządzany** i **czy stosowane są dobre praktyki**. Osiągnięcie celów i uwzględnienie potrzeb mierzą wskaźniki **opóźnione** (s. 29).",
+  "powiazane": [
+    "wskaznik-opozniony",
+    "zarzadzanie-wydajnoscia-aktywatora",
+    "dobre-praktyki"
+  ],
+  "sylabus": [
+    "PR-02-13"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Ostatnie dwa punkty dotyczą rzeczywistego funkcjonowania samego czynnika umożliwiającego"
+    },
+    {
+      "doc": "ALTKOM"
+    },
+    {
+      "doc": "SP1",
+      "strona": 19
+    }
+  ],
+  "mapa": "wskaznik-wiodacy"
+}

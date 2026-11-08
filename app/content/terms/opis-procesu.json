@@ -1,0 +1,100 @@
+{
+  "id": "opis-procesu",
+  "en": "Process description components (COBIT 5: Enabling Processes)",
+  "wymowa": "prołses diskrypszyn kompołnents",
+  "wymowaAkcent": "PROŁ-ses dis-KRYP-szyn kom-POŁ-nents",
+  "plEgzamin": "Elementy opisu procesu (Przewodnik Procesy umożliwiające)",
+  "plPodrecznik": "COBIT 5: Procesy umożliwiające",
+  "mapa": "opis-procesu",
+  "status": "uproszczenie",
+  "poziomP": "P3",
+  "wymaga": [
+    "proces",
+    "raci",
+    "kaskada-celow"
+  ],
+  "plInne": [
+    {
+      "nazwa": "Przewodnik Aktywacji (tłumaczenie w uzasadnieniach SP1)",
+      "zrodlo": "SP1"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Elementy opisu procesu (Przewodnik Procesy umożliwiające)",
+    "podrecznik": "COBIT 5: Procesy umożliwiające",
+    "kurs": "Elementy opisu procesu (Przewodnik Procesy umożliwiające) – Process description components",
+    "uwaga": "Egzamin PL: „Elementy opisu procesu (Przewodnik Procesy umożliwiające)”; podręcznik PL: „COBIT 5: Procesy umożliwiające” – konkurencyjne odpowiedniki. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 2, 3, 7; zestawienie Altkom (kolumna „Podręczniki PL”). Inne formy w obiegu: Przewodnik Aktywacji (tłumaczenie w uzasadnieniach SP1) (SP1)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Przewodnik *COBIT 5: Enabling Processes* bywa po polsku nazywany „Procesy umożliwiające” albo „Przewodnik Aktywacji”.",
+  "poLudzku": "Wzór karty, na której opisuje się każdą pracę: cel, kroki, kto co robi, co wchodzi i wychodzi.",
+  "skadNazwa": "Przewodnik *COBIT 5: Enabling Processes* ma różne polskie nazwy: „Procesy umożliwiające”, a w uzasadnieniach arkusza egzaminacyjnego też „Przewodnik Aktywacji”.",
+  "wyobrazSobie": "Ulotka leku w stałym układzie: nazwa, do czego służy, jak działa, jak stosować, kto może podawać i z czym łączyć, a każda ulotka ma te same rubryki.",
+  "poCo": "Żeby każdy z 37 procesów COBIT 5 był opisany w tym samym układzie, więc łatwo go znaleźć, porównać, dopasować i ocenić.",
+  "jakDziala": "Przewodnik COBIT 5: Procesy umożliwiające (Enabling Processes) opisuje każdy proces według stałego szablonu: identyfikacja (kod, nazwa, obszar, domena), opis procesu (process description: co proces robi), przeznaczenie procesu (process purpose statement: po co istnieje), powiązane cele związane z informatyką z kaskady celów i ich mierniki, cele i miary procesu, tabela RACI, praktyki z wejściami, wyjściami i działaniami oraz powiązane wytyczne z innych standardów.",
+  "dlaczegoWazne": "Egzamin odróżnia „opis procesu” (co proces robi) od „przeznaczenia procesu” (po co istnieje) i pyta, co należy do opisu, np. tabela RACI. Ten szablon jest też podstawą oceny zdolności procesu.",
+  "poziom1": "Każdy z 37 procesów COBIT 5 jest opisany według tego samego szablonu, jak przepisy w dobrej książce kucharskiej: identyfikacja (kod, nazwa, obszar, domena), opis, przeznaczenie, cele z kaskady, cele i miary procesu, tabela RACI, praktyki z wejściami i wyjściami oraz powiązane standardy.",
+  "poziom2": "Elementy opisu procesu:\n1. **Identyfikacja procesu**: kod, nazwa, obszar (Ład/Zarządzanie), domena.\n2. **Opis procesu**: przegląd tego, **co robi proces** i jak ogólnie osiąga swoje przeznaczenie.\n3. **Określenie przeznaczenia (celu) procesu**: po co proces istnieje.\n4. **Informacje z kaskady celów**: powiązane cele związane z informatyką i ich mierniki.\n5. **Cele i miary procesu**.\n6. **Tabela RACI**.\n7. **Szczegółowy opis praktyk**: praktyki, wejścia i wyjścia, działania.\n8. **Powiązane wytyczne** (inne standardy).",
+  "poziom3": "Sylabus EN-02-24 i EN-02-25 (Enabling Processes, rozdz. 5). Kolejność i nazwy na podstawie opisu przewodnika ISACA w materiałach szkoleniowych. Status „uproszczenie”, bo przewodnika nie mamy w źródłach.",
+  "przyklady": {
+    "zycie": "W rodzinnej książce kucharskiej każdy przepis ma ten sam układ: nazwa, na jaką okazję, składniki, kto co robi, kroki i jak sprawdzić, że wyszło (ciasto wyrosło). Dzięki temu nawet nowy przepis od cioci czyta się bez szukania, gdzie co jest. Tak samo każdy proces COBIT 5 opisany jest według jednego szablonu.",
+    "biuro": "Biuro spisuje procedury na jednym wzorze karty: nazwa i numer, co procedura obejmuje, po co jest, cele i mierniki, kto wykonuje i kto zatwierdza, kroki z dokumentami na wejściu i wyjściu. Dzięki temu procedurę obiegu faktur i procedurę wysyłki poczty czyta się tak samo.",
+    "firma": "Właściciel warsztatu spisuje swoje procedury na jednym wzorze: numer i nazwa (P-03 Przyjęcie auta), co się dzieje, po co, po czym poznać, że dobrze (auto oddane w terminie), kto wykonuje, a kto odpowiada, oraz kroki z dokumentami na wejściu i wyjściu. Nowy mechanik w każdej procedurze od razu wie, gdzie szukać. Taki stały szablon ma każdy proces w przewodniku COBIT 5: Procesy umożliwiające.",
+    "admin": "Sekretarz gminy wprowadza jeden wzór karty dla każdej procedury w urzędzie: numer i nazwa, opis, cel, mierniki (np. odsetek spraw załatwionych w terminie), tabela, kto za co odpowiada, i kroki z dokumentami wejściowymi i wyjściowymi. Kiedy urzędniczka zastępuje koleżankę, każdą kartę czyta tak samo. COBIT 5 robi to samo dla swoich 37 procesów.",
+    "psp": "Gdyby procedurę dysponowania na stanowisku kierowania spisać szablonem COBIT, karta miałaby: identyfikację (SK-01 Dysponowanie sił i środków), krótki opis, przeznaczenie (szybko wysłać właściwe zastępy), powiązane cele, mierniki (czas od przyjęcia zgłoszenia do zadysponowania), tabelę RACI (dyżurny wykonuje, komendant odpowiada) i praktyki z wejściami (zgłoszenie z CPR 112) i wyjściami (zadysponowanie zastępu). Nowy dyżurny od razu wiedziałby, gdzie czego szukać.",
+    "it": "Opis APO12 (Zarządzanie ryzykiem) w przewodniku Procesy umożliwiające ma te same części co pozostałe 36 procesów: przeznaczenie, powiązane cele związane z informatyką, mierniki, tabelę RACI oraz praktyki APO12.01–APO12.06 z wejściami i wyjściami."
+  },
+  "glebokosc": {
+    "prosty": "Każdy przepis w porządnej książce kucharskiej ma ten sam układ: nazwa i numer, krótki opis potrawy, do czego się nadaje, składniki i kroki, kto co robi przy dużym przyjęciu, a na końcu odsyłacz do podobnych przepisów. Dzięki temu do każdego przepisu zagląda się tak samo. Opis procesu w COBIT 5 to taki stały szablon karty.",
+    "zaawansowany": "Kpt. Sikora spisuje proces powiadamiania jednostek według szablonu z przewodnika *COBIT 5: Procesy umożliwiające*. Zaczyna od identyfikacji (kod, nazwa, obszar, domena), potem pisze opis – co proces robi – i osobno przeznaczenie, czyli po co istnieje. Dodaje powiązane cele związane z IT z [[kaskada-celow|kaskady celów]], cele i miary procesu, tabelę [[raci|RACI]] oraz [[praktyki-dzialania|praktyki z wejściami, wyjściami i działaniami]]. Na końcu wskazuje powiązane standardy.",
+    "skrajny": "Mł. kpt. Ola Dudek wpisuje w pole „opis procesu”: „Proces istnieje po to, by każdy alarm dotarł do najbliższej jednostki w ciągu minuty”. Zdanie jest dobre, ale stoi w złym polu: mówi, po co proces istnieje, czyli jest przeznaczeniem procesu. Opis procesu to przegląd tego, co proces robi i jak ogólnie osiąga swoje przeznaczenie. Drugi przypadek graniczny: tabela RACI wygląda jak osobny dokument o rolach, bliższy strukturom organizacyjnym, a jest elementem opisu procesu. Trzeci: w modelu oceny procesu (ISO/IEC 15504) „przeznaczenie procesu” jest też elementem wymiaru procesu, więc to samo słowo pojawia się w dwóch miejscach. **Rozstrzygnięcie:** „opis” = co proces robi, „przeznaczenie” = po co istnieje, a RACI jest częścią opisu procesu (interpretacja kursu na podstawie sylabusa; samego przewodnika nie ma w źródłach)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Opis procesu i przeznaczenie procesu to to samo.",
+      "prawda": "Opis to przegląd tego, co proces robi i jak ogólnie działa. Przeznaczenie mówi, po co proces istnieje."
+    },
+    {
+      "mit": "Tabela RACI to osobny dokument, poza opisem procesu.",
+      "prawda": "RACI jest jednym z elementów opisu każdego procesu."
+    },
+    {
+      "mit": "Opis procesu zawiera wynik oceny jego zdolności.",
+      "prawda": "Opis procesu podaje m.in. cele i miary procesu; ocena zdolności to osobne działanie według modelu zdolności."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Wpisywanie celu istnienia procesu w pole „opis procesu”.",
+    "jakTlumaczyc": "Zadaj o każdy proces dwa pytania: „Co on robi?” (opis) i „Po co?” (przeznaczenie). Potem przejdź szablon jak kartę przepisu: identyfikacja, opis, przeznaczenie, cele z kaskady, cele i miary, RACI, praktyki, powiązane standardy.",
+    "pytanieKontrolne": "Masz zdanie: „Proces zapewnia, że komenda wie, czy jej usługi IT spełniają potrzeby interesariuszy”. W które pole opisu procesu je wpiszesz i dlaczego?",
+    "odpowiedzKontrolna": "W przeznaczenie procesu, bo mówi, po co proces istnieje (jaki efekt ma zapewnić), a nie co konkretnie robi. Opis procesu to przegląd czynności, np. „zbiera, weryfikuje i raportuje dane o wydajności i zgodności”."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Przeznaczenie procesu (ISO 15504)",
+      "roznica": "W PAM „przeznaczenie procesu” to element wymiaru procesu. W opisie procesu jest osobnym polem, obok „opisu procesu”."
+    }
+  ],
+  "przykladWypowiedzi": "The process description, czyli opis procesu, mówi, co proces robi, a the process purpose statement, czyli przeznaczenie procesu, mówi, po co proces istnieje; oba są elementami opisu każdego procesu COBIT 5.",
+  "egzamin": "„**Opis procesu**” = przegląd tego, **co wykonuje proces**. „**Przeznaczenie procesu**” = **po co** proces istnieje. Tabela RACI jest częścią opisu procesu.",
+  "powiazane": [
+    "raci",
+    "praktyki-dzialania",
+    "proces"
+  ],
+  "sylabus": [
+    "EN-02-24",
+    "EN-02-25"
+  ],
+  "zrodla": [
+    {
+      "doc": "SYL"
+    },
+    {
+      "doc": "WWW",
+      "url": "https://alctraining.com.au/?p=11053"
+    }
+  ],
+  "kategoria": "egzaminacyjne"
+}

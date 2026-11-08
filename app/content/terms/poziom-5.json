@@ -1,0 +1,117 @@
+{
+  "id": "poziom-5",
+  "en": "Level 5 – Optimising process",
+  "wymowa": "lewel 5 optimajzing prołses",
+  "wymowaAkcent": "LE-wel 5 OP-ti-maj-zing PROŁ-ses",
+  "plEgzamin": "Poziom 5 – Proces zoptymalizowany",
+  "plPodrecznik": "Poziom 5 potencjału – proces optymalizujący",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Poziom 5 – Proces zoptymalizowany",
+    "podrecznik": "Poziom 5 potencjału – proces optymalizujący",
+    "kurs": "Poziom 5 – Proces zoptymalizowany (Level 5 – Optimising process)",
+    "uwaga": "Egzamin PL: „Poziom 5 – Proces zoptymalizowany”; podręcznik PL: „Poziom 5 potencjału – proces optymalizujący” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 42, 44."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Proces **zoptymalizowany**”. Podręcznik (Il. 19 i 20): „Proces **optymalizujący**”. To ten sam poziom 5. Nie myl z poziomem 5 dojrzałości COBIT 4.1 („Zoptymalizowany”), który ma inną treść.",
+  "skadNazwa": "Z angielskiego *Optimising*, czyli „optymalizujący”: ciągle się ulepszający. Egzamin PL używa formy „zoptymalizowany”, która brzmi jak stan końcowy, choć chodzi o ciągły ruch.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "poziom-4",
+    "pa-5-1",
+    "pa-5-2"
+  ],
+  "poziom1": "Proces przewidywalny (poziom 4) jest nieustannie doskonalony, żeby realizować obecne i przyszłe cele biznesowe. Warunek: PA 5.1 (innowacja) i PA 5.2 (optymalizacja) co najmniej W, a wszystkie atrybuty poziomów 1–4 = P.",
+  "poLudzku": "Robota nie tylko działa dobrze, ale ciągle ją ulepszasz pod to, czego potrzebuje organizacja.",
+  "wyobrazSobie": "Zespół Formuły 1: bolid już jest szybki, a inżynierowie po każdym wyścigu szukają kolejnych dziesiątych sekundy.",
+  "poCo": "Żeby proces, który już działa stabilnie, dalej się poprawiał razem ze zmieniającymi się celami organizacji.",
+  "jakDziala": "Na bazie danych z poziomu 4 organizacja szuka i wybiera zmiany (PA 5.1), a potem je wprowadza i sprawdza efekt (PA 5.2). Oba atrybuty muszą mieć co najmniej W, a wszystkie niższe P.",
+  "dlaczegoWazne": "Na egzaminie liczy się nazwa „zoptymalizowany”, a podręcznik pisze „optymalizujący”. Ważne jest też, że poziom docelowy rzadko jest najwyższy.",
+  "poziom2": "| Atrybut | Wymagana ocena |\n|---|---|\n| PA 1.1 – PA 4.2 (7 atrybutów) | **P** |\n| PA 5.1 Innowacja procesu | **W lub P** |\n| PA 5.2 Optymalizacja procesu | **W lub P** |\n\nTo najwyższy poziom, a **poziomu 6 nie ma**. Framework przypomina, że poziom docelowy wybiera się z rachunku kosztów i korzyści i bardzo rzadko jest to jeden z najwyższych poziomów.",
+  "poziom3": "(s. 42): *„5 Proces optymalizujący (dwa atrybuty) — opisany wcześniej proces przewidywalny jest nieustannie doskonalony w celu realizacji istotnych aktualnych i projektowanych celów biznesowych.”* (s. 43): poziom docelowy *„bardzo rzadko będzie jednym z najwyższych poziomów”*.",
+  "przyklady": {
+    "zycie": "Co roku porównujesz oferty prądu i internetu, patrzysz, ile wydaliście, i zmieniasz sposób płacenia na tańszy albo wygodniejszy. Domowe rachunki nie tylko się zgadzają, ale stale się poprawiają. To poziom 5.",
+    "biuro": "Biuro co kwartał analizuje dane o czasie obiegu dokumentów i testuje nowy sposób, np. podpis elektroniczny w jednym dziale. Gdy działa, wprowadza go wszędzie. To poziom 5.",
+    "organizacja": "Firma kurierska co kwartał analizuje dane z pomiarów, testuje nowe trasy i nowe skanery. Wdraża tylko zmiany, które dały efekt. Proces stale się doskonali pod cele firmy.\n\nUrząd miasta co roku analizuje dane o obsłudze wniosków, testuje nowe e-usługi i wdraża te, które skracają czas. Sprawdza też, czy zmiana naprawdę pomogła mieszkańcom. To poziom 5.",
+    "psp": "**Pomysł Kasi Nowik.** Dyżurna Kasia Nowik widzi w raportach, że opóźnienia biorą się z kolejności wysyłki SMS-ów. Proponuje wysyłać najpierw do najbliższej jednostki. Naczelnik Sikora testuje to na jednej zmianie, mierzy efekt i wdraża w całej komendzie. Taki cykl „pomysł, próba, wdrożenie, sprawdzenie” to poziom 5. Komendantka Wrzos pyta jednak, czy każdy proces komendy musi go mieć.",
+    "it": "Proces APO12 (zarządzanie ryzykiem): na bazie zmierzonych wyników organizacja co roku testuje nowe metody analizy ryzyka i wdraża te, które poprawiają trafność ocen. Przy P na poziomach 1–4 to poziom 5."
+  },
+  "glebokosc": {
+    "prosty": "Twoja piekarnia piecze zawsze świetny chleb. Mimo to co miesiąc próbujesz nowej mąki albo innego pieca. Przepis zmieniasz tylko wtedy, gdy próba pokaże, że jest lepiej. To poziom 5.",
+    "zaawansowany": "Proces powiadamiania ma [[poziom-4|poziom 4]]: czasy są mierzone i trzymane w limicie. Kasia Nowik analizuje dane i proponuje inną kolejność wysyłki ([[pa-5-1|innowacja procesu]]). Sikora wdraża zmianę i sprawdza, czy naprawdę skróciła czas ([[pa-5-2|optymalizacja procesu]]). Gdy oba atrybuty mają co najmniej W, a niżej są same P, proces ma poziom 5.",
+    "skrajny": "Komendantka Wrzos słyszy na szkoleniu, że „najlepsi mają wszędzie poziom 5”, i chce go dla wszystkich procesów. Audytorka Lis studzi zapał. Framework mówi, że poziom docelowy wybiera się z rachunku kosztów i korzyści i bardzo rzadko jest to jeden z najwyższych. Dla powiadamiania rozsądne może być 3 albo 4, a dla archiwizacji faktur wystarczy 2. Druga pułapka to nazwa. Egzamin mówi „zoptymalizowany”, podręcznik „optymalizujący”, a w COBIT 4.1 był „Zoptymalizowany”, ale z inną treścią. **Rozstrzygnięcie:** poziom 5 to ciągłe doskonalenie pod cele biznesowe. Jest najwyższy, ale nie musi być celem."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Każda organizacja powinna dążyć do poziomu 5 we wszystkich procesach.",
+      "prawda": "Poziom docelowy wybiera się z rachunku kosztów i korzyści. Framework mówi, że bardzo rzadko jest to jeden z najwyższych poziomów (s. 43)."
+    },
+    {
+      "mit": "„Zoptymalizowany” znaczy, że proces jest skończony i idealny.",
+      "prawda": "Podręcznik mówi „optymalizujący”: proces jest nieustannie doskonalony. To ruch, a nie stan końcowy."
+    },
+    {
+      "mit": "Po poziomie 5 jest jeszcze poziom 6 dla procesów wzorcowych.",
+      "prawda": "Poziomów jest sześć, od 0 do 5. Poziomu 6 nie ma."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń traktuje poziom 5 jako obowiązkowy cel i nie wie, że egzaminacyjne „zoptymalizowany” to podręcznikowe „optymalizujący”.",
+    "jakTlumaczyc": "Porównaj do sportowca: poziom 4 to stała forma, a poziom 5 to trener, który ciągle szuka i testuje nowe metody treningu. Nie każdy amator potrzebuje trenera olimpijskiego.",
+    "pytanieKontrolne": "Czy brak poziomu 5 w procesie oznacza, że organizacja źle zarządza IT?",
+    "odpowiedzKontrolna": "Nie. Poziom docelowy wybiera się z rachunku kosztów i korzyści i rzadko jest to jeden z najwyższych. Wiele organizacji celuje w poziom 1 we wszystkich procesach."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "poziom-4",
+      "roznica": "Poziom 4 trzyma proces w limitach. Poziom 5 dodaje szukanie, wdrażanie i sprawdzanie ulepszeń."
+    },
+    {
+      "termin": "Poziom 5 dojrzałości COBIT 4.1 („Zoptymalizowany”)",
+      "roznica": "Ta sama nazwa, inna treść: tam procesy dopracowane do poziomu dobrej praktyki i zautomatyzowane. Skal nie da się prosto porównać."
+    },
+    {
+      "termin": "pa-5-2",
+      "roznica": "PA 5.2 Optymalizacja procesu to jeden z dwóch atrybutów poziomu 5, a nie nazwa całego poziomu."
+    }
+  ],
+  "przykladWypowiedzi": "Level 5 – Optimising process, czyli na egzaminie poziom 5 – proces zoptymalizowany (w podręczniku: optymalizujący), ma atrybuty Process innovation (innowacja procesu) i Process optimisation (optymalizacja procesu).",
+  "egzamin": "Poziom 5 = **proces zoptymalizowany** (podręcznik: optymalizujący). Atrybuty: **innowacja** procesu (PA 5.1) i **optymalizacja** procesu (PA 5.2). **Nie ma poziomu 6.**",
+  "powiazane": [
+    "poziomy-zdolnosci",
+    "pa-5-1",
+    "pa-5-2",
+    "poziom-4",
+    "cele-oceny"
+  ],
+  "sylabus": [
+    "PC-01-01",
+    "PC-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "jest nieustannie doskonalony w celu realizacji istotnych aktualnych i projektowanych celów biznesowych"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "który bardzo rzadko będzie jednym z najwyższych poziomów"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 44,
+      "ilustracja": "20",
+      "cytat": "Poziom 5: Proces optymalizujący"
+    },
+    {
+      "doc": "SP1"
+    }
+  ],
+  "mapa": "poziom-5"
+}

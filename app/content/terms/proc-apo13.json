@@ -1,0 +1,125 @@
+{
+  "id": "proc-apo13",
+  "en": "APO13 Manage Security",
+  "wymowa": "ejpio 13 menydż sikjuriti",
+  "wymowaAkcent": "ej-pi-O 13 ME-nydż si-KJU-ri-ti",
+  "plEgzamin": "APO13 Zarządzanie bezpieczeństwem",
+  "plPodrecznik": "APO13 Zarządzanie bezpieczeństwem",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO13 Zarządzanie bezpieczeństwem",
+    "podrecznik": "APO13 Zarządzanie bezpieczeństwem",
+    "kurs": "APO13 Zarządzanie bezpieczeństwem (APO13 Manage Security)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 51, 52."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie APO13 i słowie kluczowym EN *Manage Security*. Nie myl z DSS05 Zarządzanie usługami bezpieczeństwa. APO13 organizuje system zarządzania bezpieczeństwem informacji (ISMS), a DSS05 chroni systemy na co dzień.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "proc-apo12",
+    "dostep-i-bezpieczenstwo"
+  ],
+  "poLudzku": "Ustalenie całego sposobu dbania o bezpieczeństwo informacji: zasad, planu i regularnego sprawdzania, czy działa.",
+  "wyobrazSobie": "Szef ochrony, który pisze regulamin i plan ochrony obiektu. Ochroniarze przy bramie to już inna praca.",
+  "poCo": "Żeby bezpieczeństwo informacji było zorganizowane jako system z polityką, planem i przeglądami, a nie zbiorem przypadkowych zabezpieczeń.",
+  "jakDziala": "Kierownictwo IT ustanawia system zarządzania bezpieczeństwem informacji (ISMS): zakres i politykę. Przygotowuje plan postępowania z ryzykiem bezpieczeństwa i wdraża go. Regularnie monitoruje i przegląda skuteczność systemu.",
+  "dlaczegoWazne": "APO13 wspiera cel IT dotyczący bezpieczeństwa informacji (Przykład 8). Na egzaminie myli się z DSS05.",
+  "skadNazwa": "EN *Manage Security*. Krótka nazwa ukrywa sens: chodzi o system zarządzania bezpieczeństwem informacji (ISMS), jak w ISO/IEC 27001. Codzienne zabezpieczenia to DSS05 *Manage Security Services*.",
+  "poziom1": "Proces Zarządzania o bezpieczeństwie informacji. Ustanawia, prowadzi i monitoruje system zarządzania bezpieczeństwem informacji (ISMS), żeby ryzyko bezpieczeństwa mieściło się w apetycie organizacji.",
+  "poziom2": "**Czym się zajmuje:** buduje system bezpieczeństwa: zakres, politykę, plan postępowania z ryzykiem bezpieczeństwa i przegląd skuteczności.\n\n**Wejścia (intuicja):** apetyt na ryzyko z [[proc-edm03]], ryzyka z [[proc-apo12]], wymagania prawa i norm ([[iso-27001]]).\n\n**Wyjścia (intuicja):** polityka i zakres ISMS, plan postępowania z ryzykiem bezpieczeństwa, raporty z przeglądów.\n\n**Współpraca:** codzienne zabezpieczenia (ochrona przed złośliwym oprogramowaniem, uprawnienia, sieć, dostęp fizyczny) wykonuje DSS05. Ciągłość działania to DSS04.",
+  "poziom3": "Il. 16 (s. 33): „APO13 Zarządzanie bezpieczeństwem”. Przykład 8 (s. 51) pokazuje APO13 w kaskadzie celów: proces przede wszystkim ułatwia m.in. cel IT *„10 Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji”*. Załącznik E (s. 60): ISO/IEC 27000 obejmuje *„procesy związane z bezpieczeństwem i ryzykiem w domenach EDM, APO oraz DSS”*. Il. 39 (s. 88): „Administracja bezpieczeństwa” to kategoria umiejętności domeny DSS, a nie APO. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Rodzina ustala zasady: klucze mają tylko domownicy, alarm włączany na noc, raz w roku przegląd zamków. Spisuje, co jest najcenniejsze i jak to chronić. Sam zamek w drzwiach to narzędzie. Cały ten system to APO13.",
+    "biuro": "Kierowniczka biura pisze krótką politykę: hasła zmieniane co kwartał, dokumenty klientów w zamykanej szafie, laptopy szyfrowane. Raz na pół roku sprawdza, czy zasady działają.",
+    "organizacja": "Firma wdraża system zarządzania bezpieczeństwem informacji według ISO/IEC 27001. Ustala zakres, politykę i plan postępowania z ryzykiem. Co pół roku robi przegląd skuteczności. To APO13. Urząd powołuje pełnomocnika ds. bezpieczeństwa informacji. Pełnomocnik pisze politykę bezpieczeństwa, plan działań i harmonogram przeglądów. Ustawianie zapór i haseł to praca informatyków (DSS05). Sam system to APO13.",
+    "psp": "**Polityka bezpieczeństwa Syreny.** Naczelnik Marek Sikora pisze politykę bezpieczeństwa informacji komendy. Ustala, co chronić najbardziej: listę numerów i dane alarmów. Planuje działania i przegląd co pół roku. Hasła i antywirusa na co dzień ustawia informatyczka Ola Dudek. Część Sikory to [[proc-apo13|APO13]].",
+    "it": "Pełnomocnik ds. bezpieczeństwa informacji utrzymuje ISMS zgodny z [[iso-27001]]: politykę, plan postępowania z ryzykiem i przeglądy. To APO13. Zapory i konta obsługuje [[proc-dss05]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-dss05",
+      "roznica": "DSS05 to codzienne usługi bezpieczeństwa: ochrona przed złośliwym oprogramowaniem, sieć, tożsamość i dostęp, dostęp fizyczny. APO13 ustanawia i nadzoruje cały system zarządzania bezpieczeństwem."
+    },
+    {
+      "termin": "proc-apo12",
+      "roznica": "APO12 obejmuje całe ryzyko IT. APO13 skupia się na bezpieczeństwie informacji."
+    },
+    {
+      "termin": "iso-27001",
+      "roznica": "ISO/IEC 27001 to norma o ISMS. APO13 to proces COBIT, który odpowiada za ISMS w organizacji."
+    },
+    {
+      "termin": "dostep-i-bezpieczenstwo",
+      "roznica": "Dostęp i bezpieczeństwo to kategoria jakości informacji. APO13 to proces zarządzania bezpieczeństwem."
+    }
+  ],
+  "przykladWypowiedzi": "APO13 *Manage Security*, czyli „Zarządzanie bezpieczeństwem”, prowadzi ISMS (*information security management system*); codzienne zabezpieczenia to DSS05 *Manage Security Services*.",
+  "egzamin": "Słowa-klucze: **ISMS, polityka bezpieczeństwa informacji, plan postępowania z ryzykiem bezpieczeństwa, przegląd ISMS** → APO13. **Antywirus, zapory, konta i uprawnienia, monitorowanie zdarzeń bezpieczeństwa** → DSS05.",
+  "powiazane": [
+    "apo",
+    "proc-dss05",
+    "proc-apo12",
+    "iso-27001",
+    "dostep-i-bezpieczenstwo",
+    "cele-zwiazane-z-it"
+  ],
+  "sylabus": [
+    "PR-01-04",
+    "PR-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO13 Zarządzanie bezpieczeństwem"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 51,
+      "cytat": "10 Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "procesy związane z bezpieczeństwem i ryzykiem w domenach EDM, APO oraz DSS"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39",
+      "cytat": "Administracja bezpieczeństwa"
+    }
+  ],
+  "mapa": "proc-apo13",
+  "glebokosc": {
+    "prosty": "Dbasz o bezpieczeństwo domu. Najpierw ustalasz zasady: kto ma klucze, kiedy włączać alarm, co trzymać w sejfie. Raz w roku sprawdzasz, czy to działa. Samo zamykanie drzwi to codzienność.",
+    "zaawansowany": "Sikora w APO13 pisze politykę bezpieczeństwa i plan działań dla Syreny. Ustala, że dostęp do listy numerów mają tylko dyżurni i Dudek. Ola Dudek w DSS05 nadaje konta, ustawia hasła i sprawdza dzienniki zdarzeń. Ryzyko wycieku danych Sikora ocenia razem z resztą ryzyk w [[proc-apo12]].",
+    "skrajny": "Dudek zauważa w dzienniku próbę logowania z obcego adresu i blokuje konto. Czy to APO13? Nie: wykrycie i blokada to codzienna usługa bezpieczeństwa, czyli DSS05. APO13 zaczyna się, gdy Sikora po tym zdarzeniu przegląda politykę i plan postępowania z ryzykiem. Framework daje wskazówkę: „Administracja bezpieczeństwa” to umiejętność z DSS, nie z APO (il. 39). **Rozstrzygnięcie:** system, polityka i plan bezpieczeństwa (ISMS) → APO13; codzienne zabezpieczanie i reagowanie → DSS05; apetyt na ryzyko → EDM03."
+  },
+  "zagmatwania": [
+    {
+      "mit": "APO13 i DSS05 to dwie nazwy tego samego.",
+      "prawda": "APO13 (domena APO) organizuje system bezpieczeństwa. DSS05 (domena DSS) chroni systemy na co dzień."
+    },
+    {
+      "mit": "Bezpieczeństwo to wyłącznie sprawa informatyków od sieci.",
+      "prawda": "APO13 obejmuje politykę, zakres i plan dla całej organizacji, nie tylko technikę."
+    },
+    {
+      "mit": "Skoro mamy APO13, nie potrzebujemy APO12.",
+      "prawda": "APO12 obejmuje całe ryzyko IT. Ryzyko bezpieczeństwa jest jego częścią, którą APO13 rozwija."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli APO13 z DSS05, bo oba mają w nazwie „bezpieczeństwo”.",
+    "jakTlumaczyc": "APO13 to szef ochrony, który pisze regulamin i plan ochrony obiektu. DSS05 to ochroniarze na bramie, kamery i karty dostępu.",
+    "pytanieKontrolne": "Firma ustala zakres i politykę ISMS oraz harmonogram przeglądów. Który to proces? A codzienne aktualizacje antywirusa?",
+    "odpowiedzKontrolna": "ISMS, polityka i przeglądy to APO13. Antywirus i inne codzienne zabezpieczenia to DSS05."
+  }
+}

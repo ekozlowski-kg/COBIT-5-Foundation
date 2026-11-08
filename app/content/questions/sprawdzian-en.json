@@ -1,0 +1,944 @@
+{
+  "pytania": [
+    {
+      "id": "q-spr-en-01",
+      "typ": "egzamin",
+      "sprawdzian": "EN",
+      "czesc": "wiedza",
+      "sylabus": [
+        "EN-02-03"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jakie cechy mają według COBIT 5 **dobre polityki**?",
+      "opcje": [
+        {
+          "tekst": "Są kompleksowe, otwarte i elastyczne, aktualne oraz dostępne dla wszystkich interesariuszy.",
+          "poprawna": false,
+          "wyjasnienie": "Te cechy podręcznik podaje dla **struktur ramowych** (metodyk) Ładu i Zarządzania, a nie dla polityk.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Jest ich niewiele, są sformułowane prostym językiem i wyrażają podstawowe wartości organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "To kryteria dla **zasad**, a nie polityk. Polityki są bardziej szczegółowe.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Są skuteczne, wydajne i nieinwazyjne.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Skuteczne (osiągają cel), wydajne (najmniejszym nakładem) i nieinwazyjne (logiczne dla stosujących, bez zbędnego oporu). Podręcznik: „nieingerencyjne”."
+        },
+        {
+          "tekst": "Są zatwierdzone przez zarząd, podpisane przez każdego pracownika i aktualizowane raz w roku.",
+          "poprawna": false,
+          "wyjasnienie": "Zatwierdzanie i aktualizacja mają znaczenie, ale to nie są trzy cechy dobrej polityki z COBIT 5.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67,
+          "ilustracja": "28"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "polityka",
+        "cechy-dobrej-polityki"
+      ]
+    },
+    {
+      "id": "q-spr-en-02",
+      "typ": "egzamin",
+      "sprawdzian": "EN",
+      "czesc": "wiedza",
+      "sylabus": [
+        "EN-02-18"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak przebiega **cykl informacji** przedstawiony na Rysunku 35?",
+      "opcje": [
+        {
+          "tekst": "Procesy biznesowe tworzą i przetwarzają dane, z danych powstaje informacja, z niej wiedza, a z wiedzy wartość.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Rysunek 35: procesy biznesowe (i procesy IT) → dane → informacje → wiedza → wartość dla organizacji."
+        },
+        {
+          "tekst": "Wiedza ekspertów tworzy dane, dane zamienia się w informacje, a informacje trafiają do procesów IT jako produkt końcowy.",
+          "poprawna": false,
+          "wyjasnienie": "Kolejność jest odwrócona. Cykl zaczyna się od danych z procesów, a kończy na wartości.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Informacja powstaje wyłącznie w systemach informatycznych, a procesy biznesowe tylko ją odczytują i archiwizują.",
+          "poprawna": false,
+          "wyjasnienie": "Aktywator Informacja obejmuje wszystkie informacje, nie tylko zautomatyzowane, także nieustrukturyzowane i nieformalne.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "To sześć faz cyklu życia aktywatora: od planowania i projektowania do aktualizacji i pozbycia się informacji.",
+          "poprawna": false,
+          "wyjasnienie": "To opis wymiaru **cykl życia** aktywatora, a nie cyklu informacji z Rysunku 35.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 81,
+          "ilustracja": "35"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "informacja",
+        "cykl-informacji"
+      ]
+    },
+    {
+      "id": "q-spr-en-03",
+      "typ": "egzamin",
+      "sprawdzian": "EN",
+      "czesc": "wiedza",
+      "sylabus": [
+        "EN-02-15"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Do jakich trzech poziomów odnoszą się według COBIT 5 **cele** aktywatora Kultura, Etyka i Zachowanie?",
+      "opcje": [
+        {
+          "tekst": "Do kultury narodowej, kultury branżowej i kultury zespołu, które razem tworzą klimat organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "Takiego podziału COBIT 5 nie podaje. Czynniki zewnętrzne wpływają na etykę indywidualną, ale nie są poziomami celów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Do komunikowania, egzekwowania wymagań oraz zachęt i nagród za pożądane zachowanie w organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "To **dobre praktyki** tego aktywatora (Rysunek 34), a nie poziomy jego celów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Do zachowania wobec ryzyka, wobec przestrzegania polityk i wobec negatywnych wyników działań.",
+          "poprawna": false,
+          "wyjasnienie": "To przykłady istotnych rodzajów zachowań, a więc tylko część trzeciego poziomu.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Do etyki organizacyjnej, etyki indywidualnej i indywidualnych zachowań.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Etyka organizacji (wartości firmy), etyka indywidualna (wartości osoby) i indywidualne zachowania, które razem tworzą kulturę."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 79,
+          "ilustracja": "34"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "kultura-etyka-zachowanie",
+        "poziomy-etyki"
+      ]
+    },
+    {
+      "id": "q-spr-en-04",
+      "typ": "nazwa-en",
+      "sprawdzian": "EN",
+      "czesc": "terminologia",
+      "sylabus": [
+        "PR-01-02",
+        "EN-02-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj pełną angielską nazwę pierwszego aktywatora (egzamin PL: „Zasady, Polityki i Struktury ramowe”).",
+      "termin": "zasady-polityki-struktury",
+      "poprawne": [
+        "Principles, Policies and Frameworks"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Principles, Policies and Frameworks**. Podręcznik PL: „Zasady, polityki i metodyki”. Egzamin PL: „Zasady, Polityki i Struktury ramowe”, bo Framework to Struktura ramowa.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 27,
+          "ilustracja": "12"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zasady-polityki-struktury",
+        "struktura-ramowa"
+      ]
+    },
+    {
+      "id": "q-spr-en-05",
+      "typ": "dopasowanie",
+      "sprawdzian": "EN",
+      "czesc": "terminologia",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Dopasuj dobrą praktykę struktur organizacyjnych (EN) do nazwy egzaminacyjnej PL.",
+      "pary": [
+        {
+          "lewa": "Operating principles",
+          "prawa": "Zasady operacyjne"
+        },
+        {
+          "lewa": "Span of control",
+          "prawa": "Zakres kontroli"
+        },
+        {
+          "lewa": "Level of authority / decision rights",
+          "prawa": "Poziom uprawnień"
+        },
+        {
+          "lewa": "Delegation of authority",
+          "prawa": "Delegowanie uprawnień"
+        },
+        {
+          "lewa": "Escalation procedures",
+          "prawa": "Procedury eskalacji"
+        }
+      ],
+      "wyjasnienie": "Podręcznik PL pisze „zasady działania”, „zasięg (zakres) kontroli”, „poziom decyzyjny / uprawnienia decyzyjne” i „przekazywanie uprawnień”. Egzamin używa form z prawej kolumny (Rysunek 32).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75,
+          "ilustracja": "32"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "dobre-praktyki-struktur",
+        "zasady-operacyjne",
+        "zakres-kontroli",
+        "poziom-uprawnien",
+        "delegowanie-uprawnien",
+        "procedury-eskalacji"
+      ]
+    },
+    {
+      "id": "q-spr-en-06",
+      "typ": "popraw-termin",
+      "sprawdzian": "EN",
+      "czesc": "terminologia",
+      "sylabus": [
+        "EN-02-25",
+        "EN-02-03",
+        "EN-02-14"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Notatka z warsztatu o aktywatorach. Wskaż zdania z błędnym albo podręcznikowym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "R (Responsible) – Odpowiedzialny wykonawczo: osoba, która zajmuje się realizacją zadania.",
+          "poprawne": true,
+          "wyjasnienie": "Poprawnie. Słownik: Responsible odpowiada na pytanie „Kto zajmuje się realizacją zadania?”."
+        },
+        {
+          "tekst": "A (Accountable) – Konsultowany: osoba, która zapewnia dane wejściowe do zadania.",
+          "poprawne": false,
+          "wyjasnienie": "Dane wejściowe zapewnia **C – Consulted (Konsultowany)**. A to **Accountable (Rozliczany)**: kto odpowiada za powodzenie zadania.",
+          "blednyTermin": "Konsultowany",
+          "poprawka": "Rozliczany (Accountable)"
+        },
+        {
+          "tekst": "Dobra polityka jest skuteczna, wydajna i nieingerencyjna (non-intrusive).",
+          "poprawne": false,
+          "wyjasnienie": "„Nieingerencyjna” to forma z podręcznika. Na egzaminie: **nieinwazyjna**.",
+          "blednyTermin": "nieingerencyjna",
+          "poprawka": "nieinwazyjna (non-intrusive)"
+        },
+        {
+          "tekst": "Osoby wspierające (champions) to dobra praktyka aktywatora Kultura, Etyka i Zachowanie.",
+          "poprawne": false,
+          "wyjasnienie": "Treść poprawna, ale egzamin PL nazywa ich **Czempionami**.",
+          "blednyTermin": "Osoby wspierające",
+          "poprawka": "Czempioni (champions)"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 90
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 79,
+          "ilustracja": "34"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "raci",
+        "raci-r",
+        "raci-a",
+        "raci-c",
+        "cechy-dobrej-polityki",
+        "kultura-etyka-zachowanie"
+      ]
+    },
+    {
+      "id": "q-spr-en-07",
+      "typ": "egzamin",
+      "sprawdzian": "EN",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "EN-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Czym według COBIT 5 **zasady** (principles) różnią się od **polityk** (policies)?",
+      "opcje": [
+        {
+          "tekst": "Polityki są nieliczne i wyrażają podstawowe wartości, a zasady szczegółowo opisują, jak stosować polityki.",
+          "poprawna": false,
+          "wyjasnienie": "Role są zamienione. To zasady mają być nieliczne i proste, a polityki szczegółowe.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Zasady są nieliczne i wyrażają podstawowe wartości; polityki szczegółowo mówią, jak je stosować.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Zasady: ograniczona liczba, prosty język, podstawowe wartości. Polityki: szczegółowe wytyczne stosowania zasad w decyzjach."
+        },
+        {
+          "tekst": "Zasady dotyczą tylko zarządu, a polityki tylko pracowników operacyjnych, więc mają innych interesariuszy.",
+          "poprawna": false,
+          "wyjasnienie": "Interesariuszami obu są zarówno osoby, które je ustalają, jak i te, które muszą ich przestrzegać.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Zasady i polityki to dwie nazwy tego samego dokumentu, a różnica między nimi jest wyłącznie językowa.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 wyraźnie odróżnia zasady od polityk i podaje dla nich różne kryteria.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zasady-polityki-struktury",
+        "polityka"
+      ]
+    },
+    {
+      "id": "q-spr-en-08",
+      "typ": "egzamin",
+      "sprawdzian": "EN",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "EN-02-08"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Cel procesu brzmi: „Procedura alarmowania jest znana i dostępna każdemu dyżurnemu, a hasła konfiguracyjne pozostają poufne”. Do której **kategorii celów procesu** należy?",
+      "opcje": [
+        {
+          "tekst": "Cele wewnętrzne – proces ma jakość wewnętrzną, jest zgodny z dobrą praktyką oraz z regułami wewnętrznymi i zewnętrznymi.",
+          "poprawna": false,
+          "wyjasnienie": "Cele wewnętrzne pytają o jakość i zgodność z praktyką oraz regułami, a nie o dostęp i poufność.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Cele kontekstowe – proces jest dopasowany do sytuacji komendy, zrozumiały i łatwy w użyciu.",
+          "poprawna": false,
+          "wyjasnienie": "Cele kontekstowe dotyczą dopasowania i użyteczności, a nie poufności i dostępu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Jakość kontekstowa informacji – raport jest istotny, kompletny i aktualny dla swojego odbiorcy.",
+          "poprawna": false,
+          "wyjasnienie": "To kryteria jakości **informacji**, a pytanie dotyczy kategorii celów **procesu**.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Cele dostępności i bezpieczeństwa – proces jest poufny, gdy trzeba, i dostępny dla potrzebujących.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Podręcznik: proces pozostaje poufny, gdy jest to wymagane, i jest znany oraz dostępny dla osób, które go potrzebują."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69,
+          "ilustracja": "29"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "kategorie-celow-procesu",
+        "cel-dostepnosci-procesu"
+      ]
+    },
+    {
+      "id": "q-spr-en-09",
+      "typ": "egzamin",
+      "sprawdzian": "EN",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "EN-02-17"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Raport o awariach Syreny jest dokładny, obiektywny i pochodzi z wiarygodnego źródła, ale komendantka dostaje go tydzień po awarii, gdy decyzja już zapadła. Którego kryterium jakości informacji brakuje?",
+      "opcje": [
+        {
+          "tekst": "Aktualności, czyli kryterium jakości kontekstowej.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Aktualność (informacja wystarczająco aktualna dla zadania) należy do jakości zgodności z kontekstem, nie do jakości wewnętrznej."
+        },
+        {
+          "tekst": "Dokładności, czyli kryterium jakości wewnętrznej, bo dane w raporcie mogły się od tamtej pory zmienić.",
+          "poprawna": false,
+          "wyjasnienie": "Scenariusz mówi, że raport jest dokładny. Problemem jest czas dostarczenia.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Dostępności z grupy dostępu i bezpieczeństwa, bo raport mógł być zablokowany hasłem w systemie.",
+          "poprawna": false,
+          "wyjasnienie": "Nic nie wskazuje na problem z dostępem. Raport dotarł, tylko za późno na decyzję.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Obiektywności, czyli kryterium jakości wewnętrznej, bo autor raportu mógł ocenić awarię stronniczo.",
+          "poprawna": false,
+          "wyjasnienie": "Raport jest obiektywny według scenariusza. Obiektywność należy do jakości wewnętrznej i nie jest tu problemem.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 82
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "jakosc-informacji",
+        "jakosc-kontekstowa",
+        "jakosc-wewnetrzna"
+      ]
+    },
+    {
+      "id": "q-spr-en-10",
+      "typ": "egzamin",
+      "sprawdzian": "EN",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "EN-02-11"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które zdanie poprawnie opisuje powiązanie aktywatora **Procesy** z innymi aktywatorami?",
+      "opcje": [
+        {
+          "tekst": "Dobrze zaprojektowany i opisany proces działa niezależnie od kultury i zachowań jego uczestników.",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik mówi odwrotnie: aspekty zachowania i kultury **determinują** skuteczność procesów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Procesy definiują polityki, a struktury organizacyjne tylko wykonują to, co zapisano w procesach.",
+          "poprawna": false,
+          "wyjasnienie": "Polityki zapewniają spójne wykonanie procesów, a struktury mogą definiować polityki. Zależność nie jest jednokierunkowa.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Procesy wymagają informacji jako wejść i mogą dostarczać informacji jako produktów działań.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To pierwsza z relacji wymienionych dla aktywatora Procesy. Procesy potrzebują też ról i zdolności usługowych."
+        },
+        {
+          "tekst": "Procesy nie potrzebują ról ani struktur, bo tabela RACI w pełni zastępuje strukturę organizacyjną.",
+          "poprawna": false,
+          "wyjasnienie": "Realizacja procesów **wymaga** struktur i ról z tabel RACI, np. komitetu sterującego czy CIO.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 71
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proces",
+        "informacja",
+        "raci"
+      ]
+    },
+    {
+      "id": "q-spr-en-11",
+      "typ": "egzamin",
+      "sprawdzian": "EN",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "EN-02-12",
+        "EN-02-25"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Jak **tabele RACI** łączą aktywator Procesy z aktywatorem Struktury organizacyjne?",
+      "opcje": [
+        {
+          "tekst": "Opisują, jakie decyzje struktura może podejmować i jaką ścieżką eskaluje sprawy sporne.",
+          "poprawna": false,
+          "wyjasnienie": "To dobre praktyki samych struktur (poziom uprawnień, procedury eskalacji), a nie rola tabel RACI.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Przypisują działaniom procesu struktury i role: kto wykonuje, kto odpowiada, kto doradza, kto wie.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. RACI wiąże działania procesu ze strukturami i rolami: Responsible, Accountable, Consulted, Informed."
+        },
+        {
+          "tekst": "Zastępują opis procesu, więc proces opisany tabelą RACI nie potrzebuje już celów ani praktyk.",
+          "poprawna": false,
+          "wyjasnienie": "Tabela RACI jest częścią opisu procesu, ale nie zastępuje jego celów, praktyk ani działań.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Pokazują, którzy interesariusze zewnętrzni płacą za proces i kto ponosi jego koszty.",
+          "poprawna": false,
+          "wyjasnienie": "RACI opisuje zaangażowanie ról w działania, a nie finansowanie.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 71
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "raci",
+        "struktury-organizacyjne"
+      ]
+    },
+    {
+      "id": "q-spr-en-12",
+      "typ": "egzamin",
+      "sprawdzian": "EN",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "EN-02-16",
+        "EN-02-11"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Komenda ma dobrze opisaną procedurę zgłaszania błędów w Syrenie. Dyżurni jednak ukrywają pomyłki, bo za każdą dostają naganę. Jaki mechanizm opisuje tu COBIT 5?",
+      "opcje": [
+        {
+          "tekst": "Zachowanie i kultura decydują o skuteczności procesu; bez zmiany zachęt procedura nie da wyników.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Proces może być doskonały, ale gdy interesariusze nie chcą wykonywać działań właściwie, wyników nie będzie. Zachęty i środki zniechęcające to dobra praktyka kultury."
+        },
+        {
+          "tekst": "Procedura jest dobrze zaprojektowana, więc wyniki procesu zostaną osiągnięte bez względu na zachowania.",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie. Podręcznik podaje właśnie ten przypadek jako przykład porażki dobrze zaprojektowanego procesu.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "To problem wyłącznie aktywatora Ludzie, Umiejętności i Kompetencje, więc wystarczy przeszkolić dyżurnych.",
+          "poprawna": false,
+          "wyjasnienie": "Dyżurni umieją zgłaszać. Problemem jest system kar, czyli kultura i zachowanie, a nie same umiejętności.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Do procedury trzeba dopisać więcej kroków kontrolnych, bo błąd leży w samym opisie procesu.",
+          "poprawna": false,
+          "wyjasnienie": "Opis jest dobry. Więcej kroków nie zmieni zachowania, które wywołują nagany.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 80
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 28
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "kultura-etyka-zachowanie",
+        "proces"
+      ]
+    },
+    {
+      "id": "q-spr-en-13",
+      "typ": "studium",
+      "sprawdzian": "EN",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Jak poprawnie oznaczyć w tabeli RACI Sikorę i Graba?",
+      "scenariusz": "Comiesięczny test syren: test wykonuje mł. kpt. Ola Dudek. Kpt. Marek Sikora odpowiada przed komendantką za to, czy testy w ogóle się udają. Przed testem Ola pyta dyżurnego Pawła Graba o najlepszą godzinę i zbiera jego uwagi. Komendantka dostaje tylko miesięczny raport.",
+      "opcje": [
+        {
+          "tekst": "Sikora – R (Odpowiedzialny wykonawczo), Grab – I (Informowany).",
+          "poprawna": false,
+          "wyjasnienie": "Wykonuje Ola, więc to ona jest R. Grab daje dane wejściowe, więc jest C, a nie I.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Sikora – C (Konsultowany), Grab – A (Rozliczany).",
+          "poprawna": false,
+          "wyjasnienie": "Role są zamienione. Za powodzenie odpowiada Sikora, a Grab jest pytany o opinię.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Sikora – R (Odpowiedzialny wykonawczo), Grab – C (Konsultowany).",
+          "poprawna": false,
+          "wyjasnienie": "Grab jest dobrze oznaczony, ale Sikora nie wykonuje testu. Odpowiada za jego powodzenie, więc jest A.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Sikora – A (Rozliczany), Grab – C (Konsultowany).",
+          "poprawna": true,
+          "wyjasnienie": "Tak. A: kto odpowiada za powodzenie zadania. C: kto zapewnia dane wejściowe. Ola to R, komendantka I."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 90
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 92
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "raci",
+        "raci-a",
+        "raci-c",
+        "raci-r",
+        "raci-i"
+      ]
+    },
+    {
+      "id": "q-spr-en-14",
+      "typ": "studium",
+      "sprawdzian": "EN",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Której dobrej praktyki struktury organizacyjnej brakuje przede wszystkim?",
+      "scenariusz": "W komendzie działa zespół ds. Syreny (Sikora, Mak, Grab). Ma regulamin z terminami spotkań i listą decyzji, które może podejmować sam, do 20 000 zł. Gdy członkowie się nie zgadzają albo sprawa przekracza limit, nikt nie wie, co dalej, i decyzje wiszą tygodniami.",
+      "opcje": [
+        {
+          "tekst": "Poziomu uprawnień – listy decyzji, które zespół może podejmować samodzielnie.",
+          "poprawna": false,
+          "wyjasnienie": "Taka lista istnieje (do 20 000 zł). To prawda o zespole, ale nie wskazuje braku.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Delegowania uprawnień – przekazania części decyzji strukturom podległym zespołowi.",
+          "poprawna": false,
+          "wyjasnienie": "Zespół nie ma problemu z przekazywaniem decyzji w dół, tylko z sytuacjami, których sam nie rozstrzygnie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Procedur eskalacji – ścieżki, gdy zespół nie może podjąć decyzji.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Procedury eskalacji opisują wymagane działania, gdy struktura ma problem z podjęciem decyzji."
+        },
+        {
+          "tekst": "Zasad operacyjnych – ustaleń, jak często zespół się zbiera i jak dokumentuje swoje decyzje.",
+          "poprawna": false,
+          "wyjasnienie": "Regulamin z terminami spotkań już jest, więc zasady operacyjne istnieją.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75,
+          "ilustracja": "32"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "dobre-praktyki-struktur",
+        "procedury-eskalacji",
+        "poziom-uprawnien"
+      ]
+    },
+    {
+      "id": "q-spr-en-15",
+      "typ": "studium",
+      "sprawdzian": "EN",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "EN-02-20"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Którą zasadę (pryncypium) architektury warto przywołać przy tej decyzji?",
+      "scenariusz": "Firma Kwant-Sygnał proponuje, że od podstaw napisze dla komendy nowy moduł SMS. Na rynku jest gotowy produkt, który spełnia wszystkie wymagania SK. Nikt w komendzie nie zatwierdził powodu, by tworzyć własne rozwiązanie.",
+      "opcje": [
+        {
+          "tekst": "Ponowne wykorzystanie – wspólne komponenty architektury stosuje się w nowych rozwiązaniach.",
+          "poprawna": false,
+          "wyjasnienie": "Ta zasada dotyczy komponentów, które organizacja już ma, a nie wyboru między zakupem a budową.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nabywanie lub samodzielne tworzenie – kupuje się, chyba że zatwierdzono powód, by budować.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Gotowy produkt spełnia wymagania i nie ma zatwierdzonego powodu, więc architektura wskazuje zakup."
+        },
+        {
+          "tekst": "Otwartość – architektura korporacyjna ma się opierać na otwartych standardach branżowych.",
+          "poprawna": false,
+          "wyjasnienie": "To prawdziwa zasada architektury, ale scenariusz nie dotyczy standardów, tylko decyzji „kupić czy zbudować”.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Zwinność – architektura ma szybko odpowiadać na zmieniające się potrzeby biznesowe.",
+          "poprawna": false,
+          "wyjasnienie": "Zwinność nie rozstrzyga, czy kupować gotowy produkt, czy budować nowy.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 85,
+          "ilustracja": "37"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zasady-architektury",
+        "uslugi-infrastruktura-aplikacje"
+      ]
+    },
+    {
+      "id": "q-spr-en-16",
+      "typ": "wypowiedz",
+      "sprawdzian": "EN",
+      "czesc": "synteza",
+      "sylabus": [
+        "PR-02-12",
+        "EN-02-05",
+        "EN-02-06"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Komenda pisze „Politykę testów systemu Syrena”. Opisz tę politykę przez cztery wymiary aktywatora i wskaż po jednym mierniku wiodącym i opóźnionym (5–7 zdań). Użyj terminów EN: **Principles, Policies and Frameworks**, **Stakeholders**, **Goals**, **Life cycle**, **Good practices**.",
+      "wymagane": [
+        "Principles, Policies and Frameworks",
+        "Stakeholders",
+        "Goals",
+        "Life cycle",
+        "Good practices"
+      ],
+      "wzorzec": "Polityka testów to element aktywatora **Principles, Policies and Frameworks** (Zasady, Polityki i Struktury ramowe).\n- **Stakeholders** (interesariusze): komendantka i Sikora ją ustalają; dyżurni, JRG, OSP Zawilce i Kwant-Sygnał muszą jej przestrzegać albo z niej korzystają.\n- **Goals** (cele): polityka ma być skuteczna, wydajna i nieinwazyjna, a interesariusze mają do niej łatwy dostęp.\n- **Life cycle** (cykl życia): planowanie, projektowanie, wdrożenie, użytkowanie, ocena i regularna aktualizacja; nieaktualną wersję się wycofuje.\n- **Good practices** (dobre praktyki): opisuje zakres i ważność, konsekwencje nieprzestrzegania, obsługę wyjątków i monitorowanie zgodności; pasuje do apetytu na ryzyko.\nMiernik wiodący (lead): odsetek testów przeprowadzonych według polityki. Miernik opóźniony (lag): liczba alarmów, które nie dotarły na czas. Polityka działa tylko razem z kulturą (Kultura, Etyka i Zachowanie) i procesami, które ją wykonują (s. 67–68).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67,
+          "ilustracja": "28"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zasady-polityki-struktury",
+        "polityka",
+        "wymiary-aktywatora"
+      ]
+    },
+    {
+      "id": "q-spr-en-17",
+      "typ": "studium",
+      "sprawdzian": "EN",
+      "czesc": "synteza",
+      "sylabus": [
+        "PR-01-02",
+        "EN-02-06",
+        "EN-02-16"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które przypisanie ustaleń do kategorii aktywatorów jest poprawne?",
+      "scenariusz": "Po awarii z Lipowej audytorka Ewa Lis zapisała ustalenia:\n(a) polityka testów syren od sześciu lat nie była aktualizowana;\n(b) konfigurację zna tylko Ola Dudek;\n(c) dyżurni ukrywają pomyłki ze strachu przed naganą;\n(d) raport o awariach dociera do komendantki po tygodniu;\n(e) gdy SK i dostawca się spierają, nikt nie ma prawa rozstrzygnąć sprawy.",
+      "opcje": [
+        {
+          "tekst": "(a) Zasady, Polityki i Struktury ramowe; (b) Ludzie, Umiejętności i Kompetencje; (c) Kultura, Etyka i Zachowanie; (d) Informacja; (e) Struktury organizacyjne.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Każde ustalenie trafia do innego aktywatora. To zasada 4: problemu nie naprawi się, poprawiając tylko jeden z nich."
+        },
+        {
+          "tekst": "(a) Procesy; (b) Usługi, Infrastruktura i Aplikacje; (c) Kultura, Etyka i Zachowanie; (d) Informacja; (e) Struktury organizacyjne.",
+          "poprawna": false,
+          "wyjasnienie": "Wiedza jednej osoby to aktywator Ludzie, Umiejętności i Kompetencje, a nie sprzęt czy aplikacje. Polityka to aktywator 1.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "(a) Zasady, Polityki i Struktury ramowe; (b) Ludzie, Umiejętności i Kompetencje; (c) Struktury organizacyjne; (d) Usługi, Infrastruktura i Aplikacje; (e) Kultura, Etyka i Zachowanie.",
+          "poprawna": false,
+          "wyjasnienie": "Ustalenia (c) i (e) są zamienione, a spóźniony raport to problem Informacji, nie infrastruktury.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Wszystkie ustalenia (a)–(e) należą do aktywatora Procesy, bo każde dotyczy jakiegoś procesu komendy.",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. Zasada 4 każe widzieć siedem wzajemnie powiązanych aktywatorów, nie tylko procesy.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 27,
+          "ilustracja": "12"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 28
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "aktywator",
+        "zasada-4"
+      ]
+    },
+    {
+      "id": "q-spr-en-18",
+      "typ": "studium",
+      "sprawdzian": "EN",
+      "czesc": "synteza",
+      "sylabus": [
+        "EN-02-05",
+        "EN-02-06",
+        "PR-02-12"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Która odpowiedź mentora jest najpełniejsza?",
+      "scenariusz": "Jesteś mentorem. Kolega z wydziału mówi: „Mamy politykę bezpieczeństwa w segregatorze, podpisaną przez komendantkę. Aktywator Zasady, Polityki i Struktury ramowe mamy więc z głowy”.",
+      "opcje": [
+        {
+          "tekst": "Masz rację – wystarczy, że polityka istnieje i została formalnie zatwierdzona przez komendantkę.",
+          "poprawna": false,
+          "wyjasnienie": "Samo istnienie dokumentu nie mówi, czy aktywator działa. Liczą się jego wymiary i wyniki.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Liczy się tylko to, czy polityka jest nieinwazyjna; pozostałe cechy i wymiary są drugorzędne.",
+          "poprawna": false,
+          "wyjasnienie": "Nieinwazyjność to jedna z trzech cech dobrej polityki. To zbyt wąskie spojrzenie.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Polityka jest informacją, więc ocenia się ją tylko kryteriami jakości informacji.",
+          "poprawna": false,
+          "wyjasnienie": "Polityki są też informacją, ale to nie jedyny punkt widzenia. Pomija wymiary samego aktywatora.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Sprawdź wymiary: znajomość i dostęp, aktualizację, zakres, wyjątki, konsekwencje, monitorowanie zgodności i wsparcie kultury.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Interesariusze, cele (w tym dostęp), cykl życia (aktualizacja) i dobre praktyki (zakres, wyjątki, konsekwencje, zgodność) oraz powiązanie z kulturą."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zasady-polityki-struktury",
+        "polityka",
+        "wymiary-aktywatora"
+      ]
+    }
+  ]
+}

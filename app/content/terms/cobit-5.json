@@ -1,0 +1,103 @@
+{
+  "id": "cobit-5",
+  "en": "COBIT 5",
+  "wymowa": "kołbit 5",
+  "wymowaAkcent": "KOŁ-bit 5",
+  "plEgzamin": "COBIT 5",
+  "plPodrecznik": "COBIT 5",
+  "plInne": [
+    {
+      "nazwa": "Control Objectives for Information and related Technology (dawna pełna nazwa)",
+      "zrodlo": "FW-PL s. 90"
+    }
+  ],
+  "statusTlumaczenia": "D",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "COBIT 5",
+    "podrecznik": "COBIT 5",
+    "kurs": "COBIT 5 (COBIT 5)",
+    "uwaga": "Nazwa własna publikacji ISACA – nie tłumaczy się. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 2, 3, 7; zestawienie Altkom (kolumna „Podręczniki PL”). Inne formy w obiegu: Control Objectives for Information and related Technology (dawna pełna nazwa) (FW-PL s. 90)."
+  },
+  "pulapka": false,
+  "kategoria": "standard",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "organizacja",
+    "lad",
+    "zarzadzanie"
+  ],
+  "poLudzku": "Zbiór sprawdzonych reguł z 2012 roku, jak mądrze decydować o informatyce i nią kierować.",
+  "wyobrazSobie": "Projekt i instrukcja budowy domu: same niczego nie zbudują, ale mówią, co musi powstać, kto za co odpowiada i jak sprawdzać postęp.",
+  "poCo": "Żeby organizacja mogła mądrze kierować informatyką i nią zarządzać: osiągać korzyści przy rozsądnym ryzyku i zużyciu zasobów. Daje jedną, spójną strukturę ramową zamiast wielu luźnych wskazówek.",
+  "jakDziala": "COBIT 5 (ISACA, 2012) opiera się na 5 zasadach (principles), 7 kategoriach aktywatorów (enablers) i modelu referencyjnym 37 procesów: 5 Ładu w domenie EDM i 32 Zarządzania w domenach APO, BAI, DSS i MEA. Kaskada celów przekłada potrzeby interesariuszy na cele organizacji, cele związane z IT i cele aktywatorów. Integruje wcześniejsze wytyczne ISACA (COBIT 4.1, Val IT, Risk IT) i jest spójny z innymi standardami, np. ITIL i ISO/IEC 27001.",
+  "dlaczegoWazne": "To przedmiot całego egzaminu: liczby 5 zasad, 7 aktywatorów, 37 procesów i podział 5 + 32 wracają w wielu pytaniach. Trzeba też odróżnić COBIT 5 od COBIT 2019, ITIL i ISO/IEC 27001.",
+  "poziom1": "Zbiór wskazówek od ISACA (2012), jak mądrze kierować informatyką i nią zarządzać, żeby się opłacała i nie narażała firmy (np. kto decyduje o IT, kto za co odpowiada, jak sprawdzać efekty). Opiera się na 5 zasadach, 7 kategoriach aktywatorów i 37 procesach.",
+  "poziom2": "COBIT 5 opiera się na **5 zasadach** i **7 kategoriach aktywatorów**, a jego model referencyjny ma **37 procesów** (5 Ładu + 32 Zarządzania). Jest ogólny – nadaje się do firm, organizacji non-profit i sektora publicznego. Integruje wcześniejsze wytyczne ISACA: COBIT 4.1, Val IT, Risk IT.",
+  "poziom3": "Słownik (s. 90): *„Kompletna, powszechnie uznawana metodyka w zakresie nadzoru nad technologiami informatycznymi (IT) w przedsiębiorstwie oraz zarządzania nimi, ułatwiająca kadrze kierowniczej i zarządowi definiowanie i realizację celów biznesowych oraz powiązanych celów IT.”* Obecnie używa się wyłącznie akronimu.",
+  "przyklady": {
+    "zycie": "Rodzina ma coraz więcej sprzętu i kont: telefony, laptop, router, bank, zdjęcia w chmurze. Ustalacie, kto decyduje o zakupach, kto pilnuje haseł i kopii, i co miesiąc sprawdzacie, czy wszystko działa i czy nie przepłacacie. COBIT 5 to taki „regulamin domu” dla informatyki, tylko spisany dla firm i urzędów.",
+    "biuro": "W biurze każdy kupuje programy na własną rękę, nikt nie wie, kto robi kopie zapasowe, a szef nie wie, ile to kosztuje. Według COBIT 5 szef ustalałby priorytety i sprawdzał wyniki, kierownik organizowałby zakupy i kopie, a każdy wiedziałby, za co odpowiada.",
+    "firma": "Właściciel warsztatu kupił program do rezerwacji, kasę online i monitoring, ale nie wie, czy to się opłaca i kto za co odpowiada. COBIT 5 podpowiada, jak to poukładać: kto wyznacza kierunek, kto prowadzi codzienne sprawy, jak mierzyć efekty i ryzyko. To gotowa rama, a nie program do zainstalowania.",
+    "admin": "Burmistrz słyszy, że urząd wydaje na informatykę coraz więcej, a mieszkańcy dalej stoją w kolejkach. Sięga po COBIT 5, żeby ustalić, czego chce od systemów, kto w urzędzie za nie odpowiada i jak co roku sprawdzać, czy przynoszą korzyści. COBIT 5 służy tu do uporządkowania Ładu i Zarządzania IT.",
+    "psp": "Komendant powiatowy chce wiedzieć, czy SWD-PSP, łączność i sprzęt w SK naprawdę pomagają szybciej dysponować zastępy, kto za nie odpowiada i co się stanie przy awarii. COBIT 5 daje mu gotowy układ – zasady, aktywatory i procesy – według którego to sprawdzi i poukłada. To rama Ładu i Zarządzania IT, a nie kolejny system.",
+    "it": "Komenda w Modrzewiowie po awarii Syreny porządkuje IT według COBIT 5: komendantka Wrzos przejmuje 5 procesów Ładu (EDM01–EDM05), kpt. Sikora 32 procesy Zarządzania, np. DSS04 Zarządzanie ciągłością, a audytorka Lis ocenia zdolność procesów."
+  },
+  "glebokosc": {
+    "prosty": "Kodeks drogowy nie mówi Ci, dokąd jechać. Mówi, jak jechać bezpiecznie i kto ma pierwszeństwo. Każdy kierowca stosuje go na własnej trasie, a COBIT 5 jest takim kodeksem dla decyzji o informacji i technologii.",
+    "zaawansowany": "Kpt. Sikora przynosi na naradę COBIT 5. Komendantka Wrzos pyta, czy to zastąpi ITIL, który zna Ola Dudek. Sikora wyjaśnia, że COBIT 5 to [[integrator]]: mówi, kto decyduje (Ład), kto wykonuje (Zarządzanie) i jak to sprawdzać. [[itil|ITIL]] podpowie Oli, jak obsługiwać zgłoszenia na co dzień. Oba się uzupełniają, a COBIT 5 daje całej komendzie wspólny język.",
+    "skrajny": "Czy COBIT 5 nakazuje wdrożyć dokładnie 37 procesów? Intuicja mówi: skoro model ma 37, to tyle musi być. FW-PL (s. 32) mówi jednak, że COBIT 5 nie ma charakteru normatywnego, a model procesów „nie jest to jedyny możliwy model procesów”. W mniejszej organizacji procesów może być mniej, byle obejmowały wszystkie konieczne cele Ładu i Zarządzania. Druga pułapka: COBIT 5 nie jest normą z certyfikacją jak ISO/IEC 27001, choć ocena zdolności opiera się na ISO/IEC 15504. **Rozstrzygnięcie:** 37 procesów to model odniesienia, a nie obowiązek; każda organizacja definiuje własny zbiór procesów, który pokrywa cele Ładu i Zarządzania."
+  },
+  "zagmatwania": [
+    {
+      "mit": "COBIT 5 dotyczy tylko działu IT.",
+      "prawda": "Obejmuje całą organizację (Zasada 2) i oddziela Ład od Zarządzania (Zasada 5)."
+    },
+    {
+      "mit": "COBIT 5 konkuruje z ITIL i ISO/IEC 27001, więc trzeba wybrać jedno.",
+      "prawda": "COBIT 5 jest integratorem (Zasada 3): łączy się z innymi standardami i dobrymi praktykami."
+    },
+    {
+      "mit": "COBIT 5 nakazuje dokładnie 37 procesów.",
+      "prawda": "To model referencyjny, a nie normatywny (s. 32). Organizacja może mieć mniej albo więcej procesów, byle pokrywały konieczne cele."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Traktowanie COBIT 5 jak normy z obowiązkowymi wymaganiami i jak narzędzia tylko dla informatyków.",
+    "jakTlumaczyc": "Mapa, a nie trasa: COBIT 5 pokazuje cały teren (zasady, aktywatory, procesy), a organizacja wyznacza na nim własną drogę. Zacznij od liczb 5–7–37, a potem dodaj, że to model do dopasowania.",
+    "pytanieKontrolne": "Mała OSP chce „wdrożyć COBIT 5”, ale ma trzy osoby do pracy biurowej. Czy musi uruchomić 37 procesów? Co jej powiesz?",
+    "odpowiedzKontrolna": "Nie. COBIT 5 nie jest normatywny, a 37 procesów to model referencyjny. Mniejsza organizacja może mieć mniej procesów, jeśli pokrywają konieczne cele Ładu i Zarządzania (s. 32). Plan dopasowuje się do jej kontekstu, czyli czynników środowiskowych."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cobit-2019",
+      "roznica": "Nowsza wersja (2018/2019) – inne pojęcia (komponenty, 40 celów, czynniki projektowe). Egzamin COBIT 5 Foundation dotyczy COBIT 5."
+    },
+    {
+      "termin": "itil",
+      "roznica": "ITIL to dobre praktyki zarządzania usługami IT – jak dostarczać usługi. COBIT patrzy szerzej: Ład i Zarządzanie całością IT w organizacji."
+    },
+    {
+      "termin": "iso-27001",
+      "roznica": "ISO/IEC 27001 to norma bezpieczeństwa informacji z certyfikacją; COBIT 5 to struktura ramowa Ładu i Zarządzania IT."
+    }
+  ],
+  "przykladWypowiedzi": "COBIT 5 to struktura ramowa (framework) ISACA do Ładu i Zarządzania IT w organizacji (governance and management of enterprise IT); opiera się na 5 zasadach, 7 kategoriach aktywatorów i 37 procesach.",
+  "egzamin": "Liczby do zapamiętania: 5 zasad, 7 aktywatorów, 37 procesów (EDM 5 + APO 13 + BAI 10 + DSS 6 + MEA 3), 6 poziomów zdolności (0–5).",
+  "powiazane": [
+    "struktura-ramowa",
+    "itil",
+    "iso-27001",
+    "cobit-2019"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 90,
+      "cytat": "Kompletna, powszechnie uznawana metodyka w zakresie nadzoru nad technologiami informatycznymi (IT)"
+    }
+  ]
+}

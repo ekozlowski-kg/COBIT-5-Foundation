@@ -1,0 +1,79 @@
+{
+  "id": "projekt",
+  "en": "Project",
+  "wymowa": "prodżekt",
+  "wymowaAkcent": "PRO-dżekt",
+  "plEgzamin": "Projekt",
+  "plPodrecznik": "Projekt",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Projekt",
+    "podrecznik": "Projekt",
+    "kurs": "Projekt (Project)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 5, 15, 20."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "proces"
+  ],
+  "poLudzku": "Jednorazowe przedsięwzięcie z początkiem i końcem, np. remont remizy.",
+  "wyobrazSobie": "Jak organizacja wesela: jest data, budżet i lista zadań, a po weselu przedsięwzięcie się kończy i zaczyna się codzienne wspólne życie.",
+  "poCo": "Żeby jednorazową zmianę, np. wdrożenie nowego systemu, przeprowadzić w ustalonym czasie, budżecie i zakresie, a jej efekt przekazać do codziennej pracy.",
+  "jakDziala": "Projekt (project) ma początek, koniec, cel, budżet i zespół. Tworzy rezultat (output), np. nowy system, który po zakończeniu przechodzi do procesów, czyli do codziennej pracy. Kilka powiązanych projektów tworzy program (programme), a w COBIT 5 programami i projektami zarządza proces BAI01 (Zarządzanie programami i projektami).",
+  "dlaczegoWazne": "Odróżnienie projektu od procesu pomaga w pytaniach o aktywator „Procesy” i o wdrożenie (pierścień „Zarządzanie programem”). Powielające się albo nieudane projekty to na egzaminie przykład punktu zapalnego.",
+  "poziom1": "Jednorazowe przedsięwzięcie, które ma początek, koniec i konkretny cel (np. remont łazienki, wdrożenie nowego systemu). Kiedy się kończy, to, co powstało, przechodzi do zwykłej codziennej pracy, czyli do procesów.",
+  "poziom2": "Projekt tworzy coś nowego lub zmienia stan rzeczy. Po zakończeniu przekazuje rezultat do „normalnej pracy”, czyli do procesów. Kilka powiązanych projektów tworzy **program** (pojęcie z modułu Wdrożenie).",
+  "poziom3": "COBIT 5 nie definiuje projektu w Załączniku H. Zarządzanie programami i projektami to proces BAI01; „Zarządzanie programem” to też zewnętrzny pierścień cyklu życia wdrożenia (rozdz. 7).",
+  "przyklady": {
+    "zycie": "Remontujecie łazienkę: budżet 20 tys. zł, ekipa wchodzi w marcu, w kwietniu odbieracie robotę i remont się kończy. Codzienne sprzątanie tej łazienki to już nie projekt, tylko proces. Projekt ma koniec, proces się powtarza.",
+    "biuro": "Biuro przeprowadza się na inne piętro: jest termin (koniec miesiąca), budżet na ekipę i lista zadań – spakować archiwum, przenieść drukarki, podłączyć telefony. Po przeprowadzce projekt się kończy, a zwykła praca toczy się dalej w nowych pokojach.",
+    "firma": "Piekarnia otwiera drugi punkt sprzedaży: trzeba wynająć lokal, kupić ladę, zatrudnić dwie osoby i ruszyć przed świętami. W dniu otwarcia projekt się kończy. Codzienna sprzedaż w nowym punkcie to już zwykła praca.",
+    "admin": "Starostwo buduje portal do zapisów na rejestrację pojazdów: jest harmonogram, budżet z dotacji i termin odbioru. Po uruchomieniu portalu projekt zostaje zamknięty. Codzienna obsługa zapisów przechodzi do wydziału komunikacji.",
+    "psp": "Komenda modernizuje stanowisko kierowania: przetarg, montaż nowych stanowisk dyżurnych, szkolenie zmian, odbiór techniczny w ustalonym terminie. Po odbiorze projekt się kończy. Dyżurni po prostu pracują na nowym sprzęcie w codziennym procesie obsługi zgłoszeń.",
+    "it": "Wdrożenie nowego systemu kadrowego to projekt prowadzony w procesie BAI01 (Zarządzanie programami i projektami). Po odbiorze system przechodzi do codziennej eksploatacji w DSS01 (Zarządzanie eksploatacją), a projekt zostaje zamknięty."
+  },
+  "glebokosc": {
+    "prosty": "Budowa domku na działce to projekt: jest plan, budżet, termin i dzień, w którym kończysz. Potem zaczyna się zwykłe życie w domku – koszenie trawy, sprzątanie, drobne naprawy – i to już nie jest projekt.",
+    "zaawansowany": "Wdrożenie Syreny to projekt: ma budżet policzony przez Halinę Mak, termin i umowę z firmą Kwant-Sygnał. Gdy system rusza, projekt się kończy, a jego [[rezultat]] przechodzi do codziennych [[proces|procesów]] wydziału Sikory. Komenda jednocześnie wymienia radiotelefony i serwerownię, więc powiązane projekty łączy w program. Sposób prowadzenia projektów opisuje proces BAI01 w domenie [[bai|BAI]].",
+    "skrajny": "Komendantka mówi: „Wdrożenie COBIT 5 to projekt na pół roku – potem mamy spokój”. Brzmi rozsądnie, bo jest plan i budżet. Framework pisze jednak, że cykl życia ciągłego doskonalenia nie jest projektem jednorazowym (s. 37). Zewnętrzny pierścień cyklu wdrożenia to **zarządzanie programem**, a po fazie 7 cykl wraca do początku. Pojedyncze inicjatywy w programie, np. przygotowanie polityki haseł, mogą być projektami z końcem. **Rozstrzygnięcie:** projekt ma koniec; wdrożenie Ładu to program w ciągłym cyklu doskonalenia, a nie jeden projekt (Załącznik H nie definiuje projektu – interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Gdy projekt dostarczy system, cel został osiągnięty.",
+      "prawda": "Projekt dostarcza rezultat. Korzyść pojawia się dopiero w codziennym użyciu, dlatego liczy się realizacja korzyści po zakończeniu projektu."
+    },
+    {
+      "mit": "Program to po prostu duży projekt.",
+      "prawda": "Program to kilka powiązanych projektów prowadzonych razem dla wspólnego celu. W COBIT 5 zarządzanie programem to zewnętrzny pierścień cyklu wdrożenia."
+    },
+    {
+      "mit": "Powielające się projekty to sprawa organizacyjna, a nie temat COBIT.",
+      "prawda": "Powielające się lub nakładające inicjatywy to punkt zapalny (s. 37), który może dać impuls do wdrożenia."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Traktowanie wdrożenia Ładu jak jednorazowego projektu i mylenie dostarczenia rezultatu z korzyścią.",
+    "jakTlumaczyc": "Oś czasu: projekt to odcinek z początkiem i końcem, proces to linia biegnąca dalej. Program to kilka odcinków ułożonych pod jeden cel, a cykl wdrożenia to pętla.",
+    "pytanieKontrolne": "Dlaczego wdrożenia COBIT 5 nie warto nazywać jednym projektem? Co się dzieje z wynikiem projektu po jego zakończeniu?",
+    "odpowiedzKontrolna": "Bo to cykl ciągłego doskonalenia z pierścieniem zarządzania programem – po fazie 7 wraca się do początku. Wynik projektu przechodzi do procesów, gdzie dopiero przynosi korzyść albo nie."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proces",
+      "roznica": "Proces się powtarza i trwa; projekt się kończy."
+    }
+  ],
+  "przykladWypowiedzi": "A project, czyli projekt, jest jednorazowy i kończy się dostarczeniem output (rezultatu), który przechodzi do process (procesu), czyli codziennej, powtarzalnej pracy; kilka projektów tworzy programme (program).",
+  "egzamin": "Na egzaminie częściej spotkasz „program” (Zarządzanie programem) niż „projekt”. Powielające się projekty to przykład **punktu zapalnego** (s. 37).",
+  "powiazane": [
+    "proces"
+  ],
+  "sylabus": [
+    "M0-00-05"
+  ],
+  "zrodla": []
+}

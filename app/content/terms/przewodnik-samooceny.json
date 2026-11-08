@@ -1,0 +1,101 @@
+{
+  "id": "przewodnik-samooceny",
+  "en": "COBIT Self-Assessment Guide",
+  "wymowa": "kołbit selfasesment gajd",
+  "wymowaAkcent": "KOŁ-bit self-a-SES-ment gajd",
+  "plEgzamin": "Przewodnik Samooceny",
+  "plPodrecznik": "Podręcznik samooceny",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Przewodnik Samooceny",
+    "podrecznik": "Podręcznik samooceny",
+    "kurs": "Przewodnik Samooceny (COBIT Self-Assessment Guide)",
+    "uwaga": "Egzamin PL: „Przewodnik Samooceny”; podręcznik PL: „Podręcznik samooceny” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Przewodnik Samooceny”. Według zestawienia różnic tłumaczenia (Altkom) wersja podręcznikowa to „Podręcznik samooceny”. Samoocena nie jest „tym samym co Przewodnik Asesora, tylko robionym wewnętrznie”.",
+  "skadNazwa": "Z angielskiego *Self-Assessment Guide*, czyli przewodnik do oceniania samego siebie. Polskie wersje różnią się słowem: „przewodnik” albo „podręcznik”.",
+  "kategoria": "egzaminacyjne",
+  "status": "uproszczenie",
+  "poziomP": "P2",
+  "wymaga": [
+    "przewodniki-oceny",
+    "pam"
+  ],
+  "poziom1": "Przewodnik do prostszej, mniej rygorystycznej oceny zdolności procesów, prowadzonej przez samą organizację. Nie wymaga zbierania dowodów. Pomaga zobaczyć luki, zaplanować usprawnienia i przygotować się do formalnej oceny. Opiera się na PAM.",
+  "poLudzku": "Prosta ankieta, którą wypełniasz sam, żeby zobaczyć, gdzie robota kuleje, bez zbierania papierów.",
+  "wyobrazSobie": "Próbny test w domu przed egzaminem: sam sprawdzasz odpowiedzi i wiesz, co powtórzyć.",
+  "poCo": "Żeby organizacja mogła szybko i tanio sama sprawdzić, gdzie są jej słabe procesy.",
+  "jakDziala": "Zespół organizacji przechodzi pytania z przewodnika i ocenia procesy z własnej wiedzy, bez zbierania dowodów. Wynik pokazuje luki i pomaga zaplanować usprawnienia. Może też przygotować do formalnej oceny.",
+  "dlaczegoWazne": "Na egzaminie pojawia się pytanie, do czego służy samoocena. Typowy błąd to uznanie jej za „tę samą ocenę, tylko wewnętrzną”.",
+  "poziom2": "| Do czego się nadaje | Do czego nie |\n|---|---|\n| szybkie rozpoznanie stanu „jak jest” | formalny wynik dla regulatora |\n| wybór procesów do poprawy | certyfikacja |\n| przygotowanie do oceny formalnej | zastąpienie Przewodnika Asesora |\n| śledzenie postępu wewnątrz organizacji | wynik oparty na dowodach |\n\nTo uproszczenie na podstawie sylabusa i opisów ISACA. Samego przewodnika nie ma w korpusie.",
+  "poziom3": "Sylabus PC-02-02. (s. 45): cele oceny mogą mieć *„charakter wewnętrzny”* i dotyczyć porównań oraz doskonalenia procesów z myślą o korzyściach wewnętrznych. Opis przewodnika według publicznych materiałów ISACA (uproszczenie).",
+  "przyklady": {
+    "zycie": "Przed wizytą u lekarza wypełniasz w domu ankietę: jak śpisz, ile się ruszasz. Nikt nie sprawdza odpowiedzi, ale już widzisz, o co zapytać lekarza. To samoocena.",
+    "biuro": "Kierowniczka biura i dwie asystentki w godzinę oceniają obieg dokumentów i rozliczanie delegacji. Nikt nie zbiera papierów. Wychodzi, że delegacje kuleją najbardziej.",
+    "organizacja": "Właścicielka małej firmy siada z zespołem i w godzinę ocenia trzy procesy według prostych pytań. Wychodzi, że najbardziej kuleją reklamacje. Wie, od czego zacząć poprawki.\n\nKierownicy wydziałów w starostwie wypełniają ankietę samooceny procesów IT. Wynik pokazuje braki w kopiach zapasowych. Starosta zleca poprawki, a za rok formalną ocenę.",
+    "psp": "**Przy stole w SK.** Zanim przyjedzie inspektorka Ostrowska, komendantka Wrzos chce znać słabe punkty. Audytorka Ewa Lis siada z Grabem, Nowik i Sikorą i w dwie godziny przechodzi Przewodnik Samooceny. Nikt nie zbiera logów ani grafików, wszyscy odpowiadają z własnej wiedzy. Wychodzi, że najsłabsze jest stosowanie procedury na nocnych zmianach.",
+    "it": "Dział IT urzędu przechodzi Przewodnik Samooceny dla DSS02, DSS04 i BAI06. Najgorzej wypada DSS04, więc od niego zaczyna poprawki. Za rok planuje formalną ocenę według Przewodnika Asesora."
+  },
+  "glebokosc": {
+    "prosty": "Przed maturą robisz w domu próbny arkusz i sam go sprawdzasz. Nikt nie pilnuje, ale widzisz, z czego jesteś słaby. Na prawdziwą maturę to nie wystarczy, ale pomaga się przygotować. To samoocena.",
+    "zaawansowany": "Wrzos chce szybko zobaczyć słabe punkty przed kontrolą. Ewa Lis wybiera Przewodnik Samooceny: zespół ocenia procesy z własnej wiedzy, bez dowodów. Wynik pokazuje luki i pomaga zaplanować poprawki, czyli realizuje jeden z [[cele-oceny|celów oceny]]. Później Lis zrobi ocenę formalną według [[przewodnik-asesora|Przewodnika Asesora]]. Oba przewodniki korzystają z [[pam|PAM]].",
+    "skrajny": "Samoocena dała procesowi powiadamiania „poziom 3”. Sikora chce wpisać to do raportu dla komendy wojewódzkiej. Lis ostrzega, że samoocena nie wymagała dowodów, więc wynik nie jest formalny. Ocena asesora może wyjść niżej, np. 2, bo dowody pokażą lukę w PA 2.2. To nie znaczy, że samoocena była zła. Spełniła swój cel: pokazała, gdzie szukać, i przygotowała do oceny formalnej. **Rozstrzygnięcie:** samoocena służy rozpoznaniu i przygotowaniu. Jej wynik nie jest wynikiem formalnym i nie zastępuje oceny według Przewodnika Asesora."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Samoocena to ocena asesora, tylko robiona przez własnych ludzi.",
+      "prawda": "To osobna, lżejsza metoda. Nie wymaga dowodów i nie daje wyniku formalnego."
+    },
+    {
+      "mit": "Samoocena jest bezwartościowa, bo nie ma dowodów.",
+      "prawda": "Ma swój cel: szybko pokazuje luki i przygotowuje do formalnej oceny."
+    },
+    {
+      "mit": "Samoocena nie korzysta z modelu PAM.",
+      "prawda": "Opiera się na PAM, tak samo jak Przewodnik Asesora."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myśli, że samoocena różni się od oceny asesora tylko tym, kto ją robi.",
+    "jakTlumaczyc": "Próbna matura w domu i prawdziwa matura: te same zadania (PAM), ale inny rygor i inne znaczenie wyniku.",
+    "pytanieKontrolne": "Do czego można użyć Przewodnika Samooceny przed formalną oceną?",
+    "odpowiedzKontrolna": "Do przygotowania się do formalnej oceny zdolności: do szybkiego rozpoznania luk i zaplanowania usprawnień, bez zbierania dowodów."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "przewodnik-asesora",
+      "roznica": "Przewodnik Asesora prowadzi formalną ocenę na dowodach. Samoocena jest lżejsza i nie wymaga dowodów."
+    },
+    {
+      "termin": "pam",
+      "roznica": "PAM to model, na którym opiera się samoocena. Sam Przewodnik Samooceny to uproszczony sposób oceniania."
+    }
+  ],
+  "przykladWypowiedzi": "The COBIT Self-Assessment Guide, czyli Przewodnik Samooceny, opisuje lżejszą ocenę bez wymogu dowodów. Pomaga przygotować się do oceny według Assessor Guide (Przewodnika Asesora).",
+  "egzamin": "**Przewodnik Samooceny** pomaga przygotować się do **formalnej oceny**. To **nie** to samo co Przewodnik Asesora, tylko lżejsza metoda bez dowodów.",
+  "powiazane": [
+    "przewodniki-oceny",
+    "pam",
+    "przewodnik-asesora",
+    "cele-oceny"
+  ],
+  "sylabus": [
+    "PC-02-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "SYL"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "Cele mogą mieć charakter wewnętrzny"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "przewodnik-samooceny"
+}

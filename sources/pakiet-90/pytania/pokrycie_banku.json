@@ -1,0 +1,429 @@
+{
+  "processes": [
+    {
+      "process_id": "EDM01",
+      "questions_where_correct": [
+        "T07Q07",
+        "T08Q10",
+        "T09Q01"
+      ],
+      "questions_where_option": [
+        "T07Q07",
+        "T08Q02",
+        "T08Q10",
+        "T09Q01",
+        "T09Q07",
+        "T09Q10"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "EDM02",
+      "questions_where_correct": [
+        "T08Q07"
+      ],
+      "questions_where_option": [
+        "T07Q07",
+        "T08Q02",
+        "T08Q07",
+        "T09Q05"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "EDM03",
+      "questions_where_correct": [],
+      "questions_where_option": [
+        "T07Q07",
+        "T08Q01",
+        "T08Q07"
+      ],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "EDM04",
+      "questions_where_correct": [
+        "T08Q02",
+        "T09Q07"
+      ],
+      "questions_where_option": [
+        "T07Q07",
+        "T08Q02",
+        "T08Q07",
+        "T08Q08",
+        "T08Q10",
+        "T09Q01",
+        "T09Q05",
+        "T09Q07"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "EDM05",
+      "questions_where_correct": [],
+      "questions_where_option": [
+        "T07Q09",
+        "T08Q02"
+      ],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "APO01",
+      "questions_where_correct": [
+        "T09Q10"
+      ],
+      "questions_where_option": [
+        "T08Q08",
+        "T09Q01",
+        "T09Q05",
+        "T09Q10"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "APO02",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "APO03",
+      "questions_where_correct": [],
+      "questions_where_option": [
+        "T07Q06",
+        "T08Q08",
+        "T09Q10"
+      ],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "APO04",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "APO05",
+      "questions_where_correct": [],
+      "questions_where_option": [
+        "T07Q10",
+        "T08Q07"
+      ],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "APO06",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "APO07",
+      "questions_where_correct": [
+        "T08Q08",
+        "T09Q05"
+      ],
+      "questions_where_option": [
+        "T08Q08",
+        "T09Q05",
+        "T09Q07"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "APO08",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "APO09",
+      "questions_where_correct": [],
+      "questions_where_option": [
+        "T07Q05",
+        "T08Q05",
+        "T08Q09",
+        "T09Q03",
+        "T09Q08"
+      ],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "APO10",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "APO11",
+      "questions_where_correct": [
+        "T08Q05",
+        "T09Q03"
+      ],
+      "questions_where_option": [
+        "T07Q08",
+        "T08Q03",
+        "T08Q05",
+        "T09Q03",
+        "T09Q08"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "APO12",
+      "questions_where_correct": [
+        "T07Q05"
+      ],
+      "questions_where_option": [
+        "T07Q05",
+        "T08Q01",
+        "T08Q10"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "APO13",
+      "questions_where_correct": [],
+      "questions_where_option": [
+        "T07Q09",
+        "T08Q01"
+      ],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "BAI01",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "BAI02",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "BAI03",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "BAI04",
+      "questions_where_correct": [
+        "T08Q09"
+      ],
+      "questions_where_option": [
+        "T07Q10",
+        "T08Q09"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "BAI05",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "BAI06",
+      "questions_where_correct": [
+        "T07Q06"
+      ],
+      "questions_where_option": [
+        "T07Q05",
+        "T07Q06",
+        "T08Q06",
+        "T09Q02",
+        "T09Q04",
+        "T09Q09"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "BAI07",
+      "questions_where_correct": [
+        "T08Q06",
+        "T09Q04"
+      ],
+      "questions_where_option": [
+        "T07Q08",
+        "T08Q06",
+        "T09Q04"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "BAI08",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "BAI09",
+      "questions_where_correct": [],
+      "questions_where_option": [
+        "T08Q06",
+        "T08Q09",
+        "T09Q04",
+        "T09Q07"
+      ],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "BAI10",
+      "questions_where_correct": [],
+      "questions_where_option": [
+        "T07Q09",
+        "T08Q03"
+      ],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "DSS01",
+      "questions_where_correct": [],
+      "questions_where_option": [
+        "T07Q10",
+        "T08Q05",
+        "T08Q06",
+        "T09Q03",
+        "T09Q04",
+        "T09Q09"
+      ],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "DSS02",
+      "questions_where_correct": [
+        "T07Q08",
+        "T09Q09"
+      ],
+      "questions_where_option": [
+        "T07Q06",
+        "T07Q08",
+        "T08Q03",
+        "T09Q02",
+        "T09Q09"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "DSS03",
+      "questions_where_correct": [
+        "T08Q03",
+        "T09Q02"
+      ],
+      "questions_where_option": [
+        "T07Q08",
+        "T08Q03",
+        "T09Q02",
+        "T09Q09"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "DSS04",
+      "questions_where_correct": [],
+      "questions_where_option": [
+        "T08Q09"
+      ],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "DSS05",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "DSS06",
+      "questions_where_correct": [],
+      "questions_where_option": [],
+      "needs_new_questions": true
+    },
+    {
+      "process_id": "MEA01",
+      "questions_where_correct": [
+        "T07Q10",
+        "T09Q08"
+      ],
+      "questions_where_option": [
+        "T07Q06",
+        "T07Q10",
+        "T08Q05",
+        "T09Q02",
+        "T09Q03",
+        "T09Q08"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "MEA02",
+      "questions_where_correct": [
+        "T08Q01"
+      ],
+      "questions_where_option": [
+        "T07Q05",
+        "T08Q01",
+        "T08Q10",
+        "T09Q01",
+        "T09Q08",
+        "T09Q10"
+      ],
+      "needs_new_questions": false
+    },
+    {
+      "process_id": "MEA03",
+      "questions_where_correct": [
+        "T07Q09"
+      ],
+      "questions_where_option": [
+        "T07Q09"
+      ],
+      "needs_new_questions": false
+    }
+  ],
+  "topic_counts": {
+    "governance_vs_management": 5,
+    "value_creation": 3,
+    "enterprise_end_to_end": 3,
+    "goals_cascade": 6,
+    "integrated_vs_holistic": 6,
+    "risk_optimisation": 2,
+    "enabler_dependencies": 5,
+    "resource_optimisation": 2,
+    "edm_monitor": 2,
+    "stakeholder_needs": 1,
+    "edm_evaluate_direct": 3,
+    "enabler_structures": 1,
+    "enabler_culture": 1,
+    "operational_monitoring": 2,
+    "enabler_people": 1,
+    "enabler_information": 1,
+    "enabler_processes": 2,
+    "dimension_stakeholders": 2,
+    "quality_contextual": 3,
+    "dimension_lifecycle": 5,
+    "dimension_goals": 1,
+    "dimension_practices": 1,
+    "policy_vs_process": 1,
+    "quality_security": 1,
+    "domain_apo": 1,
+    "domain_bai": 2,
+    "process_model_counts": 1,
+    "domain_mea": 1,
+    "domain_dss": 1,
+    "risk_vs_control": 2,
+    "change_vs_transition": 3,
+    "governance_framework": 3,
+    "incident_vs_problem": 4,
+    "external_compliance": 1,
+    "quality_vs_performance": 4,
+    "resource_governance": 2,
+    "benefits_vs_portfolio": 1,
+    "human_resources_vs_governance": 2,
+    "availability_vs_continuity": 1,
+    "governance_vs_management_framework": 1
+  },
+  "warning": "Wystąpienie procesu w błędnej opcji nie oznacza jego pełnego przećwiczenia. Podobne scenariusze między testami są oznaczone concept_group."
+}

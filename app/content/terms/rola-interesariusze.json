@@ -1,0 +1,103 @@
+{
+  "id": "rola-interesariusze",
+  "en": "Owners and stakeholders",
+  "wymowa": "ołners end stejkhołders",
+  "wymowaAkcent": "OŁ-ners end STEJK-hoł-ders",
+  "plEgzamin": "Interesariusze (właściciele) – delegują",
+  "plPodrecznik": "Właściciele oraz interesariusze",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Interesariusze (właściciele) – delegują",
+    "podrecznik": "Właściciele oraz interesariusze",
+    "kurs": "Interesariusze (właściciele) – delegują – Owners and stakeholders",
+    "uwaga": "Egzamin PL: „Interesariusze (właściciele) – delegują”; podręcznik PL: „Właściciele oraz interesariusze” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL, zestawienie Altkom. Forma podręcznika: FW-PL s. 24."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin skraca tę rolę do „Interesariusze”. Podręcznik na Ilustracji 9 pisze „Właściciele oraz interesariusze”. To ta sama rola.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "interesariusz",
+    "role-dzialania-relacje"
+  ],
+  "poLudzku": "Ci, w czyim imieniu działa organizacja, np. właściciele czy mieszkańcy; to oni powierzają władzę szefostwu.",
+  "skadNazwa": "*Owners and stakeholders*. W polskim podręczniku: „Właściciele oraz interesariusze”. Egzamin mówi krótko „Interesariusze”.",
+  "wyobrazSobie": "Właściciel jachtu oddaje go kapitanowi i po rejsie pyta, jak było; sam nie steruje.",
+  "poCo": "Żeby było jasne, skąd organ Ładu ma władzę i przed kim się rozlicza.",
+  "jakDziala": "Właściciele i interesariusze powierzają, czyli delegują, sprawowanie Ładu organowi Ładu. Organ wyznacza kierunek kierownictwu. Na końcu organ jest rozliczany przed interesariuszami z efektów.",
+  "dlaczegoWazne": "Pytania o Ilustrację 9 sprawdzają, czy znasz działanie każdej roli. Interesariusze robią tylko jedno: delegują.",
+  "poziom1": "Pierwsza rola z Ilustracji 9. Interesariusze **delegują**, czyli powierzają sprawowanie Ładu organowi Ładu. Organ jest przed nimi **rozliczany**. Sami nie wyznaczają kierunku kierownictwu ani nie wykonują pracy.",
+  "poziom2": "| Kierunek | Relacja z Ilustracji 9 |\n|---|---|\n| interesariusze → organ Ładu | **delegowanie** |\n| organ Ładu → interesariusze | **strona rozliczana** (organ odpowiada przed nimi) |\n\nNa Ilustracji 9 interesariusze stoją na początku łańcucha: od nich pochodzi mandat. Ta sama osoba bywa też interesariuszem jednego aktywatora ([[wymiar-interesariusze]]), ale to inne spojrzenie.",
+  "poziom3": "Ilustracja 9 (s. 24): *Właściciele oraz interesariusze* → *Delegowanie* → *Organ nadzorujący*. W drugą stronę biegnie relacja *Strona rozliczana*. Uzasadnienia egzaminacyjne: interesariusze **delegują**.",
+  "przyklady": {
+    "zycie": "Mieszkańcy bloku na zebraniu wspólnoty wybierają zarząd i powierzają mu dbanie o budynek. Sami nie zlecają prac firmom. Za rok rozliczają zarząd z budżetu. Mieszkańcy pełnią tu rolę „interesariusze”: delegują i rozliczają.",
+    "biuro": "Wspólnicy kancelarii powierzają kierowanie nią partnerowi zarządzającemu. Nie mówią sekretariatowi, jak układać kalendarz. Raz w roku rozliczają partnera z wyników.",
+    "organizacja": "Wspólnicy spółki piekarniczej na zgromadzeniu wybierają radę nadzorczą. Nie mówią kierownikom sklepów, co mają robić. Raz w roku słuchają sprawozdania rady i oceniają jej pracę. To rola interesariuszy z Ilustracji 9.\n\nMieszkańcy gminy w wyborach powierzają władzę radzie i wójtowi. Nie piszą zarządzeń ani nie wdrażają systemów. Przy kolejnych wyborach rozliczają władzę z efektów. To rola interesariuszy: delegowanie.",
+    "psp": "**Od kogo komendantka ma mandat?** Komendantka Anna Wrzos kieruje komendą, bo powierzono jej to w imieniu mieszkańców. Pani Zofia Kaczmarek z Lipowej 7 nie wydaje poleceń, ale to dla niej komenda działa. Z gotowości komendy Wrzos rozlicza się przed komendą wojewódzką (KW). W relacjach z Ilustracji 9 mieszkańcy i nadzór to rola interesariuszy: delegują i rozliczają.",
+    "it": "Proces EDM05 (Zapewnienie przejrzystości dotyczącej interesariuszy) wspiera relację „strona rozliczana”: organ Ładu rzetelnie informuje interesariuszy o wynikach IT (interpretacja kursu)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "interesariusz",
+      "roznica": "Interesariusz to szerokie pojęcie z Zasady 1: każdy, kogo dotyczy organizacja. Rola z Ilustracji 9 to konkretne ogniwo: ten, kto deleguje i rozlicza organ Ładu."
+    },
+    {
+      "termin": "wymiar-interesariusze",
+      "roznica": "Wymiar aktywatora pyta, kto ma rolę lub interes w danym aktywatorze, np. w procesie. Rola z Ilustracji 9 dotyczy całego systemu Ładu."
+    },
+    {
+      "termin": "organ-ladu",
+      "roznica": "Organ Ładu wyznacza kierunek. Interesariusze tylko delegują i rozliczają; kierunku kierownictwu nie wyznaczają."
+    }
+  ],
+  "przykladWypowiedzi": "Owners and stakeholders, czyli interesariusze, delegate, czyli delegują, władzę do governing body, czyli organu Ładu, który jest przed nimi accountable, czyli rozliczany.",
+  "egzamin": "„Kto **deleguje**?” → interesariusze (właściciele). „Kto jest **rozliczany** przed interesariuszami?” → organ Ładu i nadzoru. Interesariusze nie instruują i nie monitorują kierownictwa.",
+  "powiazane": [
+    "role-dzialania-relacje",
+    "interesariusz",
+    "organ-ladu",
+    "rola-kierownictwo"
+  ],
+  "sylabus": [
+    "PR-02-09"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 24,
+      "ilustracja": "9",
+      "cytat": "Ilustracja 9 — Kluczowe role, działania i relacje"
+    },
+    {
+      "doc": "SP1"
+    }
+  ],
+  "mapa": "rola-interesariusze",
+  "glebokosc": {
+    "prosty": "Właściciel mieszkania wynajmuje je przez agencję. Mówi agencji: „dbajcie o mieszkanie i o czynsz”. Sam nie naprawia kranu i nie szuka hydraulika. Raz w roku rozlicza agencję z wyników.",
+    "zaawansowany": "Mieszkańcy Modrzewiowa nie znają systemu Syrena, ale to w ich imieniu działa komenda. Ich mandat trafia do komendantki Wrzos, czyli [[organ-ladu|organu Ładu]]. Wrzos odpowiada przed nimi, a w praktyce przed komendą wojewódzką. Interesariusze nie mówią Sikorze, jaki serwer kupić. To robi [[rola-kierownictwo|kierownictwo]] na podstawie kierunku od Wrzos.",
+    "skrajny": "Pani Kaczmarek z Lipowej pojawia się w COBIT 5 jako interesariusz w trzech miejscach naraz. W Zasadzie 1 jej potrzeba (szybka pomoc) uruchamia [[kaskada-celow|kaskadę celów]]. W wymiarze aktywatora jest interesariuszem zewnętrznym Syreny, choć nigdy jej nie dotknęła. Na Ilustracji 9 należy do „właścicieli oraz interesariuszy”, którzy delegują władzę. Kto słyszy „interesariusz”, odruchowo myśli o pierwszym znaczeniu. Pytanie o Ilustrację 9 pyta jednak o działanie, czyli delegowanie. **Rozstrzygnięcie:** w pytaniu o role, działania i relacje interesariusze robią jedno: delegują, a organ Ładu jest przed nimi rozliczany."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Interesariusze na Ilustracji 9 wyznaczają kierunek.",
+      "prawda": "Kierunek wyznacza organ Ładu. Interesariusze delegują."
+    },
+    {
+      "mit": "Organ Ładu rozlicza interesariuszy.",
+      "prawda": "Odwrotnie: organ Ładu jest stroną rozliczaną przed interesariuszami."
+    },
+    {
+      "mit": "Interesariuszem w tej roli jest tylko właściciel z udziałami.",
+      "prawda": "Podręcznik pisze „właściciele oraz interesariusze”; w urzędzie czy PSP to np. mieszkańcy."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Odwracanie strzałek: „organ Ładu deleguje do interesariuszy”.",
+    "jakTlumaczyc": "Opowiedz historię mandatu. Mieszkańcy dają władzę (delegowanie), a władza wraca do nich z rachunkiem (rozliczanie). Strzałka w dół to zaufanie, w górę to odpowiedzialność.",
+    "pytanieKontrolne": "Mieszkańcy żądają na sesji rady, by informatyk urzędu kupił konkretny program. Czy to działanie roli interesariuszy z Ilustracji 9?",
+    "odpowiedzKontrolna": "Nie. Rola interesariuszy to **delegowanie** i rozliczanie organu Ładu. Wskazywanie, co kupić, to wyznaczanie kierunku (organ Ładu) albo instruowanie (kierownictwo)."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "it-bezpieczenstwo-informacji",
+  "en": "Information security",
+  "wymowa": "informejszyn sekjuriti",
+  "wymowaAkcent": "in-for-MEJ-szyn se-KJU-ri-ti",
+  "plEgzamin": "Bezpieczeństwo informacji",
+  "plPodrecznik": "bezpieczeństwo informacji",
+  "plInne": [
+    "ochrona informacji"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "bezpieczeństwo informacji (FW-PL s. 11, 19)",
+    "kurs": "Bezpieczeństwo informacji (Information security)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Forma z FW-PL i forma kursu są takie same."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-informacja",
+    "it-uwierzytelnianie",
+    "it-autoryzacja"
+  ],
+  "poLudzku": "Ochrona informacji przed podejrzeniem przez obcych, zepsuciem i utratą.",
+  "poziom1": "Bezpieczeństwo informacji to dbanie o trzy rzeczy: żeby informację widzieli tylko uprawnieni (**poufność**), żeby była prawdziwa i niezmieniona bez zgody (**integralność**) i żeby była dostępna wtedy, gdy jest potrzebna (**dostępność**).",
+  "poziom2": "Te trzy cechy po angielsku to confidentiality, integrity, availability. Narzędzia bezpieczeństwa to m.in.: hasła i drugi dowód przy logowaniu (uwierzytelnianie), uprawnienia (autoryzacja), kopie zapasowe, aktualizacje programów, szkolenia ludzi. Najsłabszym ogniwem często jest człowiek: hasło na karteczce, kliknięcie w podejrzany link.",
+  "poziom3": "W COBIT 5 bezpieczeństwo informacji to m.in. cel związany z IT nr 10: *„Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji”* (FW-PL s. 19) oraz procesy APO13 Zarządzanie bezpieczeństwem i DSS05 Zarządzanie usługami bezpieczeństwa (s. 33). ISACA wydała osobny przewodnik „COBIT 5 – Bezpieczeństwo informacji” (s. 11).",
+  "wyobrazSobie": "Sejf w domu: zamknięty (poufność), z nienaruszoną zawartością (integralność), a Ty znasz szyfr, gdy potrzebujesz pieniędzy (dostępność).",
+  "poCo": "Żeby informacje organizacji i ludzi nie trafiły w niepowołane ręce, nie zostały zmienione i nie zginęły.",
+  "jakDziala": "Organizacja ustala, jakie informacje są cenne. Wprowadza zabezpieczenia: konta i hasła, uprawnienia, kopie, aktualizacje, szkolenia. Sprawdza, czy działają, i reaguje na incydenty bezpieczeństwa.",
+  "dlaczegoWazne": "Wycieki danych i włamania to dziś codzienność. COBIT 5 ma dla bezpieczeństwa własne procesy i cel związany z IT.",
+  "przyklady": {
+    "zycie": "Ustawiasz w telefonie kod blokady i nie podajesz nikomu kodu z SMS-a od banku. To Twoje bezpieczeństwo informacji.",
+    "biuro": "Dokumenty z danymi osobowymi leżą w zamykanej szafie i w folderze z ograniczonym dostępem.",
+    "organizacja": "Przychodnia szkoli pracowników, jak rozpoznać fałszywego maila, i wymaga dwóch dowodów przy logowaniu do kart pacjentów.",
+    "psp": "Komenda chroni adresy zgłaszających i numery ochotników w „Syrenie”: tylko dyżurni je widzą, a każda zmiana jest zapisywana.",
+    "it": "Cel związany z IT nr 10 i procesy APO13 Zarządzanie bezpieczeństwem oraz DSS05 Zarządzanie usługami bezpieczeństwa (FW-PL s. 19, 33)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-ryzyko-it",
+      "roznica": "Ryzyko IT to możliwość, że coś pójdzie źle. Bezpieczeństwo informacji to działania, które to ryzyko zmniejszają."
+    },
+    {
+      "termin": "dostep-i-bezpieczenstwo",
+      "roznica": "„Dostęp i Bezpieczeństwo” w COBIT 5 to jedna z kategorii jakości (celów aktywatora). To hasło opisuje szeroko ochronę informacji."
+    }
+  ],
+  "przykladWypowiedzi": "Information security, czyli bezpieczeństwo informacji, chroni confidentiality, integrity and availability, czyli poufność, integralność i dostępność.",
+  "egzamin": "Cel związany z IT nr 10 (FW-PL s. 19); procesy APO13 Zarządzanie bezpieczeństwem (Manage Security) i DSS05 Zarządzanie usługami bezpieczeństwa (Manage Security Services).",
+  "powiazane": [
+    "it-dostepnosc",
+    "it-ryzyko-it",
+    "it-uwierzytelnianie",
+    "it-autoryzacja",
+    "proc-apo13",
+    "proc-dss05"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 19,
+      "cytat": "Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO13 Zarządzanie bezpieczeństwem"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "DSS05 Zarządzanie usługami bezpieczeństwa"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Pamiętnik nastolatki: zamyka go na kłódkę (poufność), nikt nie może wyrwać kartek ani dopisać zdań (integralność), a ona sama zawsze ma kluczyk (dostępność). Te trzy rzeczy razem to bezpieczeństwo informacji.",
+    "zaawansowany": "Ola Dudek ocenia „Syrenę”. Poufność: czy numery ochotników widzą tylko dyżurni? Integralność: czy nikt nie może po cichu zmienić numeru Pietrzaka? [[it-dostepnosc|Dostępność]]: czy lista działa w nocy? Ola odkrywa, że wszyscy mogą zmieniać numery – to słabość integralności, którą naprawia [[it-autoryzacja|uprawnieniami]].",
+    "skrajny": "Czy usługa, która działa, ale pokazuje dane obcym osobom, jest bezpieczna? Nie – zawodzi poufność. Czy system zamknięty tak szczelnie, że dyżurny nie może go użyć w nocy, jest bezpieczny? Też nie – zawodzi dostępność. Czy bezpieczeństwo to tylko sprawa techniki? Nie: karteczka z hasłem na monitorze to luka w ludziach. **Rozstrzygnięcie:** bezpieczeństwo informacji to równowaga poufności, integralności i dostępności, osiągana techniką, procedurami i zachowaniem ludzi."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Bezpieczeństwo to jak najwięcej zamków i haseł.",
+      "prawda": "Za mocne zamknięcie psuje dostępność. Chodzi o równowagę trzech cech."
+    },
+    {
+      "mit": "Bezpieczeństwo informacji to sprawa tylko informatyków.",
+      "prawda": "Każdy pracownik może je złamać, np. podając hasło albo klikając fałszywy link."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Sprowadzanie bezpieczeństwa do poufności („żeby nikt nie podejrzał”).",
+    "jakTlumaczyc": "Pamiętnik z kłódką: zamknięty, nienaruszony, dostępny dla właścicielki.",
+    "pytanieKontrolne": "Ktoś zmienił numer w „Syrenie” bez zgody. Która cecha bezpieczeństwa zawiodła?",
+    "odpowiedzKontrolna": "Integralność – informacja została zmieniona bez uprawnienia."
+  }
+}

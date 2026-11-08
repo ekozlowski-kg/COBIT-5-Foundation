@@ -1,0 +1,91 @@
+{
+  "id": "apo",
+  "en": "Align, Plan and Organise (APO)",
+  "wymowa": "alajn plen end organajz",
+  "wymowaAkcent": "a-LAJN plen end OR-ga-najz",
+  "plEgzamin": "Dostosuj, Planuj i Organizuj (APO)",
+  "plPodrecznik": "Dopasowanie, planowanie i organizacja (APO)",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Dostosuj, Planuj i Organizuj (APO)",
+    "podrecznik": "Dopasowanie, planowanie i organizacja (APO)",
+    "kurs": "Dostosuj, Planuj i Organizuj (APO) – Align, Plan and Organise",
+    "uwaga": "Egzamin PL: „Dostosuj, Planuj i Organizuj (APO)”; podręcznik PL: „Dopasowanie, planowanie i organizacja (APO)” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 32, 33, 52; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Dostosuj, Planuj i Organizuj (APO)”. Podręcznik: „Dopasowanie, planowanie i organizacja (APO)”. Nazwy procesów na egzaminie mogą brzmieć inaczej niż w podręczniku. Rozpoznawaj je po kodzie i angielskim słowie kluczowym.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "pbrm",
+    "proces"
+  ],
+  "poLudzku": "Szuflada zadań „planowanie”: ustalić, w co inwestujemy, jak się organizujemy i czego nam trzeba.",
+  "wyobrazSobie": "Kierownik budowy, zanim ktokolwiek wbije łopatę: rozpisuje harmonogram, liczy kosztorys i podpisuje umowy z podwykonawcami według projektu inwestora.",
+  "poCo": "Żeby działania IT były zaplanowane, zorganizowane i dopasowane do kierunku wyznaczonego przez Ład, zanim cokolwiek się zbuduje lub uruchomi.",
+  "jakDziala": "APO to pierwsza z czterech domen Zarządzania i odpowiada obszarowi Planuj w cyklu Planuj, Twórz, Wykonuj, Monitoruj (Plan, Build, Run, Monitor). Ma 13 procesów, od APO01 Zarządzanie metodyką zarządzania IT do APO13 Zarządzanie bezpieczeństwem. Obejmuje strategię, architekturę, innowacje, portfel, budżet, ludzi, relacje, umowy, dostawców, jakość, ryzyko i bezpieczeństwo.",
+  "dlaczegoWazne": "Na egzaminie trzeba przypisać proces do domeny i odróżnić procesy APO od podobnych procesów EDM (np. APO12 od EDM03) i DSS (np. APO13 od DSS05). To praktyczne zastosowanie zasady 5: Oddzielenie Ładu od Zarządzania.",
+  "skadNazwa": "Skrót od angielskiego *Align, Plan and Organise*. Podręcznik używa rzeczowników („Dopasowanie, planowanie…”), a egzamin czasowników w trybie rozkazującym („Dostosuj, Planuj i Organizuj”).",
+  "poziom1": "Domena Zarządzania od planowania IT: dokąd idziemy, za ile, z kim i z jakim ryzykiem (np. strategia IT, budżet, ludzie, umowy z dostawcami, bezpieczeństwo). Ma 13 procesów.",
+  "poziom2": "| Kod | Podręcznik PL | EN |\n|---|---|---|\n| APO01 | Zarządzanie metodyką zarządzania IT | Manage the IT Management Framework |\n| APO02 | Zarządzanie strategią | Manage Strategy |\n| APO03 | Zarządzanie architekturą korporacyjną | Manage Enterprise Architecture |\n| APO04 | Zarządzanie innowacjami | Manage Innovation |\n| APO05 | Zarządzanie portfelem projektów | Manage Portfolio |\n| APO06 | Zarządzanie budżetem i kosztami | Manage Budget and Costs |\n| APO07 | Zarządzanie zasobami ludzkimi | Manage Human Resources |\n| APO08 | Zarządzanie relacjami | Manage Relationships |\n| APO09 | Zarządzanie umowami o świadczenie usług | Manage Service Agreements |\n| APO10 | Zarządzanie dostawcami | Manage Suppliers |\n| APO11 | Zarządzanie jakością | Manage Quality |\n| APO12 | Zarządzanie ryzykiem | Manage Risk |\n| APO13 | Zarządzanie bezpieczeństwem | Manage Security |",
+  "poziom3": "Ilustracja 16 (s. 33) – model referencyjny procesu COBIT 5. Szczegóły w przewodniku *COBIT 5: Procesy umożliwiające*.",
+  "przyklady": {
+    "zycie": "W styczniu siadacie z partnerem i planujecie rok: ile odłożyć na wakacje, czy wymieniać auto, kto przejmuje opłaty, a kto szuka tańszego internetu. Zanim cokolwiek kupicie, wiecie, po co i za ile. To jest APO: planowanie i organizacja, zanim coś się zbuduje albo uruchomi.",
+    "biuro": "Przed nowym rokiem kierowniczka biura ustala budżet na papier i tonery, wybiera firmę serwisującą drukarki, podpisuje z nią umowę i planuje, kogo trzeba przeszkolić z nowego programu. Nic jeszcze nie jest kupowane ani instalowane: to planowanie i organizowanie, czyli obszar APO.",
+    "firma": "Właściciel sklepu internetowego postanawia, że w tym roku zacznie sprzedawać do Czech. Liczy budżet na nową wersję sklepu, wybiera firmę kurierską, sprawdza, kto w zespole zna czeski, i zastanawia się, co będzie, jeśli padnie bramka płatności. Strategia, budżet, ludzie, dostawcy i ryzyko to właśnie obszar APO.",
+    "admin": "Sekretarz starostwa przygotowuje plan cyfryzacji na trzy lata. Ustala, które e-usługi idą najpierw, ile pieniędzy zaplanować w budżecie, z kim podpisać umowę serwisową i jak chronić dane mieszkańców. To planowanie i organizowanie IT – domena APO.",
+    "psp": "Komendant powiatowy z informatykiem planują przyszły rok: wymiana radiotelefonów, nowe stanowisko w SK, budżet na licencje, umowa z serwisem łączności i analiza, co się stanie, gdy padnie łącze do KW PSP. Nic jeszcze nie jest kupowane ani wdrażane – to etap planu i organizacji, czyli APO.",
+    "it": "APO06 Zarządzanie budżetem i kosztami: kpt. Sikora układa budżet IT komendy na rok, przypisuje koszty do usług (np. utrzymanie Syreny) i co kwartał porównuje plan z wykonaniem. Decyzja, ile w ogóle przeznaczyć na IT i na co postawić, należy do Ładu (EDM04 Zapewnienie optymalizacji zasobów)."
+  },
+  "glebokosc": {
+    "prosty": "Ktoś w rodzinie musi zaplanować wakacje: dokąd jedziemy, za ile, kto rezerwuje i co zrobimy, gdy pociąg się spóźni. To jeszcze nie jest jazda ani pakowanie. To praca przy stole z kalendarzem.",
+    "zaawansowany": "Kpt. Sikora układa strategię IT komendy (APO02) i z Haliną Mak budżet na Syrenę (APO06). Ustala z dyżurnymi poziom usług (APO09) i zasady współpracy z Kwant-Sygnałem (APO10). Ryzyko awarii powiadamiania wpisuje do rejestru ryzyk (APO12). To wszystko [[zarzadzanie|Zarządzanie]], domena „Planuj” z [[pbrm]]. Komendantka Wrzos tych procesów nie prowadzi: w EDM wskazuje kierunek i sprawdza, czy jest realizowany.",
+    "skrajny": "APO12 „Zarządzanie ryzykiem” i EDM03 „Zapewnienie optymalizacji ryzyka” brzmią prawie tak samo. APO12 to praca kierownictwa: rozpoznaje i analizuje ryzyka oraz prowadzi ich rejestr. EDM03 to Ład: organ Ładu dba, żeby apetyt na ryzyko był określony, i sprawdza, czy ryzyko mieści się w granicach. Podobna para to APO13 (zarządzanie bezpieczeństwem jako system) i DSS05 (codzienne usługi bezpieczeństwa). FW-PL (s. 33) wyjaśnia, że proces trafia do domeny według głównego obszaru działania, choć sam też planuje i monitoruje. **Rozstrzygnięcie:** wyznaczanie kierunku i granic → EDM, planowanie i organizowanie → APO, codzienna obsługa → DSS; słowo „ryzyko” czy „bezpieczeństwo” w nazwie nie przesądza domeny."
+  },
+  "zagmatwania": [
+    {
+      "mit": "APO to domena Ładu, bo tam powstaje strategia.",
+      "prawda": "APO należy do Zarządzania (PBRM). Strategię IT opracowuje kierownictwo (APO02), a organ Ładu ją ocenia i ukierunkowuje w EDM."
+    },
+    {
+      "mit": "APO05 „Zarządzanie portfelem” i BAI01 „Zarządzanie programami i projektami” to to samo.",
+      "prawda": "APO05 wybiera i równoważy, w co inwestować (portfel). BAI01 prowadzi wybrane programy i projekty do końca."
+    },
+    {
+      "mit": "„Dostosuj, Planuj i Organizuj” i „Dopasowanie, planowanie i organizacja” to różne domeny.",
+      "prawda": "To ta sama domena APO (*Align, Plan and Organise*): egzamin i podręcznik tłumaczą ją inaczej. Rozpoznawaj ją po kodzie i angielskich słowach."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Wrzucanie do EDM wszystkiego, co brzmi „strategicznie”, np. strategii IT albo zarządzania ryzykiem.",
+    "jakTlumaczyc": "Budowa domu: inwestor (Ład) mówi, jaki dom chce i ile wyda. Kierownik budowy (APO) rysuje harmonogram, liczy budżet i podpisuje umowy z podwykonawcami. Potem ekipa buduje (BAI), a mieszkańcy żyją w domu (DSS).",
+    "pytanieKontrolne": "Dlaczego COBIT 5 ma dwa procesy o ryzyku, EDM03 i APO12? Co robi każdy z nich?",
+    "odpowiedzKontrolna": "EDM03 należy do Ładu: organ Ładu dba o określenie apetytu na ryzyko, kieruje i sprawdza, czy ryzyko mieści się w granicach. APO12 należy do Zarządzania: kierownictwo na co dzień rozpoznaje i analizuje ryzyka oraz prowadzi ich rejestr. Ten sam temat, różne role (Zasada 5)."
+  },
+  "nieMylicZ": [],
+  "przykladWypowiedzi": "APO, czyli Align, Plan and Organise – Dostosuj, Planuj i Organizuj – to domena Zarządzania, która planuje i organizuje IT w zgodzie z kierunkiem z EDM; na przykład APO12 Manage Risk, czyli Zarządzanie ryzykiem, prowadzi codzienne zarządzanie ryzykiem IT.",
+  "egzamin": "Kategorie umiejętności **zarządzanie portfelami projektów** i **architektura korporacyjna** należą do domeny **APO** (Ilustracja 39).",
+  "powiazane": [
+    "prm",
+    "pbrm",
+    "zarzadzanie"
+  ],
+  "sylabus": [
+    "PR-01-04",
+    "EN-02-23"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "domena-apo"
+}

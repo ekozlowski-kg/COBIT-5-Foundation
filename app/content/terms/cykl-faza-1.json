@@ -1,0 +1,104 @@
+{
+  "id": "cykl-faza-1",
+  "en": "Plan (enabler life-cycle phase 1)",
+  "wymowa": "plen",
+  "wymowaAkcent": "plen",
+  "plEgzamin": "Planowanie",
+  "plPodrecznik": "Planowanie (obejmuje opracowanie oraz wybór koncepcji)",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Planowanie",
+    "podrecznik": "Planowanie (obejmuje opracowanie oraz wybór koncepcji)",
+    "kurs": "Planowanie (Plan)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 28, 29, 65 (il. 13 i tekst)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Planowanie” aktywatora to nie domena APO („Dostosuj, Planuj i Organizuj”) ani „Planuj” z PBRM, ani faza 4 wdrożenia (Planowanie programu). Egzaminacyjnej nazwy PL faz cyklu życia aktywatora nie potwierdziliśmy (brak w SP1 i w zestawieniu Altkom). Używamy nazwy z FW-PL (s. 29, il. 13).",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "wymiar-cykl-zycia",
+    "cykl-zycia-aktywatora"
+  ],
+  "poLudzku": "Pierwszy krok w życiu rzeczy: wymyślasz kilka pomysłów i wybierasz ten, który zrobisz.",
+  "skadNazwa": "*Plan*. Słowo „planowanie” pada w COBIT 5 wiele razy: w APO, w PBRM i w fazie 4 wdrożenia. Tu chodzi o pierwszą fazę życia jednego aktywatora.",
+  "wyobrazSobie": "Przeglądanie katalogu domów przed wyborem jednego projektu.",
+  "poCo": "Żeby aktywator powstał z przemyślanego wyboru, a nie z przypadku.",
+  "jakDziala": "Opracowujesz kilka koncepcji aktywatora. Porównujesz je z celem, np. z korzyścią, ryzykiem i kosztem. Wybierasz jedną i dopiero wtedy przechodzisz do projektowania.",
+  "dlaczegoWazne": "Pominięte planowanie to częsta przyczyna porażek, jak przy zakupie pierwszej Syreny. Egzamin może pytać, w której fazie wybiera się koncepcję.",
+  "poziom1": "Pierwsza z 6 faz cyklu życia aktywatora. Obejmuje opracowanie koncepcji i wybór jednej z nich. Tu decydujesz, czy i jaki aktywator ma powstać, np. jaka procedura albo jaki system.",
+  "poziom2": "| Faza | Co się dzieje |\n|---|---|\n| **1. Planowanie** | opracowanie koncepcji i **wybór** koncepcji |\n| 2. Projektowanie | szczegółowy projekt wybranej koncepcji |\n\nPlanowanie kończy się decyzją, którą koncepcję realizujesz. Szczegóły to już [[cykl-faza-2|projektowanie]].",
+  "poziom3": "(s. 29): *„Planowanie (obejmuje opracowanie oraz wybór koncepcji)”*. Ilustracja 13 (s. 28) wymienia fazę jako „Planowanie”.",
+  "przyklady": {
+    "zycie": "Rodzina chce psa. Najpierw rozważacie: duży czy mały, ze schroniska czy z hodowli, kto będzie go wyprowadzał. Wybieracie małego psa ze schroniska. To faza planowania: pomysły i wybór.",
+    "biuro": "Biuro chce nowego sposobu zamawiania materiałów. Kierowniczka rozważa formularz papierowy, arkusz w sieci albo zamówienia prosto w hurtowni. Wybiera arkusz w sieci.",
+    "organizacja": "Właściciel sklepu chce przyjmować płatności BLIK. Porównuje trzy rozwiązania: terminal, bramkę płatności w sklepie internetowym, aplikację. Wybiera bramkę. To faza planowania aktywatora.\n\nUrząd chce skrócić kolejki. Kierownik rozważa system numerków, zapisy przez internet albo dodatkowe okienko. Wybiera zapisy przez internet. Ten wybór koncepcji to faza planowania.",
+    "psp": "**Najtańsza oferta** Przy zakupie pierwszej Syreny księgowa Halina Mak dostała polecenie: wybrać najtańszą ofertę. Nikt nie porównał koncepcji: SMS, aplikacja czy syrena, i co się stanie bez zasięgu. Wydziału kpt. Marka Sikory nawet nie zapytano. Faza planowania, czyli opracowanie i wybór koncepcji, została przeskoczona.",
+    "it": "Przy nowym systemie kierownictwo IT porównuje warianty: budowa, zakup albo usługa w chmurze. Takie decyzje inwestycyjne wspiera m.in. APO05 (Zarządzanie portfelem projektów) (interpretacja kursu)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "apo",
+      "roznica": "APO (Dostosuj, Planuj i Organizuj) to domena procesów Zarządzania. Faza 1 to etap życia jednego aktywatora."
+    },
+    {
+      "termin": "pbrm",
+      "roznica": "„Planuj” w Planuj, Twórz, Wykonuj i Monitoruj to obszar działań Zarządzania, a nie faza życia aktywatora."
+    },
+    {
+      "termin": "Faza 4 wdrożenia „Co trzeba zrobić?” (Planowanie programu)",
+      "roznica": "To faza programu wdrażania COBIT 5 (7 faz). Faza 1 cyklu życia aktywatora to wybór koncepcji jednego aktywatora."
+    }
+  ],
+  "przykladWypowiedzi": "In the plan phase, czyli w fazie planowania, opracowujemy i wybieramy koncepcję aktywatora (concept development and selection).",
+  "egzamin": "Faza 1 = **Planowanie**: opracowanie **i wybór** koncepcji. Egzaminacyjnej nazwy PL faz cyklu życia aktywatora nie potwierdziliśmy (brak w SP1 i w zestawieniu Altkom). Używamy nazwy z FW-PL (s. 29, il. 13).",
+  "powiazane": [
+    "cykl-zycia-aktywatora",
+    "wymiar-cykl-zycia",
+    "cykl-faza-2",
+    "apo"
+  ],
+  "sylabus": [
+    "PR-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Planowanie (obejmuje opracowanie oraz wybór koncepcji)"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 28,
+      "ilustracja": "13"
+    }
+  ],
+  "mapa": "cykl-faza-1",
+  "glebokosc": {
+    "prosty": "Planujesz wakacje. Najpierw wymyślasz kilka pomysłów: góry, morze, działka u cioci. Porównujesz koszty i czas. Wybierasz jeden. Dopiero potem rezerwujesz noclegi.",
+    "zaawansowany": "Po Lipowej Sikora planuje nowy kanał alarmowania OSP. Spisuje koncepcje: drugi operator SMS, aplikacja z potwierdzeniem, połączenie głosowe. Porównuje je z [[komponent-cel-ladu|Celem Ładu]]: korzyść, ryzyko, koszt. Wybór zatwierdza Rada ds. Informatyki. Dopiero wtedy kończy się faza 1, a zaczyna [[cykl-faza-2|projektowanie]].",
+    "skrajny": "Na egzaminie widzisz: „Na jakim etapie cyklu życia aktywatora wybiera się koncepcję?”. Kusi „Projektowanie”, bo projekt to też decyzje. Kusi też faza 4 wdrożenia, „Co trzeba zrobić?”, bo w pierścieniu programu nazywa się Planowanie programu. FW-PL mówi wprost: planowanie obejmuje opracowanie **oraz wybór** koncepcji. Planowanie programu to faza całego wdrożenia, a nie jednego aktywatora. **Rozstrzygnięcie:** wybór koncepcji aktywatora to faza 1, Planowanie; projektowanie zaczyna się dopiero po wyborze."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Planowanie to wyłącznie spisanie pomysłów.",
+      "prawda": "Obejmuje też wybór koncepcji (s. 29)."
+    },
+    {
+      "mit": "Faza 1 cyklu życia aktywatora to to samo co faza 1 wdrożenia.",
+      "prawda": "Faza 1 wdrożenia pyta „Jakie są wyznaczniki?”. Faza 1 aktywatora to planowanie jednego aktywatora."
+    },
+    {
+      "mit": "Planowanie aktywatora to domena APO.",
+      "prawda": "APO to domena procesów. Planowanie to etap życia każdego aktywatora, np. polityki."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Przypisywanie wyboru koncepcji do projektowania.",
+    "jakTlumaczyc": "Planowanie odpowiada na pytanie „co?”, projektowanie na „jak dokładnie?”. Najpierw wybierasz dom z katalogu, potem architekt rysuje szczegóły.",
+    "pytanieKontrolne": "W której fazie cyklu życia aktywatora porównujesz trzy warianty i wybierasz jeden?",
+    "odpowiedzKontrolna": "W **fazie 1, Planowanie** (opracowanie i wybór koncepcji)."
+  }
+}

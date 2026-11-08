@@ -1,0 +1,125 @@
+{
+  "id": "proc-edm05",
+  "en": "EDM05 Ensure Stakeholder Transparency",
+  "wymowa": "idiem 05 inszor stejkhołder trensperensi",
+  "wymowaAkcent": "i-di-EM 05 in-SZOR STEJK-hoł-der trens-PE-ren-si",
+  "plEgzamin": "EDM05 Zapewnienie Transparentności Interesariuszy",
+  "plPodrecznik": "EDM05 Zapewnienie przejrzystości dotyczącej interesariuszy",
+  "plInne": [
+    {
+      "nazwa": "Zapewnienie przejrzystości wobec interesariuszy",
+      "zrodlo": "atlas „Prosto” (opracowanie nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "EDM05 Zapewnienie Transparentności Interesariuszy",
+    "podrecznik": "EDM05 Zapewnienie przejrzystości dotyczącej interesariuszy",
+    "kurs": "EDM05 Zapewnienie Transparentności Interesariuszy (EDM05 Ensure Stakeholder Transparency)",
+    "uwaga": "Egzamin PL: „EDM05 Zapewnienie Transparentności Interesariuszy”; podręcznik PL: „EDM05 Zapewnienie przejrzystości dotyczącej interesariuszy” – konkurencyjne odpowiedniki. SP1 (uzasadnienie jednej z odpowiedzi) używa nazwy procesu „Zapewnienie Transparentności Interesariuszy”. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 33, 52, 57. Inne formy w obiegu: Zapewnienie przejrzystości wobec interesariuszy (atlas „Prosto” (opracowanie nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Zapewnienie Transparentności Interesariuszy”. Podręcznik: „Zapewnienie przejrzystości dotyczącej interesariuszy”. To ten sam EDM05. Nie myl z MEA01, który też dotyczy wyników i raportów, ale na poziomie Zarządzania.",
+  "kategoria": "egzaminacyjne",
+  "status": "uproszczenie",
+  "poziomP": "P2",
+  "wymaga": [
+    "lad",
+    "edm",
+    "interesariusz",
+    "mea"
+  ],
+  "poLudzku": "Szefostwo mówi uczciwie wszystkim zainteresowanym, jak idzie informatyce: wyniki, koszty i kłopoty.",
+  "wyobrazSobie": "Zarządca wspólnoty, który raz w roku pokazuje mieszkańcom wszystkie rachunki, także te niewygodne.",
+  "poCo": "Żeby interesariusze dostawali rzetelny, zrozumiały obraz tego, jak IT spełnia ich oczekiwania, i mogli to ocenić.",
+  "jakDziala": "Organ Ładu ocenia, jakich informacji potrzebują interesariusze. Ustala zasady raportowania: co, komu, jak często i z jakimi miernikami. Monitoruje, czy raporty są wiarygodne, kompletne i terminowe.",
+  "dlaczegoWazne": "EDM05 zamyka pętlę Ładu. Na egzaminie występuje jako „Zapewnienie Transparentności Interesariuszy” i myli się z MEA01.",
+  "skadNazwa": "EN *Ensure Stakeholder Transparency*. Egzamin zostawia kalkę „transparentność”, a podręcznik tłumaczy „przejrzystość”. Znaczenie jest to samo.",
+  "poziom1": "Ostatni proces Ładu. Organ Ładu dba, żeby pomiar i raporty o wynikach i zgodności IT były przejrzyste. Interesariusze akceptują cele, mierniki i działania naprawcze.",
+  "poziom2": "**Czym się zajmuje:** ustala, co, komu i jak często raportujemy o IT, i pilnuje, żeby raporty były wiarygodne.\n\n**Wejścia (intuicja):** wyniki pomiarów z MEA01, oceny kontroli wewnętrznej (MEA02) i zgodności z wymogami zewnętrznymi (MEA03), potrzeby informacyjne interesariuszy.\n\n**Wyjścia (intuicja):** zasady raportowania, raporty dla interesariuszy, uzgodnione cele i mierniki.\n\n**Współpraca:** dane dostarczają procesy domeny [[mea|MEA]]. EDM05 zamyka pętlę Ładu: pokazuje [[interesariusz|interesariuszom]], jak realizowane są [[proc-edm02]]–[[proc-edm04]].",
+  "poziom3": "Il. 16 (s. 33): „EDM05 Zapewnienie przejrzystości dotyczącej interesariuszy”. Załącznik E (s. 57): *„W ramach metodyki COBIT 5 wyróżnia się dwa poziomy monitorowania. Pierwszy poziom jest istotny w kontekście nadzoru.”* Proces EDM05 *„wyjaśnia rolę dyrektora w monitorowaniu i ocenie nadzoru nad IT oraz sprawności IT”*. Po stronie kadry zarządzającej Framework wskazuje MEA01 (s. 59): wytyczne *„dotyczące zakresu odpowiedzialności kadry zarządzającej za te działania”*. Szczegóły praktyk: *COBIT 5: Procesy umożliwiające* (poza korpusem).",
+  "przyklady": {
+    "zycie": "Skarbnik komitetu rodzicielskiego co semestr pokazuje rodzicom: ile zebrano, na co wydano, co się nie udało. Rodzice akceptują plan na kolejny semestr. Uczciwy, zrozumiały obraz dla wszystkich zainteresowanych to EDM05.",
+    "biuro": "Kierownik biura raz w kwartale wysyła właścicielom krótki raport: ile spraw załatwiono, ile było reklamacji, co poprawiono. Wcześniej uzgodnił z nimi, które liczby chcą widzieć.",
+    "organizacja": "Zarząd spółki w raporcie rocznym pokazuje akcjonariuszom wyniki IT: dostępność sklepu, koszty, incydenty i plan poprawy. Wcześniej uzgodnił z radą nadzorczą, jakie mierniki pokaże. Tak działa EDM05. Burmistrz publikuje roczny raport o e-usługach: ile spraw załatwiono online, ile było awarii, ile to kosztowało. Rada miasta i mieszkańcy widzą prawdziwy obraz, także porażki. To EDM05.",
+    "psp": "**Raport dla Ostrowskiej.** Inspektorka Lucyna Ostrowska z komendy wojewódzkiej pyta o awarię Syreny. Komendantka Anna Wrzos przekazuje jej i naczelnikowi OSP Pietrzakowi rzetelny raport: co zawiodło, co naprawiono, jakie są czasy alarmu. Liczby zbiera naczelnik Sikora z audytorką Lis ([[mea|MEA]]). Wrzos decyduje, co i komu komenda raportuje. To jest [[proc-edm05|EDM05]].",
+    "it": "Rada nadzorcza zatwierdza, które mierniki IT trafią do raportu rocznego dla akcjonariuszy i regulatora. To EDM05. Dane dostarcza [[proc-mea01]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-mea01",
+      "roznica": "MEA01 (Zarządzanie) zbiera i ocenia dane o wynikach i zgodności i raportuje je w górę. EDM05 (Ład) decyduje, co i jak raportujemy interesariuszom, i odpowiada za przejrzystość."
+    },
+    {
+      "termin": "mea",
+      "roznica": "Domena MEA monitoruje na poziomie Zarządzania. EDM05 to monitorowanie i komunikacja na poziomie Ładu."
+    }
+  ],
+  "przykladWypowiedzi": "EDM05 *Ensure Stakeholder Transparency*, na egzaminie „Zapewnienie Transparentności Interesariuszy”, to raportowanie na poziomie Ładu; MEA01 to monitorowanie wyników przez kierownictwo.",
+  "egzamin": "Na egzaminie: **„Zapewnienie Transparentności Interesariuszy”**. Komunikacja z interesariuszami i raportowanie *na poziomie Ładu* → EDM05. Zbieranie i ocena mierników *przez kierownictwo* → MEA01.",
+  "powiazane": [
+    "edm",
+    "interesariusz",
+    "mea",
+    "proc-mea01",
+    "proc-edm02",
+    "zasada-1"
+  ],
+  "sylabus": [
+    "PR-01-03",
+    "PR-02-15"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "EDM05 Zapewnienie przejrzystości dotyczącej interesariuszy"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 57,
+      "cytat": "W ramach metodyki COBIT 5 wyróżnia się dwa poziomy monitorowania. Pierwszy poziom jest istotny w kontekście nadzoru."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 57,
+      "cytat": "wyjaśnia rolę dyrektora w monitorowaniu i ocenie nadzoru nad IT oraz sprawności IT"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 59,
+      "cytat": "dotyczące zakresu odpowiedzialności kadry zarządzającej za te działania"
+    },
+    {
+      "doc": "SP1",
+      "strona": 24
+    }
+  ],
+  "mapa": "proc-edm05",
+  "glebokosc": {
+    "prosty": "Zarządca bloku raz w roku pokazuje mieszkańcom, ile kosztowało sprzątanie i naprawy. Mówi też, co się nie udało. Mieszkańcy wiedzą, na co idą pieniądze, i mogą to ocenić.",
+    "zaawansowany": "Audytorka Ewa Lis co miesiąc mierzy czas dotarcia alarmu i raportuje naczelnikowi Sikorze. To praca w MEA01. Komendantka Wrzos ustala, które liczby trafiają do komendy wojewódzkiej, OSP i mieszkańców. Pilnuje, żeby raport nie ukrywał awarii. Ta część to EDM05, a cele, które rozlicza, pochodzą z [[proc-edm02]] i [[proc-edm03]].",
+    "skrajny": "Sikora przygotowuje raport o Syrenie i wysyła go komendantce. Czy to już EDM05? Nie: to raport Zarządzania w górę, czyli MEA01. EDM05 zaczyna się, gdy organ Ładu ustala, co i komu raportujemy, i odpowiada za rzetelność. Oba procesy „monitorują”, ale Framework wyróżnia dwa poziomy monitorowania, a pierwszy dotyczy Ładu (s. 57). Gdyby Wrzos ukryła awarię przed Ostrowską, MEA01 mógłby działać bez zarzutu, a EDM05 i tak by zawiódł. **Rozstrzygnięcie:** raport kierownictwa do organu Ładu → MEA01; przejrzystość organu Ładu wobec interesariuszy → EDM05."
+  },
+  "zagmatwania": [
+    {
+      "mit": "EDM05 to inna nazwa MEA01, bo oba dotyczą raportów.",
+      "prawda": "MEA01 jest w Zarządzaniu i mierzy wyniki. EDM05 jest w Ładzie i odpowiada za przejrzystość wobec interesariuszy."
+    },
+    {
+      "mit": "„Transparentność” z egzaminu to inny proces niż „przejrzystość” z podręcznika.",
+      "prawda": "To ten sam EDM05. Egzamin: „Zapewnienie Transparentności Interesariuszy”, podręcznik: „przejrzystości dotyczącej interesariuszy”."
+    },
+    {
+      "mit": "Przejrzystość znaczy: pokazujemy sukcesy.",
+      "prawda": "Przejrzystość obejmuje też porażki, ryzyka i działania naprawcze, które interesariusze akceptują."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera MEA01 przy każdym słowie „raport”, nawet gdy raport idzie od organu Ładu do interesariuszy.",
+    "jakTlumaczyc": "Narysuj strzałki. Kierownictwo → zarząd to MEA01. Zarząd → interesariusze (właściciele, regulator, mieszkańcy) to EDM05.",
+    "pytanieKontrolne": "Rada nadzorcza zatwierdza, jakie mierniki IT trafią do raportu rocznego. Który to proces?",
+    "odpowiedzKontrolna": "EDM05: organ Ładu ustala zasady raportowania do interesariuszy i uzgadnia z nimi mierniki. MEA01 dostarcza dane."
+  }
+}

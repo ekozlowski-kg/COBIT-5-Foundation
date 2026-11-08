@@ -1,0 +1,114 @@
+{
+  "id": "proc-apo02",
+  "en": "APO02 Manage Strategy",
+  "wymowa": "ejpio 02 menydż stretedżi",
+  "wymowaAkcent": "ej-pi-O 02 ME-nydż STRE-te-dżi",
+  "plEgzamin": "APO02 Zarządzanie strategią",
+  "plPodrecznik": "APO02 Zarządzanie strategią",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO02 Zarządzanie strategią",
+    "podrecznik": "APO02 Zarządzanie strategią",
+    "kurs": "APO02 Zarządzanie strategią (APO02 Manage Strategy)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 59."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie APO02 i słowie kluczowym EN *Strategy*. Nie myl z APO03 (architektura) ani z procesami Ładu. APO02 to strategia IT w Zarządzaniu.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "kaskada-celow",
+    "cele-organizacji"
+  ],
+  "poLudzku": "Plan na kilka lat: dokąd ma dojść informatyka, żeby pomóc organizacji, i jak tam dojść krok po kroku.",
+  "wyobrazSobie": "Plan treningowy przed maratonem: gdzie jesteś dziś, gdzie chcesz być za rok i jakie etapy po drodze.",
+  "poCo": "Żeby informatyka wiedziała, dokąd ma dojść w ciągu kilku lat, aby wspierać cele organizacji, i w jakiej kolejności to zrobić.",
+  "jakDziala": "Kierownictwo IT opisuje stan obecny i docelowy, a potem lukę między nimi. Z luki wyprowadza inicjatywy i układa je w mapę drogową. Strategię uzgadnia z celami organizacji i przekazuje inicjatywy do portfela.",
+  "dlaczegoWazne": "APO02 przekłada cele z kaskady celów na konkretny plan IT. Na egzaminie myli się z APO03 (architektura).",
+  "skadNazwa": "EN *Manage Strategy*. Proste tłumaczenie. Chodzi jednak o strategię **IT**, która wspiera strategię organizacji, prowadzoną przez Zarządzanie. To nie jest strategia całej organizacji.",
+  "poziom1": "Proces Zarządzania o strategii IT. Pokazuje, gdzie jesteśmy, dokąd chcemy dojść i jakie inicjatywy nas tam zaprowadzą. Strategia IT ma wspierać cele organizacji.",
+  "poziom2": "**Czym się zajmuje:** opisuje stan obecny, stan docelowy i lukę między nimi, a potem układa mapę drogową.\n\n**Wejścia (intuicja):** [[cele-organizacji]], kierunek z Ładu, opis architektury z [[proc-apo03]], pomysły z [[proc-apo04]].\n\n**Wyjścia (intuicja):** strategia IT, mapa drogowa, lista inicjatyw do portfela.\n\n**Współpraca:** inicjatywy trafiają do [[proc-apo05]] (portfel), a koszty do [[proc-apo06]].",
+  "poziom3": "Il. 16 (s. 33): „APO02 Zarządzanie strategią”. Załącznik E (s. 59): *„APO02 Zarządzanie strategią koncentruje się na ustalaniu celów.”* Ten sam załącznik: proces APO02 *„ułatwia zapewnienie zgodności planu IT z ogólnymi celami biznesowymi”*. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Chcesz za trzy lata mieszkać we własnym mieszkaniu. Sprawdzasz, ile masz teraz, ile potrzeba i czego brakuje. Rozpisujesz kroki: oszczędzanie, kredyt, przeprowadzka. To strategia z mapą drogi.",
+    "biuro": "Biuro chce za dwa lata obsługiwać klientów bez papieru. Kierownik spisuje, co jest dziś, czego brakuje i w jakiej kolejności to wprowadzić: najpierw skaner, potem e-podpis, na końcu archiwum elektroniczne.",
+    "organizacja": "Sklep internetowy chce wejść na rynek czeski. Dyrektor IT opisuje, czego brakuje: czeskiej wersji sklepu, lokalnych płatności, nowego magazynu danych. Układa plan na dwa lata. To APO02. Urząd marszałkowski przyjął cel: większość spraw online do 2030 roku. Informatycy spisują stan obecny, stan docelowy i kolejne etapy. Plan trafia do zatwierdzenia. Opracowanie strategii IT to APO02.",
+    "psp": "**Od „chcemy szybciej” do planu.** Naczelnik Marek Sikora siada z celem komendy: szybsza pomoc mieszkańcom. Spisuje stan Syreny dziś i stan docelowy za trzy lata. Układa kolejne kroki: zasilanie, drugi serwer, aplikacja dla OSP. Plan przedstawia komendantce. To jest [[proc-apo02|APO02]].",
+    "it": "Dział IT przygotowuje trzyletnią strategię z analizą luki i mapą drogową. Opis architektury bierze z [[proc-apo03]], a inicjatywy przekazuje do [[proc-apo05]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-apo03",
+      "roznica": "APO03 opisuje, jak zbudowana jest organizacja i jej systemy (architektura), i ustala zasady budowy. APO02 mówi, dokąd idziemy i w jakiej kolejności."
+    },
+    {
+      "termin": "kaskada-celow",
+      "roznica": "Kaskada celów przekłada potrzeby na cele. APO02 to proces, który z tych celów robi strategię i mapę drogową IT."
+    },
+    {
+      "termin": "proc-apo05",
+      "roznica": "APO05 wybiera i równoważy inwestycje w portfelu. APO02 wskazuje kierunek, z którego te inwestycje wynikają."
+    }
+  ],
+  "przykladWypowiedzi": "APO02 *Manage Strategy*, czyli „Zarządzanie strategią”, tworzy strategię IT z mapą drogową (*roadmap*); opis budowy systemów i zasad to APO03 *Manage Enterprise Architecture*.",
+  "egzamin": "Słowa-klucze: **strategia IT, stan obecny i docelowy, luka, mapa drogowa, zgodność planu IT z celami organizacji** → APO02. Załącznik E: APO02 koncentruje się na ustalaniu celów.",
+  "powiazane": [
+    "apo",
+    "proc-apo03",
+    "proc-apo05",
+    "kaskada-celow",
+    "cele-organizacji",
+    "cele-zwiazane-z-it"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO02 Zarządzanie strategią"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 59,
+      "cytat": "APO02 Zarządzanie strategią koncentruje się na ustalaniu celów."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 59,
+      "cytat": "ułatwia zapewnienie zgodności planu IT z ogólnymi celami biznesowymi"
+    }
+  ],
+  "mapa": "proc-apo02",
+  "glebokosc": {
+    "prosty": "Planujesz wakacje. Najpierw wiesz, dokąd jedziesz i kiedy. Potem układasz trasę i postoje. Strategia to cel i kolejność kroków, a nie lista rzeczy do spakowania.",
+    "zaawansowany": "Naczelnik Sikora pisze strategię IT komendy na trzy lata. Żeby wiedzieć, jak Syrena łączy się z CPR 112 i listą numerów, bierze opis architektury z [[proc-apo03]]. Plan pokazuje lukę: jeden serwer, brak potwierdzeń odbioru. Kolejność inicjatyw ustala w mapie drogowej. Inicjatywy trafiają potem do portfela ([[proc-apo05]]).",
+    "skrajny": "Sikora rysuje dwa obrazki. Pierwszy: „Za trzy lata OSP potwierdza alarm w aplikacji, a Syrena ma zapasowy serwer”. Drugi: „Syrena, CPR 112, baza numerów i bramka SMS – kto z kim wymienia dane”. Pierwszy to strategia (APO02), drugi to architektura (APO03). Oba opisują przyszłość, więc łatwo je pomylić. Architektura podaje też zasady budowy, np. „jedna baza numerów dla wszystkich systemów”. Strategia wybiera, co zbudować najpierw i dlaczego. **Rozstrzygnięcie:** dokąd i w jakiej kolejności → APO02; jak to jest poskładane i według jakich zasad → APO03. (interpretacja kursu: uproszczony podział)"
+  },
+  "zagmatwania": [
+    {
+      "mit": "APO02 to strategia całej organizacji.",
+      "prawda": "Strategię organizacji ustala jej kierownictwo. APO02 to strategia IT, która ją wspiera."
+    },
+    {
+      "mit": "Strategia i architektura to jedno.",
+      "prawda": "Strategia wyznacza kierunek i kolejność. Architektura opisuje budowę i zasady budowy (APO03)."
+    },
+    {
+      "mit": "Strategię IT opracowuje organ Ładu, więc APO02 to Ład.",
+      "prawda": "APO02 jest w Zarządzaniu. Ład ocenia i kieruje, ale strategię IT opracowuje kierownictwo."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli APO02 z APO03, bo oba mówią o stanie docelowym.",
+    "jakTlumaczyc": "Mapa samochodowa i plan domu. Mapa mówi, którędy jedziesz (APO02). Plan domu mówi, jak pokoje się łączą (APO03).",
+    "pytanieKontrolne": "Dyrektor IT opisuje lukę między stanem obecnym a docelowym i układa etapy na 3 lata. Który to proces?",
+    "odpowiedzKontrolna": "APO02, czyli strategia z mapą drogową. Gdyby opisywał warstwy systemów i zasady ich budowy, byłby to APO03."
+  }
+}

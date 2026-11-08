@@ -1,0 +1,106 @@
+{
+  "id": "pam",
+  "en": "COBIT Process Assessment Model (PAM)",
+  "wymowa": "kołbit prołses asesment model",
+  "wymowaAkcent": "KOŁ-bit PROŁ-ses a-SES-ment MO-del",
+  "plEgzamin": "Model Oceny Procesu (PAM)",
+  "plPodrecznik": "Model oceny procesu (PAM)",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Model Oceny Procesu (PAM)",
+    "podrecznik": "Model oceny procesu (PAM)",
+    "kurs": "Model Oceny Procesu (PAM) – COBIT Process Assessment Model",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 41, 42, 43."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "PAM (Model Oceny Procesu) to nie PRM (Referencyjny Model Procesu). PRM opisuje procesy, a PAM dokłada do nich atrybuty, wskaźniki i skalę. Skróty różnią się jedną literą.",
+  "skadNazwa": "Skrót od *Process Assessment Model*. Łatwo pomylić go z PRM (*Process Reference Model*): litery różnią się jedną, a sens całkiem.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "przewodniki-oceny",
+    "prm",
+    "atrybuty-procesu"
+  ],
+  "poziom1": "Podstawowa publikacja programu oceny COBIT. Zawiera to, co trzeba do oceny: procesy z PRM (wymiar procesu), poziomy i 9 atrybutów (wymiar zdolności), wskaźniki wykonania, wskaźniki zdolności i skalę N/C/W/P. Z PAM korzystają Przewodnik Asesora i Przewodnik Samooceny.",
+  "poLudzku": "Gruba instrukcja oceniania: co sprawdzać w każdej robocie, po czym to poznać i jaką skalą ocenić.",
+  "wyobrazSobie": "Regulamin zawodów: opisuje konkurencje, kryteria i punktację, ale nie mówi, jak sędzia ma dojechać na stadion.",
+  "poCo": "Żeby każda ocena procesów COBIT korzystała z tego samego modelu: tych samych procesów, atrybutów, wskaźników i skali.",
+  "jakDziala": "PAM łączy wymiar procesu (procesy z PRM i ich wskaźniki wykonania) z wymiarem zdolności (poziomy, atrybuty i wskaźniki ogólne). Dodaje skalę N/C/W/P. Przewodniki opisują, jak z tego modelu korzystać.",
+  "dlaczegoWazne": "Egzamin pyta, który przewodnik jest podstawą oceny. Skrót PAM łatwo pomylić z PRM.",
+  "poziom2": "| Część PAM | Co daje |\n|---|---|\n| [[wymiar-procesu|wymiar procesu]] (z PRM) | które procesy i co mają osiągać |\n| [[wymiar-zdolnosci|wymiar zdolności]] (ISO/IEC 15504-2) | poziomy 0–5 i 9 atrybutów |\n| wskaźniki wykonania | praktyki bazowe, produkty pracy |\n| wskaźniki zdolności | ogólne praktyki, zasoby, produkty pracy |\n| skala ocen | N/C/W/P |\n\nPAM to **model**: co i czym mierzyć. **Jak** przeprowadzić ocenę, mówią [[przewodnik-asesora|Przewodnik Asesora]] i [[przewodnik-samooceny|Przewodnik Samooceny]] (uproszczenie, spoza korpusu).",
+  "poziom3": "(s. 41): szczegóły podejścia do oceny są zawarte w publikacji ISACA *Model oceny procesu (Process Assessment Model – PAM)*. Podręcznik cytuje wydanie „Using COBIT 4.1”. Il. 19 (s. 42): „COBIT 5 Model oceny procesu — wskaźniki wydajności” i „— wskaźniki potencjału”. Wydanie PAM dla COBIT 5 (ISACA, 2013) jest spoza korpusu.",
+  "przyklady": {
+    "zycie": "Regulamin konkursu tańca opisuje figury, kryteria i skalę punktów. Sędziowie i tancerze, którzy ćwiczą w domu, korzystają z tego samego regulaminu. Takim regulaminem dla oceny procesów jest PAM.",
+    "biuro": "Firma ma jeden arkusz oceny procesów biurowych: listę procesów, pytania do każdego poziomu i skalę. Korzysta z niego audytor i każdy kierownik, który ocenia się sam. To rola PAM.",
+    "organizacja": "Sieć sklepów ma jeden „podręcznik oceny sklepu”: co sprawdzać, po czym poznać, jak punktować. Korzysta z niego audytor z centrali i kierownik sklepu przy samoocenie. To rola PAM.\n\nUrząd wojewódzki wydaje jedną metodykę oceny gmin: zakres, kryteria i skalę. Kontrolerzy i same gminy, które się przygotowują, korzystają z tej samej metodyki. Tak działa PAM.",
+    "psp": "**Gruba teczka Lis.** Audytorka Ewa Lis kładzie na stole teczkę z modelem oceny. Jest w niej lista procesów z opisami, 9 atrybutów, wskaźniki i skala N/C/W/P. Komendantka Wrzos pyta, czy to „ten sam COBIT co wcześniej”. Lis odpowiada, że to model oceny procesów, zbudowany na COBIT 5 i normie ISO/IEC 15504.",
+    "it": "Asesor oceniający DSS02 bierze z PAM opis procesu i jego praktyki bazowe, wskaźniki dla 9 atrybutów i skalę N/C/W/P. Ten sam model posłuży do oceny APO12 czy BAI06."
+  },
+  "glebokosc": {
+    "prosty": "Przed konkursem pieczenia ciast wszyscy dostają regulamin: co jest oceniane i za ile punktów. Jury ocenia według niego, a uczestnicy ćwiczą z nim w domu. Ten regulamin to PAM.",
+    "zaawansowany": "Ewa Lis przygotowuje ocenę procesu powiadamiania. Z PAM bierze [[wymiar-procesu|wymiar procesu]] (rezultaty, praktyki bazowe, produkty pracy) i [[wymiar-zdolnosci|wymiar zdolności]] (atrybuty, praktyki ogólne). Ocenia skalą N/C/W/P. Jak zaplanować rozmowy i zbieranie dowodów, opisuje już [[przewodnik-asesora|Przewodnik Asesora]].",
+    "skrajny": "Sikora myli skróty: „PAM to te 37 procesów, prawda?”. Nie. 37 procesów z opisami to PRM, a PAM z niego korzysta i dokłada wymiar zdolności, wskaźniki i skalę. Druga zagwozdka: podręcznik COBIT 5 odsyła do PAM w wydaniu „Using COBIT 4.1”. To ślad czasu wydania, bo ISACA wydała PAM dla COBIT 5 później, ale tego w korpusie nie ma. Trzecia: PAM nie mówi, kto i jak ma oceniać, bo to zadanie przewodników. **Rozstrzygnięcie:** PRM mówi, co oceniamy (procesy). PAM mówi, co i czym mierzyć (model oceny). Przewodniki mówią, jak oceniać."
+  },
+  "zagmatwania": [
+    {
+      "mit": "PAM i PRM to to samo.",
+      "prawda": "PRM opisuje procesy (wymiar procesu). PAM zawiera PRM i dokłada wymiar zdolności, wskaźniki i skalę."
+    },
+    {
+      "mit": "PAM to instrukcja krok po kroku, jak przeprowadzić ocenę.",
+      "prawda": "PAM to model. Procedurę oceny opisuje Przewodnik Asesora, a wersję uproszczoną – Przewodnik Samooceny."
+    },
+    {
+      "mit": "Samoocena nie korzysta z PAM.",
+      "prawda": "Oba przewodniki opierają się na PAM."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli PAM z PRM i z Przewodnikiem Asesora.",
+    "jakTlumaczyc": "Trzy hasła: PRM = „co oceniamy”, PAM = „co i czym mierzyć”, przewodniki = „jak oceniać”. Rysuj PRM jako kółko wewnątrz PAM.",
+    "pytanieKontrolne": "Który dokument jest podstawą dla obu przewodników oceny?",
+    "odpowiedzKontrolna": "Model Oceny Procesu (PAM). Przewodnik Asesora i Przewodnik Samooceny z niego korzystają."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "prm",
+      "roznica": "PRM to wzorcowa lista 37 procesów z opisami, czyli wymiar procesu. PAM zawiera PRM i dodaje wymiar zdolności."
+    },
+    {
+      "termin": "przewodnik-asesora",
+      "roznica": "Przewodnik Asesora mówi, jak przeprowadzić formalną ocenę. PAM to model, według którego się ocenia."
+    }
+  ],
+  "przykladWypowiedzi": "The COBIT Process Assessment Model (PAM), czyli Model Oceny Procesu, łączy wymiar procesu z Process Reference Model (PRM) z wymiarem zdolności według ISO/IEC 15504.",
+  "egzamin": "**PAM** to podstawa oceny. Z PAM korzystają **Przewodnik Asesora** i **Przewodnik Samooceny**. PRM to tylko wymiar procesu.",
+  "powiazane": [
+    "przewodniki-oceny",
+    "prm",
+    "przewodnik-asesora",
+    "przewodnik-samooceny",
+    "wymiar-zdolnosci"
+  ],
+  "sylabus": [
+    "PC-02-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 41,
+      "cytat": "Model oceny procesu (ang. Process Assessment Model"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "COBIT 5 Model oceny procesu — wskaźniki potencjału"
+    },
+    {
+      "doc": "SYL"
+    }
+  ],
+  "mapa": "pam"
+}

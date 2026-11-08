@@ -1,0 +1,93 @@
+{
+  "id": "praktyki-dzialania",
+  "en": "Process practices, activities, inputs and outputs",
+  "wymowa": "prołses prektisiz aktiwitiz inputs end ałtputs",
+  "wymowaAkcent": "PROŁ-ses PREK-ti-siz ak-TI-wi-tiz IN-puts end AŁT-puts",
+  "plEgzamin": "Praktyki, działania, wejścia i wyjścia procesu",
+  "plPodrecznik": "Praktyki, działania, szczegółowe działania, dane wejściowe i wyniki",
+  "mapa": "elementy-procesu",
+  "poLudzku": "Praca rozpisana na kroki i drobne czynności, z tym, co do niej wchodzi i co z niej wychodzi.",
+  "wyobrazSobie": "Jak przepis kulinarny: nagłówek etapu mówi, co zrobić („przygotuj ciasto”), lista kroków mówi jak, składniki to wejścia, a gotowe ciasto to wyjście, które idzie do następnego etapu.",
+  "poCo": "Żeby ogólny proces rozpisać na konkretne wymagania i czynności, przypisać do nich role i zostawić ślad w dokumentach, z którego da się rozliczyć pracę.",
+  "jakDziala": "Każdy proces COBIT 5 ma praktyki (governance/management practices), czyli to, co trzeba robić, np. DSS02.02. Każda praktyka ma działania (activities), czyli konieczne i wystarczające kroki, jak to robić, oraz wejścia i wyjścia (inputs and outputs), czyli dokumenty, które do niej trafiają i z niej wychodzą. Praktyki trzeba dostosować do organizacji, działania nie są normatywne, a wejścia i wyjścia tworzą ścieżkę rewizyjną (audit trail).",
+  "dlaczegoWazne": "Pytania o opis procesu wymagają odróżnienia praktyki („co”) od działania („jak”) i znajomości cech działań: konieczne i wystarczające, nienormatywne. Ta budowa łączy się z RACI, bo role przypisuje się do praktyk.",
+  "poziom1": "Proces w COBIT 5 rozpisany jest od ogółu do szczegółu: praktyka mówi, co trzeba robić, działania mówią, jak to robić, a wejścia i wyjścia to dokumenty, które do praktyki trafiają i z niej wychodzą (np. zgłoszenie awarii na wejściu, wpis w rejestrze na wyjściu).",
+  "poziom2": "- **Praktyki** (nadzoru/zarządzania, GP/MP): ogólne wymogi, czyli „co” trzeba robić. Są typowe, więc trzeba je **dostosować**. Organizacja wybiera, które wdraża, i akceptuje ryzyko niewdrożenia pozostałych.\n- **Działania**: podstawowe czynności, czyli „jak”. Zbiór **koniecznych i wystarczających** kroków dla praktyki. Uwzględniają wejścia i wyjścia, ułatwiają określenie ról, **nie są normatywne**.\n- **Szczegółowe działania**: dodatkowe wytyczne, gdy działania są za mało szczegółowe. Można je (s. 70) uzyskać ze szczegółowych standardów i dobrych praktyk (ITIL, ISO/IEC 27000, PRINCE2) **albo** opracować jako bardziej szczegółowe działania w samej rodzinie produktów COBIT 5.\n- **Wejścia i wyjścia** (produkty działań): artefakty potrzebne do realizacji procesu. Pozwalają podejmować decyzje i zostawiają **ścieżkę rewizyjną**.",
+  "poziom3": "(s. 70): definicje praktyk, działań, szczegółowych działań oraz danych wejściowych i wyników. Słownik (s. 89): działanie to *„podstawowa czynność podejmowana w ramach obsługi procesu”*.",
+  "przyklady": {
+    "zycie": "Praktyka: „Dbaj o rodzinny samochód”. Działania: raz w roku przegląd, co miesiąc sprawdzenie opon, zapisanie przebiegu w zeszycie. Wejście to SMS z warsztatu o terminie przeglądu, a wyjście to pieczątka w książce serwisowej. Praktyka mówi co, działania jak, a wejścia i wyjścia zostawiają ślad.",
+    "biuro": "Praktyka w biurze brzmi: „Zapewnij sprawne drukarki”. Działania to cotygodniowe sprawdzenie tonera, zgłoszenie zacięcia serwisowi i wpis naprawy do zeszytu. Wejście to mail pracownika „drukarka nie działa”, wyjście to wpis w zeszycie napraw z datą.",
+    "firma": "W piekarni praktyka brzmi: „Zarządzaj dostawcami”. Działania: co kwartał porównać ceny mąki w dwóch hurtowniach, sprawdzić, czy dostawy przychodziły na czas, podpisać aneks. Wejście to faktury i notatki o spóźnieniach, wyjście to podpisana umowa – po roku widać z tych papierów, dlaczego zmieniono dostawcę.",
+    "admin": "W starostwie praktyka brzmi: „Rejestruj i klasyfikuj zgłoszenia”. Gdy urzędniczka dzwoni, że drukarka nie drukuje, informatyk wykonuje działania: zapisuje zgłoszenie, nadaje mu priorytet, naprawia i zamyka sprawę. Wejście to telefon urzędniczki, wyjście to zamknięte zgłoszenie w rejestrze.",
+    "psp": "W komendzie praktyka brzmi: „Zarządzaj zgłoszeniami i incydentami”. Gdy dyżurny SK zgłasza, że nie działa radiostacja bazowa, informatyk rejestruje awarię z godziną i priorytetem, przełącza na łączność zapasową i wzywa serwis – to działania. Wejście to zgłoszenie dyżurnego, wyjście to wpis w rejestrze i notatka dla kierownika, czyli ślad na wypadek kontroli.",
+    "it": "Proces DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) ma m.in. praktykę DSS02.02, czyli rejestrowanie, klasyfikowanie i ustalanie priorytetów zgłoszeń i incydentów. Jej działania to np. zapisanie zgłoszenia i nadanie mu priorytetu, a wyjściem jest sklasyfikowane zgłoszenie w rejestrze, z którego korzystają kolejne praktyki."
+  },
+  "glebokosc": {
+    "prosty": "Przepis na pierogi. „Zrób ciasto” to praktyka – mówi, co trzeba zrobić. „Wsyp mąkę, dodaj wodę, wyrabiaj 10 minut” to działania – mówią jak. Mąka i woda wchodzą, ciasto wychodzi, a babcia i tak dopasuje przepis do swojej kuchni.",
+    "zaawansowany": "W [[proces|procesie]] zarządzania incydentami Syreny kpt. Sikora bierze praktykę „rejestruj i klasyfikuj zgłoszenia”. Działania mówią, jak to robić: przyjąć zgłoszenie od dyżurnego, nadać priorytet, przypisać osobę. Wejściem jest telefon asp. sztab. Graba o niedziałającej syrenie w Zawilcach, a wyjściem wpis w rejestrze, czyli ślad rewizyjny dla Ewy Lis. Działania pomagają też ustalić, kto co robi w tabeli [[raci|RACI]]. Szczegółowe kroki Sikora bierze z [[itil|ITIL]], bo COBIT nie schodzi aż tak nisko.",
+    "skrajny": "Framework mówi, że działania to zbiór kroków **koniecznych i wystarczających** do osiągnięcia praktyki, a zaraz potem, że **nie mają charakteru normatywnego**. Brzmi to jak sprzeczność: skoro konieczne, to czemu nie obowiązkowe? „Konieczne i wystarczające” opisuje treść typowego zestawu kroków, a „nienormatywne” – sposób użycia: trzeba je dostosować i rozwinąć w konkretne procedury. Do tego organizacja może nie wdrożyć części praktyk, jeśli świadomie akceptuje ryzyko. W modelu oceny ISO 15504 odpowiednikiem praktyk są praktyki bazowe – to trzecie słowo na podobną rzecz. **Rozstrzygnięcie:** praktyka = co, działanie = jak; działania są kompletne co do treści, ale nie są przepisem do wykonania dosłownie – zawsze się je dopasowuje."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Działania są normatywne, bo są konieczne i wystarczające.",
+      "prawda": "Są konieczne i wystarczające jako zestaw kroków, ale nie mają charakteru normatywnego – trzeba je dostosować do organizacji."
+    },
+    {
+      "mit": "Praktyka mówi jak, a działanie co.",
+      "prawda": "Odwrotnie: praktyka = co trzeba robić, działanie = jak to robić."
+    },
+    {
+      "mit": "Szczegółowe działania są wbudowaną częścią COBIT 5.",
+      "prawda": "Nie są częścią podstawowego opisu procesu. To dodatkowe wytyczne, gdy działania są za ogólne do wdrożenia. Można je uzyskać z innych standardów (ITIL, ISO 27000, PRINCE2) albo opracować jako bardziej szczegółowe działania w ramach dodatkowych rozwiązań w rodzinie produktów COBIT 5 (s. 70)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Odwracanie „co” i „jak” oraz uznawanie działań za obowiązkowe.",
+    "jakTlumaczyc": "Schodki od ogółu do szczegółu: proces → praktyka (co) → działanie (jak) → szczegółowe działanie (z ITIL itp.), a przy każdym schodku strzałki wejścia i wyjścia. Najpierw przykład z kuchni, potem z IT.",
+    "pytanieKontrolne": "Dlaczego działania COBIT 5 mogą być jednocześnie „konieczne i wystarczające” i „nienormatywne”?",
+    "odpowiedzKontrolna": "Pierwsze określenie dotyczy treści: zestaw kroków wystarcza do osiągnięcia praktyki. Drugie dotyczy stosowania: działania nie są nakazem, trzeba je dostosować i rozwinąć w konkretne procedury."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Praktyka bazowa (PAM)",
+      "roznica": "W modelu oceny (PAM) odpowiednikiem praktyk zarządzania są praktyki bazowe (dzień 4)."
+    }
+  ],
+  "przykladWypowiedzi": "A management practice, czyli praktyka zarządzania, mówi, co trzeba robić; activities, czyli działania, mówią, jak to zrobić, a inputs and outputs (wejścia i wyjścia) zostawiają ścieżkę rewizyjną.",
+  "egzamin": "Działania: kroki **konieczne i wystarczające**, uwzględniają wejścia i wyjścia, wspierają role i odpowiedzialności, **nie są normatywne**. Odpowiedź „określa działania przynoszące korzyści” nie opisuje działania procesu.",
+  "powiazane": [
+    "proces",
+    "opis-procesu",
+    "raci"
+  ],
+  "sylabus": [
+    "EN-02-10"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 70,
+      "cytat": "Działania — w metodyce COBIT są to podstawowe czynność podejmowane w ramach obsługi procesu."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 89
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Praktyki, działania, wejścia i wyjścia procesu",
+    "podrecznik": "Praktyki, działania, szczegółowe działania, dane wejściowe i wyniki",
+    "kurs": "Praktyki, działania, wejścia i wyjścia procesu (Process practices, activities, inputs and outputs)",
+    "uwaga": "Egzamin PL: „Praktyki, działania, wejścia i wyjścia procesu”; podręcznik PL: „Praktyki, działania, szczegółowe działania, dane wejściowe i wyniki” – konkurencyjne odpowiedniki. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "proces",
+    "prm"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "prm",
+  "en": "Process Reference Model (PRM)",
+  "wymowa": "prołses referens model",
+  "wymowaAkcent": "PROŁ-ses RE-fe-rens MO-del",
+  "plEgzamin": "Referencyjny Model Procesu",
+  "plPodrecznik": "Model referencyjny procesu COBIT 5",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Referencyjny Model Procesu",
+    "podrecznik": "Model referencyjny procesu COBIT 5",
+    "kurs": "Referencyjny Model Procesu (Process Reference Model)",
+    "uwaga": "Egzamin PL: „Referencyjny Model Procesu”; podręcznik PL: „Model referencyjny procesu COBIT 5” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 8, 9."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "proces",
+    "lad",
+    "pbrm"
+  ],
+  "poLudzku": "Gotowa lista 37 typowych zadań informatyki w każdej firmie czy urzędzie, podzielona na pięć szuflad.",
+  "wyobrazSobie": "Jak wzorcowy rozkład materiału w poradniku dla nauczycieli: obejmuje wszystkie tematy, ale każda szkoła sama układa z niego swój plan, łącząc lekcje albo rozkładając je inaczej.",
+  "poCo": "Żeby każda organizacja miała kompletny wzorzec procesów Ładu i Zarządzania IT, z którym może porównać swoją praktykę i znaleźć luki, zamiast wymyślać wszystko od zera.",
+  "jakDziala": "Referencyjny Model Procesu (Process Reference Model) ma 37 procesów w dwóch obszarach: Ład (domena EDM, Evaluate, Direct and Monitor, 5 procesów) i Zarządzanie (4 domeny PBRM: APO 13, BAI 10, DSS 6, MEA 3, razem 32). Każdy proces ma opis, cele, praktyki, działania, wejścia i wyjścia oraz tabelę RACI. Model nie jest normatywny: organizacja dopasowuje go do siebie, a w ocenie zdolności tworzy on wymiar procesu.",
+  "dlaczegoWazne": "Egzamin sprawdza liczby (5 + 32 = 37; EDM 5, APO 13, BAI 10, DSS 6, MEA 3), podział na Ład i Zarządzanie (zasada 5) oraz to, że PRM nie jest normatywny. W ocenie zdolności PRM jest wymiarem procesu, a model oceny (PAM) ocenia zdolność tych procesów.",
+  "poziom1": "Gotowa, wzorcowa lista 37 procesów COBIT 5: 5 procesów Ładu (EDM) i 32 procesy Zarządzania (APO, BAI, DSS, MEA). To wzór do dopasowania, a nie obowiązkowy spis (jak przykładowy plan budowy domu, który każdy przerabia pod swoją działkę).",
+  "poziom2": "PRM dzieli procesy na **dwie domeny główne**: **Ład** (1 domena EDM, 5 procesów) i **Zarządzanie** (4 domeny: **APO 13**, **BAI 10**, **DSS 6**, **MEA 3**, razem 32). Model **nie jest normatywny**: każda organizacja definiuje własny zestaw procesów, mniejsza może mieć ich mniej. Jest następcą modelu COBIT 4.1 i łączy też modele Val IT i Risk IT. W ocenie zdolności (ISO 15504) PRM tworzy **wymiar procesu**.",
+  "poziom3": "(s. 32): *„Metodyka COBIT 5 nie ma charakteru normatywnego”*. (s. 33): *„Na ilustracji 16 przedstawiono pełny zestaw 37 procesów nadzoru i zarządzania”*.",
+  "przyklady": {
+    "zycie": "Młodzi po ślubie dostają od rodziców listę „co trzeba ogarniać w domu”: rachunki, zakupy, sprzątanie, naprawy, ubezpieczenia. U nich rachunkami i ubezpieczeniami zajmuje się jedna osoba w jeden wieczór w miesiącu, a napraw prawie nie ma, bo mieszkanie jest nowe. Lista od rodziców jest jak PRM – wzorzec, który każdy dopasowuje do siebie.",
+    "biuro": "Nowa kierowniczka biura dostaje od centrali wzorcową listę spraw: poczta, archiwum, materiały biurowe, drukarki, grafik dyżurów, umowy serwisowe. W jej małym biurze pocztę i archiwum prowadzi jedna osoba, ale kierowniczka sprawdza, czy żadna pozycja z listy nie została bez opieki.",
+    "firma": "Właściciel warsztatu czyta listę 37 procesów COBIT i łapie się za głowę. Konsultant tłumaczy: to wzorzec, nie obowiązek – u Ciebie jedna osoba może zajmować się i dostawcami, i umowami, i sprzętem. Ważne tylko, żeby żaden istotny obszar nie został bez opieki.",
+    "admin": "Informatyk w urzędzie gminy kładzie obok siebie listę procesów PRM i to, co urząd faktycznie robi. Kopie zapasowe i obsługę zgłoszeń mają, ale nikt nie pilnuje umów z dostawcami oprogramowania. PRM posłużył jako wzorzec do znalezienia luki, a nie jako 37 procedur do napisania.",
+    "psp": "Komenda powiatowa przegląda PRM i postanawia, że jedna procedura utrzymania systemów SK obejmie kilka procesów DSS – bieżącą pracę systemów, zgłoszenia, problemy i ciągłość działania. Nikt nie pisze 37 osobnych instrukcji. PRM jest wzorcem, który komenda przycina do swojej wielkości.",
+    "it": "Organizacja porównuje swoją pracę z PRM i widzi, że ma kopie zapasowe (DSS04) i obsługę incydentów (DSS02), ale nikt nie prowadzi APO10 (Zarządzanie dostawcami). Luka trafia do planu doskonalenia, a pozostałe procesy organizacja łączy i przycina według swojej wielkości."
+  },
+  "glebokosc": {
+    "prosty": "Książka kucharska ma 37 przepisów w pięciu rozdziałach. Nikt nie gotuje wszystkich – wybierasz te, które pasują do Twojej rodziny, a niektóre przerabiasz. Książka to wzór, a nie obowiązkowy jadłospis.",
+    "zaawansowany": "Kpt. Sikora porównuje pracę wydziału z PRM: 5 procesów Ładu w [[edm|EDM]] i 32 procesy Zarządzania w czterech domenach [[pbrm|PBRM]]. Mała komenda nie potrzebuje wszystkich 37 w pełnej postaci, więc Sikora łączy kilka procesów w jeden. To zgodne z COBIT 5, bo model nie jest normatywny. Ewa Lis używa później PRM jako wymiaru procesu w ocenie [[model-zdolnosci|zdolności]]: stąd bierze opisy procesów, które ocenia.",
+    "skrajny": "Ewa Lis słyszy na szkoleniu: „PRM ma pięć domen, więc ma pięć głównych obszarów”. To prawie dobrze. PRM dzieli procesy na **dwie** główne domeny – Ład i Zarządzanie – a w nich jest **pięć** domen: EDM (5 procesów) oraz APO 13, BAI 10, DSS 6, MEA 3. Druga pułapka: PRM to nie model oceny. PRM dostarcza procesy (wymiar procesu), a model oceny dokłada atrybuty i skalę (wymiar zdolności). Trzecia: brak któregoś procesu w organizacji nie jest „niezgodnością z COBIT”, bo model nie jest normatywny. **Rozstrzygnięcie:** PRM = 2 główne obszary, 5 domen, 37 procesów (5 + 32); to wzór do dopasowania i wymiar procesu w ocenie, a nie lista obowiązkowa ani narzędzie oceny."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Organizacja musi wdrożyć wszystkie 37 procesów, żeby stosować COBIT 5.",
+      "prawda": "PRM nie ma charakteru normatywnego. Każda organizacja definiuje własny zestaw procesów; mniejsza może mieć ich mniej."
+    },
+    {
+      "mit": "PRM i model oceny to to samo.",
+      "prawda": "PRM to zestaw procesów (wymiar procesu). Model oceny ocenia zdolność tych procesów i dokłada wymiar zdolności."
+    },
+    {
+      "mit": "Ład ma 32 procesy, a Zarządzanie 5.",
+      "prawda": "Odwrotnie: Ład (EDM) ma 5, Zarządzanie 32 (APO 13, BAI 10, DSS 6, MEA 3)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie liczby głównych obszarów (2) z liczbą domen (5) i odwracanie 5 i 32.",
+    "jakTlumaczyc": "Zacznij od dwóch pięter (Ład, Zarządzanie), potem dopisz domeny i liczby 5 | 13-10-6-3. Suma kontrolna: 13 + 10 + 6 + 3 = 32, plus 5 = 37. Analogia: katalog wzorcowych mebli – wybierasz i przycinasz pod swoje mieszkanie.",
+    "pytanieKontrolne": "Komenda ma tylko 25 procesów. Czy to znaczy, że nie stosuje COBIT 5? Co PRM wnosi do oceny zdolności?",
+    "odpowiedzKontrolna": "Nie – PRM nie jest normatywny, organizacja dobiera i dostosowuje procesy. W ocenie zdolności PRM tworzy wymiar procesu (co oceniamy), a poziomy i atrybuty to wymiar zdolności."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Model oceny procesu (PAM)",
+      "roznica": "PAM ocenia zdolność procesów z PRM. PRM to sam zestaw procesów (wymiar procesu)."
+    }
+  ],
+  "przykladWypowiedzi": "The Process Reference Model (PRM), czyli Referencyjny Model Procesu, zawiera 37 procesów: 5 procesów Ładu w domenie EDM i 32 procesy Zarządzania w domenach APO, BAI, DSS i MEA; nie jest normatywny, więc każda organizacja go dostosowuje.",
+  "egzamin": "Liczby: **5 + 32 = 37** (EDM 5, APO 13, BAI 10, DSS 6, MEA 3). W ocenie zdolności PRM tworzy **wymiar procesu**.",
+  "powiazane": [
+    "edm",
+    "pbrm",
+    "proces",
+    "zasada-5"
+  ],
+  "sylabus": [
+    "PR-01-03",
+    "PR-01-04",
+    "PC-02-03"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 32,
+      "cytat": "Metodyka COBIT 5 nie ma charakteru normatywnego"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "cytat": "Na ilustracji 16 przedstawiono pełny zestaw 37 procesów nadzoru i zarządzania"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16"
+    },
+    {
+      "doc": "SP1",
+      "strona": 10
+    }
+  ],
+  "mapa": "prm"
+}

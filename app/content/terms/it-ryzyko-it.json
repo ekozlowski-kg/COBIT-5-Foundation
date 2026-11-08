@@ -1,0 +1,106 @@
+{
+  "id": "it-ryzyko-it",
+  "en": "IT-related risk",
+  "wymowa": "aj-ti rilejtid risk",
+  "wymowaAkcent": "aj-TI ri-LEJ-tid RISK",
+  "plEgzamin": "Ryzyko związane z IT",
+  "plPodrecznik": "ryzyko związane z IT",
+  "plInne": [
+    "ryzyko IT",
+    "ryzyko informatyczne"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "ryzyko związane z IT (FW-PL s. 22); ryzyko informatyczne (s. 36)",
+    "kurs": "Ryzyko związane z IT (IT-related risk)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Ogólną definicję ryzyka w COBIT 5 (forma egzaminacyjna: „Ryzyko”) opisuje osobne hasło „ryzyko” (lekcja 0.4)."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-incydent",
+    "it-bezpieczenstwo-informacji",
+    "it-dostepnosc"
+  ],
+  "poLudzku": "Możliwość, że przez informatykę coś pójdzie źle – i jak bardzo by to zabolało.",
+  "poziom1": "Ryzyko IT to coś, co **może** się wydarzyć w informatyce (awaria, wyciek danych, opóźniony projekt), razem z tym, jak bardzo jest prawdopodobne i jak duże miałoby skutki dla organizacji.",
+  "poziom2": "Ryzyko ma dwa składniki: prawdopodobieństwo i skutek. Z ryzykiem można: **zmniejszyć** je (np. zapasowy serwer), **przenieść** (np. ubezpieczenie, umowa z dostawcą), **unikać** (zrezygnować z działania) albo świadomie **zaakceptować**. Gdy zdarzenie już nastąpiło, to nie ryzyko, tylko incydent.",
+  "poziom3": "Definicja ryzyka w COBIT 5: *„Połączenie prawdopodobieństwa zdarzenia i jego konsekwencji (ISO/IEC 73).”* (FW-PL s. 93). Pełne hasło [[ryzyko|Ryzyko]] poznasz w lekcji 0.4. Ryzykiem zarządzają procesy EDM03 Zapewnienie optymalizacji ryzyka i APO12 Zarządzanie ryzykiem (s. 33).",
+  "wyobrazSobie": "Jazda zimą na letnich oponach: jeszcze nic się nie stało, ale szansa poślizgu jest spora, a skutek groźny.",
+  "poCo": "Żeby z wyprzedzeniem wiedzieć, co może zawieść, i świadomie zdecydować, co z tym zrobić.",
+  "jakDziala": "Ludzie spisują, co może pójść źle. Dla każdej sprawy oceniają prawdopodobieństwo i skutek. Kierownictwo decyduje: zmniejszamy, przenosimy, unikamy czy akceptujemy. Potem regularnie sprawdza się, czy ocena jest aktualna.",
+  "dlaczegoWazne": "W COBIT 5 utrzymanie ryzyka na rozsądnym poziomie to jeden z trzech głównych celów kierownictwa (poznasz go jako „optymalizację ryzyka”).",
+  "przyklady": {
+    "zycie": "Telefon z ważnymi zdjęciami bez kopii: jeszcze go nie zgubiłeś, ale szansa jest realna, a strata bolesna. To ryzyko. Kopia w Internecie je zmniejsza.",
+    "biuro": "W biurze tylko jedna osoba zna hasło administratora. Gdy zachoruje, nikt nie zmieni ustawień – to ryzyko, które szef zmniejsza, zamykając zapisane hasło w sejfie.",
+    "organizacja": "Sklep internetowy ma jeden serwer. Awaria w grudniu jest mało prawdopodobna, ale kosztowałaby majątek. Sklep wykupuje zapasowy serwer.",
+    "psp": "Sikora wypisuje na tablicy, co może zawieść w „Syrenie”: jedno łącze, brak zasilania awaryjnego, nieaktualne numery. Każda pozycja to ryzyko IT.",
+    "it": "Ryzykiem IT zarządzają EDM03 Zapewnienie optymalizacji ryzyka i APO12 Zarządzanie ryzykiem (FW-PL s. 33)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "ryzyko",
+      "roznica": "Hasło „Ryzyko” (lekcja 0.4) podaje ogólną definicję COBIT 5. To hasło dotyczy ryzyka w informatyce."
+    },
+    {
+      "termin": "it-incydent",
+      "roznica": "Ryzyko może się wydarzyć. Incydent już się dzieje."
+    }
+  ],
+  "przykladWypowiedzi": "IT-related risk, czyli ryzyko związane z IT, to probability and impact, czyli prawdopodobieństwo i skutek, zdarzenia, które może się wydarzyć.",
+  "egzamin": "EDM03 Zapewnienie optymalizacji ryzyka i APO12 Zarządzanie ryzykiem. Na egzaminie: ryzyko dotyczy przyszłości, a optymalizacja ryzyka to nie jego usunięcie.",
+  "powiazane": [
+    "ryzyko",
+    "optymalizacja-ryzyka",
+    "it-bezpieczenstwo-informacji",
+    "it-incydent",
+    "proc-apo12",
+    "proc-edm03"
+  ],
+  "sylabus": [
+    "M0-00-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Połączenie prawdopodobieństwa zdarzenia i jego konsekwencji (ISO/IEC 73)."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 22,
+      "ilustracja": "7",
+      "cytat": "Czy uwzględniłem całe zidentyfikowane ryzyko związane z IT?"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO12 Zarządzanie ryzykiem"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Zostawiasz klucze pod wycieraczką. Złodziej może je znaleźć – to mało prawdopodobne, ale skutek byłby duży. Ryzyko to te dwie rzeczy razem. Gdy ktoś naprawdę wejdzie, to już nie ryzyko, tylko włamanie.",
+    "zaawansowany": "Sikora pisze w rejestrze: „jedno łącze internetowe – awaria raz na kilka lat – wtedy OSP nie dostaje alarmu”. Komendantka nie chce płacić za trzy łącza. Wybiera drugie łącze od innego [[it-dostawca|dostawcy]] – zmniejsza ryzyko do poziomu, który akceptuje. Gdy w lipcu pierwsze łącze pada, mamy [[it-incydent|incydent]], ale alarmy idą drugim.",
+    "skrajny": "Czy włamywacze to ryzyko? To zagrożenie, czyli źródło. Ryzyko to szansa, że wykradną numery ochotników, razem ze skutkami. Czy wczorajsza awaria to ryzyko? Nie – to incydent. Czy zero ryzyka to cel? Nie: zero ryzyka zwykle oznacza zero działania; celem jest ryzyko na akceptowalnym poziomie. **Rozstrzygnięcie:** ryzyko IT to prawdopodobieństwo i skutek zdarzenia, które może się wydarzyć w informatyce; zagrożenie to jego źródło, a zdarzenie, które już nastąpiło, to incydent."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Ryzyko to to samo co zagrożenie.",
+      "prawda": "Zagrożenie to źródło (np. burza, włamywacz). Ryzyko łączy prawdopodobieństwo zdarzenia z jego skutkiem."
+    },
+    {
+      "mit": "Najlepiej usunąć każde ryzyko.",
+      "prawda": "To niemożliwe i za drogie. Ryzyko utrzymuje się na poziomie, który kierownictwo akceptuje."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Nazywanie ryzykiem zagrożenia albo zdarzenia, które już się stało.",
+    "jakTlumaczyc": "Oś czasu: przed zdarzeniem – ryzyko; po – incydent; obok w chmurce – zagrożenie.",
+    "pytanieKontrolne": "„Burza może przerwać łącze i alarmy nie dojdą.” Co tu jest zagrożeniem, a co ryzykiem?",
+    "odpowiedzKontrolna": "Zagrożenie: burza. Ryzyko: szansa przerwania łącza razem ze skutkiem (alarmy nie dochodzą)."
+  }
+}

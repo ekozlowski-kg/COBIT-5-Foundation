@@ -1,0 +1,107 @@
+{
+  "id": "wymiar-zdolnosci",
+  "en": "Capability dimension",
+  "wymowa": "kejpabiliti dajmenszyn",
+  "wymowaAkcent": "kej-pa-BI-li-ti daj-MEN-szyn",
+  "plEgzamin": "Wymiar Zdolności",
+  "plPodrecznik": "Wskaźniki potencjału (Model oceny procesu)",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Wymiar Zdolności",
+    "podrecznik": "Wskaźniki potencjału (Model oceny procesu)",
+    "kurs": "Wymiar Zdolności (Capability dimension)",
+    "uwaga": "Egzamin PL: „Wymiar Zdolności”; podręcznik PL: „Wskaźniki potencjału (Model oceny procesu)” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 42."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Wymiar Zdolności”. Podręcznik (Il. 19): „wskaźniki potencjału: typowe praktyki, typowe zasoby, typowe produkty działań”. „Typowe” znaczy tu „ogólne”, czyli takie same dla wszystkich procesów.",
+  "skadNazwa": "Z angielskiego *capability dimension*. Podręcznik tłumaczy *capability* jako „potencjał”, a *generic* jako „typowe”. W kursie mówimy „zdolność” i „praktyki ogólne”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "wymiary-oceny",
+    "atrybuty-procesu",
+    "wymiar-procesu"
+  ],
+  "poziom1": "Druga oś oceny: poziomy zdolności 0–5 i 9 atrybutów procesu. Wskaźniki są ogólne, wspólne dla wszystkich procesów: praktyki, zasoby i produkty pracy. Odpowiada na pytanie, jak dobrze proces jest prowadzony.",
+  "poLudzku": "Drabina od „robi” do „ciągle poprawia”: te same pytania o każdą robotę, bez względu na jej rodzaj.",
+  "wyobrazSobie": "Oś pionowa wykresu ze szczeblami 0–5: ta sama drabina przy każdym zadaniu.",
+  "poCo": "Żeby wszystkie procesy, choć różne, dało się ocenić tą samą miarą: jak dobrze są prowadzone.",
+  "jakDziala": "Wymiar zdolności to 6 poziomów i 9 atrybutów. Asesor ocenia je ogólnymi wskaźnikami: praktykami, zasobami i produktami pracy, takimi samymi dla każdego procesu. Dowody do PA 1.1 bierze z wymiaru procesu.",
+  "dlaczegoWazne": "Egzamin odróżnia wskaźniki zdolności od wskaźników wykonania. Podręcznikowe „typowe” łatwo źle zrozumieć.",
+  "poziom2": "| Element | Podręcznik PL (Il. 19) | Do czego |\n|---|---|---|\n| 9 atrybutów (PA 1.1 – PA 5.2) | typowe atrybuty potencjału procesu | skala poziomów |\n| praktyki ogólne | typowe praktyki | co robić, żeby spełnić atrybut |\n| zasoby ogólne | typowe zasoby | ludzie, narzędzia, infrastruktura |\n| produkty pracy ogólne | typowe produkty działań | np. plan procesu, standard |\n\nPraktyki ogólne pochodzą z ISO/IEC 15504-2 i **nie zależą od procesu**: te same pytania zadasz w DSS02 i w APO12.",
+  "poziom3": "Il. 19 (s. 42): *„COBIT 5 Model oceny procesu — wskaźniki potencjału”*: typowe praktyki, typowe zasoby, typowe produkty działań. (s. 45): dla wyższych poziomów *„wykorzystuje się typowe praktyki oparte na normie ISO/IEC 15504:2”*. (s. 43): wspólne atrybuty dla wszystkich procesów zdefiniowano na poziomach 2–5.",
+  "przyklady": {
+    "zycie": "Trener ocenia różne sporty tymi samymi pytaniami: czy ćwiczysz według planu, czy masz spisany program, czy mierzysz postępy, czy ulepszasz trening. Pytania są te same dla biegania i pływania. To wymiar zdolności.",
+    "biuro": "Kontrola zadaje te same pytania o obieg dokumentów i o rozliczanie delegacji: czy jest plan, wspólna instrukcja, pomiar i ulepszanie. To wymiar zdolności.",
+    "organizacja": "Audytorka ocenia w firmie fakturowanie i rekrutację. Procesy są zupełnie różne, ale pytania o planowanie, standard, pomiar i ulepszanie są takie same. To wymiar zdolności.\n\nKontrola ocenia w urzędzie wydawanie pozwoleń i obsługę skarg tą samą drabiną 0–5, z tymi samymi atrybutami. To wymiar zdolności.",
+    "psp": "**Te same pytania o dwa procesy.** Audytorka Ewa Lis ocenia w komendzie powiadamianie i kopie zapasowe. Pytania z wymiaru procesu są różne: alarmy i logi Syreny albo kopie i próby ich odtworzenia. Pytania z wymiaru zdolności są wspólne: czy jest plan, standard, pomiar i doskonalenie. To wymiar zdolności.",
+    "it": "Asesor ocenia PA 2.1 w APO12 i w DSS02 tymi samymi praktykami ogólnymi, np. „czy ustalono cele wykonania procesu i czy je monitorowano”. Różne są tylko praktyki bazowe obu procesów."
+  },
+  "glebokosc": {
+    "prosty": "Nauczycielka ocenia wypracowanie i rysunek. Treść jest inna, ale pytania wspólne: czy uczeń zaplanował pracę, oddał ją na czas i poprawił po uwagach. Te wspólne pytania to wymiar zdolności.",
+    "zaawansowany": "Po ocenie [[pa-1-1|PA 1.1]] Ewa Lis przechodzi do wymiaru zdolności. Dla [[pa-2-1|PA 2.1]] pyta o plan i pilnowanie, dla [[pa-3-1|PA 3.1]] o wspólny standard. Używa praktyk ogólnych, takich samych dla każdego procesu. Wynik to poziom z [[poziomy-zdolnosci|drabiny 0–5]]. Treść procesu daje [[wymiar-procesu|wymiar procesu]].",
+    "skrajny": "Nowik pyta: „PA 1.1 to atrybut, więc należy do wymiaru zdolności. Czemu Lis bierze do niego praktyki bazowe?”. To trafne pytanie. Wszystkie 9 atrybutów tworzy skalę wymiaru zdolności. Ale PA 1.1 sprawdza, czy proces osiąga rezultaty, więc jego dowody pochodzą z wymiaru procesu. Ogólne praktyki służą głównie poziomom 2–5. Druga pułapka: „typowe” w podręczniku nie znaczy „przeciętne”, tylko „ogólne, wspólne dla wszystkich procesów”. **Rozstrzygnięcie:** wymiar zdolności to skala atrybutów z ogólnymi wskaźnikami. Poziom 1 sprawdzasz dowodami z wymiaru procesu, a poziomy 2–5 praktykami ogólnymi."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wymiar zdolności zaczyna się od poziomu 2.",
+      "prawda": "Skala obejmuje atrybuty od PA 1.1 do PA 5.2. Tylko dowody do PA 1.1 pochodzą z wymiaru procesu."
+    },
+    {
+      "mit": "„Typowe praktyki” to praktyki, które zwykle stosuje się w danym procesie.",
+      "prawda": "„Typowe” to tłumaczenie *generic*, czyli „ogólne”: te same dla każdego procesu."
+    },
+    {
+      "mit": "Praktyki ogólne zależą od procesu, tak jak praktyki bazowe.",
+      "prawda": "Praktyki bazowe są specyficzne dla procesu. Praktyki ogólne są wspólne dla wszystkich procesów."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli praktyki ogólne z praktykami bazowymi.",
+    "jakTlumaczyc": "Dwie osie wykresu: pozioma to procesy (wymiar procesu), pionowa to poziomy 0–5 (wymiar zdolności). Praktyki bazowe leżą na osi poziomej, ogólne na pionowej.",
+    "pytanieKontrolne": "Czy pytania asesora o PA 2.1 w procesie DSS02 i w procesie APO12 są różne?",
+    "odpowiedzKontrolna": "Nie. PA 2.1 ocenia się praktykami ogólnymi, wspólnymi dla wszystkich procesów. Różne są tylko praktyki bazowe i produkty pracy z wymiaru procesu."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "wymiar-procesu",
+      "roznica": "Wymiar procesu to treść konkretnego procesu (PRM). Wymiar zdolności to wspólna skala atrybutów."
+    },
+    {
+      "termin": "praktyka-bazowa",
+      "roznica": "Praktyka bazowa należy do jednego procesu i do wymiaru procesu. Praktyka ogólna jest wspólna dla wszystkich procesów."
+    }
+  ],
+  "przykladWypowiedzi": "The capability dimension, czyli wymiar zdolności, obejmuje process attributes (atrybuty procesu) i generic practices (praktyki ogólne, w podręczniku: typowe praktyki).",
+  "egzamin": "Wymiar Zdolności = **atrybuty** (poziomy 1–5) i **wskaźniki ogólne** (praktyki, zasoby, produkty pracy). PRM **nie** należy do tego wymiaru.",
+  "powiazane": [
+    "wymiary-oceny",
+    "wymiar-procesu",
+    "atrybuty-procesu",
+    "poziomy-zdolnosci"
+  ],
+  "sylabus": [
+    "PC-02-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "COBIT 5 Model oceny procesu — wskaźniki potencjału"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "wykorzystuje się typowe praktyki oparte na normie ISO/IEC 15504:2"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "zdefiniowano obecnie na poziomach 2–5 modelu oszacowania"
+    }
+  ],
+  "mapa": "wymiar-zdolnosci"
+}

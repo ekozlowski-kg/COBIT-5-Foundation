@@ -1,0 +1,115 @@
+{
+  "id": "aktywatory-ladu",
+  "en": "Governance enablers",
+  "wymowa": "gawernens inejblers",
+  "wymowaAkcent": "GA-wer-nens i-NEJ-blers",
+  "plEgzamin": "Aktywatory Ładu",
+  "plPodrecznik": "Czynniki umożliwiające nadzór",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Aktywatory Ładu",
+    "podrecznik": "Czynniki umożliwiające nadzór",
+    "kurs": "Aktywatory Ładu (Governance enablers)",
+    "uwaga": "Forma kursu: „Aktywatory Ładu” – przyjęta przez analogię (egzamin PL tłumaczy *enabler* jako „aktywator”, a *governance* jako „Ład”). Jako forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL). Podręcznik PL: „Czynniki umożliwiające nadzór” – FW-PL s. 24 (także spis treści s. 7; słownik s. 91 w liczbie pojedynczej)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Forma kursu (analogia, niepotwierdzona na egzaminie): „Aktywatory Ładu”. Podręcznik (s. 24): „Czynniki umożliwiające nadzór”. To ta sama rzecz.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "aktywator",
+    "system-ladu"
+  ],
+  "poLudzku": "Wszystko, czym szefostwo się posługuje, żeby rządzić: zasady, zespoły, procedury, ludzie, informacje, sprzęt.",
+  "skadNazwa": "*Governance enablers*. Słowo *enabler* podręcznik tłumaczy jako „czynnik umożliwiający”, a egzamin jako „aktywator”.",
+  "wyobrazSobie": "Skrzynka z narzędziami majstra: cel to szczelny kran, a aktywatory to klucze, uszczelki i jego umiejętności.",
+  "poCo": "Żeby Ład miał czym działać. Sam cel bez polityk, struktur, procesów i ludzi niczego nie zmienia.",
+  "jakDziala": "Organ Ładu korzysta z zasobów organizacyjnych: metodyk, zasad, struktur, procesów i praktyk. Dochodzą do tego zasoby organizacji: infrastruktura i aplikacje, ludzie, informacje. COBIT 5 opisuje je jednolicie jako 7 kategorii aktywatorów. Gdy któregoś brakuje, spada zdolność tworzenia wartości.",
+  "dlaczegoWazne": "To drugi z czterech komponentów Podejścia do Ładu. Łączy Zasadę 2 z Zasadą 4, czyli z modelem 7 aktywatorów.",
+  "poziom1": "Drugi komponent Podejścia do Ładu: środki, dzięki którym Ład w ogóle działa. To zasoby organizacyjne (np. metodyki, zasady, struktury, procesy, praktyki) oraz zasoby organizacji (np. infrastruktura i aplikacje, ludzie, informacje).",
+  "poziom2": "Dwie grupy (s. 24):\n\n| Grupa | Przykłady z FW-PL |\n|---|---|\n| **zasoby organizacyjne związane z Ładem** | metodyki (struktury ramowe), zasady, struktury, procesy, praktyki |\n| **zasoby organizacji** | zdolność do świadczenia usług (infrastruktura IT, aplikacje), osoby, informacje |\n\nCOBIT 5 traktuje je jednolicie jako 7 kategorii [[aktywator|aktywatorów]] (rozdział 5). Brak aktywatorów może osłabić zdolność organizacji do tworzenia wartości.",
+  "poziom3": "(s. 24): *„Czynniki umożliwiające nadzór to zasoby organizacyjne związane z nadzorem, takie jak metodyki, zasady, struktury, procesy oraz praktyki, na które ukierunkowane jest działanie i które umożliwiają osiągnięcie celów.”* Oraz: *„Brak zasobów lub czynników umożliwiających może wpłynąć na zdolność przedsiębiorstwa do tworzenia wartości.”*",
+  "przyklady": {
+    "zycie": "Rodzice chcą pilnować domowego budżetu. Używają do tego zasady „duże zakupy razem”, wspólnego konta, arkusza wydatków i comiesięcznej rozmowy. Bez tych narzędzi cel „żyć bez długów” zostałby pobożnym życzeniem. To aktywatory Ładu w domu.",
+    "biuro": "Szefowa biura nadzoruje obieg faktur przez regulamin, wyznaczoną osobę zatwierdzającą, program księgowy i cotygodniowe zestawienie. To jej aktywatory Ładu w małej skali.",
+    "organizacja": "Rada spółki prowadzącej sklepy chce nadzorować informatykę. Posługuje się regulaminem zakupów IT, komitetem inwestycyjnym, kwartalnym raportem i ludźmi, którzy umieją go czytać. To aktywatory Ładu: środki, którymi rada sprawuje nadzór.\n\nWójt chce trzymać rękę na pulsie cyfryzacji gminy. Ma do tego zarządzenie o zakupach IT, zespół ds. cyfryzacji, procedurę zgłaszania incydentów i raport z systemu obiegu dokumentów. Każdy z tych elementów to aktywator Ładu.",
+    "psp": "**Czym rządzi komendantka?** Komendantka Anna Wrzos nie ma własnego serwera ani klawiatury w SK (stanowisku kierowania). Rządzi Syreną przez politykę powiadamiania, nową Radę ds. Informatyki, procedurę alarmowania i kwartalny raport kpt. Sikory. To są jej aktywatory Ładu.",
+    "it": "Proces EDM01 (Zapewnienie i utrzymanie ładu korporacyjnego) dba o to, żeby struktury decyzyjne, zasady i inne aktywatory Ładu istniały i działały (interpretacja kursu)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "aktywator",
+      "roznica": "To ta sama koncepcja: 7 kategorii aktywatorów. „Aktywatory Ładu” to nazwa komponentu z Ilustracji 8, czyli spojrzenie na aktywatory jako narzędzia Ładu."
+    },
+    {
+      "termin": "zasob",
+      "roznica": "Nie każdy aktywator jest zasobem. Zasobami są trzy kategorie: informacje; usługi, infrastruktura i aplikacje; ludzie, umiejętności i kompetencje (s. 27)."
+    },
+    {
+      "termin": "zakres-ladu",
+      "roznica": "Zakres mówi, CZEGO dotyczy Ład. Aktywatory mówią, CZYM się go sprawuje."
+    }
+  ],
+  "przykladWypowiedzi": "Governance enablers, czyli aktywatory Ładu, to zasoby organizacyjne, którymi sprawuje się Ład, np. polityki, struktury i procesy.",
+  "egzamin": "„Zasoby organizacyjne związane z Ładem, np. struktury ramowe, zasady, struktury, procesy, praktyki” → **Aktywatory Ładu** (Ilustracja 8). Nie myl z zakresem Ładu ani z rolami, działaniami i relacjami.",
+  "powiazane": [
+    "system-ladu",
+    "aktywator",
+    "komponent-cel-ladu",
+    "zasada-4"
+  ],
+  "sylabus": [
+    "PR-02-08",
+    "PR-01-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 24,
+      "cytat": "Czynniki umożliwiające nadzór to zasoby organizacyjne związane z nadzorem, takie jak metodyki, zasady, struktury, procesy oraz praktyki"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 24,
+      "cytat": "Brak zasobów lub czynników umożliwiających może wpłynąć na zdolność przedsiębiorstwa do tworzenia wartości."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 27,
+      "cytat": "Niektóre zdefiniowane wcześniej czynniki umożliwiające stanowią również zasoby przedsiębiorstwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 23,
+      "ilustracja": "8"
+    }
+  ],
+  "mapa": "aktywatory-ladu",
+  "glebokosc": {
+    "prosty": "Trener chce wygrać ligę. Nie gra sam, tylko używa narzędzi: regulaminu drużyny, planu treningów, kapitana, zawodników i nagrań meczów. Te narzędzia to jego „aktywatory”. Bez nich cel zostaje na papierze.",
+    "zaawansowany": "Komendantka Wrzos ma [[komponent-cel-ladu|Cel Ładu]] dla Syreny, ale cel sam nie działa. Potrzebuje polityki powiadamiania (zasady), Rady ds. Informatyki (struktura organizacyjna), procesu alarmowania i ludzi, którzy znają tryb awaryjny. Gdy jednego brakuje, np. aktualnych danych adresowych, cała Syrena traci wartość. To ilustracja zdania z s. 24: brak aktywatorów osłabia tworzenie wartości.",
+    "skrajny": "Czy przeszkolony dyżurny Paweł Grab to aktywator Ładu, czy już rola operacyjna? Jedno i drugie, tylko w różnych komponentach. Jego umiejętności to aktywator (Ludzie, umiejętności i kompetencje). To, że raportuje kierownictwu, należy do ról, działań i relacji. Podobnie Rada ds. Informatyki: jest aktywatorem (strukturą organizacyjną), choć zasiada w niej organ Ładu. Komponent wynika z pytania: „czym?” to aktywator, „kto komu?” to rola. **Rozstrzygnięcie:** ta sama rzecz może pojawić się w dwóch komponentach; o przypisaniu decyduje pytanie, na które odpowiada (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Aktywatory Ładu to tylko systemy informatyczne.",
+      "prawda": "To także metodyki, zasady, struktury, procesy, praktyki, ludzie i informacje (s. 24)."
+    },
+    {
+      "mit": "Aktywatory Ładu i 7 aktywatorów z Zasady 4 to dwie różne listy.",
+      "prawda": "COBIT 5 opisuje je jednolicie; rozdział 5 omawia te same 7 kategorii."
+    },
+    {
+      "mit": "Każdy aktywator jest zasobem.",
+      "prawda": "Zasobami są tylko informacje; usługi, infrastruktura i aplikacje; ludzie, umiejętności i kompetencje (s. 27)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli aktywatory Ładu z rolami, bo w obu komponentach pojawiają się ludzie.",
+    "jakTlumaczyc": "Każ pytać: „czym?” (narzędzie, czyli aktywator) czy „kto komu?” (relacja, czyli rola). Ludzie jako umiejętności to aktywator. Ludzie jako ogniwo delegowania to rola.",
+    "pytanieKontrolne": "Do którego komponentu Podejścia do Ładu należy polityka powiadamiania podpisana przez komendantkę? Dlaczego nie do Celu Ładu?",
+    "odpowiedzKontrolna": "Do **aktywatorów Ładu** (zasady, polityki i struktury ramowe). Cel Ładu mówi, po co jest system. Polityka to środek, którym ten cel się realizuje."
+  }
+}

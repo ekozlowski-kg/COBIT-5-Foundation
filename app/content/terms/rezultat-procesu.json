@@ -1,0 +1,109 @@
+{
+  "id": "rezultat-procesu",
+  "en": "Process outcome",
+  "wymowa": "prołses ałtkam",
+  "wymowaAkcent": "PROŁ-ses AŁT-kam",
+  "plEgzamin": "Rezultat procesu",
+  "plPodrecznik": "Wynik procesu",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Rezultat procesu",
+    "podrecznik": "Wynik procesu",
+    "kurs": "Rezultat procesu (Process outcome)",
+    "uwaga": "Egzamin PL: „Rezultat procesu”; podręcznik PL: „Wynik procesu” – konkurencyjne odpowiedniki. SP1 używa formy „Rezultaty procesu” (jako jednej z opcji); znaczenie ISO 15504 *process outcome*. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 42, 44, 45."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik (rozdział 8): „wyniki procesu”. Kurs: „rezultat procesu” (forma egzaminacyjna potwierdzona w SP1: „Rezultaty procesu”). Nie myl z „wynikami” jako wyjściami procesu (*outputs*) ani z hasłem „Rezultat” (*output*).",
+  "skadNazwa": "Z angielskiego *process outcome*. Podręcznik słowem „wynik” tłumaczy też *output* (np. „dane wejściowe i wyniki”), stąd zamieszanie.",
+  "kategoria": "egzaminacyjne",
+  "status": "uproszczenie",
+  "poziomP": "P2",
+  "wymaga": [
+    "przeznaczenie-procesu"
+  ],
+  "poziom1": "Obserwowalny efekt osiągnięcia przeznaczenia procesu, np. stan rzeczy, zmiana albo spełniony warunek. Proces ma zwykle kilka rezultatów. Ich osiąganie ocenia się na poziomie 1 skalą N/C/W/P.",
+  "poLudzku": "To, co widać, gdy robota naprawdę spełnia swoje zadanie, np. „każde zgłoszenie dostało odpowiedź”.",
+  "wyobrazSobie": "Lista „po czym poznasz, że ciasto się udało”: rośnie, jest rumiane, w środku suche.",
+  "poCo": "Żeby przeznaczenie dało się sprawdzić: wiadomo, jakie konkretne efekty mają być widoczne.",
+  "jakDziala": "Opis procesu wymienia kilka rezultatów. Asesor sprawdza, czy są osiągane, i ocenia to skalą N/C/W/P. Wynik decyduje o PA 1.1 i o tym, czy proces ma poziom 1.",
+  "dlaczegoWazne": "Rezultat łatwo pomylić z dokumentem wyjściowym, bo podręcznik oba nazywa „wynikami”. Bez rezultatów nie ma poziomu 1.",
+  "poziom2": "| Pojęcie | EN | Przykład (powiadamianie) |\n|---|---|---|\n| [[przeznaczenie-procesu|przeznaczenie]] | purpose | jednostki zaalarmowane bez zwłoki |\n| **rezultat procesu** | **outcome** | każda wezwana jednostka potwierdza odbiór |\n| [[produkt-pracy|produkt pracy]] (wyjście) | work product (output) | log wysyłki, raport |\n\nRezultat to **stan** („jednostki wiedzą”), a nie **dokument** („log”). W *Procesach umożliwiających* rezultatom odpowiadają cele procesu (uproszczenie, spoza korpusu).",
+  "poziom3": "(s. 45): ocenę poziomu 1 zaczyna *„Weryfikacja wyników procesu na podstawie ich charakterystyki zawartej w szczegółowych opisach procesów”*. (s. 45): *„Jeśli wymagany wynik procesu nie jest konsekwentnie uzyskiwany, proces nie osiąga swojego celu”*. Il. 19: „Wyniki procesu” jako pierwszy wskaźnik wydajności.",
+  "przyklady": {
+    "zycie": "Przeznaczenie odkurzania: czysty dom. Rezultaty: na podłodze nie ma okruchów, a pod łóżkiem kurzu. Odkurzacz, który hałasuje godzinę, to czynność, a nie rezultat.",
+    "biuro": "Rezultaty obiegu dokumentów: każde pismo jest zarejestrowane i dociera do adresata w dniu wpływu. Dziennik korespondencji to tylko dowód.",
+    "organizacja": "Rezultaty procesu reklamacji: każda reklamacja ma decyzję w 14 dni, a klient wie, co dalej. Formularz i e-mail to produkty pracy, a nie rezultaty.\n\nRezultat procesu wydawania dowodów: mieszkaniec ma ważny dowód z poprawnymi danymi. Wniosek w systemie to produkt pracy, który ten rezultat potwierdza.",
+    "psp": "**Potwierdzenie z Zawilców.** Audytorka Ewa Lis zapisuje rezultaty procesu powiadamiania. Pierwszy: każda wezwana jednostka potwierdza odbiór alarmu. Drugi: lista numerów odpowiada aktualnemu składowi jednostek. W noc pożaru przy Lipowej pierwszy rezultat nie został osiągnięty, bo OSP Zawilce niczego nie potwierdziła.",
+    "it": "Dla DSS02 rezultatami są m.in. przywrócone usługi i rozwiązane incydenty, a w *Procesach umożliwiających* odpowiadają im cele procesu. Rejestr incydentów to produkt pracy, który te rezultaty potwierdza."
+  },
+  "glebokosc": {
+    "prosty": "Podlewasz kwiaty. Czynność to lanie wody. Rezultat to zielone liście i wilgotna ziemia. Oceniasz rezultat, a nie to, ile razy chwyciłeś konewkę.",
+    "zaawansowany": "Ewa Lis bierze z opisu procesu powiadamiania jego rezultaty i sprawdza, czy są osiągane. Dowodem są [[produkt-pracy|produkty pracy]], np. logi potwierdzeń w Syrenie. Rezultaty osiągane w 82% przypadków dają W na [[pa-1-1|PA 1.1]]. Przy 40% proces miałby [[poziom-0|poziom 0]].",
+    "skrajny": "Sikora pokazuje Lis log Syreny: „Alarm wysłany do wszystkich, więc rezultat osiągnięty”. Lis odpowiada, że log to produkt pracy, czyli dowód wysyłki. Rezultat to stan: jednostka naprawdę wie o alarmie i potwierdza odbiór. W noc pożaru log był, a rezultatu nie było. Druga pułapka: podręcznik pisze „wyniki procesu” o *outcomes*, ale „wyniki” także o wyjściach (*outputs*). Hasło „Rezultat” w kursie to też *output*. **Rozstrzygnięcie:** rezultat procesu to obserwowalny stan albo efekt, a nie dokument. Dokument może być tylko dowodem rezultatu."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Rezultat procesu to dokument wychodzący z procesu.",
+      "prawda": "Dokument to produkt pracy (wyjście). Rezultat to obserwowalny stan, np. „jednostka potwierdziła odbiór”."
+    },
+    {
+      "mit": "„Wyniki” w podręczniku zawsze znaczą wyjścia.",
+      "prawda": "W rozdziale 8 „wyniki procesu” to *outcomes*, czyli rezultaty. Przy produktach działań „wyniki” to *outputs*. Czytaj kontekst."
+    },
+    {
+      "mit": "Rezultat i przeznaczenie to to samo.",
+      "prawda": "Przeznaczenie jest jedno i ogólne („po co”). Rezultatów jest kilka i można je zaobserwować („po czym poznać”)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń bierze dokument (log, raport) za rezultat.",
+    "jakTlumaczyc": "Zapytaj: „Czy to da się położyć na biurku?”. Jeśli tak, to raczej produkt pracy. Rezultat to stan świata, który ten papier potwierdza.",
+    "pytanieKontrolne": "Log Syreny pokazuje wysłanie alarmu do OSP. Czy to dowodzi osiągnięcia rezultatu „jednostka potwierdza odbiór”?",
+    "odpowiedzKontrolna": "Nie. Log to produkt pracy, dowód wysyłki. Rezultat to potwierdzony odbiór przez jednostkę, a log wysyłki tego nie pokazuje."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "rezultat",
+      "roznica": "Hasło „Rezultat” to *output*, czyli to, co bezpośrednio powstało z pracy. Rezultat procesu (*outcome*) to obserwowalny efekt osiągnięcia przeznaczenia."
+    },
+    {
+      "termin": "produkt-pracy",
+      "roznica": "Produkt pracy to artefakt (dokument, log). Rezultat to stan, który ten artefakt może potwierdzać."
+    },
+    {
+      "termin": "przeznaczenie-procesu",
+      "roznica": "Przeznaczenie mówi, po co jest proces. Rezultaty mówią, po czym to poznać."
+    }
+  ],
+  "przykladWypowiedzi": "A process outcome, czyli rezultat procesu (w podręczniku: wynik procesu), to obserwowalny efekt osiągnięcia przeznaczenia. Nie myl go z output, czyli wyjściem.",
+  "egzamin": "Poziom 1 sprawdza, czy **rezultaty** procesu są osiągane. Rezultat to obserwowalny efekt osiągnięcia **przeznaczenia**.",
+  "powiazane": [
+    "pojecia-iso15504",
+    "przeznaczenie-procesu",
+    "produkt-pracy",
+    "pa-1-1"
+  ],
+  "sylabus": [
+    "PC-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "Weryfikacja wyników procesu na podstawie ich charakterystyki zawartej w szczegółowych opisach procesów"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "Jeśli wymagany wynik procesu nie jest konsekwentnie uzyskiwany, proces nie osiąga swojego celu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "Wyniki procesu"
+    }
+  ],
+  "mapa": "rezultat-procesu"
+}

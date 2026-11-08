@@ -1,0 +1,132 @@
+{
+  "id": "proc-apo03",
+  "en": "APO03 Manage Enterprise Architecture",
+  "wymowa": "ejpio 03 menydż enterprajz arkitekczer",
+  "wymowaAkcent": "ej-pi-O 03 ME-nydż EN-ter-prajz AR-ki-tek-czer",
+  "plEgzamin": "APO03 Zarządzanie architekturą korporacyjną",
+  "plPodrecznik": "APO03 Zarządzanie architekturą korporacyjną",
+  "plInne": [
+    {
+      "nazwa": "Zarządzanie architekturą przedsiębiorstwa",
+      "zrodlo": "atlas „Prosto” (opracowanie nieoficjalne)"
+    },
+    {
+      "nazwa": "Architektura Korporacyjna / Architektura Przedsiębiorstwa (sam termin, bez nazwy procesu)",
+      "zrodlo": "SP1"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO03 Zarządzanie architekturą korporacyjną",
+    "podrecznik": "APO03 Zarządzanie architekturą korporacyjną",
+    "kurs": "APO03 Zarządzanie architekturą korporacyjną (APO03 Manage Enterprise Architecture)",
+    "uwaga": "Egzamin PL i podręcznik zgodne, ale w obiegu są konkurencyjne odpowiedniki: Zarządzanie architekturą przedsiębiorstwa; Architektura Korporacyjna / Architektura Przedsiębiorstwa (sam termin, bez nazwy procesu). SP1 używa samego „Architektura Korporacyjna” (kategoria umiejętności), nie pełnej nazwy procesu APO03. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 74. Inne formy w obiegu: Zarządzanie architekturą przedsiębiorstwa (atlas „Prosto” (opracowanie nieoficjalne)); Architektura Korporacyjna / Architektura Przedsiębiorstwa (sam termin, bez nazwy procesu) (SP1)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie APO03 i słowie kluczowym EN *Enterprise Architecture*. Sam termin bywa na egzaminie tłumaczony jako „Architektura Korporacyjna” albo „Architektura Przedsiębiorstwa”. Pełnej egzaminacyjnej nazwy procesu nie potwierdziliśmy.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "zasady-architektury",
+    "uslugi-infrastruktura-aplikacje"
+  ],
+  "poLudzku": "Plan, jak systemy, dane i działania organizacji łączą się ze sobą i według jakich reguł je budujemy.",
+  "wyobrazSobie": "Plan zagospodarowania miasta: strefy, drogi i zasady zabudowy, do których musi pasować każdy nowy budynek.",
+  "poCo": "Żeby systemy, dane i działania organizacji pasowały do siebie, a nowe rozwiązania nie tworzyły chaosu.",
+  "jakDziala": "Kierownictwo IT opisuje architekturę obecną i docelową w warstwach: działania, informacje, aplikacje, technologia. Ustala zasady i standardy architektury. Każde nowe rozwiązanie sprawdza się z tym opisem.",
+  "dlaczegoWazne": "Architektura wiąże strategię z budową rozwiązań. Na egzaminie myli się ze strategią (APO02) i z konfiguracją (BAI10).",
+  "skadNazwa": "EN *Manage Enterprise Architecture*. *Enterprise* egzamin zwykle tłumaczy jako „organizacja”, ale tu zostaje „Architektura Korporacyjna”. To nie architektura budynków. To opis, jak poskładane są działania, informacje, aplikacje i technologia.",
+  "poziom1": "Proces Zarządzania o architekturze. Opisuje, jak poskładane są działania organizacji, informacje, aplikacje i technologia, i ustala zasady dalszej budowy. Dzięki temu nowe systemy pasują do starych.",
+  "poziom2": "**Czym się zajmuje:** utrzymuje opis architektury obecnej i docelowej oraz [[zasady-architektury]].\n\n**Wejścia (intuicja):** strategia z [[proc-apo02]], potrzeby organizacji, ograniczenia technologii.\n\n**Wyjścia (intuicja):** modele architektury, zasady i standardy, „klocki” wielokrotnego użytku, opinie o planowanych rozwiązaniach.\n\n**Współpraca:** zasila [[proc-apo02]] i [[proc-apo05]], wyznacza ramy dla BAI02 i BAI03 (wymagania, budowa rozwiązań). Szczegółową ewidencję elementów konfiguracji prowadzi BAI10.",
+  "poziom3": "Il. 16 (s. 33): „APO03 Zarządzanie architekturą korporacyjną”. Załącznik E (s. 61): TOGAF 9 obejmuje *„proces związany z architekturą korporacyjną w domenie APO”*. Słownik (s. 89): Rada ds. Architektury to *„Grupa interesariuszy i ekspertów odpowiedzialna za wytyczne odnoszące się do kwestii i decyzji dotyczących architektury korporacyjnej”*. Il. 39 (s. 88) wymienia „Architektura korporacyjna” wśród kategorii umiejętności APO. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Przed remontem rysujesz plan mieszkania: gdzie biegną rury, prąd i internet. Ustalasz zasadę: wszystkie gniazdka w jednym standardzie. Dzięki temu nowa pralka pasuje bez kucia ścian. To architektura.",
+    "biuro": "Biuro ustala zasadę: dane klientów tylko w jednym programie, a inne programy z niego korzystają. Gdy ktoś chce kupić nowy program z własną listą klientów, kierownik odmawia.",
+    "organizacja": "Hurtownia ma sklep, magazyn, płatności i księgowość. Architekt IT rysuje, kto z kim wymienia dane. Ustala zasadę: dane klienta tylko w jednym systemie. Nowy moduł musi pasować do tego planu. To APO03. Powiat ma osobne systemy ewidencji, podatków i kadr. Zespół architektury opisuje ich połączenia i wprowadza zasadę: jeden rejestr mieszkańców dla wszystkich. Każdy nowy zakup musi się w tym zmieścić. To APO03.",
+    "psp": "**Trzy listy numerów.** Naczelnik Marek Sikora odkrywa, że numery OSP są w trzech miejscach: w Syrenie, w arkuszu SK i w telefonie Graba. Rysuje, jak Syrena łączy się z CPR 112, bazą numerów i bramką SMS. Ustala zasadę: jedna baza numerów dla wszystkich systemów. To jest [[proc-apo03|APO03]].",
+    "it": "Rada ds. Architektury zatwierdza docelową architekturę i zasady integracji systemów, np. jedno źródło danych o klientach. To APO03. Ewidencję elementów prowadzi [[proc-bai10]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-apo02",
+      "roznica": "APO02 mówi, dokąd idziemy i w jakiej kolejności. APO03 opisuje budowę i zasady budowy."
+    },
+    {
+      "termin": "proc-bai10",
+      "roznica": "BAI10 prowadzi ewidencję konkretnych elementów konfiguracji (ten serwer, ta wersja). APO03 opisuje architekturę i zasady na wyższym poziomie."
+    },
+    {
+      "termin": "zasady-architektury",
+      "roznica": "Zasady architektury to element aktywatora Zasady, polityki i struktury ramowe. APO03 to proces, który je tworzy i utrzymuje."
+    }
+  ],
+  "przykladWypowiedzi": "APO03 *Manage Enterprise Architecture*, czyli „Zarządzanie architekturą korporacyjną”, utrzymuje modele i zasady architektury; wykaz konkretnych elementów i wersji to BAI10 *Manage Configuration*.",
+  "egzamin": "Słowa-klucze: **architektura biznesu, informacji, aplikacji i technologii; zasady architektury; Rada ds. Architektury; TOGAF** → APO03. Kategoria umiejętności „Architektura korporacyjna” należy do domeny APO (il. 39).",
+  "powiazane": [
+    "apo",
+    "zasady-architektury",
+    "proc-apo02",
+    "proc-bai10",
+    "uslugi-infrastruktura-aplikacje"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO03 Zarządzanie architekturą korporacyjną"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 61,
+      "cytat": "proces związany z architekturą korporacyjną w domenie APO"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 89,
+      "cytat": "Grupa interesariuszy i ekspertów odpowiedzialna za wytyczne odnoszące się do kwestii i decyzji dotyczących architektury korporacyjnej"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39",
+      "cytat": "Architektura korporacyjna"
+    },
+    {
+      "doc": "SP1",
+      "strona": 10
+    }
+  ],
+  "mapa": "proc-apo03",
+  "glebokosc": {
+    "prosty": "Budujesz dom z klocków. Najpierw ustalasz plan: gdzie kuchnia, gdzie łazienka, jak biegną rury. Każdy nowy pokój musi pasować do planu. Dzięki temu nic nie trzeba burzyć.",
+    "zaawansowany": "Kwant-Sygnał proponuje komendzie nowy moduł z własną bazą numerów. Naczelnik Sikora porównuje go z architekturą komendy. Zasada mówi: jedna baza numerów dla wszystkich systemów. Moduł musi więc korzystać z istniejącej bazy. Strategia z [[proc-apo02]] mówiła, *że* moduł ma powstać. Architektura (APO03) mówi, *jak* ma pasować.",
+    "skrajny": "Dudek prowadzi tabelę: serwer S1, Syrena w wersji 4.2, bramka SMS podłączona do S1. Czy to architektura korporacyjna? Nie. To ewidencja konkretnych elementów konfiguracji i ich powiązań, czyli BAI10. Architektura działa poziom wyżej: opisuje warstwy (działania, informacje, aplikacje, technologia) i zasady budowy. Uwaga też na Ład: Framework łączy nadzór nad architekturą z optymalizacją zasobów w EDM (s. 61). Ład nad architekturą to więc EDM04, a samo zarządzanie architekturą zostaje w APO03. **Rozstrzygnięcie:** model i zasady budowy całości → APO03; wykaz konkretnych elementów i wersji → BAI10; nadzór nad zasobami, w tym nad architekturą → EDM04."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Architektura korporacyjna to plan budynków firmy.",
+      "prawda": "To opis działań, informacji, aplikacji i technologii organizacji oraz zasad ich budowy."
+    },
+    {
+      "mit": "Architektura to sprawa czysto techniczna: serwery i sieci.",
+      "prawda": "Technologia to tylko jedna warstwa. Są też warstwy biznesu, informacji i aplikacji."
+    },
+    {
+      "mit": "Lista serwerów i wersji to architektura.",
+      "prawda": "To ewidencja konfiguracji (BAI10). Architektura opisuje całość i zasady."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli architekturę ze strategią (APO02) albo z ewidencją konfiguracji (BAI10).",
+    "jakTlumaczyc": "Plan zagospodarowania miasta: strefy, drogi, zasady zabudowy. To APO03. Rejestr konkretnych budynków z numerami to BAI10. Decyzja, w którą stronę miasto ma rosnąć, to APO02.",
+    "pytanieKontrolne": "Zespół ustala zasadę: „nie kupujemy systemu, który ma własną, osobną bazę klientów”. Który to proces?",
+    "odpowiedzKontrolna": "APO03, bo to zasada architektury. Ustala, jak systemy mają być poskładane."
+  }
+}

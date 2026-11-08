@@ -1,0 +1,121 @@
+{
+  "id": "proc-bai05",
+  "en": "BAI05 Manage Organisational Change Enablement",
+  "wymowa": "biejaj 05 menydż organajzejszynal czejndż inejblment",
+  "wymowaAkcent": "bi-ej-AJ 05 ME-nydż or-ga-naj-ZEJ-szy-nal czejndż i-NEJ-bl-ment",
+  "plEgzamin": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych",
+  "plPodrecznik": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych",
+  "plInne": [
+    {
+      "nazwa": "Zarządzanie umożliwianiem zmiany organizacyjnej",
+      "zrodlo": "opracowanie „Prosto, krok po kroku” (nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych",
+    "podrecznik": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych",
+    "kurs": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych (BAI05 Manage Organisational Change Enablement)",
+    "uwaga": "Egzamin PL i podręcznik zgodne, ale w obiegu są konkurencyjne odpowiedniki: Zarządzanie umożliwianiem zmiany organizacyjnej. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 60. Inne formy w obiegu: Zarządzanie umożliwianiem zmiany organizacyjnej (opracowanie „Prosto, krok po kroku” (nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „BAI05 Zarządzanie wdrażaniem zmian organizacyjnych”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Organisational Change Enablement*. Uwaga na podobne nazwy: BAI06 „Zarządzanie zmianami” to kontrola zmian w systemach, a nie zmiana nawyków ludzi. Słowo *enablement* egzamin tłumaczy w module wdrożenia jako „Aktywowanie / Aktywacja zmiany” (podręcznik: „Umożliwienie zmian”), więc w nazwie BAI05 na egzaminie może pojawić się podobne słowo.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "bai",
+    "pierscien-zmiana"
+  ],
+  "poLudzku": "Przygotowujesz ludzi na nowy sposób pracy, żeby go zrozumieli, przyjęli i nie wrócili do starych nawyków.",
+  "wyobrazSobie": "Wprowadzasz w domu segregację śmieci. Tłumaczysz, wieszasz kartkę, chwalisz i pilnujesz, aż wszyscy robią to odruchowo.",
+  "skadNazwa": "Z angielskiego *Manage Organisational Change Enablement*, dosłownie „umożliwianie zmiany w organizacji”. Podręcznik tłumaczy to jako „wdrażanie zmian organizacyjnych”. Chodzi o ludzi i kulturę, nie o serwery.",
+  "poziom1": "Proces domeny [[bai]] od ludzkiej strony zmiany: chęć zmiany, zespół wdrożeniowy, komunikacja celu, pierwsze sukcesy, przygotowanie do pracy po nowemu i utrwalenie nowych nawyków. Ma sprawić, że organizacja naprawdę przyjmie zmianę, a nie tylko dostanie nowe narzędzie.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** budzi chęć zmiany, tworzy zespół wdrożeniowy, komunikuje wizję, daje ludziom uprawnienia i pokazuje szybkie sukcesy, przygotowuje do działania i użytkowania, wpisuje nowe podejście w codzienność i podtrzymuje zmianę.\n\n**Wejścia (intuicja):** cele i plan programu ([[proc-bai01]]), opis nowego rozwiązania, wyniki analizy interesariuszy.\n\n**Wyjścia (intuicja):** plan komunikacji, plan szkoleń, mapa oporu i sojuszników, ocena przyjęcia zmiany.\n\n**Współpracuje z:** [[proc-bai01]] (program), [[proc-bai07]] (przejście do eksploatacji), [[proc-bai08]] (wiedza dla użytkowników), APO07 (kompetencje ludzi), aktywatorem [[kultura-etyka-zachowanie]].",
+  "poziom3": "Oficjalnie (FW-PL, s. 60): *„Procesy COBIT 5 BAI05 Zarządzanie wdrażaniem zmian organizacyjnych oraz BAI08 Zarządzanie wiedzą zapewniają użytkownikom możliwość efektywnego korzystania z systemów.”* Ten sam temat w module wdrożenia to pierścień „Umożliwienie zmian” (s. 37): za *„małą wagę przywiązuje się do zarządzania tymi aspektami zmiany, które dotyczą osób, zachowania i kultury”*. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby ludzie przyjęli zmianę, a nie tylko dostali nowe narzędzie. Bez tego zmiana zostaje na papierze.",
+  "jakDziala": "Budzisz chęć zmiany i tworzysz zespół wdrożeniowy. Komunikujesz wizję, dajesz ludziom uprawnienia i pokazujesz szybkie sukcesy. Wspierasz pracę po nowemu, osadzasz nowe podejścia i utrwalasz zmianę.",
+  "dlaczegoWazne": "Na egzaminie nie myl BAI05 (ludzie i organizacja) z BAI06 (zmiany w systemach). Praktyki BAI05 odpowiadają pierścieniowi Aktywowanie zmiany.",
+  "przyklady": {
+    "zycie": "Babcia dostaje smartfon zamiast starej komórki. Wnuczka nie tylko daje jej telefon. Tłumaczy, po co jej wideorozmowy, uczy po kawałku, chwali za pierwszy wysłany SMS i przez miesiąc dzwoni z pytaniem, jak idzie. To BAI05 w domowej skali.",
+    "biuro": "Biuro przechodzi na nowy sposób rozliczania delegacji. Szefowa tłumaczy powody, szkoli w małych grupach i wyznacza osobę do pytań.",
+    "organizacja": "Hurtownia przechodzi na skanery: kierowniczka pyta magazynierów o obawy i robi ze sceptyka ambasadora. Sekretarz gminy szkoli urzędników z e-obiegu i po pół roku wycofuje papierowe dzienniki.",
+    "psp": "**Starzy dyżurni i nowy ekran.** Po wdrożeniu nowej Syreny asp. sztab. Paweł Grab dalej woli dzwonić do OSP z telefonu. Komendantka Wrzos tłumaczy na odprawie, po co jest zmiana, i przypomina noc na Lipowej. Kasia Nowik zostaje „ambasadorką” i pomaga kolegom na zmianach. Po miesiącu Grab pierwszy chwali się alarmem w 40 sekund. Przekonanie ludzi do nowego sposobu pracy to [[proc-bai05]].",
+    "it": "Siedem praktyk BAI05 to m.in. ustanowienie chęci zmiany, komunikowanie wizji, umożliwienie działania i użytkowania oraz utrzymanie zmian."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-bai06",
+      "roznica": "BAI06 ocenia, zatwierdza i kontroluje zmiany w systemach. BAI05 dba, żeby ludzie przyjęli nowy sposób pracy."
+    },
+    {
+      "termin": "proc-bai07",
+      "roznica": "BAI07 odbiera rozwiązanie i przenosi je do eksploatacji. BAI05 sprawia, że po przeniesieniu ludzie z niego naprawdę korzystają."
+    },
+    {
+      "termin": "pierscien-zmiana",
+      "roznica": "Pierścień „Umożliwienie zmian” to element cyklu wdrażania COBIT w organizacji. BAI05 to proces, który robi to samo dla każdej zmiany wspieranej przez IT."
+    }
+  ],
+  "przykladWypowiedzi": "BAI05 Manage Organisational Change Enablement, czyli Zarządzanie wdrażaniem zmian organizacyjnych, przygotowuje ludzi, a nie systemy.",
+  "egzamin": "Słowa-klucze: opór, kultura, zachowania, komunikacja zmiany, „ludzie nie korzystają”, szybkie sukcesy → **BAI05**. Ocena i autoryzacja zmiany w systemie → **BAI06**. Odbiór i uruchomienie → **BAI07**.",
+  "powiazane": [
+    "bai",
+    "kultura-etyka-zachowanie",
+    "cykl-wdrozenia",
+    "proc-bai06",
+    "proc-bai07",
+    "proc-bai08"
+  ],
+  "sylabus": [
+    "PR-01-04",
+    "IM-02-05"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych oraz BAI08 Zarządzanie wiedzą zapewniają użytkownikom możliwość efektywnego korzystania z systemów"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 37,
+      "cytat": "małą wagę przywiązuje się do zarządzania tymi aspektami zmiany, które dotyczą osób, zachowania i kultury"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "proc-bai05",
+  "glebokosc": {
+    "prosty": "Kupujesz rodzinie zmywarkę. Mąż dalej myje ręcznie, bo „tak szybciej”. Pokazujesz mu, jak ją załadować w minutę, i chwalisz pierwszy raz. Po miesiącu nikt już nie pamięta zlewu. To jest zmiana przyjęta przez ludzi.",
+    "zaawansowany": "Nowa Syrena jest odebrana i działa. Mimo to część dyżurnych nadal dzwoni do OSP z telefonu, bo „tak zawsze było”. Komendantka Wrzos tłumaczy cel, Nowik pomaga na zmianach, a pierwsze sukcesy są ogłaszane na odprawie. To [[proc-bai05]]. Wiedzę i instrukcje dla dyżurnych utrzymuje [[proc-bai08]], a samo uruchomienie systemu było w [[proc-bai07]].",
+    "skrajny": "Wdrożenie nowej Syreny ma trzy wątki, które w rozmowie zlewają się w „zarządzanie zmianą”. Sikora składa wniosek o zmianę, a Rada ds. Informatyki ocenia wpływ i ją zatwierdza – BAI06. Dyżurni robią testy odbiorcze na stanowisku zapasowym, potem następuje przełączenie – BAI07. Grab i inni doświadczeni dyżurni opierają się nowemu ekranowi – BAI05. Pułapka: BAI06 w podręczniku nazywa się po prostu „Zarządzanie zmianami” i kusi przy pytaniach o ludzi. **Rozstrzygnięcie:** ludzie, kultura i opór → BAI05. Ocena, zatwierdzenie i kontrola zmiany → BAI06. Odbiór i przejście do eksploatacji → BAI07."
+  },
+  "zagmatwania": [
+    {
+      "mit": "„Zarządzanie zmianami” (BAI06) to proces od oporu ludzi.",
+      "prawda": "Opór, komunikacja i nawyki to BAI05. BAI06 kontroluje zmiany w systemach i procesach."
+    },
+    {
+      "mit": "Szkolenie przed uruchomieniem załatwia sprawę.",
+      "prawda": "BAI05 obejmuje też utrwalenie i podtrzymanie zmiany, żeby ludzie nie wrócili do starych nawyków."
+    },
+    {
+      "mit": "BAI05 dotyczy tylko dużych reorganizacji.",
+      "prawda": "Dotyczy każdej zmiany wspieranej przez IT, która zmienia sposób pracy ludzi, także nowego ekranu dla dyżurnych."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń zaznacza BAI06 przy każdym pytaniu ze słowem „zmiana”, nawet gdy chodzi o opór pracowników.",
+    "jakTlumaczyc": "Zapytaj: „Co trzeba zmienić – system czy ludzi?”. System → BAI06 i BAI07. Ludzie i ich nawyki → BAI05.",
+    "pytanieKontrolne": "Nowa Syrena przeszła testy i działa, ale po dwóch miesiącach połowa dyżurnych nadal dzwoni do OSP z telefonu. Który proces zawiódł?",
+    "odpowiedzKontrolna": "**BAI05** – zmiana nie została przyjęta i utrwalona w zachowaniu ludzi. BAI06 i BAI07 zrobiły swoje: zmianę zatwierdzono, odebrano i uruchomiono."
+  }
+}

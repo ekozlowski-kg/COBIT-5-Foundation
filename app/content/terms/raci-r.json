@@ -1,0 +1,104 @@
+{
+  "id": "raci-r",
+  "en": "Responsible (R)",
+  "wymowa": "risponsybl",
+  "wymowaAkcent": "ri-SPON-sy-bl",
+  "plEgzamin": "Odpowiedzialny wykonawczo (R)",
+  "plPodrecznik": "Strona odpowiedzialna",
+  "plInne": [],
+  "statusTlumaczenia": "D",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Odpowiedzialny wykonawczo (R)",
+    "podrecznik": "Strona odpowiedzialna",
+    "kurs": "Odpowiedzialny wykonawczo (R) – Responsible",
+    "uwaga": "Litera R = Responsible. PL „Odpowiedzialny wykonawczo” nie oddaje litery; pomylenie z A (Accountable) zmienia sens. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 30, 72, 75."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „strona odpowiedzialna”. Po polsku „odpowiedzialny” brzmi jak ten, kto odpowiada za wynik, a to jest A. Egzamin pisze „odpowiedzialny wykonawczo”: R wykonuje.",
+  "skadNazwa": "*Responsible* to po angielsku „odpowiedzialny za wykonanie”. Podręcznik: „strona odpowiedzialna”, egzamin: „odpowiedzialny wykonawczo”. Dopisek „wykonawczo” chroni przed pomyleniem z A.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "raci"
+  ],
+  "mapa": "raci-r",
+  "poziom1": "R to osoba lub rola, która wykonuje zadanie. W tabeli RACI odpowiada na pytanie: kto zajmuje się realizacją zadania? To role najbardziej zaangażowane operacyjnie, czyli ci, którzy robią robotę.",
+  "poLudzku": "Ten, kto własnymi rękami robi daną robotę.",
+  "wyobrazSobie": "Ekipa remontowa z kielnią w ręku: oni robią, ale za cały remont odpowiada inwestor.",
+  "poCo": "Żeby przy każdym działaniu było jasne, kto wykonuje pracę.",
+  "jakDziala": "W tabeli RACI przy działaniu wpisujesz R tym rolom, które zajmują się realizacją zadania. Przy jednym działaniu może być kilka ról R (A zwykle jest jeden – praktyka tabel RACI, interpretacja kursu, nie FW-PL). R uwzględnia wejścia od C i w razie potrzeby eskaluje problem.",
+  "dlaczegoWazne": "Pułapka tłumaczenia: podręcznikowa „strona odpowiedzialna” to R, a nie A. Egzamin dopisuje „wykonawczo”, żeby to rozróżnić.",
+  "poziom2": "| | R – Odpowiedzialny wykonawczo |\n|---|---|\n| Pytanie RACI | Kto **zajmuje się realizacją** zadania? |\n| Kim jest | rolą **najbardziej zaangażowaną operacyjnie** |\n| Ile R przy działaniu | może być **kilka** ról R (w odróżnieniu od jednego A – praktyka tabel RACI, interpretacja kursu, nie FW-PL) |\n| Czym nie jest | nie jest rozliczany za sukces (to A) |\n\nR musi uwzględnić wejścia od C i w razie potrzeby uruchomić eskalację (słownik, s. 90).",
+  "poziom3": "Słownik (s. 93): strona odpowiedzialna *„Odnosi się do osoby, która musi zadbać o skuteczną realizacje działań.”* W tabeli RACI: *„Kto zajmuje się realizacją zadania?”* To *„role w największym stopniu zaangażowane operacyjnie w wykonywanie wymienionych działań”*.",
+  "przyklady": {
+    "zycie": "Przy przeprowadzce kolega z bratem noszą kartony do auta. Oni są R: wykonują pracę. Ty decydujesz i odpowiadasz za całą przeprowadzkę, więc jesteś A.",
+    "biuro": "W biurze rachunkowym asystentka wprowadza faktury do programu. Przy tym zadaniu jest R. Księgowa, która podpisuje deklarację i odpowiada za jej poprawność, jest A.",
+    "organizacja": "W biurze podróży konsultantka rezerwuje klientowi hotel i bilety. Jest R, bo wykonuje zadanie. Kierowniczka biura, która odpowiada za zadowolenie klienta, jest A. W urzędzie inspektor przygotowuje projekt decyzji o dodatku. Jest R. Kierownik działu, który ją podpisuje i odpowiada za jej poprawność, jest A.",
+    "psp": "W tabeli RACI aktualizacji numerów w Syrenie informatyczka Ola Dudek ma literę R. To ona co miesiąc wpisuje nowe numery ochotników OSP. Naczelnik Marek Sikora ma A, bo odpowiada za to, żeby lista była dobra. Dudek robi, Sikora odpowiada.",
+    "it": "W tabeli RACI procesu DSS02 przy rozwiązywaniu incydentów literę R mają zwykle role operacyjne, np. kierownik usług IT i zespoły wsparcia (przykład kursu, nie cytat z tabeli)."
+  },
+  "glebokosc": {
+    "prosty": "Gdy malujecie płot, ten z pędzlem w ręku jest R. Robi robotę. Nie musi decydować o kolorze ani płacić za farbę. Po prostu wykonuje zadanie.",
+    "zaawansowany": "Ola Dudek ma R przy aktualizacji numerów w Syrenie. Zanim wpisze zmiany, pyta naczelnika OSP Stanisława Pietrzaka, czy lista jest pełna. On jest [[raci-c|C]]. Gdy Pietrzak nie odpowiada od tygodnia, Dudek nie zostawia sprawy. Zgłasza ją Sikorze, który ma [[raci-a|A]]. Tak R uwzględnia wejścia od C i w razie potrzeby eskaluje.",
+    "skrajny": "Kursant czyta w podręczniku „strona odpowiedzialna” i zaznacza osobę, która odpowiada za wynik. To pułapka tłumaczenia. Po polsku „odpowiedzialny” kojarzy się z tym, kto ponosi konsekwencje, a to jest A (rozliczany). Egzamin dodaje słowo „wykonawczo”, żeby to rozróżnić. Drugi przypadek: Sikora sam naprawia serwer w nocy, bo nikogo nie ma. Wykonuje pracę, ale w tabeli nadal ma A, bo literę wyznacza rola przy zadaniu, a nie jedna noc. **Rozstrzygnięcie:** R to ten, kto wykonuje zadanie. Podręcznikowa „strona odpowiedzialna” to R, a odpowiedzialność za sukces to A."
+  },
+  "zagmatwania": [
+    {
+      "mit": "„Strona odpowiedzialna” w podręczniku to osoba odpowiadająca za wynik.",
+      "prawda": "To R, czyli wykonawca. Za wynik odpowiada A (strona rozliczana)."
+    },
+    {
+      "mit": "R zawsze stoi najniżej w hierarchii.",
+      "prawda": "R to rola najbardziej zaangażowana operacyjnie. Przy niektórych zadaniach może nią być nawet członek kierownictwa (interpretacja kursu)."
+    },
+    {
+      "mit": "R tylko wykonuje polecenia i nie musi z nikim rozmawiać.",
+      "prawda": "R musi uwzględnić wejścia od C i w razie potrzeby eskalować problem (słownik, s. 90)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli R z A przez podręcznikowe słowo „odpowiedzialny”.",
+    "jakTlumaczyc": "Mów: R = Robi. Pokaż, że egzamin dopisuje „wykonawczo”, a podręcznik nie, i dlatego podręcznik łatwiej myli.",
+    "pytanieKontrolne": "W podręczniku PL czytasz „strona odpowiedzialna”. Która to litera RACI i jak egzamin ją nazywa?",
+    "odpowiedzKontrolna": "To **R**, na egzaminie **„odpowiedzialny wykonawczo”**: osoba, która wykonuje zadanie."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "raci-a",
+      "roznica": "R wykonuje zadanie. A odpowiada za jego powodzenie i jest z niego rozliczany."
+    },
+    {
+      "termin": "raci-c",
+      "roznica": "R robi robotę. C tylko dostarcza wejścia (opinie, dane) w dwukierunkowej rozmowie."
+    }
+  ],
+  "przykladWypowiedzi": "Responsible, czyli odpowiedzialny wykonawczo (R), is the role that performs the task.",
+  "egzamin": "„Kto **wykonuje** zadanie / zajmuje się jego realizacją” → **R**. Uwaga na podręcznikowe „strona odpowiedzialna”: to R, a nie A.",
+  "powiazane": [
+    "raci",
+    "raci-a",
+    "raci-c",
+    "raci-i"
+  ],
+  "sylabus": [
+    "EN-02-25"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Kto zajmuje się realizacją zadania?"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Role w największym stopniu zaangażowane operacyjnie w wykonywanie wymienionych działań"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 90,
+      "cytat": "podjąć właściwe działania związane z eskalacją"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "proc-mea03",
+  "en": "MEA03 Monitor, Evaluate and Assess Compliance with External Requirements",
+  "wymowa": "emiej 03 moniter iweljuejt end ases komplajens łiz eksternal rikłajerments",
+  "wymowaAkcent": "em-i-EJ 03 MO-ni-ter i-WE-lju-ejt end a-SES kom-PLAJ-ens łiz eks-TER-nal ri-KŁAJ-er-ments",
+  "plEgzamin": "MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi",
+  "plPodrecznik": "MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi",
+  "plInne": [
+    {
+      "nazwa": "Monitorowanie i ocena zgodności z wymaganiami zewnętrznymi",
+      "zrodlo": "opracowanie „Prosto, krok po kroku” (nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi",
+    "podrecznik": "MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi",
+    "kurs": "MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi (MEA03 Monitor, Evaluate and Assess Compliance with External Requirements)",
+    "uwaga": "Egzamin PL i podręcznik zgodne, ale w obiegu są konkurencyjne odpowiedniki: Monitorowanie i ocena zgodności z wymaganiami zewnętrznymi. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 59. Inne formy w obiegu: Monitorowanie i ocena zgodności z wymaganiami zewnętrznymi (opracowanie „Prosto, krok po kroku” (nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Compliance with External Requirements*. Domena MEA na egzaminie to „Monitoruj, Oszacuj i Oceń”, więc nazwy procesów MEA mogą tam brzmieć np. trybem rozkazującym. „Zgodność” w MEA03 to *compliance* (prawo, regulacje, umowy), a nie *conformance* z MEA01.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "mea"
+  ],
+  "poLudzku": "Ustalasz, jakie przepisy i umowy z zewnątrz musisz spełniać, i sprawdzasz, czy naprawdę je spełniasz.",
+  "wyobrazSobie": "Przed wyjazdem za granicę sprawdzasz przepisy: winieta, apteczka, kamizelka. Potem patrzysz, czy masz to w aucie.",
+  "skadNazwa": "Z angielskiego *Monitor, Evaluate and Assess Compliance with External Requirements*. *Compliance* to zgodność z wymogami narzuconymi z zewnątrz: prawem, regulacjami, umowami.",
+  "poziom1": "Proces domeny [[mea]], który rozpoznaje wymogi zewnętrzne (prawo, regulacje, umowy) dotyczące IT, ocenia i potwierdza zgodność procesów IT i procesów biznesowych wspieranych przez IT oraz raportuje ją jako część ogólnej zgodności organizacji.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** rozpoznaje zewnętrzne wymogi prawne, regulacyjne i umowne, optymalizuje odpowiedź na nie (polityki, procedury), potwierdza zgodność, uzyskuje zapewnienie i raportuje, a luki przekazuje do naprawy.\n\n**Wejścia (intuicja):** przepisy i regulacje, umowy z partnerami i dostawcami, wyniki kontroli zewnętrznych.\n\n**Wyjścia (intuicja):** rejestr wymogów zewnętrznych, raport zgodności, lista luk i działań naprawczych.\n\n**Współpracuje z:** [[proc-mea02]] (czy mechanizmy kontrolne pozwalają spełnić wymogi), [[proc-mea01]] (raportowanie), domeną [[edm]] (wytyczne zgodności od organu Ładu), funkcją „Zgodność” z il. 33.",
+  "poziom3": "Oficjalnie (FW-PL, s. 59): *„Proces MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi w metodyce COBIT 5 ułatwia identyfikację zewnętrznych regulacji, umożliwia dyrektorom określenie wytycznych dotyczących zgodności”*, a także *„zapewnia monitorowanie, ocenę i raportowanie zgodności IT w ramach ogólnej zgodności z wymogami przedsiębiorstwa”*. Il. 33 (s. 76), funkcja „Zgodność”: *„Funkcja w przedsiębiorstwie odpowiedzialna za wytyczne dotyczące zgodności z wymogami prawnymi, regulacyjnymi i wynikającymi z umów.”* Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby organizacja spełniała prawo, regulacje i umowy, które dotyczą IT. I żeby umiała to wykazać.",
+  "jakDziala": "Rozpoznajesz wymogi zewnętrzne: prawo, regulacje, umowy. Dostosowujesz do nich polityki i procesy. Potwierdzasz zgodność, uzyskujesz na nią zapewnienie i raportujesz wynik.",
+  "dlaczegoWazne": "MEA03 dotyczy wymogów z zewnątrz. Sprawdzanie wewnętrznych mechanizmów kontrolnych to MEA02.",
+  "przyklady": {
+    "zycie": "Wynajmujesz mieszkanie. Sprawdzasz, co mówią przepisy (zgłoszenie najmu, podatek) i co jest w umowie z najemcą (kaucja, termin wypowiedzenia). Raz w roku sprawdzasz, czy wszystko się zgadza, zanim przyjdzie urząd skarbowy.",
+    "biuro": "Biuro spisuje przepisy BHP i wymogi z umowy najmu. Raz w roku sprawdza, czy gaśnice mają przegląd, a drogi ewakuacji są wolne.",
+    "organizacja": "Sklep internetowy prowadzi listę przepisów, m.in. RODO i prawa konsumenta, a prawniczka co roku szuka luk. Informatyk gminy przed kontrolą KRI spisuje wymogi i przekazuje sekretarzowi listę braków.",
+    "psp": "**Kontrola zapowiedziana.** Mł. bryg. Lucyna Ostrowska z komendy wojewódzkiej zapowiada kontrolę. Kpt. Sikora spisuje wymogi z zewnątrz: przepisy o ochronie danych i cyberbezpieczeństwie oraz umowę z OSP Zawilce o czasie alarmowania. Sprawdza, które są spełnione, a braki zgłasza komendantce. Rozpoznanie wymogów zewnętrznych i ocena ich spełnienia to [[proc-mea03]].",
+    "it": "Praktyki MEA03: identyfikacja wymogów zewnętrznych, optymalizacja odpowiedzi na nie, potwierdzenie zgodności i uzyskanie zapewnienia. Przykład: wymogi RODO dla systemów z danymi osobowymi."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-mea02",
+      "roznica": "MEA02 ocenia, czy działają nasze mechanizmy kontrolne. MEA03 rozpoznaje wymogi zewnętrzne i sprawdza, czy je spełniamy."
+    },
+    {
+      "termin": "proc-mea01",
+      "roznica": "MEA01: zgodność z uzgodnionymi celami i ustaleniami (*conformance*). MEA03: zgodność z wymogami zewnętrznymi (*compliance*)."
+    },
+    {
+      "termin": "zasada-5",
+      "roznica": "Zasada 5 oddziela Ład od Zarządzania. MEA03 jest w Zarządzaniu, choć wytyczne co do zgodności wyznacza organ Ładu."
+    }
+  ],
+  "przykladWypowiedzi": "MEA03 Monitor, Evaluate and Assess Compliance with External Requirements to Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi. Pilnuje prawa i umów.",
+  "egzamin": "Słowa-klucze: prawo, regulacje, umowy, regulator, wymogi zewnętrzne, *compliance* → **MEA03**. Nasze mechanizmy kontrolne → MEA02. Nasze cele i ustalenia → MEA01.",
+  "powiazane": [
+    "mea",
+    "cele-zwiazane-z-it",
+    "proc-mea02",
+    "proc-mea01",
+    "zasada-5"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 59,
+      "cytat": "ułatwia identyfikację zewnętrznych regulacji, umożliwia dyrektorom określenie wytycznych dotyczących zgodności"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 59,
+      "cytat": "zapewnia monitorowanie, ocenę i raportowanie zgodności IT w ramach ogólnej zgodności z wymogami przedsiębiorstwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 76,
+      "ilustracja": "33",
+      "cytat": "Funkcja w przedsiębiorstwie odpowiedzialna za wytyczne dotyczące zgodności z wymogami prawnymi, regulacyjnymi i wynikającymi z umów."
+    }
+  ],
+  "mapa": "proc-mea03",
+  "glebokosc": {
+    "prosty": "Przed przeglądem technicznym auta sprawdzasz, czego wymagają przepisy: światła, hamulce, opony. Robisz listę i odhaczasz, co jest w porządku. Wymogi przychodzą z zewnątrz, a Ty sprawdzasz, czy je spełniasz.",
+    "zaawansowany": "Przed kontrolą z komendy wojewódzkiej Sikora spisuje przepisy i umowy, które dotyczą Syreny, i sprawdza, czy komenda je spełnia. To [[proc-mea03]]. Czy działają wewnętrzne zabezpieczenia, które mają te wymogi spełnić, ocenia Ewa Lis w [[proc-mea02]]. Wskaźniki pracy Syreny względem celów komendy zbiera [[proc-mea01]].",
+    "skrajny": "Umowa z OSP Zawilce mówi: alarm ma dojść w 60 sekund. Polityka komendy, podpisana przez Wrzos, mówi: w 40 sekund. W marcu średni czas to 50 sekund. Czy jest problem ze zgodnością? Z umową – nie, bo 50 sekund mieści się w 60. Wymóg z umowy to wymóg zewnętrzny, więc ocenia go MEA03. Z własną polityką – tak, ale to zgodność z ustaleniami wewnętrznymi, czyli raczej MEA01 (*conformance*) i cel IT „zgodność z politykami wewnętrznymi”. **Rozstrzygnięcie:** o procesie decyduje źródło wymogu. Prawo, regulator, umowa → MEA03. Własny cel lub polityka → MEA01. Czy działają mechanizmy kontrolne → MEA02 (interpretacja kursu w części o polityce wewnętrznej)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "MEA03 dotyczy tylko prawa.",
+      "prawda": "Także regulacji i wymogów wynikających z umów (il. 33, funkcja „Zgodność”)."
+    },
+    {
+      "mit": "Każda „zgodność” to MEA03.",
+      "prawda": "Zgodność z naszymi celami i ustaleniami to MEA01 (*conformance*). MEA03 to wymogi z zewnątrz (*compliance*)."
+    },
+    {
+      "mit": "Zgodność to sprawa prawników, nie IT.",
+      "prawda": "MEA03 ocenia zgodność IT i procesów wspieranych przez IT i raportuje ją jako część zgodności całej organizacji."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera MEA03 przy każdym słowie „zgodność”, także przy zgodności z wewnętrzną polityką.",
+    "jakTlumaczyc": "Zadaj jedno pytanie: „Kto wymyślił ten wymóg?”. Ktoś z zewnątrz (ustawodawca, regulator, kontrahent) → MEA03. My sami → MEA01.",
+    "pytanieKontrolne": "Umowa z dostawcą łącza zobowiązuje komendę do zgłaszania awarii w ciągu godziny. Ewa Lis sprawdza, czy komenda tego dotrzymuje. Który proces?",
+    "odpowiedzKontrolna": "**MEA03** – to wymóg zewnętrzny wynikający z umowy. Jeśli Lis sprawdzałaby, czy działa wewnętrzna procedura zgłaszania, byłby to MEA02."
+  }
+}

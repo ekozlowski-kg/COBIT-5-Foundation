@@ -1,0 +1,109 @@
+{
+  "id": "cechy-dobrej-polityki",
+  "en": "Good policy characteristics (effective, efficient, non-intrusive)",
+  "wymowa": "gud polisi kerekteristiks",
+  "wymowaAkcent": "gud PO-li-si ke-rek-te-RIS-tiks",
+  "plEgzamin": "Cechy dobrej polityki: skuteczna, wydajna, nieinwazyjna",
+  "plPodrecznik": "Dobre polityki są: skuteczne, wydajne, nieingerencyjne",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cechy dobrej polityki: skuteczna, wydajna, nieinwazyjna",
+    "podrecznik": "Dobre polityki są: skuteczne, wydajne, nieingerencyjne",
+    "kurs": "Cechy dobrej polityki: skuteczna, wydajna, nieinwazyjna (Good policy characteristics)",
+    "uwaga": "Egzamin PL: „Cechy dobrej polityki: skuteczna, wydajna, nieinwazyjna”; podręcznik PL: „Dobre polityki są: skuteczne, wydajne, nieingerencyjne” – konkurencyjne odpowiedniki. SP1 używa formy „nieinwazyjne”; podręcznik FW-PL s. 67: „nieingerencyjne”. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 67."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „nieinwazyjna”. Podręcznik: „nieingerencyjna”. To ta sama cecha (*non-intrusive*). „Ograniczona liczba” i „prosty język” to cechy ZASAD, a nie polityk.",
+  "skadNazwa": "*Non-intrusive* podręcznik tłumaczy jako „nieingerencyjne”, a egzamin jako „nieinwazyjne”. Chodzi o regułę, która nie przeszkadza bez potrzeby i nie budzi oporu.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "polityka",
+    "zasady-polityki-struktury"
+  ],
+  "mapa": "cechy-dobrej-polityki",
+  "poziom1": "Polityka jest dobra, gdy ma trzy cechy naraz. Jest skuteczna, czyli osiąga swój cel. Jest wydajna, czyli robi to najmniejszym kosztem. Jest nieinwazyjna, czyli ludziom wydaje się logiczna i nie budzi zbędnego oporu.",
+  "poLudzku": "Dobra reguła działa, nie kosztuje za dużo i ludzie uważają ją za rozsądną.",
+  "wyobrazSobie": "Dobre buty robocze: chronią stopę, nie kosztują fortuny i nie obcierają, więc ludzie naprawdę je noszą.",
+  "poCo": "Żeby spisane reguły naprawdę działały, a nie zostały na papierze albo nie były obchodzone.",
+  "jakDziala": "Każdą politykę sprawdzasz trzema pytaniami. Czy osiąga cel (skuteczna)? Czy robi to bez zbędnych kosztów (wydajna)? Czy ludzie uważają ją za logiczną i jej nie obchodzą (nieinwazyjna)? Brak jednej cechy zwykle psuje pozostałe.",
+  "dlaczegoWazne": "Egzamin lubi mieszać tę listę z cechami zasad (nieliczne, proste) i struktur ramowych (otwarte, elastyczne). Kto zna trzy słowa, łatwo odrzuca dystraktory.",
+  "poziom2": "| Cecha | Pytanie kontrolne | Jak wygląda porażka |\n|---|---|---|\n| **Skuteczna** | Czy polityka osiąga swój cel? | zakaz, którego nikt nie sprawdza |\n| **Wydajna** | Czy osiąga go bez marnowania sił i pieniędzy? | trzy podpisy pod każdym drobiazgiem |\n| **Nieinwazyjna** | Czy ludzie uważają ją za logiczną? | reguła, którą wszyscy obchodzą |\n\nObok trzech cech podręcznik pyta osobno o **dostęp do polityk**: czy ludzie wiedzą, gdzie je znaleźć. To ważne, ale to nie jest czwarta cecha z listy.",
+  "poziom3": "(s. 67): dobre polityki są *„skuteczne — umożliwiają osiągnięcie wskazanego celu”*, *„wydajne — zapewniają wdrożenie zasad w najbardziej wydajny sposób”* i *„nieingerencyjne — osobom, które muszą ich przestrzegać, wydają się logiczne, tj. nie budzą niepotrzebnego oporu”*. Egzamin używa słowa „nieinwazyjne”.",
+  "przyklady": {
+    "zycie": "Rodzice chcą, żeby nastolatek wracał bezpiecznie. Reguła „SMS po dotarciu do domu” jest skuteczna, tania i rozsądna. Reguła „telefon co 15 minut” też coś daje, ale męczy wszystkich i syn zaczyna kłamać. Pierwsza jest dobrą polityką, druga jest inwazyjna.",
+    "biuro": "W biurze rachunkowym kierowniczka wprowadza zasadę: przy odchodzeniu od komputera blokujesz ekran skrótem klawiszowym. Reguła chroni dane, zajmuje sekundę i nikt nie uważa jej za głupią. To skuteczna, wydajna i nieinwazyjna polityka.",
+    "organizacja": "Hurtownia chce ograniczyć kradzieże z magazynu. Kamera przy wyjściu i comiesięczny spis z natury działają i kosztują rozsądnie. Codzienna rewizja kieszeni każdego pracownika też by zadziałała, ale budzi bunt. Dobra polityka łączy skuteczność, wydajność i nieinwazyjność. Urząd miasta wprowadza politykę czystego biurka. Wersja „chowaj dokumenty z danymi przed wyjściem” jest skuteczna i prosta. Wersja „zero przedmiotów na biurku, także kubków i zdjęć” budzi opór i urzędnicy ją lekceważą. Druga wersja nie jest nieinwazyjna.",
+    "psp": "Naczelnik Marek Sikora pisze politykę logowania do Syreny. Pierwszy projekt każe dyżurnym wpisywać 16-znakowe hasło przy każdym alarmie. Dyżurny Paweł Grab mówi wprost: „W nocy przy pożarze nikt tego nie wpisze, przykleimy hasło na monitorze”. Sikora zmienia politykę na kartę i krótki PIN. Teraz polityka jest skuteczna, wydajna i nieinwazyjna.",
+    "it": "W procesie APO13 (Zarządzanie bezpieczeństwem) powstaje polityka haseł. Zespół sprawdza ją pod kątem skuteczności (mniej przejęć kont), wydajności (koszt resetów haseł) i nieinwazyjności (czy użytkownicy nie zapisują haseł na kartkach)."
+  },
+  "glebokosc": {
+    "prosty": "Mama wprowadza zasadę: „Przed wyjściem z domu sprawdzamy, czy gaz jest wyłączony”. Reguła działa, bo gaz jest wyłączony (skuteczna). Zajmuje 5 sekund (wydajna). Każdy rozumie, po co ona jest (nieinwazyjna). To trzy cechy dobrej polityki.",
+    "zaawansowany": "Po nocy na Lipowej komendantka Anna Wrzos podpisuje [[polityka|politykę]] powiadamiania. Naczelnik Sikora sprawdza ją trzema pytaniami. Czy alarm dociera do wszystkich (skuteczna)? Czy jedno kliknięcie nie wymaga trzech dyżurnych (wydajna)? Czy dyżurni uznają ją za logiczną i nie będą jej obchodzić (nieinwazyjna)? Gdy polityka się zestarzeje, zajmie się tym [[cykl-zycia-polityki|cykl życia polityki]].",
+    "skrajny": "Audytorka Ewa Lis dostaje dwie polityki haseł. Pierwsza jest bardzo bezpieczna, ale dyżurni zapisują hasła na karteczkach. Druga jest wygodna i nikt jej nie obchodzi, ale spełnia ją hasło „1234”. Pierwsza zawodzi na nieinwazyjności, a opór ludzi niszczy też jej cel. Druga jest nieinwazyjna, ale nieskuteczna. Trzy cechy trzeba spełnić naraz. Uwaga też na słowo „dostępna”: podręcznik pyta o dostęp do polityk osobno, poza listą trzech cech. **Rozstrzygnięcie:** dobra polityka jest jednocześnie skuteczna, wydajna i nieinwazyjna. „Dostępna”, „nieliczna” czy „prosta” to nie są cechy z tej listy."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Nieinwazyjna polityka niczego nie zabrania.",
+      "prawda": "Polityka może zakazywać. Nieinwazyjna znaczy, że ludziom wydaje się logiczna i nie budzi niepotrzebnego oporu."
+    },
+    {
+      "mit": "Skuteczna i wydajna to to samo.",
+      "prawda": "Skuteczna osiąga cel. Wydajna osiąga go najmniejszym kosztem. Polityka może być skuteczna, ale za droga."
+    },
+    {
+      "mit": "Dobra polityka ma być nieliczna i prosta.",
+      "prawda": "To kryteria ZASAD (principles). Polityki są bardziej szczegółowe."
+    },
+    {
+      "mit": "Nieingerencyjna i nieinwazyjna to dwie różne cechy.",
+      "prawda": "To jedno słowo *non-intrusive* w dwóch tłumaczeniach: podręcznikowym i egzaminacyjnym."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczniowie mieszają cechy polityk z cechami zasad i struktur ramowych, bo wszystkie trzy listy są na jednej stronie podręcznika.",
+    "jakTlumaczyc": "Zadaj trzy pytania o jedną regułę: czy działa, czy nie jest za droga, czy ludzie jej nie obchodzą. Potem pokaż dwie pozostałe listy obok i podkreśl różne słowa.",
+    "pytanieKontrolne": "Polityka osiąga cel i jest tania, ale pracownicy masowo ją obchodzą. Której cechy brakuje i co z tego wynika?",
+    "odpowiedzKontrolna": "Brakuje **nieinwazyjności**. Opór ludzi zwykle psuje też skuteczność, więc trzeba poprawić politykę, a nie tylko mocniej ją egzekwować."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "zasady-polityki-struktury",
+      "roznica": "Zasady (principles) mają być nieliczne, proste i wyrażać wartości. Polityki mają być skuteczne, wydajne i nieinwazyjne. Struktury ramowe: kompleksowe, otwarte i elastyczne, aktualne, dostępne."
+    },
+    {
+      "termin": "struktura-ramowa-polityki",
+      "roznica": "Cechy mówią, JAKA ma być pojedyncza polityka. Struktura ramowa mówi, jakie elementy muszą zostać opisane w ramach struktury polityk (zakres, konsekwencje, wyjątki, kontrola zgodności; s. 68)."
+    }
+  ],
+  "przykladWypowiedzi": "A good policy is effective, efficient and non-intrusive, czyli dobra polityka jest skuteczna, wydajna i nieinwazyjna.",
+  "egzamin": "Trzy cechy dobrej polityki: **skuteczna, wydajna, nieinwazyjna**. Dystraktory: „ograniczona liczba”, „prosty język”, „wyraża podstawowe wartości” (to ZASADY) oraz „kompleksowa, otwarta i elastyczna” (to STRUKTURY RAMOWE).",
+  "powiazane": [
+    "polityka",
+    "zasady-polityki-struktury",
+    "struktura-ramowa-polityki",
+    "cykl-zycia-polityki"
+  ],
+  "sylabus": [
+    "EN-02-03"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 67,
+      "cytat": "umożliwiają osiągnięcie wskazanego celu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 67,
+      "cytat": "osobom, które muszą ich przestrzegać, wydają się logiczne, tj. nie budzą niepotrzebnego oporu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 67,
+      "ilustracja": "28"
+    }
+  ]
+}

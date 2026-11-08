@@ -1,0 +1,95 @@
+{
+  "id": "it-uwierzytelnianie",
+  "en": "Authentication",
+  "wymowa": "otentikejszyn",
+  "wymowaAkcent": "o-ten-ti-KEJ-szyn",
+  "plEgzamin": "Uwierzytelnianie",
+  "plPodrecznik": "Uwierzytelnienie",
+  "plInne": [
+    "logowanie (potocznie)",
+    "weryfikacja tożsamości"
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "Uwierzytelnienie (FW-PL s. 89)",
+    "kurs": "Uwierzytelnianie (Authentication)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Słownik FW-PL łączy w definicji sprawdzenie tożsamości i uprawnień (s. 89); w praktyce IT sprawdzenie uprawnień nazywa się osobno autoryzacją."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-konto"
+  ],
+  "poLudzku": "Sprawdzenie, czy ten, kto się loguje, to naprawdę właściciel konta.",
+  "poziom1": "Uwierzytelnianie odpowiada na pytanie „kim jesteś?”. System prosi o dowód: hasło, kod z SMS-a, odcisk palca. Jeśli dowód się zgadza, wpuszcza Cię na konto.",
+  "poziom2": "Dowody tożsamości są trzech rodzajów: coś, co **wiesz** (hasło, PIN), coś, co **masz** (telefon z kodem, karta), coś, czym **jesteś** (odcisk palca, twarz). Gdy system wymaga dwóch różnych rodzajów naraz, to **uwierzytelnianie wieloskładnikowe** (EN: multi-factor authentication) – dużo trudniej je oszukać.",
+  "poziom3": "Słownik FW-PL: uwierzytelnienie to *„Akt weryfikacji tożsamości użytkownika oraz jego uprawnień dostępu do informacji w systemach komputerowych.”* (s. 89). Definicja COBIT łączy tu dwa kroki; w praktyce IT sprawdzenie uprawnień nazywa się osobno autoryzacją.",
+  "wyobrazSobie": "Portier sprawdza Twój dowód osobisty przy wejściu do budynku.",
+  "poCo": "Żeby nikt nie mógł udawać kogoś innego i korzystać z jego konta.",
+  "jakDziala": "Wpisujesz nazwę użytkownika – to deklaracja „jestem Kasia”. Potem podajesz hasło albo kod – to dowód. System porównuje dowód z zapisanym wzorem. Zgadza się – jesteś wpuszczona.",
+  "dlaczegoWazne": "Słabe hasło albo jego brak to najprostsza droga do cudzych danych. Organizacje coraz częściej wymagają dwóch dowodów naraz.",
+  "przyklady": {
+    "zycie": "Logujesz się do banku: wpisujesz hasło, a potem kod z SMS-a. To dwa dowody: coś, co wiesz, i coś, co masz.",
+    "biuro": "Rano odblokowujesz komputer w pracy hasłem. Bez niego komputer nie pokaże pulpitu.",
+    "organizacja": "Szpital wymaga od lekarzy karty i PIN-u (tajnego kodu), żeby otworzyć dane pacjentów.",
+    "psp": "Kasia Nowik loguje się do „Syreny” hasłem i kodem z telefonu służbowego. Tak system wie, że przy klawiaturze siedzi ona.",
+    "it": "Słownik FW-PL definiuje uwierzytelnienie (s. 89); w procesach COBIT 5 ochrona dostępu należy do DSS05 Zarządzanie usługami bezpieczeństwa."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-autoryzacja",
+      "roznica": "Uwierzytelnianie sprawdza, KIM jesteś. Autoryzacja ustala, CO wolno Ci zrobić."
+    },
+    {
+      "termin": "it-konto",
+      "roznica": "Konto to zapis w systemie. Uwierzytelnianie to sprawdzenie przy wejściu, że konto należy do Ciebie."
+    }
+  ],
+  "przykladWypowiedzi": "Authentication, czyli uwierzytelnianie, sprawdza, kim jestem; authorization, czyli autoryzacja, ustala, co mi wolno.",
+  "egzamin": "Słowo jest w słowniku FW-PL (s. 89) jako „Uwierzytelnienie”. Na egzaminie Foundation nie jest pytane wprost, ale pomaga w pytaniach o bezpieczeństwo i dostęp do informacji.",
+  "powiazane": [
+    "it-konto",
+    "it-autoryzacja",
+    "it-bezpieczenstwo-informacji"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 89,
+      "cytat": "Akt weryfikacji tożsamości użytkownika oraz jego uprawnień dostępu do informacji w systemach komputerowych."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "DSS05 Zarządzanie usługami bezpieczeństwa"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Odbierasz paczkę na poczcie. Pani w okienku prosi o dowód osobisty i porównuje nazwisko. To uwierzytelnianie: sprawdza, czy jesteś osobą, do której paczka jest zaadresowana.",
+    "zaawansowany": "Ktoś podejrzał hasło Graba przyklejone na monitorze. Gdyby „Syrena” wymagała tylko hasła, obcy mógłby się zalogować jako Grab. Ola Dudek włącza drugi dowód: kod z telefonu służbowego. Teraz samo hasło nie wystarczy. Co Grab może zrobić po zalogowaniu, ustala osobno [[it-autoryzacja|autoryzacja]].",
+    "skrajny": "Słownik FW-PL definiuje uwierzytelnienie jako weryfikację tożsamości **oraz uprawnień** (s. 89). W praktyce IT te kroki się rozdziela: najpierw uwierzytelnianie (kim jesteś), potem autoryzacja (co Ci wolno). Czy wpisanie samego loginu to uwierzytelnianie? Nie – login to deklaracja, dowodem jest hasło albo kod. **Rozstrzygnięcie:** uwierzytelnianie to sprawdzenie dowodu tożsamości; w rozmowie z informatykami oddzielaj je od autoryzacji i pamiętaj, że słownik COBIT łączy oba kroki w jednej definicji."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wpisanie loginu to już uwierzytelnienie.",
+      "prawda": "Login to tylko deklaracja „to ja”. Dowodem jest hasło, kod albo odcisk palca."
+    },
+    {
+      "mit": "Jak się zalogowałem, to mogę wszystko.",
+      "prawda": "Zalogowanie potwierdza tożsamość. To, co możesz zrobić, ustala autoryzacja."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie uwierzytelniania z autoryzacją („skoro wszedłem, to mi wolno”).",
+    "jakTlumaczyc": "Portier i klucze: portier sprawdza dowód (uwierzytelnianie), a kierownik daje klucze tylko do niektórych pokoi (autoryzacja).",
+    "pytanieKontrolne": "Kasia zalogowała się poprawnie, ale nie może otworzyć folderu „Kadry”. Który krok zadziałał, a który ją zatrzymał?",
+    "odpowiedzKontrolna": "Uwierzytelnianie zadziałało – system wie, że to Kasia. Zatrzymała ją autoryzacja: nie ma uprawnień do tego folderu."
+  }
+}

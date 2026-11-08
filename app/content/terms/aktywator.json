@@ -1,0 +1,102 @@
+{
+  "id": "aktywator",
+  "en": "Enabler",
+  "wymowa": "inejbler",
+  "wymowaAkcent": "i-NEJ-bler",
+  "plEgzamin": "Aktywator",
+  "plPodrecznik": "Czynnik umożliwiający",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Aktywator",
+    "podrecznik": "Czynnik umożliwiający",
+    "kurs": "Aktywator (Enabler)",
+    "uwaga": "Enabler: Aktywator (egzamin) / Czynnik umożliwiający (podręcznik). Żaden nie jest idealny – enabler to nie „narzędzie” ani zwykły „czynnik”. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 8, 9; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Aktywator”. Podręcznik: „Czynnik umożliwiający”. EN: Enabler. W pytaniach egzaminacyjnych prawie zawsze pada „Aktywator”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "organizacja",
+    "cele-organizacji"
+  ],
+  "poLudzku": "Wszystko, co musi zagrać, żeby informatyka działała dobrze: ludzie, reguły, narzędzia, informacje.",
+  "wyobrazSobie": "Orkiestra: nawet najlepszy skrzypek nie zagra symfonii bez nut, dyrygenta, sali i pozostałych muzyków.",
+  "poCo": "Żeby organizacja widziała wszystko, co musi zagrać, by osiągnąć cele, a nie tylko technologię. Aktywatory to elementy, przez które Ład i Zarządzanie realnie wpływają na wynik.",
+  "jakDziala": "COBIT 5 dzieli aktywatory (enablers) na 7 kategorii, od Zasad, polityk i struktur ramowych (Principles, Policies and Frameworks) po Ludzi, umiejętności i kompetencje (People, Skills and Competencies). Kaskada celów wyznacza, czego oczekujemy od każdego aktywatora (cele aktywatora). Aktywatory są od siebie zależne i dostarczają sobie wejść, np. proces potrzebuje informacji i przeszkolonych ludzi. Każdy opisuje się w 4 wymiarach: interesariusze, cele, cykl życia, dobre praktyki.",
+  "dlaczegoWazne": "Aktywatory to rdzeń zasady 4 „Aktywacja holistycznego podejścia”. Na egzaminie trzeba znać 7 kategorii, odróżnić aktywator od wyznacznika i nie dać się złapać na pułapkę „aktywator = technologia”.",
+  "skadNazwa": "Kalka z angielskiego *enabler* („to, co umożliwia”). Podręcznik PL tłumaczy to jako „czynnik umożliwiający”, a egzamin używa krótszego „Aktywator”.",
+  "poziom1": "Wszystko, co pomaga osiągnąć cele – nie tylko systemy, ale też zasady, procedury, ludzie i kultura (np. regulamin, obieg wniosku, przeszkolony pracownik, serwer). COBIT 5 dzieli aktywatory na 7 kategorii.",
+  "poziom2": "COBIT 5 wyróżnia **7 kategorii aktywatorów**: (1) Zasady, polityki i struktury ramowe; (2) Procesy; (3) Struktury organizacyjne; (4) Kultura, etyka i zachowanie; (5) Informacja; (6) Usługi, infrastruktura i aplikacje; (7) Ludzie, umiejętności i kompetencje. Działają **razem** – to Zasada 4 (podejście holistyczne). Szczegóły w dniu 2–3.",
+  "poziom3": "Definicja ogólna (s. 14): *„Czynnik umożliwiający to pojęcie bardzo szerokie — obejmuje wszystko, co może ułatwić osiągnięcie celów przedsiębiorstwa”*. Słownik (s. 91) definiuje węższe hasło **„Czynnik umożliwiający nadzór”** (governance enabler): *„Coś (materialnego lub niematerialnego), co wspiera sprawowanie skutecznego nadzoru.”* – to definicja czynnika umożliwiającego **nadzór**, nie aktywatora w ogóle.",
+  "przyklady": {
+    "zycie": "Chcesz, żeby dzieci same odrabiały lekcje. Ustalacie zasadę „najpierw zadania, potem tablet”, stałą godzinę po obiedzie, kupujecie biurko z lampką, a Ty w tym czasie też siadasz z książką zamiast z telefonem. Zasada, stała pora, biurko i Twój przykład to różne aktywatory – działają dopiero razem.",
+    "biuro": "Żeby faktury wychodziły na czas, biuro potrzebuje kilku rzeczy naraz: zasady „faktura do 3 dni od usługi”, ustalonego obiegu dokumentu, osoby odpowiedzialnej, aktualnych danych klientów, programu do faktur i przeszkolonej asystentki. Brak jednego z tych elementów zatrzymuje całość, choć pozostałe działają.",
+    "firma": "Właścicielka kawiarni chce, żeby kawa smakowała tak samo na każdej zmianie. Spisuje recepturę, ustala kolejność parzenia, szkoli nowego baristę i oddaje ekspres do serwisu. Receptura, sposób parzenia, umiejętności baristy i ekspres to aktywatory – brak jednego psuje całość.",
+    "admin": "Urząd gminy chce wydawać decyzje w terminie. Ma instrukcję kancelaryjną, ustalony obieg wniosku, wydział, który za sprawę odpowiada, system EZD i urzędników po szkoleniu z KPA. Każdy z tych elementów to aktywator innej kategorii.",
+    "psp": "Dyżurny SK przyjmuje zgłoszenie z CPR 112 i po dwóch minutach zastęp wyjeżdża. Pomaga mu procedura dysponowania, regulamin stanowiska kierowania, dane w SWD-PSP, sprawna łączność radiowa i to, że ćwiczył takie sytuacje. Procedura, regulamin, dane, system i jego wyszkolenie to aktywatory.",
+    "it": "Proces DSS04 Zarządzanie ciągłością to aktywator z kategorii Procesy, ale działa tylko razem z innymi: polityką ciągłości (Zasady, polityki i struktury ramowe), aktualnym planem awaryjnym (Informacja), stanowiskiem zapasowym (Usługi, infrastruktura i aplikacje) i przećwiczonym zespołem (Ludzie, umiejętności i kompetencje)."
+  },
+  "glebokosc": {
+    "prosty": "Żeby niedzielny obiad się udał, nie wystarczy dobry przepis. Potrzebne są też zakupy, sprawna kuchenka, ktoś, kto umie gotować, i umowa, kto zmywa. Każda z tych rzeczy „umożliwia” obiad, a brak jednej psuje całość.",
+    "zaawansowany": "Po awarii z Lipowej kpt. Sikora wypisuje wszystko, co musi zagrać, żeby Syrena zaalarmowała OSP Zawilce. Jest tam polityka powiadamiania, proces obsługi alarmu, Rada ds. Informatyki, kultura zgłaszania błędów, aktualna baza telefonów, serwer z aplikacją i przeszkoleni dyżurni. To wszystkie 7 kategorii aktywatorów naraz. Nieaktualny numer Pietrzaka to słabość aktywatora Informacja, ale sama poprawka bazy nie wystarczy bez procesu, który ją aktualizuje. Tak działa [[zasada-4|Zasada 4]]: aktywatory dostarczają sobie nawzajem wejść, a każdy z nich opisują te same [[wymiary-aktywatora|cztery wymiary]].",
+    "skrajny": "Czy ta sama rzecz może być aktywatorem i jednocześnie zasobem? Tak: FW-PL (s. 27) mówi, że Informacja, Usługi, infrastruktura i aplikacje oraz Ludzie, umiejętności i kompetencje są także zasobami organizacji. Druga pułapka: nowe przepisy też „wpływają” na wynik, ale nie są aktywatorem. To [[wyznacznik]], bo zmienia potrzeby interesariuszy, zamiast pomagać je spełnić. Trzecia pułapka: słowo „komponent” pochodzi z COBIT 2019, a nie z COBIT 5. **Rozstrzygnięcie:** aktywator to wszystko, co pomaga osiągnąć cele, w 7 kategoriach; trzy z nich są też zasobami, a to, co zmienia potrzeby, jest wyznacznikiem, nie aktywatorem."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Aktywator to narzędzie informatyczne, np. system albo serwer.",
+      "prawda": "Tylko jedna z 7 kategorii (Usługi, infrastruktura i aplikacje) to technika. Kultura, polityki, struktury, procesy, informacja i umiejętności też są aktywatorami. Sprawdzian: czy to pomaga osiągnąć cele?"
+    },
+    {
+      "mit": "Wystarczy poprawić jeden aktywator, np. kupić lepszy system.",
+      "prawda": "Aktywatory są wzajemnie powiązane (s. 27–28): procesy potrzebują informacji, a struktury potrzebują umiejętności i właściwych zachowań. Naprawa jednego bez reszty nie daje trwałego efektu."
+    },
+    {
+      "mit": "„Czynnik umożliwiający” i „Aktywator” to dwa różne pojęcia.",
+      "prawda": "To samo pojęcie (*enabler*). Podręcznik pisze „czynnik umożliwiający”, a egzamin „Aktywator”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie aktywatora z technologią i mylenie go z wyznacznikiem, który zmienia potrzeby.",
+    "jakTlumaczyc": "Zacznij od pytania „co musi zagrać, żeby to się udało?” i spisz odpowiedzi ucznia. Potem pogrupuj je w 7 szuflad. Na końcu pokaż, że pusta jedna szuflada psuje wynik, nawet gdy pozostałe są pełne.",
+    "pytanieKontrolne": "Komenda kupiła najlepszy system powiadamiania na rynku, a alarmy dalej nie docierają. Jak to wyjaśnisz językiem aktywatorów?",
+    "odpowiedzKontrolna": "System to tylko jeden aktywator (Usługi, infrastruktura i aplikacje). Jeśli kuleje inny, np. Informacja (stare numery), Procesy (nikt nie aktualizuje bazy) albo Ludzie (brak szkolenia), całość nie działa. Aktywatory działają razem i dostarczają sobie nawzajem wejść (Zasada 4)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "wyznacznik",
+      "roznica": "Wyznacznik zmienia potrzeby; aktywator pomaga je zaspokoić."
+    },
+    {
+      "termin": "Komponent (COBIT 2019)",
+      "roznica": "W COBIT 2019 aktywatory nazwano „komponentami systemu ładu”. Na egzaminie COBIT 5 używaj „aktywator”."
+    }
+  ],
+  "przykladWypowiedzi": "Enabler, czyli Aktywator, to wszystko, co pomaga osiągnąć cele organizacji; COBIT 5 ma siedem kategorii aktywatorów (seven categories of enablers), które działają razem, a nie osobno.",
+  "egzamin": "Pułapka terminologiczna nr 1 obok Ład/Nadzór. Liczba kategorii: **7**. Liczba zasad: **5**. Liczba procesów: **37**.",
+  "powiazane": [
+    "cele-aktywatorow",
+    "zasada-4"
+  ],
+  "sylabus": [
+    "PR-01-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 14,
+      "cytat": "Czynnik umożliwiający to pojęcie bardzo szerokie — obejmuje wszystko, co może ułatwić osiągnięcie celów przedsiębiorstwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 91,
+      "cytat": "Czynnik umożliwiający nadzór Coś (materialnego lub niematerialnego), co wspiera sprawowanie skutecznego nadzoru."
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "aktywatory"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "it-siec",
+  "en": "Network (computer network)",
+  "wymowa": "netłerk",
+  "wymowaAkcent": "NET-łerk",
+  "plEgzamin": "Sieć komputerowa",
+  "plPodrecznik": "infrastruktura sieciowa",
+  "plInne": [
+    "sieć",
+    "sieć lokalna (LAN)"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "infrastruktura sieciowa (FW-PL s. 86)",
+    "kurs": "Sieć komputerowa (Network)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Skrót LAN = Local Area Network, czyli sieć lokalna."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P0",
+  "wymaga": [
+    "it-hardware"
+  ],
+  "poLudzku": "Połączenie kilku urządzeń kablem albo falami radiowymi, żeby mogły przesyłać sobie dane.",
+  "poziom1": "Sieć komputerowa to co najmniej dwa urządzenia połączone tak, że mogą wymieniać dane: komputery, telefony, drukarki. Połączenie może być przez kabel albo bez kabla, przez fale radiowe.",
+  "poziom2": "Mała sieć w jednym budynku to **sieć lokalna** (EN: LAN – Local Area Network). **Router** (urządzenie, które kieruje dane właściwą drogą) łączy sieć lokalną z innymi sieciami. Dzięki sieci jedna drukarka może służyć całemu biuru.",
+  "poziom3": "FW-PL wymienia „infrastrukturę sieciową” jako część infrastruktury technicznej (s. 86) w aktywatorze Usługi, infrastruktura i aplikacje.",
+  "wyobrazSobie": "Sieć dróg między domami. Drogi same nic nie przewożą, ale bez nich listonosz nie dojedzie.",
+  "poCo": "Żeby urządzenia mogły dzielić się danymi, drukarką i dostępem do innych komputerów.",
+  "jakDziala": "Komputer dzieli wiadomość na małe porcje. Porcje płyną kablem albo falami radiowymi do urządzenia sieciowego. Ono przekazuje je dalej do odbiorcy, który składa je z powrotem w całość.",
+  "dlaczegoWazne": "Bez sieci nie działa poczta, wspólne foldery ani system powiadamiania. Awaria sieci zatrzymuje pracę całego budynku.",
+  "przyklady": {
+    "zycie": "W domu telefon, laptop i telewizor łączą się z jednym domowym routerem. To mała sieć – możesz np. wysłać zdjęcie z telefonu na telewizor.",
+    "biuro": "Pięć komputerów w biurze drukuje na jednej drukarce. Dzieje się tak dzięki sieci w biurze.",
+    "organizacja": "Szpital łączy kablami komputery na wszystkich piętrach, żeby wyniki z laboratorium od razu widział lekarz na oddziale.",
+    "psp": "Komputery na stanowisku kierowania (SK) i w obu jednostkach ratowniczo-gaśniczych (JRG) łączy sieć komendy. Dzięki niej wszyscy widzą to samo zgłoszenie.",
+    "it": "Infrastruktura sieciowa należy do infrastruktury technicznej (FW-PL s. 86)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-internet",
+      "roznica": "Sieć może być mała, np. w jednym biurze. Internet to ogromna sieć sieci na całym świecie."
+    },
+    {
+      "termin": "it-wifi",
+      "roznica": "Wi-Fi to tylko jeden sposób łączenia się z siecią – bez kabla."
+    }
+  ],
+  "przykladWypowiedzi": "A network, czyli sieć komputerowa, łączy urządzenia; w komendzie network łączy SK z JRG.",
+  "egzamin": "Nie jest terminem egzaminu. W COBIT 5 sieć to część infrastruktury (aktywator Usługi, infrastruktura i aplikacje).",
+  "powiazane": [
+    "it-internet",
+    "it-wifi",
+    "it-infrastruktura"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 86,
+      "cytat": "infrastruktura techniczna, w tym sprzęt, oprogramowanie systemowe oraz infrastruktura sieciowa"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Dzieci przy stole podają sobie solniczkę z rąk do rąk. Każde dziecko może dostać sól, choć solniczka jest jedna. Sieć działa podobnie: dane przechodzą z urządzenia do urządzenia.",
+    "zaawansowany": "Po burzy w komendzie przestaje działać kabel łączący SK z JRG 2. Komputery są sprawne, programy też. Ale zgłoszenia z SK nie docierają do JRG 2. Zawiodła sieć, a nie [[it-hardware|sprzęt]] na biurkach. Dlatego Ola Dudek ma plan łączności zapasowej.",
+    "skrajny": "Czy dwa telefony połączone na chwilę, by przesłać zdjęcie, to sieć? Tak – mała i krótka, ale sieć. Czy sieć wymaga Internetu? Nie: sieć w biurze działa nawet przy zerwanym łączu z Internetem. Czy kabel to sieć? Kabel to tylko droga; sieć to urządzenia, drogi i zasady przesyłania razem. **Rozstrzygnięcie:** sieć to połączone urządzenia, które wymieniają dane; może istnieć bez Internetu, a kabel czy fale radiowe to tylko jej drogi."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Sieć i Internet to to samo.",
+      "prawda": "Internet to ogólnoświatowa sieć sieci. Sieć w biurze może działać bez niego."
+    },
+    {
+      "mit": "Jak nie ma Wi-Fi, to nie ma sieci.",
+      "prawda": "Sieć może działać przez kabel. Wi-Fi to tylko jeden ze sposobów połączenia."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie sieci z Internetem albo z Wi-Fi.",
+    "jakTlumaczyc": "Drogi osiedlowe (sieć w biurze) i drogi całego świata (Internet); Wi-Fi to rozmowa przez krótkofalówkę zamiast przez kabel.",
+    "pytanieKontrolne": "W biurze padło łącze z Internetem. Czy ktoś może nadal drukować na wspólnej drukarce?",
+    "odpowiedzKontrolna": "Tak, jeśli działa sieć w biurze. Drukarka i komputery są w tej samej sieci lokalnej; Internet nie jest potrzebny."
+  }
+}

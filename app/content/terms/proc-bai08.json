@@ -1,0 +1,106 @@
+{
+  "id": "proc-bai08",
+  "en": "BAI08 Manage Knowledge",
+  "wymowa": "biejaj 08 menydż nolydż",
+  "wymowaAkcent": "bi-ej-AJ 08 ME-nydż NO-lydż",
+  "plEgzamin": "BAI08 Zarządzanie wiedzą",
+  "plPodrecznik": "BAI08 Zarządzanie wiedzą",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "BAI08 Zarządzanie wiedzą",
+    "podrecznik": "BAI08 Zarządzanie wiedzą",
+    "kurs": "BAI08 Zarządzanie wiedzą (BAI08 Manage Knowledge)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 60."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „BAI08 Zarządzanie wiedzą”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Manage Knowledge*.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "bai",
+    "informacja"
+  ],
+  "poLudzku": "Dbasz, żeby potrzebna wiedza była spisana, aktualna i łatwa do znalezienia, a nie tylko w czyjejś głowie.",
+  "wyobrazSobie": "Babcia spisuje swoje przepisy do zeszytu, zanim zapomni. Ty dopisujesz nowe i wyrzucasz te, których nikt nie gotuje.",
+  "skadNazwa": "Z angielskiego *Manage Knowledge*. Nazwa prosta, ale łatwo ją pomylić z opisem systemów (BAI10) albo z umiejętnościami ludzi (APO07).",
+  "poziom1": "Proces domeny [[bai]], który utrzymuje dostępną, aktualną, sprawdzoną i wiarygodną wiedzę potrzebną do pracy i podejmowania decyzji. Planuje, jak wiedzę rozpoznawać, zbierać, porządkować, udostępniać, oceniać i wycofywać, gdy się zestarzeje.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** sprzyja dzieleniu się wiedzą, rozpoznaje i porządkuje źródła wiedzy (instrukcje, wnioski z incydentów, doświadczenie ludzi), udostępnia ją tym, którzy jej potrzebują, ocenia jej przydatność i usuwa nieaktualną.\n\n**Wejścia (intuicja):** dokumentacja z projektów ([[proc-bai03]], [[proc-bai07]]), znane błędy i obejścia ([[proc-dss03]]), wnioski z przeglądów.\n\n**Wyjścia (intuicja):** baza wiedzy, instrukcje, klasyfikacja wiedzy, raport z wykorzystania i aktualności.\n\n**Współpracuje z:** [[proc-bai05]] (ludzie korzystają z systemów), [[proc-dss02]] (wsparcie korzysta z bazy wiedzy), aktywatorami [[informacja]] i [[ludzie-umiejetnosci-kompetencje]].",
+  "poziom3": "Oficjalnie (FW-PL, s. 60): *„Procesy COBIT 5 BAI05 Zarządzanie wdrażaniem zmian organizacyjnych oraz BAI08 Zarządzanie wiedzą zapewniają użytkownikom możliwość efektywnego korzystania z systemów.”* Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby wiedza potrzebna do pracy nie siedziała tylko w czyjejś głowie. Ma być aktualna i łatwa do znalezienia.",
+  "jakDziala": "Budujesz kulturę dzielenia się wiedzą. Rozpoznajesz źródła informacji, porządkujesz je w wiedzę i udostępniasz. Okresowo oceniasz wiedzę i wycofujesz nieaktualną.",
+  "dlaczegoWazne": "Odejście doświadczonej osoby bez spisanej wiedzy to realne ryzyko (interpretacja kursu). Na egzaminie nie myl BAI08 z zarządzaniem ludźmi w APO07.",
+  "przyklady": {
+    "zycie": "Dziadek jako jedyny wie, jak odpowietrzyć piec w domu. Wnuk nagrywa go telefonem, spisuje kroki na kartce i przykleja ją przy piecu. Gdy piec się zmieni, kartkę wymienia. Wiedza przestaje być w jednej głowie.",
+    "biuro": "Przed urlopem spisujesz w zeszycie, jak obsłużyć trzech trudnych klientów. Koleżanka po powrocie dopisuje czwartego.",
+    "organizacja": "Infolinia firmy kurierskiej ma bazę odpowiedzi, którą konsultantki uzupełniają, a kierownik co miesiąc czyści. Kierowniczka urzędu stanu cywilnego przed emeryturą spisuje z młodszymi koleżankami nietypowe przypadki.",
+    "psp": "**Kto umie obsłużyć Syrenę.** Okazuje się, że tylko asp. sztab. Paweł Grab zna tryb awaryjny Syreny. Kpt. Sikora prosi go o spisanie kroków, a Ola Dudek wrzuca instrukcję do wspólnej bazy SK i ustala, że po każdej zmianie ktoś ją sprawdza. Stara wersja trafia do archiwum. Utrzymywanie aktualnej, dostępnej wiedzy to [[proc-bai08]].",
+    "it": "Praktyki BAI08: kultura dzielenia się wiedzą, źródła informacji, porządkowanie wiedzy, jej użycie oraz ocena i wycofanie. Rejestr znanych błędów z DSS03 to przykład takiej wiedzy."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-bai10",
+      "roznica": "BAI10 opisuje, z czego składa się system i jak elementy są połączone. BAI08 mówi, jak z nim pracować i czego się nauczyliśmy."
+    },
+    {
+      "termin": "proc-apo07",
+      "roznica": "APO07 dba o ludzi i ich kompetencje (zatrudnienie, szkolenia, zastępstwa). BAI08 dba o to, żeby wiedza była spisana i dostępna niezależnie od jednej osoby."
+    },
+    {
+      "termin": "informacja",
+      "roznica": "Informacja to aktywator. BAI08 to proces, który zarządza szczególną informacją – wiedzą potrzebną do pracy i decyzji."
+    }
+  ],
+  "przykladWypowiedzi": "BAI08 Manage Knowledge, czyli Zarządzanie wiedzą, dba, żeby wiedza była spisana, aktualna i dostępna.",
+  "egzamin": "Słowa-klucze: baza wiedzy, dzielenie się wiedzą, aktualność instrukcji, wycofanie nieaktualnej wiedzy → **BAI08**. FW-PL (s. 60) łączy BAI08 z BAI05: razem dają użytkownikom możliwość efektywnego korzystania z systemów.",
+  "powiazane": [
+    "bai",
+    "informacja",
+    "ludzie-umiejetnosci-kompetencje",
+    "proc-bai05",
+    "proc-bai10"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "BAI08 Zarządzanie wiedzą"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych oraz BAI08 Zarządzanie wiedzą zapewniają użytkownikom możliwość efektywnego korzystania z systemów"
+    }
+  ],
+  "mapa": "proc-bai08",
+  "glebokosc": {
+    "prosty": "Mama ma w głowie przepis na pierogi i nikt inny go nie zna. Pewnego dnia siadasz z nią i spisujesz go krok po kroku. Teraz pierogi zrobi każdy w rodzinie, także gdy mamy nie ma.",
+    "zaawansowany": "Grab jako jedyny umie włączyć tryb awaryjny Syreny. Sikora każe spisać instrukcję, Dudek umieszcza ją w bazie SK i pilnuje aktualności po każdej zmianie. To [[proc-bai08]]. Informacje o tym, z jakich elementów składa się Syrena, prowadzi osobno [[proc-bai10]]. Przygotowanie dyżurnych do nowego sposobu pracy to [[proc-bai05]].",
+    "skrajny": "Kasia Nowik pyta dwie rzeczy. „Na jakim serwerze stoi Syrena i z jaką bramką SMS jest połączona?” oraz „Jak krok po kroku przełączyć Syrenę w tryb awaryjny?”. Obie odpowiedzi leżą w komputerze, obie są informacją. Pierwsza opisuje elementy systemu i ich powiązania – to repozytorium konfiguracji z BAI10. Druga to wiedza o tym, jak pracować – instrukcja z BAI08. Pułapka: oba procesy prowadzą „bazę”. **Rozstrzygnięcie:** „Z czego to się składa i co od czego zależy?” → BAI10. „Jak to zrobić i czego się nauczyliśmy?” → BAI08 (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Zarządzanie wiedzą to szkolenia.",
+      "prawda": "Szkolenia i kompetencje to głównie APO07 i BAI05. BAI08 dba, żeby wiedza była spisana, dostępna, aktualna i wycofywana, gdy się zestarzeje."
+    },
+    {
+      "mit": "Baza wiedzy i baza konfiguracji to jedno.",
+      "prawda": "Baza konfiguracji (BAI10) opisuje elementy systemu i ich relacje. Baza wiedzy (BAI08) zawiera instrukcje, obejścia i wnioski."
+    },
+    {
+      "mit": "Wiedzę wystarczy raz spisać.",
+      "prawda": "BAI08 obejmuje też ocenę przydatności i wycofywanie nieaktualnej wiedzy."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli BAI08 z BAI10, bo oba „przechowują informacje o systemie”.",
+    "jakTlumaczyc": "BAI10 to schemat instalacji elektrycznej w domu. BAI08 to kartka „co zrobić, gdy wywali korki”.",
+    "pytanieKontrolne": "Dudek spisuje obejście znanego błędu Syreny, żeby dyżurni sami mogli je zastosować. Który proces utrzymuje tę instrukcję?",
+    "odpowiedzKontrolna": "**BAI08** – to wiedza potrzebna do pracy. Sam znany błąd i jego przyczynę ustala DSS03, a z obejścia korzysta DSS02."
+  }
+}

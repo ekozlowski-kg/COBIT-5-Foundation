@@ -1,0 +1,17 @@
+{
+  "question_count": 90,
+  "test_count": 9,
+  "options_per_question": 4,
+  "explanation_count": 360,
+  "process_count": 37,
+  "flashcard_count": 72,
+  "all_json_parse": true,
+  "all_questions_schema_valid": true,
+  "unique_question_ids": true,
+  "unique_exact_question_stems": true,
+  "semantic_variants_present": true,
+  "all_correct_grading_test": "10/10",
+  "all_blank_grading_test": "0/10",
+  "random_generation_test": "OK",
+  "scope": "Kontrola struktury, spójności i działania generatora. Nie stanowi niezależnego audytu merytorycznego ani akredytacji."
+}

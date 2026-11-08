@@ -1,0 +1,113 @@
+{
+  "id": "zasada-4",
+  "en": "Principle 4: Enabling a Holistic Approach",
+  "wymowa": "prinsipl 4 inejbling e hołlistik aprołcz",
+  "wymowaAkcent": "PRIN-si-pl 4 i-NEJ-bling e hoł-LIS-tik a-PROŁCZ",
+  "plEgzamin": "Zasada 4: Aktywacja holistycznego podejścia",
+  "plPodrecznik": "Zasada 4: Wdrożenie podejścia całościowego",
+  "plInne": [
+    {
+      "nazwa": "Podejście holistyczne (forma skrócona w kursie)",
+      "zrodlo": "kurs"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Zasada 4: Aktywacja holistycznego podejścia",
+    "podrecznik": "Zasada 4: Wdrożenie podejścia całościowego",
+    "kurs": "Zasada 4: Aktywacja holistycznego podejścia (Principle 4: Enabling a Holistic Approach)",
+    "uwaga": "Egzamin PL: „Zasada 4: Aktywacja holistycznego podejścia”; podręcznik PL: „Zasada 4: Wdrożenie podejścia całościowego” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 13, 14. Inne formy w obiegu: Podejście holistyczne (forma skrócona w kursie) (kurs)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin (uzasadnienia SP1): „Aktywacja holistycznego podejścia” – „aktywacja”, bo egzamin tłumaczy *enabler* jako „aktywator”. Podręcznik: „Wdrożenie podejścia całościowego”. Rozpoznawaj po słowach: holistyczne / całościowe / aktywatory.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "aktywator",
+    "wymiary-aktywatora"
+  ],
+  "poLudzku": "Patrz na całość: sukces zależy od wielu rzeczy naraz, nie tylko od sprzętu.",
+  "wyobrazSobie": "Orkiestra: nawet najlepsze skrzypce nie zagrają symfonii bez nut, dyrygenta i pozostałych muzyków.",
+  "poCo": "Żeby Ład i Zarządzanie IT budować na wszystkich współpracujących aktywatorach, a nie tylko na technologii czy na pojedynczym procesie.",
+  "jakDziala": "COBIT 5 wyróżnia 7 kategorii aktywatorów (enablers), m.in. procesy, struktury organizacyjne, informację oraz ludzi, umiejętności i kompetencje. Aktywatory indywidualnie i kolektywnie decydują o tym, czy Ład i Zarządzanie działają: każdy potrzebuje wejść od innych i dostarcza im wyników. Wszystkie mają cztery wspólne wymiary (interesariusze, cele, cykl życia, dobre praktyki), a ich wydajność mierzą wskaźniki wiodące i opóźnione.",
+  "dlaczegoWazne": "To czwarta z pięciu zasad COBIT 5. Egzamin pyta o 7 aktywatorów, 4 wymiary oraz wskaźniki wiodące i opóźnione; egzaminacyjna nazwa zasady to „Aktywacja holistycznego podejścia”.",
+  "skadNazwa": "Tłumaczenie *Enabling a Holistic Approach*. Egzamin konsekwentnie tłumaczy *enable/enabler* jako „aktywacja/aktywator”, stąd „Aktywacja holistycznego podejścia”. Podręcznik: „Wdrożenie podejścia całościowego”.",
+  "poziom1": "Żeby coś działało, nie wystarczy jeden element: potrzeba 7 współpracujących aktywatorów – od zasad i procesów przez ludzi i kulturę po informacje i aplikacje (np. nowy system nic nie da bez procedur i przeszkolonych ludzi).",
+  "poziom2": "Aktywatory **indywidualnie i kolektywnie** decydują, czy Ład i Zarządzanie IT działają. Każdy aktywator **potrzebuje wejść** od innych (procesy potrzebują informacji, struktury potrzebują umiejętności i zachowań) i **dostarcza wyniki** innym. Wszystkie aktywatory mają **4 wspólne wymiary**: interesariusze, cele, cykl życia, dobre praktyki. Mierzy się je wskaźnikami opóźnionymi i wiodącymi.",
+  "poziom3": "Rozdział 5 (s. 27): *„Czynniki umożliwiające indywidualnie i kolektywnie decydują o tym, czy dany aspekt (…) będzie działał właściwie.”* Przykład 4 (s. 28): procesy i procedury dotyczące bezpieczeństwa informacji nie będą skuteczne, jeśli kultura i etyka są nieodpowiednie.",
+  "przyklady": {
+    "zycie": "Kupujesz dziecku biurko i lampkę, żeby lepiej się uczyło. Nic się nie zmienia, dopóki nie ustalicie planu dnia, zasady „najpierw lekcje, potem gry”, a Ty sam nie odłożysz telefonu przy kolacji. Dopiero wszystkie te elementy razem dają efekt – to Zasada 4.",
+    "biuro": "Biuro kupuje program do obiegu dokumentów. Nic się nie zmienia, bo nie ma instrukcji obiegu, nikt nie przeszkolił sekretarki, a kierownik dalej chce wszystko na papierze. Program to tylko jeden z aktywatorów, a reszta też musi zagrać.",
+    "firma": "Sklep spożywczy stawia kasę samoobsługową, ale kolejki się nie skracają. Nikt nie pilnuje kasy, kasjerki nie umieją pomóc klientom, a klienci nie wiedzą, że wolno z niej korzystać. Sam sprzęt nie wystarczy, potrzebne są też ludzie, procedury i nawyki – to Zasada 4.",
+    "admin": "Starostwo wdraża elektroniczne zarządzanie dokumentacją. System działa, ale urzędnicy dalej drukują pisma, bo nie ma instrukcji kancelaryjnej ani szkoleń, a kierownik sam woli papier. Bez procesów, ludzi, struktur i kultury system zostaje pustą skorupą – to Zasada 4.",
+    "psp": "Komenda powiatowa dostaje nowe stanowiska w SK z nową wersją SWD-PSP. Dyżurni nie mają procedur ani przeszkolenia, dane o hydrantach są nieaktualne, a nikt nie zgłasza błędów, bo boi się konsekwencji. Sprzęt jest, ale dopiero procedury, ludzie, dane i kultura razem przyspieszą dysponowanie – to Zasada 4.",
+    "it": "APO13 (Zarządzanie bezpieczeństwem) działa dopiero razem z polityką bezpieczeństwa, strukturą odpowiedzialną za bezpieczeństwo, kulturą zgłaszania incydentów, przeszkolonymi ludźmi, informacją i narzędziami. Przykład 4 z FW-PL: procesy i procedury bezpieczeństwa informacji nie będą skuteczne, jeśli kultura i etyka są nieodpowiednie."
+  },
+  "glebokosc": {
+    "prosty": "Żeby upiec ciasto, nie wystarczy dobry piekarnik. Potrzebujesz przepisu, składników, kogoś, kto umie piec, i porządku w kuchni. Jeśli zabraknie choć jednego, ciasto się nie uda – liczy się całość.",
+    "zaawansowany": "Po awarii komenda mogłaby po prostu wymienić Syrenę na nowszą. Komendantka każe jednak spojrzeć na wszystkie siedem aktywatorów: politykę powiadamiania, proces obsługi alarmu, Radę ds. Informatyki, kulturę zgłaszania błędów, aktualne dane OSP ([[informacja]]), serwer i aplikację oraz szkolenia dyżurnych. Każdy aktywator potrzebuje wejść od innych i daje im wyniki: proces potrzebuje aktualnych numerów telefonów, a przeszkoleni dyżurni sprawiają, że proces działa. Każdy z nich opisuje się tymi samymi czterema [[wymiary-aktywatora|wymiarami]].",
+    "skrajny": "Komenda wdraża wzorową politykę zgłaszania błędów, proces z tabelą RACI i nowy moduł zgłoszeń w Syrenie. Po trzech miesiącach nikt nie zgłasza błędów, bo dyżurni boją się kary. Każdy element z osobna „spełnia definicję”, a całość nie działa – to dokładnie przykład 4 z Frameworku: procesy i procedury dotyczące bezpieczeństwa informacji nie będą skuteczne, jeśli kultura i etyka nie są odpowiednie (s. 28). Podejście całościowe nie polega na tym, że każdy aktywator jest dobry osobno, tylko na tym, że aktywatory indywidualnie **i kolektywnie** decydują o sukcesie (s. 27). **Rozstrzygnięcie:** zasada 4 = siedem współzależnych aktywatorów; brak jednego (np. kultury) może unieważnić pozostałe."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Podejście całościowe znaczy „cała organizacja”.",
+      "prawda": "„Cała organizacja” to zasada 2. Zasada 4 to wszystkie rodzaje aktywatorów działające razem."
+    },
+    {
+      "mit": "Wystarczy dobrze wdrożyć procesy, reszta przyjdzie sama.",
+      "prawda": "Procesy potrzebują informacji, umiejętności i odpowiedniej kultury. Aktywatory decydują o sukcesie indywidualnie i kolektywnie (s. 27–28)."
+    },
+    {
+      "mit": "Aktywatory to po prostu zasoby: ludzie, sprzęt, informacje.",
+      "prawda": "Zasobami są trzy z siedmiu kategorii (informacja; usługi, infrastruktura i aplikacje; ludzie, umiejętności i kompetencje). Pozostałe to polityki, procesy, struktury i kultura (s. 27)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie zasady 4 z zasadą 2 oraz przekonanie, że wystarczy jeden dobry aktywator (zwykle proces albo system).",
+    "jakTlumaczyc": "Orkiestra: siedem sekcji, każda musi grać i słuchać pozostałych. Najlepszy skrzypek nie uratuje koncertu, jeśli perkusja gra w innym tempie. Potem pokaż przykład 4 z s. 28: procesy i procedury bezpieczeństwa informacji padają przez kulturę.",
+    "pytanieKontrolne": "Komenda ma dobrą politykę i dobry proces, a mimo to błędy nie są zgłaszane. Który aktywator najpewniej zawiódł i co to mówi o zasadzie 4?",
+    "odpowiedzKontrolna": "Najpewniej **kultura, etyka i zachowanie** (strach przed karą). Zasada 4 mówi, że aktywatory działają indywidualnie i kolektywnie: proces wynikający z dobrej polityki nie zadziała bez odpowiedniej kultury. Przykład 4 (s. 28): przy nieodpowiedniej kulturze i etyce procesy i procedury bezpieczeństwa informacji nie będą skuteczne."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "zasada-2",
+      "roznica": "Zasada 2: CAŁA organizacja (zakres). Zasada 4: WSZYSTKIE rodzaje aktywatorów (całościowe podejście)."
+    }
+  ],
+  "przykladWypowiedzi": "Principle 4, Enabling a Holistic Approach, czyli Aktywacja holistycznego podejścia, mówi, że siedem enablers, czyli aktywatorów, indywidualnie i kolektywnie decyduje o tym, czy Ład i Zarządzanie działają.",
+  "egzamin": "Liczba **7** aktywatorów i **4** wymiary aktywatora to tematy Zasady 4. Pytania o „jakość kontekstową”, „wskaźniki wiodące” i „cykl życia aktywatora” też należą do Zasady 4.",
+  "powiazane": [
+    "aktywator",
+    "wymiary-aktywatora",
+    "wskaznik-wiodacy",
+    "wskaznik-opozniony"
+  ],
+  "sylabus": [
+    "PR-01-01",
+    "PR-01-02",
+    "PR-02-12",
+    "PR-02-13"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 27,
+      "cytat": "Czynniki umożliwiające indywidualnie i kolektywnie decydują o tym, czy dany aspekt"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 27,
+      "ilustracja": "12"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 28
+    },
+    {
+      "doc": "SP1",
+      "uwaga": "uzasadnienie pyt. o model aktywatora – nazwa zasady 4"
+    }
+  ],
+  "mapa": "zasada-4"
+}

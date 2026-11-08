@@ -1,0 +1,628 @@
+{
+  "pytania": [
+    {
+      "id": "q-spr-im-01",
+      "typ": "egzamin",
+      "sprawdzian": "IM",
+      "czesc": "wiedza",
+      "sylabus": [
+        "IM-01-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Z jakich trzech powiązanych komponentów (pierścieni) składa się cykl życia wdrożenia z Rysunku 17?",
+      "opcje": [
+        {
+          "tekst": "Z planowania, budowania, uruchamiania i monitorowania zmian w czterech kolejnych etapach programu.",
+          "poprawna": false,
+          "wyjasnienie": "To skojarzenie z PBRM (Planuj, Twórz, Wykonuj i Monitoruj), czyli z obszarem Zarządzania, a nie z pierścieniami wdrożenia.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Z oceny stanu obecnego, określenia stanu docelowego i wdrożenia usprawnień w organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "To tylko kilka działań wewnętrznego pierścienia. Pomija program i zmianę.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Z Ładu, Zarządzania i audytu wewnętrznego, które razem nadzorują przebieg całego wdrożenia.",
+          "poprawna": false,
+          "wyjasnienie": "To role w organizacji, a nie komponenty cyklu życia wdrożenia.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Z Zarządzania programem, Aktywowania zmiany i Głównego cyklu życia ciągłego doskonalenia.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Pierścień zewnętrzny: Zarządzanie programem; środkowy: Aktywowanie zmiany; wewnętrzny: Główny cykl życia ciągłego doskonalenia."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38,
+          "ilustracja": "17"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "cykl-wdrozenia",
+        "pierscien-program",
+        "pierscien-zmiana",
+        "pierscien-doskonalenie"
+      ]
+    },
+    {
+      "id": "q-spr-im-02",
+      "typ": "egzamin",
+      "sprawdzian": "IM",
+      "czesc": "wiedza",
+      "sylabus": [
+        "IM-02-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Co COBIT 5 wymienia jako **kluczowy czynnik sukcesu** wdrożenia?",
+      "opcje": [
+        {
+          "tekst": "Wdrożenie wszystkich 37 procesów jednocześnie, żeby w organizacji nie powstały żadne luki.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 zaleca skupienie na priorytetach i szybkich korzyściach, a nie wdrażanie wszystkiego naraz.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Najwyższe kierownictwo daje kierunek i mandat oraz widocznie wspiera inicjatywę.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To pierwszy z kluczowych czynników sukcesu: wytyczne, uprawnienia oraz ciągłe zaangażowanie i wsparcie kierownictwa."
+        },
+        {
+          "tekst": "Stosowanie COBIT 5 dokładnie tak, jak opisano go w podręczniku, bez dostosowywania do organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie. Czynnikiem sukcesu jest **dostosowanie** COBIT do unikalnego kontekstu organizacji.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Odłożenie komunikacji z pracownikami do zakończenia programu, żeby uniknąć zbędnego niepokoju.",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie. Efektywna komunikacja od początku jest czynnikiem sukcesu.",
+          "pulapka": "odwrocone"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 35
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "kluczowe-czynniki-sukcesu"
+      ]
+    },
+    {
+      "id": "q-spr-im-03",
+      "typ": "dopasowanie",
+      "sprawdzian": "IM",
+      "czesc": "terminologia",
+      "sylabus": [
+        "IM-02-02",
+        "IM-02-03",
+        "IM-01-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Dopasuj termin z rozdziału o wdrożeniu (EN) do nazwy egzaminacyjnej PL.",
+      "pary": [
+        {
+          "lewa": "Pain points",
+          "prawa": "Punkty zapalne"
+        },
+        {
+          "lewa": "Trigger events",
+          "prawa": "Zdarzenia wyzwalające"
+        },
+        {
+          "lewa": "Business case",
+          "prawa": "Uzasadnienie biznesowe"
+        },
+        {
+          "lewa": "Change enablement",
+          "prawa": "Aktywowanie zmiany"
+        },
+        {
+          "lewa": "Programme management",
+          "prawa": "Zarządzanie programem"
+        },
+        {
+          "lewa": "Road map",
+          "prawa": "Mapa drogowa"
+        }
+      ],
+      "wyjasnienie": "Podręcznik PL pisze „zdarzenia inicjujące”, „umożliwienie zmian” i „plan działań”. Egzamin: Zdarzenia wyzwalające (Trigger events), Aktywowanie zmiany (Change enablement), Mapa drogowa (Road map).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38,
+          "ilustracja": "17"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "punkty-zapalne",
+        "zdarzenia-wyzwalajace",
+        "uzasadnienie-biznesowe",
+        "cykl-wdrozenia"
+      ]
+    },
+    {
+      "id": "q-spr-im-04",
+      "typ": "nazwa-en",
+      "sprawdzian": "IM",
+      "czesc": "terminologia",
+      "sylabus": [
+        "IM-02-07"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielskie pytanie fazy 7 cyklu życia wdrożenia (egzamin PL: „Jak utrzymać motywację do działania?”; podręcznik, il. 17: „Jak utrzymać obecną dynamikę?”).",
+      "termin": "faza-7",
+      "poprawne": [
+        "How do we keep the momentum going?",
+        "How do we keep the momentum going",
+        "How do we keep momentum going?",
+        "How do we keep momentum going"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **How do we keep the momentum going?** *Momentum* to impet, dynamika. W fazie 7 weryfikuje się sukces inicjatywy i otwiera kolejną iterację cyklu.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 38,
+          "ilustracja": "17"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "faza-7",
+        "fazy-wdrozenia"
+      ]
+    },
+    {
+      "id": "q-spr-im-05",
+      "typ": "egzamin",
+      "sprawdzian": "IM",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "IM-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które z poniższych jest **zdarzeniem wyzwalającym** (trigger event), a NIE punktem zapalnym (pain point)?",
+      "opcje": [
+        {
+          "tekst": "Nowe wymagania regulacyjne dotyczące czasu powiadamiania jednostek.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Nowe wymagania regulacyjne to zdarzenie w otoczeniu, które skłania do zajęcia się Ładem i Zarządzaniem IT."
+        },
+        {
+          "tekst": "Wyniki audytu regularnie wskazują na problemy z jakością usług informatycznych komendy.",
+          "poprawna": false,
+          "wyjasnienie": "Powtarzające się złe wyniki audytu to typowy **punkt zapalny**, czyli codzienny ból organizacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zmiany wprowadzane w Syrenie przychodzą z opóźnieniem i przekraczają zaplanowany budżet.",
+          "poprawna": false,
+          "wyjasnienie": "Opóźnione i droższe zmiany IT to **punkt zapalny**.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kierownictwo niechętnie rozmawia z wydziałem informatyki i unika tematów związanych z IT.",
+          "poprawna": false,
+          "wyjasnienie": "Niechęć kierownictwa do współpracy z IT to **punkt zapalny**.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "punkty-zapalne",
+        "zdarzenia-wyzwalajace"
+      ]
+    },
+    {
+      "id": "q-spr-im-06",
+      "typ": "egzamin",
+      "sprawdzian": "IM",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "IM-02-07",
+        "IM-01-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Do którego pierścienia i fazy cyklu życia wdrożenia (Rysunek 17) należy działanie **„Monitorowanie i szacowanie”**?",
+      "opcje": [
+        {
+          "tekst": "Do fazy 6 Aktywowania zmiany, w której nowe podejścia osadza się w codziennej pracy ludzi.",
+          "poprawna": false,
+          "wyjasnienie": "Faza 6 pierścienia zmiany to osadzanie nowych podejść, a nie monitorowanie i szacowanie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Do fazy 7 Zarządzania programem, w której przegląda się skuteczność całego programu.",
+          "poprawna": false,
+          "wyjasnienie": "Faza ta sama, ale pierścień inny. W programie faza 7 to przegląd skuteczności.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Do fazy 7 Głównego cyklu życia ciągłego doskonalenia („Jak utrzymać motywację do działania?”).",
+          "poprawna": true,
+          "wyjasnienie": "Tak. W pierścieniu wewnętrznym faza 7 to Monitorowanie i szacowanie: weryfikacja sukcesu i nowe potrzeby."
+        },
+        {
+          "tekst": "Do fazy 2 Głównego cyklu życia ciągłego doskonalenia, w której ocenia się stan obecny procesów.",
+          "poprawna": false,
+          "wyjasnienie": "W fazie 2 ocenia się stan obecny. „Monitorowanie i szacowanie” zamyka okrążenie w fazie 7.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 38,
+          "ilustracja": "17"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "fazy-wdrozenia",
+        "faza-7",
+        "pierscien-doskonalenie"
+      ]
+    },
+    {
+      "id": "q-spr-im-07",
+      "typ": "egzamin",
+      "sprawdzian": "IM",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "IM-02-03"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Jak COBIT 5 traktuje **uzasadnienie biznesowe** (business case) w trakcie programu wdrożenia?",
+      "opcje": [
+        {
+          "tekst": "Jako jednorazowy dokument zatwierdzany na starcie programu i archiwizowany po decyzji o finansowaniu.",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik mówi wprost, że uzasadnienie nie jest jednorazowym, statycznym dokumentem.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Jako dynamiczne narzędzie operacyjne, stale aktualizowane, by widzieć opłacalność programu.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Uzasadnienie trzeba stale aktualizować, by odzwierciedlało aktualny obraz i pozwalało ocenić opłacalność."
+        },
+        {
+          "tekst": "Jako szczegółowy projekt techniczny rozwiązania, który przygotowuje i aktualizuje dostawca systemu.",
+          "poprawna": false,
+          "wyjasnienie": "Uzasadnienie biznesowe to narzędzie kierownictwa do kierowania tworzeniem wartości, a nie projekt techniczny.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Jako raport końcowy z fazy 7, który podsumowuje korzyści osiągnięte po zamknięciu całego programu.",
+          "poprawna": false,
+          "wyjasnienie": "Uzasadnienie wspiera projekty już w fazie 4 i towarzyszy całemu programowi, a nie tylko jego końcowi.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "uzasadnienie-biznesowe"
+      ]
+    },
+    {
+      "id": "q-spr-im-08",
+      "typ": "egzamin",
+      "sprawdzian": "IM",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "IM-02-05",
+        "IM-02-06"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Dlaczego COBIT 5 zaleca, by duże inicjatywy wdrożeniowe przebiegały w **wielu iteracjach** cyklu życia?",
+      "opcje": [
+        {
+          "tekst": "Bo każda z siedmiu faz cyklu musi trwać dokładnie sześć miesięcy, niezależnie od wielkości organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie narzuca długości faz. Sześć miesięcy to próg ryzyka dla całej inicjatywy.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Bo norma ISO/IEC 15504 wymaga powtarzania oceny zdolności procesu co pół roku w każdej organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "Taki wymóg nie wynika z COBIT 5. To mieszanie modelu zdolności z cyklem wdrożenia.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Bo jedna iteracja cyklu może zawsze obejmować tylko jeden z trzydziestu siedmiu procesów COBIT 5.",
+          "poprawna": false,
+          "wyjasnienie": "Zakres iteracji ustala się w fazie 2 według priorytetów. Nie ma reguły jednego procesu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Bo inicjatywa dłuższa niż pół roku grozi utratą dynamiki, koncentracji i akceptacji.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Przy inicjatywie trwającej ponad sześć miesięcy rośnie ryzyko utraty dynamiki, koncentracji i akceptacji interesariuszy."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "cykl-wdrozenia",
+        "fazy-wdrozenia"
+      ]
+    },
+    {
+      "id": "q-spr-im-09",
+      "typ": "studium",
+      "sprawdzian": "IM",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "IM-02-06"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "W której fazie cyklu życia wdrożenia jest teraz zespół?",
+      "scenariusz": "Miesiąc temu zespół Ewy Lis zmierzył, jak dziś działa alarmowanie, i ocenił zdolność kluczowych procesów. Teraz zespół ustala, jaki poziom chce osiągnąć, porównuje stan obecny z wytycznymi COBIT, wypisuje luki i wybiera usprawnienia, które dadzą szybkie korzyści.",
+      "opcje": [
+        {
+          "tekst": "W fazie 2 („Gdzie jesteśmy teraz?”), bo zespół wciąż korzysta z wyników oceny zdolności.",
+          "poprawna": false,
+          "wyjasnienie": "Ocena stanu obecnego już się odbyła. Ustalanie celu i analiza luk to kolejny krok.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "W fazie 4 („Co trzeba zrobić?”), bo zespół zbiera listę usprawnień do wykonania.",
+          "poprawna": false,
+          "wyjasnienie": "W fazie 4 planuje się projekty z uzasadnieniami biznesowymi. Tu dopiero wskazuje się luki i możliwe rozwiązania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "W fazie 3 („Dokąd chcemy dojść?”): stan docelowy, luki i szybkie korzyści.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Faza 3: określenie celu doskonalenia, szczegółowa analiza luk według COBIT i wskazanie szybkich korzyści."
+        },
+        {
+          "tekst": "W fazie 5 („Jak się tam dostaniemy?”), bo zespół wybrał już usprawnienia do wdrożenia.",
+          "poprawna": false,
+          "wyjasnienie": "W fazie 5 rozwiązania zamienia się w praktyczne działania. Tu nic jeszcze nie wdrażano.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 38,
+          "ilustracja": "17"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "fazy-wdrozenia",
+        "faza-3"
+      ]
+    },
+    {
+      "id": "q-spr-im-10",
+      "typ": "studium",
+      "sprawdzian": "IM",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "IM-02-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Którego elementu wymaganego przez COBIT 5 brakuje w projekcie?",
+      "scenariusz": "Główna księgowa Halina Mak przygotowała projekt uzasadnienia biznesowego naprawy Syreny. Zawiera on: docelowe korzyści i ich beneficjentów, wymagane zmiany w pracy komendy, potrzebne inwestycje, bieżące koszty IT i koszty działalności, oczekiwane korzyści po zmianach, ryzyka z ograniczeniami i zależnościami oraz role i zakresy odpowiedzialności.",
+      "opcje": [
+        {
+          "tekst": "Sposobu monitorowania inwestycji i tworzenia wartości w całym cyklu życia, z miernikami.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To ostatni z minimalnych elementów uzasadnienia biznesowego: jak monitorować inwestycję i tworzenie wartości oraz jakimi miernikami."
+        },
+        {
+          "tekst": "Szczegółowego projektu technicznego serwerów i schematu sieci, przygotowanego przez Kwant-Sygnał.",
+          "poprawna": false,
+          "wyjasnienie": "Projekt techniczny nie należy do minimalnej zawartości uzasadnienia biznesowego.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Opisu ryzyk z ograniczeniami i zależnościami, opartego na wyzwaniach i czynnikach sukcesu.",
+          "poprawna": false,
+          "wyjasnienie": "Ten element już jest w projekcie. Zdanie jest prawdziwe, ale nie wskazuje braku.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Listy docelowych korzyści biznesowych, ich zgodności ze strategią i wskazania beneficjentów.",
+          "poprawna": false,
+          "wyjasnienie": "Ten element też jest w projekcie. Brakuje sposobu monitorowania wartości.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "uzasadnienie-biznesowe"
+      ]
+    },
+    {
+      "id": "q-spr-im-11",
+      "typ": "wypowiedz",
+      "sprawdzian": "IM",
+      "czesc": "synteza",
+      "sylabus": [
+        "IM-01-01",
+        "IM-02-05",
+        "IM-02-02",
+        "IM-02-03"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Wyjaśnij komendantce, jak trzy pierścienie i siedem faz poprowadzą naprawę Syreny – od awarii z Lipowej do utrzymania efektów (5–7 zdań). Użyj terminów EN: **Programme management**, **Change enablement**, **Continual improvement**, **Trigger events**, **Business case**.",
+      "wymagane": [
+        "Programme management",
+        "Change enablement",
+        "Continual improvement",
+        "Trigger events",
+        "Business case"
+      ],
+      "wzorzec": "Awaria z Lipowej to punkt zapalny (*pain point*), a zapowiedziana kontrola to zdarzenie wyzwalające (**Trigger events**): od nich zaczyna się faza 1 „Jakie są wyznaczniki?”. Każda faza ma działania w trzech pierścieniach naraz.\n- **Programme management** (Zarządzanie programem, pierścień zewnętrzny): inicjujemy program, definiujemy problemy i okazje, mapę drogową, a w fazie 4 planujemy projekty oparte na **Business case** (uzasadnieniu biznesowym), które stale aktualizujemy.\n- **Change enablement** (Aktywowanie zmiany, pierścień środkowy): budujemy chęć zmiany, zespół wdrożeniowy, komunikujemy rezultat, wskazujemy odtwórców ról i osadzamy nowe nawyki dyżurnych.\n- **Continual improvement** (Główny cykl życia ciągłego doskonalenia, pierścień wewnętrzny): oceniamy stan obecny (faza 2), definiujemy stan docelowy (faza 3), budujemy i wdrażamy usprawnienia (fazy 4–5), eksploatujemy i mierzymy (faza 6), a w fazie 7 monitorujemy i szacujemy.\nFaza 7 „Jak utrzymać motywację do działania?” otwiera kolejną iterację; inicjatywę dzielimy na okrążenia krótsze niż sześć miesięcy.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38,
+          "ilustracja": "17"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "cykl-wdrozenia",
+        "fazy-wdrozenia",
+        "zdarzenia-wyzwalajace",
+        "uzasadnienie-biznesowe"
+      ]
+    },
+    {
+      "id": "q-spr-im-12",
+      "typ": "studium",
+      "sprawdzian": "IM",
+      "czesc": "synteza",
+      "sylabus": [
+        "IM-02-01",
+        "IM-02-02",
+        "IM-02-05"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które podejście jest najbardziej zgodne z wytycznymi wdrożenia COBIT 5?",
+      "scenariusz": "Inspektorka Lucyna Ostrowska zapowiada kontrolę systemów alarmowania. Po awarii z Lipowej dyżurni są zmęczeni „kolejnymi wdrożeniami” i nie wierzą w zmiany. Kpt. Sikora proponuje jeden dwuletni projekt: wdrożyć w komendzie naraz wszystkie 37 procesów COBIT 5, ściśle według podręcznika.",
+      "opcje": [
+        {
+          "tekst": "Przyjąć plan Sikory: jeden duży projekt, wszystkie procesy naraz i bez iteracji, bo kontrola wymaga kompletu.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 ostrzega przed inicjatywami dłuższymi niż sześć miesięcy i każe ustalać priorytety.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Oprzeć uzasadnienie na kontroli i awarii, zaangażować ludzi, zacząć od szybkich korzyści i działać w iteracjach.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Zdarzenie wyzwalające i punkt zapalny budują poczucie pilności; Aktywowanie zmiany odpowiada na opór; szybkie korzyści i krótkie okrążenia utrzymują dynamikę."
+        },
+        {
+          "tekst": "Skupić się wyłącznie na technice i wymienić serwery Syreny, bo opór ludzi minie sam po wdrożeniu.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 podkreśla, że nie wolno zakładać akceptacji zmiany; trzeba zarządzać aspektami ludzkimi i kulturowymi.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Wdrożyć COBIT 5 dokładnie według podręcznika, bez żadnego dostosowania, żeby inspektorka nie miała zastrzeżeń.",
+          "poprawna": false,
+          "wyjasnienie": "Dostosowanie COBIT do kontekstu organizacji to kluczowy czynnik sukcesu, a nie błąd.",
+          "pulapka": "odwrocone"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 35
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zdarzenia-wyzwalajace",
+        "punkty-zapalne",
+        "cykl-wdrozenia",
+        "kluczowe-czynniki-sukcesu"
+      ]
+    }
+  ]
+}

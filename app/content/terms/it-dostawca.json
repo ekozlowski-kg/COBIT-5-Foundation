@@ -1,0 +1,102 @@
+{
+  "id": "it-dostawca",
+  "en": "Supplier (vendor)",
+  "wymowa": "saplajer",
+  "wymowaAkcent": "sa-PLAJ-er",
+  "plEgzamin": "Dostawca",
+  "plPodrecznik": "dostawca",
+  "plInne": [
+    "dostawca usług",
+    "vendor (potocznie)"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "dostawca (FW-PL s. 22, 33, 93)",
+    "kurs": "Dostawca (Supplier)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Na egzaminie słowo występuje w nazwie procesu APO10 Zarządzanie dostawcami (Manage Suppliers)."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-usluga-it"
+  ],
+  "poLudzku": "Firma spoza organizacji, która sprzedaje jej sprzęt, programy albo usługi.",
+  "poziom1": "Dostawca to zewnętrzna firma, od której organizacja kupuje coś do informatyki: komputery, licencje na programy, łącze internetowe, pomoc techniczną albo całą usługę.",
+  "poziom2": "Z dostawcą podpisuje się umowę. Umowa powinna mówić, co dokładnie dostajemy, jak szybko dostawca reaguje na awarię i co się dzieje, gdy nie dotrzyma słowa. Organizacja zależy od dostawcy, więc musi go wybierać i sprawdzać.",
+  "poziom3": "W COBIT 5 dostawcy to interesariusze zewnętrzni (definicja interesariusza wymienia dostawców, FW-PL s. 93). Relacjami z nimi zarządza proces APO10 Zarządzanie dostawcami (s. 33). Pytanie interesariusza: *„W jakim stopniu jestem uzależniony od zewnętrznych dostawców?”* (s. 22).",
+  "wyobrazSobie": "Hurtownia, z której sklep bierze towar. Sklep sprzedaje, ale gdy hurtownia nie dowiezie, półki są puste.",
+  "poCo": "Żeby organizacja nie musiała sama robić wszystkiego – kupuje to, co inni robią lepiej albo taniej.",
+  "jakDziala": "Organizacja opisuje, czego potrzebuje, i wybiera dostawcę. Podpisuje umowę. Dostawca dostarcza i utrzymuje to, co obiecał. Organizacja sprawdza, czy dotrzymuje umowy.",
+  "dlaczegoWazne": "Duża część informatyki w organizacjach pochodzi od dostawców. Słaba umowa albo zły dostawca to ryzyko, którego nie da się zrzucić na „tamtych”.",
+  "przyklady": {
+    "zycie": "Twój dostawca Internetu to firma, której płacisz co miesiąc za łącze. Gdy nie działa, dzwonisz na jej infolinię.",
+    "biuro": "Biuro kupuje drukarki od jednej firmy, a ta sama firma raz w miesiącu przyjeżdża je serwisować.",
+    "organizacja": "Gmina płaci firmie zewnętrznej za program do podatków i za jego aktualizacje, gdy zmienia się prawo.",
+    "psp": "Firma Kwant-Sygnał sprzedała komendzie „Syrenę”. Jej handlowiec Igor Wolny po awarii mówi: „system działa zgodnie z umową”.",
+    "it": "Dostawcy to interesariusze zewnętrzni; relacjami z nimi zarządza proces APO10 Zarządzanie dostawcami (FW-PL s. 33)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-outsourcing",
+      "roznica": "Dostawca to firma. Outsourcing to decyzja, by oddać jej na stałe wykonywanie całej usługi albo zadania."
+    },
+    {
+      "termin": "Dostawca Internetu",
+      "roznica": "To jeden konkretny rodzaj dostawcy – firma, która daje łącze z Internetem."
+    }
+  ],
+  "przykladWypowiedzi": "A supplier, czyli dostawca, dostarcza nam products and services, czyli produkty i usługi; w COBIT 5 zarządza tym APO10 Manage Suppliers.",
+  "egzamin": "Na egzaminie dostawcy pojawiają się jako interesariusze zewnętrzni i w procesie APO10 Zarządzanie dostawcami (Manage Suppliers).",
+  "powiazane": [
+    "it-outsourcing",
+    "it-usluga-it",
+    "interesariusz",
+    "proc-apo10"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO10 Zarządzanie dostawcami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 22,
+      "ilustracja": "7",
+      "cytat": "W jakim stopniu jestem uzależniony od zewnętrznych dostawców?"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "rząd, dostawcy, klienci oraz opinia publiczna"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Zamawiasz tort w cukierni na urodziny. Cukiernia jest Twoim „dostawcą”. Jeśli tort nie przyjedzie, przyjęcie i tak jest Twoje – to Ty musisz mieć plan B.",
+    "zaawansowany": "Po nocy na Lipowej Igor Wolny z Kwant-Sygnału twierdzi, że „Syrena” działa zgodnie z umową. Halina Mak, główna księgowa, czyta umowę: nie ma w niej, jak szybko dostawca musi naprawić awarię. Komenda zależy od dostawcy, ale nie zapisała, czego od niego oczekuje. Za chwilę poznasz [[it-outsourcing|outsourcing]], gdzie ta zależność jest jeszcze większa.",
+    "skrajny": "Czy dział informatyki komendy jest dostawcą? Dla dyżurnych tak – to dostawca wewnętrzny usług. Czy dostawca jest interesariuszem? Tak, zewnętrznym (FW-PL s. 93). Czy kupienie usługi od dostawcy przenosi na niego odpowiedzialność wobec mieszkańców? Nie – komenda nadal odpowiada za skutki. **Rozstrzygnięcie:** dostawca to ten, kto coś organizacji dostarcza (zwykle firma zewnętrzna); można mu zlecić pracę, ale nie odpowiedzialność organizacji za wynik."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Gdy kupujemy od dostawcy, za awarię odpowiada tylko on.",
+      "prawda": "Dostawca odpowiada wobec organizacji z umowy. Wobec ludzi, którym organizacja służy, odpowiada nadal ona."
+    },
+    {
+      "mit": "Dostawca nie jest interesariuszem.",
+      "prawda": "W COBIT 5 dostawcy są interesariuszami zewnętrznymi (FW-PL s. 93)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Przekonanie, że zakup od dostawcy zdejmuje z organizacji odpowiedzialność.",
+    "jakTlumaczyc": "Cukiernia i przyjęcie urodzinowe: tort możesz zamówić, ale za przyjęcie odpowiadasz Ty.",
+    "pytanieKontrolne": "Kwant-Sygnał mówi, że działał zgodnie z umową. Czy komenda może uznać, że to nie jej sprawa?",
+    "odpowiedzKontrolna": "Nie. Komenda odpowiada za alarmy wobec mieszkańców. Musi zapisać w umowie swoje wymagania i pilnować dostawcy."
+  }
+}

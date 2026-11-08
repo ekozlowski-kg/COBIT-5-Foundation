@@ -1,0 +1,112 @@
+{
+  "id": "poziom-4",
+  "en": "Level 4 – Predictable process",
+  "wymowa": "lewel 4 pridiktabl prołses",
+  "wymowaAkcent": "LE-wel 4 pri-DIK-ta-bl PROŁ-ses",
+  "plEgzamin": "Poziom 4 – Proces przewidywalny",
+  "plPodrecznik": "Poziom 4 potencjału – proces przewidywalny",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Poziom 4 – Proces przewidywalny",
+    "podrecznik": "Poziom 4 potencjału – proces przewidywalny",
+    "kurs": "Poziom 4 – Proces przewidywalny (Level 4 – Predictable process)",
+    "uwaga": "Egzamin PL: „Poziom 4 – Proces przewidywalny”; podręcznik PL: „Poziom 4 potencjału – proces przewidywalny” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 42, 44."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "W COBIT 4.1 poziom 4 to „Zarządzany i wymierny”. W COBIT 5 poziom 4 to „Przewidywalny”, a „zarządzany” to poziom 2.",
+  "skadNazwa": "Z angielskiego *Predictable*: wiesz z góry, w jakich granicach wyjdzie wynik, bo proces jest mierzony i kontrolowany.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "poziom-3",
+    "pa-4-1",
+    "pa-4-2"
+  ],
+  "poziom1": "Proces ustanowiony (poziom 3) działa w zdefiniowanych limitach, żeby osiągać swoje wyniki. Warunek: PA 4.1 (miara procesu) i PA 4.2 (kontrola procesu) co najmniej W, a wszystkie atrybuty poziomów 1–3 = P.",
+  "poLudzku": "Wiesz z góry, ile to potrwa i jak wyjdzie, bo mierzysz i trzymasz się granic.",
+  "wyobrazSobie": "Pociąg z rozkładem jazdy: wiesz, o której przyjedzie, a gdy się spóźnia, ktoś od razu reaguje.",
+  "poCo": "Żeby wiedzieć z góry, jak proces się zachowa, i szybko wyłapywać sytuacje, gdy wychodzi poza normę.",
+  "jakDziala": "Proces ustanowiony jest mierzony względem celów ilościowych (PA 4.1). Wyniki pomiaru służą do trzymania procesu w ustalonych limitach i korygowania odchyleń (PA 4.2). Wszystko niżej musi mieć P.",
+  "dlaczegoWazne": "Egzamin pyta o atrybuty procesu przewidywalnego. Trzeba też odróżnić prawdziwy poziom 4 od zwykłego posiadania wskaźników.",
+  "poziom2": "| Atrybut | Wymagana ocena |\n|---|---|\n| PA 1.1 – PA 3.2 (5 atrybutów) | **P** |\n| PA 4.1 Miara (pomiar) procesu | **W lub P** |\n| PA 4.2 Kontrola procesu | **W lub P** |\n\nRóżnica 3 → 4: na poziomie 3 wszyscy pracują według standardu. Na poziomie 4 **liczby** pokazują, jak proces działa, a wyjście poza limity jest wychwytywane i korygowane.",
+  "poziom3": "(s. 42): *„4 Proces przewidywalny (dwa atrybuty) — opisany wcześniej proces ustanowiony działa teraz w ramach zdefiniowanych limitów w celu osiągnięcia wyników procesu.”*",
+  "przyklady": {
+    "zycie": "Domowy budżet: co miesiąc liczysz wydatki na jedzenie i wiesz, że mieszczą się w 1500–1700 zł. Gdy w maju wychodzi 2100 zł, od razu szukasz przyczyny i poprawiasz. To poziom 4: pomiar i trzymanie się granic.",
+    "biuro": "Biuro obsługi klienta wie, że odpowiada na 95% maili w ciągu jednego dnia. Raport tygodniowy pokazuje odchylenia, a kierowniczka od razu sprawdza przyczynę. To poziom 4.",
+    "organizacja": "Sklep internetowy mierzy czas od zamówienia do nadania paczki. Cel: 95% paczek w 24 godziny. Gdy wskaźnik spada, kierownik magazynu szuka przyczyny i reaguje. Proces jest przewidywalny.\n\nUrząd mierzy czas wydania pozwolenia i liczbę odwołań. Wie, że 90% spraw kończy się w 21 dni. Gdy jest gorzej, od razu sprawdza przyczyny. To poziom 4.",
+    "psp": "**Limit sześćdziesięciu sekund.** Naczelnik Marek Sikora ustala, że alarm ma dotrzeć do wszystkich wezwanych jednostek w 60 sekund. Syrena co tydzień zbiera czasy, a Ola Dudek analizuje każdy przypadek ponad limit. Gdy w lipcu czasy rosną, zespół szybko znajduje przyczynę u operatora SMS. Audytorka Ewa Lis widzi tu oba atrybuty poziomu 4: pomiar i kontrolę.",
+    "it": "Proces DSS01 (zarządzanie operacjami): czas wykonania nocnych zadań wsadowych jest mierzony i ma limit. Przekroczenie limitu uruchamia analizę i korektę. Przy P na poziomach 1–3 to poziom 4."
+  },
+  "glebokosc": {
+    "prosty": "Pieczesz chleb codziennie według przepisu. Teraz ważysz mąkę i mierzysz czas pieczenia. Wiesz, że bochenek waży zawsze 480–520 g. Gdy jeden waży 400 g, od razu szukasz przyczyny. To poziom 4.",
+    "zaawansowany": "Proces powiadamiania ma już [[poziom-3|poziom 3]]. Sikora wprowadza limit 60 sekund i cotygodniowy raport czasów ([[pa-4-1|miara procesu]]). Gdy czasy wychodzą poza limit, Dudek szuka przyczyny i ją usuwa ([[pa-4-2|kontrola procesu]]). Ewa Lis sprawdza, czy pomiar i reakcja działają systematycznie. Tak wygląda droga na poziom 4.",
+    "skrajny": "Komenda chwali się wskaźnikami: ma tablicę z czasami alarmów, wykresy i miesięczne raporty. Kusi, żeby od razu dać poziom 4. Ewa Lis pyta jednak o dwie rzeczy. Po pierwsze, czy poziomy 1–3 są w pełni osiągnięte, bo na jednej zmianie procedura wciąż nie działa. Po drugie, czy ktoś reaguje, gdy wynik wypada z limitu, czy wykres tylko wisi. Pomiar bez reakcji to dobra ocena PA 4.1 i słaba PA 4.2. **Rozstrzygnięcie:** poziom 4 = mierzysz (PA 4.1) i trzymasz proces w limitach (PA 4.2), a niżej masz same P. Same wskaźniki nie dają poziomu 4."
+  },
+  "zagmatwania": [
+    {
+      "mit": "„Przewidywalny” znaczy, że proces jest nudny i rutynowy.",
+      "prawda": "Znaczy, że działa w zdefiniowanych limitach: z liczb wiesz, jakiego wyniku się spodziewać, i reagujesz na odchylenia."
+    },
+    {
+      "mit": "Jak cokolwiek mierzymy, to jesteśmy na poziomie 4.",
+      "prawda": "Pilnowanie wykonania według planu należy już do PA 2.1 (poziom 2). Poziom 4 to systematyczny pomiar względem celów procesu i kontrola odchyleń, na bazie poziomu 3 (uproszczenie według ISO/IEC 15504)."
+    },
+    {
+      "mit": "Poziom 4 w COBIT 5 to „Zarządzany i wymierny” z COBIT 4.1.",
+      "prawda": "Skal nie da się prosto porównać (Il. 20). Do tego „zarządzany” w COBIT 5 to poziom 2."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń widzi wskaźniki i od razu daje poziom 4, nie sprawdzając P na poziomach 1–3.",
+    "jakTlumaczyc": "Analogia z termometrem i kaloryferem: mierzysz (PA 4.1) i odkręcasz kaloryfer, gdy jest za zimno (PA 4.2). Termometr bez kaloryfera to tylko pomiar. A dom musi mieć najpierw ściany, czyli poziomy 1–3.",
+    "pytanieKontrolne": "Atrybuty poziomów 1–2 i PA 3.1 mają P, PA 3.2 = W, a PA 4.1 i PA 4.2 = P. Jaki poziom?",
+    "odpowiedzKontrolna": "Poziom 3. Atrybuty poziomu 3 mają co najmniej W, więc poziom 3 jest osiągnięty. Do poziomu 4 brakuje **P** na PA 3.2."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "poziom-3",
+      "roznica": "Poziom 3 to standard stosowany przez wszystkich. Poziom 4 dodaje liczby i trzymanie procesu w limitach."
+    },
+    {
+      "termin": "poziom-5",
+      "roznica": "Poziom 5 to ciągłe doskonalenie pod cele biznesowe. Poziom 4 to stabilne działanie w limitach."
+    },
+    {
+      "termin": "pa-2-1",
+      "roznica": "PA 2.1 też monitoruje, ale wykonanie względem planu. Poziom 4 mierzy proces ilościowo względem jego celów."
+    }
+  ],
+  "przykladWypowiedzi": "Level 4 – Predictable process, czyli poziom 4 – proces przewidywalny, działa w zdefiniowanych limitach dzięki atrybutom Process measurement (miara procesu) i Process control (kontrola procesu).",
+  "egzamin": "„Działa w **zdefiniowanych limitach**” → **poziom 4, proces przewidywalny**. Atrybuty: **miara (pomiar)** procesu i **kontrola** procesu.",
+  "powiazane": [
+    "poziomy-zdolnosci",
+    "pa-4-1",
+    "pa-4-2",
+    "poziom-3",
+    "poziom-5"
+  ],
+  "sylabus": [
+    "PC-01-01",
+    "PC-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "działa teraz w ramach zdefiniowanych limitów w celu osiągnięcia wyników procesu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 44,
+      "ilustracja": "20",
+      "cytat": "Poziom 4: Proces przewidywalny"
+    },
+    {
+      "doc": "SP1"
+    }
+  ],
+  "mapa": "poziom-4"
+}

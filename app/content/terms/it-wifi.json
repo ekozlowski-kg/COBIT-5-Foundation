@@ -1,0 +1,82 @@
+{
+  "id": "it-wifi",
+  "en": "Wi-Fi",
+  "wymowa": "łaj-faj",
+  "wymowaAkcent": "ŁAJ-faj",
+  "plEgzamin": "Wi-Fi (sieć bezprzewodowa)",
+  "plPodrecznik": "—",
+  "plInne": [
+    "sieć bezprzewodowa",
+    "WLAN"
+  ],
+  "statusTlumaczenia": "D",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "—",
+    "kurs": "Wi-Fi (sieć bezprzewodowa)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Nazwa handlowa; w polszczyźnie zachowujemy oryginał. Opisowo: sieć bezprzewodowa (EN: wireless network). WLAN = Wireless Local Area Network."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P0",
+  "wymaga": [
+    "it-siec"
+  ],
+  "poLudzku": "Połączenie z siecią bez kabla, przez fale radiowe, w pobliżu routera.",
+  "poziom1": "Wi-Fi to sposób łączenia urządzeń z siecią lokalną bez kabla. Działa na kilkadziesiąt metrów od routera, czyli urządzenia, które nadaje sygnał.",
+  "poziom2": "Sieć Wi-Fi ma nazwę (np. „Komenda-Goście”) i zwykle hasło. Bez hasła każdy w pobliżu mógłby się podłączyć. Wi-Fi to tylko „ostatni odcinek” – router dalej łączy się kablem z siecią i z Internetem.",
+  "poziom3": "Nie jest terminem COBIT 5. Zabezpieczenie sieci bezprzewodowej to element usług bezpieczeństwa (DSS05 Zarządzanie usługami bezpieczeństwa).",
+  "wyobrazSobie": "Krótkofalówka zamiast telefonu na kablu: działa bez przewodu, ale tylko w zasięgu.",
+  "poCo": "Żeby łączyć się z siecią w dowolnym miejscu budynku bez ciągnięcia kabli.",
+  "jakDziala": "Router zamienia dane na fale radiowe i je nadaje. Telefon albo laptop odbiera fale i sam też nadaje. Gdy znasz hasło sieci, router Cię wpuszcza.",
+  "dlaczegoWazne": "Wi-Fi jest wygodne, ale słabsze niż kabel: ma ograniczony zasięg i trzeba je chronić hasłem.",
+  "przyklady": {
+    "zycie": "W kawiarni prosisz o hasło do Wi-Fi. Po wpisaniu telefon łączy się z siecią kawiarni i przez nią z Internetem.",
+    "biuro": "W sali konferencyjnej laptopy gości łączą się z Wi-Fi „Biuro-Goście”, które nie ma dostępu do folderów pracowników.",
+    "organizacja": "Hotel ma osobne Wi-Fi dla gości i osobną sieć dla recepcji, żeby goście nie widzieli danych rezerwacji.",
+    "psp": "Strażacy w JRG 1 łączą tablety przez Wi-Fi w remizie. Komputery na SK są podłączone kablem, bo kabel jest pewniejszy.",
+    "it": "Ochrona sieci bezprzewodowej to część zarządzania usługami bezpieczeństwa (DSS05)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-internet",
+      "roznica": "Wi-Fi łączy z routerem w pobliżu. Internet to sieć światowa za routerem."
+    },
+    {
+      "termin": "it-siec",
+      "roznica": "Sieć to całe połączenie urządzeń. Wi-Fi to jeden ze sposobów przyłączenia się do niej."
+    }
+  ],
+  "przykladWypowiedzi": "Wi-Fi to wireless network, czyli sieć bezprzewodowa; przez Wi-Fi łączę się z siecią, a przez nią z Internetem.",
+  "egzamin": "Nie jest terminem egzaminu. Przydatne jako przykład infrastruktury i jej zabezpieczeń.",
+  "powiazane": [
+    "it-siec",
+    "it-internet"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [],
+  "glebokosc": {
+    "prosty": "Radio w kuchni gra bez kabla do stacji radiowej, bo łapie fale. Ale gdy odejdziesz z odbiornikiem daleko, sygnał słabnie. Wi-Fi jest podobne – działa tylko blisko nadajnika.",
+    "zaawansowany": "W JRG 2 tablety strażaków tracą Wi-Fi w garażu, bo grube ściany tłumią fale. Ola Dudek dokłada drugi nadajnik. To nie naprawa [[it-internet|Internetu]], tylko lepszy zasięg sieci w budynku.",
+    "skrajny": "Czy „mam pełne Wi-Fi, a nic nie działa” to sprzeczność? Nie – sygnał do routera jest dobry, ale router może nie mieć Internetu. Czy otwarte Wi-Fi bez hasła jest bezpieczne? Każdy w pobliżu może się podłączyć i próbować podglądać, co przesyłasz. Czy „dane komórkowe” w telefonie to Wi-Fi? Nie, to łączność przez maszty operatora. **Rozstrzygnięcie:** Wi-Fi to tylko bezprzewodowy odcinek do routera w pobliżu; nie gwarantuje Internetu i wymaga ochrony hasłem."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wi-Fi to Internet.",
+      "prawda": "Wi-Fi to połączenie bez kabla z routerem. Internet jest dalej, za routerem."
+    },
+    {
+      "mit": "Dane komórkowe w telefonie to też Wi-Fi.",
+      "prawda": "Dane komórkowe idą przez maszty operatora sieci komórkowej, a nie przez router Wi-Fi."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mówienie „nie ma Internetu”, gdy brakuje tylko zasięgu Wi-Fi (albo odwrotnie).",
+    "jakTlumaczyc": "Krótkofalówka i baza: krótkofalówka (Wi-Fi) łączy z bazą (router), a baza ma telefon do świata (Internet).",
+    "pytanieKontrolne": "Masz pełny sygnał Wi-Fi, ale strony się nie ładują. Co sprawdzisz?",
+    "odpowiedzKontrolna": "Czy router ma połączenie z Internetem, np. czy działa łącze od dostawcy."
+  }
+}

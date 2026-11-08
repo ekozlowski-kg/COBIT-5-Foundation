@@ -1,0 +1,117 @@
+{
+  "id": "proc-dss02",
+  "en": "DSS02 Manage Service Requests and Incidents",
+  "wymowa": "dieses 02 menydż serwis rikłests end insidents",
+  "wymowaAkcent": "di-es-ES 02 ME-nydż SER-wis ri-KŁESTS end IN-si-dents",
+  "plEgzamin": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+  "plPodrecznik": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+  "plInne": [
+    {
+      "nazwa": "Zarządzanie zgłoszeniami usługowymi i incydentami",
+      "zrodlo": "opracowanie „Prosto, krok po kroku” (nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+    "podrecznik": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+    "kurs": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami (DSS02 Manage Service Requests and Incidents)",
+    "uwaga": "Egzamin PL i podręcznik zgodne, ale w obiegu są konkurencyjne odpowiedniki: Zarządzanie zgłoszeniami usługowymi i incydentami. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 74. Inne formy w obiegu: Zarządzanie zgłoszeniami usługowymi i incydentami (opracowanie „Prosto, krok po kroku” (nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Service Requests and Incidents*.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "dss",
+    "uslugi-infrastruktura-aplikacje"
+  ],
+  "poLudzku": "Gdy coś przestaje działać albo ktoś prosi o pomoc, szybko przywracasz działanie i załatwiasz prośbę.",
+  "wyobrazSobie": "Dzwonisz po hydraulika, bo woda leje się z rury. On najpierw ją zakręca, a przyczyny szuka później.",
+  "skadNazwa": "Z angielskiego *Manage Service Requests and Incidents*. „Incydent” to przerwa albo pogorszenie usługi. „Zgłoszenie serwisowe” to zwykła prośba użytkownika, np. o nowe konto.",
+  "poziom1": "Proces domeny [[dss]], który zapewnia szybką i skuteczną reakcję na prośby użytkowników (zgłoszenia serwisowe) i na incydenty, czyli przerwy lub pogorszenie usługi. Celem jest jak najszybsze przywrócenie normalnego działania.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** przyjmuje i rejestruje zgłoszenia, klasyfikuje je i nadaje priorytet, realizuje prośby, diagnozuje i rozwiązuje incydenty, w razie potrzeby eskaluje, zamyka zgłoszenie i raportuje.\n\n**Wejścia (intuicja):** zgłoszenia użytkowników, alarmy z monitorowania ([[proc-dss01]]), znane błędy i obejścia ([[proc-dss03]]), opis konfiguracji ([[proc-bai10]]).\n\n**Wyjścia (intuicja):** zarejestrowane i zamknięte zgłoszenia, rozwiązania, raporty, dane o incydentach dla DSS03.\n\n**Współpracuje z:** [[proc-dss03]] (przyczyny powtarzających się incydentów), [[proc-bai06]] (zmiany awaryjne), [[proc-bai08]] (baza wiedzy), APO09 (czasy reakcji z umów).",
+  "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Il. 39 (s. 88) wymienia przy DSS umiejętność *„Zarządzanie jednostką Service Desk i incydentami”*. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby po awarii szybko przywrócić normalne działanie usługi. I żeby prośby użytkowników były sprawnie załatwiane.",
+  "jakDziala": "Rejestrujesz, klasyfikujesz i priorytetyzujesz zgłoszenia oraz incydenty. Diagnozujesz, rozwiązujesz i przywracasz usługę. Zamykasz sprawę i raportujesz jej status.",
+  "dlaczegoWazne": "Szybkie przywrócenie działania to DSS02, a szukanie przyczyny źródłowej to DSS03. To jedna z najczęściej mylonych par (interpretacja kursu).",
+  "przyklady": {
+    "zycie": "W niedzielę wieczorem pada internet, a dziecko ma jutro lekcje zdalne. Restartujesz router i internet wraca. Nie wiesz, dlaczego padł, ale teraz najważniejsze, żeby działał. To obsługa incydentu.",
+    "biuro": "Klient dzwoni, że nie dostał faktury. Recepcjonistka zapisuje sprawę, wysyła fakturę jeszcze raz i odhacza zgłoszenie.",
+    "organizacja": "Serwis zdalnie odblokowuje drukarkę w biurze księgowej, a tego samego dnia zakłada konto stażystce. W starostwie informatyk w 10 minut odblokowuje urzędniczce konto w EZD i zamyka zgłoszenie.",
+    "psp": "**Trzecia noc bez SMS-a.** O 2:00 st. ogn. Kasia Nowik zgłasza, że Syrena nie wysłała SMS-a do OSP Zawilce. Ola Dudek rejestruje zgłoszenie, restartuje bramkę SMS i po 5 minutach alarmy znów wychodzą. Nowik dzwoni jeszcze do dh. Pietrzaka telefonicznie, żeby nic nie przepadło. Szybkie przywrócenie działania to [[proc-dss02]].",
+    "it": "Praktyki DSS02 obejmują m.in. klasyfikację, rejestrację i priorytet, realizację zgłoszeń serwisowych, diagnozę i rozwiązanie incydentów oraz raporty."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-dss03",
+      "roznica": "DSS02 przywraca usługę szybko, nawet jeśli przyczyna jest nieznana. DSS03 szuka przyczyny źródłowej, żeby incydenty nie wracały."
+    },
+    {
+      "termin": "proc-dss04",
+      "roznica": "DSS02 obsługuje zwykłe przerwy w usługach. DSS04 przygotowuje przetrwanie poważnego zakłócenia, gdy normalna obsługa nie wystarczy."
+    },
+    {
+      "termin": "proc-bai06",
+      "roznica": "Jeśli przywrócenie usługi wymaga zmiany w systemie, ta zmiana idzie ścieżką zmian awaryjnych BAI06."
+    }
+  ],
+  "przykladWypowiedzi": "DSS02 Manage Service Requests and Incidents, czyli Zarządzanie zgłoszeniami serwisowymi i incydentami, jak najszybciej przywraca działanie usługi.",
+  "egzamin": "Słowa-klucze: incydent, przywrócenie usługi, *service desk*, zgłoszenie, prośba użytkownika, eskalacja → **DSS02**. Przyczyna źródłowa, znany błąd, powtarzające się incydenty → **DSS03**.",
+  "powiazane": [
+    "dss",
+    "itil",
+    "proc-dss03",
+    "proc-dss04",
+    "proc-bai06"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "DSS02 Zarządzanie zgłoszeniami serwisowymi"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39",
+      "cytat": "Zarządzanie jednostką Service Desk i incydentami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "podzbiór procesów w domenie DSS"
+    }
+  ],
+  "mapa": "proc-dss02",
+  "glebokosc": {
+    "prosty": "Przecieka kran w kuchni. Zakręcasz zawór i podstawiasz miskę. Woda nie leje się na podłogę i możesz gotować obiad. Naprawą uszczelki zajmiesz się później.",
+    "zaawansowany": "W nocy Syrena nie wysyła SMS-a. Dudek restartuje bramkę i po 5 minutach alarm wychodzi, a Nowik na wszelki wypadek dzwoni do OSP. To [[proc-dss02]]: usługa wróciła. Ale to już trzeci raz w miesiącu, więc Sikora zleca szukanie przyczyny w [[proc-dss03]]. Wiedza o restarcie jako obejściu trafia do bazy w [[proc-bai08]].",
+    "skrajny": "W jednym miesiącu Syrena trzy razy nie wysyła SMS-a. Za każdym razem Dudek restartuje bramkę i zamyka zgłoszenie w 5 minut. Wskaźnik DSS02 wygląda świetnie: średni czas przywrócenia 5 minut. Mimo to komenda ma kłopot, bo nikt nie wie, dlaczego bramka pada. Czy DSS02 zadziałał? Tak, bo jego celem jest szybkie przywrócenie usługi, a nie usunięcie przyczyny. Przyczyną zajmuje się DSS03, który powinien dostać dane o powtarzających się incydentach. Jeden problem może stać za wieloma incydentami, a jeden incydent może nie mieć żadnego problemu w tle. **Rozstrzygnięcie:** DSS02 mierzy, jak szybko wraca usługa. DSS03 mierzy, czy incydenty przestały wracać. Dobre wyniki DSS02 nie znaczą, że problem jest rozwiązany."
+  },
+  "zagmatwania": [
+    {
+      "mit": "DSS02 kończy się dopiero, gdy znamy przyczynę awarii.",
+      "prawda": "DSS02 kończy się, gdy usługa działa normalnie. Przyczynę ustala DSS03."
+    },
+    {
+      "mit": "Prośba o nowe konto to nie sprawa DSS02, bo nic się nie zepsuło.",
+      "prawda": "DSS02 obsługuje i incydenty, i zwykłe zgłoszenia serwisowe użytkowników."
+    },
+    {
+      "mit": "Każdy incydent to problem.",
+      "prawda": "Problem to nieznana przyczyna jednego lub wielu incydentów. Pojedynczy incydent nie musi otwierać problemu."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera DSS03, gdy w pytaniu pada słowo „problem” w potocznym sensie („był problem z drukarką”).",
+    "jakTlumaczyc": "Strażak gasi pożar – to DSS02. Biegły po pożarze ustala, dlaczego wybuchł – to DSS03. Oba są potrzebne, ale robią co innego.",
+    "pytanieKontrolne": "Dyżurny zgłasza, że Syrena nie działa. Informatyk przywraca ją w 10 minut, ale przyczyna jest nieznana. Czy DSS02 zakończył pracę?",
+    "odpowiedzKontrolna": "**Tak** – usługa działa, więc incydent można zamknąć. Jeśli przyczyna jest nieznana albo awaria się powtarza, otwiera się problem w **DSS03**."
+  }
+}

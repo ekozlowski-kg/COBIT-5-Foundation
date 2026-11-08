@@ -1,0 +1,115 @@
+{
+  "id": "wejscia-wyjscia",
+  "en": "Inputs and outputs (work products)",
+  "wymowa": "inputs end ałtputs",
+  "wymowaAkcent": "IN-puts end AŁT-puts",
+  "plEgzamin": "Wejścia i wyjścia",
+  "plPodrecznik": "Dane wejściowe i wyniki",
+  "plInne": [
+    {
+      "nazwa": "Produkty działań / pozostałości",
+      "zrodlo": "FW-PL s. 70"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Wejścia i wyjścia",
+    "podrecznik": "Dane wejściowe i wyniki",
+    "kurs": "Wejścia i wyjścia (Inputs and outputs)",
+    "uwaga": "Egzamin PL: „Wejścia i wyjścia”; podręcznik PL: „Dane wejściowe i wyniki” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 29, 30, 31. Inne formy w obiegu: Produkty działań / pozostałości (FW-PL s. 70)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „wejścia i wyjścia”. Podręcznik: „dane wejściowe i wyniki”, a same rzeczy nazywa „produktami działań” albo „pozostałościami”. To ten sam element.",
+  "skadNazwa": "*Inputs and outputs*, czyli *work products*. Podręcznik tłumaczy to jako „dane wejściowe i wyniki”, „produkty działań” albo „pozostałości” (od *artefacts*).",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "praktyka-procesu",
+    "informacja"
+  ],
+  "mapa": "wejscia-wyjscia",
+  "poziom1": "Wejścia i wyjścia to rzeczy, które do praktyki trafiają i z niej wychodzą, np. zgłoszenie, plan, raport, decyzja. Pozwalają podejmować decyzje, zostawiają ślad do kontroli i pomagają sprawdzić, co się stało przy incydencie. Często wyjście jednego procesu jest wejściem innego.",
+  "poLudzku": "Papiery i dane, które trafiają do pracy, i te, które z niej wychodzą jako ślad.",
+  "wyobrazSobie": "Skierowanie i recepta: z jednym przychodzisz do lekarza, z drugim wychodzisz, a oba zostają w kartotece.",
+  "poCo": "Żeby było wiadomo, czego praktyka potrzebuje i co wytwarza, i żeby po fakcie dało się odtworzyć, co się stało.",
+  "jakDziala": "Każda kluczowa praktyka ma wejścia (np. zgłoszenie, plan) i wyjścia (np. raport, decyzja, wpis w rejestrze). Wyjście jednego procesu często jest wejściem innego. Wejścia i wyjścia tworzą ścieżkę rewizyjną, a lista COBIT 5 jest przykładowa.",
+  "dlaczegoWazne": "Egzamin pyta o rolę wejść i wyjść: decyzje, ścieżka rewizyjna, weryfikacja po incydencie. Bez nich nie da się też ocenić produktów pracy przy ocenie zdolności.",
+  "poziom2": "Co mówi COBIT 5 o wejściach i wyjściach (s. 70, s. 92):\n- to **produkty działań** niezbędne do realizacji procesu;\n- umożliwiają **kluczowe decyzje**;\n- dają **rejestr i ścieżkę rewizyjną** (ślad do audytu);\n- pozwalają na **weryfikację po incydencie**;\n- definiuje się je **na poziomie kluczowych praktyk**;\n- często są **wejściem dla innych procesów**, a niektóre zostają tylko w samym procesie;\n- lista w COBIT 5 **nie jest wyczerpująca**: organizacja może dodać własne przepływy.\n\nInformacja jest jednym z typów wejść, a proces może dostarczać informacji jako wyjść (s. 71).",
+  "poziom3": "(s. 70): wejścia i wyjścia *„zapewniają rejestr oraz ścieżkę rewizyjną dla działań w ramach procesu”*. *„Definiuje się je na poziomie kluczowych praktyk nadzoru/zarządzania”*. Słownik (s. 92): *„Lista przykładowych danych wejściowych i wyników COBIT 5 nie jest wyczerpująca”*.",
+  "przyklady": {
+    "zycie": "Idziesz do lekarza ze skierowaniem (wejście). Wychodzisz z receptą i wpisem w karcie (wyjścia). Recepta staje się wejściem dla apteki. Gdy coś pójdzie nie tak, wpis w karcie pokaże, co lekarz zalecił.",
+    "biuro": "W dziale zakupów wniosek pracownika o laptopa to wejście. Zamówienie i protokół odbioru to wyjścia. Gdy laptop zginie, protokół pokaże, kto go odebrał.",
+    "organizacja": "Drukarnia dostaje od klienta plik i zamówienie (wejścia). Wydaje gotowe ulotki i protokół odbioru (wyjścia). Gdy klient reklamuje kolory, protokół z podpisem pokazuje, co zaakceptował. Urząd przyjmuje wniosek o pozwolenie na budowę (wejście). Wydaje decyzję i zostawia akta sprawy (wyjścia). Decyzja jest wejściem dla nadzoru budowlanego. Akta to ścieżka rewizyjna na wypadek skargi.",
+    "psp": "Proces obsługi alarmu w komendzie w Modrzewiowie dostaje zgłoszenie przekazane z CPR 112 (wejście). Wydaje alarm do JRG i OSP oraz wpis w dzienniku Syreny z godziną wysłania (wyjścia). Po nocy na Lipowej to właśnie dziennik pokazał, że SMS do OSP Zawilce nie wyszedł. Wyjście procesu zadziałało jak ścieżka rewizyjna.",
+    "it": "W BAI06 (Zarządzanie zmianami) wniosek o zmianę jest wejściem, a zatwierdzona zmiana i wpis w rejestrze zmian są wyjściami. Rejestr staje się wejściem m.in. dla BAI10 (Zarządzanie konfiguracją) (szczegóły procesu: uproszczenie kursu)."
+  },
+  "glebokosc": {
+    "prosty": "Do pralki wkładasz brudne ubrania i proszek (wejścia). Wyjmujesz czyste ubrania (wyjście). Pralka pokazuje też, jaki program był włączony. To ślad, gdy coś się skurczy. Każda praca ma coś na wejściu i coś na wyjściu.",
+    "zaawansowany": "Naczelnik Sikora projektuje proces aktualizacji numerów w Syrenie. Przy [[praktyka-procesu|praktyce]] „aktualizuj listę numerów OSP” zapisuje wejście: zgłoszenie zmiany od naczelnika OSP. Wyjścia to zaktualizowana lista i wpis w rejestrze zmian. Lista jest wejściem dla procesu obsługi alarmu. Rejestr zmian pozwoli po kolejnej awarii sprawdzić, kto i kiedy zmienił numer.",
+    "skrajny": "Audytorka Lis pyta, na jakim poziomie definiuje się wejścia i wyjścia: procesu, praktyki czy działania? Intuicja podpowiada działanie, bo to działania „uwzględniają wejścia i wyjścia”. Podręcznik mówi jednak, że wejścia i wyjścia definiuje się na poziomie kluczowych praktyk. Druga pułapka: lista wejść i wyjść w COBIT 5 nie jest wyczerpująca. Komenda może dopisać własny przepływ, np. potwierdzenie SMS od OSP. **Rozstrzygnięcie:** wejścia i wyjścia przypisuje się do praktyk. Działania je uwzględniają, a lista COBIT 5 jest przykładowa, a nie zamknięta."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wejścia i wyjścia przypisuje się do każdego działania.",
+      "prawda": "Definiuje się je na poziomie kluczowych praktyk. Działania tylko je uwzględniają."
+    },
+    {
+      "mit": "Lista wejść i wyjść w COBIT 5 jest kompletna.",
+      "prawda": "Jest przykładowa. Organizacja może zdefiniować dodatkowe przepływy informacji."
+    },
+    {
+      "mit": "Wyjścia służą tylko następnemu procesowi.",
+      "prawda": "Służą też decyzjom, tworzą ścieżkę rewizyjną i pozwalają odtworzyć przebieg incydentu. Niektóre zostają tylko w samym procesie."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń widzi w wejściach i wyjściach tylko „papierologię” i nie łączy ich ze ścieżką rewizyjną ani z decyzjami.",
+    "jakTlumaczyc": "Pokaż łańcuch: skierowanie, recepta, apteka. Wyjście jednego kroku jest wejściem drugiego, a każdy papier zostawia ślad.",
+    "pytanieKontrolne": "Po awarii trzeba ustalić, kto zatwierdził zmianę konfiguracji. Który element opisu procesu na to pozwala?",
+    "odpowiedzKontrolna": "**Wejścia i wyjścia** (produkty działań): tworzą rejestr i ścieżkę rewizyjną i pozwalają na weryfikację po incydencie."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "dzialanie-procesu",
+      "roznica": "Działania uwzględniają wejścia i wyjścia, ale same wejścia i wyjścia definiuje się na poziomie praktyk."
+    },
+    {
+      "termin": "informacja",
+      "roznica": "Informacja to osobny aktywator. W procesie bywa wejściem lub wyjściem, ale wejścia i wyjścia to szersza kategoria produktów działań."
+    }
+  ],
+  "przykladWypowiedzi": "Inputs and outputs, czyli wejścia i wyjścia, provide an audit trail and support key decisions.",
+  "egzamin": "Wejścia i wyjścia: **produkty działań**, podstawa **decyzji**, **ścieżka rewizyjna**, weryfikacja po **incydencie**. Definiuje się je **na poziomie praktyk**. Lista COBIT 5 **nie jest wyczerpująca**.",
+  "powiazane": [
+    "praktyki-dzialania",
+    "praktyka-procesu",
+    "dzialanie-procesu",
+    "informacja"
+  ],
+  "sylabus": [
+    "EN-02-10"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 70,
+      "cytat": "zapewniają rejestr oraz ścieżkę rewizyjną dla działań w ramach procesu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 70,
+      "cytat": "Definiuje się je na poziomie kluczowych praktyk nadzoru/zarządzania"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 92,
+      "cytat": "Lista przykładowych danych wejściowych i wyników COBIT 5 nie jest wyczerpująca"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 71,
+      "cytat": "Procesy wymagają informacji (stanowiących jeden z typów danych wejściowych)"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "faza-5",
+  "en": "Phase 5: How do we get there?",
+  "wymowa": "fejz 5 hał du łi get der",
+  "wymowaAkcent": "fejz 5 hał du łi get der",
+  "plEgzamin": "Faza 5: Jak się tam dostaniemy?",
+  "plPodrecznik": "Faza 5 (pytanie fazy w il. 17 nieczytelne w korpusie tekstowym)",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Faza 5: Jak się tam dostaniemy?",
+    "podrecznik": "Faza 5 (pytanie fazy w il. 17 nieczytelne w korpusie tekstowym)",
+    "kurs": "Faza 5: Jak się tam dostaniemy? (Phase 5: How do we get there?)",
+    "uwaga": "Egzamin PL: „Faza 5: Jak się tam dostaniemy?”; podręcznik PL: „Faza 5 (pytanie fazy w il. 17 nieczytelne w korpusie tekstowym)” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL (uzasadnienie SP1: pytanie „jak się tam dostaniemy”). – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 38."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Jak się tam dostaniemy?” brzmi jak planowanie trasy, a to faza wdrażania. Plan powstał w fazie 4. W fazie 5 działa się według planu: Wdrażanie usprawnień, Wykonywanie planu.",
+  "skadNazwa": "Angielskie *How do we get there?* – „jak się tam dostaniemy”. Mimo słowa „jak” to faza robienia, nie planowania.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "faza-4"
+  ],
+  "poLudzku": "Piąty krok: robisz to, co zaplanowałeś, i od razu ustawiasz, jak będziesz mierzyć efekty.",
+  "wyobrazSobie": "Ekipa wchodzi i remontuje kuchnię. Od pierwszego dnia zapisujesz wydatki, żeby potem porównać je z kosztorysem.",
+  "poziom1": "Piąta z [[fazy-wdrozenia|siedmiu faz]]. Proponowane rozwiązania zamienia się w praktyczne działania. Ustala się miary i monitorowanie na podstawie celów i mierników COBIT. Potrzebne jest wyraźne zaangażowanie najwyższego kierownictwa i przejęcie własności przez biznes oraz IT.",
+  "poziom2": "| Pierścień | Działanie w fazie 5 („Jak się tam dostaniemy?”) |\n|---|---|\n| Zarządzanie programem (zewnętrzny) | Wykonywanie planu (SP1) |\n| Aktywowanie zmiany (środkowy) | Działaj i używaj (SP1) |\n| Cykl życia ciągłego doskonalenia (wewnętrzny) | Wdrażanie usprawnień (SP1; podr. „Wdrożenie udoskonaleń”, odczyt il. 17) |\n\nOznaczenia nazw działań: **(SP1)** – nazwa z polskiego arkusza egzaminacyjnego; bez oznaczenia – tłumaczenie kursu z *COBIT 5 Implementation* (ISACA), jak w lekcji 3.4.\n\nUwaga na miary: podręcznik umieszcza **zdefiniowanie miar i wprowadzenie monitorowania** w fazie 5. Faza 6 korzysta z nich, żeby sprawdzić korzyści.",
+  "poziom3": "(s. 38): *„W fazie 5 proponowane rozwiązania są przekształcane w praktyczne działania.”* Można zdefiniować miary i wprowadzić proces monitorowania na podstawie celów i mierników COBIT. Powodzenie wymaga zaangażowania kierownictwa najwyższego szczebla i przejęcia własności przez interesariuszy.",
+  "poCo": "Żeby plan stał się codzienną praktyką. I żeby od razu działał pomiar, który pokaże efekty.",
+  "jakDziala": "Wdrażasz usprawnienia według planu. Ustalasz miary i monitorowanie na podstawie celów i mierników COBIT. Najwyższe kierownictwo wyraźnie to wspiera, a biznes i IT przejmują własność rozwiązania.",
+  "dlaczegoWazne": "Wdrażanie usprawnień to faza 5, a budowanie usprawnień to faza 4. Miary ustala się w fazie 5, a korzysta z nich w fazie 6.",
+  "przyklady": {
+    "zycie": "Masz plan treningów i jadłospis. Teraz naprawdę biegasz we wtorki i gotujesz według listy. Wieszasz w kuchni kartkę, na której co tydzień zapiszesz wagę. To faza 5: robisz i ustawiasz pomiar.",
+    "biuro": "Teczki trafiają na nowe regały z nowymi opisami. Przy każdym szukaniu zapisujesz czas na kartce przy drzwiach.",
+    "organizacja": "Sklep zmienia kuriera, przestawia półki i włącza licznik czasu wysyłki. Starostwo uruchamia e-rezerwację, a system notuje czas każdej wizyty.",
+    "psp": "**Pierwszy alarm po nowemu**\nInformatyczka Ola Dudek włącza nową konfigurację Syreny i zasilanie awaryjne serwera. Dyżurni pracują według nowej procedury, a liderzy pomagają kolegom przy pierwszych alarmach. Komendantka Anna Wrzos przychodzi do SK i pokazuje, że jej na tym zależy. Dudek ustawia licznik czasu alarmu do OSP. To [[faza-5|faza 5: Jak się tam dostaniemy?]]",
+    "it": "Usprawniony DSS02 rusza w praktyce. Mierniki, np. odsetek incydentów rozwiązanych w uzgodnionym czasie, trafiają do monitorowania w MEA01."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "faza-4",
+      "roznica": "Faza 4 planuje i buduje (Budowanie usprawnień). Faza 5 wdraża (Wdrażanie usprawnień)."
+    },
+    {
+      "termin": "faza-6",
+      "roznica": "Faza 5 wdraża i ustawia miary. Faza 6 korzysta z nich: eksploatacja, pomiar i monitorowanie korzyści."
+    }
+  ],
+  "przykladWypowiedzi": "W fazie 5, How do we get there?, czyli Jak się tam dostaniemy?, wdrażamy usprawnienia (implement improvements) i ustalamy miary.",
+  "egzamin": "**Wdrażanie usprawnień** odpowiada na pytanie **„Jak się tam dostaniemy?”**, czyli faza **5**. Budowanie usprawnień to faza 4.",
+  "powiazane": [
+    "fazy-wdrozenia",
+    "faza-4",
+    "faza-6",
+    "pierscien-doskonalenie",
+    "pierscien-zmiana",
+    "wskaznik-wiodacy"
+  ],
+  "sylabus": [
+    "IM-02-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "W fazie 5 proponowane rozwiązania są przekształcane w praktyczne działania."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "Powodzenie tych działań wymaga wyraźnego zaangażowania i udziału kierownictwa najwyższego szczebla"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "ilustracja": "17"
+    },
+    {
+      "doc": "SP1"
+    }
+  ],
+  "mapa": "faza-5",
+  "glebokosc": {
+    "prosty": "Masz przepis i zakupy. Teraz gotujesz i stawiasz obiad na stole. Przy okazji ustawiasz minutnik, żeby wiedzieć, ile to trwało. Gotowanie to wdrożenie, a minutnik – pomiar.",
+    "zaawansowany": "Plan z [[faza-4|fazy 4]] wchodzi w życie: Dudek uruchamia usprawnienia, a dyżurni zaczynają używać nowej Syreny. To działanie pierścienia [[pierscien-zmiana|Aktywowanie zmiany]]: „Działaj i używaj”. Wrzos jest widoczna w SK, bo bez wsparcia góry ludzie wrócą do starych nawyków. Licznik czasu alarmu to miara, którą w [[faza-6|fazie 6]] wykorzysta pomiar korzyści.",
+    "skrajny": "Dwa działania brzmią prawie tak samo: „Działaj i używaj” (pierścień zmiany) i „Eksploatacja i pomiar” (pierścień doskonalenia). Pierwsze jest w fazie 5, drugie w fazie 6. W fazie 5 ludzie zaczynają pracować po nowemu, a zespół ustawia miary. W fazie 6 rozwiązanie już działa na co dzień i jest mierzone, a program sprawdza korzyści. Kusi też myśl, że miary ustala się dopiero wtedy, gdy jest co mierzyć. Podręcznik umieszcza jednak definiowanie miar i monitorowania w fazie 5. **Rozstrzygnięcie:** pierwsze użycie i ustawienie miar to faza 5; codzienna eksploatacja z pomiarem i sprawdzanie korzyści to faza 6 („Działaj i używaj” – nazwa z arkusza SP1; „Eksploatacja i pomiar” – tłumaczenie kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "„Jak się tam dostaniemy?” to faza planowania trasy.",
+      "prawda": "Trasę (mapę drogową) ustala faza 3, plan – faza 4. Faza 5 to wdrażanie."
+    },
+    {
+      "mit": "Miary ustala się w fazie 6, gdy sprawdzamy efekty.",
+      "prawda": "Podręcznik umieszcza zdefiniowanie miar i monitorowania w fazie 5. Faza 6 z nich korzysta."
+    },
+    {
+      "mit": "Wdrożenie to sprawa techników, kierownictwo może się odsunąć.",
+      "prawda": "Podręcznik wymaga w fazie 5 wyraźnego zaangażowania kierownictwa najwyższego szczebla."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń przypisuje „Wdrażanie usprawnień” do fazy 4 albo myli fazę 5 z fazą 6.",
+    "jakTlumaczyc": "Ułóż czasowniki: 4 – buduję, 5 – wdrażam, 6 – używam i mierzę, 7 – oceniam i idę dalej.",
+    "pytanieKontrolne": "Na które pytanie fazy odpowiada działanie „Wdrażanie usprawnień”?",
+    "odpowiedzKontrolna": "Na **„Jak się tam dostaniemy?”**, czyli **fazę 5**."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "it-infrastruktura",
+  "en": "IT infrastructure",
+  "wymowa": "infrastrakczer",
+  "wymowaAkcent": "IN-fra-strak-czer",
+  "plEgzamin": "Infrastruktura IT",
+  "plPodrecznik": "infrastruktura",
+  "plInne": [
+    "infrastruktura",
+    "infrastruktura techniczna"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "infrastruktura (FW-PL s. 27, 86)",
+    "kurs": "Infrastruktura IT (IT infrastructure)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Na egzaminie słowo „infrastruktura” występuje w nazwie aktywatora Usługi, infrastruktura i aplikacje."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-hardware",
+    "it-siec",
+    "it-serwer"
+  ],
+  "poLudzku": "Podstawa, na której działa cała informatyka: sprzęt, sieć, serwery i oprogramowanie systemowe.",
+  "poziom1": "Infrastruktura IT to wszystko, co „pod spodem” pozwala działać aplikacjom: komputery, serwery, sieć, łącza, systemy operacyjne, a także pomieszczenie serwerowni z zasilaniem i chłodzeniem.",
+  "poziom2": "Użytkownik zwykle infrastruktury nie widzi – widzi aplikacje i usługi. Ale gdy infrastruktura zawiedzie, padają wszystkie aplikacje, które na niej stoją. FW-PL dzieli ją na infrastrukturę **techniczną** (sprzęt, oprogramowanie systemowe, sieć) i **fizyczną** (pomieszczenia, zasilanie).",
+  "poziom3": "W COBIT 5 infrastruktura jest częścią aktywatora Usługi, infrastruktura i aplikacje: *„infrastruktura techniczna, w tym sprzęt, oprogramowanie systemowe oraz infrastruktura sieciowa”* oraz *„infrastruktura fizyczna”* (FW-PL s. 86).",
+  "wyobrazSobie": "Fundamenty, rury i przewody w domu. Nie widać ich, a bez nich nie ma prądu, wody ani ogrzewania.",
+  "poCo": "Żeby aplikacje i usługi miały na czym działać – niezawodnie i bezpiecznie.",
+  "jakDziala": "Serwery stoją w serwerowni z zasilaniem i chłodzeniem. Sieć łączy je z komputerami użytkowników. Systemy operacyjne na serwerach uruchamiają aplikacje, z których korzystają ludzie.",
+  "dlaczegoWazne": "Jedna słaba część infrastruktury, np. serwer bez zasilania awaryjnego, może zatrzymać kluczową usługę. COBIT 5 każe ją planować i utrzymywać jak każdy inny zasób.",
+  "przyklady": {
+    "zycie": "W bloku wspólne są: instalacja elektryczna, wodociąg i winda. To infrastruktura budynku – mieszkańcy z niej korzystają, ale rzadko o niej myślą.",
+    "biuro": "Serwer plików, sieć w biurze, drukarka sieciowa i router to infrastruktura biura. Program do faktur stoi na niej.",
+    "organizacja": "Bank ma dwie serwerownie w różnych miastach, każdą z własnym zasilaniem. Gdy jedna zawiedzie, druga przejmuje pracę.",
+    "psp": "Infrastruktura „Syreny” to serwer pod schodami, jedno łącze internetowe i sieć komendy. Brak zasilania awaryjnego to jej słaby punkt.",
+    "it": "Infrastruktura techniczna i fizyczna to część aktywatora Usługi, infrastruktura i aplikacje (FW-PL s. 86)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-aplikacja",
+      "roznica": "Aplikacja działa na infrastrukturze. Infrastruktura to podstawa, aplikacja to narzędzie dla człowieka."
+    },
+    {
+      "termin": "uslugi-infrastruktura-aplikacje",
+      "roznica": "Aktywator COBIT 5 łączy usługi, infrastrukturę i aplikacje. Infrastruktura to tylko jedna jego część."
+    }
+  ],
+  "przykladWypowiedzi": "IT infrastructure, czyli infrastruktura IT – hardware, network and system software, czyli sprzęt, sieć i oprogramowanie systemowe – to podstawa, na której działają applications.",
+  "egzamin": "Infrastruktura to część aktywatora Usługi, infrastruktura i aplikacje (Services, Infrastructure and Applications). To jeden z trzech aktywatorów, które są też zasobami.",
+  "powiazane": [
+    "it-hardware",
+    "it-siec",
+    "it-serwer",
+    "it-aplikacja",
+    "uslugi-infrastruktura-aplikacje"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 86,
+      "cytat": "infrastruktura techniczna, w tym sprzęt, oprogramowanie systemowe oraz infrastruktura sieciowa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 86,
+      "cytat": "infrastruktura fizyczna"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 27,
+      "cytat": "Usługi, infrastruktura i aplikacje obejmują infrastrukturę, technologię i aplikacje zapewniające przedsiębiorstwu możliwości przetwarzania oraz usługi IT."
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Mieszkasz w domu z kranem, gniazdkiem i grzejnikiem. Gdy w nocy pęknie rura w piwnicy, nie umyjesz zębów, choć Twoja łazienka jest w porządku. Rura to infrastruktura: niewidoczna, a wszystko od niej zależy.",
+    "zaawansowany": "Kpt. Marek Sikora, naczelnik wydziału informatyki, rysuje komendantce schemat: aplikacja „Syrena” → [[it-serwer|serwer]] pod schodami → jedno łącze internetowe. Pod każdym klockiem pisze, co się stanie, gdy zawiedzie. Okazuje się, że brak prądu w budynku wyłączy alarmy, bo serwer nie ma zasilania awaryjnego.",
+    "skrajny": "Czy budynek serwerowni to infrastruktura IT? Tak – FW-PL wymienia infrastrukturę fizyczną (s. 86). Czy system operacyjny to infrastruktura czy aplikacja? Infrastruktura – to oprogramowanie systemowe. Czy usługa „poczta” to infrastruktura? Nie – to usługa, która na infrastrukturze działa. **Rozstrzygnięcie:** infrastruktura to sprzęt, sieć, oprogramowanie systemowe i fizyczne zaplecze; aplikacje stoją na niej, a usługi są efektem dla użytkownika."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Infrastruktura to tylko kable.",
+      "prawda": "To też serwery, komputery, systemy operacyjne i pomieszczenia z zasilaniem (FW-PL s. 86)."
+    },
+    {
+      "mit": "Aplikacja „Syrena” jest infrastrukturą.",
+      "prawda": "Aplikacja działa na infrastrukturze, ale sama jest aplikacją."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mieszanie infrastruktury, aplikacji i usługi w jednym słowie „system”.",
+    "jakTlumaczyc": "Dom: fundamenty i rury (infrastruktura), sprzęty kuchenne (aplikacje), ciepły obiad (usługa).",
+    "pytanieKontrolne": "Gdzie w tym podziale umieścisz: łącze internetowe, „Syrenę” i „alarm wychodzi całą dobę”?",
+    "odpowiedzKontrolna": "Łącze – infrastruktura, „Syrena” – aplikacja, „alarm wychodzi całą dobę” – usługa IT."
+  }
+}

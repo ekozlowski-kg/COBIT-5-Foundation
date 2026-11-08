@@ -1,0 +1,90 @@
+{
+  "id": "mea",
+  "en": "Monitor, Evaluate and Assess (MEA)",
+  "wymowa": "moniter iweljuejt end ases",
+  "wymowaAkcent": "MO-ni-ter i-WE-lju-ejt end a-SES",
+  "plEgzamin": "Monitoruj, Oszacuj i Oceń (MEA)",
+  "plPodrecznik": "Monitorowanie, ocena i oszacowanie (MEA)",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Monitoruj, Oszacuj i Oceń (MEA)",
+    "podrecznik": "Monitorowanie, ocena i oszacowanie (MEA)",
+    "kurs": "Monitoruj, Oszacuj i Oceń (MEA) – Monitor, Evaluate and Assess",
+    "uwaga": "Egzamin PL: „Monitoruj, Oszacuj i Oceń (MEA)”; podręcznik PL: „Monitorowanie, ocena i oszacowanie (MEA)” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 32, 33, 53; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Monitoruj, Oszacuj i Oceń (MEA)”. Podręcznik: „Monitorowanie, ocena i oszacowanie (MEA)”. Nazwy procesów na egzaminie mogą brzmieć inaczej niż w podręczniku. Rozpoznawaj je po kodzie i angielskim słowie kluczowym.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "prm"
+  ],
+  "poLudzku": "Szuflada zadań „kontrola”: sprawdzać wyniki, przestrzeganie przepisów i to, czy kontrole wewnętrzne działają.",
+  "skadNazwa": "Skrót od *Monitor, Evaluate and Assess*. Egzamin: „Monitoruj, Oszacuj i Oceń”. Uwaga, „Oszacuj” jest też w EDM.",
+  "wyobrazSobie": "Kierownik sklepu sieciowego co miesiąc sprawdza wyniki sprzedaży, to, czy działają jego własne kontrole kasowe, i czy sklep spełnia przepisy sanepidu, a raport wysyła do centrali.",
+  "poCo": "Żeby Zarządzanie wiedziało, jak naprawdę idzie: czy cele są osiągane, czy mechanizmy kontrolne działają i czy organizacja spełnia wymogi zewnętrzne, i mogło to rzetelnie zaraportować Ładowi.",
+  "jakDziala": "MEA (Monitor, Evaluate and Assess) to domena Zarządzania z trzema procesami. MEA01 monitoruje wydajność i zgodność (performance and conformance), MEA02 system kontroli wewnętrznej (system of internal control), a MEA03 zgodność z wymogami zewnętrznymi (external requirements), np. przepisami. Wyniki trafiają do Ładu, który w EDM monitoruje, czy organizacja trzyma się wyznaczonego kierunku.",
+  "dlaczegoWazne": "Egzamin sprawdza, że MEA to Zarządzanie, a nie Ład, i że jej czasowniki (Monitoruj, Oszacuj i Oceń) to coś innego niż EDM (Oszacuj, Kieruj, Monitoruj). Trzeba też umieć przypisać trzy procesy MEA do ich tematów.",
+  "poziom1": "Część Zarządzania, która sprawdza, jak idzie: czy cele są osiągane, czy własne mechanizmy kontrolne działają i czy przestrzegamy przepisów z zewnątrz (np. kwartalny przegląd wskaźników, audyt wewnętrzny, sprawdzenie zgodności z RODO). Domena ma 3 procesy: MEA01–MEA03.",
+  "poziom2": "| Kod | Podręcznik PL | EN |\n|---|---|---|\n| MEA01 | Monitorowanie, ocena i oszacowanie wydajności i zgodności | Monitor, Evaluate and Assess Performance and Conformance |\n| MEA02 | Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej | Monitor, Evaluate and Assess the System of Internal Control |\n| MEA03 | Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi | Monitor, Evaluate and Assess Compliance With External Requirements |",
+  "poziom3": "Ilustracja 16 (s. 33) – model referencyjny procesu COBIT 5. Szczegóły w przewodniku *COBIT 5: Procesy umożliwiające*.",
+  "przyklady": {
+    "zycie": "Pod koniec miesiąca siadasz z wyciągiem z konta: czy zmieściliście się w budżecie, czy zlecenie stałe na czynsz naprawdę się wykonało i czy żaden rachunek nie umknął. Raz w roku sprawdzasz jeszcze, czy PIT rozliczyłeś zgodnie z przepisami. Sprawdzanie wyników, własnych zabezpieczeń i zgodności z przepisami to w domowej skali domena MEA.",
+    "biuro": "Co kwartał kierowniczka biura sprawdza wskaźnik czasu odpowiedzi na pisma, losowo kontroluje, czy przelewy mają dwa podpisy, i porównuje archiwum z przepisami o przechowywaniu dokumentów. Wnioski przedstawia dyrektorowi.",
+    "firma": "Właścicielka sklepu internetowego co kwartał patrzy na liczbę zwrotów i czas wysyłki (MEA01), sprawdza, czy pracownicy naprawdę robią kopie zapasowe tak, jak każe procedura (MEA02), i czy regulamin sklepu jest zgodny z nowymi przepisami konsumenckimi (MEA03). Te trzy rodzaje sprawdzania to trzy procesy domeny MEA.",
+    "admin": "Sekretarz gminy co pół roku zbiera raport, ile spraw załatwiono w terminie (MEA01), zleca audytorowi wewnętrznemu sprawdzenie, czy kontrola zarządcza działa (MEA02), a informatyk przygotowuje urząd do kontroli zgodności z KRI (MEA03). Mierzenie wyników, sprawdzanie własnych mechanizmów kontrolnych i zgodności z przepisami – to domena MEA.",
+    "psp": "Co kwartał zastępca komendanta dostaje ze stanowiska kierowania wskaźniki: średni czas przyjęcia zgłoszenia i zadysponowania (MEA01). Audytor z KW PSP sprawdza, czy procedury na stanowisku kierowania naprawdę działają, np. czy nikt nie pracuje na cudzym koncie w SWD-PSP (MEA02), a informatyk ocenia, czy komenda spełnia wymagania przepisów o cyberbezpieczeństwie (MEA03). Wszystko to monitorowanie, ocena i oszacowanie w domenie MEA.",
+    "it": "W MEA03 (Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi) dział IT co pół roku sprawdza, czy przetwarzanie danych osobowych spełnia wymogi RODO, i raportuje wynik zarządowi. Zarząd w EDM monitoruje na tej podstawie, czy organizacja trzyma się kierunku."
+  },
+  "glebokosc": {
+    "prosty": "Raz w miesiącu domownicy siadają i sprawdzają: czy odkładamy tyle, ile planowaliśmy, czy domowe zasady, np. kto pilnuje rachunków, naprawdę działają, i czy nie przegapiliśmy terminów z urzędu. Nikt przy tym nie zmienia celu – sprawdzamy, jak idzie, a wyniki trafiają do rodziców, którzy decydują, co dalej.",
+    "zaawansowany": "Ewa Lis co kwartał porównuje czas dotarcia alarmów do OSP z planem (MEA01), sprawdza, czy mechanizmy kontrolne Syreny, np. codzienny test wysyłki SMS, naprawdę działają (MEA02), i czy komenda spełnia wymagania, które sprawdzi mł. bryg. Ostrowska (MEA03). Raporty trafiają do kpt. Sikory, a dalej do komendantki. To wciąż [[zarzadzanie|Zarządzanie]], a nie Ład: MEA jest jedną z czterech domen Zarządzania. Komendantka na podstawie tych raportów monitoruje już w sensie [[edm|EDM]] – czy komenda trzyma się wyznaczonego kierunku.",
+    "skrajny": "Na egzaminie pada „Monitoruj, Oszacuj i Oceń”, a obok „Oszacuj, Kieruj i Monitoruj”. Oba zestawy mają „Monitoruj” i „Oszacuj”, więc łatwo uznać MEA za część Ładu. Tymczasem MEA to domena Zarządzania – ostatnie „Monitoruj” w ciągu Planuj, Twórz, Wykonuj, Monitoruj – a EDM to jedyna domena Ładu. Druga pułapka: kontrola wewnętrzna i zgodność z wymogami zewnętrznymi brzmią jak „nadzór”, a podręcznik tłumaczy *governance* właśnie jako „nadzór”, stąd pokusa przypisania MEA02 i MEA03 do Ładu. W przepływie kolejność jest jasna: Oszacuj → Kieruj → Planuj → Twórz → Wykonuj → Monitoruj (MEA) → Monitoruj (EDM). **Rozstrzygnięcie:** MEA (3 procesy) = Zarządzanie, a jedyną domeną Ładu jest EDM (5 procesów); domenę rozpoznawaj po kodzie, nie po czasownikach w nazwie."
+  },
+  "zagmatwania": [
+    {
+      "mit": "MEA to Ład, bo monitoruje i ocenia.",
+      "prawda": "MEA jest domeną Zarządzania (APO, BAI, DSS, MEA – razem 32 procesy). Ład to wyłącznie EDM (5 procesów)."
+    },
+    {
+      "mit": "MEA zajmuje się tylko audytem.",
+      "prawda": "MEA01 – wydajność i zgodność, MEA02 – system kontroli wewnętrznej, MEA03 – zgodność z wymogami zewnętrznymi."
+    },
+    {
+      "mit": "Monitorowanie w MEA i w EDM to to samo.",
+      "prawda": "MEA monitoruje wyniki i mechanizmy kontrolne na potrzeby kierownictwa; EDM monitoruje, czy organizacja trzyma się kierunku wyznaczonego przez Ład. W przepływie MEA dostarcza informacji dla EDM."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Zaliczanie MEA do Ładu z powodu czasowników „Monitoruj” i „Oszacuj”.",
+    "jakTlumaczyc": "Policz domeny Zarządzania jak cykl Planuj, Twórz, Wykonuj, Monitoruj: APO planuje, BAI tworzy, DSS wykonuje, MEA monitoruje. Ład stoi obok jako osobna domena EDM. Dopiero potem porównuj czasowniki w nazwach.",
+    "pytanieKontrolne": "Proces sprawdzający, czy komenda spełnia wymogi zewnętrznego regulatora, brzmi jak „nadzór”. Do której domeny i którego obszaru należy? Dlaczego?",
+    "odpowiedzKontrolna": "To MEA03, domena MEA, obszar Zarządzania. Sprawdzanie zgodności z wymogami zewnętrznymi to monitorowanie w ramach cyklu Planuj, Twórz, Wykonuj, Monitoruj; Ład (EDM) korzysta z jego wyników, gdy ocenia, kieruje i monitoruje względem kierunku."
+  },
+  "nieMylicZ": [],
+  "przykladWypowiedzi": "MEA, czyli Monitoruj, Oszacuj i Oceń (Monitor, Evaluate and Assess), to domena Zarządzania (Management), która monitoruje wydajność, kontrolę wewnętrzną i zgodność z wymogami zewnętrznymi i raportuje wyniki do Ładu (EDM).",
+  "egzamin": "MEA to **Zarządzanie**, nie Ład. „Monitoruj, Oszacuj i Oceń” (MEA) ≠ „Oszacuj, Kieruj i Monitoruj” (EDM). W przepływie: Oszacuj → Kieruj → Planuj → … → Monitoruj (MEA) → Monitoruj (EDM).",
+  "powiazane": [
+    "prm",
+    "pbrm",
+    "zarzadzanie"
+  ],
+  "sylabus": [
+    "PR-01-04",
+    "EN-02-23"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "domena-mea"
+}

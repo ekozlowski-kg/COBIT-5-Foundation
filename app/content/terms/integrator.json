@@ -1,0 +1,109 @@
+{
+  "id": "integrator",
+  "en": "COBIT 5 as an integrator / COBIT 5 knowledge base",
+  "wymowa": "kołbit 5 ez en integrejter",
+  "wymowaAkcent": "KOŁ-bit 5 ez en IN-te-grej-ter",
+  "plEgzamin": "Zintegrowana struktura ramowa (integrator)",
+  "plPodrecznik": "Jedna zintegrowana metodyka COBIT 5",
+  "plInne": [
+    {
+      "nazwa": "Baza wiedzy COBIT 5",
+      "zrodlo": "FW-PL s. 25"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Zintegrowana struktura ramowa (integrator)",
+    "podrecznik": "Jedna zintegrowana metodyka COBIT 5",
+    "kurs": "Zintegrowana struktura ramowa (integrator) – COBIT 5 as an integrator / COBIT 5 knowledge base",
+    "uwaga": "Egzamin PL: „Zintegrowana struktura ramowa (integrator)”; podręcznik PL: „Jedna zintegrowana metodyka COBIT 5” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 9, 25. Inne formy w obiegu: Baza wiedzy COBIT 5 (FW-PL s. 25)."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "cobit-5",
+    "struktura-ramowa"
+  ],
+  "poLudzku": "COBIT 5 jak listwa z gniazdkami: inne normy i metody da się w niego wpiąć i połączyć.",
+  "wyobrazSobie": "Jeden segregator z jednym spisem treści, do którego wpinasz instrukcje różnych producentów, a spis mówi, co z czym się łączy.",
+  "poCo": "Żeby organizacja nie musiała sama sklejać kilku osobnych metodyk ISACA i innych standardów: COBIT 5 daje jedną ramę na górze, a szczegóły można brać z ITIL, TOGAF czy norm ISO.",
+  "jakDziala": "Dotychczasowe wytyczne ISACA (COBIT 4.1, Val IT, Risk IT i inne), nowe materiały oraz odniesienia do innych standardów (ITIL, TOGAF, ISO) trafiają do jednej bazy wiedzy COBIT 5 (knowledge base). Z niej, przez model aktywatorów (enablers), powstaje rodzina produktów: Framework, przewodniki o aktywatorach i przewodniki specjalistyczne. COBIT 5 nie zastępuje innych standardów, tylko jest ramą, w którą one się wpinają.",
+  "dlaczegoWazne": "To sedno zasady 3 (Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej). Egzamin pyta np., które modele ISACA zintegrowano w COBIT 5 (Val IT i Risk IT).",
+  "poziom1": "COBIT 5 nie wymyśla wszystkiego od nowa: zbiera w jedną bazę wiedzy wcześniejsze materiały ISACA (np. COBIT 4.1, Val IT, Risk IT) i dopasowuje się do innych standardów (np. ITIL, TOGAF, ISO), a z tej bazy powstaje cała rodzina produktów COBIT 5.",
+  "poziom2": "Wejścia: **obecne wytyczne ISACA** (COBIT 4.1, Val IT 2.0, Risk IT, BMIS, ITAF, Board Briefing), **nowe materiały ISACA** i **inne standardy** (ITIL, TOGAF, ISO…). Trafiają do **bazy wiedzy COBIT 5**, która przez filtr **aktywatorów** zasila **rodzinę produktów**: Framework, przewodniki o aktywatorach (*Procesy umożliwiające*, *Informacje umożliwiające*), przewodniki specjalistyczne (*Wdrożenie*, *Bezpieczeństwo informacji*, *Audyt*, *Ryzyko*).",
+  "poziom3": "Ilustracje 10 i 11 (s. 25–26). Załącznik A wymienia materiały źródłowe, Załącznik E zawiera zestawienie z innymi standardami.",
+  "przyklady": {
+    "zycie": "W domu leżą instrukcja od pralki, gwarancja na lodówkę, umowa na prąd i zeszyt z przepisami babci, każde w innej szufladzie. Wkładasz wszystko do jednego segregatora z przegródkami i z niego robisz sobie ściągi, np. „co zrobić, gdy coś się zepsuje”. COBIT 5 robi to samo z wytycznymi ISACA i innymi standardami: zbiera je w jedną bazę, z której powstają kolejne przewodniki.",
+    "biuro": "W biurze leżą trzy osobne instrukcje: obiegu faktur, archiwizacji i poczty, każda z innym nazewnictwem. Kierowniczka spina je w jeden regulamin z jednym słownikiem i odsyłaczami do instrukcji szczegółowych, które dalej obowiązują.",
+    "firma": "Właścicielka cukierni ma wymagania sanepidu, zasady BHP, przepisy z umowy franczyzowej i własne notatki. Spisuje je w jeden firmowy podręcznik, a z niego robi krótkie karty osobno dla kuchni i dla kasy. Jedna baza, z której powstaje kilka gotowych materiałów – tak działa COBIT 5 jako integrator.",
+    "admin": "Informatyk w starostwie ma na biurku KRI, RODO, normę ISO 27001 i stare zarządzenia starosty. Zamiast pięciu osobnych regulaminów pisze jedną politykę, która w każdym punkcie odsyła do właściwego źródła. Tak COBIT 5 łączy różne standardy w jedną spójną ramę, zamiast je zastępować.",
+    "psp": "Kierownik sekcji informatyki w komendzie powiatowej dostaje wytyczne z KG PSP, przepisy o krajowym systemie cyberbezpieczeństwa i dobre praktyki ITIL do obsługi awarii sprzętu. Zbiera je w jeden dokument zasad IT komendy, a z niego robi osobne instrukcje dla stanowiska kierowania i dla JRG. COBIT 5 działa właśnie tak: integruje istniejące standardy w jedną całość.",
+    "it": "Organizacja realizuje DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) według szczegółowych praktyk ITIL, a APO13 (Zarządzanie bezpieczeństwem) według ISO/IEC 27001. COBIT 5 daje wspólną ramę, cele i odpowiedzialności, do których te praktyki się podłączają (Zasada 3)."
+  },
+  "glebokosc": {
+    "prosty": "Babcia ma przepisy w trzech zeszytach, na luźnych karteczkach i w wycinkach z gazet. Wnuczka przepisuje je do jednego segregatora z przegródkami i przy każdym dopisuje, skąd pochodzi. Nie wymyśla nowych przepisów, tylko porządkuje istniejące, i od tej pory szuka się w jednym miejscu.",
+    "zaawansowany": "Po nocy z Lipową kpt. Sikora ma na biurku stare zarządzenia, instrukcję dostawcy Syreny, procedury obsługi awarii w duchu [[itil|ITIL]] i wymagania bezpieczeństwa z [[iso-27001|ISO/IEC 27001]]. Nie wyrzuca ich: kładzie nad nimi COBIT 5 jako ramę nadrzędną, która mówi, czego komenda chce osiągnąć i kto za co odpowiada, a po szczegóły techniczne odsyła do tych dokumentów. Tak działa [[zasada-3]]: jedna zintegrowana struktura ramowa, spójna z innymi normami. Ta sama baza wiedzy łączy też dawne materiały ISACA, np. Val IT i Risk IT, więc komendantka Wrzos nie musi czytać trzech osobnych metodyk o wartości i ryzyku.",
+    "skrajny": "St. ogn. Kasia Nowik pyta: skoro COBIT 5 „integruje” ITIL, to czy po przeczytaniu COBIT 5 znamy już cały ITIL? Intuicja mówi „tak, przecież jest w środku”, ale integracja z zewnętrznymi standardami oznacza spójność i rolę ramy nadrzędnej, a nie wchłonięcie ich treści. COBIT 5 nie musi też być stosowany razem z innymi standardami – może z nimi współpracować, ale nie jest od nich zależny. Inaczej jest z materiałami ISACA: model procesów COBIT 5 łączy w sobie modele procesów COBIT 4.1, Val IT i Risk IT, czyli te wytyczne naprawdę zostały wchłonięte. Oba zjawiska nazywa się „integracją”, dlatego tak łatwo je pomylić. **Rozstrzygnięcie:** wytyczne ISACA (COBIT 4.1, Val IT, Risk IT i inne) COBIT 5 zawiera w swojej bazie wiedzy; z zewnętrznymi standardami (ITIL, ISO, TOGAF) jest spójny jako rama nadrzędna, ale ich nie zastępuje i nie wymaga."
+  },
+  "zagmatwania": [
+    {
+      "mit": "COBIT 5 zastępuje ITIL i ISO/IEC 27001, więc po jego wdrożeniu można je odłożyć na półkę.",
+      "prawda": "COBIT 5 jest z nimi spójny i może być ramą nadrzędną, ale szczegóły (jak obsłużyć zgłoszenie, jak zbudować system bezpieczeństwa informacji) dalej opisują te standardy. Po czym poznać: COBIT mówi „co i po co”, inne standardy częściej „jak dokładnie”."
+    },
+    {
+      "mit": "Zasada 3 wymaga stosowania COBIT 5 razem z innymi standardami.",
+      "prawda": "COBIT 5 może współpracować z innymi standardami, ale nie musi. Zdanie ze słowem „musi” jest na egzaminie fałszywe."
+    },
+    {
+      "mit": "Baza wiedzy COBIT 5 to to samo co książka COBIT 5 (Framework).",
+      "prawda": "Framework to jeden produkt rodziny. Baza wiedzy jest szersza i zasila też przewodniki o aktywatorach oraz przewodniki specjalistyczne (Ilustracje 10 i 11, s. 25–26)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie „integruje” z „zastępuje” albo z „wymaga stosowania razem”.",
+    "jakTlumaczyc": "Listwa z gniazdkami: listwa nie jest ani lodówką, ani czajnikiem, ale pozwala podłączyć je w jednym miejscu. Najpierw pokaż, co COBIT 5 wchłonął (Val IT, Risk IT), potem, z czym tylko się łączy (ITIL, ISO, TOGAF), a na końcu, że może działać także bez nich.",
+    "pytanieKontrolne": "Komenda ma już procedury obsługi awarii w duchu ITIL. Co się z nimi stanie po wdrożeniu COBIT 5 i dlaczego?",
+    "odpowiedzKontrolna": "Zostają. COBIT 5 staje się ramą nadrzędną: wyznacza cele i odpowiedzialność oraz porządkuje całość, a procedury ITIL dalej opisują szczegóły obsługi usług. Integracja to spójność, a nie zastąpienie; COBIT 5 nie wymaga ITIL, ale może z nim współpracować."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cobit-5",
+      "roznica": "COBIT 5 (Framework) to jeden z produktów rodziny. Baza wiedzy jest szersza."
+    }
+  ],
+  "przykladWypowiedzi": "COBIT 5 as an integrator, czyli zintegrowana struktura ramowa, łączy Val IT i Risk IT w jednej bazie wiedzy (knowledge base) i jest dopasowany do ITIL czy ISO, więc nie trzeba wybierać między nimi.",
+  "egzamin": "COBIT 5 integruje **Val IT i Risk IT** (model procesów COBIT 5 łączy modele COBIT 4.1, Val IT i Risk IT, s. 33).",
+  "powiazane": [
+    "zasada-3",
+    "cobit-5"
+  ],
+  "sylabus": [
+    "PR-02-10",
+    "PR-02-11"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 25,
+      "cytat": "Łączy całą wiedzę wcześniej rozproszoną w różnych metodykach ISACA."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 25,
+      "ilustracja": "10"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 26,
+      "ilustracja": "11"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "cytat": "łączy w sobie również modele procesów Risk IT oraz Val IT"
+    }
+  ],
+  "mapa": "integracja"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "wyznacznik",
+  "en": "Driver / Stakeholder drivers",
+  "wymowa": "drajwer",
+  "wymowaAkcent": "DRAJ-wer",
+  "plEgzamin": "Czynnik wpływający na potrzeby interesariuszy",
+  "plPodrecznik": "Wyznacznik",
+  "plInne": [
+    {
+      "nazwa": "Wyznaczniki dotyczące interesariuszy",
+      "zrodlo": "FW-PL s. 17"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Czynnik wpływający na potrzeby interesariuszy",
+    "podrecznik": "Wyznacznik",
+    "kurs": "Czynnik wpływający na potrzeby interesariuszy (Driver / Stakeholder drivers)",
+    "uwaga": "Egzamin PL: „Czynnik wpływający na potrzeby interesariuszy”; podręcznik PL: „Wyznacznik” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 15, 17. Inne formy w obiegu: Wyznaczniki dotyczące interesariuszy (FW-PL s. 17)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik używa słowa „wyznacznik”. Na egzaminie pytanie bywa opisowe: „czynnik wpływający na potrzeby interesariuszy”. Nie myl tego słowa „czynnik” z „czynnikiem umożliwiającym” (aktywatorem).",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "interesariusz",
+    "potrzeba"
+  ],
+  "poLudzku": "Coś, co sprawia, że ludzie zaczynają czegoś potrzebować, np. nowy przepis, awaria albo nowa technologia.",
+  "wyobrazSobie": "Nadejście zimy: przychodzi mróz i nagle potrzebujesz kurtki, opału i zimowych opon.",
+  "poCo": "Żeby wiedzieć, skąd biorą się i dlaczego zmieniają się potrzeby interesariuszy, od których zaczyna się kaskada celów.",
+  "jakDziala": "Wyznaczniki (stakeholder drivers) to czynniki zewnętrzne i wewnętrzne, np. zmiany strategii, otoczenia biznesowego i regulacyjnego oraz nowe technologie. Wpływają na potrzeby interesariuszy (stakeholder needs). To krok 1 kaskady celów (goals cascade): potem potrzeby przekłada się na cele organizacji, cele związane z IT i cele aktywatorów.",
+  "dlaczegoWazne": "Kaskada celów należy do zasady 1 (Realizacja potrzeb interesariusza). Egzamin pyta, co jest wyznacznikiem, i podsuwa pojęcia z modelu aktywatora, np. dobre praktyki albo jakość kontekstową.",
+  "skadNazwa": "Angielskie *driver* („to, co napędza”). Podręcznik mówi „wyznacznik”, a egzamin opisowo: „czynnik wpływający na potrzeby interesariuszy”.",
+  "poziom1": "Coś, co sprawia, że zmienia się to, czego ludzie od firmy potrzebują – z zewnątrz (nowa ustawa, nowa technologia, ruch konkurencji) albo od środka (zmiana strategii, reorganizacja). Od wyznaczników zaczyna się kaskada celów.",
+  "poziom2": "Wyznaczniki to **krok 1** kaskady celów: *wyznaczniki dotyczące interesariuszy wpływają na potrzeby interesariuszy*. Mogą być zewnętrzne (regulacje, rynek, technologia) lub wewnętrzne (zmiana strategii, reorganizacja).",
+  "poziom3": "Definicja (Załącznik H): *„Czynniki zewnętrzne i wewnętrzne, które inicjują i wpływają na sposób funkcjonowania przedsiębiorstwa lub osób bądź dokonywania przez nie zmian.”* Rozdział 2, krok 1 (s. 17): *„Na potrzeby interesariuszy wpływa wiele czynników, takich jak zmiany w strategii, zmiany w otoczeniu biznesowym i regulacyjnym oraz nowe technologie.”*",
+  "przyklady": {
+    "zycie": "Rodzi się Wam dziecko. Nagle potrzebujecie większego auta, innego budżetu i elastycznych godzin pracy. Samo dziecko nie jest potrzebą – to wyznacznik, który zmienia Wasze potrzeby.",
+    "biuro": "Wchodzi obowiązek e-faktur. Biuro nagle potrzebuje nowego programu, szkolenia i innego obiegu dokumentów. Przepis nie jest potrzebą: to wyznacznik, który te potrzeby wywołał.",
+    "firma": "Wchodzi przepis o kasach fiskalnych online. Właściciel małego sklepu spożywczego musi wymienić kasę i nauczyć sprzedawczynie nowej obsługi. Przepis to wyznacznik, który tworzy w sklepie nową potrzebę.",
+    "admin": "Ustawa o doręczeniach elektronicznych nakłada na urzędy nowy obowiązek. Urząd gminy musi założyć skrzynkę do e-Doręczeń i zmienić pracę kancelarii. Ustawa to zewnętrzny wyznacznik, który zmienia potrzeby urzędu.",
+    "psp": "KG PSP wydaje nowe zasady dysponowania sił i środków, a komenda dostaje nową wersję SWD-PSP. Dyżurni SK potrzebują nagle szkoleń, nowych ustawień w systemie i zmienionych procedur na zmianach. Nowe zasady i nowa technologia to wyznaczniki, które zmieniają potrzeby stanowiska kierowania.",
+    "it": "Nowa regulacja o cyberbezpieczeństwie to wyznacznik. Zmienia potrzeby interesariuszy, a kaskada celów prowadzi od nich do celów związanych z IT (bezpieczeństwo informacji, zgodność) i do procesów APO13 (Zarządzanie bezpieczeństwem) oraz MEA03 (Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi)."
+  },
+  "glebokosc": {
+    "prosty": "Rodzi Ci się dziecko i nagle potrzebujesz większego samochodu. Samochód się nie zmienił, zmieniło się to, czego potrzebujesz. To, co sprawiło, że potrzeba się zmieniła – narodziny dziecka – to wyznacznik.",
+    "zaawansowany": "Nowe wytyczne komendy wojewódzkiej o czasie alarmowania i to, że coraz więcej ochotników OSP Zawilce pracuje w mieście i liczy tylko na SMS-y, zmieniają potrzeby komendy: każdy alarm musi docierać do ochotników w kilkadziesiąt sekund. To wyznaczniki, czyli krok 1 [[kaskada-celow|kaskady celów]]. Z nich komendantka Wrzos wyprowadza [[potrzeba|potrzeby interesariuszy]], a dalej cele organizacji i cele związane z IT. Wyznacznik nie pomaga osiągnąć celu – to robi [[aktywator]], np. Syrena czy procedura; wyznacznik sprawia, że cel w ogóle powstaje.",
+    "skrajny": "Sejm uchwala nowe przepisy o powiadamianiu ratunkowym. W lekcji o kaskadzie celów to wyznacznik („zmiany w otoczeniu regulacyjnym”, s. 17), a w lekcji o wdrożeniu ta sama ustawa to zdarzenie wyzwalające („nowe wymagania regulacyjne”, s. 37). Jeden fakt pasuje do dwóch pojęć, a pytanie rozstrzyga kontekst: czy pyta o to, co wpływa na potrzeby interesariuszy, czy o to, co daje impuls do programu wdrożenia. Dochodzi pułapka słowna: egzamin opisuje wyznacznik jako „czynnik wpływający na potrzeby interesariuszy”, a podręcznik nazywa aktywator „czynnikiem umożliwiającym”. Samo słowo „czynnik” niczego więc nie przesądza. **Rozstrzygnięcie:** pytanie o kaskadę celów i potrzeby → wyznacznik; pytanie o start wdrożenia → zdarzenie wyzwalające; „czynnik umożliwiający” → aktywator, nigdy wyznacznik."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Słowo „czynnik” w pytaniu oznacza aktywator (czynnik umożliwiający).",
+      "prawda": "„Czynnik wpływający na potrzeby interesariuszy” to wyznacznik. Aktywator pomaga osiągnąć cele, a wyznacznik zmienia potrzeby."
+    },
+    {
+      "mit": "Wyznacznik to zawsze coś z zewnątrz.",
+      "prawda": "Może być też wewnętrzny, np. zmiana strategii czy reorganizacja (s. 17, Załącznik H)."
+    },
+    {
+      "mit": "Wyznacznik i zdarzenie wyzwalające to synonimy.",
+      "prawda": "Bywają tym samym faktem, ale należą do innych obszarów: wyznacznik – kaskada celów (zasada 1), zdarzenie wyzwalające – wdrożenie."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie każdego „czynnika” z aktywatorem i zaliczanie dobrych praktyk albo jakości kontekstowej do wyznaczników.",
+    "jakTlumaczyc": "Kaskada jak rzeka: wyznacznik to deszcz w górach, który podnosi poziom wody (potrzeby), a dalej woda płynie przez cele organizacji, cele IT i cele aktywatorów. Aktywatory to tamy i kanały, które tę wodę prowadzą – deszczu nie powodują.",
+    "pytanieKontrolne": "Nowa ustawa o powiadamianiu ratunkowym: kiedy nazwiesz ją wyznacznikiem, a kiedy zdarzeniem wyzwalającym?",
+    "odpowiedzKontrolna": "**Wyznacznikiem**, gdy mówimy o tym, co zmienia potrzeby interesariuszy na początku kaskady celów (s. 17). **Zdarzeniem wyzwalającym**, gdy mówimy o impulsie do rozpoczęcia albo przyspieszenia programu wdrożenia (s. 37). Ten sam fakt, inny kontekst pytania."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "aktywator",
+      "roznica": "Aktywator (czynnik umożliwiający) POMAGA osiągnąć cele – np. proces czy struktura. Wyznacznik WYWOŁUJE zmianę potrzeb."
+    },
+    {
+      "termin": "Zdarzenie wyzwalające (trigger event)",
+      "roznica": "Pojęcie z wdrożenia (IM): zdarzenie, które uruchamia program usprawnień, np. fuzja. Podobne w duchu, ale inny obszar sylabusa."
+    }
+  ],
+  "przykladWypowiedzi": "Stakeholder drivers, czyli wyznaczniki, takie jak nowe regulacje czy nowe technologie, wpływają na stakeholder needs, czyli potrzeby interesariuszy, od których zaczyna się kaskada celów.",
+  "egzamin": "Wyznacznikami są zmiany **strategii, otoczenia biznesowego i regulacyjnego** oraz **nowe technologie** (s. 17). Dobre praktyki, jakość kontekstowa i wskaźniki to pojęcia z modelu aktywatora, czyli inna kategoria.",
+  "powiazane": [
+    "potrzeba",
+    "kaskada-celow"
+  ],
+  "sylabus": [
+    "M0-00-02",
+    "PR-02-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 91,
+      "cytat": "Czynniki zewnętrzne i wewnętrzne, które inicjują i wpływają na sposób funkcjonowania przedsiębiorstwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 17,
+      "cytat": "Na potrzeby interesariuszy wpływa wiele czynników, takich jak zmiany w strategii, zmiany w otoczeniu biznesowym i regulacyjnym oraz nowe technologie."
+    }
+  ],
+  "mapa": "wyznaczniki"
+}

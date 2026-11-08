@@ -1,0 +1,115 @@
+{
+  "id": "cykl-faza-5",
+  "en": "Evaluate/monitor (enabler life-cycle phase 5)",
+  "wymowa": "iweljuejt moniter",
+  "wymowaAkcent": "i-WE-lju-ejt MO-ni-ter",
+  "plEgzamin": "Ocena/monitorowanie",
+  "plPodrecznik": "Ocena/monitorowanie",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Ocena/monitorowanie",
+    "podrecznik": "Ocena/monitorowanie",
+    "kurs": "Ocena/monitorowanie (Evaluate/monitor)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Ocena/monitorowanie” to faza życia aktywatora. Nie myl z praktykami EDM („Oszacuj, Kieruj i Monitoruj”), z domeną MEA („Monitoruj, Oszacuj i Oceń”) ani z fazą 7 wdrożenia („Monitorowanie i szacowanie”). Egzaminacyjnej nazwy PL faz cyklu życia aktywatora nie potwierdziliśmy (brak w SP1 i w zestawieniu Altkom). Używamy nazwy z FW-PL (s. 29, il. 13).",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "cykl-faza-4",
+    "wymiar-cykl-zycia"
+  ],
+  "poLudzku": "Sprawdzasz, czy rzecz, której używasz, nadal działa dobrze i robi to, co miała robić.",
+  "skadNazwa": "*Evaluate/monitor*. Te same angielskie słowa są w EDM (*Evaluate, Direct and Monitor*), ale egzamin tłumaczy je tam inaczej: „Oszacuj” i „Monitoruj”.",
+  "wyobrazSobie": "Coroczny przegląd techniczny samochodu.",
+  "poCo": "Żeby w porę zobaczyć, czy aktywator nadal działa dobrze i co trzeba w nim zmienić.",
+  "jakDziala": "Obserwujesz działający aktywator i porównujesz wyniki z celami. Sprawdzasz aktualność, bezpieczeństwo i zgodność. Wnioski przekazujesz do fazy 6: aktualizacji albo pozbycia się.",
+  "dlaczegoWazne": "Słowa „ocena” i „monitorowanie” pojawiają się w EDM, w MEA, w fazie 7 wdrożenia i tutaj. Egzamin sprawdza, czy odróżniasz te kategorie.",
+  "poziom1": "Piąta faza cyklu życia aktywatora. Obserwujesz i oceniasz działający aktywator: czy osiąga cele, czy jest aktualny, czy wymaga zmian. Wynik oceny decyduje o fazie 6, czyli aktualizacji albo pozbyciu się.",
+  "poziom2": "| Pytanie (uproszczenie) | Kto pyta (przykład) |\n|---|---|\n| czy aktywator osiąga cele? | właściciel procesu, kierownik |\n| czy jest aktualny i bezpieczny? | administrator, audytor |\n| co poprawić? | wnioski przechodzą do [[cykl-faza-6|fazy 6]] |\n\nFaza 5 dotyczy jednego aktywatora. Szersze sprawdzanie wydajności i zgodności to domena [[mea|MEA]], a pilnowanie kierunku przez organ Ładu to praktyka „Monitoruj” w [[edm|EDM]].",
+  "poziom3": "(s. 29): faza *„Ocena/monitorowanie”*. Przykład 5 (s. 30): proces *„musi on zostać utworzony i zrealizowany oraz być monitorowany”*, a w razie potrzeby dostosowywany.",
+  "przyklady": {
+    "zycie": "Po roku sprawdzacie domowy budżet w arkuszu. Czy odkładacie tyle, ile chcieliście? Czy kategorie wydatków nadal pasują? Wychodzi, że brakuje rubryki „zwierzęta”. To faza oceny/monitorowania.",
+    "biuro": "Po roku kierowniczka sprawdza program do rezerwacji: ile rezerwacji przepadło, czy sale się nie dublują. Zapisuje, co poprawić.",
+    "organizacja": "Właściciel sklepu co kwartał sprawdza statystyki bramki płatności: ile transakcji się nie udało i ile kosztują prowizje. Zauważa, że opłaty wzrosły. To faza 5 aktywatora.\n\nAudytor w urzędzie raz w roku ocenia procedurę przyjmowania skarg. Sprawdza terminy odpowiedzi i zgodność z przepisami. Wnioski trafiają do sekretarza. To faza oceny/monitorowania procedury.",
+    "psp": "**Lis sprawdza listę** Audytorka Ewa Lis losuje 20 numerów z listy OSP w Syrenie i dzwoni pod każdy. Trzy numery są nieaktualne. Zapisuje wniosek: lista wymaga comiesięcznej aktualizacji. To faza 5 cyklu życia aktywatora Informacja: ocena/monitorowanie.",
+    "it": "Wyniki oceny aktywatorów trafiają m.in. do procesu MEA01 (Monitorowanie, ocena i oszacowanie wydajności i zgodności). Faza 5 dotyczy jednego aktywatora, a MEA01 całej organizacji (interpretacja kursu)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "edm",
+      "roznica": "„Oszacuj, Kieruj i Monitoruj” to praktyki procesów Ładu. Faza 5 to etap życia jednego aktywatora."
+    },
+    {
+      "termin": "mea",
+      "roznica": "MEA to domena 3 procesów Zarządzania. Faza 5 występuje w życiu każdego aktywatora."
+    },
+    {
+      "termin": "zarzadzanie-wydajnoscia-aktywatora",
+      "roznica": "Zarządzanie wydajnością to 4 pytania o każdy aktywator, w tym o zarządzanie cyklem życia. Faza 5 to jeden etap tego cyklu."
+    },
+    {
+      "termin": "Faza 7 wdrożenia „Jak utrzymać motywację do działania?” (Monitorowanie i szacowanie)",
+      "roznica": "Tak nazywa się faza 7 w pierścieniu ciągłego doskonalenia. To faza programu wdrożenia COBIT 5, a nie aktywatora."
+    }
+  ],
+  "przykladWypowiedzi": "In the evaluate/monitor phase, czyli w fazie oceny/monitorowania, sprawdzamy, czy aktywator osiąga swoje cele.",
+  "egzamin": "Faza 5 = **Ocena/monitorowanie**. Nie myl jej z EDM (Ład), z MEA (domena Zarządzania) ani z fazą 7 wdrożenia („Monitorowanie i szacowanie” w pierścieniu ciągłego doskonalenia). Egzaminacyjnej nazwy PL faz cyklu życia aktywatora nie potwierdziliśmy (brak w SP1 i w zestawieniu Altkom). Używamy nazwy z FW-PL (s. 29, il. 13).",
+  "powiazane": [
+    "cykl-zycia-aktywatora",
+    "wymiar-cykl-zycia",
+    "cykl-faza-4",
+    "cykl-faza-6",
+    "mea",
+    "edm"
+  ],
+  "sylabus": [
+    "PR-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Ocena/monitorowanie"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 30,
+      "cytat": "musi on zostać utworzony i zrealizowany oraz być monitorowany"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 28,
+      "ilustracja": "13"
+    }
+  ],
+  "mapa": "cykl-faza-5",
+  "glebokosc": {
+    "prosty": "Raz w roku zabierasz auto na przegląd. Mechanik sprawdza hamulce, opony i światła. Mówi, co wymienić. Przegląd to faza oceny: nie jeździsz, nie naprawiasz, tylko sprawdzasz.",
+    "zaawansowany": "Ewa Lis ocenia proces alarmowania po pół roku użytkowania. Liczy, ile alarmów doszło w 60 sekund, i porównuje to z celem. To faza 5 tego aktywatora. Wyniki trafiają też do domeny [[mea|MEA]] u Sikory i do kwartalnego „Monitoruj” komendantki w [[edm|EDM]]. Jedna czynność zasila więc trzy różne miejsca COBIT 5.",
+    "skrajny": "Na liście widzisz: „Monitorowanie i szacowanie”, „Ocena/monitorowanie”, „Monitoruj, Oszacuj i Oceń” oraz „Oszacuj, Kieruj i Monitoruj”. Wszystkie mówią o sprawdzaniu, ale to cztery różne kategorie. Pierwsze to egzaminacyjna nazwa fazy 7 wdrożenia w pierścieniu ciągłego doskonalenia. Drugie to faza 5 cyklu życia aktywatora. Trzecie to domena MEA (Zarządzanie), a czwarte to praktyki EDM (Ład). **Rozstrzygnięcie:** „Ocena/monitorowanie” z ukośnikiem to faza 5 życia aktywatora; pozostałe nazwy to wdrożenie, domena Zarządzania albo praktyki Ładu."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Faza 5 to to samo co domena MEA.",
+      "prawda": "MEA to domena procesów. Faza 5 to etap życia każdego aktywatora."
+    },
+    {
+      "mit": "Ocenę aktywatora prowadzi tylko organ Ładu.",
+      "prawda": "Ocenia ten, kto odpowiada za aktywator albo go sprawdza, np. właściciel procesu czy audytor."
+    },
+    {
+      "mit": "„Monitorowanie i szacowanie” to faza 5 aktywatora.",
+      "prawda": "To faza 7 wdrożenia w pierścieniu ciągłego doskonalenia."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Wrzucanie każdego „monitorowania” do jednego worka.",
+    "jakTlumaczyc": "Narysuj cztery szuflady: Ład (EDM), Zarządzanie (MEA), wdrożenie (faza 7) i aktywator (faza 5). Każde „monitorowanie” wkładaj do szuflady według tego, czego dotyczy.",
+    "pytanieKontrolne": "Audytorka sprawdza, czy lista numerów OSP jest aktualna. Która to faza cyklu życia aktywatora?",
+    "odpowiedzKontrolna": "**Faza 5, Ocena/monitorowanie** aktywatora Informacja."
+  }
+}

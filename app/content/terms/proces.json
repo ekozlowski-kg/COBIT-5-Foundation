@@ -1,0 +1,86 @@
+{
+  "id": "proces",
+  "en": "Process",
+  "wymowa": "prołses",
+  "wymowaAkcent": "PROŁ-ses",
+  "plEgzamin": "Proces",
+  "plPodrecznik": "Proces",
+  "plInne": [],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Proces",
+    "podrecznik": "Proces",
+    "kurs": "Proces (Process)",
+    "uwaga": "Process – w PRM proces COBIT; w PAM proces oceniany wg ISO/IEC 15504. Termin ten sam, kontekst zmienia wymagania. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 2, 4, 7; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "oficjalne",
+  "poziomP": "P1",
+  "wymaga": [],
+  "poLudzku": "Coś, co robimy regularnie i zawsze w podobny sposób, np. przyjmowanie każdego zgłoszenia.",
+  "wyobrazSobie": "Jak pralnia: każde pranie przechodzi te same etapy – przyjęcie, pranie, prasowanie, wydanie – i tak dzieje się codziennie, bez końca.",
+  "poCo": "Żeby powtarzalną pracę wykonywać za każdym razem tak samo dobrze, niezależnie od tego, kto ją akurat robi, i żeby dało się ją mierzyć i poprawiać.",
+  "jakDziala": "Proces (process) przyjmuje wejścia (inputs), przetwarza je przez praktyki i działania ukierunkowane przez polityki i procedury i daje wyniki (outputs), np. produkt albo usługę. Ma właściciela, role i mierniki, a wynik jednego procesu bywa wejściem innego. W COBIT 5 procesy są jednym z siedmiu aktywatorów, a Referencyjny Model Procesu opisuje ich 37.",
+  "dlaczegoWazne": "Procesy to najszerzej opisany aktywator COBIT 5 i podstawa Referencyjnego Modelu Procesu oraz oceny zdolności. Na egzaminie trzeba rozpoznać definicję procesu z Załącznika H i odróżnić proces od projektu.",
+  "poziom1": "Coś, co robicie regularnie, zawsze w podobnych krokach: coś wchodzi, jest przerabiane według ustalonych zasad i wychodzi wynik (np. zamówienie → pakowanie → wysyłka → faktura).",
+  "poziom2": "Proces jest **ciągły i powtarzalny**: ma wejścia, praktyki i działania oraz wyniki. Ma też właściciela, role i mierniki. W COBIT 5 procesy są jedną z 7 kategorii aktywatorów, a Model Referencyjny Procesów zawiera ich **37**.",
+  "poziom3": "Definicja (Załącznik H): *„Zasadniczo jest to zbiór praktyk ukierunkowanych przez polityki i procedury przedsiębiorstwa oraz wykorzystujących dane wejściowe z różnych źródeł (również z innych procesów), przetwarzających je i dostarczających wyniki (np. produkty, usługi).”*",
+  "przyklady": {
+    "zycie": "Co sobotę rano sprawdzasz lodówkę, piszesz listę, jedziesz do sklepu, rozpakowujesz i odhaczasz, czego zabrakło. Za tydzień wszystko powtarza się od nowa. To proces: stałe kroki, wejście (pusta lodówka i lista) i wynik (pełna lodówka).",
+    "biuro": "Codziennie rano sekretarka odbiera pocztę, wpisuje każde pismo do dziennika, kierownik dekretuje, kto ma się nim zająć, i pisma trafiają na biurka. Następnego dnia wszystko idzie tą samą drogą – to proces obsługi korespondencji.",
+    "firma": "W sklepie internetowym z herbatą przychodzi zamówienie, pracownik pakuje paczkę, drukuje etykietę i fakturę, a kurier odbiera paczki o 15:00. Tak samo dzieje się z każdym zamówieniem, codziennie. To proces – powtarzalny, z wejściem (zamówienie) i wynikiem (paczka u klienta).",
+    "admin": "Do urzędu gminy wpływa wniosek o wycinkę drzewa. Kancelaria go rejestruje, kierownik przydziela go referentowi, ten jedzie na oględziny i wydaje decyzję. Każdy kolejny wniosek idzie tą samą ścieżką – to jest proces.",
+    "psp": "Dyżurny SK przyjmuje zgłoszenie z CPR 112, kwalifikuje zdarzenie, dysponuje zastępy, śledzi przebieg akcji i zamyka kartę zdarzenia w SWD-PSP. Następne zgłoszenie przechodzi te same kroki. To proces obsługi zgłoszeń – działa codziennie, całą dobę.",
+    "it": "DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) to proces: każde zgłoszenie (wejście) jest rejestrowane, klasyfikowane, rozwiązywane i zamykane (praktyki), a wynikiem jest przywrócona usługa i wpis w rejestrze. Działa codziennie i tak samo dla każdego zgłoszenia."
+  },
+  "glebokosc": {
+    "prosty": "Pranie w domu to proces: co tydzień brudne ubrania trafiają do kosza, potem do pralki, na suszarkę i do szafy. Kroki się powtarzają i wiadomo, co wchodzi i co wychodzi. Jednorazowa przeprowadzka do nowego mieszkania to już nie proces, tylko projekt.",
+    "zaawansowany": "Po wdrożeniu Syreny mł. kpt. Dudek codziennie przyjmuje zgłoszenia o błędach, naprawia je i zamyka – to proces, bo się powtarza i ma wejścia oraz wyniki. Sam zakup i wdrożenie Syreny był [[projekt|projektem]] z datą końca. Procesy to jedna z siedmiu kategorii [[aktywator|aktywatorów]], a ich wzorcową listę COBIT 5 podaje w [[prm|PRM]]. Każdy proces składa się z praktyk, działań, wejść i wyjść ([[praktyki-dzialania]]).",
+    "skrajny": "Każdy projekt jest jednorazowy, więc intuicja mówi, że projekty nie mają nic wspólnego z procesami. Tymczasem w PRM jest proces BAI01 „Zarządzanie programami i projektami”. Pojedynczy projekt, np. wdrożenie Syreny, ma początek i koniec, ale **sposób**, w jaki komenda prowadzi wszystkie swoje projekty, powtarza się – i to jest proces. Podobnie jednorazowa narada kryzysowa nie jest procesem, ale zarządzanie incydentami, w ramach którego się odbywa, już tak. **Rozstrzygnięcie:** proces to powtarzalny zbiór praktyk zamieniających wejścia w wyniki; pojedyncze przedsięwzięcie to projekt, ale zarządzanie projektami jest procesem (BAI01)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Proces to to samo co procedura na papierze.",
+      "prawda": "Proces to zbiór praktyk ukierunkowanych przez polityki i procedury. Procedura opisuje sposób, a proces to sama powtarzalna praca z wejściami i wynikami."
+    },
+    {
+      "mit": "Projekt i proces to synonimy.",
+      "prawda": "Projekt jest jednorazowy i się kończy; proces trwa i się powtarza."
+    },
+    {
+      "mit": "COBIT 5 to same procesy.",
+      "prawda": "Procesy to jeden z siedmiu aktywatorów. Obok nich są m.in. struktury organizacyjne, informacja oraz ludzie, umiejętności i kompetencje."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie COBIT 5 z samymi procesami i nazywanie procesem każdej jednorazowej akcji.",
+    "jakTlumaczyc": "Test dwóch pytań: czy to się powtarza? czy ma wejście i wynik? Dwa razy „tak” – proces. Potem kontrprzykład na tym samym systemie: wdrożenie (projekt) kontra codzienna obsługa (proces).",
+    "pytanieKontrolne": "Czy wdrożenie Syreny jest procesem? A zarządzanie wszystkimi projektami komendy?",
+    "odpowiedzKontrolna": "Wdrożenie Syreny to projekt – jednorazowy, z końcem. Zarządzanie projektami jako stały sposób pracy to proces; w PRM to BAI01 Zarządzanie programami i projektami."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "projekt",
+      "roznica": "Projekt jest jednorazowy, ma początek i koniec (np. wdrożenie systemu). Proces trwa i się powtarza (np. obsługa zgłoszeń w tym systemie)."
+    }
+  ],
+  "przykladWypowiedzi": "A process, czyli proces, to zbiór praktyk ukierunkowanych przez polityki i procedury, który przetwarza inputs (wejścia) w outputs (wyniki); w COBIT 5 procesy są jednym z siedmiu enablers (aktywatorów).",
+  "egzamin": "Opis „zbiór praktyk ukierunkowanych politykami i procedurami, który przetwarza wejścia w wyniki” to **Proces** (Załącznik H).",
+  "powiazane": [
+    "projekt",
+    "aktywator"
+  ],
+  "sylabus": [
+    "M0-00-05",
+    "EN-01-01"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Zasadniczo jest to zbiór praktyk ukierunkowanych przez polityki i procedury przedsiębiorstwa"
+    }
+  ],
+  "mapa": "akt-procesy"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "cele-organizacji",
+  "en": "Enterprise goals",
+  "wymowa": "enterprajz gołlz",
+  "wymowaAkcent": "EN-ter-prajz gołlz",
+  "plEgzamin": "Cele organizacji",
+  "plPodrecznik": "Cele przedsiębiorstwa",
+  "plInne": [
+    {
+      "nazwa": "Cele biznesowe",
+      "zrodlo": "FW-PL s. 91 – „Cel przedsiębiorstwa: zob. Cel biznesowy”"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cele organizacji",
+    "podrecznik": "Cele przedsiębiorstwa",
+    "kurs": "Cele organizacji (Enterprise goals)",
+    "uwaga": "Egzamin PL: „Cele organizacji”; podręcznik PL: „Cele przedsiębiorstwa” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 8, 9. Inne formy w obiegu: Cele biznesowe (FW-PL s. 91 – „Cel przedsiębiorstwa: zob. Cel biznesowy”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Cele organizacji”. Podręcznik: „Cele przedsiębiorstwa”. Słownik podręcznika odsyła do „Cel biznesowy”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "interesariusz",
+    "potrzeba",
+    "bsc"
+  ],
+  "poLudzku": "Siedemnaście typowych celów, które ma każda firma czy urząd, np. zadowoleni klienci, zgodność z przepisami.",
+  "wyobrazSobie": "Postanowienie całej rodziny „oszczędzamy na mieszkanie”, zanim ktokolwiek zdecyduje, który bank czy aplikacja w tym pomoże.",
+  "poCo": "Żeby potrzeby interesariuszy zamienić w konkretne cele całej organizacji, z których dopiero wynikają cele dla IT. Bez tego IT nie wie, czemu ma służyć.",
+  "jakDziala": "To drugi krok kaskady celów: potrzeby interesariuszy (stakeholder needs) przekłada się na cele organizacji (enterprise goals). COBIT 5 podaje 17 typowych celów w 4 wymiarach BSC: finanse, klient, obszar wewnętrzny, szkolenie i rozwój. Ilustracja 5 pokazuje, z którymi składnikami Celu Ładu (realizacja korzyści, optymalizacja ryzyka, optymalizacja zasobów) cel ma relację podstawową (P) lub wspierającą (S).",
+  "dlaczegoWazne": "Cele organizacji należą do zasady 1 „Realizacja potrzeb interesariusza” i są drugim krokiem kaskady celów. Na egzaminie trzeba odróżnić je od celów związanych z IT i przypisać cel do wymiaru BSC.",
+  "skadNazwa": "Angielskie *enterprise* podręcznik tłumaczy jako „przedsiębiorstwo”, a egzamin jako „organizacja”. Dlatego „cele przedsiębiorstwa” i „cele organizacji” to to samo.",
+  "poziom1": "To, co cała firma czy urząd chce osiągnąć, zanim w ogóle padnie słowo „IT” (np. zadowoleni klienci, zgodność z prawem, panowanie nad kosztami). COBIT 5 podaje 17 takich typowych celów w 4 wymiarach BSC.",
+  "poziom2": "COBIT 5 podaje **17 typowych celów organizacji** pogrupowanych w **4 wymiarach zrównoważonej karty wyników (BSC)**: finanse, klient, obszar wewnętrzny, szkolenie i rozwój. Każdy cel ma relację **P** (podstawową) lub **S** (wspierającą) z trzema celami Ładu: korzyściami, ryzykiem, zasobami.",
+  "poziom3": "Ilustracja 5 (s. 19). Przykłady: 1. Wartość inwestycji biznesowych dla interesariuszy (Finanse); 4. Zgodność z przepisami prawa i regulacjami (Finanse – P przy ryzyku); 7. Ciągłość i dostępność usług biznesowych (Klient – P przy ryzyku); 9. Świadome podejmowanie decyzji strategicznych na podstawie informacji (Klient – P/P/P); 17. Kultura innowacji produktów i biznesu (Szkolenie i rozwój).",
+  "przyklady": {
+    "zycie": "Na początku roku rodzina ustala, na czym jej najbardziej zależy: odłożyć na wkład własny, żeby dzieci dobrze zaczęły nową szkołę i żeby wszyscy byli zdrowi. Nikt jeszcze nie mówi o laptopach czy internecie. To cele „całego domu” – odpowiednik celów organizacji.",
+    "biuro": "Szef biura rachunkowego ustala na rok: klienci dostają rozliczenia przed terminem, firma nie płaci kar za spóźnione deklaracje, a koszty nie rosną. Nikt jeszcze nie mówi o programie księgowym; to cele całej firmy.",
+    "firma": "Właścicielka piekarni mówi: w tym roku chcę, żeby klienci wracali, żeby sanepid nie miał uwag i żeby firma była na plusie. To cele całej piekarni, a dopiero z nich wyniknie, czego potrzeba od kasy fiskalnej czy sklepu online. Tak wyglądają cele organizacji.",
+    "admin": "Wójt na sesji rady gminy zapowiada: decyzje wydawane w terminie, sprawy do załatwienia przez internet i jawne wydatki. Te zamierzenia dotyczą całego urzędu, nie działu informatyki. To cele organizacji, od których zaczyna się kaskada.",
+    "psp": "Komendant powiatowy ustala priorytety na rok: zastępy mają docierać na czas i bez przerw w gotowości, komenda ma przejść kontrolę bez zastrzeżeń, a strażacy mają mieć aktualne uprawnienia. To cele całej komendy, nie tylko informatyka – na tym poziomie są cele organizacji.",
+    "it": "Cel organizacji 7 „Ciągłość i dostępność usług biznesowych” (wymiar Klient) w kaskadzie prowadzi m.in. do celu związanego z IT 07 „Dostarczanie usług IT zgodnie z wymogami biznesowymi”, a dalej m.in. do procesu DSS04 Zarządzanie ciągłością."
+  },
+  "glebokosc": {
+    "prosty": "Rodzina ma swoje cele: spokojne finanse, zdrowe dzieci, ciepły dom. Na tym etapie nikt jeszcze nie mówi, jaki kupić samochód. Najpierw wiadomo, czego chce rodzina, a dopiero potem dobiera się środki.",
+    "zaawansowany": "Po pożarze przy Lipowej komendantka Wrzos zbiera potrzeby: mieszkańcy chcą szybszej pomocy, a Ostrowska chce zgodności z przepisami. Komenda przekłada je na cele organizacji, np. „Ciągłość i dostępność usług” oraz „Zgodność z przepisami prawa i regulacjami”. Dopiero z nich Sikora wyprowadza [[cele-zwiazane-z-it|cele związane z informatyką]]. Każdy cel organizacji ma relację P albo S z trzema składnikami [[tworzenie-wartosci|Celu Ładu]].",
+    "skrajny": "Cel organizacji 4 „Zgodność z przepisami prawa i regulacjami” i cel IT 02 „Zgodność IT oraz wsparcie w zakresie zgodności działalności z przepisami” brzmią prawie tak samo. Pierwszy dotyczy całej organizacji, drugi tego, co musi zapewnić obszar informacji i technologii. Podobna para to cel 15 „Zgodność z politykami wewnętrznymi” i cel IT 15 „Zgodność IT z politykami wewnętrznymi”. Do tego cel 4 ma relację P tylko z optymalizacją ryzyka, a nie z realizacją korzyści. **Rozstrzygnięcie:** o poziomie kaskady decyduje to, czyj jest cel: całej organizacji → cel organizacji, obszaru informacji i technologii → cel związany z informatyką; samo słowo „zgodność” nie przesądza poziomu."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Cele organizacji to cele działu IT.",
+      "prawda": "Dotyczą całej działalności, zanim w ogóle padnie słowo „IT”. Cele związane z informatyką są krok niżej."
+    },
+    {
+      "mit": "Na egzamin trzeba znać na pamięć wszystkie 17 celów.",
+      "prawda": "Egzamin sprawdza logikę: 17 celów, 4 wymiary BSC, relacje P/S. Rozpoznawaj wymiar i poziom kaskady."
+    },
+    {
+      "mit": "„Cele przedsiębiorstwa” to inne pojęcie niż „cele organizacji”.",
+      "prawda": "To samo (*enterprise goals*). Podręcznik pisze „przedsiębiorstwo”, a egzamin „organizacja”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie celu organizacji z celem związanym z informatyką, gdy oba mówią o tym samym, np. o zgodności.",
+    "jakTlumaczyc": "Zadaj pytanie: „czy ten cel miałby sens w organizacji bez komputerów?”. Jeśli tak, to cel organizacji. Jeśli mówi o informacji lub technologii, to cel związany z informatyką.",
+    "pytanieKontrolne": "„W obszarze IT: przejrzystość kosztów, korzyści i ryzyka” – to cel organizacji czy cel związany z informatyką? Po czym to poznajesz?",
+    "odpowiedzKontrolna": "Cel związany z informatyką (IT 06). Mówi o kosztach, korzyściach i ryzyku IT, czyli o rezultacie obszaru informacji i technologii. Jego odpowiednikiem na poziomie organizacji jest „Przejrzystość finansowa” (cel 5)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cele-zwiazane-z-it",
+      "roznica": "Cele organizacji dotyczą całej działalności; cele związane z informatyką opisują, co musi zapewnić IT, aby te cele wspierać."
+    }
+  ],
+  "przykladWypowiedzi": "Enterprise goals, czyli Cele organizacji, wynikają z potrzeb interesariuszy; COBIT 5 podaje 17 typowych celów w czterech wymiarach BSC, a z nich kaskada celów wyprowadza cele związane z IT (IT-related goals).",
+  "egzamin": "Potrzeby interesariuszy → **Cele organizacji** (krok 2). 17 celów, 4 wymiary BSC, relacje P/S. Nie musisz znać wszystkich 17 na pamięć – rozpoznawaj wymiary i logikę P/S.",
+  "powiazane": [
+    "kaskada-celow",
+    "cele-zwiazane-z-it",
+    "bsc"
+  ],
+  "sylabus": [
+    "PR-02-03",
+    "PR-02-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 19,
+      "ilustracja": "5"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 91,
+      "cytat": "Cel przedsiębiorstwa Zob. Cel biznesowy"
+    }
+  ],
+  "mapa": "cele-organizacji"
+}

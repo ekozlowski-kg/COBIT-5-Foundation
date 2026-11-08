@@ -1,0 +1,103 @@
+{
+  "id": "cykl-faza-6",
+  "en": "Update/dispose (enabler life-cycle phase 6)",
+  "wymowa": "apdejt dispołz",
+  "wymowaAkcent": "ap-DEJT dis-POŁZ",
+  "plEgzamin": "Aktualizacja/pozbywanie się",
+  "plPodrecznik": "Aktualizacja/pozbywanie się",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Aktualizacja/pozbywanie się",
+    "podrecznik": "Aktualizacja/pozbywanie się",
+    "kurs": "Aktualizacja/pozbywanie się (Update/dispose)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "cykl-faza-5",
+    "wymiar-cykl-zycia"
+  ],
+  "poLudzku": "Ostatni krok: poprawiasz rzecz, żeby dalej służyła, albo ją wycofujesz i się jej pozbywasz.",
+  "wyobrazSobie": "Remont starego mebla albo oddanie go do punktu zbiórki.",
+  "poCo": "Żeby aktywator nie starzał się po cichu: albo go poprawiasz, albo świadomie wycofujesz.",
+  "jakDziala": "Na podstawie oceny decydujesz: aktualizacja albo pozbycie się. Po aktualizacji aktywator wraca do użytkowania. Po pozbyciu się bezpiecznie go wycofujesz, a jego miejsce może zająć nowy aktywator.",
+  "dlaczegoWazne": "Egzamin może podsunąć ostatnią fazę wdrożenia jako dystraktor. Trzeba też pamiętać, że faza 6 ma dwa wyjścia.",
+  "poziom1": "Szósta, ostatnia faza cyklu życia aktywatora. Na podstawie oceny aktywator jest aktualizowany albo wycofywany. Wszystko kiedyś się kończy: FW-PL pisze, że ostatecznie procesy przestają istnieć.",
+  "poziom2": "| Decyzja | Przykład |\n|---|---|\n| **aktualizacja** | poprawiona procedura, nowa wersja polityki, uzupełniona lista |\n| **pozbywanie się** | wycofanie starego systemu, uchylenie regulaminu, usunięcie danych |\n\nPo aktualizacji aktywator żyje dalej. Po pozbyciu się jego miejsce może zająć nowy aktywator, który zaczyna od [[cykl-faza-1|planowania]].",
+  "poziom3": "(s. 29): faza *„Aktualizacja/pozbywanie się”*; cykl życia trwa *„aż po jego wycofanie”*. Przykład 5 (s. 30): *„Ostatecznie procesy przestają istnieć.”*",
+  "przyklady": {
+    "zycie": "Przeglądasz domową apteczkę: przeterminowane leki oddajesz do apteki, a brakujące kupujesz. Stary termometr rtęciowy oddajesz do punktu zbiórki i kupujesz elektroniczny. To aktualizacja i pozbywanie się.",
+    "biuro": "Biuro zmienia program do rezerwacji na nowszy. Stary wyłącza, dane przenosi, a niepotrzebne bezpiecznie usuwa.",
+    "organizacja": "Sklep po ocenie bramki płatności zmienia operatora na tańszego. Stary panel wyłącza, a dane transakcji archiwizuje zgodnie z przepisami. To faza 6.\n\nPo zmianie przepisów gmina wycofuje stary wzór wniosku i publikuje nowy. Stare formularze z korytarza trafiają do niszczarki. To aktualizacja i pozbywanie się.",
+    "psp": "**Stara bramka idzie na złom** Po ocenie audytorki Ewy Lis mł. kpt. Ola Dudek poprawia 14 numerów na liście OSP. To aktualizacja. Stara bramka SMS sprzed Syreny zostaje odłączona, a dane z niej bezpiecznie usunięte. To pozbywanie się. Obie czynności to faza 6 cyklu życia aktywatora.",
+    "it": "Wycofanie systemu IT wymaga bezpiecznego usunięcia danych. W procesach COBIT 5 wiąże się to m.in. z DSS05 (Zarządzanie usługami bezpieczeństwa) (interpretacja kursu)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cykl-faza-5",
+      "roznica": "Ocena/monitorowanie daje wnioski. Faza 6 je wykonuje: aktualizuje albo wycofuje aktywator."
+    },
+    {
+      "termin": "dostep-i-bezpieczenstwo",
+      "roznica": "Bezpieczne usunięcie danych służy celowi „dostęp i bezpieczeństwo”, ale samo usunięcie to faza 6."
+    },
+    {
+      "termin": "Faza 7 wdrożenia „Jak utrzymać motywację do działania?”",
+      "roznica": "To ostatnia faza programu wdrożenia: przegląd i podtrzymanie zmian. Faza 6 aktywatora to poprawa albo wycofanie jednego aktywatora."
+    }
+  ],
+  "przykladWypowiedzi": "In the update/dispose phase, czyli w fazie aktualizacji/pozbywania się, aktywator jest poprawiany albo wycofywany.",
+  "egzamin": "Faza 6 = **Aktualizacja/pozbywanie się**, ostatnia z **6** faz. Ostatnia z 7 faz wdrożenia to „Jak utrzymać motywację do działania?”. Egzaminacyjnej nazwy PL faz cyklu życia aktywatora nie potwierdziliśmy (brak w SP1 i w zestawieniu Altkom). Używamy nazwy z FW-PL (s. 29, il. 13).",
+  "powiazane": [
+    "cykl-zycia-aktywatora",
+    "wymiar-cykl-zycia",
+    "cykl-faza-5",
+    "cykl-faza-1"
+  ],
+  "sylabus": [
+    "PR-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Aktualizacja/pozbywanie się"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "aż po jego wycofanie"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 30,
+      "cytat": "Ostatecznie procesy przestają istnieć."
+    }
+  ],
+  "mapa": "cykl-faza-6",
+  "glebokosc": {
+    "prosty": "Twoje ulubione buty się zdarły. Możesz oddać je do szewca, żeby wymienił podeszwę. Możesz też je wyrzucić i kupić nowe. Naprawa albo pożegnanie: to ostatni etap życia rzeczy.",
+    "zaawansowany": "Po ocenie Ewy Lis komenda decyduje: procedurę alarmowania się aktualizuje, a starą bramkę SMS wycofuje. Dane z bramki Dudek usuwa tak, żeby nie wyciekły numery druhów, bo liczy się [[dostep-i-bezpieczenstwo|dostęp i bezpieczeństwo]]. Zaktualizowana procedura wraca do [[cykl-faza-4|użytkowania]]. Następca bramki zaczyna własne życie od [[cykl-faza-1|planowania]].",
+    "skrajny": "Kolega mówi: „Faza 6 to koniec, więc po niej aktywatora już nie ma”. To tylko połowa prawdy. „Pozbywanie się” rzeczywiście kończy życie aktywatora. „Aktualizacja” go odnawia, więc aktywator żyje dalej. Druga pułapka: ostatnia faza wdrożenia („Jak utrzymać motywację do działania?”) też brzmi jak koniec, ale to inna lista i inny przedmiot. **Rozstrzygnięcie:** faza 6 ma dwa wyjścia: aktualizację (aktywator żyje dalej) albo pozbycie się (koniec życia); nie myl jej z 7. fazą wdrożenia."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Faza 6 zawsze oznacza koniec aktywatora.",
+      "prawda": "Aktualizacja go odnawia. Koniec oznacza tylko pozbycie się."
+    },
+    {
+      "mit": "Ostatnia faza cyklu życia aktywatora to „Jak utrzymać motywację do działania?”.",
+      "prawda": "To faza 7 wdrożenia. Ostatnia faza aktywatora to „Aktualizacja/pozbywanie się”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Traktowanie fazy 6 wyłącznie jako usunięcia.",
+    "jakTlumaczyc": "Faza 6 to rozwidlenie: remont albo złomowanie. Wóz po remoncie wraca do służby, a wóz zezłomowany odchodzi.",
+    "pytanieKontrolne": "Komenda poprawia procedurę po ocenie i znów jej używa. Czy procedura przeszła fazę 6?",
+    "odpowiedzKontrolna": "Tak, przez **aktualizację**. Potem wraca do użytkowania, więc jej życie trwa dalej."
+  }
+}

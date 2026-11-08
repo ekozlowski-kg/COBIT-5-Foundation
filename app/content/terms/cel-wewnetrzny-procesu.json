@@ -1,0 +1,111 @@
+{
+  "id": "cel-wewnetrzny-procesu",
+  "en": "Intrinsic goals (process goals)",
+  "wymowa": "intrinzik gołlz",
+  "wymowaAkcent": "in-TRIN-zik gołlz",
+  "plEgzamin": "Cele wewnętrzne (procesu)",
+  "plPodrecznik": "Cele wewnętrzne",
+  "plInne": [
+    {
+      "nazwa": "Jakość rzeczywista / jakość wewnętrzna (ta sama kategoria w ogólnym modelu aktywatora)",
+      "zrodlo": "FW-PL s. 29"
+    }
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cele wewnętrzne (procesu)",
+    "podrecznik": "Cele wewnętrzne",
+    "kurs": "Cele wewnętrzne (procesu) – Intrinsic goals",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 69. Inne formy w obiegu: Jakość rzeczywista / jakość wewnętrzna (ta sama kategoria w ogólnym modelu aktywatora) (FW-PL s. 29)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Wewnętrzne” to *intrinsic*, czyli „sam w sobie”. Nie chodzi o wnętrze organizacji. Dlatego zgodność z przepisami ZEWNĘTRZNYMI też jest celem wewnętrznym.",
+  "skadNazwa": "*Intrinsic* znaczy „wrodzony, sam w sobie”. Polskie „wewnętrzne” brzmi jak „wewnątrz firmy” i to myli. W ogólnym modelu aktywatora ta sama kategoria to „jakość wewnętrzna” (egzamin) albo „jakość rzeczywista” (podręcznik).",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "kategorie-celow-procesu",
+    "proces",
+    "jakosc-wewnetrzna"
+  ],
+  "mapa": "cel-wewnetrzny-procesu",
+  "poziom1": "Cele wewnętrzne pytają o sam proces: czy ma prawdziwą jakość, czy jest zgodny z dobrą praktyką i czy przestrzega reguł. Chodzi o reguły wewnętrzne i zewnętrzne, czyli także o przepisy prawa.",
+  "poLudzku": "Czy praca jest zrobiona porządnie i zgodnie z regułami, niezależnie od tego, kto z niej korzysta.",
+  "wyobrazSobie": "Egzamin na prawo jazdy: liczy się, czy jedziesz poprawnie i zgodnie z przepisami, a nie czy pasażer lubi twoją muzykę.",
+  "poCo": "Żeby sprawdzić jakość procesu samego w sobie: czy jest poprawny, zgodny z dobrą praktyką i z regułami.",
+  "jakDziala": "Patrzysz na sam proces i zadajesz trzy pytania. Czy ma jakość rzeczywistą? Czy jest zgodny z dobrą praktyką? Czy przestrzega reguł wewnętrznych i zewnętrznych? Wszystko, co dotyczy zgodności z regułami, trafia do tej kategorii.",
+  "dlaczegoWazne": "To jedna z najczęstszych pułapek nazw: „wewnętrzny” kusi, żeby zewnętrzne przepisy przypisać gdzie indziej. A one są właśnie celem wewnętrznym.",
+  "poziom2": "Trzy pytania celów wewnętrznych (s. 69):\n- Czy proces ma **jakość rzeczywistą**?\n- Czy jest odpowiedni i **zgodny z dobrą praktyką**?\n- Czy jest **zgodny z regułami wewnętrznymi i zewnętrznymi**?\n\n| Sytuacja | Kategoria celu |\n|---|---|\n| proces zgodny z ustawą | wewnętrzny |\n| proces zgodny z regulaminem firmy | wewnętrzny |\n| proces dopasowany do małej firmy | kontekstowy |\n| proces znany tym, którzy go potrzebują | dostępność i bezpieczeństwo |",
+  "poziom3": "(s. 69): *„Cele wewnętrzne — czy proces ma jakość rzeczywistą? Czy jest odpowiedni i zgodny z dobrą praktyką? Czy jest zgodny z regułami wewnętrznymi i zewnętrznymi?”* To odpowiednik kategorii „jakość wewnętrzna” z ogólnego modelu aktywatora.",
+  "przyklady": {
+    "zycie": "Pieczesz ciasto według przepisu babci. Cel wewnętrzny pyta: czy ciasto wyszło, czy trzymałaś się sprawdzonego przepisu i czy nie złamałaś zasad higieny. Nie pyta, czy goście lubią sernik, bo to inna kategoria.",
+    "biuro": "W biurze kadr proces wypłaty urlopów musi być zgodny z kodeksem pracy i z regulaminem firmy. Oba wymagania to cele wewnętrzne, choć kodeks pochodzi spoza firmy.",
+    "organizacja": "Biuro rachunkowe rozlicza podatki klientów. Cel wewnętrzny: rozliczenia są poprawne, zgodne z ustawą o VAT i z wewnętrzną instrukcją biura. To, że przepis pochodzi z zewnątrz, nie zmienia kategorii. Urząd wydaje dowody osobiste. Cel wewnętrzny procesu to poprawne dane i zgodność z ustawą oraz z regulaminem urzędu. Zgodność z ustawą to cel wewnętrzny, choć ustawę napisał Sejm, a nie urząd.",
+    "psp": "Audytorka Ewa Lis sprawdza proces obsługi alarmu w komendzie w Modrzewiowie. Pyta: czy alarm jest wysyłany poprawnie, czy proces trzyma się dobrej praktyki i czy jest zgodny z wytycznymi KG PSP i regulaminem SK. Wszystkie trzy pytania to cele wewnętrzne, także to o wytycznych z zewnątrz.",
+    "it": "W procesie MEA03 (Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi) organizacja sprawdza, czy procesy spełniają przepisy. Z perspektywy każdego z tych procesów taka zgodność to cel wewnętrzny."
+  },
+  "glebokosc": {
+    "prosty": "Kierowca autobusu jedzie zgodnie z przepisami i rozkładem. To, że przepisy wymyślił ktoś spoza firmy, nie ma znaczenia. Pytanie brzmi: czy jazda jest porządna i zgodna z regułami? To cel wewnętrzny.",
+    "zaawansowany": "Dyżurna Kasia Nowik rozpisuje proces obsługi alarmu, a audytorka Lis dopisuje cele. „Alarm trafia do właściwych jednostek” to jakość rzeczywista. „Proces jest zgodny z wytycznymi KG PSP” to zgodność z regułą zewnętrzną. Oba są celami wewnętrznymi. Nowik pyta: „A to, że dyżurny w nocy rozumie procedurę?”. Lis odpowiada, że to już [[cel-kontekstowy-procesu|cel kontekstowy]].",
+    "skrajny": "Na kursie pada pytanie: „Proces jest zgodny z rozporządzeniem ministra. Jaki to cel?”. Połowa sali wybiera „kontekstowy”, bo rozporządzenie jest w otoczeniu organizacji. To błąd z nazwy: „wewnętrzny” tłumaczy *intrinsic*, czyli „sam w sobie”. Podręcznik wprost wpisuje do celów wewnętrznych zgodność z regułami wewnętrznymi **i zewnętrznymi**. Druga pułapka: słowo „odpowiedni” pada w obu kategoriach. W wewnętrznej jako „odpowiedni i zgodny z dobrą praktyką”, w kontekstowej jako „odpowiedni, zrozumiały i łatwy do zastosowania”. **Rozstrzygnięcie:** każda zgodność z regułami, prawem czy dobrą praktyką to cel wewnętrzny. Dopasowanie do sytuacji i zrozumiałość to cel kontekstowy."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Cele wewnętrzne dotyczą spraw wewnątrz organizacji.",
+      "prawda": "Dotyczą jakości samego procesu (*intrinsic*). Obejmują też zgodność z przepisami zewnętrznymi."
+    },
+    {
+      "mit": "Zgodność z prawem to cel kontekstowy, bo prawo jest w otoczeniu.",
+      "prawda": "Podręcznik (s. 69) wpisuje zgodność z regułami zewnętrznymi do celów wewnętrznych."
+    },
+    {
+      "mit": "Słowo „odpowiedni” zawsze wskazuje cel kontekstowy.",
+      "prawda": "„Odpowiedni i zgodny z dobrą praktyką” to cel wewnętrzny. Decyduje to, co jest sprawdzane: zgodność czy dopasowanie."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń łączy słowo „zewnętrzny” z celem kontekstowym i źle klasyfikuje zgodność z przepisami.",
+    "jakTlumaczyc": "Przetłumacz od razu na angielski: *intrinsic* = sam w sobie. Zapytaj: czy sprawdzisz to, patrząc na sam proces i reguły? Jeśli tak, to cel wewnętrzny.",
+    "pytanieKontrolne": "Proces jest zgodny z RODO i z regulaminem firmy. Do której kategorii celów procesu należą te dwie cechy?",
+    "odpowiedzKontrolna": "Obie to **cele wewnętrzne**: zgodność z regułami wewnętrznymi (regulamin) i zewnętrznymi (RODO)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cel-kontekstowy-procesu",
+      "roznica": "Wewnętrzny: czy proces jest poprawny i zgodny z regułami. Kontekstowy: czy pasuje do TEJ organizacji i jest zrozumiały dla jej ludzi."
+    },
+    {
+      "termin": "jakosc-wewnetrzna",
+      "roznica": "Jakość wewnętrzna to kategoria celów każdego aktywatora (np. informacji). Cel wewnętrzny procesu to ta sama idea zastosowana do procesu."
+    }
+  ],
+  "przykladWypowiedzi": "Compliance with external regulations is an intrinsic goal of the process, czyli zgodność z przepisami zewnętrznymi to cel wewnętrzny procesu.",
+  "egzamin": "**Zgodność z regułami zewnętrznymi (przepisy, regulacje) = cel WEWNĘTRZNY** procesu. Słowo „zewnętrzne” w odpowiedzi nie oznacza celu kontekstowego.",
+  "powiazane": [
+    "kategorie-celow-procesu",
+    "jakosc-wewnetrzna",
+    "cel-kontekstowy-procesu",
+    "cel-dostepnosci-procesu"
+  ],
+  "sylabus": [
+    "EN-02-08"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 69,
+      "cytat": "Cele wewnętrzne — czy proces ma jakość rzeczywistą?"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 69,
+      "cytat": "Czy jest zgodny z regułami wewnętrznymi i zewnętrznymi?"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 69,
+      "ilustracja": "29"
+    }
+  ]
+}

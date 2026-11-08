@@ -1,0 +1,96 @@
+{
+  "id": "wskaznik-opozniony",
+  "en": "Lag indicator",
+  "wymowa": "leg indikejter",
+  "wymowaAkcent": "leg IN-di-kej-ter",
+  "plEgzamin": "Wskaźnik opóźniony",
+  "plPodrecznik": "Wskaźnik następujący",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Wskaźnik opóźniony",
+    "podrecznik": "Wskaźnik następujący",
+    "kurs": "Wskaźnik opóźniony (Lag indicator)",
+    "uwaga": "Egzamin PL: „Wskaźnik opóźniony”; podręcznik PL: „Wskaźnik następujący” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 28, 29, 65; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Wskaźniki opóźnione”. Podręcznik: „Wskaźniki następujące”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie-wydajnoscia-aktywatora"
+  ],
+  "poLudzku": "Liczba, którą widać dopiero po fakcie i która mówi, czy cel się udał, np. wynik sprawdzianu.",
+  "wyobrazSobie": "Świadectwo na koniec roku: pokazuje wynik, ale w minionym roku nic już nie da się zmienić.",
+  "poCo": "Żeby po fakcie sprawdzić, czy aktywator dał to, co miał dać: czy cele osiągnięto i czy potrzeby interesariuszy są uwzględnione.",
+  "jakDziala": "Zarządzanie wydajnością aktywatora (enabler performance management) zadaje cztery pytania. Dwa pierwsze dotyczą wyniku: czy potrzeby interesariuszy są uwzględnione i czy cele aktywatora są osiągane. Mierniki, które na nie odpowiadają, to wskaźniki opóźnione (lag indicators). Pokazują to, co już się stało, więc służą do rozliczenia i wniosków na przyszłość.",
+  "dlaczegoWazne": "Należy do modelu aktywatora z zasady 4 (Aktywacja holistycznego podejścia). Egzamin każe przypisać pytanie o osiągnięcie celów albo uwzględnienie potrzeb do wskaźników opóźnionych, a nie wiodących.",
+  "skadNazwa": "Z angielskiego *lag indicator*. Podręcznik: „następujący”, egzamin: „opóźniony”.",
+  "poziom1": "Miernik, który mówi, czy cel został osiągnięty – patrzy wstecz, na wynik, którego już nie zmienisz (np. waga po miesiącu diety, przychód za kwartał).",
+  "poziom2": "Dotyczy pytań **„Czy potrzeby interesariuszy są uwzględnione?”** i **„Czy cele aktywatora są osiągane?”**, czyli rzeczywistego wyniku. Informuje po fakcie.",
+  "poziom3": "(s. 29): *„Mierniki pozwalające na określenie stopnia, w jakim osiągnięto cele, można nazwać «wskaźnikami następującymi».”*",
+  "przyklady": {
+    "zycie": "Miesiąc temu zacząłeś dietę. Dziś stajesz na wadze i widzisz minus 3 kg. Waga nie powie Ci, co robić jutro, tylko pokazuje, co już się stało – to wskaźnik opóźniony.",
+    "biuro": "Na koniec miesiąca kierownik biura liczy, ile faktur wysłano klientom w terminie: 92% przy celu 98%. Wyniku za ten miesiąc już nie poprawi, może tylko szukać przyczyn na następny.",
+    "firma": "Właścicielka sklepu internetowego na koniec kwartału otwiera raport: przychód wzrósł o 10%. Na ten wynik nic już nie poradzi, może tylko wyciągnąć wnioski na następny kwartał – to wskaźnik opóźniony.",
+    "admin": "W styczniu kierownik wydziału komunikacji w starostwie liczy, ile rejestracji pojazdów załatwiono w zeszłym roku w terminie. Wynik pokazuje, czy ubiegłoroczny cel osiągnięto, ale niczego w tamtym roku już nie zmieni – to wskaźnik opóźniony.",
+    "psp": "Po kwartale komendant powiatowy dostaje zestawienie: średni czas dotarcia zastępów JRG do zdarzeń wyniósł 9 minut. To pokazuje, jak było, ale przebiegu tamtych akcji już nie zmieni – to wskaźnik opóźniony.",
+    "it": "W DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) odsetek incydentów rozwiązanych za kwartał w uzgodnionym czasie to wskaźnik opóźniony: mówi, czy cel osiągnięto. Taki wynik raportuje się m.in. w MEA01 (Monitorowanie, ocena i oszacowanie wydajności i zgodności)."
+  },
+  "glebokosc": {
+    "prosty": "Na koniec roku szkolnego dziecko dostaje świadectwo. Świadectwo mówi, czy rok się udał, ale ocen z tego roku już nie zmienisz. Liczba, która pokazuje wynik po fakcie, to wskaźnik opóźniony.",
+    "zaawansowany": "Kpt. Sikora co kwartał zbiera dwie liczby: odsetek alarmów, które dotarły do OSP Zawilce w ciągu 40 sekund, i ocenę Syreny w ankiecie dowódców JRG. Pierwsza mówi, czy osiągnięto [[cele-aktywatorow|cel aktywatora]], druga – czy uwzględniono potrzeby interesariuszy, więc obie są wskaźnikami opóźnionymi. Żadna z nich nie powie jednak, dlaczego wynik jest słaby. Do tego Sikora potrzebuje [[wskaznik-wiodacy|wskaźników wiodących]], np. odsetka dyżurnych przeszkolonych z nowej procedury.",
+    "skrajny": "Na ekranie w SK wisi panel, który co sekundę pokazuje dostępność Syreny: 99,97%. Skoro liczba jest „na żywo”, wiele osób uznaje ją za wskaźnik wiodący. To błąd: dostępność to cel aktywatora (kategoria „dostęp i bezpieczeństwo”), a mierniki osiągnięcia celów Framework nazywa wskaźnikami następującymi, czyli opóźnionymi (s. 29). O rodzaju wskaźnika decyduje to, co mierzy, a nie to, kiedy i jak często się go odczytuje. Panel mówi „cel jest osiągany”, a nie „robimy to, co do celu prowadzi”. **Rozstrzygnięcie:** miernik osiągnięcia celów albo uwzględnienia potrzeb = wskaźnik opóźniony, nawet jeśli odświeża się co sekundę."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Opóźniony to ten, który przychodzi z opóźnieniem, np. raport kwartalny.",
+      "prawda": "Kryterium jest treść: mierzy osiągnięcie celów i uwzględnienie potrzeb. Dostępność mierzona na żywo (cel aktywatora) też jest wskaźnikiem opóźnionym."
+    },
+    {
+      "mit": "Opóźniony jest mniej ważny niż wiodący.",
+      "prawda": "Potrzebne są oba: opóźniony mówi, czy się udało, wiodący – czy idziemy w dobrą stronę. Bez opóźnionego nie wiesz, czy praktyki w ogóle dają efekt."
+    },
+    {
+      "mit": "„Wskaźnik następujący” to coś innego niż „wskaźnik opóźniony”.",
+      "prawda": "To ten sam *lag indicator*: podręcznik mówi „następujący”, egzamin „opóźniony”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Klasyfikowanie wskaźnika po tym, kiedy się go mierzy (raport roczny = opóźniony, panel na żywo = wiodący), zamiast po tym, co mierzy.",
+    "jakTlumaczyc": "Zadaj dwa pytania z modelu: „czy mierzy, że cel osiągnięto albo potrzeby uwzględniono?” → opóźniony; „czy mierzy dbanie o cykl życia albo stosowanie praktyk?” → wiodący. Analogia: waga po diecie (wynik) kontra liczba zjedzonych porcji warzyw dziennie (praktyka).",
+    "pytanieKontrolne": "Panel na żywo pokazuje dostępność Syreny 99,97%. Jaki to wskaźnik i dlaczego to, że jest „na żywo”, nie ma znaczenia?",
+    "odpowiedzKontrolna": "**Opóźniony** (następujący): dostępność to cel aktywatora (dostęp i bezpieczeństwo), a mierniki osiągnięcia celów są opóźnione (s. 29). O rodzaju decyduje mierzona treść, a nie częstotliwość pomiaru."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "wskaznik-wiodacy",
+      "roznica": "Wiodący mierzy, czy proces działa właściwie: cykl życia i dobre praktyki. Przewiduje wynik."
+    }
+  ],
+  "przykladWypowiedzi": "A lag indicator, czyli wskaźnik opóźniony, mierzy po fakcie, czy cele aktywatora są osiągane i czy potrzeby interesariuszy są uwzględnione.",
+  "egzamin": "Pytania o osiągnięcie celów i uwzględnienie potrzeb → **wskaźniki opóźnione**.",
+  "powiazane": [
+    "wskaznik-wiodacy",
+    "zarzadzanie-wydajnoscia-aktywatora"
+  ],
+  "sylabus": [
+    "PR-02-13"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Mierniki pozwalające na określenie stopnia, w jakim osiągnięto cele"
+    },
+    {
+      "doc": "ALTKOM"
+    },
+    {
+      "doc": "SP1",
+      "strona": 19
+    }
+  ],
+  "mapa": "wskaznik-opozniony"
+}

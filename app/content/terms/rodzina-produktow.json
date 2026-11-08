@@ -1,0 +1,111 @@
+{
+  "id": "rodzina-produktow",
+  "en": "COBIT 5 product family",
+  "wymowa": "kołbit 5 prodakt femili",
+  "wymowaAkcent": "KOŁ-bit 5 PRO-dakt FE-mi-li",
+  "plEgzamin": "Rodzina produktów COBIT 5",
+  "plPodrecznik": "Rodzina produktów COBIT 5",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Rodzina produktów COBIT 5",
+    "podrecznik": "Rodzina produktów COBIT 5",
+    "kurs": "Rodzina produktów COBIT 5 (COBIT 5 product family)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 11, 25, 26."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Grupy w podręczniku: „Przewodniki dotyczące czynników umożliwiających” i „Specjalistyczne przewodniki”. Egzamin mówi „aktywator” zamiast „czynnik umożliwiający”. Egzaminacyjnych nazw grup po polsku nie potwierdziliśmy.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "baza-wiedzy",
+    "cobit-5"
+  ],
+  "poLudzku": "Cała półka książek COBIT 5: główny podręcznik i poradniki do wybranych tematów, np. audytu czy ryzyka.",
+  "skadNazwa": "*COBIT 5 product family*. Grupy po angielsku to *enabler guides* i *professional guides*. Podręcznik PL: „przewodniki dotyczące czynników umożliwiających” i „specjalistyczne przewodniki”.",
+  "wyobrazSobie": "Seria jednego wydawnictwa: główny podręcznik i zeszyty ćwiczeń do konkretnych działów.",
+  "poCo": "Żeby każdy czytelnik dostał przewodnik do swojej pracy, a wszystkie przewodniki mówiły tym samym językiem.",
+  "jakDziala": "Z bazy wiedzy, przez filtr aktywatorów, powstają publikacje. Na czele jest COBIT 5 (Framework). Obok są przewodniki o aktywatorach, np. *Procesy umożliwiające*, i przewodniki specjalistyczne, np. *Wdrożenie* czy *Audyt*.",
+  "dlaczegoWazne": "Egzamin może pytać, do której grupy należy dany przewodnik. Trzeba też wiedzieć, gdzie szukać szczegółów 37 procesów.",
+  "poziom1": "Zestaw publikacji, które powstają z bazy wiedzy COBIT 5 (Ilustracja 11). Na czele jest sam COBIT 5 (Framework). Pod nim są przewodniki o aktywatorach, przewodniki specjalistyczne i środowisko sieciowe oparte na współpracy.",
+  "poziom2": "| Grupa (Ilustracja 11) | Przykłady |\n|---|---|\n| **COBIT 5** | Framework (ten podręcznik) |\n| **Przewodniki o aktywatorach** | *Procesy umożliwiające*, *Informacje umożliwiające*, inne przewodniki o aktywatorach |\n| **Przewodniki specjalistyczne** | *Wdrożenie*, *Bezpieczeństwo informacji*, *Audyt*, *Ryzyko*, inne |\n| **Środowisko sieciowe oparte na współpracy** | wspólna przestrzeń w internecie |",
+  "poziom3": "(s. 26): *„Ilustracja 11 — Rodzina produktów COBIT 5”*. Szczegóły 37 procesów *„można znaleźć w przewodniku COBIT 5: Procesy umożliwiające”* (s. 33).",
+  "przyklady": {
+    "zycie": "Producent mebli dokłada do szafy główną instrukcję montażu. Osobno są ulotki: jak dbać o drewno, jak bezpiecznie przykręcić szafę do ściany. Wszystko ma jeden styl i te same numery części. To rodzina produktów.",
+    "biuro": "Firma szkoleniowa wydaje główny podręcznik kursu i osobne zeszyty: dla trenera, dla uczestnika, dla egzaminatora. Wszystkie mają te same rozdziały i to samo słownictwo.",
+    "organizacja": "Franczyza pizzerii ma księgę marki, a obok osobne poradniki: dla kuchni, dla dostawców, dla kontroli jakości. Wszystkie wychodzą z jednej centrali i mają ten sam układ. To odpowiednik rodziny produktów COBIT 5.\n\nMinisterstwo wydaje główne wytyczne cyfryzacji urzędów. Osobno publikuje poradniki: o bezpieczeństwie, o audycie systemów, o wdrażaniu e-usług. Razem tworzą jedną rodzinę publikacji.",
+    "psp": "**Półka w wydziale** Kpt. Marek Sikora stawia na półce COBIT 5, a obok przewodnik *Procesy umożliwiające*. Audytorka Ewa Lis dostaje przewodnik o audycie, a zespół wdrożeniowy *Wdrożenie*. St. ogn. Kasia Nowik pyta, który z nich to „prawdziwy COBIT”. Sikora odpowiada: wszystkie, bo to jedna rodzina produktów.",
+    "it": "Audytor IT szuka praktyk procesu MEA02 (Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej) w *COBIT 5: Procesy umożliwiające*. Do planu audytu bierze przewodnik specjalistyczny *COBIT 5 — Audyt*."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "baza-wiedzy",
+      "roznica": "Baza wiedzy to źródło. Rodzina produktów to publikacje, które z niej powstają."
+    },
+    {
+      "termin": "cobit-5",
+      "roznica": "COBIT 5 (Framework) to jeden element rodziny, a nie cała rodzina."
+    },
+    {
+      "termin": "cobit-2019",
+      "roznica": "COBIT 2019 to nowsza wersja ramy, a nie produkt z rodziny COBIT 5."
+    }
+  ],
+  "przykladWypowiedzi": "The COBIT 5 product family, czyli rodzina produktów COBIT 5, obejmuje Framework, enabler guides, czyli przewodniki o aktywatorach, i professional guides, czyli przewodniki specjalistyczne.",
+  "egzamin": "Dwie grupy przewodników: o **aktywatorach** (np. *Procesy umożliwiające*, *Informacje umożliwiające*) i **specjalistyczne** (np. *Wdrożenie*, *Bezpieczeństwo informacji*, *Audyt*, *Ryzyko*). *Wdrożenie* to przewodnik specjalistyczny, a nie przewodnik o aktywatorze.",
+  "powiazane": [
+    "integrator",
+    "baza-wiedzy",
+    "cobit-5",
+    "zasada-3"
+  ],
+  "sylabus": [
+    "PR-02-10",
+    "PR-02-11"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 26,
+      "ilustracja": "11",
+      "cytat": "Ilustracja 11 — Rodzina produktów COBIT 5"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 26,
+      "cytat": "Specjalistyczne przewodniki dotyczące metodyki COBIT 5"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "cytat": "można znaleźć w przewodniku COBIT 5: Procesy umożliwiające"
+    }
+  ],
+  "mapa": "rodzina-produktow",
+  "glebokosc": {
+    "prosty": "Kupujesz zestaw klocków. W pudełku jest główna instrukcja i kilka małych książeczek: osobno do auta, osobno do domku. Wszystkie wyglądają podobnie. To „rodzina produktów” jednego zestawu.",
+    "zaawansowany": "Audytorka Ewa Lis szuka szczegółów procesu powiadamiania. Nie znajdzie ich w samym COBIT 5, bo pełne opisy 37 procesów są w przewodniku *Procesy umożliwiające*. To przewodnik o aktywatorze Proces. Na wdrożenie Sikora sięga po *Wdrożenie*, czyli przewodnik specjalistyczny. Oba wyrosły z tej samej [[baza-wiedzy|bazy wiedzy]], więc mają spójne pojęcia.",
+    "skrajny": "Pytanie: „Który dokument jest przewodnikiem o aktywatorach: *Wdrożenie*, *Ryzyko*, *Informacje umożliwiające* czy *Audyt*?”. Kusi *Wdrożenie*, bo przecież wdraża się aktywatory. Ale *Wdrożenie* to przewodnik specjalistyczny, tak jak *Ryzyko* i *Audyt*. Przewodnikiem o aktywatorze jest *Informacje umożliwiające*, bo opisuje jeden aktywator: Informację. Słowo „umożliwiające” w tytule to ślad po podręcznikowym „czynniku umożliwiającym”. **Rozstrzygnięcie:** tytuł z „umożliwiające” (Procesy, Informacje) to przewodnik o aktywatorze; Wdrożenie, Bezpieczeństwo informacji, Audyt i Ryzyko to przewodniki specjalistyczne."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Rodzina produktów to tylko COBIT 5 Framework.",
+      "prawda": "Framework to jeden element. Są też przewodniki o aktywatorach, przewodniki specjalistyczne i środowisko sieciowe."
+    },
+    {
+      "mit": "*Wdrożenie* to przewodnik o aktywatorach.",
+      "prawda": "To przewodnik specjalistyczny, tak jak Bezpieczeństwo informacji, Audyt i Ryzyko."
+    },
+    {
+      "mit": "Szczegółowe opisy 37 procesów są w samym Frameworku.",
+      "prawda": "Framework podaje model i listę; szczegóły są w przewodniku *Procesy umożliwiające* (s. 33)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Wrzucanie *Wdrożenia* do przewodników o aktywatorach.",
+    "jakTlumaczyc": "Ucz reguły tytułu: „… umożliwiające” oznacza przewodnik o aktywatorze. Tytuł o zadaniu albo zawodzie (audyt, ryzyko, bezpieczeństwo, wdrożenie) oznacza przewodnik specjalistyczny.",
+    "pytanieKontrolne": "Gdzie znajdziesz szczegółowe praktyki jednego z 37 procesów i do której grupy rodziny produktów należy ten dokument?",
+    "odpowiedzKontrolna": "W przewodniku *COBIT 5: Procesy umożliwiające*. To przewodnik o aktywatorach (aktywator Proces)."
+  }
+}

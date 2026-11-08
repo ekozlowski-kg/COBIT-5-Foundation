@@ -1,0 +1,100 @@
+{
+  "id": "realizacja-korzysci",
+  "en": "Benefits Realisation",
+  "wymowa": "benefits rialajzejszyn",
+  "wymowaAkcent": "BE-ne-fits ri-a-laj-ZEJ-szyn",
+  "plEgzamin": "Realizacja korzyści",
+  "plPodrecznik": "Realizacja korzyści",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Realizacja korzyści",
+    "podrecznik": "Realizacja korzyści",
+    "kurs": "Realizacja korzyści (Benefits Realisation)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 13, 14, 17."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "rezultat",
+    "interesariusz"
+  ],
+  "poLudzku": "Pilnowanie, żeby z wydanych pieniędzy naprawdę był pożytek, a nie tylko faktury.",
+  "wyobrazSobie": "Jak karnet na siłownię: korzyść, czyli lepsza kondycja, pojawia się dopiero wtedy, gdy chodzisz na treningi, a gdy przestajesz chodzić, rozsądnie jest zrezygnować z karnetu, zamiast płacić za nic.",
+  "poCo": "Żeby inwestycje w IT naprawdę przynosiły organizacji pożytek, a nie kończyły się na zakupie albo wdrożeniu.",
+  "jakDziala": "Realizacja korzyści (Benefits Realisation) obejmuje trzy działania: uzyskiwanie nowych korzyści, utrzymanie i rozszerzanie istniejących oraz eliminowanie inicjatyw i zasobów, które nie dają wystarczającej wartości. Korzyść mierzy się poprawą u interesariuszy, a nie samym rezultatem (output). Razem z optymalizacją ryzyka i optymalizacją zasobów tworzy cel Ładu, czyli tworzenie wartości, a w procesach Ładu odpowiada za nią EDM02 (Zapewnienie realizacji korzyści).",
+  "dlaczegoWazne": "To jeden z trzech składników celu Ładu z zasady 1 („Realizacja potrzeb interesariusza”). Na egzaminie trzeba pamiętać, że eliminowanie nieopłacalnych inicjatyw też jest realizacją korzyści i że rezultat to jeszcze nie korzyść.",
+  "poziom1": "Moment, w którym naprawdę dostajesz to, po co coś zrobiłeś, a nie tylko masz nową rzecz (np. zmywarka w kuchni to jeszcze nie korzyść, korzyść to wolny wieczór). Liczy się zdobywanie nowych korzyści, utrzymanie tych, które już są, i rezygnacja z tego, co się nie opłaca, np. wyłączenie nieużywanego systemu.",
+  "poziom2": "Realizacja korzyści obejmuje trzy rzeczy: **uzyskiwanie nowych** korzyści, **utrzymanie i rozszerzanie** istniejących oraz **eliminowanie** inicjatyw i zasobów, które nie dają wystarczającej wartości. Ten trzeci element jest często pomijany. Wyłączenie nieużywanego systemu też jest realizacją korzyści.",
+  "poziom3": "Definicja (Załącznik H): *„Jeden z celów nadzoru. Uzyskiwanie przez przedsiębiorstwo nowych korzyści, utrzymanie i rozszerzenie istniejących form korzyści oraz wyeliminowanie inicjatyw i zasobów, które nie generują wystarczającej wartości.”*",
+  "przyklady": {
+    "zycie": "Kupujecie zmywarkę, żeby wieczorem nie stać przy zlewie, ale przez miesiąc i tak zmywacie ręcznie, „bo szkoda prądu”. Korzyść pojawia się dopiero, gdy zmywarka chodzi codziennie, a Wy macie wolny wieczór. Rezygnacja z drugiego, nieoglądanego serwisu streamingowego to też realizacja korzyści – przestajecie płacić za coś, co nic nie daje.",
+    "biuro": "Biuro kupuje skaner, żeby nie szukać papierowych teczek. Po trzech miesiącach kierownik sprawdza, że dokument znajduje się w minutę zamiast w kwadrans – to zrealizowana korzyść. Przy okazji wypowiada umowę na nieużywany faks, bo nie daje już żadnej wartości.",
+    "firma": "Kawiarnia kupuje terminal płatniczy, bo klienci odchodzili, gdy nie mogli zapłacić kartą. Po trzech miesiącach właściciel sprawdza: kolejka krótsza, utarg wyższy o 15%. Dopiero to jest zrealizowana korzyść – sam terminal na ladzie nią nie był.",
+    "admin": "Gmina wdraża elektroniczny obieg dokumentów, żeby sprawy szły szybciej. Pół roku później okazuje się, że urzędnicy i tak drukują każde pismo i noszą je do podpisu. System jest, ale korzyści nie ma – dopóki ludzie nie zmienią sposobu pracy.",
+    "psp": "Komenda uruchamia w SK nowe narzędzie do koordynacji sił i środków. Po kwartale kierownik SK porównuje czasy: zadysponowanie kolejnych zastępów do dużego zdarzenia trwa średnio o minutę krócej. Ta minuta to zrealizowana korzyść, a samo uruchomienie narzędzia było tylko rezultatem.",
+    "it": "W procesie EDM02 (Zapewnienie realizacji korzyści) Ład ocenia portfel inwestycji IT, kieruje środki tam, gdzie korzyści są największe, i monitoruje, czy korzyści zapowiedziane w uzasadnieniu biznesowym naprawdę się pojawiają. Zarządzanie realizuje to m.in. w APO05 (Zarządzanie portfelem projektów)."
+  },
+  "glebokosc": {
+    "prosty": "Kupujesz rower, żeby dojeżdżać do pracy i mniej płacić za paliwo. Korzyść masz dopiero wtedy, gdy naprawdę nim jeździsz i widzisz niższe rachunki. Sprzedajesz też stary, nieużywany skuter – to również realizacja korzyści, bo przestajesz płacić za coś, co nic nie daje.",
+    "zaawansowany": "Syrena działa od trzech miesięcy. Bryg. Wrzos pyta nie o to, czy system jest wdrożony (to [[rezultat]]), ale czy OSP Zawilce wyjeżdża szybciej – to pytanie o korzyść. Kpt. Sikora pokazuje, że czas od alarmu do wyjazdu spadł o 2 minuty, i proponuje wyłączyć stary system pagerów, za który komenda wciąż płaci. Oba kroki to realizacja korzyści: utrzymanie nowej korzyści i eliminacja tego, co nie daje wartości. Razem z [[optymalizacja-ryzyka|optymalizacją ryzyka]] i [[optymalizacja-zasobow|optymalizacją zasobów]] składa się to na [[tworzenie-wartosci|tworzenie wartości]].",
+    "skrajny": "Wyłączenie starych pagerów oszczędza pieniądze, więc intuicja przypisuje je optymalizacji zasobów. Definicja w Załączniku H mówi jednak wprost, że realizacja korzyści obejmuje też **wyeliminowanie inicjatyw i zasobów, które nie generują wystarczającej wartości**. Decyzja „wyłączamy, bo nie daje wartości” należy więc do realizacji korzyści, nawet jeśli przy okazji zwalnia zasoby. Druga pułapka: dostarczenie systemu zgodnie z umową to dopiero rezultat, a korzyść to poprawa, którą ten system przynosi. **Rozstrzygnięcie:** realizacja korzyści = uzyskiwać nowe korzyści, utrzymywać i rozszerzać istniejące, eliminować to, co nie daje wartości; samo „mamy nowy system” to jeszcze nie korzyść."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Realizacja korzyści to tylko zdobywanie nowych korzyści.",
+      "prawda": "Obejmuje też utrzymanie i rozszerzenie istniejących korzyści oraz eliminowanie inicjatyw i zasobów, które nie dają wystarczającej wartości."
+    },
+    {
+      "mit": "Wdrożony system to zrealizowana korzyść.",
+      "prawda": "Wdrożony system to rezultat. Korzyść to zmiana na lepsze, np. szybszy wyjazd zastępu."
+    },
+    {
+      "mit": "Realizacja korzyści to to samo co tworzenie wartości.",
+      "prawda": "To jeden z trzech składników celu Ładu, obok optymalizacji ryzyka i optymalizacji zasobów."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Pomijanie trzeciego elementu – eliminowania tego, co nie daje wartości.",
+    "jakTlumaczyc": "Ogród: sadzisz nowe rośliny (uzyskiwanie), podlewasz to, co już rośnie (utrzymanie), i wyrywasz chwasty (eliminacja). Każdy z tych kroków zwiększa plon.",
+    "pytanieKontrolne": "Komenda wyłącza nieużywany system pagerów. Czy to realizacja korzyści? Uzasadnij definicją.",
+    "odpowiedzKontrolna": "Tak. Definicja realizacji korzyści obejmuje eliminowanie inicjatyw i zasobów, które nie generują wystarczającej wartości – nie tylko zdobywanie nowych korzyści."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "rezultat",
+      "roznica": "Rezultat (output) to bezpośredni produkt działania – np. wdrożony system. Korzyść (benefit) to poprawa, którą ten produkt przynosi – np. szybsza obsługa."
+    },
+    {
+      "termin": "tworzenie-wartosci",
+      "roznica": "Tworzenie wartości = korzyści + ryzyko + zasoby w równowadze. Realizacja korzyści to tylko jeden składnik."
+    }
+  ],
+  "przykladWypowiedzi": "Benefits Realisation, czyli realizacja korzyści, to uzyskiwanie nowych korzyści, utrzymywanie istniejących i eliminowanie tego, co nie daje wartości; razem z risk optimisation i resource optimisation tworzy value creation (tworzenie wartości).",
+  "egzamin": "Jeden z trzech składników celu Ładu. Zapamiętaj trzy działania: uzyskiwać nowe korzyści, utrzymywać istniejące, eliminować to, co nie daje wartości.",
+  "powiazane": [
+    "tworzenie-wartosci",
+    "optymalizacja-ryzyka",
+    "optymalizacja-zasobow",
+    "rezultat"
+  ],
+  "sylabus": [
+    "M0-00-03",
+    "PR-02-01"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 89,
+      "cytat": "Uzyskiwanie przez przedsiębiorstwo nowych korzyści, utrzymanie i rozszerzenie istniejących form korzyści oraz wyeliminowanie inicjatyw i zasobów, które nie generują wystarczającej wartości."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 17,
+      "ilustracja": "3"
+    }
+  ],
+  "mapa": "realizacja-korzysci"
+}

@@ -1,0 +1,37 @@
+{
+  "_opis": "WZORZEC karty terminologicznej (METODYKA §17.4, SD V.1 i SD-3 §3). Kolejność wyświetlania: EN+wymowa → formy PL ze statusem → definicja (FAKT) → po ludzku → wyobraź sobie → po co / jak działa → przykłady → nie mylić → przykład wypowiedzi → powiązane → źródło.",
+  "id": "lad",
+  "en": "Governance",
+  "wymowa": "gawernens",
+  "plEgzamin": "Ład",
+  "plPodrecznik": "Nadzór",
+  "plInne": ["ład informatyczny", "ład korporacyjny w zakresie IT"],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Ład",
+    "podrecznik": "Nadzór",
+    "kurs": "Ład (Governance)",
+    "uwaga": "Brak idealnego jednowyrazowego odpowiednika. Na egzaminie zaznaczamy „Ład”; „nadzór” to forma podręcznikowa (pułapka)."
+  },
+  "pulapka": true,
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": ["organizacja", "interesariusz", "zarzadzanie"],
+  "poziom1": "Ład ocenia potrzeby interesariuszy, wyznacza kierunek przez priorytety i decyzje oraz monitoruje, czy kierunek jest realizowany.",
+  "poLudzku": "Ład to decyzje szefów: co jest najważniejsze i czy idziemy w dobrą stronę.",
+  "wyobrazSobie": "Kapitan statku: wyznacza kurs i sprawdza go, ale nie stoi przy sterze.",
+  "poCo": "Żeby informatyka robiła to, czego potrzebuje cała organizacja, a nie tylko to, co umieją informatycy.",
+  "jakDziala": "Zarząd ocenia potrzeby i warunki (Evaluate), ustala priorytety i podejmuje decyzje (Direct), a potem sprawdza wyniki (Monitor). Wyniki z Zarządzania wracają do Ładu i cykl się powtarza.",
+  "dlaczegoWazne": "To jedna z pięciu zasad COBIT 5 (zasada 5). Na egzaminie odróżnienie Ładu od Zarządzania pojawia się w wielu pytaniach.",
+  "przyklady": {
+    "zycie": "Rodzina decyduje, że w tym roku pieniądze idą na bezpieczny samochód, a nie na wakacje, i co miesiąc sprawdza budżet.",
+    "biuro": "Kierownik ustala, które dokumenty są poufne i kto może je widzieć.",
+    "organizacja": "Zarząd firmy decyduje, że system sprzedaży musi działać 24 godziny na dobę, i co kwartał sprawdza raport.",
+    "psp": "Komendantka Wrzos decyduje: „Syrena” ma działać całą dobę, a przestój nie może przekroczyć 5 minut w roku.",
+    "it": "Proces EDM03 (zapewnienie optymalizacji ryzyka): ustalenie apetytu na ryzyko IT i monitorowanie, czy go nie przekraczamy."
+  },
+  "nieMylicZ": ["zarzadzanie"],
+  "przykladWypowiedzi": "Governance, czyli Ład, ocenia potrzeby, wyznacza kierunek i monitoruje jego realizację (EDM); Management, czyli Zarządzanie, planuje, tworzy, wykonuje i monitoruje działania zgodnie z tym kierunkiem (PBRM).",
+  "powiazane": ["zarzadzanie", "edm", "zasada-5", "organ-ladu"],
+  "zrodla": [{ "doc": "FW-PL", "strona": 31 }, { "doc": "ALTKOM" }]
+}

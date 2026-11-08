@@ -1,0 +1,91 @@
+{
+  "id": "dobre-praktyki",
+  "en": "Good practices",
+  "wymowa": "gud prektisiz",
+  "wymowaAkcent": "gud PREK-ti-siz",
+  "plEgzamin": "Dobre praktyki",
+  "plPodrecznik": "Dobre praktyki",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Dobre praktyki",
+    "podrecznik": "Dobre praktyki",
+    "kurs": "Dobre praktyki (Good practices)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 14, 15, 26."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "aktywator"
+  ],
+  "poLudzku": "Sprawdzone sposoby robienia czegoś, które zadziałały u innych, więc nie trzeba wymyślać od nowa.",
+  "wyobrazSobie": "Sprawdzony przepis kucharski: lista składników na wejściu, kolejne kroki i opis, jak ma wyglądać gotowe danie.",
+  "poCo": "Żeby nie wymyślać wszystkiego od nowa, tylko korzystać ze sposobów, które sprawdziły się w wielu organizacjach. Dobre praktyki wspierają osiąganie celów aktywatora.",
+  "jakDziala": "Dobre praktyki (good practices) to jeden z czterech wymiarów każdego aktywatora, obok interesariuszy, celów i cyklu życia. Podają przykłady lub sugestie, jak najlepiej wdrożyć aktywator, oraz wymagane produkty działań (work products), czyli dane wejściowe i wyniki (inputs and outputs). Dla procesów COBIT 5 podaje je w publikacji „Procesy umożliwiające” (Enabling Processes), a dla innych aktywatorów odsyła też do innych standardów.",
+  "dlaczegoWazne": "Na egzaminie trzeba znać cztery wymiary aktywatora i wiedzieć, że stosowanie dobrych praktyk mierzy się wskaźnikami wiodącymi (lead indicators), a osiąganie celów wskaźnikami opóźnionymi (lag indicators).",
+  "poziom1": "Sprawdzony sposób, jak coś robić, razem z tym, co trzeba mieć na wejściu i co ma wyjść na końcu (np. checklista otwarcia sklepu, wzorcowa procedura obsługi skargi). To jeden z wymiarów każdego aktywatora.",
+  "poziom2": "Dobre praktyki **wspierają osiąganie celów aktywatora**. Zawierają przykłady lub sugestie dotyczące optymalnego wdrożenia oraz wymagane **produkty działań** (dane wejściowe i wyniki). Dla procesów COBIT 5 podaje je w *Procesach umożliwiających*. Dla innych aktywatorów można korzystać z innych standardów.",
+  "poziom3": "Słownik (s. 91): *„Sprawdzone działanie lub proces, który jest z powodzeniem wykorzystywany w wielu przedsiębiorstwach i który, jak wykazano, umożliwia uzyskanie wiarygodnych wyników.”*",
+  "przyklady": {
+    "zycie": "Babcia lepi pierogi zawsze tak samo: mąka, woda i jajko, ciasto odpoczywa pół godziny, farsz robi się dzień wcześniej. Dostajesz od niej kartkę z listą składników (wejścia) i opisem, jak mają wyglądać gotowe pierogi (wynik). Ten sprawdzony przez lata sposób to dobra praktyka.",
+    "biuro": "Nowa asystentka dostaje sprawdzoną instrukcję wysyłki poczty: na wejściu lista pism z dziennika, potem koperta, znaczek i wpis do książki nadawczej, a na wyjściu potwierdzenie nadania wpięte do teczki. Tak samo robi się w każdym oddziale firmy, bo ten sposób się sprawdził.",
+    "firma": "Sieć trzech sklepów rowerowych ma jedną checklistę otwarcia: włączyć kasę, przeliczyć gotówkę, uruchomić terminal, wystawić rowery testowe. Na wejściu jest raport z zamknięcia z poprzedniego dnia, na wyjściu podpisana lista. Sposób sprawdzony we wszystkich punktach to dobra praktyka.",
+    "admin": "Nowy pracownik urzędu dostaje skargę mieszkańca i nie wie, co z nią zrobić. Kierowniczka daje mu wzorcową procedurę: rejestracja w EZD, przekazanie do właściwego wydziału, odpowiedź w ciągu miesiąca zgodnie z KPA. Na wejściu jest skarga, na wyjściu pismo z odpowiedzią – to dobra praktyka z gotowymi produktami działań.",
+    "psp": "Po zdarzeniu kierujący działaniem ratowniczym sporządza informację ze zdarzenia według tych samych zasad, które obowiązują w całym KSRG. Na wejściu są dane z miejsca akcji i z SK, na wyjściu kompletny wpis w SWD-PSP. Ujednolicony, sprawdzony sposób dokumentowania to dobra praktyka.",
+    "it": "Dla procesu DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami publikacja „Procesy umożliwiające” podaje praktyki, np. rejestrowanie, klasyfikowanie i nadawanie priorytetu zgłoszeniom, wraz z wejściami i wyjściami, np. raportami o zgłoszeniach. To dobre praktyki aktywatora Procesy."
+  },
+  "glebokosc": {
+    "prosty": "Babcia ma sprawdzony sposób na rosół: co włożyć, w jakiej kolejności, ile gotować i co ma wyjść. Nie musisz wymyślać go od zera. Ale przepis to jeszcze nie obiad: trzeba go ugotować i spróbować.",
+    "zaawansowany": "Ola Dudek układa procedurę obsługi alarmu. Nie wymyśla jej od zera: bierze praktyki oraz produkty działań (wejścia i wyniki) z *Procesów umożliwiających*. Do kultury zgłaszania błędów sięga po wskazówki z innych źródeł, bo COBIT 5 nie daje tu gotowego wzoru. Dobre praktyki to jeden z czterech [[wymiary-aktywatora|wymiarów aktywatora]]. To, czy komenda je stosuje, mierzy [[wskaznik-wiodacy|wskaźnik wiodący]].",
+    "skrajny": "Komenda stosuje wszystkie dobre praktyki z podręcznika, a alarmy dalej nie docierają do OSP. Czy to możliwe? Tak: pytanie „czy stosowane są dobre praktyki?” dotyczy funkcjonowania aktywatora i mierzy je wskaźnik wiodący. O wyniku mówią wskaźniki opóźnione: czy osiągnięto cele i czy uwzględniono potrzeby interesariuszy. Druga pułapka: COBIT 5 podaje przykłady dobrych praktyk tylko dla niektórych aktywatorów (np. procesów), a dla innych korzysta się z innych standardów (s. 29). **Rozstrzygnięcie:** dobre praktyki zwiększają szansę na cel, ale go nie gwarantują; stosowanie praktyk → wskaźnik wiodący, osiągnięcie celu → wskaźnik opóźniony."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Dobre praktyki są celem samym w sobie.",
+      "prawda": "Ułatwiają osiągnięcie celów aktywatora (s. 29), ale same celem nie są."
+    },
+    {
+      "mit": "COBIT 5 zawiera gotowe dobre praktyki dla wszystkich 7 aktywatorów.",
+      "prawda": "Daje przykłady dla niektórych, np. procesów w *Procesach umożliwiających*. Dla innych można korzystać z innych standardów i metodyk."
+    },
+    {
+      "mit": "Stosowanie dobrych praktyk mierzy wskaźnik opóźniony.",
+      "prawda": "Mierzy je wskaźnik wiodący. Opóźniony mierzy osiągnięcie celów i uwzględnienie potrzeb interesariuszy."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie „stosujemy praktykę” z „osiągnęliśmy cel” i przypisywanie praktykom złego rodzaju wskaźnika.",
+    "jakTlumaczyc": "Trening i wynik meczu: trening według planu (dobra praktyka, wskaźnik wiodący) nie gwarantuje wygranej (cel, wskaźnik opóźniony), ale zwiększa jej szansę.",
+    "pytanieKontrolne": "Dlaczego „100% dyżurnych zna procedurę” nie dowodzi, że proces powiadamiania osiąga swój cel?",
+    "odpowiedzKontrolna": "Bo to miara stosowania praktyki, czyli wskaźnik wiodący. O osiągnięciu celu świadczą wskaźniki opóźnione, np. odsetek alarmów, które dotarły do OSP na czas."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "wyznacznik",
+      "roznica": "Dobre praktyki to wymiar aktywatora. Nie wpływają na potrzeby interesariuszy."
+    }
+  ],
+  "przykladWypowiedzi": "Good practices, czyli Dobre praktyki, to wymiar aktywatora opisujący sprawdzone sposoby jego wdrożenia wraz z inputs i outputs; to, czy są stosowane, mierzy wskaźnik wiodący (lead indicator).",
+  "egzamin": "„Czy stosowane są dobre praktyki?” → mierzone **wskaźnikiem wiodącym** (s. 29).",
+  "powiazane": [
+    "wymiary-aktywatora",
+    "wskaznik-wiodacy"
+  ],
+  "sylabus": [
+    "PR-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 91,
+      "cytat": "Sprawdzone działanie lub proces, który jest z powodzeniem wykorzystywany w wielu przedsiębiorstwach"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 29
+    }
+  ],
+  "mapa": "wymiar-dobre-praktyki"
+}

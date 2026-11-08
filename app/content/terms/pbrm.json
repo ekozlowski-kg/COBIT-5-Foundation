@@ -1,0 +1,112 @@
+{
+  "id": "pbrm",
+  "en": "Plan, Build, Run and Monitor (PBRM)",
+  "wymowa": "plen bild ran end moniter",
+  "wymowaAkcent": "plen bild ran end MO-ni-ter",
+  "plEgzamin": "Planuj, Twórz, Wykonuj i Monitoruj",
+  "plPodrecznik": "Planowanie, Budowanie, Uruchamianie i Monitorowanie",
+  "plInne": [
+    {
+      "nazwa": "Planuj, Wytwarzaj, Wykonuj i Monitoruj",
+      "zrodlo": "Altkom – zestawienie różnic"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Planuj, Twórz, Wykonuj i Monitoruj",
+    "podrecznik": "Planowanie, Budowanie, Uruchamianie i Monitorowanie",
+    "kurs": "Planuj, Twórz, Wykonuj i Monitoruj (Plan, Build, Run and Monitor)",
+    "uwaga": "Build: Twórz (SP1) / Wytwarzaj (Altkom) / Budowanie (podręcznik wg Altkom); w tekście podręcznika także „planowanie, budowanie, realizacja i monitorowanie” (FW-PL s. 14, 31). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: zestawienie Altkom (kolumna „Podręczniki PL”). Inne formy w obiegu: Planuj, Wytwarzaj, Wykonuj i Monitoruj (Altkom – zestawienie różnic)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Polski arkusz egzaminacyjny (SP1) używa formy „Planuj, Twórz, Wykonuj i Monitoruj”. Zestawienie Altkom podaje „Planuj, Wytwarzaj, Wykonuj i Monitoruj”. Podręcznik: „Planowanie, Budowanie, Uruchamianie i Monitorowanie”. Wszystkie trzy to Plan, Build, Run, Monitor.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "proces"
+  ],
+  "poLudzku": "Cztery etapy pracy kierowników: zaplanować, zbudować, uruchomić na co dzień, sprawdzać.",
+  "wyobrazSobie": "Jak prowadzenie restauracji: układasz menu i zamawiasz sprzęt, urządzasz kuchnię, codziennie gotujesz dla gości, a wieczorem liczysz utarg i skargi, żeby jutro zrobić lepiej.",
+  "poCo": "Żeby całą pracę kierownictwa IT podzielić na cztery obszary odpowiedzialności, w których żadna ważna sprawa nie zostaje bez właściciela – od planu po sprawdzenie wyników.",
+  "jakDziala": "Zarządzanie realizuje kierunek wyznaczony przez Ład w czterech domenach: planuje i organizuje (Plan, APO), tworzy, nabywa i wdraża rozwiązania (Build, BAI), dostarcza je i obsługuje na co dzień (Run, DSS) oraz monitoruje i ocenia wyniki (Monitor, MEA). Wyniki monitorowania wracają do planowania i do Ładu, więc cykl się powtarza. Razem te domeny mają 32 procesy Zarządzania (13 + 10 + 6 + 3).",
+  "dlaczegoWazne": "PBRM to część Referencyjnego Modelu Procesu i podstawa zasady 5 („Oddzielenie Ładu od Zarządzania”). Na egzaminie trzeba odróżnić „Planuj, Twórz, Wykonuj i Monitoruj” (Zarządzanie) od „Oszacuj, Kieruj i Monitoruj” (Ład, EDM) i nie brać PBRM za komponent Podejścia do Ładu.",
+  "skadNazwa": "Skrót od *Plan, Build, Run and Monitor*. Egzamin: „Planuj, Twórz, Wykonuj i Monitoruj”. Podręcznik: „Planowanie, Budowanie, Uruchamianie…”. Spotyka się też „Wytwarzaj”.",
+  "poziom1": "Cztery obszary pracy kierownictwa, ułożone jak cykl: najpierw planujesz (APO), potem tworzysz albo kupujesz (BAI), potem to działa na co dzień (DSS), a na koniec sprawdzasz, czy działa dobrze (MEA). To cztery domeny Zarządzania – Ład (EDM) jest osobno.",
+  "poziom2": "| Obszar | Domena (egzamin PL) | Liczba procesów |\n|---|---|---|\n| Planuj (Plan) | **APO** – Dostosuj, Planuj i Organizuj | 13 |\n| Twórz (Build) | **BAI** – Twórz, Nabywaj i Wdrażaj | 10 |\n| Wykonuj (Run) | **DSS** – Dostarczaj, Obsługuj i Wspieraj | 6 |\n| Monitoruj (Monitor) | **MEA** – Monitoruj, Oszacuj i Oceń | 3 |",
+  "poziom3": "(s. 32): domeny Zarządzania stanowią rozwinięcie domen COBIT 4.1. Nazwy domen zawierają dodatkowe określenia: APO, BAI, DSS, MEA.",
+  "przyklady": {
+    "zycie": "Chcecie w domu porządny internet. Najpierw porównujesz oferty i ustalasz budżet, potem technik podłącza router, potem cała rodzina korzysta z sieci na co dzień, a raz na jakiś czas mierzysz prędkość i sprawdzasz rachunek. To po kolei Planuj, Twórz, Wykonuj i Monitoruj.",
+    "biuro": "Kierowniczka biura wymienia stare drukarki: liczy potrzeby i budżet (Planuj), zamawia nowe urządzenia i podłącza je do sieci (Twórz), a od poniedziałku wszyscy na nich drukują i sekretarka zamawia toner (Wykonuj). Po miesiącu kierowniczka sprawdza liczbę zacięć i koszt wydruku (Monitoruj).",
+    "firma": "Właścicielka piekarni chce przyjmować zamówienia na torty przez internet. Planuje, ile to ma kosztować i kto będzie odbierał zamówienia, informatyk stawia sklep, od poniedziałku ekspedientka codziennie obsługuje zamówienia, a na koniec miesiąca właścicielka liczy sprzedane torty i reklamacje. Cztery kroki to cztery obszary PBRM.",
+    "admin": "Szkoła przechodzi na dziennik elektroniczny. Dyrektor ustala, czego potrzeba i ile można wydać (Planuj), sekretariat kupuje system i szkoli nauczycieli (Twórz), nauczyciele codziennie wpisują oceny, a informatyk pomaga, gdy coś nie działa (Wykonuj). Na koniec semestru dyrektor sprawdza, czy rodzice naprawdę z niego korzystają (Monitoruj).",
+    "psp": "Komenda powiatowa wymienia radiotelefony w JRG. Logistyka ustala, ile sztuk potrzeba i z jakich pieniędzy (Planuj), kupuje je i programuje (Twórz), zmiany używają ich na każdej akcji, a specjalista ds. łączności wymienia akumulatory (Wykonuj). Po pół roku sprawdza się, ile było awarii i czy zasięg wystarcza (Monitoruj).",
+    "it": "Nowy system poczty elektronicznej w organizacji: APO02 (Zarządzanie strategią) i APO06 (Zarządzanie budżetem i kosztami) to Planuj, BAI03 (Zarządzanie identyfikacją i budowaniem rozwiązań) to Twórz, DSS01 (Zarządzanie eksploatacją) i DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) to Wykonuj, a MEA01 (Monitorowanie, ocena i oszacowanie wydajności i zgodności) to Monitoruj."
+  },
+  "glebokosc": {
+    "prosty": "Remont kuchni ma cztery etapy. Najpierw planujesz, co i za ile, potem ekipa buduje, potem codziennie gotujesz w nowej kuchni, a co jakiś czas sprawdzasz, czy szafki się nie rozklejają. Każdy etap ma inne zadanie i żaden nie zastępuje pozostałych.",
+    "zaawansowany": "Kpt. Sikora prowadzi system Syrena przez cztery obszary [[zarzadzanie|Zarządzania]]. W [[apo|APO]] (Planuj) ustala budżet i wymagania, w [[bai|BAI]] (Twórz) wdraża system od Kwant-Sygnału, a w [[dss|DSS]] (Wykonuj) mł. kpt. Dudek pilnuje kopii i zgłoszeń. W [[mea|MEA]] (Monitoruj) wydział sprawdza czas dostarczenia alarmów i raportuje wyniki. Bryg. Wrzos nie robi żadnego z tych kroków: jako organ Ładu w [[edm|EDM]] ocenia, wyznacza kierunek i monitoruje.",
+    "skrajny": "W PBRM jest „Monitoruj” i w EDM też jest „Monitoruj”. Intuicja podpowiada, że to ta sama czynność, więc MEA powinno należeć do Ładu. Tak nie jest: MEA to czwarta domena Zarządzania, a EDM to jedyna domena Ładu. Framework wyjaśnia, że monitorowanie w domenie Ładu to sprawdzanie przez organ nadzorujący, w jakim stopniu wytyczony kierunek wcielono w życie (s. 32). MEA zbiera i ocenia dane o działaniu i zgodności procesów w ramach pracy kierownictwa. Druga pułapka to nazwy: podręcznik pisze „Budowanie” i „Uruchamianie”, a egzamin „Twórz” i „Wykonuj”. **Rozstrzygnięcie:** PBRM = cztery domeny Zarządzania (APO, BAI, DSS, MEA – razem 32 procesy); „Monitoruj” w MEA to Zarządzanie, „Monitoruj” w EDM to Ład."
+  },
+  "zagmatwania": [
+    {
+      "mit": "PBRM to cykl Ładu, bo zawiera „Monitoruj”.",
+      "prawda": "PBRM to obszary Zarządzania. Ład ma własną trójkę: Oszacuj, Kieruj, Monitoruj (EDM). Poznasz po skrócie domeny: APO, BAI, DSS, MEA to Zarządzanie."
+    },
+    {
+      "mit": "Planuj, Twórz, Wykonuj i Monitoruj to cztery kolejne fazy jednego projektu.",
+      "prawda": "To cztery domeny procesów, które działają stale i równolegle: w tym samym tygodniu organizacja planuje jedno, buduje drugie i obsługuje trzecie. Układ „jak cykl” to tylko ułatwienie."
+    },
+    {
+      "mit": "„Planowanie, Budowanie, Uruchamianie i Monitorowanie” to coś innego niż „Planuj, Twórz, Wykonuj i Monitoruj”.",
+      "prawda": "To ten sam *Plan, Build, Run, Monitor*. Podręcznik i egzamin tłumaczą go inaczej; na egzaminie wybieraj „Planuj, Twórz, Wykonuj i Monitoruj”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Wrzucanie EDM do PBRM albo MEA do Ładu, bo w obu jest słowo „monitoruj”.",
+    "jakTlumaczyc": "Narysuj dwa piętra: na górze Ład (jedna domena EDM), na dole Zarządzanie. Dopiero potem podziel dolne piętro na cztery szuflady P-B-R-M i przypisz im APO, BAI, DSS, MEA z liczbami 13/10/6/3. Analogia: dom – zaplanuj, zbuduj, mieszkaj, rób przeglądy.",
+    "pytanieKontrolne": "Dlaczego MEA nie należy do Ładu, skoro coś monitoruje? Jak brzmią cztery obszary PBRM na egzaminie PL?",
+    "odpowiedzKontrolna": "MEA jest domeną Zarządzania: monitoruje działanie i zgodność procesów w ramach pracy kierownictwa. Ład to tylko EDM (Oszacuj, Kieruj, Monitoruj), gdzie monitorowanie oznacza sprawdzanie, czy kierunek jest realizowany. Obszary: Planuj (APO), Twórz (BAI), Wykonuj (DSS), Monitoruj (MEA)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "edm",
+      "roznica": "EDM to Ład (Oszacuj, Kieruj, Monitoruj). PBRM to Zarządzanie."
+    }
+  ],
+  "przykladWypowiedzi": "Management, czyli Zarządzanie, działa w cyklu Plan, Build, Run and Monitor (Planuj, Twórz, Wykonuj i Monitoruj): planuje w APO, tworzy w BAI, wykonuje w DSS i monitoruje w MEA, zgodnie z kierunkiem, który wyznacza Ład (EDM).",
+  "egzamin": "„Planuj, Twórz, Wykonuj i Monitoruj” to **obszary (domeny) Zarządzania**, a nie komponent Podejścia do Ładu.",
+  "powiazane": [
+    "zarzadzanie",
+    "apo",
+    "bai",
+    "dss",
+    "mea",
+    "prm"
+  ],
+  "sylabus": [
+    "PR-01-04",
+    "PR-02-14"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 32,
+      "cytat": "Zarządzanie — obejmuje cztery domeny związane z obszarami odpowiedzialności w zakresie planowania"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 32,
+      "ilustracja": "15"
+    },
+    {
+      "doc": "ALTKOM"
+    },
+    {
+      "doc": "SP1",
+      "strona": 24
+    }
+  ],
+  "mapa": "zarzadzanie"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "jakosc-kontekstowa",
+  "en": "Contextual quality",
+  "wymowa": "konteksczuel kłoliti",
+  "wymowaAkcent": "kon-TEKS-czu-el KŁO-li-ti",
+  "plEgzamin": "Jakość kontekstowa",
+  "plPodrecznik": "Jakość kontekstowa",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Jakość kontekstowa",
+    "podrecznik": "Jakość kontekstowa",
+    "kurs": "Jakość kontekstowa (Contextual quality)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 28, 29, 65."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "aktywator",
+    "wymiar-cele"
+  ],
+  "poLudzku": "Informacja przydaje się temu, kto jej teraz potrzebuje: jest na temat, aktualna, kompletna i w zrozumiałej formie.",
+  "wyobrazSobie": "Bezbłędna mapa Tatr nic ci nie da, gdy idziesz w Bieszczady albo gdy jest w języku, którego nie znasz.",
+  "poCo": "Żeby oceniać nie tylko, czy wynik jest poprawny, ale czy przydaje się temu, kto go używa, w jego sytuacji.",
+  "jakDziala": "Patrzysz na aktywator i jego rezultaty oczami użytkownika w konkretnym kontekście: czy są istotne (relevant), kompletne (complete), aktualne (current), w odpowiedniej ilości, spójnie i zwięźle przedstawione, zrozumiałe i łatwe w użyciu. Ta sama poprawna informacja może mieć wysoką jakość wewnętrzną, a niską kontekstową, gdy jest nie na temat, niekompletna, nieaktualna albo w nieczytelnej formie. Informacja, która przychodzi za późno, to inny problem: dostępność/terminowość, czyli jakość dostępu i bezpieczeństwa (s. 82). Dla procesów oznacza to dopasowanie do sytuacji organizacji.",
+  "dlaczegoWazne": "To druga z trzech kategorii celów aktywatora (wymiar Cele). Egzamin każe przypisywać cechy: „istotne, kompletne, aktualne, zrozumiałe” to jakość kontekstowa, a „dokładne, obiektywne, wiarygodne” to jakość wewnętrzna.",
+  "poziom1": "Czy aktywator (np. informacja albo proces) i to, co daje, pasuje do sytuacji, w której się go używa: jest na temat, kompletny, aktualny, zrozumiały i łatwy w użyciu (np. dokładna prognoza pogody, ale dla innego miasta albo sprzed tygodnia, jest dla Ciebie bezużyteczna: nie na temat albo nieaktualna).",
+  "poziom2": "Druga kategoria celów aktywatora. Dotyczy **dopasowania do celu w kontekście**: wyniki powinny być **istotne, kompletne, aktualne, odpowiednie, spójne, zrozumiałe i łatwe do wykorzystania**. Dla procesów cele kontekstowe oznaczają dostosowanie do szczególnej sytuacji organizacji.",
+  "poziom3": "(s. 29): *„Jakość kontekstowa — stopień, w jakim czynniki umożliwiające oraz ich rezultaty odpowiadają danemu celowi, biorąc pod uwagę kontekst, w którym funkcjonują.”*",
+  "przyklady": {
+    "zycie": "Kupujesz z drugiej ręki szafę, a poprzedni właściciel daje Ci instrukcję montażu – bardzo dokładną, tyle że po szwedzku i z 50 stronami o modelach, których nie masz. Nic w niej nie jest błędne, ale Tobie się nie przyda. Brakuje jej jakości kontekstowej, czyli dopasowania do Twojej sytuacji.",
+    "biuro": "Kierownik prosi o zestawienie sprzedaży z ostatniego miesiąca na poniedziałkowe zebranie. Księgowa przysyła w piątek bezbłędny, czterdziestostronicowy wydruk wszystkich faktur z całego roku, bez podsumowania. Dane są prawdziwe, ale nie na temat i w formie, z której nic nie da się szybko wyczytać: brakuje jakości kontekstowej.",
+    "firma": "Właściciel warsztatu samochodowego dostaje od księgowej 40-stronicowy raport z każdą fakturą z kwartału. Liczby są poprawne, ale on chciał tylko wiedzieć, czy stać go na nowy podnośnik, i tego z raportu nie wyczyta. Raport ma dobrą jakość wewnętrzną, ale słabą kontekstową.",
+    "admin": "Wójt prosi o zestawienie, ile dzieci gmina dowozi do szkół, bo jutro sesja rady o budżecie. Urzędnik przysyła na czas bezbłędny raport, ale z danymi z poprzedniego roku szkolnego i bez dwóch nowych tras. Dane są poprawne, tylko nieaktualne i niekompletne dla tego zadania – brakuje im jakości kontekstowej. Gdyby raport przyszedł dopiero po sesji, zawiodłaby dostępność/terminowość, czyli jakość dostępu i bezpieczeństwa (s. 82).",
+    "psp": "Dowódca zastępu dojeżdża w nocy do pożaru i na tablecie dostaje listę wszystkich 800 hydrantów w powiecie, bez mapy i bez sortowania od najbliższego. Dane są dokładne, ale w tej chwili nie da się z nich skorzystać. Zawodzi jakość kontekstowa: informacja nie jest dopasowana do sytuacji, w której jest potrzebna.",
+    "it": "W DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) raport dla zarządu zawiera tylko pięć głównych wskaźników i trend, a pełna lista zgłoszeń trafia do zespołu wsparcia. Te same dane podane w formie dopasowanej do odbiorcy to cel kontekstowy aktywatora Informacja."
+  },
+  "glebokosc": {
+    "prosty": "Przyjaciel dzwoni, jak do Ciebie dojechać, a Ty czytasz mu historię swojej ulicy i spis wszystkich autobusów w mieście. Każde słowo jest prawdziwe, ale on stoi na przystanku i potrzebuje jednego zdania: „wsiądź w dwunastkę, wysiądź przy szkole”. Prawda nie na temat i nie w formie, której potrzebuje słuchacz, nie pomaga.",
+    "zaawansowany": "St. ogn. Kasia Nowik dostaje od dostawcy Syreny 120-stronicową instrukcję po angielsku. Jest dokładna, więc [[jakosc-wewnetrzna|jakość wewnętrzna]] jest w porządku, ale w trakcie alarmu nie da się w niej znaleźć, jak ręcznie wysłać SMS do OSP. Brakuje istotności, jasności przekazu i właściwej ilości – czyli jakości kontekstowej. Kpt. Sikora zleca jednostronicową kartę „alarm ręczny” dla stanowiska kierowania: ta sama wiedza, dopasowana do sytuacji użycia. To druga z trzech kategorii [[cele-aktywatorow|celów aktywatora]].",
+    "skrajny": "Ten sam raport o zdarzeniach z marca trafia do dwóch osób. Komendantka Wrzos dostaje go przed spotkaniem z inspektorką Ostrowską i jest dla niej idealny: zwięzły, z trendem, aktualny. Dyżurny Grab dostaje identyczny dokument w trakcie akcji i jest dla niego bezużyteczny. Jakość wewnętrzna jest w obu przypadkach taka sama, bo dane się nie zmieniły; zmieniła się tylko sytuacja użycia, a z nią ocena jakości kontekstowej. Do tego dla informacji kategoria ta nazywa się w pełni „jakość kontekstowa i reprezentacji”, więc forma przedstawienia (zwięzłość, spójny format, jasność przekazu) też się do niej liczy, a nie tylko „na temat i aktualne”. **Rozstrzygnięcie:** jakość kontekstowa nie jest cechą samej treści, tylko jej dopasowania do konkretnego zadania i odbiorcy – ta sama treść może ją mieć dla jednej osoby i nie mieć dla drugiej."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Jeśli informacja jest dokładna, to jest dobrej jakości.",
+      "prawda": "Dokładność to jakość wewnętrzna. Jakość kontekstowa wymaga jeszcze, by informacja była istotna, kompletna, aktualna i zrozumiała dla tego zadania i tego odbiorcy."
+    },
+    {
+      "mit": "„Dostępne, kiedy potrzeba” albo „przyszło na czas” to jakość kontekstowa, bo chodzi o dopasowanie do sytuacji.",
+      "prawda": "Dostępność w razie potrzeby (dostępność/terminowość) i zabezpieczenie wyników to trzecia kategoria: Dostęp i Bezpieczeństwo (s. 29, 82). Kontekstowa jest natomiast aktualność: czy informacja jest wystarczająco aktualna do zadania (s. 82)."
+    },
+    {
+      "mit": "Jakość kontekstowa dotyczy tylko informacji.",
+      "prawda": "To kategoria celów każdego aktywatora. Dla procesu oznacza dostosowanie do sytuacji organizacji, zrozumiałość i łatwość zastosowania."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie jakości kontekstowej z wewnętrzną (dokładnością) i z dostępnością.",
+    "jakTlumaczyc": "Ten sam przedmiot w dwóch sytuacjach: parasol w ulewie i parasol w zamkniętym pokoju. Parasol się nie zmienił (jakość wewnętrzna), zmieniła się jego przydatność (jakość kontekstowa). Dopiero potem przenieś to na raport albo procedurę.",
+    "pytanieKontrolne": "Czy ta sama informacja może mieć jednocześnie wysoką i niską jakość kontekstową? Podaj przykład z komendy.",
+    "odpowiedzKontrolna": "Tak, bo jakość kontekstowa zależy od zadania i odbiorcy. Szczegółowy raport miesięczny jest dobry dla komendantki przed kontrolą, a bezużyteczny dla dyżurnego w trakcie alarmu. Jakość wewnętrzna (dokładność) jest w obu przypadkach ta sama."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "jakosc-wewnetrzna",
+      "roznica": "Wewnętrzna: czy dokładne. Kontekstowa: czy przydatne tu i teraz."
+    }
+  ],
+  "przykladWypowiedzi": "Contextual quality, czyli jakość kontekstowa, mówi, czy aktywator i jego rezultaty są istotne, kompletne, aktualne i zrozumiałe dla tego, kto ich używa w danym kontekście.",
+  "egzamin": "„Rezultaty właściwe, kompletne, aktualne, zrozumiałe” → **jakość kontekstowa**. „Dostępne kiedy potrzeba” i „zabezpieczone” → dostęp i bezpieczeństwo (s. 29).",
+  "powiazane": [
+    "wymiary-aktywatora",
+    "jakosc-wewnetrzna",
+    "dostep-i-bezpieczenstwo"
+  ],
+  "sylabus": [
+    "PR-02-12",
+    "EN-02-08",
+    "EN-02-17"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "stopień, w jakim czynniki umożliwiające oraz ich rezultaty odpowiadają danemu celowi"
+    },
+    {
+      "doc": "SP1",
+      "strona": 4
+    }
+  ],
+  "mapa": "jakosc-kontekstowa"
+}

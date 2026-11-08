@@ -1,0 +1,90 @@
+{
+  "id": "zasob",
+  "en": "Resource",
+  "wymowa": "rizors",
+  "wymowaAkcent": "ri-ZORS",
+  "plEgzamin": "Zasób",
+  "plPodrecznik": "Zasób",
+  "plInne": [],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Zasób",
+    "podrecznik": "Zasób",
+    "kurs": "Zasób (Resource)",
+    "uwaga": "Resource („zasób”) koliduje z Assets w BAI09, które też przetłumaczono jako „zasoby”. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 2, 7, 8; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "oficjalne",
+  "poziomP": "P1",
+  "wymaga": [
+    "organizacja"
+  ],
+  "poLudzku": "To, czym dysponujemy: ludzie, pieniądze, sprzęt, czas i informacje.",
+  "wyobrazSobie": "Spiżarnia przed świętami: sprawdzasz, ile masz mąki, czasu i rąk do pomocy, zanim zaplanujesz wypieki.",
+  "poCo": "Żeby wiedzieć, czym organizacja dysponuje, aby osiągnąć cele: ludźmi, pieniędzmi, sprzętem, infrastrukturą i informacją.",
+  "jakDziala": "Zasób (resource) to każdy zasób organizacji, który pomaga jej osiągnąć cele, np. ludzie, finanse, sprzęt, infrastruktura i informacja. Zasoby są ograniczone, więc przy każdej decyzji pyta się, jakie są potrzebne. Optymalizacja zasobów (resource optimisation) to jeden z trzech składników Celu Ładu, obok realizacji korzyści i optymalizacji ryzyka.",
+  "dlaczegoWazne": "Optymalizacja zasobów to część tworzenia wartości z zasady 1 i treść procesu EDM04. Egzamin wymienia zasoby wprost (ludzkie, finansowe, sprzęt, infrastruktura) i podkreśla, że informacja jest kluczowym zasobem.",
+  "poziom1": "Wszystko, z czego się korzysta, żeby osiągnąć cele: ludzie, pieniądze, sprzęt, infrastruktura, a także informacje i czas (np. pracownicy, budżet, serwer, baza klientów).",
+  "poziom2": "W COBIT 5 zasoby są wymieniane wprost przy optymalizacji zasobów: **ludzkie, finansowe, sprzęt, infrastruktura**. Informacja też jest traktowana jako kluczowy zasób przedsiębiorstwa.",
+  "poziom3": "Definicja (Załącznik H): *„Każdy zasób przedsiębiorstwa, który ułatwia organizacji osiągnięcie jej celów.”* Streszczenie (s. 13): *„Informacje stanowią kluczowy zasób dla wszystkich przedsiębiorstw”*.",
+  "przyklady": {
+    "zycie": "W sobotę masz przeprowadzkę. Masz do dyspozycji 2000 zł, samochód brata, trzech kolegów do pomocy i jeden dzień. Pieniądze, auto, ludzie i czas to Twoje zasoby – od tego, jak je rozdzielisz, zależy, czy zdążysz.",
+    "biuro": "Kierownik biura planuje tydzień: ma trzy osoby, jedną drukarkę wielofunkcyjną, 500 zł na materiały i bazę adresów klientów. To jego zasoby, a od nich zależy, ile pism biuro zdąży wysłać.",
+    "firma": "Właściciel warsztatu dostaje duże zlecenie na serwis floty aut. Sprawdza, czy ma wolnych mechaników, podnośniki, pieniądze na części i aktualną bazę klientów z historią napraw. Ludzie, sprzęt, pieniądze i informacje to zasoby warsztatu.",
+    "admin": "Dyrektor szkoły układa plan na nowy rok. Ma określoną liczbę etatów nauczycieli, budżet z gminy, pracownię komputerową z siecią i dane uczniów w dzienniku. To wszystko są zasoby szkoły.",
+    "psp": "Dowódca zmiany w JRG zaczyna 24-godzinną służbę. Sprawdza, ilu ratowników ma na zmianie, które pojazdy są sprawne po przeglądzie, czy aparaty ODO są gotowe i czy dane o hydrantach w SWD-PSP są aktualne. Ludzie, sprzęt i informacje to zasoby, z którymi zmiana wyjedzie do zdarzeń.",
+    "it": "EDM04 (Zapewnienie optymalizacji zasobów) pilnuje, by zasoby IT (ludzie, procesy, technologie) były wystarczające i optymalnie wykorzystane. Szczegółami zajmuje się Zarządzanie, np. APO07 (Zarządzanie zasobami ludzkimi) ludźmi, a APO06 (Zarządzanie budżetem i kosztami) pieniędzmi."
+  },
+  "glebokosc": {
+    "prosty": "Żeby upiec ciasto na urodziny, potrzebujesz mąki, piekarnika, pieniędzy na zakupy, dwóch godzin i przepisu. Wszystko, z czego korzystasz, żeby dojść do celu, to zasoby. Przepis też jest zasobem, choć nie da się go dotknąć.",
+    "zaawansowany": "Halina Mak liczy, czego komenda potrzebuje do modernizacji Syreny: pieniędzy z budżetu, czasu Oli Dudek i Sikory, serwera i łącza, a także aktualnych danych kontaktowych OSP. To zasoby, a decyzja o ich użyciu to [[optymalizacja-zasobow]], jeden z trzech elementów [[tworzenie-wartosci|tworzenia wartości]]. Przy każdej decyzji komendantka pyta: Kto odnosi korzyści? Kto ponosi ryzyko? Jakie zasoby są wymagane? (s. 17).",
+    "skrajny": "Uczeń mówi: „Aktywator i zasób to to samo – jedno i drugie pomaga osiągnąć cele”. Prawie: definicja zasobu (Załącznik H) i opis aktywatora rzeczywiście brzmią podobnie. Ilustracja 12 pokazuje jednak, że tylko trzy z siedmiu kategorii aktywatorów są jednocześnie zasobami przedsiębiorstwa: informacja; usługi, infrastruktura i aplikacje; ludzie, umiejętności i kompetencje (s. 27). Zasady i polityki, procesy, struktury organizacyjne oraz kultura są aktywatorami, ale Framework nie zalicza ich do zasobów. Te trzy kategorie wymagają więc podwójnej uwagi: zarządza się nimi jak zasobem i jak aktywatorem. **Rozstrzygnięcie:** trzy z siedmiu kategorii aktywatorów (informacja; usługi, infrastruktura i aplikacje; ludzie, umiejętności i kompetencje) są też zasobami, a pozostałe cztery są aktywatorami, ale nie zasobami."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Zasoby to tylko pieniądze i sprzęt.",
+      "prawda": "Także ludzie, infrastruktura i informacja; informacja to kluczowy zasób każdego przedsiębiorstwa (s. 13)."
+    },
+    {
+      "mit": "Każdy aktywator jest zasobem.",
+      "prawda": "Według il. 12 zasobami są tylko trzy kategorie: informacja; usługi, infrastruktura i aplikacje; ludzie, umiejętności i kompetencje (s. 27)."
+    },
+    {
+      "mit": "Optymalizacja zasobów to cięcie kosztów.",
+      "prawda": "To optymalne wykorzystanie zasobów w równowadze z korzyściami i ryzykiem, jako składnik tworzenia wartości."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie zasobów z aktywatorami albo z samymi pieniędzmi.",
+    "jakTlumaczyc": "Kuchnia: przepis, garnki, kucharz i produkty to zasoby, a „gotujemy zdrowo” i zwyczaj sprzątania po sobie też pomagają, ale zasobami nie są. Potem pokaż il. 12: trzy aktywatory zaznaczone jako zasoby.",
+    "pytanieKontrolne": "Które z siedmiu aktywatorów są jednocześnie zasobami? Podaj jeden aktywator, który zasobem nie jest.",
+    "odpowiedzKontrolna": "Informacja; Usługi, Infrastruktura i Aplikacje; Ludzie, Umiejętności i Kompetencje (il. 12, s. 27). Zasobem nie jest np. **Kultura, etyka i zachowanie** – to aktywator, ale il. 12 nie zalicza go do zasobów."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "aktywator",
+      "roznica": "Aktywator to szersze pojęcie – obejmuje też np. procesy, kulturę czy polityki. Zasoby (np. ludzie, infrastruktura) są ujęte w niektórych kategoriach aktywatorów."
+    }
+  ],
+  "przykladWypowiedzi": "A resource, czyli zasób, to np. ludzie, pieniądze, sprzęt, infrastruktura albo informacja, a resource optimisation, czyli optymalizacja zasobów, jest częścią tworzenia wartości.",
+  "egzamin": "Pojawia się w „optymalizacji zasobów” i w pytaniu „Jakie zasoby są wymagane?” przy każdej decyzji (s. 17).",
+  "powiazane": [
+    "optymalizacja-zasobow"
+  ],
+  "sylabus": [
+    "M0-00-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Każdy zasób przedsiębiorstwa, który ułatwia organizacji osiągnięcie jej celów."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 13,
+      "cytat": "Informacje stanowią kluczowy zasób dla wszystkich przedsiębiorstw"
+    }
+  ]
+}

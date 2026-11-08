@@ -1,0 +1,104 @@
+{
+  "id": "ocena-c",
+  "en": "P – Partially achieved (>15–50%)",
+  "wymowa": "pi parszali acziwd",
+  "wymowaAkcent": "pi PAR-sza-li a-CZIWD",
+  "plEgzamin": "C – Częściowy",
+  "plPodrecznik": "P – częściowo osiągnięto",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "C – Częściowy",
+    "podrecznik": "P – częściowo osiągnięto",
+    "kurs": "C – Częściowy (P – Partially achieved)",
+    "uwaga": "EN P (Partially) = egzamin PL C (Częściowy). Ta sama litera P oznacza w PL co innego. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 45; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Na egzaminie PL „Częściowy” ma literę **C**. Po angielsku i w podręczniku ta sama ocena ma literę **P** (Partially). A „P” na egzaminie PL to Pełny!",
+  "skadNazwa": "Angielskie *Partially achieved* daje literę P. Polski egzamin zmienił literę na C, od „Częściowy”, żeby P zostało dla „Pełny”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "skala-ocen",
+    "atrybuty-procesu"
+  ],
+  "poLudzku": "Trochę: coś się dzieje, ale nieregularnie i z dużymi brakami.",
+  "wyobrazSobie": "Dziecko ćwiczy na pianinie, ale tylko wtedy, gdy mu przypomnisz. Czasem przez tydzień, czasem wcale.",
+  "poziom1": "Druga ocena w [[skala-ocen|skali ocen]]: powyżej 15% do 50% osiągnięcia. Są pewne dowody częściowego osiągnięcia atrybutu, ale niektóre aspekty mogą być nieprzewidywalne.",
+  "poziom2": "| Egzamin PL | EN | Podręcznik PL | Próg |\n|---|---|---|---|\n| N – Nieosiągnięty | N – Not achieved | N – nie osiągnięto | 0–15% |\n| C – Częściowy | **P** – Partially | P – częściowo osiągnięto | >15–50% |\n| W – Większościowy | L – Largely | L – w znacznym stopniu osiągnięto | >50–85% |\n| **P** – Pełny | F – Fully | F – w pełni osiągnięto | >85–100% |\n\n**Brzegi przedziałów:** dokładnie 15% to jeszcze N, dokładnie 50% to jeszcze C, a dokładnie 85% to jeszcze W. Granica należy do niższej oceny – to konwencja normy ISO/IEC 15504-2 (zapis „>15%”, „>50%”, „>85%”; status: uproszczenie), a nie tekst FW-PL. Podręcznik PL (s. 45) podaje tylko „0–15%, 15–50%, 50–85%, 85–100%” i nie rozstrzyga, do której oceny należą krańce.\n\nC to **za mało**, żeby proces osiągnął poziom, którego dotyczy ten atrybut. Na tym poziomie trzeba mieć co najmniej W.",
+  "poziom3": "(s. 45): *„P (częściowo osiągnięto) — istnieją pewne dowody na zbliżanie się do zdefiniowanego atrybutu w ocenianym procesie i częściowe osiąganie go.”* Niektóre aspekty osiągnięcia atrybutu mogą być niemożliwe do przewidzenia (uzyskanie 15–50%). Egzamin PL: litera C.",
+  "poCo": "Żeby oznaczyć atrybut osiągnięty tylko częściowo. To za mało, żeby proces osiągnął poziom, którego dotyczy atrybut.",
+  "jakDziala": "Gdy osiągnięcie wynosi powyżej 15% do 50%, asesor wpisuje C – Częściowy. Są pewne dowody, ale część aspektów jest nieprzewidywalna. Dokładnie 50% to jeszcze C (konwencja ISO/IEC 15504-2, nie tekst FW-PL).",
+  "dlaczegoWazne": "Na egzaminie PL to C, a w arkuszu EN ta sama ocena to P – Partially. Łatwo ją pomylić z polskim P – Pełny.",
+  "przyklady": {
+    "zycie": "Syn sprząta pokój, ale tylko wtedy, gdy mu przypomnisz, i nie zawsze. Mniej więcej co trzeci raz jest porządek. To C: coś jest, ale bez systemu.",
+    "biuro": "Część pism w rejestrze ma datę odpowiedzi, a część nie. Liczysz około 40% kompletnych wpisów. To C.",
+    "organizacja": "W warsztacie kartę naprawy ma około 40% zleceń, a w urzędzie komplet podpisów ma około 45% decyzji. Obie oceny to C.",
+    "psp": "**Raz tak, raz nie**\nAudytorka Ewa Lis sprawdza, czy alarm z Syreny jest potwierdzany przez OSP. Potwierdzenie jest w mniej więcej co trzecim zdarzeniu. PA 1.1 dostaje C, więc proces powiadamiania ma poziom 0. To ocena [[ocena-c|C – Częściowy]].",
+    "it": "Incydenty w DSS02 rejestruje tylko jedna zmiana serwisu. Asesor znajduje dowody w około 30% przypadków i daje C na PA 1.1."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "ocena-p",
+      "roznica": "Na egzaminie PL P to Pełny (>85–100%). Częściowy to C. W EN to odwrotnie: P = Partially."
+    },
+    {
+      "termin": "ocena-w",
+      "roznica": "C to >15–50% i nie wystarcza do osiągnięcia poziomu. W to >50–85% i już wystarcza dla atrybutów tego poziomu."
+    }
+  ],
+  "przykladWypowiedzi": "P – Partially achieved to na polskim egzaminie C – Częściowy, czyli powyżej 15% do 50%.",
+  "egzamin": "C = **Częściowy**, **>15–50%** (zapis „>” – konwencja ISO/IEC 15504-2; FW-PL s. 45: „15–50%”). W angielskim arkuszu ta sama ocena to **P – Partially**. Ocena C na atrybucie danego poziomu = poziom **nieosiągnięty**.",
+  "powiazane": [
+    "skala-ocen",
+    "ocena-n",
+    "ocena-w",
+    "ocena-p",
+    "atrybuty-procesu",
+    "poziomy-zdolnosci"
+  ],
+  "sylabus": [
+    "PC-01-03",
+    "PC-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "P (częściowo osiągnięto) — istnieją pewne dowody na zbliżanie się do zdefiniowanego atrybutu w ocenianym procesie i częściowe osiąganie go."
+    },
+    {
+      "doc": "SYL"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "ocena-c",
+  "glebokosc": {
+    "prosty": "Uczysz się jeździć na rowerze. Czasem przejedziesz kawałek, czasem się przewrócisz. Nie da się jeszcze powiedzieć, że umiesz. To ocena C: częściowo.",
+    "zaawansowany": "Lis daje PA 1.1 ocenę C: alarm czasem dochodzi z potwierdzeniem, czasem bez. To >15–50%, więc proces nie ma poziomu 1. Do poziomu 1 PA 1.1 musiałby mieć co najmniej [[ocena-w|W]]. Na angielskim arkuszu ta sama ocena miałaby literę P, co łatwo pomylić z polskim [[ocena-p|Pełnym]].",
+    "skrajny": "Lis liczy dowody: wychodzi równo 50%. Sikora cieszy się: „Połowa, czyli już Większościowy!”. Ale W zaczyna się powyżej 50%, więc dokładnie 50% to C. Druga pułapka: angielski raport konsultanta pisze „PA 1.1 = P”. Czytelnik po polskim egzaminie myśli „Pełny”, a konsultant miał na myśli Partially, czyli C. **Rozstrzygnięcie:** dokładnie 50% = C (konwencja ISO/IEC 15504-2, nie tekst FW-PL); litera P w angielskim materiale to Częściowy, nie Pełny."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Połowa (50%) to już Większościowy.",
+      "prawda": "W zaczyna się powyżej 50%. Dokładnie 50% to C (konwencja ISO/IEC 15504-2, nie tekst FW-PL)."
+    },
+    {
+      "mit": "P w angielskim raporcie oznacza Pełny.",
+      "prawda": "W EN P = Partially, czyli polskie C. Pełny po angielsku to F."
+    },
+    {
+      "mit": "Ocena C wystarcza, żeby poziom był „częściowo osiągnięty”.",
+      "prawda": "Poziom albo jest osiągnięty, albo nie. Przy C na atrybucie tego poziomu poziom nie jest osiągnięty."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń czyta „P” z angielskiej skali jako „Pełny” i odwrotnie.",
+    "jakTlumaczyc": "Ucz całych słów, nie liter: „C jak Częściowy, P jak Pełny”. Przy każdej literze dopowiadaj na głos całe słowo.",
+    "pytanieKontrolne": "Angielski raport mówi „PA 2.1 = P”. Jaka to ocena na polskim egzaminie i jaki ma przedział?",
+    "odpowiedzKontrolna": "**C – Częściowy**, **>15–50%**. Angielskie P to Partially."
+  }
+}

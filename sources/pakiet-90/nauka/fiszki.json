@@ -1,0 +1,615 @@
+[
+  {
+    "id": "F001",
+    "front": "EDM01 — jaki proces i przykład?",
+    "back": "Ensure Governance Framework Setting and Maintenance — Ustanowienie i utrzymywanie ram nadzoru. Struktury decyzyjne, odpowiedzialności i zasady funkcjonowania nadzoru. Przykład: Ustanowienie komitetu nadzorczego i granic delegowania decyzji.",
+    "tags": [
+      "EDM",
+      "EDM01"
+    ]
+  },
+  {
+    "id": "F002",
+    "front": "EDM02 — jaki proces i przykład?",
+    "back": "Ensure Benefits Delivery — Zapewnienie realizacji korzyści. Nadzór nad wartością wynikającą z inwestycji, usług i aktywów związanych z IT. Przykład: Ocena, czy inwestycje rzeczywiście przynoszą zakładane korzyści.",
+    "tags": [
+      "EDM",
+      "EDM02"
+    ]
+  },
+  {
+    "id": "F003",
+    "front": "EDM03 — jaki proces i przykład?",
+    "back": "Ensure Risk Optimisation — Zapewnienie optymalizacji ryzyka. Nadzorcza ocena ryzyka, wyznaczanie kierunku i monitorowanie zgodności z apetytem na ryzyko. Przykład: Określenie oczekiwań co do akceptowanego ryzyka IT.",
+    "tags": [
+      "EDM",
+      "EDM03"
+    ]
+  },
+  {
+    "id": "F004",
+    "front": "EDM04 — jaki proces i przykład?",
+    "back": "Ensure Resource Optimisation — Zapewnienie optymalizacji zasobów. Nadzór nad wystarczalnością i właściwym wykorzystaniem ludzi, informacji i technologii. Przykład: Wyznaczenie kierunku poprawy wykorzystania zasobów w całej organizacji.",
+    "tags": [
+      "EDM",
+      "EDM04"
+    ]
+  },
+  {
+    "id": "F005",
+    "front": "EDM05 — jaki proces i przykład?",
+    "back": "Ensure Stakeholder Transparency — Zapewnienie przejrzystości wobec interesariuszy. Nadzór nad wiarygodnością, kompletnością i terminowością komunikacji z interesariuszami. Przykład: Ustalenie zasad przekazywania informacji o wynikach i ryzyku.",
+    "tags": [
+      "EDM",
+      "EDM05"
+    ]
+  },
+  {
+    "id": "F006",
+    "front": "APO01 — jaki proces i przykład?",
+    "back": "Manage the IT Management Framework — Zarządzanie ramami zarządzania IT. Organizacja systemu zarządzania IT, procesów, zasad, ról i odpowiedzialności. Przykład: Wyznaczenie właścicieli procesów zarządczych i reguł koordynacji.",
+    "tags": [
+      "APO",
+      "APO01"
+    ]
+  },
+  {
+    "id": "F007",
+    "front": "APO02 — jaki proces i przykład?",
+    "back": "Manage Strategy — Zarządzanie strategią. Przełożenie kierunku organizacji na strategię IT oraz plan dojścia do stanu docelowego. Przykład: Przygotowanie strategii rozwoju usług cyfrowych.",
+    "tags": [
+      "APO",
+      "APO02"
+    ]
+  },
+  {
+    "id": "F008",
+    "front": "APO03 — jaki proces i przykład?",
+    "back": "Manage Enterprise Architecture — Zarządzanie architekturą przedsiębiorstwa. Spójny opis i rozwój architektury biznesu, informacji, aplikacji i technologii. Przykład: Uzgodnienie docelowej architektury i zasad integracji systemów.",
+    "tags": [
+      "APO",
+      "APO03"
+    ]
+  },
+  {
+    "id": "F009",
+    "front": "APO04 — jaki proces i przykład?",
+    "back": "Manage Innovation — Zarządzanie innowacjami. Rozpoznawanie, ocenianie i wykorzystywanie możliwości innowacji. Przykład: Ocena pilotażu nowej technologii pod kątem potrzeb organizacji.",
+    "tags": [
+      "APO",
+      "APO04"
+    ]
+  },
+  {
+    "id": "F010",
+    "front": "APO05 — jaki proces i przykład?",
+    "back": "Manage Portfolio — Zarządzanie portfelem. Dobór, równoważenie i monitorowanie portfela inwestycji, programów i usług. Przykład: Ustalenie priorytetów inwestycji przy ograniczonym budżecie.",
+    "tags": [
+      "APO",
+      "APO05"
+    ]
+  },
+  {
+    "id": "F011",
+    "front": "APO06 — jaki proces i przykład?",
+    "back": "Manage Budget and Costs — Zarządzanie budżetem i kosztami. Planowanie, alokacja i kontrola kosztów i budżetów IT. Przykład: Przygotowanie budżetu IT i wyjaśnienie odchyleń kosztowych.",
+    "tags": [
+      "APO",
+      "APO06"
+    ]
+  },
+  {
+    "id": "F012",
+    "front": "APO07 — jaki proces i przykład?",
+    "back": "Manage Human Resources — Zarządzanie zasobami ludzkimi. Zapewnienie personelu, kompetencji, rozwoju i ciągłości obsady kluczowych ról. Przykład: Plan szkoleń, sukcesji i rekrutacji specjalistów.",
+    "tags": [
+      "APO",
+      "APO07"
+    ]
+  },
+  {
+    "id": "F013",
+    "front": "APO08 — jaki proces i przykład?",
+    "back": "Manage Relationships — Zarządzanie relacjami. Budowanie relacji między IT i biznesem oraz wspólnego rozumienia potrzeb. Przykład: Regularne uzgadnianie potrzeb i oczekiwań z jednostkami biznesowymi.",
+    "tags": [
+      "APO",
+      "APO08"
+    ]
+  },
+  {
+    "id": "F014",
+    "front": "APO09 — jaki proces i przykład?",
+    "back": "Manage Service Agreements — Zarządzanie uzgodnieniami usługowymi. Określanie, uzgadnianie i przegląd zakresu oraz poziomów usług. Przykład: Uzgodnienie poziomu dostępności usługi z jej odbiorcą.",
+    "tags": [
+      "APO",
+      "APO09"
+    ]
+  },
+  {
+    "id": "F015",
+    "front": "APO10 — jaki proces i przykład?",
+    "back": "Manage Suppliers — Zarządzanie dostawcami. Dobór, nadzór zarządczy i ocena dostawców oraz ich umów i ryzyka. Przykład: Ocena jakości świadczeń dostawcy i przegląd umowy.",
+    "tags": [
+      "APO",
+      "APO10"
+    ]
+  },
+  {
+    "id": "F016",
+    "front": "APO11 — jaki proces i przykład?",
+    "back": "Manage Quality — Zarządzanie jakością. Ustanowienie, utrzymanie i doskonalenie systemu zarządzania jakością. Przykład: Określenie standardów jakości i działań doskonalących.",
+    "tags": [
+      "APO",
+      "APO11"
+    ]
+  },
+  {
+    "id": "F017",
+    "front": "APO12 — jaki proces i przykład?",
+    "back": "Manage Risk — Zarządzanie ryzykiem. Gromadzenie danych o ryzyku, analiza, utrzymywanie profilu ryzyka i zarządzanie reakcjami. Przykład: Analiza scenariuszy ryzyka oraz plan ograniczenia ryzyka.",
+    "tags": [
+      "APO",
+      "APO12"
+    ]
+  },
+  {
+    "id": "F018",
+    "front": "APO13 — jaki proces i przykład?",
+    "back": "Manage Security — Zarządzanie bezpieczeństwem. Ustanowienie, utrzymanie i doskonalenie zarządzania bezpieczeństwem informacji. Przykład: Przygotowanie i przegląd planu postępowania z ryzykiem bezpieczeństwa.",
+    "tags": [
+      "APO",
+      "APO13"
+    ]
+  },
+  {
+    "id": "F019",
+    "front": "BAI01 — jaki proces i przykład?",
+    "back": "Manage Programmes and Projects — Zarządzanie programami i projektami. Organizacja i prowadzenie programów i projektów w celu realizacji uzgodnionych rezultatów. Przykład: Koordynacja projektu wdrożenia nowego systemu.",
+    "tags": [
+      "BAI",
+      "BAI01"
+    ]
+  },
+  {
+    "id": "F020",
+    "front": "BAI02 — jaki proces i przykład?",
+    "back": "Manage Requirements Definition — Zarządzanie definiowaniem wymagań. Identyfikowanie i uzgadnianie wymagań oraz ocena wariantów rozwiązania. Przykład: Uzgodnienie wymagań użytkowników przed wyborem rozwiązania.",
+    "tags": [
+      "BAI",
+      "BAI02"
+    ]
+  },
+  {
+    "id": "F021",
+    "front": "BAI03 — jaki proces i przykład?",
+    "back": "Manage Solutions Identification and Build — Zarządzanie identyfikacją i budową rozwiązań. Identyfikacja, opracowanie, pozyskanie i integracja rozwiązań spełniających wymagania. Przykład: Budowa aplikacji i integracja jej z istniejącymi systemami.",
+    "tags": [
+      "BAI",
+      "BAI03"
+    ]
+  },
+  {
+    "id": "F022",
+    "front": "BAI04 — jaki proces i przykład?",
+    "back": "Manage Availability and Capacity — Zarządzanie dostępnością i pojemnością. Ocena potrzeb i planowanie dostępności oraz zdolności usług do obsługi obciążeń. Przykład: Prognozowanie zapotrzebowania na moc obliczeniową.",
+    "tags": [
+      "BAI",
+      "BAI04"
+    ]
+  },
+  {
+    "id": "F023",
+    "front": "BAI05 — jaki proces i przykład?",
+    "back": "Manage Organisational Change Enablement — Zarządzanie umożliwianiem zmiany organizacyjnej. Przygotowanie ludzi i organizacji do przyjęcia nowych sposobów działania. Przykład: Komunikacja i wsparcie użytkowników przy zmianie sposobu pracy.",
+    "tags": [
+      "BAI",
+      "BAI05"
+    ]
+  },
+  {
+    "id": "F024",
+    "front": "BAI06 — jaki proces i przykład?",
+    "back": "Manage Changes — Zarządzanie zmianami. Ocena, autoryzacja, priorytetyzacja, śledzenie i kontrolowanie zmian, także awaryjnych. Przykład: Ocena wpływu i zatwierdzenie planowanej zmiany systemu.",
+    "tags": [
+      "BAI",
+      "BAI06"
+    ]
+  },
+  {
+    "id": "F025",
+    "front": "BAI07 — jaki proces i przykład?",
+    "back": "Manage Change Acceptance and Transitioning — Zarządzanie akceptacją zmian i przekazaniem do eksploatacji. Przygotowanie wdrożenia, testy akceptacyjne, migracja i kontrolowane przejście do użytkowania. Przykład: Testy z użytkownikami i przekazanie aplikacji do produkcji.",
+    "tags": [
+      "BAI",
+      "BAI07"
+    ]
+  },
+  {
+    "id": "F026",
+    "front": "BAI08 — jaki proces i przykład?",
+    "back": "Manage Knowledge — Zarządzanie wiedzą. Zapewnienie użytecznej i dostępnej wiedzy potrzebnej do wykonywania zadań. Przykład: Aktualizacja bazy wiedzy zespołu wsparcia.",
+    "tags": [
+      "BAI",
+      "BAI08"
+    ]
+  },
+  {
+    "id": "F027",
+    "front": "BAI09 — jaki proces i przykład?",
+    "back": "Manage Assets — Zarządzanie aktywami. Zarządzanie aktywami IT w ich cyklu życia, wartością, kosztami i wykorzystaniem. Przykład: Ewidencja, utrzymanie i wycofywanie sprzętu oraz zarządzanie licencjami.",
+    "tags": [
+      "BAI",
+      "BAI09"
+    ]
+  },
+  {
+    "id": "F028",
+    "front": "BAI10 — jaki proces i przykład?",
+    "back": "Manage Configuration — Zarządzanie konfiguracją. Wiarygodne informacje o elementach konfiguracji, ich atrybutach i relacjach. Przykład: Aktualizacja zależności między serwerem, aplikacją i usługą.",
+    "tags": [
+      "BAI",
+      "BAI10"
+    ]
+  },
+  {
+    "id": "F029",
+    "front": "DSS01 — jaki proces i przykład?",
+    "back": "Manage Operations — Zarządzanie operacjami. Wykonywanie i koordynacja codziennych czynności operacyjnych IT. Przykład: Realizacja zadań wsadowych i bieżące monitorowanie infrastruktury.",
+    "tags": [
+      "DSS",
+      "DSS01"
+    ]
+  },
+  {
+    "id": "F030",
+    "front": "DSS02 — jaki proces i przykład?",
+    "back": "Manage Service Requests and Incidents — Zarządzanie zgłoszeniami usługowymi i incydentami. Obsługa żądań i incydentów oraz szybkie przywracanie usług. Przykład: Rejestracja zgłoszenia i przywrócenie dostępu do aplikacji.",
+    "tags": [
+      "DSS",
+      "DSS02"
+    ]
+  },
+  {
+    "id": "F031",
+    "front": "DSS03 — jaki proces i przykład?",
+    "back": "Manage Problems — Zarządzanie problemami. Identyfikacja przyczyn problemów, znanych błędów i ograniczanie ponownych incydentów. Przykład: Analiza przyczyny powracających awarii i trwałe jej usunięcie.",
+    "tags": [
+      "DSS",
+      "DSS03"
+    ]
+  },
+  {
+    "id": "F032",
+    "front": "DSS04 — jaki proces i przykład?",
+    "back": "Manage Continuity — Zarządzanie ciągłością. Przygotowanie, utrzymanie i ćwiczenie zdolności kontynuowania lub odtwarzania działania. Przykład: Ćwiczenie planu odtworzenia usług po poważnej awarii.",
+    "tags": [
+      "DSS",
+      "DSS04"
+    ]
+  },
+  {
+    "id": "F033",
+    "front": "DSS05 — jaki proces i przykład?",
+    "back": "Manage Security Services — Zarządzanie usługami bezpieczeństwa. Operacyjne zabezpieczanie systemów, sieci, dostępu i informacji. Przykład: Bieżąca ochrona stacji roboczych i zarządzanie dostępem użytkowników.",
+    "tags": [
+      "DSS",
+      "DSS05"
+    ]
+  },
+  {
+    "id": "F034",
+    "front": "DSS06 — jaki proces i przykład?",
+    "back": "Manage Business Process Controls — Zarządzanie kontrolami procesów biznesowych. Mechanizmy kontrolne przetwarzania informacji w procesach biznesowych. Przykład: Kontrola kompletności i poprawności danych wejściowych transakcji.",
+    "tags": [
+      "DSS",
+      "DSS06"
+    ]
+  },
+  {
+    "id": "F035",
+    "front": "MEA01 — jaki proces i przykład?",
+    "back": "Monitor, Evaluate and Assess Performance and Conformance — Monitorowanie i ocena wyników oraz zgodności. Pomiar i ocena osiąganych wyników względem ustalonych celów i wymagań. Przykład: Raportowanie odchyleń wskaźników i monitorowanie działań naprawczych.",
+    "tags": [
+      "MEA",
+      "MEA01"
+    ]
+  },
+  {
+    "id": "F036",
+    "front": "MEA02 — jaki proces i przykład?",
+    "back": "Monitor, Evaluate and Assess the System of Internal Control — Monitorowanie i ocena systemu kontroli wewnętrznej. Ocena adekwatności i skuteczności kontroli wewnętrznej oraz rozpoznawanie słabości. Przykład: Sprawdzenie, czy zaprojektowane kontrole rzeczywiście działają.",
+    "tags": [
+      "MEA",
+      "MEA02"
+    ]
+  },
+  {
+    "id": "F037",
+    "front": "MEA03 — jaki proces i przykład?",
+    "back": "Monitor, Evaluate and Assess Compliance With External Requirements — Monitorowanie i ocena zgodności z wymaganiami zewnętrznymi. Identyfikacja wymagań zewnętrznych oraz monitorowanie i ocena ich spełniania. Przykład: Ocena zgodności z wymaganiami prawnymi, regulacyjnymi i umownymi.",
+    "tags": [
+      "MEA",
+      "MEA03"
+    ]
+  },
+  {
+    "id": "F038",
+    "front": "Meeting Stakeholder Needs — co oznacza?",
+    "back": "Zasada zaspokajania potrzeb interesariuszy wiąże cele IT z wartością oczekiwaną przez organizację i zainteresowane strony.",
+    "tags": [
+      "P1"
+    ]
+  },
+  {
+    "id": "F039",
+    "front": "Covering the Enterprise End-to-End — co oznacza?",
+    "back": "Zasada objęcia całego przedsiębiorstwa odnosi się do zakresu nadzoru nad informacją i technologią, także poza działem IT.",
+    "tags": [
+      "P2"
+    ]
+  },
+  {
+    "id": "F040",
+    "front": "Applying a Single Integrated Framework — co oznacza?",
+    "back": "Zasada jednolitych, zintegrowanych ram pozwala spójnie wykorzystywać COBIT wraz z innymi standardami i dobrymi praktykami.",
+    "tags": [
+      "P3"
+    ]
+  },
+  {
+    "id": "F041",
+    "front": "Enabling a Holistic Approach — co oznacza?",
+    "back": "Podejście całościowe wymaga współdziałania wszystkich istotnych czynników umożliwiających, a nie tylko procesów lub technologii.",
+    "tags": [
+      "P4"
+    ]
+  },
+  {
+    "id": "F042",
+    "front": "Separating Governance From Management — co oznacza?",
+    "back": "Nadzór ocenia potrzeby, wyznacza kierunek i monitoruje wyniki; zarządzanie planuje i wykonuje działania zgodnie z tym kierunkiem.",
+    "tags": [
+      "P5"
+    ]
+  },
+  {
+    "id": "F043",
+    "front": "Principles, Policies and Frameworks — co oznacza?",
+    "back": "Zasady, polityki i ramy przekładają oczekiwane zachowania na praktyczne wskazówki działania.",
+    "tags": [
+      "E1"
+    ]
+  },
+  {
+    "id": "F044",
+    "front": "Processes — co oznacza?",
+    "back": "Procesy to uporządkowane praktyki i działania wykorzystujące wejścia do uzyskiwania wyjść i realizacji celów.",
+    "tags": [
+      "E2"
+    ]
+  },
+  {
+    "id": "F045",
+    "front": "Organisational Structures — co oznacza?",
+    "back": "Struktury organizacyjne są kluczowymi jednostkami decyzyjnymi i wiążą się z przypisaniem uprawnień oraz odpowiedzialności.",
+    "tags": [
+      "E3"
+    ]
+  },
+  {
+    "id": "F046",
+    "front": "Culture, Ethics and Behaviour — co oznacza?",
+    "back": "Kultura, etyka i zachowania wpływają na rzeczywiste postępowanie ludzi, także na przestrzeganie formalnych zasad.",
+    "tags": [
+      "E4"
+    ]
+  },
+  {
+    "id": "F047",
+    "front": "Information — co oznacza?",
+    "back": "Informacja obejmuje informacje wytwarzane i wykorzystywane w całej organizacji oraz ich jakość i przydatność.",
+    "tags": [
+      "E5"
+    ]
+  },
+  {
+    "id": "F048",
+    "front": "Services, Infrastructure and Applications — co oznacza?",
+    "back": "Usługi, infrastruktura i aplikacje dostarczają techniczne oraz usługowe możliwości potrzebne do działania organizacji.",
+    "tags": [
+      "E6"
+    ]
+  },
+  {
+    "id": "F049",
+    "front": "People, Skills and Competencies — co oznacza?",
+    "back": "Ludzie, umiejętności i kompetencje umożliwiają prawidłowe wykonywanie zadań i podejmowanie decyzji.",
+    "tags": [
+      "E7"
+    ]
+  },
+  {
+    "id": "F050",
+    "front": "Stakeholders — co oznacza?",
+    "back": "Interesariusze to strony wewnętrzne i zewnętrzne zainteresowane czynnikiem umożliwiającym; analizuje się ich role i potrzeby.",
+    "tags": [
+      "W1"
+    ]
+  },
+  {
+    "id": "F051",
+    "front": "Goals — co oznacza?",
+    "back": "Cele opisują oczekiwane rezultaty czynnika umożliwiającego; pomiar pomaga ocenić stopień ich osiągnięcia.",
+    "tags": [
+      "W2"
+    ]
+  },
+  {
+    "id": "F052",
+    "front": "Life Cycle — co oznacza?",
+    "back": "Cykl życia dotyczy etapów istnienia czynnika: planowania, projektowania, budowania, użytkowania, oceny i aktualizacji lub wycofania.",
+    "tags": [
+      "W3"
+    ]
+  },
+  {
+    "id": "F053",
+    "front": "Good Practices — co oznacza?",
+    "back": "Dobre praktyki opisują sprawdzone sposoby działania wspierające realizację celów czynnika umożliwiającego.",
+    "tags": [
+      "W4"
+    ]
+  },
+  {
+    "id": "F054",
+    "front": "Intrinsic Quality – jakość wewnętrzna — co oznacza?",
+    "back": "Jakość wewnętrzna informacji obejmuje m.in. dokładność, obiektywność, wiarygodność i reputację źródła. Nie należy mylić jej z dopasowaniem do zadania.",
+    "tags": [
+      "Q1"
+    ]
+  },
+  {
+    "id": "F055",
+    "front": "Contextual Quality – jakość kontekstowa — co oznacza?",
+    "back": "Jakość kontekstowa i reprezentacyjna informacji dotyczy dopasowania do zastosowania, m.in. przydatności, kompletności, aktualności oraz zrozumiałości.",
+    "tags": [
+      "Q2"
+    ]
+  },
+  {
+    "id": "F056",
+    "front": "Accessibility and Security – dostępność i bezpieczeństwo — co oznacza?",
+    "back": "Ta kategoria dotyczy zapewnienia dostępu uprawnionym odbiorcom oraz ochrony przed nieuprawnionym dostępem.",
+    "tags": [
+      "Q3"
+    ]
+  },
+  {
+    "id": "F057",
+    "front": "Nadzór (Governance) — co oznacza?",
+    "back": "Nadzór obejmuje ocenę potrzeb i opcji, wyznaczanie kierunku oraz monitorowanie wyników i zgodności z kierunkiem.",
+    "tags": [
+      "GOV"
+    ]
+  },
+  {
+    "id": "F058",
+    "front": "Management – zarządzanie — co oznacza?",
+    "back": "Zarządzanie planuje, buduje, eksploatuje i monitoruje działania zgodnie z kierunkiem określonym przez nadzór.",
+    "tags": [
+      "MAN"
+    ]
+  },
+  {
+    "id": "F059",
+    "front": "Evaluate — co oznacza?",
+    "back": "Evaluate oznacza ocenianie potrzeb, warunków, możliwości i wariantów na poziomie nadzoru.",
+    "tags": [
+      "EV"
+    ]
+  },
+  {
+    "id": "F060",
+    "front": "Direct — co oznacza?",
+    "back": "Direct oznacza wyznaczanie kierunku poprzez priorytety i decyzje, a nie samo analizowanie wariantów.",
+    "tags": [
+      "DI"
+    ]
+  },
+  {
+    "id": "F061",
+    "front": "Monitor — co oznacza?",
+    "back": "Monitor w governance oznacza nadzorczy przegląd wyników i zgodności z ustalonym kierunkiem.",
+    "tags": [
+      "MO"
+    ]
+  },
+  {
+    "id": "F062",
+    "front": "Build — co oznacza?",
+    "back": "Budowanie lub wdrażanie rozwiązania jest działaniem zarządczym; nie jest elementem EDM.",
+    "tags": [
+      "BUILD"
+    ]
+  },
+  {
+    "id": "F063",
+    "front": "Plan — co oznacza?",
+    "back": "Planowanie działań wdrożeniowych należy do zarządzania, nie zastępuje nadzorczej oceny wyników.",
+    "tags": [
+      "PLAN"
+    ]
+  },
+  {
+    "id": "F064",
+    "front": "Run — co oznacza?",
+    "back": "Eksploatacja oznacza bieżące prowadzenie usług, nie wyznaczanie nadrzędnego kierunku.",
+    "tags": [
+      "RUN"
+    ]
+  },
+  {
+    "id": "F065",
+    "front": "Realizacja korzyści — co oznacza?",
+    "back": "Realizacja korzyści koncentruje się na osiąganiu oczekiwanych rezultatów i wartości dla interesariuszy.",
+    "tags": [
+      "V1"
+    ]
+  },
+  {
+    "id": "F066",
+    "front": "Optymalizacja ryzyka — co oznacza?",
+    "back": "Optymalizacja ryzyka oznacza świadome równoważenie ryzyka i korzyści w granicach akceptowanych przez organizację, nie eliminację wszelkiego ryzyka.",
+    "tags": [
+      "V2"
+    ]
+  },
+  {
+    "id": "F067",
+    "front": "Optymalizacja zasobów — co oznacza?",
+    "back": "Optymalizacja zasobów polega na odpowiednim i efektywnym wykorzystaniu ludzi, informacji, technologii i środków.",
+    "tags": [
+      "V3"
+    ]
+  },
+  {
+    "id": "F068",
+    "front": "EDM – Evaluate, Direct and Monitor — co oznacza?",
+    "back": "Domena EDM obejmuje nadzór: ocena, wyznaczanie kierunku i monitorowanie. Jest domeną governance.",
+    "tags": [
+      "EDM"
+    ]
+  },
+  {
+    "id": "F069",
+    "front": "APO – Align, Plan and Organise — co oznacza?",
+    "back": "Domena APO obejmuje dopasowanie, planowanie i organizowanie. Należy do management.",
+    "tags": [
+      "APO"
+    ]
+  },
+  {
+    "id": "F070",
+    "front": "BAI – Build, Acquire and Implement — co oznacza?",
+    "back": "Domena BAI obejmuje budowanie, pozyskiwanie i wdrażanie. Należy do management.",
+    "tags": [
+      "BAI"
+    ]
+  },
+  {
+    "id": "F071",
+    "front": "DSS – Deliver, Service and Support — co oznacza?",
+    "back": "Domena DSS obejmuje dostarczanie usług i wsparcie. Należy do management.",
+    "tags": [
+      "DSS"
+    ]
+  },
+  {
+    "id": "F072",
+    "front": "MEA – Monitor, Evaluate and Assess — co oznacza?",
+    "back": "Domena MEA obejmuje monitorowanie i ocena wyników, kontroli oraz zgodności. Należy do management.",
+    "tags": [
+      "MEA"
+    ]
+  }
+]

@@ -1,0 +1,628 @@
+{
+  "pytania": [
+    {
+      "id": "q-spr-it0-w1",
+      "typ": "rozpoznanie",
+      "sprawdzian": "IT0",
+      "czesc": "wiedza",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Czym jest system operacyjny?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Głównym programem, który uruchamia urządzenie i pozwala działać innym programom",
+          "poprawna": true,
+          "wyjasnienie": "Np. Windows, Android, iOS."
+        },
+        {
+          "tekst": "Programem do konkretnego zadania człowieka, np. do pisania",
+          "poprawna": false,
+          "wyjasnienie": "To aplikacja, a nie system operacyjny."
+        },
+        {
+          "tekst": "Wszystkim, co w komputerze można dotknąć",
+          "poprawna": false,
+          "wyjasnienie": "To sprzęt (hardware)."
+        },
+        {
+          "tekst": "Siecią, która łączy komputery w biurze",
+          "poprawna": false,
+          "wyjasnienie": "To sieć lokalna."
+        }
+      ]
+    },
+    {
+      "id": "q-spr-it0-w2",
+      "typ": "rozpoznanie",
+      "sprawdzian": "IT0",
+      "czesc": "wiedza",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Co oznacza skrót IT?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Information Technology – technologia informacyjna, czyli informatyka",
+          "poprawna": true,
+          "wyjasnienie": "Stąd „usługa IT”, „infrastruktura IT”, „ryzyko związane z IT”."
+        },
+        {
+          "tekst": "Internet Telefoniczny",
+          "poprawna": false,
+          "wyjasnienie": "Takiego rozwinięcia nie ma."
+        },
+        {
+          "tekst": "Infrastruktura Techniczna",
+          "poprawna": false,
+          "wyjasnienie": "Infrastruktura techniczna to część IT, a nie rozwinięcie skrótu."
+        }
+      ]
+    },
+    {
+      "id": "q-spr-it0-w3",
+      "typ": "rozpoznanie",
+      "sprawdzian": "IT0",
+      "czesc": "wiedza",
+      "sylabus": [
+        "M0-00-05"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Według słownika COBIT 5 portfel inwestycyjny to:",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 92
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zbiór rozważanych i/lub realizowanych inwestycji",
+          "poprawna": true,
+          "wyjasnienie": "Dokładnie tak brzmi definicja w FW-PL (s. 92)."
+        },
+        {
+          "tekst": "Jeden projekt z budżetem",
+          "poprawna": false,
+          "wyjasnienie": "Projekt to tylko jedna pozycja portfela."
+        },
+        {
+          "tekst": "Lista aplikacji używanych w organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Aplikacje mogą być częścią inwestycji, ale portfel to wszystkie inwestycje."
+        }
+      ]
+    },
+    {
+      "id": "q-spr-it0-t1",
+      "typ": "nazwa-en",
+      "sprawdzian": "IT0",
+      "czesc": "terminologia",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Podaj angielską nazwę: **uwierzytelnianie** (sprawdzenie, kim jesteś).",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "poprawne": [
+        "authentication"
+      ],
+      "termin": "it-uwierzytelnianie",
+      "wyjasnienie": "Authentication („otentikejszyn”). Nie myl z authorization („otorajzejszyn”) – autoryzacją, czyli tym, co Ci wolno."
+    },
+    {
+      "id": "q-spr-it0-t2",
+      "typ": "nazwa-en",
+      "sprawdzian": "IT0",
+      "czesc": "terminologia",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Podaj angielską nazwę: **kopia zapasowa**.",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "poprawne": [
+        "backup",
+        "back-up",
+        "back up"
+      ],
+      "termin": "it-kopia-zapasowa",
+      "wyjasnienie": "Backup („bekap”) – regularna kopia danych trzymana w innym miejscu niż oryginał."
+    },
+    {
+      "id": "q-spr-it0-t3",
+      "typ": "dopasowanie",
+      "sprawdzian": "IT0",
+      "czesc": "terminologia",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Połącz termin angielski z polskim.",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "pary": [
+        {
+          "lewa": "incident",
+          "prawa": "incydent"
+        },
+        {
+          "lewa": "problem",
+          "prawa": "problem – przyczyna incydentów"
+        },
+        {
+          "lewa": "change",
+          "prawa": "zmiana"
+        },
+        {
+          "lewa": "business continuity",
+          "prawa": "ciągłość działania"
+        },
+        {
+          "lewa": "availability",
+          "prawa": "dostępność"
+        },
+        {
+          "lewa": "supplier",
+          "prawa": "dostawca"
+        }
+      ],
+      "wyjasnienie": "To słowa z nazw procesów COBIT 5: DSS02 (incydenty), DSS03 (problemy), BAI06 (zmiany), DSS04 (ciągłość), BAI04 (dostępność), APO10 (dostawcy)."
+    },
+    {
+      "id": "q-spr-it0-t4",
+      "typ": "popraw-termin",
+      "sprawdzian": "IT0",
+      "czesc": "terminologia",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Kolega opisuje zdarzenie w komendzie. Wskaż zdania, w których użył złego terminu, i popraw je.",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "twierdzenia": [
+        {
+          "tekst": "„Syrena” przestała wysyłać SMS-y – to był incydent (incident).",
+          "poprawne": true,
+          "wyjasnienie": "Przerwa w usłudze to incydent."
+        },
+        {
+          "tekst": "Ola znalazła przyczynę: za mały dysk. To była autoryzacja (authorization).",
+          "poprawne": false,
+          "wyjasnienie": "Szukanie przyczyny incydentów to zarządzanie problemem, a nie autoryzacja.",
+          "blednyTermin": "autoryzacja (authorization)",
+          "poprawka": "problem (problem)"
+        },
+        {
+          "tekst": "Wymiana dysku po zgodzie i teście to zmiana (change).",
+          "poprawne": true,
+          "wyjasnienie": "Zaplanowana, zatwierdzona przeróbka to zmiana."
+        },
+        {
+          "tekst": "Burza, która może przerwać łącze, to incydent (incident).",
+          "poprawne": false,
+          "wyjasnienie": "Burza to zagrożenie, a możliwość przerwania łącza ze skutkiem to ryzyko. Incydent już się dzieje.",
+          "blednyTermin": "incydent (incident)",
+          "poprawka": "ryzyko związane z IT (IT-related risk)"
+        }
+      ]
+    },
+    {
+      "id": "q-spr-it0-r1",
+      "typ": "klasyfikacja",
+      "sprawdzian": "IT0",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Zdarzenie już nastąpiło, jest przyczyną, czy może się wydarzyć?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "kategorie": [
+        "Incydent",
+        "Problem",
+        "Ryzyko"
+      ],
+      "elementy": [
+        {
+          "tekst": "O 2:10 „Syrena” nie wysłała SMS-ów",
+          "kategoria": "Incydent",
+          "wyjasnienie": "Przerwa w usłudze, która już nastąpiła."
+        },
+        {
+          "tekst": "Zawieszenia wynikają z za małego dysku",
+          "kategoria": "Problem",
+          "wyjasnienie": "Przyczyna powtarzających się incydentów."
+        },
+        {
+          "tekst": "Jedyne łącze może paść podczas burzy",
+          "kategoria": "Ryzyko",
+          "wyjasnienie": "Możliwe zdarzenie ze skutkiem."
+        },
+        {
+          "tekst": "Wczoraj poczta nie działała przez 20 minut",
+          "kategoria": "Incydent",
+          "wyjasnienie": "Zdarzenie już się wydarzyło."
+        },
+        {
+          "tekst": "Ktoś może przeczytać hasło z karteczki na monitorze",
+          "kategoria": "Ryzyko",
+          "wyjasnienie": "Coś, co może się stać."
+        },
+        {
+          "tekst": "Drukarka zacina się, bo używamy złego papieru",
+          "kategoria": "Problem",
+          "wyjasnienie": "Znaleziona przyczyna powtarzających się awarii."
+        }
+      ]
+    },
+    {
+      "id": "q-spr-it0-r2",
+      "typ": "klasyfikacja",
+      "sprawdzian": "IT0",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Infrastruktura, aplikacja, usługa IT czy baza danych?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 92
+        }
+      ],
+      "status": "uproszczenie",
+      "kategorie": [
+        "Infrastruktura",
+        "Aplikacja",
+        "Usługa IT",
+        "Baza danych"
+      ],
+      "elementy": [
+        {
+          "tekst": "Serwer i łącze internetowe komendy",
+          "kategoria": "Infrastruktura",
+          "wyjasnienie": "Podstawa, na której działają aplikacje."
+        },
+        {
+          "tekst": "„Syrena”, w której dyżurny klika „Alarm”",
+          "kategoria": "Aplikacja",
+          "wyjasnienie": "Program do zadań dyżurnych."
+        },
+        {
+          "tekst": "„Alarm dociera do OSP w kilka sekund, całą dobę”",
+          "kategoria": "Usługa IT",
+          "wyjasnienie": "Efekt dla ludzi."
+        },
+        {
+          "tekst": "Tabela strażaków: nazwisko, jednostka, telefon, gotowość",
+          "kategoria": "Baza danych",
+          "wyjasnienie": "Uporządkowany zbiór danych, z którego korzysta aplikacja."
+        },
+        {
+          "tekst": "Windows na komputerach dyżurnych",
+          "kategoria": "Infrastruktura",
+          "wyjasnienie": "System operacyjny to oprogramowanie systemowe, część infrastruktury technicznej (FW-PL s. 86)."
+        },
+        {
+          "tekst": "„Poczta działa od 7 do 19, pomoc pod numerem 100”",
+          "kategoria": "Usługa IT",
+          "wyjasnienie": "Opis usługi z obietnicą jakości i wsparciem."
+        }
+      ]
+    },
+    {
+      "id": "q-spr-it0-r3",
+      "typ": "bledy",
+      "sprawdzian": "IT0",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Dyżurny tłumaczy nowej koleżance logowanie. Które zdania są poprawne?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "tekst": "„Login to już dowód, że to Ty. Hasło i kod z telefonu to uwierzytelnianie. Skoro się zalogowałaś, możesz otworzyć każdy folder. „Brak dostępu” oznacza, że serwer działa, ale odmawia.”",
+      "twierdzenia": [
+        {
+          "tekst": "Login to już dowód, że to Ty.",
+          "poprawne": false,
+          "wyjasnienie": "Login to deklaracja. Dowodem jest hasło, kod albo odcisk palca."
+        },
+        {
+          "tekst": "Hasło i kod z telefonu to uwierzytelnianie.",
+          "poprawne": true,
+          "wyjasnienie": "To dwa dowody tożsamości – uwierzytelnianie wieloskładnikowe."
+        },
+        {
+          "tekst": "Skoro się zalogowałaś, możesz otworzyć każdy folder.",
+          "poprawne": false,
+          "wyjasnienie": "Po zalogowaniu działa autoryzacja – dostęp jest tylko do tego, co przydzielono."
+        },
+        {
+          "tekst": "„Brak dostępu” oznacza, że serwer działa, ale odmawia.",
+          "poprawne": true,
+          "wyjasnienie": "Odmowa to poprawna odpowiedź działającego serwera."
+        }
+      ]
+    },
+    {
+      "id": "q-spr-it0-m1",
+      "typ": "kolejnosc",
+      "sprawdzian": "IT0",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Ułóż kroki: od kliknięcia w aplikacji do wyniku na ekranie.",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "elementy": [
+        "Użytkownik klika w aplikacji (klient)",
+        "Klient wysyła żądanie (request) przez sieć",
+        "Serwer odbiera żądanie i wykonuje zadanie",
+        "Serwer odsyła odpowiedź (response)",
+        "Aplikacja pokazuje wynik użytkownikowi"
+      ],
+      "wyjasnienie": "To schemat klient–serwer, na którym opiera się prawie każda usługa IT."
+    },
+    {
+      "id": "q-spr-it0-m2",
+      "typ": "kolejnosc",
+      "sprawdzian": "IT0",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Ułóż kroki logowania i otwierania folderu w kolejności.",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "elementy": [
+        "Wpisanie nazwy użytkownika (deklaracja „to ja”)",
+        "Podanie hasła i kodu z telefonu (dowody)",
+        "System porównuje dowody i otwiera konto (uwierzytelnianie)",
+        "Kliknięcie folderu – żądanie do serwera plików",
+        "Serwer sprawdza uprawnienia konta (autoryzacja) i otwiera folder albo odmawia"
+      ],
+      "wyjasnienie": "Najpierw system sprawdza, kim jesteś, a dopiero potem – przy każdej czynności – co Ci wolno."
+    },
+    {
+      "id": "q-spr-it0-m3",
+      "typ": "kolejnosc",
+      "sprawdzian": "IT0",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "M0-00-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Ułóż od największego do najmniejszego.",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "elementy": [
+        "Portfel",
+        "Program",
+        "Projekt"
+      ],
+      "wyjasnienie": "Portfel zawiera programy, a programy zawierają projekty."
+    },
+    {
+      "id": "q-spr-it0-z1",
+      "typ": "studium",
+      "sprawdzian": "IT0",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co powinna zrobić Ola w pierwszej kolejności?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "scenariusz": "W nocy „Syrena” przestaje wysyłać SMS-y do OSP Zawilce. Dyżurna dzwoni do informatyczki Oli Dudek. Wcześniej w tym miesiącu zdarzyło się to już dwa razy.",
+      "opcje": [
+        {
+          "tekst": "Najpierw przywrócić działanie, a rano otworzyć problem i szukać przyczyny",
+          "poprawna": true,
+          "wyjasnienie": "Incydent gasi się szybko, a powtarzające się awarie wymagają zarządzania problemem."
+        },
+        {
+          "tekst": "Od razu szukać przyczyny, a alarm niech poczeka do rana",
+          "poprawna": false,
+          "wyjasnienie": "W nocy liczy się przywrócenie usługi. Przyczyny szuka się potem.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Zrobić kopię zapasową bazy i na tym poprzestać",
+          "poprawna": false,
+          "wyjasnienie": "Kopia jest ważna, ale nie przywraca alarmów i nie usuwa przyczyny.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Wgrać od razu nową wersję „Syreny” bez testu",
+          "poprawna": false,
+          "wyjasnienie": "Zmiana bez testu i zgody może wywołać kolejny incydent.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-spr-it0-z2",
+      "typ": "studium",
+      "sprawdzian": "IT0",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która decyzja najlepiej odpowiada na sytuację?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 22,
+          "ilustracja": "7"
+        }
+      ],
+      "status": "uproszczenie",
+      "scenariusz": "Komenda rozważa oddanie firmie Kwant-Sygnał całego utrzymania „Syreny”, łącznie z nocnym dyżurem. Komendantka pyta, co to oznacza dla komendy.",
+      "opcje": [
+        {
+          "tekst": "Komenda przestaje odpowiadać za alarmy – odpowiada dostawca",
+          "poprawna": false,
+          "wyjasnienie": "Outsourcing przenosi wykonanie pracy, a nie odpowiedzialność wobec mieszkańców.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "To outsourcing – komenda musi zapisać wymagania w umowie i pilnować ich wykonania",
+          "poprawna": true,
+          "wyjasnienie": "Pracę można zlecić, ale komenda zarządza umową i odpowiada za wynik."
+        },
+        {
+          "tekst": "To zwykły zakup sprzętu, więc wystarczy faktura",
+          "poprawna": false,
+          "wyjasnienie": "Stałe zlecenie pracy to outsourcing, a nie jednorazowy zakup.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nic się nie zmienia – dostawca i tak sprzedał „Syrenę”",
+          "poprawna": false,
+          "wyjasnienie": "Zmienia się, kto wykonuje pracę, więc umowa i nadzór stają się kluczowe.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-spr-it0-z3",
+      "typ": "rozpoznanie",
+      "sprawdzian": "IT0",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Komendantka chce, żeby „Syrena” nie miała przerw dłuższych niż 5 minut w roku. Co to oznacza?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Bardzo wysoką dostępność (około 99,999%), która wymaga np. zapasowego serwera, zasilania i drugiego łącza",
+          "poprawna": true,
+          "wyjasnienie": "Każda kolejna „dziewiątka” dostępności kosztuje więcej infrastruktury."
+        },
+        {
+          "tekst": "Wystarczy dobry monitor na stanowisku dyżurnego",
+          "poprawna": false,
+          "wyjasnienie": "Monitor to sprzęt dyżurnego; dostępność usługi zależy od serwera, łącza i zasilania."
+        },
+        {
+          "tekst": "Wystarczy codzienna kopia zapasowa",
+          "poprawna": false,
+          "wyjasnienie": "Kopia ratuje dane, ale nie zapewnia, że usługa działa bez przerwy."
+        }
+      ]
+    },
+    {
+      "id": "q-spr-it0-s1",
+      "typ": "wypowiedz",
+      "sprawdzian": "IT0",
+      "czesc": "synteza",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Opisz w 4–6 zdaniach, co się wydarzyło w nocy na Lipowej i jak komenda powinna się zabezpieczyć. Użyj angielskich terminów.",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "wymagane": [
+        "incident",
+        "problem",
+        "backup",
+        "business continuity",
+        "IT service"
+      ],
+      "terminy": [
+        "it-incydent",
+        "it-problem",
+        "it-kopia-zapasowa",
+        "it-ciaglosc-dzialania",
+        "it-usluga-it"
+      ],
+      "wzorzec": "„Usługa IT (IT service) „alarm dociera do OSP” zawiodła – to był incydent (incident). Przyczyną, czyli problemem (problem), był nieaktualny numer w bazie danych. Komenda poprawia dane i ustala, kto co miesiąc je sprawdza. Na wypadek poważnej awarii robi kopię zapasową (backup) w innym budynku. Ma też plan ciągłości działania (business continuity): zapasowy serwer, papierową listę telefonów i ćwiczenia.”"
+    },
+    {
+      "id": "q-spr-it0-s2",
+      "typ": "studium",
+      "sprawdzian": "IT0",
+      "czesc": "synteza",
+      "sylabus": [
+        "M0-00-07",
+        "M0-00-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które działanie usuwa przyczynę i zmniejsza ryzyko na przyszłość?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "scenariusz": "Po nocy na Lipowej okazuje się, że: (1) numer naczelnika OSP w bazie „Syreny” był sprzed dwóch lat; (2) wszyscy dyżurni mogli zmieniać numery; (3) nikt nie sprawdzał aktualności danych.",
+      "opcje": [
+        {
+          "tekst": "Kupić nowe monitory dla dyżurnych",
+          "poprawna": false,
+          "wyjasnienie": "Sprzęt dyżurnych nie był przyczyną.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poprawić numer, ograniczyć uprawnienia do zmian i ustalić regularne sprawdzanie danych",
+          "poprawna": true,
+          "wyjasnienie": "To usuwa przyczynę (problem), chroni integralność (autoryzacja) i zmniejsza ryzyko ponownej awarii."
+        },
+        {
+          "tekst": "Uruchomić ponownie serwer „Syreny”",
+          "poprawna": false,
+          "wyjasnienie": "To gaszenie incydentu – przyczyna zostaje.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Oddać „Syrenę” dostawcy i uznać sprawę za zamkniętą",
+          "poprawna": false,
+          "wyjasnienie": "Outsourcing nie usuwa przyczyny i nie zdejmuje odpowiedzialności.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "cykl-wdrozenia",
+  "en": "Implementation life cycle",
+  "wymowa": "implementejszyn lajf sajkl",
+  "wymowaAkcent": "im-ple-men-TEJ-szyn lajf SAJ-kl",
+  "plEgzamin": "Cykl Życia Wdrożenia",
+  "plPodrecznik": "Cykl życia wdrożenia",
+  "mapa": "cykl-wdrozenia",
+  "poLudzku": "Plan wprowadzania zmian krok po kroku, który się powtarza, bo poprawiać trzeba stale, nie raz.",
+  "wyobrazSobie": "Przygotowanie do maratonu: jest plan treningów, jest praca nad własną motywacją i nawykami, a po każdym biegu poprawiasz plan i zaczynasz kolejną rundę.",
+  "poCo": "Żeby wdrażanie COBIT 5 było stałym doskonaleniem, a nie jednorazowym projektem, i żeby obok techniki zadbać o ludzi i o zarządzanie całym programem.",
+  "jakDziala": "Cykl ma trzy pierścienie: zewnętrzny – zarządzanie programem (programme management), środkowy – aktywowanie zmiany (change enablement), czyli strona ludzka i kulturowa, i wewnętrzny – cykl ciągłego doskonalenia (continual improvement life cycle). Wszystkie trzy przechodzą razem przez 7 faz, od „Jakie są wyznaczniki?” do „Jak utrzymać motywację do działania?”. Po fazie 7 cykl rusza od nowa, bo realizuje się go iteracyjnie.",
+  "dlaczegoWazne": "Egzamin pyta o nazwy i kolejność pierścieni i faz, o to, który pierścień obejmuje aspekty behawioralne i kulturowe (aktywowanie zmiany), i o to, że wdrożenie nie jest projektem jednorazowym.",
+  "poziom1": "Plan wdrażania COBIT w formie pętli: 7 faz (od „Jakie są wyznaczniki?” do „Jak utrzymać motywację do działania?”), a przez cały czas trzy rzeczy naraz: zarządzanie programem, aktywowanie zmiany (przekonanie ludzi) i ciągłe doskonalenie. To nie jest jednorazowy projekt.",
+  "poziom2": "**Trzy pierścienie:**\n- **zewnętrzny – Zarządzanie programem** (*programme management*): inicjowanie, planowanie i realizacja programu, korzyści;\n- **środkowy – Aktywowanie zmiany** (*change enablement*): **aspekty behawioralne i kulturowe**, ludzie, opór, komunikacja;\n- **wewnętrzny – Cykl życia ciągłego doskonalenia** (*continual improvement*): to **nie jest projekt jednorazowy**.\n\n**Siedem faz:** 1 Jakie są wyznaczniki? · 2 Gdzie jesteśmy teraz? · 3 Dokąd chcemy dojść? · 4 Co trzeba zrobić? · 5 Jak się tam dostaniemy? · 6 Czy dotarliśmy do celu? · 7 Jak utrzymać motywację do działania?\n\nCykl ma być realizowany **iteracyjnie**.",
+  "poziom3": "(s. 37): trzy wzajemnie powiązane komponenty; Ilustracja 17 (s. 38) – siedem faz cyklu życia wdrożenia.",
+  "przyklady": {
+    "zycie": "Rodzina postanawia zdrowiej jeść. Ktoś musi to poprowadzić: plan, zakupy, budżet (zarządzanie programem). Trzeba też przekonać dzieci, które kochają frytki (aktywowanie zmiany), a po miesiącu sprawdzić, co działa, i poprawić jadłospis (ciągłe doskonalenie). Te trzy rzeczy dzieją się równolegle, a pętla rusza od nowa przy kolejnym celu – to cykl życia wdrożenia.",
+    "biuro": "Biuro przechodzi z papierowego obiegu dokumentów na elektroniczny. Kierowniczka prowadzi to jak program z harmonogramem i budżetem, rozmawia z pracownikami, którzy wolą segregatory, a po kwartale poprawia to, co nie działa, i planuje kolejny krok.",
+    "firma": "Warsztat przechodzi z zeszytu na program do zleceń. Właściciel pilnuje harmonogramu i kosztów, rozmawia ze starszym mechanikiem, który nie chce „klikać”, i po kwartale poprawia to, co nie działa. Program, ludzie i doskonalenie to trzy pierścienie, które biegną razem przez wszystkie siedem faz.",
+    "admin": "Szkoła wprowadza dziennik elektroniczny. Dyrektor prowadzi to jako program z planem i budżetem, wicedyrektor oswaja nauczycieli, którzy wolą papier, a po pierwszym semestrze zespół poprawia ustawienia i zasady. Program, zmiana w ludziach i ciągłe doskonalenie idą równolegle przez cały cykl życia wdrożenia.",
+    "psp": "Komenda wdraża nowy sposób obsługi awarii w SK. Zastępca komendanta prowadzi to jako program z harmonogramem i budżetem (pierścień zewnętrzny), kierownik SK przekonuje dyżurnych z długim stażem i wybiera liderów zmiany (środkowy), a informatyk co kwartał mierzy i poprawia proces (wewnętrzny). Po siódmej fazie pętla rusza od nowa – wdrożenie nie kończy się na jednym projekcie.",
+    "it": "Komenda wdraża COBIT 5 po awarii Syreny: kpt. Sikora prowadzi program, rozmowy z dyżurnymi i nowa kultura zgłaszania błędów to aktywowanie zmiany (wspiera je BAI05 Zarządzanie wdrażaniem zmian organizacyjnych), a kolejne usprawnienia procesu DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami to ciągłe doskonalenie."
+  },
+  "glebokosc": {
+    "prosty": "Zdrowe odżywianie to nie jednorazowa dieta. Jest plan (co, kiedy, za ile), jest przekonanie siebie i rodziny oraz codzienne małe poprawki. Po pół roku zaczynasz kolejną rundę, bo zmieniają się potrzeby.",
+    "zaawansowany": "Komenda wprowadza zmiany po awarii Syreny. Sikora pilnuje harmonogramu, budżetu i korzyści: to pierścień zarządzania programem. Komendantka Wrzos i Sikora rozmawiają z Grabem, który nie ufa nowej procedurze: to aktywowanie zmiany. Ola Dudek ocenia proces powiadamiania, poprawia go i mierzy: to cykl ciągłego doskonalenia. Wszystkie trzy pierścienie przechodzą przez te same [[fazy-wdrozenia|7 faz]], a projekty opierają się na [[uzasadnienie-biznesowe|uzasadnieniu biznesowym]].",
+    "skrajny": "Ankieta wśród dyżurnych o ich obawach przed nową procedurą – do którego pierścienia należy? Kusi zarządzanie programem, bo ankieta jest w planie. Chodzi jednak o zachowania, opór i kulturę, więc to pierścień środkowy: aktywowanie zmiany. Druga pułapka: cykl jest iteracyjny, a inicjatywy dłuższe niż 6 miesięcy grożą utratą dynamiki i akceptacji (s. 38). Trzecia: cykl życia wdrożenia to nie cykl życia aktywatora, który ma 6 faz i dotyczy jednego aktywatora. **Rozstrzygnięcie:** ludzie i kultura → aktywowanie zmiany (środek); program, plan i korzyści → zarządzanie programem (zewnątrz); ocena, usprawnienie i pomiar → ciągłe doskonalenie (wewnątrz); a cały cykl się powtarza."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wdrożenie COBIT 5 to jednorazowy projekt z datą końca.",
+      "prawda": "To cykl ciągłego doskonalenia, „nie jest to projekt jednorazowy” (s. 37), realizowany iteracyjnie (s. 38)."
+    },
+    {
+      "mit": "Najważniejsze są procesy i narzędzia, a ludzie się dostosują.",
+      "prawda": "FW-PL ostrzega, że organizacje przywiązują za małą wagę do ludzi, zachowań i kultury (s. 37). Dlatego jest osobny pierścień: aktywowanie zmiany."
+    },
+    {
+      "mit": "Pierścień zewnętrzny to ciągłe doskonalenie.",
+      "prawda": "Zewnętrzny to zarządzanie programem, środkowy to aktywowanie zmiany, a wewnętrzny to ciągłe doskonalenie."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie kolejności pierścieni i przypisywanie spraw ludzkich (opór, komunikacja) do zarządzania programem.",
+    "jakTlumaczyc": "Cebula: zewnętrzna łupina trzyma całość (program, budżet), środkowa warstwa jest „ludzka” (motywacja, opór), a rdzeń to praca nad samym procesem. Nóż, czyli 7 faz, przecina wszystkie warstwy naraz.",
+    "pytanieKontrolne": "Dlaczego komenda nie powinna planować wdrożenia COBIT 5 jako jednego dwuletniego projektu bez etapów?",
+    "odpowiedzKontrolna": "Bo cykl ma być ciągły i iteracyjny, a inicjatywy dłuższe niż 6 miesięcy grożą utratą dynamiki, koncentracji i akceptacji interesariuszy (s. 38). Lepiej zaplanować kilka krótszych obiegów 7 faz, każdy z szybkimi korzyściami."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cykl-zycia-aktywatora",
+      "roznica": "Cykl życia aktywatora (6 faz: planowanie… pozbywanie się) dotyczy pojedynczego aktywatora. Cykl życia wdrożenia dotyczy programu wdrażania COBIT."
+    }
+  ],
+  "przykladWypowiedzi": "Implementation life cycle, czyli Cykl Życia Wdrożenia, ma trzy pierścienie: programme management, change enablement i continual improvement, które razem przechodzą przez siedem faz, a potem cykl się powtarza.",
+  "egzamin": "Komponent dotyczący **behawioralnych i kulturowych aspektów** wdrożenia → **Aktywowanie zmiany** (pierścień środkowy).",
+  "powiazane": [
+    "fazy-wdrozenia",
+    "uzasadnienie-biznesowe"
+  ],
+  "sylabus": [
+    "IM-01-01",
+    "IM-02-05"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 37,
+      "cytat": "Podstawowy cykl życia ciągłego doskonalenia — nie jest to projekt jednorazowy."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "ilustracja": "17"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cykl Życia Wdrożenia",
+    "podrecznik": "Cykl życia wdrożenia",
+    "kurs": "Cykl Życia Wdrożenia (Implementation life cycle)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 9, 16, 35."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "cobit-5",
+    "projekt"
+  ]
+}

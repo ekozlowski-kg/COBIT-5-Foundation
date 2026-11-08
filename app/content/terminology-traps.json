@@ -1,0 +1,1382 @@
+{
+  "opis": "Mapa EN / podręcznik PL (Framework ISACA Warsaw) / egzamin PL. 'oficjalne' = potwierdzone w zestawieniu Altkom lub w Sample Paper 1 PL; 'niepotwierdzone' = wnioskujemy z kontekstu, nie widzieliśmy w oficjalnym arkuszu.",
+  "zasadaGlowna": "Na egzaminie licz się z wersją z kolumny 'egzamin'. Gdy pytanie brzmi dziwnie ('Aktywator', 'Struktura ramowa', 'Oszacuj') – przetłumacz je w głowie na angielski oryginał.",
+  "pulapki": [
+    {
+      "en": "Governance",
+      "podrecznik": "Nadzór",
+      "egzamin": "Ład",
+      "inne": [
+        "Ład informatyczny (ITwiz 2014)",
+        "ład i nadzór (SP1 – zbitka)"
+      ],
+      "modul": "wspolne",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "lad"
+    },
+    {
+      "en": "Management",
+      "podrecznik": "Zarządzanie",
+      "egzamin": "Zarządzanie",
+      "inne": [],
+      "modul": "wspolne",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "zarzadzanie",
+      "uwaga": "Ta sama nazwa – ale uwaga na pary 'Ład i Zarządzanie' vs 'Nadzór i zarządzanie'."
+    },
+    {
+      "en": "Framework",
+      "podrecznik": "Metodyka",
+      "egzamin": "Struktura ramowa",
+      "inne": [],
+      "modul": "wspolne",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "struktura-ramowa"
+    },
+    {
+      "en": "Enabler",
+      "podrecznik": "Czynnik umożliwiający",
+      "egzamin": "Aktywator",
+      "inne": [],
+      "modul": "wspolne",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "aktywator"
+    },
+    {
+      "en": "Enterprise",
+      "podrecznik": "Przedsiębiorstwo",
+      "egzamin": "Organizacja",
+      "inne": [],
+      "modul": "wspolne",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "organizacja",
+      "uwaga": "SP1: 'Cele organizacji', 'Architektura Korporacyjna' (Enterprise Architecture)."
+    },
+    {
+      "en": "Enterprise goals",
+      "podrecznik": "Cele przedsiębiorstwa",
+      "egzamin": "Cele organizacji",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "cele-organizacji"
+    },
+    {
+      "en": "IT-related goals",
+      "podrecznik": "Cele związane z IT",
+      "egzamin": "Cele związane z informatyką",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "cele-zwiazane-z-it"
+    },
+    {
+      "en": "Enabler goals",
+      "podrecznik": "Cele czynników umożliwiających",
+      "egzamin": "Cele aktywatora",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "cele-aktywatorow"
+    },
+    {
+      "en": "Goals Cascade",
+      "podrecznik": "Kaskada celów",
+      "egzamin": "Kaskada Celów",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "kaskada-celow"
+    },
+    {
+      "en": "Stakeholder drivers",
+      "podrecznik": "Wyznaczniki dotyczące interesariuszy",
+      "egzamin": "Czynniki wpływające na potrzeby interesariuszy",
+      "inne": [
+        "Czynniki napędzające"
+      ],
+      "modul": "PR",
+      "status": "niepotwierdzone",
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 8
+        }
+      ],
+      "termId": "wyznacznik",
+      "uwaga": "Na egzaminie pytanie bywa opisowe („czynnik wpływający na potrzeby interesariuszy”). Osobnej nazwy nie podano."
+    },
+    {
+      "en": "Value Creation",
+      "podrecznik": "Tworzenie wartości",
+      "egzamin": "Tworzenie Wartości",
+      "inne": [
+        "kreowanie wartości (SP1 – uzasadnienie)"
+      ],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "tworzenie-wartosci"
+    },
+    {
+      "en": "Governance objective",
+      "podrecznik": "Cel nadzoru",
+      "egzamin": "Cel Ładu",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "tworzenie-wartosci"
+    },
+    {
+      "en": "Meeting Stakeholder Needs",
+      "podrecznik": "Spełnienie potrzeb interesariuszy",
+      "egzamin": "Realizacja potrzeb interesariusza",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 37
+        }
+      ],
+      "termId": "zasada-1"
+    },
+    {
+      "en": "Covering the Enterprise End-to-End",
+      "podrecznik": "Uwzględnienie wszystkich aspektów działania przedsiębiorstwa",
+      "egzamin": "Pokrycie całej organizacji",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 37
+        }
+      ],
+      "termId": "zasada-2"
+    },
+    {
+      "en": "Applying a Single Integrated Framework",
+      "podrecznik": "Stosowanie jednej zintegrowanej metodyki",
+      "egzamin": "Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 15
+        },
+        {
+          "doc": "SP1",
+          "strona": 37
+        }
+      ],
+      "termId": "zasada-3"
+    },
+    {
+      "en": "Enabling a Holistic Approach",
+      "podrecznik": "Wdrożenie podejścia całościowego",
+      "egzamin": "Aktywacja holistycznego podejścia",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [],
+      "termId": "zasada-4",
+      "uwaga": "Potwierdzone w uzasadnieniach SP1. „Aktywacja”, bo enabler = aktywator."
+    },
+    {
+      "en": "Separating Governance From Management",
+      "podrecznik": "Oddzielenie nadzoru od zarządzania",
+      "egzamin": "Oddzielenie Ładu od Zarządzania",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 37
+        }
+      ],
+      "termId": "zasada-5"
+    },
+    {
+      "en": "Governance body",
+      "podrecznik": "Organ nadzorujący",
+      "egzamin": "Organ Ładu i nadzoru",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 9
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        }
+      ],
+      "termId": "organ-ladu"
+    },
+    {
+      "en": "Operations and execution",
+      "podrecznik": "Eksploatacja i wykonanie",
+      "egzamin": "Role operacyjne",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 9
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        }
+      ],
+      "termId": "role-dzialania-relacje"
+    },
+    {
+      "en": "Lead Indicators",
+      "podrecznik": "Wskaźniki wyprzedzające",
+      "egzamin": "Wskaźniki wiodące",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "wskaznik-wiodacy"
+    },
+    {
+      "en": "Lag Indicators",
+      "podrecznik": "Wskaźniki następujące",
+      "egzamin": "Wskaźniki opóźnione",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "wskaznik-opozniony"
+    },
+    {
+      "en": "Enabler performance management",
+      "podrecznik": "Zarządzanie sprawnością czynnika umożliwiającego",
+      "egzamin": "Zarządzanie wydajnością aktywatora",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "zarzadzanie-wydajnoscia-aktywatora",
+      "uwaga": "'Performance' = sprawność (podręcznik) = wydajność (egzamin)."
+    },
+    {
+      "en": "Evaluate, Direct and Monitor (EDM)",
+      "podrecznik": "Ocena, Kierowanie i Monitorowanie",
+      "egzamin": "Oszacuj, Kieruj i Monitoruj",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "edm"
+    },
+    {
+      "en": "Plan, Build, Run and Monitor (PBRM)",
+      "podrecznik": "Planowanie, Budowanie, Uruchamianie i Monitorowanie",
+      "egzamin": "Planuj, Twórz, Wykonuj i Monitoruj",
+      "inne": [
+        "Planuj, Wytwarzaj, Wykonuj i Monitoruj (Altkom)"
+      ],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "pbrm",
+      "uwaga": "W polskim arkuszu SP1 dwa razy pada „Twórz”, a forma „Wytwarzaj” z zestawienia Altkom nie pojawia się ani razu."
+    },
+    {
+      "en": "Align, Plan and Organise (APO)",
+      "podrecznik": "Dopasowanie, planowanie i organizacja",
+      "egzamin": "Dostosuj, Planuj i Organizuj",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "apo"
+    },
+    {
+      "en": "Build, Acquire and Implement (BAI)",
+      "podrecznik": "Budowanie, nabywanie i wdrażanie",
+      "egzamin": "Twórz, Nabywaj i Wdrażaj",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "bai"
+    },
+    {
+      "en": "Deliver, Service and Support (DSS)",
+      "podrecznik": "Dostarczanie, obsługa i wsparcie",
+      "egzamin": "Dostarczaj, Obsługuj i Wspieraj",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "dss"
+    },
+    {
+      "en": "Monitor, Evaluate and Assess (MEA)",
+      "podrecznik": "Monitorowanie, ocena i oszacowanie",
+      "egzamin": "Monitoruj, Oszacuj i Oceń",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "mea",
+      "uwaga": "Uwaga: EDM ma 'Oszacuj' na początku, MEA ma 'Oszacuj' w środku."
+    },
+    {
+      "en": "Process purpose",
+      "podrecznik": "Cel procesu",
+      "egzamin": "Przeznaczenie procesu",
+      "inne": [
+        "Określenie do czego służy proces (SP1)"
+      ],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "pojecia-iso15504"
+    },
+    {
+      "en": "Level of authority / decision rights",
+      "podrecznik": "Poziom decyzyjny / uprawnienia decyzyjne",
+      "egzamin": "Poziom uprawnień",
+      "inne": [],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "termId": "dobre-praktyki-struktur"
+    },
+    {
+      "en": "Delegation of authority",
+      "podrecznik": "Przekazywanie uprawnień",
+      "egzamin": "Delegowanie uprawnień",
+      "inne": [],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "termId": "dobre-praktyki-struktur"
+    },
+    {
+      "en": "Responsible (RACI)",
+      "podrecznik": "Strona odpowiedzialna",
+      "egzamin": "Odpowiedzialny wykonawczo",
+      "inne": [],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 13
+        }
+      ],
+      "termId": "raci"
+    },
+    {
+      "en": "Accountable (RACI)",
+      "podrecznik": "Strona rozliczana",
+      "egzamin": "Rozliczany (odpowiedzialny za sukces zadania)",
+      "inne": [],
+      "modul": "EN",
+      "status": "niepotwierdzone",
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 13
+        }
+      ],
+      "termId": "raci"
+    },
+    {
+      "en": "Change enablement",
+      "podrecznik": "Umożliwienie zmian",
+      "egzamin": "Aktywowanie zmiany / Aktywacja zmiany",
+      "inne": [],
+      "modul": "IM",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "cykl-wdrozenia"
+    },
+    {
+      "en": "Road map",
+      "podrecznik": "Plan działań",
+      "egzamin": "Mapa drogowa",
+      "inne": [],
+      "modul": "IM",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "fazy-wdrozenia"
+    },
+    {
+      "en": "Trigger events",
+      "podrecznik": "Zdarzenia inicjujące",
+      "egzamin": "Zdarzenia wyzwalające",
+      "inne": [],
+      "modul": "IM",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "zdarzenia-wyzwalajace"
+    },
+    {
+      "en": "Pain points",
+      "podrecznik": "Punkty zapalne",
+      "egzamin": "Punkty zapalne",
+      "inne": [],
+      "modul": "IM",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "punkty-zapalne"
+    },
+    {
+      "en": "Business case",
+      "podrecznik": "Uzasadnienie biznesowe",
+      "egzamin": "Uzasadnienie biznesowe",
+      "inne": [],
+      "modul": "IM",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "uzasadnienie-biznesowe"
+    },
+    {
+      "en": "Process capability assessment",
+      "podrecznik": "Ocena potencjału procesu",
+      "egzamin": "Ocena zdolności procesu",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "model-zdolnosci"
+    },
+    {
+      "en": "Assessor Guide",
+      "podrecznik": "Przewodnik osoby oceniającej",
+      "egzamin": "Przewodnik Asesora",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "termId": "przewodniki-oceny"
+    },
+    {
+      "en": "Self-assessment Guide",
+      "podrecznik": "Podręcznik samooceny",
+      "egzamin": "Przewodnik Samooceny",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "termId": "przewodniki-oceny"
+    },
+    {
+      "en": "N – Not achieved",
+      "podrecznik": "N – nie osiągnięto",
+      "egzamin": "N – Nieosiągnięty",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "termId": "skala-ocen"
+    },
+    {
+      "en": "P – Partially achieved",
+      "podrecznik": "P – częściowo osiągnięto",
+      "egzamin": "C – Częściowy",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "termId": "skala-ocen",
+      "uwaga": "NAJWIĘKSZA PUŁAPKA: litera 'P' na egzaminie PL oznacza PEŁNY, a w EN 'P' = Partially (częściowy)."
+    },
+    {
+      "en": "L – Largely achieved",
+      "podrecznik": "L – w znacznym stopniu osiągnięto",
+      "egzamin": "W – Większościowy",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "termId": "skala-ocen"
+    },
+    {
+      "en": "F – Fully achieved",
+      "podrecznik": "F – w pełni osiągnięto",
+      "egzamin": "P – Pełny",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "skala-ocen"
+    },
+    {
+      "en": "Performance management (PA 2.1)",
+      "podrecznik": "Zarządzanie sprawnością",
+      "egzamin": "Zarządzanie wydajnością",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        }
+      ],
+      "termId": "atrybuty-procesu"
+    },
+    {
+      "en": "Established process (level 3)",
+      "podrecznik": "Proces ustanowiony",
+      "egzamin": "Proces ustanowiony",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "poziomy-zdolnosci"
+    },
+    {
+      "en": "Predictable process (level 4)",
+      "podrecznik": "Proces przewidywalny",
+      "egzamin": "Proces przewidywalny",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "poziomy-zdolnosci"
+    },
+    {
+      "en": "Owners and stakeholders",
+      "podrecznik": "Właściciele oraz interesariusze",
+      "egzamin": "Interesariusze",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        },
+        {
+          "doc": "SP1",
+          "strona": 9
+        }
+      ],
+      "termId": "interesariusz"
+    },
+    {
+      "en": "Process performance (PA 1.1)",
+      "podrecznik": "Sprawność procesu",
+      "egzamin": "Wykonanie procesu (?)",
+      "inne": [],
+      "modul": "PC",
+      "status": "niepotwierdzone",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        }
+      ],
+      "termId": "atrybuty-procesu"
+    },
+    {
+      "en": "Work product management (PA 2.2)",
+      "podrecznik": "Zarządzanie produktami działań",
+      "egzamin": "Zarządzanie produktami pracy (?)",
+      "inne": [],
+      "modul": "PC",
+      "status": "niepotwierdzone",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        }
+      ],
+      "termId": "atrybuty-procesu"
+    },
+    {
+      "en": "Optimizing process (level 5)",
+      "podrecznik": "Proces optymalizujący",
+      "egzamin": "Proces zoptymalizowany",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "poziomy-zdolnosci"
+    },
+    {
+      "en": "Process capability",
+      "podrecznik": "Potencjał procesu",
+      "egzamin": "Zdolność procesu",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "model-zdolnosci"
+    },
+    {
+      "en": "Intrinsic quality",
+      "podrecznik": "Jakość rzeczywista",
+      "egzamin": "Jakość wewnętrzna",
+      "inne": [
+        "Cel wewnętrzny (kategoria celów procesu, SP1)"
+      ],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        },
+        {
+          "doc": "SP1",
+          "strona": 23
+        }
+      ],
+      "termId": "jakosc-wewnetrzna",
+      "uwaga": "„Wewnętrzna” = intrinsic = sama w sobie, nie „wewnątrz organizacji”."
+    },
+    {
+      "en": "Accessibility and security",
+      "podrecznik": "Dostęp i bezpieczeństwo",
+      "egzamin": "Dostęp i Bezpieczeństwo",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        },
+        {
+          "doc": "SP1",
+          "strona": 23
+        }
+      ],
+      "termId": "dostep-i-bezpieczenstwo",
+      "uwaga": "Kontekst: kategoria celów w OGÓLNYM MODELU AKTYWATORA (s. 29) → egzamin „Dostęp i Bezpieczeństwo”. Uwaga: dla kategorii celów PROCESU arkusz używa „Cele dostępności i bezpieczeństwa” (s. 69), a dla jakości informacji podręcznik mówi „Jakość bezpieczeństwa/dostępności” (s. 82) – tych form NIE zamieniaj."
+    },
+    {
+      "en": "Governance approach",
+      "podrecznik": "Podejście do nadzoru",
+      "egzamin": "Podejście do Ładu",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 23,
+          "ilustracja": "8"
+        },
+        {
+          "doc": "SP1",
+          "strona": 5
+        }
+      ],
+      "termId": "system-ladu"
+    },
+    {
+      "en": "Governance scope",
+      "podrecznik": "Zakres nadzoru",
+      "egzamin": "Zakres Ładu",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 24
+        },
+        {
+          "doc": "SP1",
+          "strona": 5
+        }
+      ],
+      "termId": "zakres-ladu"
+    },
+    {
+      "en": "Enabler dimension",
+      "podrecznik": "Wymiar czynnika umożliwiającego",
+      "egzamin": "Wymiar aktywatora",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 28,
+          "ilustracja": "13"
+        },
+        {
+          "doc": "SP1",
+          "strona": 19
+        }
+      ],
+      "termId": "wymiary-aktywatora"
+    },
+    {
+      "en": "EDM05 Ensure Stakeholder Transparency",
+      "podrecznik": "Zapewnienie przejrzystości dotyczącej interesariuszy",
+      "egzamin": "Zapewnienie Transparentności Interesariuszy",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "SP1",
+          "strona": 24
+        }
+      ],
+      "termId": "edm"
+    },
+    {
+      "en": "APO05 Manage Portfolio",
+      "podrecznik": "Zarządzanie portfelem projektów",
+      "egzamin": "Zarządzanie Portfelem",
+      "inne": [],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "SP1",
+          "strona": 7
+        }
+      ],
+      "termId": "apo"
+    },
+    {
+      "en": "BAI09 Manage Assets",
+      "podrecznik": "Zarządzanie zasobami",
+      "egzamin": "Zarządzanie zasobami (?)",
+      "inne": [],
+      "modul": "PR",
+      "status": "niepotwierdzone",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "termId": "bai",
+      "uwaga": "„Zasoby” = Assets (aktywa: sprzęt, licencje). Nie mylić z EDM04 (Resource Optimisation) ani APO07 (Human Resources)."
+    },
+    {
+      "en": "Enterprise Architecture",
+      "podrecznik": "Architektura korporacyjna",
+      "egzamin": "Architektura Korporacyjna / Architektura Przedsiębiorstwa",
+      "inne": [],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 88,
+          "ilustracja": "39"
+        },
+        {
+          "doc": "SP1",
+          "strona": 10
+        }
+      ],
+      "termId": "apo"
+    },
+    {
+      "en": "Operating principles",
+      "podrecznik": "Zasady działania",
+      "egzamin": "Zasady operacyjne",
+      "inne": [
+        "Zasady wykonawcze (SP1 – uzasadnienie)"
+      ],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "dobre-praktyki-struktur"
+    },
+    {
+      "en": "Span of control",
+      "podrecznik": "Zakres (zasięg) kontroli",
+      "egzamin": "Zakres kontroli",
+      "inne": [],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "dobre-praktyki-struktur"
+    },
+    {
+      "en": "Service capabilities",
+      "podrecznik": "Zdolność do świadczenia usług",
+      "egzamin": "Zdolność usługowa",
+      "inne": [],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 85
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "uslugi-infrastruktura-aplikacje"
+    },
+    {
+      "en": "Principles, Policies and Frameworks",
+      "podrecznik": "Zasady, polityki i metodyki",
+      "egzamin": "Zasady, Polityki i Struktury ramowe",
+      "inne": [
+        "Zasady, polityki i modele ramowe (SP1)"
+      ],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "zasady-polityki-struktury"
+    },
+    {
+      "en": "Non-intrusive (good policy)",
+      "podrecznik": "Nieingerencyjne",
+      "egzamin": "Nieinwazyjne",
+      "inne": [],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "polityka"
+    },
+    {
+      "en": "Champions (good practice for behaviour)",
+      "podrecznik": "Osoby wspierające",
+      "egzamin": "Czempioni (biznesu)",
+      "inne": [],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 79,
+          "ilustracja": "34"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "kultura-etyka-zachowanie"
+    },
+    {
+      "en": "COBIT 5: Enabling Processes",
+      "podrecznik": "COBIT 5: Procesy umożliwiające",
+      "egzamin": "Przewodnik Aktywacji (Procesy umożliwiające)",
+      "inne": [],
+      "modul": "EN",
+      "status": "niepotwierdzone",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 30
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "opis-procesu"
+    },
+    {
+      "en": "Process measurement (PA 4.1)",
+      "podrecznik": "Pomiar procesu",
+      "egzamin": "Miara procesu",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "atrybuty-procesu"
+    },
+    {
+      "en": "Process innovation (PA 5.1)",
+      "podrecznik": "Innowacje procesowe",
+      "egzamin": "Innowacja procesu",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "atrybuty-procesu"
+    },
+    {
+      "en": "Process dimension / Capability dimension",
+      "podrecznik": "Wskaźniki wydajności / wskaźniki potencjału",
+      "egzamin": "Wymiar Procesu / Wymiar Zdolności",
+      "inne": [],
+      "modul": "PC",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "wymiary-oceny"
+    },
+    {
+      "en": "Base practices",
+      "podrecznik": "Podstawowe praktyki",
+      "egzamin": "Praktyki bazowe",
+      "inne": [],
+      "modul": "PC",
+      "status": "niepotwierdzone",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "termId": "pojecia-iso15504"
+    },
+    {
+      "en": "Work products",
+      "podrecznik": "Produkty działań",
+      "egzamin": "Produkty pracy",
+      "inne": [],
+      "modul": "PC",
+      "status": "niepotwierdzone",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "termId": "pojecia-iso15504"
+    },
+    {
+      "en": "Continual improvement life cycle",
+      "podrecznik": "Podstawowy cykl życia ciągłego doskonalenia",
+      "egzamin": "Główny cykl życia ciągłego doskonalenia",
+      "inne": [],
+      "modul": "IM",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "cykl-wdrozenia"
+    },
+    {
+      "en": "Plan programme (phase 4)",
+      "podrecznik": "Zaplanowanie programu",
+      "egzamin": "Planowanie programu",
+      "inne": [],
+      "modul": "IM",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "fazy-wdrozenia"
+    },
+    {
+      "en": "Identify role players (phase 4)",
+      "podrecznik": "(brak czytelnej nazwy w podręczniku)",
+      "egzamin": "Identyfikacja (zidentyfikuj) odtwórców ról",
+      "inne": [],
+      "modul": "IM",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "fazy-wdrozenia"
+    },
+    {
+      "en": "Figure",
+      "podrecznik": "Ilustracja",
+      "egzamin": "Rysunek",
+      "inne": [],
+      "modul": "wspolne",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "termId": "cobit-5",
+      "uwaga": "Uzasadnienia egzaminacyjne odsyłają do „Rysunku N”, a polski podręcznik ten sam element nazywa „Ilustracją N”. Numery są te same."
+    },
+    {
+      "en": "Accessibility and security goals (process goal category)",
+      "podrecznik": "Cele dostępności i bezpieczeństwa",
+      "egzamin": "Cele dostępności i bezpieczeństwa",
+      "inne": [
+        "Dostęp i Bezpieczeństwo (forma z ogólnego modelu aktywatora – inny kontekst)"
+      ],
+      "modul": "EN",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        },
+        {
+          "doc": "SP1",
+          "uwaga": "pyt. o kategorie celów procesu"
+        }
+      ],
+      "termId": "kategorie-celow-procesu",
+      "uwaga": "Ta sama angielska nazwa, różne polskie formy zależnie od kontekstu: aktywator ogólnie (Dostęp i Bezpieczeństwo) vs cele procesu (dostępności i bezpieczeństwa)."
+    },
+    {
+      "en": "Output vs outcome",
+      "podrecznik": "wynik / rezultat (oba)",
+      "egzamin": "rezultat (oba znaczenia – rozpoznawaj po kontekście)",
+      "inne": [
+        "produkt pracy (work product)"
+      ],
+      "modul": "PC",
+      "status": "uproszczenie",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "termId": "rezultat",
+      "uwaga": "Output = produkt pracy (np. raport). Outcome (ISO/IEC 15504) = obserwowalny skutek osiągnięcia przeznaczenia procesu. W pytaniu o ocenę zdolności „rezultat” znaczy outcome."
+    },
+    {
+      "en": "Monitor (Figure 9: Key roles, activities and relationships)",
+      "podrecznik": "Monitorowanie (strzałka zwrotna między Zarządzaniem a Organem nadzorującym, Ilustracja 9, s. 24)",
+      "egzamin": "Kierownictwo odpowiada (wykonawczo) za monitorowanie osiągania celów organizacji",
+      "inne": [
+        "Ład (EDM) też monitoruje – wydajność i zgodność względem kierunku (s. 14)"
+      ],
+      "modul": "PR",
+      "status": "oficjalne",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        },
+        {
+          "doc": "SP1",
+          "uwaga": "uzasadnienie pytania o rolę monitorującą osiąganie celów"
+        }
+      ],
+      "termId": "role-dzialania-relacje",
+      "uwaga": "Na Rysunku 9 strzałka „Monitorowanie” łączy Zarządzanie z Organem Ładu (Zarządzanie raportuje wyniki, Ład je ocenia względem kierunku). Arkusz PL na pytanie, która ROLA odpowiada za monitorowanie osiągania celów organizacji, uznaje Kierownictwo. Na egzaminie: pytanie o rolę z Rysunku 9 → Kierownictwo; pytanie o działania Ładu (EDM) → Monitoruj."
+    }
+  ]
+}

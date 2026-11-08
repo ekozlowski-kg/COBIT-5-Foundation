@@ -1,0 +1,101 @@
+{
+  "id": "zarzadzanie-wydajnoscia-aktywatora",
+  "en": "Enabler performance management",
+  "wymowa": "inejbler performens menydżment",
+  "wymowaAkcent": "i-NEJ-bler per-FOR-mens ME-nydż-ment",
+  "plEgzamin": "Zarządzanie wydajnością aktywatora",
+  "plPodrecznik": "Zarządzanie sprawnością czynnika umożliwiającego",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Zarządzanie wydajnością aktywatora",
+    "podrecznik": "Zarządzanie sprawnością czynnika umożliwiającego",
+    "kurs": "Zarządzanie wydajnością aktywatora (Enabler performance management)",
+    "uwaga": "Performance: wydajność (egzamin) / sprawność (podręcznik) – znaczenie zależne od kontekstu. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 8, 28."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Performance” to w podręczniku „sprawność”, a na egzaminie „wydajność”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "wymiary-aktywatora",
+    "interesariusz"
+  ],
+  "poLudzku": "Sprawdzanie liczbami, czy dana część układanki działa i czy zmierza w dobrą stronę.",
+  "wyobrazSobie": "Coroczny przegląd auta czterema pytaniami: czy wozi rodzinę tak, jak trzeba, czy pali tyle, ile miało, czy robisz przeglądy i czy jeździsz według instrukcji.",
+  "poCo": "Żeby regularnie sprawdzać, czy aktywator działa i daje wynik, zamiast zakładać, że skoro go wdrożono, to działa.",
+  "jakDziala": "Zarządzanie wydajnością aktywatora (enabler performance management) to regularne odpowiadanie na cztery pytania: czy potrzeby interesariuszy są uwzględnione, czy cele aktywatora są osiągane, czy cykl życia jest zarządzany i czy stosowane są dobre praktyki. Pytania 1–2 dotyczą wyniku i mierzą je wskaźniki opóźnione (lag indicators). Pytania 3–4 dotyczą funkcjonowania aktywatora i mierzą je wskaźniki wiodące (lead indicators).",
+  "dlaczegoWazne": "Należy do modelu aktywatora z zasady 4 (Aktywacja holistycznego podejścia). Egzamin podaje cztery pytania prawie dosłownie i każe przypisać je do wskaźników opóźnionych albo wiodących.",
+  "skadNazwa": "*Enabler performance management*. Podręcznik: „zarządzanie sprawnością czynnika umożliwiającego”, egzamin: „wydajnością aktywatora”.",
+  "poziom1": "Regularne sprawdzanie, czy aktywator działa, czterema pytaniami: czy potrzeby ludzi są spełnione i czy cele są osiągane (to pokazują wskaźniki opóźnione), czy dbamy o cykl życia i czy stosujemy dobre praktyki (to pokazują wskaźniki wiodące).",
+  "poziom2": "Cztery pytania:\n1. **Czy potrzeby interesariuszy są uwzględnione?**\n2. **Czy cele aktywatora są osiągane?**\n3. **Czy cykl życia aktywatora jest zarządzany?**\n4. **Czy stosowane są dobre praktyki?**\n\nPytania 1–2 dotyczą **wyniku** i mierzą je **wskaźniki opóźnione**. Pytania 3–4 dotyczą **funkcjonowania** aktywatora i mierzą je **wskaźniki wiodące**.",
+  "poziom3": "(s. 29): pierwsze dwa punkty dotyczą rzeczywistego wyniku. Mierniki osiągnięcia celów to *wskaźniki następujące*. Ostatnie dwa punkty dotyczą funkcjonowania samego aktywatora: *wskaźniki wyprzedzające*.",
+  "przyklady": {
+    "zycie": "Od trzech miesięcy rodzina je według nowego jadłospisu. Pytacie: czy wszyscy są zadowoleni, czy tata schudł zakładane 5 kg, czy jadłospis jest co tydzień aktualizowany i czy trzymacie się zaleceń dietetyka. Dwa pierwsze pytania sprawdzają wynik, dwa ostatnie – samo działanie.",
+    "biuro": "Po kwartale kierowniczka biura ocenia nową procedurę zamawiania materiałów. Pyta, czy pracownicy mają to, czego potrzebują, czy koszty spadły o założone 10%, czy procedurę aktualizowano i czy ludzie zamawiają według niej, a nie mailem „na szybko”.",
+    "firma": "Właścicielka kawiarni po pół roku ocenia kartę lojalnościową. Sprawdza, czy klienci ją lubią, czy wracają częściej, czy oferta na karcie jest odświeżana i czy program działa tak jak w sprawdzonych kawiarniach. Te cztery pytania to zarządzanie wydajnością aktywatora.",
+    "admin": "Urząd gminy po roku przegląda e-usługę zgłaszania dzikich wysypisk. Pyta mieszkańców o zadowolenie, liczy sprawy załatwione online, sprawdza, czy usługę regularnie poprawiano, i czy spełnia wytyczne dostępności. Wynik i działanie sprawdza się tymi samymi czterema pytaniami.",
+    "psp": "Na odprawie kwartalnej kierownik SK przegląda procedurę dysponowania. Pyta, czy dowódcy JRG i OSP są zadowoleni, czy czas dysponowania spadł, czy procedurę poprawiono po trudnych zdarzeniach i czy jest zgodna z wytycznymi KG PSP. Dwa pierwsze pytania dotyczą wyniku, dwa ostatnie – funkcjonowania aktywatora.",
+    "it": "Dla procesu DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) zadowolenie użytkowników i odsetek incydentów rozwiązanych w terminie to wskaźniki opóźnione. Regularny przegląd procesu i rejestrowanie każdego zgłoszenia według procedury to wskaźniki wiodące."
+  },
+  "glebokosc": {
+    "prosty": "Masz ogród warzywny i zadajesz cztery pytania. Czy rodzina jest zadowolona z warzyw? Czy zebraliśmy tyle, ile planowaliśmy? Czy podlewamy i pielimy w porę i czy robimy to tak, jak radzi poradnik? Dwa pierwsze pytania mówią o efekcie, dwa ostatnie – o tym, jak pracujesz.",
+    "zaawansowany": "Kpt. Sikora co kwartał zadaje o Syrenie cztery pytania. Czy uwzględniono potrzeby interesariuszy (ankieta wśród dowódców JRG i dh. Pietrzaka)? Czy osiągnięto cele (alarm w 40 sekund)? Czy zadbano o cykl życia (aktualizacje, przegląd umowy z Kwant-Sygnał) i czy stosowane są dobre praktyki (testy alarmu, weryfikacja danych)? Dwa pierwsze pytania mierzy [[wskaznik-opozniony|wskaźnikami opóźnionymi]], dwa ostatnie [[wskaznik-wiodacy|wiodącymi]], a wynik raportuje komendantce.",
+    "skrajny": "W dniu 4 audytorka Lis mówi: „Sprawdzę zarządzanie wydajnością procesu powiadamiania”. Sikora wyciąga cztery pytania aktywatora, ale Lis ma na myśli atrybut PA 2.1 Zarządzanie wydajnością z modelu zdolności, czyli to, czy wykonanie procesu jest planowane, monitorowane i dostosowywane. Proces jest aktywatorem, więc oba modele mogą dotyczyć tej samej rzeczy, ale odpowiadają na inne pytania: model aktywatora mierzy wynik i przebieg czterema pytaniami, a PA 2.1 ocenia w skali N/C/W/P, czy proces jest zarządzany (poziom 2). Dochodzi trzecie znaczenie: „wskaźniki wydajności” w modelu oceny procesu (il. 19), czyli egzaminacyjny Wymiar Procesu. **Rozstrzygnięcie:** cztery pytania + wskaźniki wiodące i opóźnione → zarządzanie wydajnością aktywatora (zasada 4); planowanie, monitorowanie i dostosowanie wykonania procesu oceniane w skali N/C/W/P → PA 2.1 (model zdolności)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Zarządzanie wydajnością aktywatora to PA 2.1.",
+      "prawda": "PA 2.1 to atrybut poziomu 2 w modelu zdolności procesów. Zarządzanie wydajnością aktywatora to cztery pytania z modelu aktywatora (s. 29)."
+    },
+    {
+      "mit": "Wśród pytań jest „czy aktywator jest bezpieczny i efektywny?”.",
+      "prawda": "Pytania są cztery i dosłowne: potrzeby, cele, cykl życia, dobre praktyki. Bezpieczeństwo to kategoria celów, a nie osobne pytanie."
+    },
+    {
+      "mit": "Wszystkie cztery pytania mierzy się wskaźnikami wiodącymi.",
+      "prawda": "Podział 2 + 2: potrzeby i cele → opóźnione (wynik), cykl życia i dobre praktyki → wiodące (przebieg)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mieszanie zarządzania wydajnością aktywatora z atrybutem PA 2.1 i dopisywanie pytań spoza modelu (bezpieczeństwo, koszt).",
+    "jakTlumaczyc": "Cztery pytania to cztery wymiary aktywatora zamienione w pytania: interesariusze → potrzeby, cele → cele, cykl życia → cykl życia, dobre praktyki → praktyki. Kto zna wymiary, odtworzy pytania sam, a podział 2 + 2 (wynik i przebieg) od razu daje rodzaj wskaźnika.",
+    "pytanieKontrolne": "Wyprowadź cztery pytania zarządzania wydajnością z czterech wymiarów aktywatora i przypisz każdemu rodzaj wskaźnika.",
+    "odpowiedzKontrolna": "Interesariusze → „Czy uwzględniono potrzeby interesariuszy?” (opóźniony); Cele → „Czy osiągnięto cele?” (opóźniony); Cykl życia → „Czy zadbano o zarządzanie cyklem życia?” (wiodący); Dobre praktyki → „Czy stosowane są dobre praktyki?” (wiodący). Zob. il. 13 i s. 29."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Zarządzanie wydajnością (PA 2.1)",
+      "roznica": "Atrybut procesu na poziomie zdolności 2 (dzień 4). Nazwa podobna, ale inny model."
+    }
+  ],
+  "przykladWypowiedzi": "Enabler performance management, czyli zarządzanie wydajnością aktywatora, zadaje cztery pytania: na pytania o potrzeby i cele odpowiadają lag indicators, a na pytania o cykl życia i dobre praktyki lead indicators.",
+  "egzamin": "Znaj cztery pytania **dosłownie** (s. 29). Pytania o bezpieczeństwo, efektywność czy „zarządzanie ładem” nie należą do modelu.",
+  "powiazane": [
+    "wskaznik-wiodacy",
+    "wskaznik-opozniony",
+    "wymiary-aktywatora"
+  ],
+  "sylabus": [
+    "PR-01-05",
+    "PR-02-13"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Zarządzanie sprawnością czynników umożliwiających wymaga regularnego monitorowania"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 28,
+      "ilustracja": "13"
+    },
+    {
+      "doc": "SP1",
+      "strona": 3
+    }
+  ],
+  "mapa": "wydajnosc-aktywatora"
+}

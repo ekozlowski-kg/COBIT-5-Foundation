@@ -1,0 +1,96 @@
+{
+  "id": "fazy-wdrozenia",
+  "en": "Seven phases of the implementation life cycle",
+  "wymowa": "sewen fejzyz ow de implementejszyn lajf sajkl",
+  "wymowaAkcent": "SE-wen FEJ-zyz ow de im-ple-men-TEJ-szyn lajf SAJ-kl",
+  "plEgzamin": "Siedem faz cyklu życia wdrożenia",
+  "plPodrecznik": "Siedem faz cyklu życia wdrożenia",
+  "mapa": "fazy-wdrozenia",
+  "status": "uproszczenie",
+  "poziomP": "P2",
+  "wymaga": [
+    "cykl-wdrozenia",
+    "wyznacznik"
+  ],
+  "pulapka": true,
+  "pulapkaOpis": "Polskie nazwy działań w pierścieniach różnią się między podręcznikiem a egzaminem. Ucz się po kolejności pytań i po sensie. Nazwy oznaczone „(SP1)” pochodzą z polskiego arkusza egzaminacyjnego.",
+  "poLudzku": "Siedem kroków naprawy: dlaczego zmieniamy, gdzie jesteśmy, dokąd idziemy, co robimy, jak robimy, czy wyszło, jak utrzymać.",
+  "wyobrazSobie": "Podróż z nawigacją: po co jedziesz, gdzie jesteś, dokąd chcesz dojechać, którędy, sama jazda, czy dojechałeś i co dalej.",
+  "poCo": "Żeby wdrożenie prowadzić krok po kroku, odpowiadając po kolei na siedem pytań, od powodu zmiany do utrzymania jej efektów.",
+  "jakDziala": "Fazy to pytania: 1 Jakie są wyznaczniki? (What are the drivers?), 2 Gdzie jesteśmy teraz? (Where are we now?), 3 Dokąd chcemy dojść? (Where do we want to be?), 4 Co trzeba zrobić? (What needs to be done?), 5 Jak się tam dostaniemy? (How do we get there?), 6 Czy dotarliśmy do celu? (Did we get there?), 7 Jak utrzymać motywację do działania? (How do we keep the momentum going?). W każdej fazie działają razem trzy pierścienie: zarządzanie programem, aktywowanie zmiany i ciągłe doskonalenie. W fazie 4 definiuje się projekty wspierane przez uzasadnienia biznesowe.",
+  "dlaczegoWazne": "Egzamin pyta o kolejność faz, o to, co dzieje się w danej fazie (np. w fazie 2 ocena stanu obecnego, w fazie 4 projekty z uzasadnieniem biznesowym), i o nazwy działań w pierścieniach z polskiego arkusza.",
+  "skadNazwa": "Nazwy faz i działań to tłumaczenia angielskich pytań (np. *What are the drivers?*). Podręcznik i egzamin tłumaczą je różnie, dlatego ucz się po kolejności i sensie.",
+  "poziom1": "Siedem pytań zadawanych po kolei przy wdrożeniu: Jakie są wyznaczniki? · Gdzie jesteśmy teraz? · Dokąd chcemy dojść? · Co trzeba zrobić? · Jak się tam dostaniemy? · Czy dotarliśmy do celu? · Jak utrzymać motywację do działania? Każde pytanie to jedna faza (podobnie jak przy remoncie: po co, co mamy, co chcemy, co zrobić, jak, czy wyszło, jak utrzymać).",
+  "poziom2": "| Faza | Pytanie | Zarządzanie programem | Aktywowanie zmiany | Ciągłe doskonalenie |\n|---|---|---|---|---|\n| 1 | Jakie są wyznaczniki? | Inicjowanie programu (SP1) | Ustanowienie chęci zmiany | Rozpoznanie potrzeby działania |\n| 2 | Gdzie jesteśmy teraz? | Definiowanie problemów i okazji (SP1) | Utworzenie zespołu wdrożeniowego | Ocena stanu obecnego |\n| 3 | Dokąd chcemy dojść? | Definiowanie mapy drogowej (SP1) | Komunikowanie rezultatu (SP1) | Zdefiniowanie stanu docelowego (SP1) |\n| 4 | Co trzeba zrobić? | Planowanie programu (SP1) | Identyfikacja odtwórców ról (SP1) | Budowanie usprawnień (SP1) |\n| 5 | Jak się tam dostaniemy? | Wykonywanie planu (SP1) | Działaj i używaj (SP1) | Wdrażanie usprawnień (SP1) |\n| 6 | Czy dotarliśmy do celu? | Realizacja korzyści | Umożliwianie nowych podejść (SP1; ang. Embed new approaches) | Eksploatacja i pomiar |\n| 7 | Jak utrzymać motywację do działania? | Przegląd skuteczności | Utrzymanie | Monitorowanie i szacowanie (SP1) |\n\nOznaczenie **(SP1)** = dokładnie ta nazwa pada w polskim arkuszu egzaminacyjnym. Bez oznaczenia = tłumaczenie kursu. Uwaga: faza 7 w pierścieniu ciągłego doskonalenia to w arkuszu „Monitorowanie i **szacowanie**” (nie „ocena”). Według uzasadnień arkusza „Umożliwianie nowych podejść” to działanie fazy 6 w pierścieniu zmiany (*Embed new approaches*), „Wykonywanie planu” – fazy 5 w pierścieniu programu, a „Działaj i używaj” – fazy 5 w pierścieniu zmiany.",
+  "poziom3": "Opis faz w podręczniku (s. 38): **faza 1** – uznanie potrzeby, punkty zapalne i czynniki inicjujące; **faza 2** – zakres (mapowanie celów, scenariusze ryzyka), ocena stanu obecnego; **faza 3** – cel doskonalenia, analiza luk, szybkie korzyści; **faza 4** – praktyczne rozwiązania, **projekty wspierane przez uzasadnienia biznesowe**, plan zmian; **faza 5** – rozwiązania w praktyce, miary i monitorowanie; **faza 6** – zrównoważone wykorzystanie, **monitorowanie uzyskania korzyści**; **faza 7** – weryfikacja sukcesu, dalsze wymagania, ciągłe doskonalenie. Angielskie nazwy działań pochodzą z *COBIT 5 Implementation* (ISACA).",
+  "przyklady": {
+    "zycie": "Lekarz ostrzega Cię przed wysokim ciśnieniem, więc postanawiasz schudnąć (1). Stajesz na wadze (2), ustalasz cel minus 8 kg do lata (3), wybierasz dietę i plan treningów (4), zaczynasz ćwiczyć (5), w czerwcu sprawdzasz wagę (6) i ustalasz, jak nie wrócić do starych nawyków (7). Te siedem kroków to fazy cyklu życia wdrożenia.",
+    "biuro": "Klienci skarżą się, że odpowiedzi na pisma przychodzą za późno (1). Kierowniczka liczy, że trwa to średnio 12 dni (2), ustala cel 5 dni (3), planuje rejestr i przypomnienia (4), wprowadza je (5), po kwartale sprawdza czasy (6) i wpisuje comiesięczny przegląd do kalendarza (7).",
+    "firma": "Klienci sklepu internetowego skarżą się na długie dostawy (1). Właściciel mierzy obecny czas wysyłki – średnio 4 dni (2) – i ustala cel: 2 dni (3). Planuje zmianę kuriera i nowy układ magazynu (4), wdraża je (5), po kwartale sprawdza czasy i opinie (6), a potem ustala, jak pilnować tempa i co poprawić dalej (7). To siedem faz cyklu życia wdrożenia.",
+    "admin": "Mieszkańcy skarżą się na kolejki w wydziale komunikacji starostwa (1). Starostwo liczy, ile trwa obsługa (2), i ustala cel: połowa spraw z rezerwacją przez internet (3). Planuje e-rezerwację i szkolenia (4), uruchamia je (5), po pół roku sprawdza efekty (6) i wpisuje stały przegląd do rocznego planu (7). Każde z tych pytań to jedna faza wdrożenia.",
+    "psp": "Dyżurni i dowódcy JRG skarżą się na zbyt długie dysponowanie (1). Komenda mierzy obecne czasy w SK (2) i ustala cel: o 20% krócej (3). Planuje projekty z uzasadnieniem biznesowym i wskazuje dyżurnych-liderów (4), wdraża zmiany (5), mierzy korzyści i utrwala nowe nawyki (6), a na koniec robi przegląd i zaczyna kolejną iterację (7). Tak przebiega siedem faz cyklu życia wdrożenia.",
+    "it": "Po awarii Syreny komenda uznaje Lipową za punkt zapalny (1), Ewa Lis ocenia obecną zdolność procesu DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami (2), a komendantka ustala poziom docelowy (3). Halina Mak pisze uzasadnienie biznesowe projektów (4), wydział Sikory wdraża usprawnienia (5), Lis mierzy efekty (6), a Rada ds. Informatyki planuje kolejną rundę (7)."
+  },
+  "glebokosc": {
+    "prosty": "Remont łazienki: po co (bo cieknie), jak jest teraz, jak ma wyglądać, co trzeba zrobić, robimy, czy wyszło i jak dbać, żeby znów nie zarosła. To siedem pytań po kolei. Gdy pominiesz „jak jest teraz”, kupisz za dużo płytek.",
+    "zaawansowany": "Faza 1: awaria z Lipowej pokazuje [[punkty-zapalne|punkty zapalne]] i potrzebę zmiany. Faza 2: Ewa Lis ocenia stan obecny procesu powiadamiania. Faza 3: komenda ustala stan docelowy i luki. Faza 4: Halina Mak pisze [[uzasadnienie-biznesowe|uzasadnienie biznesowe]] projektu poprawy Syreny. Faza 5 wdraża usprawnienia, a faza 6 sprawdza korzyści na ćwiczeniu nocnym. Faza 7 ocenia sukces i ustala, co dalej.",
+    "skrajny": "Gdzie w siedmiu fazach jest ocena zdolności procesów? Kusi faza 6 „Czy dotarliśmy do celu?”, bo brzmi jak sprawdzanie. FW-PL (s. 38) umieszcza jednak ocenę stanu obecnego i szacowanie potencjału procesu w fazie 2. Analiza luk i szybkie korzyści to faza 3, projekty wspierane przez uzasadnienia biznesowe to faza 4, a w fazie 6 monitoruje się uzyskanie korzyści. Druga pułapka: każda faza ma trzy działania, po jednym w każdym pierścieniu, a ich polskie nazwy bywają różne. **Rozstrzygnięcie:** przypisuj po pytaniu fazy: „gdzie jesteśmy?” (ocena stanu) → 2; „dokąd?” (cel i luki) → 3; „co trzeba zrobić?” (projekty, uzasadnienie) → 4; „czy dotarliśmy?” (korzyści) → 6."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Uzasadnienie biznesowe projektów powstaje w fazie 1.",
+      "prawda": "Według FW-PL (s. 38) projekty wspierane przez uzasadnienia biznesowe definiuje się w fazie 4 „Co trzeba zrobić?”."
+    },
+    {
+      "mit": "„Wdrażanie usprawnień” należy do fazy 4.",
+      "prawda": "Wdrażanie usprawnień odpowiada na pytanie „Jak się tam dostaniemy?”, czyli fazę 5. W fazie 4 usprawnienia się buduje i planuje."
+    },
+    {
+      "mit": "Ocena stanu obecnego to faza 6 „Czy dotarliśmy do celu?”.",
+      "prawda": "Ocena stanu obecnego i potencjału procesu to faza 2 (s. 38). Faza 6 monitoruje uzyskanie korzyści."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Przesuwanie działań o jedną fazę, zwłaszcza między fazami 4 i 5 oraz 2 i 6.",
+    "jakTlumaczyc": "Ucz się pytaniami, a nie nazwami działań: po co, jak jest, dokąd, co, jak, czy wyszło, jak utrzymać. Przy każdym działaniu pytaj ucznia, na które pytanie ono odpowiada.",
+    "pytanieKontrolne": "W której fazie komenda powinna mieć gotowe uzasadnienie biznesowe projektów poprawy Syreny i dlaczego nie w fazie 2?",
+    "odpowiedzKontrolna": "W fazie 4 „Co trzeba zrobić?”, bo wtedy planuje się praktyczne rozwiązania jako projekty wspierane przez uzasadnienia biznesowe (s. 38). W fazie 2 dopiero określa się zakres i ocenia stan obecny, więc nie wiadomo jeszcze, jakie projekty będą potrzebne."
+  },
+  "egzamin": "Faza, w której projekty są **wspierane przez uzasadnienia biznesowe** → **4 (Planowanie programu)**. **Wdrażanie usprawnień** odpowiada na pytanie **„Jak się tam dostaniemy?”** (faza 5). Elementy fazy 3 to: stan docelowy, komunikowanie rezultatu, mapa drogowa. „Identyfikacja odtwórców ról” należy do fazy 4.",
+  "powiazane": [
+    "cykl-wdrozenia",
+    "uzasadnienie-biznesowe",
+    "punkty-zapalne"
+  ],
+  "sylabus": [
+    "IM-02-06",
+    "IM-02-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "W fazie 4 planuje się praktyczne rozwiązania, definiując projekty wspierane przez uzasadnienia biznesowe."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "ilustracja": "17"
+    },
+    {
+      "doc": "WWW",
+      "url": "https://www.simplilearn.com/cobit-implementation-seven-phases-article"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Siedem faz cyklu życia wdrożenia",
+    "podrecznik": "Siedem faz cyklu życia wdrożenia",
+    "kurs": "Siedem faz cyklu życia wdrożenia (Seven phases of the implementation life cycle)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 9, 38."
+  },
+  "kategoria": "egzaminacyjne",
+  "nieMylicZ": [],
+  "przykladWypowiedzi": "Seven phases of the implementation life cycle, czyli siedem faz cyklu życia wdrożenia, zaczyna się od „What are the drivers?” (Jakie są wyznaczniki?), a kończy na „How do we keep the momentum going?” (Jak utrzymać motywację do działania?)."
+}

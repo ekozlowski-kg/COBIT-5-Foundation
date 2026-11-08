@@ -1,0 +1,109 @@
+{
+  "id": "pa-5-1",
+  "en": "PA 5.1 Process innovation",
+  "wymowa": "piej 5 1 prołses inowejszyn",
+  "wymowaAkcent": "pi-ej 5 1 PROŁ-ses i-no-WEJ-szyn",
+  "plEgzamin": "PA 5.1 Innowacja procesu",
+  "plPodrecznik": "PA 5.1 Innowacje procesowe",
+  "plInne": [
+    {
+      "nazwa": "Innowacja procesowa",
+      "zrodlo": "FW-PL s. 44, Il. 21"
+    }
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "PA 5.1 Innowacja procesu",
+    "podrecznik": "PA 5.1 Innowacje procesowe",
+    "kurs": "PA 5.1 Innowacja procesu (PA 5.1 Process innovation)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). SP1 używa formy „Innowacja” procesu (jako jednej z opcji w pytaniu o atrybuty). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Inne formy w obiegu: Innowacja procesowa (FW-PL s. 44, Il. 21)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Innowacja procesu”. Podręcznik: „Innowacje procesowe” (Il. 19) i „Innowacja procesowa” (Il. 21). Chodzi o szukanie i wybór zmian w procesie, a nie o wymyślanie nowych produktów.",
+  "skadNazwa": "Z angielskiego *Process innovation*. Trzy polskie formy to jeden atrybut PA 5.1.",
+  "kategoria": "egzaminacyjne",
+  "status": "uproszczenie",
+  "poziomP": "P3",
+  "wymaga": [
+    "poziom-4",
+    "pa-4-1"
+  ],
+  "poziom1": "Pierwszy atrybut poziomu 5. Sprawdza, czy zmiany w procesie są wybierane na podstawie analizy danych o jego działaniu i przeglądu nowych podejść. Zmiany mają służyć celom doskonalenia, wynikającym z celów organizacji.",
+  "poLudzku": "Czy szukasz lepszych sposobów robienia tej roboty, na podstawie danych i nowych pomysłów.",
+  "wyobrazSobie": "Kuchnia restauracji, która co sezon testuje nowe dania na podstawie opinii gości.",
+  "poCo": "Żeby proces nie stał w miejscu, gdy zmieniają się cele organizacji i pojawiają się nowe możliwości.",
+  "jakDziala": "Organizacja ustala cele doskonalenia wynikające z celów biznesowych. Analizuje dane z pomiarów i przegląda nowe podejścia i technologie. Wybiera zmiany i planuje ich wprowadzenie.",
+  "dlaczegoWazne": "To pierwszy atrybut poziomu 5. Egzamin wymaga przypisania innowacji do właściwego poziomu, a kursant musi odróżnić ją od optymalizacji.",
+  "poziom2": "| Co sprawdza asesor (uproszczenie według ISO/IEC 15504) | Przykład |\n|---|---|\n| cele doskonalenia wynikające z celów biznesowych | skrócić alarm, bo rośnie liczba wyjazdów |\n| analiza danych o stałych przyczynach słabych wyników | stałe opóźnienie w nocy |\n| przegląd nowych technologii i pomysłów | aplikacja zamiast SMS |\n| plan wprowadzania zmian | pilotaż na jednej zmianie |\n\nPA 5.1 **znajduje i wybiera** zmiany. Ich wdrożenie i ocenę efektu sprawdza [[pa-5-2|PA 5.2]].",
+  "poziom3": "Il. 19 (s. 42): „Innowacje procesowe”, Il. 21 (s. 44): „Innowacja procesowa”, egzamin: „Innowacja procesu”. (s. 42): proces optymalizujący jest nieustannie doskonalony w celu realizacji aktualnych i projektowanych celów biznesowych. Szczegóły atrybutu według ISO/IEC 15504-2 to uproszczenie kursu, spoza korpusu.",
+  "przyklady": {
+    "zycie": "Co tydzień robisz zakupy. Analizujesz paragony z trzech miesięcy i widzisz, że zawsze wyrzucasz chleb. Szukasz pomysłów: mrożenie, mniejsze bochenki. Wybór zmiany na podstawie danych to PA 5.1.",
+    "biuro": "Biuro analizuje, gdzie najdłużej leżą dokumenty, i porównuje to z obiegiem elektronicznym w innej firmie. Wybiera e-podpis do pilotażu. To PA 5.1.",
+    "organizacja": "Firma kurierska analizuje dane o opóźnieniach i sprawdza, jakich skanerów używają inni. Zespół wybiera dwie zmiany do próby: nowe trasy i skanery w telefonach. To innowacja procesu.\n\nUrząd analizuje dane o czasie obsługi wniosków i sprawdza, jak e-doręczenia działają w innych gminach. Wybiera jeden pomysł do pilotażu. To PA 5.1.",
+    "psp": "**Najpierw najbliżsi.** Dyżurna Kasia Nowik analizuje raporty czasów z pół roku. Widzi stałe opóźnienie: Syrena wysyła SMS-y według alfabetu, a nie od najbliższej jednostki. Proponuje zmianę kolejności, a Sikora sprawdza też ofertę aplikacji zamiast SMS. Wybór zmian na podstawie danych to PA 5.1.",
+    "it": "Proces BAI08 (zarządzanie wiedzą): dane pokazują, że te same incydenty wracają, więc zespół wybiera do pilotażu bazę gotowych rozwiązań. Wybór zmiany na podstawie danych to PA 5.1."
+  },
+  "glebokosc": {
+    "prosty": "Twój rower jeździ dobrze. Mimo to czytasz o nowych oponach i sprawdzasz w zapiskach, gdzie najczęściej łapiesz gumę. Wybierasz opony, które mogą pomóc. Szukanie i wybór ulepszeń to PA 5.1.",
+    "zaawansowany": "Proces powiadamiania ma [[poziom-4|poziom 4]]. Kasia Nowik analizuje dane z pomiarów i widzi stałe opóźnienie wynikające z kolejności wysyłki. Sikora porównuje to z nowymi rozwiązaniami na rynku. Wybrana zmiana trafia do pilotażu, który oceni [[pa-5-2|optymalizacja procesu]]. Samo wybranie zmian to innowacja procesu.",
+    "skrajny": "Komenda ma skrzynkę pomysłów pełną propozycji dyżurnych. Kusi, żeby dać PA 5.1 = P. Lis pyta jednak, skąd biorą się pomysły: z analizy danych z poziomu 4 i celów komendy czy z przypadkowych przemyśleń? Druga pułapka: komenda kupiła nowy moduł Syreny, bo „jest nowoczesny”. Bez związku z celami doskonalenia to zakup, a nie innowacja procesu. Trzecia: bez poziomu 4 nie ma danych, na których PA 5.1 się opiera. **Rozstrzygnięcie:** PA 5.1 to wybór zmian w procesie na podstawie danych i celów organizacji. Nowa technologia sama w sobie nie jest innowacją procesu (interpretacja kursu według ISO/IEC 15504)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Innowacja procesu to kupno nowej technologii.",
+      "prawda": "To wybór zmian w procesie na podstawie analizy danych i celów doskonalenia. Technologia może być tylko jednym ze źródeł pomysłów."
+    },
+    {
+      "mit": "Innowacja i optymalizacja procesu to to samo.",
+      "prawda": "PA 5.1 znajduje i wybiera zmiany. PA 5.2 je wprowadza i sprawdza, czy dały efekt."
+    },
+    {
+      "mit": "„Innowacje procesowe” i „Innowacja procesu” to dwa atrybuty.",
+      "prawda": "To ten sam PA 5.1. Podręcznik ma dwie formy (Il. 19 i 21), a egzamin używa „Innowacja procesu”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli innowację (wybór zmiany) z optymalizacją (wdrożenie i sprawdzenie efektu).",
+    "jakTlumaczyc": "Kuchnia restauracji: szef testuje nowe przepisy na podstawie opinii gości (PA 5.1), a potem wprowadza najlepszy do karty i sprawdza sprzedaż (PA 5.2).",
+    "pytanieKontrolne": "Zespół przeanalizował dane i wybrał zmianę, ale jeszcze jej nie wprowadził. Który atrybut może już mieć dobrą ocenę?",
+    "odpowiedzKontrolna": "PA 5.1 Innowacja procesu. PA 5.2 wymaga wprowadzenia zmiany i oceny jej efektu."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "pa-5-2",
+      "roznica": "PA 5.2 wprowadza wybrane zmiany i sprawdza ich efekt. PA 5.1 je znajduje i wybiera."
+    },
+    {
+      "termin": "pa-4-2",
+      "roznica": "PA 4.2 koryguje odchylenia, żeby utrzymać proces w limitach. PA 5.1 szuka zmian, które przesuną same limity na lepsze."
+    }
+  ],
+  "przykladWypowiedzi": "PA 5.1 Process innovation, czyli innowacja procesu (w podręczniku: innowacje procesowe), to wybór zmian w procesie na podstawie danych i celów doskonalenia.",
+  "egzamin": "Poziom 5: **innowacja procesu** (PA 5.1) i **optymalizacja procesu** (PA 5.2). Innowacja nie należy do poziomu 4 ani 2.",
+  "powiazane": [
+    "atrybuty-procesu",
+    "poziom-5",
+    "pa-5-2"
+  ],
+  "sylabus": [
+    "PC-01-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "Innowacje procesowe"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 44,
+      "ilustracja": "21",
+      "cytat": "Innowacja procesowa"
+    },
+    {
+      "doc": "SP1"
+    }
+  ],
+  "mapa": "pa-5-1"
+}

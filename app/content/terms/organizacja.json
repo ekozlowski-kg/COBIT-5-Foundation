@@ -1,0 +1,88 @@
+{
+  "id": "organizacja",
+  "en": "Enterprise",
+  "wymowa": "enterprajz",
+  "wymowaAkcent": "EN-ter-prajz",
+  "plEgzamin": "Organizacja",
+  "plPodrecznik": "Przedsiębiorstwo",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Organizacja",
+    "podrecznik": "Przedsiębiorstwo",
+    "kurs": "Organizacja (Enterprise)",
+    "uwaga": "Egzamin PL: „Organizacja”; podręcznik PL: „Przedsiębiorstwo” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 1, 2, 7."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „przedsiębiorstwo”, egzamin: „organizacja”. Chodzi o każdą organizację – także urząd czy jednostkę PSP, nie tylko firmę.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P0",
+  "wymaga": [],
+  "poLudzku": "Firma, urząd, szkoła czy komenda: ludzie, którzy razem robią coś w jakimś celu.",
+  "skadNazwa": "Angielskie *enterprise* podręcznik tłumaczy jako „przedsiębiorstwo”, ale chodzi też o urząd czy komendę. Egzamin mówi „organizacja”.",
+  "wyobrazSobie": "Orkiestra: wielu ludzi z różnymi instrumentami gra razem jeden utwór, bez względu na to, czy koncert jest biletowany, czy charytatywny.",
+  "poCo": "Żeby jednym słowem mówić o każdej zorganizowanej całości z celami: firmie, urzędzie, szpitalu czy jednostce PSP, bo COBIT 5 stosuje się do wszystkich, nie tylko do biznesu.",
+  "jakDziala": "W COBIT 5 organizacja (enterprise) to podmiot, który ma interesariuszy, ich potrzeby i własne cele (enterprise goals). Ład i Zarządzanie IT służą temu, by organizacja te cele osiągała. Podręcznik tłumaczy enterprise jako „przedsiębiorstwo”, a egzamin jako „organizacja”, ale chodzi o to samo, także o sektor publiczny i not-for-profit.",
+  "dlaczegoWazne": "Na egzaminie „organizacja” to angielskie enterprise, np. „Cele organizacji” (enterprise goals) czy „Architektura Korporacyjna” (enterprise architecture). Pułapka: COBIT 5 nie jest tylko dla firm komercyjnych (s. 13).",
+  "poziom1": "Każda zorganizowana całość, która ma swoje cele – firma, urząd, szkoła, fundacja, jednostka PSP (np. piekarnia, starostwo, komenda powiatowa). COBIT 5 jest dla wszystkich, nie tylko dla biznesu; „organizacja” na egzaminie to angielskie *enterprise*, które podręcznik tłumaczy jako „przedsiębiorstwo”.",
+  "poziom2": "COBIT 5 *„ma charakter ogólny i może zostać z powodzeniem wykorzystana w przedsiębiorstwach każdej wielkości, niezależnie od tego, czy mają charakter komercyjny, działają na zasadach not-for-profit, czy też należą do sektora publicznego”* (s. 13).",
+  "poziom3": "Angielskie *enterprise* tłumaczone jest w podręczniku jako „przedsiębiorstwo”, a na egzaminie jako „organizacja” (np. „Cele organizacji”, „Architektura Korporacyjna”).",
+  "przyklady": {
+    "zycie": "Klub szachowy przy osiedlowym domu kultury ma skarbnika, składki i wspólny cel: utrzymać salę i co roku zorganizować turniej. Nikt na tym nie zarabia, a mimo to są pieniądze, ludzie i decyzje do podjęcia. Dla COBIT 5 to też organizacja – nie trzeba być firmą, żeby z niego korzystać.",
+    "biuro": "Pięcioosobowe biuro rachunkowe jest organizacją: ma klientów, cel (rzetelne rozliczenia), szefową, podział zadań i budżet. W tym samym sensie organizacją jest starostwo, w którego budynku biuro wynajmuje pokój.",
+    "firma": "Pani Ania prowadzi jednoosobowy sklep internetowy z ceramiką, a jej brat spółkę z 200 pracownikami. Oboje mają swoje cele, pieniądze i informatykę, od której zależą. Dla COBIT 5 obie firmy są organizacjami, bez względu na wielkość.",
+    "admin": "Szpital powiatowy, urząd gminy i szkoła podstawowa nie zarabiają dla właścicieli, ale mają budżet, ludzi, systemy i cele do osiągnięcia. COBIT 5 wprost mówi, że nadaje się też dla sektora publicznego i not-for-profit. Każda z tych instytucji jest więc organizacją w rozumieniu egzaminu.",
+    "psp": "Komenda powiatowa PSP ma komendanta, JRG, stanowisko kierowania, budżet i systemy, takie jak SWD-PSP. Tak samo komenda wojewódzka i Komenda Główna. Każda z nich jest dla COBIT 5 organizacją (w podręczniku: przedsiębiorstwem), więc może stosować ten sam model.",
+    "it": "Gdy szpital publiczny realizuje APO02 (Zarządzanie strategią), też jest organizacją (enterprise) w rozumieniu COBIT 5: jego cele, np. ciągłość opieki nad pacjentami, są w kaskadzie celów celami organizacji, choć szpital nie działa dla zysku."
+  },
+  "glebokosc": {
+    "prosty": "Słowo „firma” kojarzy się ze sklepem albo fabryką, ale zasady porządnego prowadzenia spraw działają tak samo w szkole, parafii, klubie sportowym czy ochotniczej straży. Wszędzie są ludzie, wspólny cel i ktoś, kto decyduje. Każda taka zorganizowana całość to „organizacja”.",
+    "zaawansowany": "Komenda Miejska PSP w Modrzewiowie nie zarabia pieniędzy, a jednak COBIT 5 stosuje się do niej tak samo jak do spółki, bo Framework obejmuje przedsiębiorstwa komercyjne, not-for-profit i z sektora publicznego. Gdy w pytaniu egzaminacyjnym pada „[[cele-organizacji|cele organizacji]]”, w podręczniku szukaj „celów przedsiębiorstwa”. Dla komendy celami organizacji są np. szybka i pewna pomoc mieszkańcom oraz zgodność z przepisami, a nie zysk. Wartość dla [[interesariusz|interesariuszy]] komendy to przede wszystkim usługa publiczna.",
+    "skrajny": "Komenda w Modrzewiowie jest częścią większej całości: nad nią stoją komenda wojewódzka i Komenda Główna, a obok działa OSP Zawilce jako osobne stowarzyszenie. Co jest więc „organizacją” w rozumieniu COBIT 5? Framework pozwala zdefiniować zakres Ładu na różne sposoby – całe przedsiębiorstwo, jednostka, aktywa – i wymaga, by ten zakres jasno określić (s. 24). Komenda miejska może więc być „organizacją”, dla której buduje się kaskadę celów, o ile wyraźnie to ustalono, a OSP Zawilce pozostaje wtedy partnerem zewnętrznym. Druga pułapka jest językowa: *enterprise* daje w polskich tekstach różne słowa – „organizacja”, „przedsiębiorstwo”, a w zbitkach także „korporacyjny” (Architektura Korporacyjna, ład korporacyjny), co nie oznacza korporacji. **Rozstrzygnięcie:** „organizacja” = *enterprise* = dowolna zorganizowana całość (firma, urząd, komenda), której granice wyznacza zdefiniowany zakres Ładu; „przedsiębiorstwo” i „korporacyjny” to tylko tłumaczenia."
+  },
+  "zagmatwania": [
+    {
+      "mit": "COBIT 5 jest dla firm nastawionych na zysk, więc urząd czy komenda muszą go „przerabiać”.",
+      "prawda": "Framework ma charakter ogólny: dotyczy przedsiębiorstw komercyjnych, not-for-profit i z sektora publicznego (s. 13)."
+    },
+    {
+      "mit": "„Architektura korporacyjna” i „ład korporacyjny” dotyczą tylko korporacji.",
+      "prawda": "„Korporacyjny” to w tych zbitkach tłumaczenie *enterprise* – dotyczy każdej organizacji, także komendy."
+    },
+    {
+      "mit": "Organizacja w COBIT 5 to zawsze cała instytucja, np. cała PSP.",
+      "prawda": "Zakres Ładu można zdefiniować dla całego przedsiębiorstwa, jednostki albo aktywów; trzeba go tylko jasno ustalić (s. 24)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Traktowanie COBIT 5 jako narzędzia wyłącznie dla biznesu i gubienie się w tłumaczeniach *enterprise*.",
+    "jakTlumaczyc": "Zacznij od listy: piekarnia, starostwo, szpital, komenda, fundacja – wszędzie są cele, interesariusze i decyzje. Potem pokaż słowniczek: *enterprise* = „organizacja” (egzamin) = „przedsiębiorstwo” (podręcznik) = „korporacyjny” (w zbitkach).",
+    "pytanieKontrolne": "Czy COBIT 5 nadaje się dla komendy PSP, która nie ma zysku ani udziałowców? Jak wtedy rozumieć „wartość” i „cele organizacji”?",
+    "odpowiedzKontrolna": "Tak, bo COBIT 5 dotyczy przedsiębiorstw komercyjnych, not-for-profit i publicznych. Wartością jest usługa publiczna dla interesariuszy (szybka i pewna pomoc), a cele organizacji wyprowadza się z ich potrzeb, np. ciągłość usług i zgodność z przepisami, a nie zysk."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Firma komercyjna",
+      "roznica": "„Przedsiębiorstwo” w COBIT ≠ tylko firma nastawiona na zysk."
+    }
+  ],
+  "przykladWypowiedzi": "Enterprise, czyli organizacja (w podręczniku „przedsiębiorstwo”), to w COBIT 5 każdy podmiot z celami, także urząd czy jednostka not-for-profit, a enterprise goals to cele organizacji.",
+  "egzamin": "Gdy w pytaniu widzisz „organizacja”, w podręczniku szukaj „przedsiębiorstwo”.",
+  "powiazane": [
+    "cele-organizacji"
+  ],
+  "sylabus": [
+    "M0-00-08"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 13,
+      "cytat": "niezależnie od tego, czy mają charakter komercyjny, działają na zasadach not-for-profit, czy też należą do sektora publicznego"
+    },
+    {
+      "doc": "SP1"
+    }
+  ]
+}

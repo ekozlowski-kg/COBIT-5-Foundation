@@ -1,0 +1,108 @@
+{
+  "id": "zasady-operacyjne",
+  "en": "Operating principles",
+  "wymowa": "operejting prinsiplz",
+  "wymowaAkcent": "O-pe-rej-ting PRIN-si-plz",
+  "plEgzamin": "Zasady operacyjne",
+  "plPodrecznik": "Zasady działania",
+  "plInne": [
+    {
+      "nazwa": "Zasady wykonawcze",
+      "zrodlo": "SP1 (uzasadnienie)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Zasady operacyjne",
+    "podrecznik": "Zasady działania",
+    "kurs": "Zasady operacyjne (Operating principles)",
+    "uwaga": "Egzamin PL: „Zasady operacyjne”; podręcznik PL: „Zasady działania” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 30, 72, 75. Inne formy w obiegu: Zasady wykonawcze (SP1 (uzasadnienie))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „zasady operacyjne” (czasem „zasady wykonawcze”). Podręcznik: „zasady działania”. Nie myl z „zasadami” z aktywatora 1, czyli z wartościami organizacji.",
+  "skadNazwa": "*Operating principles*. Podręcznik: „zasady działania”, egzamin: „zasady operacyjne”. Słowo *principles* nie oznacza tu wartości organizacji, tylko praktyczne reguły pracy zespołu.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "struktury-organizacyjne",
+    "dobre-praktyki-struktur"
+  ],
+  "mapa": "zasady-operacyjne",
+  "poziom1": "Zasady operacyjne to praktyczne ustalenia, jak działa zespół czy komitet. Ile razy się spotyka, jak dokumentuje ustalenia, jak dba o porządek zebrań. To pierwsza z dobrych praktyk struktur organizacyjnych.",
+  "poLudzku": "Ustalenia, jak zespół pracuje: jak często się spotyka, jak notuje i jak prowadzi zebrania.",
+  "wyobrazSobie": "Regulamin zebrań wspólnoty: kiedy się spotykamy, kto prowadzi, kto pisze protokół.",
+  "poCo": "Żeby zespół decyzyjny pracował przewidywalnie i zostawiał ślad swoich ustaleń.",
+  "jakDziala": "Struktura ustala, jak często się zbiera, jak dokumentuje decyzje i jak prowadzi posiedzenia. Te ustalenia oraz mandat struktury określa wdrożona struktura polityk. Zasady operacyjne mówią, JAK zespół pracuje, a nie JAKIE decyzje może podjąć.",
+  "dlaczegoWazne": "Egzamin mówi „zasady operacyjne”, podręcznik „zasady działania”, a słowo „zasady” myli się z wartościami z aktywatora 1.",
+  "poziom2": "| Element zasad operacyjnych | Przykład |\n|---|---|\n| **częstotliwość zebrań** | raz w miesiącu, terminy ogłoszone z góry |\n| **reguły dokumentacji** | protokół w 3 dni, rejestr decyzji |\n| **porządek zebrań** | porządek obrad, kworum, kto prowadzi |\n\nZasady działania i **mandat** struktury określa wdrożona **struktura polityk** (s. 75). Celem aktywatora jest m.in. posiadanie „dobrze zdefiniowanych zasad działania”.",
+  "poziom3": "(s. 75): *„Zasady działania — praktyczne ustalenia dotyczące sposobu działania struktury, np. częstotliwość zebrań, reguły dokumentacji i zachowania właściwego porządku”*. *„Mandat i zasady działania struktur organizacyjnych są określone we wdrożonej strukturze polityk.”*",
+  "przyklady": {
+    "zycie": "Rada rodziców w szkole spotyka się w pierwszy wtorek miesiąca. Ktoś zawsze pisze notatkę i rozsyła ją w grupie. Zebranie ma porządek obrad i trwa najwyżej godzinę. To zasady operacyjne tej rady.",
+    "biuro": "Zespół projektowy w biurze ustala: odprawa w poniedziałki o 9, notatka z ustaleń w ciągu dnia, prowadzący zmienia się co tydzień. To zasady operacyjne zespołu.",
+    "organizacja": "Zarząd spółdzielni mleczarskiej zbiera się co dwa tygodnie. Każde zebranie ma prowadzącego, a kończy się protokołem z listą decyzji. To zasady operacyjne zarządu. Komisja do spraw zakupów w starostwie ma regulamin: posiedzenia raz w miesiącu, kworum trzech osób, protokół w ciągu trzech dni. Te ustalenia to zasady operacyjne komisji.",
+    "psp": "Komendantka Anna Wrzos powołuje w Modrzewiowie Radę ds. Informatyki. Pierwsze posiedzenie ustala: spotkania w pierwszy poniedziałek miesiąca, protokół pisze dyżurna Kasia Nowik i rozsyła go w 3 dni. Bez wpisu do protokołu decyzja się nie liczy. To zasady operacyjne Rady.",
+    "it": "Komitet ds. strategii (wykonawczy IT) z il. 33 potrzebuje ustalonych terminów posiedzeń i rejestru decyzji. Bez tego nie widać, jak rozliczał portfele inwestycji IT."
+  },
+  "glebokosc": {
+    "prosty": "Grupa przyjaciół gra w planszówki w każdy czwartek o 19. Gospodarz się zmienia, a wyniki zapisują w zeszycie. Nikt nie musi pytać, kiedy i gdzie gramy. To zasady operacyjne grupy.",
+    "zaawansowany": "Rada ds. Informatyki komendy ma zasady operacyjne: zebrania co miesiąc, protokół w 3 dni. Na drugim zebraniu naczelnik Sikora proponuje, żeby Rada sama zatwierdzała zakupy sprzętu. To już nie zasada operacyjna, tylko [[poziom-uprawnien|poziom uprawnień]]. Komendantka przypomina, że mandat i zasady działania Rady wynikają z polityk komendy, czyli ze [[struktura-ramowa-polityki|struktury polityk]].",
+    "skrajny": "Pytanie: „Rada ustaliła, że decyzje zapadają zwykłą większością głosów przy kworum trzech osób”. Czy to zasady operacyjne, czy poziom uprawnień? Kusi poziom uprawnień, bo mowa o decyzjach. Ale ustalenie mówi, JAK Rada podejmuje decyzje, a nie JAKIE decyzje wolno jej podjąć. To praktyczna reguła pracy zespołu, więc zasady operacyjne. Gdyby brzmiało „Rada zatwierdza zakupy do 30 tys. zł”, byłby to poziom uprawnień. **Rozstrzygnięcie:** zasady operacyjne opisują sposób pracy struktury (zebrania, dokumentacja, porządek). Rodzaj dozwolonych decyzji to poziom uprawnień (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Zasady operacyjne to wartości, którymi kieruje się zespół.",
+      "prawda": "Wartości to zasady z aktywatora 1. Zasady operacyjne to praktyczne reguły: zebrania, protokoły, porządek."
+    },
+    {
+      "mit": "Każda reguła dotycząca decyzji to poziom uprawnień.",
+      "prawda": "Reguła o tym, JAK zespół głosuje czy dokumentuje decyzje, to zasada operacyjna. Poziom uprawnień mówi, JAKIE decyzje wolno podjąć."
+    },
+    {
+      "mit": "Zespół sam wymyśla swoje zasady działania, poza politykami.",
+      "prawda": "Mandat i zasady działania struktur określa wdrożona struktura polityk (s. 75)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli „zasady operacyjne” z „zasadami” (principles) z aktywatora 1, bo słowo jest to samo.",
+    "jakTlumaczyc": "Zapytaj: czy to ustalenie zmieni się, jeśli zespół zacznie spotykać się przez internet? Jeśli tak, to zasada operacyjna, bo dotyczy sposobu pracy.",
+    "pytanieKontrolne": "Komitet ustala, że posiedzenie trwa najwyżej godzinę, a protokół trafia do członków w 2 dni. Którą dobrą praktykę struktur stosuje?",
+    "odpowiedzKontrolna": "**Zasady operacyjne** (podręcznik: zasady działania): praktyczne ustalenia o częstotliwości zebrań, dokumentacji i porządku."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "zasady-polityki-struktury",
+      "roznica": "Zasady w aktywatorze 1 to wartości organizacji (np. „bezpieczeństwo ratowników przede wszystkim”). Zasady operacyjne to reguły pracy jednego zespołu."
+    },
+    {
+      "termin": "zakres-kontroli",
+      "roznica": "Zasady operacyjne mówią, JAK zespół pracuje. Zakres kontroli mówi, CZEGO dotyczą jego decyzje."
+    }
+  ],
+  "przykladWypowiedzi": "Operating principles, czyli zasady operacyjne, are the practical arrangements for how a structure works, such as meeting frequency and documentation.",
+  "egzamin": "Terminy zebrań, protokoły, częstotliwość posiedzeń, porządek obrad → **zasady operacyjne**. Nie myl z zasadami (principles) z aktywatora 1.",
+  "powiazane": [
+    "dobre-praktyki-struktur",
+    "struktury-organizacyjne",
+    "zakres-kontroli",
+    "struktura-ramowa-polityki"
+  ],
+  "sylabus": [
+    "EN-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 75,
+      "cytat": "praktyczne ustalenia dotyczące sposobu działania struktury"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 75,
+      "cytat": "Mandat i zasady działania struktur organizacyjnych są określone we wdrożonej strukturze polityk."
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ]
+}

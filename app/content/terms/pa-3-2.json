@@ -1,0 +1,106 @@
+{
+  "id": "pa-3-2",
+  "en": "PA 3.2 Process deployment",
+  "wymowa": "piej 3 2 prołses diplojment",
+  "wymowaAkcent": "pi-ej 3 2 PROŁ-ses di-PLOJ-ment",
+  "plEgzamin": "PA 3.2 Wdrożenie procesu",
+  "plPodrecznik": "PA 3.2 Wdrożenie procesu",
+  "plInne": [
+    {
+      "nazwa": "Wdrażanie procesu",
+      "zrodlo": "FW-PL s. 44, Il. 21"
+    }
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "PA 3.2 Wdrożenie procesu",
+    "podrecznik": "PA 3.2 Wdrożenie procesu",
+    "kurs": "PA 3.2 Wdrożenie procesu (PA 3.2 Process deployment)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Inne formy w obiegu: Wdrażanie procesu (FW-PL s. 44, Il. 21)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Wdrożenie procesu” (PA 3.2) nie znaczy „uruchomienie procesu po raz pierwszy” ani „wdrożenie COBIT 5” w 7 fazach. To stosowanie standardu w każdym wykonaniu procesu.",
+  "skadNazwa": "Z angielskiego *Process deployment*, czyli „rozwinięcie” standardu w całej organizacji. Polskie „wdrożenie” kojarzy się z jednorazowym projektem.",
+  "kategoria": "egzaminacyjne",
+  "status": "uproszczenie",
+  "poziomP": "P3",
+  "wymaga": [
+    "pa-3-1"
+  ],
+  "poziom1": "Drugi atrybut poziomu 3. Sprawdza, czy standardowy proces jest faktycznie stosowany w każdym wykonaniu, z kompetentnymi ludźmi, zasobami i infrastrukturą, oraz czy zbiera się dane o jego działaniu.",
+  "poLudzku": "Czy wszyscy naprawdę robią tę robotę wspólnym sposobem i mają do tego ludzi oraz sprzęt.",
+  "wyobrazSobie": "Instrukcja ewakuacji, którą wszyscy znają, bo ćwiczyli ją na próbnym alarmie.",
+  "poCo": "Żeby standard działał w praktyce, a nie tylko na papierze.",
+  "jakDziala": "Asesor sprawdza, czy każde wykonanie opiera się na standardzie, czy role są przydzielone, ludzie mają kompetencje i infrastrukturę. Sprawdza też, czy zbiera się dane o tym, jak standard działa.",
+  "dlaczegoWazne": "Bez PA 3.2 nie ma poziomu 3, nawet przy świetnym dokumencie. Nazwa myli się z wdrożeniem COBIT 5 w 7 fazach.",
+  "poziom2": "| Co sprawdza asesor (uproszczenie według ISO/IEC 15504) | Przykład |\n|---|---|\n| każde wykonanie opiera się na standardzie | zmiana nocna też według procedury |\n| role i obowiązki przydzielone | kto jest dyżurnym, kto zastępcą |\n| ludzie mają kompetencje | szkolenia, uprawnienia |\n| zasoby i infrastruktura dostępne | serwer, zasilanie awaryjne |\n| dane o działaniu zbierane i analizowane | czy standard się sprawdza |\n\nFramework (s. 42) mówi, że poziom 3 wymaga **zdefiniowania** procesu oraz osiągnięcia w znacznym stopniu atrybutów **wdrożenia**.",
+  "poziom3": "(s. 42): poziom 3 *„wymaga zdefiniowania procesu oraz osiągnięcia (w znacznym stopniu) atrybutów wdrożenia”*, oprócz pełnego osiągnięcia atrybutów poziomu 2. Il. 21 (s. 44): „Wdrażanie procesu”. Szczegóły atrybutu według ISO/IEC 15504-2 to uproszczenie kursu, spoza korpusu.",
+  "przyklady": {
+    "zycie": "Rodzina ma spisaną listę rzeczy na wakacje (PA 3.1). PA 3.2 sprawdza, czy każdy naprawdę pakuje się według niej i czy ma do tego walizkę. Lista w szufladzie, której nikt nie czyta, nie jest wdrożeniem.",
+    "biuro": "Kontrolerka sprawdza w trzech biurach firmy, czy delegacje są rozliczane według wspólnej instrukcji i czy księgowe przeszły z niej szkolenie. W jednym biurze nikt jej nie zna, więc PA 3.2 wypada słabo.",
+    "organizacja": "Sieć kawiarni ma instrukcję otwierania lokalu. Kontrolerka sprawdza w pięciu kawiarniach, czy pracownicy ją znają, przeszli szkolenie i mają potrzebny sprzęt. W dwóch nikt o instrukcji nie słyszał, więc PA 3.2 wypada słabo.\n\nPowiat ma wzorcowy regulamin skarg. Kontrola sprawdza, czy każda jednostka go stosuje, czy wyznaczyła osoby i czy te osoby przeszły szkolenie. To PA 3.2.",
+    "psp": "**Tryb awaryjny zna tylko Grab.** Procedura powiadamiania ma wariant na awarię zasięgu. Audytorka Ewa Lis pyta dyżurnych z każdej zmiany, jak go uruchomić. Odpowiada tylko asp. sztab. Paweł Grab, a Kasia Nowik nigdy go nie ćwiczyła. Standard jest, ale nie działa w każdym wykonaniu, więc PA 3.2 wypada słabo.",
+    "it": "Proces DSS02: asesor pyta pracowników wsparcia z każdej zmiany, jak obsługują incydent krytyczny, i sprawdza, czy mają szkolenie i dostęp do narzędzia. To ocena PA 3.2."
+  },
+  "glebokosc": {
+    "prosty": "Szkoła wiesza w każdej klasie instrukcję ewakuacji. Na próbnym alarmie okazuje się, że w połowie klas nikt jej nie przeczytał. Instrukcja jest, ale w praktyce nie działa. PA 3.2 sprawdza właśnie praktykę.",
+    "zaawansowany": "Sikora ma podpisaną procedurę ([[pa-3-1|definicja procesu]]). Ewa Lis sprawdza wdrożenie: czy każda zmiana SK z niej korzysta, czy dyżurni mają szkolenie i czy Syrena ma zasilanie awaryjne. Pyta też, czy ktoś zbiera dane o tym, czy procedura się sprawdza. W na obu atrybutach poziomu 3, przy P niżej, daje [[poziom-3|poziom 3]].",
+    "skrajny": "Pułapka słowa: Sikora prowadzi wdrożenie COBIT 5 w 7 fazach i myśli, że to właśnie PA 3.2. To dwie różne rzeczy. Wdrożenie COBIT 5 to program zmian w całej organizacji, a PA 3.2 to atrybut jednego procesu: czy jego standard działa w każdym wykonaniu. Druga pułapka: serwer pod schodami bez zasilania awaryjnego wygląda na sprawę infrastruktury, a nie oceny procesu. Jednak PA 3.2 sprawdza też, czy proces ma potrzebną infrastrukturę. **Rozstrzygnięcie:** PA 3.2 = standard stosowany w praktyce, z ludźmi, kompetencjami i infrastrukturą. Nie myl go z wdrożeniem COBIT 5 (interpretacja kursu według ISO/IEC 15504)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wdrożenie procesu to jednorazowe uruchomienie nowego procesu.",
+      "prawda": "To stałe stosowanie standardu w każdym wykonaniu, sprawdzane w czasie oceny."
+    },
+    {
+      "mit": "PA 3.2 to to samo, co wdrożenie COBIT 5 w 7 fazach.",
+      "prawda": "7 faz to program wdrażania Ładu IT w całej organizacji. PA 3.2 to atrybut jednego procesu w ocenie zdolności."
+    },
+    {
+      "mit": "Do poziomu 3 wystarczy dobry standard.",
+      "prawda": "Framework wymaga zdefiniowania procesu i w znacznym stopniu jego wdrożenia. Standard, którego nikt nie stosuje, nie daje poziomu 3."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń ocenia PA 3.2 po samym dokumencie i nie pyta ludzi, jak pracują.",
+    "jakTlumaczyc": "Zaproponuj „test korytarza”: zapytaj trzy losowe osoby z różnych zmian, jak robią daną rzecz. Jeśli opisują standard, wdrożenie działa.",
+    "pytanieKontrolne": "Standard jest spisany i zatwierdzony (PA 3.1 = P), ale stosuje go tylko jedna z trzech zmian. Czy proces może mieć poziom 3?",
+    "odpowiedzKontrolna": "Nie. PA 3.2 wypadnie najwyżej na C, a poziom 3 wymaga co najmniej **W** na obu atrybutach poziomu 3."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "pa-3-1",
+      "roznica": "PA 3.1 ocenia sam standard (wzorzec). PA 3.2 ocenia, czy wzorzec jest stosowany w praktyce."
+    },
+    {
+      "termin": "fazy-wdrozenia",
+      "roznica": "7 faz to cykl wdrażania COBIT 5 w organizacji. PA 3.2 to atrybut oceny jednego procesu."
+    }
+  ],
+  "przykladWypowiedzi": "PA 3.2 Process deployment, czyli wdrożenie procesu, sprawdza, czy standardowy proces jest stosowany w każdym wykonaniu, z kompetentnymi ludźmi i potrzebną infrastrukturą.",
+  "egzamin": "PA 3.2 **Wdrożenie procesu** to drugi atrybut poziomu 3 (ustanowionego). Nie myl go z fazami wdrożenia COBIT 5.",
+  "powiazane": [
+    "atrybuty-procesu",
+    "poziom-3",
+    "pa-3-1",
+    "fazy-wdrozenia"
+  ],
+  "sylabus": [
+    "PC-01-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "wymaga zdefiniowania procesu oraz osiągnięcia (w znacznym stopniu) atrybutów wdrożenia"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 44,
+      "ilustracja": "21",
+      "cytat": "Wdrażanie procesu"
+    }
+  ],
+  "mapa": "pa-3-2"
+}

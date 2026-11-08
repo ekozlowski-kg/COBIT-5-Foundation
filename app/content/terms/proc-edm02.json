@@ -1,0 +1,116 @@
+{
+  "id": "proc-edm02",
+  "en": "EDM02 Ensure Benefits Delivery",
+  "wymowa": "idiem 02 inszor benefits deliweri",
+  "wymowaAkcent": "i-di-EM 02 in-SZOR BE-ne-fits de-LI-we-ri",
+  "plEgzamin": "EDM02 Zapewnienie realizacji korzyści",
+  "plPodrecznik": "EDM02 Zapewnienie realizacji korzyści",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "EDM02 Zapewnienie realizacji korzyści",
+    "podrecznik": "EDM02 Zapewnienie realizacji korzyści",
+    "kurs": "EDM02 Zapewnienie realizacji korzyści (EDM02 Ensure Benefits Delivery)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 58."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie EDM02 i słowie kluczowym EN *Benefits*. Nie myl z BAI01 (doprowadzenie projektu do końca) ani z APO05 (portfel). „Realizacja” znaczy tu, że korzyść ma się naprawdę pojawić, a nie że projekt ma się zakończyć.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "lad",
+    "edm",
+    "realizacja-korzysci",
+    "uzasadnienie-biznesowe"
+  ],
+  "poLudzku": "Szefostwo pilnuje, żeby pieniądze wydane na informatykę dały prawdziwy pożytek, a nie tylko nowe urządzenia.",
+  "wyobrazSobie": "Inwestor, który po roku pyta nie „czy budowa się skończyła”, tylko „czy mieszkania się sprzedały”.",
+  "poCo": "Żeby pieniądze wydane na IT dawały organizacji prawdziwą korzyść, a nie kończyły się na zakupie i wdrożeniu.",
+  "jakDziala": "Organ Ładu ocenia, jakiej wartości oczekuje od inwestycji i usług IT. Kieruje priorytetami i wymaga uzasadnień biznesowych. Monitoruje, czy korzyści przyszły, i decyduje: kontynuować, poprawić albo zakończyć.",
+  "dlaczegoWazne": "EDM02 to pierwszy z trzech składników Celu Ładu (korzyści). Egzamin sprawdza, czy odróżniasz ocenę wartości przez Ład od portfela (APO05) i projektu (BAI01).",
+  "skadNazwa": "EN *Ensure Benefits Delivery*, czyli „zapewnij dostarczenie korzyści”. Proces czerpie z modelu Val IT (wartość inwestycji IT), który COBIT 5 wchłonął. Polskie „realizacja” łatwo pomylić z „realizacją projektu”.",
+  "poziom1": "Proces Ładu o wartości. Organ Ładu ocenia, kieruje i monitoruje, czy inwestycje, usługi i aktywa IT dają organizacji korzyść. To pierwszy z trzech składników Celu Ładu.",
+  "poziom2": "**Czym się zajmuje:** ustala, czego oczekujemy od inwestycji w IT, i rozlicza, czy korzyść naprawdę przyszła.\n\n**Wejścia (intuicja):** strategia organizacji, [[uzasadnienie-biznesowe|uzasadnienia biznesowe]], raporty o portfelu inwestycji i ich wynikach.\n\n**Wyjścia (intuicja):** zasady oceny wartości, priorytety inwestycji, decyzje „kontynuuj, popraw, zakończ”.\n\n**Współpraca:** kierunek realizują [[proc-apo05]] (portfel) i [[proc-apo06]] (budżet). Pojedyncze projekty prowadzi BAI01, a wyniki mierzy MEA01.",
+  "poziom3": "Il. 16 (s. 33): „EDM02 Zapewnienie realizacji korzyści”. Załącznik E (s. 58): przy procesie EDM02 Framework opisuje, w jaki sposób *„realizacja celów strategicznych powinna być poparta odpowiednimi uzasadnieniami biznesowymi”*. Słownik (s. 89): realizacja korzyści to *„Uzyskiwanie przez przedsiębiorstwo nowych korzyści, utrzymanie i rozszerzenie istniejących form korzyści oraz wyeliminowanie inicjatyw i zasobów, które nie generują wystarczającej wartości.”* Opis praktyk i działań procesu jest w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Kupiliście robota sprzątającego za 1500 zł. Po trzech miesiącach pytacie: czy naprawdę mamy więcej wolnego czasu? Jeśli robot stoi w szafie, korzyści nie ma, choć zakup się „udał”. Pilnowanie tej różnicy to EDM02.",
+    "biuro": "Biuro kupiło skaner dokumentów, żeby szybciej odpowiadać klientom. Po kwartale kierownik sprawdza, czy odpowiedzi rzeczywiście są szybsze. Jeśli nie, zmienia sposób pracy albo przestaje płacić za abonament.",
+    "organizacja": "Zarząd sklepu internetowego zatwierdził nową bramkę płatności, bo miała zmniejszyć porzucanie koszyków. Pół roku po wdrożeniu zarząd sprawdza, czy porzuceń jest mniej. Nie liczy, czy projekt skończył się w terminie. Liczy, czy przyszła korzyść. Rada powiatu dała pieniądze na e-rejestrację pojazdów. Po roku pyta starostę: o ile skróciły się kolejki? Gdy korzyści brak, rada każe poprawić usługę albo przestać na nią wydawać. To EDM02.",
+    "psp": "**Ile jest warta minuta.** Pół roku po naprawie Syreny komendantka Anna Wrzos pyta: czy alarm do OSP dochodzi szybciej? Księgowa Halina Mak pokazuje uzasadnienie biznesowe, a naczelnik Sikora czasy z ćwiczeń. Wrzos ocenia, czy korzyść przyszła, i decyduje o dalszych pieniądzach. To jest [[proc-edm02|EDM02]].",
+    "it": "Rada nadzorcza przegląda portfel inwestycji IT z mierzonymi korzyściami (np. czas obsługi klienta). Ocenę wartości i decyzje o dalszym finansowaniu podejmuje w EDM02, a portfel układa [[proc-apo05]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-apo05",
+      "roznica": "APO05 (Zarządzanie) wybiera i równoważy inwestycje w portfelu. EDM02 (Ład) ustala, jakiej wartości oczekujemy, i ocenia, czy ją dostajemy."
+    },
+    {
+      "termin": "proc-bai01",
+      "roznica": "BAI01 dowozi projekt: zakres, termin, budżet. EDM02 pyta, czy z dowiezionego projektu jest pożytek."
+    },
+    {
+      "termin": "realizacja-korzysci",
+      "roznica": "Realizacja korzyści to składnik Celu Ładu (pojęcie). EDM02 to proces, który ten składnik zapewnia."
+    }
+  ],
+  "przykladWypowiedzi": "EDM02 *Ensure Benefits Delivery*, czyli „Zapewnienie realizacji korzyści”, rozlicza wartość inwestycji IT na poziomie Ładu; wybór inwestycji w portfelu to APO05 *Manage Portfolio*.",
+  "egzamin": "EDM02 = Ład + **korzyści i wartość**. Razem z [[proc-edm03]] i [[proc-edm04]] odpowiada trzem składnikom Celu Ładu: korzyści, ryzyko, zasoby. Słowa „wartość inwestycji”, „uzasadnienie biznesowe” na poziomie organu Ładu → EDM02.",
+  "powiazane": [
+    "edm",
+    "realizacja-korzysci",
+    "tworzenie-wartosci",
+    "uzasadnienie-biznesowe",
+    "proc-apo05",
+    "proc-apo06",
+    "proc-bai01"
+  ],
+  "sylabus": [
+    "PR-01-03",
+    "PR-02-01"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "EDM02 Zapewnienie realizacji korzyści"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 58,
+      "cytat": "realizacja celów strategicznych powinna być poparta odpowiednimi uzasadnieniami biznesowymi"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 89,
+      "cytat": "Uzyskiwanie przez przedsiębiorstwo nowych korzyści, utrzymanie i rozszerzenie istniejących form korzyści oraz wyeliminowanie inicjatyw i zasobów, które nie generują wystarczającej wartości."
+    }
+  ],
+  "mapa": "proc-edm02",
+  "glebokosc": {
+    "prosty": "Kupujesz rower, żeby jeździć do pracy i oszczędzać na biletach. Po miesiącu sprawdzasz: jeździsz czy rower stoi? Sam zakup to nie korzyść. Korzyść to mniejsze wydatki i lepsza kondycja.",
+    "zaawansowany": "Komendantka Wrzos zatwierdza pieniądze na zasilanie awaryjne serwera Syreny. Oczekuje korzyści: alarm ma działać także bez prądu z sieci. Naczelnik Sikora ustawia tę inwestycję w portfelu ([[proc-apo05]]), a projekt prowadzi jego zespół. Po ćwiczeniu nocnym Wrzos sprawdza, czy Syrena zadziałała. Ocena wartości i decyzja o dalszych pieniądzach to EDM02.",
+    "skrajny": "Projekt zasilania awaryjnego skończył się w terminie i w budżecie. Kierownik projektu raportuje sukces. Ale nikt nie przeszkolił dyżurnych, więc przy braku prądu nie umieją przełączyć Syreny. Z punktu widzenia projektu wszystko gra. Z punktu widzenia EDM02 korzyści nie ma. Organ Ładu ocenia wartość dla organizacji, a nie samo dowiezienie projektu. **Rozstrzygnięcie:** „projekt zakończony” to jeszcze nie „korzyść zrealizowana”. Wartość rozlicza Ład (EDM02), a projekt prowadzi Zarządzanie (BAI01)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "EDM02 prowadzi projekty, żeby korzyści się pojawiły.",
+      "prawda": "EDM02 nie prowadzi projektów. Ocenia, kieruje i monitoruje wartość. Projekty prowadzi BAI01, a portfel APO05."
+    },
+    {
+      "mit": "Korzyść to zawsze zysk w złotówkach.",
+      "prawda": "W COBIT korzyść może być niefinansowa, np. szybsza pomoc dla mieszkańców. Liczy się wartość dla interesariuszy."
+    },
+    {
+      "mit": "Realizacja korzyści to inaczej realizacja projektu.",
+      "prawda": "„Realizacja” znaczy tu „osiągnięcie”. Korzyść przychodzi często dopiero po zakończeniu projektu, w codziennym użyciu."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera EDM02 przy każdym pytaniu o inwestycje, także gdy chodzi o wybór projektów w portfelu (APO05).",
+    "jakTlumaczyc": "Zapytaj: „Kto podpisuje czek, a potem rozlicza efekt?” To Ład, czyli EDM02. „Kto układa listę zakupów, żeby zmieścić się w czeku?” To Zarządzanie, czyli APO05.",
+    "pytanieKontrolne": "Projekt skończył się w terminie, ale nikt z nowego systemu nie korzysta. Czy cel EDM02 został osiągnięty?",
+    "odpowiedzKontrolna": "Nie. EDM02 dotyczy osiągnięcia wartości, a nie zakończenia projektu. Organ Ładu powinien to wykryć i skierować działania naprawcze."
+  }
+}

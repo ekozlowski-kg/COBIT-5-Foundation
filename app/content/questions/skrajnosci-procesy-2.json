@@ -1,0 +1,1063 @@
+{
+  "pytania": [
+    {
+      "id": "q-sk-proc-bai01-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Który wniosek o roli [[proc-bai01]] jest **najbardziej trafny**?",
+      "scenariusz": "Projekt „Naprawa Syreny” w Komendzie Miejskiej PSP w Modrzewiowie skończył się w terminie i w budżecie. Dostawca oddał moduł zgodny z umową. Po trzech miesiącach OSP Zawilce nadal dostaje alarm z opóźnieniem.",
+      "opcje": [
+        {
+          "tekst": "Projekt zakończył się sukcesem, bo BAI01 rozlicza wyłącznie termin, budżet i zakres.",
+          "poprawna": false,
+          "wyjasnienie": "Termin i budżet to tylko część. BAI01 prowadzi projekt z myślą o korzyściach i obejmuje przegląd po wdrożeniu.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "BAI01 powinien w przeglądzie po wdrożeniu sprawdzić, czy projekt dał obiecaną korzyść, i wyciągnąć wnioski.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Projekt dowiózł rezultat, ale nie korzyść. Przegląd po wdrożeniu i wnioski należą do BAI01, a szefostwo ocenia korzyści w EDM02."
+        },
+        {
+          "tekst": "To sprawa portfela (APO05), bo to portfel prowadzi projekty od startu do zamknięcia.",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie. Portfel wybiera i ustala priorytety inwestycji. Prowadzenie projektu od startu do zamknięcia to BAI01.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Skoro system działa zgodnie z umową, korzyść nie ma już znaczenia dla żadnego procesu.",
+          "poprawna": false,
+          "wyjasnienie": "Fałsz. Cały COBIT 5 mierzy sukces wartością dla interesariuszy, a nie samą zgodnością z umową.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai01"
+    },
+    {
+      "id": "q-sk-proc-bai02-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Który zapis należy do [[proc-bai02]], a **nie** do budowy rozwiązania w BAI03?",
+      "scenariusz": "Kpt. Sikora i firma Kwant-Sygnał wymieniają dokumenty o poprawionej Syrenie. Wszystkie zapisy brzmią technicznie, więc dyżurna Kasia Nowik nie wie, który dokument jest „wymaganiami”.",
+      "opcje": [
+        {
+          "tekst": "„Alarm do OSP ma dojść w 30 sekund także wtedy, gdy w komendzie nie działa internet”.",
+          "poprawna": true,
+          "wyjasnienie": "To wymaganie: mówi, CO ma być spełnione. Może brzmieć technicznie, a i tak należy do BAI02."
+        },
+        {
+          "tekst": "„Zapasowa bramka SMS modelu X, podłączona przez port szeregowy do serwera komendy”.",
+          "poprawna": false,
+          "wyjasnienie": "To opis wybranego rozwiązania, czyli JAK spełnić wymaganie. Projekt i budowa to BAI03.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "„Dyżurni przeprowadzą test scenariusza pożaru w Zawilcach na stanowisku zapasowym”.",
+          "poprawna": false,
+          "wyjasnienie": "To test akceptacyjny z użytkownikami, czyli BAI07. Sprawdza wymagania, ale ich nie definiuje.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "„Rada ds. Informatyki zatwierdza wgranie poprawki we wtorek o 8:00”.",
+          "poprawna": false,
+          "wyjasnienie": "To autoryzacja i harmonogram zmiany, czyli BAI06.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai02"
+    },
+    {
+      "id": "q-sk-proc-bai03-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które przyporządkowanie dwóch rodzajów testów jest **poprawne**?",
+      "scenariusz": "Kwant-Sygnał w swoim laboratorium sprawdza, czy nowa bramka SMS współpracuje z Syreną. Tydzień później dyżurni Grab i Nowik na stanowisku zapasowym przechodzą scenariusz pożaru i potwierdzają, że alarm dochodzi do OSP.",
+      "opcje": [
+        {
+          "tekst": "Oba testy to BAI07, bo każdy test to akceptacja zmiany.",
+          "poprawna": false,
+          "wyjasnienie": "Nie każdy test to akceptacja. Test zespołu budującego należy do BAI03.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Test w laboratorium dostawcy to BAI03, a test scenariuszy z dyżurnymi to BAI07.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. BAI03 sprawdza, czy rozwiązanie zbudowano poprawnie. BAI07 – czy użytkownicy je przyjmują i można przejść do eksploatacji."
+        },
+        {
+          "tekst": "Test w laboratorium to BAI07, a test z dyżurnymi to BAI03.",
+          "poprawna": false,
+          "wyjasnienie": "Przyporządkowanie odwrócone. Dostawca testuje budowę (BAI03), użytkownicy odbierają (BAI07).",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Oba testy to BAI02, bo sprawdzają spełnienie wymagań.",
+          "poprawna": false,
+          "wyjasnienie": "Testy porównują rozwiązanie z wymaganiami, ale samo definiowanie wymagań to BAI02. Testy są w BAI03 i BAI07.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai03"
+    },
+    {
+      "id": "q-sk-proc-bai04-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Który proces COBIT 5 odpowiada za **pierwsze** zmartwienie Sikory?",
+      "scenariusz": "Kpt. Sikora ma dwa zmartwienia. Pierwsze: w sylwestra Syrena może dostać dziesięć razy więcej zgłoszeń niż zwykle. Drugie: serwer stoi pod schodami bez zasilania awaryjnego i może go zalać.",
+      "opcje": [
+        {
+          "tekst": "BAI04 – trzeba zaplanować pojemność i dostępność Syreny na przewidywany szczyt zgłoszeń.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Szczyt to wciąż normalne działanie, tylko w tłoku. Prognoza obciążenia i plan mocy to BAI04."
+        },
+        {
+          "tekst": "DSS04 – bo chodzi o to, żeby Syrena działała mimo trudnych warunków.",
+          "poprawna": false,
+          "wyjasnienie": "DSS04 przygotowuje przetrwanie poważnego zakłócenia, np. zalania serwera. To jest drugie zmartwienie Sikory, nie pierwsze.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS01 – bo eksploatacja na bieżąco monitoruje obciążenie serwera.",
+          "poprawna": false,
+          "wyjasnienie": "DSS01 dostarcza dane o obciążeniu, ale prognozowanie i planowanie pojemności to BAI04.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "APO09 – bo umowa o poziomie usług określa, ile alarmów ma obsłużyć Syrena.",
+          "poprawna": false,
+          "wyjasnienie": "APO09 uzgadnia obiecany poziom usług. Plan, jak go spełnić w szczycie, to BAI04.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai04"
+    },
+    {
+      "id": "q-sk-proc-bai05-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Który proces **najbardziej** zawiódł?",
+      "scenariusz": "Nową Syrenę zatwierdziła Rada ds. Informatyki. Dyżurni przeszli testy odbiorcze, a system działa bez awarii. Po dwóch miesiącach połowa doświadczonych dyżurnych nadal alarmuje OSP telefonem, bo „tak zawsze było”.",
+      "opcje": [
+        {
+          "tekst": "BAI06 – bo nazywa się „Zarządzanie zmianami”, a zmiana nie została przyjęta.",
+          "poprawna": false,
+          "wyjasnienie": "Krótka nazwa kusi, ale BAI06 kontroluje zmianę w systemie (ocena, autoryzacja). Tę zmianę zatwierdzono poprawnie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BAI07 – bo odbiór i przejście do eksploatacji się nie udały.",
+          "poprawna": false,
+          "wyjasnienie": "Odbiór przeszedł, a system działa. Problem leży w zachowaniu ludzi po przejściu.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "BAI05 – bo ludzie nie przyjęli nowego sposobu pracy i nikt nie utrwalił zmiany.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Opór, nawyki, komunikacja celu i utrwalenie zmiany to BAI05. FW-PL wiąże BAI05 z efektywnym korzystaniem z systemów przez użytkowników."
+        },
+        {
+          "tekst": "APO07 – bo dyżurni mają za słabe kompetencje.",
+          "poprawna": false,
+          "wyjasnienie": "Dyżurni umieją obsłużyć Syrenę – przeszli testy. Problemem nie są kompetencje, tylko przyjęcie zmiany.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 60
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai05"
+    },
+    {
+      "id": "q-sk-proc-bai06-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które stwierdzenie jest **zgodne z COBIT 5**?",
+      "scenariusz": "O 2:00 dyżurna Kasia Nowik zgłasza, że Syrena nie wysyła SMS-ów. Ola Dudek zmienia ustawienie bramki SMS bez czekania na Radę ds. Informatyki i po kilku minutach alarmy wracają. Rano Dudek zamyka zgłoszenie incydentu.",
+      "opcje": [
+        {
+          "tekst": "Przywrócenie usługi to DSS02, a zmiana ustawienia to zmiana awaryjna w BAI06, którą trzeba zarejestrować i zatwierdzić po fakcie.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Zmiany awaryjne są częścią BAI06: wolno je wprowadzić szybciej, ale nie wolno ich pominąć."
+        },
+        {
+          "tekst": "Zmiany awaryjne są poza BAI06, bo w nocy liczy się czas, a nie procedury.",
+          "poprawna": false,
+          "wyjasnienie": "Fałsz. BAI06 ma osobną, szybszą ścieżkę dla zmian awaryjnych, z oceną i autoryzacją po fakcie.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Całość to DSS03, bo Dudek szukał przyczyny awarii.",
+          "poprawna": false,
+          "wyjasnienie": "Dudek nie szukał przyczyny, tylko przywracał usługę. Przyczyna to DSS03, ale tu chodzi o incydent i zmianę.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wystarczy, że zgłoszenie incydentu zostało zamknięte w DSS02.",
+          "poprawna": false,
+          "wyjasnienie": "Zamknięcie incydentu nie rejestruje zmiany. Bez BAI06 i aktualizacji konfiguracji (BAI10) nikt nie wie, co zmieniono.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai06"
+    },
+    {
+      "id": "q-sk-proc-bai07-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Który opis **najlepiej** oddaje rolę [[proc-bai07]] w tej sytuacji?",
+      "scenariusz": "Dyżurni podpisali odbiór nowej Syreny i od tygodnia na niej pracują. Zespół wdrożeniowy zapewnia jeszcze dwa tygodnie wzmożonego wsparcia. W piątek pada bramka SMS i Kasia Nowik dzwoni po pomoc.",
+      "opcje": [
+        {
+          "tekst": "Awaria z piątku to incydent w DSS02. BAI07 zapewnia wsparcie na starcie i ocenia przejście w przeglądzie po wdrożeniu.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Awaria zawsze jest incydentem. BAI07 obejmuje wsparcie po uruchomieniu i przegląd, czy przejście się udało (interpretacja kursu w szczegółach)."
+        },
+        {
+          "tekst": "Dopóki trwa wsparcie startowe, awarie obsługuje się tylko w BAI07, poza DSS02.",
+          "poprawna": false,
+          "wyjasnienie": "Fałsz. Wsparcie startowe nie wyłącza obsługi incydentów. Incydent rejestruje się w DSS02.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "BAI07 zakończył się w chwili podpisania protokołu odbioru.",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. BAI07 obejmuje jeszcze przełączenie, wsparcie na starcie i przegląd po wdrożeniu.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "To BAI06, bo awaria pojawiła się po zmianie.",
+          "poprawna": false,
+          "wyjasnienie": "BAI06 kontroluje zmianę, a nie obsługę awarii po uruchomieniu.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai07"
+    },
+    {
+      "id": "q-sk-proc-bai08-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Który proces odpowiada za to, czego chce Sikora?",
+      "scenariusz": "Tylko asp. sztab. Paweł Grab wie, jak przełączyć Syrenę w tryb awaryjny. Kpt. Sikora chce, żeby ta wiedza była spisana, dostępna dla każdego dyżurnego, sprawdzana po każdej zmianie, a stare wersje usuwane.",
+      "opcje": [
+        {
+          "tekst": "BAI10 – bo informacja o Syrenie ma leżeć w repozytorium.",
+          "poprawna": false,
+          "wyjasnienie": "BAI10 opisuje elementy systemu i ich powiązania. Instrukcja „jak to zrobić” to wiedza, a nie konfiguracja.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BAI08 – wiedza ma być spisana, dostępna, aktualna i wycofywana, gdy się zestarzeje.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To sedno zarządzania wiedzą: wiedza nie może być tylko w jednej głowie."
+        },
+        {
+          "tekst": "DSS04 – bo chodzi o tryb awaryjny Syreny.",
+          "poprawna": false,
+          "wyjasnienie": "Plan ciągłości może z tej instrukcji korzystać, ale utrzymywanie aktualnej wiedzy to BAI08.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "APO07 – bo trzeba przeszkolić dyżurnych.",
+          "poprawna": false,
+          "wyjasnienie": "Szkolenia i kompetencje to APO07, ale Sikora chce czegoś innego: trwałej, dostępnej wiedzy niezależnej od jednej osoby.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 60
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai08"
+    },
+    {
+      "id": "q-sk-proc-bai09-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Na egzaminie widzisz „BAI09 Zarządzanie zasobami”. Czego **dotyczy** ten proces?",
+      "opcje": [
+        {
+          "tekst": "Liczby etatów i obsady ról w wydziale informatyki.",
+          "poprawna": false,
+          "wyjasnienie": "To zasoby LUDZKIE, czyli APO07 *Human Resources*. Słowo „zasoby” w BAI09 to *assets*.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Decyzji szefostwa, czy organizacja ma dość ludzi, pieniędzy i sprzętu na swoje cele.",
+          "poprawna": false,
+          "wyjasnienie": "To EDM04 *Resource Optimisation*, proces Ładu. BAI09 to codzienne prowadzenie aktywów IT.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ustawień, wersji i powiązań elementów, z których składa się usługa.",
+          "poprawna": false,
+          "wyjasnienie": "To konfiguracja, czyli BAI10. Ta sama rzecz może być aktywem i elementem konfiguracji, ale to dwa spojrzenia.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Sprzętu, oprogramowania i licencji przez cały cykl życia: ewidencji, kosztu, ochrony i wycofania.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. BAI09 to *Manage Assets* – aktywa IT. Tłumacz „zasoby” z powrotem na angielski."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai09"
+    },
+    {
+      "id": "q-sk-proc-bai10-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Który opis tej luki jest **najtrafniejszy**?",
+      "scenariusz": "Audytorka Ewa Lis porównuje repozytorium konfiguracji Syreny z rzeczywistością. W zapisie bramka SMS ma starą wersję, a na serwerze działa nowa, wgrana miesiąc temu po zatwierdzonej zmianie.",
+      "opcje": [
+        {
+          "tekst": "To wina BAI09, bo ewidencja sprzętu jest nieaktualna.",
+          "poprawna": false,
+          "wyjasnienie": "Chodzi o wersję i ustawienia bramki, czyli konfigurację (BAI10), a nie o majątek.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zmiana nie została domknięta aktualizacją konfiguracji w BAI06, a weryfikacja w BAI10 nie wykryła rozbieżności.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. BAI06 decyduje, czy wolno zmienić, i zamyka zmianę. BAI10 pamięta, jak jest teraz, i sprawdza zapis z rzeczywistością (interpretacja kursu)."
+        },
+        {
+          "tekst": "Nie ma luki, bo zmiana została zatwierdzona w BAI06.",
+          "poprawna": false,
+          "wyjasnienie": "Zatwierdzenie to nie wszystko. Fałszywy opis konfiguracji utrudni diagnozę kolejnych awarii.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "To sprawa BAI08, bo brakuje instrukcji obsługi nowej wersji.",
+          "poprawna": false,
+          "wyjasnienie": "Instrukcje to wiedza (BAI08). Tu chodzi o zapis tego, z czego system się składa.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai10"
+    },
+    {
+      "id": "q-sk-proc-dss01-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Czy Sikora ma rację?",
+      "scenariusz": "Komenda przenosi Syrenę do chmury firmy Kwant-Sygnał. Kpt. Sikora mówi na odprawie: „Od teraz proces DSS01 nas nie dotyczy, bo serwerem zajmuje się dostawca”.",
+      "opcje": [
+        {
+          "tekst": "Tak, bo DSS01 dotyczy tylko systemów działających we własnej serwerowni.",
+          "poprawna": false,
+          "wyjasnienie": "Fałsz. DSS01 obejmuje też eksploatację usług IT zleconych na zewnątrz.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie. DSS01 nadal obowiązuje: komenda nadzoruje eksploatację usługi zleconej dostawcy, a umowę i ocenę dostawcy prowadzi APO10.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Zleca się wykonanie, nie odpowiedzialność. Rola zmienia się z „robimy” na „pilnujemy, żeby dostawca robił”."
+        },
+        {
+          "tekst": "Tak, bo za usługę w chmurze odpowiada wyłącznie APO10.",
+          "poprawna": false,
+          "wyjasnienie": "APO10 zarządza dostawcą i umową, ale codzienny nadzór nad eksploatacją zostaje w DSS01.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Nie, ale tylko dlatego, że komenda musi sama robić kopie zapasowe w chmurze.",
+          "poprawna": false,
+          "wyjasnienie": "Uzasadnienie nie trafia w sedno. Chodzi o nadzór nad całą eksploatacją usługi zleconej, a nie o jedną czynność.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-dss01"
+    },
+    {
+      "id": "q-sk-proc-dss02-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Który wskaźnik **najlepiej** mierzy [[proc-dss02]], a nie DSS03?",
+      "opcje": [
+        {
+          "tekst": "Średni czas od zgłoszenia awarii Syreny do przywrócenia wysyłki alarmów.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. DSS02 ma jak najszybciej przywrócić normalne działanie usługi."
+        },
+        {
+          "tekst": "Liczba incydentów, które wróciły z tej samej, nieusuniętej przyczyny.",
+          "poprawna": false,
+          "wyjasnienie": "To miara skuteczności DSS03 – czy incydenty przestały wracać.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Odsetek zmian w Syrenie zatwierdzonych przed wdrożeniem.",
+          "poprawna": false,
+          "wyjasnienie": "To miara BAI06 (kontrola zmian).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Liczba przećwiczonych w roku scenariuszy „noc bez Syreny”.",
+          "poprawna": false,
+          "wyjasnienie": "To miara DSS04 (ciągłość). Ćwiczenie planu nie mierzy obsługi codziennych incydentów.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-dss02"
+    },
+    {
+      "id": "q-sk-proc-dss02-2",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Przypisz każde zdarzenie z komendy w Modrzewiowie do procesu COBIT 5, który się nim zajmuje.",
+      "kategorie": [
+        "DSS02 incydent i zgłoszenie",
+        "DSS03 problem",
+        "DSS04 ciągłość",
+        "BAI06 zmiana"
+      ],
+      "elementy": [
+        {
+          "tekst": "Dyżurna prosi o założenie konta w Syrenie dla nowego kolegi.",
+          "kategoria": "DSS02 incydent i zgłoszenie",
+          "wyjasnienie": "To zgłoszenie serwisowe (prośba użytkownika). DSS02 obsługuje i prośby, i incydenty."
+        },
+        {
+          "tekst": "Bramka SMS nie działa, informatyk ją restartuje i alarmy wracają.",
+          "kategoria": "DSS02 incydent i zgłoszenie",
+          "wyjasnienie": "Szybkie przywrócenie usługi to incydent w DSS02, nawet bez znajomości przyczyny."
+        },
+        {
+          "tekst": "Informatyk zestawia 14 podobnych zgłoszeń z pół roku i szuka wspólnej przyczyny.",
+          "kategoria": "DSS03 problem",
+          "wyjasnienie": "Analiza przyczyny źródłowej powtarzających się incydentów to DSS03."
+        },
+        {
+          "tekst": "Raporty pokazują, że czas wysyłki rośnie od trzech miesięcy, choć nic jeszcze nie padło.",
+          "kategoria": "DSS03 problem",
+          "wyjasnienie": "Proaktywne zarządzanie problemami: wykrycie przyczyny, zanim wywoła incydent."
+        },
+        {
+          "tekst": "Serwerownię zalało, dyżurni alarmują OSP radiem, a system wraca z kopii w innym budynku.",
+          "kategoria": "DSS04 ciągłość",
+          "wyjasnienie": "Przetrwanie poważnego zakłócenia według przygotowanego planu to DSS04."
+        },
+        {
+          "tekst": "Dostawca wgrywa trwałą poprawkę bramki po zatwierdzeniu przez Radę ds. Informatyki.",
+          "kategoria": "BAI06 zmiana",
+          "wyjasnienie": "DSS03 znalazł przyczynę, ale samą poprawkę w systemie przeprowadza się jako zmianę w BAI06."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-dss02"
+    },
+    {
+      "id": "q-sk-proc-dss03-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Który proces **przede wszystkim** obejmuje działanie Dudek?",
+      "scenariusz": "Ola Dudek przegląda rejestr z pół roku: 14 zgłoszeń o opóźnionych SMS-ach z Syreny, każde zamknięte restartem bramki. Postanawia ustalić, co je łączy.",
+      "opcje": [
+        {
+          "tekst": "DSS02 – bo analizuje zgłoszenia incydentów.",
+          "poprawna": false,
+          "wyjasnienie": "Rejestr incydentów pochodzi z DSS02, ale szukanie wspólnej przyczyny to DSS03.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "DSS03 – ustala przyczynę źródłową powtarzających się incydentów, żeby przestały wracać.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To klasyczne zarządzanie problemami: przyczyna, znany błąd, trwałe rozwiązanie."
+        },
+        {
+          "tekst": "MEA01 – bo analizuje dane i mierniki.",
+          "poprawna": false,
+          "wyjasnienie": "MEA01 ocenia wydajność względem celów. Tu chodzi o przyczynę awarii, a nie o raport wyników.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BAI06 – bo na końcu trzeba będzie coś zmienić w systemie.",
+          "poprawna": false,
+          "wyjasnienie": "Trwała poprawka pójdzie przez BAI06, ale ustalenie przyczyny to DSS03.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-dss03"
+    },
+    {
+      "id": "q-sk-proc-dss04-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Który proces COBIT 5 **przygotował** ten scenariusz?",
+      "scenariusz": "W nocy woda zalewa serwerownię komendy. Dyżurni od razu przechodzą na papierową listę numerów i alarmują OSP radiem. W tym czasie Ola Dudek uruchamia Syrenę z kopii w innym budynku. Wszystko idzie według scenariusza przećwiczonego miesiąc wcześniej.",
+      "opcje": [
+        {
+          "tekst": "DSS02 – bo to obsługa awarii Syreny.",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. To nie zwykły incydent, lecz poważne zakłócenie z gotowym planem przetrwania.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "BAI04 – bo chodzi o dostępność Syreny.",
+          "poprawna": false,
+          "wyjasnienie": "BAI04 planuje dostępność i pojemność w normalnym działaniu i w szczycie, a nie przetrwanie katastrofy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS01 – bo zarządza środowiskiem i pomieszczeniami IT.",
+          "poprawna": false,
+          "wyjasnienie": "DSS01 dba o środowisko na co dzień. Plan działania po zalaniu serwerowni to DSS04.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "DSS04 – plan ciągłości obejmuje ręczne działanie organizacji i odtworzenie systemu, a był wcześniej przećwiczony.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Ciągłość to „zapobieganie zakłóceniom działalności, łagodzenie ich skutków i odtwarzanie” (FW-PL, s. 89), także po stronie organizacji."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-dss04"
+    },
+    {
+      "id": "q-sk-proc-dss05-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Który podział zadań między APO13 a [[proc-dss05]] jest **poprawny**?",
+      "opcje": [
+        {
+          "tekst": "APO13 na co dzień nadaje uprawnienia i przegląda alerty, a DSS05 ustanawia system zarządzania bezpieczeństwem.",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie. APO13 organizuje, DSS05 wykonuje.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "APO13 ustanawia i utrzymuje system zarządzania bezpieczeństwem informacji, a DSS05 na co dzień realizuje ochronę: konta, antywirus, monitorowanie zdarzeń.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. „Usługi” w nazwie DSS05 wskazują na operacyjną ochronę. Ocena, czy kontrole działają, to MEA02."
+        },
+        {
+          "tekst": "To ten sam proces opisany dwa razy, w dwóch domenach, z przyczyn historycznych.",
+          "poprawna": false,
+          "wyjasnienie": "Fałsz. To dwa procesy o różnym celu: organizacja bezpieczeństwa i jego codzienne wykonanie.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "DSS05 dotyczy tylko bezpieczeństwa fizycznego, a APO13 bezpieczeństwa informatycznego.",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko i mylnie. DSS05 obejmuje też sieć, urządzenia, tożsamość i dostęp logiczny.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-dss05"
+    },
+    {
+      "id": "q-sk-proc-dss06-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które przyporządkowanie jest **poprawne**?",
+      "scenariusz": "W Syrenie działa nowe zabezpieczenie: jeśli OSP nie potwierdzi alarmu w 60 sekund, dyżurny widzi czerwone okno i musi zadzwonić. Raz na kwartał audytorka Ewa Lis bierze próbkę nocnych alarmów i sprawdza, czy dyżurni nie zamykali okna bez telefonu.",
+      "opcje": [
+        {
+          "tekst": "Czerwone okno to MEA02, a kwartalny przegląd Lis to DSS06.",
+          "poprawna": false,
+          "wyjasnienie": "Odwrócone. Mechanizm w procesie to DSS06, ocena skuteczności – MEA02.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Oba to DSS06, bo dotyczą mechanizmów kontrolnych w procesie alarmowania.",
+          "poprawna": false,
+          "wyjasnienie": "Przegląd Lis nie jest częścią procesu alarmowania. To ocena systemu kontroli z boku, czyli MEA02.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Czerwone okno to DSS06, a kwartalny przegląd Lis to MEA02.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. DSS06 to kontrola działająca w procesie. MEA02 monitoruje i ocenia, czy kontrole są skuteczne."
+        },
+        {
+          "tekst": "Oba to DSS05, bo chodzi o bezpieczeństwo.",
+          "poprawna": false,
+          "wyjasnienie": "DSS05 to usługi bezpieczeństwa (konta, ochrona). Tu chodzi o kontrolę procesu biznesowego i jej ocenę.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 59
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-dss06"
+    },
+    {
+      "id": "q-sk-proc-mea01-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04",
+        "PR-02-15"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które przyporządkowanie jest **poprawne**?",
+      "scenariusz": "Kpt. Sikora co miesiąc zbiera wskaźniki Syreny, porównuje je z celem „alarm w 40 sekund” i zleca poprawki. Komendantka Wrzos na kwartalnym przeglądzie czyta jego raport i decyduje, że trzeba przesunąć pieniądze na łącze do OSP.",
+      "opcje": [
+        {
+          "tekst": "Sikora działa w MEA01 (Zarządzanie), a Wrzos w EDM (monitorowanie w Ładzie).",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Kto zbiera dane, ocenia i raportuje – MEA01. Kto sprawdza, czy kierunek został wcielony w życie, i go koryguje – EDM (FW-PL, s. 32, przypis 5)."
+        },
+        {
+          "tekst": "Sikora działa w EDM, a Wrzos w MEA01.",
+          "poprawna": false,
+          "wyjasnienie": "Odwrócone. Raport przygotowuje kierownictwo (MEA01), a organ Ładu go ocenia (EDM).",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Oboje działają w MEA01, bo oboje monitorują Syrenę.",
+          "poprawna": false,
+          "wyjasnienie": "Słowo „monitoruj” jest w obu domenach. Decyzja komendantki o kierunku to Ład, nie MEA.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Oboje działają w EDM, bo raport trafia do komendantki.",
+          "poprawna": false,
+          "wyjasnienie": "MEA to domena Zarządzania. Przygotowanie raportu nie jest czynnością Ładu.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 32
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 59
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-mea01"
+    },
+    {
+      "id": "q-sk-proc-mea02-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które przyporządkowanie dwóch działań jest **poprawne**?",
+      "scenariusz": "Inspektorka Lucyna Ostrowska z komendy wojewódzkiej zapowiada kontrolę przepisów o ochronie danych. Kpt. Sikora spisuje przepisy, które dotyczą Syreny, i sprawdza, które komenda spełnia. Audytorka Ewa Lis w tym czasie testuje na próbce, czy działają wewnętrzne zabezpieczenia przy zmianie numerów OSP.",
+      "opcje": [
+        {
+          "tekst": "Oba działania to MEA03, bo kontrola z komendy wojewódzkiej dotyczy przepisów.",
+          "poprawna": false,
+          "wyjasnienie": "Samoocena Lis sprawdza działanie mechanizmów kontrolnych, nawet jeśli służą one spełnieniu przepisu. To MEA02.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Samoocena Lis to MEA03, a lista przepisów Sikory to MEA02.",
+          "poprawna": false,
+          "wyjasnienie": "Odwrócone. Mechanizmy kontrolne – MEA02, wymogi zewnętrzne – MEA03.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Samoocena Lis to DSS06, bo dotyczy kontroli w procesie alarmowania.",
+          "poprawna": false,
+          "wyjasnienie": "DSS06 to sam mechanizm w procesie. Ocena, czy działa, to MEA02.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Samoocena Lis to MEA02, a lista przepisów i ocena ich spełnienia to MEA03.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW-PL (s. 59): MEA02 pozwala oszacować, czy mechanizmy kontrolne pozwalają spełnić wymogi zgodności, a MEA03 ułatwia identyfikację zewnętrznych regulacji."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 59
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "proc-mea02"
+    },
+    {
+      "id": "q-sk-proc-mea03-1",
+      "typ": "studium",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Który wniosek jest **najbardziej zgodny** z podziałem procesów MEA?",
+      "scenariusz": "Umowa komendy z OSP Zawilce mówi: alarm ma dojść w 60 sekund. Polityka komendy, podpisana przez komendantkę Wrzos, mówi: w 40 sekund. W marcu średni czas wynosi 50 sekund.",
+      "opcje": [
+        {
+          "tekst": "Wymóg z umowy (60 s) jest spełniony i ocenia go MEA03. Odchylenie od własnej polityki (40 s) dotyczy zgodności wewnętrznej, czyli raczej MEA01.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. O procesie decyduje źródło wymogu: umowa to wymóg zewnętrzny (MEA03), własna polityka to ustalenie wewnętrzne (interpretacja kursu w części o MEA01)."
+        },
+        {
+          "tekst": "Oba wymogi ocenia MEA03, bo w obu chodzi o „zgodność”.",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik tłumaczy *conformance* i *compliance* tym samym słowem „zgodność”. MEA03 dotyczy tylko wymogów zewnętrznych.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Umowa z OSP nie jest wymogiem zewnętrznym, bo OSP to partner, a nie regulator.",
+          "poprawna": false,
+          "wyjasnienie": "Fałsz. Wymogi zewnętrzne obejmują też wymogi wynikające z umów (il. 33, funkcja „Zgodność”).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "To sprawa MEA02, bo trzeba sprawdzić mechanizmy kontrolne Syreny.",
+          "poprawna": false,
+          "wyjasnienie": "Mechanizmy kontrolne mogą tu pomóc, ale pytanie dotyczy spełnienia wymogów, a nie działania kontroli.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 59
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 76,
+          "ilustracja": "33"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-mea03"
+    },
+    {
+      "id": "q-sk-proc-bai06-2",
+      "typ": "bledy",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "**Popraw kolegę.** Kolega z kursu tłumaczy procesy zmian w BAI. Które zdania są **błędne** i dlaczego?",
+      "tekst": "„BAI06 Zarządzanie zmianami to proces, w którym przekonujesz ludzi do nowego systemu i łagodzisz ich opór. Zanim zmiana wejdzie, ktoś ocenia jej wpływ i ją zatwierdza – to też BAI06. Testy odbiorcze z użytkownikami i przełączenie na nowy system robi BAI03, bo tam się buduje rozwiązanie. Zmiany awaryjne w nocy można wprowadzić szybciej, ale trzeba je potem zarejestrować i ocenić.”",
+      "twierdzenia": [
+        {
+          "tekst": "BAI06 to proces, w którym przekonujesz ludzi do nowego systemu i łagodzisz ich opór.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. Opór, komunikacja i nawyki to BAI05. BAI06 kontroluje zmiany w systemach i procesach."
+        },
+        {
+          "tekst": "Zanim zmiana wejdzie, ktoś ocenia jej wpływ i ją zatwierdza – to BAI06.",
+          "poprawne": true,
+          "wyjasnienie": "Prawda. Ocena wpływu, priorytet i autoryzacja to sedno BAI06."
+        },
+        {
+          "tekst": "Testy odbiorcze z użytkownikami i przełączenie na nowy system robi BAI03.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. BAI03 testuje budowę. Testy akceptacyjne z użytkownikami i przejście do eksploatacji to BAI07."
+        },
+        {
+          "tekst": "Zmiany awaryjne można wprowadzić szybciej, ale trzeba je potem zarejestrować i ocenić.",
+          "poprawne": true,
+          "wyjasnienie": "Prawda. Zmiany awaryjne są częścią BAI06, z oceną i zatwierdzeniem po fakcie."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai06",
+      "mentor": true
+    },
+    {
+      "id": "q-sk-proc-bai06-3",
+      "typ": "bledy",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "**Popraw kolegę.** Kolega opisuje nocną awarię Syreny. Które zdania są **błędne** i dlaczego?",
+      "tekst": "„W nocy Dudek przywrócił SMS-y, zmieniając ustawienie bramki – to był incydent, więc obsłużył go DSS02. Skoro to incydent, zmiany nie trzeba zgłaszać do BAI06. Rano Dudek wpisał nowe ustawienie do ewidencji majątku w BAI09, bo tam się zapisuje, jak system jest skonfigurowany. Gdy awaria wróciła trzeci raz, Sikora zlecił szukanie przyczyny w DSS03.”",
+      "twierdzenia": [
+        {
+          "tekst": "Przywrócenie SMS-ów w nocy to obsługa incydentu w DSS02.",
+          "poprawne": true,
+          "wyjasnienie": "Prawda. DSS02 ma szybko przywrócić usługę."
+        },
+        {
+          "tekst": "Skoro to incydent, zmiany nie trzeba zgłaszać do BAI06.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. Zmiana ustawienia to zmiana awaryjna. Należy do BAI06 i wymaga rejestracji oraz oceny po fakcie."
+        },
+        {
+          "tekst": "Nowe ustawienie zapisuje się w ewidencji majątku w BAI09.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. Ustawienia i powiązania elementów prowadzi BAI10 (konfiguracja). BAI09 to aktywa: koszt, licencje, cykl życia."
+        },
+        {
+          "tekst": "Przy powtarzającej się awarii szukanie przyczyny to DSS03.",
+          "poprawne": true,
+          "wyjasnienie": "Prawda. Przyczyna źródłowa powtarzających się incydentów to zarządzanie problemami."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "proc-bai06",
+      "mentor": true
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "ryzyko",
+  "en": "Risk",
+  "wymowa": "risk",
+  "wymowaAkcent": "risk",
+  "plEgzamin": "Ryzyko",
+  "plPodrecznik": "Ryzyko",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Ryzyko",
+    "podrecznik": "Ryzyko",
+    "kurs": "Ryzyko (Risk)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 2, 11, 13."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "oficjalne",
+  "poziomP": "P1",
+  "wymaga": [],
+  "poLudzku": "Coś może pójść źle; liczy się, jak bardzo jest to prawdopodobne i jak bardzo zaboli.",
+  "wyobrazSobie": "Jak decyzja o parasolu: patrzysz, jak bardzo prawdopodobny jest deszcz i jak bardzo byś zmókł, i dopiero z tych dwóch rzeczy wynika, czy go wziąć.",
+  "poCo": "Żeby z wyprzedzeniem widzieć, co może pójść źle i jak bardzo by zaszkodziło, i świadomie decydować, czemu zapobiegać, a co zaakceptować.",
+  "jakDziala": "Ryzyko (risk) to połączenie prawdopodobieństwa zdarzenia i jego konsekwencji. Dotyczy przyszłości. Dopowiedzenie kursu (interpretacja, nie definicja z s. 93): gdy zdarzenie już nastąpiło, mówimy raczej o problemie albo incydencie. Ład ustala apetyt na ryzyko (risk appetite), czyli ile ryzyka organizacja jest gotowa przyjąć (EDM03, Zapewnienie optymalizacji ryzyka), a Zarządzanie identyfikuje, ocenia i ogranicza ryzyka w tych granicach (APO12, Zarządzanie ryzykiem).",
+  "dlaczegoWazne": "Optymalizacja ryzyka to jeden z trzech składników celu Ładu (tworzenie wartości), więc ryzyko pojawia się w pytaniach o zasadę 1 i cele Ładu. Przy wdrożeniu egzamin pyta o apetyt na ryzyko jako czynnik środowiskowy.",
+  "poziom1": "Coś, co może się wydarzyć, razem z tym, jak bardzo jest prawdopodobne i jak duże będą skutki (np. „może padać w dniu wesela”). Jeśli to już się stało, to w ujęciu kursu nie jest ryzyko, tylko problem albo incydent.",
+  "poziom2": "Ryzyko ma dwa składniki: **prawdopodobieństwo** zdarzenia i jego **konsekwencje**. Ryzyko dotyczy przyszłości – czegoś, co *może* się stać. Interpretacja kursu (nie część definicji z s. 93): gdy zdarzenie już nastąpiło, mamy problem lub incydent, a nie ryzyko.",
+  "poziom3": "Definicja (Załącznik H): *„Połączenie prawdopodobieństwa zdarzenia i jego konsekwencji (ISO/IEC 73).”*",
+  "przyklady": {
+    "zycie": "Planujecie wesele w ogrodzie w lipcu. Deszcz jest dość prawdopodobny, a skutek byłby duży – goście mokną, tort się rozpływa – więc rezerwujecie namiot. Ryzyko to ta możliwość deszczu razem z jej skutkami; jeśli w dniu wesela leje, macie już problem, a nie ryzyko.",
+    "biuro": "W biurze wszystkie umowy klientów są tylko na komputerze kierownika. Awaria dysku jest mało prawdopodobna, ale utrata umów byłaby bardzo bolesna, więc kierownik zleca codzienną kopię na dysk sieciowy – to praca z ryzykiem, zanim cokolwiek się stało.",
+    "firma": "W biurze rachunkowym tylko pani Ewa umie obsługiwać program do płac. Jeśli zachoruje w ostatnim tygodniu miesiąca, pensje u klientów się spóźnią. Szef ocenia, że to mało prawdopodobne, ale bolesne, więc każe przeszkolić drugą osobę – tak wygląda praca z ryzykiem.",
+    "admin": "Nabór wniosków o dopłaty do wymiany pieców w urzędzie gminy zamyka się w piątek o 15:00, a wszystko idzie przez jeden serwer. Awaria akurat w piątek jest mało prawdopodobna, ale skutek byłby fatalny, więc informatyk robi kopię i ma tego dnia dyżur. To ryzyko: możliwość zdarzenia plus jego skutki.",
+    "psp": "Przy dużym pożarze lasu kilkanaście zastępów pracuje w pagórkowatym terenie. Utrata łączności jest realna i oznaczałaby brak kontaktu z ratownikami w lesie. Dlatego komenda ma łączność zapasową, retransmisję i procedurę na taki wypadek – tak się odpowiada na ryzyko.",
+    "it": "W procesie APO12 (Zarządzanie ryzykiem) dział IT prowadzi rejestr ryzyk: np. „awaria serwerowni” ma ocenione prawdopodobieństwo i skutki. Dla ryzyk powyżej apetytu ustalonego przez Ład w EDM03 (Zapewnienie optymalizacji ryzyka) planuje się działania, np. zapasowe centrum danych."
+  },
+  "glebokosc": {
+    "prosty": "Planujesz grilla w sobotę. Prognoza daje 30% szans na burzę, a jeśli lunie, zmokną goście i jedzenie. Ryzyko to te dwie rzeczy razem: jak bardzo to możliwe i jak bardzo zaboli. Gdy już leje, to nie ryzyko, tylko problem do rozwiązania.",
+    "zaawansowany": "Kpt. Sikora wpisuje do rejestru: „Syrena ma jedno łącze internetowe; awaria zdarza się raz na kilka lat, a wtedy OSP Zawilce nie dostaje alarmu”. To ryzyko, bo łączy prawdopodobieństwo i skutek. Bryg. Wrzos nie chce go zerować za wszelką cenę, tylko utrzymać na akceptowalnym poziomie – to [[optymalizacja-ryzyka]]. Gdy w lipcu łącze naprawdę pada, mł. kpt. Dudek obsługuje już incydent, a nie ryzyko. Ryzykiem jako procesem zarządza się w domenie [[apo|APO]].",
+    "skrajny": "Burza nad Modrzewiowem to zagrożenie, a nie ryzyko – to tylko źródło. Ryzykiem staje się dopiero połączenie: burza może uszkodzić maszt (prawdopodobieństwo), a wtedy OSP nie dostanie alarmu (konsekwencja). Wczorajsza awaria masztu to z kolei incydent, bo zdarzenie już nastąpiło. Pułapka z drugiej strony: optymalizacja ryzyka nie oznacza jego wyeliminowania, tylko utrzymanie na akceptowalnym poziomie. Ład dba o optymalizację ryzyka, a Zarządzanie prowadzi zarządzanie ryzykiem w APO. **Rozstrzygnięcie:** ryzyko = połączenie prawdopodobieństwa i konsekwencji zdarzenia, które **może** nastąpić; samo źródło to zagrożenie, a zdarzenie, które już nastąpiło, to incydent lub problem."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Ryzyko to zagrożenie.",
+      "prawda": "Zagrożenie to źródło (np. burza). Ryzyko łączy prawdopodobieństwo zdarzenia z jego konsekwencjami."
+    },
+    {
+      "mit": "Awaria, która już się wydarzyła, nadal jest ryzykiem.",
+      "prawda": "Gdy zdarzenie nastąpiło, mamy incydent lub problem (interpretacja kursu, nie definicja z s. 93). Ryzyko dotyczy tego, co może się wydarzyć."
+    },
+    {
+      "mit": "Optymalizacja ryzyka to usunięcie ryzyka.",
+      "prawda": "Optymalizacja to utrzymanie ryzyka na akceptowalnym poziomie, w równowadze z korzyściami i kosztem."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Nazywanie ryzykiem samego zagrożenia albo incydentu, który już nastąpił.",
+    "jakTlumaczyc": "Oś czasu: przed zdarzeniem – ryzyko (może się stać, z jakimś prawdopodobieństwem i skutkiem); po – incydent. Zagrożenie narysuj obok jako chmurkę, czyli źródło.",
+    "pytanieKontrolne": "Rozłóż zdanie „Burza może uszkodzić maszt i wtedy alarmy nie dotrą” na zagrożenie, prawdopodobieństwo i konsekwencję. Czym jest wczorajsza awaria masztu?",
+    "odpowiedzKontrolna": "Zagrożenie: burza. Prawdopodobieństwo: szansa uszkodzenia masztu. Konsekwencja: alarmy nie docierają. Razem to ryzyko. Wczorajsza awaria to incydent, bo zdarzenie już nastąpiło."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Issue / problem / incydent",
+      "roznica": "Problem już zaistniał; ryzyko jest możliwością w przyszłości."
+    },
+    {
+      "termin": "Zagrożenie",
+      "roznica": "Zagrożenie to źródło (np. powódź); ryzyko łączy prawdopodobieństwo z konsekwencjami."
+    }
+  ],
+  "przykladWypowiedzi": "Risk, czyli ryzyko, to połączenie prawdopodobieństwa zdarzenia i jego konsekwencji; Ład określa risk appetite (apetyt na ryzyko) w EDM03, a Zarządzanie zarządza ryzykiem w APO12.",
+  "egzamin": "Na egzaminie ryzyko pojawia się głównie jako „optymalizacja ryzyka” (cel Ładu) i „apetyt na ryzyko” (czynnik środowiskowy we wdrożeniu).",
+  "powiazane": [
+    "optymalizacja-ryzyka"
+  ],
+  "sylabus": [
+    "M0-00-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Połączenie prawdopodobieństwa zdarzenia i jego konsekwencji (ISO/IEC 73)."
+    }
+  ]
+}

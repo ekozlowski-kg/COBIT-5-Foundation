@@ -1,0 +1,105 @@
+{
+  "id": "cykl-faza-3",
+  "en": "Build/acquire/create/implement (enabler life-cycle phase 3)",
+  "wymowa": "bild akłajer kriejt implement",
+  "wymowaAkcent": "bild a-KŁAJ-er kri-EJT IM-ple-ment",
+  "plEgzamin": "Budowanie/nabywanie/tworzenie/wdrażanie",
+  "plPodrecznik": "Budowanie/nabywanie/tworzenie/wdrażanie",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Budowanie/nabywanie/tworzenie/wdrażanie",
+    "podrecznik": "Budowanie/nabywanie/tworzenie/wdrażanie",
+    "kurs": "Budowanie/nabywanie/tworzenie/wdrażanie (Build/acquire/create/implement)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Faza 3 brzmi jak domena BAI („Twórz, Nabywaj i Wdrażaj”), ale BAI to domena procesów, a faza 3 to etap życia aktywatora. Egzaminacyjnej nazwy PL faz cyklu życia aktywatora nie potwierdziliśmy (brak w SP1 i w zestawieniu Altkom). Używamy nazwy z FW-PL (s. 29, il. 13).",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "cykl-faza-2",
+    "wymiar-cykl-zycia"
+  ],
+  "poLudzku": "Zamieniasz projekt w rzecz: budujesz ją, kupujesz albo piszesz i uruchamiasz u siebie.",
+  "skadNazwa": "*Build/acquire/create/implement*. Cztery czasowniki w jednej fazie. Podobne słowa ma nazwa domeny BAI, co łatwo pomylić.",
+  "wyobrazSobie": "Montaż kupionej szafy i postawienie jej w pokoju.",
+  "poCo": "Żeby projekt stał się działającą rzeczą: zbudowaną, kupioną albo napisaną.",
+  "jakDziala": "Aktywator możesz zbudować, kupić gotowy, stworzyć, np. politykę, i wdrożyć. Wdrożenie obejmuje uruchomienie i przygotowanie ludzi. Gdy aktywator działa na co dzień, zaczyna się faza 4.",
+  "dlaczegoWazne": "Egzamin może opisać zakup gotowego systemu i sprawdzić, czy rozpoznasz fazę 3. Łatwo ją pomylić z domeną BAI.",
+  "poziom1": "Trzecia faza cyklu życia aktywatora. Projekt staje się działającym aktywatorem. Cztery czasowniki mówią, że możesz go zbudować, kupić gotowy, stworzyć (np. napisać politykę) albo wdrożyć.",
+  "poziom2": "| Czasownik | Przykład aktywatora (uproszczenie) |\n|---|---|\n| **budowanie** | serwerownia, aplikacja pisana na zamówienie |\n| **nabywanie** | kupiony gotowy system, usługa od dostawcy |\n| **tworzenie** | polityka, procedura, struktura (np. nowa rada) |\n| **wdrażanie** | uruchomienie, wprowadzenie do użytku, szkolenie |\n\nWszystkie cztery to jedna faza. Codzienne działanie to już [[cykl-faza-4|faza 4]].",
+  "poziom3": "(s. 29): faza *„Budowanie/nabywanie/tworzenie/wdrażanie”*. Ta sama nazwa jest na Ilustracji 13 (s. 28).",
+  "przyklady": {
+    "zycie": "Wybraliście i zaprojektowaliście kompostownik. Teraz zbijacie go z desek albo kupujecie gotowy w markecie. Stawiacie go w ogrodzie i pokazujecie dzieciom, co tam wrzucać. To faza 3.",
+    "biuro": "Biuro kupuje gotowy program do rezerwacji sal, informatyk go instaluje, a pracownicy dostają krótką instrukcję. To faza 3.",
+    "organizacja": "Sklep podpisuje umowę z operatorem bramki płatności, informatyk podłącza ją do koszyka, a obsługa przechodzi szkolenie. Nabywanie i wdrażanie to jedna faza 3.\n\nGmina kupuje system zapisów, konfiguruje go i szkoli urzędników. Równocześnie sekretarz pisze zarządzenie o jego używaniu. Kupno, stworzenie zarządzenia i uruchomienie należą do fazy 3.",
+    "psp": "**Syrena przyjeżdża** Komenda podpisuje umowę z firmą Kwant-Sygnał i odbiera system Syrena. Technicy dostawcy instalują go na serwerze, a dyżurni przechodzą dwugodzinne szkolenie. Komenda niczego nie programowała, tylko kupiła i uruchomiła. To nadal faza 3: nabywanie i wdrażanie.",
+    "it": "Dla rozwiązań IT tę fazę wspierają m.in. procesy BAI03 (Zarządzanie identyfikacją i budowaniem rozwiązań) i BAI07 (Zarządzanie procesem akceptacji zmian i przejścia) (interpretacja kursu)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "bai",
+      "roznica": "BAI (Twórz, Nabywaj i Wdrażaj) to domena 10 procesów Zarządzania. Faza 3 to etap życia każdego aktywatora, także polityki czy struktury."
+    },
+    {
+      "termin": "cykl-faza-4",
+      "roznica": "Wdrożenie kończy fazę 3. Codzienne używanie to faza 4."
+    },
+    {
+      "termin": "Faza 5 wdrożenia „Jak się tam dostaniemy?” (Wdrażanie usprawnień)",
+      "roznica": "To faza programu wdrożenia COBIT 5. Faza 3 dotyczy jednego aktywatora."
+    }
+  ],
+  "przykladWypowiedzi": "Build/acquire/create/implement, czyli budowanie/nabywanie/tworzenie/wdrażanie, obejmuje także zakup gotowego rozwiązania (acquire).",
+  "egzamin": "Faza 3 obejmuje **budowanie, nabywanie, tworzenie i wdrażanie**. Kupno gotowego aktywatora też jest fazą 3. Nie myl jej z domeną BAI. Egzaminacyjnej nazwy PL faz cyklu życia aktywatora nie potwierdziliśmy (brak w SP1 i w zestawieniu Altkom). Używamy nazwy z FW-PL (s. 29, il. 13).",
+  "powiazane": [
+    "cykl-zycia-aktywatora",
+    "wymiar-cykl-zycia",
+    "cykl-faza-2",
+    "cykl-faza-4",
+    "bai"
+  ],
+  "sylabus": [
+    "PR-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Budowanie/nabywanie/tworzenie/wdrażanie"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 28,
+      "ilustracja": "13"
+    }
+  ],
+  "mapa": "cykl-faza-3",
+  "glebokosc": {
+    "prosty": "Masz projekt półki. Możesz zrobić ją sam z desek albo kupić gotową w sklepie. Tak czy inaczej przykręcasz ją do ściany i stawiasz książki. Zrobienie, kupienie i powieszenie to jeden etap.",
+    "zaawansowany": "Rada ds. Informatyki zatwierdza zakup drugiej bramki SMS. Ola Dudek ją konfiguruje, Sikora pisze instrukcję, a dyżurni ćwiczą przełączanie. Zakup, konfiguracja, instrukcja i szkolenie to faza 3 tego aktywatora. Procesy, w których to się dzieje, należą do domeny [[bai|BAI]]. Ale faza 3 dotyczy też polityki powiadamiania, którą komendantka Wrzos właśnie tworzy.",
+    "skrajny": "Pytanie: „Komenda kupiła gotowy system i go uruchomiła. Która to faza cyklu życia aktywatora?”. Kusi „Użytkowanie/eksploatacja”, bo system już działa. Kusi też „Planowanie”, bo zakup to decyzja. Kupno i uruchomienie to jednak **nabywanie** i **wdrażanie**, czyli faza 3. Użytkowanie zaczyna się, gdy dyżurni pracują z systemem na co dzień. Do tego BAI ma podobne czasowniki, ale to domena procesów, a nie faza. **Rozstrzygnięcie:** zbudowanie, kupienie, napisanie i uruchomienie aktywatora to faza 3; codzienna praca z nim to faza 4."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Faza 3 dotyczy tylko systemów, które sami budujemy.",
+      "prawda": "Obejmuje też nabywanie (kupno) i tworzenie, np. polityki."
+    },
+    {
+      "mit": "Faza 3 to domena BAI.",
+      "prawda": "BAI to domena procesów. Faza 3 to etap życia każdego aktywatora."
+    },
+    {
+      "mit": "Uruchomienie systemu to już użytkowanie.",
+      "prawda": "Wdrażanie należy do fazy 3; faza 4 to codzienna praca (granica według kursu: interpretacja)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie fazy 3 z domeną BAI.",
+    "jakTlumaczyc": "BAI to dział z procesami, a faza 3 to moment w życiu rzeczy. Polityka też przechodzi fazę 3, choć nie jest systemem IT.",
+    "pytanieKontrolne": "Komendantka podpisuje nową politykę powiadamiania i ogłasza ją na odprawie. W której fazie życia jest ta polityka?",
+    "odpowiedzKontrolna": "W **fazie 3** (tworzenie i wdrażanie). Gdy dyżurni zaczną się nią kierować na co dzień, wejdzie w fazę 4."
+  }
+}

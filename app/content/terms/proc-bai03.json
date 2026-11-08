@@ -1,0 +1,116 @@
+{
+  "id": "proc-bai03",
+  "en": "BAI03 Manage Solutions Identification and Build",
+  "wymowa": "biejaj 03 menydż soluszyns ajdentifikejszyn end bild",
+  "wymowaAkcent": "bi-ej-AJ 03 ME-nydż so-LU-szyns aj-den-ti-fi-KEJ-szyn end bild",
+  "plEgzamin": "BAI03 Zarządzanie identyfikacją i budowaniem rozwiązań",
+  "plPodrecznik": "BAI03 Zarządzanie identyfikacją i budowaniem rozwiązań",
+  "plInne": [
+    {
+      "nazwa": "Zarządzanie identyfikacją i budową rozwiązań",
+      "zrodlo": "opracowanie „Prosto, krok po kroku” (nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "BAI03 Zarządzanie identyfikacją i budowaniem rozwiązań",
+    "podrecznik": "BAI03 Zarządzanie identyfikacją i budowaniem rozwiązań",
+    "kurs": "BAI03 Zarządzanie identyfikacją i budowaniem rozwiązań (BAI03 Manage Solutions Identification and Build)",
+    "uwaga": "Egzamin PL i podręcznik zgodne, ale w obiegu są konkurencyjne odpowiedniki: Zarządzanie identyfikacją i budową rozwiązań. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 74. Inne formy w obiegu: Zarządzanie identyfikacją i budową rozwiązań (opracowanie „Prosto, krok po kroku” (nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „BAI03 Zarządzanie identyfikacją i budowaniem rozwiązań”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Solutions Identification and Build*.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "bai",
+    "proc-bai02"
+  ],
+  "poLudzku": "Projektujesz, kupujesz albo budujesz rozwiązanie i sprawdzasz testami, że robi to, co zapisano.",
+  "wyobrazSobie": "Masz listę wymagań na szafę. Stolarz ją projektuje i buduje albo kupujesz gotową, a potem sprawdzasz, czy drzwi się domykają.",
+  "skadNazwa": "Z angielskiego *Manage Solutions Identification and Build*. „Budowanie” obejmuje też zakup i złożenie gotowych elementów, nie tylko programowanie.",
+  "poziom1": "Proces domeny [[bai]], w którym projektujesz, budujesz albo pozyskujesz rozwiązanie zgodne z wymaganiami. Obejmuje projekt, zakup lub programowanie, konfigurację, łączenie elementów, przygotowanie testów, testy i późniejsze utrzymanie rozwiązania.",
+  "poziom2": "**Czym się zajmuje:** zamienia zatwierdzone wymagania w działające rozwiązanie: aplikację, infrastrukturę, informację, usługę albo zmieniony proces biznesowy. Rozwiązanie może być zbudowane u siebie, kupione albo zrobione z dostawcą.\n\n**Wejścia (intuicja):** wymagania i kryteria z [[proc-bai02]], architektura (APO03), umowa z dostawcą (APO10).\n\n**Wyjścia (intuicja):** projekt rozwiązania, zbudowane i przetestowane elementy, dokumentacja.\n\n**Współpracuje z:** [[proc-bai02]] (wymagania), [[proc-bai06]] (zmiany w trakcie), [[proc-bai07]] (odbiór i przejście do eksploatacji), [[proc-bai10]] (opis nowych elementów konfiguracji).",
+  "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). CMMI obejmuje *„procesy związane z budowaniem aplikacji oraz nabyciem w domenie BAI”* (s. 61). Il. 39 (s. 88) wymienia przy BAI m.in. programowanie i ergonomię systemu. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby powstało rozwiązanie zgodne z wymaganiami i sprawdzone testami. Obojętne, czy je budujesz, czy kupujesz.",
+  "jakDziala": "Projektujesz rozwiązanie najpierw ogólnie, potem szczegółowo. Budujesz albo kupujesz komponenty i łączysz je w całość. Przygotowujesz i prowadzisz testy, a potem utrzymujesz rozwiązanie.",
+  "dlaczegoWazne": "Kupno gotowego systemu to też BAI03, bo domena nazywa się Twórz, Nabywaj i Wdrażaj. Odbiór przez użytkowników to już BAI07.",
+  "przyklady": {
+    "zycie": "Masz projekt kuchni i listę wymagań. Stolarz rysuje szafki, kupuje płyty i okucia, składa i montuje. Na koniec sprawdza, czy szuflady się domykają. To budowa rozwiązania – BAI03.",
+    "biuro": "Biuro potrzebuje nowego formularza zamówień. Koleżanka projektuje go według listy wymagań i daje trzem osobom do sprawdzenia.",
+    "organizacja": "Software house buduje dla sieci aptek aplikację do rezerwacji i testuje każdą funkcję. Gmina kupuje gotowy system podatkowy, który dostawca konfiguruje i łączy z księgowością.",
+    "psp": "**Bramka zapasowa.** Firma Kwant-Sygnał projektuje dla Syreny zapasową bramkę SMS przez sieć komórkową. Ola Dudek z wydziału informatyki pomaga ją podłączyć do serwera komendy. Dostawca testuje u siebie, czy alarm wychodzi także bez internetu. Projekt, budowa i testy rozwiązania to [[proc-bai03]].",
+    "it": "Praktyki BAI03 obejmują m.in. projekt ogólny i szczegółowy, pozyskanie komponentów, zapewnienie jakości i testy rozwiązania. Wymagania przychodzą z BAI02."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-bai02",
+      "roznica": "BAI02 ustala, co rozwiązanie ma robić. BAI03 projektuje i buduje, jak to zrobić."
+    },
+    {
+      "termin": "proc-bai07",
+      "roznica": "Testy są w obu. BAI03 sprawdza, czy rozwiązanie zbudowano poprawnie. BAI07 sprawdza, czy użytkownicy je przyjmują, i przenosi je do eksploatacji."
+    },
+    {
+      "termin": "proc-apo10",
+      "roznica": "APO10 wybiera dostawców i pilnuje umów z nimi. BAI03 korzysta z dostawcy, żeby zbudować lub kupić konkretne rozwiązanie."
+    }
+  ],
+  "przykladWypowiedzi": "BAI03 Manage Solutions Identification and Build, czyli Zarządzanie identyfikacją i budowaniem rozwiązań, obejmuje także zakup gotowego rozwiązania.",
+  "egzamin": "Słowa-klucze: projekt rozwiązania, programowanie, zakup komponentów, integracja, testy systemowe → **BAI03**. Testy akceptacyjne i przejście do eksploatacji → **BAI07**.",
+  "powiazane": [
+    "bai",
+    "uslugi-infrastruktura-aplikacje",
+    "proc-bai02",
+    "proc-bai07",
+    "proc-bai06"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "BAI03 Zarządzanie identyfikacją i budowaniem rozwiązań"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 61,
+      "cytat": "procesy związane z budowaniem aplikacji oraz nabyciem w domenie BAI"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39"
+    }
+  ],
+  "mapa": "proc-bai03",
+  "glebokosc": {
+    "prosty": "Zamówiłeś tort z dokładnym opisem. Cukiernik wybiera przepis, kupuje składniki, piecze i kosztuje krem, zanim go nałoży. Cała ta praca w cukierni to budowa rozwiązania.",
+    "zaawansowany": "Kwant-Sygnał dostaje od komendy listę wymagań ([[proc-bai02]]). Projektuje zapasową bramkę SMS, kupuje modem, pisze moduł i testuje go w swoim laboratorium. To [[proc-bai03]]. Każdą zmianę w trakcie prac zatwierdza się w [[proc-bai06]], a gotowy moduł trafia do odbioru przez dyżurnych w [[proc-bai07]].",
+    "skrajny": "Kwant-Sygnał melduje: „Wszystkie testy przeszły, moduł gotowy”. Mimo to dyżurna Kasia Nowik w pierwszym próbnym alarmie nie umie znaleźć nowego przycisku. Czy testy z BAI03 były złe? Niekoniecznie. Testy w BAI03 sprawdzają, czy rozwiązanie zbudowano zgodnie z projektem i wymaganiami. Czy użytkownik je przyjmuje w prawdziwej pracy, sprawdzają testy akceptacyjne w BAI07. Pułapka: słowo „test” pojawia się w obu procesach. **Rozstrzygnięcie:** BAI03 testuje, czy zbudowaliśmy rzecz dobrze. BAI07 testuje z użytkownikami, czy to dobra rzecz do uruchomienia, i przeprowadza przejście do eksploatacji."
+  },
+  "zagmatwania": [
+    {
+      "mit": "BAI03 to tylko programowanie.",
+      "prawda": "Także zakup gotowych elementów, konfiguracja, integracja, testy i utrzymanie. W nazwie domeny jest „nabywanie”."
+    },
+    {
+      "mit": "Jeśli testy dostawcy przeszły, rozwiązanie jest odebrane.",
+      "prawda": "Odbiór to testy akceptacyjne z użytkownikami i decyzja o uruchomieniu, czyli BAI07."
+    },
+    {
+      "mit": "Wybór dostawcy to BAI03.",
+      "prawda": "Wybór dostawców i zarządzanie umowami to APO10. BAI03 korzysta z dostawcy przy budowie konkretnego rozwiązania."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wrzuca wszystkie testy do jednego procesu i nie odróżnia testów zespołu budującego od testów akceptacyjnych użytkowników.",
+    "jakTlumaczyc": "Mechanik po naprawie sam jedzie autem kawałek (BAI03). Potem Ty robisz jazdę próbną i decydujesz, czy odbierasz auto (BAI07).",
+    "pytanieKontrolne": "Czy zakup gotowego oprogramowania „z pudełka” należy do BAI03?",
+    "odpowiedzKontrolna": "**Tak.** BAI03 obejmuje budowę i pozyskanie rozwiązania, także gotowego produktu. Trzeba go jeszcze skonfigurować, połączyć z resztą i przetestować. Wybór i umowa z dostawcą to APO10."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "it-plik",
+  "en": "File",
+  "wymowa": "fajl",
+  "wymowaAkcent": "fajl",
+  "plEgzamin": "Plik",
+  "plPodrecznik": "—",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "—",
+    "kurs": "Plik (file)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. FW-PL nie używa tego słowa jako terminu."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P0",
+  "wymaga": [
+    "it-dane",
+    "it-aplikacja"
+  ],
+  "poLudzku": "Jedna zapisana rzecz w komputerze, np. list, zdjęcie albo tabela, z własną nazwą.",
+  "poziom1": "Plik to porcja danych zapisana pod jedną nazwą: dokument, zdjęcie, nagranie, tabela. Można go otworzyć, zmienić, skopiować, wysłać albo usunąć.",
+  "poziom2": "Nazwa pliku często kończy się kropką i kilkoma literami, np. „raport.pdf”, „zdjecie.jpg”. Ta końcówka podpowiada systemowi operacyjnemu, którą aplikacją go otworzyć. Plik leży na dysku, czyli w pamięci, która nie znika po wyłączeniu.",
+  "poziom3": "COBIT 5 nie używa słowa „plik” jako terminu. Pliki to jedna z postaci informacji, którą organizacja musi chronić i przechowywać – m.in. przez kopie zapasowe (lekcja 0A.8).",
+  "wyobrazSobie": "Kartka z napisem w segregatorze. Ma tytuł, możesz ją wyjąć, skserować albo wyrzucić.",
+  "poCo": "Żeby zapisać pracę i wrócić do niej później, także po wyłączeniu komputera.",
+  "jakDziala": "Piszesz list w aplikacji i klikasz „Zapisz”. Podajesz nazwę. System operacyjny zapisuje dane na dysku jako plik. Jutro klikasz plik i list się otwiera.",
+  "dlaczegoWazne": "Utrata pliku to utrata pracy albo ważnej informacji. Dlatego organizacje robią kopie zapasowe i ustalają, kto może otwierać pliki.",
+  "przyklady": {
+    "zycie": "Zdjęcie z wakacji w telefonie to plik. Możesz je wysłać rodzinie – wysyłasz kopię pliku.",
+    "biuro": "Sekretarka zapisuje pismo jako „wniosek_Kowalski.docx” i wysyła je mailem jako załącznik.",
+    "organizacja": "Biuro rachunkowe przechowuje tysiące plików z fakturami klientów. Każdy plik musi mieć jasną nazwę, żeby dało się go znaleźć.",
+    "psp": "Po alarmie dyżurna Kasia Nowik zapisuje raport z akcji jako plik i odkłada go do wspólnego miejsca na dokumenty komendy.",
+    "it": "Pliki to jedna z postaci informacji, którą chroni się m.in. kopiami zapasowymi (proces DSS04 Zarządzanie ciągłością, lekcja 0A.8)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-folder",
+      "roznica": "Folder nie ma własnej treści – grupuje pliki."
+    },
+    {
+      "termin": "it-dane",
+      "roznica": "Plik to „opakowanie” z nazwą. Dane to jego zawartość."
+    }
+  ],
+  "przykladWypowiedzi": "A file, czyli plik, to dane zapisane pod jedną nazwą, na przykład „raport.pdf”; pliki układamy w folders, czyli w folderach.",
+  "egzamin": "Nie jest terminem egzaminu COBIT 5. Potrzebny do zrozumienia kopii zapasowej (backup) i ochrony informacji.",
+  "powiazane": [
+    "it-folder",
+    "it-dane",
+    "it-kopia-zapasowa"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [],
+  "glebokosc": {
+    "prosty": "Przepis na sernik zapisany na karteczce w pudełku z przepisami. Karteczka ma tytuł „Sernik babci”. W komputerze taka karteczka to plik.",
+    "zaawansowany": "Kasia Nowik zapisała raport w pliku na swoim komputerze, a nie we wspólnym miejscu. Gdy komputer się zepsuł, raport przepadł. Ola Dudek tłumaczy: plik ważny dla komendy powinien leżeć tam, gdzie robi się [[it-kopia-zapasowa|kopię zapasową]] – poznasz ją w lekcji 0A.8.",
+    "skrajny": "Czy zdjęcie wysłane mailem to ten sam plik? Nie, odbiorca dostaje kopię – po zmianach możecie mieć dwie różne wersje. Czy ikonka na pulpicie to plik? Często to tylko skrót wskazujący na plik; jego usunięcie nie usuwa właściwego pliku. Czy plik w koszu jest usunięty? Jeszcze nie – można go przywrócić. **Rozstrzygnięcie:** plik to jedna nazwana porcja danych; kopia jest osobnym plikiem, a skrót tylko wskazuje na plik."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wysłanie pliku mailem przenosi go do odbiorcy.",
+      "prawda": "Wysyłasz kopię. Twój plik zostaje u Ciebie."
+    },
+    {
+      "mit": "Usunięcie ikonki z pulpitu kasuje plik.",
+      "prawda": "Często ikonka to tylko skrót. Właściwy plik leży gdzie indziej."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie pliku z folderem albo ze skrótem.",
+    "jakTlumaczyc": "Kartka (plik) – teczka (folder) – karteczka z napisem „zobacz teczkę 3” (skrót).",
+    "pytanieKontrolne": "Wysłałeś koledze plik i on go poprawił. Czy Twój plik też się zmienił?",
+    "odpowiedzKontrolna": "Nie. Kolega poprawił swoją kopię. Twój plik został bez zmian."
+  }
+}

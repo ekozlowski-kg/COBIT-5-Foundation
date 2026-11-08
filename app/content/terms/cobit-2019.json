@@ -1,0 +1,80 @@
+{
+  "id": "cobit-2019",
+  "en": "COBIT 2019",
+  "wymowa": "kołbit 2019",
+  "wymowaAkcent": "KOŁ-bit 2019",
+  "plEgzamin": "COBIT 2019",
+  "plPodrecznik": "—",
+  "plInne": [],
+  "statusTlumaczenia": "D",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "COBIT 2019",
+    "podrecznik": "—",
+    "kurs": "COBIT 2019 (COBIT 2019)",
+    "uwaga": "Nazwa własna publikacji ISACA – nie tłumaczy się. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Materiały o COBIT 2019 są w internecie częstsze niż o COBIT 5. Nie ucz się z nich: inne pojęcia (40 celów, „komponenty”, czynniki projektowe) dają złe odpowiedzi na egzaminie COBIT 5.",
+  "kategoria": "standard",
+  "status": "uproszczenie",
+  "poziomP": "P2",
+  "wymaga": [
+    "cobit-5",
+    "aktywator"
+  ],
+  "poLudzku": "Nowsza wersja COBIT z innymi nazwami; nie myl jej z COBIT 5, z którego jest egzamin.",
+  "wyobrazSobie": "Nowe wydanie podręcznika z inną numeracją rozdziałów: na sprawdzianie z pierwszego wydania odpowiedź według nowego wydania jest zła.",
+  "poCo": "To hasło ostrzegawcze: pomaga rozpoznać pojęcia z nowszej wersji, które na egzaminie COBIT 5 Foundation są błędnymi odpowiedziami.",
+  "jakDziala": "COBIT 2019 zastępuje aktywatory komponentami systemu ładu (components), zamiast 37 procesów ma 40 celów Ładu i Zarządzania (governance and management objectives) i dodaje czynniki projektowe (design factors). Nowe cele to m.in. APO14 (dane), BAI11 (projekty) i MEA04 (zapewnienie). Gdy w odpowiedzi pada „komponent”, „40 celów” albo „czynnik projektowy”, odpowiedź nie dotyczy COBIT 5.",
+  "dlaczegoWazne": "Egzamin COBIT 5 Foundation dotyczy wyłącznie COBIT 5. Dystraktory z COBIT 2019 (komponenty, 40 celów, czynniki projektowe) wyglądają wiarygodnie dla kogoś, kto czytał nowsze materiały.",
+  "skadNazwa": "Nazwę COBIT nosi kilka wersji. W internecie dominuje COBIT 2019, ale egzamin Foundation, do którego się uczysz, dotyczy COBIT 5.",
+  "poziom1": "Nowsza wersja COBIT (ISACA, 2018/2019) z innymi pojęciami: „komponenty” zamiast aktywatorów, 40 celów zamiast 37 procesów. Na egzaminie COBIT 5 Foundation te słowa to sygnał błędnej odpowiedzi.",
+  "poziom2": "COBIT 2019 zastępuje „aktywatory” pojęciem **komponentów**, ma **40 celów** Ładu i Zarządzania (zamiast 37 procesów) oraz **czynniki projektowe** (design factors). Na egzaminie COBIT 5 Foundation te pojęcia są błędnymi odpowiedziami.",
+  "poziom3": "Nie dotyczy egzaminu COBIT 5 Foundation – hasło ostrzegawcze.",
+  "przyklady": {
+    "zycie": "Kupujesz używany samochód i dostajesz instrukcję do nowszego modelu. Przyciski są podobne, ale część nazw i funkcji się różni, więc instrukcja myli zamiast pomagać. Tak działa nauka do egzaminu COBIT 5 z materiałów o COBIT 2019.",
+    "biuro": "Biuro przeszło na nowy szablon umowy z innymi nazwami rozdziałów, ale spór dotyczy umowy podpisanej na starym szablonie. W rozmowie z prawnikiem trzeba używać nazw ze starego wzoru, bo to on obowiązuje w tej sprawie.",
+    "it": "W COBIT 5 zarządzanie ryzykiem to proces APO12 Zarządzanie ryzykiem, a w COBIT 2019 to cel zarządczy APO12 Managed Risk. Na egzaminie COBIT 5 poprawne jest słowo „proces”, a nie „cel zarządczy” (management objective)."
+  },
+  "glebokosc": {
+    "prosty": "Masz instrukcję pralki z 2012 roku, a w internecie wszędzie wisi instrukcja nowszego modelu. Przyciski nazywają się inaczej i jest ich więcej. Jeśli egzamin dotyczy starego modelu, nowsza instrukcja tylko myli.",
+    "zaawansowany": "St. ogn. Kasia Nowik szuka w internecie „COBIT” i przynosi slajdy o „40 celach” i „komponentach systemu ładu”. Kpt. Sikora tłumaczy, że to COBIT 2019. Komenda uczy się z [[cobit-5|COBIT 5]], w którym są [[aktywator|aktywatory]] i 37 procesów. Jeśli w odpowiedzi egzaminacyjnej pada „komponent” albo „czynnik projektowy”, Nowik ma ją od razu skreślić.",
+    "skrajny": "COBIT 2019 zachowuje wiele nazw z COBIT 5, np. kody EDM01 czy APO12 i podział na Ład i Zarządzanie. Kusi więc, żeby uznać go za „ten sam COBIT, tylko nowszy”. W COBIT 2019 te kody oznaczają jednak 40 celów Ładu i Zarządzania, a nie 37 procesów, a aktywatory nazywa się komponentami. Zdanie „COBIT ma 40 celów Ładu i Zarządzania” jest prawdziwe dla 2019, ale na egzaminie COBIT 5 jest błędem. **Rozstrzygnięcie:** na egzaminie COBIT 5 Foundation liczy się tylko COBIT 5 (5 zasad, 7 aktywatorów, 37 procesów), a każde pojęcie typowe dla COBIT 2019 to dystraktor (interpretacja kursu, wynikająca z zakresu egzaminu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "COBIT 2019 to poprawiony COBIT 5, więc materiały są wymienne.",
+      "prawda": "Ma inne pojęcia: komponenty, 40 celów, czynniki projektowe. Na egzaminie COBIT 5 dają one złe odpowiedzi."
+    },
+    {
+      "mit": "Skoro kody EDM01 czy APO12 są te same, to liczby też się zgadzają.",
+      "prawda": "COBIT 2019 ma 40 celów Ładu i Zarządzania (doszły m.in. APO14, BAI11, MEA04). COBIT 5 ma 37 procesów."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczenie się z internetowych materiałów o COBIT 2019 i przenoszenie ich liczb i nazw na egzamin COBIT 5.",
+    "jakTlumaczyc": "Daj uczniowi „czarną listę słów”: komponent, 40 celów, czynniki projektowe. Gdy któreś z nich pojawi się w odpowiedzi, uczeń ją skreśla bez dalszego czytania.",
+    "pytanieKontrolne": "Dlaczego odpowiedź „COBIT dzieli się na 40 celów Ładu i Zarządzania” jest błędna na Twoim egzaminie, choć bywa prawdziwa?",
+    "odpowiedzKontrolna": "Bo opisuje COBIT 2019. Egzamin dotyczy COBIT 5, który ma 37 procesów (5 Ładu i 32 Zarządzania). Prawdziwe zdanie o innej wersji jest na egzaminie błędem."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cobit-5",
+      "roznica": "COBIT 5: 5 zasad, 7 aktywatorów, 37 procesów."
+    }
+  ],
+  "przykladWypowiedzi": "COBIT 2019 mówi o components i 40 governance and management objectives, ale na egzaminie COBIT 5 Foundation odpowiadam: 7 kategorii aktywatorów (enablers) i 37 procesów.",
+  "egzamin": "Jeśli odpowiedź mówi o „40 celach”, „komponentach systemu ładu” albo „czynnikach projektowych”, to jest COBIT 2019, a więc zła odpowiedź.",
+  "powiazane": [
+    "cobit-5"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "WWW",
+      "url": "https://www.isaca.org/resources/cobit"
+    }
+  ]
+}

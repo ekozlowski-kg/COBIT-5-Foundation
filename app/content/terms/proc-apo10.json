@@ -1,0 +1,113 @@
+{
+  "id": "proc-apo10",
+  "en": "APO10 Manage Suppliers",
+  "wymowa": "ejpio 10 menydż saplajers",
+  "wymowaAkcent": "ej-pi-O 10 ME-nydż sa-PLAJ-ers",
+  "plEgzamin": "APO10 Zarządzanie dostawcami",
+  "plPodrecznik": "APO10 Zarządzanie dostawcami",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO10 Zarządzanie dostawcami",
+    "podrecznik": "APO10 Zarządzanie dostawcami",
+    "kurs": "APO10 Zarządzanie dostawcami (APO10 Manage Suppliers)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie APO10 i słowie kluczowym EN *Suppliers*. Nie myl z APO09: tamten ma „umowy” w polskiej nazwie, ale to uzgodnienia usług z organizacją. Umowy z dostawcami są w APO10.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "proc-apo09"
+  ],
+  "poLudzku": "Wybieranie firm, które coś dla nas robią, pilnowanie umów z nimi i sprawdzanie, czy się wywiązują.",
+  "wyobrazSobie": "Wybór ekipy remontowej: porównanie ofert, umowa z terminami i cotygodniowe sprawdzanie postępów.",
+  "poCo": "Żeby firmy zewnętrzne, od których zależy IT, były dobrze wybrane, związane właściwą umową i rzetelnie oceniane.",
+  "jakDziala": "Kierownictwo IT określa wymagania i wybiera dostawców. Zawiera z nimi umowy i prowadzi relację. Regularnie ocenia wykonanie umowy i ryzyko związane z dostawcą, a w razie potrzeby zmienia warunki albo dostawcę.",
+  "dlaczegoWazne": "Większość organizacji zależy od dostawców IT. Na egzaminie APO10 myli się z APO09 i z BAI03.",
+  "skadNazwa": "EN *Manage Suppliers*. Proste tłumaczenie. Myli sąsiedztwo APO09, którego polska nazwa mówi o „umowach”.",
+  "poziom1": "Proces Zarządzania o dostawcach. Obejmuje wybór dostawców, umowy z nimi, relację z nimi, ocenę ich pracy i ryzyko związane z dostawcą.",
+  "poziom2": "**Czym się zajmuje:** cały kontakt z firmami zewnętrznymi: od wyboru, przez umowę i współpracę, po ocenę i zakończenie współpracy.\n\n**Wejścia (intuicja):** wymagania usług z [[proc-apo09]], potrzeby rozwiązań z domeny [[bai|BAI]], budżet z [[proc-apo06]].\n\n**Wyjścia (intuicja):** wybrani dostawcy, umowy, oceny wykonania, ryzyka związane z dostawcami.\n\n**Współpraca:** ryzyko dostawcy zasila [[proc-apo12]]. Pozyskanie i integrację rozwiązania prowadzi BAI03.",
+  "poziom3": "Il. 16 (s. 33): „APO10 Zarządzanie dostawcami”. Interesariusze pytają (il. 7, s. 22): *„W jakim stopniu jestem uzależniony od zewnętrznych dostawców?”* Załącznik E (s. 58): *„Zasoby IT obejmują relacje z wieloma zewnętrznymi dostawcami produktów i usług”*. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Wybierasz firmę do wywozu śmieci. Porównujesz oferty, podpisujesz umowę, a potem sprawdzasz, czy przyjeżdża w terminie. Gdy zawodzi, rozmawiasz albo zmieniasz firmę. To APO10.",
+    "biuro": "Biuro co pół roku ocenia firmę serwisującą kserokopiarki: czas przyjazdu, liczbę awarii, cenę. Gdy umowa się kończy, porównuje dwie inne oferty.",
+    "organizacja": "Sklep internetowy co kwartał ocenia firmę hostingową: dostępność, czas reakcji, cenę. Sprawdza też, co się stanie, jeśli firma upadnie. Przy odnowieniu umowy negocjuje lepsze warunki. To APO10. Urząd przed przetargiem na serwis drukarek opisuje wymagania. Po wyborze wykonawcy co miesiąc sprawdza protokoły napraw. Za spóźnienia nalicza kary z umowy. To APO10.",
+    "psp": "**„System działa zgodnie z umową”.** Igor Wolny z Kwant-Sygnału twierdzi, że Syrena działa zgodnie z umową. Naczelnik Marek Sikora czyta umowę: nie ma w niej potwierdzenia doręczenia SMS-a. Negocjuje aneks i zaczyna co kwartał oceniać dostawcę. To jest [[proc-apo10|APO10]].",
+    "it": "Kierownik ds. dostawców prowadzi rejestr kontraktów, kwartalną ocenę dostawców i ocenę ryzyka uzależnienia od jednego dostawcy chmury. To APO10. Ryzyko trafia też do [[proc-apo12]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-apo09",
+      "roznica": "APO09 uzgadnia usługi i ich poziomy z organizacją (SLA). APO10 zarządza dostawcami i umowami z nimi."
+    },
+    {
+      "termin": "proc-apo08",
+      "roznica": "APO08 to relacja IT z organizacją. APO10 to relacja z dostawcami zewnętrznymi."
+    },
+    {
+      "termin": "proc-bai03",
+      "roznica": "BAI03 identyfikuje i buduje albo pozyskuje rozwiązanie. APO10 zarządza samym dostawcą i umową."
+    }
+  ],
+  "przykladWypowiedzi": "APO10 *Manage Suppliers*, czyli „Zarządzanie dostawcami”, wybiera dostawców, prowadzi umowy i ocenia ich wykonanie; uzgodnienia usług z użytkownikami to APO09 *Manage Service Agreements*.",
+  "egzamin": "Słowa-klucze: **wybór dostawcy, umowa z dostawcą, ocena wykonania, ryzyko dostawcy, outsourcing** → APO10. Usługi i SLA dla własnych użytkowników → APO09.",
+  "powiazane": [
+    "apo",
+    "proc-apo09",
+    "proc-apo12",
+    "proc-bai03",
+    "interesariusz"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO10 Zarządzanie dostawcami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 22,
+      "ilustracja": "7",
+      "cytat": "W jakim stopniu jestem uzależniony od zewnętrznych dostawców?"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 58,
+      "cytat": "Zasoby IT obejmują relacje z wieloma zewnętrznymi dostawcami produktów i usług"
+    }
+  ],
+  "mapa": "proc-apo10",
+  "glebokosc": {
+    "prosty": "Zatrudniasz ekipę do remontu łazienki. Wybierasz ją z trzech ofert, spisujesz umowę i terminy. Co tydzień sprawdzasz postęp. Gdy się spóźnia, sięgasz do umowy. To zarządzanie dostawcą.",
+    "zaawansowany": "Po awarii Sikora ocenia Kwant-Sygnał. Umowa nie przewidywała potwierdzenia doręczenia SMS-a. W APO10 Sikora negocjuje aneks i wprowadza kwartalną ocenę dostawcy. Ryzyko „dostawca jest jeden i może upaść” wpisuje do rejestru ryzyk ([[proc-apo12]]). Poziom usługi dla SK ustala osobno w [[proc-apo09]].",
+    "skrajny": "Wolny mówi: „Wszystko zgodnie z umową”. Ma rację i to jest problem. Umowa z dostawcą (APO10) nie pokrywała tego, czego potrzebuje SK (APO09). Gdyby SLA dla SK powstało pierwsze, Sikora wiedziałby, czego żądać od Kwant-Sygnału. Dostawca, który spełnia umowę, a nie spełnia potrzeb, to sygnał błędu w obu procesach. **Rozstrzygnięcie:** „czego potrzebują nasi użytkownicy” → APO09; „czego żądamy od dostawcy i czy to dostajemy” → APO10. Zgodność z umową nie oznacza dobrej usługi. (interpretacja kursu)"
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wybór dostawcy to sprawa działu zakupów, a nie COBIT.",
+      "prawda": "APO10 obejmuje wybór, umowy, relację i ocenę dostawców IT."
+    },
+    {
+      "mit": "APO10 kończy się na podpisaniu umowy.",
+      "prawda": "APO10 obejmuje też bieżącą ocenę wykonania i ryzyka dostawcy."
+    },
+    {
+      "mit": "Umowy z dostawcami to APO09, bo ma „umowy” w nazwie.",
+      "prawda": "APO09 to uzgodnienia usług z organizacją. Dostawcy to APO10."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera APO09 przy każdym słowie „umowa”.",
+    "jakTlumaczyc": "Zapytaj: „Kto siedzi po drugiej stronie stołu: nasz użytkownik czy firma zewnętrzna?” Użytkownik to APO09, firma to APO10.",
+    "pytanieKontrolne": "Firma co kwartał ocenia, czy dostawca chmury dotrzymuje warunków kontraktu. Który to proces?",
+    "odpowiedzKontrolna": "APO10, czyli ocena wykonania dostawcy względem umowy."
+  }
+}

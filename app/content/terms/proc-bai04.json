@@ -1,0 +1,107 @@
+{
+  "id": "proc-bai04",
+  "en": "BAI04 Manage Availability and Capacity",
+  "wymowa": "biejaj 04 menydż awejlabiliti end kapesiti",
+  "wymowaAkcent": "bi-ej-AJ 04 ME-nydż a-wej-la-BI-li-ti end ka-PE-si-ti",
+  "plEgzamin": "BAI04 Zarządzanie dostępnością i pojemnością",
+  "plPodrecznik": "BAI04 Zarządzanie dostępnością i pojemnością",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "BAI04 Zarządzanie dostępnością i pojemnością",
+    "podrecznik": "BAI04 Zarządzanie dostępnością i pojemnością",
+    "kurs": "BAI04 Zarządzanie dostępnością i pojemnością (BAI04 Manage Availability and Capacity)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „BAI04 Zarządzanie dostępnością i pojemnością”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Availability and Capacity*. Il. 39 (s. 88) wymienia umiejętność „Zarządzanie pojemnością” przy BAI, a „Zarządzanie dostępnością” przy DSS. To kategorie umiejętności, a nie procesy: proces BAI04 obejmuje oba tematy.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "bai",
+    "uslugi-infrastruktura-aplikacje"
+  ],
+  "poLudzku": "Planujesz z wyprzedzeniem, żeby system wytrzymał tłok i działał wtedy, kiedy jest potrzebny.",
+  "wyobrazSobie": "Przed świętami dokupujesz krzesła i większy garnek, bo wiesz, że przyjdzie cała rodzina.",
+  "skadNazwa": "Z angielskiego *Manage Availability and Capacity*. „Dostępność” to czas, w którym system działa. „Pojemność” to ile jest w stanie obsłużyć naraz.",
+  "poziom1": "Proces domeny [[bai]], który równoważy obecne i przyszłe potrzeby co do dostępności, wydajności i pojemności z rozsądnym kosztem. Ocenia obecne możliwości, prognozuje potrzeby i planuje zmiany, zanim zabraknie mocy.",
+  "poziom2": "**Czym się zajmuje:** mierzy obecną dostępność i obciążenie, przewiduje przyszłe potrzeby (więcej użytkowników, szczyty), ocenia wpływ zmian, planuje i śledzi pojemność oraz wydajność.\n\n**Wejścia (intuicja):** wymagania ([[proc-bai02]]), uzgodnione poziomy usług (APO09), dane z bieżącego monitorowania ([[proc-dss01]]).\n\n**Wyjścia (intuicja):** plan dostępności i pojemności, prognozy obciążenia, działania usprawniające.\n\n**Współpracuje z:** APO09 (ile dostępności obiecano), [[proc-dss01]] (dane z eksploatacji), [[proc-dss04]] (ciągłość przy poważnych zakłóceniach), [[proc-bai06]] (zmiany zwiększające moc).",
+  "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Il. 39 (s. 88): kategoria umiejętności „Zarządzanie pojemnością” przy BAI, „Zarządzanie dostępnością” przy DSS. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby systemy wytrzymały tłok i działały, kiedy są potrzebne. I żeby nie przepłacać za zbędny zapas mocy.",
+  "jakDziala": "Oceniasz obecną dostępność, wydajność i pojemność. Szacujesz wpływ na biznes i prognozujesz przyszłe potrzeby. Planujesz zmiany, monitorujesz i usuwasz problemy, zanim zabraknie mocy.",
+  "dlaczegoWazne": "BAI04 planuje moc i dostępność z wyprzedzeniem. Plan na poważne zakłócenie to DSS04, a nie BAI04.",
+  "przyklady": {
+    "zycie": "Na komunię przychodzi 30 osób, a masz stół na 8. Tydzień wcześniej pożyczasz stoły i krzesła, a w kuchni sprawdzasz, czy piekarnik pomieści dwie blachy. Planujesz pojemność, zanim goście staną w drzwiach.",
+    "biuro": "Biuro wie, że w grudniu przychodzi dwa razy więcej klientów. Wcześniej ustala dodatkowe dyżury i drugie stanowisko obsługi.",
+    "organizacja": "Sklep internetowy już we wrześniu sprawdza, ile zamówień wytrzyma serwer, i dokupuje moc na Black Friday. Urząd skarbowy przed kwietniem zwiększa moc systemu e-deklaracji.",
+    "psp": "**Sylwester w SK.** Kpt. Marek Sikora sprawdza, ile alarmów naraz udźwignie Syrena. W sylwestra zgłoszeń bywa kilka razy więcej niż zwykle. Zamawia u Kwant-Sygnał większy pakiet SMS i drugi rdzeń serwera na ten okres. Planowanie, żeby system wytrzymał szczyt i był dostępny, to [[proc-bai04]].",
+    "it": "Praktyki BAI04: bazowa ocena dostępności i pojemności, ocena wpływu na biznes, planowanie nowych wymagań, monitorowanie i usuwanie problemów."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-dss04",
+      "roznica": "BAI04 planuje moc i niezawodność w zwykłych i szczytowych warunkach. DSS04 przygotowuje przetrwanie poważnego zakłócenia, np. pożaru serwerowni."
+    },
+    {
+      "termin": "proc-apo09",
+      "roznica": "APO09 uzgadnia z odbiorcą, ile dostępności się obiecuje (umowa o poziomie usług). BAI04 planuje, jak tę obietnicę spełnić."
+    },
+    {
+      "termin": "proc-dss01",
+      "roznica": "DSS01 na bieżąco pilnuje infrastruktury i dostarcza dane. BAI04 na ich podstawie prognozuje i planuje."
+    }
+  ],
+  "przykladWypowiedzi": "BAI04 Manage Availability and Capacity, czyli Zarządzanie dostępnością i pojemnością, planuje moc systemów z wyprzedzeniem.",
+  "egzamin": "Słowa-klucze: *capacity*, *availability*, wydajność, prognoza obciążenia, „wytrzyma szczyt” → **BAI04**. Katastrofa, plan awaryjny, odtworzenie → **DSS04**.",
+  "powiazane": [
+    "bai",
+    "kategorie-umiejetnosci",
+    "proc-dss04",
+    "proc-dss01"
+  ],
+  "sylabus": [
+    "PR-01-04",
+    "EN-02-23"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "BAI04 Zarządzanie dostępnością i pojemnością"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39",
+      "cytat": "Zarządzanie pojemnością"
+    }
+  ],
+  "mapa": "proc-bai04",
+  "glebokosc": {
+    "prosty": "Przed długim weekendem tankujesz do pełna i sprawdzasz, czy wszyscy zmieszczą się w aucie z bagażami. Nie czekasz, aż zabraknie miejsca na stacji. Myślisz o tłoku zawczasu.",
+    "zaawansowany": "Kpt. Sikora patrzy na wykres: z każdym miesiącem Syrena wysyła więcej SMS-ów, bo dochodzą nowe OSP. Za pół roku serwer nie wyrobi. Planuje rozbudowę, zanim to nastąpi – to [[proc-bai04]]. Dane o obciążeniu dostaje z codziennej eksploatacji ([[proc-dss01]]), a samą rozbudowę przeprowadza jako zmianę w [[proc-bai06]].",
+    "skrajny": "Sikora ma dwa zmartwienia. Pierwsze: w sylwestra Syrena może dostać dziesięć razy więcej zgłoszeń niż zwykle. Drugie: serwer stoi pod schodami, bez zasilania awaryjnego, i może go zalać. Oba brzmią jak „żeby Syrena działała”, ale to różne procesy. Szczyt obciążenia to wciąż normalne działanie, tylko w tłoku – planuje to BAI04. Zalanie serwera to poważne zakłócenie, na które potrzebny jest plan przetrwania i odtworzenia – DSS04. Dodatkowa pułapka: il. 39 podaje „Zarządzanie dostępnością” jako umiejętność przy DSS, a proces dostępności to BAI04. **Rozstrzygnięcie:** „za dużo ruchu albo za mało mocy?” → BAI04. „Katastrofa i jak przetrwać?” → DSS04. Lista umiejętności na il. 39 nie przesądza, do której domeny należy proces."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Dostępność to sprawa codziennej eksploatacji, więc BAI04 jest w złej domenie.",
+      "prawda": "W COBIT 5 planowanie dostępności i pojemności to proces BAI04. Dane do niego dostarcza DSS01."
+    },
+    {
+      "mit": "BAI04 i DSS04 to to samo, bo oba dbają, żeby system działał.",
+      "prawda": "BAI04 planuje moc i niezawodność na co dzień i w szczycie. DSS04 przygotowuje przetrwanie poważnej awarii lub katastrofy."
+    },
+    {
+      "mit": "Il. 39 pokazuje, że dostępność to DSS.",
+      "prawda": "Il. 39 to przykładowe kategorie umiejętności przy domenach. Nie zmienia przypisania procesu BAI04."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera DSS04, gdy pytanie mówi o „niedostępności” systemu w szczycie, bo kojarzy niedostępność z awarią.",
+    "jakTlumaczyc": "BAI04 to dobór wielkości sali na wesele. DSS04 to plan, gdzie przenieść wesele, jeśli sala spłonie.",
+    "pytanieKontrolne": "Komenda kupuje drugi serwer, żeby Syrena działała, gdy pierwszy się zepsuje. To BAI04 czy DSS04?",
+    "odpowiedzKontrolna": "Najczęściej **BAI04** – to podniesienie niezawodności i dostępności w normalnym działaniu. Jeśli drugi serwer stoi w innym budynku jako część planu przetrwania pożaru czy powodzi, wspiera **DSS04**. Decyduje cel: codzienna niezawodność czy przetrwanie katastrofy (interpretacja kursu)."
+  }
+}

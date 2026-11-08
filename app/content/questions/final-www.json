@@ -1,0 +1,1503 @@
+{
+ "_opis": "F2 – pytania inspirowane publicznymi źródłami (METODYKA §15). Treść własna, fakty zweryfikowane z FW-PL.",
+ "pytania": [
+  {
+   "id": "q-fn-w-01",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-01"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Zarządy coraz częściej dążą do celów, które skłoniły do stworzenia COBIT 5. Który z poniższych NIE jest jednym z nich?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 13
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Utrzymanie wysokiej jakości informacji do podejmowania decyzji",
+     "poprawna": false,
+     "wyjasnienie": "Jest na liście (s. 13).",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Przeniesienie całej odpowiedzialności za IT na dział informatyki",
+     "poprawna": true,
+     "wyjasnienie": "Odwrotnie: FW s. 13 mówi, że zarząd i kadra (biznes i IT) muszą działać wspólnie."
+    },
+    {
+     "tekst": "Utrzymanie ryzyka IT na akceptowalnym poziomie",
+     "poprawna": false,
+     "wyjasnienie": "Jest na liście (s. 13).",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Zapewnienie zgodności z przepisami i umowami",
+     "poprawna": false,
+     "wyjasnienie": "Jest na liście (s. 13).",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-02",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-03",
+    "PR-02-07"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Każda organizacja ma inne cele. Jak zasada 1 pozwala dopasować COBIT 5 do konkretnej komendy?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Przez wybór procesów wiodących spośród 37",
+     "poprawna": false,
+     "wyjasnienie": "Wybór procesów jest skutkiem, a nie mechanizmem dopasowania.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Przez ocenę zdolności procesów",
+     "poprawna": false,
+     "wyjasnienie": "Ocena mierzy procesy, ale nie przekłada celów.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Przez kaskadę celów",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 14: dopasowanie polega na wykorzystaniu kaskady celów."
+    },
+    {
+     "tekst": "Przez certyfikację zgodności z COBIT 5",
+     "poprawna": false,
+     "wyjasnienie": "COBIT 5 nie certyfikuje organizacji.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-03",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-12"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Po co wszystkie aktywatory mają ten sam zbiór czterech wymiarów?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 28
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Żeby każdemu aktywatorowi przypisać poziom zdolności 0–5",
+     "poprawna": false,
+     "wyjasnienie": "Model zdolności dotyczy procesów, a nie wymiarów aktywatora.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Żeby podzielić aktywatory na aktywatory Ładu i aktywatory Zarządzania w modelu",
+     "poprawna": false,
+     "wyjasnienie": "Wymiary niczego takiego nie dzielą.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Żeby zastąpić tabelę RACI w opisie procesów jednolitym modelem odpowiedzialności",
+     "poprawna": false,
+     "wyjasnienie": "RACI zostaje częścią opisu procesu.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Żeby używać ich w prosty, ustrukturyzowany sposób i panować nad interakcjami",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 28 wymienia te cele wspólnego zbioru wymiarów."
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-04",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-04"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Który element NIE należy do minimalnej zawartości uzasadnienia biznesowego według COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 39
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Pełna specyfikacja techniczna wszystkich systemów",
+     "poprawna": true,
+     "wyjasnienie": "Nie ma jej na liście z s. 39. Są tam korzyści, zmiany, inwestycje, koszty, ryzyko, role i sposób monitorowania."
+    },
+    {
+     "tekst": "Docelowe korzyści i ich beneficjenci",
+     "poprawna": false,
+     "wyjasnienie": "Jest wymagane (s. 39).",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Wymagane inwestycje",
+     "poprawna": false,
+     "wyjasnienie": "Jest wymagane (s. 39).",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Role, odpowiedzialność i rozliczalność",
+     "poprawna": false,
+     "wyjasnienie": "Jest wymagane (s. 39).",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-05",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-01",
+    "PR-02-14"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Dyżurni chcą prostego systemu, inspektorka – bezpiecznego, a księgowa – taniego. Jaka jest rola Ładu wobec tych sprzecznych oczekiwań?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 17
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Wybrać oczekiwania najważniejszego interesariusza i jemu podporządkować resztę",
+     "poprawna": false,
+     "wyjasnienie": "Ład waży interesy wszystkich, a nie jednego.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Negocjować i decydować, biorąc pod uwagę oczekiwania wszystkich stron",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 17: Ład polega na negocjowaniu i podejmowaniu decyzji dotyczących wartości dla różnych interesariuszy."
+    },
+    {
+     "tekst": "Przekazać decyzję dostawcy systemu jako najlepszemu ekspertowi",
+     "poprawna": false,
+     "wyjasnienie": "To oddanie Ładu stronie zewnętrznej.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Zawsze wybierać rozwiązanie najtańsze, bo optymalizuje zasoby",
+     "poprawna": false,
+     "wyjasnienie": "Optymalizacja zasobów to tylko jeden z trzech składników wartości.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-06",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-02",
+    "PR-02-05"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Uzupełnij luki: „Wyznaczniki → ______ → cele organizacji → ______ → cele aktywatorów”.",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 17
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 18
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "cele związane z Informatyką; potrzeby interesariuszy",
+     "poprawna": false,
+     "wyjasnienie": "Kolejność odwrócona.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "potrzeby interesariuszy; procesy",
+     "poprawna": false,
+     "wyjasnienie": "Procesy to jeden aktywator, a nie krok kaskady.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "potrzeby interesariuszy; cele związane z Informatyką",
+     "poprawna": true,
+     "wyjasnienie": "Kroki 1–4 kaskady (s. 17–18)."
+    },
+    {
+     "tekst": "tworzenie wartości; wymiary aktywatora",
+     "poprawna": false,
+     "wyjasnienie": "To nie są kroki kaskady.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-07",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-10"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Co na Rysunku 10 (zintegrowana struktura ramowa) gromadzi obecne wytyczne ISACA, nowe materiały i inne standardy?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 25
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Referencyjny Model Procesu",
+     "poprawna": false,
+     "wyjasnienie": "To model procesów, a nie miejsce integracji wiedzy.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Kaskada Celów",
+     "poprawna": false,
+     "wyjasnienie": "Kaskada przekłada cele.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Model Zdolności Procesu",
+     "poprawna": false,
+     "wyjasnienie": "To model oceny.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Baza wiedzy COBIT 5",
+     "poprawna": true,
+     "wyjasnienie": "Il. 10 (s. 25): baza wiedzy zawiera aktualne treści i strukturę dla przyszłych treści."
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-08",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-04"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Który z poniższych NIE jest celem ani cechą Referencyjnego Modelu Procesu COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 32
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Narzucenie każdej organizacji dokładnie 37 procesów",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 32: model nie ma charakteru normatywnego, a każda organizacja definiuje własny zbiór procesów."
+    },
+    {
+     "tekst": "Wspólny język dla kierownictwa IT i biznesu",
+     "poprawna": false,
+     "wyjasnienie": "Jest (s. 32).",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Podstawa pomiaru i monitorowania sprawności IT",
+     "poprawna": false,
+     "wyjasnienie": "Jest (s. 32).",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Ułatwienie audytu IT i komunikacji z dostawcami",
+     "poprawna": false,
+     "wyjasnienie": "Jest (s. 32).",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-09",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-04"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Mała OSP Zawilce chce stosować COBIT 5. Czy musi mieć wszystkie 37 procesów?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 32
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Tak, bo inaczej formalnie nie stosuje COBIT 5",
+     "poprawna": false,
+     "wyjasnienie": "FW s. 32 wprost temu przeczy.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Nie, jeśli mniejsza liczba procesów obejmuje wszystkie konieczne cele",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 32: mniejsze organizacje mogą mieć mniej procesów."
+    },
+    {
+     "tekst": "Nie, bo małej jednostce wystarczy 5 procesów EDM",
+     "poprawna": false,
+     "wyjasnienie": "Same procesy Ładu nie obejmują celów Zarządzania.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Tak, ale może je wdrażać stopniowo przez kilka lat",
+     "poprawna": false,
+     "wyjasnienie": "Rozłożenie w czasie nie zmienia zasady.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-10",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-07"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Która korzyść z kaskady celów jest wymieniona w COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.isaca.org/resources/news-and-trends/industry-news/2018/how-to-prepare-for-the-cobit-5-foundation-exam",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 20
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Daje uniwersalne mapowanie, które stosuje się mechanicznie",
+     "poprawna": false,
+     "wyjasnienie": "FW s. 20: nie należy jej stosować mechanicznie.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Zastępuje ocenę zdolności procesów",
+     "poprawna": false,
+     "wyjasnienie": "Nie zastępuje.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Filtruje bazę wiedzy COBIT 5, żeby dobrać wytyczne do projektu",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 20 wymienia tę korzyść."
+    },
+    {
+     "tekst": "Wyznacza wysokość budżetu IT",
+     "poprawna": false,
+     "wyjasnienie": "Kaskada nie liczy budżetu.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-11",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-07"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Komenda zaczyna korzystać z tabel mapowania kaskady celów. Co według COBIT 5 powinna zrobić NAJPIERW?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.isaca.org/resources/news-and-trends/industry-news/2018/how-to-prepare-for-the-cobit-5-foundation-exam",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 20
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Przyjąć tabele bez zmian, bo są wynikiem badań",
+     "poprawna": false,
+     "wyjasnienie": "Tabele nie są uniwersalną prawdą.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Ocenić zdolność wszystkich 37 procesów",
+     "poprawna": false,
+     "wyjasnienie": "To może przyjść później, ale nie najpierw.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Wybrać procesy z relacją S (wspierającą)",
+     "poprawna": false,
+     "wyjasnienie": "Relacje P i S to tylko wskazówki.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Dostosować mapowanie do własnej sytuacji",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 20: pierwszą czynnością zawsze jest dostosowanie mapowania."
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-12",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Na egzaminie pada pytanie, kto zwykle odpowiada za Ład. W Twojej komendzie robi to w praktyce naczelnik informatyki. Co zaznaczasz?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.isaca.org/resources/news-and-trends/industry-news/2018/how-to-prepare-for-the-cobit-5-foundation-exam",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 31
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Zarząd (organ Ładu) pod przewodnictwem prezesa",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 31: w większości organizacji za Ład odpowiada zarząd pod przywództwem prezesa."
+    },
+    {
+     "tekst": "Naczelnika informatyki, bo tak jest w mojej organizacji",
+     "poprawna": false,
+     "wyjasnienie": "Na egzaminie odpowiada się według COBIT, a nie według praktyki własnej organizacji.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Kadrę zarządzającą pod kierunkiem dyrektora generalnego (CEO)",
+     "poprawna": false,
+     "wyjasnienie": "Tak COBIT opisuje odpowiedzialność za Zarządzanie.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Audytora wewnętrznego",
+     "poprawna": false,
+     "wyjasnienie": "Audyt monitoruje, ale nie sprawuje Ładu.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-13",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-01"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Co oznacza zasada 2 dla traktowania informacji i technologii w komendzie?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://sites.google.com/view/management-wiki/cobit/cobit-principles",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 23
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Są sprawą wyłącznie Wydziału Łączności i Informatyki komendy",
+     "poprawna": false,
+     "wyjasnienie": "Zasada 2 mówi o całej organizacji.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Są aktywami, o które dbają wszyscy pracownicy",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 14: informacja i technologia są aktywami, które uwzględniają wszyscy."
+    },
+    {
+     "tekst": "Są ważne tylko wtedy, gdy wspierają procesy EDM",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma takiego ograniczenia.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Zarządza się nimi osobno, poza ładem korporacyjnym",
+     "poprawna": false,
+     "wyjasnienie": "Odwrotnie: Ład IT jest częścią ładu korporacyjnego (s. 23).",
+     "pulapka": "odwrocone"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-14",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-01"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Komenda przeniosła serwery „Syreny” do firmy Kwant-Sygnał. Czy ta zewnętrzna usługa mieści się w zakresie COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://sites.google.com/view/management-wiki/cobit/cobit-principles",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 23
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Nie, COBIT 5 dotyczy tylko zasobów własnych",
+     "poprawna": false,
+     "wyjasnienie": "FW s. 23: obejmuje także zewnętrzne usługi IT.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Tylko wtedy, gdy dostawca ma ważny certyfikat ISO/IEC 27001",
+     "poprawna": false,
+     "wyjasnienie": "Certyfikat nie decyduje o zakresie COBIT.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Tak – zasada 2 obejmuje także zewnętrzne usługi IT",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 23 podaje to wprost."
+    },
+    {
+     "tekst": "Tak, ale wyłącznie w domenie DSS",
+     "poprawna": false,
+     "wyjasnienie": "Usługa zewnętrzna dotyczy wielu domen, np. APO10 (dostawcy).",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-15",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Dlaczego COBIT 5 oddziela Ład od Zarządzania?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://sites.google.com/view/management-wiki/cobit/cobit-principles",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 31
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Bo Ład dotyczy IT, a Zarządzanie biznesu",
+     "poprawna": false,
+     "wyjasnienie": "Oba dotyczą IT w organizacji.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Bo Ład jest potrzebny tylko w dużych firmach z radą nadzorczą",
+     "poprawna": false,
+     "wyjasnienie": "COBIT 5 nadaje się dla organizacji każdej wielkości.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Bo Ład wykonuje procesy MEA, a Zarządzanie EDM",
+     "poprawna": false,
+     "wyjasnienie": "Odwrotnie: EDM to Ład, a MEA to Zarządzanie.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Bo to inne działania, inne struktury i inne cele",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 31 podaje to wprost."
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-16",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-08",
+    "PR-01-01"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "W artykule branżowym czytasz o „pryncypiach COBIT 5” i o „ładzie informatycznym”. Jak przełożyć te słowa na język egzaminu PL?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://itwiz.pl/cobit-5-praktyce-pryncypia-czynniki-umozliwiajace/",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 31
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "pryncypia = zasady (5 zasad); ład informatyczny = Ład",
+     "poprawna": true,
+     "wyjasnienie": "Trzeci wariant terminologii: egzamin mówi „zasady” i „Ład”, podręcznik „zasady” i „nadzór”."
+    },
+    {
+     "tekst": "pryncypia = polityki; ład informatyczny = Ład",
+     "poprawna": false,
+     "wyjasnienie": "Pryncypia to nie polityki.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "pryncypia = zasady; ład informatyczny = Zarządzanie",
+     "poprawna": false,
+     "wyjasnienie": "„Ład informatyczny” to governance, czyli Ład.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "pryncypia = aktywatory; ład informatyczny = Struktura ramowa",
+     "poprawna": false,
+     "wyjasnienie": "Pomieszane kategorie.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-17",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-05",
+    "PR-02-13"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Uzupełnij luki: „Pytania o potrzeby interesariuszy i o osiągnięcie celów mierzy się wskaźnikami ______, a pytania o cykl życia i dobre praktyki – wskaźnikami ______”.",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://goodelearning.com/cobit-5-generic-enablers-a-quick-overview/",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "wiodącymi; opóźnionymi",
+     "poprawna": false,
+     "wyjasnienie": "Odwrotnie.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "opóźnionymi; wiodącymi",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 29: dwa pierwsze pytania dotyczą wyniku (opóźnione), dwa ostatnie przebiegu (wiodące)."
+    },
+    {
+     "tekst": "wyprzedzającymi; następującymi",
+     "poprawna": false,
+     "wyjasnienie": "To nazwy z podręcznika. Na egzaminie: wiodące i opóźnione. Kolejność też jest odwrócona.",
+     "pulapka": "forma-podrecznikowa"
+    },
+    {
+     "tekst": "opóźnionymi; opóźnionymi",
+     "poprawna": false,
+     "wyjasnienie": "Cykl życia i praktyki to wskaźniki wiodące.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-18",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-12",
+    "PR-02-10"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Komenda nie znajduje w COBIT 5 szczegółowych dobrych praktyk dla aktywatora Usługi, infrastruktura i aplikacje. Co według COBIT 5 robi?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://goodelearning.com/cobit-5-generic-enablers-a-quick-overview/",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Uznaje, że ten aktywator nie ma wymiaru dobrych praktyk",
+     "poprawna": false,
+     "wyjasnienie": "Każdy aktywator ma ten wymiar.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Pomija ten aktywator",
+     "poprawna": false,
+     "wyjasnienie": "Zasada 4 wymaga podejścia całościowego.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Korzysta z wytycznych innych standardów i metodyk",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 29: przy aktywatorach bez przykładów w COBIT można użyć innych standardów."
+    },
+    {
+     "tekst": "Czeka na ocenę zdolności tego aktywatora",
+     "poprawna": false,
+     "wyjasnienie": "Ocena zdolności dotyczy procesów.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-19",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-12"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Który etap NIE jest fazą cyklu życia aktywatora?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://goodelearning.com/cobit-5-generic-enablers-a-quick-overview/",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Projektowanie",
+     "poprawna": false,
+     "wyjasnienie": "Jest fazą (s. 29).",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Ocena/monitorowanie",
+     "poprawna": false,
+     "wyjasnienie": "Jest fazą (s. 29).",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Aktualizacja/pozbywanie się",
+     "poprawna": false,
+     "wyjasnienie": "Jest fazą (s. 29).",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Certyfikacja",
+     "poprawna": true,
+     "wyjasnienie": "Fazy to: planowanie, projektowanie, budowanie/nabywanie/tworzenie/wdrażanie, użytkowanie/obsługa, ocena/monitorowanie, aktualizacja/pozbywanie się."
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-20",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-06"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Dane alarmowe „Syreny” mają być widoczne tylko dla uprawnionych dyżurnych. Do której kategorii celów aktywatora należy ten wymóg?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://goodelearning.com/cobit-5-generic-enablers-a-quick-overview/",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Do celów dotyczących dostępu i zabezpieczenia wyników",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 29: wyniki zabezpieczone, dostępne tylko dla uprawnionych."
+    },
+    {
+     "tekst": "Do celów dotyczących dokładności i obiektywności danych",
+     "poprawna": false,
+     "wyjasnienie": "To jakość wewnętrzna.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Do celów dotyczących dopasowania danych do zadania",
+     "poprawna": false,
+     "wyjasnienie": "To jakość kontekstowa.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Do sposobu wdrożenia aktywatora, czyli praktyk",
+     "poprawna": false,
+     "wyjasnienie": "To wymiar dobrych praktyk, a nie kategoria celów.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-21",
+   "typ": "egzamin",
+   "sylabus": [
+    "EN-02-07",
+    "M0-00-01"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Pani Kaczmarek z ul. Lipowej nie używa „Syreny”, ale ponosi skutki jej awarii. Czy jest interesariuszem tego aktywatora?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://goodelearning.com/cobit-5-generic-enablers-a-quick-overview/",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 28
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Nie, bo nie odgrywa w systemie żadnej aktywnej roli",
+     "poprawna": false,
+     "wyjasnienie": "Wystarczy być zainteresowanym.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Tak, jako interesariusz zewnętrzny",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 28: interesariusze odgrywają aktywną rolę i/lub są zainteresowani. Bywają wewnętrzni i zewnętrzni."
+    },
+    {
+     "tekst": "Tak, wewnętrznym, bo mieszka w Modrzewiowie",
+     "poprawna": false,
+     "wyjasnienie": "Nie jest częścią komendy.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Nie, interesariuszami są tylko strony z tabeli RACI",
+     "poprawna": false,
+     "wyjasnienie": "RACI dotyczy procesów. Pojęcie interesariusza jest szersze.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-22",
+   "typ": "egzamin",
+   "sylabus": [
+    "EN-01-01"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Które zdanie NAJLEPIEJ opisuje aktywator Procesy?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 27
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Kluczowe jednostki podejmujące decyzje w organizacji",
+     "poprawna": false,
+     "wyjasnienie": "To struktury organizacyjne.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Środek przełożenia pożądanych zachowań na praktyczne wytyczne",
+     "poprawna": false,
+     "wyjasnienie": "To zasady, polityki i struktury ramowe.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Uporządkowany zbiór praktyk i działań, który daje określone wyniki",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 27 podaje taką definicję."
+    },
+    {
+     "tekst": "Infrastruktura, technologia i aplikacje, które przetwarzają dane",
+     "poprawna": false,
+     "wyjasnienie": "To usługi, infrastruktura i aplikacje.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-23",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-01-01"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Proces obsługi zgłoszeń w komendzie osiągnął dopiero poziom zdolności 1. Jak to ocenić według COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.simplilearn.com/cobit-5-exam-questions-free-practice-test",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "To porażka – sensowny jest dopiero poziom 3",
+     "poprawna": false,
+     "wyjasnienie": "FW tego nie mówi.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 1 oznacza tylko, że proces jest udokumentowany",
+     "poprawna": false,
+     "wyjasnienie": "Poziom 1 oznacza, że proces osiąga swój cel. Dokumentacja to nie to samo.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 1 jest niemożliwy bez osiągnięcia poziomu 2",
+     "poprawna": false,
+     "wyjasnienie": "Odwrotnie: wyższy wymaga niższego.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "To ważne osiągnięcie – proces osiąga swój cel",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 42: osiągnięcie poziomu 1 jest już ważnym osiągnięciem."
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-24",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-02-04"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Praktyki bazowe i produkty pracy to wskaźniki którego wymiaru oceny w Modelu Oceny Procesu?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.simplilearn.com/cobit-5-exam-questions-free-practice-test",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Wskaźniki wykonania procesu, czyli Wymiar Procesu",
+     "poprawna": true,
+     "wyjasnienie": "Il. 19: wyniki procesu, praktyki bazowe i produkty pracy to wskaźniki wykonania (w podręczniku: „wskaźniki wydajności”) procesu."
+    },
+    {
+     "tekst": "Wskaźniki zdolności: typowe praktyki, zasoby i produkty",
+     "poprawna": false,
+     "wyjasnienie": "Wymiar Zdolności mierzą typowe praktyki, typowe zasoby i typowe produkty pracy.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Atrybuty dojrzałości przeniesione z COBIT 4.1",
+     "poprawna": false,
+     "wyjasnienie": "COBIT 5 nie ocenia dojrzałości.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Wymiar interesariuszy z modelu aktywatora",
+     "poprawna": false,
+     "wyjasnienie": "To wymiar aktywatora, a nie oceny.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-25",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-03"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Od czego według COBIT 5 powinno się zacząć inicjatywę wdrożeniową?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 39
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Od wyboru dostawcy narzędzi",
+     "poprawna": false,
+     "wyjasnienie": "To nie jest pierwszy krok.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Od jasnego określenia pożądanych wyników biznesowych",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 39: pierwszy krok to jasne określenie pożądanych wyników biznesowych."
+    },
+    {
+     "tekst": "Od oceny zdolności wszystkich 37 procesów",
+     "poprawna": false,
+     "wyjasnienie": "Ocena przychodzi w fazie 2, i to dla wybranych procesów.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Od szczegółowego harmonogramu prac",
+     "poprawna": false,
+     "wyjasnienie": "Harmonogram to krok kolejny.",
+     "pulapka": "odwrocone"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-26",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-05"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Jak według COBIT 5 osiąga się trwałą poprawę przy wdrażaniu zmiany?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 37
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Wyłącznie przez polecenia służbowe i kary dyscyplinarne",
+     "poprawna": false,
+     "wyjasnienie": "To tylko jedna z dróg, i to nie główna.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Wyłącznie przez wymianę starych narzędzi IT na nowe",
+     "poprawna": false,
+     "wyjasnienie": "Narzędzia nie zmieniają zachowań.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Przez zaangażowanie ludzi, a w razie potrzeby egzekwowanie zgodności",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 37 podaje to wprost."
+    },
+    {
+     "tekst": "Przez założenie, że ludzie chętnie przyjmą zmianę",
+     "poprawna": false,
+     "wyjasnienie": "FW s. 37 każe nie zakładać chętnej akceptacji.",
+     "pulapka": "odwrocone"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-27",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-05"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Co według COBIT 5 powinien określać plan komunikacji programu wdrożeniowego?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 37
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Wyłącznie harmonogram szkoleń dla użytkowników",
+     "poprawna": false,
+     "wyjasnienie": "Za wąsko.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Tylko komunikaty kierowane do zarządu",
+     "poprawna": false,
+     "wyjasnienie": "Adresaci zależą od fazy.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Listę procesów objętych oceną zdolności",
+     "poprawna": false,
+     "wyjasnienie": "To zakres oceny, a nie komunikacji.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Dla każdej fazy: treść, sposób i adresatów",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 37 podaje to wprost."
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-28",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-01-01"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Komendantka chce „jednego projektu COBIT na pół roku i koniec”. Co odpowiada na to COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.goconqr.com/en/quiz/2031198/cobit-5-foundation-sample-questions",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 37
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Ciągłe doskonalenie nie jest projektem jednorazowym",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 37: cykl życia ciągłego doskonalenia nie jest projektem jednorazowym."
+    },
+    {
+     "tekst": "To dobry plan, bo wdrożenie kończy się w fazie 7",
+     "poprawna": false,
+     "wyjasnienie": "Faza 7 to utrzymanie dynamiki, a cykl się powtarza.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "To dobry plan, jeśli uzasadnienie biznesowe go obejmuje",
+     "poprawna": false,
+     "wyjasnienie": "Uzasadnienie nie zmienia natury ciągłego doskonalenia.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Wdrożenie COBIT 5 nie wymaga zmiany",
+     "poprawna": false,
+     "wyjasnienie": "Wymaga, i to w krągu aktywowania zmiany.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-29",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-02-01"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Czy ocenę zdolności procesów można przeprowadzić z różnym stopniem rygoru?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.simplilearn.com/cobit-5-exam-questions-free-practice-test",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 45
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Nie – zawsze musi to być formalna certyfikacja zewnętrzna",
+     "poprawna": false,
+     "wyjasnienie": "FW s. 45 dopuszcza cele wewnętrzne.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Tak – zależnie od celu: wewnętrznego albo zewnętrznego",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 45 podaje to wprost."
+    },
+    {
+     "tekst": "Nie – ocena jest zawsze samooceną",
+     "poprawna": false,
+     "wyjasnienie": "Ocena opiera się na dowodach.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Tak, ale tylko dla procesów Ładu (EDM)",
+     "poprawna": false,
+     "wyjasnienie": "Dotyczy każdego procesu.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fn-w-30",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-01-01",
+    "PC-02-05"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "final": "www",
+   "tresc": "Komendantka chce, żeby wszystkie procesy komendy osiągnęły poziom zdolności 5. Jak to ocenić według COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "WWW",
+     "url": "https://www.simplilearn.com/cobit-5-exam-questions-free-practice-test",
+     "dostep": "2026-11-08",
+     "uwaga": "inspiracja tematu – treść własna"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 43
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "To standardowy cel każdego wdrożenia COBIT 5",
+     "poprawna": false,
+     "wyjasnienie": "Nie jest.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 5 jest wymagany tylko dla procesów Ładu EDM",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma takiej reguły.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom docelowy wybiera się według kosztów, korzyści i wykonalności",
+     "poprawna": true,
+     "wyjasnienie": "FW s. 42–43 podaje to wprost."
+    },
+    {
+     "tekst": "Poziom 5 jest obowiązkowy w jednostkach sektora publicznego",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma takiego wymogu.",
+     "pulapka": "falsz"
+    }
+   ]
+  }
+ ]
+}

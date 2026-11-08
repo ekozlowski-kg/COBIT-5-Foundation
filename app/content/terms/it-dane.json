@@ -1,0 +1,87 @@
+{
+  "id": "it-dane",
+  "en": "Data",
+  "wymowa": "dejta",
+  "wymowaAkcent": "DEJ-ta",
+  "plEgzamin": "Dane",
+  "plPodrecznik": "dane",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "dane (FW-PL s. 91: „kontekst danych”)",
+    "kurs": "Dane (Data)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. „Data” w angielskim to liczba mnoga (pojedynczo: datum), ale w IT używa się jej jak „dane”."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P0",
+  "wymaga": [
+    "it-hardware"
+  ],
+  "poLudzku": "Zapisane liczby, słowa, znaki, zdjęcia czy dźwięki – jeszcze bez wyjaśnienia, co znaczą.",
+  "poziom1": "Surowe fakty zapisane w dowolnej postaci, np. „602 115 300”, „Lipowa 7”, „14.03”. Same w sobie niewiele mówią. Stają się informacją, gdy ktoś wie, czego dotyczą.",
+  "poziom2": "Komputer przechowuje wszystko jako dane: tekst, liczby, obrazy, dźwięk. Dane mogą być poprawne albo błędne, aktualne albo stare. Ten sam ciąg cyfr może być numerem telefonu, kwotą albo kodem – decyduje kontekst, czyli wyjaśnienie, czego dotyczy.",
+  "poziom3": "W COBIT 5 dane są surowcem informacji (aktywator Informacja, dzień 3). FW-PL mówi o „kontekście danych”: *„dokładność, dostępność, aktualność i jakość danych”* (s. 91).",
+  "wyobrazSobie": "Rozsypane puzzle. Każdy kawałek coś zawiera, ale obraz widać dopiero po ułożeniu.",
+  "poCo": "Żeby zapisać fakty raz i móc z nich korzystać wiele razy: liczyć, porównywać, wysyłać.",
+  "jakDziala": "Ktoś wpisuje albo urządzenie zapisuje fakt, np. numer telefonu. Komputer przechowuje go jako dane. Gdy dane zestawimy z wyjaśnieniem („to numer naczelnika OSP”), powstaje informacja.",
+  "dlaczegoWazne": "Błędne albo stare dane dają błędne informacje i złe decyzje. W historii kursu przez stary numer telefonu alarm nie dotarł na czas.",
+  "przyklady": {
+    "zycie": "Na paragonie widzisz „4,99” i „12.05”. To dane. Informacją stają się, gdy wiesz: „4,99 zł zapłaciłam 12 maja za chleb”.",
+    "biuro": "W tabeli kadr jest kolumna z liczbą „26”. Bez nagłówka nie wiadomo, czy to wiek, dni urlopu, czy numer pokoju.",
+    "organizacja": "Sklep internetowy zbiera dane o zamówieniach: datę, kwotę, adres. Dopiero zestawione pokazują, co sprzedaje się najlepiej.",
+    "psp": "W „Syrenie” przy nazwisku naczelnika OSP Zawilce, Stanisława Pietrzaka, zapisano numer sprzed dwóch lat. Dane były nieaktualne, więc alarm nie dotarł.",
+    "it": "Dane są surowcem aktywatora Informacja; COBIT 5 mówi o kontekście danych: dokładności, dostępności, aktualności i jakości (FW-PL s. 91)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-informacja",
+      "roznica": "Dane to zapisane fakty. Informacja to dane, które coś komuś mówią w danej sytuacji."
+    },
+    {
+      "termin": "it-plik",
+      "roznica": "Plik to „pojemnik” na dane w komputerze. Dane to jego zawartość."
+    }
+  ],
+  "przykladWypowiedzi": "Data, czyli dane, to zapisane fakty, na przykład numer telefonu; information, czyli informacja, powstaje, gdy wiemy, czego te dane dotyczą.",
+  "egzamin": "Odróżnienie danych od informacji pomaga zrozumieć aktywator Informacja i jakość informacji (dzień 3). Na egzaminie słowo „dane” rzadko pada samodzielnie.",
+  "powiazane": [
+    "it-informacja",
+    "it-plik",
+    "it-baza-danych",
+    "informacja"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 91,
+      "cytat": "dokładność, dostępność, aktualność i jakość danych"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Na kartce jest napisane „7:15”. Co to jest? Godzina pobudki? Odjazd autobusu? Same cyfry to dane. Kiedy obok dopiszesz „autobus do pracy”, kartka zaczyna Ci coś mówić.",
+    "zaawansowany": "Ola Dudek przegląda listę numerów w „Syrenie”. Każdy numer to dane. Gdy obok jest nazwisko i funkcja („naczelnik OSP Zawilce”), dyżurny wie, kogo wzywa – to już [[it-informacja|informacja]]. Jeśli numer jest stary, informacja wprowadza w błąd, choć wygląda poprawnie.",
+    "skrajny": "Czy zdjęcie to dane? Tak – komputer zapisuje je jako ciąg liczb. Czy błędny numer telefonu to „nie-dane”? Nie – to dane, tylko złej jakości. Czy rozmowa przy zmianie dyżuru to dane w komputerze? Nie, ale to wciąż informacja przekazana słowami. **Rozstrzygnięcie:** dane to zapisane fakty, niezależnie od tego, czy są prawdziwe; informacją stają się, gdy mają znaczenie dla kogoś w konkretnej sytuacji."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Dane i informacja to synonimy.",
+      "prawda": "Dane to surowiec, informacja to dane z kontekstem, które coś komuś mówią."
+    },
+    {
+      "mit": "Dane w komputerze są zawsze prawdziwe.",
+      "prawda": "Komputer przechowuje to, co ktoś wpisał – także błędy i stare wpisy."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Traktowanie danych w systemie jako pewnej prawdy.",
+    "jakTlumaczyc": "Kartka „7:15” bez opisu i z opisem. Potem stary numer telefonu Pietrzaka.",
+    "pytanieKontrolne": "Czy „602 115 300” to dane, czy informacja?",
+    "odpowiedzKontrolna": "Same cyfry to dane. Gdy wiesz, że to aktualny numer naczelnika OSP Zawilce, masz informację."
+  }
+}

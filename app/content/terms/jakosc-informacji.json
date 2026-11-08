@@ -1,0 +1,105 @@
+{
+  "id": "jakosc-informacji",
+  "en": "Information quality criteria",
+  "wymowa": "informejszyn kłoliti krajtiria",
+  "wymowaAkcent": "in-for-MEJ-szyn KŁO-li-ti kraj-TI-ria",
+  "plEgzamin": "Kryteria jakości informacji",
+  "plPodrecznik": "Cele dotyczące informacji – podwymiary jakości",
+  "mapa": "jakosc-informacji",
+  "poLudzku": "Lista cech dobrej informacji: prawdziwa, aktualna, przydatna, dostępna i bezpieczna.",
+  "wyobrazSobie": "Lek z apteki: musi mieć właściwy skład, właściwą dawkę i ulotkę dla tego pacjenta, a wydaje się go tylko temu, kto ma receptę.",
+  "poCo": "Żeby dało się sprawdzić, czy informacja naprawdę nadaje się do użytku, zamiast ogólnie mówić, że „dane są złe”.",
+  "jakDziala": "COBIT 5 dzieli kryteria jakości informacji na trzy podwymiary celów aktywatora Informacja. Jakość wewnętrzna (intrinsic quality): dokładność, obiektywność, wiarygodność, reputacja. Jakość kontekstowa i reprezentacji (contextual and representational quality): m.in. istotność, kompletność, aktualność, zrozumiałość. Jakość bezpieczeństwa i dostępności (security/accessibility quality): dostępność w potrzebnym czasie i ograniczony dostęp dla nieuprawnionych.",
+  "dlaczegoWazne": "Egzamin pyta, do którego podwymiaru należy dane kryterium, np. wiarygodność do jakości wewnętrznej, a aktualność do kontekstowej. Pyta też o kryteria COBIT 4.1 odwzorowane w COBIT 5, np. skuteczność (Załącznik F).",
+  "poziom1": "Informacja jest dobra, gdy jest prawdziwa (jakość wewnętrzna), przydatna i czytelna tu i teraz (jakość kontekstowa i reprezentacji) oraz dostępna dla tych, którzy jej potrzebują, a zamknięta dla reszty (jakość bezpieczeństwa i dostępności). To trzy podwymiary celów aktywatora Informacja (np. rozkład jazdy: prawdziwy, aktualny i wywieszony na przystanku).",
+  "poziom2": "| Podwymiar | Kryteria (s. 82) |\n|---|---|\n| **Jakość wewnętrzna** (rzeczywista) | dokładność, obiektywność, **wiarygodność**, reputacja |\n| **Jakość kontekstowa i reprezentacji** | istotność, kompletność, aktualność, odpowiednia ilość, zwięzłe przedstawienie, spójne przedstawienie, możliwość interpretacji, jasność przekazu, łatwość posługiwania się |\n| **Jakość bezpieczeństwa i dostępności** | dostępność/terminowość, ograniczony dostęp |\n\nKryteria COBIT 4.1 (skuteczność, wydajność, integralność, wiarygodność, dostępność, poufność, zgodność) są w COBIT 5 odwzorowane na te podwymiary (Załącznik F). Na przykład **integralność** = kompletność + dokładność.",
+  "poziom3": "(s. 82) oraz Załącznik F, Ilustracja 26 (s. 63).",
+  "przyklady": {
+    "zycie": "Mama zostawia opiekunce kartkę o lekach dziecka. Dawki muszą być prawdziwe (wewnętrzna), kartka aktualna i napisana zwykłymi słowami, a nie skrótami lekarza (kontekstowa i reprezentacji), i musi wisieć na lodówce, a nie leżeć w torebce mamy (bezpieczeństwo i dostępność). Jeśli zawiedzie choć jeden z tych trzech podwymiarów, informacja nie spełnia swojej roli.",
+    "biuro": "Sekretarka dostaje listę telefonów do klientów. Numery są prawdziwe (jakość wewnętrzna), ale lista jest sprzed roku i bez nazwisk osób kontaktowych (słaba jakość kontekstowa), a leży w zamkniętej szufladzie kierownika na urlopie (słaba dostępność).",
+    "firma": "Sklep internetowy pokazuje klientom stan magazynu. Liczba sztuk musi zgadzać się z półką (wewnętrzna), być aktualna i jasno podana jako „ostatnie 2 sztuki” (kontekstowa i reprezentacji), a widzieć ją ma klient, ale ceny zakupu od hurtowni już nie (bezpieczeństwo i dostępność). To trzy podwymiary jakości informacji.",
+    "admin": "Urząd gminy publikuje harmonogram wywozu śmieci. Daty muszą być prawdziwe (wewnętrzna), aktualne na ten rok i podane w prostej tabeli dla każdej ulicy (kontekstowa i reprezentacji), a plik ma być na stronie cały czas, bez możliwości zmiany przez osoby z zewnątrz (bezpieczeństwo i dostępność). Wystarczy błąd w jednym z tych wymiarów, żeby mieszkańcy wystawili kosze w zły dzień.",
+    "psp": "Dowódca zastępu jedzie do pożaru i sprawdza na tablecie najbliższy hydrant. Wpis w rejestrze musi być dokładny (wewnętrzna), aktualny i czytelny na małym ekranie w nocy (kontekstowa i reprezentacji), a rejestr dostępny przez całą dobę i chroniony przed zmianami przez osoby postronne (bezpieczeństwo i dostępność). Jeśli zawiedzie którykolwiek z tych trzech podwymiarów, dowódca traci cenne minuty.",
+    "it": "Przy zamawianiu systemu kadrowego zespół w BAI02 (Zarządzanie definiowaniem wymagań) zapisuje wymagania jakości danych: poprawne dane osobowe, aktualizacja w dniu zmiany, wgląd tylko dla kadr. Każde wymaganie odpowiada jednemu z trzech podwymiarów jakości informacji."
+  },
+  "glebokosc": {
+    "prosty": "Mapa w schronisku górskim musi pokazywać szlaki zgodnie z prawdą, być aktualna i czytelna dla turysty, a wisieć tam, gdzie każdy ją zobaczy, za szybą, żeby nikt jej nie przerobił. Prawdziwa, ale schowana w szufladzie – nie pomoże. Widoczna, ale nieczytelna albo z zamkniętym od lat szlakiem – zaprowadzi na manowce.",
+    "zaawansowany": "Mł. kpt. Ola Dudek porządkuje rejestr OSP w Syrenie i sprawdza każdy rekord z trzech stron. Przestawione cyfry w numerze telefonu to wada [[jakosc-wewnetrzna|jakości wewnętrznej]] (dokładność). Rekord bez numeru zastępczego, gdy naczelnik nie odbiera, to brak kompletności, czyli wada jakości kontekstowej i reprezentacji. Rejestr poprawny, ale niedostępny w nocy dla dyżurnego, zawodzi w podwymiarze bezpieczeństwa i dostępności. Tak wyglądają trzy podwymiary celów aktywatora [[informacja|Informacja]].",
+    "skrajny": "Ewa Lis pisze w raporcie po staremu: „naruszona integralność danych adresowych”. W COBIT 4.1 integralność była jednym kryterium, a w COBIT 5 odpowiadają jej dwa cele z dwóch różnych podwymiarów: dokładność (jakość wewnętrzna) i kompletność (jakość kontekstowa i reprezentacji). Podobnie skuteczność z COBIT 4.1 obejmuje naraz istotność, jasność przekazu i właściwą ilość (kontekstowa) oraz obiektywność (wewnętrzna). Kto szuka w COBIT 5 jednego odpowiednika dla każdego starego kryterium, utknie. Za to wiarygodność, często brana za synonim dokładności, jest osobnym kryterium jakości wewnętrznej, bardziej subiektywnym: chodzi o to, czy informację uznaje się za prawdziwą i godną zaufania. **Rozstrzygnięcie:** kryteria COBIT 4.1 nie przekładają się jeden do jednego na podwymiary COBIT 5 (integralność = kompletność + dokładność, Załącznik F); do podwymiaru przypisuj konkretne kryterium z s. 82, a nie stare hasło."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Aktualność i kompletność to cechy prawdziwości, więc należą do jakości wewnętrznej.",
+      "prawda": "Obie są kryteriami jakości kontekstowej i reprezentacji: liczy się, czy informacja jest wystarczająco aktualna i kompletna dla konkretnego zadania (s. 82)."
+    },
+    {
+      "mit": "Dostępność informacji to część jakości kontekstowej, bo chodzi o przydatność.",
+      "prawda": "Dostępność/terminowość i ograniczony dostęp tworzą osobny podwymiar: jakość bezpieczeństwa i dostępności."
+    },
+    {
+      "mit": "Każde kryterium COBIT 4.1 ma w COBIT 5 dokładnie jeden odpowiednik.",
+      "prawda": "Np. integralność = kompletność + dokładność, czyli cele z dwóch podwymiarów (Załącznik F, s. 63)."
+    },
+    {
+      "mit": "Wiarygodność i dokładność to to samo.",
+      "prawda": "Dokładność: informacja jest poprawna. Wiarygodność: informację uznaje się za prawdziwą i godną zaufania – to ocena bardziej subiektywna. Obie należą do jakości wewnętrznej."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Przypisywanie aktualności i kompletności do jakości wewnętrznej, bo „brzmią jak prawdziwość”.",
+    "jakTlumaczyc": "Trzy pytania do każdej informacji: (1) Czy to prawda? – jakość wewnętrzna. (2) Czy przyda mi się teraz i rozumiem ją? – jakość kontekstowa i reprezentacji. (3) Czy mogę ją dostać, a obcy nie? – jakość bezpieczeństwa i dostępności. Każde kryterium z listy z s. 82 przypinaj do jednego pytania.",
+    "pytanieKontrolne": "Dyżurny ma bezbłędną i kompletną listę numerów OSP, ale tylko w pliku na komputerze kierownika, zamkniętym na noc. Które podwymiary jakości są spełnione, a który zawodzi?",
+    "odpowiedzKontrolna": "Jakość wewnętrzna jest spełniona (numery dokładne), kontekstowa i reprezentacji – co do treści też (lista istotna i kompletna). Zawodzi jakość bezpieczeństwa i dostępności: informacja nie jest dostępna wtedy, gdy jest wymagana. Dobra informacja musi spełnić wszystkie trzy podwymiary naraz."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Skuteczność (COBIT 4.1)",
+      "roznica": "W COBIT 5 skuteczność informacji odpowiada celom: właściwa ilość, istotność, jasność, możliwość interpretacji, obiektywność."
+    }
+  ],
+  "przykladWypowiedzi": "Believability, czyli wiarygodność, należy do intrinsic quality (jakość wewnętrzna), a currency, czyli aktualność, do contextual quality (jakość kontekstowa) informacji.",
+  "egzamin": "Kryterium, które spełnia **wyłącznie potrzebę użytkownika** informacji, to **skuteczność** (informacja pozwala wykonać zadanie, Załącznik F). Wiarygodność = uznawana za prawdziwą i godną zaufania.",
+  "powiazane": [
+    "informacja",
+    "jakosc-wewnetrzna",
+    "jakosc-kontekstowa"
+  ],
+  "sylabus": [
+    "EN-02-17"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 82,
+      "cytat": "obiektywność — stopień, w jakim informacje są nienacechowane z góry wyrobionym osądem"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 63,
+      "cytat": "Informacje są skuteczne, jeśli spełniają potrzeby odbiorców informacji"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 63,
+      "ilustracja": "26"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Kryteria jakości informacji",
+    "podrecznik": "Cele dotyczące informacji – podwymiary jakości",
+    "kurs": "Kryteria jakości informacji (Information quality criteria)",
+    "uwaga": "Egzamin PL: „Kryteria jakości informacji”; podręcznik PL: „Cele dotyczące informacji – podwymiary jakości” – konkurencyjne odpowiedniki. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 82, 63."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "informacja",
+    "jakosc-wewnetrzna",
+    "jakosc-kontekstowa",
+    "dostep-i-bezpieczenstwo"
+  ]
+}

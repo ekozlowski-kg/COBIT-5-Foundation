@@ -1,0 +1,117 @@
+{
+  "id": "proc-dss04",
+  "en": "DSS04 Manage Continuity",
+  "wymowa": "dieses 04 menydż kontinjuiti",
+  "wymowaAkcent": "di-es-ES 04 ME-nydż kon-ti-NJU-i-ti",
+  "plEgzamin": "DSS04 Zarządzanie ciągłością",
+  "plPodrecznik": "DSS04 Zarządzanie ciągłością",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "DSS04 Zarządzanie ciągłością",
+    "podrecznik": "DSS04 Zarządzanie ciągłością",
+    "kurs": "DSS04 Zarządzanie ciągłością (DSS04 Manage Continuity)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „DSS04 Zarządzanie ciągłością”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Manage Continuity*.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "dss",
+    "ryzyko"
+  ],
+  "poLudzku": "Masz plan na czarną godzinę: co robisz, gdy padnie wszystko, żeby najważniejsze sprawy dalej działały.",
+  "wyobrazSobie": "Masz w szufladzie latarkę, zapas wody i numer do sąsiada. Raz w roku sprawdzasz, czy baterie działają.",
+  "skadNazwa": "Z angielskiego *Manage Continuity*. Chodzi o ciągłość działania organizacji (*business continuity*), a nie tylko o odtworzenie serwera.",
+  "poziom1": "Proces domeny [[dss]], który tworzy i utrzymuje plan, dzięki któremu organizacja i IT reagują na poważne zakłócenia i utrzymują krytyczne procesy biznesowe, usługi IT i dostęp do informacji na akceptowalnym poziomie. Obejmuje strategię, kopie zapasowe, ćwiczenia, szkolenia i przegląd po zdarzeniu.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** ustala zakres i strategię ciągłości (co jest krytyczne i jak szybko trzeba to odtworzyć), tworzy plany, ćwiczy je i testuje, szkoli ludzi, utrzymuje kopie zapasowe, a po zdarzeniu robi przegląd i poprawia plan.\n\n**Wejścia (intuicja):** analiza ryzyka (APO12), krytyczne procesy i usługi, wymagania dostępności ([[proc-bai04]]).\n\n**Wyjścia (intuicja):** plan ciągłości, wyniki ćwiczeń, kopie zapasowe, raport z przeglądu po zdarzeniu.\n\n**Współpracuje z:** APO12 (ryzyko), [[proc-bai04]] (codzienna dostępność), [[proc-dss02]] (incydent, który przeradza się w poważne zakłócenie), [[proc-dss01]] (środowisko i zaplecze).",
+  "poziom3": "Oficjalnie (FW-PL). Słownik (s. 89), „Ciągłość działalności biznesowej”: *„Zapobieganie zakłóceniom działalności, łagodzenie ich skutków i odtwarzanie.”* Il. 33 (s. 77): kierownik ds. ciągłości dba *„o ciągłość działania funkcji krytycznych w przedsiębiorstwie po zdarzeniach powodujących zakłócenia”*. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby najważniejsze sprawy działały nawet po poważnym zakłóceniu. Plan powstaje, zanim coś się stanie.",
+  "jakDziala": "Określasz politykę, zakres i strategię ciągłości. Tworzysz plan reagowania i dbasz o kopie zapasowe. Ćwiczysz plan, szkolisz ludzi, a po zdarzeniu robisz przegląd i poprawiasz plan.",
+  "dlaczegoWazne": "Pojedyncza awaria to DSS02, a poważne zakłócenie działania organizacji to DSS04. Samo ryzyko IT ocenia i prowadzi APO12.",
+  "przyklady": {
+    "zycie": "Masz w szafce latarkę, zapas wody, powerbank i listę telefonów na kartce. Zapasowy klucz leży u sąsiada, a zdjęcia rodzinne mają kopię w chmurze. Raz w roku sprawdzasz, czy latarka świeci. To plan ciągłości w domowej skali.",
+    "biuro": "Biuro ma papierową listę telefonów klientów na wypadek braku prądu. Raz w roku sprawdzacie, czy da się przepracować dzień bez komputerów.",
+    "organizacja": "Piekarnia ma agregat, papierowe zamówienia i umowę z drugą piekarnią, a raz w roku robi próbę. Urząd gminy trzyma kopię danych w drugim budynku i ćwiczy scenariusz „spłonęła serwerownia”.",
+    "psp": "**Woda w serwerowni.** Kpt. Marek Sikora pisze plan ciągłości dla Syreny: kopia zapasowa systemu w komendzie wojewódzkiej, ręczna procedura alarmowania OSP przez radio i telefon, lista telefonów na papierze w SK. Raz na kwartał dyżurni ćwiczą noc bez Syreny. Plan, dzięki któremu komenda dalej wysyła pomoc mimo katastrofy, to [[proc-dss04]].",
+    "it": "Praktyki DSS04 obejmują m.in. strategię ciągłości, plan reagowania, testy planu, szkolenia, kopie zapasowe i przegląd po wznowieniu działania."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-bai04",
+      "roznica": "BAI04 planuje dostępność i pojemność w zwykłym działaniu i w szczycie. DSS04 przygotowuje przetrwanie poważnego zakłócenia lub katastrofy."
+    },
+    {
+      "termin": "proc-dss02",
+      "roznica": "DSS02 obsługuje zwykły incydent. Gdy zakłócenie jest tak poważne, że normalna obsługa nie wystarcza, uruchamia się plan z DSS04."
+    },
+    {
+      "termin": "proc-apo12",
+      "roznica": "APO12 ocenia ryzyko, także ryzyko katastrofy. DSS04 przygotowuje konkretną odpowiedź na takie zdarzenie."
+    }
+  ],
+  "przykladWypowiedzi": "DSS04 Manage Continuity, czyli Zarządzanie ciągłością, utrzymuje krytyczne usługi po poważnym zakłóceniu.",
+  "egzamin": "Słowa-klucze: ciągłość działania, plan awaryjny, odtwarzanie po katastrofie, kopie zapasowe, ćwiczenie planu, funkcje krytyczne → **DSS04**. Szczyt obciążenia → **BAI04**.",
+  "powiazane": [
+    "dss",
+    "ryzyko",
+    "proc-bai04",
+    "proc-dss02",
+    "proc-apo12"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "DSS04 Zarządzanie ciągłością"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 89,
+      "cytat": "Zapobieganie zakłóceniom działalności, łagodzenie ich skutków i odtwarzanie."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 77,
+      "ilustracja": "33",
+      "cytat": "o ciągłość działania funkcji krytycznych w przedsiębiorstwie po zdarzeniach powodujących zakłócenia"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "podzbiór procesów w domenie DSS"
+    }
+  ],
+  "mapa": "proc-dss04",
+  "glebokosc": {
+    "prosty": "Jedziesz na wesele z ważnym prezentem. Masz zapasowe koło, numer do pomocy drogowej i plan: jak auto stanie, siostra Cię podwiezie. Nie liczysz, że nic się nie stanie. Wiesz, co zrobisz, gdy się stanie.",
+    "zaawansowany": "Sikora pisze plan na wypadek, gdyby serwer Syreny przestał istnieć: kopia w komendzie wojewódzkiej, ręczne alarmowanie OSP, papierowa lista numerów. To [[proc-dss04]]. Na co dzień o moc i dostępność Syreny dba [[proc-bai04]], a zwykłe awarie obsługuje [[proc-dss02]]. Plan uruchamia się wtedy, gdy zwykła obsługa nie wystarcza.",
+    "skrajny": "Komenda ma gruby plan ciągłości w szafie: jak odtworzyć serwer Syreny z kopii w 4 godziny. Plan nigdy nie był ćwiczony i nie mówi nic o tym, co dyżurni robią przez te 4 godziny. Czy komenda ma DSS04? Tylko na papierze. Po pierwsze, ciągłość dotyczy działania organizacji, a nie tylko serwera: OSP musi dostać alarm także bez Syreny. Po drugie, nieprzećwiczony plan to plan niepewny. DSS04 obejmuje ćwiczenia, szkolenia i przegląd planu. **Rozstrzygnięcie:** DSS04 to ciągłość działania organizacji wspieranej przez IT, nie samo odtworzenie systemu. Plan, którego nikt nie przećwiczył, nie spełnia celu procesu."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Ciągłość to sprawa informatyków: odtworzyć serwer z kopii.",
+      "prawda": "DSS04 obejmuje ciągłość krytycznych procesów biznesowych, np. ręczne alarmowanie, gdy system nie działa."
+    },
+    {
+      "mit": "Wystarczy mieć plan.",
+      "prawda": "Plan trzeba ćwiczyć, testować, szkolić ludzi i poprawiać po każdym zdarzeniu."
+    },
+    {
+      "mit": "DSS04 i BAI04 to to samo, bo oba dbają o dostępność.",
+      "prawda": "BAI04 planuje dostępność w normalnym działaniu i w szczycie. DSS04 przygotowuje przetrwanie poważnych zakłóceń."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń ogranicza ciągłość do kopii zapasowych i odtworzenia serwera.",
+    "jakTlumaczyc": "Zapytaj: „Co robią dyżurni w pierwszej godzinie bez Syreny?”. Jeśli plan nie ma odpowiedzi, to nie jest pełny plan ciągłości.",
+    "pytanieKontrolne": "W sylwestra Syrena zwalnia, bo przychodzi dziesięć razy więcej zgłoszeń. Czy przygotowanie na to należy do DSS04?",
+    "odpowiedzKontrolna": "**Nie, to BAI04** – planowanie pojemności na szczyt. DSS04 przygotowuje przetrwanie poważnego zakłócenia, np. pożaru czy zalania serwerowni."
+  }
+}

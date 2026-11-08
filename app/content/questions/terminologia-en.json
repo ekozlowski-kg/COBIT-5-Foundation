@@ -1,0 +1,2877 @@
+{
+  "opis": "Ćwiczenia terminologiczne EN (METODYKA §17.10). Plik generowany: content/_narzedzia/gen_terminologia_en.py – nie edytować ręcznie.",
+  "_format": {
+    "nazwa-en": "Pola: tresc (polecenie), termin (id hasła), poprawne (lista akceptowanych odpowiedzi; pierwsza = kanoniczna), wyjasnienie. Porównanie: małe litery; myślniki, ukośniki i półpauzy → spacja; usuń . , : ; ' \" ( ); scal spacje; dopuść pisownię US (-ize, -or, Program). Ocena: trafienie dowolnego elementu `poprawne`.",
+    "popraw-termin": "Wariant `bledy`: tresc, twierdzenia [{tekst, poprawne, wyjasnienie, blednyTermin?, poprawka?}]. Kursant zaznacza błędne zdania; przy błędnym zdaniu podaje poprawny termin (porównanie z `poprawka` jak w nazwa-en, tolerancyjnie, albo samoocena po pokazaniu `poprawka`). Bez obsługi typu UI może renderować go jak `bledy`."
+  },
+  "pytania": [
+    {
+      "id": "q-ten-lad",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "M0-00-06",
+        "PR-02-14"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Podaj angielski termin, który egzamin PL tłumaczy jako „Ład”.",
+      "termin": "lad",
+      "poprawne": [
+        "Governance"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Governance** (wym. „gawernens”). Egzamin PL: „Ład”; w podręczniku: „Nadzór”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 91
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "lad"
+      ]
+    },
+    {
+      "id": "q-ten-zarzadzanie",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "M0-00-06",
+        "PR-02-14"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Podaj angielski termin, od którego COBIT 5 oddziela Ład (zasada 5): „Zarządzanie”.",
+      "termin": "zarzadzanie",
+      "poprawne": [
+        "Management"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Management** (wym. „menydżment”). Egzamin PL: „Zarządzanie”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 92
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zarzadzanie"
+      ]
+    },
+    {
+      "id": "q-ten-aktywator",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Podaj angielski termin dla „Aktywatora” (w podręczniku: „czynnik umożliwiający”).",
+      "termin": "aktywator",
+      "poprawne": [
+        "Enabler"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Enabler** (wym. „inejbler”). Egzamin PL: „Aktywator”; w podręczniku: „Czynnik umożliwiający”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 91
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "aktywator"
+      ]
+    },
+    {
+      "id": "q-ten-interesariusz",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Podaj angielski termin dla „Interesariusza”.",
+      "termin": "interesariusz",
+      "poprawne": [
+        "Stakeholder"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Stakeholder** (wym. „stejkhołder”). Egzamin PL: „Interesariusz”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 22,
+          "ilustracja": "7"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "interesariusz"
+      ]
+    },
+    {
+      "id": "q-ten-struktura-ramowa",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "M0-00-07",
+        "PR-02-11"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Podaj angielski termin, który egzamin PL tłumaczy jako „Struktura ramowa”.",
+      "termin": "struktura-ramowa",
+      "poprawne": [
+        "Framework"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Framework** (wym. „frejmłerk”). Egzamin PL: „Struktura ramowa”; w podręczniku: „Metodyka”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 91
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "struktura-ramowa"
+      ]
+    },
+    {
+      "id": "q-ten-organizacja",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin, który egzamin PL tłumaczy jako „Organizacja” (w podręczniku: „przedsiębiorstwo”).",
+      "termin": "organizacja",
+      "poprawne": [
+        "Enterprise"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Enterprise** (wym. „enterprajz”). Egzamin PL: „Organizacja”; w podręczniku: „Przedsiębiorstwo”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "organizacja"
+      ]
+    },
+    {
+      "id": "q-ten-kaskada-celow",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-02-02",
+        "PR-02-03"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Podaj angielski termin dla: „Kaskada Celów”.",
+      "termin": "kaskada-celow",
+      "poprawne": [
+        "Goals Cascade"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Goals Cascade** (wym. „gołlz keskejd”). Egzamin PL: „Kaskada Celów”; w podręczniku: „Kaskada celów”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 18,
+          "ilustracja": "4"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "kaskada-celow"
+      ]
+    },
+    {
+      "id": "q-ten-cele-organizacji",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-02-03",
+        "PR-02-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin dla: „Cele organizacji”.",
+      "termin": "cele-organizacji",
+      "poprawne": [
+        "Enterprise goals"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Enterprise goals** (wym. „enterprajz gołlz”). Egzamin PL: „Cele organizacji”; w podręczniku: „Cele przedsiębiorstwa”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 19,
+          "ilustracja": "5"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 91
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "cele-organizacji"
+      ]
+    },
+    {
+      "id": "q-ten-cele-zwiazane-z-it",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-02-05"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin dla: „Cele związane z informatyką”.",
+      "termin": "cele-zwiazane-z-it",
+      "poprawne": [
+        "IT-related goals"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **IT-related goals** (wym. „ajti rilejtyd gołlz”). Egzamin PL: „Cele związane z informatyką”; w podręczniku: „Cele związane z IT”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 19,
+          "ilustracja": "6"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "cele-zwiazane-z-it"
+      ]
+    },
+    {
+      "id": "q-ten-tworzenie-wartosci",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "M0-00-03",
+        "PR-02-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę Celu Ładu: „Tworzenie Wartości”.",
+      "termin": "tworzenie-wartosci",
+      "poprawne": [
+        "Value Creation"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Value Creation** (wym. „welju kriejszyn”). Egzamin PL: „Tworzenie Wartości – Cel Ładu”; w podręczniku: „Tworzenie wartości – cel nadzoru”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17,
+          "ilustracja": "3"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "tworzenie-wartosci"
+      ]
+    },
+    {
+      "id": "q-ten-realizacja-korzysci",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "M0-00-03",
+        "PR-02-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin dla: „Realizacja korzyści”.",
+      "termin": "realizacja-korzysci",
+      "poprawne": [
+        "Benefits Realisation",
+        "Benefits Realization"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Benefits Realisation** (wym. „benefits rialajzejszyn”). Egzamin PL: „Realizacja korzyści”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 17,
+          "ilustracja": "3"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "realizacja-korzysci"
+      ]
+    },
+    {
+      "id": "q-ten-optymalizacja-ryzyka",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "M0-00-04",
+        "PR-02-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin dla: „Optymalizacja ryzyka”.",
+      "termin": "optymalizacja-ryzyka",
+      "poprawne": [
+        "Risk Optimisation",
+        "Risk Optimization"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Risk Optimisation** (wym. „risk optimajzejszyn”). Egzamin PL: „Optymalizacja ryzyka”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 13
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "optymalizacja-ryzyka"
+      ]
+    },
+    {
+      "id": "q-ten-optymalizacja-zasobow",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "M0-00-04",
+        "PR-02-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin dla: „Optymalizacja zasobów”.",
+      "termin": "optymalizacja-zasobow",
+      "poprawne": [
+        "Resource Optimisation",
+        "Resource Optimization"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Resource Optimisation** (wym. „rizors optimajzejszyn”). Egzamin PL: „Optymalizacja zasobów”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "optymalizacja-zasobow"
+      ]
+    },
+    {
+      "id": "q-ten-wskaznik-wiodacy",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-02-13"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin dla: „Wskaźnik wiodący”.",
+      "termin": "wskaznik-wiodacy",
+      "poprawne": [
+        "Lead indicator"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Lead indicator** (wym. „lid indikejter”). Egzamin PL: „Wskaźnik wiodący”; w podręczniku: „Wskaźnik wyprzedzający”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "wskaznik-wiodacy"
+      ]
+    },
+    {
+      "id": "q-ten-wskaznik-opozniony",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-02-13"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin dla: „Wskaźnik opóźniony”.",
+      "termin": "wskaznik-opozniony",
+      "poprawne": [
+        "Lag indicator"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Lag indicator** (wym. „leg indikejter”). Egzamin PL: „Wskaźnik opóźniony”; w podręczniku: „Wskaźnik następujący”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "wskaznik-opozniony"
+      ]
+    },
+    {
+      "id": "q-ten-edm",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-03",
+        "PR-02-14"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Podaj pełną angielską nazwę domeny EDM.",
+      "termin": "edm",
+      "poprawne": [
+        "Evaluate, Direct and Monitor",
+        "Evaluate, Direct & Monitor"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Evaluate, Direct and Monitor** (wym. „iweljuejt dajrekt end moniter”). Egzamin PL: „Oszacuj, Kieruj i Monitoruj (EDM)”; w podręczniku: „Ocena, kierowanie i monitorowanie (EDM)”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 32
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "edm"
+      ]
+    },
+    {
+      "id": "q-ten-apo",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04",
+        "EN-02-23"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj pełną angielską nazwę domeny APO.",
+      "termin": "apo",
+      "poprawne": [
+        "Align, Plan and Organise",
+        "Align, Plan and Organize",
+        "Align, Plan & Organise"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Align, Plan and Organise** (wym. „alajn plen end organajz”). Egzamin PL: „Dostosuj, Planuj i Organizuj (APO)”; w podręczniku: „Dopasowanie, planowanie i organizacja (APO)”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-bai",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04",
+        "EN-02-23"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj pełną angielską nazwę domeny BAI.",
+      "termin": "bai",
+      "poprawne": [
+        "Build, Acquire and Implement",
+        "Build, Acquire & Implement"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Build, Acquire and Implement** (wym. „bild akłajer end implement”). Egzamin PL: „Twórz, Nabywaj i Wdrażaj (BAI)”; w podręczniku: „Budowanie, nabywanie i wdrażanie (BAI)”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "bai"
+      ]
+    },
+    {
+      "id": "q-ten-dss",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04",
+        "EN-02-23"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj pełną angielską nazwę domeny DSS.",
+      "termin": "dss",
+      "poprawne": [
+        "Deliver, Service and Support",
+        "Deliver, Service & Support"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Deliver, Service and Support** (wym. „deliwer serwis end saport”). Egzamin PL: „Dostarczaj, Obsługuj i Wspieraj (DSS)”; w podręczniku: „Dostarczanie, obsługa i wsparcie (DSS)”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "dss"
+      ]
+    },
+    {
+      "id": "q-ten-mea",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04",
+        "EN-02-23"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj pełną angielską nazwę domeny MEA.",
+      "termin": "mea",
+      "poprawne": [
+        "Monitor, Evaluate and Assess",
+        "Monitor, Evaluate & Assess"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Monitor, Evaluate and Assess** (wym. „moniter iweljuejt end ases”). Egzamin PL: „Monitoruj, Oszacuj i Oceń (MEA)”; w podręczniku: „Monitorowanie, ocena i oszacowanie (MEA)”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "mea"
+      ]
+    },
+    {
+      "id": "q-ten-pbrm",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04",
+        "PR-02-14"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielskie rozwinięcie skrótu PBRM (obszar Zarządzania).",
+      "termin": "pbrm",
+      "poprawne": [
+        "Plan, Build, Run and Monitor",
+        "Plan, Build, Run & Monitor"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Plan, Build, Run and Monitor** (wym. „plen bild ran end moniter”). Egzamin PL: „Planuj, Twórz, Wykonuj i Monitoruj”; w podręczniku: „Planowanie, Budowanie, Uruchamianie i Monitorowanie”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 32
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 32,
+          "ilustracja": "15"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "pbrm"
+      ]
+    },
+    {
+      "id": "q-ten-zasada-1",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę zasady 1 COBIT 5.",
+      "termin": "zasada-1",
+      "poprawne": [
+        "Principle 1: Meeting Stakeholder Needs",
+        "Meeting Stakeholder Needs"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Principle 1: Meeting Stakeholder Needs** (wym. „prinsipl 1 miting stejkhołder nidz”). Egzamin PL: „Zasada 1: Realizacja potrzeb interesariusza”; w podręczniku: „Zasada 1: Spełnienie potrzeb interesariuszy”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13,
+          "ilustracja": "2"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zasada-1"
+      ]
+    },
+    {
+      "id": "q-ten-zasada-2",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-01",
+        "PR-02-08"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę zasady 2 COBIT 5.",
+      "termin": "zasada-2",
+      "poprawne": [
+        "Principle 2: Covering the Enterprise End-to-End",
+        "Covering the Enterprise End-to-End"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Principle 2: Covering the Enterprise End-to-End** (wym. „prinsipl 2 kawering de enterprajz endtuend”). Egzamin PL: „Zasada 2: Pokrycie całej organizacji”; w podręczniku: „Zasada 2: Uwzględnienie wszystkich aspektów działania przedsiębiorstwa”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 23
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 23,
+          "ilustracja": "8"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zasada-2"
+      ]
+    },
+    {
+      "id": "q-ten-zasada-3",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-01",
+        "PR-02-10"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę zasady 3 COBIT 5.",
+      "termin": "zasada-3",
+      "poprawne": [
+        "Principle 3: Applying a Single Integrated Framework",
+        "Applying a Single Integrated Framework"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Principle 3: Applying a Single Integrated Framework** (wym. „prinsipl 3 aplajing e singl integrejtyd frejmłerk”). Egzamin PL: „Zasada 3: Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej”; w podręczniku: „Zasada 3: Stosowanie jednej zintegrowanej metodyki”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 25,
+          "ilustracja": "10"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zasada-3"
+      ]
+    },
+    {
+      "id": "q-ten-zasada-4",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-01",
+        "PR-01-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę zasady 4 COBIT 5.",
+      "termin": "zasada-4",
+      "poprawne": [
+        "Principle 4: Enabling a Holistic Approach",
+        "Enabling a Holistic Approach"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Principle 4: Enabling a Holistic Approach** (wym. „prinsipl 4 inejbling e hołlistik aprołcz”). Egzamin PL: „Zasada 4: Aktywacja holistycznego podejścia”; w podręczniku: „Zasada 4: Wdrożenie podejścia całościowego”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 27
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 27,
+          "ilustracja": "12"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zasada-4"
+      ]
+    },
+    {
+      "id": "q-ten-zasada-5",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-01",
+        "PR-02-14"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę zasady 5 COBIT 5.",
+      "termin": "zasada-5",
+      "poprawne": [
+        "Principle 5: Separating Governance From Management",
+        "Separating Governance From Management"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Principle 5: Separating Governance From Management** (wym. „prinsipl 5 separejting gawernens from menydżment”). Egzamin PL: „Zasada 5: Oddzielenie Ładu od Zarządzania”; w podręczniku: „Zasada 5: Oddzielenie nadzoru od zarządzania”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 31,
+          "ilustracja": "14"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zasada-5"
+      ]
+    },
+    {
+      "id": "q-ten-zasady-polityki-struktury",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "EN-02-01",
+        "EN-02-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę aktywatora 1.",
+      "termin": "zasady-polityki-struktury",
+      "poprawne": [
+        "Principles, Policies and Frameworks",
+        "Principles, Policies & Frameworks"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Principles, Policies and Frameworks** (wym. „prinsiplz polisiz end frejmłerks”). Egzamin PL: „Zasady, Polityki i Struktury ramowe”; w podręczniku: „Zasady, polityki i metodyki”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 67,
+          "ilustracja": "28"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zasady-polityki-struktury"
+      ]
+    },
+    {
+      "id": "q-ten-struktury-organizacyjne",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę aktywatora 3.",
+      "termin": "struktury-organizacyjne",
+      "poprawne": [
+        "Organisational Structures",
+        "Organizational Structures"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Organisational Structures** (wym. „organajzejszynal strakczers”). Egzamin PL: „Struktury organizacyjne”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 27
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 75,
+          "ilustracja": "32"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "struktury-organizacyjne"
+      ]
+    },
+    {
+      "id": "q-ten-kultura-etyka-zachowanie",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "EN-02-14",
+        "EN-02-15"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę aktywatora 4.",
+      "termin": "kultura-etyka-zachowanie",
+      "poprawne": [
+        "Culture, Ethics and Behaviour",
+        "Culture, Ethics and Behavior",
+        "Culture, Ethics & Behaviour"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Culture, Ethics and Behaviour** (wym. „kalczer etiks end bihejwjer”). Egzamin PL: „Kultura, Etyka i Zachowanie”; w podręczniku: „Kultura, etyka i zachowanie”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 79
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 79,
+          "ilustracja": "34"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "kultura-etyka-zachowanie"
+      ]
+    },
+    {
+      "id": "q-ten-informacja",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "EN-02-17",
+        "EN-02-18"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Podaj angielską nazwę aktywatora 5.",
+      "termin": "informacja",
+      "poprawne": [
+        "Information"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Information** (wym. „informejszyn”). Egzamin PL: „Informacja”; w podręczniku: „Informacje”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 81
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "informacja"
+      ]
+    },
+    {
+      "id": "q-ten-uslugi-infrastruktura-aplikacje",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "EN-02-20",
+        "EN-02-21"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę aktywatora 6.",
+      "termin": "uslugi-infrastruktura-aplikacje",
+      "poprawne": [
+        "Services, Infrastructure and Applications",
+        "Services, Infrastructure & Applications"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Services, Infrastructure and Applications** (wym. „serwisiz infrastrakczer end eplikejszyns”). Egzamin PL: „Usługi, Infrastruktura i Aplikacje”; w podręczniku: „Usługi, infrastruktura i aplikacje”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 85
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 85,
+          "ilustracja": "37"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "uslugi-infrastruktura-aplikacje"
+      ]
+    },
+    {
+      "id": "q-ten-ludzie-umiejetnosci-kompetencje",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "EN-02-22"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę aktywatora 7.",
+      "termin": "ludzie-umiejetnosci-kompetencje",
+      "poprawne": [
+        "People, Skills and Competencies",
+        "People, Skills & Competencies"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **People, Skills and Competencies** (wym. „pipl skilz end kompetensiz”). Egzamin PL: „Ludzie, Umiejętności i Kompetencje”; w podręczniku: „Ludzie, umiejętności i kompetencje”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 87
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 87,
+          "ilustracja": "38"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "ludzie-umiejetnosci-kompetencje"
+      ]
+    },
+    {
+      "id": "q-ten-prm",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-03",
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę modelu, który zawiera 37 procesów COBIT 5 (bez skrótu).",
+      "termin": "prm",
+      "poprawne": [
+        "Process Reference Model"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Process Reference Model** (wym. „prołses referens model”). Egzamin PL: „Referencyjny Model Procesu”; w podręczniku: „Model referencyjny procesu COBIT 5”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 32
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 33
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "prm"
+      ]
+    },
+    {
+      "id": "q-ten-cykl-wdrozenia",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "IM-01-01",
+        "IM-02-05"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin dla: „Cykl Życia Wdrożenia”.",
+      "termin": "cykl-wdrozenia",
+      "poprawne": [
+        "Implementation life cycle"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Implementation life cycle** (wym. „implementejszyn lajf sajkl”). Egzamin PL: „Cykl Życia Wdrożenia”; w podręczniku: „Cykl życia wdrożenia”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38,
+          "ilustracja": "17"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "cykl-wdrozenia"
+      ]
+    },
+    {
+      "id": "q-ten-pierscien-program",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "IM-01-01",
+        "IM-02-05"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę zewnętrznego pierścienia Cyklu Życia Wdrożenia.",
+      "termin": "pierscien-program",
+      "poprawne": [
+        "Programme management",
+        "Program management"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Programme management** (wym. „prołgrem menydżment”). Egzamin PL: „Zarządzanie programem”; w podręczniku: „Zarządzanie programem (krąg zewnętrzny)”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38,
+          "ilustracja": "17"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "pierscien-program",
+        "cykl-wdrozenia"
+      ]
+    },
+    {
+      "id": "q-ten-pierscien-zmiana",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "IM-01-01",
+        "IM-02-05"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę środkowego pierścienia Cyklu Życia Wdrożenia.",
+      "termin": "pierscien-zmiana",
+      "poprawne": [
+        "Change enablement"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Change enablement** (wym. „czejndż inejblment”). Egzamin PL: „Aktywowanie zmiany”; w podręczniku: „Umożliwienie zmian (krąg środkowy)”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38,
+          "ilustracja": "17"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "pierscien-zmiana",
+        "cykl-wdrozenia"
+      ]
+    },
+    {
+      "id": "q-ten-pierscien-doskonalenie",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "IM-01-01",
+        "IM-02-05"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę wewnętrznego pierścienia Cyklu Życia Wdrożenia.",
+      "termin": "pierscien-doskonalenie",
+      "poprawne": [
+        "Continual improvement life cycle"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Continual improvement life cycle** (wym. „kontinjuel impruwment lajf sajkl”). Egzamin PL: „Główny cykl życia ciągłego doskonalenia”; w podręczniku: „Podstawowy cykl życia ciągłego doskonalenia”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38,
+          "ilustracja": "17"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "pierscien-doskonalenie",
+        "cykl-wdrozenia"
+      ]
+    },
+    {
+      "id": "q-ten-punkty-zapalne",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "IM-02-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin dla: „Punkty zapalne”.",
+      "termin": "punkty-zapalne",
+      "poprawne": [
+        "Pain points"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Pain points** (wym. „pejn pojnts”). Egzamin PL: „Punkty zapalne”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "punkty-zapalne"
+      ]
+    },
+    {
+      "id": "q-ten-zdarzenia-wyzwalajace",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "IM-02-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin dla: „Zdarzenia wyzwalające”.",
+      "termin": "zdarzenia-wyzwalajace",
+      "poprawne": [
+        "Trigger events"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Trigger events** (wym. „triger iwents”). Egzamin PL: „Zdarzenia wyzwalające”; w podręczniku: „Zdarzenia inicjujące”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "zdarzenia-wyzwalajace"
+      ]
+    },
+    {
+      "id": "q-ten-uzasadnienie-biznesowe",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "IM-02-03",
+        "IM-02-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Podaj angielski termin dla: „Uzasadnienie biznesowe”.",
+      "termin": "uzasadnienie-biznesowe",
+      "poprawne": [
+        "Business case"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Business case** (wym. „biznes kejs”). Egzamin PL: „Uzasadnienie biznesowe”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "uzasadnienie-biznesowe"
+      ]
+    },
+    {
+      "id": "q-ten-atrybuty-procesu",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielski termin dla: „Atrybuty procesu”.",
+      "termin": "atrybuty-procesu",
+      "poprawne": [
+        "Process attributes"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Process attributes** (wym. „prołses etribjuts”). Egzamin PL: „Atrybuty procesu”; w podręczniku: „Atrybuty potencjału procesu”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "atrybuty-procesu"
+      ]
+    },
+    {
+      "id": "q-ten-raci",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Rozwiń skrót RACI po angielsku (cztery słowa, w kolejności liter).",
+      "termin": "raci",
+      "poprawne": [
+        "Responsible, Accountable, Consulted, Informed"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **Responsible, Accountable, Consulted, Informed** (wym. „resi czart”). Egzamin PL: „Tabela (diagram) RACI”; w podręczniku: „Tabela RACI”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 90
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "raci"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo01",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO01**.",
+      "termin": "proc-apo01",
+      "poprawne": [
+        "APO01 Manage the IT Management Framework",
+        "Manage the IT Management Framework"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO01 Manage the IT Management Framework** (wym. „ejpio 01 menydż de ajti menydżment frejmłerk”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo01",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo02",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO02**.",
+      "termin": "proc-apo02",
+      "poprawne": [
+        "APO02 Manage Strategy",
+        "Manage Strategy"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO02 Manage Strategy** (wym. „ejpio 02 menydż stretedżi”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo02",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo03",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO03**.",
+      "termin": "proc-apo03",
+      "poprawne": [
+        "APO03 Manage Enterprise Architecture",
+        "Manage Enterprise Architecture"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO03 Manage Enterprise Architecture** (wym. „ejpio 03 menydż enterprajz arkitekczer”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo03",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo04",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO04**.",
+      "termin": "proc-apo04",
+      "poprawne": [
+        "APO04 Manage Innovation",
+        "Manage Innovation"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO04 Manage Innovation** (wym. „ejpio 04 menydż inowejszyn”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo04",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo05",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO05**.",
+      "termin": "proc-apo05",
+      "poprawne": [
+        "APO05 Manage Portfolio",
+        "Manage Portfolio"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO05 Manage Portfolio** (wym. „ejpio 05 menydż portfołlioł”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo05",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo06",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO06**.",
+      "termin": "proc-apo06",
+      "poprawne": [
+        "APO06 Manage Budget and Costs",
+        "APO06 Manage Budget & Costs",
+        "Manage Budget and Costs",
+        "Manage Budget & Costs"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO06 Manage Budget and Costs** (wym. „ejpio 06 menydż badżyt end kosts”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo06",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo07",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO07**.",
+      "termin": "proc-apo07",
+      "poprawne": [
+        "APO07 Manage Human Resources",
+        "Manage Human Resources"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO07 Manage Human Resources** (wym. „ejpio 07 menydż hjumen rizorsiz”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo07",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo08",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04",
+        "EN-02-08"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO08**.",
+      "termin": "proc-apo08",
+      "poprawne": [
+        "APO08 Manage Relationships",
+        "Manage Relationships"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO08 Manage Relationships** (wym. „ejpio 08 menydż rilejszynszyps”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo08",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo09",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO09**.",
+      "termin": "proc-apo09",
+      "poprawne": [
+        "APO09 Manage Service Agreements",
+        "Manage Service Agreements"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO09 Manage Service Agreements** (wym. „ejpio 09 menydż serwis agriments”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo09",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo10",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO10**.",
+      "termin": "proc-apo10",
+      "poprawne": [
+        "APO10 Manage Suppliers",
+        "Manage Suppliers"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO10 Manage Suppliers** (wym. „ejpio 10 menydż saplajers”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo10",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo11",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO11**.",
+      "termin": "proc-apo11",
+      "poprawne": [
+        "APO11 Manage Quality",
+        "Manage Quality"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO11 Manage Quality** (wym. „ejpio 11 menydż kłoliti”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo11",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo12",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO12**.",
+      "termin": "proc-apo12",
+      "poprawne": [
+        "APO12 Manage Risk",
+        "Manage Risk"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO12 Manage Risk** (wym. „ejpio 12 menydż risk”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo12",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-apo13",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04",
+        "PR-02-06"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **APO13**.",
+      "termin": "proc-apo13",
+      "poprawne": [
+        "APO13 Manage Security",
+        "Manage Security"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **APO13 Manage Security** (wym. „ejpio 13 menydż sikjuriti”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-apo13",
+        "apo"
+      ]
+    },
+    {
+      "id": "q-ten-proc-bai01",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **BAI01**.",
+      "termin": "proc-bai01",
+      "poprawne": [
+        "BAI01 Manage Programmes and Projects",
+        "BAI01 Manage Programmes & Projects",
+        "BAI01 Manage Programs and Projects",
+        "Manage Programmes and Projects",
+        "Manage Programmes & Projects",
+        "Manage Programs and Projects"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **BAI01 Manage Programmes and Projects** (wym. „biejaj 01 menydż prołgrems end prodżekts”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-bai01",
+        "bai"
+      ]
+    },
+    {
+      "id": "q-ten-proc-bai02",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **BAI02**.",
+      "termin": "proc-bai02",
+      "poprawne": [
+        "BAI02 Manage Requirements Definition",
+        "Manage Requirements Definition"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **BAI02 Manage Requirements Definition** (wym. „biejaj 02 menydż rikłajerments definiszyn”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-bai02",
+        "bai"
+      ]
+    },
+    {
+      "id": "q-ten-proc-bai03",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **BAI03**.",
+      "termin": "proc-bai03",
+      "poprawne": [
+        "BAI03 Manage Solutions Identification and Build",
+        "BAI03 Manage Solutions Identification & Build",
+        "Manage Solutions Identification and Build",
+        "Manage Solutions Identification & Build"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **BAI03 Manage Solutions Identification and Build** (wym. „biejaj 03 menydż soluszyns ajdentifikejszyn end bild”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-bai03",
+        "bai"
+      ]
+    },
+    {
+      "id": "q-ten-proc-bai04",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04",
+        "EN-02-23"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **BAI04**.",
+      "termin": "proc-bai04",
+      "poprawne": [
+        "BAI04 Manage Availability and Capacity",
+        "BAI04 Manage Availability & Capacity",
+        "Manage Availability and Capacity",
+        "Manage Availability & Capacity"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **BAI04 Manage Availability and Capacity** (wym. „biejaj 04 menydż awejlabiliti end kapesiti”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-bai04",
+        "bai"
+      ]
+    },
+    {
+      "id": "q-ten-proc-bai05",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04",
+        "IM-02-05"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **BAI05**.",
+      "termin": "proc-bai05",
+      "poprawne": [
+        "BAI05 Manage Organisational Change Enablement",
+        "BAI05 Manage Organizational Change Enablement",
+        "Manage Organisational Change Enablement",
+        "Manage Organizational Change Enablement"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **BAI05 Manage Organisational Change Enablement** (wym. „biejaj 05 menydż organajzejszynal czejndż inejblment”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-bai05",
+        "bai"
+      ]
+    },
+    {
+      "id": "q-ten-proc-bai06",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **BAI06**.",
+      "termin": "proc-bai06",
+      "poprawne": [
+        "BAI06 Manage Changes",
+        "Manage Changes"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **BAI06 Manage Changes** (wym. „biejaj 06 menydż czejndżyz”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-bai06",
+        "bai"
+      ]
+    },
+    {
+      "id": "q-ten-proc-bai07",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **BAI07**.",
+      "termin": "proc-bai07",
+      "poprawne": [
+        "BAI07 Manage Change Acceptance and Transitioning",
+        "BAI07 Manage Change Acceptance & Transitioning",
+        "Manage Change Acceptance and Transitioning",
+        "Manage Change Acceptance & Transitioning"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **BAI07 Manage Change Acceptance and Transitioning** (wym. „biejaj 07 menydż czejndż akseptens end trenziszyning”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-bai07",
+        "bai"
+      ]
+    },
+    {
+      "id": "q-ten-proc-bai08",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **BAI08**.",
+      "termin": "proc-bai08",
+      "poprawne": [
+        "BAI08 Manage Knowledge",
+        "Manage Knowledge"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **BAI08 Manage Knowledge** (wym. „biejaj 08 menydż nolydż”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-bai08",
+        "bai"
+      ]
+    },
+    {
+      "id": "q-ten-proc-bai09",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **BAI09**.",
+      "termin": "proc-bai09",
+      "poprawne": [
+        "BAI09 Manage Assets",
+        "Manage Assets"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **BAI09 Manage Assets** (wym. „biejaj 09 menydż esets”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-bai09",
+        "bai"
+      ]
+    },
+    {
+      "id": "q-ten-proc-bai10",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **BAI10**.",
+      "termin": "proc-bai10",
+      "poprawne": [
+        "BAI10 Manage Configuration",
+        "Manage Configuration"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **BAI10 Manage Configuration** (wym. „biejaj 10 menydż konfigjurejszyn”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-bai10",
+        "bai"
+      ]
+    },
+    {
+      "id": "q-ten-proc-dss01",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **DSS01**.",
+      "termin": "proc-dss01",
+      "poprawne": [
+        "DSS01 Manage Operations",
+        "Manage Operations"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **DSS01 Manage Operations** (wym. „dieses 01 menydż operejszyns”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-dss01",
+        "dss"
+      ]
+    },
+    {
+      "id": "q-ten-proc-dss02",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **DSS02**.",
+      "termin": "proc-dss02",
+      "poprawne": [
+        "DSS02 Manage Service Requests and Incidents",
+        "DSS02 Manage Service Requests & Incidents",
+        "Manage Service Requests and Incidents",
+        "Manage Service Requests & Incidents"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **DSS02 Manage Service Requests and Incidents** (wym. „dieses 02 menydż serwis rikłests end insidents”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-dss02",
+        "dss"
+      ]
+    },
+    {
+      "id": "q-ten-proc-dss03",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **DSS03**.",
+      "termin": "proc-dss03",
+      "poprawne": [
+        "DSS03 Manage Problems",
+        "Manage Problems"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **DSS03 Manage Problems** (wym. „dieses 03 menydż problems”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-dss03",
+        "dss"
+      ]
+    },
+    {
+      "id": "q-ten-proc-dss04",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **DSS04**.",
+      "termin": "proc-dss04",
+      "poprawne": [
+        "DSS04 Manage Continuity",
+        "Manage Continuity"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **DSS04 Manage Continuity** (wym. „dieses 04 menydż kontinjuiti”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-dss04",
+        "dss"
+      ]
+    },
+    {
+      "id": "q-ten-proc-dss05",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **DSS05**.",
+      "termin": "proc-dss05",
+      "poprawne": [
+        "DSS05 Manage Security Services",
+        "Manage Security Services"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **DSS05 Manage Security Services** (wym. „dieses 05 menydż sikjuriti serwisiz”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-dss05",
+        "dss"
+      ]
+    },
+    {
+      "id": "q-ten-proc-dss06",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **DSS06**.",
+      "termin": "proc-dss06",
+      "poprawne": [
+        "DSS06 Manage Business Process Controls",
+        "Manage Business Process Controls"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **DSS06 Manage Business Process Controls** (wym. „dieses 06 menydż biznes prołses kontrołlz”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-dss06",
+        "dss"
+      ]
+    },
+    {
+      "id": "q-ten-proc-edm01",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-03",
+        "PR-02-14"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **EDM01**.",
+      "termin": "proc-edm01",
+      "poprawne": [
+        "EDM01 Ensure Governance Framework Setting and Maintenance",
+        "EDM01 Ensure Governance Framework Setting & Maintenance",
+        "Ensure Governance Framework Setting and Maintenance",
+        "Ensure Governance Framework Setting & Maintenance"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **EDM01 Ensure Governance Framework Setting and Maintenance** (wym. „idiem 01 inszor gawernens frejmłerk seting end mejntenens”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-edm01",
+        "edm"
+      ]
+    },
+    {
+      "id": "q-ten-proc-edm02",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-03",
+        "PR-02-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **EDM02**.",
+      "termin": "proc-edm02",
+      "poprawne": [
+        "EDM02 Ensure Benefits Delivery",
+        "Ensure Benefits Delivery"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **EDM02 Ensure Benefits Delivery** (wym. „idiem 02 inszor benefits deliweri”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-edm02",
+        "edm"
+      ]
+    },
+    {
+      "id": "q-ten-proc-edm03",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-03",
+        "PR-02-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **EDM03**.",
+      "termin": "proc-edm03",
+      "poprawne": [
+        "EDM03 Ensure Risk Optimisation",
+        "EDM03 Ensure Risk Optimization",
+        "Ensure Risk Optimisation",
+        "Ensure Risk Optimization"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **EDM03 Ensure Risk Optimisation** (wym. „idiem 03 inszor risk optimajzejszyn”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-edm03",
+        "edm"
+      ]
+    },
+    {
+      "id": "q-ten-proc-edm04",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-03",
+        "PR-02-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **EDM04**.",
+      "termin": "proc-edm04",
+      "poprawne": [
+        "EDM04 Ensure Resource Optimisation",
+        "EDM04 Ensure Resource Optimization",
+        "Ensure Resource Optimisation",
+        "Ensure Resource Optimization"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **EDM04 Ensure Resource Optimisation** (wym. „idiem 04 inszor rizors optimajzejszyn”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-edm04",
+        "edm"
+      ]
+    },
+    {
+      "id": "q-ten-proc-edm05",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-03",
+        "PR-02-15"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **EDM05**.",
+      "termin": "proc-edm05",
+      "poprawne": [
+        "EDM05 Ensure Stakeholder Transparency",
+        "Ensure Stakeholder Transparency"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **EDM05 Ensure Stakeholder Transparency** (wym. „idiem 05 inszor stejkhołder trensperensi”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-edm05",
+        "edm"
+      ]
+    },
+    {
+      "id": "q-ten-proc-mea01",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04",
+        "PR-02-15"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **MEA01**.",
+      "termin": "proc-mea01",
+      "poprawne": [
+        "MEA01 Monitor, Evaluate and Assess Performance and Conformance",
+        "MEA01 Monitor, Evaluate & Assess Performance & Conformance",
+        "Monitor, Evaluate and Assess Performance and Conformance",
+        "Monitor, Evaluate & Assess Performance & Conformance"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **MEA01 Monitor, Evaluate and Assess Performance and Conformance** (wym. „emiej 01 moniter iweljuejt end ases performens end konformens”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-mea01",
+        "mea"
+      ]
+    },
+    {
+      "id": "q-ten-proc-mea02",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **MEA02**.",
+      "termin": "proc-mea02",
+      "poprawne": [
+        "MEA02 Monitor, Evaluate and Assess the System of Internal Control",
+        "MEA02 Monitor, Evaluate & Assess the System of Internal Control",
+        "Monitor, Evaluate and Assess the System of Internal Control",
+        "Monitor, Evaluate & Assess the System of Internal Control"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **MEA02 Monitor, Evaluate and Assess the System of Internal Control** (wym. „emiej 02 moniter iweljuejt end ases de system ow internal kontrołl”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-mea02",
+        "mea"
+      ]
+    },
+    {
+      "id": "q-ten-proc-mea03",
+      "typ": "nazwa-en",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Podaj angielską nazwę procesu **MEA03**.",
+      "termin": "proc-mea03",
+      "poprawne": [
+        "MEA03 Monitor, Evaluate and Assess Compliance with External Requirements",
+        "MEA03 Monitor, Evaluate & Assess Compliance with External Requirements",
+        "Monitor, Evaluate and Assess Compliance with External Requirements",
+        "Monitor, Evaluate & Assess Compliance with External Requirements"
+      ],
+      "wyjasnienie": "Oryginał ISACA: **MEA03 Monitor, Evaluate and Assess Compliance with External Requirements** (wym. „emiej 03 moniter iweljuejt end ases komplajens łiz eksternal rikłajerments”). Polska nazwa tego procesu na egzaminie nie jest potwierdzona, dlatego ćwiczymy tylko kod i nazwę EN. Nazwy EN procesów: COBIT 5 Framework, Figure 16 (w podręczniku PL: ilustracja 16, s. 33).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proc-mea03",
+        "mea"
+      ]
+    },
+    {
+      "id": "q-tpt-01",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "PR-02-14"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Opis kolegi o Ładzie i Zarządzaniu. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "Domena EDM należy do obszaru Ładu (Governance).",
+          "poprawne": true,
+          "wyjasnienie": "Tak. EDM = Evaluate, Direct and Monitor – pięć procesów Ładu (s. 32)."
+        },
+        {
+          "tekst": "Zarządzanie (Management) ocenia potrzeby interesariuszy, kieruje przez priorytety i decyzje oraz monitoruje wyniki.",
+          "poprawne": false,
+          "wyjasnienie": "To opis Ładu: ocena, kierowanie, monitorowanie (EDM). Zarządzanie planuje, tworzy, wykonuje i monitoruje (PBRM).",
+          "blednyTermin": "Zarządzanie (Management)",
+          "poprawka": "Ład (Governance)"
+        },
+        {
+          "tekst": "Zarządzanie planuje, tworzy, wykonuje i monitoruje działania zgodnie z kierunkiem wyznaczonym przez Ład.",
+          "poprawne": true,
+          "wyjasnienie": "Tak. Plan, Build, Run and Monitor (s. 31–32)."
+        }
+      ],
+      "terminy": [
+        "lad",
+        "zarzadzanie",
+        "edm",
+        "pbrm"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 30
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-tpt-02",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Tabela RACI dla zadania „Test syreny alarmowej”. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "Dyżurny, który sam wykonuje test, ma w tabeli literę A (Accountable).",
+          "poprawne": false,
+          "wyjasnienie": "Kto wykonuje zadanie, jest R – Responsible (egzamin PL: „Odpowiedzialny wykonawczo”). A ma ten, kto rozlicza i zatwierdza wynik.",
+          "blednyTermin": "A (Accountable)",
+          "poprawka": "R (Responsible)"
+        },
+        {
+          "tekst": "Naczelnik, który odpowiada za sukces zadania i zatwierdza wynik, ma literę A (Accountable).",
+          "poprawne": true,
+          "wyjasnienie": "Tak. A = Accountable, „Rozliczany”; w zadaniu jest jedna osoba z A."
+        },
+        {
+          "tekst": "Kierownik łączności, którego tylko powiadamia się o wyniku testu, ma literę C (Consulted).",
+          "poprawne": false,
+          "wyjasnienie": "Kogo się tylko powiadamia, ten jest I – Informed. C – Consulted – to osoba, której zdania zasięga się przed wykonaniem.",
+          "blednyTermin": "C (Consulted)",
+          "poprawka": "I (Informed)"
+        }
+      ],
+      "terminy": [
+        "raci",
+        "raci-r",
+        "raci-a",
+        "raci-c",
+        "raci-i"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-tpt-03",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "PR-02-13"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Raport o wskaźnikach zmian w systemie. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "Odsetek zmian wdrożonych z wypełnioną listą kontrolną to wskaźnik opóźniony (lag indicator).",
+          "poprawne": false,
+          "wyjasnienie": "Mierzy stosowanie dobrych praktyk, czyli jest wskaźnikiem wiodącym – lead indicator (s. 28). Opóźnione mierzą osiągnięcie celów.",
+          "blednyTermin": "wskaźnik opóźniony (lag indicator)",
+          "poprawka": "wskaźnik wiodący (lead indicator)"
+        },
+        {
+          "tekst": "Liczba incydentów po wdrożeniu zmian mierzy, czy cel został osiągnięty – to wskaźnik opóźniony (lag indicator).",
+          "poprawne": true,
+          "wyjasnienie": "Tak. Lag indicators mierzą osiągnięcie celów (s. 28)."
+        },
+        {
+          "tekst": "W podręczniku PL wskaźniki wiodące nazywają się „wskaźniki wyprzedzające”.",
+          "poprawne": true,
+          "wyjasnienie": "Tak – podręcznik: „wyprzedzające”/„następujące”, egzamin PL: „wiodące”/„opóźnione” (s. 28, zestawienie Altkom)."
+        }
+      ],
+      "terminy": [
+        "wskaznik-wiodacy",
+        "wskaznik-opozniony"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 28
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-tpt-04",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "PC-01-03"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Notatka z oceny procesu. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "Atrybut osiągnięty w 90% dostaje na polskim egzaminie ocenę F.",
+          "poprawne": false,
+          "wyjasnienie": ">85–100% to EN F (Fully achieved), a na egzaminie PL – P (Pełny).",
+          "blednyTermin": "F",
+          "poprawka": "P (Pełny)"
+        },
+        {
+          "tekst": "Atrybut osiągnięty w 70% dostaje ocenę W (Większościowy), po angielsku L – Largely achieved.",
+          "poprawne": true,
+          "wyjasnienie": "Tak. >50–85% = L / W (s. 45)."
+        },
+        {
+          "tekst": "Atrybut osiągnięty w 40% dostaje na polskim egzaminie ocenę P.",
+          "poprawne": false,
+          "wyjasnienie": ">15–50% to EN P (Partially achieved), ale egzamin PL pisze C (Częściowy). Litera P po polsku oznacza Pełny.",
+          "blednyTermin": "P",
+          "poprawka": "C (Częściowy)"
+        }
+      ],
+      "terminy": [
+        "skala-ocen",
+        "ocena-p",
+        "ocena-w",
+        "ocena-c"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-tpt-05",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "PR-01-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Ściąga kolegi z nazwami domen. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "APO – Align, Plan and Organise; na egzaminie PL: „Dopasowanie, planowanie i organizacja”.",
+          "poprawne": false,
+          "wyjasnienie": "To forma podręcznikowa. Egzamin PL: „Dostosuj, Planuj i Organizuj” (zestawienie Altkom).",
+          "blednyTermin": "Dopasowanie, planowanie i organizacja",
+          "poprawka": "Dostosuj, Planuj i Organizuj"
+        },
+        {
+          "tekst": "MEA – Monitor, Evaluate and Assess.",
+          "poprawne": true,
+          "wyjasnienie": "Tak (ilustracja 16, s. 33)."
+        },
+        {
+          "tekst": "EDM – Evaluate, Direct and Manage.",
+          "poprawne": false,
+          "wyjasnienie": "Trzecie słowo to Monitor: Evaluate, Direct and Monitor.",
+          "blednyTermin": "Manage",
+          "poprawka": "Monitor"
+        }
+      ],
+      "terminy": [
+        "apo",
+        "edm",
+        "mea"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-tpt-06",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "PR-01-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Prezentacja o pięciu zasadach. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "Zasada 3 – Applying a Single Integrated Framework (Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej).",
+          "poprawne": true,
+          "wyjasnienie": "Tak (ilustracja 2, s. 13)."
+        },
+        {
+          "tekst": "Zasada 2 – Separating Governance From Management.",
+          "poprawne": false,
+          "wyjasnienie": "To zasada 5. Zasada 2 to Covering the Enterprise End-to-End (Pokrycie całej organizacji).",
+          "blednyTermin": "Separating Governance From Management",
+          "poprawka": "Covering the Enterprise End-to-End"
+        },
+        {
+          "tekst": "Zasada 4 – Enabling a Holistic Approach.",
+          "poprawne": true,
+          "wyjasnienie": "Tak (s. 13)."
+        }
+      ],
+      "terminy": [
+        "zasada-2",
+        "zasada-3",
+        "zasada-4",
+        "zasada-5"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-tpt-07",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Opis modelu oceny procesu. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "W COBIT 5 proces ocenia się na poziomach dojrzałości (maturity levels) 0–5 według ISO/IEC 15504.",
+          "poprawne": false,
+          "wyjasnienie": "COBIT 5 ocenia poziomy zdolności – capability levels (egzamin PL: Zdolność; podręcznik: potencjał). Poziomy dojrzałości to COBIT 4.1.",
+          "blednyTermin": "poziomy dojrzałości (maturity levels)",
+          "poprawka": "poziomy zdolności (capability levels)"
+        },
+        {
+          "tekst": "Poziom 3 to proces przewidywalny (predictable).",
+          "poprawne": false,
+          "wyjasnienie": "Poziom 3 to proces ustanowiony (established); przewidywalny to poziom 4 (s. 42).",
+          "blednyTermin": "przewidywalny (predictable)",
+          "poprawka": "ustanowiony (established)"
+        },
+        {
+          "tekst": "Poziom 5 to proces zoptymalizowany (optimising).",
+          "poprawne": true,
+          "wyjasnienie": "Tak (s. 42)."
+        }
+      ],
+      "terminy": [
+        "poziomy-zdolnosci",
+        "model-zdolnosci",
+        "poziom-3",
+        "poziom-4",
+        "poziom-5"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-tpt-08",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "IM-01-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Szkic Cyklu Życia Wdrożenia. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "Zewnętrzny pierścień to Aktywowanie zmiany (change enablement).",
+          "poprawne": false,
+          "wyjasnienie": "Zewnętrzny pierścień to Zarządzanie programem (programme management). Aktywowanie zmiany jest pierścieniem środkowym.",
+          "blednyTermin": "Aktywowanie zmiany (change enablement)",
+          "poprawka": "Zarządzanie programem (programme management)"
+        },
+        {
+          "tekst": "Środkowy pierścień to Aktywowanie zmiany (change enablement).",
+          "poprawne": true,
+          "wyjasnienie": "Tak (ilustracja 17)."
+        },
+        {
+          "tekst": "Wewnętrzny pierścień to Główny cykl życia ciągłego doskonalenia (continual improvement life cycle).",
+          "poprawne": true,
+          "wyjasnienie": "Tak."
+        }
+      ],
+      "terminy": [
+        "pierscien-program",
+        "cykl-wdrozenia",
+        "pierscien-zmiana",
+        "pierscien-doskonalenie"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-tpt-09",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "IM-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Uzasadnienie programu wdrożenia. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "Powtarzające się wyniki audytu o niedostatecznej sprawności IT to punkt zapalny (pain point).",
+          "poprawne": true,
+          "wyjasnienie": "Tak – to przykład punktu zapalnego (s. 37)."
+        },
+        {
+          "tekst": "Fuzja z inną organizacją to punkt zapalny (pain point).",
+          "poprawne": false,
+          "wyjasnienie": "Fuzje i przejęcia to zdarzenie wyzwalające – trigger event (podręcznik: „zdarzenie inicjujące”, s. 37).",
+          "blednyTermin": "punkt zapalny (pain point)",
+          "poprawka": "zdarzenie wyzwalające (trigger event)"
+        },
+        {
+          "tekst": "Zdarzenia wyzwalające mogą pochodzić ze środowiska wewnętrznego lub zewnętrznego organizacji.",
+          "poprawne": true,
+          "wyjasnienie": "Tak (s. 37)."
+        }
+      ],
+      "terminy": [
+        "punkty-zapalne",
+        "zdarzenia-wyzwalajace"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-tpt-10",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "PR-02-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Opis kaskady celów. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "Kaskada celów zaczyna się od potrzeb interesariuszy.",
+          "poprawne": true,
+          "wyjasnienie": "Tak – potrzeby interesariuszy są punktem wyjścia (s. 18)."
+        },
+        {
+          "tekst": "Potrzeby interesariuszy przekłada się bezpośrednio na cele związane z informatyką (IT-related goals), a dopiero z nich wynikają cele organizacji.",
+          "poprawne": false,
+          "wyjasnienie": "Kolejność jest odwrotna: potrzeby → cele organizacji (enterprise goals) → cele związane z informatyką → cele aktywatorów.",
+          "blednyTermin": "cele związane z informatyką → cele organizacji",
+          "poprawka": "cele organizacji → cele związane z informatyką"
+        },
+        {
+          "tekst": "Cele związane z informatyką przekłada się na cele aktywatorów (enabler goals).",
+          "poprawne": true,
+          "wyjasnienie": "Tak (s. 18)."
+        }
+      ],
+      "terminy": [
+        "kaskada-celow",
+        "cele-organizacji",
+        "cele-zwiazane-z-it",
+        "cele-aktywatorow"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-tpt-11",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "PR-02-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Notatka o celu Ładu. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "Cel Ładu to Tworzenie Wartości (Value Creation).",
+          "poprawne": true,
+          "wyjasnienie": "Tak (s. 17)."
+        },
+        {
+          "tekst": "Optymalizacja ryzyka (Risk Optimisation) to jeden z siedmiu aktywatorów.",
+          "poprawne": false,
+          "wyjasnienie": "Optymalizacja ryzyka to element Celu Ładu – obok realizacji korzyści i optymalizacji zasobów – a nie aktywator.",
+          "blednyTermin": "aktywator",
+          "poprawka": "element Celu Ładu (Tworzenie Wartości)"
+        },
+        {
+          "tekst": "Tworzenie Wartości obejmuje realizację korzyści, optymalizację ryzyka i optymalizację zasobów.",
+          "poprawne": true,
+          "wyjasnienie": "Tak (ilustracja 3, s. 17)."
+        }
+      ],
+      "terminy": [
+        "tworzenie-wartosci",
+        "optymalizacja-ryzyka",
+        "realizacja-korzysci",
+        "optymalizacja-zasobow"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-tpt-12",
+      "typ": "popraw-termin",
+      "sylabus": [
+        "PR-01-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Wypowiedź kolegi na egzaminie próbnym. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "twierdzenia": [
+        {
+          "tekst": "COBIT 5 opisuje siedem kategorii czynników umożliwiających (enablers).",
+          "poprawne": false,
+          "wyjasnienie": "Treść jest prawdziwa, ale na egzaminie PL termin brzmi „aktywatory”. „Czynniki umożliwiające” to forma podręcznikowa.",
+          "blednyTermin": "czynniki umożliwiające",
+          "poprawka": "aktywatory"
+        },
+        {
+          "tekst": "Kultura, Etyka i Zachowanie (Culture, Ethics and Behaviour) to jeden z siedmiu aktywatorów.",
+          "poprawne": true,
+          "wyjasnienie": "Tak (aktywator 4)."
+        },
+        {
+          "tekst": "COBIT 5 jest metodyką (framework).",
+          "poprawne": false,
+          "wyjasnienie": "Na egzaminie PL framework to „Struktura ramowa”; „metodyka” to forma podręcznikowa.",
+          "blednyTermin": "metodyka",
+          "poprawka": "struktura ramowa"
+        }
+      ],
+      "terminy": [
+        "aktywator",
+        "kultura-etyka-zachowanie",
+        "struktura-ramowa"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 27
+        }
+      ],
+      "status": "oficjalne"
+    }
+  ]
+}

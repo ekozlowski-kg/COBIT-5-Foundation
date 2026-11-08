@@ -1,0 +1,118 @@
+{
+  "id": "proc-apo07",
+  "en": "APO07 Manage Human Resources",
+  "wymowa": "ejpio 07 menydż hjumen rizorsiz",
+  "wymowaAkcent": "ej-pi-O 07 ME-nydż HJU-men ri-ZOR-siz",
+  "plEgzamin": "APO07 Zarządzanie zasobami ludzkimi",
+  "plPodrecznik": "APO07 Zarządzanie zasobami ludzkimi",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO07 Zarządzanie zasobami ludzkimi",
+    "podrecznik": "APO07 Zarządzanie zasobami ludzkimi",
+    "kurs": "APO07 Zarządzanie zasobami ludzkimi (APO07 Manage Human Resources)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 60."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie APO07 i słowie kluczowym EN *Human Resources*. Pułapka „zasoby”: APO07 to *Human Resources* (tylko ludzie). EDM04 to *Resource* (wszystkie zasoby, Ład). BAI09 to *Assets* (aktywa).",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "ludzie-umiejetnosci-kompetencje"
+  ],
+  "poLudzku": "Dbanie o ludzi w informatyce: kogo zatrudnić, czego ich nauczyć, kto kogo zastąpi i jak ich oceniać.",
+  "wyobrazSobie": "Trener drużyny, który dba, żeby na każdej pozycji był zawodnik i rezerwowy, i co tydzień ich szkoli.",
+  "poCo": "Żeby w IT pracowali właściwi ludzie z właściwymi umiejętnościami i żeby nic nie zależało od jednej osoby.",
+  "jakDziala": "Kierownictwo IT planuje obsadę ról i potrzebne kompetencje. Organizuje rekrutację, szkolenia, ocenę pracy i zastępstwa w kluczowych rolach. Pilnuje też zasad pracy osób z zewnątrz.",
+  "dlaczegoWazne": "Ludzie to aktywator i warunek działania każdego procesu. Na egzaminie APO07 myli się z EDM04 i BAI09 przez słowo „zasoby”.",
+  "skadNazwa": "EN *Manage Human Resources*, czyli kadry IT. Po polsku „zasoby ludzkie”, więc łatwo pomylić z EDM04 („optymalizacja zasobów”) i BAI09 („Zarządzanie zasobami”).",
+  "poziom1": "Proces Zarządzania o ludziach IT. Dba o obsadzenie ról, umiejętności, szkolenia, ocenę pracy i zastępstwa w kluczowych rolach. Obejmuje też osoby z zewnątrz pracujące dla IT.",
+  "poziom2": "**Czym się zajmuje:** zapewnia, że w IT pracują właściwi ludzie, z właściwymi umiejętnościami, na właściwych miejscach.\n\n**Wejścia (intuicja):** role z [[proc-apo01]], plany z [[proc-apo02]], kierunek dla zasobów z [[proc-edm04]].\n\n**Wyjścia (intuicja):** plan obsady, plany szkoleń, oceny pracowników, plan zastępstw w kluczowych rolach.\n\n**Współpraca:** wspiera aktywator [[ludzie-umiejetnosci-kompetencje]]. Wiedzę spisaną w instrukcjach utrzymuje BAI08.",
+  "poziom3": "Il. 16 (s. 33): „APO07 Zarządzanie zasobami ludzkimi”. Załącznik E (s. 60): proces APO07 *„wyjaśnia sposób, w jaki wyniki pracowników powinny być dopasowane do celów korporacyjnych, sposób, w jaki należy utrzymywać specjalistyczne umiejętności w zakresie IT, oraz sposób definiowania ról i zakresów odpowiedzialności.”* Interesariusze pytają: *„Czy liczba pracowników odpowiedzialnych za IT jest wystarczająca?”* (il. 7, s. 22). Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "W rodzinnej piekarni tylko dziadek umie zrobić zakwas. Gdy zachoruje, nie ma chleba. Rodzina postanawia: wnuczka uczy się od dziadka i co tydzień piecze z nim. Dbanie o umiejętności i zastępstwa to APO07.",
+    "biuro": "Tylko jedna księgowa umie wysłać deklaracje elektroniczne. Kierowniczka biura planuje, że nauczy tego drugą osobę przed urlopami. Raz w roku rozmawia z każdym o rozwoju.",
+    "organizacja": "W firmie transportowej jeden informatyk zna system rozliczeń kierowców. Kierownik IT planuje szkolenie drugiej osoby i ocenia kompetencje zespołu. Raz w roku rozmawia z każdym o celach. To APO07. Sekretarz powiatu widzi, że informatyk odchodzi na emeryturę. Planuje nabór, wdrożenie następcy i szkolenia. Ustala też zasady pracy firmy zewnętrznej, która pomaga w serwisie. To APO07.",
+    "psp": "**Tylko Grab zna tryb awaryjny.** Okazuje się, że tylko dyżurny Paweł Grab umie przełączyć Syrenę w tryb awaryjny. Naczelnik Marek Sikora spisuje umiejętności potrzebne w każdej roli i planuje szkolenia. Kasia Nowik ćwiczy tryb awaryjny z Grabem, żeby móc go zastąpić. To jest [[proc-apo07|APO07]].",
+    "it": "Kierownik IT ma plan sukcesji dla administratora bazy danych i matrycę kompetencji zespołu. To APO07. Spisana instrukcja administratora to już BAI08."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-edm04",
+      "roznica": "EDM04 (Ład) ocenia i kieruje wykorzystaniem wszystkich zasobów. APO07 (Zarządzanie) zajmuje się ludźmi: obsadą, kompetencjami, szkoleniami."
+    },
+    {
+      "termin": "proc-bai09",
+      "roznica": "BAI09 *Assets* to sprzęt i licencje. W podręczniku też „zasoby”, ale nie ludzie."
+    },
+    {
+      "termin": "proc-bai08",
+      "roznica": "BAI08 utrzymuje wiedzę: instrukcje, bazy wiedzy. APO07 dba o ludzi i ich umiejętności."
+    },
+    {
+      "termin": "ludzie-umiejetnosci-kompetencje",
+      "roznica": "To aktywator, czyli kategoria „czego potrzebujemy”. APO07 to proces, który ludźmi zarządza."
+    }
+  ],
+  "przykladWypowiedzi": "APO07 *Manage Human Resources*, czyli „Zarządzanie zasobami ludzkimi”, dba o kompetencje i zastępstwa w IT; *Resource Optimisation* to EDM04, a *Assets* to BAI09.",
+  "egzamin": "Słowa-klucze: **obsada, kompetencje, szkolenia, ocena pracowników, zależność od kluczowych osób, personel zewnętrzny** → APO07 *Human Resources*. Nie EDM04 i nie BAI09.",
+  "powiazane": [
+    "apo",
+    "proc-edm04",
+    "proc-bai09",
+    "ludzie-umiejetnosci-kompetencje",
+    "kategorie-umiejetnosci",
+    "proc-apo01"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO07 Zarządzanie zasobami ludzkimi"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "wyjaśnia sposób, w jaki wyniki pracowników powinny być dopasowane do celów korporacyjnych, sposób, w jaki należy utrzymywać specjalistyczne umiejętności w zakresie IT, oraz sposób definiowania ról i zakresów odpowiedzialności."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 22,
+      "ilustracja": "7",
+      "cytat": "Czy liczba pracowników odpowiedzialnych za IT jest wystarczająca?"
+    }
+  ],
+  "mapa": "proc-apo07",
+  "glebokosc": {
+    "prosty": "W drużynie harcerskiej tylko jedna osoba umie rozpalić ognisko w deszczu. Drużynowy uczy tego dwie kolejne osoby. Teraz nikt nie jest niezastąpiony. Dbanie o umiejętności i zastępstwa to opieka nad ludźmi.",
+    "zaawansowany": "Komendantka Wrzos w [[proc-edm04]] ustala kierunek: żadna kluczowa czynność nie może zależeć od jednej osoby. Naczelnik Sikora wykonuje to w APO07. Spisuje umiejętności ról, planuje szkolenia dyżurnych i ocenia postępy. Instrukcję trybu awaryjnego Dudek zapisuje w bazie wiedzy (BAI08). Szkolenie ludzi to APO07, a spisanie wiedzy to inny proces.",
+    "skrajny": "Pytanie egzaminacyjne: „Komenda chce ograniczyć zależność od jednego eksperta”. Kusi kilka odpowiedzi. EDM04 brzmi dobrze, bo ma „zasoby” i dotyczy wystarczalności. BAI09 też ma „zasoby” w podręcznikowej nazwie. BAI08 kusi, bo chodzi o wiedzę eksperta. Ale zależność od kluczowych osób, szkolenia i zastępstwa to rdzeń APO07. EDM04 byłby trafny tylko wtedy, gdyby pytanie mówiło o decyzji organu Ładu. **Rozstrzygnięcie:** działania wobec ludzi (obsada, szkolenia, zastępstwa, ocena) → APO07; kierunek dla wszystkich zasobów → EDM04; aktywa → BAI09; spisana wiedza → BAI08."
+  },
+  "zagmatwania": [
+    {
+      "mit": "APO07 to optymalizacja zasobów.",
+      "prawda": "Optymalizacja zasobów to EDM04 (Ład). APO07 to zarządzanie zasobami ludzkimi."
+    },
+    {
+      "mit": "APO07 dotyczy tylko pracowników na etacie.",
+      "prawda": "Obejmuje też osoby z zewnątrz, np. kontraktorów pracujących dla IT."
+    },
+    {
+      "mit": "Gdy ktoś spisze instrukcję, problem kluczowej osoby jest rozwiązany w APO07.",
+      "prawda": "Spisana wiedza to BAI08. APO07 dba o to, żeby kolejna osoba naprawdę umiała to zrobić."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli trzy „zasoby” albo wybiera BAI08 przy pytaniu o zastępstwa.",
+    "jakTlumaczyc": "Zapytaj: „Czy to dotyczy człowieka: kim jest, co umie, kto go zastąpi?” Jeśli tak i działa kierownictwo, to APO07.",
+    "pytanieKontrolne": "Tylko jedna osoba zna system. Kierownik IT planuje szkolenie drugiej osoby. Który to proces?",
+    "odpowiedzKontrolna": "APO07, bo chodzi o ograniczenie zależności od kluczowej osoby i rozwój kompetencji."
+  }
+}

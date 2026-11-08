@@ -1,0 +1,105 @@
+{
+  "id": "praktyka-bazowa",
+  "en": "Base practice",
+  "wymowa": "bejs prektis",
+  "wymowaAkcent": "bejs PREK-tis",
+  "plEgzamin": "Praktyka bazowa",
+  "plPodrecznik": "Podstawowa praktyka",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Praktyka bazowa",
+    "podrecznik": "Podstawowa praktyka",
+    "kurs": "Praktyka bazowa (Base practice)",
+    "uwaga": "Egzamin PL: „Praktyka bazowa”; podręcznik PL: „Podstawowa praktyka” – konkurencyjne odpowiedniki. Formy „praktyka bazowa” nie ma ani w SP1, ani w zestawieniu Altkom; podręcznik: „podstawowe praktyki”. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 42, 43, 45."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „podstawowe praktyki”. Kurs: „praktyki bazowe” (nazwy egzaminacyjnej nie potwierdziliśmy w arkuszu). Praktykom bazowym odpowiadają w COBIT 5 praktyki nadzoru i zarządzania, a nie działania. Nie myl ich z praktykami ogólnymi („typowymi”) z wymiaru zdolności.",
+  "skadNazwa": "Z angielskiego *base practice*. „Bazowa” albo „podstawowa” znaczy tu „należąca do treści procesu”, a nie „prosta” ani „minimalna”.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "pojecia-iso15504",
+    "praktyki-dzialania"
+  ],
+  "poziom1": "Czynność specyficzna dla danego procesu, która wykonywana konsekwentnie przyczynia się do osiągnięcia jego rezultatów. W COBIT 5 praktykami bazowymi są praktyki nadzoru (EDM) i zarządzania (APO, BAI, DSS, MEA). To wskaźnik wymiaru procesu i dowód dla poziomu 1.",
+  "poLudzku": "Konkretny krok tej jednej roboty, który robiony regularnie prowadzi do efektu.",
+  "wyobrazSobie": "Kroki przepisu na konkretne danie: inne dla pierogów, inne dla zupy.",
+  "poCo": "Żeby ocena miała konkretne punkty zaczepienia: jakie kroki tego procesu muszą być robione.",
+  "jakDziala": "Praktyki bazowe pochodzą z opisu procesu. W COBIT 5 to praktyki nadzoru i zarządzania, np. DSS02.01. Asesor sprawdza, czy są stosowane, i ocenia je skalą N/C/W/P, żeby znaleźć braki.",
+  "dlaczegoWazne": "Egzamin pyta, czemu w COBIT 5 odpowiadają praktyki bazowe. Kursant musi też odróżnić je od praktyk ogólnych i działań.",
+  "poziom2": "| Pojęcie | Gdzie | Specyficzne dla procesu? |\n|---|---|---|\n| **praktyka bazowa** | wymiar procesu (PA 1.1) | **tak** |\n| praktyka ogólna (typowa) | wymiar zdolności (PA 2.1 – PA 5.2) | nie, wspólna |\n| działanie (*activity*) | rozbicie praktyki w *Procesach umożliwiających* | tak, ale drobniejsze |\n\nPraktyki bazowe można ocenić tą samą skalą N/C/W/P. Ocena pokazuje, **których praktyk brakuje**, a które nie spełniają swojego zadania (s. 45).",
+  "poziom3": "(s. 43): model referencyjny zawiera *„podstawowe praktyki, stanowiące odpowiednik praktyk nadzoru nad procesami lub zarządzania nimi”*. (s. 45): praktyki można ocenić skalą ocen, wyrażającą *„stopień, w jakim zastosowano podstawowe praktyki”*.",
+  "przyklady": {
+    "zycie": "Proces „pranie”. Praktyki bazowe: posortuj ubrania, wybierz program, rozwieś. To kroki właśnie prania. Pytanie „czy planujesz pranie na sobotę” to już nie praktyka bazowa, tylko zarządzanie.",
+    "biuro": "Praktyki bazowe obiegu dokumentów: zarejestruj pismo, przekaż je adresatowi, potwierdź odbiór. Inny proces biura, np. rozliczanie delegacji, ma inne praktyki.",
+    "organizacja": "W procesie reklamacji praktyki bazowe to: przyjmij zgłoszenie, oceń zasadność, przekaż decyzję klientowi. Każdy proces w firmie ma swoje, inne praktyki bazowe.\n\nW procesie wydawania pozwoleń praktyki bazowe to: sprawdź kompletność wniosku, zbierz opinie, wydaj decyzję. Proces obsługi skarg ma zupełnie inne praktyki.",
+    "psp": "**Trzy kroki dyżurnego.** Audytorka Ewa Lis spisuje praktyki bazowe procesu powiadamiania: wybierz jednostki do zdarzenia, wyślij alarm, sprawdź potwierdzenia i ponów, gdy ich brak. Paweł Grab robi wszystkie trzy, a Kasia Nowik często pomija trzecią. Lis ocenia trzecią praktykę na C i od razu wie, co poprawić.",
+    "it": "Praktyki bazowe procesu DSS02 to jego praktyki zarządzania, np. DSS02.01 (zdefiniowanie schematów klasyfikacji incydentów) i kolejne. Działania pod każdą praktyką to drobniejsze rozbicie, a nie osobne praktyki bazowe."
+  },
+  "glebokosc": {
+    "prosty": "Robisz kanapki do szkoły: kroisz chleb, smarujesz, wkładasz do pudełka. To kroki właśnie robienia kanapek. Mycie auta ma zupełnie inne kroki. Takie kroki jednej roboty to praktyki bazowe.",
+    "zaawansowany": "Ewa Lis ocenia praktyki bazowe procesu powiadamiania. W procesach COBIT 5 odpowiadają im [[praktyki-dzialania|praktyki zarządzania]], np. kolejne praktyki procesu DSS02. Lis sprawdza, czy praktyki są stosowane, i ogląda [[produkt-pracy|produkty pracy]] jako dowody. Ocena praktyk pokazuje, czego brakuje do [[rezultat-procesu|rezultatów]]. Tak zbiera dowody dla [[pa-1-1|PA 1.1]].",
+    "skrajny": "Sikora pokazuje Lis listę 40 drobnych czynności dyżurnego: „To nasze praktyki bazowe”. Lis wyjaśnia, że w COBIT 5 praktykom bazowym odpowiadają praktyki nadzoru i zarządzania. Działania to ich drobniejsze rozbicie, pomocne, ale nie to samo. Druga pułapka: praktyka bazowa a praktyka ogólna. Bazowa należy do treści jednego procesu i służy poziomowi 1. Ogólna jest wspólna dla wszystkich procesów i służy atrybutom wyższych poziomów. Trzecia: „podstawowa” nie znaczy „minimalna”, tylko obejmuje wszystkie praktyki procesu. **Rozstrzygnięcie:** praktyka bazowa = praktyka nadzoru lub zarządzania z opisu procesu, specyficzna dla niego i będąca dowodem dla PA 1.1 (interpretacja kursu według PAM)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Praktyki bazowe to działania (*activities*) z opisu procesu.",
+      "prawda": "Framework mówi, że odpowiadają praktykom nadzoru i zarządzania (s. 43). Działania to drobniejsze rozbicie praktyk."
+    },
+    {
+      "mit": "Praktyka bazowa i praktyka ogólna to synonimy.",
+      "prawda": "Bazowa jest specyficzna dla procesu (wymiar procesu). Ogólna jest wspólna dla wszystkich procesów (wymiar zdolności)."
+    },
+    {
+      "mit": "„Podstawowe praktyki” to minimum, a reszta jest dobrowolna.",
+      "prawda": "„Podstawowe” albo „bazowe” znaczy „należące do treści procesu”. Brak którejkolwiek obniża ocenę rezultatów."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli praktyki bazowe z praktykami ogólnymi albo z działaniami.",
+    "jakTlumaczyc": "Mów: „bazowa = z tego procesu, ogólna = z każdego procesu”. Pokaż jedną praktykę z DSS02 i jedno pytanie „czy jest plan?”, które pasuje do każdego procesu.",
+    "pytanieKontrolne": "Czemu w COBIT 5 odpowiadają praktyki bazowe z modelu oceny?",
+    "odpowiedzKontrolna": "Praktykom nadzoru i zarządzania (np. EDM01.01, DSS02.01). Produktom pracy odpowiadają wejścia i wyjścia."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "praktyki-dzialania",
+      "roznica": "Praktyki, działania, wejścia i wyjścia to budowa procesu w COBIT 5. Praktyce bazowej odpowiada praktyka, a nie działanie."
+    },
+    {
+      "termin": "wymiar-zdolnosci",
+      "roznica": "Praktyki ogólne („typowe”) należą do wymiaru zdolności i są wspólne dla wszystkich procesów."
+    },
+    {
+      "termin": "produkt-pracy",
+      "roznica": "Produkt pracy to artefakt (wejście, wyjście). Praktyka bazowa to czynność."
+    }
+  ],
+  "przykladWypowiedzi": "Base practices, czyli praktyki bazowe (w podręczniku: podstawowe praktyki), odpowiadają w COBIT 5 governance and management practices, czyli praktykom nadzoru i zarządzania.",
+  "egzamin": "Odpowiednikiem **praktyk bazowych** w COBIT 5 są **praktyki nadzoru i zarządzania**. Razem z produktami pracy służą ocenie **poziomu 1**.",
+  "powiazane": [
+    "pojecia-iso15504",
+    "praktyki-dzialania",
+    "wymiar-procesu",
+    "produkt-pracy"
+  ],
+  "sylabus": [
+    "PC-01-04",
+    "PC-02-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "podstawowe praktyki, stanowiące odpowiednik praktyk nadzoru nad procesami lub zarządzania nimi"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "stopień, w jakim zastosowano podstawowe praktyki"
+    }
+  ],
+  "mapa": "praktyka-bazowa"
+}

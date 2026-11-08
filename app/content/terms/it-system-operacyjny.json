@@ -1,0 +1,90 @@
+{
+  "id": "it-system-operacyjny",
+  "en": "Operating system (OS)",
+  "wymowa": "operejting sistem",
+  "wymowaAkcent": "O-pe-rej-ting SIS-tem",
+  "plEgzamin": "System operacyjny",
+  "plPodrecznik": "oprogramowanie systemowe",
+  "plInne": [
+    "system",
+    "OS"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "oprogramowanie systemowe (FW-PL s. 86)",
+    "kurs": "System operacyjny (Operating system)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Skrót OS = Operating System. Uwaga: „system” w organizacji często znaczy „system informatyczny” – to co innego."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P0",
+  "wymaga": [
+    "it-hardware",
+    "it-software"
+  ],
+  "poLudzku": "Główny program, który uruchamia komputer i pozwala włączać inne programy.",
+  "poziom1": "Podstawowe oprogramowanie, które startuje zaraz po włączeniu urządzenia, zarządza jego pracą i pozwala uruchamiać inne programy. Przykłady: Windows, macOS, Linux na komputerach; Android i iOS na telefonach.",
+  "poziom2": "System operacyjny pośredniczy między sprzętem a aplikacjami. Przydziela programom pamięć, obsługuje ekran, klawiaturę i drukarkę, pilnuje zapisywania plików i pyta o hasło przy starcie. Aplikacja nie musi „znać” każdej drukarki – prosi system operacyjny, a on wie, jak drukować.",
+  "poziom3": "W COBIT 5 system operacyjny mieści się w „oprogramowaniu systemowym”, które FW-PL zalicza do infrastruktury technicznej (s. 86). Słowo „system” bywa też używane w znaczeniu „system informatyczny” (np. „system Syrena”) – to co innego.",
+  "wyobrazSobie": "Kierownik sali w restauracji. Nie gotuje i nie je, ale sadza gości, przydziela stoliki i kelnerów, żeby wszystko działało.",
+  "poCo": "Żeby każdy program nie musiał sam obsługiwać ekranu, klawiatury, dysku i drukarki. Robi to za nie system operacyjny.",
+  "jakDziala": "Po włączeniu komputera najpierw startuje system operacyjny. Pokazuje pulpit (ekran startowy) i ikony programów. Gdy klikniesz ikonę, system uruchamia program i daje mu dostęp do sprzętu.",
+  "dlaczegoWazne": "Bez systemu operacyjnego nie zadziała żadna aplikacja. Gdy system jest stary i nieaktualizowany, łatwiej się do niego włamać.",
+  "przyklady": {
+    "zycie": "Twój telefon ma Androida albo iOS. To one pokazują ekran z ikonami i pozwalają otworzyć aplikację banku czy aparat.",
+    "biuro": "Informatyk mówi: „W piątek aktualizujemy Windowsa na wszystkich komputerach”. Chodzi o system operacyjny, a nie o program do pisania.",
+    "organizacja": "Firma przechodzi ze starego systemu operacyjnego na nowy, bo producent przestał wydawać poprawki bezpieczeństwa.",
+    "psp": "Gdy dyżurna Kasia Nowik włącza komputer na SK, najpierw widzi okno logowania systemu operacyjnego, a dopiero potem uruchamia „Syrenę”.",
+    "it": "System operacyjny to oprogramowanie systemowe – część infrastruktury technicznej w COBIT 5 (FW-PL s. 86)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-aplikacja",
+      "roznica": "Aplikacja służy człowiekowi do zadania (np. pisania). System operacyjny służy komputerowi – pozwala działać aplikacjom."
+    },
+    {
+      "termin": "System informatyczny (np. „system Syrena”)",
+      "roznica": "To zestaw programów, danych i sprzętu do konkretnego zadania organizacji, a nie system operacyjny komputera."
+    }
+  ],
+  "przykladWypowiedzi": "The operating system, czyli system operacyjny, na przykład Windows albo Android, uruchamia komputer i pozwala działać aplikacjom.",
+  "egzamin": "Nie jest terminem egzaminu. Pomaga zrozumieć, czym jest infrastruktura techniczna i dlaczego aktualizacje to zmiany, którymi trzeba zarządzać (BAI06 Zarządzanie zmianami).",
+  "powiazane": [
+    "it-software",
+    "it-aplikacja",
+    "it-infrastruktura"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 86,
+      "cytat": "infrastruktura techniczna, w tym sprzęt, oprogramowanie systemowe oraz infrastruktura sieciowa"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Wsiadasz do samochodu i przekręcasz kluczyk. Zanim pojedziesz, auto zapala kontrolki i sprawdza paliwo. Ten „start” jest jak system operacyjny: przygotowuje wszystko, żebyś mógł jechać tam, gdzie chcesz.",
+    "zaawansowany": "Ola Dudek planuje aktualizację systemu operacyjnego na komputerach SK. Pyta dostawcę, czy [[it-aplikacja|aplikacja]] „Syrena” zadziała na nowej wersji. Gdyby nie zadziałała, dyżurni nie wysłaliby alarmu. Tak jedna podmiana w podstawie może zatrzymać program, który od niej zależy.",
+    "skrajny": "„System” w rozmowie w urzędzie zwykle znaczy „system informatyczny”, np. „system kadrowy”. To nie jest system operacyjny, tylko aplikacja z danymi. Odwrotnie: Android to system operacyjny, a nie aplikacja, choć też go „instalujesz”. **Rozstrzygnięcie:** system operacyjny obsługuje samo urządzenie i uruchamia inne programy; „system” w organizacji to zwykle zestaw aplikacji i danych do konkretnego zadania."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Windows to program do pisania.",
+      "prawda": "Windows to system operacyjny. Program do pisania (np. Word) działa w Windowsie."
+    },
+    {
+      "mit": "„System Syrena” to system operacyjny.",
+      "prawda": "„Syrena” to system informatyczny – aplikacja z danymi – działający w systemie operacyjnym."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Nazywanie każdej aplikacji „systemem” i mylenie systemu operacyjnego z programem użytkowym.",
+    "jakTlumaczyc": "Kierownik sali i kucharze: system operacyjny przydziela miejsca, aplikacje „gotują” dla gości.",
+    "pytanieKontrolne": "Czy Microsoft Word jest systemem operacyjnym?",
+    "odpowiedzKontrolna": "Nie. Word to aplikacja (program użytkowy), która działa w systemie operacyjnym, np. w Windowsie."
+  }
+}

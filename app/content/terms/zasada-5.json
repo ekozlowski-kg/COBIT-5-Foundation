@@ -1,0 +1,113 @@
+{
+  "id": "zasada-5",
+  "en": "Principle 5: Separating Governance From Management",
+  "wymowa": "prinsipl 5 separejting gawernens from menydżment",
+  "wymowaAkcent": "PRIN-si-pl 5 SE-pa-rej-ting GA-wer-nens from ME-nydż-ment",
+  "plEgzamin": "Zasada 5: Oddzielenie Ładu od Zarządzania",
+  "plPodrecznik": "Zasada 5: Oddzielenie nadzoru od zarządzania",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Zasada 5: Oddzielenie Ładu od Zarządzania",
+    "podrecznik": "Zasada 5: Oddzielenie nadzoru od zarządzania",
+    "kurs": "Zasada 5: Oddzielenie Ładu od Zarządzania (Principle 5: Separating Governance From Management)",
+    "uwaga": "Egzamin PL: „Zasada 5: Oddzielenie Ładu od Zarządzania”; podręcznik PL: „Zasada 5: Oddzielenie nadzoru od zarządzania” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 13, 14."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Oddzielenie Ładu od Zarządzania”. Podręcznik: „Oddzielenie nadzoru od zarządzania”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "lad",
+    "zarzadzanie"
+  ],
+  "poLudzku": "Kto innego decyduje o kierunku, a kto inny wykonuje pracę; to dwie różne role.",
+  "wyobrazSobie": "Armator i kapitan: armator decyduje, dokąd i po co płynie statek, i sprawdza, czy trzyma kurs, a kapitan z załogą planuje trasę i steruje.",
+  "poCo": "Żeby rozdzielić decydowanie o kierunku od wykonywania pracy, bo to działania o innym charakterze, wymagające innych struktur i służące innym celom.",
+  "jakDziala": "Ład (Governance) ocenia, kieruje i monitoruje (Evaluate, Direct, Monitor; domena EDM, 5 procesów); odpowiada zarząd pod przewodnictwem prezesa. Zarządzanie (Management) planuje, tworzy, wykonuje i monitoruje (Plan, Build, Run, Monitor; domeny APO, BAI, DSS, MEA, 32 procesy); odpowiada kierownictwo pod przewodnictwem CEO. Ład wyznacza kierunek i monitoruje, czy jest realizowany, a Zarządzanie działa zgodnie z nim i przekazuje Ładowi informacje zwrotne.",
+  "dlaczegoWazne": "To piąta z pięciu zasad COBIT 5 i podstawa Referencyjnego Modelu Procesu (5 + 32 procesy). Egzamin w wielu pytaniach każe rozpoznać, czy dana czynność należy do Ładu czy do Zarządzania.",
+  "skadNazwa": "Tłumaczenie *Separating Governance From Management*. Podręcznik: „nadzoru od zarządzania”, egzamin: „Ładu od Zarządzania”.",
+  "poziom1": "Ład decyduje, dokąd idziemy, i sprawdza, czy idziemy dobrze (Oszacuj, Kieruj, Monitoruj), a Zarządzanie planuje i przechodzi tę drogę (Planuj, Twórz, Wykonuj, Monitoruj). To dwie różne role, z innymi zadaniami i innymi ludźmi, które muszą ze sobą stale rozmawiać (np. właściciel i kierownik sklepu).",
+  "poziom2": "Ład: **Oszacuj, Kieruj, Monitoruj** (EDM). Odpowiada zarząd pod przywództwem prezesa. Zarządzanie: **Planuj, Twórz, Wykonuj, Monitoruj** (PBRM, czyli domeny APO, BAI, DSS, MEA). Odpowiada kierownictwo pod przywództwem CEO. Między nimi zachodzą **interakcje**: potrzeby biznesowe → Ład ocenia, kieruje i monitoruje → Zarządzanie planuje, buduje, uruchamia i monitoruje → informacje zwrotne trafiają do Ładu.",
+  "poziom3": "Rozdział 6 (s. 31): *„Każda z tych dziedzin obejmuje działania o odmiennym charakterze, wymaga różnych struktur organizacyjnych i służy innym celom.”* Ilustracja 14: interakcje dla każdego z 7 aktywatorów. Ilustracja 15: kluczowe obszary. Ilustracja 16: model referencyjny procesów.",
+  "przyklady": {
+    "zycie": "Raz w miesiącu rodzina siada przy stole i ustala budżet: na co wydajemy, na co oszczędzamy. Potem Ty robisz zakupy, płacisz rachunki i pilnujesz wydatków. Na kolejnej naradzie pokazujesz wyniki, a rodzina koryguje plan – narada to Ład, codzienne pilnowanie to Zarządzanie.",
+    "biuro": "Prezes decyduje, że biuro ma ograniczyć druk o połowę, i co kwartał sprawdza wynik. Kierowniczka biura ustawia druk dwustronny, zabiera drukarki z pokojów i co miesiąc liczy zużycie papieru. Prezes sprawuje Ład, kierowniczka zarządza.",
+    "firma": "Właścicielka piekarni ustala, że w tym roku rozwijają sprzedaż przez internet i ile może to kosztować, a co kwartał ocenia wyniki. Kierownik zakładu wybiera system zamówień, uczy ludzi i co miesiąc raportuje, jak idzie. Ona wyznacza kierunek i ocenia (Ład), on planuje i wykonuje (Zarządzanie).",
+    "admin": "Rada gminy z wójtem decydują, że gmina cyfryzuje obsługę mieszkańców, i co pół roku oceniają postępy. Sekretarz i kierownicy wydziałów planują wdrożenie, wybierają systemy i pilnują codziennej pracy. Decyzja i nadzór to Ład, wykonanie to Zarządzanie.",
+    "psp": "Komendant z zastępcami ustala priorytety IT komendy na rok i budżet, a co kwartał przegląda wyniki. Kierownik SK i informatycy planują prace, wdrażają systemy, utrzymują SWD-PSP i raportują. Komendant z zastępcami pełni tu rolę Ładu, a kierownik SK z informatykami – Zarządzania.",
+    "it": "W EDM03 (Zapewnienie optymalizacji ryzyka) zarząd ustala apetyt na ryzyko IT i monitoruje, czy nie jest przekraczany. W APO12 (Zarządzanie ryzykiem) kierownictwo identyfikuje, analizuje i obsługuje konkretne ryzyka w tych granicach i raportuje wyniki do Ładu."
+  },
+  "glebokosc": {
+    "prosty": "W restauracji właściciel decyduje: „gotujemy kuchnię włoską i trzymamy się budżetu”, a co miesiąc sprawdza, czy tak jest. Szef kuchni układa menu, zamawia produkty, prowadzi kucharzy i pilnuje każdego talerza. Gdyby właściciel stał przy garnkach, a szef kuchni sam zmieniał profil restauracji, zrobiłby się bałagan – dlatego to dwie różne role.",
+    "zaawansowany": "W komendzie komendantka Wrzos zostawia sobie 5 procesów [[edm|Ładu]] (Oszacuj, Kieruj, Monitoruj), a kpt. Sikora bierze 32 procesy Zarządzania ([[pbrm]]). Wrzos ocenia potrzeby po pożarze przy Lipowej, kieruje, ustalając priorytet „alarm dla OSP w 40 sekund”, i sprawdza, czy ten kierunek wcielono w życie. Sikora planuje, wdraża i utrzymuje Syrenę oraz monitoruje wyniki, a informacje zwrotne trafiają do Wrzos. Oba poziomy łączą interakcje, np. polityki, które instytucjonalizują decyzje Ładu ([[zasady-polityki-struktury]]).",
+    "skrajny": "Komenda powołuje Radę ds. Informatyki: komendantkę, Sikorę, Mak i dowódcę JRG. Czy Rada należy do Ładu, czy do Zarządzania? Intuicja odpowiada: „Do Ładu, bo zasiada w niej komendantka”, ale Framework mówi, że struktury organizacyjne mogą należeć do przestrzeni Ładu albo Zarządzania w zależności od składu i zakresu decyzji (s. 31). Jeśli Rada decyduje o portfelu inwestycji i apetycie na ryzyko, jest strukturą Ładu; jeśli ma układać harmonogram wdrożeń i przydzielać zadania, jest strukturą Zarządzania, nawet z komendantką przy stole. **Rozstrzygnięcie:** o przynależności struktury do Ładu albo Zarządzania decydują jej skład i zakres decyzji, a nie sama obecność szefa (s. 31)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Oddzielenie znaczy, że Ład i Zarządzanie ze sobą nie rozmawiają.",
+      "prawda": "Rozdzielone są działania i odpowiedzialności, ale potrzebny jest zbiór interakcji (il. 14): kierunek idzie w dół, informacje zwrotne w górę."
+    },
+    {
+      "mit": "Obie strony monitorują, więc to jedno i to samo.",
+      "prawda": "Ład (EDM) monitoruje, w jakim stopniu jego kierunek wcielono w życie. Zarządzanie (MEA) monitoruje realizację działań i osiąganie celów."
+    },
+    {
+      "mit": "Struktura z udziałem szefa organizacji zawsze należy do Ładu.",
+      "prawda": "Struktury należą do przestrzeni Ładu albo Zarządzania w zależności od składu i zakresu decyzji (s. 31)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Sprowadzanie zasady do hasła „zarząd kontra kierownicy” bez rozumienia interakcji i przypisywanie każdego monitorowania Ładowi.",
+    "jakTlumaczyc": "Kolejność z il. 15: potrzeby biznesowe → Oszacuj → Kieruj → Planuj → Twórz → Wykonuj → Monitoruj (MEA) → informacje zwrotne → Monitoruj (EDM). Narysuj ją jako pętlę i pokaż, gdzie kończy się Ład, a zaczyna Zarządzanie.",
+    "pytanieKontrolne": "Rada ds. Informatyki ustala apetyt na ryzyko komendy. Ład czy Zarządzanie? Co by się zmieniło, gdyby ta sama Rada układała grafik wdrożeń?",
+    "odpowiedzKontrolna": "Ustalanie apetytu na ryzyko to decyzja **Ładu** (s. 31). Układanie grafiku wdrożeń to **Zarządzanie**. Przynależność struktury zależy od jej składu i zakresu decyzji, a nie od nazwy czy nazwisk."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "lad",
+      "roznica": "Ład to jedna ze stron rozdziału."
+    },
+    {
+      "termin": "zarzadzanie",
+      "roznica": "Zarządzanie to druga strona."
+    }
+  ],
+  "przykladWypowiedzi": "Principle 5, Separating Governance From Management, czyli Oddzielenie Ładu od Zarządzania: Governance ocenia, kieruje i monitoruje (EDM), a Management planuje, tworzy, wykonuje i monitoruje (PBRM) zgodnie z wyznaczonym kierunkiem.",
+  "egzamin": "Kolejność: **Oszacuj → Kieruj → Planuj → Twórz → Wykonuj → Monitoruj (MEA) → Monitoruj (EDM)** (Ilustracja 15). Zarządzanie działa zgodnie z kierunkiem organu Ładu, aby osiągnąć **cele organizacji**.",
+  "powiazane": [
+    "lad",
+    "zarzadzanie",
+    "edm",
+    "pbrm",
+    "prm"
+  ],
+  "sylabus": [
+    "PR-01-01",
+    "PR-02-14",
+    "PR-02-15"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 31,
+      "cytat": "Każda z tych dziedzin obejmuje działania o odmiennym charakterze, wymaga różnych struktur organizacyjnych i służy innym celom."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 31,
+      "ilustracja": "14"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 32,
+      "ilustracja": "15"
+    },
+    {
+      "doc": "SP1",
+      "strona": 37
+    }
+  ],
+  "mapa": "zasada-5"
+}

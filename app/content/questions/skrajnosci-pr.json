@@ -1,0 +1,1041 @@
+{
+  "pytania": [
+    {
+      "id": "q-sk-komponent-cel-ladu-1",
+      "typ": "egzamin",
+      "skrajnosc": true,
+      "atom": "komponent-cel-ladu",
+      "sylabus": [
+        "PR-02-08"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które zestawienie zawiera **wyłącznie** komponenty Podejścia do Ładu z Rysunku 8?",
+      "opcje": [
+        {
+          "tekst": "Cel Ładu, aktywatory Ładu, zakres Ładu oraz role, działania i relacje",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To cztery kluczowe komponenty systemu Ładu (s. 23–24)."
+        },
+        {
+          "tekst": "Cel Ładu, aktywatory Ładu, zakres Ładu oraz Oszacuj, Kieruj i Monitoruj",
+          "poprawna": false,
+          "wyjasnienie": "Oszacuj, Kieruj i Monitoruj to praktyki procesów Ładu (EDM), a nie komponent. Brakuje ról, działań i relacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Realizacja korzyści, optymalizacja ryzyka, optymalizacja zasobów oraz zakres Ładu",
+          "poprawna": false,
+          "wyjasnienie": "Korzyści, ryzyko i zasoby to trzy części jednego komponentu, Celu Ładu. Brakuje aktywatorów oraz ról, działań i relacji.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Cel Ładu, kaskada celów, zakres Ładu oraz role, działania i relacje",
+          "poprawna": false,
+          "wyjasnienie": "Kaskada celów to mechanizm z Zasady 1, a nie komponent Podejścia do Ładu. W jej miejscu powinny być aktywatory Ładu.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 23,
+          "ilustracja": "8"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 24
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-aktywatory-ladu-1",
+      "typ": "studium",
+      "skrajnosc": true,
+      "atom": "aktywatory-ladu",
+      "sylabus": [
+        "PR-02-08",
+        "PR-01-02"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Komendantka wpisała wszystkie cztery punkty do rubryki „aktywatory”. Przy którym punkcie się pomyliła, bo należy on do innego komponentu z Rysunku 8?",
+      "scenariusz": "Komendantka Anna Wrzos spisuje, czego potrzebuje, żeby sprawować Ład nad systemem Syrena: (1) polityka powiadamiania, (2) Rada ds. Informatyki, (3) objęcie zasadami całej komendy razem z obiema JRG, (4) kwartalny raport naczelnika Sikory o działaniu Syreny.",
+      "opcje": [
+        {
+          "tekst": "(1) polityka powiadamiania, bo to Cel Ładu",
+          "poprawna": false,
+          "wyjasnienie": "Polityka to aktywator (zasady, polityki i struktury ramowe). Cel Ładu to tworzenie wartości: korzyści, ryzyko, zasoby.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "(3) objęcie zasadami całej komendy razem z obiema JRG",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To wyznacza granicę, czego dotyczy Ład, czyli zakres Ładu. Pozostałe trzy elementy to środki, którymi Ład się sprawuje."
+        },
+        {
+          "tekst": "(2) Rada ds. Informatyki, bo to role, działania i relacje",
+          "poprawna": false,
+          "wyjasnienie": "Rada to struktura organizacyjna, czyli aktywator. Role, działania i relacje opisują, kto komu deleguje, wyznacza kierunek i raportuje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "(4) kwartalny raport naczelnika, bo raportowanie to relacja z Rysunku 9",
+          "poprawna": false,
+          "wyjasnienie": "Raportowanie jest relacją, ale sam raport to informacja, czyli aktywator. Prawdziwe zdanie, tylko nie o tym elemencie.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 24
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 23,
+          "ilustracja": "8"
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-rola-interesariusze-1",
+      "typ": "studium",
+      "skrajnosc": true,
+      "atom": "rola-interesariusze",
+      "sylabus": [
+        "PR-02-09"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Jak ocenić to żądanie w świetle ról, działań i relacji z Rysunku 9?",
+      "scenariusz": "Na spotkaniu z mieszkańcami Modrzewiowa kilka osób żąda, żeby komenda kupiła konkretną aplikację alarmową, którą widzieli w telewizji. Chcą też, żeby informatycy zainstalowali ją jeszcze w tym miesiącu.",
+      "opcje": [
+        {
+          "tekst": "Interesariusze wyznaczają kierunek, a organ Ładu deleguje do nich zadania.",
+          "poprawna": false,
+          "wyjasnienie": "Strzałki są odwrócone. To interesariusze delegują do organu Ładu, a kierunek wyznacza organ.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "To monitorowanie, które Rysunek 9 przypisuje interesariuszom.",
+          "poprawna": false,
+          "wyjasnienie": "Interesariuszom Rysunek 9 przypisuje delegowanie. Monitorowanie w rolach egzamin wiąże z kierownictwem.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Rola interesariuszy to delegowanie i rozliczanie organu Ładu; wybór aplikacji to sprawa kierunku (organ Ładu) i instruowania (kierownictwo).",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Interesariusze delegują, a organ Ładu jest przed nimi rozliczany. Kierunku kierownictwu nie wyznaczają."
+        },
+        {
+          "tekst": "Mieszkańcy nie są interesariuszami komendy, bo nie korzystają z Syreny.",
+          "poprawna": false,
+          "wyjasnienie": "Interesariusz to nie tylko użytkownik systemu. Mieszkańcy to ci, w czyim imieniu komenda działa.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-rola-kierownictwo-1",
+      "typ": "studium",
+      "skrajnosc": true,
+      "atom": "rola-kierownictwo",
+      "sylabus": [
+        "PR-02-09"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Która rola z Rysunku 9 najlepiej opisuje osobę, o którą pyta komendantka?",
+      "scenariusz": "Komendantka Wrzos wyznaczyła kierunek: „żaden alarm nie może zginąć”. Pyta teraz, kto w komendzie na bieżąco rozdziela zadania dyżurnym i informatykom, zbiera od nich tygodniowe raporty i sprawdza, czy praca idzie zgodnie z tym kierunkiem.",
+      "opcje": [
+        {
+          "tekst": "Organ Ładu i nadzoru – komendantka Wrzos",
+          "poprawna": false,
+          "wyjasnienie": "Organ Ładu wyznacza kierunek i jest rozliczany przed interesariuszami. Jej „Monitoruj” w EDM to praktyka procesów Ładu, inna kategoria niż rola z Rysunku 9.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Role operacyjne – dyżurni SK",
+          "poprawna": false,
+          "wyjasnienie": "Dyżurni raportują, a nie monitorują. Kierunek relacji jest odwrotny: oni piszą raport, kierownictwo go czyta.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Interesariusze – mieszkańcy i komenda wojewódzka",
+          "poprawna": false,
+          "wyjasnienie": "Interesariusze delegują i rozliczają organ Ładu. Nie śledzą tygodniowych raportów z SK.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Kierownictwo – kpt. Sikora",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Kierownictwo dostaje kierunek, instruuje i dopasowuje role operacyjne, odbiera ich raporty i odpowiada wykonawczo za monitorowanie."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-rola-kierownictwo-2",
+      "typ": "egzamin",
+      "skrajnosc": true,
+      "atom": "rola-kierownictwo",
+      "sylabus": [
+        "PR-02-09"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które zdanie o roli **Kierownictwo** z Rysunku 9 jest poprawne?",
+      "opcje": [
+        {
+          "tekst": "Otrzymuje kierunek od organu Ładu, a role operacyjne instruuje i dopasowuje.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To dokładnie miejsce kierownictwa w łańcuchu z Rysunku 9."
+        },
+        {
+          "tekst": "Wyznacza kierunek rolom operacyjnym i jest rozliczane przed interesariuszami.",
+          "poprawna": false,
+          "wyjasnienie": "Tak działa organ Ładu: wyznacza kierunek i odpowiada przed interesariuszami.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Podręcznik nazywa tę rolę „Eksploatacja i wykonanie”.",
+          "poprawna": false,
+          "wyjasnienie": "„Eksploatacja i wykonanie” to podręcznikowa nazwa ról operacyjnych. Kierownictwo podręcznik podpisuje na Rysunku 9 jako „Zarządzanie”.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "To domeny procesów APO, BAI, DSS i MEA.",
+          "poprawna": false,
+          "wyjasnienie": "To są domeny Zarządzania, czyli procesy. Kierownictwo to rola ludzi, którzy te procesy prowadzą.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-rola-operacyjne-1",
+      "typ": "studium",
+      "skrajnosc": true,
+      "atom": "rola-operacyjne",
+      "sylabus": [
+        "PR-02-09"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Jakie działanie z Rysunku 9 i skierowane do kogo jest właściwe dla roli, którą pełni Grab?",
+      "scenariusz": "Dyżurny SK, asp. sztab. Paweł Grab, zauważa, że Syrena drugi raz nie wysłała SMS-a do OSP Zawilce. Zastanawia się, co zrobić z tą wiedzą zgodnie z łańcuchem ról w komendzie.",
+      "opcje": [
+        {
+          "tekst": "Raportowanie bezpośrednio do organu Ładu, czyli do komendantki",
+          "poprawna": false,
+          "wyjasnienie": "Na Rysunku 9 raport od ról operacyjnych idzie do kierownictwa. Do organu Ładu informacja dochodzi przez kierownictwo.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Raportowanie do kierownictwa, czyli do kpt. Sikory",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Role operacyjne wykonują pracę i raportują do kierownictwa."
+        },
+        {
+          "tekst": "Monitorowanie kierownictwa",
+          "poprawna": false,
+          "wyjasnienie": "Odwrócony kierunek. To kierownictwo monitoruje wykonanie, a role operacyjne raportują.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Delegowanie naprawy do dostawcy jako interesariusz",
+          "poprawna": false,
+          "wyjasnienie": "Delegowanie to działanie interesariuszy wobec organu Ładu. Zlecenie dostawcy to coś innego, a Grab nie jest tu w roli interesariusza.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-baza-wiedzy-1",
+      "typ": "egzamin",
+      "skrajnosc": true,
+      "atom": "baza-wiedzy",
+      "sylabus": [
+        "PR-02-10",
+        "PR-02-11"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Co na Rysunku 10 pełni funkcję **filtra zawartości** między bazą wiedzy COBIT 5 a rodziną produktów?",
+      "opcje": [
+        {
+          "tekst": "Pięć zasad COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Zasady opisują ramę, ale filtrem na Rysunku 10 nie są.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Inne standardy i metodyki, np. ITIL i TOGAF",
+          "poprawna": false,
+          "wyjasnienie": "To jedno z wejść do bazy wiedzy, a nie filtr na jej wyjściu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Aktywatory COBIT 5",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Rysunek 10 nazywa aktywatory filtrem zawartości dla bazy wiedzy (s. 25)."
+        },
+        {
+          "tekst": "Środowisko sieciowe oparte na współpracy",
+          "poprawna": false,
+          "wyjasnienie": "To element rodziny produktów (prawda), ale nie filtr między bazą a produktami.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 25,
+          "ilustracja": "10"
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-rodzina-produktow-1",
+      "typ": "egzamin",
+      "skrajnosc": true,
+      "atom": "rodzina-produktow",
+      "sylabus": [
+        "PR-02-10",
+        "PR-02-11"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Który dokument z rodziny produktów COBIT 5 należy do grupy przewodników **o aktywatorach** (enabler guides)?",
+      "opcje": [
+        {
+          "tekst": "COBIT 5: Wdrożenie",
+          "poprawna": false,
+          "wyjasnienie": "To przewodnik specjalistyczny, choć dotyczy wdrażania aktywatorów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "COBIT 5: Bezpieczeństwo informacji",
+          "poprawna": false,
+          "wyjasnienie": "To przewodnik specjalistyczny. W tytule jest „informacja”, ale nie opisuje aktywatora Informacja.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "COBIT 5 (Framework)",
+          "poprawna": false,
+          "wyjasnienie": "Framework należy do rodziny produktów (prawda), ale nie jest przewodnikiem o aktywatorach.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "COBIT 5: Informacje umożliwiające",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Opisuje jeden aktywator, Informację, więc należy do przewodników o aktywatorach (Rysunek 11)."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 26,
+          "ilustracja": "11"
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-wytyczne-isaca-1",
+      "typ": "egzamin",
+      "skrajnosc": true,
+      "atom": "wytyczne-isaca",
+      "sylabus": [
+        "PR-02-10",
+        "PR-02-11"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Naczelnik mówi, że COBIT 5 „zawiera w sobie” cztery źródła. Które z nich **NIE** jest wytyczną ISACA, więc COBIT 5 tylko się do niego **dopasowuje**?",
+      "opcje": [
+        {
+          "tekst": "ITIL",
+          "poprawna": true,
+          "wyjasnienie": "Tak. ITIL to inny standard. COBIT 5 dopasowuje się do niego, tak jak do TOGAF i norm ISO (s. 26)."
+        },
+        {
+          "tekst": "Risk IT",
+          "poprawna": false,
+          "wyjasnienie": "Risk IT to wytyczna ISACA. Model procesów COBIT 5 łączy jej model procesów (s. 33).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Val IT",
+          "poprawna": false,
+          "wyjasnienie": "Val IT to wytyczna ISACA, którą COBIT 5 zintegrował (s. 25–26).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "ITAF",
+          "poprawna": false,
+          "wyjasnienie": "ITAF to materiał ISACA wymieniony wśród zintegrowanych metodyk (s. 25).",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 26
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 33
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-wymiar-interesariusze-1",
+      "typ": "egzamin",
+      "skrajnosc": true,
+      "atom": "wymiar-interesariusze",
+      "sylabus": [
+        "PR-02-12",
+        "PR-01-05",
+        "PR-02-13"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Pytanie zarządzania wydajnością aktywatora brzmi: „Czy uwzględniono potrzeby interesariuszy?”. Jakim wskaźnikiem COBIT 5 mierzy odpowiedź?",
+      "opcje": [
+        {
+          "tekst": "Wskaźnikiem wiodącym",
+          "poprawna": false,
+          "wyjasnienie": "Wiodące mierzą cykl życia i dobre praktyki, czyli funkcjonowanie aktywatora. Pary są zamienione.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Wskaźnikiem opóźnionym",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Pytania o interesariuszy i cele dotyczą wyniku zastosowania aktywatora, więc mierzą je wskaźniki opóźnione (s. 29)."
+        },
+        {
+          "tekst": "Poziomem zdolności procesu w skali 0–5",
+          "poprawna": false,
+          "wyjasnienie": "To model zdolności procesu, inna kategoria niż zarządzanie wydajnością aktywatora.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nie mierzy się go, bo interesariusze to wymiar tylko opisowy",
+          "poprawna": false,
+          "wyjasnienie": "FW-PL wymaga regularnego monitorowania wszystkich czterech pytań na podstawie mierników (s. 29).",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 28,
+          "ilustracja": "13"
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-wymiar-interesariusze-2",
+      "typ": "studium",
+      "skrajnosc": true,
+      "atom": "wymiar-interesariusze",
+      "sylabus": [
+        "PR-02-12"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które podejście jest zgodne z wymiarem „Interesariusze”?",
+      "scenariusz": "St. ogn. Kasia Nowik opisuje aktywator „lista numerów telefonów OSP w Syrenie”. Musi wypełnić wymiar „Interesariusze” i zastanawia się, kogo tam wpisać.",
+      "opcje": [
+        {
+          "tekst": "Wpisać tylko osoby, które mają konto w Syrenie",
+          "poprawna": false,
+          "wyjasnienie": "To zawęża definicję do użytkowników. Interesariuszem jest też strona tylko zainteresowana.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Wpisać tylko interesariuszy wewnętrznych komendy",
+          "poprawna": false,
+          "wyjasnienie": "Wymiar obejmuje interesariuszy wewnętrznych i zewnętrznych, np. druhów OSP.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Wpisać też mieszkańców, którzy z listy nie korzystają, ale ponoszą skutki jej błędów",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Interesariusze aktywatora to strony z aktywną rolą i/lub zainteresowane aktywatorem, wewnętrzne i zewnętrzne (s. 28–29)."
+        },
+        {
+          "tekst": "Wpisać właścicieli, którzy delegują władzę organowi Ładu, bo tak interesariuszy opisuje Rysunek 9",
+          "poprawna": false,
+          "wyjasnienie": "To rola z Rysunku 9, czyli inne miejsce COBIT 5. Wymiar dotyczy stron jednego aktywatora.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 28
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-wymiar-cele-1",
+      "typ": "studium",
+      "skrajnosc": true,
+      "atom": "wymiar-cele",
+      "sylabus": [
+        "PR-02-12",
+        "PR-02-06"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które kategorie celów aktywatora zawiodły?",
+      "scenariusz": "Audytorka Ewa Lis sprawdza listę numerów OSP w Syrenie. Wszystkie numery są wpisane bez literówek, ale co trzeci jest sprzed dwóch lat. W nocy dwóch dyżurnych nie mogło otworzyć listy, bo nie mieli uprawnień.",
+      "opcje": [
+        {
+          "tekst": "Jakość wewnętrzna oraz dostęp i bezpieczeństwo",
+          "poprawna": false,
+          "wyjasnienie": "Numery wpisano dokładnie, więc jakość wewnętrzna jest w porządku. Nieaktualność to jakość kontekstowa.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Jakość rzeczywista oraz jakość kontekstowa",
+          "poprawna": false,
+          "wyjasnienie": "„Jakość rzeczywista” to forma podręcznikowa jakości wewnętrznej, a ta tu nie zawiodła. Pominięto też dostęp.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Tylko jakość wewnętrzna, bo problem dotyczy danych wewnątrz komendy",
+          "poprawna": false,
+          "wyjasnienie": "„Wewnętrzna” znaczy „sama w sobie”, a nie „wewnątrz komendy”. Odpowiedź pomija też dwie kategorie, które zawiodły.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Jakość kontekstowa oraz dostęp i bezpieczeństwo",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Aktualność to jakość kontekstowa, a brak dostępu w razie potrzeby to dostęp i bezpieczeństwo (s. 29)."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 28,
+          "ilustracja": "13"
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-wymiar-cykl-zycia-1",
+      "typ": "egzamin",
+      "skrajnosc": true,
+      "atom": "wymiar-cykl-zycia",
+      "sylabus": [
+        "PR-02-12",
+        "IM-01-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które zdanie poprawnie odróżnia cykl życia aktywatora od cyklu życia wdrożenia?",
+      "opcje": [
+        {
+          "tekst": "Cykl życia aktywatora ma 6 faz i dotyczy każdego aktywatora; cykl życia wdrożenia ma 7 faz i dotyczy programu wdrażania COBIT 5.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To dwie różne listy o różnym przedmiocie (s. 29 i s. 37)."
+        },
+        {
+          "tekst": "Oba mają 7 faz i różnią się tylko nazwami.",
+          "poprawna": false,
+          "wyjasnienie": "Cykl życia aktywatora ma 6 faz: od planowania do aktualizacji/pozbywania się.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Cykl życia aktywatora to wewnętrzny pierścień cyklu wdrożenia, czyli ciągłe doskonalenie.",
+          "poprawna": false,
+          "wyjasnienie": "Pierścień ciągłego doskonalenia należy do cyklu wdrożenia. Cykl życia aktywatora to wymiar modelu aktywatora.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Cykl życia aktywatora mierzy się wskaźnikiem opóźnionym, a wdrożenie wskaźnikiem wiodącym.",
+          "poprawna": false,
+          "wyjasnienie": "Zarządzanie cyklem życia aktywatora mierzy wskaźnik wiodący (s. 29). Wdrożenie nie jest tak przypisane.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-cykl-faza-1-1",
+      "typ": "studium",
+      "skrajnosc": true,
+      "atom": "cykl-faza-1",
+      "sylabus": [
+        "PR-02-12"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Którą fazę cyklu życia aktywatora komenda w praktyce pominęła?",
+      "scenariusz": "Przy zakupie pierwszej Syreny księgowa dostała polecenie: wybrać najtańszą ofertę. Nikt nie porównał wariantów (SMS, aplikacja, syrena) ani nie sprawdził, co się stanie bez zasięgu. Wydziału informatyki nie zapytano. Umowę podpisano po tygodniu.",
+      "opcje": [
+        {
+          "tekst": "Faza 2 – szczegółowy projekt już wybranej koncepcji systemu",
+          "poprawna": false,
+          "wyjasnienie": "Projektowanie dotyczy szczegółów już wybranej koncepcji. Problem był wcześniej: przy wyborze.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Faza 1 – opracowanie i wybór koncepcji (Planowanie)",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Planowanie obejmuje opracowanie oraz wybór koncepcji (s. 29). Tu nikt nie porównał wariantów."
+        },
+        {
+          "tekst": "Faza 1 wdrożenia: „Jakie są wyznaczniki?”",
+          "poprawna": false,
+          "wyjasnienie": "To faza programu wdrażania COBIT 5, a nie życia jednego aktywatora.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Domena APO, bo dotyczy planowania",
+          "poprawna": false,
+          "wyjasnienie": "APO (Dostosuj, Planuj i Organizuj) to domena procesów Zarządzania, a nie faza cyklu życia aktywatora.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "niepotwierdzone"
+    },
+    {
+      "id": "q-sk-cykl-faza-2-1",
+      "typ": "egzamin",
+      "skrajnosc": true,
+      "atom": "cykl-faza-2",
+      "sylabus": [
+        "PR-02-12"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Kierownik procesu definiuje zakresy odpowiedzialności, dzieli proces na praktyki i działania oraz określa dane wejściowe i wyniki. Która to faza cyklu życia aktywatora?",
+      "opcje": [
+        {
+          "tekst": "Faza 1 – wybór koncepcji procesu",
+          "poprawna": false,
+          "wyjasnienie": "Planowanie to opracowanie i wybór koncepcji. Tu koncepcja jest już wybrana i powstają szczegóły.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Faza 3 – uruchomienie gotowego procesu i przeszkolenie ludzi",
+          "poprawna": false,
+          "wyjasnienie": "Ta faza zamienia projekt w działający aktywator. Tu dopiero powstaje projekt.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Faza 2 – zaprojektowanie i zdefiniowanie procesu",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Przykład 5 z FW-PL opisuje to jako projektowanie i definiowanie procesu (s. 30)."
+        },
+        {
+          "tekst": "Faza 3 wdrożenia: „Dokąd chcemy dojść?”",
+          "poprawna": false,
+          "wyjasnienie": "To stan docelowy całego programu wdrożenia, a nie projekt jednego procesu.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 30
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "niepotwierdzone"
+    },
+    {
+      "id": "q-sk-cykl-faza-3-1",
+      "typ": "studium",
+      "skrajnosc": true,
+      "atom": "cykl-faza-3",
+      "sylabus": [
+        "PR-02-12"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "W której fazie cyklu życia jest Syrena w opisanym tygodniu?",
+      "scenariusz": "Komenda podpisuje umowę z firmą Kwant-Sygnał. W ciągu tygodnia technicy instalują gotowy system Syrena na serwerze komendy, a dyżurni przechodzą szkolenie. Nikt w komendzie niczego nie programuje.",
+      "opcje": [
+        {
+          "tekst": "Faza 4 – codzienna praca, bo system już działa",
+          "poprawna": false,
+          "wyjasnienie": "Codzienna praca zacznie się po uruchomieniu. W tym tygodniu system jest kupowany i wdrażany.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Żadnej, bo kupno gotowego produktu nie jest fazą cyklu życia",
+          "poprawna": false,
+          "wyjasnienie": "Faza 3 to nie tylko budowanie. Obejmuje też nabywanie.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Domena BAI, bo pada słowo „nabywanie”",
+          "poprawna": false,
+          "wyjasnienie": "BAI (Twórz, Nabywaj i Wdrażaj) to domena procesów Zarządzania, a nie faza cyklu życia aktywatora.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Faza 3 – kupno gotowego systemu i jego uruchomienie to nabywanie i wdrażanie",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Kupno gotowego systemu to nabywanie, a instalacja i szkolenie to wdrażanie. Obie czynności należą do fazy 3."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "niepotwierdzone"
+    },
+    {
+      "id": "q-sk-cykl-faza-4-1",
+      "typ": "egzamin",
+      "skrajnosc": true,
+      "atom": "cykl-faza-4",
+      "sylabus": [
+        "PR-02-12",
+        "PR-02-09"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które z określeń jest nazwą **fazy cyklu życia aktywatora**?",
+      "opcje": [
+        {
+          "tekst": "„Użytkowanie/eksploatacja” – faza 4 z sześciu",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To faza 4 (Rysunek 13); w tekście s. 29 nazywa się „Użytkowanie/obsługa”."
+        },
+        {
+          "tekst": "„Eksploatacja i wykonanie” – podpis z Rysunku 9",
+          "poprawna": false,
+          "wyjasnienie": "To podręcznikowa nazwa roli z Rysunku 9, czyli ról operacyjnych.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "„Eksploatacja i pomiar” – z pierścienia ciągłego doskonalenia",
+          "poprawna": false,
+          "wyjasnienie": "To faza 6 cyklu wdrożenia w pierścieniu ciągłego doskonalenia, a nie faza aktywatora.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "„Dostarczaj, Obsługuj i Wspieraj” – domena DSS",
+          "poprawna": false,
+          "wyjasnienie": "To domena procesów Zarządzania, a nie faza cyklu życia.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 28,
+          "ilustracja": "13"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "niepotwierdzone"
+    },
+    {
+      "id": "q-sk-cykl-faza-5-1",
+      "typ": "egzamin",
+      "skrajnosc": true,
+      "atom": "cykl-faza-5",
+      "sylabus": [
+        "PR-02-12"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Audytorka co miesiąc losuje numery z listy OSP, dzwoni pod każdy i zapisuje wnioski. Co w ten sposób robi z perspektywy cyklu życia aktywatora „lista numerów”?",
+      "opcje": [
+        {
+          "tekst": "Domenę MEA „Monitoruj, Oszacuj i Oceń”",
+          "poprawna": false,
+          "wyjasnienie": "To domena procesów Zarządzania, a nie faza życia aktywatora.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Fazę 5 – ocenę działającego aktywatora",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To faza 5: sprawdzanie działającego aktywatora i zbieranie wniosków."
+        },
+        {
+          "tekst": "Fazę 7 cyklu wdrożenia z pierścienia ciągłego doskonalenia",
+          "poprawna": false,
+          "wyjasnienie": "W pierścieniu ciągłego doskonalenia faza 7 to „Monitorowanie i szacowanie” całego programu wdrożenia. To inna lista niż cykl życia aktywatora.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Fazę 4, bo lista jest w tym czasie używana przez dyżurnych",
+          "poprawna": false,
+          "wyjasnienie": "Lista rzeczywiście jest używana, ale audytorka jej nie używa, tylko ją ocenia.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "niepotwierdzone"
+    },
+    {
+      "id": "q-sk-cykl-faza-6-1",
+      "typ": "studium",
+      "skrajnosc": true,
+      "atom": "cykl-faza-6",
+      "sylabus": [
+        "PR-02-12"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które zdanie poprawnie opisuje obie decyzje?",
+      "scenariusz": "Po ocenie audytorki komenda poprawia procedurę alarmowania i od poniedziałku znów jej używa. Starą bramkę SMS sprzed Syreny informatyczka odłącza, a dane z niej bezpiecznie usuwa.",
+      "opcje": [
+        {
+          "tekst": "Tylko odłączenie bramki to faza 6; poprawa procedury to ponowne projektowanie.",
+          "poprawna": false,
+          "wyjasnienie": "Aktualizacja działającego aktywatora też należy do fazy 6. Odpowiedź zawęża fazę do samego usuwania.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "To faza 7 wdrożenia: „Jak utrzymać motywację do działania?”.",
+          "poprawna": false,
+          "wyjasnienie": "To ostatnia faza programu wdrożenia, a nie życia jednego aktywatora.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Obie to faza 6: poprawa procedury to aktualizacja, a odłączenie bramki z usunięciem danych to pozbywanie się.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Faza 6 ma dwa wyjścia: aktualizację albo pozbycie się (s. 29)."
+        },
+        {
+          "tekst": "Poprawa procedury kończy jej cykl życia.",
+          "poprawna": false,
+          "wyjasnienie": "Aktualizacja odnawia aktywator; procedura żyje dalej i wraca do użytkowania.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 30
+        }
+      ],
+      "status": "niepotwierdzone"
+    },
+    {
+      "id": "q-sk-rola-kierownictwo-3",
+      "typ": "bledy",
+      "mentor": true,
+      "skrajnosc": true,
+      "atom": "rola-kierownictwo",
+      "sylabus": [
+        "PR-02-09"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "**Popraw kolegę.** Kolega tłumaczy nowej osobie Rysunek 9. Oceń każde jego zdanie.",
+      "tekst": "„Na Rysunku 9 interesariusze delegują władzę organowi Ładu. Organ Ładu instruuje i dopasowuje role operacyjne. Monitorowanie łączę z organem Ładu, bo w EDM jest »Monitoruj«. Role operacyjne raportują do kierownictwa. Podręcznik podpisuje kierownictwo na tej ilustracji jako »Zarządzanie«.”",
+      "twierdzenia": [
+        {
+          "tekst": "Interesariusze delegują władzę organowi Ładu.",
+          "poprawne": true,
+          "wyjasnienie": "Dobrze. To pierwsza relacja z Rysunku 9: delegowanie."
+        },
+        {
+          "tekst": "Organ Ładu instruuje i dopasowuje role operacyjne.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. Instruuje i dopasowuje kierownictwo. Organ Ładu wyznacza kierunek kierownictwu."
+        },
+        {
+          "tekst": "Monitorowanie łączę z organem Ładu, bo w EDM jest „Monitoruj”.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. W rolach z Rysunku 9 uzasadnienia egzaminacyjne wiążą monitorowanie z kierownictwem. „Monitoruj” w EDM to praktyka procesów Ładu, czyli inna kategoria."
+        },
+        {
+          "tekst": "Role operacyjne raportują do kierownictwa.",
+          "poprawne": true,
+          "wyjasnienie": "Dobrze. Raportowanie biegnie od ról operacyjnych do kierownictwa."
+        },
+        {
+          "tekst": "Podręcznik podpisuje kierownictwo na tej ilustracji jako „Zarządzanie”.",
+          "poprawne": true,
+          "wyjasnienie": "Dobrze. To forma podręcznikowa; na egzaminie mówimy „Kierownictwo”."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        },
+        {
+          "doc": "SP1"
+        }
+      ],
+      "status": "oficjalne"
+    },
+    {
+      "id": "q-sk-rola-kierownictwo-4",
+      "typ": "bledy",
+      "mentor": true,
+      "skrajnosc": true,
+      "atom": "rola-kierownictwo",
+      "sylabus": [
+        "PR-02-08",
+        "PR-02-09"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "**Popraw kolegę.** Kolega streszcza Podejście do Ładu przed egzaminem. Oceń każde jego zdanie.",
+      "tekst": "„Podejście do Ładu ma cztery komponenty: Cel Ładu, aktywatory Ładu, zakres Ładu oraz role, działania i relacje. Oszacuj, Kieruj i Monitoruj to piąty komponent, bo bez nich nie ma Ładu. Kierownictwo dostaje kierunek od organu Ładu i pilnuje jego wykonania. Kierownictwo jest rozliczane bezpośrednio przed interesariuszami.”",
+      "twierdzenia": [
+        {
+          "tekst": "Podejście do Ładu ma cztery komponenty: Cel Ładu, aktywatory Ładu, zakres Ładu oraz role, działania i relacje.",
+          "poprawne": true,
+          "wyjasnienie": "Dobrze. To cztery komponenty z Rysunku 8."
+        },
+        {
+          "tekst": "Oszacuj, Kieruj i Monitoruj to piąty komponent, bo bez nich nie ma Ładu.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. To praktyki procesów Ładu (domena EDM), a nie komponent Podejścia do Ładu. Komponentów jest cztery."
+        },
+        {
+          "tekst": "Kierownictwo dostaje kierunek od organu Ładu i pilnuje jego wykonania.",
+          "poprawne": true,
+          "wyjasnienie": "Dobrze. Kierownictwo instruuje, dopasowuje i monitoruje wykonanie."
+        },
+        {
+          "tekst": "Kierownictwo jest rozliczane bezpośrednio przed interesariuszami.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. Przed interesariuszami rozliczany jest organ Ładu i nadzoru (relacja „strona rozliczana” na Rysunku 9)."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 23,
+          "ilustracja": "8"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        }
+      ],
+      "status": "oficjalne"
+    }
+  ]
+}

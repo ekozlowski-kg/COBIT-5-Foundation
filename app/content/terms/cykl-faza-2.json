@@ -1,0 +1,104 @@
+{
+  "id": "cykl-faza-2",
+  "en": "Design (enabler life-cycle phase 2)",
+  "wymowa": "dizajn",
+  "wymowaAkcent": "di-ZAJN",
+  "plEgzamin": "Projektowanie",
+  "plPodrecznik": "Projektowanie",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Projektowanie",
+    "podrecznik": "Projektowanie",
+    "kurs": "Projektowanie (Design)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 28, 29, 65."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "cykl-faza-1",
+    "wymiar-cykl-zycia"
+  ],
+  "poLudzku": "Rozrysowujesz szczegóły wybranego pomysłu, zanim zaczniesz go budować albo kupować.",
+  "wyobrazSobie": "Rysunek techniczny szafy, zanim stolarz przytnie pierwszą deskę.",
+  "poCo": "Żeby przed budową lub zakupem wiedzieć dokładnie, jak aktywator ma działać.",
+  "jakDziala": "Bierzesz wybraną koncepcję i rozpisujesz szczegóły. Dla procesu określasz odpowiedzialność, praktyki, działania oraz wejścia i wyniki. Gotowy projekt przechodzi do fazy 3.",
+  "dlaczegoWazne": "Bez projektu nawet kupiony gotowy system nie pasuje do procedur. Egzamin może opisać projektowanie procesu i pytać o fazę.",
+  "poziom1": "Druga faza cyklu życia aktywatora. Wybraną koncepcję zamieniasz w szczegółowy projekt: kto, co, jak, z jakimi wejściami i wynikami. Dla procesu to np. zdefiniowanie odpowiedzialności, praktyk i działań.",
+  "poziom2": "Przykład 5 z FW-PL (s. 30): kierownicy ds. procesów muszą najpierw **zaprojektować i zdefiniować proces**. Korzystają z przewodnika *Procesy umożliwiające*:\n\n- definiują zakresy odpowiedzialności;\n- dzielą proces na praktyki i działania;\n- określają produkty działań (dane wejściowe i wyniki).",
+  "poziom3": "(s. 29): faza *„Projektowanie”*. Przykład 5 (s. 30): *„kierownicy ds. procesów musieliby najpierw zaprojektować i zdefiniować proces”*.",
+  "przyklady": {
+    "zycie": "Wybraliście remont łazienki z prysznicem zamiast wanny. Teraz rysujecie plan: gdzie odpływ, jakie płytki, ile gniazdek. Nic jeszcze nie kujecie. To faza projektowania.",
+    "biuro": "Kierowniczka projektuje arkusz zamówień: jakie kolumny, kto zatwierdza, do kiedy składać zamówienia. Arkusza jeszcze nikt nie używa.",
+    "organizacja": "Sklep wybrał bramkę płatności. Informatyk projektuje, jak będzie wyglądał koszyk, kto zatwierdza zwroty i jakie dane trafią do księgowości. To projektowanie aktywatora.\n\nUrząd wybrał zapisy przez internet. Kierownik projektuje formularz, godziny wizyt i to, kto potwierdza rezerwacje. Nikt jeszcze nie kupił systemu. To faza projektowania.",
+    "psp": "**Procedura na papierze** St. ogn. Kasia Nowik z kpt. Markiem Sikorą projektują nową procedurę alarmowania OSP. Rozpisują kroki, wejście (zgłoszenie z CPR 112), wynik (potwierdzenie z OSP) i to, kto za co odpowiada w RACI. Syrena działa jeszcze po staremu. To faza projektowania aktywatora Proces.",
+    "it": "Projektując proces, korzystasz z modelu opisu procesu z przewodnika *Procesy umożliwiające*: cele, praktyki, działania, wejścia i wyjścia oraz RACI."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cykl-faza-3",
+      "roznica": "Projektowanie kończy się projektem. Budowanie, nabywanie, tworzenie i wdrażanie zamienia projekt w działający aktywator."
+    },
+    {
+      "termin": "opis-procesu",
+      "roznica": "Model opisu procesu (cele, praktyki, wejścia i wyjścia, RACI) to narzędzie używane przy projektowaniu procesu, a nie sama faza."
+    },
+    {
+      "termin": "Faza 3 wdrożenia „Dokąd chcemy dojść?”",
+      "roznica": "To określenie stanu docelowego całego programu wdrożenia. Projektowanie dotyczy jednego aktywatora."
+    }
+  ],
+  "przykladWypowiedzi": "In the design phase, czyli w fazie projektowania, definiujemy praktyki, działania oraz inputs and outputs, czyli dane wejściowe i wyniki procesu.",
+  "egzamin": "Faza 2 = **Projektowanie**. Dla procesu: zdefiniowanie odpowiedzialności, praktyk, działań i produktów działań (Przykład 5, s. 30). Egzaminacyjnej nazwy PL faz cyklu życia aktywatora nie potwierdziliśmy (brak w SP1 i w zestawieniu Altkom). Używamy nazwy z FW-PL (s. 29, il. 13).",
+  "powiazane": [
+    "cykl-zycia-aktywatora",
+    "wymiar-cykl-zycia",
+    "cykl-faza-1",
+    "cykl-faza-3",
+    "opis-procesu"
+  ],
+  "sylabus": [
+    "PR-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Projektowanie"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 30,
+      "cytat": "kierownicy ds. procesów musieliby najpierw zaprojektować i zdefiniować proces"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 28,
+      "ilustracja": "13"
+    }
+  ],
+  "mapa": "cykl-faza-2",
+  "glebokosc": {
+    "prosty": "Krawcowa przyjęła zamówienie na sukienkę. Zanim przetnie materiał, rysuje wykrój i zapisuje wymiary. Rysunek to projekt. Bez niego cięcie materiału byłoby zgadywaniem.",
+    "zaawansowany": "Sikora projektuje proces alarmowania według [[opis-procesu|modelu opisu procesu]]. Wpisuje cel procesu, praktyki, wejścia i wyjścia. Do każdej praktyki dopisuje [[raci|RACI]]: kto wykonuje, kto odpowiada. Tak robią kierownicy ds. procesów w Przykładzie 5 z FW-PL. Dopiero gotowy projekt przechodzi do [[cykl-faza-3|fazy 3]].",
+    "skrajny": "Komenda chce kupić Syrenę 2.0 jako gotowy produkt. Czy wolno pominąć projektowanie, skoro nic się nie buduje? Nie. Projektujesz wtedy, jak gotowy system wpasuje się w procedury, uprawnienia i dane OSP. Nabywanie z fazy 3 nie zastępuje projektu. Pierwsza Syrena zawiodła m.in. dlatego, że kupiono ją bez takiego projektu. **Rozstrzygnięcie:** projektowanie dotyczy też aktywatorów kupowanych gotowych; projektujesz ich miejsce i zasady działania (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Przy zakupie gotowego systemu faza projektowania znika.",
+      "prawda": "Projektujesz, jak system wejdzie do procesów i danych (interpretacja kursu)."
+    },
+    {
+      "mit": "Projektowanie to to samo co faza 3 wdrożenia „Dokąd chcemy dojść?”.",
+      "prawda": "Faza wdrożenia dotyczy całego programu. Projektowanie dotyczy jednego aktywatora."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Traktowanie projektowania jako części planowania albo budowania.",
+    "jakTlumaczyc": "Trzy pytania po kolei: „co wybieramy?” (faza 1), „jak dokładnie to ma wyglądać?” (faza 2), „zróbmy albo kupmy to” (faza 3).",
+    "pytanieKontrolne": "Kierownik procesu dzieli proces na praktyki i działania oraz definiuje wejścia i wyniki. Która to faza cyklu życia aktywatora?",
+    "odpowiedzKontrolna": "**Faza 2, Projektowanie** (Przykład 5, s. 30)."
+  }
+}

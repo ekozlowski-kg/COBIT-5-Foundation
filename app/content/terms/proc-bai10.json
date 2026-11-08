@@ -1,0 +1,103 @@
+{
+  "id": "proc-bai10",
+  "en": "BAI10 Manage Configuration",
+  "wymowa": "biejaj 10 menydż konfigjurejszyn",
+  "wymowaAkcent": "bi-ej-AJ 10 ME-nydż kon-fi-gju-REJ-szyn",
+  "plEgzamin": "BAI10 Zarządzanie konfiguracją",
+  "plPodrecznik": "BAI10 Zarządzanie konfiguracją",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "BAI10 Zarządzanie konfiguracją",
+    "podrecznik": "BAI10 Zarządzanie konfiguracją",
+    "kurs": "BAI10 Zarządzanie konfiguracją (BAI10 Manage Configuration)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „BAI10 Zarządzanie konfiguracją”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Configuration*.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P3",
+  "wymaga": [
+    "bai",
+    "proc-bai06",
+    "uslugi-infrastruktura-aplikacje"
+  ],
+  "poLudzku": "Prowadzisz aktualną mapę: z jakich części składa się system, jak są ustawione i co od czego zależy.",
+  "wyobrazSobie": "Schemat instalacji elektrycznej w domu: który bezpiecznik zasila który pokój. Bez niego każda naprawa to zgadywanie.",
+  "skadNazwa": "Z angielskiego *Manage Configuration*. „Konfiguracja” to zestaw elementów systemu, ich ustawień i powiązań. Repozytorium konfiguracji w ITIL nazywa się CMDB.",
+  "poziom1": "Proces domeny [[bai]], który definiuje i utrzymuje opis kluczowych elementów konfiguracji (sprzęt, oprogramowanie, ustawienia) i powiązań między nimi, potrzebnych do świadczenia usług. Obejmuje zbieranie danych, wersje bazowe, weryfikację i audyt tych informacji oraz aktualizację repozytorium.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** ustala, które elementy trzeba opisywać, zbiera o nich dane, prowadzi repozytorium konfiguracji (w ITIL: CMDB), zapisuje wersje bazowe, aktualizuje dane po każdej zmianie i regularnie sprawdza, czy zapis zgadza się z rzeczywistością.\n\n**Wejścia (intuicja):** zatwierdzone i zamknięte zmiany ([[proc-bai06]]), nowe rozwiązania ([[proc-bai03]], [[proc-bai07]]), dane o aktywach ([[proc-bai09]]).\n\n**Wyjścia (intuicja):** repozytorium konfiguracji, wersje bazowe, raporty rozbieżności.\n\n**Współpracuje z:** [[proc-bai06]] (ocena wpływu zmian), [[proc-dss02]] i [[proc-dss03]] (diagnoza: co od czego zależy), [[proc-bai09]] (aktywa).",
+  "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby wiedzieć, z jakich elementów składa się usługa i co od czego zależy. Wtedy zmiany i naprawy są bezpieczniejsze.",
+  "jakDziala": "Ustalasz model konfiguracji i repozytorium z wersjami bazowymi. Utrzymujesz elementy konfiguracji i ich powiązania. Raportujesz stan i sprawdzasz, czy repozytorium zgadza się z rzeczywistością.",
+  "dlaczegoWazne": "BAI10 mówi, jak elementy są ustawione i połączone. Spis i koszt aktywów to BAI09.",
+  "przyklady": {
+    "zycie": "Masz w szafce schemat instalacji elektrycznej: który bezpiecznik obsługuje kuchnię, a który łazienkę. Gdy elektryk dołoży gniazdko, dopisujesz je na schemacie. Przy awarii od razu wiesz, co wyłączyć.",
+    "biuro": "Sekretarka ma rozpisane, który telefon jest podłączony do której linii i kto ma jaki numer wewnętrzny. Przed przestawieniem biurek sprawdza, co się rozłączy.",
+    "organizacja": "Administrator sklepu ma opis: sklep na serwerze A, baza na B, płatności przez operatora C. Informatyk powiatu w pięć minut wie, które stanowiska mają podatną wersję programu.",
+    "psp": "**Mapa Syreny.** Ola Dudek opisuje w repozytorium, z czego składa się Syrena: serwer pod schodami, wersja oprogramowania, zapasowa bramka SMS, łącze do OSP Zawilce. Zapisuje też, co od czego zależy. Gdy Kwant-Sygnał proponuje aktualizację, kpt. Sikora od razu widzi, które elementy ona dotknie. Utrzymywanie aktualnego opisu elementów i powiązań to [[proc-bai10]].",
+    "it": "Praktyki BAI10 obejmują m.in. model konfiguracji, repozytorium z wersją bazową, raporty stanu i weryfikację integralności. Przed każdą zmianą w BAI06 sprawdzasz zależności w repozytorium."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-bai09",
+      "roznica": "BAI09 prowadzi aktywa jako majątek (koszt, licencja, cykl życia). BAI10 opisuje elementy konfiguracji (ustawienia, wersje, powiązania)."
+    },
+    {
+      "termin": "proc-bai06",
+      "roznica": "BAI06 decyduje, czy zmianę wolno wprowadzić. BAI10 pamięta, jak system wygląda teraz – także po zmianie."
+    },
+    {
+      "termin": "proc-bai08",
+      "roznica": "BAI08 utrzymuje wiedzę: instrukcje, obejścia, wnioski. BAI10 – opis tego, z czego system się składa."
+    }
+  ],
+  "przykladWypowiedzi": "BAI10 Manage Configuration, czyli Zarządzanie konfiguracją, utrzymuje opis elementów konfiguracji i powiązań między nimi.",
+  "egzamin": "Słowa-klucze: element konfiguracji, repozytorium konfiguracji (CMDB), wersja bazowa, powiązania między elementami, weryfikacja zapisu → **BAI10**.",
+  "powiazane": [
+    "bai",
+    "itil",
+    "uslugi-infrastruktura-aplikacje",
+    "proc-bai06",
+    "proc-bai09",
+    "proc-bai08"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "BAI10 Zarządzanie konfiguracją"
+    }
+  ],
+  "mapa": "proc-bai10",
+  "glebokosc": {
+    "prosty": "Masz w aucie książkę serwisową: jaki olej, jakie opony, kiedy wymieniony rozrząd. Mechanik zagląda do niej, zanim cokolwiek ruszy. Wpisuje każdą zmianę, żeby następny wiedział, co jest pod maską.",
+    "zaawansowany": "Dudek prowadzi opis Syreny: serwer, wersja, bramka SMS, łącze do OSP i powiązania między nimi. Przed każdą zmianą ([[proc-bai06]]) Sikora sprawdza w nim, co zmiana dotknie. Po zmianie opis jest aktualizowany. To [[proc-bai10]]. Ten sam serwer jest w ewidencji aktywów z kosztem i gwarancją – to już [[proc-bai09]].",
+    "skrajny": "Audytorka Ewa Lis porównuje repozytorium konfiguracji z rzeczywistością. W zapisie bramka SMS ma starą wersję, a na serwerze działa nowa, wgrana miesiąc temu po zatwierdzonej zmianie. Kto zawiódł? Zmiana przeszła BAI06, ale nie została domknięta aktualizacją dokumentacji i konfiguracji. BAI10 też zawiódł, bo jego weryfikacja nie wykryła rozbieżności. Skutek: przy następnej awarii DSS02 i DSS03 diagnozują na podstawie fałszywej mapy. **Rozstrzygnięcie:** BAI06 decyduje, czy wolno zmienić. BAI10 pamięta, jak jest teraz, i regularnie sprawdza zapis z rzeczywistością. Rozjazd zapisu z rzeczywistością to luka na styku obu procesów (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Repozytorium konfiguracji to spis inwentarzowy.",
+      "prawda": "Spis majątku to BAI09. Konfiguracja opisuje ustawienia, wersje i powiązania elementów potrzebnych do usług."
+    },
+    {
+      "mit": "Wystarczy raz opisać system.",
+      "prawda": "BAI10 aktualizuje opis po każdej zmianie i regularnie weryfikuje go z rzeczywistością."
+    },
+    {
+      "mit": "Konfiguracja to sprawa samych techników, bez znaczenia dla innych procesów.",
+      "prawda": "Z tego opisu korzystają ocena wpływu zmian (BAI06) i diagnoza awarii (DSS02, DSS03)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli BAI10 z BAI09, bo oba „prowadzą spis sprzętu”.",
+    "jakTlumaczyc": "BAI09 to akt własności samochodu i karta gwarancyjna. BAI10 to książka serwisowa: co jest pod maską i jak jest ustawione.",
+    "pytanieKontrolne": "Przed aktualizacją Syreny Sikora chce wiedzieć, czy zmiana wpłynie na łącze do OSP. Z którego procesu bierze tę informację?",
+    "odpowiedzKontrolna": "Z **BAI10** – repozytorium konfiguracji pokazuje powiązania między elementami. Samą ocenę i decyzję o zmianie podejmuje się w BAI06."
+  }
+}

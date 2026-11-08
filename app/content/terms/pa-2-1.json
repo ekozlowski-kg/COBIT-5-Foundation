@@ -1,0 +1,103 @@
+{
+  "id": "pa-2-1",
+  "en": "PA 2.1 Performance management",
+  "wymowa": "piej 2 1 performens menydżment",
+  "wymowaAkcent": "pi-ej 2 1 per-FOR-mens ME-nydż-ment",
+  "plEgzamin": "PA 2.1 Zarządzanie wydajnością",
+  "plPodrecznik": "PA 2.1 Zarządzanie sprawnością",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "PA 2.1 Zarządzanie wydajnością",
+    "podrecznik": "PA 2.1 Zarządzanie sprawnością",
+    "kurs": "PA 2.1 Zarządzanie wydajnością (PA 2.1 Performance management)",
+    "uwaga": "Egzamin PL: „PA 2.1 Zarządzanie wydajnością”; podręcznik PL: „PA 2.1 Zarządzanie sprawnością” – konkurencyjne odpowiedniki. SP1 używa formy „Zarządzanie wydajnością” (jako jednej z opcji w pytaniu o atrybuty). Forma egzaminu PL potwierdzona: Sample Paper 1 PL."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Zarządzanie wydajnością”. Podręcznik: „Zarządzanie sprawnością”. „Wydajność” nie znaczy tu „szybciej i taniej”, tylko zarządzanie wykonaniem procesu: plan, pilnowanie, korekta. Nie myl z „Zarządzaniem wydajnością aktywatora”.",
+  "skadNazwa": "Z angielskiego *Performance management*, czyli dosłownie „zarządzanie wykonaniem”. Polskie słowo „wydajność” kusi, żeby myśleć o tempie pracy.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "atrybuty-procesu",
+    "pa-1-1"
+  ],
+  "poziom1": "Pierwszy atrybut poziomu 2. Sprawdza, czy wykonanie procesu jest zarządzane: są cele wykonania, plan, monitorowanie i korekty, przypisane obowiązki i zapewnione zasoby.",
+  "poLudzku": "Czy ktoś tę robotę planuje, pilnuje i poprawia plan, gdy coś idzie nie tak.",
+  "wyobrazSobie": "Kierownik budowy z harmonogramem: wie, co ma być dziś zrobione, sprawdza to wieczorem i przesuwa ekipy, gdy coś się opóźnia.",
+  "poCo": "Żeby wykonanie procesu ktoś prowadził: wyznaczał cele, planował, pilnował i poprawiał, zamiast liczyć na to, że samo wyjdzie.",
+  "jakDziala": "Asesor sprawdza cele wykonania, plan, monitorowanie i korekty oraz przypisane obowiązki i zasoby. Ocena co najmniej W, razem z PA 2.2 i P na PA 1.1, daje poziom 2.",
+  "dlaczegoWazne": "Nazwa egzaminacyjna „Zarządzanie wydajnością” jest myląca. Egzamin sprawdza, czy umiesz przypisać ten atrybut do poziomu 2.",
+  "poziom2": "| Co sprawdza asesor (uproszczenie według ISO/IEC 15504) | Przykład |\n|---|---|\n| cele wykonania procesu | alarm do wszystkich w 2 minuty |\n| planowanie i monitorowanie | grafik, przegląd tygodniowy |\n| dostosowanie, gdy plan nie wychodzi | przesunięcie ludzi |\n| obowiązki i uprawnienia | kto za co odpowiada |\n| zasoby i informacje | ludzie, czas, narzędzia |\n| współpraca stron | kto komu co przekazuje |\n\nFramework streszcza to trzema słowami: **planowanie, monitorowanie i dostosowanie**.",
+  "poziom3": "(s. 42): na poziomie 2 proces wykonywany *„został wdrożony w sposób zarządzany (zapewniono planowanie, monitorowanie i dostosowanie)”*. Nazwa atrybutu w Il. 19: „Zarządzanie sprawnością”, na egzaminie: „Zarządzanie wydajnością”. Szczegóły atrybutu według ISO/IEC 15504-2 to uproszczenie kursu, spoza korpusu.",
+  "przyklady": {
+    "zycie": "Pielęgnujesz ogród: ustalasz, kiedy podlewać i przycinać, zapisujesz to w kalendarzu i sprawdzasz, czy się udało. Gdy przychodzi upał, podlewasz częściej. Plan, pilnowanie i korekta to PA 2.1.",
+    "biuro": "Kierowniczka biura planuje, kto w którym tygodniu robi zestawienie kosztów, sprawdza w piątek, czy jest gotowe, i przydziela pomoc, gdy ktoś choruje. To PA 2.1.",
+    "organizacja": "Kierowniczka infolinii planuje grafik konsultantów na każdy dzień. Patrzy na długość kolejki i ściąga ludzi z przerwy, gdy dzwoni więcej klientów. Każdy wie, za co odpowiada. Zarządzanie wydajnością działa.\n\nKierownik wydziału podatków planuje, kto obsługuje wnioski w szczycie. Co tydzień sprawdza zaległości i dokłada osobę, gdy rośnie kolejka. To PA 2.1.",
+    "psp": "**Grafik przeglądów.** Naczelnik Marek Sikora ustala, że Ola Dudek przegląda numery w Syrenie w pierwszy poniedziałek miesiąca. Sikora sprawdza to na odprawie, a gdy Dudek jest na urlopie, wyznacza zastępstwo. Audytorka Ewa Lis widzi plan, pilnowanie i korektę, więc PA 2.1 dostaje co najmniej W.",
+    "it": "Proces BAI03 (budowa rozwiązań): kierownik zespołu ma plan prac, co tydzień porównuje postęp z planem i przesuwa ludzi między zadaniami. To dowody dla PA 2.1."
+  },
+  "glebokosc": {
+    "prosty": "Organizujesz przeprowadzkę. Ustalasz termin, kto pakuje kuchnię, a kto książki, i co wieczór sprawdzasz postęp. Gdy jeden znajomy odpada, prosisz innego. To zarządzanie wydajnością: plan, pilnowanie, poprawka.",
+    "zaawansowany": "Proces powiadamiania ma już P na [[pa-1-1|PA 1.1]]. Lis pyta teraz, czy ktoś prowadzi jego wykonanie. Sikora pokazuje cele (alarm w 2 minuty), plan przeglądów numerów i notatki z odpraw, w których korygował plan. Do [[poziom-2|poziomu 2]] potrzebne jest jeszcze [[pa-2-2|zarządzanie produktami pracy]].",
+    "skrajny": "Sikora mówi: „Mamy wskaźnik czasu alarmu, więc to poziom 4”. Lis odpowiada, że patrzenie, czy wykonanie idzie zgodnie z planem, należy już do PA 2.1. Pomiar procesu z PA 4.1 to coś więcej: systematyczne liczby względem celów procesu, na bazie standardu z poziomu 3. Druga pułapka to nazwa: „wydajność” kusi, żeby oceniać tempo. Powolny, ale dobrze zaplanowany i pilnowany proces może mieć wysoką ocenę PA 2.1. Trzecia: „zarządzanie wydajnością aktywatora” z modelu aktywatora to zupełnie inne pojęcie. **Rozstrzygnięcie:** PA 2.1 = zarządzanie wykonaniem procesu (plan, monitorowanie, dostosowanie), a nie szybkość ani pomiar ilościowy z poziomu 4 (interpretacja kursu według ISO/IEC 15504)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Zarządzanie wydajnością to przyspieszanie pracy i cięcie kosztów.",
+      "prawda": "To zarządzanie wykonaniem procesu: cele, plan, monitorowanie, korekty, obowiązki i zasoby."
+    },
+    {
+      "mit": "Monitorowanie procesu to od razu poziom 4.",
+      "prawda": "Monitorowanie wykonania względem planu należy do PA 2.1. Poziom 4 to pomiar i kontrola procesu w zdefiniowanych limitach."
+    },
+    {
+      "mit": "PA 2.1 obejmuje też pilnowanie dokumentów.",
+      "prawda": "Dokumenty, czyli produkty pracy, ocenia osobny atrybut: PA 2.2."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń bierze „wydajność” dosłownie i ocenia szybkość procesu.",
+    "jakTlumaczyc": "Podmień w głowie słowo: „zarządzanie wydajnością” = „zarządzanie wykonaniem”. Pytaj o trzy rzeczy: czy jest plan, czy ktoś pilnuje i czy ktoś poprawia.",
+    "pytanieKontrolne": "Kierownik ma plan i grafik, ale nikt nie sprawdza, czy plan jest wykonywany. Czego brakuje w PA 2.1?",
+    "odpowiedzKontrolna": "Monitorowania i dostosowania. Sam plan to za mało: PA 2.1 wymaga też pilnowania wykonania i korekty, gdy plan nie wychodzi."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "pa-2-2",
+      "roznica": "PA 2.2 dotyczy produktów pracy (dokumentów, plików). PA 2.1 dotyczy wykonania procesu: planu, pilnowania i korekty."
+    },
+    {
+      "termin": "pa-4-1",
+      "roznica": "PA 4.1 to ilościowy pomiar procesu względem jego celów, na bazie standardu. PA 2.1 to pilnowanie wykonania względem planu."
+    },
+    {
+      "termin": "zarzadzanie-wydajnoscia-aktywatora",
+      "roznica": "Wymiar modelu aktywatora (czy osiągamy cele aktywatora, wskaźniki wiodące i opóźnione). Nie jest atrybutem oceny zdolności."
+    }
+  ],
+  "przykladWypowiedzi": "PA 2.1 Performance management, czyli na egzaminie zarządzanie wydajnością (w podręczniku: zarządzanie sprawnością), sprawdza, czy wykonanie procesu jest planowane, monitorowane i dostosowywane.",
+  "egzamin": "Atrybut poziomu 2: **Zarządzanie wydajnością** (podręcznik: Zarządzanie sprawnością). Słowa-klucze: **planowanie, monitorowanie, dostosowanie**.",
+  "powiazane": [
+    "atrybuty-procesu",
+    "poziom-2",
+    "pa-2-2",
+    "pa-1-1"
+  ],
+  "sylabus": [
+    "PC-01-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "zapewniono planowanie, monitorowanie i dostosowanie"
+    },
+    {
+      "doc": "SP1"
+    }
+  ],
+  "mapa": "pa-2-1"
+}

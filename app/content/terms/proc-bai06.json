@@ -1,0 +1,111 @@
+{
+  "id": "proc-bai06",
+  "en": "BAI06 Manage Changes",
+  "wymowa": "biejaj 06 menydż czejndżyz",
+  "wymowaAkcent": "bi-ej-AJ 06 ME-nydż CZEJN-dżyz",
+  "plEgzamin": "BAI06 Zarządzanie zmianami",
+  "plPodrecznik": "BAI06 Zarządzanie zmianami",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "BAI06 Zarządzanie zmianami",
+    "podrecznik": "BAI06 Zarządzanie zmianami",
+    "kurs": "BAI06 Zarządzanie zmianami (BAI06 Manage Changes)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „BAI06 Zarządzanie zmianami”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Manage Changes*. Najgroźniejsza pułapka w BAI: krótka nazwa „Zarządzanie zmianami” kusi przy pytaniach o opór ludzi (to BAI05) albo o odbiór i uruchomienie (to BAI07).",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "bai",
+    "uslugi-infrastruktura-aplikacje"
+  ],
+  "poLudzku": "Każdą poprawkę w systemach najpierw zgłaszasz, oceniasz i zatwierdzasz, a dopiero potem wprowadzasz i zapisujesz.",
+  "wyobrazSobie": "Chcesz przestawić meble we wspólnym mieszkaniu. Najpierw pytasz współlokatorów, ustalacie dzień, a potem zapisujecie, co gdzie stoi.",
+  "skadNazwa": "Z angielskiego *Manage Changes*. Chodzi o kontrolowaną zmianę w aplikacjach, infrastrukturze i związanych z nimi procesach, a nie o „zarządzanie zmianą” w sensie przekonywania ludzi.",
+  "poziom1": "Proces domeny [[bai]], który w kontrolowany sposób przeprowadza wszystkie zmiany w aplikacjach, infrastrukturze i powiązanych procesach biznesowych: ocena wpływu, priorytet, autoryzacja, śledzenie, zamknięcie i dokumentacja. Obejmuje też zmiany standardowe i awaryjne.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** ustala zasady zgłaszania zmian, ocenia wpływ i ryzyko, nadaje priorytet i zatwierdza (np. rada ds. zmian), obsługuje zmiany awaryjne, śledzi status i raportuje, a na końcu zamyka zmianę i aktualizuje dokumentację.\n\n**Wejścia (intuicja):** wnioski o zmianę – z projektów ([[proc-bai03]]), z rozwiązywania problemów ([[proc-dss03]]), z planów pojemności ([[proc-bai04]]).\n\n**Wyjścia (intuicja):** zatwierdzone lub odrzucone zmiany, harmonogram zmian, raport statusu, zaktualizowana dokumentacja.\n\n**Współpracuje z:** [[proc-bai07]] (odbiór i wydanie zmiany), [[proc-bai10]] (aktualny opis konfiguracji), [[proc-dss02]] (incydenty, które wywołują zmiany awaryjne).",
+  "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33); ITIL i ISO/IEC 20000 obejmują *„podzbiór procesów w domenie BAI”* (s. 60). Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby żadna zmiana w systemach nie zaskoczyła użytkowników i nie zepsuła usługi. Każda zmiana jest oceniona, zatwierdzona i zapisana.",
+  "jakDziala": "Oceniasz wpływ zmiany, nadajesz jej priorytet i ją autoryzujesz. Zmiany awaryjne mają osobną, szybką ścieżkę. Śledzisz status, a po wdrożeniu zamykasz i dokumentujesz zmianę.",
+  "dlaczegoWazne": "BAI06 to zmiany techniczne, a BAI05 to zmiana po stronie ludzi. Egzamin lubi zestawiać te dwa procesy (interpretacja kursu).",
+  "przyklady": {
+    "zycie": "Wspólnota mieszkaniowa chce wymienić domofon. Administrator zgłasza pomysł, zarząd sprawdza koszt i wpływ na mieszkańców, wyznacza termin i ogłasza go na klatce. Po wymianie aktualizuje spis kodów. Nikt nie wymienia domofonu „na dziko” w nocy.",
+    "biuro": "Kierowniczka chce zmienić wzór umowy. Najpierw pyta prawnika o skutki, ustala datę od 1 maja i zapisuje zmianę w rejestrze wzorów.",
+    "organizacja": "Programista sklepu zgłasza zmianę liczenia rabatów, kierownik ocenia ryzyko i zmiana wchodzi we wtorek o 6:00. W starostwie komitet zmian przesuwa aktualizację EZD na sobotę, a potem ją zamyka i opisuje.",
+    "psp": "**Wniosek o zmianę numerów.** Ola Dudek chce zmienić w Syrenie sposób wysyłania SMS-ów do OSP. Składa wniosek, a kpt. Sikora z Radą ds. Informatyki ocenia wpływ: co, jeśli zmiana zablokuje alarmy w nocy? Rada zatwierdza zmianę na wtorek rano, przy dyżurze Kasi Nowik. Po wdrożeniu Dudek zamyka wniosek i aktualizuje dokumentację. Ocena, zatwierdzenie i kontrola zmiany to [[proc-bai06]].",
+    "it": "Praktyki BAI06: ocena, priorytet i autoryzacja wniosków o zmianę, zmiany awaryjne, śledzenie statusu oraz zamknięcie i dokumentacja. Opis zmienionych elementów aktualizujesz w BAI10."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-bai05",
+      "roznica": "BAI05 to ludzka strona zmiany: opór, komunikacja, nawyki. BAI06 to kontrola zmiany w systemach i procesach."
+    },
+    {
+      "termin": "proc-bai07",
+      "roznica": "BAI06 decyduje, czy i kiedy zmianę wolno wprowadzić. BAI07 ją odbiera (testy akceptacyjne) i przenosi do eksploatacji."
+    },
+    {
+      "termin": "proc-bai10",
+      "roznica": "BAI06 kontroluje zmianę. BAI10 utrzymuje aktualny opis tego, jak system wygląda po zmianie."
+    },
+    {
+      "termin": "proc-dss02",
+      "roznica": "DSS02 przywraca usługę po incydencie. Jeśli do tego trzeba coś zmienić w systemie, to zmiana awaryjna podlega BAI06."
+    }
+  ],
+  "przykladWypowiedzi": "BAI06 Manage Changes, czyli Zarządzanie zmianami, ocenia, autoryzuje i dokumentuje każdą zmianę w systemach IT.",
+  "egzamin": "Słowa-klucze: wniosek o zmianę, ocena wpływu, autoryzacja, rada ds. zmian, zmiana awaryjna → **BAI06**. Nie myl z BAI05 (ludzie) i BAI07 (odbiór i przejście).",
+  "powiazane": [
+    "bai",
+    "itil",
+    "proc-bai05",
+    "proc-bai07",
+    "proc-bai10",
+    "proc-dss02"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "BAI06 Zarządzanie zmianami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "podzbiór procesów w domenie BAI"
+    }
+  ],
+  "mapa": "proc-bai06",
+  "glebokosc": {
+    "prosty": "W bloku chcesz przestawić ścianę w mieszkaniu. Najpierw pytasz zarządcę, czy to nie ściana nośna. Dostajesz zgodę, robisz remont w ustalonym terminie i zgłaszasz koniec prac. Zmiana jest kontrolowana od pomysłu do odbioru.",
+    "zaawansowany": "Ola Dudek chce przestawić w Syrenie kolejność wysyłki: najpierw OSP, potem JRG. Zgłasza zmianę, a Rada ds. Informatyki ocenia ryzyko i zatwierdza termin. To [[proc-bai06]]. Odbiór zmiany przez dyżurnych i jej uruchomienie to [[proc-bai07]], a wpisanie nowego ustawienia do opisu konfiguracji to [[proc-bai10]]. Jeśli dyżurni będą się opierać nowej kolejności, wkracza [[proc-bai05]].",
+    "skrajny": "O 2:00 dyżurna Kasia Nowik zgłasza, że Syrena nie wysyła SMS-ów. Ola Dudek przywraca usługę, zmieniając ustawienie bramki, bez czekania na Radę ds. Informatyki. Czy to w ogóle BAI06? Samo przywrócenie usługi to obsługa incydentu w DSS02. Ale zmiana ustawienia to zmiana awaryjna, a zmiany awaryjne są częścią BAI06. Wolno ją wprowadzić szybciej, ale trzeba ją zarejestrować, a potem ocenić i zatwierdzić po fakcie. Nowe ustawienie trzeba też wpisać do opisu konfiguracji (BAI10). **Rozstrzygnięcie:** „pilne” nie znaczy „poza kontrolą zmian”. Zmiana awaryjna idzie szybszą ścieżką BAI06, ale nigdy jej nie omija."
+  },
+  "zagmatwania": [
+    {
+      "mit": "„Zarządzanie zmianami” to przekonywanie ludzi do zmiany.",
+      "prawda": "To BAI05. BAI06 to ocena, autoryzacja i kontrola zmian w systemach i procesach."
+    },
+    {
+      "mit": "Zmiana awaryjna jest poza BAI06, bo nie ma czasu na procedury.",
+      "prawda": "Zmiany awaryjne są częścią BAI06: szybsza ścieżka, ale z rejestracją oraz oceną i zatwierdzeniem po fakcie."
+    },
+    {
+      "mit": "BAI06 kończy się w chwili wprowadzenia zmiany.",
+      "prawda": "Zmianę trzeba jeszcze śledzić, zamknąć i udokumentować, a opis konfiguracji zaktualizować (z BAI10)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wiąże każde słowo „zmiana” z BAI06 i nie odróżnia kontroli zmiany (BAI06) od ludzi (BAI05) i odbioru (BAI07).",
+    "jakTlumaczyc": "Pokaż trzy pytania jednej zmiany: „Czy wolno?” (BAI06), „Czy działa i można uruchomić?” (BAI07), „Czy ludzie z tego korzystają?” (BAI05).",
+    "pytanieKontrolne": "Informatyk w nocy, podczas awarii, zmienił ustawienia serwera i usługa wróciła. Rano mówi: „To był incydent, więc nie muszę zgłaszać zmiany”. Ma rację?",
+    "odpowiedzKontrolna": "**Nie.** Przywrócenie usługi to DSS02, ale zmiana ustawień to zmiana awaryjna w **BAI06**. Trzeba ją zarejestrować, ocenić i zatwierdzić po fakcie oraz zaktualizować opis konfiguracji (BAI10)."
+  }
+}

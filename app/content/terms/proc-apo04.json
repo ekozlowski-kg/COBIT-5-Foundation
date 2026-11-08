@@ -1,0 +1,113 @@
+{
+  "id": "proc-apo04",
+  "en": "APO04 Manage Innovation",
+  "wymowa": "ejpio 04 menydż inowejszyn",
+  "wymowaAkcent": "ej-pi-O 04 ME-nydż i-no-WEJ-szyn",
+  "plEgzamin": "APO04 Zarządzanie innowacjami",
+  "plPodrecznik": "APO04 Zarządzanie innowacjami",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO04 Zarządzanie innowacjami",
+    "podrecznik": "APO04 Zarządzanie innowacjami",
+    "kurs": "APO04 Zarządzanie innowacjami (APO04 Manage Innovation)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie APO04 i słowie kluczowym EN *Innovation*. Nie myl z PA 5.1 „Innowacja procesu” z modelu zdolności. To atrybut oceny, a nie proces APO04.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "proc-apo02"
+  ],
+  "poLudzku": "Śledzenie nowinek i sprawdzanie, które naprawdę pomogą organizacji, zanim wyda się na nie pieniądze.",
+  "wyobrazSobie": "Kucharz, który najpierw gotuje nowe danie dla załogi, a dopiero potem wpisuje je do karty.",
+  "poCo": "Żeby organizacja nie przegapiła nowych możliwości i nie wydawała pieniędzy na nowinki, zanim je sprawdzi.",
+  "jakDziala": "Zespół śledzi trendy i nowe technologie. Ocenia, które mogą pomóc organizacji, i sprawdza je w małym pilotażu. Wyniki i rekomendacje przekazuje do strategii i portfela.",
+  "dlaczegoWazne": "APO04 zasila strategię i portfel pomysłami. Na egzaminie myli się z atrybutem PA 5.1 „Innowacja procesu”.",
+  "skadNazwa": "EN *Manage Innovation*. Proste tłumaczenie. Słowo „innowacja” pojawia się też w modelu zdolności (PA 5.1 Innowacja procesu), ale w innym znaczeniu.",
+  "poziom1": "Proces Zarządzania o nowościach. Śledzi trendy w technologii, szuka szans na innowacje i ocenia je, np. w pilotażu. Najlepsze podsuwa do strategii i portfela.",
+  "poziom2": "**Czym się zajmuje:** to „radar nowości”: obserwuje technologie i pomysły, ocenia ich przydatność i sprawdza je na małą skalę.\n\n**Wejścia (intuicja):** cele organizacji, problemy użytkowników, oferty dostawców, trendy rynkowe.\n\n**Wyjścia (intuicja):** ocenione pomysły, wyniki pilotaży (*proof of concept*), rekomendacje.\n\n**Współpraca:** rekomendacje zasilają [[proc-apo02]] (strategia) i [[proc-apo05]] (portfel). Pełne wdrożenie idzie przez domenę [[bai|BAI]].",
+  "poziom3": "Il. 16 (s. 33): „APO04 Zarządzanie innowacjami”. Załącznik E (s. 58) wymienia w domenie APO *„planowania organizacyjnego, planowania innowacji, zarządzania portfelem projektów”*. Il. 39 (s. 88) podaje „Innowacje” jako kategorię umiejętności APO. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Słyszysz o pompach ciepła. Zanim wymienisz piec, pytasz sąsiada, który ją ma, i liczysz rachunki. Dopiero potem decydujesz. Rozpoznanie i sprawdzenie nowinki przed zakupem to APO04.",
+    "biuro": "Sekretarka testuje przez tydzień program do umawiania spotkań online z trzema klientami. Potem pisze kierownikowi, co działa, a co nie. Kierownik zdecyduje, czy kupić licencję.",
+    "organizacja": "Sklep internetowy testuje automatyczny czat na jednej kategorii produktów. Po miesiącu zespół ocenia, czy klienci są zadowoleni. Wynik trafia do decyzji o inwestycji. Test i ocena nowości to APO04. Urząd gminy sprawdza na jednym okienku elektroniczną kolejkę z SMS-em. Po kwartale informatyk opisuje wyniki i rekomenduje wdrożenie albo rezygnację. To APO04.",
+    "psp": "**Aplikacja z potwierdzeniem.** Informatyczka Ola Dudek czyta o aplikacji, w której strażak potwierdza odbiór alarmu jednym kliknięciem. Proponuje próbę w OSP Zawilce u naczelnika Pietrzaka. Po miesiącu opisuje wyniki naczelnikowi Sikorze. O pełnym wdrożeniu zdecyduje portfel. Rozpoznanie i pilotaż to [[proc-apo04|APO04]].",
+    "it": "Zespół IT robi *proof of concept* nowej technologii i pisze rekomendację. To APO04. Wybór inwestycji należy do [[proc-apo05]], a ewentualne wdrożenie do BAI."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "atrybuty-procesu",
+      "roznica": "PA 5.1 „Innowacja procesu” to atrybut w ocenie zdolności procesu. APO04 to proces z modelu referencyjnego."
+    },
+    {
+      "termin": "proc-apo05",
+      "roznica": "APO05 decyduje, w które inwestycje idą pieniądze. APO04 rozpoznaje i sprawdza pomysły."
+    },
+    {
+      "termin": "proc-bai03",
+      "roznica": "BAI03 identyfikuje i buduje albo pozyskuje rozwiązanie po decyzji. Pilotaż nowinki przed decyzją to jeszcze APO04."
+    }
+  ],
+  "przykladWypowiedzi": "APO04 *Manage Innovation*, czyli „Zarządzanie innowacjami”, rozpoznaje i sprawdza nowości w pilotażu (*proof of concept*); decyzja o inwestycji zapada w APO05 *Manage Portfolio*.",
+  "egzamin": "Słowa-klucze: **trendy technologiczne, szanse na innowacje, pilotaż, *proof of concept*, rekomendacje** → APO04. „Innowacje” to kategoria umiejętności domeny APO (il. 39).",
+  "powiazane": [
+    "apo",
+    "proc-apo02",
+    "proc-apo05",
+    "atrybuty-procesu",
+    "kategorie-umiejetnosci"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO04 Zarządzanie innowacjami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 58,
+      "cytat": "planowania organizacyjnego, planowania innowacji, zarządzania portfelem projektów"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39",
+      "cytat": "Innowacje"
+    }
+  ],
+  "mapa": "proc-apo04",
+  "glebokosc": {
+    "prosty": "Widzisz w sklepie nowy rodzaj żarówek. Kupujesz jedną na próbę do łazienki. Po miesiącu wiesz, czy świeci dobrze i czy rachunek spadł. Dopiero wtedy wymieniasz wszystkie.",
+    "zaawansowany": "Dudek testuje aplikację potwierdzeń w OSP Zawilce. To APO04: rozpoznanie i pilotaż. Naczelnik Sikora wpisuje wynik do strategii IT ([[proc-apo02]]). Potem w portfelu ([[proc-apo05]]) decyduje, czy aplikacja wygra z innymi inwestycjami. Pełne wdrożenie poprowadzi projekt w domenie BAI.",
+    "skrajny": "Audytorka Lis ocenia proces powiadamiania i pisze: „Brak atrybutu innowacji procesu”. Sikora odpowiada: „Mamy APO04, testujemy aplikację”. To dwie różne rzeczy. PA 5.1 dotyczy tego, czy dany proces jest stale ulepszany na podstawie danych. APO04 dotyczy szukania nowych możliwości dla całej organizacji. Druga granica: pilotaż kończy APO04, a decyzja o inwestycji należy do APO05. **Rozstrzygnięcie:** szukanie i sprawdzanie nowości → APO04; wybór inwestycji → APO05; ulepszanie konkretnego procesu w ocenie zdolności → PA 5.1. (interpretacja kursu: granica pilotaż–portfel)"
+  },
+  "zagmatwania": [
+    {
+      "mit": "APO04 obejmuje każdą zmianę w IT.",
+      "prawda": "Zmiany wprowadza BAI06. APO04 rozpoznaje i ocenia nowe możliwości."
+    },
+    {
+      "mit": "Innowacja w APO04 to to samo co PA 5.1.",
+      "prawda": "PA 5.1 to atrybut oceny zdolności procesu. APO04 to proces szukania nowości dla organizacji."
+    },
+    {
+      "mit": "Udany pilotaż oznacza wdrożenie.",
+      "prawda": "Wynik pilotażu to rekomendacja. Decyzja o inwestycji zapada w portfelu (APO05)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli APO04 z PA 5.1 albo zakłada, że pilotaż to już wdrożenie.",
+    "jakTlumaczyc": "APO04 to dział „próbnych zakupów”: kupujemy jedną sztukę, sprawdzamy, piszemy opinię. O zakupie hurtowym decyduje kto inny.",
+    "pytanieKontrolne": "Zespół IT testuje nową technologię na małej grupie użytkowników i opisuje wyniki. Który to proces?",
+    "odpowiedzKontrolna": "APO04, czyli rozpoznanie i ocena innowacji. Decyzja o inwestycji to już APO05."
+  }
+}

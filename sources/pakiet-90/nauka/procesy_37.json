@@ -1,0 +1,483 @@
+[
+  {
+    "id": "EDM01",
+    "domain": "EDM",
+    "name_en": "Ensure Governance Framework Setting and Maintenance",
+    "name_pl": "Ustanowienie i utrzymywanie ram nadzoru",
+    "scope_pl": "Struktury decyzyjne, odpowiedzialności i zasady funkcjonowania nadzoru.",
+    "example_pl": "Ustanowienie komitetu nadzorczego i granic delegowania decyzji.",
+    "level": "governance",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "EDM02",
+    "domain": "EDM",
+    "name_en": "Ensure Benefits Delivery",
+    "name_pl": "Zapewnienie realizacji korzyści",
+    "scope_pl": "Nadzór nad wartością wynikającą z inwestycji, usług i aktywów związanych z IT.",
+    "example_pl": "Ocena, czy inwestycje rzeczywiście przynoszą zakładane korzyści.",
+    "level": "governance",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "EDM03",
+    "domain": "EDM",
+    "name_en": "Ensure Risk Optimisation",
+    "name_pl": "Zapewnienie optymalizacji ryzyka",
+    "scope_pl": "Nadzorcza ocena ryzyka, wyznaczanie kierunku i monitorowanie zgodności z apetytem na ryzyko.",
+    "example_pl": "Określenie oczekiwań co do akceptowanego ryzyka IT.",
+    "level": "governance",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "EDM04",
+    "domain": "EDM",
+    "name_en": "Ensure Resource Optimisation",
+    "name_pl": "Zapewnienie optymalizacji zasobów",
+    "scope_pl": "Nadzór nad wystarczalnością i właściwym wykorzystaniem ludzi, informacji i technologii.",
+    "example_pl": "Wyznaczenie kierunku poprawy wykorzystania zasobów w całej organizacji.",
+    "level": "governance",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "EDM05",
+    "domain": "EDM",
+    "name_en": "Ensure Stakeholder Transparency",
+    "name_pl": "Zapewnienie przejrzystości wobec interesariuszy",
+    "scope_pl": "Nadzór nad wiarygodnością, kompletnością i terminowością komunikacji z interesariuszami.",
+    "example_pl": "Ustalenie zasad przekazywania informacji o wynikach i ryzyku.",
+    "level": "governance",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO01",
+    "domain": "APO",
+    "name_en": "Manage the IT Management Framework",
+    "name_pl": "Zarządzanie ramami zarządzania IT",
+    "scope_pl": "Organizacja systemu zarządzania IT, procesów, zasad, ról i odpowiedzialności.",
+    "example_pl": "Wyznaczenie właścicieli procesów zarządczych i reguł koordynacji.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO02",
+    "domain": "APO",
+    "name_en": "Manage Strategy",
+    "name_pl": "Zarządzanie strategią",
+    "scope_pl": "Przełożenie kierunku organizacji na strategię IT oraz plan dojścia do stanu docelowego.",
+    "example_pl": "Przygotowanie strategii rozwoju usług cyfrowych.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO03",
+    "domain": "APO",
+    "name_en": "Manage Enterprise Architecture",
+    "name_pl": "Zarządzanie architekturą przedsiębiorstwa",
+    "scope_pl": "Spójny opis i rozwój architektury biznesu, informacji, aplikacji i technologii.",
+    "example_pl": "Uzgodnienie docelowej architektury i zasad integracji systemów.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO04",
+    "domain": "APO",
+    "name_en": "Manage Innovation",
+    "name_pl": "Zarządzanie innowacjami",
+    "scope_pl": "Rozpoznawanie, ocenianie i wykorzystywanie możliwości innowacji.",
+    "example_pl": "Ocena pilotażu nowej technologii pod kątem potrzeb organizacji.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO05",
+    "domain": "APO",
+    "name_en": "Manage Portfolio",
+    "name_pl": "Zarządzanie portfelem",
+    "scope_pl": "Dobór, równoważenie i monitorowanie portfela inwestycji, programów i usług.",
+    "example_pl": "Ustalenie priorytetów inwestycji przy ograniczonym budżecie.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO06",
+    "domain": "APO",
+    "name_en": "Manage Budget and Costs",
+    "name_pl": "Zarządzanie budżetem i kosztami",
+    "scope_pl": "Planowanie, alokacja i kontrola kosztów i budżetów IT.",
+    "example_pl": "Przygotowanie budżetu IT i wyjaśnienie odchyleń kosztowych.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO07",
+    "domain": "APO",
+    "name_en": "Manage Human Resources",
+    "name_pl": "Zarządzanie zasobami ludzkimi",
+    "scope_pl": "Zapewnienie personelu, kompetencji, rozwoju i ciągłości obsady kluczowych ról.",
+    "example_pl": "Plan szkoleń, sukcesji i rekrutacji specjalistów.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO08",
+    "domain": "APO",
+    "name_en": "Manage Relationships",
+    "name_pl": "Zarządzanie relacjami",
+    "scope_pl": "Budowanie relacji między IT i biznesem oraz wspólnego rozumienia potrzeb.",
+    "example_pl": "Regularne uzgadnianie potrzeb i oczekiwań z jednostkami biznesowymi.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO09",
+    "domain": "APO",
+    "name_en": "Manage Service Agreements",
+    "name_pl": "Zarządzanie uzgodnieniami usługowymi",
+    "scope_pl": "Określanie, uzgadnianie i przegląd zakresu oraz poziomów usług.",
+    "example_pl": "Uzgodnienie poziomu dostępności usługi z jej odbiorcą.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO10",
+    "domain": "APO",
+    "name_en": "Manage Suppliers",
+    "name_pl": "Zarządzanie dostawcami",
+    "scope_pl": "Dobór, nadzór zarządczy i ocena dostawców oraz ich umów i ryzyka.",
+    "example_pl": "Ocena jakości świadczeń dostawcy i przegląd umowy.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO11",
+    "domain": "APO",
+    "name_en": "Manage Quality",
+    "name_pl": "Zarządzanie jakością",
+    "scope_pl": "Ustanowienie, utrzymanie i doskonalenie systemu zarządzania jakością.",
+    "example_pl": "Określenie standardów jakości i działań doskonalących.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO12",
+    "domain": "APO",
+    "name_en": "Manage Risk",
+    "name_pl": "Zarządzanie ryzykiem",
+    "scope_pl": "Gromadzenie danych o ryzyku, analiza, utrzymywanie profilu ryzyka i zarządzanie reakcjami.",
+    "example_pl": "Analiza scenariuszy ryzyka oraz plan ograniczenia ryzyka.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "APO13",
+    "domain": "APO",
+    "name_en": "Manage Security",
+    "name_pl": "Zarządzanie bezpieczeństwem",
+    "scope_pl": "Ustanowienie, utrzymanie i doskonalenie zarządzania bezpieczeństwem informacji.",
+    "example_pl": "Przygotowanie i przegląd planu postępowania z ryzykiem bezpieczeństwa.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "BAI01",
+    "domain": "BAI",
+    "name_en": "Manage Programmes and Projects",
+    "name_pl": "Zarządzanie programami i projektami",
+    "scope_pl": "Organizacja i prowadzenie programów i projektów w celu realizacji uzgodnionych rezultatów.",
+    "example_pl": "Koordynacja projektu wdrożenia nowego systemu.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "BAI02",
+    "domain": "BAI",
+    "name_en": "Manage Requirements Definition",
+    "name_pl": "Zarządzanie definiowaniem wymagań",
+    "scope_pl": "Identyfikowanie i uzgadnianie wymagań oraz ocena wariantów rozwiązania.",
+    "example_pl": "Uzgodnienie wymagań użytkowników przed wyborem rozwiązania.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "BAI03",
+    "domain": "BAI",
+    "name_en": "Manage Solutions Identification and Build",
+    "name_pl": "Zarządzanie identyfikacją i budową rozwiązań",
+    "scope_pl": "Identyfikacja, opracowanie, pozyskanie i integracja rozwiązań spełniających wymagania.",
+    "example_pl": "Budowa aplikacji i integracja jej z istniejącymi systemami.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "BAI04",
+    "domain": "BAI",
+    "name_en": "Manage Availability and Capacity",
+    "name_pl": "Zarządzanie dostępnością i pojemnością",
+    "scope_pl": "Ocena potrzeb i planowanie dostępności oraz zdolności usług do obsługi obciążeń.",
+    "example_pl": "Prognozowanie zapotrzebowania na moc obliczeniową.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "BAI05",
+    "domain": "BAI",
+    "name_en": "Manage Organisational Change Enablement",
+    "name_pl": "Zarządzanie umożliwianiem zmiany organizacyjnej",
+    "scope_pl": "Przygotowanie ludzi i organizacji do przyjęcia nowych sposobów działania.",
+    "example_pl": "Komunikacja i wsparcie użytkowników przy zmianie sposobu pracy.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "BAI06",
+    "domain": "BAI",
+    "name_en": "Manage Changes",
+    "name_pl": "Zarządzanie zmianami",
+    "scope_pl": "Ocena, autoryzacja, priorytetyzacja, śledzenie i kontrolowanie zmian, także awaryjnych.",
+    "example_pl": "Ocena wpływu i zatwierdzenie planowanej zmiany systemu.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "BAI07",
+    "domain": "BAI",
+    "name_en": "Manage Change Acceptance and Transitioning",
+    "name_pl": "Zarządzanie akceptacją zmian i przekazaniem do eksploatacji",
+    "scope_pl": "Przygotowanie wdrożenia, testy akceptacyjne, migracja i kontrolowane przejście do użytkowania.",
+    "example_pl": "Testy z użytkownikami i przekazanie aplikacji do produkcji.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "BAI08",
+    "domain": "BAI",
+    "name_en": "Manage Knowledge",
+    "name_pl": "Zarządzanie wiedzą",
+    "scope_pl": "Zapewnienie użytecznej i dostępnej wiedzy potrzebnej do wykonywania zadań.",
+    "example_pl": "Aktualizacja bazy wiedzy zespołu wsparcia.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "BAI09",
+    "domain": "BAI",
+    "name_en": "Manage Assets",
+    "name_pl": "Zarządzanie aktywami",
+    "scope_pl": "Zarządzanie aktywami IT w ich cyklu życia, wartością, kosztami i wykorzystaniem.",
+    "example_pl": "Ewidencja, utrzymanie i wycofywanie sprzętu oraz zarządzanie licencjami.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "BAI10",
+    "domain": "BAI",
+    "name_en": "Manage Configuration",
+    "name_pl": "Zarządzanie konfiguracją",
+    "scope_pl": "Wiarygodne informacje o elementach konfiguracji, ich atrybutach i relacjach.",
+    "example_pl": "Aktualizacja zależności między serwerem, aplikacją i usługą.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "DSS01",
+    "domain": "DSS",
+    "name_en": "Manage Operations",
+    "name_pl": "Zarządzanie operacjami",
+    "scope_pl": "Wykonywanie i koordynacja codziennych czynności operacyjnych IT.",
+    "example_pl": "Realizacja zadań wsadowych i bieżące monitorowanie infrastruktury.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "DSS02",
+    "domain": "DSS",
+    "name_en": "Manage Service Requests and Incidents",
+    "name_pl": "Zarządzanie zgłoszeniami usługowymi i incydentami",
+    "scope_pl": "Obsługa żądań i incydentów oraz szybkie przywracanie usług.",
+    "example_pl": "Rejestracja zgłoszenia i przywrócenie dostępu do aplikacji.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "DSS03",
+    "domain": "DSS",
+    "name_en": "Manage Problems",
+    "name_pl": "Zarządzanie problemami",
+    "scope_pl": "Identyfikacja przyczyn problemów, znanych błędów i ograniczanie ponownych incydentów.",
+    "example_pl": "Analiza przyczyny powracających awarii i trwałe jej usunięcie.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "DSS04",
+    "domain": "DSS",
+    "name_en": "Manage Continuity",
+    "name_pl": "Zarządzanie ciągłością",
+    "scope_pl": "Przygotowanie, utrzymanie i ćwiczenie zdolności kontynuowania lub odtwarzania działania.",
+    "example_pl": "Ćwiczenie planu odtworzenia usług po poważnej awarii.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "DSS05",
+    "domain": "DSS",
+    "name_en": "Manage Security Services",
+    "name_pl": "Zarządzanie usługami bezpieczeństwa",
+    "scope_pl": "Operacyjne zabezpieczanie systemów, sieci, dostępu i informacji.",
+    "example_pl": "Bieżąca ochrona stacji roboczych i zarządzanie dostępem użytkowników.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "DSS06",
+    "domain": "DSS",
+    "name_en": "Manage Business Process Controls",
+    "name_pl": "Zarządzanie kontrolami procesów biznesowych",
+    "scope_pl": "Mechanizmy kontrolne przetwarzania informacji w procesach biznesowych.",
+    "example_pl": "Kontrola kompletności i poprawności danych wejściowych transakcji.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "MEA01",
+    "domain": "MEA",
+    "name_en": "Monitor, Evaluate and Assess Performance and Conformance",
+    "name_pl": "Monitorowanie i ocena wyników oraz zgodności",
+    "scope_pl": "Pomiar i ocena osiąganych wyników względem ustalonych celów i wymagań.",
+    "example_pl": "Raportowanie odchyleń wskaźników i monitorowanie działań naprawczych.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "MEA02",
+    "domain": "MEA",
+    "name_en": "Monitor, Evaluate and Assess the System of Internal Control",
+    "name_pl": "Monitorowanie i ocena systemu kontroli wewnętrznej",
+    "scope_pl": "Ocena adekwatności i skuteczności kontroli wewnętrznej oraz rozpoznawanie słabości.",
+    "example_pl": "Sprawdzenie, czy zaprojektowane kontrole rzeczywiście działają.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  },
+  {
+    "id": "MEA03",
+    "domain": "MEA",
+    "name_en": "Monitor, Evaluate and Assess Compliance With External Requirements",
+    "name_pl": "Monitorowanie i ocena zgodności z wymaganiami zewnętrznymi",
+    "scope_pl": "Identyfikacja wymagań zewnętrznych oraz monitorowanie i ocena ich spełniania.",
+    "example_pl": "Ocena zgodności z wymaganiami prawnymi, regulacyjnymi i umownymi.",
+    "level": "management",
+    "source_refs": [
+      "S01",
+      "S02"
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "id": "it-hardware",
+  "en": "Hardware",
+  "wymowa": "hardłer",
+  "wymowaAkcent": "HARD-łer",
+  "plEgzamin": "Sprzęt komputerowy",
+  "plPodrecznik": "sprzęt",
+  "plInne": [
+    "sprzęt",
+    "hardware (potocznie)"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "sprzęt (FW-PL s. 86)",
+    "kurs": "Sprzęt komputerowy (Hardware)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. W mowie potocznej często zostaje angielskie „hardware”."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P0",
+  "wymaga": [],
+  "poLudzku": "Wszystkie części komputera, które można dotknąć: obudowa, ekran, klawiatura, myszka.",
+  "poziom1": "Fizyczne urządzenia i ich części: komputer, telefon, drukarka, ekran, klawiatura, kable. Sprzęt sam niczego nie zrobi – potrzebuje programów, które mówią mu, co ma robić.",
+  "poziom2": "Sprzęt to m.in. **procesor** (część, która wykonuje polecenia), **pamięć operacyjna** (szybka, ale zapomina po wyłączeniu), **dysk** (pamięta po wyłączeniu) oraz urządzenia do wprowadzania (klawiatura, myszka) i do pokazywania wyników (ekran, drukarka). W organizacji sprzętem są też serwery i urządzenia sieciowe – poznasz je w lekcjach 0A.3 i 0A.4.",
+  "poziom3": "W COBIT 5 sprzęt należy do infrastruktury technicznej: *„infrastruktura techniczna, w tym sprzęt, oprogramowanie systemowe oraz infrastruktura sieciowa”* (FW-PL s. 86). To część aktywatora Usługi, infrastruktura i aplikacje.",
+  "wyobrazSobie": "Fortepian. Sam stoi i milczy. Muzyka powstaje dopiero, gdy ktoś zagra z nut – nuty to programy.",
+  "poCo": "Żeby było na czym wykonywać pracę: liczyć, zapisywać, wyświetlać i drukować. Bez sprzętu żaden program nie ma gdzie działać.",
+  "jakDziala": "Klawiatura i myszka przekazują Twoje polecenia. Procesor wykonuje je według programu. Wynik pojawia się na ekranie albo wychodzi z drukarki. Dysk przechowuje to, co zapiszesz.",
+  "dlaczegoWazne": "COBIT 5 mówi o infrastrukturze i zasobach IT. Żeby to zrozumieć, trzeba wiedzieć, że sprzęt to tylko jedna część informatyki – obok programów, danych i ludzi.",
+  "przyklady": {
+    "zycie": "Telefon w Twojej dłoni: ekran, przyciski, bateria i aparat to sprzęt. Gdy upuścisz telefon i pęknie ekran, uszkodziłeś sprzęt – zdjęcia w środku mogą być całe.",
+    "biuro": "Na biurku stoi komputer, monitor, klawiatura i drukarka. Gdy drukarka zacina papier, wzywasz kogoś od sprzętu, a nie od programów.",
+    "organizacja": "Urząd miasta kupuje 50 nowych komputerów i 10 drukarek. W budżecie to pozycja „sprzęt komputerowy”, osobna od opłat za programy.",
+    "psp": "Na stanowisku kierowania (SK) dyżurny Paweł Grab ma dwa monitory, klawiaturę, słuchawki z mikrofonem i komputer pod biurkiem. Wszystko to jest sprzętem.",
+    "it": "W COBIT 5 sprzęt należy do infrastruktury technicznej w aktywatorze Usługi, infrastruktura i aplikacje (FW-PL s. 86)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-software",
+      "roznica": "Sprzęt można dotknąć. Oprogramowanie to polecenia zapisane w sprzęcie – nie da się ich dotknąć."
+    },
+    {
+      "termin": "it-infrastruktura",
+      "roznica": "Infrastruktura to szersze pojęcie: sprzęt, sieć i oprogramowanie systemowe razem, cała „podstawa” informatyki organizacji."
+    }
+  ],
+  "przykladWypowiedzi": "Hardware, czyli sprzęt komputerowy, to fizyczne urządzenia, na przykład komputer, ekran i drukarka; bez software, czyli oprogramowania, nic nie zrobią.",
+  "egzamin": "Słowo „hardware” nie jest terminem egzaminu COBIT 5. Przyda się przy aktywatorze Usługi, infrastruktura i aplikacje: sprzęt jest tam częścią infrastruktury technicznej (FW-PL s. 86).",
+  "powiazane": [
+    "it-software",
+    "it-system-operacyjny",
+    "it-infrastruktura"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 86,
+      "cytat": "infrastruktura techniczna, w tym sprzęt, oprogramowanie systemowe oraz infrastruktura sieciowa"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Pralka to sprzęt: bęben, silnik, drzwiczki. Program prania mówi jej, jak długo kręcić i jak mocno grzać wodę. Bez programu pralka stoi. Bez pralki program nie ma czego uruchomić.",
+    "zaawansowany": "Dyżurny Grab zgłasza: „komputer nie działa”. Informatyczka Ola Dudek najpierw pyta: „Czy ekran świeci? Czy słychać wentylator?”. Tak sprawdza, czy zawiódł sprzęt, czy [[it-software|oprogramowanie]]. Naprawia się je inaczej: sprzęt się wymienia, a program poprawia albo instaluje od nowa.",
+    "skrajny": "Czy telefon to sprzęt? Sam telefon – tak. Ale aplikacja pogodowa w nim to już oprogramowanie, a prognoza, którą pokazuje, to dane. Czy pendrive (mała przenośna pamięć) z plikami to sprzęt? Pendrive tak, pliki na nim – nie. Przy awarii warto więc pytać: co dokładnie zawiodło – rzecz, program czy zapisane informacje? **Rozstrzygnięcie:** sprzęt to tylko to, co fizyczne; programy i dane zapisane w sprzęcie są czymś innym, nawet jeśli „siedzą” w tym samym urządzeniu."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Komputer to tylko skrzynka pod biurkiem.",
+      "prawda": "Sprzętem są też ekran, klawiatura, myszka, drukarka, telefon i kable."
+    },
+    {
+      "mit": "Jak komputer nie działa, to zawsze wina sprzętu.",
+      "prawda": "Często zawodzi program, a sprzęt jest sprawny. Najpierw sprawdź, co dokładnie nie działa."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Wrzucanie do jednego worka sprzętu, programów i danych („komputer się zepsuł”).",
+    "jakTlumaczyc": "Pralka i program prania: pralka to sprzęt, program to oprogramowanie, pranie to dane. Potem przenieś to na telefon.",
+    "pytanieKontrolne": "Pękł ekran telefonu, ale zdjęcia się zachowały. Co uległo awarii?",
+    "odpowiedzKontrolna": "Sprzęt (ekran). Zdjęcia to dane – są zapisane w pamięci telefonu i mogą być całe."
+  }
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "EDM01",
+    "label": "EDM01 – Ensure Governance Framework Setting and Maintenance",
+    "explanation": "Struktury decyzyjne, odpowiedzialności i zasady funkcjonowania nadzoru."
+  },
+  {
+    "id": "EDM02",
+    "label": "EDM02 – Ensure Benefits Delivery",
+    "explanation": "Nadzór nad wartością wynikającą z inwestycji, usług i aktywów związanych z IT."
+  },
+  {
+    "id": "EDM03",
+    "label": "EDM03 – Ensure Risk Optimisation",
+    "explanation": "Nadzorcza ocena ryzyka, wyznaczanie kierunku i monitorowanie zgodności z apetytem na ryzyko."
+  },
+  {
+    "id": "EDM04",
+    "label": "EDM04 – Ensure Resource Optimisation",
+    "explanation": "Nadzór nad wystarczalnością i właściwym wykorzystaniem ludzi, informacji i technologii."
+  },
+  {
+    "id": "EDM05",
+    "label": "EDM05 – Ensure Stakeholder Transparency",
+    "explanation": "Nadzór nad wiarygodnością, kompletnością i terminowością komunikacji z interesariuszami."
+  },
+  {
+    "id": "APO01",
+    "label": "APO01 – Manage the IT Management Framework",
+    "explanation": "Organizacja systemu zarządzania IT, procesów, zasad, ról i odpowiedzialności."
+  },
+  {
+    "id": "APO02",
+    "label": "APO02 – Manage Strategy",
+    "explanation": "Przełożenie kierunku organizacji na strategię IT oraz plan dojścia do stanu docelowego."
+  },
+  {
+    "id": "APO03",
+    "label": "APO03 – Manage Enterprise Architecture",
+    "explanation": "Spójny opis i rozwój architektury biznesu, informacji, aplikacji i technologii."
+  },
+  {
+    "id": "APO04",
+    "label": "APO04 – Manage Innovation",
+    "explanation": "Rozpoznawanie, ocenianie i wykorzystywanie możliwości innowacji."
+  },
+  {
+    "id": "APO05",
+    "label": "APO05 – Manage Portfolio",
+    "explanation": "Dobór, równoważenie i monitorowanie portfela inwestycji, programów i usług."
+  },
+  {
+    "id": "APO06",
+    "label": "APO06 – Manage Budget and Costs",
+    "explanation": "Planowanie, alokacja i kontrola kosztów i budżetów IT."
+  },
+  {
+    "id": "APO07",
+    "label": "APO07 – Manage Human Resources",
+    "explanation": "Zapewnienie personelu, kompetencji, rozwoju i ciągłości obsady kluczowych ról."
+  },
+  {
+    "id": "APO08",
+    "label": "APO08 – Manage Relationships",
+    "explanation": "Budowanie relacji między IT i biznesem oraz wspólnego rozumienia potrzeb."
+  },
+  {
+    "id": "APO09",
+    "label": "APO09 – Manage Service Agreements",
+    "explanation": "Określanie, uzgadnianie i przegląd zakresu oraz poziomów usług."
+  },
+  {
+    "id": "APO10",
+    "label": "APO10 – Manage Suppliers",
+    "explanation": "Dobór, nadzór zarządczy i ocena dostawców oraz ich umów i ryzyka."
+  },
+  {
+    "id": "APO11",
+    "label": "APO11 – Manage Quality",
+    "explanation": "Ustanowienie, utrzymanie i doskonalenie systemu zarządzania jakością."
+  },
+  {
+    "id": "APO12",
+    "label": "APO12 – Manage Risk",
+    "explanation": "Gromadzenie danych o ryzyku, analiza, utrzymywanie profilu ryzyka i zarządzanie reakcjami."
+  },
+  {
+    "id": "APO13",
+    "label": "APO13 – Manage Security",
+    "explanation": "Ustanowienie, utrzymanie i doskonalenie zarządzania bezpieczeństwem informacji."
+  },
+  {
+    "id": "BAI01",
+    "label": "BAI01 – Manage Programmes and Projects",
+    "explanation": "Organizacja i prowadzenie programów i projektów w celu realizacji uzgodnionych rezultatów."
+  },
+  {
+    "id": "BAI02",
+    "label": "BAI02 – Manage Requirements Definition",
+    "explanation": "Identyfikowanie i uzgadnianie wymagań oraz ocena wariantów rozwiązania."
+  },
+  {
+    "id": "BAI03",
+    "label": "BAI03 – Manage Solutions Identification and Build",
+    "explanation": "Identyfikacja, opracowanie, pozyskanie i integracja rozwiązań spełniających wymagania."
+  },
+  {
+    "id": "BAI04",
+    "label": "BAI04 – Manage Availability and Capacity",
+    "explanation": "Ocena potrzeb i planowanie dostępności oraz zdolności usług do obsługi obciążeń."
+  },
+  {
+    "id": "BAI05",
+    "label": "BAI05 – Manage Organisational Change Enablement",
+    "explanation": "Przygotowanie ludzi i organizacji do przyjęcia nowych sposobów działania."
+  },
+  {
+    "id": "BAI06",
+    "label": "BAI06 – Manage Changes",
+    "explanation": "Ocena, autoryzacja, priorytetyzacja, śledzenie i kontrolowanie zmian, także awaryjnych."
+  },
+  {
+    "id": "BAI07",
+    "label": "BAI07 – Manage Change Acceptance and Transitioning",
+    "explanation": "Przygotowanie wdrożenia, testy akceptacyjne, migracja i kontrolowane przejście do użytkowania."
+  },
+  {
+    "id": "BAI08",
+    "label": "BAI08 – Manage Knowledge",
+    "explanation": "Zapewnienie użytecznej i dostępnej wiedzy potrzebnej do wykonywania zadań."
+  },
+  {
+    "id": "BAI09",
+    "label": "BAI09 – Manage Assets",
+    "explanation": "Zarządzanie aktywami IT w ich cyklu życia, wartością, kosztami i wykorzystaniem."
+  },
+  {
+    "id": "BAI10",
+    "label": "BAI10 – Manage Configuration",
+    "explanation": "Wiarygodne informacje o elementach konfiguracji, ich atrybutach i relacjach."
+  },
+  {
+    "id": "DSS01",
+    "label": "DSS01 – Manage Operations",
+    "explanation": "Wykonywanie i koordynacja codziennych czynności operacyjnych IT."
+  },
+  {
+    "id": "DSS02",
+    "label": "DSS02 – Manage Service Requests and Incidents",
+    "explanation": "Obsługa żądań i incydentów oraz szybkie przywracanie usług."
+  },
+  {
+    "id": "DSS03",
+    "label": "DSS03 – Manage Problems",
+    "explanation": "Identyfikacja przyczyn problemów, znanych błędów i ograniczanie ponownych incydentów."
+  },
+  {
+    "id": "DSS04",
+    "label": "DSS04 – Manage Continuity",
+    "explanation": "Przygotowanie, utrzymanie i ćwiczenie zdolności kontynuowania lub odtwarzania działania."
+  },
+  {
+    "id": "DSS05",
+    "label": "DSS05 – Manage Security Services",
+    "explanation": "Operacyjne zabezpieczanie systemów, sieci, dostępu i informacji."
+  },
+  {
+    "id": "DSS06",
+    "label": "DSS06 – Manage Business Process Controls",
+    "explanation": "Mechanizmy kontrolne przetwarzania informacji w procesach biznesowych."
+  },
+  {
+    "id": "MEA01",
+    "label": "MEA01 – Monitor, Evaluate and Assess Performance and Conformance",
+    "explanation": "Pomiar i ocena osiąganych wyników względem ustalonych celów i wymagań."
+  },
+  {
+    "id": "MEA02",
+    "label": "MEA02 – Monitor, Evaluate and Assess the System of Internal Control",
+    "explanation": "Ocena adekwatności i skuteczności kontroli wewnętrznej oraz rozpoznawanie słabości."
+  },
+  {
+    "id": "MEA03",
+    "label": "MEA03 – Monitor, Evaluate and Assess Compliance With External Requirements",
+    "explanation": "Identyfikacja wymagań zewnętrznych oraz monitorowanie i ocena ich spełniania."
+  },
+  {
+    "id": "P1",
+    "label": "Meeting Stakeholder Needs",
+    "explanation": "Zasada zaspokajania potrzeb interesariuszy wiąże cele IT z wartością oczekiwaną przez organizację i zainteresowane strony."
+  },
+  {
+    "id": "P2",
+    "label": "Covering the Enterprise End-to-End",
+    "explanation": "Zasada objęcia całego przedsiębiorstwa odnosi się do zakresu nadzoru nad informacją i technologią, także poza działem IT."
+  },
+  {
+    "id": "P3",
+    "label": "Applying a Single Integrated Framework",
+    "explanation": "Zasada jednolitych, zintegrowanych ram pozwala spójnie wykorzystywać COBIT wraz z innymi standardami i dobrymi praktykami."
+  },
+  {
+    "id": "P4",
+    "label": "Enabling a Holistic Approach",
+    "explanation": "Podejście całościowe wymaga współdziałania wszystkich istotnych czynników umożliwiających, a nie tylko procesów lub technologii."
+  },
+  {
+    "id": "P5",
+    "label": "Separating Governance From Management",
+    "explanation": "Nadzór ocenia potrzeby, wyznacza kierunek i monitoruje wyniki; zarządzanie planuje i wykonuje działania zgodnie z tym kierunkiem."
+  },
+  {
+    "id": "E1",
+    "label": "Principles, Policies and Frameworks",
+    "explanation": "Zasady, polityki i ramy przekładają oczekiwane zachowania na praktyczne wskazówki działania."
+  },
+  {
+    "id": "E2",
+    "label": "Processes",
+    "explanation": "Procesy to uporządkowane praktyki i działania wykorzystujące wejścia do uzyskiwania wyjść i realizacji celów."
+  },
+  {
+    "id": "E3",
+    "label": "Organisational Structures",
+    "explanation": "Struktury organizacyjne są kluczowymi jednostkami decyzyjnymi i wiążą się z przypisaniem uprawnień oraz odpowiedzialności."
+  },
+  {
+    "id": "E4",
+    "label": "Culture, Ethics and Behaviour",
+    "explanation": "Kultura, etyka i zachowania wpływają na rzeczywiste postępowanie ludzi, także na przestrzeganie formalnych zasad."
+  },
+  {
+    "id": "E5",
+    "label": "Information",
+    "explanation": "Informacja obejmuje informacje wytwarzane i wykorzystywane w całej organizacji oraz ich jakość i przydatność."
+  },
+  {
+    "id": "E6",
+    "label": "Services, Infrastructure and Applications",
+    "explanation": "Usługi, infrastruktura i aplikacje dostarczają techniczne oraz usługowe możliwości potrzebne do działania organizacji."
+  },
+  {
+    "id": "E7",
+    "label": "People, Skills and Competencies",
+    "explanation": "Ludzie, umiejętności i kompetencje umożliwiają prawidłowe wykonywanie zadań i podejmowanie decyzji."
+  },
+  {
+    "id": "W1",
+    "label": "Stakeholders",
+    "explanation": "Interesariusze to strony wewnętrzne i zewnętrzne zainteresowane czynnikiem umożliwiającym; analizuje się ich role i potrzeby."
+  },
+  {
+    "id": "W2",
+    "label": "Goals",
+    "explanation": "Cele opisują oczekiwane rezultaty czynnika umożliwiającego; pomiar pomaga ocenić stopień ich osiągnięcia."
+  },
+  {
+    "id": "W3",
+    "label": "Life Cycle",
+    "explanation": "Cykl życia dotyczy etapów istnienia czynnika: planowania, projektowania, budowania, użytkowania, oceny i aktualizacji lub wycofania."
+  },
+  {
+    "id": "W4",
+    "label": "Good Practices",
+    "explanation": "Dobre praktyki opisują sprawdzone sposoby działania wspierające realizację celów czynnika umożliwiającego."
+  },
+  {
+    "id": "Q1",
+    "label": "Intrinsic Quality – jakość wewnętrzna",
+    "explanation": "Jakość wewnętrzna informacji obejmuje m.in. dokładność, obiektywność, wiarygodność i reputację źródła. Nie należy mylić jej z dopasowaniem do zadania."
+  },
+  {
+    "id": "Q2",
+    "label": "Contextual Quality – jakość kontekstowa",
+    "explanation": "Jakość kontekstowa i reprezentacyjna informacji dotyczy dopasowania do zastosowania, m.in. przydatności, kompletności, aktualności oraz zrozumiałości."
+  },
+  {
+    "id": "Q3",
+    "label": "Accessibility and Security – dostępność i bezpieczeństwo",
+    "explanation": "Ta kategoria dotyczy zapewnienia dostępu uprawnionym odbiorcom oraz ochrony przed nieuprawnionym dostępem."
+  },
+  {
+    "id": "GOV",
+    "label": "Nadzór (Governance)",
+    "explanation": "Nadzór obejmuje ocenę potrzeb i opcji, wyznaczanie kierunku oraz monitorowanie wyników i zgodności z kierunkiem."
+  },
+  {
+    "id": "MAN",
+    "label": "Management – zarządzanie",
+    "explanation": "Zarządzanie planuje, buduje, eksploatuje i monitoruje działania zgodnie z kierunkiem określonym przez nadzór."
+  },
+  {
+    "id": "EV",
+    "label": "Evaluate",
+    "explanation": "Evaluate oznacza ocenianie potrzeb, warunków, możliwości i wariantów na poziomie nadzoru."
+  },
+  {
+    "id": "DI",
+    "label": "Direct",
+    "explanation": "Direct oznacza wyznaczanie kierunku poprzez priorytety i decyzje, a nie samo analizowanie wariantów."
+  },
+  {
+    "id": "MO",
+    "label": "Monitor",
+    "explanation": "Monitor w governance oznacza nadzorczy przegląd wyników i zgodności z ustalonym kierunkiem."
+  },
+  {
+    "id": "BUILD",
+    "label": "Build",
+    "explanation": "Budowanie lub wdrażanie rozwiązania jest działaniem zarządczym; nie jest elementem EDM."
+  },
+  {
+    "id": "PLAN",
+    "label": "Plan",
+    "explanation": "Planowanie działań wdrożeniowych należy do zarządzania, nie zastępuje nadzorczej oceny wyników."
+  },
+  {
+    "id": "RUN",
+    "label": "Run",
+    "explanation": "Eksploatacja oznacza bieżące prowadzenie usług, nie wyznaczanie nadrzędnego kierunku."
+  },
+  {
+    "id": "V1",
+    "label": "Realizacja korzyści",
+    "explanation": "Realizacja korzyści koncentruje się na osiąganiu oczekiwanych rezultatów i wartości dla interesariuszy."
+  },
+  {
+    "id": "V2",
+    "label": "Optymalizacja ryzyka",
+    "explanation": "Optymalizacja ryzyka oznacza świadome równoważenie ryzyka i korzyści w granicach akceptowanych przez organizację, nie eliminację wszelkiego ryzyka."
+  },
+  {
+    "id": "V3",
+    "label": "Optymalizacja zasobów",
+    "explanation": "Optymalizacja zasobów polega na odpowiednim i efektywnym wykorzystaniu ludzi, informacji, technologii i środków."
+  },
+  {
+    "id": "EDM",
+    "label": "EDM – Evaluate, Direct and Monitor",
+    "explanation": "Domena EDM obejmuje nadzór: ocena, wyznaczanie kierunku i monitorowanie. Jest domeną governance."
+  },
+  {
+    "id": "APO",
+    "label": "APO – Align, Plan and Organise",
+    "explanation": "Domena APO obejmuje dopasowanie, planowanie i organizowanie. Należy do management."
+  },
+  {
+    "id": "BAI",
+    "label": "BAI – Build, Acquire and Implement",
+    "explanation": "Domena BAI obejmuje budowanie, pozyskiwanie i wdrażanie. Należy do management."
+  },
+  {
+    "id": "DSS",
+    "label": "DSS – Deliver, Service and Support",
+    "explanation": "Domena DSS obejmuje dostarczanie usług i wsparcie. Należy do management."
+  },
+  {
+    "id": "MEA",
+    "label": "MEA – Monitor, Evaluate and Assess",
+    "explanation": "Domena MEA obejmuje monitorowanie i ocena wyników, kontroli oraz zgodności. Należy do management."
+  }
+]

@@ -1,0 +1,632 @@
+{
+  "pytania": [
+    {
+      "id": "q-spr-m0-01",
+      "typ": "egzamin",
+      "sprawdzian": "M0",
+      "czesc": "wiedza",
+      "sylabus": [
+        "M0-00-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak słownik COBIT 5 definiuje **ryzyko** (Risk)?",
+      "opcje": [
+        {
+          "tekst": "Każde zdarzenie, które już wystąpiło i spowodowało szkodę albo przestój w działaniu organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "To opis incydentu, czyli czegoś, co już się stało. Ryzyko dotyczy przyszłości: zdarzenia, które **może** wystąpić.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Brak pieniędzy, ludzi lub sprzętu, który uniemożliwia zakończenie projektu w terminie i budżecie.",
+          "poprawna": false,
+          "wyjasnienie": "Braki zasobów mogą być źródłem ryzyka, ale nie są jego definicją. To tylko jeden możliwy przykład.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Połączenie prawdopodobieństwa zdarzenia i jego konsekwencji.",
+          "poprawna": true,
+          "wyjasnienie": "Tak brzmi definicja ze słownika COBIT 5 (za ISO/IEC Guide 73): ryzyko łączy **szansę wystąpienia** zdarzenia ze **skutkami**."
+        },
+        {
+          "tekst": "Każde odstępstwo od planu działu informatyki, które musi zgłosić audyt wewnętrzny organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "Ryzyko nie dotyczy wyłącznie informatyki ani audytu. Definicja jest ogólna: prawdopodobieństwo i konsekwencje.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "ryzyko"
+      ]
+    },
+    {
+      "id": "q-spr-m0-02",
+      "typ": "egzamin",
+      "sprawdzian": "M0",
+      "czesc": "wiedza",
+      "sylabus": [
+        "M0-00-05",
+        "EN-01-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Która definicja **procesu** (Process) jest zgodna z COBIT 5?",
+      "opcje": [
+        {
+          "tekst": "Zbiór praktyk ukierunkowanych politykami i procedurami, który przetwarza dane wejściowe w wyniki.",
+          "poprawna": true,
+          "wyjasnienie": "To definicja ze słownika COBIT 5 i z opisu aktywatora Procesy: praktyki + polityki i procedury + wejścia → wyniki (np. produkty, usługi)."
+        },
+        {
+          "tekst": "Jednorazowe przedsięwzięcie z wyznaczonym początkiem i końcem, budżetem oraz kierownikiem, które kończy się odbiorem.",
+          "poprawna": false,
+          "wyjasnienie": "To opis **projektu** (Project). Proces jest powtarzalny i trwa, projekt jest jednorazowy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Dokument, który przypisuje osobom role: kto wykonuje zadanie, kto za nie odpowiada, kogo pytać i kogo informować.",
+          "poprawna": false,
+          "wyjasnienie": "To opis tabeli RACI. Tabela RACI opisuje role w procesie, ale nie jest samym procesem.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Program komputerowy, który automatyzuje pracę działu informatyki i zastępuje ręczne czynności pracowników.",
+          "poprawna": false,
+          "wyjasnienie": "Proces nie jest programem. Program może wspierać proces, ale proces to sposób pracy, nie oprogramowanie.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proces",
+        "projekt"
+      ]
+    },
+    {
+      "id": "q-spr-m0-03",
+      "typ": "dopasowanie",
+      "sprawdzian": "M0",
+      "czesc": "terminologia",
+      "sylabus": [
+        "M0-00-08",
+        "M0-00-07"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Dopasuj termin angielski (oryginał ISACA) do nazwy, której używa **polski egzamin**.",
+      "pary": [
+        {
+          "lewa": "Stakeholder",
+          "prawa": "Interesariusz"
+        },
+        {
+          "lewa": "Enterprise",
+          "prawa": "Organizacja"
+        },
+        {
+          "lewa": "Framework",
+          "prawa": "Struktura ramowa"
+        },
+        {
+          "lewa": "Governance",
+          "prawa": "Ład"
+        },
+        {
+          "lewa": "Management",
+          "prawa": "Zarządzanie"
+        },
+        {
+          "lewa": "Resource",
+          "prawa": "Zasób"
+        }
+      ],
+      "wyjasnienie": "Podręcznik PL używa innych słów: „przedsiębiorstwo” (Enterprise), „metodyka” (Framework), „nadzór” (Governance). Na egzaminie wybierasz formy z prawej kolumny: Organizacja, Struktura ramowa, Ład.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "interesariusz",
+        "organizacja",
+        "struktura-ramowa",
+        "lad",
+        "zarzadzanie",
+        "zasob"
+      ]
+    },
+    {
+      "id": "q-spr-m0-04",
+      "typ": "popraw-termin",
+      "sprawdzian": "M0",
+      "czesc": "terminologia",
+      "sylabus": [
+        "M0-00-08",
+        "M0-00-06"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Kasia Nowik zanotowała wnioski z narady w języku podręcznika. Wskaż zdania z terminem, którego **nie** użyjesz na egzaminie, i podaj formę egzaminacyjną (z EN).",
+      "twierdzenia": [
+        {
+          "tekst": "Nadzór (Governance) ocenia potrzeby interesariuszy, wyznacza kierunek i monitoruje wyniki.",
+          "poprawne": false,
+          "wyjasnienie": "Treść jest dobra, ale termin podręcznikowy. Na egzaminie Governance to **Ład**.",
+          "blednyTermin": "Nadzór",
+          "poprawka": "Ład (Governance)"
+        },
+        {
+          "tekst": "COBIT 5 to metodyka (Framework) Ładu i Zarządzania informatyką.",
+          "poprawne": false,
+          "wyjasnienie": "„Metodyka” to forma z podręcznika. Egzamin używa formy **Struktura ramowa**.",
+          "blednyTermin": "metodyka",
+          "poprawka": "Struktura ramowa (Framework)"
+        },
+        {
+          "tekst": "Interesariusz (Stakeholder) to każdy, kto ma udział w organizacji albo oczekiwania wobec niej.",
+          "poprawne": true,
+          "wyjasnienie": "Poprawnie. „Interesariusz” to ta sama forma w podręczniku i na egzaminie."
+        },
+        {
+          "tekst": "Cele przedsiębiorstwa (Enterprise goals) wynikają z potrzeb interesariuszy.",
+          "poprawne": false,
+          "wyjasnienie": "Na egzaminie Enterprise to **Organizacja**, więc piszesz „Cele organizacji”.",
+          "blednyTermin": "przedsiębiorstwa",
+          "poprawka": "Cele organizacji (Enterprise goals)"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "lad",
+        "struktura-ramowa",
+        "interesariusz",
+        "organizacja"
+      ]
+    },
+    {
+      "id": "q-spr-m0-05",
+      "typ": "egzamin",
+      "sprawdzian": "M0",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "M0-00-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które z poniższych działań komendy jest **procesem**, a NIE projektem?",
+      "opcje": [
+        {
+          "tekst": "Zakup systemu Syrena od firmy Kwant-Sygnał i uruchomienie go w obu jednostkach do końca roku.",
+          "poprawna": false,
+          "wyjasnienie": "Ma początek, koniec i jednorazowy cel, więc to **projekt**. Po jego zakończeniu Syrena trafi do procesów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Jednorazowe przeniesienie serwerowni z piwnicy na piętro w czasie wakacji, z osobnym budżetem.",
+          "poprawna": false,
+          "wyjasnienie": "Jednorazowe przedsięwzięcie z datą zakończenia to **projekt**.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Budowa nowego budynku strażnicy dla JRG 2 według harmonogramu i umowy z wykonawcą.",
+          "poprawna": false,
+          "wyjasnienie": "Budowa ma termin oddania, więc jest projektem, a nie powtarzalnym procesem.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Comiesięczny test syren według stałej procedury z zapisem wyników.",
+          "poprawna": true,
+          "wyjasnienie": "Działanie powtarzalne, ciągłe, według ustalonych praktyk, z wynikiem (zapisem testu). To cechy **procesu** (Process)."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proces",
+        "projekt"
+      ]
+    },
+    {
+      "id": "q-spr-m0-06",
+      "typ": "egzamin",
+      "sprawdzian": "M0",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Komenda wdrożyła system Syrena. Co jest **korzyścią** (benefit), a NIE tylko rezultatem (output) wdrożenia?",
+      "opcje": [
+        {
+          "tekst": "Zainstalowany i skonfigurowany serwer systemu Syrena wraz z podpisanym protokołem odbioru prac.",
+          "poprawna": false,
+          "wyjasnienie": "To **rezultat**: konkretny produkt pracy. Sam w sobie nie mówi, czy komendzie lub mieszkańcom jest lepiej.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Krótszy czas od zgłoszenia do wyjazdu zastępu.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Korzyść to poprawa dla interesariuszy. W organizacji publicznej korzyści mają często postać lepszych usług publicznych."
+        },
+        {
+          "tekst": "Przeszkolenie wszystkich dwudziestu dyżurnych z obsługi nowego panelu alarmowego.",
+          "poprawna": false,
+          "wyjasnienie": "Szkolenie to rezultat (wykonana praca). Może prowadzić do korzyści, ale nią nie jest.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Instrukcja obsługi Syreny w wersji papierowej i elektronicznej, dostępna na każdym stanowisku.",
+          "poprawna": false,
+          "wyjasnienie": "Dokument to produkt pracy, czyli rezultat. Korzyścią jest dopiero efekt jego użycia.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17,
+          "ilustracja": "3"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "rezultat",
+        "realizacja-korzysci"
+      ]
+    },
+    {
+      "id": "q-spr-m0-07",
+      "typ": "egzamin",
+      "sprawdzian": "M0",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Jak według COBIT 5 **wyznaczniki** (Stakeholder drivers) działają na potrzeby interesariuszy?",
+      "opcje": [
+        {
+          "tekst": "Zmiany strategii, otoczenia biznesowego i regulacyjnego oraz nowe technologie wpływają na potrzeby interesariuszy.",
+          "poprawna": true,
+          "wyjasnienie": "Tak opisuje to krok 1 kaskady: wyznaczniki **wpływają** na potrzeby (Rysunek 4)."
+        },
+        {
+          "tekst": "Wyznaczniki to potrzeby interesariuszy zapisane przez zarząd w strategii organizacji na kolejne lata.",
+          "poprawna": false,
+          "wyjasnienie": "Wyznacznik nie jest potrzebą. To czynnik zewnętrzny albo wewnętrzny, który potrzeby **zmienia**.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wyznaczniki działają dopiero po wdrożeniu procesu, bo mierzą, czy proces osiągnął swój cel i wynik.",
+          "poprawna": false,
+          "wyjasnienie": "To opis wskaźnika (miernika), a nie wyznacznika. Wyznacznik jest na początku kaskady, przed potrzebami.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Potrzeby interesariuszy tworzą wyznaczniki, które potem przekłada się na cele związane z informatyką.",
+          "poprawna": false,
+          "wyjasnienie": "Kierunek jest odwrotny: najpierw wyznaczniki, potem potrzeby, a z potrzeb cele organizacji.",
+          "pulapka": "odwrocone"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 18,
+          "ilustracja": "4"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 91
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "wyznacznik",
+        "potrzeba"
+      ]
+    },
+    {
+      "id": "q-spr-m0-08",
+      "typ": "egzamin",
+      "sprawdzian": "M0",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "M0-00-06",
+        "PR-02-14"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Kto według COBIT 5 w większości organizacji odpowiada za **Ład**, a kto za **Zarządzanie**?",
+      "opcje": [
+        {
+          "tekst": "Za Ład – kadra zarządzająca z dyrektorem generalnym (CEO); za Zarządzanie – zarząd pod przywództwem prezesa.",
+          "poprawna": false,
+          "wyjasnienie": "Role są zamienione. Ład należy do zarządu, a Zarządzanie do kadry kierowniczej z CEO.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Za oba obszary odpowiada dział informatyki, bo COBIT 5 dotyczy wyłącznie technologii informatycznych.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 obejmuje całą organizację (zasada 2). Informatyka nie jest właścicielem Ładu.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Za Ład – zarząd pod przywództwem prezesa; za Zarządzanie – kadra kierownicza z CEO.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Ład (Governance) to zarząd i prezes; Zarządzanie (Management) to kadra kierownicza z dyrektorem generalnym (CEO)."
+        },
+        {
+          "tekst": "Za Ład – audyt wewnętrzny, bo monitoruje; za Zarządzanie – zarząd, bo wyznacza kierunek działań organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "Monitorowanie nie czyni audytu właścicielem Ładu, a wyznaczanie kierunku to zadanie Ładu, nie Zarządzania.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "lad",
+        "zarzadzanie"
+      ]
+    },
+    {
+      "id": "q-spr-m0-09",
+      "typ": "studium",
+      "sprawdzian": "M0",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "M0-00-01"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Czy pani Kaczmarek jest interesariuszem systemu Syrena według COBIT 5?",
+      "scenariusz": "Pani Zofia Kaczmarek mieszka przy ul. Lipowej 7. Nie ma aplikacji Syrena i nie wie, jak działa system. W nocy z 14 na 15 marca alarm do JRG nie dotarł na czas i pożar w jej kamienicy gaszono z opóźnieniem.",
+      "opcje": [
+        {
+          "tekst": "Nie, bo interesariuszem systemu jest tylko osoba, która go obsługuje albo z niego korzysta.",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. Interesariusz to każdy, kto ma udział lub oczekiwania, a nie tylko użytkownik.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Tak, ale interesariuszem wewnętrznym, ponieważ mieszka w mieście, w którym działa komenda.",
+          "poprawna": false,
+          "wyjasnienie": "Mieszkanka nie jest częścią komendy, więc to interesariusz **zewnętrzny** (Rysunek 7).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie, bo nie jest udziałowcem i nie płaci bezpośrednio za zakup ani utrzymanie systemu.",
+          "poprawna": false,
+          "wyjasnienie": "Interesariusz (stakeholder) to nie udziałowiec (shareholder). Nie trzeba płacić, by mieć oczekiwania.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Tak, zewnętrznym – ponosi skutki działania systemu, choć z niego nie korzysta.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Słownik COBIT 5 wymienia opinię publiczną i klientów; mieszkańcy to interesariusze zewnętrzni."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 22,
+          "ilustracja": "7"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "interesariusz"
+      ]
+    },
+    {
+      "id": "q-spr-m0-10",
+      "typ": "studium",
+      "sprawdzian": "M0",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "M0-00-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Jak najtrafniej opisać tę sytuację językiem COBIT 5?",
+      "scenariusz": "Halina Mak, główna księgowa, zauważa, że konfigurację Syreny zna tylko Ola Dudek. Ola planuje w sierpniu trzytygodniowy urlop bez dostępu do telefonu. Nikt inny nie ma instrukcji ani haseł administracyjnych.",
+      "opcje": [
+        {
+          "tekst": "To incydent, ponieważ problem z dostępnością wiedzy już wystąpił i trzeba go natychmiast rozwiązać.",
+          "poprawna": false,
+          "wyjasnienie": "Nic złego jeszcze się nie stało. Mówimy o możliwym zdarzeniu w przyszłości, czyli o ryzyku.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "To ryzyko: możliwy brak jedynej osoby ze skutkiem dla alarmowania; jej wiedza to zasób.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Ryzyko = prawdopodobieństwo i konsekwencje. Zasób to wszystko, co pomaga osiągać cele, także ludzie i ich wiedza."
+        },
+        {
+          "tekst": "To sprawa kadrowa, bo dotyczy urlopu, więc nie ma związku z informatyką ani z COBIT 5.",
+          "poprawna": false,
+          "wyjasnienie": "Zdanie o urlopie jest prawdziwe, ale nie na temat. COBIT 5 traktuje ludzi i umiejętności jako aktywator i zasób.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "To brak zasobu finansowego, bo komenda nie zapłaciła za szkolenie drugiego administratora.",
+          "poprawna": false,
+          "wyjasnienie": "Scenariusz nic nie mówi o pieniądzach. Problemem jest zależność od jednej osoby, czyli ryzyko.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "ryzyko",
+        "zasob"
+      ]
+    },
+    {
+      "id": "q-spr-m0-11",
+      "typ": "wypowiedz",
+      "sprawdzian": "M0",
+      "czesc": "synteza",
+      "sylabus": [
+        "M0-00-07",
+        "M0-00-06"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Nowy dyżurny pyta: „Co to jest ten COBIT 5 i czym różni się od ITIL albo ISO/IEC 27001?”. Odpowiedz w 4–6 zdaniach jak mentor. Użyj terminów EN: **Framework**, **Governance**, **Management**, **Enterprise**, **ITIL**.",
+      "wymagane": [
+        "Framework",
+        "Governance",
+        "Management",
+        "Enterprise",
+        "ITIL"
+      ],
+      "wzorzec": "COBIT 5 to **struktura ramowa** (*Framework*) ISACA dla **Ładu** (*Governance*) i **Zarządzania** (*Management*) informatyką w całej **organizacji** (*Enterprise*), nie tylko w dziale IT. Ład ocenia potrzeby, wyznacza kierunek i monitoruje; Zarządzanie planuje, tworzy, wykonuje i monitoruje działania. COBIT 5 nie zastępuje innych standardów, tylko je łączy jako nadrzędna struktura. **ITIL** szczegółowo opisuje zarządzanie usługami IT, a **ISO/IEC 27001** to norma bezpieczeństwa informacji z certyfikacją. COBIT 5 mówi więc „co i po co”, a ITIL i ISO/IEC 27001 podpowiadają „jak” w swoich obszarach (podręcznik, s. 13–15).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 15
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "cobit-5",
+        "struktura-ramowa",
+        "itil",
+        "iso-27001"
+      ]
+    },
+    {
+      "id": "q-spr-m0-12",
+      "typ": "studium",
+      "sprawdzian": "M0",
+      "czesc": "synteza",
+      "sylabus": [
+        "M0-00-02",
+        "M0-00-06",
+        "M0-00-03"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które zdanie najtrafniej łączy pojęcia z modułu 0?",
+      "scenariusz": "Komenda wojewódzka zapowiada nowe przepisy: alarm ma docierać do jednostek w ciągu 60 sekund. Komendantka Anna Wrzos zbiera naradę i mówi: „To dla nas priorytet na ten rok”. Kpt. Marek Sikora przygotowuje plan zmian w Syrenie i co miesiąc raportuje postępy.",
+      "opcje": [
+        {
+          "tekst": "Nowe przepisy to potrzeba interesariusza, komendantka zarządza, a Sikora sprawuje Ład nad informatyką.",
+          "poprawna": false,
+          "wyjasnienie": "Przepisy to wyznacznik, a role są zamienione: priorytety ustala Ład, a plan i raporty to Zarządzanie.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Nowe przepisy to ryzyko, które już się zmaterializowało, więc komenda musi uruchomić projekt naprawczy.",
+          "poprawna": false,
+          "wyjasnienie": "Przepisy nie są zdarzeniem szkodliwym, tylko zmianą otoczenia regulacyjnego, czyli wyznacznikiem.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Przepisy to wyznacznik zmieniający potrzeby; komendantka (Ład) ustala priorytet, Sikora (Zarządzanie) planuje i raportuje.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Wyznacznik → potrzeby; Ład wyznacza kierunek i monitoruje, a Zarządzanie planuje, realizuje i raportuje."
+        },
+        {
+          "tekst": "Najważniejszy jest rezultat: plan Sikory. Gdy plan powstanie, wymaganie przepisów będzie spełnione.",
+          "poprawna": false,
+          "wyjasnienie": "Plan to rezultat (output). Liczy się korzyść: alarm faktycznie docierający w 60 sekund.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "wyznacznik",
+        "lad",
+        "zarzadzanie",
+        "rezultat"
+      ]
+    }
+  ]
+}

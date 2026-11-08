@@ -1,0 +1,110 @@
+{
+  "id": "system-ladu",
+  "en": "Governance approach / Key components of a governance system",
+  "wymowa": "gawernens aprołcz",
+  "wymowaAkcent": "GA-wer-nens a-PROŁCZ",
+  "plEgzamin": "Podejście do Ładu",
+  "plPodrecznik": "Podejście do nadzoru",
+  "plInne": [
+    {
+      "nazwa": "System nadzoru / system Ładu",
+      "zrodlo": "FW-PL s. 23"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Podejście do Ładu",
+    "podrecznik": "Podejście do nadzoru",
+    "kurs": "Podejście do Ładu (Governance approach / Key components of a governance system)",
+    "uwaga": "Egzamin PL: „Podejście do Ładu”; podręcznik PL: „Podejście do nadzoru” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 23, 24. Inne formy w obiegu: System nadzoru / system Ładu (FW-PL s. 23)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Podejście do Ładu”. Podręcznik: „Podejście do nadzoru”. Komponenty: Cel Ładu, aktywatory Ładu, zakres Ładu, role/działania/relacje.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "lad",
+    "aktywator"
+  ],
+  "poLudzku": "Ustalenie, po co decydujemy, czym, w jakim zakresie i kto komu co zleca.",
+  "wyobrazSobie": "Jak statut stowarzyszenia, który mówi, po co ono istnieje, jakimi środkami działa, czego dotyczy jego działalność oraz kto w nim co robi i przed kim się rozlicza.",
+  "poCo": "Żeby Ład nad IT zbudować świadomie i w całości: wiedzieć, po co jest, czym się posługuje, czego dotyczy i kto w nim co robi.",
+  "jakDziala": "Podejście do Ładu (governance approach) z zasady 2 ma cztery kluczowe komponenty (Ilustracja 8). Cel Ładu to tworzenie wartości (value creation), aktywatory Ładu (governance enablers) to zasoby, którymi się działa, np. struktury ramowe, zasady, procesy i struktury organizacyjne, a zakres Ładu (governance scope) mówi, czego Ład dotyczy: całej organizacji, jednostki albo aktywa. Czwarty komponent to role, działania i relacje (roles, activities and relationships), czyli kto sprawuje Ład i jak współpracuje (Ilustracja 9).",
+  "dlaczegoWazne": "Egzamin pyta o cztery komponenty Podejścia do Ładu i podsuwa błędne odpowiedzi, np. proces EDM05, praktyki „Oszacuj, Kieruj i Monitoruj” albo domeny „Planuj, Twórz, Wykonuj i Monitoruj”. To treść zasady 2 („Pokrycie całej organizacji”).",
+  "skadNazwa": "Z angielskiego *governance approach* / *governance system*. Podręcznik: „podejście do nadzoru”, egzamin: „Podejście do Ładu”.",
+  "poziom1": "Model z Zasady 2, który rozkłada system Ładu na cztery części: po co jest (cel Ładu, czyli tworzenie wartości), czym się działa (aktywatory), czego dotyczy (zakres) oraz kto co robi i jak współpracuje (role, działania i relacje).",
+  "poziom2": "Cztery kluczowe komponenty (Ilustracja 8): **(1) Cel Ładu**: tworzenie wartości (korzyści, ryzyko, zasoby); **(2) Aktywatory Ładu**: zasoby organizacyjne, np. struktury ramowe, zasady, struktury, procesy, praktyki, a także zasoby przedsiębiorstwa; **(3) Zakres Ładu**: cała organizacja, jednostka, aktywa materialne lub niematerialne; **(4) Role, działania i relacje**: kto i jak sprawuje Ład (Ilustracja 9).",
+  "poziom3": "(s. 23–24): *„Oprócz celu dotyczącego nadzoru — pozostałe główne elementy podejścia do nadzoru obejmują czynniki umożliwiające, zakres i role, a także działania i relacje.”*",
+  "przyklady": {
+    "zycie": "Rodzice siadają, żeby ogarnąć domowe finanse. Cel: żyć wygodnie, bez długów i bez przesadnego ryzyka; narzędzia: wspólne konto, arkusz wydatków, zasada „większe zakupy razem”; zakres: tylko pieniądze, nie wychowanie dzieci. Role: mama decyduje o oszczędnościach, tata płaci rachunki, a raz w miesiącu oboje sprawdzają wydatki – to cztery elementy podejścia do Ładu.",
+    "biuro": "Dyrektor opisuje, jak w firmie zarządza się biurem: celem jest sprawna obsługa dokumentów bez przepłacania i bez wycieku danych, narzędziami są regulamin biura, instrukcja obiegu pism i system kancelaryjny, a zakresem centrala i dwa oddziały. Na końcu dopisuje, kto decyduje, kto wydaje polecenia, a kto wykonuje i raportuje.",
+    "firma": "Właściciel trzech piekarni porządkuje, jak rządzić informatyką. Cel: kasy i sklep internetowy mają przynosić zysk bez zbędnego ryzyka i kosztów; aktywatory: regulamin, umowa z informatykiem, system kasowy; zakres: wszystkie trzy sklepy. Role: właściciel decyduje, kierowniczka wydaje polecenia, informatyk wykonuje i raportuje.",
+    "admin": "Gmina opisuje, jak sprawuje Ład nad informatyką. Cel: dobre usługi dla mieszkańców przy rozsądnym koszcie i ryzyku; aktywatory: regulamin organizacyjny, procedury, systemy, ludzie; zakres: urząd i podległe szkoły. Role: rada i wójt wyznaczają kierunek, sekretarz i kierownicy instruują, urzędnicy wykonują i raportują.",
+    "psp": "Komendant powiatowy rozpisuje, jak ma działać Ład w komendzie. Cel: skuteczne działania ratownicze przy rozsądnych kosztach i ryzyku; aktywatory: regulaminy, SK, SWD-PSP, ludzie i ich umiejętności; zakres: komenda razem z JRG. Role: komendant wyznacza kierunek, naczelnicy i kierownik SK instruują, dyżurni i informatycy wykonują i raportują.",
+    "it": "Rada nadzorcza w procesie EDM01 (Zapewnienie i utrzymanie ładu korporacyjnego) ustala wszystkie cztery komponenty: cel (wartość z IT), aktywatory (np. polityki, komitet ds. strategii IT, procesy), zakres (cała grupa kapitałowa) oraz role i relacje między radą, zarządem, CIO i zespołami IT."
+  },
+  "glebokosc": {
+    "prosty": "Rodzinna kasa na wakacje. Ustalacie, po co zbieracie (cel), czym to robicie – skarbonka, konto, zasady wpłat (narzędzia) – i czego to dotyczy: tylko wakacji czy wszystkich wydatków (zakres). Na koniec ustalacie, kto o czym decyduje i kto komu zdaje sprawę (role i relacje).",
+    "zaawansowany": "Bryg. Wrzos układa Podejście do Ładu dla komendy. Cel Ładu to [[tworzenie-wartosci|tworzenie wartości]]: szybkie alarmy przy rozsądnym ryzyku i koszcie. Aktywatorami są m.in. polityki, komitet sterujący i procesy. [[zakres-ladu|Zakres]] na pierwszy rok to tylko system Syrena, a nie cała komenda. Kto deleguje, kto wyznacza kierunek i kto raportuje, opisują [[role-dzialania-relacje|role, działania i relacje]].",
+    "skrajny": "W pytaniu o komponenty Podejścia do Ładu kuszą odpowiedzi brzmiące „ładowo”: proces EDM05 „Zapewnienie przejrzystości dotyczącej interesariuszy”, praktyki Oszacuj/Kieruj/Monitoruj albo domeny PBRM. Wszystkie są prawdziwymi elementami COBIT 5, ale z innej kategorii – to procesy, praktyki i domeny, a nie komponenty. Komponenty są cztery: cel Ładu, aktywatory Ładu, zakres Ładu oraz role, działania i relacje. Drugi przypadek graniczny: zakres może obejmować tylko jedną jednostkę albo jedno aktywo, np. system Syrena, i to nadal pełne Podejście do Ładu. **Rozstrzygnięcie:** Podejście do Ładu = cel + aktywatory + zakres + role/działania/relacje; nazwa procesu lub praktyki Ładu to inna kategoria, a wąski zakres jest dozwolony."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Oszacuj, Kieruj, Monitoruj to komponent Podejścia do Ładu.",
+      "prawda": "To praktyki procesów Ładu (EDM). Komponenty to cel, aktywatory, zakres oraz role, działania i relacje."
+    },
+    {
+      "mit": "Ład zawsze obejmuje całą organizację.",
+      "prawda": "Zakres Ładu może dotyczyć całej organizacji, jednostki albo aktywa materialnego lub niematerialnego."
+    },
+    {
+      "mit": "Aktywatory Ładu to coś zupełnie innego niż aktywatory z Zasady 4.",
+      "prawda": "To zasoby organizacyjne Ładu – struktury ramowe, zasady, struktury, procesy, praktyki i zasoby organizacji – w praktyce te same kategorie co 7 aktywatorów (interpretacja kursu)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Wybieranie procesu lub praktyki Ładu (EDM05, Oszacuj/Kieruj/Monitoruj) jako komponentu Podejścia do Ładu.",
+    "jakTlumaczyc": "Cztery pytania dziennikarza: Po co? (cel) Czym? (aktywatory) Czego dotyczy? (zakres) Kto i jak? (role, działania, relacje). Każdą inną odpowiedź sprawdź: czy odpowiada na któreś z tych pytań, czy to tylko nazwa procesu?",
+    "pytanieKontrolne": "Komendantka chce na razie objąć Ładem tylko system Syrena. Który komponent Podejścia do Ładu w ten sposób określa i czy to dopuszczalne?",
+    "odpowiedzKontrolna": "Określa zakres Ładu. Jest to dopuszczalne, bo zakres może dotyczyć całej organizacji, jednostki albo pojedynczego aktywa."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Proces EDM05 Zapewnienie przejrzystości dotyczącej interesariuszy",
+      "roznica": "To jeden z PROCESÓW Ładu, a nie komponent Podejścia do Ładu."
+    },
+    {
+      "termin": "edm",
+      "roznica": "Oszacuj, Kieruj, Monitoruj to praktyki procesów Ładu, a nie komponent Podejścia do Ładu."
+    }
+  ],
+  "przykladWypowiedzi": "Governance approach, czyli Podejście do Ładu, ma cztery komponenty: governance objective (cel Ładu – tworzenie wartości), governance enablers (aktywatory Ładu), governance scope (zakres Ładu) oraz roles, activities and relationships (role, działania i relacje).",
+  "egzamin": "Komponenty: Cel Ładu, aktywatory Ładu, **zakres Ładu**, role/działania/relacje (Ilustracja 8). Proces EDM05, praktyki EDM i domeny PBRM to inne kategorie.",
+  "powiazane": [
+    "zakres-ladu",
+    "role-dzialania-relacje",
+    "tworzenie-wartosci",
+    "zasada-2"
+  ],
+  "sylabus": [
+    "PR-02-08"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 24,
+      "cytat": "pozostałe główne elementy podejścia do nadzoru obejmują czynniki umożliwiające"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 23,
+      "ilustracja": "8"
+    },
+    {
+      "doc": "SP1",
+      "strona": 5
+    }
+  ],
+  "mapa": "podejscie-do-ladu"
+}

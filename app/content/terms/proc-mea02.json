@@ -1,0 +1,126 @@
+{
+  "id": "proc-mea02",
+  "en": "MEA02 Monitor, Evaluate and Assess the System of Internal Control",
+  "wymowa": "emiej 02 moniter iweljuejt end ases de system ow internal kontrołl",
+  "wymowaAkcent": "em-i-EJ 02 MO-ni-ter i-WE-lju-ejt end a-SES de SYS-tem ow in-TER-nal kon-TROŁL",
+  "plEgzamin": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+  "plPodrecznik": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+  "plInne": [
+    {
+      "nazwa": "Monitorowanie i ocena systemu kontroli wewnętrznej",
+      "zrodlo": "opracowanie „Prosto, krok po kroku” (nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+    "podrecznik": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+    "kurs": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej (MEA02 Monitor, Evaluate and Assess the System of Internal Control)",
+    "uwaga": "Egzamin PL i podręcznik zgodne, ale w obiegu są konkurencyjne odpowiedniki: Monitorowanie i ocena systemu kontroli wewnętrznej. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 59. Inne formy w obiegu: Monitorowanie i ocena systemu kontroli wewnętrznej (opracowanie „Prosto, krok po kroku” (nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *System of Internal Control*. Domena MEA na egzaminie to „Monitoruj, Oszacuj i Oceń”, więc nazwy procesów MEA mogą tam brzmieć np. trybem rozkazującym.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P3",
+  "wymaga": [
+    "mea",
+    "proc-dss06"
+  ],
+  "poLudzku": "Sprawdzasz, czy wszystkie zabezpieczenia i zasady kontroli w organizacji naprawdę działają, a nie tylko są na papierze.",
+  "wyobrazSobie": "Sprawdzasz, czy czujnik dymu w domu naprawdę piszczy. Wisi na suficie, ale czy działa?",
+  "skadNazwa": "Z angielskiego *Monitor, Evaluate and Assess the System of Internal Control*. „System kontroli wewnętrznej” to wszystkie zasady, procedury i struktury, które mają chronić cele organizacji.",
+  "poziom1": "Proces domeny [[mea]], który stale monitoruje i ocenia środowisko kontroli wewnętrznej: przez przeglądy kierownictwa, samooceny i niezależne przeglądy (np. audyt). Pozwala wykryć słabe i nieskuteczne mechanizmy kontrolne i uruchomić ich poprawę.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** monitoruje mechanizmy kontrolne, sprawdza ich skuteczność, prowadzi samooceny kontroli, rozpoznaje i zgłasza słabości, planuje i prowadzi niezależne przeglądy (zapewnienie, audyt), dba o standardy takich ocen.\n\n**Wejścia (intuicja):** mechanizmy kontrolne z procesów (np. [[proc-dss06]], [[proc-dss05]]), polityki ([[polityka]]), wyniki wcześniejszych audytów.\n\n**Wyjścia (intuicja):** wyniki samooceny, raporty o słabościach kontroli, plan działań naprawczych, raporty z audytu.\n\n**Współpracuje z:** [[proc-dss06]] (kontrole w procesach biznesowych), [[proc-mea03]] (kontrole służące zgodności z wymogami), [[proc-mea01]] (raportowanie).",
+  "poziom3": "Oficjalnie (FW-PL, s. 59): *„Proces MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej w ramach metodyki COBIT 5 umożliwia dyrektorom oszacowanie, czy mechanizmy kontrolne pozwalają na spełnienie wymogów w zakresie zgodności.”* Słownik (s. 93), system kontroli wewnętrznej: *„Polityki, standardy, plany i procedury oraz struktury organizacyjne stworzone z myślą o racjonalnym zapewnieniu realizacji celów przedsiębiorstwa”*. Il. 39 (s. 88) wymienia przy MEA umiejętność „Audyt mechanizmów kontrolnych”. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby wiedzieć, czy mechanizmy kontrolne naprawdę działają, a nie tylko istnieją na papierze. Słabości trzeba wykryć i naprawić.",
+  "jakDziala": "Monitorujesz kontrole wewnętrzne i przeglądasz skuteczność kontroli w procesach. Prowadzisz samooceny i zgłaszasz słabości. Planujesz i prowadzisz niezależne przeglądy, np. audyt.",
+  "dlaczegoWazne": "DSS06 wykonuje kontrole, a MEA02 sprawdza, czy działają. Egzamin lubi to zestawienie (interpretacja kursu).",
+  "przyklady": {
+    "zycie": "Masz w domu zasadę: gaz zakręcony przed wyjazdem, czujnik dymu sprawdzany co miesiąc. Raz w roku robisz przegląd: wciskasz test czujnika i odkrywasz, że bateria padła pół roku temu. Sprawdzasz, czy Twoje zabezpieczenia naprawdę działają.",
+    "biuro": "Raz w kwartale bierzesz 10 losowych faktur i sprawdzasz, czy każda ma drugi podpis. Braki zapisujesz i omawiasz z zespołem.",
+    "organizacja": "Wspólnik biura rachunkowego co kwartał sprawdza drugi podpis na 20 losowych przelewach, a raz w roku przychodzi niezależny audytor. W starostwie audytor sprawdza wnioski o uprawnienia i blokadę kont.",
+    "psp": "**Lis sprawdza zabezpieczenia.** Audytorka Ewa Lis bierze 30 losowych zmian numerów OSP z ostatniego kwartału. Sprawdza, czy każdą wpisała Ola Dudek, a zatwierdził kpt. Sikora. Testuje też, czy czerwone okno „brak potwierdzenia z OSP” da się zamknąć bez telefonu. Wyniki i słabości trafiają do komendantki. Ocena, czy kontrole wewnętrzne działają, to [[proc-mea02]].",
+    "it": "Praktyki MEA02 obejmują m.in. monitorowanie kontroli, samoocenę, raport o słabościach oraz planowanie i wykonanie przeglądów zapewnienia (assurance). Wykonawca przeglądu musi być niezależny i kompetentny."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-dss06",
+      "roznica": "DSS06 to mechanizm kontrolny działający w procesie biznesowym. MEA02 monitoruje i ocenia, czy takie mechanizmy (cały system kontroli wewnętrznej) są skuteczne."
+    },
+    {
+      "termin": "proc-mea03",
+      "roznica": "MEA03 sprawdza zgodność z wymogami zewnętrznymi (prawo, regulacje, umowy). MEA02 sprawdza, czy działają nasze własne mechanizmy kontrolne – także te, które mają zapewnić zgodność."
+    },
+    {
+      "termin": "proc-mea01",
+      "roznica": "MEA01 mierzy wyniki procesów względem celów. MEA02 ocenia kontrole, nie wyniki."
+    }
+  ],
+  "przykladWypowiedzi": "MEA02 Monitor, Evaluate and Assess the System of Internal Control to Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej. Sprawdza, czy kontrole działają.",
+  "egzamin": "Słowa-klucze: kontrola wewnętrzna, samoocena kontroli, skuteczność mechanizmów kontrolnych, audyt wewnętrzny, słabości kontroli → **MEA02**. FW-PL (s. 59): MEA02 pozwala dyrektorom oszacować, czy mechanizmy kontrolne pozwalają spełnić wymogi zgodności.",
+  "powiazane": [
+    "mea",
+    "polityka",
+    "proc-dss06",
+    "proc-mea01",
+    "proc-mea03"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 59,
+      "cytat": "umożliwia dyrektorom oszacowanie, czy mechanizmy kontrolne pozwalają na spełnienie wymogów w zakresie zgodności"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Polityki, standardy, plany i procedury oraz struktury organizacyjne stworzone z myślą o racjonalnym zapewnieniu realizacji celów przedsiębiorstwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39",
+      "cytat": "Audyt mechanizmów kontrolnych"
+    }
+  ],
+  "mapa": "proc-mea02",
+  "glebokosc": {
+    "prosty": "Masz alarm w mieszkaniu. Raz na pół roku sprawdzasz: otwierasz okno przy włączonym alarmie i patrzysz, czy zawyje. Nie wystarczy, że alarm jest zamontowany. Ważne, czy działa.",
+    "zaawansowany": "W procesie alarmowania są zabezpieczenia: czerwone okno przy braku potwierdzenia z OSP i „dwie pary oczu” przy zmianie numerów. To [[proc-dss06]]. Ewa Lis co kwartał sprawdza na próbce, czy te zabezpieczenia działają w praktyce. To [[proc-mea02]]. Wyniki idą do komendantki, a poprawki wracają do właścicieli procesów.",
+    "skrajny": "Inspektorka Lucyna Ostrowska z komendy wojewódzkiej zapowiada kontrolę: czy komenda spełnia przepisy o czasie dysponowania i ochronie danych. Przed jej przyjazdem Ewa Lis robi samoocenę: czy kontrole w procesie alarmowania działają. Czy to MEA02, czy MEA03? Ustalenie, jakie przepisy obowiązują komendę, i ocena, czy są spełnione, to MEA03. Sprawdzenie, czy własne mechanizmy kontrolne działają – nawet te, które istnieją po to, żeby spełnić przepis – to MEA02. FW-PL wprost wiąże MEA02 z oszacowaniem, czy mechanizmy kontrolne pozwalają spełnić wymogi zgodności. **Rozstrzygnięcie:** pytaj „co sprawdzamy?”. Nasze mechanizmy kontrolne → MEA02. Wymogi z zewnątrz i ich spełnienie → MEA03. Sam mechanizm działający w procesie → DSS06."
+  },
+  "zagmatwania": [
+    {
+      "mit": "MEA02 to audyt wewnętrzny.",
+      "prawda": "Audyt to jeden ze sposobów. MEA02 obejmuje też stałe monitorowanie i samoocenę kontroli przez kierownictwo."
+    },
+    {
+      "mit": "Kontrola wymagana przepisem to od razu MEA03.",
+      "prawda": "Czy taka kontrola działa – MEA02. Czy przepis jest rozpoznany i spełniony – MEA03 (FW-PL, s. 59)."
+    },
+    {
+      "mit": "MEA02 projektuje mechanizmy kontrolne.",
+      "prawda": "Mechanizmy działają w procesach (np. DSS06, DSS05). MEA02 je monitoruje, ocenia i zgłasza słabości."
+    },
+    {
+      "mit": "Ocena kontroli i zarządzanie ryzykiem to to samo.",
+      "prawda": "EDM03 wyznacza kierunek i apetyt na ryzyko (Ład), APO12 rozpoznaje i analizuje ryzyka, a MEA02 ocenia, czy mechanizmy kontrolne działają."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera MEA03, gdy pytanie wspomina przepis, choć pyta o działanie mechanizmu kontrolnego.",
+    "jakTlumaczyc": "MEA02 to przegląd gaśnic w budynku: czy działają. MEA03 to sprawdzenie, ile gaśnic wymaga przepis i czy budynek je ma.",
+    "pytanieKontrolne": "Lis sprawdza na próbce, czy konta odchodzących dyżurnych są blokowane w ciągu doby, jak każe procedura komendy. MEA02 czy MEA03?",
+    "odpowiedzKontrolna": "**MEA02** – ocenia skuteczność wewnętrznego mechanizmu kontrolnego. MEA03 byłby wtedy, gdyby ustalała, czy komenda spełnia zewnętrzny przepis."
+  }
+}

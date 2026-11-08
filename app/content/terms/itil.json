@@ -1,0 +1,85 @@
+{
+  "id": "itil",
+  "en": "ITIL",
+  "wymowa": "ajtil",
+  "wymowaAkcent": "AJ-til",
+  "plEgzamin": "ITIL",
+  "plPodrecznik": "ITIL (Information Technology Infrastructure Library)",
+  "plInne": [],
+  "statusTlumaczenia": "D",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "ITIL",
+    "podrecznik": "ITIL (Information Technology Infrastructure Library)",
+    "kurs": "ITIL (ITIL)",
+    "uwaga": "Nazwa własna (Axelos) – nie tłumaczy się. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 3, 4, 5."
+  },
+  "pulapka": false,
+  "kategoria": "standard",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [],
+  "poLudzku": "Zbiór dobrych praktyk o tym, jak na co dzień prowadzić usługi informatyczne, np. pomoc dla użytkowników.",
+  "wyobrazSobie": "Książka kucharska restauracji: mówi, jak sprawnie przygotować każde danie, ale nie decyduje, jakie menu ma mieć restauracja i dla kogo gotuje.",
+  "poCo": "Żeby dział IT świadczył usługi przewidywalnie: wiedział, jak przyjmować zgłoszenia, usuwać awarie i wprowadzać zmiany bez chaosu.",
+  "jakDziala": "ITIL opisuje dobre praktyki zarządzania usługami IT (IT Service Management), np. obsługi incydentów (incident management), problemów (problem management) i zmian (change management). Dział IT dopasowuje te praktyki do siebie. COBIT 5 jest z ITIL dopasowany i patrzy wyżej: czy usługi IT wspierają cele organizacji i kto za to odpowiada.",
+  "dlaczegoWazne": "Na egzaminie ITIL występuje jako przykład standardu, który COBIT 5 integruje (Zasada 3). Trzeba umieć powiedzieć, że ITIL mówi, jak świadczyć usługi IT, a COBIT 5 łączy to z Ładem i celami organizacji.",
+  "poziom1": "Zbiór dobrych praktyk, jak prowadzić usługi IT na co dzień: przyjmować zgłoszenia, usuwać awarie, planować zmiany (np. helpdesk, który nadaje numer zgłoszenia i wie, co jest pilne). COBIT 5 jest z ITIL dopasowany, ale patrzy wyżej: czy IT w ogóle służy celom firmy i kto za to odpowiada.",
+  "poziom2": "ITIL odpowiada na pytanie, **jak** dobrze świadczyć usługi IT. COBIT 5 integruje takie standardy (Zasada 3) i patrzy wyżej: **czy** IT tworzy wartość i **kto** za to odpowiada.",
+  "poziom3": "Framework PL (s. 15) wymienia ITIL® wśród standardów i metodyk, z którymi COBIT 5 jest powiązany i dopasowany.",
+  "przyklady": {
+    "zycie": "W domu ciągle coś się psuje, a każdy dzwoni z tym do taty w pracy. W końcu ustalacie: usterkę zapisujesz na kartce na lodówce, pilne (cieknie woda) naprawia się od razu, reszta czeka do soboty, a po naprawie się ją odhacza. Taki porządek w obsłudze usterek to w pigułce to, co ITIL opisuje dla usług IT.",
+    "biuro": "Każda awaria drukarki trafia do jednego zeszytu zgłoszeń z numerem i godziną, pilne sprawy idą pierwsze, a powtarzające się zacięcia papieru serwisant bada jako osobny problem. Taki sposób prowadzenia usługi opisuje ITIL.",
+    "firma": "W sklepie internetowym pracownik zgłasza, że nie działa drukarka etykiet. Dostaje numer zgłoszenia, informatyk wie, że „nie da się wysłać paczek” ma pierwszeństwo przed „wolno działa poczta”, a po naprawie sprawdza, dlaczego drukarka pada co tydzień. Te reguły przyjmowania zgłoszeń, ustalania priorytetów i szukania przyczyn to praktyki ITIL.",
+    "admin": "Urzędniczka w wydziale komunikacji starostwa nie może zalogować się do systemu, a w kolejce stoi dziesięć osób. Dzwoni pod wewnętrzny numer pomocy, zgłoszenie dostaje priorytet „pilne”, bo stoi obsługa mieszkańców, i informatyk oddzwania w kwadrans. Takie ułożenie obsługi zgłoszeń i priorytetów to dobre praktyki ITIL.",
+    "psp": "Na zmianie w JRG przestaje działać radiotelefon w samochodzie gaśniczym. Dowódca zmiany zgłasza to do sekcji łączności komendy, zgłoszenie dostaje numer i wysoki priorytet, bo zastęp bez łączności to problem w akcji, a łącznościowiec jeszcze tego dnia wydaje zapasowy radiotelefon. Ustalony sposób przyjmowania i usuwania awarii to praktyka w duchu ITIL.",
+    "it": "DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) organizacja realizuje według praktyk ITIL dla incydentów, a DSS03 (Zarządzanie problemami) według praktyk zarządzania problemami. COBIT 5 dokłada do tego cele, mierniki i odpowiedzialności RACI."
+  },
+  "glebokosc": {
+    "prosty": "W domu ustalacie, jak zgłaszać zepsute rzeczy: kartka na lodówce, pilne naprawia się od razu, reszta czeka do soboty. To dobry przepis na codzienne naprawianie. Ale to, czy w ogóle kupić zmywarkę i ile wydać na sprzęt, rozstrzyga się gdzie indziej – przy rodzinnym budżecie.",
+    "zaawansowany": "Mł. kpt. Ola Dudek obsługuje zgłoszenia według praktyk w duchu ITIL: numer, priorytet, usunięcie awarii, szukanie przyczyny. To codzienna praca, którą w COBIT 5 porządkuje m.in. domena [[dss|DSS]]. Pytanie komendantki Wrzos „czy Syrena w ogóle daje komendzie to, czego potrzebuje?” leży wyżej, w [[lad|Ładzie]]. COBIT 5 łączy oba poziomy: jako [[integrator]] jest spójny z ITIL i to do niego odsyła po szczegóły obsługi usług.",
+    "skrajny": "Po nocy z Lipową Ola zamyka zgłoszenie „brak SMS do OSP” wzorowo: przyczyna znaleziona, poprawka wgrana, czas reakcji w normie. Według miar obsługi usług wszystko poszło dobrze. A jednak komendantka pyta, dlaczego nikt wcześniej nie określił, czego komenda chce od Syreny – i tego żadna procedura obsługi zgłoszeń nie rozstrzygnie. Wzorowy helpdesk nie zastąpi decyzji o kierunku, priorytetach i odpowiedzialności. Zdanie „mamy dojrzały ITIL, więc COBIT jest zbędny” myli dwa poziomy: jak świadczyć usługi i czy IT służy celom organizacji. **Rozstrzygnięcie:** ITIL odpowiada na pytanie, jak dobrze świadczyć usługi IT, a COBIT 5 – czy IT tworzy wartość i kto za to odpowiada; na egzaminie ITIL jest tylko przykładem standardu, z którym COBIT 5 się integruje."
+  },
+  "zagmatwania": [
+    {
+      "mit": "ITIL i COBIT 5 to konkurencyjne metodyki – trzeba wybrać jedną.",
+      "prawda": "COBIT 5 jest z ITIL spójny i może być ramą nadrzędną. ITIL daje szczegóły obsługi usług, a COBIT 5 – Ład i Zarządzanie IT w całej organizacji."
+    },
+    {
+      "mit": "ITIL to część COBIT 5, np. jedna z jego domen.",
+      "prawda": "ITIL to osobny zbiór dobrych praktyk spoza ISACA. COBIT 5 tylko się z nim dopasowuje; domeny COBIT 5 to EDM, APO, BAI, DSS i MEA."
+    },
+    {
+      "mit": "Skoro obsługa zgłoszeń działa wzorowo, IT jest dobrze nadzorowane.",
+      "prawda": "Sprawna obsługa usług to poziom operacyjny Zarządzania. Ład pyta o kierunek, priorytety i wartość – tego miary helpdesku nie pokazują."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Stawianie ITIL i COBIT 5 na tym samym poziomie albo jako zamienników.",
+    "jakTlumaczyc": "Kuchnia restauracji a właściciel: kuchnia (ITIL) wie, jak sprawnie wydawać dania, a właściciel (COBIT 5) decyduje, jakie menu, dla kogo, czy to się opłaca i kto za co odpowiada. Najpierw pokaż, że jedno nie wyklucza drugiego, a dopiero potem różnicę poziomów.",
+    "pytanieKontrolne": "Helpdesk komendy ma świetne wskaźniki czasu reakcji. Dlaczego to nie wystarcza, żeby uznać, że IT komendy jest dobrze nadzorowane w sensie COBIT 5?",
+    "odpowiedzKontrolna": "Bo czas reakcji mierzy jakość świadczenia usług, czyli poziom operacyjny. Ład sprawdza, czy IT służy celom komendy, czy korzyści, ryzyko i zasoby są w równowadze i kto za to odpowiada. Można sprawnie naprawiać system, który w ogóle nie odpowiada potrzebom interesariuszy."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cobit-5",
+      "roznica": "COBIT: Ład i Zarządzanie IT w całej organizacji; ITIL: zarządzanie usługami IT."
+    }
+  ],
+  "przykladWypowiedzi": "ITIL describes how to run IT services, czyli jak świadczyć usługi IT, a COBIT 5 jako integrator osadza te praktyki w Ładzie (Governance) i Zarządzaniu (Management) organizacji.",
+  "egzamin": "Na egzaminie ITIL pojawia się tylko jako przykład standardu integrowanego przez COBIT 5 (Zasada 3).",
+  "powiazane": [
+    "cobit-5",
+    "zasada-3"
+  ],
+  "sylabus": [
+    "M0-00-07",
+    "PR-02-10"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 15,
+      "cytat": "Information Technology Infrastructure Library (ITIL®)"
+    }
+  ]
+}

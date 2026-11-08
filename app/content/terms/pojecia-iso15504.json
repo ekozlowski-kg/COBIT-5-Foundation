@@ -1,0 +1,93 @@
+{
+  "id": "pojecia-iso15504",
+  "en": "Process purpose, outcome, base practice, work product (ISO/IEC 15504)",
+  "wymowa": "prołses perpes ałtkam bejs prektis łerk prodakt",
+  "wymowaAkcent": "PROŁ-ses PER-pes AŁT-kam bejs PREK-tis łerk PRO-dakt",
+  "plEgzamin": "Przeznaczenie procesu, rezultat, praktyka bazowa, produkt pracy",
+  "plPodrecznik": "Cel procesu, wyniki procesu, podstawowe praktyki, produkty działań",
+  "mapa": "pojecia-iso15504",
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „przeznaczenie procesu” (process purpose). Podręcznik: „cel procesu”. Uwaga: „cel procesu” w aktywatorze Procesy to *process goal*, czyli coś innego.",
+  "poLudzku": "Słowa oceniającego: po co ta praca jest, co z niej wychodzi, jakie kroki i jakie dokumenty powstają.",
+  "wyobrazSobie": "Jak egzaminator na prawo jazdy: wie, po co jest jazda, co musi być widać na koniec, patrzy na konkretne manewry i zapisuje je w protokole, który jest dowodem.",
+  "poCo": "Żeby oceniający mógł obiektywnie stwierdzić, czy proces osiąga swoje przeznaczenie (poziom 1), na podstawie tego, co da się zobaczyć i udokumentować, a nie deklaracji.",
+  "jakDziala": "Każdy proces ma przeznaczenie (process purpose), czyli ogólny cel. Jego osiągnięcie widać po rezultatach (outcomes), do których prowadzą wykonywane praktyki bazowe (base practices), a po drodze powstają produkty pracy (work products), czyli dowody. W COBIT 5 rezultatom odpowiadają cele procesu, praktykom bazowym praktyki nadzoru/zarządzania, a produktom pracy wejścia i wyjścia. Asesor sprawdza praktyki bazowe i produkty pracy, gdy ocenia atrybut PA 1.1 (wykonanie procesu).",
+  "dlaczegoWazne": "Na egzaminie trzeba wiedzieć, że poziom 1 ocenia się przez praktyki bazowe i produkty pracy, i rozpoznać, jak te pojęcia ISO/IEC 15504 odpowiadają pojęciom COBIT 5. Bez nich nie wiadomo, na jakiej podstawie asesor wystawia PA 1.1 ocenę N, C, W albo P.",
+  "skadNazwa": "Słowa z normy ISO/IEC 15504 tłumaczy się różnie: *outcome* to „rezultat” albo „wynik”, *base practice* to „praktyka bazowa” albo „podstawowa”, *work product* to „produkt pracy” albo „produkt działań”.",
+  "poziom1": "Cztery słowa, którymi ISO 15504 opisuje każdy proces: po co on jest (przeznaczenie), co ma być widać, gdy działa (rezultaty), co się konkretnie robi (praktyki bazowe) i jakie dokumenty czy pliki zostają po drodze jako dowód (produkty pracy).",
+  "poziom2": "| Pojęcie | Znaczenie |\n|---|---|\n| **Przeznaczenie procesu** (purpose) | ogólny, mierzalny cel wykonywania procesu i spodziewane rezultaty skutecznej realizacji |\n| **Rezultat procesu** (outcome) | **obserwowalny wynik** osiągnięcia przeznaczenia procesu. W *Procesach umożliwiających* odpowiada mu **cel procesu** |\n| **Praktyka bazowa** (base practice) | czynność, która wykonywana konsekwentnie przyczynia się do osiągnięcia rezultatu. Odpowiada jej **praktyka zarządzania/nadzoru** |\n| **Produkt pracy** (work product) | **artefakt** związany z wykonywaniem procesu, czyli dowód. Odpowiadają mu **wejścia i wyjścia** |",
+  "poziom3": "Definicje według ISO/IEC 15504-1 i *COBIT PAM: Using COBIT 5* (§1.7). Mapowanie pojęć PAM ↔ Procesy umożliwiające: ISACA, „GEIT Framework at Work, Part 6” (2018).",
+  "status": "uproszczenie",
+  "poziomP": "P3",
+  "wymaga": [
+    "proces",
+    "praktyki-dzialania",
+    "poziomy-zdolnosci"
+  ],
+  "przyklady": {
+    "zycie": "Gotujesz obiady dla rodziny na cały tydzień. Przeznaczenie: wszyscy codziennie jedzą ciepły obiad. Rezultat: każdego dnia o 17:00 obiad stoi na stole. Praktyki bazowe to układanie jadłospisu, zakupy i gotowanie, a produkty pracy to jadłospis na lodówce i lista zakupów.",
+    "biuro": "Przeznaczenie procesu obsługi korespondencji w biurze: każde pismo trafia do właściwej osoby tego samego dnia. Rezultat to pismo na biurku adresata przed 15:00; praktyki bazowe to rejestracja w dzienniku podawczym, dekretacja przez kierownika i rozniesienie pism, a produkty pracy to wpis w dzienniku i podpis kierownika na dekretacji.",
+    "firma": "Warsztat samochodowy przyjmuje auto do naprawy. Przeznaczenie: każde auto naprawione w obiecanym terminie; rezultat: klient odbiera auto w dniu, który mu podano. Praktyki bazowe to oględziny przy kliencie, wycena i zamówienie części, a produkty pracy to zlecenie z podpisem klienta i faktura.",
+    "admin": "Urząd gminy wydaje dowody osobiste. Przeznaczenie: mieszkaniec dostaje ważny dowód bez zbędnego czekania; rezultat: dowód wydany w terminie i bez błędów w danych. Praktyki bazowe to sprawdzenie tożsamości, przyjęcie wniosku i wydanie dokumentu, a produkty pracy to wniosek w systemie i potwierdzenie odbioru.",
+    "psp": "Dyżurny SK odbiera zgłoszenie o pożarze altany. Przeznaczenie procesu obsługi zgłoszeń: właściwe siły jak najszybciej na miejscu; rezultat: każde zgłoszenie zakwalifikowane i z zadysponowanym zastępem. Praktyka bazowa to kwalifikacja zdarzenia według kryteriów, a produkt pracy to karta zdarzenia w SWD-PSP – dowód, że to wszystko się stało.",
+    "it": "Asesor ocenia na poziomie 1 proces DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami). Sprawdza, czy praktyki bazowe, np. rejestrowanie, klasyfikowanie i rozwiązywanie incydentów, są wykonywane, a jako produkty pracy ogląda rejestr incydentów i raporty z ich zamknięcia."
+  },
+  "glebokosc": {
+    "prosty": "Pralnia obiecuje: oddajesz brudne koszule, odbierasz czyste i wyprasowane – to przeznaczenie, czyli po co pralnia istnieje. Czyste koszule na wieszaku to rezultat. Pranie i prasowanie to praktyki, a kwitek z numerem zamówienia to produkt pracy, czyli dowód, że koszule przeszły przez pralnię.",
+    "zaawansowany": "Ewa Lis ocenia proces kopii zapasowych w wydziale Sikory na poziomie 1 [[model-zdolnosci|modelu zdolności]]. Przeznaczenie: dane Syreny da się odtworzyć po awarii. Rezultat: kopia z każdej nocy istnieje i dała się odtworzyć na próbie. Ewa pyta mł. kpt. Dudek o praktyki bazowe (harmonogram, test odtworzenia) i prosi o produkty pracy: dziennik kopii i protokół z testu. Bez tych dokumentów nie ma dowodu, więc atrybut PA 1.1 nie dostanie wysokiej oceny na [[skala-ocen|skali N/C/W/P]].",
+    "skrajny": "Słowa „cel procesu” używa się w kursie w dwóch różnych znaczeniach. W polskim podręczniku tak tłumaczy się *process purpose* z ISO 15504, a egzamin mówi tu „przeznaczenie procesu”. W opisie procesów COBIT 5 „cel procesu” to *process goal*, a ten w modelu oceny odpowiada **rezultatowi** (outcome), a nie przeznaczeniu. Kto czyta „cel procesu = przeznaczenie”, myli jedno zdanie „po co” z listą obserwowalnych efektów. Pozostałe pary: praktyka bazowa odpowiada praktyce nadzoru lub zarządzania (s. 43), a produkt pracy – wejściom i wyjściom. **Rozstrzygnięcie:** przeznaczenie (purpose) = jedno „po co”; rezultat (outcome) ↔ cel procesu (process goal); praktyka bazowa ↔ praktyka; produkt pracy ↔ wejście/wyjście (mapowanie poza praktykami według ISACA – interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Przeznaczenie procesu i cel procesu to zawsze to samo.",
+      "prawda": "W modelu oceny „cel procesu” z podręcznika to przeznaczenie (purpose). W opisie procesu COBIT 5 „cel procesu” to process goal, który odpowiada rezultatowi (outcome). Sprawdź angielskie słowo."
+    },
+    {
+      "mit": "Produkt pracy to końcowy wyrób dla klienta.",
+      "prawda": "Produkt pracy to każdy artefakt związany z wykonaniem procesu: rejestr, protokół, notatka. Przy ocenie liczy się jako dowód."
+    },
+    {
+      "mit": "Poziom 1 ocenia się tymi samymi praktykami ogólnymi co poziomy 2–5.",
+      "prawda": "Wskaźniki wymiaru zdolności dotyczą atrybutów poziomów 1–5. Dla PA 1.1 dowody pochodzą jednak głównie z wymiaru procesu: praktyk bazowych i produktów pracy. Na poziomach 2–5 główną rolę grają praktyki ogólne i zasoby ogólne."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie przeznaczenia (jedno zdanie „po co”) z rezultatami (lista obserwowalnych efektów) i traktowanie produktu pracy jak końcowego wyrobu.",
+    "jakTlumaczyc": "Idź pytaniami: Po co? (przeznaczenie) → Po czym poznam, że się udało? (rezultaty) → Co robimy? (praktyki bazowe) → Co zostaje na papierze? (produkty pracy). Ostatnie pytanie połącz z asesorem: on wierzy dowodom, nie zapewnieniom.",
+    "pytanieKontrolne": "Asesor widzi, że zespół wykonuje wszystkie kroki, ale niczego nie zapisuje. Którego z czterech pojęć brakuje i dlaczego to przeszkadza w ocenie poziomu 1?",
+    "odpowiedzKontrolna": "Brakuje produktów pracy – artefaktów, które są dowodem wykonania. Poziom 1 ocenia się przez praktyki bazowe i produkty pracy, więc bez dowodów asesor nie potwierdzi, że proces osiąga swoje rezultaty."
+  },
+  "egzamin": "Poziom 1 ocenia się przez **praktyki bazowe i produkty pracy** (wskaźniki wykonania procesu).",
+  "powiazane": [
+    "wymiary-oceny",
+    "praktyki-dzialania"
+  ],
+  "sylabus": [
+    "PC-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "SYL"
+    },
+    {
+      "doc": "WWW",
+      "url": "https://www.isaca.org/resources/news-and-trends/industry-news/2018/geit-framework-at-work-part-6-followup-and-continuous-improvement"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "podstawowe praktyki, stanowiące odpowiednik praktyk nadzoru nad procesami lub zarządzania nimi"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Przeznaczenie procesu, rezultat, praktyka bazowa, produkt pracy",
+    "podrecznik": "Cel procesu, wyniki procesu, podstawowe praktyki, produkty działań",
+    "kurs": "Przeznaczenie procesu, rezultat, praktyka bazowa, produkt pracy (Process purpose, outcome, base practice, work product)",
+    "uwaga": "Egzamin PL: „Przeznaczenie procesu, rezultat, praktyka bazowa, produkt pracy”; podręcznik PL: „Cel procesu, wyniki procesu, podstawowe praktyki, produkty działań” – konkurencyjne odpowiedniki. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "kategoria": "egzaminacyjne",
+  "nieMylicZ": [],
+  "przykladWypowiedzi": "W ocenie według ISO/IEC 15504 asesor sprawdza, czy base practices (praktyki bazowe) są wykonywane i czy powstają work products (produkty pracy), bo to dowodzi, że proces osiąga outcomes (rezultaty) i swoje process purpose (przeznaczenie procesu)."
+}

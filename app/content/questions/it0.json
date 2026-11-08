@@ -1,0 +1,2167 @@
+{
+ "_opis": "IT0 – Podstawy cyfrowe (METODYKA §17.3). Wiedza ogólna o IT, status uproszczenie. Autor: sesja koordynująca.",
+ "pytania": [
+  {
+   "id": "q-pre-it0-01",
+   "typ": "rozpoznanie",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-01-komputer-program",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Telefon raz robi zdjęcia, a raz płaci rachunki. Co się wtedy zmienia?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Program, który w danej chwili działa w telefonie",
+     "poprawna": true,
+     "wyjasnienie": "Sprzęt zostaje ten sam, a zmienia się oprogramowanie, czyli aplikacja."
+    },
+    {
+     "tekst": "Sprzęt w środku telefonu, który się przełącza",
+     "poprawna": false,
+     "wyjasnienie": "Sprzęt (hardware) jest cały czas ten sam."
+    },
+    {
+     "tekst": "Bateria, która daje więcej prądu do płatności",
+     "poprawna": false,
+     "wyjasnienie": "Bateria tylko zasila sprzęt."
+    }
+   ],
+   "pretest": true
+  },
+  {
+   "id": "q-it0-01-01",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-01-komputer-program",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Który element komputera to sprzęt (hardware)?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Przeglądarka internetowa",
+     "poprawna": false,
+     "wyjasnienie": "To program (software).",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Klawiatura",
+     "poprawna": true,
+     "wyjasnienie": "Sprzęt to to, czego można dotknąć: klawiatura, ekran, dysk."
+    },
+    {
+     "tekst": "Edytor tekstu",
+     "poprawna": false,
+     "wyjasnienie": "To program (software).",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "System Windows",
+     "poprawna": false,
+     "wyjasnienie": "To system operacyjny, czyli oprogramowanie.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-01-02",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-01-komputer-program",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Czym system operacyjny (operating system) różni się od aplikacji (application)?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "System operacyjny to sprzęt komputera, a aplikacja to program działający na nim",
+     "poprawna": false,
+     "wyjasnienie": "Oba są oprogramowaniem.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Niczym – to dwie nazwy tego samego",
+     "poprawna": false,
+     "wyjasnienie": "To różne rodzaje oprogramowania.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "System operacyjny organizuje pracę całego urządzenia, a aplikacja wykonuje jedno zadanie dla użytkownika",
+     "poprawna": true,
+     "wyjasnienie": "Bez systemu operacyjnego aplikacja nie ruszy. To on zarządza sprzętem i uruchamia programy."
+    },
+    {
+     "tekst": "Aplikacja uruchamia system operacyjny, gdy jest potrzebny do jakiegoś zadania",
+     "poprawna": false,
+     "wyjasnienie": "Odwrotnie: system operacyjny uruchamia aplikacje.",
+     "pulapka": "odwrocone"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-01-03",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-01-komputer-program",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Microsoft Word to:",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "system operacyjny komputera biurowego",
+     "poprawna": false,
+     "wyjasnienie": "Word działa w systemie operacyjnym, ale nim nie jest.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "sprzęt",
+     "poprawna": false,
+     "wyjasnienie": "Wordu nie da się dotknąć – to program.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "sieć komputerowa do wymiany dokumentów",
+     "poprawna": false,
+     "wyjasnienie": "Word nie łączy urządzeń.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "aplikacja (program użytkowy)",
+     "poprawna": true,
+     "wyjasnienie": "Word wykonuje jedno zadanie dla użytkownika: pisanie dokumentów."
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-01-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-01-komputer-program",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Dyżurny mówi: „Komputer się zepsuł, bo nie otwiera się program do map”. Ekran i klawiatura działają, inne programy też. Co najpewniej zawiodło?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Oprogramowanie, czyli ta jedna aplikacja",
+     "poprawna": true,
+     "wyjasnienie": "Gdy tylko jeden program nie działa, problem dotyczy oprogramowania, a nie sprzętu."
+    },
+    {
+     "tekst": "Sprzęt, bo komputer jest już stary",
+     "poprawna": false,
+     "wyjasnienie": "Sprzęt działa – inne programy się uruchamiają.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Internet, bo mapy zawsze pobiera się z sieci",
+     "poprawna": false,
+     "wyjasnienie": "Nie wiemy, czy program w ogóle korzysta z Internetu.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Klawiatura",
+     "poprawna": false,
+     "wyjasnienie": "Klawiatura działa.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-01-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-01-komputer-program",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Który zestaw zawiera WYŁĄCZNIE oprogramowanie (software)?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Ekran, Android, myszka",
+     "poprawna": false,
+     "wyjasnienie": "Ekran i myszka to sprzęt.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Android, przeglądarka, aplikacja bankowa",
+     "poprawna": true,
+     "wyjasnienie": "Wszystkie trzy to programy: system operacyjny i dwie aplikacje."
+    },
+    {
+     "tekst": "Drukarka sieciowa, Word, dysk twardy",
+     "poprawna": false,
+     "wyjasnienie": "Drukarka i dysk to sprzęt.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Procesor, pamięć operacyjna, system Windows",
+     "poprawna": false,
+     "wyjasnienie": "Procesor i pamięć to sprzęt.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-pre-it0-02",
+   "typ": "rozpoznanie",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-02-dane-informacja",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Na kartce jest zapisane tylko „7:15”. Co to jest?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Dane – sama liczba bez kontekstu",
+     "poprawna": true,
+     "wyjasnienie": "Dopiero kontekst („wyjazd zastępu o 7:15”) zamienia dane w informację."
+    },
+    {
+     "tekst": "Informacja – bo każda godzina coś mówi",
+     "poprawna": false,
+     "wyjasnienie": "Bez kontekstu nie wiemy, czego dotyczy ta godzina."
+    },
+    {
+     "tekst": "Plik – bo jest zapisana",
+     "poprawna": false,
+     "wyjasnienie": "Plik to porcja zapisanych danych na dysku, a nie zapis na kartce."
+    }
+   ],
+   "pretest": true
+  },
+  {
+   "id": "q-it0-02-01",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-02-dane-informacja",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Czym różnią się dane (data) od informacji (information)?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Dane są zawsze liczbami, a informacja zawsze tekstem",
+     "poprawna": false,
+     "wyjasnienie": "Dane mogą być też tekstem lub obrazem.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Niczym – to synonimy",
+     "poprawna": false,
+     "wyjasnienie": "W informatyce to dwa różne pojęcia.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Dane są w komputerze, a informacja na papierze",
+     "poprawna": false,
+     "wyjasnienie": "Nośnik nie decyduje o tym, co jest daną, a co informacją.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Informacja to dane z kontekstem, które coś nam mówią",
+     "poprawna": true,
+     "wyjasnienie": "„37,9” to dane. „Strażak ma 37,9°C gorączki” to informacja."
+    }
+   ]
+  },
+  {
+   "id": "q-it0-02-02",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-02-dane-informacja",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Czym jest plik (file)?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Nazwaną porcją danych zapisaną na dysku, np. dokumentem albo zdjęciem",
+     "poprawna": true,
+     "wyjasnienie": "Plik ma nazwę i zawartość, np. „raport.docx”."
+    },
+    {
+     "tekst": "Miejscem na dysku, które grupuje wiele dokumentów",
+     "poprawna": false,
+     "wyjasnienie": "To folder (katalog).",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Programem do pisania i zapisywania dokumentów na dysku",
+     "poprawna": false,
+     "wyjasnienie": "To aplikacja.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Połączeniem dwóch komputerów, które wymieniają dane",
+     "poprawna": false,
+     "wyjasnienie": "To sieć.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-02-03",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-02-dane-informacja",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Kasia chce trzymać wszystkie raporty z wyjazdów w jednym miejscu na dysku. Czego użyje?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Jednego pliku z nazwą „Raporty”",
+     "poprawna": false,
+     "wyjasnienie": "Plik to jeden dokument, a nie miejsce na wiele dokumentów.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Folderu „Raporty z wyjazdów”",
+     "poprawna": true,
+     "wyjasnienie": "Folder (folder) porządkuje pliki tak jak segregator kartki."
+    },
+    {
+     "tekst": "Systemu operacyjnego",
+     "poprawna": false,
+     "wyjasnienie": "System operacyjny zarządza całym komputerem, nie porządkuje raportów Kasi.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Hasła",
+     "poprawna": false,
+     "wyjasnienie": "Hasło chroni dostęp, a nie porządkuje pliki.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-02-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-02-dane-informacja",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Które zdanie to już INFORMACJA, czyli dane z kontekstem?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "„12 zastępów, 7 dyżurnych, 4 wozy”",
+     "poprawna": false,
+     "wyjasnienie": "Sama liczba bez kontekstu to dane.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "„Lipowa 7, Klonowa 3, Brzozowa 12”",
+     "poprawna": false,
+     "wyjasnienie": "Sam adres bez kontekstu to dane.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "„Pożar przy ul. Lipowej 7, zgłoszony o 12:04”",
+     "poprawna": true,
+     "wyjasnienie": "Dane z kontekstem coś nam mówią – to informacja."
+    },
+    {
+     "tekst": "„12:04, 12:09, 12:15, 12:22 – kolejne godziny”",
+     "poprawna": false,
+     "wyjasnienie": "Sama godzina to dane.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-02-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-02-dane-informacja",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Plik „grafik_luty.xlsx” ma końcówkę „.xlsx”. Co ona mówi?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "W jakim folderze na dysku leży plik z grafikiem",
+     "poprawna": false,
+     "wyjasnienie": "Końcówka nie mówi nic o folderze.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Kto jest autorem pliku i kiedy go zapisał",
+     "poprawna": false,
+     "wyjasnienie": "Końcówka nie zawiera autora.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Że plik jest zabezpieczony hasłem",
+     "poprawna": false,
+     "wyjasnienie": "Końcówka nie mówi o zabezpieczeniu.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Jakim rodzajem pliku jest grafik, czyli którym programem go otworzyć",
+     "poprawna": true,
+     "wyjasnienie": "Końcówka (rozszerzenie) mówi o typie pliku, np. arkusz kalkulacyjny."
+    }
+   ]
+  },
+  {
+   "id": "q-pre-it0-03",
+   "typ": "rozpoznanie",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-03-siec-internet",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "W komendzie działa Wi-Fi, ale żadna strona internetowa się nie otwiera. Co najpewniej nie działa?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Połączenie komendy z Internetem",
+     "poprawna": true,
+     "wyjasnienie": "Wi-Fi łączy urządzenia w budynku. Internet to połączenie ze światem – może paść osobno."
+    },
+    {
+     "tekst": "Wi-Fi w budynku komendy",
+     "poprawna": false,
+     "wyjasnienie": "Wi-Fi działa, bo urządzenia są połączone."
+    },
+    {
+     "tekst": "Komputery dyżurnych i drukarka w budynku",
+     "poprawna": false,
+     "wyjasnienie": "Komputery działają."
+    }
+   ],
+   "pretest": true
+  },
+  {
+   "id": "q-it0-03-01",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-03-siec-internet",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Czym jest sieć komputerowa (network)?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Tylko Internetem",
+     "poprawna": false,
+     "wyjasnienie": "Internet to jedna, ogólnoświatowa sieć. Sieć w budynku też jest siecią.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Połączeniem kilku urządzeń tak, żeby mogły wymieniać dane",
+     "poprawna": true,
+     "wyjasnienie": "Np. komputery i drukarka w komendzie połączone ze sobą."
+    },
+    {
+     "tekst": "Programem do przeglądania stron internetowych na komputerze",
+     "poprawna": false,
+     "wyjasnienie": "To przeglądarka.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Hasłem do Wi-Fi",
+     "poprawna": false,
+     "wyjasnienie": "Hasło chroni sieć, ale nią nie jest.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-03-02",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-03-siec-internet",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Co to jest Internet?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Bezprzewodowe połączenie urządzeń w budynku komendy",
+     "poprawna": false,
+     "wyjasnienie": "To Wi-Fi.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Przeglądarka internetowa",
+     "poprawna": false,
+     "wyjasnienie": "Przeglądarka to program do korzystania z Internetu.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Ogólnoświatowa sieć łącząca ze sobą miliony mniejszych sieci",
+     "poprawna": true,
+     "wyjasnienie": "Internet łączy sieci domów, firm i urzędów na całym świecie."
+    },
+    {
+     "tekst": "Serwer komendy, przez który idą wszystkie strony",
+     "poprawna": false,
+     "wyjasnienie": "Serwer to komputer, który odpowiada na prośby innych.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-03-03",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-03-siec-internet",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Łącze z Internetem w komendzie padło. Co NADAL może działać?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Wysyłanie e-maili z grafikiem do OSP Zawilce",
+     "poprawna": false,
+     "wyjasnienie": "E-mail na zewnątrz potrzebuje Internetu.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Otwieranie stron internetowych",
+     "poprawna": false,
+     "wyjasnienie": "Strony wymagają Internetu.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Pobieranie prognozy pogody",
+     "poprawna": false,
+     "wyjasnienie": "Prognoza przychodzi z Internetu.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Drukowanie na drukarce sieciowej w budynku",
+     "poprawna": true,
+     "wyjasnienie": "Sieć wewnętrzna działa bez Internetu."
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-03-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-03-siec-internet",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Które zdanie jest prawdziwe?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Wi-Fi to jeden ze sposobów podłączenia urządzenia do sieci – bez kabla",
+     "poprawna": true,
+     "wyjasnienie": "Wi-Fi to łączność bezprzewodowa. Sieć może być też na kablach."
+    },
+    {
+     "tekst": "Wi-Fi to inna, krótsza nazwa Internetu używana w domach i biurach",
+     "poprawna": false,
+     "wyjasnienie": "Wi-Fi łączy urządzenie z siecią, a sieć dopiero z Internetem.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Bez Wi-Fi nie ma żadnej sieci",
+     "poprawna": false,
+     "wyjasnienie": "Sieci kablowe działają bez Wi-Fi.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Wi-Fi działa tylko w telefonach",
+     "poprawna": false,
+     "wyjasnienie": "Z Wi-Fi korzystają też komputery i drukarki.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-03-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-03-siec-internet",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Dyżurny mówi: „Nie działa sieć”. O co warto dopytać, żeby zrozumieć problem?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Jaki ma system operacyjny i czy był ostatnio aktualizowany",
+     "poprawna": false,
+     "wyjasnienie": "To mniej ważne niż ustalenie, co nie działa.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Czy działa coś w budynku (np. drukarka), a nie działa tylko łączność ze światem",
+     "poprawna": true,
+     "wyjasnienie": "To odróżnia awarię sieci wewnętrznej od awarii łącza z Internetem."
+    },
+    {
+     "tekst": "Ile ma plików na pulpicie",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku z siecią.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Czy zmienił ostatnio hasło do poczty albo do komputera",
+     "poprawna": false,
+     "wyjasnienie": "Hasło nie tłumaczy braku sieci.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-pre-it0-04",
+   "typ": "rozpoznanie",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-04-serwer-usluga",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Telefon pokazuje prognozę pogody. Skąd ją ma?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Prosi inny komputer (serwer) i dostaje od niego odpowiedź",
+     "poprawna": true,
+     "wyjasnienie": "Telefon jest klientem: wysyła żądanie, a serwer odsyła odpowiedź."
+    },
+    {
+     "tekst": "Sam mierzy temperaturę",
+     "poprawna": false,
+     "wyjasnienie": "Telefon nie ma termometru na dachu."
+    },
+    {
+     "tekst": "Z pliku z prognozą zapisanego w telefonie przy zakupie",
+     "poprawna": false,
+     "wyjasnienie": "Prognoza zmienia się codziennie, więc musi przyjść z zewnątrz."
+    }
+   ],
+   "pretest": true
+  },
+  {
+   "id": "q-it0-04-01",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-04-serwer-usluga",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Kto w tej wymianie jest klientem (client)? Dyżurny klika „Alarm”, a komputer wysyła prośbę do serwera „Syreny”.",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Serwer „Syreny”",
+     "poprawna": false,
+     "wyjasnienie": "Serwer odpowiada na prośby.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Firma Kwant-Sygnał",
+     "poprawna": false,
+     "wyjasnienie": "Dostawca to nie jest rola w wymianie żądanie–odpowiedź.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Internet",
+     "poprawna": false,
+     "wyjasnienie": "Internet to droga, którą idzie prośba.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Komputer dyżurnego",
+     "poprawna": true,
+     "wyjasnienie": "Klient to ten, kto prosi. Serwer to ten, kto odpowiada."
+    }
+   ]
+  },
+  {
+   "id": "q-it0-04-02",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-04-serwer-usluga",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Czy serwer (server) to zawsze duża szafa w serwerowni?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Nie – serwer to rola; może nim być zwykły komputer albo program, który odpowiada na prośby",
+     "poprawna": true,
+     "wyjasnienie": "Liczy się to, co robi, a nie jak wygląda."
+    },
+    {
+     "tekst": "Tak – serwer to zawsze specjalny, duży sprzęt w osobnym pomieszczeniu z klimatyzacją",
+     "poprawna": false,
+     "wyjasnienie": "Serwerem może być nawet laptop.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Tak – inaczej nie mógłby odpowiadać",
+     "poprawna": false,
+     "wyjasnienie": "Odpowiadać może każdy komputer z odpowiednim programem.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Nie – serwer to inna nazwa Internetu",
+     "poprawna": false,
+     "wyjasnienie": "Internet to sieć, a serwer to uczestnik wymiany.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-04-03",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-04-serwer-usluga",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Dla dyżurnego najważniejsze jest, że „alarm wychodzi do OSP”. Jak nazywamy to, co informatyka daje mu do pracy?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Serwer „Syreny”",
+     "poprawna": false,
+     "wyjasnienie": "Serwer to tylko jeden ze składników usługi.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Usługa IT (IT service)",
+     "poprawna": true,
+     "wyjasnienie": "Usługa to efekt pracy serwerów i programów, który ma znaczenie dla ludzi."
+    },
+    {
+     "tekst": "Aplikacja na komputerze",
+     "poprawna": false,
+     "wyjasnienie": "Aplikacja to też tylko składnik usługi.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Sieć",
+     "poprawna": false,
+     "wyjasnienie": "Sieć to droga, a nie to, co dostaje dyżurny.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-04-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-04-serwer-usluga",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Ułóż w kolejności: (1) serwer przygotowuje odpowiedź, (2) klient wysyła żądanie, (3) odpowiedź wraca do klienta.",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "1 → 2 → 3",
+     "poprawna": false,
+     "wyjasnienie": "Serwer nie odpowiada, zanim ktoś go poprosi.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "3 → 2 → 1",
+     "poprawna": false,
+     "wyjasnienie": "Odpowiedź nie może przyjść przed prośbą.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "2 → 1 → 3",
+     "poprawna": true,
+     "wyjasnienie": "Najpierw prośba (request), potem przygotowanie i odpowiedź (response)."
+    },
+    {
+     "tekst": "2 → 3 → 1",
+     "poprawna": false,
+     "wyjasnienie": "Odpowiedź wraca dopiero po jej przygotowaniu.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-04-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-04-serwer-usluga",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Bankomat pyta bank, czy na koncie są pieniądze. Kto jest serwerem?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Bankomat",
+     "poprawna": false,
+     "wyjasnienie": "Bankomat prosi – jest klientem.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Karta płatnicza, która przechowuje stan konta",
+     "poprawna": false,
+     "wyjasnienie": "Karta to sposób potwierdzenia, kim jesteś.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Klient banku, który stoi przy bankomacie",
+     "poprawna": false,
+     "wyjasnienie": "Pomylone znaczenia słowa „klient”: chodzi o rolę w wymianie danych.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Komputer banku, który sprawdza konto i odpowiada",
+     "poprawna": true,
+     "wyjasnienie": "Bankomat prosi (klient), bank odpowiada (serwer)."
+    }
+   ]
+  },
+  {
+   "id": "q-pre-it0-05",
+   "typ": "rozpoznanie",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-05-baza-danych",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Dyżurny w sekundę znajduje numer telefonu strażaka. Jak to możliwe?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Numery są w uporządkowanym zbiorze danych, który komputer szybko przeszukuje",
+     "poprawna": true,
+     "wyjasnienie": "To baza danych: uporządkowane informacje do szybkiego wyszukiwania."
+    },
+    {
+     "tekst": "Dyżurny zna wszystkie numery na pamięć",
+     "poprawna": false,
+     "wyjasnienie": "To nie jest mechanizm informatyczny."
+    },
+    {
+     "tekst": "Numer jest zapisany w każdym pliku na dysku komputera dyżurnego",
+     "poprawna": false,
+     "wyjasnienie": "Rozrzucone pliki trzeba by długo przeszukiwać."
+    }
+   ],
+   "pretest": true
+  },
+  {
+   "id": "q-it0-05-01",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-05-baza-danych",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Czym jest baza danych (database)?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Programem, w którym oglądamy, dodajemy i zmieniamy dane",
+     "poprawna": false,
+     "wyjasnienie": "Program to narzędzie. Baza to miejsce uporządkowanego przechowywania.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Uporządkowanym zbiorem informacji, który można szybko przeszukiwać, dodawać i zmieniać",
+     "poprawna": true,
+     "wyjasnienie": "Jak elektroniczna kartoteka."
+    },
+    {
+     "tekst": "Dowolnym plikiem na dysku",
+     "poprawna": false,
+     "wyjasnienie": "Plik nie musi być uporządkowanym zbiorem do wyszukiwania.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Serwerem w piwnicy",
+     "poprawna": false,
+     "wyjasnienie": "Baza może leżeć na serwerze, ale nim nie jest.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-05-02",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-05-baza-danych",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Czy aplikacja „Syrena” i jej baza danych to to samo?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Tak – to dwie nazwy jednego programu",
+     "poprawna": false,
+     "wyjasnienie": "To częsta pomyłka laika.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Tak – bo obie są na tym samym serwerze i razem się uruchamiają, więc to jedna rzecz",
+     "poprawna": false,
+     "wyjasnienie": "Miejsce nie czyni ich tym samym.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Nie – aplikacja to narzędzie, a baza to miejsce, w którym leżą dane, np. lista strażaków",
+     "poprawna": true,
+     "wyjasnienie": "Aplikacja korzysta z bazy, ale nią nie jest."
+    },
+    {
+     "tekst": "Nie – baza to sprzęt, a aplikacja to program",
+     "poprawna": false,
+     "wyjasnienie": "Baza danych to dane, a nie sprzęt.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-05-03",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-05-baza-danych",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Co komenda MOŻE trzymać w bazie danych?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Tylko liczby",
+     "poprawna": false,
+     "wyjasnienie": "Baza przechowuje też teksty, daty i inne dane.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Tylko hasła użytkowników, bo inne dane są w plikach",
+     "poprawna": false,
+     "wyjasnienie": "To tylko jeden z wielu przypadków.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Sprzęt komputerowy",
+     "poprawna": false,
+     "wyjasnienie": "Sprzętu nie da się zapisać w bazie, można tylko wpisać informacje o nim.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Listę strażaków, wozy, numery telefonów i historię zgłoszeń",
+     "poprawna": true,
+     "wyjasnienie": "Każdy uporządkowany zbiór informacji nadaje się do bazy danych."
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-05-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-05-baza-danych",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Czym baza danych różni się od jednego pliku z tabelą (arkusza)?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Baza jest zbudowana do porządnego przechowywania i szybkiego wyszukiwania dużej ilości danych przez wielu użytkowników naraz",
+     "poprawna": true,
+     "wyjasnienie": "Arkusz nadaje się do prostych list, a baza do dużych zbiorów, z których korzysta wiele osób i programów."
+    },
+    {
+     "tekst": "Niczym – arkusz to baza danych",
+     "poprawna": false,
+     "wyjasnienie": "Arkusz bywa używany jak prosta baza, ale to nie to samo.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Baza nie może zawierać tabel",
+     "poprawna": false,
+     "wyjasnienie": "Bazy często składają się z tabel.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Arkusz jest bezpieczniejszy, bo leży na jednym komputerze i nikt inny go nie zmienia, więc baza jest potrzebna tylko w wielkich firmach",
+     "poprawna": false,
+     "wyjasnienie": "Bezpieczeństwo nie zależy od rodzaju narzędzia w ten sposób.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-05-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-05-baza-danych",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Kasia wpisuje nowego strażaka w „Syrenie”. Gdzie trafia ta informacja?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Tylko na komputer Kasi, a inni zobaczą go po jej wysłaniu",
+     "poprawna": false,
+     "wyjasnienie": "Wtedy inni dyżurni by jej nie widzieli.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Do bazy danych, z której korzystają wszyscy dyżurni",
+     "poprawna": true,
+     "wyjasnienie": "Aplikacja zapisuje dane w bazie, więc inni od razu je widzą."
+    },
+    {
+     "tekst": "Do systemu operacyjnego",
+     "poprawna": false,
+     "wyjasnienie": "System operacyjny nie przechowuje danych o strażakach.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Do Wi-Fi",
+     "poprawna": false,
+     "wyjasnienie": "Wi-Fi to łączność, a nie miejsce przechowywania danych.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-pre-it0-06",
+   "typ": "rozpoznanie",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-06-konto-logowanie",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Kasia zalogowała się do komputera, ale folder kadr się nie otwiera. Dlaczego?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Jest zalogowana, ale nie ma uprawnień do tego folderu",
+     "poprawna": true,
+     "wyjasnienie": "Zalogowanie (kim jesteś) to co innego niż uprawnienia (co Ci wolno)."
+    },
+    {
+     "tekst": "Komputer jest zepsuty i trzeba go zgłosić",
+     "poprawna": false,
+     "wyjasnienie": "Inne foldery się otwierają."
+    },
+    {
+     "tekst": "Źle wpisała hasło przy logowaniu i system ją zablokował",
+     "poprawna": false,
+     "wyjasnienie": "Wtedy w ogóle by się nie zalogowała."
+    }
+   ],
+   "pretest": true
+  },
+  {
+   "id": "q-it0-06-01",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-06-konto-logowanie",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Uwierzytelnianie (authentication) odpowiada na pytanie:",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "„Co ci wolno zobaczyć i zmienić?”",
+     "poprawna": false,
+     "wyjasnienie": "To autoryzacja.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "„Ile masz plików i ile miejsca zajmują na dysku?”",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "„Czy jest Internet?”",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "„Kim jesteś?” – np. hasło, karta, odcisk palca",
+     "poprawna": true,
+     "wyjasnienie": "System sprawdza, czy jesteś tym, za kogo się podajesz."
+    }
+   ]
+  },
+  {
+   "id": "q-it0-06-02",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-06-konto-logowanie",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Autoryzacja (authorization) to:",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Sprawdzenie, co zalogowana osoba może zrobić lub zobaczyć",
+     "poprawna": true,
+     "wyjasnienie": "Np. Kasia widzi grafiki, ale nie widzi płac."
+    },
+    {
+     "tekst": "Wpisanie hasła i sprawdzenie przez system, że to naprawdę Ty",
+     "poprawna": false,
+     "wyjasnienie": "To uwierzytelnianie.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Założenie nowego komputera",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Wysłanie e-maila",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-06-03",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-06-konto-logowanie",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Dlaczego nie wolno pożyczać swojego konta koledze?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Bo konto się zepsuje",
+     "poprawna": false,
+     "wyjasnienie": "Konto się nie psuje.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Bo wszystko, co zrobi kolega, system zapisze jako Twoje działanie",
+     "poprawna": true,
+     "wyjasnienie": "Konto przypisuje działania do konkretnej osoby. Pożyczenie niszczy rozliczalność."
+    },
+    {
+     "tekst": "Bo kolega zobaczy Twój pulpit",
+     "poprawna": false,
+     "wyjasnienie": "To mało ważny skutek.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Bo system technicznie na to nie pozwala i zablokuje oba konta",
+     "poprawna": false,
+     "wyjasnienie": "Technicznie często pozwala – dlatego jest zasada.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-06-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-06-konto-logowanie",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Strażak przykłada kartę do czytnika i wpisuje PIN. Co to jest?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Autoryzacja (nadanie uprawnień)",
+     "poprawna": false,
+     "wyjasnienie": "Autoryzacja przychodzi potem: co mu wolno.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Kopia zapasowa",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Uwierzytelnianie",
+     "poprawna": true,
+     "wyjasnienie": "Potwierdza, kim jest."
+    },
+    {
+     "tekst": "Usługa IT kontroli dostępu",
+     "poprawna": false,
+     "wyjasnienie": "Logowanie jest częścią usługi, ale pytanie dotyczy samego sprawdzenia tożsamości.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-06-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-06-konto-logowanie",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Kierownik prosi informatyka: „Daj Kasi dostęp do folderu grafików”. Co zmieni informatyk?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Hasło Kasi na silniejsze",
+     "poprawna": false,
+     "wyjasnienie": "Hasło dotyczy tożsamości, nie zakresu dostępu.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "System operacyjny na komputerze Kasi",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma potrzeby go zmieniać.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Sieć Wi-Fi",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Uprawnienia (autoryzację) konta Kasi",
+     "poprawna": true,
+     "wyjasnienie": "Kasia już ma konto i się loguje – zmienia się tylko to, co jej wolno."
+    }
+   ]
+  },
+  {
+   "id": "q-pre-it0-07",
+   "typ": "rozpoznanie",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-07-infrastruktura-aplikacje",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Komenda zleciła utrzymanie serwerów firmie zewnętrznej. Kto odpowiada przed mieszkańcami, jeśli alarm nie wyjdzie?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Komenda – zlecenie pracy firmie nie przenosi odpowiedzialności",
+     "poprawna": true,
+     "wyjasnienie": "Outsourcing przenosi wykonanie, ale nie odpowiedzialność."
+    },
+    {
+     "tekst": "Wyłącznie firma zewnętrzna, bo przejęła utrzymanie",
+     "poprawna": false,
+     "wyjasnienie": "Mieszkańcy rozliczają komendę."
+    },
+    {
+     "tekst": "Nikt – w umowie zapisano, że za awarie losowe nie odpowiada żadna ze stron",
+     "poprawna": false,
+     "wyjasnienie": "Ktoś zawsze odpowiada."
+    }
+   ],
+   "pretest": true
+  },
+  {
+   "id": "q-it0-07-01",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-07-infrastruktura-aplikacje",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Co należy do infrastruktury IT (IT infrastructure)?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Tylko aplikacja „Syrena” i jej baza danych",
+     "poprawna": false,
+     "wyjasnienie": "Aplikacja działa na infrastrukturze, ale nią nie jest.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Serwery, sieć, kable, systemy operacyjne",
+     "poprawna": true,
+     "wyjasnienie": "Infrastruktura to „fundament”, na którym działają aplikacje."
+    },
+    {
+     "tekst": "Grafik dyżurów",
+     "poprawna": false,
+     "wyjasnienie": "To informacja, nie infrastruktura.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Umowa z dostawcą na utrzymanie sprzętu",
+     "poprawna": false,
+     "wyjasnienie": "Umowa dotyczy dostawcy, a nie samej infrastruktury.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-07-02",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-07-infrastruktura-aplikacje",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Firma Kwant-Sygnał sprzedała komendzie system „Syrena”. Kim jest dla komendy?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Użytkownikiem systemu",
+     "poprawna": false,
+     "wyjasnienie": "Użytkownikami są dyżurni.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Infrastrukturą",
+     "poprawna": false,
+     "wyjasnienie": "Firma to nie fundament techniczny.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Dostawcą (supplier)",
+     "poprawna": true,
+     "wyjasnienie": "Dostawca to firma zewnętrzna, która coś dostarcza: sprzęt, program albo usługę."
+    },
+    {
+     "tekst": "Organem nadzoru nad komendą",
+     "poprawna": false,
+     "wyjasnienie": "Firma nie nadzoruje komendy.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-07-03",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-07-infrastruktura-aplikacje",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Czym jest outsourcing?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Zakupem nowego komputera",
+     "poprawna": false,
+     "wyjasnienie": "To zakup sprzętu.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Przeniesieniem całej odpowiedzialności za wynik pracy na firmę zewnętrzną",
+     "poprawna": false,
+     "wyjasnienie": "Odpowiedzialność zostaje w organizacji.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Pracą zdalną pracowników",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Zleceniem firmie zewnętrznej pracy, którą organizacja mogłaby robić sama",
+     "poprawna": true,
+     "wyjasnienie": "Np. utrzymanie serwerów przez Kwant-Sygnał."
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-07-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-07-infrastruktura-aplikacje",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Który opis to USŁUGA IT, czyli to, co dostaje użytkownik?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "„Alarm dociera do OSP w 30 sekund”",
+     "poprawna": true,
+     "wyjasnienie": "To efekt, który ma znaczenie dla ludzi – usługa."
+    },
+    {
+     "tekst": "„Serwer, sieć komputerowa, baza danych”",
+     "poprawna": false,
+     "wyjasnienie": "To składniki, czyli infrastruktura i dane.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "„Aplikacja Syrena w wersji 2.1”",
+     "poprawna": false,
+     "wyjasnienie": "To składnik – aplikacja.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "„Umowa serwisowa z firmą Kwant-Sygnał”",
+     "poprawna": false,
+     "wyjasnienie": "To relacja z dostawcą.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-07-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-07-infrastruktura-aplikacje",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Dlaczego warto rozróżniać aplikację od infrastruktury?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Bo aplikacja jest zawsze droższa od infrastruktury i trzeba ją osobno księgować w budżecie",
+     "poprawna": false,
+     "wyjasnienie": "Cena nie jest powodem rozróżnienia.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Bo awaria jednego nie zawsze oznacza awarię drugiego i za każde może odpowiadać ktoś inny",
+     "poprawna": true,
+     "wyjasnienie": "Np. serwer działa, a aplikacja ma błąd – albo odwrotnie."
+    },
+    {
+     "tekst": "Bo infrastruktury nie trzeba utrzymywać",
+     "poprawna": false,
+     "wyjasnienie": "Infrastruktura wymaga utrzymania.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Nie warto – to jedno i to samo",
+     "poprawna": false,
+     "wyjasnienie": "To dwa różne poziomy.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-pre-it0-08",
+   "typ": "rozpoznanie",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-08-gdy-cos-sie-psuje",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "„Syrena” trzeci raz w tym miesiącu przestaje wysyłać SMS-y. Co trzeba zrobić oprócz szybkiego przywrócenia działania?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Szukać przyczyny, żeby awaria się nie powtarzała",
+     "poprawna": true,
+     "wyjasnienie": "Szybkie przywrócenie to obsługa incydentu. Szukanie przyczyny to obsługa problemu."
+    },
+    {
+     "tekst": "Nic – wystarczy restart",
+     "poprawna": false,
+     "wyjasnienie": "Restart pomaga na chwilę, ale awaria wróci."
+    },
+    {
+     "tekst": "Kupić nowe telefony strażakom, żeby SMS-y docierały",
+     "poprawna": false,
+     "wyjasnienie": "Nie wiemy, czy wina leży w telefonach."
+    }
+   ],
+   "pretest": true
+  },
+  {
+   "id": "q-it0-08-01",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-08-gdy-cos-sie-psuje",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Incydent (incident) to:",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Przyczyna powtarzających się awarii, której jeszcze nie znamy",
+     "poprawna": false,
+     "wyjasnienie": "To problem.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Zaplanowana aktualizacja systemu, która na chwilę go wyłącza",
+     "poprawna": false,
+     "wyjasnienie": "To zmiana.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Kopia danych na wypadek awarii",
+     "poprawna": false,
+     "wyjasnienie": "To kopia zapasowa.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Nieplanowana przerwa albo pogorszenie działania usługi, które trzeba szybko naprawić",
+     "poprawna": true,
+     "wyjasnienie": "Np. dziś rano „Syrena” nie wysłała SMS-ów."
+    }
+   ]
+  },
+  {
+   "id": "q-it0-08-02",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-08-gdy-cos-sie-psuje",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Czym różni się problem (problem) od incydentu?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Problem to nieznana przyczyna jednego lub wielu incydentów",
+     "poprawna": true,
+     "wyjasnienie": "Incydent gasimy, problem badamy, żeby nie wracał."
+    },
+    {
+     "tekst": "Problem to poważniejszy incydent, który trwa dłużej niż godzinę",
+     "poprawna": false,
+     "wyjasnienie": "Wielkość nie decyduje.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Niczym",
+     "poprawna": false,
+     "wyjasnienie": "To dwa różne pojęcia.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Problem dotyczy tylko sprzętu",
+     "poprawna": false,
+     "wyjasnienie": "Przyczyna może być w czymkolwiek.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-08-03",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-08-gdy-cos-sie-psuje",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Czym kopia zapasowa (backup) różni się od ciągłości działania (business continuity)?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "To to samo",
+     "poprawna": false,
+     "wyjasnienie": "Kopia bez planu nie zapewni pracy w czasie awarii.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Kopia chroni dane, a ciągłość działania to plan, jak pracować dalej, gdy system padnie",
+     "poprawna": true,
+     "wyjasnienie": "Kopia to jeden ze składników planu ciągłości – ale nie całość."
+    },
+    {
+     "tekst": "Ciągłość działania to kopia danych trzymana na pendrivie w sejfie komendanta, na wypadek pożaru",
+     "poprawna": false,
+     "wyjasnienie": "To zbyt wąsko.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Kopia dotyczy ludzi, a ciągłość danych",
+     "poprawna": false,
+     "wyjasnienie": "Odwrotnie i pomieszane.",
+     "pulapka": "odwrocone"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-08-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-08-gdy-cos-sie-psuje",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Informatyk chce zainstalować nową wersję „Syreny”, żeby usunąć przyczynę awarii. Jak to nazwać?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Incydent (bo usuwa awarię)",
+     "poprawna": false,
+     "wyjasnienie": "Incydent to nieplanowana awaria.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Kopia zapasowa",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Zmiana (change)",
+     "poprawna": true,
+     "wyjasnienie": "Planowane wprowadzenie czegoś nowego lub poprawionego to zmiana – trzeba ją zaplanować i sprawdzić."
+    },
+    {
+     "tekst": "Problem (bo dotyczy przyczyny)",
+     "poprawna": false,
+     "wyjasnienie": "Problem to przyczyna – a tu jest jej usuwanie.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-08-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07"
+   ],
+   "lekcja": "it0-08-gdy-cos-sie-psuje",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Co jest przykładem dbania o ciągłość działania w komendzie?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Codzienne sprzątanie biura",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Kupno szybszego komputera dla dyżurnego",
+     "poprawna": false,
+     "wyjasnienie": "To nie plan na awarię.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Regularna zmiana hasła do Wi-Fi w budynku komendy",
+     "poprawna": false,
+     "wyjasnienie": "To dbanie o bezpieczeństwo, a nie o ciągłość.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Papierowa lista telefonów do OSP i ćwiczenie „noc bez Syreny”",
+     "poprawna": true,
+     "wyjasnienie": "Ciągłość działania to umiejętność pracy także wtedy, gdy system nie działa."
+    }
+   ]
+  },
+  {
+   "id": "q-pre-it0-09",
+   "typ": "rozpoznanie",
+   "sylabus": [
+    "M0-00-07",
+    "M0-00-04"
+   ],
+   "lekcja": "it0-09-bezpieczenstwo-ryzyko",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Hasło do „Syreny” wisi na karteczce przy monitorze. Co to jest?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Ryzyko – coś złego może się wydarzyć, choć jeszcze się nie wydarzyło",
+     "poprawna": true,
+     "wyjasnienie": "Ryzyko to możliwość szkody. Incydent to szkoda, która już się dzieje."
+    },
+    {
+     "tekst": "Incydent bezpieczeństwa",
+     "poprawna": false,
+     "wyjasnienie": "Nic się jeszcze nie stało."
+    },
+    {
+     "tekst": "Drobiazg bez znaczenia, bo hasło jest długie i trudne do zapamiętania",
+     "poprawna": false,
+     "wyjasnienie": "Każdy może przeczytać hasło."
+    }
+   ],
+   "pretest": true
+  },
+  {
+   "id": "q-it0-09-01",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07",
+    "M0-00-04"
+   ],
+   "lekcja": "it0-09-bezpieczenstwo-ryzyko",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Trzy cechy bezpieczeństwa informacji (information security) to:",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Szybkość, cena, wygląd",
+     "poprawna": false,
+     "wyjasnienie": "To nie są cechy bezpieczeństwa.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poufność, integralność, dostępność",
+     "poprawna": true,
+     "wyjasnienie": "Tylko uprawnieni widzą, dane są prawdziwe i nieuszkodzone, a system działa, gdy jest potrzebny."
+    },
+    {
+     "tekst": "Hasło, karta dostępu, odcisk palca",
+     "poprawna": false,
+     "wyjasnienie": "To sposoby uwierzytelniania.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Serwer, sieć komputerowa, baza danych",
+     "poprawna": false,
+     "wyjasnienie": "To składniki techniczne.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-09-02",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07",
+    "M0-00-04"
+   ],
+   "lekcja": "it0-09-bezpieczenstwo-ryzyko",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "„Syrena” jest dostępna tylko w dzień, a w nocy przestaje działać. Która cecha bezpieczeństwa jest naruszona?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Poufność",
+     "poprawna": false,
+     "wyjasnienie": "Nikt niepowołany niczego nie zobaczył.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Integralność",
+     "poprawna": false,
+     "wyjasnienie": "Dane nie zostały zmienione.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Dostępność (availability)",
+     "poprawna": true,
+     "wyjasnienie": "System musi działać wtedy, gdy jest potrzebny – także w nocy."
+    },
+    {
+     "tekst": "Żadna – to tylko sprawa sprzętu i grafiku pracy informatyków",
+     "poprawna": false,
+     "wyjasnienie": "Dostępność jest cechą bezpieczeństwa informacji.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-09-03",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07",
+    "M0-00-04"
+   ],
+   "lekcja": "it0-09-bezpieczenstwo-ryzyko",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Czym ryzyko związane z IT (IT-related risk) różni się od incydentu?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Niczym",
+     "poprawna": false,
+     "wyjasnienie": "To różne pojęcia.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Ryzyko dotyczy tylko pieniędzy, a incydent dotyczy systemów i danych w komendzie",
+     "poprawna": false,
+     "wyjasnienie": "Ryzyko IT dotyczy też ludzi, danych i usług.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Incydent to przyszła szkoda, a ryzyko obecna",
+     "poprawna": false,
+     "wyjasnienie": "Odwrotnie.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Ryzyko to możliwość szkody w przyszłości, a incydent to szkoda, która już się dzieje",
+     "poprawna": true,
+     "wyjasnienie": "Ryzykiem zarządzamy zawczasu, incydent obsługujemy teraz."
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-09-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07",
+    "M0-00-04"
+   ],
+   "lekcja": "it0-09-bezpieczenstwo-ryzyko",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Ktoś zmienił w bazie numer telefonu strażaka na błędny. Która cecha bezpieczeństwa jest naruszona?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Integralność – dane przestały być prawdziwe",
+     "poprawna": true,
+     "wyjasnienie": "Integralność znaczy, że dane są poprawne i nikt ich nie zmienił bez prawa."
+    },
+    {
+     "tekst": "Dostępność – baza działa wolniej",
+     "poprawna": false,
+     "wyjasnienie": "Baza działa.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Poufność – ktoś zajrzał do bazy",
+     "poprawna": false,
+     "wyjasnienie": "Nikt nie zobaczył czegoś, czego nie powinien.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Żadna – to zwykła literówka, a nie sprawa bezpieczeństwa",
+     "poprawna": false,
+     "wyjasnienie": "Błędne dane to naruszenie integralności.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-09-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-07",
+    "M0-00-04"
+   ],
+   "lekcja": "it0-09-bezpieczenstwo-ryzyko",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Co jest najlepszą reakcją na ryzyko „hasło na karteczce”?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Czekać, aż ktoś się włamie",
+     "poprawna": false,
+     "wyjasnienie": "To dopuszczenie do incydentu.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Zmienić hasło i ustalić, gdzie bezpiecznie przechowywać hasła",
+     "poprawna": true,
+     "wyjasnienie": "Działamy, zanim ryzyko zamieni się w incydent."
+    },
+    {
+     "tekst": "Wyłączyć „Syrenę”, dopóki informatyk nie sprawdzi wszystkich kont",
+     "poprawna": false,
+     "wyjasnienie": "To odcina usługę, której potrzebujemy.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Kupić nowy monitor",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-pre-it0-10",
+   "typ": "rozpoznanie",
+   "sylabus": [
+    "M0-00-05",
+    "M0-00-07"
+   ],
+   "lekcja": "it0-10-projekt-program",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Pieniędzy starczy na dwie rzeczy z trzech: nowy system, kamery i szkolenia. Kto powinien wybrać?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Kierownictwo – patrząc, co da komendzie najwięcej korzyści przy rozsądnym ryzyku",
+     "poprawna": true,
+     "wyjasnienie": "Wybór między inicjatywami to decyzja o portfelu – należy do kierownictwa."
+    },
+    {
+     "tekst": "Informatyk, bo najlepiej zna się na technice i kosztach",
+     "poprawna": false,
+     "wyjasnienie": "Informatyk doradza, ale nie wybiera priorytetów."
+    },
+    {
+     "tekst": "Dostawca, bo wie, co jest najnowsze",
+     "poprawna": false,
+     "wyjasnienie": "Dostawca ma własny interes."
+    }
+   ],
+   "pretest": true
+  },
+  {
+   "id": "q-it0-10-01",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-05",
+    "M0-00-07"
+   ],
+   "lekcja": "it0-10-projekt-program",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Ułóż od największego: projekt, program, portfel.",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Projekt → program → portfel",
+     "poprawna": false,
+     "wyjasnienie": "Odwrotnie.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Program → portfel → projekt",
+     "poprawna": false,
+     "wyjasnienie": "Portfel jest największy.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Wszystkie są tej samej wielkości",
+     "poprawna": false,
+     "wyjasnienie": "To trzy różne poziomy.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Portfel → program → projekt",
+     "poprawna": true,
+     "wyjasnienie": "Portfel to wszystkie inicjatywy, program to grupa powiązanych projektów, projekt to jedno przedsięwzięcie."
+    }
+   ]
+  },
+  {
+   "id": "q-it0-10-02",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-05",
+    "M0-00-07"
+   ],
+   "lekcja": "it0-10-projekt-program",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Dlaczego słowo „program” bywa mylące w kursie COBIT?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Bo oznacza i aplikację (program komputerowy), i grupę powiązanych projektów (programme)",
+     "poprawna": true,
+     "wyjasnienie": "Z kontekstu trzeba odczytać, o które znaczenie chodzi."
+    },
+    {
+     "tekst": "Bo w COBIT nie ma programów, są tylko projekty i portfel, a słowo pochodzi z informatyki",
+     "poprawna": false,
+     "wyjasnienie": "Są – np. program wdrożenia.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Bo program to zawsze sprzęt",
+     "poprawna": false,
+     "wyjasnienie": "Program nigdy nie jest sprzętem.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Nie bywa mylące",
+     "poprawna": false,
+     "wyjasnienie": "Ma dwa różne znaczenia.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-it0-10-03",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-05",
+    "M0-00-07"
+   ],
+   "lekcja": "it0-10-projekt-program",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Wdrożenie „Syreny”: zakup systemu, szkolenia dyżurnych i nowe procedury, prowadzone razem dla jednego celu. To:",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "pojedynczy, duży projekt",
+     "poprawna": false,
+     "wyjasnienie": "To kilka powiązanych przedsięwzięć.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "program (programme)",
+     "poprawna": true,
+     "wyjasnienie": "Kilka powiązanych projektów, które razem dają jedną korzyść."
+    },
+    {
+     "tekst": "portfel inicjatyw komendy",
+     "poprawna": false,
+     "wyjasnienie": "Portfel to wszystkie inicjatywy komendy, nie tylko „Syrena”.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "aplikacja",
+     "poprawna": false,
+     "wyjasnienie": "Mylące znaczenie słowa „program”.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-10-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-05",
+    "M0-00-07"
+   ],
+   "lekcja": "it0-10-projekt-program",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Czym jest projekt (project)?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Stałą, powtarzalną pracą",
+     "poprawna": false,
+     "wyjasnienie": "To proces.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Wszystkimi inicjatywami organizacji, między którymi wybieramy w danym roku",
+     "poprawna": false,
+     "wyjasnienie": "To portfel.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Jednorazowym przedsięwzięciem z celem, początkiem, końcem i budżetem",
+     "poprawna": true,
+     "wyjasnienie": "Np. „zakup kamer do JRG 2 do marca”."
+    },
+    {
+     "tekst": "Programem komputerowym",
+     "poprawna": false,
+     "wyjasnienie": "Mylące skojarzenie.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-it0-10-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-05",
+    "M0-00-07"
+   ],
+   "lekcja": "it0-10-projekt-program",
+   "bloom": "zastosowanie",
+   "trudnosc": 1,
+   "tresc": "Komendantka przegląda wszystkie inicjatywy komendy i decyduje, które finansować w tym roku. Czym zarządza?",
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Jednym projektem",
+     "poprawna": false,
+     "wyjasnienie": "Patrzy na wszystkie naraz.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Procesem obsługi zgłoszeń",
+     "poprawna": false,
+     "wyjasnienie": "To inna rzecz.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Infrastrukturą",
+     "poprawna": false,
+     "wyjasnienie": "Nie ma związku.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Portfelem (portfolio)",
+     "poprawna": true,
+     "wyjasnienie": "Portfel to zestaw wszystkich inicjatyw, między którymi wybieramy."
+    }
+   ]
+  }
+ ]
+}

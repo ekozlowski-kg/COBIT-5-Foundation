@@ -1,0 +1,90 @@
+{
+  "id": "it-problem",
+  "en": "Problem",
+  "wymowa": "problem",
+  "wymowaAkcent": "PROB-lem",
+  "plEgzamin": "Problem",
+  "plPodrecznik": "problem",
+  "plInne": [
+    "przyczyna źródłowa (root cause)"
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "problem (FW-PL s. 33: DSS03)",
+    "kurs": "Problem (Problem)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. W mowie potocznej „problem” to każdy kłopot. W IT i w COBIT 5 (DSS03 Zarządzanie problemami, Manage Problems) to przyczyna jednego lub wielu incydentów."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-incydent"
+  ],
+  "poLudzku": "Ukryta przyczyna awarii, która sprawia, że te same kłopoty wracają.",
+  "poziom1": "Problem to przyczyna jednego albo wielu incydentów. Zarządzanie problemami polega na znalezieniu tej przyczyny i usunięciu jej, żeby incydenty się nie powtarzały.",
+  "poziom2": "Gdy przyczyna jest już znana, ale jeszcze nieusunięta, mówimy o **znanym błędzie** (EN: known error) i zapisujemy obejście. Usunięcie przyczyny często wymaga zmiany – np. wymiany części albo poprawki programu.",
+  "poziom3": "W COBIT 5 przyczynami incydentów zajmuje się proces DSS03 Zarządzanie problemami (FW-PL s. 33). FW-PL używa też słowa potocznie, np. *„problemy z realizacją usług w ramach outsourcingu”* (s. 36) – wtedy to zwykły kłopot.",
+  "wyobrazSobie": "Lekarz, który nie tylko daje tabletkę na ból głowy, ale szuka, dlaczego głowa boli co tydzień.",
+  "poCo": "Żeby nie gasić w kółko tych samych pożarów, tylko usunąć ich źródło.",
+  "jakDziala": "Ktoś zauważa, że incydenty się powtarzają albo jeden był bardzo poważny. Otwiera się problem. Specjaliści zbierają fakty i szukają przyczyny. Gdy ją znajdą, planują jej usunięcie.",
+  "dlaczegoWazne": "Bez zarządzania problemami organizacja płaci za te same awarie wiele razy.",
+  "przyklady": {
+    "zycie": "Co zimę zamarza Ci rura w garażu. Za każdym razem ją rozmrażasz (incydent). W końcu ocieplasz rurę (usuwasz problem).",
+    "biuro": "Drukarka zacina się co kilka dni. Informatyk wreszcie odkrywa, że używacie złego papieru. Zmiana papieru kończy kłopot.",
+    "organizacja": "System sprzedaży zawiesza się co poniedziałek rano. Analiza pokazuje, że w poniedziałki loguje się naraz zbyt wiele osób. Firma rozbudowuje serwer.",
+    "psp": "Po nocy na Lipowej Ola Dudek szuka, dlaczego OSP Zawilce nie dostała alarmu. Znajduje przyczynę: w bazie był nieaktualny numer naczelnika Pietrzaka.",
+    "it": "Przyczynami incydentów zajmuje się proces DSS03 Zarządzanie problemami (FW-PL s. 33)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-incydent",
+      "roznica": "Incydent: objaw, gasimy szybko. Problem: przyczyna, szukamy jej i usuwamy."
+    },
+    {
+      "termin": "ryzyko",
+      "roznica": "Ryzyko to możliwość przyszłego zdarzenia. Problem to przyczyna zdarzeń, które już nastąpiły."
+    }
+  ],
+  "przykladWypowiedzi": "A problem, czyli problem, to root cause, czyli przyczyna źródłowa, kilku incidents, czyli incydentów; zajmuje się nim DSS03 Manage Problems.",
+  "egzamin": "DSS03 Zarządzanie problemami (Manage Problems). Na egzaminie: problem ≠ incydent, a w pytaniach o ryzyko „problem” oznacza coś, co już zaistniało (zob. hasło „ryzyko”).",
+  "powiazane": [
+    "it-incydent",
+    "it-zmiana",
+    "ryzyko",
+    "proc-dss03"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "DSS03 Zarządzanie problemami"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Codziennie rano budzik dzwoni za późno i przepraszasz szefa za spóźnienie. Przeprosiny to „gaszenie”. Gdy odkryjesz, że budzik ma słabą baterię, i ją wymienisz, usuwasz przyczynę.",
+    "zaawansowany": "„Syrena” zawiesza się trzeci raz w miesiącu. Ola Dudek zamiast kolejny raz ją uruchamiać, otwiera problem. Sprawdza zapisy serwera i widzi: zawieszenie następuje zawsze, gdy brakuje miejsca na dysku. Przyczyna znaleziona. Usunięcie jej, czyli powiększenie dysku, to już [[it-zmiana|zmiana]], którą trzeba zaplanować.",
+    "skrajny": "Czy jeden poważny incydent może być powodem otwarcia problemu? Tak – nie trzeba czekać na powtórkę. Czy problem można zostawić bez usunięcia przyczyny? Można zapisać go jako znany błąd z obejściem, gdy usunięcie jest za drogie. Czy „problem z dostawcą” w rozmowie to problem w sensie DSS03? Nie – to potoczny kłopot. **Rozstrzygnięcie:** problem to przyczyna incydentów; zarządzanie nim to szukanie i usuwanie przyczyny, a nie przywracanie działania."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Problem i incydent to synonimy.",
+      "prawda": "Incydent to objaw w usłudze. Problem to przyczyna jednego lub wielu incydentów."
+    },
+    {
+      "mit": "Problem otwiera się dopiero po wielu awariach.",
+      "prawda": "Wystarczy jeden poważny incydent, by szukać przyczyny."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Używanie słowa „problem” na każdy kłopot i zamykanie problemu razem z incydentem.",
+    "jakTlumaczyc": "Zamarzająca rura: rozmrażanie to incydent, ocieplenie rury to usunięcie problemu.",
+    "pytanieKontrolne": "Ola trzy razy uruchamiała ponownie serwer. Co powinna zrobić teraz?",
+    "odpowiedzKontrolna": "Otworzyć problem: znaleźć przyczynę zawieszania się (np. brak miejsca na dysku) i zaplanować jej usunięcie."
+  }
+}

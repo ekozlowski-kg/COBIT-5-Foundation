@@ -1,0 +1,89 @@
+{
+  "id": "it-serwer",
+  "en": "Server",
+  "wymowa": "serwer",
+  "wymowaAkcent": "SER-wer",
+  "plEgzamin": "Serwer",
+  "plPodrecznik": "—",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "—",
+    "kurs": "Serwer (Server)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Polska forma powstała z angielskiej i brzmi prawie tak samo."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-hardware",
+    "it-software",
+    "it-siec"
+  ],
+  "poLudzku": "Komputer albo program, który na prośbę innych urządzeń coś dla nich robi i odsyła wynik.",
+  "poziom1": "Serwer to rola: komputer albo program, który odbiera prośby z sieci, przygotowuje odpowiedź i ją odsyła. Na przykład serwer banku odpowiada na pytanie aplikacji: „ile pieniędzy jest na koncie?”.",
+  "poziom2": "Serwery zwykle działają bez przerwy, stoją w specjalnym pomieszczeniu (serwerowni) i obsługują wiele urządzeń naraz. Ale serwerem może być też zwykły laptop, jeśli odpowiada na prośby innych. Jeden komputer może pełnić kilka ról, np. być serwerem plików i serwerem poczty.",
+  "poziom3": "COBIT 5 nie definiuje serwera. Serwery należą do infrastruktury technicznej (sprzęt i oprogramowanie systemowe, FW-PL s. 86), na której działają aplikacje i usługi IT.",
+  "wyobrazSobie": "Kelner w restauracji: przyjmuje zamówienie od gościa, idzie do kuchni i wraca z daniem.",
+  "poCo": "Żeby wiele osób mogło korzystać z jednego miejsca z danymi i programami, zamiast trzymać wszystko u siebie.",
+  "jakDziala": "Urządzenie wysyła przez sieć prośbę. Serwer ją odbiera, sprawdza, czy może ją spełnić, i przygotowuje odpowiedź. Odpowiedź wraca przez sieć do urządzenia, które prosiło.",
+  "dlaczegoWazne": "Gdy serwer stoi, wszystkie urządzenia, które z niego korzystają, przestają działać naraz. Dlatego organizacje dbają o zapasowe serwery i zasilanie.",
+  "przyklady": {
+    "zycie": "Bankomat pyta serwer banku, czy masz pieniądze. Serwer sprawdza konto i odpowiada: „tak, wypłać”.",
+    "biuro": "Wspólne foldery działu leżą na serwerze plików. Każdy komputer w biurze prosi go o dokumenty.",
+    "organizacja": "Sklep internetowy ma serwer, który pokazuje klientom towary i przyjmuje zamówienia z całego kraju.",
+    "psp": "„Syrena” działa na jednym serwerze pod schodami komendy, bez zasilania awaryjnego. Gdy on stoi, żaden dyżurny nie wyśle alarmu.",
+    "it": "Serwery to część infrastruktury technicznej w aktywatorze Usługi, infrastruktura i aplikacje (FW-PL s. 86)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-klient",
+      "roznica": "Serwer odpowiada. Klient prosi. To role, a nie rodzaje sprzętu."
+    },
+    {
+      "termin": "it-internet",
+      "roznica": "Internet to droga, którą idzie prośba. Serwer jest na końcu tej drogi i odpowiada."
+    }
+  ],
+  "przykladWypowiedzi": "A server, czyli serwer, odpowiada na requests, czyli żądania, od clients, czyli klientów; „Syrena” ma jeden server.",
+  "egzamin": "Nie jest terminem egzaminu. Bez niego trudno zrozumieć usługi IT i infrastrukturę w aktywatorze Usługi, infrastruktura i aplikacje.",
+  "powiazane": [
+    "it-klient",
+    "it-zadanie-odpowiedz",
+    "it-usluga-it",
+    "it-infrastruktura"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 86,
+      "cytat": "infrastruktura techniczna, w tym sprzęt, oprogramowanie systemowe oraz infrastruktura sieciowa"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Dzwonisz do pizzerii i zamawiasz pizzę. Pizzeria przyjmuje zamówienie, piecze i przywozi. Ty prosisz, pizzeria odpowiada. Serwer to taka „pizzeria” dla komputerów.",
+    "zaawansowany": "Kasia Nowik pyta: „Czy serwer to ta szafa w piwnicy?”. Ola Dudek odpowiada: „Szafa to [[it-hardware|sprzęt]]. Serwerem jest to, co w niej odpowiada na prośby”. W piwnicy komendy jeden komputer jest jednocześnie serwerem plików i serwerem poczty. Gdy się zepsuje, padają obie rzeczy naraz.",
+    "skrajny": "Czy telefon może być serwerem? Tak, jeśli udostępnia coś innym, np. swoje połączenie z Internetem dla laptopa. Czy serwer musi być duży? Nie, to rola. Czy awaria jednego serwera to awaria jednej usługi? Nie zawsze – jeden serwer może obsługiwać kilka usług. **Rozstrzygnięcie:** serwer to rola „odpowiadającego”, a nie rodzaj obudowy; o tym, czy coś jest serwerem, decyduje to, czy odpowiada na prośby innych."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Serwer to zawsze wielka szafa w serwerowni.",
+      "prawda": "Serwer to rola. Może nim być zwykły komputer albo sam program."
+    },
+    {
+      "mit": "Serwer i Internet to to samo.",
+      "prawda": "Internet to droga. Serwer to ten, kto na jej końcu odpowiada."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Traktowanie serwera jako rodzaju sprzętu, a nie roli.",
+    "jakTlumaczyc": "Kelner: ta sama osoba w domu nie jest kelnerem; jest nim, gdy obsługuje gości.",
+    "pytanieKontrolne": "Czy laptop może być serwerem?",
+    "odpowiedzKontrolna": "Tak, jeśli odpowiada na prośby innych urządzeń, np. udostępnia im pliki."
+  }
+}

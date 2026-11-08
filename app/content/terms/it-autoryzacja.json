@@ -1,0 +1,97 @@
+{
+  "id": "it-autoryzacja",
+  "en": "Authorization",
+  "wymowa": "otorajzejszyn",
+  "wymowaAkcent": "o-to-raj-ZEJ-szyn",
+  "plEgzamin": "Autoryzacja",
+  "plPodrecznik": "—",
+  "plInne": [
+    "nadawanie uprawnień",
+    "uprawnienia"
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "— (słownik FW-PL mieści sprawdzanie uprawnień w haśle „Uwierzytelnienie”, s. 89)",
+    "kurs": "Autoryzacja (Authorization)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. W języku codziennym „autoryzacja” bywa też zgodą na coś, np. autoryzacja płatności kartą."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-uwierzytelnianie",
+    "it-konto"
+  ],
+  "poLudzku": "Ustalenie, co wolno zrobić osobie, która już się zalogowała.",
+  "poziom1": "Autoryzacja odpowiada na pytanie „co wolno Ci zrobić?”. Po zalogowaniu system sprawdza uprawnienia konta: które foldery możesz otworzyć, co możesz zmieniać, a co tylko oglądać.",
+  "poziom2": "Uprawnienia przydziela się zwykle według stanowiska (roli): kadrowa widzi dane kadrowe, dyżurny wysyła alarmy, informatyk zmienia ustawienia. Dobra zasada: każdy dostaje tylko tyle uprawnień, ile potrzebuje do pracy (EN: least privilege – zasada najmniejszych uprawnień).",
+  "poziom3": "W COBIT 5 zarządzanie uprawnieniami to część usług bezpieczeństwa (DSS05 Zarządzanie usługami bezpieczeństwa). Słownik FW-PL włącza sprawdzanie uprawnień do definicji uwierzytelnienia (s. 89). Uwaga: [[poziom-uprawnien|poziom uprawnień]] w COBIT 5 oznacza uprawnienia decyzyjne struktur organizacyjnych – to inne znaczenie.",
+  "wyobrazSobie": "Klucze w hotelu: recepcja wie, kim jesteś, i daje klucz tylko do Twojego pokoju, a nie do wszystkich.",
+  "poCo": "Żeby każdy widział i zmieniał tylko to, czego potrzebuje do pracy – i żeby błąd albo włamanie nie objęły wszystkiego.",
+  "jakDziala": "Administrator przypisuje kontu uprawnienia, np. „może czytać folder Raporty”. Gdy klikasz folder, system sprawdza listę uprawnień. Jest zgoda – otwiera. Nie ma – pokazuje „brak dostępu”.",
+  "dlaczegoWazne": "Zbyt szerokie uprawnienia to częsta przyczyna wycieków danych. W COBIT 5 to element bezpieczeństwa informacji.",
+  "przyklady": {
+    "zycie": "Telefon pyta: „Czy aplikacja Mapy może korzystać z Twojej lokalizacji?”. Gdy klikniesz „Nie”, aplikacja działa, ale nie wie, gdzie jesteś.",
+    "biuro": "Pracownik działu sprzedaży otwiera folder „Oferty”, ale folder „Płace” pokazuje mu „Brak dostępu”.",
+    "organizacja": "W banku kasjer może wypłacić do 10 000 zł. Większą wypłatę musi zatwierdzić kierownik, bo ma szersze uprawnienia.",
+    "psp": "Dyżurni mogą w „Syrenie” wysyłać alarmy, ale tylko Ola Dudek może zmieniać numery w bazie strażaków.",
+    "it": "Zarządzanie uprawnieniami to część DSS05 Zarządzanie usługami bezpieczeństwa; w dużych organizacjach uprawnienia nadaje się według ról."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-uwierzytelnianie",
+      "roznica": "Uwierzytelnianie: kim jesteś. Autoryzacja: co Ci wolno."
+    },
+    {
+      "termin": "poziom-uprawnien",
+      "roznica": "„Poziom uprawnień” w COBIT 5 to uprawnienia decyzyjne struktury organizacyjnej (np. co może postanowić rada), a nie dostęp do plików."
+    }
+  ],
+  "przykladWypowiedzi": "After authentication, czyli po uwierzytelnieniu, system sprawdza authorization, czyli autoryzację: co wolno mi zrobić.",
+  "egzamin": "Nie jest pytana wprost. Uważaj na „poziom uprawnień” (struktury organizacyjne) – to inne znaczenie słowa „uprawnienia”.",
+  "powiazane": [
+    "it-uwierzytelnianie",
+    "it-konto",
+    "it-bezpieczenstwo-informacji",
+    "poziom-uprawnien"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 89,
+      "cytat": "Akt weryfikacji tożsamości użytkownika oraz jego uprawnień dostępu do informacji w systemach komputerowych."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "DSS05 Zarządzanie usługami bezpieczeństwa"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Masz klucz do swojego mieszkania, ale nie do mieszkania sąsiada, choć wchodzicie tą samą klatką. Domofon wpuszcza Was obu do budynku (uwierzytelnianie), ale klucz otwiera tylko Twoje drzwi (autoryzacja).",
+    "zaawansowany": "Ola Dudek przegląda uprawnienia w „Syrenie”. Okazuje się, że wszyscy dyżurni mogą zmieniać numery w bazie. Dlatego ktoś mógł omyłkowo nadpisać numer Pietrzaka. Ola zostawia tę możliwość tylko sobie i zastępcy. Tak wąskie uprawnienia chronią [[it-baza-danych|bazę danych]] przed przypadkowymi zmianami.",
+    "skrajny": "Czy „brak dostępu” po zalogowaniu to błąd systemu? Nie – system działa i odmawia. Czy informatyk z pełnymi uprawnieniami powinien używać ich na co dzień? Lepiej, by do zwykłej pracy miał zwykłe konto, a pełne uprawnienia tylko do zadań administracyjnych. Czy autoryzacja płatności kartą to to samo? To zgoda banku na płatność – inne użycie słowa. **Rozstrzygnięcie:** autoryzacja to decyzja, co wolno zalogowanej osobie; następuje po uwierzytelnieniu i powinna dawać tylko tyle, ile potrzeba do pracy."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Kto się zaloguje, ma dostęp do wszystkiego.",
+      "prawda": "Po zalogowaniu system sprawdza uprawnienia. Dostęp dostajesz tylko do tego, co Ci przydzielono."
+    },
+    {
+      "mit": "Im więcej uprawnień, tym lepiej dla pracy.",
+      "prawda": "Nadmiar uprawnień zwiększa skutki pomyłki i włamania. Każdy ma mieć tylko to, czego potrzebuje."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie autoryzacji z uwierzytelnianiem i nadawanie wszystkim pełnych uprawnień „na wszelki wypadek”.",
+    "jakTlumaczyc": "Domofon i klucz do mieszkania; hotelowa recepcja i klucz do jednego pokoju.",
+    "pytanieKontrolne": "Dlaczego dyżurny nie powinien móc zmieniać numerów w bazie „Syreny”?",
+    "odpowiedzKontrolna": "Bo nie potrzebuje tego do pracy. Mniej uprawnień to mniej przypadkowych zmian i mniejsze szkody przy włamaniu."
+  }
+}

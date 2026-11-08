@@ -1,0 +1,33 @@
+{
+  "_note": "PRZYKŁAD STRUKTURY — nie rzeczywista próba i nie importować do statystyk.",
+  "attempt_id": "example_only",
+  "bank_version": "1.0",
+  "test_id": "test_09",
+  "mode": "test",
+  "started_at": null,
+  "finished_at": null,
+  "question_order": [
+    "T09Q01",
+    "T09Q02"
+  ],
+  "option_order_by_question": {
+    "T09Q01": [
+      "C",
+      "A",
+      "D",
+      "B"
+    ],
+    "T09Q02": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "answers_by_question_id": {
+    "T09Q01": null,
+    "T09Q02": null
+  },
+  "score": null,
+  "status": "example_not_attempt"
+}

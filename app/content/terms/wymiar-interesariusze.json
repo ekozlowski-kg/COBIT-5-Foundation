@@ -1,0 +1,119 @@
+{
+  "id": "wymiar-interesariusze",
+  "en": "Stakeholders (enabler dimension)",
+  "wymowa": "stejkhołders",
+  "wymowaAkcent": "STEJK-hoł-ders",
+  "plEgzamin": "Interesariusze (wymiar aktywatora)",
+  "plPodrecznik": "Interesariusze (wymiar czynnika umożliwiającego)",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Interesariusze (wymiar aktywatora)",
+    "podrecznik": "Interesariusze (wymiar czynnika umożliwiającego)",
+    "kurs": "Interesariusze (wymiar aktywatora) – Stakeholders",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 28, 29, 65."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Interesariusze” to w COBIT 5 trzy różne miejsca: Zasada 1, rola z Ilustracji 9 i wymiar aktywatora. Tu chodzi o wymiar, czyli interesariuszy jednego aktywatora.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "wymiary-aktywatora",
+    "interesariusz",
+    "aktywator"
+  ],
+  "poLudzku": "Kto korzysta z danej procedury, systemu czy zespołu albo czuje skutki jego działania, z firmy i spoza niej.",
+  "skadNazwa": "Ta sama nazwa „interesariusze” pada w trzech miejscach COBIT 5. W wymiarze chodzi o interesariuszy jednego aktywatora, np. jednego procesu.",
+  "wyobrazSobie": "Lista osób przy weselu: jedni coś robią (kucharze, zespół), drugim ma być dobrze (goście).",
+  "poCo": "Żeby przy każdym aktywatorze wiedzieć, kto w nim uczestniczy i czyje potrzeby ma spełniać.",
+  "jakDziala": "Dla aktywatora wypisujesz strony z aktywną rolą i strony tylko zainteresowane. Dzielisz je na wewnętrzne i zewnętrzne. Potem sprawdzasz, czy ich potrzeby uwzględniono, i mierzysz to wskaźnikiem opóźnionym.",
+  "dlaczegoWazne": "To pierwszy z czterech wymiarów aktywatora. Egzamin łączy go z pytaniem o zarządzanie wydajnością i z rodzajem wskaźnika.",
+  "poziom1": "Pierwszy z czterech wymiarów aktywatora. Dla każdego aktywatora wskazujesz strony, które odgrywają w nim aktywną rolę albo są nim zainteresowane. Mogą być wewnętrzne albo zewnętrzne i mieć sprzeczne potrzeby.",
+  "poziom2": "| Pytanie | Odpowiedź |\n|---|---|\n| kogo obejmuje? | strony z **aktywną rolą** i/lub **zainteresowane** aktywatorem |\n| jakie rodzaje? | **wewnętrzni** i **zewnętrzni** |\n| przykład dla procesu | wszyscy z tabeli [[raci|RACI]] (R, A, C, I) |\n| pytanie wydajności | „Czy uwzględniono potrzeby interesariuszy?” → [[wskaznik-opozniony|wskaźnik opóźniony]] |",
+  "poziom3": "(s. 28): *„dla każdego czynnika umożliwiającego można wskazać interesariuszy (strony, które odgrywają aktywną rolę i/lub są zainteresowane czynnikiem umożliwiającym)”*. (s. 29): interesariusze *„mogą być wewnętrzni lub zewnętrzni”*. Przykład 5 (s. 30): interesariuszami procesów są wszystkie strony z tabeli RACI.",
+  "przyklady": {
+    "zycie": "Domowy grafik sprzątania ma swoich interesariuszy. Dzieci i rodzice sprzątają według niego, a babcia, która przychodzi w niedzielę, cieszy się z porządku. Sąsiad z dołu chce, żeby odkurzać po 8 rano. Wszyscy oni to interesariusze tego jednego „aktywatora”.",
+    "biuro": "Nowy grafik urlopów w biurze ma interesariuszy: pracowników, kierowniczkę, kadry i klientów, którzy w sierpniu czekają dłużej. Klienci to interesariusze zewnętrzni.",
+    "organizacja": "Procedura zwrotów w sklepie internetowym ma interesariuszy wewnętrznych: magazyn, księgowość, obsługę klienta. Ma też zewnętrznych: klientów i firmę kurierską. Każdy chce czego innego: klient szybkiego zwrotu, księgowa porządku w papierach.\n\nSystem kolejkowy w urzędzie ma interesariuszy: urzędników przy okienkach, kierownika sali obsługi, mieszkańców i firmę serwisującą. Mieszkańcy to interesariusze zewnętrzni, choć nie mają konta w systemie.",
+    "psp": "**Kto ma interes w liście numerów?** St. ogn. Kasia Nowik spisuje interesariuszy listy numerów OSP w Syrenie. Wewnętrzni to dyżurni, Ola Dudek, która listę aktualizuje, i kpt. Sikora. Zewnętrzni to druhowie z OSP Zawilce i mieszkańcy, którzy czekają na pomoc. To wymiar „Interesariusze” jednego aktywatora: Informacji.",
+    "it": "Interesariuszy procesu DSS02 wskazuje tabela RACI: pomoc techniczna, właściciel procesu, użytkownicy. Tak FW-PL opisuje interesariuszy procesów w Przykładzie 5 (s. 30)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "rola-interesariusze",
+      "roznica": "Rola z Ilustracji 9 deleguje władzę organowi Ładu. Wymiar pyta, kto ma rolę lub interes w jednym aktywatorze."
+    },
+    {
+      "termin": "interesariusz",
+      "roznica": "Hasło ogólne (Zasada 1) dotyczy całej organizacji. Wymiar dotyczy konkretnego aktywatora, np. procesu albo listy numerów."
+    },
+    {
+      "termin": "raci",
+      "roznica": "RACI to narzędzie, którym opisujesz interesariuszy procesu. Wymiar istnieje dla każdego z 7 aktywatorów, nie tylko dla procesów."
+    }
+  ],
+  "przykladWypowiedzi": "Stakeholders, czyli interesariusze aktywatora, to strony z aktywną rolą lub zainteresowane aktywatorem, internal and external, czyli wewnętrzne i zewnętrzne.",
+  "egzamin": "Wymiar Interesariusze: **wewnętrzni i zewnętrzni**. Pytanie wydajności „Czy uwzględniono potrzeby interesariuszy?” mierzy **wskaźnik opóźniony** (wynik), a nie wiodący.",
+  "powiazane": [
+    "wymiary-aktywatora",
+    "interesariusz",
+    "raci",
+    "wskaznik-opozniony",
+    "wymiar-cele"
+  ],
+  "sylabus": [
+    "PR-02-12",
+    "PR-01-05",
+    "PR-02-13"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 28,
+      "ilustracja": "13",
+      "cytat": "dla każdego czynnika umożliwiającego można wskazać interesariuszy (strony, które odgrywają aktywną rolę i/lub są zainteresowane czynnikiem umożliwiającym)"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Interesariusze przedsiębiorstwa mogą być wewnętrzni lub zewnętrzni"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Pierwsze dwa punkty dotyczą rzeczywistego wyniku zastosowania czynnika umożliwiającego."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 30,
+      "cytat": "Interesariuszami procesów są wszystkie podmioty zaangażowane w realizację procesów"
+    }
+  ],
+  "mapa": "wymiar-interesariusze",
+  "glebokosc": {
+    "prosty": "Szkolna stołówka ma jadłospis. Korzystają z niego uczniowie i kucharki, a rodzice czytają go w domu. Każdy chce czegoś innego: dzieci frytek, rodzice warzyw. Wszyscy oni to interesariusze jadłospisu.",
+    "zaawansowany": "Sikora opisuje proces alarmowania w Syrenie. Interesariuszy bierze z [[raci|tabeli RACI]]: dyżurni wykonują, on odpowiada, druh Pietrzak z OSP jest konsultowany. Do tego dochodzą zewnętrzni: mieszkańcy, którzy czekają na pomoc. Pytanie z [[zarzadzanie-wydajnoscia-aktywatora|zarządzania wydajnością]] brzmi: czy ich potrzeby uwzględniono? Sprawdza się to po fakcie, np. ankietą wśród OSP.",
+    "skrajny": "Pani Kaczmarek nigdy nie widziała Syreny. Czy jest interesariuszem tego aktywatora? Tak, bo definicja obejmuje strony zainteresowane, nie tylko aktywne. Drugi haczyk: pytanie „czy uwzględniono potrzeby interesariuszy?” wygląda na przygotowanie, więc kusi wskaźnik wiodący. FW-PL mówi jednak, że dwa pierwsze pytania (interesariusze i cele) dotyczą wyniku, czyli wskaźników opóźnionych. Wiodące mierzą cykl życia i dobre praktyki. **Rozstrzygnięcie:** interesariuszem aktywatora jest też ten, kto tylko odczuwa skutki; potrzeby interesariuszy i cele mierzysz wskaźnikiem opóźnionym, a cykl życia i dobre praktyki wiodącym."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Interesariuszem aktywatora jest tylko ten, kto go używa.",
+      "prawda": "Także ten, kto jest nim zainteresowany, np. mieszkaniec czekający na pomoc (s. 28)."
+    },
+    {
+      "mit": "Potrzeby interesariuszy mierzy wskaźnik wiodący.",
+      "prawda": "Interesariusze i cele to wynik, czyli wskaźniki opóźnione (s. 29)."
+    },
+    {
+      "mit": "Wymiar Interesariusze to to samo co rola „interesariusze” z Ilustracji 9.",
+      "prawda": "Rola deleguje władzę w systemie Ładu. Wymiar opisuje strony jednego aktywatora."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Przypisywanie potrzeb interesariuszy do wskaźników wiodących.",
+    "jakTlumaczyc": "Podziel cztery wymiary na dwie pary. „Co wyszło?” (interesariusze zadowoleni, cele osiągnięte) mierzą wskaźniki opóźnione. „Jak to robimy?” (cykl życia, dobre praktyki) mierzą wskaźniki wiodące.",
+    "pytanieKontrolne": "Jaki rodzaj wskaźnika mierzy, czy uwzględniono potrzeby interesariuszy aktywatora?",
+    "odpowiedzKontrolna": "**Wskaźnik opóźniony**, bo to pytanie o wynik zastosowania aktywatora (s. 29)."
+  }
+}

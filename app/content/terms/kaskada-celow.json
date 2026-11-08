@@ -1,0 +1,120 @@
+{
+  "id": "kaskada-celow",
+  "en": "Goals Cascade",
+  "wymowa": "gołlz keskejd",
+  "wymowaAkcent": "gołlz kes-KEJD",
+  "plEgzamin": "Kaskada Celów",
+  "plPodrecznik": "Kaskada celów",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Kaskada Celów",
+    "podrecznik": "Kaskada celów",
+    "kurs": "Kaskada Celów (Goals Cascade)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 9, 14."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "interesariusz",
+    "potrzeba",
+    "wyznacznik"
+  ],
+  "poLudzku": "Schodzenie od ogólnego „czego chcemy” do konkretnych zadań, jak rozpisanie wesela na listę rzeczy do załatwienia.",
+  "wyobrazSobie": "Plan remontu: z „chcemy wygodnie mieszkać z dzieckiem” robi się „osobny pokój dla dziecka”, z tego „ścianka działowa i drugie okno”, a z tego lista zadań dla ekipy.",
+  "poCo": "Żeby ogólne potrzeby interesariuszy przełożyć na konkretne, mierzalne cele na każdym poziomie, aż po cele procesów i innych aktywatorów, i wiedzieć, które z nich są priorytetem.",
+  "jakDziala": "Wyznaczniki (stakeholder drivers) wpływają na potrzeby interesariuszy (stakeholder needs). Potrzeby przekłada się na cele organizacji (enterprise goals, 17 w wymiarach BSC), te na cele związane z informatyką (IT-related goals, 17 w wymiarach IT BSC), a te na cele aktywatorów (enabler goals), np. cele procesów. Każda organizacja dostosowuje kaskadę do siebie, bo nie jest ona uniwersalną prawdą.",
+  "dlaczegoWazne": "Kaskada celów realizuje zasadę 1 (Realizacja potrzeb interesariusza). Egzamin pyta, do czego służy (wspieranie dopasowania potrzeb organizacji do rozwiązań i usług IT) i o kolejność kroków.",
+  "poziom1": "Schodki od ogólnego „czego chcemy” do konkretnego „kto co ma zrobić”: potrzeby interesariuszy zamienia się w cele organizacji, te w cele związane z informatyką, a te w cele aktywatorów (np. procesów). Każda organizacja dopasowuje taką kaskadę do siebie.",
+  "poziom2": "Kaskada ma 4 kroki: **(1)** wyznaczniki wpływają na potrzeby interesariuszy → **(2)** potrzeby → cele organizacji (17, wymiary BSC) → **(3)** cele organizacji → cele związane z informatyką (17, wymiary IT BSC) → **(4)** cele związane z informatyką → cele aktywatorów (np. cele procesów). Kaskada **nie jest uniwersalną prawdą**. Każda organizacja powinna ją dostosować do siebie.",
+  "poziom3": "(s. 17): *„Kaskada celów COBIT 5 to mechanizm umożliwiający przełożenie potrzeb interesariuszy na określone, składające się z konkretnych działań i dostosowane cele przedsiębiorstwa, cele związane z IT oraz cele czynników umożliwiających.”* Umożliwia *„skuteczne wspieranie dopasowania potrzeb przedsiębiorstwa oraz rozwiązań i usług IT”*. Korzyści (s. 20): definiuje istotne i wymierne cele na różnych poziomach odpowiedzialności, filtruje bazę wiedzy COBIT 5, komunikuje, jak aktywatory pomagają osiągać cele.",
+  "warianty": {
+    "prosto": "Rodzina mówi: chcemy być zdrowsi. Ustalacie, że to znaczy mniej fast foodu i więcej ruchu, potem że w niedzielę planujecie posiłki na cały tydzień, a na koniec całkiem konkretnie: lista zakupów, karnet na basen, aplikacja z przepisami. Ogólne życzenie krok po kroku zamienia się w konkretne zadania – to kaskada celów.",
+    "dokladniej": "Cztery kroki tłumaczenia: potrzeby interesariuszy → cele organizacji → cele związane z informatyką → cele aktywatorów.",
+    "ekspercko": "Mechanizm alignment oparty na badaniach Antwerp Management School; mapowania P/S w Załącznikach B i C (w Załączniku D, Ilustracja 24, zaznaczone są tylko powiązania potrzeb z celami) są punktem wyjścia, który trzeba dostosować (wagi, specyfika branży)."
+  },
+  "przyklady": {
+    "zycie": "Rodzice chcą, żeby za dwa lata stać ich było na mieszkanie. Ustalają cel domu: odkładać 1500 zł miesięcznie, a z niego cel dla domowej „informatyki”: aplikacja bankowa ma sama przelewać pieniądze na oszczędności w dniu wypłaty. Na końcu są zadania dla konkretnych „narzędzi”: zlecenie stałe, wspólny arkusz wydatków i zasada, że co miesiąc siadają razem nad liczbami – każdy krok wynika z poprzedniego, to jest kaskada celów.",
+    "biuro": "Dyrekcja chce „zadowolonych klientów”. Z tego biuro obsługi robi cel: odpowiedź na każdą reklamację w 5 dni roboczych. Z niego wynikają zadania: sekretariat rejestruje każde pismo w dniu wpływu, a w grafiku zawsze jest osoba dyżurna od reklamacji.",
+    "firma": "Właściciel sklepu internetowego z zabawkami chce stabilnego zysku. Przekłada to na cel firmy „wracający klienci”, z niego wychodzi cel IT „sklep działa bez przerw w sezonie świątecznym”, a z tego cele aktywatorów: procedura reagowania na awarie, przeszkolony pracownik i umowa z firmą hostingową na szybką pomoc. Od ogólnej potrzeby do konkretnych zadań, krok po kroku – to kaskada celów.",
+    "admin": "Mieszkańcy skarżą się, że na każdą sprawę w urzędzie muszą brać wolne. Gmina zapisuje cel: najważniejsze sprawy da się załatwić bez wizyty, informatyk przekłada go na cel IT: bezpieczne i stale dostępne e-usługi, a z tego wynikają cele aktywatorów: proces obsługi e-wniosków, polityka bezpieczeństwa i przeszkoleni urzędnicy. To kaskada celów: od skargi mieszkańca do konkretnego zadania w urzędzie.",
+    "psp": "Mieszkańcy powiatu oczekują jednego: że straż przyjedzie szybko. Komenda zapisuje to jako cel: ciągłość działań ratowniczych, z niego wynika cel IT: niezawodny system dysponowania i łączności, a z tego cele aktywatorów: procedura pracy awaryjnej na stanowisku kierowania, rezerwowe łącze, przeszkoleni dyżurni i umowa z serwisem na szybką naprawę. Każde z tych zadań da się wywieść z pierwszej potrzeby – to kaskada celów.",
+    "it": "Potrzeba „działamy zgodnie z prawem” prowadzi do celu organizacji „zgodność z zewnętrznymi przepisami i regulacjami”, ten do celu związanego z informatyką „zgodność IT z zewnętrznymi przepisami i wsparcie zgodności biznesu”, a ten do celów procesu MEA03 (Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi)."
+  },
+  "glebokosc": {
+    "prosty": "Rodzina chce „spokojnych wakacji”. Z tego robi się konkret: jezioro w lipcu, budżet cztery tysiące, a potem zadania – mama rezerwuje domek, tata sprawdza auto, córka pakuje gry. Każde zadanie da się powiązać z tym jednym ogólnym życzeniem, a bilety do Paryża od razu widać jako niepasujące.",
+    "zaawansowany": "Potrzeba interesariuszy po Lipowej brzmi: „pomoc ma docierać jak najszybciej i zawsze”. Komendantka Wrzos przekłada ją na [[cele-organizacji|cel organizacji]] dotyczący ciągłości i dostępności usług, kpt. Sikora – na [[cele-zwiazane-z-it|cel związany z IT]] dotyczący niezawodnych systemów alarmowania, a ten – na [[cele-aktywatorow|cele aktywatorów]]: cel procesu zarządzania dostępnością, aktualny rejestr OSP, przeszkolonych dyżurnych. Każdy szczebel odpowiada na pytanie „po co?” szczeblem wyżej. Dzięki temu księgowa Mak może sprawdzić, czy wydatek na nowy moduł SMS w ogóle wynika z potrzeb interesariuszy.",
+    "skrajny": "Kpt. Sikora bierze tabele mapowania z Frameworka i chce je przenieść do komendy jeden do jednego: procesy z relacją P wdraża, te z relacją S pomija. Wygląda to na wierność COBIT 5, a jest sprzeczne z jego własną instrukcją: kaskada nie zawiera uniwersalnej prawdy i nie należy jej stosować mechanicznie (s. 20). Tabele nie uwzględniają wielkości organizacji ani branży, a podział na P (relacja podstawowa) i S (wspierająca) upraszcza coś, co w rzeczywistości jest continuum. Pierwszym krokiem ma być dostosowanie mapowania do własnej sytuacji, np. nadanie wag celom komendy i weryfikacja powiązań. Drugi przypadek graniczny: kaskada dotyczy celów, nie ludzi, więc nie jest schematem służbowym „komendant → naczelnik → informatyk”. **Rozstrzygnięcie:** kaskada celów to wytyczna do dostosowania, a nie tabela do mechanicznego przepisania; jej szczeble to cele (potrzeby → cele organizacji → cele związane z IT → cele aktywatorów), a nie stanowiska."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Kaskada celów to schemat, kto komu wydaje polecenia.",
+      "prawda": "Kaskada dotyczy celów, nie ludzi. Podległość służbową opisuje aktywator Struktury organizacyjne."
+    },
+    {
+      "mit": "Tabele mapowania COBIT 5 trzeba stosować bez zmian, bo to oficjalna część standardu.",
+      "prawda": "Framework mówi wprost, że kaskada nie zawiera uniwersalnej prawdy; każda organizacja powinna ją najpierw dostosować do siebie (s. 20)."
+    },
+    {
+      "mit": "Kaskada kończy się na celach procesów.",
+      "prawda": "Kończy się na celach aktywatorów. Procesy są najczęstszym, ale nie jedynym przykładem – cele mają też np. kultura, struktury czy kompetencje."
+    },
+    {
+      "mit": "Zrównoważona karta wyników (BSC) to kaskada celów.",
+      "prawda": "Wymiary BSC tylko porządkują cele organizacji i cele związane z IT wewnątrz kaskady."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie kaskady z hierarchią służbową i przekonanie, że tabele mapowania stosuje się bez zmian.",
+    "jakTlumaczyc": "Idź od końca pytaniem „po co?”: po co ten proces? – żeby osiągnąć cel IT; po co cel IT? – żeby osiągnąć cel organizacji; po co cel organizacji? – bo tego potrzebuje interesariusz. Kto dojdzie do potrzeby, ten rozumie kaskadę. Potem pokaż ten sam łańcuch od góry w dół.",
+    "pytanieKontrolne": "Komenda prowadzi proces, którego nie umie powiązać z żadnym celem związanym z IT. Co to oznacza według logiki kaskady i co należy zrobić?",
+    "odpowiedzKontrolna": "Proces nie ma uzasadnienia w potrzebach interesariuszy: albo kaskada jest niepełna (brakuje celu IT, który ten proces wspiera), albo proces jest zbędny. Trzeba przejść kaskadę od potrzeb w dół, dostosować mapowanie do komendy i albo dopisać brakujące powiązanie, albo zrezygnować z procesu."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Hierarchia służbowa",
+      "roznica": "Kaskada dotyczy CELÓW, nie ludzi – nie mylić ze strukturą organizacyjną."
+    },
+    {
+      "termin": "Zrównoważona karta wyników (BSC)",
+      "roznica": "BSC to narzędzie, którego wymiary (finanse, klient, procesy wewnętrzne, rozwój) porządkują cele organizacji w kaskadzie. Nie jest samą kaskadą."
+    }
+  ],
+  "przykladWypowiedzi": "The Goals Cascade, czyli Kaskada Celów, przekłada potrzeby interesariuszy (stakeholder needs) na cele organizacji, cele związane z informatyką i cele aktywatorów, dzięki czemu dopasowuje potrzeby organizacji do rozwiązań i usług IT.",
+  "egzamin": "„Do czego służy Kaskada Celów?”: do **wspierania dopasowania potrzeb organizacji do rozwiązań i usług IT** i do przełożenia potrzeb na konkretne cele (s. 17). RACI, architektura korporacyjna oraz wejścia i wyjścia procesu to inne kategorie.",
+  "powiazane": [
+    "potrzeba",
+    "wyznacznik",
+    "cele-organizacji",
+    "cele-zwiazane-z-it",
+    "cele-aktywatorow",
+    "bsc",
+    "zasada-1"
+  ],
+  "sylabus": [
+    "PR-02-02",
+    "PR-02-03",
+    "PR-02-05",
+    "PR-02-06",
+    "PR-02-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 17,
+      "cytat": "Kaskada celów COBIT 5 to mechanizm umożliwiający przełożenie potrzeb interesariuszy na określone, składające się"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 18,
+      "ilustracja": "4"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 20
+    }
+  ],
+  "mapa": "kaskada"
+}

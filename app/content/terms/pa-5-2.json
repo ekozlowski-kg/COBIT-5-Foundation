@@ -1,0 +1,104 @@
+{
+  "id": "pa-5-2",
+  "en": "PA 5.2 Process optimisation",
+  "wymowa": "piej 5 2 prołses optimajzejszyn",
+  "wymowaAkcent": "pi-ej 5 2 PROŁ-ses op-ti-maj-ZEJ-szyn",
+  "plEgzamin": "PA 5.2 Optymalizacja procesu",
+  "plPodrecznik": "PA 5.2 Optymalizacja procesu",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "PA 5.2 Optymalizacja procesu",
+    "podrecznik": "PA 5.2 Optymalizacja procesu",
+    "kurs": "PA 5.2 Optymalizacja procesu (PA 5.2 Process optimisation)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Optymalizacja procesu” (PA 5.2) to wprowadzanie wybranych zmian i sprawdzanie ich efektu. Nie myl jej z optymalizacją ryzyka i optymalizacją zasobów (Cel Ładu, EDM03, EDM04) ani z nazwą poziomu 5.",
+  "skadNazwa": "Z angielskiego *Process optimisation*. Słowo „optymalizacja” występuje w COBIT 5 w kilku miejscach: w Celu Ładu, w EDM03 i EDM04 oraz w nazwie poziomu 5.",
+  "kategoria": "egzaminacyjne",
+  "status": "uproszczenie",
+  "poziomP": "P3",
+  "wymaga": [
+    "pa-5-1"
+  ],
+  "poziom1": "Drugi atrybut poziomu 5. Sprawdza, czy zmiany w procesie są wprowadzane w przemyślany sposób i czy dają skutek, który realizuje cele doskonalenia.",
+  "poLudzku": "Czy wprowadzasz wybrane ulepszenia w życie i sprawdzasz, czy naprawdę coś poprawiły.",
+  "wyobrazSobie": "Lekarz, który zmienia lek, a po miesiącu sprawdza wyniki badań, zanim zdecyduje, czy zostać przy nowym.",
+  "poCo": "Żeby wybrane ulepszenia naprawdę trafiły do procesu i żeby wiadomo było, czy pomogły.",
+  "jakDziala": "Organizacja wprowadza zmiany w zaplanowany sposób, np. przez pilotaż i szkolenie. Mierzy skutek wobec celów doskonalenia i porównuje stan przed i po. Wnioski trafiają do kolejnych zmian.",
+  "dlaczegoWazne": "To drugi atrybut poziomu 5. Słowo „optymalizacja” występuje w COBIT 5 w kilku miejscach i łatwo je pomylić.",
+  "poziom2": "| Co sprawdza asesor (uproszczenie według ISO/IEC 15504) | Przykład |\n|---|---|\n| wpływ zmian oceniony wobec celów | czy czas alarmu spadł |\n| wprowadzanie zmian zaplanowane | pilotaż, szkolenie, komunikacja |\n| skuteczność sprawdzona w praktyce | porównanie przed i po |\n| wnioski do kolejnych zmian | co poprawić następnym razem |\n\nBez [[pa-5-1|PA 5.1]] nie ma czego wprowadzać, a bez PA 5.2 pomysły zostają na papierze.",
+  "poziom3": "Il. 19 (s. 42) i Il. 21 (s. 44): „Optymalizacja procesu”. (s. 42): proces optymalizujący jest *„nieustannie doskonalony”*. Szczegóły atrybutu według ISO/IEC 15504-2 to uproszczenie kursu, spoza korpusu.",
+  "przyklady": {
+    "zycie": "Po analizie paragonów zaczynasz mrozić połowę chleba. Po miesiącu sprawdzasz: wyrzucasz mniej i wydajesz mniej. Wprowadzenie zmiany i sprawdzenie efektu to PA 5.2.",
+    "biuro": "E-podpis działa przez kwartał w jednym dziale. Biuro porównuje czas obiegu przed i po i dopiero wtedy wprowadza go w całej firmie. To PA 5.2.",
+    "organizacja": "Firma kurierska wprowadza nowe trasy w jednym mieście i mierzy czasy dostaw przed i po. Dopiero potem rozszerza zmianę na cały kraj. To optymalizacja procesu.\n\nGmina wprowadza e-doręczenia najpierw w jednym wydziale. Po kwartale porównuje czas obsługi, a potem wdraża rozwiązanie w całym urzędzie. To PA 5.2.",
+    "psp": "**Pilotaż na zmianie Graba.** Naczelnik Sikora wprowadza nową kolejność wysyłki najpierw na jednej zmianie SK. Po miesiącu Ola Dudek porównuje czasy przed i po: średnio 12 sekund szybciej. Sikora szkoli pozostałe zmiany i aktualizuje procedurę. Audytorka Ewa Lis widzi wdrożenie z oceną efektu, czyli PA 5.2.",
+    "it": "Proces BAI08: baza rozwiązań działa w pilotażu w jednym zespole wsparcia, a liczba powtórnych incydentów spada o 30%. Organizacja rozszerza ją na wszystkie zespoły. To PA 5.2."
+  },
+  "glebokosc": {
+    "prosty": "Przestawiasz meble w kuchni, żeby szybciej gotować. Po tygodniu sprawdzasz, czy naprawdę gotujesz szybciej. Jeśli tak, zostawiasz. Jeśli nie, wracasz do starego ustawienia. To PA 5.2.",
+    "zaawansowany": "Nowik zaproponowała nową kolejność wysyłki ([[pa-5-1|innowacja procesu]]). Sikora robi pilotaż, mierzy efekt i dopiero wtedy zmienia procedurę dla wszystkich zmian. Ewa Lis ocenia optymalizację procesu: czy zmianę wprowadzono z głową i czy dała efekt wobec celu. Przy P na niższych atrybutach to [[poziom-5|poziom 5]].",
+    "skrajny": "Sikora wprowadza nową kolejność wysyłki od razu wszędzie, bez pomiaru przed i po. Czasy faktycznie spadły, ale nikt nie wie, czy przez zmianę, czy przez nowego operatora SMS. Lis da PA 5.2 słabą ocenę, bo skutku zmiany nie oceniono. Druga pułapka: komendantka mówi o „optymalizacji ryzyka” i „optymalizacji zasobów”. To części Celu Ładu (EDM03, EDM04), a nie atrybut procesu. **Rozstrzygnięcie:** PA 5.2 = wprowadzenie wybranej zmiany z oceną jej efektu wobec celów. Słowo „optymalizacja” ma w COBIT 5 kilka znaczeń, więc czytaj kontekst (interpretacja kursu według ISO/IEC 15504)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Optymalizacja procesu to optymalizacja zasobów z Celu Ładu.",
+      "prawda": "Optymalizacja zasobów i ryzyka to Cel Ładu (EDM03, EDM04). PA 5.2 to atrybut poziomu 5 w ocenie jednego procesu."
+    },
+    {
+      "mit": "Wystarczy wprowadzić zmianę, żeby mieć PA 5.2.",
+      "prawda": "Trzeba też sprawdzić, czy zmiana dała efekt wobec celów doskonalenia."
+    },
+    {
+      "mit": "Po PA 5.2 proces jest „skończony”.",
+      "prawda": "Poziom 5 oznacza ciągłe doskonalenie. Po ocenie efektu przychodzą kolejne pomysły (PA 5.1)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli PA 5.2 z innymi „optymalizacjami” w COBIT 5.",
+    "jakTlumaczyc": "Mów: „5.1 wymyśla, 5.2 wprowadza i sprawdza”. Przypomnij, że optymalizacja ryzyka i zasobów to Cel Ładu, a nie ocena procesu.",
+    "pytanieKontrolne": "Gdzie w COBIT 5 występuje słowo „optymalizacja” poza PA 5.2?",
+    "odpowiedzKontrolna": "W Celu Ładu (optymalizacja ryzyka, optymalizacja zasobów), w procesach EDM03 i EDM04 oraz w podręcznikowej nazwie poziomu 5 („proces optymalizujący”)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "pa-5-1",
+      "roznica": "PA 5.1 znajduje i wybiera zmiany. PA 5.2 je wprowadza i ocenia ich skutek."
+    },
+    {
+      "termin": "optymalizacja-zasobow",
+      "roznica": "Element Celu Ładu (EDM04). Nie jest atrybutem oceny zdolności procesu."
+    },
+    {
+      "termin": "optymalizacja-ryzyka",
+      "roznica": "Element Celu Ładu (EDM03). Nie jest atrybutem oceny zdolności procesu."
+    }
+  ],
+  "przykladWypowiedzi": "PA 5.2 Process optimisation, czyli optymalizacja procesu, to wprowadzanie wybranych zmian z oceną ich efektu. Nie myl jej z Risk optimisation (optymalizacja ryzyka) w EDM03.",
+  "egzamin": "Drugi atrybut poziomu 5: **optymalizacja procesu**. Nie myl z optymalizacją ryzyka i zasobów z Celu Ładu.",
+  "powiazane": [
+    "atrybuty-procesu",
+    "poziom-5",
+    "pa-5-1",
+    "optymalizacja-zasobow"
+  ],
+  "sylabus": [
+    "PC-01-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "Optymalizacja procesu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 44,
+      "ilustracja": "21"
+    }
+  ],
+  "mapa": "pa-5-2"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "struktura-ramowa-polityki",
+  "en": "Policy framework (scope and validity, consequences of non-compliance, exception handling, compliance monitoring)",
+  "wymowa": "polisi frejmłerk",
+  "wymowaAkcent": "PO-li-si FREJM-łerk",
+  "plEgzamin": "Struktura ramowa polityki",
+  "plPodrecznik": "Struktura polityk / metodyka dotycząca polityk",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Struktura ramowa polityki",
+    "podrecznik": "Struktura polityk / metodyka dotycząca polityk",
+    "kurs": "Struktura ramowa polityki (Policy framework)",
+    "uwaga": "Egzamin PL: „Struktura ramowa polityki”; podręcznik PL: „Struktura polityk / metodyka dotycząca polityk” – konkurencyjne odpowiedniki. SP1 pisze „struktura ramowa polityki” (lp.), nie „polityk”; podręcznik nie używa tej zbitki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 68, 75."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "*Framework* egzamin tłumaczy jako „struktura ramowa”, a podręcznik jako „metodyka” albo „struktura”. Pierwszy element podręcznik nazywa „zakres i prawidłowość” (*scope and validity*). W materiałach kursu spotkasz też „zakres i ważność”.",
+  "skadNazwa": "Egzamin konsekwentnie tłumaczy *framework* jako „struktura ramowa”. Podręcznik pisze „metodyka dotycząca polityk” albo „struktura polityk”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "polityka",
+    "zasady-polityki-struktury",
+    "struktura-ramowa"
+  ],
+  "mapa": "struktura-ramowa-polityki",
+  "poziom1": "Polityki nie powinny leżeć luzem. Dobra praktyka każe ułożyć je w jedną hierarchiczną strukturę, w której każda polityka ma swoje miejsce i odwołuje się do zasad. W ramach tej struktury polityk trzeba opisać cztery elementy: zakres i ważność, konsekwencje złamania, obsługę wyjątków i sposób sprawdzania zgodności (s. 68).",
+  "poLudzku": "Segregator na wszystkie reguły: każda ma swoje miejsce, a cały segregator mówi, kogo reguły dotyczą, co grozi i jakie są wyjątki.",
+  "wyobrazSobie": "Segregator z przekładkami: każda kartka ma swoje miejsce i ten sam układ rubryk.",
+  "poCo": "Żeby polityki nie leżały luzem, nie przeczyły sobie i żeby struktura polityk opisywała komplet: zakres, konsekwencje, wyjątki i kontrolę.",
+  "jakDziala": "Polityki układa się w hierarchię, w której każda odwołuje się do zasad organizacji. W ramach struktury polityk opisuje się zakres i ważność, konsekwencje złamania, obsługę wyjątków i sposób kontroli zgodności (s. 68: wymóg dotyczy struktury polityk). Treść dopasowuje się do apetytu na ryzyko.",
+  "dlaczegoWazne": "Pytania egzaminacyjne o „elementy struktury polityk” mają zwykle jeden z czterech elementów jako poprawną odpowiedź. Dystraktorem bywa cecha dobrej polityki albo element zasad.",
+  "poziom2": "| Element struktury polityk | Pytanie | Przykład |\n|---|---|---|\n| **Zakres i ważność** (podr. „zakres i prawidłowość”) | Kogo i czego dotyczy? Od kiedy obowiązuje? | wszyscy dyżurni SK, od 1 maja |\n| **Konsekwencje nieprzestrzegania** | Co grozi za złamanie? | rozmowa dyscyplinująca |\n| **Obsługa wyjątków** | Kiedy wolno odstąpić i kto to zatwierdza? | awaria łączności, zgoda kierownika zmiany |\n| **Kontrola i pomiar zgodności** | Jak sprawdzimy, że ludzie jej przestrzegają? | comiesięczny przegląd dziennika |\n\nPonadto polityki są **dopasowane do apetytu na ryzyko**, a ogólnie uznane struktury (np. COBIT 5) podpowiadają ich treść. Organizacja ostrożna ma polityki bardziej restrykcyjne.",
+  "poziom3": "(s. 68): *„W ramach struktury polityk muszą zostać opisane następujące elementy”*: zakres i prawidłowość; konsekwencje nieprzestrzegania polityki; sposób obsługi wyjątków; sposób kontroli i pomiaru zgodności z polityką. Polityki są częścią ogólnej metodyki nadzoru i zarządzania, w której *„każda z polityk powinna mieć swoje miejsce oraz wyraźnie odnosić się do podstawowych zasad”*.",
+  "przyklady": {
+    "zycie": "Rodzina ma segregator „Zasady domu”. Kartka o kieszonkowym mówi: dotyczy dzieci od 10 lat (zakres), za kłamstwo tydzień bez kieszonkowego (konsekwencje), w urodziny wolno wziąć zaliczkę (wyjątek), w niedzielę tata sprawdza skarbonki (kontrola). Każda kartka w segregatorze ma ten sam układ.",
+    "biuro": "W kancelarii radcy prawnego wszystkie regulaminy leżą w jednym folderze na dysku. Regulamin pracy zdalnej ma te same rubryki co regulamin poufności: kogo dotyczy, co grozi za złamanie, kiedy wolno zrobić wyjątek i kto sprawdza.",
+    "organizacja": "Sieć trzech kawiarni zbiera regulaminy w jednym folderze. Polityka napiwków mówi, kogo dotyczy, co grozi za ukrywanie napiwków, kiedy wolno podzielić je inaczej i kto co tydzień sprawdza rozliczenie. Nowa polityka o mediach społecznościowych trafia do tego samego folderu, w tym samym układzie. Starostwo porządkuje zarządzenia o IT. Każde ma teraz te same punkty: zakres, sankcje, tryb udzielania wyjątków i sposób kontroli. Zarządzenie o pendrive'ach odwołuje się do zasady „chronimy dane mieszkańców” i ma swoje miejsce w spisie polityk bezpieczeństwa.",
+    "psp": "Naczelnik Marek Sikora układa w komendzie w Modrzewiowie spis polityk IT. Nowa polityka powiadamiania trafia pod zasadę „żaden alarm nie może zginąć”. Ma cztery punkty: dotyczy dyżurnych SK i wydziału łączności, za pominięcie testu Syreny grozi rozmowa z komendantką, wyjątkiem jest awaria zasilania, a co miesiąc Ola Dudek sprawdza dziennik testów. To struktura ramowa polityki w działaniu.",
+    "it": "Proces APO01 (Zarządzanie metodyką zarządzania IT) utrzymuje aktywatory, w tym polityki IT, i dba o zgodność z nimi. To tu zespół IT pilnuje, żeby każda polityka miała swoje miejsce w spisie i komplet czterech elementów (szczegóły procesu: uproszczenie kursu)."
+  },
+  "glebokosc": {
+    "prosty": "W szkolnym regulaminie każdy punkt mówi, kogo dotyczy i co grozi za złamanie. Mówi też, kiedy można dostać zwolnienie i kto pilnuje porządku. Gdyby jeden punkt nie miał kary, a inny nie mówił, kogo dotyczy, regulamin byłby dziurawy. Struktura ramowa polityki dba, żeby każdy punkt miał ten sam komplet.",
+    "zaawansowany": "Inspektorka Lucyna Ostrowska z komendy wojewódzkiej prosi o polityki IT komendy. Sikora kładzie na stół jedną teczkę zamiast pięciu luźnych kartek. Każda [[polityka]] odwołuje się do zasady komendantki i ma cztery punkty: zakres, konsekwencje, wyjątki i kontrolę zgodności. Ostrowska od razu widzi, kto sprawdza dziennik testów Syreny. Nowa wersja polityki wejdzie w to samo miejsce, co opisuje [[cykl-zycia-polityki]].",
+    "skrajny": "Polityka powiadamiania mówi: „Wyjątki zatwierdza komendantka”. Sikora uważa, że to wystarczy jako obsługa wyjątków. Audytorka Ewa Lis dopytuje: a co, gdy komendantka jest na urlopie, a w nocy pada łączność? Element „obsługa wyjątków” jest formalnie obecny, ale nie działa w praktyce. Drugi przypadek: ta sama polityka nie mówi, jak sprawdzać zgodność. Nikt więc nie wie, czy ludzie jej przestrzegają. Brak jednego z czterech elementów to luka struktury, a nie wada cech polityki. **Rozstrzygnięcie:** struktura polityk wymaga czterech elementów naraz: zakresu i ważności, konsekwencji, wyjątków i kontroli zgodności. Element wpisany „dla porządku”, który nie działa, liczy się jak brak (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Struktura ramowa polityki to po prostu COBIT 5.",
+      "prawda": "COBIT 5 jest przykładem struktury ramowej. Struktura polityk to sposób, w jaki TWOJA organizacja układa własne polityki."
+    },
+    {
+      "mit": "Wystarczy, że polityka mówi, co wolno, a czego nie.",
+      "prawda": "Struktura wymaga jeszcze konsekwencji, obsługi wyjątków i sposobu kontroli zgodności."
+    },
+    {
+      "mit": "Im ostrzejsze polityki, tym lepsza struktura.",
+      "prawda": "Polityki mają pasować do apetytu na ryzyko. Organizacja skłonna do ryzyka może mieć łagodniejsze polityki i to jest poprawne."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wymienia cechy dobrej polityki (skuteczna, wydajna, nieinwazyjna), gdy pytanie dotyczy elementów struktury polityk.",
+    "jakTlumaczyc": "Pokaż formularz z czterema rubrykami: Kogo dotyczy? Co za złamanie? Kiedy wyjątek? Kto sprawdza? Każda polityka wypełnia te same rubryki.",
+    "pytanieKontrolne": "Polityka mówi, kogo dotyczy, co grozi za złamanie i kiedy wolno odstąpić. Czego brakuje według dobrej praktyki COBIT 5?",
+    "odpowiedzKontrolna": "Brakuje **sposobu kontroli i pomiaru zgodności** z polityką, czyli tego, jak sprawdzimy, że ludzie jej przestrzegają."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "struktura-ramowa",
+      "roznica": "Struktura ramowa (framework) w ogólnym sensie to np. sam COBIT 5. Struktura ramowa polityki to dobra praktyka porządkowania polityk w jednej organizacji."
+    },
+    {
+      "termin": "cechy-dobrej-polityki",
+      "roznica": "Cechy (skuteczna, wydajna, nieinwazyjna) oceniają jakość polityki. Struktura mówi, jakie elementy polityka musi zawierać."
+    },
+    {
+      "termin": "cykl-zycia-polityki",
+      "roznica": "Struktura porządkuje polityki w przestrzeni (gdzie która leży). Cykl życia porządkuje je w czasie (od projektu do wycofania)."
+    }
+  ],
+  "przykladWypowiedzi": "A policy framework, czyli struktura ramowa polityki, describes scope and validity, consequences of non-compliance, exception handling and compliance monitoring.",
+  "egzamin": "Struktura polityk musi opisywać: **zakres i ważność**, **konsekwencje niezgodności**, **obsługę wyjątków**, **sposób monitorowania zgodności**. Dystraktory: „podstawowe wartości” (zasady), „tabela RACI” (opis procesu), „autor polityki”.",
+  "powiazane": [
+    "zasady-polityki-struktury",
+    "polityka",
+    "cechy-dobrej-polityki",
+    "cykl-zycia-polityki",
+    "struktura-ramowa"
+  ],
+  "sylabus": [
+    "EN-02-05"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 68,
+      "cytat": "W ramach struktury polityk muszą zostać opisane następujące elementy"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 68,
+      "cytat": "każda z polityk powinna mieć swoje miejsce oraz wyraźnie odnosić się do podstawowych zasad"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 68,
+      "cytat": "Polityki powinny być dopasowane do apetytu na ryzyko w danym przedsiębiorstwie."
+    }
+  ]
+}

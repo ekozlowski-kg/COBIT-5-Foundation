@@ -1,0 +1,126 @@
+{
+  "id": "proc-edm01",
+  "en": "EDM01 Ensure Governance Framework Setting and Maintenance",
+  "wymowa": "idiem 01 inszor gawernens frejmłerk seting end mejntenens",
+  "wymowaAkcent": "i-di-EM 01 in-SZOR GA-wer-nens FREJM-łerk SE-ting end MEJN-te-nens",
+  "plEgzamin": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego",
+  "plPodrecznik": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego",
+  "plInne": [
+    {
+      "nazwa": "Ustanowienie i utrzymywanie ram nadzoru",
+      "zrodlo": "atlas „Prosto” (opracowanie nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego",
+    "podrecznik": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego",
+    "kurs": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego (EDM01 Ensure Governance Framework Setting and Maintenance)",
+    "uwaga": "Egzamin PL i podręcznik zgodne, ale w obiegu są konkurencyjne odpowiedniki: Ustanowienie i utrzymywanie ram nadzoru. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 74. Inne formy w obiegu: Ustanowienie i utrzymywanie ram nadzoru (atlas „Prosto” (opracowanie nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie EDM01 i słowie kluczowym EN *Governance Framework*. Uwaga na słowa: podręcznik mówi „ład korporacyjny”, a EN mówi o strukturze ramowej Ładu nad IT. Nie myl z APO01, który ma w nazwie „metodykę zarządzania IT”.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "lad",
+    "edm",
+    "prm",
+    "system-ladu"
+  ],
+  "poLudzku": "Szefostwo ustala, kto i jak decyduje o informatyce, i pilnuje, żeby te zasady działały.",
+  "wyobrazSobie": "Statut klubu sportowego: mówi, o czym decyduje zarząd klubu, a o czym walne zebranie. Nie mówi, jak trenować.",
+  "poCo": "Żeby było jasne, kto i jak decyduje o informatyce, zanim ktokolwiek zacznie wydawać pieniądze i budować systemy.",
+  "jakDziala": "Organ Ładu ocenia, jak dziś zapadają decyzje o IT i czego oczekują interesariusze. Potem ustala zasady, struktury i uprawnienia decyzyjne. Na koniec monitoruje, czy ten układ działa, i go poprawia.",
+  "dlaczegoWazne": "Bez EDM01 pozostałe procesy Ładu nie mają ram. Na egzaminie EDM01 myli się z APO01, bo oba mają „ramy” w nazwie EN.",
+  "skadNazwa": "EN *Ensure Governance Framework Setting and Maintenance*, czyli „zapewnij ustanowienie i utrzymanie struktury ramowej Ładu”. Podręcznik PL skrócił to do „ładu korporacyjnego”, choć chodzi o ramy Ładu nad IT. *Framework* egzamin tłumaczy jako „struktura ramowa”.",
+  "poziom1": "Pierwszy proces Ładu. Organ Ładu ustala, jak w organizacji zapadają decyzje o IT: zasady, struktury, uprawnienia i odpowiedzialności. Potem sprawdza, czy ten układ działa.",
+  "poziom2": "**Czym się zajmuje:** projektuje i utrzymuje system Ładu nad IT: kto decyduje, na jakich zasadach i z jakimi uprawnieniami.\n\n**Wejścia (intuicja):** potrzeby interesariuszy, przepisy, styl decydowania w organizacji, informacja zwrotna o tym, jak Ład działał dotąd.\n\n**Wyjścia (intuicja):** zasady podejmowania decyzji, struktury (np. komitet ds. IT), podział uprawnień, ocena skuteczności tego układu.\n\n**Współpraca:** daje ramy dla [[proc-apo01]], który buduje system *zarządzania* IT. Jest też ramą dla [[proc-edm02]]–[[proc-edm05]]. Informację zwrotną dostaje m.in. z domeny [[mea|MEA]].\n\nJak każdy proces Ładu ma praktyki Oszacuj, Kieruj i Monitoruj ([[edm]]).",
+  "poziom3": "Il. 16 (s. 33) wymienia proces jako „EDM01 Zapewnienie i utrzymanie ładu korporacyjnego”. Każdy z pięciu procesów Ładu ma praktyki oceny, kierowania i monitorowania (s. 32). Struktury mogą należeć do Ładu albo Zarządzania *„w zależności od ich składu i zakresu decyzji”* (s. 31). Słownik (s. 91), hasło „Metodyka nadzoru”: *„Metodyka to podstawowa struktura koncepcyjna wykorzystywana do rozwiązywania lub uwzględniania złożonych problemów”*. Opis praktyk i działań procesu jest w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Wspólnota mieszkaniowa uchwala regulamin: o wydatkach do 5 tys. zł decyduje zarząd wspólnoty, powyżej decyduje zebranie. Raz w roku sprawdzacie, czy ten podział się sprawdza. Niczego nie remontujecie, tylko ustalacie, kto o czym decyduje. To jest EDM01.",
+    "biuro": "Kierownik biura spisuje: o zakupie papieru decyduje sekretarka, o zakupie drukarki – kierownik, o nowym systemie – zarząd. Co pół roku sprawdza, czy ten podział nie blokuje pracy.",
+    "organizacja": "Zarząd spółki powołuje komitet ds. IT i spisuje, o czym komitet decyduje sam, a co trafia do zarządu. Po roku zarząd ocenia, czy decyzje zapadają szybko i we właściwym gronie. Tak działa EDM01. Burmistrz zarządzeniem ustala, że o zakupach systemów decyduje zespół ds. cyfryzacji, a strategię zatwierdza rada miasta. Co rok sprawdza, czy nikt tych zasad nie omija. To jest EDM01.",
+    "psp": "**Rada ds. Informatyki.** Komendantka Anna Wrzos po awarii Syreny powołuje Radę ds. Informatyki. Ustala, co rada może zdecydować sama, a co musi trafić do komendantki. Po kwartale sprawdza, czy decyzje o Syrenie zapadają we właściwym miejscu. Wrzos nie konfiguruje Syreny, tylko ustala zasady decydowania. To jest [[proc-edm01|EDM01]].",
+    "it": "Komitet strategiczny ds. IT dostaje od zarządu uprawnienia i zasady eskalacji. To ustala EDM01. Role i procesy działu IT, które z tego wynikają, porządkuje [[proc-apo01]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-apo01",
+      "roznica": "APO01 to Zarządzanie: kierownik IT buduje i utrzymuje system zarządzania IT (role, polityki, procesy). EDM01 to Ład: organ Ładu ustala zasady decydowania i ocenia, czy działają."
+    },
+    {
+      "termin": "system-ladu",
+      "roznica": "Podejście do Ładu to model pojęciowy z Frameworka (cel, aktywatory, zakres, role). EDM01 to proces, w którym organ Ładu ten system faktycznie ustanawia i utrzymuje."
+    }
+  ],
+  "przykladWypowiedzi": "EDM01 *Ensure Governance Framework Setting and Maintenance*, po polsku „Zapewnienie i utrzymanie ładu korporacyjnego”, ustala, kto i jak decyduje o IT; APO01 organizuje według tego pracę zarządczą.",
+  "egzamin": "EDM01 jest w domenie EDM, czyli w Ładzie. Słowo-klucz EN: *Governance Framework*. Pytanie o to, **kto i jak decyduje** o IT na samej górze → EDM01. Pytanie o role, polityki i procesy **zarządzania** IT → APO01.",
+  "powiazane": [
+    "edm",
+    "lad",
+    "system-ladu",
+    "organ-ladu",
+    "proc-apo01",
+    "struktura-ramowa",
+    "zasada-5"
+  ],
+  "sylabus": [
+    "PR-01-03",
+    "PR-02-14"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 32,
+      "cytat": "w ramach każdego procesu zdefiniowano praktyki w zakresie oceny, kierowania i monitorowania"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 31,
+      "cytat": "struktury mogą należeć do przestrzeni nadzoru lub przestrzeni zarządzania, w zależności od ich składu i zakresu decyzji"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 91,
+      "cytat": "Metodyka to podstawowa struktura koncepcyjna wykorzystywana do rozwiązywania lub uwzględniania złożonych problemów"
+    }
+  ],
+  "mapa": "proc-edm01",
+  "glebokosc": {
+    "prosty": "W rodzinie ustalacie zasady: o drobnych zakupach decyduje każdy sam, o dużych wszyscy razem. Raz w roku sprawdzacie, czy to działa. Nie chodzi o same zakupy. Chodzi o to, kto o nich decyduje.",
+    "zaawansowany": "Komendantka Wrzos ustala, że o Syrenie decyduje Rada ds. Informatyki, a sprawy powyżej progu kosztów trafiają do niej. To jest EDM01: Ład ustanawia zasady decydowania. Naczelnik Sikora potem organizuje wydział: kto jest właścicielem procesu, jakie są polityki i role. To już [[proc-apo01]], czyli Zarządzanie. EDM01 mówi „kto decyduje”, a APO01 „jak zorganizować pracę zgodnie z tym”.",
+    "skrajny": "Obie nazwy mają w sobie „ramy”. EDM01 to *Governance Framework* (podręcznik: „ład korporacyjny”), a APO01 to *IT Management Framework* (podręcznik: „metodyka zarządzania IT”). Wyobraź sobie, że Sikora pisze projekt regulaminu Rady ds. Informatyki, a Wrzos go podpisuje. Pisanie projektu to praca zarządcza, ale decyzja o kształcie systemu Ładu należy do organu Ładu. Odwrotnie: gdy Wrzos sama rozpisuje role w wydziale informatyki, wchodzi w Zarządzanie, choć jest komendantką. Framework mówi, że o przynależności struktury decyduje jej skład i zakres decyzji (s. 31). **Rozstrzygnięcie:** zasady, *kto i jak decyduje o IT* → EDM01; organizacja *pracy zarządczej IT* (role, polityki, procesy) → APO01. Patrz na rodzaj decyzji, a nie na stanowisko osoby."
+  },
+  "zagmatwania": [
+    {
+      "mit": "EDM01 to ład korporacyjny całej spółki: finanse, akcjonariusze, wszystko.",
+      "prawda": "Mimo podręcznikowej nazwy EDM01 dotyczy ram Ładu nad IT (EN: *Governance Framework*). Ład nad IT jest częścią ładu korporacyjnego, ale go nie zastępuje."
+    },
+    {
+      "mit": "EDM01 i APO01 to to samo, bo oba ustalają „ramy”.",
+      "prawda": "EDM01 ustala ramy decydowania (Ład). APO01 buduje system zarządzania IT: role, polityki, procesy (Zarządzanie)."
+    },
+    {
+      "mit": "Skoro EDM01 ustala zasady, to dzieli też ludzi i pieniądze na IT.",
+      "prawda": "Zasady decydowania to EDM01. Ocena i kierunek wykorzystania zasobów to EDM04. Zapytaj: system decydowania czy sposób użycia zasobów?"
+    },
+    {
+      "mit": "Raz ustalony system Ładu nie wymaga już pracy.",
+      "prawda": "W nazwie jest „utrzymanie” (*Maintenance*). Organ Ładu stale monitoruje, czy system działa, i go koryguje."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli EDM01 z APO01, bo oba mają „ramy” albo „metodykę” w nazwie. Inny błąd: bierze „ład korporacyjny” dosłownie.",
+    "jakTlumaczyc": "Porównaj do statutu gminy i regulaminu urzędu. Statut mówi, kto o czym decyduje (EDM01). Regulamin organizacyjny mówi, jak pracują wydziały (APO01).",
+    "pytanieKontrolne": "Rada ds. Informatyki dostaje uprawnienie do zatwierdzania zakupów do 50 tys. zł. Który to proces i dlaczego nie APO01?",
+    "odpowiedzKontrolna": "EDM01: organ Ładu ustala zasady i uprawnienia decyzyjne. APO01 zajmowałby się organizacją pracy zarządczej IT, np. rolami i procesami w wydziale."
+  }
+}

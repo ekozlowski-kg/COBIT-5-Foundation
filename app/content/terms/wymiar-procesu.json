@@ -1,0 +1,109 @@
+{
+  "id": "wymiar-procesu",
+  "en": "Process dimension",
+  "wymowa": "prołses dajmenszyn",
+  "wymowaAkcent": "PROŁ-ses daj-MEN-szyn",
+  "plEgzamin": "Wymiar Procesu",
+  "plPodrecznik": "Wskaźniki wydajności (Model oceny procesu)",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Wymiar Procesu",
+    "podrecznik": "Wskaźniki wydajności (Model oceny procesu)",
+    "kurs": "Wymiar Procesu (Process dimension)",
+    "uwaga": "Egzamin PL: „Wymiar Procesu”; podręcznik PL: „Wskaźniki wydajności (Model oceny procesu)” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 42."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Wymiar Procesu”. Podręcznik (Il. 19) nie używa słowa „wymiar”, tylko „wskaźniki wydajności: wyniki procesu, podstawowe praktyki, produkty działań”. Nie myl z wymiarami aktywatora.",
+  "skadNazwa": "Z normy ISO/IEC 15504: model oceny ma dwa „wymiary”, jak dwie osie wykresu. Oś z listą procesów to *process dimension*.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "wymiary-oceny",
+    "prm",
+    "pojecia-iso15504"
+  ],
+  "poziom1": "Jedna z dwóch osi oceny. Obejmuje ocenianie procesy z Referencyjnego Modelu Procesu (PRM) i ich wskaźniki wykonania: przeznaczenie, rezultaty, praktyki bazowe i produkty pracy. Odpowiada na pytanie, czy proces robi to, co ma robić (poziom 1).",
+  "poLudzku": "Lista tego, co dana robota ma dawać, i kroków oraz papierów, które to potwierdzają.",
+  "wyobrazSobie": "Oś pozioma wykresu z listą zadań: każde zadanie ma swój opis i swoje dowody.",
+  "poCo": "Żeby ocena miała jasną treść: wiadomo, co dany proces ma osiągać i po jakich dowodach to poznać.",
+  "jakDziala": "Wymiar procesu bierze procesy z PRM. Każdy ma przeznaczenie, rezultaty, praktyki bazowe i produkty pracy. Te wskaźniki są inne dla każdego procesu i służą ocenie PA 1.1, czyli poziomu 1.",
+  "dlaczegoWazne": "Egzamin pyta, z którym wymiarem wiąże się Referencyjny Model Procesu. Odpowiedź to wymiar procesu, a nie zdolności ani oba.",
+  "poziom2": "| Element | Skąd w COBIT 5 | Podręcznik PL |\n|---|---|---|\n| przeznaczenie i rezultaty | opis procesu w PRM | cel i wyniki procesu |\n| praktyki bazowe | praktyki nadzoru i zarządzania | podstawowe praktyki |\n| produkty pracy | wejścia i wyjścia | produkty działań |\n\nTe wskaźniki są **specyficzne dla każdego procesu**: inne dla DSS02, inne dla APO12. Opis procesu w PRM **nie może** zawierać cech atrybutów powyżej poziomu 1 (s. 43).",
+  "poziom3": "Il. 19 (s. 42): *„COBIT 5 Model oceny procesu — wskaźniki wydajności”*: wyniki procesu, podstawowe praktyki (praktyki nadzoru/zarządzania), produkty działań (dane wejściowe/wyniki). (s. 43): model referencyjny procesu zawiera opis procesu ze wskazanym celem, podstawowe praktyki i produkty działań.",
+  "przyklady": {
+    "zycie": "Egzamin na prawo jazdy ma listę manewrów: parkowanie, łuk, ruszanie pod górę. To jak wymiar procesu: konkretne kroki i efekty, inne dla kategorii B, inne dla C. Lista nie mówi, jak dobrze kursant planuje naukę.",
+    "biuro": "Audytor biura bierze opis procesu „obieg dokumentów”: po co jest, co ma dawać, jakie kroki i jakie pisma powstają. Sprawdza tylko, czy to się dzieje. To wymiar procesu.",
+    "organizacja": "Audytor ocenia w firmie proces obsługi reklamacji. Bierze opis procesu: przeznaczenie, rezultaty, praktyki i dokumenty. Sprawdza, czy to wszystko się dzieje. To wymiar procesu, inny dla reklamacji, a inny dla fakturowania.\n\nKontrola w urzędzie bierze opis procesu wydawania pozwoleń i sprawdza konkretne kroki i dokumenty: wniosek, opinię, decyzję. To wymiar procesu.",
+    "psp": "**Co ma robić powiadamianie.** Audytorka Ewa Lis spisuje dla procesu powiadamiania przeznaczenie, rezultaty, kroki i dowody. Przeznaczenie: właściwe jednostki zaalarmowane bez zwłoki. Kroki: wybór jednostek, wysyłka, sprawdzenie potwierdzeń. Dowody: logi Syreny i lista numerów. To wymiar procesu, na którym Lis ocenia poziom 1.",
+    "it": "Wymiar procesu dla APO12 (zarządzanie ryzykiem) to jego opis z *Procesów umożliwiających*: przeznaczenie, cele procesu, praktyki APO12.01–APO12.06 oraz ich wejścia i wyjścia, np. profil ryzyka."
+  },
+  "glebokosc": {
+    "prosty": "Masz przepis na pierogi: po co je robisz, co ma wyjść, jakie są kroki i co zostaje na stole. To jedna strona oceny: czy pierogi w ogóle powstały. Druga strona to, jak dobrze organizujesz kuchnię.",
+    "zaawansowany": "Ewa Lis zaczyna ocenę od wymiaru procesu. Bierze [[przeznaczenie-procesu|przeznaczenie]] i [[rezultat-procesu|rezultaty]] procesu powiadamiania. Sprawdza [[praktyka-bazowa|praktyki bazowe]] i [[produkt-pracy|produkty pracy]]. Na tej podstawie ocenia [[pa-1-1|PA 1.1]]. Plan, standard i pomiar zostawia [[wymiar-zdolnosci|wymiarowi zdolności]].",
+    "skrajny": "Sikora chce dopisać do opisu procesu powiadamiania: „proces jest mierzony co tydzień i ma spisaną procedurę”. Lis protestuje. Framework mówi, że opis procesu w PRM nie może zawierać cech atrybutów powyżej poziomu 1. Pomiar i standard należą do wymiaru zdolności (PA 3.1, PA 4.1). Druga zagwozdka: PA 1.1 jest atrybutem, czyli częścią skali zdolności. Dowody do niego bierze się jednak z wymiaru procesu. **Rozstrzygnięcie:** wymiar procesu mówi, co proces ma osiągać i po czym to widać. Jest inny dla każdego procesu i służy ocenie poziomu 1, a pytanie „jak dobrze tym zarządzamy” należy do wymiaru zdolności."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Referencyjny Model Procesu dotyczy obu wymiarów.",
+      "prawda": "PRM odnosi się tylko do wymiaru procesu. Atrybuty i skala należą do wymiaru zdolności."
+    },
+    {
+      "mit": "Wymiar procesu to to samo co wymiary aktywatora.",
+      "prawda": "Wymiary aktywatora (interesariusze, cele, cykl życia, dobre praktyki) to model aktywatora. Wymiar procesu to część oceny zdolności."
+    },
+    {
+      "mit": "W opisie procesu można zapisać, że proces jest mierzony i ma standard.",
+      "prawda": "Framework tego zabrania: opis procesu w PRM nie może zawierać cech powyżej poziomu 1 (s. 43)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń przypisuje PRM do obu wymiarów albo do wymiaru zdolności.",
+    "jakTlumaczyc": "Narysuj dwie osie. Pozioma to lista procesów z PRM (co robimy), pionowa to poziomy 0–5 (jak dobrze). Wymiar procesu to oś pozioma.",
+    "pytanieKontrolne": "Dlaczego opis procesu DSS02 w PRM nie mówi, że proces ma być mierzony?",
+    "odpowiedzKontrolna": "Bo opis procesu w PRM nie może zawierać cech atrybutów powyżej poziomu 1. Pomiar to PA 4.1, czyli wymiar zdolności."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "wymiar-zdolnosci",
+      "roznica": "Wymiar zdolności to 9 atrybutów i ogólne wskaźniki, wspólne dla wszystkich procesów. Wymiar procesu jest specyficzny dla każdego procesu."
+    },
+    {
+      "termin": "wymiary-aktywatora",
+      "roznica": "Wymiary aktywatora należą do modelu aktywatora (Zasada 4), a nie do oceny zdolności."
+    }
+  ],
+  "przykladWypowiedzi": "The process dimension, czyli wymiar procesu, pochodzi z Process Reference Model (Referencyjnego Modelu Procesu) i zawiera praktyki bazowe oraz produkty pracy.",
+  "egzamin": "Z **Referencyjnym Modelem Procesu** wiąże się **Wymiar Procesu**. Jego wskaźniki, **praktyki bazowe i produkty pracy**, służą ocenie **poziomu 1**.",
+  "powiazane": [
+    "wymiary-oceny",
+    "prm",
+    "wymiar-zdolnosci",
+    "pojecia-iso15504",
+    "pa-1-1"
+  ],
+  "sylabus": [
+    "PC-02-03",
+    "PC-02-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "COBIT 5 Model oceny procesu — wskaźniki wydajności"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "Opis procesu nie może zawierać żadnych aspektów struktury pomiarów wykraczających poza poziom 1"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "opis procesu ze wskazanym celem"
+    }
+  ],
+  "mapa": "wymiar-procesu"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "pa-1-1",
+  "en": "PA 1.1 Process performance",
+  "wymowa": "piej 1 1 prołses performens",
+  "wymowaAkcent": "pi-ej 1 1 PROŁ-ses per-FOR-mens",
+  "plEgzamin": "PA 1.1 Wykonanie procesu",
+  "plPodrecznik": "PA 1.1 Sprawność procesu",
+  "plInne": [
+    {
+      "nazwa": "Atrybut sprawności",
+      "zrodlo": "FW-PL s. 42, Il. 19"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "PA 1.1 Wykonanie procesu",
+    "podrecznik": "PA 1.1 Sprawność procesu",
+    "kurs": "PA 1.1 Wykonanie procesu (PA 1.1 Process performance)",
+    "uwaga": "Egzamin PL: „PA 1.1 Wykonanie procesu”; podręcznik PL: „PA 1.1 Sprawność procesu” – konkurencyjne odpowiedniki. Formy „Wykonanie procesu” nie ma ani w SP1, ani w zestawieniu Altkom. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Inne formy w obiegu: Atrybut sprawności (FW-PL s. 42, Il. 19)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „Sprawność procesu”. Kurs: „Wykonanie procesu” (nazwy egzaminacyjnej nie potwierdziliśmy w arkuszu). „Sprawność” nie oznacza tu szybkości ani oszczędności, tylko osiąganie rezultatów procesu.",
+  "skadNazwa": "Z angielskiego *Process performance*. *Performance* znaczy tu „wykonanie z efektem”, a nie „wydajność”. Podręcznik wybrał słowo „sprawność”.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "atrybuty-procesu",
+    "skala-ocen",
+    "rezultat-procesu"
+  ],
+  "poziom1": "Jedyny atrybut poziomu 1. Mierzy, w jakim stopniu proces osiąga swoje przeznaczenie, czyli czy jego rezultaty są osiągane. Ocena W lub P daje poziom 1, a do każdego wyższego poziomu PA 1.1 musi mieć P.",
+  "poLudzku": "Czy robota daje efekt, po który ją robimy: wcale, trochę, w większości czy w pełni.",
+  "wyobrazSobie": "Fundament domu: jeśli nie jest wylany w całości, możesz postawić szopę, ale nie piętro.",
+  "poCo": "Żeby sprawdzić najważniejsze: czy proces w ogóle daje efekt, po który istnieje.",
+  "jakDziala": "Asesor bierze rezultaty z opisu procesu i ocenia, w jakim stopniu są osiągane. Dowodami są praktyki bazowe i produkty pracy. Ocena N lub C daje poziom 0, a W lub P poziom 1.",
+  "dlaczegoWazne": "Od PA 1.1 zależy cała drabina. W wystarcza na poziom 1, ale blokuje poziom 2, i właśnie to egzamin lubi sprawdzać.",
+  "poziom2": "| Ocena PA 1.1 | Skutek |\n|---|---|\n| N, C | poziom 0 |\n| W | poziom 1, ale **blokada** wyższych poziomów |\n| P | poziom 1 i otwarta droga na poziom 2 |\n\nDowody: [[rezultat-procesu|rezultaty]] z opisu procesu, [[praktyka-bazowa|praktyki bazowe]] i [[produkt-pracy|produkty pracy]]. To jedyny atrybut, który ocenia się wskaźnikami specyficznymi dla danego procesu.",
+  "poziom3": "(s. 42): osiągnięcie poziomu 1 *„wymaga osiągnięcia (w znacznym stopniu) atrybutu sprawności procesu, co oznacza, że proces jest skutecznie realizowany, a przedsiębiorstwo uzyskuje wymagane wyniki”*. (s. 45): kolejne kroki oceny poziomu 1 to weryfikacja wyników procesu, potem praktyk i produktów działań.",
+  "przyklady": {
+    "zycie": "Odprowadzasz dziecko do szkoły. PA 1.1 pyta tylko o jedno: czy dziecko codziennie jest w szkole na czas. Nie pyta, czy masz plan dojazdu ani grafik z sąsiadką.",
+    "biuro": "Kontrola sprawdza obieg korespondencji w biurze: na 40 listów 38 trafiło do właściwej osoby w dniu wpływu. To 95%, więc PA 1.1 = P.",
+    "organizacja": "Asesor w warsztacie sprawdza 30 losowych zleceń. W 27 auto było naprawione i oddane w terminie. To 90%, więc PA 1.1 = P. O grafiki i wzory dokumentów zapyta dopiero przy PA 2.1 i PA 2.2.\n\nKontrola w urzędzie sprawdza wydawanie dowodów osobistych. W 70% spraw dowód jest wydany w terminie i bez błędów. PA 1.1 = W: proces ma poziom 1, ale na poziom 2 jeszcze nie wejdzie.",
+    "psp": "**Logi Syreny.** Audytorka Ewa Lis bierze z Syreny 50 alarmów z ostatnich trzech miesięcy. W 41 przypadkach przyszło potwierdzenie od wszystkich wezwanych jednostek, w tym od OSP Zawilce. To 82%, czyli W. Proces powiadamiania ma poziom 1, ale przed poziomem 2 komenda musi dociągnąć PA 1.1 do P.",
+    "it": "Proces DSS02: asesor sprawdza, czy incydenty są rejestrowane, klasyfikowane i rozwiązywane, a usługi przywracane. Jeśli dzieje się to w 70% przypadków, PA 1.1 = W, a proces ma poziom 1 bez szans na poziom 2."
+  },
+  "glebokosc": {
+    "prosty": "Trener pływania sprawdza tylko jedno: czy dziecko przepłynie basen. Nie patrzy na styl ani na plan treningów. Przepłynęło w 9 próbach na 10? To pełne „tak”. Tak działa PA 1.1.",
+    "zaawansowany": "Ewa Lis ocenia PA 1.1 procesu powiadamiania. Bierze [[rezultat-procesu|rezultaty]] z opisu procesu, np. „alarm dociera do wszystkich wezwanych jednostek”. Sprawdza [[praktyka-bazowa|praktyki bazowe]] i [[produkt-pracy|produkty pracy]], np. logi Syreny. Wynik 82% to [[ocena-w|W]], więc proces ma [[poziom-1|poziom 1]]. Do [[poziom-2|poziomu 2]] PA 1.1 musi mieć P.",
+    "skrajny": "Sikora pyta: „Mamy W na PA 1.1 i P na PA 2.1 i PA 2.2. Czemu nie poziom 2?” Lis odpowiada regułą: atrybuty niższych poziomów muszą mieć P. PA 1.1 to fundament, bo pyta, czy proces w ogóle osiąga cel. Druga zagwozdka: PA 1.1 należy do skali atrybutów, ale ocenia się go wskaźnikami wykonania, czyli praktykami bazowymi i produktami pracy danego procesu. Trzecia: „sprawność” z podręcznika nie oznacza szybkości, więc wolny, ale skuteczny proces może mieć P. **Rozstrzygnięcie:** PA 1.1 = W wystarcza na poziom 1 i blokuje poziom 2. PA 1.1 = N albo C to poziom 0."
+  },
+  "zagmatwania": [
+    {
+      "mit": "„Sprawność procesu” to szybkość albo oszczędność.",
+      "prawda": "Chodzi o to, czy proces osiąga rezultaty. Szybki proces bez efektu dostaje niską ocenę, a wolny, ale skuteczny – wysoką."
+    },
+    {
+      "mit": "PA 1.1 = W to „prawie pełny”, więc wystarczy na każdy poziom.",
+      "prawda": "W wystarcza tylko na poziom 1. Każdy wyższy poziom wymaga P na PA 1.1."
+    },
+    {
+      "mit": "PA 1.1 sprawdza, czy ludzie wykonują czynności z procedury.",
+      "prawda": "Sprawdza, czy osiągane są rezultaty procesu. Czynności (praktyki bazowe) są dowodem, a nie celem oceny."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń uznaje W na PA 1.1 za wystarczające do poziomu 2.",
+    "jakTlumaczyc": "Mów „fundament”: na fundamencie wylanym w 80% postawisz szopę (poziom 1), ale nie piętro (poziom 2). Ćwicz trzy profile: C daje 0, W daje 1 z blokadą, P otwiera drogę.",
+    "pytanieKontrolne": "Jaka najniższa ocena PA 1.1 pozwala osiągnąć poziom 3?",
+    "odpowiedzKontrolna": "**P** (pełny). Dla każdego poziomu powyżej 1 wszystkie atrybuty niższych poziomów, w tym PA 1.1, muszą mieć P."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "pa-2-1",
+      "roznica": "PA 2.1 pyta, czy wykonanie jest planowane i pilnowane. PA 1.1 pyta tylko, czy efekt jest."
+    },
+    {
+      "termin": "poziom-1",
+      "roznica": "Poziom 1 to wynik procesu, a PA 1.1 to atrybut, którego ocena ten wynik wyznacza."
+    },
+    {
+      "termin": "Wydajność (szybkość, koszt)",
+      "roznica": "PA 1.1 nie mierzy tempa ani kosztów, tylko osiąganie rezultatów procesu."
+    }
+  ],
+  "przykladWypowiedzi": "PA 1.1 Process performance, czyli wykonanie procesu (w podręczniku: sprawność procesu), to jedyny atrybut poziomu 1 i ocenia, czy proces osiąga swoje rezultaty.",
+  "egzamin": "Poziom 1 ma **jeden** atrybut: **PA 1.1**. Ocena **W lub P** daje poziom 1. Do wyższych poziomów PA 1.1 musi mieć **P**.",
+  "powiazane": [
+    "atrybuty-procesu",
+    "poziom-1",
+    "rezultat-procesu",
+    "wymiar-procesu",
+    "ocena-w"
+  ],
+  "sylabus": [
+    "PC-01-02",
+    "PC-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "wymaga osiągnięcia (w znacznym stopniu) atrybutu sprawności procesu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "Weryfikacja wyników procesu na podstawie ich charakterystyki zawartej w szczegółowych opisach procesów"
+    }
+  ],
+  "mapa": "pa-1-1"
+}

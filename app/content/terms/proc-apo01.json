@@ -1,0 +1,124 @@
+{
+  "id": "proc-apo01",
+  "en": "APO01 Manage the IT Management Framework",
+  "wymowa": "ejpio 01 menydż de ajti menydżment frejmłerk",
+  "wymowaAkcent": "ej-pi-O 01 ME-nydż de aj-ti ME-nydż-ment FREJM-łerk",
+  "plEgzamin": "APO01 Zarządzanie metodyką zarządzania IT",
+  "plPodrecznik": "APO01 Zarządzanie metodyką zarządzania IT",
+  "plInne": [
+    {
+      "nazwa": "Zarządzanie ramami zarządzania IT",
+      "zrodlo": "atlas „Prosto” (opracowanie nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO01 Zarządzanie metodyką zarządzania IT",
+    "podrecznik": "APO01 Zarządzanie metodyką zarządzania IT",
+    "kurs": "APO01 Zarządzanie metodyką zarządzania IT (APO01 Manage the IT Management Framework)",
+    "uwaga": "Egzamin PL i podręcznik zgodne, ale w obiegu są konkurencyjne odpowiedniki: Zarządzanie ramami zarządzania IT. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 74. Inne formy w obiegu: Zarządzanie ramami zarządzania IT (atlas „Prosto” (opracowanie nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie APO01 i słowie kluczowym EN *IT Management Framework*. „Metodyka” to tu *Framework*, a egzamin tłumaczy *Framework* jako „Struktura ramowa”. Nie chodzi o metodykę prowadzenia projektów (to BAI01). Nie myl też z EDM01.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "prm",
+    "struktura-ramowa"
+  ],
+  "poLudzku": "Szef informatyki ustala, jak jego dział jest zorganizowany: kto za co odpowiada i według jakich zasad pracuje.",
+  "wyobrazSobie": "Regulamin organizacyjny urzędu: kto w nim pracuje, kto za co odpowiada i jak sprawy przechodzą między wydziałami.",
+  "poCo": "Żeby dział IT miał jasną organizację: kto za co odpowiada, jakie są zasady i procesy, i żeby to stale poprawiać.",
+  "jakDziala": "Kierownictwo IT projektuje strukturę organizacyjną, role i odpowiedzialności. Ustala polityki IT i właścicieli informacji oraz systemów. Komunikuje to i regularnie doskonali procesy.",
+  "dlaczegoWazne": "APO01 to szkielet całego Zarządzania IT. Na egzaminie łatwo go pomylić z EDM01 i z „metodyką” projektową.",
+  "skadNazwa": "EN *Manage the IT Management Framework*, czyli „zarządzaj strukturą ramową zarządzania IT”. Podręcznik tłumaczy *framework* jako „metodyka”, egzamin jako „struktura ramowa”. Chodzi o cały układ zarządzania IT: role, zasady, procesy.",
+  "poziom1": "Pierwszy proces domeny APO. Kierownictwo IT buduje i utrzymuje system zarządzania IT: strukturę organizacyjną, role i odpowiedzialności, polityki i procesy. Tak wykonuje kierunek ustalony przez Ład.",
+  "poziom2": "**Czym się zajmuje:** organizuje „jak pracujemy” w IT: kto jest właścicielem procesu, jakie są polityki, jak się koordynujemy, jak stale poprawiamy procesy.\n\n**Wejścia (intuicja):** zasady Ładu z [[proc-edm01]], strategia z [[proc-apo02]], wymagania jakości i bezpieczeństwa.\n\n**Wyjścia (intuicja):** schemat organizacyjny IT, opisy ról (np. tabele [[raci]]), polityki IT, właściciele informacji i systemów.\n\n**Współpraca:** jest szkieletem dla pozostałych procesów Zarządzania. Ludzi do ról przygotowuje [[proc-apo07]].",
+  "poziom3": "Il. 16 (s. 33): „APO01 Zarządzanie metodyką zarządzania IT”. Il. 39 (s. 88) wymienia w domenie APO kategorię umiejętności *„Opracowanie polityki IT”*. Framework przypomina, że *„Każde przedsiębiorstwo musi zdefiniować własny zbiór procesów, uwzględniając specyfikę swojej działalności.”* (s. 32). Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Zakładasz z sąsiadami ogródek. Spisujecie, kto podlewa, kto kupuje nasiona i kto prowadzi zeszyt wydatków. Ustalacie też zastępstwa na urlopy. Taka organizacja wspólnej pracy to APO01.",
+    "biuro": "Nowa kierowniczka biura spisuje, kto odpowiada za pocztę, kto za faktury, a kto za archiwum. Wprowadza jedną zasadę obiegu dokumentów i co kwartał ją poprawia.",
+    "organizacja": "Nowy dyrektor IT w hurtowni spisuje, kto jest właścicielem każdego systemu i procesu. Wprowadza politykę IT i jeden sposób zgłaszania zmian. Raz na kwartał przegląda procesy i je poprawia. To APO01. Kierownik referatu informatyki w urzędzie gminy pisze regulamin referatu: zakresy obowiązków, zastępstwa, właściciele systemów, zasady dokumentowania. Burmistrz go zatwierdza. Opracowanie i utrzymanie tego układu to APO01.",
+    "psp": "**Kto jest właścicielem powiadamiania?** Naczelnik Marek Sikora po awarii Syreny porządkuje swój wydział. Wyznacza właściciela procesu powiadamiania i właściciela listy numerów OSP. Pisze politykę IT komendy i rozpisuje role. Robi to w zasadach ustalonych przez komendantkę. To jest [[proc-apo01|APO01]].",
+    "it": "Dyrektor IT tworzy katalog ról, tabele [[raci]] dla procesów i politykę IT oraz wyznacza właścicieli procesów. To APO01, oparte na zasadach z [[proc-edm01]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-edm01",
+      "roznica": "EDM01 (Ład) ustala zasady decydowania o IT. APO01 (Zarządzanie) organizuje pracę zarządczą IT według tych zasad."
+    },
+    {
+      "termin": "proc-bai01",
+      "roznica": "BAI01 prowadzi programy i projekty. „Metodyka” w nazwie APO01 to *framework*, a nie metodyka projektowa."
+    },
+    {
+      "termin": "struktura-ramowa",
+      "roznica": "Struktura ramowa (*framework*) to ogólne pojęcie. APO01 to proces, który zarządza strukturą ramową zarządzania IT w danej organizacji."
+    }
+  ],
+  "przykladWypowiedzi": "APO01 *Manage the IT Management Framework*, w podręczniku „Zarządzanie metodyką zarządzania IT”, porządkuje role, polityki i procesy IT; *framework* to tu struktura ramowa, a nie metodyka projektowa.",
+  "egzamin": "Słowa-klucze: **struktura organizacyjna IT, role i odpowiedzialności, polityki IT, system zarządzania, ciągłe doskonalenie procesów** → APO01. Nazwa na egzaminie może mieć „strukturę ramową” zamiast „metodyki”.",
+  "powiazane": [
+    "apo",
+    "struktura-ramowa",
+    "proc-edm01",
+    "raci",
+    "role-organizacyjne",
+    "polityka",
+    "proc-apo07"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO01 Zarządzanie metodyką zarządzania IT"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39",
+      "cytat": "Opracowanie polityki IT"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 32,
+      "cytat": "Każde przedsiębiorstwo musi zdefiniować własny zbiór procesów, uwzględniając specyfikę swojej działalności."
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "proc-apo01",
+  "glebokosc": {
+    "prosty": "W rodzinie ustalasz, kto wynosi śmieci, kto płaci rachunki i kto pilnuje terminów. Spisujesz to na lodówce. Gdy coś nie działa, poprawiasz podział. To organizacja codziennej pracy.",
+    "zaawansowany": "Komendantka Wrzos ustaliła w [[proc-edm01]], że o Syrenie decyduje Rada ds. Informatyki. Naczelnik Sikora organizuje pod to swój wydział. Wyznacza właścicieli procesów, pisze politykę IT i tabele [[raci]]. Kompetencje ludzi do tych ról rozwija w [[proc-apo07]]. Cały ten układ zarządzania IT to APO01.",
+    "skrajny": "Podręcznik nazywa APO01 „Zarządzanie metodyką zarządzania IT”. Ktoś słyszy „metodyka” i myśli o PRINCE2 dla projektów. To błąd: chodzi o *framework*, czyli cały system zarządzania IT. Druga pułapka: EDM01 też dotyczy „ram”. Różnica leży w poziomie. Ład ustala, kto i jak decyduje. Zarządzanie organizuje role, polityki i procesy, by tę decyzję wykonać. **Rozstrzygnięcie:** organizacja pracy zarządczej IT (role, polityki, procesy, doskonalenie) → APO01; zasady decydowania na górze → EDM01; prowadzenie projektów → BAI01."
+  },
+  "zagmatwania": [
+    {
+      "mit": "„Metodyka” w APO01 to metodyka projektowa.",
+      "prawda": "To *framework*, czyli struktura ramowa zarządzania IT. Projekty prowadzi BAI01."
+    },
+    {
+      "mit": "APO01 i EDM01 to ten sam proces pod dwiema nazwami.",
+      "prawda": "To dwa procesy: EDM01 w Ładzie, APO01 w Zarządzaniu."
+    },
+    {
+      "mit": "APO01 dotyczy tylko schematu organizacyjnego.",
+      "prawda": "Także polityk, ról, własności informacji i systemów oraz ciągłego doskonalenia procesów."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń bierze „metodykę” dosłownie albo myli APO01 z EDM01.",
+    "jakTlumaczyc": "APO01 to „regulamin organizacyjny działu IT”: kto w nim jest, kto za co odpowiada, jak pracujemy. EDM01 to „kto ten regulamin zatwierdza i według jakich zasad”.",
+    "pytanieKontrolne": "Szef IT wyznacza właścicieli procesów i pisze politykę IT. Który to proces?",
+    "odpowiedzKontrolna": "APO01, czyli organizacja systemu zarządzania IT. To Zarządzanie, bo wykonuje kierunek Ładu."
+  }
+}

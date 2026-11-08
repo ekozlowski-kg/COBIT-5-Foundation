@@ -1,0 +1,112 @@
+{
+  "id": "cykl-faza-4",
+  "en": "Use/operate (enabler life-cycle phase 4)",
+  "wymowa": "juz operejt",
+  "wymowaAkcent": "juz O-pe-rejt",
+  "plEgzamin": "Użytkowanie/eksploatacja",
+  "plPodrecznik": "Użytkowanie/eksploatacja (Ilustracja 13); Użytkowanie/obsługa (tekst s. 29)",
+  "plInne": [
+    {
+      "nazwa": "Użytkowanie/obsługa",
+      "zrodlo": "FW-PL s. 29"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Użytkowanie/eksploatacja",
+    "podrecznik": "Użytkowanie/eksploatacja (Ilustracja 13); Użytkowanie/obsługa (tekst s. 29)",
+    "kurs": "Użytkowanie/eksploatacja (Use/operate)",
+    "uwaga": "Egzamin PL: „Użytkowanie/eksploatacja”; podręcznik PL: „Użytkowanie/eksploatacja (Ilustracja 13); Użytkowanie/obsługa (tekst s. 29)” – konkurencyjne odpowiedniki. Podręcznik ma dwie formy: „Użytkowanie/eksploatacja” (ilustracja 13) i „Użytkowanie/obsługa” (tekst s. 29). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Inne formy w obiegu: Użytkowanie/obsługa (FW-PL s. 29)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik używa dwóch nazw: „Użytkowanie/eksploatacja” (Ilustracja 13) i „Użytkowanie/obsługa” (s. 29). Nie myl z rolą „Eksploatacja i wykonanie” ani z domeną DSS. Egzaminacyjnej nazwy PL faz cyklu życia aktywatora nie potwierdziliśmy (brak w SP1 i w zestawieniu Altkom). Używamy nazwy z FW-PL (s. 29, il. 13).",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "cykl-faza-3",
+    "wymiar-cykl-zycia"
+  ],
+  "poLudzku": "Okres, gdy rzecz po prostu działa i ludzie na co dzień z niej korzystają.",
+  "skadNazwa": "*Use/operate*. Słowo *operate* podręcznik raz tłumaczy „eksploatacja”, a raz „obsługa”.",
+  "wyobrazSobie": "Codzienna jazda samochodem między przeglądami.",
+  "poCo": "Żeby aktywator robił to, po co powstał, czyli codziennie dawał wartość.",
+  "jakDziala": "Ludzie korzystają z aktywatora: wykonują proces, stosują politykę, pracują w systemie. W tym czasie aktywator daje wyniki, które można mierzyć. Ocena tych wyników to już faza 5.",
+  "dlaczegoWazne": "Słowo „eksploatacja” występuje w COBIT 5 w kilku znaczeniach. Egzamin może zestawić je w jednym pytaniu.",
+  "poziom1": "Czwarta faza cyklu życia aktywatora. Aktywator jest w użyciu: proces się wykonuje, polityka obowiązuje, system pracuje. Zwykle to najdłuższa część życia aktywatora.",
+  "poziom2": "| Aktywator | Jak wygląda faza 4 (uproszczenie) |\n|---|---|\n| proces | wykonywanie praktyk na co dzień |\n| informacja | korzystanie z danych, np. z listy numerów |\n| polityka | obowiązywanie i stosowanie |\n| system | codzienna praca |\n\nDziałający aktywator trzeba też oceniać, a to już [[cykl-faza-5|faza 5]].",
+  "poziom3": "Ilustracja 13 (s. 28): *„Użytkowanie/eksploatacja”*. Tekst (s. 29): *„Użytkowanie/obsługa”*. To ta sama faza.",
+  "przyklady": {
+    "zycie": "Kupiliście i zamontowaliście zmywarkę. Teraz codziennie ładujecie naczynia, dosypujecie sól i wyjmujecie czyste talerze. To faza użytkowania: zwykłe, codzienne korzystanie.",
+    "biuro": "Program do rezerwacji sal działa od pół roku. Pracownicy rezerwują sale, a recepcja sprawdza grafik. To faza użytkowania.",
+    "organizacja": "Bramka płatności działa od miesiąca. Klienci płacą BLIK-iem, a kasjerka sprawdza wpłaty w panelu. To faza użytkowania/eksploatacji.\n\nSystem zapisów działa w urzędzie. Mieszkańcy się zapisują, a urzędnicy przyjmują ich o wyznaczonych godzinach. To faza 4.",
+    "psp": "**Zwykła noc w SK** Asp. sztab. Paweł Grab, dyżurny SK (stanowiska kierowania), wysyła w nocy trzy alarmy z Syreny. JRG potwierdzają wyjazd, OSP odpisują SMS-em. Nikt nic nie zmienia ani nie ocenia, system po prostu pracuje. To faza 4 cyklu życia aktywatora: użytkowanie/eksploatacja.",
+    "it": "Dla usług IT codzienne działanie wspiera m.in. proces DSS01, w podręczniku „Zarządzanie eksploatacją”. To kolejna „eksploatacja”, ale tym razem proces, a nie faza życia aktywatora."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "rola-operacyjne",
+      "roznica": "„Eksploatacja i wykonanie” to podręcznikowa nazwa roli ludzi z Ilustracji 9. Faza 4 to etap życia aktywatora."
+    },
+    {
+      "termin": "dss",
+      "roznica": "DSS to domena procesów Zarządzania o codziennym działaniu. Faza 4 dotyczy każdego aktywatora, nie tylko usług IT."
+    },
+    {
+      "termin": "Faza 6 wdrożenia „Czy dotarliśmy do celu?” (Eksploatacja i pomiar)",
+      "roznica": "W pierścieniu ciągłego doskonalenia faza 6 wdrożenia nazywa się „Eksploatacja i pomiar”. To faza programu wdrożenia, a nie aktywatora."
+    }
+  ],
+  "przykladWypowiedzi": "In the use/operate phase, czyli w fazie użytkowania/eksploatacji, aktywator działa na co dzień, np. proces jest wykonywany.",
+  "egzamin": "Faza 4 = **Użytkowanie/eksploatacja** (w tekście s. 29: „Użytkowanie/obsługa”). Słowo „eksploatacja” pada też w nazwie roli („Eksploatacja i wykonanie”) i w fazie 6 wdrożenia („Eksploatacja i pomiar”). Egzaminacyjnej nazwy PL faz cyklu życia aktywatora nie potwierdziliśmy (brak w SP1 i w zestawieniu Altkom). Używamy nazwy z FW-PL (s. 29, il. 13).",
+  "powiazane": [
+    "cykl-zycia-aktywatora",
+    "wymiar-cykl-zycia",
+    "cykl-faza-3",
+    "cykl-faza-5",
+    "rola-operacyjne",
+    "dss"
+  ],
+  "sylabus": [
+    "PR-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 28,
+      "ilustracja": "13",
+      "cytat": "Użytkowanie/eksploatacja"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Użytkowanie/obsługa"
+    }
+  ],
+  "mapa": "cykl-faza-4",
+  "glebokosc": {
+    "prosty": "Rower stoi w garażu, kupiony i złożony. Od teraz jeździsz nim codziennie do pracy. Nic w nim nie zmieniasz, po prostu z niego korzystasz. To faza użytkowania.",
+    "zaawansowany": "Od kwietnia Syrena 2.0 pracuje codziennie: dyżurni wysyłają alarmy, OSP je potwierdzają. To faza 4 aktywatora Usługi, infrastruktura i aplikacje. Dyżurni, którzy z niej korzystają, to na Ilustracji 9 [[rola-operacyjne|role operacyjne]]. Procesy codziennej obsługi należą do domeny [[dss|DSS]]. To trzy różne spojrzenia na tę samą noc w SK.",
+    "skrajny": "W jednym pytaniu mogą paść trzy „eksploatacje”. Role operacyjne nazywają się w podręczniku „Eksploatacja i wykonanie”. Faza 4 cyklu życia aktywatora to „Użytkowanie/eksploatacja”, a w tekście s. 29 „Użytkowanie/obsługa”. Faza 6 wdrożenia w pierścieniu ciągłego doskonalenia to „Eksploatacja i pomiar”. Każde z nich to inna kategoria: rola, faza aktywatora, faza wdrożenia. **Rozstrzygnięcie:** sprawdź, czego dotyczy zdanie: ludzi w łańcuchu (rola), życia jednego aktywatora (faza 4 z 6) czy programu wdrożenia (faza 6 z 7)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "„Eksploatacja i wykonanie” to faza cyklu życia.",
+      "prawda": "To nazwa roli (role operacyjne). Faza nazywa się „Użytkowanie/eksploatacja”."
+    },
+    {
+      "mit": "„Użytkowanie/obsługa” i „Użytkowanie/eksploatacja” to dwie fazy.",
+      "prawda": "To ta sama faza 4; podręcznik używa obu nazw (s. 28–29)."
+    },
+    {
+      "mit": "Faza 4 dotyczy tylko systemów IT.",
+      "prawda": "Dotyczy każdego aktywatora, np. obowiązującej polityki."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie słowa „eksploatacja” w nazwie roli i w nazwie fazy.",
+    "jakTlumaczyc": "Zapytaj: „kto?” czy „kiedy?”. „Kto?” prowadzi do roli (Eksploatacja i wykonanie). „Kiedy w życiu aktywatora?” prowadzi do fazy 4.",
+    "pytanieKontrolne": "Które z określeń jest fazą cyklu życia aktywatora: „Eksploatacja i wykonanie”, „Użytkowanie/eksploatacja” czy „Eksploatacja i pomiar”?",
+    "odpowiedzKontrolna": "**„Użytkowanie/eksploatacja”** (faza 4). Pierwsze to rola z Ilustracji 9, trzecie to faza 6 wdrożenia w pierścieniu ciągłego doskonalenia."
+  }
+}

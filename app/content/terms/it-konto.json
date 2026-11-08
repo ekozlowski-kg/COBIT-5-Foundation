@@ -1,0 +1,90 @@
+{
+  "id": "it-konto",
+  "en": "Account (user account)",
+  "wymowa": "akaunt",
+  "wymowaAkcent": "a-KAŁNT",
+  "plEgzamin": "Konto użytkownika",
+  "plPodrecznik": "—",
+  "plInne": [
+    "konto",
+    "login (potocznie)"
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "—",
+    "kurs": "Konto użytkownika (user account)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Nie myl z kontem bankowym (miejscem na pieniądze)."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-aplikacja",
+    "it-serwer"
+  ],
+  "poLudzku": "Twoje „miejsce” w systemie: nazwa użytkownika, hasło i to, co wolno Ci w nim robić.",
+  "poziom1": "Konto to zapis w systemie, który mówi: „ta osoba istnieje i może korzystać z tej aplikacji”. Ma nazwę użytkownika (login), sposób potwierdzenia tożsamości (np. hasło) i przypisane uprawnienia.",
+  "poziom2": "Konto zakłada się zwykle raz, a potem się z niego korzysta. W organizacji konto dostaje pracownik przy zatrudnieniu i traci je przy odejściu. Konta nie należy pożyczać – wtedy system nie wie, kto naprawdę coś zrobił.",
+  "poziom3": "COBIT 5 nie definiuje konta. Zakładanie, zmiana i usuwanie kont to część ochrony dostępu w procesie DSS05 Zarządzanie usługami bezpieczeństwa; prośba o nowe konto to typowe zgłoszenie serwisowe (DSS02).",
+  "wyobrazSobie": "Karta biblioteczna z Twoim nazwiskiem. Dzięki niej biblioteka wie, kim jesteś i ile książek możesz wypożyczyć.",
+  "poCo": "Żeby system wiedział, kto z niego korzysta, i mógł każdemu dać tylko to, czego potrzebuje.",
+  "jakDziala": "Administrator (osoba, która zarządza systemem) zakłada konto i ustawia uprawnienia. Ty logujesz się nazwą użytkownika i hasłem. System rozpoznaje konto i pokazuje to, co możesz robić.",
+  "dlaczegoWazne": "Konta to pierwsza linia ochrony informacji. Nieusunięte konta byłych pracowników to częsta droga do nadużyć.",
+  "przyklady": {
+    "zycie": "Masz konto w banku internetowym: login, hasło i dostęp tylko do swoich pieniędzy.",
+    "biuro": "Nowa pracownica dostaje konto w poczcie służbowej i w programie kadrowym. Pierwszego dnia ustawia własne hasło.",
+    "organizacja": "Gdy pracownik odchodzi z firmy, dział IT blokuje jego konta tego samego dnia, żeby nie miał już dostępu do danych.",
+    "psp": "Każdy dyżurny ma w „Syrenie” własne konto. Po alarmie widać, że to konto Pawła Graba wysłało SMS-y.",
+    "it": "Zarządzanie kontami to część procesu DSS05 Zarządzanie usługami bezpieczeństwa."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-uwierzytelnianie",
+      "roznica": "Konto to zapis w systemie. Uwierzytelnianie to sprawdzenie przy logowaniu, że to naprawdę Ty."
+    },
+    {
+      "termin": "Konto bankowe",
+      "roznica": "Konto bankowe to miejsce na pieniądze. Konto użytkownika to dostęp do systemu – np. do bankowości internetowej."
+    }
+  ],
+  "przykladWypowiedzi": "A user account, czyli konto użytkownika, ma login i hasło; każdy dyżurny ma własne account w „Syrenie”.",
+  "egzamin": "Nie jest terminem egzaminu. Przydaje się przy procesach bezpieczeństwa (DSS05) i przy jakości informacji (ograniczony dostęp).",
+  "powiazane": [
+    "it-uwierzytelnianie",
+    "it-autoryzacja"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "DSS05 Zarządzanie usługami bezpieczeństwa"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "W siłowni dostajesz kartę członkowską z nazwiskiem. Na bramce przykładasz kartę i bramka Cię wpuszcza. Karta jest jak konto: siłownia wie, kim jesteś i czy masz opłacony karnet.",
+    "zaawansowany": "Grab mówi nowej dyżurnej: „Zaloguj się na moim koncie, swojego jeszcze nie masz”. Kasia odmawia. Gdyby się zgodziła, w „Syrenie” byłoby widać, że alarm wysłał Grab, choć go nie wysłał. Konto jest osobiste, bo system zapisuje, kto co zrobił. Sprawdzenie, czy przy koncie siedzi właściwa osoba, to [[it-uwierzytelnianie|uwierzytelnianie]].",
+    "skrajny": "Czy wspólne konto „dyżurny” dla wszystkich jest wygodne? Tak, ale nie wiadomo wtedy, kto co zrobił i kto za co odpowiada. Czy konto byłego pracownika „nikomu nie szkodzi”? Szkodzi – ktoś może go użyć. Czy konto bez hasła to konto? Tak, ale bez ochrony. **Rozstrzygnięcie:** konto to osobisty zapis w systemie przypisany jednej osobie; współdzielenie kont i nieusuwanie starych kont osłabia bezpieczeństwo."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Konto to to samo co hasło.",
+      "prawda": "Hasło to tylko jeden sposób potwierdzenia, że korzystasz ze swojego konta."
+    },
+    {
+      "mit": "Pożyczenie konta koledze to drobiazg.",
+      "prawda": "System zapisuje działania na Twoje konto. Za cudze błędy odpowiadasz wtedy Ty."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie konta z hasłem i pożyczanie kont.",
+    "jakTlumaczyc": "Karta biblioteczna: karta (konto), podpis albo PIN, czyli tajny kod (uwierzytelnianie), limit książek (uprawnienia).",
+    "pytanieKontrolne": "Dlaczego każdy dyżurny powinien mieć własne konto w „Syrenie”?",
+    "odpowiedzKontrolna": "Bo system zapisuje, kto co zrobił. Przy wspólnym koncie nie wiadomo, kto wysłał alarm albo popełnił błąd."
+  }
+}

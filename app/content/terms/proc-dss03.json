@@ -1,0 +1,112 @@
+{
+  "id": "proc-dss03",
+  "en": "DSS03 Manage Problems",
+  "wymowa": "dieses 03 menydż problems",
+  "wymowaAkcent": "di-es-ES 03 ME-nydż PROB-lems",
+  "plEgzamin": "DSS03 Zarządzanie problemami",
+  "plPodrecznik": "DSS03 Zarządzanie problemami",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "DSS03 Zarządzanie problemami",
+    "podrecznik": "DSS03 Zarządzanie problemami",
+    "kurs": "DSS03 Zarządzanie problemami (DSS03 Manage Problems)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „DSS03 Zarządzanie problemami”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Manage Problems*. Potoczne „mamy problem z systemem” zwykle oznacza incydent (DSS02). W COBIT „problem” to nieznana przyczyna jednego lub wielu incydentów.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "dss",
+    "proc-dss02"
+  ],
+  "poLudzku": "Gdy ta sama usterka wraca, szukasz jej prawdziwej przyczyny i usuwasz ją na dobre.",
+  "wyobrazSobie": "Korki wybijają co tydzień. Elektryk nie tylko je włącza, ale szuka, które urządzenie przeciąża obwód.",
+  "skadNazwa": "Z angielskiego *Manage Problems*. „Problem” ma tu znaczenie techniczne: przyczyna incydentów, a nie każda potoczna „kłopotliwa sytuacja”.",
+  "poziom1": "Proces domeny [[dss]], który rozpoznaje i klasyfikuje problemy oraz ich przyczyny źródłowe i prowadzi do trwałego rozwiązania, żeby incydenty nie wracały. Prowadzi rejestr znanych błędów i obejść oraz proponuje usprawnienia.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** rozpoznaje i klasyfikuje problemy, bada i diagnozuje przyczyny źródłowe, rejestruje znane błędy i obejścia, doprowadza do trwałego rozwiązania i zamyka problem. Działa też proaktywnie: analizuje dane o incydentach i zmianach, żeby wykryć problem, zanim narobi szkód.\n\n**Wejścia (intuicja):** rejestr incydentów ([[proc-dss02]]), dane z monitorowania ([[proc-dss01]]), opis konfiguracji ([[proc-bai10]]).\n\n**Wyjścia (intuicja):** rejestr problemów i znanych błędów, przyczyny źródłowe, wnioski o zmianę.\n\n**Współpracuje z:** [[proc-dss02]] (obejścia do szybkiej obsługi), [[proc-bai06]] (trwała poprawka jako zmiana), [[proc-bai08]] (wiedza o znanych błędach).",
+  "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Il. 39 (s. 88) wymienia przy DSS umiejętność *„Zarządzanie problemami”*. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby te same awarie nie wracały. Szukasz przyczyny źródłowej i usuwasz ją trwale.",
+  "jakDziala": "Rozpoznajesz i klasyfikujesz problemy, a potem badasz ich przyczyny źródłowe. Zapisujesz znane błędy i obejścia. Rozwiązujesz i zamykasz problem, a najlepiej wykrywasz go, zanim wywoła incydent.",
+  "dlaczegoWazne": "DSS03 szuka przyczyny, a DSS02 gasi skutki. Egzamin często sprawdza to rozróżnienie (interpretacja kursu).",
+  "przyklady": {
+    "zycie": "Bezpiecznik w łazience wybija trzeci raz w tygodniu. Zamiast znowu go podnosić, wołasz elektryka. Ten znajduje przyczynę: stara suszarka ma uszkodzony kabel. Wyrzucasz suszarkę i bezpiecznik przestaje wybijać.",
+    "biuro": "Co tydzień ktoś gubi klucz do szafy z aktami. Zamiast dorabiać kolejny, kierowniczka wiesza tablicę na klucze przy drzwiach.",
+    "organizacja": "Sklep odkrywa, że płatności padają w piątki przez cotygodniową kopię bazy, i przenosi kopię na noc. Starostwo widzi, że EZD zwalnia zawsze w tej samej filii, i wymienia stary przełącznik.",
+    "psp": "**Dlaczego bramka pada?** Syrena trzy razy w miesiącu nie wysłała SMS-a, za każdym razem pomagał restart. Kpt. Sikora zleca Oli Dudek szukanie przyczyny. Dudek zestawia trzy zgłoszenia i odkrywa, że bramka pada, gdy kolejka SMS-ów przekroczy 200. Do czasu naprawy restart jest zapisanym obejściem. Szukanie i usuwanie przyczyny powtarzających się awarii to [[proc-dss03]].",
+    "it": "Praktyki DSS03: identyfikacja i klasyfikacja problemów, diagnoza, rejestr znanych błędów, rozwiązanie i proaktywne zarządzanie problemami. Trwała poprawka przechodzi przez BAI06."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-dss02",
+      "roznica": "DSS02 przywraca usługę szybko. DSS03 szuka przyczyny źródłowej i trwałego rozwiązania."
+    },
+    {
+      "termin": "proc-bai06",
+      "roznica": "DSS03 znajduje przyczynę i proponuje rozwiązanie. Samą poprawkę w systemie wprowadza się jako zmianę przez BAI06."
+    },
+    {
+      "termin": "proc-apo12",
+      "roznica": "APO12 zarządza ryzykiem, czyli tym, co może się zdarzyć. DSS03 zajmuje się przyczynami tego, co już się zdarza albo zaraz zdarzy (incydenty)."
+    }
+  ],
+  "przykladWypowiedzi": "DSS03 Manage Problems, czyli Zarządzanie problemami, usuwa przyczyny źródłowe (root causes), żeby incydenty nie wracały.",
+  "egzamin": "Słowa-klucze: przyczyna źródłowa (*root cause*), znany błąd, obejście, powtarzające się incydenty, proaktywna analiza trendów → **DSS03**. Szybkie przywrócenie usługi → **DSS02**.",
+  "powiazane": [
+    "dss",
+    "itil",
+    "proc-dss02",
+    "proc-bai06",
+    "proc-bai08"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "DSS03 Zarządzanie problemami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39",
+      "cytat": "Zarządzanie problemami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "podzbiór procesów w domenie DSS"
+    }
+  ],
+  "mapa": "proc-dss03",
+  "glebokosc": {
+    "prosty": "Kran przecieka już piąty raz. Zakręcanie zaworu nie wystarcza. Odkręcasz go, widzisz zużytą uszczelkę i ją wymieniasz. Kran przestaje cieknąć na dobre.",
+    "zaawansowany": "Po trzecim nocnym restarcie bramki Sikora zleca szukanie przyczyny. Dudek zestawia zgłoszenia z [[proc-dss02]] i znajduje wspólny wzór: bramka pada przy kolejce ponad 200 SMS-ów. To [[proc-dss03]]. Do czasu naprawy restart jest zapisanym obejściem w [[proc-bai08]], a trwałą poprawkę Kwant-Sygnał wprowadzi jako zmianę w [[proc-bai06]].",
+    "skrajny": "Dudek przegląda pół roku dzienników Syreny. Nic jeszcze nie padło, ale widzi, że czas wysyłki SMS-a rośnie z miesiąca na miesiąc. Czy to w ogóle DSS03, skoro nie ma incydentu? Tak. DSS03 działa też proaktywnie: analizuje dane o incydentach, zmianach i działaniu, żeby wykryć problem, zanim wywoła awarię. Druga pułapka: Dudek znajduje przyczynę, ale sam nie wgrywa poprawki „po cichu”. Trwała naprawa idzie jako zmiana przez BAI06. **Rozstrzygnięcie:** problem może istnieć bez awarii. DSS03 znajduje przyczynę i inicjuje rozwiązanie, ale poprawkę w systemie przeprowadza się przez BAI06."
+  },
+  "zagmatwania": [
+    {
+      "mit": "DSS03 zaczyna się dopiero po awarii.",
+      "prawda": "DSS03 działa też proaktywnie: wykrywa problemy w danych, zanim wywołają incydent."
+    },
+    {
+      "mit": "Kto znalazł przyczynę, ten od razu wgrywa poprawkę.",
+      "prawda": "Trwała poprawka to zmiana i przechodzi przez BAI06. DSS03 ją inicjuje."
+    },
+    {
+      "mit": "Obejście kończy problem.",
+      "prawda": "Obejście (np. restart) pozwala szybko obsłużyć incydent. Problem zostaje otwarty, dopóki przyczyna nie jest usunięta."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli „problem” z incydentem, bo w mowie potocznej to synonimy.",
+    "jakTlumaczyc": "Incydent to gorączka – zbijasz ją szybko. Problem to infekcja, która tę gorączkę wywołuje – trzeba ją znaleźć i wyleczyć.",
+    "pytanieKontrolne": "Dudek zauważa w raportach, że czas wysyłki SMS-ów rośnie od trzech miesięcy, choć nic jeszcze nie padło. Który proces?",
+    "odpowiedzKontrolna": "**DSS03** – proaktywne zarządzanie problemami: analiza trendów, żeby wykryć przyczynę przed awarią. Nie DSS02, bo nie ma incydentu."
+  }
+}

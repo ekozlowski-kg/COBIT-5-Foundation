@@ -1,0 +1,8 @@
+# Materiały chronione prawem autorskim (ISACA / Altkom) – tylko lokalnie
+sources/pdf/
+sources/text/
+private/
+.DS_Store
+
+# Lokalne wyciągi z materiałów chronionych (np. Sample Paper 1) – nigdy nie commitować
+*.local.json

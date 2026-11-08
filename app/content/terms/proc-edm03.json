@@ -1,0 +1,129 @@
+{
+  "id": "proc-edm03",
+  "en": "EDM03 Ensure Risk Optimisation",
+  "wymowa": "idiem 03 inszor risk optimajzejszyn",
+  "wymowaAkcent": "i-di-EM 03 in-SZOR risk op-ti-maj-ZEJ-szyn",
+  "plEgzamin": "EDM03 Zapewnienie optymalizacji ryzyka",
+  "plPodrecznik": "EDM03 Zapewnienie optymalizacji ryzyka",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "EDM03 Zapewnienie optymalizacji ryzyka",
+    "podrecznik": "EDM03 Zapewnienie optymalizacji ryzyka",
+    "kurs": "EDM03 Zapewnienie optymalizacji ryzyka (EDM03 Ensure Risk Optimisation)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie EDM03 i słowie kluczowym EN *Risk Optimisation*. Słowo „ryzyko” ma też APO12 Zarządzanie ryzykiem. EDM03 to Ład (apetyt na ryzyko, kierunek), a APO12 to Zarządzanie (rozpoznanie, analiza, reakcja).",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "lad",
+    "edm",
+    "ryzyko",
+    "optymalizacja-ryzyka"
+  ],
+  "poLudzku": "Szefostwo ustala, ile niepewności jest gotowe znieść, i pilnuje, żeby tej granicy nie przekraczać.",
+  "wyobrazSobie": "Rodzice ustawiają limit na karcie dziecka. Nie sprawdzają każdego zakupu, ale wyznaczają granicę i patrzą na wyciąg.",
+  "poCo": "Żeby organizacja świadomie wiedziała, ile ryzyka związanego z IT akceptuje, i żeby tej granicy pilnowano.",
+  "jakDziala": "Organ Ładu ocenia ryzyko IT na tle celów organizacji. Ustala apetyt i tolerancję na ryzyko oraz zasady zarządzania ryzykiem. Monitoruje, czy profil ryzyka mieści się w granicy, i decyduje o ryzykach ponad nią.",
+  "dlaczegoWazne": "EDM03 to drugi składnik Celu Ładu (ryzyko). Para EDM03 i APO12 to jedna z najczęściej mylonych par na egzaminie.",
+  "skadNazwa": "EN *Ensure Risk Optimisation*, czyli „zapewnij optymalizację ryzyka”. „Optymalizacja” nie znaczy „zero ryzyka”. Znaczy: ryzyko na poziomie, który organizacja świadomie akceptuje. Proces czerpie z modelu Risk IT.",
+  "poziom1": "Proces Ładu o ryzyku. Organ Ładu ustala apetyt na ryzyko związane z IT, kieruje sposobem jego traktowania i monitoruje, czy ryzyko mieści się w tej granicy.",
+  "poziom2": "**Czym się zajmuje:** decyduje, ile ryzyka IT organizacja akceptuje, i rozlicza, czy tak jest.\n\n**Wejścia (intuicja):** cele organizacji, przepisy, raporty o profilu ryzyka z Zarządzania.\n\n**Wyjścia (intuicja):** apetyt i tolerancja na ryzyko, zasady zarządzania ryzykiem, decyzje o ryzykach powyżej granicy.\n\n**Współpraca:** codzienną pracę z ryzykiem (rejestr, analiza, reakcje) wykonuje [[proc-apo12]]. Bezpieczeństwo informacji organizuje [[proc-apo13]], a ciągłość działania DSS04.",
+  "poziom3": "Il. 16 (s. 33): „EDM03 Zapewnienie optymalizacji ryzyka”. Słownik (s. 93): optymalizacja ryzyka to jeden z celów nadzoru, który *„Wiąże się z rozpoznawaniem ryzyka, oszacowaniem wpływu i prawdopodobieństwa takiego ryzyka”* oraz zarządzaniem nim *„w kontekście apetytu na ryzyko w przedsiębiorstwie”*. Na s. 31 Framework zalicza do decyzji struktur Ładu m.in. *„określania apetytu na ryzyko w przedsiębiorstwie”*. Załącznik E (s. 60): ISO/IEC 31000 obejmuje *„procesy związane z zarządzaniem ryzykiem w domenach EDM i APO.”* Opis praktyk i działań procesu jest w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Rodzice ustalają: dziecko może samo jeździć rowerem po osiedlu, ale nie po drodze krajowej. Nie pilnują każdego wyjazdu. Ustalają granicę i co jakiś czas sprawdzają, czy jest przestrzegana. To jest EDM03.",
+    "biuro": "Szefowa biura ustala: „Dokumenty klientów nigdy nie wychodzą poza biuro na pendrive”. Nie pilnuje każdego pliku, ale co miesiąc pyta, czy zasada jest przestrzegana.",
+    "organizacja": "Zarząd sklepu internetowego decyduje: przerwa w sprzedaży dłuższa niż 4 godziny jest nie do przyjęcia. Dział IT sam ocenia konkretne zagrożenia i dobiera zabezpieczenia. Zarząd co kwartał sprawdza, czy ryzyko mieści się w tej granicy. Wójt ustala, że dane mieszkańców nie mogą wyjść poza urząd. Informatyk analizuje konkretne zagrożenia i proponuje zabezpieczenia. Wójt ustala granicę i ją rozlicza. To EDM03.",
+    "psp": "**Żaden alarm nie może zginąć.** Komendantka Anna Wrzos mówi: „Awaria modułu statystyk – trudno. Utrata alarmu – nigdy”. To jest apetyt na ryzyko. Naczelnik Sikora wypisuje konkretne zagrożenia: zasięg, prąd, stare numery, i dobiera reakcje. Wrzos ustala granicę i ją rozlicza w [[proc-edm03|EDM03]], a Sikora pracuje w [[proc-apo12|APO12]].",
+    "it": "Zarząd banku zatwierdza deklarację apetytu na ryzyko IT, np. „przestój bankowości internetowej najwyżej 4 godziny rocznie”. To EDM03. Analizę ryzyk i reakcje prowadzi [[proc-apo12]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-apo12",
+      "roznica": "APO12 (Zarządzanie) zbiera dane o ryzyku, analizuje je, utrzymuje profil ryzyka i reaguje. EDM03 (Ład) ustala apetyt na ryzyko i rozlicza, czy go przestrzegamy."
+    },
+    {
+      "termin": "optymalizacja-ryzyka",
+      "roznica": "Optymalizacja ryzyka to składnik Celu Ładu (pojęcie). EDM03 to proces Ładu, który go zapewnia."
+    },
+    {
+      "termin": "proc-apo13",
+      "roznica": "APO13 organizuje system zarządzania bezpieczeństwem informacji. Ryzyko bezpieczeństwa to tylko część ryzyka IT, którym kieruje EDM03."
+    }
+  ],
+  "przykladWypowiedzi": "EDM03 *Ensure Risk Optimisation*, czyli „Zapewnienie optymalizacji ryzyka”, ustala apetyt na ryzyko (*risk appetite*); rejestr i reakcje na ryzyko prowadzi APO12 *Manage Risk*.",
+  "egzamin": "Słowa „apetyt na ryzyko”, „tolerancja”, „zarząd ustala akceptowalny poziom ryzyka” → **EDM03**. Słowa „rejestr ryzyk”, „analiza scenariuszy”, „profil ryzyka”, „plan reakcji” → **APO12**.",
+  "powiazane": [
+    "edm",
+    "optymalizacja-ryzyka",
+    "ryzyko",
+    "proc-apo12",
+    "proc-apo13",
+    "tworzenie-wartosci"
+  ],
+  "sylabus": [
+    "PR-01-03",
+    "PR-02-01"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "EDM03 Zapewnienie optymalizacji ryzyka"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Wiąże się z rozpoznawaniem ryzyka, oszacowaniem wpływu i prawdopodobieństwa takiego ryzyka"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "w kontekście apetytu na ryzyko w przedsiębiorstwie"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 31,
+      "cytat": "określania apetytu na ryzyko w przedsiębiorstwie"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "procesy związane z zarządzaniem ryzykiem w domenach EDM i APO."
+    }
+  ],
+  "mapa": "proc-edm03",
+  "glebokosc": {
+    "prosty": "Ustalasz z bankiem, że karta zablokuje się przy płatności powyżej 2 tysięcy. Nie kontrolujesz każdej transakcji. Wyznaczasz granicę, ile ryzyka akceptujesz. Bank pilnuje transakcji na co dzień.",
+    "zaawansowany": "Komendantka Wrzos ustala apetyt na ryzyko: alarm do OSP musi dojść zawsze. Naczelnik Sikora prowadzi rejestr ryzyk Syreny w [[proc-apo12]]. Widzi, że stary numer Pietrzaka to ryzyko wysokie, i proponuje comiesięczną weryfikację numerów. Ryzyka powyżej granicy raportuje Wrzos. Ona decyduje i monitoruje w EDM03.",
+    "skrajny": "Sikora odkrywa nowe ryzyko: dostawca SMS-ów może zbankrutować. Szacuje je i stwierdza, że przekracza apetyt ustalony przez komendantkę. Czy decyzja „akceptujemy to ryzyko” należy do Sikory? Nie. Sikora może zaproponować reakcję, ale akceptacja ryzyka powyżej apetytu wraca do organu Ładu. Analiza i propozycja to APO12, a granica i decyzja o jej przekroczeniu to EDM03. Oba procesy dotyczą tego samego ryzyka, ale na innym poziomie. **Rozstrzygnięcie:** „ile ryzyka akceptujemy” i nadzór nad tym → EDM03 (Ład); „jakie ryzyka mamy i co z nimi robimy” → APO12 (Zarządzanie). (interpretacja kursu: eskalacja ryzyka ponad apetyt do organu Ładu)"
+  },
+  "zagmatwania": [
+    {
+      "mit": "EDM03 i APO12 to dwie nazwy jednego procesu.",
+      "prawda": "To dwa procesy w dwóch domenach. EDM03 jest w Ładzie (EDM), a APO12 w Zarządzaniu (APO)."
+    },
+    {
+      "mit": "Optymalizacja ryzyka to doprowadzenie ryzyka do zera.",
+      "prawda": "Ryzyka zerowego nie ma. Optymalizacja to utrzymanie ryzyka w granicy apetytu, w równowadze z korzyściami i zasobami."
+    },
+    {
+      "mit": "Sprawdzanie, czy mechanizmy kontrolne działają, to też EDM03, bo kontrole ograniczają ryzyko.",
+      "prawda": "Ocena systemu kontroli wewnętrznej to MEA02. Rozróżnij: kierunek i apetyt (EDM03), analiza ryzyk (APO12), działanie kontroli (MEA02)."
+    },
+    {
+      "mit": "Kto pierwszy zauważy ryzyko, ten decyduje o nim w EDM03.",
+      "prawda": "W EDM03 decyduje organ Ładu. Ryzyka zgłasza i analizuje Zarządzanie (APO12), a granicę ustala Ład."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń widzi słowo „ryzyko” i od razu wybiera APO12 albo EDM03. Nie sprawdza, czy pytanie dotyczy kierunku, czy codziennej pracy.",
+    "jakTlumaczyc": "Termostat w domu: ustawienie 21 °C to EDM03, czyli decyzja o granicy. Piec, który grzeje i mierzy temperaturę, to APO12, czyli praca, żeby tej granicy dotrzymać.",
+    "pytanieKontrolne": "Zarząd zatwierdza zasadę: „Akceptujemy najwyżej 2 godziny przestoju sklepu rocznie”. Który to proces? A kto aktualizuje rejestr ryzyk?",
+    "odpowiedzKontrolna": "Zatwierdzenie apetytu na ryzyko to EDM03 (Ład). Rejestr i profil ryzyka aktualizuje APO12 (Zarządzanie)."
+  }
+}

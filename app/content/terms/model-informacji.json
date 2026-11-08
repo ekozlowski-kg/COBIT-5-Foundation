@@ -1,0 +1,88 @@
+{
+  "id": "model-informacji",
+  "en": "Information Model (uses and attribute layers)",
+  "wymowa": "informejszyn model",
+  "wymowaAkcent": "in-for-MEJ-szyn MO-del",
+  "plEgzamin": "Model informacji",
+  "plPodrecznik": "Model informacji (IM)",
+  "mapa": "model-informacji",
+  "poLudzku": "Sposób opisu każdej informacji: kto jej potrzebuje, po co, jakiej jakości i jak długo żyje.",
+  "wyobrazSobie": "Karta katalogowa w bibliotece, tylko pełniejsza: zapisuje nośnik i format książki, o czym jest, kto i do czego jej używa, jak długo się ją trzyma i kiedy idzie na przemiał.",
+  "poCo": "Żeby każdą informację opisać jednolicie i kompletnie, a potem użyć tego opisu do specyfikacji, ochrony i oceny jakości danych.",
+  "jakDziala": "Model informacji (Information Model) stosuje do informacji wymiary aktywatora: interesariuszy, cele (kryteria jakości), cykl życia (od planowania przez użytkowanie po pozbycie się) i dobre praktyki. Dobre praktyki to atrybuty w sześciu warstwach: fizycznej (nośnik), empirycznej (kanał dostępu), syntaktycznej (format), semantycznej (znaczenie), pragmatycznej (wykorzystanie, np. okres przechowywania) i społecznej (kontekst). Model służy m.in. do specyfikacji informacji dla nowych aplikacji, ustalania wymaganej ochrony i oceny jakości danych.",
+  "dlaczegoWazne": "Egzamin pyta o zastosowania modelu informacji: specyfikację informacji, ochronę informacji oraz ocenę jakości i łatwości korzystania z danych. Trzeba też odróżniać warstwy atrybutów, np. format (syntaktyczna) od znaczenia (semantyczna).",
+  "poziom1": "Sposób na rozłożenie informacji na części: kto jej potrzebuje, jaka ma być, jak żyje (od zaplanowania do usunięcia) i jakie ma cechy w 6 warstwach – od nośnika i formatu po znaczenie, użycie i kontekst. Przydaje się np. przy zamawianiu nowej aplikacji albo przy ustalaniu, jak chronić dane.",
+  "poziom2": "**Sześć warstw atrybutów** (s. 83–84): **fizyczna** (nośnik), **empiryczna** (kanał dostępu, interfejs), **syntaktyczna** (język i format), **semantyczna** (znaczenie: typ, aktualność, poziom), **pragmatyczna** (wykorzystanie: okres przechowywania, status, innowacyjność, zależność), **społeczna** (kontekst).\n\n**Zastosowania** (przykłady 13–15): określenie **specyfikacji informacji** dla nowych aplikacji; określenie **wymaganej ochrony** informacji; ocena **łatwości korzystania** i jakości danych w procesach.\n\nCykl życia informacji: planowanie, projektowanie, budowanie/nabywanie, użytkowanie (**przechowywanie, udostępnianie, wykorzystanie**), ocena/monitorowanie, aktualizacja/pozbywanie się.",
+  "poziom3": "(s. 82–84). Informacja nie ma wartości sama w sobie. Korzyści przynosi dopiero jej wykorzystanie.",
+  "przyklady": {
+    "zycie": "Robisz rodzinne archiwum zdjęć. Ustalasz, gdzie leżą pliki (dysk w szafie – fizyczna), jak się do nich dostać (aplikacja w telefonie – empiryczna), w jakim są formacie (JPG – syntaktyczna), co przedstawiają i z kiedy są (semantyczna), jak długo je trzymasz i które są ważne (pragmatyczna) oraz kto w rodzinie rozpozna ludzi na starych zdjęciach (społeczna). To sześć warstw atrybutów z modelu informacji.",
+    "biuro": "Biuro ustala zasady dla rejestru umów: kto go prowadzi i kto czyta, jakie dane i w jakim formacie dat musi mieć każdy wiersz, że wgląd mają tylko kierownik i księgowość oraz że umowę niszczy się po upływie okresu przechowywania.",
+    "firma": "Właściciel sklepu internetowego zamawia u programisty moduł faktur. Zamiast powiedzieć „mają być faktury”, opisuje je po kolei: gdzie są zapisane, jak klient je pobiera, w jakim formacie (PDF), co zawierają, ile lat trzeba je trzymać i kto je potem czyta (klient, księgowa, urząd skarbowy). Model informacji pomaga tak rozpisać informację, żeby powstała z niej porządna specyfikacja aplikacji.",
+    "admin": "Urząd gminy zastanawia się, jak chronić skany wniosków o pomoc społeczną. Po rozpisaniu ich według modelu informacji widać, że to dane o zdrowiu i dochodach (znaczenie), trzymane latami (wykorzystanie) i dostępne przez system dziedzinowy z wielu stanowisk (kanał dostępu). Z tego od razu wynika, jakiej ochrony wymagają: ograniczony dostęp, szyfrowanie, rejestr wglądów.",
+    "psp": "Zespół w KG PSP projektuje nowy moduł SWD-PSP do zgłoszeń. Ustala po kolei: na jakim serwerze leżą dane (fizyczna), jak dyżurny widzi je na ekranie (empiryczna), w jakim formacie zapisują się współrzędne (syntaktyczna), czy to dane bieżące, czy archiwalne (semantyczna), jak długo je przechowywać (pragmatyczna) i kto w jakim kontekście je odczyta, np. prokurator po zdarzeniu (społeczna). Model informacji pozwala niczego nie pominąć przy projektowaniu.",
+    "it": "Przy zamawianiu systemu kadrowego zespół w BAI02 (Zarządzanie definiowaniem wymagań) opisuje dane pracowników według modelu informacji: interesariusze, wymagana jakość, okres przechowywania, format i poziom poufności. Ten sam opis służy potem w DSS05 (Zarządzanie usługami bezpieczeństwa) do ustalenia ochrony tych danych."
+  },
+  "glebokosc": {
+    "prosty": "Paragon ze sklepu można opisać na kilka sposobów: to kawałek papieru, napisany po polsku w stałym układzie, mówi, co i za ile kupiłeś, trzeba go trzymać do końca gwarancji, a przydaje się Tobie i sklepowi przy reklamacji. Każde z tych zdań opisuje inne „piętro” tej samej kartki. Dopiero razem mówią, jak się z paragonem mądrze obchodzić.",
+    "zaawansowany": "Kpt. Sikora zamawia nowy moduł rejestru OSP i opisuje informację „numer alarmowy naczelnika” warstwa po warstwie: nośnik to serwer komendy (fizyczna), dostęp – ekran dyżurnego i tablet w wozie (empiryczna), format – numer w ustalonym zapisie (syntaktyczna), znaczenie – informacja bieżąca o kontakcie (semantyczna), a do tego okres przechowywania i status operacyjny (pragmatyczna). Dopisuje też cele z [[jakosc-informacji|kryteriów jakości informacji]]: dokładny, aktualny, dostępny całą dobę, widoczny tylko dla uprawnionych. To pierwsze zastosowanie modelu: specyfikacja informacji dla nowej aplikacji. Ten sam opis posłuży potem do ustalenia wymaganej ochrony danych naczelników.",
+    "skrajny": "Kpt. Sikora wpisuje w specyfikacji, w warstwie semantycznej: „aktualność – teraźniejszość”, a Ewa Lis w ocenie jakości pisze: „aktualność – niewystarczająca”. Oboje używają tego samego słowa, ale w modelu informacji to dwie różne rzeczy. W warstwie semantycznej aktualność to atrybut opisujący horyzont czasowy informacji: czy dotyczy przeszłości, teraźniejszości czy przyszłości (s. 83). W celach jakości aktualność to kryterium jakości kontekstowej: czy informacja jest wystarczająco aktualna do konkretnego zadania (s. 82). Prognoza na jutro ma atrybut „przyszłość” i może być w pełni aktualna w sensie jakości, a raport o stanie wozów z wczorajszej zmiany dla dzisiejszego dyżurnego bywa już niewystarczająco aktualny. **Rozstrzygnięcie:** atrybut z warstwy opisuje, czym informacja jest, a cel jakości mówi, czy nadaje się do zadania; „aktualność” występuje w obu rolach, więc zawsze sprawdź, o którą chodzi."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Model informacji to schemat bazy danych dla informatyków.",
+      "prawda": "To sposób opisu każdej informacji (interesariusze, cele jakości, cykl życia, dobre praktyki z sześcioma warstwami atrybutów), używany m.in. do specyfikacji, ochrony i oceny jakości informacji."
+    },
+    {
+      "mit": "Informacja ma wartość sama w sobie – wystarczy ją zgromadzić.",
+      "prawda": "Według Frameworka informacja nie ma wartości sama w sobie; korzyści daje dopiero jej wykorzystanie."
+    },
+    {
+      "mit": "Warstwa fizyczna i empiryczna to to samo – gdzie leży informacja.",
+      "prawda": "Fizyczna to nośnik (np. serwer, papier). Empiryczna to kanał dostępu i interfejs (np. ekran, aplikacja)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie atrybutów z warstw z kryteriami jakości (dwie „aktualności”) i zlewanie warstwy fizycznej z empiryczną.",
+    "jakTlumaczyc": "Weź jedną kartkę, np. paragon, i idź od dołu: z czego jest, jak się do niej dostać, w jakim języku i formacie jest zapisana, co znaczy, do czego służy i jak długo ją trzymamy, w jakim kontekście społecznym ma sens. Sześć pięter, jedna kartka.",
+    "pytanieKontrolne": "Podaj trzy zastosowania modelu informacji i dla każdego przykład z komendy.",
+    "odpowiedzKontrolna": "1) Specyfikacja informacji dla nowej aplikacji – opis numerów alarmowych OSP w nowym module. 2) Określenie wymaganej ochrony – kto może widzieć dane zgłaszających i jak długo je przechowywać. 3) Ocena jakości i łatwości korzystania z danych w procesie – czy dyżurny dostaje dane adresowe dokładne, aktualne i czytelne."
+  },
+  "egzamin": "Zastosowania modelu informacji: **specyfikacja informacji**, **ochrona informacji**, **ocena jakości i łatwości korzystania z danych**.",
+  "powiazane": [
+    "informacja",
+    "jakosc-informacji"
+  ],
+  "sylabus": [
+    "EN-02-19"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 84,
+      "cytat": "MODEL INFORMACJI WYKORZYSTYWANY DO OKREŚLENIA SPECYFIKACJI INFORMACJI"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 83
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Model informacji",
+    "podrecznik": "Model informacji (IM)",
+    "kurs": "Model informacji (Information Model)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 8, 15, 16."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "informacja",
+    "jakosc-informacji",
+    "wymiary-aktywatora"
+  ],
+  "nieMylicZ": [],
+  "przykladWypowiedzi": "The Information Model, czyli model informacji, opisuje informację przez interesariuszy, cele, cykl życia i sześć warstw atrybutów, np. syntactic layer, czyli warstwę syntaktyczną, która mówi o formacie."
+}

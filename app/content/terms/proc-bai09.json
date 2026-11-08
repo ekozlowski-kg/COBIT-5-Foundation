@@ -1,0 +1,121 @@
+{
+  "id": "proc-bai09",
+  "en": "BAI09 Manage Assets",
+  "wymowa": "biejaj 09 menydż esets",
+  "wymowaAkcent": "bi-ej-AJ 09 ME-nydż E-sets",
+  "plEgzamin": "BAI09 Zarządzanie zasobami",
+  "plPodrecznik": "BAI09 Zarządzanie zasobami",
+  "plInne": [
+    {
+      "nazwa": "Zarządzanie aktywami",
+      "zrodlo": "opracowanie „Prosto, krok po kroku” (nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "BAI09 Zarządzanie zasobami",
+    "podrecznik": "BAI09 Zarządzanie zasobami",
+    "kurs": "BAI09 Zarządzanie zasobami (BAI09 Manage Assets)",
+    "uwaga": "Assets przetłumaczono jako „zasoby”, co zlewa się z Resource (EDM04, Optymalizacja zasobów). Właściwiej „aktywa”. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 74. Inne formy w obiegu: Zarządzanie aktywami (opracowanie „Prosto, krok po kroku” (nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „BAI09 Zarządzanie zasobami”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Assets*. „Zasoby” to tu *assets*, czyli aktywa (sprzęt, oprogramowanie, licencje). To NIE są zasoby ludzkie (APO07 *Human Resources*) ani optymalizacja zasobów (EDM04 *Resource Optimisation*).",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "bai",
+    "zasob"
+  ],
+  "poLudzku": "Prowadzisz spis sprzętu i licencji: co masz, gdzie to jest, ile kosztuje i kiedy wymienić.",
+  "wyobrazSobie": "Spisujesz sprzęt w domu do ubezpieczenia: co masz, ile kosztowało, gdzie są gwarancje i kiedy wymienić pralkę.",
+  "skadNazwa": "Z angielskiego *Manage Assets*. Podręcznik tłumaczy *assets* jako „zasoby”, choć dokładniej znaczy to „aktywa” albo „majątek”. W polskim COBIT słowo „zasoby” oznacza też *resources* (EDM04) i *human resources* (APO07).",
+  "poziom1": "Proces domeny [[bai]], który prowadzi aktywa IT (sprzęt, oprogramowanie, licencje) przez cały cykl życia: od pozyskania, przez ewidencję i ochronę, po wycofanie. Dba, żeby dawały wartość przy optymalnym koszcie, działały, były policzone i chronione.",
+  "poziom2": "**Czym się zajmuje (w uproszczeniu):** rozpoznaje i ewidencjonuje aktywa, zwłaszcza krytyczne dla usług, zarządza ich cyklem życia, optymalizuje koszty, zarządza licencjami oprogramowania i bezpiecznie wycofuje stary sprzęt.\n\n**Wejścia (intuicja):** zakupy z [[proc-bai03]], informacje o dostawcach i umowach (APO10), budżet (APO06).\n\n**Wyjścia (intuicja):** rejestr aktywów, stan licencji, plan wymiany, raport kosztów i wykorzystania.\n\n**Współpracuje z:** [[proc-bai10]] (ten sam serwer jako element konfiguracji), APO06 (koszty), [[proc-dss05]] (fizyczna ochrona sprzętu).",
+  "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Dla porównania „Zasób” w słowniku (s. 93) to *„Każdy zasób przedsiębiorstwa, który ułatwia organizacji osiągnięcie jej celów”*, a optymalizacja zasobów obejmuje *„wykorzystanie wszystkich zasobów — ludzkich, finansowych, sprzętu, infrastruktury itd.”* To szersze pojęcie niż aktywa z BAI09. Mapa pułapek kursu ma przy BAI09 egzaminacyjną nazwę ze znakiem zapytania. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby wiedzieć, jaki sprzęt i licencje masz, ile kosztują i kiedy je wymienić. Policzone aktywa łatwiej chronić.",
+  "jakDziala": "Rozpoznajesz i ewidencjonujesz aktywa IT. Szczególnie dbasz o aktywa krytyczne. Prowadzisz je przez cykl życia, optymalizujesz koszty i pilnujesz licencji.",
+  "dlaczegoWazne": "BAI09 (co masz i ile to kosztuje) łatwo pomylić z BAI10 (jak to jest ustawione i połączone). Polska nazwa „zasoby” myli się też z zasobami ludzkimi z APO07.",
+  "przyklady": {
+    "zycie": "Masz w domu teczkę: kiedy kupiłeś pralkę, do kiedy jest gwarancja, ile lat ma laptop i kiedy odnowić antywirusa. Gdy laptop się zestarzeje, kasujesz dane i oddajesz go do elektrośmieci. To zarządzanie aktywami.",
+    "biuro": "Biuro prowadzi spis: 12 krzeseł, 3 drukarki i 2 ekspresy, każdy z datą zakupu. Co roku planuje wymianę najstarszych.",
+    "organizacja": "Biuro rachunkowe pilnuje, żeby licencji nie było mniej niż stanowisk, i planuje wymianę laptopów. W starostwie każdy komputer ma numer inwentarzowy, a przy likwidacji dysk niszczy się protokolarnie.",
+    "psp": "**Radiotelefony w ewidencji.** Ola Dudek wpisuje każdy nowy radiotelefon i serwer Syreny do ewidencji: numer, przydział do zastępu, data zakupu, koniec gwarancji. Halina Mak, księgowa, widzi z niej koszty i plan wymiany. Licencja Syreny wygasa w grudniu, więc odnowienie trafia do kalendarza. Prowadzenie sprzętu i licencji przez cały cykl życia to [[proc-bai09]].",
+    "it": "Praktyki BAI09: identyfikacja i ewidencja aktywów, aktywa krytyczne, cykl życia, optymalizacja kosztów i zarządzanie licencjami."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-bai10",
+      "roznica": "BAI09 patrzy na rzecz jak na majątek: koszt, właściciel, gwarancja, licencja, wymiana. BAI10 patrzy na nią jak na element systemu: ustawienia, wersja i powiązania z usługą."
+    },
+    {
+      "termin": "proc-apo07",
+      "roznica": "APO07 to zasoby LUDZKIE (Human Resources). BAI09 to aktywa – rzeczy i licencje."
+    },
+    {
+      "termin": "proc-edm04",
+      "roznica": "EDM04 to decyzja Ładu, czy zasoby (ludzie, pieniądze, sprzęt) są wystarczające i dobrze użyte. BAI09 to codzienne prowadzenie aktywów IT."
+    },
+    {
+      "termin": "zasob",
+      "roznica": "„Zasób” (*resource*) w COBIT to wszystko, co pomaga osiągnąć cele. Aktywa z BAI09 to tylko część zasobów."
+    }
+  ],
+  "przykladWypowiedzi": "BAI09 Manage Assets, czyli Zarządzanie zasobami, prowadzi aktywa IT i licencje od zakupu do wycofania.",
+  "egzamin": "Tłumacz z angielskiego: *Assets* → **BAI09**, *Configuration* → **BAI10**, *Human Resources* → **APO07**, *Resource Optimisation* → **EDM04**. Słowa-klucze BAI09: ewidencja, licencje, cykl życia sprzętu, wycofanie.",
+  "powiazane": [
+    "bai",
+    "zasob",
+    "optymalizacja-zasobow",
+    "proc-bai10",
+    "proc-apo07",
+    "proc-edm04"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "BAI09 Zarządzanie zasobami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Każdy zasób przedsiębiorstwa, który ułatwia organizacji osiągnięcie jej celów."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "wykorzystanie wszystkich zasobów — ludzkich, finansowych, sprzętu, infrastruktury itd."
+    }
+  ],
+  "mapa": "proc-bai09",
+  "glebokosc": {
+    "prosty": "Prowadzisz zeszyt sprzętu w domu: co masz, gdzie leży, kiedy kupione i do kiedy gwarancja. Stary telewizor oddajesz do elektrośmieci, a nie wrzucasz do piwnicy. Pilnujesz rzeczy od zakupu do pożegnania.",
+    "zaawansowany": "Dudek prowadzi ewidencję radiotelefonów, serwera i licencji Syreny. Halina Mak widzi z niej koszty i daty wymiany. To [[proc-bai09]]. Ten sam serwer jest też elementem konfiguracji, ale jego ustawienia i powiązania z usługą prowadzi [[proc-bai10]]. Ludzie Sikory to nie „zasoby” z BAI09 – nimi zajmuje się [[proc-apo07]].",
+    "skrajny": "Na naradzie trzy osoby mówią „zarządzanie zasobami” i każda myśli o czym innym. Halina Mak – o spisie radiotelefonów i licencji Syreny. Sikora – o tym, że brakuje mu dwóch informatyków. Komendantka Wrzos – o tym, czy komenda w ogóle ma dość ludzi, pieniędzy i sprzętu na swoje cele. W COBIT to trzy różne procesy: BAI09 (*Assets*), APO07 (*Human Resources*) i EDM04 (*Resource Optimisation*). Czwarty kłopot: serwer Syreny jest zarazem aktywem (BAI09) i elementem konfiguracji (BAI10). **Rozstrzygnięcie:** zawsze tłumacz „zasoby” z powrotem na angielski. Pytanie o koszt, licencję i cykl życia rzeczy → BAI09. O ustawienia i powiązania → BAI10. O ludzi → APO07. O decyzję szefostwa → EDM04."
+  },
+  "zagmatwania": [
+    {
+      "mit": "BAI09 „Zarządzanie zasobami” dotyczy ludzi.",
+      "prawda": "Dotyczy aktywów (*assets*): sprzętu, oprogramowania, licencji. Ludzie to APO07."
+    },
+    {
+      "mit": "BAI09 to wykonawcza część EDM04.",
+      "prawda": "EDM04 to decyzja Ładu o wszystkich zasobach (ludzie, pieniądze, sprzęt). BAI09 zajmuje się tylko aktywami IT w ich cyklu życia."
+    },
+    {
+      "mit": "Spis sprzętu i baza konfiguracji to jedno i to samo.",
+      "prawda": "Ta sama rzecz może być w obu. BAI09 patrzy na wartość, koszt i cykl życia, BAI10 – na ustawienia i powiązania z usługą."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń widzi słowo „zasoby” i odruchowo wybiera EDM04 albo APO07.",
+    "jakTlumaczyc": "Naucz odruchu „przetłumacz z powrotem na angielski”. *Assets* to rzeczy z numerem inwentarzowym. *Resources* to wszystko, czym dysponujemy. *Human resources* to ludzie.",
+    "pytanieKontrolne": "Komenda sprawdza, czy liczba zainstalowanych kopii Syreny zgadza się z liczbą kupionych licencji. Który proces?",
+    "odpowiedzKontrolna": "**BAI09** – zarządzanie licencjami to część zarządzania aktywami. Czy to zgodne z umową licencyjną, może dodatkowo oceniać MEA03."
+  }
+}

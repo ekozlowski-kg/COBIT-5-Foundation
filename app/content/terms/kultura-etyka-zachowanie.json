@@ -1,0 +1,99 @@
+{
+  "id": "kultura-etyka-zachowanie",
+  "en": "Culture, Ethics and Behaviour (enabler 4)",
+  "wymowa": "kalczer etiks end bihejwjer",
+  "wymowaAkcent": "KAL-czer E-tiks end bi-HEJ-wjer",
+  "plEgzamin": "Kultura, Etyka i Zachowanie",
+  "plPodrecznik": "Kultura, etyka i zachowanie",
+  "mapa": "akt-kultura",
+  "poLudzku": "Jak ludzie naprawdę się zachowują, gdy nikt nie patrzy, i co uważają za uczciwe.",
+  "wyobrazSobie": "Znak mówi 50 km/h, ale to, jak naprawdę jeżdżą kierowcy w twoim mieście, gdy nie ma fotoradaru, i czy ktoś zwraca uwagę piratom, to kultura.",
+  "poCo": "Żeby zasady, procesy i decyzje naprawdę były stosowane, bo bez odpowiednich zachowań ludzi najlepsze procedury zostają na papierze.",
+  "jakDziala": "Aktywator obejmuje trzy poziomy: etykę organizacyjną (organisational ethics: wartości, według których organizacja chce działać), etykę indywidualną (individual ethics: osobiste wartości pracownika) i zachowania indywidualne (individual behaviour), które razem tworzą kulturę. Pożądane zachowania wspiera się dobrymi praktykami: komunikowaniem wartości, przykładem kierownictwa i osobami wspierającymi (champions), zachętami i środkami zniechęcającymi oraz regułami i normami. Ważnym mechanizmem komunikowania wartości są zasady i polityki.",
+  "dlaczegoWazne": "To jeden z 7 aktywatorów (zasada 4: „Aktywacja holistycznego podejścia”). Egzamin pyta o poziomy etyki („wartości, w oparciu o które organizacja chce działać” to etyka organizacyjna) i o dobre praktyki, np. wskazywanie czempionów.",
+  "poziom1": "To, jak ludzie naprawdę zachowują się na co dzień, a nie to, co jest w regulaminie – bez tego najlepsze procedury zostają na papierze (np. czy pracownik przyzna się do błędu, czy go ukryje). Jeden z 7 aktywatorów, często niedoceniany.",
+  "poziom2": "Cele dotyczą trzech poziomów: **etyki organizacyjnej** (wartości, w oparciu o które organizacja chce działać), **etyki indywidualnej** (osobiste wartości pracownika) i **indywidualnych zachowań**, które razem tworzą kulturę. Przykładowe zachowania: podejmowanie ryzyka, przestrzeganie polityk, reakcja na negatywne wyniki (uczenie się zamiast obwiniania).\n\nDobre praktyki (s. 80): **komunikowanie** pożądanych zachowań i wartości; **świadomość** przez przykład kierownictwa i **osób wspierających (czempionów)**; **zachęty i środki zniechęcające** (system wynagrodzeń); **reguły i normy**.",
+  "poziom3": "(s. 79–80). Powiązania: procesy nie dadzą wyników, jeśli ludzie nie chcą ich realizować; decyzje struktur nie będą wdrażane; **zasady i polityki są bardzo ważnym mechanizmem komunikowania wartości i pożądanego zachowania**.",
+  "przyklady": {
+    "zycie": "Rodzice zakazują telefonów przy stole, ale sami co chwilę zerkają w ekran. Po tygodniu dzieci robią to samo, bo bardziej patrzą na przykład niż na zakaz. Kultura i zachowanie biorą się z tego, co ludzie widzą u innych, zwłaszcza u tych „na górze”.",
+    "biuro": "W biurze obowiązuje zasada, że wydruki z danymi klientów zabiera się od razu z drukarki. Ludzie zaczynają jej przestrzegać dopiero, gdy kierowniczka sama tak robi, jedna koleżanka przypomina innym, a o zostawionych dokumentach mówi się na zebraniu.",
+    "firma": "Właściciel firmy robiącej strony internetowe płaci premie tylko za oddanie projektu w terminie. Programiści szybko uczą się pomijać testy, bo za błędy nikt nie rozlicza, a za spóźnienie tak. Zachęty ukształtowały zachowanie – to właśnie aktywator Kultura, Etyka i Zachowanie (podobny przypadek opisuje Przykład 11 w podręczniku).",
+    "admin": "W urzędzie gminy naczelnik za każdy błąd robi publiczną awanturę. Urzędniczka, która przez pomyłkę wysłała dane mieszkańca pod zły adres, nikomu o tym nie mówi, więc nikt nie reaguje na czas. Procedura zgłaszania incydentów istnieje, ale kultura obwiniania sprawia, że jest martwa.",
+    "psp": "Po zdarzeniu, przy którym zadysponowanie trwało za długo, zastępca komendanta omawia je z dyżurnym bez szukania winnego, tylko pytając, co nie zadziałało. Dyżurni zaczynają sami zgłaszać błędy SWD-PSP, bo wiedzą, że nie dostaną za to nagany, i usterki są szybko poprawiane. Taka kultura uczenia się zamiast obwiniania sprawia, że procedury naprawdę działają.",
+    "it": "W DSS03 (Zarządzanie problemami) zespół analizuje awarie bez szukania winnych, więc informatycy zgłaszają także własne pomyłki. Zachowanie „uczymy się zamiast obwiniać” należy do aktywatora Kultura, Etyka i Zachowanie i decyduje, czy proces dostaje prawdziwe dane."
+  },
+  "glebokosc": {
+    "prosty": "Na lodówce wisi kartka „sprzątamy po sobie”, ale tata zostawia kubki w salonie, więc dzieci robią to samo. Zasada na papierze nic nie znaczy, jeśli dorośli nie pokazują jej własnym przykładem. To, co naprawdę obowiązuje w domu, widać po tym, co ludzie robią, a nie po tym, co wisi na lodówce.",
+    "zaawansowany": "Po nocy z Lipową asp. sztab. Grab przyznaje, że dzień wcześniej zauważył opóźnienia SMS-ów do OSP, ale nie zgłosił tego, „bo zaraz by się zaczęło szukanie winnego”. Komendantka Wrzos wprowadza zasadę zgłaszania błędów bez kozła ofiarnego i publicznie dziękuje Grabowi, a st. ogn. Nowik zostaje osobą wspierającą (czempionem) zmiany wśród dyżurnych. [[polityka|Polityka]] zgłaszania incydentów spisuje te wartości, ale to zachowania na zmianie pokażą, czy kultura naprawdę się zmieniła. Bez tego najlepszy [[proces]] obsługi incydentów nie dostanie żadnych zgłoszeń.",
+    "skrajny": "Komenda ma piękny kodeks etyczny i politykę zgłaszania błędów, a mimo to nikt nic nie zgłasza. Kusi, by uznać aktywator Kultura, Etyka i Zachowanie za „wdrożony”, bo dokumenty są. Dokumenty należą jednak do innego aktywatora, Zasad, Polityk i Struktur ramowych, które są bardzo ważnym mechanizmem komunikowania wartości i pożądanego zachowania, ale same zachowaniem nie są. Druga pułapka: wartości, w oparciu o które komenda chce działać, to etyka organizacyjna, a osobiste przekonania Graba wyniesione z domu to etyka indywidualna – obie należą do tego aktywatora, ale na różnych poziomach. Kulturę tworzą dopiero indywidualne zachowania, np. to, jak ludzie reagują na złe wyniki. **Rozstrzygnięcie:** dokument o wartościach to polityka (inny aktywator, mechanizm komunikowania); kulturę ocenia się po rzeczywistych zachowaniach, a „wartości organizacji” = etyka organizacyjna, „wartości osoby” = etyka indywidualna."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Kodeks etyczny w szufladzie to wdrożony aktywator Kultura, Etyka i Zachowanie.",
+      "prawda": "Kodeks to polityka, czyli mechanizm komunikowania wartości (inny aktywator). Kulturę widać po zachowaniach, np. po tym, czy ktoś zgłasza błąd."
+    },
+    {
+      "mit": "Etyka organizacyjna to suma osobistych wartości pracowników.",
+      "prawda": "Etyka organizacyjna to wartości, w oparciu o które organizacja chce działać. Osobiste wartości pracownika to etyka indywidualna."
+    },
+    {
+      "mit": "Kultury nie da się kształtować – albo jest dobra, albo nie.",
+      "prawda": "Framework podaje dobre praktyki: komunikowanie, przykład kierownictwa i czempionów, zachęty i środki zniechęcające oraz reguły i normy (s. 80)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie kultury z dokumentami o wartościach.",
+    "jakTlumaczyc": "Zapytaj: „Co robisz, gdy nikt nie patrzy, a coś poszło źle?”. Odpowiedź to kultura. Potem rozłóż ją na trzy piętra: wartości organizacji, wartości osoby, codzienne zachowania.",
+    "pytanieKontrolne": "Komenda wprowadziła politykę „zgłaszamy błędy bez szukania winnych”. Po czym po trzech miesiącach poznasz, że zmieniła się kultura, a nie tylko dokumentacja?",
+    "odpowiedzKontrolna": "Po zachowaniach: czy przybyło zgłoszeń błędów i sytuacji „prawie wypadek”, czy przełożeni reagują na złe wyniki uczeniem się, a nie karaniem, czy czempioni i kierownictwo dają przykład. Sama polityka to inny aktywator – ważny mechanizm komunikowania wartości, ale nie dowód zmiany kultury."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Etyka organizacyjna vs indywidualna",
+      "roznica": "Organizacyjna to wartości, w oparciu o które ORGANIZACJA chce działać. Indywidualna to osobiste wartości pracownika (religia, pochodzenie, doświadczenia)."
+    }
+  ],
+  "przykladWypowiedzi": "Culture, Ethics and Behaviour, czyli Kultura, Etyka i Zachowanie, to aktywator, od którego zależy, czy ludzie naprawdę stosują zasady; kierownictwo kształtuje go przykładem, czempionami (champions), zachętami i regułami.",
+  "egzamin": "„Wartości, w oparciu o które organizacja chce działać” → **etyka organizacyjna**. Dobra praktyka promowania zachowań → np. **wskazywanie czempionów (osób wspierających)**, komunikacja, zachęty, reguły i normy. Mechanizm komunikowania wartości i pożądanego zachowania → **zasady i polityki**.",
+  "powiazane": [
+    "zasady-polityki-struktury",
+    "struktury-organizacyjne"
+  ],
+  "sylabus": [
+    "EN-02-14",
+    "EN-02-15",
+    "EN-02-16"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 79,
+      "cytat": "Kultura, etyka i zachowanie odnoszą się do zbioru zachowań indywidualnych i zbiorowych w ramach przedsiębiorstwa."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 79,
+      "ilustracja": "34"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 80,
+      "cytat": "Zasady i polityki są bardzo ważnym mechanizmem komunikowania wartości korporacyjnych oraz pożądanego zachowania."
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Kultura, Etyka i Zachowanie",
+    "podrecznik": "Kultura, etyka i zachowanie",
+    "kurs": "Kultura, Etyka i Zachowanie (Culture, Ethics and Behaviour)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 8, 9, 14."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "aktywator"
+  ]
+}

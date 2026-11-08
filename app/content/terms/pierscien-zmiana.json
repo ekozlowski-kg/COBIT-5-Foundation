@@ -1,0 +1,121 @@
+{
+  "id": "pierscien-zmiana",
+  "en": "Change enablement (middle ring)",
+  "wymowa": "czejndż inejblment",
+  "wymowaAkcent": "czejndż i-NEJ-bl-ment",
+  "plEgzamin": "Aktywowanie zmiany",
+  "plPodrecznik": "Umożliwienie zmian (krąg środkowy)",
+  "plInne": [
+    {
+      "nazwa": "Aktywacja zmiany",
+      "zrodlo": "ALTKOM"
+    },
+    {
+      "nazwa": "Wdrożenie zmiany",
+      "zrodlo": "FW-PL s. 37"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Aktywowanie zmiany",
+    "podrecznik": "Umożliwienie zmian (krąg środkowy)",
+    "kurs": "Aktywowanie zmiany (Change enablement)",
+    "uwaga": "Egzamin PL: „Aktywowanie zmiany”; podręcznik PL: „Umożliwienie zmian (krąg środkowy)” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 37, 38; zestawienie Altkom (kolumna „Podręczniki PL”). Inne formy w obiegu: Aktywacja zmiany (ALTKOM); Wdrożenie zmiany (FW-PL s. 37)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Aktywowanie zmiany”. Podręcznik: „Umożliwienie zmian” (il. 17), a na s. 37 także „Wdrożenie zmiany”. To ten sam pierścień środkowy. Nie myl go z „Aktywatorem” (enabler) – to inne pojęcie o podobnym brzmieniu.",
+  "skadNazwa": "Angielskie *change enablement* to dosłownie „umożliwianie zmiany”. Egzamin PL tłumaczy *enable* przez „aktywować”, tak jak *enabler* → „Aktywator”. Stąd „Aktywowanie zmiany”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "cykl-wdrozenia",
+    "kultura-etyka-zachowanie"
+  ],
+  "poLudzku": "Przekonanie ludzi do nowego sposobu pracy: wyjaśnić, wysłuchać obaw, znaleźć liderów i utrwalić nowe nawyki.",
+  "wyobrazSobie": "Przekonujesz babcię do smartfona: tłumaczysz, pokazujesz, chwalisz i pilnujesz, żeby nie wróciła do starego telefonu.",
+  "poziom1": "Pierścień środkowy [[cykl-wdrozenia|cyklu życia wdrożenia]]. Zajmuje się **aspektami behawioralnymi i kulturowymi**: ludźmi, oporem, komunikacją i utrwaleniem nowych nawyków. Ma działanie w każdej z siedmiu faz, od „Ustanowienia chęci zmiany” do „Utrzymania”.",
+  "poziom2": "| Faza | Działanie w pierścieniu Aktywowanie zmiany |\n|---|---|\n| 1 | Ustanowienie chęci zmiany |\n| 2 | Utworzenie zespołu wdrożeniowego |\n| 3 | Komunikowanie rezultatu (SP1) |\n| 4 | Identyfikacja odtwórców ról (SP1) |\n| 5 | Działaj i używaj (SP1) |\n| 6 | Umożliwianie nowych podejść (SP1; podr. „Integracja nowych podejść”) |\n| 7 | Utrzymanie |\n\nOznaczenia nazw działań: **(SP1)** – nazwa z polskiego arkusza egzaminacyjnego; bez oznaczenia – tłumaczenie kursu z *COBIT 5 Implementation* (ISACA), jak w lekcji 3.4.\n\nPodręcznik (s. 37): nie zakładaj, że ludzie chętnie przyjmą zmianę. Potrzebny jest **plan komunikacji** dla każdej fazy (co, jak, do kogo). Trwałą poprawę daje **zaangażowanie** (zaufanie, liderzy, słuchanie) albo, gdy trzeba, **egzekwowanie zgodności**.",
+  "poziom3": "(s. 37): *„Wdrożenie zmiany — uwzględnienie aspektów związanych z zachowaniem i kulturą.”* W wielu przedsiębiorstwach duży nacisk kładzie się na to, **co** wdrożyć, a za mało na ludzi, zachowania i kulturę. Il. 17 (s. 38) podpisuje pierścień jako *„Umożliwienie zmian (krąg środkowy)”*.",
+  "poCo": "Żeby ludzie naprawdę przyjęli nowy sposób pracy. Samo nowe narzędzie bez ludzi niczego nie zmienia.",
+  "jakDziala": "Pierścień środkowy prowadzi ludzi przez siedem faz. Najpierw budzi chęć zmiany i tworzy zespół wdrożeniowy. Potem komunikuje rezultat, wskazuje odtwórców ról i wspiera użytkowanie. Na końcu osadza nowe podejścia i utrzymuje zmianę.",
+  "dlaczegoWazne": "Pytanie o aspekty behawioralne i kulturowe wdrożenia to na egzaminie zawsze Aktywowanie zmiany. Opór ludzi potrafi zatrzymać nawet dobrze zaplanowane wdrożenie (interpretacja kursu).",
+  "przyklady": {
+    "zycie": "Rodzina przechodzi na segregację śmieci. Mama tłumaczy dzieciom, po co to jest, starszy syn pilnuje młodszego, a po miesiącu nikt już nie wrzuca szkła do plastiku. To aktywowanie zmiany: chodzi o ludzi i nawyki, nie o kosze.",
+    "biuro": "Biuro przechodzi z papierowego kalendarza na wspólny grafik. Szefowa tłumaczy powody, pomaga najstarszej koleżance i chwali pierwszych chętnych.",
+    "organizacja": "Warsztat przechodzi z zeszytu na tablet: właściciel wysłuchuje obaw starszego mechanika i robi z najmłodszego „lidera tabletu”. W szkole wicedyrektorka organizuje dyżury pomocy przy e-dzienniku, aż papierowy dziennik znika.",
+    "psp": "**Grab i nowy ekran**\nDyżurny Paweł Grab mówi, że stara Syrena „była prostsza” i nie chce nowej. Naczelnik Marek Sikora nie wydaje rozkazu, tylko robi Graba współautorem instrukcji. Kasia Nowik zostaje liderką zmiany na swojej zmianie. Plan komunikacji mówi, co i kiedy usłyszy każda zmiana SK. To pierścień środkowy – [[pierscien-zmiana|Aktywowanie zmiany]].",
+    "it": "Proces BAI05 (Zarządzanie wdrażaniem zmian organizacyjnych) ma praktyki odpowiadające działaniom tego pierścienia: od chęci zmiany po jej utrzymanie."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "aktywator",
+      "roznica": "Aktywator to jeden z siedmiu czynników, które pomagają w Ładzie i Zarządzaniu. Aktywowanie zmiany to pierścień wdrożenia, który zajmuje się ludźmi i kulturą."
+    },
+    {
+      "termin": "kultura-etyka-zachowanie",
+      "roznica": "„Kultura, etyka i zachowanie” to stały aktywator organizacji. Aktywowanie zmiany to praca z ludźmi podczas konkretnego wdrożenia."
+    }
+  ],
+  "przykladWypowiedzi": "Change enablement, czyli Aktywowanie zmiany, to środkowy pierścień: zajmuje się ludźmi, komunikacją i oporem wobec zmiany.",
+  "egzamin": "Komponent cyklu wdrożenia, który dotyczy **aspektów behawioralnych i kulturowych** → **Aktywowanie zmiany** (pierścień środkowy). W arkuszu PL widać jego działania: **Komunikowanie rezultatu** (faza 3) i **Identyfikacja odtwórców ról** (faza 4).",
+  "powiazane": [
+    "cykl-wdrozenia",
+    "fazy-wdrozenia",
+    "pierscien-program",
+    "pierscien-doskonalenie",
+    "kultura-etyka-zachowanie",
+    "aktywator"
+  ],
+  "sylabus": [
+    "IM-01-01",
+    "IM-02-05"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 37,
+      "cytat": "Wdrożenie zmiany — uwzględnienie aspektów związanych z zachowaniem i kulturą."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "ilustracja": "17",
+      "cytat": "Umożliwienie zmian (krąg środkowy)"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 37,
+      "cytat": "Nie należy zakładać, że różni interesariusze, których dotyczą nowe lub zmienione czynniki umożliwiające, chętnie zaakceptują i przyjmą zmianę."
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "pierscien-zmiana",
+  "glebokosc": {
+    "prosty": "Kupujesz babci smartfon. Telefon to nie problem, problemem jest przekonanie babci, że warto. Siadasz z nią, pokazujesz zdjęcia wnuków i odwiedzasz ją co tydzień. Po miesiącu babcia sama dzwoni na wideo.",
+    "zaawansowany": "W fazie 2 Sikora tworzy zespół wdrożeniowy, a w fazie 4 wskazuje odtwórców ról: liderów zmiany na każdej zmianie SK. W fazie 3 komenda komunikuje rezultat: „żaden alarm nie może zginąć”. Program ([[pierscien-program]]) pilnuje budżetu, ale bez tej pracy z ludźmi dyżurni obejdą nowy system. Dlatego plan komunikacji ma osobne treści na każdą fazę.",
+    "skrajny": "Grab dalej wysyła alarmy „po staremu”, więc komendantka Wrzos wydaje rozkaz: od poniedziałku tylko nowa Syrena. Czy rozkaz to jeszcze Aktywowanie zmiany, czy już porażka tego pierścienia? Podręcznik mówi wprost, że trwałą poprawę daje zaangażowanie **albo**, gdy trzeba, egzekwowanie zgodności. Kusi też wrzucenie tej sceny do aktywatora „Kultura, etyka i zachowanie”. Aktywator opisuje jednak stałą kulturę komendy, a pierścień – pracę z ludźmi w tym wdrożeniu. **Rozstrzygnięcie:** zarówno przekonywanie, jak i egzekwowanie zgodności należą do Aktywowania zmiany; liczy się to, że dotyczą ludzi i zachowań podczas wdrożenia."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Aktywowanie zmiany to to samo co Aktywator.",
+      "prawda": "Podobne słowo, inne pojęcie. Aktywator to jeden z siedmiu czynników COBIT. Aktywowanie zmiany to środkowy pierścień wdrożenia."
+    },
+    {
+      "mit": "Zmianą zajmujemy się na końcu, gdy system jest gotowy.",
+      "prawda": "Pierścień ma działanie w każdej fazie, już od fazy 1 („Ustanowienie chęci zmiany”). Plan komunikacji obejmuje wszystkie fazy."
+    },
+    {
+      "mit": "Jeśli kierownik musi coś nakazać, to zmiana się nie udała.",
+      "prawda": "Podręcznik dopuszcza egzekwowanie zgodności, gdy jest wymagane. To też droga do trwałej poprawy."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli „Aktywowanie zmiany” z „Aktywatorem” albo kojarzy pierścień z techniką („aktywujemy system”).",
+    "jakTlumaczyc": "Zacznij od pytania: „Co najczęściej psuje dobre wdrożenie?”. Odpowiedź „ludzie, którzy nie chcą” prowadzi wprost do pierścienia środkowego.",
+    "pytanieKontrolne": "Który pierścień odpowiada za to, żeby po wdrożeniu nikt nie wrócił do starego zeszytu, i jak nazywa się jego działanie w fazie 7?",
+    "odpowiedzKontrolna": "Pierścień środkowy – **Aktywowanie zmiany**. W fazie 7 jego działanie to **Utrzymanie** (nazwa z tłumaczenia kursu)."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "it-klient",
+  "en": "Client",
+  "wymowa": "klajent",
+  "wymowaAkcent": "KLAJ-ent",
+  "plEgzamin": "Klient",
+  "plPodrecznik": "—",
+  "plInne": [
+    "urządzenie klienckie",
+    "aplikacja kliencka"
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "—",
+    "kurs": "Klient (client)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. W IT „klient” to urządzenie albo program, który prosi serwer. W biznesie i w COBIT 5 „klient” to człowiek albo firma, która korzysta z usług organizacji (np. perspektywa „Klient”, FW-PL s. 19)."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-hardware",
+    "it-aplikacja",
+    "it-siec"
+  ],
+  "poLudzku": "Urządzenie albo program, który prosi serwer o dane albo o wykonanie zadania.",
+  "poziom1": "Klient to druga strona serwera: ten, kto wysyła prośbę i czeka na odpowiedź. Twój telefon z aplikacją banku jest klientem serwera banku.",
+  "poziom2": "Klientem bywa aplikacja (np. przeglądarka, program pocztowy) albo całe urządzenie. Jeden klient może prosić wiele serwerów, a jeden serwer obsługuje wielu klientów naraz. Ten układ nazywa się „klient–serwer”.",
+  "poziom3": "Uwaga na słowo: w COBIT 5 „klient” oznacza zwykle odbiorcę usług organizacji – człowieka albo firmę (np. perspektywa „Klient” w celach organizacji, FW-PL s. 19). W tym haśle chodzi o znaczenie techniczne.",
+  "wyobrazSobie": "Gość w restauracji: zamawia i czeka. Kelner (serwer) przynosi.",
+  "poCo": "Żeby urządzenie użytkownika mogło korzystać z danych i pracy innego komputera, nie trzymając wszystkiego u siebie.",
+  "jakDziala": "Klikasz w aplikacji „Pokaż saldo”. Aplikacja wysyła prośbę przez sieć do serwera. Czeka. Gdy przyjdzie odpowiedź, pokazuje ją na ekranie.",
+  "dlaczegoWazne": "Gdy coś „nie działa”, trzeba wiedzieć, czy zawiódł klient (Twój komputer), sieć, czy serwer. Od tego zależy, kogo wezwać.",
+  "przyklady": {
+    "zycie": "Przeglądarka w telefonie jest klientem: prosi serwer gazety o stronę z wiadomościami.",
+    "biuro": "Program pocztowy na komputerze w biurze to klient. Co kilka minut pyta serwer poczty: „czy są nowe maile?”.",
+    "organizacja": "W banku 300 komputerów kasjerów to klienci jednego systemu bankowego na serwerach w centrali.",
+    "psp": "Komputer dyżurnej Kasi Nowik z „Syreną” jest klientem. Gdy Kasia klika „Alarm”, prosi serwer „Syreny” o wysłanie SMS-ów.",
+    "it": "W COBIT 5 słowo „klient” oznacza głównie odbiorcę usług organizacji (np. perspektywa „Klient”, FW-PL s. 19), a nie urządzenie."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-serwer",
+      "roznica": "Klient prosi, serwer odpowiada."
+    },
+    {
+      "termin": "Klient (odbiorca usług)",
+      "roznica": "W biznesie i w COBIT 5 klient to człowiek albo firma korzystająca z usług organizacji, a nie urządzenie."
+    }
+  ],
+  "przykladWypowiedzi": "The client, czyli klient, wysyła request, czyli żądanie, do server, czyli serwera; komputer dyżurnej jest clientem „Syreny”.",
+  "egzamin": "Na egzaminie „klient” występuje w znaczeniu biznesowym (np. perspektywa „Klient”). Znaczenie techniczne jest potrzebne tylko do zrozumienia usług IT.",
+  "powiazane": [
+    "it-serwer",
+    "it-zadanie-odpowiedz"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 19,
+      "cytat": "Kultura usług zorientowanych na klienta"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "W sklepie mięsnym mówisz: „poproszę pół kilo szynki”. Ty prosisz, sprzedawca kroi i podaje. W tej scenie jesteś „klientem”, a sprzedawca „serwerem”.",
+    "zaawansowany": "Kasia Nowik widzi komunikat „Brak połączenia z serwerem”. Jej komputer (klient) działa. Kłopot jest gdzie indziej: w [[it-siec|sieci]] albo na serwerze „Syreny”. Ola Dudek sprawdza najpierw, czy inni dyżurni mają ten sam komunikat – jeśli tak, winny jest serwer.",
+    "skrajny": "Czy jeden komputer może być i klientem, i serwerem? Tak: serwer „Syreny” sam prosi serwer operatora komórkowego o wysłanie SMS-ów – wtedy jest klientem. Czy „klient” w COBIT 5 to telefon? Nie: tam to odbiorca usług, np. mieszkaniec. **Rozstrzygnięcie:** klient i serwer to role w jednej wymianie – ten sam komputer może raz prosić, raz odpowiadać; w języku biznesu i COBIT 5 „klient” to człowiek albo firma."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Klient to zawsze człowiek.",
+      "prawda": "W IT klientem jest urządzenie albo program, który prosi serwer. W biznesie – człowiek albo firma."
+    },
+    {
+      "mit": "Komputer jest albo klientem, albo serwerem na zawsze.",
+      "prawda": "To role w danej wymianie. Ten sam komputer może pełnić obie."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie technicznego „klienta” z klientem w sensie biznesowym.",
+    "jakTlumaczyc": "Restauracja: gość (klient) i kelner (serwer); potem pokaż, że restauracja, zamawiając w hurtowni, sama jest klientem.",
+    "pytanieKontrolne": "Serwer „Syreny” prosi serwer operatora komórkowego o wysłanie SMS-ów. Kim jest w tej wymianie serwer „Syreny”?",
+    "odpowiedzKontrolna": "Klientem – to on prosi. Rola zależy od tego, kto prosi, a kto odpowiada."
+  }
+}

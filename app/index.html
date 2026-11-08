@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COBIT 5 Foundation – kurs od zera</title>
+  <meta name="color-scheme" content="light dark">
+  <script>
+    // Ustaw motyw i rozmiar tekstu przed pierwszym renderem (bez migania).
+    try {
+      var t = localStorage.getItem('c5.theme');
+      if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      var f = localStorage.getItem('c5.fontScale');
+      if (f) document.documentElement.style.setProperty('--font-scale', f);
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+  <div id="app" class="app">
+    <header class="topbar" role="banner">
+      <button class="icon-btn only-mobile" id="navToggle" aria-expanded="false" aria-controls="nav">☰ Menu</button>
+      <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">C5</span>COBIT 5 <span class="brand-sub">Foundation</span></a>
+      <nav class="topnav" aria-label="Sekcje">
+        <a href="#/" data-nav="home">Start</a>
+        <a href="#/dzien" data-nav="dzien">Dziś</a>
+        <a href="#/powtorki" data-nav="powtorki">Powtórki</a>
+        <a href="#/slownik" data-nav="slownik">Słownik</a>
+        <a href="#/egzamin" data-nav="egzamin">Egzamin</a>
+        <a class="nav-extra" href="#/mapa" data-nav="mapa">Mapa COBIT 5</a>
+        <a class="nav-extra" href="#/dryl" data-nav="dryl">Ćwiczenie nazw z egzaminu</a>
+        <a class="nav-extra" href="#/notatki" data-nav="notatki">Notatki</a>
+        <a class="nav-extra" href="#/mentor" data-nav="mentor">Mentor</a>
+        <details class="more" id="moreMenu">
+          <summary>Więcej</summary>
+          <div class="pop">
+            <a href="#/mapa" data-nav="mapa">Mapa COBIT 5</a>
+            <a href="#/dryl" data-nav="dryl">Ćwiczenie nazw z egzaminu</a>
+            <a href="#/notatki" data-nav="notatki">Notatki</a>
+            <a href="#/mentor" data-nav="mentor">Mentor</a>
+          </div>
+        </details>
+      </nav>
+      <div class="topbar-tools">
+        <details class="settings help" id="helpMenu">
+          <summary class="icon-btn help-btn" aria-label="Co mam teraz zrobić?">? <span class="lbl-long">Co mam teraz zrobić</span><span class="lbl-short">Co teraz?</span></summary>
+          <div class="pop pop-right help-pop" id="helpPop" aria-live="polite"></div>
+        </details>
+        <details class="settings" id="settingsMenu">
+          <summary class="icon-btn" title="Poziom szczegółów, kolory i wielkość liter">Aa Wygląd</summary>
+          <div class="pop pop-right set-pop">
+            <div class="set-row"><span class="set-label">Poziom szczegółów</span>
+              <div class="set-seg set-seg-2" role="group" aria-label="Poziom szczegółów">
+                <button data-tryb-set="laik" title="Najpierw po ludzku, szczegóły schowane">Dla początkujących</button><button data-tryb-set="pelny" title="Wszystkie nazwy, poziomy i źródła od razu">Pełny</button>
+              </div></div>
+            <div class="set-row"><span class="set-label">Motyw</span>
+              <div class="set-seg" role="group" aria-label="Motyw">
+                <button data-theme-set="system">Auto</button><button data-theme-set="light">Jasny</button><button data-theme-set="dark">Ciemny</button>
+              </div></div>
+            <div class="set-row"><span class="set-label">Wielkość liter</span>
+              <div class="set-seg" role="group" aria-label="Rozmiar tekstu">
+                <button id="fontDown">A− mniejsze</button><button id="fontReset" aria-label="Domyślna wielkość liter">100%</button><button id="fontUp">A+ większe</button>
+              </div></div>
+          </div>
+        </details>
+      </div>
+    </header>
+    <main id="main" class="main" tabindex="-1"></main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+{
+  "id": "pa-3-1",
+  "en": "PA 3.1 Process definition",
+  "wymowa": "piej 3 1 prołses definiszyn",
+  "wymowaAkcent": "pi-ej 3 1 PROŁ-ses de-fi-NI-szyn",
+  "plEgzamin": "PA 3.1 Definicja procesu",
+  "plPodrecznik": "PA 3.1 Definicja procesu",
+  "plInne": [
+    {
+      "nazwa": "Definiowanie procesu",
+      "zrodlo": "FW-PL s. 44, Il. 21"
+    }
+  ],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "PA 3.1 Definicja procesu",
+    "podrecznik": "PA 3.1 Definicja procesu",
+    "kurs": "PA 3.1 Definicja procesu (PA 3.1 Process definition)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Inne formy w obiegu: Definiowanie procesu (FW-PL s. 44, Il. 21)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Definicja procesu” to atrybut PA 3.1. Nie myl go z „Zdefiniowanym procesem”, czyli nazwą poziomu 3 w COBIT 4.1, ani z opisem procesu w PRM, który nie może zawierać cech powyżej poziomu 1.",
+  "skadNazwa": "Z angielskiego *Process definition*. Podręcznik ma dwie formy: „Definicja procesu” (Il. 19) i „Definiowanie procesu” (Il. 21).",
+  "kategoria": "egzaminacyjne",
+  "status": "uproszczenie",
+  "poziomP": "P3",
+  "wymaga": [
+    "atrybuty-procesu",
+    "poziom-2"
+  ],
+  "poziom1": "Pierwszy atrybut poziomu 3. Sprawdza, czy organizacja ma standardowy proces: jeden wzorzec, spisany i utrzymywany, z którego każde wykonanie bierze swoją dopasowaną wersję.",
+  "poLudzku": "Czy jest jeden spisany, wspólny sposób robienia tej roboty i czy ktoś go aktualizuje.",
+  "wyobrazSobie": "Projekt typowego domu w biurze architekta: każdy klient dostaje ten sam projekt, dopasowany do swojej działki.",
+  "poCo": "Żeby organizacja miała jeden sprawdzony wzorzec procesu, z którego korzystają wszystkie zespoły.",
+  "jakDziala": "Organizacja tworzy i utrzymuje standardowy proces: kroki, role, kompetencje, potrzebną infrastrukturę i zasady dopasowania. Asesor ocenia sam wzorzec, a jego stosowanie ocenia PA 3.2.",
+  "dlaczegoWazne": "PA 3.1 łatwo pomylić z opisem procesu z COBIT 5 albo z poziomem 3 z COBIT 4.1. Egzamin pyta o atrybuty poziomu 3.",
+  "poziom2": "| Co sprawdza asesor (uproszczenie według ISO/IEC 15504) | Przykład |\n|---|---|\n| jest standardowy proces z zasadami dopasowania | jedna procedura i jej warianty |\n| kolejność i powiązania z innymi procesami | co przed, co po |\n| wymagane kompetencje i role | kto może to robić |\n| wymagana infrastruktura i środowisko | sprzęt, systemy |\n| sposób sprawdzania, czy standard działa | przegląd procedury |\n\nPA 3.1 dotyczy **wzorca**. Czy wzorzec jest faktycznie używany, sprawdza [[pa-3-2|PA 3.2]].",
+  "poziom3": "Nazwa w Il. 19 (s. 42): „Definicja procesu”, w Il. 21 (s. 44): „Definiowanie procesu”. (s. 42): poziom 3 *„wymaga zdefiniowania procesu”* oraz w znacznym stopniu wdrożenia. (s. 43): opis procesu w PRM nie może zawierać cech atrybutów powyżej poziomu 1. Szczegóły atrybutu według ISO/IEC 15504-2 to uproszczenie kursu, spoza korpusu.",
+  "przyklady": {
+    "zycie": "Rodzina spisuje jeden „plan świąt”: kto kupuje choinkę, kto gotuje, w jakiej kolejności. Po świętach co roku go poprawiacie. Sam spisany i aktualizowany plan to PA 3.1.",
+    "biuro": "Firma ma jedną instrukcję rozliczania delegacji dla wszystkich biur, z wariantem dla wyjazdów zagranicznych. Kadry przeglądają ją co roku. To PA 3.1.",
+    "organizacja": "Sieć kawiarni ma jedną instrukcję otwierania lokalu, z wariantem dla małych punktów na dworcach. Dział jakości przegląda ją co pół roku. To definicja procesu.\n\nPowiat tworzy jeden wzorcowy regulamin obsługi skarg dla wszystkich swoich jednostek. Regulamin zawiera wymagane kompetencje i zasady dopasowania. To PA 3.1.",
+    "psp": "**Jedna procedura zamiast pięciu.** Naczelnik Marek Sikora zbiera instrukcje od dostawcy, z komendy wojewódzkiej i z wydziału w jedną procedurę powiadamiania. Opisuje role, kolejność kroków, wymagane szkolenie i wariant na awarię zasięgu. Komendantka Wrzos ją podpisuje, a Sikora co pół roku ją przegląda. Audytorka Ewa Lis ocenia to w PA 3.1.",
+    "it": "Proces APO07 (zarządzanie zasobami ludzkimi): organizacja ma jeden standard przyjmowania informatyków, z rolami, kompetencjami i zasadami dopasowania dla działów. Sam wzorzec ocenia się w PA 3.1."
+  },
+  "glebokosc": {
+    "prosty": "Pięć osób w rodzinie pakuje się na wakacje. Mama spisuje jedną listę rzeczy i wiesza ją na lodówce. Przed każdym wyjazdem ją poprawiacie. Ta wspólna, aktualna lista to PA 3.1.",
+    "zaawansowany": "Po pożarze przy Lipowej Sikora tworzy jedną procedurę powiadamiania dla wszystkich zmian SK. Określa w niej role, kolejność kroków, wymagane szkolenie i powiązanie z obsługą zgłoszeń. To wzorzec dla [[pa-3-2|wdrożenia procesu]]. Ewa Lis ocenia, czy wzorzec jest kompletny i utrzymywany, a jeszcze nie, czy każdy go stosuje. Oba atrybuty razem dają [[poziom-3|poziom 3]].",
+    "skrajny": "Sikora pyta: „Czy naszą procedurę wpisać do opisu procesu w PRM?”. Lis tłumaczy różnicę. Opis procesu w PRM, np. w *COBIT 5: Procesy umożliwiające*, mówi tylko, co proces ma osiągać i jakie ma praktyki. Framework zabrania umieszczania w nim cech atrybutów powyżej poziomu 1. Standard organizacji z PA 3.1 to wasz własny wzorzec: kto, jak, jakie kompetencje, jak dopasować. Druga pułapka: podręcznik pisze raz „Definicja”, raz „Definiowanie procesu”, a COBIT 4.1 ma „Zdefiniowany proces” jako poziom 3. **Rozstrzygnięcie:** PA 3.1 to wasz standardowy wzorzec procesu, a nie opis procesu z COBIT. Opis z PRM należy do wymiaru procesu i poziomu 1."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Definicja procesu to opis procesu z *COBIT 5: Procesy umożliwiające*.",
+      "prawda": "Opis w PRM zawiera przeznaczenie, rezultaty i praktyki. Framework zabrania w nim cech powyżej poziomu 1. PA 3.1 to własny standard organizacji."
+    },
+    {
+      "mit": "Jak jest spisana procedura, to mamy poziom 3.",
+      "prawda": "Spisany standard to PA 3.1. Potrzebne jest jeszcze jego wdrożenie (PA 3.2) i P na wszystkich atrybutach poziomów 1–2."
+    },
+    {
+      "mit": "„Definicja procesu” to poziom 3 z COBIT 4.1.",
+      "prawda": "Poziom 3 w COBIT 4.1 nazywał się „Zdefiniowany proces”. W COBIT 5 poziom 3 to „Ustanowiony”, a PA 3.1 to jeden z jego dwóch atrybutów."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli posiadanie dokumentu ze stosowaniem standardu i nie odróżnia PA 3.1 od PA 3.2.",
+    "jakTlumaczyc": "Para „przepis i kuchnia”: PA 3.1 to przepis w książce, a PA 3.2 to to, czy kucharze z niego gotują. Najpierw pytaj o przepis, potem o kuchnię.",
+    "pytanieKontrolne": "Czym standardowy proces z PA 3.1 różni się od opisu procesu w PRM?",
+    "odpowiedzKontrolna": "Opis w PRM mówi, co proces ma osiągać, i nie może zawierać cech powyżej poziomu 1. Standard z PA 3.1 to własny wzorzec organizacji: role, kroki, kompetencje, zasady dopasowania."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "pa-3-2",
+      "roznica": "PA 3.2 sprawdza, czy standard jest stosowany w każdym wykonaniu. PA 3.1 sprawdza sam standard."
+    },
+    {
+      "termin": "opis-procesu",
+      "roznica": "Szablon opisu procesu z *COBIT 5: Procesy umożliwiające*, wspólny dla 37 procesów. PA 3.1 to standard, który organizacja tworzy sama."
+    },
+    {
+      "termin": "pa-2-2",
+      "roznica": "PA 2.2 to porządek w produktach pracy jednego procesu. PA 3.1 to wzorzec całego procesu dla organizacji."
+    }
+  ],
+  "przykladWypowiedzi": "PA 3.1 Process definition, czyli definicja procesu, sprawdza, czy organizacja ma utrzymywany standardowy proces, z którego korzysta każde wykonanie.",
+  "egzamin": "Poziom 3 (ustanowiony) ma atrybuty **definicja procesu** (PA 3.1) i **wdrożenie procesu** (PA 3.2).",
+  "powiazane": [
+    "atrybuty-procesu",
+    "poziom-3",
+    "pa-3-2",
+    "prm",
+    "opis-procesu"
+  ],
+  "sylabus": [
+    "PC-01-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "wymaga zdefiniowania procesu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "Opis procesu nie może zawierać żadnych aspektów struktury pomiarów wykraczających poza poziom 1"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 44,
+      "ilustracja": "21",
+      "cytat": "Definiowanie procesu"
+    }
+  ],
+  "mapa": "pa-3-1"
+}

@@ -1,0 +1,12 @@
+{
+  "_opis": "Rejestr źródeł (METODYKA §17.9, SD VII). Hierarchia: ISACA > instytucje branżowe > normy > recenzowane > literatura > materiały edukacyjne. Źródła WWW nie mogą być podstawą definicji `oficjalne`.",
+  "zrodla": {
+    "FW-PL": { "autor": "ISACA", "tytul": "COBIT 5: Metodyka biznesowa w zakresie nadzoru nad technologiami informatycznymi w przedsiębiorstwie i zarządzania nimi (tłumaczenie polskie publikacji COBIT 5: A Business Framework for the Governance and Management of Enterprise IT)", "rok": 2012, "jezyk": "pl", "kategoria": "publikacja-zrodlowa", "uwaga": "Plik lokalny sources/pdf/framework-pl.pdf (prawa autorskie ISACA, poza repozytorium). Numer strony PDF = numer drukowany." },
+    "FW-EN": { "autor": "ISACA", "tytul": "COBIT 5: A Business Framework for the Governance and Management of Enterprise IT", "rok": 2012, "jezyk": "en", "kategoria": "publikacja-zrodlowa", "uwaga": "Brak w projekcie – terminy EN pochodzą z haseł; dodanie sources/pdf/framework-en.pdf włączy fragmenty EN (§17.11)." },
+    "SYL": { "autor": "PeopleCert / ISACA", "tytul": "COBIT 5 Foundation Syllabus", "wydanie": "v01.2", "rok": 2016, "jezyk": "en", "kategoria": "dokumentacja", "url": "https://tiexames.com.br/COBIT5Foundation/anexos/COBIT5_Foundation_Syllabus.pdf" },
+    "SP1": { "autor": "PeopleCert / APMG", "tytul": "COBIT 5 Foundation – Sample Paper 1 (Polish) z uzasadnieniami", "jezyk": "pl", "kategoria": "material-dydaktyczny", "uwaga": "Tylko lokalnie (private/), pytania nie trafiają do treści kursu." },
+    "ALTKOM": { "autor": "Altkom Akademia", "tytul": "Różnice tłumaczenia PL – terminologia egzaminu COBIT 5 Foundation", "wydanie": "v.1.1", "rok": 2024, "jezyk": "pl", "kategoria": "material-dydaktyczny", "uwaga": "Plik lokalny sources/pdf/altkom-roznice.pdf." },
+    "PROSTO": { "autor": "opracowanie użytkownika", "tytul": "COBIT 5 Foundation – prosto i krok po kroku", "jezyk": "pl", "kategoria": "material-dydaktyczny", "uwaga": "Nieoficjalne – źródło pomysłów na przykłady, nie definicji (§12.5)." },
+    "WWW": { "kategoria": "material-dydaktyczny", "uwaga": "Każdy wpis WWW w pytaniu ma url i dostep (data)." }
+  }
+}

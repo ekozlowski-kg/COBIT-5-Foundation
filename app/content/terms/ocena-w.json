@@ -1,0 +1,109 @@
+{
+  "id": "ocena-w",
+  "en": "L – Largely achieved (>50–85%)",
+  "wymowa": "el lardżli acziwd",
+  "wymowaAkcent": "el LARDŻ-li a-CZIWD",
+  "plEgzamin": "W – Większościowy",
+  "plPodrecznik": "L – w znacznym stopniu osiągnięto",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "W – Większościowy",
+    "podrecznik": "L – w znacznym stopniu osiągnięto",
+    "kurs": "W – Większościowy (L – Largely achieved)",
+    "uwaga": "EN L (Largely) = egzamin PL W (Większościowy). Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 45; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Na egzaminie PL „Większościowy” ma literę **W**. Po angielsku i w podręczniku to **L** (Largely, „w znacznym stopniu”). W wystarcza dla atrybutów poziomu, który oceniasz, ale nie dla niższych.",
+  "skadNazwa": "Angielskie *Largely achieved* daje literę L. Podręcznik tłumaczy „w znacznym stopniu osiągnięto”, egzamin – „Większościowy” (W).",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "skala-ocen",
+    "atrybuty-procesu"
+  ],
+  "poLudzku": "W większości: działa systematycznie, choć zdarzają się słabsze miejsca.",
+  "wyobrazSobie": "Dziecko ćwiczy prawie codziennie według planu. Zdarza się jednak, że w weekend opuści.",
+  "poziom1": "Trzecia ocena w [[skala-ocen|skali ocen]]: powyżej 50% do 85% osiągnięcia. Są dowody systematycznego podejścia i znacznego osiągnięcia atrybutu, ale mogą być pewne słabości.",
+  "poziom2": "| Egzamin PL | EN | Podręcznik PL | Próg |\n|---|---|---|---|\n| N – Nieosiągnięty | N – Not achieved | N – nie osiągnięto | 0–15% |\n| C – Częściowy | **P** – Partially | P – częściowo osiągnięto | >15–50% |\n| W – Większościowy | L – Largely | L – w znacznym stopniu osiągnięto | >50–85% |\n| **P** – Pełny | F – Fully | F – w pełni osiągnięto | >85–100% |\n\n**Brzegi przedziałów:** dokładnie 15% to jeszcze N, dokładnie 50% to jeszcze C, a dokładnie 85% to jeszcze W. Granica należy do niższej oceny – to konwencja normy ISO/IEC 15504-2 (zapis „>15%”, „>50%”, „>85%”; status: uproszczenie), a nie tekst FW-PL. Podręcznik PL (s. 45) podaje tylko „0–15%, 15–50%, 50–85%, 85–100%” i nie rozstrzyga, do której oceny należą krańce.\n\n**Reguła poziomu:** atrybuty poziomu, który oceniasz, potrzebują **W lub P**. Wszystkie atrybuty niższych poziomów muszą mieć **P**. Dlatego W „wystarcza dziś”, ale blokuje wejście wyżej.",
+  "poziom3": "(s. 45): *„L (w znacznym stopniu osiągnięto) — istnieją dowody systematycznego zbliżania się do zdefiniowanego atrybutu w ocenianym procesie i znacznego osiągania go.”* (uzyskanie 50–85%). Na s. 42: poziom 1 wymaga osiągnięcia **(w znacznym stopniu)** atrybutu sprawności procesu.",
+  "poCo": "Żeby oznaczyć atrybut osiągnięty w znacznym stopniu, z drobnymi słabościami. W wystarcza na poziomie, który właśnie oceniasz.",
+  "jakDziala": "Gdy osiągnięcie wynosi powyżej 50% do 85%, asesor wpisuje W – Większościowy. Widać systematyczne podejście, choć zdarzają się słabości. Dokładnie 85% to jeszcze W (konwencja ISO/IEC 15504-2, nie tekst FW-PL).",
+  "dlaczegoWazne": "Proces osiąga poziom, gdy atrybuty tego poziomu mają W lub P, a atrybuty niższych poziomów mają P.",
+  "przyklady": {
+    "zycie": "Córka prawie zawsze wraca na czas, ale raz w miesiącu się spóźnia. Jest system, są drobne wpadki. To W: w większości.",
+    "biuro": "Rejestr pism prowadzisz codziennie, ale w co czwartym wpisie brakuje daty odpowiedzi. To W.",
+    "organizacja": "W piekarni plan produkcji powstaje codziennie, ale co piąty dzień nikt go nie sprawdza. W urzędzie około 70% wpisów w rejestrze skarg jest kompletnych. Obie oceny to W.",
+    "psp": "**Prawie zawsze**\nAudytorka Ewa Lis sprawdza, czy praca nad alarmami jest planowana i pilnowana (PA 2.1). Plany są, ale w co czwartym miesiącu nikt ich nie przejrzał. PA 2.1 dostaje W. Przy PA 1.1 = P i PA 2.2 = W proces ma poziom 2. To ocena [[ocena-w|W – Większościowy]].",
+    "it": "DSS02 ma PA 1.1 na P, a PA 2.1 i PA 2.2 na W. Proces osiąga poziom 2, ale nie wejdzie na poziom 3."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "ocena-p",
+      "roznica": "W (>50–85%) wystarcza dla atrybutów ocenianego poziomu. P (>85–100%) jest wymagane na wszystkich niższych poziomach."
+    },
+    {
+      "termin": "ocena-c",
+      "roznica": "C (>15–50%) nie wystarcza do osiągnięcia poziomu. W już wystarcza."
+    }
+  ],
+  "przykladWypowiedzi": "L – Largely achieved to na polskim egzaminie W – Większościowy, czyli powyżej 50% do 85%.",
+  "egzamin": "W = **Większościowy**, **>50–85%** (EN: **L – Largely**; zapis „>” – konwencja ISO/IEC 15504-2, FW-PL s. 45: „50–85%”). Proces **osiąga** poziom, gdy atrybuty tego poziomu mają **W lub P**, a niższe – **P**.",
+  "powiazane": [
+    "skala-ocen",
+    "ocena-n",
+    "ocena-c",
+    "ocena-p",
+    "atrybuty-procesu",
+    "poziomy-zdolnosci"
+  ],
+  "sylabus": [
+    "PC-01-03",
+    "PC-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "L (w znacznym stopniu osiągnięto) — istnieją dowody systematycznego zbliżania się do zdefiniowanego atrybutu w ocenianym procesie i znacznego osiągania go."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "cytat": "Osiągnięcie poziomu 1 potencjału procesu wymaga osiągnięcia (w znacznym stopniu) atrybutu sprawności procesu"
+    },
+    {
+      "doc": "SYL"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "ocena-w",
+  "glebokosc": {
+    "prosty": "Zdajesz egzamin na prawo jazdy w mieście. Jedziesz dobrze, raz za późno włączasz kierunkowskaz. Egzaminator mówi: „W większości dobrze”. Na ten egzamin wystarczy. Na kurs dla instruktorów już nie.",
+    "zaawansowany": "Lis ocenia proces powiadamiania: PA 1.1 = [[ocena-p|P]], PA 2.1 = W, PA 2.2 = W. Proces ma poziom 2, bo atrybuty poziomu 2 mają co najmniej W, a niższy PA 1.1 ma P. Sikora chce poziomu 3. Najpierw musi dociągnąć PA 2.1 i PA 2.2 do P, bo dla wyższego poziomu W na niższych [[atrybuty-procesu|atrybutach]] już nie wystarcza.",
+    "skrajny": "Proces kopii zapasowych ma PA 1.1 = W, a PA 2.1 i PA 2.2 = P. Dudek mówi: „Poziom 2, przecież atrybuty poziomu 2 są pełne!”. Ale poziom 2 wymaga P na wszystkich niższych atrybutach, a PA 1.1 ma tylko W. Proces ma więc poziom 1, mimo świetnych ocen wyżej. Druga zagadka: Lis liczy dokładnie 85% i waha się między W a P. P zaczyna się powyżej 85%, więc to W. **Rozstrzygnięcie:** W wystarcza tylko na najwyższym ocenianym poziomie; każdy niższy atrybut musi mieć P, a dokładnie 85% = W (konwencja ISO/IEC 15504-2, nie tekst FW-PL)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Jeśli atrybuty poziomu 2 mają P, proces ma poziom 2.",
+      "prawda": "Tylko wtedy, gdy PA 1.1 ma P. Przy PA 1.1 = W proces ma poziom 1."
+    },
+    {
+      "mit": "Dokładnie 85% to już Pełny.",
+      "prawda": "P zaczyna się powyżej 85%. Dokładnie 85% to W (konwencja ISO/IEC 15504-2, nie tekst FW-PL)."
+    },
+    {
+      "mit": "W to „prawie pełny”, więc na niższych poziomach wystarczy.",
+      "prawda": "Na niższych poziomach wymagane jest P. W wystarcza tylko dla atrybutów ocenianego poziomu."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń patrzy tylko na atrybuty ocenianego poziomu i zapomina, że niższe muszą mieć P.",
+    "jakTlumaczyc": "Drabina: na szczeblu, na którym stoisz, wystarczy pewny chwyt (W). Szczeble pod Tobą muszą być całe (P), inaczej nie wejdziesz wyżej.",
+    "pytanieKontrolne": "PA 1.1 = W, PA 2.1 = P, PA 2.2 = P. Jaki poziom ma proces i dlaczego?",
+    "odpowiedzKontrolna": "**Poziom 1.** Do poziomu 2 PA 1.1 musiałby mieć **P**; ocena W wystarcza tylko na poziomie 1."
+  }
+}

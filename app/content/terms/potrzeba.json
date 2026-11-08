@@ -1,0 +1,94 @@
+{
+  "id": "potrzeba",
+  "en": "Stakeholder need",
+  "wymowa": "stejkhołder nid",
+  "wymowaAkcent": "STEJK-hoł-der nid",
+  "plEgzamin": "Potrzeba interesariusza",
+  "plPodrecznik": "Potrzeba interesariusza",
+  "plInne": [],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Potrzeba interesariusza",
+    "podrecznik": "Potrzeba interesariusza",
+    "kurs": "Potrzeba interesariusza (Stakeholder need)",
+    "uwaga": "Need – w zależności od kontekstu potrzeba interesariusza lub wymaganie. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 8, 13."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P2",
+  "wymaga": [
+    "interesariusz"
+  ],
+  "poLudzku": "Czego ktoś naprawdę chce albo potrzebuje od tego, co robimy.",
+  "wyobrazSobie": "Jak u lekarza: pacjent prosi o antybiotyk, ale lekarz dopytuje, ustala, że chodzi o to, żeby gardło przestało boleć, i dopiero do tego dobiera leczenie.",
+  "poCo": "Żeby wszystko, co robi organizacja i jej informatyka, wynikało z tego, czego naprawdę potrzebują interesariusze, a nie z gotowych pomysłów na rozwiązania.",
+  "jakDziala": "Interesariusze (stakeholders) mają potrzeby (stakeholder needs), które zmieniają się pod wpływem wyznaczników (drivers), np. nowych przepisów albo technologii. Ład ocenia i równoważy te często sprzeczne potrzeby w kategoriach realizacji korzyści, optymalizacji ryzyka i optymalizacji zasobów. Kaskada celów przekłada je potem na cele organizacji, cele związane z IT i cele aktywatorów.",
+  "dlaczegoWazne": "Zasada 1 COBIT 5 to „Realizacja potrzeb interesariusza”, a potrzeby są punktem wyjścia kaskady celów (wyznaczniki → potrzeby interesariuszy → cele organizacji). Na egzaminie trzeba odróżnić potrzebę od wyznacznika i znać jej miejsce w kaskadzie.",
+  "poziom1": "To, co ktoś naprawdę musi osiągnąć, a nie to, o co od razu prosi (np. prosi o nowy telefon, a potrzebuje baterii, która wytrzyma cały dzień). W COBIT 5 od potrzeb interesariuszy zaczyna się cała kaskada celów.",
+  "poziom2": "**Potrzeba** to stan, który ma zostać osiągnięty (np. „szybciej zadysponować zastęp”). **Oczekiwanie** to wyobrażenie, jak ma to wyglądać (np. „chcę nowy ekran z mapą”). W COBIT 5 potrzeby interesariuszy są punktem wyjścia kaskady celów. Ład musi je zrównoważyć, bo bywają sprzeczne – jedni chcą szybkiego zwrotu, inni bezpieczeństwa.",
+  "poziom3": "Rozdział 2 (s. 17): potrzeby interesariuszy muszą zostać przekształcone w strategię przedsiębiorstwa złożoną z konkretnych działań; na potrzeby wpływają wyznaczniki (zmiany strategii, otoczenia biznesowego i regulacyjnego, nowe technologie). Potrzeby są powiązane z trzema celami Ładu: realizacją korzyści, optymalizacją ryzyka i optymalizacją zasobów (Ilustracja 4).",
+  "przyklady": {
+    "zycie": "Mama mówi: „Kupmy nowy telefon, ten jest do niczego”. Przy kolacji okazuje się, że telefon pada o 15:00, a ona czeka wtedy na telefony ze szkoły. Potrzeba to bateria na cały dzień, a nie nowy model – wystarczy wymiana baterii za 150 zł.",
+    "biuro": "Pracownicy proszą kierownika o drugą drukarkę. Kierownik sprawdza, o co chodzi, i widzi, że rano wszyscy drukują raporty naraz i stoją w kolejce. Potrzeba to mieć raport na czas, a wystarczy przestawić automatyczne drukowanie raportów na noc.",
+    "firma": "Klientka cukierni prosi o „aplikację do zamawiania”. Właściciel dopytuje i słyszy, że chodzi o pewność, że tort urodzinowy będzie gotowy na sobotę na 14:00. Tę potrzebę spełnia zwykły formularz z potwierdzeniem SMS-em – aplikacja była tylko jej pomysłem na rozwiązanie.",
+    "admin": "Kierownik wydziału architektury w starostwie żąda „nowego systemu”. Na spotkaniu wychodzi, że pozwolenia czekają 30 dni, a powinny najwyżej 14, bo teczki krążą między pokojami. Potrzeba to krótszy czas obsługi wniosku – nowy system to tylko jeden ze sposobów.",
+    "psp": "Dyżurny SK prosi kierownika o większy monitor. Kierownik siada obok na godzinę i widzi, że dyżurny ciągle przełącza okna między mapą a statusami zastępów w SWD-PSP. Prawdziwa potrzeba to widzieć oba widoki naraz – wystarczy drugi monitor albo inny układ ekranu.",
+    "it": "Zarząd potrzebuje pewności, że organizacja przestrzega przepisów o ochronie danych. W kaskadzie celów ta potrzeba staje się celem organizacji „zgodność z zewnętrznymi przepisami”, potem celami związanymi z IT, a w procesach trafia m.in. do MEA03 (Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi)."
+  },
+  "glebokosc": {
+    "prosty": "Sąsiad prosi: „pożycz mi wiertarkę”. Tak naprawdę chce powiesić półkę, a do tego wystarczą mu kołki i mocny klej montażowy. Wiertarka to jego pomysł na rozwiązanie, a potrzeba to wisząca półka.",
+    "zaawansowany": "St. ogn. Kasia Nowik mówi na naradzie, że chce „większy przycisk alarmu” w Syrenie. Kpt. Sikora dopytuje i słyszy, że chodzi o to, by w nocy nie wysłać alarmu do złej OSP. Prawdziwa potrzeba to pewność, że alarm trafia do właściwej jednostki, a przycisk był tylko oczekiwaniem. Ta potrzeba [[interesariusz|interesariusza]] jest początkiem [[kaskada-celow|kaskady celów]] i przekłada się na [[cele-organizacji|cele organizacji]]. Bryg. Wrzos musi ją zrównoważyć z potrzebą Haliny Mak, która pilnuje budżetu.",
+    "skrajny": "Inspektor Ostrowska zapowiada nowe wymagania cyberbezpieczeństwa dla systemów powiadamiania. Kusi, by nazwać to „potrzebą interesariusza”, bo komenda czegoś teraz potrzebuje. W COBIT 5 nowe przepisy to [[wyznacznik]] (driver), czyli przyczyna, która **zmienia** potrzeby. Potrzebą jest dopiero stan, który interesariusze chcą osiągnąć, np. „spełnić wymogi bez przerw w działaniu Syreny”. Te same przepisy mogą być też zdarzeniem wyzwalającym wdrożenie – to trzecia perspektywa, z modułu Wdrożenie. **Rozstrzygnięcie:** w kaskadzie najpierw wyznacznik (co się zmieniło), potem potrzeba (co chcemy osiągnąć), potem cele organizacji; gotowe rozwiązanie („kupmy firewall”) nie jest potrzebą, tylko oczekiwaniem (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Potrzeba to to, o co interesariusz prosi.",
+      "prawda": "Prośba to często gotowe rozwiązanie, czyli oczekiwanie. Potrzeba to stan, który chce osiągnąć – dojdziesz do niej, pytając „po co?”."
+    },
+    {
+      "mit": "Nowa ustawa to potrzeba interesariusza.",
+      "prawda": "Ustawa to wyznacznik, który wpływa na potrzeby. Potrzebą jest np. zgodność z ustawą przy zachowaniu działania usług."
+    },
+    {
+      "mit": "Potrzeby wszystkich interesariuszy da się spełnić naraz.",
+      "prawda": "Potrzeby bywają sprzeczne, np. szybki zwrot kontra bezpieczeństwo. Ład musi je zrównoważyć przez korzyści, ryzyko i zasoby."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Branie prośby za potrzebę i mylenie potrzeby z wyznacznikiem.",
+    "jakTlumaczyc": "Technika „po co?”: zapisz prośbę i pytaj „po co?”, aż dojdziesz do stanu, który da się sprawdzić. Potem pokaż kaskadę od lewej: wyznacznik → potrzeba → cel organizacji.",
+    "pytanieKontrolne": "Komendantka mówi: „Potrzebujemy nowego serwera, bo wchodzi rozporządzenie”. Rozłóż to zdanie na wyznacznik, potrzebę i oczekiwanie.",
+    "odpowiedzKontrolna": "Wyznacznik: rozporządzenie (zmiana otoczenia regulacyjnego). Potrzeba: spełnić wymogi przy działającym systemie. Oczekiwanie: nowy serwer – jeden z możliwych sposobów. Potrzeba przechodzi dalej w cele organizacji."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Oczekiwanie",
+      "roznica": "Oczekiwanie to proponowany sposób; potrzeba to cel, który za nim stoi. COBIT zaczyna od potrzeb, nie od gotowych rozwiązań."
+    },
+    {
+      "termin": "wyznacznik",
+      "roznica": "Wyznacznik (driver) to przyczyna zmiany potrzeby (np. nowa ustawa), a nie sama potrzeba."
+    }
+  ],
+  "przykladWypowiedzi": "Stakeholder needs, czyli potrzeby interesariuszy, są punktem wyjścia kaskady celów: drivers (wyznaczniki) je zmieniają, Ład je równoważy, a kaskada przekłada je na enterprise goals (cele organizacji).",
+  "egzamin": "W kaskadzie: wyznaczniki → potrzeby interesariuszy → **cele organizacji** (Ilustracja 4).",
+  "powiazane": [
+    "interesariusz",
+    "wyznacznik",
+    "kaskada-celow",
+    "cele-organizacji"
+  ],
+  "sylabus": [
+    "M0-00-02",
+    "PR-02-03"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 17,
+      "cytat": "Potrzeby interesariuszy muszą zostać przekształcone w składającą się z konkretnych działań strategię przedsiębiorstwa."
+    }
+  ],
+  "mapa": "potrzeby-interesariuszy"
+}

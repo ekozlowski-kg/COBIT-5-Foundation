@@ -1,0 +1,105 @@
+{
+  "id": "produkt-pracy",
+  "en": "Work product",
+  "wymowa": "łerk prodakt",
+  "wymowaAkcent": "łerk PRO-dakt",
+  "plEgzamin": "Produkt pracy",
+  "plPodrecznik": "Produkt działań",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Produkt pracy",
+    "podrecznik": "Produkt działań",
+    "kurs": "Produkt pracy (Work product)",
+    "uwaga": "Egzamin PL: „Produkt pracy”; podręcznik PL: „Produkt działań” – konkurencyjne odpowiedniki. Formy „produkt pracy” nie ma ani w SP1, ani w zestawieniu Altkom; podręcznik: „produkty działań”. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 28, 29, 30."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „produkty działań”. Kurs: „produkty pracy” (nazwy egzaminacyjnej nie potwierdziliśmy w arkuszu). Produkt pracy to nie towar dla klienta. W COBIT 5 odpowiadają mu wejścia i wyjścia praktyk.",
+  "skadNazwa": "Z angielskiego *work product*: wszystko, co powstaje albo jest używane przy pracy. Podręcznik pisze „produkty działań”.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "pojecia-iso15504",
+    "praktyki-dzialania"
+  ],
+  "poziom1": "Artefakt związany z wykonywaniem procesu: dokument, rejestr, plik, raport. W COBIT 5 odpowiadają mu wejścia i wyjścia praktyk. Na poziomie 1 jest dowodem, że praktyki są stosowane, a na poziomie 2 musi być pod kontrolą (PA 2.2).",
+  "poLudzku": "Papier, plik albo wpis, który powstaje przy tej robocie albo jest do niej potrzebny.",
+  "wyobrazSobie": "Teczka z dokumentami sprawy: wniosek, notatki, decyzja.",
+  "poCo": "Żeby było na czym oprzeć ocenę: dokumenty i pliki pokazują, że praca naprawdę się odbyła.",
+  "jakDziala": "Produkty pracy to wejścia i wyjścia praktyk. Na poziomie 1 asesor sprawdza, czy istnieją i potwierdzają wykonanie. Na poziomie 2 sprawdza, czy są pod kontrolą (PA 2.2).",
+  "dlaczegoWazne": "Egzamin pyta, czemu w COBIT 5 odpowiadają produkty pracy. Kursant musi też odróżnić produkt pracy od rezultatu.",
+  "poziom2": "| Poziom | Co z produktem pracy |\n|---|---|\n| 1 ([[pa-1-1|PA 1.1]]) | **istnieje** i dowodzi wykonania |\n| 2 ([[pa-2-2|PA 2.2]]) | jest **określony, kontrolowany i utrzymywany** |\n\nProduktem pracy jest zarówno **wyjście** (raport), jak i **wejście** (zgłoszenie z CPR 112). W ocenie produkty pracy pomagają doprecyzować, w jakim stopniu osiągnięto atrybut (s. 45).",
+  "poziom3": "(s. 43): model referencyjny zawiera *„produkty działań, stanowiące odpowiednik danych wejściowych i wyników w kategoriach stosowanych w metodyce COBIT 5”*. (s. 45): można *„uwzględnić produkty działań w celu ustalenia stopnia, w jakim osiągnięto dany atrybut oceny”*.",
+  "przyklady": {
+    "zycie": "Gotujesz obiad. Lista zakupów to wejście, a jadłospis na lodówce to wyjście. Oba są produktami pracy procesu „gotowanie”. Sam obiad na stole to rezultat.",
+    "biuro": "W obiegu dokumentów produkty pracy to wpływające pismo (wejście), wpis w dzienniku korespondencji i potwierdzenie odbioru (wyjścia).",
+    "organizacja": "W procesie reklamacji produkty pracy to formularz reklamacji (wejście), notatka z oceny i pismo z decyzją (wyjścia). Asesor ogląda je jako dowody.\n\nW procesie wydawania pozwoleń produkty pracy to wniosek, opinie i decyzja. Kontrola przegląda je, żeby ocenić, czy kroki zostały wykonane.",
+    "psp": "**Teczka dowodów.** Audytorka Ewa Lis prosi o produkty pracy procesu powiadamiania. Dostaje zgłoszenie z CPR 112 (wejście), log wysyłki z Syreny i raport potwierdzeń (wyjścia) oraz listę numerów OSP. Każdy z nich dowodzi, że kroki zostały wykonane. Czy są pod kontrolą, Lis oceni dopiero w PA 2.2.",
+    "it": "W procesie APO12 produktem pracy jest np. profil ryzyka i rejestr ryzyk (wyjścia praktyk), a także dane o zdarzeniach (wejście). Asesor ogląda je jako dowody wykonania praktyk."
+  },
+  "glebokosc": {
+    "prosty": "Robisz remont łazienki. Projekt na kartce, faktura za płytki i zdjęcia „przed i po” to produkty pracy. Pokazują, co się działo. Sama nowa łazienka to efekt, a nie produkt pracy.",
+    "zaawansowany": "Ewa Lis zbiera produkty pracy procesu powiadamiania: zgłoszenia, logi Syreny, listę numerów. Na [[poziom-1|poziomie 1]] wystarczy, że istnieją i potwierdzają [[praktyka-bazowa|praktyki bazowe]]. Na [[poziom-2|poziomie 2]] Lis zapyta, czy są kontrolowane i aktualne ([[pa-2-2|PA 2.2]]). W COBIT 5 produktom pracy odpowiadają [[praktyki-dzialania|wejścia i wyjścia praktyk]].",
+    "skrajny": "Sikora mówi: „Produktem procesu powiadamiania jest zaalarmowana jednostka”. Lis poprawia: to rezultat, a nie produkt pracy, który jest artefaktem, np. logiem czy listą. Druga pułapka: zgłoszenie z CPR 112 przychodzi z zewnątrz, więc Grab nie uważa go za „produkt”. A jednak wejście też jest produktem pracy, bo odpowiada wejściu praktyki. Trzecia: lista numerów sprzed dwóch lat istnieje, więc jest dowodem dla PA 1.1, a jej przestarzałość obciąża PA 2.2. **Rozstrzygnięcie:** produkt pracy = artefakt wejścia albo wyjścia. Na poziomie 1 liczy się jego istnienie jako dowód, na poziomie 2 jego kontrola (interpretacja kursu według PAM)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Produkt pracy to produkt albo usługa dla klienta.",
+      "prawda": "To artefakt procesu: dokument, rejestr, plik. Efekt dla klienta to raczej rezultat."
+    },
+    {
+      "mit": "Produktami pracy są tylko wyjścia.",
+      "prawda": "Framework mówi o odpowiedniku danych wejściowych i wyników (s. 43). Wejścia też się liczą."
+    },
+    {
+      "mit": "Samo istnienie produktów pracy daje poziom 2.",
+      "prawda": "Istnienie to dowód dla poziomu 1. Poziom 2 wymaga, żeby były określone, kontrolowane i utrzymywane (PA 2.2)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli produkt pracy z rezultatem albo uznaje za produkty pracy tylko wyjścia.",
+    "jakTlumaczyc": "Zapytaj: „Czy można to włożyć do teczki?”. Jeśli tak, to produkt pracy. Potem: „Czy to weszło do procesu, czy z niego wyszło?”. Liczą się oba warianty.",
+    "pytanieKontrolne": "Czemu w COBIT 5 odpowiadają produkty pracy i czym różni się ich rola na poziomie 1 i 2?",
+    "odpowiedzKontrolna": "Wejściom i wyjściom praktyk. Na poziomie 1 muszą istnieć jako dowód, a na poziomie 2 być określone, kontrolowane i utrzymywane (PA 2.2)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "rezultat-procesu",
+      "roznica": "Rezultat to stan, który widać, gdy proces działa. Produkt pracy to artefakt, który może ten stan potwierdzać."
+    },
+    {
+      "termin": "pa-2-2",
+      "roznica": "PA 2.2 to atrybut, który sprawdza, czy produkty pracy są pod kontrolą. Produkt pracy to sam artefakt."
+    },
+    {
+      "termin": "rezultat",
+      "roznica": "Hasło „Rezultat” (*output*) to to, co bezpośrednio powstało z pracy. Pokrywa się z wyjściami, ale produkty pracy obejmują też wejścia."
+    }
+  ],
+  "przykladWypowiedzi": "Work products, czyli produkty pracy (w podręczniku: produkty działań), odpowiadają w COBIT 5 inputs and outputs, czyli wejściom i wyjściom praktyk.",
+  "egzamin": "Odpowiednikiem **produktów pracy** w COBIT 5 są **wejścia i wyjścia**. Razem z praktykami bazowymi to wskaźniki wymiaru procesu.",
+  "powiazane": [
+    "pojecia-iso15504",
+    "praktyka-bazowa",
+    "pa-2-2",
+    "wymiar-procesu"
+  ],
+  "sylabus": [
+    "PC-01-04",
+    "PC-02-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "produkty działań, stanowiące odpowiednik danych wejściowych i wyników"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "można również uwzględnić produkty działań w celu ustalenia stopnia, w jakim osiągnięto dany atrybut oceny"
+    }
+  ],
+  "mapa": "produkt-pracy"
+}

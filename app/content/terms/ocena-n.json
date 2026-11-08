@@ -1,0 +1,102 @@
+{
+  "id": "ocena-n",
+  "en": "N – Not achieved (0–15%)",
+  "wymowa": "en not acziwd",
+  "wymowaAkcent": "en not a-CZIWD",
+  "plEgzamin": "N – Nieosiągnięty",
+  "plPodrecznik": "N – nie osiągnięto",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "N – Nieosiągnięty",
+    "podrecznik": "N – nie osiągnięto",
+    "kurs": "N – Nieosiągnięty (N – Not achieved)",
+    "uwaga": "Egzamin PL: „N – Nieosiągnięty”; podręcznik PL: „N – nie osiągnięto” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom. Forma podręcznika: FW-PL s. 44, 45; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "skala-ocen",
+    "atrybuty-procesu"
+  ],
+  "poLudzku": "Prawie nic: śladów, że to się dzieje, nie ma albo jest tylko kilka.",
+  "wyobrazSobie": "Pytasz, czy dziecko ćwiczy na pianinie. Zeszyt ćwiczeń jest pusty, poza jedną stroną sprzed roku.",
+  "poziom1": "Najniższa ocena w [[skala-ocen|skali ocen]] atrybutu procesu: 0–15% osiągnięcia. Nie ma dowodów, że atrybut jest osiągany, albo jest ich znikoma liczba.",
+  "poziom2": "| Egzamin PL | EN | Podręcznik PL | Próg |\n|---|---|---|---|\n| N – Nieosiągnięty | N – Not achieved | N – nie osiągnięto | 0–15% |\n| C – Częściowy | **P** – Partially | P – częściowo osiągnięto | >15–50% |\n| W – Większościowy | L – Largely | L – w znacznym stopniu osiągnięto | >50–85% |\n| **P** – Pełny | F – Fully | F – w pełni osiągnięto | >85–100% |\n\n**Brzegi przedziałów:** dokładnie 15% to jeszcze N, dokładnie 50% to jeszcze C, a dokładnie 85% to jeszcze W. Granica należy do niższej oceny – to konwencja normy ISO/IEC 15504-2 (zapis „>15%”, „>50%”, „>85%”; status: uproszczenie), a nie tekst FW-PL. Podręcznik PL (s. 45) podaje tylko „0–15%, 15–50%, 50–85%, 85–100%” i nie rozstrzyga, do której oceny należą krańce.\n\nN na PA 1.1 oznacza, że proces ma **poziom 0** (proces niekompletny). N na atrybucie wyższego poziomu nie obniża poziomu, który proces już osiągnął.",
+  "poziom3": "(s. 45): *„N (nie osiągnięto) — na tym poziomie nie istnieją dowody osiągania zdefiniowanego atrybutu w ocenianym procesie lub ich liczba jest znikoma. (uzyskanie 0–15%)”*. Litera N jest taka sama po angielsku, w podręczniku i na egzaminie.",
+  "poCo": "Żeby asesor mógł jedną literą zapisać, że atrybutu prawie nie ma. To dolny stopień skali N/C/W/P.",
+  "jakDziala": "Asesor zbiera dowody dla jednego atrybutu procesu. Gdy osiągnięcie wynosi 0–15%, wpisuje N – Nieosiągnięty. Dokładnie 15% to jeszcze N (konwencja ISO/IEC 15504-2, nie tekst FW-PL).",
+  "dlaczegoWazne": "N na PA 1.1 oznacza poziom 0, czyli proces niekompletny. Egzamin sprawdza też granicę 15%.",
+  "przyklady": {
+    "zycie": "Sprawdzasz, czy syn odrabia lekcje sam. Przez miesiąc zrobił to raz, po trzech przypomnieniach. To N: śladu prawie nie ma.",
+    "biuro": "Sprawdzasz, czy pisma przychodzące są wpisywane do rejestru. Na sto pism wpisane są dwa. To N.",
+    "organizacja": "W hurtowni jest jedna kopia zapasowa sprzed roku i nikt nie wie, gdzie leży. W urzędzie gminy na sto spraw tylko dwie zarejestrowano w terminie. W obu przypadkach ocena to N.",
+    "psp": "**Kopie, których nie było**\nAudytorka Ewa Lis sprawdza proces kopii zapasowych Syreny. Znajduje jedną kopię z jesieni, a odtwarzania nikt nigdy nie próbował. PA 1.1 dostaje N, więc proces ma poziom 0. To ocena [[ocena-n|N – Nieosiągnięty]].",
+    "it": "Asesor ocenia PA 1.1 dla DSS04. Planu ciągłości nie ma, są tylko stare kopie zapasowe. Ocena N oznacza poziom 0."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "ocena-c",
+      "roznica": "N to 0–15%: dowodów brak albo są znikome. C to >15–50%: są pewne dowody częściowego osiągnięcia."
+    },
+    {
+      "termin": "poziomy-zdolnosci",
+      "roznica": "N to ocena jednego atrybutu. Poziom 0 to wynik całego procesu, gdy PA 1.1 nie osiąga co najmniej W."
+    }
+  ],
+  "przykladWypowiedzi": "N – Not achieved, czyli N – Nieosiągnięty, oznacza 0–15% osiągnięcia atrybutu procesu.",
+  "egzamin": "N = **Nieosiągnięty**, **0–15%**. Dokładnie 15% to wciąż N – według konwencji ISO/IEC 15504-2 (uproszczenie); FW-PL s. 45 podaje tylko „0–15%, 15–50%” bez rozstrzygnięcia krańców. N na PA 1.1 → poziom 0.",
+  "powiazane": [
+    "skala-ocen",
+    "ocena-c",
+    "ocena-w",
+    "ocena-p",
+    "atrybuty-procesu",
+    "poziomy-zdolnosci"
+  ],
+  "sylabus": [
+    "PC-01-03",
+    "PC-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "N (nie osiągnięto) — na tym poziomie nie istnieją dowody osiągania zdefiniowanego atrybutu w ocenianym procesie lub ich liczba jest znikoma. (uzyskanie 0–15%)"
+    },
+    {
+      "doc": "SYL"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "ocena-n",
+  "glebokosc": {
+    "prosty": "Sprawdzasz, czy sąsiad podlewa Twoje kwiatki podczas urlopu. Wracasz po dwóch tygodniach i ziemia jest sucha. Może raz podlał, może wcale. To ocena N: prawie nic.",
+    "zaawansowany": "Lis ocenia PA 1.1 procesu kopii zapasowych. Znajduje pojedynczą kopię i brak testów odtwarzania, więc daje N. Według [[skala-ocen|skali ocen]] to 0–15%. Proces nie ma nawet poziomu 1, bo PA 1.1 musiałby mieć co najmniej [[ocena-w|W]]. Wynik to poziom 0, czyli proces niekompletny.",
+    "skrajny": "Lis liczy dowody i wychodzi jej dokładnie 15%. Dudek protestuje: „Coś przecież robimy, to już Częściowy!”. Skala ma jednak przedziały 0–15% dla N i >15–50% dla C, więc granica należy do N. Druga zagadka: proces powiadamiania ma poziom 2, a PA 3.1 dostaje N. Czy to obniża ocenę? Nie, N na wyższym atrybucie oznacza tylko, że poziomu 3 brak. **Rozstrzygnięcie:** dokładnie 15% = N (konwencja ISO/IEC 15504-2, nie tekst FW-PL); N na atrybucie wyższego poziomu nie odbiera poziomu już osiągniętego."
+  },
+  "zagmatwania": [
+    {
+      "mit": "N oznacza zero, czyli zupełny brak dowodów.",
+      "prawda": "N obejmuje też znikome dowody, do 15% włącznie (konwencja ISO/IEC 15504-2, nie tekst FW-PL)."
+    },
+    {
+      "mit": "Każda ocena N obniża poziom procesu do 0.",
+      "prawda": "Do poziomu 0 prowadzi tylko PA 1.1 poniżej W. N na wyższym atrybucie blokuje jedynie wyższy poziom."
+    },
+    {
+      "mit": "Dokładnie 15% to już C.",
+      "prawda": "C zaczyna się powyżej 15%. Dokładnie 15% to N (konwencja ISO/IEC 15504-2, nie tekst FW-PL)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń sądzi, że N to „zero” i że każde N cofa proces do poziomu 0.",
+    "jakTlumaczyc": "N to „pusta szuflada albo prawie pusta”. Liczy się, w której szufladzie (atrybucie) leży: tylko pusta szuflada PA 1.1 daje poziom 0.",
+    "pytanieKontrolne": "Asesor ocenia PA 1.1 na 15%. Jaka to ocena i jaki poziom ma proces?",
+    "odpowiedzKontrolna": "**N** (0–15%, granica należy do N wg konwencji ISO/IEC 15504-2). Proces ma **poziom 0**, bo PA 1.1 nie osiąga co najmniej W."
+  }
+}

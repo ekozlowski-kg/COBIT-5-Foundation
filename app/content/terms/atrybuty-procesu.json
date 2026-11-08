@@ -1,0 +1,94 @@
+{
+  "id": "atrybuty-procesu",
+  "en": "Process attributes (PA)",
+  "wymowa": "prołses etribjuts",
+  "wymowaAkcent": "PROŁ-ses E-tri-bjuts",
+  "plEgzamin": "Atrybuty procesu",
+  "plPodrecznik": "Atrybuty potencjału procesu",
+  "mapa": "atrybuty-procesu",
+  "pulapka": true,
+  "pulapkaOpis": "Nazwy atrybutów różnią się: podręcznik PA 1.1 „Sprawność procesu”, PA 2.1 „Zarządzanie sprawnością”, PA 2.2 „Zarządzanie produktami działań”, PA 4.1 „Pomiar procesu”. Na egzaminie: „Zarządzanie wydajnością” (2.1), „Miara procesu” (4.1).",
+  "poLudzku": "Dziewięć rzeczy, które sprawdza oceniający, żeby powiedzieć, jak dobrze coś robimy, od „robimy” po „ciągle poprawiamy”.",
+  "wyobrazSobie": "Egzamin na kolejny stopień w karate: na każdym stopniu sprawdza się jedną lub dwie konkretne umiejętności, a wyższy stopień dostajesz dopiero wtedy, gdy niższe opanowałeś w pełni.",
+  "poCo": "Żeby ocena zdolności procesu opierała się na konkretnych, mierzalnych cechach, a nie na wrażeniu oceniającego. Atrybuty mówią, co dokładnie trzeba sprawdzić na każdym poziomie.",
+  "jakDziala": "Model zdolności procesu COBIT 5 (oparty na ISO/IEC 15504) ma 9 atrybutów procesu (process attributes, PA): PA 1.1 na poziomie 1 i po dwa na poziomach 2–5. Każdy atrybut ocenia się w skali N/C/W/P: nieosiągnięty, częściowy, większościowy, pełny (N/P/L/F). Poziom jest osiągnięty, gdy jego atrybuty mają co najmniej W, a wszystkie atrybuty niższych poziomów mają P.",
+  "dlaczegoWazne": "Na egzaminie pada zadanie: są oceny atrybutów, wskaż poziom zdolności procesu. Trzeba też wiedzieć, że poziom 1 ma jeden atrybut (PA 1.1 Wykonanie procesu), a poziomy 2–5 po dwa.",
+  "skadNazwa": "Pochodzą z normy ISO/IEC 15504 (*process attributes*). Podręcznik mówi „atrybuty potencjału”, a egzamin „atrybuty procesu”. Nazwy pojedynczych atrybutów też się różnią, np. 2.1: „Zarządzanie wydajnością”.",
+  "poziom1": "Dziewięć „punktów kontrolnych”, po których oceniający sprawdza, jak dojrzale działa proces (np. czy w ogóle daje efekt, czy ktoś go planuje, czy jest spisany standard, czy się go mierzy). Od ich ocen zależy poziom zdolności 1–5.",
+  "poziom2": "| Poziom | Atrybuty |\n|---|---|\n| 1 | **PA 1.1** Wykonanie procesu (performance) |\n| 2 | **PA 2.1** Zarządzanie wydajnością · **PA 2.2** Zarządzanie produktami pracy |\n| 3 | **PA 3.1** Definicja procesu · **PA 3.2** Wdrożenie procesu |\n| 4 | **PA 4.1** Pomiar (miara) procesu · **PA 4.2** Kontrola procesu |\n| 5 | **PA 5.1** Innowacja procesu · **PA 5.2** Optymalizacja procesu |\n\nSkojarzenie: **1 – robi; 2 – zarządza (wydajnością i produktami); 3 – definiuje i wdraża standard; 4 – mierzy i kontroluje; 5 – innowuje i optymalizuje**.",
+  "poziom3": "Słownik (s. 93): atrybut procesu to *„mierzalna cecha potencjału procesu odnosząca się do każdego procesu”* (ISO/IEC 15504). Ilustracja 19 (s. 42).",
+  "przyklady": {
+    "zycie": "Pieczesz sernik. Najpierw liczy się, czy w ogóle wyszedł (PA 1.1), potem czy planujesz czas i zakupy (PA 2.1) i czy przepis jest zapisany i poprawiany (PA 2.2). Dalej: czy cała rodzina piecze z tej samej spisanej wersji (PA 3.1, 3.2), czy mierzycie wynik i reagujecie, gdy coś odbiega od normy (PA 4.1, 4.2), i czy szukacie lepszego przepisu i go wprowadzacie (PA 5.1, 5.2). Każde z tych pytań to jeden atrybut procesu.",
+    "biuro": "Kierowniczka ocenia obieg faktur w biurze. Faktury wychodzą (PA 1.1), ktoś planuje terminy i pilnuje, kto je wystawia (PA 2.1), a faktura ma wzór i jest sprawdzana przed wysyłką (PA 2.2). Każde z tych pytań to osobny atrybut, a odpowiedzi decydują o poziomie zdolności.",
+    "firma": "Audytor przychodzi do warsztatu samochodowego i ocenia przyjmowanie aut do naprawy. Sprawdza po kolei: czy auta są przyjmowane i naprawiane (PA 1.1), czy ktoś planuje terminy i pilnuje, kto co robi (PA 2.1), czy karta zlecenia ma wzór i jest sprawdzana (PA 2.2). Każde takie pytanie to osobny atrybut, a ich oceny dają poziom zdolności.",
+    "admin": "Szkoła ocenia proces zapisów do pierwszej klasy. Zapisy się odbywają (PA 1.1), dyrektor planuje terminy i wyznacza osoby (PA 2.1), formularze mają jeden wzór i są sprawdzane (PA 2.2), ale każda sekretarka przyjmuje je trochę inaczej, więc PA 3.1 i 3.2 wypadają słabo. Atrybuty pokazują, na którym poziomie proces się zatrzymał.",
+    "psp": "Zespół z KW PSP ocenia przyjmowanie zgłoszeń w SK. Zgłoszenia są obsługiwane (PA 1.1), kierownik SK planuje obsadę dyżurów i pilnuje terminów (PA 2.1), karty zdarzeń mają wzór i są sprawdzane po każdej zmianie (PA 2.2). Każda zmiana pracuje jednak według własnych nawyków, bez wspólnej spisanej procedury, więc PA 3.1 i 3.2 wypadają słabo i proces zostaje na poziomie 2.",
+    "it": "Ewa Lis ocenia proces DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami: PA 1.1 = P, PA 2.1 = W, PA 2.2 = W, PA 3.1 = C. Proces osiąga poziom 2, bo PA 1.1 jest pełny, a atrybuty poziomu 2 mają co najmniej W; poziom 3 wymagałby P na PA 2.1 i PA 2.2."
+  },
+  "glebokosc": {
+    "prosty": "Ocena restauracji to nie jedno „smakuje albo nie”. Najpierw sprawdzasz, czy w ogóle podają jedzenie. Potem, czy ktoś planuje zamówienia, czy jest spisana receptura, czy mierzą czas wydania i czy coś ulepszają. Każde takie sprawdzenie to osobny punkt oceny.",
+    "zaawansowany": "Ewa Lis ocenia proces powiadamiania w komendzie. Przy każdym atrybucie stawia literę ze [[skala-ocen|skali N/C/W/P]]. PA 1.1 dostaje P, bo alarmy dochodzą. PA 2.1 dostaje W: Sikora planuje dyżury, ale nie zawsze koryguje plan. PA 2.2 dostaje C, bo nikt nie przegląda raportów z alarmów. Według reguły [[poziomy-zdolnosci|poziomów zdolności]] proces ma poziom 1, bo C na PA 2.2 to za mało na poziom 2.",
+    "skrajny": "Proces ma oceny: PA 1.1 = W, PA 2.1 = P, PA 2.2 = P, PA 3.1 = P, PA 3.2 = W. Intuicja podpowiada poziom 3, bo prawie wszystko jest pełne. Reguła mówi jednak: poziom osiąga się, gdy jego atrybuty mają co najmniej W, a wszystkie atrybuty niższych poziomów mają P. PA 1.1 ma tylko W, więc blokuje poziomy 2 i 3, i proces jest na poziomie 1. Druga pułapka: na egzaminie PL litera P znaczy „Pełny”, a w podręczniku (skala N/P/L/F) P znaczy „częściowo”. **Rozstrzygnięcie:** licz od dołu i zatrzymaj się na pierwszym niższym atrybucie bez P; poziom n wymaga W lub P na atrybutach poziomu n i P na wszystkich atrybutach niższych."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wystarczy, że atrybuty danego poziomu mają W, i poziom jest osiągnięty.",
+      "prawda": "Wszystkie atrybuty niższych poziomów muszą mieć P (Pełny). Przy W na niższym poziomie wyżej nie wejdziesz (s. 42)."
+    },
+    {
+      "mit": "Każdy poziom ma po dwa atrybuty.",
+      "prawda": "Poziom 1 ma jeden atrybut (PA 1.1), poziomy 2–5 po dwa, razem 9 (1 + 2 + 2 + 2 + 2). Poziom 0 nie ma atrybutów."
+    },
+    {
+      "mit": "Atrybuty opisują kroki konkretnego procesu, np. obsługi zgłoszenia.",
+      "prawda": "Treść procesu opisuje tylko poziom 1 (cel i wyniki). Atrybuty poziomów 2–5 są ogólne i takie same dla każdego procesu (s. 43)."
+    },
+    {
+      "mit": "„Zarządzanie wydajnością” i „Zarządzanie sprawnością” to dwa różne atrybuty.",
+      "prawda": "To jeden atrybut PA 2.1: egzamin mówi „Zarządzanie wydajnością”, podręcznik „Zarządzanie sprawnością”."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Liczenie poziomu „ze średniej” albo od góry zamiast od dołu, z regułą P na niższych poziomach.",
+    "jakTlumaczyc": "Schody: na kolejny stopień wolno wejść, gdy wszystkie poprzednie są całkowicie zbudowane (P). Stopień, na którym stoisz, może być zbudowany „w większości” (W). Każ uczniowi iść od PA 1.1 w górę i zatrzymać się na pierwszym braku.",
+    "pytanieKontrolne": "PA 1.1 = P, PA 2.1 = P, PA 2.2 = W, PA 3.1 = W, PA 3.2 = W. Jaki to poziom i dlaczego nie 3?",
+    "odpowiedzKontrolna": "Poziom 2. Atrybuty poziomu 2 mają co najmniej W, a PA 1.1 ma P. Poziom 3 wymagałby P na PA 2.1 i PA 2.2, a PA 2.2 ma tylko W."
+  },
+  "egzamin": "Do zapamiętania: **9 atrybutów, 1 + 2 + 2 + 2 + 2**. Pytanie o atrybut poziomu 4 → **pomiar (miara)** i **kontrola** procesu. Poziom 2 → **zarządzanie wydajnością** i **zarządzanie produktami pracy**.",
+  "powiazane": [
+    "poziomy-zdolnosci",
+    "skala-ocen"
+  ],
+  "sylabus": [
+    "PC-01-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "ISO/IEC 15504: Mierzalna cecha potencjału procesu odnosząca się do każdego procesu."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Atrybuty procesu",
+    "podrecznik": "Atrybuty potencjału procesu",
+    "kurs": "Atrybuty procesu (Process attributes)",
+    "uwaga": "Egzamin PL: „Atrybuty procesu”; podręcznik PL: „Atrybuty potencjału procesu” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 30, 42, 43."
+  },
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "proces",
+    "model-zdolnosci"
+  ],
+  "nieMylicZ": [],
+  "przykladWypowiedzi": "Process attribute, czyli atrybut procesu, to mierzalna cecha zdolności procesu; PA 1.1 Process Performance ocenia się w skali N/C/W/P (N/P/L/F), a poziom 2 wymaga oceny P dla PA 1.1 i co najmniej W dla PA 2.1 i PA 2.2."
+}

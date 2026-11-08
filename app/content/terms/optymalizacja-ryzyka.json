@@ -1,0 +1,100 @@
+{
+  "id": "optymalizacja-ryzyka",
+  "en": "Risk Optimisation",
+  "wymowa": "risk optimajzejszyn",
+  "wymowaAkcent": "risk op-ti-maj-ZEJ-szyn",
+  "plEgzamin": "Optymalizacja ryzyka",
+  "plPodrecznik": "Optymalizacja ryzyka",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Optymalizacja ryzyka",
+    "podrecznik": "Optymalizacja ryzyka",
+    "kurs": "Optymalizacja ryzyka (Risk Optimisation)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 14, 17, 18."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "ryzyko",
+    "lad"
+  ],
+  "poLudzku": "Pilnowanie, żeby zagrożeń nie było więcej, niż szefostwo jest gotowe znieść.",
+  "wyobrazSobie": "Zamki i polisa dla mieszkania: włamania nie wykluczysz, więc dobierasz zabezpieczenia i ubezpieczenie do ryzyka, które jesteś gotów znieść, zamiast zamurować drzwi.",
+  "poCo": "Żeby ryzyko związane z IT utrzymać na akceptowalnym poziomie, czyli w granicach apetytu na ryzyko, a nie próbować go wyeliminować, co zablokowałoby działanie.",
+  "jakDziala": "Ryzyko się rozpoznaje, szacuje jego wpływ i prawdopodobieństwo, a potem wybiera strategię: unikanie (avoidance), ograniczanie (mitigation) albo transfer (transfer), i zarządza nim w kontekście apetytu na ryzyko (risk appetite). Apetyt na ryzyko ustala i monitoruje Ład w EDM03 (Zapewnienie optymalizacji ryzyka), a bieżące zarządzanie ryzykiem prowadzi Zarządzanie w APO12 (Zarządzanie ryzykiem). Razem z realizacją korzyści i optymalizacją zasobów tworzy cel Ładu: tworzenie wartości.",
+  "dlaczegoWazne": "To jeden z trzech składników celu Ładu (tworzenie wartości), więc wraca przy zasadzie 1 i przy EDM03. Na egzaminie odpowiedź „wyeliminować ryzyko” jest zawsze błędna; poprawnie: „utrzymać ryzyko na akceptowalnym poziomie”.",
+  "poziom1": "Nie chodzi o to, żeby ryzyka nie było, tylko żeby było rozsądne i pod kontrolą: rozpoznajesz je, oceniasz, jak bardzo grozi, i decydujesz, czy go unikasz, ograniczasz, czy przerzucasz na kogoś (np. ubezpieczenie). To jeden z trzech celów Ładu, obok realizacji korzyści i optymalizacji zasobów.",
+  "poziom2": "Optymalizacja ryzyka to: **rozpoznać** ryzyko, **oszacować** jego wpływ i prawdopodobieństwo, wybrać **strategię** (unikanie, ograniczanie, transfer) i zarządzać nim **w granicach apetytu na ryzyko** organizacji. „Optymalny” oznacza „rozsądny”, a nie zerowy. Zero ryzyka zwykle oznacza zero działania.",
+  "poziom3": "Definicja (Załącznik H): *„Jeden z celów nadzoru. Wiąże się z rozpoznawaniem ryzyka, oszacowaniem wpływu i prawdopodobieństwa takiego ryzyka oraz opracowaniem strategii, takich jak unikanie ryzyka, ograniczanie negatywnego wpływu ryzyka i/lub transfer ryzyka oraz zarządzanie nim w kontekście apetytu na ryzyko w przedsiębiorstwie.”*",
+  "przyklady": {
+    "zycie": "Codziennie jeździsz samochodem do pracy, choć wiesz, że może zdarzyć się stłuczka. Zapinasz pasy (ograniczasz skutki), kupujesz AC (przerzucasz koszt na ubezpieczyciela), a po weselu kuzyna nie siadasz za kierownicę (unikasz). Ryzyko nie spada do zera, ale jest na poziomie, z którym możesz żyć – to optymalizacja ryzyka.",
+    "biuro": "Kierownik biura wie, że laptop z danymi klientów może zginąć w pociągu. Nie zakazuje wyjazdów służbowych, tylko każe szyfrować dyski (ograniczanie) i ubezpiecza sprzęt (transfer), bo z takim ryzykiem firma jest gotowa żyć.",
+    "firma": "Sklep internetowy mógłby w ogóle nie przyjmować kart, żeby nie ryzykować wycieku, ale wtedy mało kto by coś kupił. Właścicielka oddaje więc płatności operatorowi i nie trzyma numerów kart u siebie (unikanie), robi codzienne kopie zapasowe (ograniczanie) i wykupuje ubezpieczenie od cyberataku (transfer). Ryzyko zostaje, ale w granicach, na które ją stać.",
+    "admin": "Urząd gminy mógłby odłączyć się od internetu, żeby nikt się nie włamał, ale mieszkańcy straciliby e-usługi. Wójt akceptuje, że jakieś ryzyko zostaje, i każe wprowadzić to, co ma sens przy tych danych: kopie zapasowe, aktualizacje, szkolenie z rozpoznawania fałszywych maili. Zabezpieczenia na miarę zagrożenia, a nie za wszelką cenę – to optymalizacja ryzyka.",
+    "psp": "Na stanowisku kierowania może paść SWD-PSP albo zniknąć prąd w czasie burzy. Komenda nie jest w stanie tego wykluczyć, więc ma zapasowe łącze, agregat i procedurę pracy „na papierze”, którą dyżurni regularnie ćwiczą. Ryzyko awarii dalej istnieje, ale jest pod kontrolą – to optymalizacja ryzyka.",
+    "it": "W EDM03 (Zapewnienie optymalizacji ryzyka) zarząd ustala apetyt na ryzyko: przestój systemu sprzedaży najwyżej 4 godziny w roku. W APO12 (Zarządzanie ryzykiem) dział IT ocenia scenariusze i dobiera zabezpieczenia tak, by zmieścić się w tej granicy."
+  },
+  "glebokosc": {
+    "prosty": "Rodzice nie zamykają dziecka w domu, żeby nigdy się nie przewróciło. Kupują kask, uczą zasad i pozwalają jeździć na rowerze po osiedlu, ale nie po ruchliwej ulicy. Ryzyko zostaje, ale na poziomie, który rodzina uznaje za do przyjęcia.",
+    "zaawansowany": "Komendantka Wrzos ustala apetyt na ryzyko: nieudany alarm do OSP może się zdarzyć najwyżej raz na tysiąc wysyłek. Kpt. Sikora rozpoznaje ryzyko awarii bramki SMS, ocenia jego prawdopodobieństwo i wpływ, a potem wybiera strategie: ograniczanie (druga bramka, ręczny alarm radiowy) i transfer części skutków na dostawcę w umowie z Kwant-Sygnałem. Nie eliminuje ryzyka całkowicie, bo wymagałoby to budżetu, którego księgowa Mak nie znajdzie. To jeden z trzech składników [[tworzenie-wartosci|tworzenia wartości]], obok realizacji korzyści i [[optymalizacja-zasobow|optymalizacji zasobów]].",
+    "skrajny": "Po Lipowej radny proponuje: „Wyłączmy SMS-y i alarmujmy OSP tylko telefonicznie – zero ryzyka awarii bramki”. Brzmi jak optymalizacja ryzyka, a jest unikaniem jednego ryzyka za cenę korzyści: dyżurny dzwoniący po kolei do kilku jednostek traci minuty, więc rośnie ryzyko spóźnionej pomocy. Optymalny znaczy rozsądny, w granicach apetytu na ryzyko, a nie zerowy – zero ryzyka zwykle oznacza zero działania. Unikanie ryzyka jest jedną z dopuszczalnych strategii, ale optymalizuje tylko wtedy, gdy organizacja nie traci przy tym więcej korzyści, niż zyskuje bezpieczeństwa. Do tego łatwo pomylić dwa procesy: EDM03 Zapewnienie optymalizacji ryzyka należy do Ładu, a APO12 Zarządzanie ryzykiem – do Zarządzania. **Rozstrzygnięcie:** optymalizacja ryzyka = utrzymanie ryzyka w granicach apetytu, w równowadze z korzyściami i zasobami; „wyeliminowanie ryzyka” jest na egzaminie zawsze błędną odpowiedzią (interpretacja kursu w części o ocenie strategii unikania)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Optymalizacja ryzyka to wyeliminowanie ryzyka.",
+      "prawda": "Chodzi o utrzymanie ryzyka na akceptowalnym poziomie, w granicach apetytu na ryzyko. Eliminacja zwykle zabija też korzyści."
+    },
+    {
+      "mit": "Optymalizacja ryzyka to sprawa działu bezpieczeństwa, a nie Ładu.",
+      "prawda": "To jeden z trzech składników celu Ładu. Na co dzień ryzykiem zarządza APO12 (Zarządzanie), ale apetyt na ryzyko i kierunek ustala Ład (EDM03)."
+    },
+    {
+      "mit": "Jedyną strategią wobec ryzyka jest jego ograniczanie.",
+      "prawda": "Definicja wymienia unikanie ryzyka, ograniczanie jego negatywnego wpływu i transfer ryzyka."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie optymalizacji ryzyka z jego eliminacją.",
+    "jakTlumaczyc": "Rower i kask: nie zabraniamy jazdy, tylko ustalamy, ile ryzyka przyjmujemy i co robimy, żeby się w tym zmieścić. Potem dopowiedz, że to jedna z trzech nóg stołka „wartość” – bez korzyści i zasobów stołek się przewraca.",
+    "pytanieKontrolne": "Dlaczego zredukowanie ryzyka do zera nie jest optymalizacją ryzyka? Pokaż to na przykładzie komendy.",
+    "odpowiedzKontrolna": "Bo optymalizacja to utrzymanie ryzyka w granicach apetytu, w równowadze z korzyściami i kosztami. Zero ryzyka zwykle oznacza rezygnację z działania albo koszt nie do udźwignięcia – np. wyłączenie automatycznych alarmów usuwa ryzyko awarii bramki, ale spowalnia pomoc, czyli niszczy korzyść."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Eliminacja ryzyka",
+      "roznica": "Optymalizacja ≠ eliminacja. Usunięcie każdego ryzyka zwykle zabija też korzyści."
+    },
+    {
+      "termin": "ryzyko",
+      "roznica": "Ryzyko to sama możliwość zdarzenia; optymalizacja ryzyka to cel Ładu dotyczący zarządzania nim."
+    }
+  ],
+  "przykladWypowiedzi": "Risk optimisation, czyli optymalizacja ryzyka, oznacza utrzymanie ryzyka IT w granicach apetytu na ryzyko (risk appetite), a nie jego eliminację; to jeden z trzech składników tworzenia wartości (value creation).",
+  "egzamin": "Jeden z trzech składników celu Ładu. Pułapka w odpowiedziach: „wyeliminowanie ryzyka” jest zawsze błędne. Poprawnie: „utrzymanie ryzyka na akceptowalnym poziomie / w granicach apetytu na ryzyko”.",
+  "powiazane": [
+    "ryzyko",
+    "tworzenie-wartosci",
+    "realizacja-korzysci",
+    "optymalizacja-zasobow"
+  ],
+  "sylabus": [
+    "M0-00-04",
+    "PR-02-01"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Wiąże się z rozpoznawaniem ryzyka, oszacowaniem wpływu i prawdopodobieństwa takiego ryzyka oraz opracowaniem strategii"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 13,
+      "cytat": "Utrzymania ryzyka związanego z IT na akceptowalnym poziomie."
+    }
+  ],
+  "mapa": "optymalizacja-ryzyka"
+}

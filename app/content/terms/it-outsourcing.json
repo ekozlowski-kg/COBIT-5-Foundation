@@ -1,0 +1,102 @@
+{
+  "id": "it-outsourcing",
+  "en": "Outsourcing",
+  "wymowa": "autsorsing",
+  "wymowaAkcent": "AUT-sor-sing",
+  "plEgzamin": "Outsourcing",
+  "plPodrecznik": "outsourcing",
+  "plInne": [
+    "zlecenie na zewnątrz",
+    "usługi zewnętrzne"
+  ],
+  "statusTlumaczenia": "D",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "outsourcing (FW-PL s. 22, 36, 85)",
+    "kurs": "Outsourcing",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Termin zachowujemy w oryginale, tak jak FW-PL. Opisowo: stałe zlecenie pracy firmie zewnętrznej."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-dostawca",
+    "it-usluga-it"
+  ],
+  "poLudzku": "Oddanie firmie zewnętrznej zadania, które organizacja mogłaby robić sama.",
+  "poziom1": "Outsourcing to decyzja: zamiast samemu robić jakąś pracę (np. prowadzić serwery, obsługiwać pomoc techniczną), organizacja zleca ją dostawcy na stałe, na podstawie umowy.",
+  "poziom2": "Outsourcing może dać oszczędności i fachową obsługę, ale tworzy zależność. Organizacja musi określić w umowie poziom usługi, sprawdzać jego wykonanie i mieć plan, co zrobi, gdy współpraca się skończy. Wiedza o usłudze nie może zostać tylko u dostawcy.",
+  "poziom3": "FW-PL wymienia *„dostawców zatrudnionych w ramach outsourcingu”* wśród interesariuszy usług (s. 85), a *„problemy z realizacją usług w ramach outsourcingu”* podaje jako typowy punkt zapalny (s. 36). Ocenę umów o outsourcing IT wskazuje jako pytanie interesariusza (s. 22).",
+  "wyobrazSobie": "Zamiast gotować obiady w zakładzie, firma podpisuje umowę z firmą cateringową. Obiad jest, ale kuchnię prowadzi ktoś inny.",
+  "poCo": "Żeby skupić się na swojej głównej pracy, a resztę powierzyć specjalistom.",
+  "jakDziala": "Organizacja decyduje, które zadanie oddać. Wybiera dostawcę i podpisuje umowę z poziomem usługi. Dostawca wykonuje pracę. Organizacja co miesiąc sprawdza wyniki i reaguje, gdy są złe.",
+  "dlaczegoWazne": "Outsourcing jest powszechny, a jego porażki należą do typowych powodów, dla których organizacje sięgają po COBIT 5 (FW-PL s. 36).",
+  "przyklady": {
+    "zycie": "Zamiast samemu prowadzić księgowość swojej działalności, płacisz biuru rachunkowemu. To outsourcing księgowości.",
+    "biuro": "Firma nie zatrudnia informatyka. Ma umowę z zewnętrzną firmą, która raz w tygodniu przyjeżdża i pomaga przy awariach.",
+    "organizacja": "Szpital oddaje firmie zewnętrznej prowadzenie serwerowni. W umowie zapisano: przestój nie dłuższy niż 4 godziny w roku.",
+    "psp": "Komenda rozważa oddanie Kwant-Sygnałowi całego utrzymania „Syreny”, łącznie z dyżurem w nocy. Komendantka Wrzos pyta: „A kto będzie pilnował, czy dotrzymują umowy?”.",
+    "it": "FW-PL wskazuje problemy z usługami w ramach outsourcingu jako typowy punkt zapalny (s. 36); relacje z dostawcami obejmuje proces APO10."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-dostawca",
+      "roznica": "Dostawca to firma. Outsourcing to oddanie jej na stałe całej pracy albo usługi."
+    },
+    {
+      "termin": "Jednorazowy zakup",
+      "roznica": "Kupno drukarki to zakup od dostawcy, a nie outsourcing. Outsourcing to stałe zlecenie wykonywania pracy."
+    }
+  ],
+  "przykladWypowiedzi": "Outsourcing to oddanie usługi supplier, czyli dostawcy zewnętrznemu; nadal musimy zarządzać tą umową.",
+  "egzamin": "Słowo „outsourcing” zostaje w oryginale (FW-PL s. 22, 36, 85). Pamiętaj: outsourcing nie zdejmuje z organizacji odpowiedzialności – zmienia tylko, kto wykonuje pracę.",
+  "powiazane": [
+    "it-dostawca",
+    "it-usluga-it",
+    "proc-apo10",
+    "punkty-zapalne"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 85,
+      "cytat": "dostawców zatrudnionych w ramach outsourcingu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 36,
+      "cytat": "problemy z realizacją usług w ramach outsourcingu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 22,
+      "ilustracja": "7",
+      "cytat": "Jak wypada ocena sprawności zarządzania umowami o outsourcing IT?"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "Zamiast samemu kosić trawnik, płacisz sąsiadowi za koszenie co dwa tygodnie. Trawnik nadal jest Twój. Jeśli sąsiad przestanie przychodzić, to Ty masz zarośnięty ogród – i musisz to zauważyć.",
+    "zaawansowany": "Komenda oddaje Kwant-Sygnałowi nocny dyżur przy „Syrenie”. Sikora zapisuje w umowie: awaria zgłoszona w nocy – technik reaguje w 15 minut. Co miesiąc sprawdza raport [[it-dostawca|dostawcy]]. Gdyby nie sprawdzał, o złej obsłudze dowiedziałby się dopiero przy następnym pożarze.",
+    "skrajny": "Czy kupno licencji na program to outsourcing? Nie – to zakup. Czy wynajęcie serwerów u firmy zewnętrznej, dostępnych przez Internet (tak zwana chmura), to outsourcing? Tak, oddajesz utrzymanie infrastruktury. Czy po outsourcingu dział IT jest zbędny? Nie – ktoś musi zarządzać umową i dostawcą. **Rozstrzygnięcie:** outsourcing to stałe zlecenie wykonywania pracy zewnętrznemu dostawcy; organizacja zachowuje odpowiedzialność i musi zarządzać umową."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Outsourcing przenosi odpowiedzialność na dostawcę.",
+      "prawda": "Przenosi wykonanie pracy. Odpowiedzialność wobec interesariuszy zostaje w organizacji."
+    },
+    {
+      "mit": "Każdy zakup od firmy to outsourcing.",
+      "prawda": "Outsourcing to stałe zlecenie pracy albo usługi, a nie jednorazowy zakup sprzętu."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Traktowanie outsourcingu jako sposobu na „pozbycie się kłopotu”.",
+    "jakTlumaczyc": "Koszenie trawnika przez sąsiada: trawnik dalej jest Twój.",
+    "pytanieKontrolne": "Po oddaniu „Syreny” firmie zewnętrznej – co musi nadal robić komenda?",
+    "odpowiedzKontrolna": "Określić wymagania w umowie, sprawdzać ich wykonanie, reagować na kłopoty i odpowiadać wobec mieszkańców."
+  }
+}

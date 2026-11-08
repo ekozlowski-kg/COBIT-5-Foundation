@@ -1,0 +1,101 @@
+{
+  "id": "it-portfel",
+  "en": "Portfolio",
+  "wymowa": "portfolioł",
+  "wymowaAkcent": "port-FOŁ-li-oł",
+  "plEgzamin": "Portfel",
+  "plPodrecznik": "Portfel inwestycyjny",
+  "plInne": [
+    "portfel projektów",
+    "portfel inwestycji"
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "Portfel inwestycyjny (FW-PL s. 92); portfel projektów (APO05, s. 33)",
+    "kurs": "Portfel (portfolio)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. Na egzaminie słowo występuje w nazwie procesu APO05 Zarządzanie Portfelem (Manage Portfolio)."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-program"
+  ],
+  "poLudzku": "Lista wszystkich projektów i programów, na które organizacja wydaje albo chce wydać pieniądze.",
+  "poziom1": "Portfel to cały zestaw inwestycji organizacji – programów, projektów, a także usług – rozważanych i realizowanych. Zarządzanie portfelem to wybieranie, w co inwestować, a z czego zrezygnować.",
+  "poziom2": "Pieniędzy i ludzi jest zawsze mniej niż pomysłów. Portfel pozwala porównać wszystkie pomysły naraz: ile kosztują, jaką dadzą korzyść i jakie niosą ryzyko. Najważniejsze dostają zielone światło, inne czekają albo są zatrzymywane.",
+  "poziom3": "Słownik FW-PL: portfel inwestycyjny to *„Zbiór rozważanych i/lub realizowanych inwestycji.”* (s. 92). Proces APO05 Zarządzanie portfelem projektów (s. 33). Decyzje o portfelu inwestycyjnym FW-PL wiąże ze strukturami nadzoru, czyli z Ładem (s. 31).",
+  "wyobrazSobie": "Domowy budżet na rok: nowe okna, wakacje, kurs angielskiego dla dziecka. Nie stać Cię na wszystko, więc wybierasz, co najpierw.",
+  "poCo": "Żeby organizacja wydawała ograniczone pieniądze na to, co daje jej najwięcej korzyści przy akceptowalnym ryzyku.",
+  "jakDziala": "Wszystkie pomysły i trwające projekty trafiają na jedną listę. Kierownictwo porównuje koszty, korzyści i ryzyko. Wybiera, co uruchomić, co kontynuować, a co zatrzymać. Listę przegląda się regularnie.",
+  "dlaczegoWazne": "COBIT 5 każe patrzeć na IT jak na inwestycje, które mają przynosić korzyść. Portfel to narzędzie do tego wyboru.",
+  "przyklady": {
+    "zycie": "Rodzina ma 20 000 zł oszczędności i trzy pomysły: nowe auto, remont łazienki, kurs dla córki. Porównuje i wybiera łazienkę i kurs – to zarządzanie domowym portfelem.",
+    "biuro": "Szef biura ma budżet na jedno ulepszenie w tym roku: nowy program księgowy albo nowe komputery. Wybiera program, bo stare komputery jeszcze wystarczą.",
+    "organizacja": "Zarząd szpitala przegląda co kwartał listę 12 projektów IT. Dwa zatrzymuje, bo przestały być potrzebne, a pieniądze przenosi na bezpieczeństwo danych.",
+    "psp": "Na liście komendy są: program „Bezpieczna Syrena”, nowe tablety dla JRG i nowa strona internetowa. Komendantka Wrzos daje pierwszeństwo „Syrenie”, a stronę przesuwa na przyszły rok.",
+    "it": "APO05 Zarządzanie portfelem projektów; definicja portfela inwestycyjnego w słowniku FW-PL (s. 92)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-program",
+      "roznica": "Program to kilka projektów dla jednego celu. Portfel to wszystkie inwestycje organizacji naraz – wiele programów i projektów."
+    },
+    {
+      "termin": "projekt",
+      "roznica": "Projekt to jedno przedsięwzięcie. Portfel to lista wszystkich przedsięwzięć, spośród których się wybiera."
+    }
+  ],
+  "przykladWypowiedzi": "A portfolio, czyli portfel, zawiera all programmes and projects, czyli wszystkie programy i projekty; w COBIT 5 zarządza nim APO05 Manage Portfolio.",
+  "egzamin": "APO05 Zarządzanie Portfelem (Manage Portfolio). Kolejność do zapamiętania: portfel zawiera programy, a programy zawierają projekty.",
+  "powiazane": [
+    "it-program",
+    "projekt",
+    "proc-apo05",
+    "realizacja-korzysci"
+  ],
+  "sylabus": [
+    "M0-00-05"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 92,
+      "cytat": "Zbiór rozważanych i/lub realizowanych inwestycji."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO05 Zarządzanie portfelem projektów"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 31,
+      "cytat": "decyzjami dotyczącymi portfela inwestycyjnego"
+    }
+  ],
+  "glebokosc": {
+    "prosty": "W sklepie masz 100 zł i koszyk pełen rzeczy za 180 zł. Odkładasz to, co mniej potrzebne. Koszyk to Twój „portfel”: wszystko, co chcesz, z którego wybierasz to, na co Cię stać.",
+    "zaawansowany": "Halina Mak, główna księgowa, kładzie przed komendantką listę: program „Bezpieczna Syrena”, tablety dla JRG, nowa strona internetowa. Pieniędzy starczy na dwie pozycje. Komendantka porównuje korzyść i [[it-ryzyko-it|ryzyko]]: „Syrena” chroni życie, strona może poczekać. Tak wygląda decyzja o portfelu.",
+    "skrajny": "Czy portfel to tylko nowe projekty? Nie – obejmuje też trwające inwestycje, które można zatrzymać. Czy zatrzymanie projektu to porażka? Nie zawsze: to dobra decyzja, gdy projekt nie da już korzyści. Kto decyduje o portfelu – informatyk? Nie: FW-PL wiąże decyzje o portfelu inwestycyjnym ze strukturami nadzoru (s. 31). **Rozstrzygnięcie:** portfel to zbiór rozważanych i realizowanych inwestycji (FW-PL s. 92); decyzje o nim podejmuje kierownictwo, porównując korzyść, koszt i ryzyko."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Portfel to to samo co program.",
+      "prawda": "Program to kilka projektów dla jednego celu. Portfel to wszystkie inwestycje organizacji naraz."
+    },
+    {
+      "mit": "Raz rozpoczętego projektu nie zatrzymuje się.",
+      "prawda": "Zarządzanie portfelem obejmuje też zatrzymywanie inwestycji, które przestały się opłacać."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie portfela z programem i myślenie, że portfel to tylko lista nowych pomysłów.",
+    "jakTlumaczyc": "Koszyk w sklepie i 100 zł: wybierasz, co zostaje, a co wraca na półkę.",
+    "pytanieKontrolne": "Ułóż od największego: projekt, portfel, program.",
+    "odpowiedzKontrolna": "Portfel (wszystkie inwestycje) → program (kilka projektów dla jednego celu) → projekt (jedno przedsięwzięcie)."
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "praktyki-zachowan",
+  "en": "Good practices for creating, encouraging and maintaining desired behaviour",
+  "wymowa": "gud prektisiz for kriejting inkarydżing end mejntejning dizajerd bihejwjer",
+  "wymowaAkcent": "gud PREK-ti-siz for kri-EJ-ting in-KA-ry-dżing end mejn-TEJ-ning di-ZAJ-erd bi-HEJ-wjer",
+  "plEgzamin": "Dobre praktyki kształtowania zachowań",
+  "plPodrecznik": "Dobre praktyki dotyczące tworzenia, promowania i utrzymywania pożądanych wzorców zachowań",
+  "plInne": [
+    {
+      "nazwa": "Czempioni (biznesu) = osoby wspierające",
+      "zrodlo": "SP1"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Dobre praktyki kształtowania zachowań",
+    "podrecznik": "Dobre praktyki dotyczące tworzenia, promowania i utrzymywania pożądanych wzorców zachowań",
+    "kurs": "Dobre praktyki kształtowania zachowań (Good practices for creating, encouraging and maintaining desired behaviour)",
+    "uwaga": "Egzamin PL: „Dobre praktyki kształtowania zachowań”; podręcznik PL: „Dobre praktyki dotyczące tworzenia, promowania i utrzymywania pożądanych wzorców zachowań” – konkurencyjne odpowiedniki. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 80. Inne formy w obiegu: Czempioni (biznesu) = osoby wspierające (SP1)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „osoby wspierające”. Egzamin: „czempioni”. To te same osoby: dają przykład i promują pożądane zachowania.",
+  "skadNazwa": "*Champions* podręcznik tłumaczy jako „osoby wspierające”, a egzamin jako „czempioni (biznesu)”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "kultura-etyka-zachowanie",
+    "poziomy-etyki"
+  ],
+  "mapa": "praktyki-zachowan",
+  "poziom1": "Kultury nie zmienia się rozkazem. COBIT 5 podaje dobre praktyki: komunikuj pożądane zachowania i wartości, dawaj przykład z góry i przez czempionów, stosuj zachęty i środki zniechęcające, spisz reguły i normy powiązane z politykami.",
+  "poLudzku": "Sposoby, żeby ludzie zaczęli dobrze postępować: mówić, dawać przykład, nagradzać, spisać reguły.",
+  "wyobrazSobie": "Trener drużyny: mówi, co jest ważne, sam daje przykład, nagradza i karze, a reguły wiszą w szatni.",
+  "poCo": "Żeby pożądane zachowania pojawiły się i utrzymały, a nie zostały tylko hasłem.",
+  "jakDziala": "Organizacja komunikuje pożądane zachowania i wartości. Kierownictwo i czempioni dają przykład. Zachęty i środki zniechęcające, także w systemie wynagradzania, wzmacniają zachowania. Reguły i normy, powiązane z politykami, dają szczegóły.",
+  "dlaczegoWazne": "Egzamin pyta o konkretną praktykę, np. wskazanie czempionów. Przykład 11 z podręcznika uczy, że źle dobrane zachęty psują zachowanie.",
+  "poziom2": "| Dobra praktyka (s. 80) | Na czym polega |\n|---|---|\n| **Komunikowanie** | ogłaszanie pożądanych zachowań i wartości w całej organizacji |\n| **Świadomość** | przykład **kierownictwa wyższego szczebla** i **czempionów** (osób wspierających) |\n| **Zachęty i środki zniechęcające** | nagrody i kary; związek z **systemem wynagradzania** w dziale kadr |\n| **Reguły i normy** | dodatkowe wytyczne powiązane z **zasadami i politykami** |\n\nIl. 34 wymienia też **egzekwowanie wymagań**.",
+  "poziom3": "(s. 80): dobre praktyki obejmują m.in. *„zwiększanie świadomości pożądanych wzorców zachowań dzięki przykładowi kierownictwa wyższego szczebla oraz innych osób wspierających”* oraz *„zachęty oraz środki zniechęcające w celu promowania pożądanego zachowania”*. Przykład 11 (s. 80): premie za termin zamiast za jakość zepsuły zachowania zespołów.",
+  "przyklady": {
+    "zycie": "Chcesz, żeby dzieci segregowały śmieci. Tłumaczysz, po co to (komunikacja). Sam segregujesz na ich oczach (przykład). Za tydzień bez pomyłek jest pizza (zachęta). Na koszach wiszą naklejki z opisem (reguły). To cztery praktyki naraz.",
+    "biuro": "W biurze kierowniczka chce, żeby wszyscy zapisywali pliki na dysku wspólnym, a nie na pulpicie. Sama tak robi, wyznacza jedną osobę do pomocy innym i chwali zespół, który pierwszy przeniósł pliki.",
+    "organizacja": "Sieć piekarni chce, żeby sprzedawcy myli ręce po każdej płatności gotówką. Kierowniczka robi to pierwsza, w każdym sklepie jest „ambasadorka higieny”, a premia zależy od wyniku kontroli sanepidu. Instrukcja wisi przy kasie. To dobre praktyki kształtowania zachowań. Starostwo chce, żeby urzędnicy blokowali komputer przy odchodzeniu od biurka. Starosta robi to na oczach wszystkich, w każdym wydziale jest jedna osoba-czempion, a wydział z najlepszym wynikiem kontroli dostaje dodatkowy dzień szkoleniowy. Reguła jest wpisana do polityki bezpieczeństwa.",
+    "psp": "Dyżurny Paweł Grab przyznaje się na odprawie do zatajonej awarii Syreny. Komendantka Anna Wrzos publicznie mu dziękuje. Ogłasza zasadę zgłaszania błędów bez kar, a Grab zostaje czempionem w SK i uczy młodszych. W polityce powiadamiania pojawia się punkt o zgłaszaniu usterek. Komunikacja, przykład, zachęta i reguła działają razem.",
+    "it": "Proces APO07 (Zarządzanie zasobami ludzkimi) obejmuje ocenę pracowników. Jeśli oceny nagradzają tylko terminy, rośnie ryzyko jak w Przykładzie 11. Dlatego cele w ocenach powinny obejmować też jakość (interpretacja kursu)."
+  },
+  "glebokosc": {
+    "prosty": "Trener drużyny chce, żeby chłopcy przychodzili na czas. Mówi, dlaczego to ważne. Sam przychodzi pierwszy. Spóźnialski biega dodatkowe okrążenie, a punktualni wybierają muzykę w szatni. Tak kształtuje się zachowanie.",
+    "zaawansowany": "Komendantka chce zmienić [[poziomy-etyki|zachowania]] dyżurnych: błędy mają być zgłaszane od razu. Ogłasza to na odprawie (komunikacja) i sama przyznaje się do błędu przy zakupie Syreny (przykład). Grab zostaje czempionem w SK. Zgłoszenie usterki liczy się przy ocenie okresowej (zachęta). Punkt o zgłaszaniu trafia do [[zasady-polityki-struktury|polityki]] powiadamiania (reguły i normy).",
+    "skrajny": "Komenda wprowadza premię za „zero awarii Syreny w kwartale”. Na papierze to zachęta do dobrego zachowania. W praktyce dyżurni przestają zgłaszać drobne usterki, bo zgłoszenie psuje statystykę. Zachęta wzmocniła zachowanie przeciwne do zamierzonego, jak w Przykładzie 11 z podręcznika (premie za termin, a nie za jakość). Druga pułapka: kary też są dobrą praktyką, bo podręcznik mówi o zachętach ORAZ środkach zniechęcających. **Rozstrzygnięcie:** dobre praktyki to komunikowanie, przykład kierownictwa i czempionów, zachęty i środki zniechęcające oraz reguły i normy. Zachętę ocenia się po zachowaniu, które naprawdę wywołuje."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Dobra kultura to tylko nagrody, bez kar.",
+      "prawda": "Podręcznik wymienia zachęty oraz środki zniechęcające. Obie strony są dobrą praktyką."
+    },
+    {
+      "mit": "Wystarczy wysłać wszystkim maila z wartościami.",
+      "prawda": "Komunikowanie to jedna z praktyk. Potrzebny jest też przykład kierownictwa, czempioni, zachęty i reguły."
+    },
+    {
+      "mit": "Czempioni i osoby wspierające to różne grupy.",
+      "prawda": "To jedno pojęcie (*champions*): podręcznik mówi „osoby wspierające”, a egzamin „czempioni”."
+    },
+    {
+      "mit": "Każda premia poprawia zachowanie.",
+      "prawda": "Źle dobrana zachęta psuje zachowanie (Przykład 11: premie za termin zamiast za jakość)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myśli, że zachowanie zmienia samo szkolenie albo regulamin, i pomija przykład z góry oraz system wynagradzania.",
+    "jakTlumaczyc": "Zapytaj: co zrobią ludzie, jeśli szef mówi jedno, a robi drugie? Potem pokaż Przykład 11: ludzie robią to, za co dostają premię.",
+    "pytanieKontrolne": "Firma wyznacza w każdym dziale osobę, która daje przykład i zachęca innych do bezpiecznych haseł. Jak COBIT 5 nazywa te osoby?",
+    "odpowiedzKontrolna": "**Czempioni** (podręcznik: **osoby wspierające**). To dobra praktyka zwiększania świadomości pożądanych zachowań."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "poziomy-etyki",
+      "roznica": "Poziomy etyki to cele (co chcemy mieć). Dobre praktyki zachowań to narzędzia (jak to osiągnąć)."
+    },
+    {
+      "termin": "ludzie-umiejetnosci-kompetencje",
+      "roznica": "Szkolenie uczy, JAK coś zrobić (umiejętności). Praktyki zachowań sprawiają, że ludzie CHCĄ to robić."
+    }
+  ],
+  "przykladWypowiedzi": "Champions, czyli czempioni (w podręczniku: osoby wspierające), raise awareness of desired behaviour by setting an example.",
+  "egzamin": "Dobra praktyka promowania zachowań: **komunikowanie**, **przykład kierownictwa i czempionów (osób wspierających)**, **zachęty i środki zniechęcające**, **reguły i normy**. Związek z systemem wynagradzania jest wprost w podręczniku.",
+  "powiazane": [
+    "kultura-etyka-zachowanie",
+    "poziomy-etyki",
+    "zasady-polityki-struktury",
+    "ludzie-umiejetnosci-kompetencje"
+  ],
+  "sylabus": [
+    "EN-02-14"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 80,
+      "cytat": "zwiększanie świadomości pożądanych wzorców zachowań dzięki przykładowi kierownictwa wyższego szczebla oraz innych osób wspierających"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 80,
+      "cytat": "zachęty oraz środki zniechęcające w celu promowania pożądanego zachowania"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 79,
+      "ilustracja": "34"
+    }
+  ]
+}

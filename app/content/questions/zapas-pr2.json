@@ -1,0 +1,1218 @@
+{
+ "pytania": [
+  {
+   "id": "q-zap-pr-08-zasada-4-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-02"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 2,
+   "tresc": "Który element komendy **NIE** jest jednocześnie zasobem organizacji w rozumieniu COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 27
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Opisany krok po kroku sposób obsługi alarmu",
+     "poprawna": true,
+     "wyjasnienie": "To proces, czyli aktywator 2. Zasobami są tylko informacja, technologia i ludzie (aktywatory 5, 6 i 7)."
+    },
+    {
+     "tekst": "Lista numerów telefonów ochotników OSP",
+     "poprawna": false,
+     "wyjasnienie": "To informacja (aktywator 5), a informacja jest zasobem.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Serwer i aplikacja Syrena",
+     "poprawna": false,
+     "wyjasnienie": "To usługi, infrastruktura i aplikacje (aktywator 6) – zasób.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Wyszkoleni dyżurni stanowiska kierowania",
+     "poprawna": false,
+     "wyjasnienie": "To ludzie i ich umiejętności (aktywator 7) – zasób.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-08-zasada-4-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-02"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 2,
+   "tresc": "Komenda ma spisaną politykę zgłaszania usterek Syreny, ale dyżurni boją się z niej korzystać, bo za błędy dotąd karano. Co trzeba poprawić w pierwszej kolejności, żeby polityka zaczęła działać?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 27
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Spisane reguły: dopisać do polityki kolejne punkty",
+     "poprawna": false,
+     "wyjasnienie": "Polityka już istnieje. Problem leży w zachowaniu ludzi, a nie w braku zapisu.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Atmosferę w zespole: zgłaszanie błędów bez szukania winnych",
+     "poprawna": true,
+     "wyjasnienie": "To aktywator Kultura, Etyka i Zachowanie. Przykład 4 (s. 28): procesy i procedury bezpieczeństwa informacji nie będą skuteczne bez odpowiedniej kultury i etyki."
+    },
+    {
+     "tekst": "Technologię: kupić nowy serwer dla Syreny",
+     "poprawna": false,
+     "wyjasnienie": "Technologia działa. Ludzie nie zgłaszają usterek z obawy przed karą.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Dane: uzupełnić listę numerów OSP",
+     "poprawna": false,
+     "wyjasnienie": "Brakuje zgłoszeń, a nie danych. Przyczyna leży w kulturze.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-09-wymiary-aktywatora-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-12"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 2,
+   "tresc": "Który zestaw to fazy **cyklu życia aktywatora**?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Interesariusze, cele, cykl życia, dobre praktyki",
+     "poprawna": false,
+     "wyjasnienie": "To cztery wymiary aktywatora, a nie fazy jego cyklu życia.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Planuj, Twórz, Wykonuj, Monitoruj",
+     "poprawna": false,
+     "wyjasnienie": "To obszary Zarządzania (zasada 5), a nie cykl życia aktywatora.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Planowanie, projektowanie, budowanie, użytkowanie, ocena, aktualizacja",
+     "poprawna": true,
+     "wyjasnienie": "To sześć faz cyklu życia aktywatora (s. 29)."
+    },
+    {
+     "tekst": "Co nas skłania, gdzie jesteśmy, dokąd chcemy, co zrobić, czy dotarliśmy",
+     "poprawna": false,
+     "wyjasnienie": "To pytania faz wdrożenia COBIT 5 (dzień 4).",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-09-wymiary-aktywatora-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-12"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 2,
+   "tresc": "Który wymiar aktywatora obejmuje także produkty działań, czyli wejścia i wyniki?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Cykl życia",
+     "poprawna": false,
+     "wyjasnienie": "Cykl życia opisuje fazy od planowania do pozbycia się, a nie produkty działań.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Interesariusze",
+     "poprawna": false,
+     "wyjasnienie": "Interesariusze mówią, kogo aktywator dotyczy.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Wyznaczniki",
+     "poprawna": false,
+     "wyjasnienie": "Wyznaczniki zmieniają potrzeby interesariuszy. Nie są wymiarem aktywatora.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Dobre praktyki",
+     "poprawna": true,
+     "wyjasnienie": "Dobre praktyki określają wymagane produkty działań: wejścia i wyniki (s. 29)."
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-09b-kategorie-celow-aktywatora-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-12"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Raport o czasach dojazdu jest dokładny, ale trafia do komendantki tydzień po odprawie, na której był potrzebny. Którego celu aktywatora raport **NIE** spełnia?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Jakości kontekstowej, bo nie jest aktualny w chwili potrzeby",
+     "poprawna": true,
+     "wyjasnienie": "Aktualność i dopasowanie do sytuacji to jakość kontekstowa (s. 29)."
+    },
+    {
+     "tekst": "Jakości wewnętrznej, bo dane w raporcie są niedokładne",
+     "poprawna": false,
+     "wyjasnienie": "Raport jest dokładny, więc jakość wewnętrzna jest spełniona.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Dostępu i bezpieczeństwa, bo raport czytają osoby nieuprawnione",
+     "poprawna": false,
+     "wyjasnienie": "W sytuacji nie ma mowy o nieuprawnionym dostępie.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Jakości rzeczywistej, bo raport jest nieobiektywny",
+     "poprawna": false,
+     "wyjasnienie": "To nazwa z podręcznika. Na egzaminie mówi się „jakość wewnętrzna”, a raport jest dokładny.",
+     "pulapka": "forma-podrecznikowa"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-09b-kategorie-celow-aktywatora-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-12"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Informatyczka Ola Dudek dzwoni do każdego ochotnika z listy OSP, żeby sprawdzić, czy numer jest prawdziwy. Który cel aktywatora sprawdza?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Jakość kontekstową – czy lista jest łatwa w użyciu",
+     "poprawna": false,
+     "wyjasnienie": "Łatwość użycia to jakość kontekstowa, a Ola sprawdza prawdziwość numerów.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Jakość wewnętrzną – czy dane są dokładne",
+     "poprawna": true,
+     "wyjasnienie": "Prawdziwość i dokładność danych to jakość wewnętrzna (s. 29)."
+    },
+    {
+     "tekst": "Dostęp i bezpieczeństwo – czy listę widzą tylko uprawnieni",
+     "poprawna": false,
+     "wyjasnienie": "Uprawnienia to dostęp i bezpieczeństwo, a tu chodzi o poprawność.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Jakość wewnętrzną – czy listy używa się tylko w komendzie",
+     "poprawna": false,
+     "wyjasnienie": "„Wewnętrzna” znaczy „sama w sobie”, a nie „wewnątrz organizacji”.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-10-wskazniki-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-05",
+    "PR-02-13"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Który miernik jest **wskaźnikiem wiodącym** dla alarmowania w komendzie?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Średni czas dotarcia alarmu w ubiegłym kwartale",
+     "poprawna": false,
+     "wyjasnienie": "Ten wynik widać po fakcie, więc to wskaźnik opóźniony.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Liczba alarmów, które w zeszłym roku nie dotarły do OSP",
+     "poprawna": false,
+     "wyjasnienie": "To wynik po fakcie, czyli wskaźnik opóźniony.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Odsetek dyżurnych przećwiczonych w tym miesiącu",
+     "poprawna": true,
+     "wyjasnienie": "Mierzy stosowanie dobrych praktyk dziś i ostrzega wcześniej, więc jest wiodący."
+    },
+    {
+     "tekst": "Liczba procesów w domenie DSS",
+     "poprawna": false,
+     "wyjasnienie": "To fakt o modelu COBIT, a nie miernik wydajności aktywatora.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-10-wskazniki-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-05",
+    "PR-02-13"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Kpt. Sikora przygotowuje comiesięczny przegląd listy numerów OSP. Które z jego pytań **NIE** należy do zarządzania wydajnością aktywatora?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Czy dyżurni i OSP dostają z listy to, czego potrzebują?",
+     "poprawna": false,
+     "wyjasnienie": "To pytanie o potrzeby interesariuszy – należy do modelu.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Czy numery są dopisywane, sprawdzane i usuwane na czas?",
+     "poprawna": false,
+     "wyjasnienie": "To pytanie o zarządzanie cyklem życia – należy do modelu.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Czy sprawdzamy listę sposobem sprawdzonym w innej komendzie?",
+     "poprawna": false,
+     "wyjasnienie": "To pytanie o dobre praktyki – należy do modelu.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Czy listę przygotowała najtańsza firma?",
+     "poprawna": true,
+     "wyjasnienie": "Wśród czterech pytań COBIT 5 (s. 29) nie ma pytania o cenę."
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-11-zasada-5-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-15"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Kto według COBIT 5 w większości organizacji odpowiada za Ład?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 31
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Zarząd pod przywództwem prezesa",
+     "poprawna": true,
+     "wyjasnienie": "Tak mówi definicja z opisu zasady 5 (s. 31)."
+    },
+    {
+     "tekst": "Kierownictwo pod przywództwem CEO",
+     "poprawna": false,
+     "wyjasnienie": "Kierownictwo odpowiada za Zarządzanie, a nie za Ład.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Szef działu informatyki",
+     "poprawna": false,
+     "wyjasnienie": "Szef informatyki należy do Zarządzania.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Audytor wewnętrzny",
+     "poprawna": false,
+     "wyjasnienie": "Audytor ocenia procesy, ale nie sprawuje Ładu.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-11-zasada-5-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-15"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Kpt. Sikora co tydzień mierzy, czy poprawki Syreny działają zgodnie z planem, i melduje to komendantce. Jaki obszar wykonuje?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 31
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Monitoruj po stronie Ładu (EDM)",
+     "poprawna": false,
+     "wyjasnienie": "W Ładzie monitoruje organ Ładu, czyli komendantka, a nie Sikora.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Monitoruj po stronie Zarządzania (MEA)",
+     "poprawna": true,
+     "wyjasnienie": "Sikora to Zarządzanie. Pomiar wydajności i zgodności to Monitoruj w MEA."
+    },
+    {
+     "tekst": "Kieruj – wyznaczanie kierunku przez Ład",
+     "poprawna": false,
+     "wyjasnienie": "Kieruj to wyznaczanie kierunku przez Ład.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Twórz",
+     "poprawna": false,
+     "wyjasnienie": "Tworzenie to budowa rozwiązań, a tu Sikora mierzy wyniki.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-12-prm-edm-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-03"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 2,
+   "tresc": "Który proces Ładu dotyczy rozliczania się przed interesariuszami?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 32
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "EDM01",
+     "poprawna": false,
+     "wyjasnienie": "EDM01 dotyczy ustanowienia i utrzymania ramy Ładu.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "MEA01",
+     "poprawna": false,
+     "wyjasnienie": "MEA01 to proces Zarządzania (wydajność i zgodność), a nie Ładu.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "EDM05",
+     "poprawna": true,
+     "wyjasnienie": "EDM05 to Zapewnienie przejrzystości dotyczącej interesariuszy (s. 33)."
+    },
+    {
+     "tekst": "EDM06",
+     "poprawna": false,
+     "wyjasnienie": "Domena EDM ma tylko 5 procesów.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-12-prm-edm-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-03"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Ile procesów **Zarządzania** zawiera Referencyjny Model Procesu COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 32
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "37 procesów w pięciu domenach",
+     "poprawna": false,
+     "wyjasnienie": "To cały model razem z Ładem. Pytanie dotyczy tylko Zarządzania.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "5 procesów w jednej domenie, czyli w EDM",
+     "poprawna": false,
+     "wyjasnienie": "To procesy Ładu (EDM), a nie Zarządzania.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "40 celów zarządzania",
+     "poprawna": false,
+     "wyjasnienie": "Liczba 40 pochodzi z COBIT 2019, a nie z COBIT 5.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "32 procesy w czterech domenach",
+     "poprawna": true,
+     "wyjasnienie": "APO 13 + BAI 10 + DSS 6 + MEA 3 = 32."
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-13-domeny-zarzadzania-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-04"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Komenda opracowuje system zarządzania bezpieczeństwem informacji: zasady, role i plan na trzy lata. Który proces najlepiej pasuje?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "APO13 Zarządzanie bezpieczeństwem",
+     "poprawna": true,
+     "wyjasnienie": "APO13 to planowanie i utrzymanie systemu zarządzania bezpieczeństwem (s. 33)."
+    },
+    {
+     "tekst": "DSS05 Zarządzanie usługami bezpieczeństwa",
+     "poprawna": false,
+     "wyjasnienie": "DSS05 to codzienna ochrona, a nie budowa systemu i planu.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "EDM03 Zapewnienie optymalizacji ryzyka",
+     "poprawna": false,
+     "wyjasnienie": "EDM03 to proces Ładu o ryzyku, a nie system bezpieczeństwa.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "BAI06 Zarządzanie zmianami",
+     "poprawna": false,
+     "wyjasnienie": "Zmiany to inny proces BAI, niezwiązany z planem bezpieczeństwa.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-pr-13-domeny-zarzadzania-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-04"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 2,
+   "tresc": "Do której domeny należy proces zapewnienia ciągłości działania (praca mimo poważnej awarii)?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "APO",
+     "poprawna": false,
+     "wyjasnienie": "APO to planowanie i organizowanie. Ciągłości tam nie ma.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "DSS",
+     "poprawna": true,
+     "wyjasnienie": "DSS04 Zarządzanie ciągłością należy do domeny DSS (s. 33)."
+    },
+    {
+     "tekst": "BAI",
+     "poprawna": false,
+     "wyjasnienie": "BAI ma dostępność i pojemność (BAI04), ale nie ciągłość.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "MEA",
+     "poprawna": false,
+     "wyjasnienie": "MEA to monitorowanie, a nie codzienne działanie.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-01-slowa-kluczowe-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-08"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 2,
+   "tresc": "Które zdanie o COBIT 5 **NIE** jest prawdziwe?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "COBIT 5 ma siedem kategorii aktywatorów opisanych na Rysunku 12",
+     "poprawna": false,
+     "wyjasnienie": "To prawda, więc przy słowie NIE ta odpowiedź odpada.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Ład ocenia, kieruje i monitoruje",
+     "poprawna": false,
+     "wyjasnienie": "To prawda, więc przy NIE nie jest odpowiedzią.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Organizacja musi wdrożyć wszystkie 37 procesów bez zmian",
+     "poprawna": true,
+     "wyjasnienie": "Słowo „musi” zdradza fałsz. Model nie jest normatywny (s. 32)."
+    },
+    {
+     "tekst": "COBIT 5 ma pięć zasad",
+     "poprawna": false,
+     "wyjasnienie": "To prawda, więc przy NIE nie jest odpowiedzią.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-01-slowa-kluczowe-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-08"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 2,
+   "tresc": "Co **NAJLEPIEJ** opisuje Cel Ładu w COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Realizacja korzyści",
+     "poprawna": false,
+     "wyjasnienie": "To tylko jeden z trzech składników.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Optymalizacja ryzyka",
+     "poprawna": false,
+     "wyjasnienie": "To tylko jeden z trzech składników.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Wdrożenie wszystkich procesów COBIT 5",
+     "poprawna": false,
+     "wyjasnienie": "To nie jest Cel Ładu, a do tego model nie jest normatywny.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Tworzenie wartości",
+     "poprawna": true,
+     "wyjasnienie": "Tworzenie wartości to korzyści przy optymalnym ryzyku i zasobach – to pełna odpowiedź."
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-02-kategoria-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-08"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 2,
+   "tresc": "Jakość kontekstowa to w COBIT 5:",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "kategoria celów aktywatora",
+     "poprawna": true,
+     "wyjasnienie": "Jakość kontekstowa to jedna z trzech kategorii celów aktywatora (s. 29)."
+    },
+    {
+     "tekst": "czynnik środowiskowy wdrożenia",
+     "poprawna": false,
+     "wyjasnienie": "Czynniki środowiskowe to kontekst wdrożenia, a nie cel aktywatora.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "wymiar aktywatora",
+     "poprawna": false,
+     "wyjasnienie": "Wymiarem jest „Cele”. Jakość kontekstowa to kategoria wewnątrz tego wymiaru.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "atrybut procesu w modelu zdolności",
+     "poprawna": false,
+     "wyjasnienie": "Atrybuty procesu należą do oceny zdolności.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-02-kategoria-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-08"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 2,
+   "tresc": "Które z poniższych jest jednym z czterech **wymiarów aktywatora**?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Wyznacznik",
+     "poprawna": false,
+     "wyjasnienie": "Wyznacznik to początek kaskady celów, a nie wymiar aktywatora.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Cykl życia",
+     "poprawna": true,
+     "wyjasnienie": "Cykl życia to jeden z czterech wymiarów aktywatora (s. 28)."
+    },
+    {
+     "tekst": "Zdarzenie wyzwalające",
+     "poprawna": false,
+     "wyjasnienie": "To pojęcie z wdrożenia (dzień 4).",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Wymiar zdolności",
+     "poprawna": false,
+     "wyjasnienie": "To pojęcie z oceny procesów, a nie z modelu aktywatora.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-03-tempo-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-08"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Ile czasu przewiduje plan z kursu na pierwsze przejście przez test?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Całe 40 minut, po kolei, aż rozwiążę każde pytanie",
+     "poprawna": false,
+     "wyjasnienie": "Bez oznaczania tracisz czas na trudnych pytaniach.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Ok. 5 minut, żeby tylko przejrzeć pytania",
+     "poprawna": false,
+     "wyjasnienie": "Tyle zostawiasz na kontrolę na końcu.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Ok. 25 minut: pewne od razu, trudne oznaczam",
+     "poprawna": true,
+     "wyjasnienie": "Tak wygląda plan: 25 min pierwsze przejście, 10 min drugie, 5 min kontrola."
+    },
+    {
+     "tekst": "Ok. 35 minut, bez oznaczania trudnych",
+     "poprawna": false,
+     "wyjasnienie": "Bez oznaczania i drugiego przejścia plan nie działa.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-03-tempo-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-08"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 2,
+   "tresc": "Kiedy odpowiedź „wszystkie powyższe” może być poprawna?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Nigdy, bo to zawsze pułapka",
+     "poprawna": false,
+     "wyjasnienie": "Bywa poprawna, np. przy składnikach Celu Ładu.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Zawsze, gdy jest najdłuższą odpowiedzią w pytaniu",
+     "poprawna": false,
+     "wyjasnienie": "Długość odpowiedzi niczego nie dowodzi.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Gdy choć jedna z pozostałych jest prawdziwa",
+     "poprawna": false,
+     "wyjasnienie": "Muszą być prawdziwe wszystkie, a nie jedna.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Gdy każda pozostała jest prawdziwa i na temat",
+     "poprawna": true,
+     "wyjasnienie": "Tylko wtedy „wszystkie powyższe” jest pełną odpowiedzią."
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-04-powtorka-pr-en-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 2,
+   "tresc": "Która nazwa zasady 3 jest zgodna z egzaminem PL?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej",
+     "poprawna": true,
+     "wyjasnienie": "To egzaminacyjna nazwa zasady 3."
+    },
+    {
+     "tekst": "Stosowanie jednej zintegrowanej metodyki",
+     "poprawna": false,
+     "wyjasnienie": "Tak brzmi nazwa w podręczniku PL.",
+     "pulapka": "forma-podrecznikowa"
+    },
+    {
+     "tekst": "Pokrycie całej organizacji",
+     "poprawna": false,
+     "wyjasnienie": "To zasada 2.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Aktywacja holistycznego podejścia",
+     "poprawna": false,
+     "wyjasnienie": "To zasada 4.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-04-powtorka-pr-en-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "bloom": "rozumienie",
+   "trudnosc": 2,
+   "tresc": "Które zdanie o kategoriach celów aktywatora jest prawdziwe?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Są czterema wymiarami aktywatora",
+     "poprawna": false,
+     "wyjasnienie": "Wymiary to interesariusze, cele, cykl życia i dobre praktyki.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Są trzy i należą do wymiaru Cele",
+     "poprawna": true,
+     "wyjasnienie": "Jakość wewnętrzna, kontekstowa oraz dostęp i bezpieczeństwo to części wymiaru Cele (s. 29)."
+    },
+    {
+     "tekst": "To wskaźniki wiodące i opóźnione",
+     "poprawna": false,
+     "wyjasnienie": "Wskaźniki należą do zarządzania wydajnością aktywatora.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Dotyczą tylko aktywatora Informacja",
+     "poprawna": false,
+     "wyjasnienie": "Dotyczą wszystkich siedmiu aktywatorów.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-05-powtorka-im-pc-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "tresc": "Proces powiadamiania ma oceny: PA 1.1 = P, PA 2.1 = P, PA 2.2 = W, PA 3.1 = C. Jaki poziom zdolności osiągnął?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Poziom 3 – proces ustanowiony",
+     "poprawna": false,
+     "wyjasnienie": "PA 3.1 = C to za mało, a PA 2.2 musiałby mieć P.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 1 – proces wykonywany",
+     "poprawna": false,
+     "wyjasnienie": "Poziom 2 jest już osiągnięty, więc to za nisko.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Poziom 2 – proces zarządzany",
+     "poprawna": true,
+     "wyjasnienie": "Atrybuty poziomu 2 mają W lub P, a PA 1.1 ma P. PA 3.1 = C nie wystarcza na poziom 3."
+    },
+    {
+     "tekst": "Poziom 4 – proces przewidywalny",
+     "poprawna": false,
+     "wyjasnienie": "Atrybuty poziomu 4 nie zostały nawet ocenione.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-05-powtorka-im-pc-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 2,
+   "tresc": "Uzasadnienie biznesowe we wdrożeniu COBIT 5 jest:",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "dokumentem pisanym jeden raz, przed rozpoczęciem fazy 1",
+     "poprawna": false,
+     "wyjasnienie": "Nie pisze się go raz – aktualizuje się je w kolejnych fazach.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "tym samym co mapa drogowa",
+     "poprawna": false,
+     "wyjasnienie": "Mapa drogowa to plan dojścia z fazy 3.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "potrzebne tylko w fazie 7",
+     "poprawna": false,
+     "wyjasnienie": "Jest potrzebne od początku do końca wdrożenia.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "dokumentem dynamicznym, który się aktualizuje",
+     "poprawna": true,
+     "wyjasnienie": "Uzasadnienie żyje przez cały program i zmienia się z nim."
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-06-dzien-egzaminu-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-08"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Z jakich materiałów możesz korzystać na egzaminie COBIT 5 Foundation?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Z żadnych",
+     "poprawna": true,
+     "wyjasnienie": "Egzamin jest „closed book”."
+    },
+    {
+     "tekst": "Z podręcznika COBIT 5 w wersji PL",
+     "poprawna": false,
+     "wyjasnienie": "Podręcznik jest niedozwolony.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Z własnej ściągi na jednej kartce",
+     "poprawna": false,
+     "wyjasnienie": "Ściąga z kursu służy tylko do powtórki przed egzaminem.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Ze słowniczka nazw egzaminacyjnych",
+     "poprawna": false,
+     "wyjasnienie": "Żaden słowniczek nie jest dozwolony.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-zap-ex-06-dzien-egzaminu-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "M0-00-08"
+   ],
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Ile pytań i ile minut ma standardowy egzamin COBIT 5 Foundation?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "40 pytań i 50 minut",
+     "poprawna": false,
+     "wyjasnienie": "Liczby są zamienione.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "50 pytań i 40 minut",
+     "poprawna": true,
+     "wyjasnienie": "Tak podaje sylabus. Dodatkowe 10 minut dostają osoby zdające w języku innym niż ojczysty."
+    },
+    {
+     "tekst": "50 pytań i 60 minut",
+     "poprawna": false,
+     "wyjasnienie": "Czas wynosi 40 minut.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "100 pytań i 40 minut",
+     "poprawna": false,
+     "wyjasnienie": "Pytań jest 50.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-pre-pr-09-wymiary-cztery",
+   "typ": "rozpoznanie",
+   "sylabus": [
+    "PR-02-12"
+   ],
+   "lekcja": "pr-09-wymiary-aktywatora",
+   "bloom": "wiedza",
+   "trudnosc": 1,
+   "tresc": "Który z poniższych jest jednym z czterech wymiarów aktywatora?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Budżet",
+     "poprawna": false,
+     "wyjasnienie": "Budżet nie jest wymiarem aktywatora.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom zdolności",
+     "poprawna": false,
+     "wyjasnienie": "Poziom zdolności to pojęcie z oceny procesów (dzień 4).",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Cykl życia",
+     "poprawna": true,
+     "wyjasnienie": "Cykl życia to jeden z czterech wymiarów: Interesariusze, Cele, Cykl życia, Dobre praktyki."
+    },
+    {
+     "tekst": "Wyznacznik",
+     "poprawna": false,
+     "wyjasnienie": "Wyznacznik zmienia potrzeby interesariuszy. Nie jest wymiarem aktywatora.",
+     "pulapka": "inna-kategoria"
+    }
+   ],
+   "pretest": true
+  },
+  {
+   "id": "q-pr2-pr-09-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-12"
+   ],
+   "lekcja": "pr-09-wymiary-aktywatora",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Kpt. Sikora przejmuje z innej komendy sprawdzony sposób comiesięcznej weryfikacji numerów OSP: co trzeba mieć na wejściu i jaki wynik ma powstać. Który wymiar aktywatora opisuje?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Wyznacznik potrzeb",
+     "poprawna": false,
+     "wyjasnienie": "Wyznacznik zmienia potrzeby. Nie jest wymiarem aktywatora.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Cele",
+     "poprawna": false,
+     "wyjasnienie": "Cele mówią, co lista ma dawać, a nie jak ją sprawdzać.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Interesariusze",
+     "poprawna": false,
+     "wyjasnienie": "Interesariusze to osoby, których lista dotyczy.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Dobre praktyki",
+     "poprawna": true,
+     "wyjasnienie": "Sprawdzony sposób wdrożenia wraz z wejściami i wynikami to dobre praktyki (s. 29)."
+    }
+   ]
+  },
+  {
+   "id": "q-pr2-pr-09b-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-12"
+   ],
+   "lekcja": "pr-09b-kategorie-celow-aktywatora",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Dyżurna mówi: „Numery na liście są poprawne, ale ułożone po nazwiskach. W nocy szukam po nazwie jednostki i tracę czas”. Której kategorii celów aktywatora dotyczy problem?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "przyklad",
+   "opcje": [
+    {
+     "tekst": "Jakości kontekstowej",
+     "poprawna": true,
+     "wyjasnienie": "Lista nie jest łatwa w użyciu w tej sytuacji, a to jakość kontekstowa (s. 29)."
+    },
+    {
+     "tekst": "Jakości wewnętrznej",
+     "poprawna": false,
+     "wyjasnienie": "Numery są poprawne, więc jakość wewnętrzna jest w porządku.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Dostępu i bezpieczeństwa",
+     "poprawna": false,
+     "wyjasnienie": "Dyżurna ma dostęp do listy. Problemem jest jej układ.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Dobrych praktyk",
+     "poprawna": false,
+     "wyjasnienie": "Dobre praktyki to wymiar aktywatora, a nie kategoria celów.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  }
+ ]
+}

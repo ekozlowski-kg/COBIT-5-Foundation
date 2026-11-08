@@ -1,0 +1,113 @@
+{
+  "id": "faza-2",
+  "en": "Phase 2: Where are we now?",
+  "wymowa": "fejz 2 łer ar łi nał",
+  "wymowaAkcent": "fejz 2 łer ar łi nał",
+  "plEgzamin": "Faza 2: Gdzie jesteśmy teraz?",
+  "plPodrecznik": "Faza 2: Jaka jest nasza obecna sytuacja?",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Faza 2: Gdzie jesteśmy teraz?",
+    "podrecznik": "Faza 2: Jaka jest nasza obecna sytuacja?",
+    "kurs": "Faza 2: Gdzie jesteśmy teraz? (Phase 2: Where are we now?)",
+    "uwaga": "Egzamin PL: „Faza 2: Gdzie jesteśmy teraz?”; podręcznik PL: „Faza 2: Jaka jest nasza obecna sytuacja?” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin i kurs: „Gdzie jesteśmy teraz?”. Il. 17 w podręczniku: „Jaka jest nasza obecna sytuacja?”. To ta sama faza 2.",
+  "skadNazwa": "Tłumaczenie angielskiego *Where are we now?*. Podręcznik oddał je swobodniej jako „Jaka jest nasza obecna sytuacja?”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "faza-1",
+    "kaskada-celow",
+    "model-zdolnosci"
+  ],
+  "poLudzku": "Drugi krok: ustalasz, co obejmie zmiana, i uczciwie sprawdzasz, jak jest teraz.",
+  "wyobrazSobie": "Przed dietą stajesz na wadze i robisz badania krwi. Bez tego nie wiesz, od czego zacząć.",
+  "poziom1": "Druga z [[fazy-wdrozenia|siedmiu faz]]. Określa się zakres: mapowanie celów organizacji na cele IT i procesy, scenariusze ryzyka. Potem ocenia się stan obecny i szacuje potencjał (zdolność) procesów, żeby znaleźć problemy.",
+  "poziom2": "| Pierścień | Działanie w fazie 2 („Gdzie jesteśmy teraz?”) |\n|---|---|\n| Zarządzanie programem (zewnętrzny) | Definiowanie problemów i okazji (SP1) |\n| Aktywowanie zmiany (środkowy) | Utworzenie zespołu wdrożeniowego |\n| Cykl życia ciągłego doskonalenia (wewnętrzny) | Ocena stanu obecnego |\n\nOznaczenia nazw działań: **(SP1)** – nazwa z polskiego arkusza egzaminacyjnego; bez oznaczenia – tłumaczenie kursu z *COBIT 5 Implementation* (ISACA), jak w lekcji 3.4.\n\nW tej fazie podręcznik daje też regułę iteracji: inicjatywa dłuższa niż **6 miesięcy** grozi utratą dynamiki, koncentracji i akceptacji interesariuszy. Dlatego duże wdrożenie dzieli się na kilka obrotów cyklu.",
+  "poziom3": "(s. 38): w fazie 2 *„definiuje się zakres inicjatywy”* z wykorzystaniem mapowania celów przedsiębiorstwa na cele związane z IT i procesy IT oraz scenariuszy ryzyka. *„Następnie przeprowadza się ocenę aktualnego stanu oraz szacowanie potencjału procesu”*, które umożliwia identyfikację problemów lub niedoskonałości.",
+  "poCo": "Żeby ustalić zakres zmiany i uczciwie zmierzyć, jak jest teraz. Bez punktu wyjścia nie zmierzysz postępu.",
+  "jakDziala": "Mapujesz cele organizacji na cele związane z informatyką i na procesy. Uwzględniasz scenariusze ryzyka. Potem oceniasz stan obecny i zdolność wybranych procesów, żeby znaleźć problemy.",
+  "dlaczegoWazne": "Egzamin łączy ocenę stanu obecnego i zdolności procesu z fazą 2. Tu pada też reguła: iteracja dłuższa niż 6 miesięcy grozi utratą dynamiki.",
+  "przyklady": {
+    "zycie": "Postanowiłeś schudnąć. Teraz stajesz na wadze, mierzysz pas i przez tydzień zapisujesz, co jesz. Wybierasz też, że zajmiesz się jedzeniem, a nie snem. To faza 2: zakres i uczciwy obraz stanu.",
+    "biuro": "Przez dwa tygodnie zapisujesz, ile trwa znalezienie umowy w archiwum. Wychodzi średnio 20 minut, a najgorzej jest przy starych teczkach.",
+    "organizacja": "Sklep internetowy przez dwa tygodnie liczy czas wysyłek i zawęża zmiany do magazynu. Starostwo mierzy czas obsługi i wybiera rejestrację aut jako obszar zmian.",
+    "psp": "**Stoper w SK**\nAudytorka Ewa Lis przez miesiąc mierzy czasy alarmów i ocenia zdolność procesu powiadamiania. Naczelnik Marek Sikora mapuje cel „szybsza pomoc” na cele IT i procesy. Komendantka tworzy zespół wdrożeniowy z Sikorą, Lis i dyżurną Kasią Nowik. To [[faza-2|faza 2: Gdzie jesteśmy teraz?]]",
+    "it": "Kaskada celów wskazuje proces DSS02 jako kluczowy dla celów organizacji. Asesor ocenia jego zdolność i stwierdza poziom 1."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "faza-1",
+      "roznica": "Faza 1 uzgadnia, dlaczego zmieniamy. Faza 2 mierzy, jak jest, i określa zakres."
+    },
+    {
+      "termin": "faza-3",
+      "roznica": "Faza 2 opisuje stan obecny. Faza 3 ustala stan docelowy i lukę między nimi."
+    }
+  ],
+  "przykladWypowiedzi": "W fazie 2, Where are we now?, czyli Gdzie jesteśmy teraz?, oceniamy stan obecny (current state) i zdolność procesów.",
+  "egzamin": "**Ocena stanu obecnego** i oszacowanie zdolności procesu → **faza 2**. Działanie programu w fazie 2: **Definiowanie problemów i okazji**. Reguła **6 miesięcy** (dzielenie na iteracje) pada w opisie fazy 2.",
+  "powiazane": [
+    "fazy-wdrozenia",
+    "faza-1",
+    "faza-3",
+    "pierscien-doskonalenie",
+    "kaskada-celow",
+    "model-zdolnosci"
+  ],
+  "sylabus": [
+    "IM-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "W fazie 2 definiuje się zakres inicjatywy związanej z wdrożeniem lub doskonaleniem"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "Następnie przeprowadza się ocenę aktualnego stanu oraz szacowanie potencjału procesu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "cytat": "której realizacja trwa dłużej niż sześć miesięcy, istnieje ryzyko utraty dynamiki"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 38,
+      "ilustracja": "17"
+    }
+  ],
+  "mapa": "faza-2",
+  "glebokosc": {
+    "prosty": "Chcesz uporządkować domowe wydatki. Przez miesiąc zapisujesz każdy paragon. Na końcu widzisz, ile naprawdę idzie na jedzenie, a ile na drobiazgi. Bez tego obrazu nie da się sensownie ustalić celu.",
+    "zaawansowany": "Sikora zaczyna od [[kaskada-celow|kaskady celów]]: cel komendy „szybka pomoc” prowadzi do kilku procesów IT. Wybiera na początek proces powiadamiania, bo tam scenariusz ryzyka był najgroźniejszy. Lis ocenia jego [[model-zdolnosci|zdolność]] i daje poziom 1. Wrzos tworzy zespół wdrożeniowy, a program spisuje problemy i okazje.",
+    "skrajny": "Lis robi ocenę zdolności procesu powiadamiania dwa razy: w marcu i we wrześniu. Ta sama metoda, ten sam arkusz, a jednak to dwie różne fazy. Marcowa ocena opisuje stan obecny, więc należy do fazy 2. Wrześniowa sprawdza efekt zmian, więc służy fazom 6–7. Druga pułapka: zespół wdrożeniowy (faza 2) to nie to samo co odtwórcy ról (faza 4). Zespół prowadzi zmianę, a odtwórcy ról to szersza grupa osób z nowymi rolami. **Rozstrzygnięcie:** fazę wyznacza cel czynności, a nie narzędzie; pomiar „jak jest teraz, zanim zmienimy” to zawsze faza 2 (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Zakres wdrożenia ustala się w fazie 1, razem z powodami.",
+      "prawda": "Podręcznik umieszcza określenie zakresu (mapowanie celów, scenariusze ryzyka) w fazie 2."
+    },
+    {
+      "mit": "Reguła 6 miesięcy dotyczy fazy 5, bo tam się wdraża.",
+      "prawda": "Podręcznik podaje ją w opisie fazy 2. Chodzi o to, żeby całą dużą inicjatywę podzielić na iteracje."
+    },
+    {
+      "mit": "Ocena zdolności procesu zawsze oznacza fazę 2.",
+      "prawda": "Tylko wtedy, gdy opisuje stan przed zmianą. Ta sama ocena po zmianach sprawdza efekty."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli fazę 2 z fazą 3, bo obie mówią o „analizie”. Faza 2 opisuje stan, faza 3 – cel i lukę.",
+    "jakTlumaczyc": "Użyj nawigacji w telefonie: najpierw GPS musi wiedzieć, gdzie stoisz (faza 2). Dopiero potem wpisujesz cel (faza 3).",
+    "pytanieKontrolne": "W której fazie podręcznik opisuje mapowanie celów na procesy IT i ocenę aktualnego stanu? Jaka reguła o czasie trwania tam pada?",
+    "odpowiedzKontrolna": "W **fazie 2**. Pada tam reguła: inicjatywa dłuższa niż **6 miesięcy** grozi utratą dynamiki, więc trzeba ją dzielić na iteracje."
+  }
+}

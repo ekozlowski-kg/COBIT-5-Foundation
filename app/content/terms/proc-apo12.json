@@ -1,0 +1,128 @@
+{
+  "id": "proc-apo12",
+  "en": "APO12 Manage Risk",
+  "wymowa": "ejpio 12 menydż risk",
+  "wymowaAkcent": "ej-pi-O 12 ME-nydż risk",
+  "plEgzamin": "APO12 Zarządzanie ryzykiem",
+  "plPodrecznik": "APO12 Zarządzanie ryzykiem",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO12 Zarządzanie ryzykiem",
+    "podrecznik": "APO12 Zarządzanie ryzykiem",
+    "kurs": "APO12 Zarządzanie ryzykiem (APO12 Manage Risk)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie APO12 i słowie kluczowym EN *Manage Risk*. Nie myl z EDM03 Zapewnienie optymalizacji ryzyka (Ład). APO12 to codzienna praca z ryzykiem w Zarządzaniu.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "ryzyko",
+    "proc-edm03"
+  ],
+  "poLudzku": "Ciągłe wyszukiwanie, co może pójść źle w informatyce, ocenianie tego i przygotowanie, co wtedy zrobimy.",
+  "wyobrazSobie": "Ratownik na plaży: obserwuje wodę, ocenia zagrożenia i reaguje. Granice kąpieliska wyznaczyła gmina.",
+  "poCo": "Żeby ryzyko IT było stale rozpoznawane, oceniane i ograniczane do poziomu, który organizacja akceptuje.",
+  "jakDziala": "Kierownictwo IT zbiera dane o ryzyku i analizuje je. Utrzymuje profil ryzyka i informuje o nim. Dobiera reakcje: unikanie, ograniczanie, przeniesienie albo akceptację, w granicach apetytu ustalonego przez Ład.",
+  "dlaczegoWazne": "APO12 to codzienna praca z ryzykiem w Zarządzaniu. Para APO12 i EDM03 to jedna z najczęściej mylonych par na egzaminie.",
+  "skadNazwa": "EN *Manage Risk*. Proste tłumaczenie. Myli to, że „ryzyko” ma też EDM03. Proces czerpie z modelu Risk IT.",
+  "poziom1": "Proces Zarządzania o ryzyku IT. Stale rozpoznaje, ocenia i ogranicza ryzyko związane z IT, żeby mieściło się w granicach ustalonych przez kierownictwo i Ład.",
+  "poziom2": "**Czym się zajmuje:** zbiera dane o ryzyku, analizuje je, utrzymuje profil ryzyka, informuje o ryzyku i dobiera reakcje.\n\n**Wejścia (intuicja):** apetyt na ryzyko z [[proc-edm03]], zdarzenia i incydenty, ryzyka dostawców z [[proc-apo10]].\n\n**Wyjścia (intuicja):** rejestr i profil ryzyka, raporty o ryzyku, plan działań (unikanie, ograniczanie, przeniesienie albo akceptacja ryzyka).\n\n**Współpraca:** ryzyko bezpieczeństwa informacji rozwija [[proc-apo13]], a ciągłość działania DSS04. Ryzyka ponad apetyt wracają do [[proc-edm03]].",
+  "poziom3": "Il. 16 (s. 33): „APO12 Zarządzanie ryzykiem”. Załącznik E (s. 60): ISO/IEC 31000 obejmuje *„procesy związane z zarządzaniem ryzykiem w domenach EDM i APO.”* Słownik (s. 93): ryzyko to *„Połączenie prawdopodobieństwa zdarzenia i jego konsekwencji (ISO/IEC 73).”* Interesariusze pytają: *„Czy uwzględniłem całe zidentyfikowane ryzyko związane z IT?”* (il. 7, s. 22). Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Przed wyjazdem na wakacje spisujesz, co może pójść źle: kradzież, zalanie, zgubiony paszport. Oceniasz, co najgroźniejsze. Kupujesz ubezpieczenie, prosisz sąsiada o zaglądanie i robisz kopię paszportu. To APO12.",
+    "biuro": "Kierownik biura spisuje, co może pójść źle: awaria komputera z fakturami, zgubiony klucz do archiwum, choroba jedynej księgowej. Przy każdym ryzyku zapisuje, co zrobi, i co kwartał to przegląda.",
+    "organizacja": "Kierownik ryzyka IT w banku prowadzi rejestr ryzyk: awaria centrum danych, wyciek danych, odejście kluczowych ludzi. Co miesiąc aktualizuje oceny i postęp działań. Raport trafia do zarządu. To APO12. Informatyk starostwa analizuje: co, jeśli wirus zaszyfruje dane? Ocenia prawdopodobieństwo i skutki. Proponuje kopie zapasowe poza budynkiem i szkolenie pracowników. To APO12.",
+    "psp": "**Tablica w gabinecie Sikory.** Naczelnik Marek Sikora wypisuje na tablicy, co może zawieść w Syrenie: zasięg, prąd w serwerowni, nieaktualne numery. Ocenia każde ryzyko i dobiera reakcję, np. comiesięczną weryfikację numerów OSP. Raz w miesiącu aktualizuje rejestr. To jest [[proc-apo12|APO12]].",
+    "it": "Kierownik ryzyka IT prowadzi rejestr ryzyk z oceną prawdopodobieństwa i skutków oraz plan reakcji. To APO12. Ryzyka ponad apetyt eskaluje do [[proc-edm03]]. (interpretacja kursu: eskalacja)"
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-edm03",
+      "roznica": "EDM03 (Ład) ustala apetyt na ryzyko i rozlicza, czy go przestrzegamy. APO12 (Zarządzanie) rozpoznaje, analizuje i obsługuje ryzyko w tych granicach."
+    },
+    {
+      "termin": "proc-apo13",
+      "roznica": "APO13 prowadzi system zarządzania bezpieczeństwem informacji. APO12 obejmuje całe ryzyko IT, nie tylko bezpieczeństwo."
+    },
+    {
+      "termin": "proc-dss04",
+      "roznica": "DSS04 przygotowuje i ćwiczy plany ciągłości działania. APO12 ocenia ryzyka, z których te plany wynikają."
+    },
+    {
+      "termin": "ryzyko",
+      "roznica": "Ryzyko to pojęcie: prawdopodobieństwo i skutek. APO12 to proces, który ryzykiem zarządza."
+    }
+  ],
+  "przykladWypowiedzi": "APO12 *Manage Risk*, czyli „Zarządzanie ryzykiem”, prowadzi rejestr i profil ryzyka (*risk profile*); apetyt na ryzyko ustala EDM03 *Ensure Risk Optimisation*.",
+  "egzamin": "Słowa-klucze: **rejestr ryzyk, profil ryzyka, analiza scenariuszy, reakcja na ryzyko** → APO12. **Apetyt na ryzyko, kierunek zarządu** → EDM03.",
+  "powiazane": [
+    "apo",
+    "ryzyko",
+    "proc-edm03",
+    "proc-apo13",
+    "proc-dss04",
+    "optymalizacja-ryzyka"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO12 Zarządzanie ryzykiem"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "procesy związane z zarządzaniem ryzykiem w domenach EDM i APO."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Połączenie prawdopodobieństwa zdarzenia i jego konsekwencji (ISO/IEC 73)."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 22,
+      "ilustracja": "7",
+      "cytat": "Czy uwzględniłem całe zidentyfikowane ryzyko związane z IT?"
+    }
+  ],
+  "mapa": "proc-apo12",
+  "glebokosc": {
+    "prosty": "Przed burzą sprawdzasz dom: czy okna zamknięte, czy rynna drożna, czy w piwnicy nic nie stoi na podłodze. Robisz to regularnie, nie raz. Szukasz zagrożeń i zapobiegasz im.",
+    "zaawansowany": "Komendantka Wrzos ustaliła w [[proc-edm03]]: żaden alarm nie może zginąć. Naczelnik Sikora w APO12 szuka, co temu zagraża. Stary numer Pietrzaka to ryzyko wysokie, więc wprowadza comiesięczną weryfikację numerów. Ryzyko ataku na serwer przekazuje do [[proc-apo13]], a plan awaryjny do DSS04.",
+    "skrajny": "Sikora ocenia ryzyko awarii bramki SMS jako wysokie i proponuje drugą bramkę. Kosztuje to tyle, że trzeba odłożyć aplikację dla OSP. Kto decyduje? Ocena i propozycja to APO12. Jeśli reakcja mieści się w budżecie i w apetycie, Sikora wdraża ją w Zarządzaniu. Jeśli trzeba przyjąć ryzyko ponad apetyt albo zmienić priorytety komendy, decyzja wraca do Wrzos (EDM03). APO12 nie ustala apetytu, tylko pracuje w jego granicach. **Rozstrzygnięcie:** APO12 rozpoznaje, ocenia i obsługuje ryzyko w granicach apetytu; zmiana granic i ryzyko ponad apetyt → EDM03. (interpretacja kursu: zasada eskalacji)"
+  },
+  "zagmatwania": [
+    {
+      "mit": "APO12 ustala apetyt na ryzyko.",
+      "prawda": "Apetyt ustala Ład (EDM03). APO12 utrzymuje ryzyko w jego granicach."
+    },
+    {
+      "mit": "Zarządzanie ryzykiem to praca raz w roku.",
+      "prawda": "APO12 działa ciągle: dane o ryzyku zbiera się na bieżąco."
+    },
+    {
+      "mit": "APO12 i APO13 to to samo, bo bezpieczeństwo to ryzyko.",
+      "prawda": "APO13 dotyczy bezpieczeństwa informacji. APO12 obejmuje całe ryzyko IT: projekty, dostawców, ludzi, awarie."
+    },
+    {
+      "mit": "Ocena, czy mechanizmy kontrolne działają, to APO12.",
+      "prawda": "Ocena systemu kontroli wewnętrznej to MEA02. APO12 analizuje ryzyka i dobiera reakcje."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera APO12 nawet wtedy, gdy pytanie mówi o apetycie na ryzyko ustalanym przez zarząd.",
+    "jakTlumaczyc": "Ratownik na plaży (APO12) pilnuje wody i reaguje. Granice kąpieliska wyznacza gmina (EDM03).",
+    "pytanieKontrolne": "Kierownik IT po nowym incydencie aktualizuje profil ryzyka i plan reakcji. Który to proces?",
+    "odpowiedzKontrolna": "APO12, czyli utrzymanie profilu ryzyka i reakcji. To Zarządzanie, a nie Ład."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "dostep-i-bezpieczenstwo",
+  "en": "Accessibility and security",
+  "wymowa": "aksesebiliti end sikjuriti",
+  "wymowaAkcent": "ak-se-se-BI-li-ti end si-KJU-ri-ti",
+  "plEgzamin": "Dostęp i Bezpieczeństwo",
+  "plPodrecznik": "Dostęp i bezpieczeństwo / Dostępność i bezpieczeństwo",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Dostęp i Bezpieczeństwo",
+    "podrecznik": "Dostęp i bezpieczeństwo / Dostępność i bezpieczeństwo",
+    "kurs": "Dostęp i Bezpieczeństwo (Accessibility and security)",
+    "uwaga": "Egzamin PL: „Dostęp i Bezpieczeństwo”; podręcznik PL: „Dostęp i bezpieczeństwo / Dostępność i bezpieczeństwo” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 28, 29, 63."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "aktywator",
+    "cele-aktywatorow"
+  ],
+  "poLudzku": "Informacja ma być dostępna dla tych, którzy jej potrzebują, i schowana przed tymi, którzy nie powinni jej mieć.",
+  "wyobrazSobie": "Skrytka w banku: właściciel może z niej skorzystać, kiedy potrzebuje, a obcy nie dostaną się do niej wcale.",
+  "poCo": "Żeby aktywatory i ich wyniki były dostępne wtedy, gdy są potrzebne, i chronione przed tymi, którzy nie powinni mieć do nich dostępu.",
+  "jakDziala": "To trzecia kategoria celów aktywatora (enabler goals), obok jakości wewnętrznej (intrinsic quality) i jakości kontekstowej (contextual quality). Sprawdza dwie rzeczy: czy aktywator jest dostępny w razie potrzeby (accessibility) i czy jego wyniki są zabezpieczone, czyli dostępne tylko dla uprawnionych (security). Dla aktywatora Informacja odpowiadają temu kryteria dostępności i ograniczonego dostępu.",
+  "dlaczegoWazne": "Na egzaminie trzeba wymienić trzy kategorie celów aktywatora i nie mylić tej kategorii z procesami bezpieczeństwa APO13 i DSS05.",
+  "poziom1": "Czy dana rzecz jest pod ręką wtedy, gdy jej potrzebujesz, i czy nie dobierze się do niej ktoś niepowołany (np. system działa w nocy, ale dane widzi tylko uprawniony). To trzecia kategoria celów aktywatora, obok jakości wewnętrznej i kontekstowej.",
+  "poziom2": "Trzecia kategoria celów aktywatora: (a) **aktywatory są dostępne w razie potrzeby**; (b) **wyniki są zabezpieczone**, czyli dostępne tylko dla uprawnionych, którzy ich potrzebują.",
+  "poziom3": "(s. 29): *„Dostęp i bezpieczeństwo — stopień, w jakim czynniki umożliwiające oraz ich rezultaty są dostępne i zabezpieczone”*.",
+  "przyklady": {
+    "zycie": "Dziecko rozcina kolano, a Ty po 10 sekundach masz apteczkę w ręku, bo zawsze stoi w tej samej szafce. Ta szafka jest wysoko i zamknięta, więc młodsze dziecko nie dobierze się do leków. Pod ręką, kiedy trzeba, i poza zasięgiem niepowołanych – to dostęp i bezpieczeństwo.",
+    "biuro": "Segregator z umowami klientów stoi w szafie przy biurku kierowniczki, więc gdy klient dzwoni z pytaniem, jest pod ręką. Szafa jest zamykana na klucz, a klucz mają tylko kierowniczka i księgowa.",
+    "firma": "W ostatni dzień miesiąca księgowa warsztatu zamyka rozliczenia, a program księgowy po prostu działa. Jednocześnie listę płac widzi tylko ona i właściciel, mechanicy nie mają do niej wglądu. Dostępne, gdy trzeba, i chronione przed niepowołanymi – to dostęp i bezpieczeństwo.",
+    "admin": "Mieszkaniec przychodzi do urzędu o 15:30, a urzędniczka od ręki sprawdza jego dane w rejestrze. Stażysta widzi w tym samym rejestrze tylko sprawy, które sam prowadzi, a nikt z zewnątrz nie ma do niego dostępu. Tak wygląda cel „dostęp i bezpieczeństwo” dla rejestru.",
+    "psp": "O 3 w nocy dyżurny SK dostaje zgłoszenie z CPR 112, a SWD-PSP działa bez zarzutu. Dane osobowe zgłaszającego widzą tylko uprawnieni, a nie każdy, kto wejdzie do pomieszczenia SK. System dostępny całą dobę i chroniony przed niepowołanymi – to dostęp i bezpieczeństwo.",
+    "it": "Dla aktywatora Informacja, czyli bazy numerów telefonów w Syrenie, cel dostępu i bezpieczeństwa brzmi: baza działa w każdej chwili, gdy dyżurny wysyła alarm, a numery ochotników widzą tylko uprawnieni. Zabezpieczenia techniczne zapewnia proces DSS05 Zarządzanie usługami bezpieczeństwa."
+  },
+  "glebokosc": {
+    "prosty": "Apteczka w domu ma być pod ręką, gdy dziecko się skaleczy. Ale leki na receptę trzymasz wysoko, żeby maluch ich nie dosięgnął. Jedno i drugie naraz: dostępne dla potrzebujących i schowane przed niepowołanymi.",
+    "zaawansowany": "Baza numerów OSP w Syrenie ma dwa cele dostępu i bezpieczeństwa. Musi działać o 3 w nocy, gdy Grab klika „alarm”. Nie może jej też przeglądać każdy, bo zawiera prywatne telefony ochotników Pietrzaka. Ola Dudek nadaje uprawnienia tylko dyżurnym i administratorom. To trzecia kategoria celów aktywatora, obok [[jakosc-wewnetrzna|jakości wewnętrznej]] i [[jakosc-kontekstowa|jakości kontekstowej]].",
+    "skrajny": "„Dane OSP są aktualne” – czy to dostęp i bezpieczeństwo? Nie: aktualność to jakość kontekstowa, a poprawność to jakość wewnętrzna. Dostęp i bezpieczeństwo pyta tylko o dwie rzeczy: czy aktywator jest dostępny w razie potrzeby i czy wyniki są zabezpieczone przed nieuprawnionymi. Druga pułapka: kategoria dotyczy każdego aktywatora, nie tylko informacji, np. procedura alarmowa ma być dostępna dla dyżurnego, gdy jest potrzebna. Trzecia: to kategoria celu, a nie procesy APO13 czy DSS05. **Rozstrzygnięcie:** „czy dostanę się, gdy trzeba, i czy nie dostanie się niepowołany?” → Dostęp i Bezpieczeństwo; „czy to prawda?” → jakość wewnętrzna; „czy pasuje do zadania (aktualne, kompletne)?” → jakość kontekstowa."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Dostęp i Bezpieczeństwo dotyczy tylko informacji i systemów.",
+      "prawda": "To kategoria celów każdego aktywatora (s. 29), np. procedura też musi być dostępna wtedy, gdy jest potrzebna."
+    },
+    {
+      "mit": "Aktualność danych to sprawa dostępności.",
+      "prawda": "Aktualność należy do jakości kontekstowej. Dostęp i Bezpieczeństwo pyta tylko, czy coś jest dostępne i czy jest chronione."
+    },
+    {
+      "mit": "Chodzi wyłącznie o ochronę przed włamaniem.",
+      "prawda": "Są dwie strony: dostępność w razie potrzeby i zabezpieczenie przed nieuprawnionymi. Brak dostępu dla uprawnionej osoby to też porażka tej kategorii."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Wrzucanie aktualności i poprawności do dostępu i bezpieczeństwa oraz utożsamianie tej kategorii z procesami bezpieczeństwa.",
+    "jakTlumaczyc": "Drzwi z zamkiem: mają się otwierać przed domownikami (dostęp) i nie otwierać przed złodziejem (bezpieczeństwo). To, co jest w środku i czy jest świeże, to już sprawa jakości.",
+    "pytanieKontrolne": "Dyżurny o 3 w nocy nie może zalogować się do Syreny, bo system wymaga hasła administratora. Który cel aktywatora jest naruszony i dlaczego to nie jakość wewnętrzna?",
+    "odpowiedzKontrolna": "Dostęp i Bezpieczeństwo, w części „dostępne w razie potrzeby”. Dane w Syrenie mogą być prawdziwe (jakość wewnętrzna) i aktualne (jakość kontekstowa), ale uprawniona osoba nie może z nich skorzystać."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Bezpieczeństwo informacji (APO13/DSS05)",
+      "roznica": "To procesy. Tu chodzi o kategorię celu każdego aktywatora."
+    }
+  ],
+  "przykladWypowiedzi": "Accessibility and security, czyli Dostęp i Bezpieczeństwo, to kategoria celów aktywatora: aktywator i jego wyniki mają być dostępne, gdy są potrzebne, i zabezpieczone przed nieuprawnionymi; obok niej są intrinsic quality i contextual quality.",
+  "egzamin": "„Dostępne kiedy potrzebne” i „wyniki zabezpieczone” → **Dostęp i Bezpieczeństwo** (s. 29).",
+  "powiazane": [
+    "wymiary-aktywatora",
+    "jakosc-wewnetrzna",
+    "jakosc-kontekstowa"
+  ],
+  "sylabus": [
+    "PR-02-12",
+    "EN-02-08"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "stopień, w jakim czynniki umożliwiające oraz ich rezultaty są dostępne"
+    },
+    {
+      "doc": "SP1",
+      "strona": 4
+    }
+  ],
+  "mapa": "dostep-i-bezpieczenstwo"
+}

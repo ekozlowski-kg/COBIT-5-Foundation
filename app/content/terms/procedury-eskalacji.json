@@ -1,0 +1,98 @@
+{
+  "id": "procedury-eskalacji",
+  "en": "Escalation procedures",
+  "wymowa": "eskalejszyn prosidżers",
+  "wymowaAkcent": "es-ka-LEJ-szyn pro-SI-dżers",
+  "plEgzamin": "Procedury eskalacji",
+  "plPodrecznik": "Procedury eskalacji",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Procedury eskalacji",
+    "podrecznik": "Procedury eskalacji",
+    "kurs": "Procedury eskalacji (Escalation procedures)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 75."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "dobre-praktyki-struktur",
+    "poziom-uprawnien"
+  ],
+  "mapa": "procedury-eskalacji",
+  "poziom1": "Procedura eskalacji to ustalona ścieżka na wypadek, gdy struktura ma problem z podjęciem decyzji. Mówi, komu przekazać sprawę wyżej i co trzeba przy tym zrobić. Dzięki temu decyzja nie utknie na zawsze.",
+  "poLudzku": "Umówiona droga, którą sprawa idzie wyżej, gdy zespół nie potrafi podjąć decyzji.",
+  "wyobrazSobie": "Sędzia główny na boisku: gdy sędziowie liniowi się nie zgadzają, wiadomo, kto rozstrzyga.",
+  "poCo": "Żeby decyzja nie utknęła, gdy struktura nie może jej podjąć.",
+  "jakDziala": "Procedura mówi, kiedy uznajemy, że decyzji nie da się podjąć, do kogo sprawa idzie wyżej i co trzeba przygotować. Eskalacja idzie w górę, w przeciwieństwie do delegowania. Słownik wspomina o eskalacji także przy wejściach od roli C.",
+  "dlaczegoWazne": "Egzamin pyta o definicję: ścieżka i działania przy problemach z podjęciem decyzji. Pułapką bywa eskalacja incydentów IT albo delegowanie.",
+  "poziom2": "| Element procedury | Pytanie |\n|---|---|\n| **kiedy** | Kiedy uznajemy, że decyzji nie da się podjąć (spór, brak kworum, sprawa ponad uprawnienia)? |\n| **ścieżka** | Do kogo sprawa idzie wyżej? |\n| **wymagane działania** | Co przygotować: opis sprawy, stanowiska, termin? |\n\nEskalacja pojawia się też w słowniku przy roli C: osoby R i A uwzględniają wejścia od C i w razie potrzeby eskalują, np. do właściciela procesu lub komitetu sterującego (s. 90).",
+  "poziom3": "(s. 75): *„Procedury eskalacji — ścieżka eskalacji dla struktury, opisująca wymagane działania w przypadku problemów z podjęciem decyzji.”*",
+  "przyklady": {
+    "zycie": "Rodzeństwo nie może się dogadać, kto dostaje większy pokój. Umówili się wcześniej: gdy po dwóch rozmowach nie ma zgody, decyduje mama. Tak działa procedura eskalacji: wiadomo, kiedy i do kogo sprawa idzie wyżej.",
+    "biuro": "W biurze dwa działy spierają się, kto ma obsługiwać nowego klienta. Regulamin mówi: po tygodniu bez porozumienia decyduje dyrektor operacyjny na podstawie krótkiej notatki obu stron.",
+    "organizacja": "W firmie budowlanej zespół projektu nie może wybrać dostawcy okien. Procedura mówi: po tygodniu bez decyzji kierownik projektu przekazuje sprawę dyrektorowi, z opisem dwóch ofert. Dyrektor rozstrzyga w 3 dni. Komisja przetargowa w gminie dzieli się po równo w ocenie ofert. Regulamin komisji mówi, że przy remisie decyduje głos przewodniczącego, a gdy przewodniczący jest wyłączony, sprawa idzie do wójta. To procedura eskalacji.",
+    "psp": "Rada ds. Informatyki w Modrzewiowie nie może się zgodzić, czy przedłużyć umowę z Kwant-Sygnałem. Sikora jest za, a księgowa Halina Mak przeciw. Regulamin Rady mówi: po dwóch posiedzeniach bez decyzji sprawa idzie do komendantki Wrzos z notatką o obu stanowiskach. Komendantka decyduje w tydzień. To procedura eskalacji.",
+    "it": "Gdy komitet sterujący programu nie może się zgodzić co do przesunięcia budżetu, sprawa trafia do komitetu ds. strategii (wykonawczego IT). Taka ścieżka powinna być zapisana z góry (przykład kursu)."
+  },
+  "glebokosc": {
+    "prosty": "Dwóch sędziów piłkarskich spiera się, czy był faul. Umówili się, że w takiej sytuacji decyduje sędzia główny. Gra nie stoi w miejscu. To procedura eskalacji: wiadomo, kto rozstrzyga, gdy nie ma zgody.",
+    "zaawansowany": "Rada ds. Informatyki utknęła w sprawie umowy z dostawcą. Jej [[poziom-uprawnien|poziom uprawnień]] pozwala na tę decyzję, ale członkowie się nie zgadzają. Regulamin mówi: po dwóch posiedzeniach sprawa idzie do komendantki z notatką. Zwróć uwagę na kierunek: eskalacja idzie w górę. Przekazanie drobnych zakupów wydziałowi szło w dół i było [[delegowanie-uprawnien|delegowaniem]].",
+    "skrajny": "Kasia Nowik słyszy na dyżurze: „Eskaluj awarię Syreny do serwisu”. Myśli, że to ta sama procedura eskalacji co w Radzie ds. Informatyki. Nie do końca. Dobra praktyka struktur dotyczy problemów z podjęciem decyzji przez strukturę organizacyjną. Przekazanie awarii wyżej, do serwisu, to część procesu obsługi incydentów (DSS02). Słowo jest to samo, ale miejsce w COBIT 5 jest inne. **Rozstrzygnięcie:** procedury eskalacji jako dobra praktyka struktur to ścieżka na wypadek problemów z decyzją. Eskalowanie incydentu należy do procesu, a nie do aktywatora Struktury organizacyjne (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Eskalacja to przyznanie się zespołu do porażki.",
+      "prawda": "To zaplanowana dobra praktyka. Dzięki niej decyzja nie utyka na zawsze."
+    },
+    {
+      "mit": "Każde „eskaluj” w organizacji to ta sama praktyka.",
+      "prawda": "Procedury eskalacji struktur dotyczą problemów z decyzją. Eskalacja incydentów IT to część procesu obsługi incydentów."
+    },
+    {
+      "mit": "Eskalacja i delegowanie to dwie nazwy tego samego.",
+      "prawda": "Eskalacja idzie w górę z problemem. Delegowanie idzie w dół z uprawnieniami."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera „eskalację”, gdy struktura przekazuje decyzje niżej, albo myli ją z eskalacją incydentu.",
+    "jakTlumaczyc": "Zadaj dwa pytania: w którą stronę idzie sprawa, w górę czy w dół? Czy chodzi o decyzję zespołu, czy o awarię?",
+    "pytanieKontrolne": "Komitet nie może osiągnąć zgody i według regulaminu przekazuje sprawę zarządowi z opisem stanowisk. Którą dobrą praktykę struktur stosuje?",
+    "odpowiedzKontrolna": "**Procedury eskalacji**: ścieżka i wymagane działania w przypadku problemów z podjęciem decyzji."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "delegowanie-uprawnien",
+      "roznica": "Eskalacja przenosi problem z decyzją W GÓRĘ. Delegowanie przekazuje uprawnienia W DÓŁ."
+    },
+    {
+      "termin": "poziom-uprawnien",
+      "roznica": "Poziom uprawnień mówi, co struktura może zdecydować. Eskalacja mówi, co robić, gdy decyzji nie da się podjąć."
+    }
+  ],
+  "przykladWypowiedzi": "Escalation procedures, czyli procedury eskalacji, define the path and required actions when a structure cannot reach a decision.",
+  "egzamin": "„Ścieżka i działania, gdy **nie da się podjąć decyzji**” → **procedury eskalacji**. Nie myl z delegowaniem (w dół).",
+  "powiazane": [
+    "dobre-praktyki-struktur",
+    "delegowanie-uprawnien",
+    "poziom-uprawnien",
+    "raci-c"
+  ],
+  "sylabus": [
+    "EN-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 75,
+      "cytat": "ścieżka eskalacji dla struktury, opisująca wymagane działania w przypadku problemów z podjęciem decyzji"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 90,
+      "cytat": "podjąć właściwe działania związane z eskalacją"
+    }
+  ]
+}

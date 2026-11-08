@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "important": "Nie ma zapisanych odpowiedzi użytkownika do testów 1–9. Wyniki podane wcześniej przez asystenta nie są zweryfikowaną historią prób.",
+  "user_reported_results": [
+    {
+      "test_id": "diagnostic",
+      "correct": 6,
+      "total": 10,
+      "percentage": 60,
+      "source": "Użytkownik napisał: Mój wynik diagnostyczny to 6/10.",
+      "status": "user_reported",
+      "answer_level_data": null
+    }
+  ],
+  "unverified_assistant_claims": [
+    {
+      "test_id": "test_01",
+      "claimed_correct": 7,
+      "total": 10,
+      "claimed_percentage": 70,
+      "status": "unverified_assistant_claim",
+      "claimed_weak_topics": [
+        "risk_optimisation",
+        "resource_optimisation",
+        "integrated_vs_holistic"
+      ],
+      "include_in_statistics": false
+    },
+    {
+      "test_id": "test_02",
+      "claimed_correct": 8,
+      "total": 10,
+      "claimed_percentage": 80,
+      "status": "unverified_assistant_claim",
+      "claimed_weak_topics": [
+        "integrated_vs_holistic",
+        "goals_cascade"
+      ],
+      "include_in_statistics": false
+    },
+    {
+      "test_id": "test_03",
+      "claimed_correct": 6,
+      "total": 10,
+      "claimed_percentage": 60,
+      "status": "unverified_assistant_claim",
+      "claimed_weak_topics": [
+        "integrated_vs_holistic",
+        "edm_evaluate_direct",
+        "operational_monitoring",
+        "enterprise_end_to_end"
+      ],
+      "include_in_statistics": false
+    },
+    {
+      "test_id": "test_04",
+      "claimed_correct": 8,
+      "total": 10,
+      "claimed_percentage": 80,
+      "status": "unverified_assistant_claim",
+      "claimed_weak_topics": [
+        "edm_evaluate_direct",
+        "operational_monitoring"
+      ],
+      "include_in_statistics": false
+    },
+    {
+      "test_id": "test_05",
+      "claimed_correct": 6,
+      "total": 10,
+      "claimed_percentage": 60,
+      "status": "unverified_assistant_claim",
+      "claimed_weak_topics": [
+        "dimension_lifecycle",
+        "dimension_stakeholders",
+        "quality_contextual"
+      ],
+      "include_in_statistics": false
+    },
+    {
+      "test_id": "test_06",
+      "claimed_correct": 6,
+      "total": 10,
+      "claimed_percentage": 60,
+      "status": "unverified_assistant_claim",
+      "claimed_weak_topics": [
+        "quality_contextual",
+        "dimension_lifecycle",
+        "domain_bai",
+        "enabler_dependencies"
+      ],
+      "include_in_statistics": false
+    },
+    {
+      "test_id": "test_07",
+      "claimed_correct": 6,
+      "total": 10,
+      "claimed_percentage": 60,
+      "status": "unverified_assistant_claim",
+      "claimed_weak_topics": [
+        "dimension_lifecycle",
+        "risk_vs_control",
+        "governance_framework",
+        "incident_vs_problem"
+      ],
+      "include_in_statistics": false
+    },
+    {
+      "test_id": "test_08",
+      "claimed_correct": 3,
+      "total": 10,
+      "claimed_percentage": 30,
+      "status": "unverified_assistant_claim",
+      "claimed_weak_topics": [
+        "resource_governance",
+        "incident_vs_problem",
+        "dimension_lifecycle",
+        "quality_vs_performance",
+        "change_vs_transition",
+        "human_resources_vs_governance",
+        "governance_framework"
+      ],
+      "include_in_statistics": false
+    }
+  ],
+  "pending_tests": [
+    {
+      "test_id": "test_09",
+      "status": "prepared_no_result"
+    }
+  ],
+  "verified_attempts": [],
+  "recommendation": "Powtórz Test 9 albo wykonaj nowy test kontrolny. Wylicz rzeczywisty wynik z udzielonych odpowiedzi; dopiero wtedy aktualizuj obszary słabości."
+}

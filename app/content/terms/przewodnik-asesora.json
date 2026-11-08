@@ -1,0 +1,106 @@
+{
+  "id": "przewodnik-asesora",
+  "en": "COBIT Assessor Guide",
+  "wymowa": "kołbit aseser gajd",
+  "wymowaAkcent": "KOŁ-bit a-SE-ser gajd",
+  "plEgzamin": "Przewodnik Asesora",
+  "plPodrecznik": "Przewodnik osoby oceniającej",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Przewodnik Asesora",
+    "podrecznik": "Przewodnik osoby oceniającej",
+    "kurs": "Przewodnik Asesora (COBIT Assessor Guide)",
+    "uwaga": "Egzamin PL: „Przewodnik Asesora”; podręcznik PL: „Przewodnik osoby oceniającej” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Przewodnik Asesora”. Według zestawienia różnic tłumaczenia (Altkom) wersja podręcznikowa to „Przewodnik osoby oceniającej”. Asesor to osoba oceniająca, a nie asystent.",
+  "skadNazwa": "Z angielskiego *Assessor Guide*. „Asesor” to kalka z angielskiego *assessor*, czyli osoba, która ocenia.",
+  "kategoria": "egzaminacyjne",
+  "status": "uproszczenie",
+  "poziomP": "P2",
+  "wymaga": [
+    "przewodniki-oceny",
+    "pam"
+  ],
+  "poziom1": "Przewodnik do formalnej, rygorystycznej oceny zdolności procesów zgodnej z ISO/IEC 15504. Mówi, jak zaplanować ocenę, zebrać i ocenić dowody oraz podać wynik. Opiera się na PAM, a ocenę prowadzi kompetentny asesor.",
+  "poLudzku": "Instrukcja dla zawodowego oceniającego: jak sprawdzić robotę rzetelnie, na podstawie dowodów.",
+  "wyobrazSobie": "Rzeczoznawca samochodowy: ogląda auto, sprawdza papiery i pisze opinię, z którą idziesz do ubezpieczyciela.",
+  "poCo": "Żeby formalna ocena procesów była rzetelna, powtarzalna i oparta na dowodach, którym można zaufać.",
+  "jakDziala": "Kompetentny asesor planuje ocenę, zbiera dowody (dokumenty, rozmowy, obserwacje) i ocenia atrybuty według PAM. Każdą ocenę uzasadnia dowodem. Wynik może służyć raportowaniu wewnętrznemu albo zewnętrznemu.",
+  "dlaczegoWazne": "Egzamin pyta o różnicę między trzema przewodnikami. Kluczowe jest to, że ocena asesora wymaga dowodów, a samoocena nie.",
+  "poziom2": "| Cecha | Przewodnik Asesora | [[przewodnik-samooceny|Przewodnik Samooceny]] |\n|---|---|---|\n| rygor | **wysoki**, formalny | niższy |\n| dowody | **wymagane** | niewymagane |\n| kto ocenia | kompetentny asesor | sama organizacja |\n| po co | formalna ocena, raportowanie, także zewnętrzne | rozpoznanie, przygotowanie do oceny formalnej |\n| podstawa | [[pam|PAM]] | PAM |\n\nTo uproszczenie na podstawie sylabusa i opisów ISACA. Samego przewodnika nie ma w korpusie.",
+  "poziom3": "Sylabus PC-02-02. (s. 45): cele oceny mogą być wewnętrzne albo zewnętrzne i *„dotyczyć formalnego oszacowania, raportowania i certyfikacji”*. (s. 43, przypis 12): program *COBIT Assessment Programme* oparty na ISO/IEC 15504.",
+  "przyklady": {
+    "zycie": "Rzeczoznawca wycenia mieszkanie do kredytu. Ogląda je, prosi o dokumenty, robi zdjęcia i pisze operat według ustalonej metody. Bank ufa wynikowi, bo oparto go na dowodach. Tak pracuje asesor.",
+    "biuro": "Przed wejściem do grupy kapitałowej biuro rachunkowe przechodzi formalną ocenę procesów. Asesor przegląda umowy, rejestry i maile i rozmawia z pracownikami. Każdą ocenę zapisuje razem z dowodem.",
+    "organizacja": "Duży klient żąda od firmy IT niezależnej oceny procesu zarządzania zmianami. Asesor przegląda wnioski o zmianę, protokoły i maile, rozmawia z ludźmi i uzasadnia każdą ocenę atrybutu. Pracuje według Przewodnika Asesora.\n\nPrzed wyborem dostawcy usług IT gmina zleca formalną ocenę jego procesów. Asesor zbiera dowody, dokumentuje każdą ocenę i składa raport. To ocena według Przewodnika Asesora.",
+    "psp": "**Ostrowska chce dowodów.** Inspektorka Lucyna Ostrowska zapowiada kontrolę i pyta, czy ocenę procesu powiadamiania da się sprawdzić. Audytorka Ewa Lis prowadzi ją według Przewodnika Asesora. Zbiera logi Syreny, listy numerów i grafiki, rozmawia z Grabem i Nowik. Każdą ocenę atrybutu zapisuje razem z dowodem.",
+    "it": "Asesor ocenia proces BAI06 według Przewodnika Asesora: zbiera wnioski o zmianę, protokoły komitetu zmian i zapisy z narzędzia. Każdą ocenę atrybutu, od PA 1.1 do PA 3.2, uzasadnia konkretnym dowodem."
+  },
+  "glebokosc": {
+    "prosty": "Egzaminator na prawo jazdy ma ściśle opisany sposób oceny. Patrzy na to, co robisz, i zapisuje każdy błąd. Twoja opinia o sobie się nie liczy, tylko to, co widział. Tak działa Przewodnik Asesora.",
+    "zaawansowany": "Komendantka Wrzos chce oceny, której nie podważy komenda wojewódzka. Ewa Lis wybiera Przewodnik Asesora i [[pam|PAM]]. Planuje ocenę, zbiera dowody dla [[wymiar-procesu|wymiaru procesu]] i [[wymiar-zdolnosci|wymiaru zdolności]] i ocenia atrybuty skalą N/C/W/P. Wcześniejsza [[przewodnik-samooceny|samoocena]] pomogła jej wiedzieć, gdzie szukać.",
+    "skrajny": "Sikora proponuje: „Weźmy wyniki naszej samooceny i podpiszmy je jako ocenę formalną”. Lis odmawia, bo samoocena nie wymagała dowodów, więc nie ma rygoru oceny formalnej. Odwrotnie też nie: Przewodnik Asesora to nie „samoocena robiona przez kogoś z zewnątrz”. To inna metoda, z planem, dowodami i kompetentnym asesorem. Trzecia pułapka: asesor nie musi być z zewnątrz. Ocenę formalną może prowadzić kompetentna osoba z organizacji, np. Lis jako audytorka wewnętrzna. **Rozstrzygnięcie:** Przewodnik Asesora = formalna ocena na dowodach. Decydują o tym rygor i dowody, a nie to, skąd jest oceniający (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Przewodnik Asesora i Przewodnik Samooceny to ten sam dokument dla różnych osób.",
+      "prawda": "To dwie różne metody. Ocena asesora wymaga dowodów i formalnego rygoru, samoocena nie."
+    },
+    {
+      "mit": "Asesor zawsze musi być z zewnątrz.",
+      "prawda": "Liczą się kompetencje i rygor oceny. Ocena formalna może mieć cel wewnętrzny albo zewnętrzny (s. 45) (interpretacja kursu)."
+    },
+    {
+      "mit": "Przewodnik Asesora zastępuje PAM.",
+      "prawda": "Przewodnik Asesora mówi, jak oceniać, a PAM daje model, według którego się ocenia."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń uważa, że jedyna różnica to to, kto ocenia: ktoś z zewnątrz czy ze środka.",
+    "jakTlumaczyc": "Porównaj do lekarza: badanie z wynikami z laboratorium (asesor) i ankieta „jak się czujesz” (samoocena). Różni je dowód, a nie budynek, w którym siedzi lekarz.",
+    "pytanieKontrolne": "Co odróżnia ocenę według Przewodnika Asesora od samooceny?",
+    "odpowiedzKontrolna": "Rygor i dowody: ocena asesora jest formalna, oparta na zebranych dowodach i prowadzona przez kompetentnego asesora. Samoocena nie wymaga dowodów. Obie opierają się na PAM."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "przewodnik-samooceny",
+      "roznica": "Samoocena to lżejsza metoda bez wymogu dowodów, służąca rozpoznaniu i przygotowaniu do oceny formalnej."
+    },
+    {
+      "termin": "pam",
+      "roznica": "PAM to model oceny (co i czym mierzyć). Przewodnik Asesora to sposób przeprowadzenia formalnej oceny."
+    }
+  ],
+  "przykladWypowiedzi": "The COBIT Assessor Guide, czyli Przewodnik Asesora, opisuje formalną ocenę zdolności procesów opartą na dowodach i na Process Assessment Model (PAM).",
+  "egzamin": "Formalna ocena **na dowodach** → **Przewodnik Asesora**. Lżejsza, bez dowodów → **Przewodnik Samooceny**. Oba opierają się na **PAM**.",
+  "powiazane": [
+    "przewodniki-oceny",
+    "pam",
+    "przewodnik-samooceny",
+    "cele-oceny"
+  ],
+  "sylabus": [
+    "PC-02-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "SYL"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "dotyczyć formalnego oszacowania, raportowania i certyfikacji"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "nowego programu COBIT Assessment Programme opartego na normie ISO/IEC 15504"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "przewodnik-asesora"
+}

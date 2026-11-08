@@ -1,0 +1,112 @@
+{
+  "id": "komponent-cel-ladu",
+  "en": "Governance objective: value creation",
+  "wymowa": "gawernens obdżektiw welju kriejszyn",
+  "wymowaAkcent": "GA-wer-nens ob-DŻEK-tiw WE-lju kri-EJ-szyn",
+  "plEgzamin": "Cel Ładu (Tworzenie Wartości)",
+  "plPodrecznik": "Cel nadzoru: tworzenie wartości",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cel Ładu (Tworzenie Wartości)",
+    "podrecznik": "Cel nadzoru: tworzenie wartości",
+    "kurs": "Cel Ładu (Tworzenie Wartości) – Governance objective: value creation",
+    "uwaga": "Egzamin PL: „Cel Ładu (Tworzenie Wartości)”; podręcznik PL: „Cel nadzoru: tworzenie wartości” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 9, 17, 23."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Cel Ładu”. Podręcznik: „Cel nadzoru”. Komponentem jest cel (tworzenie wartości), a nie praktyki Oszacuj, Kieruj i Monitoruj.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "system-ladu",
+    "tworzenie-wartosci",
+    "lad"
+  ],
+  "poLudzku": "Po co w ogóle decydujemy: żeby z wydanych pieniędzy i pracy był pożytek, bez zbędnego ryzyka.",
+  "skadNazwa": "*Governance objective*. Podręcznik: „cel nadzoru”, egzamin: „Cel Ładu”. Na Ilustracji 8 stoi nad trzema składnikami: korzyści, ryzyko, zasoby.",
+  "wyobrazSobie": "Cel podróży wpisany do nawigacji: auto, trasę i kierowcę dobierasz dopiero do niego.",
+  "poCo": "Żeby każda decyzja o IT miała jeden punkt odniesienia: czy tworzy wartość. Bez celu pozostałe komponenty nie mają kierunku.",
+  "jakDziala": "Organ Ładu formułuje cel jako tworzenie wartości: korzyści przy optymalnym ryzyku i zasobach. Aktywatory, zakres i role dobiera się tak, żeby temu celowi służyły. Każdą decyzję sprawdza się pytaniami z s. 17: kto odnosi korzyści, kto ponosi ryzyko, jakie zasoby są wymagane.",
+  "dlaczegoWazne": "Egzamin pyta o cztery komponenty Podejścia do Ładu i podsuwa EDM jako fałszywy komponent. Cel Ładu łączy też Zasadę 2 z Zasadą 1.",
+  "poziom1": "Pierwszy z czterech komponentów Podejścia do Ładu (Ilustracja 8). Odpowiada na pytanie „po co jest system Ładu?”. Odpowiedź: żeby tworzyć wartość, czyli dawać korzyści przy optymalnym ryzyku i zasobach.",
+  "poziom2": "Na Ilustracji 8 Cel Ładu jest na górze, a pod nim trzy elementy: [[realizacja-korzysci|Realizacja korzyści]], [[optymalizacja-ryzyka|Optymalizacja ryzyka]] i [[optymalizacja-zasobow|Optymalizacja zasobów]]. Pozostałe trzy komponenty (aktywatory, zakres, role) służą temu celowi.\n\nCo znaczy sama wartość, wyjaśnia hasło [[tworzenie-wartosci]]. Ten atom pokazuje jej miejsce w systemie Ładu.",
+  "poziom3": "(s. 23, il. 8): *„Cel nadzoru: tworzenie wartości”*. (s. 24): *„Oprócz celu dotyczącego nadzoru — pozostałe główne elementy podejścia do nadzoru obejmują czynniki umożliwiające, zakres i role, a także działania i relacje.”*",
+  "przyklady": {
+    "zycie": "Rodzina planuje zakup samochodu. Zanim wybierze model, ustala, po co. Auto ma wozić dzieci do szkoły (korzyść), nie psuć się zimą (ryzyko) i nie zjeść oszczędności (zasoby). To „po co” jest Celem Ładu w domowym systemie decyzji.",
+    "biuro": "Kierowniczka biura ustala, po co kupuje nową drukarkę: ma drukować szybciej, nie psuć się co tydzień i nie kosztować fortuny. Ten cel rozstrzyga potem wybór modelu i umowy serwisowej.",
+    "organizacja": "Właściciel piekarni ustala, po co mu nowy system kasowy: szybsza obsługa klientów, bez ryzyka utraty danych i bez przepłacania. Każdą decyzję o kasach porównuje potem z tym celem. To Cel Ładu, pierwszy komponent Podejścia do Ładu.\n\nRada gminy zapisuje w strategii cyfryzacji: e-usługi mają oszczędzać czas mieszkańców, chronić ich dane i mieścić się w budżecie. Ten zapis to Cel Ładu, czyli wspólny punkt odniesienia dla decyzji o IT w gminie.",
+    "psp": "**Po co nam Syrena?** Komendantka Anna Wrzos zaczyna odprawę od jednego zdania na tablicy: „Syrena ma szybciej sprowadzać pomoc, nie może zawodzić i nie może pochłonąć całego budżetu”. Każdy pomysł kpt. Sikory porównuje potem z tym zdaniem. To Cel Ładu komendy: tworzenie wartości z korzyści, ryzyka i zasobów.",
+    "it": "Procesy EDM02, EDM03 i EDM04 odpowiadają trzem częściom Celu Ładu: realizacji korzyści, optymalizacji ryzyka i optymalizacji zasobów (Ilustracja 16, s. 33)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "tworzenie-wartosci",
+      "roznica": "Tworzenie wartości to treść celu (co znaczy wartość). Cel Ładu jako komponent to miejsce tej treści w Podejściu do Ładu, obok aktywatorów, zakresu i ról."
+    },
+    {
+      "termin": "edm",
+      "roznica": "Oszacuj, Kieruj i Monitoruj to praktyki procesów Ładu (domena EDM), a nie komponent Podejścia do Ładu."
+    },
+    {
+      "termin": "cele-organizacji",
+      "roznica": "Cele organizacji to 17 typowych celów z kaskady celów. Cel Ładu jest jeden: tworzenie wartości."
+    }
+  ],
+  "przykladWypowiedzi": "The governance objective, czyli Cel Ładu, to value creation, czyli tworzenie wartości: korzyści przy optymalnym ryzyku i zasobach.",
+  "egzamin": "Cztery komponenty z Ilustracji 8: **Cel Ładu**, aktywatory Ładu, zakres Ładu oraz role, działania i relacje. Jeśli w opcjach widzisz „Oszacuj, Kieruj i Monitoruj” albo proces EDM05 jako komponent, to dystraktor.",
+  "powiazane": [
+    "system-ladu",
+    "tworzenie-wartosci",
+    "aktywatory-ladu",
+    "edm"
+  ],
+  "sylabus": [
+    "PR-02-08",
+    "PR-02-01"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 23,
+      "ilustracja": "8",
+      "cytat": "Cel nadzoru: tworzenie wartości"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 24,
+      "cytat": "Oprócz celu dotyczącego nadzoru — pozostałe główne elementy podejścia do nadzoru"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 17,
+      "cytat": "Tworzenie wartości oznacza osiąganie korzyści w sposób maksymalnie oszczędny"
+    }
+  ],
+  "mapa": "komponent-cel-ladu",
+  "glebokosc": {
+    "prosty": "Zanim kupisz coś dużego, pytasz: po co mi to? Ma się przydać, nie narobić kłopotów i nie zrujnować portfela. To „po co” jest celem. Bez niego każda decyzja jest przypadkowa.",
+    "zaawansowany": "Po awarii na Lipowej komendantka Wrzos ustala Cel Ładu dla Syreny. Chce szybszego alarmu ([[realizacja-korzysci|korzyść]]), braku cichych awarii ([[optymalizacja-ryzyka|ryzyko]]) i rozsądnego abonamentu ([[optymalizacja-zasobow|zasoby]]). Dopiero potem dobiera [[aktywatory-ladu|aktywatory Ładu]], np. politykę powiadamiania. Zakup najtańszej oferty bez pytania o korzyść i ryzyko pokazał, co się dzieje bez celu. Cel Ładu jest punktem odniesienia dla pozostałych trzech komponentów.",
+    "skrajny": "Na egzaminie pada lista: Cel Ładu, aktywatory Ładu, zakres Ładu oraz „Oszacuj, Kieruj i Monitoruj”. Brzmi spójnie, bo EDM to przecież domena Ładu. Ale Oszacuj, Kieruj i Monitoruj to praktyki w każdym z 5 procesów Ładu, a procesy to jeden z aktywatorów. Czwartym komponentem z Ilustracji 8 są **role, działania i relacje**. Drugi haczyk: korzyści, ryzyko i zasoby to nie trzy osobne komponenty, tylko trzy części jednego Celu Ładu. **Rozstrzygnięcie:** komponenty są cztery: cel, aktywatory, zakres oraz role, działania i relacje. Korzyści, ryzyko i zasoby siedzą wewnątrz celu, a EDM to praktyki procesów Ładu."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Komponentami Podejścia do Ładu są Oszacuj, Kieruj i Monitoruj.",
+      "prawda": "To praktyki procesów Ładu (EDM). Komponenty to cel, aktywatory, zakres oraz role, działania i relacje."
+    },
+    {
+      "mit": "Realizacja korzyści, optymalizacja ryzyka i optymalizacja zasobów to trzy osobne komponenty.",
+      "prawda": "To trzy składniki jednego komponentu: Celu Ładu, czyli tworzenia wartości."
+    },
+    {
+      "mit": "W urzędzie albo w PSP Cel Ładu to zysk.",
+      "prawda": "W podmiotach publicznych korzyścią są usługi publiczne, np. szybka pomoc (s. 17)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń dopisuje EDM do komponentów, bo kojarzy „Ład = EDM”.",
+    "jakTlumaczyc": "Narysuj Ilustrację 8 jak dom. Dach to Cel Ładu, ściany to aktywatory i zakres, fundament to role. EDM to meble w jednym pokoju (procesy), a nie część konstrukcji.",
+    "pytanieKontrolne": "Kolega mówi: „Podejście do Ładu ma 6 komponentów: korzyści, ryzyko, zasoby, aktywatory, zakres i role”. Co poprawisz?",
+    "odpowiedzKontrolna": "Komponenty są 4. Korzyści, ryzyko i zasoby to trzy części jednego **Celu Ładu**, czyli tworzenia wartości."
+  }
+}

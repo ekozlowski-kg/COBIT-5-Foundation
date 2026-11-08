@@ -1,0 +1,113 @@
+{
+  "id": "proc-bai01",
+  "en": "BAI01 Manage Programmes and Projects",
+  "wymowa": "biejaj 01 menydż prołgrems end prodżekts",
+  "wymowaAkcent": "bi-ej-AJ 01 ME-nydż PROŁ-grems end PRO-dżekts",
+  "plEgzamin": "BAI01 Zarządzanie programami i projektami",
+  "plPodrecznik": "BAI01 Zarządzanie programami i projektami",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "BAI01 Zarządzanie programami i projektami",
+    "podrecznik": "BAI01 Zarządzanie programami i projektami",
+    "kurs": "BAI01 Zarządzanie programami i projektami (BAI01 Manage Programmes and Projects)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 74."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „BAI01 Zarządzanie programami i projektami”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Programmes and Projects*.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "bai",
+    "projekt"
+  ],
+  "poLudzku": "Prowadzisz przedsięwzięcia z początkiem i końcem tak, żeby skończyły się na czas, w budżecie i dały obiecany efekt.",
+  "wyobrazSobie": "Organizujesz komunię dziecka: sala, catering, fotograf. Każde to mały projekt, a całość prowadzisz Ty.",
+  "skadNazwa": "Z angielskiego *Manage Programmes and Projects*. Program to grupa powiązanych projektów, które razem mają dać korzyść. Słowo „programy” nie oznacza tu programów komputerowych.",
+  "poziom1": "Proces domeny [[bai]], w którym prowadzisz programy i projekty: od uruchomienia, przez plan i kontrolę postępów, po zamknięcie i przegląd po wdrożeniu. Pilnuje terminu, kosztów, jakości, ryzyka i tego, czy projekt nadal prowadzi do korzyści.",
+  "poziom2": "**Czym się zajmuje:** uruchamia, planuje, kontroluje i zamyka programy i projekty, które wybrano w portfelu inwestycji. Pilnuje zakresu, harmonogramu, kosztów, ryzyka i zaangażowania interesariuszy.\n\n**Wejścia (intuicja):** zatwierdzona inwestycja i [[uzasadnienie-biznesowe]] z portfela (APO05), oczekiwane korzyści.\n\n**Wyjścia (intuicja):** plan projektu, raporty postępu, decyzje „kontynuujemy / wstrzymujemy”, raport z zamknięcia i wnioski.\n\n**Współpracuje z:** APO05 (portfel decyduje, CO robimy), APO06 (budżet), APO12 (ryzyko), [[proc-bai02]]–[[proc-bai07]] (to, co projekt faktycznie definiuje, buduje i wdraża).",
+  "poziom3": "Oficjalnie (FW-PL): nazwa procesu na il. 16 (s. 33). Biuro zarządzania projektami i programami (PMO) to *„Funkcja odpowiedzialna za wspieranie kierowników programów i projektów”* (il. 33, s. 77). PRINCE2 obejmuje *„procesy zarządzania programami i projektami w domenie BAI”* (s. 61). Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby programy i projekty kończyły się na czas, w budżecie i dawały obiecane korzyści.",
+  "jakDziala": "Uruchamiasz program i projekty według jednego podejścia. Planujesz, kontrolujesz postęp, jakość i ryzyko. Na końcu zamykasz projekt i sprawdzasz, czy korzyści się pojawiły.",
+  "dlaczegoWazne": "BAI01 prowadzi przedsięwzięcia już wybrane. Wybór programów do portfela to APO05 (Zarządzanie Portfelem), więc nie myl tych procesów.",
+  "przyklady": {
+    "zycie": "Budujesz dom. Kierownik budowy ma harmonogram, kosztorys i listę etapów. Co tydzień sprawdza, czy ekipy nie mają opóźnień, i od razu reaguje. Po odbiorze siadacie i spisujecie, co poszło źle. Tak działa BAI01.",
+    "biuro": "Biuro organizuje konferencję dla klientów. Koordynatorka ma plan, budżet i listę zadań, a po wszystkim sprawdza, ilu klientów przyszło.",
+    "organizacja": "Hurtownia wdraża system magazynowy z planem, budżetem i komitetem sterującym, a po starcie sprawdza czas wysyłek. Urząd miasta prowadzi program „e-Urząd” z trzech projektów, które razem mają skrócić kolejki.",
+    "psp": "**Projekt „Naprawa Syreny do 30 kwietnia”.** Kpt. Marek Sikora, naczelnik informatyki, rozpisuje harmonogram i zadania dla Oli Dudek. Halina Mak pilnuje budżetu, a komendantka Anna Wrzos co tydzień dostaje krótki raport postępu. Po zakończeniu Sikora robi przegląd: czy OSP Zawilce dostaje alarm na czas. Prowadzenie tego przedsięwzięcia od startu do zamknięcia to [[proc-bai01]].",
+    "it": "Praktyki BAI01 obejmują m.in. inicjowanie programu, planowanie projektów, zarządzanie ryzykiem projektu i zamknięcie programu. Wspierają pierścień Zarządzanie programem."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-apo05",
+      "roznica": "APO05 (portfel) wybiera, które inwestycje i projekty w ogóle realizować, i ustala priorytety. BAI01 prowadzi projekty, które już zatwierdzono."
+    },
+    {
+      "termin": "projekt",
+      "roznica": "„Projekt” to pojęcie: przedsięwzięcie z początkiem i końcem. BAI01 to proces, który takimi projektami zarządza."
+    },
+    {
+      "termin": "proc-bai03",
+      "roznica": "BAI03 to sama praca nad rozwiązaniem (projekt techniczny, budowa, testy). BAI01 tę pracę planuje i kontroluje."
+    }
+  ],
+  "przykladWypowiedzi": "BAI01 Manage Programmes and Projects, czyli Zarządzanie programami i projektami, prowadzi przedsięwzięcia do korzyści z uzasadnienia biznesowego.",
+  "egzamin": "Słowa-klucze: *programme*, *project*, harmonogram, budżet projektu, zamknięcie projektu, PMO → **BAI01**. Wybór i priorytety inwestycji → **APO05** (portfel).",
+  "powiazane": [
+    "bai",
+    "projekt",
+    "uzasadnienie-biznesowe",
+    "proc-bai02",
+    "proc-bai03",
+    "proc-apo05"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "BAI01 Zarządzanie programami i projektami"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 77,
+      "ilustracja": "33",
+      "cytat": "Funkcja odpowiedzialna za wspieranie kierowników programów i projektów"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 61,
+      "cytat": "procesy zarządzania programami i projektami w domenie BAI"
+    }
+  ],
+  "mapa": "proc-bai01",
+  "glebokosc": {
+    "prosty": "Organizujesz wesele. Masz listę zadań, termin, budżet i jedną osobę, która wszystkiego pilnuje. Gdy kwiaciarnia się spóźnia, reagujesz od razu. Po weselu mówicie sobie, co następnym razem zrobić lepiej.",
+    "zaawansowany": "Kpt. Marek Sikora prowadzi naprawę Syreny jako projekt z terminem 30 kwietnia. Ma harmonogram, budżet od Haliny Mak i cotygodniowy raport dla komendantki. To jest [[proc-bai01]]. Decyzję, czy w ogóle wydać na to pieniądze, podjęto wcześniej w portfelu ([[proc-apo05]]). Spisanie wymagań to [[proc-bai02]], a budowa poprawek to [[proc-bai03]].",
+    "skrajny": "Projekt Syreny skończył się w terminie i w budżecie, wszystkie wskaźniki projektu są zielone. Po trzech miesiącach okazuje się, że OSP Zawilce nadal dostaje alarm z opóźnieniem. Czy BAI01 zadziałał? Projekt dowiózł rezultat (nowy moduł), ale nie korzyść (szybszą pomoc). BAI01 prowadzi projekty z myślą o korzyściach, dlatego obejmuje przegląd po wdrożeniu i wnioski. Może też wstrzymać projekt, który przestał mieć sens. **Rozstrzygnięcie:** BAI01 pilnuje, żeby projekt dał obiecany efekt, a nie tylko żeby się skończył. Wybór projektów to APO05, a ocena korzyści przez szefostwo to EDM02."
+  },
+  "zagmatwania": [
+    {
+      "mit": "BAI01 decyduje, które projekty robimy.",
+      "prawda": "Wybór i priorytety to portfel (APO05). BAI01 prowadzi projekty, które już zatwierdzono."
+    },
+    {
+      "mit": "Projekt skończony w terminie i budżecie to sukces BAI01.",
+      "prawda": "Liczy się też korzyść. BAI01 obejmuje przegląd po wdrożeniu i wyciąganie wniosków."
+    },
+    {
+      "mit": "Program to po prostu duży projekt.",
+      "prawda": "Program to grupa powiązanych projektów, które razem dają korzyść. BAI01 zarządza jednym i drugim."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczniowie mylą BAI01 z APO05, bo w obu pada słowo „projekty” (APO05 w podręczniku to „Zarządzanie portfelem projektów”).",
+    "jakTlumaczyc": "Portfel to karta dań: decydujesz, co zamawiasz i za ile. BAI01 to kuchnia, która gotuje zamówione danie na czas i pilnuje, żeby smakowało.",
+    "pytanieKontrolne": "Rada ds. Informatyki rezygnuje z modułu mobilnego Syreny, bo ważniejsza jest nowa serwerownia. Który to proces: BAI01 czy APO05?",
+    "odpowiedzKontrolna": "**APO05** – to wybór między inwestycjami w portfelu. BAI01 zaczyna się, gdy projekt serwerowni ruszy, i prowadzi go do zamknięcia."
+  }
+}

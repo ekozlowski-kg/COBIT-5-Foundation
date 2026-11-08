@@ -1,0 +1,94 @@
+{
+  "id": "struktura-ramowa",
+  "en": "Framework",
+  "wymowa": "frejmłerk",
+  "wymowaAkcent": "FREJM-łerk",
+  "plEgzamin": "Struktura ramowa",
+  "plPodrecznik": "Metodyka",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Struktura ramowa",
+    "podrecznik": "Metodyka",
+    "kurs": "Struktura ramowa (Framework)",
+    "uwaga": "Egzamin PL: „Struktura ramowa”; podręcznik PL: „Metodyka” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 1, 2, 6; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Struktura ramowa”. Podręcznik: „Metodyka”. EN: Framework. „COBIT 5 jest zintegrowaną strukturą ramową” = „COBIT 5 jest zintegrowaną metodyką”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [],
+  "poLudzku": "Gotowy, uporządkowany zbiór reguł i dobrych praktyk, z którego korzystamy zamiast wymyślać od zera.",
+  "wyobrazSobie": "Jak dom z gotowego projektu: ściany nośne i dach są ustalone, ale układ mebli, kolory i wykończenie każdy właściciel dobiera pod siebie.",
+  "poCo": "Żeby organizacja nie wymyślała od zera, jak podejść do złożonego obszaru, tylko korzystała z gotowego, sprawdzonego zestawu pojęć, zasad i praktyk i dopasowywała go do siebie.",
+  "jakDziala": "Struktura ramowa (framework) daje model, pojęcia, zasady, role i dobre praktyki, ale nie szczegółową instrukcję krok po kroku. Organizacja dostosowuje ją do swojej wielkości i potrzeb. COBIT 5 jest strukturą ramową dla Ładu i Zarządzania IT w organizacji i łączy w jedną całość inne standardy i struktury, np. ITIL i ISO/IEC 27001.",
+  "dlaczegoWazne": "Pojęcie występuje w nazwie zasady 3 („Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej”) i aktywatora 1 („Zasady, Polityki i Struktury ramowe”). Na egzaminie trzeba też wiedzieć, że COBIT 5 jest strukturą ramową, a nie normą, z którą certyfikuje się organizację.",
+  "skadNazwa": "Angielskie *framework*. Podręcznik pisze „metodyka”, a egzamin „struktura ramowa”, bo COBIT nie mówi, jak dokładnie coś robić, więc nie jest metodyką.",
+  "poziom1": "Uporządkowany zestaw pojęć, zasad i dobrych praktyk, który podpowiada, jak podejść do jakiegoś obszaru, ale nie daje instrukcji krok po kroku (jak „talerz zdrowego żywienia” zamiast gotowego jadłospisu). COBIT 5 to struktura ramowa dla Ładu i Zarządzania IT.",
+  "poziom2": "Struktura ramowa nie jest szczegółową instrukcją krok po kroku. Daje model, pojęcia, role i granice, a organizacja dostosowuje je do siebie. COBIT 5 jest strukturą ramową dla Ładu i Zarządzania informatyką w organizacji.",
+  "poziom3": "Słownik (s. 91): *„Metodyka to podstawowa struktura koncepcyjna wykorzystywana do rozwiązywania lub uwzględniania złożonych problemów; czynnik umożliwiający nadzór; zbiór pojęć, założeń i praktyk…”* Przykłady: COBIT, COSO.",
+  "przyklady": {
+    "zycie": "Dietetyk daje Ci zasadę talerza: połowa warzywa, ćwierć białko, ćwierć węglowodany. Nie mówi, co jutro zjesz – to układasz sam, pod swoje smaki i portfel. Zasada talerza to struktura ramowa, a Twój jadłospis to już jej dopasowanie do siebie.",
+    "biuro": "Centrala sieci biur rachunkowych daje każdemu oddziałowi wspólny model pracy: jakie dokumenty muszą być w teczce klienta, kto zatwierdza wydatki, jak archiwizować akta. Godziny pracy, grafik i rozstawienie drukarek ustala już kierownik oddziału.",
+    "firma": "Właściciel otwiera kawiarnię we franczyzie i dostaje księgę standardów: wygląd lokalu, receptury, sposób obsługi gości. Grafik pracy i lokalnych dostawców ustala już sam. Księga to rama, w której dopasowuje szczegóły do swojego miasta.",
+    "admin": "Dyrektor szkoły dostaje standardy kontroli zarządczej dla sektora finansów publicznych. Mówią, co ma być pod kontrolą – cele, ryzyka, dokumentacja – ale nie mówią, jak dokładnie prowadzić rejestr ryzyk w tej szkole. To struktura ramowa: wspólna dla wszystkich jednostek, a szczegóły ustala szkoła.",
+    "psp": "Zasady krajowego systemu ratowniczo-gaśniczego mówią, jak współdziałają JRG, OSP włączone do KSRG i stanowiska kierowania. Szczegóły – które OSP dysponować do jakich zdarzeń, w jakiej kolejności – ustala się w każdym powiecie. KSRG daje ramę, a powiat dopasowuje ją do swojego terenu.",
+    "it": "Organizacja przyjmuje COBIT 5 jako strukturę ramową i w procesie APO01 (Zarządzanie metodyką zarządzania IT) ustala, jak wpiąć w nią ITIL dla obsługi usług i ISO/IEC 27001 dla bezpieczeństwa. Zgodnie z zasadą 3 powstaje jeden spójny system zamiast kilku osobnych."
+  },
+  "glebokosc": {
+    "prosty": "Zalecenia lekarza „jedz więcej warzyw, ruszaj się codziennie, śpij 7 godzin” to rama, a nie jadłospis na każdy dzień. Sam decydujesz, czy to będzie brokuł, czy marchewka, rower czy spacer. Rama porządkuje myślenie, ale nie zastępuje szczegółowego przepisu.",
+    "zaawansowany": "Kpt. Sikora tłumaczy komendantce, że COBIT 5 to struktura ramowa: daje model, pojęcia i role, ale nie mówi, jak skonfigurować Syrenę. Szczegóły bierze z innych standardów, np. z [[itil|ITIL]] dla obsługi zgłoszeń i z [[iso-27001|ISO/IEC 27001]] dla bezpieczeństwa. Łączenie ich pod jednym parasolem to [[zasada-3|Zasada 3]]. Sam [[cobit-5|COBIT 5]] komenda dopasowuje do swojej skali, zamiast wdrażać go słowo w słowo.",
+    "skrajny": "Egzamin pisze „struktura ramowa”, a podręcznik „metodyka” – to ten sam *framework*, choć polskie „metodyka” sugeruje szczegółową instrukcję. Groźniejsza jest druga pułapka. Aktywator 1 to „Zasady, polityki i struktury ramowe” (podręcznik: „Zasady, polityki i metodyki”), a aktywator 3 to „Struktury organizacyjne”. Słowo „struktury” znaczy w nich co innego: ramowa to model, czyli zbiór pojęć, zasad i praktyk, a organizacyjna to jednostka podejmująca decyzje. Kto zobaczy „struktury” i pomyśli „komitety”, przypisze komitet do aktywatora 1. **Rozstrzygnięcie:** struktura ramowa = metodyka = framework (zbiór pojęć, zasad i praktyk); struktura organizacyjna = zespół decyzyjny – to dwa różne aktywatory."
+  },
+  "zagmatwania": [
+    {
+      "mit": "„Metodyka” i „struktura ramowa” to dwa różne pojęcia.",
+      "prawda": "To ten sam framework: podręcznik pisze „metodyka”, egzamin „struktura ramowa”."
+    },
+    {
+      "mit": "Struktura ramowa podaje dokładne instrukcje krok po kroku.",
+      "prawda": "Daje model, pojęcia, role i granice. Szczegóły dają procedury i inne standardy, np. ITIL."
+    },
+    {
+      "mit": "„Struktury ramowe” w aktywatorze 1 to komitety.",
+      "prawda": "Komitety należą do aktywatora 3 – Struktury organizacyjne. Struktury ramowe to frameworki, np. COBIT czy COSO."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie struktury ramowej ze strukturą organizacyjną i oczekiwanie od COBIT instrukcji krok po kroku.",
+    "jakTlumaczyc": "Rusztowanie i schody: struktura ramowa to rusztowanie (kształt i granice), a procedura to schody (każdy krok). Potem zestaw obok siebie nazwy aktywatorów 1 i 3 i podkreśl, czym różnią się „struktury”.",
+    "pytanieKontrolne": "Do którego aktywatora należy „komitet sterujący wdrożenia Syreny”, a do którego „COBIT 5 przyjęty jako struktura ramowa komendy”? Dlaczego słowo „struktura” tu myli?",
+    "odpowiedzKontrolna": "Komitet należy do Struktur organizacyjnych (aktywator 3), bo podejmuje decyzje. COBIT jako framework należy do aktywatora „Zasady, polityki i struktury ramowe” (aktywator 1). „Struktura” w pierwszym przypadku to zespół ludzi, a w drugim model pojęciowy."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Norma / standard (np. ISO/IEC 27001)",
+      "roznica": "Norma ma wymagania, z którymi można certyfikować zgodność. COBIT 5 jest strukturą ramową – nie certyfikuje się organizacji „na COBIT”."
+    },
+    {
+      "termin": "Procedura",
+      "roznica": "Procedura to szczegółowy przepis wykonania; struktura ramowa jest ogólniejsza."
+    }
+  ],
+  "przykladWypowiedzi": "COBIT 5 to framework, czyli struktura ramowa: daje pojęcia, zasady i dobre praktyki dla Ładu i Zarządzania IT, które organizacja dostosowuje do siebie, a nie instrukcję krok po kroku ani normę do certyfikacji.",
+  "egzamin": "W pytaniach: „Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej” (Zasada 3), „Zasady, Polityki i Struktury ramowe” (aktywator 1).",
+  "powiazane": [
+    "cobit-5",
+    "zasada-3"
+  ],
+  "sylabus": [
+    "M0-00-07",
+    "PR-02-11"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 91,
+      "cytat": "Metodyka to podstawowa struktura koncepcyjna wykorzystywana do rozwiązywania lub uwzględniania"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ]
+}

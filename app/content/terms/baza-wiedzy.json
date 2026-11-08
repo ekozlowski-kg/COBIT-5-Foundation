@@ -1,0 +1,111 @@
+{
+  "id": "baza-wiedzy",
+  "en": "COBIT 5 knowledge base",
+  "wymowa": "kołbit 5 nolydż bejs",
+  "wymowaAkcent": "KOŁ-bit 5 NO-lydż bejs",
+  "plEgzamin": "Baza wiedzy COBIT 5",
+  "plPodrecznik": "Baza wiedzy COBIT 5",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Baza wiedzy COBIT 5",
+    "podrecznik": "Baza wiedzy COBIT 5",
+    "kurs": "Baza wiedzy COBIT 5 (COBIT 5 knowledge base)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 16, 20, 25."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "integrator",
+    "zasada-3",
+    "aktywator"
+  ],
+  "poLudzku": "Jedna duża szafa z całą zebraną wiedzą, z której potem robi się kolejne poradniki.",
+  "wyobrazSobie": "Spiżarnia restauracji: wszystko w jednym miejscu, a kucharz robi z tego różne dania.",
+  "poCo": "Żeby cała wiedza ISACA i dopasowanie do innych standardów były w jednym miejscu i miały wspólny układ.",
+  "jakDziala": "Do bazy trafiają wcześniejsze wytyczne ISACA, nowe materiały ISACA oraz inne standardy i metodyki. Baza przechowuje aktualne treści i ma strukturę na treści przyszłe. Przez filtr aktywatorów powstają z niej publikacje z rodziny produktów.",
+  "dlaczegoWazne": "Ilustracja 10 tłumaczy Zasadę 3. Egzamin może pytać, co jest wejściem, co filtrem, a co wynikiem.",
+  "poziom1": "Środek Ilustracji 10. Do bazy wiedzy trafiają obecne wytyczne ISACA, nowe materiały ISACA i inne standardy. Baza zawiera aktualne wytyczne i treści oraz strukturę dla przyszłych treści. Przez filtr aktywatorów powstaje z niej rodzina produktów.",
+  "poziom2": "Ilustracja 10 jako przepływ:\n\n| Etap | Co to jest |\n|---|---|\n| wejścia | [[wytyczne-isaca|obecne wytyczne ISACA]], nowe materiały ISACA, inne standardy i metodyki |\n| **baza wiedzy** | aktualne wytyczne i treści + struktura dla przyszłych treści |\n| filtr zawartości | [[aktywator|aktywatory]] COBIT 5 |\n| wyjście | [[rodzina-produktow|rodzina produktów COBIT 5]] |",
+  "poziom3": "(s. 26): *„Uzupełnienie bazy wiedzy COBIT 5 zawierającej wszystkie wytyczne i treści utworzone do tej pory i stanowiącej strukturę dla dodatkowych przyszłych treści.”* Ilustracja 10 (s. 25).",
+  "przyklady": {
+    "zycie": "Babcia przez lata zbierała przepisy z gazet, od sąsiadek i z telewizji. Wkłada je do jednego pudełka z przegródkami i zostawia puste przegródki na nowe. Z pudełka wnuczka robi książeczki: „ciasta”, „zupy”. Pudełko to baza wiedzy, książeczki to produkty.",
+    "biuro": "Biuro rachunkowe trzyma w jednym folderze sieciowym przepisy, interpretacje i własne wzory. Ma w nim też puste podfoldery na nowe przepisy. Z folderu pracownicy robią ściągi dla klientów.",
+    "organizacja": "Sieć kawiarni zbiera w jednym firmowym repozytorium wymagania sanepidu, normy jakości i własne receptury. Z niego powstają osobne instrukcje dla baristy, kucharza i kierownika. Repozytorium to baza wiedzy.\n\nUrząd wojewódzki tworzy jedną bazę przepisów, wytycznych i wzorów pism. Ma w niej też miejsce na przepisy, które dopiero przyjdą. Z bazy przygotowuje osobne poradniki dla różnych wydziałów. Tak działa baza wiedzy COBIT 5.",
+    "psp": "**Segregator Sikory** Kpt. Marek Sikora zbiera w jednym segregatorze wytyczne KG PSP, instrukcję Syreny, zalecenia ITIL i stare procedury wydziału. Zostawia puste przekładki na przepisy, które dopiero przyjdą. Z segregatora robi osobne karty dla SK i dla JRG. Segregator to odpowiednik bazy wiedzy, a karty to produkty.",
+    "it": "Przewodnik *COBIT 5: Procesy umożliwiające* to produkt z bazy wiedzy przefiltrowany przez aktywator Proces. Stąd jednolity układ opisu każdego z 37 procesów (interpretacja kursu)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "rodzina-produktow",
+      "roznica": "Rodzina produktów to gotowe publikacje (np. Framework, przewodniki). Baza wiedzy to źródło, z którego powstają."
+    },
+    {
+      "termin": "cobit-5",
+      "roznica": "COBIT 5 (Framework) to jeden produkt z rodziny. Baza wiedzy jest szersza i ma miejsce także na treści przyszłe."
+    },
+    {
+      "termin": "wytyczne-isaca",
+      "roznica": "Wcześniejsze wytyczne ISACA to jedno z trzech wejść do bazy, a nie sama baza."
+    }
+  ],
+  "przykladWypowiedzi": "The COBIT 5 knowledge base, czyli baza wiedzy COBIT 5, zawiera aktualne wytyczne i strukturę dla przyszłych treści.",
+  "egzamin": "Ilustracja 10: wejścia → **baza wiedzy** → filtr **aktywatorów** → rodzina produktów. Baza zawiera także **strukturę dla przyszłych treści**.",
+  "powiazane": [
+    "integrator",
+    "rodzina-produktow",
+    "wytyczne-isaca",
+    "zasada-3"
+  ],
+  "sylabus": [
+    "PR-02-10",
+    "PR-02-11"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 25,
+      "ilustracja": "10",
+      "cytat": "Struktura dla przyszłych treści"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 25,
+      "ilustracja": "10",
+      "cytat": "Filtr zawartości dla bazy wiedzy"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 26,
+      "cytat": "Uzupełnienie bazy wiedzy COBIT 5 zawierającej wszystkie wytyczne i treści utworzone do tej pory"
+    }
+  ],
+  "mapa": "baza-wiedzy",
+  "glebokosc": {
+    "prosty": "Masz w domu jedną szafę na wszystkie instrukcje: od pralki, od auta, od telewizora. Zostawiasz w niej wolną półkę na instrukcje do rzeczy, które dopiero kupisz. Gdy czegoś szukasz, idziesz do jednej szafy. To jest baza wiedzy.",
+    "zaawansowany": "Sikora tłumaczy st. ogn. Nowik Ilustrację 10. Do bazy wiedzy wpadają [[wytyczne-isaca|wcześniejsze wytyczne ISACA]], nowe materiały ISACA i inne standardy, np. [[itil|ITIL]]. Baza nie trafia do czytelnika wprost. Najpierw przesiewa ją filtr [[aktywator|aktywatorów]], a dopiero potem powstają publikacje z [[rodzina-produktow|rodziny produktów]]. Dzięki temu każdy przewodnik ma ten sam układ.",
+    "skrajny": "Nowik pyta: „Skoro trzymam w ręku COBIT 5, to trzymam bazę wiedzy?”. Nie. Książka „COBIT 5” to jeden produkt z rodziny, a baza wiedzy jest pod spodem. Baza zawiera też strukturę dla treści, których jeszcze nie napisano. Drugi haczyk: filtrem zawartości nie są zasady ani procesy, tylko aktywatory COBIT 5. **Rozstrzygnięcie:** baza wiedzy to źródło z miejscem na przyszłość, aktywatory to filtr, a rodzina produktów to wynik; Framework to tylko jeden z produktów."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Baza wiedzy COBIT 5 to po prostu książka COBIT 5.",
+      "prawda": "Książka (Framework) to produkt. Baza to źródło wszystkich produktów."
+    },
+    {
+      "mit": "Filtrem dla bazy wiedzy jest 5 zasad.",
+      "prawda": "Filtrem zawartości są aktywatory COBIT 5 (Ilustracja 10)."
+    },
+    {
+      "mit": "Baza zawiera tylko to, co już napisano.",
+      "prawda": "Zawiera też strukturę dla przyszłych treści (s. 25–26)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Utożsamianie bazy wiedzy z samym Frameworkiem.",
+    "jakTlumaczyc": "Porównaj do kuchni restauracji: spiżarnia to baza, sito to aktywatory, dania na talerzu to produkty. Framework to jedno z dań.",
+    "pytanieKontrolne": "Co na Ilustracji 10 jest filtrem zawartości między bazą wiedzy a rodziną produktów?",
+    "odpowiedzKontrolna": "**Aktywatory COBIT 5.**"
+  }
+}

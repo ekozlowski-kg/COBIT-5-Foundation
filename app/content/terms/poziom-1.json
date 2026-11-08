@@ -1,0 +1,118 @@
+{
+  "id": "poziom-1",
+  "en": "Level 1 – Performed process",
+  "wymowa": "lewel 1 performd prołses",
+  "wymowaAkcent": "LE-wel 1 per-FORMD PROŁ-ses",
+  "plEgzamin": "Poziom 1 – Proces wykonywany",
+  "plPodrecznik": "Poziom 1 potencjału – proces wykonywany",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Poziom 1 – Proces wykonywany",
+    "podrecznik": "Poziom 1 potencjału – proces wykonywany",
+    "kurs": "Poziom 1 – Proces wykonywany (Level 1 – Performed process)",
+    "uwaga": "Egzamin PL: „Poziom 1 – Proces wykonywany”; podręcznik PL: „Poziom 1 potencjału – proces wykonywany” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 42, 44, 45."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Wykonywany” brzmi jak „ktoś to robi”. W COBIT 5 znaczy: proces **osiąga swój cel**. Nie myl z poziomem 1 w COBIT 4.1 („Wstępny/Ad hoc”).",
+  "skadNazwa": "Z angielskiego *Performed*. Słowo sugeruje samo wykonywanie czynności, ale w ISO/IEC 15504 chodzi o osiąganie rezultatów procesu.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "poziomy-zdolnosci",
+    "poziom-0",
+    "pa-1-1"
+  ],
+  "poziom1": "Proces osiąga swoje przeznaczenie, czyli jego rezultaty są osiągane. Wymaga jednego atrybutu, PA 1.1 (wykonanie procesu), z oceną co najmniej W. To wysoka poprzeczka, a Framework nazywa ją już ważnym osiągnięciem.",
+  "poLudzku": "Robota daje efekt, po który ją robimy, choć bez planu i spisanych zasad.",
+  "wyobrazSobie": "Kucharz bez przepisów, który zawsze podaje smaczny obiad: efekt jest, porządku jeszcze brak.",
+  "poCo": "Żeby oddzielić procesy, które naprawdę dają efekt, od tych, w których tylko „coś się robi”.",
+  "jakDziala": "Asesor sprawdza rezultaty procesu, praktyki bazowe i produkty pracy. Gdy PA 1.1 ma W albo P, proces osiąga poziom 1. Planowania i standardu na tym poziomie się nie wymaga.",
+  "dlaczegoWazne": "Poziom 1 w COBIT 5 to wysoka poprzeczka, inna niż „Ad hoc” w COBIT 4.1. Framework nazywa jego osiągnięcie ważnym sukcesem, a egzamin lubi to sprawdzać.",
+  "poziom2": "| Co sprawdza asesor | Jak |\n|---|---|\n| czy rezultaty procesu są osiągane | weryfikacja wyników według opisu procesu, skala N/C/W/P |\n| czy praktyki bazowe są stosowane | ta sama skala |\n| czy są produkty pracy | dowody: wejścia i wyjścia |\n\nPoziom 1 ocenia się **wskaźnikami wymiaru procesu** (praktyki bazowe, produkty pracy). Nikt nie pyta tu o plan, monitorowanie ani standard, bo to wyższe poziomy. Ambicją wielu organizacji jest poziom 1 we wszystkich procesach.",
+  "poziom3": "(s. 42): *„1 Proces wykonywany (jeden atrybut) — cel wdrożonego procesu został osiągnięty.”* Osiągnięcie poziomu 1 wymaga osiągnięcia (w znacznym stopniu) atrybutu sprawności procesu. (s. 43): w COBIT 4.1 proces mógł mieć poziom 1 lub 2 bez pełnego osiągnięcia celów procesu. (s. 45): ambicją wielu przedsiębiorstw jest poziom 1 we wszystkich procesach.",
+  "przyklady": {
+    "zycie": "Gotujesz obiad bez przepisu, „na oko”, za każdym razem trochę inaczej. Ale codziennie o 17:00 rodzina je ciepły posiłek. Cel jest osiągnięty, więc to poziom 1, choć bez planu i spisanych zasad.",
+    "biuro": "Sekretarka prowadzi kalendarz sal konferencyjnych „w głowie” i w zeszycie. Nie ma zasad rezerwacji, ale spotkania nigdy się nie nakładają. To poziom 1: cel osiągnięty, choć bez zarządzania.",
+    "organizacja": "W małej drukarni jeden pan przyjmuje zamówienia na wizytówki do zeszytu. Nie ma grafiku ani wzoru zamówienia, ale klienci prawie zawsze dostają dobre wizytówki na czas. Asesor da PA 1.1 = W albo P, czyli poziom 1.\n\nW urzędzie gminy jedna urzędniczka wydaje zaświadczenia o niezaleganiu w podatkach. Robi to po swojemu, bez procedury, ale mieszkańcy dostają poprawne zaświadczenia w terminie. To poziom 1: rezultat jest, zarządzania jeszcze nie ma.",
+    "psp": "**Syrena po aktualizacji numerów.** Po pożarze przy Lipowej Ola Dudek poprawia numery w Syrenie. Teraz alarm dochodzi do JRG 1, JRG 2 i OSP Zawilce prawie przy każdym wezwaniu. Nikt jeszcze nie planuje przeglądów listy, a każda zmiana dyżurnych pracuje po swojemu. Audytorka Ewa Lis daje PA 1.1 = W, więc proces powiadamiania ma poziom 1.",
+    "it": "Proces DSS02 (zgłoszenia serwisowe i incydenty): zgłoszenia od użytkowników są rozwiązywane, choć każdy informatyk robi to po swojemu i bez planu. Rezultaty procesu są osiągane, więc PA 1.1 = W albo P i poziom 1."
+  },
+  "glebokosc": {
+    "prosty": "Sąsiad naprawia rowery w garażu, bez cennika i bez notesu. Ale każdy rower wyjeżdża od niego sprawny. Robota daje efekt, po który przychodzisz. To jest poziom 1.",
+    "zaawansowany": "Ewa Lis ocenia proces powiadamiania w komendzie. Najpierw sprawdza [[rezultat-procesu|rezultaty]]: czy alarm dociera do wszystkich wezwanych jednostek. Potem patrzy na [[praktyka-bazowa|praktyki bazowe]] i [[produkt-pracy|produkty pracy]], np. logi Syreny. Alarm dochodzi w ok. 80% przypadków, więc [[pa-1-1|PA 1.1]] dostaje W i proces ma poziom 1. O plan i standard Lis zapyta dopiero przy [[poziom-2|poziomie 2]].",
+    "skrajny": "Komenda chwali się „poziomem 2 dojrzałości” z dawnej oceny według COBIT 4.1. Lis ocenia ten sam proces według COBIT 5 i wychodzi poziom 1, a w gorszym miesiącu nawet 0. Nic się nie pogorszyło: zmieniła się poprzeczka. W COBIT 4.1 poziom 1 lub 2 dało się mieć bez pełnego osiągania celów procesu. W COBIT 5 poziom 1 wymaga, żeby proces faktycznie osiągał przeznaczenie. Druga pułapka: PA 1.1 = W daje poziom 1, ale blokuje poziom 2, nawet przy P na PA 2.1 i PA 2.2. **Rozstrzygnięcie:** poziom 1 to „proces osiąga cel”, a nie „ktoś to robi”. Do poziomu 1 wystarczy W na PA 1.1, a do każdego wyższego potrzeba P."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Poziom 1 to „ktoś to robi, jakoś to idzie”.",
+      "prawda": "Poziom 1 wymaga, żeby proces osiągał swoje przeznaczenie (PA 1.1 co najmniej W). Samo wykonywanie czynności bez efektu to poziom 0."
+    },
+    {
+      "mit": "Poziom 1 to wstyd, prawie zero.",
+      "prawda": "Framework mówi wprost, że osiągnięcie poziomu 1 to ważne osiągnięcie. Wiele organizacji chce mieć poziom 1 we wszystkich procesach."
+    },
+    {
+      "mit": "Poziom 1 w COBIT 5 to to samo co poziom 1 „Ad hoc” w COBIT 4.1.",
+      "prawda": "Skal nie da się prosto porównać. Proces „Ad hoc” z COBIT 4.1 może w COBIT 5 mieć poziom 0, jeśli nie osiąga wyników."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myśli, że poziom 1 dostaje każdy proces, który ktoś wykonuje.",
+    "jakTlumaczyc": "Mów: „poziom 1 = osiąga cel”. Zawsze zadawaj dwa pytania: po co jest proces i czy ten efekt widać w dowodach. Dopiero potem rozmawiaj o planowaniu.",
+    "pytanieKontrolne": "PA 1.1 = W, PA 2.1 = P, PA 2.2 = P. Jaki poziom ma proces?",
+    "odpowiedzKontrolna": "Poziom 1. Do poziomu 2 PA 1.1 musi mieć **P**. Ocena W na PA 1.1 wystarcza tylko do poziomu 1."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "poziom-0",
+      "roznica": "Poziom 0: PA 1.1 = N albo C, proces nie osiąga celu. Poziom 1: PA 1.1 = W albo P."
+    },
+    {
+      "termin": "poziom-2",
+      "roznica": "Poziom 2 dodaje planowanie, monitorowanie i kontrolę produktów pracy. Poziom 1 pyta tylko o efekt."
+    },
+    {
+      "termin": "Poziom 1 dojrzałości COBIT 4.1 („Wstępny/Ad hoc”)",
+      "roznica": "Tam wystarczyło dostrzec problem i działać doraźnie. W COBIT 5 poziom 1 wymaga osiągania celu procesu."
+    }
+  ],
+  "przykladWypowiedzi": "Level 1 – Performed process, czyli poziom 1 – proces wykonywany, wymaga, żeby proces osiągał swój cel, a PA 1.1 miał co najmniej ocenę W.",
+  "egzamin": "„Cel wdrożonego procesu został osiągnięty” → **poziom 1, proces wykonywany**. Ma **jeden** atrybut (PA 1.1). Ocenia się go praktykami bazowymi i produktami pracy.",
+  "powiazane": [
+    "poziomy-zdolnosci",
+    "pa-1-1",
+    "poziom-0",
+    "poziom-2",
+    "wymiar-procesu"
+  ],
+  "sylabus": [
+    "PC-01-01",
+    "PC-02-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "cel wdrożonego procesu został osiągnięty"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "cytat": "już stanowi ważne osiągnięcie dla przedsiębiorstwa"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "proces mógł osiągnąć poziom 1 lub 2 bez pełnego osiągnięcia wszystkich celów procesu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "zapewnienie poziomu 1 potencjału w przypadku wszystkich procesów"
+    }
+  ],
+  "mapa": "poziom-1"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "przewodniki-oceny",
+  "en": "COBIT Assessment Programme guides: PAM, Assessor Guide, Self-Assessment Guide",
+  "wymowa": "kołbit asesment prołgrem gajdz piejem aseser gajd selfasesment gajd",
+  "wymowaAkcent": "KOŁ-bit a-SES-ment PROŁ-grem gajdz pi-ej-EM a-SE-ser gajd self-a-SES-ment gajd",
+  "plEgzamin": "Model Oceny Procesu (PAM), Przewodnik Asesora, Przewodnik Samooceny",
+  "plPodrecznik": "Model oceny procesu (FW-PL s. 41–42); nazw przewodników FW-PL nie podaje – zestawienie Altkom i inne polskie publikacje: Przewodnik osoby oceniającej, Podręcznik samooceny",
+  "mapa": "przewodniki-oceny",
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Przewodnik Asesora”, „Przewodnik Samooceny”. Zestawienie Altkom i inne polskie publikacje: „Przewodnik osoby oceniającej”, „Podręcznik samooceny” – tych nazw nie ma w podręczniku FW-PL.",
+  "status": "uproszczenie",
+  "poziomP": "P3",
+  "wymaga": [
+    "prm",
+    "poziomy-zdolnosci",
+    "skala-ocen"
+  ],
+  "poLudzku": "Trzy podręczniki do sprawdzania, jak dobrze coś robimy: dokładny, dla oceniającego i do samooceny.",
+  "wyobrazSobie": "Jak przegląd techniczny auta: lista wymagań jest jedna, stacja kontroli sprawdza ją formalnie i wydaje zaświadczenie, a Ty przed wizytą sam oglądasz światła i opony według tej samej listy.",
+  "poCo": "Żeby oceny zdolności procesów COBIT 5 prowadzić według jednego modelu, zarówno gdy organizacja ocenia się sama, jak i gdy robi to formalnie niezależny asesor.",
+  "jakDziala": "Model Oceny Procesu (Process Assessment Model, PAM) jest podstawą: zawiera procesy z PRM, wskaźniki, atrybuty i skalę ocen. Przewodnik Asesora (Assessor Guide) opisuje formalną ocenę zgodną z ISO/IEC 15504, opartą na dowodach i prowadzoną przez kompetentnego asesora. Przewodnik Samooceny (Self-Assessment Guide) pozwala na lżejszą, wewnętrzną ocenę bez zbierania dowodów, np. jako przygotowanie do oceny formalnej.",
+  "dlaczegoWazne": "Egzamin pyta, czym różnią się te publikacje, np. że samoocena nie wymaga dowodów i może przygotować do formalnej oceny, a nie jest „tym samym przewodnikiem stosowanym wewnętrznie”. To część obszaru oceny zdolności procesów w sylabusie.",
+  "skadNazwa": "Trzy angielskie tytuły (*PAM, Assessor Guide, Self-Assessment Guide*) mają kilka polskich wersji, np. „Przewodnik Asesora” albo „Przewodnik osoby oceniającej”.",
+  "poziom1": "Trzy publikacje do oceniania procesów COBIT: PAM to sam model (co oceniamy i jaką skalą), Przewodnik Asesora mówi, jak zrobić formalną ocenę opartą na dowodach, a Przewodnik Samooceny – jak szybciej ocenić się samemu, bez zbierania dowodów.",
+  "poziom2": "| Przewodnik | Do czego służy |\n|---|---|\n| **Model Oceny Procesu (PAM)** | **podstawa** oceny: procesy (PRM), wskaźniki, atrybuty, skala. Pozostałe przewodniki z niego korzystają |\n| **Przewodnik Asesora** | jak przeprowadzić **pełną, formalną ocenę** zgodną z ISO, opartą na **dowodach**, przez kompetentnego asesora |\n| **Przewodnik Samooceny** | **mniej rygorystyczna**, wewnętrzna ocena. **Nie wymaga zbierania dowodów**. Może służyć do **przygotowania się do formalnej oceny** |",
+  "poziom3": "Sylabus PC-02-02 (PAM 1.5). Opis na podstawie publicznych materiałów ISACA o przewodnikach (sklep ISACA, materiały szkoleniowe). Ocena może być wewnętrzna albo zewnętrzna (formalna, raportowanie, certyfikacja) – s. 45.",
+  "przyklady": {
+    "zycie": "Przed egzaminem na prawo jazdy robisz w domu test próbny w aplikacji – nikt nie sprawdza, czy zaglądasz do notatek (samoocena). Potem w WORD-zie egzaminator sprawdza wszystko według przepisów (ocena formalna). Oba sprawdziany opierają się na tych samych zasadach – tak jak oba przewodniki opierają się na PAM.",
+    "biuro": "Kierowniczka biura sama, z listą kontrolną centrali, ocenia porządek w archiwum – szybko, na podstawie tego, co wie i co mówią pracownicy. Gdy przychodzi kontrola z centrali, kontroler według tej samej listy każe pokazać rejestry, spisy teczek i protokoły brakowania.",
+    "firma": "Właścicielka sklepu internetowego sama siada z arkuszem i ocenia, jak działa obsługa reklamacji – szybko, z tego, co wiedzą pracownicy (Przewodnik Samooceny). Gdy duży kontrahent żąda niezależnej oceny, zatrudnia asesora, który prosi o dowody: rejestr reklamacji, procedury, maile (Przewodnik Asesora). Oboje korzystają z tego samego modelu – PAM.",
+    "admin": "Informatyk urzędu gminy razem z kierownikami wypełnia ankietę samooceny procesów IT, żeby zobaczyć, gdzie są braki. Rok później przychodzi asesor i każdą ocenę sprawdza na dokumentach i w rozmowach. Samoocena była przygotowaniem do formalnej oceny.",
+    "psp": "Kierownik SK z dyżurnymi robi samoocenę procesu obsługi zgłoszeń – przy stole, bez zbierania dokumentów, według Przewodnika Samooceny. Przed formalną oceną zewnętrzną komenda zaprasza asesora, który pracuje według Przewodnika Asesora i PAM. Asesor każe pokazać karty zdarzeń, grafiki i procedury jako dowody.",
+    "it": "Przed oceną zewnętrzną dział IT robi samoocenę APO12 (Zarządzanie ryzykiem) według Przewodnika Samooceny i widzi braki w rejestrze ryzyk. Potem asesor ocenia ten sam proces według PAM i Przewodnika Asesora i żąda dowodów, np. rejestru ryzyk i protokołów z jego przeglądów."
+  },
+  "glebokosc": {
+    "prosty": "Przed egzaminem na prawo jazdy jeździsz z tatą po placu i sam oceniasz, co Ci nie wychodzi – to samoocena. Na egzaminie egzaminator ma formularz, patrzy na konkretne manewry i zapisuje wynik – to formalna ocena. Oba oceniania opierają się na tych samych przepisach, czyli na wspólnym wzorcu.",
+    "zaawansowany": "Kpt. Sikora wie, że inspektor Ostrowska zapowiedziała kontrolę. Najpierw z zespołem robi szybką samoocenę według Przewodnika Samooceny, bez zbierania dowodów, żeby zobaczyć luki. Potem Ewa Lis prowadzi pełną ocenę według Przewodnika Asesora: prosi o dowody i ocenia [[atrybuty-procesu|atrybuty]] na skali N/C/W/P. Obie oceny opierają się na Modelu Oceny Procesu (PAM), który opisuje [[model-zdolnosci|model zdolności]]. Wcześniej trzeba ustalić [[cele-oceny|cel oceny]].",
+    "skrajny": "Ewa Lis jest audytorką wewnętrzną komendy, więc kusi, by nazwać jej ocenę „samooceną”. To błąd perspektywy: o rodzaju oceny decyduje metoda, a nie to, czy oceniający jest z wewnątrz. Jeśli Ewa zbiera dowody i pracuje według Przewodnika Asesora, prowadzi pełną ocenę, choć wewnątrz własnej organizacji. Odwrotnie: zewnętrzny konsultant, który przez godzinę wypełnia z zespołem ankietę bez dowodów, robi coś bliższego samoocenie. Framework dopuszcza oceny wewnętrzne i zewnętrzne (s. 45). **Rozstrzygnięcie:** Przewodnik Asesora = dowody i rygor, Przewodnik Samooceny = lżej i bez dowodów, PAM = wspólny wzorzec dla obu; to, kto ocenia, nie zmienia metody (interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Samoocena to Przewodnik Asesora używany wewnętrznie.",
+      "prawda": "To osobna, lżejsza metoda, która nie wymaga zbierania dowodów. Może służyć do przygotowania się do formalnej oceny."
+    },
+    {
+      "mit": "PAM to trzeci, równorzędny poradnik do wyboru.",
+      "prawda": "PAM jest podstawą: zawiera procesy, wskaźniki, atrybuty i skalę, z których korzystają oba przewodniki."
+    },
+    {
+      "mit": "Ocena wewnętrzna zawsze jest nieformalna.",
+      "prawda": "Ocena może być wewnętrzna albo zewnętrzna. O rygorze decyduje metoda i dowody, a nie to, kto ocenia (interpretacja kursu)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie samooceny z oceną wewnętrzną i traktowanie PAM jako alternatywy dla przewodników.",
+    "jakTlumaczyc": "Trójkąt: na dole PAM (wzorzec, atrybuty, skala), na górze dwa sposoby użycia – ciężki (asesor, dowody) i lekki (samoocena, bez dowodów). Porównanie: ważenie się w domu kontra badanie u lekarza – ta sama skala, inny rygor.",
+    "pytanieKontrolne": "Komenda chce za tydzień wiedzieć, gdzie ma luki, a za trzy miesiące przejść formalną ocenę. Jak użyć trzech publikacji?",
+    "odpowiedzKontrolna": "Teraz Przewodnik Samooceny – szybko, bez dowodów, żeby wskazać luki. Potem Przewodnik Asesora – pełna ocena oparta na dowodach. Obie korzystają z PAM jako wspólnego modelu."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Samoocena ≠ to samo co ocena asesora",
+      "roznica": "Samoocena nie jest „tym samym przewodnikiem używanym wewnętrznie”. To lżejsza metoda bez wymogu dowodów."
+    }
+  ],
+  "przykladWypowiedzi": "The Process Assessment Model (PAM), czyli Model Oceny Procesu, jest podstawą obu przewodników: Assessor Guide (Przewodnik Asesora) służy do formalnej oceny opartej na dowodach, a Self-Assessment Guide (Przewodnik Samooceny) do lżejszej oceny wewnętrznej bez zbierania dowodów.",
+  "egzamin": "Prawdziwe: **Przewodnik Samooceny może być użyty do przygotowania do formalnej oceny zdolności procesu**. Fałsz: „Samoocena jest taka sama jak Przewodnik Asesora”.",
+  "powiazane": [
+    "model-zdolnosci",
+    "cele-oceny"
+  ],
+  "sylabus": [
+    "PC-02-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "SYL"
+    },
+    {
+      "doc": "WWW",
+      "url": "https://www.isaca.org/bookstore/cobit-5/wcsag5"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 45
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Model Oceny Procesu (PAM), Przewodnik Asesora, Przewodnik Samooceny",
+    "podrecznik": "Model oceny procesu (FW-PL s. 41–42); nazw przewodników FW-PL nie podaje – zestawienie Altkom i inne polskie publikacje: Przewodnik osoby oceniającej, Podręcznik samooceny",
+    "kurs": "Model Oceny Procesu (PAM), Przewodnik Asesora, Przewodnik Samooceny – COBIT Assessment Programme guides: PAM, Assessor Guide, Self-Assessment Guide",
+    "uwaga": "Egzamin PL: „Model Oceny Procesu (PAM), Przewodnik Asesora, Przewodnik Samooceny”. Podręcznik FW-PL podaje tylko „Model oceny procesu” (s. 41–42); nazw przewodników nie zawiera. Formy „Przewodnik osoby oceniającej” i „Podręcznik samooceny” pochodzą z zestawienia Altkom (kolumna „Podręcznik PL”) i innych polskich publikacji – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL."
+  },
+  "kategoria": "egzaminacyjne"
+}

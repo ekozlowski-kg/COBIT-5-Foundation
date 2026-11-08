@@ -1,0 +1,106 @@
+{
+  "id": "cel-kontekstowy-procesu",
+  "en": "Contextual goals (process goals)",
+  "wymowa": "konteksczuel gołlz",
+  "wymowaAkcent": "kon-TEKS-czu-el gołlz",
+  "plEgzamin": "Cele kontekstowe (procesu)",
+  "plPodrecznik": "Cele dotyczące zgodności z kontekstem",
+  "plInne": [
+    {
+      "nazwa": "Jakość kontekstowa (ta sama kategoria w ogólnym modelu aktywatora)",
+      "zrodlo": "FW-PL s. 29"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cele kontekstowe (procesu)",
+    "podrecznik": "Cele dotyczące zgodności z kontekstem",
+    "kurs": "Cele kontekstowe (procesu) – Contextual goals",
+    "uwaga": "Egzamin PL: „Cele kontekstowe (procesu)”; podręcznik PL: „Cele dotyczące zgodności z kontekstem” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 69. Inne formy w obiegu: Jakość kontekstowa (ta sama kategoria w ogólnym modelu aktywatora) (FW-PL s. 29)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „cele dotyczące zgodności z kontekstem”. Słowo „zgodność” NIE oznacza tu zgodności z przepisami (to cel wewnętrzny). Chodzi o dopasowanie do sytuacji organizacji.",
+  "skadNazwa": "*Contextual* znaczy „zależny od kontekstu”, czyli od sytuacji. Podręcznik pisze „cele dotyczące zgodności z kontekstem”, co myli się ze zgodnością z przepisami. W ogólnym modelu aktywatora odpowiada temu „jakość kontekstowa”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "kategorie-celow-procesu",
+    "proces",
+    "jakosc-kontekstowa"
+  ],
+  "mapa": "cel-kontekstowy-procesu",
+  "poziom1": "Cele kontekstowe pytają, czy proces pasuje do konkretnej organizacji. Czy jest dostosowany do jej sytuacji? Czy jest odpowiedni, zrozumiały i łatwy do zastosowania dla jej ludzi? Ten sam proces może być świetny w wielkiej firmie, a za ciężki w małej.",
+  "poLudzku": "Czy sposób pracy pasuje do naszej sytuacji i czy ludzie łatwo go rozumieją i stosują.",
+  "wyobrazSobie": "Garnitur szyty na miarę: dobry materiał to jedno, ale ma jeszcze pasować na ciebie.",
+  "poCo": "Żeby proces nie był tylko poprawny, ale też pasował do tej konkretnej organizacji i jej ludzi.",
+  "jakDziala": "Pytasz, czy proces jest dostosowany do sytuacji organizacji, odpowiedni, zrozumiały i łatwy do zastosowania. Ten sam wzorcowy proces może pasować do dużej firmy i nie pasować do małej. Wtedy cel wewnętrzny jest spełniony, a kontekstowy nie.",
+  "dlaczegoWazne": "Na egzaminie słowo „kontekst” bywa przynętą przy zdaniach o przepisach. Kto pamięta, że kontekst to dopasowanie, a nie zgodność, unika pomyłki.",
+  "poziom2": "Pytania celów kontekstowych (s. 69):\n- Czy proces został **dostosowany i dopasowany** do konkretnej sytuacji przedsiębiorstwa?\n- Czy proces jest **odpowiedni, zrozumiały i łatwy do zastosowania**?\n\n| Słowo w pytaniu | Kategoria celu |\n|---|---|\n| dopasowany, dostosowany, zrozumiały, łatwy w użyciu | kontekstowy |\n| zgodny z prawem, regulaminem, dobrą praktyką | wewnętrzny |\n| poufny, znany, dostępny | dostępność i bezpieczeństwo |",
+  "poziom3": "(s. 69): *„Cele dotyczące zgodności z kontekstem — czy proces został dostosowany i dopasowany do konkretnej sytuacji przedsiębiorstwa? Czy proces jest odpowiedni, zrozumiały i łatwy do zastosowania?”* Odpowiednik „jakości kontekstowej” (istotność, skuteczność) z ogólnego modelu aktywatora.",
+  "przyklady": {
+    "zycie": "Przyjaciółka daje ci plan treningowy maratończyka: sześć dni biegania w tygodniu. Plan jest poprawny, ale ty masz małe dzieci i godzinę wolną dziennie. Nie pasuje do twojej sytuacji. Cel kontekstowy pyta właśnie o to dopasowanie.",
+    "biuro": "Małe biuro tłumaczeń bierze od dużej agencji procedurę przyjmowania zleceń z pięcioma formularzami. Dwie tłumaczki gubią się w niej po tygodniu. Procedura nie spełnia celu kontekstowego.",
+    "organizacja": "Mała piekarnia kopiuje procedurę reklamacji z sieci supermarketów: trzy formularze i dwa podpisy. Procedura jest zgodna z prawem, ale ekspedientki jej nie rozumieją i klienci czekają. Nie spełnia celu kontekstowego, bo nie pasuje do małej firmy. Gmina wiejska bierze instrukcję kancelaryjną dużego miasta z dziesięcioma referatami. W urzędzie pracuje pięć osób, więc połowy kroków nie ma kto wykonać. Instrukcja jest zgodna z przepisami, ale nie jest dopasowana do kontekstu.",
+    "psp": "Firma Kwant-Sygnał przysyła komendzie w Modrzewiowie wzorcową procedurę alarmowania z dużego miasta: 14 kroków i trzech dyżurnych. W SK na nocnej zmianie siedzi tylko Paweł Grab. Kasia Nowik skraca procedurę do 5 kroków, które jeden dyżurny wykona w nocy. Tak komenda spełnia cel kontekstowy procesu.",
+    "it": "Organizacja wdraża DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) według wzorca dla dużego centrum wsparcia. Ma jednego informatyka, więc upraszcza praktyki. Dopasowanie do skali to cel kontekstowy procesu."
+  },
+  "glebokosc": {
+    "prosty": "Kupujesz dobre buty w swoim rozmiarze, ale górskie, a chodzisz po mieście. Buty są dobre, tylko nie do twojej sytuacji. Proces też może być dobry, a jednak nie pasować do miejsca. O to pyta cel kontekstowy.",
+    "zaawansowany": "Komenda kupuje gotowy proces obsługi alarmu od dostawcy. Audytorka Lis sprawdza najpierw [[cel-wewnetrzny-procesu|cel wewnętrzny]]: proces jest zgodny z wytycznymi i dobrą praktyką. Potem cel kontekstowy: czy pasuje do komendy z jednym dyżurnym w nocy? Nie pasuje, bo zakłada trzech. Dyżurni go nie rozumieją i robią po swojemu. Proces jest poprawny, ale nie spełnia celu kontekstowego.",
+    "skrajny": "Pytanie testowe: „Proces jest zgodny z kontekstem regulacyjnym branży. Jaki to cel?”. Słowo „kontekst” kusi, żeby odpowiedzieć „kontekstowy”. Ale treść mówi o zgodności z regulacjami, a to cel wewnętrzny. Odwrotna pułapka jest w podręczniku: nazwa „cele dotyczące zgodności z kontekstem” zawiera słowo „zgodność”. Nie chodzi tam o przepisy, tylko o dopasowanie do sytuacji organizacji. Patrz więc na to, CO jest sprawdzane, a nie na pojedyncze słowo. **Rozstrzygnięcie:** zgodność z regułami (także z „kontekstem prawnym”) to cel wewnętrzny. Dopasowanie do sytuacji, zrozumiałość i łatwość użycia to cel kontekstowy."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Każde zdanie ze słowem „kontekst” to cel kontekstowy.",
+      "prawda": "„Zgodność z kontekstem prawnym” to zgodność z regułami, czyli cel wewnętrzny. Liczy się, czy chodzi o dopasowanie, czy o przepisy."
+    },
+    {
+      "mit": "Proces zgodny z dobrą praktyką zawsze spełnia cel kontekstowy.",
+      "prawda": "Zgodność z dobrą praktyką to cel wewnętrzny. Proces może być wzorcowy i nadal za ciężki dla małej organizacji."
+    },
+    {
+      "mit": "Cele kontekstowe dotyczą klientów zewnętrznych.",
+      "prawda": "Dotyczą dopasowania do sytuacji organizacji i zrozumiałości dla ludzi, którzy proces stosują."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wybiera „kontekstowy” na widok słowa „kontekst” albo „otoczenie”, choć pytanie dotyczy zgodności z przepisami.",
+    "jakTlumaczyc": "Użyj obrazu butów: dobre buty mogą nie pasować do twojej drogi. Zgodność z regułami to jakość butów (cel wewnętrzny), a pasowanie do drogi to kontekst.",
+    "pytanieKontrolne": "Wzorcowa procedura z dużego szpitala jest zgodna z przepisami, ale w małej przychodni nikt jej nie stosuje, bo jest za skomplikowana. Którego celu nie spełnia?",
+    "odpowiedzKontrolna": "Nie spełnia **celu kontekstowego**: nie jest dopasowana do sytuacji przychodni ani łatwa do zastosowania. Cel wewnętrzny (zgodność z przepisami) spełnia."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cel-wewnetrzny-procesu",
+      "roznica": "Wewnętrzny: zgodność z regułami i dobrą praktyką. Kontekstowy: dopasowanie do sytuacji i zrozumiałość dla ludzi."
+    },
+    {
+      "termin": "jakosc-kontekstowa",
+      "roznica": "Jakość kontekstowa to ogólna kategoria celów aktywatora (np. informacja istotna, kompletna, aktualna). Cel kontekstowy procesu to jej wersja dla procesu."
+    }
+  ],
+  "przykladWypowiedzi": "A contextual goal asks whether the process is customised and easy to apply, czyli cel kontekstowy pyta, czy proces jest dopasowany i łatwy do zastosowania.",
+  "egzamin": "Słowa-klucze celu kontekstowego: **dostosowany, dopasowany do sytuacji, zrozumiały, łatwy do zastosowania**. Uwaga na podręcznikowe „zgodność z kontekstem”: to nie jest zgodność z przepisami.",
+  "powiazane": [
+    "kategorie-celow-procesu",
+    "jakosc-kontekstowa",
+    "cel-wewnetrzny-procesu",
+    "cel-dostepnosci-procesu"
+  ],
+  "sylabus": [
+    "EN-02-08"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 69,
+      "cytat": "czy proces został dostosowany i dopasowany do konkretnej sytuacji przedsiębiorstwa?"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 69,
+      "cytat": "Czy proces jest odpowiedni, zrozumiały i łatwy do zastosowania?"
+    }
+  ]
+}

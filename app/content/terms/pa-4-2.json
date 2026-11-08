@@ -1,0 +1,103 @@
+{
+  "id": "pa-4-2",
+  "en": "PA 4.2 Process control",
+  "wymowa": "piej 4 2 prołses kontrołl",
+  "wymowaAkcent": "pi-ej 4 2 PROŁ-ses kon-TROŁL",
+  "plEgzamin": "PA 4.2 Kontrola procesu",
+  "plPodrecznik": "PA 4.2 Kontrola procesu",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "PA 4.2 Kontrola procesu",
+    "podrecznik": "PA 4.2 Kontrola procesu",
+    "kurs": "PA 4.2 Kontrola procesu (PA 4.2 Process control)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Kontrola procesu” (PA 4.2) to trzymanie procesu w limitach na podstawie pomiarów. Nie myl jej z kontrolą wewnętrzną (MEA02), z mechanizmami kontrolnymi procesów z COBIT 4.1 ani z inspekcją z zewnątrz.",
+  "skadNazwa": "Z angielskiego *Process control*, jak w kontroli produkcji w fabryce: pilnowanie, żeby wynik mieścił się w granicach.",
+  "kategoria": "egzaminacyjne",
+  "status": "uproszczenie",
+  "poziomP": "P3",
+  "wymaga": [
+    "pa-4-1"
+  ],
+  "poziom1": "Drugi atrybut poziomu 4. Sprawdza, czy proces jest kontrolowany na podstawie wyników pomiarów. Są ustalone limity i techniki analizy, a odchylenia są wykrywane i korygowane, żeby proces był stabilny i przewidywalny.",
+  "poLudzku": "Czy gdy liczby pokazują, że robota wyjeżdża poza normę, ktoś szybko to wyłapuje i naprawia.",
+  "wyobrazSobie": "Termostat: gdy temperatura spada poniżej ustawionej, sam włącza ogrzewanie.",
+  "poCo": "Żeby proces, który już mierzymy, faktycznie trzymał się ustalonych granic.",
+  "jakDziala": "Organizacja ustala na podstawie pomiarów limity normalnej pracy. Analizuje odchylenia, szuka ich przyczyn i wprowadza korekty. Po zmianie ustala limity na nowo.",
+  "dlaczegoWazne": "Bez reakcji na odchylenia sam pomiar nie daje poziomu 4. Słowo „kontrola” myli się z kontrolą wewnętrzną i audytem.",
+  "poziom2": "| Co sprawdza asesor (uproszczenie według ISO/IEC 15504) | Przykład |\n|---|---|\n| techniki analizy i kontroli | wykres z granicami |\n| limity zmienności w normalnej pracy | 40–60 s |\n| analiza nietypowych odchyleń | skok czasów w lipcu |\n| działania korygujące | zmiana ustawień wysyłki |\n| ponowne ustalenie limitów po korekcie | nowy zakres |\n\n[[pa-4-1|PA 4.1]] daje liczby. PA 4.2 robi z nich użytek: trzyma proces w **zdefiniowanych limitach** (s. 42).",
+  "poziom3": "Il. 19 (s. 42) i Il. 21 (s. 44): „Kontrola procesu”. (s. 42): proces przewidywalny *„działa teraz w ramach zdefiniowanych limitów w celu osiągnięcia wyników procesu”*. Szczegóły atrybutu według ISO/IEC 15504-2 to uproszczenie kursu, spoza korpusu.",
+  "przyklady": {
+    "zycie": "Pilnujesz w domu temperatury 20–22 stopnie. Gdy spada do 18, sprawdzasz, czy okno nie jest otwarte, i reagujesz. Granice i reakcja na odchylenia to PA 4.2.",
+    "biuro": "Gdy obieg faktury przekracza 10 dni, kierowniczka księgowości od razu sprawdza, gdzie utknęła faktura, i zmienia kolejność zatwierdzeń. To PA 4.2.",
+    "organizacja": "Piekarnia przemysłowa waży co dziesiąty bochenek. Gdy waga wychodzi poza 490–510 g, linia staje, a technik szuka przyczyny. To kontrola procesu.\n\nUrząd ma limit: 90% decyzji w 21 dni. Gdy w marcu wychodzi 75%, kierownik od razu analizuje przyczynę i przesuwa ludzi. To PA 4.2.",
+    "psp": "**Lipcowy skok.** W lipcu raport pokazuje, że czasy alarmu wychodzą poza limit 60 sekund. Ola Dudek analizuje dane i znajduje przyczynę u operatora SMS. Naczelnik Sikora zmienia ustawienia wysyłki, a czasy wracają w granice. Audytorka Ewa Lis widzi, że odchylenie wykryto i usunięto. To PA 4.2.",
+    "it": "Proces DSS01: gdy czas zadań wsadowych wychodzi poza limit, zespół operacji analizuje przyczynę i wprowadza korektę. To dowody dla PA 4.2, a nie dla procesu MEA02."
+  },
+  "glebokosc": {
+    "prosty": "Kierowca na autostradzie patrzy na licznik. Gdy przekracza dozwoloną prędkość, zdejmuje nogę z gazu. Sam licznik nic nie daje, jeśli nikt na niego nie reaguje. Reakcja to kontrola procesu.",
+    "zaawansowany": "Proces powiadamiania ma już cel i raporty ([[pa-4-1|miara procesu]]). Sikora ustala dopuszczalny zakres 40–60 sekund. Gdy czasy wychodzą poza zakres, Dudek analizuje przyczynę, a Sikora wprowadza korektę. Ewa Lis ocenia kontrolę procesu. Razem z P na niższych atrybutach to droga do [[poziom-4|poziomu 4]].",
+    "skrajny": "Komenda ma piękny raport z czasami alarmów, ale nikt nie reaguje na odchylenia. PA 4.1 = W, PA 4.2 = C, więc poziomu 4 nie ma. Odwrotna sytuacja: Sikora reaguje na każdą skargę, ale bez danych i limitów. To gaszenie pożarów, a nie PA 4.2, bo kontrola procesu opiera się na pomiarach. Trzecia pułapka to samo słowo „kontrola”. Kontrola wewnętrzna z MEA02 i inspekcja z komendy wojewódzkiej to coś innego. **Rozstrzygnięcie:** PA 4.2 = reakcja na odchylenia od limitów ustalonych z pomiarów PA 4.1. Bez pomiaru nie ma kontroli procesu, a pomiar bez reakcji nie daje poziomu 4 (interpretacja kursu według ISO/IEC 15504)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Kontrola procesu to kontrola wewnętrzna albo audyt.",
+      "prawda": "PA 4.2 to trzymanie procesu w limitach na podstawie pomiarów. Kontrola wewnętrzna to temat MEA02, a audyt to ocena z zewnątrz procesu."
+    },
+    {
+      "mit": "Wystarczy reagować na problemy, żeby mieć PA 4.2.",
+      "prawda": "Reakcja musi wynikać z danych i limitów z pomiaru (PA 4.1). Gaszenie pożarów bez liczb to nie kontrola procesu."
+    },
+    {
+      "mit": "Pomiar i kontrola to jeden atrybut.",
+      "prawda": "To dwa atrybuty poziomu 4: PA 4.1 (miara) i PA 4.2 (kontrola). Oba muszą mieć co najmniej W."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myli kontrolę procesu z audytem albo kontrolą wewnętrzną.",
+    "jakTlumaczyc": "Termostat: czujnik (PA 4.1) i piec, który włącza się poza zakresem (PA 4.2). Jedno bez drugiego nie utrzyma temperatury.",
+    "pytanieKontrolne": "Raporty czasów powstają co tydzień, ale nikt nie reaguje na wyniki poza limitem. Który atrybut jest słaby?",
+    "odpowiedzKontrolna": "PA 4.2 Kontrola procesu. Pomiar (PA 4.1) działa, ale nie ma reakcji na odchylenia."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "pa-4-1",
+      "roznica": "PA 4.1 mierzy. PA 4.2 reaguje na wyniki pomiaru i trzyma proces w limitach."
+    },
+    {
+      "termin": "mea",
+      "roznica": "MEA02 to proces monitorowania systemu kontroli wewnętrznej. PA 4.2 to atrybut oceny zdolności dowolnego procesu."
+    },
+    {
+      "termin": "Mechanizmy kontrolne procesów (COBIT 4.1)",
+      "roznica": "Typowe cele kontrolne z COBIT 4.1. W COBIT 5 ich treść przeszła do atrybutów poziomów 2–5, a nie wyłącznie do PA 4.2."
+    }
+  ],
+  "przykladWypowiedzi": "PA 4.2 Process control, czyli kontrola procesu, sprawdza, czy proces jest utrzymywany w zdefiniowanych limitach na podstawie wyników pomiaru (PA 4.1 Process measurement).",
+  "egzamin": "Poziom 4 (przewidywalny): **miara** i **kontrola** procesu. Słowo-klucz poziomu: **zdefiniowane limity**.",
+  "powiazane": [
+    "atrybuty-procesu",
+    "poziom-4",
+    "pa-4-1"
+  ],
+  "sylabus": [
+    "PC-01-02"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 42,
+      "ilustracja": "19",
+      "cytat": "działa teraz w ramach zdefiniowanych limitów w celu osiągnięcia wyników procesu"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 43,
+      "cytat": "zdefiniowano obecnie na poziomach 2–5 modelu oszacowania"
+    }
+  ],
+  "mapa": "pa-4-2"
+}

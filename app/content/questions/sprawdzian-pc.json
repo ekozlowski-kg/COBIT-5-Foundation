@@ -1,0 +1,684 @@
+{
+  "pytania": [
+    {
+      "id": "q-spr-pc-01",
+      "typ": "egzamin",
+      "sprawdzian": "PC",
+      "czesc": "wiedza",
+      "sylabus": [
+        "PC-01-01",
+        "PC-01-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak rozkładają się atrybuty procesu na poziomy zdolności w Modelu Zdolności Procesu COBIT 5 (Rysunek 19)?",
+      "opcje": [
+        {
+          "tekst": "Poziom 1 ma jeden atrybut (PA 1.1), a poziomy 2–5 po dwa; razem dziewięć.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. PA 1.1 na poziomie 1, potem po dwa atrybuty na poziomach 2, 3, 4 i 5: razem dziewięć atrybutów procesu."
+        },
+        {
+          "tekst": "Każdy z sześciu poziomów, od 0 do 5, ma po dwa atrybuty; razem dwanaście atrybutów procesu.",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 0 (proces niekompletny) nie ma atrybutów, a poziom 1 ma tylko jeden.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 1 ma dwa atrybuty, a poziomy 2–5 po jednym; razem sześć atrybutów procesu.",
+          "poprawna": false,
+          "wyjasnienie": "Liczby są zamienione. To poziom 1 ma jeden atrybut, a wyższe po dwa.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Poziom 0 ma jeden atrybut, a poziomy 1–5 po dwa; razem jedenaście atrybutów procesu.",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 0 oznacza brak wdrożenia albo nieosiągnięty cel procesu. Nie ma atrybutu.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "atrybuty-procesu",
+        "poziomy-zdolnosci"
+      ]
+    },
+    {
+      "id": "q-spr-pc-02",
+      "typ": "egzamin",
+      "sprawdzian": "PC",
+      "czesc": "wiedza",
+      "sylabus": [
+        "PC-01-03"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Asesor ustalił, że atrybut PA 2.1 jest osiągnięty w około 60%. Jaką ocenę zapiszesz na **polskim egzaminie**?",
+      "opcje": [
+        {
+          "tekst": "P – Pełny, bo atrybut jest osiągnięty w ponad połowie.",
+          "poprawna": false,
+          "wyjasnienie": "P (Pełny) oznacza ponad 85–100%. 60% to za mało na ocenę pełną.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "C – Częściowy, bo ocena częściowa obejmuje wszystko poniżej 85%.",
+          "poprawna": false,
+          "wyjasnienie": "C (Częściowy) to ponad 15–50%. Powyżej 50% zaczyna się W.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "W – Większościowy (ponad 50–85%).",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Skala N/C/W/P: N 0–15%, C >15–50%, W >50–85%, P >85–100%. 60% to W (w EN: L – Largely achieved)."
+        },
+        {
+          "tekst": "L – osiągnięty w znacznym stopniu (Largely achieved).",
+          "poprawna": false,
+          "wyjasnienie": "Zakres jest dobry, ale to litera z oryginału i podręcznika. Na polskim egzaminie ta ocena to **W**.",
+          "pulapka": "forma-podrecznikowa"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "skala-ocen",
+        "ocena-w"
+      ]
+    },
+    {
+      "id": "q-spr-pc-03",
+      "typ": "popraw-termin",
+      "sprawdzian": "PC",
+      "czesc": "terminologia",
+      "sylabus": [
+        "PC-01-01",
+        "PC-01-02",
+        "PC-01-03"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Notatka z oceny zdolności procesu. Wskaż zdania z błędnym albo podręcznikowym terminem i podaj formę egzaminacyjną (z EN).",
+      "twierdzenia": [
+        {
+          "tekst": "Na polskim egzaminie litera P na skali ocen oznacza ocenę „Częściowy” (Partially achieved).",
+          "poprawne": false,
+          "wyjasnienie": "Największa pułapka skali. Na egzaminie PL **P = Pełny** (Fully achieved); „Częściowy” to **C**.",
+          "blednyTermin": "Częściowy (Partially achieved)",
+          "poprawka": "Pełny (Fully achieved)"
+        },
+        {
+          "tekst": "PA 2.1 Zarządzanie wydajnością (Performance management) należy do poziomu 2.",
+          "poprawne": true,
+          "wyjasnienie": "Poprawnie. Podręcznik pisze „Zarządzanie sprawnością”, egzamin: „Zarządzanie wydajnością”."
+        },
+        {
+          "tekst": "PA 4.1 Pomiar procesu (Process measurement) należy do poziomu 4.",
+          "poprawne": false,
+          "wyjasnienie": "Poziom dobry, ale „Pomiar procesu” to forma podręcznikowa. Egzamin PL: **Miara procesu**.",
+          "blednyTermin": "Pomiar procesu",
+          "poprawka": "Miara procesu (Process measurement)"
+        },
+        {
+          "tekst": "Poziom 5 to Proces optymalizujący (Optimising process).",
+          "poprawne": false,
+          "wyjasnienie": "„Optymalizujący” to forma z podręcznika. Egzamin PL: **Proces zoptymalizowany**.",
+          "blednyTermin": "Proces optymalizujący",
+          "poprawka": "Proces zoptymalizowany (Optimising process)"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "skala-ocen",
+        "atrybuty-procesu",
+        "pa-2-1",
+        "pa-4-1",
+        "poziom-5"
+      ]
+    },
+    {
+      "id": "q-spr-pc-04",
+      "typ": "dopasowanie",
+      "sprawdzian": "PC",
+      "czesc": "terminologia",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Dopasuj poziom zdolności procesu (EN) do nazwy egzaminacyjnej PL.",
+      "pary": [
+        {
+          "lewa": "Level 0 – Incomplete process",
+          "prawa": "Proces niekompletny"
+        },
+        {
+          "lewa": "Level 1 – Performed process",
+          "prawa": "Proces wykonywany"
+        },
+        {
+          "lewa": "Level 2 – Managed process",
+          "prawa": "Proces zarządzany"
+        },
+        {
+          "lewa": "Level 3 – Established process",
+          "prawa": "Proces ustanowiony"
+        },
+        {
+          "lewa": "Level 4 – Predictable process",
+          "prawa": "Proces przewidywalny"
+        },
+        {
+          "lewa": "Level 5 – Optimising process",
+          "prawa": "Proces zoptymalizowany"
+        }
+      ],
+      "wyjasnienie": "Nazwy poziomów 0–4 są takie same w podręczniku i na egzaminie. Różnica jest na poziomie 5: podręcznik pisze „proces optymalizujący”, egzamin – „Proces zoptymalizowany”.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "poziomy-zdolnosci"
+      ]
+    },
+    {
+      "id": "q-spr-pc-05",
+      "typ": "nazwa-en",
+      "sprawdzian": "PC",
+      "czesc": "terminologia",
+      "sylabus": [
+        "PC-02-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Podaj angielską nazwę wymiaru oceny, który egzamin PL nazywa „Wymiar Zdolności” (wskaźniki dla poziomów 1–5).",
+      "termin": "wymiar-zdolnosci",
+      "poprawne": [
+        "Capability dimension"
+      ],
+      "wyjasnienie": "Oryginał: **Capability dimension**. Drugi wymiar to **Process dimension** (Wymiar Procesu): praktyki bazowe i produkty pracy konkretnego procesu. Podręcznik PL mówi o „wskaźnikach potencjału” i „wskaźnikach wydajności” (Rysunek 19).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "wymiar-zdolnosci",
+        "wymiar-procesu"
+      ]
+    },
+    {
+      "id": "q-spr-pc-06",
+      "typ": "egzamin",
+      "sprawdzian": "PC",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Czym ocena zdolności procesu w COBIT 5 różni się od modelu dojrzałości COBIT 4.1?",
+      "opcje": [
+        {
+          "tekst": "COBIT 5 ma osobny model dojrzałości dla każdego z 37 procesów, tak jak wcześniej COBIT 4.1.",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie. COBIT 5 zrezygnował z osobnych modeli dojrzałości dla procesów, bo ISO/IEC 15504 tego nie wymaga.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Wyniki obu modeli można porównywać wprost, bo oba używają skali poziomów od 0 do 5.",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik ostrzega, że takie porównanie jest trudne mimo podobnych skal (Rysunek 20).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Model COBIT 5 ocenia dojrzałość całej organizacji, a nie pojedynczych procesów Ładu i Zarządzania.",
+          "poprawna": false,
+          "wyjasnienie": "Model zdolności ocenia **procesy**, jeden po drugim, a nie całą organizację.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Opiera się na ISO/IEC 15504; wyniki bywają niższe, bo poziom 1 wymaga osiągnięcia celu procesu.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Proces, który w COBIT 4.1 miał poziom 1 lub 2 bez osiągnięcia celów, w COBIT 5 może dostać 0 lub 1."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 44,
+          "ilustracja": "20"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "model-zdolnosci"
+      ]
+    },
+    {
+      "id": "q-spr-pc-07",
+      "typ": "egzamin",
+      "sprawdzian": "PC",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "PC-02-04",
+        "PC-01-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które wskaźniki oceny należą do **Wymiaru Procesu** (Process dimension), a NIE do Wymiaru Zdolności?",
+      "opcje": [
+        {
+          "tekst": "Praktyki ogólne (generic practices), zasoby ogólne i ogólne produkty pracy, takie same dla wszystkich procesów.",
+          "poprawna": false,
+          "wyjasnienie": "To wskaźniki **Wymiaru Zdolności** (podręcznik: „typowe praktyki, typowe zasoby”). Wymiar zdolności dotyczy atrybutów poziomów 1–5; dla PA 1.1 dowody pochodzą jednak głównie z wymiaru procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Praktyki bazowe (base practices) i produkty pracy (work products) konkretnego procesu.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Wymiar Procesu (poziom 1): wyniki procesu, praktyki bazowe (praktyki Ładu/Zarządzania) i produkty pracy (wejścia i wyjścia)."
+        },
+        {
+          "tekst": "Atrybuty procesu od PA 2.1 do PA 5.2, które asesor ocenia skalą N/C/W/P.",
+          "poprawna": false,
+          "wyjasnienie": "Atrybuty poziomów 2–5 oceniamy w **Wymiarze Zdolności**.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Cele organizacji i cele związane z informatyką, z którymi proces jest powiązany w kaskadzie.",
+          "poprawna": false,
+          "wyjasnienie": "Kaskada celów to zasada 1. Nie jest wskaźnikiem oceny zdolności.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "wymiar-procesu",
+        "wymiar-zdolnosci",
+        "praktyka-bazowa",
+        "produkt-pracy"
+      ]
+    },
+    {
+      "id": "q-spr-pc-08",
+      "typ": "egzamin",
+      "sprawdzian": "PC",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "PC-02-06"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Asesor chce uznać proces za Proces ustanowiony. Jaki warunek muszą spełnić oceny atrybutów?",
+      "opcje": [
+        {
+          "tekst": "Gdy PA 3.1 i PA 3.2 mają ocenę W lub P, a wszystkie atrybuty poziomów 1 i 2 – ocenę P.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Atrybuty danego poziomu: co najmniej W (Largely), a wszystkie atrybuty niższych poziomów: P (Fully)."
+        },
+        {
+          "tekst": "Gdy PA 3.1 i PA 3.2 mają ocenę P, a atrybutom poziomów 1 i 2 wystarczy ocena W albo C.",
+          "poprawna": false,
+          "wyjasnienie": "Reguła jest odwrócona: to niższe poziomy muszą być w pełni osiągnięte.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Gdy średnia ocen ze wszystkich dziewięciu atrybutów procesu przekracza pięćdziesiąt procent.",
+          "poprawna": false,
+          "wyjasnienie": "Model nie liczy średniej. Każdy poziom ma własne warunki dla swoich atrybutów i dla niższych.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Gdy PA 3.1 ma ocenę W, niezależnie od ocen PA 3.2 i atrybutów niższych poziomów.",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. Liczą się oba atrybuty poziomu 3 i pełne osiągnięcie poziomów 1 i 2.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "poziomy-zdolnosci",
+        "skala-ocen",
+        "poziom-3"
+      ]
+    },
+    {
+      "id": "q-spr-pc-09",
+      "typ": "egzamin",
+      "sprawdzian": "PC",
+      "czesc": "mechanizmy",
+      "sylabus": [
+        "PC-02-06",
+        "PC-01-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Ewa Lis ma ustalić, czy DSS02 jest już Procesem wykonywanym. Od czego zaczyna według podręcznika COBIT 5?",
+      "opcje": [
+        {
+          "tekst": "Sprawdza się, czy proces jest mierzony i kontrolowany w zdefiniowanych granicach.",
+          "poprawna": false,
+          "wyjasnienie": "Działanie w zdefiniowanych granicach opisuje poziom 4 (Proces przewidywalny).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Sprawdza się, czy organizacja ma standardowy, udokumentowany i wdrożony proces.",
+          "poprawna": false,
+          "wyjasnienie": "Zdefiniowany, standardowy proces to cecha poziomu 3 (Proces ustanowiony).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Porównuje się wyniki procesu z jego opisem i skalą N/C/W/P ocenia, czy cel osiągnięto.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Weryfikuje się wyniki procesu z jego opisu i ocenia skalą ISO/IEC 15504; pomocniczo ocenia się praktyki bazowe i produkty pracy."
+        },
+        {
+          "tekst": "Porównuje się wynik z modelem dojrzałości COBIT 4.1 i przelicza go na poziom zdolności.",
+          "poprawna": false,
+          "wyjasnienie": "Model dojrzałości COBIT 4.1 nie jest podstawą oceny w COBIT 5.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "poziom-1",
+        "skala-ocen"
+      ]
+    },
+    {
+      "id": "q-spr-pc-10",
+      "typ": "studium",
+      "sprawdzian": "PC",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "PC-02-06",
+        "PC-01-03"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Jaki poziom zdolności osiągnął proces (skala egzaminu PL: N/C/W/P)?",
+      "scenariusz": "Audytorka Ewa Lis oceniła proces DSS02 *Manage Service Requests and Incidents*:\n- PA 1.1 – P\n- PA 2.1 – P\n- PA 2.2 – W\n- PA 3.1 – W\n- PA 3.2 – C",
+      "opcje": [
+        {
+          "tekst": "Proces osiągnął poziom 3, bo PA 3.1 ma ocenę W, a to wystarcza na tym poziomie.",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 3 wymaga W lub P przy **obu** atrybutach poziomu 3 (PA 3.2 ma C) oraz P przy wszystkich niższych.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Proces osiągnął tylko poziom 1, bo PA 2.2 nie ma oceny P.",
+          "poprawna": false,
+          "wyjasnienie": "Dla poziomu 2 wystarczy W przy PA 2.2. Ocena P jest potrzebna dopiero, gdy chcemy uznać poziom 3.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Proces jest na poziomie 0, bo nie wszystkie atrybuty mają ocenę P.",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 0 oznacza nieosiągnięty cel procesu. PA 1.1 ma P, więc poziom 1 jest osiągnięty.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 2 (zarządzany); poziom 3 blokują m.in. W przy PA 2.2 i C przy PA 3.2.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Poziom 2: PA 2.1 i PA 2.2 co najmniej W, PA 1.1 = P. Poziom 3 wymagałby P przy PA 2.2 oraz W lub P przy PA 3.2."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "poziomy-zdolnosci",
+        "skala-ocen",
+        "atrybuty-procesu"
+      ]
+    },
+    {
+      "id": "q-spr-pc-11",
+      "typ": "studium",
+      "sprawdzian": "PC",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "PC-02-01"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Któremu celowi oceny zdolności procesu odpowiada potrzeba komendantki?",
+      "scenariusz": "Komendantka Anna Wrzos mówi: „Nie potrzebuję żadnego certyfikatu. Chcę mniej więcej wiedzieć, gdzie dziś są nasze kluczowe procesy i gdzie powinny być, żeby zdecydować, które usprawnienia sfinansować w przyszłym roku”.",
+      "opcje": [
+        {
+          "tekst": "Formalnej ocenie zewnętrznej z raportowaniem i certyfikacją wyników komendy.",
+          "poprawna": false,
+          "wyjasnienie": "To cel zewnętrzny i rygorystyczny. Komendantka wprost mówi, że certyfikatu nie potrzebuje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ustaleniu „jak jest” i „jak ma być”, by podjąć decyzje inwestycyjne.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Wysokopoziomowe określenie stanu obecnego i wymaganego ułatwia organowi Ładu i kierownictwu decyzje o inwestycjach w usprawnienia."
+        },
+        {
+          "tekst": "Porównaniu zdolności procesów komendy z innymi komendami w województwie, czyli benchmarkingowi.",
+          "poprawna": false,
+          "wyjasnienie": "Porównywanie zdolności to prawdziwy cel oceny, ale komendantka mówi o stanie obecnym, docelowym i budżecie.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Sprawdzeniu, czy komenda spełnia wymagania normy ISO/IEC 27001 w zakresie bezpieczeństwa informacji.",
+          "poprawna": false,
+          "wyjasnienie": "To inna norma i inny rodzaj oceny. Model zdolności opiera się na ISO/IEC 15504.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "cele-oceny"
+      ]
+    },
+    {
+      "id": "q-spr-pc-12",
+      "typ": "wypowiedz",
+      "sprawdzian": "PC",
+      "czesc": "synteza",
+      "sylabus": [
+        "PC-02-05",
+        "PC-01-01",
+        "PC-02-06"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Komendantka czyta raport: „DSS02 – poziom 1” i pyta: „Czyli jest źle?”. Wyjaśnij jej jak mentor, co oznacza ten wynik i dlaczego nie jest porażką (4–6 zdań). Użyj terminów EN: **Process Capability Model**, **ISO/IEC 15504**, **Performed process**, **PA 1.1**, **rating scale**.",
+      "wymagane": [
+        "Process Capability Model",
+        "ISO/IEC 15504",
+        "Performed process",
+        "PA 1.1",
+        "rating scale"
+      ],
+      "wzorzec": "COBIT 5 ocenia procesy w **Process Capability Model** (Model Zdolności Procesu), opartym na normie **ISO/IEC 15504**. Poziom 1 to **Performed process** (Proces wykonywany): proces osiąga swój cel i daje wymagane wyniki. Żeby go uznać, atrybut **PA 1.1** musi mieć na **rating scale** (skali ocen N/C/W/P) co najmniej W (Largely) – to sprawdzono na podstawie wyników procesu, praktyk bazowych i produktów pracy. Podręcznik podkreśla, że osiągnięcie poziomu 1 to już ważne osiągnięcie i fundament wyższych poziomów. Wyniki w COBIT 5 bywają niższe niż w dawnym modelu dojrzałości COBIT 4.1, więc nie porównujemy ich wprost. Poziom docelowy ustalamy z kosztów, korzyści i wykonalności – rzadko jest to najwyższy poziom (s. 42–45).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "model-zdolnosci",
+        "poziom-1",
+        "pa-1-1",
+        "skala-ocen"
+      ]
+    },
+    {
+      "id": "q-spr-pc-13",
+      "typ": "studium",
+      "sprawdzian": "PC",
+      "czesc": "synteza",
+      "sylabus": [
+        "PC-02-01",
+        "PC-02-05",
+        "IM-02-06"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Która rada dla komendantki jest najbardziej zgodna z COBIT 5?",
+      "scenariusz": "W fazie 2 wdrożenia Ewa Lis oceniła zdolność procesów: DSS02 i DSS04 *Manage Continuity* są na poziomie 1, a APO12 *Manage Risk* na poziomie 0. Komendantka mówi: „Do końca roku chcę poziomu 5 dla wszystkich procesów. A skoro oceniliśmy procesy, wiemy już wszystko o Ładzie komendy”.",
+      "opcje": [
+        {
+          "tekst": "Przyjąć jej cel: poziom 5 dla wszystkich procesów, bo tylko najwyższy poziom oznacza dobry Ład.",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik mówi, że poziom docelowy bardzo rzadko jest jednym z najwyższych.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ograniczyć się do oceny procesów, bo pozostałe aktywatory ocenia się dopiero według COBIT 2019.",
+          "poprawna": false,
+          "wyjasnienie": "Procesy to tylko jeden z siedmiu aktywatorów. Pozostałe też trzeba ocenić już w COBIT 5.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Cel wyznaczyć z kosztów, korzyści i wykonalności, ocenić też inne aktywatory, a luki rozpisać w fazie 3.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Poziom docelowy z rachunku kosztów i korzyści oraz wykonalności; ocena procesów nie daje pełnego obrazu Ładu; luki i rozwiązania to faza 3."
+        },
+        {
+          "tekst": "Porównać nowe wyniki z poziomami dojrzałości COBIT 4.1 z poprzedniego audytu i przyjąć ten wyższy.",
+          "poprawna": false,
+          "wyjasnienie": "Wyników obu modeli nie porównuje się wprost, a wyższy wynik nie jest celem samym w sobie.",
+          "pulapka": "falsz"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "model-zdolnosci",
+        "cele-oceny",
+        "fazy-wdrozenia"
+      ]
+    }
+  ]
+}

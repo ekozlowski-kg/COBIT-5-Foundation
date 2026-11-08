@@ -1,0 +1,92 @@
+{
+  "id": "dobre-praktyki-struktur",
+  "en": "Organisational structure good practices",
+  "wymowa": "organajzejszynal strakczer gud prektisiz",
+  "wymowaAkcent": "or-ga-naj-ZEJ-szy-nal STRAK-czer gud PREK-ti-siz",
+  "plEgzamin": "Dobre praktyki struktur organizacyjnych",
+  "plPodrecznik": "Dobre praktyki struktur organizacyjnych",
+  "mapa": "dobre-praktyki-struktur",
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Zasady operacyjne” / „Zasady wykonawcze”, „Poziom uprawnień”, „Delegowanie uprawnień”. Podręcznik: „Zasady działania”, „Poziom decyzyjny/uprawnienia decyzyjne”, „Przekazywanie uprawnień”.",
+  "poLudzku": "Sprawdzone reguły dla zespołów i komisji: kto w nich siedzi, co mogą zdecydować, kiedy oddają sprawę wyżej.",
+  "wyobrazSobie": "Statut klubu sportowego: kto zasiada w zarządzie, jak często się zbiera, czym się zajmuje, jakie decyzje podejmuje sam, co zleca trenerom i co oddaje walnemu zebraniu.",
+  "poCo": "Żeby zespoły, komitety i rady działały przewidywalnie: wiadomo, kto w nich jest, o czym i do jakiego stopnia decydują i co się dzieje, gdy decyzja utknie.",
+  "jakDziala": "Dla aktywatora Struktury organizacyjne COBIT 5 opisuje sześć dobrych praktyk: zasady operacyjne (operating principles), skład (composition), zakres kontroli (span of control), poziom uprawnień (level of authority), delegowanie uprawnień (delegation of authority) i procedury eskalacji (escalation procedures). Zakres kontroli wyznacza granice, w których struktura decyduje, a poziom uprawnień mówi, jakie decyzje może podjąć. Gdy decyzji nie da się podjąć, procedura eskalacji wskazuje, dokąd sprawa idzie.",
+  "dlaczegoWazne": "Egzamin pyta o nazwy tych praktyk i o różnicę między zakresem kontroli a poziomem uprawnień. To też przykład wymiaru „dobre praktyki” jednego z 7 aktywatorów.",
+  "skadNazwa": "Pojedyncze praktyki mają różne tłumaczenia: egzamin mówi „zasady operacyjne”, „poziom uprawnień”, „delegowanie uprawnień”, a podręcznik „zasady działania”, „poziom decyzyjny”, „przekazywanie uprawnień”.",
+  "poziom1": "Sześć rzeczy do ustalenia, żeby zespół czy komitet dobrze działał: jak się spotyka (zasady operacyjne), kto w nim jest (skład), w jakich granicach decyduje (zakres kontroli), jakie decyzje może podjąć (poziom uprawnień), co przekazuje niżej (delegowanie) i dokąd idzie, gdy utknie (procedury eskalacji). Przykład: rada rodziców, komitet zakupów.",
+  "poziom2": "| Praktyka | Co to jest (s. 75) |\n|---|---|\n| **Zasady operacyjne** | praktyczne ustalenia **jak struktura działa**: częstotliwość zebrań, dokumentacja, porządek |\n| **Skład** | członkowie, czyli interesariusze wewnętrzni i zewnętrzni |\n| **Zakres kontroli** | **granice** uprawnień decyzyjnych struktury |\n| **Poziom uprawnień** | **jakie decyzje** struktura może podejmować |\n| **Delegowanie uprawnień** | przekazanie uprawnień (lub części) **strukturom podległym** |\n| **Procedury eskalacji** | ścieżka i działania, gdy **nie da się podjąć decyzji** |",
+  "poziom3": "(s. 75): lista dobrych praktyk struktur organizacyjnych; Ilustracja 32.",
+  "przyklady": {
+    "zycie": "Wspólnota mieszkaniowa wybiera zarząd z trzech sąsiadów (skład). Zarząd spotyka się raz w miesiącu i pisze protokół (zasady operacyjne), zajmuje się tylko częściami wspólnymi budynku, nie mieszkaniami (zakres kontroli), sam może zlecić naprawę do 5 tys. zł (poziom uprawnień), sprzątanie klatek powierza administratorowi (delegowanie), a większe wydatki idą pod głosowanie wszystkich właścicieli (eskalacja). Tak wyglądają dobre praktyki struktury w jednym bloku.",
+    "biuro": "Biuro powołuje zespół ds. zakupów: kierowniczka, księgowa i informatyk (skład). Zbierają się w pierwszy poniedziałek miesiąca i piszą notatkę (zasady operacyjne), zajmują się tylko sprzętem i materiałami (zakres kontroli), zatwierdzają zakupy do 10 tys. zł (poziom uprawnień), drobne zakupy zostawiają asystentce (delegowanie), a większe przekazują dyrektorowi (eskalacja).",
+    "firma": "Sklep internetowy powołuje komitet zakupów: właściciel, księgowa i kierownik magazynu (skład). Spotykają się w poniedziałki i notują decyzje (zasady operacyjne), decydują tylko o zakupach towaru, nie o pensjach (zakres kontroli), zatwierdzają zamówienia do 50 tys. zł (poziom uprawnień), drobne zamówienia zostawiają magazynierowi (delegowanie), a większe kierują do wspólników (eskalacja). Te ustalenia to dobre praktyki struktury organizacyjnej.",
+    "admin": "Dyrektor szkoły powołuje zespół do spraw sprzętu: informatyka, wicedyrektora i dwoje nauczycieli (skład). Zespół spotyka się raz na kwartał (zasady operacyjne), zajmuje się sprzętem, ale nie budżetem szkoły (zakres kontroli), sam przydziela laptopy salom (poziom uprawnień), drobne naprawy zleca informatykowi (delegowanie), a gdy nie może się dogadać, rozstrzyga dyrektor (eskalacja). Tak wyglądają dobre praktyki struktur organizacyjnych.",
+    "psp": "Przy dużym pożarze lasu komendant powiatowy powołuje sztab akcji z oficerami operacyjnymi, logistykiem i przedstawicielem nadleśnictwa (skład). Sztab robi odprawę co 2 godziny i prowadzi dziennik (zasady operacyjne), decyduje o siłach w powiecie, ale nie w całym województwie (zakres kontroli), może zarządzić ewakuację wsi (poziom uprawnień), dowodzenie odcinkiem przekazuje dowódcy z JRG (delegowanie), a gdy brakuje sił, prosi o decyzję komendanta wojewódzkiego (eskalacja). Te ustalenia to dobre praktyki struktury organizacyjnej.",
+    "it": "Rada ds. Informatyki w komendzie ma skład (Wrzos, Sikora, Mak) i zasady operacyjne (posiedzenie raz w miesiącu z protokołem). Zajmuje się tylko sprawami IT (zakres kontroli) i zatwierdza projekty do ustalonej kwoty (poziom uprawnień). Zatwierdzanie bieżących zmian w Syrenie deleguje do wydziału Sikory (BAI06 Zarządzanie zmianami), a wydatki ponad budżet komendy kieruje do komendy wojewódzkiej (eskalacja)."
+  },
+  "glebokosc": {
+    "prosty": "Rada rodziców w szkole ustala, że spotyka się w pierwszy wtorek miesiąca i kto w niej zasiada. Ustala też, o czym może decydować (wycieczki, ale nie oceny) i co zleca trójkom klasowym. Wie, do kogo idzie, gdy nie może się porozumieć: do dyrektora.",
+    "zaawansowany": "Komendantka Wrzos powołuje Radę ds. Informatyki, czyli [[struktury-organizacyjne|strukturę organizacyjną]]. Skład: komendantka, Sikora, Mak, Lis i Grab jako głos użytkowników. Zakres kontroli obejmuje systemy łączności i IT komendy, a poziom uprawnień pozwala Radzie zatwierdzać zakupy do 50 tys. zł. Drobne zmiany konfiguracji Rada deleguje Sikorze, a gdy sama się nie porozumie, sprawę eskaluje do komendantki. Harmonogram spotkań to zasady operacyjne.",
+    "skrajny": "„Rada decyduje tylko o systemach łączności, a nie o samochodach” – to zakres kontroli czy poziom uprawnień? To zakres kontroli: granice obszaru, którego dotyczy władza Rady. „Rada może zatwierdzać zakupy do 50 tys. zł” to poziom uprawnień, czyli jakie decyzje wolno jej podjąć. Gdy Rada przekazuje Sikorze zatwierdzanie drobnych zmian, to delegowanie, a nie eskalacja, bo sprawa idzie w dół. Gdy Rada utknie i sprawa trafia do komendantki, to eskalacja. **Rozstrzygnięcie:** GDZIE sięga władza → zakres kontroli; JAKIE decyzje wolno podjąć → poziom uprawnień; uprawnienia W DÓŁ → delegowanie; sprawa DALEJ, gdy decyzja utknie → eskalacja; JAK się spotykamy → zasady operacyjne."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Zakres kontroli i poziom uprawnień to to samo.",
+      "prawda": "Zakres kontroli to granice (czego dotyczy władza). Poziom uprawnień to rodzaj decyzji, które wolno podjąć (s. 75)."
+    },
+    {
+      "mit": "Delegowanie i eskalacja to dwie nazwy przekazania sprawy.",
+      "prawda": "Delegowanie przekazuje uprawnienia w dół, strukturom podległym. Eskalacja to ścieżka, gdy nie da się podjąć decyzji."
+    },
+    {
+      "mit": "Harmonogram spotkań to drobiazg organizacyjny, a nie dobra praktyka COBIT 5.",
+      "prawda": "To właśnie zasady operacyjne: częstotliwość zebrań, reguły dokumentacji i porządek."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie zakresu kontroli z poziomem uprawnień oraz delegowania z eskalacją.",
+    "jakTlumaczyc": "Sześć pytań do każdej komisji: jak się spotykamy, kto jest w środku, czego dotyczy nasza władza, co wolno nam zdecydować, co oddajemy w dół i dokąd idziemy, gdy utkniemy. Kolejność pytań to kolejność praktyk.",
+    "pytanieKontrolne": "Rada ds. Informatyki nie może się porozumieć co do wyboru dostawcy i sprawa trafia do komendantki. Która to praktyka i czym różni się od delegowania?",
+    "odpowiedzKontrolna": "To procedura eskalacji: ścieżka i działania, gdy nie da się podjąć decyzji. Delegowanie działa w drugą stronę, bo struktura przekazuje część uprawnień strukturom podległym."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Zakres kontroli vs poziom uprawnień",
+      "roznica": "Zakres kontroli to GRANICE (czego dotyczy władza). Poziom uprawnień to RODZAJ decyzji, które wolno podjąć."
+    }
+  ],
+  "przykladWypowiedzi": "Organisational structure good practices, czyli dobre praktyki struktur organizacyjnych, to m.in. span of control (zakres kontroli – granice decyzji), level of authority (poziom uprawnień – jakie decyzje wolno podjąć) i escalation procedures (procedury eskalacji).",
+  "egzamin": "„**Publikowanie harmonogramu spotkań**” to **zasady operacyjne**. „Granice uprawnień” → **zakres kontroli**. „Jakie decyzje wolno podjąć” → **poziom uprawnień**. „Ścieżka przy problemach z decyzją” → **eskalacja**.",
+  "powiazane": [
+    "struktury-organizacyjne"
+  ],
+  "sylabus": [
+    "EN-02-12"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 75,
+      "cytat": "Zakres kontroli — granice uprawnień decyzyjnych struktury organizacyjnej"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Dobre praktyki struktur organizacyjnych",
+    "podrecznik": "Dobre praktyki struktur organizacyjnych",
+    "kurs": "Dobre praktyki struktur organizacyjnych (Organisational structure good practices)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "struktury-organizacyjne",
+    "dobre-praktyki"
+  ]
+}

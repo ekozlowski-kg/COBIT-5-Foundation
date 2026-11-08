@@ -1,0 +1,103 @@
+{
+  "id": "cele-zwiazane-z-it",
+  "en": "IT-related goals",
+  "wymowa": "ajti rilejtyd gołlz",
+  "wymowaAkcent": "aj-ti ri-LEJ-tyd gołlz",
+  "plEgzamin": "Cele związane z informatyką",
+  "plPodrecznik": "Cele związane z IT",
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cele związane z informatyką",
+    "podrecznik": "Cele związane z IT",
+    "kurs": "Cele związane z informatyką (IT-related goals)",
+    "uwaga": "Egzamin PL: „Cele związane z informatyką”; podręcznik PL: „Cele związane z IT” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 7, 8, 9; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Egzamin: „Cele związane z informatyką”. Podręcznik: „Cele związane z IT”.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "cele-organizacji",
+    "bsc"
+  ],
+  "poLudzku": "Siedemnaście typowych celów dla informatyki, np. systemy działają, dane są bezpieczne, projekty kończą się na czas.",
+  "wyobrazSobie": "Postanowienie rodziny „jemy zdrowo” zamienia się w wymagania wobec kuchni: działająca lodówka, zdrowe produkty na półce, przepisy pod ręką.",
+  "poCo": "Żeby wiedzieć, co informacja i technologia muszą zapewnić, aby udały się cele organizacji. Dzięki temu IT nie wyznacza sobie celów w oderwaniu od reszty organizacji.",
+  "jakDziala": "To trzeci krok kaskady celów: cele organizacji przekłada się na cele związane z IT (IT-related goals), czyli rezultaty związane z IT. COBIT 5 podaje ich 17 w wymiarach IT BSC; mapowanie na cele organizacji jest w Załączniku B, a na procesy w Załączniku C. „Związane z IT” oznacza informację i powiązaną technologię w całej organizacji, a nie tylko dział IT.",
+  "dlaczegoWazne": "Na egzaminie trzeba znać kolejność kaskady i rozpoznać, że cel związany z IT leży między celami organizacji a celami aktywatora. Pułapka: to nie są cele działu IT.",
+  "skadNazwa": "Z angielskiego *IT-related goals*. Egzamin pisze „informatyką” zamiast skrótu „IT”.",
+  "poziom1": "Co musi działać po stronie informacji i technologii, żeby udały się cele całej firmy (np. system sprzedaży dostępny, dane klientów bezpieczne, raporty wiarygodne). Jest ich 17 i dotyczą nie tylko działu IT.",
+  "poziom2": "To **krok 3** kaskady. Cele związane z informatyką reprezentują **rezultaty związane z IT** wymagane do osiągnięcia celów organizacji. Jest ich **17**, w wymiarach **IT BSC** (finanse, klient, obszar wewnętrzny, szkolenie i rozwój). „Związane z IT” oznacza *informacje i powiązaną technologię*, a nie tylko dział IT. Mapowanie na cele organizacji jest w Załączniku B.",
+  "poziom3": "(s. 18): *„Realizacja celów przedsiębiorstwa wymaga osiągnięcia pewnych rezultatów związanych z IT, reprezentowanych przez cele związane z IT.”* Ilustracja 6 (s. 19), np. 01 Zgodność IT z biznesowymi celami strategicznymi; 07 Dostarczanie usług IT zgodnie z wymogami biznesowymi; 10 Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji; 14 Dostępność wiarygodnych i przydatnych informacji wspierających proces decyzyjny.",
+  "przyklady": {
+    "zycie": "Rodzina chce bezpiecznie odkładać pieniądze. Żeby się udało, w domu musi działać bankowość w telefonie, hasła muszą być w menedżerze haseł, a skany umów mieć kopię zapasową. Te wymagania wobec domowej technologii to cele związane z IT.",
+    "biuro": "Biuro chce terminowo obsługiwać klientów. Wynika z tego, że skrzynka pocztowa ma działać, poufne dokumenty w folderze sieciowym mają być chronione, a program do terminów ma pokazywać aktualne dane. To cele związane z IT, wynikające z celu biura.",
+    "firma": "Sklep internetowy chce zadowolonych klientów. Z tego wynika, że strona ma działać także w Black Friday, płatności mają przechodzić bez błędów, a adresy klientów nie mogą wyciec (cele IT 07 i 10). To cele związane z IT – to, co technologia musi dać, żeby udał się cel sklepu.",
+    "admin": "Gmina chce, żeby mieszkańcy załatwiali sprawy przez internet. Do tego e-usługi muszą działać, dane osobowe muszą być chronione, a rejestry aktualne. To nie są cele informatyka dla niego samego, tylko cele związane z IT, które wynikają z celu gminy.",
+    "psp": "Komenda chce, żeby pomoc docierała bez przerw. Wymaga to, żeby system dysponowania działał całą dobę, łączność była chroniona, a dane o dostępnych zastępach w SWD-PSP były wiarygodne (cel IT 14). To cele związane z IT, wynikające z celu komendy.",
+    "it": "Cel związany z IT 10 „Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji” (wymiar Obszar wewnętrzny) to rezultat, który w komendzie muszą zapewnić m.in. procesy APO13 Zarządzanie bezpieczeństwem i DSS05 Zarządzanie usługami bezpieczeństwa."
+  },
+  "glebokosc": {
+    "prosty": "Rodzina chce spokojnych finansów, i to jest cel rodziny. Z niego wynikają cele dla domowych papierów i narzędzi: rachunki leżą w jednym segregatorze, kalendarz płatności jest aktualny, a kluczyk do skrytki mają tylko dorośli. Te cele służą celowi rodziny, a nie odwrotnie.",
+    "zaawansowany": "Cel organizacji w komendzie to „Ciągłość i dostępność usług”. Sikora wyprowadza z niego cele związane z informatyką: dostarczanie usług IT zgodnie z wymogami (07) i dostępność wiarygodnych informacji do decyzji (14). Cel 14 dotyczy także Haliny Mak i dyżurnych, bo „związane z IT” znaczy informacje i technologia, a nie tylko wydział Sikory. Każdy z tych celów rozpisuje się dalej na [[cele-aktywatorow|cele aktywatorów]] w [[kaskada-celow|kaskadzie celów]].",
+    "skrajny": "Czy cel związany z informatyką należy wyłącznie do działu IT? Nie: dotyczy informacji i powiązanej technologii (il. 6). Cel 03 „Zaangażowanie kadry zarządzającej w podejmowanie decyzji związanych z IT” spełnia się na naradzie komendantki, a nie w serwerowni. Cel 16 mówi o kompetentnym personelu działu biznesowego i działu IT. Do tego cele IT też dzielą się na wymiary IT BSC, więc „Finanse” obejmują np. cel 01 – zgodność IT ze strategią. **Rozstrzygnięcie:** cel związany z informatyką to rezultat w obszarze informacji i technologii potrzebny do celu organizacji; za jego osiągnięcie może odpowiadać każdy, nie tylko dział IT."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Cele związane z informatyką realizuje tylko dział IT.",
+      "prawda": "Dotyczą informacji i technologii w całej organizacji. Np. cel 03 wymaga zaangażowania kadry zarządzającej."
+    },
+    {
+      "mit": "Cele IT wynikają wprost z potrzeb interesariuszy.",
+      "prawda": "Wynikają z celów organizacji (krok 2 → krok 3, Załącznik B). Potrzeby interesariuszy przekłada się najpierw na cele organizacji."
+    },
+    {
+      "mit": "Celów IT jest 37, tyle co procesów.",
+      "prawda": "Celów związanych z informatyką jest 17. Liczba 37 dotyczy procesów, a cele IT mapuje się na procesy w Załączniku C."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Przypisywanie celów IT wyłącznie działowi IT i mylenie ich liczby z liczbą procesów.",
+    "jakTlumaczyc": "Każ uczniowi dopisać do celu organizacji zdanie: „żeby to osiągnąć, informacja i technologia muszą…”. To, co dopisze, to cel związany z informatyką.",
+    "pytanieKontrolne": "Kto w komendzie odpowiada za cel „Zaangażowanie kadry zarządzającej w podejmowanie decyzji związanych z IT” i dlaczego to cel IT, choć nie dotyczy serwerów?",
+    "odpowiedzKontrolna": "Głównie komendantka i kadra kierownicza, a nie wydział IT. To cel związany z informatyką, bo opisuje rezultat w obszarze informacji i technologii (decyzje o IT) potrzebny celom organizacji. „Związany z IT” nie znaczy „wykonywany przez dział IT”."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cele-organizacji",
+      "roznica": "Krok wcześniej: cele organizacji dotyczą całej działalności."
+    },
+    {
+      "termin": "cele-aktywatorow",
+      "roznica": "Krok później: cele konkretnych aktywatorów (np. procesów), które pozwalają osiągnąć cele związane z informatyką."
+    }
+  ],
+  "przykladWypowiedzi": "IT-related goals, czyli Cele związane z informatyką, opisują rezultaty informacji i technologii potrzebne do osiągnięcia celów organizacji (enterprise goals); COBIT 5 podaje 17 takich celów w wymiarach IT BSC.",
+  "egzamin": "Opis „rezultaty związane z IT, wymagane do osiągnięcia celów organizacji” to **Cele związane z informatyką** (s. 18).",
+  "powiazane": [
+    "kaskada-celow",
+    "cele-organizacji",
+    "cele-aktywatorow"
+  ],
+  "sylabus": [
+    "PR-02-05"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 18,
+      "cytat": "Realizacja celów przedsiębiorstwa wymaga osiągnięcia pewnych rezultatów związanych z IT"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 19,
+      "ilustracja": "6"
+    },
+    {
+      "doc": "ALTKOM"
+    }
+  ],
+  "mapa": "cele-zwiazane-z-it"
+}

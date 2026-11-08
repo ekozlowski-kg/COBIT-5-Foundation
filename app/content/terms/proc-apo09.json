@@ -1,0 +1,118 @@
+{
+  "id": "proc-apo09",
+  "en": "APO09 Manage Service Agreements",
+  "wymowa": "ejpio 09 menydż serwis agriments",
+  "wymowaAkcent": "ej-pi-O 09 ME-nydż SER-wis a-GRI-ments",
+  "plEgzamin": "APO09 Zarządzanie umowami o świadczenie usług",
+  "plPodrecznik": "APO09 Zarządzanie umowami o świadczenie usług",
+  "plInne": [
+    {
+      "nazwa": "Zarządzanie uzgodnieniami usługowymi",
+      "zrodlo": "atlas „Prosto” (opracowanie nieoficjalne)"
+    }
+  ],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "APO09 Zarządzanie umowami o świadczenie usług",
+    "podrecznik": "APO09 Zarządzanie umowami o świadczenie usług",
+    "kurs": "APO09 Zarządzanie umowami o świadczenie usług (APO09 Manage Service Agreements)",
+    "uwaga": "Egzamin PL i podręcznik zgodne, ale w obiegu są konkurencyjne odpowiedniki: Zarządzanie uzgodnieniami usługowymi. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 52, 59. Inne formy w obiegu: Zarządzanie uzgodnieniami usługowymi (atlas „Prosto” (opracowanie nieoficjalne))."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Nazwa egzaminacyjna PL niepotwierdzona: na egzaminie nazwa może brzmieć inaczej niż w podręczniku. Egzamin używa własnych tłumaczeń, w domenach trybu rozkazującego (np. „Dostosuj, Planuj i Organizuj”). Rozpoznawaj proces po kodzie APO09 i słowie kluczowym EN *Service Agreements*. „Umowy o świadczenie usług” brzmią jak umowy z dostawcą. Tymczasem APO09 to uzgodnione z organizacją usługi i ich poziomy (SLA). Dostawców i ich umowy prowadzi APO10.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "zarzadzanie",
+    "apo",
+    "uslugi-infrastruktura-aplikacje",
+    "proc-apo08"
+  ],
+  "poLudzku": "Spisanie z użytkownikami, jakie usługi daje informatyka, jak dobrze i jak szybko, a potem sprawdzanie tego.",
+  "wyobrazSobie": "Pizzeria, która obiecuje dostawę w 30 minut i mierzy czas każdego zamówienia.",
+  "poCo": "Żeby użytkownicy wiedzieli, jakich usług IT i jakiej ich jakości mogą oczekiwać, a IT wiedziało, czego ma dotrzymać.",
+  "jakDziala": "IT definiuje usługi w katalogu usług. Z odbiorcami uzgadnia ich poziomy w umowach SLA, np. dostępność i czas reakcji. Monitoruje dotrzymanie poziomów, raportuje je i przegląda umowy.",
+  "dlaczegoWazne": "Poziomy usług są podstawą oceny IT przez użytkowników. Na egzaminie polska nazwa „umowy o świadczenie usług” myli APO09 z APO10.",
+  "skadNazwa": "EN *Manage Service Agreements*. *Agreement* to uzgodnienie, np. SLA (umowa o poziomie usług), a nie kontrakt handlowy z dostawcą. Polskie „umowa” sugeruje kontrakt, stąd pomyłki.",
+  "poziom1": "Proces Zarządzania o uzgodnionych usługach. Definiuje usługi IT (katalog usług), uzgadnia ich poziomy w umowach SLA i monitoruje, czy są dotrzymywane.",
+  "poziom2": "**Czym się zajmuje:** wiąże usługi IT i ich poziomy z potrzebami organizacji: co dostarczamy, jak dobrze, jak to mierzymy.\n\n**Wejścia (intuicja):** potrzeby z [[proc-apo08]], możliwości IT, dostępność i pojemność systemów (BAI04).\n\n**Wyjścia (intuicja):** katalog usług, umowy SLA, raporty z dotrzymania poziomów.\n\n**Współpraca:** gdy usługę współtworzy firma zewnętrzna, jej zobowiązania prowadzi [[proc-apo10]]. Codzienną obsługę zgłoszeń daje DSS02, a wyniki zbiera MEA01.",
+  "poziom3": "Il. 16 (s. 33): „APO09 Zarządzanie umowami o świadczenie usług”. Załącznik E (s. 59): *„APO09 Zarządzanie umowami o świadczenie usług koncentruje się na definiowaniu właściwych usług oraz celów usług i dokumentowaniu ich w umowach SLA.”* Słownik (s. 93): katalog usług to *„Ustrukturyzowane informacje dotyczące wszystkich usług IT dostępnych dla klientów”*. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
+  "przyklady": {
+    "zycie": "Spółdzielnia zapisuje w regulaminie: winda naprawiona w 24 godziny, śmieci wywożone dwa razy w tygodniu. Raz w roku pokazuje, czy tego dotrzymała. To umowa o poziomie usług, czyli APO09.",
+    "biuro": "Informatyk i kierowniczka biura spisują na jednej kartce: poczta działa zawsze, awaria drukarki naprawiona w 4 godziny. Co miesiąc sprawdzają, czy to dotrzymano.",
+    "organizacja": "Dział IT uzgadnia z działem sprzedaży: sklep dostępny 99,9% czasu, awaria krytyczna obsłużona w godzinę. Zapisuje to w SLA i co miesiąc raportuje wynik. To APO09. Referat informatyki publikuje katalog usług dla wydziałów: poczta, drukarki, system kancelaryjny. Przy każdej usłudze podaje czas reakcji. Co kwartał pokazuje, czy go dotrzymał. To APO09.",
+    "psp": "**Alarm w 60 sekund.** Naczelnik Marek Sikora uzgadnia z kierownikiem SK, czego SK może oczekiwać od Syreny. Zapisuje: dostępność całą dobę, alarm u odbiorcy w 60 sekund, nocna awaria – reakcja w 15 minut. Co miesiąc pokazuje, czy tego dotrzymał. To jest [[proc-apo09|APO09]].",
+    "it": "Dział IT publikuje katalog usług i SLA dla działów, np. dostępność 99,9%. To APO09. Umowy z dostawcami, które pomagają dotrzymać SLA, prowadzi [[proc-apo10]]."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-apo10",
+      "roznica": "APO10 wybiera dostawców, prowadzi z nimi umowy i ocenia ich pracę. APO09 uzgadnia usługi i ich poziomy z organizacją."
+    },
+    {
+      "termin": "proc-apo08",
+      "roznica": "APO08 buduje relację i rozumie potrzeby. APO09 zapisuje je jako mierzalne poziomy usług."
+    },
+    {
+      "termin": "proc-dss02",
+      "roznica": "DSS02 obsługuje konkretne zgłoszenia i incydenty. APO09 ustala, jak szybko ma się to dziać."
+    }
+  ],
+  "przykladWypowiedzi": "APO09 *Manage Service Agreements*, w podręczniku „Zarządzanie umowami o świadczenie usług”, uzgadnia z użytkownikami SLA (*service level agreement*); kontrakty z dostawcami to APO10 *Manage Suppliers*.",
+  "egzamin": "Słowa-klucze: **katalog usług, SLA, poziom usług, dostępność uzgodniona z organizacją** → APO09. Umowa z firmą zewnętrzną, wybór i ocena dostawcy → APO10.",
+  "powiazane": [
+    "apo",
+    "proc-apo10",
+    "proc-apo08",
+    "proc-dss02",
+    "uslugi-infrastruktura-aplikacje"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "APO09 Zarządzanie umowami o świadczenie usług"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 59,
+      "cytat": "APO09 Zarządzanie umowami o świadczenie usług koncentruje się na definiowaniu właściwych usług oraz celów usług i dokumentowaniu ich w umowach SLA."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 93,
+      "cytat": "Ustrukturyzowane informacje dotyczące wszystkich usług IT dostępnych dla klientów"
+    }
+  ],
+  "mapa": "proc-apo09",
+  "glebokosc": {
+    "prosty": "Zamawiasz pizzę z obietnicą: dostawa w 30 minut albo za darmo. To uzgodniony poziom usługi. Pizzeria mierzy czas i wie, czy dotrzymuje słowa. Tak działa umowa o poziomie usług.",
+    "zaawansowany": "Sikora zapisał z SK, że alarm ma dotrzeć w 60 sekund. To APO09. Ale SMS-y wysyła bramka Kwant-Sygnału. Żeby dotrzymać 60 sekund, Sikora potrzebuje odpowiedniego zobowiązania w umowie z dostawcą. To już [[proc-apo10]]. Usługa dla SK to APO09, a kontrakt z Kwant-Sygnałem to APO10.",
+    "skrajny": "Pytanie: „Komenda podpisuje z Kwant-Sygnałem aneks o czasie doręczenia SMS-a”. Słowa „umowa” i „usługa” kuszą, by wybrać APO09, bo tak brzmi jego polska nazwa. Ale to kontrakt z dostawcą, czyli APO10. APO09 to uzgodnienie usług z organizacją, którą IT obsługuje. Poziom z APO09 (60 s dla SK) wyznacza, czego trzeba żądać od dostawcy w APO10. **Rozstrzygnięcie:** usługa i jej poziom uzgodnione z użytkownikami (SLA, katalog) → APO09; dostawca i jego kontrakt → APO10. Podręcznikowe słowo „umowy” niczego nie przesądza. (interpretacja kursu: granica przy umowach z dostawcami, które wspierają SLA)"
+  },
+  "zagmatwania": [
+    {
+      "mit": "APO09 to umowy z dostawcami.",
+      "prawda": "APO09 to uzgodnienia usług z organizacją (SLA). Dostawcy to APO10."
+    },
+    {
+      "mit": "SLA to tylko dokument, wystarczy go podpisać.",
+      "prawda": "APO09 także monitoruje, czy poziomy są dotrzymywane, i przegląda uzgodnienia."
+    },
+    {
+      "mit": "APO09 obsługuje zgłoszenia awarii.",
+      "prawda": "Zgłoszenia obsługuje DSS02. APO09 ustala, jak szybko ma się to dziać."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń czyta „umowy o świadczenie usług” i wybiera APO09 przy pytaniu o dostawcę.",
+    "jakTlumaczyc": "Restauracja: menu z obietnicą czasu podania dla gości to APO09. Umowa z hurtownią warzyw to APO10.",
+    "pytanieKontrolne": "IT uzgadnia z działem kadr, że system płac będzie dostępny 99% czasu. Który to proces? A umowa z firmą hostingową?",
+    "odpowiedzKontrolna": "Uzgodnienie z działem kadr to APO09 (SLA). Umowa z firmą hostingową to APO10."
+  }
+}

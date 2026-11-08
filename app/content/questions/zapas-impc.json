@@ -1,0 +1,872 @@
+{
+  "pytania": [
+    {
+      "id": "q-zap-im-01-kontekst-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który element **NIE** jest czynnikiem środowiskowym wdrożenia COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 35
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Misja, wizja i wartości organizacji",
+          "poprawna": false,
+          "wyjasnienie": "To czynnik środowiskowy z listy na s. 35, więc nie pasuje do pytania z NIE.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nowy szef informatyki (CIO) w organizacji",
+          "poprawna": true,
+          "wyjasnienie": "Nowy CIO to zdarzenie wyzwalające, czyli zmiana, która uruchamia działania. Nie jest kontekstem do uwzględnienia."
+        },
+        {
+          "tekst": "Styl zarządzania",
+          "poprawna": false,
+          "wyjasnienie": "Styl zarządzania to czynnik środowiskowy (s. 35).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Potencjał i dostępne zasoby",
+          "poprawna": false,
+          "wyjasnienie": "To czynnik środowiskowy (s. 35): pieniądze, ludzie i sprzęt, które masz.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-im-01-kontekst-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Komendantka podpisała zgodę na wdrożenie COBIT 5 i więcej się nim nie zajmuje. Którego kluczowego czynnika sukcesu brakuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 35
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        }
+      ],
+      "status": "przyklad",
+      "opcje": [
+        {
+          "tekst": "Zrozumienia celów biznesowych i celów IT",
+          "poprawna": false,
+          "wyjasnienie": "To też czynnik sukcesu, ale opis mówi o postawie komendantki, a nie o rozumieniu celów.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Dostosowania COBIT 5 do kontekstu komendy",
+          "poprawna": false,
+          "wyjasnienie": "To czynnik sukcesu, ale nie tego dotyczy opis.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Widocznego i ciągłego wsparcia kierownictwa najwyższego szczebla",
+          "poprawna": true,
+          "wyjasnienie": "Sam podpis to za mało. Kierownictwo ma wspierać zmianę widocznie i stale (s. 35)."
+        },
+        {
+          "tekst": "Niskiego apetytu na ryzyko",
+          "poprawna": false,
+          "wyjasnienie": "Apetyt na ryzyko to czynnik środowiskowy, czyli kontekst, a nie czynnik sukcesu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-im-02-punkty-zapalne-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Do komendy przychodzi nowy szef informatyki z zewnątrz i zapowiada porządki. Jak COBIT 5 nazywa taką sytuację?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "przyklad",
+      "opcje": [
+        {
+          "tekst": "Zdarzenie wyzwalające",
+          "poprawna": true,
+          "wyjasnienie": "Nowy CIO to zmiana, która uruchamia działania, czyli zdarzenie wyzwalające (s. 37)."
+        },
+        {
+          "tekst": "Punkt zapalny",
+          "poprawna": false,
+          "wyjasnienie": "Punkt zapalny to trwający problem, który boli. Tu chodzi o zmianę.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Czynnik środowiskowy, który trzeba uwzględnić",
+          "poprawna": false,
+          "wyjasnienie": "Czynnik środowiskowy to stały kontekst, np. przepisy. Nowa osoba na stanowisku to zmiana.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zdarzenie inicjujące",
+          "poprawna": false,
+          "wyjasnienie": "Tak nazywa to podręcznik. Na egzaminie obowiązuje nazwa „zdarzenie wyzwalające”.",
+          "pulapka": "forma-podrecznikowa"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-im-02-punkty-zapalne-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Który przykład jest typowym **punktem zapalnym** według COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Fuzja z inną organizacją",
+          "poprawna": false,
+          "wyjasnienie": "Fuzja to zmiana, czyli zdarzenie wyzwalające.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kolejne audyty wskazują wciąż te same problemy",
+          "poprawna": true,
+          "wyjasnienie": "Problem, który wraca i boli, to punkt zapalny (s. 36–37)."
+        },
+        {
+          "tekst": "Nowe wymagania z przepisów",
+          "poprawna": false,
+          "wyjasnienie": "Nowe przepisy to zdarzenie wyzwalające.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Apetyt organizacji na ryzyko",
+          "poprawna": false,
+          "wyjasnienie": "Apetyt na ryzyko to czynnik środowiskowy.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-im-03-pierscienie-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-01-01",
+        "IM-02-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Komenda naprawia Syrenę. Które działanie należy do pierścienia **Aktywowanie zmiany**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "przyklad",
+      "opcje": [
+        {
+          "tekst": "Zatwierdzenie budżetu i harmonogramu całego programu",
+          "poprawna": false,
+          "wyjasnienie": "Budżet i harmonogram to pierścień zewnętrzny, Zarządzanie programem.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Comiesięczny pomiar czasu alarmu i kolejne poprawki",
+          "poprawna": false,
+          "wyjasnienie": "Stałe mierzenie i poprawianie to pierścień wewnętrzny, ciągłe doskonalenie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wskazanie liderów zmiany wśród dyżurnych na każdej zmianie",
+          "poprawna": true,
+          "wyjasnienie": "Aktywowanie zmiany dotyczy ludzi, zachowań i kultury. Liderzy zmiany pomagają przekonać kolegów (s. 37)."
+        },
+        {
+          "tekst": "Zakup nowego serwera z zasilaniem awaryjnym",
+          "poprawna": false,
+          "wyjasnienie": "To techniczna część naprawy, a nie praca z ludźmi i ich nawykami.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-im-03-pierscienie-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-01-01",
+        "IM-02-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które zdanie o pierścieniu wewnętrznym cyklu wdrożenia jest prawdziwe?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Kończy się razem z zamknięciem programu",
+          "poprawna": false,
+          "wyjasnienie": "Ciągłe doskonalenie nie jest projektem jednorazowym.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie jest jednorazowym projektem, tylko stałym ulepszaniem",
+          "poprawna": true,
+          "wyjasnienie": "Cykl życia ciągłego doskonalenia trwa stale (s. 37)."
+        },
+        {
+          "tekst": "Dotyczy głównie przekonywania ludzi i zmiany ich przyzwyczajeń",
+          "poprawna": false,
+          "wyjasnienie": "To pierścień środkowy, Aktywowanie zmiany.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Obejmuje budżet, harmonogram i realizację korzyści",
+          "poprawna": false,
+          "wyjasnienie": "To pierścień zewnętrzny, Zarządzanie programem.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-im-04-siedem-faz-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-06",
+        "IM-02-07"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Która para „faza – pytanie” jest poprawna?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Faza 3 – Dokąd chcemy dojść?",
+          "poprawna": true,
+          "wyjasnienie": "Faza 3 ustala stan docelowy (s. 38)."
+        },
+        {
+          "tekst": "Faza 5 – Czy dotarliśmy do celu?",
+          "poprawna": false,
+          "wyjasnienie": "„Czy dotarliśmy do celu?” to faza 6. Faza 5 to „Jak się tam dostaniemy?”.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Faza 2 – Co trzeba zrobić?",
+          "poprawna": false,
+          "wyjasnienie": "„Co trzeba zrobić?” to faza 4. Faza 2 to „Gdzie jesteśmy teraz?”.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Faza 7 – Jak się tam dostaniemy?",
+          "poprawna": false,
+          "wyjasnienie": "„Jak się tam dostaniemy?” to faza 5. Faza 7 to „Jak utrzymać motywację do działania?”.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-im-04-siedem-faz-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-06",
+        "IM-02-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co robisz w fazie 3 cyklu wdrożenia („Dokąd chcemy dojść?”)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Mierzysz korzyści po wdrożeniu",
+          "poprawna": false,
+          "wyjasnienie": "Pomiar korzyści po wdrożeniu to faza 6.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Rozpoznajesz punkty zapalne i zdarzenia wyzwalające",
+          "poprawna": false,
+          "wyjasnienie": "To faza 1, czyli powody zmiany.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Robisz analizę luk i wybierasz szybkie korzyści",
+          "poprawna": true,
+          "wyjasnienie": "Faza 3 ustala cel, analizuje luki i szuka szybkich korzyści (s. 38)."
+        },
+        {
+          "tekst": "Wdrażasz usprawnienia w codziennej pracy",
+          "poprawna": false,
+          "wyjasnienie": "Wdrażanie usprawnień to faza 5.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-im-05-uzasadnienie-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-03",
+        "IM-02-04"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Kto według COBIT 5 popiera inicjatywę, daje na nią pieniądze i za nią odpowiada?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Sponsor",
+          "poprawna": true,
+          "wyjasnienie": "Inicjatywa potrzebuje sponsora, który ją popiera i odpowiada za nią (s. 39)."
+        },
+        {
+          "tekst": "Asesor",
+          "poprawna": false,
+          "wyjasnienie": "Asesor przeprowadza formalną ocenę zdolności procesu. To inny temat.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Beneficjent",
+          "poprawna": false,
+          "wyjasnienie": "Beneficjent to ten, kto korzysta na zmianie, a nie ten, kto ją finansuje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Interesariusz zewnętrzny",
+          "poprawna": false,
+          "wyjasnienie": "Sponsor jest w organizacji, a interesariusz zewnętrzny nie odpowiada za inicjatywę.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-im-05-uzasadnienie-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-03",
+        "IM-02-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Halina Mak pisze uzasadnienie biznesowe naprawy Syreny. Czego uzasadnienie **NIE** musi zawierać według COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        }
+      ],
+      "status": "przyklad",
+      "opcje": [
+        {
+          "tekst": "Ryzyka, w tym ograniczeń i zależności",
+          "poprawna": false,
+          "wyjasnienie": "Ryzyko jest obowiązkowym elementem (s. 39).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ról, odpowiedzialności i rozliczalności",
+          "poprawna": false,
+          "wyjasnienie": "Role i rozliczalność są obowiązkowym elementem (s. 39).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Sposobu monitorowania w pełnym cyklu życia ekonomicznego",
+          "poprawna": false,
+          "wyjasnienie": "Monitorowanie jest obowiązkowym elementem (s. 39).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Oceny poziomu zdolności każdego procesu komendy",
+          "poprawna": true,
+          "wyjasnienie": "Ocena zdolności to osobne narzędzie z modułu 4. Nie jest elementem uzasadnienia biznesowego."
+        }
+      ]
+    },
+    {
+      "id": "q-zap-pc-01-zdolnosc-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Proces w komendzie jest wykonywany, ale nie osiąga swojego celu. Jaki poziom dostanie w modelu zdolności COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "przyklad",
+      "opcje": [
+        {
+          "tekst": "Poziom 0 – niekompletny",
+          "poprawna": true,
+          "wyjasnienie": "Proces, który nie osiąga celu, ma w COBIT 5 poziom 0."
+        },
+        {
+          "tekst": "Poziom 1 – wykonywany, bo proces działa",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 1 wymaga, żeby proces naprawdę osiągał swój cel.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 2 – powtarzalny",
+          "poprawna": false,
+          "wyjasnienie": "„Powtarzalny” to nazwa poziomu z modelu dojrzałości COBIT 4.1.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom „ad hoc”",
+          "poprawna": false,
+          "wyjasnienie": "„Ad hoc” to poziom z modelu dojrzałości COBIT 4.1, nie z modelu zdolności.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-pc-01-zdolnosc-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co podaje Model referencyjny procesu (PRM) w COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Sześć atrybutów dojrzałości, wspólnych dla wszystkich procesów",
+          "poprawna": false,
+          "wyjasnienie": "Atrybuty dojrzałości to COBIT 4.1. COBIT 5 ma 9 atrybutów procesu i nie są one częścią PRM.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Osobny model dojrzałości dla każdego procesu",
+          "poprawna": false,
+          "wyjasnienie": "Osobne modele miał COBIT 4.1. COBIT 5 ich nie ma.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Progi procentowe skali ocen",
+          "poprawna": false,
+          "wyjasnienie": "Progi należą do skali ocen, a nie do PRM.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Opis procesu z celem, praktyki bazowe i produkty pracy",
+          "poprawna": true,
+          "wyjasnienie": "Tak opisuje proces model referencyjny (s. 43)."
+        }
+      ]
+    },
+    {
+      "id": "q-zap-pc-02-poziomy-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01",
+        "PC-01-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Które dwa atrybuty ma poziom 5 (zoptymalizowany)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Definicja procesu i wdrożenie procesu",
+          "poprawna": false,
+          "wyjasnienie": "To atrybuty poziomu 3 (ustanowiony).",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Innowacja procesu i optymalizacja procesu",
+          "poprawna": true,
+          "wyjasnienie": "PA 5.1 i PA 5.2 należą do poziomu 5 (s. 42)."
+        },
+        {
+          "tekst": "Miara procesu i kontrola procesu",
+          "poprawna": false,
+          "wyjasnienie": "To atrybuty poziomu 4 (przewidywalny).",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Zarządzanie wydajnością i zarządzanie produktami pracy",
+          "poprawna": false,
+          "wyjasnienie": "To atrybuty poziomu 2 (zarządzany).",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-pc-02-poziomy-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01",
+        "PC-01-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "W komendzie obsługa alarmu jest planowana i monitorowana, a rejestry są kontrolowane. Każda zmiana pracuje jednak według własnego sposobu. Który poziom zdolności najlepiej to opisuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "przyklad",
+      "opcje": [
+        {
+          "tekst": "Poziom 1 – wykonywany",
+          "poprawna": false,
+          "wyjasnienie": "Proces ma więcej niż poziom 1, bo jest planowany i monitorowany.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Poziom 3 – ustanowiony",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 3 wymaga jednego, zdefiniowanego procesu dla wszystkich.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 2 – zarządzany",
+          "poprawna": true,
+          "wyjasnienie": "Planowanie, monitorowanie i kontrola produktów pracy to poziom 2 (s. 42)."
+        },
+        {
+          "tekst": "Poziom 4 – przewidywalny",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 4 wymaga pomiaru i limitów. O pomiarze nic nie wiadomo.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-pc-03-skala-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Atrybut procesu ma na polskim egzaminie ocenę „W”. Jaki stopień osiągnięcia to oznacza?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "0–15%",
+          "poprawna": false,
+          "wyjasnienie": "To ocena N – Nieosiągnięty.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ponad 15% do 50%",
+          "poprawna": false,
+          "wyjasnienie": "To ocena C – Częściowy.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Ponad 50% do 85%",
+          "poprawna": true,
+          "wyjasnienie": "W – Większościowy oznacza ponad 50% do 85% (s. 45)."
+        },
+        {
+          "tekst": "Ponad 85% do 100%",
+          "poprawna": false,
+          "wyjasnienie": "To ocena P – Pełny.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-pc-03-skala-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "W angielskiej wersji skali atrybut ma ocenę „P” (Partially). Jaka to ocena na polskim egzaminie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Pełny (P)",
+          "poprawna": false,
+          "wyjasnienie": "To pułapka. Angielskie P to „częściowy”, a polskie P to „pełny”.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Nieosiągnięty (N)",
+          "poprawna": false,
+          "wyjasnienie": "N oznacza 0–15%, a Partially to ponad 15% do 50%.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Większościowy (W)",
+          "poprawna": false,
+          "wyjasnienie": "W to angielskie L (Largely).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Częściowy (C)",
+          "poprawna": true,
+          "wyjasnienie": "Angielskie P (Partially) to na polskim egzaminie C – Częściowy."
+        }
+      ]
+    },
+    {
+      "id": "q-zap-pc-04-wymiary-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-04",
+        "PC-02-03",
+        "PC-02-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które wskaźniki należą do **wymiaru zdolności**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Praktyki bazowe i produkty pracy, inne dla każdego procesu",
+          "poprawna": false,
+          "wyjasnienie": "To wskaźniki wykonania procesu, czyli wymiar procesu.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Ogólne praktyki, zasoby i produkty pracy dla atrybutów",
+          "poprawna": true,
+          "wyjasnienie": "Wymiar zdolności korzysta ze wskaźników atrybutów zdolności."
+        },
+        {
+          "tekst": "Siedem faz cyklu wdrożenia",
+          "poprawna": false,
+          "wyjasnienie": "Fazy dotyczą wdrożenia COBIT 5, a nie oceny zdolności.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Cele związane z IT z kaskady celów",
+          "poprawna": false,
+          "wyjasnienie": "Kaskada celów to zasada 1, a nie ocena procesu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-pc-04-wymiary-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-04",
+        "PC-02-03",
+        "PC-02-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Czym w ocenie procesu według ISO/IEC 15504 jest **rezultat procesu**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Odpowiedzią na pytanie, po co w ogóle istnieje dany proces",
+          "poprawna": false,
+          "wyjasnienie": "To przeznaczenie procesu.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Czynnością, którą proces wykonuje konsekwentnie",
+          "poprawna": false,
+          "wyjasnienie": "To praktyka bazowa.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Dokumentem, który zostaje po pracy",
+          "poprawna": false,
+          "wyjasnienie": "To produkt pracy.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Obserwowalnym wynikiem osiągnięcia przeznaczenia procesu",
+          "poprawna": true,
+          "wyjasnienie": "Rezultat to wynik, który widać, gdy proces osiąga swoje przeznaczenie."
+        }
+      ]
+    },
+    {
+      "id": "q-zap-pc-05-przewodniki-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-01",
+        "PC-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który przewodnik służy do pełnej, formalnej oceny zgodnej z ISO i opartej na dowodach?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Przewodnik Samooceny",
+          "poprawna": false,
+          "wyjasnienie": "Samoocena jest lżejsza i nie wymaga dowodów.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Model Oceny Procesu (PAM)",
+          "poprawna": false,
+          "wyjasnienie": "PAM to podstawa każdej oceny, a nie opis przeprowadzenia oceny formalnej.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Przewodnik osoby oceniającej",
+          "poprawna": false,
+          "wyjasnienie": "Tak nazywa go zestawienie Altkom i inne polskie publikacje (nie FW-PL). Na egzaminie to Przewodnik Asesora.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Przewodnik Asesora",
+          "poprawna": true,
+          "wyjasnienie": "Przewodnik Asesora opisuje pełną, formalną ocenę opartą na dowodach."
+        }
+      ]
+    },
+    {
+      "id": "q-zap-pc-05-przewodniki-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-01",
+        "PC-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Ocena zdolności może mieć cel wewnętrzny albo zewnętrzny. Który cel jest **zewnętrzny**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Certyfikacja, czyli oficjalne potwierdzenie zgodności z normą",
+          "poprawna": true,
+          "wyjasnienie": "Formalna ocena, raportowanie i certyfikacja to cele zewnętrzne (s. 45)."
+        },
+        {
+          "tekst": "Porównanie procesów między jednostkami organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Porównania to cel wewnętrzny.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Doskonalenie własnego procesu",
+          "poprawna": false,
+          "wyjasnienie": "Doskonalenie to cel wewnętrzny.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Ocena pracy poszczególnych pracowników na potrzeby premii i awansów",
+          "poprawna": false,
+          "wyjasnienie": "Ocena zdolności dotyczy procesów, a nie ludzi.",
+          "pulapka": "falsz"
+        }
+      ]
+    }
+  ]
+}

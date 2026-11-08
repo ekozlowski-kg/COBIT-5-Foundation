@@ -1,0 +1,81 @@
+{
+  "id": "it-folder",
+  "en": "Folder (directory)",
+  "wymowa": "folder",
+  "wymowaAkcent": "FOL-der",
+  "plEgzamin": "Folder",
+  "plPodrecznik": "—",
+  "plInne": [
+    "katalog"
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "—",
+    "kurs": "Folder (folder, directory)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. W starszych programach i u informatyków spotkasz słowo „katalog” (EN: directory) – znaczy to samo."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P0",
+  "wymaga": [
+    "it-plik"
+  ],
+  "poLudzku": "Teczka w komputerze, do której wkładasz pliki, żeby mieć porządek.",
+  "poziom1": "Folder to miejsce, które grupuje pliki (i inne foldery) pod jedną nazwą, np. „Faktury 2026”. Sam nie ma treści – porządkuje.",
+  "poziom2": "Foldery można wkładać jeden w drugi, np. „Dokumenty” → „Kadry” → „Urlopy”. Taka ścieżka mówi, gdzie leży plik. W organizacji często są **foldery wspólne** na innym komputerze, do których dostęp ma cały dział.",
+  "poziom3": "Nie jest terminem COBIT 5. Uprawnienia do wspólnych folderów to praktyczny przykład autoryzacji (lekcja 0A.6).",
+  "wyobrazSobie": "Szafa z segregatorami: szafa (folder) → segregator (folder w folderze) → kartki (pliki).",
+  "poCo": "Żeby szybko znaleźć plik i żeby różne osoby wiedziały, gdzie co odkładać.",
+  "jakDziala": "Tworzysz folder i nadajesz mu nazwę. Przeciągasz do niego pliki albo zapisujesz je od razu w nim. Gdy szukasz, otwierasz folder po folderze.",
+  "dlaczegoWazne": "W pracy foldery wspólne decydują, kto widzi jakie dokumenty. To pierwszy krok do zrozumienia uprawnień.",
+  "przyklady": {
+    "zycie": "W telefonie zdjęcia są w albumach, np. „Wakacje 2026”. Album to folder.",
+    "biuro": "Na wspólnym dysku działu jest folder „Kadry”, który widzą tylko kadrowe. Folder „Ogłoszenia” widzą wszyscy.",
+    "organizacja": "Kancelaria prawna ma osobny folder dla każdej sprawy klienta, żeby dokumenty się nie pomieszały.",
+    "psp": "W komendzie jest wspólny folder „SK – raporty”. Dyżurni odkładają tam raporty z każdej akcji.",
+    "it": "Dostęp do wspólnych folderów to przykład zarządzania dostępem (DSS05 Zarządzanie usługami bezpieczeństwa, lekcja 0A.6)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "it-plik",
+      "roznica": "Plik ma treść. Folder grupuje pliki."
+    },
+    {
+      "termin": "it-baza-danych",
+      "roznica": "Baza danych porządkuje dane według stałego wzoru i pozwala je szybko wyszukiwać. Folder tylko „trzyma” pliki."
+    }
+  ],
+  "przykladWypowiedzi": "A folder, czyli folder albo katalog, grupuje files, czyli pliki; nasz dział ma wspólny folder „Kadry”.",
+  "egzamin": "Nie jest terminem egzaminu. Przydaje się jako przykład uprawnień i porządku informacji.",
+  "powiazane": [
+    "it-plik",
+    "it-autoryzacja"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [],
+  "glebokosc": {
+    "prosty": "W kuchni jest szuflada na sztućce: łyżki, noże i widelce leżą w jednym miejscu. Nie musisz szukać po całej kuchni. Folder w komputerze robi to samo z plikami.",
+    "zaawansowany": "Kasia Nowik nie może otworzyć folderu „Kadry” na wspólnym dysku komendy. Widzi go, ale komputer pisze „Brak dostępu”. To nie awaria, tylko ustawienie: do teczki z danymi osobowymi wchodzą tylko kadry. Jak działa takie „wpuszczanie”, zobaczysz w lekcji 0A.6 o [[it-autoryzacja|uprawnieniach]].",
+    "skrajny": "Czy folder może być pusty? Tak. Czy usunięcie folderu usuwa pliki? Zwykle tak – wszystkie w środku, więc trzeba uważać. Czy ten sam plik może być w dwóch folderach? Tylko jako kopia albo skrót. **Rozstrzygnięcie:** folder to pojemnik porządkujący; nie ma własnej treści, ale jego usunięcie albo zmiana dostępu dotyczy wszystkiego, co jest w środku."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Folder i plik to to samo.",
+      "prawda": "Folder to teczka, plik to kartka w teczce."
+    },
+    {
+      "mit": "Usunięcie folderu nie rusza plików.",
+      "prawda": "Usuwasz razem z nim wszystko, co jest w środku."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Usuwanie folderu bez sprawdzenia zawartości.",
+    "jakTlumaczyc": "Szafa – segregator – kartka; ścieżka jak adres: miasto, ulica, numer domu.",
+    "pytanieKontrolne": "Gdzie leży plik „urlop.docx” w ścieżce „Dokumenty → Kadry → Urlopy”?",
+    "odpowiedzKontrolna": "W folderze „Urlopy”, który jest w folderze „Kadry”, a ten w folderze „Dokumenty”."
+  }
+}

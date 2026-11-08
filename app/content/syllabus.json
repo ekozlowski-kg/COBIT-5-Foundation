@@ -1,0 +1,1929 @@
+{
+  "zrodlo": {
+    "doc": "SYL",
+    "opis": "PeopleCert, COBIT 5 Foundation Syllabus, Version 01.2, April 2016"
+  },
+  "uwagi": [
+    "Numery stron odnoszą się do polskiego wydania COBIT 5 Framework (FW-PL); strona w PDF = strona drukowana.",
+    "Tytuły tematów używają terminologii egzaminu PL (Ład, Aktywator, organizacja, informatyka). Odpowiedniki z podręcznika – w terms/ i terminology-traps.json.",
+    "Obszar M0 to nasze treści wprowadzające (spoza sylabusa) – status 'uproszczenie'."
+  ],
+  "egzamin": {
+    "pytania": 50,
+    "opcje": 4,
+    "poprawne": 1,
+    "minuty": 40,
+    "minutyDodatkowe": 10,
+    "minutyDodatkoweOpis": "Dla osób zdających w języku innym niż ojczysty lub z niepełnosprawnością (SYL 3.3).",
+    "progProcent": 50,
+    "progUwagi": "Sylabus: '50% (20 or more marks)'; inne źródła: 25/50. Przyjmujemy 25/50 jako próg i 35/50 jako cel treningowy.",
+    "celTreningowy": 35,
+    "otwartaKsiazka": false,
+    "poziomyBlooma": [
+      "wiedza",
+      "rozumienie"
+    ],
+    "wagi": {
+      "PR": 15,
+      "EN": 21,
+      "IM": 7,
+      "PC": 7
+    },
+    "wagiZrodlo": "Rozkład pytań w Sample Paper 1 (kody PR/EN/IM/PC w uzasadnieniach).",
+    "progi": {
+      "testDnia": 70,
+      "symulacja": 35,
+      "liczbaSymulacji": 2,
+      "obszar": 60,
+      "drill": 90,
+      "powtorzonaPomylka": 2
+    }
+  },
+  "obszary": [
+    {
+      "kod": "M0",
+      "nazwa": "Fundamenty (wprowadzenie)",
+      "en": "Foundations (course intro)"
+    },
+    {
+      "kod": "PR",
+      "nazwa": "Zasady COBIT 5",
+      "en": "The COBIT 5 Principles"
+    },
+    {
+      "kod": "EN",
+      "nazwa": "Aktywatory COBIT 5",
+      "en": "The COBIT 5 Enablers"
+    },
+    {
+      "kod": "IM",
+      "nazwa": "Wprowadzenie do wdrożenia COBIT 5",
+      "en": "Introduction to COBIT 5 Implementation"
+    },
+    {
+      "kod": "PC",
+      "nazwa": "Model zdolności procesu (PAM)",
+      "en": "Process Capability Assessment Model"
+    }
+  ],
+  "tematy": [
+    {
+      "kod": "M0-00-01",
+      "obszar": "M0",
+      "poziom": "rozumienie",
+      "dzien": 1,
+      "tytul": "Kim jest interesariusz?",
+      "en": "Stakeholder",
+      "zakres": [
+        "interesariusz wewnętrzny i zewnętrzny",
+        "interesariusz ≠ użytkownik ≠ decydent",
+        "stakeholder ≠ shareholder"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 22,
+          "ilustracja": "7"
+        }
+      ]
+    },
+    {
+      "kod": "M0-00-02",
+      "obszar": "M0",
+      "poziom": "rozumienie",
+      "dzien": 1,
+      "tytul": "Potrzeba, oczekiwanie, wyznacznik",
+      "en": "Need, expectation, driver",
+      "zakres": [
+        "czym potrzeba różni się od oczekiwania",
+        "co wywołuje zmianę potrzeb (wyznacznik)"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 91
+        }
+      ]
+    },
+    {
+      "kod": "M0-00-03",
+      "obszar": "M0",
+      "poziom": "rozumienie",
+      "dzien": 1,
+      "tytul": "Wartość, korzyść, koszt i rezultat",
+      "en": "Value, benefit, cost, output",
+      "zakres": [
+        "wartość jako równowaga",
+        "korzyść ≠ rezultat (output)",
+        "korzyść ≠ brak kosztów"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        }
+      ]
+    },
+    {
+      "kod": "M0-00-04",
+      "obszar": "M0",
+      "poziom": "rozumienie",
+      "dzien": 1,
+      "tytul": "Ryzyko i zasób",
+      "en": "Risk and resource",
+      "zakres": [
+        "ryzyko = prawdopodobieństwo × konsekwencje",
+        "ryzyko ≠ zaistniały problem",
+        "zasób – ludzie, pieniądze, sprzęt, informacja, czas"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ]
+    },
+    {
+      "kod": "M0-00-05",
+      "obszar": "M0",
+      "poziom": "rozumienie",
+      "dzien": 1,
+      "tytul": "Proces a projekt",
+      "en": "Process vs project",
+      "zakres": [
+        "proces – powtarzalny, ciągły",
+        "projekt – jednorazowy, ma początek i koniec"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ]
+    },
+    {
+      "kod": "M0-00-06",
+      "obszar": "M0",
+      "poziom": "rozumienie",
+      "dzien": 1,
+      "tytul": "Ład a Zarządzanie – intuicja",
+      "en": "Governance vs management – intuition",
+      "zakres": [
+        "kto wyznacza kierunek, a kto go realizuje",
+        "dlaczego to dwie różne role"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ]
+    },
+    {
+      "kod": "M0-00-07",
+      "obszar": "M0",
+      "poziom": "wiedza",
+      "dzien": 0,
+      "tytul": "COBIT 5 na tle innych standardów",
+      "en": "COBIT 5 among other frameworks",
+      "zakres": [
+        "czym jest COBIT 5 (ISACA, 2012)",
+        "ITIL, ISO/IEC 27001, TOGAF, PRINCE2 – w jednym zdaniu",
+        "COBIT 5 ≠ COBIT 2019"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 15
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 90
+        }
+      ]
+    },
+    {
+      "kod": "M0-00-08",
+      "obszar": "M0",
+      "poziom": "wiedza",
+      "dzien": 2,
+      "tytul": "Egzamin i pułapki terminologiczne",
+      "en": "Exam format and terminology traps",
+      "zakres": [
+        "format: 50 pytań / 40 min / 50%",
+        "egzamin PL vs podręcznik PL vs EN",
+        "odpowiadaj po COBIT-owemu, nie według praktyki swojej organizacji"
+      ],
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ]
+    },
+    {
+      "kod": "PR-01-01",
+      "obszar": "PR",
+      "poziom": "wiedza",
+      "dzien": 2,
+      "tytul": "Nazwy i kluczowe aspekty pięciu zasad COBIT 5",
+      "en": "The names and key aspects of the five Principles",
+      "zakres": [
+        "Zasada 1 – Realizacja potrzeb interesariuszy",
+        "Zasada 2 – Objęcie całej organizacji",
+        "Zasada 3 – Zastosowanie pojedynczej zintegrowanej struktury ramowej",
+        "Zasada 4 – Aktywacja holistycznego podejścia",
+        "Zasada 5 – Oddzielenie Ładu od Zarządzania"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13,
+          "ilustracja": "2"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ]
+    },
+    {
+      "kod": "PR-01-02",
+      "obszar": "PR",
+      "poziom": "wiedza",
+      "dzien": 3,
+      "tytul": "Siedem kategorii aktywatorów",
+      "en": "The seven categories of Enablers",
+      "zakres": [
+        "Zasady, polityki i struktury ramowe",
+        "Procesy",
+        "Struktury organizacyjne",
+        "Kultura, etyka i zachowanie",
+        "Informacja",
+        "Usługi, infrastruktura i aplikacje",
+        "Ludzie, umiejętności i kompetencje"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 27,
+          "ilustracja": "12"
+        }
+      ]
+    },
+    {
+      "kod": "PR-01-03",
+      "obszar": "PR",
+      "poziom": "wiedza",
+      "dzien": 4,
+      "tytul": "Domena Ładu w Referencyjnym Modelu Procesu – 5 procesów EDM",
+      "en": "PRM Governance Domain – the five EDM processes",
+      "zakres": [
+        "EDM01–EDM05 – nazwy"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ]
+    },
+    {
+      "kod": "PR-01-04",
+      "obszar": "PR",
+      "poziom": "wiedza",
+      "dzien": 4,
+      "tytul": "Domena Zarządzania – procesy APO, BAI, DSS, MEA",
+      "en": "PRM Management Domain – APO, BAI, DSS, MEA processes",
+      "zakres": [
+        "nazwy procesów APO (13)",
+        "BAI (10)",
+        "DSS (6)",
+        "MEA (3)"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33,
+          "ilustracja": "16"
+        }
+      ]
+    },
+    {
+      "kod": "PR-01-05",
+      "obszar": "PR",
+      "poziom": "wiedza",
+      "dzien": 4,
+      "tytul": "Cztery pytania o zarządzanie wydajnością aktywatora",
+      "en": "The four questions for managing enabler performance",
+      "zakres": [
+        "Czy potrzeby interesariuszy są uwzględnione?",
+        "Czy cele aktywatora są osiągane?",
+        "Czy cykl życia aktywatora jest zarządzany?",
+        "Czy stosowane są dobre praktyki?"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 28,
+          "ilustracja": "13"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        },
+        {
+          "doc": "SP1",
+          "strona": 21
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-01",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 2,
+      "tytul": "Cel Ładu „Tworzenie wartości”: korzyści, ryzyko, zasoby",
+      "en": "Governance objective: Value Creation",
+      "zakres": [
+        "realizacja korzyści",
+        "optymalizacja ryzyka",
+        "optymalizacja zasobów",
+        "Kto odnosi korzyści? Kto ponosi ryzyko? Jakie zasoby są wymagane?"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17,
+          "ilustracja": "3"
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-02",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 1,
+      "tytul": "Wyznaczniki interesariuszy i ich miejsce w kaskadzie celów",
+      "en": "Stakeholder drivers in the goals cascade",
+      "zakres": [
+        "zmiany strategii, otoczenia biznesowego i regulacyjnego, nowe technologie",
+        "krok 1 kaskady"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 18,
+          "ilustracja": "4"
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-03",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 1,
+      "tytul": "Potrzeby interesariuszy w kaskadzie celów",
+      "en": "Stakeholder needs in the goals cascade",
+      "zakres": [
+        "przekształcenie potrzeb w strategię złożoną z konkretnych działań",
+        "potrzeby → cele organizacji (krok 2)",
+        "związek ze zrównoważoną kartą wyników (BSC)"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 19,
+          "ilustracja": "5"
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-04",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 3,
+      "tytul": "Cele organizacji a trzy cele Ładu (relacje P i S)",
+      "en": "Enterprise goals vs the 3 governance objectives (P/S)",
+      "zakres": [
+        "17 celów organizacji w 4 wymiarach BSC",
+        "P – relacja podstawowa, S – wspierająca"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 19,
+          "ilustracja": "5"
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-05",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 3,
+      "tytul": "Cele organizacji → cele związane z informatyką",
+      "en": "Enterprise goals cascade to IT-related goals",
+      "zakres": [
+        "krok 3 kaskady",
+        "cele związane z informatyką = reprezentacja wyników związanych z IT",
+        "17 celów w wymiarach IT BSC",
+        "Załącznik B"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 19,
+          "ilustracja": "6"
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-06",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 3,
+      "tytul": "Cele związane z informatyką → cele aktywatorów",
+      "en": "IT-related goals cascade to enabler goals",
+      "zakres": [
+        "krok 4 kaskady",
+        "czym jest cel aktywatora",
+        "Załącznik C – mapowanie na procesy"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 19
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-07",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 3,
+      "tytul": "Do czego służy Kaskada Celów",
+      "en": "The purpose of the Goals Cascade",
+      "zakres": [
+        "przełożenie potrzeb interesariuszy na konkretne cele na każdym poziomie",
+        "wspieranie dopasowania potrzeb organizacji do rozwiązań i usług IT",
+        "nie stosować mechanicznie – dostosować"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 20
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-08",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 3,
+      "tytul": "Kluczowe komponenty systemu Ładu",
+      "en": "Key components of a governance system",
+      "zakres": [
+        "cel Ładu: tworzenie wartości",
+        "aktywatory Ładu",
+        "zakres Ładu",
+        "role, działania i relacje"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 23,
+          "ilustracja": "8"
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-09",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 3,
+      "tytul": "Role, działania i relacje",
+      "en": "Key roles, activities and relationships",
+      "zakres": [
+        "interesariusze – delegują",
+        "organ Ładu – kieruje (ustala kierunek)",
+        "kierownictwo – instruuje i dopasowuje",
+        "role operacyjne – wykonują i raportują"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-10",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 3,
+      "tytul": "COBIT 5 jako integrator innych wytycznych",
+      "en": "COBIT 5 as an integrator",
+      "zakres": [
+        "integracja wytycznych ISACA (Val IT, Risk IT, BMIS, ITAF)",
+        "zgodność z innymi standardami i strukturami ramowymi"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 25,
+          "ilustracja": "10"
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-11",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 3,
+      "tytul": "Dlaczego COBIT 5 jest zintegrowaną strukturą ramową",
+      "en": "Why COBIT 5 is an integrated framework",
+      "zakres": [
+        "zgodność z innymi standardami",
+        "kompletność pokrycia organizacji",
+        "prosta architektura",
+        "integracja wcześniejszych wytycznych ISACA"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-12",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 4,
+      "tytul": "Cztery wymiary aktywatora",
+      "en": "The four enabler dimensions",
+      "zakres": [
+        "interesariusze",
+        "cele",
+        "cykl życia",
+        "dobre praktyki"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 28,
+          "ilustracja": "13"
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-13",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 4,
+      "tytul": "Wskaźniki wiodące i opóźnione",
+      "en": "Lead and lag indicators",
+      "zakres": [
+        "wskaźnik opóźniony – czy cele zostały osiągnięte",
+        "wskaźnik wiodący – czy droga do celu jest właściwa (cykl życia, dobre praktyki)"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29,
+          "ilustracja": "13"
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-14",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 1,
+      "tytul": "Definicja i odpowiedzialność Ładu oraz Zarządzania",
+      "en": "Definition and responsibilities of Governance and Management",
+      "zakres": [
+        "Ład: oszacuj, kieruj, monitoruj (EDM) – zarząd",
+        "Zarządzanie: planuj, wytwarzaj, wykonuj, monitoruj (PBRM) – kierownictwo"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 31,
+          "ilustracja": "14"
+        }
+      ]
+    },
+    {
+      "kod": "PR-02-15",
+      "obszar": "PR",
+      "poziom": "rozumienie",
+      "dzien": 4,
+      "tytul": "Interakcje między Ładem i Zarządzaniem",
+      "en": "Interactions between governance and management",
+      "zakres": [
+        "potrzeby biznesowe → Ład → kierunek → Zarządzanie → informacja zwrotna"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 32,
+          "ilustracja": "15"
+        }
+      ]
+    },
+    {
+      "kod": "EN-01-01",
+      "obszar": "EN",
+      "poziom": "wiedza",
+      "dzien": 1,
+      "tytul": "Definicja procesu",
+      "en": "Definition of a process",
+      "zakres": [
+        "zbiór praktyk ukierunkowanych politykami i procedurami, przetwarzających wejścia w wyniki"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-01",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Cel zasad, polityk i struktur ramowych",
+      "en": "Purpose of principles, policies and frameworks",
+      "zakres": [
+        "przełożenie pożądanego zachowania na praktyczne wytyczne"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67,
+          "ilustracja": "28"
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-02",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Różnica między zasadami a politykami",
+      "en": "Differences between policies and principles",
+      "zakres": [
+        "zasady – podstawowe wartości, niewiele, prosto",
+        "polityki – szczegółowe wytyczne stosowania zasad"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-03",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Cechy dobrych polityk",
+      "en": "Characteristics of good policies",
+      "zakres": [
+        "skuteczne",
+        "wydajne",
+        "nieinwazyjne"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-04",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Cykl życia polityki",
+      "en": "Purpose of the policy life cycle",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-05",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Dobre praktyki dla zasad, polityk i struktur ramowych",
+      "en": "Good practice requirements for policies",
+      "zakres": [
+        "zakres",
+        "konsekwencje braku zgodności",
+        "obsługa wyjątków",
+        "monitorowanie"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67,
+          "ilustracja": "28"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-06",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Powiązania zasad i polityk z innymi aktywatorami",
+      "en": "Links of principles, policies and frameworks to other enablers",
+      "zakres": [
+        "odzwierciedlają kulturę, etykę i wartości",
+        "procesy są najważniejszym nośnikiem wykonywania polityk",
+        "struktury organizacyjne definiują i wdrażają polityki",
+        "polityki są częścią informacji"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-07",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Interesariusze wewnętrzni i zewnętrzni procesów",
+      "en": "Internal and external stakeholders",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69,
+          "ilustracja": "29"
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-08",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Kategorie celów procesu",
+      "en": "Process goal categories",
+      "zakres": [
+        "cele wewnętrzne (intrinsic)",
+        "cele kontekstowe",
+        "cele dostępności i bezpieczeństwa"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69,
+          "ilustracja": "29"
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-09",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Cykl życia procesu",
+      "en": "Process life cycle",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-10",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Praktyki, działania, wejścia i wyjścia procesu",
+      "en": "Process practices, activities, inputs and outputs",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 74,
+          "ilustracja": "31"
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-11",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Powiązania procesów z innymi aktywatorami",
+      "en": "Relationships between the Processes enabler and other enablers",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 71
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-12",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Dobre praktyki struktur organizacyjnych",
+      "en": "Good practices of organizational structures",
+      "zakres": [
+        "zasady operacyjne",
+        "zakres kontroli",
+        "poziom uprawnień",
+        "delegowanie uprawnień",
+        "procedury eskalacji",
+        "podejmowanie decyzji"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75,
+          "ilustracja": "32"
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-13",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Role i struktury organizacyjne",
+      "en": "Roles and organizational structures",
+      "zakres": [
+        "Zarząd, CEO, CFO, COO, CRO, CIO, CISO",
+        "właściciel procesu biznesowego, komitety, PMO, VMO",
+        "kierownicy: architektury, operacji IT, bezpieczeństwa, ciągłości działania, prywatności"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76,
+          "ilustracja": "33"
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-14",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 6,
+      "tytul": "Dobre praktyki kształtowania pożądanego zachowania",
+      "en": "Good practices for desired behaviour",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 79,
+          "ilustracja": "34"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 80
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-15",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 6,
+      "tytul": "Etyka organizacyjna, etyka indywidualna, zachowania",
+      "en": "Organizational ethics, individual ethics, individual behaviours",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 79
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-16",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 6,
+      "tytul": "Powiązania kultury, etyki i zachowania z innymi aktywatorami",
+      "en": "Links of culture, ethics and behaviour to other enablers",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 80
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-17",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 6,
+      "tytul": "Kategorie i wymiary jakości informacji",
+      "en": "Information quality categories and dimensions",
+      "zakres": [
+        "jakość wewnętrzna",
+        "jakość kontekstowa",
+        "jakość bezpieczeństwa / dostępności"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 63
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 82
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-18",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 6,
+      "tytul": "Cykl informacji",
+      "en": "Information cycle",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 81,
+          "ilustracja": "35"
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-19",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 6,
+      "tytul": "Zastosowania modelu informacji",
+      "en": "Uses of the Information Model",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 84
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-20",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 6,
+      "tytul": "Pięć zasad architektury",
+      "en": "The five architecture principles",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 85,
+          "ilustracja": "37"
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-21",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 6,
+      "tytul": "Usługi, infrastruktura i aplikacje a inne aktywatory",
+      "en": "SIA enabler and other enablers",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-22",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 6,
+      "tytul": "Dobre praktyki dla umiejętności i kompetencji",
+      "en": "Good practices of skills and competencies",
+      "zakres": [
+        "wymagania umiejętności dla każdej roli",
+        "mapowanie kategorii umiejętności na domeny procesów",
+        "zewnętrzne źródła dobrych praktyk (np. SFIA)"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 88,
+          "ilustracja": "39"
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-23",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 6,
+      "tytul": "Kategorie umiejętności a domeny EDM, APO, BAI, DSS, MEA",
+      "en": "Skill categories by process domain",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 88,
+          "ilustracja": "39"
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-24",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Budowa opisu procesu w przewodniku Enabling Processes",
+      "en": "Process Reference Guide components",
+      "zakres": [
+        "identyfikacja procesu",
+        "opis procesu",
+        "określenie celu (przeznaczenia) procesu",
+        "informacje kaskady celów",
+        "cele i miary procesu",
+        "praktyki procesu"
+      ],
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ]
+    },
+    {
+      "kod": "EN-02-25",
+      "obszar": "EN",
+      "poziom": "rozumienie",
+      "dzien": 5,
+      "tytul": "Role w tabeli RACI i różnice między nimi",
+      "en": "RACI roles and their differences",
+      "zakres": [
+        "R – odpowiedzialny wykonawczo",
+        "A – rozliczany",
+        "C – konsultowany",
+        "I – informowany"
+      ],
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 90
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 92
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ]
+    },
+    {
+      "kod": "IM-01-01",
+      "obszar": "IM",
+      "poziom": "wiedza",
+      "dzien": 7,
+      "tytul": "Trzy powiązane komponenty cyklu życia wdrożenia",
+      "en": "Three interrelated components of the life cycle",
+      "zakres": [
+        "zarządzanie programem (pierścień zewnętrzny)",
+        "aktywowanie zmiany – aspekty behawioralne i kulturowe (pierścień środkowy)",
+        "główny cykl życia ciągłego doskonalenia (pierścień wewnętrzny)"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37,
+          "ilustracja": "17"
+        }
+      ]
+    },
+    {
+      "kod": "IM-02-01",
+      "obszar": "IM",
+      "poziom": "rozumienie",
+      "dzien": 7,
+      "tytul": "Czynniki środowiska wewnętrznego i zewnętrznego",
+      "en": "Internal and external environment factors",
+      "zakres": [
+        "etyka i kultura",
+        "obowiązujące prawo, regulacje i polityki",
+        "misja, wizja, wartości",
+        "polityki i praktyki Ładu",
+        "plany biznesowe",
+        "model operacyjny",
+        "styl zarządzania",
+        "apetyt na ryzyko",
+        "zdolności i zasoby",
+        "praktyki branżowe"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 35
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        }
+      ]
+    },
+    {
+      "kod": "IM-02-02",
+      "obszar": "IM",
+      "poziom": "rozumienie",
+      "dzien": 7,
+      "tytul": "Punkty zapalne i zdarzenia wyzwalające",
+      "en": "Pain points and trigger events",
+      "zakres": [
+        "punkty zapalne: nieudane inicjatywy IT, problemy z outsourcingiem, zduplikowane projekty, powtarzające się złe wyniki audytu, zarząd unika tematów IT",
+        "zdarzenia wyzwalające: fuzje i przejęcia, nowe regulacje, zmiana popytu, znacząca zmiana technologii"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ]
+    },
+    {
+      "kod": "IM-02-03",
+      "obszar": "IM",
+      "poziom": "rozumienie",
+      "dzien": 7,
+      "tytul": "Znaczenie uzasadnienia biznesowego",
+      "en": "Importance of the business case",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ]
+    },
+    {
+      "kod": "IM-02-04",
+      "obszar": "IM",
+      "poziom": "rozumienie",
+      "dzien": 7,
+      "tytul": "Cechy dobrego uzasadnienia biznesowego",
+      "en": "Characteristics of a good business case",
+      "zakres": [
+        "korzyści biznesowe",
+        "wymagane zmiany biznesowe",
+        "potrzebne inwestycje",
+        "bieżące koszty operacyjne IT",
+        "ograniczenia i zależności z oceny ryzyka",
+        "role, odpowiedzialności i rozliczalność",
+        "sposób monitorowania inwestycji"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        }
+      ]
+    },
+    {
+      "kod": "IM-02-05",
+      "obszar": "IM",
+      "poziom": "rozumienie",
+      "dzien": 7,
+      "tytul": "Cel każdego z trzech komponentów cyklu życia",
+      "en": "Purpose of each life-cycle component",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ]
+    },
+    {
+      "kod": "IM-02-06",
+      "obszar": "IM",
+      "poziom": "rozumienie",
+      "dzien": 7,
+      "tytul": "Fazy 1–3: Jakie są wyznaczniki? Gdzie jesteśmy? Dokąd zmierzamy?",
+      "en": "Phases 1–3 of the implementation life cycle",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ]
+    },
+    {
+      "kod": "IM-02-07",
+      "obszar": "IM",
+      "poziom": "rozumienie",
+      "dzien": 7,
+      "tytul": "Fazy 4–7: Co trzeba zrobić? Jak się tam dostaniemy? Czy dotarliśmy do celu? Jak utrzymać impet?",
+      "en": "Phases 4–7 of the implementation life cycle",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ]
+    },
+    {
+      "kod": "PC-01-01",
+      "obszar": "PC",
+      "poziom": "wiedza",
+      "dzien": 7,
+      "tytul": "Sześć poziomów zdolności (ISO/IEC 15504)",
+      "en": "The six capability levels",
+      "zakres": [
+        "0 – proces niekompletny",
+        "1 – proces wykonywany",
+        "2 – proces zarządzany",
+        "3 – proces ustanowiony",
+        "4 – proces przewidywalny",
+        "5 – proces optymalizowany"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        }
+      ]
+    },
+    {
+      "kod": "PC-01-02",
+      "obszar": "PC",
+      "poziom": "wiedza",
+      "dzien": 7,
+      "tytul": "Dziewięć atrybutów procesu",
+      "en": "The nine process attributes",
+      "zakres": [
+        "PA 1.1 wykonanie procesu",
+        "PA 2.1 zarządzanie wydajnością",
+        "PA 2.2 zarządzanie produktami pracy",
+        "PA 3.1 definicja procesu",
+        "PA 3.2 wdrożenie procesu",
+        "PA 4.1 pomiar procesu",
+        "PA 4.2 kontrola procesu",
+        "PA 5.1 innowacja procesu",
+        "PA 5.2 optymalizacja procesu"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42,
+          "ilustracja": "19"
+        }
+      ]
+    },
+    {
+      "kod": "PC-01-03",
+      "obszar": "PC",
+      "poziom": "wiedza",
+      "dzien": 7,
+      "tytul": "Skala ocen N/C/W/P (EN: N/P/L/F)",
+      "en": "Rating scale N/P/L/F",
+      "zakres": [
+        "N – nieosiągnięty: 0–15%",
+        "C – częściowy (Partially): >15–50%",
+        "W – większościowy (Largely): >50–85%",
+        "P – pełny (Fully): >85–100%"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ]
+    },
+    {
+      "kod": "PC-01-04",
+      "obszar": "PC",
+      "poziom": "wiedza",
+      "dzien": 8,
+      "tytul": "Pojęcia ISO 15504: przeznaczenie procesu, rezultat, praktyka bazowa, produkt pracy",
+      "en": "Process purpose, outcome, base practice, work product",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ]
+    },
+    {
+      "kod": "PC-02-01",
+      "obszar": "PC",
+      "poziom": "rozumienie",
+      "dzien": 8,
+      "tytul": "Po co przeprowadza się ocenę zdolności procesu",
+      "en": "Purposes of process capability assessment",
+      "zakres": [
+        "benchmarking zdolności",
+        "przegląd stanu obecnego i docelowego",
+        "analiza luk i planowanie usprawnień",
+        "oceny do monitorowania bieżących zdolności"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ]
+    },
+    {
+      "kod": "PC-02-02",
+      "obszar": "PC",
+      "poziom": "rozumienie",
+      "dzien": 8,
+      "tytul": "Trzy przewodniki programu oceny COBIT",
+      "en": "The three COBIT assessment guides",
+      "zakres": [
+        "Model Oceny Procesu (PAM)",
+        "Przewodnik Asesora",
+        "Przewodnik Samooceny"
+      ],
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "SP1"
+        }
+      ]
+    },
+    {
+      "kod": "PC-02-03",
+      "obszar": "PC",
+      "poziom": "rozumienie",
+      "dzien": 8,
+      "tytul": "Referencyjny Model Procesu wg ISO 15504",
+      "en": "Purpose of a Process Reference Model",
+      "zakres": [
+        "wymiar procesu – 37 procesów COBIT"
+      ],
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "SP1"
+        }
+      ]
+    },
+    {
+      "kod": "PC-02-04",
+      "obszar": "PC",
+      "poziom": "rozumienie",
+      "dzien": 8,
+      "tytul": "Wskaźniki oceny: wymiar zdolności i wymiar procesu",
+      "en": "Assessment indicators – two dimensions",
+      "zakres": [
+        "wskaźniki atrybutów zdolności – poziomy 1–5",
+        "wskaźniki wykonania procesu (praktyki bazowe, produkty pracy) – poziom 1"
+      ],
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ]
+    },
+    {
+      "kod": "PC-02-05",
+      "obszar": "PC",
+      "poziom": "rozumienie",
+      "dzien": 7,
+      "tytul": "Korzyści z podejścia COBIT do oceny zdolności",
+      "en": "Benefits of the COBIT capability assessment approach",
+      "zakres": [],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 44
+        }
+      ]
+    },
+    {
+      "kod": "PC-02-06",
+      "obszar": "PC",
+      "poziom": "rozumienie",
+      "dzien": 7,
+      "tytul": "Jak stosuje się skalę ocen",
+      "en": "How the rating scale is used",
+      "zakres": [
+        "poziom osiągnięty: atrybuty tego poziomu W lub P, a wszystkie niższe – P",
+        "przejście na wyższy poziom wymaga P na wszystkich atrybutach niższych poziomów"
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "SYL"
+        }
+      ]
+    },
+    {
+      "kod": "EX-00-01",
+      "obszar": "M0",
+      "poziom": "rozumienie",
+      "dzien": 8,
+      "tytul": "Symulacje egzaminu i analiza błędów",
+      "en": "Mock exams and error analysis",
+      "zakres": [
+        "mock autorski 1",
+        "Sample Paper 1",
+        "drill pułapek",
+        "mock autorski 2"
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ]
+    }
+  ],
+  "dni": [
+    {
+      "dzien": 0,
+      "tytul": "Start i podstawy cyfrowe",
+      "pustaKartka": {
+        "tytul": "Komputer, dane, sieć, serwer",
+        "polecenie": "Narysuj na kartce drogę jednego SMS-a z alarmem: od dyżurnego przez program, serwer i sieć do telefonu strażaka OSP. Podpisz: sprzęt, program, dane, sieć, serwer, usługa. Dopisz, co się stanie, gdy padnie każdy z tych elementów.",
+        "wzorzec": "Dyżurny klika w **aplikacji** (program) na **komputerze** (sprzęt) → **dane** (adres, lista numerów) idą przez **sieć** do **serwera** → serwer świadczy **usługę IT** „powiadamianie” → **Internet**/sieć komórkowa → telefon strażaka. Awaria sprzętu, programu, sieci albo serwera = alarm nie dochodzi (incydent); brak kopii zapasowej danych = utrata listy numerów."
+      },
+      "potrafie": [
+        "Potrafię odróżnić sprzęt od oprogramowania i aplikację od systemu operacyjnego.",
+        "Potrafię powiedzieć, czym różnią się dane od informacji.",
+        "Potrafię wyjaśnić, co robi serwer, a co klient, i czym jest usługa IT.",
+        "Potrafię odróżnić uwierzytelnienie (kim jesteś) od autoryzacji (co ci wolno).",
+        "Potrafię odróżnić incydent, problem i zmianę oraz wyjaśnić, po co jest kopia zapasowa.",
+        "Potrafię odróżnić projekt, program i portfel.",
+        "Potrafię powiedzieć po ludzku, czym jest organizacja, jej cel i po co komu ramy takie jak COBIT 5."
+      ],
+      "rusztowanie": "pelny",
+      "podpowiedzi": "widoczne",
+      "propozycjaTrybu": false,
+      "mentor": 0,
+      "zrodla": "objasnienia",
+      "sp1": false,
+      "egzaminy": [],
+      "projekt": false,
+      "testDnia": true
+    },
+    {
+      "dzien": 1,
+      "tytul": "Organizacja po ludzku",
+      "pustaKartka": {
+        "tytul": "Interesariusz, potrzeba, wartość, ryzyko, Ład",
+        "polecenie": "Wypisz dla komendy z Modrzewiowa: 3 interesariuszy z ich potrzebami, 1 wyznacznik, po jednym przykładzie korzyści, ryzyka i zasobu, jedną rzecz dziejącą się stale (proces) i jedno jednorazowe przedsięwzięcie (projekt). Na końcu jednym zdaniem: kto decyduje (Ład), a kto wykonuje (Zarządzanie).",
+        "wzorzec": "Interesariusze: mieszkańcy (szybka pomoc), dyżurni (prosty i niezawodny system), komenda wojewódzka (czasy dojazdu zgodne z wymaganiami). Wyznacznik: zapowiedziana kontrola. Korzyść: szybszy alarm; ryzyko: awaria Syreny; zasób: ludzie Sikory i budżet. Proces: wysyłanie każdego alarmu; projekt: naprawa Syreny do 30 kwietnia. Ład: komendantka ocenia, kieruje i monitoruje; Zarządzanie: naczelnik Sikora planuje, tworzy, wykonuje i monitoruje."
+      },
+      "potrafie": [
+        "Potrafię powiedzieć po ludzku, kim jest interesariusz, i podać interesariusza, który nie korzysta z systemu.",
+        "Potrafię odróżnić potrzebę od wyznacznika i podać przykład wyznacznika z komendy.",
+        "Potrafię wymienić trzy składniki Tworzenia Wartości: korzyści, ryzyko i zasoby.",
+        "Potrafię odróżnić proces od projektu na przykładzie z życia.",
+        "Potrafię powiedzieć, kto w komendzie decyduje o kierunku (Ład), a kto planuje i wykonuje (Zarządzanie)."
+      ],
+      "rusztowanie": "pelny",
+      "podpowiedzi": "widoczne",
+      "propozycjaTrybu": false,
+      "mentor": 0,
+      "zrodla": "objasnienia",
+      "sp1": false,
+      "egzaminy": [],
+      "projekt": false,
+      "testDnia": true
+    },
+    {
+      "dzien": 2,
+      "tytul": "COBIT na tle świata i pierwsze zasady",
+      "pustaKartka": {
+        "tytul": "Pięć zasad i Cel Ładu",
+        "polecenie": "Wypisz z pamięci 5 zasad COBIT 5 w kolejności (nazwy egzaminacyjne) i trzy składniki Celu Ładu „Tworzenie Wartości”. Dopisz, czym COBIT 5 różni się od ITIL i ISO/IEC 27001 w jednym zdaniu.",
+        "wzorzec": "**Zasady:** 1 Realizacja potrzeb interesariusza · 2 Pokrycie całej organizacji · 3 Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej · 4 Aktywacja holistycznego podejścia · 5 Oddzielenie Ładu od Zarządzania. **Cel Ładu:** realizacja korzyści + optymalizacja ryzyka + optymalizacja zasobów. COBIT 5 to rama nadrzędna (Ład i Zarządzanie IT całej organizacji), w którą wpinają się ITIL (usługi IT) i ISO/IEC 27001 (bezpieczeństwo informacji)."
+      },
+      "potrafie": [
+        "Potrafię wymienić 5 zasad COBIT 5 w kolejności, z nazwami z egzaminu.",
+        "Potrafię znaleźć w pytaniu słowo-klucz (NIE, NAJLEPIEJ, GŁÓWNY) i odrzucić prawdę nie na temat.",
+        "Potrafię powiedzieć, czym COBIT 5 różni się od ITIL, ISO/IEC 27001 i COBIT 2019.",
+        "Potrafię rozpoznać nazwę z podręcznika i podać jej odpowiednik z egzaminu (Nadzór → Ład, Czynnik umożliwiający → Aktywator).",
+        "Potrafię wymienić trzy składniki Tworzenia Wartości: korzyści, ryzyko i zasoby."
+      ],
+      "rusztowanie": "pelny",
+      "podpowiedzi": "widoczne",
+      "propozycjaTrybu": false,
+      "mentor": 0,
+      "zrodla": "objasnienia",
+      "sp1": false,
+      "egzaminy": [],
+      "projekt": false,
+      "testDnia": true
+    },
+    {
+      "dzien": 3,
+      "tytul": "Kaskada celów i zasady 2–4",
+      "pustaKartka": {
+        "tytul": "Kaskada Celów i Cel Ładu",
+        "polecenie": "Na pustej kartce narysuj Kaskadę Celów (5 poziomów, od wyznaczników do celów aktywatora) i trzy składniki Celu Ładu. Przy każdym poziomie dopisz jeden przykład z PSP.",
+        "wzorzec": "| Poziom | Przykład PSP |\n|---|---|\n| Wyznaczniki | nowe wymagania dotyczące czasu dysponowania |\n| Potrzeby interesariuszy | szybka i pewna pomoc |\n| Cele organizacji (17, BSC) | 7. Ciągłość i dostępność usług |\n| Cele związane z informatyką (17, IT BSC) | 07 Usługi IT zgodne z wymogami; 10 Bezpieczeństwo |\n| Cele aktywatora | proces obsługi awarii SK, przećwiczeni dyżurni |\n\n**Cel Ładu: Tworzenie Wartości** = realizacja korzyści + optymalizacja ryzyka + optymalizacja zasobów."
+      },
+      "potrafie": [
+        "Potrafię narysować Kaskadę Celów od wyznaczników do celów aktywatora.",
+        "Potrafię wyjaśnić, do czego służy Kaskada Celów i czego nie należy z nią robić.",
+        "Potrafię odczytać relację P/S między celem organizacji a celami Ładu.",
+        "Potrafię wyjaśnić, co znaczy „Pokrycie całej organizacji” i kto deleguje, kieruje, instruuje i raportuje.",
+        "Potrafię powiedzieć, dlaczego COBIT 5 jest jedną zintegrowaną strukturą ramową, w którą wpinają się inne standardy.",
+        "Potrafię wymienić 7 aktywatorów w stałej kolejności."
+      ],
+      "rusztowanie": "twoja-kolej",
+      "podpowiedzi": "widoczne",
+      "propozycjaTrybu": true,
+      "mentor": 1,
+      "zrodla": "fragmenty",
+      "sp1": false,
+      "egzaminy": [],
+      "projekt": false,
+      "testDnia": true,
+      "wytlumacz": "krotki"
+    },
+    {
+      "dzien": 4,
+      "tytul": "Model aktywatora i Ład vs Zarządzanie",
+      "pustaKartka": {
+        "tytul": "Szkielet COBIT 5",
+        "polecenie": "Wypisz z pamięci: 5 zasad (nazwy egzaminacyjne), 7 aktywatorów, 4 wymiary aktywatora, 3 kategorie celów aktywatora, 4 pytania zarządzania wydajnością z typem wskaźnika, 5 domen z liczbą procesów.",
+        "wzorzec": "**Zasady:** 1 Realizacja potrzeb interesariusza · 2 Pokrycie całej organizacji · 3 Pojedyncza Zintegrowana Struktura Ramowa · 4 Podejście holistyczne · 5 Oddzielenie Ładu od Zarządzania\n\n**Aktywatory:** Zasady/Polityki/Struktury ramowe · Procesy · Struktury organizacyjne · Kultura/Etyka/Zachowanie · Informacja · Usługi/Infrastruktura/Aplikacje · Ludzie/Umiejętności/Kompetencje\n\n**Wymiary:** Interesariusze · Cele (wewnętrzna, kontekstowa, dostęp i bezpieczeństwo) · Cykl życia · Dobre praktyki\n\n**Wydajność:** potrzeby? cele? → opóźnione · cykl życia? dobre praktyki? → wiodące\n\n**Domeny:** EDM 5 · APO 13 · BAI 10 · DSS 6 · MEA 3 = 37"
+      },
+      "potrafie": [
+        "Potrafię wymienić 4 wymiary aktywatora i trzy kategorie celów.",
+        "Potrafię odróżnić wskaźnik wiodący od opóźnionego na przykładzie.",
+        "Potrafię wymienić 5 procesów EDM i podać liczbę procesów w APO, BAI, DSS i MEA.",
+        "Potrafię przypisać Oszacuj, Kieruj, Monitoruj do Ładu, a Planuj, Twórz, Wykonuj, Monitoruj do Zarządzania.",
+        "Potrafię znaleźć w pytaniu słowo-klucz (NIE, NAJLEPIEJ, GŁÓWNY, ZAWSZE) i odpowiednio je zastosować."
+      ],
+      "rusztowanie": "twoja-kolej",
+      "podpowiedzi": "widoczne",
+      "propozycjaTrybu": true,
+      "mentor": 1,
+      "zrodla": "fragmenty",
+      "sp1": false,
+      "egzaminy": [],
+      "projekt": false,
+      "testDnia": true,
+      "wytlumacz": "krotki"
+    },
+    {
+      "dzien": 5,
+      "tytul": "Aktywatory, część 1",
+      "pustaKartka": {
+        "tytul": "Aktywatory 1–3 i RACI",
+        "polecenie": "Dla aktywatorów 1–3 (Zasady/Polityki/Struktury ramowe, Procesy, Struktury organizacyjne) zapisz 2–3 elementy egzaminacyjne. Wypełnij tabelę RACI dla aktualizacji listy numerów OSP (4 osoby z historii).",
+        "wzorzec": "**Zasady i polityki:** zasady = wartości (niewiele, prosto); dobra polityka: skuteczna, wydajna, nieinwazyjna. **Procesy:** cele wewnętrzne / kontekstowe / dostępności i bezpieczeństwa; praktyki → działania → wejścia/wyjścia. **Struktury:** zasady operacyjne, zakres kontroli, poziom uprawnień, delegowanie uprawnień, procedura eskalacji. **RACI:** Dudek R, Sikora A (tylko jeden A!), Pietrzak C, SK I."
+      },
+      "potrafie": [
+        "Potrafię powiedzieć, czym różni się zasada od polityki i jakie cechy ma dobra polityka.",
+        "Potrafię opisać proces przez cel, praktyki, działania, wejścia i wyjścia.",
+        "Potrafię wypełnić tabelę RACI i wyjaśnić, że A jest tylko jedno.",
+        "Potrafię wymienić dobre praktyki struktur organizacyjnych: zasady operacyjne, zakres kontroli, poziom uprawnień, delegowanie, eskalację.",
+        "Potrafię odróżnić proces (co robimy) od struktury organizacyjnej (kto decyduje)."
+      ],
+      "rusztowanie": "zwiniety",
+      "podpowiedzi": "widoczne",
+      "propozycjaTrybu": true,
+      "mentor": 1,
+      "zrodla": "fragmenty",
+      "sp1": false,
+      "egzaminy": [],
+      "projekt": false,
+      "testDnia": true,
+      "wytlumacz": "krotki"
+    },
+    {
+      "dzien": 6,
+      "tytul": "Aktywatory, część 2 i strategia",
+      "pustaKartka": {
+        "tytul": "Siedem aktywatorów – szczegóły",
+        "polecenie": "Dla każdego z 7 aktywatorów zapisz 2–3 najważniejsze elementy egzaminacyjne (np. cechy dobrej polityki, kategorie celów procesu, dobre praktyki struktur, poziomy etyki, cykl informacji, zasady architektury, kategorie umiejętności) oraz role RACI.",
+        "wzorzec": "1 **Zasady i polityki:** zasady = podstawowe wartości (niewiele, prosto); polityki = szczegółowe wytyczne; dobra polityka: skuteczna, wydajna, nieinwazyjna; zakres, konsekwencje niezgodności, wyjątki, monitorowanie\n2 **Procesy:** cele wewnętrzne / kontekstowe / dostępności i bezpieczeństwa; praktyki → działania → wejścia/wyjścia; RACI\n3 **Struktury:** zasady operacyjne, zakres kontroli, poziom uprawnień, delegowanie, eskalacja\n4 **Kultura:** etyka organizacyjna → etyka indywidualna → zachowania; czempioni, przykład z góry\n5 **Informacja:** cykl informacji; jakość wewnętrzna/kontekstowa/bezpieczeństwa\n6 **Usługi:** zasady architektury; zdolność usługowa\n7 **Ludzie:** kategorie umiejętności według domen (np. architektura korporacyjna → APO)\n\n**RACI:** R wykonuje · A rozliczany (jedna osoba) · C konsultowany (dwukierunkowo) · I informowany (jednokierunkowo)"
+      },
+      "potrafie": [
+        "Potrafię podać przykład kultury, etyki i zachowania, które pomagają albo szkodzą.",
+        "Potrafię rozróżnić jakość wewnętrzną, kontekstową oraz dostęp i bezpieczeństwo informacji.",
+        "Potrafię powiedzieć, czym są usługi, infrastruktura i aplikacje oraz zasady architektury.",
+        "Potrafię wyjaśnić, po co dla każdej roli określa się umiejętności i kompetencje.",
+        "Potrafię odrzucić odpowiedź z innej kategorii COBIT, nawet jeśli brzmi mądrze."
+      ],
+      "rusztowanie": "zwiniety",
+      "podpowiedzi": "widoczne",
+      "propozycjaTrybu": true,
+      "mentor": 2,
+      "zrodla": "fragmenty",
+      "sp1": false,
+      "egzaminy": [],
+      "projekt": false,
+      "testDnia": true,
+      "wytlumacz": "krotki"
+    },
+    {
+      "dzien": 7,
+      "tytul": "Wdrożenie",
+      "pustaKartka": {
+        "tytul": "Cykl życia wdrożenia",
+        "polecenie": "Narysuj 7 faz cyklu wdrożenia z pytaniami i 3 pierścieniami. Przy każdym pierścieniu dopisz jednym zdaniem, za co odpowiada.",
+        "wzorzec": "**Pierścienie:** zewnętrzny – Zarządzanie programem · środkowy – Aktywowanie zmiany · wewnętrzny – Ciągłe doskonalenie\n\n**Fazy:** 1 Jakie są wyznaczniki? · 2 Gdzie jesteśmy? · 3 Dokąd chcemy dojść? · 4 Co trzeba zrobić? · 5 Jak się tam dostaniemy? · 6 Czy dotarliśmy do celu? · 7 Jak utrzymać motywację do działania?"
+      },
+      "potrafie": [
+        "Potrafię odróżnić punkt zapalny od zdarzenia wyzwalającego.",
+        "Potrafię nazwać trzy pierścienie cyklu wdrożenia i powiedzieć, za co odpowiada każdy z nich.",
+        "Potrafię wymienić 7 faz wdrożenia w kolejności.",
+        "Potrafię powiedzieć, co zawiera uzasadnienie biznesowe i dlaczego aktualizuje się je przez cały program.",
+        "Potrafię podać kody i angielskie nazwy procesów BAI i DSS oraz wskazać, który obsługuje zmianę, a który awarię."
+      ],
+      "rusztowanie": "zwiniety",
+      "podpowiedzi": "ukryte",
+      "propozycjaTrybu": true,
+      "mentor": 2,
+      "zrodla": "bez-objasnien",
+      "sp1": false,
+      "egzaminy": [],
+      "projekt": false,
+      "testDnia": true,
+      "wytlumacz": "pelny"
+    },
+    {
+      "dzien": 8,
+      "tytul": "Model zdolności, część 1",
+      "pustaKartka": {
+        "tytul": "Poziomy, atrybuty i skala",
+        "polecenie": "Narysuj drabinę poziomów zdolności 0–5 z nazwami i przypisz do niej 9 atrybutów procesu (PA 1.1 … PA 5.2). Obok zapisz skalę N/C/W/P z progami procentowymi i regułę osiągnięcia poziomu.",
+        "wzorzec": "**Poziomy:** 0 Niekompletny proces · 1 Wykonany proces (PA 1.1) · 2 Zarządzany proces (PA 2.1, PA 2.2) · 3 Ustanowiony proces (PA 3.1, PA 3.2) · 4 Przewidywalny proces (PA 4.1 Miara procesu, PA 4.2) · 5 Optymalizowany proces (PA 5.1, PA 5.2). **Skala (egzamin PL):** N 0–15% · C >15–50% · W >50–85% · P >85–100% (P = Pełny). **Reguła:** poziom osiągnięty, gdy jego atrybuty ≥ W, a wszystkie niższe = P."
+      },
+      "potrafie": [
+        "Potrafię wymienić poziomy zdolności 0–5 i 9 atrybutów procesu.",
+        "Potrafię ocenić atrybut w skali N/C/W/P i pamiętam, że na egzaminie P znaczy Pełny.",
+        "Potrafię wyjaśnić różnicę między dojrzałością (COBIT 4.1) a zdolnością procesu (COBIT 5).",
+        "Potrafię nazwać 9 atrybutów procesu i przypisać je do poziomów 1–5.",
+        "Potrafię wyjaśnić, dlaczego W wystarcza na ocenianym poziomie, a niższe poziomy muszą mieć P."
+      ],
+      "rusztowanie": "zwiniety",
+      "podpowiedzi": "ukryte",
+      "propozycjaTrybu": true,
+      "mentor": 2,
+      "zrodla": "bez-objasnien",
+      "sp1": false,
+      "egzaminy": [],
+      "projekt": false,
+      "testDnia": true,
+      "wytlumacz": "pelny"
+    },
+    {
+      "dzien": 9,
+      "tytul": "Model zdolności, część 2, i pierwszy próbny egzamin",
+      "pustaKartka": {
+        "tytul": "Ocena zdolności od kuchni",
+        "polecenie": "Zapisz regułę osiągnięcia poziomu zdolności, skalę N/C/W/P z progami % i 3 przewodniki oceny. Potem przeanalizuj 3 pomyłki z próbnego egzaminu: co wybrałeś, jaka to pułapka, jak ją rozpoznasz następnym razem.",
+        "wzorzec": "**Reguła:** poziom osiągnięty, gdy jego atrybuty mają co najmniej W, a wszystkie atrybuty niższych poziomów P. **Skala (egzamin PL):** N 0–15%, C >15–50%, W >50–85%, P >85–100% (P = Pełny!). **Przewodniki:** Model Oceny Procesu (PAM), Przewodnik Asesora, Przewodnik Samooceny. **Analiza:** pułapka (inna kategoria / zbyt wąskie / forma podręcznikowa / prawda nie na temat / fałsz / odwrócone) + jedno zdanie do zapamiętania."
+      },
+      "potrafie": [
+        "Potrafię zastosować regułę: atrybuty poziomu co najmniej W, wszystkie niższe P.",
+        "Potrafię wymienić trzy przewodniki oceny i powiedzieć, do czego służy każdy z nich.",
+        "Potrafię rozwiązać 50 pytań w 40 minut i zdobyć co najmniej 35 punktów.",
+        "Potrafię odrzucić odpowiedź z innej kategorii COBIT, nawet jeśli brzmi mądrze.",
+        "Potrafię przeanalizować własne pomyłki według rodzaju pułapki i zapisać regułę na przyszłość."
+      ],
+      "rusztowanie": "zwiniety",
+      "podpowiedzi": "ukryte",
+      "propozycjaTrybu": true,
+      "mentor": 2,
+      "zrodla": "bez-objasnien",
+      "sp1": false,
+      "egzaminy": [
+        "proba-1"
+      ],
+      "projekt": false,
+      "testDnia": false,
+      "wytlumacz": "pelny"
+    },
+    {
+      "dzien": 10,
+      "tytul": "Niezależny pomiar",
+      "pustaKartka": {
+        "tytul": "Cała mapa COBIT 5",
+        "polecenie": "Odtwórz całą mapę COBIT 5 na jednej kartce: zasady, Cel Ładu, kaskada, Podejście do Ładu, model aktywatora, 7 aktywatorów, Ład/Zarządzanie i domeny, wdrożenie, model zdolności, trzy przewodniki oceny.",
+        "wzorzec": "Porównaj z widokiem **Mapa** w aplikacji."
+      },
+      "potrafie": [
+        "Potrafię rozwiązać 50 pytań w 40 minut i zdobyć co najmniej 35 punktów.",
+        "Potrafię rozpoznać nazwę z podręcznika i podać jej odpowiednik z egzaminu.",
+        "Potrafię odrzucić odpowiedź z innej kategorii COBIT, nawet jeśli brzmi mądrze.",
+        "Potrafię wymienić, co zabrać i jak wygląda egzamin (closed book, 50 pytań, 40 min, próg 50%).",
+        "Potrafię porównać wynik SP1 z próbnymi egzaminami i wskazać najsłabszy obszar do powtórki."
+      ],
+      "rusztowanie": "zwiniety",
+      "podpowiedzi": "ukryte",
+      "propozycjaTrybu": true,
+      "mentor": 2,
+      "zrodla": "bez-objasnien",
+      "sp1": true,
+      "egzaminy": [
+        "sp1",
+        "proba-2"
+      ],
+      "projekt": false,
+      "testDnia": false,
+      "wytlumacz": "pelny"
+    },
+    {
+      "dzien": 11,
+      "tytul": "Finał „skrajnie biegły”",
+      "pustaKartka": {
+        "tytul": "Moja komenda w COBIT 5",
+        "polecenie": "Wypełnij 8 pól projektu końcowego dla własnej organizacji (albo komendy z Modrzewiowa) i porównaj z wzorcem w aplikacji.",
+        "wzorzec": "Wzorzec: Projekt końcowy → wzorzec (komenda w Modrzewiowie)."
+      },
+      "potrafie": [
+        "Potrafię wytłumaczyć laikowi w minutę dowolne pojęcie z rdzenia.",
+        "Potrafię opisać własną organizację językiem COBIT 5 w ośmiu polach projektu końcowego.",
+        "Potrafię rozwiązać pytanie przekrojowe łączące co najmniej dwa obszary COBIT 5.",
+        "Potrafię uzyskać co najmniej 40/50 w egzaminie mistrzowskim.",
+        "Potrafię poprowadzić 10-minutowe wyjaśnienie jednego pojęcia z rdzenia na podstawie karty prowadzącego."
+      ],
+      "rusztowanie": "zwiniety",
+      "podpowiedzi": "ukryte",
+      "propozycjaTrybu": true,
+      "mentor": 2,
+      "zrodla": "bez-objasnien",
+      "sp1": true,
+      "egzaminy": [
+        "mistrzowski",
+        "mistrzowski"
+      ],
+      "projekt": true,
+      "testDnia": false,
+      "wytlumacz": "pelny"
+    }
+  ],
+  "rdzen": [
+    "interesariusz",
+    "potrzeba",
+    "wyznacznik",
+    "tworzenie-wartosci",
+    "ryzyko",
+    "zasob",
+    "lad",
+    "zarzadzanie",
+    "organ-ladu",
+    "kaskada-celow",
+    "cele-organizacji",
+    "cele-zwiazane-z-it",
+    "zasada-1",
+    "zasada-2",
+    "zasada-3",
+    "zasada-4",
+    "zasada-5",
+    "system-ladu",
+    "aktywator",
+    "wymiary-aktywatora",
+    "wskaznik-wiodacy",
+    "wskaznik-opozniony",
+    "prm",
+    "pbrm",
+    "edm",
+    "raci",
+    "punkty-zapalne",
+    "zdarzenia-wyzwalajace",
+    "cykl-wdrozenia",
+    "poziomy-zdolnosci",
+    "skala-ocen"
+  ],
+  "projekt": {
+    "wzorzec": [
+      "**Interesariusze i potrzeby:** mieszkańcy, np. Zofia Kaczmarek z ul. Lipowej, potrzebują szybkiej i pewnej pomocy. Dyżurni SK, np. Paweł Grab, potrzebują prostego systemu, który zawsze wysyła alarm. Komenda wojewódzka (inspektorka Ostrowska) potrzebuje czasów dojazdu zgodnych z wymaganiami i rzetelnych raportów.",
+      "**Kaskada:** cel organizacji „7. Ciągłość i dostępność usług biznesowych” → cele związane z informatyką: przede wszystkim „10 Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji”, „04 Zarządzanie ryzykiem biznesowym związanym z IT” i „14 Dostępność wiarygodnych i przydatnych informacji wspierających proces decyzyjny”, w mniejszym stopniu m.in. „07 Dostarczanie usług IT zgodnie z wymogami biznesowymi” (Przykład 7, FW-PL s. 49; system powiadamiania działa i alarmuje wszystkie jednostki) → cel aktywatora Informacja: lista numerów OSP w Syrenie jest aktualna (sprawdzana co miesiąc) i dostępna dla każdego dyżurnego.",
+      "**Najsłabszy aktywator:** Informacja, bo numer naczelnika OSP Zawilce był sprzed dwóch lat. Zaraz za nią są Kultura, Etyka i Zachowanie: dyżurny bał się zgłosić wcześniejszą awarię.",
+      "**Dwa procesy:** DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami (domena Dostarczaj, Obsługuj i Wspieraj – DSS) oraz APO12 Zarządzanie ryzykiem (domena Dostosuj, Planuj i Organizuj – APO).",
+      "**Punkt zapalny:** nocny pożar na ul. Lipowej, kiedy OSP Zawilce nie dostała alarmu i pomoc spóźniła się o 6 minut. Do tego niejasne, kto odpowiada za system.",
+      "**Zdarzenie wyzwalające:** zapowiedziana kontrola komendy wojewódzkiej dotycząca czasów dojazdu (audyt zewnętrzny, wymaganie regulacyjne).",
+      "**Faza cyklu życia:** faza 2 „Gdzie jesteśmy teraz?”. Komenda ma już zgodę komendantki i zespół (faza 1). Audytorka Ewa Lis ocenia teraz obecny stan procesu powiadamiania, a cel na fazę 3 to poziom 3.",
+      "**Poziom zdolności DSS02:** **poziom 1**. PA 1.1 = W (Większościowy), bo alarmy zwykle docierają, ale nie zawsze. Poziom 2 nie jest osiągnięty: PA 2.1 = C (Częściowy), bo nikt nie planuje przeglądów listy numerów, a PA 2.2 = C (brak wzoru karty zdarzenia). Żeby mieć poziom 2, PA 1.1 musi być P (Pełny), a PA 2.1 i 2.2 co najmniej W."
+    ]
+  }
+}

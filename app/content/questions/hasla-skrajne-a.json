@@ -1,0 +1,1004 @@
+{
+  "pytania": [
+    {
+      "id": "q-skr-aktywator-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które stwierdzenie o aktywatorach jest zgodne z COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 27
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "aktywator",
+      "opcje": [
+        {
+          "tekst": "Informacja jest aktywatorem, a jednocześnie zasobem organizacji, którym trzeba zarządzać.",
+          "poprawna": true,
+          "wyjasnienie": "s. 27: Informacja, Usługi/infrastruktura/aplikacje oraz Ludzie/umiejętności/kompetencje są aktywatorami i zarazem zasobami."
+        },
+        {
+          "tekst": "Aktywatorami są wyłącznie elementy techniczne: aplikacje, infrastruktura i usługi IT.",
+          "poprawna": false,
+          "wyjasnienie": "To tylko jedna z 7 kategorii. Aktywatorami są też m.in. kultura, polityki, struktury i umiejętności.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Nowe przepisy wymuszające powiadamianie SMS-em są aktywatorem, bo wpływają na sposób działania komendy.",
+          "poprawna": false,
+          "wyjasnienie": "Zmiana przepisów zmienia potrzeby interesariuszy, więc jest wyznacznikiem, a nie aktywatorem.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Aktywatory działają niezależnie, więc każdy można doskonalić bez oglądania się na pozostałe.",
+          "poprawna": false,
+          "wyjasnienie": "Aktywatory są wzajemnie powiązane: dostarczają sobie nawzajem wejść i korzystają ze swoich wyników (s. 27–28).",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-apo-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04",
+        "EN-02-23"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Kpt. Sikora prowadzi rejestr ryzyk IT komendy i co kwartał analizuje nowe scenariusze awarii Syreny. Do którego procesu COBIT 5 należy ta praca?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "apo",
+      "opcje": [
+        {
+          "tekst": "APO12 – Zarządzanie ryzykiem, w domenie Zarządzania",
+          "poprawna": true,
+          "wyjasnienie": "Rozpoznawanie, analiza i rejestr ryzyk to codzienna praca kierownictwa w APO12."
+        },
+        {
+          "tekst": "EDM03 – Zapewnienie optymalizacji ryzyka, w domenie Ładu",
+          "poprawna": false,
+          "wyjasnienie": "EDM03 to Ład: organ Ładu dba o apetyt na ryzyko i sprawdza, czy ryzyko mieści się w granicach. Rejestru nie prowadzi.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS04 – Zarządzanie ciągłością",
+          "poprawna": false,
+          "wyjasnienie": "DSS04 przygotowuje działanie w razie poważnej awarii. Analiza scenariuszy ryzyka i rejestr ryzyk to APO12.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "MEA02 – Monitorowanie systemu kontroli wewnętrznej",
+          "poprawna": false,
+          "wyjasnienie": "MEA02 monitoruje kontrolę wewnętrzną, a nie prowadzi rejestru ryzyk.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-atrybuty-procesu-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Ewa Lis oceniła proces powiadamiania: PA 1.1 = W, PA 2.1 = P, PA 2.2 = P, PA 3.1 = W, PA 3.2 = W (skala egzaminacyjna N/C/W/P). Jaki poziom zdolności osiąga proces?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "atrybuty-procesu",
+      "opcje": [
+        {
+          "tekst": "Poziom 1, bo PA 1.1 nie ma oceny P, a to blokuje wyższe poziomy",
+          "poprawna": true,
+          "wyjasnienie": "Poziom n wymaga W lub P na atrybutach poziomu n i P na wszystkich atrybutach niższych. PA 1.1 = W wystarcza na poziom 1, ale nie pozwala wejść wyżej."
+        },
+        {
+          "tekst": "Poziom 3, bo atrybuty poziomu 3 mają W, a atrybuty poziomu 2 mają P",
+          "poprawna": false,
+          "wyjasnienie": "Sprawdzono tylko poziom bezpośrednio niższy. PA 1.1 też musiałby mieć P.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Poziom 2, bo atrybuty poziomu 2 mają P",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 2 wymaga też P na PA 1.1, a jest tylko W.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 0, bo PA 1.1 nie jest oceniony na P",
+          "poprawna": false,
+          "wyjasnienie": "Do poziomu 1 wystarczy W na PA 1.1. P jest potrzebne dopiero do wejścia na poziom 2.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-bai-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04",
+        "EN-02-23"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Który proces COBIT 5 obejmuje prowadzenie ewidencji sprzętu i licencji komendy przez cały ich cykl życia?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "bai",
+      "opcje": [
+        {
+          "tekst": "BAI09 – Zarządzanie zasobami (*Manage Assets*)",
+          "poprawna": true,
+          "wyjasnienie": "BAI09 dotyczy aktywów: sprzętu i licencji. Polska nazwa „zasoby” myli, ale angielskie *Assets* rozstrzyga."
+        },
+        {
+          "tekst": "EDM04 – Zapewnienie optymalizacji zasobów (*Ensure Resource Optimisation*)",
+          "poprawna": false,
+          "wyjasnienie": "EDM04 to Ład: dba, by zasoby (ludzie, technologia, pieniądze) były wystarczające i dobrze wykorzystane. Nie prowadzi ewidencji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO07 – Zarządzanie zasobami ludzkimi",
+          "poprawna": false,
+          "wyjasnienie": "APO07 dotyczy ludzi, a nie sprzętu i licencji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS01 – Zarządzanie eksploatacją",
+          "poprawna": false,
+          "wyjasnienie": "DSS01 to codzienne operacje IT. Ewidencja aktywów należy do BAI09.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-bsc-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-03",
+        "PR-02-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które stwierdzenie poprawnie opisuje rolę zrównoważonej karty wyników (BSC) w COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 19
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "bsc",
+      "opcje": [
+        {
+          "tekst": "Wymiary BSC grupują cele organizacji i cele związane z informatyką; przekład celów między poziomami to zadanie kaskady.",
+          "poprawna": true,
+          "wyjasnienie": "s. 17–19: 17 celów organizacji ułożono w wymiarach BSC, a 17 celów IT w wymiarach IT BSC. Przekład między poziomami to kaskada."
+        },
+        {
+          "tekst": "BSC to osobny, drugi krok kaskady celów COBIT 5, leżący między potrzebami interesariuszy a celami związanymi z informatyką.",
+          "poprawna": false,
+          "wyjasnienie": "Drugi krok kaskady to cele organizacji. BSC tylko porządkuje je w wymiary.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BSC w COBIT 5 mierzy wyłącznie wyniki finansowe inwestycji w IT.",
+          "poprawna": false,
+          "wyjasnienie": "Finanse to tylko jeden z czterech wymiarów, obok Klienta, Obszaru wewnętrznego oraz Szkolenia i rozwoju.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "BSC zastępuje relacje P/S między celami organizacji a celami Ładu.",
+          "poprawna": false,
+          "wyjasnienie": "Relacje P/S istnieją niezależnie od wymiaru BSC (il. 5).",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-cele-aktywatorow-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-06"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Który z poniższych elementów jest celem aktywatora w kaskadzie celów COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "cele-aktywatorow",
+      "opcje": [
+        {
+          "tekst": "Każdy numer telefonu OSP w bazie Syreny jest sprawdzany raz w miesiącu.",
+          "poprawna": true,
+          "wyjasnienie": "Konkretny, sprawdzalny cel przypięty do jednego aktywatora (Informacja), w kategorii jakości kontekstowej."
+        },
+        {
+          "tekst": "Informacje potrzebne do podejmowania decyzji są dostępne, wiarygodne i przydatne.",
+          "poprawna": false,
+          "wyjasnienie": "To ogólny rezultat w obszarze informacji, odpowiadający celowi związanemu z informatyką (IT 14), czyli krok 3.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Usługi organizacji są ciągłe i dostępne dla mieszkańców.",
+          "poprawna": false,
+          "wyjasnienie": "To cel organizacji (cel 7), czyli krok 2 kaskady.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Mieszkańcy oczekują, że pomoc dotrze szybko.",
+          "poprawna": false,
+          "wyjasnienie": "To potrzeba interesariusza, od której kaskada się zaczyna.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-cele-oceny-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-01",
+        "PC-02-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Po zmianie modelu z oceny dojrzałości COBIT 4.1 na ocenę zdolności COBIT 5 proces komendy „spadł” z poziomu 2 na 1, choć nic się w nim nie zmieniło. Jak to wyjaśnić?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "cele-oceny",
+      "opcje": [
+        {
+          "tekst": "Model COBIT 5 zwykle daje niższe wyniki, bo już poziom 1 wymaga osiągnięcia celu procesu; wyników obu modeli nie da się prosto porównać.",
+          "poprawna": true,
+          "wyjasnienie": "s. 43: porównanie jest trudne, a w COBIT 5 wyniki są zwykle niższe. W COBIT 4.1 poziom 1–2 dało się osiągnąć bez pełnego osiągnięcia celów procesu."
+        },
+        {
+          "tekst": "Proces się pogorszył i trzeba rozliczyć jego właściciela.",
+          "poprawna": false,
+          "wyjasnienie": "Nic się nie zmieniło poza modelem oceny. Ocena zdolności nie służy też rozliczaniu ludzi.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ocena zdolności COBIT 5 dotyczy kompetencji pracowników, a nie procesów.",
+          "poprawna": false,
+          "wyjasnienie": "Ocenia się procesy, a nie ludzi.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "W COBIT 5 poziomy numeruje się od 1 do 6, więc dawny poziom 2 to nowy poziom 1.",
+          "poprawna": false,
+          "wyjasnienie": "Poziomy zdolności w COBIT 5 to 0–5. Różnica wynika z innego modelu, a nie z przesunięcia numeracji.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-cele-organizacji-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-03",
+        "PR-02-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Który z poniższych jest celem organizacji, a nie celem związanym z informatyką, według COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 19
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "cele-organizacji",
+      "opcje": [
+        {
+          "tekst": "Zgodność działalności z przepisami prawa i regulacjami",
+          "poprawna": true,
+          "wyjasnienie": "Cel organizacji 4 (wymiar Finanse, il. 5). Dotyczy całej działalności."
+        },
+        {
+          "tekst": "Zgodność IT oraz wsparcie IT w zapewnieniu zgodności działalności z przepisami",
+          "poprawna": false,
+          "wyjasnienie": "To cel związany z informatyką (IT 02). Mówi o tym, co musi zapewnić IT.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Bezpieczeństwo informacji, infrastruktury i aplikacji",
+          "poprawna": false,
+          "wyjasnienie": "To cel związany z informatyką (IT 10).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Przejrzystość kosztów, korzyści i ryzyka w obszarze IT",
+          "poprawna": false,
+          "wyjasnienie": "To cel związany z informatyką (IT 06). Odpowiednik organizacyjny to „Przejrzystość finansowa”.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-cele-zwiazane-z-it-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które stwierdzenie o celach związanych z informatyką jest zgodne z COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 19
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "cele-zwiazane-z-it",
+      "opcje": [
+        {
+          "tekst": "To rezultaty w obszarze informacji i technologii potrzebne do celów organizacji; za część z nich odpowiada kadra spoza działu IT.",
+          "poprawna": true,
+          "wyjasnienie": "s. 18 i il. 6: cele dotyczą informacji i powiązanej technologii, np. cel 03 wymaga zaangażowania kadry zarządzającej."
+        },
+        {
+          "tekst": "Wynikają wprost z potrzeb interesariuszy, z pominięciem celów organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "Potrzeby przekłada się najpierw na cele organizacji, a dopiero te na cele związane z informatyką.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Jest ich 37, po jednym na każdy proces.",
+          "poprawna": false,
+          "wyjasnienie": "Celów związanych z informatyką jest 17. Liczba 37 dotyczy procesów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Są ostatnim krokiem kaskady celów.",
+          "poprawna": false,
+          "wyjasnienie": "Ostatnim krokiem są cele aktywatora. Cele związane z informatyką to krok 3.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-cobit-2019-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Na kursie pada zdanie: „System ładu składa się z komponentów, a jego kształt zależy od czynników projektowych”. Jak je ocenić na egzaminie COBIT 5 Foundation?",
+      "zrodlo": [
+        {
+          "doc": "WWW",
+          "url": "https://www.isaca.org/resources/cobit"
+        }
+      ],
+      "status": "uproszczenie",
+      "skrajnosc": true,
+      "atom": "cobit-2019",
+      "opcje": [
+        {
+          "tekst": "To opis COBIT 2019; w COBIT 5 odpowiednikiem komponentów są aktywatory, a czynniki projektowe nie należą do COBIT 5.",
+          "poprawna": true,
+          "wyjasnienie": "Komponenty i czynniki projektowe to pojęcia COBIT 2019. Na egzaminie COBIT 5 takie odpowiedzi są błędne."
+        },
+        {
+          "tekst": "To poprawny opis COBIT 5, tylko innymi słowami.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 mówi o 7 kategoriach aktywatorów i nie używa pojęcia czynników projektowych.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Komponenty to w COBIT 5 inna nazwa 37 procesów.",
+          "poprawna": false,
+          "wyjasnienie": "Procesy to tylko jeden z 7 aktywatorów. „Komponent” to słowo z COBIT 2019.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Czynniki projektowe to w COBIT 5 wyznaczniki, czyli czynniki zewnętrzne i wewnętrzne, które zmieniają potrzeby interesariuszy.",
+          "poprawna": false,
+          "wyjasnienie": "Wyznaczniki istnieją w COBIT 5, ale to inne pojęcie niż czynniki projektowe z COBIT 2019.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-cobit-5-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które stwierdzenie o modelu referencyjnym procesu COBIT 5 jest prawdziwe?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 32
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "cobit-5",
+      "opcje": [
+        {
+          "tekst": "Jest kompletny, ale nie normatywny: organizacja może zdefiniować własny zbiór procesów, jeśli obejmuje on konieczne cele Ładu i Zarządzania.",
+          "poprawna": true,
+          "wyjasnienie": "s. 32: model nie jest jedynym możliwym, a w mniejszych organizacjach liczba procesów może być niższa."
+        },
+        {
+          "tekst": "Każda organizacja musi wdrożyć wszystkie 37 procesów, żeby stosować COBIT 5.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie ma charakteru normatywnego (s. 32).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Model obejmuje 40 celów Ładu i Zarządzania.",
+          "poprawna": false,
+          "wyjasnienie": "40 celów to COBIT 2019. COBIT 5 ma 37 procesów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Model zastępuje ITIL i ISO/IEC 27001, więc nie należy ich stosować razem z COBIT 5.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 jest integratorem (Zasada 3) i współgra z innymi standardami.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-cykl-informacji-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-18"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Który opis odpowiada cyklowi informacji z Rysunku 35 COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 81
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "cykl-informacji",
+      "opcje": [
+        {
+          "tekst": "Procesy biznesowe generują dane, które przekształca się w informacje i wiedzę, a na końcu powstaje wartość.",
+          "poprawna": true,
+          "wyjasnienie": "s. 81, il. 35: dane → informacje → wiedza → wartość, a wyznacznikiem są procesy biznesowe."
+        },
+        {
+          "tekst": "Informacje się planuje, projektuje, nabywa, użytkuje, monitoruje i na końcu się ich pozbywa.",
+          "poprawna": false,
+          "wyjasnienie": "To cykl życia aktywatora Informacja (s. 82), a nie łańcuch z ilustracji 35.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Procesy IT przekształcają wiedzę w dane, a dane w informacje.",
+          "poprawna": false,
+          "wyjasnienie": "Kolejność jest odwrócona, a wyznacznikiem są procesy biznesowe, nie procesy IT.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Informacja przechodzi przez warstwy: fizyczną, empiryczną, syntaktyczną, semantyczną, pragmatyczną i społeczną.",
+          "poprawna": false,
+          "wyjasnienie": "To warstwy atrybutów informacji (dobre praktyki), a nie cykl informacji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-cykl-wdrozenia-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-01-01",
+        "IM-02-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Komenda chce wdrożyć COBIT 5 jako jeden program na 24 miesiące, bez etapów pośrednich. Co mówi o tym COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "cykl-wdrozenia",
+      "opcje": [
+        {
+          "tekst": "Duże inicjatywy powinny przechodzić przez wiele iteracji cyklu, bo realizacja trwająca ponad sześć miesięcy grozi utratą dynamiki i akceptacji.",
+          "poprawna": true,
+          "wyjasnienie": "s. 38: przy inicjatywach dłuższych niż sześć miesięcy istnieje ryzyko utraty dynamiki, koncentracji i akceptacji interesariuszy."
+        },
+        {
+          "tekst": "Plan jest dobry, bo wdrożenie COBIT 5 to jednorazowy projekt zamykany odbiorem.",
+          "poprawna": false,
+          "wyjasnienie": "Cykl ciągłego doskonalenia „nie jest projektem jednorazowym” (s. 37).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Długość nie ma znaczenia, liczy się tylko pierścień zarządzania programem.",
+          "poprawna": false,
+          "wyjasnienie": "Liczą się wszystkie trzy pierścienie, a długość jednej iteracji ma znaczenie (s. 38).",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Najpierw trzeba przejść 6 faz cyklu życia aktywatora, a dopiero potem 7 faz wdrożenia.",
+          "poprawna": false,
+          "wyjasnienie": "Cykl życia aktywatora dotyczy pojedynczego aktywatora i nie jest etapem wstępnym wdrożenia.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-cykl-zycia-aktywatora-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-12"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Komenda raz w roku przegląda politykę powiadamiania. Ewa Lis chce zmierzyć, czy komenda dba o cykl życia tej polityki. Jaki to rodzaj wskaźnika?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "cykl-zycia-aktywatora",
+      "opcje": [
+        {
+          "tekst": "Wskaźnik wiodący, bo dotyczy zarządzania cyklem życia samego aktywatora",
+          "poprawna": true,
+          "wyjasnienie": "s. 29: pytania o cykl życia i dobre praktyki mierzy się wskaźnikami wiodącymi (wyprzedzającymi)."
+        },
+        {
+          "tekst": "Wskaźnik opóźniony, bo coroczny przegląd ocenia skutki działania polityki w komendzie",
+          "poprawna": false,
+          "wyjasnienie": "Opóźnione mierzą osiągnięcie celów i uwzględnienie potrzeb interesariuszy. Dbałość o cykl życia mierzy wskaźnik wiodący.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Wskaźnik celu procesu z Załącznika C, bo polityka jest procesem",
+          "poprawna": false,
+          "wyjasnienie": "Polityka należy do innej kategorii aktywatorów (Zasady, polityki i struktury ramowe), a nie do Procesów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Żaden, bo cyklu życia aktywatora się nie mierzy",
+          "poprawna": false,
+          "wyjasnienie": "„Czy zadbano o zarządzanie cyklem życia?” to jedno z pytań zarządzania wydajnością aktywatora, mierzone wskaźnikami.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-czynniki-srodowiskowe-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Te same „przepisy” mogą występować w dwóch rolach. Które zdanie trafnie je klasyfikuje według COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 35
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "czynniki-srodowiskowe",
+      "opcje": [
+        {
+          "tekst": "Obowiązujące przepisy, które plan wdrożenia musi uwzględnić, to czynnik środowiskowy, a nowe wymagania regulacyjne, które skłaniają do działania, to zdarzenie wyzwalające.",
+          "poprawna": true,
+          "wyjasnienie": "s. 35 wymienia obowiązujące przepisy jako czynnik środowiskowy, a s. 37 nowe wymagania regulacyjne jako zdarzenie wyzwalające."
+        },
+        {
+          "tekst": "W obu rolach to punkty zapalne, bo dotyczą prawa.",
+          "poprawna": false,
+          "wyjasnienie": "Punkty zapalne to bolesne objawy, np. ukryte wydatki na IT. Przepisy do nich nie należą.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "W obu rolach to czynniki środowiskowe, bo COBIT 5 nie odróżnia przepisów obowiązujących od nowych.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 wymienia nowe wymagania regulacyjne osobno, jako zdarzenie wyzwalające (s. 37).",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Obowiązujące przepisy to zdarzenie wyzwalające, a nowe wymagania to czynnik środowiskowy.",
+          "poprawna": false,
+          "wyjasnienie": "Pojęcia zamieniono: stan obowiązujący to kontekst, a nowa zmiana to impuls do działania.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-dobre-praktyki-struktur-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Rada ds. Informatyki ustaliła, że podejmuje decyzje wyłącznie w sprawach systemów łączności i informatyki komendy, a nie np. zakupu samochodów. Którą dobrą praktykę struktur organizacyjnych opisuje to ustalenie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "dobre-praktyki-struktur",
+      "opcje": [
+        {
+          "tekst": "Zakres kontroli, czyli granice obszaru, którego dotyczą decyzje Rady",
+          "poprawna": true,
+          "wyjasnienie": "s. 75: zakres kontroli to granice uprawnień decyzyjnych struktury."
+        },
+        {
+          "tekst": "Poziom uprawnień, czyli rodzaj decyzji, które Rada może podejmować samodzielnie",
+          "poprawna": false,
+          "wyjasnienie": "Poziom uprawnień mówi, JAKIE decyzje wolno podjąć (np. zakupy do określonej kwoty), a nie GDZIE sięga władza.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Delegowanie uprawnień do struktur podległych Radzie",
+          "poprawna": false,
+          "wyjasnienie": "Delegowanie to przekazanie uprawnień w dół. Tu chodzi o granice władzy samej Rady.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zasady operacyjne, czyli sposób działania i zebrań Rady",
+          "poprawna": false,
+          "wyjasnienie": "Zasady operacyjne dotyczą m.in. częstotliwości zebrań i dokumentacji, a nie granic decyzji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-dobre-praktyki-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-12"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Komenda wprowadziła do procesu powiadamiania wszystkie dobre praktyki z przewodnika *Procesy umożliwiające*. Co można na tej podstawie stwierdzić?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "dobre-praktyki",
+      "opcje": [
+        {
+          "tekst": "Że wskaźniki wiodące są dobre, ale osiągnięcie celów trzeba jeszcze sprawdzić wskaźnikami opóźnionymi.",
+          "poprawna": true,
+          "wyjasnienie": "s. 29: stosowanie dobrych praktyk to funkcjonowanie aktywatora (wskaźniki wiodące), a osiągnięcie celów mierzą wskaźniki opóźnione."
+        },
+        {
+          "tekst": "Że cele aktywatora zostały osiągnięte.",
+          "poprawna": false,
+          "wyjasnienie": "Dobre praktyki ułatwiają osiągnięcie celów, ale go nie dowodzą.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Że wskaźniki opóźnione są dobre, bo mierzą one stosowanie praktyk.",
+          "poprawna": false,
+          "wyjasnienie": "Rodzaje wskaźników zamieniono: stosowanie praktyk mierzą wskaźniki wiodące.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Że potrzeby interesariuszy zostały już uwzględnione, bo dobre praktyki są jednym z wymiarów aktywatora.",
+          "poprawna": false,
+          "wyjasnienie": "Uwzględnienie potrzeb interesariuszy to osobne pytanie, mierzone wskaźnikiem opóźnionym.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-dostep-i-bezpieczenstwo-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-12",
+        "EN-02-08"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Dyżurna Nowik ma uprawnienia do Syreny, ale w nocy system odmawia jej dostępu do bazy OSP. Która kategoria celów aktywatora **NIE** została spełniona?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "dostep-i-bezpieczenstwo",
+      "opcje": [
+        {
+          "tekst": "Dostęp i bezpieczeństwo, bo uprawniona osoba nie ma dostępu w razie potrzeby",
+          "poprawna": true,
+          "wyjasnienie": "s. 29: ta kategoria obejmuje dostępność w razie potrzeby i zabezpieczenie przed nieuprawnionymi."
+        },
+        {
+          "tekst": "Jakość wewnętrzna, bo dane nie są dokładne i obiektywne",
+          "poprawna": false,
+          "wyjasnienie": "Problem nie dotyczy prawdziwości danych, tylko braku dostępu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Jakość kontekstowa, bo dane nie są aktualne",
+          "poprawna": false,
+          "wyjasnienie": "Aktualność to jakość kontekstowa, ale tu dane mogą być aktualne; zawiódł dostęp.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Żadna, bo ta kategoria dotyczy wyłącznie ochrony aktywatora przed osobami nieuprawnionymi",
+          "poprawna": false,
+          "wyjasnienie": "To tylko połowa kategorii. Druga połowa to dostępność dla uprawnionych w razie potrzeby.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-dss-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-04",
+        "EN-02-23"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Syrena po raz trzeci w miesiącu gubi SMS-y. Ola Dudek za każdym razem szybko przywraca działanie, ale komendantka chce, żeby wreszcie ktoś ustalił przyczynę. Który proces COBIT 5 powinien się tym zająć?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "dss",
+      "opcje": [
+        {
+          "tekst": "DSS03 – Zarządzanie problemami",
+          "poprawna": true,
+          "wyjasnienie": "Szukanie i usuwanie przyczyny powtarzających się incydentów to zarządzanie problemami."
+        },
+        {
+          "tekst": "DSS02 – Zarządzanie zgłoszeniami serwisowymi i incydentami",
+          "poprawna": false,
+          "wyjasnienie": "DSS02 przywraca działanie usługi, co Ola już robi. Nie szuka przyczyny źródłowej.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "DSS04 – Zarządzanie ciągłością",
+          "poprawna": false,
+          "wyjasnienie": "DSS04 przygotowuje organizację na poważne awarie i katastrofy, a nie szuka przyczyn powtarzających się usterek.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "BAI06 – Zarządzanie zmianami",
+          "poprawna": false,
+          "wyjasnienie": "BAI06 przyda się później, gdy znana przyczyna będzie wymagała zmiany w systemie. Samą przyczynę ustala DSS03.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-edm-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-01-03",
+        "PR-02-14"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Komendantka Wrzos co kwartał sprawdza, w jakim stopniu wytyczony przez nią kierunek dla Syreny wcielono w życie. Jak COBIT 5 klasyfikuje to działanie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 32
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "edm",
+      "opcje": [
+        {
+          "tekst": "To praktyka „Monitoruj” w procesie Ładu z domeny EDM",
+          "poprawna": true,
+          "wyjasnienie": "s. 32: w każdym procesie EDM są praktyki oceny, kierowania i monitorowania; monitorowanie w Ładzie to sprawdzanie, czy kierunek wcielono w życie."
+        },
+        {
+          "tekst": "To proces MEA01, bo każde monitorowanie należy do domeny MEA",
+          "poprawna": false,
+          "wyjasnienie": "MEA to domena Zarządzania. Monitorowanie realizacji kierunku przez organ Ładu należy do EDM.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "To osobny proces „Monitoruj”, jeden z trzech procesów domeny EDM",
+          "poprawna": false,
+          "wyjasnienie": "EDM ma 5 procesów, a Oszacuj, Kieruj i Monitoruj to praktyki w każdym z nich.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "To zadanie Zarządzania w PBRM, bo dotyczy kierunku dla IT",
+          "poprawna": false,
+          "wyjasnienie": "Wyznaczanie kierunku i sprawdzanie jego realizacji to Ład, a nie Zarządzanie.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-fazy-wdrozenia-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-06",
+        "IM-02-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Ewa Lis ocenia aktualny stan procesu powiadamiania i szacuje jego zdolność, żeby wskazać problemy. W której fazie cyklu życia wdrożenia to następuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "fazy-wdrozenia",
+      "opcje": [
+        {
+          "tekst": "W fazie 2, odpowiadającej na pytanie „Gdzie jesteśmy teraz?”",
+          "poprawna": true,
+          "wyjasnienie": "s. 38: w fazie 2 przeprowadza się ocenę aktualnego stanu oraz szacowanie potencjału procesu."
+        },
+        {
+          "tekst": "W fazie 6, odpowiadającej na pytanie „Czy dotarliśmy do celu?”",
+          "poprawna": false,
+          "wyjasnienie": "W fazie 6 monitoruje się uzyskanie korzyści i zrównoważone wykorzystanie zmian.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "W fazie 3, odpowiadającej na pytanie „Dokąd chcemy dojść?”",
+          "poprawna": false,
+          "wyjasnienie": "W fazie 3 określa się cel i analizuje luki, korzystając z wyniku oceny z fazy 2.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "W fazie 1, odpowiadającej na pytanie „Jakie są wyznaczniki?”",
+          "poprawna": false,
+          "wyjasnienie": "W fazie 1 uznaje się potrzebę zmiany i identyfikuje punkty zapalne oraz czynniki inicjujące.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-skr-informacja-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-17",
+        "EN-02-18",
+        "EN-02-19"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Dyżurny Grab rano wpisuje do Syreny raport z nocnego alarmu, a po południu czyta raporty innych zmian. Jak COBIT 5 opisuje jego role wobec informacji?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 82
+        }
+      ],
+      "status": "oficjalne",
+      "skrajnosc": true,
+      "atom": "informacja",
+      "opcje": [
+        {
+          "tekst": "Raz jest wytwórcą, a raz konsumentem, bo rola zależy od fazy cyklu życia informacji",
+          "poprawna": true,
+          "wyjasnienie": "s. 82: role interesariuszy informacji zależą od fazy cyklu życia; wytwórca tworzy, opiekun przechowuje, konsument korzysta."
+        },
+        {
+          "tekst": "Zawsze jest konsumentem, bo jest użytkownikiem systemu",
+          "poprawna": false,
+          "wyjasnienie": "Wpisując raport, Grab tworzy informację, więc jest wytwórcą.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Jest opiekunem, bo jego raporty zostają w systemie",
+          "poprawna": false,
+          "wyjasnienie": "Opiekun przechowuje i utrzymuje informację. Grab ją tworzy i z niej korzysta.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nie pełni żadnej roli wobec informacji, bo takie role mają wyłącznie pracownicy działu IT",
+          "poprawna": false,
+          "wyjasnienie": "Role wytwórcy, opiekuna i konsumenta dotyczą wszystkich interesariuszy informacji.",
+          "pulapka": "falsz"
+        }
+      ]
+    }
+  ]
+}

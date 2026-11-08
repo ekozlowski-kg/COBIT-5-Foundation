@@ -1,0 +1,1516 @@
+{
+  "opis": "Taksonomia COBIT 5 dla widoku Mapa i pytań „Gdzie to leży?”. Nazwy w terminologii egzaminu PL.",
+  "wezly": [
+    {
+      "id": "zasady",
+      "nazwa": "Pięć zasad COBIT 5",
+      "en": "Five Principles",
+      "rodzic": null,
+      "obszar": "PR",
+      "opis": "Fundament COBIT 5 (Ilustracja 2)."
+    },
+    {
+      "id": "zasada-1",
+      "nazwa": "Zasada 1: Realizacja potrzeb interesariusza",
+      "en": "Meeting Stakeholder Needs",
+      "rodzic": "zasady",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "zasada-2",
+      "nazwa": "Zasada 2: Pokrycie całej organizacji",
+      "en": "Covering the Enterprise End-to-End",
+      "rodzic": "zasady",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "zasada-3",
+      "nazwa": "Zasada 3: Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej",
+      "en": "Applying a Single Integrated Framework",
+      "rodzic": "zasady",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "zasada-4",
+      "nazwa": "Zasada 4: Aktywacja holistycznego podejścia",
+      "en": "Enabling a Holistic Approach",
+      "rodzic": "zasady",
+      "obszar": "PR",
+      "kolejnosc": 4
+    },
+    {
+      "id": "zasada-5",
+      "nazwa": "Zasada 5: Oddzielenie Ładu od Zarządzania",
+      "en": "Separating Governance From Management",
+      "rodzic": "zasady",
+      "obszar": "PR",
+      "kolejnosc": 5
+    },
+    {
+      "id": "cel-ladu",
+      "nazwa": "Cel Ładu: Tworzenie Wartości",
+      "en": "Governance Objective: Value Creation",
+      "rodzic": null,
+      "obszar": "PR",
+      "opis": "Korzyści przy optymalnym ryzyku i zasobach (Ilustracja 3)."
+    },
+    {
+      "id": "realizacja-korzysci",
+      "nazwa": "Realizacja korzyści",
+      "en": "Benefits Realisation",
+      "rodzic": "cel-ladu",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "optymalizacja-ryzyka",
+      "nazwa": "Optymalizacja ryzyka",
+      "en": "Risk Optimisation",
+      "rodzic": "cel-ladu",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "optymalizacja-zasobow",
+      "nazwa": "Optymalizacja zasobów",
+      "en": "Resource Optimisation",
+      "rodzic": "cel-ladu",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "kaskada",
+      "nazwa": "Kaskada Celów",
+      "en": "Goals Cascade",
+      "rodzic": null,
+      "obszar": "PR",
+      "opis": "Przełożenie potrzeb interesariuszy na cele (Ilustracja 4)."
+    },
+    {
+      "id": "wyznaczniki",
+      "nazwa": "Wyznaczniki (czynniki wpływające na potrzeby)",
+      "en": "Stakeholder Drivers",
+      "rodzic": "kaskada",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "potrzeby-interesariuszy",
+      "nazwa": "Potrzeby interesariuszy",
+      "en": "Stakeholder Needs",
+      "rodzic": "kaskada",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "cele-organizacji",
+      "nazwa": "Cele organizacji (17, BSC)",
+      "en": "Enterprise Goals",
+      "rodzic": "kaskada",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "cele-zwiazane-z-it",
+      "nazwa": "Cele związane z informatyką (17, IT BSC)",
+      "en": "IT-related Goals",
+      "rodzic": "kaskada",
+      "obszar": "PR",
+      "kolejnosc": 4
+    },
+    {
+      "id": "cele-aktywatora-kaskada",
+      "nazwa": "Cele aktywatora",
+      "en": "Enabler Goals",
+      "rodzic": "kaskada",
+      "obszar": "PR",
+      "kolejnosc": 5
+    },
+    {
+      "id": "bsc",
+      "nazwa": "Zrównoważona karta wyników (BSC)",
+      "en": "Balanced Scorecard",
+      "rodzic": "cele-organizacji",
+      "obszar": "PR",
+      "opis": "Finanse, Klient, Obszar wewnętrzny, Szkolenie i rozwój."
+    },
+    {
+      "id": "podejscie-do-ladu",
+      "nazwa": "Podejście do Ładu – komponenty",
+      "en": "Governance Approach",
+      "rodzic": null,
+      "obszar": "PR",
+      "opis": "Ilustracja 8: cel, aktywatory, zakres, role."
+    },
+    {
+      "id": "komponent-cel-ladu",
+      "nazwa": "Cel Ładu",
+      "en": "Governance objective",
+      "rodzic": "podejscie-do-ladu",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "aktywatory-ladu",
+      "nazwa": "Aktywatory Ładu",
+      "en": "Governance enablers",
+      "rodzic": "podejscie-do-ladu",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "zakres-ladu",
+      "nazwa": "Zakres Ładu",
+      "en": "Governance scope",
+      "rodzic": "podejscie-do-ladu",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "role-dzialania-relacje",
+      "nazwa": "Role, działania i relacje",
+      "en": "Roles, activities and relationships",
+      "rodzic": "podejscie-do-ladu",
+      "obszar": "PR",
+      "kolejnosc": 4
+    },
+    {
+      "id": "rola-interesariusze",
+      "nazwa": "Interesariusze – delegują",
+      "en": "Owners and stakeholders",
+      "rodzic": "role-dzialania-relacje",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "rola-organ-ladu",
+      "nazwa": "Organ Ładu i nadzoru – wyznacza kierunek",
+      "en": "Governing body",
+      "rodzic": "role-dzialania-relacje",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "rola-kierownictwo",
+      "nazwa": "Kierownictwo – instruuje i dopasowuje, monitoruje",
+      "en": "Management",
+      "rodzic": "role-dzialania-relacje",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "rola-operacyjne",
+      "nazwa": "Role operacyjne – wykonują i raportują",
+      "en": "Operations and execution",
+      "rodzic": "role-dzialania-relacje",
+      "obszar": "PR",
+      "kolejnosc": 4
+    },
+    {
+      "id": "integracja",
+      "nazwa": "Zintegrowana struktura ramowa",
+      "en": "Single Integrated Framework",
+      "rodzic": null,
+      "obszar": "PR",
+      "opis": "Baza wiedzy i rodzina produktów COBIT 5 (Ilustracje 10–11)."
+    },
+    {
+      "id": "baza-wiedzy",
+      "nazwa": "Baza wiedzy COBIT 5",
+      "en": "COBIT 5 knowledge base",
+      "rodzic": "integracja",
+      "obszar": "PR"
+    },
+    {
+      "id": "rodzina-produktow",
+      "nazwa": "Rodzina produktów COBIT 5",
+      "en": "COBIT 5 product family",
+      "rodzic": "integracja",
+      "obszar": "PR"
+    },
+    {
+      "id": "wytyczne-isaca",
+      "nazwa": "Istniejące wytyczne ISACA (COBIT 4.1, Val IT 2.0, Risk IT, BMIS, ITAF i in.)",
+      "en": "Existing ISACA guidance",
+      "rodzic": "integracja",
+      "obszar": "PR"
+    },
+    {
+      "id": "model-aktywatora",
+      "nazwa": "Ogólny model aktywatora",
+      "en": "Generic Enabler Model",
+      "rodzic": null,
+      "obszar": "PR",
+      "opis": "Ilustracja 13: wymiary i zarządzanie wydajnością."
+    },
+    {
+      "id": "wymiary-aktywatora",
+      "nazwa": "Wymiary aktywatora",
+      "en": "Enabler dimensions",
+      "rodzic": "model-aktywatora",
+      "obszar": "PR"
+    },
+    {
+      "id": "wymiar-interesariusze",
+      "nazwa": "Interesariusze",
+      "en": "Stakeholders",
+      "rodzic": "wymiary-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "wymiar-cele",
+      "nazwa": "Cele",
+      "en": "Goals",
+      "rodzic": "wymiary-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "wymiar-cykl-zycia",
+      "nazwa": "Cykl życia",
+      "en": "Life cycle",
+      "rodzic": "wymiary-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "wymiar-dobre-praktyki",
+      "nazwa": "Dobre praktyki",
+      "en": "Good practices",
+      "rodzic": "wymiary-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 4
+    },
+    {
+      "id": "cele-aktywatora",
+      "nazwa": "Kategorie celów aktywatora",
+      "en": "Enabler goal categories",
+      "rodzic": "model-aktywatora",
+      "obszar": "PR"
+    },
+    {
+      "id": "jakosc-wewnetrzna",
+      "nazwa": "Jakość wewnętrzna",
+      "en": "Intrinsic quality",
+      "rodzic": "cele-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "jakosc-kontekstowa",
+      "nazwa": "Jakość kontekstowa",
+      "en": "Contextual quality",
+      "rodzic": "cele-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "dostep-i-bezpieczenstwo",
+      "nazwa": "Dostęp i Bezpieczeństwo",
+      "en": "Accessibility and security",
+      "rodzic": "cele-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "cykl-zycia-aktywatora",
+      "nazwa": "Fazy cyklu życia aktywatora",
+      "en": "Enabler life-cycle phases",
+      "rodzic": "model-aktywatora",
+      "obszar": "PR"
+    },
+    {
+      "id": "cykl-faza-1",
+      "nazwa": "Planowanie",
+      "en": "Plan",
+      "rodzic": "cykl-zycia-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "cykl-faza-2",
+      "nazwa": "Projektowanie",
+      "en": "Design",
+      "rodzic": "cykl-zycia-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "cykl-faza-3",
+      "nazwa": "Budowanie / nabywanie / tworzenie / wdrażanie",
+      "en": "Build/acquire/create/implement",
+      "rodzic": "cykl-zycia-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "cykl-faza-4",
+      "nazwa": "Użytkowanie / eksploatacja",
+      "en": "Use/operate",
+      "rodzic": "cykl-zycia-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 4
+    },
+    {
+      "id": "cykl-faza-5",
+      "nazwa": "Ocena / monitorowanie",
+      "en": "Evaluate/monitor",
+      "rodzic": "cykl-zycia-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 5
+    },
+    {
+      "id": "cykl-faza-6",
+      "nazwa": "Aktualizacja / pozbywanie się",
+      "en": "Update/dispose",
+      "rodzic": "cykl-zycia-aktywatora",
+      "obszar": "PR",
+      "kolejnosc": 6
+    },
+    {
+      "id": "wydajnosc-aktywatora",
+      "nazwa": "Zarządzanie wydajnością aktywatora",
+      "en": "Enabler performance management",
+      "rodzic": "model-aktywatora",
+      "obszar": "PR",
+      "opis": "Cztery pytania i dwa typy wskaźników."
+    },
+    {
+      "id": "wskazniki",
+      "nazwa": "Wskaźniki",
+      "en": "Indicators",
+      "rodzic": "wydajnosc-aktywatora",
+      "obszar": "PR"
+    },
+    {
+      "id": "wskaznik-opozniony",
+      "nazwa": "Wskaźnik opóźniony",
+      "en": "Lag indicator",
+      "rodzic": "wskazniki",
+      "obszar": "PR",
+      "opis": "Czy potrzeby uwzględnione? Czy cele osiągnięte?"
+    },
+    {
+      "id": "wskaznik-wiodacy",
+      "nazwa": "Wskaźnik wiodący",
+      "en": "Lead indicator",
+      "rodzic": "wskazniki",
+      "obszar": "PR",
+      "opis": "Czy cykl życia zarządzany? Czy dobre praktyki stosowane?"
+    },
+    {
+      "id": "lad-i-zarzadzanie",
+      "nazwa": "Ład i Zarządzanie",
+      "en": "Governance and Management",
+      "rodzic": null,
+      "obszar": "PR",
+      "opis": "Zasada 5 i model referencyjny procesów (Ilustracje 14–16)."
+    },
+    {
+      "id": "lad",
+      "nazwa": "Ład – Oszacuj, Kieruj, Monitoruj",
+      "en": "Governance – EDM",
+      "rodzic": "lad-i-zarzadzanie",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "zarzadzanie",
+      "nazwa": "Zarządzanie – Planuj, Twórz, Wykonuj, Monitoruj",
+      "en": "Management – PBRM",
+      "rodzic": "lad-i-zarzadzanie",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "prm",
+      "nazwa": "Referencyjny Model Procesu (37 procesów)",
+      "en": "Process Reference Model",
+      "rodzic": "lad-i-zarzadzanie",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "domena-edm",
+      "nazwa": "EDM – Oszacuj, Kieruj i Monitoruj (5)",
+      "en": "Evaluate, Direct and Monitor",
+      "rodzic": "prm",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "domena-apo",
+      "nazwa": "APO – Dostosuj, Planuj i Organizuj (13)",
+      "en": "Align, Plan and Organise",
+      "rodzic": "prm",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "domena-bai",
+      "nazwa": "BAI – Twórz, Nabywaj i Wdrażaj (10)",
+      "en": "Build, Acquire and Implement",
+      "rodzic": "prm",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "domena-dss",
+      "nazwa": "DSS – Dostarczaj, Obsługuj i Wspieraj (6)",
+      "en": "Deliver, Service and Support",
+      "rodzic": "prm",
+      "obszar": "PR",
+      "kolejnosc": 4
+    },
+    {
+      "id": "domena-mea",
+      "nazwa": "MEA – Monitoruj, Oszacuj i Oceń (3)",
+      "en": "Monitor, Evaluate and Assess",
+      "rodzic": "prm",
+      "obszar": "PR",
+      "kolejnosc": 5
+    },
+    {
+      "id": "aktywatory",
+      "nazwa": "Siedem aktywatorów",
+      "en": "Seven Enablers",
+      "rodzic": null,
+      "obszar": "EN",
+      "opis": "Ilustracja 12."
+    },
+    {
+      "id": "akt-zasady-polityki",
+      "nazwa": "1. Zasady, Polityki i Struktury ramowe",
+      "en": "Principles, Policies and Frameworks",
+      "rodzic": "aktywatory",
+      "obszar": "EN",
+      "kolejnosc": 1
+    },
+    {
+      "id": "akt-procesy",
+      "nazwa": "2. Procesy",
+      "en": "Processes",
+      "rodzic": "aktywatory",
+      "obszar": "EN",
+      "kolejnosc": 2
+    },
+    {
+      "id": "akt-struktury",
+      "nazwa": "3. Struktury organizacyjne",
+      "en": "Organisational Structures",
+      "rodzic": "aktywatory",
+      "obszar": "EN",
+      "kolejnosc": 3
+    },
+    {
+      "id": "akt-kultura",
+      "nazwa": "4. Kultura, Etyka i Zachowanie",
+      "en": "Culture, Ethics and Behaviour",
+      "rodzic": "aktywatory",
+      "obszar": "EN",
+      "kolejnosc": 4
+    },
+    {
+      "id": "akt-informacja",
+      "nazwa": "5. Informacja",
+      "en": "Information",
+      "rodzic": "aktywatory",
+      "obszar": "EN",
+      "kolejnosc": 5
+    },
+    {
+      "id": "akt-uslugi",
+      "nazwa": "6. Usługi, Infrastruktura i Aplikacje",
+      "en": "Services, Infrastructure and Applications",
+      "rodzic": "aktywatory",
+      "obszar": "EN",
+      "kolejnosc": 6
+    },
+    {
+      "id": "akt-ludzie",
+      "nazwa": "7. Ludzie, Umiejętności i Kompetencje",
+      "en": "People, Skills and Competencies",
+      "rodzic": "aktywatory",
+      "obszar": "EN",
+      "kolejnosc": 7
+    },
+    {
+      "id": "zasady-vs-polityki",
+      "nazwa": "Zasady a polityki",
+      "en": "Principles vs policies",
+      "rodzic": "akt-zasady-polityki",
+      "obszar": "EN"
+    },
+    {
+      "id": "cechy-dobrej-polityki",
+      "nazwa": "Cechy dobrej polityki (skuteczna, wydajna, nieinwazyjna)",
+      "en": "Good policy characteristics",
+      "rodzic": "akt-zasady-polityki",
+      "obszar": "EN"
+    },
+    {
+      "id": "struktura-ramowa-polityki",
+      "nazwa": "Struktura ramowa polityki (zakres, zgodność, wyjątki, monitorowanie)",
+      "en": "Policy framework good practice",
+      "rodzic": "akt-zasady-polityki",
+      "obszar": "EN"
+    },
+    {
+      "id": "cykl-zycia-polityki",
+      "nazwa": "Cykl życia polityki",
+      "en": "Policy life cycle",
+      "rodzic": "akt-zasady-polityki",
+      "obszar": "EN"
+    },
+    {
+      "id": "kategorie-celow-procesu",
+      "nazwa": "Kategorie celów procesu",
+      "en": "Process goal categories",
+      "rodzic": "akt-procesy",
+      "obszar": "EN"
+    },
+    {
+      "id": "cel-wewnetrzny-procesu",
+      "nazwa": "Cele wewnętrzne",
+      "en": "Intrinsic goals",
+      "rodzic": "kategorie-celow-procesu",
+      "obszar": "EN",
+      "kolejnosc": 1
+    },
+    {
+      "id": "cel-kontekstowy-procesu",
+      "nazwa": "Cele kontekstowe",
+      "en": "Contextual goals",
+      "rodzic": "kategorie-celow-procesu",
+      "obszar": "EN",
+      "kolejnosc": 2
+    },
+    {
+      "id": "cel-dostepnosci-procesu",
+      "nazwa": "Cele dostępności i bezpieczeństwa",
+      "en": "Accessibility and security goals",
+      "rodzic": "kategorie-celow-procesu",
+      "obszar": "EN",
+      "kolejnosc": 3
+    },
+    {
+      "id": "elementy-procesu",
+      "nazwa": "Elementy modelu procesu",
+      "en": "Process model elements",
+      "rodzic": "akt-procesy",
+      "obszar": "EN"
+    },
+    {
+      "id": "praktyka-procesu",
+      "nazwa": "Praktyki (nadzoru / zarządzania)",
+      "en": "Governance / management practices",
+      "rodzic": "elementy-procesu",
+      "obszar": "EN",
+      "kolejnosc": 1
+    },
+    {
+      "id": "dzialanie-procesu",
+      "nazwa": "Działania",
+      "en": "Activities",
+      "rodzic": "elementy-procesu",
+      "obszar": "EN",
+      "kolejnosc": 2
+    },
+    {
+      "id": "wejscia-wyjscia",
+      "nazwa": "Wejścia i wyjścia (produkty działań)",
+      "en": "Inputs and outputs",
+      "rodzic": "elementy-procesu",
+      "obszar": "EN",
+      "kolejnosc": 3
+    },
+    {
+      "id": "opis-procesu",
+      "nazwa": "Opis procesu w Procesach umożliwiających",
+      "en": "Process description (Enabling Processes)",
+      "rodzic": "akt-procesy",
+      "obszar": "EN"
+    },
+    {
+      "id": "raci",
+      "nazwa": "Tabela RACI",
+      "en": "RACI chart",
+      "rodzic": "akt-procesy",
+      "obszar": "EN"
+    },
+    {
+      "id": "raci-r",
+      "nazwa": "R – Odpowiedzialny wykonawczo",
+      "en": "Responsible",
+      "rodzic": "raci",
+      "obszar": "EN",
+      "kolejnosc": 1
+    },
+    {
+      "id": "raci-a",
+      "nazwa": "A – Rozliczany",
+      "en": "Accountable",
+      "rodzic": "raci",
+      "obszar": "EN",
+      "kolejnosc": 2
+    },
+    {
+      "id": "raci-c",
+      "nazwa": "C – Konsultowany",
+      "en": "Consulted",
+      "rodzic": "raci",
+      "obszar": "EN",
+      "kolejnosc": 3
+    },
+    {
+      "id": "raci-i",
+      "nazwa": "I – Informowany",
+      "en": "Informed",
+      "rodzic": "raci",
+      "obszar": "EN",
+      "kolejnosc": 4
+    },
+    {
+      "id": "dobre-praktyki-struktur",
+      "nazwa": "Dobre praktyki struktur organizacyjnych",
+      "en": "Organisational structure good practices",
+      "rodzic": "akt-struktury",
+      "obszar": "EN"
+    },
+    {
+      "id": "zasady-operacyjne",
+      "nazwa": "Zasady operacyjne",
+      "en": "Operating principles",
+      "rodzic": "dobre-praktyki-struktur",
+      "obszar": "EN",
+      "kolejnosc": 1
+    },
+    {
+      "id": "zakres-kontroli",
+      "nazwa": "Zakres kontroli",
+      "en": "Span of control",
+      "rodzic": "dobre-praktyki-struktur",
+      "obszar": "EN",
+      "kolejnosc": 2
+    },
+    {
+      "id": "poziom-uprawnien",
+      "nazwa": "Poziom uprawnień",
+      "en": "Level of authority / decision rights",
+      "rodzic": "dobre-praktyki-struktur",
+      "obszar": "EN",
+      "kolejnosc": 3
+    },
+    {
+      "id": "delegowanie-uprawnien",
+      "nazwa": "Delegowanie uprawnień",
+      "en": "Delegation of authority",
+      "rodzic": "dobre-praktyki-struktur",
+      "obszar": "EN",
+      "kolejnosc": 4
+    },
+    {
+      "id": "procedury-eskalacji",
+      "nazwa": "Procedury eskalacji",
+      "en": "Escalation procedures",
+      "rodzic": "dobre-praktyki-struktur",
+      "obszar": "EN",
+      "kolejnosc": 5
+    },
+    {
+      "id": "role-organizacyjne",
+      "nazwa": "Role i struktury (CEO, CIO, CISO, komitety…)",
+      "en": "Roles and structures",
+      "rodzic": "akt-struktury",
+      "obszar": "EN"
+    },
+    {
+      "id": "poziomy-etyki",
+      "nazwa": "Etyka organizacyjna, etyka indywidualna, zachowania",
+      "en": "Organisational ethics, individual ethics, behaviours",
+      "rodzic": "akt-kultura",
+      "obszar": "EN"
+    },
+    {
+      "id": "praktyki-zachowan",
+      "nazwa": "Dobre praktyki kształtowania zachowań",
+      "en": "Good practices for behaviour",
+      "rodzic": "akt-kultura",
+      "obszar": "EN"
+    },
+    {
+      "id": "cykl-informacji",
+      "nazwa": "Cykl informacji",
+      "en": "Information cycle",
+      "rodzic": "akt-informacja",
+      "obszar": "EN"
+    },
+    {
+      "id": "jakosc-informacji",
+      "nazwa": "Kryteria jakości informacji",
+      "en": "Information quality criteria",
+      "rodzic": "akt-informacja",
+      "obszar": "EN"
+    },
+    {
+      "id": "model-informacji",
+      "nazwa": "Model informacji – zastosowania",
+      "en": "Information model uses",
+      "rodzic": "akt-informacja",
+      "obszar": "EN"
+    },
+    {
+      "id": "zasady-architektury",
+      "nazwa": "Zasady architektury",
+      "en": "Architecture principles",
+      "rodzic": "akt-uslugi",
+      "obszar": "EN"
+    },
+    {
+      "id": "zdolnosc-uslugowa",
+      "nazwa": "Zdolność usługowa",
+      "en": "Service capabilities",
+      "rodzic": "akt-uslugi",
+      "obszar": "EN"
+    },
+    {
+      "id": "kategorie-umiejetnosci",
+      "nazwa": "Kategorie umiejętności według domen",
+      "en": "Skill categories by domain",
+      "rodzic": "akt-ludzie",
+      "obszar": "EN"
+    },
+    {
+      "id": "wdrozenie",
+      "nazwa": "Wdrożenie COBIT 5",
+      "en": "COBIT 5 Implementation",
+      "rodzic": null,
+      "obszar": "IM",
+      "opis": "Rozdział 7."
+    },
+    {
+      "id": "czynniki-wdrozenia",
+      "nazwa": "Czynniki wdrożenia",
+      "en": "Implementation factors",
+      "rodzic": "wdrozenie",
+      "obszar": "IM"
+    },
+    {
+      "id": "czynniki-srodowiskowe",
+      "nazwa": "Czynniki środowiskowe (kontekst organizacji)",
+      "en": "Internal and external environment factors",
+      "rodzic": "czynniki-wdrozenia",
+      "obszar": "IM"
+    },
+    {
+      "id": "punkty-zapalne",
+      "nazwa": "Punkty zapalne",
+      "en": "Pain points",
+      "rodzic": "czynniki-wdrozenia",
+      "obszar": "IM"
+    },
+    {
+      "id": "zdarzenia-wyzwalajace",
+      "nazwa": "Zdarzenia wyzwalające",
+      "en": "Trigger events",
+      "rodzic": "czynniki-wdrozenia",
+      "obszar": "IM"
+    },
+    {
+      "id": "kluczowe-czynniki-sukcesu",
+      "nazwa": "Kluczowe czynniki sukcesu wdrożenia",
+      "en": "Critical success factors",
+      "rodzic": "czynniki-wdrozenia",
+      "obszar": "IM"
+    },
+    {
+      "id": "uzasadnienie-biznesowe",
+      "nazwa": "Uzasadnienie biznesowe",
+      "en": "Business case",
+      "rodzic": "wdrozenie",
+      "obszar": "IM"
+    },
+    {
+      "id": "cykl-wdrozenia",
+      "nazwa": "Cykl życia wdrożenia",
+      "en": "Implementation life cycle",
+      "rodzic": "wdrozenie",
+      "obszar": "IM"
+    },
+    {
+      "id": "pierscienie",
+      "nazwa": "Trzy komponenty (pierścienie)",
+      "en": "Three interrelated components",
+      "rodzic": "cykl-wdrozenia",
+      "obszar": "IM"
+    },
+    {
+      "id": "pierscien-program",
+      "nazwa": "Zarządzanie programem (pierścień zewnętrzny)",
+      "en": "Programme management",
+      "rodzic": "pierscienie",
+      "obszar": "IM",
+      "kolejnosc": 1
+    },
+    {
+      "id": "pierscien-zmiana",
+      "nazwa": "Aktywowanie zmiany (pierścień środkowy)",
+      "en": "Change enablement",
+      "rodzic": "pierscienie",
+      "obszar": "IM",
+      "kolejnosc": 2
+    },
+    {
+      "id": "pierscien-doskonalenie",
+      "nazwa": "Cykl życia ciągłego doskonalenia (pierścień wewnętrzny)",
+      "en": "Continual improvement life cycle",
+      "rodzic": "pierscienie",
+      "obszar": "IM",
+      "kolejnosc": 3
+    },
+    {
+      "id": "fazy-wdrozenia",
+      "nazwa": "Siedem faz",
+      "en": "Seven phases",
+      "rodzic": "cykl-wdrozenia",
+      "obszar": "IM"
+    },
+    {
+      "id": "faza-1",
+      "nazwa": "Faza 1: Jakie są wyznaczniki?",
+      "en": "What are the drivers?",
+      "rodzic": "fazy-wdrozenia",
+      "obszar": "IM",
+      "kolejnosc": 1
+    },
+    {
+      "id": "faza-2",
+      "nazwa": "Faza 2: Gdzie jesteśmy teraz?",
+      "en": "Where are we now?",
+      "rodzic": "fazy-wdrozenia",
+      "obszar": "IM",
+      "kolejnosc": 2
+    },
+    {
+      "id": "faza-3",
+      "nazwa": "Faza 3: Dokąd chcemy dojść?",
+      "en": "Where do we want to be?",
+      "rodzic": "fazy-wdrozenia",
+      "obszar": "IM",
+      "kolejnosc": 3
+    },
+    {
+      "id": "faza-4",
+      "nazwa": "Faza 4: Co trzeba zrobić?",
+      "en": "What needs to be done?",
+      "rodzic": "fazy-wdrozenia",
+      "obszar": "IM",
+      "kolejnosc": 4
+    },
+    {
+      "id": "faza-5",
+      "nazwa": "Faza 5: Jak się tam dostaniemy?",
+      "en": "How do we get there?",
+      "rodzic": "fazy-wdrozenia",
+      "obszar": "IM",
+      "kolejnosc": 5
+    },
+    {
+      "id": "faza-6",
+      "nazwa": "Faza 6: Czy dotarliśmy do celu?",
+      "en": "Did we get there?",
+      "rodzic": "fazy-wdrozenia",
+      "obszar": "IM",
+      "kolejnosc": 6
+    },
+    {
+      "id": "faza-7",
+      "nazwa": "Faza 7: Jak utrzymać motywację do działania?",
+      "en": "How do we keep the momentum going?",
+      "rodzic": "fazy-wdrozenia",
+      "obszar": "IM",
+      "kolejnosc": 7
+    },
+    {
+      "id": "model-zdolnosci",
+      "nazwa": "Model zdolności procesu (ISO/IEC 15504)",
+      "en": "Process Capability Model",
+      "rodzic": null,
+      "obszar": "PC",
+      "opis": "Rozdział 8, Ilustracja 19."
+    },
+    {
+      "id": "poziomy-zdolnosci",
+      "nazwa": "Poziomy zdolności 0–5",
+      "en": "Capability levels",
+      "rodzic": "model-zdolnosci",
+      "obszar": "PC"
+    },
+    {
+      "id": "poziom-0",
+      "nazwa": "0 – Proces niekompletny",
+      "en": "Incomplete",
+      "rodzic": "poziomy-zdolnosci",
+      "obszar": "PC",
+      "kolejnosc": 0
+    },
+    {
+      "id": "poziom-1",
+      "nazwa": "1 – Proces wykonywany",
+      "en": "Performed",
+      "rodzic": "poziomy-zdolnosci",
+      "obszar": "PC",
+      "kolejnosc": 1
+    },
+    {
+      "id": "poziom-2",
+      "nazwa": "2 – Proces zarządzany",
+      "en": "Managed",
+      "rodzic": "poziomy-zdolnosci",
+      "obszar": "PC",
+      "kolejnosc": 2
+    },
+    {
+      "id": "poziom-3",
+      "nazwa": "3 – Proces ustanowiony",
+      "en": "Established",
+      "rodzic": "poziomy-zdolnosci",
+      "obszar": "PC",
+      "kolejnosc": 3
+    },
+    {
+      "id": "poziom-4",
+      "nazwa": "4 – Proces przewidywalny",
+      "en": "Predictable",
+      "rodzic": "poziomy-zdolnosci",
+      "obszar": "PC",
+      "kolejnosc": 4
+    },
+    {
+      "id": "poziom-5",
+      "nazwa": "5 – Proces zoptymalizowany",
+      "en": "Optimising",
+      "rodzic": "poziomy-zdolnosci",
+      "obszar": "PC",
+      "kolejnosc": 5
+    },
+    {
+      "id": "atrybuty-procesu",
+      "nazwa": "Dziewięć atrybutów procesu",
+      "en": "Process attributes",
+      "rodzic": "model-zdolnosci",
+      "obszar": "PC"
+    },
+    {
+      "id": "pa-1-1",
+      "nazwa": "PA 1.1 Wykonanie procesu",
+      "en": "Process performance",
+      "rodzic": "atrybuty-procesu",
+      "obszar": "PC",
+      "kolejnosc": 1
+    },
+    {
+      "id": "pa-2-1",
+      "nazwa": "PA 2.1 Zarządzanie wydajnością",
+      "en": "Performance management",
+      "rodzic": "atrybuty-procesu",
+      "obszar": "PC",
+      "kolejnosc": 2
+    },
+    {
+      "id": "pa-2-2",
+      "nazwa": "PA 2.2 Zarządzanie produktami pracy",
+      "en": "Work product management",
+      "rodzic": "atrybuty-procesu",
+      "obszar": "PC",
+      "kolejnosc": 3
+    },
+    {
+      "id": "pa-3-1",
+      "nazwa": "PA 3.1 Definicja procesu",
+      "en": "Process definition",
+      "rodzic": "atrybuty-procesu",
+      "obszar": "PC",
+      "kolejnosc": 4
+    },
+    {
+      "id": "pa-3-2",
+      "nazwa": "PA 3.2 Wdrożenie procesu",
+      "en": "Process deployment",
+      "rodzic": "atrybuty-procesu",
+      "obszar": "PC",
+      "kolejnosc": 5
+    },
+    {
+      "id": "pa-4-1",
+      "nazwa": "PA 4.1 Miara procesu",
+      "en": "Process measurement",
+      "rodzic": "atrybuty-procesu",
+      "obszar": "PC",
+      "kolejnosc": 6
+    },
+    {
+      "id": "pa-4-2",
+      "nazwa": "PA 4.2 Kontrola procesu",
+      "en": "Process control",
+      "rodzic": "atrybuty-procesu",
+      "obszar": "PC",
+      "kolejnosc": 7
+    },
+    {
+      "id": "pa-5-1",
+      "nazwa": "PA 5.1 Innowacja procesu",
+      "en": "Process innovation",
+      "rodzic": "atrybuty-procesu",
+      "obszar": "PC",
+      "kolejnosc": 8
+    },
+    {
+      "id": "pa-5-2",
+      "nazwa": "PA 5.2 Optymalizacja procesu",
+      "en": "Process optimisation",
+      "rodzic": "atrybuty-procesu",
+      "obszar": "PC",
+      "kolejnosc": 9
+    },
+    {
+      "id": "skala-ocen",
+      "nazwa": "Skala ocen N/C/W/P (EN: N/P/L/F)",
+      "en": "Rating scale",
+      "rodzic": "model-zdolnosci",
+      "obszar": "PC"
+    },
+    {
+      "id": "ocena-n",
+      "nazwa": "N – Nieosiągnięty (0–15%)",
+      "en": "Not achieved",
+      "rodzic": "skala-ocen",
+      "obszar": "PC",
+      "kolejnosc": 1
+    },
+    {
+      "id": "ocena-c",
+      "nazwa": "C – Częściowy (>15–50%)",
+      "en": "Partially achieved",
+      "rodzic": "skala-ocen",
+      "obszar": "PC",
+      "kolejnosc": 2
+    },
+    {
+      "id": "ocena-w",
+      "nazwa": "W – Większościowy (>50–85%)",
+      "en": "Largely achieved",
+      "rodzic": "skala-ocen",
+      "obszar": "PC",
+      "kolejnosc": 3
+    },
+    {
+      "id": "ocena-p",
+      "nazwa": "P – Pełny (>85–100%)",
+      "en": "Fully achieved",
+      "rodzic": "skala-ocen",
+      "obszar": "PC",
+      "kolejnosc": 4
+    },
+    {
+      "id": "wymiary-oceny",
+      "nazwa": "Dwa wymiary oceny",
+      "en": "Assessment dimensions",
+      "rodzic": "model-zdolnosci",
+      "obszar": "PC"
+    },
+    {
+      "id": "wymiar-procesu",
+      "nazwa": "Wymiar procesu (PRM: przeznaczenie, rezultaty, praktyki bazowe, produkty pracy)",
+      "en": "Process dimension",
+      "rodzic": "wymiary-oceny",
+      "obszar": "PC",
+      "kolejnosc": 1
+    },
+    {
+      "id": "wymiar-zdolnosci",
+      "nazwa": "Wymiar zdolności (atrybuty, praktyki ogólne)",
+      "en": "Capability dimension",
+      "rodzic": "wymiary-oceny",
+      "obszar": "PC",
+      "kolejnosc": 2
+    },
+    {
+      "id": "pojecia-iso15504",
+      "nazwa": "Pojęcia ISO/IEC 15504",
+      "en": "ISO/IEC 15504 terms",
+      "rodzic": "model-zdolnosci",
+      "obszar": "PC"
+    },
+    {
+      "id": "przeznaczenie-procesu",
+      "nazwa": "Przeznaczenie procesu",
+      "en": "Process purpose",
+      "rodzic": "pojecia-iso15504",
+      "obszar": "PC",
+      "kolejnosc": 1
+    },
+    {
+      "id": "rezultat-procesu",
+      "nazwa": "Rezultat procesu",
+      "en": "Process outcome",
+      "rodzic": "pojecia-iso15504",
+      "obszar": "PC",
+      "kolejnosc": 2
+    },
+    {
+      "id": "praktyka-bazowa",
+      "nazwa": "Praktyka bazowa",
+      "en": "Base practice",
+      "rodzic": "pojecia-iso15504",
+      "obszar": "PC",
+      "kolejnosc": 3
+    },
+    {
+      "id": "produkt-pracy",
+      "nazwa": "Produkt pracy",
+      "en": "Work product",
+      "rodzic": "pojecia-iso15504",
+      "obszar": "PC",
+      "kolejnosc": 4
+    },
+    {
+      "id": "cele-oceny",
+      "nazwa": "Po co ocena zdolności",
+      "en": "Assessment purposes",
+      "rodzic": "model-zdolnosci",
+      "obszar": "PC"
+    },
+    {
+      "id": "przewodniki-oceny",
+      "nazwa": "Program oceny COBIT – przewodniki",
+      "en": "COBIT Assessment Programme guides",
+      "rodzic": null,
+      "obszar": "PC"
+    },
+    {
+      "id": "pam",
+      "nazwa": "Model Oceny Procesu (PAM)",
+      "en": "Process Assessment Model",
+      "rodzic": "przewodniki-oceny",
+      "obszar": "PC",
+      "kolejnosc": 1
+    },
+    {
+      "id": "przewodnik-asesora",
+      "nazwa": "Przewodnik Asesora",
+      "en": "Assessor Guide",
+      "rodzic": "przewodniki-oceny",
+      "obszar": "PC",
+      "kolejnosc": 2
+    },
+    {
+      "id": "przewodnik-samooceny",
+      "nazwa": "Przewodnik Samooceny",
+      "en": "Self-Assessment Guide",
+      "rodzic": "przewodniki-oceny",
+      "obszar": "PC",
+      "kolejnosc": 3
+    },
+    {
+      "id": "proc-edm01",
+      "nazwa": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego",
+      "en": "EDM01 Ensure Governance Framework Setting and Maintenance",
+      "rodzic": "domena-edm",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "proc-edm02",
+      "nazwa": "EDM02 Zapewnienie realizacji korzyści",
+      "en": "EDM02 Ensure Benefits Delivery",
+      "rodzic": "domena-edm",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "proc-edm03",
+      "nazwa": "EDM03 Zapewnienie optymalizacji ryzyka",
+      "en": "EDM03 Ensure Risk Optimisation",
+      "rodzic": "domena-edm",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "proc-edm04",
+      "nazwa": "EDM04 Zapewnienie optymalizacji zasobów",
+      "en": "EDM04 Ensure Resource Optimisation",
+      "rodzic": "domena-edm",
+      "obszar": "PR",
+      "kolejnosc": 4
+    },
+    {
+      "id": "proc-edm05",
+      "nazwa": "EDM05 Zapewnienie przejrzystości dotyczącej interesariuszy",
+      "en": "EDM05 Ensure Stakeholder Transparency",
+      "rodzic": "domena-edm",
+      "obszar": "PR",
+      "kolejnosc": 5
+    },
+    {
+      "id": "proc-apo01",
+      "nazwa": "APO01 Zarządzanie metodyką zarządzania IT",
+      "en": "APO01 Manage the IT Management Framework",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "proc-apo02",
+      "nazwa": "APO02 Zarządzanie strategią",
+      "en": "APO02 Manage Strategy",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "proc-apo03",
+      "nazwa": "APO03 Zarządzanie architekturą korporacyjną",
+      "en": "APO03 Manage Enterprise Architecture",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "proc-apo04",
+      "nazwa": "APO04 Zarządzanie innowacjami",
+      "en": "APO04 Manage Innovation",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 4
+    },
+    {
+      "id": "proc-apo05",
+      "nazwa": "APO05 Zarządzanie portfelem projektów",
+      "en": "APO05 Manage Portfolio",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 5
+    },
+    {
+      "id": "proc-apo06",
+      "nazwa": "APO06 Zarządzanie budżetem i kosztami",
+      "en": "APO06 Manage Budget and Costs",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 6
+    },
+    {
+      "id": "proc-apo07",
+      "nazwa": "APO07 Zarządzanie zasobami ludzkimi",
+      "en": "APO07 Manage Human Resources",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 7
+    },
+    {
+      "id": "proc-apo08",
+      "nazwa": "APO08 Zarządzanie relacjami",
+      "en": "APO08 Manage Relationships",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 8
+    },
+    {
+      "id": "proc-apo09",
+      "nazwa": "APO09 Zarządzanie umowami o świadczenie usług",
+      "en": "APO09 Manage Service Agreements",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 9
+    },
+    {
+      "id": "proc-apo10",
+      "nazwa": "APO10 Zarządzanie dostawcami",
+      "en": "APO10 Manage Suppliers",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 10
+    },
+    {
+      "id": "proc-apo11",
+      "nazwa": "APO11 Zarządzanie jakością",
+      "en": "APO11 Manage Quality",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 11
+    },
+    {
+      "id": "proc-apo12",
+      "nazwa": "APO12 Zarządzanie ryzykiem",
+      "en": "APO12 Manage Risk",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 12
+    },
+    {
+      "id": "proc-apo13",
+      "nazwa": "APO13 Zarządzanie bezpieczeństwem",
+      "en": "APO13 Manage Security",
+      "rodzic": "domena-apo",
+      "obszar": "PR",
+      "kolejnosc": 13
+    },
+    {
+      "id": "proc-bai01",
+      "nazwa": "BAI01 Zarządzanie programami i projektami",
+      "en": "BAI01 Manage Programmes and Projects",
+      "rodzic": "domena-bai",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "proc-bai02",
+      "nazwa": "BAI02 Zarządzanie definiowaniem wymagań",
+      "en": "BAI02 Manage Requirements Definition",
+      "rodzic": "domena-bai",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "proc-bai03",
+      "nazwa": "BAI03 Zarządzanie identyfikacją i budowaniem rozwiązań",
+      "en": "BAI03 Manage Solutions Identification and Build",
+      "rodzic": "domena-bai",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "proc-bai04",
+      "nazwa": "BAI04 Zarządzanie dostępnością i pojemnością",
+      "en": "BAI04 Manage Availability and Capacity",
+      "rodzic": "domena-bai",
+      "obszar": "PR",
+      "kolejnosc": 4
+    },
+    {
+      "id": "proc-bai05",
+      "nazwa": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych",
+      "en": "BAI05 Manage Organisational Change Enablement",
+      "rodzic": "domena-bai",
+      "obszar": "PR",
+      "kolejnosc": 5
+    },
+    {
+      "id": "proc-bai06",
+      "nazwa": "BAI06 Zarządzanie zmianami",
+      "en": "BAI06 Manage Changes",
+      "rodzic": "domena-bai",
+      "obszar": "PR",
+      "kolejnosc": 6
+    },
+    {
+      "id": "proc-bai07",
+      "nazwa": "BAI07 Zarządzanie procesem akceptacji zmian i przejścia",
+      "en": "BAI07 Manage Change Acceptance and Transitioning",
+      "rodzic": "domena-bai",
+      "obszar": "PR",
+      "kolejnosc": 7
+    },
+    {
+      "id": "proc-bai08",
+      "nazwa": "BAI08 Zarządzanie wiedzą",
+      "en": "BAI08 Manage Knowledge",
+      "rodzic": "domena-bai",
+      "obszar": "PR",
+      "kolejnosc": 8
+    },
+    {
+      "id": "proc-bai09",
+      "nazwa": "BAI09 Zarządzanie zasobami",
+      "en": "BAI09 Manage Assets",
+      "rodzic": "domena-bai",
+      "obszar": "PR",
+      "kolejnosc": 9
+    },
+    {
+      "id": "proc-bai10",
+      "nazwa": "BAI10 Zarządzanie konfiguracją",
+      "en": "BAI10 Manage Configuration",
+      "rodzic": "domena-bai",
+      "obszar": "PR",
+      "kolejnosc": 10
+    },
+    {
+      "id": "proc-dss01",
+      "nazwa": "DSS01 Zarządzanie eksploatacją",
+      "en": "DSS01 Manage Operations",
+      "rodzic": "domena-dss",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "proc-dss02",
+      "nazwa": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+      "en": "DSS02 Manage Service Requests and Incidents",
+      "rodzic": "domena-dss",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "proc-dss03",
+      "nazwa": "DSS03 Zarządzanie problemami",
+      "en": "DSS03 Manage Problems",
+      "rodzic": "domena-dss",
+      "obszar": "PR",
+      "kolejnosc": 3
+    },
+    {
+      "id": "proc-dss04",
+      "nazwa": "DSS04 Zarządzanie ciągłością",
+      "en": "DSS04 Manage Continuity",
+      "rodzic": "domena-dss",
+      "obszar": "PR",
+      "kolejnosc": 4
+    },
+    {
+      "id": "proc-dss05",
+      "nazwa": "DSS05 Zarządzanie usługami bezpieczeństwa",
+      "en": "DSS05 Manage Security Services",
+      "rodzic": "domena-dss",
+      "obszar": "PR",
+      "kolejnosc": 5
+    },
+    {
+      "id": "proc-dss06",
+      "nazwa": "DSS06 Zarządzanie mechanizmami kontrolnymi procesów biznesowych",
+      "en": "DSS06 Manage Business Process Controls",
+      "rodzic": "domena-dss",
+      "obszar": "PR",
+      "kolejnosc": 6
+    },
+    {
+      "id": "proc-mea01",
+      "nazwa": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+      "en": "MEA01 Monitor, Evaluate and Assess Performance and Conformance",
+      "rodzic": "domena-mea",
+      "obszar": "PR",
+      "kolejnosc": 1
+    },
+    {
+      "id": "proc-mea02",
+      "nazwa": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+      "en": "MEA02 Monitor, Evaluate and Assess the System of Internal Control",
+      "rodzic": "domena-mea",
+      "obszar": "PR",
+      "kolejnosc": 2
+    },
+    {
+      "id": "proc-mea03",
+      "nazwa": "MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi",
+      "en": "MEA03 Monitor, Evaluate and Assess Compliance with External Requirements",
+      "rodzic": "domena-mea",
+      "obszar": "PR",
+      "kolejnosc": 3
+    }
+  ]
+}

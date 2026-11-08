@@ -1,0 +1,107 @@
+{
+  "id": "proc-bai02",
+  "en": "BAI02 Manage Requirements Definition",
+  "wymowa": "biejaj 02 menydż rikłajerments definiszyn",
+  "wymowaAkcent": "bi-ej-AJ 02 ME-nydż ri-KŁAJ-er-ments de-fi-NI-szyn",
+  "plEgzamin": "BAI02 Zarządzanie definiowaniem wymagań",
+  "plPodrecznik": "BAI02 Zarządzanie definiowaniem wymagań",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "BAI02 Zarządzanie definiowaniem wymagań",
+    "podrecznik": "BAI02 Zarządzanie definiowaniem wymagań",
+    "kurs": "BAI02 Zarządzanie definiowaniem wymagań (BAI02 Manage Requirements Definition)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 33, 53, 60."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "Podręcznik: „BAI02 Zarządzanie definiowaniem wymagań”. Na egzaminie nazwa procesu może brzmieć inaczej niż w podręczniku. Egzamin PL tłumaczy po swojemu, często trybem rozkazującym (np. domena „Twórz, Nabywaj i Wdrażaj” zamiast „Budowanie, nabywanie i wdrażanie”). Egzaminacyjnej nazwy tego procesu nie potwierdziliśmy, dlatego rozpoznawaj go po kodzie i angielskim słowie kluczowym: *Requirements Definition*.",
+  "kategoria": "egzaminacyjne",
+  "status": "niepotwierdzone",
+  "poziomP": "P2",
+  "wymaga": [
+    "bai",
+    "interesariusz"
+  ],
+  "poLudzku": "Zanim coś kupisz albo zbudujesz, spisujesz dokładnie, czego potrzebujesz i po czym poznasz, że działa.",
+  "wyobrazSobie": "Zanim kupisz auto, spisujesz: pięć miejsc, hak, spalanie poniżej 7 litrów. Dopiero z tą listą jedziesz do salonu.",
+  "skadNazwa": "Z angielskiego *Manage Requirements Definition*. „Wymaganie” to zapisane oczekiwanie: co rozwiązanie ma robić i jak dobrze.",
+  "poziom1": "Proces domeny [[bai]], w którym ustalasz i uzgadniasz wymagania, zanim cokolwiek kupisz lub zbudujesz. Sprawdza też warianty rozwiązania, wykonalność i ryzyko. Wymagania zatwierdza strona biznesowa, a nie dostawca.",
+  "poziom2": "**Czym się zajmuje:** zbiera wymagania od interesariuszy – funkcje, dane, bezpieczeństwo, dostępność, łatwość obsługi i utrzymania. Porównuje warianty (kupić, zbudować, dostosować), ocenia wykonalność i ryzyko wymagań.\n\n**Wejścia (intuicja):** potrzeby i cele programu ([[proc-bai01]]), architektura (APO03), oczekiwany poziom usług (APO09).\n\n**Wyjścia (intuicja):** zatwierdzone wymagania, studium wykonalności z wariantami, kryteria odbioru.\n\n**Współpracuje z:** [[proc-bai03]] (buduje według wymagań), [[proc-bai04]] (wymagania pojemności), [[proc-bai07]] (testy akceptacyjne sprawdzają wymagania).",
+  "poziom3": "Oficjalnie (FW-PL, s. 60): *„Proces COBIT 5 BAI02 Zarządzanie definiowaniem wymagań ułatwia projektowanie aplikacji w sposób spełniający wymagania dotyczące obsługi przez pracowników wsparcia i użytkowania.”* Il. 39 (s. 88) wymienia przy BAI kategorię umiejętności „Definiowanie wymagań i zarządzanie nimi”. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
+  "poCo": "Żeby kupić albo zbudować to, czego naprawdę potrzebujesz. Wymagania zatwierdza biznes, a nie sprzedawca.",
+  "jakDziala": "Zbierasz i spisujesz wymagania funkcjonalne i techniczne. Badasz wykonalność, warianty rozwiązania i ryzyko wymagań. Na końcu strona biznesowa zatwierdza wymagania i wybrane rozwiązanie.",
+  "dlaczegoWazne": "Źle spisane wymagania psują wszystkie dalsze kroki w BAI (interpretacja kursu). Na egzaminie nie myl definiowania wymagań (BAI02) z budowaniem rozwiązania (BAI03).",
+  "przyklady": {
+    "zycie": "Kupujesz samochód dla rodziny. Zanim pójdziesz do salonu, spisujesz: 7 miejsc, duży bagażnik, spalanie poniżej 7 litrów, cena do 90 tysięcy. Ta kartka to wymagania. Sprzedawca pokaże Ci potem auta, które je spełniają albo nie.",
+    "biuro": "Zanim zamówisz nowe krzesła, pytasz zespół: regulacja wysokości, podłokietniki, cena do 600 zł. Dopiero potem prosisz o oferty.",
+    "organizacja": "Piekarnia przed otwarciem sklepu internetowego spisuje z załogą: zamówienia do 22:00, BLIK, alergeny. Starostwo przed przetargiem zbiera wymagania wydziałów, zamiast przepisywać folder jednego dostawcy.",
+    "psp": "**„SMS ma dojść zawsze”.** Kpt. Marek Sikora zbiera z dyżurnymi i dh. Pietrzakiem z OSP Zawilce, czego potrzebują od poprawionej Syreny. Zapisuje: alarm do OSP w 30 sekund, także przy awarii internetu, i potwierdzenie odbioru. Komendantka Wrzos zatwierdza tę listę. Ustalanie i zatwierdzanie wymagań to [[proc-bai02]].",
+    "it": "Praktyki BAI02: definiowanie wymagań, studium wykonalności z wariantami, zarządzanie ryzykiem wymagań i zatwierdzenie wymagań. Wynik przechodzi do BAI03."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "proc-bai03",
+      "roznica": "BAI02 mówi CO i PO CO (wymagania, warianty, wykonalność). BAI03 mówi JAK: projektuje, buduje albo kupuje i testuje rozwiązanie."
+    },
+    {
+      "termin": "proc-bai07",
+      "roznica": "BAI07 sprawdza w testach akceptacyjnych, czy rozwiązanie spełnia wymagania z BAI02. Samo spisanie wymagań to BAI02."
+    }
+  ],
+  "przykladWypowiedzi": "BAI02 Manage Requirements Definition, czyli Zarządzanie definiowaniem wymagań, ustala, czego potrzebuje biznes, zanim cokolwiek kupimy.",
+  "egzamin": "Słowa-klucze: wymagania, studium wykonalności, warianty rozwiązania, zatwierdzenie przez sponsora → **BAI02**. FW-PL (s. 60) wiąże BAI02 z projektowaniem aplikacji pod obsługę przez wsparcie i użytkowników.",
+  "powiazane": [
+    "bai",
+    "interesariusz",
+    "proc-bai01",
+    "proc-bai03",
+    "proc-bai07"
+  ],
+  "sylabus": [
+    "PR-01-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 33,
+      "ilustracja": "16",
+      "cytat": "BAI02 Zarządzanie definiowaniem wymagań"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "BAI02 Zarządzanie definiowaniem wymagań ułatwia projektowanie aplikacji w sposób spełniający"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 88,
+      "ilustracja": "39"
+    }
+  ],
+  "mapa": "proc-bai02",
+  "glebokosc": {
+    "prosty": "Zamawiasz tort. Mówisz cukierni: czekoladowy, bez orzechów, na 20 osób, na sobotę na 14:00. To są wymagania. Jak cukiernik go upiecze, to już jego sprawa.",
+    "zaawansowany": "Kpt. Sikora pyta dyżurnych, czego potrzebują od Syreny. Grab chce dużego przycisku, Nowik potwierdzenia odbioru, a dh Pietrzak SMS-a nawet bez internetu. Sikora spisuje to, sprawdza warianty i daje komendantce do zatwierdzenia. To [[proc-bai02]]. Na tej podstawie Kwant-Sygnał projektuje i buduje poprawki ([[proc-bai03]]), a dyżurni na końcu odbierają je w testach ([[proc-bai07]]).",
+    "skrajny": "Sikora zapisuje: „alarm do OSP w 30 sekund, także przy awarii internetu”. Kwant-Sygnał odpowiada dokumentem „specyfikacja techniczna”: zapasowa bramka SMS przez sieć komórkową, model X. Oba dokumenty brzmią technicznie, więc gdzie kończy się BAI02? Wymaganie może być techniczne (30 sekund, brak internetu) i nadal należy do BAI02, bo mówi, co ma być spełnione. Wybór bramki X i jej konfiguracja opisuje sposób, czyli rozwiązanie z BAI03. Pułapka: słowo „specyfikacja” nie przesądza, który to proces. **Rozstrzygnięcie:** pytaj „czy to opisuje, CO ma działać, czy JAK to zrobimy?”. CO → BAI02, JAK → BAI03. Kryteria z BAI02 wracają w testach odbiorczych BAI07."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Wymagania to tylko lista funkcji.",
+      "prawda": "Także bezpieczeństwo, dostępność, wydajność i łatwość obsługi przez wsparcie i użytkowników (FW-PL, s. 60)."
+    },
+    {
+      "mit": "Wymagania pisze dostawca, bo zna się na technice.",
+      "prawda": "Dostawca może pomóc, ale wymagania uzgadnia i zatwierdza strona biznesowa, która będzie z rozwiązania korzystać."
+    },
+    {
+      "mit": "BAI02 kończy się w dniu podpisania listy.",
+      "prawda": "Wymagania się zmieniają. Zmiany wymagań trzeba kontrolować, a kryteria wracają przy odbiorze (BAI07)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń wrzuca każdą „specyfikację” do BAI02, nawet gdy opisuje ona gotowe rozwiązanie techniczne.",
+    "jakTlumaczyc": "Wymaganie to zamówienie w restauracji („bez glutenu, na ostro”). Przepis i gotowanie to już BAI03.",
+    "pytanieKontrolne": "Zdanie „Syrena ma działać na serwerze z dwoma zasilaczami” – to BAI02 czy BAI03?",
+    "odpowiedzKontrolna": "Zależy od intencji. Jeśli to oczekiwanie biznesu (system ma działać mimo awarii zasilacza), to wymaganie z **BAI02**. Jeśli to wybrany sposób spełnienia wymagania, to projekt rozwiązania z **BAI03**. Dobrze sformułowane wymaganie mówi, co ma być osiągnięte, a nie jakim sprzętem."
+  }
+}

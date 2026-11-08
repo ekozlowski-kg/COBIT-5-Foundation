@@ -1,0 +1,103 @@
+{
+  "id": "cykl-zycia-polityki",
+  "en": "Policy life cycle",
+  "wymowa": "polisi lajf sajkl",
+  "wymowaAkcent": "PO-li-si lajf SAJ-kl",
+  "plEgzamin": "Cykl życia polityki",
+  "plPodrecznik": "Cykl życia polityki",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cykl życia polityki",
+    "podrecznik": "Cykl życia polityki",
+    "kurs": "Cykl życia polityki (Policy life cycle)",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
+  },
+  "pulapka": false,
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "polityka",
+    "cykl-zycia-aktywatora"
+  ],
+  "mapa": "cykl-zycia-polityki",
+  "poziom1": "Polityka nie jest wieczna. Najpierw ktoś ją planuje i pisze, potem ludzie ją stosują, ktoś sprawdza, czy działa, a w końcu ją poprawia albo wycofuje. Najważniejsza jest aktualność: czy ludzie wiedzą o zmianach i mają pod ręką najnowszą wersję.",
+  "poLudzku": "Reguła rodzi się, działa, jest sprawdzana, poprawiana, a w końcu wyrzucana, gdy przestaje pasować.",
+  "wyobrazSobie": "Rozkład jazdy na przystanku: wywieszasz nowy, zdejmujesz stary i co jakiś czas sprawdzasz, czy wciąż pasuje do tras.",
+  "poCo": "Żeby polityka nie zestarzała się po cichu i żeby ludzie zawsze mieli pod ręką aktualną wersję.",
+  "jakDziala": "Polityka przechodzi fazy jak każdy aktywator: planowanie, projekt, wdrożenie, stosowanie, ocena, aktualizacja albo wycofanie. Polityki trzeba regularnie przedłużać lub aktualizować. Przy zmianie trzeba poinformować ludzi i usunąć stare wersje.",
+  "dlaczegoWazne": "Egzamin sprawdza, czy wiesz, że polityk nie zatwierdza się raz na zawsze. Odpowiedź „polityka obowiązuje bez przeglądów” jest błędna.",
+  "poziom2": "Ogólne fazy cyklu życia aktywatora (il. 28) zastosowane do polityki:\n\n| Faza | Co się dzieje z polityką |\n|---|---|\n| Planowanie | ktoś zauważa potrzebę reguły |\n| Projektowanie | powstaje projekt treści |\n| Budowanie / wdrażanie | zatwierdzenie i ogłoszenie |\n| Użytkowanie / eksploatacja | ludzie jej przestrzegają |\n| Ocena / monitorowanie | sprawdzamy, czy działa |\n| Aktualizacja / pozbywanie się | nowa wersja albo wycofanie |\n\nKluczowe pytania (s. 68): czy i kiedy polityki są aktualizowane, czy pracownicy wiedzą o zmianach, czy mają łatwy dostęp do **najnowszej wersji** i czy stare wersje są **archiwizowane i usuwane**.",
+  "poziom3": "(s. 68): *„polityki mają cykl życia, który musi wspierać realizację zdefiniowanych celów”*. Dobra praktyka: *„Polityki muszą być przedłużane i/lub aktualizowane w regularnych odstępach czasu.”* Il. 28 pokazuje typowe fazy cyklu życia aktywatora.",
+  "przyklady": {
+    "zycie": "Gdy dziecko idzie do przedszkola, rodzice ustalają regułę: bajka tylko po kolacji. Po roku dziecko idzie do szkoły i reguła przestaje pasować, więc ją zmieniacie: bajka po odrobieniu lekcji. Starą kartkę zdejmujecie z lodówki, żeby nikt się na nią nie powoływał.",
+    "biuro": "W biurze projektowym regulamin korzystania z drukarki kolorowej był sprzed lat i zakazywał druku powyżej 10 stron. Przy przeglądzie kierownik zmienia limit, rozsyła nową wersję mailem i usuwa starą z tablicy ogłoszeń.",
+    "organizacja": "Kwiaciarnia ma starą politykę zwrotów. Właścicielka raz w roku ją przegląda i skraca termin z 7 do 3 dni, bo kwiaty szybko więdną. Nową wersję wiesza przy kasie, a starą usuwa z folderu, żeby sprzedawczynie nie drukowały złej. Urząd gminy ma politykę haseł sprzed lat, która każe je zmieniać co 30 dni. Przy przeglądzie informatyk proponuje dłuższe hasła i rzadsze zmiany. Sekretarz zatwierdza nową wersję, ogłasza ją w intranecie i archiwizuje starą.",
+    "psp": "Polityka powiadamiania w komendzie w Modrzewiowie ma datę przeglądu: co pół roku. Przy pierwszym przeglądzie dyżurna Kasia Nowik zauważa, że polityka nic nie mówi o nowej aplikacji dla OSP. Sikora dopisuje punkt, komendantka Wrzos zatwierdza nową wersję, a Ola Dudek usuwa starą z komputerów SK. Tak działa cykl życia polityki.",
+    "it": "Polityka bezpieczeństwa informacji w procesie APO13 ma datę przeglądu. Po wdrożeniu chmury zespół aktualizuje ją, ogłasza zmiany i archiwizuje poprzednią wersję, żeby nikt nie korzystał z nieaktualnych reguł."
+  },
+  "glebokosc": {
+    "prosty": "Rozkład jazdy autobusu wisi na przystanku. Gdy linia zmienia trasę, nowy rozkład trzeba wywiesić, a stary zdjąć. Jeśli zostaną oba, ludzie się pogubią. Reguły w pracy też trzeba tak wymieniać.",
+    "zaawansowany": "Po roku polityka powiadamiania komendy jest w fazie oceny i monitorowania. Audytorka Ewa Lis widzi, że w SK leżą trzy wydruki w różnych wersjach. Polityka była dobra, ale cykl życia zawiódł na końcu: nikt nie usunął starych wersji. Sikora zostawia jedną wersję w systemie i wpisuje datę przeglądu. Teraz [[struktura-ramowa-polityki|struktura polityk]] mówi, gdzie polityka leży, a cykl życia mówi, kiedy ją odświeżyć.",
+    "skrajny": "Komendantka Wrzos podpisuje nową politykę i ogłasza ją na odprawie. Sikora mówi: „Wdrożone, temat zamknięty”. Pół roku później polityka nadal obowiązuje, ale opisuje stary serwer, którego już nie ma. Formalnie jest aktualna, bo nikt jej nie uchylił. W praktyce jest martwa i wprowadza ludzi w błąd. Cykl życia nie kończy się na ogłoszeniu: obejmuje też ocenę, aktualizację i pozbywanie się. **Rozstrzygnięcie:** ogłoszenie polityki to środek jej cyklu życia, a nie koniec. Politykę trzeba regularnie przeglądać, a stare wersje archiwizować i usuwać."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Polityka zatwierdzona przez kierownictwo obowiązuje, dopóki ktoś jej nie zmieni.",
+      "prawda": "Polityki trzeba przedłużać lub aktualizować w regularnych odstępach. Brak przeglądu to luka w cyklu życia."
+    },
+    {
+      "mit": "Aktualizacja polityki kończy się na napisaniu nowej wersji.",
+      "prawda": "Trzeba jeszcze zadbać o świadomość zmian, dostęp do najnowszej wersji i archiwizację starych."
+    },
+    {
+      "mit": "Cykl życia polityki to osobny model, inny niż w innych aktywatorach.",
+      "prawda": "To ten sam ogólny cykl życia aktywatora (od planowania do aktualizacji i pozbywania się), zastosowany do polityk."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Uczeń myśli, że praca nad polityką kończy się w chwili jej podpisania.",
+    "jakTlumaczyc": "Porównaj politykę do rozkładu jazdy na przystanku: trzeba go wymieniać, a stary zdejmować. Potem pokaż fazy z il. 28.",
+    "pytanieKontrolne": "W firmie obowiązuje polityka, której nikt nie przeglądał od 5 lat. Co mówi o tym COBIT 5?",
+    "odpowiedzKontrolna": "To błąd w zarządzaniu **cyklem życia polityki**. Polityki trzeba regularnie przedłużać lub aktualizować, informować ludzi o zmianach i usuwać stare wersje."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cykl-zycia-aktywatora",
+      "roznica": "Cykl życia aktywatora to ogólny wzór faz dla każdego aktywatora. Cykl życia polityki to ten wzór zastosowany do polityki, z naciskiem na aktualność."
+    },
+    {
+      "termin": "struktura-ramowa-polityki",
+      "roznica": "Struktura mówi, gdzie polityka leży i co zawiera. Cykl życia mówi, jak polityka zmienia się w czasie."
+    }
+  ],
+  "przykladWypowiedzi": "Policies have a life cycle, czyli polityki mają cykl życia, and must be updated at regular intervals.",
+  "egzamin": "Polityki mają cykl życia i muszą być **regularnie aktualizowane**. Odpowiedź „raz zatwierdzona polityka obowiązuje bez zmian” jest błędna. Ważne: świadomość zmian, dostęp do **najnowszej wersji**, archiwizacja starych.",
+  "powiazane": [
+    "cykl-zycia-aktywatora",
+    "polityka",
+    "struktura-ramowa-polityki",
+    "cechy-dobrej-polityki"
+  ],
+  "sylabus": [
+    "EN-02-04"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 68,
+      "cytat": "polityki mają cykl życia, który musi wspierać realizację zdefiniowanych celów"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 68,
+      "cytat": "Polityki muszą być przedłużane i/lub aktualizowane w regularnych odstępach czasu."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 67,
+      "ilustracja": "28"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "wymiar-cykl-zycia",
+  "en": "Life cycle (enabler dimension)",
+  "wymowa": "lajf sajkl",
+  "wymowaAkcent": "lajf SAJ-kl",
+  "plEgzamin": "Cykl życia (wymiar aktywatora)",
+  "plPodrecznik": "Cykl życia (wymiar czynnika umożliwiającego)",
+  "plInne": [],
+  "statusTlumaczenia": "A",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Cykl życia (wymiar aktywatora)",
+    "podrecznik": "Cykl życia (wymiar czynnika umożliwiającego)",
+    "kurs": "Cykl życia (wymiar aktywatora) – Life cycle",
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 28, 29, 65, 66."
+  },
+  "pulapka": true,
+  "pulapkaOpis": "„Cykl życia” w COBIT 5 to kilka różnych rzeczy: wymiar aktywatora (6 faz), cykl życia wdrożenia (7 faz) i cykl informacji. Nie mieszaj ich.",
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P2",
+  "wymaga": [
+    "wymiary-aktywatora",
+    "cykl-zycia-aktywatora",
+    "wskaznik-wiodacy"
+  ],
+  "poLudzku": "Każda procedura czy system się rodzi, działa, jest sprawdzany i poprawiany, a w końcu odchodzi.",
+  "skadNazwa": "*Life cycle*. To samo słowo pada w „cyklu życia wdrożenia”, który dotyczy wdrażania całego COBIT 5, a nie jednego aktywatora.",
+  "wyobrazSobie": "Książka serwisowa auta: wpisy od zakupu przez przeglądy po sprzedaż.",
+  "poCo": "Żeby dbać o aktywator przez całe jego życie, a nie tylko w chwili wdrożenia.",
+  "jakDziala": "Każdy aktywator przechodzi 6 faz: od planowania po aktualizację albo pozbycie się. Pytasz, czy ktoś tym cyklem zarządza. Odpowiedź mierzy wskaźnik wiodący, który ostrzega przed złym wynikiem.",
+  "dlaczegoWazne": "Egzamin miesza 6 faz aktywatora z 7 fazami wdrożenia. Pyta też, jakim wskaźnikiem mierzy się zarządzanie cyklem życia.",
+  "poziom1": "Trzeci wymiar aktywatora. Każdy aktywator, od informacji po politykę, przechodzi drogę od rozpoczęcia, przez okres działania, po wycofanie. Pytanie wydajności „Czy zadbano o zarządzanie cyklem życia?” mierzy się wskaźnikiem wiodącym.",
+  "poziom2": "| Cecha | Treść |\n|---|---|\n| kogo dotyczy | **każdego** aktywatora: informacji, struktur, procesów, polityk itd. |\n| ile faz | **6**: planowanie → projektowanie → budowanie/nabywanie/tworzenie/wdrażanie → użytkowanie/eksploatacja → ocena/monitorowanie → aktualizacja/pozbywanie się |\n| pytanie wydajności | „Czy zadbano o zarządzanie cyklem życia?” |\n| wskaźnik | [[wskaznik-wiodacy|wiodący]] (dotyczy funkcjonowania aktywatora) |\n\nFazy po kolei opisują atomy od [[cykl-faza-1]] do [[cykl-faza-6]].",
+  "poziom3": "(s. 29): *„każdy czynnik umożliwiający ma cykl życia, od rozpoczęcia, przez okres funkcjonowania/żywotności, aż po jego wycofanie. Odnosi się to do informacji, struktur, procesów, polityk itd.”* Pytania o cykl życia i dobre praktyki *„dotyczą rzeczywistego funkcjonowania samego czynnika umożliwiającego”* (wskaźniki wiodące).",
+  "przyklady": {
+    "zycie": "Domowy regulamin korzystania z telefonu ma swoje życie. Wymyślacie go, spisujecie, wieszacie na lodówce i stosujecie. Po miesiącu sprawdzacie, czy działa. Gdy dziecko dorasta, zmieniacie go albo znosicie.",
+    "biuro": "Szablon umowy w biurze ktoś zaprojektował, wdrożył i używa się go od lat. Raz w roku prawnik go przegląda, a po zmianie przepisów stary szablon trafia do archiwum.",
+    "organizacja": "Formularz zamówienia w hurtowni zaczyna się od pomysłu, potem grafik go projektuje, a informatyk wstawia na stronę. Klienci go używają, a kierownik co kwartał sprawdza, które pola sprawiają kłopot. W końcu formularz zastępuje aplikacja.\n\nProcedura przyjmowania skarg w urzędzie zostaje zaplanowana, napisana i wprowadzona zarządzeniem. Urzędnicy ją stosują, a audytor raz w roku ją ocenia. Po zmianie przepisów stara wersja zostaje uchylona.",
+    "psp": "**Lista, która się starzeje** Kpt. Marek Sikora rysuje cykl życia listy numerów OSP. Jest tam zaplanowanie, zaprojektowanie pól i wprowadzenie do Syreny. Potem codzienne używanie, comiesięczne sprawdzanie oraz aktualizacja albo usuwanie starych numerów. Numer druha Pietrzaka był nieaktualny, bo nikt nie dbał o ocenę i aktualizację. To wymiar „Cykl życia” w praktyce.",
+    "it": "Przykład 5 z FW-PL: proces trzeba utworzyć, realizować, monitorować i dostosowywać, a w końcu przestaje istnieć. Po drodze można podnosić jego zdolność według Modelu potencjału procesu (s. 30)."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "cykl-wdrozenia",
+      "roznica": "Cykl życia wdrożenia ma 7 faz i 3 pierścienie i dotyczy programu wdrażania COBIT 5. Wymiar ma 6 faz i dotyczy jednego aktywatora."
+    },
+    {
+      "termin": "cykl-informacji",
+      "roznica": "Cykl informacji opisuje drogę od danych do wartości w aktywatorze Informacja. Wymiar cyklu życia jest wspólny dla wszystkich 7 aktywatorów."
+    },
+    {
+      "termin": "cykl-zycia-aktywatora",
+      "roznica": "Hasło-rodzic opisuje fazy. Ten atom opisuje cykl życia jako jeden z czterech wymiarów i sposób jego pomiaru."
+    },
+    {
+      "termin": "model-zdolnosci",
+      "roznica": "Poziomy zdolności 0–5 mierzą, jak dobrze działa proces. Fazy cyklu życia mówią, na jakim etapie życia jest aktywator."
+    }
+  ],
+  "przykladWypowiedzi": "The enabler life cycle, czyli cykl życia aktywatora, ma sześć faz, od plan do update/dispose, a jego zarządzanie mierzy lead indicator, czyli wskaźnik wiodący.",
+  "egzamin": "Cykl życia aktywatora ma **6 faz** (nie 7). „Czy zadbano o zarządzanie cyklem życia?” → wskaźnik **wiodący**. 7 faz ma cykl życia **wdrożenia** (obszar IM).",
+  "powiazane": [
+    "wymiary-aktywatora",
+    "cykl-zycia-aktywatora",
+    "wskaznik-wiodacy",
+    "cykl-wdrozenia",
+    "cykl-faza-1"
+  ],
+  "sylabus": [
+    "PR-02-12",
+    "PR-01-05",
+    "PR-02-13"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "każdy czynnik umożliwiający ma cykl życia, od rozpoczęcia, przez okres funkcjonowania/żywotności, aż po jego wycofanie"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Odnosi się to do informacji, struktur, procesów, polityk itd."
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 29,
+      "cytat": "Ostatnie dwa punkty dotyczą rzeczywistego funkcjonowania samego czynnika umożliwiającego"
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 30,
+      "cytat": "Ostatecznie procesy przestają istnieć."
+    }
+  ],
+  "mapa": "wymiar-cykl-zycia",
+  "glebokosc": {
+    "prosty": "Samochód w rodzinie: najpierw wybieracie model, potem go kupujecie, jeździcie nim, co rok robicie przegląd, a w końcu go sprzedajecie. Każda rzecz ma takie „życie”. Dbać o nie trzeba na każdym etapie, nie tylko przy zakupie.",
+    "zaawansowany": "Audytorka Ewa Lis pyta Sikorę: „Kto dba o listę numerów po wdrożeniu?”. Nikt, bo projekt Syreny skończył się na zakupie. Lis mierzy to [[wskaznik-wiodacy|wskaźnikiem wiodącym]]: odsetkiem numerów sprawdzonych w miesiącu. Taki wskaźnik ostrzega, zanim alarm nie dojdzie. Czas dotarcia alarmu to wynik, czyli [[wskaznik-opozniony|wskaźnik opóźniony]].",
+    "skrajny": "Komenda jest w fazie 5 wdrożenia COBIT 5 („Jak się tam dostaniemy?”). W tym samym czasie nowa procedura alarmowania jest dopiero w fazie 2 swojego cyklu życia, czyli w projektowaniu. To nie jest sprzeczność. Siedem faz wdrożenia dotyczy całego programu zmian. Sześć faz cyklu życia dotyczy każdego aktywatora z osobna. W jednym programie wiele aktywatorów bywa na różnych etapach życia. **Rozstrzygnięcie:** 7 faz to wdrożenie COBIT 5 (IM), 6 faz to życie pojedynczego aktywatora; nie łącz ich numerów (równoległość etapów to interpretacja kursu)."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Cykl życia aktywatora ma 7 faz.",
+      "prawda": "Ma 6 faz. 7 faz ma cykl życia wdrożenia."
+    },
+    {
+      "mit": "Cykl życia dotyczy tylko systemów IT.",
+      "prawda": "Dotyczy każdego aktywatora: informacji, struktur, procesów, polityk (s. 29)."
+    },
+    {
+      "mit": "Zarządzanie cyklem życia mierzy wskaźnik opóźniony.",
+      "prawda": "Cykl życia i dobre praktyki mierzy wskaźnik wiodący (s. 29)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Mylenie 6 faz aktywatora z 7 fazami wdrożenia.",
+    "jakTlumaczyc": "Aktywator to pojedynczy wóz w remizie: ma swoje życie od zakupu do kasacji (6 faz). Wdrożenie to program modernizacji całej floty (7 faz). We flocie są wozy w różnych fazach.",
+    "pytanieKontrolne": "Ile faz ma cykl życia aktywatora i jakim wskaźnikiem mierzysz, czy jest zarządzany?",
+    "odpowiedzKontrolna": "**6 faz**; mierzysz to **wskaźnikiem wiodącym**."
+  }
+}

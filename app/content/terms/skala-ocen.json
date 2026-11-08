@@ -1,0 +1,97 @@
+{
+  "id": "skala-ocen",
+  "en": "Rating scale N/P/L/F",
+  "wymowa": "rejting skejl en pi el ef",
+  "wymowaAkcent": "REJ-ting skejl en pi el ef",
+  "plEgzamin": "Skala ocen N / C / W / P",
+  "plPodrecznik": "Skala ocen N / P / L / F",
+  "mapa": "skala-ocen",
+  "pulapka": true,
+  "pulapkaOpis": "NAJWIĘKSZA PUŁAPKA: na egzaminie PL litera **P oznacza PEŁNY** (Fully). W podręczniku i po angielsku **P to Partially, czyli częściowy**. Egzamin: N – Nieosiągnięty, C – Częściowy, W – Większościowy, P – Pełny.",
+  "poLudzku": "Cztery stopnie: nic, trochę, w większości, w pełni, czyli N, C, W, P.",
+  "wyobrazSobie": "Jak wskaźnik paliwa podzielony na cztery strefy – prawie pusty, poniżej połowy, ponad połowę, prawie pełny – który mówi, w jakim stopniu bak jest pełny, a nie tylko „jest albo nie ma”.",
+  "poCo": "Żeby asesor mógł ocenić, w jakim stopniu atrybut procesu jest osiągnięty, a nie tylko „tak albo nie”, i żeby oceny różnych asesorów były porównywalne.",
+  "jakDziala": "Każdy atrybut procesu (np. PA 1.1, PA 2.1) asesor ocenia na podstawie dowodów w czterostopniowej skali: N – nieosiągnięty (Not achieved, 0–15%), C – częściowy (Partially, >15–50%), W – większościowy (Largely, >50–85%), P – pełny (Fully, >85–100%). Proces osiąga dany poziom, gdy atrybuty tego poziomu mają W lub P, a wszystkie atrybuty niższych poziomów mają P.",
+  "dlaczegoWazne": "Egzamin sprawdza progi procentowe i regułę zaliczenia poziomu (W lub P na danym poziomie, P na niższych). Pułapka: na egzaminie PL „P” znaczy „pełny” (Fully), a angielskie „P” (Partially) to polskie „C”.",
+  "skadNazwa": "Angielska skala to N/P/L/F, gdzie **P = Partially** (częściowo). Polski egzamin używa N/C/W/P, gdzie **P = Pełny**. Ta sama litera znaczy co innego!",
+  "poziom1": "Czterostopniowa skala, którą ocenia się każdy atrybut procesu: N – nieosiągnięty (0–15%), C – częściowy (>15–50%), W – większościowy (>50–85%), P – pełny (>85–100%). Uwaga: na egzaminie PL „P” znaczy pełny, nie częściowy.",
+  "poziom2": "| Egzamin PL | EN | Próg | Opis |\n|---|---|---|---|\n| **N** – Nieosiągnięty | N – Not achieved | 0–15% | brak lub znikome dowody |\n| **C** – Częściowy | **P** – Partially | >15–50% | pewne dowody, część aspektów nieprzewidywalna |\n| **W** – Większościowy | **L** – Largely | >50–85% | systematyczne podejście, możliwe słabości |\n| **P** – Pełny | **F** – Fully | >85–100% | kompletne i systematyczne, brak istotnych słabości |\n\n**Reguła oceny:** proces **osiąga poziom**, gdy atrybuty tego poziomu mają **W lub P**, a **wszystkie atrybuty niższych poziomów mają P**. Żeby przejść wyżej, trzeba najpierw mieć **P** na wszystkich atrybutach niższych poziomów.",
+  "poziom3": "(s. 45): skala N/P/L/F z progami. Sylabus PC-02-06: reguła zaliczenia poziomu.",
+  "przyklady": {
+    "zycie": "Przez miesiąc patrzysz, jak syn sprząta swój pokój. Prawie nigdy – N; czasem, gdy mu przypomnisz – C; zwykle tak, ale zdarzają się wpadki – W; zawsze i bez przypominania – P. Tak samo asesor ocenia atrybut procesu: czterema stopniami, od braku do pełnego.",
+    "biuro": "Kierownik sprawdza, czy w biurze przestrzega się zasad archiwizacji, i przegląda 20 losowych teczek. Jeśli kompletnych jest 18 (90%), daje P; jeśli 14 (70%) – W; jeśli 6 (30%) – C; jeśli 2 (10%) – N.",
+    "firma": "Asesor sprawdza w warsztacie, czy praca jest planowana i pilnowana (PA 2.1). Plany są, ale w co trzecim zleceniu nikt nie sprawdził terminu – ocena W. Jeśli PA 1.1 ma P, a PA 2.2 co najmniej W, warsztat ma poziom 2; do poziomu 3 musi najpierw dociągnąć PA 2.1 i PA 2.2 do P.",
+    "admin": "Asesor ocenia w urzędzie gminy proces kopii zapasowych. Kopie się robią, ale tylko kilka z nich ktoś kiedykolwiek próbnie odtworzył, więc PA 1.1 dostaje C. Przy C urząd nie ma nawet poziomu 1, bo do niego PA 1.1 musi mieć co najmniej W.",
+    "psp": "Asesor ocenia w komendzie proces dysponowania: PA 1.1 = P, PA 2.1 = W, PA 2.2 = W, więc proces ma poziom 2. Żeby myśleć o poziomie 3, kierownik SK musi najpierw dociągnąć PA 2.1 i PA 2.2 do P – np. pilnować, żeby każda karta zdarzenia była sprawdzona i zarchiwizowana.",
+    "it": "Asesor ocenia BAI06 (Zarządzanie zmianami): PA 1.1 = P, PA 2.1 = P, PA 2.2 = C, bo tylko część wniosków o zmianę jest kontrolowana. Proces ma poziom 1, bo na poziomie 2 atrybut PA 2.2 musi mieć co najmniej W."
+  },
+  "glebokosc": {
+    "prosty": "Nauczyciel sprawdza, ile zadań z pracy domowej zrobiłeś: nic, trochę, większość albo wszystko. Tak działa skala N, C, W, P. Uwaga na literę P: na polskim egzaminie znaczy „pełny”, a w angielskiej skali „partially”, czyli „częściowo”.",
+    "zaawansowany": "Ewa Lis ocenia [[atrybuty-procesu|atrybut]] PA 1.1 w procesie kopii zapasowych. Kopie powstają systematycznie, ale raz w miesiącu ktoś zapomina sprawdzić ich odtworzenie, więc Ewa daje W (większościowy). To wystarcza, żeby proces osiągnął poziom 1, ale zamyka drogę na poziom 2 – do tego PA 1.1 musi mieć P (pełny). Wynik przekłada się na [[poziomy-zdolnosci|poziom zdolności]] w raporcie dla komendantki.",
+    "skrajny": "Ewa Lis dostaje raport z oceny po angielsku: PA 1.1 = F, PA 2.1 = P, PA 2.2 = L. Kusi, by czytać „P” jak na polskim egzaminie, czyli „pełny”, i uznać poziom 2. Po angielsku P to jednak **Partially**, czyli polskie **C**. Po przełożeniu: PA 1.1 = P, PA 2.1 = C, PA 2.2 = W. PA 2.1 nie osiąga W, więc proces jest na poziomie 1. Ta sama litera znaczy co innego zależnie od języka skali. **Rozstrzygnięcie:** zawsze sprawdź, w jakiej skali zapisano oceny – EN N/P/L/F ↔ PL N/C/W/P; na egzaminie PL P = Pełny, a poziom wymaga co najmniej W na swoich atrybutach i P na wszystkich niższych."
+  },
+  "zagmatwania": [
+    {
+      "mit": "P to zawsze „częściowy”, bo tak jest w podręczniku.",
+      "prawda": "Na egzaminie PL P = Pełny (>85–100%), a częściowy to C. W skali angielskiej P = Partially."
+    },
+    {
+      "mit": "Do zaliczenia poziomu wystarczy C na jego atrybutach.",
+      "prawda": "Potrzeba co najmniej W na atrybutach danego poziomu i P na wszystkich atrybutach niższych poziomów."
+    },
+    {
+      "mit": "Litera P na ilustracji 5 to też ocena atrybutu.",
+      "prawda": "Na ilustracji 5 (cele organizacji) P oznacza relację podstawową. Nie ma to nic wspólnego z oceną atrybutu."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Czytanie P jako „częściowy” na egzaminie PL i mylenie skali EN z PL.",
+    "jakTlumaczyc": "Zapisz dwie kolumny obok siebie: N-P-L-F i N-C-W-P, i połącz je strzałkami. Dopiero potem progi: do 15%, do 50%, do 85%, powyżej 85%. Skojarzenie: polskie P to Pełny.",
+    "pytanieKontrolne": "Raport po angielsku: PA 1.1 = F, PA 2.1 = L, PA 2.2 = P. Zapisz to w skali PL i ustal poziom.",
+    "odpowiedzKontrolna": "PA 1.1 = P, PA 2.1 = W, PA 2.2 = C. PA 2.2 ma tylko C, więc poziom 2 nie jest osiągnięty – proces jest na poziomie 1, bo PA 1.1 = P."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Relacja P na Ilustracji 5",
+      "roznica": "Na Ilustracji 5 (cele organizacji) P oznacza relację PODSTAWOWĄ. To coś zupełnie innego niż ocena atrybutu."
+    }
+  ],
+  "przykladWypowiedzi": "Na rating scale N/P/L/F (skali ocen N/C/W/P) atrybut Largely achieved (W – większościowy) wystarcza do zaliczenia bieżącego poziomu, ale wszystkie atrybuty niższych poziomów muszą być Fully achieved (P – pełny).",
+  "egzamin": "Żeby **pozytywnie przejść ocenę** danego poziomu, wystarczy **W (większościowy) lub P (pełny)**. Ocena **C** (częściowy) to za mało. Niższe poziomy muszą mieć **P**.",
+  "powiazane": [
+    "atrybuty-procesu",
+    "poziomy-zdolnosci"
+  ],
+  "sylabus": [
+    "PC-01-03",
+    "PC-02-06"
+  ],
+  "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 45,
+      "cytat": "(uzyskanie 85–100%)"
+    },
+    {
+      "doc": "ALTKOM"
+    },
+    {
+      "doc": "SYL"
+    }
+  ],
+  "plInne": [],
+  "statusTlumaczenia": "C",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "Skala ocen N / C / W / P",
+    "podrecznik": "Skala ocen N / P / L / F",
+    "kurs": "Skala ocen N / C / W / P (Rating scale N/P/L/F)",
+    "uwaga": "Litery skali się zmieniają: EN P = Partially, a PL P = Pełny. Bez tłumaczenia w głowie łatwo o odwrotną odpowiedź. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 45; zestawienie Altkom (kolumna „Podręczniki PL”)."
+  },
+  "kategoria": "egzaminacyjne",
+  "status": "oficjalne",
+  "poziomP": "P3",
+  "wymaga": [
+    "poziomy-zdolnosci",
+    "atrybuty-procesu"
+  ]
+}

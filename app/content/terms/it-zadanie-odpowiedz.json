@@ -1,0 +1,85 @@
+{
+  "id": "it-zadanie-odpowiedz",
+  "en": "Request / response",
+  "wymowa": "rikłest / rispons",
+  "wymowaAkcent": "ri-KŁEST / ri-SPONS",
+  "plEgzamin": "Żądanie i odpowiedź",
+  "plPodrecznik": "—",
+  "plInne": [
+    "zapytanie i odpowiedź",
+    "prośba i odpowiedź"
+  ],
+  "statusTlumaczenia": "B",
+  "zrodloTlumaczenia": {
+    "wydawcaEgzaminu": "—",
+    "podrecznik": "—",
+    "kurs": "Żądanie i odpowiedź (request / response)",
+    "uwaga": "Pojęcie spoza sylabusa egzaminu COBIT 5 Foundation; egzamin nie ma dla niego osobnej formy. „Request” tłumaczy się jako „żądanie” albo „zapytanie”. Nie myl ze „zgłoszeniem serwisowym” (service request) z procesu DSS02 – to prośba człowieka do działu IT, a nie wiadomość między komputerami."
+  },
+  "pulapka": false,
+  "kategoria": "podstawowe",
+  "status": "uproszczenie",
+  "poziomP": "P1",
+  "wymaga": [
+    "it-klient",
+    "it-serwer",
+    "it-siec"
+  ],
+  "poLudzku": "Prośba wysłana do innego komputera i wiadomość, którą on odsyła w zamian.",
+  "poziom1": "Żądanie (request) to wiadomość z prośbą, np. „podaj prognozę pogody dla Modrzewiowa”. Odpowiedź (response) to wiadomość zwrotna z wynikiem albo z informacją, że się nie udało.",
+  "poziom2": "Każde żądanie ma adresata (który serwer), treść (o co prosimy) i często dowód, kim jest proszący. Odpowiedź może być pozytywna („proszę, oto dane”) albo odmowna („nie ma takiej strony”, „brak dostępu”). Gdy odpowiedź nie przychodzi w określonym czasie, klient pokazuje błąd.",
+  "poziom3": "COBIT 5 nie używa tego pojęcia technicznie. Uwaga: „zgłoszenie serwisowe” (service request) w procesie DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami to prośba **użytkownika** do działu IT, np. o nowe konto – inne znaczenie słowa „request”.",
+  "wyobrazSobie": "List z pytaniem i list z odpowiedzią. Bez adresu list nie dojdzie, a bez odpowiedzi nie wiesz, czy dotarł.",
+  "poCo": "Żeby komputery mogły się porozumiewać w uporządkowany sposób: kto pyta, o co i co dostaje.",
+  "jakDziala": "Klient pisze żądanie i wysyła je przez sieć. Serwer je czyta, wykonuje zadanie i pisze odpowiedź. Odpowiedź wraca do klienta, a ten pokazuje wynik człowiekowi.",
+  "dlaczegoWazne": "Ten schemat stoi za prawie każdą usługą IT: od bankomatu po system alarmowy. Kto go rozumie, wie, gdzie może pojawić się awaria.",
+  "przyklady": {
+    "zycie": "Wpisujesz w wyszukiwarkę „apteka dyżurna”. Telefon wysyła żądanie. Po sekundzie przychodzi odpowiedź: lista aptek.",
+    "biuro": "Klikasz „Drukuj”. Komputer wysyła żądanie do drukarki sieciowej. Drukarka odpowiada „drukuję” albo „brak papieru”.",
+    "organizacja": "Kasa w sklepie wysyła żądanie do banku: „pobierz 49 zł z karty”. Bank odpowiada „zgoda” albo „odmowa”.",
+    "psp": "Kasia Nowik klika „Alarm”. Jej komputer wysyła żądanie do serwera „Syreny”. Serwer odpowiada: „wysłano 18 SMS-ów”.",
+    "it": "Uwaga na „service request” w DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami – to prośba użytkownika do IT, a nie wiadomość między komputerami."
+  },
+  "nieMylicZ": [
+    {
+      "termin": "Zgłoszenie serwisowe (service request)",
+      "roznica": "Prośba człowieka do działu IT, np. o nowe konto. Żądanie (request) w tym haśle to wiadomość między komputerami."
+    },
+    {
+      "termin": "it-usluga-it",
+      "roznica": "Żądanie i odpowiedź to mechanizm. Usługa to to, co człowiek dzięki niemu dostaje."
+    }
+  ],
+  "przykladWypowiedzi": "The client sends a request, czyli żądanie, a server returns a response, czyli odpowiedź; tak „Syrena” wysyła alarm.",
+  "egzamin": "Nie jest terminem egzaminu. Nie myl z „zgłoszeniem serwisowym” (service request) z procesu DSS02.",
+  "powiazane": [
+    "it-klient",
+    "it-serwer",
+    "it-usluga-it"
+  ],
+  "sylabus": [
+    "M0-00-07"
+  ],
+  "zrodla": [],
+  "glebokosc": {
+    "prosty": "Pytasz domownika: „kupiłeś chleb?”. To żądanie. Słyszysz: „tak, leży w kuchni”. To odpowiedź. Gdy nikt nie odpowiada, nie wiesz, czy usłyszał – tak samo „czeka” komputer.",
+    "zaawansowany": "Kasia klika „Alarm”, ale po 30 sekundach widzi „Brak odpowiedzi serwera”. Żądanie wyszło, odpowiedź nie wróciła. Ola Dudek sprawdza [[it-serwer|serwer]] i łącze. Okazuje się, że serwer zawiesił się w nocy. To był sygnał, że alarmów nie da się wysłać.",
+    "skrajny": "Czy odpowiedź „brak dostępu” to awaria? Nie – to poprawna odpowiedź: serwer działał i odmówił. Czy brak odpowiedzi znaczy, że serwer nie działa? Niekoniecznie – może zawiodła sieć po drodze. Czy „request” w nazwie DSS02 to to samo? Nie – to zgłoszenie człowieka do działu IT. **Rozstrzygnięcie:** żądanie i odpowiedź to para wiadomości między klientem a serwerem; odmowa to też odpowiedź, a brak odpowiedzi to dopiero sygnał awarii."
+  },
+  "zagmatwania": [
+    {
+      "mit": "Odpowiedź „brak dostępu” oznacza awarię.",
+      "prawda": "Serwer działa i odpowiedział – po prostu odmówił."
+    },
+    {
+      "mit": "„Service request” w COBIT 5 to żądanie wysłane przez komputer.",
+      "prawda": "To zgłoszenie użytkownika do działu IT, np. prośba o nowe konto (DSS02)."
+    }
+  ],
+  "mentor": {
+    "czestyBlad": "Traktowanie każdej odmowy jako awarii i mylenie technicznego żądania ze zgłoszeniem serwisowym.",
+    "jakTlumaczyc": "Pytanie i odpowiedź przy stole; odmowa („nie, nie kupiłem”) to też odpowiedź, a cisza to dopiero kłopot.",
+    "pytanieKontrolne": "Kasia dostała odpowiedź „brak uprawnień”. Czy serwer działa?",
+    "odpowiedzKontrolna": "Tak. Serwer odebrał żądanie i odpowiedział odmową. Kłopot dotyczy uprawnień, a nie awarii."
+  }
+}
