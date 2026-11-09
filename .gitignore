@@ -12,3 +12,6 @@ app/podrecznik/ilustracje/
 # Wersja do udostępnienia (tools/build-dist.py) – budowana lokalnie
 dist/
 cobit5-foundation-dist.zip
+
+# Prywatna historia wyników z testów ćwiczeniowych – tylko lokalnie
+sources/pakiet-90/postepy/
