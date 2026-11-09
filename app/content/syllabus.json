@@ -16,7 +16,7 @@
     "minutyDodatkowe": 10,
     "minutyDodatkoweOpis": "Dla osób zdających w języku innym niż ojczysty lub z niepełnosprawnością (SYL 3.3).",
     "progProcent": 50,
-    "progUwagi": "Sylabus: '50% (20 or more marks)'; inne źródła: 25/50. Przyjmujemy 25/50 jako próg i 35/50 jako cel treningowy.",
+    "progUwagi": "Sylabus v01.2 ma niespójny nawias 20 or more marks. Obowiązuje 50%, czyli 25/50, zgodnie z instrukcją APMG do arkusza Foundation. Cel treningowy to 35/50.",
     "celTreningowy": 35,
     "otwartaKsiazka": false,
     "poziomyBlooma": [
@@ -29,7 +29,7 @@
       "IM": 7,
       "PC": 7
     },
-    "wagiZrodlo": "Rozkład pytań w Sample Paper 1 (kody PR/EN/IM/PC w uzasadnieniach).",
+    "wagiZrodlo": "Przybliżone wagi treningowe na podstawie Sample Paper 1; nie gwarantują rozkładu innych arkuszy.",
     "progi": {
       "testDnia": 70,
       "symulacja": 35,
@@ -144,7 +144,7 @@
       "tytul": "Ryzyko i zasób",
       "en": "Risk and resource",
       "zakres": [
-        "ryzyko = prawdopodobieństwo × konsekwencje",
+        "ryzyko = połączenie prawdopodobieństwa zdarzenia i jego konsekwencji",
         "ryzyko ≠ zaistniały problem",
         "zasób – ludzie, pieniądze, sprzęt, informacja, czas"
       ],
@@ -645,7 +645,7 @@
       "en": "Definition and responsibilities of Governance and Management",
       "zakres": [
         "Ład: oszacuj, kieruj, monitoruj (EDM) – zarząd",
-        "Zarządzanie: planuj, wytwarzaj, wykonuj, monitoruj (PBRM) – kierownictwo"
+        "Zarządzanie: Planuj, Twórz, Wykonuj i Monitoruj (PBRM) – kierownictwo"
       ],
       "zrodlo": [
         {
@@ -908,13 +908,17 @@
         "poziom uprawnień",
         "delegowanie uprawnień",
         "procedury eskalacji",
-        "podejmowanie decyzji"
+        "podejmowanie decyzji (Decision making) – tryb rozstrzygania spraw"
       ],
       "zrodlo": [
         {
           "doc": "FW-PL",
           "strona": 75,
           "ilustracja": "32"
+        },
+        {
+          "doc": "SYL",
+          "strona": 8
         }
       ]
     },
@@ -1131,6 +1135,10 @@
       "zrodlo": [
         {
           "doc": "SYL"
+        },
+        {
+          "doc": "ENPROC",
+          "strona": 25
         }
       ]
     },
@@ -1166,6 +1174,10 @@
         {
           "doc": "FW-PL",
           "strona": 93
+        },
+        {
+          "doc": "ENPROC",
+          "strona": 25
         }
       ]
     },
@@ -1376,7 +1388,7 @@
         "PA 2.2 zarządzanie produktami pracy",
         "PA 3.1 definicja procesu",
         "PA 3.2 wdrożenie procesu",
-        "PA 4.1 pomiar procesu",
+        "PA 4.1 Miara procesu (podręcznik: pomiar procesu)",
         "PA 4.2 kontrola procesu",
         "PA 5.1 innowacja procesu",
         "PA 5.2 optymalizacja procesu"
@@ -1423,6 +1435,14 @@
       "zrodlo": [
         {
           "doc": "SYL"
+        },
+        {
+          "doc": "PAM",
+          "sekcja": "1.7"
+        },
+        {
+          "doc": "ISO-VOC",
+          "strona": 271
         }
       ]
     },
@@ -1464,6 +1484,10 @@
         },
         {
           "doc": "SP1"
+        },
+        {
+          "doc": "PAM",
+          "sekcja": "1.5"
         }
       ]
     },
@@ -1483,6 +1507,14 @@
         },
         {
           "doc": "SP1"
+        },
+        {
+          "doc": "PAM",
+          "sekcja": "1.7"
+        },
+        {
+          "doc": "ISO-VOC",
+          "strona": 271
         }
       ]
     },
@@ -1500,6 +1532,10 @@
       "zrodlo": [
         {
           "doc": "SYL"
+        },
+        {
+          "doc": "PAM",
+          "sekcja": "2.4"
         }
       ]
     },
@@ -1536,6 +1572,10 @@
         },
         {
           "doc": "SYL"
+        },
+        {
+          "doc": "PAM",
+          "sekcja": "2.5"
         }
       ]
     },

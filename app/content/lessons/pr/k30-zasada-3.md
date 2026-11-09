@@ -9,7 +9,7 @@ format: krotki
 sylabus: [PR-02-10]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-30-1, q-pra-30-2, q-pra-30-3]
+cwiczenia: [q-pra-30-1, q-pra-30-2, q-pra-30-3, q-warsztat-integracja]
 zapas: [q-pra-30-z1]
 wprowadza: [integrator]
 wymaga: [pr-k29-role-ladu]

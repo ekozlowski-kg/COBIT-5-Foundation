@@ -69,10 +69,10 @@ Jeśli proces nie osiąga poziomu 1, powód widać od razu. Wynik procesu nie je
 
 - **≠ przeliczenie starej oceny** dojrzałości z COBIT 4.1.
 - **≠ ocena ludzi** – ocenia się proces.
-- **≠ sprawdzanie planów i procedur** – to wyższe poziomy.
+- **≠ automatyczne nadanie poziomu za sam dokument** – plan lub procedura może też być produktem pracy konkretnego procesu.
 
 :::wykladowca
-Na egzaminie odrzucaj odpowiedzi o przeliczaniu wyników z COBIT 4.1. Odrzucaj też ocenę pracowników. Plany, procedury i pomiary to sprawa poziomów od 2 do 5.
+Na egzaminie odrzucaj odpowiedzi o przeliczaniu wyników z COBIT 4.1. Odrzucaj też ocenę pracowników. Plan, procedura albo raport może być dowodem wykonania procesu. Trzeba odróżnić jego treść od ogólnych atrybutów zdolności.
 :::
 
 ---

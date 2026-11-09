@@ -2,14 +2,14 @@
 id: en-k26-praktyki-struktur
 modul: EN
 modulNazwa: Moduł 2 – Aktywatory COBIT 5
-temat: Sześć dobrych praktyk struktur – zakres kontroli a poziom uprawnień
+temat: Dobre praktyki struktur i podejmowanie decyzji
 lekcja: "2.26"
 dzien: 5
 format: krotki
 sylabus: [EN-02-12]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-enk-26-1, q-enk-26-2, q-enk-26-3]
+cwiczenia: [q-enk-26-1, q-enk-26-2, q-enk-26-3, q-uzup-en-decision-making]
 zapas: [q-enk-26-z1]
 wprowadza: [dobre-praktyki-struktur]
 wprowadzaListe: [zasady-operacyjne, zakres-kontroli, poziom-uprawnien]
@@ -100,6 +100,24 @@ W jednym regulaminie widać cztery praktyki. Zwróć uwagę na dwa ostatnie punk
 
 :::wykladowca
 W notatkach z podręcznika zobaczysz „zasady działania” i „poziom decyzyjny”. Na egzaminie przeczytasz „zasady operacyjne” i „poziom uprawnień”. Przy wątpliwości wróć do angielskiego oryginału. Operating principles, span of control i level of authority mają tylko jedno znaczenie.
+:::
+
+---
+
+<!-- slajd: pojecie -->
+# Podejmowanie decyzji (Decision making)
+
+Sylabus EN-02-12 wymienia także **podejmowanie decyzji**. Trzeba wiedzieć, kto rozstrzyga sprawę i w jakim trybie, w ramach ustalonych uprawnień.
+
+- **Poziom uprawnień:** jakie decyzje wolno podjąć.
+- **Podejmowanie decyzji:** jak struktura dochodzi do rozstrzygnięcia.
+- **Eskalacja:** co zrobić, gdy nie może rozstrzygnąć sprawy.
+
+:::zrodlo SYL 8
+:::
+
+:::uproszczenie
+Przykład kursu: regulamin komitetu przewiduje głosowanie większością, wymaga obecności trzech członków i dokumentowania rozstrzygnięć. COBIT 5 nie narzuca takiego trybu każdej strukturze.
 :::
 
 ---

@@ -21,7 +21,7 @@ export const trapPill = () => '<span class="pill pill-trap" title="Egzamin PL uÅ
 export function sourceText(z) {
   if (!z) return '';
   const list = Array.isArray(z) ? z : [z];
-  return list.map((x) => sourceLabel(x.doc, x.strona, x.ilustracja) + (x.url ? ` (${x.url})` : '')).join('; ');
+  return list.map((x) => sourceLabel(x.doc, x.strona, x.ilustracja, x.sekcja) + (x.url ? ` (${x.url})` : '')).join('; ');
 }
 
 const inneName = (x) => (typeof x === 'string' ? x : `${x.nazwa}${x.zrodlo ? ` (${x.zrodlo})` : ''}`);

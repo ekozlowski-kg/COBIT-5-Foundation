@@ -30,7 +30,7 @@
   "poCo": "Żeby ocena miała jasną treść: wiadomo, co dany proces ma osiągać i po jakich dowodach to poznać.",
   "jakDziala": "Wymiar procesu bierze procesy z PRM. Każdy ma przeznaczenie, rezultaty, praktyki bazowe i produkty pracy. Te wskaźniki są inne dla każdego procesu i służą ocenie PA 1.1, czyli poziomu 1.",
   "dlaczegoWazne": "Egzamin pyta, z którym wymiarem wiąże się Referencyjny Model Procesu. Odpowiedź to wymiar procesu, a nie zdolności ani oba.",
-  "poziom2": "| Element | Skąd w COBIT 5 | Podręcznik PL |\n|---|---|---|\n| przeznaczenie i rezultaty | opis procesu w PRM | cel i wyniki procesu |\n| praktyki bazowe | praktyki nadzoru i zarządzania | podstawowe praktyki |\n| produkty pracy | wejścia i wyjścia | produkty działań |\n\nTe wskaźniki są **specyficzne dla każdego procesu**: inne dla DSS02, inne dla APO12. Opis procesu w PRM **nie może** zawierać cech atrybutów powyżej poziomu 1 (s. 43).",
+  "poziom2": "| Element | Skąd w COBIT 5 | Podręcznik PL |\n|---|---|---|\n| przeznaczenie i rezultaty | opis procesu w PRM | cel i wyniki procesu |\n| praktyki bazowe | praktyki nadzoru i zarządzania | podstawowe praktyki |\n| produkty pracy | wejścia i wyjścia | produkty działań |\n\nTe wskaźniki są **specyficzne dla każdego procesu**: inne dla DSS02, inne dla APO12. Przeznaczenie i rezultaty w normatywnym rdzeniu PRM nie powinny narzucać poziomu zdolności powyżej 1. Opis treści procesu może natomiast dotyczyć planowania, monitorowania lub raportowania, gdy wynika to z jego celu.",
   "poziom3": "Il. 19 (s. 42): *„COBIT 5 Model oceny procesu — wskaźniki wydajności”*: wyniki procesu, podstawowe praktyki (praktyki nadzoru/zarządzania), produkty działań (dane wejściowe/wyniki). (s. 43): model referencyjny procesu zawiera opis procesu ze wskazanym celem, podstawowe praktyki i produkty działań.",
   "przyklady": {
     "zycie": "Egzamin na prawo jazdy ma listę manewrów: parkowanie, łuk, ruszanie pod górę. To jak wymiar procesu: konkretne kroki i efekty, inne dla kategorii B, inne dla C. Lista nie mówi, jak dobrze kursant planuje naukę.",
@@ -41,8 +41,8 @@
   },
   "glebokosc": {
     "prosty": "Masz przepis na pierogi: po co je robisz, co ma wyjść, jakie są kroki i co zostaje na stole. To jedna strona oceny: czy pierogi w ogóle powstały. Druga strona to, jak dobrze organizujesz kuchnię.",
-    "zaawansowany": "Audytorka wewnętrzna zaczyna ocenę od wymiaru procesu. Bierze [[przeznaczenie-procesu|przeznaczenie]] i [[rezultat-procesu|rezultaty]] procesu zarządzania incydentami. Sprawdza [[praktyka-bazowa|praktyki bazowe]] i [[produkt-pracy|produkty pracy]]. Na tej podstawie ocenia [[pa-1-1|PA 1.1]]. Plan, standard i pomiar zostawia [[wymiar-zdolnosci|wymiarowi zdolności]].",
-    "skrajny": "Kierownik działu IT chce dopisać do opisu procesu zarządzania incydentami: „proces jest mierzony co tydzień i ma spisaną procedurę”. Audytorka protestuje. Framework mówi, że opis procesu w PRM nie może zawierać cech atrybutów powyżej poziomu 1. Pomiar i standard należą do wymiaru zdolności (PA 3.1, PA 4.1). Druga zagwozdka: PA 1.1 jest atrybutem, czyli częścią skali zdolności. Dowody do niego bierze się jednak z wymiaru procesu. **Rozstrzygnięcie:** wymiar procesu mówi, co proces ma osiągać i po czym to widać. Jest inny dla każdego procesu i służy ocenie poziomu 1, a pytanie „jak dobrze tym zarządzamy” należy do wymiaru zdolności."
+    "zaawansowany": "Audytorka wewnętrzna zaczyna ocenę od wymiaru procesu. Bierze [[przeznaczenie-procesu|przeznaczenie]] i [[rezultat-procesu|rezultaty]] procesu zarządzania incydentami. Sprawdza [[praktyka-bazowa|praktyki bazowe]] i [[produkt-pracy|produkty pracy]]. Na tej podstawie ocenia [[pa-1-1|PA 1.1]]. Następnie ocenia wyższe atrybuty. O ich osiągnięciu nie przesądza pojedynczy plan, standard ani pomiar.",
+    "skrajny": "DSS02.07 obejmuje monitorowanie i raportowanie obsługi zgłoszeń. Nie oznacza to automatycznie PA 4.1 ani poziomu 4. Normatywny rdzeń PRM określa przeznaczenie i rezultaty, bez narzucania poziomu zdolności powyżej 1. Praktyki procesu mogą jednak obejmować pomiary, jeśli wynikają z jego celu. PA 1.1 należy do wymiaru zdolności, lecz dowody jego osiągnięcia pochodzą ze wskaźników wymiaru procesu. **Rozstrzygnięcie:** odróżnij treść konkretnego procesu od kryteriów atrybutu zdolności."
   },
   "zagmatwania": [
     {
@@ -54,15 +54,15 @@
       "prawda": "Wymiary aktywatora (interesariusze, cele, cykl życia, dobre praktyki) to model aktywatora. Wymiar procesu to część oceny zdolności."
     },
     {
-      "mit": "W opisie procesu można zapisać, że proces jest mierzony i ma standard.",
-      "prawda": "Framework tego zabrania: opis procesu w PRM nie może zawierać cech powyżej poziomu 1 (s. 43)."
+      "mit": "Każdy pomiar w opisie procesu oznacza narzucenie poziomu 4.",
+      "prawda": "Pomiar może być częścią praktyki procesu, np. DSS02.07. Osiągnięcie PA 4.1 wymaga odrębnej oceny według kryteriów atrybutu."
     }
   ],
   "mentor": {
     "czestyBlad": "Uczeń przypisuje PRM do obu wymiarów albo do wymiaru zdolności.",
     "jakTlumaczyc": "Narysuj dwie osie. Pozioma to lista procesów z PRM (co robimy), pionowa to poziomy 0–5 (jak dobrze). Wymiar procesu to oś pozioma.",
-    "pytanieKontrolne": "Dlaczego opis procesu DSS02 w PRM nie mówi, że proces ma być mierzony?",
-    "odpowiedzKontrolna": "Bo opis procesu w PRM nie może zawierać cech atrybutów powyżej poziomu 1. Pomiar to PA 4.1, czyli wymiar zdolności."
+    "pytanieKontrolne": "Czy raportowanie wyników w DSS02.07 oznacza, że proces automatycznie osiąga poziom 4?",
+    "odpowiedzKontrolna": "Nie. Raportowanie może być praktyką konkretnego procesu. PA 4.1 ocenia osiągnięcie kryteriów ilościowego zarządzania procesem przewidywalnym; sam raport nie wystarcza."
   },
   "nieMylicZ": [
     {
@@ -103,6 +103,10 @@
       "doc": "FW-PL",
       "strona": 43,
       "cytat": "opis procesu ze wskazanym celem"
+    },
+    {
+      "doc": "ENPROC",
+      "strona": 180
     }
   ],
   "mapa": "wymiar-procesu"

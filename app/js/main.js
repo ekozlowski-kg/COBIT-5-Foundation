@@ -9,6 +9,7 @@ import { renderDrill } from './views/drill.js';
 import { renderReview } from './views/review.js';
 import { renderNotes } from './views/notes.js';
 import { renderExam } from './views/exam.js';
+import { renderLevel } from './views/level.js';
 
 const main = document.getElementById('main');
 let cleanup = null;
@@ -144,6 +145,7 @@ const routes = [
   [/^#\/powtorki$/, () => renderReview(main), 'powtorki'],
   [/^#\/notatki$/, () => renderNotes(main), 'notatki'],
   [/^#\/egzamin$/, () => renderExam(main), 'egzamin'],
+  [/^#\/poziom(?:\/(trening|diagnoza))?$/, (m) => renderLevel(main, m[1] || ''), 'poziom'],
   [/^#\/mapa$/, () => doPodrecznika('podrecznik/mapa.html'), 'mapa'],
   [/^#\/(?:dzien|mentor|moduly|modul|szybka|sprawdzian-mentora|druk)(?:\/.*)?$/, () => doPodrecznika(), 'podrecznik'],
 ];

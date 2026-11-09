@@ -377,7 +377,7 @@
         {
           "tekst": "wyznaczają kierunek",
           "poprawna": false,
-          "wyjasnienie": "Kierunek wyznacza Organ Ładu, a nie interesariusze. Interesariusze tylko delegują.",
+          "wyjasnienie": "Kierunek wyznacza Organ Ładu, a nie interesariusze. Na Rysunku 9 relacja delegowania biegnie od właścicieli i interesariuszy do Organu Ładu. To opis tej relacji, nie wszystkich działań interesariuszy.",
           "zycie": "W życiu to tak, jakby właściciel, który powierzył mieszkanie zarządcy, sam ustalał każdy kolejny remont.",
           "pulapka": "odwrocone"
         }
@@ -1169,6 +1169,49 @@
           "tekst": "Bo w ogóle nie wymaga zbierania dowodów",
           "poprawna": false,
           "wyjasnienie": "Brak wymogu dowodów to cecha Przewodnika Samooceny, a nie korzyść modelu zdolności. Model daje podstawę do bardziej formalnej oceny.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-uzup-en-decision-making",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k26-praktyki-struktur",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "status": "uproszczenie",
+      "tresc": "Regulamin komitetu określa, jak członkowie dochodzą do rozstrzygnięcia i jak zapisują jego wynik. Który element wymieniony w sylabusie opisuje to najtrafniej?",
+      "zrodlo": [
+        {
+          "doc": "SYL",
+          "strona": 8
+        }
+      ],
+      "opcje": [
+        {
+          "tekst": "Podejmowanie decyzji (Decision making)",
+          "poprawna": true,
+          "wyjasnienie": "Chodzi o sposób rozstrzygania spraw. Konkretny tryb w regulaminie jest przykładem kursu."
+        },
+        {
+          "tekst": "Poziom uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "Określa, jakie decyzje komitet może podejmować, a nie tryb dochodzenia do rozstrzygnięcia.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Delegowanie uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "Dotyczy przekazania uprawnień strukturze podległej.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Procedura eskalacji",
+          "poprawna": false,
+          "wyjasnienie": "Wskazuje drogę w przypadku problemu z podjęciem decyzji.",
           "pulapka": "inna-kategoria"
         }
       ]

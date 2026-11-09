@@ -6,7 +6,15 @@ Platforma nauki do egzaminu COBIT 5 Foundation (PeopleCert, po polsku). Główna
 
 Obok podręcznika są:
 - **Mapa COBIT 5**: interaktywny schemat całego frameworka na 7 mapach (zasady, kaskada celów, Ład i role, 37 procesów, aktywatory, wdrożenie, model zdolności). Klikalne węzły, powiązania i panel Prościej / Dokładniej / Na egzamin.
+- **Mój poziom**: wskaźnik treningowy (na 50; bez prognozowania wyniku egzaminu) i osobny wynik pierwszych zarejestrowanych odpowiedzi; obejmuje podręcznik, ćwiczeniach i egzaminach próbnych, wynik w obszarach PR/EN/IM/PC, słabe tematy sylabusa z powrotem do działu podręcznika, test diagnostyczny (20 pytań) i trening słabych tematów.
+- **Rozbiór pytań i pomoc AI**: w ćwiczeniach przycisk „Nie rozumiem pytania” (typ pytania, słowa-sygnały, znaczenie pojęć – bez zdradzania odpowiedzi), a po odpowiedzi gotowe polecenie dla Claude lub ChatGPT. Część podręcznika „Rozbiór pytań: 9 typów na przykładach”.
 - **Narzędzia**: egzamin próbny (50 pytań, 40 minut, wynik w podziale na obszary PR/EN/IM/PC), egzamin mistrzowski, słownik 230 pojęć z pułapkami nazw, powtórki, ćwiczenie nazw egzaminacyjnych i notatki.
+
+## Przegląd merytoryczny i materiały
+
+Poprawki z 2026-11-09 obejmują PRM/PAM, oba wymiary oceny, rezultaty procesu, ocenę dowodów i role interesariuszy. Dodano Decision making w lekcji o strukturach oraz autorski warsztat scenariuszowy. Szczegóły i ograniczenia w [rejestrze zmian merytorycznych](docs/PRZEGLAD-MERYTORYCZNY.md).
+
+[Bazy pytań, filmy i kursy](docs/BAZY-PYTAN-I-MATERIALY.md) mają datę i zakres weryfikacji. W aplikacji katalog jest pod `materialy.html` z wyszukiwaniem i filtrami. Treści zewnętrznych banków nie zostały skopiowane. [Macierz pokrycia](docs/POKRYCIE-SYLABUSA.md) oddziela powiązania z metadanych od zweryfikowanych fragmentów.
 
 ## Uruchomienie lokalne
 Dwuklik `start.command` albo:
@@ -61,6 +69,13 @@ Po zmianie haseł albo pytań odtwórz części podręcznika:
 ```bash
 cd app/podrecznik && PYTHONHASHSEED=0 python3 z_kursu.py
 ```
+
+Po regeneracji, z katalogu głównego repozytorium:
+```bash
+python3 app/tools/build-coverage.py
+node --test app/tests/question-history.mjs
+```
+Testy Node dotyczą wyłącznie narzędzi redakcyjnych; aplikacja nadal nie wymaga Node.js do uruchomienia.
 
 ## Zasady treści
 - Najpierw nazwa z polskiego egzaminu, potem z podręcznika PL i angielska. Pułapki nazw są wyraźnie oznaczone, a nazwy niepotwierdzone na egzaminie mają opis „niepotwierdzona”.

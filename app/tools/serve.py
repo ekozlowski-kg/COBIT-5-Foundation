@@ -22,7 +22,7 @@ CONTENT = APP / "content"
 
 STATUS = {"oficjalne", "uproszczenie", "przyklad", "niepotwierdzone", "opinia"}  # §17.2: opinia = opinia autora kursu
 KATEGORIE = {"podstawowe", "egzaminacyjne", "standard", "skrot"}
-DOCS = {"FW-PL", "SYL", "SP1", "ALTKOM", "WWW", "PROSTO", "PAKIET"}
+DOCS = {"FW-PL", "SYL", "SP1", "ALTKOM", "WWW", "PROSTO", "PAKIET", "PAM", "ENPROC", "ISO-VOC"}
 # §17.4/§17.6: zycie → biuro → organizacja → psp → it; firma/admin – przejściowo (= organizacja).
 KONTEKSTY = {"zycie", "biuro", "organizacja", "psp", "it", "firma", "admin"}
 STATUS_TLUM = {"A", "B", "C", "D"}

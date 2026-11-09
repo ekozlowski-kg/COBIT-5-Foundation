@@ -9,7 +9,7 @@ format: krotki
 sylabus: [PC-02-03]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-51-1, q-pck-51-2, q-pck-51-3]
+cwiczenia: [q-pck-51-1, q-pck-51-2, q-pck-51-3, q-warsztat-prm-pomiar]
 zapas: [q-pck-51-z1]
 wprowadza: []
 wymaga: [pc-k50-dwa-wymiary]
@@ -18,61 +18,60 @@ priorytet: 1
 ---
 
 <!-- slajd: start -->
-# Wzorzec, do którego przykładasz pracę
+# Co jest wzorcem oceny?
 
-Żeby ocenić, czy ciasto się udało, potrzebny jest przepis. Mówi, po co je pieczesz, jakie kroki wykonać i co ma powstać.
-
-:::wykladowca
-Ocena procesu też potrzebuje wzorca. Oceniający przykłada do niego rzeczywistą pracę. W COBIT 5 tym wzorcem jest Referencyjny Model Procesu.
-:::
+Wzorzec mówi, **po co** proces istnieje i **po czym poznamy**, że osiąga przeznaczenie. Oddzielnie oceniamy, jak dobrze jest prowadzony.
 
 ---
 
 <!-- slajd: pojecie -->
 # Referencyjny Model Procesu (Process Reference Model)
 
-**[[prm|Referencyjny Model Procesu]]** (*Process Reference Model*, PRM) to model procesów używany do oceny. Dla każdego procesu podaje:
+**[[prm|Referencyjny Model Procesu]]** (*Process Reference Model*, PRM) opisuje przeznaczenie i oczekiwane rezultaty procesów oraz ich wzajemne relacje.
 
-- opis procesu z celem,
-- podstawowe praktyki, czyli praktyki Ładu albo Zarządzania,
-- produkty działań, czyli wejścia i wyjścia.
+W COBIT 5 obejmuje 37 procesów. Przewodnik *Enabling Processes* rozwija ich opisy o praktyki, działania, wejścia, wyjścia, role i mierniki. Model Oceny Procesu (PAM) wykorzystuje wskaźniki wykonania i zdolności do oceny.
 
-> „podstawowe praktyki, stanowiące odpowiednik praktyk nadzoru nad procesami lub zarządzania nimi”
-
-:::zrodlo FW-PL 43
+:::zrodlo PAM
+:::
+:::zrodlo ENPROC 25
 :::
 
 :::wykladowca
-Podręcznik nazywa go modelem referencyjnym procesu. Egzamin pisze Referencyjny Model Procesu. W COBIT 5 to 37 procesów opisanych w przewodniku „Procesy umożliwiające”. Każdy ma cel, praktyki oraz wejścia i wyjścia. Tak wymaga norma ISO/IEC 15504.
+Normatywny rdzeń PRM to przeznaczenie i rezultaty. Praktyki bazowe oraz produkty pracy są wskaźnikami, które pomagają ocenić osiągnięcie rezultatów. Nie należy mylić całego przewodnika procesów z samą definicją PRM według ISO/IEC 15504.
 :::
 
 ---
 
 <!-- slajd: pojecie -->
-# W opisie procesu tylko poziom 1
+# Treść procesu a jego zdolność
 
-Opis procesu w PRM zawiera tylko kroki potrzebne do osiągnięcia celu. Nie ma w nim planowania, pomiaru ani standaryzacji.
+Opis referencyjny nie narzuca atrybutów zdolności powyżej poziomu 1 jako warunku osiągnięcia przeznaczenia.
 
-> „zawierają wyłącznie kroki konieczne do osiągnięcia rzeczywistych zamiarów i celów procesu”
+To **nie zakazuje planowania, pomiaru i raportowania**, jeżeli są treścią konkretnego procesu. Zdolność oceniamy osobno, według atrybutów.
 
 :::zrodlo FW-PL 43
 :::
+:::zrodlo ENPROC 180
+:::
 
 :::wykladowca
-Dlaczego? Bo planowanie, pomiar czy standard to cechy poziomów 2–5. Są wspólne dla wszystkich procesów i opisują je atrybuty. Gdyby trafiły do opisu procesu, treści by się powielały. Dawny COBIT 4.1 miał ten problem.
+Pytamy o znaczenie czynności. Raportowanie incydentów jest praktyką DSS02. Ogólne zarządzanie wykonaniem dowolnego procesu ocenia PA 2.1. Ilościowe zrozumienie i kontrola jego zmienności dotyczą poziomu 4. Sam czasownik „mierz” nie wyznacza poziomu.
 :::
 
 ---
 
 <!-- slajd: przyklad -->
-# Opis procesu obsługi incydentów
+# Raportowanie w obsłudze incydentów
 
-Opis mówi: rejestruj zgłoszenia, klasyfikuj je, usuwaj przyczynę, zamykaj zgłoszenie. Nie mówi: „mierz co miesiąc czas obsługi”.
+DSS02.07 obejmuje śledzenie stanu, analizowanie trendów oraz raportowanie zgłoszeń i incydentów. Ta praktyka należy do opisu procesu.
 
-Pomiar sprawdzi dopiero atrybut PA 4.1.
+PA 4.1 i PA 4.2 oceniają inne zagadnienie: pomiar i kontrolę zdolności procesu przewidywalnego. Posiadanie raportu nie dowodzi osiągnięcia poziomu 4.
 
-:::wykladowca
-To dobry test na egzaminie. Jeśli zdanie w opisie procesu dotyczy planowania, pomiaru czy standardu, nie należy do PRM. Należy do atrybutów, czyli do Wymiaru Zdolności. PRM łączy się z Wymiarem Procesu.
+:::zrodlo ENPROC 180
+:::
+
+:::uproszczenie
+Przykład autorski: helpdesk mierzy czas obsługi co miesiąc. To jeszcze nie dowód pełnego osiągnięcia atrybutów poziomów 1–3 ani obu atrybutów poziomu 4.
 :::
 
 ---
@@ -80,10 +79,10 @@ To dobry test na egzaminie. Jeśli zdanie w opisie procesu dotyczy planowania, p
 <!-- slajd: wniosek -->
 # Co zapamiętać
 
-**Wniosek:** PRM opisuje, co proces ma robić, i dlatego wiąże się z Wymiarem Procesu.
+**Wniosek:** PRM określa przeznaczenie i rezultaty, a PAM pomaga ocenić wykonanie i zdolność procesu.
 
 :::zapamietaj
-- PRM: opis z celem, podstawowe praktyki, produkty działań.
-- Opis procesu nie zawiera cech poziomów 2–5.
-- PRM ↔ Wymiar Procesu.
+- PRM: przeznaczenie, rezultaty i relacje procesów.
+- Praktyki bazowe i produkty pracy dostarczają dowodów wykonania.
+- Planowanie i pomiary mogą należeć do treści procesu; same nie dowodzą poziomu zdolności.
 :::

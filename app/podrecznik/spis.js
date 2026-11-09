@@ -161,7 +161,7 @@ window.SPIS=[
     "slajdy": 10,
     "pytania": 5,
     "sp1": 1,
-    "d": "Lekcje 1.33–0.24"
+    "d": "Lekcje 1.33–1.35, 0.23–0.24"
    },
    {
     "id": "k-pr-wymiary",
@@ -446,6 +446,12 @@ window.SPIS=[
     "d": "Lekcje 9.10–9.16"
    },
    {
+    "id": "03-czytanie-pytan",
+    "href": "03-czytanie-pytan.html",
+    "t": "Rozbiór pytań: 9 typów na przykładach",
+    "d": "NIE, NAJLEPIEJ, scenariusz, nazwa, kto, proces, poziom zdolności, kolejność, słowa skrajne"
+   },
+   {
     "id": "k-ex-powtorka",
     "href": "k-ex-powtorka.html",
     "t": "Powtórka przed egzaminem",
@@ -495,6 +501,18 @@ window.SPIS=[
     "pytania": 9,
     "sp1": 0,
     "d": "Lekcje 10.10–10.18"
+   }
+  ]
+ },
+ {
+  "chap": "Poza podręcznikiem · Warsztat i materiały",
+  "s": "",
+  "parts": [
+   {
+    "id": "04-warsztat",
+    "href": "04-warsztat.html",
+    "t": "Od potrzeb do dowodów",
+    "d": "Autorskie scenariusze, PRM/PAM, dowody, integracja i katalog materiałów"
    }
   ]
  }

@@ -27,7 +27,7 @@ SP1 = B.get("samplePaper") or []
 
 DOCS = {"FW-PL": "COBIT 5 Framework (PL)", "FW-EN": "COBIT 5 Framework (EN)", "SYL": "sylabus PeopleCert",
         "ALTKOM": "materiały Altkom", "SP1": "Sample Paper 1 (uzasadnienie)", "IMPL": "COBIT 5 Implementation",
-        "PAM": "COBIT 5 PAM"}
+        "PAM": "COBIT 5 PAM", "ENPROC": "COBIT 5: Enabling Processes", "ISO-VOC": "ISO/IEC/IEEE 24765:2010"}
 TYP = {"start": "Na start", "pojecie": "Pojęcie", "przyklad": "Przykład", "nie-jest": "Czym to nie jest",
        "pulapka": "Pułapka", "wniosek": "Wniosek", "rozklad": "Rozkład na części", "porownanie": "Porównanie",
        "schemat": "Schemat", "rozwiazany": "Przykład rozwiązany", "egzamin": "Na egzamin", "tresc": ""}
@@ -108,6 +108,7 @@ SPIS = [
     {"chap": "Poza podręcznikiem · Egzamin", "s": "", "parts": [
         K("m0-egzamin", "Egzamin w liczbach i pułapki nazw", L("M0", "0.33", "0.34", "0.35", "0.37")),
         K("ex-strategia", "Strategia: jak czytać pytania", rng("EX", "9", 10, 16)),
+        H("03-czytanie-pytan", "03-czytanie-pytan.html", "Rozbiór pytań: 9 typów na przykładach", "NIE, NAJLEPIEJ, scenariusz, nazwa, kto, proces, poziom zdolności, kolejność, słowa skrajne"),
         K("ex-powtorka", "Powtórka przed egzaminem", rng("EX", "9", 17, 22)),
     ]},
     {"chap": "Poza podręcznikiem · Mentor i finał", "s": "", "parts": [
@@ -115,6 +116,9 @@ SPIS = [
         K("mt-aktywatory", "Mentor: aktywatory i procesy", rng("MT", "MT", 15, 18)),
         K("mt-zdolnosc", "Mentor: zdolność, wdrożenie, prowadzenie zajęć", rng("MT", "MT", 19, 24)),
         K("fn-final", "Finał: tabele, obce źródła, pytania przekrojowe", rng("FN", "10", 10, 18)),
+    ]},
+    {"chap": "Poza podręcznikiem · Warsztat i materiały", "s": "", "parts": [
+        H("04-warsztat", "04-warsztat.html", "Od potrzeb do dowodów", "Autorskie scenariusze, PRM/PAM, dowody, integracja i katalog materiałów"),
     ]},
 ]
 
@@ -213,6 +217,8 @@ def zrodlo_list(zs):
             s += f", s. {z['strona']}"
         if z.get("ilustracja"):
             s += f", Ilustracja {z['ilustracja']}"
+        if z.get("sekcja"):
+            s += f", sekcja {z['sekcja']}"
         out.append(s)
     return "; ".join(dict.fromkeys(out))
 
@@ -318,7 +324,7 @@ def quiz(q, lesson, target=0):
     keys = [k for k in (lesson.get("wprowadza", []) + lesson.get("wprowadzaListe", [])) if k in TERMS][:4]
     used.update(keys)
     pom = {"t": f"Pytanie dotyczy lekcji {lesson['lekcja']} „{lesson['temat']}”. Cel lekcji: {plain(lesson.get('cel', ''))}", "k": keys}
-    r = {"tresc": inline(q.get("tresc")), "opcje": [{"t": inline(x.get("tekst")), **({"ok": True} if x.get("poprawna") else {}), "w": inline(x.get("wyjasnienie") or "")} for x in o],
+    r = {"id": q["id"], "sylabus": q.get("sylabus", []), "tresc": inline(q.get("tresc")), "opcje": [{"t": inline(x.get("tekst")), **({"ok": True} if x.get("poprawna") else {}), "w": inline(x.get("wyjasnienie") or "")} for x in o],
          "src": zrodlo_list(q.get("zrodlo")) or "pytanie autorskie kursu", "pomoc": pom}
     if q.get("scenariusz"):
         r["kontekst"] = inline(q["scenariusz"])
@@ -332,12 +338,11 @@ def term_obj(i):
     if nm:
         egz += " Nie myl z: " + "; ".join(f"{term_label(x.get('termin'))} – {plain(x.get('roznica'))}" for x in nm if isinstance(x, dict))
     zr = t.get("zrodla") or []
-    pages = sorted({z.get("strona") for z in zr if isinstance(z, dict) and z.get("doc") == "FW-PL" and z.get("strona")})
     return {"t": t.get("plEgzamin") or i, "eg": t.get("plEgzamin") or "", "pd": t.get("plPodrecznik") or "", "en": t.get("en") or "",
             "wyj": "\n\n".join(plain(t.get(k)) for k in ("poLudzku", "jakDziala", "poCo") if t.get(k)),
             "zycie": plain(p.get("zycie")), "firma": plain(p.get("firma") or p.get("organizacja") or p.get("biuro")),
             "urzad": plain(p.get("admin")), "it": plain(p.get("it")), "egz": egz.strip(),
-            "src": ("COBIT 5 Framework (PL), s. " + ", ".join(map(str, pages))) if pages else "materiały kursu"}
+            "src": zrodlo_list(zr) or "materiały kursu"}
 
 # ---------- miejsce pytań z Sample Paper 1: po ostatniej (w kolejności podręcznika) lekcji z tym samym kodem sylabusa ----------
 order = []
@@ -367,6 +372,22 @@ if MAPA:
             placed[key].append(sid)
         else:
             print("UWAGA: mapa SP1 wskazuje nieznaną lekcję", sid, m.get("lekcja"))
+
+if not SP1 and not MAPA:
+    for ch in SPIS:
+        for part in ch["parts"]:
+            old = HERE / part["href"]
+            if part.get("hand") or not old.exists():
+                continue
+            match = re.search(r"window.DECK=(.*?);</script>", old.read_text(encoding="utf-8"))
+            if not match:
+                continue
+            deck = json.loads(match.group(1).replace("<\\/", "</"))
+            for slide in deck.get("S", []):
+                if slide.get("sp1"):
+                    key = next((k for k in part["lessons"] if LESSONS[k]["lekcja"] == slide.get("lekcja")), None)
+                    if key is not None and slide["sp1"] not in placed[key]:
+                        placed[key].append(slide["sp1"])
 
 # ---------- rozbudowany kontekst slajdów (kontekst/*.json) ----------
 KX = {}
@@ -446,7 +467,7 @@ for n, p in enumerate(flat):
             pt = (f"Lekcje {nums[0]}–{nums[-1]}" if len(nums) > 1 else f"Lekcja {nums[0]}") if nums else ""
             for fld in ("b", "c", "ctx"):
                 used.update(i for i in re.findall(r'<w k="([\w-]+)">', sl.get(fld, "")) if i in TERMS)
-            S.append({"pt": pt, "h": sl["h"], "b": autolink(sl.get("b", "")), "c": sl.get("c", ""), "s": sl.get("s", ""), "ctx": sl.get("ctx", "")})
+            S.append({"lekcje": [LESSONS[k]["id"] for k in keys], "pt": pt, "h": sl["h"], "b": autolink(sl.get("b", "")), "c": sl.get("c", ""), "s": sl.get("s", ""), "ctx": sl.get("ctx", "")})
             for key in keys:
                 if key in covered:
                     continue
@@ -469,7 +490,7 @@ for n, p in enumerate(flat):
             pt = f"Lekcja {les['lekcja']}" + (f" · {TYP.get(s['typ'])}" if TYP.get(s["typ"]) else "")
             ctx = KX.get(les["id"], {}).get(str(k + 1)) or s["ctx"]
             used.update(i for i in re.findall(r'<w k="([\w-]+)">', ctx) if i in TERMS)
-            S.append({"pt": pt, "h": s["h"], "b": s["b"], "c": s["c"], "s": s["s"], "ctx": ctx})
+            S.append({"lekcje": [les["id"]], "pt": pt, "h": s["h"], "b": s["b"], "c": s["c"], "s": s["s"], "ctx": ctx})
         qs = [QUEST[i] for i in les.get("cwiczenia", []) if i in QUEST]
         qs.sort(key=lambda q: q.get("trudnosc", 2))
         for q in qs:
@@ -506,6 +527,8 @@ for p in flat:
     s = f.read_text(encoding="utf-8")
     js = lambda v: "null" if v is None else "'" + v + "'"
     s2 = re.sub(r"prev:(null|'[^']*'),next:(null|'[^']*')", f"prev:{js(p['prev'])},next:{js(p['next'])}", s, count=1)
+    s2 = re.sub(r'"prev":(?:null|"[^"]*"),"next":(?:null|"[^"]*")',
+                '"prev":' + json.dumps(p['prev']) + ',"next":' + json.dumps(p['next']), s2, count=1)
     f.write_text(s2, encoding="utf-8")
 # schemat 02b: odnośniki w stopce
 p2b = next(p for p in flat if p["href"].startswith("02b"))
@@ -541,12 +564,19 @@ for c in spis:
     for p in c["parts"]:
         if "d" not in p:
             ls = next(x for x in flat if x["id"] == p["id"])["lessons"]
-            p["d"] = f"Lekcje {LESSONS[ls[0]]['lekcja']}–{LESSONS[ls[-1]]['lekcja']}" if len(ls) > 1 else f"Lekcja {LESSONS[ls[0]]['lekcja']}"
+            # zakresy liczone osobno dla każdego modułu (np. „Lekcje 1.33–1.35, 0.23–0.24”)
+            grp = []
+            for k in ls:
+                if grp and grp[-1][0] == k[0]: grp[-1][1].append(LESSONS[k]['lekcja'])
+                else: grp.append((k[0], [LESSONS[k]['lekcja']]))
+            rr = [f"{g[0]}–{g[-1]}" if len(g) > 1 else g[0] for _, g in grp]
+            p["d"] = ("Lekcje " if len(ls) > 1 else "Lekcja ") + ", ".join(rr)
 (HERE / "spis.js").write_text("// Wygenerowane przez z_kursu.py – spis treści ułożony jak podręcznik COBIT 5.\nwindow.SPIS=" + json.dumps(spis, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
 
 # sp1.local.js – treść arkusza próbnego, tylko lokalnie
-sp = {q["id"]: {"nr": q.get("numer"), "kurs": MAPA.get(q["id"], {}).get("wyjasnienie", ""), "tresc": inline(q.get("tresc")), "opcje": [{"t": inline(o.get("tekst")), **({"ok": True} if o.get("poprawna") else {}), "w": inline(o.get("wyjasnienie") or "")} for o in q["opcje"]]} for q in SP1}
-(HERE / "sp1.local.js").write_text("// Sample Paper 1 (ISACA/PeopleCert) – tylko do nauki lokalnej, NIE commitować (*.local.* w .gitignore).\nwindow.SP1=" + json.dumps(sp, ensure_ascii=False) + ";\n", encoding="utf-8")
+sp = {q["id"]: {"sylabus": q.get("sylabus", []), "nr": q.get("numer"), "kurs": MAPA.get(q["id"], {}).get("wyjasnienie", ""), "tresc": inline(q.get("tresc")), "opcje": [{"t": inline(o.get("tekst")), **({"ok": True} if o.get("poprawna") else {}), "w": inline(o.get("wyjasnienie") or "")} for o in q["opcje"]]} for q in SP1}
+if SP1:
+    (HERE / "sp1.local.js").write_text("// Sample Paper 1 (ISACA/PeopleCert) – tylko do nauki lokalnej, NIE commitować (*.local.* w .gitignore).\nwindow.SP1=" + json.dumps(sp, ensure_ascii=False) + ";\n", encoding="utf-8")
 
 tot = sum(p.get("slajdy", 0) for p in flat)
 print(f"slajdów treści w częściach z kursu: {sum(p.get('tresc', 0) for p in flat)} (skrót w {sum(1 for p in flat if p['id'] in SKROT)} z {written} części)")

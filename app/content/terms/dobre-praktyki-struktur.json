@@ -15,7 +15,7 @@
   "dlaczegoWazne": "Egzamin pyta o nazwy tych praktyk i o różnicę między zakresem kontroli a poziomem uprawnień. To też przykład wymiaru „dobre praktyki” jednego z 7 aktywatorów.",
   "skadNazwa": "Pojedyncze praktyki mają różne tłumaczenia: egzamin mówi „zasady operacyjne”, „poziom uprawnień”, „delegowanie uprawnień”, a podręcznik „zasady działania”, „poziom decyzyjny”, „przekazywanie uprawnień”.",
   "poziom1": "Sześć rzeczy do ustalenia, żeby zespół czy komitet dobrze działał: jak się spotyka (zasady operacyjne), kto w nim jest (skład), w jakich granicach decyduje (zakres kontroli), jakie decyzje może podjąć (poziom uprawnień), co przekazuje niżej (delegowanie) i dokąd idzie, gdy utknie (procedury eskalacji). Przykład: rada rodziców, komitet zakupów.",
-  "poziom2": "| Praktyka | Co to jest (s. 75) |\n|---|---|\n| **Zasady operacyjne** | praktyczne ustalenia **jak struktura działa**: częstotliwość zebrań, dokumentacja, porządek |\n| **Skład** | członkowie, czyli interesariusze wewnętrzni i zewnętrzni |\n| **Zakres kontroli** | **granice** uprawnień decyzyjnych struktury |\n| **Poziom uprawnień** | **jakie decyzje** struktura może podejmować |\n| **Delegowanie uprawnień** | przekazanie uprawnień (lub części) **strukturom podległym** |\n| **Procedury eskalacji** | ścieżka i działania, gdy **nie da się podjąć decyzji** |",
+  "poziom2": "| Praktyka | Co to jest (s. 75) |\n|---|---|\n| **Zasady operacyjne** | praktyczne ustalenia **jak struktura działa**: częstotliwość zebrań, dokumentacja, porządek |\n| **Skład** | członkowie, czyli interesariusze wewnętrzni i zewnętrzni |\n| **Zakres kontroli** | **granice** uprawnień decyzyjnych struktury |\n| **Poziom uprawnień** | **jakie decyzje** struktura może podejmować |\n| **Delegowanie uprawnień** | przekazanie uprawnień (lub części) **strukturom podległym** |\n| **Procedury eskalacji** | ścieżka i działania, gdy **nie da się podjąć decyzji** |\n\nSylabus PeopleCert v01.2, EN-02-12 wymienia także **podejmowanie decyzji (Decision making)**. Dotyczy ono sposobu dochodzenia do rozstrzygnięć. Głosowanie lub uzgadnianie stanowiska są przykładami dydaktycznymi, nie obowiązkową procedurą COBIT 5.",
   "poziom3": "(s. 75): lista dobrych praktyk struktur organizacyjnych; Ilustracja 32.",
   "przyklady": {
     "zycie": "Wspólnota mieszkaniowa wybiera zarząd z trzech sąsiadów (skład). Zarząd spotyka się raz w miesiącu i pisze protokół (zasady operacyjne), zajmuje się tylko częściami wspólnymi budynku, nie mieszkaniami (zakres kontroli), sam może zlecić naprawę do 5 tys. zł (poziom uprawnień), sprzątanie klatek powierza administratorowi (delegowanie), a większe wydatki idą pod głosowanie wszystkich właścicieli (eskalacja). Tak wyglądają dobre praktyki struktury w jednym bloku.",
@@ -71,6 +71,10 @@
     },
     {
       "doc": "ALTKOM"
+    },
+    {
+      "doc": "SYL",
+      "strona": 8
     }
   ],
   "plInne": [],

@@ -9,7 +9,7 @@ format: krotki
 sylabus: [PR-02-09]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pra-29-1, q-pra-29-2, q-pra-29-3]
+cwiczenia: [q-pra-29-1, q-pra-29-2, q-pra-29-3, q-warsztat-interesariusze]
 zapas: [q-pra-29-z1]
 wprowadza: [organ-ladu]
 wprowadzaListe: [rola-interesariusze, rola-kierownictwo, rola-operacyjne]
@@ -45,7 +45,7 @@ Ten obraz zna każdy, kto mieszka w bloku. Mieszkańcy nie remontują dachu sami
 :::
 
 :::wykladowca
-Interesariusze, czyli właściciele, powierzają zadanie Organowi Ładu. Organ wyznacza kierunek i odpowiada przed nimi. Kierownictwo instruuje i dopasowuje pracę ról operacyjnych. Role operacyjne wykonują pracę i raportują do kierownictwa. Strzałka monitorowania łączy kierownictwo z organem Ładu. Według uzasadnień egzaminacyjnych kierownictwo odpowiada wykonawczo za monitorowanie osiągania celów.
+Właściciele, jako jedna z grup interesariuszy, powierzają zadanie Organowi Ładu. Organ wyznacza kierunek i odpowiada przed nimi. Kierownictwo instruuje i dopasowuje pracę ról operacyjnych. Role operacyjne wykonują pracę i raportują do kierownictwa. Strzałka monitorowania łączy kierownictwo z organem Ładu. Według uzasadnień egzaminacyjnych kierownictwo odpowiada wykonawczo za monitorowanie osiągania celów.
 :::
 
 ---
@@ -70,7 +70,7 @@ Na Ilustracji 9 strzałki biegną w dwie strony. Górne strzałki pokazują, kto
 # Cztery role w spółce
 
 - **Interesariusze:** akcjonariusze.
-- **Organ Ładu i nadzoru:** zarząd pod przywództwem prezesa.
+- **Organ Ładu i nadzoru:** organ pełniący funkcję *governing body*, zwykle *board* pod przewodnictwem *chairperson*.
 - **Kierownictwo:** kadra zarządzająca z dyrektorem generalnym (CEO) i dyrektorem IT (CIO).
 - **Role operacyjne:** administratorzy, programiści, helpdesk.
 
@@ -78,7 +78,7 @@ Na Ilustracji 9 strzałki biegną w dwie strony. Górne strzałki pokazują, kto
 :::
 
 :::wykladowca
-Podręcznik mówi, że za nadzór zwykle odpowiada zarząd pod przywództwem prezesa. Za zarządzanie odpowiada kadra pod przywództwem dyrektora generalnego. Przypisanie konkretnych stanowisk to nasz przykład. COBIT 5 opisuje role ogólnie.
+COBIT 5 rozróżnia funkcje, nie same nazwy stanowisk. Organ Ładu wyznacza kierunek i rozlicza wyniki; kierownictwo wykonawcze, zwykle pod kierunkiem CEO, prowadzi zarządzanie. Przypisanie tych funkcji zależy od struktury organizacji. Samo słowo „zarząd” nie rozstrzyga roli.
 :::
 
 ---
@@ -94,14 +94,14 @@ Podręcznik mówi, że za nadzór zwykle odpowiada zarząd pod przywództwem pre
 | Kierownictwo | Zarządzanie |
 | Role operacyjne | Eksploatacja i wykonanie |
 
-Interesariusze **tylko delegują** – nie monitorują i nie kierują.
+Na Rysunku 9 interesariuszom przypisano **relację delegowania**. Schemat nie wyczerpuje ich wszystkich działań ani nie utożsamia interesariuszy z właścicielami.
 :::
 
 :::zrodlo SP1
 :::
 
 :::wykladowca
-Podręcznik i egzamin nazywają role inaczej. Na egzaminie szukaj nazw z lewej kolumny. Najczęstsza pułapka dotyczy interesariuszy. Według uzasadnień egzaminacyjnych oni tylko delegują. Za monitorowanie osiągania celów odpowiada wykonawczo kierownictwo.
+Podręcznik i egzamin nazywają role inaczej. Na egzaminie szukaj nazw z lewej kolumny. Najczęstsza pułapka dotyczy interesariuszy. W pytaniu o Rysunek 9 rozpoznajemy strzałkę delegowania. Nie jest to pełna definicja interesariusza. Za monitorowanie osiągania celów odpowiada wykonawczo kierownictwo.
 :::
 
 ---
@@ -114,5 +114,5 @@ Podręcznik i egzamin nazywają role inaczej. Na egzaminie szukaj nazw z lewej k
 :::zapamietaj
 - Delegowanie → kierunek → instrukcje i dopasowanie (w dół).
 - Rozliczanie ← monitorowanie ← raportowanie (w górę).
-- Interesariusze tylko delegują.
+- Na Rysunku 9 interesariusze delegują; mogą też zgłaszać potrzeby, wpływać na decyzje i rozliczać Organ Ładu.
 :::

@@ -5,6 +5,8 @@ const empty = () => ({
   version: 1,
   units: {},      // unitId -> { seen: number[], last: number, done: bool }
   answers: {},    // qid -> { tries, lastCorrect, firstCorrect, at }
+  questionSeen: {}, // qid -> timestamp; wspólne dla ćwiczeń, podręcznika i egzaminów
+  firstAttempts: {}, // pierwsze zarejestrowane odpowiedzi MCQ bez pomocy
   flags: {},      // "slide:unit:idx" | "term:id" -> { powtorka, nieRozumiem, wazne, notatka }
   mistakes: {},   // termId -> liczba błędów
   syllabus: {},   // kod -> { ok, total }
@@ -54,6 +56,24 @@ export const store = {
     save();
   },
   unit(unitId) { return state.units[unitId] || { seen: [], last: 0, done: false }; },
+
+  // Rezerwacja/wyświetlenie pytania. Starsze odpowiedzi i pretesty też oznaczają ekspozycję.
+  questionSeen(qid) {
+    return !!(state.questionSeen[qid] || state.answers[qid] || state.pretest[qid]
+      || (state.examUsed || []).includes(qid));
+  },
+  markQuestionSeen(qid) {
+    if (!qid) return false;
+    const fresh = !this.questionSeen(qid);
+    state.questionSeen[qid] ||= Date.now();
+    save();
+    return fresh;
+  },
+  recordFirstAttempt(q, correct, fresh, { mode = 'ćwiczenia', hinted = false } = {}) {
+    if (!fresh || hinted || !q.id || q.opcje?.length !== 4 || state.firstAttempts[q.id]) return;
+    state.firstAttempts[q.id] = { correct: !!correct, mode, sylabus: q.sylabus || [], at: Date.now() };
+    save();
+  },
 
   // ---- Odpowiedzi ----
   // mastery=false (po podpowiedzi albo „Strzelam”) – odpowiedź zapisana, ale nie liczy się do opanowania (§11.2, §11.4).

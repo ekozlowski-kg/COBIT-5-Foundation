@@ -14,7 +14,10 @@
 //   pytanie: { pt, quiz: { kontekst?, tresc, opcje: [{ t, ok?, w }], src, pomoc?: { t?, k?: [klucze] } } }
 //            pomoc.t – podpowiedź, która NIE zdradza odpowiedzi; pomoc.k – pojęcia do przypomnienia.
 //            Bez pomocy silnik pokazuje pojęcia i kontekst najbliższego slajdu treści przed pytaniem.
-(function () {
+(async function () {
+  const { store: progressStore } = await import('../js/store.js');
+  let freshQuestion = false;
+  let helped = false;
   const D = window.DECK;
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -29,12 +32,15 @@
   };
   // Klikalne pojęcie z nazwą angielską pod spodem (żeby wzrokowo kojarzyć PL ↔ EN).
   // Gdy tuż za pojęciem stoi już <span class="en">, nie dublujemy oryginału.
-  const words = (html) => String(html || '').replace(/<w k="([\w-]+)">(.*?)<\/w>(?:\s*<span class="en">(.*?)<\/span>)?/g, (m, k, lab, enNext) => {
+  // Znak interpunkcyjny tuż za pojęciem (także za </b>) wchodzi do środka pojęcia (.wp, bez podkreślenia),
+  // bo przeglądarka łamie linię za blokiem pojęcia i „:” albo „,” spadałby na początek następnej linii.
+  const words = (html) => String(html || '').replace(/<w k="([\w-]+)">(.*?)<\/w>(?:\s*<span class="en">(.*?)<\/span>)?((?:<\/(?:b|strong|em|i)>)*)([,.;:!?)\]”»…]+)?/g, (m, k, lab, enNext, closers, punct) => {
     const t = D.T[k] && (Array.isArray(D.T[k]) ? { en: D.T[k][3] } : D.T[k]);
     const txt = enNext || (t && t.en ? esc(t.en) : '');
     const same = txt.replace(/<[^>]+>/g, '').trim().toLowerCase() === lab.replace(/<[^>]+>/g, '').trim().toLowerCase();
-    const en = txt && !same ? `<span class="wen" lang="en">${txt}</span>` : '';
-    return `<button class="w" data-k="${k}"><span class="wl">${lab}</span>${en}</button>`;
+    const en = txt && !same ? `<span class="wen" lang="en"><span>${txt}</span></span>` : '';
+    const wp = punct ? `<span class="wp">${punct}</span>` : '';
+    return `<button class="w" data-k="${k}"><span class="wl">${lab}</span>${wp}${en}</button>${closers || ''}`;
   });
   const keysIn = (html) => [...new Set([...String(html || '').matchAll(/<w k="([\w-]+)">/g)].map((m) => m[1]))].filter((k) => D.T[k]);
   const firstSentence = (s) => { const m = String(s || '').match(/^.*?[.!?](\s|$)/); return m ? m[0].trim() : String(s || ''); };
@@ -102,7 +108,7 @@
   const S = D.S.filter((s) => !s.sp1 || SP[s.sp1]).map((s) => {
     if (!s.sp1) return s;
     const q = SP[s.sp1];
-    return { pt: 'Arkusz próbny · pytanie nr ' + q.nr, sp: true, quiz: { tresc: q.tresc, opcje: q.opcje, kurs: q.kurs,
+    return { pt: 'Arkusz próbny · pytanie nr ' + q.nr, sp: true, quiz: { id: s.sp1, sylabus: q.sylabus || [], tresc: q.tresc, opcje: q.opcje, kurs: q.kurs,
       src: 'COBIT 5 Foundation Sample Paper 1 (PL), pytanie ' + q.nr + ' – oficjalny arkusz próbny, uzasadnienia z arkusza',
       pomoc: { t: 'Pytanie z oficjalnego arkusza próbnego. Dotyczy lekcji ' + s.lekcja + ' „' + s.temat + '”.', k: s.k || [] } } };
   });
@@ -143,6 +149,10 @@
     const q = s.quiz;
     const [n, of] = groupInfo(i);
     const answered = (entry()[1].qa || {})[i];
+    // Dawne ręczne pytania bez ID pozostają wyłącznie w wynikach treningowych.
+    if (typeof answered === 'number' && q.id) progressStore.markQuestionSeen(q.id);
+    freshQuestion = progressStore.markQuestionSeen(q.id);
+    helped = false;
     let h = `<div class="phead"><p class="part qpart">${s.sp ? esc(s.pt) : `${esc(s.pt || 'Sprawdź się')} · pytanie ${n} z ${of}`}</p><button class="ctxbtn" data-open="help">? Pomoc</button></div>`;
     if (q.kontekst) h += `<div class="qctx">${words(q.kontekst)}</div>`;
     h += `<h2 class="qstem">${words(q.tresc)}</h2><div class="qopts" role="group" aria-label="Odpowiedzi">`;
@@ -170,12 +180,31 @@
       ? '<p class="ok">Dobrze! Przeczytaj jeszcze wyjaśnienia pozostałych odpowiedzi.</p>'
       : `<p class="no">Prawidłowa odpowiedź to ${LETTERS[good]}. Przeczytaj wyjaśnienia – pomyłka teraz pomaga zapamiętać.</p>`;
     if (q.kurs) $('qres').innerHTML += `<div class="qkurs"><p class="trapk">Wyjaśnienie kursu</p><p>${words(q.kurs)}</p></div>`;
+    $('qres').insertAdjacentHTML('beforeend', `<div class="qai"><span>${k === good ? 'Pogłęb z AI' : 'Nadal niejasne? Wyjaśnij z AI'}:</span><button class="ctxbtn" data-ai="c">Claude ↗</button><button class="ctxbtn" data-ai="g">ChatGPT ↗</button><button class="ctxbtn" data-ai="k">Kopiuj prompt</button></div>`);
+    $('qres').querySelectorAll('[data-ai]').forEach((b) => b.addEventListener('click', () => askAI(q, k, good, b)));
     if (store) {
+      progressStore.recordFirstAttempt(q, k === good, freshQuestion, { mode: 'podręcznik', hinted: helped });
       const [st, e] = entry();
       e.q = e.q || {}; e.qa = e.qa || {};
       e.q[i] = k === good; e.qa[i] = k;
       st[D.id] = e; save(st); scoreLine();
     }
+  }
+  // Gotowe polecenie dla AI: pytanie, odpowiedzi, klucz i prośba o wyjaśnienie prostym językiem.
+  function askAI(q, k, good, btn) {
+    const plain = (h) => String(h || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    const p = ['Uczę się do egzaminu COBIT 5 Foundation (PeopleCert, wersja polska). Nie rozumiem tego pytania z podręcznika „' + plain(D.tytul) + '”.',
+      q.kontekst ? 'Opis sytuacji: ' + plain(q.kontekst) : '',
+      'Pytanie: ' + plain(q.tresc),
+      q.opcje.map((o, j) => LETTERS[j] + '. ' + plain(o.t)).join('\n'),
+      'Poprawna odpowiedź według klucza: ' + LETTERS[good] + '.' + (k !== good ? ' Ja wybrałem: ' + LETTERS[k] + '.' : ''),
+      '', 'Proszę:', '1. Powiedz prostym językiem, o co pyta to pytanie i które słowa są kluczowe.',
+      '2. Wyjaśnij, dlaczego poprawna odpowiedź jest poprawna, a pozostałe błędne (odwołaj się do COBIT 5).',
+      '3. Daj przykład z firmy i z urzędu.', '4. Zadaj mi jedno podobne pytanie kontrolne w stylu egzaminu i poczekaj na moją odpowiedź.',
+      'Używaj polskich nazw z egzaminu COBIT 5, a w nawiasie podaj nazwę angielską.'].filter((x) => x !== '').join('\n');
+    try { navigator.clipboard.writeText(p); } catch (e) { /* schowek niedostępny */ }
+    if (btn.dataset.ai === 'k') { btn.textContent = 'Skopiowano ✓'; return; }
+    window.open((btn.dataset.ai === 'c' ? 'https://claude.ai/new?q=' : 'https://chatgpt.com/?q=') + encodeURIComponent(p), '_blank', 'noopener');
   }
   function draw() {
     const s = S[i];
@@ -245,6 +274,7 @@
     $('ovbody').scrollTop = 0; $('ov').querySelector('.ovp').scrollTop = 0;
   }
   function open(v, push) {
+    if (S[i]?.quiz) helped = true;
     if (v.type === 'term' && !term(v.k)) return;
     if (v.type === 'term') tab = 'wyj';
     stack = push && $('ov').open ? stack.concat([v]) : [v];
@@ -300,6 +330,50 @@
     }
   });
   addEventListener('hashchange', () => { const n = fromHash(); if (n !== null && n !== i) { i = n; draw(); } });
+
+  // Etykiety EN pod pojęciami (.wen): nie mogą nachodzić na sąsiednią etykietę ani wychodzić poza akapit.
+  // Za szeroką etykietę zawijamy do szerokości wolnego miejsca (linia rośnie w pionie), a gdy miejsca
+  // jest bardzo mało – skracamy wielokropkiem; pełna nazwa zostaje w podpowiedzi (title).
+  const BLK = 'p,li,td,th,h1,h2,h3,blockquote,dd,figcaption,div';
+  // Kolejno w każdej linii (od lewej): etykieta może przesunąć się w lewo pod wcześniejsze słowa
+  // (tam jest wolne miejsce), ale nie dalej niż koniec poprzedniej etykiety i lewa krawędź akapitu.
+  // Dopiero gdy i tak się nie mieści – zawija się do szerokości wolnego pasa albo dostaje wielokropek.
+  function fitWen() {
+    const labs = [...document.querySelectorAll('.w .wen')].filter((l) => !l.closest('.chips,th'));
+    labs.forEach((l) => { l.classList.remove('fit', 'cut'); l.firstElementChild.style.width = ''; l.style.marginLeft = ''; });
+    const vw = document.documentElement.clientWidth;
+    const items = labs.map((l) => {
+      const blk = l.closest('.w').parentElement.closest(BLK);
+      let lo = 8, hi = vw - 8;
+      if (blk) { const b = blk.getBoundingClientRect(), cs = getComputedStyle(blk); lo = Math.max(lo, b.left + parseFloat(cs.paddingLeft || 0)); hi = Math.min(hi, b.right - parseFloat(cs.paddingRight || 0)); }
+      return { l, r: l.getBoundingClientRect(), nat: l.scrollWidth, lo, hi };
+    }).filter((x) => x.r.height > 0).sort((a, b) => a.r.top - b.r.top || a.r.left - b.r.left);
+    let prev = null;
+    items.forEach((x, k) => {
+      const same = (y) => y && Math.abs(y.r.top - x.r.top) < 3;
+      const next = same(items[k + 1]) ? items[k + 1] : null;
+      const left = same(prev) ? Math.max(x.lo, prev.end + 8) : x.lo;
+      const right = next ? Math.min(x.hi, next.r.left - 8) : x.hi;
+      let start = x.r.left;
+      if (start + x.nat > right) start = Math.max(left, right - x.nat);
+      let width = x.nat;
+      if (start + width > right) {
+        width = Math.max(24, Math.floor(right - start));
+        const w = x.l.closest('.w');
+        if (!w.title) w.title = x.l.textContent;
+        x.l.firstElementChild.style.width = width + 'px'; // szerokość ma wnętrze – .wen zostaje 0 i nie rozpycha pojęcia
+        x.l.classList.add(width >= 64 ? 'fit' : 'cut');
+      }
+      if (start < x.r.left) x.l.style.marginLeft = Math.round(start - x.r.left) + 'px';
+      x.end = start + width;
+      prev = x;
+    });
+  }
+  let fitQ = 0;
+  const fitSoon = () => { cancelAnimationFrame(fitQ); fitQ = requestAnimationFrame(fitWen); };
+  new MutationObserver(fitWen).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['open'] });
+  addEventListener('resize', fitSoon);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitSoon);
 
   const h = fromHash();
   if (location.hash === '#koniec') i = S.length - 1;

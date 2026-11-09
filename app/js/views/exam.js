@@ -6,6 +6,7 @@ import { renderExamQuestion, renderQuestion, correctIndex, trapStats, trapTable 
 import { currentDay } from '../progress.js';
 import { toast } from '../ui.js';
 import { runExamSession } from './exam-session.js';
+import { topicParts } from '../diagnoza.js';
 
 // Proporcje obszarów: syllabus.json → egzamin.wagi (rozkład Sample Paper 1: EN 21 · PR 15 · IM 7 · PC 7).
 let AREA_WEIGHT = { PR: 0.3, EN: 0.42, IM: 0.14, PC: 0.14 };
@@ -22,10 +23,18 @@ function drawAuthored(poolAll, n) {
   const extreme = shuffle(poolAll.filter((q) => q.skrajnosc)).slice(0, maxExtreme);
   const pool = [...poolAll.filter((q) => !q.skrajnosc), ...extreme];
   // Druga symulacja w miarę możliwości bez pytań z poprzednich (pula wystarcza na 2 rozłączne arkusze).
-  const used = new Set(store.get().examUsed || []);
+  const used = new Set(pool.filter((q) => store.questionSeen(q.id)).map((q) => q.id));
   const byArea = {};
   const ordered = [...shuffle(pool.filter((q) => !used.has(q.id))), ...shuffle(pool.filter((q) => used.has(q.id)))];
-  for (const q of ordered) (byArea[C.areaOf(C.firstCode(q))] ||= []).push(q);
+  // Jak w Sample Paper 1: zwykle jedno pytanie na temat sylabusa. Limit na temat, żeby np. nazwy procesów
+  // (najliczniejsza część banku pytań) nie zdominowały arkusza.
+  const cap = Math.max(1, Math.ceil(n / 25));
+  const perTopic = {};
+  for (const q of ordered) {
+    const code = C.firstCode(q);
+    if ((perTopic[code] = (perTopic[code] || 0) + 1) > cap) continue;
+    (byArea[C.areaOf(code)] ||= []).push(q);
+  }
   const out = [];
   // Największe reszty: dokładnie n miejsc rozdzielonych wg wag.
   const quota = Object.entries(AREA_WEIGHT).map(([a, w]) => ({ a, exact: n * w, k: Math.floor(n * w) }));
@@ -59,7 +68,7 @@ export async function renderExam(main) {
       <div class="page">
         <h1>Centrum egzaminacyjne</h1>
         <p class="page-lead">Jak egzamin komputerowy PeopleCert po polsku: 50 pytań, 4 odpowiedzi, jedna poprawna, jedno pytanie na ekranie, możliwość oznaczenia pytania do powrotu, 40 minut. Próg zaliczenia: 25/50; cel w próbnych egzaminach: co najmniej 35/50. Omówienie dopiero po zakończeniu.</p>
-        <p class="small muted" style="margin:-16px 0 24px">Dodatkowe 10 minut przysługuje przy egzaminie w języku innym niż ojczysty albo osobom z niepełnosprawnością, więc tu ich nie ma (sylabus PeopleCert v01.2, pkt 3.3). Sylabus podaje próg „50% (20 or more marks)” – bezpieczniej celować w co najmniej 25 z 50.</p>
+        <p class="small muted" style="margin:-16px 0 24px">Historyczny sylabus przewiduje dodatkowy czas w określonych przypadkach; warunki i udogodnienia należy potwierdzić u operatora swojego egzaminu. Ta próba używa podstawowych 40 minut (sylabus PeopleCert v01.2, pkt 3.3). Sylabus v01.2 zawiera niespójny nawias „20 or more marks”; 50% z 50 to 25 punktów, zgodnie z instrukcją APMG do arkusza Foundation.</p>
         <label class="card" style="display:flex;gap:12px;align-items:flex-start;margin-bottom:16px;cursor:pointer">
           <input type="checkbox" id="fullFlow" checked style="margin-top:4px">
           <span><strong>Pełna procedura krok po kroku</strong><br><span class="small muted">Test systemu, logowanie, NDA, instrukcja, samouczek, zasady, dokument tożsamości, kontrola z proktorem, egzamin, ankieta i raport – w kolejności jak w dniu egzaminu online. Odznacz, żeby od razu przejść do pytań.</span></span>
@@ -76,7 +85,7 @@ export async function renderExam(main) {
           </div>`}
           <div class="card">
             <h3 style="margin-top:0">Próbny egzamin z pytań kursu</h3>
-            <p class="muted small">${authored.length} pytań w puli. Losowanie w proporcjach egzaminu: ${Object.entries(w).map(([a, v]) => `${a} ${v}`).join(' · ')} (na 50).</p>
+            <p class="muted small">${authored.length} pytań w puli. Losowanie według przykładowego rozkładu SP1: ${Object.entries(w).map(([a, v]) => `${a} ${v}`).join(' · ')} (na 50). Pytania znane z ćwiczeń i podręcznika są wybierane w dalszej kolejności; przy wyczerpaniu puli wracają powtórki.</p>
             <div class="btn-row">
               <button class="btn btn-primary" data-start="authored" ${authored.length >= 10 ? '' : 'disabled'}>Pełna (${Math.min(50, authored.length)} pytań)</button>
               <button class="btn" data-start="mini" ${authored.length >= 10 ? '' : 'disabled'}>Krótka (10 pytań / 8 min)</button>
@@ -88,7 +97,7 @@ export async function renderExam(main) {
         <div class="grid grid-2">
           ${sample ? `<div class="card">
             <h3 style="margin-top:0">Sample Paper 1 – drugi raz, z omówieniem</h3>
-            <p class="muted small">Po pierwszym pomiarze nic już nie zawyża wyniku. Teraz przechodzisz arkusz spokojnie, pytanie po pytaniu, z uzasadnieniem każdej odpowiedzi.</p>
+            <p class="muted small">To powtórka znanych pytań. Teraz przechodzisz arkusz spokojnie, pytanie po pytaniu, z uzasadnieniem każdej odpowiedzi.</p>
             ${store.get().exams.some((e) => e.name === 'Sample Paper 1') ? `<button class="btn btn-lg" data-start="sp1learn">Przejdź z omówieniem</button>` : '<p class="small">🔒 Odblokuje się po pierwszym podejściu do Sample Paper 1.</p>'}
           </div>` : ''}
           <div class="card">
@@ -140,6 +149,8 @@ export async function renderExam(main) {
   function run(qsIn, minutes, name) {
     const attempt = Date.now();
     const qs = qsIn.map((q) => C.shuffleOptions(q, attempt));
+    // Rezerwacja całego arkusza: przerwane podejście nie wraca do puli nowych pytań.
+    const fresh = new Set(qs.filter((q) => store.markQuestionSeen(q.id)).map((q) => q.id));
     const full = !!document.getElementById('fullFlow')?.checked;
     sessionCleanup = runExamSession(main, {
       qs, minutes, name, full,
@@ -155,6 +166,7 @@ export async function renderExam(main) {
           r.total++;
           const ok = ans[i] === correctIndex(q);
           if (ok) { r.ok++; score++; }
+          if (ans[i] !== null) store.recordFirstAttempt(q, ok, fresh.has(q.id), { mode: 'egzamin' });
           store.recordAnswer(q, ok, { terms: C.termsOfQuestion(q) });
         });
         store.saveExam({ at: Date.now(), name, score, total: qs.length, byArea, minutes: minutesUsed, ankieta: survey });
@@ -164,12 +176,19 @@ export async function renderExam(main) {
     });
   }
 
-  function results(qs, answers, score, byArea, minutes, name = 'Egzamin') {
+  async function results(qs, answers, score, byArea, minutes, name = 'Egzamin') {
+    const tp = await topicParts();
+    const syl = await C.syllabus();
+    const topicTitle = Object.fromEntries((syl.tematy || []).map((t) => [t.kod, t.tytul]));
     const pct = score / qs.length;
     const pass = Math.ceil(qs.length * 0.5);
     const target = Math.ceil(qs.length * 0.7);
     const passed = score >= pass;
     const wrong = qs.map((q, i) => ({ q, i })).filter(({ q, i }) => answers[i] !== correctIndex(q));
+    const wt = new Map();
+    for (const { q } of wrong) { const c = C.firstCode(q); if (c) wt.set(c, (wt.get(c) || 0) + 1); }
+    const wrongTopics = [...wt.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
+    const back = (q) => { const h = (tp.byTopic[C.firstCode(q)] || [])[0]; return h ? `Temat w podręczniku: <a href="podrecznik/${esc(h)}">${esc((tp.title[h] || {}).t || h)}</a>` : ''; };
     main.innerHTML = `
       <div class="page" style="max-width:880px">
         <div class="card" style="text-align:center" id="report">
@@ -186,13 +205,17 @@ export async function renderExam(main) {
           <strong title="${esc(C.AREAS[a] || '')}">${esc(a)}</strong>
           <div class="progress"><span style="width:${(r.ok / r.total) * 100}%;background:${r.ok / r.total >= 0.5 ? 'var(--ok)' : 'var(--bad)'}"></span></div>
           <span class="small">${r.ok}/${r.total}</span></div>`).join('')}</div>
+        ${wrongTopics.length ? `<h2 style="font-size:1.2rem;margin-top:28px">Wróć do tych działów</h2>
+        <div class="card"><p class="small muted" style="margin-top:0">Tematy, w których były błędy, od największej liczby błędów. Po powtórce działu zrób trening słabych tematów.</p>
+        <ul class="unit-list">${wrongTopics.map(([c, n]) => { const h = (tp.byTopic[c] || [])[0]; return `<li><a href="${h ? `podrecznik/${esc(h)}` : '#/poziom'}"><span class="pill" style="color:var(--bad)">${n}× błąd</span><span>${esc(topicTitle[c] || c)}${h ? ` <span class="muted small">→ ${esc((tp.title[h] || {}).t || h)}</span>` : ''}</span></a></li>`; }).join('')}</ul>
+        <div class="btn-row"><a class="btn btn-primary" href="#/poziom/trening">Trening słabych tematów</a><a class="btn" href="#/poziom">Mój poziom</a></div></div>` : ''}
         <h2 style="font-size:1.2rem;margin-top:28px">Które pułapki kosztowały punkty</h2>
         ${trapTable(trapStats(qs, answers), C.PULAPKI)}
         <h2 style="font-size:1.2rem;margin-top:28px">Omówienie błędów (${wrong.length})</h2>
         <div class="grid" id="wrongList">${wrong.map(({ i }) => `<div class="card"><div class="slide-kind" style="margin-bottom:6px">Pytanie ${i + 1}</div><div data-w="${i}"></div></div>`).join('') || '<p class="muted">Bez błędów!</p>'}</div>
         <div class="btn-row" style="margin-top:20px"><button class="btn btn-primary" id="back">Centrum egzaminacyjne</button><a class="btn" href="#/powtorki">Powtórki</a></div>
       </div>`;
-    wrong.forEach(({ q, i }) => renderExamQuestion(main.querySelector(`[data-w="${i}"]`), q, { selected: answers[i], reveal: true }));
+    wrong.forEach(({ q, i }) => renderExamQuestion(main.querySelector(`[data-w="${i}"]`), q, { selected: answers[i], reveal: true, backLink: back(q) }));
     document.getElementById('back').addEventListener('click', lobby);
     document.getElementById('printRep').addEventListener('click', () => window.print());
     document.getElementById('exportRep').addEventListener('click', () => {
