@@ -144,7 +144,7 @@
       "tytul": "Ryzyko i zasób",
       "en": "Risk and resource",
       "zakres": [
-        "ryzyko = prawdopodobieństwo × konsekwencje",
+        "ryzyko = połączenie prawdopodobieństwa zdarzenia i jego konsekwencji",
         "ryzyko ≠ zaistniały problem",
         "zasób – ludzie, pieniądze, sprzęt, informacja, czas"
       ],
@@ -645,7 +645,7 @@
       "en": "Definition and responsibilities of Governance and Management",
       "zakres": [
         "Ład: oszacuj, kieruj, monitoruj (EDM) – zarząd",
-        "Zarządzanie: planuj, wytwarzaj, wykonuj, monitoruj (PBRM) – kierownictwo"
+        "Zarządzanie: Planuj, Twórz, Wykonuj i Monitoruj (PBRM) – kierownictwo"
       ],
       "zrodlo": [
         {
@@ -1376,7 +1376,7 @@
         "PA 2.2 zarządzanie produktami pracy",
         "PA 3.1 definicja procesu",
         "PA 3.2 wdrożenie procesu",
-        "PA 4.1 pomiar procesu",
+        "PA 4.1 Miara procesu (podręcznik: pomiar procesu)",
         "PA 4.2 kontrola procesu",
         "PA 5.1 innowacja procesu",
         "PA 5.2 optymalizacja procesu"

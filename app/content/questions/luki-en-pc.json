@@ -1,0 +1,1393 @@
+{
+  "_opis": "Luki w ćwiczeniach (audyt pokrycia, 2026-11-09): EN-02-07 interesariusze procesu, EN-02-09 cykl życia i dobre praktyki procesu, EN-02-24 elementy opisu procesu, PC-02-02 trzy przewodniki programu oceny. Po 8 pytań na kod. Fakty z FW-PL (s. 30, 41–45, 69–72, 76) i sylabusa PeopleCert (SYL); wiedza spoza FW-PL ma status uproszczenie.",
+  "pytania": [
+    {
+      "id": "q-luk-enpc-01",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-07"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Szpital opisuje proces rejestracji pacjentów. Kto z wymienionych jest interesariuszem **wewnętrznym** tego procesu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Pracownik rejestracji szpitala",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW s. 69: do interesariuszy wewnętrznych należą zarząd, kierownictwo, pracownicy i wolontariusze."
+        },
+        {
+          "tekst": "Organ regulacyjny, który kontroluje szpitale",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Organy regulacyjne FW s. 69 wymienia wśród interesariuszy zewnętrznych.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Pacjent zapisujący się na wizytę",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Pacjent jest klientem szpitala, a klienci to interesariusze zewnętrzni (s. 69).",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Firma, która dostarcza system rejestracji",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Dostawca to partner biznesowy, czyli interesariusz zewnętrzny (s. 69).",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-02",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-07"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Który zestaw zawiera **wyłącznie** interesariuszy zewnętrznych procesu według COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zarząd, klienci, organy regulacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Zarząd jest interesariuszem wewnętrznym (s. 69), więc zestaw nie jest jednorodny.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Klienci, partnerzy biznesowi, udziałowcy",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW s. 69: interesariuszami zewnętrznymi są klienci, partnerzy biznesowi, udziałowcy i organy regulacyjne."
+        },
+        {
+          "tekst": "Kierownictwo, pracownicy, wolontariusze",
+          "poprawna": false,
+          "wyjasnienie": "Nie. To lista interesariuszy wewnętrznych (s. 69), czyli odwrotność pytania.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Partnerzy biznesowi, pracownicy, organy regulacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Pracownicy są interesariuszami wewnętrznymi (s. 69).",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-07"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Gdzie COBIT 5 ujmuje interesariuszy procesu oraz ich stopień odpowiedzialności?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "W kaskadzie celów",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Kaskada celów przekłada potrzeby interesariuszy na cele, ale nie przypisuje ról przy działaniach procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "W Modelu Zdolności Procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Model Zdolności Procesu mierzy, jak dobrze działa proces (s. 41), a nie kto w nim uczestniczy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "W diagramie RACI",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW s. 69: interesariuszy oraz ich stopień odpowiedzialności ujęto w tabeli RACI (na egzaminie: diagram RACI)."
+        },
+        {
+          "tekst": "W zasadach i politykach procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Zasady i polityki formalizują proces (s. 72), ale role przy działaniach wskazuje diagram RACI (s. 69).",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-04",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-07"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "COBIT 5 wskazuje interesariuszy procesu za pomocą diagramu RACI. Która z poniższych ról **NIE** występuje w tym diagramie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 30
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 72
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Konsultant (C)",
+          "poprawna": false,
+          "wyjasnienie": "Występuje. RACI obejmuje strony odpowiedzialne, rozliczane, konsultowane i informowane (s. 30, 72).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Odpowiedzialny decyzyjnie (A)",
+          "poprawna": false,
+          "wyjasnienie": "Występuje. To rola A – kto odpowiada za powodzenie zadania (s. 72; słownik s. 89).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Informowany (I)",
+          "poprawna": false,
+          "wyjasnienie": "Występuje. To rola I – kto otrzymuje informacje o postępach (s. 72; słownik s. 92).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wspierający (S)",
+          "poprawna": true,
+          "wyjasnienie": "Tak, tej roli nie ma. Diagram RACI w COBIT 5 ma tylko cztery role: R, A, C i I (s. 30, 72)."
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-05",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-07"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Gmina opisuje proces obsługi wniosków o dofinansowanie. Kierownik referatu odpowiada za wynik, urzędnicy wykonują pracę, radca prawny wydaje opinię, a mieszkańcy tylko dostają powiadomienie o decyzji. Jak opisać mieszkańców?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 72
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Informowany (I), interesariusz zewnętrzny",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Dostają tylko informację, więc to rola I (s. 72). Są klientami urzędu, a klienci to interesariusze zewnętrzni (s. 69)."
+        },
+        {
+          "tekst": "Konsultant (C), interesariusz zewnętrzny",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Konsultant dostarcza opinię przed decyzją, a mieszkańcy tylko otrzymują wynik. Tak działa radca prawny.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Informowany (I), interesariusz wewnętrzny",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Rola się zgadza, ale mieszkańcy nie należą do zarządu, kierownictwa ani pracowników gminy (s. 69).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nikt, bo nie wykonują działań procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Interesariuszami są wszystkie strony z diagramu RACI, także informowane (s. 72), a nie tylko wykonawcy.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-06",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Bank powołuje kierowników procesów. Który opis **NAJLEPIEJ** oddaje, kogo COBIT 5 uznaje za interesariuszy procesu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 30
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 72
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wyłącznie pracowników, którzy na co dzień wykonują działania procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Wykonawcy (R) to tylko jedna z czterech ról. Interesariuszami są też A, C i I (s. 72).",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Każdą stronę ujętą w diagramie RACI dla działań procesu",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Przykład 10 (s. 72): interesariuszami procesów są wszystkie strony odpowiedzialne, rozliczane, konsultowane lub informowane (RACI)."
+        },
+        {
+          "tekst": "Tylko zarząd i kierownictwo banku",
+          "poprawna": false,
+          "wyjasnienie": "Nie. To tylko część interesariuszy wewnętrznych. Brakuje pracowników i stron zewnętrznych (s. 69).",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Tylko klientów i organy regulacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Nie. To tylko część interesariuszy zewnętrznych (s. 69). Brakuje stron wewnętrznych.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-07",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "W zarządzaniu wydajnością aktywatora Procesy pada pytanie: „Czy uwzględniono potrzeby interesariuszy?”. Jakim wskaźnikiem się je mierzy?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 71
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wskaźnikiem wiodącym",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Wskaźniki wiodące (w podręczniku: wyprzedzające) dotyczą cyklu życia i dobrych praktyk (s. 71).",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Poziomem zdolności procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Poziom zdolności to osobna skala oceny procesu (s. 71), a nie kategoria wskaźnika wydajności.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wskaźnikiem opóźnionym",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW s. 71: pierwsze dwa pytania (interesariusze i cele) dotyczą wyniku procesu i mierzą je wskaźniki następujące, na egzaminie: opóźnione."
+        },
+        {
+          "tekst": "Wskaźnikiem ryzyka",
+          "poprawna": false,
+          "wyjasnienie": "Nie. COBIT 5 dzieli mierniki wydajności aktywatora na opóźnione i wiodące (s. 71). Takiej kategorii nie ma.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-08",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-07"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Sklep internetowy opisuje działanie „zatwierdzenie zwrotu powyżej 1000 zł”. Kierowniczka obsługi klienta odpowiada za wynik, pracownicy infolinii wykonują pracę, dział prawny opiniuje, a firma kurierska dostaje informację. Kto jest interesariuszem **zewnętrznym**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 72
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Kierowniczka obsługi klienta, Odpowiedzialny decyzyjnie (A)",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Kierownictwo to interesariusz wewnętrzny (s. 69), mimo że pełni rolę A.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Dział prawny sklepu, Konsultant (C)",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Dział prawny to pracownicy sklepu, czyli interesariusz wewnętrzny (s. 69).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Pracownicy infolinii, Odpowiedzialny wykonawczo (R)",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Pracownicy to interesariusze wewnętrzni (s. 69).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Firma kurierska, Informowany (I)",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Firma kurierska to partner biznesowy, czyli interesariusz zewnętrzny (s. 69). Dostaje tylko informację, więc pełni rolę I (s. 72)."
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-09",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-09"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Starostwo od dwóch lat stosuje i monitoruje proces wydawania zaświadczeń. Zmieniły się przepisy. Co według cyklu życia procesu w COBIT 5 powinno nastąpić teraz?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 72
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Dostosowanie procesu do zmian albo jego wycofanie",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW s. 70: proces jest definiowany, tworzony, obsługiwany, monitorowany oraz dostosowywany/aktualizowany lub wycofywany."
+        },
+        {
+          "tekst": "Ponowne określenie celów całego systemu Ładu w urzędzie",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Zmiana przepisów dotyczy tego procesu. Cykl życia procesu kończy się jego dostosowaniem lub wycofaniem (s. 70).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Formalna ocena zdolności przez asesora",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Ocena zdolności może pomóc, ale nie jest etapem cyklu życia z s. 70.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Zastąpienie procesu innym aktywatorem",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Aktywatory się uzupełniają (s. 71). Cykl życia nie przewiduje zamiany procesu na np. politykę.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-10",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-09"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które działanie **NIE** należy do cyklu życia procesu opisanego w COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Definiowanie i tworzenie procesu",
+          "poprawna": false,
+          "wyjasnienie": "Należy. Cykl zaczyna się od zdefiniowania i utworzenia procesu (s. 70).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Certyfikowanie procesu na zgodność z COBIT 5",
+          "poprawna": true,
+          "wyjasnienie": "Tak, nie należy. FW s. 70 wymienia: definiowanie, tworzenie, obsługę, monitorowanie, dostosowanie lub wycofanie. Certyfikacji tam nie ma."
+        },
+        {
+          "tekst": "Monitorowanie procesu w trakcie jego obsługi",
+          "poprawna": false,
+          "wyjasnienie": "Należy. Monitorowanie jest wprost na liście z s. 70.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wycofanie procesu, gdy przestaje być potrzebny",
+          "poprawna": false,
+          "wyjasnienie": "Należy. FW s. 72: ostatecznie procesy przestają istnieć.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-11",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-09"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Na późniejszym etapie cyklu życia kierownicy procesów w ubezpieczalni chcą, żeby proces był wydajniejszy i solidniejszy. Co według przykładu w COBIT 5 mogą zrobić?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 72
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wpisać do opisu procesu atrybuty z poziomów 2–5",
+          "poprawna": false,
+          "wyjasnienie": "Nie. FW s. 43: opis procesu nie może zawierać cech atrybutów wykraczających poza poziom 1.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Przenieść proces z domen Zarządzania do domeny Ładu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Wydajność nie zależy od domeny. Podział na Ład i Zarządzanie wynika z celu procesu (s. 71).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Podnieść poziom zdolności, korzystając z Modelu Zdolności Procesu",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Przykład 10 (s. 72): na późniejszym etapie kierownicy mogą podnieść poziom zdolności procesu, korzystając z modelu opartego na ISO/IEC 15504."
+        },
+        {
+          "tekst": "Zacząć cykl życia od nowa od fazy planowania",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Przykład 10 mówi o podnoszeniu poziomu zdolności działającego procesu, a nie o projektowaniu go od zera (s. 72).",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-12",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-09"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Ubezpieczyciel od roku stosuje nowy proces likwidacji szkód. Zespół zbiera mierniki i porównuje je z celami procesu. Która to faza cyklu życia aktywatora?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69,
+          "ilustracja": "29"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Użytkowanie/eksploatacja",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Proces jest w użyciu, ale porównywanie mierników z celami to osobna faza: ocena/monitorowanie (il. 29).",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Projektowanie",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Projektowanie jest przed wdrożeniem, a proces działa już od roku (il. 29).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Aktualizacja/pozbywanie się",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Ta faza przychodzi po ocenie, gdy wiadomo już, co zmienić (il. 29).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ocena/monitorowanie",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Il. 29 (s. 69) wymienia dla procesów fazę „Ocena/monitorowanie”, czyli sprawdzanie wyników względem celów."
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-13",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-09"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Przewodnik Procesy umożliwiające opisuje dobre praktyki procesu od ogółu do szczegółu. Jaka jest ta kolejność?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Praktyki, działania, szczegółowe działania",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW s. 70: dobre praktyki opisano zgodnie z rosnącym poziomem szczegółowości: praktyki, działania i szczegółowe działania."
+        },
+        {
+          "tekst": "Działania, praktyki, szczegółowe działania",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Działania są wytycznymi do wdrożenia praktyk, więc są poziom niżej niż praktyki (s. 70).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Szczegółowe działania, działania, praktyki",
+          "poprawna": false,
+          "wyjasnienie": "Nie. To kolejność od szczegółu do ogółu, czyli odwrotna do s. 70.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Cele procesu, mierniki, praktyki",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Cele i mierniki to inny wymiar aktywatora, a nie poziomy dobrych praktyk (s. 69–70).",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-14",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-09"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które zdanie o działaniach procesu w COBIT 5 **NIE** jest prawdziwe?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Opisują kroki konieczne i wystarczające do wdrożenia praktyki",
+          "poprawna": false,
+          "wyjasnienie": "Prawdziwe. FW s. 70: działania opisują zbiór koniecznych i wystarczających kroków.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Mają charakter normatywny i stosuje się je bez zmian",
+          "poprawna": true,
+          "wyjasnienie": "Tak, to zdanie jest fałszywe. FW s. 70: działania nie mają charakteru normatywnego i trzeba je dostosować do przedsiębiorstwa."
+        },
+        {
+          "tekst": "Uwzględniają wejścia i wyjścia procesu",
+          "poprawna": false,
+          "wyjasnienie": "Prawdziwe. FW s. 70: działania uwzględniają dane wejściowe i wyniki procesu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ułatwiają wyznaczenie ról i zakresów odpowiedzialności",
+          "poprawna": false,
+          "wyjasnienie": "Prawdziwe. FW s. 70 wymienia to wprost wśród cech działań.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-15",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-09"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Ministerstwo wdraża praktyki z przewodnika Procesy umożliwiające. Praktyki są ogólne. Co według COBIT 5 powinny zrobić Organ Ładu i nadzoru oraz kierownictwo?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wdrożyć wszystkie praktyki dokładnie tak, jak je opisano",
+          "poprawna": false,
+          "wyjasnienie": "Nie. FW s. 70: praktyki są typowe i trzeba je dostosować do potrzeb przedsiębiorstwa.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wdrożyć tylko praktyki działu IT, bez praktyk biznesowych",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Praktyki obejmują role biznesowe i IT, a kierownictwo może też dodać praktyki spoza IT (s. 70).",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Wybrać właściwe praktyki i zaakceptować ryzyko niewdrożenia reszty",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW s. 70: trzeba wybrać właściwe praktyki, dostosować je i zaakceptować ryzyko niewdrożenia praktyk, które mogą mieć zastosowanie."
+        },
+        {
+          "tekst": "Pominąć praktyki i od razu wdrożyć szczegółowe działania",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Szczegółowe działania uzupełniają praktyki i działania, a nie je zastępują (s. 70).",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-16",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-09"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Działania z przewodnika Procesy umożliwiające są dla banku zbyt ogólne do wdrożenia. Skąd według COBIT 5 może on wziąć szczegółowe działania?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Z modelu dojrzałości COBIT 4.1",
+          "poprawna": false,
+          "wyjasnienie": "Nie. COBIT 5 zrezygnował z osobnego modelu dojrzałości dla każdego procesu (s. 43). Nie jest on źródłem szczegółowych działań.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Z diagramu RACI danego procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Diagram RACI przypisuje role do działań, ale ich nie uszczegóławia (s. 69).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Z informacji z kaskady celów",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Kaskada celów wskazuje, które cele wspiera proces, a nie jak wykonać działania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ze standardów takich jak ITIL, ISO/IEC 27000 i PRINCE2",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW s. 70: dodatkowe wytyczne można uzyskać ze szczegółowych standardów i dobrych praktyk, np. ITIL, ISO/IEC 27000, PRINCE2."
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-17",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Który element **NIE** jest częścią opisu procesu w przewodniku Procesy umożliwiające?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Osobny model dojrzałości procesu z poziomami 0–5",
+          "poprawna": true,
+          "wyjasnienie": "Tak, tego nie ma. FW s. 43: COBIT 5 zrezygnował z osobnego modelu dojrzałości dla każdego procesu."
+        },
+        {
+          "tekst": "Przeznaczenie procesu",
+          "poprawna": false,
+          "wyjasnienie": "Jest. Sylabus EN-02-24 wymienia określenie przeznaczenia (process purpose) wśród części opisu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Cele procesu i ich mierniki",
+          "poprawna": false,
+          "wyjasnienie": "Są. Sylabus EN-02-24: cele i mierniki procesu (process goals and metrics).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Informacje z kaskady celów",
+          "poprawna": false,
+          "wyjasnienie": "Są. Sylabus EN-02-24: informacje kaskady celów (goals cascade information).",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-18",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Bank czyta opis procesu APO12. Jedna część przedstawia ogólnie, co proces robi i jak działa. Która to część?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Część z przeznaczeniem procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Przeznaczenie mówi, **po co** proces istnieje, a nie co robi.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Część z opisem procesu",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Opis procesu (process description, sylabus EN-02-24) przedstawia, co proces robi."
+        },
+        {
+          "tekst": "Część z identyfikacją procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Identyfikacja to tylko kod, nazwa, obszar i domena procesu.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Część z informacjami z kaskady celów",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Ta część podaje powiązane cele związane z informatyką, a nie opis działania procesu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-19",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Kierownik IT szpitala chce wiedzieć, jakie konkretne wyniki ma dawać proces DSS04 i jak je zmierzyć. Którą część opisu procesu powinien przeczytać?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Przeznaczenie procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Przeznaczenie to jedno zdanie o tym, po co proces istnieje. Nie ma w nim mierników.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Informacje z kaskady celów",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Ta część mówi o celach związanych z informatyką, które proces wspiera, a nie o wynikach samego procesu.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Cele procesu i ich mierniki",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Sylabus EN-02-24: cele i mierniki procesu. FW s. 69: cel procesu opisuje pożądany wynik, a miernik pozwala zmierzyć jego realizację."
+        },
+        {
+          "tekst": "Powiązane wytyczne",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Ta część odsyła do innych standardów, a nie podaje celów i mierników procesu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-20",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jakie informacje zawiera identyfikacja procesu w przewodniku Procesy umożliwiające?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Przeznaczenie i cele procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. To osobne części opisu, które występują po identyfikacji (sylabus EN-02-24).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Diagram RACI i listę praktyk",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Diagram RACI i praktyki to dalsze części opisu procesu (sylabus EN-02-24, EN-02-25).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom zdolności i wynik ostatniej oceny",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Wyniki oceny nie są częścią opisu procesu. Opis nie zawiera atrybutów powyżej poziomu 1 (FW s. 43).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Kod, nazwę, obszar i domenę",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Identyfikacja procesu (process identification) to kod, nazwa, obszar (Ład albo Zarządzanie) i domena, np. APO12, Zarządzanie ryzykiem."
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-21",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Sklep internetowy opisuje proces obsługi zwrotów. Zdanie 1: „Proces utrzymuje zaufanie klientów przez rzetelne rozliczanie zwrotów”. Zdanie 2: „95% zwrotów rozliczonych w ciągu pięciu dni”. Która para **NAJLEPIEJ** przypisuje te zdania do części opisu procesu?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "1 – przeznaczenie procesu, 2 – cel procesu z miernikiem",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Pierwsze zdanie mówi, po co proces istnieje (przeznaczenie). Drugie podaje mierzalny wynik, czyli cel z miernikiem (sylabus EN-02-24)."
+        },
+        {
+          "tekst": "1 – cel procesu, 2 – przeznaczenie procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Odwrotnie: liczba i termin to miernik celu, a nie przeznaczenie.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Oba zdania – opis procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Opis mówi, co proces robi. Te zdania mówią, po co i z jakim mierzalnym wynikiem.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "1 – identyfikacja procesu, 2 – kaskada celów",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Identyfikacja to kod, nazwa, obszar i domena. Kaskada celów dotyczy celów związanych z informatyką.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-22",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co zawiera część opisu procesu poświęcona praktykom procesu?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Same nazwy praktyk, bez dalszych informacji",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Przy praktykach są też wejścia, wyjścia i działania (FW s. 70).",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Praktyki z ich wejściami, wyjściami i działaniami",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Sylabus EN-02-24 wymienia przegląd praktyk. FW s. 70: wejścia i wyjścia definiuje się na poziomie praktyk, a działania wdrażają praktyki."
+        },
+        {
+          "tekst": "Poziomy zdolności, które musi osiągnąć proces",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Opis procesu nie zawiera atrybutów powyżej poziomu 1 (FW s. 43).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Polityki, które formalizują proces",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Polityki to osobny aktywator, Zasady i polityki (s. 72).",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-23",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Urząd gminy przegląda diagram RACI w opisie procesu w przewodniku Procesy umożliwiające. Co według COBIT 5 jest prawdą o rolach w tym diagramie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Muszą odpowiadać stanowiskom w każdej organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Nie. FW s. 76: role nie muszą odpowiadać rzeczywistym funkcjom w przedsiębiorstwie.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Obejmują wyłącznie role działu informatyki",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Wśród ról są też np. zarząd, dyrektor finansowy, audyt i zgodność (il. 33, s. 76).",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Mają charakter ilustracyjny i można je dopasować",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW s. 76: role i struktury nie muszą odpowiadać rzeczywistym funkcjom, a tabela ma jedynie charakter ilustracyjny."
+        },
+        {
+          "tekst": "Zastępują aktywator Struktury organizacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Diagram RACI łączy procesy ze strukturami, a struktury opisuje się szerzej w osobnym aktywatorze (s. 72).",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-24",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Opis procesu w przewodniku Procesy umożliwiające podaje cel i wyniki procesu, ale nie zawiera cech atrybutów powyżej poziomu 1. Dlaczego?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Bo poziomy 2–5 dotyczą wyłącznie procesów z domeny Ładu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Wszystkie procesy, Ładu i Zarządzania, ocenia się tą samą skalą poziomów (s. 41).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Bo przewodnik nie jest związany z oceną procesów",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Opisy z przewodnika są właśnie podstawą oceny – stąd wymogi normy (s. 43).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Bo atrybuty wyższych poziomów są w diagramie RACI",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Diagram RACI opisuje role, a nie atrybuty zdolności.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Bo tak wymaga ISO/IEC 15504 dla ocenianych procesów",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW s. 43: według ISO/IEC 15504 opis ocenianego procesu nie może zawierać cech atrybutów powyżej poziomu 1. Wspólne atrybuty są na poziomach 2–5 modelu oceny."
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-25",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Asesor ocenia proces APO12 w banku. Chce sprawdzić, jakie wskaźniki potwierdzają atrybut PA 2.1 Zarządzanie wydajnością. Gdzie je znajdzie?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "W Modelu Oceny Procesu (PAM)",
+          "poprawna": true,
+          "wyjasnienie": "Tak. PAM zawiera wskaźniki wykonania i wskaźniki zdolności dla atrybutów (il. 19, s. 42). Pozostałe przewodniki z niego korzystają (sylabus PC-02-02)."
+        },
+        {
+          "tekst": "W Przewodniku Samooceny",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Przewodnik Samooceny opisuje uproszczoną ocenę wewnętrzną. Wskaźniki bierze z PAM.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "W opisie procesu APO12",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Opis procesu nie zawiera atrybutów powyżej poziomu 1 (FW s. 43).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "W Referencyjnym Modelu Procesu (PRM)",
+          "poprawna": false,
+          "wyjasnienie": "Nie. PRM opisuje procesy. Atrybuty i wskaźniki zdolności dokłada do nich PAM.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-26",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które zdanie o Przewodniku Samooceny **NIE** jest prawdziwe?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Korzysta z Modelu Oceny Procesu (PAM)",
+          "poprawna": false,
+          "wyjasnienie": "Prawdziwe. PAM jest podstawą obu przewodników: Asesora i Samooceny.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Daje formalny wynik, który można przedstawić do certyfikacji",
+          "poprawna": true,
+          "wyjasnienie": "Tak, to zdanie jest fałszywe. Samoocena jest mniej rygorystyczna i nie wymaga dowodów. Formalną ocenę opisuje Przewodnik Asesora."
+        },
+        {
+          "tekst": "Nie wymaga zbierania dowodów",
+          "poprawna": false,
+          "wyjasnienie": "Prawdziwe. Organizacja ocenia procesy z własnej wiedzy.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Może przygotować do późniejszej oceny formalnej",
+          "poprawna": false,
+          "wyjasnienie": "Prawdziwe. Samoocena pokazuje luki przed oceną formalną.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-27",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Starostwo najpierw chce szybko, wewnętrznie sprawdzić swoje procesy IT. Rok później planuje formalną ocenę opartą na dowodach. Jakich przewodników użyje, w tej kolejności?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Przewodnika Asesora, potem Przewodnika Samooceny",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Odwrotnie: szybka ocena wewnętrzna to samoocena, a formalna ocena z dowodami to Przewodnik Asesora.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Modelu Oceny Procesu, potem Referencyjnego Modelu Procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. PAM jest podstawą obu ocen, a PRM nie jest przewodnikiem programu oceny.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Przewodnika Samooceny, potem Przewodnika Asesora",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Najpierw lżejsza ocena wewnętrzna bez dowodów, potem formalna, rygorystyczna ocena (FW s. 45: oceny mają różny stopień rygoryzmu)."
+        },
+        {
+          "tekst": "Dwa razy Przewodnika Samooceny",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Samoocena nie wymaga dowodów, więc nie daje formalnej oceny.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-28",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Czym różni się Model Oceny Procesu (PAM) od Przewodnika Asesora?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "PAM mówi, jak prowadzić ocenę, a Przewodnik Asesora – co oceniać",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Odwrotnie: PAM to model (co i czym mierzyć), a Przewodnik Asesora opisuje sposób oceny.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "PAM służy do samooceny, a Przewodnik Asesora do oceny formalnej",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Do samooceny służy Przewodnik Samooceny. PAM jest wspólną podstawą obu ocen.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Niczym, to dwie nazwy tej samej publikacji",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Sylabus PC-02-02 wymienia je jako dwa różne przewodniki programu oceny.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "PAM określa, co i jaką skalą mierzyć; Przewodnik Asesora – jak zrobić formalną ocenę",
+          "poprawna": true,
+          "wyjasnienie": "Tak. PAM zawiera procesy, atrybuty, wskaźniki i skalę (FW s. 41–42). Przewodnik Asesora opisuje formalną ocenę opartą na dowodach."
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-29",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Na jakiej normie opiera się program oceny COBIT (COBIT Assessment Programme)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "ISO/IEC 15504",
+          "poprawna": true,
+          "wyjasnienie": "Tak. FW s. 43, przypis 12: program COBIT Assessment Programme jest oparty na normie ISO/IEC 15504."
+        },
+        {
+          "tekst": "ISO/IEC 38500",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Na ISO/IEC 38500 opierają się koncepcje procesów Ładu (EDM) (s. 71), a nie program oceny.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "ISO/IEC 27001",
+          "poprawna": false,
+          "wyjasnienie": "Nie. To norma bezpieczeństwa informacji, a nie oceny procesów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "ISO 9001",
+          "poprawna": false,
+          "wyjasnienie": "Nie. To norma systemu zarządzania jakością. FW wskazuje ISO/IEC 15504 (s. 41, 43).",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-30",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Ubezpieczyciel chce tanio i szybko porównać zdolność procesów w kilku oddziałach, wyłącznie na potrzeby wewnętrzne. Który wybór **NAJLEPIEJ** pasuje do tego celu?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Przewodnik Asesora i pełne zbieranie dowodów",
+          "poprawna": false,
+          "wyjasnienie": "Nie najlepszy. To formalna, kosztowna ocena, potrzebna np. do raportowania zewnętrznego (FW s. 45).",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Przewodnik Samooceny, z PAM jako modelem",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Cel wewnętrzny, np. porównanie obszarów przedsiębiorstwa (FW s. 45), nie wymaga rygoru oceny formalnej. Samoocena korzysta z PAM."
+        },
+        {
+          "tekst": "Model dojrzałości COBIT 4.1 dla każdego procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie. COBIT 5 zastąpił go modelem zdolności opartym na ISO/IEC 15504 (s. 41, 43).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Sam Referencyjny Model Procesu, bez skali ocen",
+          "poprawna": false,
+          "wyjasnienie": "Nie. PRM opisuje procesy, ale nie ma skali ani atrybutów, więc nie da się nim ocenić zdolności.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-31",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Sylabus wymienia trzy przewodniki programu oceny COBIT. Do których wersji COBIT się one odnoszą?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wyłącznie do COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Sylabus PC-02-02 podaje dla każdego przewodnika dwie wersje.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Wyłącznie do COBIT 4.1",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Są też wydania dla COBIT 5 (sylabus PC-02-02).",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Do COBIT 4.1 i COBIT 5",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Sylabus PC-02-02: PAM, Przewodnik Asesora i Przewodnik Samooceny mają wersje „using COBIT 4.1” i „using COBIT 5”. FW s. 41 cytuje PAM: Using COBIT 4.1."
+        },
+        {
+          "tekst": "Do COBIT 5 i Risk IT",
+          "poprawna": false,
+          "wyjasnienie": "Nie. Risk IT miał własny model dojrzałości (s. 41). Sylabus nie wymienia go przy przewodnikach.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-luk-enpc-32",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która publikacja **NIE** należy do trzech przewodników programu oceny COBIT?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Model Oceny Procesu (PAM), czyli model do oceny",
+          "poprawna": false,
+          "wyjasnienie": "Należy. Sylabus PC-02-02 wymienia PAM jako pierwszy z trzech przewodników.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Przewodnik Asesora do oceny formalnej",
+          "poprawna": false,
+          "wyjasnienie": "Należy. To drugi przewodnik z sylabusa PC-02-02.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Przewodnik Samooceny do oceny wewnętrznej",
+          "poprawna": false,
+          "wyjasnienie": "Należy. To trzeci przewodnik z sylabusa PC-02-02.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Przewodnik Procesy umożliwiające",
+          "poprawna": true,
+          "wyjasnienie": "Tak, nie należy. Procesy umożliwiające (Enabling Processes) zawiera opisy 37 procesów, ale nie jest przewodnikiem programu oceny."
+        }
+      ]
+    }
+  ]
+}

@@ -6,6 +6,8 @@ Platforma nauki do egzaminu COBIT 5 Foundation (PeopleCert, po polsku). Główna
 
 Obok podręcznika są:
 - **Mapa COBIT 5**: interaktywny schemat całego frameworka na 7 mapach (zasady, kaskada celów, Ład i role, 37 procesów, aktywatory, wdrożenie, model zdolności). Klikalne węzły, powiązania i panel Prościej / Dokładniej / Na egzamin.
+- **Mój poziom**: szacowany wynik egzaminu (na 50) z odpowiedzi w podręczniku, ćwiczeniach i egzaminach próbnych, wynik w obszarach PR/EN/IM/PC, słabe tematy sylabusa z powrotem do działu podręcznika, test diagnostyczny (20 pytań) i trening słabych tematów.
+- **Rozbiór pytań i pomoc AI**: w ćwiczeniach przycisk „Nie rozumiem pytania” (typ pytania, słowa-sygnały, znaczenie pojęć – bez zdradzania odpowiedzi), a po odpowiedzi gotowe polecenie dla Claude lub ChatGPT. Część podręcznika „Rozbiór pytań: 9 typów na przykładach”.
 - **Narzędzia**: egzamin próbny (50 pytań, 40 minut, wynik w podziale na obszary PR/EN/IM/PC), egzamin mistrzowski, słownik 230 pojęć z pułapkami nazw, powtórki, ćwiczenie nazw egzaminacyjnych i notatki.
 
 ## Uruchomienie lokalne

@@ -3,6 +3,7 @@ import { esc, inline } from './md.js';
 import { store } from './store.js';
 import { QTYPES, termsOfQuestion, termsSync, PROGI_DOMYSLNE, shuffleOptions } from './content.js';
 import { sourceText, statusPill } from './ui.js';
+import { analysisHTML, aiButtonsHTML, bindAI, promptForQuestion } from './czytanie.js';
 
 const KEYS = ['A', 'B', 'C', 'D', 'E', 'F'];
 const SINGLE = new Set(['rozpoznanie', 'egzamin', 'studium', 'mapa', 'mentor']);
@@ -183,8 +184,14 @@ export function renderQuestion(el, q, opts = {}) {
       ${askConf ? `<div class="conf" hidden><span class="small muted">Jak bardzo jesteś pewny?</span>
         <span class="conf-btns">${CONF.map(([k, l]) => `<button class="conf-btn" data-conf="${k}">${l}</button>`).join('')}</span></div>` : ''}
       ${hintsHTML()}
+      ${!opts.pretest && opts.rozbior !== false ? '<div class="rz-wrap"><button class="btn btn-sm btn-ghost rz-btn" type="button" title="Rozbiór pytania – nie zdradza odpowiedzi">Nie rozumiem pytania</button><div class="rz-out"></div></div>' : ''}
       <div class="fb" aria-live="polite"></div>`;
     bindHints();
+    el.querySelector('.rz-btn')?.addEventListener('click', (e) => {
+      hinted = true;
+      e.currentTarget.remove();
+      el.querySelector('.rz-out').innerHTML = analysisHTML(q);
+    });
     let picked = null;
     const check = (pick) => {
       const correct = pick === good;
@@ -195,12 +202,19 @@ export function renderQuestion(el, q, opts = {}) {
         else if (i === pick) x.classList.add('wrong');
         const why = q.opcje[i].wyjasnienie;
         if (why) x.insertAdjacentHTML('beforeend',
-          `<span class="why"><strong>${i === good ? 'Dlaczego poprawna:' : 'Dlaczego nie:'}</strong> ${inline(why, termRef)}${q.opcje[i].zycie && i !== good ? ` <em>W życiu to tak, jakby ${inline(q.opcje[i].zycie.replace(/^W życiu to tak, jakby\s*/i, ''), termRef)}</em>` : ''}</span>`);
+          `<span class="why"><strong>${i === good ? 'Dlaczego poprawna:' : 'Dlaczego nie:'}</strong> ${inline(why, termRef)}${q.opcje[i].zycie && i !== good ? ` <em>${/^W życiu to tak, jakby/i.test(q.opcje[i].zycie) ? inline(q.opcje[i].zycie, termRef) : `W życiu to tak, jakby ${inline(q.opcje[i].zycie, termRef)}`}</em>` : ''}</span>`);
       });
       el.querySelector('.conf')?.remove();
       el.querySelector('.fb').innerHTML = opts.pretest
         ? `<div class="feedback ${correct ? 'ok' : 'bad'}">${correct ? '✓ Trafione.' : `Poprawna odpowiedź: <strong>${KEYS[good]}</strong>.`} <strong>Pomyłka teraz pomaga zapamiętać</strong> – to pytanie nie liczy się do wyniku. Odpowiedź poznasz dokładnie w tej lekcji.</div>`
         : footer(q, correct, correct ? '✓ Dobrze.' : (q.opcje[pick] && (q.opcje[pick].pulapka || q.opcje[pick].pulapkaMentora) ? trapFeedback(q, pick, good, termRef) : `Tym razem nie. Poprawna jest <strong>${KEYS[good]}</strong> – omówienie każdej opcji jest powyżej.`), termRef);
+      if (!opts.pretest && opts.rozbior !== false) {
+        const fb = el.querySelector('.fb');
+        const shown = !!el.querySelector('.rz-out .rozbior');
+        el.querySelector('.rz-wrap')?.remove();
+        fb.insertAdjacentHTML('beforeend', `${shown ? analysisHTML(q) : `<details class="rz-det"${correct ? '' : ' open'}><summary>Jak czytać to pytanie</summary>${analysisHTML(q)}</details>`}${opts.backLink ? `<p class="small" style="margin:8px 0 0">${opts.backLink}</p>` : ''}${aiButtonsHTML(correct ? 'Pogłęb z AI' : 'Wyjaśnij z AI')}`);
+        bindAI(fb, () => promptForQuestion(q, { picked: pick }));
+      }
       bindTerms(el, opts);
       done(correct);
     };
@@ -405,14 +419,16 @@ function bindTerms(el, opts) {
 }
 
 // Pytanie w symulacji egzaminu (bez podpowiedzi). reveal=true pokazuje omówienie wszystkich opcji.
-export function renderExamQuestion(el, q, { selected = null, onPick, reveal = false } = {}) {
+export function renderExamQuestion(el, q, { selected = null, onPick, reveal = false, backLink = '' } = {}) {
   const good = correctIndex(q);
   el.innerHTML = head(q, null, !reveal) + `
     <ul class="options" role="list" aria-labelledby="stem-${esc(q.id)}">
       ${q.opcje.map((o, i) => `<li><button class="option${reveal ? (i === good ? ' correct' : i === selected ? ' wrong' : '') : ''}${!reveal && selected === i ? ' picked' : ''}" data-i="${i}" aria-pressed="${selected === i}" ${reveal ? 'disabled' : ''}>
         <span class="key">${KEYS[i]}</span><span class="txt">${inline(o.tekst)}${reveal && o.wyjasnienie ? `<span class="why" style="display:block">${inline(o.wyjasnienie)}</span>` : ''}</span></button></li>`).join('')}
     </ul>
-    ${reveal && q.zrodlo ? `<div class="source-ref">Źródło: ${esc(sourceText(q.zrodlo))}</div>` : ''}`;
+    ${reveal && q.zrodlo ? `<div class="source-ref">Źródło: ${esc(sourceText(q.zrodlo))}</div>` : ''}
+    ${reveal ? `<details class="rz-det"><summary>Jak czytać to pytanie</summary>${analysisHTML(q)}</details>${backLink ? `<p class="small" style="margin:8px 0 0">${backLink}</p>` : ''}${aiButtonsHTML()}` : ''}`;
+  if (reveal) bindAI(el, () => promptForQuestion(q, { picked: selected }));
   if (!reveal) el.querySelectorAll('.option').forEach((b) => b.addEventListener('click', () => onPick && onPick(+b.dataset.i)));
 }
 

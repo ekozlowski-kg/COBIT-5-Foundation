@@ -173,12 +173,30 @@
       ? '<p class="ok">Dobrze! Przeczytaj jeszcze wyjaśnienia pozostałych odpowiedzi.</p>'
       : `<p class="no">Prawidłowa odpowiedź to ${LETTERS[good]}. Przeczytaj wyjaśnienia – pomyłka teraz pomaga zapamiętać.</p>`;
     if (q.kurs) $('qres').innerHTML += `<div class="qkurs"><p class="trapk">Wyjaśnienie kursu</p><p>${words(q.kurs)}</p></div>`;
+    $('qres').insertAdjacentHTML('beforeend', `<div class="qai"><span>${k === good ? 'Pogłęb z AI' : 'Nadal niejasne? Wyjaśnij z AI'}:</span><button class="ctxbtn" data-ai="c">Claude ↗</button><button class="ctxbtn" data-ai="g">ChatGPT ↗</button><button class="ctxbtn" data-ai="k">Kopiuj prompt</button></div>`);
+    $('qres').querySelectorAll('[data-ai]').forEach((b) => b.addEventListener('click', () => askAI(q, k, good, b)));
     if (store) {
       const [st, e] = entry();
       e.q = e.q || {}; e.qa = e.qa || {};
       e.q[i] = k === good; e.qa[i] = k;
       st[D.id] = e; save(st); scoreLine();
     }
+  }
+  // Gotowe polecenie dla AI: pytanie, odpowiedzi, klucz i prośba o wyjaśnienie prostym językiem.
+  function askAI(q, k, good, btn) {
+    const plain = (h) => String(h || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    const p = ['Uczę się do egzaminu COBIT 5 Foundation (PeopleCert, wersja polska). Nie rozumiem tego pytania z podręcznika „' + plain(D.tytul) + '”.',
+      q.kontekst ? 'Opis sytuacji: ' + plain(q.kontekst) : '',
+      'Pytanie: ' + plain(q.tresc),
+      q.opcje.map((o, j) => LETTERS[j] + '. ' + plain(o.t)).join('\n'),
+      'Poprawna odpowiedź według klucza: ' + LETTERS[good] + '.' + (k !== good ? ' Ja wybrałem: ' + LETTERS[k] + '.' : ''),
+      '', 'Proszę:', '1. Powiedz prostym językiem, o co pyta to pytanie i które słowa są kluczowe.',
+      '2. Wyjaśnij, dlaczego poprawna odpowiedź jest poprawna, a pozostałe błędne (odwołaj się do COBIT 5).',
+      '3. Daj przykład z firmy i z urzędu.', '4. Zadaj mi jedno podobne pytanie kontrolne w stylu egzaminu i poczekaj na moją odpowiedź.',
+      'Używaj polskich nazw z egzaminu COBIT 5, a w nawiasie podaj nazwę angielską.'].filter((x) => x !== '').join('\n');
+    try { navigator.clipboard.writeText(p); } catch (e) { /* schowek niedostępny */ }
+    if (btn.dataset.ai === 'k') { btn.textContent = 'Skopiowano ✓'; return; }
+    window.open((btn.dataset.ai === 'c' ? 'https://claude.ai/new?q=' : 'https://chatgpt.com/?q=') + encodeURIComponent(p), '_blank', 'noopener');
   }
   function draw() {
     const s = S[i];

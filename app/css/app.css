@@ -1274,3 +1274,27 @@ body.learning .slide-body p.wniosek strong:first-child { display: block; font-si
 body.learning .slide-body .box { font-size: .9em; }
 body.learning .slide-meta:empty { display: none; }
 .src-foot { margin: 36px 0 0 !important; padding-top: 10px; border-top: 1px solid var(--border); font-size: .76rem; color: var(--text-3); max-width: none !important; }
+
+/* ---------- Mój poziom, rozbiór pytania, pomoc AI ---------- */
+.btn-sm { padding: 5px 11px; font-size: .84rem; }
+.lv-topic .btn, .rz-det + p .btn { white-space: normal; text-align: left; }
+.ai-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; }
+.rz-wrap { margin: 10px 0 0; }
+.rozbior { border-left: 3px solid var(--trap-border); background: var(--trap-soft); padding: 10px 14px; border-radius: 0 var(--radius) var(--radius) 0; margin-top: 10px; font-size: .95rem; }
+.rozbior p { margin: 0 0 6px; }
+.rozbior ul { margin: 0 0 8px; padding-left: 20px; }
+.rozbior li { margin: 2px 0; }
+.rz-h { font-weight: 700; }
+.rz-k { font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: var(--text-2); margin-top: 8px !important; }
+.rz-det { margin-top: 12px; }
+.rz-det > summary { cursor: pointer; font-weight: 600; color: var(--text-2); }
+.lv-hero { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 24px; align-items: center; }
+.lv-hero .score { line-height: 1.05; }
+.lv-topic .lv-th { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
+.lv-topic .lv-pct { margin-left: auto; font-size: .85rem; font-weight: 600; }
+.lv-topic .ai-row { margin-top: 8px; }
+.lv-unseen { columns: 2 260px; margin: 10px 0 0; padding-left: 0; list-style: none; }
+.lv-unseen li { margin: 0 0 6px; break-inside: avoid; }
+.lv-read ol { margin: 0 0 10px; padding-left: 22px; }
+.lv-read li { margin: 0 0 6px; }
+@media (max-width: 600px) { .lv-hero { grid-template-columns: 1fr; gap: 8px; } }

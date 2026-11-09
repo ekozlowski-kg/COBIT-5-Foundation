@@ -161,7 +161,7 @@ window.SPIS=[
     "slajdy": 10,
     "pytania": 5,
     "sp1": 1,
-    "d": "Lekcje 1.33–0.24"
+    "d": "Lekcje 1.33–1.35, 0.23–0.24"
    },
    {
     "id": "k-pr-wymiary",
@@ -444,6 +444,12 @@ window.SPIS=[
     "pytania": 7,
     "sp1": 0,
     "d": "Lekcje 9.10–9.16"
+   },
+   {
+    "id": "03-czytanie-pytan",
+    "href": "03-czytanie-pytan.html",
+    "t": "Rozbiór pytań: 9 typów na przykładach",
+    "d": "NIE, NAJLEPIEJ, scenariusz, nazwa, kto, proces, poziom zdolności, kolejność, słowa skrajne"
    },
    {
     "id": "k-ex-powtorka",

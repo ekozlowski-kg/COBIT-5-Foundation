@@ -17,7 +17,7 @@
   "warianty": {
     "prosto": "Pieczesz ciasto: raz w ogóle nie wychodzi (0), raz wyszło (1), zapisujesz przepis i planujesz zakupy (2), cała rodzina piecze z tego samego przepisu (3), ważycie składniki i pilnujecie czasu, więc zawsze wychodzi tak samo (4), a co jakiś czas poprawiacie przepis (5). Tak wyglądają poziomy zdolności procesu – od „nie działa” do „stale się ulepsza”.",
     "dokladniej": "Każdy poziom dodaje atrybuty: 1 wykonanie; 2 zarządzanie wydajnością i produktami pracy; 3 definicja i wdrożenie; 4 pomiar i kontrola; 5 innowacja i optymalizacja.",
-    "ekspercko": "Poziom 1 ocenia się wskaźnikami wykonania (praktyki bazowe, produkty pracy) w wymiarze procesu. Poziomy 2–5 ocenia się ogólnymi praktykami i zasobami w wymiarze zdolności."
+    "ekspercko": "Wskaźniki atrybutów zdolności (wymiar zdolności) dotyczą poziomów 1–5. Dla poziomu 1 (PA 1.1) głównymi dowodami są wskaźniki wykonania procesu z wymiaru procesu: praktyki bazowe i produkty pracy. Dla poziomów 2–5 dowodami są ogólne praktyki i zasoby, wspólne dla wszystkich procesów (sylabus PeopleCert PC02.04)."
   },
   "przyklady": {
     "zycie": "Domowe rachunki. 0 – czasem przychodzi wezwanie do zapłaty; 1 – wszystko jest zapłacone; 2 – masz kalendarz terminów i teczkę z potwierdzeniami; 3 – cała rodzina płaci według jednej spisanej listy z jednego konta. 4 – co miesiąc sprawdzasz wydatki i trzymasz się ustalonych kwot, 5 – co roku szukasz tańszego prądu i internetu i zmieniasz sposób na lepszy.",

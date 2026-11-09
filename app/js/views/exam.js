@@ -6,6 +6,7 @@ import { renderExamQuestion, renderQuestion, correctIndex, trapStats, trapTable 
 import { currentDay } from '../progress.js';
 import { toast } from '../ui.js';
 import { runExamSession } from './exam-session.js';
+import { topicParts } from '../diagnoza.js';
 
 // Proporcje obszarów: syllabus.json → egzamin.wagi (rozkład Sample Paper 1: EN 21 · PR 15 · IM 7 · PC 7).
 let AREA_WEIGHT = { PR: 0.3, EN: 0.42, IM: 0.14, PC: 0.14 };
@@ -25,7 +26,15 @@ function drawAuthored(poolAll, n) {
   const used = new Set(store.get().examUsed || []);
   const byArea = {};
   const ordered = [...shuffle(pool.filter((q) => !used.has(q.id))), ...shuffle(pool.filter((q) => used.has(q.id)))];
-  for (const q of ordered) (byArea[C.areaOf(C.firstCode(q))] ||= []).push(q);
+  // Jak w Sample Paper 1: zwykle jedno pytanie na temat sylabusa. Limit na temat, żeby np. nazwy procesów
+  // (najliczniejsza część banku pytań) nie zdominowały arkusza.
+  const cap = Math.max(1, Math.ceil(n / 25));
+  const perTopic = {};
+  for (const q of ordered) {
+    const code = C.firstCode(q);
+    if ((perTopic[code] = (perTopic[code] || 0) + 1) > cap) continue;
+    (byArea[C.areaOf(code)] ||= []).push(q);
+  }
   const out = [];
   // Największe reszty: dokładnie n miejsc rozdzielonych wg wag.
   const quota = Object.entries(AREA_WEIGHT).map(([a, w]) => ({ a, exact: n * w, k: Math.floor(n * w) }));
@@ -164,12 +173,19 @@ export async function renderExam(main) {
     });
   }
 
-  function results(qs, answers, score, byArea, minutes, name = 'Egzamin') {
+  async function results(qs, answers, score, byArea, minutes, name = 'Egzamin') {
+    const tp = await topicParts();
+    const syl = await C.syllabus();
+    const topicTitle = Object.fromEntries((syl.tematy || []).map((t) => [t.kod, t.tytul]));
     const pct = score / qs.length;
     const pass = Math.ceil(qs.length * 0.5);
     const target = Math.ceil(qs.length * 0.7);
     const passed = score >= pass;
     const wrong = qs.map((q, i) => ({ q, i })).filter(({ q, i }) => answers[i] !== correctIndex(q));
+    const wt = new Map();
+    for (const { q } of wrong) { const c = C.firstCode(q); if (c) wt.set(c, (wt.get(c) || 0) + 1); }
+    const wrongTopics = [...wt.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
+    const back = (q) => { const h = (tp.byTopic[C.firstCode(q)] || [])[0]; return h ? `Temat w podręczniku: <a href="podrecznik/${esc(h)}">${esc((tp.title[h] || {}).t || h)}</a>` : ''; };
     main.innerHTML = `
       <div class="page" style="max-width:880px">
         <div class="card" style="text-align:center" id="report">
@@ -186,13 +202,17 @@ export async function renderExam(main) {
           <strong title="${esc(C.AREAS[a] || '')}">${esc(a)}</strong>
           <div class="progress"><span style="width:${(r.ok / r.total) * 100}%;background:${r.ok / r.total >= 0.5 ? 'var(--ok)' : 'var(--bad)'}"></span></div>
           <span class="small">${r.ok}/${r.total}</span></div>`).join('')}</div>
+        ${wrongTopics.length ? `<h2 style="font-size:1.2rem;margin-top:28px">Wróć do tych działów</h2>
+        <div class="card"><p class="small muted" style="margin-top:0">Tematy, w których były błędy, od największej liczby błędów. Po powtórce działu zrób trening słabych tematów.</p>
+        <ul class="unit-list">${wrongTopics.map(([c, n]) => { const h = (tp.byTopic[c] || [])[0]; return `<li><a href="${h ? `podrecznik/${esc(h)}` : '#/poziom'}"><span class="pill" style="color:var(--bad)">${n}× błąd</span><span>${esc(topicTitle[c] || c)}${h ? ` <span class="muted small">→ ${esc((tp.title[h] || {}).t || h)}</span>` : ''}</span></a></li>`; }).join('')}</ul>
+        <div class="btn-row"><a class="btn btn-primary" href="#/poziom/trening">Trening słabych tematów</a><a class="btn" href="#/poziom">Mój poziom</a></div></div>` : ''}
         <h2 style="font-size:1.2rem;margin-top:28px">Które pułapki kosztowały punkty</h2>
         ${trapTable(trapStats(qs, answers), C.PULAPKI)}
         <h2 style="font-size:1.2rem;margin-top:28px">Omówienie błędów (${wrong.length})</h2>
         <div class="grid" id="wrongList">${wrong.map(({ i }) => `<div class="card"><div class="slide-kind" style="margin-bottom:6px">Pytanie ${i + 1}</div><div data-w="${i}"></div></div>`).join('') || '<p class="muted">Bez błędów!</p>'}</div>
         <div class="btn-row" style="margin-top:20px"><button class="btn btn-primary" id="back">Centrum egzaminacyjne</button><a class="btn" href="#/powtorki">Powtórki</a></div>
       </div>`;
-    wrong.forEach(({ q, i }) => renderExamQuestion(main.querySelector(`[data-w="${i}"]`), q, { selected: answers[i], reveal: true }));
+    wrong.forEach(({ q, i }) => renderExamQuestion(main.querySelector(`[data-w="${i}"]`), q, { selected: answers[i], reveal: true, backLink: back(q) }));
     document.getElementById('back').addEventListener('click', lobby);
     document.getElementById('printRep').addEventListener('click', () => window.print());
     document.getElementById('exportRep').addEventListener('click', () => {

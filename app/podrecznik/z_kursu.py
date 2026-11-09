@@ -108,6 +108,7 @@ SPIS = [
     {"chap": "Poza podręcznikiem · Egzamin", "s": "", "parts": [
         K("m0-egzamin", "Egzamin w liczbach i pułapki nazw", L("M0", "0.33", "0.34", "0.35", "0.37")),
         K("ex-strategia", "Strategia: jak czytać pytania", rng("EX", "9", 10, 16)),
+        H("03-czytanie-pytan", "03-czytanie-pytan.html", "Rozbiór pytań: 9 typów na przykładach", "NIE, NAJLEPIEJ, scenariusz, nazwa, kto, proces, poziom zdolności, kolejność, słowa skrajne"),
         K("ex-powtorka", "Powtórka przed egzaminem", rng("EX", "9", 17, 22)),
     ]},
     {"chap": "Poza podręcznikiem · Mentor i finał", "s": "", "parts": [
@@ -541,7 +542,13 @@ for c in spis:
     for p in c["parts"]:
         if "d" not in p:
             ls = next(x for x in flat if x["id"] == p["id"])["lessons"]
-            p["d"] = f"Lekcje {LESSONS[ls[0]]['lekcja']}–{LESSONS[ls[-1]]['lekcja']}" if len(ls) > 1 else f"Lekcja {LESSONS[ls[0]]['lekcja']}"
+            # zakresy liczone osobno dla każdego modułu (np. „Lekcje 1.33–1.35, 0.23–0.24”)
+            grp = []
+            for k in ls:
+                if grp and grp[-1][0] == k[0]: grp[-1][1].append(LESSONS[k]['lekcja'])
+                else: grp.append((k[0], [LESSONS[k]['lekcja']]))
+            rr = [f"{g[0]}–{g[-1]}" if len(g) > 1 else g[0] for _, g in grp]
+            p["d"] = ("Lekcje " if len(ls) > 1 else "Lekcja ") + ", ".join(rr)
 (HERE / "spis.js").write_text("// Wygenerowane przez z_kursu.py – spis treści ułożony jak podręcznik COBIT 5.\nwindow.SPIS=" + json.dumps(spis, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
 
 # sp1.local.js – treść arkusza próbnego, tylko lokalnie

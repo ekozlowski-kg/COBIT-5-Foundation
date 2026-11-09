@@ -299,3 +299,5 @@ th .w .wen,.chips .w .wen{font-size:.72em}
 .w .wen.cut>span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 p:has(.wen),li:has(.wen),td:has(.wen),th:has(.wen),blockquote:has(.wen),.qctx:has(.wen){line-height:2.25}
 h1:has(.wen),.qstem:has(.wen),.ov h2:has(.wen){line-height:1.9}
+
+.qai{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px;font-size:14px;color:var(--muted)}
