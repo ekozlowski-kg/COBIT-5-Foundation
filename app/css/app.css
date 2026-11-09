@@ -482,7 +482,7 @@ details.fn-sec[open] > summary::after { transform: rotate(-135deg); margin-top: 
 .feedback { margin-top: 16px; padding: 12px 16px; border-radius: var(--radius); font-size: .95rem; }
 .feedback.ok { background: var(--ok-soft); }
 .feedback.bad { background: var(--bad-soft); }
-.source-ref { font-size: .78rem; color: var(--text-3); margin-top: 10px; }
+.source-ref { font-size: .78rem; color: var(--text-3); margin-top: 10px; overflow-wrap: anywhere; }
 .cls-row { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--border); }
 .cls-row .why { grid-column: 1 / -1; margin: 0; }
 .cls-row .seg { justify-self: start; flex-wrap: wrap; }

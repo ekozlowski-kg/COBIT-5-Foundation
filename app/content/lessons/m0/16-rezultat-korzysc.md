@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-03]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-m0k-16-1, q-m0k-16-2, q-m0k-16-3]
-zapas: [q-m0k-16-z1]
+cwiczenia: []
+zapas: []
 wprowadza: [rezultat, realizacja-korzysci]
 wymaga: [m0-15-wyznacznik-z-czym-nie-mylic]
 cel: "Potrafię odróżnić rezultat od korzyści i podać przykład korzyści, która nie jest zyskiem."

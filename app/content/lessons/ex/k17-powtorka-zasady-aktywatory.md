@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-exk-17-1, q-exk-17-2, q-exk-17-3]
-zapas: [q-exk-17-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k16-tempo]
 cel: "Potrafię z pamięci podać 5 zasad i 7 aktywatorów COBIT 5 w nazwach z egzaminu."

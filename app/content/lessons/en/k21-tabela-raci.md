@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-25]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-21-1, q-enk-21-2, q-enk-21-3]
-zapas: [q-enk-21-z1]
+cwiczenia: ["q-enk-21-z1", "q-fn-m-25"]
+zapas: ["q-en-03-03"]
 wprowadza: [raci]
 wymaga: [en-k20-opis-procesu]
 cel: "Potrafię wyjaśnić, po co jest tabela RACI i co oznaczają jej cztery litery."

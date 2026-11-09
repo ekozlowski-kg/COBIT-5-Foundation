@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-05, EN-01-01]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-m0k-24-1, q-m0k-24-2, q-m0k-24-3]
-zapas: [q-m0k-24-z1]
+cwiczenia: ["q-enk-15-3", "q-en-02-06"]
+zapas: ["q-sym-011"]
 wprowadza: []
 wymaga: [m0-23-proces-projekt]
 cel: "Potrafię opisać proces w COBIT 5 jako praktyki, które zamieniają wejścia w wyniki i mają właściciela."

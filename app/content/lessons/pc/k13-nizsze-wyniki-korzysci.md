@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-02-05]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-13-1, q-pck-13-2, q-pck-13-3]
-zapas: [q-pck-13-z1]
+cwiczenia: ["q-pck-10-2", "q-pck-11-3"]
+zapas: ["q-pck-12-3"]
 wprowadza: []
 wymaga: [pc-k12-dojrzalosc-a-zdolnosc]
 cel: "Potrafię wyjaśnić, dlaczego wyniki w COBIT 5 są zwykle niższe, i wymienić korzyści modelu zdolności."

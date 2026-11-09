@@ -1,6 +1,6 @@
 {
-  "opis": "Mapa EN / podręcznik PL (Framework ISACA Warsaw) / egzamin PL. 'oficjalne' = potwierdzone w zestawieniu Altkom lub w Sample Paper 1 PL; 'niepotwierdzone' = wnioskujemy z kontekstu, nie widzieliśmy w oficjalnym arkuszu.",
-  "zasadaGlowna": "Na egzaminie licz się z wersją z kolumny 'egzamin'. Gdy pytanie brzmi dziwnie ('Aktywator', 'Struktura ramowa', 'Oszacuj') – przetłumacz je w głowie na angielski oryginał.",
+  "opis": "Warianty EN i polskich przekładów oraz konwencja nazewnicza kursu. Nie jest to potwierdzenie aktualnego brzmienia polskiego egzaminu.",
+  "zasadaGlowna": "Porównuj sens z angielskim oryginałem COBIT 5. Sam poprawny synonim nie jest błędem. Litery skali ocen zawsze interpretuj z podaną legendą.",
   "pulapki": [
     {
       "en": "Governance",
@@ -11,7 +11,7 @@
         "ład i nadzór (SP1 – zbitka)"
       ],
       "modul": "wspolne",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -20,7 +20,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "lad"
+      "termId": "lad",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Management",
@@ -28,14 +29,14 @@
       "egzamin": "Zarządzanie",
       "inne": [],
       "modul": "wspolne",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
       "termId": "zarzadzanie",
-      "uwaga": "Ta sama nazwa – ale uwaga na pary 'Ład i Zarządzanie' vs 'Nadzór i zarządzanie'."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Framework",
@@ -43,7 +44,7 @@
       "egzamin": "Struktura ramowa",
       "inne": [],
       "modul": "wspolne",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -52,7 +53,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "struktura-ramowa"
+      "termId": "struktura-ramowa",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Enabler",
@@ -60,7 +62,7 @@
       "egzamin": "Aktywator",
       "inne": [],
       "modul": "wspolne",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -69,7 +71,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "aktywator"
+      "termId": "aktywator",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Enterprise",
@@ -77,14 +80,14 @@
       "egzamin": "Organizacja",
       "inne": [],
       "modul": "wspolne",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
       "termId": "organizacja",
-      "uwaga": "SP1: 'Cele organizacji', 'Architektura Korporacyjna' (Enterprise Architecture)."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Enterprise goals",
@@ -92,13 +95,14 @@
       "egzamin": "Cele organizacji",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
-      "termId": "cele-organizacji"
+      "termId": "cele-organizacji",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "IT-related goals",
@@ -106,7 +110,7 @@
       "egzamin": "Cele związane z informatyką",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -115,7 +119,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "cele-zwiazane-z-it"
+      "termId": "cele-zwiazane-z-it",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Enabler goals",
@@ -123,13 +128,14 @@
       "egzamin": "Cele aktywatora",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
-      "termId": "cele-aktywatorow"
+      "termId": "cele-aktywatorow",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Goals Cascade",
@@ -137,13 +143,14 @@
       "egzamin": "Kaskada Celów",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
-      "termId": "kaskada-celow"
+      "termId": "kaskada-celow",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Stakeholder drivers",
@@ -153,7 +160,7 @@
         "Czynniki napędzające"
       ],
       "modul": "PR",
-      "status": "niepotwierdzone",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1",
@@ -161,7 +168,7 @@
         }
       ],
       "termId": "wyznacznik",
-      "uwaga": "Na egzaminie pytanie bywa opisowe („czynnik wpływający na potrzeby interesariuszy”). Osobnej nazwy nie podano."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Value Creation",
@@ -171,13 +178,14 @@
         "kreowanie wartości (SP1 – uzasadnienie)"
       ],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
-      "termId": "tworzenie-wartosci"
+      "termId": "tworzenie-wartosci",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Governance objective",
@@ -185,13 +193,14 @@
       "egzamin": "Cel Ładu",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
-      "termId": "tworzenie-wartosci"
+      "termId": "tworzenie-wartosci",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Meeting Stakeholder Needs",
@@ -199,14 +208,15 @@
       "egzamin": "Realizacja potrzeb interesariusza",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1",
           "strona": 37
         }
       ],
-      "termId": "zasada-1"
+      "termId": "zasada-1",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Covering the Enterprise End-to-End",
@@ -214,14 +224,15 @@
       "egzamin": "Pokrycie całej organizacji",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1",
           "strona": 37
         }
       ],
-      "termId": "zasada-2"
+      "termId": "zasada-2",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Applying a Single Integrated Framework",
@@ -229,7 +240,7 @@
       "egzamin": "Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1",
@@ -240,7 +251,8 @@
           "strona": 37
         }
       ],
-      "termId": "zasada-3"
+      "termId": "zasada-3",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Enabling a Holistic Approach",
@@ -248,10 +260,10 @@
       "egzamin": "Aktywacja holistycznego podejścia",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [],
       "termId": "zasada-4",
-      "uwaga": "Potwierdzone w uzasadnieniach SP1. „Aktywacja”, bo enabler = aktywator."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Separating Governance From Management",
@@ -259,14 +271,15 @@
       "egzamin": "Oddzielenie Ładu od Zarządzania",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1",
           "strona": 37
         }
       ],
-      "termId": "zasada-5"
+      "termId": "zasada-5",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Governing body",
@@ -274,7 +287,7 @@
       "egzamin": "Organ Ładu i nadzoru",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1",
@@ -286,7 +299,8 @@
           "ilustracja": "9"
         }
       ],
-      "termId": "organ-ladu"
+      "termId": "organ-ladu",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Operations and execution",
@@ -294,7 +308,7 @@
       "egzamin": "Role operacyjne",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1",
@@ -306,7 +320,8 @@
           "ilustracja": "9"
         }
       ],
-      "termId": "rola-operacyjne"
+      "termId": "rola-operacyjne",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Lead Indicators",
@@ -314,7 +329,7 @@
       "egzamin": "Wskaźniki wiodące",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -323,7 +338,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "wskaznik-wiodacy"
+      "termId": "wskaznik-wiodacy",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Lag Indicators",
@@ -331,7 +347,7 @@
       "egzamin": "Wskaźniki opóźnione",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -340,7 +356,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "wskaznik-opozniony"
+      "termId": "wskaznik-opozniony",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Enabler performance management",
@@ -348,14 +365,14 @@
       "egzamin": "Zarządzanie wydajnością aktywatora",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
       "termId": "zarzadzanie-wydajnoscia-aktywatora",
-      "uwaga": "'Performance' = sprawność (podręcznik) = wydajność (egzamin)."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Evaluate, Direct and Monitor (EDM)",
@@ -363,7 +380,7 @@
       "egzamin": "Oszacuj, Kieruj i Monitoruj",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -372,7 +389,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "edm"
+      "termId": "edm",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Plan, Build, Run and Monitor (PBRM)",
@@ -382,7 +400,7 @@
         "Planuj, Wytwarzaj, Wykonuj i Monitoruj (Altkom)"
       ],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -392,7 +410,7 @@
         }
       ],
       "termId": "pbrm",
-      "uwaga": "W polskim arkuszu SP1 dwa razy pada „Twórz”, a forma „Wytwarzaj” z zestawienia Altkom nie pojawia się ani razu."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Align, Plan and Organise (APO)",
@@ -400,7 +418,7 @@
       "egzamin": "Dostosuj, Planuj i Organizuj",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -409,7 +427,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "apo"
+      "termId": "apo",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Build, Acquire and Implement (BAI)",
@@ -417,7 +436,7 @@
       "egzamin": "Twórz, Nabywaj i Wdrażaj",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -426,7 +445,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "bai"
+      "termId": "bai",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Deliver, Service and Support (DSS)",
@@ -434,7 +454,7 @@
       "egzamin": "Dostarczaj, Obsługuj i Wspieraj",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -443,7 +463,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "dss"
+      "termId": "dss",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Monitor, Evaluate and Assess (MEA)",
@@ -451,7 +472,7 @@
       "egzamin": "Monitoruj, Oszacuj i Oceń",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -461,7 +482,7 @@
         }
       ],
       "termId": "mea",
-      "uwaga": "Uwaga: EDM ma 'Oszacuj' na początku, MEA ma 'Oszacuj' w środku."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Process purpose",
@@ -471,7 +492,7 @@
         "Określenie do czego służy proces (SP1)"
       ],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -480,7 +501,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "przeznaczenie-procesu"
+      "termId": "przeznaczenie-procesu",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Level of authority / decision rights",
@@ -488,13 +510,14 @@
       "egzamin": "Poziom uprawnień",
       "inne": [],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
         }
       ],
-      "termId": "poziom-uprawnien"
+      "termId": "poziom-uprawnien",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Delegation of authority",
@@ -502,13 +525,14 @@
       "egzamin": "Delegowanie uprawnień",
       "inne": [],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
         }
       ],
-      "termId": "delegowanie-uprawnien"
+      "termId": "delegowanie-uprawnien",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Responsible (RACI)",
@@ -516,14 +540,15 @@
       "egzamin": "Odpowiedzialny wykonawczo",
       "inne": [],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1",
           "strona": 13
         }
       ],
-      "termId": "raci-r"
+      "termId": "raci-r",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Accountable (RACI)",
@@ -531,7 +556,7 @@
       "egzamin": "Odpowiedzialny decyzyjnie",
       "inne": [],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1",
@@ -539,7 +564,7 @@
         }
       ],
       "termId": "raci-a",
-      "uwaga": "Egzamin: R – „odpowiedzialny wykonawczo” (wykonuje), A – „odpowiedzialny decyzyjnie” (odpowiada za sukces). Różni je drugie słowo. Podręcznik: „strona rozliczana”."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Change enablement",
@@ -547,7 +572,7 @@
       "egzamin": "Aktywowanie zmiany / Aktywacja zmiany",
       "inne": [],
       "modul": "IM",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -556,7 +581,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "pierscien-zmiana"
+      "termId": "pierscien-zmiana",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Road map",
@@ -564,7 +590,7 @@
       "egzamin": "Mapa drogowa",
       "inne": [],
       "modul": "IM",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -573,7 +599,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "faza-3"
+      "termId": "faza-3",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Trigger events",
@@ -581,7 +608,7 @@
       "egzamin": "Zdarzenia wyzwalające",
       "inne": [],
       "modul": "IM",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -590,7 +617,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "zdarzenia-wyzwalajace"
+      "termId": "zdarzenia-wyzwalajace",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Pain points",
@@ -598,13 +626,14 @@
       "egzamin": "Punkty zapalne",
       "inne": [],
       "modul": "IM",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
-      "termId": "punkty-zapalne"
+      "termId": "punkty-zapalne",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Business case",
@@ -612,13 +641,14 @@
       "egzamin": "Uzasadnienie biznesowe",
       "inne": [],
       "modul": "IM",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
-      "termId": "uzasadnienie-biznesowe"
+      "termId": "uzasadnienie-biznesowe",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Process capability assessment",
@@ -626,7 +656,7 @@
       "egzamin": "Ocena zdolności procesu",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -635,7 +665,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "model-zdolnosci"
+      "termId": "model-zdolnosci",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Assessor Guide",
@@ -643,13 +674,14 @@
       "egzamin": "Przewodnik Asesora",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
         }
       ],
-      "termId": "przewodniki-oceny"
+      "termId": "przewodniki-oceny",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Self-assessment Guide",
@@ -657,13 +689,14 @@
       "egzamin": "Przewodnik Samooceny",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
         }
       ],
-      "termId": "przewodniki-oceny"
+      "termId": "przewodniki-oceny",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "N – Not achieved",
@@ -671,13 +704,14 @@
       "egzamin": "N – Nieosiągnięty",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
         }
       ],
-      "termId": "skala-ocen"
+      "termId": "skala-ocen",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "P – Partially achieved",
@@ -685,14 +719,14 @@
       "egzamin": "C – Częściowy",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
         }
       ],
       "termId": "skala-ocen",
-      "uwaga": "NAJWIĘKSZA PUŁAPKA: litera 'P' na egzaminie PL oznacza PEŁNY, a w EN 'P' = Partially (częściowy)."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "L – Largely achieved",
@@ -700,13 +734,14 @@
       "egzamin": "W – Większościowy",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
         }
       ],
-      "termId": "skala-ocen"
+      "termId": "skala-ocen",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "F – Fully achieved",
@@ -714,7 +749,7 @@
       "egzamin": "P – Pełny",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -723,7 +758,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "skala-ocen"
+      "termId": "skala-ocen",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Performance management (PA 2.1)",
@@ -731,7 +767,7 @@
       "egzamin": "Zarządzanie wydajnością",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
@@ -742,7 +778,8 @@
           "ilustracja": "19"
         }
       ],
-      "termId": "pa-2-1"
+      "termId": "pa-2-1",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Established process (level 3)",
@@ -750,13 +787,14 @@
       "egzamin": "Proces ustanowiony",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
-      "termId": "poziom-3"
+      "termId": "poziom-3",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Predictable process (level 4)",
@@ -764,13 +802,14 @@
       "egzamin": "Proces przewidywalny",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
-      "termId": "poziom-4"
+      "termId": "poziom-4",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Owners and stakeholders",
@@ -778,7 +817,7 @@
       "egzamin": "Interesariusze",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -790,7 +829,8 @@
           "strona": 9
         }
       ],
-      "termId": "rola-interesariusze"
+      "termId": "rola-interesariusze",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Process performance (PA 1.1)",
@@ -798,7 +838,7 @@
       "egzamin": "Wykonanie procesu (?)",
       "inne": [],
       "modul": "PC",
-      "status": "niepotwierdzone",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -806,7 +846,8 @@
           "ilustracja": "19"
         }
       ],
-      "termId": "pa-1-1"
+      "termId": "pa-1-1",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Work product management (PA 2.2)",
@@ -814,7 +855,7 @@
       "egzamin": "Zarządzanie produktami pracy (?)",
       "inne": [],
       "modul": "PC",
-      "status": "niepotwierdzone",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -822,7 +863,8 @@
           "ilustracja": "19"
         }
       ],
-      "termId": "pa-2-2"
+      "termId": "pa-2-2",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Optimizing process (level 5)",
@@ -830,7 +872,7 @@
       "egzamin": "Proces zoptymalizowany",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -841,7 +883,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "poziom-5"
+      "termId": "poziom-5",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Process capability",
@@ -849,7 +892,7 @@
       "egzamin": "Zdolność procesu",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "ALTKOM"
@@ -858,7 +901,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "model-zdolnosci"
+      "termId": "model-zdolnosci",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Intrinsic quality",
@@ -868,7 +912,7 @@
         "Cel wewnętrzny (kategoria celów procesu, SP1)"
       ],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -880,7 +924,7 @@
         }
       ],
       "termId": "jakosc-wewnetrzna",
-      "uwaga": "„Wewnętrzna” = intrinsic = sama w sobie, nie „wewnątrz organizacji”."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Accessibility and security",
@@ -888,7 +932,7 @@
       "egzamin": "Dostęp i Bezpieczeństwo",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -900,7 +944,7 @@
         }
       ],
       "termId": "dostep-i-bezpieczenstwo",
-      "uwaga": "Kontekst: kategoria celów w OGÓLNYM MODELU AKTYWATORA (s. 29) → egzamin „Dostęp i Bezpieczeństwo”. Uwaga: dla kategorii celów PROCESU arkusz używa „Cele dostępności i bezpieczeństwa” (s. 69), a dla jakości informacji podręcznik mówi „Jakość bezpieczeństwa/dostępności” (s. 82) – tych form NIE zamieniaj."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Governance approach",
@@ -908,7 +952,7 @@
       "egzamin": "Podejście do Ładu",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -920,7 +964,8 @@
           "strona": 5
         }
       ],
-      "termId": "system-ladu"
+      "termId": "system-ladu",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Governance scope",
@@ -928,7 +973,7 @@
       "egzamin": "Zakres Ładu",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -939,7 +984,8 @@
           "strona": 5
         }
       ],
-      "termId": "zakres-ladu"
+      "termId": "zakres-ladu",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Enabler dimension",
@@ -947,7 +993,7 @@
       "egzamin": "Wymiar aktywatora",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -959,7 +1005,8 @@
           "strona": 19
         }
       ],
-      "termId": "wymiary-aktywatora"
+      "termId": "wymiary-aktywatora",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "EDM05 Ensure Stakeholder Transparency",
@@ -967,7 +1014,7 @@
       "egzamin": "Zapewnienie Transparentności Interesariuszy",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -979,7 +1026,8 @@
           "strona": 24
         }
       ],
-      "termId": "proc-edm05"
+      "termId": "proc-edm05",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "APO05 Manage Portfolio",
@@ -987,7 +1035,7 @@
       "egzamin": "Zarządzanie Portfelem",
       "inne": [],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -999,7 +1047,8 @@
           "strona": 7
         }
       ],
-      "termId": "proc-apo05"
+      "termId": "proc-apo05",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "BAI09 Manage Assets",
@@ -1007,7 +1056,7 @@
       "egzamin": "Zarządzanie zasobami (?)",
       "inne": [],
       "modul": "PR",
-      "status": "niepotwierdzone",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1016,7 +1065,7 @@
         }
       ],
       "termId": "proc-bai09",
-      "uwaga": "„Zasoby” = Assets (aktywa: sprzęt, licencje). Nie mylić z EDM04 (Resource Optimisation) ani APO07 (Human Resources)."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Enterprise Architecture",
@@ -1024,7 +1073,7 @@
       "egzamin": "Architektura Korporacyjna / Architektura Przedsiębiorstwa",
       "inne": [],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1036,7 +1085,8 @@
           "strona": 10
         }
       ],
-      "termId": "proc-apo03"
+      "termId": "proc-apo03",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Operating principles",
@@ -1046,7 +1096,7 @@
         "Zasady wykonawcze (SP1 – uzasadnienie)"
       ],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1056,7 +1106,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "zasady-operacyjne"
+      "termId": "zasady-operacyjne",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Span of control",
@@ -1064,7 +1115,7 @@
       "egzamin": "Zakres kontroli",
       "inne": [],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1074,7 +1125,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "zakres-kontroli"
+      "termId": "zakres-kontroli",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Service capabilities",
@@ -1082,7 +1134,7 @@
       "egzamin": "Zdolność usługowa",
       "inne": [],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1092,7 +1144,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "zdolnosc-uslugowa"
+      "termId": "zdolnosc-uslugowa",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Principles, Policies and Frameworks",
@@ -1102,7 +1155,7 @@
         "Zasady, polityki i modele ramowe (SP1)"
       ],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1112,7 +1165,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "zasady-polityki-struktury"
+      "termId": "zasady-polityki-struktury",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Non-intrusive (good policy)",
@@ -1120,7 +1174,7 @@
       "egzamin": "Nieinwazyjne",
       "inne": [],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1130,7 +1184,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "polityka"
+      "termId": "polityka",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Champions (good practice for behaviour)",
@@ -1138,7 +1193,7 @@
       "egzamin": "Czempioni (biznesu)",
       "inne": [],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1149,7 +1204,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "praktyki-zachowan"
+      "termId": "praktyki-zachowan",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "COBIT 5: Enabling Processes",
@@ -1157,7 +1213,7 @@
       "egzamin": "Przewodnik Aktywacji (Procesy umożliwiające)",
       "inne": [],
       "modul": "EN",
-      "status": "niepotwierdzone",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1167,7 +1223,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "opis-procesu"
+      "termId": "opis-procesu",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Process measurement (PA 4.1)",
@@ -1175,7 +1232,7 @@
       "egzamin": "Miara procesu",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1186,7 +1243,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "pa-4-1"
+      "termId": "pa-4-1",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Process innovation (PA 5.1)",
@@ -1194,7 +1252,7 @@
       "egzamin": "Innowacja procesu",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1205,7 +1263,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "pa-5-1"
+      "termId": "pa-5-1",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Process dimension / Capability dimension",
@@ -1213,7 +1272,7 @@
       "egzamin": "Wymiar Procesu / Wymiar Zdolności",
       "inne": [],
       "modul": "PC",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1224,7 +1283,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "wymiary-oceny"
+      "termId": "wymiary-oceny",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Base practices",
@@ -1232,14 +1292,15 @@
       "egzamin": "Praktyki bazowe",
       "inne": [],
       "modul": "PC",
-      "status": "niepotwierdzone",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
           "strona": 43
         }
       ],
-      "termId": "praktyka-bazowa"
+      "termId": "praktyka-bazowa",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Work products",
@@ -1247,14 +1308,15 @@
       "egzamin": "Produkty pracy",
       "inne": [],
       "modul": "PC",
-      "status": "niepotwierdzone",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
           "strona": 43
         }
       ],
-      "termId": "produkt-pracy"
+      "termId": "produkt-pracy",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Continual improvement life cycle",
@@ -1262,7 +1324,7 @@
       "egzamin": "Główny cykl życia ciągłego doskonalenia",
       "inne": [],
       "modul": "IM",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1272,7 +1334,8 @@
           "doc": "SP1"
         }
       ],
-      "termId": "pierscien-doskonalenie"
+      "termId": "pierscien-doskonalenie",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Plan programme (phase 4)",
@@ -1280,13 +1343,14 @@
       "egzamin": "Planowanie programu",
       "inne": [],
       "modul": "IM",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
-      "termId": "fazy-wdrozenia"
+      "termId": "fazy-wdrozenia",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Identify role players (phase 4)",
@@ -1294,13 +1358,14 @@
       "egzamin": "Identyfikacja (zidentyfikuj) odtwórców ról",
       "inne": [],
       "modul": "IM",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
-      "termId": "fazy-wdrozenia"
+      "termId": "fazy-wdrozenia",
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Figure",
@@ -1308,14 +1373,14 @@
       "egzamin": "Rysunek",
       "inne": [],
       "modul": "wspolne",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "SP1"
         }
       ],
       "termId": "cobit-5",
-      "uwaga": "Uzasadnienia egzaminacyjne odsyłają do „Rysunku N”, a polski podręcznik ten sam element nazywa „Ilustracją N”. Numery są te same."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Accessibility and security goals (process goal category)",
@@ -1325,7 +1390,7 @@
         "Dostęp i Bezpieczeństwo (forma z ogólnego modelu aktywatora – inny kontekst)"
       ],
       "modul": "EN",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1337,7 +1402,7 @@
         }
       ],
       "termId": "kategorie-celow-procesu",
-      "uwaga": "Ta sama angielska nazwa, różne polskie formy zależnie od kontekstu: aktywator ogólnie (Dostęp i Bezpieczeństwo) vs cele procesu (dostępności i bezpieczeństwa)."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Output vs outcome",
@@ -1354,7 +1419,7 @@
         }
       ],
       "termId": "rezultat",
-      "uwaga": "Output = produkt pracy (np. raport). Outcome (ISO/IEC 15504) = obserwowalny skutek osiągnięcia przeznaczenia procesu. W pytaniu o ocenę zdolności „rezultat” znaczy outcome."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     },
     {
       "en": "Monitor (Figure 9: Key roles, activities and relationships)",
@@ -1364,7 +1429,7 @@
         "Ład (EDM) też monitoruje – wydajność i zgodność względem kierunku (s. 14)"
       ],
       "modul": "PR",
-      "status": "oficjalne",
+      "status": "uproszczenie",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1377,7 +1442,7 @@
         }
       ],
       "termId": "role-dzialania-relacje",
-      "uwaga": "Na Rysunku 9 strzałka „Monitorowanie” łączy Zarządzanie z Organem Ładu (Zarządzanie raportuje wyniki, Ład je ocenia względem kierunku). Arkusz PL na pytanie, która ROLA odpowiada za monitorowanie osiągania celów organizacji, uznaje Kierownictwo. Na egzaminie: pytanie o rolę z Rysunku 9 → Kierownictwo; pytanie o działania Ładu (EDM) → Monitoruj."
+      "uwaga": "Polski wariant nazwy używany w kursie; nie odrzucaj poprawnego synonimu wyłącznie z powodu różnicy tłumaczenia."
     }
   ]
 }

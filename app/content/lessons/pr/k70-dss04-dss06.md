@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-prc-70-1, q-prc-70-2, q-prc-70-3]
-zapas: [q-prc-70-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-dss04, proc-dss05, proc-dss06]
 wymaga: [pr-k69-dss01-dss03]
 cel: "Potrafię odróżnić ciągłość (DSS04) od pojemności (BAI04), codzienną ochronę (DSS05) od systemu bezpieczeństwa (APO13) i kontrole w procesie (DSS06) od ich oceny (MEA02)."

@@ -31,10 +31,10 @@
   "wyobrazSobie": "Spisujesz sprzęt w domu do ubezpieczenia: co masz, ile kosztowało, gdzie są gwarancje i kiedy wymienić pralkę.",
   "skadNazwa": "Z angielskiego *Manage Assets*. Podręcznik tłumaczy *assets* jako „zasoby”, choć dokładniej znaczy to „aktywa” albo „majątek”. W polskim COBIT słowo „zasoby” oznacza też *resources* (EDM04) i *human resources* (APO07).",
   "poziom1": "Proces domeny [[bai]], który prowadzi aktywa IT (sprzęt, oprogramowanie, licencje) przez cały cykl życia: od pozyskania, przez ewidencję i ochronę, po wycofanie. Dba, żeby dawały wartość przy optymalnym koszcie, działały, były policzone i chronione.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** rozpoznaje i ewidencjonuje aktywa, zwłaszcza krytyczne dla usług, zarządza ich cyklem życia, optymalizuje koszty, zarządza licencjami oprogramowania i bezpiecznie wycofuje stary sprzęt.\n\n**Wejścia (intuicja):** zakupy z [[proc-bai03]], informacje o dostawcach i umowach (APO10), budżet (APO06).\n\n**Wyjścia (intuicja):** rejestr aktywów, stan licencji, plan wymiany, raport kosztów i wykorzystania.\n\n**Współpracuje z:** [[proc-bai10]] (ten sam serwer jako element konfiguracji), APO06 (koszty), [[proc-dss05]] (fizyczna ochrona sprzętu).",
+  "poziom2": "**Cel i zakres:** zarządzanie aktywami IT przez cały cykl życia, z kontrolą wartości, wykorzystania, kosztów i zobowiązań licencyjnych.\n\n**Przykład:** Organizacja śledzi wykorzystanie i koszty licencji oraz urządzeń od pozyskania do wycofania, aby utrzymać ich wartość.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Dla porównania „Zasób” w słowniku (s. 93) to *„Każdy zasób przedsiębiorstwa, który ułatwia organizacji osiągnięcie jej celów”*, a optymalizacja zasobów obejmuje *„wykorzystanie wszystkich zasobów — ludzkich, finansowych, sprzętu, infrastruktury itd.”* To szersze pojęcie niż aktywa z BAI09. Mapa pułapek kursu ma przy BAI09 egzaminacyjną nazwę ze znakiem zapytania. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby wiedzieć, jaki sprzęt i licencje masz, ile kosztują i kiedy je wymienić. Policzone aktywa łatwiej chronić.",
-  "jakDziala": "Rozpoznajesz i ewidencjonujesz aktywa IT. Szczególnie dbasz o aktywa krytyczne. Prowadzisz je przez cykl życia, optymalizujesz koszty i pilnujesz licencji.",
+  "jakDziala": "Zarządzanie aktywami IT przez cały cykl życia, z kontrolą wartości, wykorzystania, kosztów i zobowiązań licencyjnych.",
   "dlaczegoWazne": "BAI09 (co masz i ile to kosztuje) łatwo pomylić z BAI10 (jak to jest ustawione i połączone). Polska nazwa „zasoby” myli się też z zasobami ludzkimi z APO07.",
   "przyklady": {
     "zycie": "Masz w domu teczkę: kiedy kupiłeś pralkę, do kiedy jest gwarancja, ile lat ma laptop i kiedy odnowić antywirusa. Gdy laptop się zestarzeje, kasujesz dane i oddajesz go do elektrośmieci. To zarządzanie aktywami.",
@@ -76,20 +76,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "BAI09 Zarządzanie zasobami"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 93,
-      "cytat": "Każdy zasób przedsiębiorstwa, który ułatwia organizacji osiągnięcie jej celów."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 93,
-      "cytat": "wykorzystanie wszystkich zasobów — ludzkich, finansowych, sprzętu, infrastruktury itd."
+      "doc": "ENPROC",
+      "sekcja": "BAI09 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-bai09",
@@ -100,16 +89,8 @@
   },
   "zagmatwania": [
     {
-      "mit": "BAI09 „Zarządzanie zasobami” dotyczy ludzi.",
-      "prawda": "Dotyczy aktywów (*assets*): sprzętu, oprogramowania, licencji. Ludzie to APO07."
-    },
-    {
-      "mit": "BAI09 to wykonawcza część EDM04.",
-      "prawda": "EDM04 to decyzja Ładu o wszystkich zasobach (ludzie, pieniądze, sprzęt). BAI09 zajmuje się tylko aktywami IT w ich cyklu życia."
-    },
-    {
-      "mit": "Spis sprzętu i baza konfiguracji to jedno i to samo.",
-      "prawda": "Ta sama rzecz może być w obu. BAI09 patrzy na wartość, koszt i cykl życia, BAI10 – na ustawienia i powiązania z usługą."
+      "mit": "BAI09 dotyczy wyłącznie sprzętu.",
+      "prawda": "Obejmuje aktywa IT, w tym materialne i niematerialne, ich wartość, wykorzystanie, koszty i cykl życia."
     }
   ],
   "mentor": {

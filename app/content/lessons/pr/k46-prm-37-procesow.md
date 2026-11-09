@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-03, PR-01-04]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-prb-46-1, q-prb-46-2, q-prb-46-3]
-zapas: [q-prb-46-z1]
+cwiczenia: ["q-prb-46-3", "q-prb-46-z1"]
+zapas: ["q-prb-47-2"]
 wprowadza: [prm]
 wymaga: [pr-k45-interakcje-aktywatory]
 cel: "Potrafię powiedzieć, ile procesów ma Referencyjny Model Procesu i jak dzielą się między Ład a Zarządzanie."

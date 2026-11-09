@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-07]
 minuty: 5
 zgadnij: []
-cwiczenia: [q-m0k-02-1, q-m0k-02-2, q-m0k-02-3]
-zapas: [q-m0k-02-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [m0-01-ramy-cobit]
 cel: "Potrafię powiedzieć, że COBIT 5 to dobrowolne ramy dla całej organizacji, a nie program, ustawa ani instrukcja tylko dla działu IT."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-02-05]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-10-1, q-pck-10-2, q-pck-10-3]
-zapas: [q-pck-10-z1]
+cwiczenia: ["q-pck-10-2", "q-pck-11-3"]
+zapas: ["q-pck-12-3"]
 wprowadza: [model-zdolnosci]
 wymaga: []
 cel: "Potrafię powiedzieć, co mierzy model zdolności procesu i na jakiej normie się opiera."

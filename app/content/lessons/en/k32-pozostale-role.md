@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-13]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-32-1, q-enk-32-2, q-enk-32-3]
-zapas: [q-enk-32-z1]
+cwiczenia: ["q-enk-32-3", "q-enk-32-z1"]
+zapas: ["q-en-05-04"]
 wprowadza: []
 wymaga: [en-k31-komitety-biura]
 cel: "Potrafię rozpoznać właściciela procesu biznesowego i pozostałe role z Rysunku 33 po ich odpowiedzialności."

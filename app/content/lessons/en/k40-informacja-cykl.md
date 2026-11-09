@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-18]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-enk-40-1, q-enk-40-2, q-enk-40-3]
-zapas: [q-enk-40-z1]
+cwiczenia: ["q-enk-40-3", "q-enk-40-z1"]
+zapas: ["q-fin-pliki-08"]
 wprowadza: [informacja, cykl-informacji]
 wymaga: [en-k37-praktyki-zachowan]
 cel: "Potrafię opisać cykl informacji od danych do wartości i wiem, że informacja daje korzyść dopiero przez wykorzystanie."

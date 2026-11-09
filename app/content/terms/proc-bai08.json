@@ -26,10 +26,10 @@
   "wyobrazSobie": "Babcia spisuje swoje przepisy do zeszytu, zanim zapomni. Ty dopisujesz nowe i wyrzucasz te, których nikt nie gotuje.",
   "skadNazwa": "Z angielskiego *Manage Knowledge*. Nazwa prosta, ale łatwo ją pomylić z opisem systemów (BAI10) albo z umiejętnościami ludzi (APO07).",
   "poziom1": "Proces domeny [[bai]], który utrzymuje dostępną, aktualną, sprawdzoną i wiarygodną wiedzę potrzebną do pracy i podejmowania decyzji. Planuje, jak wiedzę rozpoznawać, zbierać, porządkować, udostępniać, oceniać i wycofywać, gdy się zestarzeje.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** sprzyja dzieleniu się wiedzą, rozpoznaje i porządkuje źródła wiedzy (instrukcje, wnioski z incydentów, doświadczenie ludzi), udostępnia ją tym, którzy jej potrzebują, ocenia jej przydatność i usuwa nieaktualną.\n\n**Wejścia (intuicja):** dokumentacja z projektów ([[proc-bai03]], [[proc-bai07]]), znane błędy i obejścia ([[proc-dss03]]), wnioski z przeglądów.\n\n**Wyjścia (intuicja):** baza wiedzy, instrukcje, klasyfikacja wiedzy, raport z wykorzystania i aktualności.\n\n**Współpracuje z:** [[proc-bai05]] (ludzie korzystają z systemów), [[proc-dss02]] (wsparcie korzysta z bazy wiedzy), aktywatorami [[informacja]] i [[ludzie-umiejetnosci-kompetencje]].",
+  "poziom2": "**Cel i zakres:** identyfikowanie, utrzymywanie i udostępnianie wiedzy potrzebnej ludziom, w tym wiedzy jawnej i ukrytej.\n\n**Przykład:** Organizacja identyfikuje wiedzę potrzebną do obsługi systemów, ułatwia jej dzielenie i zapewnia zastępowalność ekspertów.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL, s. 60): *„Procesy COBIT 5 BAI05 Zarządzanie wdrażaniem zmian organizacyjnych oraz BAI08 Zarządzanie wiedzą zapewniają użytkownikom możliwość efektywnego korzystania z systemów.”* Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby wiedza potrzebna do pracy nie siedziała tylko w czyjejś głowie. Ma być aktualna i łatwa do znalezienia.",
-  "jakDziala": "Budujesz kulturę dzielenia się wiedzą. Rozpoznajesz źródła informacji, porządkujesz je w wiedzę i udostępniasz. Okresowo oceniasz wiedzę i wycofujesz nieaktualną.",
+  "jakDziala": "Identyfikowanie, utrzymywanie i udostępnianie wiedzy potrzebnej ludziom, w tym wiedzy jawnej i ukrytej.",
   "dlaczegoWazne": "Odejście doświadczonej osoby bez spisanej wiedzy to realne ryzyko (interpretacja kursu). Na egzaminie nie myl BAI08 z zarządzaniem ludźmi w APO07.",
   "przyklady": {
     "zycie": "Dziadek jako jedyny wie, jak odpowietrzyć piec w domu. Wnuk nagrywa go telefonem, spisuje kroki na kartce i przykleja ją przy piecu. Gdy piec się zmieni, kartkę wymienia. Wiedza przestaje być w jednej głowie.",
@@ -66,15 +66,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "BAI08 Zarządzanie wiedzą"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 60,
-      "cytat": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych oraz BAI08 Zarządzanie wiedzą zapewniają użytkownikom możliwość efektywnego korzystania z systemów"
+      "doc": "ENPROC",
+      "sekcja": "BAI08 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-bai08",
@@ -85,16 +79,8 @@
   },
   "zagmatwania": [
     {
-      "mit": "Zarządzanie wiedzą to szkolenia.",
-      "prawda": "Szkolenia i kompetencje to głównie APO07 i BAI05. BAI08 dba, żeby wiedza była spisana, dostępna, aktualna i wycofywana, gdy się zestarzeje."
-    },
-    {
-      "mit": "Baza wiedzy i baza konfiguracji to jedno.",
-      "prawda": "Baza konfiguracji (BAI10) opisuje elementy systemu i ich relacje. Baza wiedzy (BAI08) zawiera instrukcje, obejścia i wnioski."
-    },
-    {
-      "mit": "Wiedzę wystarczy raz spisać.",
-      "prawda": "BAI08 obejmuje też ocenę przydatności i wycofywanie nieaktualnej wiedzy."
+      "mit": "BAI08 dotyczy tylko wiedzy zapisanej w dokumentach.",
+      "prawda": "Obejmuje także wiedzę ukrytą i doświadczenie ludzi. Dzielenie się wiedzą nie ogranicza się do prowadzenia repozytorium instrukcji."
     }
   ],
   "mentor": {

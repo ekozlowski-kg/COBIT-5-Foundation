@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-exk-18-1, q-exk-18-2, q-exk-18-3]
-zapas: [q-exk-18-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k17-powtorka-zasady-aktywatory]
 cel: "Potrafię z pamięci podać 4 wymiary aktywatora, 3 kategorie celów i podział 37 procesów na domeny."

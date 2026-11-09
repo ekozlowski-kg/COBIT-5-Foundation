@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-exk-14-1, q-exk-14-2, q-exk-14-3]
-zapas: [q-exk-14-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k13-glowny-zawsze]
 cel: "Potrafię odrzucić odpowiedź prawdziwą, ale z innej kategorii COBIT 5 niż ta, o którą pyta pytanie."

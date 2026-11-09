@@ -27,11 +27,11 @@
   "poLudzku": "Plan na kilka lat: dokąd ma dojść informatyka, żeby pomóc organizacji, i jak tam dojść krok po kroku.",
   "wyobrazSobie": "Plan treningowy przed maratonem: gdzie jesteś dziś, gdzie chcesz być za rok i jakie etapy po drodze.",
   "poCo": "Żeby informatyka wiedziała, dokąd ma dojść w ciągu kilku lat, aby wspierać cele organizacji, i w jakiej kolejności to zrobić.",
-  "jakDziala": "Kierownictwo IT opisuje stan obecny i docelowy, a potem lukę między nimi. Z luki wyprowadza inicjatywy i układa je w mapę drogową. Strategię uzgadnia z celami organizacji i przekazuje inicjatywy do portfela.",
+  "jakDziala": "Dopasowanie strategicznego kierunku i planów IT do celów przedsiębiorstwa, z uwzględnieniem stanu obecnego i docelowego.",
   "dlaczegoWazne": "APO02 przekłada cele z kaskady celów na konkretny plan IT. Na egzaminie myli się z APO03 (architektura).",
   "skadNazwa": "EN *Manage Strategy*. Proste tłumaczenie. Chodzi jednak o strategię **IT**, która wspiera strategię organizacji, prowadzoną przez Zarządzanie. To nie jest strategia całej organizacji.",
   "poziom1": "Proces Zarządzania o strategii IT. Pokazuje, gdzie jesteśmy, dokąd chcemy dojść i jakie inicjatywy nas tam zaprowadzą. Strategia IT ma wspierać cele organizacji.",
-  "poziom2": "**Czym się zajmuje:** opisuje stan obecny, stan docelowy i lukę między nimi, a potem układa mapę drogową.\n\n**Wejścia (intuicja):** [[cele-organizacji]], kierunek z Ładu, opis architektury z [[proc-apo03]], pomysły z [[proc-apo04]].\n\n**Wyjścia (intuicja):** strategia IT, mapa drogowa, lista inicjatyw do portfela.\n\n**Współpraca:** inicjatywy trafiają do [[proc-apo05]] (portfel), a koszty do [[proc-apo06]].",
+  "poziom2": "**Cel i zakres:** dopasowanie strategicznego kierunku i planów IT do celów przedsiębiorstwa, z uwzględnieniem stanu obecnego i docelowego.\n\n**Przykład:** Kierownictwo określa przyszłą rolę IT w realizacji strategii przedsiębiorstwa i przygotowuje strategiczny plan inicjatyw.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO02 Zarządzanie strategią”. Załącznik E (s. 59): *„APO02 Zarządzanie strategią koncentruje się na ustalaniu celów.”* Ten sam załącznik: proces APO02 *„ułatwia zapewnienie zgodności planu IT z ogólnymi celami biznesowymi”*. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Chcesz za trzy lata mieszkać we własnym mieszkaniu. Sprawdzasz, ile masz teraz, ile potrzeba i czego brakuje. Rozpisujesz kroki: oszczędzanie, kredyt, przeprowadzka. To strategia z mapą drogi.",
@@ -69,20 +69,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO02 Zarządzanie strategią"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 59,
-      "cytat": "APO02 Zarządzanie strategią koncentruje się na ustalaniu celów."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 59,
-      "cytat": "ułatwia zapewnienie zgodności planu IT z ogólnymi celami biznesowymi"
+      "doc": "ENPROC",
+      "sekcja": "APO02 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo02",

@@ -26,11 +26,11 @@
   "poLudzku": "Ustalenie, co znaczy „dobrze zrobione”, pilnowanie tego i ciągłe poprawianie pracy, żeby użytkownicy byli zadowoleni.",
   "wyobrazSobie": "Piekarz, który ma przepis, waży losowe bochenki i zmienia przepis po skargach klientów.",
   "poCo": "Żeby było jasne, co znaczy „dobrze zrobione” w IT, i żeby praca była stale poprawiana.",
-  "jakDziala": "Kierownictwo IT ustala wymagania i standardy jakości dla procesów, usług i rozwiązań. Utrzymuje system zarządzania jakością, robi przeglądy i słucha klientów. Na tej podstawie wprowadza usprawnienia.",
+  "jakDziala": "Ustanowienie i utrzymanie systemu zarządzania jakością, standardów oraz ciągłego doskonalenia jakości.",
   "dlaczegoWazne": "Jakość wpływa na zadowolenie użytkowników i wartość IT. Na egzaminie APO11 myli się z MEA01 oraz z jakością informacji.",
   "skadNazwa": "EN *Manage Quality*. Proste tłumaczenie. Myli słowo „jakość”, które w COBIT występuje też przy informacji (jakość wewnętrzna, kontekstowa).",
   "poziom1": "Proces Zarządzania o jakości. Ustala i komunikuje wymagania jakości dla procesów, usług i rozwiązań. Utrzymuje system zarządzania jakością i prowadzi ciągłe doskonalenie.",
-  "poziom2": "**Czym się zajmuje:** określa standardy jakości, sprawdza, czy są stosowane, słucha klientów i wprowadza poprawki.\n\n**Wejścia (intuicja):** oczekiwania użytkowników (z [[proc-apo08]]), poziomy usług z [[proc-apo09]], wyniki przeglądów.\n\n**Wyjścia (intuicja):** standardy i wymagania jakości, wyniki przeglądów jakości, plany usprawnień.\n\n**Współpraca:** z [[proc-apo01]] (doskonalenie procesów) i z MEA01, który mierzy wyniki wszystkich procesów i raportuje je w górę.",
+  "poziom2": "**Cel i zakres:** ustanowienie i utrzymanie systemu zarządzania jakością, standardów oraz ciągłego doskonalenia jakości.\n\n**Przykład:** Kierownictwo ustanawia system zarządzania jakością IT, standardy i sposoby zapewnienia jakości oraz prowadzi ich doskonalenie.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO11 Zarządzanie jakością”. Framework (s. 33) o tematach przekrojowych: *„(np. jakość, bezpieczeństwo), są one umieszczane w domenach odpowiadających zasadniczo najwłaściwszemu obszarowi”* działania. Słownik (s. 93): jakość to *„Przydatność dla danego celu (uzyskanie zamierzonej wartości).”* Załącznik E (s. 61): CMMI obejmuje *„niektóre procesy organizacyjne i związane z jakością z domeny APO.”* Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Gotujesz obiady dla gości. Ustalasz: zupa zawsze gorąca, porcje równe. Pytasz gości o opinię i poprawiasz przepis. Wymagania, sprawdzanie i poprawki to zarządzanie jakością.",
@@ -63,25 +63,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO11 Zarządzanie jakością"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 33,
-      "cytat": "(np. jakość, bezpieczeństwo), są one umieszczane w domenach odpowiadających zasadniczo najwłaściwszemu obszarowi"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 93,
-      "cytat": "Przydatność dla danego celu (uzyskanie zamierzonej wartości)."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 61,
-      "cytat": "niektóre procesy organizacyjne i związane z jakością z domeny APO."
+      "doc": "ENPROC",
+      "sekcja": "APO11 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo11",

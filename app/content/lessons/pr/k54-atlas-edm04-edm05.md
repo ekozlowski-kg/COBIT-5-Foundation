@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-03]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prb-54-1, q-prb-54-2, q-prb-54-3]
-zapas: [q-prb-54-z1]
+cwiczenia: ["q-prb-46-3", "q-prb-47-2"]
+zapas: ["q-prb-46-z1"]
 wprowadza: [proc-edm04, proc-edm05]
 wymaga: [pr-k53-atlas-edm01-edm03]
 cel: "Potrafię rozpoznać EDM04 i EDM05 i odróżnić EDM04 od APO07 i BAI09, a EDM05 od MEA01."

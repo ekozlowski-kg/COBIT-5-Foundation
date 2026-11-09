@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-14-1, q-pra-14-2, q-pra-14-3]
-zapas: [q-pra-14-z1]
+cwiczenia: ["q-pr-02-02", "q-fn-w-05"]
+zapas: ["q-pra-15-z1"]
 wprowadza: [tworzenie-wartosci]
 wymaga: [pr-k13-rozpoznaj-zasade]
 cel: "Potrafię powiedzieć, że Cel Ładu to Tworzenie Wartości, i wymienić jego trzy składniki."

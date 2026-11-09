@@ -26,11 +26,11 @@
   "poLudzku": "Planowanie, ile pieniędzy pójdzie na informatykę, pilnowanie wydatków i wyjaśnianie, skąd biorą się koszty.",
   "wyobrazSobie": "Zeszyt domowych wydatków: plan na miesiąc, zapisane rachunki i rozmowa, czemu prąd kosztował więcej.",
   "poCo": "Żeby wydatki na IT były zaplanowane, kontrolowane i zrozumiałe dla tych, którzy za nie płacą.",
-  "jakDziala": "Kierownictwo IT razem z finansami planuje budżet i przydziela go. W trakcie roku śledzi koszty i wyjaśnia odchylenia od planu. Może też rozliczać koszty IT na jednostki, które z IT korzystają.",
+  "jakDziala": "Planowanie i kontrola finansów IT, w tym budżetów, kosztów oraz rozliczeń usług.",
   "dlaczegoWazne": "Bez APO06 nie da się rozliczyć wartości (EDM02) ani zasobów (EDM04). Na egzaminie myli się z portfelem (APO05).",
   "skadNazwa": "EN *Manage Budget and Costs*. Proste tłumaczenie. Trudność nie leży w nazwie, tylko w granicy z portfelem (APO05) i z EDM04.",
   "poziom1": "Proces Zarządzania o pieniądzach IT. Planuje budżet, przydziela go, śledzi koszty i wyjaśnia odchylenia. Pomaga też rozliczać koszty IT na jednostki, które z IT korzystają.",
-  "poziom2": "**Czym się zajmuje:** prowadzi „domowy budżet” informatyki: plan, wydatki, kontrola, rozliczenie.\n\n**Wejścia (intuicja):** decyzje portfelowe z [[proc-apo05]], ceny z umów dostawców ([[proc-apo10]]), zasady przydziału zasobów z [[proc-edm04]].\n\n**Wyjścia (intuicja):** budżet IT, raporty kosztów, wyjaśnienia odchyleń, rozliczenie kosztów na użytkowników.\n\n**Współpraca:** dane o kosztach trafiają do [[proc-edm02]] i [[proc-edm04]], a wykonanie mierzy MEA01.",
+  "poziom2": "**Cel i zakres:** planowanie i kontrola finansów IT, w tym budżetów, kosztów oraz rozliczeń usług.\n\n**Przykład:** Dział IT planuje budżet, przypisuje koszty usług do odbiorców i analizuje różnice między planem a wydatkami.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO06 Zarządzanie budżetem i kosztami”. Il. 39 (s. 88): w domenie APO jest kategoria umiejętności *„Zarządzanie finansowe”*. Słownik (s. 89): refundacja to *„Redystrybucja wydatków do jednostek wewnątrz przedsiębiorstwa, w których powstały.”* Interesariusze pytają: *„Jak kontrolować koszty IT?”* (il. 7, s. 22). Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Prowadzisz zeszyt wydatków domowych. Planujesz miesiąc, zapisujesz każdy rachunek i sprawdzasz, czemu prąd kosztował więcej. Koszt wspólnego internetu dzielisz między współlokatorów. To APO06.",
@@ -67,27 +67,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO06 Zarządzanie budżetem i kosztami"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39",
-      "cytat": "Zarządzanie finansowe"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 89,
-      "cytat": "Redystrybucja wydatków do jednostek wewnątrz przedsiębiorstwa, w których powstały."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 22,
-      "ilustracja": "7",
-      "cytat": "Jak kontrolować koszty IT?"
+      "doc": "ENPROC",
+      "sekcja": "APO06 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo06",

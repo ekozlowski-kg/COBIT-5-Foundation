@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-12]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pra-38-1, q-pra-38-2, q-pra-38-3]
-zapas: [q-pra-38-z1]
+cwiczenia: ["q-pra-38-3", "q-pra-36-3"]
+zapas: ["q-pra-37-3"]
 wprowadza: [jakosc-wewnetrzna, jakosc-kontekstowa, dostep-i-bezpieczenstwo]
 wymaga: [pr-k37-cykl-zycia]
 cel: "Potrafię wymienić trzy kategorie celów aktywatora i powiedzieć, o co pyta każda z nich."

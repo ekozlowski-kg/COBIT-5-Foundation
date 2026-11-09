@@ -11,7 +11,7 @@
   "poLudzku": "Ogólne reguły budowania systemów, np. „używaj tego, co już mamy” albo „prosto jest lepiej”.",
   "wyobrazSobie": "Domowe reguły gotowania: najpierw zużyj to, co jest w lodówce, kup gotowe ciasto zamiast robić od zera i nie komplikuj przepisu.",
   "poCo": "Żeby decyzje o budowie, zakupie i zmianach IT opierały się na kilku wspólnych regułach, a nie na upodobaniach poszczególnych osób.",
-  "jakDziala": "Zasady (pryncypia) architektury (architecture principles) to dobra praktyka aktywatora Usługi, Infrastruktura i Aplikacje. COBIT 5 podaje przykłady: ponowne wykorzystanie (reuse), nabywanie zamiast samodzielnego tworzenia (buy vs. build), prostota (simplicity), zwinność (agility) i otwartość (openness). Według nich wybiera się rozwiązania na drodze od architektury referencyjnej (stan obecny) do docelowej.",
+  "jakDziala": "Baseline architecture to architektura bazowa opisująca stan obecny; target to docelowa, a transition to przejściowa. Reference architecture jest pojęciem wzorca referencyjnego i nie jest automatycznym synonimem baseline.",
   "dlaczegoWazne": "Egzamin pyta o pięć przykładowych pryncypiów i ich znaczenie, np. „kupuj, chyba że jest zatwierdzony powód, by budować”. Łączą się z aktywatorem 6 i z zasadą 4 (Aktywacja holistycznego podejścia).",
   "skadNazwa": "Angielskie *principles* tłumaczy się jako „zasady” albo „pryncypia”. To słowo ma tu znaczenie „ogólne reguły budowy systemów”.",
   "poziom1": "Kilka prostych reguł, którymi kierujesz się przy budowaniu i kupowaniu IT (w COBIT 5 przykładowo: używaj ponownie tego, co już masz, kupuj zamiast pisać od zera, rób prosto, elastycznie i na otwartych standardach).",

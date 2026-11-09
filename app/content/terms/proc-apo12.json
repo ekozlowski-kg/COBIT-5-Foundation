@@ -27,11 +27,11 @@
   "poLudzku": "Ciągłe wyszukiwanie, co może pójść źle w informatyce, ocenianie tego i przygotowanie, co wtedy zrobimy.",
   "wyobrazSobie": "Ratownik na plaży: obserwuje wodę, ocenia zagrożenia i reaguje. Granice kąpieliska wyznaczyła gmina.",
   "poCo": "Żeby ryzyko IT było stale rozpoznawane, oceniane i ograniczane do poziomu, który organizacja akceptuje.",
-  "jakDziala": "Kierownictwo IT zbiera dane o ryzyku i analizuje je. Utrzymuje profil ryzyka i informuje o nim. Dobiera reakcje: unikanie, ograniczanie, przeniesienie albo akceptację, w granicach apetytu ustalonego przez Ład.",
+  "jakDziala": "Identyfikowanie, analizowanie i zarządzanie ryzykiem związanym z IT w ramach systemu ryzyka przedsiębiorstwa.",
   "dlaczegoWazne": "APO12 to codzienna praca z ryzykiem w Zarządzaniu. Para APO12 i EDM03 to jedna z najczęściej mylonych par na egzaminie.",
   "skadNazwa": "EN *Manage Risk*. Proste tłumaczenie. Myli to, że „ryzyko” ma też EDM03. Proces czerpie z modelu Risk IT.",
   "poziom1": "Proces Zarządzania o ryzyku IT. Stale rozpoznaje, ocenia i ogranicza ryzyko związane z IT, żeby mieściło się w granicach ustalonych przez kierownictwo i Ład.",
-  "poziom2": "**Czym się zajmuje:** zbiera dane o ryzyku, analizuje je, utrzymuje profil ryzyka, informuje o ryzyku i dobiera reakcje.\n\n**Wejścia (intuicja):** apetyt na ryzyko z [[proc-edm03]], zdarzenia i incydenty, ryzyka dostawców z [[proc-apo10]].\n\n**Wyjścia (intuicja):** rejestr i profil ryzyka, raporty o ryzyku, plan działań (unikanie, ograniczanie, przeniesienie albo akceptacja ryzyka).\n\n**Współpraca:** ryzyko bezpieczeństwa informacji rozwija [[proc-apo13]], a ciągłość działania DSS04. Ryzyka ponad apetyt wracają do [[proc-edm03]].",
+  "poziom2": "**Cel i zakres:** identyfikowanie, analizowanie i zarządzanie ryzykiem związanym z IT w ramach systemu ryzyka przedsiębiorstwa.\n\n**Przykład:** Zespół identyfikuje scenariusze ryzyka IT, analizuje prawdopodobieństwo i skutki, utrzymuje profil ryzyka oraz planuje reakcje.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO12 Zarządzanie ryzykiem”. Załącznik E (s. 60): ISO/IEC 31000 obejmuje *„procesy związane z zarządzaniem ryzykiem w domenach EDM i APO.”* Słownik (s. 93): ryzyko to *„Połączenie prawdopodobieństwa zdarzenia i jego konsekwencji (ISO/IEC 73).”* Interesariusze pytają: *„Czy uwzględniłem całe zidentyfikowane ryzyko związane z IT?”* (il. 7, s. 22). Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Przed wyjazdem na wakacje spisujesz, co może pójść źle: kradzież, zalanie, zgubiony paszport. Oceniasz, co najgroźniejsze. Kupujesz ubezpieczenie, prosisz sąsiada o zaglądanie i robisz kopię paszportu. To APO12.",
@@ -73,26 +73,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO12 Zarządzanie ryzykiem"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 60,
-      "cytat": "procesy związane z zarządzaniem ryzykiem w domenach EDM i APO."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 93,
-      "cytat": "Połączenie prawdopodobieństwa zdarzenia i jego konsekwencji (ISO/IEC 73)."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 22,
-      "ilustracja": "7",
-      "cytat": "Czy uwzględniłem całe zidentyfikowane ryzyko związane z IT?"
+      "doc": "ENPROC",
+      "sekcja": "APO12 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo12",

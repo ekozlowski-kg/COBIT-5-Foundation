@@ -26,11 +26,11 @@
   "poLudzku": "Śledzenie nowinek i sprawdzanie, które naprawdę pomogą organizacji, zanim wyda się na nie pieniądze.",
   "wyobrazSobie": "Kucharz, który najpierw gotuje nowe danie dla załogi, a dopiero potem wpisuje je do karty.",
   "poCo": "Żeby organizacja nie przegapiła nowych możliwości i nie wydawała pieniędzy na nowinki, zanim je sprawdzi.",
-  "jakDziala": "Zespół śledzi trendy i nowe technologie. Ocenia, które mogą pomóc organizacji, i sprawdza je w małym pilotażu. Wyniki i zalecenia przekazuje do strategii i portfela.",
+  "jakDziala": "Rozpoznawanie i wykorzystywanie szans innowacji, od obserwacji i oceny po rekomendacje oraz monitorowanie wdrożenia i użycia.",
   "dlaczegoWazne": "APO04 zasila strategię i portfel pomysłami. Na egzaminie myli się z atrybutem PA 5.1 „Innowacja procesu”.",
   "skadNazwa": "EN *Manage Innovation*. Proste tłumaczenie. Słowo „innowacja” pojawia się też w modelu zdolności (PA 5.1 Innowacja procesu), ale w innym znaczeniu.",
   "poziom1": "Proces Zarządzania o nowościach. Śledzi trendy w technologii, szuka szans na innowacje i ocenia je, np. w pilotażu. Najlepsze podsuwa do strategii i portfela.",
-  "poziom2": "**Czym się zajmuje:** to „radar nowości”: obserwuje technologie i pomysły, ocenia ich przydatność i sprawdza je na małą skalę.\n\n**Wejścia (intuicja):** cele organizacji, problemy użytkowników, oferty dostawców, trendy rynkowe.\n\n**Wyjścia (intuicja):** ocenione pomysły, wyniki pilotaży (*proof of concept*), zalecenia.\n\n**Współpraca:** zalecenia zasilają [[proc-apo02]] (strategia) i [[proc-apo05]] (portfel). Pełne wdrożenie idzie przez domenę [[bai|BAI]].",
+  "poziom2": "**Cel i zakres:** rozpoznawanie i wykorzystywanie szans innowacji, od obserwacji i oceny po rekomendacje oraz monitorowanie wdrożenia i użycia.\n\n**Przykład:** Zespół śledzi nowe technologie, ocenia ich potencjał biznesowy, prowadzi próby i monitoruje wykorzystanie zaakceptowanych innowacji.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO04 Zarządzanie innowacjami”. Załącznik E (s. 58) wymienia w domenie APO *„planowania organizacyjnego, planowania innowacji, zarządzania portfelem projektów”*. Il. 39 (s. 88) podaje „Innowacje” jako kategorię umiejętności APO. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Słyszysz o pompach ciepła. Zanim wymienisz piec, pytasz sąsiada, który ją ma, i liczysz rachunki. Dopiero potem decydujesz. Rozpoznanie i sprawdzenie nowinki przed zakupem to APO04.",
@@ -67,21 +67,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO04 Zarządzanie innowacjami"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 58,
-      "cytat": "planowania organizacyjnego, planowania innowacji, zarządzania portfelem projektów"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39",
-      "cytat": "Innowacje"
+      "doc": "ENPROC",
+      "sekcja": "APO04 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo04",
@@ -92,16 +80,8 @@
   },
   "zagmatwania": [
     {
-      "mit": "APO04 obejmuje każdą zmianę w IT.",
-      "prawda": "Zmiany wprowadza BAI06. APO04 rozpoznaje i ocenia nowe możliwości."
-    },
-    {
-      "mit": "Innowacja w APO04 to to samo co PA 5.1.",
-      "prawda": "PA 5.1 to atrybut oceny zdolności procesu. APO04 to proces szukania nowości dla organizacji."
-    },
-    {
-      "mit": "Udany pilotaż oznacza wdrożenie.",
-      "prawda": "Wynik pilotażu to zalecenie. Decyzja o inwestycji zapada w portfelu (APO05)."
+      "mit": "APO04 kończy się zawsze po pilotażu.",
+      "prawda": "APO04.06 obejmuje również monitorowanie wdrożenia i użycia innowacji. Inwestowanie i budowanie rozwiązania wymaga współpracy z innymi procesami."
     }
   ],
   "mentor": {

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-16]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-35-1, q-enk-35-2, q-enk-35-3]
-zapas: [q-enk-35-z1]
+cwiczenia: ["q-enk-35-3", "q-fn-m-27"]
+zapas: ["q-fn-w-32"]
 wprowadza: [kultura-etyka-zachowanie]
 wymaga: [en-k32-pozostale-role]
 cel: "Potrafię wyjaśnić, czym jest aktywator Kultura, Etyka i Zachowanie i dlaczego bez niego nie działają procesy ani struktury."

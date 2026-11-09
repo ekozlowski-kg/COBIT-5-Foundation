@@ -26,11 +26,11 @@
   "poLudzku": "Dbanie o ludzi w informatyce: kogo zatrudnić, czego ich nauczyć, kto kogo zastąpi i jak ich oceniać.",
   "wyobrazSobie": "Trener drużyny, który dba, żeby na każdej pozycji był zawodnik i rezerwowy, i co tydzień ich szkoli.",
   "poCo": "Żeby w IT pracowali właściwi ludzie z właściwymi umiejętnościami i żeby nic nie zależało od jednej osoby.",
-  "jakDziala": "Kierownictwo IT planuje obsadę ról i potrzebne kompetencje. Organizuje rekrutację, szkolenia, ocenę pracy i zastępstwa w kluczowych rolach. Pilnuje też zasad pracy osób z zewnątrz.",
+  "jakDziala": "Zapewnienie odpowiednich ludzi i kompetencji, przez planowanie zatrudnienia, rozwój oraz utrzymanie personelu.",
   "dlaczegoWazne": "Ludzie to aktywator i warunek działania każdego procesu. Na egzaminie APO07 myli się z EDM04 i BAI09 przez słowo „zasoby”.",
   "skadNazwa": "EN *Manage Human Resources*, czyli kadry IT. Po polsku „zasoby ludzkie”, więc łatwo pomylić z EDM04 („optymalizacja zasobów”) i BAI09 („Zarządzanie zasobami”).",
   "poziom1": "Proces Zarządzania o ludziach IT. Dba o obsadzenie ról, umiejętności, szkolenia, ocenę pracy i zastępstwa w kluczowych rolach. Obejmuje też osoby z zewnątrz pracujące dla IT.",
-  "poziom2": "**Czym się zajmuje:** zapewnia, że w IT pracują właściwi ludzie, z właściwymi umiejętnościami, na właściwych miejscach.\n\n**Wejścia (intuicja):** role z [[proc-apo01]], plany z [[proc-apo02]], kierunek dla zasobów z [[proc-edm04]].\n\n**Wyjścia (intuicja):** plan obsady, plany szkoleń, oceny pracowników, plan zastępstw w kluczowych rolach.\n\n**Współpraca:** wspiera aktywator [[ludzie-umiejetnosci-kompetencje]]. Wiedzę spisaną w instrukcjach utrzymuje BAI08.",
+  "poziom2": "**Cel i zakres:** zapewnienie odpowiednich ludzi i kompetencji, przez planowanie zatrudnienia, rozwój oraz utrzymanie personelu.\n\n**Przykład:** Kierownictwo analizuje braki kompetencji, planuje rekrutację i sukcesję oraz rozwija umiejętności pracowników IT.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO07 Zarządzanie zasobami ludzkimi”. Załącznik E (s. 60): proces APO07 *„wyjaśnia sposób, w jaki wyniki pracowników powinny być dopasowane do celów korporacyjnych, sposób, w jaki należy utrzymywać specjalistyczne umiejętności w zakresie IT, oraz sposób definiowania ról i zakresów odpowiedzialności.”* Interesariusze pytają: *„Czy liczba pracowników odpowiedzialnych za IT jest wystarczająca?”* (il. 7, s. 22). Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "W rodzinnej piekarni tylko dziadek umie zrobić zakwas. Gdy zachoruje, nie ma chleba. Rodzina postanawia: wnuczka uczy się od dziadka i co tydzień piecze z nim. Dbanie o umiejętności i zastępstwa to APO07.",
@@ -72,21 +72,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO07 Zarządzanie zasobami ludzkimi"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 60,
-      "cytat": "wyjaśnia sposób, w jaki wyniki pracowników powinny być dopasowane do celów korporacyjnych, sposób, w jaki należy utrzymywać specjalistyczne umiejętności w zakresie IT, oraz sposób definiowania ról i zakresów odpowiedzialności."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 22,
-      "ilustracja": "7",
-      "cytat": "Czy liczba pracowników odpowiedzialnych za IT jest wystarczająca?"
+      "doc": "ENPROC",
+      "sekcja": "APO07 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo07",

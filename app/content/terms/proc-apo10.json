@@ -26,11 +26,11 @@
   "poLudzku": "Wybieranie firm, które coś dla nas robią, pilnowanie umów z nimi i sprawdzanie, czy się wywiązują.",
   "wyobrazSobie": "Wybór ekipy remontowej: porównanie ofert, umowa z terminami i cotygodniowe sprawdzanie postępów.",
   "poCo": "Żeby firmy zewnętrzne, od których zależy IT, były dobrze wybrane, związane właściwą umową i rzetelnie oceniane.",
-  "jakDziala": "Kierownictwo IT określa wymagania i wybiera dostawców. Zawiera z nimi umowy i prowadzi relację. Regularnie ocenia wykonanie umowy i ryzyko związane z dostawcą, a w razie potrzeby zmienia warunki albo dostawcę.",
+  "jakDziala": "Zarządzanie wyborem, umowami, relacjami, wynikami i ryzykiem dostawców.",
   "dlaczegoWazne": "Większość organizacji zależy od dostawców IT. Na egzaminie APO10 myli się z APO09 i z BAI03.",
   "skadNazwa": "EN *Manage Suppliers*. Proste tłumaczenie. Myli sąsiedztwo APO09, którego polska nazwa mówi o „umowach”.",
   "poziom1": "Proces Zarządzania o dostawcach. Obejmuje wybór dostawców, umowy z nimi, relację z nimi, ocenę ich pracy i ryzyko związane z dostawcą.",
-  "poziom2": "**Czym się zajmuje:** cały kontakt z firmami zewnętrznymi: od wyboru, przez umowę i współpracę, po ocenę i zakończenie współpracy.\n\n**Wejścia (intuicja):** wymagania usług z [[proc-apo09]], potrzeby rozwiązań z domeny [[bai|BAI]], budżet z [[proc-apo06]].\n\n**Wyjścia (intuicja):** wybrani dostawcy, umowy, oceny wykonania, ryzyka związane z dostawcami.\n\n**Współpraca:** ryzyko dostawcy zasila [[proc-apo12]]. Pozyskanie i integrację rozwiązania prowadzi BAI03.",
+  "poziom2": "**Cel i zakres:** zarządzanie wyborem, umowami, relacjami, wynikami i ryzykiem dostawców.\n\n**Przykład:** Organizacja wybiera dostawcę utrzymania systemów, ustala warunki kontraktu i okresowo ocenia jego wyniki oraz ryzyko.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO10 Zarządzanie dostawcami”. Interesariusze pytają (il. 7, s. 22): *„W jakim stopniu jestem uzależniony od zewnętrznych dostawców?”* Załącznik E (s. 58): *„Zasoby IT obejmują relacje z wieloma zewnętrznymi dostawcami produktów i usług”*. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Wybierasz firmę do wywozu śmieci. Porównujesz oferty, podpisujesz umowę, a potem sprawdzasz, czy przyjeżdża w terminie. Gdy zawodzi, rozmawiasz albo zmieniasz firmę. To APO10.",
@@ -67,21 +67,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO10 Zarządzanie dostawcami"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 22,
-      "ilustracja": "7",
-      "cytat": "W jakim stopniu jestem uzależniony od zewnętrznych dostawców?"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 58,
-      "cytat": "Zasoby IT obejmują relacje z wieloma zewnętrznymi dostawcami produktów i usług"
+      "doc": "ENPROC",
+      "sekcja": "APO10 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo10",

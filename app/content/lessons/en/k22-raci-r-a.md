@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-25]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-22-1, q-enk-22-2, q-enk-22-3]
-zapas: [q-enk-22-z1]
+cwiczenia: ["q-fn-m-25", "q-en-03-03"]
+zapas: ["q-en-03b-03"]
 wprowadza: [raci-r, raci-a]
 wymaga: [en-k21-tabela-raci]
 cel: "Potrafię odróżnić rolę R (wykonuje) od roli A (odpowiada za sukces zadania)."

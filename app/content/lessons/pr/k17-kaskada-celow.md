@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-02, PR-02-03, PR-02-05, PR-02-06]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-17-1, q-pra-17-2, q-pra-17-3]
-zapas: [q-pra-17-z1]
+cwiczenia: ["q-pra-17-z1", "q-fn-m-03"]
+zapas: ["q-pak-T01Q04"]
 wprowadza: [kaskada-celow]
 wymaga: [pr-k16-trzy-pytania]
 cel: "Potrafię ułożyć pięć poziomów Kaskady Celów w kolejności od wyznaczników do celów aktywatora."

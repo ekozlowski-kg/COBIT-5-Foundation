@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-25]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-23-1, q-enk-23-2, q-enk-23-3]
-zapas: [q-enk-23-z1]
+cwiczenia: ["q-fn-m-25", "q-en-03-03"]
+zapas: ["q-en-03b-03"]
 wprowadza: [raci-c, raci-i]
 wymaga: [en-k22-raci-r-a]
 cel: "Potrafię odróżnić rolę C (rozmowa w obie strony) od roli I (tylko wiadomość)."

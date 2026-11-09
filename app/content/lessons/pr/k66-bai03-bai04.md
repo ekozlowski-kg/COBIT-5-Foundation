@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prc-66-1, q-prc-66-2, q-prc-66-3]
-zapas: [q-prc-66-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-bai03, proc-bai04]
 wymaga: [pr-k65-bai01-bai02]
 cel: "Potrafię odróżnić budowę i testy rozwiązania (BAI03) od planowania mocy na szczyt (BAI04) oraz BAI04 od przetrwania katastrofy (DSS04)."

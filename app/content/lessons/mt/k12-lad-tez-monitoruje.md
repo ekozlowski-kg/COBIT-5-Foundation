@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-14, PR-02-09]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-mtk-12-1, q-mtk-12-2, q-mtk-12-3]
-zapas: [q-mtk-12-z1]
+cwiczenia: ["q-mtk-12-1", "q-fn-w-05"]
+zapas: ["q-mtk-11-1"]
 wprowadza: []
 wymaga: [mt-k11-bledne-analogie-ladu]
 cel: "Potrafię poprawić zdanie „Ład nic nie monitoruje”, uznając trafną część o Rysunku 9 i dokładając definicję Ładu."

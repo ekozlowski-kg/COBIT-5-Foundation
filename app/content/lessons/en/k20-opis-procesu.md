@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-24]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-20-1, q-enk-20-2, q-enk-20-3]
-zapas: [q-enk-20-z1]
+cwiczenia: ["q-enk-20-3", "q-enk-20-z1"]
+zapas: ["q-luk-enpc-18"]
 wprowadza: [opis-procesu]
 wymaga: [en-k18-procesy-a-inne-aktywatory]
 cel: "Potrafię wymienić części opisu procesu w przewodniku Procesy umożliwiające i odróżnić opis procesu od jego przeznaczenia."

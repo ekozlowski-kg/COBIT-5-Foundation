@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-20]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-47-1, q-enk-47-2, q-enk-47-3]
-zapas: [q-enk-47-z1]
+cwiczenia: ["q-enk-47-1", "q-enk-47-3"]
+zapas: ["q-enk-47-z1"]
 wprowadza: [zasady-architektury]
 wymaga: [en-k46-trzy-architektury]
 cel: "Potrafię wymienić pięć zasad (pryncypiów) architektury i rozpoznać je w opisie sytuacji."

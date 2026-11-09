@@ -9,11 +9,11 @@ format: krotki
 sylabus: [EX-00-01]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-fnk-13-1, q-fnk-13-2, q-fnk-13-3]
-zapas: [q-fnk-13-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [fn-k12-profil-ocen-od-dolu]
-cel: "Potrafię przełożyć pytanie z obcego źródła na nazwy egzaminacyjne i rozstrzygnąć je definicją z podręcznika."
+cel: "Potrafię przełożyć pytanie z obcego źródła na nazwy stosowane w kursie i rozstrzygnąć je definicją z podręcznika."
 priorytet: 3
 ---
 
@@ -85,7 +85,7 @@ Liczba udanych ataków phishingowych w banku w ciągu roku mierzy, czy osiągni�
 <!-- slajd: wniosek -->
 # Co zapamiętać
 
-**Wniosek:** obce słowo najpierw tłumaczysz na nazwę egzaminacyjną, a sens rozstrzygasz definicją z podręcznika, a nie brzmieniem słowa.
+**Wniosek:** obce słowo najpierw tłumaczysz na nazwę stosowaną w kursie, a sens rozstrzygasz definicją z podręcznika, a nie brzmieniem słowa.
 
 :::zapamietaj
 - Tłumaczenie → wersja modelu → podręcznik ze stroną → kategoria.

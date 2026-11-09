@@ -26,11 +26,11 @@
   "poLudzku": "Informatycy regularnie rozmawiają z resztą organizacji, żeby dobrze rozumieć potrzeby ludzi i budować zaufanie.",
   "wyobrazSobie": "Lekarz rodzinny, który zna pacjenta od lat i wcześnie zauważa, że coś jest nie tak.",
   "poCo": "Żeby IT i reszta organizacji rozumiały się nawzajem, ufały sobie i razem ustalały potrzeby.",
-  "jakDziala": "IT utrzymuje stały kontakt z użytkownikami i kierownikami w organizacji. Zbiera potrzeby, tłumaczy możliwości IT i uzgadnia priorytety. Mierzy zadowolenie i reaguje na sygnały.",
+  "jakDziala": "Utrzymywanie relacji między biznesem a IT, wspólnego zrozumienia potrzeb i skutecznej komunikacji.",
   "dlaczegoWazne": "Bez dobrej relacji strategia i umowy o usługi rozmijają się z potrzebami. Framework używa APO08 jako przykładu celów i mierników procesu.",
   "skadNazwa": "EN *Manage Relationships*. Chodzi o relację między IT a resztą organizacji. Polskie „relacje” bywa mylone z kontaktami z dostawcami (APO10).",
   "poziom1": "Proces Zarządzania o relacji IT z „biznesem”. Buduje przejrzystą, partnerską współpracę: IT rozumie potrzeby organizacji, a organizacja rozumie możliwości IT.",
-  "poziom2": "**Czym się zajmuje:** utrzymuje stały kontakt IT z użytkownikami i kierownikami w organizacji oraz wspólne rozumienie potrzeb i priorytetów.\n\n**Wejścia (intuicja):** strategie i plany organizacji, opinie użytkowników, skargi i pochwały.\n\n**Wyjścia (intuicja):** uzgodnione potrzeby i priorytety, plan komunikacji, wyniki badań zadowolenia.\n\n**Współpraca:** formalne poziomy usług zapisuje [[proc-apo09]]. Strategia ([[proc-apo02]]) i portfel ([[proc-apo05]]) korzystają z rozpoznanych potrzeb.",
+  "poziom2": "**Cel i zakres:** utrzymywanie relacji między biznesem a IT, wspólnego zrozumienia potrzeb i skutecznej komunikacji.\n\n**Przykład:** Kierownictwo IT regularnie uzgadnia z biznesem oczekiwania i priorytety oraz buduje wzajemne zaufanie.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO08 Zarządzanie relacjami”. Framework podaje APO08 jako przykład celów i mierników procesu (s. 30). Cel: *„istnieją dobre relacje między przedsiębiorstwem i działem IT.”* Miernik: *„wskaźniki na podstawie badań dotyczących zadowolenia użytkowników i personelu IT.”* Drugi cel: *„strategie biznesowe, plany i wymogi są dobrze zrozumiane, udokumentowane i zatwierdzone.”* Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Fryzjer przy każdej wizycie pyta, jak sprawdziła się ostatnia fryzura i czego szukasz teraz. Zna Twoje potrzeby, zanim je powiesz. To relacja, a nie cennik. W IT to APO08.",
@@ -68,25 +68,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO08 Zarządzanie relacjami"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 30,
-      "cytat": "Cel: istnieją dobre relacje między przedsiębiorstwem i działem IT."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 30,
-      "cytat": "Miernik: wskaźniki na podstawie badań dotyczących zadowolenia użytkowników i personelu IT."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 30,
-      "cytat": "Cel: strategie biznesowe, plany i wymogi są dobrze zrozumiane, udokumentowane i zatwierdzone."
+      "doc": "ENPROC",
+      "sekcja": "APO08 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo08",

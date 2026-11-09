@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-27-1, q-pra-27-2, q-pra-27-3]
-zapas: [q-pra-27-z1]
+cwiczenia: ["q-pra-28-1", "q-pra-28-2"]
+zapas: ["q-fn-m-05"]
 wprowadza: []
 wymaga: [pr-k26-pytania-interesariuszy]
 cel: "Potrafię wyjaśnić, że według zasady 2 Ład nad IT jest częścią ładu korporacyjnego i obejmuje także usługi i procesy zewnętrzne."

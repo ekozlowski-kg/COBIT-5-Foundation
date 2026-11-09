@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-01, PR-02-03]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-10-1, q-m0k-10-2, q-m0k-10-3]
-zapas: [q-m0k-10-z1]
+cwiczenia: ["q-pra-17-z1", "q-pak-T01Q04"]
+zapas: ["q-pra-21-z1"]
 wprowadza: [interesariusz]
 wymaga: [m0-02-cobit-czym-nie-jest]
 cel: "Potrafię wskazać interesariuszy sprawy, także tych, którzy o niej nie decydują i nie korzystają z systemu."

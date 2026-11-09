@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-37-1, q-m0k-37-2, q-m0k-37-3]
-zapas: [q-m0k-37-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [m0-36-lad-a-kierownictwo]
 cel: "Potrafię przetłumaczyć dziwne słowo z COBIT 5 na zwykły język i wybrać odpowiedź według modelu COBIT 5, a nie praktyki swojej organizacji."
@@ -60,7 +60,7 @@ Te słowa znasz już z poprzednich lekcji. Tabela to ściąga, do której możes
 Gdy znasz oryginał, sens zwykle staje się jasny.
 
 :::wykladowca
-Kolejność jest ważna. Najpierw sens, potem nazwa z egzaminu, na końcu angielski oryginał. Tak zbudowana wiedza trzyma się dłużej niż wykuta definicja. Słowo „Oszacuj” brzmi obco, ale to po prostu angielskie Evaluate, czyli oceń.
+Kolejność jest ważna. Najpierw sens, potem nazwa stosowana w kursie, na końcu angielski oryginał. Tak zbudowana wiedza trzyma się dłużej niż wykuta definicja. Słowo „Oszacuj” brzmi obco, ale to po prostu angielskie Evaluate, czyli oceń.
 :::
 
 ---
@@ -99,10 +99,10 @@ Słowo po ludzku to most do pojęcia, a nie jego zamiennik. Jeśli rozumiesz sen
 <!-- slajd: wniosek -->
 # Co zapamiętać
 
-**Wniosek:** najpierw zwykłe znaczenie, potem nazwa z egzaminu i jej angielski oryginał, a odpowiedź – według modelu COBIT 5.
+**Wniosek:** najpierw zwykłe znaczenie, potem nazwa stosowana w kursie i jej angielski oryginał, a odpowiedź – według modelu COBIT 5.
 
 :::zapamietaj
 - Dziwne słowo = prosta rzecz.
-- Sens → nazwa z egzaminu → *EN*.
+- Sens → nazwa stosowana w kursie → *EN*.
 - Odpowiadasz według modelu COBIT 5, nie według praktyki swojej firmy.
 :::

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-fnk-18-1, q-fnk-18-2, q-fnk-18-3]
-zapas: [q-fnk-18-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [fn-k17-kto-monitoruje]
 cel: "Potrafię wyłapać typowe błędy w materiałach o COBIT 5 z internetu i rozstrzygnąć je podręcznikiem."

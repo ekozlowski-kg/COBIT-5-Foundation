@@ -14,7 +14,7 @@
     "uwaga": "EN F (Fully) = egzamin PL P (Pełny) – kolizja z EN P (Partially). Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 45; zestawienie Altkom (kolumna „Podręczniki PL”)."
   },
   "pulapka": true,
-  "pulapkaOpis": "PUŁAPKA NR 1: na egzaminie PL **P = Pełny** (Fully). Po angielsku i w podręczniku **P = Partially**, czyli częściowy, a Pełny to **F**. Ta sama litera, przeciwne znaczenie.",
+  "pulapkaOpis": "PUŁAPKA NR 1: w polskim zapisie kursu **P = Pełny** (Fully). Po angielsku i w podręczniku **P = Partially**, czyli częściowy, a Pełny to **F**. Ta sama litera, przeciwne znaczenie.",
   "skadNazwa": "Angielskie *Fully achieved* daje literę F. Polski egzamin wziął P od „Pełny”. Dlatego angielskie P (Partially) i polskie P (Pełny) znaczą co innego.",
   "kategoria": "egzaminacyjne",
   "status": "oficjalne",

@@ -27,11 +27,11 @@
   "poLudzku": "Ustalenie całego sposobu dbania o bezpieczeństwo informacji: zasad, planu i regularnego sprawdzania, czy działa.",
   "wyobrazSobie": "Szef ochrony, który pisze regulamin i plan ochrony obiektu. Ochroniarze przy bramie to już inna praca.",
   "poCo": "Żeby bezpieczeństwo informacji było zorganizowane jako system z polityką, planem i przeglądami, a nie zbiorem przypadkowych zabezpieczeń.",
-  "jakDziala": "Kierownictwo IT ustanawia system zarządzania bezpieczeństwem informacji (ISMS): zakres i politykę. Przygotowuje plan postępowania z ryzykiem bezpieczeństwa i wdraża go. Regularnie monitoruje i przegląda skuteczność systemu.",
+  "jakDziala": "Ustanowienie, utrzymanie i przegląd systemu zarządzania bezpieczeństwem informacji oraz planu postępowania z ryzykiem.",
   "dlaczegoWazne": "APO13 wspiera cel IT dotyczący bezpieczeństwa informacji (Przykład 8). Na egzaminie myli się z DSS05.",
   "skadNazwa": "EN *Manage Security*. Krótka nazwa ukrywa sens: chodzi o system zarządzania bezpieczeństwem informacji (ISMS), jak w ISO/IEC 27001. Codzienne zabezpieczenia to DSS05 *Manage Security Services*.",
   "poziom1": "Proces Zarządzania o bezpieczeństwie informacji. Ustanawia, prowadzi i monitoruje system zarządzania bezpieczeństwem informacji (ISMS), żeby ryzyko bezpieczeństwa mieściło się w apetycie organizacji.",
-  "poziom2": "**Czym się zajmuje:** buduje system bezpieczeństwa: zakres, politykę, plan postępowania z ryzykiem bezpieczeństwa i przegląd skuteczności.\n\n**Wejścia (intuicja):** apetyt na ryzyko z [[proc-edm03]], ryzyka z [[proc-apo12]], wymagania prawa i norm ([[iso-27001]]).\n\n**Wyjścia (intuicja):** polityka i zakres ISMS, plan postępowania z ryzykiem bezpieczeństwa, raporty z przeglądów.\n\n**Współpraca:** codzienne zabezpieczenia (ochrona przed złośliwym oprogramowaniem, uprawnienia, sieć, dostęp fizyczny) wykonuje DSS05. Ciągłość działania to DSS04.",
+  "poziom2": "**Cel i zakres:** ustanowienie, utrzymanie i przegląd systemu zarządzania bezpieczeństwem informacji oraz planu postępowania z ryzykiem.\n\n**Przykład:** Organizacja ustanawia zakres i plan systemu zarządzania bezpieczeństwem informacji, utrzymuje go i ocenia jego skuteczność.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO13 Zarządzanie bezpieczeństwem”. Przykład 8 (s. 51) pokazuje APO13 w kaskadzie celów: proces przede wszystkim ułatwia m.in. cel IT *„10 Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji”*. Załącznik E (s. 60): ISO/IEC 27000 obejmuje *„procesy związane z bezpieczeństwem i ryzykiem w domenach EDM, APO oraz DSS”*. Il. 39 (s. 88): „Administracja bezpieczeństwa” to kategoria umiejętności domeny DSS, a nie APO. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Rodzina ustala zasady: klucze mają tylko domownicy, alarm włączany na noc, raz w roku przegląd zamków. Spisuje, co jest najcenniejsze i jak to chronić. Sam zamek w drzwiach to narzędzie. Cały ten system to APO13.",
@@ -74,26 +74,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO13 Zarządzanie bezpieczeństwem"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 51,
-      "cytat": "10 Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 60,
-      "cytat": "procesy związane z bezpieczeństwem i ryzykiem w domenach EDM, APO oraz DSS"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39",
-      "cytat": "Administracja bezpieczeństwa"
+      "doc": "ENPROC",
+      "sekcja": "APO13 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo13",

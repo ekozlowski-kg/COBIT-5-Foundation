@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-11]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-18-1, q-enk-18-2, q-enk-18-3]
-zapas: [q-enk-18-z1]
+cwiczenia: ["q-enk-18-3", "q-en-02-04"]
+zapas: ["q-spr-en-12"]
 wprowadza: []
 wymaga: [en-k17-praktyki-dzialania]
 cel: "Potrafię opisać, czego proces potrzebuje od innych aktywatorów i co im daje."

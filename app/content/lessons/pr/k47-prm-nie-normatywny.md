@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-03]
 minuty: 5
 zgadnij: []
-cwiczenia: [q-prb-47-1, q-prb-47-2, q-prb-47-3]
-zapas: [q-prb-47-z1]
+cwiczenia: ["q-prb-47-2", "q-prb-46-3"]
+zapas: ["q-prb-46-z1"]
 wprowadza: []
 wymaga: [pr-k46-prm-37-procesow]
 cel: "Potrafię wyjaśnić, dlaczego Referencyjny Model Procesu nie jest normatywny i czego mimo to wymaga od organizacji."

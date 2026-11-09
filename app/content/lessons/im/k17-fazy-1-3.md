@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-02-06]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-imk-17-1, q-imk-17-2, q-imk-17-3]
-zapas: [q-imk-17-z1]
+cwiczenia: ["q-imk-17-z1", "q-mt-06-01"]
+zapas: ["q-mt-06-02"]
 wprowadza: []
 wymaga: [im-k16-siedem-faz]
 cel: "Potrafię rozpoznać po opisie działań fazę 1, 2 albo 3 i wiem, dlaczego duże wdrożenie dzieli się na okrążenia krótsze niż pół roku."

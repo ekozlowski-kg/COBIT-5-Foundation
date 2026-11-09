@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-02, PR-02-03]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-18-1, q-pra-18-2, q-pra-18-3]
-zapas: [q-pra-18-z1]
+cwiczenia: ["q-fn-m-03", "q-pra-17-z1"]
+zapas: ["q-pak-T01Q04"]
 wprowadza: [cele-organizacji]
 wymaga: [pr-k17-kaskada-celow]
 cel: "Potrafię opisać kroki 1 i 2 Kaskady Celów i wskazać, że potrzeby trafiają najpierw do celów organizacji."

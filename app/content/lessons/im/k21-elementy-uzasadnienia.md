@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-02-04, IM-02-03]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-imk-21-1, q-imk-21-2, q-imk-21-3]
-zapas: [q-imk-21-z1]
+cwiczenia: ["q-imk-21-z1", "q-im-05-01"]
+zapas: ["q-im-05-04"]
 wprowadza: []
 wymaga: [im-k20-uzasadnienie-biznesowe]
 cel: "Potrafię sprawdzić, czy uzasadnienie biznesowe ma minimalne elementy z COBIT 5, i wyjaśnić, dlaczego trzeba je stale aktualizować."

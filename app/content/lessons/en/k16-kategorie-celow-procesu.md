@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-08]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-enk-16-1, q-enk-16-2, q-enk-16-3]
-zapas: [q-enk-16-z1]
+cwiczenia: ["q-enk-16-3", "q-sym-006"]
+zapas: ["q-sk-cel-dostepnosci-procesu-1"]
 wprowadza: [kategorie-celow-procesu]
 wprowadzaListe: [cel-wewnetrzny-procesu, cel-kontekstowy-procesu, cel-dostepnosci-procesu]
 wymaga: [en-k15-proces-aktywator]

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-13, PR-01-05]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-prb-41-1, q-prb-41-2, q-prb-41-3]
-zapas: [q-prb-41-z1]
+cwiczenia: ["q-luk-pr-03", "q-fn-m-12"]
+zapas: ["q-luk-pr-06"]
 wprowadza: [wskaznik-opozniony, wskaznik-wiodacy]
 wymaga: [pr-k40-wydajnosc-aktywatora]
 cel: "Potrafię odróżnić wskaźnik opóźniony od wiodącego i przypisać każdy do właściwych pytań o wydajność aktywatora."

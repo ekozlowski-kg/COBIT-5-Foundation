@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 5
 zgadnij: []
-cwiczenia: [q-m0k-33-1, q-m0k-33-2, q-m0k-33-3]
-zapas: [q-m0k-33-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [m0-32-liczby-cobit-5]
 cel: "Potrafię opisać egzamin COBIT 5 Foundation: liczbę pytań, czas, próg zaliczenia i cztery obszary pytań."

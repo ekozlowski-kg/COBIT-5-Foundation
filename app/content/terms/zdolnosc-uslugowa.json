@@ -28,9 +28,9 @@
   "poLudzku": "Wszystko, na czym stoją usługi informatyczne: sprzęt, sieć, programy i same usługi.",
   "wyobrazSobie": "Zaplecze pizzerii: piec, skuter, telefon i lista adresów. Bez nich nie ma dowozu.",
   "poCo": "Żeby nazwać wszystko, na czym stoją usługi IT, i móc tym świadomie zarządzać.",
-  "jakDziala": "Zdolność usługowa obejmuje usługi, infrastrukturę i aplikacje, a także informację. Procesy z niej korzystają i ją dostarczają. Obecny stan opisuje architektura referencyjna, a przyszły architektura docelowa.",
+  "jakDziala": "Baseline architecture to architektura bazowa opisująca stan obecny; target to docelowa, a transition to przejściowa. Reference architecture jest pojęciem wzorca referencyjnego i nie jest automatycznym synonimem baseline.",
   "dlaczegoWazne": "Egzamin lubi zdanie, że informacja jest jedną ze zdolności usługowych. Częsty błąd to pomylenie ze zdolnością procesu z modelu oceny.",
-  "poziom2": "| Co obejmuje | Przykład |\n|---|---|\n| aplikacje | system powiadamiania klientów, poczta |\n| infrastruktura (sprzęt, oprogramowanie systemowe, sieć, infrastruktura fizyczna) | serwer, łącza, zasilanie |\n| usługi i poziomy usług | „powiadomienie dociera w minutę, całą dobę” |\n| informacja | baza danych kontaktowych klientów |\n\nPowiązania: procesy **zapewniają i wymagają** zdolności usługowych (s. 71). Wejścia i wyjścia praktyk mogą obejmować zdolności usługowe (s. 86). Cykl życia opisują architektury: **referencyjna** (obecna), **przejściowa** i **docelowa** (przyszła).",
+  "poziom2": "Baseline architecture to architektura bazowa opisująca stan obecny; target to docelowa, a transition to przejściowa. Reference architecture jest pojęciem wzorca referencyjnego i nie jest automatycznym synonimem baseline.",
   "poziom3": "(s. 85): *„Zdolność do świadczenia usług odnosi się do zasobów takich jak aplikacje oraz infrastruktura, które wykorzystuje się do świadczenia usług związanych z IT.”* To *„termin obejmujący łącznie usługi, infrastrukturę i aplikacje”*. (s. 86): *„Informacje stanowią jedną ze zdolności do świadczenia usług”*.",
   "przyklady": {
     "zycie": "Wieczorny film w domu zależy od routera, telewizora i aplikacji z filmami. Razem dają usługę „oglądamy film”. Router i telewizor to infrastruktura, a aplikacja to aplikacja. Całość to zdolność usługowa twojego domu.",

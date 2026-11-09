@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-01, PC-01-02, PC-01-03]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-mtk-19-1, q-mtk-19-2, q-mtk-19-3]
-zapas: [q-mtk-19-z1]
+cwiczenia: ["q-pck-20-z1", "q-pck-21-z1"]
+zapas: ["q-pck-24-3"]
 wprowadza: []
 wymaga: [mt-k18-pary-procesow]
 cel: "Potrafię przypisać ocenę N/C/W/P na samym progu i wyjaśnić kursantowi regułę osiągnięcia poziomu zdolności."

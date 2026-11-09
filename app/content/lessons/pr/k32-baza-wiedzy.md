@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-10, PR-02-11]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-32-1, q-pra-32-2, q-pra-32-3]
-zapas: [q-pra-32-z1]
+cwiczenia: ["q-pra-32-3", "q-pra-32-z1"]
+zapas: ["q-pak-T04Q08"]
 wprowadza: [baza-wiedzy, wytyczne-isaca, rodzina-produktow]
 wymaga: [pr-k31-cztery-powody-integracji]
 cel: "Potrafię opisać, jak wiedza z wytycznych ISACA i innych standardów trafia przez bazę wiedzy do rodziny produktów COBIT 5."

@@ -32,11 +32,11 @@
   "poLudzku": "Szefostwo ustala, kto i jak decyduje o informatyce, i pilnuje, żeby te zasady działały.",
   "wyobrazSobie": "Statut klubu sportowego: mówi, o czym decyduje zarząd klubu, a o czym walne zebranie. Nie mówi, jak trenować.",
   "poCo": "Żeby było jasne, kto i jak decyduje o informatyce, zanim ktokolwiek zacznie wydawać pieniądze i budować systemy.",
-  "jakDziala": "Organ Ładu ocenia, jak dziś zapadają decyzje o IT i czego oczekują interesariusze. Potem ustala zasady, struktury i uprawnienia decyzyjne. Na koniec monitoruje, czy ten układ działa, i go poprawia.",
+  "jakDziala": "Ustanowienie i utrzymanie spójnych mechanizmów Ładu, odpowiedzialności oraz uprawnień decyzyjnych.",
   "dlaczegoWazne": "Bez EDM01 pozostałe procesy Ładu nie mają ram. Na egzaminie EDM01 myli się z APO01, bo oba mają „ramy” w nazwie EN.",
   "skadNazwa": "EN *Ensure Governance Framework Setting and Maintenance*, czyli „zapewnij ustanowienie i utrzymanie struktury ramowej Ładu”. Podręcznik PL skrócił to do „ładu korporacyjnego”, choć chodzi o ramy Ładu nad IT. *Framework* egzamin tłumaczy jako „struktura ramowa”.",
   "poziom1": "Pierwszy proces Ładu. Organ Ładu ustala, jak w organizacji zapadają decyzje o IT: zasady, struktury, uprawnienia i odpowiedzialności. Potem sprawdza, czy ten układ działa.",
-  "poziom2": "**Czym się zajmuje:** projektuje i utrzymuje system Ładu nad IT: kto decyduje, na jakich zasadach i z jakimi uprawnieniami.\n\n**Wejścia (intuicja):** potrzeby interesariuszy, przepisy, styl decydowania w organizacji, informacja zwrotna o tym, jak Ład działał dotąd.\n\n**Wyjścia (intuicja):** zasady podejmowania decyzji, struktury (np. komitet ds. IT), podział uprawnień, ocena skuteczności tego układu.\n\n**Współpraca:** daje ramy dla [[proc-apo01]], który buduje system *zarządzania* IT. Jest też ramą dla [[proc-edm02]]–[[proc-edm05]]. Informację zwrotną dostaje m.in. z domeny [[mea|MEA]].\n\nJak każdy proces Ładu ma praktyki Oszacuj, Kieruj i Monitoruj ([[edm]]).",
+  "poziom2": "**Cel i zakres:** ustanowienie i utrzymanie spójnych mechanizmów Ładu, odpowiedzialności oraz uprawnień decyzyjnych.\n\n**Przykład:** Organ Ładu ocenia zasady podejmowania decyzji o IT, ustala odpowiedzialności i nadzoruje skuteczność systemu Ładu.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33) wymienia proces jako „EDM01 Zapewnienie i utrzymanie ładu korporacyjnego”. Każdy z pięciu procesów Ładu ma praktyki oceny, kierowania i monitorowania (s. 32). Struktury mogą należeć do Ładu albo Zarządzania *„w zależności od ich składu i zakresu decyzji”* (s. 31). Słownik (s. 91), hasło „Metodyka nadzoru”: *„Metodyka to podstawowa struktura koncepcyjna wykorzystywana do rozwiązywania lub uwzględniania złożonych problemów”*. Opis praktyk i działań procesu jest w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Wspólnota mieszkaniowa uchwala regulamin: o wydatkach do 5 tys. zł decyduje zarząd wspólnoty, powyżej decyduje zebranie. Raz w roku sprawdzacie, czy ten podział się sprawdza. Niczego nie remontujecie, tylko ustalacie, kto o czym decyduje. To jest EDM01.",
@@ -72,25 +72,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 32,
-      "cytat": "w ramach każdego procesu zdefiniowano praktyki w zakresie oceny, kierowania i monitorowania"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 31,
-      "cytat": "struktury mogą należeć do przestrzeni nadzoru lub przestrzeni zarządzania, w zależności od ich składu i zakresu decyzji"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 91,
-      "cytat": "Metodyka to podstawowa struktura koncepcyjna wykorzystywana do rozwiązywania lub uwzględniania złożonych problemów"
+      "doc": "ENPROC",
+      "sekcja": "EDM01 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-edm01",

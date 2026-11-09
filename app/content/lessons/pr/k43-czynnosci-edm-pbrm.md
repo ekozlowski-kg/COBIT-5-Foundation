@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-14, PR-02-15]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prb-43-1, q-prb-43-2, q-prb-43-3]
-zapas: [q-prb-43-z1]
+cwiczenia: ["q-fn-w-05", "q-mtk-11-1"]
+zapas: ["q-mtk-12-1"]
 wprowadza: [edm, pbrm]
 wymaga: [pr-k42-zasada-5]
 cel: "Potrafię wymienić egzaminacyjne nazwy trzech czynności Ładu i czterech czynności Zarządzania oraz przypisać do nich przykład."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-02, PR-02-02]
 minuty: 5
 zgadnij: []
-cwiczenia: [q-m0k-15-1, q-m0k-15-2, q-m0k-15-3]
-zapas: [q-m0k-15-z1]
+cwiczenia: ["q-fn-m-03", "q-pra-17-z1"]
+zapas: []
 wprowadza: []
 wymaga: [m0-14-wyznaczniki]
 cel: "Potrafię odróżnić wyznacznik od potrzeby i od aktywatora, także gdy pytanie używa słowa „czynnik”."

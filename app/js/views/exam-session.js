@@ -24,9 +24,8 @@ export const STEPS = [
 ];
 
 const DEMO = [
-  { id: 'demo-1', tresc: 'Pytanie przykładowe 1 (nie jest oceniane). Ile zasad ma COBIT 5?', opcje: [{ tekst: 'Trzy' }, { tekst: 'Pięć', poprawna: true }, { tekst: 'Siedem' }, { tekst: 'Trzydzieści siedem' }] },
-  { id: 'demo-2', tresc: 'Pytanie przykładowe 2 (nie jest oceniane). Ile jest aktywatorów w COBIT 5?', opcje: [{ tekst: 'Pięć' }, { tekst: 'Cztery' }, { tekst: 'Siedem', poprawna: true }, { tekst: 'Dwa' }] },
-  { id: 'demo-3', tresc: 'Pytanie przykładowe 3 (nie jest oceniane). Które domeny należą do Ładu?', opcje: [{ tekst: 'APO' }, { tekst: 'EDM', poprawna: true }, { tekst: 'DSS' }, { tekst: 'BAI' }] },
+  { id: 'demo-ui-1', tresc: 'Samouczek obsługi: zaznacz opcję B.', opcje: [{ tekst: 'Opcja A' }, { tekst: 'Opcja B', poprawna: true }, { tekst: 'Opcja C' }, { tekst: 'Opcja D' }] },
+  { id: 'demo-ui-2', tresc: 'Samouczek obsługi: zaznacz opcję C.', opcje: [{ tekst: 'Opcja A' }, { tekst: 'Opcja B' }, { tekst: 'Opcja C', poprawna: true }, { tekst: 'Opcja D' }] },
 ];
 
 /**
@@ -35,6 +34,10 @@ const DEMO = [
  */
 export function runExamSession(main, opts) {
   const { qs, minutes, name } = opts;
+  if (!opts.full) {
+    return examScreen(main, qs, { minutes, title: name, practice: true,
+      onEnd: (result) => opts.onFinish({ ...result, survey: {} }) });
+  }
   let step = opts.full ? 0 : STEPS.findIndex((s) => s.id === 'start');
   let examCleanup = null;
   const survey = {};
@@ -366,7 +369,7 @@ export function examScreen(root, qs, opts) {
         <span class="xe-tools">
           <button class="xe-btn" id="xeZoomOut" aria-label="Pomniejsz">−</button>
           <button class="xe-btn" id="xeZoomIn" aria-label="Powiększ">+</button>
-          <button class="xe-btn" id="xeChat">Czat z proktorem</button>
+          <button class="xe-btn" id="xeChat" ${opts.practice ? 'hidden' : ''}>Czat z proktorem (scenariusz)</button>
         </span>
       </header>
       <div class="xe-body">

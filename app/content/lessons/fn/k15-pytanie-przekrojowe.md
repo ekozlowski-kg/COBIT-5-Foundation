@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-fnk-15-1, q-fnk-15-2, q-fnk-15-3]
-zapas: [q-fnk-15-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [fn-k14-cobit-2019-i-dumpy]
 cel: "Potrafię rozpoznać rodzaj pytania mistrzowskiego i rozłożyć scenariusz na obszary COBIT 5, zanim sprawdzę opcje."

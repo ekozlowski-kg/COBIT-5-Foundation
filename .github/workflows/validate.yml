@@ -1,0 +1,22 @@
+name: Kontrola banku i aplikacji
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: python3 app/tools/serve.py --check
+      - run: python3 app/tests/reviewed-bank.py
+      - run: node --test app/tests/*.mjs
+      - run: python3 app/tools/build-dist.py

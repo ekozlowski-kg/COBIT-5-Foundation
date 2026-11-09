@@ -32,11 +32,11 @@
   "poLudzku": "Szefostwo mówi uczciwie wszystkim zainteresowanym, jak idzie informatyce: wyniki, koszty i kłopoty.",
   "wyobrazSobie": "Zarządca wspólnoty, który raz w roku pokazuje mieszkańcom wszystkie rachunki, także te niewygodne.",
   "poCo": "Żeby interesariusze dostawali rzetelny, zrozumiały obraz tego, jak IT spełnia ich oczekiwania, i mogli to ocenić.",
-  "jakDziala": "Organ Ładu ocenia, jakich informacji potrzebują interesariusze. Ustala zasady raportowania: co, komu, jak często i z jakimi miernikami. Monitoruje, czy raporty są wiarygodne, kompletne i terminowe.",
+  "jakDziala": "Zapewnienie przejrzystości pomiaru i raportowania oraz skutecznej komunikacji z interesariuszami.",
   "dlaczegoWazne": "EDM05 zamyka pętlę Ładu. Na egzaminie występuje jako „Zapewnienie Transparentności Interesariuszy” i myli się z MEA01.",
   "skadNazwa": "EN *Ensure Stakeholder Transparency*. Egzamin zostawia kalkę „transparentność”, a podręcznik tłumaczy „przejrzystość”. Znaczenie jest to samo.",
   "poziom1": "Ostatni proces Ładu. Organ Ładu dba, żeby pomiar i raporty o wynikach i zgodności IT były przejrzyste. Interesariusze akceptują cele, mierniki i działania naprawcze.",
-  "poziom2": "**Czym się zajmuje:** ustala, co, komu i jak często raportujemy o IT, i pilnuje, żeby raporty były wiarygodne.\n\n**Wejścia (intuicja):** wyniki pomiarów z MEA01, oceny kontroli wewnętrznej (MEA02) i zgodności z wymogami zewnętrznymi (MEA03), potrzeby informacyjne interesariuszy.\n\n**Wyjścia (intuicja):** zasady raportowania, raporty dla interesariuszy, uzgodnione cele i mierniki.\n\n**Współpraca:** dane dostarczają procesy domeny [[mea|MEA]]. EDM05 zamyka pętlę Ładu: pokazuje [[interesariusz|interesariuszom]], jak realizowane są [[proc-edm02]]–[[proc-edm04]].",
+  "poziom2": "**Cel i zakres:** zapewnienie przejrzystości pomiaru i raportowania oraz skutecznej komunikacji z interesariuszami.\n\n**Przykład:** Organ Ładu określa wymagania komunikacji z interesariuszami i nadzoruje przejrzystość raportowania wyników oraz zgodności.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „EDM05 Zapewnienie przejrzystości dotyczącej interesariuszy”. Załącznik E (s. 57): *„W ramach metodyki COBIT 5 wyróżnia się dwa poziomy monitorowania. Pierwszy poziom jest istotny w kontekście nadzoru.”* Proces EDM05 *„wyjaśnia rolę dyrektora w monitorowaniu i ocenie nadzoru nad IT oraz sprawności IT”*. Po stronie kadry zarządzającej Framework wskazuje MEA01 (s. 59): wytyczne *„dotyczące zakresu odpowiedzialności kadry zarządzającej za te działania”*. Szczegóły praktyk: *COBIT 5: Procesy umożliwiające* (poza korpusem).",
   "przyklady": {
     "zycie": "Skarbnik komitetu rodzicielskiego co semestr pokazuje rodzicom: ile zebrano, na co wydano, co się nie udało. Rodzice akceptują plan na kolejny semestr. Uczciwy, zrozumiały obraz dla wszystkich zainteresowanych to EDM05.",
@@ -71,29 +71,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "EDM05 Zapewnienie przejrzystości dotyczącej interesariuszy"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 57,
-      "cytat": "W ramach metodyki COBIT 5 wyróżnia się dwa poziomy monitorowania. Pierwszy poziom jest istotny w kontekście nadzoru."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 57,
-      "cytat": "wyjaśnia rolę dyrektora w monitorowaniu i ocenie nadzoru nad IT oraz sprawności IT"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 59,
-      "cytat": "dotyczące zakresu odpowiedzialności kadry zarządzającej za te działania"
-    },
-    {
-      "doc": "SP1",
-      "strona": 24
+      "doc": "ENPROC",
+      "sekcja": "EDM05 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-edm05",

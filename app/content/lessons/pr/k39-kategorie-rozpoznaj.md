@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-12]
 minuty: 5
 zgadnij: []
-cwiczenia: [q-pra-39-1, q-pra-39-2, q-pra-39-3]
-zapas: [q-pra-39-z1]
+cwiczenia: ["q-pra-36-3", "q-pra-37-3"]
+zapas: ["q-fn-m-14"]
 wprowadza: []
 wymaga: [pr-k38-kategorie-celow]
 cel: "Potrafię przypisać wymaganie do kategorii celów aktywatora po słowach-kluczach i nie mylę „wewnętrznej” z „wewnątrz organizacji”."

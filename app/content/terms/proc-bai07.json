@@ -31,10 +31,10 @@
   "wyobrazSobie": "Odbierasz nowe mieszkanie od dewelopera. Sprawdzasz okna i krany, podpisujesz protokół i dopiero wtedy się wprowadzasz.",
   "skadNazwa": "Z angielskiego *Manage Change Acceptance and Transitioning*. „Przejście” (*transition*) to przeniesienie rozwiązania z etapu budowy do codziennego użytku.",
   "poziom1": "Proces domeny [[bai]], w którym formalnie odbierasz i uruchamiasz nowe rozwiązanie: plan wdrożenia, przeniesienie danych, testy akceptacyjne, przygotowanie wydania, przeniesienie do eksploatacji, wsparcie na starcie i przegląd po wdrożeniu.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** planuje wdrożenie, przygotowuje konwersję systemów i danych, prowadzi testy akceptacyjne z użytkownikami, przygotowuje wydanie, przenosi rozwiązanie do eksploatacji, daje wzmożone wsparcie na początku i robi przegląd po wdrożeniu.\n\n**Wejścia (intuicja):** zbudowane i przetestowane rozwiązanie ([[proc-bai03]]), zatwierdzona zmiana ([[proc-bai06]]), kryteria odbioru ([[proc-bai02]]).\n\n**Wyjścia (intuicja):** protokół odbioru, plan wydania, rozwiązanie przekazane do eksploatacji, wnioski z przeglądu.\n\n**Współpracuje z:** [[proc-bai05]] (przygotowanie ludzi), [[proc-dss01]] (przejmuje codzienną eksploatację), [[proc-bai10]] (aktualizacja konfiguracji).",
+  "poziom2": "**Cel i zakres:** formalna akceptacja i przejście zmian do eksploatacji, z przygotowaniem wydania, wczesnym wsparciem i przeglądem.\n\n**Przykład:** Użytkownicy wykonują testy akceptacyjne, zespół przygotowuje wydanie, przejście do eksploatacji i wczesne wsparcie po uruchomieniu.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby użytkownicy odebrali nowe rozwiązanie, zanim zacznie działać naprawdę. I żeby przejście było bezpieczne.",
-  "jakDziala": "Planujesz wdrożenie i przeniesienie danych. Użytkownicy robią testy akceptacyjne w środowisku testowym. Potem przenosisz rozwiązanie do eksploatacji, wspierasz start i robisz przegląd po wdrożeniu.",
+  "jakDziala": "Formalna akceptacja i przejście zmian do eksploatacji, z przygotowaniem wydania, wczesnym wsparciem i przeglądem.",
   "dlaczegoWazne": "Testy w trakcie budowy to BAI03, a odbiór przez użytkowników to BAI07. Ta para często się myli (interpretacja kursu).",
   "przyklady": {
     "zycie": "Kupujesz mieszkanie od dewelopera. Na odbiorze chodzisz z listą usterek, odkręcasz krany i sprawdzasz okna. Podpisujesz protokół, przenosisz meble, a przez pierwszy miesiąc deweloper szybciej reaguje na zgłoszenia. To odbiór i przejście.",
@@ -71,10 +71,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "BAI07 Zarządzanie procesem akceptacji zmian i przejścia"
+      "doc": "ENPROC",
+      "sekcja": "BAI07 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-bai07",
@@ -85,16 +84,8 @@
   },
   "zagmatwania": [
     {
-      "mit": "BAI07 to to samo co BAI06, bo w nazwie jest „zmiana”.",
-      "prawda": "BAI06 decyduje, czy zmianę wolno wprowadzić. BAI07 ją odbiera i przenosi do codziennego użytku."
-    },
-    {
-      "mit": "Odbiór to podpis pod protokołem od dostawcy.",
-      "prawda": "Odbiór to testy akceptacyjne z użytkownikami w realnych scenariuszach, a po nich zaplanowane przejście."
-    },
-    {
-      "mit": "Po przełączeniu BAI07 się kończy.",
-      "prawda": "Obejmuje jeszcze wsparcie na starcie i przegląd po wdrożeniu."
+      "mit": "BAI07 kończy się natychmiast po uruchomieniu produkcyjnym.",
+      "prawda": "Obejmuje również wczesne wsparcie i przegląd po wdrożeniu."
     }
   ],
   "mentor": {

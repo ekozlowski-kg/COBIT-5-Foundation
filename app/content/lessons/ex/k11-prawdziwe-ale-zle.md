@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-exk-11-1, q-exk-11-2, q-exk-11-3]
-zapas: [q-exk-11-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k10-trzy-kroki]
 cel: "Potrafię odrzucić odpowiedź, która jest prawdziwa, ale nie odpowiada na pytanie albo mówi tylko część prawdy."

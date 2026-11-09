@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-exk-12-1, q-exk-12-2, q-exk-12-3]
-zapas: [q-exk-12-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k11-prawdziwe-ale-zle]
 cel: "Potrafię zmienić sposób wyboru odpowiedzi, gdy w pytaniu stoi NIE albo NAJLEPIEJ."

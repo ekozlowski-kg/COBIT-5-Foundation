@@ -31,10 +31,10 @@
   "wyobrazSobie": "Dzwonisz po hydraulika, bo woda leje się z rury. On najpierw ją zakręca, a przyczyny szuka później.",
   "skadNazwa": "Z angielskiego *Manage Service Requests and Incidents*. „Incydent” to przerwa albo pogorszenie usługi. „Zgłoszenie serwisowe” to zwykła prośba użytkownika, np. o nowe konto.",
   "poziom1": "Proces domeny [[dss]], który zapewnia szybką i skuteczną reakcję na prośby użytkowników (zgłoszenia serwisowe) i na incydenty, czyli przerwy lub pogorszenie usługi. Celem jest jak najszybsze przywrócenie normalnego działania.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** przyjmuje i rejestruje zgłoszenia, klasyfikuje je i nadaje priorytet, realizuje prośby, diagnozuje i rozwiązuje incydenty, w razie potrzeby eskaluje, zamyka zgłoszenie i raportuje.\n\n**Wejścia (intuicja):** zgłoszenia użytkowników, alerty z monitorowania ([[proc-dss01]]), znane błędy i obejścia ([[proc-dss03]]), opis konfiguracji ([[proc-bai10]]).\n\n**Wyjścia (intuicja):** zarejestrowane i zamknięte zgłoszenia, rozwiązania, raporty, dane o incydentach dla DSS03.\n\n**Współpracuje z:** [[proc-dss03]] (przyczyny powtarzających się incydentów), [[proc-bai06]] (zmiany awaryjne), [[proc-bai08]] (baza wiedzy), APO09 (czasy reakcji z umów).",
+  "poziom2": "**Cel i zakres:** obsługa wniosków usługowych i incydentów, w tym rejestracja, diagnoza, przywrócenie usługi oraz raportowanie.\n\n**Przykład:** Helpdesk rejestruje przerwę w działaniu poczty, prowadzi wstępną diagnozę i przywraca usługę; przyjmuje też standardowe prośby użytkowników.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Il. 39 (s. 88) wymienia przy DSS umiejętność *„Zarządzanie jednostką Service Desk i incydentami”*. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby po awarii szybko przywrócić normalne działanie usługi. I żeby prośby użytkowników były sprawnie załatwiane.",
-  "jakDziala": "Rejestrujesz, klasyfikujesz i priorytetyzujesz zgłoszenia oraz incydenty. Diagnozujesz, rozwiązujesz i przywracasz usługę. Zamykasz sprawę i raportujesz jej status.",
+  "jakDziala": "Obsługa wniosków usługowych i incydentów, w tym rejestracja, diagnoza, przywrócenie usługi oraz raportowanie.",
   "dlaczegoWazne": "Szybkie przywrócenie działania to DSS02, a szukanie przyczyny źródłowej to DSS03. To jedna z najczęściej mylonych par (interpretacja kursu).",
   "przyklady": {
     "zycie": "W niedzielę wieczorem pada internet, a dziecko ma jutro lekcje zdalne. Restartujesz router i internet wraca. Nie wiesz, dlaczego padł, ale teraz najważniejsze, żeby działał. To obsługa incydentu.",
@@ -71,21 +71,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "DSS02 Zarządzanie zgłoszeniami serwisowymi"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39",
-      "cytat": "Zarządzanie jednostką Service Desk i incydentami"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 60,
-      "cytat": "podzbiór procesów w domenie DSS"
+      "doc": "ENPROC",
+      "sekcja": "DSS02 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-dss02",
@@ -96,16 +84,8 @@
   },
   "zagmatwania": [
     {
-      "mit": "DSS02 kończy się dopiero, gdy znamy przyczynę awarii.",
-      "prawda": "DSS02 kończy się, gdy usługa działa normalnie. Przyczynę ustala DSS03."
-    },
-    {
-      "mit": "Prośba o nowe konto to nie sprawa DSS02, bo nic się nie zepsuło.",
-      "prawda": "DSS02 obsługuje i incydenty, i zwykłe zgłoszenia serwisowe użytkowników."
-    },
-    {
-      "mit": "Każdy incydent to problem.",
-      "prawda": "Problem to nieznana przyczyna jednego lub wielu incydentów. Pojedynczy incydent nie musi otwierać problemu."
+      "mit": "DSS02 nie zajmuje się diagnozą.",
+      "prawda": "DSS02.04 obejmuje wstępne badanie i diagnozę incydentu. Głębsze zarządzanie przyczynami, znanymi błędami i nawrotami to DSS03."
     }
   ],
   "mentor": {

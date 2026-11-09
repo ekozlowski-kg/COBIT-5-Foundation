@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-07]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-00-1, q-m0k-00-2, q-m0k-00-3]
-zapas: [q-m0k-00-z1]
+cwiczenia: []
+zapas: []
 wprowadza: [organizacja]
 wymaga: []
 cel: "Potrafię powiedzieć, czym jest organizacja i dlaczego informatyka jest jej narzędziem, a nie celem."

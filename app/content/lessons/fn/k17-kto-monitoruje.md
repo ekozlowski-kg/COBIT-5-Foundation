@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01, PR-02-14]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-fnk-17-1, q-fnk-17-2, q-fnk-17-3]
-zapas: [q-fnk-17-z1]
+cwiczenia: ["q-fn-w-05", "q-mtk-11-1"]
+zapas: ["q-mtk-12-1"]
 wprowadza: []
 wymaga: [fn-k16-wdrozenie-kaskada-luka]
 cel: "Potrafię rozstrzygnąć, kto monitoruje, na podstawie kategorii pytania: czynności Ładu czy role z Rysunku 9."

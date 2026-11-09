@@ -36,10 +36,10 @@
   "skadNazwa": "Angielskie *governance* nie ma dobrego polskiego odpowiednika. Podręcznik mówi „nadzór”, inne teksty „ład informatyczny”, a egzamin konsekwentnie „Ład”.",
   "wyobrazSobie": "Armator statku: decyduje, dokąd i po co płynie statek, i sprawdza, czy trzyma kurs, ale nie stoi przy sterze.",
   "poCo": "Żeby informatyka robiła to, czego potrzebuje cała organizacja, a nie tylko to, co umieją informatycy.",
-  "jakDziala": "Organ Ładu, zwykle zarząd pod przewodnictwem prezesa, ocenia potrzeby, warunki i opcje interesariuszy (Evaluate), ustala priorytety i podejmuje decyzje (Direct), a potem monitoruje sprawność i zgodność z wyznaczonym kierunkiem (Monitor). Wyniki z Zarządzania wracają do Ładu i cykl się powtarza.",
-  "dlaczegoWazne": "To podstawa zasady 5 (Oddzielenie Ładu od Zarządzania). Na egzaminie odróżnienie Ładu (EDM) od Zarządzania (PBRM) i pułapka słowa „nadzór” pojawiają się w wielu pytaniach.",
+  "jakDziala": "Ład ocenia potrzeby i warianty, wyznacza kierunek i monitoruje wyniki (EDM). Zarządzanie planuje, buduje, prowadzi i monitoruje działania (PBRM) zgodnie z tym kierunkiem. W oryginale COBIT 5 Ład zwykle sprawuje board pod przewodnictwem chairperson, a Zarządzanie executive management pod kierownictwem CEO. Polski podział kompetencji trzeba przypisać według rzeczywistego mandatu; nie wolno automatycznie utożsamiać board z zarządem pod prezesem.",
+  "dlaczegoWazne": "Ład ustala zrównoważone cele, kierunek i nadzór nad wynikami. Oddzielenie funkcji wymaga jasnych mandatów, a nie bezwzględnego zakazu pełnienia obu przez tę samą osobę.",
   "poziom1": "Ład to decydowanie, dokąd zmierzamy i co jest najważniejsze, a potem sprawdzanie, czy idziemy w tę stronę – bez wykonywania samej pracy (np. zarząd spółki ustala priorytety i rozlicza wyniki, ale nie prowadzi projektów). W COBIT 5 to trzy czynności: Oszacuj, Kieruj, Monitoruj.",
-  "poziom2": "Ład = **Oszacuj, Kieruj, Monitoruj** (EDM). Ocenia potrzeby, warunki i opcje interesariuszy i ustala zrównoważone cele. Kieruje przez priorytety i decyzje. Monitoruje wyniki i zgodność. W większości organizacji odpowiada za to **zarząd pod przewodnictwem prezesa**. Ład nie realizuje projektów – to zadanie Zarządzania.",
+  "poziom2": "Ład ocenia potrzeby i warianty, wyznacza kierunek i monitoruje wyniki (EDM). Zarządzanie planuje, buduje, prowadzi i monitoruje działania (PBRM) zgodnie z tym kierunkiem. W oryginale COBIT 5 Ład zwykle sprawuje board pod przewodnictwem chairperson, a Zarządzanie executive management pod kierownictwem CEO. Polski podział kompetencji trzeba przypisać według rzeczywistego mandatu; nie wolno automatycznie utożsamiać board z zarządem pod prezesem.",
   "poziom3": "Definicja (Załącznik H, s. 91): *„Dzięki nadzorowi zyskuje się pewność, że oceniono potrzeby, warunki i opcje interesariuszy w celu ustalenia zrównoważonych, uzgodnionych celów przedsiębiorstwa, które mają zostać osiągnięte. Nadzór polega również na ukierunkowaniu działań poprzez nadanie priorytetów i podejmowanie decyzji, a także na monitorowaniu sprawności i zgodności w odniesieniu do uzgodnionego kierunku i szczegółowych celów.”* Zasada 5 – Oddzielenie Ładu od Zarządzania.",
   "warianty": {
     "prosto": "Rodzina siada w styczniu i ustala: w tym roku odkładamy na wkład własny, wakacje tylko w Polsce, a co miesiąc razem sprawdzamy stan konta. Nikt tu nie mówi, co kupić w sobotę na obiad – to już codzienne zarządzanie. Ocenić sytuację, wyznaczyć kierunek i sprawdzać, czy idziemy w dobrą stronę – to jest Ład.",
@@ -107,17 +107,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 91,
-      "cytat": "Dzięki nadzorowi zyskuje się pewność, że oceniono potrzeby, warunki i opcje interesariuszy"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 14,
-      "cytat": "W większości przedsiębiorstw za nadzór odpowiada zarząd pod przywództwem prezesa."
-    },
-    {
-      "doc": "ALTKOM"
+      "doc": "FW-EN",
+      "sekcja": "rozdział 6; Key Differences Between Governance and Management",
+      "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
     }
   ],
   "mapa": "lad"

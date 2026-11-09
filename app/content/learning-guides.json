@@ -1,0 +1,834 @@
+{
+  "PR-01-01": {
+    "kod": "PR-01-01",
+    "zasada": "Pięć zasad COBIT 5 tworzy wspólną podstawę: potrzeby interesariuszy, całe przedsiębiorstwo, jedna zintegrowana struktura ramowa, podejście holistyczne oraz oddzielenie Ładu od Zarządzania. Nie są kolejnymi etapami projektu.",
+    "przyklad": "Wdrożenie e-usług wymaga jednocześnie uzgodnienia korzyści, objęcia działów biznesowych, integracji praktyk i jasnych odpowiedzialności.",
+    "uwazaj": "Pięć zasad to inna lista niż pięć domen procesów i pięć obszarów zainteresowania GEIT.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 1, rysunek 2",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-01-02": {
+    "kod": "PR-01-02",
+    "zasada": "Siedem aktywatorów to zasady/polityki/ramy; procesy; struktury; kultura/etyka/zachowanie; informacja; usługi/infrastruktura/aplikacje; ludzie/umiejętności/kompetencje. Wspólnie umożliwiają osiąganie celów.",
+    "przyklad": "Nowa aplikacja nie poprawi obsługi, jeśli ludzie nie znają procesu albo kultura nagradza omijanie reguł.",
+    "uwazaj": "Aktywator jest szerokim pojęciem. Liczba 37 dotyczy procesów, a nie kategorii aktywatorów.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 5, rysunki 12–13",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-01-03": {
+    "kod": "PR-01-03",
+    "zasada": "Model referencyjny zawiera 37 procesów: EDM 5, APO 13, BAI 10, DSS 6, MEA 3. EDM obejmuje Ład; pozostałe cztery domeny obejmują Zarządzanie. Model dostosowuje się do przedsiębiorstwa.",
+    "przyklad": "Mała firma może połączyć procesy, jeśli nadal zapewnia wymagane cele i odpowiedzialności.",
+    "uwazaj": "Nie trzeba tworzyć 37 osobnych działów. Numer procesu nie jest numerem celu IT.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 6, rysunki 15–16",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-01-04": {
+    "kod": "PR-01-04",
+    "zasada": "Domeny Zarządzania obejmują planowanie i organizację (APO), budowę/nabywanie/wdrożenie (BAI), dostarczanie i wsparcie (DSS) oraz monitorowanie i ocenę (MEA). Proces wybieraj według celu działania.",
+    "przyklad": "DSS02 przywraca usługę, DSS03 analizuje przyczyny, BAI06 kontroluje zmianę, a BAI07 jej przyjęcie i przejście do eksploatacji.",
+    "uwazaj": "Te procesy współpracują. Jedna awaria może uruchomić kilka procesów, więc sam rzeczownik w opisie nie wystarcza.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 6, rysunek 16; Enabling Processes, opisy procesów",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-01-05": {
+    "kod": "PR-01-05",
+    "zasada": "Zarządzanie wynikami aktywatora pyta: czy uwzględniono potrzeby interesariuszy, czy osiągnięto cele, czy zarządza się cyklem życia i czy stosuje się dobre praktyki. Pierwsza para mierzy rezultaty, druga funkcjonowanie aktywatora.",
+    "przyklad": "Ocena zadowolenia użytkowników bada rezultaty; przegląd aktualności polityki bada zarządzanie jej cyklem życia.",
+    "uwazaj": "Zarządzanie wynikami nie jest piątym wymiarem aktywatora.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 5, rysunek 13",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-01": {
+    "kod": "PR-02-01",
+    "zasada": "Tworzenie wartości polega na osiąganiu korzyści przy optymalizacji ryzyka i kosztu zasobów. Równowagę ustala się wobec potrzeb różnych interesariuszy, także w sektorze publicznym.",
+    "przyklad": "Droższe rozwiązanie może być uzasadnione większą dostępnością; tańsze może dawać zbyt duże ryzyko.",
+    "uwazaj": "Optymalizacja ryzyka nie znaczy zerowego ryzyka, a optymalizacja zasobów nie znaczy najniższej ceny.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 2, rysunek 3",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-02": {
+    "kod": "PR-02-02",
+    "zasada": "Wyznaczniki, np. zmiany regulacyjne, strategiczne i technologiczne, wpływają na potrzeby interesariuszy. Potrzeby przekłada się na cele przedsiębiorstwa, cele związane z IT i cele aktywatorów.",
+    "przyklad": "Nowe wymogi regulatora zmieniają potrzebę raportowania, a ta prowadzi do celów organizacji i IT.",
+    "uwazaj": "Ten sam nowy przepis może być wyznacznikiem w kaskadzie i zdarzeniem wyzwalającym wdrożenie; role nie wykluczają się.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 2, rysunek 4",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-03": {
+    "kod": "PR-02-03",
+    "zasada": "Kaskada wiąże potrzeby z celami przedsiębiorstwa, IT i aktywatorów. Typowe cele uporządkowano według czterech perspektyw BSC: finansowej, klienta, wewnętrznej oraz uczenia się i rozwoju.",
+    "przyklad": "Potrzeba sprawnej obsługi mieszkańców może prowadzić do celu jakości usług, a dalej do dostępności informacji i odpowiednich aktywatorów.",
+    "uwazaj": "Kaskada nie kończy się na procesach i nie jest sztywnym mapowaniem jeden do jednego.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 2, rysunki 4–6",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-04": {
+    "kod": "PR-02-04",
+    "zasada": "Rysunek 5 podaje 17 typowych celów przedsiębiorstwa oraz relacje podstawowe P i wspierające S do korzyści, ryzyka i zasobów. P/S określa relację, a nie uniwersalną ważność celu.",
+    "przyklad": "Świadome decyzje strategiczne oparte na informacji mają w tej tabeli relację P z każdym z trzech celów Ładu.",
+    "uwazaj": "S nie oznacza celu zbędnego. Tabele należy dopasować do kontekstu organizacji.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 2, rysunek 5; załącznik B",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-05": {
+    "kod": "PR-02-05",
+    "zasada": "Siedemnaście celów związanych z IT opisuje potrzebne rezultaty informacji i technologii. Obejmują odpowiedzialności biznesu oraz IT; wynikają z celów przedsiębiorstwa.",
+    "przyklad": "Bezpieczeństwo informacji, infrastruktury i aplikacji jest celem IT, a ciągłość usług biznesowych celem przedsiębiorstwa.",
+    "uwazaj": "Cel IT nie jest zadaniem wyłącznie działu IT ani końcem kaskady.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 2, rysunek 6; załącznik B, rysunek 22",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-06": {
+    "kod": "PR-02-06",
+    "zasada": "Cele aktywatorów są ostatnim poziomem kaskady. Dotyczą wszystkich siedmiu kategorii; mapowanie celów IT na procesy jest tylko częścią tego przełożenia.",
+    "przyklad": "Cel ochrony danych wymaga nie tylko APO13, lecz także reguł dostępu, kompetencji i kultury bezpieczeństwa.",
+    "uwazaj": "Kod celu IT 04 nie wskazuje procesu APO04. Numery należą do osobnych katalogów.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 2; załącznik C, rysunek 23",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-07": {
+    "kod": "PR-02-07",
+    "zasada": "Kaskada pomaga uzasadniać inwestycje, ustalać priorytety i komunikować powiązania biznesu z IT. Ogólne mapowania są punktem wyjścia wymagającym dostosowania.",
+    "przyklad": "Bank i mały sklep mogą nadać inne priorytety zgodności, zwinności i kosztom.",
+    "uwazaj": "Litera P nie nakazuje automatycznie wdrożenia każdego powiązanego procesu z takim samym priorytetem.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 2, Using the COBIT 5 Goals Cascade",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-08": {
+    "kod": "PR-02-08",
+    "zasada": "Podejście do Ładu obejmuje cel tworzenia wartości, aktywatory, zakres oraz role, działania i relacje. IT jest częścią ładu całego przedsiębiorstwa; zakres można ustalić dla całości lub wybranego widoku, np. jednostki albo aktywa.",
+    "przyklad": "Przed oceną ustal, czy obejmuje całe przedsiębiorstwo, spółkę zależną czy określone usługi.",
+    "uwazaj": "Zakres organizacyjny nie ogranicza się automatycznie do działu IT.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 3, rysunek 8",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-09": {
+    "kod": "PR-02-09",
+    "zasada": "Rysunek 9 wiąże właścicieli/interesariuszy, organ Ładu, kierownictwo i działania operacyjne. Pokazuje delegowanie, wyznaczanie kierunku, instruowanie/dopasowanie oraz odwrotne relacje raportowania, monitorowania i rozliczalności.",
+    "przyklad": "Kierownictwo otrzymuje kierunek i raportuje wyniki, na podstawie których organ Ładu monitoruje realizację.",
+    "uwazaj": "Schemat nie znaczy, że każdy klient formalnie powołuje organ Ładu, ani że organ Ładu nie monitoruje.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 3, rysunek 9",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-10": {
+    "kod": "PR-02-10",
+    "zasada": "COBIT integruje wytyczne ISACA oraz powiązane standardy w bazie wiedzy. Model aktywatorów porządkuje treści; rodzina produktów obejmuje m.in. przewodniki aktywatorów i profesjonalne.",
+    "przyklad": "Szczegółowe praktyki ITIL mogą współpracować z nadrzędnymi celami i odpowiedzialnościami COBIT.",
+    "uwazaj": "Integracja nie oznacza, że COBIT zawiera pełną treść każdego innego standardu.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 4, rysunki 10–11",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-11": {
+    "kod": "PR-02-11",
+    "zasada": "Zintegrowany charakter COBIT wynika z dopasowania do innych standardów, objęcia całego przedsiębiorstwa, spójnej architektury i integracji wcześniejszej wiedzy ISACA.",
+    "przyklad": "Wspólne cele łączą praktyki usługowe ITIL i bezpieczeństwo oparte na ISO/IEC 27001.",
+    "uwazaj": "Przyjęcie COBIT nie wymaga porzucenia przydatnych szczegółowych standardów.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 4",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-12": {
+    "kod": "PR-02-12",
+    "zasada": "Każdy aktywator opisują cztery wymiary: interesariusze, cele, cykl życia i dobre praktyki. Cele obejmują jakość wewnętrzną, kontekstową oraz dostępność i bezpieczeństwo.",
+    "przyklad": "Dla polityki określ odbiorców, oczekiwane wyniki, utrzymanie i wycofanie oraz sprawdzone sposoby realizacji.",
+    "uwazaj": "Cykl życia aktywatora nie jest siedmioma fazami cyklu wdrożenia COBIT.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 5, rysunek 13",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-13": {
+    "kod": "PR-02-13",
+    "zasada": "Wskaźnik opóźniony mierzy osiągnięty wynik, a wiodący stan działań, które mają do niego prowadzić. Klasyfikacja jest względna wobec określonego celu.",
+    "przyklad": "Ukończenie szkoleń przed uruchomieniem polityki jest wskaźnikiem wiodącym wobec celu ograniczenia incydentów, ale opóźnionym wobec celu ukończenia szkoleń.",
+    "uwazaj": "Sam fakt, że coś już zmierzono, nie przesądza o kategorii wskaźnika.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 5, Enabler Performance Management",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-14": {
+    "kod": "PR-02-14",
+    "zasada": "Ład ocenia potrzeby i warianty, wyznacza kierunek i monitoruje wyniki (EDM). Zarządzanie planuje, buduje, prowadzi i monitoruje działania (PBRM) zgodnie z tym kierunkiem.",
+    "przyklad": "Ta sama osoba w małej firmie może działać w obu funkcjach, lecz jej mandaty i odpowiedzialności trzeba rozróżnić.",
+    "uwazaj": "Zarządzanie też podejmuje decyzje, a obie funkcje monitorują. Board/chairperson nie należy automatycznie utożsamiać z polskim zarządem/prezesem.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 6; Key Differences Between Governance and Management",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PR-02-15": {
+    "kod": "PR-02-15",
+    "zasada": "Ład i Zarządzanie współdziałają poprzez aktywatory. Polityki utrwalają decyzje, struktury rozdzielają odpowiedzialności, a informacje umożliwiają kierowanie i informację zwrotną.",
+    "przyklad": "Organ Ładu wyznacza kierunek, kierownictwo organizuje wykonanie i przekazuje wyniki do oceny.",
+    "uwazaj": "Rozdzielenie funkcji nie oznacza braku komunikacji lub wspólnych informacji.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 6, rysunek 14",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-01-01": {
+    "kod": "EN-01-01",
+    "zasada": "Proces przetwarza wejścia w wyniki przez praktyki ukierunkowane politykami i procedurami. Cel procesu opisuje pożądany wynik; miernik pozwala oceniać jego osiągnięcie.",
+    "przyklad": "Proces zwrotów przyjmuje wniosek i dane zakupu, wykonuje weryfikację oraz prowadzi do rozliczenia zwrotu.",
+    "uwazaj": "Projekt też korzysta z procesów. Jednorazowy przypadek działania nie wyklucza istnienia procesu.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 2: Processes",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-01": {
+    "kod": "EN-02-01",
+    "zasada": "Zasady i polityki komunikują wytyczne organu Ładu i kierownictwa. Ramy powinny być kompletne, otwarte/elastyczne, aktualne i dostępne dla interesariuszy.",
+    "przyklad": "COBIT 5 jest przykładem ram obejmujących powiązane elementy Ładu i Zarządzania.",
+    "uwazaj": "Zasada, polityka i struktura ramowa są powiązane, lecz nie są tym samym rodzajem wytycznej.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 1",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-02": {
+    "kod": "EN-02-02",
+    "zasada": "Zasady wyrażają podstawowe wartości, mają być nieliczne i sformułowane prostym językiem. Polityki przekładają te wartości na bardziej szczegółowe wytyczne decyzji i zachowania.",
+    "przyklad": "Zasada ochrony prywatności prowadzi do polityki określającej warunki udostępniania danych.",
+    "uwazaj": "Polityka może wyrażać wartości. Podział mówi o jej roli i szczegółowości, nie o zakazie wspólnych cech.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 1: Goals",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-03": {
+    "kod": "EN-02-03",
+    "zasada": "Dobra polityka jest skuteczna (osiąga cel), wydajna (realizuje zasady odpowiednim nakładem) i nieinwazyjna (logiczna dla odbiorców, bez niepotrzebnego oporu).",
+    "przyklad": "Pięć zbędnych kopii tego samego pisma może zachować cel archiwizacji, ale zwiększać koszt bez dodatkowej korzyści.",
+    "uwazaj": "Niski koszt bez osiągania celu nie dowodzi wydajnego rozwiązania. Nieinwazyjność nie znaczy braku zmian.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 1: Goals",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-04": {
+    "kod": "EN-02-04",
+    "zasada": "Polityki trzeba aktualizować, komunikować, udostępniać w obowiązującej wersji oraz archiwizować lub usuwać stare. Ich struktura zależy m.in. od apetytu na ryzyko i wymogów otoczenia.",
+    "przyklad": "Po zmianie polityki wskaż aktualną wersję i usuń mylące kopie z codziennego użycia.",
+    "uwazaj": "Samo zatwierdzenie dokumentu nie kończy jego cyklu życia.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 1: Life Cycle",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-05": {
+    "kod": "EN-02-05",
+    "zasada": "Struktura polityk określa zakres i obowiązywanie, skutki nieprzestrzegania, obsługę wyjątków oraz sposób kontroli i pomiaru zgodności.",
+    "przyklad": "Awaria służbowego laptopa powinna uruchomić z góry określoną ścieżkę wyjątku, a nie dowolne obejście zakazu.",
+    "uwazaj": "Polityki same są informacją, więc wymagają również właściwej jakości i kontroli dostępu.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 1: Good Practices",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-06": {
+    "kod": "EN-02-06",
+    "zasada": "Praktyki i działania procesów są podstawowym środkiem wykonania polityk. Struktury stosują je w swoim zakresie, a kultura, kompetencje i informacja wpływają na ich skuteczność.",
+    "przyklad": "Politykę szyfrowania trzeba przełożyć na czynności, narzędzia, umiejętności i oczekiwane zachowania.",
+    "uwazaj": "Opublikowanie polityki bez zmiany sposobu pracy nie zapewnia jej realizacji.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 1: Relationships",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-07": {
+    "kod": "EN-02-07",
+    "zasada": "Interesariusze procesu mogą być wewnętrzni lub zewnętrzni. RACI wskazuje role związane z praktykami, lecz nie wyczerpuje wszystkich możliwych interesariuszy.",
+    "przyklad": "Pracownik wykonuje proces, klient odczuwa jego wynik, a regulator może stawiać wymagania.",
+    "uwazaj": "Interesariusz nie musi być użytkownikiem systemu ani osobą podejmującą decyzję.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 2: Stakeholders",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-08": {
+    "kod": "EN-02-08",
+    "zasada": "Cele wewnętrzne dotyczą poprawności i zgodności procesu, kontekstowe jego dopasowania i użyteczności, a dostępność/bezpieczeństwo jego znajomości i dostępności lub poufności, gdy jest wymagana.",
+    "przyklad": "Procedura poprawna formalnie może być niedopasowana do małego zespołu i przez to nieskuteczna w kontekście.",
+    "uwazaj": "Słowo „wewnętrzny” nie oznacza, że chodzi wyłącznie o przepisy wewnątrz firmy.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 2: Goals",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-09": {
+    "kod": "EN-02-09",
+    "zasada": "Proces należy definiować, tworzyć, wykonywać, monitorować i dostosowywać lub wycofywać. Praktyki są opisane ogólnie i wymagają doboru do potrzeb organizacji.",
+    "przyklad": "Niepotrzebny proces zatwierdzania można przebudować lub zakończyć, zachowując wymagane cele kontroli.",
+    "uwazaj": "Cykl życia procesu nie jest skalą poziomów zdolności 0–5.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 2: Life Cycle / Good Practices",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-10": {
+    "kod": "EN-02-10",
+    "zasada": "Dobre praktyki opisuje się przez praktyki, działania i szczegółowe działania. Praktyki mówią, co robić; działania dają kroki wdrożenia i wspierają przypisanie odpowiedzialności.",
+    "przyklad": "Na poziomie praktyki określ wejścia i wyjścia, a czynności dostosuj do rozmiaru i ryzyka organizacji.",
+    "uwazaj": "Działania nie są sztywnym nakazem wdrożenia każdego kroku bez zmian.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 2: Good Practices",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-11": {
+    "kod": "EN-02-11",
+    "zasada": "Procesy wymagają informacji, ludzi i zdolności usługowych, a jednocześnie mogą je dostarczać. Są współzależne z innymi procesami oraz kulturą.",
+    "przyklad": "Proces rozpatrywania zgłoszeń potrzebuje danych klienta i systemu, a tworzy historię rozwiązania do dalszego użycia.",
+    "uwazaj": "Dobry opis procesu nie zapewnia wyników bez wspierających go aktywatorów.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 2: Relationships",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-12": {
+    "kod": "EN-02-12",
+    "zasada": "Struktury są jednostkami podejmowania decyzji. Określa się zasady działania, skład, zakres kontroli, poziom uprawnień, delegowanie oraz eskalację. Sylabus wymienia także podejmowanie decyzji.",
+    "przyklad": "Regulamin rady określa członków, dozwolone decyzje, tryb rozstrzygnięcia i ścieżkę problemów decyzyjnych.",
+    "uwazaj": "Zakres kontroli to granice mandatu, a delegowanie przekazuje jego część; eskalacja kieruje problem do właściwego wyższego szczebla.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 3; SYL EN-02-12",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-13": {
+    "kod": "EN-02-13",
+    "zasada": "Role z rysunku 33 mają przykładowe mandaty: CIO dopasowanie IT do biznesu, CISO bezpieczeństwo informacji, CRO ryzyko przedsiębiorstwa, właściciel procesu jego wynik i doskonalenie.",
+    "przyklad": "PMO wspiera projekty i programy, VMO portfel i wartość, a rada architektury wytyczne architektoniczne.",
+    "uwazaj": "Rola, komitet i proces nie są synonimami. Organizacja dostosowuje strukturę i obsadę ról.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, rysunek 33",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-14": {
+    "kod": "EN-02-14",
+    "zasada": "Pożądane zachowania wspierają komunikacja, wzorce i liderzy zmiany, reguły oraz zachęty i środki zniechęcające. System nagród powinien być zgodny z oczekiwanym zachowaniem.",
+    "przyklad": "Premia wyłącznie za szybkość może podważyć politykę wymagającą starannej kontroli jakości.",
+    "uwazaj": "Szkolenie nie naprawia samo systemu kar, który zachęca do ukrywania błędów.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 4: Good Practices",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-15": {
+    "kod": "EN-02-15",
+    "zasada": "Cele kultury, etyki i zachowania odnoszą się do etyki organizacyjnej, indywidualnej oraz zachowań indywidualnych, które kształtują kulturę. Istotne są m.in. stosunek do ryzyka, polityk i negatywnych wyników.",
+    "przyklad": "Sposób reakcji na niepowodzenie pokazuje, czy organizacja uczy się, czy jedynie szuka winnego.",
+    "uwazaj": "Wartość zapisana w kodeksie i faktyczne codzienne zachowanie mogą się różnić.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 4: Goals",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-16": {
+    "kod": "EN-02-16",
+    "zasada": "Kultura wpływa na wszystkie aktywatory i jest często niedoceniana. Polityki komunikują wartości, ale ich realizacja zależy od rzeczywistych zachowań.",
+    "przyklad": "Procedura zgłaszania pomyłek nie zadziała, jeśli każde zgłoszenie prowadzi do nieuzasadnionej kary.",
+    "uwazaj": "Formalne zatwierdzenie zasad nie dowodzi, że ludzie będą ich przestrzegać.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 4: Relationships",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-17": {
+    "kod": "EN-02-17",
+    "zasada": "Model jakości informacji ma 15 kryteriów: 4 wewnętrzne, 9 kontekstowych/reprezentacji i 2 dostępności/bezpieczeństwa. Integralność z COBIT 4.1 mieści się w dokładności i kompletności.",
+    "przyklad": "Poprawny raport oparty na starych danych może być niedostatecznie aktualny; raport dostępny osobom nieuprawnionym narusza ograniczony dostęp.",
+    "uwazaj": "Brak dostępu osoby nieuprawnionej jest pożądany. Aktualność danych i termin ich dostarczenia to odrębne kwestie.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 5, rysunek 36",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-18": {
+    "kod": "EN-02-18",
+    "zasada": "Cykl informacji pokazuje dane przetwarzane w informację, użycie informacji prowadzące do wiedzy i korzyści tworzące wartość. Wytwórca tworzy, opiekun utrzymuje, a konsument używa informacji.",
+    "przyklad": "Dane o zgłoszeniach stają się raportem, a decyzja na jego podstawie może skrócić obsługę klientów.",
+    "uwazaj": "Samo przechowywanie danych nie dowodzi uzyskania korzyści biznesowych.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 5, rysunek 35",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-19": {
+    "kod": "EN-02-19",
+    "zasada": "Model informacji opisuje nośnik fizyczny, kanały empiryczne, składnię, znaczenie semantyczne, użycie pragmatyczne i kontekst społeczny. Pomaga określać wymagania jakości, dostępu i ochrony.",
+    "przyklad": "Format daty jest syntaktyczny, horyzont prognozy semantyczny, a okres przechowywania pragmatyczny.",
+    "uwazaj": "Atrybut opisujący informację nie jest tym samym co kryterium oceniające jej jakość.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 5: Information Attributes / Uses",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-20": {
+    "kod": "EN-02-20",
+    "zasada": "Dobre praktyki usług obejmują poziomy usług, zasady architektury i jej definicję: architekturę bazową, docelową, analizę luk i architektury przejściowe. Przykładowe zasady to ponowne użycie, zakup zamiast budowy, zwinność, otwartość i prostota.",
+    "przyklad": "Przed projektowaniem celu opisz stan bazowy, a potem luki i przejście do rozwiązania docelowego.",
+    "uwazaj": "Baseline architecture to architektura bazowa; nie należy utożsamiać jej z reference architecture.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 6: Good Practices",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-21": {
+    "kod": "EN-02-21",
+    "zasada": "Infrastruktura, technologia i aplikacje zapewniają zdolności usługowe. Usługi mogą być dostarczane wewnętrznie lub zewnętrznie; wiążą się z procesami, informacją i kulturą usługową.",
+    "przyklad": "Usługa poczty potrzebuje aplikacji i infrastruktury, a jej dostawcą może być dział IT albo podmiot zewnętrzny.",
+    "uwazaj": "Zdolność usługowa nie jest tym samym co poziom zdolności procesu z PAM.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 6: Relationships",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-22": {
+    "kod": "EN-02-22",
+    "zasada": "Dla ludzi i kompetencji określa się wymagania ról, dostępność, rozwój i okresową ocenę. Wyniki oceny służą kolejnym planom. SFIA jest wskazanym źródłem dobrych praktyk.",
+    "przyklad": "Po automatyzacji trzeba zmienić zestaw potrzebnych umiejętności; część może przestać być potrzebna do danego zadania.",
+    "uwazaj": "Wiedza, doświadczenie i zachowanie uzupełniają kwalifikacje techniczne. Sam certyfikat nie zapewnia pełnej kompetencji.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, aktywator 7, rysunek 38",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-23": {
+    "kod": "EN-02-23",
+    "zasada": "Rysunek 39 ilustruje kategorie umiejętności według domen: np. portfele w APO, pojemność w BAI, dostępność w DSS, audyt i weryfikacja zgodności w MEA.",
+    "przyklad": "Pytanie o kategorię umiejętności z tabeli może mieć inną odpowiedź niż pytanie o proces BAI04 obejmujący dostępność i pojemność.",
+    "uwazaj": "Najpierw ustal, czy pytanie dotyczy umiejętności, procesu, roli czy domeny.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, rysunek 39",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-24": {
+    "kod": "EN-02-24",
+    "zasada": "Szablon procesu obejmuje identyfikację, opis, przeznaczenie, cele IT i mierniki z kaskady, cele i mierniki procesu, RACI, praktyki z wejściami/wyjściami/działaniami oraz powiązane wytyczne.",
+    "przyklad": "Przeznaczenie wyjaśnia po co istnieje proces; cel i miernik mówią, jaki wynik oraz jak sprawdzać.",
+    "uwazaj": "Cel IT wspierany przez proces i cel samego procesu to różne poziomy opisu.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, rysunki 30–31; SYL EN-02-24",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "EN-02-25": {
+    "kod": "EN-02-25",
+    "zasada": "RACI przypisuje dla działania: R wykonuje, A ponosi ostateczną odpowiedzialność, C wnosi opinię w komunikacji dwukierunkowej, I otrzymuje informację. A potrzebuje informacji do nadzorowania zadania.",
+    "przyklad": "CIO przygotowuje analizę (R), sponsor odpowiada za decyzję (A), CFO opiniuje (C), a odbiorcy dostają wynik (I).",
+    "uwazaj": "Litera zależy od zadania i mandatu, nie od samej nazwy stanowiska.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "załącznik G, rysunek 32; słownik RACI",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "IM-01-01": {
+    "kod": "IM-01-01",
+    "zasada": "Cykl wdrożenia ma siedem faz i trzy równoległe komponenty: zarządzanie programem na zewnątrz, aktywowanie zmiany pośrodku i ciągłe doskonalenie wewnątrz.",
+    "przyklad": "W fazie 7 program przegląda skuteczność, zmiana jest utrzymywana, a doskonalenie monitoruje i ocenia.",
+    "uwazaj": "Pierścienie nie są trzema kolejnymi etapami; w każdej fazie współdziałają.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 7, rysunek 17",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "IM-02-01": {
+    "kod": "IM-02-01",
+    "zasada": "Plan wdrożenia dopasowuje się do otoczenia, strategii, ryzyka, kultury i stylu zarządzania. Sukces wspierają widoczne zaangażowanie kierownictwa, własność biznesowa, komunikacja i szybkie korzyści.",
+    "przyklad": "Sponsor stale komunikuje znaczenie inicjatywy, a zespół zaczyna od wykonalnych usprawnień o dużym pożytku.",
+    "uwazaj": "Formalna zgoda na starcie nie zastępuje ciągłego wsparcia.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 7, Considering the Enterprise Context / Creating the Appropriate Environment",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "IM-02-02": {
+    "kod": "IM-02-02",
+    "zasada": "Punkt zapalny jest odczuwaną trudnością; zdarzenie wyzwalające otwiera okazję lub wywołuje potrzebę zmiany. Ich rozpoznanie pomaga budować pilność i uzasadnienie inicjatywy.",
+    "przyklad": "Powtarzające się nieudane projekty to punkt zapalny; nowy CIO lub nowe regulacje mogą być zdarzeniem wyzwalającym.",
+    "uwazaj": "Jedno zdarzenie może mieć kilka ról w różnych modelach. Nie klasyfikuj bez kontekstu pytania.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 7, Recognising Pain Points and Trigger Events",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "IM-02-03": {
+    "kod": "IM-02-03",
+    "zasada": "Uzasadnienie biznesowe łączy inicjatywę z pożądanymi wynikami i tworzeniem wartości. Potrzebny jest sponsor oraz jednoznaczna odpowiedzialność za realizację.",
+    "przyklad": "Najpierw określ korzyści z szybszej obsługi, a dopiero potem wybierz narzędzia.",
+    "uwazaj": "Uzasadnienie nie służy wyłącznie uzyskaniu zgody na zakup i nie jest samym kosztorysem.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 7, Getting Started: Making the Business Case",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "IM-02-04": {
+    "kod": "IM-02-04",
+    "zasada": "Business case obejmuje korzyści i sposób ich pomiaru, zmiany biznesowe, inwestycje i koszty, ryzyka, role oraz monitorowanie całego cyklu ekonomicznego. Utrzymuje się go w aktualności.",
+    "przyklad": "Wzrost kosztów dostawcy wymaga ponownego sprawdzenia, czy oczekiwane korzyści nadal uzasadniają program.",
+    "uwazaj": "Raz zatwierdzony business case nie jest niezmienny.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 7, Getting Started: Making the Business Case",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "IM-02-05": {
+    "kod": "IM-02-05",
+    "zasada": "Aktywowanie zmiany dotyczy ludzi, kultury i zaangażowania. Komunikacja określa co, jak i komu przekazywać w każdej fazie. Duże przedsięwzięcia prowadzi się iteracyjnie.",
+    "przyklad": "Szkolenia, liderzy zmiany i komunikacja pomagają przyjąć nowy sposób pracy.",
+    "uwazaj": "Nie myl zmiany organizacyjnej z techniczną kontrolą zmian w BAI06. Sześć miesięcy jest wskazówką ryzyka utraty dynamiki, nie sztywnym limitem.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 7, Enabling Change / Using a Life Cycle Approach",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "IM-02-06": {
+    "kod": "IM-02-06",
+    "zasada": "Faza 1 rozpoznaje wyznaczniki i potrzebę zmiany; faza 2 ustala zakres i stan obecny; faza 3 stan docelowy, luki, priorytety i mapę drogową.",
+    "przyklad": "Po pomiarze 14 dni obsługi ustalenie celu 5 dni należy do fazy 3.",
+    "uwazaj": "Pomiar obecnego stanu i wybór stanu docelowego to różne działania.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 7, fazy 1–3, rysunek 17",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "IM-02-07": {
+    "kod": "IM-02-07",
+    "zasada": "Faza 4 planuje rozwiązania i projekty; 5 wdraża je oraz uruchamia pomiar; 6 utrwala użycie i śledzi korzyści; 7 ocenia sukces i podtrzymuje doskonalenie.",
+    "przyklad": "Uruchomienie mierników przy wdrożeniu to faza 5, a sprawdzenie uzyskania korzyści z trwałego użytkowania to faza 6.",
+    "uwazaj": "Samo słowo „monitorowanie” nie określa fazy — liczy się przedmiot i cel działania.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 7, fazy 4–7, rysunek 17",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PC-01-01": {
+    "kod": "PC-01-01",
+    "zasada": "Poziomy 0–5 to: niekompletny, wykonywany, zarządzany, ustanowiony, przewidywalny, optymalizujący/zoptymalizowany. Poziom 1 ma PA 1.1, a poziomy 2–5 po dwa PA — razem dziewięć.",
+    "przyklad": "Proces osiągający przeznaczenie może być na poziomie 1 bez standardu organizacyjnego charakterystycznego dla poziomu 3.",
+    "uwazaj": "Poziomy zdolności COBIT 5 nie są tymi samymi poziomami co dojrzałość COBIT 4.1.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 8, rysunki 18–20",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PC-01-02": {
+    "kod": "PC-01-02",
+    "zasada": "PA 1.1: wykonanie; 2.1: zarządzanie wykonaniem; 2.2: produkty pracy; 3.1: definicja; 3.2: wdrożenie; 4.1: pomiar; 4.2: kontrola; 5.1: innowacja; 5.2: optymalizacja procesu.",
+    "przyklad": "Plan obsady wspiera PA 2.1, wersjonowanie produktów PA 2.2, a stosowanie standardowego procesu PA 3.2.",
+    "uwazaj": "Zwykły KPI lub reakcja na próg nie dowodzi ilościowej przewidywalności i kontroli zmienności z poziomu 4.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 8, rysunek 19; PAM, atrybuty procesu",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PC-01-03": {
+    "kod": "PC-01-03",
+    "zasada": "Stopień osiągnięcia PA ocenia się jako N 0–15%, P ponad 15–50%, L ponad 50–85%, F ponad 85–100%. Litery dotyczą skali angielskiej. Każdy atrybut ocenia się osobno, bez średniej.",
+    "przyklad": "85% oznacza L; dopiero wynik ponad 85% mieści się w F. To stopień osiągnięcia atrybutu, nie odsetek poprawnych dokumentów.",
+    "uwazaj": "Kursowe tłumaczenie N/C/W/P może pomylić literę P z angielskim Partially. Zawsze określ legendę.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 8, Performing a Process Capability Assessment; PAM, rating scale",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PC-01-04": {
+    "kod": "PC-01-04",
+    "zasada": "Przeznaczenie wyjaśnia cel istnienia procesu, rezultaty oczekiwane osiągnięcia, praktyki bazowe pomagają je uzyskać, a produkty pracy stanowią potencjalne dowody.",
+    "przyklad": "Zatwierdzona i dostępna specyfikacja może być zarówno produktem pracy, jak i dowodem rezultatu wymagającego takiego artefaktu.",
+    "uwazaj": "Samo istnienie dokumentu nie dowodzi osiągnięcia całego atrybutu lub poziomu.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 8; PAM §1.7; ISO/IEC/IEEE 24765, hasła process outcome / PRM",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PC-02-01": {
+    "kod": "PC-02-01",
+    "zasada": "Ocena zdolności służy ustalaniu stanu obecnego i docelowego, luk, priorytetów doskonalenia i porównań. Może też dostarczać formalnych wyników odbiorcom zewnętrznym.",
+    "przyklad": "Przed inwestycją w usprawnienia organizacja ocenia, jakie rezultaty osiągają jej procesy i czego im brakuje.",
+    "uwazaj": "To ocena procesów, nie kadrowa ocena kompetencji ludzi; wynik nie oznacza automatycznie certyfikacji przedsiębiorstwa.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 8, Performing a Process Capability Assessment",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PC-02-02": {
+    "kod": "PC-02-02",
+    "zasada": "Program oceny obejmuje PAM, przewodnik asesora i przewodnik samooceny, z wydaniami dla COBIT 4.1 i 5. PAM określa model i wskaźniki; przewodnik asesora prowadzenie oceny; samoocena daje lżejszy punkt wyjścia.",
+    "przyklad": "Przed formalnym audytem można przeprowadzić samoocenę, by rozpoznać luki.",
+    "uwazaj": "Self-assessment Guide jest samodzielny i oparty na PAM: nie wymaga osobnego tomu PAM ani formalnego zbierania dowodów, ale dowody mogą być używane.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 8; SYL PC-02-02; Self-assessment Guide, Introduction",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PC-02-03": {
+    "kod": "PC-02-03",
+    "zasada": "Normatywny PRM opisuje przeznaczenie i rezultaty procesów. Nie powinien uzależniać ich osiągnięcia od cech wyższych poziomów zdolności. PAM łączy wymiar procesu ze skalą zdolności.",
+    "przyklad": "DSS02 może monitorować i raportować obsługę zgłoszeń. Nie oznacza to wymagania poziomu 4 w przeznaczeniu tego procesu.",
+    "uwazaj": "Ograniczenie PRM nie jest zakazem planowania lub pomiarów w treści procesu. Praktyki i produkty pracy są wskaźnikami oceny w PAM.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 8; PAM, Process Reference Model / Assessment Model",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PC-02-04": {
+    "kod": "PC-02-04",
+    "zasada": "Wymiar procesu zawiera specyfikę procesów i wskaźniki ich wykonania (praktyki bazowe, produkty pracy). Wymiar zdolności obejmuje poziomy 0–5 i atrybuty PA 1.1–5.2, ze wspólnymi wskaźnikami wyższych poziomów.",
+    "przyklad": "Dla DSS02 i APO12 stosuje się te same ogólne wymagania PA 2.1, ale inne dowody związane z wykonywanymi procesami.",
+    "uwazaj": "PA 1.1 należy do wymiaru zdolności, mimo że jego ocenę wspierają wskaźniki wymiaru procesu.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 8, rysunek 19; PAM, two-dimensional model",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PC-02-05": {
+    "kod": "PC-02-05",
+    "zasada": "COBIT 5 przyjmuje ocenę zdolności opartą na ISO/IEC 15504, wspólną skalę i dziewięć atrybutów. COBIT 4.1 używał modelu dojrzałości; wyników nie przenosi się automatycznie między modelami.",
+    "przyklad": "Poziom 2 dojrzałości z COBIT 4.1 nie gwarantuje poziomu 2 zdolności COBIT 5.",
+    "uwazaj": "Ocena samych procesów nie daje pełnej oceny Ładu — procesy są jednym z siedmiu aktywatorów.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 8, rysunki 18–20",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  },
+  "PC-02-06": {
+    "kod": "PC-02-06",
+    "zasada": "Poziom 1 wymaga PA 1.1 co najmniej L. Dla poziomu 2–5 wszystkie PA niższych poziomów muszą być F, a PA ocenianego poziomu co najmniej L. Docelowy poziom wynika z potrzeb i kosztów.",
+    "przyklad": "PA 1.1=F, PA 2.1=F, PA 2.2=L daje poziom 2, lecz blokuje poziom 3, nawet jeśli jego PA mają F.",
+    "uwazaj": "Nie licz średniej i nie wyznaczaj formalnego poziomu z pojedynczego dokumentu, KPI lub ogólnego opisu.",
+    "zrodlo": [
+      {
+        "doc": "FW-EN",
+        "sekcja": "rozdział 8, Performing a Process Capability Assessment; PAM, capability level determination",
+        "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
+      }
+    ]
+  }
+}

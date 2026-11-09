@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-exk-13-1, q-exk-13-2, q-exk-13-3]
-zapas: [q-exk-13-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k12-nie-najlepiej]
 cel: "Potrafię czytać słowa GŁÓWNY i ZAWSZE w pytaniu i odpowiadam według modelu COBIT 5, a nie według praktyki mojej organizacji."
@@ -80,7 +80,7 @@ Dlatego słowa „zawsze” nie odrzucacie odruchowo. Sprawdzacie zdanie z model
 
 W Twojej firmie budżet IT zatwierdza dyrektor IT. Pytanie: „Kto według COBIT 5 odpowiada za Ład?”
 
-Odpowiedź według modelu: **zarząd pod przywództwem prezesa** – nawet jeśli u Ciebie jest inaczej.
+Odpowiedź według modelu: **organ Ładu pod przewodnictwem przewodniczącego (board/chairperson)** – nawet jeśli u Ciebie jest inaczej.
 
 :::zrodlo FW-PL 14
 :::

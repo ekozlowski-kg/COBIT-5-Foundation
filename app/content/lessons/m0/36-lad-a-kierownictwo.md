@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-36-1, q-m0k-36-2, q-m0k-36-3]
-zapas: [q-m0k-36-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [m0-35-litera-p]
 cel: "Potrafię wyjaśnić, że Ład na egzaminie to wyznaczanie kierunku, a słowo „kierownictwo” wskazuje zwykle Zarządzanie."
@@ -35,13 +35,13 @@ W zwykłej mowie oboje „decydują”. Ale decyzje są różnego rodzaju. Wła�
 
 **[[lad|Ład]]** (*Governance*; w podręczniku: nadzór) to wyznaczanie kierunku i pilnowanie, czy organizacja go trzyma. Nie chodzi o „porządek na biurku”.
 
-> „W większości przedsiębiorstw za nadzór odpowiada zarząd pod przywództwem prezesa”
+Parafraza COBIT 5 EN: Ład zwykle sprawuje board pod przewodnictwem chairperson; nie jest to automatycznie polski zarząd pod prezesem.
 
 :::zrodlo FW-PL 31
 :::
 
 :::wykladowca
-W zwykłym polskim ład to porządek. Na egzaminie COBIT 5 Ład to Governance, czyli decydowanie, dokąd organizacja zmierza, i sprawdzanie, czy tam idzie. Podręcznik mówi, że zwykle odpowiada za to zarząd z prezesem.
+W zwykłym polskim ład to porządek. Na egzaminie COBIT 5 Ład to Governance, czyli decydowanie, dokąd organizacja zmierza, i sprawdzanie, czy tam idzie. Podręcznik mówi, że zwykle odpowiada za to organ Ładu z przewodniczącym.
 :::
 
 ---

@@ -27,11 +27,11 @@
   "poLudzku": "Szefostwo pilnuje, żeby pieniądze wydane na informatykę dały prawdziwy pożytek, a nie tylko nowe urządzenia.",
   "wyobrazSobie": "Inwestor, który po roku pyta nie „czy budowa się skończyła”, tylko „czy mieszkania się sprzedały”.",
   "poCo": "Żeby pieniądze wydane na IT dawały organizacji prawdziwą korzyść, a nie kończyły się na zakupie i wdrożeniu.",
-  "jakDziala": "Organ Ładu ocenia, jakiej wartości oczekuje od inwestycji i usług IT. Kieruje priorytetami i wymaga uzasadnień biznesowych. Monitoruje, czy korzyści przyszły, i decyduje: kontynuować, poprawić albo zakończyć.",
+  "jakDziala": "Zapewnienie wartości z inwestycji, usług i aktywów IT przez ocenę, kierowanie i monitorowanie realizacji korzyści.",
   "dlaczegoWazne": "EDM02 to pierwszy z trzech składników Celu Ładu (korzyści). Egzamin sprawdza, czy odróżniasz ocenę wartości przez Ład od portfela (APO05) i projektu (BAI01).",
   "skadNazwa": "EN *Ensure Benefits Delivery*, czyli „zapewnij dostarczenie korzyści”. Proces czerpie z modelu Val IT (wartość inwestycji IT), który COBIT 5 wchłonął. Polskie „realizacja” łatwo pomylić z „realizacją projektu”.",
   "poziom1": "Proces Ładu o wartości. Organ Ładu ocenia, kieruje i monitoruje, czy inwestycje, usługi i aktywa IT dają organizacji korzyść. To pierwszy z trzech składników Celu Ładu.",
-  "poziom2": "**Czym się zajmuje:** ustala, czego oczekujemy od inwestycji w IT, i rozlicza, czy korzyść naprawdę przyszła.\n\n**Wejścia (intuicja):** strategia organizacji, [[uzasadnienie-biznesowe|uzasadnienia biznesowe]], raporty o portfelu inwestycji i ich wynikach.\n\n**Wyjścia (intuicja):** zasady oceny wartości, priorytety inwestycji, decyzje „kontynuuj, popraw, zakończ”.\n\n**Współpraca:** kierunek realizują [[proc-apo05]] (portfel) i [[proc-apo06]] (budżet). Pojedyncze projekty prowadzi BAI01, a wyniki mierzy MEA01.",
+  "poziom2": "**Cel i zakres:** zapewnienie wartości z inwestycji, usług i aktywów IT przez ocenę, kierowanie i monitorowanie realizacji korzyści.\n\n**Przykład:** Organ Ładu ocenia, czy portfel inwestycji i usług IT zapewnia oczekiwane korzyści oraz wartość dla interesariuszy.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „EDM02 Zapewnienie realizacji korzyści”. Załącznik E (s. 58): przy procesie EDM02 Framework opisuje, w jaki sposób *„realizacja celów strategicznych powinna być poparta odpowiednimi uzasadnieniami biznesowymi”*. Słownik (s. 89): realizacja korzyści to *„Uzyskiwanie przez przedsiębiorstwo nowych korzyści, utrzymanie i rozszerzenie istniejących form korzyści oraz wyeliminowanie inicjatyw i zasobów, które nie generują wystarczającej wartości.”* Opis praktyk i działań procesu jest w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Kupiliście robota sprzątającego za 1500 zł. Po trzech miesiącach pytacie: czy naprawdę mamy więcej wolnego czasu? Jeśli robot stoi w szafie, korzyści nie ma, choć zakup się „udał”. Pilnowanie tej różnicy to EDM02.",
@@ -71,20 +71,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "EDM02 Zapewnienie realizacji korzyści"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 58,
-      "cytat": "realizacja celów strategicznych powinna być poparta odpowiednimi uzasadnieniami biznesowymi"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 89,
-      "cytat": "Uzyskiwanie przez przedsiębiorstwo nowych korzyści, utrzymanie i rozszerzenie istniejących form korzyści oraz wyeliminowanie inicjatyw i zasobów, które nie generują wystarczającej wartości."
+      "doc": "ENPROC",
+      "sekcja": "EDM02 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-edm02",

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01, IM-02-05, PC-01-02]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-fnk-16-1, q-fnk-16-2, q-fnk-16-3]
-zapas: [q-fnk-16-z1]
+cwiczenia: ["q-fn-m-31", "q-fn-w-27"]
+zapas: ["q-spr-im-08"]
 wprowadza: []
 wymaga: [fn-k15-pytanie-przekrojowe]
 cel: "Potrafię połączyć fazy 1–3 wdrożenia z kaskadą celów i obliczyć lukę zdolności atrybut po atrybucie."

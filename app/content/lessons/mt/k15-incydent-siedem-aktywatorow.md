@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-02, PR-02-12]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-mtk-15-1, q-mtk-15-2, q-mtk-15-3]
-zapas: [q-mtk-15-z1]
+cwiczenia: ["q-pra-33-3", "q-pra-34-z1"]
+zapas: ["q-fn-m-27"]
 wprowadza: []
 wymaga: [mt-k14-kaskada-siec]
 cel: "Potrafię rozłożyć jeden incydent na siedem aktywatorów i pokazać kursantowi, że trwała naprawa obejmuje kilka z nich."

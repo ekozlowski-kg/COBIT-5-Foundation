@@ -16,7 +16,7 @@ export function toast(msg) {
 export const statusPill = (s) => s && STATUS_LABEL[s]
   ? `<span class="pill prov-${esc(s)}" title="${esc(STATUS_LABEL[s])}">${esc(STATUS_LABEL[s])}</span>` : '';
 
-export const trapPill = () => '<span class="pill pill-trap" title="Egzamin PL używa innej nazwy niż podręcznik">⚠ Pułapka</span>';
+export const trapPill = () => '<span class="pill pill-trap" title="Warianty tłumaczenia tego samego pojęcia">⚠ Pułapka</span>';
 
 export function sourceText(z) {
   if (!z) return '';
@@ -64,14 +64,14 @@ export function termDetail(t, { num = null, terms = null, ctxStart = 0, allowExt
 
   const names = `
     <dl class="names">
-      <dt>Egzamin PL</dt><dd class="exam">${esc(t.plEgzamin)}</dd>
+      <dt>Nazwa w kursie</dt><dd class="exam">${esc(t.plEgzamin)}</dd>
       ${t.plPodrecznik ? `<dt>Podręcznik PL</dt><dd>${esc(t.plPodrecznik)}</dd>` : ''}
       ${t.en ? `<dt>Oryginał EN</dt><dd>${esc(t.en)}</dd>` : ''}
       ${t.plInne && t.plInne.length ? `<dt>Spotkasz też</dt><dd>${t.plInne.map((x) => esc(inneName(x))).join(', ')}</dd>` : ''}
     </dl>`;
 
   const trapText = t.pulapka ? `<strong>⚠ Pułapka terminologiczna.</strong>
-    ${t.pulapkaOpis ? rich(t.pulapkaOpis) : `Na egzaminie zobaczysz <strong>„${esc(t.plEgzamin)}”</strong>${t.plPodrecznik ? `, a w polskim podręczniku „${esc(t.plPodrecznik)}”` : ''}${t.en ? ` (EN: ${esc(t.en)})` : ''}. To jest to samo pojęcie.`}` : '';
+    ${t.pulapkaOpis ? rich(t.pulapkaOpis) : `W kursie stosujemy <strong>„${esc(t.plEgzamin)}”</strong>${t.plPodrecznik ? `, a w polskim podręczniku „${esc(t.plPodrecznik)}”` : ''}${t.en ? ` (EN: ${esc(t.en)})` : ''}. To jest to samo pojęcie.`}` : '';
   // Odznaka pułapki jest zawsze widoczna; w trybie laika opis rozwija się po kliknięciu.
   const trapBadge = t.pulapka ? (laik
     ? `<button class="pill pill-trap trap-toggle" aria-expanded="false" aria-controls="trap-${esc(t.id)}" title="Pokaż, na czym polega pułapka">⚠ Pułapka</button>`
@@ -161,7 +161,7 @@ export function termDetail(t, { num = null, terms = null, ctxStart = 0, allowExt
   const ST = { A: 'A – jednoznaczne', B: 'B – zależy od kontekstu', C: 'C – sporne', D: 'D – zostaw oryginał' };
   const zt = t.zrodloTlumaczenia || {};
   const forms = `<dl class="names forms">
-      <dt>Egzamin PL</dt><dd class="exam">${esc(zt.wydawcaEgzaminu || t.plEgzamin)}</dd>
+      <dt>Nazwa w kursie</dt><dd class="exam">${esc(zt.wydawcaEgzaminu || t.plEgzamin)}</dd>
       ${(zt.podrecznik || t.plPodrecznik) ? `<dt>Podręcznik PL</dt><dd>${esc(zt.podrecznik || t.plPodrecznik)}</dd>` : ''}
       ${zt.kurs ? `<dt>W kursie</dt><dd>${esc(zt.kurs)}</dd>` : ''}
       ${t.statusTlumaczenia ? `<dt>Tłumaczenie</dt><dd><span class="pill tl-${esc(t.statusTlumaczenia)}">${esc(ST[t.statusTlumaczenia] || t.statusTlumaczenia)}</span></dd>` : ''}
@@ -318,7 +318,7 @@ export function explainDetailed(t, terms = null) {
   const human = t.poLudzku || (t.warianty && t.warianty.prosto) || t.poziom1 || '';
   const life = p.zycie || g.prosty || '';
   const unit = p.it || p.organizacja || p.firma || g.zaawansowany || '';
-  const exam = `Na egzaminie zobaczysz nazwę <strong>„${esc(t.plEgzamin)}”</strong>${t.plPodrecznik && t.plPodrecznik !== t.plEgzamin ? ` (w podręczniku: „${esc(t.plPodrecznik)}”)` : ''}${t.en ? `, po angielsku ${esc(t.en)}` : ''}.${t.egzamin ? ` ${rich(t.egzamin)}` : ''}`;
+  const exam = `W kursie stosujemy nazwę <strong>„${esc(t.plEgzamin)}”</strong>${t.plPodrecznik && t.plPodrecznik !== t.plEgzamin ? ` (w podręczniku: „${esc(t.plPodrecznik)}”)` : ''}${t.en ? `, po angielsku ${esc(t.en)}` : ''}.${t.egzamin ? ` ${rich(t.egzamin)}` : ''}`;
   const mix = Array.isArray(t.zagmatwania) && t.zagmatwania.length
     ? t.zagmatwania.map((z) => `<p><span class="myth-x">${rich(z.mit)}</span> → ${rich(z.prawda)}</p>`).join('')
     : (t.nieMylicZ || []).map((n) => `<p><strong>${esc((terms && terms.get(n.termin)?.plEgzamin) || n.termin)}</strong> – ${rich(n.roznica)}</p>`).join('');

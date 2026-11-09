@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prb-51-1, q-prb-51-2, q-prb-51-3]
-zapas: [q-prb-51-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [dss, mea]
 wymaga: [pr-k50-apo-bai]
 cel: "Potrafię rozpoznać, czy zadanie należy do domeny DSS, czy MEA, i podać ich procesy."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-exk-19-1, q-exk-19-2, q-exk-19-3]
-zapas: [q-exk-19-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k18-powtorka-wymiary-procesy]
 cel: "Potrafię z pamięci podać 3 pierścienie, 7 faz i trzy rodzaje czynników, od których zaczyna się wdrożenie."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-exk-15-1, q-exk-15-2, q-exk-15-3]
-zapas: [q-exk-15-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k14-inna-kategoria]
 cel: "Potrafię nazwać typ każdej błędnej odpowiedzi i dzięki temu szybciej ją odrzucić."
@@ -70,7 +70,7 @@ To ten sam termin, Governance, ale w dwóch tłumaczeniach. Podręcznik pisze �
 # Odwrócone i fałsz
 
 - **Odwrócone:** „wskaźnik wiodący mierzy wynik po fakcie” – to wskaźnik **opóźniony**.
-- **Odwrócone:** „P na skali ocen to Częściowy” – na egzaminie PL **P = Pełny**.
+- **Odwrócone:** „P na skali ocen to Częściowy” – w polskim zapisie kursu **P = Pełny**.
 - **Fałsz:** „COBIT 5 ma 40 procesów” – ma **37**.
 
 :::zrodlo FW-PL 33

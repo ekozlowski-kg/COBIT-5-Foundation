@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-10]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-enk-17-1, q-enk-17-2, q-enk-17-3]
-zapas: [q-enk-17-z1]
+cwiczenia: ["q-sym-011", "q-en-02-02"]
+zapas: ["q-sk-wejscia-wyjscia-1"]
 wprowadza: [praktyki-dzialania]
 wprowadzaListe: [praktyka-procesu, dzialanie-procesu, wejscia-wyjscia]
 wymaga: [en-k16-kategorie-celow-procesu]

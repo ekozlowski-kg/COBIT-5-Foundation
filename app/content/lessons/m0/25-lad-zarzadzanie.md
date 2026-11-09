@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-06, PR-02-14]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-m0k-25-1, q-m0k-25-2, q-m0k-25-3]
-zapas: [q-m0k-25-z1]
+cwiczenia: ["q-fn-w-05", "q-mtk-11-1"]
+zapas: ["q-mtk-12-1"]
 wprowadza: [lad, zarzadzanie]
 wymaga: [m0-24-proces-w-cobit]
 cel: "Potrafię odróżnić Ład (co i po co) od Zarządzania (jak i kiedy) i powiedzieć, kto w organizacji za nie odpowiada."
@@ -69,11 +69,11 @@ Zwróć uwagę na końcówkę cytatu. Zarządzanie działa w kierunku wskazanym 
 
 | | Ład | Zarządzanie |
 |---|---|---|
-| kto | zarząd z prezesem | kadra zarządzająca z dyrektorem generalnym |
+| kto | organ Ładu z przewodniczącym | kadra zarządzająca z dyrektorem generalnym |
 | pyta | co i po co? | jak i kiedy? |
 | przykład | które projekty IT robimy w tym roku | wybór dostawcy i plan wdrożenia |
 
-> „W większości przedsiębiorstw za nadzór odpowiada zarząd pod przywództwem prezesa”
+Parafraza COBIT 5 EN: Ład zwykle sprawuje board pod przewodnictwem chairperson; nie jest to automatycznie polski zarząd pod prezesem.
 
 :::zrodlo FW-PL 14
 :::
@@ -143,6 +143,6 @@ A, C i D mówią „jak” i „kiedy” – to Zarządzanie.
 **Wniosek:** Ład wyznacza kierunek i go sprawdza, a Zarządzanie planuje i realizuje pracę w tym kierunku.
 
 :::zapamietaj
-- Ład (*Governance*, podręcznik: nadzór) – co i po co; zarząd z prezesem.
+- Ład (*Governance*, podręcznik: nadzór) – co i po co; organ Ładu z przewodniczącym.
 - Zarządzanie (*Management*) – jak i kiedy; kadra z dyrektorem generalnym.
 :::

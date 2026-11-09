@@ -27,10 +27,10 @@
   "wyobrazSobie": "Schemat instalacji elektrycznej w domu: który bezpiecznik zasila który pokój. Bez niego każda naprawa to zgadywanie.",
   "skadNazwa": "Z angielskiego *Manage Configuration*. „Konfiguracja” to zestaw elementów systemu, ich ustawień i powiązań. Repozytorium konfiguracji w ITIL nazywa się CMDB.",
   "poziom1": "Proces domeny [[bai]], który definiuje i utrzymuje opis kluczowych elementów konfiguracji (sprzęt, oprogramowanie, ustawienia) i powiązań między nimi, potrzebnych do świadczenia usług. Obejmuje zbieranie danych, wersje bazowe, weryfikację i audyt tych informacji oraz aktualizację repozytorium.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** ustala, które elementy trzeba opisywać, zbiera o nich dane, prowadzi repozytorium konfiguracji (w ITIL: CMDB), zapisuje wersje bazowe, aktualizuje dane po każdej zmianie i regularnie sprawdza, czy zapis zgadza się z rzeczywistością.\n\n**Wejścia (intuicja):** zatwierdzone i zamknięte zmiany ([[proc-bai06]]), nowe rozwiązania ([[proc-bai03]], [[proc-bai07]]), dane o aktywach ([[proc-bai09]]).\n\n**Wyjścia (intuicja):** repozytorium konfiguracji, wersje bazowe, raporty rozbieżności.\n\n**Współpracuje z:** [[proc-bai06]] (ocena wpływu zmian), [[proc-dss02]] i [[proc-dss03]] (diagnoza: co od czego zależy), [[proc-bai09]] (aktywa).",
+  "poziom2": "**Cel i zakres:** utrzymanie informacji o elementach konfiguracji i ich relacjach, stanach bazowych oraz zgodności modelu z rzeczywistością.\n\n**Przykład:** Zespół utrzymuje wiarygodny model elementów konfiguracji, ich wersji oraz zależności między usługą, aplikacją i serwerami.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby wiedzieć, z jakich elementów składa się usługa i co od czego zależy. Wtedy zmiany i naprawy są bezpieczniejsze.",
-  "jakDziala": "Ustalasz model konfiguracji i repozytorium z wersjami bazowymi. Utrzymujesz elementy konfiguracji i ich powiązania. Raportujesz stan i sprawdzasz, czy repozytorium zgadza się z rzeczywistością.",
+  "jakDziala": "Utrzymanie informacji o elementach konfiguracji i ich relacjach, stanach bazowych oraz zgodności modelu z rzeczywistością.",
   "dlaczegoWazne": "BAI10 mówi, jak elementy są ustawione i połączone. Spis i koszt aktywów to BAI09.",
   "przyklady": {
     "zycie": "Masz w szafce schemat instalacji elektrycznej: który bezpiecznik obsługuje kuchnię, a który łazienkę. Gdy elektryk dołoży gniazdko, dopisujesz je na schemacie. Przy awarii od razu wiesz, co wyłączyć.",
@@ -68,10 +68,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "BAI10 Zarządzanie konfiguracją"
+      "doc": "ENPROC",
+      "sekcja": "BAI10 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-bai10",

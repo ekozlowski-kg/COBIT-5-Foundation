@@ -1,6 +1,6 @@
 // Centrum egzaminacyjne: symulacja 50 pytań / 40 min, wynik w podziale na obszary PR/EN/IM/PC, analiza błędów.
 import * as C from '../content.js';
-import { esc } from '../md.js';
+import { esc, inline } from '../md.js';
 import { store } from '../store.js';
 import { renderExamQuestion, renderQuestion, correctIndex, trapStats, trapTable } from '../quiz.js';
 import { currentDay } from '../progress.js';
@@ -56,8 +56,11 @@ export async function renderExam(main) {
   // Plan dni zastąpił podręcznik krok po kroku – arkusz nie jest już blokowany dniem kursu.
   const sp1Locked = false;
   const authored = [...questions.values()].filter((q) => (q.typ === 'egzamin' || q.typ === 'studium') && !q.pretest && !q.final && q.opcje?.length === 4);
+  const content = await C.bundle();
+  const practiceSets = content.testy.zestawy;
+  const learningTopics = await topicParts();
   // §15 – finał: pytania z plików final-* (pliki, www, mistrz); odblokowanie po pierwszym podejściu do SP1.
-  const finalPool = [...questions.values()].filter((q) => q.final && (q.typ === 'egzamin' || q.typ === 'studium') && q.opcje?.length === 4);
+  const finalPool = [...questions.values()].filter((q) => q.trudnosc >= 2 && (q.typ === 'egzamin' || q.typ === 'studium') && q.opcje?.length === 4);
   // Bez arkusza (wersja do udostępnienia) finał odblokowuje się od razu.
   const sp1Done = () => !sample || store.get().exams.some((e) => e.name === 'Sample Paper 1');
   let sessionCleanup = null;
@@ -67,11 +70,21 @@ export async function renderExam(main) {
     main.innerHTML = `
       <div class="page">
         <h1>Centrum egzaminacyjne</h1>
-        <p class="page-lead">Jak egzamin komputerowy PeopleCert po polsku: 50 pytań, 4 odpowiedzi, jedna poprawna, jedno pytanie na ekranie, możliwość oznaczenia pytania do powrotu, 40 minut. Próg zaliczenia: 25/50; cel w próbnych egzaminach: co najmniej 35/50. Omówienie dopiero po zakończeniu.</p>
+        <p class="page-lead">${questions.size} sprawdzonych pytań autorskich. Nauka bez zegara, testy tematyczne i arkusze Foundation — wszystko rozwiążesz tutaj, z wyjaśnieniem każdej odpowiedzi, przykładem i powrotem do lekcji.</p>
+        <h2>Testy z pełną nauką i omówieniem</h2>
+        <p>W trybie nauki najpierw odpowiadasz, potem poznajesz uzasadnienie wszystkich opcji oraz zasadę COBIT 5. Na końcu możesz ponownie przećwiczyć błędy. Te same pytania są używane w lekcjach i arkuszach; nie tworzą osobnych kopii banku.</p>
+        <div class="grid grid-2">${practiceSets.map((set) => `<div class="card">
+          <h3 style="margin-top:0">${esc(set.tytul)}</h3><p class="small muted">${esc(set.opis)}</p>
+          <p>${set.pytania.length} pytań · ${Math.ceil(set.pytania.length * 0.8)} min w sprawdzianie</p>
+          <div class="btn-row"><button class="btn btn-primary" data-learn="${esc(set.id)}">Nauka z wyjaśnieniami</button><button class="btn" data-test="${esc(set.id)}">Rozwiąż test</button></div>
+        </div>`).join('')}</div>
+        <p class="small muted">Zestawy opracowano na podstawie publicznych źródeł COBIT 5. To pytania autorskie, a nie oficjalne arkusze ani kopie zewnętrznych banków. Materiały źródłowe służą weryfikacji; do nauki nie musisz opuszczać aplikacji.</p>
+        <h2>Próba egzaminacyjna</h2>
+        <p>Symulacja: 50 pytań jednokrotnego wyboru, 40 minut, historyczny próg Foundation 25/50. Cel treningowy kursu: 35/50. Omówienie wszystkich pytań otrzymasz po zakończeniu.</p>
         <p class="small muted" style="margin:-16px 0 24px">Historyczny sylabus przewiduje dodatkowy czas w określonych przypadkach; warunki i udogodnienia należy potwierdzić u operatora swojego egzaminu. Ta próba używa podstawowych 40 minut (sylabus PeopleCert v01.2, pkt 3.3). Sylabus v01.2 zawiera niespójny nawias „20 or more marks”; 50% z 50 to 25 punktów, zgodnie z instrukcją APMG do arkusza Foundation.</p>
         <label class="card" style="display:flex;gap:12px;align-items:flex-start;margin-bottom:16px;cursor:pointer">
-          <input type="checkbox" id="fullFlow" checked style="margin-top:4px">
-          <span><strong>Pełna procedura krok po kroku</strong><br><span class="small muted">Test systemu, logowanie, NDA, instrukcja, samouczek, zasady, dokument tożsamości, kontrola z proktorem, egzamin, ankieta i raport – w kolejności jak w dniu egzaminu online. Odznacz, żeby od razu przejść do pytań.</span></span>
+          <input type="checkbox" id="fullFlow" style="margin-top:4px">
+          <span><strong>Opcjonalny scenariusz organizacyjny egzaminu online</strong><br><span class="small muted">Przykładowe przygotowanie i formalności. Faktyczny przebieg zależy od operatora. Domyślnie przechodzisz bezpośrednio do pytań.</span></span>
         </label>
         <div class="grid grid-2">
           ${sample ? `<div class="card">
@@ -81,7 +94,7 @@ export async function renderExam(main) {
             <button class="btn ${sp1Locked ? '' : 'btn-primary'}" data-start="sample" ${sample ? '' : 'disabled'}>${sp1Locked ? 'Otwórz mimo blokady…' : 'Rozpocznij'}</button>
           </div>` : `<div class="card">
             <h3 style="margin-top:0">Oficjalny arkusz próbny</h3>
-            <p class="muted small">Arkusz próbny PeopleCert (Sample Paper) jest chroniony prawem autorskim, więc nie ma go w tej wersji aplikacji. Poproś o niego organizatora szkolenia albo ośrodek egzaminacyjny i rozwiąż go na papierze w 40 minut – to najlepszy niezależny pomiar.</p>
+            <p class="muted small">Oficjalny arkusz nie jest częścią publicznej puli. Powyższe testy autorskie są w całości dostępne w aplikacji, z omówieniem każdej opcji. Jeśli masz lokalny arkusz, aplikacja zachowuje jego osobną obsługę.</p>
           </div>`}
           <div class="card">
             <h3 style="margin-top:0">Próbny egzamin z pytań kursu</h3>
@@ -93,7 +106,7 @@ export async function renderExam(main) {
             ${authored.length < 10 ? '<p class="small muted">Pula zapełni się wraz z kolejnymi partiami treści.</p>' : ''}
           </div>
         </div>
-        <h2 class="section-title">Finał – „skrajnie biegły”</h2>
+        <h2 class="section-title">Dodatkowe utrwalenie</h2>
         <div class="grid grid-2">
           ${sample ? `<div class="card">
             <h3 style="margin-top:0">Sample Paper 1 – drugi raz, z omówieniem</h3>
@@ -102,7 +115,7 @@ export async function renderExam(main) {
           </div>` : ''}
           <div class="card">
             <h3 style="margin-top:0">Egzamin mistrzowski</h3>
-            <p class="muted small">50 trudniejszych pytań (z plików kursu, inspirowane źródłami z internetu i mistrzowskie), 40 minut, bez podpowiedzi. Próg: co najmniej 40/50 dwa razy z rzędu i każdy obszar ≥ 70%.</p>
+            <p class="muted small">Losowanie do 50 trudniejszych pytań z tej samej recenzowanej puli, 40 minut. Cel kursu: co najmniej 40/50 dwa razy z rzędu i każdy obszar ≥ 70%. To umowne kryterium treningowe, a nie wymaganie certyfikacyjne.</p>
             ${sp1Done() ? `<button class="btn btn-primary btn-lg" data-start="master" ${finalPool.length >= 10 ? '' : 'disabled'}>Rozpocznij (${Math.min(50, finalPool.length)} pytań)</button>${finalPool.length < 10 ? '<p class="small muted">Pytania finałowe są w przygotowaniu.</p>' : ''}` : '<p class="small">🔒 Odblokuje się po pierwszym podejściu do Sample Paper 1.</p>'}
           </div>
         </div>
@@ -113,6 +126,15 @@ export async function renderExam(main) {
           <span class="muted small">${esc(e.name)} · ${new Date(e.at).toLocaleString('pl-PL')} · ${e.minutes} min</span>
           <span class="muted small">${Object.entries(e.byArea).map(([a, r]) => `${a} ${r.ok}/${r.total}`).join(' · ')}</span></div>`).join('')}</div>` : '<p class="muted">Jeszcze nie było próbnego egzaminu.</p>'}
       </div>`;
+    const setQuestions = (id) => practiceSets.find((set) => set.id === id).pytania.map((qid) => questions.get(qid));
+    main.querySelectorAll('[data-learn]').forEach((button) => button.addEventListener('click', () => {
+      const set = practiceSets.find((x) => x.id === button.dataset.learn);
+      learn(setQuestions(set.id), set.tytul);
+    }));
+    main.querySelectorAll('[data-test]').forEach((button) => button.addEventListener('click', () => {
+      const set = practiceSets.find((x) => x.id === button.dataset.test);
+      run(setQuestions(set.id), Math.ceil(set.pytania.length * 0.8), set.tytul);
+    }));
     main.querySelectorAll('[data-start]').forEach((b) => b.addEventListener('click', () => {
       const mode = b.dataset.start;
       if (mode === 'sample') {
@@ -122,26 +144,61 @@ export async function renderExam(main) {
         }
         run(sample, 40, 'Sample Paper 1');
       }
-      else if (mode === 'sp1learn') sp1Learn();
+      else if (mode === 'sp1learn') learn(sample, 'Sample Paper 1');
       else if (mode === 'master') run(drawAuthored(finalPool, Math.min(50, finalPool.length)), 40, 'Egzamin mistrzowski');
       else if (mode === 'mini') run(drawAuthored(authored, 10), 8, 'Krótki próbny egzamin');
       else run(drawAuthored(authored, 50), 40, 'Próbny egzamin z pytań kursu');
     }));
   }
 
-  // §15.1 F1(a) – SP1 drugi raz: pytanie po pytaniu, w oryginalnej kolejności, z uzasadnieniem każdej odpowiedzi.
-  function sp1Learn() {
+  // Cały zestaw wewnątrz aplikacji: odpowiedź → wszystkie uzasadnienia → mini lekcja → powtórka błędów.
+  function learn(qs, name) {
     let k = 0;
-    const step = () => {
-      if (k >= sample.length) { lobby(); return; }
-      main.innerHTML = `<div class="page page-narrow"><p class="eyebrow">Sample Paper 1 z omówieniem · ${k + 1} z ${sample.length}</p><div id="sq"></div>
-        <div class="btn-row" style="margin-top:16px"><button class="btn btn-lg" id="sqBack">← Wstecz</button><button class="btn btn-primary btn-lg" id="sqNext">${k === sample.length - 1 ? 'Koniec →' : 'Dalej →'}</button></div>
-        <p style="margin-top:16px"><button class="btn" id="sqExit">Wróć do centrum egzaminacyjnego</button></p></div>`;
-      renderQuestion(document.getElementById('sq'), sample[k], { shuffle: false, record: false });
-      document.getElementById('sqNext').addEventListener('click', () => { k++; step(); });
-      document.getElementById('sqBack').addEventListener('click', () => { k = Math.max(0, k - 1); step(); });
-      document.getElementById('sqExit').addEventListener('click', lobby);
+    const answers = new Map();
+    const cards = new Map();
+    const backLink = (q) => {
+      const href = (learningTopics.byTopic[C.firstCode(q)] || [])[0];
+      return href ? `<a class="btn" href="podrecznik/${esc(href)}">Przeczytaj powiązaną lekcję</a>` : '';
     };
+    function finish() {
+      const wrong = qs.filter((q) => answers.get(q.id) === false);
+      main.innerHTML = `<div class="page page-narrow"><h1>Koniec nauki: ${esc(name)}</h1>
+        <p>Poprawnie: ${qs.length - wrong.length}/${qs.length}. To wynik ćwiczenia ze znanymi wyjaśnieniami.</p>
+        <div class="btn-row">${wrong.length ? `<button class="btn btn-primary" id="retryLearning">Przećwicz błędy (${wrong.length})</button>` : ''}<button class="btn" id="learningExit">Wybierz kolejny zestaw</button></div></div>`;
+      main.querySelector('#retryLearning')?.addEventListener('click', () => learn(wrong, name + ' — powtórka błędów'));
+      main.querySelector('#learningExit').addEventListener('click', lobby);
+      window.scrollTo(0, 0);
+    }
+    function step() {
+      if (k >= qs.length) { finish(); return; }
+      const q = qs[k];
+      main.innerHTML = `<div class="page page-narrow"><p class="eyebrow">${esc(name)} · ${k + 1} z ${qs.length}</p>
+        <h1 style="font-size:1.6rem">Nauka z wyjaśnieniami</h1><p class="small muted">Wybierz odpowiedź. Potem przeczytaj omówienie wszystkich czterech opcji i zasadę COBIT 5 poniżej.</p>
+        <div id="learningCard"></div><div class="btn-row" style="margin-top:20px">
+        <button class="btn" id="trainBack" ${k === 0 ? 'disabled' : ''}>← Wstecz</button>
+        <button class="btn btn-primary" id="trainNext" ${answers.has(q.id) ? '' : 'disabled'}>${k === qs.length - 1 ? 'Zakończ zestaw' : 'Dalej →'}</button>
+        <button class="btn" id="trainExit">Wróć do zestawów</button></div></div>`;
+      if (!cards.has(q.id)) {
+        const card = document.createElement('div');
+        const question = document.createElement('div');
+        const lesson = document.createElement('div');
+        lesson.hidden = true;
+        const guide = content.nauka[C.firstCode(q)];
+        lesson.innerHTML = `${guide ? `<div class="card" style="margin-top:20px"><h2 style="font-size:1.2rem">Zasada COBIT 5</h2><p>${inline(guide.zasada)}</p><h3>Przykład</h3><p>${inline(guide.przyklad)}</p><h3>Na co uważać</h3><p>${inline(guide.uwazaj)}</p></div>` : ''}<p>${backLink(q)}</p>`;
+        card.append(question, lesson);
+        renderQuestion(question, q, { record: true, onAnswered: (ok) => {
+          answers.set(q.id, ok);
+          lesson.hidden = false;
+          main.querySelector('#trainNext').disabled = false;
+        } });
+        cards.set(q.id, card);
+      }
+      main.querySelector('#learningCard').append(cards.get(q.id));
+      main.querySelector('#trainNext').addEventListener('click', () => { k++; step(); });
+      main.querySelector('#trainBack').addEventListener('click', () => { k--; step(); });
+      main.querySelector('#trainExit').addEventListener('click', lobby);
+      window.scrollTo(0, 0);
+    }
     step();
   }
 
@@ -197,7 +254,7 @@ export async function renderExam(main) {
           <div style="color:${passed ? 'var(--ok)' : 'var(--bad)'};font-weight:700;font-size:1.2rem">${passed ? 'ZDANY' : 'NIEZDANY'}</div>
           <div class="muted">${Math.round(pct * 100)}% · próg ${pass}/${qs.length} · cel treningowy ${target}/${qs.length}${score >= target ? ' – osiągnięty' : ''}</div>
           <div class="muted small">Czas: ${minutes} min</div>
-          <p class="small muted" style="margin:10px 0 0">Na prawdziwym egzaminie wynik pokazany od razu jest tymczasowy i podlega weryfikacji. Po potwierdzeniu przez proktora niszczysz notatki i zamykasz aplikację egzaminacyjną.</p>
+          <p class="small muted" style="margin:10px 0 0">To raport treningowy. Wynik znanych pytań nie jest niezależną prognozą wyniku certyfikacji.</p>
           <div class="btn-row" style="justify-content:center;margin-top:12px"><button class="btn" id="printRep">Drukuj (Print)</button><button class="btn" id="exportRep">Zapisz w pliku HTML (Export)</button></div>
         </div>
         <h2 style="font-size:1.2rem;margin-top:28px">Wynik w obszarach</h2>
@@ -211,11 +268,14 @@ export async function renderExam(main) {
         <div class="btn-row"><a class="btn btn-primary" href="#/poziom/trening">Trening słabych tematów</a><a class="btn" href="#/poziom">Mój poziom</a></div></div>` : ''}
         <h2 style="font-size:1.2rem;margin-top:28px">Które pułapki kosztowały punkty</h2>
         ${trapTable(trapStats(qs, answers), C.PULAPKI)}
-        <h2 style="font-size:1.2rem;margin-top:28px">Omówienie błędów (${wrong.length})</h2>
-        <div class="grid" id="wrongList">${wrong.map(({ i }) => `<div class="card"><div class="slide-kind" style="margin-bottom:6px">Pytanie ${i + 1}</div><div data-w="${i}"></div></div>`).join('') || '<p class="muted">Bez błędów!</p>'}</div>
-        <div class="btn-row" style="margin-top:20px"><button class="btn btn-primary" id="back">Centrum egzaminacyjne</button><a class="btn" href="#/powtorki">Powtórki</a></div>
+        <h2 style="font-size:1.2rem;margin-top:28px">Omówienie wszystkich pytań (${qs.length})</h2>
+        <p>Poprawna odpowiedź i wyjaśnienie każdej opcji są dostępne także dla pytań rozwiązanych dobrze.</p>
+        <div class="grid" id="wrongList">${qs.map((q, i) => `<details class="card" ${answers[i] !== correctIndex(q) ? 'open' : ''}><summary>Pytanie ${i + 1} · ${answers[i] === correctIndex(q) ? 'poprawnie' : answers[i] == null ? 'bez odpowiedzi' : 'błąd'}</summary><div data-w="${i}" style="margin-top:16px"></div></details>`).join('')}</div>
+        <div class="btn-row" style="margin-top:20px">${wrong.length ? `<button class="btn btn-primary" id="retryWrong">Nauka na błędach (${wrong.length})</button>` : ''}<button class="btn" id="learnAll">Cały test z mini lekcjami</button><button class="btn" id="back">Centrum egzaminacyjne</button><a class="btn" href="#/powtorki">Powtórki</a></div>
       </div>`;
-    wrong.forEach(({ q, i }) => renderExamQuestion(main.querySelector(`[data-w="${i}"]`), q, { selected: answers[i], reveal: true, backLink: back(q) }));
+    qs.forEach((q, i) => renderExamQuestion(main.querySelector(`[data-w="${i}"]`), q, { selected: answers[i], reveal: true, backLink: back(q) }));
+    main.querySelector('#retryWrong')?.addEventListener('click', () => learn(wrong.map(({ q }) => q), name + ' — błędy'));
+    main.querySelector('#learnAll').addEventListener('click', () => learn(qs, name));
     document.getElementById('back').addEventListener('click', lobby);
     document.getElementById('printRep').addEventListener('click', () => window.print());
     document.getElementById('exportRep').addEventListener('click', () => {

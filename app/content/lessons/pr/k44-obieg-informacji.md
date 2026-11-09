@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-15]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prb-44-1, q-prb-44-2, q-prb-44-3]
-zapas: [q-prb-44-z1]
+cwiczenia: ["q-prb-44-1", "q-mtk-11-1"]
+zapas: ["q-pr-11-02"]
 wprowadza: []
 wymaga: [pr-k43-czynnosci-edm-pbrm]
 cel: "Potrafię opisać obieg od potrzeb biznesowych do informacji zwrotnych i odróżnić monitorowanie w Ładzie od monitorowania w Zarządzaniu."

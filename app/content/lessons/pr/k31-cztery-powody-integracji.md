@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-11]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-31-1, q-pra-31-2, q-pra-31-3]
-zapas: [q-pra-31-z1]
+cwiczenia: ["q-pra-31-2", "q-pra-32-3"]
+zapas: ["q-pra-32-z1"]
 wprowadza: []
 wymaga: [pr-k30-zasada-3]
 cel: "Potrafię podać cztery powody, dla których COBIT 5 jest jedną zintegrowaną strukturą ramową."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-exk-10-1, q-exk-10-2, q-exk-10-3]
-zapas: [q-exk-10-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: []
 cel: "Potrafię przeczytać pytanie egzaminacyjne w trzech krokach: słowo-klucz, temat, eliminacja."

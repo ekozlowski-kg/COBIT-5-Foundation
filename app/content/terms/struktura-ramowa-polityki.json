@@ -80,7 +80,7 @@
     }
   ],
   "przykladWypowiedzi": "A policy framework, czyli struktura ramowa polityki, describes scope and validity, consequences of non-compliance, exception handling and compliance monitoring.",
-  "egzamin": "Struktura polityk musi opisywać: **zakres i ważność**, **konsekwencje niezgodności**, **obsługę wyjątków**, **sposób monitorowania zgodności**. Dystraktory: „podstawowe wartości” (zasady), „tabela RACI” (opis procesu), „autor polityki”.",
+  "egzamin": "Polskie nazwy mogą się różnić między przekładami. Porównuj sens i angielski oryginał; poprawny synonim nie staje się błędny przez samą formę tłumaczenia. Kurs nie potwierdza tu aktualnego brzmienia polskiego arkusza operatora.",
   "powiazane": [
     "zasady-polityki-struktury",
     "polityka",

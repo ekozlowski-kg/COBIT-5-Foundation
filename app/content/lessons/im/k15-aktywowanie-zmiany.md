@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-02-05]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-imk-15-1, q-imk-15-2, q-imk-15-3]
-zapas: [q-imk-15-z1]
+cwiczenia: ["q-fn-m-31", "q-fn-w-27"]
+zapas: ["q-spr-im-08"]
 wprowadza: [pierscien-zmiana]
 wymaga: [im-k14-trzy-pierscienie]
 cel: "Potrafię wyjaśnić, czym zajmuje się Aktywowanie zmiany i dlaczego nie wolno zakładać, że ludzie sami przyjmą zmianę."

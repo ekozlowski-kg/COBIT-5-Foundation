@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-02-05, IM-02-06, IM-02-07]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-mtk-22-1, q-mtk-22-2, q-mtk-22-3]
-zapas: [q-mtk-22-z1]
+cwiczenia: ["q-fn-m-31", "q-fn-w-27"]
+zapas: ["q-spr-im-08"]
 wprowadza: []
 wymaga: [mt-k21-wdrozenie-21-dzialan]
 cel: "Potrafię rozpisać jedną iterację wdrożenia na kalendarz i wyjaśnić regułę sześciu miesięcy oraz rolę audytu jako zdarzenia wyzwalającego."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-06, PR-02-14]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-27-1, q-m0k-27-2, q-m0k-27-3]
-zapas: [q-m0k-27-z1]
+cwiczenia: ["q-fn-w-05", "q-mtk-11-1"]
+zapas: ["q-mtk-12-1"]
 wprowadza: []
 wymaga: [m0-26-czynnosci-ladu-zarzadzania]
 cel: "Potrafię powiedzieć, że Ład to osobna dziedzina, a nie audyt, wyższy szczebel Zarządzania ani jego synonim."

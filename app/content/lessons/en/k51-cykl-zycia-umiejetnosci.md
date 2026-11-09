@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-22]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-51-1, q-enk-51-2, q-enk-51-3]
-zapas: [q-enk-51-z1]
+cwiczenia: ["q-enk-51-z1", "q-en-09-02"]
+zapas: ["q-en-09-05"]
 wprowadza: []
 wymaga: [en-k50-ludzie-cele]
 cel: "Potrafię opisać cykl życia umiejętności i dobrą praktykę wymagań umiejętności dla każdej roli."

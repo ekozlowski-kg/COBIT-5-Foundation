@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-20]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-46-1, q-enk-46-2, q-enk-46-3]
-zapas: [q-enk-46-z1]
+cwiczenia: ["q-en-08-01", "q-enk-47-1"]
+zapas: ["q-enk-47-3"]
 wprowadza: []
 wymaga: [en-k45-uslugi-zdolnosc]
 cel: "Potrafię odróżnić architekturę referencyjną, docelową i przejściową oraz wymienić dobre praktyki aktywatora Usługi, Infrastruktura i Aplikacje."
@@ -90,7 +90,7 @@ Punkty widzenia to różne sposoby pokazania architektury różnym interesariusz
 # Referencyjna to nie repozytorium referencyjne
 
 :::pulapka
-**Architektura referencyjna = bazowa** – podręcznik używa obu nazw (s. 85–86).
+Dobre praktyki usług obejmują poziomy usług, zasady architektury i jej definicję: architekturę bazową, docelową, analizę luk i architektury przejściowe. Przykładowe zasady to ponowne użycie, zakup zamiast budowy, zwinność, otwartość i prostota. Baseline architecture to architektura bazowa; nie należy utożsamiać jej z reference architecture.
 
 Nie myl jej z **repozytorium referencyjnym** ani z **modelem referencyjnym architektury**. To zbiory opisów, a nie stan obecny.
 :::

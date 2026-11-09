@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-13]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-enk-30-1, q-enk-30-2, q-enk-30-3]
-zapas: [q-enk-30-z1]
+cwiczenia: ["q-enk-30-2", "q-en-05-04"]
+zapas: ["q-enk-32-3"]
 wprowadza: [role-organizacyjne]
 wymaga: [en-k27-delegowanie-eskalacja]
 cel: "Potrafię dopasować role zarządu, CEO, CFO, COO, CRO, CIO i CISO do ich odpowiedzialności."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-02-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-imk-10-1, q-imk-10-2, q-imk-10-3]
-zapas: [q-imk-10-z1]
+cwiczenia: ["q-im-01-02", "q-imk-11-2"]
+zapas: ["q-imk-11-z1"]
 wprowadza: [czynniki-srodowiskowe]
 wymaga: []
 cel: "Potrafię wskazać czynniki środowiskowe, które organizacja musi uwzględnić w swoim planie wdrożenia COBIT 5."

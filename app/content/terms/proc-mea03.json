@@ -30,10 +30,10 @@
   "wyobrazSobie": "Przed wyjazdem za granicę sprawdzasz przepisy: winieta, apteczka, kamizelka. Potem patrzysz, czy masz to w aucie.",
   "skadNazwa": "Z angielskiego *Monitor, Evaluate and Assess Compliance with External Requirements*. *Compliance* to zgodność z wymogami narzuconymi z zewnątrz: prawem, regulacjami, umowami.",
   "poziom1": "Proces domeny [[mea]], który rozpoznaje wymogi zewnętrzne (prawo, regulacje, umowy) dotyczące IT, ocenia i potwierdza zgodność procesów IT i procesów biznesowych wspieranych przez IT oraz raportuje ją jako część ogólnej zgodności organizacji.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** rozpoznaje zewnętrzne wymogi prawne, regulacyjne i umowne, optymalizuje odpowiedź na nie (polityki, procedury), potwierdza zgodność, uzyskuje zapewnienie i raportuje, a luki przekazuje do naprawy.\n\n**Wejścia (intuicja):** przepisy i regulacje, umowy z partnerami i dostawcami, wyniki kontroli zewnętrznych.\n\n**Wyjścia (intuicja):** rejestr wymogów zewnętrznych, raport zgodności, lista luk i działań naprawczych.\n\n**Współpracuje z:** [[proc-mea02]] (czy mechanizmy kontrolne pozwalają spełnić wymogi), [[proc-mea01]] (raportowanie), domeną [[edm]] (wytyczne zgodności od organu Ładu), funkcją „Zgodność” z il. 33.",
+  "poziom2": "**Cel i zakres:** identyfikowanie i ocenianie zgodności z zewnętrznymi wymaganiami prawnymi, regulacyjnymi i kontraktowymi.\n\n**Przykład:** Organizacja identyfikuje obowiązujące wymogi prawne i umowne, ocenia zgodność IT oraz raportuje wyniki i działania naprawcze.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL, s. 59): *„Proces MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi w metodyce COBIT 5 ułatwia identyfikację zewnętrznych regulacji, umożliwia dyrektorom określenie wytycznych dotyczących zgodności”*, a także *„zapewnia monitorowanie, ocenę i raportowanie zgodności IT w ramach ogólnej zgodności z wymogami przedsiębiorstwa”*. Il. 33 (s. 76), funkcja „Zgodność”: *„Funkcja w przedsiębiorstwie odpowiedzialna za wytyczne dotyczące zgodności z wymogami prawnymi, regulacyjnymi i wynikającymi z umów.”* Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby organizacja spełniała prawo, regulacje i umowy, które dotyczą IT. I żeby umiała to wykazać.",
-  "jakDziala": "Rozpoznajesz wymogi zewnętrzne: prawo, regulacje, umowy. Dostosowujesz do nich polityki i procesy. Potwierdzasz zgodność, uzyskujesz na nią zapewnienie i raportujesz wynik.",
+  "jakDziala": "Identyfikowanie i ocenianie zgodności z zewnętrznymi wymaganiami prawnymi, regulacyjnymi i kontraktowymi.",
   "dlaczegoWazne": "MEA03 dotyczy wymogów z zewnątrz. Sprawdzanie wewnętrznych mechanizmów kontrolnych to MEA02.",
   "przyklady": {
     "zycie": "Wynajmujesz mieszkanie. Sprawdzasz, co mówią przepisy (zgłoszenie najmu, podatek) i co jest w umowie z najemcą (kaucja, termin wypowiedzenia). Raz w roku sprawdzasz, czy wszystko się zgadza, zanim przyjdzie urząd skarbowy.",
@@ -70,26 +70,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "MEA03 Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 59,
-      "cytat": "ułatwia identyfikację zewnętrznych regulacji, umożliwia dyrektorom określenie wytycznych dotyczących zgodności"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 59,
-      "cytat": "zapewnia monitorowanie, ocenę i raportowanie zgodności IT w ramach ogólnej zgodności z wymogami przedsiębiorstwa"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 76,
-      "ilustracja": "33",
-      "cytat": "Funkcja w przedsiębiorstwie odpowiedzialna za wytyczne dotyczące zgodności z wymogami prawnymi, regulacyjnymi i wynikającymi z umów."
+      "doc": "ENPROC",
+      "sekcja": "MEA03 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-mea03",

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-10-1, q-enk-10-2, q-enk-10-3]
-zapas: [q-enk-10-z1]
+cwiczenia: ["q-enk-10-3", "q-en-01-luka-1"]
+zapas: ["q-skr-zasady-polityki-struktury-1"]
 wprowadza: [zasady-polityki-struktury]
 wymaga: []
 cel: "Potrafię powiedzieć, po co organizacji pierwszy aktywator i czym różnią się jego trzy warstwy."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-12-1, q-pra-12-2, q-pra-12-3]
-zapas: [q-pra-12-z1]
+cwiczenia: ["q-pra-10-z1", "q-pak-T04Q08"]
+zapas: ["q-pra-10-2"]
 wprowadza: [zasada-4, zasada-5]
 wymaga: [pr-k11-zasady-1-3]
 cel: "Potrafię powiedzieć w jednym zdaniu, o czym są zasady 4 i 5, i odróżnić je od siebie."

@@ -65,7 +65,7 @@
   "mentor": {
     "czestyBlad": "Wrzucanie EDM do PBRM albo MEA do Ładu, bo w obu jest słowo „monitoruj”.",
     "jakTlumaczyc": "Narysuj dwa piętra: na górze Ład (jedna domena EDM), na dole Zarządzanie. Dopiero potem podziel dolne piętro na cztery szuflady P-B-R-M i przypisz im APO, BAI, DSS, MEA z liczbami 13/10/6/3. Analogia: dom – zaplanuj, zbuduj, mieszkaj, rób przeglądy.",
-    "pytanieKontrolne": "Dlaczego MEA nie należy do Ładu, skoro coś monitoruje? Jak brzmią cztery obszary PBRM na egzaminie PL?",
+    "pytanieKontrolne": "Dlaczego MEA nie należy do Ładu, skoro coś monitoruje? Jak brzmią cztery obszary PBRM w polskim zapisie kursu?",
     "odpowiedzKontrolna": "MEA jest domeną Zarządzania: monitoruje działanie i zgodność procesów w ramach pracy kierownictwa. Ład to tylko EDM (Oszacuj, Kieruj, Monitoruj), gdzie monitorowanie oznacza sprawdzanie, czy kierunek jest realizowany. Obszary: Planuj (APO), Twórz (BAI), Wykonuj (DSS), Monitoruj (MEA)."
   },
   "nieMylicZ": [

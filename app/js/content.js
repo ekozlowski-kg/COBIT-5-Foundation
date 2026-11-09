@@ -79,7 +79,7 @@ export async function questions() {
       if (q.typ === 'mapa') { const mq = materializeMapQ(q, m); if (mq) map.set(q.id, { ...mq, pochodzenie: 'autorskie' }); }
       else map.set(q.id, { ...q, pochodzenie: 'autorskie' });
     }
-    for (const q of await mapQuestions()) if (!map.has(q.id)) map.set(q.id, { ...q, pochodzenie: 'wygenerowane' });
+    // Jedna recenzowana pula. Nie dopisuj nieprzejrzanych pytań generowanych ze słownika.
     b._questions = map;
   }
   return b._questions;

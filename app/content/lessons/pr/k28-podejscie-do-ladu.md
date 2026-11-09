@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-08]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pra-28-1, q-pra-28-2, q-pra-28-3]
-zapas: [q-pra-28-z1]
+cwiczenia: ["q-pra-28-1", "q-pra-28-2"]
+zapas: ["q-fn-m-05"]
 wprowadza: [system-ladu, zakres-ladu, role-dzialania-relacje]
 wprowadzaListe: [komponent-cel-ladu, aktywatory-ladu]
 wymaga: [pr-k27-zasada-2]

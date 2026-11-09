@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-13-1, q-pra-13-2, q-pra-13-3]
-zapas: [q-pra-13-z1]
+cwiczenia: ["q-pra-10-z1", "q-pak-T04Q08"]
+zapas: ["q-pra-10-2"]
 wprowadza: []
 wymaga: [pr-k12-zasady-4-5]
 cel: "Potrafię rozpoznać zasadę COBIT 5 po słowie-kluczu w opisie sytuacji i odróżnić zasadę 2 od zasady 4."

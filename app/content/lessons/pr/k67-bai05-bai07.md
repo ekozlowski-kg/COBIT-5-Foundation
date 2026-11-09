@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-prc-67-1, q-prc-67-2, q-prc-67-3]
-zapas: [q-prc-67-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-bai05, proc-bai06, proc-bai07]
 wymaga: [pr-k66-bai03-bai04]
 cel: "Potrafię przypisać sytuację ze słowem „zmiana” do właściwego procesu: ludzie (BAI05), zgoda na zmianę w systemie (BAI06) albo odbiór i przejście (BAI07)."

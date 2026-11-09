@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-02-03]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-imk-20-1, q-imk-20-2, q-imk-20-3]
-zapas: [q-imk-20-z1]
+cwiczenia: ["q-imk-20-2", "q-im-05-04"]
+zapas: ["q-fn-w-25"]
 wprowadza: [uzasadnienie-biznesowe]
 wymaga: [im-k19-rysunek-17]
 cel: "Potrafię wyjaśnić, czym jest uzasadnienie biznesowe, komu służy i dlaczego inicjatywa potrzebuje sponsora."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-14]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prb-42-1, q-prb-42-2, q-prb-42-3]
-zapas: [q-prb-42-z1]
+cwiczenia: ["q-prb-42-3", "q-fn-w-05"]
+zapas: ["q-mtk-11-1"]
 wprowadza: []
 wymaga: [pr-k41-wskazniki-opoznione-wiodace]
 cel: "Potrafię powiedzieć, czym według zasady 5 różnią się Ład i Zarządzanie i kto w organizacji za nie odpowiada."
@@ -55,9 +55,9 @@ Podręcznik podaje trzy różnice. Inne działania, inne struktury organizacyjne
 |---|---|---|
 | pyta | co i po co? | jak i kiedy? |
 | robi | ocenia, ustala priorytety, sprawdza kierunek | planuje, buduje, uruchamia, monitoruje |
-| kto | zarząd z prezesem | kadra zarządzająca z dyrektorem generalnym (*CEO*) |
+| kto | organ Ładu z przewodniczącym | kadra zarządzająca z dyrektorem generalnym (*CEO*) |
 
-> „W większości przedsiębiorstw za nadzór odpowiada zarząd pod przywództwem prezesa”
+Parafraza COBIT 5 EN: Ład zwykle sprawuje board pod przewodnictwem chairperson; nie jest to automatycznie polski zarząd pod prezesem.
 
 :::zrodlo FW-PL 31
 :::
@@ -122,7 +122,7 @@ To ta sama zasada w dwóch tłumaczeniach. W podręczniku Governance to „nadz�
 **Wniosek:** zasada 5 rozdziela Ład i Zarządzanie, bo mają inne działania, inne struktury organizacyjne i inne cele.
 
 :::zapamietaj
-- Ład – co i po co; zarząd z prezesem.
+- Ład – co i po co; organ Ładu z przewodniczącym.
 - Zarządzanie – jak i kiedy; kadra z dyrektorem generalnym.
 - Decyduje czynność, a nie stanowisko.
 :::

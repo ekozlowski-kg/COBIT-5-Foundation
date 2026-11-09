@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-prc-62-1, q-prc-62-2, q-prc-62-3]
-zapas: [q-prc-62-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-apo05, proc-apo06, proc-apo07]
 wymaga: [pr-k61-apo03-apo04]
 cel: "Potrafię odróżnić wybór inwestycji (APO05) od liczenia kosztów (APO06) i pracy z ludźmi IT (APO07) oraz od prowadzenia projektu (BAI01)."
@@ -43,7 +43,7 @@ To trzy różne prace. Wybór, na co wydać pieniądze. Pilnowanie, ile już wyd
 :::
 
 :::wykladowca
-APO05 to portfel. Organizacja ma więcej pomysłów niż pieniędzy, więc wybiera i układa zestaw inwestycji. Podręcznik mówi, że chodzi o realizację korzyści i optymalizację kosztów. To jedyny proces w tej lekcji, którego nazwę egzaminacyjną potwierdziliśmy w arkuszu: „Zarządzanie Portfelem”.
+APO05 to portfel. Organizacja ma więcej pomysłów niż pieniędzy, więc wybiera i układa zestaw inwestycji. Podręcznik mówi, że chodzi o realizację korzyści i optymalizację kosztów. To jedyny proces w tej lekcji, którego nazwę stosowaną w kursie potwierdziliśmy w arkuszu: „Zarządzanie Portfelem”.
 :::
 
 ---

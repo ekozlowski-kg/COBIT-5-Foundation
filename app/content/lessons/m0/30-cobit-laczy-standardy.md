@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-07]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-30-1, q-m0k-30-2, q-m0k-30-3]
-zapas: [q-m0k-30-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [m0-27-lad-czym-nie-jest]
 cel: "Potrafię wyjaśnić, że COBIT 5 łączy inne standardy w jedną ramę, a nie je zastępuje."

@@ -21,10 +21,10 @@
   "poLudzku": "Coś może pójść źle; liczy się, jak bardzo jest to prawdopodobne i jak bardzo zaboli.",
   "wyobrazSobie": "Jak decyzja o parasolu: patrzysz, jak bardzo prawdopodobny jest deszcz i jak bardzo byś zmókł, i dopiero z tych dwóch rzeczy wynika, czy go wziąć.",
   "poCo": "Żeby z wyprzedzeniem widzieć, co może pójść źle i jak bardzo by zaszkodziło, i świadomie decydować, czemu zapobiegać, a co zaakceptować.",
-  "jakDziala": "Ryzyko (risk) to połączenie prawdopodobieństwa zdarzenia i jego konsekwencji. Dotyczy przyszłości. Dopowiedzenie kursu (interpretacja, nie definicja z s. 93): gdy zdarzenie już nastąpiło, mówimy raczej o problemie albo incydencie. Ład ustala apetyt na ryzyko (risk appetite), czyli ile ryzyka organizacja jest gotowa przyjąć (EDM03, Zapewnienie optymalizacji ryzyka), a Zarządzanie identyfikuje, ocenia i ogranicza ryzyka w tych granicach (APO12, Zarządzanie ryzykiem).",
+  "jakDziala": "Ryzyko to połączenie prawdopodobieństwa zdarzenia i jego konsekwencji. Zaistniałe przerwanie usługi jest incydentem; problem w zarządzaniu usługami oznacza przyczynę jednego lub wielu incydentów. Zdarzenie nie usuwa ryzyka jego nawrotu lub dalszych skutków. Ład ustala apetyt i tolerancję, a Zarządzanie identyfikuje, analizuje i obsługuje ryzyko w tych granicach.",
   "dlaczegoWazne": "Optymalizacja ryzyka to jeden z trzech składników celu Ładu (tworzenie wartości), więc ryzyko pojawia się w pytaniach o zasadę 1 i cele Ładu. Przy wdrożeniu egzamin pyta o apetyt na ryzyko jako czynnik środowiskowy.",
   "poziom1": "Coś, co może się wydarzyć, razem z tym, jak bardzo jest prawdopodobne i jak duże będą skutki (np. „może padać w dniu wesela”). Jeśli to już się stało, to w ujęciu kursu nie jest ryzyko, tylko problem albo incydent.",
-  "poziom2": "Ryzyko ma dwa składniki: **prawdopodobieństwo** zdarzenia i jego **konsekwencje**. Ryzyko dotyczy przyszłości – czegoś, co *może* się stać. Interpretacja kursu (nie część definicji z s. 93): gdy zdarzenie już nastąpiło, mamy problem lub incydent, a nie ryzyko.",
+  "poziom2": "Ryzyko to połączenie prawdopodobieństwa zdarzenia i jego konsekwencji. Zaistniałe przerwanie usługi jest incydentem; problem w zarządzaniu usługami oznacza przyczynę jednego lub wielu incydentów. Zdarzenie nie usuwa ryzyka jego nawrotu lub dalszych skutków. Ład ustala apetyt i tolerancję, a Zarządzanie identyfikuje, analizuje i obsługuje ryzyko w tych granicach.",
   "poziom3": "Definicja (Załącznik H): *„Połączenie prawdopodobieństwa zdarzenia i jego konsekwencji (ISO/IEC 73).”*",
   "przyklady": {
     "zycie": "Planujecie wesele w ogrodzie w lipcu. Deszcz jest dość prawdopodobny, a skutek byłby duży – goście mokną, tort się rozpływa – więc rezerwujecie namiot. Ryzyko to ta możliwość deszczu razem z jej skutkami; jeśli w dniu wesela leje, macie już problem, a nie ryzyko.",
@@ -40,16 +40,12 @@
   },
   "zagmatwania": [
     {
-      "mit": "Ryzyko to zagrożenie.",
-      "prawda": "Zagrożenie to źródło (np. burza). Ryzyko łączy prawdopodobieństwo zdarzenia z jego konsekwencjami."
+      "mit": "Każde zdarzenie, które już nastąpiło, jest problemem DSS03.",
+      "prawda": "Problem oznacza przyczynę incydentów, a nie każde zaistniałe zdarzenie."
     },
     {
-      "mit": "Awaria, która już się wydarzyła, nadal jest ryzykiem.",
-      "prawda": "Gdy zdarzenie nastąpiło, mamy incydent lub problem (interpretacja kursu, nie definicja z s. 93). Ryzyko dotyczy tego, co może się wydarzyć."
-    },
-    {
-      "mit": "Optymalizacja ryzyka to usunięcie ryzyka.",
-      "prawda": "Optymalizacja to utrzymanie ryzyka na akceptowalnym poziomie, w równowadze z korzyściami i kosztem."
+      "mit": "Optymalizacja ryzyka oznacza wyeliminowanie go za wszelką cenę.",
+      "prawda": "Ryzyko optymalizuje się wobec korzyści i zasobów, zgodnie z akceptowalnym poziomem."
     }
   ],
   "mentor": {

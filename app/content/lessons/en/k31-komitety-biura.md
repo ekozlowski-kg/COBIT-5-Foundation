@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-13]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-31-1, q-enk-31-2, q-enk-31-3]
-zapas: [q-enk-31-z1]
+cwiczenia: ["q-en-05-04", "q-enk-30-2"]
+zapas: ["q-enk-32-3"]
 wprowadza: []
 wymaga: [en-k30-role-c-level]
 cel: "Potrafię odróżnić komitety z Rysunku 33 i wiem, czym różni się PMO od VMO."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-exk-22-1, q-exk-22-2, q-exk-22-3]
-zapas: [q-exk-22-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k21-nazwy-egzaminacyjne]
 cel: "Potrafię powiedzieć, jak przebiega egzamin COBIT 5 Foundation, i przygotować się do niego dzień wcześniej i rano."

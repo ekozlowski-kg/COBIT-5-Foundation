@@ -111,7 +111,7 @@
   "mentor": {
     "czestyBlad": "Uczeń sądzi, że pierścień wewnętrzny to „techniczna część” wdrożenia, którą można skończyć jak projekt.",
     "jakTlumaczyc": "Narysuj spiralę zamiast koła: każda iteracja wraca do fazy 1, ale na wyższym poziomie. Spirala nie ma końca.",
-    "pytanieKontrolne": "Który komponent cyklu wdrożenia podręcznik opisuje słowami „nie jest to projekt jednorazowy”? Podaj nazwę egzaminacyjną.",
+    "pytanieKontrolne": "Który komponent cyklu wdrożenia podręcznik opisuje słowami „nie jest to projekt jednorazowy”? Podaj nazwę stosowaną w kursie.",
     "odpowiedzKontrolna": "**Główny cykl życia ciągłego doskonalenia** (pierścień wewnętrzny). Podręcznik: „Podstawowy cykl życia ciągłego doskonalenia”."
   }
 }

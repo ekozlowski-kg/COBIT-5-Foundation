@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-02, PR-02-02]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-13-1, q-m0k-13-2, q-m0k-13-3]
-zapas: [q-m0k-13-z1]
+cwiczenia: ["q-fn-m-03", "q-pra-17-z1"]
+zapas: []
 wprowadza: [potrzeba]
 wymaga: [m0-12-rozne-oczekiwania]
 cel: "Potrafię odróżnić potrzebę interesariusza od prośby o konkretne rozwiązanie."

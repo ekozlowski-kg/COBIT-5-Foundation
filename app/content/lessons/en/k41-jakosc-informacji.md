@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-17]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-enk-41-1, q-enk-41-2, q-enk-41-3]
-zapas: [q-enk-41-z1]
+cwiczenia: ["q-enk-41-3", "q-enk-41-z1"]
+zapas: ["q-fin-pliki-18"]
 wprowadza: [jakosc-informacji]
 wymaga: [en-k40-informacja-cykl]
 cel: "Potrafię przypisać kryterium jakości informacji do jednego z trzech podwymiarów."

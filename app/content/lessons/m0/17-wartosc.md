@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-03]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-m0k-17-1, q-m0k-17-2, q-m0k-17-3]
-zapas: [q-m0k-17-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [m0-16-rezultat-korzysc]
 cel: "Potrafię powiedzieć, że wartość to korzyści osiągnięte przy optymalnym ryzyku i optymalnym zużyciu zasobów."

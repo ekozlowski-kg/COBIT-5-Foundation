@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prb-49-1, q-prb-49-2, q-prb-49-3]
-zapas: [q-prb-49-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: []
 wymaga: [pr-k48-piec-procesow-edm]
 cel: "Potrafię wymienić cztery domeny Zarządzania z egzaminacyjną nazwą i liczbą procesów."

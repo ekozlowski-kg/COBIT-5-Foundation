@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-12, PR-02-13, EN-02-17]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-mtk-16-1, q-mtk-16-2, q-mtk-16-3]
-zapas: [q-mtk-16-z1]
+cwiczenia: ["q-pra-36-3", "q-pra-37-3"]
+zapas: ["q-fn-m-14"]
 wprowadza: []
 wymaga: [mt-k15-incydent-siedem-aktywatorow]
 cel: "Potrafię przypisać przyczynę z pogranicza dwóch aktywatorów, pytając, co dokładnie zawiodło."

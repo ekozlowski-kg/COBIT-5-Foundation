@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-07]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-24-1, q-pra-24-2, q-pra-24-3]
-zapas: [q-pra-24-z1]
+cwiczenia: ["q-pak-T01Q04", "q-pra-25-3"]
+zapas: ["q-pr-05-03"]
 wprowadza: []
 wymaga: [pr-k23-relacje-p-s]
 cel: "Potrafię podać dwa cele Kaskady Celów i jej korzyści dla organizacji."

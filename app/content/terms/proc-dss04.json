@@ -26,10 +26,10 @@
   "wyobrazSobie": "Masz w szufladzie latarkę, zapas wody i numer do sąsiada. Raz w roku sprawdzasz, czy baterie działają.",
   "skadNazwa": "Z angielskiego *Manage Continuity*. Chodzi o ciągłość działania organizacji (*business continuity*), a nie tylko o odtworzenie serwera.",
   "poziom1": "Proces domeny [[dss]], który tworzy i utrzymuje plan, dzięki któremu organizacja i IT reagują na poważne zakłócenia i utrzymują krytyczne procesy biznesowe, usługi IT i dostęp do informacji na akceptowalnym poziomie. Obejmuje strategię, kopie zapasowe, ćwiczenia, szkolenia i przegląd po zdarzeniu.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** ustala zakres i strategię ciągłości (co jest krytyczne i jak szybko trzeba to odtworzyć), tworzy plany, ćwiczy je i testuje, szkoli ludzi, utrzymuje kopie zapasowe, a po zdarzeniu robi przegląd i poprawia plan.\n\n**Wejścia (intuicja):** analiza ryzyka (APO12), krytyczne procesy i usługi, wymagania dostępności ([[proc-bai04]]).\n\n**Wyjścia (intuicja):** plan ciągłości, wyniki ćwiczeń, kopie zapasowe, raport z przeglądu po zdarzeniu.\n\n**Współpracuje z:** APO12 (ryzyko), [[proc-bai04]] (codzienna dostępność), [[proc-dss02]] (incydent, który przeradza się w poważne zakłócenie), [[proc-dss01]] (środowisko i zaplecze).",
+  "poziom2": "**Cel i zakres:** ustanowienie i utrzymanie ciągłości działania oraz odtwarzania usług przy zakłóceniach, na podstawie potrzeb biznesu.\n\n**Przykład:** Organizacja ustala wymagania ciągłości, przygotowuje i testuje plany odtworzenia oraz utrzymuje zdolność działania podczas zakłóceń.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL). Słownik (s. 89), „Ciągłość działalności biznesowej”: *„Zapobieganie zakłóceniom działalności, łagodzenie ich skutków i odtwarzanie.”* Il. 33 (s. 77): kierownik ds. ciągłości dba *„o ciągłość działania funkcji krytycznych w przedsiębiorstwie po zdarzeniach powodujących zakłócenia”*. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby najważniejsze sprawy działały nawet po poważnym zakłóceniu. Plan powstaje, zanim coś się stanie.",
-  "jakDziala": "Określasz politykę, zakres i strategię ciągłości. Tworzysz plan reagowania i dbasz o kopie zapasowe. Ćwiczysz plan, szkolisz ludzi, a po zdarzeniu robisz przegląd i poprawiasz plan.",
+  "jakDziala": "Ustanowienie i utrzymanie ciągłości działania oraz odtwarzania usług przy zakłóceniach, na podstawie potrzeb biznesu.",
   "dlaczegoWazne": "Pojedyncza awaria to DSS02, a poważne zakłócenie działania organizacji to DSS04. Samo ryzyko IT ocenia i prowadzi APO12.",
   "przyklady": {
     "zycie": "Masz w szafce latarkę, zapas wody, powerbank i listę telefonów na kartce. Zapasowy klucz leży u sąsiada, a zdjęcia rodzinne mają kopię w chmurze. Raz w roku sprawdzasz, czy latarka świeci. To plan ciągłości w domowej skali.",
@@ -66,26 +66,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "DSS04 Zarządzanie ciągłością"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 89,
-      "cytat": "Zapobieganie zakłóceniom działalności, łagodzenie ich skutków i odtwarzanie."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 77,
-      "ilustracja": "33",
-      "cytat": "o ciągłość działania funkcji krytycznych w przedsiębiorstwie po zdarzeniach powodujących zakłócenia"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 60,
-      "cytat": "podzbiór procesów w domenie DSS"
+      "doc": "ENPROC",
+      "sekcja": "DSS04 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-dss04",
@@ -96,16 +79,8 @@
   },
   "zagmatwania": [
     {
-      "mit": "Ciągłość to sprawa informatyków: odtworzyć serwer z kopii.",
-      "prawda": "DSS04 obejmuje ciągłość krytycznych procesów biznesowych, np. ręczną rejestrację pacjentów, gdy system nie działa."
-    },
-    {
-      "mit": "Wystarczy mieć plan.",
-      "prawda": "Plan trzeba ćwiczyć, testować, szkolić ludzi i poprawiać po każdym zdarzeniu."
-    },
-    {
-      "mit": "DSS04 i BAI04 to to samo, bo oba dbają o dostępność.",
-      "prawda": "BAI04 planuje dostępność w normalnym działaniu i w szczycie. DSS04 przygotowuje przetrwanie poważnych zakłóceń."
+      "mit": "DSS04 jest potrzebny tylko podczas katastrofy.",
+      "prawda": "Ciągłość dotyczy istotnych zakłóceń działania zgodnie z potrzebami biznesowymi. DSS02 i DSS04 mogą działać równolegle przy poważnym incydencie."
     }
   ],
   "mentor": {

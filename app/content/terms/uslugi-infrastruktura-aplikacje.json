@@ -24,11 +24,11 @@
   "poLudzku": "Sprzęt, sieć, programy i usługi, na których stoi cała informatyka.",
   "wyobrazSobie": "Kuchnia restauracji: piec i lodówka to infrastruktura, program do zamówień to aplikacja, a danie podane gościowi na czas to usługa.",
   "poCo": "Żeby nazwać i świadomie prowadzić techniczną podstawę IT: sprzęt, sieć, programy i usługi, z których korzystają procesy organizacji.",
-  "jakDziala": "To aktywator 6, który daje organizacji zdolności usługowe (service capabilities): infrastrukturę, aplikacje i usługi IT. Procesy korzystają z tych usług, a cel to usługi i poziomy usług (service levels) najbardziej ekonomiczne dla organizacji. Rozwój opisują architektury: referencyjna (baseline, stan obecny), przejściowa (transition) i docelowa (target), a kierują nim zasady architektury (architecture principles).",
-  "dlaczegoWazne": "To jeden z 7 aktywatorów z zasady 4 (Aktywacja holistycznego podejścia). Egzamin pyta, że informacja też jest jedną ze zdolności usługowych, i łapie na pomyleniu architektury referencyjnej (stan obecny) z docelową.",
+  "jakDziala": "Baseline architecture to architektura bazowa opisująca stan obecny. Docelowa opisuje przyszły stan, a przejściowa etapy pośrednie. Reference architecture jest wzorcem referencyjnym i nie jest synonimem architektury bazowej.",
+  "dlaczegoWazne": "Dobre praktyki usług obejmują poziomy usług, zasady architektury i jej definicję: architekturę bazową, docelową, analizę luk i architektury przejściowe. Przykładowe zasady to ponowne użycie, zakup zamiast budowy, zwinność, otwartość i prostota.",
   "skadNazwa": "Angielskie *service capabilities* egzamin tłumaczy jako „zdolność usługowa”, a podręcznik jako „zdolność do świadczenia usług”.",
   "poziom1": "Sprzęt, sieć i programy, dzięki którym w ogóle da się korzystać z IT – razem tworzą tzw. zdolności usługowe (np. serwer, Wi-Fi, system księgowy i działająca na nich usługa poczty 24/7).",
-  "poziom2": "Cele: usługi i **poziomy usług** najbardziej ekonomiczne dla organizacji. Cykl życia opisują **architektury**: **referencyjna** (stan obecny, bazowa), **docelowa** (przyszła) i **przejściowa** (etapy pośrednie). Dobre praktyki: **pryncypia architektury**, punkty widzenia architektury, **repozytorium architektury**, zdefiniowane **poziomy usług**. Zewnętrzne dobre praktyki to m.in. TOGAF i ITIL.\n\nPowiązania (s. 86): **informacja jest jedną ze zdolności usługowych**; zdolności te wykorzystuje się poprzez **procesy**, by świadczyć usługi wewnętrzne i zewnętrzne; kultura ukierunkowana na usługi; wejścia i wyjścia praktyk mogą obejmować zdolności usługowe.",
+  "poziom2": "Baseline architecture to architektura bazowa opisująca stan obecny. Docelowa opisuje przyszły stan, a przejściowa etapy pośrednie. Reference architecture jest wzorcem referencyjnym i nie jest synonimem architektury bazowej.",
   "poziom3": "(s. 85): *„Zdolność do świadczenia usług odnosi się do zasobów takich jak aplikacje oraz infrastruktura, które wykorzystuje się do świadczenia usług związanych z IT.”*",
   "przyklady": {
     "zycie": "W domu masz router, laptopa i aplikację, która sama wrzuca zdjęcia z telefonu do chmury. Router i laptop to infrastruktura, aplikacja do zdjęć to aplikacja, a „zdjęcia same się zapisują i każdy w rodzinie je widzi” to usługa. Gdy planujecie wymianę routera, macie stan obecny i docelowy – to już myślenie architekturą.",
@@ -39,33 +39,29 @@
   },
   "glebokosc": {
     "prosty": "Żeby w domu działał internet, potrzebujesz routera, kabla od operatora i przeglądarki w telefonie. Sam router nic Ci nie daje – liczy się to, że wieczorem możesz obejrzeć film. Sprzęt i programy są po to, żeby była z nich usługa, z której korzystasz.",
-    "zaawansowany": "System powiadamiania klientów banku to aplikacja, serwer w centrum danych i sieć to infrastruktura, a „powiadomienie o podejrzanej transakcji jednym kliknięciem” to usługa. Dyrektor IT spisuje stan obecny (architektura referencyjna), stan docelowy po modernizacji i etap przejściowy, gdy stara bramka SMS działa równolegle z nową. Z dostawcą usług chmurowych ustala poziom usług: powiadomienie ma dotrzeć w 40 sekund. Sama usługa nie wystarczy: numer jednego z klientów w bazie był nieaktualny, a to sprawa aktywatora [[informacja]], który zresztą Framework też zalicza do zdolności usługowych. Z usługi korzysta [[proces]] obsługi powiadomień.",
-    "skrajny": "Dyrektor IT pisze w dokumencie: „Architektura referencyjna: wzorcowy model, do którego dążymy”. Intuicja podpowiada, że „referencyjna” znaczy „wzorcowa”, i tak bywa w wielu publikacjach o architekturze. W polskim Frameworku COBIT 5 jest inaczej: aktualną zdolność usługową opisuje architektura referencyjna (bazowa), przyszłą – docelowa, a etapy pośrednie – przejściowa (s. 85). Dyrektor pomylił więc stan obecny z docelowym. Druga pułapka: informacja jest osobnym aktywatorem (nr 5), a jednocześnie Framework nazywa ją jedną ze zdolności usługowych (s. 86). **Rozstrzygnięcie:** w COBIT 5 PL referencyjna = obecna (bazowa), docelowa = przyszła, przejściowa = etapy po drodze; informacja może być poprawną odpowiedzią na pytanie o zdolności usługowe, choć ma własną kategorię aktywatora."
+    "zaawansowany": "Baseline architecture to architektura bazowa opisująca stan obecny. Docelowa opisuje przyszły stan, a przejściowa etapy pośrednie. Reference architecture jest wzorcem referencyjnym i nie jest synonimem architektury bazowej.",
+    "skrajny": "Baseline architecture to architektura bazowa opisująca stan obecny. Docelowa opisuje przyszły stan, a przejściowa etapy pośrednie. Reference architecture jest wzorcem referencyjnym i nie jest synonimem architektury bazowej."
   },
   "zagmatwania": [
     {
-      "mit": "Ten aktywator to sprzęt w serwerowni, czyli sprawa działu IT.",
-      "prawda": "Obejmuje też aplikacje, usługi i poziomy usług. Usługi mogą świadczyć strony zewnętrzne (outsourcing), a korzystać z nich mogą partnerzy i klienci (s. 85). Poznasz po tym, że mowa o usłudze, a nie tylko o urządzeniu."
+      "mit": "Baseline i reference architecture zawsze znaczą to samo.",
+      "prawda": "Baseline architecture to architektura bazowa opisująca stan obecny. Docelowa opisuje przyszły stan, a przejściowa etapy pośrednie. Reference architecture jest wzorcem referencyjnym i nie jest synonimem architektury bazowej."
     },
     {
-      "mit": "Architektura referencyjna to wzorzec, do którego dążymy.",
-      "prawda": "W FW-PL to opis stanu obecnego (bazowego). Stan przyszły to architektura docelowa, a etapy pośrednie – przejściowa (s. 85)."
-    },
-    {
-      "mit": "Celem jest najlepsza możliwa usługa.",
-      "prawda": "Cel to usługi i poziomy usług najbardziej ekonomiczne dla organizacji (s. 85). „Najlepsza za każdą cenę” celu nie spełnia."
+      "mit": "Usługi są wyłącznie wewnętrzne.",
+      "prawda": "Usługi mogą dostarczać podmioty wewnętrzne i zewnętrzne, a ich odbiorcami mogą być partnerzy i klienci."
     }
   ],
   "mentor": {
     "czestyBlad": "Utożsamianie aktywatora z samą infrastrukturą („serwery”) bez usług i poziomów usług oraz mylenie architektury referencyjnej z docelową.",
     "jakTlumaczyc": "Zacznij od usługi, którą czuje użytkownik („powiadomienie dociera w 40 sekund”), i schodź w dół: na czym stoi usługa (aplikacja), a na czym aplikacja (infrastruktura). Potem dodaj oś czasu: dziś (referencyjna) → po drodze (przejściowa) → jutro (docelowa).",
     "pytanieKontrolne": "Bank ma dziś starą bramkę SMS, za rok ma mieć tylko nowy system powiadomień, a przez trzy miesiące oba działają równolegle. Nazwij trzy architektury i powiedz, dlaczego „referencyjna” to tu podchwytliwe słowo.",
-    "odpowiedzKontrolna": "Stara bramka SMS = architektura **referencyjna** (bazowa, stan obecny), okres równoległy = **przejściowa**, sam nowy system powiadomień = **docelowa**. Podchwytliwe, bo potocznie „referencyjny” znaczy „wzorcowy”, a w FW-PL (s. 85) oznacza stan obecny."
+    "odpowiedzKontrolna": "Baseline architecture to architektura bazowa opisująca stan obecny. Docelowa opisuje przyszły stan, a przejściowa etapy pośrednie. Reference architecture jest wzorcem referencyjnym i nie jest synonimem architektury bazowej."
   },
   "nieMylicZ": [
     {
-      "termin": "Architektura referencyjna",
-      "roznica": "Uwaga na nazwy: w podręczniku PL „architektura referencyjna” to architektura bazowa, czyli stan obecny."
+      "termin": "zdolnosc-procesu",
+      "roznica": "Zdolność usługowa opisuje zasoby do świadczenia usług, a zdolność procesu określa model PAM."
     }
   ],
   "przykladWypowiedzi": "Services, Infrastructure and Applications, czyli Usługi, Infrastruktura i Aplikacje, to aktywator, który daje service capabilities, czyli zdolności usługowe, a procesy korzystają z tych usług na uzgodnionym poziomie usług.",
@@ -80,19 +76,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 85,
-      "cytat": "Zdolność do świadczenia usług odnosi się do zasobów takich jak aplikacje oraz infrastruktura"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 85,
-      "ilustracja": "37"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 86,
-      "cytat": "Informacje stanowią jedną ze zdolności do świadczenia usług"
+      "doc": "FW-EN",
+      "sekcja": "załącznik G, aktywator 6: Good Practices",
+      "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
     }
   ],
   "kategoria": "egzaminacyjne",

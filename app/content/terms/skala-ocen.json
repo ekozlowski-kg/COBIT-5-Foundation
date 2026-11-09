@@ -7,15 +7,15 @@
   "plPodrecznik": "Skala ocen N / P / L / F",
   "mapa": "skala-ocen",
   "pulapka": true,
-  "pulapkaOpis": "NAJWIĘKSZA PUŁAPKA: na egzaminie PL litera **P oznacza PEŁNY** (Fully). W podręczniku i po angielsku **P to Partially, czyli częściowy**. Egzamin: N – Nieosiągnięty, C – Częściowy, W – Większościowy, P – Pełny.",
+  "pulapkaOpis": "W źródle angielskim skala to N 0–15%, P ponad 15–50%, L ponad 50–85%, F ponad 85–100%. N/C/W/P jest polską konwencją przyjętą w starszej części kursu, nie potwierdzonym tu brzmieniem aktualnego egzaminu. Zawsze czytaj legendę: P angielskie oznacza Partially, a kursowe polskie P oznacza Pełny.",
   "poLudzku": "Cztery stopnie: nic, trochę, w większości, w pełni, czyli N, C, W, P.",
   "wyobrazSobie": "Jak wskaźnik paliwa podzielony na cztery strefy – prawie pusty, poniżej połowy, ponad połowę, prawie pełny – który mówi, w jakim stopniu bak jest pełny, a nie tylko „jest albo nie ma”.",
   "poCo": "Żeby asesor mógł ocenić, w jakim stopniu atrybut procesu jest osiągnięty, a nie tylko „tak albo nie”, i żeby oceny różnych asesorów były porównywalne.",
-  "jakDziala": "Każdy atrybut procesu (np. PA 1.1, PA 2.1) asesor ocenia na podstawie dowodów w czterostopniowej skali: N – nieosiągnięty (Not achieved, 0–15%), C – częściowy (Partially, >15–50%), W – większościowy (Largely, >50–85%), P – pełny (Fully, >85–100%). Proces osiąga dany poziom, gdy atrybuty tego poziomu mają W lub P, a wszystkie atrybuty niższych poziomów mają P.",
-  "dlaczegoWazne": "Egzamin sprawdza progi procentowe i regułę zaliczenia poziomu (W lub P na danym poziomie, P na niższych). Pułapka: na egzaminie PL „P” znaczy „pełny” (Fully), a angielskie „P” (Partially) to polskie „C”.",
+  "jakDziala": "W źródle angielskim skala to N 0–15%, P ponad 15–50%, L ponad 50–85%, F ponad 85–100%. N/C/W/P jest polską konwencją przyjętą w starszej części kursu, nie potwierdzonym tu brzmieniem aktualnego egzaminu. Zawsze czytaj legendę: P angielskie oznacza Partially, a kursowe polskie P oznacza Pełny.",
+  "dlaczegoWazne": "Procent dotyczy osiągnięcia atrybutu. Nie jest prostym odsetkiem poprawnych dokumentów ani średnią ocen PA.",
   "skadNazwa": "Angielska skala to N/P/L/F, gdzie **P = Partially** (częściowo). Polski egzamin używa N/C/W/P, gdzie **P = Pełny**. Ta sama litera znaczy co innego!",
-  "poziom1": "Czterostopniowa skala, którą ocenia się każdy atrybut procesu: N – nieosiągnięty (0–15%), C – częściowy (>15–50%), W – większościowy (>50–85%), P – pełny (>85–100%). Uwaga: na egzaminie PL „P” znaczy pełny, nie częściowy.",
-  "poziom2": "| Egzamin PL | EN | Próg | Opis |\n|---|---|---|---|\n| **N** – Nieosiągnięty | N – Not achieved | 0–15% | brak lub znikome dowody |\n| **C** – Częściowy | **P** – Partially | >15–50% | pewne dowody, część aspektów nieprzewidywalna |\n| **W** – Większościowy | **L** – Largely | >50–85% | systematyczne podejście, możliwe słabości |\n| **P** – Pełny | **F** – Fully | >85–100% | kompletne i systematyczne, brak istotnych słabości |\n\n**Reguła oceny:** proces **osiąga poziom**, gdy atrybuty tego poziomu mają **W lub P**, a **wszystkie atrybuty niższych poziomów mają P**. Żeby przejść wyżej, trzeba najpierw mieć **P** na wszystkich atrybutach niższych poziomów.",
+  "poziom1": "Czterostopniowa skala, którą ocenia się każdy atrybut procesu: N – nieosiągnięty (0–15%), C – częściowy (>15–50%), W – większościowy (>50–85%), P – pełny (>85–100%). Uwaga: w polskim zapisie kursu „P” znaczy pełny, nie częściowy.",
+  "poziom2": "W źródle angielskim skala to N 0–15%, P ponad 15–50%, L ponad 50–85%, F ponad 85–100%. N/C/W/P jest polską konwencją przyjętą w starszej części kursu, nie potwierdzonym tu brzmieniem aktualnego egzaminu. Zawsze czytaj legendę: P angielskie oznacza Partially, a kursowe polskie P oznacza Pełny.",
   "poziom3": "(s. 45): skala N/P/L/F z progami. Sylabus PC-02-06: reguła zaliczenia poziomu.",
   "przyklady": {
     "zycie": "Przez miesiąc patrzysz, jak syn sprząta swój pokój. Prawie nigdy – N; czasem, gdy mu przypomnisz – C; zwykle tak, ale zdarzają się wpadki – W; zawsze i bez przypominania – P. Tak samo asesor ocenia atrybut procesu: czterema stopniami, od braku do pełnego.",
@@ -27,7 +27,7 @@
   "glebokosc": {
     "prosty": "Nauczyciel sprawdza, ile zadań z pracy domowej zrobiłeś: nic, trochę, większość albo wszystko. Tak działa skala N, C, W, P. Uwaga na literę P: na polskim egzaminie znaczy „pełny”, a w angielskiej skali „partially”, czyli „częściowo”.",
     "zaawansowany": "Audytorka wewnętrzna ocenia [[atrybuty-procesu|atrybut]] PA 1.1 w procesie kopii zapasowych. Kopie powstają systematycznie, ale raz w miesiącu ktoś zapomina sprawdzić ich odtworzenie, więc audytorka daje W (większościowy). To wystarcza, żeby proces osiągnął poziom 1, ale zamyka drogę na poziom 2 – do tego PA 1.1 musi mieć P (pełny). Wynik przekłada się na [[poziomy-zdolnosci|poziom zdolności]] w raporcie dla zarządu.",
-    "skrajny": "Audytorka dostaje raport z oceny po angielsku: PA 1.1 = F, PA 2.1 = P, PA 2.2 = L. Kusi, by czytać „P” jak na polskim egzaminie, czyli „pełny”, i uznać poziom 2. Po angielsku P to jednak **Partially**, czyli polskie **C**. Po przełożeniu: PA 1.1 = P, PA 2.1 = C, PA 2.2 = W. PA 2.1 nie osiąga W, więc proces jest na poziomie 1. Ta sama litera znaczy co innego zależnie od języka skali. **Rozstrzygnięcie:** zawsze sprawdź, w jakiej skali zapisano oceny – EN N/P/L/F ↔ PL N/C/W/P; na egzaminie PL P = Pełny, a poziom wymaga co najmniej W na swoich atrybutach i P na wszystkich niższych."
+    "skrajny": "Audytorka dostaje raport z oceny po angielsku: PA 1.1 = F, PA 2.1 = P, PA 2.2 = L. Kusi, by czytać „P” jak na polskim egzaminie, czyli „pełny”, i uznać poziom 2. Po angielsku P to jednak **Partially**, czyli polskie **C**. Po przełożeniu: PA 1.1 = P, PA 2.1 = C, PA 2.2 = W. PA 2.1 nie osiąga W, więc proces jest na poziomie 1. Ta sama litera znaczy co innego zależnie od języka skali. **Rozstrzygnięcie:** zawsze sprawdź, w jakiej skali zapisano oceny – EN N/P/L/F ↔ PL N/C/W/P; w polskim zapisie kursu P = Pełny, a poziom wymaga co najmniej W na swoich atrybutach i P na wszystkich niższych."
   },
   "zagmatwania": [
     {
@@ -44,7 +44,7 @@
     }
   ],
   "mentor": {
-    "czestyBlad": "Czytanie P jako „częściowy” na egzaminie PL i mylenie skali EN z PL.",
+    "czestyBlad": "Czytanie P jako „częściowy” w polskim zapisie kursu i mylenie skali EN z PL.",
     "jakTlumaczyc": "Zapisz dwie kolumny obok siebie: N-P-L-F i N-C-W-P, i połącz je strzałkami. Dopiero potem progi: do 15%, do 50%, do 85%, powyżej 85%. Skojarzenie: polskie P to Pełny.",
     "pytanieKontrolne": "Raport po angielsku: PA 1.1 = F, PA 2.1 = L, PA 2.2 = P. Zapisz to w skali PL i ustal poziom.",
     "odpowiedzKontrolna": "PA 1.1 = P, PA 2.1 = W, PA 2.2 = C. PA 2.2 ma tylko C, więc poziom 2 nie jest osiągnięty – proces jest na poziomie 1, bo PA 1.1 = P."
@@ -67,15 +67,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 45,
-      "cytat": "(uzyskanie 85–100%)"
-    },
-    {
-      "doc": "ALTKOM"
-    },
-    {
-      "doc": "SYL"
+      "doc": "FW-EN",
+      "sekcja": "rozdział 8, Performing a Process Capability Assessment; PAM, rating scale",
+      "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
     }
   ],
   "plInne": [],

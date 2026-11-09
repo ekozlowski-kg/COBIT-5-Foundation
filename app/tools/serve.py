@@ -22,7 +22,7 @@ CONTENT = APP / "content"
 
 STATUS = {"oficjalne", "uproszczenie", "przyklad", "niepotwierdzone", "opinia"}  # §17.2: opinia = opinia autora kursu
 KATEGORIE = {"podstawowe", "egzaminacyjne", "standard", "skrot"}
-DOCS = {"FW-PL", "SYL", "SP1", "ALTKOM", "WWW", "PROSTO", "PAKIET", "PAM", "ENPROC", "ISO-VOC"}
+DOCS = {"FW-PL", "FW-EN", "SYL", "SP1", "ALTKOM", "WWW", "PROSTO", "PAKIET", "PAM", "ENPROC", "ISO-VOC"}
 # §17.4/§17.6: zycie → biuro → organizacja → psp → it; firma/admin – przejściowo (= organizacja).
 KONTEKSTY = {"zycie", "biuro", "organizacja", "psp", "it", "firma", "admin"}
 STATUS_TLUM = {"A", "B", "C", "D"}
@@ -211,6 +211,23 @@ def build():
                 q["_plik"] = rel(f)
                 questions.append(q)
     q_ids = {q.get("id") for q in questions}
+    learning = load_json(CONTENT / "learning-guides.json", P)
+    practice = load_json(CONTENT / "practice-tests.json", P)
+    processes = load_json(CONTENT / "process-guide.json", P)
+    if len(questions) > 400:
+        P.err("content/questions", "Aktywna pula przekracza limit 400 pytań")
+    required_topics = {t["kod"] for t in (syllabus or {}).get("tematy", []) if t["kod"][:2] in OBSZARY}
+    covered_topics = {c for q in questions for c in q.get("sylabus", [])}
+    for code in sorted(required_topics):
+        if code not in covered_topics:
+            P.err("content/questions", f"Brak pytania dla tematu {code}")
+        guide = (learning or {}).get(code, {})
+        if any(not guide.get(k) for k in ("zasada", "przyklad", "uwazaj", "zrodlo")):
+            P.err("content/learning-guides.json", f"Niepełne omówienie {code}")
+    for test in (practice or {}).get("zestawy", []):
+        ids = test.get("pytania", [])
+        if not ids or len(ids) != len(set(ids)) or not set(ids) <= q_ids:
+            P.err("content/practice-tests.json", f"Pusty zestaw, powtórzenie lub brak pytania: {test.get('id')}")
 
     # Lekcje
     lessons = []
@@ -335,7 +352,7 @@ def build():
             ids = by_map.get(n.get("id"), [])
             if not ids:
                 P.warn("content/mapa-cobit.json", f"Liść „{n.get('id')}” nie ma hasła w terms/ (§12.1)")
-            elif not any(i in extreme for i in ids):
+            elif not (practice or {}).get("limitPytan") and not any(i in extreme for i in ids):
                 P.warn(f"terms/{ids[0]}.json", "Atom bez pytania skrajnego (§12.3: skrajnosc: true, atom)")
     for tr in (traps or {}).get("pulapki", []):
         if tr.get("termId") and tr["termId"] not in term_ids:
@@ -364,6 +381,9 @@ def build():
         "lekcje": lessons,
         "terminy": terms,
         "pytania": questions,
+        "nauka": learning,
+        "testy": practice,
+        "procesy": processes,
         "sylabus": syllabus,
         "pulapki": traps,
         "mapa": mapa,

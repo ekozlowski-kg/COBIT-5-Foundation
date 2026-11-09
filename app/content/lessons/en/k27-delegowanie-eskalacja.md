@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-12]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-27-1, q-enk-27-2, q-enk-27-3]
-zapas: [q-enk-27-z1]
+cwiczenia: ["q-enk-27-2", "q-enk-27-3"]
+zapas: ["q-en-04-02"]
 wprowadza: []
 wprowadzaListe: [delegowanie-uprawnien, procedury-eskalacji]
 wymaga: [en-k26-praktyki-struktur]

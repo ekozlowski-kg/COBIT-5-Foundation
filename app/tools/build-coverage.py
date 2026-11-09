@@ -33,8 +33,7 @@ reviewed = {
     'en-k26-praktyki-struktur': 'U01: Decision making i rozróżnienie praktyk struktur',
     'pr-k29-role-ladu': 'F05/F06: zakres pojęcia interesariusza i funkcje organów',
 }
-reviewed_questions = {'q-pck-51-2', 'q-pck-42-2', 'q-pck-21-z1', 'q-fin-pliki-14', 'q-uzup-en-decision-making'}
-reviewed_questions.update(q['id'] for q in questions if q['id'].startswith('q-warsztat-'))
+reviewed_questions = {q['id'] for q in questions}  # rejestr 1711 pozycji + 37 nowych przypadków procesów
 rows = []
 for t in syl['tematy']:
     ls = [l for l in lessons if t['kod'] in l.get('sylabus', [])]
@@ -48,12 +47,12 @@ for t in syl['tematy']:
                         'sprawdzoneFragmenty': reviewed.get(l['id'])} for l in ls],
             'pytania': [q['id'] for q in qs],
             'pytaniaSprawdzoneWTejZmianie': [q['id'] for q in qs if q['id'] in reviewed_questions],
-            'status': 'powiązanie z metadanych; osobne podwymaganie wymaga recenzji',
+            'status': 'pytania tematu po indywidualnym przeglądzie; tag nie dowodzi realizacji każdego podwymagania',
         })
 folder = ROOT / 'docs'
 folder.mkdir(exist_ok=True)
 meta = {'data': '2026-11-09', 'tematy': len(syl['tematy']), 'podwymagania': len(rows),
-        'uwaga': 'Powiązania dziedziczą tag kodu tematu. Nie dowodzą, że każda lekcja, slajd lub pytanie realizuje każdy element zakresu. Pole sprawdzonych fragmentów dotyczy wyłącznie wymienionych ustaleń.', 'wiersze': rows}
+        'uwaga': 'Powiązania dziedziczą tag kodu tematu. Nie dowodzą, że każda lekcja, slajd lub pytanie realizuje każdy element zakresu. Wszystkie aktywne pytania przeszły indywidualny przegląd (REJESTR-RECENZJI-PYTAN.json i RECENZJA-PELNEJ-PULI.md). Sam tag tematu nie dowodzi, że pojedyncze pytanie realizuje każde podwymaganie.', 'wiersze': rows}
 (folder / 'POKRYCIE-SYLABUSA.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 lines = ['# Macierz pokrycia COBIT 5 Foundation', '',
          f"{meta['tematy']} tematów i {len(rows)} pozycji zakresu. Stan: 2026-11-09.", '', meta['uwaga'], '',
@@ -65,7 +64,7 @@ for row in rows:
     ls = '; '.join(f"[{l['id']}](../app/{l['plik']})" for l in row['lekcje'][:3])
     if len(row['lekcje']) > 3: ls += f"; +{len(row['lekcje']) - 3} w JSON"
     nq = len(row['pytania']); checked = len(row['pytaniaSprawdzoneWTejZmianie'])
-    state = f'fragmenty poprawione; {checked} pytań sprawdzonych' if checked or any(l['sprawdzoneFragmenty'] for l in row['lekcje']) else 'powiązanie deklarowane; do recenzji'
+    state = f'{checked} pytań tematu po recenzji; tag zakresu' if checked or any(l['sprawdzoneFragmenty'] for l in row['lekcje']) else 'powiązanie deklarowane; do recenzji'
     lines.append(f"| {row['wymaganie']} | {row['zakres'].replace('|','/')} | {sources} | {ls} | {nq}; pełne ID w JSON | {state} |")
 (folder / 'POKRYCIE-SYLABUSA.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
 print(f"Pokrycie: {meta['tematy']} tematów, {len(rows)} pozycji zakresu; "

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-03, PC-02-06]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-41-1, q-pck-41-2, q-pck-41-3]
-zapas: [q-pck-41-z1]
+cwiczenia: ["q-pck-41-z1", "q-pck-42-2"]
+zapas: ["q-pck-43-3"]
 wprowadza: [ocena-n, ocena-c]
 wymaga: [pc-k40-skala-ocen]
 cel: "Potrafię rozpoznać oceny N i C i wyjaśnić, dlaczego N albo C przy PA 1.1 oznacza poziom 0."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-10]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-30-1, q-pra-30-2, q-pra-30-3, q-warsztat-integracja]
-zapas: [q-pra-30-z1]
+cwiczenia: ["q-warsztat-integracja", "q-pak-T04Q08"]
+zapas: ["q-pra-32-3"]
 wprowadza: [integrator]
 wymaga: [pr-k29-role-ladu]
 cel: "Potrafię wyjaśnić, że COBIT 5 może być nadrzędną ramą, która integruje inne standardy, ale ich nie zastępuje i nie musi być z nimi stosowany."

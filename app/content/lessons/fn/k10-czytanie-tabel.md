@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-fnk-10-1, q-fnk-10-2, q-fnk-10-3]
-zapas: [q-fnk-10-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: []
 cel: "Potrafię zadać tabeli z podręcznika COBIT 5 pięć pytań, zanim odczytam z niej literę albo numer."

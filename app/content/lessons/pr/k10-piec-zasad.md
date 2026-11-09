@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-10-1, q-pra-10-2, q-pra-10-3]
-zapas: [q-pra-10-z1]
+cwiczenia: ["q-pra-10-z1", "q-pra-10-2"]
+zapas: ["q-pak-T04Q08"]
 wprowadza: []
 wymaga: []
 cel: "Potrafię wymienić pięć zasad COBIT 5 w kolejności i nazwać je tak, jak na egzaminie."

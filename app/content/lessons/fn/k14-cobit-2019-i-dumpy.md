@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01, PR-01-02]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-fnk-14-1, q-fnk-14-2, q-fnk-14-3]
-zapas: [q-fnk-14-z1]
+cwiczenia: ["q-pra-33-3", "q-pra-34-z1"]
+zapas: ["q-fn-m-27"]
 wprowadza: []
 wymaga: [fn-k13-pytanie-z-internetu]
 cel: "Potrafię rozpoznać pojęcia z COBIT 2019 w pytaniu z internetu i zamienić je na odpowiedniki z COBIT 5."

@@ -8,7 +8,7 @@ export const esc = (s) => String(s ?? '')
 export const TERM_RE = /\[\[([a-z0-9][a-z0-9-]*)(?:\|([^\]]+))?\]\]/g;
 
 const DOCS = {
-  'FW-PL': 'COBIT 5 Framework (PL)', SYL: 'Sylabus PeopleCert', SP1: 'Sample Paper 1 (PL)', ALTKOM: 'Altkom: różnice tłumaczenia', WWW: 'Internet', PAM: 'COBIT 5 PAM', ENPROC: 'COBIT 5: Enabling Processes', 'ISO-VOC': 'ISO/IEC/IEEE 24765:2010',
+  'FW-PL': 'COBIT 5 Framework (PL)', 'FW-EN': 'COBIT 5 Framework (EN, 2012)', SYL: 'Sylabus PeopleCert', SP1: 'Sample Paper 1 (PL)', ALTKOM: 'Altkom: różnice tłumaczenia', WWW: 'Internet', PAM: 'COBIT 5 PAM', ENPROC: 'COBIT 5: Enabling Processes', 'ISO-VOC': 'ISO/IEC/IEEE 24765:2010',
 };
 // §17.6 – konteksty: życie → biuro → organizacja → PSP → IT/COBIT (firma/admin = organizacja, przejściowo).
 const CTX = { zycie: 'Życie codzienne', biuro: 'Biuro', organizacja: 'Organizacja', firma: 'Organizacja', admin: 'Organizacja', psp: 'PSP (Modrzewiów)', it: 'IT/COBIT' };

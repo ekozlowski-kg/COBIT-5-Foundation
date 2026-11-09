@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-02-05]
 minuty: 5
 zgadnij: []
-cwiczenia: [q-pck-11-1, q-pck-11-2, q-pck-11-3]
-zapas: [q-pck-11-z1]
+cwiczenia: ["q-pck-11-3", "q-pck-10-2"]
+zapas: ["q-pck-12-3"]
 wprowadza: []
 wymaga: [pc-k10-model-zdolnosci]
 cel: "Potrafię wyjaśnić, że ocena zdolności dotyczy pojedynczego procesu i nie daje pełnego obrazu Ładu."

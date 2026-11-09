@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-prc-63-1, q-prc-63-2, q-prc-63-3]
-zapas: [q-prc-63-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-apo08, proc-apo09, proc-apo10]
 wymaga: [pr-k62-apo05-apo07]
 cel: "Potrafię rozpoznać APO08, APO09 i APO10 po tym, kto jest drugą stroną: własna organizacja czy firma zewnętrzna."

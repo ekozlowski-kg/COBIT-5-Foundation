@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-20-1, q-pck-20-2, q-pck-20-3]
-zapas: [q-pck-20-z1]
+cwiczenia: ["q-pck-20-z1", "q-pck-21-z1"]
+zapas: ["q-pck-24-3"]
 wprowadza: [poziomy-zdolnosci]
 wymaga: [pc-k13-nizsze-wyniki-korzysci]
 cel: "Potrafię wymienić po polsku i po angielsku sześć poziomów zdolności od 0 do 5."

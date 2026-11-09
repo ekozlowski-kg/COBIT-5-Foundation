@@ -48,7 +48,7 @@
     }
   ],
   "przykladWypowiedzi": "A problem, czyli problem, to root cause, czyli przyczyna źródłowa, kilku incidents, czyli incydentów; zajmuje się nim DSS03 Manage Problems.",
-  "egzamin": "DSS03 Zarządzanie problemami (Manage Problems). Na egzaminie: problem ≠ incydent, a w pytaniach o ryzyko „problem” oznacza coś, co już zaistniało (zob. hasło „ryzyko”).",
+  "egzamin": "DSS03 Manage Problems dotyczy przyczyn jednego lub wielu incydentów. Incydent jest zakłóceniem usługi. Sam fakt, że zdarzenie już nastąpiło, nie jest definicją problemu.",
   "powiazane": [
     "it-incydent",
     "it-zmiana",

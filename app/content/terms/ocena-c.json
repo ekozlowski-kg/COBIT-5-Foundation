@@ -14,7 +14,7 @@
     "uwaga": "EN P (Partially) = egzamin PL C (Częściowy). Ta sama litera P oznacza w PL co innego. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 45; zestawienie Altkom (kolumna „Podręczniki PL”)."
   },
   "pulapka": true,
-  "pulapkaOpis": "Na egzaminie PL „Częściowy” ma literę **C**. Po angielsku i w podręczniku ta sama ocena ma literę **P** (Partially). A „P” na egzaminie PL to Pełny!",
+  "pulapkaOpis": "Na egzaminie PL „Częściowy” ma literę **C**. Po angielsku i w podręczniku ta sama ocena ma literę **P** (Partially). A „P” w polskim zapisie kursu to Pełny!",
   "skadNazwa": "Angielskie *Partially achieved* daje literę P. Polski egzamin zmienił literę na C, od „Częściowy”, żeby P zostało dla „Pełny”.",
   "kategoria": "egzaminacyjne",
   "status": "oficjalne",

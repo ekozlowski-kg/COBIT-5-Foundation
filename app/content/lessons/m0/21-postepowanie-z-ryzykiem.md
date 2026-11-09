@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-04]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-m0k-21-1, q-m0k-21-2, q-m0k-21-3]
-zapas: [q-m0k-21-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [m0-20-ryzyko]
 cel: "Potrafię wymienić sposoby postępowania z ryzykiem i wyjaśnić, dlaczego COBIT 5 nie każe go eliminować."

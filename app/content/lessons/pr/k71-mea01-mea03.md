@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 9
 zgadnij: []
-cwiczenia: [q-prc-71-1, q-prc-71-2, q-prc-71-3]
-zapas: [q-prc-71-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-mea01, proc-mea02, proc-mea03]
 wymaga: [pr-k70-dss04-dss06]
 cel: "Potrafię rozpoznać MEA01, MEA02 i MEA03 po tym, co sprawdzamy: wyniki, mechanizmy kontrolne czy wymogi z zewnątrz."

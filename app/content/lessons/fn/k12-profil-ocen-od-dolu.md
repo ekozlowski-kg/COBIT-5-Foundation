@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01, PC-01-02]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-fnk-12-1, q-fnk-12-2, q-fnk-12-3]
-zapas: [q-fnk-12-z1]
+cwiczenia: ["q-pck-24-3", "q-pck-30-2"]
+zapas: ["q-pck-31-2"]
 wprowadza: []
 wymaga: [fn-k11-kaskada-to-wytyczna]
 cel: "Potrafię ustalić poziom zdolności z profilu ocen, czytając go od dołu, i rozpoznać trzy znaczenia litery P."
@@ -79,7 +79,7 @@ Proces zarządzania zmianami w ubezpieczalni: PA 1.1 = P, PA 2.1 = P, PA 2.2 = W
 | Gdzie | P znaczy |
 |---|---|
 | Macierz kaskady (Rysunek 5, 22, 23) | relacja **podstawowa** (*Primary*) |
-| Skala na egzaminie PL | **Pełny** (*Fully*) |
+| Skala w polskim zapisie kursu | **Pełny** (*Fully*) |
 | Skala w podręczniku PL (litery EN) | **częściowo** (*Partially*) = egzaminacyjne C |
 :::
 

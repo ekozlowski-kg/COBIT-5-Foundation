@@ -27,16 +27,16 @@
   "poLudzku": "Czy mierzysz tę robotę liczbami i sprawdzasz, czy wyniki są takie, jak zaplanowano.",
   "wyobrazSobie": "Licznik na rowerze treningowym: znasz cel, widzisz wynik i porównujesz go z poprzednimi.",
   "poCo": "Żeby o procesie mówiły liczby, a nie wrażenia.",
-  "jakDziala": "Organizacja ustala, czego chce się dowiedzieć o procesie, i stawia cele ilościowe. Wybiera miary, zbiera dane i analizuje je. Wyniki służą do oceny, czy proces wspiera swoje cele.",
-  "dlaczegoWazne": "To atrybut procesu przewidywalnego, o który pyta egzamin. Egzaminacyjna nazwa „Miara procesu” różni się od podręcznikowego „Pomiaru procesu”.",
-  "poziom2": "| Co sprawdza asesor (uproszczenie według ISO/IEC 15504) | Przykład |\n|---|---|\n| potrzeby informacyjne i cele pomiaru | co chcemy wiedzieć o procesie |\n| cele ilościowe procesu | 95% incydentów krytycznych w 4 godziny |\n| miary i częstotliwość | czas rozwiązania, co tydzień |\n| zbieranie i analiza wyników | raport, trend |\n| wyniki służą do oceny procesu | wniosek na spotkaniu zespołu |\n\nRóżnica z [[pa-2-1|PA 2.1]]: tam patrzysz, czy wykonanie idzie zgodnie z planem. Tu mierzysz proces ilościowo względem jego celów, na bazie wspólnego standardu z poziomu 3.",
+  "jakDziala": "PA 4.1 bada, czy cele ilościowe procesu wynikają z potrzeb biznesowych, pomiary są zdefiniowane i realizowane, a wyniki służą zrozumieniu osiągów oraz zmienności procesu.",
+  "dlaczegoWazne": "Sam wykres KPI, próg SLA lub reakcja na opóźnienie nie dowodzi osiągnięcia atrybutu poziomu 4. Formalny poziom wymaga również wszystkich odpowiednich ocen niższych PA.",
+  "poziom2": "PA 4.1 bada, czy cele ilościowe procesu wynikają z potrzeb biznesowych, pomiary są zdefiniowane i realizowane, a wyniki służą zrozumieniu osiągów oraz zmienności procesu. Sam wykres KPI, próg SLA lub reakcja na opóźnienie nie dowodzi osiągnięcia atrybutu poziomu 4. Formalny poziom wymaga również wszystkich odpowiednich ocen niższych PA.",
   "poziom3": "Il. 19 (s. 42) i Il. 21 (s. 44): „Pomiar procesu”. Egzamin: „Miara procesu”. (s. 42): poziom 4 to proces działający w ramach zdefiniowanych limitów. Szczegóły atrybutu według ISO/IEC 15504-2 to uproszczenie kursu, spoza korpusu.",
   "przyklady": {
-    "zycie": "Biegasz trzy razy w tygodniu. Zegarek zapisuje czas i tętno, a co miesiąc porównujesz wyniki z celem: 5 km poniżej 30 minut. Pomiar i analiza względem celu to PA 4.1.",
-    "biuro": "Biuro mierzy, ile dni trwa obieg faktury od wpływu do zapłaty. Cel to 7 dni, a raport co miesiąc pokazuje trend. To PA 4.1.",
-    "organizacja": "Sklep internetowy mierzy czas od zamówienia do wysyłki i procent zwrotów. Co tydzień analityk porównuje dane z celem 24 godzin i pokazuje trend kierownikowi. To miara procesu.",
-    "admin": "Urząd skarbowy mierzy czas wydania decyzji i liczbę odwołań. Cele są zapisane w liczbach, np. 90% decyzji w 30 dni, a dane analizuje się co kwartał. To PA 4.1.",
-    "it": "Proces APO09 (zarządzanie umowami o świadczenie usług): dostępność usług jest mierzona względem celów z umowy SLA, a raport analizuje trend. To dowody dla PA 4.1."
+    "zycie": "Zespół ma ilościowe cele dotyczące czasu obsługi, dobiera wiarygodne pomiary i analizuje ich rozkład oraz zmienność, by oceniać przewidywalność procesu. To przykład wsparcia oceny PA, a nie gotowy dowód pełnego osiągnięcia.",
+    "biuro": "Zespół ma ilościowe cele dotyczące czasu obsługi, dobiera wiarygodne pomiary i analizuje ich rozkład oraz zmienność, by oceniać przewidywalność procesu. To przykład wsparcia oceny PA, a nie gotowy dowód pełnego osiągnięcia.",
+    "organizacja": "Zespół ma ilościowe cele dotyczące czasu obsługi, dobiera wiarygodne pomiary i analizuje ich rozkład oraz zmienność, by oceniać przewidywalność procesu. To przykład wsparcia oceny PA, a nie gotowy dowód pełnego osiągnięcia.",
+    "admin": "Zespół ma ilościowe cele dotyczące czasu obsługi, dobiera wiarygodne pomiary i analizuje ich rozkład oraz zmienność, by oceniać przewidywalność procesu. To przykład wsparcia oceny PA, a nie gotowy dowód pełnego osiągnięcia.",
+    "it": "Zespół ma ilościowe cele dotyczące czasu obsługi, dobiera wiarygodne pomiary i analizuje ich rozkład oraz zmienność, by oceniać przewidywalność procesu. To przykład wsparcia oceny PA, a nie gotowy dowód pełnego osiągnięcia."
   },
   "glebokosc": {
     "prosty": "Pieczesz chleb według przepisu. Teraz ważysz każdy bochenek i zapisujesz wynik w zeszycie. Po miesiącu wiesz, ile zwykle waży i czy trzymasz się celu. To miara procesu.",
@@ -45,16 +45,8 @@
   },
   "zagmatwania": [
     {
-      "mit": "Każdy wskaźnik w procesie oznacza PA 4.1.",
-      "prawda": "Pilnowanie wykonania według planu to PA 2.1. PA 4.1 wymaga celów ilościowych procesu i systematycznej analizy pomiarów."
-    },
-    {
-      "mit": "„Miara procesu” i „Pomiar procesu” to dwa różne atrybuty.",
-      "prawda": "To ten sam PA 4.1: „Miara” na egzaminie, „Pomiar” w podręczniku."
-    },
-    {
-      "mit": "PA 4.1 to cele i miary procesu z opisu procesu w COBIT 5.",
-      "prawda": "Cele i miary w opisie procesu to wzór z *Procesów umożliwiających*. PA 4.1 sprawdza, czy organizacja faktycznie mierzy swój proces i korzysta z wyników."
+      "mit": "Każdy pomiar i każda reakcja na próg oznacza poziom 4.",
+      "prawda": "Sam wykres KPI, próg SLA lub reakcja na opóźnienie nie dowodzi osiągnięcia atrybutu poziomu 4. Formalny poziom wymaga również wszystkich odpowiednich ocen niższych PA."
     }
   ],
   "mentor": {
@@ -90,18 +82,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 42,
-      "ilustracja": "19",
-      "cytat": "Pomiar procesu"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 42,
-      "cytat": "działa teraz w ramach zdefiniowanych limitów"
-    },
-    {
-      "doc": "SP1"
+      "doc": "FW-EN",
+      "sekcja": "rozdział 8, rysunek 19; PAM, atrybuty procesu",
+      "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
     }
   ],
   "mapa": "pa-4-1"

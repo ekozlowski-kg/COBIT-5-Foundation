@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-02-05]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pck-12-1, q-pck-12-2, q-pck-12-3]
-zapas: [q-pck-12-z1]
+cwiczenia: ["q-pck-12-3", "q-pck-10-2"]
+zapas: ["q-pck-11-3"]
 wprowadza: []
 wymaga: [pc-k11-jeden-proces]
 cel: "Potrafię wymienić różnice między modelem dojrzałości COBIT 4.1 a modelem zdolności COBIT 5."

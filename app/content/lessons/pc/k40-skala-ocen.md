@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-03, PC-02-06]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-40-1, q-pck-40-2, q-pck-40-3]
-zapas: [q-pck-40-z1]
+cwiczenia: ["q-pck-42-2", "q-pck-41-z1"]
+zapas: ["q-pck-43-3"]
 wprowadza: [skala-ocen]
 wymaga: [pc-k34-pa-5-1-pa-5-2]
 cel: "Potrafię podać cztery oceny skali N/C/W/P z progami i ich angielskie odpowiedniki N/P/L/F."

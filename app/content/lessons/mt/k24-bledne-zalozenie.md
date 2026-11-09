@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-25, PR-02-14]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-mtk-24-1, q-mtk-24-2, q-mtk-24-3]
-zapas: [q-mtk-24-z1]
+cwiczenia: ["q-fn-m-25", "q-en-03-03"]
+zapas: ["q-en-03b-03"]
 wprowadza: []
 wymaga: [mt-k23-karta-prowadzacego]
 cel: "Potrafię odpowiedzieć na pytanie z błędnym założeniem czterema ruchami i ocenić odpowiedź kursanta na pytanie kontrolne."

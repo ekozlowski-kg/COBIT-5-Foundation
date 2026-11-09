@@ -74,7 +74,7 @@ const footer = (q, ok, summary, termRef) => `<div class="feedback ${ok ? 'ok' : 
 export const TRAP_FEEDBACK = {
   'inna-kategoria': ['To zdanie jest prawdziwe, ale opisuje inną część COBIT 5.', 'Najpierw ustal, o którą listę albo kategorię pyta pytanie.', 'Prawdziwe to jeszcze nie „na temat” – zacznij od kategorii.'],
   'zbyt-waskie': ['To fragment prawdy – pasuje do jednego elementu.', 'Pytanie dotyczy całości. Szukaj odpowiedzi, która obejmuje wszystko.', 'Gdy pytają o całość, wybierz najszerszą poprawną odpowiedź.'],
-  'forma-podrecznikowa': ['Brzmi znajomo, bo to nazwa z polskiego podręcznika.', 'Egzamin używa innych nazw niż podręcznik. Sprawdź nazwę egzaminacyjną.', 'Na egzaminie liczą się nazwy z polskiego arkusza.'],
+  'forma-podrecznikowa': ['Tłumaczenia tego samego pojęcia mogą się różnić.', 'Sprawdź angielski termin i sens zdania. Sam poprawny synonim nie jest błędem.', 'Rozstrzyga znaczenie w modelu COBIT 5.'],
   'prawda-nie-na-temat': ['To zdanie jest prawdziwe – dlatego kusi.', 'Sprawdź, czy odpowiada dokładnie na to pytanie, a nie na podobne.', 'Odpowiedź musi być prawdziwa i na temat.'],
   falsz: ['Brzmi wiarygodnie, ale w COBIT 5 tak nie jest.', 'Porównaj z definicją: które słowo jest przekręcone albo dodane?', 'Gdy coś brzmi „prawie dobrze”, szukaj przekręconego słowa.'],
   odwrocone: ['Ma właściwe pojęcia, tylko w odwrotnym kierunku.', 'Sprawdź kierunek: co z czego wynika, kto komu podlega, co jest pierwsze.', 'Uważaj na zamienioną kolejność albo kierunek.'],

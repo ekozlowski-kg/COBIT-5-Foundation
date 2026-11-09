@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-01-01, EN-02-07, EN-02-09]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-15-1, q-enk-15-2, q-enk-15-3]
-zapas: [q-enk-15-z1]
+cwiczenia: ["q-enk-15-3", "q-en-02-06"]
+zapas: ["q-sym-011"]
 wprowadza: []
 wymaga: [en-k13-polityki-a-inne-aktywatory]
 cel: "Potrafię podać definicję procesu, wskazać jego interesariuszy wewnętrznych i zewnętrznych oraz fazy cyklu życia procesu."

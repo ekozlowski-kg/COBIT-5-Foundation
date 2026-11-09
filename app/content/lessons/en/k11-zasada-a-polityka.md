@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-02, EN-02-03]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-enk-11-1, q-enk-11-2, q-enk-11-3]
-zapas: [q-enk-11-z1]
+cwiczenia: ["q-enk-11-3", "q-spr-en-07"]
+zapas: ["q-luk-ena-07"]
 wprowadza: [polityka]
 wprowadzaListe: [cechy-dobrej-polityki]
 wymaga: [en-k10-po-co-zasady-polityki]

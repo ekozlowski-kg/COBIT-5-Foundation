@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-02]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pra-34-1, q-pra-34-2, q-pra-34-3]
-zapas: [q-pra-34-z1]
+cwiczenia: ["q-pra-34-z1", "q-pra-33-3"]
+zapas: ["q-fn-m-27"]
 wprowadza: []
 wymaga: [pr-k33-zasada-4-aktywator]
 cel: "Potrafię wymienić siedem kategorii aktywatorów w kolejności z Ilustracji 12 i przypisać przykład do kategorii."
@@ -47,7 +47,7 @@ Policz, ile różnych rzeczy wymieniliśmy. Jest ich siedem i każda jest innego
 :::
 
 :::wykladowca
-To nazwy egzaminacyjne. Na egzaminie ten obraz to Rysunek 12. Pomoc pamięciowa: zapamiętaj pierwsze litery Za, P, S, K, I, U, L. To nasza mnemotechnika, a nie termin COBIT. Kolejność warto znać, bo pytania odwołują się do numerów.
+To nazwy stosowane w kursie. Na egzaminie ten obraz to Rysunek 12. Pomoc pamięciowa: zapamiętaj pierwsze litery Za, P, S, K, I, U, L. To nasza mnemotechnika, a nie termin COBIT. Kolejność warto znać, bo pytania odwołują się do numerów.
 :::
 
 ---

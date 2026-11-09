@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01, M0-00-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-exk-21-1, q-exk-21-2, q-exk-21-3]
-zapas: [q-exk-21-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k20-powtorka-zdolnosc]
 cel: "Potrafię zamienić najczęstsze nazwy z polskiego podręcznika na nazwy z polskiego egzaminu."
@@ -22,7 +22,7 @@ priorytet: 3
 
 Polski podręcznik COBIT 5 i polski egzamin tłumaczyli inni ludzie. Te same angielskie słowa mają więc często dwie polskie nazwy.
 
-Na egzaminie liczy się nazwa z egzaminu.
+Na egzaminie liczy się nazwa stosowana w kursie.
 
 :::zrodlo ALTKOM
 :::

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-02]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-35-1, q-pra-35-2, q-pra-35-3]
-zapas: [q-pra-35-z1]
+cwiczenia: ["q-pra-33-3", "q-pra-34-z1"]
+zapas: ["q-fn-m-27"]
 wprowadza: []
 wymaga: [pr-k34-siedem-aktywatorow]
 cel: "Potrafię wskazać trzy aktywatory, które są też zasobami, i wyjaśnić, że aktywatory potrzebują wzajemnie swoich wejść i wyników."

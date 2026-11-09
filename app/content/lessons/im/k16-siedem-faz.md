@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-02-06, IM-02-07]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-imk-16-1, q-imk-16-2, q-imk-16-3]
-zapas: [q-imk-16-z1]
+cwiczenia: ["q-imk-16-2", "q-mt-06-01"]
+zapas: ["q-mt-06-02"]
 wprowadza: [fazy-wdrozenia]
 wprowadzaListe: [faza-1, faza-2, faza-3, faza-4, faza-5, faza-6, faza-7]
 wymaga: [im-k15-aktywowanie-zmiany]

@@ -24,7 +24,7 @@
   "wyobrazSobie": "Kapitan z załogą: dostaje od armatora cel rejsu, planuje trasę, steruje, pilnuje przyrządów i melduje, jak idzie.",
   "poCo": "Żeby kierunek wyznaczony przez Ład zamienić w zaplanowaną, wykonaną i sprawdzoną pracę, która prowadzi do celów organizacji.",
   "jakDziala": "Kierownictwo pod przewodnictwem CEO planuje, tworzy, wykonuje i monitoruje działania (Plan, Build, Run, Monitor) zgodnie z kierunkiem wskazanym przez Ład. W COBIT 5 to cztery domeny: APO, BAI, DSS i MEA, razem 32 procesy. Wyniki i informacje zwrotne wracają do Ładu, który je ocenia i w razie potrzeby koryguje kierunek.",
-  "dlaczegoWazne": "Na tym rozróżnieniu opiera się zasada 5 (Oddzielenie Ładu od Zarządzania). Egzamin pyta o czasowniki Planuj, Twórz, Wykonuj, Monitoruj, o liczbę procesów (32) i o to, kto odpowiada: kierownictwo z CEO, a nie zarząd z prezesem.",
+  "dlaczegoWazne": "Zarządzanie pod kierownictwem CEO planuje, buduje, prowadzi i monitoruje działania zgodnie z kierunkiem Ładu. Obie funkcje podejmują decyzje; różni je mandat i poziom odpowiedzialności.",
   "poziom1": "Codzienne prowadzenie spraw tak, żeby dojść tam, dokąd wskazał Ład: planuje się, tworzy, wykonuje i monitoruje działania (np. kierownik układa grafik, zamawia sprzęt i raportuje szefowi). Odpowiada za nie kierownictwo pod przewodnictwem CEO.",
   "poziom2": "Zarządzanie = **Planuj, Twórz, Wykonuj, Monitoruj** (PBRM). Działa *w sposób spójny z kierunkiem wskazanym przez organ Ładu*. Odpowiada za nie **kierownictwo pod przewodnictwem dyrektora generalnego (CEO)**. Ład mówi „dokąd”, Zarządzanie mówi „jak tam dojść” i prowadzi.",
   "poziom3": "Definicja (Załącznik H): *„Zarządzanie polega na planowaniu, budowaniu, realizacji i monitorowaniu działań w sposób spójny z kierunkiem wskazanym przez organ nadzorujący, aby osiągnąć cele przedsiębiorstwa.”* (s. 14): *„W większości przedsiębiorstw za zarządzanie odpowiada kadra zarządzająca pod przywództwem dyrektora generalnego (CEO).”*",
@@ -48,15 +48,11 @@
   "zagmatwania": [
     {
       "mit": "Każde monitorowanie należy do Ładu.",
-      "prawda": "Zarządzanie też monitoruje (MEA, czwarty czasownik PBRM). Ład monitoruje, czy jego kierunek wcielono w życie."
+      "prawda": "Zarządzanie również monitoruje działania i wyniki. Ład monitoruje zgodność z ustalonym kierunkiem i potrzebami interesariuszy."
     },
     {
-      "mit": "Zarządzanie to dział IT.",
-      "prawda": "Zarządzanie to kierownictwo pod przewodnictwem CEO, także biznesowe. Dział IT jest tylko częścią obrazu (zasada 2)."
-    },
-    {
-      "mit": "Zarządzanie samo ustala kierunek i priorytety.",
-      "prawda": "Działa w sposób spójny z kierunkiem wskazanym przez organ Ładu (definicja, s. 14). Priorytety ustala Ład."
+      "mit": "Zarządzanie nie podejmuje decyzji ani nie ustala priorytetów.",
+      "prawda": "Podejmuje decyzje i ustala priorytety wykonawcze zgodnie z kierunkiem wyznaczonym przez organ Ładu."
     }
   ],
   "mentor": {
@@ -84,14 +80,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 92,
-      "cytat": "Zarządzanie polega na planowaniu, budowaniu, realizacji i monitorowaniu działań w sposób spójny z kierunkiem wskazanym przez organ nadzorujący"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 14,
-      "cytat": "za zarządzanie odpowiada kadra zarządzająca pod przywództwem dyrektora generalnego (CEO)."
+      "doc": "FW-EN",
+      "sekcja": "rozdział 6; Key Differences Between Governance and Management",
+      "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
     }
   ],
   "mapa": "zarzadzanie"

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01, PR-02-07]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-fnk-11-1, q-fnk-11-2, q-fnk-11-3]
-zapas: [q-fnk-11-z1]
+cwiczenia: ["q-pak-T01Q04", "q-pra-25-3"]
+zapas: ["q-pr-05-03"]
 wprowadza: []
 wymaga: [fn-k10-czytanie-tabel]
 cel: "Potrafię wyjaśnić, dlaczego organizacja nie musi przyjąć wszystkich celów, które tabela kaskady oznacza literą P."

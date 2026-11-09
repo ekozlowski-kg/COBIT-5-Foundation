@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-05]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-prb-40-1, q-prb-40-2, q-prb-40-3]
-zapas: [q-prb-40-z1]
+cwiczenia: ["q-luk-pr-03", "q-luk-pr-06"]
+zapas: ["q-luk-pr-10"]
 wprowadza: [zarzadzanie-wydajnoscia-aktywatora]
 wymaga: []
 cel: "Potrafię wymienić cztery pytania, na które odpowiada zarządzanie wydajnością aktywatora."

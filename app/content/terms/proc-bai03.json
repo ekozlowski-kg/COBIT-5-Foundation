@@ -31,10 +31,10 @@
   "wyobrazSobie": "Masz listę wymagań na szafę. Stolarz ją projektuje i buduje albo kupujesz gotową, a potem sprawdzasz, czy drzwi się domykają.",
   "skadNazwa": "Z angielskiego *Manage Solutions Identification and Build*. „Budowanie” obejmuje też zakup i złożenie gotowych elementów, nie tylko programowanie.",
   "poziom1": "Proces domeny [[bai]], w którym projektujesz, budujesz albo pozyskujesz rozwiązanie zgodne z wymaganiami. Obejmuje projekt, zakup lub programowanie, konfigurację, łączenie elementów, przygotowanie testów, testy i późniejsze utrzymanie rozwiązania.",
-  "poziom2": "**Czym się zajmuje:** zamienia zatwierdzone wymagania w działające rozwiązanie: aplikację, infrastrukturę, informację, usługę albo zmieniony proces biznesowy. Rozwiązanie może być zbudowane u siebie, kupione albo zrobione z dostawcą.\n\n**Wejścia (intuicja):** wymagania i kryteria z [[proc-bai02]], architektura (APO03), umowa z dostawcą (APO10).\n\n**Wyjścia (intuicja):** projekt rozwiązania, zbudowane i przetestowane elementy, dokumentacja.\n\n**Współpracuje z:** [[proc-bai02]] (wymagania), [[proc-bai06]] (zmiany w trakcie), [[proc-bai07]] (odbiór i przejście do eksploatacji), [[proc-bai10]] (opis nowych elementów konfiguracji).",
+  "poziom2": "**Cel i zakres:** identyfikacja, projektowanie, nabywanie lub budowa, konfiguracja i testowanie rozwiązań spełniających wymagania.\n\n**Przykład:** Zespół projektuje, nabywa lub buduje rozwiązanie, konfiguruje je i testuje zgodność z wymaganiami.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). CMMI obejmuje *„procesy związane z budowaniem aplikacji oraz nabyciem w domenie BAI”* (s. 61). Il. 39 (s. 88) wymienia przy BAI m.in. programowanie i ergonomię systemu. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby powstało rozwiązanie zgodne z wymaganiami i sprawdzone testami. Obojętne, czy je budujesz, czy kupujesz.",
-  "jakDziala": "Projektujesz rozwiązanie najpierw ogólnie, potem szczegółowo. Budujesz albo kupujesz komponenty i łączysz je w całość. Przygotowujesz i prowadzisz testy, a potem utrzymujesz rozwiązanie.",
+  "jakDziala": "Identyfikacja, projektowanie, nabywanie lub budowa, konfiguracja i testowanie rozwiązań spełniających wymagania.",
   "dlaczegoWazne": "Kupno gotowego systemu to też BAI03, bo domena nazywa się Twórz, Nabywaj i Wdrażaj. Odbiór przez użytkowników to już BAI07.",
   "przyklady": {
     "zycie": "Masz projekt kuchni i listę wymagań. Stolarz rysuje szafki, kupuje płyty i okucia, składa i montuje. Na koniec sprawdza, czy szuflady się domykają. To budowa rozwiązania – BAI03.",
@@ -71,20 +71,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "BAI03 Zarządzanie identyfikacją i budowaniem rozwiązań"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 61,
-      "cytat": "procesy związane z budowaniem aplikacji oraz nabyciem w domenie BAI"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39"
+      "doc": "ENPROC",
+      "sekcja": "BAI03 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-bai03",

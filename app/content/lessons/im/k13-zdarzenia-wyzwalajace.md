@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-02-02]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-imk-13-1, q-imk-13-2, q-imk-13-3]
-zapas: [q-imk-13-z1]
+cwiczenia: ["q-im-02-01", "q-im-02-03"]
+zapas: ["q-fn-w-53"]
 wprowadza: [zdarzenia-wyzwalajace]
 wymaga: [im-k12-punkty-zapalne]
 cel: "Potrafię odróżnić zdarzenie wyzwalające od punktu zapalnego i od czynnika środowiskowego."

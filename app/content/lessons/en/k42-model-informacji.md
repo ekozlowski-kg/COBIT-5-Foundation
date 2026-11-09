@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-19]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-42-1, q-enk-42-2, q-enk-42-3]
-zapas: [q-enk-42-z1]
+cwiczenia: ["q-enk-42-3", "q-enk-42-z1"]
+zapas: ["q-fin-pliki-27"]
 wprowadza: [model-informacji]
 wymaga: [en-k41-jakosc-informacji]
 cel: "Potrafię wymienić sześć warstw atrybutów informacji i trzy zastosowania modelu informacji."

@@ -31,10 +31,10 @@
   "wyobrazSobie": "Wprowadzasz w domu segregację śmieci. Tłumaczysz, wieszasz kartkę, chwalisz i pilnujesz, aż wszyscy robią to odruchowo.",
   "skadNazwa": "Z angielskiego *Manage Organisational Change Enablement*, dosłownie „umożliwianie zmiany w organizacji”. Podręcznik tłumaczy to jako „wdrażanie zmian organizacyjnych”. Chodzi o ludzi i kulturę, nie o serwery.",
   "poziom1": "Proces domeny [[bai]] od ludzkiej strony zmiany: chęć zmiany, zespół wdrożeniowy, komunikacja celu, pierwsze sukcesy, przygotowanie do pracy po nowemu i utrwalenie nowych nawyków. Ma sprawić, że organizacja naprawdę przyjmie zmianę, a nie tylko dostanie nowe narzędzie.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** budzi chęć zmiany, tworzy zespół wdrożeniowy, komunikuje wizję, daje ludziom uprawnienia i pokazuje szybkie sukcesy, przygotowuje do działania i użytkowania, wpisuje nowe podejście w codzienność i podtrzymuje zmianę.\n\n**Wejścia (intuicja):** cele i plan programu ([[proc-bai01]]), opis nowego rozwiązania, wyniki analizy interesariuszy.\n\n**Wyjścia (intuicja):** plan komunikacji, plan szkoleń, mapa oporu i sojuszników, ocena przyjęcia zmiany.\n\n**Współpracuje z:** [[proc-bai01]] (program), [[proc-bai07]] (przejście do eksploatacji), [[proc-bai08]] (wiedza dla użytkowników), APO07 (kompetencje ludzi), aktywatorem [[kultura-etyka-zachowanie]].",
+  "poziom2": "**Cel i zakres:** przygotowanie ludzi i organizacji do zmiany oraz utrwalenie nowych zachowań i sposobów pracy.\n\n**Przykład:** Organizacja buduje poparcie liderów, komunikuje nowe role i szkoli pracowników, by przyjęli nowy sposób pracy.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL, s. 60): *„Procesy COBIT 5 BAI05 Zarządzanie wdrażaniem zmian organizacyjnych oraz BAI08 Zarządzanie wiedzą zapewniają użytkownikom możliwość efektywnego korzystania z systemów.”* Ten sam temat w module wdrożenia to pierścień „Umożliwienie zmian” (s. 37): za *„małą wagę przywiązuje się do zarządzania tymi aspektami zmiany, które dotyczą osób, zachowania i kultury”*. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby ludzie przyjęli zmianę, a nie tylko dostali nowe narzędzie. Bez tego zmiana zostaje na papierze.",
-  "jakDziala": "Budzisz chęć zmiany i tworzysz zespół wdrożeniowy. Komunikujesz wizję, dajesz ludziom uprawnienia i pokazujesz szybkie sukcesy. Wspierasz pracę po nowemu, osadzasz nowe podejścia i utrwalasz zmianę.",
+  "jakDziala": "Przygotowanie ludzi i organizacji do zmiany oraz utrwalenie nowych zachowań i sposobów pracy.",
   "dlaczegoWazne": "Na egzaminie nie myl BAI05 (ludzie i organizacja) z BAI06 (zmiany w systemach). Praktyki BAI05 odpowiadają pierścieniowi Aktywowanie zmiany.",
   "przyklady": {
     "zycie": "Babcia dostaje smartfon zamiast starej komórki. Wnuczka nie tylko daje jej telefon. Tłumaczy, po co jej wideorozmowy, uczy po kawałku, chwali za pierwszy wysłany SMS i przez miesiąc dzwoni z pytaniem, jak idzie. To BAI05 w domowej skali.",
@@ -73,23 +73,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 60,
-      "cytat": "BAI05 Zarządzanie wdrażaniem zmian organizacyjnych oraz BAI08 Zarządzanie wiedzą zapewniają użytkownikom możliwość efektywnego korzystania z systemów"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 37,
-      "cytat": "małą wagę przywiązuje się do zarządzania tymi aspektami zmiany, które dotyczą osób, zachowania i kultury"
-    },
-    {
-      "doc": "ALTKOM"
+      "doc": "ENPROC",
+      "sekcja": "BAI05 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-bai05",

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-03, PR-01-04]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-mtk-17-1, q-mtk-17-2, q-mtk-17-3]
-zapas: [q-mtk-17-z1]
+cwiczenia: ["q-prb-46-3", "q-prb-47-2"]
+zapas: ["q-prb-46-z1"]
 wprowadza: []
 wymaga: [mt-k16-granica-aktywatorow]
 cel: "Potrafię pokazać kursantowi układ 37 procesów (5–13–10–6–3) z jednym słowem na domenę i EDM jako lustrem tworzenia wartości."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-12]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-25-1, q-enk-25-2, q-enk-25-3]
-zapas: [q-enk-25-z1]
+cwiczenia: ["q-enk-25-z1", "q-en-04-02"]
+zapas: ["q-enk-26-2"]
 wprowadza: [struktury-organizacyjne]
 wymaga: [en-k23-raci-c-i]
 cel: "Potrafię powiedzieć, czym jest struktura organizacyjna, jaki jest jej wynik i jak wygląda jej cykl życia."

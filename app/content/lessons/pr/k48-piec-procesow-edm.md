@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-03]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prb-48-1, q-prb-48-2, q-prb-48-3]
-zapas: [q-prb-48-z1]
+cwiczenia: ["q-prb-46-3", "q-prb-47-2"]
+zapas: ["q-prb-46-z1"]
 wprowadza: []
 wymaga: [pr-k47-prm-nie-normatywny]
 cel: "Potrafię wymienić pięć procesów domeny Ładu po kodzie i słowie-kluczu."

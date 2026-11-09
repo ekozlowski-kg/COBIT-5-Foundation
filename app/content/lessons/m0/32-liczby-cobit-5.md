@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-07]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-32-1, q-m0k-32-2, q-m0k-32-3]
-zapas: [q-m0k-32-z1]
+cwiczenia: []
+zapas: []
 wprowadza: [cobit-2019]
 wymaga: [m0-31-itil-iso-27001]
 cel: "Potrafię podać liczby COBIT 5 (5 zasad, 7 kategorii aktywatorów, 37 procesów) i rozpoznać materiał o COBIT 2019."

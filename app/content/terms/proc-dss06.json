@@ -32,10 +32,10 @@
   "wyobrazSobie": "W domu jedna osoba robi zakupy, a druga sprawdza paragon z listą. Nikt nie płaci i nie rozlicza sam siebie.",
   "skadNazwa": "Z angielskiego *Manage Business Process Controls*. „Mechanizm kontrolny” (*control*) to tu nie kontrola z zewnątrz, tylko zabezpieczenie wbudowane w sam proces, np. „dwie pary oczu”.",
   "poziom1": "Proces domeny [[dss]], który określa i utrzymuje mechanizmy kontrolne w procesach biznesowych – własnych i zleconych – tak, żeby przetwarzane w nich informacje spełniały wymagania: kompletność, poprawność, autoryzacja, rozdział obowiązków, obsługa wyjątków i zachowanie dowodów.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** wplata mechanizmy kontrolne w przetwarzanie informacji w procesach biznesowych, sprawdza dane na wejściu, w trakcie i na wyjściu, ustala role, uprawnienia i rozdział obowiązków, obsługuje wyjątki i błędy w danych, zachowuje dowody, że kontrola zadziałała.\n\n**Wejścia (intuicja):** opis procesu biznesowego i jego właściciel, wymagania co do informacji (kompletność, poprawność), ryzyko (APO12).\n\n**Wyjścia (intuicja):** działające mechanizmy kontrolne, przydział ról i uprawnień, rejestr wyjątków, ślad dowodowy.\n\n**Współpracuje z:** [[proc-dss05]] (techniczne zarządzanie dostępem), [[proc-mea02]] (ocena systemu kontroli wewnętrznej), aktywatorem [[jakosc-informacji]].",
+  "poziom2": "**Cel i zakres:** definiowanie i utrzymanie kontroli w procesach biznesowych, aby zapewniać poprawne i uprawnione przetwarzanie informacji.\n\n**Przykład:** System wymaga drugiego zatwierdzenia dużego zwrotu i sprawdza kompletność oraz poprawność danych transakcji.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL). Słownik (s. 89), „Mechanizmy kontrolne procesów biznesowych”: *„Polityki, procedury, praktyki i struktury organizacyjne stworzone w celu racjonalnego zapewnienia realizacji celów biznesowych związanych z danym procesem biznesowym.”* Il. 33 (s. 76): właściciel procesu biznesowego odpowiada m.in. za *„zatwierdzanie zmian dotyczących procesu”*. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby dane w procesach biznesowych były kompletne, poprawne i zatwierdzone przez właściwą osobę. Kontrola jest wbudowana w codzienną pracę.",
-  "jakDziala": "Dopasowujesz mechanizmy kontrolne do celów organizacji. Kontrolujesz przetwarzanie informacji i rozdzielasz role oraz uprawnienia. Obsługujesz błędy i wyjątki, zapewniasz ślad działań i chronisz zasoby informacyjne.",
+  "jakDziala": "Definiowanie i utrzymanie kontroli w procesach biznesowych, aby zapewniać poprawne i uprawnione przetwarzanie informacji.",
   "dlaczegoWazne": "DSS06 ustawia i wykonuje kontrole w procesach biznesowych. Ocena, czy cały system kontroli działa, to MEA02.",
   "przyklady": {
     "zycie": "W domowym budżecie ustaliliście: przelew powyżej 1000 zł wymaga zgody drugiej osoby, a każdy paragon ląduje w pudełku. Bank sam blokuje przelew, jeśli brakuje numeru konta. Te zabezpieczenia działają w trakcie wydawania pieniędzy, a nie po fakcie.",
@@ -72,21 +72,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "DSS06 Zarządzanie mechanizmami kontrolnymi procesów biznesowych"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 89,
-      "cytat": "Polityki, procedury, praktyki i struktury organizacyjne stworzone w celu racjonalnego zapewnienia realizacji celów biznesowych związanych z danym procesem biznesowym."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 76,
-      "ilustracja": "33",
-      "cytat": "zatwierdzanie zmian dotyczących procesu"
+      "doc": "ENPROC",
+      "sekcja": "DSS06 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-dss06",

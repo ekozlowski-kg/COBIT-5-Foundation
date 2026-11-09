@@ -9,11 +9,11 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 5
 zgadnij: []
-cwiczenia: [q-m0k-35-1, q-m0k-35-2, q-m0k-35-3]
-zapas: [q-m0k-35-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [m0-34-trzy-nazwy-terminu]
-cel: "Potrafię odczytać polską skalę ocen N / C / W / P i wiem, że na egzaminie PL litera P oznacza Pełny."
+cel: "Potrafię odczytać polską skalę ocen N / C / W / P i wiem, że w polskim zapisie kursu litera P oznacza Pełny."
 priorytet: 2
 ---
 

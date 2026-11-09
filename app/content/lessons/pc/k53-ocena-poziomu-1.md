@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-04, PC-02-06]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-53-1, q-pck-53-2, q-pck-53-3]
-zapas: [q-pck-53-z1]
+cwiczenia: ["q-pck-53-2", "q-warsztat-outcome-artefakt"]
+zapas: ["q-pck-42-2"]
 wprowadza: []
 wymaga: [pc-k52-cztery-pojecia-iso]
 cel: "Potrafię opisać trzy kroki oceny poziomu 1 i powiedzieć, co zrobić, gdy proces go nie osiąga."

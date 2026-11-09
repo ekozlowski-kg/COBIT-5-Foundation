@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-01]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pra-11-1, q-pra-11-2, q-pra-11-3]
-zapas: [q-pra-11-z1]
+cwiczenia: ["q-pra-10-z1", "q-pak-T04Q08"]
+zapas: ["q-pra-10-2"]
 wprowadza: [zasada-1, zasada-2, zasada-3]
 wymaga: [pr-k10-piec-zasad]
 cel: "Potrafię powiedzieć w jednym zdaniu, o czym są zasady 1, 2 i 3, i dobrać do każdej słowo-klucz."

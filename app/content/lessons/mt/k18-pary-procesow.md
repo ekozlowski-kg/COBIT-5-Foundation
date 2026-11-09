@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04, PR-02-14]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-mtk-18-1, q-mtk-18-2, q-mtk-18-3]
-zapas: [q-mtk-18-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: []
 wymaga: [mt-k17-37-procesow-szuflady]
 cel: "Potrafię rozplątać najczęściej mylone procesy jednym pytaniem rozstrzygającym o rodzaj pracy."

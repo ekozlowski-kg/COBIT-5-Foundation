@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-02-02]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pck-56-1, q-pck-56-2, q-pck-56-3]
-zapas: [q-pck-56-z1]
+cwiczenia: ["q-pck-56-2", "q-pck-56-z1"]
+zapas: ["q-luk-enpc-25"]
 wprowadza: [przewodniki-oceny]
 wprowadzaListe: [pam, przewodnik-asesora, przewodnik-samooceny]
 wymaga: [pc-k55-cele-oceny]

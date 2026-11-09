@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-12]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-37-1, q-pra-37-2, q-pra-37-3]
-zapas: [q-pra-37-z1]
+cwiczenia: ["q-pra-37-3", "q-pra-36-3"]
+zapas: ["q-fn-m-14"]
 wprowadza: [cykl-zycia-aktywatora]
 wprowadzaListe: [cykl-faza-1, cykl-faza-2, cykl-faza-3, cykl-faza-4, cykl-faza-5, cykl-faza-6]
 wymaga: [pr-k36-wymiary-aktywatora]

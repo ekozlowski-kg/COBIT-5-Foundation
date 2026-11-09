@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-03]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-prb-55-1, q-prb-55-2, q-prb-55-3]
-zapas: [q-prb-55-z1]
+cwiczenia: ["q-prb-46-3", "q-prb-47-2"]
+zapas: ["q-prb-46-z1"]
 wprowadza: []
 wymaga: [pr-k54-atlas-edm04-edm05]
 cel: "Potrafię pokazać, że EDM02, EDM03 i EDM04 odpowiadają trzem składnikom Celu Ładu, a EDM01 i EDM05 je otaczają."

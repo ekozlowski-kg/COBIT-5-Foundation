@@ -5,7 +5,7 @@
   },
   "uwagi": [
     "Numery stron odnoszą się do polskiego wydania COBIT 5 Framework (FW-PL); strona w PDF = strona drukowana.",
-    "Tytuły tematów używają terminologii egzaminu PL (Ład, Aktywator, organizacja, informatyka). Odpowiedniki z podręcznika – w terms/ i terminology-traps.json.",
+    "Polskie nazwy są konwencją kursu. Definicje weryfikowano względem angielskiego COBIT 5; poprawne synonimy nie są samodzielnym powodem odrzucenia odpowiedzi.",
     "Obszar M0 to nasze treści wprowadzające (spoza sylabusa) – status 'uproszczenie'."
   ],
   "egzamin": {
@@ -14,7 +14,7 @@
     "poprawne": 1,
     "minuty": 40,
     "minutyDodatkowe": 10,
-    "minutyDodatkoweOpis": "Dla osób zdających w języku innym niż ojczysty lub z niepełnosprawnością (SYL 3.3).",
+    "minutyDodatkoweOpis": "Historyczny SYL 3.3 opisuje dodatkowy czas w określonych przypadkach. Aktualne zasady językowe i udogodnienia trzeba potwierdzić u operatora; nie są automatycznym uprawnieniem każdej osoby z niepełnosprawnością.",
     "progProcent": 50,
     "progUwagi": "Sylabus v01.2 ma niespójny nawias 20 or more marks. Obowiązuje 50%, czyli 25/50, zgodnie z instrukcją APMG do arkusza Foundation. Cel treningowy to 35/50.",
     "celTreningowy": 35,

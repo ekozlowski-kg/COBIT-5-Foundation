@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-01-01, IM-02-05, IM-02-07]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-imk-19-1, q-imk-19-2, q-imk-19-3]
-zapas: [q-imk-19-z1]
+cwiczenia: ["q-sk-wymiar-cykl-zycia-1", "q-spr-im-01"]
+zapas: ["q-mt-06-01"]
 wprowadza: []
 wymaga: [im-k18-fazy-4-7]
 cel: "Potrafię przypisać działanie z Rysunku 17 do właściwej fazy i właściwego pierścienia."

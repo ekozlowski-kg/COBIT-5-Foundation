@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-02-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-imk-11-1, q-imk-11-2, q-imk-11-3]
-zapas: [q-imk-11-z1]
+cwiczenia: ["q-imk-11-2", "q-imk-11-z1"]
+zapas: ["q-im-01-02"]
 wprowadza: [kluczowe-czynniki-sukcesu]
 wymaga: [im-k10-kontekst]
 cel: "Potrafię wymienić kluczowe czynniki sukcesu wdrożenia COBIT 5 i odrzucić odpowiedzi, które im przeczą."

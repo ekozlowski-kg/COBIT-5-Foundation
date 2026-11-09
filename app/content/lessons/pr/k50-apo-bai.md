@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-prb-50-1, q-prb-50-2, q-prb-50-3]
-zapas: [q-prb-50-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [apo, bai]
 wymaga: [pr-k49-cztery-domeny]
 cel: "Potrafię rozpoznać, czy zadanie należy do domeny APO, czy BAI, i podać przykładowe procesy każdej z nich."

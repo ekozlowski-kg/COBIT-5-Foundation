@@ -60,6 +60,7 @@
   <h1>COBIT 5 krok po kroku</h1>
   <p class="lead">Podręcznik rozdział po rozdziale: jedna myśl na slajd, pytania kontrolne po ważniejszych slajdach. Podkreślone pojęcia i przycisk „Kontekst” otwierają wyjaśnienia.</p>
   <div class="resume" id="resume"></div>
+  <a class="mapcard" href="../index.html#/egzamin"><strong>Testy z pełną nauką i wyjaśnieniami</strong><span>240 recenzowanych pytań, 13 zestawów, omówienie każdej opcji, przykłady i powtórka błędów.</span><em>Rozpocznij naukę →</em></a>
   <a class="mapcard" href="mapa.html"><strong>Mapa COBIT 5</strong><span>Cały framework na 7 interaktywnych schematach: zasady, kaskada celów, Ład i role, 37 procesów, aktywatory, wdrożenie i model zdolności.</span><em>Otwórz mapę →</em></a>
   <a class="mapcard" href="../index.html#/poziom"><strong>Mój poziom</strong><span>Wskaźnik treningowy, pierwsze odpowiedzi, słabe tematy z powrotem do działu, test diagnostyczny, trening i pomoc AI przy pytaniach.</span><em>Sprawdź poziom →</em></a>
   <p class="stats" id="stats"></p>
@@ -72,7 +73,7 @@
     <a href="../index.html#/egzamin">Egzamin próbny (50 pytań, 40 min)</a>
     <a href="../index.html#/slownik">Słownik pojęć</a>
     <a href="../index.html#/powtorki">Powtórki</a>
-    <a href="../index.html#/dryl">Ćwiczenie nazw z egzaminu</a>
+    <a href="../index.html#/dryl">Trening pojęć COBIT 5</a>
     <a href="../index.html#/notatki">Notatki</a>
   </nav>
   <p class="legal">Niezależny materiał do nauki do egzaminu COBIT 5 Foundation – nie jest powiązany z ISACA ani z PeopleCert. COBIT® jest znakiem towarowym ISACA®. Numery stron („s. 17”) odnoszą się do polskiego wydania podręcznika COBIT 5 (ISACA, 2012). Postęp nauki zapisuje się tylko w tej przeglądarce.</p>
@@ -84,8 +85,8 @@ const PARTS=[];
 (window.SPIS||[]).forEach(c=>{
   const m=c.chap.match(/^Rozdział (\d+)/), no=m?m[1]:/^Wstęp/.test(c.chap)?'0':/^Załącznik (\w)/.test(c.chap)?c.chap.match(/^Załącznik (\w)/)[1]:'+';
   PARTS.push({chap:c.chap+(c.s?' · '+c.s:'')});
-  c.parts.forEach((p,k)=>PARTS.push({id:p.id,href:p.href,n:no+'.'+(k+1),t:p.t,q:(p.pytania||0)+(p.sp1||0),
-    d:p.d+(p.slajdy?' · '+p.slajdy+' slajdów':'')+(p.pytania?' · '+p.pytania+' pytań':'')+(p.sp1?' · '+p.sp1+' z arkusza próbnego':'')}));
+  c.parts.forEach((p,k)=>PARTS.push({id:p.id,href:p.href,n:no+'.'+(k+1),t:p.t,q:(p.pytania||0),
+    d:p.d+(p.slajdy?' · '+p.slajdy+' slajdów':'')+(p.pytania?' · '+p.pytania+' pytań':'')+(p.sp1?' · opcjonalne pytania z lokalnego arkusza':'')}));
 });
 let st={};try{st=JSON.parse(localStorage.getItem('c5.podrecznik')||'{}')}catch(e){}
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -93,7 +94,8 @@ const real=PARTS.filter(p=>p.id);
 if(!real.length){document.getElementById('resume').innerHTML='<div><strong>Nie udało się wczytać spisu treści</strong><span>Sprawdź połączenie i odśwież stronę.</span></div><a class="go" href="">Odśwież</a>';}else{
 function info(p){
   const e=st[p.id];if(!e)return{state:'todo',pct:0,lab:'nie zaczęte'};
-  const q=e.q||{},n=Object.keys(q).length,ok=Object.values(q).filter(Boolean).length,qT=e.qTotal||0;
+  const same=e.bankRevision===p.bankRevision;
+  const q=same?(e.q||{}):{},n=Object.keys(q).length,ok=Object.values(q).filter(Boolean).length,qT=same?(e.qTotal||0):(p.q||0);
   const pct=Math.round(100*Math.min(e.max||0,e.total||1)/(e.total||1));
   const done=pct>=100&&n>=qT;
   let lab=done?'✓ gotowe':'slajd '+(e.max||0)+' z '+(e.total||'?');
@@ -108,7 +110,7 @@ const ci=info(cur);
 const startNow=!st[cur.id];
 document.getElementById('resume').innerHTML='<div><small>'+(startNow?'Zacznij tutaj':'Kontynuuj')+'</small><strong>'+esc(cur.n+' · '+cur.t)+'</strong><span>'+esc(startNow?cur.d:ci.lab)+'</span></div><a class="go" href="'+cur.href+'">'+(startNow?'Zacznij →':'Kontynuuj →')+'</a>';
 let doneN=0,okAll=0,qAll=0;real.forEach(p=>{const x=info(p);if(x.state==='done')doneN++;okAll+=x.ok||0;qAll+=x.qT||p.q||0});
-document.getElementById('stats').textContent='Gotowe części: '+doneN+' z '+real.length+(qAll?' · dobre odpowiedzi: '+okAll+' z '+qAll:'');
+document.getElementById('stats').textContent='Gotowe części: '+doneN+' z '+real.length+(qAll?' · odpowiedzi w lekcjach: '+okAll+' z '+qAll:'');
 let h='',open=false;
 PARTS.forEach(p=>{
   if(p.chap){if(open)h+='</ol>';h+='<p class="chap">'+esc(p.chap)+'</p><ol class="path">';open=true;return}

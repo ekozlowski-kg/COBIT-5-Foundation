@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-01, PC-01-02]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-24-1, q-pck-24-2, q-pck-24-3]
-zapas: [q-pck-24-z1]
+cwiczenia: ["q-pck-24-3", "q-pck-20-z1"]
+zapas: ["q-pck-21-z1"]
 wprowadza: [atrybuty-procesu]
 wymaga: [pc-k23-poziomy-3-5]
 cel: "Potrafię przypisać dziewięć atrybutów procesu do poziomów zdolności 1–5."
@@ -65,7 +65,7 @@ Pierwsza cyfra w kodzie to numer poziomu. PA 4.1 należy więc do poziomu 4. Tę
 :::
 
 :::sb uwaga
-Nazwy PA 1.1 i PA 2.2 na egzaminie PL nie są potwierdzone w oficjalnych materiałach. Kurs przyjmuje „Wykonanie procesu” i „Zarządzanie produktami pracy”. Rozpoznawaj je po kodzie i nazwie EN.
+Nazwy PA 1.1 i PA 2.2 w polskim zapisie kursu nie są potwierdzone w oficjalnych materiałach. Kurs przyjmuje „Wykonanie procesu” i „Zarządzanie produktami pracy”. Rozpoznawaj je po kodzie i nazwie EN.
 :::
 
 :::sb wyjasnij

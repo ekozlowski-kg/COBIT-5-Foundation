@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-03, PR-02-06, PR-02-07]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-mtk-14-1, q-mtk-14-2, q-mtk-14-3]
-zapas: [q-mtk-14-z1]
+cwiczenia: ["q-pra-17-z1", "q-pak-T01Q04"]
+zapas: ["q-pra-21-z1"]
 wprowadza: []
 wymaga: [mt-k13-kaskada-od-konca]
 cel: "Potrafię ostrzec kursanta, że kaskada to sieć powiązań, a brak ścieżki w górę to sygnał do przeglądu, a nie wyrok."

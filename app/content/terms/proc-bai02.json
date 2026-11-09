@@ -26,10 +26,10 @@
   "wyobrazSobie": "Zanim kupisz auto, spisujesz: pięć miejsc, hak, spalanie poniżej 7 litrów. Dopiero z tą listą jedziesz do salonu.",
   "skadNazwa": "Z angielskiego *Manage Requirements Definition*. „Wymaganie” to zapisane oczekiwanie: co rozwiązanie ma robić i jak dobrze.",
   "poziom1": "Proces domeny [[bai]], w którym ustalasz i uzgadniasz wymagania, zanim cokolwiek kupisz lub zbudujesz. Sprawdza też warianty rozwiązania, wykonalność i ryzyko. Wymagania zatwierdza strona biznesowa, a nie dostawca.",
-  "poziom2": "**Czym się zajmuje:** zbiera wymagania od interesariuszy – funkcje, dane, bezpieczeństwo, dostępność, łatwość obsługi i utrzymania. Porównuje warianty (kupić, zbudować, dostosować), ocenia wykonalność i ryzyko wymagań.\n\n**Wejścia (intuicja):** potrzeby i cele programu ([[proc-bai01]]), architektura (APO03), oczekiwany poziom usług (APO09).\n\n**Wyjścia (intuicja):** zatwierdzone wymagania, studium wykonalności z wariantami, kryteria odbioru.\n\n**Współpracuje z:** [[proc-bai03]] (buduje według wymagań), [[proc-bai04]] (wymagania pojemności), [[proc-bai07]] (testy akceptacyjne sprawdzają wymagania).",
+  "poziom2": "**Cel i zakres:** zdefiniowanie i uzgodnienie wymagań biznesowych oraz technicznych, w tym wykonalności i kryteriów akceptacji.\n\n**Przykład:** Analitycy uzgadniają potrzeby użytkowników i wsparcia, oceniają wykonalność oraz zatwierdzają wymagania rozwiązania.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL, s. 60): *„Proces COBIT 5 BAI02 Zarządzanie definiowaniem wymagań ułatwia projektowanie aplikacji w sposób spełniający wymagania dotyczące obsługi przez pracowników wsparcia i użytkowania.”* Il. 39 (s. 88) wymienia przy BAI kategorię umiejętności „Definiowanie wymagań i zarządzanie nimi”. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby kupić albo zbudować to, czego naprawdę potrzebujesz. Wymagania zatwierdza biznes, a nie sprzedawca.",
-  "jakDziala": "Zbierasz i spisujesz wymagania funkcjonalne i techniczne. Badasz wykonalność, warianty rozwiązania i ryzyko wymagań. Na końcu strona biznesowa zatwierdza wymagania i wybrane rozwiązanie.",
+  "jakDziala": "Zdefiniowanie i uzgodnienie wymagań biznesowych oraz technicznych, w tym wykonalności i kryteriów akceptacji.",
   "dlaczegoWazne": "Źle spisane wymagania psują wszystkie dalsze kroki w BAI (interpretacja kursu). Na egzaminie nie myl definiowania wymagań (BAI02) z budowaniem rozwiązania (BAI03).",
   "przyklady": {
     "zycie": "Kupujesz samochód dla rodziny. Zanim pójdziesz do salonu, spisujesz: 7 miejsc, duży bagażnik, spalanie poniżej 7 litrów, cena do 90 tysięcy. Ta kartka to wymagania. Sprzedawca pokaże Ci potem auta, które je spełniają albo nie.",
@@ -62,20 +62,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "BAI02 Zarządzanie definiowaniem wymagań"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 60,
-      "cytat": "BAI02 Zarządzanie definiowaniem wymagań ułatwia projektowanie aplikacji w sposób spełniający"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39"
+      "doc": "ENPROC",
+      "sekcja": "BAI02 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-bai02",

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-25, PR-02-14]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-mtk-23-1, q-mtk-23-2, q-mtk-23-3]
-zapas: [q-mtk-23-z1]
+cwiczenia: ["q-fn-m-25", "q-en-03-03"]
+zapas: ["q-en-03b-03"]
 wprowadza: []
 wymaga: [mt-k22-wdrozenie-w-kalendarzu]
 cel: "Potrafię zbudować 15-minutowe mini-szkolenie o jednym atomie według ośmiu części karty prowadzącego."
@@ -89,7 +89,7 @@ Obie nazwy zaczynają się od „odpowiedzialny”, więc łatwo wpisać R tam, 
 :::
 
 :::wykladowca
-Typowa pomyłka do karty: kursant myli A z R, bo obie nazwy egzaminacyjne zaczynają się od „odpowiedzialny”. R wykonuje pracę. A odpowiada za powodzenie i jest jedna przy danym zadaniu. Pokażcie kursantowi obie nazwy egzaminacyjne obok angielskich.
+Typowa pomyłka do karty: kursant myli A z R, bo obie nazwy stosowane w kursie zaczynają się od „odpowiedzialny”. R wykonuje pracę. A odpowiada za powodzenie i jest jedna przy danym zadaniu. Pokażcie kursantowi obie nazwy stosowane w kursie obok angielskich.
 :::
 
 ---

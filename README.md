@@ -1,20 +1,22 @@
 # COBIT 5 Foundation – krok po kroku
 
-Platforma nauki do egzaminu COBIT 5 Foundation (PeopleCert, po polsku). Główna aplikacja to **podręcznik krok po kroku**, ułożony rozdział po rozdziale jak podręcznik COBIT 5:
+Platforma nauki COBIT 5 Foundation po polsku. Parametry egzaminu odnoszą się do historycznego sylabusa; aktualne warunki ustala operator. Główna aplikacja to **podręcznik krok po kroku**, ułożony rozdział po rozdziale jak podręcznik COBIT 5:
 - jedna myśl na slajd, a po ważniejszych slajdach pytania kontrolne w stylu egzaminu;
-- podkreślone pojęcia otwierają panel z nazwami (najpierw egzaminacyjną, potem z podręcznika i angielską), wyjaśnieniem, przykładami z firmy i z urzędu oraz uwagą „Na egzamin”.
+- podkreślone pojęcia otwierają panel z nazwami (wariantem kursu, z podręcznika i angielskim), wyjaśnieniem, przykładami z firmy i z urzędu oraz uwagą „Na egzamin”.
 
 Obok podręcznika są:
 - **Mapa COBIT 5**: interaktywny schemat całego frameworka na 7 mapach (zasady, kaskada celów, Ład i role, 37 procesów, aktywatory, wdrożenie, model zdolności). Klikalne węzły, powiązania i panel Prościej / Dokładniej / Na egzamin.
 - **Mój poziom**: wskaźnik treningowy (na 50; bez prognozowania wyniku egzaminu) i osobny wynik pierwszych zarejestrowanych odpowiedzi; obejmuje podręcznik, ćwiczeniach i egzaminach próbnych, wynik w obszarach PR/EN/IM/PC, słabe tematy sylabusa z powrotem do działu podręcznika, test diagnostyczny (20 pytań) i trening słabych tematów.
 - **Rozbiór pytań i pomoc AI**: w ćwiczeniach przycisk „Nie rozumiem pytania” (typ pytania, słowa-sygnały, znaczenie pojęć – bez zdradzania odpowiedzi), a po odpowiedzi gotowe polecenie dla Claude lub ChatGPT. Część podręcznika „Rozbiór pytań: 9 typów na przykładach”.
-- **Narzędzia**: egzamin próbny (50 pytań, 40 minut, wynik w podziale na obszary PR/EN/IM/PC), egzamin mistrzowski, słownik 230 pojęć z pułapkami nazw, powtórki, ćwiczenie nazw egzaminacyjnych i notatki.
+- **Narzędzia**: egzamin próbny (50 pytań, 40 minut, wynik w podziale na obszary PR/EN/IM/PC), egzamin mistrzowski, słownik 230 pojęć z wariantami nazw, powtórki, trening pojęć ze wspólnej puli i notatki.
 
-## Przegląd merytoryczny i materiały
+## Pełna recenzja i nauka w testach
 
-Poprawki z 2026-11-09 obejmują PRM/PAM, oba wymiary oceny, rezultaty procesu, ocenę dowodów i role interesariuszy. Dodano Decision making w lekcji o strukturach oraz autorski warsztat scenariuszowy. Szczegóły i ograniczenia w [rejestrze zmian merytorycznych](docs/PRZEGLAD-MERYTORYCZNY.md).
+**240 pytań zamiast 1711**, po indywidualnym przeglądzie każdej pierwotnej pozycji. Wspólna pula zawiera 203 wybrane i zredagowane pytania oraz 37 nowych przypadków procesowych. Usunięto też dodatkowe quizy bez ID i generatory powtarzających się pytań.
 
-[Bazy pytań, filmy i kursy](docs/BAZY-PYTAN-I-MATERIALY.md) mają datę i zakres weryfikacji. W aplikacji katalog jest pod `materialy.html` z wyszukiwaniem i filtrami. Treści zewnętrznych banków nie zostały skopiowane. [Macierz pokrycia](docs/POKRYCIE-SYLABUSA.md) oddziela powiązania z metadanych od zweryfikowanych fragmentów.
+W aplikacji wybierz **Testy z pełną nauką i wyjaśnieniami** (`index.html#/egzamin`): 11 zestawów tematycznych oraz dwa rozłączne arkusze po 50 pytań. Tryb nauki wyjaśnia każdą opcję, zasadę COBIT 5, przykład i typowy błąd; prowadzi do lekcji. Sprawdzian kończy się omówieniem wszystkich pytań i możliwością ponownej nauki na błędach. Są mini lekcje dla wszystkich 64 tematów Foundation.
+
+[Pełna recenzja, zakres źródeł i kontrole](docs/RECENZJA-PELNEJ-PULI.md), [decyzje dla wszystkich 1711 ID](docs/REJESTR-RECENZJI-PYTAN.json), [macierz pokrycia](docs/POKRYCIE-SYLABUSA.md). Do przeglądu wykorzystano wyłącznie materiały publiczne. Testy są autorskie i działają w aplikacji; katalog linków ma rolę pomocniczą.
 
 ## Uruchomienie lokalne
 Dwuklik `start.command` albo:

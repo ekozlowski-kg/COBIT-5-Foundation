@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-03, PR-02-05]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-22-1, q-pra-22-2, q-pra-22-3]
-zapas: [q-pra-22-z1]
+cwiczenia: ["q-pra-22-3", "q-pra-17-z1"]
+zapas: ["q-pak-T01Q04"]
 wprowadza: []
 wymaga: [pr-k21-bsc]
 cel: "Potrafię przypisać cel organizacji do właściwego wymiaru zrównoważonej karty wyników po jego sensie."

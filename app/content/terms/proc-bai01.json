@@ -26,10 +26,10 @@
   "wyobrazSobie": "Organizujesz komunię dziecka: sala, catering, fotograf. Każde to mały projekt, a całość prowadzisz Ty.",
   "skadNazwa": "Z angielskiego *Manage Programmes and Projects*. Program to grupa powiązanych projektów, które razem mają dać korzyść. Słowo „programy” nie oznacza tu programów komputerowych.",
   "poziom1": "Proces domeny [[bai]], w którym prowadzisz programy i projekty: od uruchomienia, przez plan i kontrolę postępów, po zamknięcie i przegląd po wdrożeniu. Pilnuje terminu, kosztów, jakości, ryzyka i tego, czy projekt nadal prowadzi do korzyści.",
-  "poziom2": "**Czym się zajmuje:** uruchamia, planuje, kontroluje i zamyka programy i projekty, które wybrano w portfelu inwestycji. Pilnuje zakresu, harmonogramu, kosztów, ryzyka i zaangażowania interesariuszy.\n\n**Wejścia (intuicja):** zatwierdzona inwestycja i [[uzasadnienie-biznesowe]] z portfela (APO05), oczekiwane korzyści.\n\n**Wyjścia (intuicja):** plan projektu, raporty postępu, decyzje „kontynuujemy / wstrzymujemy”, raport z zamknięcia i wnioski.\n\n**Współpracuje z:** APO05 (portfel decyduje, CO robimy), APO06 (budżet), APO12 (ryzyko), [[proc-bai02]]–[[proc-bai07]] (to, co projekt faktycznie definiuje, buduje i wdraża).",
+  "poziom2": "**Cel i zakres:** zarządzanie programami i projektami, w tym interesariuszami, zakresem, kosztami, terminami i monitorowaniem korzyści.\n\n**Przykład:** Sponsor i kierownik prowadzą program wdrożenia, kontrolują harmonogram oraz budżet i monitorują korzyści programu.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL): nazwa procesu na il. 16 (s. 33). Biuro zarządzania projektami i programami (PMO) to *„Funkcja odpowiedzialna za wspieranie kierowników programów i projektów”* (il. 33, s. 77). PRINCE2 obejmuje *„procesy zarządzania programami i projektami w domenie BAI”* (s. 61). Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby programy i projekty kończyły się na czas, w budżecie i dawały obiecane korzyści.",
-  "jakDziala": "Uruchamiasz program i projekty według jednego podejścia. Planujesz, kontrolujesz postęp, jakość i ryzyko. Na końcu zamykasz projekt i sprawdzasz, czy korzyści się pojawiły.",
+  "jakDziala": "Zarządzanie programami i projektami, w tym interesariuszami, zakresem, kosztami, terminami i monitorowaniem korzyści.",
   "dlaczegoWazne": "BAI01 prowadzi przedsięwzięcia już wybrane. Wybór programów do portfela to APO05 (Zarządzanie Portfelem), więc nie myl tych procesów.",
   "przyklady": {
     "zycie": "Budujesz dom. Kierownik budowy ma harmonogram, kosztorys i listę etapów. Co tydzień sprawdza, czy ekipy nie mają opóźnień, i od razu reaguje. Po odbiorze siadacie i spisujecie, co poszło źle. Tak działa BAI01.",
@@ -67,21 +67,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "BAI01 Zarządzanie programami i projektami"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 77,
-      "ilustracja": "33",
-      "cytat": "Funkcja odpowiedzialna za wspieranie kierowników programów i projektów"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 61,
-      "cytat": "procesy zarządzania programami i projektami w domenie BAI"
+      "doc": "ENPROC",
+      "sekcja": "BAI01 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-bai01",
@@ -92,16 +80,8 @@
   },
   "zagmatwania": [
     {
-      "mit": "BAI01 decyduje, które projekty robimy.",
-      "prawda": "Wybór i priorytety to portfel (APO05). BAI01 prowadzi projekty, które już zatwierdzono."
-    },
-    {
-      "mit": "Projekt skończony w terminie i budżecie to sukces BAI01.",
-      "prawda": "Liczy się też korzyść. BAI01 obejmuje przegląd po wdrożeniu i wyciąganie wniosków."
-    },
-    {
-      "mit": "Program to po prostu duży projekt.",
-      "prawda": "Program to grupa powiązanych projektów, które razem dają korzyść. BAI01 zarządza jednym i drugim."
+      "mit": "BAI01 pilnuje wyłącznie zakresu, terminu i budżetu.",
+      "prawda": "Obejmuje także interesariuszy, jakość, ryzyko i monitorowanie korzyści programu (BAI01.06). Korzyści nie są wyłączną domeną EDM02 lub APO05."
     }
   ],
   "mentor": {

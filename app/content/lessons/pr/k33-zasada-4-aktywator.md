@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-02]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-33-1, q-pra-33-2, q-pra-33-3]
-zapas: [q-pra-33-z1]
+cwiczenia: ["q-pra-33-3", "q-pra-34-z1"]
+zapas: ["q-fn-m-27"]
 wprowadza: [aktywator]
 wymaga: [pr-k32-baza-wiedzy]
 cel: "Potrafię wyjaśnić, czym jest aktywator i dlaczego według zasady 4 jeden aktywator nie wystarczy."

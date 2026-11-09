@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prc-65-1, q-prc-65-2, q-prc-65-3]
-zapas: [q-prc-65-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-bai01, proc-bai02]
 wymaga: [pr-k64-apo11-apo13]
 cel: "Potrafię odróżnić prowadzenie wybranego projektu (BAI01) od jego wyboru (APO05) i spisanie wymagań (BAI02) od budowy rozwiązania (BAI03)."

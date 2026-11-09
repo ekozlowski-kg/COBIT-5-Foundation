@@ -1,0 +1,261 @@
+[
+  {
+    "kod": "EDM01",
+    "en": "Ensure Governance Framework Setting and Maintenance",
+    "pl": "Zapewnienie ustanowienia i utrzymania ram Ładu",
+    "przypadek": "Organ Ładu ocenia zasady podejmowania decyzji o IT, ustala odpowiedzialności i nadzoruje skuteczność systemu Ładu.",
+    "cel": "ustanowienie i utrzymanie spójnych mechanizmów Ładu, odpowiedzialności oraz uprawnień decyzyjnych"
+  },
+  {
+    "kod": "EDM02",
+    "en": "Ensure Benefits Delivery",
+    "pl": "Zapewnienie dostarczania korzyści",
+    "przypadek": "Organ Ładu ocenia, czy portfel inwestycji i usług IT zapewnia oczekiwane korzyści oraz wartość dla interesariuszy.",
+    "cel": "zapewnienie wartości z inwestycji, usług i aktywów IT przez ocenę, kierowanie i monitorowanie realizacji korzyści"
+  },
+  {
+    "kod": "EDM03",
+    "en": "Ensure Risk Optimisation",
+    "pl": "Zapewnienie optymalizacji ryzyka",
+    "przypadek": "Organ Ładu ustala apetyt na ryzyko IT i monitoruje, czy istotne ryzyka pozostają w przyjętych granicach tolerancji.",
+    "cel": "zapewnienie zrozumienia i optymalizacji ryzyka związanego z IT, zgodnie z apetytem i tolerancją przedsiębiorstwa"
+  },
+  {
+    "kod": "EDM04",
+    "en": "Ensure Resource Optimisation",
+    "pl": "Zapewnienie optymalizacji zasobów",
+    "przypadek": "Organ Ładu ocenia, czy organizacja ma odpowiednich ludzi, informacje i technologię do realizacji celów oraz czy wykorzystuje je optymalnie.",
+    "cel": "zapewnienie odpowiednich zasobów IT i ich optymalnego wykorzystania do wspierania celów przedsiębiorstwa"
+  },
+  {
+    "kod": "EDM05",
+    "en": "Ensure Stakeholder Transparency",
+    "pl": "Zapewnienie przejrzystości dla interesariuszy",
+    "przypadek": "Organ Ładu określa wymagania komunikacji z interesariuszami i nadzoruje przejrzystość raportowania wyników oraz zgodności.",
+    "cel": "zapewnienie przejrzystości pomiaru i raportowania oraz skutecznej komunikacji z interesariuszami"
+  },
+  {
+    "kod": "APO01",
+    "en": "Manage the IT Management Framework",
+    "pl": "Zarządzanie ramami zarządzania IT",
+    "przypadek": "Kierownictwo ustala właścicieli procesów zarządczych, role, polityki i mechanizmy koordynacji pracy IT.",
+    "cel": "utrzymanie spójnego podejścia do zarządzania IT, obejmującego struktury, role, procesy i polityki"
+  },
+  {
+    "kod": "APO02",
+    "en": "Manage Strategy",
+    "pl": "Zarządzanie strategią",
+    "przypadek": "Kierownictwo określa przyszłą rolę IT w realizacji strategii przedsiębiorstwa i przygotowuje strategiczny plan inicjatyw.",
+    "cel": "dopasowanie strategicznego kierunku i planów IT do celów przedsiębiorstwa, z uwzględnieniem stanu obecnego i docelowego"
+  },
+  {
+    "kod": "APO03",
+    "en": "Manage Enterprise Architecture",
+    "pl": "Zarządzanie architekturą korporacyjną",
+    "przypadek": "Architekci opisują bazową i docelową architekturę danych, aplikacji i technologii, analizują luki oraz przygotowują plan przejścia.",
+    "cel": "spójny opis i rozwój architektury korporacyjnej, w tym modeli bazowych, docelowych oraz mapy przejścia"
+  },
+  {
+    "kod": "APO04",
+    "en": "Manage Innovation",
+    "pl": "Zarządzanie innowacjami",
+    "przypadek": "Zespół śledzi nowe technologie, ocenia ich potencjał biznesowy, prowadzi próby i monitoruje wykorzystanie zaakceptowanych innowacji.",
+    "cel": "rozpoznawanie i wykorzystywanie szans innowacji, od obserwacji i oceny po rekomendacje oraz monitorowanie wdrożenia i użycia"
+  },
+  {
+    "kod": "APO05",
+    "en": "Manage Portfolio",
+    "pl": "Zarządzanie portfelem",
+    "przypadek": "Kierownictwo porównuje inicjatywy, wybiera inwestycje, równoważy portfel i śledzi korzyści z jego realizacji.",
+    "cel": "optymalizacja portfela inwestycji i usług, ustalanie priorytetów oraz monitorowanie uzyskiwanych korzyści"
+  },
+  {
+    "kod": "APO06",
+    "en": "Manage Budget and Costs",
+    "pl": "Zarządzanie budżetem i kosztami",
+    "przypadek": "Dział IT planuje budżet, przypisuje koszty usług do odbiorców i analizuje różnice między planem a wydatkami.",
+    "cel": "planowanie i kontrola finansów IT, w tym budżetów, kosztów oraz rozliczeń usług"
+  },
+  {
+    "kod": "APO07",
+    "en": "Manage Human Resources",
+    "pl": "Zarządzanie zasobami ludzkimi",
+    "przypadek": "Kierownictwo analizuje braki kompetencji, planuje rekrutację i sukcesję oraz rozwija umiejętności pracowników IT.",
+    "cel": "zapewnienie odpowiednich ludzi i kompetencji, przez planowanie zatrudnienia, rozwój oraz utrzymanie personelu"
+  },
+  {
+    "kod": "APO08",
+    "en": "Manage Relationships",
+    "pl": "Zarządzanie relacjami",
+    "przypadek": "Kierownictwo IT regularnie uzgadnia z biznesem oczekiwania i priorytety oraz buduje wzajemne zaufanie.",
+    "cel": "utrzymywanie relacji między biznesem a IT, wspólnego zrozumienia potrzeb i skutecznej komunikacji"
+  },
+  {
+    "kod": "APO09",
+    "en": "Manage Service Agreements",
+    "pl": "Zarządzanie umowami dotyczącymi usług",
+    "przypadek": "Zespół uzgadnia z odbiorcami katalog i poziomy usług, dokumentuje SLA oraz przegląda ich realizację.",
+    "cel": "dopasowanie usług i uzgodnionych poziomów ich świadczenia do potrzeb odbiorców oraz monitorowanie uzgodnień"
+  },
+  {
+    "kod": "APO10",
+    "en": "Manage Suppliers",
+    "pl": "Zarządzanie dostawcami",
+    "przypadek": "Organizacja wybiera dostawcę utrzymania systemów, ustala warunki kontraktu i okresowo ocenia jego wyniki oraz ryzyko.",
+    "cel": "zarządzanie wyborem, umowami, relacjami, wynikami i ryzykiem dostawców"
+  },
+  {
+    "kod": "APO11",
+    "en": "Manage Quality",
+    "pl": "Zarządzanie jakością",
+    "przypadek": "Kierownictwo ustanawia system zarządzania jakością IT, standardy i sposoby zapewnienia jakości oraz prowadzi ich doskonalenie.",
+    "cel": "ustanowienie i utrzymanie systemu zarządzania jakością, standardów oraz ciągłego doskonalenia jakości"
+  },
+  {
+    "kod": "APO12",
+    "en": "Manage Risk",
+    "pl": "Zarządzanie ryzykiem",
+    "przypadek": "Zespół identyfikuje scenariusze ryzyka IT, analizuje prawdopodobieństwo i skutki, utrzymuje profil ryzyka oraz planuje reakcje.",
+    "cel": "identyfikowanie, analizowanie i zarządzanie ryzykiem związanym z IT w ramach systemu ryzyka przedsiębiorstwa"
+  },
+  {
+    "kod": "APO13",
+    "en": "Manage Security",
+    "pl": "Zarządzanie bezpieczeństwem",
+    "przypadek": "Organizacja ustanawia zakres i plan systemu zarządzania bezpieczeństwem informacji, utrzymuje go i ocenia jego skuteczność.",
+    "cel": "ustanowienie, utrzymanie i przegląd systemu zarządzania bezpieczeństwem informacji oraz planu postępowania z ryzykiem"
+  },
+  {
+    "kod": "BAI01",
+    "en": "Manage Programmes and Projects",
+    "pl": "Zarządzanie programami i projektami",
+    "przypadek": "Sponsor i kierownik prowadzą program wdrożenia, kontrolują harmonogram oraz budżet i monitorują korzyści programu.",
+    "cel": "zarządzanie programami i projektami, w tym interesariuszami, zakresem, kosztami, terminami i monitorowaniem korzyści"
+  },
+  {
+    "kod": "BAI02",
+    "en": "Manage Requirements Definition",
+    "pl": "Zarządzanie definiowaniem wymagań",
+    "przypadek": "Analitycy uzgadniają potrzeby użytkowników i wsparcia, oceniają wykonalność oraz zatwierdzają wymagania rozwiązania.",
+    "cel": "zdefiniowanie i uzgodnienie wymagań biznesowych oraz technicznych, w tym wykonalności i kryteriów akceptacji"
+  },
+  {
+    "kod": "BAI03",
+    "en": "Manage Solutions Identification and Build",
+    "pl": "Zarządzanie identyfikacją i budową rozwiązań",
+    "przypadek": "Zespół projektuje, nabywa lub buduje rozwiązanie, konfiguruje je i testuje zgodność z wymaganiami.",
+    "cel": "identyfikacja, projektowanie, nabywanie lub budowa, konfiguracja i testowanie rozwiązań spełniających wymagania"
+  },
+  {
+    "kod": "BAI04",
+    "en": "Manage Availability and Capacity",
+    "pl": "Zarządzanie dostępnością i pojemnością",
+    "przypadek": "Zespół analizuje wymagania dostępności, prognozuje obciążenie i planuje zasoby potrzebne do utrzymania usług.",
+    "cel": "zapewnienie odpowiedniej dostępności i pojemności przez analizę wymagań, prognozy, planowanie i monitorowanie"
+  },
+  {
+    "kod": "BAI05",
+    "en": "Manage Organisational Change Enablement",
+    "pl": "Zarządzanie aktywowaniem zmiany organizacyjnej",
+    "przypadek": "Organizacja buduje poparcie liderów, komunikuje nowe role i szkoli pracowników, by przyjęli nowy sposób pracy.",
+    "cel": "przygotowanie ludzi i organizacji do zmiany oraz utrwalenie nowych zachowań i sposobów pracy"
+  },
+  {
+    "kod": "BAI06",
+    "en": "Manage Changes",
+    "pl": "Zarządzanie zmianami",
+    "przypadek": "Zespół rejestruje wniosek o zmianę zapory, ocenia wpływ i ryzyko, uzyskuje właściwą zgodę oraz śledzi i zamyka zmianę.",
+    "cel": "kontrolowanie zmian, w tym oceny, priorytetów, autoryzacji, śledzenia, zamknięcia i zmian awaryjnych"
+  },
+  {
+    "kod": "BAI07",
+    "en": "Manage Change Acceptance and Transitioning",
+    "pl": "Zarządzanie akceptacją zmian i przejściem",
+    "przypadek": "Użytkownicy wykonują testy akceptacyjne, zespół przygotowuje wydanie, przejście do eksploatacji i wczesne wsparcie po uruchomieniu.",
+    "cel": "formalna akceptacja i przejście zmian do eksploatacji, z przygotowaniem wydania, wczesnym wsparciem i przeglądem"
+  },
+  {
+    "kod": "BAI08",
+    "en": "Manage Knowledge",
+    "pl": "Zarządzanie wiedzą",
+    "przypadek": "Organizacja identyfikuje wiedzę potrzebną do obsługi systemów, ułatwia jej dzielenie i zapewnia zastępowalność ekspertów.",
+    "cel": "identyfikowanie, utrzymywanie i udostępnianie wiedzy potrzebnej ludziom, w tym wiedzy jawnej i ukrytej"
+  },
+  {
+    "kod": "BAI09",
+    "en": "Manage Assets",
+    "pl": "Zarządzanie aktywami",
+    "przypadek": "Organizacja śledzi wykorzystanie i koszty licencji oraz urządzeń od pozyskania do wycofania, aby utrzymać ich wartość.",
+    "cel": "zarządzanie aktywami IT przez cały cykl życia, z kontrolą wartości, wykorzystania, kosztów i zobowiązań licencyjnych"
+  },
+  {
+    "kod": "BAI10",
+    "en": "Manage Configuration",
+    "pl": "Zarządzanie konfiguracją",
+    "przypadek": "Zespół utrzymuje wiarygodny model elementów konfiguracji, ich wersji oraz zależności między usługą, aplikacją i serwerami.",
+    "cel": "utrzymanie informacji o elementach konfiguracji i ich relacjach, stanach bazowych oraz zgodności modelu z rzeczywistością"
+  },
+  {
+    "kod": "DSS01",
+    "en": "Manage Operations",
+    "pl": "Zarządzanie operacjami",
+    "przypadek": "Operatorzy wykonują zaplanowane zadania wsadowe, sprawdzają ich dzienniki i nadzorują codzienną pracę środowiska IT.",
+    "cel": "koordynacja i wykonywanie codziennych czynności operacyjnych potrzebnych do dostarczania usług IT"
+  },
+  {
+    "kod": "DSS02",
+    "en": "Manage Service Requests and Incidents",
+    "pl": "Zarządzanie zgłoszeniami usług i incydentami",
+    "przypadek": "Helpdesk rejestruje przerwę w działaniu poczty, prowadzi wstępną diagnozę i przywraca usługę; przyjmuje też standardowe prośby użytkowników.",
+    "cel": "obsługa wniosków usługowych i incydentów, w tym rejestracja, diagnoza, przywrócenie usługi oraz raportowanie"
+  },
+  {
+    "kod": "DSS03",
+    "en": "Manage Problems",
+    "pl": "Zarządzanie problemami",
+    "przypadek": "Po poważnej awarii zespół analizuje przyczynę źródłową, dokumentuje znany błąd i obejście oraz proponuje trwałe rozwiązanie.",
+    "cel": "identyfikowanie i zarządzanie przyczynami incydentów, znanymi błędami i obejściami, by ograniczać wpływ i nawroty"
+  },
+  {
+    "kod": "DSS04",
+    "en": "Manage Continuity",
+    "pl": "Zarządzanie ciągłością",
+    "przypadek": "Organizacja ustala wymagania ciągłości, przygotowuje i testuje plany odtworzenia oraz utrzymuje zdolność działania podczas zakłóceń.",
+    "cel": "ustanowienie i utrzymanie ciągłości działania oraz odtwarzania usług przy zakłóceniach, na podstawie potrzeb biznesu"
+  },
+  {
+    "kod": "DSS05",
+    "en": "Manage Security Services",
+    "pl": "Zarządzanie usługami bezpieczeństwa",
+    "przypadek": "Administratorzy blokują konto odchodzącego pracownika, utrzymują ochronę przed złośliwym kodem i analizują alerty bezpieczeństwa.",
+    "cel": "operacyjne zapewnianie bezpieczeństwa usług, w tym dostępu, sieci, urządzeń, ochrony przed złośliwym kodem i monitorowania"
+  },
+  {
+    "kod": "DSS06",
+    "en": "Manage Business Process Controls",
+    "pl": "Zarządzanie kontrolami procesów biznesowych",
+    "przypadek": "System wymaga drugiego zatwierdzenia dużego zwrotu i sprawdza kompletność oraz poprawność danych transakcji.",
+    "cel": "definiowanie i utrzymanie kontroli w procesach biznesowych, aby zapewniać poprawne i uprawnione przetwarzanie informacji"
+  },
+  {
+    "kod": "MEA01",
+    "en": "Monitor, Evaluate and Assess Performance and Conformance",
+    "pl": "Monitorowanie, ocena i szacowanie wyników oraz zgodności",
+    "przypadek": "Zespół uzgadnia cele i mierniki, zbiera wyniki procesów, analizuje odchylenia i raportuje postęp działań korygujących.",
+    "cel": "monitorowanie wyników i zgodności z uzgodnionymi celami, wraz z raportowaniem oraz działaniami korygującymi"
+  },
+  {
+    "kod": "MEA02",
+    "en": "Monitor, Evaluate and Assess the System of Internal Control",
+    "pl": "Monitorowanie, ocena i szacowanie systemu kontroli wewnętrznej",
+    "przypadek": "Audyt ocenia, czy system kontroli wewnętrznej jest odpowiednio zaprojektowany, działa i czy wykryte słabości są usuwane.",
+    "cel": "ocena adekwatności i skuteczności systemu kontroli wewnętrznej oraz zapewnienia dotyczącego kontroli"
+  },
+  {
+    "kod": "MEA03",
+    "en": "Monitor, Evaluate and Assess Compliance With External Requirements",
+    "pl": "Monitorowanie, ocena i szacowanie zgodności z wymaganiami zewnętrznymi",
+    "przypadek": "Organizacja identyfikuje obowiązujące wymogi prawne i umowne, ocenia zgodność IT oraz raportuje wyniki i działania naprawcze.",
+    "cel": "identyfikowanie i ocenianie zgodności z zewnętrznymi wymaganiami prawnymi, regulacyjnymi i kontraktowymi"
+  }
+]

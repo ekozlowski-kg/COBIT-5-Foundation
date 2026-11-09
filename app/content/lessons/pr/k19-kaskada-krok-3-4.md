@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-05, PR-02-06]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pra-19-1, q-pra-19-2, q-pra-19-3]
-zapas: [q-pra-19-z1]
+cwiczenia: ["q-pra-19-3", "q-pra-17-z1"]
+zapas: ["q-pra-22-3"]
 wprowadza: [cele-zwiazane-z-it, cele-aktywatorow]
 wymaga: [pr-k18-kaskada-krok-1-2]
 cel: "Potrafię opisać kroki 3 i 4 Kaskady Celów i wyjaśnić, że cele aktywatora dotyczą wszystkich aktywatorów, nie tylko procesów."

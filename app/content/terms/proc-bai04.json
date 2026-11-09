@@ -26,10 +26,10 @@
   "wyobrazSobie": "Przed świętami dokupujesz krzesła i większy garnek, bo wiesz, że przyjdzie cała rodzina.",
   "skadNazwa": "Z angielskiego *Manage Availability and Capacity*. „Dostępność” to czas, w którym system działa. „Pojemność” to ile jest w stanie obsłużyć naraz.",
   "poziom1": "Proces domeny [[bai]], który równoważy obecne i przyszłe potrzeby co do dostępności, wydajności i pojemności z rozsądnym kosztem. Ocenia obecne możliwości, prognozuje potrzeby i planuje zmiany, zanim zabraknie mocy.",
-  "poziom2": "**Czym się zajmuje:** mierzy obecną dostępność i obciążenie, przewiduje przyszłe potrzeby (więcej użytkowników, szczyty), ocenia wpływ zmian, planuje i śledzi pojemność oraz wydajność.\n\n**Wejścia (intuicja):** wymagania ([[proc-bai02]]), uzgodnione poziomy usług (APO09), dane z bieżącego monitorowania ([[proc-dss01]]).\n\n**Wyjścia (intuicja):** plan dostępności i pojemności, prognozy obciążenia, działania usprawniające.\n\n**Współpracuje z:** APO09 (ile dostępności obiecano), [[proc-dss01]] (dane z eksploatacji), [[proc-dss04]] (ciągłość przy poważnych zakłóceniach), [[proc-bai06]] (zmiany zwiększające moc).",
+  "poziom2": "**Cel i zakres:** zapewnienie odpowiedniej dostępności i pojemności przez analizę wymagań, prognozy, planowanie i monitorowanie.\n\n**Przykład:** Zespół analizuje wymagania dostępności, prognozuje obciążenie i planuje zasoby potrzebne do utrzymania usług.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Il. 39 (s. 88): kategoria umiejętności „Zarządzanie pojemnością” przy BAI, „Zarządzanie dostępnością” przy DSS. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby systemy wytrzymały tłok i działały, kiedy są potrzebne. I żeby nie przepłacać za zbędny zapas mocy.",
-  "jakDziala": "Oceniasz obecną dostępność, wydajność i pojemność. Szacujesz wpływ na biznes i prognozujesz przyszłe potrzeby. Planujesz zmiany, monitorujesz i usuwasz problemy, zanim zabraknie mocy.",
+  "jakDziala": "Zapewnienie odpowiedniej dostępności i pojemności przez analizę wymagań, prognozy, planowanie i monitorowanie.",
   "dlaczegoWazne": "BAI04 planuje moc i dostępność z wyprzedzeniem. Plan na poważne zakłócenie to DSS04, a nie BAI04.",
   "przyklady": {
     "zycie": "Na komunię przychodzi 30 osób, a masz stół na 8. Tydzień wcześniej pożyczasz stoły i krzesła, a w kuchni sprawdzasz, czy piekarnik pomieści dwie blachy. Planujesz pojemność, zanim goście staną w drzwiach.",
@@ -66,16 +66,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "BAI04 Zarządzanie dostępnością i pojemnością"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39",
-      "cytat": "Zarządzanie pojemnością"
+      "doc": "ENPROC",
+      "sekcja": "BAI04 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-bai04",

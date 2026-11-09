@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-02-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-55-1, q-pck-55-2, q-pck-55-3]
-zapas: [q-pck-55-z1]
+cwiczenia: ["q-pck-55-2", "q-pck-55-3"]
+zapas: ["q-pc-05-02"]
 wprowadza: [cele-oceny]
 wymaga: [pc-k53-ocena-poziomu-1]
 cel: "Potrafię wymienić cele oceny zdolności procesu i odróżnić cel wewnętrzny od zewnętrznego."

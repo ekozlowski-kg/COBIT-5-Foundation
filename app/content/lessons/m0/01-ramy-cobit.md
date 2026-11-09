@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-07]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-01-1, q-m0k-01-2, q-m0k-01-3]
-zapas: [q-m0k-01-z1]
+cwiczenia: []
+zapas: []
 wprowadza: [struktura-ramowa, cobit-5]
 wymaga: [m0-00-organizacja-cel]
 cel: "Potrafię wyjaśnić, czym jest struktura ramowa i dlaczego COBIT 5 nią jest."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-03, PR-02-07]
 minuty: 5
 zgadnij: []
-cwiczenia: [q-pra-26-1, q-pra-26-2, q-pra-26-3]
-zapas: [q-pra-26-z1]
+cwiczenia: ["q-pra-17-z1", "q-pak-T01Q04"]
+zapas: ["q-pra-21-z1"]
 wprowadza: []
 wymaga: [pr-k25-kaskada-dostosuj]
 cel: "Potrafię rozpoznać pytanie interesariusza wewnętrznego i zewnętrznego o IT i powiedzieć, że to dane wejściowe kaskady."

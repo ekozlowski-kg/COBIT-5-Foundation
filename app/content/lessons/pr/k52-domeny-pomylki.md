@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04, PR-01-03]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prb-52-1, q-prb-52-2, q-prb-52-3]
-zapas: [q-prb-52-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: []
 wymaga: [pr-k51-dss-mea]
 cel: "Potrafię rozróżnić procesy o podobnych nazwach (zasoby, bezpieczeństwo, kontrola) po tym, czego dotyczą."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-34-1, q-m0k-34-2, q-m0k-34-3]
-zapas: [q-m0k-34-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [m0-33-egzamin-w-liczbach]
 cel: "Potrafię rozpoznać nazwę z egzaminu, gdy znam tylko nazwę z podręcznika albo angielską."
@@ -39,13 +39,13 @@ Ważne pojęcia mają trzy wersje:
 2. z polskiego podręcznika,
 3. z polskiego **egzaminu**.
 
-Na egzaminie w odpowiedziach stoją tylko nazwy egzaminacyjne.
+Na egzaminie w odpowiedziach stoją tylko nazwy stosowane w kursie.
 
 :::zrodlo ALTKOM 1
 :::
 
 :::wykladowca
-Polski podręcznik i polski egzamin tłumaczono osobno. Dlatego te same angielskie słowa mają w nich różne polskie odpowiedniki. Zestawienie tych różnic przygotowała firma szkoleniowa Altkom. W aplikacji główne są zawsze nazwy egzaminacyjne, a inne wersje znajdziesz w przypisie.
+Polski podręcznik i polski egzamin tłumaczono osobno. Dlatego te same angielskie słowa mają w nich różne polskie odpowiedniki. Zestawienie tych różnic przygotowała firma szkoleniowa Altkom. W aplikacji główne są zawsze nazwy stosowane w kursie, a inne wersje znajdziesz w przypisie.
 :::
 
 ---
@@ -80,7 +80,7 @@ Te pary mają status tłumaczenia „sporny”: żaden polski odpowiednik nie je
 
 W pytaniu próbnym dwie odpowiedzi mówią to samo. Jedna brzmi: „Nadzór ocenia potrzeby interesariuszy”, druga: „Ład ocenia potrzeby interesariuszy”.
 
-Na polskim egzaminie forma z podręcznika to częsty znak dystraktora. Wybierasz nazwę egzaminacyjną.
+Na polskim egzaminie forma z podręcznika to częsty znak dystraktora. Wybierasz nazwę stosowaną w kursie.
 
 :::wykladowca
 Ten przykład pokazuje, po co uczyć się nazw egzaminacyjnych. Jeśli znasz tylko słowo „Nadzór”, możesz wahać się między dwiema odpowiedziami. Gdy znasz parę Nadzór – Ład, od razu widzisz, która wersja należy do egzaminu.
@@ -95,7 +95,7 @@ Pracownik działu audytu uczy się z polskiego podręcznika i notuje „metodyka
 <!-- slajd: wniosek -->
 # Co zapamiętać
 
-**Wniosek:** angielski oryginał łączy nazwę z podręcznika z nazwą z egzaminu, a zaznaczasz zawsze nazwę egzaminacyjną.
+**Wniosek:** angielski oryginał łączy nazwę z podręcznika z nazwą z egzaminu, a zaznaczasz zawsze nazwę stosowaną w kursie.
 
 :::zapamietaj
 - Nadzór → Ład (*Governance*).

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-04]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pck-52-1, q-pck-52-2, q-pck-52-3, q-warsztat-outcome-artefakt]
-zapas: [q-pck-52-z1]
+cwiczenia: ["q-warsztat-outcome-artefakt", "q-pck-53-2"]
+zapas: []
 wprowadza: [pojecia-iso15504]
 wprowadzaListe: [przeznaczenie-procesu, rezultat-procesu, praktyka-bazowa, produkt-pracy]
 wymaga: [pc-k51-referencyjny-model-procesu]

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-02-03]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-51-1, q-pck-51-2, q-pck-51-3, q-warsztat-prm-pomiar]
-zapas: [q-pck-51-z1]
+cwiczenia: ["q-warsztat-prm-pomiar", "q-uzup-pc-02-03-1"]
+zapas: []
 wprowadza: []
 wymaga: [pc-k50-dwa-wymiary]
 cel: "Potrafię powiedzieć, co zawiera Referencyjny Model Procesu i czego w opisie procesu być nie może."

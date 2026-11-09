@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EX-00-01]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-exk-20-1, q-exk-20-2, q-exk-20-3]
-zapas: [q-exk-20-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k19-powtorka-wdrozenie]
 cel: "Potrafię z pamięci podać 6 poziomów zdolności, skalę N/C/W/P z progami i regułę osiągnięcia poziomu."
@@ -90,7 +90,7 @@ Proces obsługi zgłoszeń w helpdesku ma oceny: atrybut 1.1 – P, 2.1 – P, 2
 <!-- slajd: wniosek -->
 # Co zapamiętać
 
-**Wniosek:** poziom jest osiągnięty, gdy jego atrybuty mają W lub P, a wszystko niżej ma P – a litera P na egzaminie PL znaczy Pełny.
+**Wniosek:** poziom jest osiągnięty, gdy jego atrybuty mają W lub P, a wszystko niżej ma P – a litera P w polskim zapisie kursu znaczy Pełny.
 
 :::zapamietaj
 - Poziomy 0–5, 9 atrybutów.

@@ -26,10 +26,10 @@
   "wyobrazSobie": "Zamykasz drzwi na klucz, nie dajesz obcym kodu do domofonu i patrzysz w wizjer, zanim otworzysz.",
   "skadNazwa": "Z angielskiego *Manage Security Services*. Słowo *services* odróżnia go od APO13 *Manage Security*: DSS05 wykonuje ochronę na co dzień, APO13 ją organizuje.",
   "poziom1": "Proces domeny [[dss]], który na co dzień chroni informacje organizacji tak, żeby ryzyko bezpieczeństwa było na akceptowalnym poziomie, zgodnie z polityką bezpieczeństwa. Obejmuje ochronę przed złośliwym oprogramowaniem, bezpieczeństwo sieci i urządzeń, tożsamość i dostęp, dostęp fizyczny i monitorowanie zdarzeń bezpieczeństwa.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** chroni przed złośliwym oprogramowaniem, zabezpiecza sieć i połączenia, urządzenia końcowe, zarządza tożsamością użytkowników i dostępem do systemów, kontroluje dostęp fizyczny do sprzętu, zabezpiecza dokumenty i nośniki, monitoruje infrastrukturę pod kątem zdarzeń bezpieczeństwa.\n\n**Wejścia (intuicja):** polityka i plan bezpieczeństwa (APO13), ocena ryzyka (APO12), lista ról i uprawnień ([[proc-dss06]]).\n\n**Wyjścia (intuicja):** nadane i odebrane uprawnienia, dzienniki zdarzeń bezpieczeństwa, raporty z incydentów bezpieczeństwa.\n\n**Współpracuje z:** APO13 (system zarządzania bezpieczeństwem), [[proc-dss02]] (incydenty bezpieczeństwa), [[proc-dss06]] (uprawnienia w procesach biznesowych), [[proc-mea02]] (ocena, czy kontrole działają).",
+  "poziom2": "**Cel i zakres:** operacyjne zapewnianie bezpieczeństwa usług, w tym dostępu, sieci, urządzeń, ochrony przed złośliwym kodem i monitorowania.\n\n**Przykład:** Administratorzy blokują konto odchodzącego pracownika, utrzymują ochronę przed złośliwym kodem i analizują alerty bezpieczeństwa.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Il. 39 (s. 88) wymienia przy DSS umiejętność *„Administracja bezpieczeństwa”*. ISO/IEC 27000 obejmuje *„procesy związane z bezpieczeństwem i ryzykiem w domenach EDM, APO oraz DSS”* (s. 60). Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby na co dzień chronić informacje i trzymać ryzyko bezpieczeństwa na akceptowalnym poziomie, zgodnie z polityką bezpieczeństwa.",
-  "jakDziala": "Chronisz przed złośliwym oprogramowaniem, zabezpieczasz sieć i urządzenia końcowe. Zarządzasz tożsamością oraz dostępem logicznym i fizycznym. Monitorujesz infrastrukturę pod kątem zdarzeń bezpieczeństwa.",
+  "jakDziala": "Operacyjne zapewnianie bezpieczeństwa usług, w tym dostępu, sieci, urządzeń, ochrony przed złośliwym kodem i monitorowania.",
   "dlaczegoWazne": "DSS05 to codzienne usługi bezpieczeństwa. System zarządzania bezpieczeństwem informacji ustala APO13, a nie DSS05.",
   "przyklady": {
     "zycie": "Codziennie zamykasz drzwi na klucz, w telefonie masz blokadę ekranu, a w banku podwójne logowanie. Gdy dostajesz dziwnego SMS-a z linkiem, nie klikasz. Gdy zgubisz klucze, wymieniasz zamek. To codzienna ochrona.",
@@ -67,21 +67,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "DSS05 Zarządzanie usługami bezpieczeństwa"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39",
-      "cytat": "Administracja bezpieczeństwa"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 60,
-      "cytat": "procesy związane z bezpieczeństwem i ryzykiem w domenach EDM, APO oraz DSS"
+      "doc": "ENPROC",
+      "sekcja": "DSS05 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-dss05",

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-16-1, q-pra-16-2, q-pra-16-3]
-zapas: [q-pra-16-z1]
+cwiczenia: ["q-pra-16-z1", "q-pr-02-02"]
+zapas: ["q-fn-w-05"]
 wprowadza: []
 wymaga: [pr-k15-optymalizacja]
 cel: "Potrafię zadać trzy pytania COBIT 5 przy decyzji i wyjaśnić, dlaczego to Ład decyduje, co jest wartością."

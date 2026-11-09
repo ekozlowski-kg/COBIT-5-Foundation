@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-06]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-13-1, q-enk-13-2, q-enk-13-3]
-zapas: [q-enk-13-z1]
+cwiczenia: ["q-enk-13-2", "q-skr-zasady-polityki-struktury-1"]
+zapas: ["q-fn-w-32"]
 wprowadza: []
 wymaga: [en-k12-struktura-polityk]
 cel: "Potrafię wskazać, z którymi aktywatorami współpracują polityki i co jest najważniejszym środkiem ich realizacji."

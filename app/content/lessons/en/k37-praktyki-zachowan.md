@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-14]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-37-1, q-enk-37-2, q-enk-37-3]
-zapas: [q-enk-37-z1]
+cwiczenia: ["q-enk-37-2", "q-enk-37-z1"]
+zapas: []
 wprowadza: []
 wprowadzaListe: [praktyki-zachowan]
 wymaga: [en-k36-poziomy-etyki]

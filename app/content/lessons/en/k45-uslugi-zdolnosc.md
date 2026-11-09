@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-21]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-45-1, q-enk-45-2, q-enk-45-3]
-zapas: [q-enk-45-z1]
+cwiczenia: ["q-enk-45-2", "q-en-08-03"]
+zapas: ["q-luk-ena-25"]
 wprowadza: [uslugi-infrastruktura-aplikacje]
 wprowadzaListe: [zdolnosc-uslugowa]
 wymaga: [en-k42-model-informacji]

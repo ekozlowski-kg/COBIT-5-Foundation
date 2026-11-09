@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-15]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prb-45-1, q-prb-45-2, q-prb-45-3]
-zapas: [q-prb-45-z1]
+cwiczenia: ["q-mtk-11-1", "q-pr-11-02"]
+zapas: ["q-prb-44-1"]
 wprowadza: []
 wymaga: [pr-k44-obieg-informacji]
 cel: "Potrafię podać, jak każdy z siedmiu aktywatorów łączy Ład z Zarządzaniem."

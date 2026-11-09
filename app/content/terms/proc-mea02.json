@@ -31,10 +31,10 @@
   "wyobrazSobie": "Sprawdzasz, czy czujnik dymu w domu naprawdę piszczy. Wisi na suficie, ale czy działa?",
   "skadNazwa": "Z angielskiego *Monitor, Evaluate and Assess the System of Internal Control*. „System kontroli wewnętrznej” to wszystkie zasady, procedury i struktury, które mają chronić cele organizacji.",
   "poziom1": "Proces domeny [[mea]], który stale monitoruje i ocenia środowisko kontroli wewnętrznej: przez przeglądy kierownictwa, samooceny i niezależne przeglądy (np. audyt). Pozwala wykryć słabe i nieskuteczne mechanizmy kontrolne i uruchomić ich poprawę.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** monitoruje mechanizmy kontrolne, sprawdza ich skuteczność, prowadzi samooceny kontroli, rozpoznaje i zgłasza słabości, planuje i prowadzi niezależne przeglądy (zapewnienie, audyt), dba o standardy takich ocen.\n\n**Wejścia (intuicja):** mechanizmy kontrolne z procesów (np. [[proc-dss06]], [[proc-dss05]]), polityki ([[polityka]]), wyniki wcześniejszych audytów.\n\n**Wyjścia (intuicja):** wyniki samooceny, raporty o słabościach kontroli, plan działań naprawczych, raporty z audytu.\n\n**Współpracuje z:** [[proc-dss06]] (kontrole w procesach biznesowych), [[proc-mea03]] (kontrole służące zgodności z wymogami), [[proc-mea01]] (raportowanie).",
+  "poziom2": "**Cel i zakres:** ocena adekwatności i skuteczności systemu kontroli wewnętrznej oraz zapewnienia dotyczącego kontroli.\n\n**Przykład:** Audyt ocenia, czy system kontroli wewnętrznej jest odpowiednio zaprojektowany, działa i czy wykryte słabości są usuwane.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL, s. 59): *„Proces MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej w ramach metodyki COBIT 5 umożliwia dyrektorom oszacowanie, czy mechanizmy kontrolne pozwalają na spełnienie wymogów w zakresie zgodności.”* Słownik (s. 93), system kontroli wewnętrznej: *„Polityki, standardy, plany i procedury oraz struktury organizacyjne stworzone z myślą o racjonalnym zapewnieniu realizacji celów przedsiębiorstwa”*. Il. 39 (s. 88) wymienia przy MEA umiejętność „Audyt mechanizmów kontrolnych”. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby wiedzieć, czy mechanizmy kontrolne naprawdę działają, a nie tylko istnieją na papierze. Słabości trzeba wykryć i naprawić.",
-  "jakDziala": "Monitorujesz kontrole wewnętrzne i przeglądasz skuteczność kontroli w procesach. Prowadzisz samooceny i zgłaszasz słabości. Planujesz i prowadzisz niezależne przeglądy, np. audyt.",
+  "jakDziala": "Ocena adekwatności i skuteczności systemu kontroli wewnętrznej oraz zapewnienia dotyczącego kontroli.",
   "dlaczegoWazne": "DSS06 wykonuje kontrole, a MEA02 sprawdza, czy działają. Egzamin lubi to zestawienie (interpretacja kursu).",
   "przyklady": {
     "zycie": "Masz w domu zasadę: gaz zakręcony przed wyjazdem, czujnik dymu sprawdzany co miesiąc. Raz w roku robisz przegląd: wciskasz test czujnika i odkrywasz, że bateria padła pół roku temu. Sprawdzasz, czy Twoje zabezpieczenia naprawdę działają.",
@@ -71,26 +71,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 59,
-      "cytat": "umożliwia dyrektorom oszacowanie, czy mechanizmy kontrolne pozwalają na spełnienie wymogów w zakresie zgodności"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 93,
-      "cytat": "Polityki, standardy, plany i procedury oraz struktury organizacyjne stworzone z myślą o racjonalnym zapewnieniu realizacji celów przedsiębiorstwa"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39",
-      "cytat": "Audyt mechanizmów kontrolnych"
+      "doc": "ENPROC",
+      "sekcja": "MEA02 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-mea02",

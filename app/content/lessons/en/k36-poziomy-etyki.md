@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-15]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-36-1, q-enk-36-2, q-enk-36-3]
-zapas: [q-enk-36-z1]
+cwiczenia: ["q-enk-36-3", "q-spr-en-03"]
+zapas: []
 wprowadza: []
 wprowadzaListe: [poziomy-etyki]
 wymaga: [en-k35-kultura-czym-jest]

@@ -27,11 +27,11 @@
   "poLudzku": "Szefostwo pilnuje, żeby ludzi, pieniędzy i sprzętu do informatyki było tyle, ile trzeba, i żeby ich nie marnować.",
   "wyobrazSobie": "Zarząd szpitala sprawdza, czy na nowy oddział starczy lekarzy, pieniędzy i sprzętu, i decyduje, jak je rozdzielić. Grafików pracy sam nie układa.",
   "poCo": "Żeby IT miało dość ludzi, pieniędzy i technologii do realizacji celów i żeby tych zasobów nie marnować.",
-  "jakDziala": "Organ Ładu ocenia, czy zasoby IT wystarczają i czy są dobrze używane. Ustala zasady ich zdobywania i podziału oraz priorytety. Monitoruje, czy zasoby są wykorzystywane optymalnie, i koryguje kierunek.",
+  "jakDziala": "Zapewnienie odpowiednich zasobów IT i ich optymalnego wykorzystania do wspierania celów przedsiębiorstwa.",
   "dlaczegoWazne": "EDM04 to trzeci składnik Celu Ładu (zasoby). Polskie słowo „zasoby” występuje też w APO07 i BAI09, więc to częsta pułapka tłumaczenia.",
   "skadNazwa": "EN *Ensure Resource Optimisation*. *Resource* to wszystko, czym dysponujemy. Podręcznik PL tłumaczy też *Assets* (BAI09) jako „zasoby”, stąd zamieszanie. Zawsze sprawdzaj słowo angielskie: *Resource* ≠ *Human Resources* ≠ *Assets*.",
   "poziom1": "Proces Ładu o zasobach. Organ Ładu ocenia, czy organizacja ma wystarczające i dobrze wykorzystane zasoby IT: ludzi, procesy i technologię. Kieruje ich podziałem i to monitoruje.",
-  "poziom2": "**Czym się zajmuje:** ustala zasady zdobywania i dzielenia zasobów IT i sprawdza, czy są używane optymalnie.\n\n**Wejścia (intuicja):** strategia, raporty o budżecie, kadrach, sprzęcie i pojemności systemów.\n\n**Wyjścia (intuicja):** zasady przydziału zasobów, priorytety, decyzje „dokładamy, przesuwamy, ograniczamy”.\n\n**Współpraca:** w Zarządzaniu kierunek wykonują m.in. [[proc-apo07]] (ludzie), [[proc-apo06]] (pieniądze), [[proc-apo03]] (architektura), BAI09 (aktywa) i BAI04 (dostępność i pojemność).",
+  "poziom2": "**Cel i zakres:** zapewnienie odpowiednich zasobów IT i ich optymalnego wykorzystania do wspierania celów przedsiębiorstwa.\n\n**Przykład:** Organ Ładu ocenia, czy organizacja ma odpowiednich ludzi, informacje i technologię do realizacji celów oraz czy wykorzystuje je optymalnie.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „EDM04 Zapewnienie optymalizacji zasobów”. Słownik (s. 93): optymalizacja zasobów *„Obejmuje skuteczne, wydajne i odpowiedzialne wykorzystanie wszystkich zasobów — ludzkich, finansowych, sprzętu, infrastruktury itd.”* Załącznik E (s. 61): komponenty TOGAF 9 dotyczące Rady ds. Architektury, *„nadzoru nad architekturą oraz modeli dojrzałości architektury odpowiadają optymalizacji zasobów”* w domenie EDM. Opis praktyk i działań procesu jest w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Planujesz przeprowadzkę. Sprawdzasz, czy wystarczy rąk do noszenia, pieniędzy na auto i czasu. Sam nie nosisz kartonów. Decydujesz, ile czego potrzeba i czy niczego nie marnujesz. To EDM04.",
@@ -71,23 +71,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "EDM04 Zapewnienie optymalizacji zasobów"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 93,
-      "cytat": "Obejmuje skuteczne, wydajne i odpowiedzialne wykorzystanie wszystkich zasobów — ludzkich, finansowych, sprzętu, infrastruktury itd."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 61,
-      "cytat": "nadzoru nad architekturą oraz modeli dojrzałości architektury odpowiadają optymalizacji zasobów"
-    },
-    {
-      "doc": "ALTKOM"
+      "doc": "ENPROC",
+      "sekcja": "EDM04 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-edm04",

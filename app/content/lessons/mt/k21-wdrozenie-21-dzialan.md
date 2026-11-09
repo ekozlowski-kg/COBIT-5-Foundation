@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-01-01, IM-02-02, IM-02-03]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-mtk-21-1, q-mtk-21-2, q-mtk-21-3]
-zapas: [q-mtk-21-z1]
+cwiczenia: ["q-sk-wymiar-cykl-zycia-1", "q-spr-im-01"]
+zapas: ["q-mt-06-01"]
 wprowadza: []
 wymaga: [mt-k20-profile-graniczne]
 cel: "Potrafię wyjaśnić kursantowi, że trzy pierścienie wdrożenia działają równolegle w każdej z siedmiu faz, a cykl wraca do fazy 1."

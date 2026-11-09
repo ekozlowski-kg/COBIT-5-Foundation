@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-03, PC-02-06]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-42-1, q-pck-42-2, q-pck-42-3, q-warsztat-dowody-pa22]
-zapas: [q-pck-42-z1]
+cwiczenia: ["q-pck-42-2", "q-warsztat-dowody-pa22"]
+zapas: ["q-pck-41-z1"]
 wprowadza: [ocena-w, ocena-p]
 wymaga: [pc-k41-oceny-n-i-c]
 cel: "Potrafię odróżnić ocenę W od oceny P i podać ich angielskie odpowiedniki L i F."

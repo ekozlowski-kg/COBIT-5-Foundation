@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-prc-68-1, q-prc-68-2, q-prc-68-3]
-zapas: [q-prc-68-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-bai08, proc-bai09, proc-bai10]
 wymaga: [pr-k67-bai05-bai07]
 cel: "Potrafię odróżnić wiedzę (BAI08), majątek IT (BAI09) i opis konfiguracji (BAI10) oraz rozpoznać, które „zasoby” to BAI09."

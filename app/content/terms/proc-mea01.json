@@ -31,10 +31,10 @@
   "wyobrazSobie": "Zegarek sportowy liczy kroki i porównuje je z celem. Gdy brakuje, wieczorem idziesz na spacer.",
   "skadNazwa": "Z angielskiego *Monitor, Evaluate and Assess Performance and Conformance*. *Performance* to wydajność (czy osiągamy cele), *conformance* to zgodność z tym, co uzgodniliśmy. Podręcznik tłumaczy i *conformance*, i *compliance* (MEA03) jako „zgodność”.",
   "poziom1": "Proces domeny [[mea]], który zbiera, sprawdza i ocenia cele i mierniki: biznesowe, IT i procesów. Monitoruje, czy procesy osiągają uzgodnione cele wydajności i zgodności, dostarcza systematyczne i terminowe raporty i uruchamia działania korygujące.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** ustala podejście do monitorowania, wyznacza cele i mierniki, zbiera i przetwarza dane, analizuje wyniki i raportuje, pilnuje wdrożenia działań korygujących.\n\n**Wejścia (intuicja):** cele i mierniki z kaskady celów ([[cele-zwiazane-z-it]]), dane z procesów APO, BAI i DSS, uzgodnione poziomy usług (APO09).\n\n**Wyjścia (intuicja):** raporty wydajności, analiza odchyleń, działania korygujące, informacja dla organu Ładu.\n\n**Współpracuje z:** domeną [[edm]] (raporty dla monitorowania w Ładzie, np. EDM02, EDM05), [[proc-mea02]] (kontrole), [[proc-mea03]] (wymogi zewnętrzne), [[wskaznik-wiodacy]] i [[wskaznik-opozniony]].",
+  "poziom2": "**Cel i zakres:** monitorowanie wyników i zgodności z uzgodnionymi celami, wraz z raportowaniem oraz działaniami korygującymi.\n\n**Przykład:** Zespół uzgadnia cele i mierniki, zbiera wyniki procesów, analizuje odchylenia i raportuje postęp działań korygujących.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL, s. 59): *„W procesie MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności metodyka COBIT 5 zapewnia wytyczne dotyczące zakresu odpowiedzialności kadry zarządzającej za te działania.”* Przypis do s. 32: w Ładzie *„monitorowanie oznacza te działania, w ramach których organ nadzorujący sprawdza, w jakim stopniu określony kierunek wytyczony dla zarządzania został wcielony w życie”*. Il. 39 (s. 88) wymienia przy MEA umiejętność „Monitorowanie sprawności”. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby wiedzieć, czy procesy osiągają cele wydajności i zgodności. I żeby szybko uruchomić poprawki.",
-  "jakDziala": "Ustalasz podejście do monitorowania i cele. Zbierasz dane, analizujesz je i raportujesz. Pilnujesz, żeby działania korygujące zostały wykonane.",
+  "jakDziala": "Monitorowanie wyników i zgodności z uzgodnionymi celami, wraz z raportowaniem oraz działaniami korygującymi.",
   "dlaczegoWazne": "MEA01 to monitorowanie w Zarządzaniu. Ład też monitoruje (FW-PL s. 14), ale robi to w EDM, na podstawie raportów z Zarządzania.",
   "przyklady": {
     "zycie": "Postanowiłeś schudnąć 5 kg do wakacji. Co niedzielę stajesz na wadze i zapisujesz wynik w tabelce. Gdy przez dwa tygodnie waga stoi, zmieniasz plan treningów. Mierzenie, porównywanie z celem i korekta to MEA01.",
@@ -73,26 +73,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 59,
-      "cytat": "W procesie MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności metodyka COBIT 5 zapewnia wytyczne dotyczące zakresu odpowiedzialności kadry zarządzającej za te działania."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 32,
-      "cytat": "W kontekście domeny nadzoru monitorowanie oznacza te działania, w ramach których organ nadzorujący sprawdza, w jakim stopniu określony kierunek wytyczony dla zarządzania został wcielony w życie."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39",
-      "cytat": "Monitorowanie sprawności"
+      "doc": "ENPROC",
+      "sekcja": "MEA01 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-mea01",

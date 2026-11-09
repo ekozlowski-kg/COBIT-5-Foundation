@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-03, PC-02-06]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-43-1, q-pck-43-2, q-pck-43-3]
-zapas: [q-pck-43-z1]
+cwiczenia: ["q-pck-43-3", "q-pck-42-2"]
+zapas: ["q-pck-41-z1"]
 wprowadza: []
 wymaga: [pc-k42-oceny-w-i-p]
 cel: "Potrafię zastosować regułę: atrybuty danego poziomu mają co najmniej W, a wszystkie niższe mają P."

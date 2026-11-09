@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prc-60-1, q-prc-60-2, q-prc-60-3]
-zapas: [q-prc-60-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-apo01, proc-apo02]
 wymaga: []
 cel: "Potrafię odróżnić APO01 (organizacja zarządzania IT) od APO02 (strategia IT) i od EDM01 (zasady decydowania w Ładzie)."

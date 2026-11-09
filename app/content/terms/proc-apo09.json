@@ -32,11 +32,11 @@
   "poLudzku": "Spisanie z użytkownikami, jakie usługi daje informatyka, jak dobrze i jak szybko, a potem sprawdzanie tego.",
   "wyobrazSobie": "Pizzeria, która obiecuje dostawę w 30 minut i mierzy czas każdego zamówienia.",
   "poCo": "Żeby użytkownicy wiedzieli, jakich usług IT i jakiej ich jakości mogą oczekiwać, a IT wiedziało, czego ma dotrzymać.",
-  "jakDziala": "IT definiuje usługi w katalogu usług. Z odbiorcami uzgadnia ich poziomy w umowach SLA, np. dostępność i czas reakcji. Monitoruje dotrzymanie poziomów, raportuje je i przegląda umowy.",
+  "jakDziala": "Dopasowanie usług i uzgodnionych poziomów ich świadczenia do potrzeb odbiorców oraz monitorowanie uzgodnień.",
   "dlaczegoWazne": "Poziomy usług są podstawą oceny IT przez użytkowników. Na egzaminie polska nazwa „umowy o świadczenie usług” myli APO09 z APO10.",
   "skadNazwa": "EN *Manage Service Agreements*. *Agreement* to uzgodnienie, np. SLA (umowa o poziomie usług), a nie kontrakt handlowy z dostawcą. Polskie „umowa” sugeruje kontrakt, stąd pomyłki.",
   "poziom1": "Proces Zarządzania o uzgodnionych usługach. Definiuje usługi IT (katalog usług), uzgadnia ich poziomy w umowach SLA i monitoruje, czy są dotrzymywane.",
-  "poziom2": "**Czym się zajmuje:** wiąże usługi IT i ich poziomy z potrzebami organizacji: co dostarczamy, jak dobrze, jak to mierzymy.\n\n**Wejścia (intuicja):** potrzeby z [[proc-apo08]], możliwości IT, dostępność i pojemność systemów (BAI04).\n\n**Wyjścia (intuicja):** katalog usług, umowy SLA, raporty z dotrzymania poziomów.\n\n**Współpraca:** gdy usługę współtworzy firma zewnętrzna, jej zobowiązania prowadzi [[proc-apo10]]. Codzienną obsługę zgłoszeń daje DSS02, a wyniki zbiera MEA01.",
+  "poziom2": "**Cel i zakres:** dopasowanie usług i uzgodnionych poziomów ich świadczenia do potrzeb odbiorców oraz monitorowanie uzgodnień.\n\n**Przykład:** Zespół uzgadnia z odbiorcami katalog i poziomy usług, dokumentuje SLA oraz przegląda ich realizację.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO09 Zarządzanie umowami o świadczenie usług”. Załącznik E (s. 59): *„APO09 Zarządzanie umowami o świadczenie usług koncentruje się na definiowaniu właściwych usług oraz celów usług i dokumentowaniu ich w umowach SLA.”* Słownik (s. 93): katalog usług to *„Ustrukturyzowane informacje dotyczące wszystkich usług IT dostępnych dla klientów”*. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Spółdzielnia zapisuje w regulaminie: winda naprawiona w 24 godziny, śmieci wywożone dwa razy w tygodniu. Raz w roku pokazuje, czy tego dotrzymała. To umowa o poziomie usług, czyli APO09.",
@@ -73,20 +73,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO09 Zarządzanie umowami o świadczenie usług"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 59,
-      "cytat": "APO09 Zarządzanie umowami o świadczenie usług koncentruje się na definiowaniu właściwych usług oraz celów usług i dokumentowaniu ich w umowach SLA."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 93,
-      "cytat": "Ustrukturyzowane informacje dotyczące wszystkich usług IT dostępnych dla klientów"
+      "doc": "ENPROC",
+      "sekcja": "APO09 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo09",
@@ -97,16 +86,8 @@
   },
   "zagmatwania": [
     {
-      "mit": "APO09 to umowy z dostawcami.",
-      "prawda": "APO09 to uzgodnienia usług z organizacją (SLA). Dostawcy to APO10."
-    },
-    {
-      "mit": "SLA to tylko dokument, wystarczy go podpisać.",
-      "prawda": "APO09 także monitoruje, czy poziomy są dotrzymywane, i przegląda uzgodnienia."
-    },
-    {
-      "mit": "APO09 obsługuje zgłoszenia awarii.",
-      "prawda": "Zgłoszenia obsługuje DSS02. APO09 ustala, jak szybko ma się to dziać."
+      "mit": "APO09 dotyczy wyłącznie klientów wewnętrznych.",
+      "prawda": "Dotyczy uzgadniania i monitorowania usług z odbiorcami zgodnie z zakresem organizacji. Relacja i kontrakt z dostawcą są zarazem przedmiotem APO10."
     }
   ],
   "mentor": {

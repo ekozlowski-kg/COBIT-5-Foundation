@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-03]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-prb-53-1, q-prb-53-2, q-prb-53-3]
-zapas: [q-prb-53-z1]
+cwiczenia: ["q-prb-46-3", "q-prb-47-2"]
+zapas: ["q-prb-46-z1"]
 wprowadza: [proc-edm01, proc-edm02, proc-edm03]
 wymaga: [pr-k52-domeny-pomylki]
 cel: "Potrafię rozpoznać EDM01, EDM02 i EDM03 i odróżnić każdy od jego sąsiada z Zarządzania: APO01, APO05 i APO12."

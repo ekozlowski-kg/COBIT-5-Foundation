@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-21-1, q-pck-21-2, q-pck-21-3]
-zapas: [q-pck-21-z1]
+cwiczenia: ["q-pck-21-z1", "q-pck-20-z1"]
+zapas: ["q-pck-24-3"]
 wprowadza: [poziom-0, poziom-1]
 wymaga: [pc-k20-szesc-poziomow]
 cel: "Potrafię odróżnić proces niekompletny od procesu wykonywanego po tym, czy osiąga swój cel."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-01-01, IM-02-05]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-imk-14-1, q-imk-14-2, q-imk-14-3]
-zapas: [q-imk-14-z1]
+cwiczenia: ["q-sk-wymiar-cykl-zycia-1", "q-spr-im-01"]
+zapas: ["q-mt-06-01"]
 wprowadza: [cykl-wdrozenia, pierscien-program, pierscien-doskonalenie]
 wymaga: [im-k13-zdarzenia-wyzwalajace]
 cel: "Potrafię nazwać trzy pierścienie cyklu życia wdrożenia i powiedzieć, czym zajmuje się każdy z nich."

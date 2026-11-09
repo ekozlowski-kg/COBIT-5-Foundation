@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pck-22-1, q-pck-22-2, q-pck-22-3]
-zapas: [q-pck-22-z1]
+cwiczenia: ["q-pck-20-z1", "q-pck-21-z1"]
+zapas: ["q-pck-24-3"]
 wprowadza: [poziom-2]
 wymaga: [pc-k21-poziom-0-i-1]
 cel: "Potrafię rozpoznać proces zarządzany i odróżnić go od procesu wykonywanego i ustanowionego."

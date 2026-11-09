@@ -32,11 +32,11 @@
   "poLudzku": "Szef informatyki ustala, jak jego dział jest zorganizowany: kto za co odpowiada i według jakich zasad pracuje.",
   "wyobrazSobie": "Regulamin organizacyjny urzędu: kto w nim pracuje, kto za co odpowiada i jak sprawy przechodzą między wydziałami.",
   "poCo": "Żeby dział IT miał jasną organizację: kto za co odpowiada, jakie są zasady i procesy, i żeby to stale poprawiać.",
-  "jakDziala": "Kierownictwo IT projektuje strukturę organizacyjną, role i odpowiedzialności. Ustala polityki IT i właścicieli informacji oraz systemów. Komunikuje to i regularnie doskonali procesy.",
+  "jakDziala": "Utrzymanie spójnego podejścia do zarządzania IT, obejmującego struktury, role, procesy i polityki.",
   "dlaczegoWazne": "APO01 to szkielet całego Zarządzania IT. Na egzaminie łatwo go pomylić z EDM01 i z „metodyką” projektową.",
   "skadNazwa": "EN *Manage the IT Management Framework*, czyli „zarządzaj strukturą ramową zarządzania IT”. Podręcznik tłumaczy *framework* jako „metodyka”, egzamin jako „struktura ramowa”. Chodzi o cały układ zarządzania IT: role, zasady, procesy.",
   "poziom1": "Pierwszy proces domeny APO. Kierownictwo IT buduje i utrzymuje system zarządzania IT: strukturę organizacyjną, role i odpowiedzialności, polityki i procesy. Tak wykonuje kierunek ustalony przez Ład.",
-  "poziom2": "**Czym się zajmuje:** organizuje „jak pracujemy” w IT: kto jest właścicielem procesu, jakie są polityki, jak się koordynujemy, jak stale poprawiamy procesy.\n\n**Wejścia (intuicja):** zasady Ładu z [[proc-edm01]], strategia z [[proc-apo02]], wymagania jakości i bezpieczeństwa.\n\n**Wyjścia (intuicja):** schemat organizacyjny IT, opisy ról (np. tabele [[raci]]), polityki IT, właściciele informacji i systemów.\n\n**Współpraca:** jest szkieletem dla pozostałych procesów Zarządzania. Ludzi do ról przygotowuje [[proc-apo07]].",
+  "poziom2": "**Cel i zakres:** utrzymanie spójnego podejścia do zarządzania IT, obejmującego struktury, role, procesy i polityki.\n\n**Przykład:** Kierownictwo ustala właścicieli procesów zarządczych, role, polityki i mechanizmy koordynacji pracy IT.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO01 Zarządzanie metodyką zarządzania IT”. Il. 39 (s. 88) wymienia w domenie APO kategorię umiejętności *„Opracowanie polityki IT”*. Framework przypomina, że *„Każde przedsiębiorstwo musi zdefiniować własny zbiór procesów, uwzględniając specyfikę swojej działalności.”* (s. 32). Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Zakładasz z sąsiadami ogródek. Spisujecie, kto podlewa, kto kupuje nasiona i kto prowadzi zeszyt wydatków. Ustalacie też zastępstwa na urlopy. Taka organizacja wspólnej pracy to APO01.",
@@ -75,24 +75,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO01 Zarządzanie metodyką zarządzania IT"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39",
-      "cytat": "Opracowanie polityki IT"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 32,
-      "cytat": "Każde przedsiębiorstwo musi zdefiniować własny zbiór procesów, uwzględniając specyfikę swojej działalności."
-    },
-    {
-      "doc": "ALTKOM"
+      "doc": "ENPROC",
+      "sekcja": "APO01 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo01",

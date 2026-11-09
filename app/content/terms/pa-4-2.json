@@ -26,16 +26,16 @@
   "poLudzku": "Czy gdy liczby pokazują, że robota wyjeżdża poza normę, ktoś szybko to wyłapuje i naprawia.",
   "wyobrazSobie": "Termostat: gdy temperatura spada poniżej ustawionej, sam włącza ogrzewanie.",
   "poCo": "Żeby proces, który już mierzymy, faktycznie trzymał się ustalonych granic.",
-  "jakDziala": "Organizacja ustala na podstawie pomiarów limity normalnej pracy. Analizuje odchylenia, szuka ich przyczyn i wprowadza korekty. Po zmianie ustala limity na nowo.",
-  "dlaczegoWazne": "Bez reakcji na odchylenia sam pomiar nie daje poziomu 4. Słowo „kontrola” myli się z kontrolą wewnętrzną i audytem.",
-  "poziom2": "| Co sprawdza asesor (uproszczenie według ISO/IEC 15504) | Przykład |\n|---|---|\n| techniki analizy i kontroli | wykres z granicami |\n| limity zmienności w normalnej pracy | 40–60 s |\n| analiza nietypowych odchyleń | skok czasów w lipcu |\n| działania korygujące | zmiana ustawień wysyłki |\n| ponowne ustalenie limitów po korekcie | nowy zakres |\n\n[[pa-4-1|PA 4.1]] daje liczby. PA 4.2 robi z nich użytek: trzyma proces w **zdefiniowanych limitach** (s. 42).",
+  "jakDziala": "PA 4.2 bada ilościowe sterowanie procesem przy użyciu odpowiednich technik analizy i kontroli. Granice zmienności są określone, przyczyny specjalne analizowane, a po korektach potwierdza się stabilność procesu.",
+  "dlaczegoWazne": "Sam wykres KPI, próg SLA lub reakcja na opóźnienie nie dowodzi osiągnięcia atrybutu poziomu 4. Formalny poziom wymaga również wszystkich odpowiednich ocen niższych PA.",
+  "poziom2": "PA 4.2 bada ilościowe sterowanie procesem przy użyciu odpowiednich technik analizy i kontroli. Granice zmienności są określone, przyczyny specjalne analizowane, a po korektach potwierdza się stabilność procesu. Sam wykres KPI, próg SLA lub reakcja na opóźnienie nie dowodzi osiągnięcia atrybutu poziomu 4. Formalny poziom wymaga również wszystkich odpowiednich ocen niższych PA.",
   "poziom3": "Il. 19 (s. 42) i Il. 21 (s. 44): „Kontrola procesu”. (s. 42): proces przewidywalny *„działa teraz w ramach zdefiniowanych limitów w celu osiągnięcia wyników procesu”*. Szczegóły atrybutu według ISO/IEC 15504-2 to uproszczenie kursu, spoza korpusu.",
   "przyklady": {
-    "zycie": "Pilnujesz w domu temperatury 20–22 stopnie. Gdy spada do 18, sprawdzasz, czy okno nie jest otwarte, i reagujesz. Granice i reakcja na odchylenia to PA 4.2.",
-    "biuro": "Gdy obieg faktury przekracza 10 dni, kierowniczka księgowości od razu sprawdza, gdzie utknęła faktura, i zmienia kolejność zatwierdzeń. To PA 4.2.",
-    "organizacja": "Piekarnia przemysłowa waży co dziesiąty bochenek. Gdy waga wychodzi poza 490–510 g, linia staje, a technik szuka przyczyny. To kontrola procesu.",
-    "admin": "Urząd miasta ma limit: 90% decyzji w 21 dni. Gdy w marcu wychodzi 75%, kierownik od razu analizuje przyczynę i przesuwa ludzi. To PA 4.2.",
-    "it": "Proces DSS01: gdy czas zadań wsadowych wychodzi poza limit, zespół operacji analizuje przyczynę i wprowadza korektę. To dowody dla PA 4.2, a nie dla procesu MEA02."
+    "zycie": "Zespół wykorzystuje techniki statystyczne do określenia granic zmienności czasu obsługi, wykrywa przyczyny specjalne i potwierdza stabilność po działaniach korygujących. To przykład wsparcia oceny PA, a nie gotowy dowód pełnego osiągnięcia.",
+    "biuro": "Zespół wykorzystuje techniki statystyczne do określenia granic zmienności czasu obsługi, wykrywa przyczyny specjalne i potwierdza stabilność po działaniach korygujących. To przykład wsparcia oceny PA, a nie gotowy dowód pełnego osiągnięcia.",
+    "organizacja": "Zespół wykorzystuje techniki statystyczne do określenia granic zmienności czasu obsługi, wykrywa przyczyny specjalne i potwierdza stabilność po działaniach korygujących. To przykład wsparcia oceny PA, a nie gotowy dowód pełnego osiągnięcia.",
+    "admin": "Zespół wykorzystuje techniki statystyczne do określenia granic zmienności czasu obsługi, wykrywa przyczyny specjalne i potwierdza stabilność po działaniach korygujących. To przykład wsparcia oceny PA, a nie gotowy dowód pełnego osiągnięcia.",
+    "it": "Zespół wykorzystuje techniki statystyczne do określenia granic zmienności czasu obsługi, wykrywa przyczyny specjalne i potwierdza stabilność po działaniach korygujących. To przykład wsparcia oceny PA, a nie gotowy dowód pełnego osiągnięcia."
   },
   "glebokosc": {
     "prosty": "Kierowca na autostradzie patrzy na licznik. Gdy przekracza dozwoloną prędkość, zdejmuje nogę z gazu. Sam licznik nic nie daje, jeśli nikt na niego nie reaguje. Reakcja to kontrola procesu.",
@@ -44,16 +44,8 @@
   },
   "zagmatwania": [
     {
-      "mit": "Kontrola procesu to kontrola wewnętrzna albo audyt.",
-      "prawda": "PA 4.2 to trzymanie procesu w limitach na podstawie pomiarów. Kontrola wewnętrzna to temat MEA02, a audyt to ocena z zewnątrz procesu."
-    },
-    {
-      "mit": "Wystarczy reagować na problemy, żeby mieć PA 4.2.",
-      "prawda": "Reakcja musi wynikać z danych i limitów z pomiaru (PA 4.1). Doraźne łatanie dziur bez liczb to nie kontrola procesu."
-    },
-    {
-      "mit": "Pomiar i kontrola to jeden atrybut.",
-      "prawda": "To dwa atrybuty poziomu 4: PA 4.1 (miara) i PA 4.2 (kontrola). Oba muszą mieć co najmniej W."
+      "mit": "Każdy pomiar i każda reakcja na próg oznacza poziom 4.",
+      "prawda": "Sam wykres KPI, próg SLA lub reakcja na opóźnienie nie dowodzi osiągnięcia atrybutu poziomu 4. Formalny poziom wymaga również wszystkich odpowiednich ocen niższych PA."
     }
   ],
   "mentor": {
@@ -88,15 +80,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 42,
-      "ilustracja": "19",
-      "cytat": "działa teraz w ramach zdefiniowanych limitów w celu osiągnięcia wyników procesu"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 43,
-      "cytat": "zdefiniowano obecnie na poziomach 2–5 modelu oszacowania"
+      "doc": "FW-EN",
+      "sekcja": "rozdział 8, rysunek 19; PAM, atrybuty procesu",
+      "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
     }
   ],
   "mapa": "pa-4-2"

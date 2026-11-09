@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-04]
 minuty: 5
 zgadnij: []
-cwiczenia: [q-pra-23-1, q-pra-23-2, q-pra-23-3]
-zapas: [q-pra-23-z1]
+cwiczenia: ["q-pra-23-3", "q-uzup-pr-02-04-1"]
+zapas: ["q-luk-pr-20"]
 wprowadza: []
 wymaga: [pr-k22-cele-organizacji-17]
 cel: "Potrafię wyjaśnić, że P to relacja podstawowa, a S wspierająca, i że łączą one cele organizacji z trzema składnikami Celu Ładu."

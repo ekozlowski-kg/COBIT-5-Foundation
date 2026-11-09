@@ -1,3 +1,5 @@
+> **Dokument historyczny pierwszego, wybiórczego przeglądu.** Aktualną recenzję wszystkich 1711 pytań, redukcję do 240 i testy w aplikacji opisuje [pełna recenzja](RECENZJA-PELNEJ-PULI.md). Poniższe liczby i ograniczenia dotyczą stanu sprzed tej zmiany.
+
 # Przegląd merytoryczny i wdrożone poprawki
 
 Stan: 2026-11-09. Punktem wyjścia był commit `295b8b46ee039c356de07fdacebde41201f48bec`. Zakres: COBIT 5 Foundation według sylabusa PeopleCert v01.2 z kwietnia 2016. Nie zastępujemy go zakresem COBIT 2019.

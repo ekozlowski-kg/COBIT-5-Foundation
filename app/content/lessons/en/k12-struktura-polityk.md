@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-04, EN-02-05]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-enk-12-1, q-enk-12-2, q-enk-12-3]
-zapas: [q-enk-12-z1]
+cwiczenia: ["q-luk-ena-14", "q-luk-ena-16"]
+zapas: ["q-luk-ena-19"]
 wprowadza: []
 wprowadzaListe: [struktura-ramowa-polityki, cykl-zycia-polityki]
 wymaga: [en-k11-zasada-a-polityka]

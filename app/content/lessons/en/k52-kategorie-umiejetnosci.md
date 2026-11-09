@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-23]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-enk-52-1, q-enk-52-2, q-enk-52-3]
-zapas: [q-enk-52-z1]
+cwiczenia: ["q-enk-52-3", "q-enk-52-z1"]
+zapas: ["q-en-09-03"]
 wprowadza: [kategorie-umiejetnosci]
 wymaga: [en-k51-cykl-zycia-umiejetnosci]
 cel: "Potrafię przypisać kategorie umiejętności z Rysunku 39 do domen EDM, APO, BAI, DSS i MEA."

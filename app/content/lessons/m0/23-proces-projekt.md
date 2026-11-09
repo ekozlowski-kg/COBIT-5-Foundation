@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-05, EN-01-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-23-1, q-m0k-23-2, q-m0k-23-3]
-zapas: [q-m0k-23-z1]
+cwiczenia: ["q-enk-15-3", "q-en-02-06"]
+zapas: ["q-sym-011"]
 wprowadza: [proces, projekt]
 wymaga: [m0-22-zasob]
 cel: "Potrafię odróżnić proces (praca powtarzalna) od projektu (praca jednorazowa z końcem)."

@@ -26,10 +26,10 @@
   "skadNazwa": "Angielskie *governing body*. Podręcznik pisze „organ nadzorujący”, a egzamin „Organ Ładu i nadzoru”.",
   "wyobrazSobie": "Zarząd stowarzyszenia: członkowie powierzają mu prowadzenie spraw, on wyznacza kierunek dyrektorowi biura, a raz w roku rozlicza się przed walnym zebraniem.",
   "poCo": "Żeby było jasne, kto w imieniu właścicieli i interesariuszy sprawuje Ład: wyznacza kierunek kierownictwu i odpowiada za wyniki.",
-  "jakDziala": "Na Ilustracji 9 właściciele i interesariusze delegują (delegate) uprawnienia organowi Ładu (governing body), a ten jest przed nimi rozliczany (accountable). Organ Ładu wyznacza kierunek (set direction) kierownictwu (management). Kierownictwo instruuje i dopasowuje (instruct and align) role operacyjne, które raportują (report) do kierownictwa (FW-PL s. 24, Il. 9). Strzałka monitorowania (monitor) łączy kierownictwo z organem Ładu; według uzasadnień egzaminacyjnych to kierownictwo odpowiada wykonawczo za monitorowanie. Sam organ Ładu też monitoruje, ale wyniki względem kierunku, który wyznaczył (EDM).",
-  "dlaczegoWazne": "Egzamin pyta o relacje z Ilustracji 9: organ Ładu jest rozliczany przed interesariuszami i wyznacza kierunek, a relacja „monitorowanie” należy na tej ilustracji do kierownictwa. Trzeba też wiedzieć, że w większości organizacji Ład sprawuje zarząd pod przewodnictwem prezesa.",
+  "jakDziala": "Rysunek 9 wiąże właścicieli/interesariuszy, organ Ładu, kierownictwo i działania operacyjne. Pokazuje delegowanie, wyznaczanie kierunku, instruowanie/dopasowanie oraz odwrotne relacje raportowania, monitorowania i rozliczalności. W oryginale COBIT 5 Ład zwykle sprawuje board pod przewodnictwem chairperson, a Zarządzanie executive management pod kierownictwem CEO. Polski podział kompetencji trzeba przypisać według rzeczywistego mandatu; nie wolno automatycznie utożsamiać board z zarządem pod prezesem.",
+  "dlaczegoWazne": "Schemat nie znaczy, że każdy klient formalnie powołuje organ Ładu, ani że organ Ładu nie monitoruje.",
   "poziom1": "Ci, którzy sprawują Ład: właściciele powierzają im pilnowanie kierunku, oni wyznaczają go kierownictwu i rozliczają się z tego przed właścicielami (np. rada nadzorcza spółki, zarząd wspólnoty mieszkaniowej). Zwykle jest to zarząd lub rada pod przewodnictwem prezesa.",
-  "poziom2": "Na Ilustracji 9 organ Ładu otrzymuje **delegowanie** od właścicieli i interesariuszy i jest wobec nich **rozliczany** (accountable). **Wyznacza kierunek** kierownictwu. Kierownictwo **instruuje i dopasowuje** role operacyjne, które **raportują** do kierownictwa. Strzałka **monitorowanie** łączy kierownictwo z organem Ładu; według uzasadnień egzaminacyjnych kierownictwo odpowiada wykonawczo za monitorowanie osiągania celów.",
+  "poziom2": "Rysunek 9 wiąże właścicieli/interesariuszy, organ Ładu, kierownictwo i działania operacyjne. Pokazuje delegowanie, wyznaczanie kierunku, instruowanie/dopasowanie oraz odwrotne relacje raportowania, monitorowania i rozliczalności. W oryginale COBIT 5 Ład zwykle sprawuje board pod przewodnictwem chairperson, a Zarządzanie executive management pod kierownictwem CEO. Polski podział kompetencji trzeba przypisać według rzeczywistego mandatu; nie wolno automatycznie utożsamiać board z zarządem pod prezesem.",
   "poziom3": "Ilustracja 9 (s. 24): Właściciele oraz interesariusze → *Delegowanie* → Organ nadzorujący → *Wyznaczanie kierunku* → Zarządzanie → *Instruowanie i dopasowanie* → Eksploatacja i wykonanie. W drugą stronę: *Raportowanie* (od ról operacyjnych), *Monitorowanie*, *Strona rozliczana* (organ wobec interesariuszy).",
   "przyklady": {
     "zycie": "Właściciele mieszkań na zebraniu wspólnoty wybierają zarząd i powierzają mu dbanie o budynek. Zarząd wyznacza kierunek – w tym roku dach – i każe administratorowi to załatwić, a administrator raportuje postępy. Na następnym zebraniu zarząd rozlicza się przed właścicielami: to on jest organem Ładu.",
@@ -45,20 +45,16 @@
   },
   "zagmatwania": [
     {
-      "mit": "Organ Ładu to ten, kto najwięcej kontroluje – stąd „organ nadzorujący”.",
-      "prawda": "Organ Ładu wyznacza kierunek i jest rozliczany przed właścicielami i interesariuszami. Za monitorowanie osiągania celów odpowiada wykonawczo kierownictwo; strzałka monitorowania na Ilustracji 9 łączy je z organem Ładu."
+      "mit": "Organ Ładu nie monitoruje, bo na rysunku 9 Monitor łączy kierownictwo z organem Ładu.",
+      "prawda": "Ład obejmuje Evaluate, Direct and Monitor. Strzałka relacji na rysunku 9 nie wyłącza monitorowania przez organ Ładu."
     },
     {
-      "mit": "Skoro w Ilustracji 9 monitoruje kierownictwo, Ład niczego nie monitoruje.",
-      "prawda": "Ład (EDM) też monitoruje – sprawność i zgodność względem uzgodnionego kierunku i celów (s. 14). Pytanie o role z Ilustracji 9 → kierownictwo; pytanie o czynności Ładu → Oszacuj, Kieruj, Monitoruj."
+      "mit": "Każdy interesariusz formalnie powołuje organ Ładu.",
+      "prawda": "Rysunek jest schematem odpowiedzialności. Klient może być interesariuszem bez formalnego uprawnienia powoływania organu."
     },
     {
-      "mit": "Organ Ładu rozlicza się przed kierownictwem.",
-      "prawda": "Odwrotnie: organ Ładu jest stroną rozliczaną wobec właścicieli i interesariuszy, a kierownictwo działa w kierunku, który organ wyznaczył."
-    },
-    {
-      "mit": "Organ Ładu to zawsze rada nadzorcza spółki.",
-      "prawda": "Zwykle jest to zarząd lub rada pod przewodnictwem prezesa, ale w urzędzie czy szpitalu publicznym tę funkcję pełni np. kierownik jednostki – liczy się funkcja, nie nazwa (interpretacja kursu)."
+      "mit": "Board zawsze znaczy polski zarząd pod prezesem.",
+      "prawda": "W oryginale COBIT 5 Ład zwykle sprawuje board pod przewodnictwem chairperson, a Zarządzanie executive management pod kierownictwem CEO. Polski podział kompetencji trzeba przypisać według rzeczywistego mandatu; nie wolno automatycznie utożsamiać board z zarządem pod prezesem."
     }
   ],
   "mentor": {
@@ -85,9 +81,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 24,
-      "ilustracja": "9"
+      "doc": "FW-EN",
+      "sekcja": "rozdział 3, rysunek 9",
+      "url": "https://teraits.com/anhanguera/marcio/gov/p_COBIT_5_ingles.pdf"
     }
   ],
   "mapa": "rola-organ-ladu"

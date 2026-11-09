@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-12]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-enk-26-1, q-enk-26-2, q-enk-26-3, q-uzup-en-decision-making]
-zapas: [q-enk-26-z1]
+cwiczenia: ["q-enk-26-2", "q-enk-26-z1"]
+zapas: ["q-uzup-en-decision-making"]
 wprowadza: [dobre-praktyki-struktur]
 wprowadzaListe: [zasady-operacyjne, zakres-kontroli, poziom-uprawnien]
 wymaga: [en-k25-struktury-organizacyjne]

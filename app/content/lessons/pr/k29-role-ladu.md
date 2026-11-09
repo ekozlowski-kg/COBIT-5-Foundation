@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-09]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pra-29-1, q-pra-29-2, q-pra-29-3, q-warsztat-interesariusze]
-zapas: [q-pra-29-z1]
+cwiczenia: ["q-warsztat-interesariusze", "q-fn-m-06"]
+zapas: ["q-mtk-12-1"]
 wprowadza: [organ-ladu]
 wprowadzaListe: [rola-interesariusze, rola-kierownictwo, rola-operacyjne]
 wymaga: [pr-k28-podejscie-do-ladu]

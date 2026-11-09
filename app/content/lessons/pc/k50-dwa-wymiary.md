@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-02-04]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pck-50-1, q-pck-50-2, q-pck-50-3, q-warsztat-dwa-wymiary]
-zapas: [q-pck-50-z1]
+cwiczenia: ["q-warsztat-dwa-wymiary", "q-sk-wymiar-zdolnosci-1"]
+zapas: []
 wprowadza: [wymiary-oceny]
 wprowadzaListe: [wymiar-procesu, wymiar-zdolnosci]
 wymaga: [pc-k44-liczymy-poziom]

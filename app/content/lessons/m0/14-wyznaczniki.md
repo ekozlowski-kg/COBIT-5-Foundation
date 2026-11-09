@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-02, PR-02-02]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-14-1, q-m0k-14-2, q-m0k-14-3]
-zapas: [q-m0k-14-z1]
+cwiczenia: ["q-fn-m-03", "q-pra-17-z1"]
+zapas: []
 wprowadza: [wyznacznik]
 wymaga: [m0-13-potrzeba]
 cel: "Potrafię wymienić trzy wyznaczniki, które zmieniają potrzeby interesariuszy, i rozpoznać je w przykładzie."

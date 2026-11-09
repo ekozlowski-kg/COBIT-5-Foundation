@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-04]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-22-1, q-m0k-22-2, q-m0k-22-3]
-zapas: [q-m0k-22-z1]
+cwiczenia: []
+zapas: []
 wprowadza: [zasob]
 wymaga: [m0-21-postepowanie-z-ryzykiem]
 cel: "Potrafię powiedzieć, czym są zasoby organizacji, i wiem, że informacja też jest zasobem."

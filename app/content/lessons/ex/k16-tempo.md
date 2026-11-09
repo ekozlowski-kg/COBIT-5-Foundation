@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-08]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-exk-16-1, q-exk-16-2, q-exk-16-3]
-zapas: [q-exk-16-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [ex-k15-szesc-pulapek]
 cel: "Potrafię rozplanować 40 minut egzaminu tak, żeby nie utknąć na jednym pytaniu i nie zostawić pustych odpowiedzi."

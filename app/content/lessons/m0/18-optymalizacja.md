@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-03]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-18-1, q-m0k-18-2, q-m0k-18-3]
-zapas: [q-m0k-18-z1]
+cwiczenia: []
+zapas: []
 wprowadza: []
 wymaga: [m0-17-wartosc]
 cel: "Potrafię wyjaśnić, że optymalizacja zasobów i ryzyka oznacza najlepszy rozsądny poziom, a nie jak najmniejszy koszt ani zerowe ryzyko."

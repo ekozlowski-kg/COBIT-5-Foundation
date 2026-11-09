@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-02-07]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-imk-18-1, q-imk-18-2, q-imk-18-3]
-zapas: [q-imk-18-z1]
+cwiczenia: ["q-imk-18-3", "q-mt-06-01"]
+zapas: ["q-mt-06-02"]
 wprowadza: []
 wymaga: [im-k17-fazy-1-3]
 cel: "Potrafię rozpoznać po opisie działań fazę 4, 5, 6 albo 7 i odróżnić budowanie usprawnień od ich wdrażania."

@@ -27,11 +27,11 @@
   "poLudzku": "Szefostwo ustala, ile niepewności jest gotowe znieść, i pilnuje, żeby tej granicy nie przekraczać.",
   "wyobrazSobie": "Rodzice ustawiają limit na karcie dziecka. Nie sprawdzają każdego zakupu, ale wyznaczają granicę i patrzą na wyciąg.",
   "poCo": "Żeby organizacja świadomie wiedziała, ile ryzyka związanego z IT akceptuje, i żeby tej granicy pilnowano.",
-  "jakDziala": "Organ Ładu ocenia ryzyko IT na tle celów organizacji. Ustala apetyt i tolerancję na ryzyko oraz zasady zarządzania ryzykiem. Monitoruje, czy profil ryzyka mieści się w granicy, i decyduje o ryzykach ponad nią.",
+  "jakDziala": "Zapewnienie zrozumienia i optymalizacji ryzyka związanego z IT, zgodnie z apetytem i tolerancją przedsiębiorstwa.",
   "dlaczegoWazne": "EDM03 to drugi składnik Celu Ładu (ryzyko). Para EDM03 i APO12 to jedna z najczęściej mylonych par na egzaminie.",
   "skadNazwa": "EN *Ensure Risk Optimisation*, czyli „zapewnij optymalizację ryzyka”. „Optymalizacja” nie znaczy „zero ryzyka”. Znaczy: ryzyko na poziomie, który organizacja świadomie akceptuje. Proces czerpie z modelu Risk IT.",
   "poziom1": "Proces Ładu o ryzyku. Organ Ładu ustala apetyt na ryzyko związane z IT, kieruje sposobem jego traktowania i monitoruje, czy ryzyko mieści się w tej granicy.",
-  "poziom2": "**Czym się zajmuje:** decyduje, ile ryzyka IT organizacja akceptuje, i rozlicza, czy tak jest.\n\n**Wejścia (intuicja):** cele organizacji, przepisy, raporty o profilu ryzyka z Zarządzania.\n\n**Wyjścia (intuicja):** apetyt i tolerancja na ryzyko, zasady zarządzania ryzykiem, decyzje o ryzykach powyżej granicy.\n\n**Współpraca:** codzienną pracę z ryzykiem (rejestr, analiza, reakcje) wykonuje [[proc-apo12]]. Bezpieczeństwo informacji organizuje [[proc-apo13]], a ciągłość działania DSS04.",
+  "poziom2": "**Cel i zakres:** zapewnienie zrozumienia i optymalizacji ryzyka związanego z IT, zgodnie z apetytem i tolerancją przedsiębiorstwa.\n\n**Przykład:** Organ Ładu ustala apetyt na ryzyko IT i monitoruje, czy istotne ryzyka pozostają w przyjętych granicach tolerancji.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „EDM03 Zapewnienie optymalizacji ryzyka”. Słownik (s. 93): optymalizacja ryzyka to jeden z celów nadzoru, który *„Wiąże się z rozpoznawaniem ryzyka, oszacowaniem wpływu i prawdopodobieństwa takiego ryzyka”* oraz zarządzaniem nim *„w kontekście apetytu na ryzyko w przedsiębiorstwie”*. Na s. 31 Framework zalicza do decyzji struktur Ładu m.in. *„określania apetytu na ryzyko w przedsiębiorstwie”*. Załącznik E (s. 60): ISO/IEC 31000 obejmuje *„procesy związane z zarządzaniem ryzykiem w domenach EDM i APO.”* Opis praktyk i działań procesu jest w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Rodzice ustalają: dziecko może samo jeździć rowerem po osiedlu, ale nie po drodze krajowej. Nie pilnują każdej przejażdżki. Ustalają granicę i co jakiś czas sprawdzają, czy jest przestrzegana. To jest EDM03.",
@@ -70,30 +70,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "EDM03 Zapewnienie optymalizacji ryzyka"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 93,
-      "cytat": "Wiąże się z rozpoznawaniem ryzyka, oszacowaniem wpływu i prawdopodobieństwa takiego ryzyka"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 93,
-      "cytat": "w kontekście apetytu na ryzyko w przedsiębiorstwie"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 31,
-      "cytat": "określania apetytu na ryzyko w przedsiębiorstwie"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 60,
-      "cytat": "procesy związane z zarządzaniem ryzykiem w domenach EDM i APO."
+      "doc": "ENPROC",
+      "sekcja": "EDM03 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-edm03",

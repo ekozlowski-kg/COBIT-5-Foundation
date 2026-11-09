@@ -325,7 +325,7 @@ def quiz(q, lesson, target=0):
     used.update(keys)
     pom = {"t": f"Pytanie dotyczy lekcji {lesson['lekcja']} „{lesson['temat']}”. Cel lekcji: {plain(lesson.get('cel', ''))}", "k": keys}
     r = {"id": q["id"], "sylabus": q.get("sylabus", []), "tresc": inline(q.get("tresc")), "opcje": [{"t": inline(x.get("tekst")), **({"ok": True} if x.get("poprawna") else {}), "w": inline(x.get("wyjasnienie") or "")} for x in o],
-         "src": zrodlo_list(q.get("zrodlo")) or "pytanie autorskie kursu", "pomoc": pom}
+         "src": zrodlo_list(q.get("zrodlo")) or "pytanie autorskie kursu", "pomoc": pom, "kurs": inline(q.get("wyjasnienie", ""))}
     if q.get("scenariusz"):
         r["kontekst"] = inline(q["scenariusz"])
     return r
@@ -581,3 +581,6 @@ if SP1:
 tot = sum(p.get("slajdy", 0) for p in flat)
 print(f"slajdów treści w częściach z kursu: {sum(p.get('tresc', 0) for p in flat)} (skrót w {sum(1 for p in flat if p['id'] in SKROT)} z {written} części)")
 print(f"części z kursu: {written}, slajdów: {tot}, pytań: {sum(p.get('pytania', 0) for p in flat)}, pytań z arkusza: {sum(p.get('sp1', 0) for p in flat)} z {len(SP1)}, lekcji: {len(order)} z {len(LESSONS)}")
+
+from sync_bank import sync_reviewed_decks
+sync_reviewed_decks()

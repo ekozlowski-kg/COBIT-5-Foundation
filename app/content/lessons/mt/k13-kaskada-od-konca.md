@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-02, PR-02-03, PR-02-05]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-mtk-13-1, q-mtk-13-2, q-mtk-13-3]
-zapas: [q-mtk-13-z1]
+cwiczenia: ["q-fn-m-03", "q-pra-17-z1"]
+zapas: ["q-pak-T01Q04"]
 wprowadza: []
 wymaga: [mt-k12-lad-tez-monitoruje]
 cel: "Potrafię przeprowadzić kursanta wstecz przez kaskadę celów pytaniem „po co?”: od procesu do potrzeby i wyznacznika."

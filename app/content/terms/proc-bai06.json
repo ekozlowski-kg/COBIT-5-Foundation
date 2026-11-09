@@ -26,10 +26,10 @@
   "wyobrazSobie": "Chcesz przestawić meble we wspólnym mieszkaniu. Najpierw pytasz współlokatorów, ustalacie dzień, a potem zapisujecie, co gdzie stoi.",
   "skadNazwa": "Z angielskiego *Manage Changes*. Chodzi o kontrolowaną zmianę w aplikacjach, infrastrukturze i związanych z nimi procesach, a nie o „zarządzanie zmianą” w sensie przekonywania ludzi.",
   "poziom1": "Proces domeny [[bai]], który w kontrolowany sposób przeprowadza wszystkie zmiany w aplikacjach, infrastrukturze i powiązanych procesach biznesowych: ocena wpływu, priorytet, autoryzacja, śledzenie, zamknięcie i dokumentacja. Obejmuje też zmiany standardowe i awaryjne.",
-  "poziom2": "**Czym się zajmuje (w uproszczeniu):** ustala zasady zgłaszania zmian, ocenia wpływ i ryzyko, nadaje priorytet i zatwierdza (np. rada ds. zmian), obsługuje zmiany awaryjne, śledzi status i raportuje, a na końcu zamyka zmianę i aktualizuje dokumentację.\n\n**Wejścia (intuicja):** wnioski o zmianę – z projektów ([[proc-bai03]]), z rozwiązywania problemów ([[proc-dss03]]), z planów pojemności ([[proc-bai04]]).\n\n**Wyjścia (intuicja):** zatwierdzone lub odrzucone zmiany, harmonogram zmian, raport statusu, zaktualizowana dokumentacja.\n\n**Współpracuje z:** [[proc-bai07]] (odbiór i wydanie zmiany), [[proc-bai10]] (aktualny opis konfiguracji), [[proc-dss02]] (incydenty, które wywołują zmiany awaryjne).",
+  "poziom2": "**Cel i zakres:** kontrolowanie zmian, w tym oceny, priorytetów, autoryzacji, śledzenia, zamknięcia i zmian awaryjnych.\n\n**Przykład:** Zespół rejestruje wniosek o zmianę zapory, ocenia wpływ i ryzyko, uzyskuje właściwą zgodę oraz śledzi i zamyka zmianę.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33); ITIL i ISO/IEC 20000 obejmują *„podzbiór procesów w domenie BAI”* (s. 60). Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby żadna zmiana w systemach nie zaskoczyła użytkowników i nie zepsuła usługi. Każda zmiana jest oceniona, zatwierdzona i zapisana.",
-  "jakDziala": "Oceniasz wpływ zmiany, nadajesz jej priorytet i ją autoryzujesz. Zmiany awaryjne mają osobną, szybką ścieżkę. Śledzisz status, a po wdrożeniu zamykasz i dokumentujesz zmianę.",
+  "jakDziala": "Kontrolowanie zmian, w tym oceny, priorytetów, autoryzacji, śledzenia, zamknięcia i zmian awaryjnych.",
   "dlaczegoWazne": "BAI06 to zmiany techniczne, a BAI05 to zmiana po stronie ludzi. Egzamin lubi zestawiać te dwa procesy (interpretacja kursu).",
   "przyklady": {
     "zycie": "Wspólnota mieszkaniowa chce wymienić domofon. Administrator zgłasza pomysł, zarząd sprawdza koszt i wpływ na mieszkańców, wyznacza termin i ogłasza go na klatce. Po wymianie aktualizuje spis kodów. Nikt nie wymienia domofonu „na dziko” w nocy.",
@@ -71,15 +71,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "BAI06 Zarządzanie zmianami"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 60,
-      "cytat": "podzbiór procesów w domenie BAI"
+      "doc": "ENPROC",
+      "sekcja": "BAI06 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-bai06",

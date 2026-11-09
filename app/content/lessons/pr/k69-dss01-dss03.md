@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-prc-69-1, q-prc-69-2, q-prc-69-3]
-zapas: [q-prc-69-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-dss01, proc-dss02, proc-dss03]
 wymaga: [pr-k68-bai08-bai10]
 cel: "Potrafię odróżnić codzienną eksploatację (DSS01), szybkie przywracanie usługi (DSS02) i usuwanie przyczyny (DSS03)."

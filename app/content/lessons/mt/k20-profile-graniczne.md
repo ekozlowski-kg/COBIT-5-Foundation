@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-02, PC-02-06]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-mtk-20-1, q-mtk-20-2, q-mtk-20-3]
-zapas: [q-mtk-20-z1]
+cwiczenia: ["q-pck-24-3", "q-pck-30-2"]
+zapas: ["q-pck-31-2"]
 wprowadza: []
 wymaga: [mt-k19-skala-i-regula-poziomu]
 cel: "Potrafię wyznaczyć poziom zdolności z profilu granicznego i wytłumaczyć zarządowi, że poziom 1 to fundament, a nie porażka."

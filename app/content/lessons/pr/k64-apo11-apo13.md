@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 8
 zgadnij: []
-cwiczenia: [q-prc-64-1, q-prc-64-2, q-prc-64-3]
-zapas: [q-prc-64-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-apo11, proc-apo12, proc-apo13]
 wymaga: [pr-k63-apo08-apo10]
 cel: "Potrafię rozpoznać APO11, APO12 i APO13 i odróżnić APO12 od EDM03 oraz APO13 od codziennej ochrony w DSS05."

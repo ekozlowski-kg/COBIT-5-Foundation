@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-06, PR-02-14]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-m0k-26-1, q-m0k-26-2, q-m0k-26-3]
-zapas: [q-m0k-26-z1]
+cwiczenia: ["q-fn-w-05", "q-mtk-11-1"]
+zapas: ["q-mtk-12-1"]
 wprowadza: []
 wymaga: [m0-25-lad-zarzadzanie]
 cel: "Potrafię wymienić egzaminacyjne nazwy czynności Ładu (Oszacuj, Kieruj, Monitoruj) i Zarządzania (Planuj, Twórz, Wykonuj, Monitoruj)."

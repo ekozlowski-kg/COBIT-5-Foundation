@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-14, PR-02-15]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-mtk-10-1, q-mtk-10-2, q-mtk-10-3]
-zapas: [q-mtk-10-z1]
+cwiczenia: ["q-fn-w-05", "q-mtk-11-1"]
+zapas: ["q-mtk-12-1"]
 wprowadza: []
 wymaga: []
 cel: "Potrafię sprawdzić analogię Ładu i Zarządzania trzema testami, zanim użyję jej w rozmowie z kursantem."

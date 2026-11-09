@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-07]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-25-1, q-pra-25-2, q-pra-25-3]
-zapas: [q-pra-25-z1]
+cwiczenia: ["q-pra-25-3", "q-pak-T01Q04"]
+zapas: ["q-pr-05-03"]
 wprowadza: []
 wymaga: [pr-k24-po-co-kaskada]
 cel: "Potrafię wyjaśnić, dlaczego tabel kaskady nie stosuje się mechanicznie, i wskazać pierwszy krok pracy z nimi."

@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-03, PR-02-05, PR-02-06]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-20-1, q-pra-20-2, q-pra-20-3, q-warsztat-kaskada-scenariusz]
-zapas: [q-pra-20-z1]
+cwiczenia: ["q-warsztat-kaskada-scenariusz", "q-pra-17-z1"]
+zapas: ["q-pak-T01Q04"]
 wprowadza: []
 wymaga: [pr-k19-kaskada-krok-3-4]
 cel: "Potrafię przejść całą Kaskadę Celów na przykładzie z podręcznika i powiedzieć, czym kaskada nie jest."

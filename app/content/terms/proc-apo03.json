@@ -36,11 +36,11 @@
   "poLudzku": "Plan, jak systemy, dane i działania organizacji łączą się ze sobą i według jakich reguł je budujemy.",
   "wyobrazSobie": "Miejski plan zabudowy: strefy, drogi i zasady budowania, do których musi pasować każdy nowy budynek.",
   "poCo": "Żeby systemy, dane i działania organizacji pasowały do siebie, a nowe rozwiązania nie tworzyły chaosu.",
-  "jakDziala": "Kierownictwo IT opisuje architekturę obecną i docelową w warstwach: działania, informacje, aplikacje, technologia. Ustala zasady i standardy architektury. Każde nowe rozwiązanie sprawdza się z tym opisem.",
+  "jakDziala": "Spójny opis i rozwój architektury korporacyjnej, w tym modeli bazowych, docelowych oraz mapy przejścia.",
   "dlaczegoWazne": "Architektura wiąże strategię z budową rozwiązań. Na egzaminie myli się ze strategią (APO02) i z konfiguracją (BAI10).",
   "skadNazwa": "EN *Manage Enterprise Architecture*. *Enterprise* egzamin zwykle tłumaczy jako „organizacja”, ale tu zostaje „Architektura Korporacyjna”. To nie architektura budynków. To opis, jak poskładane są działania, informacje, aplikacje i technologia.",
   "poziom1": "Proces Zarządzania o architekturze. Opisuje, jak poskładane są działania organizacji, informacje, aplikacje i technologia, i ustala zasady dalszej budowy. Dzięki temu nowe systemy pasują do starych.",
-  "poziom2": "**Czym się zajmuje:** utrzymuje opis architektury obecnej i docelowej oraz [[zasady-architektury]].\n\n**Wejścia (intuicja):** strategia z [[proc-apo02]], potrzeby organizacji, ograniczenia technologii.\n\n**Wyjścia (intuicja):** modele architektury, zasady i standardy, „klocki” wielokrotnego użytku, opinie o planowanych rozwiązaniach.\n\n**Współpraca:** zasila [[proc-apo02]] i [[proc-apo05]], wyznacza ramy dla BAI02 i BAI03 (wymagania, budowa rozwiązań). Szczegółową ewidencję elementów konfiguracji prowadzi BAI10.",
+  "poziom2": "**Cel i zakres:** spójny opis i rozwój architektury korporacyjnej, w tym modeli bazowych, docelowych oraz mapy przejścia.\n\n**Przykład:** Architekci opisują bazową i docelową architekturę danych, aplikacji i technologii, analizują luki oraz przygotowują plan przejścia.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO03 Zarządzanie architekturą korporacyjną”. Załącznik E (s. 61): TOGAF 9 obejmuje *„proces związany z architekturą korporacyjną w domenie APO”*. Słownik (s. 89): Rada ds. Architektury to *„Grupa interesariuszy i ekspertów odpowiedzialna za wytyczne odnoszące się do kwestii i decyzji dotyczących architektury korporacyjnej”*. Il. 39 (s. 88) wymienia „Architektura korporacyjna” wśród kategorii umiejętności APO. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Przed remontem rysujesz plan mieszkania: gdzie biegną rury, prąd i internet. Ustalasz zasadę: wszystkie gniazdka w jednym standardzie. Dzięki temu nowa pralka pasuje bez kucia ścian. To architektura.",
@@ -77,30 +77,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO03 Zarządzanie architekturą korporacyjną"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 61,
-      "cytat": "proces związany z architekturą korporacyjną w domenie APO"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 89,
-      "cytat": "Grupa interesariuszy i ekspertów odpowiedzialna za wytyczne odnoszące się do kwestii i decyzji dotyczących architektury korporacyjnej"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 88,
-      "ilustracja": "39",
-      "cytat": "Architektura korporacyjna"
-    },
-    {
-      "doc": "SP1",
-      "strona": 10
+      "doc": "ENPROC",
+      "sekcja": "APO03 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo03",

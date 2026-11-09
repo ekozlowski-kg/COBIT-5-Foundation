@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-01]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-15-1, q-pra-15-2, q-pra-15-3]
-zapas: [q-pra-15-z1]
+cwiczenia: ["q-pra-15-z1", "q-pr-02-02"]
+zapas: ["q-fn-w-05"]
 wprowadza: [optymalizacja-ryzyka, optymalizacja-zasobow]
 wymaga: [pr-k14-tworzenie-wartosci]
 cel: "Potrafię wyjaśnić, że optymalizacja ryzyka to ryzyko akceptowalne, a optymalizacja zasobów to rozsądne, a nie najtańsze użycie zasobów."

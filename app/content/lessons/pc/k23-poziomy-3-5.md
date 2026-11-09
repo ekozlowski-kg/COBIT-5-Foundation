@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PC-01-01]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pck-23-1, q-pck-23-2, q-pck-23-3]
-zapas: [q-pck-23-z1]
+cwiczenia: ["q-pck-20-z1", "q-pck-21-z1"]
+zapas: ["q-pck-24-3"]
 wprowadza: [poziom-3, poziom-4, poziom-5]
 wymaga: [pc-k22-poziom-2]
 cel: "Potrafię powiedzieć, co dokłada każdy z poziomów 3, 4 i 5."

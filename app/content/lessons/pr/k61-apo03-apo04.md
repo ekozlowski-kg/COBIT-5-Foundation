@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-01-04]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-prc-61-1, q-prc-61-2, q-prc-61-3]
-zapas: [q-prc-61-z1]
+cwiczenia: ["q-fin-pliki-29", "q-proces-apo01"]
+zapas: ["q-proces-apo02"]
 wprowadza: [proc-apo03, proc-apo04]
 wymaga: [pr-k60-apo01-apo02]
 cel: "Potrafię odróżnić APO03 (jak całość jest poskładana) od APO02 (dokąd idziemy) i APO04 (sprawdzanie nowości) od APO05 (wybór inwestycji)."

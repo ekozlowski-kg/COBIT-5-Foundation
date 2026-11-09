@@ -16,6 +16,7 @@
 //            Bez pomocy silnik pokazuje pojęcia i kontekst najbliższego slajdu treści przed pytaniem.
 (async function () {
   const { store: progressStore } = await import('../js/store.js');
+  const { migrateDeckEntry } = await import('../js/deck-history.js');
   let freshQuestion = false;
   let helped = false;
   const D = window.DECK;
@@ -118,7 +119,13 @@
   let stack = [];
   const fromHash = () => { const m = (location.hash || '').match(/^#slajd-(\d+)$/); return m ? Math.min(S.length, Math.max(1, +m[1])) - 1 : null; };
 
-  function entry() { const st = load(); return [st, st[D.id] || { max: 0, q: {} }]; }
+  function entry() {
+    const st = load();
+    const old = st[D.id] || { max: 0, q: {} };
+    const current = migrateDeckEntry(old, D, S, SP);
+    if (current !== old) { st[D.id] = current; save(st); }
+    return [st, current];
+  }
   function remember() {
     const [st, e] = entry();
     e.last = i; e.ts = Date.now(); e.max = Math.max(e.max || 0, i + 1); e.total = S.length; e.qTotal = QN.length; e.q = e.q || {};
@@ -187,6 +194,10 @@
       const [st, e] = entry();
       e.q = e.q || {}; e.qa = e.qa || {};
       e.q[i] = k === good; e.qa[i] = k;
+      if (S[i].sp && q.id) {
+        e.sp1Answers = e.sp1Answers || {};
+        e.sp1Answers[q.id] = { pick: k, correct: k === good };
+      }
       st[D.id] = e; save(st); scoreLine();
     }
   }

@@ -513,3 +513,11 @@ Odwołanie źródłowe może mieć `sekcja`, gdy wskazujemy rozdział/atrybut za
 `resources/catalog.json` jest katalogiem linków, poza definicjami merytorycznymi `content/`. Zawiera datę, zakres rzeczywistej weryfikacji i deklarowaną liczbę pytań. Nie jest źródłem dla statusu `oficjalne`.
 
 Wygenerowane slajdy treści mają `lekcje`, a quizy `id` i `sylabus`, dzięki czemu macierz pokrycia może wskazać konkretne slajdy. Metadane oznaczają powiązanie, nie recenzję każdego pytania.
+
+### Recenzowana pula i nauka (2026-11-09)
+
+Aktywne `questions/*.json` tworzą jedną pulę maksymalnie 400 pytań. Nie uzupełnia się jej automatycznymi pytaniami mapy ani osobnymi wersjami dystraktorów z synonimów. Starszy postulat osobnego pytania skrajnego dla każdego hasła nie obowiązuje tej puli.
+
+`practice-tests.json` zawiera stałe zestawy referencji do ID oraz odrębne zagadnienie każdego pytania. `learning-guides.json` zawiera dla 64 kodów tematów: `zasada`, `przyklad`, `uwazaj`, `zrodlo`. `process-guide.json` opisuje 37 procesów. Serwer dołącza je jako `testy`, `nauka`, `procesy`; waliduje limit, pokrycie i referencje.
+
+Kopie quizów w `window.DECK` synchronizuje `podrecznik/sync_bank.py`, uruchamiany również na końcu generatora. `bankRevision` oddziela starsze odpowiedzi, zachowywane lokalnie w `quizHistory`. Oficjalny lokalny SP1 pozostaje osobną, opcjonalną treścią. `FW-EN` jest obsługiwanym publicznym źródłem. Nazwy PL są konwencją kursu; poprawnego synonimu nie traktuje się jako samodzielnego błędu.

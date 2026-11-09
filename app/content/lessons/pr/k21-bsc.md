@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-03]
 minuty: 5
 zgadnij: []
-cwiczenia: [q-pra-21-1, q-pra-21-2, q-pra-21-3]
-zapas: [q-pra-21-z1]
+cwiczenia: ["q-pra-21-z1", "q-pra-17-z1"]
+zapas: ["q-pak-T01Q04"]
 wprowadza: [bsc]
 wymaga: [pr-k20-kaskada-przyklad]
 cel: "Potrafię wymienić cztery wymiary zrównoważonej karty wyników i powiedzieć, że według nich COBIT 5 układa cele organizacji."

@@ -27,11 +27,11 @@
   "poLudzku": "Wybieranie, w które pomysły wydać ograniczone pieniądze, i pilnowanie, żeby cały zestaw się opłacał.",
   "wyobrazSobie": "Trener, który z dwudziestu zawodników wybiera jedenastu na mecz i zmienia skład w przerwie.",
   "poCo": "Żeby ograniczone pieniądze trafiały do zestawu inwestycji, który razem daje organizacji najwięcej wartości.",
-  "jakDziala": "Kierownictwo zbiera propozycje inwestycji z uzasadnieniami biznesowymi. Porównuje je pod względem wartości, ryzyka i zgodności ze strategią. Wybiera, równoważy i monitoruje portfel, a słabe inwestycje wstrzymuje.",
+  "jakDziala": "Optymalizacja portfela inwestycji i usług, ustalanie priorytetów oraz monitorowanie uzyskiwanych korzyści.",
   "dlaczegoWazne": "APO05 łączy strategię z budżetem i projektami. Na egzaminie występuje jako „Zarządzanie Portfelem” i myli się z BAI01.",
   "skadNazwa": "EN *Manage Portfolio*. Podręcznik dopisał „projektów”, choć angielska nazwa tego nie ma. Egzamin trzyma się EN: „Zarządzanie Portfelem”.",
   "poziom1": "Proces Zarządzania o portfelu. Wybiera, porządkuje i równoważy inwestycje, programy i usługi IT, żeby razem dawały najwięcej wartości przy dostępnych zasobach. Monitoruje cały portfel.",
-  "poziom2": "**Czym się zajmuje:** patrzy na **cały zestaw** inwestycji naraz: które rozpocząć, które wstrzymać, które zakończyć.\n\n**Wejścia (intuicja):** strategia z [[proc-apo02]], pomysły z [[proc-apo04]], budżet z [[proc-apo06]], [[uzasadnienie-biznesowe|uzasadnienia biznesowe]], kierunek z [[proc-edm02]].\n\n**Wyjścia (intuicja):** priorytety, decyzje o uruchomieniu programów, raporty o wartości portfela.\n\n**Współpraca:** pojedyncze programy i projekty prowadzi BAI01. Ład ocenia wartość w [[proc-edm02]].",
+  "poziom2": "**Cel i zakres:** optymalizacja portfela inwestycji i usług, ustalanie priorytetów oraz monitorowanie uzyskiwanych korzyści.\n\n**Przykład:** Kierownictwo porównuje inicjatywy, wybiera inwestycje, równoważy portfel i śledzi korzyści z jego realizacji.\n\nProcesy współpracują i mogą korzystać z tych samych informacji. Przy wyborze procesu rozstrzyga cel i mandat opisanego działania, a nie sam dokument lub nazwa stanowiska.",
   "poziom3": "Il. 16 (s. 33): „APO05 Zarządzanie portfelem projektów”. Załącznik E (s. 58): *„Proces APO05 Zarządzanie portfelem projektów odnosi się do sposobu zapewnienia efektywnego zarządzania portfelem projektów i programami”* z myślą o realizacji korzyści i optymalizacji kosztów. Słownik (s. 92): portfel inwestycyjny to *„Zbiór rozważanych i/lub realizowanych inwestycji.”* Załącznik E (s. 61): PRINCE2 obejmuje *„procesy związane z portfelem w domenie APO”* oraz *„procesy zarządzania programami i projektami w domenie BAI.”* Szczegóły praktyk: *COBIT 5: Procesy umożliwiające* (poza korpusem).",
   "przyklady": {
     "zycie": "Masz 20 tys. zł i pięć pomysłów: auto, kurs językowy, wakacje, remont, lokata. Nie starczy na wszystko. Wybierasz zestaw, który da najwięcej. Co pół roku sprawdzasz, czy wybór był dobry.",
@@ -70,34 +70,9 @@
   ],
   "zrodla": [
     {
-      "doc": "FW-PL",
-      "strona": 33,
-      "ilustracja": "16",
-      "cytat": "APO05 Zarządzanie portfelem projektów"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 58,
-      "cytat": "Proces APO05 Zarządzanie portfelem projektów odnosi się do sposobu zapewnienia efektywnego zarządzania portfelem projektów i programami"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 92,
-      "cytat": "Zbiór rozważanych i/lub realizowanych inwestycji."
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 61,
-      "cytat": "procesy związane z portfelem w domenie APO"
-    },
-    {
-      "doc": "FW-PL",
-      "strona": 61,
-      "cytat": "procesy zarządzania programami i projektami w domenie BAI."
-    },
-    {
-      "doc": "SP1",
-      "strona": 7
+      "doc": "ENPROC",
+      "sekcja": "APO05 — Process Description / Purpose / Practices",
+      "url": "https://community.mis.temple.edu/mis5203sec951fall2025/files/2019/01/COBIT5-Ver2-enabling.pdf"
     }
   ],
   "mapa": "proc-apo05",

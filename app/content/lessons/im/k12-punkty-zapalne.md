@@ -9,8 +9,8 @@ format: krotki
 sylabus: [IM-02-02]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-imk-12-1, q-imk-12-2, q-imk-12-3]
-zapas: [q-imk-12-z1]
+cwiczenia: ["q-im-02-01", "q-im-02-03"]
+zapas: ["q-fn-w-53"]
 wprowadza: [punkty-zapalne]
 wymaga: [im-k11-czynniki-sukcesu]
 cel: "Potrafię rozpoznać punkt zapalny, czyli trwający problem organizacji, i wyjaśnić, po co zaczyna się od niego wdrożenie."

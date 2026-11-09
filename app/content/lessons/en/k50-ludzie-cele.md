@@ -9,8 +9,8 @@ format: krotki
 sylabus: [EN-02-22]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-enk-50-1, q-enk-50-2, q-enk-50-3]
-zapas: [q-enk-50-z1]
+cwiczenia: ["q-enk-50-1", "q-enk-50-2"]
+zapas: ["q-enk-50-3"]
 wprowadza: [ludzie-umiejetnosci-kompetencje]
 wymaga: [en-k47-pryncypia-architektury]
 cel: "Potrafię powiedzieć, po co jest aktywator Ludzie, Umiejętności i Kompetencje i jakie ma cele."

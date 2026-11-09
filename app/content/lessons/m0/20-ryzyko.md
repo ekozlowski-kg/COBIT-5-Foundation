@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-04]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-20-1, q-m0k-20-2, q-m0k-20-3]
-zapas: [q-m0k-20-z1]
+cwiczenia: []
+zapas: []
 wprowadza: [ryzyko]
 wymaga: [m0-18-optymalizacja]
 cel: "Potrafię powiedzieć, z jakich dwóch części składa się ryzyko, i odróżnić ryzyko od problemu."

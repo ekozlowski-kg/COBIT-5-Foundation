@@ -9,8 +9,8 @@ format: krotki
 sylabus: [PR-02-14, PR-02-15]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-mtk-11-1, q-mtk-11-2, q-mtk-11-3]
-zapas: [q-mtk-11-z1]
+cwiczenia: ["q-mtk-11-1", "q-fn-w-05"]
+zapas: ["q-mtk-12-1"]
 wprowadza: []
 wymaga: [mt-k10-dobra-analogia-ladu]
 cel: "Potrafię poprawić analogie „Ład to szef IT” i „Ład to wyższe piętro zarządzania”, wskazując, gdzie pękają."
@@ -75,16 +75,16 @@ Przesuńcie uwagę kursanta ze stanowiska na czynność. Dyrektor IT zasiada w k
 # Gdzie pęka „dyrektor i kierownik”?
 
 :::pulapka
-Analogia przełożony–podwładny podsuwa, że dyrektor generalny (CEO) należy do Ładu. W COBIT 5 CEO stoi na czele **Zarządzania**, a Ład sprawuje zarząd z prezesem.
+Analogia przełożony–podwładny podsuwa, że dyrektor generalny (CEO) należy do Ładu. W COBIT 5 CEO stoi na czele **Zarządzania**, a Ład sprawuje organ Ładu z przewodniczącym.
 :::
 
-> „W większości przedsiębiorstw za nadzór odpowiada zarząd pod przywództwem prezesa”
+Parafraza COBIT 5 EN: Ład zwykle sprawuje board pod przewodnictwem chairperson; nie jest to automatycznie polski zarząd pod prezesem.
 
 :::zrodlo FW-PL 14
 :::
 
 :::wykladowca
-Ta analogia pęka przy CEO. Podręcznik mówi: za nadzór odpowiada zarząd z prezesem, a za zarządzanie kadra zarządzająca z dyrektorem generalnym. Każda analogia gdzieś pęka. Dobry mentor mówi głośno, gdzie. Bezpieczniejsze są pary z innymi czynnościami: właściciel i zarządca, armator i kapitan.
+Ta analogia pęka przy CEO. Podręcznik mówi: za nadzór odpowiada organ Ładu z przewodniczącym, a za zarządzanie kadra zarządzająca z dyrektorem generalnym. Każda analogia gdzieś pęka. Dobry mentor mówi głośno, gdzie. Bezpieczniejsze są pary z innymi czynnościami: właściciel i zarządca, armator i kapitan.
 :::
 
 ---
@@ -97,7 +97,7 @@ Ta analogia pęka przy CEO. Podręcznik mówi: za nadzór odpowiada zarząd z pr
 :::zapamietaj
 - „Szef IT” → pytaj: co ta osoba teraz robi?
 - „Wyższe piętro” → pokaż inne czasowniki i inne pytanie.
-- CEO prowadzi Zarządzanie; Ład – zarząd z prezesem.
+- CEO prowadzi Zarządzanie; Ład – organ Ładu z przewodniczącym.
 :::
 
 :::wykladowca

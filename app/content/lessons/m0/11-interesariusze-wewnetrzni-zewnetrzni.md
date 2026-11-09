@@ -9,8 +9,8 @@ format: krotki
 sylabus: [M0-00-01, PR-02-03]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-m0k-11-1, q-m0k-11-2, q-m0k-11-3]
-zapas: [q-m0k-11-z1]
+cwiczenia: ["q-pra-17-z1", "q-pak-T01Q04"]
+zapas: ["q-pra-21-z1"]
 wprowadza: []
 wymaga: [m0-10-interesariusz]
 cel: "Potrafię zaliczyć interesariusza do grupy wewnętrznej albo zewnętrznej według Ilustracji 7 (na egzaminie: Rysunek 7)."
