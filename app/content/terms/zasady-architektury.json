@@ -22,13 +22,12 @@
     "biuro": "Biuro ustala reguły zakupu sprzętu: wszystkie drukarki jednego modelu, żeby pasowały te same tonery, gotowy program do faktur zamiast pisanego na zamówienie i tylko sprzęt obsługujący standardowe formaty, np. PDF. To zasady architektury biura.",
     "firma": "Właściciel sklepu internetowego rozbudowuje sklep. Korzysta z tej samej bazy klientów w sklepie i w newsletterze, kupuje gotową wtyczkę płatności zamiast ją pisać, trzyma jeden prosty panel, wybiera moduły łatwe do wymiany i formaty plików, które obsłuży każda hurtownia. Tak wyglądają zasady architektury w praktyce.",
     "admin": "Szkoła wybiera system do zapisów na zajęcia dodatkowe. Dyrektor stawia warunki: logowanie kontami z dziennika, gotowe rozwiązanie zamiast pisanego na zamówienie, prosta obsługa dla rodziców, łatwe zmiany na nowy rok szkolny i eksport do zwykłego arkusza. To są zasady architektury.",
-    "psp": "Komenda wybiera rozwiązania dla stanowiska kierowania. Ustala: wspólna baza obiektów dla SK i czynności kontrolno-rozpoznawczych, gotowy system zamiast pisania własnego, jeden ekran dla dyżurnego, moduły łatwe do zmiany po nowych wytycznych KG PSP i otwarte formaty wymiany danych z CPR 112. Te reguły to zasady architektury.",
-    "it": "W APO03 (Zarządzanie architekturą korporacyjną) ustala się pryncypia architektury. Gdy komenda wybiera moduł SMS do Syreny, zasada „nabywanie zamiast samodzielnego tworzenia” każe kupić gotową bramkę SMS, chyba że jest zatwierdzony powód, by pisać własną."
+    "it": "W APO03 (Zarządzanie architekturą korporacyjną) ustala się pryncypia architektury. Gdy bank wybiera moduł SMS do systemu powiadomień, zasada „nabywanie zamiast samodzielnego tworzenia” każe kupić gotową bramkę SMS, chyba że jest zatwierdzony powód, by pisać własną."
   },
   "glebokosc": {
     "prosty": "Remontując dom, przyjmujesz kilka reguł: nie kupujesz nowych drzwi, jeśli stare się nadają, bierzesz gotowe szafki zamiast robionych na wymiar, chyba że inaczej się nie da, robisz możliwie prosto i kładziesz gniazdka w standardzie, do którego pasuje każda wtyczka. Te reguły nie mówią, jak położyć każdą płytkę, ale pomagają podjąć każdą decyzję.",
-    "zaawansowany": "Sikora przy modernizacji Syreny stosuje pryncypia architektury. Moduł SMS ma być wspólny dla JRG i OSP (ponowne wykorzystanie), komenda kupuje gotowy system od Kwant-Sygnał zamiast pisać własny (nabywanie), a połączenie z innymi systemami komendy ma się opierać na otwartym standardzie (otwartość). Pryncypia to dobra praktyka aktywatora [[uslugi-infrastruktura-aplikacje]], obok punktów widzenia architektury, repozytorium architektury i poziomów usług. Nie należy ich mylić z [[zasady-polityki-struktury|zasadami w aktywatorze 1]], które wyrażają wartości organizacji.",
-    "skrajny": "Ola Dudek chce napisać własny moduł mapy dla OSP, a Sikora oponuje: „Pryncypium nabywania mówi: kupuj, nie buduj”. Pryncypium brzmi jednak pełniej: rozwiązania należy nabywać, chyba że istnieje zatwierdzony powód, aby opracować je samodzielnie (s. 86). Jeśli komendantka zatwierdzi powód, np. brak takiego produktu na rynku, budowa własnego modułu jest zgodna z pryncypiami. Druga pułapka: słowo „zasady” pada w COBIT 5 w trzech znaczeniach – 5 zasad metodyki, zasady w aktywatorze 1 (wartości organizacji) i zasady (pryncypia) architektury, które są dobrą praktyką aktywatora 6. **Rozstrzygnięcie:** „kupuj, nie buduj” ma wyjątek – zatwierdzony powód; pryncypia architektury leżą w aktywatorze Usługi, Infrastruktura i Aplikacje, a nie w aktywatorze Zasady, Polityki i Struktury ramowe."
+    "zaawansowany": "Dyrektor IT przy modernizacji systemu powiadomień banku stosuje pryncypia architektury. Moduł SMS ma być wspólny dla bankowości internetowej i aplikacji mobilnej (ponowne wykorzystanie), bank kupuje gotowy system od dostawcy zamiast pisać własny (nabywanie), a połączenie z innymi systemami banku ma się opierać na otwartym standardzie (otwartość). Pryncypia to dobra praktyka aktywatora [[uslugi-infrastruktura-aplikacje]], obok punktów widzenia architektury, repozytorium architektury i poziomów usług. Nie należy ich mylić z [[zasady-polityki-struktury|zasadami w aktywatorze 1]], które wyrażają wartości organizacji.",
+    "skrajny": "Programistka chce napisać własny moduł mapy oddziałów, a dyrektor IT oponuje: „Pryncypium nabywania mówi: kupuj, nie buduj”. Pryncypium brzmi jednak pełniej: rozwiązania należy nabywać, chyba że istnieje zatwierdzony powód, aby opracować je samodzielnie (s. 86). Jeśli zarząd zatwierdzi powód, np. brak takiego produktu na rynku, budowa własnego modułu jest zgodna z pryncypiami. Druga pułapka: słowo „zasady” pada w COBIT 5 w trzech znaczeniach – 5 zasad metodyki, zasady w aktywatorze 1 (wartości organizacji) i zasady (pryncypia) architektury, które są dobrą praktyką aktywatora 6. **Rozstrzygnięcie:** „kupuj, nie buduj” ma wyjątek – zatwierdzony powód; pryncypia architektury leżą w aktywatorze Usługi, Infrastruktura i Aplikacje, a nie w aktywatorze Zasady, Polityki i Struktury ramowe."
   },
   "zagmatwania": [
     {
@@ -47,7 +46,7 @@
   "mentor": {
     "czestyBlad": "Mylenie pryncypiów architektury z 5 zasadami COBIT 5 albo z zasadami aktywatora 1 i czytanie „nabywania” jako bezwzględnego zakazu budowy.",
     "jakTlumaczyc": "Zacznij od trzech „zasad” na tablicy: zasady COBIT (metodyka), zasady organizacji (aktywator 1), pryncypia architektury (aktywator 6). Potem pięć pryncypiów jako reguły remontu domu, a na końcu przykład z IT.",
-    "pytanieKontrolne": "Komenda chce zbudować własny moduł, choć pryncypium mówi o nabywaniu. Kiedy jest to zgodne z COBIT 5 i do którego aktywatora należy to pryncypium?",
+    "pytanieKontrolne": "Firma chce zbudować własny moduł, choć pryncypium mówi o nabywaniu. Kiedy jest to zgodne z COBIT 5 i do którego aktywatora należy to pryncypium?",
     "odpowiedzKontrolna": "Gdy istnieje **zatwierdzony powód**, by opracować rozwiązanie samodzielnie (s. 86). Pryncypia architektury to dobra praktyka aktywatora **Usługi, Infrastruktura i Aplikacje**."
   },
   "egzamin": "Pięć pryncypiów: **ponowne wykorzystanie, nabywanie (kupuj, nie buduj), prostota, zwinność, otwartość**.",
@@ -78,7 +77,7 @@
     "uwaga": "Egzamin PL: „Zasady (pryncypia) architektury”; podręcznik PL: „Pryncypia architektury” – konkurencyjne odpowiedniki. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 61, 85."
   },
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "uslugi-infrastruktura-aplikacje"

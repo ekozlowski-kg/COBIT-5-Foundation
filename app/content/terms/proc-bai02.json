@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Kupujesz samochód dla rodziny. Zanim pójdziesz do salonu, spisujesz: 7 miejsc, duży bagażnik, spalanie poniżej 7 litrów, cena do 90 tysięcy. Ta kartka to wymagania. Sprzedawca pokaże Ci potem auta, które je spełniają albo nie.",
     "biuro": "Zanim zamówisz nowe krzesła, pytasz zespół: regulacja wysokości, podłokietniki, cena do 600 zł. Dopiero potem prosisz o oferty.",
-    "organizacja": "Piekarnia przed otwarciem sklepu internetowego spisuje z załogą: zamówienia do 22:00, BLIK, alergeny. Starostwo przed przetargiem zbiera wymagania wydziałów, zamiast przepisywać folder jednego dostawcy.",
-    "psp": "**„SMS ma dojść zawsze”.** Kpt. Marek Sikora zbiera z dyżurnymi i dh. Pietrzakiem z OSP Zawilce, czego potrzebują od poprawionej Syreny. Zapisuje: alarm do OSP w 30 sekund, także przy awarii internetu, i potwierdzenie odbioru. Komendantka Wrzos zatwierdza tę listę. Ustalanie i zatwierdzanie wymagań to [[proc-bai02]].",
+    "organizacja": "Piekarnia przed otwarciem sklepu internetowego spisuje z załogą: zamówienia do 22:00, BLIK, alergeny.",
+    "admin": "Starostwo przed przetargiem na nowy system dla wydziału geodezji zbiera wymagania od trzech wydziałów, zamiast przepisywać folder jednego dostawcy. Naczelnicy spisują m.in.: praca 40 urzędników naraz, wnioski przez internet, przechowywanie map przez 10 lat. Informatyk ocenia dwa warianty – zakup gotowego programu albo rozbudowę obecnego – a naczelnik geodezji i sekretarz powiatu zatwierdzają listę wymagań przed ogłoszeniem przetargu.",
     "it": "Praktyki BAI02: definiowanie wymagań, studium wykonalności z wariantami, zarządzanie ryzykiem wymagań i zatwierdzenie wymagań. Wynik przechodzi do BAI03."
   },
   "nieMylicZ": [
@@ -81,8 +81,8 @@
   "mapa": "proc-bai02",
   "glebokosc": {
     "prosty": "Zamawiasz tort. Mówisz cukierni: czekoladowy, bez orzechów, na 20 osób, na sobotę na 14:00. To są wymagania. Jak cukiernik go upiecze, to już jego sprawa.",
-    "zaawansowany": "Kpt. Sikora pyta dyżurnych, czego potrzebują od Syreny. Grab chce dużego przycisku, Nowik potwierdzenia odbioru, a dh Pietrzak SMS-a nawet bez internetu. Sikora spisuje to, sprawdza warianty i daje komendantce do zatwierdzenia. To [[proc-bai02]]. Na tej podstawie Kwant-Sygnał projektuje i buduje poprawki ([[proc-bai03]]), a dyżurni na końcu odbierają je w testach ([[proc-bai07]]).",
-    "skrajny": "Sikora zapisuje: „alarm do OSP w 30 sekund, także przy awarii internetu”. Kwant-Sygnał odpowiada dokumentem „specyfikacja techniczna”: zapasowa bramka SMS przez sieć komórkową, model X. Oba dokumenty brzmią technicznie, więc gdzie kończy się BAI02? Wymaganie może być techniczne (30 sekund, brak internetu) i nadal należy do BAI02, bo mówi, co ma być spełnione. Wybór bramki X i jej konfiguracja opisuje sposób, czyli rozwiązanie z BAI03. Pułapka: słowo „specyfikacja” nie przesądza, który to proces. **Rozstrzygnięcie:** pytaj „czy to opisuje, CO ma działać, czy JAK to zrobimy?”. CO → BAI02, JAK → BAI03. Kryteria z BAI02 wracają w testach odbiorczych BAI07."
+    "zaawansowany": "Kierownik projektu w banku pyta użytkowników, czego potrzebują od nowego systemu CRM. Konsultanci chcą widzieć całą historię klienta na jednym ekranie, dział reklamacji – terminów odpowiedzi, a dział zgodności – zapisu zgód klienta. Kierownik spisuje to, sprawdza warianty i daje zarządowi do zatwierdzenia. To [[proc-bai02]]. Na tej podstawie dostawca projektuje i buduje rozwiązanie ([[proc-bai03]]), a użytkownicy na końcu odbierają je w testach ([[proc-bai07]]).",
+    "skrajny": "Bank zapisuje: „powiadomienie o transakcji dociera do klienta w 30 sekund, także przy awarii internetu”. Dostawca odpowiada dokumentem „specyfikacja techniczna”: zapasowa bramka SMS przez sieć komórkową, model X. Oba dokumenty brzmią technicznie, więc gdzie kończy się BAI02? Wymaganie może być techniczne (30 sekund, brak internetu) i nadal należy do BAI02, bo mówi, co ma być spełnione. Wybór bramki X i jej konfiguracja opisuje sposób, czyli rozwiązanie z BAI03. Pułapka: słowo „specyfikacja” nie przesądza, który to proces. **Rozstrzygnięcie:** pytaj „czy to opisuje, CO ma działać, czy JAK to zrobimy?”. CO → BAI02, JAK → BAI03. Kryteria z BAI02 wracają w testach odbiorczych BAI07."
   },
   "zagmatwania": [
     {
@@ -101,7 +101,7 @@
   "mentor": {
     "czestyBlad": "Uczeń wrzuca każdą „specyfikację” do BAI02, nawet gdy opisuje ona gotowe rozwiązanie techniczne.",
     "jakTlumaczyc": "Wymaganie to zamówienie w restauracji („bez glutenu, na ostro”). Przepis i gotowanie to już BAI03.",
-    "pytanieKontrolne": "Zdanie „Syrena ma działać na serwerze z dwoma zasilaczami” – to BAI02 czy BAI03?",
+    "pytanieKontrolne": "Zdanie „System CRM ma działać na serwerze z dwoma zasilaczami” – to BAI02 czy BAI03?",
     "odpowiedzKontrolna": "Zależy od intencji. Jeśli to oczekiwanie biznesu (system ma działać mimo awarii zasilacza), to wymaganie z **BAI02**. Jeśli to wybrany sposób spełnienia wymagania, to projekt rozwiązania z **BAI03**. Dobrze sformułowane wymaganie mówi, co ma być osiągnięte, a nie jakim sprzętem."
   }
 }

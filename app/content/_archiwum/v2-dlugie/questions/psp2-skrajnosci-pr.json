@@ -1,0 +1,55 @@
+[
+  {
+    "id": "q-sk-wytyczne-isaca-1",
+    "typ": "egzamin",
+    "skrajnosc": true,
+    "atom": "wytyczne-isaca",
+    "sylabus": [
+      "PR-02-10",
+      "PR-02-11"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Naczelnik mówi, że COBIT 5 „zawiera w sobie” cztery źródła. Które z nich **NIE** jest wytyczną ISACA, więc COBIT 5 tylko się do niego **dopasowuje**?",
+    "opcje": [
+      {
+        "tekst": "ITIL",
+        "poprawna": true,
+        "wyjasnienie": "Tak. ITIL to inny standard. COBIT 5 dopasowuje się do niego, tak jak do TOGAF i norm ISO (s. 26)."
+      },
+      {
+        "tekst": "Risk IT",
+        "poprawna": false,
+        "wyjasnienie": "Risk IT to wytyczna ISACA. Model procesów COBIT 5 łączy jej model procesów (s. 33).",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Val IT",
+        "poprawna": false,
+        "wyjasnienie": "Val IT to wytyczna ISACA, którą COBIT 5 zintegrował (s. 25–26).",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "ITAF",
+        "poprawna": false,
+        "wyjasnienie": "ITAF to materiał ISACA wymieniony wśród zintegrowanych metodyk (s. 25).",
+        "pulapka": "falsz"
+      }
+    ],
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 25
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 26
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 33
+      }
+    ],
+    "status": "oficjalne"
+  }
+]

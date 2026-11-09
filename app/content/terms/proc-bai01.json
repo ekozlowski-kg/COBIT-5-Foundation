@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Budujesz dom. Kierownik budowy ma harmonogram, kosztorys i listę etapów. Co tydzień sprawdza, czy ekipy nie mają opóźnień, i od razu reaguje. Po odbiorze siadacie i spisujecie, co poszło źle. Tak działa BAI01.",
     "biuro": "Biuro organizuje konferencję dla klientów. Koordynatorka ma plan, budżet i listę zadań, a po wszystkim sprawdza, ilu klientów przyszło.",
-    "organizacja": "Hurtownia wdraża system magazynowy z planem, budżetem i komitetem sterującym, a po starcie sprawdza czas wysyłek. Urząd miasta prowadzi program „e-Urząd” z trzech projektów, które razem mają skrócić kolejki.",
-    "psp": "**Projekt „Naprawa Syreny do 30 kwietnia”.** Kpt. Marek Sikora, naczelnik informatyki, rozpisuje harmonogram i zadania dla Oli Dudek. Halina Mak pilnuje budżetu, a komendantka Anna Wrzos co tydzień dostaje krótki raport postępu. Po zakończeniu Sikora robi przegląd: czy OSP Zawilce dostaje alarm na czas. Prowadzenie tego przedsięwzięcia od startu do zamknięcia to [[proc-bai01]].",
+    "organizacja": "Hurtownia wdraża system magazynowy z planem, budżetem i komitetem sterującym, a po starcie sprawdza czas wysyłek.",
+    "admin": "Urząd miasta prowadzi program „e-Urząd” z trzech projektów: e-rezerwacja wizyt, e-płatności i nowa strona. Każdy projekt ma plan, budżet i kierownika, a komitet sterujący co miesiąc sprawdza postęp i ryzyko. Po zamknięciu urząd sprawdza, czy kolejki naprawdę się skróciły.",
     "it": "Praktyki BAI01 obejmują m.in. inicjowanie programu, planowanie projektów, zarządzanie ryzykiem projektu i zamknięcie programu. Wspierają pierścień Zarządzanie programem."
   },
   "nieMylicZ": [
@@ -87,8 +87,8 @@
   "mapa": "proc-bai01",
   "glebokosc": {
     "prosty": "Organizujesz wesele. Masz listę zadań, termin, budżet i jedną osobę, która wszystkiego pilnuje. Gdy kwiaciarnia się spóźnia, reagujesz od razu. Po weselu mówicie sobie, co następnym razem zrobić lepiej.",
-    "zaawansowany": "Kpt. Marek Sikora prowadzi naprawę Syreny jako projekt z terminem 30 kwietnia. Ma harmonogram, budżet od Haliny Mak i cotygodniowy raport dla komendantki. To jest [[proc-bai01]]. Decyzję, czy w ogóle wydać na to pieniądze, podjęto wcześniej w portfelu ([[proc-apo05]]). Spisanie wymagań to [[proc-bai02]], a budowa poprawek to [[proc-bai03]].",
-    "skrajny": "Projekt Syreny skończył się w terminie i w budżecie, wszystkie wskaźniki projektu są zielone. Po trzech miesiącach okazuje się, że OSP Zawilce nadal dostaje alarm z opóźnieniem. Czy BAI01 zadziałał? Projekt dowiózł rezultat (nowy moduł), ale nie korzyść (szybszą pomoc). BAI01 prowadzi projekty z myślą o korzyściach, dlatego obejmuje przegląd po wdrożeniu i wnioski. Może też wstrzymać projekt, który przestał mieć sens. **Rozstrzygnięcie:** BAI01 pilnuje, żeby projekt dał obiecany efekt, a nie tylko żeby się skończył. Wybór projektów to APO05, a ocena korzyści przez szefostwo to EDM02."
+    "zaawansowany": "Kierownik działu IT ubezpieczyciela prowadzi wymianę systemu likwidacji szkód jako projekt z terminem 30 kwietnia. Ma harmonogram, budżet od dyrektora finansowego i cotygodniowy raport dla zarządu. To jest [[proc-bai01]]. Decyzję, czy w ogóle wydać na to pieniądze, podjęto wcześniej w portfelu ([[proc-apo05]]). Spisanie wymagań to [[proc-bai02]], a budowa rozwiązania to [[proc-bai03]].",
+    "skrajny": "Projekt nowego systemu likwidacji szkód skończył się w terminie i w budżecie, wszystkie wskaźniki projektu są zielone. Po trzech miesiącach okazuje się, że klienci nadal czekają na wypłatę tak samo długo. Czy BAI01 zadziałał? Projekt dowiózł rezultat (nowy system), ale nie korzyść (szybszą obsługę klienta). BAI01 prowadzi projekty z myślą o korzyściach, dlatego obejmuje przegląd po wdrożeniu i wnioski. Może też wstrzymać projekt, który przestał mieć sens. **Rozstrzygnięcie:** BAI01 pilnuje, żeby projekt dał obiecany efekt, a nie tylko żeby się skończył. Wybór projektów to APO05, a ocena korzyści przez szefostwo to EDM02."
   },
   "zagmatwania": [
     {
@@ -107,7 +107,7 @@
   "mentor": {
     "czestyBlad": "Uczniowie mylą BAI01 z APO05, bo w obu pada słowo „projekty” (APO05 w podręczniku to „Zarządzanie portfelem projektów”).",
     "jakTlumaczyc": "Portfel to karta dań: decydujesz, co zamawiasz i za ile. BAI01 to kuchnia, która gotuje zamówione danie na czas i pilnuje, żeby smakowało.",
-    "pytanieKontrolne": "Rada ds. Informatyki rezygnuje z modułu mobilnego Syreny, bo ważniejsza jest nowa serwerownia. Który to proces: BAI01 czy APO05?",
+    "pytanieKontrolne": "Komitet sterujący IT rezygnuje z nowego modułu aplikacji mobilnej, bo ważniejsze jest nowe centrum danych. Który to proces: BAI01 czy APO05?",
     "odpowiedzKontrolna": "**APO05** – to wybór między inwestycjami w portfelu. BAI01 zaczyna się, gdy projekt serwerowni ruszy, i prowadzi go do zamknięcia."
   }
 }

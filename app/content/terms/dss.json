@@ -24,7 +24,7 @@
     "proces"
   ],
   "poLudzku": "Szuflada zadań „codzienna praca”: żeby systemy chodziły, awarie były usuwane, a dane bezpieczne.",
-  "wyobrazSobie": "Codzienna obsługa hotelu: recepcja przyjmuje gości, konserwator naprawia cieknący kran, ochrona pilnuje wejścia, a na wypadek pożaru jest plan ewakuacji.",
+  "wyobrazSobie": "Codzienna obsługa hotelu: recepcja przyjmuje gości, konserwator naprawia cieknący kran, ochrona pilnuje wejścia, a na wypadek awarii prądu jest agregat i plan postępowania.",
   "poCo": "Żeby usługi IT działały dziś i jutro: były dostarczane, obsługiwane, naprawiane i chronione zgodnie z tym, co zaplanowano i wdrożono.",
   "jakDziala": "DSS to domena Zarządzania odpowiadająca obszarowi Wykonuj (Run) w cyklu Planuj, Twórz, Wykonuj, Monitoruj. Ma 6 procesów: eksploatacja (DSS01), zgłoszenia serwisowe i incydenty (DSS02), problemy (DSS03), ciągłość (DSS04), usługi bezpieczeństwa (DSS05) i mechanizmy kontrolne procesów biznesowych (DSS06). Przejmuje od BAI gotowe rozwiązania i utrzymuje je w codziennym działaniu.",
   "dlaczegoWazne": "Na egzaminie trzeba odróżnić incydent (DSS02, przywrócenie działania) od problemu (DSS03, usunięcie przyczyny) oraz DSS05 od APO13. Nazwa egzaminacyjna to „Dostarczaj, Obsługuj i Wspieraj”.",
@@ -37,13 +37,12 @@
     "biuro": "W biurze zacina się drukarka, więc asystentka zgłasza to serwisowi i do czasu naprawy drukuje na drugim piętrze. Gdy drukarka psuje się trzeci raz w miesiącu, serwis szuka przyczyny i wymienia podajnik. Codzienne utrzymanie, usuwanie awarii i ich przyczyn to obszar DSS.",
     "firma": "W sobotę rano w piekarni przestaje działać terminal płatniczy. Sprzedawczyni zgłasza awarię, serwis przywraca terminal w godzinę, a do tego czasu klienci płacą gotówką według spisanej instrukcji awaryjnej. Codzienna obsługa, usuwanie awarii i plan na czarną godzinę to DSS.",
     "admin": "Urzędniczka w starostwie nie może zalogować się do EZD i dzwoni do informatyka (zgłoszenie). Informatyk przywraca dostęp, w nocy system robi kopię zapasową, a raz w roku urząd ćwiczy, co robić, gdy padnie serwerownia. To codzienna praca IT w domenie DSS.",
-    "psp": "W nocy w SK zawiesza się stanowisko dyżurnego. Dyżurny przechodzi na stanowisko zapasowe według planu ciągłości i zgłasza awarię informatykowi, który rano ją usuwa i sprawdza, dlaczego to już trzeci raz w miesiącu. Obsługa awarii, szukanie przyczyny i działanie mimo przestoju to domena DSS.",
-    "it": "W nocy Syrena nie wysyła SMS-ów do OSP Zawilce. Ola Dudek przywraca wysyłkę według procedury obsługi incydentu (DSS02), a potem zespół szuka przyczyny i ustala, że w bazie były nieaktualne numery (DSS03 Zarządzanie problemami)."
+    "it": "W nocy system bankowości internetowej przestaje wysyłać SMS-y z kodami do klientów. Administrator przywraca wysyłkę według procedury obsługi incydentu (DSS02), a potem zespół szuka przyczyny i ustala, że bramka SMS miała błędną konfigurację po aktualizacji (DSS03 Zarządzanie problemami)."
   },
   "glebokosc": {
     "prosty": "Kuchnia po remoncie jest gotowa i teraz codziennie w niej gotujesz i sprzątasz. Naprawiasz cieknący kran i szukasz, czemu ciągle wybija bezpiecznik. Masz też plan, gdzie zjeść, gdy prąd zniknie na tydzień. To codzienne życie, a nie budowa.",
-    "zaawansowany": "W nocy Syrena przestaje wysyłać SMS-y. Grab zgłasza awarię, a Ola Dudek przywraca działanie: to incydent (DSS02). Następnego dnia Ola szuka przyczyny, dla której awaria wraca co miesiąc: to problem (DSS03). Sikora przygotowuje zapasowe powiadamianie przez radio na wypadek długiej awarii (DSS04). Codzienne pilnowanie uprawnień to DSS05. Jeśli usunięcie przyczyny wymaga przebudowy systemu, to już zmiana w domenie [[bai|BAI]].",
-    "skrajny": "Ta sama nocna awaria Syreny przechodzi przez kilka procesów. Szybkie przywrócenie działania to DSS02, a szukanie przyczyny powtarzających się awarii to DSS03, choć chodzi o to samo zdarzenie. Jeśli naprawa wymaga zmiany w systemie, przechodzi przez BAI06, a nie przez DSS. Plan na wielodniową awarię to DSS04 (ciągłość), a nie BAI04 (dostępność i pojemność). DSS05 to codzienne usługi bezpieczeństwa, a APO13 – zarządzanie bezpieczeństwem jako systemem. **Rozstrzygnięcie:** przywróć szybko → DSS02; znajdź przyczynę → DSS03; przetrwaj katastrofę → DSS04; zmień system → BAI06; chroń na co dzień → DSS05; zaplanuj system bezpieczeństwa → APO13."
+    "zaawansowany": "W nocy sklep internetowy przestaje przyjmować płatności. Klient zgłasza błąd na helpdesk, a administrator przywraca działanie: to incydent (DSS02). Następnego dnia zespół szuka przyczyny, dla której awaria wraca co miesiąc: to problem (DSS03). CIO przygotowuje zapasowego operatora płatności na wypadek długiej awarii (DSS04). Codzienne pilnowanie uprawnień to DSS05. Jeśli usunięcie przyczyny wymaga przebudowy systemu, to już zmiana w domenie [[bai|BAI]].",
+    "skrajny": "Ta sama nocna awaria płatności w sklepie internetowym przechodzi przez kilka procesów. Szybkie przywrócenie działania to DSS02, a szukanie przyczyny powtarzających się awarii to DSS03, choć chodzi o to samo zdarzenie. Jeśli naprawa wymaga zmiany w systemie, przechodzi przez BAI06, a nie przez DSS. Plan na wielodniową awarię to DSS04 (ciągłość), a nie BAI04 (dostępność i pojemność). DSS05 to codzienne usługi bezpieczeństwa, a APO13 – zarządzanie bezpieczeństwem jako systemem. **Rozstrzygnięcie:** przywróć szybko → DSS02; znajdź przyczynę → DSS03; przetrwaj katastrofę → DSS04; zmień system → BAI06; chroń na co dzień → DSS05; zaplanuj system bezpieczeństwa → APO13."
   },
   "zagmatwania": [
     {
@@ -62,7 +61,7 @@
   "mentor": {
     "czestyBlad": "Mylenie DSS02 z DSS03 oraz DSS05 z APO13.",
     "jakTlumaczyc": "Pogotowie i lekarz rodzinny: pogotowie ratuje teraz (incydent, DSS02), a lekarz szuka przyczyny, żeby choroba nie wracała (problem, DSS03). Szpital polowy na wypadek katastrofy to ciągłość (DSS04).",
-    "pytanieKontrolne": "Syrena trzeci raz w miesiącu gubi SMS-y do OSP, a Ola za każdym razem restartuje serwer. Czego brakuje w procesach DSS?",
+    "pytanieKontrolne": "System płatności sklepu internetowego trzeci raz w miesiącu przestaje działać, a administrator za każdym razem restartuje serwer. Czego brakuje w procesach DSS?",
     "odpowiedzKontrolna": "Brakuje zarządzania problemami (DSS03). Restart to obsługa incydentu (DSS02), ale nikt nie szuka przyczyny powtarzających się incydentów. Gdy przyczyna się znajdzie, poprawkę w systemie wprowadza się przez zarządzanie zmianami (BAI06)."
   },
   "nieMylicZ": [],

@@ -26,18 +26,18 @@
   "poLudzku": "Śledzenie nowinek i sprawdzanie, które naprawdę pomogą organizacji, zanim wyda się na nie pieniądze.",
   "wyobrazSobie": "Kucharz, który najpierw gotuje nowe danie dla załogi, a dopiero potem wpisuje je do karty.",
   "poCo": "Żeby organizacja nie przegapiła nowych możliwości i nie wydawała pieniędzy na nowinki, zanim je sprawdzi.",
-  "jakDziala": "Zespół śledzi trendy i nowe technologie. Ocenia, które mogą pomóc organizacji, i sprawdza je w małym pilotażu. Wyniki i rekomendacje przekazuje do strategii i portfela.",
+  "jakDziala": "Zespół śledzi trendy i nowe technologie. Ocenia, które mogą pomóc organizacji, i sprawdza je w małym pilotażu. Wyniki i zalecenia przekazuje do strategii i portfela.",
   "dlaczegoWazne": "APO04 zasila strategię i portfel pomysłami. Na egzaminie myli się z atrybutem PA 5.1 „Innowacja procesu”.",
   "skadNazwa": "EN *Manage Innovation*. Proste tłumaczenie. Słowo „innowacja” pojawia się też w modelu zdolności (PA 5.1 Innowacja procesu), ale w innym znaczeniu.",
   "poziom1": "Proces Zarządzania o nowościach. Śledzi trendy w technologii, szuka szans na innowacje i ocenia je, np. w pilotażu. Najlepsze podsuwa do strategii i portfela.",
-  "poziom2": "**Czym się zajmuje:** to „radar nowości”: obserwuje technologie i pomysły, ocenia ich przydatność i sprawdza je na małą skalę.\n\n**Wejścia (intuicja):** cele organizacji, problemy użytkowników, oferty dostawców, trendy rynkowe.\n\n**Wyjścia (intuicja):** ocenione pomysły, wyniki pilotaży (*proof of concept*), rekomendacje.\n\n**Współpraca:** rekomendacje zasilają [[proc-apo02]] (strategia) i [[proc-apo05]] (portfel). Pełne wdrożenie idzie przez domenę [[bai|BAI]].",
+  "poziom2": "**Czym się zajmuje:** to „radar nowości”: obserwuje technologie i pomysły, ocenia ich przydatność i sprawdza je na małą skalę.\n\n**Wejścia (intuicja):** cele organizacji, problemy użytkowników, oferty dostawców, trendy rynkowe.\n\n**Wyjścia (intuicja):** ocenione pomysły, wyniki pilotaży (*proof of concept*), zalecenia.\n\n**Współpraca:** zalecenia zasilają [[proc-apo02]] (strategia) i [[proc-apo05]] (portfel). Pełne wdrożenie idzie przez domenę [[bai|BAI]].",
   "poziom3": "Il. 16 (s. 33): „APO04 Zarządzanie innowacjami”. Załącznik E (s. 58) wymienia w domenie APO *„planowania organizacyjnego, planowania innowacji, zarządzania portfelem projektów”*. Il. 39 (s. 88) podaje „Innowacje” jako kategorię umiejętności APO. Szczegóły procesu (praktyki, działania, wejścia i wyjścia) są w przewodniku *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie kursu. Dlatego opis „co robi proces” ma status uproszczenia.",
   "przyklady": {
     "zycie": "Słyszysz o pompach ciepła. Zanim wymienisz piec, pytasz sąsiada, który ją ma, i liczysz rachunki. Dopiero potem decydujesz. Rozpoznanie i sprawdzenie nowinki przed zakupem to APO04.",
     "biuro": "Sekretarka testuje przez tydzień program do umawiania spotkań online z trzema klientami. Potem pisze kierownikowi, co działa, a co nie. Kierownik zdecyduje, czy kupić licencję.",
-    "organizacja": "Sklep internetowy testuje automatyczny czat na jednej kategorii produktów. Po miesiącu zespół ocenia, czy klienci są zadowoleni. Wynik trafia do decyzji o inwestycji. Test i ocena nowości to APO04. Urząd gminy sprawdza na jednym okienku elektroniczną kolejkę z SMS-em. Po kwartale informatyk opisuje wyniki i rekomenduje wdrożenie albo rezygnację. To APO04.",
-    "psp": "**Aplikacja z potwierdzeniem.** Informatyczka Ola Dudek czyta o aplikacji, w której strażak potwierdza odbiór alarmu jednym kliknięciem. Proponuje próbę w OSP Zawilce u naczelnika Pietrzaka. Po miesiącu opisuje wyniki naczelnikowi Sikorze. O pełnym wdrożeniu zdecyduje portfel. Rozpoznanie i pilotaż to [[proc-apo04|APO04]].",
-    "it": "Zespół IT robi *proof of concept* nowej technologii i pisze rekomendację. To APO04. Wybór inwestycji należy do [[proc-apo05]], a ewentualne wdrożenie do BAI."
+    "organizacja": "Sklep internetowy testuje automatyczny czat na jednej kategorii produktów. Po miesiącu zespół ocenia, czy klienci są zadowoleni. Wynik trafia do decyzji o inwestycji. Test i ocena nowości to APO04.",
+    "admin": "Urząd gminy sprawdza na jednym okienku elektroniczną kolejkę z powiadomieniem SMS-em. Po kwartale informatyk opisuje wyniki i zaleca wdrożenie albo rezygnację. To APO04.",
+    "it": "Zespół IT robi *proof of concept* nowej technologii i pisze zalecenie. To APO04. Wybór inwestycji należy do [[proc-apo05]], a ewentualne wdrożenie do BAI."
   },
   "nieMylicZ": [
     {
@@ -54,7 +54,7 @@
     }
   ],
   "przykladWypowiedzi": "APO04 *Manage Innovation*, czyli „Zarządzanie innowacjami”, rozpoznaje i sprawdza nowości w pilotażu (*proof of concept*); decyzja o inwestycji zapada w APO05 *Manage Portfolio*.",
-  "egzamin": "Słowa-klucze: **trendy technologiczne, szanse na innowacje, pilotaż, *proof of concept*, rekomendacje** → APO04. „Innowacje” to kategoria umiejętności domeny APO (il. 39).",
+  "egzamin": "Słowa-klucze: **trendy technologiczne, szanse na innowacje, pilotaż, *proof of concept*, zalecenia** → APO04. „Innowacje” to kategoria umiejętności domeny APO (il. 39).",
   "powiazane": [
     "apo",
     "proc-apo02",
@@ -87,8 +87,8 @@
   "mapa": "proc-apo04",
   "glebokosc": {
     "prosty": "Widzisz w sklepie nowy rodzaj żarówek. Kupujesz jedną na próbę do łazienki. Po miesiącu wiesz, czy świeci dobrze i czy rachunek spadł. Dopiero wtedy wymieniasz wszystkie.",
-    "zaawansowany": "Dudek testuje aplikację potwierdzeń w OSP Zawilce. To APO04: rozpoznanie i pilotaż. Naczelnik Sikora wpisuje wynik do strategii IT ([[proc-apo02]]). Potem w portfelu ([[proc-apo05]]) decyduje, czy aplikacja wygra z innymi inwestycjami. Pełne wdrożenie poprowadzi projekt w domenie BAI.",
-    "skrajny": "Audytorka Lis ocenia proces powiadamiania i pisze: „Brak atrybutu innowacji procesu”. Sikora odpowiada: „Mamy APO04, testujemy aplikację”. To dwie różne rzeczy. PA 5.1 dotyczy tego, czy dany proces jest stale ulepszany na podstawie danych. APO04 dotyczy szukania nowych możliwości dla całej organizacji. Druga granica: pilotaż kończy APO04, a decyzja o inwestycji należy do APO05. **Rozstrzygnięcie:** szukanie i sprawdzanie nowości → APO04; wybór inwestycji → APO05; ulepszanie konkretnego procesu w ocenie zdolności → PA 5.1. (interpretacja kursu: granica pilotaż–portfel)"
+    "zaawansowany": "Analityk testuje aplikację potwierdzeń odbioru u grupy klientów jednego oddziału banku. To APO04: rozpoznanie i pilotaż. Dyrektor IT wpisuje wynik do strategii IT ([[proc-apo02]]). Potem w portfelu ([[proc-apo05]]) decyduje, czy aplikacja wygra z innymi inwestycjami. Pełne wdrożenie poprowadzi projekt w domenie BAI.",
+    "skrajny": "Audytorka wewnętrzna ocenia proces wysyłki powiadomień do klientów i pisze: „Brak atrybutu innowacji procesu”. Dyrektor IT odpowiada: „Mamy APO04, testujemy aplikację”. To dwie różne rzeczy. PA 5.1 dotyczy tego, czy dany proces jest stale ulepszany na podstawie danych. APO04 dotyczy szukania nowych możliwości dla całej organizacji. Druga granica: pilotaż kończy APO04, a decyzja o inwestycji należy do APO05. **Rozstrzygnięcie:** szukanie i sprawdzanie nowości → APO04; wybór inwestycji → APO05; ulepszanie konkretnego procesu w ocenie zdolności → PA 5.1. (interpretacja kursu: granica pilotaż–portfel)"
   },
   "zagmatwania": [
     {
@@ -101,7 +101,7 @@
     },
     {
       "mit": "Udany pilotaż oznacza wdrożenie.",
-      "prawda": "Wynik pilotażu to rekomendacja. Decyzja o inwestycji zapada w portfelu (APO05)."
+      "prawda": "Wynik pilotażu to zalecenie. Decyzja o inwestycji zapada w portfelu (APO05)."
     }
   ],
   "mentor": {

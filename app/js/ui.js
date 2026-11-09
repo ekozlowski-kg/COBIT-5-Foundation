@@ -29,17 +29,18 @@ const inneName = (x) => (typeof x === 'string' ? x : `${x.nazwa}${x.zrodlo ? ` (
 // Tekst przypisu może zawierać [[id]] – wtedy staje się odnośnikiem do innego terminu.
 const rich = (text) => inline(text || '', (id, label) => `<button class="link-term" data-term="${esc(id)}" style="all:unset;cursor:pointer;color:var(--accent);text-decoration:underline">${label || id}</button>`);
 
-// §17.6 – kolejność kontekstów: życie → biuro → organizacja → PSP → IT/COBIT. firma/admin pokazujemy jako „Organizacja”.
+// Kolejność kontekstów: życie → biuro → firma → urząd → IT/COBIT. Każde pojęcie ma przykład z firmy i z urzędu.
+// (PSP wyłączone 2026-11-08: przykłady ogólne jak w COBIT 5 Foundation – FORMAT-KROTKI.md §2.)
 const CONTEXTS = [
   ['zycie', 'Życie codzienne'],
   ['biuro', 'Biuro'],
-  ['organizacja', 'Organizacja'],
-  ['psp', 'PSP (Modrzewiów)'],
+  ['organizacja', 'Firma'],
+  ['admin', 'Urząd'],
   ['it', 'IT/COBIT'],
 ];
 export const ctxText = (t, k) => {
   const p = (t && t.przyklady) || {};
-  return k === 'organizacja' ? (p.organizacja || p.firma || p.admin || '') : (p[k] || '');
+  return k === 'organizacja' ? (p.organizacja || p.firma || '') : (p[k] || '');
 };
 
 /** Zdanie „po ludzku” hasła (§10.4); gdy go jeszcze nie ma – wersja „prościej”. */
@@ -316,12 +317,12 @@ export function explainDetailed(t, terms = null) {
   const p = t.przyklady || {};
   const human = t.poLudzku || (t.warianty && t.warianty.prosto) || t.poziom1 || '';
   const life = p.zycie || g.prosty || '';
-  const unit = p.psp || g.zaawansowany || '';
+  const unit = p.it || p.organizacja || p.firma || g.zaawansowany || '';
   const exam = `Na egzaminie zobaczysz nazwę <strong>„${esc(t.plEgzamin)}”</strong>${t.plPodrecznik && t.plPodrecznik !== t.plEgzamin ? ` (w podręczniku: „${esc(t.plPodrecznik)}”)` : ''}${t.en ? `, po angielsku ${esc(t.en)}` : ''}.${t.egzamin ? ` ${rich(t.egzamin)}` : ''}`;
   const mix = Array.isArray(t.zagmatwania) && t.zagmatwania.length
     ? t.zagmatwania.map((z) => `<p><span class="myth-x">${rich(z.mit)}</span> → ${rich(z.prawda)}</p>`).join('')
     : (t.nieMylicZ || []).map((n) => `<p><strong>${esc((terms && terms.get(n.termin)?.plEgzamin) || n.termin)}</strong> – ${rich(n.roznica)}</p>`).join('');
-  const parts = [['Po ludzku', human], ['Przykład z życia', life], ['Przykład z komendy', unit], ['Jak to brzmi na egzaminie', exam], ['Z czym się myli', mix]].filter(([, x]) => x);
+  const parts = [['Po ludzku', human], ['Przykład z życia', life], ['Przykład z organizacji', unit], ['Jak to brzmi na egzaminie', exam], ['Z czym się myli', mix]].filter(([, x]) => x);
   return `<ol class="detail-steps">${parts.map(([h, x]) => `<li><div class="box-label">${h}</div>${/^<p/.test(x) ? x : `<p>${/<strong>|<span/.test(x) ? x : rich(x)}</p>`}</li>`).join('')}</ol>`;
 }
 

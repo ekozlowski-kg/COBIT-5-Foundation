@@ -23,18 +23,18 @@
     "it-dane"
   ],
   "poLudzku": "Dane, które coś komuś mówią, bo wiadomo, czego dotyczą.",
-  "poziom1": "Informacja to dane z wyjaśnieniem (kontekstem), które pozwalają coś zrozumieć albo podjąć decyzję, np. „OSP Zawilce ma dziś 6 strażaków w gotowości”.",
+  "poziom1": "Informacja to dane z wyjaśnieniem (kontekstem), które pozwalają coś zrozumieć albo podjąć decyzję, np. „magazyn sklepu ma dziś 6 sztuk tego modelu na stanie”.",
   "poziom2": "Ta sama informacja może mieć różne postacie: wpis w komputerze, kartkę, rozmowę telefoniczną. Ma wartość, gdy jest prawdziwa, aktualna i dostępna wtedy, gdy jest potrzebna. W organizacji informacja przepływa między ludźmi i aplikacjami.",
   "poziom3": "W COBIT 5 [[informacja|Informacja]] to jeden z siedmiu aktywatorów (poznasz go w dniu 3). Słownik FW-PL: informacje to zasób, który *„jest niezbędny do prowadzenia działalności w przedsiębiorstwie”*, i mogą być *„przekazywane podczas rozmowy”* (s. 92).",
   "wyobrazSobie": "Ułożone puzzle: te same kawałki co wcześniej, ale teraz widać obraz.",
   "poCo": "Żeby ludzie mogli zrozumieć sytuację i podjąć dobrą decyzję.",
-  "jakDziala": "Ktoś zbiera dane i dodaje do nich wyjaśnienie. Odbiorca czyta i rozumie. Jeśli coś z tym zrobi – zadzwoni, wyśle zastęp, kupi – informacja przynosi pożytek.",
+  "jakDziala": "Ktoś zbiera dane i dodaje do nich wyjaśnienie. Odbiorca czyta i rozumie. Jeśli coś z tym zrobi – zadzwoni, zamówi towar, kupi – informacja przynosi pożytek.",
   "dlaczegoWazne": "COBIT 5 traktuje informację jak coś, czym trzeba zarządzać tak jak pieniędzmi. Bez różnicy dane–informacja trudno zrozumieć aktywator Informacja.",
   "przyklady": {
     "zycie": "SMS z przychodni: „Wizyta jutro 10:30, gabinet 12”. To informacja: wiesz kiedy, gdzie i po co.",
     "biuro": "Raport „W marcu wpłynęło 120 wniosków, o 20 więcej niż w lutym” to informacja zbudowana z danych o wnioskach.",
     "organizacja": "Kierownik sklepu dostaje zestawienie: „chleb kończy się codziennie o 17”. Na tej podstawie zamawia więcej.",
-    "psp": "Dyżurny Grab widzi w „Syrenie”: „OSP Zawilce – 6 strażaków potwierdziło gotowość”. To informacja, na podstawie której decyduje, kogo wysłać.",
+    "admin": "Kierownik MOPS (miejskiego ośrodka pomocy społecznej) dostaje zestawienie: „w styczniu wnioski o dodatek mieszkaniowy złożyło 340 rodzin, dwa razy więcej niż rok temu”. Na tej podstawie przesuwa dwie pracownice do przyjmowania wniosków. Dane stały się informacją, bo coś mu powiedziały i pozwoliły podjąć decyzję.",
     "it": "W COBIT 5 informacja to aktywator nr 5; słownik FW-PL nazywa ją zasobem niezbędnym do działalności (s. 92)."
   },
   "nieMylicZ": [
@@ -47,7 +47,7 @@
       "roznica": "Hasło „Informacja” (aktywator COBIT 5, dzień 3) opisuje informację jako jeden z 7 aktywatorów, z jej cyklem życia i jakością. To hasło opisuje tylko codzienne znaczenie."
     }
   ],
-  "przykladWypowiedzi": "Information, czyli informacja, to data, czyli dane, z kontekstem; „6 strażaków gotowych w OSP Zawilce” to informacja dla dyżurnego.",
+  "przykladWypowiedzi": "Information, czyli informacja, to data, czyli dane, z kontekstem; „6 sztuk na stanie w magazynie” to informacja dla sprzedawcy.",
   "egzamin": "W COBIT 5 Informacja (Information) to aktywator nr 5. Zapamiętaj już teraz: informacja to nie tylko to, co w komputerze – także papier i rozmowa (FW-PL s. 92).",
   "powiazane": [
     "it-dane",
@@ -71,8 +71,8 @@
   ],
   "glebokosc": {
     "prosty": "Termometr za oknem pokazuje „-5”. To liczba. Gdy myślisz „jest mróz, ubiorę dziecku czapkę”, liczba stała się dla Ciebie informacją.",
-    "zaawansowany": "Ola Dudek widzi w tabeli: „Zawilce, 6, 23:40”. Dla niej to [[it-dane|dane]]. Dla dyżurnego Graba to informacja: 6 strażaków z OSP Zawilce potwierdziło gotowość o 23:40. W COBIT 5 tę samą rzecz opisuje [[informacja|aktywator Informacja]] – poznasz go w dniu 3.",
-    "skrajny": "Czy informacja musi być w komputerze? Nie: meldunek przez radio też nią jest. Czy nieaktualna informacja jest jeszcze informacją? Tak, ale złej jakości – może zaszkodzić. Czy to samo zdanie jest informacją dla każdego? Nie: „Lipowa 7, strych” coś mówi dyżurnemu, a niewiele turyście. **Rozstrzygnięcie:** informacja to dane mające znaczenie dla konkretnego odbiorcy w konkretnej sytuacji, w dowolnej postaci – na ekranie, na papierze albo w rozmowie."
+    "zaawansowany": "Administrator widzi w tabeli: „MAG-2, 6, 23:40”. Dla niego to [[it-dane|dane]]. Dla kierownika sprzedaży to informacja: magazyn nr 2 potwierdził o 23:40, że ma 6 sztuk towaru. W COBIT 5 tę samą rzecz opisuje [[informacja|aktywator Informacja]] – poznasz go w dniu 3.",
+    "skrajny": "Czy informacja musi być w komputerze? Nie: wiadomość przekazana przez telefon też nią jest. Czy nieaktualna informacja jest jeszcze informacją? Tak, ale złej jakości – może zaszkodzić. Czy to samo zdanie jest informacją dla każdego? Nie: „saldo 0, limit przekroczony” coś mówi analitykowi kredytowemu, a niewiele turyście. **Rozstrzygnięcie:** informacja to dane mające znaczenie dla konkretnego odbiorcy w konkretnej sytuacji, w dowolnej postaci – na ekranie, na papierze albo w rozmowie."
   },
   "zagmatwania": [
     {

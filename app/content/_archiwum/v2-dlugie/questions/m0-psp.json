@@ -1,0 +1,850 @@
+{
+  "_opis": "Stare pytania M0 z przykładami strażackimi – wycofane 2026-11-08 (FORMAT-KROTKI §2).",
+  "pytania": [
+    {
+      "id": "q-pre-m0-00",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-02-cobit-czym-nie-jest",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Komenda kupiła nowy system powiadamiania. Kto powinien rozstrzygnąć, **po co** komendzie ten system i co ma dzięki niemu zyskać?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Komendant, który za komendę odpowiada i decyduje o jej pieniądzach",
+          "poprawna": true,
+          "wyjasnienie": "„Po co” rozstrzyga ten, kto odpowiada za całość i płaci. W COBIT 5 nazywa się to Ładem (poznasz go w lekcji 0.6)."
+        },
+        {
+          "tekst": "Informatyk, bo zna się na systemach",
+          "poprawna": false,
+          "wyjasnienie": "Informatyk wie, **jak** system ustawić, ale nie on odpowiada za to, czemu komenda ma służyć."
+        },
+        {
+          "tekst": "Firma, która sprzedała system",
+          "poprawna": false,
+          "wyjasnienie": "Dostawca ma własny interes (sprzedać i utrzymać umowę). Nie decyduje o celach komendy."
+        }
+      ],
+      "_zPliku": "questions/dzien-1-laik.json"
+    },
+    {
+      "id": "q-m0-00-02",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-02-cobit-czym-nie-jest",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Co jest **celem** organizacji, a co tylko **narzędziem informatycznym**, które ma pomóc ten cel osiągnąć?",
+      "zrodlo": [],
+      "status": "przyklad",
+      "kategorie": [
+        "Cel organizacji",
+        "Narzędzie (IT)"
+      ],
+      "elementy": [
+        {
+          "tekst": "Szybka pomoc mieszkańcom w razie pożaru",
+          "kategoria": "Cel organizacji",
+          "wyjasnienie": "To jest powód, dla którego komenda istnieje."
+        },
+        {
+          "tekst": "Serwer, na którym działa system powiadamiania",
+          "kategoria": "Narzędzie (IT)",
+          "wyjasnienie": "Serwer sam niczego nie osiąga. Pomaga wysłać alarm."
+        },
+        {
+          "tekst": "Sprzedaż świeżego chleba i zarobek piekarni",
+          "kategoria": "Cel organizacji",
+          "wyjasnienie": "Po to piekarnia działa."
+        },
+        {
+          "tekst": "Program w kasie fiskalnej piekarni",
+          "kategoria": "Narzędzie (IT)",
+          "wyjasnienie": "Ułatwia sprzedaż, ale nie jest celem."
+        },
+        {
+          "tekst": "Sprawne załatwianie spraw mieszkańców w urzędzie gminy",
+          "kategoria": "Cel organizacji",
+          "wyjasnienie": "Po to jest urząd."
+        },
+        {
+          "tekst": "Sieć Wi-Fi w urzędzie",
+          "kategoria": "Narzędzie (IT)",
+          "wyjasnienie": "Pomaga urzędnikom pracować, ale sama nie jest celem."
+        }
+      ],
+      "_zPliku": "questions/dzien-1-laik.json"
+    },
+    {
+      "id": "q-m0-01-01",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "M0-00-01"
+      ],
+      "lekcja": "m0-12-rozne-oczekiwania",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Kto lub co jest [[interesariusz|interesariuszem]] wdrożenia nowego systemu w stanowisku kierowania PSP?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "uproszczenie",
+      "kategorie": [
+        "Interesariusz",
+        "Nie jest interesariuszem"
+      ],
+      "elementy": [
+        {
+          "tekst": "Dyżurny korzystający z nowego systemu",
+          "kategoria": "Interesariusz",
+          "wyjasnienie": "Użytkownik ma potrzeby i odczuwa skutki wdrożenia."
+        },
+        {
+          "tekst": "Firma dostarczająca oprogramowanie",
+          "kategoria": "Interesariusz",
+          "wyjasnienie": "Dostawca ma interes w przedsięwzięciu (umowa, reputacja) i wpływa na wynik. COBIT wymienia dostawców wśród interesariuszy zewnętrznych."
+        },
+        {
+          "tekst": "Mieszkaniec, który nie korzysta z systemu, ale czeka na zastęp",
+          "kategoria": "Interesariusz",
+          "wyjasnienie": "Ponosi skutki działania lub awarii systemu. Interesariusz nie musi być użytkownikiem."
+        },
+        {
+          "tekst": "Serwer, na którym działa aplikacja",
+          "kategoria": "Nie jest interesariuszem",
+          "wyjasnienie": "Serwer to zasób (infrastruktura). Nie ma potrzeb, oczekiwań ani interesów."
+        },
+        {
+          "tekst": "Komenda wojewódzka nadzorująca komendę powiatową",
+          "kategoria": "Interesariusz",
+          "wyjasnienie": "Podmiot nadzorujący ma oczekiwania i wpływ, więc jest interesariuszem."
+        },
+        {
+          "tekst": "Procedura dysponowania sił i środków",
+          "kategoria": "Nie jest interesariuszem",
+          "wyjasnienie": "Procedura to element aktywatora (proces / polityka), a nie podmiot z interesami."
+        }
+      ],
+      "_zPliku": "questions/dzien-1.json"
+    },
+    {
+      "id": "q-m0-01-02",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "EN-02-07"
+      ],
+      "lekcja": "m0-12-rozne-oczekiwania",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Komenda sporządziła listę interesariuszy nowego systemu SK z podziałem na wewnętrznych i zewnętrznych. Który wpis jest zakwalifikowany **błędnie**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 22,
+          "ilustracja": "7"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Audyt wewnętrzny – interesariusz wewnętrzny",
+          "poprawna": false,
+          "wyjasnienie": "Poprawnie zakwalifikowany (Rysunek 7).",
+          "zycie": "W życiu to tak, jakbyś szukając pomyłki na liście gości weselnych, wskazał wpis zupełnie poprawny.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Właściciel procesu dysponowania – interesariusz wewnętrzny",
+          "poprawna": false,
+          "wyjasnienie": "Poprawnie.",
+          "zycie": "W życiu to tak, jakbyś pytany o przepalony bezpiecznik wskazał ten, który działa.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Firma dostarczająca system – interesariusz wewnętrzny",
+          "poprawna": true,
+          "wyjasnienie": "Błąd: dostawcy to interesariusze zewnętrzni (Rysunek 7).",
+          "zycie": "W życiu to tak, jakbyś hydraulika z firmy wpisał na listę domowników, bo naprawia ci kran."
+        },
+        {
+          "tekst": "Użytkownicy IT w komendzie – interesariusze wewnętrzni",
+          "poprawna": false,
+          "wyjasnienie": "Poprawnie.",
+          "zycie": "W życiu to tak, jakbyś szukał w koszyku przeterminowanego jogurtu, a wyjął świeży.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ],
+      "_zPliku": "questions/dzien-1.json"
+    },
+    {
+      "id": "q-m0-03-03",
+      "typ": "rozpoznanie",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-18-optymalizacja",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Która sytuacja pokazuje **rezultat bez korzyści**?",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Dyżurni korzystają z nowej mapy i czas wyboru trasy spadł o połowę.",
+          "poprawna": false,
+          "wyjasnienie": "Tu korzyść została osiągnięta.",
+          "zycie": "W życiu to tak, jakbyś robot kuchenny, dzięki któremu gotujesz dwa razy szybciej, nazwał zakupem bez pożytku."
+        },
+        {
+          "tekst": "Moduł mapowy działa, ale dyżurni dalej wybierają trasę „po staremu”.",
+          "poprawna": true,
+          "wyjasnienie": "Produkt (rezultat) istnieje, ale nie przynosi poprawy, więc korzyść nie została zrealizowana.",
+          "zycie": "W życiu to tak, jakby kupiony rower stał w garażu: rzecz jest, a pożytku brak."
+        },
+        {
+          "tekst": "Projekt modułu mapowego nie został jeszcze rozpoczęty.",
+          "poprawna": false,
+          "wyjasnienie": "Tu nie ma ani rezultatu, ani korzyści.",
+          "zycie": "W życiu to tak, jakbyś narzekał na nieużywany rower, którego jeszcze nawet nie kupiłeś."
+        }
+      ],
+      "_zPliku": "questions/dzien-1.json"
+    },
+    {
+      "id": "q-m0-05-01",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "M0-00-05"
+      ],
+      "lekcja": "m0-24-proces-w-cobit",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Proces czy projekt?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "uproszczenie",
+      "kategorie": [
+        "Proces",
+        "Projekt"
+      ],
+      "elementy": [
+        {
+          "tekst": "Codzienne przyjmowanie zgłoszeń alarmowych",
+          "kategoria": "Proces",
+          "wyjasnienie": "Działanie ciągłe i powtarzalne."
+        },
+        {
+          "tekst": "Wymiana central telefonicznych w 2026 roku",
+          "kategoria": "Projekt",
+          "wyjasnienie": "Jednorazowe, z początkiem i końcem."
+        },
+        {
+          "tekst": "Comiesięczne rozliczanie paliwa pojazdów",
+          "kategoria": "Proces",
+          "wyjasnienie": "Działanie powtarzalne."
+        },
+        {
+          "tekst": "Budowa nowego portalu mieszkańca",
+          "kategoria": "Projekt",
+          "wyjasnienie": "Jednorazowe przedsięwzięcie, które potem przechodzi w proces obsługi e-wniosków."
+        }
+      ],
+      "_zPliku": "questions/dzien-1.json"
+    },
+    {
+      "id": "q-m0-05-02",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-01-01"
+      ],
+      "lekcja": "m0-24-proces-w-cobit",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Dyżurny opisuje swoją pracę: „Zgłoszenie wpływa, kwalifikujemy je według instrukcji, dysponujemy siły i środki, a na końcu raportujemy. Przy każdym zgłoszeniu robimy to tak samo”. Czym jest to w terminologii COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Projektem",
+          "poprawna": false,
+          "wyjasnienie": "Projekt jest jednorazowy. Tu działanie się powtarza.",
+          "zycie": "W życiu to tak, jakbyś codzienne gotowanie obiadu nazwał remontem kuchni, czyli czymś jednorazowym.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Procesem",
+          "poprawna": true,
+          "wyjasnienie": "Powtarzalny zbiór praktyk ukierunkowany procedurami, który przetwarza wejścia (zgłoszenie) w wyniki (zadysponowane siły, raport)."
+        },
+        {
+          "tekst": "Polityką",
+          "poprawna": false,
+          "wyjasnienie": "Polityka to wytyczne kierownictwa. Sama niczego nie przetwarza.",
+          "zycie": "W życiu to tak, jakbyś domową zasadę „nie jemy przed telewizorem” pomylił z samym gotowaniem obiadu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Strukturą organizacyjną",
+          "poprawna": false,
+          "wyjasnienie": "Strukturą jest SK jako jednostka decyzyjna, a nie sposób wykonywania pracy.",
+          "zycie": "W życiu to tak, jakbyś rodzinną naradę przy stole pomylił z codziennym zmywaniem naczyń.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "_zPliku": "questions/dzien-1.json"
+    },
+    {
+      "id": "q-m0-06-01",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "M0-00-06",
+        "PR-02-14"
+      ],
+      "lekcja": "m0-27-lad-czym-nie-jest",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Ład czy Zarządzanie? Przyporządkuj działania w komendzie PSP.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "oficjalne",
+      "kategorie": [
+        "Ład",
+        "Zarządzanie"
+      ],
+      "elementy": [
+        {
+          "tekst": "Komendant ustala priorytet: skrócenie czasu dysponowania o 20% w 2 lata",
+          "kategoria": "Ład",
+          "wyjasnienie": "Wyznaczanie kierunku i priorytetów (Kieruj)."
+        },
+        {
+          "tekst": "Kierownik SK przygotowuje harmonogram wdrożenia i szkoleń",
+          "kategoria": "Zarządzanie",
+          "wyjasnienie": "Planowanie (Planuj)."
+        },
+        {
+          "tekst": "Kierownictwo komendy co kwartał przegląda wskaźniki i koryguje kierunek",
+          "kategoria": "Ład",
+          "wyjasnienie": "Monitorowanie zgodności z kierunkiem (Monitoruj, w EDM)."
+        },
+        {
+          "tekst": "Informatyk konfiguruje serwer i uruchamia system",
+          "kategoria": "Zarządzanie",
+          "wyjasnienie": "Budowanie i uruchamianie (Twórz, Wykonuj)."
+        },
+        {
+          "tekst": "Ocena, które z trzech wariantów modernizacji najlepiej odpowiadają potrzebom interesariuszy",
+          "kategoria": "Ład",
+          "wyjasnienie": "Ocena potrzeb, warunków i opcji (Oszacuj)."
+        }
+      ],
+      "_zPliku": "questions/dzien-1.json"
+    },
+    {
+      "id": "q-men-m0-27-lad-czym-nie-jest-1",
+      "typ": "bledy",
+      "mentor": true,
+      "sylabus": [
+        "M0-00-06"
+      ],
+      "lekcja": "m0-27-lad-czym-nie-jest",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "postac": "Kasia Nowik, dyżurna SK",
+      "tresc": "Popraw kolegę. Dyżurny z drugiej zmiany tłumaczy Kasi Nowik, czym jest Ład. Które jego zdania są **błędne**?",
+      "tekst": "„Ład to po prostu kontrola, czyli inspekcje i audyty. Za Ład w większości organizacji odpowiada zarząd pod przewodnictwem prezesa. Zarządzanie planuje, tworzy, wykonuje i monitoruje. Ład to wyższy szczebel Zarządzania, więc oba słowa znaczą to samo.”",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "przyklad",
+      "twierdzenia": [
+        {
+          "tekst": "Ład to po prostu kontrola, czyli inspekcje i audyty.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. Ład ocenia potrzeby, wyznacza kierunek i monitoruje (Oszacuj, Kieruj, Monitoruj). Kontrola to tylko część monitorowania, a audyt to coś innego."
+        },
+        {
+          "tekst": "Za Ład w większości organizacji odpowiada zarząd pod przewodnictwem prezesa.",
+          "poprawne": true,
+          "wyjasnienie": "Prawda. Tak podaje podręcznik (s. 14)."
+        },
+        {
+          "tekst": "Zarządzanie planuje, tworzy, wykonuje i monitoruje.",
+          "poprawne": true,
+          "wyjasnienie": "Prawda. To cztery czynności Zarządzania: Planuj, Twórz, Wykonuj, Monitoruj."
+        },
+        {
+          "tekst": "Ład to wyższy szczebel Zarządzania, więc oba słowa znaczą to samo.",
+          "poprawne": false,
+          "wyjasnienie": "Błąd. Ład i Zarządzanie to różne dziedziny: inne działania, inne struktury i inne cele. Nie są zamienne."
+        }
+      ],
+      "_zPliku": "questions/mentor-m0.json"
+    },
+    {
+      "id": "q-pre-m0-24-proces-w-cobit",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "M0-00-05"
+      ],
+      "lekcja": "m0-24-proces-w-cobit",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Codzienne przyjmowanie zgłoszeń alarmowych to:",
+      "zrodlo": [],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Proces",
+          "poprawna": true,
+          "wyjasnienie": "Działanie ciągłe i powtarzalne."
+        },
+        {
+          "tekst": "Projekt",
+          "poprawna": false,
+          "wyjasnienie": "Projekt jest jednorazowy.",
+          "zycie": "W życiu to tak, jakbyś codzienne odbieranie dziecka ze szkoły nazwał jednorazową wyprawą."
+        },
+        {
+          "tekst": "Program",
+          "poprawna": false,
+          "wyjasnienie": "Program to zbiór powiązanych projektów.",
+          "zycie": "W życiu to tak, jakbyś codzienne gotowanie obiadu nazwał planem kilku remontów w całym domu."
+        }
+      ],
+      "_zPliku": "questions/pretest.json"
+    },
+    {
+      "id": "q-pre-m0-27-lad-czym-nie-jest",
+      "typ": "rozpoznanie",
+      "pretest": true,
+      "sylabus": [
+        "M0-00-06"
+      ],
+      "lekcja": "m0-27-lad-czym-nie-jest",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Komendant ustala priorytet „skrócić czas dysponowania” i co kwartał sprawdza postępy. To przykład:",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Ładu",
+          "poprawna": true,
+          "wyjasnienie": "Kierowanie (priorytety) i monitorowanie kierunku to Ład."
+        },
+        {
+          "tekst": "Zarządzania",
+          "poprawna": false,
+          "wyjasnienie": "Zarządzanie planuje i realizuje – nie wyznacza kierunku.",
+          "zycie": "W życiu to tak, jakbyś decyzję rodziców „w tym roku oszczędzamy” pomylił z robieniem zakupów według listy."
+        },
+        {
+          "tekst": "Audytu",
+          "poprawna": false,
+          "wyjasnienie": "Audyt to niezależna ocena.",
+          "zycie": "W życiu to tak, jakbyś decyzję rodziców „oszczędzamy” pomylił z kontrolą rachunków przez niezależnego księgowego."
+        }
+      ],
+      "_zPliku": "questions/pretest.json"
+    },
+    {
+      "id": "q-spr-m0-05",
+      "typ": "egzamin",
+      "sprawdzian": "M0",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "M0-00-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które z poniższych działań komendy jest **procesem**, a NIE projektem?",
+      "opcje": [
+        {
+          "tekst": "Zakup systemu Syrena od firmy Kwant-Sygnał i uruchomienie go w obu jednostkach do końca roku.",
+          "poprawna": false,
+          "wyjasnienie": "Ma początek, koniec i jednorazowy cel, więc to **projekt**. Po jego zakończeniu Syrena trafi do procesów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Jednorazowe przeniesienie serwerowni z piwnicy na piętro w czasie wakacji, z osobnym budżetem.",
+          "poprawna": false,
+          "wyjasnienie": "Jednorazowe przedsięwzięcie z datą zakończenia to **projekt**.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Budowa nowego budynku strażnicy dla JRG 2 według harmonogramu i umowy z wykonawcą.",
+          "poprawna": false,
+          "wyjasnienie": "Budowa ma termin oddania, więc jest projektem, a nie powtarzalnym procesem.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Comiesięczny test syren według stałej procedury z zapisem wyników.",
+          "poprawna": true,
+          "wyjasnienie": "Działanie powtarzalne, ciągłe, według ustalonych praktyk, z wynikiem (zapisem testu). To cechy **procesu** (Process)."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "proces",
+        "projekt"
+      ],
+      "_zPliku": "questions/sprawdzian-m0.json"
+    },
+    {
+      "id": "q-spr-m0-06",
+      "typ": "egzamin",
+      "sprawdzian": "M0",
+      "czesc": "rozroznianie",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Komenda wdrożyła system Syrena. Co jest **korzyścią** (benefit), a NIE tylko rezultatem (output) wdrożenia?",
+      "opcje": [
+        {
+          "tekst": "Zainstalowany i skonfigurowany serwer systemu Syrena wraz z podpisanym protokołem odbioru prac.",
+          "poprawna": false,
+          "wyjasnienie": "To **rezultat**: konkretny produkt pracy. Sam w sobie nie mówi, czy komendzie lub mieszkańcom jest lepiej.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Krótszy czas od zgłoszenia do wyjazdu zastępu.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Korzyść to poprawa dla interesariuszy. W organizacji publicznej korzyści mają często postać lepszych usług publicznych."
+        },
+        {
+          "tekst": "Przeszkolenie wszystkich dwudziestu dyżurnych z obsługi nowego panelu alarmowego.",
+          "poprawna": false,
+          "wyjasnienie": "Szkolenie to rezultat (wykonana praca). Może prowadzić do korzyści, ale nią nie jest.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Instrukcja obsługi Syreny w wersji papierowej i elektronicznej, dostępna na każdym stanowisku.",
+          "poprawna": false,
+          "wyjasnienie": "Dokument to produkt pracy, czyli rezultat. Korzyścią jest dopiero efekt jego użycia.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17,
+          "ilustracja": "3"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "rezultat",
+        "realizacja-korzysci"
+      ],
+      "_zPliku": "questions/sprawdzian-m0.json"
+    },
+    {
+      "id": "q-spr-m0-09",
+      "typ": "studium",
+      "sprawdzian": "M0",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "M0-00-01"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Czy pani Kaczmarek jest interesariuszem systemu Syrena według COBIT 5?",
+      "scenariusz": "Pani Zofia Kaczmarek mieszka przy ul. Lipowej 7. Nie ma aplikacji Syrena i nie wie, jak działa system. W nocy z 14 na 15 marca alarm do JRG nie dotarł na czas i pożar w jej kamienicy gaszono z opóźnieniem.",
+      "opcje": [
+        {
+          "tekst": "Nie, bo interesariuszem systemu jest tylko osoba, która go obsługuje albo z niego korzysta.",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. Interesariusz to każdy, kto ma udział lub oczekiwania, a nie tylko użytkownik.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Tak, ale interesariuszem wewnętrznym, ponieważ mieszka w mieście, w którym działa komenda.",
+          "poprawna": false,
+          "wyjasnienie": "Mieszkanka nie jest częścią komendy, więc to interesariusz **zewnętrzny** (Rysunek 7).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie, bo nie jest udziałowcem i nie płaci bezpośrednio za zakup ani utrzymanie systemu.",
+          "poprawna": false,
+          "wyjasnienie": "Interesariusz (stakeholder) to nie udziałowiec (shareholder). Nie trzeba płacić, by mieć oczekiwania.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Tak, zewnętrznym – ponosi skutki działania systemu, choć z niego nie korzysta.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Słownik COBIT 5 wymienia opinię publiczną i klientów; mieszkańcy to interesariusze zewnętrzni."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 22,
+          "ilustracja": "7"
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "interesariusz"
+      ],
+      "_zPliku": "questions/sprawdzian-m0.json"
+    },
+    {
+      "id": "q-spr-m0-10",
+      "typ": "studium",
+      "sprawdzian": "M0",
+      "czesc": "zastosowanie",
+      "sylabus": [
+        "M0-00-04"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Jak najtrafniej opisać tę sytuację językiem COBIT 5?",
+      "scenariusz": "Halina Mak, główna księgowa, zauważa, że konfigurację Syreny zna tylko Ola Dudek. Ola planuje w sierpniu trzytygodniowy urlop bez dostępu do telefonu. Nikt inny nie ma instrukcji ani haseł administracyjnych.",
+      "opcje": [
+        {
+          "tekst": "To incydent, ponieważ problem z dostępnością wiedzy już wystąpił i trzeba go natychmiast rozwiązać.",
+          "poprawna": false,
+          "wyjasnienie": "Nic złego jeszcze się nie stało. Mówimy o możliwym zdarzeniu w przyszłości, czyli o ryzyku.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "To ryzyko: możliwy brak jedynej osoby ze skutkiem dla alarmowania; jej wiedza to zasób.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Ryzyko = prawdopodobieństwo i konsekwencje. Zasób to wszystko, co pomaga osiągać cele, także ludzie i ich wiedza."
+        },
+        {
+          "tekst": "To sprawa kadrowa, bo dotyczy urlopu, więc nie ma związku z informatyką ani z COBIT 5.",
+          "poprawna": false,
+          "wyjasnienie": "Zdanie o urlopie jest prawdziwe, ale nie na temat. COBIT 5 traktuje ludzi i umiejętności jako aktywator i zasób.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "To brak zasobu finansowego, bo komenda nie zapłaciła za szkolenie drugiego administratora.",
+          "poprawna": false,
+          "wyjasnienie": "Scenariusz nic nie mówi o pieniądzach. Problemem jest zależność od jednej osoby, czyli ryzyko.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "ryzyko",
+        "zasob"
+      ],
+      "_zPliku": "questions/sprawdzian-m0.json"
+    },
+    {
+      "id": "q-spr-m0-11",
+      "typ": "wypowiedz",
+      "sprawdzian": "M0",
+      "czesc": "synteza",
+      "sylabus": [
+        "M0-00-07",
+        "M0-00-06"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Nowy dyżurny pyta: „Co to jest ten COBIT 5 i czym różni się od ITIL albo ISO/IEC 27001?”. Odpowiedz w 4–6 zdaniach jak mentor. Użyj terminów EN: **Framework**, **Governance**, **Management**, **Enterprise**, **ITIL**.",
+      "wymagane": [
+        "Framework",
+        "Governance",
+        "Management",
+        "Enterprise",
+        "ITIL"
+      ],
+      "wzorzec": "COBIT 5 to **struktura ramowa** (*Framework*) ISACA dla **Ładu** (*Governance*) i **Zarządzania** (*Management*) informatyką w całej **organizacji** (*Enterprise*), nie tylko w dziale IT. Ład ocenia potrzeby, wyznacza kierunek i monitoruje; Zarządzanie planuje, tworzy, wykonuje i monitoruje działania. COBIT 5 nie zastępuje innych standardów, tylko je łączy jako nadrzędna struktura. **ITIL** szczegółowo opisuje zarządzanie usługami IT, a **ISO/IEC 27001** to norma bezpieczeństwa informacji z certyfikacją. COBIT 5 mówi więc „co i po co”, a ITIL i ISO/IEC 27001 podpowiadają „jak” w swoich obszarach (podręcznik, s. 13–15).",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 15
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "cobit-5",
+        "struktura-ramowa",
+        "itil",
+        "iso-27001"
+      ],
+      "_zPliku": "questions/sprawdzian-m0.json"
+    },
+    {
+      "id": "q-spr-m0-12",
+      "typ": "studium",
+      "sprawdzian": "M0",
+      "czesc": "synteza",
+      "sylabus": [
+        "M0-00-02",
+        "M0-00-06",
+        "M0-00-03"
+      ],
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Które zdanie najtrafniej łączy pojęcia z modułu 0?",
+      "scenariusz": "Komenda wojewódzka zapowiada nowe przepisy: alarm ma docierać do jednostek w ciągu 60 sekund. Komendantka Anna Wrzos zbiera naradę i mówi: „To dla nas priorytet na ten rok”. Kpt. Marek Sikora przygotowuje plan zmian w Syrenie i co miesiąc raportuje postępy.",
+      "opcje": [
+        {
+          "tekst": "Nowe przepisy to potrzeba interesariusza, komendantka zarządza, a Sikora sprawuje Ład nad informatyką.",
+          "poprawna": false,
+          "wyjasnienie": "Przepisy to wyznacznik, a role są zamienione: priorytety ustala Ład, a plan i raporty to Zarządzanie.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Nowe przepisy to ryzyko, które już się zmaterializowało, więc komenda musi uruchomić projekt naprawczy.",
+          "poprawna": false,
+          "wyjasnienie": "Przepisy nie są zdarzeniem szkodliwym, tylko zmianą otoczenia regulacyjnego, czyli wyznacznikiem.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Przepisy to wyznacznik zmieniający potrzeby; komendantka (Ład) ustala priorytet, Sikora (Zarządzanie) planuje i raportuje.",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Wyznacznik → potrzeby; Ład wyznacza kierunek i monitoruje, a Zarządzanie planuje, realizuje i raportuje."
+        },
+        {
+          "tekst": "Najważniejszy jest rezultat: plan Sikory. Gdy plan powstanie, wymaganie przepisów będzie spełnione.",
+          "poprawna": false,
+          "wyjasnienie": "Plan to rezultat (output). Liczy się korzyść: alarm faktycznie docierający w 60 sekund.",
+          "pulapka": "zbyt-waskie"
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "terminy": [
+        "wyznacznik",
+        "lad",
+        "zarzadzanie",
+        "rezultat"
+      ],
+      "_zPliku": "questions/sprawdzian-m0.json"
+    },
+    {
+      "id": "q-uzup-m0-00-02-2",
+      "typ": "klasyfikacja",
+      "sylabus": [
+        "M0-00-02"
+      ],
+      "lekcja": "m0-15-wyznacznik-z-czym-nie-mylic",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Potrzeba, oczekiwanie czy wyznacznik? Przyporządkuj wypowiedzi z komendy PSP i z urzędu.",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 91
+        }
+      ],
+      "status": "uproszczenie",
+      "kategorie": [
+        "Potrzeba",
+        "Oczekiwanie",
+        "Wyznacznik"
+      ],
+      "elementy": [
+        {
+          "tekst": "Dyżurny: „Chcę dwa monitory zamiast jednego”",
+          "kategoria": "Oczekiwanie",
+          "wyjasnienie": "To wyobrażony sposób rozwiązania, a nie stan, który dyżurny chce osiągnąć."
+        },
+        {
+          "tekst": "Dyżurny musi widzieć mapę i status zastępów jednocześnie, bez przełączania okien",
+          "kategoria": "Potrzeba",
+          "wyjasnienie": "Stan, który ma zostać osiągnięty. Można go zaspokoić na kilka sposobów."
+        },
+        {
+          "tekst": "Komenda wojewódzka wprowadza nowe zasady dysponowania sił i środków",
+          "kategoria": "Wyznacznik",
+          "wyjasnienie": "Zmiana w otoczeniu regulacyjnym, która wywołuje zmianę potrzeb (s. 17)."
+        },
+        {
+          "tekst": "Mieszkańcy mają złożyć wniosek bez wizyty w urzędzie",
+          "kategoria": "Potrzeba",
+          "wyjasnienie": "Stan docelowy. Sposób (portal, e-mail, skrzynka podawcza) nie jest jeszcze przesądzony."
+        },
+        {
+          "tekst": "Na rynek wchodzi nowa technologia łączności, która zastępuje dotychczasowe radiotelefony",
+          "kategoria": "Wyznacznik",
+          "wyjasnienie": "Nowe technologie to jeden z czynników, które wpływają na potrzeby interesariuszy (s. 17)."
+        },
+        {
+          "tekst": "Naczelnik wydziału: „Potrzebujemy aplikacji mobilnej”",
+          "kategoria": "Oczekiwanie",
+          "wyjasnienie": "Mimo słowa „potrzebujemy” to gotowe rozwiązanie. Potrzebą byłoby np. szybkie powiadomienie ochotników."
+        }
+      ],
+      "_zPliku": "questions/uzupelnienie-pokrycia.json"
+    }
+  ]
+}

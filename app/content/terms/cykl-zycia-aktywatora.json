@@ -20,7 +20,7 @@
   "wymaga": [
     "aktywator"
   ],
-  "poLudzku": "Każda „część układanki” rodzi się, działa, jest poprawiana i kiedyś odchodzi, jak samochód w remizie.",
+  "poLudzku": "Każda „część układanki” rodzi się, działa, jest poprawiana i kiedyś odchodzi, jak samochód we flocie firmy.",
   "wyobrazSobie": "Regulamin klasy: ktoś go wymyśla i pisze, klasa go stosuje, po semestrze sprawdza się, czy działa, a potem się go poprawia albo znosi.",
   "poCo": "Żeby każdy aktywator był świadomie zaplanowany, utrzymywany, oceniany i w porę zmieniany albo wycofany, a nie zostawiony sam sobie po wdrożeniu.",
   "jakDziala": "Cykl życia to jeden z czterech wymiarów aktywatora. Ma 6 faz: planowanie (plan), projektowanie (design), budowanie/nabywanie/tworzenie/wdrażanie (build/acquire/create/implement), użytkowanie/eksploatacja (use/operate), ocena/monitorowanie (evaluate/monitor) oraz aktualizacja/pozbywanie się (update/dispose). Wynik oceny może prowadzić do poprawek, więc fazy się powtarzają.",
@@ -33,12 +33,11 @@
     "biuro": "Biuro wprowadza wzór zamówienia materiałów: kierowniczka go planuje i projektuje, asystentka wrzuca go do folderu, wszyscy z niego korzystają, a po roku okazuje się, że brakuje rubryki na numer budżetu. Wzór jest poprawiany, a gdy firma przechodzi na system zamówień, zostaje wycofany.",
     "firma": "Sklep internetowy przygotowuje nowy regulamin zwrotów. Właściciel go planuje, prawnik pisze treść, regulamin trafia na stronę i klienci z niego korzystają, a po pół roku właściciel sprawdza, ile było sporów. Potem regulamin jest poprawiany albo zastępowany nowym – to cykl życia aktywatora.",
     "admin": "Wydział w urzędzie gminy projektuje nowy formularz wniosku o wycinkę drzewa. Formularz trafia na stronę i do BIP, mieszkańcy go wypełniają, a po roku urzędnicy sprawdzają, które pola sprawiają kłopot. Po zmianie przepisów stary wzór jest wycofywany i zastępowany nowym. To pełny cykl życia aktywatora.",
-    "psp": "Komenda opracowuje procedurę postępowania dyżurnego przy awarii łączności. Procedura jest zatwierdzana, dyżurni przechodzą szkolenie i stosują ją na służbie. Po burzy, w której padło kilka przekaźników, kierownik SK ocenia procedurę i ją poprawia, a po wymianie sprzętu stara wersja zostaje uchylona. Od powstania do wycofania – to cykl życia aktywatora.",
-    "it": "Proces DSS04 Zarządzanie ciągłością też ma cykl życia: komenda planuje i projektuje plan ciągłości dla Syreny, wdraża go, stosuje, ocenia po ćwiczeniu awaryjnym i aktualizuje. Gdy Syrenę zastąpi inny system, część procedur zostanie wycofana."
+    "it": "Proces DSS04 Zarządzanie ciągłością też ma cykl życia: bank planuje i projektuje plan ciągłości dla bankowości internetowej, wdraża go, stosuje, ocenia po teście awaryjnym i aktualizuje. Gdy system zastąpi inny, część procedur zostanie wycofana."
   },
   "glebokosc": {
     "prosty": "Samochód w rodzinie: najpierw myślisz, jaki kupić, potem wybierasz wersję, kupujesz i jeździsz. Robisz przeglądy, a w końcu sprzedajesz go albo oddajesz na złom. Każda rzecz ma takie „życie”, które nie kończy się na zakupie.",
-    "zaawansowany": "Rada ds. Informatyki w komendzie też ma cykl życia. Komendantka Wrzos ją planuje i projektuje (skład, mandat), potem powołuje, a Rada działa. Ewa Lis ocenia jej pracę, a po roku Rada zostaje zmieniona albo rozwiązana. To samo dotyczy polityki powiadamiania i bazy numerów OSP. Pytanie „czy cyklem życia się zarządza?” należy do [[zarzadzanie-wydajnoscia-aktywatora|zarządzania wydajnością aktywatora]] i mierzy go [[wskaznik-wiodacy|wskaźnik wiodący]].",
+    "zaawansowany": "Komitet sterujący IT w banku też ma cykl życia. Zarząd go planuje i projektuje (skład, mandat), potem powołuje, a komitet działa. Audyt wewnętrzny ocenia jego pracę, a po roku komitet zostaje zmieniony albo rozwiązany. To samo dotyczy polityki bezpieczeństwa i bazy danych klientów. Pytanie „czy cyklem życia się zarządza?” należy do [[zarzadzanie-wydajnoscia-aktywatora|zarządzania wydajnością aktywatora]] i mierzy go [[wskaznik-wiodacy|wskaźnik wiodący]].",
     "skrajny": "Czy faza „ocena/monitorowanie” w cyklu życia aktywatora to to samo co monitorowanie w EDM albo w MEA? Nie: to etap życia jednego aktywatora, np. coroczny przegląd polityki. EDM to praktyki Ładu, a MEA to domena procesów Zarządzania. Druga pułapka: cykl życia aktywatora ma 6 faz, a cykl życia wdrożenia 7 faz i 3 pierścienie. Trzecia: „czy zarządzamy cyklem życia?” brzmi jak wynik, ale mierzy go wskaźnik wiodący, a nie opóźniony. **Rozstrzygnięcie:** 6 faz od planowania po aktualizację lub pozbycie się to wymiar każdego aktywatora, mierzony wskaźnikiem wiodącym; nie myl go z cyklem wdrożenia ani z domenami EDM i MEA."
   },
   "zagmatwania": [
@@ -58,7 +57,7 @@
   "mentor": {
     "czestyBlad": "Mylenie 6 faz cyklu życia aktywatora z 7 fazami cyklu życia wdrożenia.",
     "jakTlumaczyc": "Życiorys i remont: cykl życia aktywatora to życiorys jednej rzeczy, a cykl wdrożenia to akcja naprawcza całej organizacji. Życiorys ma 6 etapów, a akcja naprawcza 7 pytań.",
-    "pytanieKontrolne": "Komenda co roku przegląda politykę powiadamiania, a raz wycofała ją i zastąpiła nową. Które to fazy i jak zmierzysz, czy komenda dba o ten cykl?",
+    "pytanieKontrolne": "Firma co roku przegląda politykę bezpieczeństwa informacji, a raz wycofała ją i zastąpiła nową. Które to fazy i jak zmierzysz, czy firma dba o ten cykl?",
     "odpowiedzKontrolna": "Przegląd to ocena/monitorowanie, a wycofanie i zastąpienie to aktualizacja/pozbywanie się (z nowym planowaniem). Dbałość o cykl życia mierzy wskaźnik wiodący, np. odsetek polityk przejrzanych w terminie."
   },
   "nieMylicZ": [

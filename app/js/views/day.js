@@ -259,7 +259,7 @@ export async function renderDay(main, nrParam, action = null) {
       <p class="small muted">Wyobraź sobie kogoś, kto nie zna COBIT. Wytłumacz mu pojęcie w minutę, bez żargonu – na głos albo pisząc. Potem porównaj ze wzorcem.</p>
       ${pick.map((t) => {
         const f = store.flag(`minuta:${t.id}`);
-        const scene = t.przyklady && (t.przyklady.psp || t.przyklady.zycie);
+        const scene = t.przyklady && (t.przyklady.zycie || t.przyklady.organizacja || t.przyklady.firma);
         return `<div class="minute" data-minute="${esc(t.id)}">
           <div class="minute-head"><strong>${esc(t.plEgzamin)}</strong><span class="tmr">1:00</span></div>
           <textarea class="own-text" rows="3" placeholder="Twoje wyjaśnienie…">${esc(f.notatka || '')}</textarea>
@@ -276,10 +276,10 @@ export async function renderDay(main, nrParam, action = null) {
     const FIELDS = ['3 interesariuszy Twojej organizacji i czego każdy potrzebuje', 'Cel organizacji → cel związany z informatyką → cel aktywatora', 'Aktywator, który u Ciebie najbardziej kuleje – i po czym to widać', '2 procesy COBIT 5, które by pomogły (nazwa egzaminacyjna i domena)', 'Punkt zapalny – co dziś boli', 'Zdarzenie wyzwalające – co mogłoby uruchomić zmianę', 'Faza cyklu życia wdrożenia, w której jesteś', 'Poziom zdolności jednego procesu (0–5) z uzasadnieniem w skali N/C/W/P'];
     const wz = (syl && syl.projekt && Array.isArray(syl.projekt.wzorzec)) ? syl.projekt.wzorzec : [];
     return `<section class="dblock"><header><h2>Projekt końcowy: moja organizacja w COBIT 5</h2><span class="muted small">30 min, po próbnych egzaminach</span></header>
-      <p class="small muted">Opisz własną komendę (albo firmę) językiem COBIT 5. Zapisuje się w Notatkach i w eksporcie.</p>
+      <p class="small muted">Opisz własną organizację (albo firmę) językiem COBIT 5. Zapisuje się w Notatkach i w eksporcie.</p>
       <ol class="proj">${FIELDS.map((f, i) => `<li><label for="proj-${i}">${f}</label>
         <textarea id="proj-${i}" class="own-text" rows="2" data-proj="${i}">${esc(store.flag(`projekt:${i}`).notatka || '')}</textarea>
-        ${wz[i] ? `<div class="own-model proj-model" hidden><div class="box-label">Wzorzec (komenda z historii)</div>${render(wz[i])}</div>` : ''}</li>`).join('')}</ol>
+        ${wz[i] ? `<div class="own-model proj-model" hidden><div class="box-label">Wzorzec (urząd miasta z przykładu)</div>${render(wz[i])}</div>` : ''}</li>`).join('')}</ol>
       ${wz.length ? '<div class="btn-row"><button class="btn" id="projShow">Pokaż wzorzec</button></div>' : '<p class="small muted">Wzorzec projektu jest w przygotowaniu.</p>'}
     </section>`;
   }

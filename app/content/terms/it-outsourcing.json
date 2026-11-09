@@ -36,7 +36,7 @@
     "zycie": "Zamiast samemu prowadzić księgowość swojej działalności, płacisz biuru rachunkowemu. To outsourcing księgowości.",
     "biuro": "Firma nie zatrudnia informatyka. Ma umowę z zewnętrzną firmą, która raz w tygodniu przyjeżdża i pomaga przy awariach.",
     "organizacja": "Szpital oddaje firmie zewnętrznej prowadzenie serwerowni. W umowie zapisano: przestój nie dłuższy niż 4 godziny w roku.",
-    "psp": "Komenda rozważa oddanie Kwant-Sygnałowi całego utrzymania „Syreny”, łącznie z dyżurem w nocy. Komendantka Wrzos pyta: „A kto będzie pilnował, czy dotrzymują umowy?”.",
+    "admin": "Urząd miasta nie zatrudnia własnych informatyków do strony internetowej. Podpisuje umowę z firmą zewnętrzną, która ją utrzymuje i naprawia awarie w ciągu 4 godzin. Co miesiąc sekretarz miasta dostaje raport i sprawdza, czy firma dotrzymuje umowy.",
     "it": "FW-PL wskazuje problemy z usługami w ramach outsourcingu jako typowy punkt zapalny (s. 36); relacje z dostawcami obejmuje proces APO10."
   },
   "nieMylicZ": [
@@ -80,7 +80,7 @@
   ],
   "glebokosc": {
     "prosty": "Zamiast samemu kosić trawnik, płacisz sąsiadowi za koszenie co dwa tygodnie. Trawnik nadal jest Twój. Jeśli sąsiad przestanie przychodzić, to Ty masz zarośnięty ogród – i musisz to zauważyć.",
-    "zaawansowany": "Komenda oddaje Kwant-Sygnałowi nocny dyżur przy „Syrenie”. Sikora zapisuje w umowie: awaria zgłoszona w nocy – technik reaguje w 15 minut. Co miesiąc sprawdza raport [[it-dostawca|dostawcy]]. Gdyby nie sprawdzał, o złej obsłudze dowiedziałby się dopiero przy następnym pożarze.",
+    "zaawansowany": "Bank oddaje zewnętrznej firmie nocną obsługę serwerów bankowości internetowej. CIO zapisuje w umowie: awaria zgłoszona w nocy – technik reaguje w 15 minut. Co miesiąc sprawdza raport [[it-dostawca|dostawcy]]. Gdyby nie sprawdzał, o złej obsłudze dowiedziałby się dopiero przy następnej poważnej awarii.",
     "skrajny": "Czy kupno licencji na program to outsourcing? Nie – to zakup. Czy wynajęcie serwerów u firmy zewnętrznej, dostępnych przez Internet (tak zwana chmura), to outsourcing? Tak, oddajesz utrzymanie infrastruktury. Czy po outsourcingu dział IT jest zbędny? Nie – ktoś musi zarządzać umową i dostawcą. **Rozstrzygnięcie:** outsourcing to stałe zlecenie wykonywania pracy zewnętrznemu dostawcy; organizacja zachowuje odpowiedzialność i musi zarządzać umową."
   },
   "zagmatwania": [
@@ -96,7 +96,7 @@
   "mentor": {
     "czestyBlad": "Traktowanie outsourcingu jako sposobu na „pozbycie się kłopotu”.",
     "jakTlumaczyc": "Koszenie trawnika przez sąsiada: trawnik dalej jest Twój.",
-    "pytanieKontrolne": "Po oddaniu „Syreny” firmie zewnętrznej – co musi nadal robić komenda?",
+    "pytanieKontrolne": "Po oddaniu utrzymania systemu firmie zewnętrznej – co musi nadal robić bank?",
     "odpowiedzKontrolna": "Określić wymagania w umowie, sprawdzać ich wykonanie, reagować na kłopoty i odpowiadać wobec mieszkańców."
   }
 }

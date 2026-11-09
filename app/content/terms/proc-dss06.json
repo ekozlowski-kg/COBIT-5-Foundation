@@ -40,8 +40,8 @@
   "przyklady": {
     "zycie": "W domowym budżecie ustaliliście: przelew powyżej 1000 zł wymaga zgody drugiej osoby, a każdy paragon ląduje w pudełku. Bank sam blokuje przelew, jeśli brakuje numeru konta. Te zabezpieczenia działają w trakcie wydawania pieniędzy, a nie po fakcie.",
     "biuro": "Fakturę wystawia jedna osoba, a zatwierdza druga. Każde odrzucenie trafia do zeszytu wyjątków z podpisem.",
-    "organizacja": "Hurtownia nie przyjmie faktury bez numeru zamówienia, a zamówienie powyżej 10 tysięcy zatwierdza kierownik. W urzędzie gminy system nie pozwoli jednej osobie przygotować i zatwierdzić decyzji.",
-    "psp": "**Potwierdzenie z OSP.** Po nocy na Lipowej Syrena dostaje nowe zabezpieczenie w procesie alarmowania. Jeśli OSP Zawilce nie potwierdzi alarmu w 60 sekund, dyżurny widzi czerwone okno i musi zadzwonić. Numer w bazie może zmienić tylko Ola Dudek, a zatwierdzić kpt. Sikora. Każda zmiana zostawia ślad. Zabezpieczenia wbudowane w proces alarmowania to [[proc-dss06]].",
+    "organizacja": "Hurtownia nie przyjmie faktury bez numeru zamówienia, a zamówienie powyżej 10 tysięcy zatwierdza kierownik.",
+    "admin": "W urzędzie gminy decyzję o dodatku mieszkaniowym przygotowuje inspektor, a zatwierdza kierownik referatu. System nie pozwoli jednej osobie wykonać obu kroków ani wydać decyzji bez wymaganych pól, np. dochodu i powierzchni lokalu. Każde odrzucenie wniosku zostaje zapisane w historii sprawy.",
     "it": "Praktyki DSS06 obejmują m.in. kontrolę przetwarzania informacji, role i uprawnienia, obsługę błędów i wyjątków oraz śledzenie zdarzeń. Ich skuteczność ocenia MEA02."
   },
   "nieMylicZ": [
@@ -92,8 +92,8 @@
   "mapa": "proc-dss06",
   "glebokosc": {
     "prosty": "W sklepie kasa nie przyjmie płatności kartą bez PIN-u powyżej limitu. Kasjerka nie może sama sobie zatwierdzić zwrotu – musi przyjść kierowniczka. Te zabezpieczenia działają w chwili zakupu.",
-    "zaawansowany": "Syrena pokazuje dyżurnemu czerwone okno, gdy OSP nie potwierdzi alarmu w 60 sekund. Zmianę numeru OSP wpisuje Dudek, a zatwierdza Sikora. To [[proc-dss06]]. Same konta i hasła technicznie prowadzi [[proc-dss05]]. Raz na kwartał Ewa Lis sprawdza, czy te zabezpieczenia naprawdę działają – to [[proc-mea02]].",
-    "skrajny": "Audytorka Ewa Lis odkrywa, że czerwone okno „brak potwierdzenia z OSP” można zamknąć jednym kliknięciem bez dzwonienia. Dyżurni robią to w nocy, bo okno „wyskakuje za często”. Gdzie leży luka? Sam mechanizm (okno i obowiązek telefonu) to DSS06, kontrola wbudowana w proces alarmowania. Odkrycie, że kontrola nie działa w praktyce, to wynik MEA02, czyli monitorowania systemu kontroli wewnętrznej. Poprawę mechanizmu znowu robi się w DSS06, a zmianę w Syrenie – przez BAI06. **Rozstrzygnięcie:** DSS06 = kontrola działa w procesie (robi ją proces). MEA02 = ktoś z boku ocenia, czy kontrole są skuteczne. Ten sam mechanizm „należy” do DSS06, a jego ocena – do MEA02."
+    "zaawansowany": "System płatności banku pokazuje operatorowi czerwone okno, gdy przelew powyżej limitu nie ma drugiego zatwierdzenia w ciągu godziny. Zmianę danych kontrahenta wpisuje księgowa, a zatwierdza kierownik działu. To [[proc-dss06]]. Same konta i hasła technicznie prowadzi [[proc-dss05]]. Raz na kwartał audytorka wewnętrzna sprawdza, czy te zabezpieczenia naprawdę działają – to [[proc-mea02]].",
+    "skrajny": "Audytorka wewnętrzna odkrywa, że czerwone okno „brak drugiego zatwierdzenia przelewu” można zamknąć jednym kliknięciem bez kontaktu z kierownikiem. Operatorzy robią to pod koniec dnia, bo okno „wyskakuje za często”. Gdzie leży luka? Sam mechanizm (okno i obowiązek drugiego zatwierdzenia) to DSS06, kontrola wbudowana w proces płatności. Odkrycie, że kontrola nie działa w praktyce, to wynik MEA02, czyli monitorowania systemu kontroli wewnętrznej. Poprawę mechanizmu znowu robi się w DSS06, a zmianę w systemie – przez BAI06. **Rozstrzygnięcie:** DSS06 = kontrola działa w procesie (robi ją proces). MEA02 = ktoś z boku ocenia, czy kontrole są skuteczne. Ten sam mechanizm „należy” do DSS06, a jego ocena – do MEA02."
   },
   "zagmatwania": [
     {
@@ -112,7 +112,7 @@
   "mentor": {
     "czestyBlad": "Uczeń myli DSS06 z MEA02, bo w obu pada słowo „kontrola”.",
     "jakTlumaczyc": "DSS06 to bramka na lotnisku, która sprawdza każdego pasażera. MEA02 to inspektor, który raz na jakiś czas sprawdza, czy bramka naprawdę wyłapuje noże.",
-    "pytanieKontrolne": "System nie pozwala tej samej osobie wpisać i zatwierdzić zmiany numeru OSP. DSS06 czy MEA02?",
+    "pytanieKontrolne": "System nie pozwala tej samej osobie wpisać i zatwierdzić zmiany numeru konta kontrahenta. DSS06 czy MEA02?",
     "odpowiedzKontrolna": "**DSS06** – to mechanizm kontrolny w procesie (rozdział obowiązków). MEA02 byłby wtedy, gdyby ktoś oceniał, czy ten mechanizm działa skutecznie."
   }
 }

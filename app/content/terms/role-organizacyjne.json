@@ -15,17 +15,16 @@
   "poziom2": "| Rola / struktura | Kluczowe słowo (Ilustracja 33) |\n|---|---|\n| **Zarząd** | rozliczany za nadzór, ogólna kontrola nad zasobami |\n| **CEO** | najwyższy rangą, pełne zarządzanie organizacją |\n| **CFO** | finanse, ryzyko finansowe, rachunkowość |\n| **COO** | funkcjonowanie (operacje) organizacji |\n| **CRO** | ryzyko w całej organizacji |\n| **CIO** | **dopasowanie strategii IT i biznesowej**, planowanie, zasoby, dostarczanie usług IT |\n| **CISO** | bezpieczeństwo informacji we wszystkich formach |\n| **Właściciel procesu biznesowego** | sprawność i doskonalenie procesu, zatwierdzanie zmian |\n| **Komitet ds. strategii (wykonawczy IT)** | portfele inwestycji IT. **Przewodniczy członek zarządu, nie CIO** |\n| **Komitety sterujące** | programy i projekty |\n| **Rada ds. architektury** | architektura korporacyjna, polityki i standardy |\n| **Komitet ds. ryzyka (ERM)** | ryzyko na poziomie organizacji |\n| **PMO** | wsparcie kierowników projektów i programów |\n| **VMO** | sekretariat portfela inwestycji i usług, uzasadnienia biznesowe |\n| **Kierownicy:** usług, bezpieczeństwa informacji, ciągłości działania; **dyrektor ds. prywatności** | |",
   "poziom3": "Ilustracja 33 (s. 76–77). Uwaga z podręcznika: role nie muszą odpowiadać rzeczywistym funkcjom w organizacji, a tabela ma charakter ilustracyjny.",
   "przyklady": {
-    "zycie": "Rodzina buduje dom. Mama decyduje o całości i podpisuje kredyt (jak CEO), tata pilnuje rat i rachunków (CFO), córka-informatyczka ogarnia internet, kamery i alarm (CIO), a co tydzień cała trójka siada jako „komitet sterujący” budowy. To te same funkcje co w tabeli COBIT, tylko pod innymi nazwami.",
+    "zycie": "Rodzina buduje dom. Mama decyduje o całości i podpisuje kredyt (jak CEO), tata pilnuje rat i rachunków (CFO), córka-informatyczka ogarnia internet, kamery i inteligentne gniazdka (CIO), a co tydzień cała trójka siada jako „komitet sterujący” budowy. To te same funkcje co w tabeli COBIT, tylko pod innymi nazwami.",
     "biuro": "W małym biurze kierowniczka jest jednocześnie szefową biura i osobą zatwierdzającą wydatki, a informatyk z firmy zewnętrznej dba i o komputery, i o hasła. Gdy powstaje tabela, kto co robi przy przeprowadzce biura, kierowniczka wpisuje do kolumn te role, a dopiero przy nich nazwiska.",
     "firma": "W sklepie internetowym na 8 osób właścicielka jest jednocześnie CEO i CFO, a jedyny informatyk pełni rolę CIO i CISO – dba i o serwer, i o hasła. Co poniedziałek właścicielka, informatyk i kierownik magazynu spotykają się jako komitet sterujący nowego projektu. Role z Ilustracji 33 są te same, tylko obsadzone przez mniej osób.",
     "admin": "W starostwie starosta pełni rolę zbliżoną do CEO, skarbnik do CFO, a kierownik referatu informatyki do CIO. Inspektor ochrony danych odpowiada dyrektorowi ds. prywatności, a osoba odpowiedzialna za bezpieczeństwo informacji – CISO. Nazwy w urzędzie są inne, ale funkcje z tabeli COBIT da się do nich przypisać.",
-    "psp": "Komenda rozpisuje tabelę RACI dla nowego systemu i szuka odpowiedników ról z COBIT (przykład autorski). Komendant to mniej więcej CEO, główny księgowy – CFO, naczelnik wydziału operacyjnego – COO, kierownik sekcji informatyki – CIO, pełnomocnik ds. ochrony informacji – CISO, a IOD – dyrektor ds. prywatności. Tabela COBIT jest ilustracyjna, więc takie dopasowanie jest w porządku.",
     "it": "Organizacja rozpisuje RACI dla procesu APO13 (Zarządzanie bezpieczeństwem) i kolumnę CISO przypisuje kierownikowi bezpieczeństwa informacji, a kolumnę CIO dyrektorowi IT. Ilustracja 33 jest ilustracyjna, więc w mniejszej firmie te kolumny mogą trafić do innych stanowisk albo do jednej osoby."
   },
   "glebokosc": {
     "prosty": "W klubie sportowym jest prezes, skarbnik, trener i komisja rewizyjna. To nazwy funkcji, a nie konkretnych ludzi: w małym klubie jedna osoba bywa naraz skarbnikiem i trenerem. Liczy się, za co odpowiada każda funkcja.",
-    "zaawansowany": "W komendzie nikt nie nosi tytułu CIO, ale kpt. Sikora pełni tę rolę: dopasowuje strategię IT do zadań komendy i dostarcza usługi IT. Halina Mak odpowiada za finanse, czyli pełni rolę zbliżoną do CFO. Gdy bryg. Wrzos tworzy komitet ds. strategii IT, przewodniczy mu jej zastępca, a Sikora jest członkiem. Te role trafiają potem do tabel [[raci|RACI]], a komitety to [[struktury-organizacyjne|struktury organizacyjne]].",
-    "skrajny": "Kpt. Sikora zna IT najlepiej, więc proponuje, że będzie przewodniczył komitetowi ds. strategii IT. Intuicja mówi, że to logiczne, ale Ilustracja 33 podaje, że przewodniczącym jest **zazwyczaj członek zarządu, a nie CIO**. Komitet zajmuje się portfelem inwestycji IT z perspektywy całej organizacji, więc prowadzi go biznes, a CIO wnosi wiedzę jako członek. Druga pułapka: role z Ilustracji 33 nie muszą odpowiadać stanowiskom – jedna osoba może pełnić kilka ról, a nazwy roli może nie być w schemacie organizacyjnym. Trzecia: CIO to rola, a komitet to struktura, choć oba są w tej samej tabeli. **Rozstrzygnięcie:** za dopasowanie strategii IT i biznesu odpowiada CIO, ale komitetowi strategicznemu IT przewodniczy zwykle członek zarządu; role czytaj jako funkcje, nie jako etaty."
+    "zaawansowany": "W szpitalu powiatowym nikt nie nosi tytułu CIO, ale kierownik działu informatyki pełni tę rolę: dopasowuje strategię IT do zadań szpitala i dostarcza usługi IT. Główna księgowa odpowiada za finanse, czyli pełni rolę zbliżoną do CFO. Gdy dyrektor szpitala tworzy komitet ds. strategii IT, przewodniczy mu jego zastępca, a kierownik informatyki jest członkiem. Te role trafiają potem do tabel [[raci|RACI]], a komitety to [[struktury-organizacyjne|struktury organizacyjne]].",
+    "skrajny": "Kierownik działu informatyki zna IT najlepiej, więc proponuje, że będzie przewodniczył komitetowi ds. strategii IT. Intuicja mówi, że to logiczne, ale Ilustracja 33 podaje, że przewodniczącym jest **zazwyczaj członek zarządu, a nie CIO**. Komitet zajmuje się portfelem inwestycji IT z perspektywy całej organizacji, więc prowadzi go biznes, a CIO wnosi wiedzę jako członek. Druga pułapka: role z Ilustracji 33 nie muszą odpowiadać stanowiskom – jedna osoba może pełnić kilka ról, a nazwy roli może nie być w schemacie organizacyjnym. Trzecia: CIO to rola, a komitet to struktura, choć oba są w tej samej tabeli. **Rozstrzygnięcie:** za dopasowanie strategii IT i biznesu odpowiada CIO, ale komitetowi strategicznemu IT przewodniczy zwykle członek zarządu; role czytaj jako funkcje, nie jako etaty."
   },
   "zagmatwania": [
     {
@@ -48,7 +47,7 @@
   "mentor": {
     "czestyBlad": "Branie ról za etaty i oddawanie CIO przewodnictwa komitetu strategicznego IT.",
     "jakTlumaczyc": "Teatr: rola (Hamlet) to nie aktor – jeden aktor może zagrać dwie role. Potem tabela: rola → jedno kluczowe słowo (CIO – dopasowanie, CISO – bezpieczeństwo informacji, CRO – ryzyko).",
-    "pytanieKontrolne": "W małej komendzie jedna osoba jest naraz CIO i CISO. Czy to sprzeczne z COBIT 5? Kto powinien przewodniczyć komitetowi ds. strategii IT?",
+    "pytanieKontrolne": "W małym urzędzie jedna osoba jest naraz CIO i CISO. Czy to sprzeczne z COBIT 5? Kto powinien przewodniczyć komitetowi ds. strategii IT?",
     "odpowiedzKontrolna": "Nie jest sprzeczne – role są ilustracyjne i jedna osoba może pełnić kilka. Komitetowi strategicznemu IT zwykle przewodniczy członek zarządu, a nie CIO."
   },
   "nieMylicZ": [
@@ -96,7 +95,7 @@
   },
   "pulapka": false,
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P3",
   "wymaga": [
     "struktury-organizacyjne"

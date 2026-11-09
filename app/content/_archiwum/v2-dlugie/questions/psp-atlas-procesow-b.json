@@ -1,0 +1,226 @@
+[
+  {
+    "id": "q-atl-bai-a-03",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-04"
+    ],
+    "lekcja": "pr-20-atlas-bai-a",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Sklep internetowy przed świętami ma trzy razy więcej zamówień niż zwykle. W październiku dział IT prognozuje ruch i dokupuje moc serwerów na ten okres. Który proces COBIT 5 **najlepiej** opisuje to działanie?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 33,
+        "ilustracja": "16"
+      }
+    ],
+    "status": "uproszczenie",
+    "opcje": [
+      {
+        "tekst": "BAI04 Zarządzanie dostępnością i pojemnością",
+        "poprawna": true,
+        "wyjasnienie": "Prognoza obciążenia i rozbudowa przed szczytem to planowanie pojemności i dostępności."
+      },
+      {
+        "tekst": "DSS04 Zarządzanie ciągłością",
+        "poprawna": false,
+        "wyjasnienie": "DSS04 przygotowuje przetrwanie katastrofy, np. pożaru serwerowni. Świąteczny szczyt to normalne działanie, tylko w tłoku.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "DSS01 Zarządzanie eksploatacją",
+        "poprawna": false,
+        "wyjasnienie": "DSS01 dostarcza bieżące dane o obciążeniu. Prognozą i rozbudową na przyszłość zajmuje się BAI04.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "APO09 Zarządzanie umowami o świadczenie usług",
+        "poprawna": false,
+        "wyjasnienie": "APO09 uzgadnia z odbiorcą obiecany poziom usług. Jak tę obietnicę spełnić przy dużym ruchu, planuje BAI04.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-atl-bai-a-04",
+    "typ": "studium",
+    "sylabus": [
+      "PR-01-04"
+    ],
+    "lekcja": "pr-20-atlas-bai-a",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Który proces COBIT 5 **przede wszystkim** opisuje pracę kpt. Sikory?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 33,
+        "ilustracja": "16"
+      }
+    ],
+    "status": "uproszczenie",
+    "scenariusz": "Rada ds. Informatyki komendy zatwierdziła projekt nowego modułu Syreny dla OSP. Kpt. Sikora rozpisuje harmonogram i zadania. Co tydzień raportuje komendantce postęp, koszty i ryzyka. Po zakończeniu sprawdza, czy alarm rzeczywiście dochodzi szybciej.",
+    "opcje": [
+      {
+        "tekst": "APO05 Zarządzanie portfelem",
+        "poprawna": false,
+        "wyjasnienie": "Portfel wybiera inwestycje i ustala ich priorytety. Ten wybór zapadł, gdy Rada zatwierdziła projekt.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "EDM02 Zapewnienie realizacji korzyści",
+        "poprawna": false,
+        "wyjasnienie": "EDM02 to Ład: szefostwo ocenia i kieruje korzyściami. Sikora prowadzi projekt po stronie Zarządzania.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "BAI01 Zarządzanie programami i projektami",
+        "poprawna": true,
+        "wyjasnienie": "Prowadzenie zatwierdzonego projektu: harmonogram, raporty postępu i przegląd korzyści po zakończeniu."
+      },
+      {
+        "tekst": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+        "poprawna": false,
+        "wyjasnienie": "MEA01 mierzy wyniki procesów względem celów. Raporty postępu jednego projektu są częścią jego prowadzenia.",
+        "pulapka": "prawda-nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-atl-dss-b-01",
+    "typ": "rozpoznanie",
+    "sylabus": [
+      "PR-01-04"
+    ],
+    "lekcja": "pr-24-atlas-dss-b",
+    "bloom": "rozumienie",
+    "trudnosc": 1,
+    "tresc": "Firma ma spisany i przećwiczony plan: co robi, gdy pożar zniszczy serwerownię i trzeba pracować z innego miejsca. Do którego procesu należy ten plan?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 33,
+        "ilustracja": "16"
+      }
+    ],
+    "status": "uproszczenie",
+    "pretest": true,
+    "opcje": [
+      {
+        "tekst": "DSS04 – ciągłość",
+        "poprawna": true,
+        "wyjasnienie": "Plan przetrwania poważnego zakłócenia, ćwiczony i aktualizowany, to DSS04."
+      },
+      {
+        "tekst": "BAI04 – dostępność i pojemność",
+        "poprawna": false,
+        "wyjasnienie": "BAI04 planuje moc i dostępność w zwykłych warunkach i w szczycie, a nie przetrwanie katastrofy."
+      },
+      {
+        "tekst": "DSS02 – zgłoszenia serwisowe i incydenty",
+        "poprawna": false,
+        "wyjasnienie": "DSS02 obsługuje zwykłe przerwy w usługach. Gdy to nie wystarcza, działa plan ciągłości."
+      }
+    ]
+  },
+  {
+    "id": "q-atl-dss-b-02",
+    "typ": "dopasowanie",
+    "sylabus": [
+      "PR-01-04"
+    ],
+    "lekcja": "pr-24-atlas-dss-b",
+    "bloom": "rozumienie",
+    "trudnosc": 1,
+    "tresc": "Przed kontrolą Ostrowskiej Sikora porządkuje zadania komendy. Połącz każde z nich z procesem COBIT 5, który za nie odpowiada.",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 33,
+        "ilustracja": "16"
+      }
+    ],
+    "status": "uproszczenie",
+    "pary": [
+      {
+        "lewa": "Plan i ćwiczenie pracy po zalaniu serwerowni",
+        "prawa": "DSS04"
+      },
+      {
+        "lewa": "Blokada konta pracownika, który odszedł",
+        "prawa": "DSS05"
+      },
+      {
+        "lewa": "Zatwierdzanie zwrotu przez drugą osobę w procesie płatności",
+        "prawa": "DSS06"
+      },
+      {
+        "lewa": "Zasady i system zarządzania bezpieczeństwem informacji",
+        "prawa": "APO13"
+      }
+    ],
+    "wyjasnienie": "DSS04 przygotowuje przetrwanie katastrofy. DSS05 wykonuje codzienną ochronę. DSS06 wbudowuje kontrole w proces biznesowy. APO13 organizuje bezpieczeństwo."
+  },
+  {
+    "id": "q-atl-mea-02",
+    "typ": "klasyfikacja",
+    "sylabus": [
+      "PR-01-04"
+    ],
+    "lekcja": "pr-25-atlas-mea",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Przypisz każde działanie do procesu domeny MEA.",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 33,
+        "ilustracja": "16"
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 59
+      }
+    ],
+    "status": "uproszczenie",
+    "kategorie": [
+      "MEA01",
+      "MEA02",
+      "MEA03"
+    ],
+    "elementy": [
+      {
+        "tekst": "Miesięczny raport czasu alarmu względem celu 40 sekund",
+        "kategoria": "MEA01",
+        "wyjasnienie": "Pomiar wyników względem celów i raport to MEA01."
+      },
+      {
+        "tekst": "Działania korygujące po słabym wyniku wskaźnika",
+        "kategoria": "MEA01",
+        "wyjasnienie": "MEA01 pilnuje też działań korygujących."
+      },
+      {
+        "tekst": "Próbka nocnych alarmów: czy dyżurni nie omijają czerwonego okna",
+        "kategoria": "MEA02",
+        "wyjasnienie": "Ocena, czy zabezpieczenie działa w praktyce, to MEA02."
+      },
+      {
+        "tekst": "Samoocena kierownictwa, czy zabezpieczenia w procesie działają",
+        "kategoria": "MEA02",
+        "wyjasnienie": "MEA02 obejmuje też samoocenę kontroli, nie tylko audyt."
+      },
+      {
+        "tekst": "Lista przepisów i umów, które dotyczą systemu",
+        "kategoria": "MEA03",
+        "wyjasnienie": "Rozpoznanie wymogów zewnętrznych to MEA03."
+      },
+      {
+        "tekst": "Sprawdzenie, czy firma spełnia warunki umowy z partnerem",
+        "kategoria": "MEA03",
+        "wyjasnienie": "Wymogi wynikające z umów to także wymogi zewnętrzne – MEA03."
+      }
+    ]
+  }
+]

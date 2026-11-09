@@ -1,0 +1,49 @@
+[
+  {
+    "id": "q-pck-51-z1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PC-02-03"
+    ],
+    "lekcja": "pc-k51-referencyjny-model-procesu",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Z którym wymiarem oceny wiąże się Referencyjny Model Procesu?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 43
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Z Wymiarem Zdolności",
+        "poprawna": false,
+        "wyjasnienie": "Wymiar Zdolności ocenia atrybuty wyższych poziomów, których nie ma w PRM.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Z oboma wymiarami po równo",
+        "poprawna": false,
+        "wyjasnienie": "PRM nie zawiera cech poziomów 2–5.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Z żadnym, bo PRM służy tylko do wdrożenia",
+        "poprawna": false,
+        "wyjasnienie": "PRM jest podstawą oceny procesu.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Z Wymiarem Procesu",
+        "poprawna": true,
+        "wyjasnienie": "Dobrze. PRM opisuje, co proces ma robić, a Wymiar Procesu sprawdza, czy to robi."
+      }
+    ]
+  }
+]

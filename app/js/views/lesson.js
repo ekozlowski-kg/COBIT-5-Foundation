@@ -7,6 +7,9 @@ import { termDetail, bindTermDetail, statusPill, trapPill, bindFlags, toast, poL
 import { mapSnippet } from '../maptree.js';
 import { questionsForUnits } from '../progress.js';
 
+// Tryb skupienia (2026-11-08, „uwaga jest rozproszona”): w lekcji tylko treść i pytania „Sprawdź”.
+const SKUPIENIE = true;
+
 const CHOICE = new Set(['rozpoznanie', 'egzamin', 'studium', 'mapa', 'klasyfikacja', 'dopasowanie', 'bledy', 'kolejnosc']);
 
 // 1–2 pytania z wcześniejszych lekcji: najpierw zaległe w powtórkach (hasła z błędami), potem najsłabsze, potem nierozwiązane.
@@ -63,11 +66,13 @@ export async function renderLesson(main, unitId, { slide = null, present = false
     slides.push({ ...s, kind: 'content' });
     if (s.typ === 'mapa') {
       const nid = (s.md.match(/^:::mapa\s+(\S+)/m) || [])[1];
-      const mq = mapQFor(nid);
+      const mq = SKUPIENIE ? null : mapQFor(nid);
       if (mq) slides.push({ kind: 'quiz', q: mq, qid: mq.id, label: 'Gdzie to leży?' });
     }
   }
-  unit.cwiczenia.forEach((qid, k) => slides.push({ kind: 'quiz', q: questions.get(qid), qid, label: `Sprawdź · ${k + 1} z ${unit.cwiczenia.length}`, check: true }));
+  const diff = (qid) => { const q = questions.get(qid); return q && typeof q.trudnosc === 'number' ? q.trudnosc : 2; };
+  const checks = [...unit.cwiczenia].sort((a, b) => diff(a) - diff(b));
+  checks.forEach((qid, k) => slides.push({ kind: 'quiz', q: questions.get(qid), qid, label: `Sprawdź · ${k + 1} z ${checks.length}`, check: true }));
   // §12.3 – rytm skrajności. (1) W „Sprawdź” jedno pytanie skrajne, jeśli lekcja wprowadza atom, który je ma.
   // Tylko pojęcia WPROWADZONE w lekcji (wprowadza + wprowadzaListe), nie każde wspomniane w przypisie –
   // inaczej lekcja dnia 0 z zapowiedzią [[…]] dostaje pytania skrajne o pojęciach, których laik jeszcze nie zna (zasada zera, §10).
@@ -77,13 +82,13 @@ export async function renderLesson(main, unitId, { slide = null, present = false
     const inSlides = new Set(slides.map((x) => x.qid));
     const cand = extremeAll.filter((q) => lessonTerms.has(q.atom) && !inSlides.has(q.id));
     const pickE = cand.find((q) => !(store.answer(q.id) || {}).lastMastered) || cand[0];
-    if (pickE && !slides.some((x) => x.q && x.q.skrajnosc)) {
+    if (pickE && !SKUPIENIE && !slides.some((x) => x.q && x.q.skrajnosc)) {
       const at = slides.map((x) => x.check).lastIndexOf(true);
       slides.splice(at >= 0 ? at + 1 : slides.length, 0, { kind: 'quiz', q: pickE, qid: pickE.id, label: 'Sprawdź · przypadek skrajny', check: true });
     }
   }
   // (2) Co 3 lekcje „Kontrola zagmatwań”: 3 pytania skrajne z wcześniejszych lekcji, przemieszane, bez podpowiedzi.
-  if ((idx + 1) % 3 === 0 && idx > 0) {
+  if (!SKUPIENIE && (idx + 1) % 3 === 0 && idx > 0) {
     const earlierLessons = await Promise.all(course.slice(0, idx).map((u) => C.lesson(u.id).catch(() => null)));
     const earlierTerms = new Set(earlierLessons.filter(Boolean).flatMap((l) => l.unit.wprowadza || []));
     const inSlides = new Set(slides.map((x) => x.qid));
@@ -92,9 +97,9 @@ export async function renderLesson(main, unitId, { slide = null, present = false
     ranked.forEach((q, k) => slides.push({ kind: 'quiz', q, qid: q.id, label: `Kontrola zagmatwań · ${k + 1} z ${ranked.length}`, noHints: true }));
   }
   const used = new Set(slides.map((x) => x.qid).filter(Boolean));
-  pickEarlier(course, idx, questions, used).forEach((q) => slides.push({ kind: 'quiz', q, qid: q.id, label: 'Powtórka z wcześniejszej lekcji', earlier: true }));
+  (SKUPIENIE ? [] : pickEarlier(course, idx, questions, used)).forEach((q) => slides.push({ kind: 'quiz', q, qid: q.id, label: 'Powtórka z wcześniejszej lekcji', earlier: true }));
   // §11.5: na koniec samoocena celu „Potrafię…”.
-  if (unit.cel) slides.push({ kind: 'cel', label: 'Co już umiesz' });
+  if (unit.cel && !SKUPIENIE) slides.push({ kind: 'cel', label: 'Co już umiesz' });
   const nContent = lesson.slides.length;
   const dayN = typeof unit.dzien === 'number' ? unit.dzien : 1;
   const conf = C.dayConf(dayList, dayN); // §18.3 – rusztowanie i podpowiedzi z syllabus.dni[]
@@ -123,67 +128,45 @@ export async function renderLesson(main, unitId, { slide = null, present = false
     return `<button class="term${t.pulapka ? ' trap' : ''}" data-term="${esc(id)}" data-n="${n}" aria-label="${esc((label ? label.replace(/<[^>]+>/g, '') : t.plEgzamin))} – kliknij, żeby zobaczyć wyjaśnienie">${label || esc(t.plEgzamin)}<i class="q" aria-hidden="true">?</i></button>`;
   };
 
-  // ---------- Szkielet ----------
-  const navHTML = () => {
-    const mods = [...new Set(allUnits.map((u) => u.modul.kod))];
-    return `
-      <a class="btn btn-ghost small" href="#/" style="margin:0 0 8px;justify-content:flex-start">← Start</a>
-      ${mods.map((mk) => {
-        const list = allUnits.filter((u) => u.modul.kod === mk);
-        const openMod = mk === unit.modul.kod;
-        return `<details ${openMod ? 'open' : ''}><summary><h2 style="display:inline">${esc(list[0].modul.tytul)}</h2></summary>
-        <ol>${list.map((u) => {
-          const st = store.unit(u.id);
-          const cls = st.done ? 'done' : st.seen.length ? 'partial' : '';
-          return `<li><a href="#/lekcja/${esc(u.id)}" ${u.id === unitId ? 'aria-current="true"' : ''}>
-            <span class="check ${cls}" aria-hidden="true">${st.done ? '✓' : ''}</span><span>${u.nr ? `<span class="muted">${esc(u.nr)}</span> ` : ''}${esc(u.tytul)}</span></a></li>`;
-        }).join('')}</ol></details>`;
-      }).join('')}`;
-  };
-
+  // ---------- Szkielet: tryb nauki (minimalistyczny) ----------
+  // Na kanwie jedna myśl slajdu; tabele, kolejne przykłady, źródła, wykładowca i pytania uczestników – w panelu „Szczegóły”.
+  const shortMod = (unit.modul.tytul || '').replace(/\s*\([^)]*\)\s*$/, '');
   main.innerHTML = `
-    <div class="lesson${sidebarOpen ? '' : ' sidebar-closed'}" id="lessonRoot">
-      <nav class="lnav" id="nav" aria-label="Jednostki modułu">${navHTML()}</nav>
+    <div class="lesson learn sidebar-closed" id="lessonRoot">
       <section class="stage" aria-label="Lekcja">
-        <div class="stage-head">
-          <button class="icon-btn" id="lnavToggle" aria-controls="nav" aria-expanded="false">☰ Spis lekcji</button>
-          <div class="crumbs">${esc(unit.modul.tytul)} › ${unit.nr ? esc(unit.nr) + ' ' : ''}${esc(unit.tytul)}${unit.minuty ? ` · ${esc(unit.minuty)} min` : ''}${!(unit.kontrolaAutora && unit.kontrolaAutora.data) ? ' <span class="pill draft-pill" title="Lekcja nie przeszła jeszcze ręcznej kontroli autora (§17.14)">wersja robocza</span>' : ''}</div>
-          <div class="stage-tools">
-            <button class="icon-btn hint-open" id="sbToggle" aria-pressed="${sidebarOpen}">💡 Podpowiedź</button>
-            ${'speechSynthesis' in window ? '<button class="icon-btn" id="readBtn">🔊 Przeczytaj mi</button>' : ''}
-            <a class="icon-btn" href="#/prezentacja/${esc(unitId)}/${cur + 1}" id="presentBtn" title="Sam slajd, bez rozpraszaczy">▶ Pełny ekran</a>
-          </div>
-        </div>
+        <header class="learn-head">
+          <a class="icon-btn learn-exit" href="#/" title="Wróć na Start (postęp jest zapisany)" aria-label="Zamknij lekcję i wróć na Start">✕</a>
+          <div class="learn-title"><span class="learn-mod">${esc(shortMod)}${unit.nr ? ` · ${esc(unit.nr)}` : ''}</span><strong>${esc(unit.tytul)}</strong></div>
+          <button class="icon-btn learn-det" id="sbToggle" aria-pressed="false">Szczegóły</button>
+        </header>
+        <div class="learn-prog" aria-hidden="true"><span id="pbar"></span></div>
         <div class="gate" id="gate" hidden></div>
         <div class="canvas" id="canvas" role="region" aria-roledescription="slajd" aria-label="Slajd">
           <div class="slide-meta" id="slideMeta"></div>
           <div class="slide-body" id="slideBody"></div>
+          <div class="simpler" id="simpler" hidden aria-live="polite"></div>
         </div>
         <div class="slide-foot">
           <button class="btn btn-lg" id="prevBtn">← Wstecz</button>
           <div class="dots" id="dots"></div>
           <button class="btn btn-primary btn-lg" id="nextBtn">Dalej →</button>
         </div>
-        <div class="flags" id="flags"></div>
-        <div class="simpler" id="simpler" hidden aria-live="polite"></div>
       </section>
-      <aside class="sidebar" id="sidebar" aria-label="Przypisy i objaśnienia">
+      <aside class="sidebar" id="sidebar" aria-label="Szczegóły slajdu">
         <div class="sb-head">
-          <div class="sb-title"><span>Drugi nauczyciel – pomoc do tego slajdu</span>
+          <div class="sb-title"><span>Szczegóły tego slajdu</span>
             <button class="btn" id="sbClose">Zamknij</button></div>
+          <div class="sb-actions"><div class="flags" id="flags"></div>${'speechSynthesis' in window ? '<button class="flag-btn" id="readBtn">🔊 Przeczytaj mi</button>' : ''}</div>
           <div class="tabs" role="tablist">
-            ${[['wyjasnij', 'Wyjaśnij mi'], ['wykladowca', 'Wykładowca'], ['terminy', 'Terminy'], ['zrodla', 'Źródła'], ['podpowiedz', 'Podpowiedź']]
+            ${[['wyjasnij', 'Szczegóły'], ['wykladowca', 'Wykładowca'], ['terminy', 'Terminy'], ['zrodla', 'Źródła'], ['podpowiedz', 'Podpowiedź']]
               .map(([k, l]) => `<button class="tab" role="tab" data-tab="${k}" aria-selected="${k === tab}">${l}</button>`).join('')}
           </div>
         </div>
         <div class="sb-body" id="sbBody"></div>
         <div class="sb-foot"><button class="btn btn-primary" id="sbClose2">Zamknij</button></div>
       </aside>
-    </div>
-    <div class="scrim" id="scrim"></div>
-    <button class="explain-fab" id="fab">Wyjaśnij pojęcie</button>
-    <div class="present-bar" aria-hidden="true"><span id="pbar"></span></div>
-    <div class="present-bar-top"><a class="btn" id="presentExit" href="#/lekcja/${esc(unitId)}/${cur + 1}">✕ Zamknij pełny ekran</a><button class="btn" id="presentHint">💡 Podpowiedź</button></div>`;
+    </div>`;
+  document.body.classList.add('learning');
 
   const $ = (id) => document.getElementById(id);
   const root = $('lessonRoot');
@@ -265,12 +248,20 @@ export async function renderLesson(main, unitId, { slide = null, present = false
       return;
     }
     const ids = termIdsInOrder([s]).filter((id) => terms.has(id));
+    const moved = detailNodes;
     const secs = explainSections(s, ids.map((id) => terms.get(id)), { laik: isLaik(), terms, render: (x) => render(x, termRef) });
     body.innerHTML = `${s.hint ? `<div class="hint-box"><div class="box-label">Na co zwrócić uwagę</div><p>${inlineRich(s.hint)}</p></div>` : ''}
-      ${secs || (s.hint ? '' : '<p class="hint-lead">Przeczytaj slajd spokojnie, zdanie po zdaniu. Gdy skończysz – „Dalej →”.</p>')}
+      ${secs || (s.hint || moved.length ? '' : `<p class="hint-lead">Ten slajd nie ma dodatkowych szczegółów.${s.lecturer ? ' Pełne wyjaśnienie jest w zakładce „Wykładowca”.' : ' Gdy skończysz – „Dalej →”.'}</p>`)}
       ${ids.length ? `<div class="box-label" style="margin-top:18px">Wyjaśnij szczegółowo</div><div class="btn-row">${ids.slice(0, 5).map((id) => `<button class="btn small" data-detail="${esc(id)}">${esc(terms.get(id).plEgzamin)}</button>`).join('')}</div>` : ''}`;
     body.querySelectorAll('[data-detail]').forEach((b) => b.addEventListener('click', () => { detailTerm = b.dataset.detail; renderHint(body); }));
     body.querySelectorAll('[data-term]').forEach((b) => b.addEventListener('click', () => openTerm(b.dataset.term)));
+    if (moved.length) {
+      const box = document.createElement('div');
+      box.className = 'det-moved';
+      moved.forEach((n) => box.appendChild(n));
+      body.prepend(box);
+      if (secs || s.hint) box.insertAdjacentHTML('afterend', '<div class="box-label" style="margin-top:22px">Pojęcia z tego slajdu</div>');
+    }
   }
 
   // §17.5 – warstwa 2: pełny tekst wykładowcy i pytania uczestników.
@@ -377,20 +368,16 @@ export async function renderLesson(main, unitId, { slide = null, present = false
   }
 
   document.querySelectorAll('.tab').forEach((b) => b.addEventListener('click', () => { tab = b.dataset.tab; detailTerm = null; renderSidebar(); }));
-  const defaultTab = () => ((slides[cur] || {}).kind === 'content' ? 'wyjasnij' : 'podpowiedz');
+  const defaultTab = () => {
+    const sNow = slides[cur] || {};
+    if (sNow.kind !== 'content') return 'podpowiedz';
+    // Panel otwiera się tam, gdzie coś jest: przeniesione elementy → „Szczegóły”; sam tekst wykładowcy → „Wykładowca”.
+    return !detailNodes.length && !sNow.hint && sNow.lecturer ? 'wykladowca' : 'wyjasnij';
+  };
   const openHint = () => { tab = defaultTab(); detailTerm = null; $('sbToggle').classList.remove('pulse'); renderSidebar(); setSidebar(true); };
   $('sbToggle').addEventListener('click', () => { if (sidebarOpen) setSidebar(false); else openHint(); });
-  $('presentHint').addEventListener('click', openHint);
   $('sbClose').addEventListener('click', () => setSidebar(false));
   $('sbClose2').addEventListener('click', () => setSidebar(false));
-  const setLnav = (open) => {
-    document.body.classList.toggle('lnav-open', open);
-    $('lnavToggle').setAttribute('aria-expanded', String(open));
-    if (open) $('nav').querySelector('[aria-current="true"]')?.scrollIntoView({ block: 'center' });
-  };
-  $('lnavToggle').addEventListener('click', () => setLnav(!document.body.classList.contains('lnav-open')));
-  $('scrim').addEventListener('click', () => setLnav(false));
-  $('fab').addEventListener('click', () => { if (!activeTerm) tab = 'lekcja'; setSidebar(true); renderSidebar(); });
 
   // ---------- „Własnymi słowami” (METODYKA §1 krok 5) ----------
   function bindOwn(el, s) {
@@ -467,7 +454,7 @@ export async function renderLesson(main, unitId, { slide = null, present = false
     const ids = termIdsInOrder([s]);
     // §16.1 – „Jesteś tu” na kompasie wielkiego obrazu (pierwszy slajd treści).
     if (unit.wielkiObraz && s === slides.find((x) => x.kind === 'content')) {
-      body.insertAdjacentHTML('beforeend', `<div class="box-label" style="margin-top:24px">O co naprawdę chodzi w COBIT 5</div>${compassHTML(C.COMPASS, { here: unit.wielkiObraz, compact: true })}`);
+      body.insertAdjacentHTML('beforeend', `<div class="compass-wrap"><div class="box-label">O co naprawdę chodzi w COBIT 5</div>${compassHTML(C.COMPASS, { here: unit.wielkiObraz, compact: true })}</div>`);
     }
     if (unit.cel && s === slides.find((x) => x.kind === 'content')) {
       body.insertAdjacentHTML('beforeend', `<p class="goal"><span class="box-label">Po tej lekcji</span>${inlineRich(unit.cel)}</p>`);
@@ -475,7 +462,7 @@ export async function renderLesson(main, unitId, { slide = null, present = false
     // Slajd „pojecie”: najpierw po ludzku, potem nazwa egzaminacyjna; „skąd ta nazwa” w części rozwijanej.
     if (s.typ === 'pojecie') {
       const t = terms.get(ids[0]);
-      if (t && poLudzku(t)) {
+      if (t && poLudzku(t) && !SKUPIENIE) { // w skupieniu slajd sam podaje definicję po ludzku
         body.insertAdjacentHTML('afterbegin', `<p class="po-ludzku"><span class="box-label">Po ludzku</span>${inlineRich(poLudzku(t))}</p>`);
       }
       if (t && t.skadNazwa) {
@@ -496,6 +483,28 @@ export async function renderLesson(main, unitId, { slide = null, present = false
       btn.addEventListener('click', () => { ctx[shown].hidden = false; ctx[shown].classList.add('enter'); shown++; label(); });
       ctx[ctx.length - 1].after(btn);
     }
+  }
+  // Tryb nauki: elementy drugorzędne przenosimy z kanwy do panelu „Szczegóły” (węzły, więc zachowują obsługę kliknięć).
+  // Jeśli po przeniesieniu na slajdzie nie zostałaby żadna treść, pierwszy element zostaje na kanwie.
+  let detailNodes = [];
+  const DETAIL_SEL = ':scope > .box-ctx, :scope > .progresja, :scope > .depth, :scope > details.pq, :scope > .box-simple, :scope > .box-exam, :scope > .compass-wrap, :scope > .goal, :scope > details.skad, :scope > .teza, :scope > .box:not(.box-remember):not(.box-trap):not(.box-ctx)';
+  const MAIN_SEL = ':scope > p:not(.wniosek), :scope > ul, :scope > ol, :scope > blockquote, :scope > .atom, :scope > .solved, :scope > .own, :scope > .map-snippet, :scope > .box-remember, :scope > .box-trap, :scope > .po-ludzku';
+  function collectDetails(body) {
+    body.querySelectorAll(':scope > .ctx-more, :scope > .teza-next, :scope > .box-ctx[data-ctx="psp"]').forEach((x) => x.remove());
+    // Źródła: jedna stopka pod slajdem (bez powtórzeń), żeby było widać, skąd jest treść.
+    const srcs = [...body.querySelectorAll(':scope > p.src')];
+    if (srcs.length) {
+      const uniq = [...new Set(srcs.map((x) => x.textContent.replace(/^Źródło:\s*/, '').trim()))];
+      srcs.forEach((x) => x.remove());
+      body.insertAdjacentHTML('beforeend', `<p class="src-foot">Źródło: ${uniq.map(esc).join(' · ')}</p>`);
+    }
+    let cand = [...body.querySelectorAll(DETAIL_SEL)];
+    const ctx = cand.filter((x) => x.classList.contains('box-ctx'));
+    if (ctx.length) cand = cand.filter((x) => x !== ctx[0]); // pierwszy przykład zostaje na slajdzie
+    const mainLeft = [...body.querySelectorAll(MAIN_SEL)].filter((x) => !cand.includes(x));
+    if (!mainLeft.length && cand.length) cand = cand.slice(1);
+    cand.forEach((x) => { x.remove(); x.hidden = false; });
+    detailNodes = cand;
   }
   const inlineRich = (text) => render(text, termRef).replace(/^<p>|<\/p>$/g, '');
 
@@ -589,7 +598,7 @@ export async function renderLesson(main, unitId, { slide = null, present = false
 
   function renderDots() {
     // Bez małych kropek do klikania (§14): pasek postępu i licznik słowami.
-    $('dots').innerHTML = `<span class="lcount">Slajd ${cur + 1} z ${slides.length}</span><span class="lprog" aria-hidden="true"><span style="width:${((cur + 1) / slides.length) * 100}%"></span></span>`;
+    $('dots').innerHTML = `<span class="lcount">${cur + 1} / ${slides.length}</span>`;
     if ($('pbar')) $('pbar').style.width = `${((cur + 1) / slides.length) * 100}%`;
   }
 
@@ -597,24 +606,25 @@ export async function renderLesson(main, unitId, { slide = null, present = false
   let initialized = false;
   function show(i, { focus = false } = {}) {
     cur = Math.max(0, Math.min(slides.length - 1, i));
-    curHints = null; lastWrong = null; detailTerm = null;
+    curHints = null; lastWrong = null; detailTerm = null; detailNodes = [];
+    if (cur > 0 && $('gate')) $('gate').hidden = true; // przypomnienie o poprzedniej lekcji tylko na początku
     $('sbToggle').classList.remove('pulse');
     stopReading();
     const s = slides[cur];
     const meta = $('slideMeta');
     const body = $('slideBody');
     if (s.kind === 'pretest') {
-      meta.innerHTML = `<span class="slide-kind">${esc(s.label)}</span><span class="pill pill-draft">bez oceny</span>`;
+      meta.innerHTML = `<span class="slide-kind">Rozgrzewka · zgadnij śmiało, to się nie liczy</span>`;
       if (!s.q) body.innerHTML = `<p class="muted">Brak pytania <code>${esc(s.qid)}</code>.</p>`;
       else {
-        body.innerHTML = `<p class="pretest-intro">Zanim zaczniesz: spróbuj odpowiedzieć, nawet jeśli nie wiesz. <strong>Pomyłka teraz pomaga zapamiętać.</strong></p><div id="pq"></div>`;
+        body.innerHTML = `<div id="pq"></div>`;
         renderQuestion(body.querySelector('#pq'), s.q, { pretest: true, termRef, onTerm: openTerm });
       }
     } else if (s.kind === 'content') {
       const hasTrap = s.typ === 'pulapka' || /^:::pulapka/m.test(s.md);
       const hasSimple = /^:::uproszczenie/m.test(s.md);
       const hasOfficial = s.sources.some((x) => /^(FW-PL|SYL|SP1)\b/.test(x));
-      meta.innerHTML = `${C.SLIDE_KIND[s.typ] ? `<span class="slide-kind">${esc(C.SLIDE_KIND[s.typ])}</span>` : ''}
+      meta.innerHTML = SKUPIENIE ? (hasTrap ? trapPill() : '') : `${C.SLIDE_KIND[s.typ] ? `<span class="slide-kind">${esc(C.SLIDE_KIND[s.typ])}</span>` : ''}
         ${hasOfficial ? statusPill('oficjalne') : ''}${hasSimple ? statusPill('uproszczenie') : ''}${hasTrap ? trapPill() : ''}
 `;
       body.innerHTML = render(s.md, termRef);
@@ -660,6 +670,7 @@ export async function renderLesson(main, unitId, { slide = null, present = false
           }
         });
       });
+      collectDetails(body);
     } else if (s.kind === 'cel') {
       meta.innerHTML = `<span class="slide-kind">${esc(s.label)}</span>`;
       const key = `cel:${unitId}`;
@@ -723,7 +734,6 @@ export async function renderLesson(main, unitId, { slide = null, present = false
     const last = cur === slides.length - 1;
     $('nextBtn').textContent = last ? (nextUnit ? 'Następna jednostka →' : 'Koniec ✓') : 'Dalej →';
     $('pbar').style.width = `${((cur + 1) / slides.length) * 100}%`;
-    $('presentBtn').href = `#/prezentacja/${unitId}/${cur + 1}`;
 
     // Flagi slajdu
     const key = `slide:${unitId}:${cur}`;
@@ -738,11 +748,10 @@ export async function renderLesson(main, unitId, { slide = null, present = false
       if (e.currentTarget.getAttribute('aria-pressed') === 'true') simpler(s); else $('simpler').hidden = true;
     });
 
-    $('sbToggle').textContent = s.kind === 'content' ? '💡 Wyjaśnij mi' : '💡 Podpowiedź';
-    if ($('presentHint')) $('presentHint').textContent = $('sbToggle').textContent;
+    const nDet = s.kind === 'content' ? detailNodes.length + (s.lecturer ? 1 : 0) : 0;
+    $('sbToggle').innerHTML = s.kind === 'content' ? `Szczegóły${nDet ? ` <span class="det-n">${nDet}</span>` : ''}` : '💡 Podpowiedź';
     if (sidebarOpen) { if (!['wykladowca', 'terminy', 'zrodla'].includes(tab)) tab = defaultTab(); renderSidebar(); }
     if ($('readBtn')) $('readBtn').textContent = s.lecturer ? '🔊 Posłuchaj wykładu' : '🔊 Przeczytaj mi';
-    if ($('presentExit')) $('presentExit').href = `#/lekcja/${unitId}/${cur + 1}`;
     store.markSlide(unitId, cur, slides.length);
     initialized = true;
     const base = present ? 'prezentacja' : 'lekcja';
@@ -776,8 +785,7 @@ export async function renderLesson(main, unitId, { slide = null, present = false
       case 'p': case 'P': if (!present) location.hash = `#/prezentacja/${unitId}/${cur + 1}`; break;
       case 'f': case 'F': toggleFullscreen(); break;
       case 'Escape':
-        if (document.body.classList.contains('lnav-open')) setLnav(false);
-        else if (present && sidebarOpen) setSidebar(false);
+        if (present && sidebarOpen) setSidebar(false);
         else if (present) { if (document.fullscreenElement) document.exitFullscreen?.(); location.hash = `#/lekcja/${unitId}/${cur + 1}`; }
         else if (sidebarOpen) setSidebar(false);
         break;
@@ -803,7 +811,7 @@ export async function renderLesson(main, unitId, { slide = null, present = false
 
   // Miękka bramka (§11.3): lekcja opiera się na nieopanowanej – proponujemy 3 minuty powtórki, można pominąć.
   (() => {
-    const need = unit.wymaga.map((id) => allUnits.find((u) => u.id === id)).filter((u) => u && store.unit(u.id).mastered !== true);
+    const need = unit.wymaga.map((id) => allUnits.find((u) => u.id === id)).filter((u) => u && !store.unit(u.id).done);
     let skipped = false;
     try { skipped = sessionStorage.getItem('c5.gate.' + unitId) === '1'; } catch (e) {}
     if (!need.length || skipped || present) return;
@@ -817,11 +825,11 @@ export async function renderLesson(main, unitId, { slide = null, present = false
 
   renderSidebar();
   show(cur);
-  if (present) toast('Pełny ekran. Wyjście: przycisk „Zamknij pełny ekran” u góry.');
+  if (present) toast('Pełny ekran: F – przełącz, Esc – wyjście.');
 
   return () => {
     document.removeEventListener('keydown', onKey);
-    document.body.classList.remove('presenting', 'lnav-open');
+    document.body.classList.remove('presenting', 'lnav-open', 'learning');
     stopReading();
   };
 }

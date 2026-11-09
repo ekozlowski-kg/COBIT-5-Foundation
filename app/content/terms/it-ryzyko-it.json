@@ -37,7 +37,7 @@
     "zycie": "Telefon z ważnymi zdjęciami bez kopii: jeszcze go nie zgubiłeś, ale szansa jest realna, a strata bolesna. To ryzyko. Kopia w Internecie je zmniejsza.",
     "biuro": "W biurze tylko jedna osoba zna hasło administratora. Gdy zachoruje, nikt nie zmieni ustawień – to ryzyko, które szef zmniejsza, zamykając zapisane hasło w sejfie.",
     "organizacja": "Sklep internetowy ma jeden serwer. Awaria w grudniu jest mało prawdopodobna, ale kosztowałaby majątek. Sklep wykupuje zapasowy serwer.",
-    "psp": "Sikora wypisuje na tablicy, co może zawieść w „Syrenie”: jedno łącze, brak zasilania awaryjnego, nieaktualne numery. Każda pozycja to ryzyko IT.",
+    "admin": "Urząd gminy trzyma dane podatników na jednym serwerze w piwnicy, którą kiedyś zalała powódź. Wójt z informatykiem oceniają: kolejne zalanie jest mało prawdopodobne, ale utrata danych sparaliżowałaby pobór podatków. Decydują przenieść serwer na piętro i trzymać kopię danych w zewnętrznym centrum danych – zmniejszają ryzyko.",
     "it": "Ryzykiem IT zarządzają EDM03 Zapewnienie optymalizacji ryzyka i APO12 Zarządzanie ryzykiem (FW-PL s. 33)."
   },
   "nieMylicZ": [
@@ -84,8 +84,8 @@
   ],
   "glebokosc": {
     "prosty": "Zostawiasz klucze pod wycieraczką. Złodziej może je znaleźć – to mało prawdopodobne, ale skutek byłby duży. Ryzyko to te dwie rzeczy razem. Gdy ktoś naprawdę wejdzie, to już nie ryzyko, tylko włamanie.",
-    "zaawansowany": "Sikora pisze w rejestrze: „jedno łącze internetowe – awaria raz na kilka lat – wtedy OSP nie dostaje alarmu”. Komendantka nie chce płacić za trzy łącza. Wybiera drugie łącze od innego [[it-dostawca|dostawcy]] – zmniejsza ryzyko do poziomu, który akceptuje. Gdy w lipcu pierwsze łącze pada, mamy [[it-incydent|incydent]], ale alarmy idą drugim.",
-    "skrajny": "Czy włamywacze to ryzyko? To zagrożenie, czyli źródło. Ryzyko to szansa, że wykradną numery ochotników, razem ze skutkami. Czy wczorajsza awaria to ryzyko? Nie – to incydent. Czy zero ryzyka to cel? Nie: zero ryzyka zwykle oznacza zero działania; celem jest ryzyko na akceptowalnym poziomie. **Rozstrzygnięcie:** ryzyko IT to prawdopodobieństwo i skutek zdarzenia, które może się wydarzyć w informatyce; zagrożenie to jego źródło, a zdarzenie, które już nastąpiło, to incydent."
+    "zaawansowany": "CIO sklepu internetowego pisze w rejestrze: „jedno łącze internetowe – awaria raz na kilka lat – wtedy sklep nie przyjmuje zamówień”. Zarząd nie chce płacić za trzy łącza. Wybiera drugie łącze od innego [[it-dostawca|dostawcy]] – zmniejsza ryzyko do poziomu, który akceptuje. Gdy w lipcu pierwsze łącze pada, mamy [[it-incydent|incydent]], ale zamówienia idą drugim.",
+    "skrajny": "Czy włamywacze to ryzyko? To zagrożenie, czyli źródło. Ryzyko to szansa, że wykradną dane klientów, razem ze skutkami. Czy wczorajsza awaria to ryzyko? Nie – to incydent. Czy zero ryzyka to cel? Nie: zero ryzyka zwykle oznacza zero działania; celem jest ryzyko na akceptowalnym poziomie. **Rozstrzygnięcie:** ryzyko IT to prawdopodobieństwo i skutek zdarzenia, które może się wydarzyć w informatyce; zagrożenie to jego źródło, a zdarzenie, które już nastąpiło, to incydent."
   },
   "zagmatwania": [
     {
@@ -100,7 +100,7 @@
   "mentor": {
     "czestyBlad": "Nazywanie ryzykiem zagrożenia albo zdarzenia, które już się stało.",
     "jakTlumaczyc": "Oś czasu: przed zdarzeniem – ryzyko; po – incydent; obok w chmurce – zagrożenie.",
-    "pytanieKontrolne": "„Burza może przerwać łącze i alarmy nie dojdą.” Co tu jest zagrożeniem, a co ryzykiem?",
-    "odpowiedzKontrolna": "Zagrożenie: burza. Ryzyko: szansa przerwania łącza razem ze skutkiem (alarmy nie dochodzą)."
+    "pytanieKontrolne": "„Burza może przerwać łącze i sklep internetowy przestanie przyjmować zamówienia.” Co tu jest zagrożeniem, a co ryzykiem?",
+    "odpowiedzKontrolna": "Zagrożenie: burza. Ryzyko: szansa przerwania łącza razem ze skutkiem (zamówienia nie wpływają)."
   }
 }

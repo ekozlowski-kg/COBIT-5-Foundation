@@ -1,0 +1,46 @@
+[
+  {
+    "id": "q-men-pc-03b-1",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-02-06"
+    ],
+    "lekcja": "pc-03b-oceny-w-p",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Marek Sikora, naczelnik Wydziału Łączności i Informatyki",
+    "tresc": "„Mamy W na wszystkich atrybutach od PA 1.1 do PA 3.2. To chyba poziom 3?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Nie. Na nowym poziomie wystarczy W, ale wszystko poniżej musi mieć P. Przy W na PA 1.1 proces ma poziom 1. Najpierw trzeba podnieść PA 1.1 do P.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto: reguła w dwóch częściach i konkretny pierwszy krok."
+      },
+      {
+        "tekst": "Tak, same W to solidny poziom 3.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi: niższe poziomy wymagają P.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Nie, poziom zawsze równa się najniższej ocenie, a W to zero.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie: W wystarcza na poziom 1, więc wynik to 1, a nie 0.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      },
+      {
+        "tekst": "Capability level ustala się agregacją ratingów L/F dla PA danego poziomu i F dla PA niższych.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawne, ale w żargonie, z którego Sikora nic nie wyniesie.",
+        "pulapkaMentora": "zargon"
+      }
+    ]
+  }
+]

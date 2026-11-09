@@ -31,13 +31,12 @@
     "biuro": "Codziennie rano sekretarka odbiera pocztę, wpisuje każde pismo do dziennika, kierownik dekretuje, kto ma się nim zająć, i pisma trafiają na biurka. Następnego dnia wszystko idzie tą samą drogą – to proces obsługi korespondencji.",
     "firma": "W sklepie internetowym z herbatą przychodzi zamówienie, pracownik pakuje paczkę, drukuje etykietę i fakturę, a kurier odbiera paczki o 15:00. Tak samo dzieje się z każdym zamówieniem, codziennie. To proces – powtarzalny, z wejściem (zamówienie) i wynikiem (paczka u klienta).",
     "admin": "Do urzędu gminy wpływa wniosek o wycinkę drzewa. Kancelaria go rejestruje, kierownik przydziela go referentowi, ten jedzie na oględziny i wydaje decyzję. Każdy kolejny wniosek idzie tą samą ścieżką – to jest proces.",
-    "psp": "Dyżurny SK przyjmuje zgłoszenie z CPR 112, kwalifikuje zdarzenie, dysponuje zastępy, śledzi przebieg akcji i zamyka kartę zdarzenia w SWD-PSP. Następne zgłoszenie przechodzi te same kroki. To proces obsługi zgłoszeń – działa codziennie, całą dobę.",
     "it": "DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) to proces: każde zgłoszenie (wejście) jest rejestrowane, klasyfikowane, rozwiązywane i zamykane (praktyki), a wynikiem jest przywrócona usługa i wpis w rejestrze. Działa codziennie i tak samo dla każdego zgłoszenia."
   },
   "glebokosc": {
     "prosty": "Pranie w domu to proces: co tydzień brudne ubrania trafiają do kosza, potem do pralki, na suszarkę i do szafy. Kroki się powtarzają i wiadomo, co wchodzi i co wychodzi. Jednorazowa przeprowadzka do nowego mieszkania to już nie proces, tylko projekt.",
-    "zaawansowany": "Po wdrożeniu Syreny mł. kpt. Dudek codziennie przyjmuje zgłoszenia o błędach, naprawia je i zamyka – to proces, bo się powtarza i ma wejścia oraz wyniki. Sam zakup i wdrożenie Syreny był [[projekt|projektem]] z datą końca. Procesy to jedna z siedmiu kategorii [[aktywator|aktywatorów]], a ich wzorcową listę COBIT 5 podaje w [[prm|PRM]]. Każdy proces składa się z praktyk, działań, wejść i wyjść ([[praktyki-dzialania]]).",
-    "skrajny": "Każdy projekt jest jednorazowy, więc intuicja mówi, że projekty nie mają nic wspólnego z procesami. Tymczasem w PRM jest proces BAI01 „Zarządzanie programami i projektami”. Pojedynczy projekt, np. wdrożenie Syreny, ma początek i koniec, ale **sposób**, w jaki komenda prowadzi wszystkie swoje projekty, powtarza się – i to jest proces. Podobnie jednorazowa narada kryzysowa nie jest procesem, ale zarządzanie incydentami, w ramach którego się odbywa, już tak. **Rozstrzygnięcie:** proces to powtarzalny zbiór praktyk zamieniających wejścia w wyniki; pojedyncze przedsięwzięcie to projekt, ale zarządzanie projektami jest procesem (BAI01)."
+    "zaawansowany": "Po wdrożeniu nowego systemu CRM administratorka codziennie przyjmuje zgłoszenia o błędach, naprawia je i zamyka – to proces, bo się powtarza i ma wejścia oraz wyniki. Sam zakup i wdrożenie systemu był [[projekt|projektem]] z datą końca. Procesy to jedna z siedmiu kategorii [[aktywator|aktywatorów]], a ich wzorcową listę COBIT 5 podaje w [[prm|PRM]]. Każdy proces składa się z praktyk, działań, wejść i wyjść ([[praktyki-dzialania]]).",
+    "skrajny": "Każdy projekt jest jednorazowy, więc intuicja mówi, że projekty nie mają nic wspólnego z procesami. Tymczasem w PRM jest proces BAI01 „Zarządzanie programami i projektami”. Pojedynczy projekt, np. wdrożenie systemu CRM, ma początek i koniec, ale **sposób**, w jaki firma prowadzi wszystkie swoje projekty, powtarza się – i to jest proces. Podobnie jednorazowe spotkanie kryzysowe nie jest procesem, ale zarządzanie incydentami, w ramach którego się odbywa, już tak. **Rozstrzygnięcie:** proces to powtarzalny zbiór praktyk zamieniających wejścia w wyniki; pojedyncze przedsięwzięcie to projekt, ale zarządzanie projektami jest procesem (BAI01)."
   },
   "zagmatwania": [
     {
@@ -54,10 +53,10 @@
     }
   ],
   "mentor": {
-    "czestyBlad": "Utożsamianie COBIT 5 z samymi procesami i nazywanie procesem każdej jednorazowej akcji.",
+    "czestyBlad": "Utożsamianie COBIT 5 z samymi procesami i nazywanie procesem każdego jednorazowego działania.",
     "jakTlumaczyc": "Test dwóch pytań: czy to się powtarza? czy ma wejście i wynik? Dwa razy „tak” – proces. Potem kontrprzykład na tym samym systemie: wdrożenie (projekt) kontra codzienna obsługa (proces).",
-    "pytanieKontrolne": "Czy wdrożenie Syreny jest procesem? A zarządzanie wszystkimi projektami komendy?",
-    "odpowiedzKontrolna": "Wdrożenie Syreny to projekt – jednorazowy, z końcem. Zarządzanie projektami jako stały sposób pracy to proces; w PRM to BAI01 Zarządzanie programami i projektami."
+    "pytanieKontrolne": "Czy wdrożenie systemu CRM jest procesem? A zarządzanie wszystkimi projektami firmy?",
+    "odpowiedzKontrolna": "Wdrożenie systemu CRM to projekt – jednorazowy, z końcem. Zarządzanie projektami jako stały sposób pracy to proces; w PRM to BAI01 Zarządzanie programami i projektami."
   },
   "nieMylicZ": [
     {

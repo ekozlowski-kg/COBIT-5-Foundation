@@ -1,0 +1,130 @@
+[
+  {
+    "id": "q-im-05-03",
+    "typ": "studium",
+    "sylabus": [
+      "IM-02-04"
+    ],
+    "lekcja": "im-05-uzasadnienie",
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Czego **brakuje** w tym uzasadnieniu biznesowym?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 39
+      }
+    ],
+    "status": "oficjalne",
+    "scenariusz": "Uzasadnienie modernizacji SK zawiera korzyści (krótszy czas dysponowania), wymagane zmiany, koszt inwestycji, koszty utrzymania, ryzyka oraz role i odpowiedzialności.",
+    "opcje": [
+      {
+        "tekst": "Sposobu monitorowania inwestycji",
+        "poprawna": true,
+        "wyjasnienie": "To wymagany element (s. 39): sposób monitorowania inwestycji i tworzenia wartości w pełnym cyklu życia ekonomicznego."
+      },
+      {
+        "tekst": "Opisu oczekiwanych korzyści biznesowych",
+        "poprawna": false,
+        "wyjasnienie": "Korzyści są.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Kosztów utrzymania",
+        "poprawna": false,
+        "wyjasnienie": "Są.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Ról i odpowiedzialności",
+        "poprawna": false,
+        "wyjasnienie": "Są.",
+        "pulapka": "prawda-nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-pc-03-03",
+    "typ": "egzamin",
+    "sylabus": [
+      "PC-02-06"
+    ],
+    "lekcja": "pc-03-skala",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Jakie oceny atrybutów **danego poziomu** wystarczą, aby proces osiągnął ten poziom (przy pełnym osiągnięciu niższych)?",
+    "zrodlo": [
+      {
+        "doc": "SYL"
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Tylko P – Pełny",
+        "poprawna": false,
+        "wyjasnienie": "Nie trzeba P. Wystarczy W.",
+        "pulapka": "zbyt-waskie"
+      },
+      {
+        "tekst": "W – Większościowy lub P – Pełny",
+        "poprawna": true,
+        "wyjasnienie": "Reguła z sylabusa PC-02-06."
+      },
+      {
+        "tekst": "C – Częściowy lub W – Większościowy",
+        "poprawna": false,
+        "wyjasnienie": "C to za mało.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Dowolna ocena poza N",
+        "poprawna": false,
+        "wyjasnienie": "C to za mało.",
+        "pulapka": "falsz"
+      }
+    ]
+  },
+  {
+    "id": "q-pc-05-01",
+    "typ": "egzamin",
+    "sylabus": [
+      "PC-02-02"
+    ],
+    "lekcja": "pc-05-przewodniki",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Które stwierdzenie o **Przewodniku Samooceny** jest prawdziwe?",
+    "zrodlo": [
+      {
+        "doc": "SYL"
+      }
+    ],
+    "status": "uproszczenie",
+    "opcje": [
+      {
+        "tekst": "Może pomóc przygotować się do formalnej oceny zdolności procesu",
+        "poprawna": true,
+        "wyjasnienie": "Samoocena jest lżejsza i może przygotować do oceny formalnej."
+      },
+      {
+        "tekst": "Jest identyczny z Przewodnikiem Asesora, tylko używany wewnętrznie",
+        "poprawna": false,
+        "wyjasnienie": "To inna, mniej rygorystyczna metoda.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Wymaga zbierania dowodów jak ocena formalna",
+        "poprawna": false,
+        "wyjasnienie": "Samoocena nie wymaga zbierania dowodów.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Zastępuje Model Oceny Procesu",
+        "poprawna": false,
+        "wyjasnienie": "PAM pozostaje podstawą.",
+        "pulapka": "falsz"
+      }
+    ]
+  }
+]

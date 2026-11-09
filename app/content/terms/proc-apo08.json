@@ -35,8 +35,8 @@
   "przyklady": {
     "zycie": "Fryzjer przy każdej wizycie pyta, jak sprawdziła się ostatnia fryzura i czego szukasz teraz. Zna Twoje potrzeby, zanim je powiesz. To relacja, a nie cennik. W IT to APO08.",
     "biuro": "Informatyk obsługujący biuro raz w miesiącu pyta pracowników, co ich denerwuje w komputerach. Dzięki temu wie, że najpilniejsza jest wolna drukarka, a nie nowy program.",
-    "organizacja": "Opiekun biznesowy z działu IT co miesiąc spotyka się z kierownikami sprzedaży i magazynu. Słucha, co ich boli, i tłumaczy, co IT może zrobić. Raz w roku robi ankietę zadowolenia. To APO08. Informatyk urzędu raz w miesiącu odwiedza każdy wydział i pyta o problemy z systemami. Zbiera potrzeby na kolejny rok. Wydziały mu ufają i zgłaszają kłopoty wcześniej. To APO08.",
-    "psp": "**Kawa w SK.** Naczelnik Marek Sikora co tydzień przychodzi na stanowisko kierowania. Pyta dyżurnych Graba i Nowik, co ich w Syrenie męczy. Rozmawia też z dowódcą zmiany Dębem z JRG 1. Dzięki temu zna potrzeby, zanim wybuchnie awaria. To jest [[proc-apo08|APO08]].",
+    "organizacja": "Opiekun biznesowy z działu IT co miesiąc spotyka się z kierownikami sprzedaży i magazynu. Słucha, co ich boli, i tłumaczy, co IT może zrobić. Raz w roku robi ankietę zadowolenia. To APO08.",
+    "admin": "Informatyk urzędu marszałkowskiego raz w miesiącu odwiedza każdy departament i pyta o problemy z systemami. Zbiera potrzeby na kolejny rok. Departamenty mu ufają i zgłaszają kłopoty wcześniej. To APO08.",
     "it": "Opiekun biznesowy (*business relationship manager*) prowadzi kwartalne spotkania z dyrektorami działów i badania zadowolenia. To APO08. Spisane poziomy usług to [[proc-apo09]]."
   },
   "nieMylicZ": [
@@ -92,8 +92,8 @@
   "mapa": "proc-apo08",
   "glebokosc": {
     "prosty": "Lekarz rodzinny zna Cię od lat. Pyta o samopoczucie, nawet gdy przychodzisz po receptę. Dzięki temu wcześnie widzi kłopoty. Taka stała, życzliwa rozmowa to relacja.",
-    "zaawansowany": "Sikora z rozmów w SK wie, że dyżurni chcą potwierdzenia odbioru alarmu. To APO08: rozumienie potrzeb. Potrzeba trafia do strategii ([[proc-apo02]]) i portfela ([[proc-apo05]]). Gdy usługa powstanie, jej poziom zapisze się w umowie o usługi ([[proc-apo09]]). Relacja jest pierwsza, zapis formalny przychodzi później.",
-    "skrajny": "Grab skarży się Sikorze: „Syrena za wolno się uruchamia”. Sikora obiecuje, że start potrwa najwyżej minutę, i to zapisuje w karcie usługi. Gdzie kończy się APO08, a zaczyna APO09? Rozmowa i zrozumienie potrzeby to APO08. Uzgodniony i mierzony poziom usługi to APO09. Gdyby Sikora rozmawiał o tym z Kwant-Sygnałem, byłby to APO10. **Rozstrzygnięcie:** zrozumienie potrzeb i zaufanie → APO08; zapisany i mierzony poziom usługi → APO09; dostawca → APO10. (interpretacja kursu)"
+    "zaawansowany": "Dyrektor IT z rozmów z działem obsługi klienta wie, że konsultanci chcą potwierdzenia odbioru powiadomień przez klientów. To APO08: rozumienie potrzeb. Potrzeba trafia do strategii ([[proc-apo02]]) i portfela ([[proc-apo05]]). Gdy usługa powstanie, jej poziom zapisze się w umowie o usługi ([[proc-apo09]]). Relacja jest pierwsza, zapis formalny przychodzi później.",
+    "skrajny": "Kierowniczka obsługi klienta skarży się dyrektorowi IT: „System CRM za wolno się uruchamia”. Dyrektor obiecuje, że start potrwa najwyżej minutę, i to zapisuje w karcie usługi. Gdzie kończy się APO08, a zaczyna APO09? Rozmowa i zrozumienie potrzeby to APO08. Uzgodniony i mierzony poziom usługi to APO09. Gdyby dyrektor rozmawiał o tym z dostawcą systemu, byłby to APO10. **Rozstrzygnięcie:** zrozumienie potrzeb i zaufanie → APO08; zapisany i mierzony poziom usługi → APO09; dostawca → APO10. (interpretacja kursu)"
   },
   "zagmatwania": [
     {

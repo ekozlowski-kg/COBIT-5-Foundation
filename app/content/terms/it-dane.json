@@ -21,18 +21,18 @@
     "it-hardware"
   ],
   "poLudzku": "Zapisane liczby, słowa, znaki, zdjęcia czy dźwięki – jeszcze bez wyjaśnienia, co znaczą.",
-  "poziom1": "Surowe fakty zapisane w dowolnej postaci, np. „602 115 300”, „Lipowa 7”, „14.03”. Same w sobie niewiele mówią. Stają się informacją, gdy ktoś wie, czego dotyczą.",
+  "poziom1": "Surowe fakty zapisane w dowolnej postaci, np. „602 115 300”, „ul. Polna 7”, „14.03”. Same w sobie niewiele mówią. Stają się informacją, gdy ktoś wie, czego dotyczą.",
   "poziom2": "Komputer przechowuje wszystko jako dane: tekst, liczby, obrazy, dźwięk. Dane mogą być poprawne albo błędne, aktualne albo stare. Ten sam ciąg cyfr może być numerem telefonu, kwotą albo kodem – decyduje kontekst, czyli wyjaśnienie, czego dotyczy.",
   "poziom3": "W COBIT 5 dane są surowcem informacji (aktywator Informacja, dzień 3). FW-PL mówi o „kontekście danych”: *„dokładność, dostępność, aktualność i jakość danych”* (s. 91).",
   "wyobrazSobie": "Rozsypane puzzle. Każdy kawałek coś zawiera, ale obraz widać dopiero po ułożeniu.",
   "poCo": "Żeby zapisać fakty raz i móc z nich korzystać wiele razy: liczyć, porównywać, wysyłać.",
-  "jakDziala": "Ktoś wpisuje albo urządzenie zapisuje fakt, np. numer telefonu. Komputer przechowuje go jako dane. Gdy dane zestawimy z wyjaśnieniem („to numer naczelnika OSP”), powstaje informacja.",
-  "dlaczegoWazne": "Błędne albo stare dane dają błędne informacje i złe decyzje. W historii kursu przez stary numer telefonu alarm nie dotarł na czas.",
+  "jakDziala": "Ktoś wpisuje albo urządzenie zapisuje fakt, np. numer telefonu. Komputer przechowuje go jako dane. Gdy dane zestawimy z wyjaśnieniem („to numer klienta, który zgłosił reklamację”), powstaje informacja.",
+  "dlaczegoWazne": "Błędne albo stare dane dają błędne informacje i złe decyzje. Przez stary numer telefonu klient nie dostaje na czas ważnego powiadomienia z banku.",
   "przyklady": {
     "zycie": "Na paragonie widzisz „4,99” i „12.05”. To dane. Informacją stają się, gdy wiesz: „4,99 zł zapłaciłam 12 maja za chleb”.",
     "biuro": "W tabeli kadr jest kolumna z liczbą „26”. Bez nagłówka nie wiadomo, czy to wiek, dni urlopu, czy numer pokoju.",
     "organizacja": "Sklep internetowy zbiera dane o zamówieniach: datę, kwotę, adres. Dopiero zestawione pokazują, co sprzedaje się najlepiej.",
-    "psp": "W „Syrenie” przy nazwisku naczelnika OSP Zawilce, Stanisława Pietrzaka, zapisano numer sprzed dwóch lat. Dane były nieaktualne, więc alarm nie dotarł.",
+    "admin": "Rachmistrze GUS (Głównego Urzędu Statystycznego) zbierają w spisie powszechnym odpowiedzi: wiek, wykształcenie, liczbę pokoi w mieszkaniu. Każda odpowiedź to pojedyncza dana. Dopiero zestawione i opisane pokazują na przykład, ile rodzin w województwie mieszka w ciasnych mieszkaniach.",
     "it": "Dane są surowcem aktywatora Informacja; COBIT 5 mówi o kontekście danych: dokładności, dostępności, aktualności i jakości (FW-PL s. 91)."
   },
   "nieMylicZ": [
@@ -65,7 +65,7 @@
   ],
   "glebokosc": {
     "prosty": "Na kartce jest napisane „7:15”. Co to jest? Godzina pobudki? Odjazd autobusu? Same cyfry to dane. Kiedy obok dopiszesz „autobus do pracy”, kartka zaczyna Ci coś mówić.",
-    "zaawansowany": "Ola Dudek przegląda listę numerów w „Syrenie”. Każdy numer to dane. Gdy obok jest nazwisko i funkcja („naczelnik OSP Zawilce”), dyżurny wie, kogo wzywa – to już [[it-informacja|informacja]]. Jeśli numer jest stary, informacja wprowadza w błąd, choć wygląda poprawnie.",
+    "zaawansowany": "Administrator przegląda listę numerów w systemie CRM. Każdy numer to dane. Gdy obok jest nazwisko i rola („osoba kontaktowa klienta firmowego”), konsultant wie, do kogo dzwoni – to już [[it-informacja|informacja]]. Jeśli numer jest stary, informacja wprowadza w błąd, choć wygląda poprawnie.",
     "skrajny": "Czy zdjęcie to dane? Tak – komputer zapisuje je jako ciąg liczb. Czy błędny numer telefonu to „nie-dane”? Nie – to dane, tylko złej jakości. Czy rozmowa przy zmianie dyżuru to dane w komputerze? Nie, ale to wciąż informacja przekazana słowami. **Rozstrzygnięcie:** dane to zapisane fakty, niezależnie od tego, czy są prawdziwe; informacją stają się, gdy mają znaczenie dla kogoś w konkretnej sytuacji."
   },
   "zagmatwania": [
@@ -80,8 +80,8 @@
   ],
   "mentor": {
     "czestyBlad": "Traktowanie danych w systemie jako pewnej prawdy.",
-    "jakTlumaczyc": "Kartka „7:15” bez opisu i z opisem. Potem stary numer telefonu Pietrzaka.",
+    "jakTlumaczyc": "Kartka „7:15” bez opisu i z opisem. Potem stary numer telefonu klienta w bazie.",
     "pytanieKontrolne": "Czy „602 115 300” to dane, czy informacja?",
-    "odpowiedzKontrolna": "Same cyfry to dane. Gdy wiesz, że to aktualny numer naczelnika OSP Zawilce, masz informację."
+    "odpowiedzKontrolna": "Same cyfry to dane. Gdy wiesz, że to aktualny numer osoby kontaktowej klienta, masz informację."
   }
 }

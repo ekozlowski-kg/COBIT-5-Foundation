@@ -3,15 +3,20 @@
   "en": "Consulted (C)",
   "wymowa": "konsaltyd",
   "wymowaAkcent": "kon-SAL-tyd",
-  "plEgzamin": "Konsultowany (C)",
+  "plEgzamin": "Konsultant (C)",
   "plPodrecznik": "Strona konsultowana",
-  "plInne": [],
+  "plInne": [
+    {
+      "nazwa": "Konsultowany",
+      "zrodlo": "forma kursu"
+    }
+  ],
   "statusTlumaczenia": "D",
   "zrodloTlumaczenia": {
-    "wydawcaEgzaminu": "Konsultowany (C)",
+    "wydawcaEgzaminu": "Konsultant (C)",
     "podrecznik": "Strona konsultowana",
-    "kurs": "Konsultowany (C) – Consulted",
-    "uwaga": "Litera C = Consulted – zachować literę EN. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 90."
+    "kurs": "Konsultant (C) – Consulted",
+    "uwaga": "Litera C = Consulted. Forma egzaminu PL potwierdzona: Sample Paper 1 PL (uzasadnienia: rola konsultanta). Forma podręcznika: FW-PL s. 90."
   },
   "pulapka": false,
   "kategoria": "egzaminacyjne",
@@ -27,24 +32,24 @@
   "poCo": "Żeby przed decyzją albo w trakcie pracy zebrać wiedzę od osób, które ją mają.",
   "jakDziala": "W tabeli RACI przy działaniu wpisujesz C rolom, które zapewniają dane wejściowe. Komunikacja jest dwukierunkowa. R i A muszą uwzględnić wejścia od C i w razie potrzeby eskalować sprawę.",
   "dlaczegoWazne": "Egzamin odróżnia C od I kierunkiem komunikacji. Kto pamięta „dwie strzałki przy C”, nie pomyli tych liter.",
-  "poziom2": "| | C – Konsultowany |\n|---|---|\n| Pytanie RACI | Kto **zapewnia dane wejściowe**? |\n| Komunikacja | **dwukierunkowa** (pytanie i odpowiedź) |\n| Kiedy | przed decyzją lub w trakcie zadania |\n| Obowiązek R i A | uwzględnić wejścia od C, a w razie potrzeby **eskalować**, np. do właściciela procesu lub komitetu sterującego (s. 90) |\n\nRóżnica z I: C mówi do Ciebie, a I tylko słucha.",
+  "poziom2": "| | C – Konsultant |\n|---|---|\n| Pytanie RACI | Kto **zapewnia dane wejściowe**? |\n| Komunikacja | **dwukierunkowa** (pytanie i odpowiedź) |\n| Kiedy | przed decyzją lub w trakcie zadania |\n| Obowiązek R i A | uwzględnić wejścia od C, a w razie potrzeby **eskalować**, np. do właściciela procesu lub komitetu sterującego (s. 90) |\n\nRóżnica z I: C mówi do Ciebie, a I tylko słucha.",
   "poziom3": "Słownik (s. 90): strona konsultowana *„Odnosi się do osób, u których zasięga się opinii na temat danego działania (komunikacja dwukierunkowa).”* W tabeli RACI: *„Kto zapewnia dane wejściowe?”*",
   "przyklady": {
     "zycie": "Przed kupnem auta dzwonisz do szwagra mechanika i pytasz, na co uważać. On zadaje ci pytania, ty odpowiadasz, on doradza. Szwagier jest C: rozmawiacie w obie strony.",
     "biuro": "W biurze przed zakupem nowego programu do faktur kierownik pyta księgowe, czego potrzebują. Księgowe odpowiadają i proponują zmiany. Przy tym zadaniu są C.",
-    "organizacja": "Agencja reklamowa przed drukiem katalogu pyta prawnika o zgody na zdjęcia. Prawnik odsyła uwagi, a grafik je wprowadza. Prawnik jest C przy tym zadaniu. Przed zmianą organizacji ruchu przy szkole urząd gminy pyta policję i dyrekcję szkoły o opinię. Ich uwagi trafiają do projektu. Policja i szkoła są C.",
-    "psp": "Ola Dudek przed aktualizacją numerów w Syrenie dzwoni do druha Stanisława Pietrzaka, naczelnika OSP Zawilce. Pyta, kto doszedł do jednostki, a kto zmienił telefon. Pietrzak podaje zmiany i dopytuje o aplikację. To rozmowa w obie strony, więc Pietrzak jest C.",
+    "organizacja": "Agencja reklamowa przed drukiem katalogu pyta prawnika o zgody na zdjęcia. Prawnik odsyła uwagi, a grafik je wprowadza. Prawnik jest C przy tym zadaniu.",
+    "admin": "Przed zmianą organizacji ruchu przy szkole urząd gminy pyta o opinię dyrekcję szkoły i zarząd dróg powiatowych. Dyrektorka proponuje przejście dla pieszych bliżej bramy, a zarząd dróg zgłasza uwagi do oznakowania. Ich uwagi trafiają do projektu. Dyrekcja i zarząd dróg są C: rozmowa idzie w obie strony.",
     "it": "Przy praktykach APO12 (Zarządzanie ryzykiem) rolę C pełnią np. właściciele procesów biznesowych. Dostarczają wiedzę o tym, co ryzyko IT oznacza dla ich obszaru (przykład kursu, nie cytat z tabeli)."
   },
   "glebokosc": {
     "prosty": "Przed remontem kuchni pytasz żonę, jaki kolor płytek woli. Ona odpowiada i coś proponuje. Bierzesz to pod uwagę. Żona jest C: pytasz i słuchasz.",
-    "zaawansowany": "Pietrzak jest C przy aktualizacji numerów. Dudek ([[raci-r|R]]) musi uwzględnić jego dane wejściowe. Pietrzak zgłasza, że połowa ochotników zmieniła numery, a Dudek nie ma uprawnień, żeby zmienić tylu odbiorców naraz. Sprawa idzie więc do Sikory ([[raci-a|A]]). Słownik COBIT 5 przewiduje taką [[procedury-eskalacji|eskalację]], gdy wejścia od C wymagają działania.",
-    "skrajny": "Kierownik SK mówi: „Konsultowałem nową procedurę z dyżurnymi. Wysłałem im ją mailem”. Ale dyżurni nie mieli jak odpowiedzieć, a ich uwag nikt nie zbierał. To nie była konsultacja, tylko informowanie. Litera nie zależy od tego, jak ktoś nazwie rozmowę, tylko od kierunku komunikacji. Jeśli wiadomość idzie tylko w jedną stronę, rola działa jak I, nawet gdy w tabeli wpisano C. **Rozstrzygnięcie:** C to komunikacja dwukierunkowa, a wejścia bierze się pod uwagę. I to komunikacja jednokierunkowa, czyli sama wiadomość."
+    "zaawansowany": "Kierownik oddziału banku jest C przy aktualizacji danych kontaktowych klientów. Administratorka ([[raci-r|R]]) musi uwzględnić jego dane wejściowe. Kierownik zgłasza, że połowa klientów oddziału zmieniła numery, a administratorka nie ma uprawnień, żeby zmienić tylu odbiorców naraz. Sprawa idzie więc do kierownika działu IT ([[raci-a|A]]). Słownik COBIT 5 przewiduje taką [[procedury-eskalacji|eskalację]], gdy wejścia od C wymagają działania.",
+    "skrajny": "Kierownik helpdesku mówi: „Konsultowałem nową procedurę z konsultantami. Wysłałem im ją mailem”. Ale konsultanci nie mieli jak odpowiedzieć, a ich uwag nikt nie zbierał. To nie była konsultacja, tylko informowanie. Litera nie zależy od tego, jak ktoś nazwie rozmowę, tylko od kierunku komunikacji. Jeśli wiadomość idzie tylko w jedną stronę, rola działa jak I, nawet gdy w tabeli wpisano C. **Rozstrzygnięcie:** C to komunikacja dwukierunkowa, a wejścia bierze się pod uwagę. I to komunikacja jednokierunkowa, czyli sama wiadomość."
   },
   "zagmatwania": [
     {
-      "mit": "Każdy, komu wyślesz dokument, jest konsultowany.",
-      "prawda": "Konsultowany odpowiada i dostarcza wejścia. Sam odbiorca dokumentu to I."
+      "mit": "Każdy, komu wyślesz dokument, pełni rolę konsultanta (C).",
+      "prawda": "Konsultant (C) odpowiada i dostarcza wejścia. Sam odbiorca dokumentu to I."
     },
     {
       "mit": "C podejmuje decyzję razem z A.",
@@ -53,13 +58,17 @@
     {
       "mit": "Opinie C można pominąć, bo to tylko doradca.",
       "prawda": "R i A powinni uwzględnić wejścia od C i w razie potrzeby eskalować sprawę (s. 90)."
+    },
+    {
+      "mit": "Na egzaminie C to „strona konsultowana”.",
+      "prawda": "„Strona konsultowana” to nazwa z podręcznika (FW-PL s. 90). Uzasadnienia egzaminu PL mówią o „roli konsultanta”."
     }
   ],
   "mentor": {
     "czestyBlad": "Uczeń myli C z I, bo w obu przypadkach „ktoś dostaje informację”.",
     "jakTlumaczyc": "Narysuj strzałki: przy C dwie (tam i z powrotem), przy I jedna. Zapytaj: czy ta osoba może coś zmienić swoją odpowiedzią?",
     "pytanieKontrolne": "Dział prawny dostaje projekt umowy i odsyła uwagi, które trzeba wprowadzić. Jaką literę RACI ma dział prawny?",
-    "odpowiedzKontrolna": "**C (konsultowany)**: dostarcza wejścia, a komunikacja jest dwukierunkowa."
+    "odpowiedzKontrolna": "**C (rola konsultanta)**: dostarcza wejścia, a komunikacja jest dwukierunkowa."
   },
   "nieMylicZ": [
     {
@@ -71,7 +80,7 @@
       "roznica": "C doradza, ale nie wykonuje zadania. Wykonuje R."
     }
   ],
-  "przykladWypowiedzi": "Consulted, czyli konsultowany (C), provides input in two-way communication.",
+  "przykladWypowiedzi": "Consulted, czyli konsultant (C), provides input in two-way communication.",
   "egzamin": "„Kto **zapewnia dane wejściowe** / kogo pytamy o opinię” → **C**. Słowo-klucz: **dwukierunkowa** komunikacja.",
   "powiazane": [
     "raci",

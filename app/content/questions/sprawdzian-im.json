@@ -223,26 +223,26 @@
       "tresc": "Które z poniższych jest **zdarzeniem wyzwalającym** (trigger event), a NIE punktem zapalnym (pain point)?",
       "opcje": [
         {
-          "tekst": "Nowe wymagania regulacyjne dotyczące czasu powiadamiania jednostek.",
+          "tekst": "Nowe wymagania regulacyjne dotyczące czasu zgłaszania incydentów bezpieczeństwa.",
           "poprawna": true,
           "wyjasnienie": "Tak. Nowe wymagania regulacyjne to zdarzenie w otoczeniu, które skłania do zajęcia się Ładem i Zarządzaniem IT."
         },
         {
-          "tekst": "Wyniki audytu regularnie wskazują na problemy z jakością usług informatycznych komendy.",
+          "tekst": "Wyniki audytu regularnie wskazują na problemy z jakością usług IT w banku.",
           "poprawna": false,
           "wyjasnienie": "Powtarzające się złe wyniki audytu to typowy **punkt zapalny**, czyli codzienny ból organizacji.",
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "Zmiany wprowadzane w Syrenie przychodzą z opóźnieniem i przekraczają zaplanowany budżet.",
+          "tekst": "Zmiany w systemie CRM przychodzą z opóźnieniem i przekraczają zaplanowany budżet.",
           "poprawna": false,
           "wyjasnienie": "Opóźnione i droższe zmiany IT to **punkt zapalny**.",
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "Kierownictwo niechętnie rozmawia z wydziałem informatyki i unika tematów związanych z IT.",
+          "tekst": "Zarząd niechętnie rozmawia z działem IT i unika tematów związanych z IT.",
           "poprawna": false,
-          "wyjasnienie": "Niechęć kierownictwa do współpracy z IT to **punkt zapalny**.",
+          "wyjasnienie": "Niechęć zarządu do współpracy z IT to **punkt zapalny**.",
           "pulapka": "inna-kategoria"
         }
       ],
@@ -423,7 +423,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "W której fazie cyklu życia wdrożenia jest teraz zespół?",
-      "scenariusz": "Miesiąc temu zespół Ewy Lis zmierzył, jak dziś działa alarmowanie, i ocenił zdolność kluczowych procesów. Teraz zespół ustala, jaki poziom chce osiągnąć, porównuje stan obecny z wytycznymi COBIT, wypisuje luki i wybiera usprawnienia, które dadzą szybkie korzyści.",
+      "scenariusz": "Miesiąc temu zespół wdrożeniowy ubezpieczyciela zmierzył, jak dziś działa obsługa szkód, i ocenił zdolność kluczowych procesów. Teraz zespół ustala, jaki poziom chce osiągnąć, porównuje stan obecny z wytycznymi COBIT, wypisuje luki i wybiera usprawnienia, które dadzą szybkie korzyści.",
       "opcje": [
         {
           "tekst": "W fazie 2 („Gdzie jesteśmy teraz?”), bo zespół wciąż korzysta z wyników oceny zdolności.",
@@ -473,7 +473,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Którego elementu wymaganego przez COBIT 5 brakuje w projekcie?",
-      "scenariusz": "Główna księgowa Halina Mak przygotowała projekt uzasadnienia biznesowego naprawy Syreny. Zawiera on: docelowe korzyści i ich beneficjentów, wymagane zmiany w pracy komendy, potrzebne inwestycje, bieżące koszty IT i koszty działalności, oczekiwane korzyści po zmianach, ryzyka z ograniczeniami i zależnościami oraz role i zakresy odpowiedzialności.",
+      "scenariusz": "Dyrektor finansowa szpitala przygotowała projekt uzasadnienia biznesowego nowego systemu rejestracji pacjentów. Zawiera on: docelowe korzyści i ich beneficjentów, wymagane zmiany w pracy szpitala, potrzebne inwestycje, bieżące koszty IT i koszty działalności, oczekiwane korzyści po zmianach, ryzyka z ograniczeniami i zależnościami oraz role i zakresy odpowiedzialności.",
       "opcje": [
         {
           "tekst": "Sposobu monitorowania inwestycji i tworzenia wartości w całym cyklu życia, z miernikami.",
@@ -481,7 +481,7 @@
           "wyjasnienie": "Tak. To ostatni z minimalnych elementów uzasadnienia biznesowego: jak monitorować inwestycję i tworzenie wartości oraz jakimi miernikami."
         },
         {
-          "tekst": "Szczegółowego projektu technicznego serwerów i schematu sieci, przygotowanego przez Kwant-Sygnał.",
+          "tekst": "Szczegółowego projektu technicznego serwerów i schematu sieci, przygotowanego przez dostawcę.",
           "poprawna": false,
           "wyjasnienie": "Projekt techniczny nie należy do minimalnej zawartości uzasadnienia biznesowego.",
           "pulapka": "falsz"
@@ -523,7 +523,7 @@
       ],
       "bloom": "zastosowanie",
       "trudnosc": 3,
-      "tresc": "Wyjaśnij komendantce, jak trzy pierścienie i siedem faz poprowadzą naprawę Syreny – od awarii z Lipowej do utrzymania efektów (5–7 zdań). Użyj terminów EN: **Programme management**, **Change enablement**, **Continual improvement**, **Trigger events**, **Business case**.",
+      "tresc": "Wyjaśnij zarządowi banku, jak trzy pierścienie i siedem faz poprowadzą wdrożenie nowego procesu obsługi incydentów – od powtarzających się awarii aplikacji mobilnej do utrzymania efektów (5–7 zdań). Użyj terminów EN: **Programme management**, **Change enablement**, **Continual improvement**, **Trigger events**, **Business case**.",
       "wymagane": [
         "Programme management",
         "Change enablement",
@@ -531,7 +531,7 @@
         "Trigger events",
         "Business case"
       ],
-      "wzorzec": "Awaria z Lipowej to punkt zapalny (*pain point*), a zapowiedziana kontrola to zdarzenie wyzwalające (**Trigger events**): od nich zaczyna się faza 1 „Jakie są wyznaczniki?”. Każda faza ma działania w trzech pierścieniach naraz.\n- **Programme management** (Zarządzanie programem, pierścień zewnętrzny): inicjujemy program, definiujemy problemy i okazje, mapę drogową, a w fazie 4 planujemy projekty oparte na **Business case** (uzasadnieniu biznesowym), które stale aktualizujemy.\n- **Change enablement** (Aktywowanie zmiany, pierścień środkowy): budujemy chęć zmiany, zespół wdrożeniowy, komunikujemy rezultat, wskazujemy odtwórców ról i osadzamy nowe nawyki dyżurnych.\n- **Continual improvement** (Główny cykl życia ciągłego doskonalenia, pierścień wewnętrzny): oceniamy stan obecny (faza 2), definiujemy stan docelowy (faza 3), budujemy i wdrażamy usprawnienia (fazy 4–5), eksploatujemy i mierzymy (faza 6), a w fazie 7 monitorujemy i szacujemy.\nFaza 7 „Jak utrzymać motywację do działania?” otwiera kolejną iterację; inicjatywę dzielimy na okrążenia krótsze niż sześć miesięcy.",
+      "wzorzec": "Powtarzające się awarie aplikacji to punkt zapalny (*pain point*), a nowe wymagania regulatora to zdarzenie wyzwalające (**Trigger events**): od nich zaczyna się faza 1 „Jakie są wyznaczniki?”. Każda faza ma działania w trzech pierścieniach naraz.\n- **Programme management** (Zarządzanie programem, pierścień zewnętrzny): inicjujemy program, definiujemy problemy i okazje, mapę drogową, a w fazie 4 planujemy projekty oparte na **Business case** (uzasadnieniu biznesowym), które stale aktualizujemy.\n- **Change enablement** (Aktywowanie zmiany, pierścień środkowy): budujemy chęć zmiany, zespół wdrożeniowy, komunikujemy rezultat, wskazujemy odtwórców ról i osadzamy nowe nawyki pracowników helpdesku.\n- **Continual improvement** (Główny cykl życia ciągłego doskonalenia, pierścień wewnętrzny): oceniamy stan obecny (faza 2), definiujemy stan docelowy (faza 3), budujemy i wdrażamy usprawnienia (fazy 4–5), eksploatujemy i mierzymy (faza 6), a w fazie 7 monitorujemy i szacujemy.\nFaza 7 „Jak utrzymać motywację do działania?” otwiera kolejną iterację; inicjatywę dzielimy na okrążenia krótsze niż sześć miesięcy.",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -572,27 +572,27 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Które podejście jest najbardziej zgodne z wytycznymi wdrożenia COBIT 5?",
-      "scenariusz": "Inspektorka Lucyna Ostrowska zapowiada kontrolę systemów alarmowania. Po awarii z Lipowej dyżurni są zmęczeni „kolejnymi wdrożeniami” i nie wierzą w zmiany. Kpt. Sikora proponuje jeden dwuletni projekt: wdrożyć w komendzie naraz wszystkie 37 procesów COBIT 5, ściśle według podręcznika.",
+      "scenariusz": "Regulator zapowiada kontrolę bezpieczeństwa systemów sklepu internetowego. Po serii awarii płatności pracownicy są zmęczeni „kolejnymi wdrożeniami” i nie wierzą w zmiany. Dyrektor IT proponuje jeden dwuletni projekt: wdrożyć naraz wszystkie 37 procesów COBIT 5, ściśle według podręcznika.",
       "opcje": [
         {
-          "tekst": "Przyjąć plan Sikory: jeden duży projekt, wszystkie procesy naraz i bez iteracji, bo kontrola wymaga kompletu.",
+          "tekst": "Przyjąć plan dyrektora IT: jeden duży projekt, wszystkie procesy naraz i bez iteracji, bo kontrola wymaga kompletu.",
           "poprawna": false,
           "wyjasnienie": "COBIT 5 ostrzega przed inicjatywami dłuższymi niż sześć miesięcy i każe ustalać priorytety.",
           "pulapka": "falsz"
         },
         {
-          "tekst": "Oprzeć uzasadnienie na kontroli i awarii, zaangażować ludzi, zacząć od szybkich korzyści i działać w iteracjach.",
+          "tekst": "Oprzeć uzasadnienie na kontroli i awariach, zaangażować ludzi, zacząć od szybkich korzyści i działać w iteracjach.",
           "poprawna": true,
           "wyjasnienie": "Tak. Zdarzenie wyzwalające i punkt zapalny budują poczucie pilności; Aktywowanie zmiany odpowiada na opór; szybkie korzyści i krótkie okrążenia utrzymują dynamikę."
         },
         {
-          "tekst": "Skupić się wyłącznie na technice i wymienić serwery Syreny, bo opór ludzi minie sam po wdrożeniu.",
+          "tekst": "Skupić się wyłącznie na technice i wymienić serwery płatności, bo opór ludzi minie sam po wdrożeniu.",
           "poprawna": false,
           "wyjasnienie": "COBIT 5 podkreśla, że nie wolno zakładać akceptacji zmiany; trzeba zarządzać aspektami ludzkimi i kulturowymi.",
           "pulapka": "zbyt-waskie"
         },
         {
-          "tekst": "Wdrożyć COBIT 5 dokładnie według podręcznika, bez żadnego dostosowania, żeby inspektorka nie miała zastrzeżeń.",
+          "tekst": "Wdrożyć COBIT 5 dokładnie według podręcznika, bez żadnego dostosowania, żeby regulator nie miał zastrzeżeń.",
           "poprawna": false,
           "wyjasnienie": "Dostosowanie COBIT do kontekstu organizacji to kluczowy czynnik sukcesu, a nie błąd.",
           "pulapka": "odwrocone"

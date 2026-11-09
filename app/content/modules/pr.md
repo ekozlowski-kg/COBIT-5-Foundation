@@ -15,7 +15,7 @@ wiedza:
   - "Rysunek 9: interesariusze delegują, Organ Ładu i nadzoru wyznacza kierunek, Zarządzanie instruuje i dopasowuje role operacyjne, a informacja wraca przez raportowanie i monitorowanie."
 umiejetnosci:
   - "Przypisać działanie z przypadku do właściwej zasady COBIT 5 i podać jej nazwę EN i egzaminacyjną PL."
-  - "Przejść Kaskadę Celów od potrzeby mieszkańców do celu aktywatora na przykładzie komendy, używając terminów EN."
+  - "Przejść Kaskadę Celów od potrzeby klientów do celu aktywatora na przykładzie banku albo szpitala, używając terminów EN."
   - "Przypisać decyzję do Ładu (EDM) albo Zarządzania (APO, BAI, DSS, MEA) i uzasadnić to Rysunkiem 9 i 15."
   - "Odróżnić wskaźnik wiodący od opóźnionego i wskazać, na które z czterech pytań zarządzania wydajnością aktywatora odpowiada."
 terminy:
@@ -93,10 +93,10 @@ terminy:
   - proc-mea02
   - proc-mea03
 zadania:
-  - "Studium: komendantka każe uwzględnić księgowość, kadry, OSP i dostawcę – którą zasadę stosuje?"
-  - "Studium: dwie oferty naprawy Syreny ponad budżet – podział decyzji między Ład a Zarządzanie."
-  - "Studium: nieaktualizowana od sześciu lat procedura alarmowania – które pytanie zarządzania wydajnością aktywatora zawodzi?"
-  - "Wypowiedź: Kaskada Celów od oczekiwań mieszkańców do celu procesu, z pięcioma poziomami EN."
+  - "Studium: zarząd banku każe uwzględnić księgowość, kadry, oddziały i dostawcę chmury – którą zasadę stosuje?"
+  - "Studium: dwie oferty naprawy systemu sprzedaży ponad budżet – podział decyzji między Ład a Zarządzanie."
+  - "Studium: nieaktualizowana od sześciu lat procedura obsługi awarii – które pytanie zarządzania wydajnością aktywatora zawodzi?"
+  - "Wypowiedź: Kaskada Celów od oczekiwań klientów do celu procesu, z pięcioma poziomami EN."
   - "Mentor: popraw kolegę, który twierdzi, że EDM to domena działu informatyki."
 kryteria:
   wiedza: 70
@@ -116,7 +116,7 @@ bibliografia:
 
 # Synteza modułu
 
-Po module 1 znasz szkielet COBIT 5: pięć zasad (Principles) i to, jak się łączą. Zasada 1 mówi, po co jest Ład: by tworzyć wartość (Value Creation) dla interesariuszy, a Kaskada Celów (Goals Cascade) przekłada ich potrzeby na cele organizacji, cele związane z informatyką i cele aktywatora. Zasada 2 obejmuje całą organizację, a nie tylko dział IT; zasada 3 czyni z COBIT 5 nadrzędną strukturę, która integruje inne standardy; zasada 4 każe patrzeć na siedem wzajemnie powiązanych aktywatorów (Enablers) przez cztery wymiary i mierzyć je wskaźnikami wiodącymi i opóźnionymi; zasada 5 rozdziela Ład (EDM) od Zarządzania (APO, BAI, DSS, MEA) w modelu 37 procesów. Umiesz te zasady nazwać po polsku egzaminacyjnie i po angielsku oraz zastosować je do decyzji w komendzie – to fundament modułów 2–4.
+Po module 1 znasz szkielet COBIT 5: pięć zasad (Principles) i to, jak się łączą. Zasada 1 mówi, po co jest Ład: by tworzyć wartość (Value Creation) dla interesariuszy, a Kaskada Celów (Goals Cascade) przekłada ich potrzeby na cele organizacji, cele związane z informatyką i cele aktywatora. Zasada 2 obejmuje całą organizację, a nie tylko dział IT; zasada 3 czyni z COBIT 5 nadrzędną strukturę, która integruje inne standardy; zasada 4 każe patrzeć na siedem wzajemnie powiązanych aktywatorów (Enablers) przez cztery wymiary i mierzyć je wskaźnikami wiodącymi i opóźnionymi; zasada 5 rozdziela Ład (EDM) od Zarządzania (APO, BAI, DSS, MEA) w modelu 37 procesów. Umiesz te zasady nazwać po polsku egzaminacyjnie i po angielsku oraz zastosować je do decyzji w banku, szpitalu czy urzędzie – to fundament modułów 2–4.
 
 # Powtórka terminów
 
@@ -134,7 +134,7 @@ Po module 1 znasz szkielet COBIT 5: pięć zasad (Principles) i to, jak się ł�
 - Balanced Scorecard (BSC) – Zrównoważona karta wyników
 - Governance approach / Governance scope – Podejście do Ładu / Zakres Ładu
 - Roles, activities and relationships – Role, działania i relacje
-- Governance body – Organ Ładu i nadzoru
+- Governing body – Organ Ładu i nadzoru
 - Enabler – Aktywator
 - Enabler dimensions – Wymiary aktywatora
 - Enabler life cycle – Cykl życia aktywatora

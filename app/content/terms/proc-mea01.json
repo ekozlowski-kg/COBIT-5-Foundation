@@ -39,8 +39,8 @@
   "przyklady": {
     "zycie": "Postanowiłeś schudnąć 5 kg do wakacji. Co niedzielę stajesz na wadze i zapisujesz wynik w tabelce. Gdy przez dwa tygodnie waga stoi, zmieniasz plan treningów. Mierzenie, porównywanie z celem i korekta to MEA01.",
     "biuro": "Kierowniczka co tydzień liczy, ile pism wyszło w terminie. Porównuje to z celem i ustala, kto pomoże przy zaległościach.",
-    "organizacja": "Kierowniczka sklepu co tydzień porównuje czas wysyłki i zwroty z celami i zleca poprawki. Sekretarz gminy co kwartał raportuje wójtowi sprawy załatwione w terminie i proponuje działania.",
-    "psp": "**Liczby na odprawę.** Kpt. Marek Sikora co miesiąc zbiera z Syreny wskaźniki: czas od kliknięcia do SMS-a w OSP, odsetek potwierdzonych alarmów, liczbę przerw w działaniu. Porównuje je z celem „alarm w 40 sekund” i pisze raport dla komendantki. Tam, gdzie wyniki odstają, od razu zleca poprawki. Zbieranie mierników, ocena i raportowanie w Zarządzaniu to [[proc-mea01]].",
+    "organizacja": "Kierowniczka sklepu co tydzień porównuje czas wysyłki i zwroty z celami i zleca poprawki.",
+    "admin": "Sekretarz gminy ustala cel: 95% spraw załatwionych w ustawowym terminie. Co kwartał zbiera dane z systemu obiegu dokumentów, porównuje je z celem i raportuje wójtowi, w których referatach są zaległości. Proponuje działania, np. zastępstwo w referacie podatków, i po kolejnym kwartale sprawdza, czy pomogły.",
     "it": "Praktyki MEA01: podejście do monitorowania, cele wydajności i zgodności, zbieranie danych, analiza i raport oraz działania korygujące. Raporty trafiają do Ładu, który monitoruje w EDM."
   },
   "nieMylicZ": [
@@ -98,8 +98,8 @@
   "mapa": "proc-mea01",
   "glebokosc": {
     "prosty": "Masz cel: odłożyć 6 tysięcy do grudnia. Co miesiąc sprawdzasz konto i wpisujesz kwotę do zeszytu. Gdy w maju odłożyłeś mniej, tniesz wydatki w czerwcu. Mierzysz, porównujesz z celem i poprawiasz.",
-    "zaawansowany": "Sikora co miesiąc zbiera wskaźniki Syreny i porównuje je z celem „alarm w 40 sekund”. Raport trafia do komendantki. To [[proc-mea01]]. Część wskaźników ostrzega wcześniej ([[wskaznik-wiodacy]], np. odsetek sprawdzonych numerów OSP), a część pokazuje efekt po fakcie ([[wskaznik-opozniony]], np. czas dotarcia alarmu). Czy działają mechanizmy kontrolne, ocenia osobno [[proc-mea02]].",
-    "skrajny": "Raport Sikory o Syrenie leży na dwóch biurkach. Sikora go przygotował: zebrał dane, porównał z celami i zlecił poprawki. Komendantka Wrzos czyta go na kwartalnym przeglądzie i decyduje, że cel „40 sekund” nadal jest słuszny, ale trzeba dać więcej pieniędzy na łącze. Obie osoby „monitorują”. Sikora robi to w Zarządzaniu (MEA01), a Wrzos w Ładzie (Monitoruj w EDM). FW-PL mówi, że monitorowanie w Ładzie to sprawdzanie przez organ nadzorujący, w jakim stopniu kierunek został wcielony w życie. **Rozstrzygnięcie:** kto zbiera dane, liczy i raportuje → MEA01. Kto ocenia raport względem kierunku i go koryguje → EDM. Ten sam raport może być wyjściem MEA01 i wejściem dla EDM."
+    "zaawansowany": "Dyrektor IT sklepu internetowego co miesiąc zbiera wskaźniki i porównuje je z celem „strona ładuje się w 2 sekundy”. Raport trafia do zarządu. To [[proc-mea01]]. Część wskaźników ostrzega wcześniej ([[wskaznik-wiodacy]], np. odsetek przetestowanych aktualizacji), a część pokazuje efekt po fakcie ([[wskaznik-opozniony]], np. liczba porzuconych koszyków). Czy działają mechanizmy kontrolne, ocenia osobno [[proc-mea02]].",
+    "skrajny": "Raport dyrektora IT o sklepie internetowym leży na dwóch biurkach. Dyrektor IT go przygotował: zebrał dane, porównał z celami i zlecił poprawki. Zarząd czyta go na kwartalnym przeglądzie i decyduje, że cel „2 sekundy” nadal jest słuszny, ale trzeba dać więcej pieniędzy na serwery. Obie strony „monitorują”. Dyrektor IT robi to w Zarządzaniu (MEA01), a zarząd w Ładzie (Monitoruj w EDM). FW-PL mówi, że monitorowanie w Ładzie to sprawdzanie przez organ nadzorujący, w jakim stopniu kierunek został wcielony w życie. **Rozstrzygnięcie:** kto zbiera dane, liczy i raportuje → MEA01. Kto ocenia raport względem kierunku i go koryguje → EDM. Ten sam raport może być wyjściem MEA01 i wejściem dla EDM."
   },
   "zagmatwania": [
     {
@@ -122,7 +122,7 @@
   "mentor": {
     "czestyBlad": "Uczeń myli MEA01 z monitorowaniem w EDM, bo w obu jest słowo „monitoruj”.",
     "jakTlumaczyc": "Trener zbiera wyniki zawodników i robi raport (MEA01). Prezes klubu czyta raport i decyduje, czy zmienić cel sezonu (EDM).",
-    "pytanieKontrolne": "Komendantka na przeglądzie kwartalnym stwierdza, że Syrena nie realizuje celu i zmienia priorytety budżetu. MEA01 czy EDM?",
+    "pytanieKontrolne": "Zarząd na przeglądzie kwartalnym stwierdza, że sklep internetowy nie realizuje celu, i zmienia priorytety budżetu. MEA01 czy EDM?",
     "odpowiedzKontrolna": "**EDM** – organ Ładu ocenia wyniki względem kierunku i go koryguje. MEA01 dostarczył raport, na podstawie którego podjęła decyzję."
   }
 }

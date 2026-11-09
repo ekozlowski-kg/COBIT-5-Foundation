@@ -269,7 +269,7 @@
       "termId": "zasada-5"
     },
     {
-      "en": "Governance body",
+      "en": "Governing body",
       "podrecznik": "Organ nadzorujący",
       "egzamin": "Organ Ładu i nadzoru",
       "inne": [],
@@ -306,7 +306,7 @@
           "ilustracja": "9"
         }
       ],
-      "termId": "role-dzialania-relacje"
+      "termId": "rola-operacyjne"
     },
     {
       "en": "Lead Indicators",
@@ -480,7 +480,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "pojecia-iso15504"
+      "termId": "przeznaczenie-procesu"
     },
     {
       "en": "Level of authority / decision rights",
@@ -494,7 +494,7 @@
           "doc": "ALTKOM"
         }
       ],
-      "termId": "dobre-praktyki-struktur"
+      "termId": "poziom-uprawnien"
     },
     {
       "en": "Delegation of authority",
@@ -508,7 +508,7 @@
           "doc": "ALTKOM"
         }
       ],
-      "termId": "dobre-praktyki-struktur"
+      "termId": "delegowanie-uprawnien"
     },
     {
       "en": "Responsible (RACI)",
@@ -523,22 +523,23 @@
           "strona": 13
         }
       ],
-      "termId": "raci"
+      "termId": "raci-r"
     },
     {
       "en": "Accountable (RACI)",
       "podrecznik": "Strona rozliczana",
-      "egzamin": "Rozliczany (odpowiedzialny za sukces zadania)",
+      "egzamin": "Odpowiedzialny decyzyjnie",
       "inne": [],
       "modul": "EN",
-      "status": "niepotwierdzone",
+      "status": "oficjalne",
       "zrodlo": [
         {
           "doc": "SP1",
           "strona": 13
         }
       ],
-      "termId": "raci"
+      "termId": "raci-a",
+      "uwaga": "Egzamin: R – „odpowiedzialny wykonawczo” (wykonuje), A – „odpowiedzialny decyzyjnie” (odpowiada za sukces). Różni je drugie słowo. Podręcznik: „strona rozliczana”."
     },
     {
       "en": "Change enablement",
@@ -555,7 +556,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "cykl-wdrozenia"
+      "termId": "pierscien-zmiana"
     },
     {
       "en": "Road map",
@@ -572,7 +573,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "fazy-wdrozenia"
+      "termId": "faza-3"
     },
     {
       "en": "Trigger events",
@@ -741,7 +742,7 @@
           "ilustracja": "19"
         }
       ],
-      "termId": "atrybuty-procesu"
+      "termId": "pa-2-1"
     },
     {
       "en": "Established process (level 3)",
@@ -755,7 +756,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "poziomy-zdolnosci"
+      "termId": "poziom-3"
     },
     {
       "en": "Predictable process (level 4)",
@@ -769,7 +770,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "poziomy-zdolnosci"
+      "termId": "poziom-4"
     },
     {
       "en": "Owners and stakeholders",
@@ -789,7 +790,7 @@
           "strona": 9
         }
       ],
-      "termId": "interesariusz"
+      "termId": "rola-interesariusze"
     },
     {
       "en": "Process performance (PA 1.1)",
@@ -805,7 +806,7 @@
           "ilustracja": "19"
         }
       ],
-      "termId": "atrybuty-procesu"
+      "termId": "pa-1-1"
     },
     {
       "en": "Work product management (PA 2.2)",
@@ -821,7 +822,7 @@
           "ilustracja": "19"
         }
       ],
-      "termId": "atrybuty-procesu"
+      "termId": "pa-2-2"
     },
     {
       "en": "Optimizing process (level 5)",
@@ -840,7 +841,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "poziomy-zdolnosci"
+      "termId": "poziom-5"
     },
     {
       "en": "Process capability",
@@ -978,7 +979,7 @@
           "strona": 24
         }
       ],
-      "termId": "edm"
+      "termId": "proc-edm05"
     },
     {
       "en": "APO05 Manage Portfolio",
@@ -998,7 +999,7 @@
           "strona": 7
         }
       ],
-      "termId": "apo"
+      "termId": "proc-apo05"
     },
     {
       "en": "BAI09 Manage Assets",
@@ -1014,7 +1015,7 @@
           "ilustracja": "16"
         }
       ],
-      "termId": "bai",
+      "termId": "proc-bai09",
       "uwaga": "„Zasoby” = Assets (aktywa: sprzęt, licencje). Nie mylić z EDM04 (Resource Optimisation) ani APO07 (Human Resources)."
     },
     {
@@ -1035,7 +1036,7 @@
           "strona": 10
         }
       ],
-      "termId": "apo"
+      "termId": "proc-apo03"
     },
     {
       "en": "Operating principles",
@@ -1055,7 +1056,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "dobre-praktyki-struktur"
+      "termId": "zasady-operacyjne"
     },
     {
       "en": "Span of control",
@@ -1073,7 +1074,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "dobre-praktyki-struktur"
+      "termId": "zakres-kontroli"
     },
     {
       "en": "Service capabilities",
@@ -1091,7 +1092,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "uslugi-infrastruktura-aplikacje"
+      "termId": "zdolnosc-uslugowa"
     },
     {
       "en": "Principles, Policies and Frameworks",
@@ -1148,7 +1149,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "kultura-etyka-zachowanie"
+      "termId": "praktyki-zachowan"
     },
     {
       "en": "COBIT 5: Enabling Processes",
@@ -1185,7 +1186,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "atrybuty-procesu"
+      "termId": "pa-4-1"
     },
     {
       "en": "Process innovation (PA 5.1)",
@@ -1204,7 +1205,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "atrybuty-procesu"
+      "termId": "pa-5-1"
     },
     {
       "en": "Process dimension / Capability dimension",
@@ -1238,7 +1239,7 @@
           "strona": 43
         }
       ],
-      "termId": "pojecia-iso15504"
+      "termId": "praktyka-bazowa"
     },
     {
       "en": "Work products",
@@ -1253,7 +1254,7 @@
           "strona": 43
         }
       ],
-      "termId": "pojecia-iso15504"
+      "termId": "produkt-pracy"
     },
     {
       "en": "Continual improvement life cycle",
@@ -1271,7 +1272,7 @@
           "doc": "SP1"
         }
       ],
-      "termId": "cykl-wdrozenia"
+      "termId": "pierscien-doskonalenie"
     },
     {
       "en": "Plan programme (phase 4)",

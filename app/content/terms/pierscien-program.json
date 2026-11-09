@@ -32,8 +32,8 @@
   "przyklady": {
     "zycie": "Organizujesz wesele siostry. Trzymasz listę zadań, budżet i terminy, a po weselu sprawdzasz, czy zmieściliście się w kosztach. To Ty zarządzasz programem, choć nie pieczesz tortu ani nie grasz w zespole.",
     "biuro": "Kierowniczka biura organizuje przeprowadzkę do nowej siedziby. Ma listę zadań, budżet i termin, a po wszystkim rozlicza koszty.",
-    "organizacja": "Sieć piekarni wdraża wspólny system zamówień: wspólnik pilnuje harmonogramu, budżetu i mniejszych strat pieczywa. Podobnie sekretarz powiatu prowadzi e-rezerwację wizyt i po pół roku rozlicza, czy kolejki się skróciły.",
-    "psp": "**Program „Syrena 2.0”**\nKomendantka Anna Wrzos wyznacza sponsora i prosi naczelnika Marka Sikorę o harmonogram. Księgowa Halina Mak liczy budżet w uzasadnieniu biznesowym. Co miesiąc Wrzos pyta: czy terminy są dotrzymane i czy alarm dochodzi szybciej? To pierścień zewnętrzny – [[pierscien-program|Zarządzanie programem]].",
+    "organizacja": "Sieć piekarni wdraża wspólny system zamówień: wspólnik pilnuje harmonogramu, budżetu i mniejszych strat pieczywa.",
+    "admin": "Sekretarz powiatu prowadzi program e-rezerwacji wizyt w starostwie. Pilnuje budżetu, harmonogramu i kilku projektów naraz: nowej strony, szkoleń i biletomatów. Po pół roku rozlicza, czy kolejki się skróciły, czyli czy program dał obiecane korzyści.",
     "it": "Proces BAI01 (Zarządzanie programami i projektami) daje praktyki dla tego pierścienia, od inicjowania do zamknięcia programu. Korzyści monitoruje Ład w EDM02."
   },
   "nieMylicZ": [
@@ -86,8 +86,8 @@
   "mapa": "pierscien-program",
   "glebokosc": {
     "prosty": "Remontujesz mieszkanie z kilkoma ekipami. Ktoś musi trzymać plan, pieniądze i terminy, a na końcu sprawdzić, czy było warto. Tym kimś jest kierownik całego przedsięwzięcia. On nie kładzie płytek, tylko pilnuje całości.",
-    "zaawansowany": "W komendzie Sikora prowadzi „Syrenę 2.0” jako program: kilka projektów (serwer, aplikacja, szkolenia), jeden budżet i sponsor. W fazie 4 każdy projekt dostaje [[uzasadnienie-biznesowe]], które Halina Mak aktualizuje do końca. W fazie 6 program pyta o korzyści: czy alarm dochodzi szybciej? Opór dyżurnych to już zadanie pierścienia [[pierscien-zmiana|Aktywowanie zmiany]].",
-    "skrajny": "W fazie 7 trzy pierścienie robią coś, co brzmi podobnie. Program robi „Przegląd skuteczności”, zmiana – „Utrzymanie”, a doskonalenie – „Monitorowanie i szacowanie”. Sikora pyta: czy budżet i korzyści się zgadzają? To pytanie programu. Grab pyta: czy dyżurni nie wracają do starych nawyków? To pierścień zmiany. Dudek pyta: czy proces działa i co poprawić w następnej iteracji? To doskonalenie. **Rozstrzygnięcie:** pytanie o terminy, koszty i korzyści przedsięwzięcia należy do Zarządzania programem; pytania o ludzi i o sam proces należą do pozostałych pierścieni (interpretacja kursu)."
+    "zaawansowany": "W banku dyrektor IT prowadzi wdrożenie nowego systemu powiadamiania klientów jako program: kilka projektów (serwer, aplikacja mobilna, szkolenia), jeden budżet i sponsor z zarządu. W fazie 4 każdy projekt dostaje [[uzasadnienie-biznesowe]], które dyrektor finansowy aktualizuje do końca. W fazie 6 program pyta o korzyści: czy klienci dostają powiadomienia szybciej? Opór pracowników obsługi klienta to już zadanie pierścienia [[pierscien-zmiana|Aktywowanie zmiany]].",
+    "skrajny": "W fazie 7 trzy pierścienie robią coś, co brzmi podobnie. Program robi „Przegląd skuteczności”, zmiana – „Utrzymanie”, a doskonalenie – „Monitorowanie i szacowanie”. Dyrektor IT pyta: czy budżet i korzyści się zgadzają? To pytanie programu. Kierowniczka obsługi klienta pyta: czy konsultanci nie wracają do starych nawyków? To pierścień zmiany. Właściciel procesu pyta: czy proces działa i co poprawić w następnej iteracji? To doskonalenie. **Rozstrzygnięcie:** pytanie o terminy, koszty i korzyści przedsięwzięcia należy do Zarządzania programem; pytania o ludzi i o sam proces należą do pozostałych pierścieni (interpretacja kursu)."
   },
   "zagmatwania": [
     {

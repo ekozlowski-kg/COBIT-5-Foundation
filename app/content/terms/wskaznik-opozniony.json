@@ -35,13 +35,12 @@
     "biuro": "Na koniec miesiąca kierownik biura liczy, ile faktur wysłano klientom w terminie: 92% przy celu 98%. Wyniku za ten miesiąc już nie poprawi, może tylko szukać przyczyn na następny.",
     "firma": "Właścicielka sklepu internetowego na koniec kwartału otwiera raport: przychód wzrósł o 10%. Na ten wynik nic już nie poradzi, może tylko wyciągnąć wnioski na następny kwartał – to wskaźnik opóźniony.",
     "admin": "W styczniu kierownik wydziału komunikacji w starostwie liczy, ile rejestracji pojazdów załatwiono w zeszłym roku w terminie. Wynik pokazuje, czy ubiegłoroczny cel osiągnięto, ale niczego w tamtym roku już nie zmieni – to wskaźnik opóźniony.",
-    "psp": "Po kwartale komendant powiatowy dostaje zestawienie: średni czas dotarcia zastępów JRG do zdarzeń wyniósł 9 minut. To pokazuje, jak było, ale przebiegu tamtych akcji już nie zmieni – to wskaźnik opóźniony.",
     "it": "W DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) odsetek incydentów rozwiązanych za kwartał w uzgodnionym czasie to wskaźnik opóźniony: mówi, czy cel osiągnięto. Taki wynik raportuje się m.in. w MEA01 (Monitorowanie, ocena i oszacowanie wydajności i zgodności)."
   },
   "glebokosc": {
     "prosty": "Na koniec roku szkolnego dziecko dostaje świadectwo. Świadectwo mówi, czy rok się udał, ale ocen z tego roku już nie zmienisz. Liczba, która pokazuje wynik po fakcie, to wskaźnik opóźniony.",
-    "zaawansowany": "Kpt. Sikora co kwartał zbiera dwie liczby: odsetek alarmów, które dotarły do OSP Zawilce w ciągu 40 sekund, i ocenę Syreny w ankiecie dowódców JRG. Pierwsza mówi, czy osiągnięto [[cele-aktywatorow|cel aktywatora]], druga – czy uwzględniono potrzeby interesariuszy, więc obie są wskaźnikami opóźnionymi. Żadna z nich nie powie jednak, dlaczego wynik jest słaby. Do tego Sikora potrzebuje [[wskaznik-wiodacy|wskaźników wiodących]], np. odsetka dyżurnych przeszkolonych z nowej procedury.",
-    "skrajny": "Na ekranie w SK wisi panel, który co sekundę pokazuje dostępność Syreny: 99,97%. Skoro liczba jest „na żywo”, wiele osób uznaje ją za wskaźnik wiodący. To błąd: dostępność to cel aktywatora (kategoria „dostęp i bezpieczeństwo”), a mierniki osiągnięcia celów Framework nazywa wskaźnikami następującymi, czyli opóźnionymi (s. 29). O rodzaju wskaźnika decyduje to, co mierzy, a nie to, kiedy i jak często się go odczytuje. Panel mówi „cel jest osiągany”, a nie „robimy to, co do celu prowadzi”. **Rozstrzygnięcie:** miernik osiągnięcia celów albo uwzględnienia potrzeb = wskaźnik opóźniony, nawet jeśli odświeża się co sekundę."
+    "zaawansowany": "Kierownik działu IT w banku co kwartał zbiera dwie liczby: odsetek powiadomień o transakcjach, które dotarły do klientów w ciągu 40 sekund, i ocenę aplikacji mobilnej w ankiecie klientów. Pierwsza mówi, czy osiągnięto [[cele-aktywatorow|cel aktywatora]], druga – czy uwzględniono potrzeby interesariuszy, więc obie są wskaźnikami opóźnionymi. Żadna z nich nie powie jednak, dlaczego wynik jest słaby. Do tego kierownik potrzebuje [[wskaznik-wiodacy|wskaźników wiodących]], np. odsetka administratorów przeszkolonych z nowej procedury.",
+    "skrajny": "Na ekranie w dziale IT wisi panel, który co sekundę pokazuje dostępność bankowości internetowej: 99,97%. Skoro liczba jest „na żywo”, wiele osób uznaje ją za wskaźnik wiodący. To błąd: dostępność to cel aktywatora (kategoria „dostęp i bezpieczeństwo”), a mierniki osiągnięcia celów Framework nazywa wskaźnikami następującymi, czyli opóźnionymi (s. 29). O rodzaju wskaźnika decyduje to, co mierzy, a nie to, kiedy i jak często się go odczytuje. Panel mówi „cel jest osiągany”, a nie „robimy to, co do celu prowadzi”. **Rozstrzygnięcie:** miernik osiągnięcia celów albo uwzględnienia potrzeb = wskaźnik opóźniony, nawet jeśli odświeża się co sekundę."
   },
   "zagmatwania": [
     {
@@ -60,13 +59,13 @@
   "mentor": {
     "czestyBlad": "Klasyfikowanie wskaźnika po tym, kiedy się go mierzy (raport roczny = opóźniony, panel na żywo = wiodący), zamiast po tym, co mierzy.",
     "jakTlumaczyc": "Zadaj dwa pytania z modelu: „czy mierzy, że cel osiągnięto albo potrzeby uwzględniono?” → opóźniony; „czy mierzy dbanie o cykl życia albo stosowanie praktyk?” → wiodący. Analogia: waga po diecie (wynik) kontra liczba zjedzonych porcji warzyw dziennie (praktyka).",
-    "pytanieKontrolne": "Panel na żywo pokazuje dostępność Syreny 99,97%. Jaki to wskaźnik i dlaczego to, że jest „na żywo”, nie ma znaczenia?",
+    "pytanieKontrolne": "Panel na żywo pokazuje dostępność bankowości internetowej 99,97%. Jaki to wskaźnik i dlaczego to, że jest „na żywo”, nie ma znaczenia?",
     "odpowiedzKontrolna": "**Opóźniony** (następujący): dostępność to cel aktywatora (dostęp i bezpieczeństwo), a mierniki osiągnięcia celów są opóźnione (s. 29). O rodzaju decyduje mierzona treść, a nie częstotliwość pomiaru."
   },
   "nieMylicZ": [
     {
       "termin": "wskaznik-wiodacy",
-      "roznica": "Wiodący mierzy, czy proces działa właściwie: cykl życia i dobre praktyki. Przewiduje wynik."
+      "roznica": "Wiodący mierzy, czy aktywator działa właściwie: cykl życia i dobre praktyki. Przewiduje wynik."
     }
   ],
   "przykladWypowiedzi": "A lag indicator, czyli wskaźnik opóźniony, mierzy po fakcie, czy cele aktywatora są osiągane i czy potrzeby interesariuszy są uwzględnione.",

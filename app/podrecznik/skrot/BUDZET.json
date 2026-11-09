@@ -1,0 +1,499 @@
+{
+ "k-m0-cobit": {
+  "tytul": "COBIT 5 – organizacja, struktura ramowa i czym COBIT nie jest",
+  "rozdzial": "Wstęp i Streszczenie",
+  "max_slajdow": 2,
+  "lekcje": [
+   "m0-00-organizacja-cel",
+   "m0-01-ramy-cobit",
+   "m0-02-cobit-czym-nie-jest"
+  ]
+ },
+ "k-pr-zasady": {
+  "tytul": "Pięć zasad COBIT 5 – mapa",
+  "rozdzial": "Wstęp i Streszczenie",
+  "max_slajdow": 3,
+  "lekcje": [
+   "pr-k10-piec-zasad",
+   "pr-k11-zasady-1-3",
+   "pr-k12-zasady-4-5",
+   "pr-k13-rozpoznaj-zasade"
+  ]
+ },
+ "k-m0-standardy": {
+  "tytul": "COBIT 5 na tle innych standardów",
+  "rozdzial": "Rozdział 1 · Przegląd COBIT 5",
+  "max_slajdow": 2,
+  "lekcje": [
+   "m0-30-cobit-laczy-standardy",
+   "m0-31-itil-iso-27001",
+   "m0-32-liczby-cobit-5"
+  ]
+ },
+ "k-m0-interesariusze": {
+  "tytul": "Interesariusze, potrzeby i wyznaczniki",
+  "rozdzial": "Rozdział 2 · Zasada 1: Realizacja potrzeb interesariusza",
+  "max_slajdow": 4,
+  "lekcje": [
+   "m0-10-interesariusz",
+   "m0-11-interesariusze-wewnetrzni-zewnetrzni",
+   "m0-12-rozne-oczekiwania",
+   "m0-13-potrzeba",
+   "m0-14-wyznaczniki",
+   "m0-15-wyznacznik-z-czym-nie-mylic"
+  ]
+ },
+ "k-m0-wartosc": {
+  "tytul": "Rezultat, korzyść, wartość, ryzyko i zasoby",
+  "rozdzial": "Rozdział 2 · Zasada 1: Realizacja potrzeb interesariusza",
+  "max_slajdow": 4,
+  "lekcje": [
+   "m0-16-rezultat-korzysc",
+   "m0-17-wartosc",
+   "m0-18-optymalizacja",
+   "m0-20-ryzyko",
+   "m0-21-postepowanie-z-ryzykiem",
+   "m0-22-zasob"
+  ]
+ },
+ "k-pr-wartosc": {
+  "tytul": "Cel Ładu – Tworzenie Wartości",
+  "rozdzial": "Rozdział 2 · Zasada 1: Realizacja potrzeb interesariusza",
+  "max_slajdow": 2,
+  "lekcje": [
+   "pr-k14-tworzenie-wartosci",
+   "pr-k15-optymalizacja",
+   "pr-k16-trzy-pytania"
+  ]
+ },
+ "k-pr-kaskada": {
+  "tytul": "Kaskada Celów krok po kroku",
+  "rozdzial": "Rozdział 2 · Zasada 1: Realizacja potrzeb interesariusza",
+  "max_slajdow": 5,
+  "lekcje": [
+   "pr-k17-kaskada-celow",
+   "pr-k18-kaskada-krok-1-2",
+   "pr-k19-kaskada-krok-3-4",
+   "pr-k20-kaskada-przyklad",
+   "pr-k21-bsc",
+   "pr-k22-cele-organizacji-17",
+   "pr-k23-relacje-p-s"
+  ]
+ },
+ "k-pr-kaskada-uzycie": {
+  "tytul": "Do czego służy kaskada i jak ją dostosować",
+  "rozdzial": "Rozdział 2 · Zasada 1: Realizacja potrzeb interesariusza",
+  "max_slajdow": 2,
+  "lekcje": [
+   "pr-k24-po-co-kaskada",
+   "pr-k25-kaskada-dostosuj",
+   "pr-k26-pytania-interesariuszy"
+  ]
+ },
+ "k-pr-zasada-2": {
+  "tytul": "Zasada 2: Ład nad IT, podejście do Ładu, role",
+  "rozdzial": "Rozdział 3 · Zasada 2: Pokrycie całej organizacji",
+  "max_slajdow": 4,
+  "lekcje": [
+   "pr-k27-zasada-2",
+   "pr-k28-podejscie-do-ladu",
+   "pr-k29-role-ladu"
+  ]
+ },
+ "k-pr-zasada-3": {
+  "tytul": "Zasada 3: jedna rama, cztery powody, baza wiedzy",
+  "rozdzial": "Rozdział 4 · Zasada 3: Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej",
+  "max_slajdow": 3,
+  "lekcje": [
+   "pr-k30-zasada-3",
+   "pr-k31-cztery-powody-integracji",
+   "pr-k32-baza-wiedzy"
+  ]
+ },
+ "k-pr-aktywatory": {
+  "tytul": "Aktywatory i siedem kategorii",
+  "rozdzial": "Rozdział 5 · Zasada 4: Aktywacja holistycznego podejścia",
+  "max_slajdow": 5,
+  "lekcje": [
+   "pr-k33-zasada-4-aktywator",
+   "pr-k34-siedem-aktywatorow",
+   "pr-k35-aktywatory-zasoby",
+   "m0-23-proces-projekt",
+   "m0-24-proces-w-cobit"
+  ]
+ },
+ "k-pr-wymiary": {
+  "tytul": "Wymiary, cykl życia i cele aktywatora",
+  "rozdzial": "Rozdział 5 · Zasada 4: Aktywacja holistycznego podejścia",
+  "max_slajdow": 5,
+  "lekcje": [
+   "pr-k36-wymiary-aktywatora",
+   "pr-k37-cykl-zycia",
+   "pr-k38-kategorie-celow",
+   "pr-k39-kategorie-rozpoznaj"
+  ]
+ },
+ "k-pr-wydajnosc": {
+  "tytul": "Wydajność aktywatora i wskaźniki",
+  "rozdzial": "Rozdział 5 · Zasada 4: Aktywacja holistycznego podejścia",
+  "max_slajdow": 3,
+  "lekcje": [
+   "pr-k40-wydajnosc-aktywatora",
+   "pr-k41-wskazniki-opoznione-wiodace"
+  ]
+ },
+ "k-m0-lad": {
+  "tytul": "Ład a Zarządzanie – intuicja",
+  "rozdzial": "Rozdział 6 · Zasada 5: Oddzielenie Ładu od Zarządzania",
+  "max_slajdow": 3,
+  "lekcje": [
+   "m0-25-lad-zarzadzanie",
+   "m0-26-czynnosci-ladu-zarzadzania",
+   "m0-27-lad-czym-nie-jest",
+   "m0-36-lad-a-kierownictwo"
+  ]
+ },
+ "k-pr-zasada-5": {
+  "tytul": "Zasada 5: czynności EDM i PBRM, obieg informacji",
+  "rozdzial": "Rozdział 6 · Zasada 5: Oddzielenie Ładu od Zarządzania",
+  "max_slajdow": 5,
+  "lekcje": [
+   "pr-k42-zasada-5",
+   "pr-k43-czynnosci-edm-pbrm",
+   "pr-k44-obieg-informacji",
+   "pr-k45-interakcje-aktywatory"
+  ]
+ },
+ "k-pr-prm": {
+  "tytul": "Referencyjny Model Procesu – 37 procesów",
+  "rozdzial": "Rozdział 6 · Zasada 5: Oddzielenie Ładu od Zarządzania",
+  "max_slajdow": 6,
+  "lekcje": [
+   "pr-k46-prm-37-procesow",
+   "pr-k47-prm-nie-normatywny",
+   "pr-k48-piec-procesow-edm",
+   "pr-k49-cztery-domeny",
+   "pr-k50-apo-bai",
+   "pr-k51-dss-mea",
+   "pr-k52-domeny-pomylki"
+  ]
+ },
+ "k-pr-atlas-edm": {
+  "tytul": "Atlas procesów: EDM (Ład)",
+  "rozdzial": "Rozdział 6 · Zasada 5: Oddzielenie Ładu od Zarządzania",
+  "max_slajdow": 3,
+  "lekcje": [
+   "pr-k53-atlas-edm01-edm03",
+   "pr-k54-atlas-edm04-edm05",
+   "pr-k55-edm-cel-ladu"
+  ]
+ },
+ "k-pr-atlas-apo": {
+  "tytul": "Atlas procesów: APO",
+  "rozdzial": "Rozdział 6 · Zasada 5: Oddzielenie Ładu od Zarządzania",
+  "max_slajdow": 6,
+  "lekcje": [
+   "pr-k60-apo01-apo02",
+   "pr-k61-apo03-apo04",
+   "pr-k62-apo05-apo07",
+   "pr-k63-apo08-apo10",
+   "pr-k64-apo11-apo13"
+  ]
+ },
+ "k-pr-atlas-bai": {
+  "tytul": "Atlas procesów: BAI",
+  "rozdzial": "Rozdział 6 · Zasada 5: Oddzielenie Ładu od Zarządzania",
+  "max_slajdow": 5,
+  "lekcje": [
+   "pr-k65-bai01-bai02",
+   "pr-k66-bai03-bai04",
+   "pr-k67-bai05-bai07",
+   "pr-k68-bai08-bai10"
+  ]
+ },
+ "k-pr-atlas-dss-mea": {
+  "tytul": "Atlas procesów: DSS i MEA",
+  "rozdzial": "Rozdział 6 · Zasada 5: Oddzielenie Ładu od Zarządzania",
+  "max_slajdow": 5,
+  "lekcje": [
+   "pr-k69-dss01-dss03",
+   "pr-k70-dss04-dss06",
+   "pr-k71-mea01-mea03"
+  ]
+ },
+ "k-im-kontekst": {
+  "tytul": "Kontekst wdrożenia, punkty zapalne, zdarzenia wyzwalające",
+  "rozdzial": "Rozdział 7 · Wdrożenie",
+  "max_slajdow": 4,
+  "lekcje": [
+   "im-k10-kontekst",
+   "im-k11-czynniki-sukcesu",
+   "im-k12-punkty-zapalne",
+   "im-k13-zdarzenia-wyzwalajace"
+  ]
+ },
+ "k-im-cykl": {
+  "tytul": "Cykl życia wdrożenia: trzy pierścienie, siedem faz",
+  "rozdzial": "Rozdział 7 · Wdrożenie",
+  "max_slajdow": 6,
+  "lekcje": [
+   "im-k14-trzy-pierscienie",
+   "im-k15-aktywowanie-zmiany",
+   "im-k16-siedem-faz",
+   "im-k17-fazy-1-3",
+   "im-k18-fazy-4-7",
+   "im-k19-rysunek-17"
+  ]
+ },
+ "k-im-uzasadnienie": {
+  "tytul": "Uzasadnienie biznesowe",
+  "rozdzial": "Rozdział 7 · Wdrożenie",
+  "max_slajdow": 2,
+  "lekcje": [
+   "im-k20-uzasadnienie-biznesowe",
+   "im-k21-elementy-uzasadnienia"
+  ]
+ },
+ "k-pc-model": {
+  "tytul": "Model zdolności procesu a model dojrzałości",
+  "rozdzial": "Rozdział 8 · Model zdolności procesu",
+  "max_slajdow": 4,
+  "lekcje": [
+   "pc-k10-model-zdolnosci",
+   "pc-k11-jeden-proces",
+   "pc-k12-dojrzalosc-a-zdolnosc",
+   "pc-k13-nizsze-wyniki-korzysci"
+  ]
+ },
+ "k-pc-poziomy": {
+  "tytul": "Sześć poziomów i dziewięć atrybutów",
+  "rozdzial": "Rozdział 8 · Model zdolności procesu",
+  "max_slajdow": 5,
+  "lekcje": [
+   "pc-k20-szesc-poziomow",
+   "pc-k21-poziom-0-i-1",
+   "pc-k22-poziom-2",
+   "pc-k23-poziomy-3-5",
+   "pc-k24-dziewiec-atrybutow"
+  ]
+ },
+ "k-pc-atrybuty": {
+  "tytul": "Atrybuty procesu PA 1.1 – PA 5.2",
+  "rozdzial": "Rozdział 8 · Model zdolności procesu",
+  "max_slajdow": 5,
+  "lekcje": [
+   "pc-k30-pa-1-1",
+   "pc-k31-pa-2-1-pa-2-2",
+   "pc-k32-pa-3-1-pa-3-2",
+   "pc-k33-pa-4-1-pa-4-2",
+   "pc-k34-pa-5-1-pa-5-2"
+  ]
+ },
+ "k-pc-oceny": {
+  "tytul": "Skala ocen N/C/W/P i reguła poziomu",
+  "rozdzial": "Rozdział 8 · Model zdolności procesu",
+  "max_slajdow": 5,
+  "lekcje": [
+   "pc-k40-skala-ocen",
+   "pc-k41-oceny-n-i-c",
+   "pc-k42-oceny-w-i-p",
+   "pc-k43-regula-poziomu",
+   "pc-k44-liczymy-poziom"
+  ]
+ },
+ "k-pc-iso": {
+  "tytul": "ISO/IEC 15504, ocena i przewodniki",
+  "rozdzial": "Rozdział 8 · Model zdolności procesu",
+  "max_slajdow": 5,
+  "lekcje": [
+   "pc-k50-dwa-wymiary",
+   "pc-k51-referencyjny-model-procesu",
+   "pc-k52-cztery-pojecia-iso",
+   "pc-k53-ocena-poziomu-1",
+   "pc-k55-cele-oceny",
+   "pc-k56-przewodniki-oceny"
+  ]
+ },
+ "k-en-zasady": {
+  "tytul": "Zasady, Polityki i Struktury ramowe",
+  "rozdzial": "Załącznik G · Aktywatory szczegółowo",
+  "max_slajdow": 4,
+  "lekcje": [
+   "en-k10-po-co-zasady-polityki",
+   "en-k11-zasada-a-polityka",
+   "en-k12-struktura-polityk",
+   "en-k13-polityki-a-inne-aktywatory"
+  ]
+ },
+ "k-en-procesy": {
+  "tytul": "Procesy: cele, praktyki, działania",
+  "rozdzial": "Załącznik G · Aktywatory szczegółowo",
+  "max_slajdow": 4,
+  "lekcje": [
+   "en-k15-proces-aktywator",
+   "en-k16-kategorie-celow-procesu",
+   "en-k17-praktyki-dzialania",
+   "en-k18-procesy-a-inne-aktywatory"
+  ]
+ },
+ "k-en-raci": {
+  "tytul": "Opis procesu i diagram RACI",
+  "rozdzial": "Załącznik G · Aktywatory szczegółowo",
+  "max_slajdow": 4,
+  "lekcje": [
+   "en-k20-opis-procesu",
+   "en-k21-tabela-raci",
+   "en-k22-raci-r-a",
+   "en-k23-raci-c-i"
+  ]
+ },
+ "k-en-struktury": {
+  "tytul": "Struktury organizacyjne",
+  "rozdzial": "Załącznik G · Aktywatory szczegółowo",
+  "max_slajdow": 3,
+  "lekcje": [
+   "en-k25-struktury-organizacyjne",
+   "en-k26-praktyki-struktur",
+   "en-k27-delegowanie-eskalacja"
+  ]
+ },
+ "k-en-role": {
+  "tytul": "Role i komitety (Rysunek 33)",
+  "rozdzial": "Załącznik G · Aktywatory szczegółowo",
+  "max_slajdow": 3,
+  "lekcje": [
+   "en-k30-role-c-level",
+   "en-k31-komitety-biura",
+   "en-k32-pozostale-role"
+  ]
+ },
+ "k-en-kultura": {
+  "tytul": "Kultura, Etyka i Zachowanie",
+  "rozdzial": "Załącznik G · Aktywatory szczegółowo",
+  "max_slajdow": 3,
+  "lekcje": [
+   "en-k35-kultura-czym-jest",
+   "en-k36-poziomy-etyki",
+   "en-k37-praktyki-zachowan"
+  ]
+ },
+ "k-en-informacja": {
+  "tytul": "Informacja",
+  "rozdzial": "Załącznik G · Aktywatory szczegółowo",
+  "max_slajdow": 3,
+  "lekcje": [
+   "en-k40-informacja-cykl",
+   "en-k41-jakosc-informacji",
+   "en-k42-model-informacji"
+  ]
+ },
+ "k-en-uslugi": {
+  "tytul": "Usługi, Infrastruktura i Aplikacje",
+  "rozdzial": "Załącznik G · Aktywatory szczegółowo",
+  "max_slajdow": 3,
+  "lekcje": [
+   "en-k45-uslugi-zdolnosc",
+   "en-k46-trzy-architektury",
+   "en-k47-pryncypia-architektury"
+  ]
+ },
+ "k-en-ludzie": {
+  "tytul": "Ludzie, Umiejętności i Kompetencje",
+  "rozdzial": "Załącznik G · Aktywatory szczegółowo",
+  "max_slajdow": 3,
+  "lekcje": [
+   "en-k50-ludzie-cele",
+   "en-k51-cykl-zycia-umiejetnosci",
+   "en-k52-kategorie-umiejetnosci"
+  ]
+ },
+ "k-m0-egzamin": {
+  "tytul": "Egzamin w liczbach i pułapki nazw",
+  "rozdzial": "Poza podręcznikiem · Egzamin",
+  "max_slajdow": 3,
+  "lekcje": [
+   "m0-33-egzamin-w-liczbach",
+   "m0-34-trzy-nazwy-terminu",
+   "m0-35-litera-p",
+   "m0-37-dziwne-slowa"
+  ]
+ },
+ "k-ex-strategia": {
+  "tytul": "Strategia: jak czytać pytania",
+  "rozdzial": "Poza podręcznikiem · Egzamin",
+  "max_slajdow": 5,
+  "lekcje": [
+   "ex-k10-trzy-kroki",
+   "ex-k11-prawdziwe-ale-zle",
+   "ex-k12-nie-najlepiej",
+   "ex-k13-glowny-zawsze",
+   "ex-k14-inna-kategoria",
+   "ex-k15-szesc-pulapek",
+   "ex-k16-tempo"
+  ]
+ },
+ "k-ex-powtorka": {
+  "tytul": "Powtórka przed egzaminem",
+  "rozdzial": "Poza podręcznikiem · Egzamin",
+  "max_slajdow": 5,
+  "lekcje": [
+   "ex-k17-powtorka-zasady-aktywatory",
+   "ex-k18-powtorka-wymiary-procesy",
+   "ex-k19-powtorka-wdrozenie",
+   "ex-k20-powtorka-zdolnosc",
+   "ex-k21-nazwy-egzaminacyjne",
+   "ex-k22-dzien-egzaminu"
+  ]
+ },
+ "k-mt-lad-kaskada": {
+  "tytul": "Mentor: Ład i kaskada celów",
+  "rozdzial": "Poza podręcznikiem · Mentor i finał",
+  "max_slajdow": 4,
+  "lekcje": [
+   "mt-k10-dobra-analogia-ladu",
+   "mt-k11-bledne-analogie-ladu",
+   "mt-k12-lad-tez-monitoruje",
+   "mt-k13-kaskada-od-konca",
+   "mt-k14-kaskada-siec"
+  ]
+ },
+ "k-mt-aktywatory": {
+  "tytul": "Mentor: aktywatory i procesy",
+  "rozdzial": "Poza podręcznikiem · Mentor i finał",
+  "max_slajdow": 4,
+  "lekcje": [
+   "mt-k15-incydent-siedem-aktywatorow",
+   "mt-k16-granica-aktywatorow",
+   "mt-k17-37-procesow-szuflady",
+   "mt-k18-pary-procesow"
+  ]
+ },
+ "k-mt-zdolnosc": {
+  "tytul": "Mentor: zdolność, wdrożenie, prowadzenie zajęć",
+  "rozdzial": "Poza podręcznikiem · Mentor i finał",
+  "max_slajdow": 4,
+  "lekcje": [
+   "mt-k19-skala-i-regula-poziomu",
+   "mt-k20-profile-graniczne",
+   "mt-k21-wdrozenie-21-dzialan",
+   "mt-k22-wdrozenie-w-kalendarzu",
+   "mt-k23-karta-prowadzacego",
+   "mt-k24-bledne-zalozenie"
+  ]
+ },
+ "k-fn-final": {
+  "tytul": "Finał: tabele, obce źródła, pytania przekrojowe",
+  "rozdzial": "Poza podręcznikiem · Mentor i finał",
+  "max_slajdow": 4,
+  "lekcje": [
+   "fn-k10-czytanie-tabel",
+   "fn-k11-kaskada-to-wytyczna",
+   "fn-k12-profil-ocen-od-dolu",
+   "fn-k13-pytanie-z-internetu",
+   "fn-k14-cobit-2019-i-dumpy",
+   "fn-k15-pytanie-przekrojowe",
+   "fn-k16-wdrozenie-kaskada-luka",
+   "fn-k17-kto-monitoruje"
+  ]
+ }
+}

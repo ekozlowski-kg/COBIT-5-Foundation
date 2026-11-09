@@ -34,12 +34,11 @@
     "biuro": "Biuro kupuje skaner, żeby nie szukać papierowych teczek. Po trzech miesiącach kierownik sprawdza, że dokument znajduje się w minutę zamiast w kwadrans – to zrealizowana korzyść. Przy okazji wypowiada umowę na nieużywany faks, bo nie daje już żadnej wartości.",
     "firma": "Kawiarnia kupuje terminal płatniczy, bo klienci odchodzili, gdy nie mogli zapłacić kartą. Po trzech miesiącach właściciel sprawdza: kolejka krótsza, utarg wyższy o 15%. Dopiero to jest zrealizowana korzyść – sam terminal na ladzie nią nie był.",
     "admin": "Gmina wdraża elektroniczny obieg dokumentów, żeby sprawy szły szybciej. Pół roku później okazuje się, że urzędnicy i tak drukują każde pismo i noszą je do podpisu. System jest, ale korzyści nie ma – dopóki ludzie nie zmienią sposobu pracy.",
-    "psp": "Komenda uruchamia w SK nowe narzędzie do koordynacji sił i środków. Po kwartale kierownik SK porównuje czasy: zadysponowanie kolejnych zastępów do dużego zdarzenia trwa średnio o minutę krócej. Ta minuta to zrealizowana korzyść, a samo uruchomienie narzędzia było tylko rezultatem.",
     "it": "W procesie EDM02 (Zapewnienie realizacji korzyści) Ład ocenia portfel inwestycji IT, kieruje środki tam, gdzie korzyści są największe, i monitoruje, czy korzyści zapowiedziane w uzasadnieniu biznesowym naprawdę się pojawiają. Zarządzanie realizuje to m.in. w APO05 (Zarządzanie portfelem projektów)."
   },
   "glebokosc": {
     "prosty": "Kupujesz rower, żeby dojeżdżać do pracy i mniej płacić za paliwo. Korzyść masz dopiero wtedy, gdy naprawdę nim jeździsz i widzisz niższe rachunki. Sprzedajesz też stary, nieużywany skuter – to również realizacja korzyści, bo przestajesz płacić za coś, co nic nie daje.",
-    "zaawansowany": "Syrena działa od trzech miesięcy. Bryg. Wrzos pyta nie o to, czy system jest wdrożony (to [[rezultat]]), ale czy OSP Zawilce wyjeżdża szybciej – to pytanie o korzyść. Kpt. Sikora pokazuje, że czas od alarmu do wyjazdu spadł o 2 minuty, i proponuje wyłączyć stary system pagerów, za który komenda wciąż płaci. Oba kroki to realizacja korzyści: utrzymanie nowej korzyści i eliminacja tego, co nie daje wartości. Razem z [[optymalizacja-ryzyka|optymalizacją ryzyka]] i [[optymalizacja-zasobow|optymalizacją zasobów]] składa się to na [[tworzenie-wartosci|tworzenie wartości]].",
+    "zaawansowany": "Nowa aplikacja mobilna banku działa od trzech miesięcy. Zarząd pyta nie o to, czy aplikacja jest wdrożona (to [[rezultat]]), ale czy klienci szybciej załatwiają sprawy – to pytanie o korzyść. Dyrektor IT pokazuje, że czas otwarcia konta spadł z dwóch dni do 15 minut, i proponuje wyłączyć stary system bankowości internetowej, za który bank wciąż płaci. Oba kroki to realizacja korzyści: utrzymanie nowej korzyści i eliminacja tego, co nie daje wartości. Razem z [[optymalizacja-ryzyka|optymalizacją ryzyka]] i [[optymalizacja-zasobow|optymalizacją zasobów]] składa się to na [[tworzenie-wartosci|tworzenie wartości]].",
     "skrajny": "Wyłączenie starych pagerów oszczędza pieniądze, więc intuicja przypisuje je optymalizacji zasobów. Definicja w Załączniku H mówi jednak wprost, że realizacja korzyści obejmuje też **wyeliminowanie inicjatyw i zasobów, które nie generują wystarczającej wartości**. Decyzja „wyłączamy, bo nie daje wartości” należy więc do realizacji korzyści, nawet jeśli przy okazji zwalnia zasoby. Druga pułapka: dostarczenie systemu zgodnie z umową to dopiero rezultat, a korzyść to poprawa, którą ten system przynosi. **Rozstrzygnięcie:** realizacja korzyści = uzyskiwać nowe korzyści, utrzymywać i rozszerzać istniejące, eliminować to, co nie daje wartości; samo „mamy nowy system” to jeszcze nie korzyść."
   },
   "zagmatwania": [
@@ -49,7 +48,7 @@
     },
     {
       "mit": "Wdrożony system to zrealizowana korzyść.",
-      "prawda": "Wdrożony system to rezultat. Korzyść to zmiana na lepsze, np. szybszy wyjazd zastępu."
+      "prawda": "Wdrożony system to rezultat. Korzyść to zmiana na lepsze, np. szybsza obsługa klienta."
     },
     {
       "mit": "Realizacja korzyści to to samo co tworzenie wartości.",
@@ -59,7 +58,7 @@
   "mentor": {
     "czestyBlad": "Pomijanie trzeciego elementu – eliminowania tego, co nie daje wartości.",
     "jakTlumaczyc": "Ogród: sadzisz nowe rośliny (uzyskiwanie), podlewasz to, co już rośnie (utrzymanie), i wyrywasz chwasty (eliminacja). Każdy z tych kroków zwiększa plon.",
-    "pytanieKontrolne": "Komenda wyłącza nieużywany system pagerów. Czy to realizacja korzyści? Uzasadnij definicją.",
+    "pytanieKontrolne": "Bank wyłącza nieużywany stary system bankowości internetowej. Czy to realizacja korzyści? Uzasadnij definicją.",
     "odpowiedzKontrolna": "Tak. Definicja realizacji korzyści obejmuje eliminowanie inicjatyw i zasobów, które nie generują wystarczającej wartości – nie tylko zdobywanie nowych korzyści."
   },
   "nieMylicZ": [

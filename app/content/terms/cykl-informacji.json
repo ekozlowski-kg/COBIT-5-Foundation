@@ -19,12 +19,11 @@
     "biuro": "Rejestr korespondencji zapisuje datę wpływu i odpowiedzi każdego pisma (dane). Kierowniczka dostaje zestawienie czasów odpowiedzi (informacja) i widzi, że pisma z działu kadr czekają najdłużej (wiedza). Przesuwa tam drugą osobę i odpowiedzi przyspieszają (wartość).",
     "firma": "Kasa w piekarni zapisuje każdą sprzedaż (dane). Właścicielka co tydzień dostaje zestawienie, co schodzi o której godzinie (informacja), i odkrywa, że po 17 zostaje połowa chleba (wiedza). Piecze mniej na wieczór i przestaje wyrzucać pieczywo – to wartość na końcu cyklu informacji.",
     "admin": "Urząd gminy rejestruje każdą sprawę w EZD z datą wpływu i załatwienia (dane). Z tego powstaje raport czasu obsługi w wydziałach (informacja), z którego wynika, że wnioski budowlane leżą najdłużej (wiedza). Sekretarz przesuwa jedną osobę do tego wydziału i kolejka maleje – to wartość.",
-    "psp": "SWD-PSP zapisuje godziny zadysponowania i przybycia zastępów (dane). Z tego wychodzi średni czas dotarcia w każdej gminie (informacja), a analiza pokazuje, że w jednej strefie dojazd stale trwa ponad 15 minut (wiedza). Komendant zmienia rejony działania i włącza do nich bliższą jednostkę OSP, więc pomoc dociera szybciej (wartość).",
     "it": "Proces DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami zapisuje każde zgłoszenie (dane). Raport pokazuje, że co tydzień pada ta sama usługa (informacja), analiza wskazuje przyczynę (wiedza), a DSS03 Zarządzanie problemami usuwa ją na stałe, więc przestojów jest mniej (wartość)."
   },
   "glebokosc": {
     "prosty": "Paragony w szufladzie to dane. Gdy je zsumujesz w zeszycie, masz informację: na jedzenie na mieście idzie 600 zł miesięcznie. Gdy zrozumiesz, że to przez brak obiadów w tygodniu, masz wiedzę. Gdy zaczniesz gotować i oszczędzać, powstaje wartość.",
-    "zaawansowany": "Syrena co noc zapisuje logi wysyłek SMS, czyli dane. Ola Dudek robi z nich zestawienie, ile alarmów nie doszło do OSP, i to jest informacja. Sikora zauważa wzorzec: numery z Zawilców są stare, a to już wiedza. Gdy komenda poprawia bazę i pomoc dociera szybciej, powstaje wartość. Wyznacznikiem całej drogi są procesy biznesowe, a jakość każdego kroku ocenia się [[jakosc-informacji|kryteriami jakości informacji]].",
+    "zaawansowany": "System bankowości internetowej co noc zapisuje logi wysyłek SMS, czyli dane. Administrator robi z nich zestawienie, ile powiadomień nie doszło do klientów, i to jest informacja. CIO zauważa wzorzec: numery klientów z jednego starego oddziału są nieaktualne, a to już wiedza. Gdy bank poprawia bazę i klienci dostają potwierdzenia, powstaje wartość. Wyznacznikiem całej drogi są procesy biznesowe, a jakość każdego kroku ocenia się [[jakosc-informacji|kryteriami jakości informacji]].",
     "skrajny": "W COBIT 5 są dwie różne „drogi informacji”. Cykl informacji (il. 35) to łańcuch: dane → informacje → wiedza → wartość, napędzany przez procesy biznesowe. Cykl życia informacji (s. 82–83) to wymiar aktywatora: planowanie, projektowanie, budowanie/nabywanie, użytkowanie (przechowywanie, udostępnianie, wykorzystanie), monitorowanie i pozbywanie się. Opis „ktoś ją planuje, zbiera, przechowuje, używa i usuwa” to cykl życia, a nie łańcuch z ilustracji 35. Do tego aktywator Informacja dotyczy głównie fazy „informacje”, ale COBIT uwzględnia też dane i wiedzę. **Rozstrzygnięcie:** „dane → informacje → wiedza → wartość” to cykl informacji; „planowanie … pozbywanie się” to cykl życia aktywatora Informacja."
   },
   "zagmatwania": [
@@ -44,7 +43,7 @@
   "mentor": {
     "czestyBlad": "Mylenie cyklu informacji z cyklem życia informacji i zaczynanie łańcucha od „informacji” zamiast od danych.",
     "jakTlumaczyc": "Mąka, ciasto, przepis w głowie, zadowoleni goście: surowiec (dane), przerób (informacje), zrozumienie (wiedza), efekt (wartość). Dopiero potem osobno wprowadź „życiorys” informacji, od zaplanowania po zniszczenie.",
-    "pytanieKontrolne": "Logi Syreny leżą na serwerze od roku i nikt ich nie czyta. Na którym etapie cyklu informacji są i czy dają wartość?",
+    "pytanieKontrolne": "Logi serwera aplikacji leżą od roku i nikt ich nie czyta. Na którym etapie cyklu informacji są i czy dają wartość?",
     "odpowiedzKontrolna": "To wciąż dane: nie zostały przekształcone w informacje ani wiedzę, więc nie dają wartości. Wartość powstaje dopiero na końcu łańcucha, gdy proces biznesowy przekształci je i wykorzysta."
   },
   "egzamin": "Kolejność: **dane → informacje → wiedza → wartość**. Wyznacznikiem cyklu są **procesy biznesowe**. Wniosek egzaminacyjny: procesy biznesowe przekształcają wiedzę, aby stworzyć **wartość** dla organizacji.",
@@ -76,7 +75,7 @@
   },
   "pulapka": false,
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "informacja",

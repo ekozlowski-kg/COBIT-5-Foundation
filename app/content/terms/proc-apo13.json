@@ -36,8 +36,8 @@
   "przyklady": {
     "zycie": "Rodzina ustala zasady: klucze mają tylko domownicy, alarm włączany na noc, raz w roku przegląd zamków. Spisuje, co jest najcenniejsze i jak to chronić. Sam zamek w drzwiach to narzędzie. Cały ten system to APO13.",
     "biuro": "Kierowniczka biura pisze krótką politykę: hasła zmieniane co kwartał, dokumenty klientów w zamykanej szafie, laptopy szyfrowane. Raz na pół roku sprawdza, czy zasady działają.",
-    "organizacja": "Firma wdraża system zarządzania bezpieczeństwem informacji według ISO/IEC 27001. Ustala zakres, politykę i plan postępowania z ryzykiem. Co pół roku robi przegląd skuteczności. To APO13. Urząd powołuje pełnomocnika ds. bezpieczeństwa informacji. Pełnomocnik pisze politykę bezpieczeństwa, plan działań i harmonogram przeglądów. Ustawianie zapór i haseł to praca informatyków (DSS05). Sam system to APO13.",
-    "psp": "**Polityka bezpieczeństwa Syreny.** Naczelnik Marek Sikora pisze politykę bezpieczeństwa informacji komendy. Ustala, co chronić najbardziej: listę numerów i dane alarmów. Planuje działania i przegląd co pół roku. Hasła i antywirusa na co dzień ustawia informatyczka Ola Dudek. Część Sikory to [[proc-apo13|APO13]].",
+    "organizacja": "Firma wdraża system zarządzania bezpieczeństwem informacji według ISO/IEC 27001. Ustala zakres, politykę i plan postępowania z ryzykiem. Co pół roku robi przegląd skuteczności. To APO13.",
+    "admin": "Urząd wojewódzki powołuje pełnomocnika ds. bezpieczeństwa informacji. Pełnomocnik pisze politykę bezpieczeństwa, plan działań i harmonogram przeglądów. Ustawianie zapór i haseł to praca informatyków w procesie DSS05 Zarządzanie usługami bezpieczeństwa. Sam system zarządzania bezpieczeństwem to APO13.",
     "it": "Pełnomocnik ds. bezpieczeństwa informacji utrzymuje ISMS zgodny z [[iso-27001]]: politykę, plan postępowania z ryzykiem i przeglądy. To APO13. Zapory i konta obsługuje [[proc-dss05]]."
   },
   "nieMylicZ": [
@@ -99,8 +99,8 @@
   "mapa": "proc-apo13",
   "glebokosc": {
     "prosty": "Dbasz o bezpieczeństwo domu. Najpierw ustalasz zasady: kto ma klucze, kiedy włączać alarm, co trzymać w sejfie. Raz w roku sprawdzasz, czy to działa. Samo zamykanie drzwi to codzienność.",
-    "zaawansowany": "Sikora w APO13 pisze politykę bezpieczeństwa i plan działań dla Syreny. Ustala, że dostęp do listy numerów mają tylko dyżurni i Dudek. Ola Dudek w DSS05 nadaje konta, ustawia hasła i sprawdza dzienniki zdarzeń. Ryzyko wycieku danych Sikora ocenia razem z resztą ryzyk w [[proc-apo12]].",
-    "skrajny": "Dudek zauważa w dzienniku próbę logowania z obcego adresu i blokuje konto. Czy to APO13? Nie: wykrycie i blokada to codzienna usługa bezpieczeństwa, czyli DSS05. APO13 zaczyna się, gdy Sikora po tym zdarzeniu przegląda politykę i plan postępowania z ryzykiem. Framework daje wskazówkę: „Administracja bezpieczeństwa” to umiejętność z DSS, nie z APO (il. 39). **Rozstrzygnięcie:** system, polityka i plan bezpieczeństwa (ISMS) → APO13; codzienne zabezpieczanie i reagowanie → DSS05; apetyt na ryzyko → EDM03."
+    "zaawansowany": "Kierownik działu IT w APO13 pisze politykę bezpieczeństwa i plan działań dla bankowości internetowej. Ustala, że dostęp do bazy danych klientów mają tylko konsultanci obsługi klienta i administratorka. Administratorka w DSS05 nadaje konta, ustawia hasła i sprawdza dzienniki zdarzeń. Ryzyko wycieku danych kierownik IT ocenia razem z resztą ryzyk w [[proc-apo12]].",
+    "skrajny": "Administratorka zauważa w dzienniku próbę logowania z obcego adresu i blokuje konto. Czy to APO13? Nie: wykrycie i blokada to codzienna usługa bezpieczeństwa, czyli DSS05. APO13 zaczyna się, gdy kierownik IT po tym zdarzeniu przegląda politykę i plan postępowania z ryzykiem. Framework daje wskazówkę: „Administracja bezpieczeństwa” to umiejętność z DSS, nie z APO (il. 39). **Rozstrzygnięcie:** system, polityka i plan bezpieczeństwa (ISMS) → APO13; codzienne zabezpieczanie i reagowanie → DSS05; apetyt na ryzyko → EDM03."
   },
   "zagmatwania": [
     {

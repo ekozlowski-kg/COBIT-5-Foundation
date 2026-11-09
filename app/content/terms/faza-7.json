@@ -39,8 +39,8 @@
   "przyklady": {
     "zycie": "Schudłeś 8 kg. Siadasz z żoną i oceniacie cały rok: co zadziałało, co nie. Ustalacie, że teraz zajmiecie się snem. Zostawiacie bieganie we wtorki, żeby nie wrócić do starego. To faza 7.",
     "biuro": "Po roku biuro uznaje nowe archiwum za sukces. Kolejnym celem staje się obieg faktur, a przegląd trafia do rocznego planu.",
-    "organizacja": "Sklep po roku ocenia program logistyki: wysyłki są szybsze, więc następnym celem są zwroty. Starosta wpisuje stały przegląd do planu i wybiera wydział geodezji.",
-    "psp": "**Kolejna iteracja**\nPo pół roku komendantka Anna Wrzos ocenia cały program „Syrena 2.0”: alarm dochodzi szybciej, kontrola wypadła dobrze. Audytorka Ewa Lis wskazuje, co dalej: proces kopii zapasowych kuleje. Dyżurni co kwartał przypominają nową procedurę nowym kolegom. Wrzos zapowiada kolejny obrót cyklu. To [[faza-7|faza 7: Jak utrzymać motywację do działania?]]",
+    "organizacja": "Sklep po roku ocenia program logistyki: wysyłki są szybsze, więc następnym celem są zwroty.",
+    "admin": "Po roku starosta ocenia cały program: kolejki w wydziale komunikacji są wyraźnie krótsze. Wpisuje coroczny przegląd do planu pracy starostwa, żeby nie wrócić do starych nawyków. Następnym obszarem zmian wybiera wydział geodezji i pętla zaczyna się od nowa.",
     "it": "Ponowna ocena zdolności DSS02 i raporty z MEA01 pokazują efekt całości. Nowe wymagania, np. dla DSS03, uruchamiają kolejną iterację."
   },
   "nieMylicZ": [
@@ -86,8 +86,8 @@
   "mapa": "faza-7",
   "glebokosc": {
     "prosty": "Skończyłeś pierwszy rok nauki gry na gitarze. Oceniasz, co już umiesz. Wybierasz nowy cel na kolejny rok. Grasz dalej codziennie po kwadransie, żeby nie zapomnieć. Nauka się nie kończy, zaczyna się następny etap.",
-    "zaawansowany": "Wrzos ocenia cały program, a nie jedną liczbę. Lis wskazuje następny słaby proces, więc pojawia się nowy powód do zmiany – nowa [[faza-1]]. Pierścień zmiany robi „Utrzymanie”: nowe nawyki mają przetrwać rotację ludzi. Pierścień [[pierscien-doskonalenie|doskonalenia]] monitoruje i ocenia, co poprawić w kolejnej iteracji.",
-    "skrajny": "Na egzaminie widzisz opcje: „Monitorowanie i szacowanie”, „Monitoruj, Oszacuj i Oceń”, „Oszacuj, Kieruj i Monitoruj”. Wszystkie mają „monitor”, ale tylko pierwsza to działanie fazy 7. Druga to domena procesów [[mea|MEA]], trzecia – praktyki Ładu [[edm|EDM]]. W komendzie wszystkie trzy mogą działać naraz: Lis monitoruje procesy (MEA), Wrzos ocenia kierunek (EDM), a zespół wdrożenia robi fazę 7. Do tego faza 7 nie jest końcem: identyfikuje dalsze wymagania i otwiera nową iterację. **Rozstrzygnięcie:** „Monitorowanie i szacowanie” jako działanie cyklu = faza 7 w pierścieniu doskonalenia; MEA i EDM to domeny procesów, a nie fazy wdrożenia."
+    "zaawansowany": "Zarząd ocenia cały program, a nie jedną liczbę. Audytor wskazuje następny słaby proces, więc pojawia się nowy powód do zmiany – nowa [[faza-1]]. Pierścień zmiany robi „Utrzymanie”: nowe nawyki mają przetrwać rotację ludzi. Pierścień [[pierscien-doskonalenie|doskonalenia]] monitoruje i ocenia, co poprawić w kolejnej iteracji.",
+    "skrajny": "Na egzaminie widzisz opcje: „Monitorowanie i szacowanie”, „Monitoruj, Oszacuj i Oceń”, „Oszacuj, Kieruj i Monitoruj”. Wszystkie mają „monitor”, ale tylko pierwsza to działanie fazy 7. Druga to domena procesów [[mea|MEA]], trzecia – praktyki Ładu [[edm|EDM]]. W banku wszystkie trzy mogą działać naraz: audyt monitoruje procesy (MEA), zarząd ocenia kierunek (EDM), a zespół wdrożenia robi fazę 7. Do tego faza 7 nie jest końcem: identyfikuje dalsze wymagania i otwiera nową iterację. **Rozstrzygnięcie:** „Monitorowanie i szacowanie” jako działanie cyklu = faza 7 w pierścieniu doskonalenia; MEA i EDM to domeny procesów, a nie fazy wdrożenia."
   },
   "zagmatwania": [
     {

@@ -1184,3 +1184,93 @@ body.presenting .stage-head { position: static; }
 }
 .atlas li > a:first-child { flex: 1; }
 .atlas-lesson { font-size: .78rem; color: var(--accent) !important; white-space: nowrap; }
+
+/* ---------- Tryb nauki (2026-11-08): minimalistyczna kanwa, szczegóły w panelu ----------
+   Lekcja zasłania pasek aplikacji: na ekranie zostaje ✕, tytuł, cienki pasek postępu,
+   jedna myśl slajdu i dwa przyciski. Wszystko inne – w panelu „Szczegóły” (S). */
+body.learning .topbar { display: none; }
+body.learning .lesson { height: 100vh; }
+body.learning .lesson .stage { padding: 0 clamp(16px, 5vw, 64px) 20px; }
+.learn-head {
+  position: sticky; top: 0; z-index: 6; background: var(--bg);
+  display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 14px;
+  max-width: 860px; width: 100%; margin: 0 auto; padding: 14px 0 10px;
+}
+.learn-exit { width: 40px; justify-content: center; font-size: 1.05rem; color: var(--text-3); }
+.learn-exit:hover { color: var(--text); }
+.learn-title { min-width: 0; display: flex; flex-direction: column; line-height: 1.3; }
+.learn-mod { font-size: .7rem; color: var(--text-3); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.learn-title strong { font-size: .9rem; font-weight: 550; color: var(--text-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.learn-det { border: 1px solid var(--border); border-radius: 99px; padding: 6px 14px; white-space: nowrap; }
+.learn-det[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--text); }
+.det-n { display: inline-grid; place-items: center; min-width: 20px; height: 20px; padding: 0 6px; margin-left: 6px; border-radius: 99px; background: var(--accent); color: var(--accent-text); font-size: .72rem; font-weight: 700; }
+.learn-prog { max-width: 860px; width: 100%; margin: 0 auto; height: 3px; border-radius: 99px; background: var(--border); overflow: hidden; flex-shrink: 0; }
+.learn-prog > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .35s var(--ease); }
+body.learning .canvas { max-width: 720px; min-height: calc(100vh - 190px); padding: clamp(24px, 6vh, 64px) 0 24px; justify-content: center; }
+body.learning .slide-meta { margin-bottom: 18px; min-height: 0; }
+body.learning .slide-body p { max-width: 56ch; }
+body.learning .slide-foot { max-width: 860px; border-top: 0; padding: 10px 0; position: sticky; bottom: 0; background: var(--bg); z-index: 5; }
+body.learning .slide-foot .lcount { color: var(--text-3); font-size: .85rem; font-variant-numeric: tabular-nums; }
+body.learning .gate, body.learning .simpler { max-width: 720px; margin-left: auto; margin-right: auto; }
+
+/* Panel szczegółów: na komputerze obok slajdu (slajd się przesuwa), na telefonie od dołu. */
+body.learning .lesson:not(.sidebar-closed) { grid-template-columns: minmax(0, 1fr) min(440px, 38vw); }
+@media (min-width: 981px) {
+  body.learning .sidebar { position: relative; inset: auto; width: auto; height: 100vh; box-shadow: none; border-left: 1px solid var(--border); animation: none; }
+}
+@media (max-width: 980px) {
+  body.learning .lesson:not(.sidebar-closed) { grid-template-columns: minmax(0, 1fr); }
+  body.learning .canvas { min-height: calc(100vh - 220px); }
+}
+.sb-actions { display: flex; flex-wrap: wrap; gap: 2px; margin: 0 0 4px -10px; }
+.sb-actions .flags { margin: 0; justify-content: flex-start; max-width: none; }
+.det-moved { display: grid; gap: 16px; }
+.det-moved > .box-label:first-child { margin-top: 0; }
+.sb-body .table-wrap { overflow-x: auto; }
+.sb-body table { border-collapse: collapse; width: 100%; font-size: .86rem; }
+.sb-body th, .sb-body td { text-align: left; padding: 8px 10px 8px 0; border-bottom: 1px solid var(--border); vertical-align: top; }
+.sb-body th { color: var(--text-3); font-weight: 600; font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; }
+.sb-body .compass { font-size: .85em; }
+@media (max-width: 720px) {
+  .learn-head { gap: 8px; padding: 10px 0 8px; }
+  .learn-det { padding: 6px 10px; }
+}
+
+/* ---------- Start (2026-11-08): jeden przycisk, ścieżka postępu, reszta pod „Więcej” ---------- */
+.home-min .hero { padding-top: clamp(8px, 4vh, 40px); }
+.home-min .hero-why { color: var(--text-2); margin: 14px 0 6px; }
+.journey { margin: 44px 0 0; padding: 22px 22px 10px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.journey-top { display: flex; justify-content: space-between; align-items: baseline; font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--text-3); font-weight: 600; }
+.journey-top strong { font-size: 1.6rem; letter-spacing: -0.02em; color: var(--text); text-transform: none; }
+.journey-bar { height: 6px; margin: 10px 0 18px; }
+.milestones { list-style: none; margin: 0; padding: 0; position: relative; }
+.milestones::before { content: ""; position: absolute; left: 11px; top: 14px; bottom: 22px; width: 2px; background: var(--border); }
+.milestones li { position: relative; display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; padding: 10px 0; }
+.ms-dot { width: 24px; height: 24px; border-radius: 99px; display: grid; place-items: center; font-size: .72rem; font-weight: 700; background: var(--surface); border: 2px solid var(--border-strong); color: var(--accent-text); z-index: 1; }
+.milestones li.done .ms-dot { background: var(--ok); border-color: var(--ok); }
+.milestones li.now .ms-dot { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+.milestones li.ms-goal .ms-dot { border-style: dashed; color: var(--text); font-size: .8rem; }
+.ms-name { font-weight: 550; color: var(--text-2); }
+.milestones li.now .ms-name { color: var(--text); font-weight: 650; }
+.milestones li.done .ms-name { color: var(--text-3); }
+.ms-meta { font-size: .8rem; color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.ms-meta b { color: var(--accent); font-weight: 600; }
+.ms-bar { grid-column: 2 / -1; height: 3px; border-radius: 99px; background: var(--border); overflow: hidden; display: none; }
+.milestones li.now .ms-bar { display: block; }
+.ms-bar > span { display: block; height: 100%; background: var(--accent); }
+.quick-links { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 0; }
+.quick-links a { flex: 1 1 140px; text-align: center; padding: 12px 14px; border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); text-decoration: none; font-weight: 550; background: var(--surface); }
+.quick-links a:hover { border-color: var(--accent); }
+.home-more { margin-top: 36px; }
+.home-more > summary { font-weight: 600; }
+.home-min .notice.backup { margin-top: 18px; }
+
+/* ---------- Skupienie (2026-11-08): mniej ozdobników na slajdzie ---------- */
+body.learning .term .q { display: none; }
+body.learning .term { background-image: none; border-bottom: 1.5px dotted color-mix(in srgb, var(--accent) 70%, transparent); }
+body.learning .term.trap { border-bottom-color: var(--trap-border); }
+body.learning .slide-body p.wniosek { background: none; border: 0; padding: 0; margin-top: 28px; font-size: 1.05em; }
+body.learning .slide-body p.wniosek strong:first-child { display: block; font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--text-3); font-weight: 600; margin-bottom: 4px; }
+body.learning .slide-body .box { font-size: .9em; }
+body.learning .slide-meta:empty { display: none; }
+.src-foot { margin: 36px 0 0 !important; padding-top: 10px; border-top: 1px solid var(--border); font-size: .76rem; color: var(--text-3); max-width: none !important; }

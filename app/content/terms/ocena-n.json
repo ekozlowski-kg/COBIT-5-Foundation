@@ -32,8 +32,8 @@
   "przyklady": {
     "zycie": "Sprawdzasz, czy syn odrabia lekcje sam. Przez miesiąc zrobił to raz, po trzech przypomnieniach. To N: śladu prawie nie ma.",
     "biuro": "Sprawdzasz, czy pisma przychodzące są wpisywane do rejestru. Na sto pism wpisane są dwa. To N.",
-    "organizacja": "W hurtowni jest jedna kopia zapasowa sprzed roku i nikt nie wie, gdzie leży. W urzędzie gminy na sto spraw tylko dwie zarejestrowano w terminie. W obu przypadkach ocena to N.",
-    "psp": "**Kopie, których nie było**\nAudytorka Ewa Lis sprawdza proces kopii zapasowych Syreny. Znajduje jedną kopię z jesieni, a odtwarzania nikt nigdy nie próbował. PA 1.1 dostaje N, więc proces ma poziom 0. To ocena [[ocena-n|N – Nieosiągnięty]].",
+    "organizacja": "W hurtowni jest jedna kopia zapasowa sprzed roku i nikt nie wie, gdzie leży. Ocena to N.",
+    "admin": "W urzędzie gminy na sto spraw tylko dwie zarejestrowano w terminie. Dowodów prawie nie ma, więc ocena to N – Nieosiągnięty.",
     "it": "Asesor ocenia PA 1.1 dla DSS04. Planu ciągłości nie ma, są tylko stare kopie zapasowe. Ocena N oznacza poziom 0."
   },
   "nieMylicZ": [
@@ -76,8 +76,8 @@
   "mapa": "ocena-n",
   "glebokosc": {
     "prosty": "Sprawdzasz, czy sąsiad podlewa Twoje kwiatki podczas urlopu. Wracasz po dwóch tygodniach i ziemia jest sucha. Może raz podlał, może wcale. To ocena N: prawie nic.",
-    "zaawansowany": "Lis ocenia PA 1.1 procesu kopii zapasowych. Znajduje pojedynczą kopię i brak testów odtwarzania, więc daje N. Według [[skala-ocen|skali ocen]] to 0–15%. Proces nie ma nawet poziomu 1, bo PA 1.1 musiałby mieć co najmniej [[ocena-w|W]]. Wynik to poziom 0, czyli proces niekompletny.",
-    "skrajny": "Lis liczy dowody i wychodzi jej dokładnie 15%. Dudek protestuje: „Coś przecież robimy, to już Częściowy!”. Skala ma jednak przedziały 0–15% dla N i >15–50% dla C, więc granica należy do N. Druga zagadka: proces powiadamiania ma poziom 2, a PA 3.1 dostaje N. Czy to obniża ocenę? Nie, N na wyższym atrybucie oznacza tylko, że poziomu 3 brak. **Rozstrzygnięcie:** dokładnie 15% = N (konwencja ISO/IEC 15504-2, nie tekst FW-PL); N na atrybucie wyższego poziomu nie odbiera poziomu już osiągniętego."
+    "zaawansowany": "Audytor ocenia PA 1.1 procesu kopii zapasowych. Znajduje pojedynczą kopię i brak testów odtwarzania, więc daje N. Według [[skala-ocen|skali ocen]] to 0–15%. Proces nie ma nawet poziomu 1, bo PA 1.1 musiałby mieć co najmniej [[ocena-w|W]]. Wynik to poziom 0, czyli proces niekompletny.",
+    "skrajny": "Audytor liczy dowody i wychodzi mu dokładnie 15%. Kierownik helpdesku protestuje: „Coś przecież robimy, to już Częściowy!”. Skala ma jednak przedziały 0–15% dla N i >15–50% dla C, więc granica należy do N. Druga zagadka: proces obsługi incydentów ma poziom 2, a PA 3.1 dostaje N. Czy to obniża ocenę? Nie, N na wyższym atrybucie oznacza tylko, że poziomu 3 brak. **Rozstrzygnięcie:** dokładnie 15% = N (konwencja ISO/IEC 15504-2, nie tekst FW-PL); N na atrybucie wyższego poziomu nie odbiera poziomu już osiągniętego."
   },
   "zagmatwania": [
     {

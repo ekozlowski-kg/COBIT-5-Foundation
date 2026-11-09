@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Codziennie zamykasz drzwi na klucz, w telefonie masz blokadę ekranu, a w banku podwójne logowanie. Gdy dostajesz dziwnego SMS-a z linkiem, nie klikasz. Gdy zgubisz klucze, wymieniasz zamek. To codzienna ochrona.",
     "biuro": "Gdy pracownik odchodzi, oddaje klucze i kartę wejścia. Szafa z teczkami osobowymi jest zamknięta, a klucz ma tylko kadrowa.",
-    "organizacja": "W biurze rachunkowym administrator aktualizuje antywirusa, odbiera dostęp byłym pracownikom i przegląda logi. W starostwie informatyk nadaje uprawnienia według wniosków i codziennie sprawdza alerty zapory.",
-    "psp": "**Cudze konto.** Ola Dudek odkrywa, że Kasia Nowik loguje się do Syreny na koncie Graba, bo jej konto nie działało. Dudek od razu zakłada Nowik własne konto, zmienia hasło Graba i włącza powiadomienie o logowaniu z dwóch stanowisk naraz. Drzwi do nowej serwerowni otwiera tylko karta. Codzienna ochrona dostępu, kont i sprzętu to [[proc-dss05]].",
+    "organizacja": "W biurze rachunkowym administrator aktualizuje antywirusa, odbiera dostęp byłym pracownikom i przegląda logi.",
+    "admin": "W starostwie informatyk nadaje uprawnienia do systemów tylko na podstawie wniosku podpisanego przez naczelnika wydziału. Gdy urzędnik odchodzi z pracy, kadry tego samego dnia zgłaszają to informatykowi, a ten blokuje konto i odbiera kartę wejścia do serwerowni. Codziennie rano informatyk przegląda ostrzeżenia zapory sieciowej i antywirusa.",
     "it": "Praktyki DSS05: ochrona przed złośliwym oprogramowaniem, sieć, urządzenia końcowe, tożsamość i dostęp, dostęp fizyczny, dokumenty wrażliwe i monitorowanie zdarzeń."
   },
   "nieMylicZ": [
@@ -87,8 +87,8 @@
   "mapa": "proc-dss05",
   "glebokosc": {
     "prosty": "Rodzina ustaliła zasadę: klucze tylko dla domowników, a hasło do wi-fi nie dla gości. To zasada. Codzienne zamykanie drzwi, zmiana hasła po wizycie hydraulika i sprawdzanie, kto stoi pod domofonem – to już wykonywanie ochrony.",
-    "zaawansowany": "Sikora spisuje zasady bezpieczeństwa Syreny: kto może mieć konto, jak często zmieniać hasła, kto odpowiada za ochronę. To APO13 ([[proc-apo13]]). Dudek na co dzień zakłada konta, aktualizuje antywirusa i przegląda alerty logowania – to [[proc-dss05]]. Ewa Lis raz na kwartał sprawdza, czy te zabezpieczenia działają ([[proc-mea02]]).",
-    "skrajny": "W jednym tygodniu dzieją się trzy rzeczy. Sikora aktualizuje plan bezpieczeństwa informacji komendy i przedstawia go komendantce. Dudek blokuje konto byłego dyżurnego i odkrywa próbę logowania z zewnątrz. Lis sprawdza na próbce, czy konta odchodzących osób są blokowane w ciągu doby. Wszystko dotyczy „bezpieczeństwa”, ale to trzy różne procesy. Plan i system zarządzania to APO13. Codzienna ochrona i reakcja to DSS05. Ocena, czy kontrole działają, to MEA02. **Rozstrzygnięcie:** APO13 organizuje bezpieczeństwo, DSS05 je wykonuje, MEA02 sprawdza, czy działa. Słowo „usługi” w nazwie DSS05 to wskazówka, że chodzi o operacyjną ochronę."
+    "zaawansowany": "Kierownik IT banku spisuje zasady bezpieczeństwa bankowości internetowej: kto może mieć konto, jak często zmieniać hasła, kto odpowiada za ochronę. To APO13 ([[proc-apo13]]). Administratorka na co dzień zakłada konta, aktualizuje antywirusa i przegląda alerty logowania – to [[proc-dss05]]. Audytorka wewnętrzna raz na kwartał sprawdza, czy te zabezpieczenia działają ([[proc-mea02]]).",
+    "skrajny": "W jednym tygodniu dzieją się trzy rzeczy. Kierownik IT aktualizuje plan bezpieczeństwa informacji banku i przedstawia go zarządowi. Administratorka blokuje konto byłego pracownika i odkrywa próbę logowania z zewnątrz. Audytorka wewnętrzna sprawdza na próbce, czy konta odchodzących osób są blokowane w ciągu doby. Wszystko dotyczy „bezpieczeństwa”, ale to trzy różne procesy. Plan i system zarządzania to APO13. Codzienna ochrona i reakcja to DSS05. Ocena, czy kontrole działają, to MEA02. **Rozstrzygnięcie:** APO13 organizuje bezpieczeństwo, DSS05 je wykonuje, MEA02 sprawdza, czy działa. Słowo „usługi” w nazwie DSS05 to wskazówka, że chodzi o operacyjną ochronę."
   },
   "zagmatwania": [
     {

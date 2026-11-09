@@ -19,12 +19,11 @@
     "biuro": "Praktyka w biurze brzmi: „Zapewnij sprawne drukarki”. Działania to cotygodniowe sprawdzenie tonera, zgłoszenie zacięcia serwisowi i wpis naprawy do zeszytu. Wejście to mail pracownika „drukarka nie działa”, wyjście to wpis w zeszycie napraw z datą.",
     "firma": "W piekarni praktyka brzmi: „Zarządzaj dostawcami”. Działania: co kwartał porównać ceny mąki w dwóch hurtowniach, sprawdzić, czy dostawy przychodziły na czas, podpisać aneks. Wejście to faktury i notatki o spóźnieniach, wyjście to podpisana umowa – po roku widać z tych papierów, dlaczego zmieniono dostawcę.",
     "admin": "W starostwie praktyka brzmi: „Rejestruj i klasyfikuj zgłoszenia”. Gdy urzędniczka dzwoni, że drukarka nie drukuje, informatyk wykonuje działania: zapisuje zgłoszenie, nadaje mu priorytet, naprawia i zamyka sprawę. Wejście to telefon urzędniczki, wyjście to zamknięte zgłoszenie w rejestrze.",
-    "psp": "W komendzie praktyka brzmi: „Zarządzaj zgłoszeniami i incydentami”. Gdy dyżurny SK zgłasza, że nie działa radiostacja bazowa, informatyk rejestruje awarię z godziną i priorytetem, przełącza na łączność zapasową i wzywa serwis – to działania. Wejście to zgłoszenie dyżurnego, wyjście to wpis w rejestrze i notatka dla kierownika, czyli ślad na wypadek kontroli.",
     "it": "Proces DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) ma m.in. praktykę DSS02.02, czyli rejestrowanie, klasyfikowanie i ustalanie priorytetów zgłoszeń i incydentów. Jej działania to np. zapisanie zgłoszenia i nadanie mu priorytetu, a wyjściem jest sklasyfikowane zgłoszenie w rejestrze, z którego korzystają kolejne praktyki."
   },
   "glebokosc": {
     "prosty": "Przepis na pierogi. „Zrób ciasto” to praktyka – mówi, co trzeba zrobić. „Wsyp mąkę, dodaj wodę, wyrabiaj 10 minut” to działania – mówią jak. Mąka i woda wchodzą, ciasto wychodzi, a babcia i tak dopasuje przepis do swojej kuchni.",
-    "zaawansowany": "W [[proces|procesie]] zarządzania incydentami Syreny kpt. Sikora bierze praktykę „rejestruj i klasyfikuj zgłoszenia”. Działania mówią, jak to robić: przyjąć zgłoszenie od dyżurnego, nadać priorytet, przypisać osobę. Wejściem jest telefon asp. sztab. Graba o niedziałającej syrenie w Zawilcach, a wyjściem wpis w rejestrze, czyli ślad rewizyjny dla Ewy Lis. Działania pomagają też ustalić, kto co robi w tabeli [[raci|RACI]]. Szczegółowe kroki Sikora bierze z [[itil|ITIL]], bo COBIT nie schodzi aż tak nisko.",
+    "zaawansowany": "W [[proces|procesie]] zarządzania incydentami systemu CRM kierownik działu IT bierze praktykę „rejestruj i klasyfikuj zgłoszenia”. Działania mówią, jak to robić: przyjąć zgłoszenie od użytkownika, nadać priorytet, przypisać osobę. Wejściem jest telefon konsultantki z oddziału, u której nie działa system, a wyjściem wpis w rejestrze, czyli ślad rewizyjny dla audytorki wewnętrznej. Działania pomagają też ustalić, kto co robi w tabeli [[raci|RACI]]. Szczegółowe kroki kierownik bierze z [[itil|ITIL]], bo COBIT nie schodzi aż tak nisko.",
     "skrajny": "Framework mówi, że działania to zbiór kroków **koniecznych i wystarczających** do osiągnięcia praktyki, a zaraz potem, że **nie mają charakteru normatywnego**. Brzmi to jak sprzeczność: skoro konieczne, to czemu nie obowiązkowe? „Konieczne i wystarczające” opisuje treść typowego zestawu kroków, a „nienormatywne” – sposób użycia: trzeba je dostosować i rozwinąć w konkretne procedury. Do tego organizacja może nie wdrożyć części praktyk, jeśli świadomie akceptuje ryzyko. W modelu oceny ISO 15504 odpowiednikiem praktyk są praktyki bazowe – to trzecie słowo na podobną rzecz. **Rozstrzygnięcie:** praktyka = co, działanie = jak; działania są kompletne co do treści, ale nie są przepisem do wykonania dosłownie – zawsze się je dopasowuje."
   },
   "zagmatwania": [
@@ -84,7 +83,7 @@
   },
   "pulapka": false,
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "proces",

@@ -36,7 +36,7 @@
     "zycie": "Telefon pyta: „Zainstalować aktualizację dziś o 2:00 w nocy?”. To zaplanowana zmiana w porze, gdy nie korzystasz z telefonu.",
     "biuro": "Informatyk zapowiada: „W sobotę wymieniamy serwer plików, w poniedziałek foldery będą jak zwykle”. Zmiana jest zaplanowana poza godzinami pracy.",
     "organizacja": "Bank zmienia system kont. Najpierw testuje go miesiąc na kopii danych, potem wdraża w długi weekend.",
-    "psp": "Sikora planuje powiększyć dysk serwera „Syreny”. Wybiera godzinę, gdy jest najmniej alarmów, i ustala, że Grab ma w tym czasie pod ręką papierową listę telefonów.",
+    "admin": "Urząd marszałkowski chce zainstalować nową wersję systemu do obsługi dotacji unijnych. Kierownik informatyki ocenia ryzyko, a dyrektor wydziału zatwierdza termin. Zmianę testuje się tydzień na kopii danych, wdraża w sobotę, a na wypadek kłopotów jest gotowy plan powrotu do starej wersji.",
     "it": "Zmianami w IT zarządza proces BAI06 Zarządzanie zmianami (FW-PL s. 33)."
   },
   "nieMylicZ": [
@@ -75,7 +75,7 @@
   ],
   "glebokosc": {
     "prosty": "Przestawiasz meble w salonie. Jeśli zrobisz to w nocy po ciemku, ktoś się potknie. Lepiej uprzedzić domowników, zrobić to w dzień i sprawdzić, czy wszyscy wiedzą, gdzie teraz stoi stół.",
-    "zaawansowany": "Kwant-Sygnał w piątek o 16:00 wgrywa nową wersję „Syreny” bez uprzedzenia. O 17:30 dyżurni nie mogą wysłać alarmu. To zmiana bez planu, testu i zgody komendy, która wywołała [[it-incydent|incydent]]. Odtąd Sikora wymaga: każda zmiana „Syreny” tylko po zgodzie i z planem powrotu do starej wersji.",
+    "zaawansowany": "Dostawca systemu w piątek o 16:00 wgrywa nową wersję sklepu internetowego bez uprzedzenia. O 17:30 klienci nie mogą zapłacić za zamówienia. To zmiana bez planu, testu i zgody firmy, która wywołała [[it-incydent|incydent]]. Odtąd CIO wymaga: każda zmiana w systemie tylko po zgodzie i z planem powrotu do starej wersji.",
     "skrajny": "Czy wymiana papieru w drukarce to zmiana? Nie – to zwykła obsługa, nie zmienia działania systemu. Czy pilna poprawka w nocy, bo system nie działa, to zmiana? Tak – tak zwana zmiana awaryjna, z uproszczonym, ale zapisanym zatwierdzeniem. Czy aktualizacja przez dostawcę to „jego sprawa”? Nie – wpływa na usługę organizacji. **Rozstrzygnięcie:** zmiana to każda modyfikacja, która może wpłynąć na działanie usługi; nawet pilna albo zrobiona przez dostawcę wymaga zgody i zapisu."
   },
   "zagmatwania": [
@@ -91,7 +91,7 @@
   "mentor": {
     "czestyBlad": "Robienie zmian „na szybko” bez testu i planu powrotu.",
     "jakTlumaczyc": "Przestawianie mebli: uprzedź, zrób za dnia, sprawdź, czy da się wrócić do starego układu.",
-    "pytanieKontrolne": "Dostawca chce w piątek po południu wgrać nową wersję „Syreny”. Co powinien wcześniej zrobić?",
-    "odpowiedzKontrolna": "Złożyć wniosek o zmianę, przetestować ją, uzyskać zgodę komendy, wybrać spokojną porę i przygotować plan powrotu do starej wersji."
+    "pytanieKontrolne": "Dostawca chce w piątek po południu wgrać nową wersję systemu sklepu internetowego. Co powinien wcześniej zrobić?",
+    "odpowiedzKontrolna": "Złożyć wniosek o zmianę, przetestować ją, uzyskać zgodę firmy, wybrać spokojną porę i przygotować plan powrotu do starej wersji."
   }
 }

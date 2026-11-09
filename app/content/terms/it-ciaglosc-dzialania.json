@@ -26,18 +26,18 @@
     "it-incydent"
   ],
   "poLudzku": "Umiejętność dalszej pracy, gdy zdarzy się coś złego, i szybkiego powrotu do normy.",
-  "poziom1": "Ciągłość działania to przygotowanie organizacji na poważne zakłócenia (pożar, długi brak prądu, awaria serwerowni), żeby najważniejsze zadania mogły trwać, a reszta szybko wróciła do normy.",
-  "poziom2": "Plan ciągłości mówi: które usługi są najważniejsze, jak długo mogą nie działać, co robimy zamiast nich (np. alarm telefonem), gdzie jest zapasowy sprzęt i kopie zapasowe, kto co robi. Plan trzeba ćwiczyć, bo nieprzećwiczony zawodzi w stresie.",
+  "poziom1": "Ciągłość działania to przygotowanie organizacji na poważne zakłócenia (zalanie budynku, długi brak prądu, awaria serwerowni), żeby najważniejsze zadania mogły trwać, a reszta szybko wróciła do normy.",
+  "poziom2": "Plan ciągłości mówi: które usługi są najważniejsze, jak długo mogą nie działać, co robimy zamiast nich (np. obsługa klientów telefonicznie), gdzie jest zapasowy sprzęt i kopie zapasowe, kto co robi. Plan trzeba ćwiczyć, bo nieprzećwiczony zawodzi w stresie.",
   "poziom3": "Słownik FW-PL: ciągłość działalności biznesowej to *„Zapobieganie zakłóceniom działalności, łagodzenie ich skutków i odtwarzanie.”* (s. 89). Proces: DSS04 Zarządzanie ciągłością (s. 33). Cel organizacji nr 7: *„Ciągłość i dostępność usług biznesowych”* (s. 19).",
   "wyobrazSobie": "Rodzina przed burzą: latarki, woda, naładowany telefon i ustalone, kto po kogo jedzie, jeśli zamkną drogi.",
   "poCo": "Żeby organizacja nie przestała działać, gdy zdarzy się poważna awaria albo katastrofa.",
   "jakDziala": "Organizacja ustala, co jest najważniejsze i ile może trwać przerwa. Przygotowuje zapasowe rozwiązania: drugi serwer, kopie danych, procedury ręczne. Spisuje plan i go ćwiczy. Po zakłóceniu plan wchodzi w życie.",
-  "dlaczegoWazne": "Dla służb ratowniczych przerwa w kluczowych usługach może kosztować życie. COBIT 5 stawia ciągłość wśród celów organizacji.",
+  "dlaczegoWazne": "Dla banku czy szpitala przerwa w kluczowych usługach oznacza straty, kary od regulatora, a w szpitalu nawet zagrożenie zdrowia pacjentów. COBIT 5 stawia ciągłość wśród celów organizacji.",
   "przyklady": {
     "zycie": "W domu masz zapas świec, wody i zapasową baterię do telefonu. Gdy wyłączą prąd na dobę, rodzina normalnie funkcjonuje.",
     "biuro": "Gdy pada Internet w biurze, pracownicy wiedzą: pilne maile wysyłają z telefonów, a faktury wypisują ręcznie z szablonu.",
     "organizacja": "Bank ma zapasową serwerownię w innym mieście i co pół roku ćwiczy przeniesienie do niej całej pracy.",
-    "psp": "Plan ciągłości komendy: gdy „Syrena” nie działa, dyżurny dzwoni do OSP Zawilce z listy w segregatorze, a Ola uruchamia zapasowy serwer w JRG 2.",
+    "admin": "Urząd marszałkowski ustalił, że wypłaty dotacji unijnych nie mogą stać dłużej niż dwa dni. Ma zapasowy serwer w innym budynku, kopie danych i spisaną procedurę ręczną na czas awarii. Raz w roku ćwiczy plan: wyłącza główny system i sprawdza, czy urzędnicy dadzą radę pracować dalej.",
     "it": "Ciągłością zajmuje się DSS04 Zarządzanie ciągłością; FW-PL definiuje ciągłość działalności biznesowej (s. 89)."
   },
   "nieMylicZ": [
@@ -81,8 +81,8 @@
   ],
   "glebokosc": {
     "prosty": "Przed długą podróżą samochodem bierzesz koło zapasowe, numer do pomocy drogowej i mapę na wypadek braku zasięgu. Nie planujesz awarii, ale jeśli się zdarzy, dojedziesz.",
-    "zaawansowany": "Komendantka Wrzos pyta: „Co robimy, gdy serwer pod schodami spłonie?”. Sikora przedstawia plan: kopia bazy w JRG 2, zapasowy serwer, lista telefonów na papierze i ćwiczenie co kwartał. [[it-kopia-zapasowa|Kopia zapasowa]] to tylko jeden element. Bez ćwiczeń nikt by w nocy nie wiedział, co robić.",
-    "skrajny": "Czy dwa serwery w tej samej piwnicy zapewniają ciągłość? Nie przy pożarze piwnicy. Czy plan w szufladzie, którego nikt nie ćwiczył, wystarczy? Zwykle zawodzi w stresie. Czy ciągłość to tylko sprawa IT? Nie – FW-PL mówi o ciągłości **działalności** (s. 89), a więc też o ludziach i procedurach ręcznych. **Rozstrzygnięcie:** ciągłość działania to przygotowanie całej organizacji – nie tylko IT – na poważne zakłócenia: zapobieganie, łagodzenie skutków i odtwarzanie, sprawdzane w ćwiczeniach."
+    "zaawansowany": "Zarząd banku pyta: „Co robimy, gdy serwerownię w piwnicy zaleje woda?”. CIO przedstawia plan: kopia bazy w drugim centrum danych, zapasowy serwer, papierowa lista telefonów i test co kwartał. [[it-kopia-zapasowa|Kopia zapasowa]] to tylko jeden element. Bez ćwiczeń nikt by w nocy nie wiedział, co robić.",
+    "skrajny": "Czy dwa serwery w tej samej piwnicy zapewniają ciągłość? Nie przy zalaniu piwnicy. Czy plan w szufladzie, którego nikt nie ćwiczył, wystarczy? Zwykle zawodzi w stresie. Czy ciągłość to tylko sprawa IT? Nie – FW-PL mówi o ciągłości **działalności** (s. 89), a więc też o ludziach i procedurach ręcznych. **Rozstrzygnięcie:** ciągłość działania to przygotowanie całej organizacji – nie tylko IT – na poważne zakłócenia: zapobieganie, łagodzenie skutków i odtwarzanie, sprawdzane w ćwiczeniach."
   },
   "zagmatwania": [
     {
@@ -97,7 +97,7 @@
   "mentor": {
     "czestyBlad": "Sprowadzanie ciągłości działania do kopii zapasowych i zapasowego sprzętu.",
     "jakTlumaczyc": "Rodzina przed burzą: zapasy, plan, kto co robi – i próbna „noc bez prądu”.",
-    "pytanieKontrolne": "Wymień trzy elementy planu ciągłości dla „Syreny”.",
-    "odpowiedzKontrolna": "Np. kopia bazy w innym budynku, zapasowy serwer, papierowa lista telefonów do OSP i regularne ćwiczenia."
+    "pytanieKontrolne": "Wymień trzy elementy planu ciągłości dla bankowości internetowej.",
+    "odpowiedzKontrolna": "Np. kopia bazy w innym centrum danych, zapasowy serwer, procedura obsługi klientów przez telefon i regularne testy awaryjne."
   }
 }

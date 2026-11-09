@@ -19,12 +19,11 @@
     "biuro": "W biurze od miesięcy drukarka zacina się kilka razy dziennie, a dwa działy osobno zamawiają ten sam toner u różnych dostawców i przepłacają. Wszyscy narzekają na zebraniach – te punkty zapalne w końcu przekonują kierownika do uporządkowania zakupów i serwisu.",
     "firma": "W sklepie internetowym trzeci raz w miesiącu pada strona w czasie promocji, a klienci piszą złe opinie. Do tego firma płaci za dwa programy do faktur, bo każdy wspólnik kupił swój. Te powtarzające się problemy to punkty zapalne – argument, żeby wreszcie uporządkować IT.",
     "admin": "Audyt wewnętrzny drugi rok z rzędu pisze w raporcie to samo: konta byłych pracowników urzędu gminy nadal mają dostęp do systemów. Wójt ma dość tłumaczenia się radzie. Powtarzające się złe wyniki audytu to klasyczny punkt zapalny.",
-    "psp": "W komendzie dwa wydziały kupiły dwa różne programy do map, które ze sobą nie współpracują. Kontrola z KW PSP drugi raz wytyka te same braki w kopiach zapasowych, a serwis łączności przyjeżdża po trzech dniach zamiast po 24 godzinach. To punkty zapalne: dublujące się inicjatywy, powtarzające się wyniki audytu i problemy z outsourcingiem.",
     "it": "Audyt trzeci rok z rzędu wskazuje brak przeglądów uprawnień, a dwa działy utrzymują osobne, zdublowane systemy zgłoszeń. Te punkty zapalne uzasadniają inicjatywę wdrożenia, w której organizacja poprawia m.in. DSS05 (Zarządzanie usługami bezpieczeństwa) i APO05 (Zarządzanie portfelem projektów)."
   },
   "glebokosc": {
     "prosty": "Od miesięcy kapie Ci kran, a rachunek za wodę rośnie. To boli na co dzień i w końcu zmusza do naprawy. Gdyby zamiast tego przyszedł list, że od jutra woda drożeje o połowę, byłaby to nowa zmiana z zewnątrz, a nie stary ból.",
-    "zaawansowany": "Halina Mak skarży się, że wydział Sikory i JRG 2 kupiły w tym roku dwa podobne programy do grafików. Asp. sztab. Grab dodaje, że audyt od trzech lat wytyka te same braki w kopiach zapasowych. Oba problemy to punkty zapalne: trwają i wszyscy je czują. Sikora wpisuje je do [[uzasadnienie-biznesowe|uzasadnienia biznesowego]] wdrożenia, bo budują poczucie pilności i dają szansę na szybkie korzyści. Zapowiedziana przez inspektor Ostrowską kontrola to już inna kategoria – [[zdarzenia-wyzwalajace|zdarzenie wyzwalające]].",
+    "zaawansowany": "Dyrektor finansowy banku skarży się, że dział IT i dział kredytów kupiły w tym roku dwa podobne programy do grafików pracy. Kierowniczka helpdesku dodaje, że audyt od trzech lat wytyka te same braki w kopiach zapasowych. Oba problemy to punkty zapalne: trwają i wszyscy je czują. Dyrektor IT wpisuje je do [[uzasadnienie-biznesowe|uzasadnienia biznesowego]] wdrożenia, bo budują poczucie pilności i dają szansę na szybkie korzyści. Zapowiedziana przez regulatora kontrola to już inna kategoria – [[zdarzenia-wyzwalajace|zdarzenie wyzwalające]].",
     "skrajny": "Słowo „audyt” występuje na obu listach. „Wyniki audytu regularnie wskazują problemy” to **punkt zapalny**, bo to powtarzający się, znany ból. „Audyt zewnętrzny lub ocena konsultantów” to **zdarzenie wyzwalające**, bo to impuls, który przychodzi z zewnątrz. Podobnie „nowe wymagania regulacyjne” to zdarzenie wyzwalające, a „niespełnianie wymogów regulacyjnych lub umownych” to punkt zapalny. Intuicja „audyt to zawsze ta sama kategoria” prowadzi tu do złej odpowiedzi. **Rozstrzygnięcie:** pytaj, czy to trwający problem, który boli (punkt zapalny), czy zmiana lub wydarzenie, które daje impuls (zdarzenie wyzwalające); to samo słowo może trafić do obu kategorii."
   },
   "zagmatwania": [
@@ -44,7 +43,7 @@
   "mentor": {
     "czestyBlad": "Mylenie punktów zapalnych ze zdarzeniami wyzwalającymi, zwłaszcza przy słowach „audyt” i „regulacje”.",
     "jakTlumaczyc": "Ból zęba kontra list z przychodni: ból trwa (punkt zapalny), list przychodzi raz i każe działać (zdarzenie wyzwalające). Ćwicz na parach z tym samym słowem.",
-    "pytanieKontrolne": "Do której kategorii należy „audyt od trzech lat wskazuje te same braki”, a do której „zapowiedziana kontrola z komendy wojewódzkiej”? Dlaczego?",
+    "pytanieKontrolne": "Do której kategorii należy „audyt od trzech lat wskazuje te same braki”, a do której „zapowiedziana kontrola regulatora”? Dlaczego?",
     "odpowiedzKontrolna": "Pierwsze to punkt zapalny, bo to powtarzający się, trwający problem. Drugie to zdarzenie wyzwalające, bo to nowe wydarzenie z zewnątrz (audyt zewnętrzny), które daje impuls do działania."
   },
   "nieMylicZ": [

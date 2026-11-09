@@ -1,0 +1,33 @@
+[
+  {
+    "id": "q-pre-ex-00",
+    "typ": "rozpoznanie",
+    "pretest": true,
+    "sylabus": [
+      "M0-00-08"
+    ],
+    "lekcja": "ex-00-jak-czytac-pytanie",
+    "bloom": "wiedza",
+    "trudnosc": 1,
+    "tresc": "Pytanie brzmi: „Która osoba **NIE** jest interesariuszem systemu powiadamiania?”. Czego szukasz wśród odpowiedzi?",
+    "zrodlo": [],
+    "status": "uproszczenie",
+    "opcje": [
+      {
+        "tekst": "Jedynej odpowiedzi, która do reszty nie pasuje, bo trzy pozostałe są interesariuszami",
+        "poprawna": true,
+        "wyjasnienie": "Słowo NIE odwraca pytanie: trzy odpowiedzi są prawdziwe, a Ty szukasz wyjątku."
+      },
+      {
+        "tekst": "Najważniejszego interesariusza",
+        "poprawna": false,
+        "wyjasnienie": "Pytanie nie pyta o ważność, tylko o to, kto **nie** jest interesariuszem."
+      },
+      {
+        "tekst": "Odpowiedzi, która jest prawdziwa",
+        "poprawna": false,
+        "wyjasnienie": "Przy słowie NIE trzy odpowiedzi są prawdziwe. Szukasz tej, która nie pasuje."
+      }
+    ]
+  }
+]

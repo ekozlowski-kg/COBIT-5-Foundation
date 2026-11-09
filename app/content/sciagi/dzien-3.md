@@ -2,7 +2,7 @@
 
 > Do powtórki, nie na egzamin (egzamin jest bez materiałów).
 
-**Dzień 3: siedem aktywatorów po kolei.** Remiza: tablica z regulaminem → grafik zmian → gabinet komendantki → kuchnia → monitor dyżurnego → serwerownia → szatnia.
+**Dzień 3: siedem aktywatorów po kolei.** Biuro firmy: tablica z regulaminem → grafik zmian → gabinet dyrektorki → kuchnia → monitor w biurze obsługi klienta → serwerownia → sala szkoleń.
 
 | # | Aktywator (egzamin PL) | Najważniejsze na egzamin |
 |---|---|---|
@@ -18,8 +18,8 @@
 | Litera | Egzamin PL | Klucz |
 |---|---|---|
 | R | Odpowiedzialny wykonawczo | **wykonuje** |
-| A | Rozliczany | odpowiada za **sukces** |
-| C | Konsultowany | daje wejścia, **dwukierunkowo** |
+| A | Odpowiedzialny decyzyjnie | odpowiada za **sukces** |
+| C | Konsultant | daje wejścia, **dwukierunkowo** |
 | I | Informowany | dostaje informację, **jednokierunkowo** |
 
 Opis procesu = **co** proces robi. Przeznaczenie procesu = **po co** istnieje.

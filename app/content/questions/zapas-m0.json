@@ -1,7 +1,7 @@
 {
   "pytania": [
     {
-      "id": "q-zap-m0-00-zanim-zaczniesz-1",
+      "id": "q-zap-m0-02-cobit-czym-nie-jest-1",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-07"
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-00-zanim-zaczniesz-2",
+      "id": "q-zap-m0-02-cobit-czym-nie-jest-2",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-07"
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-01-interesariusz-1",
+      "id": "q-zap-m0-12-rozne-oczekiwania-1",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-01"
@@ -122,49 +122,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-01-interesariusz-2",
-      "typ": "egzamin",
-      "sylabus": [
-        "M0-00-01"
-      ],
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Która lista zawiera **wyłącznie** interesariuszy zewnętrznych komendy, według podziału z Ilustracji 7?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 22
-        }
-      ],
-      "status": "uproszczenie",
-      "opcje": [
-        {
-          "tekst": "Audytorka wewnętrzna, dyżurni, główna księgowa",
-          "poprawna": false,
-          "wyjasnienie": "Wszystkie te osoby pracują w komendzie, więc to interesariusze wewnętrzni.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Dostawca Syreny, audytorka wewnętrzna, komenda wojewódzka",
-          "poprawna": false,
-          "wyjasnienie": "Audyt wewnętrzny jest interesariuszem wewnętrznym, więc lista nie jest w całości zewnętrzna.",
-          "pulapka": "zbyt-waskie"
-        },
-        {
-          "tekst": "Komendantka, naczelnik OSP Zawilce, dostawca Syreny",
-          "poprawna": false,
-          "wyjasnienie": "Komendantka należy do kierownictwa komendy, więc jest interesariuszem wewnętrznym.",
-          "pulapka": "falsz"
-        },
-        {
-          "tekst": "Komenda wojewódzka, dostawca Syreny, mieszkańcy",
-          "poprawna": true,
-          "wyjasnienie": "Tak. Organ nadzorczy, dostawca i odbiorcy usług (mieszkańcy) są poza komendą."
-        }
-      ]
-    },
-    {
-      "id": "q-zap-m0-02-potrzeba-1",
+      "id": "q-zap-m0-15-wyznacznik-z-czym-nie-mylic-1",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-02"
@@ -201,7 +159,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-02-potrzeba-2",
+      "id": "q-zap-m0-15-wyznacznik-z-czym-nie-mylic-2",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-02"
@@ -243,7 +201,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-03-wartosc-1",
+      "id": "q-zap-m0-18-optymalizacja-1",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-03"
@@ -285,7 +243,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-03-wartosc-2",
+      "id": "q-zap-m0-18-optymalizacja-2",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-03"
@@ -327,7 +285,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-04-ryzyko-zasob-1",
+      "id": "q-zap-m0-22-zasob-1",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-04"
@@ -369,49 +327,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-04-ryzyko-zasob-2",
-      "typ": "egzamin",
-      "sylabus": [
-        "M0-00-04"
-      ],
-      "bloom": "rozumienie",
-      "trudnosc": 1,
-      "tresc": "Kpt. Sikora spisuje zasoby komendy potrzebne do działania Syreny. Co z poniższych **NIE** jest zasobem?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 93
-        }
-      ],
-      "status": "uproszczenie",
-      "opcje": [
-        {
-          "tekst": "Czas pracy dyżurnych",
-          "poprawna": false,
-          "wyjasnienie": "Ludzie i ich czas to zasoby, więc to nie jest odpowiedź na pytanie z NIE.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Aktualne numery telefonów ochotników",
-          "poprawna": false,
-          "wyjasnienie": "Informacja jest kluczowym zasobem organizacji.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Budżet wydziału informatyki",
-          "poprawna": false,
-          "wyjasnienie": "Pieniądze to zasób finansowy.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Burza, która może przerwać zasięg w Zawilcach",
-          "poprawna": true,
-          "wyjasnienie": "Tak. Burza to zagrożenie, czyli źródło ryzyka. Komenda nią nie dysponuje."
-        }
-      ]
-    },
-    {
-      "id": "q-zap-m0-05-proces-projekt-1",
+      "id": "q-zap-m0-24-proces-w-cobit-1",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-05"
@@ -448,7 +364,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-05-proces-projekt-2",
+      "id": "q-zap-m0-24-proces-w-cobit-2",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-05"
@@ -490,7 +406,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-06-lad-zarzadzanie-1",
+      "id": "q-zap-m0-27-lad-czym-nie-jest-1",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-06"
@@ -532,91 +448,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-06-lad-zarzadzanie-2",
-      "typ": "egzamin",
-      "sylabus": [
-        "M0-00-06"
-      ],
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Kto w komendzie zajmuje się **Zarządzaniem**?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 14
-        }
-      ],
-      "status": "uproszczenie",
-      "opcje": [
-        {
-          "tekst": "Komendantka, która co kwartał sprawdza czasy dotarcia alarmów",
-          "poprawna": false,
-          "wyjasnienie": "Sprawdzanie, czy komenda trzyma kierunek, to Monitoruj w Ładzie.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Komendantka, która ustala, że alarm ma dochodzić do wszystkich strażaków",
-          "poprawna": false,
-          "wyjasnienie": "Ustalanie priorytetu to Kieruj, czyli czynność Ładu.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Kierownictwo komendy, które przed decyzją ocenia potrzeby dyżurnych i OSP",
-          "poprawna": false,
-          "wyjasnienie": "Ocena potrzeb przed decyzją to Oszacuj, czyli czynność Ładu.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Naczelnik Sikora, który planuje naprawę Syreny i pilnuje jej działania",
-          "poprawna": true,
-          "wyjasnienie": "Tak. Planowanie i codzienne utrzymanie systemu to Zarządzanie."
-        }
-      ]
-    },
-    {
-      "id": "q-zap-m0-07-cobit-standardy-1",
-      "typ": "egzamin",
-      "sylabus": [
-        "M0-00-07"
-      ],
-      "bloom": "rozumienie",
-      "trudnosc": 1,
-      "tresc": "Komenda chce uzyskać certyfikat, który potwierdzi, że dobrze chroni informacje. Który standard to umożliwia?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 15
-        }
-      ],
-      "status": "uproszczenie",
-      "opcje": [
-        {
-          "tekst": "COBIT 5",
-          "poprawna": false,
-          "wyjasnienie": "Organizacji nie certyfikuje się na COBIT 5. Certyfikat Foundation dostaje osoba.",
-          "pulapka": "falsz"
-        },
-        {
-          "tekst": "ISO/IEC 27001",
-          "poprawna": true,
-          "wyjasnienie": "Tak. To norma bezpieczeństwa informacji, na którą organizacja może uzyskać certyfikat."
-        },
-        {
-          "tekst": "ITIL",
-          "poprawna": false,
-          "wyjasnienie": "ITIL dotyczy zarządzania usługami IT, a nie certyfikacji bezpieczeństwa informacji.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "PRINCE2 / PMBOK",
-          "poprawna": false,
-          "wyjasnienie": "PRINCE2 i PMBOK dotyczą zarządzania projektami.",
-          "pulapka": "inna-kategoria"
-        }
-      ]
-    },
-    {
-      "id": "q-zap-m0-07-cobit-standardy-2",
+      "id": "q-zap-m0-32-liczby-cobit-5-2",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-07"
@@ -658,7 +490,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-08-egzamin-1",
+      "id": "q-zap-m0-35-litera-p-1",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-08"
@@ -699,7 +531,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-08-egzamin-2",
+      "id": "q-zap-m0-35-litera-p-2",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-08"
@@ -734,13 +566,13 @@
         {
           "tekst": "50 minut i 50% punktów",
           "poprawna": false,
-          "wyjasnienie": "50 minut ma tylko osoba zdająca w języku obcym (40 + 10 minut).",
+          "wyjasnienie": "50 minut (40 + 10) ma tylko osoba zdająca w języku obcym albo z niepełnosprawnością.",
           "pulapka": "zbyt-waskie"
         }
       ]
     },
     {
-      "id": "q-zap-m0-09-slowa-wytrychy-1",
+      "id": "q-zap-m0-37-dziwne-slowa-1",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-08"
@@ -777,7 +609,7 @@
       ]
     },
     {
-      "id": "q-zap-m0-09-slowa-wytrychy-2",
+      "id": "q-zap-m0-37-dziwne-slowa-2",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-08"

@@ -41,8 +41,8 @@
   "przyklady": {
     "zycie": "Spółdzielnia zapisuje w regulaminie: winda naprawiona w 24 godziny, śmieci wywożone dwa razy w tygodniu. Raz w roku pokazuje, czy tego dotrzymała. To umowa o poziomie usług, czyli APO09.",
     "biuro": "Informatyk i kierowniczka biura spisują na jednej kartce: poczta działa zawsze, awaria drukarki naprawiona w 4 godziny. Co miesiąc sprawdzają, czy to dotrzymano.",
-    "organizacja": "Dział IT uzgadnia z działem sprzedaży: sklep dostępny 99,9% czasu, awaria krytyczna obsłużona w godzinę. Zapisuje to w SLA i co miesiąc raportuje wynik. To APO09. Referat informatyki publikuje katalog usług dla wydziałów: poczta, drukarki, system kancelaryjny. Przy każdej usłudze podaje czas reakcji. Co kwartał pokazuje, czy go dotrzymał. To APO09.",
-    "psp": "**Alarm w 60 sekund.** Naczelnik Marek Sikora uzgadnia z kierownikiem SK, czego SK może oczekiwać od Syreny. Zapisuje: dostępność całą dobę, alarm u odbiorcy w 60 sekund, nocna awaria – reakcja w 15 minut. Co miesiąc pokazuje, czy tego dotrzymał. To jest [[proc-apo09|APO09]].",
+    "organizacja": "Dział IT uzgadnia z działem sprzedaży: sklep dostępny 99,9% czasu, awaria krytyczna obsłużona w godzinę. Zapisuje to w SLA i co miesiąc raportuje wynik. To APO09.",
+    "admin": "Referat informatyki urzędu miasta publikuje katalog usług dla wydziałów: poczta, drukarki, system kancelaryjny. Przy każdej usłudze podaje czas reakcji. Co kwartał pokazuje, czy go dotrzymał. To APO09.",
     "it": "Dział IT publikuje katalog usług i SLA dla działów, np. dostępność 99,9%. To APO09. Umowy z dostawcami, które pomagają dotrzymać SLA, prowadzi [[proc-apo10]]."
   },
   "nieMylicZ": [
@@ -92,8 +92,8 @@
   "mapa": "proc-apo09",
   "glebokosc": {
     "prosty": "Zamawiasz pizzę z obietnicą: dostawa w 30 minut albo za darmo. To uzgodniony poziom usługi. Pizzeria mierzy czas i wie, czy dotrzymuje słowa. Tak działa umowa o poziomie usług.",
-    "zaawansowany": "Sikora zapisał z SK, że alarm ma dotrzeć w 60 sekund. To APO09. Ale SMS-y wysyła bramka Kwant-Sygnału. Żeby dotrzymać 60 sekund, Sikora potrzebuje odpowiedniego zobowiązania w umowie z dostawcą. To już [[proc-apo10]]. Usługa dla SK to APO09, a kontrakt z Kwant-Sygnałem to APO10.",
-    "skrajny": "Pytanie: „Komenda podpisuje z Kwant-Sygnałem aneks o czasie doręczenia SMS-a”. Słowa „umowa” i „usługa” kuszą, by wybrać APO09, bo tak brzmi jego polska nazwa. Ale to kontrakt z dostawcą, czyli APO10. APO09 to uzgodnienie usług z organizacją, którą IT obsługuje. Poziom z APO09 (60 s dla SK) wyznacza, czego trzeba żądać od dostawcy w APO10. **Rozstrzygnięcie:** usługa i jej poziom uzgodnione z użytkownikami (SLA, katalog) → APO09; dostawca i jego kontrakt → APO10. Podręcznikowe słowo „umowy” niczego nie przesądza. (interpretacja kursu: granica przy umowach z dostawcami, które wspierają SLA)"
+    "zaawansowany": "Dyrektor IT uzgodnił z działem obsługi klienta, że powiadomienie ma dotrzeć do klienta w 60 sekund. To APO09. Ale SMS-y wysyła bramka zewnętrznego dostawcy. Żeby dotrzymać 60 sekund, dyrektor potrzebuje odpowiedniego zobowiązania w umowie z dostawcą. To już [[proc-apo10]]. Usługa dla działu obsługi klienta to APO09, a kontrakt z dostawcą SMS to APO10.",
+    "skrajny": "Pytanie: „Bank podpisuje z dostawcą usług SMS aneks o czasie doręczenia wiadomości”. Słowa „umowa” i „usługa” kuszą, by wybrać APO09, bo tak brzmi jego polska nazwa. Ale to kontrakt z dostawcą, czyli APO10. APO09 to uzgodnienie usług z organizacją, którą IT obsługuje. Poziom z APO09 (60 s dla działu obsługi klienta) wyznacza, czego trzeba żądać od dostawcy w APO10. **Rozstrzygnięcie:** usługa i jej poziom uzgodnione z użytkownikami (SLA, katalog) → APO09; dostawca i jego kontrakt → APO10. Podręcznikowe słowo „umowy” niczego nie przesądza. (interpretacja kursu: granica przy umowach z dostawcami, które wspierają SLA)"
   },
   "zagmatwania": [
     {

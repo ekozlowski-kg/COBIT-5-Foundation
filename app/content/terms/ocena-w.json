@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Córka prawie zawsze wraca na czas, ale raz w miesiącu się spóźnia. Jest system, są drobne wpadki. To W: w większości.",
     "biuro": "Rejestr pism prowadzisz codziennie, ale w co czwartym wpisie brakuje daty odpowiedzi. To W.",
-    "organizacja": "W piekarni plan produkcji powstaje codziennie, ale co piąty dzień nikt go nie sprawdza. W urzędzie około 70% wpisów w rejestrze skarg jest kompletnych. Obie oceny to W.",
-    "psp": "**Prawie zawsze**\nAudytorka Ewa Lis sprawdza, czy praca nad alarmami jest planowana i pilnowana (PA 2.1). Plany są, ale w co czwartym miesiącu nikt ich nie przejrzał. PA 2.1 dostaje W. Przy PA 1.1 = P i PA 2.2 = W proces ma poziom 2. To ocena [[ocena-w|W – Większościowy]].",
+    "organizacja": "W piekarni plan produkcji powstaje codziennie, ale co piąty dzień nikt go nie sprawdza. Ocena to W.",
+    "admin": "W urzędzie marszałkowskim rejestr skarg prowadzi się systematycznie, ale kompletnych jest około 70% wpisów. W pozostałych brakuje daty odpowiedzi. Jest system, są słabości, więc ocena to W – Większościowy.",
     "it": "DSS02 ma PA 1.1 na P, a PA 2.1 i PA 2.2 na W. Proces osiąga poziom 2, ale nie wejdzie na poziom 3."
   },
   "nieMylicZ": [
@@ -83,8 +83,8 @@
   "mapa": "ocena-w",
   "glebokosc": {
     "prosty": "Zdajesz egzamin na prawo jazdy w mieście. Jedziesz dobrze, raz za późno włączasz kierunkowskaz. Egzaminator mówi: „W większości dobrze”. Na ten egzamin wystarczy. Na kurs dla instruktorów już nie.",
-    "zaawansowany": "Lis ocenia proces powiadamiania: PA 1.1 = [[ocena-p|P]], PA 2.1 = W, PA 2.2 = W. Proces ma poziom 2, bo atrybuty poziomu 2 mają co najmniej W, a niższy PA 1.1 ma P. Sikora chce poziomu 3. Najpierw musi dociągnąć PA 2.1 i PA 2.2 do P, bo dla wyższego poziomu W na niższych [[atrybuty-procesu|atrybutach]] już nie wystarcza.",
-    "skrajny": "Proces kopii zapasowych ma PA 1.1 = W, a PA 2.1 i PA 2.2 = P. Dudek mówi: „Poziom 2, przecież atrybuty poziomu 2 są pełne!”. Ale poziom 2 wymaga P na wszystkich niższych atrybutach, a PA 1.1 ma tylko W. Proces ma więc poziom 1, mimo świetnych ocen wyżej. Druga zagadka: Lis liczy dokładnie 85% i waha się między W a P. P zaczyna się powyżej 85%, więc to W. **Rozstrzygnięcie:** W wystarcza tylko na najwyższym ocenianym poziomie; każdy niższy atrybut musi mieć P, a dokładnie 85% = W (konwencja ISO/IEC 15504-2, nie tekst FW-PL)."
+    "zaawansowany": "Audytor ocenia proces obsługi incydentów: PA 1.1 = [[ocena-p|P]], PA 2.1 = W, PA 2.2 = W. Proces ma poziom 2, bo atrybuty poziomu 2 mają co najmniej W, a niższy PA 1.1 ma P. CIO chce poziomu 3. Najpierw musi dociągnąć PA 2.1 i PA 2.2 do P, bo dla wyższego poziomu W na niższych [[atrybuty-procesu|atrybutach]] już nie wystarcza.",
+    "skrajny": "Proces kopii zapasowych ma PA 1.1 = W, a PA 2.1 i PA 2.2 = P. Administrator mówi: „Poziom 2, przecież atrybuty poziomu 2 są pełne!”. Ale poziom 2 wymaga P na wszystkich niższych atrybutach, a PA 1.1 ma tylko W. Proces ma więc poziom 1, mimo świetnych ocen wyżej. Druga zagadka: audytor liczy dokładnie 85% i waha się między W a P. P zaczyna się powyżej 85%, więc to W. **Rozstrzygnięcie:** W wystarcza tylko na najwyższym ocenianym poziomie; każdy niższy atrybut musi mieć P, a dokładnie 85% = W (konwencja ISO/IEC 15504-2, nie tekst FW-PL)."
   },
   "zagmatwania": [
     {

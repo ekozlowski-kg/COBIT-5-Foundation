@@ -35,14 +35,14 @@
   "przyklady": {
     "zycie": "Regulamin konkursu tańca opisuje figury, kryteria i skalę punktów. Sędziowie i tancerze, którzy ćwiczą w domu, korzystają z tego samego regulaminu. Takim regulaminem dla oceny procesów jest PAM.",
     "biuro": "Firma ma jeden arkusz oceny procesów biurowych: listę procesów, pytania do każdego poziomu i skalę. Korzysta z niego audytor i każdy kierownik, który ocenia się sam. To rola PAM.",
-    "organizacja": "Sieć sklepów ma jeden „podręcznik oceny sklepu”: co sprawdzać, po czym poznać, jak punktować. Korzysta z niego audytor z centrali i kierownik sklepu przy samoocenie. To rola PAM.\n\nUrząd wojewódzki wydaje jedną metodykę oceny gmin: zakres, kryteria i skalę. Kontrolerzy i same gminy, które się przygotowują, korzystają z tej samej metodyki. Tak działa PAM.",
-    "psp": "**Gruba teczka Lis.** Audytorka Ewa Lis kładzie na stole teczkę z modelem oceny. Jest w niej lista procesów z opisami, 9 atrybutów, wskaźniki i skala N/C/W/P. Komendantka Wrzos pyta, czy to „ten sam COBIT co wcześniej”. Lis odpowiada, że to model oceny procesów, zbudowany na COBIT 5 i normie ISO/IEC 15504.",
+    "organizacja": "Sieć sklepów ma jeden „podręcznik oceny sklepu”: co sprawdzać, po czym poznać, jak punktować. Korzysta z niego audytor z centrali i kierownik sklepu przy samoocenie. To rola PAM.",
+    "admin": "Urząd wojewódzki wydaje jedną metodykę oceny gmin: zakres, kryteria i skalę. Kontrolerzy i same gminy, które się przygotowują, korzystają z tej samej metodyki. Tak działa PAM.",
     "it": "Asesor oceniający DSS02 bierze z PAM opis procesu i jego praktyki bazowe, wskaźniki dla 9 atrybutów i skalę N/C/W/P. Ten sam model posłuży do oceny APO12 czy BAI06."
   },
   "glebokosc": {
     "prosty": "Przed konkursem pieczenia ciast wszyscy dostają regulamin: co jest oceniane i za ile punktów. Jury ocenia według niego, a uczestnicy ćwiczą z nim w domu. Ten regulamin to PAM.",
-    "zaawansowany": "Ewa Lis przygotowuje ocenę procesu powiadamiania. Z PAM bierze [[wymiar-procesu|wymiar procesu]] (rezultaty, praktyki bazowe, produkty pracy) i [[wymiar-zdolnosci|wymiar zdolności]] (atrybuty, praktyki ogólne). Ocenia skalą N/C/W/P. Jak zaplanować rozmowy i zbieranie dowodów, opisuje już [[przewodnik-asesora|Przewodnik Asesora]].",
-    "skrajny": "Sikora myli skróty: „PAM to te 37 procesów, prawda?”. Nie. 37 procesów z opisami to PRM, a PAM z niego korzysta i dokłada wymiar zdolności, wskaźniki i skalę. Druga zagwozdka: podręcznik COBIT 5 odsyła do PAM w wydaniu „Using COBIT 4.1”. To ślad czasu wydania, bo ISACA wydała PAM dla COBIT 5 później, ale tego w korpusie nie ma. Trzecia: PAM nie mówi, kto i jak ma oceniać, bo to zadanie przewodników. **Rozstrzygnięcie:** PRM mówi, co oceniamy (procesy). PAM mówi, co i czym mierzyć (model oceny). Przewodniki mówią, jak oceniać."
+    "zaawansowany": "Audytor przygotowuje ocenę procesu obsługi incydentów. Z PAM bierze [[wymiar-procesu|wymiar procesu]] (rezultaty, praktyki bazowe, produkty pracy) i [[wymiar-zdolnosci|wymiar zdolności]] (atrybuty, praktyki ogólne). Ocenia skalą N/C/W/P. Jak zaplanować rozmowy i zbieranie dowodów, opisuje już [[przewodnik-asesora|Przewodnik Asesora]].",
+    "skrajny": "CIO myli skróty: „PAM to te 37 procesów, prawda?”. Nie. 37 procesów z opisami to PRM, a PAM z niego korzysta i dokłada wymiar zdolności, wskaźniki i skalę. Druga zagwozdka: podręcznik COBIT 5 odsyła do PAM w wydaniu „Using COBIT 4.1”. To ślad czasu wydania, bo ISACA wydała PAM dla COBIT 5 później, ale tego w korpusie nie ma. Trzecia: PAM nie mówi, kto i jak ma oceniać, bo to zadanie przewodników. **Rozstrzygnięcie:** PRM mówi, co oceniamy (procesy). PAM mówi, co i czym mierzyć (model oceny). Przewodniki mówią, jak oceniać."
   },
   "zagmatwania": [
     {

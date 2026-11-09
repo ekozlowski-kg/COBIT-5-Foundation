@@ -35,8 +35,8 @@
   "przyklady": {
     "zycie": "Postanowiłeś schudnąć. Teraz stajesz na wadze, mierzysz pas i przez tydzień zapisujesz, co jesz. Wybierasz też, że zajmiesz się jedzeniem, a nie snem. To faza 2: zakres i uczciwy obraz stanu.",
     "biuro": "Przez dwa tygodnie zapisujesz, ile trwa znalezienie umowy w archiwum. Wychodzi średnio 20 minut, a najgorzej jest przy starych teczkach.",
-    "organizacja": "Sklep internetowy przez dwa tygodnie liczy czas wysyłek i zawęża zmiany do magazynu. Starostwo mierzy czas obsługi i wybiera rejestrację aut jako obszar zmian.",
-    "psp": "**Stoper w SK**\nAudytorka Ewa Lis przez miesiąc mierzy czasy alarmów i ocenia zdolność procesu powiadamiania. Naczelnik Marek Sikora mapuje cel „szybsza pomoc” na cele IT i procesy. Komendantka tworzy zespół wdrożeniowy z Sikorą, Lis i dyżurną Kasią Nowik. To [[faza-2|faza 2: Gdzie jesteśmy teraz?]]",
+    "organizacja": "Sklep internetowy przez dwa tygodnie liczy czas wysyłek i zawęża zmiany do magazynu.",
+    "admin": "Starostwo przez dwa tygodnie mierzy czas obsługi we wszystkich wydziałach. Najdłużej trwa rejestracja samochodów, średnio 50 minut, więc to ją wybiera jako obszar zmian. Tak powstaje zakres i uczciwy obraz stanu obecnego.",
     "it": "Kaskada celów wskazuje proces DSS02 jako kluczowy dla celów organizacji. Asesor ocenia jego zdolność i stwierdza poziom 1."
   },
   "nieMylicZ": [
@@ -87,8 +87,8 @@
   "mapa": "faza-2",
   "glebokosc": {
     "prosty": "Chcesz uporządkować domowe wydatki. Przez miesiąc zapisujesz każdy paragon. Na końcu widzisz, ile naprawdę idzie na jedzenie, a ile na drobiazgi. Bez tego obrazu nie da się sensownie ustalić celu.",
-    "zaawansowany": "Sikora zaczyna od [[kaskada-celow|kaskady celów]]: cel komendy „szybka pomoc” prowadzi do kilku procesów IT. Wybiera na początek proces powiadamiania, bo tam scenariusz ryzyka był najgroźniejszy. Lis ocenia jego [[model-zdolnosci|zdolność]] i daje poziom 1. Wrzos tworzy zespół wdrożeniowy, a program spisuje problemy i okazje.",
-    "skrajny": "Lis robi ocenę zdolności procesu powiadamiania dwa razy: w marcu i we wrześniu. Ta sama metoda, ten sam arkusz, a jednak to dwie różne fazy. Marcowa ocena opisuje stan obecny, więc należy do fazy 2. Wrześniowa sprawdza efekt zmian, więc służy fazom 6–7. Druga pułapka: zespół wdrożeniowy (faza 2) to nie to samo co odtwórcy ról (faza 4). Zespół prowadzi zmianę, a odtwórcy ról to szersza grupa osób z nowymi rolami. **Rozstrzygnięcie:** fazę wyznacza cel czynności, a nie narzędzie; pomiar „jak jest teraz, zanim zmienimy” to zawsze faza 2 (interpretacja kursu)."
+    "zaawansowany": "CIO zaczyna od [[kaskada-celow|kaskady celów]]: cel banku „zadowoleni klienci” prowadzi do kilku procesów IT. Wybiera na początek proces obsługi incydentów, bo tam scenariusz ryzyka był najgroźniejszy. Audytor ocenia jego [[model-zdolnosci|zdolność]] i daje poziom 1. Zarząd tworzy zespół wdrożeniowy, a program spisuje problemy i okazje.",
+    "skrajny": "Audytor robi ocenę zdolności procesu obsługi incydentów dwa razy: w marcu i we wrześniu. Ta sama metoda, ten sam arkusz, a jednak to dwie różne fazy. Marcowa ocena opisuje stan obecny, więc należy do fazy 2. Wrześniowa sprawdza efekt zmian, więc służy fazom 6–7. Druga pułapka: zespół wdrożeniowy (faza 2) to nie to samo co odtwórcy ról (faza 4). Zespół prowadzi zmianę, a odtwórcy ról to szersza grupa osób z nowymi rolami. **Rozstrzygnięcie:** fazę wyznacza cel czynności, a nie narzędzie; pomiar „jak jest teraz, zanim zmienimy” to zawsze faza 2 (interpretacja kursu)."
   },
   "zagmatwania": [
     {

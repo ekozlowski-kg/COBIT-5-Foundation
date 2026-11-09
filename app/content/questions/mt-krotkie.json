@@ -1,0 +1,2711 @@
+{
+ "_opis": "Moduł MT – Ścieżka mentora (krótkie lekcje MT.10–MT.24): jak tłumaczyć Ład i Zarządzanie, kaskadę wstecz, aktywatory, procesy, ocenę zdolności, wdrożenie i prowadzić mini-szkolenie. Przykłady ogólne: bank, szpital, urząd, ubezpieczalnia, sklep internetowy (FORMAT-KROTKI.md).",
+ "pytania": [
+  {
+   "id": "q-mtk-10-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-15"
+   ],
+   "lekcja": "mt-k10-dobra-analogia-ladu",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Rodzice ustalają cel i budżet wakacji, a syn rezerwuje nocleg i co tydzień mówi, jak idzie. Jak przełożyć tę sytuację na COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Rodzice – Ład, syn – Zarządzanie",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Rodzice wyznaczają kierunek i go sprawdzają, syn planuje i wykonuje."
+    },
+    {
+     "tekst": "Rodzice – Zarządzanie, syn – Ład",
+     "poprawna": false,
+     "wyjasnienie": "Role są zamienione: kierunek wyznaczają rodzice.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Oboje – Zarządzanie, bo oboje coś planują",
+     "poprawna": false,
+     "wyjasnienie": "Rodzice nie planują wykonania, tylko ustalają cel i budżet.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Oboje – Ład, bo oboje podejmują decyzje",
+     "poprawna": false,
+     "wyjasnienie": "Decyzje syna dotyczą sposobu wykonania, czyli Zarządzania.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-10-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-15"
+   ],
+   "lekcja": "mt-k10-dobra-analogia-ladu",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Koleżanka z działu kredytów w banku pyta: „Czyli Ład to nasz dyrektor IT?”. Co mentor robi NAJPIERW?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Podaje definicję Ładu i od razu przechodzi do kolejnego tematu",
+     "poprawna": false,
+     "wyjasnienie": "Sama definicja zwykle nie usuwa gotowej analogii kursanta.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Pyta, co dyrektor IT robi, i pokazuje, gdzie pęka analogia",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Mentor przesuwa uwagę ze stanowiska na czynność i poprawia analogię, z którą przyszła koleżanka."
+    },
+    {
+     "tekst": "Przytakuje, żeby jej nie zniechęcić do dalszej nauki",
+     "poprawna": false,
+     "wyjasnienie": "Przytaknięcie utrwala błąd.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Odsyła ją do podręcznika, żeby doczytała resztę sama",
+     "poprawna": false,
+     "wyjasnienie": "To unika rozmowy i nie poprawia analogii.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-10-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-15"
+   ],
+   "lekcja": "mt-k10-dobra-analogia-ladu",
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "tresc": "Która cecha dobrej analogii Ładu i Zarządzania wynika wprost z Zasady 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Ład to wyższy szczebel tej samej hierarchii co Zarządzanie",
+     "poprawna": false,
+     "wyjasnienie": "Zasada 5 mówi o innych działaniach, a nie o wyższym piętrze.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Ład i Zarządzanie opisuje się tymi samymi czasownikami",
+     "poprawna": false,
+     "wyjasnienie": "Ład: oszacuj, kieruj, monitoruj; Zarządzanie: planuj, twórz, wykonuj, monitoruj.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Monitoruje wyłącznie strona Zarządzania",
+     "poprawna": false,
+     "wyjasnienie": "Ład też monitoruje – względem kierunku.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Obie strony wykonują działania o odmiennym charakterze",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Podręcznik mówi, że każda z dziedzin obejmuje działania o odmiennym charakterze i służy innym celom."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-10-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-15"
+   ],
+   "lekcja": "mt-k10-dobra-analogia-ladu",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Mentor porównuje Ład do właścicieli mieszkań we wspólnocie mieszkaniowej. Którą informację powinien od razu dodać?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Że „zarząd wspólnoty” oznacza tu stronę Ładu",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Polskie słowo „zarząd” myli się z Zarządzaniem, dlatego mentor mówi o czynnościach, a nie o nazwach."
+    },
+    {
+     "tekst": "Że właściciele mieszkań sami kładą dachówki",
+     "poprawna": false,
+     "wyjasnienie": "Właściciele decydują, a wykonuje firma zarządcy.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Że to firma zarządcy wyznacza kierunek remontu",
+     "poprawna": false,
+     "wyjasnienie": "Kierunek wyznaczają właściciele, a zarządca go realizuje.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Że wspólnota mieszkaniowa jest aktywatorem COBIT 5",
+     "poprawna": false,
+     "wyjasnienie": "Wspólnota to tylko analogia, a nie pojęcie COBIT 5.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-11-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-15"
+   ],
+   "lekcja": "mt-k11-bledne-analogie-ladu",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "W rodzinnej firmie właścicielka raz decyduje o kierunku rozwoju, a raz sama pakuje zamówienia. Co rozstrzyga, po której stronie – Ładu czy Zarządzania – działa w danej chwili?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 31
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Jej stanowisko w firmie",
+     "poprawna": false,
+     "wyjasnienie": "Stanowisko się nie zmienia, a czynności tak.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Wysokość jej wynagrodzenia",
+     "poprawna": false,
+     "wyjasnienie": "Pensja nie mówi nic o rodzaju pracy.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Czynność, którą właśnie wykonuje",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Liczy się to, co osoba teraz robi: ocenia i kieruje czy planuje i wykonuje."
+    },
+    {
+     "tekst": "Liczba godzin spędzonych w firmie",
+     "poprawna": false,
+     "wyjasnienie": "Czas pracy nie rozstrzyga o rodzaju czynności.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-11-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-15"
+   ],
+   "lekcja": "mt-k11-bledne-analogie-ladu",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Dyrektor IT ubezpieczalni zasiada w komitecie, który ustala apetyt na ryzyko, a tego samego dnia układa harmonogram wdrożeń. Jak to opisać w COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 31
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Zawsze działa w Ładzie, bo zasiada w komitecie",
+     "poprawna": false,
+     "wyjasnienie": "Harmonogram wdrożeń to planowanie, czyli Zarządzanie.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Zawsze działa w Zarządzaniu, bo jest dyrektorem IT",
+     "poprawna": false,
+     "wyjasnienie": "Udział w ustalaniu apetytu na ryzyko to czynność Ładu.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "W komitecie uczestniczy w Ładzie, przy harmonogramie – w Zarządzaniu",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Struktury należą do przestrzeni nadzoru albo zarządzania zależnie od zakresu decyzji; apetyt na ryzyko to decyzja Ładu."
+    },
+    {
+     "tekst": "Łamie Zasadę 5, bo jedna osoba nie może pełnić obu ról",
+     "poprawna": false,
+     "wyjasnienie": "Zasada 5 rozdziela czynności, a nie osoby.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-11-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-15"
+   ],
+   "lekcja": "mt-k11-bledne-analogie-ladu",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Kto według podręcznika COBIT 5 w większości przedsiębiorstw odpowiada za Zarządzanie?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Zarząd pod przywództwem prezesa",
+     "poprawna": false,
+     "wyjasnienie": "Zarząd z prezesem odpowiada za nadzór, czyli Ład.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Organ nadzorujący, czyli Organ Ładu i nadzoru",
+     "poprawna": false,
+     "wyjasnienie": "To strona Ładu, a nie Zarządzania.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Wyłącznie dyrektor ds. informatyki (CIO) i jego dział",
+     "poprawna": false,
+     "wyjasnienie": "CIO to tylko jedna z ról kadry zarządzającej.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Kadra zarządzająca z dyrektorem generalnym (CEO)",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Za zarządzanie odpowiada kadra zarządzająca pod przywództwem dyrektora generalnego."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-11-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-15"
+   ],
+   "lekcja": "mt-k11-bledne-analogie-ladu",
+   "bloom": "rozumienie",
+   "trudnosc": 2,
+   "tresc": "Mentor mówi: „Ład to jak dyrektor, a Zarządzanie jak kierownik działu”. Gdzie ta analogia pęka?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Podsuwa, że CEO należy do Ładu",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. W COBIT 5 dyrektor generalny prowadzi Zarządzanie, a Ład sprawuje zarząd z prezesem."
+    },
+    {
+     "tekst": "Nigdzie – to analogia bez wad i można jej śmiało używać",
+     "poprawna": false,
+     "wyjasnienie": "Każda analogia gdzieś pęka; ta – przy CEO.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "W tym, że kierownik działu też coś planuje",
+     "poprawna": false,
+     "wyjasnienie": "To prawda, ale nie wskazuje, gdzie analogia wprowadza w błąd.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "W tym, że dyrektor czasem sprawdza wyniki działu",
+     "poprawna": false,
+     "wyjasnienie": "To prawda, ale nie dotyczy głównej słabości analogii.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-12-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-09"
+   ],
+   "lekcja": "mt-k12-lad-tez-monitoruje",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Właściciel restauracji co miesiąc sprawdza, czy lokal trzyma się ustalonego menu i budżetu, a kucharz co godzinę sprawdza temperaturę piekarnika. Które zdanie najlepiej to opisuje?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Monitoruje wyłącznie kucharz przy piecu",
+     "poprawna": false,
+     "wyjasnienie": "Właściciel też sprawdza – kierunek i budżet.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Obaj monitorują, ale co innego",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Właściciel pilnuje kierunku, kucharz – bieżącego wykonania. Tak samo Ład i kierownictwo."
+    },
+    {
+     "tekst": "Monitoruje wyłącznie właściciel restauracji",
+     "poprawna": false,
+     "wyjasnienie": "Kucharz też sprawdza – bieżące wykonanie.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Żaden z nich niczego nie monitoruje, obaj tylko pracują",
+     "poprawna": false,
+     "wyjasnienie": "Obaj coś sprawdzają, każdy na swoim poziomie.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-12-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-09"
+   ],
+   "lekcja": "mt-k12-lad-tez-monitoruje",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Nowa audytorka mówi: „Na Rysunku 9 monitoruje kierownictwo, więc Ład nic nie monitoruje”. Która reakcja mentora jest najlepsza?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 24
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "„Masz rację, monitorowanie to wyłącznie praca kierownictwa i domeny MEA.”",
+     "poprawna": false,
+     "wyjasnienie": "To przytaknięcie błędowi; definicja Ładu obejmuje monitorowanie.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "„Co do rysunku masz rację. Ład też monitoruje – kierunek.”",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Mentor uznaje trafną część o Rysunku 9 i dokłada brakujący fakt z definicji Ładu."
+    },
+    {
+     "tekst": "„Nie masz racji, bo na Rysunku 9 to Ład monitoruje kierownictwo.”",
+     "poprawna": false,
+     "wyjasnienie": "Na Rysunku 9 relację monitorowania wykonania ma kierownictwo.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "„To bez znaczenia, bo na egzaminie i tak pytają o czasowniki.”",
+     "poprawna": false,
+     "wyjasnienie": "Unika problemu i zostawia audytorkę z błędem.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-12-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-09"
+   ],
+   "lekcja": "mt-k12-lad-tez-monitoruje",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Co według podręcznika COBIT 5 oznacza monitorowanie w kontekście domeny Ładu?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 32
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Codzienny pomiar dostępności systemów przez dział IT",
+     "poprawna": false,
+     "wyjasnienie": "To bieżące monitorowanie wykonania, czyli praca kierownictwa.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Sprawdzanie, w jakim stopniu kierunek wcielono w życie",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. W domenie nadzoru organ nadzorujący sprawdza, w jakim stopniu kierunek wytyczony dla zarządzania wcielono w życie."
+    },
+    {
+     "tekst": "Raportowanie wyników przez role operacyjne",
+     "poprawna": false,
+     "wyjasnienie": "Raportowanie to relacja ról operacyjnych wobec kierownictwa.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Ocenę zdolności procesów prowadzoną przez asesora",
+     "poprawna": false,
+     "wyjasnienie": "Ocena zdolności to inny obszar COBIT 5.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-12-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-14",
+    "PR-02-09"
+   ],
+   "lekcja": "mt-k12-lad-tez-monitoruje",
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "tresc": "W pytaniu egzaminacyjnym pada czasownik „monitoruje”. Co pozwala rozstrzygnąć, czy chodzi o Ład, czy o kierownictwo?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 24
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Kategoria pytania: czynności Ładu czy role z Rysunku 9",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Pytanie o czynności Ładu → Ład monitoruje kierunek; pytanie o role z Rysunku 9 → kierownictwo."
+    },
+    {
+     "tekst": "Częstotliwość monitorowania podana w treści",
+     "poprawna": false,
+     "wyjasnienie": "Częstotliwość nie decyduje o kategorii.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "To, czy w treści pada słowo „informatyka”",
+     "poprawna": false,
+     "wyjasnienie": "Oba rodzaje monitorowania mogą dotyczyć IT.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Stanowisko osoby, która monitoruje",
+     "poprawna": false,
+     "wyjasnienie": "Liczy się czynność i kategoria pytania, a nie stanowisko.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-13-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-03",
+    "PR-02-05"
+   ],
+   "lekcja": "mt-k13-kaskada-od-konca",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Tankujesz, żeby dojechać na urodziny babci, bo rodzinie zależy na wspólnym czasie. Na czym zwykle kończy się taki łańcuch pytań „po co?”?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 17
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Na stacji benzynowej",
+     "poprawna": false,
+     "wyjasnienie": "To miejsce działania, a nie jego sens.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Na potrzebie człowieka",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Łańcuch „po co?” prowadzi w górę, aż do potrzeby – tak jak kaskada celów do potrzeb interesariuszy."
+    },
+    {
+     "tekst": "Na samochodzie, którym jedziesz",
+     "poprawna": false,
+     "wyjasnienie": "Samochód to zasób, a nie cel łańcucha.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Na aktualnej cenie paliwa",
+     "poprawna": false,
+     "wyjasnienie": "Cena to szczegół, który nie odpowiada na „po co?”.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-13-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-03",
+    "PR-02-05"
+   ],
+   "lekcja": "mt-k13-kaskada-od-konca",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Mentor prowadzi administratora banku wstecz od testu centrum zapasowego (DSS04). Które zdanie leży na szczeblu celu aktywatora?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 18
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 19
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Klienci mają stały dostęp do swojego konta",
+     "poprawna": false,
+     "wyjasnienie": "To potrzeba interesariuszy, czyli szczebel najwyżej pod wyznacznikiem.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Regulator wprowadza nowe wymogi dla banków",
+     "poprawna": false,
+     "wyjasnienie": "To wyznacznik, który zmienia potrzeby.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Ciągłość i dostępność usług biznesowych",
+     "poprawna": false,
+     "wyjasnienie": "To cel organizacji 7.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Usługa działa także po awarii centrum głównego",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Konkretny, sprawdzalny cel jednego procesu to cel aktywatora – ostatni szczebel kaskady."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-13-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-03",
+    "PR-02-05"
+   ],
+   "lekcja": "mt-k13-kaskada-od-konca",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Jaka jest właściwa kolejność szczebli przy czytaniu kaskady celów COBIT 5 wstecz, od dołu?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 18
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Cel związany z informatyką → cel aktywatora → cel organizacji → potrzeba → wyznacznik",
+     "poprawna": false,
+     "wyjasnienie": "Cel aktywatora jest najniżej, pod celem związanym z informatyką.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Wyznacznik → potrzeba → cel organizacji → cel związany z informatyką → cel aktywatora",
+     "poprawna": false,
+     "wyjasnienie": "To kolejność z góry na dół, a pytanie dotyczy czytania wstecz.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Cel aktywatora → cel organizacji → cel związany z informatyką → wyznacznik → potrzeba",
+     "poprawna": false,
+     "wyjasnienie": "Pomylone dwie pary szczebli.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Cel aktywatora → cel związany z informatyką → cel organizacji → potrzeba → wyznacznik",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. To te same szczeble co w kaskadzie, tylko w odwrotnej kolejności."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-13-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-03",
+    "PR-02-05"
+   ],
+   "lekcja": "mt-k13-kaskada-od-konca",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Pracownik banku pyta: „Po co mam co miesiąc aktualizować listę kontaktów klientów?”. Od czego mentor powinien zacząć?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 17
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Od definicji potrzeb interesariuszy z podręcznika",
+     "poprawna": false,
+     "wyjasnienie": "Start od szczytu kaskady to dla tego pracownika abstrakcja.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Od listy 17 celów organizacji z Rysunku 5",
+     "poprawna": false,
+     "wyjasnienie": "To start z góry, daleko od jego codziennej pracy.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Od zdania „bo tak każe procedura”",
+     "poprawna": false,
+     "wyjasnienie": "Procedura mówi „co”, a pytanie dotyczy „po co”.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Od jego zadania, pytając kolejno „po co?”",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Kto zna tylko swój proces, najszybciej zrozumie kaskadę, idąc od końca."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-14-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-03",
+    "PR-02-05",
+    "PR-02-06"
+   ],
+   "lekcja": "mt-k14-kaskada-siec",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Biegasz, bo chcesz mieć kondycję, ale też dla zdrowia i lepszego snu. Co ten przykład mówi o kaskadzie celów?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 18
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Każde działanie ma dokładnie jeden cel",
+     "poprawna": false,
+     "wyjasnienie": "Ten przykład pokazuje kilka celów jednego działania.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Jedno działanie może wspierać kilka celów",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. W kaskadzie powiązania są wiele do wielu, a nie jedną linią."
+    },
+    {
+     "tekst": "Cele trzeba wybierać losowo",
+     "poprawna": false,
+     "wyjasnienie": "Cele wynikają z potrzeb, a nie z losowania.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Kondycja jest wyznacznikiem kaskady",
+     "poprawna": false,
+     "wyjasnienie": "Wyznacznik zmienia potrzeby; kondycja jest tu celem.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-14-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-03",
+    "PR-02-05",
+    "PR-02-06"
+   ],
+   "lekcja": "mt-k14-kaskada-siec",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "W urzędzie ktoś co tydzień drukuje raport, a żadne pytanie „po co?” nie prowadzi do celu organizacji. Jaką radę daje mentor?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 20
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Natychmiast skasować raport, bo jest zbędny",
+     "poprawna": false,
+     "wyjasnienie": "To wyrok bez sprawdzenia, czy powiązanie istnieje.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Dopisać raport do najbliższego celu z tabeli",
+     "poprawna": false,
+     "wyjasnienie": "To sztuczne powiązanie zamiast przeglądu.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Potraktować to jako sygnał do przeglądu",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Brak ścieżki w górę to sygnał: może brakuje zapisanego powiązania, a może sensu. Decyzję o priorytetach podejmuje Ład."
+    },
+    {
+     "tekst": "Zostawić bez zmian, bo tak każe procedura",
+     "poprawna": false,
+     "wyjasnienie": "Procedura nie zastępuje pytania o sens.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-14-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-03",
+    "PR-02-05",
+    "PR-02-06"
+   ],
+   "lekcja": "mt-k14-kaskada-siec",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Na naradzie w banku padają trzy zdania: „weszły nowe przepisy”, „klienci chcą stałego dostępu do konta”, „kupmy drugie centrum danych”. Które z nich mentor nazwie wyznacznikiem w kaskadzie celów?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 17
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "„Weszły nowe przepisy”",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Zmiana w otoczeniu regulacyjnym to wyznacznik – wpływa na potrzeby interesariuszy."
+    },
+    {
+     "tekst": "„Klienci chcą stałego dostępu do konta”",
+     "poprawna": false,
+     "wyjasnienie": "To potrzeba interesariuszy, na którą wyznacznik wpływa.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "„Kupmy drugie centrum danych”",
+     "poprawna": false,
+     "wyjasnienie": "To gotowe rozwiązanie, które trzeba dopiero sprawdzić kaskadą.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Wszystkie trzy, bo każde uruchamia zmiany",
+     "poprawna": false,
+     "wyjasnienie": "Tylko jedno z nich zmienia potrzeby; pozostałe to potrzeba i rozwiązanie.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-14-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-02-03",
+    "PR-02-05",
+    "PR-02-06"
+   ],
+   "lekcja": "mt-k14-kaskada-siec",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Co według podręcznika COBIT 5 oznaczają litery P i S w tabelach mapowania celów?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 18
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Ocenę Pełny i ocenę Słaby",
+     "poprawna": false,
+     "wyjasnienie": "To pomylenie ze skalą ocen zdolności; „Słaby” nie istnieje w skali.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Proces i strukturę organizacyjną",
+     "poprawna": false,
+     "wyjasnienie": "Litery opisują siłę powiązania, a nie rodzaj aktywatora.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Priorytet stały i priorytet sezonowy",
+     "poprawna": false,
+     "wyjasnienie": "Takich priorytetów nie ma w COBIT 5.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Relację podstawową i wspierającą",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. P oznacza relację podstawową, a S – wspierającą, czyli słabszą."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-15-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-02",
+    "PR-02-12"
+   ],
+   "lekcja": "mt-k15-incydent-siedem-aktywatorow",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Obiad urodzinowy się przypalił: przepis był niejasny, piekarnik grzeje za mocno, a nikt nie pilnował kuchni. Jak najlepiej opisać przyczynę?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 28
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Zawinił wyłącznie zbyt gorący piekarnik",
+     "poprawna": false,
+     "wyjasnienie": "To tylko jedna z kilku przyczyn.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Zawinił wyłącznie niejasny przepis",
+     "poprawna": false,
+     "wyjasnienie": "To również tylko jedna przyczyna.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "To czysty przypadek bez żadnej przyczyny",
+     "poprawna": false,
+     "wyjasnienie": "Przyczyny są wymienione w treści.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Przyczyn jest kilka i działały razem",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Tak jak aktywatory w Zasadzie 4: porażka ma zwykle przyczyny w kilku miejscach."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-15-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-02",
+    "PR-02-12"
+   ],
+   "lekcja": "mt-k15-incydent-siedem-aktywatorow",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Sklep internetowy w dniu wyprzedaży: zamówienia przestały przechodzić, bo pojemność zaplanowano według prognozy ruchu sprzed roku. Który aktywator zawiódł bezpośrednio?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 27
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Technika – serwery sklepu jako takie",
+     "poprawna": false,
+     "wyjasnienie": "Serwery zrobiły to, do czego je przygotowano; zawiodła informacja wejściowa.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Umiejętności zespołu planującego pojemność",
+     "poprawna": false,
+     "wyjasnienie": "Treść nie mówi o brakach umiejętności.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Ciało decyzyjne, które zatwierdziło budżet",
+     "poprawna": false,
+     "wyjasnienie": "Treść nie mówi o złej decyzji ciała z mandatem.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Informacja – nieaktualna prognoza ruchu",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Nieaktualna prognoza to wada informacji. Pozostałe aktywatory mogły zawieść pośrednio."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-15-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-02",
+    "PR-02-12"
+   ],
+   "lekcja": "mt-k15-incydent-siedem-aktywatorow",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Po awarii sklep chce naprawić tylko aktywator Usługi, Infrastruktura i Aplikacje. Która zasada COBIT 5 podpowiada, że to za mało?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 28
+    },
+    {
+     "doc": "ALTKOM"
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Zasada 5: Oddzielenie Ładu od Zarządzania",
+     "poprawna": false,
+     "wyjasnienie": "Zasada 5 dotyczy rozdzielenia czynności, a nie powiązań aktywatorów.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Zasada 4: Aktywacja holistycznego podejścia",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Aktywatory są powiązane; każdy jest w pełni efektywny tylko z wejściami od innych."
+    },
+    {
+     "tekst": "Zasada 3: Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej",
+     "poprawna": false,
+     "wyjasnienie": "Zasada 3 dotyczy spójności z innymi standardami.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Zasada 1: Realizacja potrzeb interesariusza",
+     "poprawna": false,
+     "wyjasnienie": "Zasada 1 dotyczy tworzenia wartości i kaskady celów, nie powiązań między aktywatorami.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-15-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-02",
+    "PR-02-12"
+   ],
+   "lekcja": "mt-k15-incydent-siedem-aktywatorow",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Mentor tłumaczy koledze z podręcznikiem PL w ręku nazwę pierwszego aktywatora (Principles, Policies and Frameworks). Co powinien mu powiedzieć o słowie „metodyki”?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 27
+    },
+    {
+     "doc": "ALTKOM"
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Że „metodyki” to nazwa obowiązująca też na egzaminie",
+     "poprawna": false,
+     "wyjasnienie": "To nazwa podręcznikowa; arkusz egzaminacyjny używa innego słowa.",
+     "pulapka": "forma-podrecznikowa"
+    },
+    {
+     "tekst": "Że metodyki to osobny, ósmy aktywator",
+     "poprawna": false,
+     "wyjasnienie": "Aktywatorów jest siedem; to część nazwy pierwszego z nich.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Że egzamin mówi tu „Struktury ramowe”",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Podręcznik: „Zasady, polityki i metodyki”; egzamin PL: „Zasady, Polityki i Struktury ramowe”."
+    },
+    {
+     "tekst": "Że to słowo oznacza procesy z modelu referencyjnego",
+     "poprawna": false,
+     "wyjasnienie": "Procesy to inny aktywator.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-16-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-02",
+    "PR-02-12",
+    "PR-02-13"
+   ],
+   "lekcja": "mt-k16-granica-aktywatorow",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Lista zakupów wisi na lodówce, ale nikt jej nie uzupełnia i w domu brakuje mleka. Jaka rzecz dokładnie zawiodła?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 28
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Kartka, na której spisano listę zakupów",
+     "poprawna": false,
+     "wyjasnienie": "Kartka była na miejscu; nikt jej nie uzupełniał.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Lodówka, na której wisi lista zakupów",
+     "poprawna": false,
+     "wyjasnienie": "Lodówka nie ma wpływu na treść listy.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Regularne uzupełnianie listy",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Zawiodła powtarzalna praca, a w COBIT 5 to odpowiednik procesu."
+    },
+    {
+     "tekst": "Sklep, w którym zwykle kupuje się mleko",
+     "poprawna": false,
+     "wyjasnienie": "Sklep nie odpowiada za domową listę.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-16-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-02",
+    "PR-02-12",
+    "PR-02-13"
+   ],
+   "lekcja": "mt-k16-granica-aktywatorow",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Regulamin firmy przewiduje karę za każdy błąd, więc pracownicy ukrywają drobne awarie. Jak przypisać przyczyny do aktywatorów?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 28
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Obie przyczyny – Kultura, Etyka i Zachowanie",
+     "poprawna": false,
+     "wyjasnienie": "Sam regulamin to dokument, czyli polityka.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Obie przyczyny – Zasady, Polityki i Struktury ramowe",
+     "poprawna": false,
+     "wyjasnienie": "Ukrywanie awarii to zachowanie, czyli kultura.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Regulamin – Zasady i polityki; ukrywanie – Kultura",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Dokument to polityka, a zachowanie, które wywołuje, to kultura."
+    },
+    {
+     "tekst": "Regulamin – Kultura; ukrywanie awarii – Procesy",
+     "poprawna": false,
+     "wyjasnienie": "Przypisanie jest odwrócone i pomija politykę.",
+     "pulapka": "odwrocone"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-16-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-02",
+    "PR-02-12",
+    "PR-02-13"
+   ],
+   "lekcja": "mt-k16-granica-aktywatorow",
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "tresc": "System wysłał wiadomość bez błędu technicznego, ale na adres klienta sprzed dwóch lat. Który aktywator i która kategoria celu zawiodły bezpośrednio?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Usługi, Infrastruktura i Aplikacje – jakość wewnętrzna",
+     "poprawna": false,
+     "wyjasnienie": "Technika zadziałała; zawiodła treść danych.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Informacja – jakość kontekstowa",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Aktualność informacji w kontekście zadania to jakość kontekstowa."
+    },
+    {
+     "tekst": "Informacja – dostęp i bezpieczeństwo",
+     "poprawna": false,
+     "wyjasnienie": "Dostęp był; zawiodła aktualność.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Informacja – jakość rzeczywista",
+     "poprawna": false,
+     "wyjasnienie": "To nazwa z podręcznika PL dla jakości wewnętrznej, a zawiodła aktualność.",
+     "pulapka": "forma-podrecznikowa"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-16-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-02",
+    "PR-02-12",
+    "PR-02-13"
+   ],
+   "lekcja": "mt-k16-granica-aktywatorow",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Dyrektor IT po incydencie mówi: „Kupmy drugi serwer i sprawa załatwiona”. Co odpowiada mentor?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 28
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Serwer poprawi jeden aktywator – sprawdźmy pozostałe",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Aktywatory są powiązane; nowy serwer wyśle wiadomość na zły adres równie sprawnie jak stary."
+    },
+    {
+     "tekst": "Tak, technika jest zawsze główną przyczyną awarii",
+     "poprawna": false,
+     "wyjasnienie": "Technika to zwykle tylko część przyczyny.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Nie, bo serwery w ogóle nie są aktywatorem COBIT 5",
+     "poprawna": false,
+     "wyjasnienie": "Serwery należą do aktywatora Usługi, Infrastruktura i Aplikacje.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Tak, pod warunkiem że kupimy go od innego dostawcy",
+     "poprawna": false,
+     "wyjasnienie": "Zmiana dostawcy nie usuwa przyczyn w innych aktywatorach.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-17-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-03",
+    "PR-01-04"
+   ],
+   "lekcja": "mt-k17-37-procesow-szuflady",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "W kuchni masz setki rzeczy, a jednak szybko znajdujesz łyżkę. Co Ci w tym pomaga?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Pamiętasz szuflady, a nie każdą rzecz",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Tak samo 37 procesów pamięta się przez pięć domen-szuflad."
+    },
+    {
+     "tekst": "Pamiętasz dokładne położenie każdej rzeczy",
+     "poprawna": false,
+     "wyjasnienie": "Tego nikt nie pamięta – pamięta się układ.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Kupujesz coraz mniej rzeczy do kuchni",
+     "poprawna": false,
+     "wyjasnienie": "To nie wyjaśnia, jak znajdujesz łyżkę.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Trzymasz wszystkie rzeczy na jednym blacie",
+     "poprawna": false,
+     "wyjasnienie": "To utrudnia, a nie ułatwia szukanie.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-17-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-03",
+    "PR-01-04"
+   ],
+   "lekcja": "mt-k17-37-procesow-szuflady",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Rada nadzorcza szpitala ocenia opcje i wyznacza kierunek: decyduje, według jakich kryteriów wartości inwestycje IT mają mieć pierwszeństwo. Do której domeny COBIT 5 należy ta praca?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 31
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "APO – Dostosuj, Planuj i Organizuj",
+     "poprawna": false,
+     "wyjasnienie": "APO05 priorytetyzuje konkretne programy w portfelu, ale według kierunku i kryteriów ustalonych przez Ład (EDM02).",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "MEA – Monitoruj, Oszacuj i Oceń",
+     "poprawna": false,
+     "wyjasnienie": "MEA kontroluje wyniki, a nie ustala priorytetów.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "EDM – Oszacuj, Kieruj i Monitoruj",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Ocena opcji i wyznaczanie kierunku, tu kryteriów wartości dla inwestycji IT, to praca Ładu, czyli domeny EDM (EDM02)."
+    },
+    {
+     "tekst": "Ocena, kierowanie i monitorowanie – domena Zarządzania",
+     "poprawna": false,
+     "wyjasnienie": "To podręcznikowa nazwa EDM, a EDM to domena Ładu, nie Zarządzania.",
+     "pulapka": "forma-podrecznikowa"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-17-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-03",
+    "PR-01-04"
+   ],
+   "lekcja": "mt-k17-37-procesow-szuflady",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Ile procesów ma każda domena modelu referencyjnego procesu COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "EDM 5, APO 10, BAI 13, DSS 6, MEA 3",
+     "poprawna": false,
+     "wyjasnienie": "Zamienione liczby APO i BAI.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "EDM 4, APO 13, BAI 10, DSS 6, MEA 4",
+     "poprawna": false,
+     "wyjasnienie": "EDM ma 5 procesów, a MEA – 3.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "EDM 5, APO 13, BAI 10, DSS 6, MEA 3",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Razem 37: pięć procesów Ładu i 32 procesy Zarządzania."
+    },
+    {
+     "tekst": "EDM 5, APO 13, BAI 10, DSS 3, MEA 6",
+     "poprawna": false,
+     "wyjasnienie": "Zamienione liczby DSS i MEA.",
+     "pulapka": "odwrocone"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-17-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-03",
+    "PR-01-04"
+   ],
+   "lekcja": "mt-k17-37-procesow-szuflady",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Które trzy procesy EDM odpowiadają trzem składnikom tworzenia wartości: korzyściom, ryzyku i zasobom?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 17
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "EDM01, EDM02, EDM03",
+     "poprawna": false,
+     "wyjasnienie": "EDM01 dotyczy ram Ładu, a pominięto EDM04.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "EDM03, EDM04, EDM05",
+     "poprawna": false,
+     "wyjasnienie": "EDM05 dotyczy przejrzystości, a pominięto EDM02.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "APO05, APO06, APO12",
+     "poprawna": false,
+     "wyjasnienie": "To procesy Zarządzania, a nie Ładu.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "EDM02, EDM03, EDM04",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. EDM02 – realizacja korzyści, EDM03 – optymalizacja ryzyka, EDM04 – optymalizacja zasobów."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-18-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-03",
+    "PR-01-04",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k18-pary-procesow",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "W rodzinie mówi się „zasoby” o oszczędnościach, o samochodzie i o czasie dziadków. Czego uczy ten przykład przed nauką procesów COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Wszystkie zasoby to w gruncie rzeczy pieniądze",
+     "poprawna": false,
+     "wyjasnienie": "Przykład pokazuje trzy różne rodzaje zasobów.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Słowo zawsze jednoznacznie rozstrzyga znaczenie",
+     "poprawna": false,
+     "wyjasnienie": "Przykład pokazuje coś odwrotnego.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Zasoby to wyłącznie przedmioty, np. samochód",
+     "poprawna": false,
+     "wyjasnienie": "Czas i pieniądze też są zasobami.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Jedno słowo może znaczyć różne rzeczy",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Tak samo „zasoby” w nazwach BAI09, APO07 i EDM04 oznaczają co innego."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-18-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-03",
+    "PR-01-04",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k18-pary-procesow",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "W nocy w banku przestała działać bankowość internetowa. Zespół najpierw przywraca usługę, a rano szuka przyczyny źródłowej. Jakie procesy to opisują?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Najpierw DSS03, potem DSS02",
+     "poprawna": false,
+     "wyjasnienie": "Kolejność jest odwrócona.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Oba etapy to DSS04 Zarządzanie ciągłością",
+     "poprawna": false,
+     "wyjasnienie": "DSS04 dotyczy planów na poważne zakłócenia, a nie obsługi incydentu i problemu.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Najpierw DSS02, potem DSS03",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. DSS02 przywraca usługę po incydencie, DSS03 szuka przyczyny źródłowej, czyli problemu."
+    },
+    {
+     "tekst": "Oba etapy to BAI06 Zarządzanie zmianami",
+     "poprawna": false,
+     "wyjasnienie": "BAI06 kontroluje zmiany, a nie przywraca usługi.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-18-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-03",
+    "PR-01-04",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k18-pary-procesow",
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "tresc": "Komitet ds. informatyki ustala, jaki poziom ryzyka IT organizacja jest gotowa zaakceptować. Który proces wspiera tę decyzję?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 31
+    }
+   ],
+   "status": "niepotwierdzone",
+   "opcje": [
+    {
+     "tekst": "EDM03 Zapewnienie optymalizacji ryzyka",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Ustalanie apetytu na ryzyko to decyzja Ładu, a EDM03 jest procesem Ładu o ryzyku."
+    },
+    {
+     "tekst": "APO12 Zarządzanie ryzykiem",
+     "poprawna": false,
+     "wyjasnienie": "APO12 rozpoznaje i analizuje ryzyka, ale nie ustala apetytu na ryzyko.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "MEA02 Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej",
+     "poprawna": false,
+     "wyjasnienie": "MEA02 ocenia mechanizmy kontrolne.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "DSS04 Zarządzanie ciągłością",
+     "poprawna": false,
+     "wyjasnienie": "DSS04 realizuje ciągłość, ale nie decyduje o akceptowanym ryzyku.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-18-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PR-01-03",
+    "PR-01-04",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k18-pary-procesow",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Dział IT szpitala prowadzi ewidencję serwerów i licencji. Który proces najlepiej pasuje do tej pracy?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    }
+   ],
+   "status": "niepotwierdzone",
+   "opcje": [
+    {
+     "tekst": "BAI09 Zarządzanie zasobami",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Ewidencja rzeczy, takich jak serwery i licencje, to BAI09."
+    },
+    {
+     "tekst": "EDM04 Zapewnienie optymalizacji zasobów",
+     "poprawna": false,
+     "wyjasnienie": "EDM04 to Ład: kierunek dla wszystkich zasobów.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "APO07 Zarządzanie zasobami ludzkimi",
+     "poprawna": false,
+     "wyjasnienie": "APO07 dotyczy ludzi.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "APO06 Zarządzanie budżetem i kosztami",
+     "poprawna": false,
+     "wyjasnienie": "APO06 dotyczy pieniędzy, a nie ewidencji sprzętu.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-19-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-01-02",
+    "PC-01-01"
+   ],
+   "lekcja": "mt-k19-skala-i-regula-poziomu",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Budujesz schody i stoisz na stopniu, który trzyma się pewnie. Jaki warunek muszą spełniać stopnie pod Tobą, żebyś wszedł wyżej?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Wystarczy, że są w większości gotowe",
+     "poprawna": false,
+     "wyjasnienie": "W większości wystarczy tylko na stopniu, na którym stoisz.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Mogą być niegotowe, jeśli wyższe są solidne",
+     "poprawna": false,
+     "wyjasnienie": "Wyższy stopień nie zastąpi niższego.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Ich stan nie ma żadnego znaczenia",
+     "poprawna": false,
+     "wyjasnienie": "Bez solidnych stopni pod spodem nie wejdziesz wyżej.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Muszą być gotowe w całości",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Tak samo w modelu zdolności: niższe poziomy muszą być osiągnięte w pełni."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-19-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-01-02",
+    "PC-01-03"
+   ],
+   "lekcja": "mt-k19-skala-i-regula-poziomu",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Konsultant zebrał dla PA 2.2 dokładnie 85% dowodów. Jaką ocenę dostaje atrybut według interpretacji przyjętej w kursie?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 45
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "P – Pełny",
+     "poprawna": false,
+     "wyjasnienie": "Pełny zaczyna się powyżej 85%.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "C – Częściowy",
+     "poprawna": false,
+     "wyjasnienie": "C to przedział powyżej 15 do 50%.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "W – Większościowy",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Granica należy do niższej oceny; Pełny zaczyna się powyżej 85% (interpretacja kursu według ISO/IEC 15504)."
+    },
+    {
+     "tekst": "L – Pełny w skali angielskiej",
+     "poprawna": false,
+     "wyjasnienie": "L to Largely, czyli W, a nie Pełny.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-19-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-01-02",
+    "PC-01-03"
+   ],
+   "lekcja": "mt-k19-skala-i-regula-poziomu",
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "tresc": "Raport po angielsku podaje: PA 1.1 = F, PA 2.1 = L, PA 2.2 = P. Jaki poziom zdolności ma proces?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 45
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Poziom 2, bo P oznacza Pełny",
+     "poprawna": false,
+     "wyjasnienie": "Angielskie P to Partially, czyli polskie C.",
+     "pulapka": "forma-podrecznikowa"
+    },
+    {
+     "tekst": "Poziom 1",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Po zamianie: P, W, C. PA 2.2 = C łamie regułę poziomu 2, więc proces ma poziom 1."
+    },
+    {
+     "tekst": "Poziom 0, bo PA 2.2 jest tylko częściowy",
+     "poprawna": false,
+     "wyjasnienie": "Poziom 1 zależy od PA 1.1, a ten ma F, czyli P.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 3, bo żaden atrybut nie ma oceny N",
+     "poprawna": false,
+     "wyjasnienie": "Brak ocen N nie daje poziomu 3.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-19-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-01-02"
+   ],
+   "lekcja": "mt-k19-skala-i-regula-poziomu",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Jakie warunki musi spełnić proces, żeby osiągnąć poziom 3 zdolności?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Wszystkie atrybuty poziomów 1–3 co najmniej W",
+     "poprawna": false,
+     "wyjasnienie": "Niższe poziomy wymagają P, a nie W.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "PA 3.1 i 3.2 co najmniej W; PA 1.1, 2.1 i 2.2 – P",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Atrybuty ocenianego poziomu co najmniej W, wszystkie niższe w pełni (P)."
+    },
+    {
+     "tekst": "PA 3.1 i 3.2 – P; niższe atrybuty co najmniej W",
+     "poprawna": false,
+     "wyjasnienie": "Wymagania są odwrócone.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Średnia ocen poziomów 1–3 co najmniej W",
+     "poprawna": false,
+     "wyjasnienie": "Model nie liczy średniej.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-20-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-01-02",
+    "PC-02-06"
+   ],
+   "lekcja": "mt-k20-profile-graniczne",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Dziecko świetnie jeździ na rowerze, ale wciąż słabo hamuje. Czy jest gotowe do jazdy po ulicy?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Jeszcze nie – najpierw w pełni opanuje podstawy",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Tak jak w modelu zdolności: brak na niższym szczeblu blokuje wyższy."
+    },
+    {
+     "tekst": "Tak – liczy się najlepsza z jego umiejętności",
+     "poprawna": false,
+     "wyjasnienie": "Najlepsza umiejętność nie zastąpi brakującej podstawy.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Tak – średnio jeździ już całkiem dobrze",
+     "poprawna": false,
+     "wyjasnienie": "Średnia ukrywa brak, który decyduje o bezpieczeństwie.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Tak – hamowanie to tylko drobny szczegół jazdy",
+     "poprawna": false,
+     "wyjasnienie": "Hamowanie to podstawa, a nie szczegół.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-20-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-01-02",
+    "PC-02-06"
+   ],
+   "lekcja": "mt-k20-profile-graniczne",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Proces w ubezpieczalni ma profil: PA 1.1 = P, PA 2.1 = W, PA 2.2 = W, PA 3.1 = N, PA 3.2 = N. Jaki poziom zdolności osiąga?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Poziom 0, bo ocena N cofa cały wynik",
+     "poprawna": false,
+     "wyjasnienie": "N na poziomie 3 nie odbiera poziomów już osiągniętych.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 1, bo PA 2.1 i PA 2.2 mają tylko W",
+     "poprawna": false,
+     "wyjasnienie": "Na ocenianym poziomie wystarczy W.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 2",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. PA 1.1 = P, a atrybuty poziomu 2 mają co najmniej W. Oceny N blokują tylko poziom 3."
+    },
+    {
+     "tekst": "Poziom 3, bo atrybuty poziomu 3 zostały ocenione",
+     "poprawna": false,
+     "wyjasnienie": "Ocenione nie znaczy osiągnięte – mają N.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-20-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-01-02",
+    "PC-02-06"
+   ],
+   "lekcja": "mt-k20-profile-graniczne",
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "tresc": "Zarząd słyszy, że proces ma poziom 1 zdolności, i mówi: „Prawie zero”. Co mówi o tym podręcznik COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 45
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Poziom 1 oznacza proces niekompletny",
+     "poprawna": false,
+     "wyjasnienie": "Proces niekompletny to poziom 0.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 1 to ważne osiągnięcie: proces osiąga cel",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Podręcznik nazywa poziom 1 ważnym osiągnięciem i fundamentem wyższych poziomów."
+    },
+    {
+     "tekst": "Poziom 1 to najniższy możliwy wynik oceny",
+     "poprawna": false,
+     "wyjasnienie": "Najniższy jest poziom 0.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 1 to dawny poziom 1 dojrzałości z COBIT 4.1",
+     "poprawna": false,
+     "wyjasnienie": "Skale COBIT 4.1 i COBIT 5 nie przekładają się jeden do jednego.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-20-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "PC-01-02",
+    "PC-02-06"
+   ],
+   "lekcja": "mt-k20-profile-graniczne",
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "tresc": "Profil procesu: PA 1.1 = C, pozostałe atrybuty bez oceny. Jaki poziom zdolności ma proces?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Poziom 1, bo proces jest jakoś wykonywany",
+     "poprawna": false,
+     "wyjasnienie": "„Jakoś” to za mało: PA 1.1 musi mieć co najmniej W.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 1, bo C znaczy Częściowy, czyli wystarczający",
+     "poprawna": false,
+     "wyjasnienie": "Częściowy to mniej niż wymagane W.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziomu nie da się ustalić bez oceny wyższych atrybutów",
+     "poprawna": false,
+     "wyjasnienie": "Poziom 0 wynika już z PA 1.1.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 0",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Poziom 1 wymaga co najmniej W na PA 1.1, a jest C."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-21-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-02",
+    "IM-02-05",
+    "IM-01-01"
+   ],
+   "lekcja": "mt-k21-wdrozenie-21-dzialan",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Przy przeprowadzce jedna osoba pilnuje terminów, druga przekonuje dzieci do nowej szkoły, a trzecia pakuje meble – w tych samych tygodniach. Co to przypomina we wdrożeniu COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 38
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Trzy pierścienie działające równolegle",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Program, zmiana i doskonalenie idą razem, w każdej fazie."
+    },
+    {
+     "tekst": "Fazy wdrożenia następujące po sobie",
+     "poprawna": false,
+     "wyjasnienie": "Przykład pokazuje równoczesność, a nie kolejność.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Wymóg, by wdrożenie prowadziły trzy osoby",
+     "poprawna": false,
+     "wyjasnienie": "COBIT 5 nie określa liczby osób.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Pierścienie realizowane jeden po drugim",
+     "poprawna": false,
+     "wyjasnienie": "Pierścienie działają równolegle.",
+     "pulapka": "odwrocone"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-21-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-02",
+    "IM-02-05",
+    "IM-02-03"
+   ],
+   "lekcja": "mt-k21-wdrozenie-21-dzialan",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "W fazie 2 urząd w tym samym tygodniu definiuje problemy, tworzy zespół wdrożeniowy i ocenia stan obecny. Co to pokazuje?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 38
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Każda faza ma działanie w każdym pierścieniu",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. 7 faz × 3 pierścienie = 21 działań; w fazie 2 dzieją się trzy naraz."
+    },
+    {
+     "tekst": "Urząd pomylił kolejność faz wdrożenia",
+     "poprawna": false,
+     "wyjasnienie": "To trzy działania jednej fazy, a nie różne fazy.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Faza 2 dotyczy wyłącznie zarządzania programem",
+     "poprawna": false,
+     "wyjasnienie": "Faza 2 ma działania we wszystkich trzech pierścieniach.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "To trzy osobne iteracje cyklu wdrożenia",
+     "poprawna": false,
+     "wyjasnienie": "Iteracja to cały obrót koła, a nie jedno działanie.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-21-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-02",
+    "IM-02-05",
+    "IM-02-03"
+   ],
+   "lekcja": "mt-k21-wdrozenie-21-dzialan",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Do czego w COBIT 5 należy „Monitorowanie i szacowanie” w fazie 7?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 38
+    },
+    {
+     "doc": "ALTKOM"
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Do domeny MEA – Monitoruj, Oszacuj i Oceń",
+     "poprawna": false,
+     "wyjasnienie": "MEA to domena trzech procesów Zarządzania.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Do pierścienia Aktywowanie zmiany",
+     "poprawna": false,
+     "wyjasnienie": "W tym pierścieniu faza 7 ma działanie „Utrzymanie”.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Do cyklu życia ciągłego doskonalenia",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. To działanie pierścienia wewnętrznego w fazie 7, a nie domena procesów."
+    },
+    {
+     "tekst": "Do siódmego aktywatora COBIT 5",
+     "poprawna": false,
+     "wyjasnienie": "Aktywatory to inny model niż cykl wdrożenia.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-21-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-02",
+    "IM-02-05",
+    "IM-02-03"
+   ],
+   "lekcja": "mt-k21-wdrozenie-21-dzialan",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "W której fazie wdrożenia COBIT 5 powstaje mapa drogowa (Road map)?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 38
+    },
+    {
+     "doc": "ALTKOM"
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "W fazie 4 „Co trzeba zrobić?”",
+     "poprawna": false,
+     "wyjasnienie": "W fazie 4 jest planowanie programu.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "W fazie 2 „Gdzie jesteśmy teraz?”",
+     "poprawna": false,
+     "wyjasnienie": "W fazie 2 definiuje się problemy i okazje.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "W fazie 3 „Dokąd chcemy dojść?”",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Definiowanie mapy drogowej to działanie programu w fazie 3."
+    },
+    {
+     "tekst": "W fazie 5 „Jak się tam dostaniemy?”",
+     "poprawna": false,
+     "wyjasnienie": "W fazie 5 wykonuje się plan.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-22-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-02",
+    "IM-02-05",
+    "IM-02-06"
+   ],
+   "lekcja": "mt-k22-wdrozenie-w-kalendarzu",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Postanawiasz w jednym roku nauczyć się trzech języków, gry na pianinie i pływania. Jakie ryzyko jest największe?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 38
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Zbyt szybkie postępy we wszystkim naraz",
+     "poprawna": false,
+     "wyjasnienie": "Duży zakres raczej spowalnia postępy.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Utrata zapału, zanim pojawią się efekty",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Tak samo długa iteracja wdrożenia grozi utratą dynamiki i akceptacji."
+    },
+    {
+     "tekst": "Brak pomysłów na to, czego się uczyć",
+     "poprawna": false,
+     "wyjasnienie": "Pomysłów jest aż za dużo.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Nuda wynikająca ze zbyt małej liczby zadań",
+     "poprawna": false,
+     "wyjasnienie": "Problemem jest nadmiar, a nie brak zadań.",
+     "pulapka": "odwrocone"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-22-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-02",
+    "IM-02-05",
+    "IM-02-06"
+   ],
+   "lekcja": "mt-k22-wdrozenie-w-kalendarzu",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Dyrektor IT banku planuje jedną iterację wdrożenia na 14 miesięcy. Co doradza mentor, opierając się na COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 38
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Kilka iteracji, każda do około pół roku",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Przy inicjatywie dłuższej niż sześć miesięcy rośnie ryzyko utraty dynamiki, koncentracji i akceptacji."
+    },
+    {
+     "tekst": "Wydłużyć iterację, żeby wdrożyć wszystko starannie",
+     "poprawna": false,
+     "wyjasnienie": "Dłuższa iteracja zwiększa ryzyko utraty dynamiki.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Pominąć fazy 6 i 7, żeby skrócić cały plan",
+     "poprawna": false,
+     "wyjasnienie": "Fazy 6 i 7 sprawdzają korzyści i otwierają kolejną iterację.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Zostawić plan, bo długość iteracji jest bez znaczenia",
+     "poprawna": false,
+     "wyjasnienie": "Podręcznik wprost ostrzega przed iteracją dłuższą niż pół roku.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-22-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-02",
+    "IM-02-05",
+    "IM-02-06"
+   ],
+   "lekcja": "mt-k22-wdrozenie-w-kalendarzu",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Bank ustawia całe wdrożenie pod termin audytu zewnętrznego. Jak COBIT 5 klasyfikuje audyt zewnętrzny we wdrożeniu?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 37
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Jako zdarzenie wyzwalające – impuls do działania",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Audyt zewnętrzny to przykład zdarzenia wyzwalającego; cel wynika z potrzeb interesariuszy."
+    },
+    {
+     "tekst": "Jako cel wdrożenia sprawdzany w fazie 6",
+     "poprawna": false,
+     "wyjasnienie": "Faza 6 pyta o osiągnięcie celu i korzyści, a nie o zdany audyt.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Jako punkt zapalny ustalany w fazie 3",
+     "poprawna": false,
+     "wyjasnienie": "Punkt zapalny to coś, co już boli; faza też się nie zgadza.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Jako zdarzenie inicjujące z fazy 7",
+     "poprawna": false,
+     "wyjasnienie": "To nazwa podręcznikowa i zła faza; egzamin mówi „zdarzenie wyzwalające”.",
+     "pulapka": "forma-podrecznikowa"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-22-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "IM-02-02",
+    "IM-02-05",
+    "IM-02-07"
+   ],
+   "lekcja": "mt-k22-wdrozenie-w-kalendarzu",
+   "bloom": "rozumienie",
+   "trudnosc": 2,
+   "tresc": "Uzasadnienie biznesowe programu napisano w czerwcu, w fazie 4. Co dalej się z nim dzieje według COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 39
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Jest stale aktualizowane przez cały program",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Uzasadnienie biznesowe to dynamiczne narzędzie operacyjne, a nie jednorazowy dokument."
+    },
+    {
+     "tekst": "Trafia do archiwum zaraz po zatwierdzeniu",
+     "poprawna": false,
+     "wyjasnienie": "Podręcznik mówi, że nie jest jednorazowym, statycznym dokumentem.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Aktualizuje się je wyłącznie po audycie",
+     "poprawna": false,
+     "wyjasnienie": "Aktualizuje się je stale, a nie tylko po audycie.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Zastępuje je mapa drogowa z fazy 3",
+     "poprawna": false,
+     "wyjasnienie": "Mapa drogowa i uzasadnienie biznesowe to różne narzędzia.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-23-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EN-02-25",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k23-karta-prowadzacego",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Rodzic uczy dziecko jazdy na rowerze. Co działa najlepiej na pierwszej lekcji?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Przerzutki, hamulce i przepisy drogowe naraz",
+     "poprawna": false,
+     "wyjasnienie": "Za dużo rzeczy naraz daje mętlik.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Jedna umiejętność, np. równowaga, i próba",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Krótkie szkolenie uczy jednej rzeczy i od razu ją sprawdza."
+    },
+    {
+     "tekst": "Długa opowieść o historii roweru",
+     "poprawna": false,
+     "wyjasnienie": "Ciekawostka nie uczy jazdy.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Pokaz jazdy rodzica bez próby dziecka",
+     "poprawna": false,
+     "wyjasnienie": "Bez próby nie wiadomo, czy dziecko się nauczyło.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-23-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EN-02-25",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k23-karta-prowadzacego",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Koleżanka z działu ryzyka ma 15 minut i prosi o wyjaśnienie RACI. Co robi mentor-praktyk?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 89
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Omawia R, A, C i I oraz historię tabeli RACI",
+     "poprawna": false,
+     "wyjasnienie": "W 15 minut to daje mętlik zamiast reguły.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Uczy jednego atomu, np. A, i kończy pytaniem kontrolnym",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Jeden atom, jedna reguła i pytanie kontrolne z nowym przypadkiem."
+    },
+    {
+     "tekst": "Daje jej podręcznik do samodzielnego przeczytania",
+     "poprawna": false,
+     "wyjasnienie": "To unika szkolenia.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Recytuje definicje czterech liter i kończy spotkanie",
+     "poprawna": false,
+     "wyjasnienie": "Bez pytania kontrolnego nie wiadomo, czy zrozumiała.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-23-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "EN-02-25",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k23-karta-prowadzacego",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Na jakie pytanie odpowiada rola A w tabeli RACI według podręcznika COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 89
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Kto wykonuje zadanie?",
+     "poprawna": false,
+     "wyjasnienie": "To rola R – Odpowiedzialny wykonawczo.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Kto otrzymuje informacje?",
+     "poprawna": false,
+     "wyjasnienie": "To rola I – Informowany.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Kto odpowiada za powodzenie zadania?",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Strona rozliczana (A) to osoba ostatecznie odpowiedzialna za daną kwestię."
+    },
+    {
+     "tekst": "Kto udziela porad?",
+     "poprawna": false,
+     "wyjasnienie": "To rola C – Konsultant.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-23-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EN-02-25",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k23-karta-prowadzacego",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Jak egzamin COBIT 5 PL nazywa rolę Accountable z tabeli RACI?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 89
+    },
+    {
+     "doc": "ALTKOM"
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Odpowiedzialny wykonawczo",
+     "poprawna": false,
+     "wyjasnienie": "To rola Responsible (R).",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Strona rozliczana",
+     "poprawna": false,
+     "wyjasnienie": "To nazwa podręcznikowa.",
+     "pulapka": "forma-podrecznikowa"
+    },
+    {
+     "tekst": "Konsultant",
+     "poprawna": false,
+     "wyjasnienie": "To rola Consulted (C).",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Odpowiedzialny decyzyjnie",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Accountable na egzaminie PL to „odpowiedzialny decyzyjnie” (w parze z „odpowiedzialny wykonawczo” – R), w podręczniku – „strona rozliczana”."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-24-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EN-02-25",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k24-bledne-zalozenie",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Dziecko pyta: „Skoro wieloryb pływa w morzu, to jest rybą, prawda?”. Która odpowiedź rodzica najlepiej poprawia błędne założenie?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "„Tak, wszystko, co pływa w morzu, to ryba.”",
+     "poprawna": false,
+     "wyjasnienie": "To przytaknięcie, które utrwala błąd.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "„Wieloryby należą do rzędu waleni w gromadzie ssaków łożyskowych.”",
+     "poprawna": false,
+     "wyjasnienie": "Prawda, ale w żargonie, którego dziecko nie zrozumie.",
+     "pulapka": "forma-podrecznikowa"
+    },
+    {
+     "tekst": "„Dobrze, że patrzysz, gdzie żyje. Ale oddycha powietrzem, więc to ssak.”",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Uznaje trafną obserwację, poprawia założenie i daje regułę."
+    },
+    {
+     "tekst": "„Idź lepiej pobawić się klockami w pokoju.”",
+     "poprawna": false,
+     "wyjasnienie": "To ucieczka od pytania.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-24-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EN-02-25",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k24-bledne-zalozenie",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Nowy audytor pyta: „Wpiszemy A i kierownikowi, i dyrektorowi, żeby było bezpieczniej?”. Która odpowiedź mentora jest najlepsza?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 89
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "„Tak, dwie osoby z literą A to podwójna kontrola.”",
+     "poprawna": false,
+     "wyjasnienie": "To przytaknięcie błędowi.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "„Rozumiem intencję, ale przy dwóch A każdy liczy na drugiego. Wybierz jedną osobę.”",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Uznaje intencję, prostuje założenie i daje regułę: przy zadaniu jest jedno A."
+    },
+    {
+     "tekst": "„A to po prostu szef, więc wpisz tylko dyrektora.”",
+     "poprawna": false,
+     "wyjasnienie": "Fałszywe uproszczenie: A nie musi być szefem.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "„Rozliczalność przypisuje się jednoznacznie pojedynczej roli w macierzy RACI, zgodnie z dobrymi praktykami.”",
+     "poprawna": false,
+     "wyjasnienie": "Prawda, ale w żargonie, który niczego nie wyjaśnia.",
+     "pulapka": "forma-podrecznikowa"
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-24-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "EN-02-25",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k24-bledne-zalozenie",
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "tresc": "Pytanie kontrolne: „Kierownik sam w nocy aktualizuje dane. Czy zmienia się jego litera w RACI?”. Kursant odpowiada: „Nie, nadal A”. Jak ocenić tę odpowiedź?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Mam to – odpowiedź jest przecież poprawna",
+     "poprawna": false,
+     "wyjasnienie": "Poprawne rozstrzygnięcie bez uzasadnienia to dopiero „Częściowo”.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Nie mam – kursant tylko powtórzył definicję",
+     "poprawna": false,
+     "wyjasnienie": "Kursant rozstrzygnął przypadek, a nie recytował definicję.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Mam to – liczy się szybkość odpowiedzi",
+     "poprawna": false,
+     "wyjasnienie": "Szybkość nie dowodzi zrozumienia.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Częściowo – dobre rozstrzygnięcie, ale bez reguły",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. „Mam to” wymaga rozstrzygnięcia i reguły. Pełna odpowiedź: kierownik pozostaje A; to, że sam wykonuje pracę, może dodać mu R, ale nie odbiera A."
+    }
+   ]
+  },
+  {
+   "id": "q-mtk-24-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EN-02-25",
+    "PR-02-14"
+   ],
+   "lekcja": "mt-k24-bledne-zalozenie",
+   "bloom": "rozumienie",
+   "trudnosc": 2,
+   "tresc": "Kursant bezbłędnie recytuje definicję roli A. Co najlepiej sprawdzi, czy naprawdę ją rozumie?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Prośba o powtórzenie definicji jeszcze raz",
+     "poprawna": false,
+     "wyjasnienie": "Kolejna recytacja dalej sprawdza tylko pamięć.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Pytanie o angielską nazwę roli A",
+     "poprawna": false,
+     "wyjasnienie": "To sprawdza słownictwo, a nie rozumienie reguły.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Test, czy pamięta numer strony w podręczniku",
+     "poprawna": false,
+     "wyjasnienie": "Numer strony nie mówi nic o zrozumieniu.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Nowy przypadek graniczny do rozstrzygnięcia",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Recytacja dowodzi pamięci; zrozumienie widać przy nowym przypadku."
+    }
+   ]
+  }
+ ]
+}

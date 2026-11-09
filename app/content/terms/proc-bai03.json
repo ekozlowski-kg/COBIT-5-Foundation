@@ -39,8 +39,8 @@
   "przyklady": {
     "zycie": "Masz projekt kuchni i listę wymagań. Stolarz rysuje szafki, kupuje płyty i okucia, składa i montuje. Na koniec sprawdza, czy szuflady się domykają. To budowa rozwiązania – BAI03.",
     "biuro": "Biuro potrzebuje nowego formularza zamówień. Koleżanka projektuje go według listy wymagań i daje trzem osobom do sprawdzenia.",
-    "organizacja": "Software house buduje dla sieci aptek aplikację do rezerwacji i testuje każdą funkcję. Gmina kupuje gotowy system podatkowy, który dostawca konfiguruje i łączy z księgowością.",
-    "psp": "**Bramka zapasowa.** Firma Kwant-Sygnał projektuje dla Syreny zapasową bramkę SMS przez sieć komórkową. Ola Dudek z wydziału informatyki pomaga ją podłączyć do serwera komendy. Dostawca testuje u siebie, czy alarm wychodzi także bez internetu. Projekt, budowa i testy rozwiązania to [[proc-bai03]].",
+    "organizacja": "Software house buduje dla sieci aptek aplikację do rezerwacji i testuje każdą funkcję.",
+    "admin": "Gmina kupuje gotowy system podatkowy według listy wymagań z przetargu. Dostawca konfiguruje go pod lokalne stawki podatku od nieruchomości i łączy z programem księgowym urzędu. Zanim system trafi do odbioru, informatyk gminy i dostawca testują, czy naliczenia dla 50 przykładowych nieruchomości zgadzają się z wyliczeniami z ubiegłego roku.",
     "it": "Praktyki BAI03 obejmują m.in. projekt ogólny i szczegółowy, pozyskanie komponentów, zapewnienie jakości i testy rozwiązania. Wymagania przychodzą z BAI02."
   },
   "nieMylicZ": [
@@ -90,8 +90,8 @@
   "mapa": "proc-bai03",
   "glebokosc": {
     "prosty": "Zamówiłeś tort z dokładnym opisem. Cukiernik wybiera przepis, kupuje składniki, piecze i kosztuje krem, zanim go nałoży. Cała ta praca w cukierni to budowa rozwiązania.",
-    "zaawansowany": "Kwant-Sygnał dostaje od komendy listę wymagań ([[proc-bai02]]). Projektuje zapasową bramkę SMS, kupuje modem, pisze moduł i testuje go w swoim laboratorium. To [[proc-bai03]]. Każdą zmianę w trakcie prac zatwierdza się w [[proc-bai06]], a gotowy moduł trafia do odbioru przez dyżurnych w [[proc-bai07]].",
-    "skrajny": "Kwant-Sygnał melduje: „Wszystkie testy przeszły, moduł gotowy”. Mimo to dyżurna Kasia Nowik w pierwszym próbnym alarmie nie umie znaleźć nowego przycisku. Czy testy z BAI03 były złe? Niekoniecznie. Testy w BAI03 sprawdzają, czy rozwiązanie zbudowano zgodnie z projektem i wymaganiami. Czy użytkownik je przyjmuje w prawdziwej pracy, sprawdzają testy akceptacyjne w BAI07. Pułapka: słowo „test” pojawia się w obu procesach. **Rozstrzygnięcie:** BAI03 testuje, czy zbudowaliśmy rzecz dobrze. BAI07 testuje z użytkownikami, czy to dobra rzecz do uruchomienia, i przeprowadza przejście do eksploatacji."
+    "zaawansowany": "Dostawca dostaje od banku listę wymagań ([[proc-bai02]]). Projektuje zapasową bramkę SMS, kupuje modem, pisze moduł i testuje go w swoim laboratorium. To [[proc-bai03]]. Każdą zmianę w trakcie prac zatwierdza się w [[proc-bai06]], a gotowy moduł trafia do odbioru przez użytkowników w [[proc-bai07]].",
+    "skrajny": "Dostawca melduje: „Wszystkie testy przeszły, moduł gotowy”. Mimo to konsultantka obsługi klienta w pierwszej próbie nie umie znaleźć nowego przycisku. Czy testy z BAI03 były złe? Niekoniecznie. Testy w BAI03 sprawdzają, czy rozwiązanie zbudowano zgodnie z projektem i wymaganiami. Czy użytkownik je przyjmuje w prawdziwej pracy, sprawdzają testy akceptacyjne w BAI07. Pułapka: słowo „test” pojawia się w obu procesach. **Rozstrzygnięcie:** BAI03 testuje, czy zbudowaliśmy rzecz dobrze. BAI07 testuje z użytkownikami, czy to dobra rzecz do uruchomienia, i przeprowadza przejście do eksploatacji."
   },
   "zagmatwania": [
     {

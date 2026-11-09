@@ -26,16 +26,16 @@
   "skadNazwa": "*Operations and execution*. Podręcznik tłumaczy dosłownie: „Eksploatacja i wykonanie”. Egzamin skraca to do „Role operacyjne”.",
   "wyobrazSobie": "Kelner w restauracji: podaje dania według karty i mówi szefowi sali, czego goście nie zjedli.",
   "poCo": "Żeby praca naprawdę została wykonana, a kierownictwo wiedziało, jak poszło.",
-  "jakDziala": "Role operacyjne dostają instrukcje od kierownictwa. Wykonują pracę, np. obsługę zgłoszeń czy alarmów. Wyniki i problemy raportują do kierownictwa, które przekazuje wnioski wyżej.",
+  "jakDziala": "Role operacyjne dostają instrukcje od kierownictwa. Wykonują pracę, np. obsługę zgłoszeń czy kopii zapasowych. Wyniki i problemy raportują do kierownictwa, które przekazuje wnioski wyżej.",
   "dlaczegoWazne": "Na egzaminie słowo-klucz tej roli to „raportowanie”. Forma podręcznikowa „Eksploatacja i wykonanie” myli się z fazą „Użytkowanie/eksploatacja”.",
   "poziom1": "Czwarta, ostatnia rola z Ilustracji 9. Dostaje instrukcje od kierownictwa, wykonuje pracę i **raportuje** do kierownictwa. Nie raportuje wprost organowi Ładu i nie wyznacza kierunku.",
-  "poziom2": "| Relacja | Z kim |\n|---|---|\n| otrzymuje **instrukcje i dopasowanie** | od kierownictwa |\n| **raportuje** | do kierownictwa |\n\nW komendzie to np. dyżurni, informatycy i dowódcy zmian przy codziennej pracy. Ich zadania w procesach to zwykle domeny [[bai|BAI]] i [[dss|DSS]].",
+  "poziom2": "| Relacja | Z kim |\n|---|---|\n| otrzymuje **instrukcje i dopasowanie** | od kierownictwa |\n| **raportuje** | do kierownictwa |\n\nW banku to np. konsultanci helpdesku, administratorzy i operatorzy centrum danych przy codziennej pracy. Ich zadania w procesach to zwykle domeny [[bai|BAI]] i [[dss|DSS]].",
   "poziom3": "Ilustracja 9 (s. 24): Zarządzanie → *Instruowanie i dopasowanie* → *Eksploatacja i wykonanie*. Od eksploatacji w górę biegnie *Raportowanie*. Uzasadnienia egzaminacyjne: role operacyjne **raportują**.",
   "przyklady": {
     "zycie": "Firma remontowa dostaje od administratora budynku zlecenie: dach do końca lipca. Dekarze kładą blachę i co piątek wysyłają administratorowi zdjęcia postępów. Nie dzwonią do zarządu wspólnoty. To role operacyjne: wykonują i raportują.",
     "biuro": "Asystentka rejestruje pisma według instrukcji kierowniczki sekretariatu. W piątek wysyła jej zestawienie: ile pism wyszło w terminie.",
-    "organizacja": "Kierowniczka sklepu dostaje plan sprzedaży od dyrektora. Ekspedientki obsługują klientów, a w niedzielę wysyłają kierowniczce raport z kasy. To role operacyjne z Ilustracji 9.\n\nUrzędniczka wydziału komunikacji rejestruje pojazdy według instrukcji naczelnika. Co miesiąc przekazuje naczelnikowi zestawienie spraw. Nie raportuje radzie powiatu. To rola operacyjna.",
-    "psp": "**Dudek i raport z numerów** Mł. kpt. Ola Dudek, informatyczka, dostaje od kpt. Sikory zadanie: sprawdzić wszystkie numery OSP w Syrenie. Dzwoni do naczelników OSP, poprawia 14 numerów i wysyła Sikorze raport. Komendantce wyniki przedstawia dopiero Sikora. Dudek pełni tu rolę operacyjną: wykonuje i raportuje do kierownictwa.",
+    "organizacja": "Kierowniczka sklepu dostaje plan sprzedaży od dyrektora. Ekspedientki obsługują klientów, a w niedzielę wysyłają kierowniczce raport z kasy. To role operacyjne z Ilustracji 9.",
+    "admin": "Urzędniczka wydziału komunikacji w starostwie rejestruje pojazdy według instrukcji naczelnika. Co miesiąc przekazuje naczelnikowi zestawienie spraw i problemów, np. 12 wniosków z brakami. Nie raportuje radzie powiatu. To rola operacyjna.",
     "it": "Praktyki procesu DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami) wykonują zwykle role operacyjne, np. pracownicy pomocy technicznej. Raportują kierownikowi usług IT."
   },
   "nieMylicZ": [
@@ -77,8 +77,8 @@
   "mapa": "rola-operacyjne",
   "glebokosc": {
     "prosty": "Kucharz w restauracji gotuje według karty, którą ustalił szef kuchni. Po zmianie mówi szefowi, czego zabrakło. Nie idzie z tym do właściciela. Kucharz to „rola operacyjna”: robi i melduje.",
-    "zaawansowany": "Dyżurny Paweł Grab wysyła alarmy według procedury od Sikory. Po każdej zmianie wpisuje do raportu, który alarm doszedł z opóźnieniem. Raport trafia do Sikory, czyli [[rola-kierownictwo|kierownictwa]], a on zbiera wnioski dla komendantki. W [[raci|tabeli RACI]] Grab bywa R przy wysyłaniu alarmu. To dwa różne spojrzenia: RACI przypisuje go do zadania, Ilustracja 9 do miejsca w łańcuchu.",
-    "skrajny": "Grab wie o cichej awarii Syreny od miesiąca. Czy powinien pójść prosto do komendantki? W życiu czasem tak bywa, ale łańcuch z Ilustracji 9 prowadzi raport od ról operacyjnych do kierownictwa. Drugi haczyk: Sikora w nocy sam restartuje serwer. W tej chwili wykonuje pracę operacyjną, choć formalnie jest kierownictwem. Rola zależy od działania, a nie od stopnia czy stanowiska. **Rozstrzygnięcie:** role operacyjne wykonują i raportują do kierownictwa; osobę przypisujesz do roli według tego, co w danej chwili robi (interpretacja kursu)."
+    "zaawansowany": "Konsultant helpdesku obsługuje zgłoszenia według procedury od kierownika działu IT. Po każdej zmianie wpisuje do raportu, które zgłoszenie zamknięto po terminie. Raport trafia do kierownika działu IT, czyli [[rola-kierownictwo|kierownictwa]], a on zbiera wnioski dla zarządu. W [[raci|tabeli RACI]] konsultant bywa R przy rejestrowaniu zgłoszenia. To dwa różne spojrzenia: RACI przypisuje go do zadania, Ilustracja 9 do miejsca w łańcuchu.",
+    "skrajny": "Konsultant helpdesku wie o cichej awarii systemu powiadomień od miesiąca. Czy powinien pójść prosto do prezesa? W życiu czasem tak bywa, ale łańcuch z Ilustracji 9 prowadzi raport od ról operacyjnych do kierownictwa. Drugi haczyk: kierownik działu IT w nocy sam restartuje serwer. W tej chwili wykonuje pracę operacyjną, choć formalnie jest kierownictwem. Rola zależy od działania, a nie od stanowiska. **Rozstrzygnięcie:** role operacyjne wykonują i raportują do kierownictwa; osobę przypisujesz do roli według tego, co w danej chwili robi (interpretacja kursu)."
   },
   "zagmatwania": [
     {
@@ -96,7 +96,7 @@
   ],
   "mentor": {
     "czestyBlad": "Mylenie raportowania z monitorowaniem: „role operacyjne monitorują”.",
-    "jakTlumaczyc": "Raport idzie w górę od tego, kto robi. Monitorowanie robi ten, kto patrzy z góry. Dyżurny pisze raport, Sikora go czyta.",
+    "jakTlumaczyc": "Raport idzie w górę od tego, kto robi. Monitorowanie robi ten, kto patrzy z góry. Konsultant pisze raport, kierownik działu IT go czyta.",
     "pytanieKontrolne": "Jakie działanie z Ilustracji 9 wykonują role operacyjne i do kogo je kierują?",
     "odpowiedzKontrolna": "**Raportowanie**, do **kierownictwa**."
   }

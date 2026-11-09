@@ -26,17 +26,17 @@
   ],
   "poLudzku": "Dodatkowa kopia plików i danych, trzymana osobno, żeby odzyskać je po awarii lub pomyłce.",
   "poziom1": "Kopia zapasowa to regularnie robiona kopia danych (plików, baz danych, ustawień), przechowywana w innym miejscu niż oryginał. Gdy oryginał zginie, odtwarza się dane z kopii.",
-  "poziom2": "Ważne są trzy pytania: **jak często** robimy kopię (co tydzień? co godzinę?), **gdzie** ją trzymamy (inny budynek, inny serwer) i **czy umiemy z niej odtworzyć dane** – to trzeba regularnie sprawdzać. Kopia trzymana obok oryginału zginie razem z nim, np. w pożarze.",
+  "poziom2": "Ważne są trzy pytania: **jak często** robimy kopię (co tydzień? co godzinę?), **gdzie** ją trzymamy (inny budynek, inny serwer) i **czy umiemy z niej odtworzyć dane** – to trzeba regularnie sprawdzać. Kopia trzymana obok oryginału zginie razem z nim, np. przy zalaniu serwerowni.",
   "poziom3": "FW-PL nie definiuje kopii zapasowej. Kopie zapasowe są elementem zapewniania ciągłości (proces DSS04 Zarządzanie ciągłością, FW-PL s. 33); szczegółowe praktyki opisuje publikacja COBIT 5: Procesy umożliwiające (nie ma jej w materiałach kursu).",
   "wyobrazSobie": "Zapasowy klucz do mieszkania u mamy. Gdy zgubisz swój, nie wyważasz drzwi.",
-  "poCo": "Żeby awaria, pożar, pomyłka albo włamanie nie zniszczyły pracy i informacji na zawsze.",
+  "poCo": "Żeby awaria, zalanie, pomyłka albo włamanie nie zniszczyły pracy i informacji na zawsze.",
   "jakDziala": "Program co noc kopiuje wybrane dane na inny dysk albo serwer, najlepiej w innym budynku. Po awarii informatyk wybiera kopię z wybranego dnia i odtwarza z niej dane.",
-  "dlaczegoWazne": "Bez kopii zapasowej jedna awaria dysku może zniszczyć lata pracy. W komendzie – listę numerów strażaków.",
+  "dlaczegoWazne": "Bez kopii zapasowej jedna awaria dysku może zniszczyć lata pracy. W sklepie internetowym – całą historię zamówień i bazę klientów.",
   "przyklady": {
     "zycie": "Telefon co noc zapisuje kopię zdjęć na koncie w Internecie. Gdy zgubisz telefon, odzyskasz zdjęcia na nowym.",
     "biuro": "Biuro rachunkowe co wieczór kopiuje faktury klientów na zewnętrzny dysk, który szef zabiera do domu.",
-    "organizacja": "Szpital trzyma kopie danych pacjentów w drugim budynku. Pożar w serwerowni nie zniszczy wszystkiego.",
-    "psp": "Ola Dudek co noc robi kopię bazy „Syreny”. Gdy ktoś omyłkowo usunął numery OSP Zawilce, odtworzyła je z kopii z poprzedniej nocy.",
+    "organizacja": "Szpital trzyma kopie danych pacjentów w drugim budynku. Zalanie serwerowni nie zniszczy wszystkiego.",
+    "admin": "Starostwo co noc kopiuje bazę ewidencji gruntów i budynków na serwer w drugim budynku, a raz w tygodniu na dysk przechowywany w sejfie. Gdy urzędnik przez pomyłkę skasuje dane działki, informatyk odtwarza je z kopii z poprzedniej nocy.",
     "it": "Kopie zapasowe wspierają ciągłość działania – proces DSS04 Zarządzanie ciągłością (FW-PL s. 33)."
   },
   "nieMylicZ": [
@@ -70,7 +70,7 @@
   ],
   "glebokosc": {
     "prosty": "Mama zapisuje przepisy w zeszycie, a co roku przepisuje najważniejsze do drugiego zeszytu, który trzyma u córki. Gdy w kuchni zaleje zeszyt, przepisy nie przepadną.",
-    "zaawansowany": "Ola Dudek robi co noc kopię bazy „Syreny”, ale trzyma ją na tym samym serwerze pod schodami. Sikora pyta: „A jeśli zaleje schowek?”. Kopia zginie razem z oryginałem. Ola przenosi kopię do drugiej jednostki, JRG 2. Teraz awaria jednego miejsca nie zniszczy obu. To pierwszy krok do [[it-ciaglosc-dzialania|ciągłości działania]].",
+    "zaawansowany": "Administrator robi co noc kopię bazy sklepu internetowego, ale trzyma ją na tym samym serwerze w piwnicy. CIO pyta: „A jeśli zaleje piwnicę?”. Kopia zginie razem z oryginałem. Administrator przenosi kopię do drugiego centrum danych. Teraz awaria jednego miejsca nie zniszczy obu. To pierwszy krok do [[it-ciaglosc-dzialania|ciągłości działania]].",
     "skrajny": "Czy kopia, z której nigdy nie próbowano odtworzyć danych, jest pewna? Nie – może być niepełna albo uszkodzona. Czy kopia na tym samym dysku chroni przed awarią dysku? Nie. Czy kopia z zeszłego miesiąca wystarczy? Zależy, ile danych możesz stracić – dla bazy numerów raczej nie. **Rozstrzygnięcie:** kopia zapasowa ma sens tylko wtedy, gdy jest regularna, trzymana osobno od oryginału i sprawdzona przez próbne odtworzenie."
   },
   "zagmatwania": [
@@ -86,7 +86,7 @@
   "mentor": {
     "czestyBlad": "Trzymanie kopii obok oryginału i niesprawdzanie odtwarzania.",
     "jakTlumaczyc": "Zapasowy klucz u mamy, a nie w tej samej torebce co główny klucz.",
-    "pytanieKontrolne": "Kopia bazy „Syreny” leży na tym samym serwerze co baza. Co się stanie przy pożarze serwerowni?",
+    "pytanieKontrolne": "Kopia bazy klientów leży na tym samym serwerze co baza. Co się stanie przy zalaniu serwerowni?",
     "odpowiedzKontrolna": "Zginie oryginał i kopia naraz. Kopię trzeba trzymać w innym miejscu."
   }
 }

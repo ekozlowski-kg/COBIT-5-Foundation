@@ -27,7 +27,7 @@
   "poLudzku": "Główny program, który uruchamia komputer i pozwala włączać inne programy.",
   "poziom1": "Podstawowe oprogramowanie, które startuje zaraz po włączeniu urządzenia, zarządza jego pracą i pozwala uruchamiać inne programy. Przykłady: Windows, macOS, Linux na komputerach; Android i iOS na telefonach.",
   "poziom2": "System operacyjny pośredniczy między sprzętem a aplikacjami. Przydziela programom pamięć, obsługuje ekran, klawiaturę i drukarkę, pilnuje zapisywania plików i pyta o hasło przy starcie. Aplikacja nie musi „znać” każdej drukarki – prosi system operacyjny, a on wie, jak drukować.",
-  "poziom3": "W COBIT 5 system operacyjny mieści się w „oprogramowaniu systemowym”, które FW-PL zalicza do infrastruktury technicznej (s. 86). Słowo „system” bywa też używane w znaczeniu „system informatyczny” (np. „system Syrena”) – to co innego.",
+  "poziom3": "W COBIT 5 system operacyjny mieści się w „oprogramowaniu systemowym”, które FW-PL zalicza do infrastruktury technicznej (s. 86). Słowo „system” bywa też używane w znaczeniu „system informatyczny” (np. „system CRM”) – to co innego.",
   "wyobrazSobie": "Kierownik sali w restauracji. Nie gotuje i nie je, ale sadza gości, przydziela stoliki i kelnerów, żeby wszystko działało.",
   "poCo": "Żeby każdy program nie musiał sam obsługiwać ekranu, klawiatury, dysku i drukarki. Robi to za nie system operacyjny.",
   "jakDziala": "Po włączeniu komputera najpierw startuje system operacyjny. Pokazuje pulpit (ekran startowy) i ikony programów. Gdy klikniesz ikonę, system uruchamia program i daje mu dostęp do sprzętu.",
@@ -36,7 +36,7 @@
     "zycie": "Twój telefon ma Androida albo iOS. To one pokazują ekran z ikonami i pozwalają otworzyć aplikację banku czy aparat.",
     "biuro": "Informatyk mówi: „W piątek aktualizujemy Windowsa na wszystkich komputerach”. Chodzi o system operacyjny, a nie o program do pisania.",
     "organizacja": "Firma przechodzi ze starego systemu operacyjnego na nowy, bo producent przestał wydawać poprawki bezpieczeństwa.",
-    "psp": "Gdy dyżurna Kasia Nowik włącza komputer na SK, najpierw widzi okno logowania systemu operacyjnego, a dopiero potem uruchamia „Syrenę”.",
+    "admin": "W starostwie nowy program do ewidencji gruntów działa tylko na nowszej wersji Windowsa. Informatyk musi najpierw zaktualizować system operacyjny na 25 komputerach wydziału geodezji, a dopiero potem zainstalować program. System operacyjny to podstawa, na której działają wszystkie aplikacje urzędu.",
     "it": "System operacyjny to oprogramowanie systemowe – część infrastruktury technicznej w COBIT 5 (FW-PL s. 86)."
   },
   "nieMylicZ": [
@@ -45,7 +45,7 @@
       "roznica": "Aplikacja służy człowiekowi do zadania (np. pisania). System operacyjny służy komputerowi – pozwala działać aplikacjom."
     },
     {
-      "termin": "System informatyczny (np. „system Syrena”)",
+      "termin": "System informatyczny (np. „system CRM”)",
       "roznica": "To zestaw programów, danych i sprzętu do konkretnego zadania organizacji, a nie system operacyjny komputera."
     }
   ],
@@ -68,7 +68,7 @@
   ],
   "glebokosc": {
     "prosty": "Wsiadasz do samochodu i przekręcasz kluczyk. Zanim pojedziesz, auto zapala kontrolki i sprawdza paliwo. Ten „start” jest jak system operacyjny: przygotowuje wszystko, żebyś mógł jechać tam, gdzie chcesz.",
-    "zaawansowany": "Ola Dudek planuje aktualizację systemu operacyjnego na komputerach SK. Pyta dostawcę, czy [[it-aplikacja|aplikacja]] „Syrena” zadziała na nowej wersji. Gdyby nie zadziałała, dyżurni nie wysłaliby alarmu. Tak jedna podmiana w podstawie może zatrzymać program, który od niej zależy.",
+    "zaawansowany": "Administrator planuje aktualizację systemu operacyjnego na komputerach księgowości. Pyta dostawcę, czy [[it-aplikacja|aplikacja]] finansowo-księgowa zadziała na nowej wersji. Gdyby nie zadziałała, księgowość nie wystawiłaby faktur. Tak jedna podmiana w podstawie może zatrzymać program, który od niej zależy.",
     "skrajny": "„System” w rozmowie w urzędzie zwykle znaczy „system informatyczny”, np. „system kadrowy”. To nie jest system operacyjny, tylko aplikacja z danymi. Odwrotnie: Android to system operacyjny, a nie aplikacja, choć też go „instalujesz”. **Rozstrzygnięcie:** system operacyjny obsługuje samo urządzenie i uruchamia inne programy; „system” w organizacji to zwykle zestaw aplikacji i danych do konkretnego zadania."
   },
   "zagmatwania": [
@@ -77,8 +77,8 @@
       "prawda": "Windows to system operacyjny. Program do pisania (np. Word) działa w Windowsie."
     },
     {
-      "mit": "„System Syrena” to system operacyjny.",
-      "prawda": "„Syrena” to system informatyczny – aplikacja z danymi – działający w systemie operacyjnym."
+      "mit": "„System CRM” to system operacyjny.",
+      "prawda": "System CRM to system informatyczny – aplikacja z danymi – działający w systemie operacyjnym."
     }
   ],
   "mentor": {

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "q-im-01-01",
+    "typ": "klasyfikacja",
+    "sylabus": [
+      "IM-02-01",
+      "IM-02-02"
+    ],
+    "lekcja": "im-01-kontekst",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Czynnik środowiskowy, punkt zapalny czy zdarzenie wyzwalające?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 35
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 36
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 37
+      }
+    ],
+    "status": "oficjalne",
+    "kategorie": [
+      "Czynnik środowiskowy",
+      "Punkt zapalny",
+      "Zdarzenie wyzwalające"
+    ],
+    "elementy": [
+      {
+        "tekst": "Apetyt na ryzyko organizacji",
+        "kategoria": "Czynnik środowiskowy",
+        "wyjasnienie": "Kontekst do uwzględnienia (s. 35)."
+      },
+      {
+        "tekst": "Styl zarządzania komendanta",
+        "kategoria": "Czynnik środowiskowy",
+        "wyjasnienie": "s. 35."
+      },
+      {
+        "tekst": "Trzy wydziały kupiły trzy podobne systemy GIS",
+        "kategoria": "Punkt zapalny",
+        "wyjasnienie": "Powielające się inicjatywy (s. 37)."
+      },
+      {
+        "tekst": "Ukryte wydatki na IT w budżetach wydziałów",
+        "kategoria": "Punkt zapalny",
+        "wyjasnienie": "s. 37."
+      },
+      {
+        "tekst": "Połączenie dwóch komend powiatowych",
+        "kategoria": "Zdarzenie wyzwalające",
+        "wyjasnienie": "Fuzja (s. 37)."
+      },
+      {
+        "tekst": "Nowy CIO w komendzie wojewódzkiej",
+        "kategoria": "Zdarzenie wyzwalające",
+        "wyjasnienie": "s. 37."
+      }
+    ]
+  },
+  {
+    "id": "q-im-03-02",
+    "typ": "studium",
+    "sylabus": [
+      "IM-02-05"
+    ],
+    "lekcja": "im-03-pierscienie",
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Którego pierścienia cyklu wdrożenia dotyczy ten problem?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 37
+      }
+    ],
+    "status": "oficjalne",
+    "scenariusz": "Projekt nowego systemu SK idzie zgodnie z budżetem i harmonogramem, ale doświadczeni dyżurni otwarcie bojkotują nowe procedury, a nikt z nimi nie rozmawia o ich obawach.",
+    "opcje": [
+      {
+        "tekst": "Pierścienia zewnętrznego – harmonogram, budżet i korzyści programu",
+        "poprawna": false,
+        "wyjasnienie": "Budżet i harmonogram są w porządku.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Pierścienia środkowego – aspekty behawioralne i kulturowe zmiany",
+        "poprawna": true,
+        "wyjasnienie": "Opór i komunikacja z ludźmi to aktywowanie zmiany (s. 37)."
+      },
+      {
+        "tekst": "Pierścienia wewnętrznego – stałe, iteracyjne ulepszanie",
+        "poprawna": false,
+        "wyjasnienie": "Problem nie dotyczy cyklu ulepszania.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Żadnego – to sprawa uzasadnienia biznesowego",
+        "poprawna": false,
+        "wyjasnienie": "Uzasadnienie to narzędzie, a nie pierścień.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-im-04-02",
+    "typ": "studium",
+    "sylabus": [
+      "IM-02-07"
+    ],
+    "lekcja": "im-04-siedem-faz",
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "W której fazie cyklu wdrożenia jest komenda?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 38
+      }
+    ],
+    "status": "oficjalne",
+    "scenariusz": "Komenda ma już wybrane rozwiązania. Teraz definiuje konkretne projekty, do każdego przygotowuje uzasadnienie biznesowe i opracowuje plan zmian.",
+    "opcje": [
+      {
+        "tekst": "Faza 3 – Dokąd chcemy dojść?",
+        "poprawna": false,
+        "wyjasnienie": "W fazie 3 określa się cel i analizuje luki.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Faza 4 – Co trzeba zrobić?",
+        "poprawna": true,
+        "wyjasnienie": "s. 38: w fazie 4 planuje się rozwiązania i definiuje projekty wspierane przez uzasadnienia biznesowe."
+      },
+      {
+        "tekst": "Faza 5 – Jak się tam dostaniemy?",
+        "poprawna": false,
+        "wyjasnienie": "W fazie 5 rozwiązania wprowadza się w życie.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Faza 6 – Czy dotarliśmy do celu?",
+        "poprawna": false,
+        "wyjasnienie": "Faza 6 to korzyści i utrwalanie.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-pc-02-04",
+    "typ": "studium",
+    "sylabus": [
+      "PC-01-01"
+    ],
+    "lekcja": "pc-02-poziomy",
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "tresc": "Który opis najlepiej pasuje do procesu na poziomie **4 (przewidywalny)**?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "oficjalne",
+    "scenariusz": "W komendzie wojewódzkiej oceniano proces obsługi zgłoszeń w czterech komendach powiatowych.",
+    "opcje": [
+      {
+        "tekst": "Zgłoszenia są obsługiwane, ale każda zmiana robi to po swojemu",
+        "poprawna": false,
+        "wyjasnienie": "To poziom 1.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Jest jedna standardowa procedura, wdrożona we wszystkich komendach",
+        "poprawna": false,
+        "wyjasnienie": "To poziom 3.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Czasy obsługi są mierzone i utrzymywane w zdefiniowanych limitach",
+        "poprawna": true,
+        "wyjasnienie": "Poziom 4: proces działa w zdefiniowanych limitach (pomiar i kontrola)."
+      },
+      {
+        "tekst": "Na podstawie analiz procedura jest stale ulepszana pod nowe cele",
+        "poprawna": false,
+        "wyjasnienie": "To poziom 5.",
+        "pulapka": "odwrocone"
+      }
+    ]
+  },
+  {
+    "id": "q-pc-05-04",
+    "typ": "studium",
+    "sylabus": [
+      "PC-02-01"
+    ],
+    "lekcja": "pc-05-przewodniki",
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Który cel oceny realizuje komenda wojewódzka?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 45
+      }
+    ],
+    "status": "oficjalne",
+    "scenariusz": "Komenda wojewódzka oceniła proces zarządzania incydentami w 10 komendach powiatowych, żeby zobaczyć, które radzą sobie najlepiej, a które odstają.",
+    "opcje": [
+      {
+        "tekst": "Porównanie (benchmarking) zdolności procesów",
+        "poprawna": true,
+        "wyjasnienie": "Umożliwienie organowi Ładu i kierownictwu porównania zdolności procesów (s. 45)."
+      },
+      {
+        "tekst": "Certyfikacja ISO/IEC 27001",
+        "poprawna": false,
+        "wyjasnienie": "To inna norma.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Ocena pracowników do premii",
+        "poprawna": false,
+        "wyjasnienie": "Ocena nie dotyczy ludzi.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Zastąpienie uzasadnienia biznesowego",
+        "poprawna": false,
+        "wyjasnienie": "To nie ma związku.",
+        "pulapka": "falsz"
+      }
+    ]
+  }
+]

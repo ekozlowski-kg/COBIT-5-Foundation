@@ -32,14 +32,14 @@
   "przyklady": {
     "zycie": "Po wymianie zamków w drzwiach wysyłasz rodzicom SMS: „Zmieniłem zamki, nowy klucz jest u sąsiadki”. Nie pytasz ich o zdanie, tylko dajesz znać. Rodzice są I.",
     "biuro": "W biurze dział IT wysyła wszystkim maila: „W sobotę od 8 do 12 nie będzie poczty”. Pracownicy niczego nie zatwierdzają. Są I.",
-    "organizacja": "Firma kurierska zmienia godziny odbioru paczek. Klienci dostają maila z nowymi godzinami. Nikt ich nie pyta o opinię. Klienci są I przy tej zmianie. Wójt podpisuje nowy regulamin pracy urzędu. Wszyscy pracownicy dostają go do zapoznania się i potwierdzają odbiór podpisem. Są I: dostają informację, ale nie współtworzą treści.",
-    "psp": "Po aktualizacji numerów w Syrenie Ola Dudek wysyła krótką notatkę do dyżurnych SK: „Lista OSP Zawilce zaktualizowana 3 maja”. Paweł Grab i Kasia Nowik nie muszą nic odpowiadać, mają tylko wiedzieć, że lista jest świeża. Dyżurni SK są I.",
+    "organizacja": "Firma kurierska zmienia godziny odbioru paczek. Klienci dostają maila z nowymi godzinami. Nikt ich nie pyta o opinię. Klienci są I przy tej zmianie.",
+    "admin": "Wójt podpisuje nowy regulamin organizacyjny urzędu. Wszystkich 60 pracowników dostaje go do zapoznania się i potwierdza odbiór podpisem. Są I: dostają informację, ale nie współtworzą treści.",
     "it": "Przy wdrażaniu zmiany w BAI06 (Zarządzanie zmianami) użytkowników zwykle tylko się informuje o terminie i skutkach zmiany. Mają wtedy rolę I (przykład kursu, nie cytat z tabeli)."
   },
   "glebokosc": {
     "prosty": "Gdy wyjeżdżasz na urlop, mówisz sąsiadowi: „Nie będzie mnie tydzień”. Nie pytasz go o zgodę ani o radę. Po prostu dajesz znać. Sąsiad jest I.",
-    "zaawansowany": "W tabeli RACI aktualizacji numerów dyżurni SK mają I. Dostają notatkę o nowej liście i nie muszą odpowiadać. Gdy Kasia Nowik zauważa błędny numer i dzwoni do Dudek, przez chwilę dostarcza wejście jak [[raci-c|C]]. Sikora sprawdza, czy tabela dobrze opisuje role, i dopisuje dyżurnym kanał zgłaszania uwag.",
-    "skrajny": "Sikora dostaje co miesiąc raport z aktualizacji numerów. Kursant wpisuje mu więc w tabeli I. Ale Sikora odpowiada za listę, więc ma A. Słownik mówi wprost: rola rozliczana zawsze powinna otrzymywać odpowiednie informacje, żeby nadzorować zadanie. Samo otrzymywanie informacji nie czyni roli I. Literę wyznacza najważniejszy związek z zadaniem, a nie fakt dostawania raportów. **Rozstrzygnięcie:** I to rola, która tylko otrzymuje informacje, w jedną stronę. A też je otrzymuje, ale pozostaje A."
+    "zaawansowany": "W tabeli RACI aktualizacji danych kontaktowych klientów konsultanci helpdesku mają I. Dostają notatkę o nowej liście i nie muszą odpowiadać. Gdy młoda konsultantka zauważa błędny numer i dzwoni do administratorki, przez chwilę dostarcza wejście jak [[raci-c|C]]. Kierownik działu IT sprawdza, czy tabela dobrze opisuje role, i dopisuje konsultantom kanał zgłaszania uwag.",
+    "skrajny": "Kierownik działu IT dostaje co miesiąc raport z aktualizacji danych kontaktowych. Kursant wpisuje mu więc w tabeli I. Ale kierownik odpowiada za listę, więc ma A. Słownik mówi wprost: rola rozliczana zawsze powinna otrzymywać odpowiednie informacje, żeby nadzorować zadanie. Samo otrzymywanie informacji nie czyni roli I. Literę wyznacza najważniejszy związek z zadaniem, a nie fakt dostawania raportów. **Rozstrzygnięcie:** I to rola, która tylko otrzymuje informacje, w jedną stronę. A też je otrzymuje, ale pozostaje A."
   },
   "zagmatwania": [
     {

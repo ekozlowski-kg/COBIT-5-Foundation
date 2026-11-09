@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Schemat kaskady celów · COBIT 5</title>
+<script>try{var t=localStorage.getItem('c5.theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="podrecznik.css">
+<style>
+/* Układ: łańcuch 4 kroków; potem trzy kolumny (pytania interesariuszy | 17 celów organizacji | 17 celów IT) i pod nimi 37 procesów w 5 domenach; podświetlanie powiązań zamiast linii; panel pojęć po prawej. */
+:root{
+  --bg:#ffffff; --surface:#ffffff; --ink:#111111; --muted:#666666; --line:#dddddd;
+  --q:#f2f2f2; --q-ink:#111111; --eg:#f2f2f2; --eg-ink:#111111; --it:#f2f2f2; --it-ink:#111111; --pr:#f2f2f2; --pr-ink:#111111;
+  --p:#111111; --s:#8a8a8a; --trap:#111111; --dim:.35;
+  --f-display:"IBM Plex Sans",system-ui,sans-serif; --f-body:"IBM Plex Sans",system-ui,sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f0f0f; --surface:#161616; --ink:#f2f2f2; --muted:#9a9a9a; --line:#333333;
+  --q:#222222; --q-ink:#f2f2f2; --eg:#222222; --eg-ink:#f2f2f2; --it:#222222; --it-ink:#f2f2f2; --pr:#222222; --pr-ink:#f2f2f2;
+  --p:#f2f2f2; --s:#8a8a8a; --trap:#f2f2f2; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f0f0f; --surface:#161616; --ink:#f2f2f2; --muted:#9a9a9a; --line:#333333;
+  --q:#222222; --q-ink:#f2f2f2; --eg:#222222; --eg-ink:#f2f2f2; --it:#222222; --it-ink:#f2f2f2; --pr:#222222; --pr-ink:#f2f2f2;
+  --p:#f2f2f2; --s:#8a8a8a; --trap:#f2f2f2; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15.5px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 48px}
+.page{max-width:1600px;margin:0 auto}
+.top{max-width:1600px}
+.pnav{max-width:1600px;margin:18px auto 0;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+h1{font-family:var(--f-display);font-weight:600;font-size:clamp(26px,3vw,36px);line-height:1.15;margin:0 0 6px;text-wrap:balance}
+.lead{color:var(--muted);margin:0 0 18px;max-width:86ch}
+.wrap{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:22px;align-items:start}
+@media (max-width:1180px){.wrap{grid-template-columns:minmax(0,1fr)}}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px;min-width:0}
+.box+.box{margin-top:16px}
+.h{font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;font-weight:600}
+.chain{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+@media (max-width:760px){.chain{grid-template-columns:minmax(0,1fr)}}
+.st{font:inherit;text-align:left;cursor:pointer;border:1.5px solid transparent;border-radius:12px;padding:12px 14px;background:var(--q);color:var(--q-ink);position:relative}
+.st .nr{font-family:var(--f-mono);font-size:12.5px;opacity:.8}
+.st .q{display:block;font-size:16px;font-weight:600;margin:2px 0}
+.st .a{display:block;font-size:14px}
+.st.cas{background:var(--eg);color:var(--eg-ink)}
+.st::after{content:"→";position:absolute;right:-12px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:16px;z-index:1}
+.st:last-child::after{content:none}
+@media (max-width:760px){.st::after{content:"↓";right:auto;left:16px;top:auto;bottom:-15px;transform:none}}
+.say{background:var(--bg);border-radius:10px;padding:12px 14px;margin:0 0 14px;font-size:15.5px;min-height:48px}
+.say b{font-weight:600}
+.say .p{color:var(--p);font-weight:600}
+.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:900px){.cols{grid-template-columns:minmax(0,1fr)}}
+.ct{font-size:15px;font-weight:600;margin:0 0 2px}
+.ct .ap{font-weight:500;color:var(--muted);font-size:13px}
+.cs{font-size:13px;color:var(--muted);margin:0 0 10px}
+.dim{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:12px 0 6px}
+.list>.dim:first-child{margin-top:0}
+.dim .dimen{text-transform:none;letter-spacing:0;font-weight:400}
+.g .nm .en{font-size:12px;margin-top:1px}
+.g{width:100%;font:inherit;text-align:left;cursor:pointer;border:1.5px solid transparent;border-radius:9px;padding:6px 9px;margin:0 0 5px;display:grid;grid-template-columns:30px minmax(0,1fr) auto;gap:8px;align-items:center;transition:opacity .2s}
+.g.q{background:var(--q);color:var(--q-ink)} .g.eg{background:var(--eg);color:var(--eg-ink)} .g.it{background:var(--it);color:var(--it-ink)} .g.pr{background:var(--pr);color:var(--pr-ink)}
+.g .no{font-family:var(--f-mono);font-weight:600;font-size:12.5px}
+.g .nm{font-size:13.5px;line-height:1.35}
+.g .r{font-family:var(--f-mono);font-weight:600;font-size:12px;border-radius:5px;padding:1px 7px;visibility:hidden;white-space:nowrap}
+.g.rP .r,.g.rD .r{visibility:visible;background:var(--p);color:var(--surface)}
+.g.rS .r{visibility:visible;border:1.5px dashed var(--s);color:var(--ink)}
+.g.act{border-color:var(--p);box-shadow:0 0 0 3px color-mix(in srgb,var(--p) 22%,transparent)}
+.sel .g:not(.act):not(.rP):not(.rS):not(.rD){opacity:var(--dim)}
+.g:focus-visible,.st:focus-visible{outline:3px solid var(--p);outline-offset:2px}
+.prs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+@media (max-width:1300px){.prs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:760px){.prs{grid-template-columns:minmax(0,1fr)}}
+.prs .g{grid-template-columns:52px minmax(0,1fr) auto}
+.legend{display:flex;flex-wrap:wrap;gap:16px;font-size:13px;color:var(--muted);margin:12px 0 0}
+.legend span::before{content:"";display:inline-block;width:22px;height:14px;border-radius:4px;vertical-align:-2px;margin-right:6px}
+.legend .lp::before{background:var(--p)} .legend .ls::before{border:1.5px dashed var(--s)}
+.note{font-size:13.5px;color:var(--muted);margin:12px 0 0}
+aside{position:sticky;top:max(16px,env(safe-area-inset-top,0px));max-height:calc(100vh - 32px);overflow:auto}
+@media (max-width:1180px){aside{position:static;max-height:none}}
+aside h2{font-family:var(--f-display);font-weight:560;font-size:21px;margin:0 0 4px;line-height:1.2;text-wrap:balance}
+.full{margin:0 0 10px;color:var(--muted)}
+.names{width:100%;border-collapse:collapse;font-size:14px;margin:0 0 6px}
+.names td{padding:5px 8px 5px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.names td:first-child{color:var(--muted);width:88px;font-size:12px;text-transform:uppercase;letter-spacing:.05em}
+.k{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:14px 0 4px}
+aside p{margin:0}
+.vals{display:flex;gap:6px;flex-wrap:wrap}
+.vals span{border:1px solid var(--line);border-radius:6px;padding:2px 8px;font-size:13.5px}
+.links{display:flex;flex-wrap:wrap;gap:6px}
+.links button{font:inherit;font-size:13px;cursor:pointer;border-radius:6px;padding:3px 8px;background:var(--bg);color:var(--ink);border:1px solid var(--line)}
+.links button.P,.links button.D{border-color:var(--p)} .links button.S{border-style:dashed}
+.ex{display:grid;gap:6px}
+.ex div{background:var(--bg);border-radius:8px;padding:7px 10px}
+.ex b{display:block;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.trap{border-left:3px solid var(--trap);padding-left:12px;margin-top:14px}
+.src{font-size:12.5px;color:var(--muted);margin-top:14px}
+@media (prefers-reduced-motion:reduce){.g{transition:none}}
+</style>
+</head>
+<body>
+
+
+<div class="top"><a class="back" href="index.html">← Spis treści</a><div class="ttl"><small>Rozdział 2 · Zasada 1 · s. 17–20, 49–56</small><strong>Schemat kaskady celów</strong></div></div>
+<div class="page">
+  <h1>Zasada 1: kaskada celów</h1>
+  <p class="lead">Cała kaskada z Rysunku 4: od pytań interesariuszy (Załącznik D), przez 17 celów organizacji (Ilustracja 5) i 17 celów IT (Ilustracja 6, Załącznik B), do 37 procesów (Załącznik C). Kliknij dowolny element – podświetlą się elementy z nim powiązane, a panel pokaże wyjaśnienie.</p>
+  <div class="wrap">
+    <main>
+      <section class="box">
+        <p class="h">W czterech krokach</p>
+        <div class="chain">
+          <button class="st" data-x="wyz"><span class="nr">1</span><span class="q">Coś się zmienia</span><span class="a">nowe przepisy, technologie, strategia – to <b>wyznaczniki</b></span></button>
+          <button class="st" data-x="pot"><span class="nr">2</span><span class="q">Ludzie czegoś potrzebują</span><span class="a"><b>potrzeby interesariuszy</b> – widać je w ich pytaniach</span></button>
+          <button class="st" data-x="war"><span class="nr">3</span><span class="q">Cel: wartość</span><span class="a">korzyść przy rozsądnym ryzyku i koszcie – <b>cel Ładu</b></span></button>
+          <button class="st cas" data-x="kas"><span class="nr">4</span><span class="q">Kaskada celów</span><span class="a">rozpisanie na konkretne cele – <b>poniżej</b></span></button>
+        </div>
+      </section>
+
+      <section class="box" id="casc">
+        <p class="h">Kaskada celów – kliknij element, żeby zobaczyć jego powiązania</p>
+        <div class="say" id="say" aria-live="polite"></div>
+        <div class="cols">
+          <div><p class="ct">Pytania interesariuszy (22) <span class="ap">· Załącznik D</span></p><p class="cs">Typowe pytania o IT, które zadają ludzie wewnątrz organizacji.</p><div class="list" id="qList"></div></div>
+          <div><p class="ct">Cele organizacji (17) <span class="ap">· Ilustracja 5</span></p><p class="cs">Co chce osiągnąć cała organizacja. 4 wymiary BSC.</p><div class="list" id="egList"></div></div>
+          <div><p class="ct">Cele związane z Informatyką (17) <span class="ap">· Ilustracja 6</span></p><p class="cs">Co musi zapewnić IT. Powiązania z celami organizacji: Załącznik B.</p><div class="list" id="itList"></div></div>
+        </div>
+        <p class="ct" style="margin-top:22px">Procesy COBIT 5 (37) <span class="ap">· Załącznik C</span></p>
+        <p class="cs">Procesy to jeden z 7 aktywatorów, który realizuje cele IT. 5 procesów Ładu (EDM) i 32 procesy Zarządzania (APO, BAI, DSS, MEA).</p>
+        <div class="prs" id="prList"></div>
+        <div class="legend"><span class="lp">P – powiązanie podstawowe (bardzo ważne) · ✓ – powiązanie z Załącznika D</span><span class="ls">S – wspierające (ważne, ale słabsze)</span></div>
+        <p class="note">Pozostałe 6 aktywatorów (zasady i polityki, struktury, kultura, informacja, usługi i infrastruktura, ludzie) nie ma w podręczniku tabeli powiązań – ich cele organizacja ustala sama.</p>
+      </section>
+    </main>
+    <aside class="box" id="side" aria-live="polite"></aside>
+  </div>
+</div>
+
+<nav class="pnav" aria-label="Nawigacja między częściami"><a class="btn" href="k-pr-kaskada.html#koniec">← Poprzednia część</a><a class="btn pri" href="02c-kaskada-w-praktyce.html">Następna część →</a></nav>
+<script>
+const DIM=['Finanse','Klient','Obszar wewnętrzny','Szkolenie i rozwój'];
+const DIM_EN=['Financial','Customer','Internal','Learning and Growth'];
+const EG=[
+[1,'Wartość inwestycji biznesowych dla interesariuszy','Stakeholder value of business investments',0,'P','','S','Inwestycje (także w IT) mają się opłacić.','Nowy system CRM zwiększa sprzedaż bardziej, niż kosztował.','Wydatek na e-usługi daje mieszkańcom realną oszczędność czasu.'],
+[2,'Portfel konkurencyjnych produktów i usług','Portfolio of competitive products and services',0,'P','P','S','Mamy produkty i usługi, które wygrywają z innymi.','Bank ma lepszą aplikację niż konkurencja.','Gmina oferuje usługi online nie gorsze niż sąsiednie miasta.'],
+[3,'Zarządzane ryzyko biznesowe (ochrona zasobów)','Managed business risk (safeguarding of assets)',0,'','P','S','Panujemy nad ryzykiem i chronimy majątek.','Zabezpieczenia przed oszustwami na kontach klientów.','Ochrona środków publicznych i danych mieszkańców.'],
+[4,'Zgodność z przepisami prawa i regulacjami','Compliance with external laws and regulations',0,'','P','','Przestrzegamy prawa i regulacji zewnętrznych.','Zgodność z RODO i wymogami nadzoru finansowego.','Zgodność z ustawami, np. o dostępie do informacji publicznej.'],
+[5,'Przejrzystość finansowa','Financial transparency',0,'P','S','S','Wiadomo, ile co kosztuje i na co idą pieniądze.','Jasne raporty kosztów dla akcjonariuszy.','Przejrzyste wydatki z budżetu gminy.'],
+[6,'Kultura usług zorientowanych na klienta','Customer-oriented service culture',1,'P','','S','Myślimy o wygodzie tych, których obsługujemy.','Obsługa w banku nastawiona na klienta.','E-usługi projektowane pod mieszkańca.'],
+[7,'Ciągłość i dostępność usług biznesowych','Business service continuity and availability',1,'','P','','Usługi działają, gdy są potrzebne.','Bankowość internetowa działa całą dobę.','System podatkowy działa w terminie płatności.'],
+[8,'Zwinność w reagowaniu na zmieniające się otoczenie biznesowe','Agile responses to a changing business environment',1,'P','','S','Szybko dostosowujemy się do zmian.','Bank szybko wprowadza nowy produkt po zmianie na rynku.','Gmina szybko wdraża nowy obowiązek ustawowy.'],
+[9,'Świadome podejmowanie decyzji strategicznych na podstawie informacji','Information-based strategic decision making',1,'P','P','P','Ważne decyzje opieramy na danych.','Zarząd decyduje o oddziałach na podstawie analiz.','Rada planuje inwestycje na podstawie danych o mieszkańcach.'],
+[10,'Optymalizacja kosztów świadczenia usług','Optimisation of service delivery costs',1,'P','','P','Usługi kosztują tyle, ile trzeba.','Obsługa przez aplikację tańsza niż w oddziale.','Obsługa wniosków online tańsza niż przy okienku.'],
+[11,'Optymalizacja funkcjonalności procesów biznesowych','Optimisation of business process functionality',2,'P','','P','Procesy robią to, co mają robić.','Proces udzielania kredytu działa sprawnie.','Obieg wniosków działa bez gubienia spraw.'],
+[12,'Optymalizacja kosztów procesów biznesowych','Optimisation of business process costs',2,'P','','P','Procesy nie są niepotrzebnie drogie.','Automatyczne księgowanie zamiast ręcznego.','Elektroniczny obieg dokumentów zamiast papieru.'],
+[13,'Zarządzanie programami biznesowymi — zmiany biznesowe','Managed business change programmes',2,'P','P','S','Duże zmiany prowadzimy pod kontrolą.','Program cyfryzacji banku.','Program „cyfrowa gmina”.'],
+[14,'Wydajność pracowników i działań operacyjnych','Operational and staff productivity',2,'P','','P','Ludzie i codzienne działania są wydajne.','Doradca obsługuje więcej klientów dzięki narzędziom.','Urzędnik szybciej rozpatruje wnioski.'],
+[15,'Zgodność z politykami wewnętrznymi','Compliance with internal policies',2,'','P','','Przestrzegamy własnych zasad.','Przestrzeganie wewnętrznej polityki bezpieczeństwa.','Przestrzeganie zarządzeń wójta.'],
+[16,'Wykwalifikowany i zmotywowany personel','Skilled and motivated people',3,'S','P','P','Mamy kompetentnych i zmotywowanych ludzi.','Szkolenia i ścieżki rozwoju pracowników.','Przeszkoleni urzędnicy.'],
+[17,'Kultura innowacji produktów i biznesu','Product and business innovation culture',3,'P','','','Wspieramy nowe pomysły.','Bank testuje nowe usługi.','Gmina pilotuje nowe rozwiązania dla mieszkańców.']
+];
+const IG=[
+['01','Zgodność IT z biznesowymi celami strategicznymi','Alignment of IT and business strategy',0,'Projekty IT wynikają ze strategii organizacji.','IT realizuje strategię banku.','IT realizuje strategię rozwoju gminy.'],
+['02','Zgodność IT oraz wsparcie w zakresie zgodności działalności z przepisami prawa i regulacjami','IT compliance and support for business compliance with external laws and regulations',0,'IT przestrzega prawa i pomaga w tym całej organizacji.','System wspiera raportowanie do regulatora.','System wspiera obowiązki ustawowe, np. ochronę danych.'],
+['03','Zaangażowanie kadry zarządzającej w podejmowanie decyzji związanych z IT','Commitment of executive management for making IT-related decisions',0,'Kierownictwo angażuje się w decyzje o IT.','Zarząd sam ustala priorytety IT.','Wójt i sekretarz decydują o inwestycjach IT.'],
+['04','Zarządzanie ryzykiem biznesowym związanym z IT','Managed IT-related business risk',0,'Panujemy nad ryzykiem związanym z IT.','Ocena skutków awarii systemu płatności.','Plan na wypadek awarii systemu podatkowego.'],
+['05','Uzyskanie korzyści z inwestycji i portfela usług związanych z IT','Realised benefits from IT-enabled investments and services portfolio',0,'Inwestycje w IT dają korzyści.','Nowa aplikacja przyciąga klientów.','E-usługi skracają kolejki.'],
+['06','W obszarze IT: przejrzystość kosztów, korzyści i ryzyka','Transparency of IT costs, benefits and risk',0,'Widać, ile IT kosztuje, co daje i czym grozi.','Zarząd wie, ile kosztuje każda usługa IT.','Rada wie, ile kosztuje utrzymanie systemów.'],
+['07','Dostarczanie usług IT zgodnie z wymogami biznesowymi','Delivery of IT services in line with business requirements',1,'IT dostarcza to, czego potrzebuje działalność.','Aplikacja ma funkcje, których chcą klienci.','E-usługa robi to, czego potrzebują mieszkańcy.'],
+['08','Adekwatne wykorzystanie aplikacji, informacji i rozwiązań w zakresie technologii','Adequate use of applications, information and technology solutions',1,'Ludzie dobrze korzystają z systemów.','Doradcy umieją obsłużyć system obsługi klienta.','Urzędnicy umieją obsłużyć system e-usług.'],
+['09','Zwinność IT (ang. agility)','IT agility',2,'IT szybko reaguje na nowe potrzeby.','Nowa funkcja aplikacji w tygodnie, nie w lata.','Szybkie dostosowanie systemu do nowych przepisów.'],
+['10','Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji','Security of information, processing infrastructure and applications',2,'Dane i systemy są chronione.','Ochrona przed włamaniem, kopie zapasowe.','Ochrona danych mieszkańców.'],
+['11','Optymalizacja aktywów, zasobów i potencjału związanych z IT','Optimisation of IT assets, resources and capabilities',2,'Sprzęt, ludzie i budżet IT wykorzystane mądrze.','Serwery bez marnotrawstwa mocy.','Wspólna infrastruktura z innymi jednostkami gminy.'],
+['12','Umożliwianie i wsparcie realizacji procesów biznesowych poprzez integrację aplikacji i rozwiązań technologicznych z procesami biznesowymi','Enablement and support of business processes by integrating applications and technology into business processes',2,'Systemy są wpięte w codzienną pracę.','System kredytowy połączony z systemem obsługi klienta.','System podatkowy połączony z e-wnioskami.'],
+['13','Realizacja programów przynoszących korzyści — w sposób terminowy, w ramach budżetu i zgodnie z wymogami i standardami jakościowymi','Delivery of programmes delivering benefits, on time, on budget, and meeting requirements and quality standards',2,'Projekty IT na czas, w budżecie i z jakością.','Wdrożenie aplikacji zgodnie z planem.','Wdrożenie e-usług zgodnie z umową.'],
+['14','Dostępność wiarygodnych i przydatnych informacji wspierających proces decyzyjny','Availability of reliable and useful information for decision making',2,'Decydenci mają rzetelne informacje.','Zarząd dostaje prawdziwe dane o działalności.','Wójt dostaje rzetelne raporty.'],
+['15','Zgodność IT z politykami wewnętrznymi','IT compliance with internal policies',2,'IT przestrzega wewnętrznych zasad.','Dział IT stosuje politykę bezpieczeństwa banku.','Informatyk stosuje zarządzenia urzędu.'],
+['16','Kompetentny i zmotywowany personel działu biznesowego i działu IT','Competent and motivated business and IT personnel',3,'Ludzie w biznesie i w IT umieją to, co trzeba.','Szkolenia dla informatyków i doradców.','Szkolenia dla informatyka i urzędników.'],
+['17','Wiedza, kompetencje oraz inicjatywy w zakresie innowacji biznesowych','Knowledge, expertise and initiatives for business innovation',3,'Mamy wiedzę i pomysły na innowacje.','Zespół testuje nowe technologie.','Udział gminy w programach pilotażowych.']
+];
+// Ilustracja 22 (s. 50): wiersz = cel IT 01–17; znak = cel organizacji 1–17
+const M22=['PPS..PSPPSPSP..SS','..SP..........P..','PSS....SS.S.P..SS','..PS..PS.P..S.SS.','PP...S.S.SSP.S..S','S.S.P...SP.P.....','PPSS.PSPS.PSS..SS','SSS..SS.SSPS.P.SS','SPS..S.P..P.SS.SP','..PP..P.......P..','PS.....S.PSPSS..S','SPS..S.S.SPSSS..S','PSS..S...S.SP....','SSSS..P.P.S......','..SS..........P..','SSP..S.S.....P.PS','SP...S.PS.S.S..SP'];
+// Ilustracja 23 (s. 52–53): [kod, nazwa (podręcznik), EN, domena, znaki dla celów IT 01–17]
+const PR=[
+['EDM01','Zapewnienie i utrzymanie ładu korporacyjnego','Ensure Governance Framework Setting and Maintenance',0,'PSPSSSP.SSSSSSSSS'],
+['EDM02','Zapewnienie realizacji korzyści','Ensure Benefits Delivery',0,'P.S.PPPS..SSSS.SP'],
+['EDM03','Zapewnienie optymalizacji ryzyka','Ensure Risk Optimisation',0,'SSSP.PSS.P..SSPSS'],
+['EDM04','Zapewnienie optymalizacji zasobów','Ensure Resource Optimisation',0,'S.SSSSSSP.P.S..PS'],
+['EDM05','Zapewnienie przejrzystości dotyczącej interesariuszy','Ensure Stakeholder Transparency',0,'SSP..PP.....SSS.S'],
+['APO01','Zarządzanie metodyką zarządzania IT','Manage the IT Management Framework',1,'PPSS..S.PSPSSSPPP'],
+['APO02','Zarządzanie strategią','Manage Strategy',1,'P.SSS.PSS.SSSSSSP'],
+['APO03','Zarządzanie architekturą korporacyjną','Manage Enterprise Architecture',1,'P.SSSSSSPSPS.S..S'],
+['APO04','Zarządzanie innowacjami','Manage Innovation',1,'S..SP..PP.PS.S..P'],
+['APO05','Zarządzanie portfelem projektów','Manage Portfolio',1,'P.SSPSSSS.S.P...S'],
+['APO06','Zarządzanie budżetem i kosztami','Manage Budget and Costs',1,'S.SSPPSS..S.S....'],
+['APO07','Zarządzanie zasobami ludzkimi','Manage Human Resources',1,'PSSS..S.SSP.P.SPP'],
+['APO08','Zarządzanie relacjami','Manage Relationships',1,'P.SSSSPS..SPS.SSP'],
+['APO09','Zarządzanie umowami o świadczenie usług','Manage Service Agreements',1,'S..SSSPSSSS.SPS..'],
+['APO10','Zarządzanie dostawcami','Manage Suppliers',1,'.S.PSSPSPSS.SSS.S'],
+['APO11','Zarządzanie jakością','Manage Quality',1,'SS.SP.PSS.S.PSSSS'],
+['APO12','Zarządzanie ryzykiem','Manage Risk',1,'.P.P.PSSSP..PSSSS'],
+['APO13','Zarządzanie bezpieczeństwem','Manage Security',1,'.P.P.PSS.P...P...'],
+['BAI01','Zarządzanie programami i projektami','Manage Programmes and Projects',2,'P.SPPSSS..S.P..SS'],
+['BAI02','Zarządzanie definiowaniem wymagań','Manage Requirements Definition',2,'PSSSS.PSSSSPSS..S'],
+['BAI03','Zarządzanie identyfikacją i budowaniem rozwiązań','Manage Solutions Identification and Build',2,'S..SS.PS..SSSS..S'],
+['BAI04','Zarządzanie dostępnością i pojemnością','Manage Availability and Capacity',2,'...SS.PSS.P.SP..S'],
+['BAI05','Zarządzanie wdrażaniem zmian organizacyjnych','Manage Organisational Change Enablement',2,'S.S.S.SPS.SSP...P'],
+['BAI06','Zarządzanie zmianami','Manage Changes',2,'..SPS.PSSPSSSSS.S'],
+['BAI07','Zarządzanie procesem akceptacji zmian i przejścia','Manage Change Acceptance and Transitioning',2,'...SS.SPS..PSSS.S'],
+['BAI08','Zarządzanie wiedzą','Manage Knowledge',2,'S...S.SSPSS..S.SP'],
+['BAI09','Zarządzanie zasobami','Manage Assets',2,'.S.S.PS.SSP..SS..'],
+['BAI10','Zarządzanie konfiguracją','Manage Configuration',2,'.P.S.S.SSSP..PS..'],
+['DSS01','Zarządzanie eksploatacją','Manage Operations',3,'.S.PS.PSSSP..SSSS'],
+['DSS02','Zarządzanie zgłoszeniami serwisowymi i incydentami','Manage Service Requests and Incidents',3,'...P..PS.S...SS.S'],
+['DSS03','Zarządzanie problemami','Manage Problems',3,'.S.PS.PSS.PS.PS.S'],
+['DSS04','Zarządzanie ciągłością','Manage Continuity',3,'SS.PS.PSSSSS.PSSS'],
+['DSS05','Zarządzanie usługami bezpieczeństwa','Manage Security Services',3,'SP.P..SS.PSS.SS..'],
+['DSS06','Zarządzanie mechanizmami kontrolnymi procesów biznesowych','Manage Business Process Controls',3,'.S.P..PS.SSS.SSSS'],
+['MEA01','Monitorowanie, ocena i oszacowanie wydajności i zgodności','Monitor, Evaluate and Assess Performance and Conformance',4,'SSSPSSPSSSP.SSPSS'],
+['MEA02','Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej','Monitor, Evaluate and Assess the System of Internal Control',4,'.P.P.SSS.S...SP.S'],
+['MEA03','Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi','Monitor, Evaluate and Assess Compliance with External Requirements',4,'.P.PS.S..S....S.S']
+];
+const DOM=[['EDM','Oszacuj, Kieruj i Monitoruj','Ocena, kierowanie i monitorowanie','Evaluate, Direct and Monitor','Ład'],['APO','Dostosuj, Planuj i Organizuj','Dopasowanie, planowanie i organizacja','Align, Plan and Organise','Zarządzanie'],['BAI','Twórz, Nabywaj i Wdrażaj','Budowanie, nabywanie i wdrażanie','Build, Acquire and Implement','Zarządzanie'],['DSS','Dostarczaj, Obsługuj i Wspieraj','Dostarczanie, obsługa i wsparcie','Deliver, Service and Support','Zarządzanie'],['MEA','Monitoruj, Oszacuj i Oceń','Monitorowanie, ocena i oszacowanie','Monitor, Evaluate and Assess','Zarządzanie']];
+// Ilustracja 24 (s. 55–56): [krótko, pełne pytanie, cele organizacji]
+const QS=[
+['Czy IT daje wartość i czy użytkownicy są zadowoleni?','W jaki sposób uzyskuje się wartość z inwestycji w IT? Czy użytkownicy końcowi są zadowoleni z jakości usług IT?',[1,2,6,7,13,16,17]],
+['Jak zarządza się sprawnością IT?','W jaki sposób zarządza się sprawnością technologii informatycznych?',[2,5,9,10,11,12,14]],
+['Jak wykorzystać nowe technologie?','Jaki jest najlepszy sposób wykorzystania nowych technologii w kontekście nowych strategicznych szans dla przedsiębiorstwa?',[1,2,8,13,16,17]],
+['Jak najlepiej zorganizować dział IT?','Jaki jest optymalny sposób utworzenia i ustrukturyzowania działu IT?',[8,10,11,12,14,15,16]],
+['Jak bardzo zależymy od dostawców?','W jakim stopniu jestem uzależniony od zewnętrznych dostawców? Jak wypada ocena sprawności zarządzania umowami o outsourcing IT? Jak można zapewnić audyt dotyczący zewnętrznych dostawców?',[3,4,10]],
+['Jakie są wymogi kontrolne dla informacji?','Jakie są wymogi (kontrolne) w odniesieniu do informacji?',[4,9,15]],
+['Czy uwzględniliśmy całe ryzyko IT?','Czy uwzględniłem całe ryzyko związane z IT?',[3,7,9,15]],
+['Czy operacje IT są efektywne i elastyczne?','Czy realizowane przeze mnie operacje IT są efektywne i elastyczne?',[5,7]],
+['Jak kontrolować koszty IT?','Jak kontroluje się koszt IT? Jaki jest najbardziej skuteczny i wydajny sposób wykorzystania zasobów IT? Jakie są najbardziej skuteczne i wydajne opcje zaopatrzenia?',[10,12,14]],
+['Czy mamy dość kompetentnych ludzi w IT?','Czy liczba pracowników odpowiedzialnych za IT jest wystarczająca? W jaki sposób można rozwijać i utrzymywać ich umiejętności oraz jak zarządza się ich sprawnością?',[10,12,14]],
+['Jak zapewnić audyt IT?','W jaki sposób zapewnia się audyt IT?',[4,15]],
+['Czy informacje są dobrze zabezpieczone?','Czy informacje, które przetwarzam, są dobrze zabezpieczone?',[3,4,7,15]],
+['Jak IT może zwiększyć zwinność biznesu?','Jak można poprawić zwinność biznesową dzięki bardziej elastycznemu środowisku IT?',[1,8,16,17]],
+['Czemu projekty IT nie dają rezultatów?','Czy projekty IT nie przynoszą spodziewanych rezultatów — a jeśli tak, to dlaczego? Czy IT stanowi przeszkodę w realizacji strategii biznesowej?',[1,2,3,8,11,12,13]],
+['Co, jeśli IT przestanie działać?','Jak dużą rolę odgrywa IT w utrzymaniu funkcjonowania przedsiębiorstwa? Jak postępować w przypadku braku dostępności IT?',[1,2,7]],
+['Które procesy zależą od IT?','Jakie konkretne najważniejsze procesy biznesowe zależą od technologii informatycznych i jakie są wymogi dotyczące procesów biznesowych?',[1,2,11,12]],
+['Jak często przekraczamy budżet IT?','Ile wynosiła średnia wartość przekroczenia budżetów operacyjnych IT? Jak często i w jakim stopniu projekty IT przekraczają wyznaczony budżet?',[5,10,12,14]],
+['Ile czasu IT poświęca na pilne problemy?','Jaka część działań w ramach IT dotyczy rozwiązywania pilnych problemów, nie zaś wspierania udoskonaleń działalności biznesowej?',[2,3,12]],
+['Czy zasoby IT wystarczą na strategię?','Czy dostępne zasoby oraz infrastruktura IT są wystarczające do realizacji strategicznych celów przedsiębiorstwa?',[2,5,10,12]],
+['Jak długo trwają decyzje o IT?','Jak długo trwa proces podejmowania najważniejszych decyzji dotyczących IT?',[1,2,5,8]],
+['Czy działania IT są przejrzyste?','Czy wszystkie działania i inwestycje związane z IT są transparentne?',[2,4,5,15]],
+['Czy IT pomaga przestrzegać przepisów?','Czy technologie informatyczne ułatwiają przedsiębiorstwu zachowanie zgodności z regulacjami oraz poziomami usług? Jak mogę sprawdzić, czy przestrzegam wszystkich obowiązujących regulacji?',[4,15]]
+];
+const X={
+wyz:['Wyznaczniki','nazwa niepotwierdzona – rozpoznaj po opisie','Wyznaczniki dotyczące interesariuszy','Stakeholder Drivers','Zmiany, przez które ludzie zaczynają chcieć czegoś nowego: nowa strategia, zmiany w otoczeniu i przepisach, nowe technologie.','Konkurencja wprowadza płatności telefonem – klienci chcą tego samego.','Nowe przepisy wymagają korespondencji elektronicznej – gmina musi to umieć.','Wyznaczniki zmieniają potrzeby (krok 1). Uwaga: na Rysunku 3 „Wyznacznik” to tylko podpis strzałki – to co innego.','FW-PL s. 17–18, Ilustracja 4'],
+pot:['Potrzeby interesariuszy','Potrzeby interesariuszy','Potrzeby interesariuszy','Stakeholder Needs','Czego chcą ludzie, których sprawa obchodzi. Zawsze patrzymy na trzy rzeczy: korzyści, ryzyko i zasoby. Potrzeby widać w pytaniach, które zadają (Ilustracja 7) – Załącznik D łączy te pytania z celami organizacji.','Klienci: usługi banku mają działać zawsze i bezpiecznie.','Mieszkańcy: e-usługi mają działać w terminie płatności.','Potrzeby → cele organizacji: Załącznik D (w kolumnie pytań).','FW-PL s. 17–18, 22, 55–56'],
+war:['Cel Ładu: Tworzenie Wartości','Cel Ładu: Tworzenie Wartości (Rysunek 3)','Cel nadzoru: tworzenie wartości (Ilustracja 3)','Governance Objective: Value Creation','Korzyść osiągnięta rozsądnym kosztem i przy rozsądnym ryzyku. Trzy części: realizacja korzyści, optymalizacja ryzyka, optymalizacja zasobów.','Aplikacja daje klientów, kosztuje rozsądnie i nie naraża danych.','E-usługa skraca kolejki, mieści się w budżecie i chroni dane.','„Optymalizacja” to nie „minimum” i nie „najtaniej”. Każdy cel organizacji ma związek P/S z tymi trzema częściami (Rysunek 5).','FW-PL s. 17, 19'],
+kas:['Kaskada celów','Kaskada Celów','Kaskada celów','Goals Cascade','Rozpisanie potrzeb od ogółu do konkretu: potrzeby (pytania) → cele organizacji → cele związane z Informatyką → cele aktywatora, w tym procesów. Każdy element łączy się z kilkoma poziom niżej.','Pytanie „czy dane są bezpieczne?” → cel 3 → cel IT 10 → procesy APO13, DSS05.','Ten sam mechanizm w gminie: pytanie wójta → cele gminy → cele IT → procedury i urzędnicy.','Kaskada należy do zasady 1. Tabele powiązań (Załączniki B, C, D) to wskazówka – organizacja dopasowuje je do siebie.','FW-PL s. 17–21, 49–56']
+};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const $=id=>document.getElementById(id);
+const r22=(it,eg)=>{const c=M22[it][eg];return c==='.'?'':c};
+const r23=(pr,it)=>{const c=PR[pr][4][it];return c==='.'?'':c};
+const qHas=(q,eg)=>QS[q][2].includes(eg+1);
+function card(kind,i,no,nm,en){return '<button class="g '+kind+'" id="'+kind+i+'" data-k="'+kind+'" data-i="'+i+'"><span class="no">'+no+'</span><span class="nm">'+esc(nm)+(en?'<span class="en">'+esc(en)+'</span>':'')+'</span><span class="r"></span></button>'}
+$('qList').innerHTML=QS.map((q,i)=>card('q',i,i+1,q[0])).join('');
+function grouped(items,kind){let h='';DIM.forEach((d,di)=>{h+='<p class="dim">'+d+' <em class="dimen">'+DIM_EN[di]+'</em></p>';items.forEach((it,i)=>{if(it[3]===di)h+=card(kind,i,it[0],it[1],it[2])})});return h}
+$('egList').innerHTML=grouped(EG,'eg');$('itList').innerHTML=grouped(IG,'it');
+$('prList').innerHTML=DOM.map((d,di)=>'<div class="list"><p class="dim">'+d[0]+' · '+d[4]+'</p>'+PR.map((p,i)=>[p,i]).filter(([p])=>p[3]===di).map(([p,i])=>card('pr',i,p[0],p[1],p[2])).join('')+'</div>').join('');
+let cur=null;
+function rel(){const out={q:{},eg:{},it:{},pr:{}};if(!cur||cur.k==='x')return out;const i=cur.i;
+  if(cur.k==='q'){EG.forEach((_,j)=>{if(qHas(i,j))out.eg[j]='D'})}
+  if(cur.k==='eg'){QS.forEach((_,j)=>{if(qHas(j,i))out.q[j]='D'});IG.forEach((_,j)=>{const r=r22(j,i);if(r)out.it[j]=r})}
+  if(cur.k==='it'){EG.forEach((_,j)=>{const r=r22(i,j);if(r)out.eg[j]=r});PR.forEach((_,j)=>{const r=r23(j,i);if(r)out.pr[j]=r})}
+  if(cur.k==='pr'){IG.forEach((_,j)=>{const r=r23(i,j);if(r)out.it[j]=r})}
+  return out}
+const lbl=(kind,j)=>kind==='q'?'pytanie '+(j+1):kind==='eg'?String(EG[j][0]):kind==='it'?IG[j][0]:PR[j][0];
+function listBy(map,kind,want){return Object.keys(map).filter(j=>map[j]===want).map(j=>lbl(kind,+j))}
+function names(eg,pd,en){return '<table class="names"><tr><td>Egzamin</td><td><strong>'+esc(eg)+'</strong></td></tr><tr><td>Podręcznik</td><td>'+esc(pd)+'</td></tr><tr><td>Oryginał</td><td><em>'+esc(en)+'</em></td></tr></table>'}
+function exs(f,u){return '<p class="k">Przykłady</p><div class="ex"><div><b>Firma</b>'+esc(f)+'</div><div><b>Urząd</b>'+esc(u)+'</div></div>'}
+function links(map,kind){const ks=Object.keys(map).map(Number).sort((a,b)=>({P:0,D:0,S:1}[map[a]]-{P:0,D:0,S:1}[map[b]])||a-b);return ks.length?'<div class="links">'+ks.map(j=>'<button class="'+map[j]+'" data-go="'+kind+'" data-i="'+j+'">'+(map[j]==='D'?'✓':map[j])+' · '+esc(lbl(kind,j))+'</button>').join('')+'</div>':'<p>brak</p>'}
+const join=a=>a.length?a.join(', '):'–';
+function render(){
+  document.querySelectorAll('.g,.st').forEach(b=>{b.classList.remove('act','rP','rS','rD');const r=b.querySelector('.r');if(r)r.textContent=''});
+  const R=rel();$('casc').classList.toggle('sel',!!cur&&cur.k!=='x');
+  for(const kind of ['q','eg','it','pr'])for(const j in R[kind]){const el=$(kind+j);el.classList.add('r'+R[kind][j]);el.querySelector('.r').textContent=R[kind][j]==='D'?'✓':R[kind][j]}
+  let say='Kliknij element w dowolnej kolumnie – podświetlą się elementy z nim powiązane.',h='';
+  if(cur.k==='x'){const x=X[cur.id];document.querySelector('.st[data-x="'+cur.id+'"]').classList.add('act');h='<h2>'+esc(x[0])+'</h2>'+names(x[1],x[2],x[3])+'<p class="k">Po ludzku</p><p>'+esc(x[4])+'</p>'+exs(x[5],x[6])+'<div class="trap"><p class="k" style="margin-top:0">Na egzamin</p><p>'+esc(x[7])+'</p></div><p class="src">Źródło: '+esc(x[8])+'</p>'}
+  else{$(cur.k+cur.i).classList.add('act');const i=cur.i;
+   if(cur.k==='q'){const q=QS[i];say='<b>Pytanie '+(i+1)+'</b> („'+esc(q[0])+'”) prowadzi do celów organizacji: <b>'+join(listBy(R.eg,'eg','D'))+'</b>.';
+     h='<h2>Pytanie interesariusza '+(i+1)+'</h2><p class="full">„'+esc(q[1])+'”</p>'+names('Potrzeby interesariuszy','Potrzeby interesariuszy','Stakeholder needs')+'<p class="k">Kto pyta</p><p>Interesariusze wewnętrzni: zarząd, prezes (CEO), dyrektor finansowy (CFO), dyrektor IT (CIO), kierownicy, audyt wewnętrzny, użytkownicy. W urzędzie: wójt, skarbnik, sekretarz, kierownicy referatów.</p><p class="k">Prowadzi do celów organizacji (kliknij)</p>'+links(R.eg,'eg')+'<div class="trap"><p class="k" style="margin-top:0">Na egzamin</p><p>Załącznik D łączy potrzeby (pytania) interesariuszy wewnętrznych z celami organizacji. W tej tabeli nie ma P/S – pole jest po prostu zaznaczone albo puste. To też tylko wskazówka.</p></div><p class="src">Źródło: FW-PL s. 22 (Ilustracja 7), s. 55–56 (Ilustracja 24).</p>'}
+   if(cur.k==='eg'){const e=EG[i];say='<b>Cel organizacji '+e[0]+'</b> („'+esc(e[1])+'”) wymaga <span class="p">podstawowo</span> celów IT: <b>'+join(listBy(R.it,'it','P'))+'</b>, a wspierająco: <b>'+join(listBy(R.it,'it','S'))+'</b>. Wynika z pytań: <b>'+join(listBy(R.q,'q','D').map(s=>s.replace('pytanie ','')))+'</b>.';
+     h='<h2>Cel organizacji '+e[0]+'</h2><p class="full">'+esc(e[1])+'</p>'+names('Cele organizacji','Cele przedsiębiorstwa','Enterprise Goals')+'<p class="k">Nazwa oryginalna</p><p><em>'+esc(e[2])+'</em></p><p class="k">Wymiar BSC</p><p>'+DIM[e[3]]+'</p><p class="k">Czemu służy (Rysunek 5)</p><div class="vals">'+['korzyści','ryzyko','zasoby'].map((l,j)=>'<span>'+l+': <b>'+(e[4+j]||'–')+'</b></span>').join('')+'</div><p class="k">Po ludzku</p><p>'+esc(e[7])+'</p>'+exs(e[8],e[9])+'<p class="k">Wymaga celów IT (kliknij)</p>'+links(R.it,'it')+'<p class="k">Wynika z pytań interesariuszy</p>'+links(R.q,'q')+'<div class="trap"><p class="k" style="margin-top:0">Na egzamin</p><p>„Przedsiębiorstwo” w podręczniku = „organizacja” na egzaminie. 17 celów w 4 wymiarach BSC.</p></div><p class="src">Źródło: FW-PL s. 19 (Ilustracja 5), s. 50 (Ilustracja 22), s. 55–56 (Ilustracja 24).</p>'}
+   if(cur.k==='it'){const g=IG[i];say='<b>Cel IT '+g[0]+'</b> wspiera <span class="p">podstawowo</span> cele organizacji: <b>'+join(listBy(R.eg,'eg','P'))+'</b>. Realizują go <span class="p">podstawowo</span> procesy: <b>'+join(listBy(R.pr,'pr','P'))+'</b> (wspierająco: '+listBy(R.pr,'pr','S').length+').';
+     h='<h2>Cel IT '+g[0]+'</h2><p class="full">'+esc(g[1])+'</p>'+names('Cele związane z Informatyką','Cele związane z IT','IT-related Goals')+'<p class="k">Nazwa oryginalna</p><p><em>'+esc(g[2])+'</em></p><p class="k">Wymiar IT BSC</p><p>'+DIM[g[3]]+'</p><p class="k">Po ludzku</p><p>'+esc(g[4])+'</p>'+exs(g[5],g[6])+'<p class="k">Wspiera cele organizacji</p>'+links(R.eg,'eg')+'<p class="k">Realizują go procesy (Załącznik C)</p>'+links(R.pr,'pr')+'<div class="trap"><p class="k" style="margin-top:0">Na egzamin</p><p>„IT” w podręczniku = „Informatyka” na egzaminie. 17 celów IT w 4 wymiarach IT BSC.</p></div><p class="src">Źródło: FW-PL s. 19 (Ilustracja 6), s. 50 (Ilustracja 22), s. 52–53 (Ilustracja 23).</p>'}
+   if(cur.k==='pr'){const p=PR[i],d=DOM[p[3]];say='<b>Proces '+p[0]+'</b> („'+esc(p[1])+'”) realizuje <span class="p">podstawowo</span> cele IT: <b>'+join(listBy(R.it,'it','P'))+'</b>, a wspierająco: <b>'+join(listBy(R.it,'it','S'))+'</b>.';
+     h='<h2>Proces '+p[0]+'</h2><p class="full">'+esc(p[1])+'</p>'+names(p[0]+' '+p[1],p[0]+' '+p[1],p[0]+' '+p[2])+'<p class="k">Domena</p><p><b>'+d[0]+'</b> – egzamin: „'+d[1]+'”, podręcznik: „'+d[2]+'”, <em>'+d[3]+'</em>. Część: '+d[4]+'.</p><p class="k">Realizuje cele IT (kliknij)</p>'+links(R.it,'it')+'<div class="trap"><p class="k" style="margin-top:0">Na egzamin</p><p>37 procesów: 5 w domenie Ładu (EDM) i 32 w czterech domenach Zarządzania (APO, BAI, DSS, MEA). Nazwy egzaminacyjne procesów – ze słownika kursu.</p></div><p class="src">Źródło: FW-PL s. 33 (Ilustracja 16), s. 52–53 (Ilustracja 23).</p>'}}
+  $('say').innerHTML=say;$('side').innerHTML=h;
+  $('side').querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>select({k:b.dataset.go,i:+b.dataset.i})))}
+function select(c){cur=c;render();if(innerWidth<=1180)$('side').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})}
+document.querySelectorAll('.g').forEach(b=>b.addEventListener('click',()=>select({k:b.dataset.k,i:+b.dataset.i})));
+document.querySelectorAll('.st').forEach(b=>b.addEventListener('click',()=>select({k:'x',id:b.dataset.x})));
+cur={k:'eg',i:6};render();
+try{const st=JSON.parse(localStorage.getItem('c5.podrecznik')||'{}');st['02b-kaskada-schemat']={last:0,max:1,total:1,ts:Date.now()};localStorage.setItem('c5.podrecznik',JSON.stringify(st));}catch(e){}
+</script>
+
+</body>
+</html>

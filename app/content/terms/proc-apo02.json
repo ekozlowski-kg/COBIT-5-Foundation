@@ -36,8 +36,8 @@
   "przyklady": {
     "zycie": "Chcesz za trzy lata mieszkać we własnym mieszkaniu. Sprawdzasz, ile masz teraz, ile potrzeba i czego brakuje. Rozpisujesz kroki: oszczędzanie, kredyt, przeprowadzka. To strategia z mapą drogi.",
     "biuro": "Biuro chce za dwa lata obsługiwać klientów bez papieru. Kierownik spisuje, co jest dziś, czego brakuje i w jakiej kolejności to wprowadzić: najpierw skaner, potem e-podpis, na końcu archiwum elektroniczne.",
-    "organizacja": "Sklep internetowy chce wejść na rynek czeski. Dyrektor IT opisuje, czego brakuje: czeskiej wersji sklepu, lokalnych płatności, nowego magazynu danych. Układa plan na dwa lata. To APO02. Urząd marszałkowski przyjął cel: większość spraw online do 2030 roku. Informatycy spisują stan obecny, stan docelowy i kolejne etapy. Plan trafia do zatwierdzenia. Opracowanie strategii IT to APO02.",
-    "psp": "**Od „chcemy szybciej” do planu.** Naczelnik Marek Sikora siada z celem komendy: szybsza pomoc mieszkańcom. Spisuje stan Syreny dziś i stan docelowy za trzy lata. Układa kolejne kroki: zasilanie, drugi serwer, aplikacja dla OSP. Plan przedstawia komendantce. To jest [[proc-apo02|APO02]].",
+    "organizacja": "Sklep internetowy chce wejść na rynek czeski. Dyrektor IT opisuje, czego brakuje: czeskiej wersji sklepu, lokalnych płatności, nowego magazynu danych. Układa plan na dwa lata. To APO02.",
+    "admin": "Urząd marszałkowski przyjął cel: większość spraw online do 2030 roku. Informatycy spisują stan obecny, stan docelowy i kolejne etapy. Plan trafia do zatwierdzenia. Opracowanie strategii IT to APO02.",
     "it": "Dział IT przygotowuje trzyletnią strategię z analizą luki i mapą drogową. Opis architektury bierze z [[proc-apo03]], a inicjatywy przekazuje do [[proc-apo05]]."
   },
   "nieMylicZ": [
@@ -88,8 +88,8 @@
   "mapa": "proc-apo02",
   "glebokosc": {
     "prosty": "Planujesz wakacje. Najpierw wiesz, dokąd jedziesz i kiedy. Potem układasz trasę i postoje. Strategia to cel i kolejność kroków, a nie lista rzeczy do spakowania.",
-    "zaawansowany": "Naczelnik Sikora pisze strategię IT komendy na trzy lata. Żeby wiedzieć, jak Syrena łączy się z CPR 112 i listą numerów, bierze opis architektury z [[proc-apo03]]. Plan pokazuje lukę: jeden serwer, brak potwierdzeń odbioru. Kolejność inicjatyw ustala w mapie drogowej. Inicjatywy trafiają potem do portfela ([[proc-apo05]]).",
-    "skrajny": "Sikora rysuje dwa obrazki. Pierwszy: „Za trzy lata OSP potwierdza alarm w aplikacji, a Syrena ma zapasowy serwer”. Drugi: „Syrena, CPR 112, baza numerów i bramka SMS – kto z kim wymienia dane”. Pierwszy to strategia (APO02), drugi to architektura (APO03). Oba opisują przyszłość, więc łatwo je pomylić. Architektura podaje też zasady budowy, np. „jedna baza numerów dla wszystkich systemów”. Strategia wybiera, co zbudować najpierw i dlaczego. **Rozstrzygnięcie:** dokąd i w jakiej kolejności → APO02; jak to jest poskładane i według jakich zasad → APO03. (interpretacja kursu: uproszczony podział)"
+    "zaawansowany": "Dyrektor IT pisze strategię IT banku na trzy lata. Żeby wiedzieć, jak system powiadamiania klientów łączy się z bankowością mobilną i bazą klientów, bierze opis architektury z [[proc-apo03]]. Plan pokazuje lukę: jeden serwer, brak potwierdzeń odbioru. Kolejność inicjatyw ustala w mapie drogowej. Inicjatywy trafiają potem do portfela ([[proc-apo05]]).",
+    "skrajny": "Dyrektor IT rysuje dwa obrazki. Pierwszy: „Za trzy lata klient potwierdza odbiór powiadomienia w aplikacji, a system ma zapasowy serwer”. Drugi: „System powiadomień, bankowość mobilna, baza klientów i bramka SMS – kto z kim wymienia dane”. Pierwszy to strategia (APO02), drugi to architektura (APO03). Oba opisują przyszłość, więc łatwo je pomylić. Architektura podaje też zasady budowy, np. „jedna baza klientów dla wszystkich systemów”. Strategia wybiera, co zbudować najpierw i dlaczego. **Rozstrzygnięcie:** dokąd i w jakiej kolejności → APO02; jak to jest poskładane i według jakich zasad → APO03. (interpretacja kursu: uproszczony podział)"
   },
   "zagmatwania": [
     {

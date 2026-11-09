@@ -20,7 +20,7 @@
   "wymaga": [
     "proces"
   ],
-  "poLudzku": "Jednorazowe przedsięwzięcie z początkiem i końcem, np. remont remizy.",
+  "poLudzku": "Jednorazowe przedsięwzięcie z początkiem i końcem, np. przeprowadzka biura do nowej siedziby.",
   "wyobrazSobie": "Jak organizacja wesela: jest data, budżet i lista zadań, a po weselu przedsięwzięcie się kończy i zaczyna się codzienne wspólne życie.",
   "poCo": "Żeby jednorazową zmianę, np. wdrożenie nowego systemu, przeprowadzić w ustalonym czasie, budżecie i zakresie, a jej efekt przekazać do codziennej pracy.",
   "jakDziala": "Projekt (project) ma początek, koniec, cel, budżet i zespół. Tworzy rezultat (output), np. nowy system, który po zakończeniu przechodzi do procesów, czyli do codziennej pracy. Kilka powiązanych projektów tworzy program (programme), a w COBIT 5 programami i projektami zarządza proces BAI01 (Zarządzanie programami i projektami).",
@@ -33,13 +33,12 @@
     "biuro": "Biuro przeprowadza się na inne piętro: jest termin (koniec miesiąca), budżet na ekipę i lista zadań – spakować archiwum, przenieść drukarki, podłączyć telefony. Po przeprowadzce projekt się kończy, a zwykła praca toczy się dalej w nowych pokojach.",
     "firma": "Piekarnia otwiera drugi punkt sprzedaży: trzeba wynająć lokal, kupić ladę, zatrudnić dwie osoby i ruszyć przed świętami. W dniu otwarcia projekt się kończy. Codzienna sprzedaż w nowym punkcie to już zwykła praca.",
     "admin": "Starostwo buduje portal do zapisów na rejestrację pojazdów: jest harmonogram, budżet z dotacji i termin odbioru. Po uruchomieniu portalu projekt zostaje zamknięty. Codzienna obsługa zapisów przechodzi do wydziału komunikacji.",
-    "psp": "Komenda modernizuje stanowisko kierowania: przetarg, montaż nowych stanowisk dyżurnych, szkolenie zmian, odbiór techniczny w ustalonym terminie. Po odbiorze projekt się kończy. Dyżurni po prostu pracują na nowym sprzęcie w codziennym procesie obsługi zgłoszeń.",
     "it": "Wdrożenie nowego systemu kadrowego to projekt prowadzony w procesie BAI01 (Zarządzanie programami i projektami). Po odbiorze system przechodzi do codziennej eksploatacji w DSS01 (Zarządzanie eksploatacją), a projekt zostaje zamknięty."
   },
   "glebokosc": {
     "prosty": "Budowa domku na działce to projekt: jest plan, budżet, termin i dzień, w którym kończysz. Potem zaczyna się zwykłe życie w domku – koszenie trawy, sprzątanie, drobne naprawy – i to już nie jest projekt.",
-    "zaawansowany": "Wdrożenie Syreny to projekt: ma budżet policzony przez Halinę Mak, termin i umowę z firmą Kwant-Sygnał. Gdy system rusza, projekt się kończy, a jego [[rezultat]] przechodzi do codziennych [[proces|procesów]] wydziału Sikory. Komenda jednocześnie wymienia radiotelefony i serwerownię, więc powiązane projekty łączy w program. Sposób prowadzenia projektów opisuje proces BAI01 w domenie [[bai|BAI]].",
-    "skrajny": "Komendantka mówi: „Wdrożenie COBIT 5 to projekt na pół roku – potem mamy spokój”. Brzmi rozsądnie, bo jest plan i budżet. Framework pisze jednak, że cykl życia ciągłego doskonalenia nie jest projektem jednorazowym (s. 37). Zewnętrzny pierścień cyklu wdrożenia to **zarządzanie programem**, a po fazie 7 cykl wraca do początku. Pojedyncze inicjatywy w programie, np. przygotowanie polityki haseł, mogą być projektami z końcem. **Rozstrzygnięcie:** projekt ma koniec; wdrożenie Ładu to program w ciągłym cyklu doskonalenia, a nie jeden projekt (Załącznik H nie definiuje projektu – interpretacja kursu)."
+    "zaawansowany": "Wdrożenie nowego systemu CRM w ubezpieczalni to projekt: ma budżet policzony przez dyrektora finansowego, termin i umowę z dostawcą. Gdy system rusza, projekt się kończy, a jego [[rezultat]] przechodzi do codziennych [[proces|procesów]] działu IT. Firma jednocześnie wymienia telefony i serwerownię, więc powiązane projekty łączy w program. Sposób prowadzenia projektów opisuje proces BAI01 w domenie [[bai|BAI]].",
+    "skrajny": "Prezes mówi: „Wdrożenie COBIT 5 to projekt na pół roku – potem mamy spokój”. Brzmi rozsądnie, bo jest plan i budżet. Framework pisze jednak, że cykl życia ciągłego doskonalenia nie jest projektem jednorazowym (s. 37). Zewnętrzny pierścień cyklu wdrożenia to **zarządzanie programem**, a po fazie 7 cykl wraca do początku. Pojedyncze inicjatywy w programie, np. przygotowanie polityki haseł, mogą być projektami z końcem. **Rozstrzygnięcie:** projekt ma koniec; wdrożenie Ładu to program w ciągłym cyklu doskonalenia, a nie jeden projekt (Załącznik H nie definiuje projektu – interpretacja kursu)."
   },
   "zagmatwania": [
     {

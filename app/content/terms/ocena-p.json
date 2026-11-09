@@ -35,8 +35,8 @@
   "przyklady": {
     "zycie": "Przez cały rok córka sama odrabia lekcje i pakuje plecak. Raz zapomniała linijki, ale to drobiazg. To P: w pełni, bez istotnych wpadek.",
     "biuro": "Każde pismo w rejestrze ma datę wpływu, odpowiedzi i podpis. Na sto wpisów znajdujesz jedną literówkę. To P.",
-    "organizacja": "W warsztacie każde zlecenie ma kartę, termin i podpis odbioru, a w urzędzie każda skarga ma datę wpływu i odpowiedzi. Obie oceny to P – Pełny.",
-    "psp": "**Pełny, czyli nie „Partially”**\nAudytorka Ewa Lis daje PA 1.1 procesu powiadamiania ocenę P: każdy alarm ma potwierdzenie z OSP. Konsultant z Kwant-Sygnału czyta raport i mówi: „P? Czyli tylko częściowo?”. Lis tłumaczy, że po polsku P to Pełny, a jego „Partially” to nasze C. To ocena [[ocena-p|P – Pełny]].",
+    "organizacja": "W warsztacie każde zlecenie ma kartę, termin i podpis odbioru. Ocena to P – Pełny.",
+    "admin": "W starostwie każda skarga mieszkańca ma datę wpływu i datę odpowiedzi. Kontrola sprawdza 50 skarg i znajduje jedną drobną pomyłkę. Bez istotnych słabości, więc ocena to P – Pełny.",
     "it": "Żeby DSS02 osiągnął poziom 3, PA 1.1, PA 2.1 i PA 2.2 muszą mieć P. PA 3.1 i PA 3.2 potrzebują co najmniej W."
   },
   "nieMylicZ": [
@@ -91,8 +91,8 @@
   "mapa": "ocena-p",
   "glebokosc": {
     "prosty": "Budujesz wieżę z klocków. Żeby dołożyć nowe piętro, piętra pod spodem muszą stać całe i równo. Jeden krzywy klocek na dole i wieża się chwieje. Pełne dolne piętra to ocena P.",
-    "zaawansowany": "Proces powiadamiania ma PA 1.1 = P, PA 2.1 = W, PA 2.2 = W, więc poziom 2. Sikora chce [[poziomy-zdolnosci|poziomu 3]]. Najpierw PA 2.1 i PA 2.2 muszą dojść do P, a dopiero potem liczą się PA 3.1 i PA 3.2 (wystarczy im W). Pełny nie znaczy 100% i zero uwag: to >85% i brak **istotnych** słabości.",
-    "skrajny": "Konsultant z Kwant-Sygnału przysyła angielską tabelę: „PA 1.1 = F, PA 2.1 = P, PA 2.2 = L”. Nowik poprawnie zamienia L na W, ale PA 2.1 przepisuje jako „P”, bo litera się zgadza. Teraz raport mówi „Pełny”, a konsultant miał na myśli „Partially”, czyli C. Proces, który według EN nie ma poziomu 2, na papierze PL wygląda na poziom 2. Do tego Lis liczy 85% dla PA 2.2 i chce dać P, ale P zaczyna się powyżej 85%. **Rozstrzygnięcie:** przy przepisywaniu EN → PL zamieniaj słowa, nie litery (F → P, P → C, L → W); P wymaga więcej niż 85%."
+    "zaawansowany": "Proces obsługi incydentów ma PA 1.1 = P, PA 2.1 = W, PA 2.2 = W, więc poziom 2. CIO chce [[poziomy-zdolnosci|poziomu 3]]. Najpierw PA 2.1 i PA 2.2 muszą dojść do P, a dopiero potem liczą się PA 3.1 i PA 3.2 (wystarczy im W). Pełny nie znaczy 100% i zero uwag: to >85% i brak **istotnych** słabości.",
+    "skrajny": "Zewnętrzny konsultant przysyła angielską tabelę: „PA 1.1 = F, PA 2.1 = P, PA 2.2 = L”. Analityk poprawnie zamienia L na W, ale PA 2.1 przepisuje jako „P”, bo litera się zgadza. Teraz raport mówi „Pełny”, a konsultant miał na myśli „Partially”, czyli C. Proces, który według EN nie ma poziomu 2, na papierze PL wygląda na poziom 2. Do tego audytor liczy 85% dla PA 2.2 i chce dać P, ale P zaczyna się powyżej 85%. **Rozstrzygnięcie:** przy przepisywaniu EN → PL zamieniaj słowa, nie litery (F → P, P → C, L → W); P wymaga więcej niż 85%."
   },
   "zagmatwania": [
     {

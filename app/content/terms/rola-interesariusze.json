@@ -11,7 +11,7 @@
     "wydawcaEgzaminu": "Interesariusze (właściciele) – delegują",
     "podrecznik": "Właściciele oraz interesariusze",
     "kurs": "Interesariusze (właściciele) – delegują – Owners and stakeholders",
-    "uwaga": "Egzamin PL: „Interesariusze (właściciele) – delegują”; podręcznik PL: „Właściciele oraz interesariusze” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL, zestawienie Altkom. Forma podręcznika: FW-PL s. 24."
+    "uwaga": "Egzamin PL: „Interesariusze (właściciele) – delegują”; podręcznik PL: „Właściciele oraz interesariusze” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 24."
   },
   "pulapka": true,
   "pulapkaOpis": "Egzamin skraca tę rolę do „Interesariusze”. Podręcznik na Ilustracji 9 pisze „Właściciele oraz interesariusze”. To ta sama rola.",
@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Mieszkańcy bloku na zebraniu wspólnoty wybierają zarząd i powierzają mu dbanie o budynek. Sami nie zlecają prac firmom. Za rok rozliczają zarząd z budżetu. Mieszkańcy pełnią tu rolę „interesariusze”: delegują i rozliczają.",
     "biuro": "Wspólnicy kancelarii powierzają kierowanie nią partnerowi zarządzającemu. Nie mówią sekretariatowi, jak układać kalendarz. Raz w roku rozliczają partnera z wyników.",
-    "organizacja": "Wspólnicy spółki piekarniczej na zgromadzeniu wybierają radę nadzorczą. Nie mówią kierownikom sklepów, co mają robić. Raz w roku słuchają sprawozdania rady i oceniają jej pracę. To rola interesariuszy z Ilustracji 9.\n\nMieszkańcy gminy w wyborach powierzają władzę radzie i wójtowi. Nie piszą zarządzeń ani nie wdrażają systemów. Przy kolejnych wyborach rozliczają władzę z efektów. To rola interesariuszy: delegowanie.",
-    "psp": "**Od kogo komendantka ma mandat?** Komendantka Anna Wrzos kieruje komendą, bo powierzono jej to w imieniu mieszkańców. Pani Zofia Kaczmarek z Lipowej 7 nie wydaje poleceń, ale to dla niej komenda działa. Z gotowości komendy Wrzos rozlicza się przed komendą wojewódzką (KW). W relacjach z Ilustracji 9 mieszkańcy i nadzór to rola interesariuszy: delegują i rozliczają.",
+    "organizacja": "Wspólnicy spółki piekarniczej na zgromadzeniu wybierają radę nadzorczą. Nie mówią kierownikom sklepów, co mają robić. Raz w roku słuchają sprawozdania rady i oceniają jej pracę. To rola interesariuszy z Ilustracji 9.",
+    "admin": "Mieszkańcy gminy w wyborach powierzają władzę radzie i wójtowi. Nie piszą zarządzeń ani nie wdrażają systemów. Przy kolejnych wyborach rozliczają władzę z efektów. To rola interesariuszy: delegowanie.",
     "it": "Proces EDM05 (Zapewnienie przejrzystości dotyczącej interesariuszy) wspiera relację „strona rozliczana”: organ Ładu rzetelnie informuje interesariuszy o wynikach IT (interpretacja kursu)."
   },
   "nieMylicZ": [
@@ -77,8 +77,8 @@
   "mapa": "rola-interesariusze",
   "glebokosc": {
     "prosty": "Właściciel mieszkania wynajmuje je przez agencję. Mówi agencji: „dbajcie o mieszkanie i o czynsz”. Sam nie naprawia kranu i nie szuka hydraulika. Raz w roku rozlicza agencję z wyników.",
-    "zaawansowany": "Mieszkańcy Modrzewiowa nie znają systemu Syrena, ale to w ich imieniu działa komenda. Ich mandat trafia do komendantki Wrzos, czyli [[organ-ladu|organu Ładu]]. Wrzos odpowiada przed nimi, a w praktyce przed komendą wojewódzką. Interesariusze nie mówią Sikorze, jaki serwer kupić. To robi [[rola-kierownictwo|kierownictwo]] na podstawie kierunku od Wrzos.",
-    "skrajny": "Pani Kaczmarek z Lipowej pojawia się w COBIT 5 jako interesariusz w trzech miejscach naraz. W Zasadzie 1 jej potrzeba (szybka pomoc) uruchamia [[kaskada-celow|kaskadę celów]]. W wymiarze aktywatora jest interesariuszem zewnętrznym Syreny, choć nigdy jej nie dotknęła. Na Ilustracji 9 należy do „właścicieli oraz interesariuszy”, którzy delegują władzę. Kto słyszy „interesariusz”, odruchowo myśli o pierwszym znaczeniu. Pytanie o Ilustrację 9 pyta jednak o działanie, czyli delegowanie. **Rozstrzygnięcie:** w pytaniu o role, działania i relacje interesariusze robią jedno: delegują, a organ Ładu jest przed nimi rozliczany."
+    "zaawansowany": "Akcjonariusze banku nie znają jego systemów IT, ale to w ich imieniu działa bank. Ich mandat trafia do rady nadzorczej i zarządu, czyli [[organ-ladu|organu Ładu]]. Zarząd odpowiada przed nimi na walnym zgromadzeniu. Akcjonariusze nie mówią dyrektorowi IT, jaki serwer kupić. To robi [[rola-kierownictwo|kierownictwo]] na podstawie kierunku od zarządu.",
+    "skrajny": "Klientka banku pojawia się w COBIT 5 jako interesariusz w trzech miejscach naraz. W Zasadzie 1 jej potrzeba (bezpieczne i wygodne płatności) uruchamia [[kaskada-celow|kaskadę celów]]. W wymiarze aktywatora jest interesariuszem zewnętrznym systemu rozliczeń, choć nigdy go nie widziała. Na Ilustracji 9 należy do „właścicieli oraz interesariuszy”, którzy delegują władzę. Kto słyszy „interesariusz”, odruchowo myśli o pierwszym znaczeniu. Pytanie o Ilustrację 9 pyta jednak o działanie, czyli delegowanie. **Rozstrzygnięcie:** w pytaniu o role, działania i relacje interesariusze robią jedno: delegują, a organ Ładu jest przed nimi rozliczany."
   },
   "zagmatwania": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "mit": "Interesariuszem w tej roli jest tylko właściciel z udziałami.",
-      "prawda": "Podręcznik pisze „właściciele oraz interesariusze”; w urzędzie czy PSP to np. mieszkańcy."
+      "prawda": "Podręcznik pisze „właściciele oraz interesariusze”; w urzędzie czy szpitalu publicznym to np. mieszkańcy i pacjenci."
     }
   ],
   "mentor": {

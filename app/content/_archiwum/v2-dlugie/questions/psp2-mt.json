@@ -1,0 +1,155 @@
+[
+  {
+    "id": "q-mt-03-04",
+    "typ": "bledy",
+    "mentor": true,
+    "skrajnosc": true,
+    "atom": "aktywator",
+    "sylabus": [
+      "PR-01-02",
+      "PR-02-12",
+      "PR-02-13",
+      "EN-02-17"
+    ],
+    "lekcja": "mt-03-siedem-aktywatorow-incydent",
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "postac": "Marek Sikora, naczelnik informatyki",
+    "tresc": "Popraw kolegę: naczelnik Sikora tłumaczy Kasi Nowik noc na Lipowej. Które zdania są błędne?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 27
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 28
+      }
+    ],
+    "status": "przyklad",
+    "tekst": "„Kasiu, ta noc to awaria jednego aktywatora: Usług, Infrastruktury i Aplikacji. Nieaktualny numer to wada aktywatora Informacja. Kodeks zgłaszania błędów to aktywator Kultura, Etyka i Zachowanie. Każdy aktywator ma cztery wymiary: interesariusze, cele, cykl życia i dobre praktyki. Wystarczy kupić drugi serwer, żeby problem nie wrócił.”",
+    "twierdzenia": [
+      {
+        "tekst": "Ta noc to awaria jednego aktywatora: Usług, Infrastruktury i Aplikacji.",
+        "poprawne": false,
+        "wyjasnienie": "Błąd. Zawiodło kilka aktywatorów naraz: informacja, procesy, polityki, kultura i kompetencje."
+      },
+      {
+        "tekst": "Nieaktualny numer to wada aktywatora Informacja.",
+        "poprawne": true,
+        "wyjasnienie": "Prawda. Zawiodła jakość kontekstowa informacji, czyli aktualność."
+      },
+      {
+        "tekst": "Kodeks zgłaszania błędów to aktywator Kultura, Etyka i Zachowanie.",
+        "poprawne": false,
+        "wyjasnienie": "Błąd. Kodeks to dokument, czyli polityka. Kulturę widać po zachowaniach ludzi."
+      },
+      {
+        "tekst": "Każdy aktywator ma cztery wymiary: interesariusze, cele, cykl życia i dobre praktyki.",
+        "poprawne": true,
+        "wyjasnienie": "Prawda. To zbiór wspólnych wymiarów wszystkich aktywatorów (FW-PL s. 28)."
+      },
+      {
+        "tekst": "Wystarczy kupić drugi serwer, żeby problem nie wrócił.",
+        "poprawne": false,
+        "wyjasnienie": "Błąd. Aktywatory są powiązane. Drugi serwer wyśle SMS na ten sam nieaktualny numer."
+      }
+    ]
+  },
+  {
+    "id": "q-men-mt-05-2",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-01-01",
+      "PC-01-03",
+      "PC-02-06"
+    ],
+    "lekcja": "mt-05-ocena-zdolnosci-od-kuchni",
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "postac": "Marek Sikora, naczelnik informatyki",
+    "tresc": "„Atrybuty poziomu 3 mają P, a PA 2.2 tylko W. To chyba i tak poziom 3, bo W to prawie P?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Tak, bo przy ocenie liczy się średnia ze wszystkich atrybutów procesu.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie. Model nie liczy średniej. Każdy poziom wymaga P na wszystkich niższych atrybutach.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      },
+      {
+        "tekst": "Nie. Do poziomu 3 wszystkie atrybuty poziomu 2 muszą mieć P. Proces ma poziom 2. Podnieś PA 2.2 do P, a poziom 3 przyjdzie od razu.",
+        "poprawna": true,
+        "wyjasnienie": "Prostuje błąd regułą, podaje wynik i pokazuje, co poprawić – to motywuje zamiast zniechęcać."
+      },
+      {
+        "tekst": "Tak, W i P to praktycznie to samo, więc poziom 3 jest osiągnięty.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi. Poziom wymaga pełnego osiągnięcia niższego poziomu (FW-PL s. 42).",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Osiągnięcie poziomu potencjału wymaga pełnego uzyskania atrybutów niższego poziomu i osiągnięcia w znacznym stopniu atrybutów poziomu docelowego, co wyklucza kompensację ocen między poziomami.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawne, ale to żargon. Naczelnik nie usłyszy, co ma poprawić.",
+        "pulapkaMentora": "zargon"
+      }
+    ]
+  },
+  {
+    "id": "q-mt-07-01",
+    "typ": "egzamin",
+    "sylabus": [
+      "EN-02-25",
+      "PR-02-13"
+    ],
+    "lekcja": "mt-07-mini-szkolenie-15-minut",
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "skrajnosc": true,
+    "atom": "raci-a",
+    "tresc": "Naczelnik informatyki ma w tabeli RACI literę A przy aktualizacji numerów. Jednej nocy, gdy nikogo nie ma, sam aktualizuje numery. Co dzieje się z jego literą w tabeli?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 89
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 92
+      }
+    ],
+    "status": "uproszczenie",
+    "opcje": [
+      {
+        "tekst": "Zmienia się na R, bo tej nocy to on wykonał całą pracę.",
+        "poprawna": false,
+        "wyjasnienie": "To prawda, że wykonał pracę, ale tabela nie opisuje jednej nocy, tylko stałe role.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Dostaje dodatkowe R, a informatyczce trzeba je odebrać.",
+        "poprawna": false,
+        "wyjasnienie": "Rola informatyczki się nie zmieniła. Jednorazowe zastępstwo nie przebudowuje tabeli.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Zmienia się na I, bo został poinformowany o braku wykonawcy.",
+        "poprawna": false,
+        "wyjasnienie": "I to rola osoby tylko informowanej. A (odpowiedzialny decyzyjnie) zawsze jest informowany, ale to nie zmienia jego litery.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Zostaje A, bo literę wyznacza rola przy działaniu, a nie jedna noc pracy.",
+        "poprawna": true,
+        "wyjasnienie": "Poprawnie. Tabela RACI opisuje role przy działaniu. Jednorazowe wykonanie pracy nie zmienia roli A."
+      }
+    ]
+  }
+]

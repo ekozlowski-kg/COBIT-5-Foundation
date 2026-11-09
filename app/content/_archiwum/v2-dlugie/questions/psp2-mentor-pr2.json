@@ -1,0 +1,46 @@
+[
+  {
+    "id": "q-men-pr-12-prm-edm-1",
+    "typ": "mentor",
+    "sylabus": [
+      "PR-01-03"
+    ],
+    "lekcja": "pr-12-prm-edm",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Ola Dudek, informatyczka",
+    "tresc": "„Skoro model ma 37 procesów, to musimy wdrożyć wszystkie, inaczej kontrola nas obleje?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 32
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Tak, COBIT 5 wymaga wdrożenia wszystkich 37 procesów.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi: model nie jest normatywny.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Nie. Model nie jest obowiązkowym przepisem. To wzorzec: dobierasz i dopasowujesz procesy, byle wszystkie cele były pokryte.",
+        "poprawna": true,
+        "wyjasnienie": "Prostuje błąd i mówi, co naprawdę trzeba zrobić."
+      },
+      {
+        "tekst": "Referencyjny Model Procesu nie ma charakteru normatywnego, zatem organizacja definiuje własny zestaw procesów z zapewnieniem pokrycia celów.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawne, ale słowo „normatywny” bez wyjaśnienia nic laikowi nie mówi.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Model ma 5 procesów Ładu i 32 procesy Zarządzania.",
+        "poprawna": false,
+        "wyjasnienie": "Prawda, ale nie odpowiada na pytanie, czy trzeba wdrożyć wszystkie.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  }
+]

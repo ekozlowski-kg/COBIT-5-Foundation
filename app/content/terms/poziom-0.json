@@ -17,7 +17,7 @@
   "pulapkaOpis": "W COBIT 4.1 poziom 0 to „Nieistniejący”. W COBIT 5 poziom 0 to „Niekompletny”: proces może istnieć i być wykonywany, ale nie osiąga swojego celu.",
   "skadNazwa": "Z angielskiego *Incomplete*, czyli „niepełny”. Nie znaczy „procesu nie ma”, tylko „proces nie domyka swojego celu”.",
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "proces",
@@ -35,14 +35,14 @@
   "przyklady": {
     "zycie": "Co tydzień robisz pranie, ale połowa rzeczy wraca brudna albo zafarbowana. Pralka chodzi, proszek się zużywa, a czystych ubrań nie masz za każdym razem. To poziom 0: proces niekompletny, choć wcale nie „nieistniejący”.",
     "biuro": "Biuro wysyła co miesiąc faktury do klientów, ale połowa trafia na stare adresy. Księgowa pracuje, program drukuje, a pieniądze nie wpływają. Proces fakturowania nie osiąga celu, więc ma poziom 0.",
-    "organizacja": "Sklep internetowy ma dział reklamacji i formularz na stronie. Co trzecia reklamacja ginie bez odpowiedzi. Ludzie pracują, ale rezultat „każda reklamacja rozpatrzona” nie jest osiągany, więc asesor da PA 1.1 = C i poziom 0.\n\nGmina robi kopie zapasowe danych mieszkańców, ale nikt nie sprawdza, czy da się je odtworzyć. Przy awarii okazuje się, że kopie są puste. Proces formalnie istnieje, ale celu nie osiąga, więc ma poziom 0.",
-    "psp": "**Noc na Lipowej.** Audytorka Ewa Lis wraca do procesu powiadamiania sprzed pożaru przy Lipowej 7. Dyżurny Paweł Grab za każdym razem klikał „alarm”, więc proces był wykonywany. Ale OSP Zawilce przez nieaktualne numery regularnie nie dostawała SMS-a. Proces nie osiągał przeznaczenia, więc Lis zapisuje dla tamtego okresu poziom 0.",
+    "organizacja": "Sklep internetowy ma dział reklamacji i formularz na stronie. Co trzecia reklamacja ginie bez odpowiedzi. Ludzie pracują, ale rezultat „każda reklamacja rozpatrzona” nie jest osiągany, więc asesor da PA 1.1 = C i poziom 0.",
+    "admin": "Gmina robi kopie zapasowe danych mieszkańców, ale nikt nie sprawdza, czy da się je odtworzyć. Przy awarii okazuje się, że kopie są puste. Proces formalnie istnieje, ale celu nie osiąga, więc ma poziom 0.",
     "it": "Proces DSS04 (zarządzanie ciągłością): plan ciągłości działania leży w szafie, ale test pokazał, że po awarii nie da się uruchomić usług w wymaganym czasie. Rezultaty procesu nie są osiągane, więc PA 1.1 = C i poziom 0."
   },
   "glebokosc": {
     "prosty": "Masz piec, ale co drugi chleb wychodzi surowy. Pieczesz, starasz się, kupujesz mąkę. Ale chleba, który da się zjeść, nie masz za każdym razem. To jest poziom 0: robota jest, efektu brak.",
-    "zaawansowany": "Audytorka Ewa Lis ocenia proces powiadamiania w komendzie. Dyżurni wysyłają alarmy, a w Syrenie zostaje log. Jednak alarm do OSP Zawilce dochodzi tylko w części przypadków, więc [[pa-1-1|wykonanie procesu]] dostaje [[ocena-c|C]]. Przy C na PA 1.1 proces nie dochodzi do [[poziom-1|poziomu 1]], więc ma 0. Lis nie ocenia, czy ludzie się starają, tylko czy [[rezultat-procesu|rezultaty]] są osiągane.",
-    "skrajny": "Komenda ma piękną procedurę powiadamiania, grafik dyżurów i archiwum kart zdarzeń. Gdyby ktoś ocenił PA 2.1 i PA 2.2, wyszłoby nawet W. Ale alarm wciąż nie dochodzi do wszystkich jednostek, więc PA 1.1 = C. Kusi, żeby dać „poziom 2, bo przecież jest zarządzany”. Nie wolno: każdy poziom wymaga pełnego osiągnięcia niższego, a poziom 1 wymaga co najmniej W na PA 1.1. W COBIT 4.1 taki proces mógłby mieć dojrzałość 1 albo 2. **Rozstrzygnięcie:** papiery i planowanie nie ratują procesu, który nie osiąga celu. PA 1.1 = N albo C oznacza poziom 0, niezależnie od ocen wyższych atrybutów."
+    "zaawansowany": "Audytorka wewnętrzna ocenia proces wysyłki powiadomień do klientów w banku. Pracownicy wysyłają komunikaty, a w systemie zostaje log. Jednak wiadomość do klientów jednego oddziału dochodzi tylko w części przypadków, więc [[pa-1-1|wykonanie procesu]] dostaje [[ocena-c|C]]. Przy C na PA 1.1 proces nie dochodzi do [[poziom-1|poziomu 1]], więc ma 0. Audytorka nie ocenia, czy ludzie się starają, tylko czy [[rezultat-procesu|rezultaty]] są osiągane.",
+    "skrajny": "Bank ma piękną procedurę wysyłki powiadomień do klientów, grafik zmian i archiwum zgłoszeń. Gdyby ktoś ocenił PA 2.1 i PA 2.2, wyszłoby nawet W. Ale komunikaty wciąż nie dochodzą do wszystkich klientów, więc PA 1.1 = C. Kusi, żeby dać „poziom 2, bo przecież jest zarządzany”. Nie wolno: każdy poziom wymaga pełnego osiągnięcia niższego, a poziom 1 wymaga co najmniej W na PA 1.1. W COBIT 4.1 taki proces mógłby mieć dojrzałość 1 albo 2. **Rozstrzygnięcie:** papiery i planowanie nie ratują procesu, który nie osiąga celu. PA 1.1 = N albo C oznacza poziom 0, niezależnie od ocen wyższych atrybutów."
   },
   "zagmatwania": [
     {

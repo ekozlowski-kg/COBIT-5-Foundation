@@ -1,0 +1,392 @@
+[
+  {
+    "id": "q-zap-pr-01-piec-zasad-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-01"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 1,
+    "tresc": "Kpt. Sikora mówi: „Syrena nie zadziała bez procedur, przeszkolonych dyżurnych i aktualnych danych. Sam system to za mało.” Którą zasadę COBIT 5 opisuje to zdanie?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 14
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 27
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Zasada 2: Pokrycie całej organizacji",
+        "poprawna": false,
+        "wyjasnienie": "Zasada 2 mówi, że Ład obejmuje całą organizację. Nie mówi o współdziałaniu wielu elementów.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Zasada 4: Aktywacja holistycznego podejścia",
+        "poprawna": true,
+        "wyjasnienie": "Zasada 4 mówi, że do celu prowadzi wiele współdziałających aktywatorów, a nie sam system czy proces."
+      },
+      {
+        "tekst": "Zasada 3: Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej",
+        "poprawna": false,
+        "wyjasnienie": "Zasada 3 dotyczy łączenia standardów w jedną ramę, a nie współdziałania ludzi, danych i procedur.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Zasada 5: Oddzielenie Ładu od Zarządzania",
+        "poprawna": false,
+        "wyjasnienie": "Zasada 5 rozdziela tych, którzy decydują, od tych, którzy wykonują. Tu nie ma mowy o podziale ról.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-01-piec-zasad-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-01"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 1,
+    "tresc": "W komendzie komendantka ustala priorytety i sprawdza wyniki, a naczelnik informatyki planuje i prowadzi prace. Którą zasadę COBIT 5 ilustruje ten podział?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 14
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 31
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Zasada 1: Realizacja potrzeb interesariusza",
+        "poprawna": false,
+        "wyjasnienie": "Zasada 1 zaczyna od potrzeb interesariuszy i Celu Ładu. Nie opisuje podziału na decydujących i wykonujących.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Zasada 2: Pokrycie całej organizacji",
+        "poprawna": false,
+        "wyjasnienie": "Zasada 2 mówi o zakresie: cała organizacja. Nie rozdziela ról.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Zasada 4: Aktywacja holistycznego podejścia",
+        "poprawna": false,
+        "wyjasnienie": "Zasada 4 mówi o współdziałaniu aktywatorów, a nie o rozdzieleniu kierowania od wykonywania.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Zasada 5: Oddzielenie Ładu od Zarządzania",
+        "poprawna": true,
+        "wyjasnienie": "Komendantka wyznacza kierunek i monitoruje (Ład), a naczelnik planuje i prowadzi (Zarządzanie)."
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-02-tworzenie-wartosci-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-01"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Komenda wybiera dostawcę modułu do Syreny. Która decyzja **najlepiej** pokazuje optymalizację zasobów?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 17,
+        "ilustracja": "3"
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Wybór oferty z potrzebnymi funkcjami, za rozsądną cenę i na miarę ludzi komendy",
+        "poprawna": true,
+        "wyjasnienie": "Optymalizacja zasobów to skuteczne i odpowiedzialne użycie pieniędzy, ludzi i czasu."
+      },
+      {
+        "tekst": "Wybór najtańszej oferty bez względu na to, co moduł potrafi",
+        "poprawna": false,
+        "wyjasnienie": "Optymalizacja zasobów nie oznacza najniższej ceny. Tania oferta może nie dać korzyści.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Wybór oferty z największą liczbą funkcji, nawet jeśli pochłonie cały budżet i wymaga nowych etatów",
+        "poprawna": false,
+        "wyjasnienie": "Patrzy tylko na korzyści i pomija zasoby, więc to odpowiedź zbyt wąska.",
+        "pulapka": "zbyt-waskie"
+      },
+      {
+        "tekst": "Wybór oferty, która obiecuje całkowite usunięcie ryzyka awarii",
+        "poprawna": false,
+        "wyjasnienie": "To dotyczy ryzyka, a nie zasobów. Do tego optymalizacja ryzyka nie oznacza jego usunięcia.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-02-tworzenie-wartosci-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-01"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Co według COBIT 5 oznacza „tworzenie wartości” dla różnych interesariuszy jednej organizacji?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 17
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Różne, czasem wykluczające się rzeczy, więc Ład negocjuje i decyduje, co jest wartością",
+        "poprawna": true,
+        "wyjasnienie": "Tak mówi podręcznik na s. 17. Ład godzi różne oczekiwania."
+      },
+      {
+        "tekst": "Zawsze to samo, czyli zysk finansowy",
+        "poprawna": false,
+        "wyjasnienie": "W administracji i PSP korzyścią są usługi publiczne, a nie tylko zysk.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "To, co uzna za wartość dział informatyki, bo najlepiej zna systemy i ich możliwości",
+        "poprawna": false,
+        "wyjasnienie": "O wartości decyduje Ład, który negocjuje między interesariuszami, a nie dział IT.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Wyłącznie optymalne użycie zasobów",
+        "poprawna": false,
+        "wyjasnienie": "To tylko jeden z trzech składników Celu Ładu.",
+        "pulapka": "zbyt-waskie"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-03-kaskada-celow-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-06"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Komenda ustala: „Każdy dyżurny ćwiczy pracę awaryjną bez Syreny raz na kwartał.” Na którym poziomie Kaskady Celów leży ten cel?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 18,
+        "ilustracja": "4"
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Cel organizacji",
+        "poprawna": false,
+        "wyjasnienie": "Cel organizacji jest ogólny, np. ciągłość i dostępność usług. Ten cel jest dużo bardziej konkretny.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Cel związany z informatyką",
+        "poprawna": false,
+        "wyjasnienie": "Cel związany z IT opisuje rezultat informatyki, np. usługi IT zgodne z wymaganiami. Tu chodzi o konkretnych ludzi.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Potrzeba interesariuszy",
+        "poprawna": false,
+        "wyjasnienie": "Potrzeba to np. szybka i pewna pomoc. Ćwiczenia dyżurnych to sposób jej realizacji.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Cel aktywatora",
+        "poprawna": true,
+        "wyjasnienie": "To konkretny cel dla aktywatora „ludzie”, czyli najniższy poziom kaskady."
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-05-po-co-kaskada-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-07"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Komendantka chce pokazać księgowej, jak szkolenia dyżurnych pomagają osiągnąć cel komendy „ciągłość i dostępność usług”. Która korzyść z Kaskady Celów jej w tym pomoże?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 20
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Kaskada opisuje wejścia i wyjścia procesu szkolenia",
+        "poprawna": false,
+        "wyjasnienie": "To opis procesu, a nie korzyść z kaskady.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Kaskada pokazuje i komunikuje, jak aktywatory pomagają osiągać cele organizacji",
+        "poprawna": true,
+        "wyjasnienie": "To jedna z korzyści z kaskady ze s. 20. Szkolenia to cel aktywatora „ludzie”."
+      },
+      {
+        "tekst": "Kaskada wyznacza, kto komu podlega w komendzie",
+        "poprawna": false,
+        "wyjasnienie": "Kaskada dotyczy celów, a nie hierarchii służbowej.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Kaskada zwalnia komendę z ustalania priorytetów, bo cele w tabelach są już uporządkowane",
+        "poprawna": false,
+        "wyjasnienie": "Jest odwrotnie: kaskada pomaga ustalać priorytety.",
+        "pulapka": "falsz"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-06-zasada-2-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-08"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Komendantka Wrzos mówi na odprawie: „Nasze decyzje o Syrenie mają dać mieszkańcom korzyść przy rozsądnym ryzyku i kosztach.” Który komponent Podejścia do Ładu (Ilustracja 8) opisuje to zdanie?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 23,
+        "ilustracja": "8"
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Zakres Ładu, bo zdanie mówi, której części komendy dotyczą decyzje",
+        "poprawna": false,
+        "wyjasnienie": "Zakres Ładu mówi, czego dotyczy Ład. Zdanie mówi, po co komenda decyduje.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Cel Ładu, bo zdanie mówi, po co komenda w ogóle decyduje",
+        "poprawna": true,
+        "wyjasnienie": "Cel Ładu to Tworzenie Wartości: korzyści przy optymalnym ryzyku i zasobach."
+      },
+      {
+        "tekst": "Role, działania i relacje, bo zdanie mówi, kto komu powierza pracę",
+        "poprawna": false,
+        "wyjasnienie": "Ten komponent opisuje, kto i jak działa. W zdaniu nie ma podziału ról.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Praktyka „Oszacuj” z procesów Ładu",
+        "poprawna": false,
+        "wyjasnienie": "Oszacuj, Kieruj, Monitoruj to praktyki procesów Ładu, a nie komponent Podejścia do Ładu.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-06-zasada-2-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-09"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Informatyczka Ola Dudek konfiguruje Syrenę i co tydzień wysyła naczelnikowi raport z pracy. Który opis z Ilustracji 9 pasuje do jej roli?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 24,
+        "ilustracja": "9"
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Organ Ładu: wyznacza kierunek i odpowiada przed interesariuszami",
+        "poprawna": false,
+        "wyjasnienie": "To rola komendantki. Dudek wykonuje pracę, a nie wyznacza kierunku.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Kierownictwo: instruuje, dopasowuje i monitoruje realizację",
+        "poprawna": false,
+        "wyjasnienie": "Tak działa naczelnik, który dostaje raport od Dudek, a nie ona sama.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Interesariusz: tylko powierza zadanie organowi Ładu",
+        "poprawna": false,
+        "wyjasnienie": "Interesariusze delegują. Nie wykonują zadań ani nie raportują.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Rola operacyjna: wykonuje zadania i raportuje",
+        "poprawna": true,
+        "wyjasnienie": "Role operacyjne wykonują pracę i raportują kierownictwu."
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-07-zasada-3-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-11"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Kpt. Sikora mówi: „COBIT 5 obejmuje całą organizację, więc daje podstawę do łączenia innych wytycznych.” Co opisuje to zdanie?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 25
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Obowiązek stosowania COBIT 5 razem z ITIL, bo bez niego COBIT 5 nie obejmie całej komendy",
+        "poprawna": false,
+        "wyjasnienie": "COBIT 5 może integrować inne standardy, ale nie musi być z nimi stosowany.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Komponent Podejścia do Ładu",
+        "poprawna": false,
+        "wyjasnienie": "Komponenty Podejścia do Ładu to cel, aktywatory, zakres i role. Zdanie mówi o integracji.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Jedną z cech, dzięki którym COBIT 5 jest zintegrowaną strukturą ramową",
+        "poprawna": true,
+        "wyjasnienie": "Pokrycie całej organizacji to jeden z czterech powodów integracji ze s. 25."
+      },
+      {
+        "tekst": "Zasadę 5: Oddzielenie Ładu od Zarządzania",
+        "poprawna": false,
+        "wyjasnienie": "Zasada 5 rozdziela role. Zdanie mówi o podstawie do integracji.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  }
+]

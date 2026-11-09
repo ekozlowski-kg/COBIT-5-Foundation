@@ -45,7 +45,9 @@ POLA_PYTANIE = {"id", "typ", "sylabus", "lekcja", "bloom", "trudnosc", "tresc", 
                 "wyjasnienie", "kategorie", "elementy", "tekst", "twierdzenia", "element", "poprawny", "dystraktory", "pretest", "_plik",
                 "numer", "kodSP", "poprawnaLitera", "terminy", "zestaw", "skrajnosc", "atom", "mentor", "postac", "final", "sprawdzian", "czesc", "termin", "terminy", "poprawne", "wymagane", "wzorzec"}
 POLA_LEKCJA = {"id", "modul", "modulNazwa", "temat", "lekcja", "dzien", "sylabus", "minuty", "cwiczenia", "zgadnij", "plik",
-               "wprowadza", "wprowadzaListe", "wymaga", "cel", "zapas", "priorytet", "typowePytania", "wielkiObraz", "twierdzenia", "kontrolaAutora"}
+               "wprowadza", "wprowadzaListe", "wymaga", "cel", "zapas", "priorytet", "typowePytania", "wielkiObraz", "twierdzenia", "kontrolaAutora", "format"}
+# FORMAT-KROTKI.md §2 – przykłady ogólne (jak w COBIT 5 Foundation), bez historii strażackiej.
+ZAKAZ_PSP = re.compile(r"\b(PSP|OSP|JRG|straż\w*|strażak\w*|komend\w*|Syren\w*|dyżurn\w*|pożar\w*|Modrzew\w*|Zawilc\w*|Sikor\w*|Dudek|Dudk\w*|Wrzos\w*|Kaczmarek|Nowik|Pietrzak\w*)\b", re.I)
 POLA_WEZEL = {"id", "nazwa", "en", "rodzic", "obszar", "opis", "kolejnosc"}
 MODULY = ["IT0", "M0", "PR", "EN", "IM", "PC", "EX", "MT", "FN"]
 TEZY = {"interpretacyjna", "krytyczna", "praktyczna", "porownawcza", "problemowa", "egzaminacyjna"}
@@ -294,6 +296,11 @@ def build():
             if parts.get(c, 0) < 2:
                 P.warn(f"sprawdzian {mod}", f"Część „{c}” ma {parts.get(c, 0)} pytań (zalecane ≥ 2, §17.12)")
     # §16.6 – styl pytań jak na egzaminie: poprawna nie zawsze najdłuższa, równy rozkład liter, „NIE” wersalikami.
+    for q in questions:
+        if str(q.get("_plik", "")).endswith("-krotkie.json"):
+            hit = ZAKAZ_PSP.search(json.dumps(q, ensure_ascii=False))
+            if hit:
+                P.err(f"{q.get('_plik')} → {q.get('id')}", f"Przykład strażacki: „{hit.group(0)}” (FORMAT-KROTKI §2)")
     by_file = {}
     for q in questions:
         if q.get("typ") in ("egzamin", "studium") and len(q.get("opcje") or []) == 4:
@@ -539,11 +546,27 @@ def validate_course(lessons, bodies, nat, P, terms_by_id=None):
         # §17.14 – lista kontrolna autora (automatycznie, ostrzeżenia).
         slides = [x for x in re.split(r"\n---\n", body) if x.strip()]
         kinds = [(re.search(r"<!--\s*slajd:\s*([\w-]+)", x) or [None, "tresc"])[1] for x in slides]
+        krotki = l.get("format") == "krotki"
+        if krotki:
+            # FORMAT-KROTKI.md: 3–8 slajdów, wniosek na końcu, bez przykładów strażackich (błąd), ≤ 60 słów na slajd.
+            if not 3 <= len(slides) <= 8:
+                P.warn(where, f"Krótka lekcja ma {len(slides)} slajdów (3–8, FORMAT-KROTKI §1)")
+            if slides and "**Wniosek:**" not in slides[-1] and kinds[-1] not in ("wniosek", "zapamietaj"):
+                P.warn(where, "Ostatni slajd krótkiej lekcji bez **Wniosek:** (FORMAT-KROTKI §5)")
+            hit = ZAKAZ_PSP.search(body)
+            if hit:
+                P.err(where, f"Przykład strażacki w krótkiej lekcji: „{hit.group(0)}” (FORMAT-KROTKI §2)")
+            for k, x in enumerate(slides, 1):
+                vis = re.sub(r"^:::(wykladowca|sb|zrodlo)[^\n]*\n(?:.*\n)*?:::[ \t]*$", "", x, flags=re.M)
+                vis = re.sub(r"<!--.*?-->", "", vis, flags=re.S)
+                n = len(WORD_RE.findall(vis))
+                if n > 70:
+                    P.warn(where, f"Slajd {k}: {n} słów widocznego tekstu (≤ 60, FORMAT-KROTKI §1)")
         no_lect = sum(1 for x in slides if not re.search(r"^:::wykladowca", x, re.M))
-        if slides and no_lect:
+        if slides and no_lect and not krotki:
             P.warn(where, f"{no_lect} z {len(slides)} slajdów bez :::wykladowca (§17.14 pkt 3)")
         no_concl = sum(1 for x, k in zip(slides, kinds) if k not in SYNTEZA and "**Wniosek:**" not in x)
-        if no_concl:
+        if no_concl and not krotki:
             P.warn(where, f"{no_concl} slajdów bez linii **Wniosek:** (§17.14 pkt 5)")
         for tid in l.get("wprowadza") or []:
             t = terms_by_id.get(tid)
@@ -568,7 +591,7 @@ def validate_course(lessons, bodies, nat, P, terms_by_id=None):
                 missing.append(a)
         if missing:
             P.warn(where, f"Skróty bez rozwinięcia przy pierwszym użyciu: {', '.join(missing[:6])} (§17.14 pkt 1)")
-        if l.get("cwiczenia") and len(l.get("zapas") or []) < 2:
+        if l.get("cwiczenia") and len(l.get("zapas") or []) < (1 if l.get("format") == "krotki" else 2):
             P.warn(where, "Brak zapas (§11.3: ≥ 2 pytania zapasowe do pętli naprawczej)")
         tp = l.get("typowePytania")
         if tp is not None and (not isinstance(tp, list) or any(not isinstance(x, dict) or not x.get("pytanie") or not x.get("odpowiedz") for x in tp)):
@@ -852,7 +875,7 @@ def validate_lesson(where, meta, body, term_ids, q_ids, P, node_ids=None, questi
     if re.search(r"<!--\s*slajd:\s*rozwiazany\s*-->", body) and not roz:
         P.warn(where, "Slajd rozwiazany bez bloku :::rozwiazany")
     lesson_q = set(meta.get("cwiczenia", [])) | {q.get("id") for q in questions if meta.get("id") and q.get("lekcja") == meta.get("id")}
-    if any(qtyp.get(qid) in ("egzamin", "studium") for qid in lesson_q) and not roz:
+    if any(qtyp.get(qid) in ("egzamin", "studium") for qid in lesson_q) and not roz and meta.get("format") != "krotki":
         P.warn(where, "Lekcja ma pytania egzamin/studium, ale nie ma slajdu rozwiazany (§10.2)")
     if len(roz) > 1:
         P.warn(where, "Lekcja powinna mieć jeden slajd rozwiazany")
@@ -1066,6 +1089,12 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         super().end_headers()
 
     def do_GET(self):  # noqa: N802
+        # Start aplikacji = podręcznik krok po kroku; dawny kurs dalej pod /index.html.
+        if self.path.split("?")[0] == "/":
+            self.send_response(302)
+            self.send_header("Location", "/podrecznik/")
+            self.end_headers()
+            return
         if self.path.split("?")[0] == "/bundle.json":
             body = json.dumps(build(), ensure_ascii=False).encode("utf-8")
             self.send_response(200)

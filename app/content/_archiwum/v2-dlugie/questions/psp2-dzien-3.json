@@ -1,0 +1,49 @@
+[
+  {
+    "id": "q-en-07-03",
+    "typ": "studium",
+    "sylabus": [
+      "EN-02-17"
+    ],
+    "lekcja": "en-07-informacja",
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Które kryterium jakości informacji jest tu **niespełnione**?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 82
+      }
+    ],
+    "status": "oficjalne",
+    "scenariusz": "Dowódca akcji dostaje na tablet dane o hydrantach. Współrzędne są poprawne, ale dane pochodzą sprzed 3 lat i nie uwzględniają hydrantów zlikwidowanych w zeszłym roku.",
+    "opcje": [
+      {
+        "tekst": "Dokładność",
+        "poprawna": false,
+        "wyjasnienie": "Współrzędne istniejących hydrantów są poprawne. Problem leży gdzie indziej.",
+        "zycie": "W życiu to tak, jakbyś narzekał na dokładność starej mapy, choć brakuje na niej tylko nowych ulic.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Aktualność",
+        "poprawna": true,
+        "wyjasnienie": "Informacje nie są wystarczająco aktualne do zadania (jakość kontekstowa)."
+      },
+      {
+        "tekst": "Ograniczony dostęp",
+        "poprawna": false,
+        "wyjasnienie": "Problem nie dotyczy dostępu.",
+        "zycie": "W życiu to tak, jakbyś przy nieaktualnej mapie winił to, że trzymasz ją pod kluczem.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Reputacja",
+        "poprawna": false,
+        "wyjasnienie": "Źródło nie jest kwestionowane.",
+        "zycie": "W życiu to tak, jakbyś przy nieaktualnej mapie winił wydawnictwo, które od lat jest wiarygodne.",
+        "pulapka": "prawda-nie-na-temat"
+      }
+    ]
+  }
+]

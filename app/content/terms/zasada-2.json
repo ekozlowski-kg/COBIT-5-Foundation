@@ -36,12 +36,11 @@
     "biuro": "Listy płac drukuje kadrowa, wysyła księgowa, a przechowuje sekretariat. Informatyk zabezpieczy serwer, ale jeśli wydruk zostanie na drukarce w korytarzu, dane i tak wyciekną. Za informację odpowiada każdy, kto ją przetwarza.",
     "firma": "W sklepie internetowym dane klientów widzi sprzedawca przy pakowaniu, księgowa przy fakturach i kurier na etykiecie. Informatyk ustawi najlepsze zabezpieczenia, ale jeśli sprzedawca wyśle listę klientów prywatnym mailem, i tak jest wyciek. Dlatego zasady obejmują wszystkich, także firmę kurierską – to Zasada 2.",
     "admin": "W urzędzie gminy dane w ewidencji ludności wpisują urzędnicy wydziału spraw obywatelskich, a informatyk tylko utrzymuje system. Gdy ktoś wpisze zły adres, to problem całego urzędu, nie informatyka. Ład nad informacją obejmuje każdy wydział – to Zasada 2.",
-    "psp": "Dane o zdarzeniach w SWD-PSP wpisują dyżurni SK, uzupełniają dowódcy zastępów po akcji, a kwatermistrzostwo korzysta z nich przy rozliczaniu sprzętu. Gdy dane są złe, cierpi cała komenda, a nie tylko sekcja łączności i informatyki. Ład nad informacją obejmuje więc całą komendę – to Zasada 2.",
     "it": "APO10 (Zarządzanie dostawcami) obejmuje usługi świadczone z zewnątrz, a DSS06 (Zarządzanie mechanizmami kontrolnymi procesów biznesowych) kontrolę informacji w procesach biznesowych, np. w fakturowaniu. Zasięg COBIT 5 wychodzi więc poza dział IT."
   },
   "glebokosc": {
     "prosty": "O porządek w domu nie dba tylko ta osoba, która sprząta łazienkę. Chodzi też o kuchnię, pokoje, garaż, a nawet o sąsiada, który pożycza kosiarkę. Zasada 2 mówi to samo o informatyce: dotyczy całej organizacji, a nie jednego pokoju z serwerami.",
-    "zaawansowany": "Po awarii Syreny Sikora słyszy: „To wasz system, wasza wina”. Komendantka Wrzos odpowiada zasadą 2: informacja i technologia dotyczą dyżurnych SK, księgowości i JRG, a nawet stron zewnętrznych – OSP Zawilce i dostawcy Kwant-Sygnał. Ład nad IT jest częścią ładu całej komendy, a COBIT 5 obejmuje też zewnętrzne usługi IT i procesy. Zasada 2 wprowadza też [[system-ladu|podejście do Ładu]] z czterema komponentami, m.in. [[zakres-ladu]] oraz [[role-dzialania-relacje]].",
+    "zaawansowany": "Po awarii aplikacji mobilnej banku dyrektor IT słyszy: „To wasz system, wasza wina”. Zarząd odpowiada zasadą 2: informacja i technologia dotyczą obsługi klienta, księgowości i oddziałów, a nawet stron zewnętrznych – operatora SMS i dostawcy usług chmurowych. Ład nad IT jest częścią ładu całego banku, a COBIT 5 obejmuje też zewnętrzne usługi IT i procesy. Zasada 2 wprowadza też [[system-ladu|podejście do Ładu]] z czterema komponentami, m.in. [[zakres-ladu]] oraz [[role-dzialania-relacje]].",
     "skrajny": "Pytanie brzmi: „Do której zasady należy spójność COBIT 5 z najnowszymi poglądami na temat Ładu?”. Intuicja podpowiada zasadę 3, bo „spójność” kojarzy się z integracją standardów. Framework umieszcza to jednak w zasadzie 2: system Ładu COBIT 5 można płynnie zintegrować z każdym systemem ładu i jest on spójny z najnowszymi poglądami dotyczącymi nadzoru (s. 23). Zasada 3 mówi o spójności z innymi **normami i metodykami** (s. 25). Na dodatek wśród powodów zasady 3 też pada „obejmuje całe przedsiębiorstwo”, więc samo słowo „całe” nie przesądza. **Rozstrzygnięcie:** poglądy na ład, ład nad IT jako część ładu korporacyjnego, wszystkie funkcje i procesy, także zewnętrzne → zasada 2; inne normy i metodyki, prosta architektura, integracja wiedzy ISACA → zasada 3."
   },
   "zagmatwania": [
@@ -61,7 +60,7 @@
   "mentor": {
     "czestyBlad": "Mylenie zasady 2 (cała organizacja, ład korporacyjny) z zasadą 3 (integracja standardów) i z zasadą 4 (wszystkie aktywatory).",
     "jakTlumaczyc": "Trzy słowa-klucze: zasada 2 – **gdzie** (cała organizacja i to, co poza nią), zasada 3 – **z czym** (inne standardy w jednej ramie), zasada 4 – **z czego** (7 aktywatorów naraz). Przy każdym zdaniu pytaj ucznia: „gdzie, z czym czy z czego?”.",
-    "pytanieKontrolne": "Dostawca Syreny to firma zewnętrzna. Czy jego usługa mieści się w zasadzie 2? Co we Frameworku o tym przesądza?",
+    "pytanieKontrolne": "Aplikację mobilną banku utrzymuje firma zewnętrzna. Czy jej usługa mieści się w zasadzie 2? Co we Frameworku o tym przesądza?",
     "odpowiedzKontrolna": "Tak. COBIT 5 uwzględnia wszystkie istotne wewnętrzne i zewnętrzne usługi IT oraz wewnętrzne i zewnętrzne procesy biznesowe (s. 23), a aktywatory obejmują wszystkich i wszystko wewnątrz przedsiębiorstwa i poza nim."
   },
   "nieMylicZ": [

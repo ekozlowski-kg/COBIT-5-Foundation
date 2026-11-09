@@ -27,14 +27,14 @@
   "poziom2": "Gdy przyczyna jest już znana, ale jeszcze nieusunięta, mówimy o **znanym błędzie** (EN: known error) i zapisujemy obejście. Usunięcie przyczyny często wymaga zmiany – np. wymiany części albo poprawki programu.",
   "poziom3": "W COBIT 5 przyczynami incydentów zajmuje się proces DSS03 Zarządzanie problemami (FW-PL s. 33). FW-PL używa też słowa potocznie, np. *„problemy z realizacją usług w ramach outsourcingu”* (s. 36) – wtedy to zwykły kłopot.",
   "wyobrazSobie": "Lekarz, który nie tylko daje tabletkę na ból głowy, ale szuka, dlaczego głowa boli co tydzień.",
-  "poCo": "Żeby nie gasić w kółko tych samych pożarów, tylko usunąć ich źródło.",
+  "poCo": "Żeby nie gasić w kółko tych samych awarii, tylko usunąć ich źródło.",
   "jakDziala": "Ktoś zauważa, że incydenty się powtarzają albo jeden był bardzo poważny. Otwiera się problem. Specjaliści zbierają fakty i szukają przyczyny. Gdy ją znajdą, planują jej usunięcie.",
   "dlaczegoWazne": "Bez zarządzania problemami organizacja płaci za te same awarie wiele razy.",
   "przyklady": {
     "zycie": "Co zimę zamarza Ci rura w garażu. Za każdym razem ją rozmrażasz (incydent). W końcu ocieplasz rurę (usuwasz problem).",
     "biuro": "Drukarka zacina się co kilka dni. Informatyk wreszcie odkrywa, że używacie złego papieru. Zmiana papieru kończy kłopot.",
     "organizacja": "System sprzedaży zawiesza się co poniedziałek rano. Analiza pokazuje, że w poniedziałki loguje się naraz zbyt wiele osób. Firma rozbudowuje serwer.",
-    "psp": "Po nocy na Lipowej Ola Dudek szuka, dlaczego OSP Zawilce nie dostała alarmu. Znajduje przyczynę: w bazie był nieaktualny numer naczelnika Pietrzaka.",
+    "admin": "W szpitalu wojewódzkim system rejestracji pacjentów zawiesza się kilka razy w tygodniu około 7:30. Za każdym razem informatyk go restartuje (incydent). W końcu analizuje zdarzenia i odkrywa, że o tej porze wciąż trwa nocna kopia zapasowa. Przesunięcie kopii na wcześniejszą godzinę usuwa problem.",
     "it": "Przyczynami incydentów zajmuje się proces DSS03 Zarządzanie problemami (FW-PL s. 33)."
   },
   "nieMylicZ": [
@@ -68,7 +68,7 @@
   ],
   "glebokosc": {
     "prosty": "Codziennie rano budzik dzwoni za późno i przepraszasz szefa za spóźnienie. Przeprosiny to „gaszenie”. Gdy odkryjesz, że budzik ma słabą baterię, i ją wymienisz, usuwasz przyczynę.",
-    "zaawansowany": "„Syrena” zawiesza się trzeci raz w miesiącu. Ola Dudek zamiast kolejny raz ją uruchamiać, otwiera problem. Sprawdza zapisy serwera i widzi: zawieszenie następuje zawsze, gdy brakuje miejsca na dysku. Przyczyna znaleziona. Usunięcie jej, czyli powiększenie dysku, to już [[it-zmiana|zmiana]], którą trzeba zaplanować.",
+    "zaawansowany": "System sklepu internetowego zawiesza się trzeci raz w miesiącu. Administrator zamiast kolejny raz go uruchamiać, otwiera problem. Sprawdza zapisy serwera i widzi: zawieszenie następuje zawsze, gdy brakuje miejsca na dysku. Przyczyna znaleziona. Usunięcie jej, czyli powiększenie dysku, to już [[it-zmiana|zmiana]], którą trzeba zaplanować.",
     "skrajny": "Czy jeden poważny incydent może być powodem otwarcia problemu? Tak – nie trzeba czekać na powtórkę. Czy problem można zostawić bez usunięcia przyczyny? Można zapisać go jako znany błąd z obejściem, gdy usunięcie jest za drogie. Czy „problem z dostawcą” w rozmowie to problem w sensie DSS03? Nie – to potoczny kłopot. **Rozstrzygnięcie:** problem to przyczyna incydentów; zarządzanie nim to szukanie i usuwanie przyczyny, a nie przywracanie działania."
   },
   "zagmatwania": [
@@ -84,7 +84,7 @@
   "mentor": {
     "czestyBlad": "Używanie słowa „problem” na każdy kłopot i zamykanie problemu razem z incydentem.",
     "jakTlumaczyc": "Zamarzająca rura: rozmrażanie to incydent, ocieplenie rury to usunięcie problemu.",
-    "pytanieKontrolne": "Ola trzy razy uruchamiała ponownie serwer. Co powinna zrobić teraz?",
+    "pytanieKontrolne": "Administratorka trzy razy uruchamiała ponownie serwer. Co powinna zrobić teraz?",
     "odpowiedzKontrolna": "Otworzyć problem: znaleźć przyczynę zawieszania się (np. brak miejsca na dysku) i zaplanować jej usunięcie."
   }
 }

@@ -17,7 +17,7 @@
   "pulapkaOpis": "Egzamin: „etyka organizacyjna”, podręcznik: „etyka organizacji”. Etyka organizacyjna to wartości, w oparciu o które organizacja CHCE działać, a nie to, jak ludzie faktycznie się zachowują.",
   "skadNazwa": "Cele aktywatora Kultura, Etyka i Zachowanie mają trzy poziomy. Podręcznik pisze „etyka organizacji” i „indywidualne wzorce zachowań”, a egzamin „etyka organizacyjna” i „zachowania”.",
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "kultura-etyka-zachowanie"
@@ -34,13 +34,13 @@
   "przyklady": {
     "zycie": "Drużyna harcerska ma prawo harcerskie: „harcerz mówi prawdę” (etyka organizacji). Każdy harcerz przynosi z domu własne wartości (etyka indywidualna). To, czy na obozie ktoś przyzna się do zgubienia namiotu, to zachowanie. Razem te zachowania tworzą atmosferę drużyny.",
     "biuro": "Biuro ma kodeks: „Szanujemy czas klientów”. Pracownica z domu wyniosła punktualność. To, czy oddzwania klientowi w obiecanym terminie, to zachowanie.",
-    "organizacja": "Firma kurierska pisze w kodeksie: „Szanujemy czas klienta” (etyka organizacyjna). Kurier Tomek wyniósł z domu, że słowa trzeba dotrzymać (etyka indywidualna). To, czy kurier zostawia awizo bez pukania, to jego zachowanie. Suma takich zachowań to prawdziwa kultura firmy. Urząd gminy przyjmuje kodeks etyki: „Bezstronnie traktujemy mieszkańców” (etyka organizacyjna). Urzędniczka ma własne przekonania, np. że sąsiadom trzeba pomagać (etyka indywidualna). To, czy załatwia sprawę znajomego poza kolejką, to zachowanie. Te zachowania razem pokazują kulturę urzędu.",
-    "psp": "Komendantka Anna Wrzos ogłasza wartość komendy: „Każdy błąd zgłaszamy, bo od tego zależy życie ludzi” (etyka organizacyjna). Dyżurny Paweł Grab ma własną zasadę: „Nie donoszę na kolegów” (etyka indywidualna). Miesiąc temu nie zgłosił, że Syrena nie wysłała SMS-a, i to jest zachowanie. Dopiero gdy Wrzos publicznie mu podziękowała za przyznanie się, zachowania dyżurnych zaczęły się zmieniać, a z nimi kultura komendy.",
+    "organizacja": "Firma kurierska pisze w kodeksie: „Szanujemy czas klienta” (etyka organizacyjna). Kurier Tomek wyniósł z domu, że słowa trzeba dotrzymać (etyka indywidualna). To, czy kurier zostawia awizo bez pukania, to jego zachowanie. Suma takich zachowań to prawdziwa kultura firmy.",
+    "admin": "Urząd gminy przyjmuje kodeks etyki: „Bezstronnie traktujemy mieszkańców” (etyka organizacyjna). Urzędniczka ma własne przekonania, np. że sąsiadom trzeba pomagać (etyka indywidualna). To, czy załatwia sprawę znajomego poza kolejką, to zachowanie. Te zachowania razem pokazują kulturę urzędu.",
     "it": "W APO13 (Zarządzanie bezpieczeństwem) organizacja ogłasza wartość „chronimy dane klientów”. Zachowanie widać w tym, czy pracownicy zgłaszają podejrzane maile. Dopiero takie zachowania pokazują prawdziwą kulturę bezpieczeństwa."
   },
   "glebokosc": {
     "prosty": "W twoim domu obowiązuje zasada „nie kłamiemy”. To wartość rodziny. Twój syn ma własne przekonania, które przyniósł ze szkoły i od kolegów. To, czy przyzna się do stłuczonego wazonu, to jego zachowanie. To trzy różne rzeczy, choć wszystkie dotyczą uczciwości.",
-    "zaawansowany": "Komendantka ogłosiła wartość: zgłaszamy każdy błąd. To etyka organizacyjna. Grab ma własną zasadę lojalności wobec kolegów, czyli etykę indywidualną. Przez miesiąc nie zgłosił awarii i to jest jego zachowanie. Żeby zmienić zachowania, Wrzos sięga po [[praktyki-zachowan|dobre praktyki]]: daje przykład, chwali zgłoszenia i wpisuje regułę do polityki. Wartości komunikuje się przez [[zasady-polityki-struktury|zasady i polityki]].",
+    "zaawansowany": "Zarząd banku ogłosił wartość: zgłaszamy każdy błąd. To etyka organizacyjna. Doświadczony administrator ma własną zasadę lojalności wobec kolegów, czyli etykę indywidualną. Przez miesiąc nie zgłosił awarii i to jest jego zachowanie. Żeby zmienić zachowania, prezes sięga po [[praktyki-zachowan|dobre praktyki]]: daje przykład, chwali zgłoszenia i wpisuje regułę do polityki. Wartości komunikuje się przez [[zasady-polityki-struktury|zasady i polityki]].",
     "skrajny": "Na kursie pada pytanie: „Czy kultura organizacji to czwarty poziom celów obok trzech pozostałych?”. Nie. Według podręcznika kulturę przedsiębiorstwa łącznie określają indywidualne wzorce zachowań. Kultura jest więc sumą zachowań, a nie osobną warstwą. Druga pułapka: etyka organizacyjna to wartości, na których organizacja CHCE się opierać. Jeśli kodeks mówi „zgłaszamy błędy”, a nikt tego nie robi, etyka organizacyjna istnieje, ale zachowania jej nie odzwierciedlają. **Rozstrzygnięcie:** trzy poziomy to etyka organizacyjna (deklarowane wartości), etyka indywidualna (osobiste wartości) i zachowania (to, co ludzie robią). Kulturę tworzą zachowania."
   },
   "zagmatwania": [

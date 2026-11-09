@@ -28,19 +28,19 @@
   "poCo": "Żeby przeznaczenie dało się sprawdzić: wiadomo, jakie konkretne efekty mają być widoczne.",
   "jakDziala": "Opis procesu wymienia kilka rezultatów. Asesor sprawdza, czy są osiągane, i ocenia to skalą N/C/W/P. Wynik decyduje o PA 1.1 i o tym, czy proces ma poziom 1.",
   "dlaczegoWazne": "Rezultat łatwo pomylić z dokumentem wyjściowym, bo podręcznik oba nazywa „wynikami”. Bez rezultatów nie ma poziomu 1.",
-  "poziom2": "| Pojęcie | EN | Przykład (powiadamianie) |\n|---|---|---|\n| [[przeznaczenie-procesu|przeznaczenie]] | purpose | jednostki zaalarmowane bez zwłoki |\n| **rezultat procesu** | **outcome** | każda wezwana jednostka potwierdza odbiór |\n| [[produkt-pracy|produkt pracy]] (wyjście) | work product (output) | log wysyłki, raport |\n\nRezultat to **stan** („jednostki wiedzą”), a nie **dokument** („log”). W *Procesach umożliwiających* rezultatom odpowiadają cele procesu (uproszczenie, spoza korpusu).",
+  "poziom2": "| Pojęcie | EN | Przykład (powiadamianie klientów) |\n|---|---|---|\n| [[przeznaczenie-procesu|przeznaczenie]] | purpose | klienci powiadomieni bez zwłoki |\n| **rezultat procesu** | **outcome** | każdy powiadamiany klient potwierdza odbiór |\n| [[produkt-pracy|produkt pracy]] (wyjście) | work product (output) | log wysyłki, raport |\n\nRezultat to **stan** („klienci wiedzą”), a nie **dokument** („log”). W *Procesach umożliwiających* rezultatom odpowiadają cele procesu (uproszczenie, spoza korpusu).",
   "poziom3": "(s. 45): ocenę poziomu 1 zaczyna *„Weryfikacja wyników procesu na podstawie ich charakterystyki zawartej w szczegółowych opisach procesów”*. (s. 45): *„Jeśli wymagany wynik procesu nie jest konsekwentnie uzyskiwany, proces nie osiąga swojego celu”*. Il. 19: „Wyniki procesu” jako pierwszy wskaźnik wydajności.",
   "przyklady": {
     "zycie": "Przeznaczenie odkurzania: czysty dom. Rezultaty: na podłodze nie ma okruchów, a pod łóżkiem kurzu. Odkurzacz, który hałasuje godzinę, to czynność, a nie rezultat.",
     "biuro": "Rezultaty obiegu dokumentów: każde pismo jest zarejestrowane i dociera do adresata w dniu wpływu. Dziennik korespondencji to tylko dowód.",
-    "organizacja": "Rezultaty procesu reklamacji: każda reklamacja ma decyzję w 14 dni, a klient wie, co dalej. Formularz i e-mail to produkty pracy, a nie rezultaty.\n\nRezultat procesu wydawania dowodów: mieszkaniec ma ważny dowód z poprawnymi danymi. Wniosek w systemie to produkt pracy, który ten rezultat potwierdza.",
-    "psp": "**Potwierdzenie z Zawilców.** Audytorka Ewa Lis zapisuje rezultaty procesu powiadamiania. Pierwszy: każda wezwana jednostka potwierdza odbiór alarmu. Drugi: lista numerów odpowiada aktualnemu składowi jednostek. W noc pożaru przy Lipowej pierwszy rezultat nie został osiągnięty, bo OSP Zawilce niczego nie potwierdziła.",
+    "organizacja": "Rezultaty procesu reklamacji: każda reklamacja ma decyzję w 14 dni, a klient wie, co dalej. Formularz i e-mail to produkty pracy, a nie rezultaty.",
+    "admin": "Rezultat procesu wydawania dowodów osobistych w urzędzie gminy: mieszkaniec w ustawowym terminie dostaje ważny dowód z poprawnymi danymi. Wniosek w systemie i potwierdzenie odbioru to produkty pracy, które ten rezultat potwierdzają. Gdy co dziesiąty dowód trzeba wymieniać przez literówkę, rezultat nie jest uzyskiwany konsekwentnie.",
     "it": "Dla DSS02 rezultatami są m.in. przywrócone usługi i rozwiązane incydenty, a w *Procesach umożliwiających* odpowiadają im cele procesu. Rejestr incydentów to produkt pracy, który te rezultaty potwierdza."
   },
   "glebokosc": {
     "prosty": "Podlewasz kwiaty. Czynność to lanie wody. Rezultat to zielone liście i wilgotna ziemia. Oceniasz rezultat, a nie to, ile razy chwyciłeś konewkę.",
-    "zaawansowany": "Ewa Lis bierze z opisu procesu powiadamiania jego rezultaty i sprawdza, czy są osiągane. Dowodem są [[produkt-pracy|produkty pracy]], np. logi potwierdzeń w Syrenie. Rezultaty osiągane w 82% przypadków dają W na [[pa-1-1|PA 1.1]]. Przy 40% proces miałby [[poziom-0|poziom 0]].",
-    "skrajny": "Sikora pokazuje Lis log Syreny: „Alarm wysłany do wszystkich, więc rezultat osiągnięty”. Lis odpowiada, że log to produkt pracy, czyli dowód wysyłki. Rezultat to stan: jednostka naprawdę wie o alarmie i potwierdza odbiór. W noc pożaru log był, a rezultatu nie było. Druga pułapka: podręcznik pisze „wyniki procesu” o *outcomes*, ale „wyniki” także o wyjściach (*outputs*). Hasło „Rezultat” w kursie to też *output*. **Rozstrzygnięcie:** rezultat procesu to obserwowalny stan albo efekt, a nie dokument. Dokument może być tylko dowodem rezultatu."
+    "zaawansowany": "Audytorka wewnętrzna banku bierze z opisu procesu wysyłki powiadomień do klientów jego rezultaty i sprawdza, czy są osiągane. Dowodem są [[produkt-pracy|produkty pracy]], np. logi potwierdzeń doręczenia w systemie powiadomień. Rezultaty osiągane w 82% przypadków dają W na [[pa-1-1|PA 1.1]]. Przy 40% proces miałby [[poziom-0|poziom 0]].",
+    "skrajny": "Kierownik działu IT pokazuje audytorce log systemu powiadomień: „Wiadomość wysłana do wszystkich, więc rezultat osiągnięty”. Audytorka odpowiada, że log to produkt pracy, czyli dowód wysyłki. Rezultat to stan: klient naprawdę wie o blokadzie karty i potwierdza odbiór. W dniu awarii bramki SMS log był, a rezultatu nie było. Druga pułapka: podręcznik pisze „wyniki procesu” o *outcomes*, ale „wyniki” także o wyjściach (*outputs*). Hasło „Rezultat” w kursie to też *output*. **Rozstrzygnięcie:** rezultat procesu to obserwowalny stan albo efekt, a nie dokument. Dokument może być tylko dowodem rezultatu."
   },
   "zagmatwania": [
     {
@@ -59,7 +59,7 @@
   "mentor": {
     "czestyBlad": "Uczeń bierze dokument (log, raport) za rezultat.",
     "jakTlumaczyc": "Zapytaj: „Czy to da się położyć na biurku?”. Jeśli tak, to raczej produkt pracy. Rezultat to stan świata, który ten papier potwierdza.",
-    "pytanieKontrolne": "Log Syreny pokazuje wysłanie alarmu do OSP. Czy to dowodzi osiągnięcia rezultatu „jednostka potwierdza odbiór”?",
+    "pytanieKontrolne": "Log systemu powiadomień pokazuje wysłanie SMS-a do klienta. Czy to dowodzi osiągnięcia rezultatu „klient potwierdza odbiór”?",
     "odpowiedzKontrolna": "Nie. Log to produkt pracy, dowód wysyłki. Rezultat to potwierdzony odbiór przez jednostkę, a log wysyłki tego nie pokazuje."
   },
   "nieMylicZ": [

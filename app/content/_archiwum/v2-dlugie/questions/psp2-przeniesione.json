@@ -1,0 +1,220 @@
+{
+ "atlas-procesow-a.json": [
+  [
+   "q-atl-apo-b-06",
+   "bramki SMS"
+  ]
+ ],
+ "atlas-procesow-b.json": [
+  [
+   "q-atl-dss-a-02",
+   "bramki SMS"
+  ]
+ ],
+ "dzien-1-laik.json": [
+  [
+   "q-pre-ex-00",
+   "powiadamiania"
+  ]
+ ],
+ "dzien-2.json": [
+  [
+   "q-pr-10-01",
+   "dysponowania"
+  ]
+ ],
+ "dzien-3.json": [
+  [
+   "q-en-07-03",
+   "Dowódca"
+  ]
+ ],
+ "dzien-4.json": [
+  [
+   "q-im-05-03",
+   "dysponowania"
+  ],
+  [
+   "q-pc-03-03",
+   "SP1"
+  ],
+  [
+   "q-pc-05-01",
+   "SP1"
+  ]
+ ],
+ "en-krotkie.json": [
+  [
+   "q-enk-30-3",
+   "SP1"
+  ]
+ ],
+ "ex-krotkie.json": [],
+ "hasla-skrajne-a.json": [
+  [
+   "q-skr-atrybuty-procesu-1",
+   "Ewa Lis"
+  ],
+  [
+   "q-skr-fazy-wdrozenia-1",
+   "Ewa Lis"
+  ]
+ ],
+ "hasla-skrajne-c.json": [
+  [
+   "q-skr-poziomy-zdolnosci-1",
+   "Ewa Lis"
+  ],
+  [
+   "q-skr-prm-1",
+   "Sikora"
+  ],
+  [
+   "q-skr-przewodniki-oceny-1",
+   "Sikora"
+  ],
+  [
+   "q-skr-role-dzialania-relacje-1",
+   "Wrzos"
+  ]
+ ],
+ "hasla-skrajne-d.json": [
+  [
+   "q-skr-wymiary-aktywatora-1",
+   "Sikora"
+  ],
+  [
+   "q-skr-wymiary-oceny-1",
+   "Ewa Lis"
+  ],
+  [
+   "q-skr-zarzadzanie-wydajnoscia-aktywatora-1",
+   "procesu powiadamiania"
+  ]
+ ],
+ "mentor-impc.json": [
+  [
+   "q-men-im-03-pierscienie-1",
+   "Sikora"
+  ],
+  [
+   "q-men-im-05-uzasadnienie-1",
+   "Sikora"
+  ],
+  [
+   "q-men-pc-01-zdolnosc-2",
+   "Sikora"
+  ]
+ ],
+ "mentor-pr2.json": [
+  [
+   "q-men-pr-12-prm-edm-1",
+   "Dudek"
+  ]
+ ],
+ "mt.json": [
+  [
+   "q-mt-03-04",
+   "Sikora"
+  ],
+  [
+   "q-men-mt-05-2",
+   "Sikora"
+  ],
+  [
+   "q-mt-07-01",
+   "Naczelnik"
+  ]
+ ],
+ "pakiet-90.json": [
+  [
+   "q-pak-T04Q03",
+   "alarmy"
+  ]
+ ],
+ "pc-krotkie.json": [
+  [
+   "q-pck-51-z1",
+   "SP1"
+  ]
+ ],
+ "pc-podzial.json": [
+  [
+   "q-men-pc-03b-1",
+   "Sikora"
+  ]
+ ],
+ "pra-krotkie.json": [],
+ "skrajnosci-en.json": [
+  [
+   "q-sk-raci-i-1",
+   "Naczelnik"
+  ]
+ ],
+ "skrajnosci-im.json": [
+  [
+   "q-sk-pierscien-doskonalenie-1",
+   "Proces powiadamiania"
+  ],
+  [
+   "q-sk-ocena-c-2",
+   "Lis"
+  ],
+  [
+   "q-sk-ocena-p-2",
+   "Wrzos"
+  ]
+ ],
+ "skrajnosci-pc.json": [
+  [
+   "q-sk-poziom-2-1",
+   "Ewa Lis"
+  ],
+  [
+   "q-sk-pa-1-1-1",
+   "procesu powiadamiania"
+  ]
+ ],
+ "skrajnosci-pr.json": [
+  [
+   "q-sk-wytyczne-isaca-1",
+   "Naczelnik"
+  ]
+ ],
+ "skrajnosci-procesy-1.json": [
+  [
+   "q-sk-proc-edm02-1",
+   "bramki SMS"
+  ],
+  [
+   "q-sk-proc-apo13-1",
+   "Dudek"
+  ]
+ ],
+ "symulacje.json": [
+  [
+   "q-sym-001",
+   "SP1"
+  ]
+ ],
+ "zapas-en.json": [
+  [
+   "q-zap-en-02-procesy-1",
+   "alarmu"
+  ],
+  [
+   "q-zap-en-02-procesy-2",
+   "alarmu"
+  ],
+  [
+   "q-zap-en-07-informacja-1",
+   "Dowódca"
+  ]
+ ],
+ "zapas-pr2.json": [
+  [
+   "q-zap-ex-05-powtorka-im-pc-1",
+   "Proces powiadamiania"
+  ]
+ ]
+}

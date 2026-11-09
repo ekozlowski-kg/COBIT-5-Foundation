@@ -41,8 +41,8 @@
   "przyklady": {
     "zycie": "Skarbnik komitetu rodzicielskiego co semestr pokazuje rodzicom: ile zebrano, na co wydano, co się nie udało. Rodzice akceptują plan na kolejny semestr. Uczciwy, zrozumiały obraz dla wszystkich zainteresowanych to EDM05.",
     "biuro": "Kierownik biura raz w kwartale wysyła właścicielom krótki raport: ile spraw załatwiono, ile było reklamacji, co poprawiono. Wcześniej uzgodnił z nimi, które liczby chcą widzieć.",
-    "organizacja": "Zarząd spółki w raporcie rocznym pokazuje akcjonariuszom wyniki IT: dostępność sklepu, koszty, incydenty i plan poprawy. Wcześniej uzgodnił z radą nadzorczą, jakie mierniki pokaże. Tak działa EDM05. Burmistrz publikuje roczny raport o e-usługach: ile spraw załatwiono online, ile było awarii, ile to kosztowało. Rada miasta i mieszkańcy widzą prawdziwy obraz, także porażki. To EDM05.",
-    "psp": "**Raport dla Ostrowskiej.** Inspektorka Lucyna Ostrowska z komendy wojewódzkiej pyta o awarię Syreny. Komendantka Anna Wrzos przekazuje jej i naczelnikowi OSP Pietrzakowi rzetelny raport: co zawiodło, co naprawiono, jakie są czasy alarmu. Liczby zbiera naczelnik Sikora z audytorką Lis ([[mea|MEA]]). Wrzos decyduje, co i komu komenda raportuje. To jest [[proc-edm05|EDM05]].",
+    "organizacja": "Zarząd spółki w raporcie rocznym pokazuje akcjonariuszom wyniki IT: dostępność sklepu, koszty, incydenty i plan poprawy. Wcześniej uzgodnił z radą nadzorczą, jakie mierniki pokaże. Tak działa EDM05.",
+    "admin": "Burmistrz publikuje roczny raport o e-usługach: ile spraw załatwiono przez internet, ile było awarii i ile to kosztowało. Rada miasta i mieszkańcy widzą prawdziwy obraz, także porażki. Wcześniej burmistrz ustalił z radą, które liczby raport ma zawsze zawierać. To EDM05.",
     "it": "Rada nadzorcza zatwierdza, które mierniki IT trafią do raportu rocznego dla akcjonariuszy i regulatora. To EDM05. Dane dostarcza [[proc-mea01]]."
   },
   "nieMylicZ": [
@@ -99,8 +99,8 @@
   "mapa": "proc-edm05",
   "glebokosc": {
     "prosty": "Zarządca bloku raz w roku pokazuje mieszkańcom, ile kosztowało sprzątanie i naprawy. Mówi też, co się nie udało. Mieszkańcy wiedzą, na co idą pieniądze, i mogą to ocenić.",
-    "zaawansowany": "Audytorka Ewa Lis co miesiąc mierzy czas dotarcia alarmu i raportuje naczelnikowi Sikorze. To praca w MEA01. Komendantka Wrzos ustala, które liczby trafiają do komendy wojewódzkiej, OSP i mieszkańców. Pilnuje, żeby raport nie ukrywał awarii. Ta część to EDM05, a cele, które rozlicza, pochodzą z [[proc-edm02]] i [[proc-edm03]].",
-    "skrajny": "Sikora przygotowuje raport o Syrenie i wysyła go komendantce. Czy to już EDM05? Nie: to raport Zarządzania w górę, czyli MEA01. EDM05 zaczyna się, gdy organ Ładu ustala, co i komu raportujemy, i odpowiada za rzetelność. Oba procesy „monitorują”, ale Framework wyróżnia dwa poziomy monitorowania, a pierwszy dotyczy Ładu (s. 57). Gdyby Wrzos ukryła awarię przed Ostrowską, MEA01 mógłby działać bez zarzutu, a EDM05 i tak by zawiódł. **Rozstrzygnięcie:** raport kierownictwa do organu Ładu → MEA01; przejrzystość organu Ładu wobec interesariuszy → EDM05."
+    "zaawansowany": "Audytorka wewnętrzna banku co miesiąc mierzy dostępność bankowości internetowej i raportuje dyrektorowi IT. To praca w MEA01. Zarząd ustala, które liczby trafiają do rady nadzorczej, regulatora i klientów. Pilnuje, żeby raport nie ukrywał awarii. Ta część to EDM05, a cele, które rozlicza, pochodzą z [[proc-edm02]] i [[proc-edm03]].",
+    "skrajny": "Dyrektor IT przygotowuje raport o bankowości internetowej i wysyła go zarządowi. Czy to już EDM05? Nie: to raport Zarządzania w górę, czyli MEA01. EDM05 zaczyna się, gdy organ Ładu ustala, co i komu raportujemy, i odpowiada za rzetelność. Oba procesy „monitorują”, ale Framework wyróżnia dwa poziomy monitorowania, a pierwszy dotyczy Ładu (s. 57). Gdyby zarząd ukrył awarię przed regulatorem, MEA01 mógłby działać bez zarzutu, a EDM05 i tak by zawiódł. **Rozstrzygnięcie:** raport kierownictwa do organu Ładu → MEA01; przejrzystość organu Ładu wobec interesariuszy → EDM05."
   },
   "zagmatwania": [
     {

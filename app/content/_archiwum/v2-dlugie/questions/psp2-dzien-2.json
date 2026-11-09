@@ -1,0 +1,49 @@
+[
+  {
+    "id": "q-pr-10-01",
+    "typ": "studium",
+    "sylabus": [
+      "PR-01-05"
+    ],
+    "lekcja": "pr-10-wskazniki",
+    "bloom": "wiedza",
+    "trudnosc": 1,
+    "tresc": "Które pytanie zarządzania wydajnością aktywatora zadaje i jakim wskaźnikiem je zmierzy?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Pytanie o stosowanie dobrych praktyk – wskaźnikiem wiodącym",
+        "poprawna": true,
+        "wyjasnienie": "Dobre praktyki i cykl życia mierzą wskaźniki wiodące (s. 29)."
+      },
+      {
+        "tekst": "Pytanie o stosowanie dobrych praktyk – wskaźnikiem opóźnionym",
+        "poprawna": false,
+        "wyjasnienie": "Typ wskaźnika jest odwrócony.",
+        "zycie": "W życiu to tak, jakbyś sprawdzał, czy regularnie trenujesz, patrząc dopiero na wynik maratonu.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Pytanie o osiągnięcie celów aktywatora – wskaźnikiem opóźnionym",
+        "poprawna": false,
+        "wyjasnienie": "To inne pytanie: chodzi o wzorce, nie o wynik.",
+        "zycie": "W życiu to tak, jakbyś pytany, czy gotujesz według przepisu, mówił, czy goście się najedli.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Pytanie o potrzeby interesariuszy – wskaźnikiem wiodącym",
+        "poprawna": false,
+        "wyjasnienie": "Inne pytanie i odwrócony typ wskaźnika.",
+        "zycie": "W życiu to tak, jakbyś pytany o trzymanie się przepisu opowiadał, na co goście mają ochotę.",
+        "pulapka": "odwrocone"
+      }
+    ],
+    "scenariusz": "Kierownik SK chce sprawdzić, czy nowa procedura dysponowania jest stosowana zgodnie ze sprawdzonymi wzorcami."
+  }
+]

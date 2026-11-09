@@ -6,3 +6,9 @@ private/
 
 # Lokalne wyciągi z materiałów chronionych (np. Sample Paper 1) – nigdy nie commitować
 *.local.json
+*.local.js
+app/podrecznik/ilustracje/
+
+# Wersja do udostępnienia (tools/build-dist.py) – budowana lokalnie
+dist/
+cobit5-foundation-dist.zip

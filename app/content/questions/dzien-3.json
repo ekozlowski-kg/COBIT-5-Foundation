@@ -39,104 +39,6 @@
       ]
     },
     {
-      "id": "q-en-01-01",
-      "typ": "klasyfikacja",
-      "sylabus": [
-        "EN-02-02",
-        "EN-02-01"
-      ],
-      "lekcja": "en-01-zasady-polityki",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Zasada, polityka czy struktura ramowa?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 67
-        }
-      ],
-      "status": "oficjalne",
-      "kategorie": [
-        "Zasada",
-        "Polityka",
-        "Struktura ramowa"
-      ],
-      "elementy": [
-        {
-          "tekst": "„Życie i zdrowie ludzi są ważniejsze niż mienie”",
-          "kategoria": "Zasada",
-          "wyjasnienie": "Krótka, prosta, wyraża podstawową wartość."
-        },
-        {
-          "tekst": "„Dyżurny może używać prywatnego telefonu tylko w razie awarii łączności służbowej; naruszenie skutkuje…”",
-          "kategoria": "Polityka",
-          "wyjasnienie": "Szczegółowe wytyczne z konsekwencjami i wyjątkiem."
-        },
-        {
-          "tekst": "Uporządkowany zbiór wszystkich regulaminów i polityk komendy z hierarchią i odwołaniami",
-          "kategoria": "Struktura ramowa",
-          "wyjasnienie": "Struktura, w której każda polityka ma swoje miejsce."
-        },
-        {
-          "tekst": "„Jesteśmy przejrzyści wobec obywateli”",
-          "kategoria": "Zasada",
-          "wyjasnienie": "Wartość, mało słów."
-        },
-        {
-          "tekst": "Polityka haseł: min. 12 znaków, zmiana co 90 dni, wyjątki zatwierdza CISO",
-          "kategoria": "Polityka",
-          "wyjasnienie": "Szczegółowa wytyczna stosowania zasady bezpieczeństwa."
-        }
-      ]
-    },
-    {
-      "id": "q-en-01-02",
-      "typ": "studium",
-      "sylabus": [
-        "EN-02-03"
-      ],
-      "lekcja": "en-01-zasady-polityki",
-      "bloom": "zastosowanie",
-      "trudnosc": 2,
-      "tresc": "Która ocena nowej polityki jest **najbardziej zgodna** z cechami dobrej polityki według COBIT 5?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 67
-        }
-      ],
-      "status": "oficjalne",
-      "scenariusz": "Komenda wprowadziła politykę: każde wyjście dyżurnego od stanowiska wymaga pisemnej zgody kierownika zmiany, także wyjście do toalety. Dyżurni masowo ją obchodzą i uważają za absurdalną.",
-      "opcje": [
-        {
-          "tekst": "Polityka jest dobra, bo jest szczegółowa",
-          "poprawna": false,
-          "wyjasnienie": "Szczegółowość nie wystarczy. Liczy się też akceptowalność.",
-          "zycie": "W życiu to tak, jakbyś chwalił domowy regulamin za drobiazgowość, choć wszyscy go omijają.",
-          "pulapka": "zbyt-waskie"
-        },
-        {
-          "tekst": "Polityka nie spełnia cechy nieinwazyjności: budzi zbędny opór i nie wydaje się logiczna",
-          "poprawna": true,
-          "wyjasnienie": "Dobra polityka jest skuteczna, wydajna i **nieinwazyjna** (s. 67)."
-        },
-        {
-          "tekst": "Polityka jest zła, bo jest polityką, a nie zasadą",
-          "poprawna": false,
-          "wyjasnienie": "Szczegółowe wytyczne to właśnie rola polityk.",
-          "zycie": "W życiu to tak, jakbyś krytykował instrukcję pralki za to, że nie jest rodzinnym hasłem.",
-          "pulapka": "falsz"
-        },
-        {
-          "tekst": "Polityka jest dobra, bo ogranicza ryzyko do zera",
-          "poprawna": false,
-          "wyjasnienie": "COBIT nie dąży do zera ryzyka. Polityka i tak nie działa.",
-          "zycie": "W życiu to tak, jakbyś chwalił zakaz wychodzenia z domu, bo dzięki niemu nikt nie złamie nogi.",
-          "pulapka": "falsz"
-        }
-      ]
-    },
-    {
       "id": "q-en-01-03",
       "typ": "egzamin",
       "sylabus": [
@@ -181,53 +83,6 @@
           "pulapka": "inna-kategoria"
         }
       ]
-    },
-    {
-      "id": "q-en-01-04",
-      "typ": "studium",
-      "sylabus": [
-        "EN-02-06"
-      ],
-      "lekcja": "en-01-zasady-polityki",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Gdzie według COBIT 5 trzeba ją „wbudować”, aby była wykonywana na co dzień?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 68
-        }
-      ],
-      "status": "oficjalne",
-      "opcje": [
-        {
-          "tekst": "W praktyki i działania procesów, np. obsługi incydentów i zmian",
-          "poprawna": true,
-          "wyjasnienie": "Praktyki i działania procesów to najistotniejszy środek realizacji polityk (s. 68)."
-        },
-        {
-          "tekst": "Wyłącznie w regulamin organizacyjny komendy i zarządzenia komendanta",
-          "poprawna": false,
-          "wyjasnienie": "Same dokumenty nie wystarczą. Polityka musi trafić do praktyk i działań procesów.",
-          "zycie": "W życiu to tak, jakbyś zasadę „segregujemy śmieci” tylko powiesił na lodówce, zamiast postawić osobne kosze.",
-          "pulapka": "zbyt-waskie"
-        },
-        {
-          "tekst": "W architekturę docelową systemów",
-          "poprawna": false,
-          "wyjasnienie": "Architektura to aktywator Usługi.",
-          "zycie": "W życiu to tak, jakbyś zasadę „segregujemy śmieci” wpisał w plan instalacji elektrycznej domu.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "W roczną ocenę pracowników",
-          "poprawna": false,
-          "wyjasnienie": "To narzędzie kadrowe, nie realizacja polityki.",
-          "zycie": "W życiu to tak, jakbyś segregację śmieci sprawdzał tylko raz w roku przy rozdawaniu kieszonkowego.",
-          "pulapka": "inna-kategoria"
-        }
-      ],
-      "scenariusz": "Komenda przyjęła politykę bezpieczeństwa łączności, ale nikt jej nie stosuje."
     },
     {
       "id": "q-en-01-05",
@@ -353,51 +208,6 @@
           "poprawna": false,
           "wyjasnienie": "Dostępność to dostęp i poufność.",
           "zycie": "W życiu to tak, jakbyś przestrzeganie przepisów drogowych pomylił z tym, kto ma kluczyki do auta."
-        }
-      ]
-    },
-    {
-      "id": "q-en-02-01",
-      "typ": "klasyfikacja",
-      "sylabus": [
-        "EN-02-08"
-      ],
-      "lekcja": "en-02-procesy",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Przyporządkuj cele procesu „przyjmowanie zgłoszeń alarmowych” do kategorii.",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 69
-        }
-      ],
-      "status": "oficjalne",
-      "kategorie": [
-        "Cele wewnętrzne",
-        "Cele kontekstowe",
-        "Cele dostępności i bezpieczeństwa"
-      ],
-      "elementy": [
-        {
-          "tekst": "Proces jest zgodny z ustawą i wytycznymi KG PSP",
-          "kategoria": "Cele wewnętrzne",
-          "wyjasnienie": "Zgodność z regułami zewnętrznymi i wewnętrznymi."
-        },
-        {
-          "tekst": "Proces jest zgodny z dobrą praktyką obsługi zgłoszeń",
-          "kategoria": "Cele wewnętrzne",
-          "wyjasnienie": "Jakość i zgodność z dobrą praktyką."
-        },
-        {
-          "tekst": "Proces jest dostosowany do specyfiki powiatu i zrozumiały dla nowej zmiany",
-          "kategoria": "Cele kontekstowe",
-          "wyjasnienie": "Dopasowanie i zrozumiałość."
-        },
-        {
-          "tekst": "Procedura jest dostępna przy każdym stanowisku, a dane zgłaszających są poufne",
-          "kategoria": "Cele dostępności i bezpieczeństwa",
-          "wyjasnienie": "Dostępność i poufność."
         }
       ]
     },
@@ -649,7 +459,7 @@
           "wyjasnienie": "R = Responsible."
         },
         {
-          "tekst": "A – rozliczany",
+          "tekst": "A – odpowiedzialny decyzyjnie",
           "poprawna": false,
           "wyjasnienie": "A odpowiada za sukces.",
           "zycie": "W życiu to tak, jakbyś pytany, kto maluje pokój, wskazał mamę, która tylko odbiera pracę i za nią odpowiada."
@@ -712,53 +522,6 @@
       "wyjasnienie": "Słownik COBIT 5, s. 89–93."
     },
     {
-      "id": "q-en-03-02",
-      "typ": "studium",
-      "sylabus": [
-        "EN-02-25"
-      ],
-      "lekcja": "en-03-opis-procesu-raci",
-      "bloom": "zastosowanie",
-      "trudnosc": 2,
-      "tresc": "Jaką rolę RACI pełnią **dowódcy JRG**?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 90
-        }
-      ],
-      "status": "oficjalne",
-      "scenariusz": "Kierownik zmiany przygotowuje nową procedurę dysponowania. Przed zatwierdzeniem przez kierownika SK pyta dowódców JRG o opinię i uwzględnia ich uwagi. Po zatwierdzeniu procedura trafia do wszystkich dyżurnych.",
-      "opcje": [
-        {
-          "tekst": "R – odpowiedzialny wykonawczo",
-          "poprawna": false,
-          "wyjasnienie": "R to kierownik zmiany, który przygotowuje procedurę.",
-          "zycie": "W życiu to tak, jakbyś gości pytanych o menu wesela wziął za kucharzy, którzy je gotują.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "A – rozliczany",
-          "poprawna": false,
-          "wyjasnienie": "A to kierownik SK, który zatwierdza.",
-          "zycie": "W życiu to tak, jakbyś gości pytanych o menu wesela wziął za parę młodą, która zatwierdza wybór.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "C – konsultowany",
-          "poprawna": true,
-          "wyjasnienie": "Dowódcy dostarczają opinii, a ich uwagi są uwzględniane. To komunikacja dwukierunkowa."
-        },
-        {
-          "tekst": "I – informowany",
-          "poprawna": false,
-          "wyjasnienie": "Informowani są dyżurni (jednokierunkowo).",
-          "zycie": "W życiu to tak, jakbyś gości, których pytasz o zdanie, uznał za tych, którym tylko wysyłasz zaproszenie.",
-          "pulapka": "odwrocone"
-        }
-      ]
-    },
-    {
       "id": "q-en-03-03",
       "typ": "egzamin",
       "sylabus": [
@@ -793,9 +556,9 @@
           "wyjasnienie": "Słownik, s. 90 i 92."
         },
         {
-          "tekst": "C jest rozliczany, I jest odpowiedzialny",
+          "tekst": "C odpowiada decyzyjnie, I odpowiada wykonawczo",
           "poprawna": false,
-          "wyjasnienie": "Pomylenie A i R.",
+          "wyjasnienie": "Pomylenie z A (odpowiedzialny decyzyjnie) i R (odpowiedzialny wykonawczo).",
           "zycie": "W życiu to tak, jakbyś przyjaciółkę od rad przy weselu uznał za tę, która za wszystko odpowiada.",
           "pulapka": "inna-kategoria"
         },
@@ -915,58 +678,6 @@
           "poprawna": false,
           "wyjasnienie": "To aktywator 6.",
           "zycie": "W życiu to tak, jakbyś pytany, co wychodzi z rodzinnej narady, wskazał telewizor w salonie."
-        }
-      ]
-    },
-    {
-      "id": "q-en-04-01",
-      "typ": "klasyfikacja",
-      "sylabus": [
-        "EN-02-12"
-      ],
-      "lekcja": "en-04-struktury",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Którą dobrą praktykę struktury organizacyjnej opisuje każde zdanie?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 75
-        }
-      ],
-      "status": "oficjalne",
-      "kategorie": [
-        "Zasady operacyjne",
-        "Zakres kontroli",
-        "Poziom uprawnień",
-        "Delegowanie uprawnień",
-        "Procedury eskalacji"
-      ],
-      "elementy": [
-        {
-          "tekst": "Komitet spotyka się w każdy pierwszy wtorek miesiąca i protokołuje decyzje",
-          "kategoria": "Zasady operacyjne",
-          "wyjasnienie": "Praktyczne ustalenia, jak struktura działa."
-        },
-        {
-          "tekst": "Komitet decyduje tylko w sprawach systemów łączności, nie budynków",
-          "kategoria": "Zakres kontroli",
-          "wyjasnienie": "Granice uprawnień."
-        },
-        {
-          "tekst": "Komitet może zatwierdzać zakupy do 100 tys. zł",
-          "kategoria": "Poziom uprawnień",
-          "wyjasnienie": "Jakie decyzje wolno podjąć."
-        },
-        {
-          "tekst": "Komitet przekazuje decyzje o drobnych zmianach konfiguracji kierownikowi SK",
-          "kategoria": "Delegowanie uprawnień",
-          "wyjasnienie": "Przekazanie uprawnień strukturze podległej."
-        },
-        {
-          "tekst": "Gdy członkowie nie mogą się porozumieć, sprawa trafia do komendanta",
-          "kategoria": "Procedury eskalacji",
-          "wyjasnienie": "Ścieżka przy problemach z decyzją."
         }
       ]
     },
@@ -1102,53 +813,6 @@
       ]
     },
     {
-      "id": "q-en-04-05",
-      "typ": "studium",
-      "sylabus": [
-        "EN-02-12"
-      ],
-      "lekcja": "en-04-struktury",
-      "bloom": "zastosowanie",
-      "trudnosc": 2,
-      "tresc": "Której dobrej praktyki brakuje sztabowi?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 75
-        }
-      ],
-      "status": "oficjalne",
-      "scenariusz": "Sztab kryzysowy przy powodzi ma jasny skład i wie, jakie decyzje może podjąć. Gdy jednak przedstawiciele PSP i gminy nie zgadzają się co do ewakuacji, nikt nie wie, kto rozstrzyga, i decyzja zapada z dwugodzinnym opóźnieniem.",
-      "opcje": [
-        {
-          "tekst": "Zasady operacyjne",
-          "poprawna": false,
-          "wyjasnienie": "Problem nie dotyczy częstotliwości ani organizacji zebrań.",
-          "zycie": "W życiu to tak, jakbyś przy rodzinnym sporze bez wyjścia zmieniał godzinę obiadu, a brakuje kogoś, kto rozstrzygnie.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Procedury eskalacji",
-          "poprawna": true,
-          "wyjasnienie": "Brakuje ścieżki na wypadek problemów z podjęciem decyzji."
-        },
-        {
-          "tekst": "Poziom uprawnień",
-          "poprawna": false,
-          "wyjasnienie": "Sztab wie, jakie decyzje może podjąć.",
-          "zycie": "W życiu to tak, jakbyś szukał brakującej śruby w szafie, a wskazał tę, która jest na miejscu.",
-          "pulapka": "prawda-nie-na-temat"
-        },
-        {
-          "tekst": "Skład",
-          "poprawna": false,
-          "wyjasnienie": "Skład jest jasny.",
-          "zycie": "W życiu to tak, jakbyś szukał brakującej rzeczy z listy zakupów, a wskazał mleko, które już kupiłeś.",
-          "pulapka": "prawda-nie-na-temat"
-        }
-      ]
-    },
-    {
       "id": "q-pre-en-05",
       "typ": "rozpoznanie",
       "sylabus": [
@@ -1227,53 +891,6 @@
         }
       ],
       "wyjasnienie": "Rysunek 33, s. 76."
-    },
-    {
-      "id": "q-en-05-02",
-      "typ": "studium",
-      "sylabus": [
-        "EN-02-13"
-      ],
-      "lekcja": "en-05-role",
-      "bloom": "zastosowanie",
-      "trudnosc": 2,
-      "tresc": "Która rola z Rysunku 33 najlepiej opisuje tę osobę?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 76
-        }
-      ],
-      "status": "oficjalne",
-      "scenariusz": "W komendzie wojewódzkiej jedna osoba na poziomie kierownictwa odpowiada za to, by plany rozwoju systemów IT wspierały strategię komendy, planuje zasoby IT i odpowiada za dostarczanie usług IT jednostkom.",
-      "opcje": [
-        {
-          "tekst": "Dyrektor ds. operacji IT",
-          "poprawna": false,
-          "wyjasnienie": "Ta rola odpowiada za środowisko operacyjne i infrastrukturę, a nie za dopasowanie strategii.",
-          "zycie": "W życiu to tak, jakbyś osobę planującą rodzinne wydatki pomylił z tą, która pilnuje, by pralka działała.",
-          "pulapka": "zbyt-waskie"
-        },
-        {
-          "tekst": "CIO",
-          "poprawna": true,
-          "wyjasnienie": "Dopasowanie strategii IT i biznesowej, planowanie, zasoby, dostarczanie usług IT."
-        },
-        {
-          "tekst": "Dyrektor ds. architektury",
-          "poprawna": false,
-          "wyjasnienie": "Ta rola odpowiada za proces architektury korporacyjnej.",
-          "zycie": "W życiu to tak, jakbyś osobę ustalającą plany rodziny pomylił z architektem, który rysuje projekt domu.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "COO",
-          "poprawna": false,
-          "wyjasnienie": "COO odpowiada za funkcjonowanie całej organizacji.",
-          "zycie": "W życiu to tak, jakbyś osobę od domowej techniki pomylił z tą, która prowadzi cały dom.",
-          "pulapka": "inna-kategoria"
-        }
-      ]
     },
     {
       "id": "q-en-05-03",
@@ -1368,136 +985,6 @@
       ]
     },
     {
-      "id": "q-pre-en-06",
-      "typ": "rozpoznanie",
-      "sylabus": [
-        "EN-02-15"
-      ],
-      "lekcja": "en-06-kultura",
-      "bloom": "wiedza",
-      "trudnosc": 1,
-      "tresc": "Komendant ogłasza: „W naszej komendzie życie ludzi stawiamy przed mieniem i działamy jawnie”. Na którym poziomie aktywatora Kultura, Etyka i Zachowanie leży ta deklaracja?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 79
-        }
-      ],
-      "status": "oficjalne",
-      "pretest": true,
-      "opcje": [
-        {
-          "tekst": "Na poziomie wartości całej organizacji",
-          "poprawna": true,
-          "wyjasnienie": "To etyka organizacyjna (s. 79)."
-        },
-        {
-          "tekst": "Na poziomie osobistych wartości jednego pracownika",
-          "poprawna": false,
-          "wyjasnienie": "To etyka indywidualna.",
-          "zycie": "W życiu to tak, jakbyś zasadę całej rodziny „nie kłamiemy” uznał za prywatne przekonanie jednego dziecka."
-        },
-        {
-          "tekst": "Na poziomie pojedynczego zachowania dyżurnego",
-          "poprawna": false,
-          "wyjasnienie": "To zachowanie indywidualne.",
-          "zycie": "W życiu to tak, jakbyś zasadę całej rodziny „nie kłamiemy” pomylił z tym, że Tomek dziś powiedział prawdę."
-        }
-      ]
-    },
-    {
-      "id": "q-en-06-01",
-      "typ": "klasyfikacja",
-      "sylabus": [
-        "EN-02-15"
-      ],
-      "lekcja": "en-06-kultura",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Etyka organizacyjna, etyka indywidualna czy zachowanie indywidualne?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 79
-        }
-      ],
-      "status": "oficjalne",
-      "kategorie": [
-        "Etyka organizacyjna",
-        "Etyka indywidualna",
-        "Zachowanie indywidualne"
-      ],
-      "elementy": [
-        {
-          "tekst": "Komenda deklaruje: „Działamy jawnie i uczciwie wobec obywateli”",
-          "kategoria": "Etyka organizacyjna",
-          "wyjasnienie": "Wartości, w oparciu o które organizacja chce działać."
-        },
-        {
-          "tekst": "Przekonania strażaka wynikające z wychowania i doświadczeń",
-          "kategoria": "Etyka indywidualna",
-          "wyjasnienie": "Osobiste wartości."
-        },
-        {
-          "tekst": "Dyżurny zgłasza własny błąd w karcie zdarzenia",
-          "kategoria": "Zachowanie indywidualne",
-          "wyjasnienie": "Zachowanie wobec negatywnych wyników."
-        },
-        {
-          "tekst": "Pracownik obchodzi politykę haseł, zapisując hasło na kartce",
-          "kategoria": "Zachowanie indywidualne",
-          "wyjasnienie": "Zachowanie wobec przestrzegania polityk."
-        }
-      ]
-    },
-    {
-      "id": "q-en-06-02",
-      "typ": "studium",
-      "sylabus": [
-        "EN-02-14"
-      ],
-      "lekcja": "en-06-kultura",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Które działanie jest dobrą praktyką aktywatora Kultura, Etyka i Zachowanie?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 80
-        }
-      ],
-      "status": "oficjalne",
-      "opcje": [
-        {
-          "tekst": "Najbardziej szanowani dowódcy publicznie omawiają swoje błędy i zachęcają do tego innych",
-          "poprawna": true,
-          "wyjasnienie": "Przykład kierownictwa i osoby wspierające budują świadomość pożądanych zachowań (s. 80)."
-        },
-        {
-          "tekst": "Rozszerzenie zakresu kontroli kierownika SK",
-          "poprawna": false,
-          "wyjasnienie": "To praktyka struktur.",
-          "zycie": "W życiu to tak, jakbyś chcąc nauczyć dzieci szczerości, poszerzył tylko władzę starszego brata.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Zdefiniowanie wymagań umiejętności dla roli dyżurnego",
-          "poprawna": false,
-          "wyjasnienie": "To aktywator Ludzie.",
-          "zycie": "W życiu to tak, jakbyś chcąc nauczyć dzieci szczerości, spisał, co każde musi umieć w kuchni.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Stworzenie repozytorium architektury",
-          "poprawna": false,
-          "wyjasnienie": "To aktywator Usługi.",
-          "zycie": "W życiu to tak, jakbyś chcąc nauczyć dzieci szczerości, kupił nową szafkę na dokumenty.",
-          "pulapka": "inna-kategoria"
-        }
-      ],
-      "scenariusz": "Komenda chce, żeby dyżurni zaczęli zgłaszać własne pomyłki."
-    },
-    {
       "id": "q-en-06-03",
       "typ": "studium",
       "sylabus": [
@@ -1544,53 +1031,6 @@
           "pulapka": "inna-kategoria"
         }
       ]
-    },
-    {
-      "id": "q-en-06-04",
-      "typ": "studium",
-      "sylabus": [
-        "EN-02-16"
-      ],
-      "lekcja": "en-06-kultura",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Co podręcznik wskazuje jako bardzo ważny mechanizm przekazywania wartości i pożądanego zachowania?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 80
-        }
-      ],
-      "status": "oficjalne",
-      "opcje": [
-        {
-          "tekst": "Spisanie ich w zasadach i politykach komendy",
-          "poprawna": true,
-          "wyjasnienie": "Zasady i polityki to bardzo ważny mechanizm komunikowania wartości i zachowań (s. 80)."
-        },
-        {
-          "tekst": "Zmiana składu komitetów",
-          "poprawna": false,
-          "wyjasnienie": "To praktyka struktur.",
-          "zycie": "W życiu to tak, jakbyś chcąc przekazać dzieciom wartości, zmieniał tylko, kto siedzi przy rodzinnej naradzie.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Opracowanie nowych produktów pracy w procesach",
-          "poprawna": false,
-          "wyjasnienie": "To wejścia i wyjścia procesów.",
-          "zycie": "W życiu to tak, jakbyś chcąc przekazać dzieciom wartości, zmieniał listę zakupów i przepisy.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Zakup nowego systemu łączności",
-          "poprawna": false,
-          "wyjasnienie": "To aktywator Usługi.",
-          "zycie": "W życiu to tak, jakbyś chcąc przekazać dzieciom wartości, kupił im nowe telefony.",
-          "pulapka": "inna-kategoria"
-        }
-      ],
-      "scenariusz": "Nowy komendant chce, żeby wartości komendy („jawność, bezpieczeństwo ratowników”) znali i stosowali wszyscy."
     },
     {
       "id": "q-en-06-05",
@@ -1805,53 +1245,6 @@
       ]
     },
     {
-      "id": "q-en-07-03",
-      "typ": "studium",
-      "sylabus": [
-        "EN-02-17"
-      ],
-      "lekcja": "en-07-informacja",
-      "bloom": "zastosowanie",
-      "trudnosc": 2,
-      "tresc": "Które kryterium jakości informacji jest tu **niespełnione**?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 82
-        }
-      ],
-      "status": "oficjalne",
-      "scenariusz": "Dowódca akcji dostaje na tablet dane o hydrantach. Współrzędne są poprawne, ale dane pochodzą sprzed 3 lat i nie uwzględniają hydrantów zlikwidowanych w zeszłym roku.",
-      "opcje": [
-        {
-          "tekst": "Dokładność",
-          "poprawna": false,
-          "wyjasnienie": "Współrzędne istniejących hydrantów są poprawne. Problem leży gdzie indziej.",
-          "zycie": "W życiu to tak, jakbyś narzekał na dokładność starej mapy, choć brakuje na niej tylko nowych ulic.",
-          "pulapka": "prawda-nie-na-temat"
-        },
-        {
-          "tekst": "Aktualność",
-          "poprawna": true,
-          "wyjasnienie": "Informacje nie są wystarczająco aktualne do zadania (jakość kontekstowa)."
-        },
-        {
-          "tekst": "Ograniczony dostęp",
-          "poprawna": false,
-          "wyjasnienie": "Problem nie dotyczy dostępu.",
-          "zycie": "W życiu to tak, jakbyś przy nieaktualnej mapie winił to, że trzymasz ją pod kluczem.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Reputacja",
-          "poprawna": false,
-          "wyjasnienie": "Źródło nie jest kwestionowane.",
-          "zycie": "W życiu to tak, jakbyś przy nieaktualnej mapie winił wydawnictwo, które od lat jest wiarygodne.",
-          "pulapka": "prawda-nie-na-temat"
-        }
-      ]
-    },
-    {
       "id": "q-en-07-04",
       "typ": "egzamin",
       "sylabus": [
@@ -1894,53 +1287,6 @@
           "poprawna": false,
           "wyjasnienie": "To decyzja Ładu.",
           "zycie": "W życiu to tak, jakbyś spis domowych dokumentów wziął za rodzinną decyzję, ile ryzyka podjąć przy budowie domu.",
-          "pulapka": "inna-kategoria"
-        }
-      ]
-    },
-    {
-      "id": "q-en-07-05",
-      "typ": "egzamin",
-      "sylabus": [
-        "EN-02-17"
-      ],
-      "lekcja": "en-07-informacja",
-      "bloom": "rozumienie",
-      "trudnosc": 3,
-      "tresc": "Dyżurny dostał raport, na podstawie którego od razu może zadysponować siły, bo informacja spełnia jego potrzebę. Który opis odpowiada kryterium COBIT 4.1, które jest tu spełnione (Załącznik F)?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 63,
-          "ilustracja": "26"
-        }
-      ],
-      "status": "oficjalne",
-      "opcje": [
-        {
-          "tekst": "Kryterium, któremu w COBIT 5 odpowiadają m.in. istotność, właściwa ilość i jasność przekazu",
-          "poprawna": true,
-          "wyjasnienie": "To skuteczność (Rysunek 26)."
-        },
-        {
-          "tekst": "Kryterium oznaczające, że informacja jest wolna od błędów i kompletna",
-          "poprawna": false,
-          "wyjasnienie": "To integralność.",
-          "zycie": "W życiu to tak, jakbyś pytany, czy przepis się przydał, odpowiadał, że nie ma w nim literówek.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Kryterium dotyczące małego nakładu na uzyskanie informacji",
-          "poprawna": false,
-          "wyjasnienie": "To wydajność.",
-          "zycie": "W życiu to tak, jakbyś pytany, czy przepis się przydał, odpowiadał, że szybko go znalazłeś.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Kryterium ograniczenia dostępu do uprawnionych",
-          "poprawna": false,
-          "wyjasnienie": "To poufność.",
-          "zycie": "W życiu to tak, jakbyś pytany, czy przepis się przydał, odpowiadał, że zna go tylko babcia.",
           "pulapka": "inna-kategoria"
         }
       ]
@@ -2071,47 +1417,6 @@
       ]
     },
     {
-      "id": "q-en-08-02",
-      "typ": "dopasowanie",
-      "sylabus": [
-        "EN-02-20"
-      ],
-      "lekcja": "en-08-uslugi",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Dopasuj decyzję komendy do pryncypium architektury.",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 86
-        }
-      ],
-      "status": "uproszczenie",
-      "pary": [
-        {
-          "lewa": "Wspólna baza obiektów dla SK i prewencji",
-          "prawa": "Ponowne wykorzystanie"
-        },
-        {
-          "lewa": "Jeden ekran dla dyżurnego zamiast pięciu programów",
-          "prawa": "Prostota"
-        },
-        {
-          "lewa": "Otwarty format wymiany danych z CPR 112",
-          "prawa": "Otwartość"
-        },
-        {
-          "lewa": "Moduły łatwe do zmiany po nowych wytycznych",
-          "prawa": "Zwinność"
-        },
-        {
-          "lewa": "Gotowy system zamiast pisania własnego",
-          "prawa": "Nabywanie"
-        }
-      ],
-      "wyjasnienie": "Pięć pryncypiów architektury (s. 86)."
-    },
-    {
       "id": "q-en-08-03",
       "typ": "egzamin",
       "sylabus": [
@@ -2154,46 +1459,6 @@
           "wyjasnienie": "To odrębny aktywator.",
           "zycie": "W życiu to tak, jakbyś pralkę uznał za członka rodzinnej narady.",
           "pulapka": "inna-kategoria"
-        }
-      ]
-    },
-    {
-      "id": "q-en-08-04",
-      "typ": "klasyfikacja",
-      "sylabus": [
-        "EN-02-20"
-      ],
-      "lekcja": "en-08-uslugi",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Architektura referencyjna, docelowa czy przejściowa?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 85
-        }
-      ],
-      "status": "oficjalne",
-      "kategorie": [
-        "Referencyjna (bazowa)",
-        "Docelowa",
-        "Przejściowa"
-      ],
-      "elementy": [
-        {
-          "tekst": "Obecny system SK i łączność, z których dziś korzysta komenda",
-          "kategoria": "Referencyjna (bazowa)",
-          "wyjasnienie": "Opis obecnej zdolności usługowej."
-        },
-        {
-          "tekst": "Planowany za 3 lata zintegrowany system z CPR 112",
-          "kategoria": "Docelowa",
-          "wyjasnienie": "Przyszła zdolność."
-        },
-        {
-          "tekst": "Etap, w którym stary i nowy system działają równolegle przez 3 miesiące",
-          "kategoria": "Przejściowa",
-          "wyjasnienie": "Etap pośredni."
         }
       ]
     },
@@ -2359,7 +1624,7 @@
       "lekcja": "en-09-ludzie",
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Do której domeny procesów należy kategoria umiejętności **zarządzanie dostępnością**?",
+      "tresc": "Do której domeny procesów należy kategoria umiejętności **zarządzanie dostępnością** według Rysunku 39?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -2372,7 +1637,7 @@
         {
           "tekst": "BAI",
           "poprawna": false,
-          "wyjasnienie": "BAI ma zarządzanie POJEMNOŚCIĄ. To pułapka podobnych nazw.",
+          "wyjasnienie": "Proces BAI04 obejmuje zarówno dostępność, jak i pojemność, ale pytanie rozstrzyga Rysunek 39 (s. 88): zarządzanie dostępnością stoi tam przy DSS, a zarządzanie pojemnością przy BAI.",
           "zycie": "W życiu to tak, jakbyś „czy sklep jest otwarty” pomylił z „ile towaru zmieści się w magazynie”.",
           "pulapka": "odwrocone"
         },
@@ -2393,53 +1658,6 @@
           "poprawna": false,
           "wyjasnienie": "MEA to monitorowanie.",
           "zycie": "W życiu to tak, jakbyś pilnowanie, by sklep był otwarty, przypisał kontrolerowi, który go ocenia.",
-          "pulapka": "inna-kategoria"
-        }
-      ]
-    },
-    {
-      "id": "q-en-09-04",
-      "typ": "studium",
-      "sylabus": [
-        "EN-02-22"
-      ],
-      "lekcja": "en-09-ludzie",
-      "bloom": "zastosowanie",
-      "trudnosc": 2,
-      "tresc": "Które działanie jest zgodne z cyklem życia umiejętności według COBIT 5?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 87
-        }
-      ],
-      "status": "oficjalne",
-      "scenariusz": "Komenda zautomatyzowała część ręcznego przepisywania danych z CPR 112. Dwóch pracowników zajmowało się tym na pełen etat.",
-      "opcje": [
-        {
-          "tekst": "Nic nie robić, umiejętności nie mają cyklu życia",
-          "poprawna": false,
-          "wyjasnienie": "Mają cykl życia.",
-          "zycie": "W życiu to tak, jakbyś uważał, że obsługa magnetowidu przyda się zawsze, bez względu na sprzęt w domu.",
-          "pulapka": "falsz"
-        },
-        {
-          "tekst": "Ocenić bazę umiejętności, zaplanować przekwalifikowanie i uznać, że ta umiejętność przestaje być potrzebna",
-          "poprawna": true,
-          "wyjasnienie": "Cykl życia obejmuje okresową ocenę, rozwijanie i pozbywanie się umiejętności, np. po automatyzacji (s. 87)."
-        },
-        {
-          "tekst": "Zatrudnić kolejne osoby do przepisywania danych",
-          "poprawna": false,
-          "wyjasnienie": "Sprzeczne z automatyzacją.",
-          "zycie": "W życiu to tak, jakbyś po kupnie zmywarki zatrudnił jeszcze jedną osobę do ręcznego zmywania.",
-          "pulapka": "falsz"
-        },
-        {
-          "tekst": "Zmienić pryncypia architektury",
-          "poprawna": false,
-          "wyjasnienie": "To inny aktywator.",
-          "zycie": "W życiu to tak, jakbyś po kupnie zmywarki zamiast uczyć domowników przemeblował całą kuchnię.",
           "pulapka": "inna-kategoria"
         }
       ]

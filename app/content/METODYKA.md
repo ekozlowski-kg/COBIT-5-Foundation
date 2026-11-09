@@ -878,7 +878,7 @@ Pełny standard (SD, §17) nie mieści się w 5 dniach. Dzień 1 miał 261 slajd
 ### 18.2 Plan dni
 | Dzień | Tytuł | Lekcje (`dzien`) | Slajdy (stan 2026-11-08) |
 |---|---|---|---|
-| **0** | Start i podstawy cyfrowe | IT0 0A.1–0A.10, M0 0.0 „Zanim zaczniesz” | ≈ 80 (IT0 w toku) |
+| **0** | Start: po co jest COBIT 5 | M0 0.0 „Zanim zaczniesz” (IT0 wyłączony 2026-11-08 na prośbę użytkownika – `content/_archiwum/it0/`) | ≈ 15 |
 | **1** | Organizacja po ludzku | M0 0.1–0.6 | 95 |
 | **2** | COBIT na tle świata i pierwsze zasady | M0 0.7–0.9, PR 1.1–1.2, EX 9.0 „Jak czytać pytanie” | 97 |
 | **3** | Kaskada celów i zasady 2–4 | PR 1.3–1.8 | 100 |

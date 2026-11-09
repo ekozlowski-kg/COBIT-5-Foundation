@@ -1,8 +1,8 @@
 {
   "id": "wytyczne-isaca",
-  "en": "Prior ISACA guidance (COBIT 4.1, Val IT, Risk IT, BMIS, ITAF)",
-  "wymowa": "prajer ajsaka gajdens",
-  "wymowaAkcent": "PRAJ-er AJ-sa-ka GAJ-dens",
+  "en": "Existing ISACA guidance (COBIT 4.1, Val IT, Risk IT, BMIS, ITAF)",
+  "wymowa": "egzisting ajsaka gajdens",
+  "wymowaAkcent": "eg-ZIS-ting AJ-sa-ka GAJ-dens",
   "plEgzamin": "Obecne wytyczne ISACA",
   "plPodrecznik": "Obecne wytyczne ISACA (Ilustracja 10)",
   "plInne": [
@@ -39,8 +39,8 @@
   "przyklady": {
     "zycie": "Masz trzy stare zeszyty: z przepisami na ciasta, z domowym budżetem i z listą awarii w mieszkaniu. Przepisujesz je do jednego nowego notesu, a stare chowasz do szuflady. Stare zeszyty to „wcześniejsze wytyczne”, nowy notes to COBIT 5.",
     "biuro": "Kancelaria miała trzy stare instrukcje: archiwizacji, obiegu pism i ochrony danych. Nowa instrukcja kancelaryjna łączy je w jedną, a stare uchyla.",
-    "organizacja": "Firma miała osobne regulaminy: zakupowy, bezpieczeństwa i audytu, każdy od innego działu. Nowy dyrektor łączy je w jeden regulamin firmowy, w którym nic nie ginie. Stare regulaminy przestają być potrzebne osobno.\n\nGmina miała trzy stare zarządzenia wójta: o sprzęcie, o kontroli wewnętrznej i o ryzyku. Nowe zarządzenie łączy je w jedno i uchyla poprzednie. Tak COBIT 5 wchłonął Val IT, Risk IT i inne materiały ISACA.",
-    "psp": "**Stare wydruki w szafie** Kpt. Marek Sikora znajduje w szafie wydruki COBIT 4.1, Val IT i Risk IT, które kupił poprzedni naczelnik. St. ogn. Kasia Nowik pyta, czy musi je czytać. Sikora odpowiada, że COBIT 5 zawiera całą tę wiedzę, a jego model procesów łączy COBIT 4.1, Val IT i Risk IT. To wcześniejsze wytyczne ISACA zintegrowane w COBIT 5.",
+    "organizacja": "Firma miała osobne regulaminy: zakupowy, bezpieczeństwa i audytu, każdy od innego działu. Nowy dyrektor łączy je w jeden regulamin firmowy, w którym nic nie ginie. Stare regulaminy przestają być potrzebne osobno.",
+    "admin": "Gmina miała trzy stare zarządzenia wójta: o sprzęcie, o kontroli wewnętrznej i o ryzyku. Nowe zarządzenie łączy je w jedno i uchyla poprzednie. Tak COBIT 5 wchłonął Val IT, Risk IT i inne materiały ISACA.",
     "it": "Model referencyjny procesów COBIT 5 łączy modele COBIT 4.1, Val IT i Risk IT (s. 33). Dlatego wartość i ryzyko IT opisują procesy z 37, np. EDM02 i EDM03, a nie osobne ramy."
   },
   "nieMylicZ": [
@@ -57,7 +57,7 @@
       "roznica": "Wytyczne ISACA to jedno z trzech wejść do bazy wiedzy, a nie sama baza."
     }
   ],
-  "przykladWypowiedzi": "COBIT 5 integrates prior ISACA guidance, czyli wcześniejsze wytyczne ISACA, np. Val IT i Risk IT. Z ITIL jest tylko aligned, czyli dopasowany.",
+  "przykladWypowiedzi": "COBIT 5 integrates existing ISACA guidance, czyli wcześniejsze wytyczne ISACA (w podręczniku: „Obecne wytyczne ISACA”), np. Val IT i Risk IT. Z ITIL jest tylko aligned, czyli dopasowany.",
   "egzamin": "COBIT 5 integruje wytyczne **ISACA**: COBIT 4.1, **Val IT**, **Risk IT**, BMIS, ITAF i Board Briefing. ITIL, TOGAF i normy ISO to **inne standardy**: COBIT 5 się z nimi dopasowuje, ale ich nie wchłania.",
   "powiazane": [
     "integrator",
@@ -100,7 +100,7 @@
   "mapa": "wytyczne-isaca",
   "glebokosc": {
     "prosty": "Wydawca miał kilka cienkich książeczek: o pieniądzach, o ryzyku, o kontroli. Wydał jedną grubą książkę, która zawiera je wszystkie. Cienkie książeczki to „wcześniejsze wytyczne”. Nie musisz już ich zbierać.",
-    "zaawansowany": "Księgowa Halina Mak pyta, gdzie w COBIT 5 jest wiedza o wartości z inwestycji. Sikora odpowiada, że to spadek po Val IT, a ryzyko IT to spadek po Risk IT. Model procesów COBIT 5 łączy modele COBIT 4.1, Val IT i Risk IT. Dlatego COBIT 5 jako [[integrator]] nie wymaga osobnych podręczników ISACA. Inne standardy, np. [[itil|ITIL]], zostają osobne i tylko się z nim zgrywają.",
+    "zaawansowany": "Dyrektor finansowy pyta, gdzie w COBIT 5 jest wiedza o wartości z inwestycji. Dyrektor IT odpowiada, że to spadek po Val IT, a ryzyko IT to spadek po Risk IT. Model procesów COBIT 5 łączy modele COBIT 4.1, Val IT i Risk IT. Dlatego COBIT 5 jako [[integrator]] nie wymaga osobnych podręczników ISACA. Inne standardy, np. [[itil|ITIL]], zostają osobne i tylko się z nim zgrywają.",
     "skrajny": "Na liście „Które wytyczne ISACA zintegrował COBIT 5?” stoją Val IT, Risk IT, ITIL i BMIS. ITIL kusi, bo COBIT 5 też go „łączy”. Ale ITIL nie jest wytyczną ISACA. COBIT 5 tylko się z nim **dopasowuje**, tak jak z TOGAF i normami ISO. Ciekawostka: TGF (*Taking Governance Forward*) też był materiałem ISACA. Jego pojęcia włączono do COBIT 5, a sam TGF wycofano. **Rozstrzygnięcie:** wytyczne ISACA (np. Val IT, Risk IT, BMIS, ITAF, TGF) COBIT 5 zawiera w sobie; ITIL, TOGAF i ISO tylko z nim współgrają."
   },
   "zagmatwania": [

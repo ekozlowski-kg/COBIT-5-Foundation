@@ -16,7 +16,7 @@
   "pulapka": true,
   "pulapkaOpis": "Nazwy ról: egzamin „Organ Ładu i nadzoru” / „Kierownictwo” / „Role operacyjne”; podręcznik „Organ nadzorujący” / „Zarządzanie” / „Eksploatacja i wykonanie”.",
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "system-ladu",
@@ -26,7 +26,7 @@
   "poLudzku": "Kto komu zleca, kto kogo kieruje, kto przed kim się rozlicza, od właścicieli po wykonawców.",
   "wyobrazSobie": "Jak klub sportowy: członkowie wybierają zarząd i rozliczają go na zebraniu, zarząd wyznacza trenerowi cel sezonu i sprawdza jego wyniki, trener prowadzi zawodników, a zawodnicy meldują mu, co zrobili.",
   "poCo": "Żeby było jasne, kto w systemie Ładu deleguje władzę, kto wyznacza kierunek, kto go realizuje, kto raportuje i przed kim każdy się rozlicza.",
-  "jakDziala": "Interesariusze (owners and stakeholders) delegują (delegate) władzę organowi Ładu (governing body), który jest przed nimi rozliczany (accountable). Organ Ładu wyznacza kierunek (set direction) kierownictwu (management), a kierownictwo instruuje i dopasowuje (instruct and align) role operacyjne (operations and execution), które raportują (report) do kierownictwa. Na Ilustracji 9 relacja monitorowania (monitor) należy do kierownictwa: jest ono monitorowane, a organ Ładu sprawdza w ten sposób realizację wyznaczonego kierunku.",
+  "jakDziala": "Interesariusze (owners and stakeholders) delegują (delegate) władzę organowi Ładu (governing body), który jest przed nimi rozliczany (accountable). Organ Ładu wyznacza kierunek (set direction) kierownictwu (management), a kierownictwo instruuje i dopasowuje (instruct and align) role operacyjne (operations and execution), które raportują (report) do kierownictwa. Strzałka monitorowania (monitor) na Ilustracji 9 łączy kierownictwo z organem Ładu; według uzasadnień egzaminacyjnych to kierownictwo odpowiada wykonawczo za monitorowanie.",
   "dlaczegoWazne": "To czwarty komponent Podejścia do Ładu (zasada 2, „Pokrycie całej organizacji”) i częsty temat pytań: trzeba przypisać właściwe działanie lub relację do roli, np. interesariusze tylko delegują, a role operacyjne raportują. Pomaga też nie mylić ogólnych relacji z Ilustracji 9 z tabelą RACI.",
   "skadNazwa": "Nazwy ról różnią się: egzamin mówi „Organ Ładu i nadzoru”, „Kierownictwo”, „Role operacyjne”, a podręcznik „Organ nadzorujący”, „Zarządzanie”, „Eksploatacja i wykonanie”.",
   "poziom1": "Kto uczestniczy w Ładzie i jak te osoby są ze sobą połączone (jak we wspólnocie mieszkaniowej: mieszkańcy, zarząd, administrator, firmy wykonawcze). Interesariusze delegują, organ Ładu wyznacza kierunek i jest rozliczany, kierownictwo instruuje i jest monitorowane, role operacyjne raportują.",
@@ -37,12 +37,11 @@
     "biuro": "Właściciele firmy powierzają prowadzenie biura dyrektorowi i rozliczają go raz w roku. Dyrektor wyznacza kierunek: „w tym roku przechodzimy na dokumenty elektroniczne”, kierowniczka biura rozdziela zadania sekretarkom i jest przez dyrektora sprawdzana, a sekretarki co piątek raportują jej, ile teczek zeskanowały.",
     "firma": "Właściciele spółki prowadzącej trzy piekarnie wybierają radę nadzorczą i co roku ją rozliczają. Rada wyznacza kierunek: „otwieramy czwarty punkt, ale bez kredytu”. Zarząd rozdziela zadania kierownikom sklepów i jest przez radę pilnowany, a kierownicy co tydzień raportują sprzedaż.",
     "admin": "Mieszkańcy w wyborach powierzają władzę radzie gminy i wójtowi, a potem rozliczają ich przy urnie. Rada i wójt wyznaczają kierunek: w tym roku e-usługi. Sekretarz i kierownicy wydziałów rozdzielają zadania urzędnikom i są z tego sprawdzani, a urzędnicy raportują, ile spraw załatwili.",
-    "psp": "Społeczeństwo i nadzór (KW PSP, KG PSP) powierzają komendę komendantowi powiatowemu i rozliczają go z gotowości operacyjnej. Komendant wyznacza kierunek: w tym roku wymiana aparatów ODO i nowa procedura SK. Naczelnicy i kierownik SK rozdzielają zadania i są z nich sprawdzani, a dyżurni i informatycy raportują, co zrobili.",
     "it": "Rada nadzorcza jako organ Ładu w procesie EDM01 (Zapewnienie i utrzymanie ładu korporacyjnego) wyznacza kierunek dla IT i monitoruje jego realizację. CIO i kierownicy IT (kierownictwo) instruują zespoły IT, a zespoły raportują im wyniki pracy w procesach DSS; akcjonariusze delegują władzę radzie i rozliczają ją."
   },
   "glebokosc": {
     "prosty": "We wspólnocie mieszkaniowej mieszkańcy wybierają zarząd i przekazują mu decyzje. Zarząd mówi administratorowi, co ma być zrobione, a administrator zleca to firmom. Firmy raportują administratorowi, administrator zdaje sprawę zarządowi, a zarząd rozlicza się przed mieszkańcami na zebraniu.",
-    "zaawansowany": "Interesariusze komendy delegują Ład bryg. Wrzos, która jest [[organ-ladu|organem Ładu]]. Komendantka wyznacza kierunek kpt. Sikorze: „Syrena ma działać bez przerw”. Sikora jako Kierownictwo instruuje mł. kpt. Dudek i dopasowuje jej pracę, a Dudek raportuje mu stan systemu. Sikora przekazuje komendantce wyniki monitorowania, a ona rozlicza się przed interesariuszami. To czwarty komponent [[system-ladu|Podejścia do Ładu]].",
+    "zaawansowany": "Akcjonariusze banku delegują Ład zarządowi, który jest [[organ-ladu|organem Ładu]]. Zarząd wyznacza kierunek dyrektorowi IT: „Bankowość mobilna ma działać bez przerw”. Dyrektor IT jako Kierownictwo instruuje administratorkę i dopasowuje jej pracę, a administratorka raportuje mu stan systemu. Dyrektor IT przekazuje zarządowi wyniki monitorowania, a zarząd rozlicza się przed interesariuszami. To czwarty komponent [[system-ladu|Podejścia do Ładu]].",
     "skrajny": "Słowo „monitorowanie” pojawia się w trzech miejscach i to myli. Na ilustracji 9 relacja „monitorowanie” należy do **Kierownictwa**: role operacyjne raportują, Kierownictwo monitoruje, a organ Ładu wyznacza kierunek i jest rozliczany – tak egzamin odpowiada na pytanie, która rola monitoruje osiąganie celów organizacji. Jednocześnie Ład też monitoruje: w EDM sprawdza sprawność i zgodność względem uzgodnionego kierunku i celów (s. 14, s. 32). W PBRM „Monitoruj” to z kolei domena MEA w Zarządzaniu. Druga pułapka: interesariusze tylko **delegują** – nie wydają poleceń Kierownictwu z pominięciem organu Ładu. **Rozstrzygnięcie:** w pytaniu o ilustrację 9 – interesariusze delegują, organ Ładu wyznacza kierunek i jest rozliczany, Kierownictwo instruuje i dopasowuje oraz monitoruje, role operacyjne raportują; to nie znaczy, że Ład niczego nie monitoruje – jego „Monitoruj” z EDM dotyczy realizacji kierunku."
   },
   "zagmatwania": [
@@ -66,8 +65,8 @@
   "mentor": {
     "czestyBlad": "Mylenie, kto komu wyznacza kierunek, a kto instruuje, oraz mieszanie relacji „monitorowanie” z ilustracji 9 (Kierownictwo) z praktyką „Monitoruj” w EDM (Ład).",
     "jakTlumaczyc": "Narysuj cztery skrzynki w rzędzie i po dwie strzałki między sąsiadami: w prawo zlecenie (deleguje, wyznacza kierunek, instruuje i dopasowuje), w lewo zwrot (rozliczany, monitorowanie, raportowanie). Opowiedz to na przykładzie wspólnoty mieszkaniowej.",
-    "pytanieKontrolne": "Komendantka sama dzwoni do mł. kpt. Dudek i mówi jej, jak skonfigurować serwer. Którą relację z ilustracji 9 to omija i dlaczego to problem?",
-    "odpowiedzKontrolna": "Organ Ładu powinien wyznaczać kierunek Kierownictwu (Sikorze), a instruowanie ról operacyjnych to zadanie Kierownictwa. Pominięcie Kierownictwa zaciera podział Ładu i Zarządzania i rozmywa odpowiedzialność."
+    "pytanieKontrolne": "Prezes sam dzwoni do administratorki i mówi jej, jak skonfigurować serwer. Którą relację z ilustracji 9 to omija i dlaczego to problem?",
+    "odpowiedzKontrolna": "Organ Ładu powinien wyznaczać kierunek Kierownictwu (dyrektorowi IT), a instruowanie ról operacyjnych to zadanie Kierownictwa. Pominięcie Kierownictwa zaciera podział Ładu i Zarządzania i rozmywa odpowiedzialność."
   },
   "nieMylicZ": [
     {

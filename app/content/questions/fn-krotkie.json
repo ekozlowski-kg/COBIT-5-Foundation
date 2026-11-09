@@ -1,0 +1,1428 @@
+{
+ "_opis": "Moduł FN – Finał (krótkie lekcje 10.10–10.17): czytanie tabel podręcznika, kaskada jako wytyczna, profil ocen, pytania z obcych źródeł, COBIT 2019, pytania przekrojowe, luka zdolności, monitorowanie. Przykłady ogólne (FORMAT-KROTKI.md).",
+ "pytania": [
+  {
+   "id": "q-fnk-10-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k10-czytanie-tabel",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Czytasz rozkład jazdy autobusu. Co sprawdzasz najpierw, zanim odczytasz godzinę odjazdu?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 18
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Która godzina odjazdu jest najwcześniejsza w ciągu dnia",
+     "poprawna": false,
+     "wyjasnienie": "To już odczyt z tabeli. Najpierw trzeba ustalić, jakiej tabeli używasz.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Ile kosztuje bilet na tę linię autobusową",
+     "poprawna": false,
+     "wyjasnienie": "Prawdziwa informacja, ale nie pomaga poprawnie przeczytać rozkładu.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Kto ułożył rozkład jazdy i kiedy go wydrukowano",
+     "poprawna": false,
+     "wyjasnienie": "Autor tabeli nie zmienia sensu godzin. To nie jest pierwsze pytanie do tabeli.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Czy tabela dotyczy dni roboczych, czy świąt",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. To pytanie „co to za tabela?”. Bez niego poprawnie odczytana godzina może dotyczyć innego dnia."
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-10-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k10-czytanie-tabel",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Analityk banku widzi w jednej tabeli cel „7”, a w drugiej cel „07”. Co powinien ustalić, zanim je porówna?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 19
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Z którego katalogu pochodzi każdy numer",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Cele organizacji i cele związane z IT mają osobne numeracje 1–17. Cel 7 to „Ciągłość i dostępność usług biznesowych”, a cel IT 07 – „Dostarczanie usług IT zgodnie z wymogami biznesowymi”."
+    },
+    {
+     "tekst": "Czy przy obu numerach stoi litera P w macierzy",
+     "poprawna": false,
+     "wyjasnienie": "Litera relacji to osobne pytanie. Najpierw trzeba wiedzieć, czego dotyczy numer.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Który z tych numerów jest wyżej w tabeli",
+     "poprawna": false,
+     "wyjasnienie": "Położenie w tabeli nie mówi, z jakiej listy pochodzi numer.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Czy oba cele wspiera dokładnie ten sam proces",
+     "poprawna": false,
+     "wyjasnienie": "To pytanie o mapowanie na procesy, a nie o to, czym są oba numery.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-10-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k10-czytanie-tabel",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Pytanie egzaminacyjne odwołuje się do Rysunku 23. Gdzie znajdziesz tę treść w polskim podręczniku COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 52
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Na Ilustracji 23 – cele związane z IT na procesy",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Egzamin mówi „Rysunek”, podręcznik – „Ilustracja”, a numer jest ten sam. Ilustracja 23 mapuje cele związane z IT na procesy."
+    },
+    {
+     "tekst": "Na Rysunku 23 – podręcznik używa tej samej nazwy",
+     "poprawna": false,
+     "wyjasnienie": "Podręcznik PL używa słowa „Ilustracja”, a nie „Rysunek”.",
+     "pulapka": "forma-podrecznikowa"
+    },
+    {
+     "tekst": "Na Ilustracji 23 – cele organizacji na cele związane z IT",
+     "poprawna": false,
+     "wyjasnienie": "To opis Ilustracji 22. Ilustracja 23 idzie krok dalej, do procesów.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "W Załączniku D – potrzeby interesariuszy a cele organizacji",
+     "poprawna": false,
+     "wyjasnienie": "Załącznik D dotyczy innego szczebla kaskady.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-10-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k10-czytanie-tabel",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Które zdanie o tabelach mapowania kaskady celów jest zgodne z COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 50
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 18
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Rysunek 22 prowadzi od celów związanych z informatyką do procesów",
+     "poprawna": false,
+     "wyjasnienie": "Tak działa Rysunek 23. Pomylony kierunek kaskady.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Rysunek 22 prowadzi od celów organizacji do celów związanych z informatyką",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Rysunek 22 (w podręczniku PL: Ilustracja 22) mapuje cele organizacji na cele związane z informatyką."
+    },
+    {
+     "tekst": "Oba katalogi celów, organizacji i związanych z informatyką, mają po 37 pozycji",
+     "poprawna": false,
+     "wyjasnienie": "Każdy z tych katalogów ma 17 celów. Liczba 37 dotyczy procesów.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Litera S w tych tabelach oznacza relację podstawową",
+     "poprawna": false,
+     "wyjasnienie": "S to relacja wspierająca, a P – podstawowa.",
+     "pulapka": "odwrocone"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-11-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-02-07"
+   ],
+   "lekcja": "fn-k11-kaskada-to-wytyczna",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Przepis podaje siedem przypraw, a Ty dodajesz cztery, bo domownicy wolą łagodne potrawy. Jak COBIT 5 patrzy na podobne postępowanie z tabelami kaskady celów?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 20
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Tabelę trzeba przepisać w całości, bo jest oficjalna",
+     "poprawna": false,
+     "wyjasnienie": "Podręcznik wprost przestrzega przed mechanicznym stosowaniem tabel.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Tabel kaskady w ogóle się nie używa w praktyce",
+     "poprawna": false,
+     "wyjasnienie": "Używa się ich, ale jako wytycznej, po dostosowaniu.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Tabelę dopasowuje się wyłącznie w małych firmach",
+     "poprawna": false,
+     "wyjasnienie": "Dostosowanie jest pierwszą czynnością w każdej organizacji.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Tabela to wytyczna, którą organizacja dopasowuje do siebie",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Podręcznik mówi, że kaskada nie zawiera uniwersalnej prawdy i trzeba ją dostosować."
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-11-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-02-07"
+   ],
+   "lekcja": "fn-k11-kaskada-to-wytyczna",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Ubezpieczyciel online zaczyna korzystać z kaskady celów COBIT 5. Co powinien zrobić jako PIERWSZĄ czynność?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 20
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Wdrożyć wszystkie procesy, które tabela łączy z jego celami",
+     "poprawna": false,
+     "wyjasnienie": "To mechaniczne użycie tabeli, przed którym ostrzega podręcznik.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Wybrać z tabeli wyłącznie cele z relacją S, bo są łatwiejsze",
+     "poprawna": false,
+     "wyjasnienie": "S to relacja wspierająca, a nie kryterium wyboru. Pomija dostosowanie.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Dostosować mapowanie, np. nadać wagi swoim celom",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Pierwszą czynnością jest dostosowanie mapowania do sytuacji organizacji."
+    },
+    {
+     "tekst": "Poczekać na audyt zewnętrzny, który wskaże właściwe cele",
+     "poprawna": false,
+     "wyjasnienie": "Audyt może dać impuls, ale nie zastępuje dostosowania kaskady.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-11-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-02-07"
+   ],
+   "lekcja": "fn-k11-kaskada-to-wytyczna",
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "tresc": "W Przykładzie 1 podręcznika organizacja dostaje z tabeli siedem celów związanych z informatyką z relacją P i wybiera cztery. Jak ocenić tę decyzję?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 21
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Jest właściwa – tabelę kaskady się dostosowuje",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Podręcznik pokazuje wybór czterech z siedmiu jako wzorcowe użycie kaskady."
+    },
+    {
+     "tekst": "Jest błędna – relacja P (Primary) oznacza cel obowiązkowy",
+     "poprawna": false,
+     "wyjasnienie": "P to relacja podstawowa, czyli silniejsze powiązanie, a nie obowiązek.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Jest dopuszczalna tylko, gdy pominięte cele mają relację S",
+     "poprawna": false,
+     "wyjasnienie": "Wszystkie siedem miało relację P, a wybór i tak był właściwy.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Jest błędna – P oznacza ocenę Pełny, więc cele są już osiągnięte",
+     "poprawna": false,
+     "wyjasnienie": "To litera P ze skali ocen egzaminu PL, a nie z macierzy kaskady.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-11-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-02-07"
+   ],
+   "lekcja": "fn-k11-kaskada-to-wytyczna",
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "tresc": "Dlaczego COBIT 5 zastrzega, że tabel kaskady NIE należy stosować mechanicznie?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 20
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Bo tabele zawierają błędy, które poprawiono dopiero w COBIT 2019",
+     "poprawna": false,
+     "wyjasnienie": "Podręcznik nie mówi o błędach. Mówi, że tabele są wytyczną.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Bo tabele dotyczą wyłącznie organizacji komercyjnych",
+     "poprawna": false,
+     "wyjasnienie": "Kaskada dotyczy każdej organizacji, także publicznej.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Bo priorytety bywają różne, a tabele pomijają wielkość i branżę",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Podręcznik podaje te powody oraz to, że podział na P i S upraszcza ciągłą skalę powiązań."
+    },
+    {
+     "tekst": "Bo mechaniczne stosowanie tabel jest zarezerwowane dla audytorów",
+     "poprawna": false,
+     "wyjasnienie": "Nikt nie powinien stosować tabel mechanicznie, także audytor.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-12-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PC-01-02"
+   ],
+   "lekcja": "fn-k12-profil-ocen-od-dolu",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Żeby zdawać na prawo jazdy kategorii C, musisz mieć ważną kategorię B. Jaką regułę COBIT 5 przypomina ten wymóg?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Wyższy poziom wymaga pełnego osiągnięcia niższego",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Każdy poziom zdolności można osiągnąć tylko wtedy, gdy w pełni uzyskano niższy poziom."
+    },
+    {
+     "tekst": "Poziom zdolności to średnia ocen wszystkich atrybutów",
+     "poprawna": false,
+     "wyjasnienie": "Model nie liczy średniej. Każdy atrybut sprawdza się osobno.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Wystarczy ocenić wyższy poziom, a niższe można pominąć",
+     "poprawna": false,
+     "wyjasnienie": "Jest odwrotnie: niższe poziomy muszą być w pełni osiągnięte.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Każdy proces musi docelowo osiągnąć poziom 5",
+     "poprawna": false,
+     "wyjasnienie": "Organizacja sama wybiera poziom docelowy. To nie jest reguła osiągania poziomu.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-12-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PC-01-02"
+   ],
+   "lekcja": "fn-k12-profil-ocen-od-dolu",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Audytorka banku ocenia proces: PA 1.1 = W, PA 2.1 = P, PA 2.2 = P. Jaki poziom zdolności ma proces?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Poziom 2, bo oba atrybuty poziomu 2 mają P",
+     "poprawna": false,
+     "wyjasnienie": "Atrybuty poziomu 2 są w porządku, ale niższy PA 1.1 nie ma P.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Poziom 0, bo PA 1.1 ma tylko ocenę W",
+     "poprawna": false,
+     "wyjasnienie": "Do poziomu 1 wystarczy W na PA 1.1.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 1",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. PA 1.1 = W wystarcza do poziomu 1, ale do poziomu 2 musiałby mieć P."
+    },
+    {
+     "tekst": "Poziom 3, bo dwie oceny P to więcej, niż wymaga poziom 2",
+     "poprawna": false,
+     "wyjasnienie": "Oceny nie sumują się. Poziom 3 wymaga innych atrybutów.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-12-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PC-01-03"
+   ],
+   "lekcja": "fn-k12-profil-ocen-od-dolu",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Raport przygotowany według skali z podręcznika PL (litery angielskie) podaje dla PA 2.2 literę P. Co ta ocena oznacza w skali egzaminu PL?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 45
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "P – Pełny",
+     "poprawna": false,
+     "wyjasnienie": "To przepisanie litery bez zmiany znaczenia. Pełny to w skali angielskiej F.",
+     "pulapka": "forma-podrecznikowa"
+    },
+    {
+     "tekst": "Relację podstawową z macierzy kaskady celów",
+     "poprawna": false,
+     "wyjasnienie": "To trzecie znaczenie litery P, z innej tabeli.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "C – Częściowy",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. W skali N/P/L/F litera P to „częściowo osiągnięto”, czyli egzaminacyjne C."
+    },
+    {
+     "tekst": "W – Większościowy",
+     "poprawna": false,
+     "wyjasnienie": "W odpowiada angielskiemu L, a nie P.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-12-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PC-01-02"
+   ],
+   "lekcja": "fn-k12-profil-ocen-od-dolu",
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "tresc": "Profil procesu: PA 1.1 = P, PA 2.1 = P, PA 2.2 = W, PA 3.1 = P, PA 3.2 = P. Jaki poziom zdolności osiąga proces?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Poziom 3, bo oba atrybuty poziomu 3 mają P",
+     "poprawna": false,
+     "wyjasnienie": "Oceny poziomu 3 nie zastąpią brakującego P na PA 2.2.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Poziom 2",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Poziom 2 jest osiągnięty, a poziom 3 blokuje PA 2.2 = W, bo wymaga P na wszystkich atrybutach poziomu 2."
+    },
+    {
+     "tekst": "Poziom 1, bo tylko PA 1.1 i PA 2.1 mają P",
+     "poprawna": false,
+     "wyjasnienie": "Na poziomie ocenianym wystarczy W, więc poziom 2 jest osiągnięty.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poziom 4, bo aż cztery atrybuty mają P",
+     "poprawna": false,
+     "wyjasnienie": "Poziomu nie liczy się z liczby ocen P.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-13-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k13-pytanie-z-internetu",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Instrukcja nowego odkurzacza jest tylko po angielsku. Jak najrozsądniej ustalić, co znaczy słowo „filter”?",
+   "zrodlo": [
+    {
+     "doc": "ALTKOM"
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Zgadnąć znaczenie z brzmienia słowa",
+     "poprawna": false,
+     "wyjasnienie": "Brzmienie bywa mylące, jak „eventually”, które znaczy „w końcu”.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Przetłumaczyć je i sprawdzić na rysunku, gdzie jest ten element",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Najpierw tłumaczenie, potem sprawdzenie w źródle – tak samo pracujesz z pytaniem z internetu."
+    },
+    {
+     "tekst": "Przyjąć pierwszą odpowiedź z forum internetowego",
+     "poprawna": false,
+     "wyjasnienie": "Odpowiedź z forum trzeba sprawdzić w źródle.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Pominąć to słowo, bo reszta instrukcji jest zrozumiała",
+     "poprawna": false,
+     "wyjasnienie": "Pominięcie nie wyjaśnia znaczenia słowa.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-13-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k13-pytanie-z-internetu",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Artykuł branżowy o bankowości pisze o „ładzie informatycznym”. Jakiej nazwy użyjesz, rozwiązując pytanie egzaminu COBIT 5 PL?",
+   "zrodlo": [
+    {
+     "doc": "ALTKOM"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Nadzór – bo tak pisze polski podręcznik",
+     "poprawna": false,
+     "wyjasnienie": "To nazwa podręcznikowa. Na egzaminie PL szukaj słowa „Ład”.",
+     "pulapka": "forma-podrecznikowa"
+    },
+    {
+     "tekst": "Zarządzanie IT – bo artykuł dotyczy informatyki",
+     "poprawna": false,
+     "wyjasnienie": "Zarządzanie (Management) to inna dziedzina niż Ład.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Ład (Governance)",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. „Ład informatyczny”, „nadzór” i „Ład” to jeden termin Governance; egzamin PL mówi „Ład”."
+    },
+    {
+     "tekst": "Ład informatyczny – to osobne pojęcie COBIT 5",
+     "poprawna": false,
+     "wyjasnienie": "To nazwa z artykułów branżowych, a nie osobny termin COBIT 5.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-13-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k13-pytanie-z-internetu",
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "tresc": "Celem procesu jest ograniczenie incydentów, a jedną z jego dobrych praktyk są szkolenia. Bank raz w roku raportuje odsetek pracowników przeszkolonych z bezpieczeństwa informacji. Jakim wskaźnikiem jest ten miernik w COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 29
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Opóźnionym – bo dotyczy minionego roku",
+     "poprawna": false,
+     "wyjasnienie": "Chwila pomiaru nie decyduje o rodzaju wskaźnika.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Następującym – bo raport powstaje po fakcie",
+     "poprawna": false,
+     "wyjasnienie": "„Następujący” to podręcznikowa nazwa wskaźnika opóźnionego, a ten miernik nim nie jest.",
+     "pulapka": "forma-podrecznikowa"
+    },
+    {
+     "tekst": "Wiodącym – mierzy stosowanie dobrej praktyki",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. O rodzaju wskaźnika decyduje to, co mierzy. Stosowanie praktyk mierzą wskaźniki wiodące."
+    },
+    {
+     "tekst": "Atrybutem zdolności procesu na poziomie 4",
+     "poprawna": false,
+     "wyjasnienie": "Atrybuty procesu to inna część modelu niż wskaźniki aktywatora.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-13-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k13-pytanie-z-internetu",
+   "bloom": "wiedza",
+   "trudnosc": 2,
+   "tresc": "Angielski quiz szkoleniowy używa słowa „enabler”. Jak przełożysz je na język egzaminu COBIT 5 PL?",
+   "zrodlo": [
+    {
+     "doc": "ALTKOM"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Na „czynnik umożliwiający”",
+     "poprawna": false,
+     "wyjasnienie": "To nazwa z podręcznika PL, a nie z arkusza egzaminacyjnego.",
+     "pulapka": "forma-podrecznikowa"
+    },
+    {
+     "tekst": "Na „komponent systemu ładu”",
+     "poprawna": false,
+     "wyjasnienie": "To pojęcie z COBIT 2019.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Na „wyznacznik interesariuszy”",
+     "poprawna": false,
+     "wyjasnienie": "Wyznacznik (driver) to inny szczebel kaskady celów.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Na „Aktywator”",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Enabler na egzaminie PL to Aktywator; podręcznik PL pisze „czynnik umożliwiający”."
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-14-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-01-02"
+   ],
+   "lekcja": "fn-k14-cobit-2019-i-dumpy",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "W instrukcji telefonu czytasz o przycisku, którego brakuje w Twoim starszym modelu. Co to najpewniej oznacza?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Że Twój telefon jest uszkodzony i wymaga naprawy",
+     "poprawna": false,
+     "wyjasnienie": "Brak przycisku w starszym modelu nie świadczy o awarii.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Że przycisk jest ukryty gdzieś w ustawieniach",
+     "poprawna": false,
+     "wyjasnienie": "To zgadywanie. Prostsze wyjaśnienie to inna wersja urządzenia.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Że w instrukcji jest zwykły błąd drukarski",
+     "poprawna": false,
+     "wyjasnienie": "Opis całego przycisku to raczej inna wersja niż literówka.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Że czytasz instrukcję innej wersji urządzenia",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Tak samo słowa z COBIT 2019 zdradzają, że czytasz o innej wersji modelu."
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-14-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-01-02"
+   ],
+   "lekcja": "fn-k14-cobit-2019-i-dumpy",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Kurs online dla pracowników banku mówi o „komponentach systemu ładu” i „40 celach Ładu i Zarządzania”. Co z tego wynika dla nauki do egzaminu COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "To COBIT 5 opisany nowszymi słowami",
+     "poprawna": false,
+     "wyjasnienie": "To inny model z innymi pojęciami.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Kurs opisuje COBIT 2019 – trzeba szukać odpowiedników z COBIT 5",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Komponenty i 40 celów to pojęcia COBIT 2019. W COBIT 5 są 7 kategorii aktywatorów i 37 procesów."
+    },
+    {
+     "tekst": "Komponenty to inna nazwa 37 procesów COBIT 5",
+     "poprawna": false,
+     "wyjasnienie": "Komponenty COBIT 2019 odpowiadają raczej aktywatorom, a liczby się różnią.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "To nazwy z polskiego arkusza egzaminacyjnego",
+     "poprawna": false,
+     "wyjasnienie": "Arkusz COBIT 5 PL nie używa tych pojęć.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-14-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-01-02"
+   ],
+   "lekcja": "fn-k14-cobit-2019-i-dumpy",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Która z poniższych jest jedną z siedmiu kategorii aktywatorów COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Czynniki projektowe systemu ładu",
+     "poprawna": false,
+     "wyjasnienie": "To pojęcie z COBIT 2019.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Obszary koncentracji systemu ładu",
+     "poprawna": false,
+     "wyjasnienie": "To również pojęcie z COBIT 2019.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Cele Ładu i Zarządzania",
+     "poprawna": false,
+     "wyjasnienie": "40 celów Ładu i Zarządzania to COBIT 2019, a nie kategoria aktywatora.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Informacja",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Informacja to jedna z siedmiu kategorii aktywatorów (czynników umożliwiających)."
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-14-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-01-02"
+   ],
+   "lekcja": "fn-k14-cobit-2019-i-dumpy",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Ile procesów zawiera model referencyjny procesu COBIT 5?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "40",
+     "poprawna": false,
+     "wyjasnienie": "40 celów Ładu i Zarządzania to COBIT 2019.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "17",
+     "poprawna": false,
+     "wyjasnienie": "Po 17 jest celów organizacji i celów związanych z IT.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "7",
+     "poprawna": false,
+     "wyjasnienie": "Siedem to liczba kategorii aktywatorów.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "37",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Ilustracja 16 przedstawia pełny zestaw 37 procesów nadzoru i zarządzania."
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-15-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k15-pytanie-przekrojowe",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Ciasto się zapadło. Co jest najlepszym pierwszym krokiem, żeby znaleźć przyczynę?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Sprawdzić po kolei przepis, piekarnik i składniki",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Problem dzielisz na części i szukasz tej, która rozstrzyga – jak w pytaniu przekrojowym."
+    },
+    {
+     "tekst": "Od razu uznać, że zawinił stary piekarnik",
+     "poprawna": false,
+     "wyjasnienie": "To wybór jednej przyczyny bez sprawdzenia pozostałych.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Założyć, że winny jest wyłącznie przepis",
+     "poprawna": false,
+     "wyjasnienie": "Też jedna przyczyna bez sprawdzenia reszty.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Kupić następnym razem gotowe ciasto w sklepie",
+     "poprawna": false,
+     "wyjasnienie": "To unika problemu, zamiast znaleźć przyczynę.",
+     "pulapka": "prawda-nie-na-temat"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-15-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PC-01-02"
+   ],
+   "lekcja": "fn-k15-pytanie-przekrojowe",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Scenariusz: szpital po awarii systemu rejestracji ocenia zdolność procesu i ustala cel doskonalenia. Ostatnie zdanie pyta o lukę do poziomu 2. Która reguła rozstrzyga pytanie?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 38
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Definicja punktu zapalnego z fazy 1",
+     "poprawna": false,
+     "wyjasnienie": "Awaria to tło scenariusza. Pytanie dotyczy luki.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Lista siedmiu kategorii aktywatorów",
+     "poprawna": false,
+     "wyjasnienie": "Aktywatory to inny obszar niż ocena zdolności.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Reguła osiągnięcia poziomu zdolności",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Ostatnie zdanie pyta o lukę, więc rozstrzyga reguła poziomu: swoje atrybuty co najmniej W, niższe P."
+    },
+    {
+     "tekst": "Zasada oddzielenia Ładu od Zarządzania",
+     "poprawna": false,
+     "wyjasnienie": "Zasada 5 nie rozstrzyga luki zdolności.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-15-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k15-pytanie-przekrojowe",
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "tresc": "Pytanie podaje nazwę z podręcznika PL, nazwę z egzaminu PL i termin angielski, a pyta, która trójka opisuje to samo pojęcie. Jaki to rodzaj pytania mistrzowskiego?",
+   "zrodlo": [
+    {
+     "doc": "ALTKOM"
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Wstecz po kaskadzie",
+     "poprawna": false,
+     "wyjasnienie": "Ten rodzaj każe iść od procesu do celu organizacji.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Reguły oceny zdolności",
+     "poprawna": false,
+     "wyjasnienie": "Ten rodzaj dotyczy profilu liter N/C/W/P.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Prawie spełnia definicję",
+     "poprawna": false,
+     "wyjasnienie": "Ten rodzaj ukrywa brak jednego elementu definicji.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Trzy nazwy",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Pytanie o trzy nazwy sprawdza egzamin PL, podręcznik PL i angielski termin."
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-15-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k15-pytanie-przekrojowe",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Kursant zdobył 41/50 w egzaminie mistrzowskim, ale w obszarze IM ma 57%. Czy osiąga próg „Skrajnie biegły”?",
+   "zrodlo": [
+    {
+     "doc": "SYL"
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Nie – każdy obszar musi mieć co najmniej 70%",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Próg kursu to co najmniej 40/50 dwa razy z rzędu i każdy obszar co najmniej 70%."
+    },
+    {
+     "tekst": "Tak – wynik przekracza 40/50",
+     "poprawna": false,
+     "wyjasnienie": "Sam wynik ogólny nie wystarczy; obszar IM jest poniżej 70%.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Tak – obszar IM ma tylko 7 pytań, więc się nie liczy",
+     "poprawna": false,
+     "wyjasnienie": "Każdy obszar się liczy, niezależnie od liczby pytań.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Nie – próg mistrzowski wynosi aż 45/50",
+     "poprawna": false,
+     "wyjasnienie": "Próg ogólny to 40/50; zawiódł warunek obszaru.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-16-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "IM-02-05"
+   ],
+   "lekcja": "fn-k16-wdrozenie-kaskada-luka",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "W mieszkaniu od lat przecieka dach przy każdej burzy, a teraz rodzina spodziewa się dziecka. Co jest „bólem”, a co „impulsem” do remontu?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 38
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Dziecko w drodze to ból, a przeciekający dach to impuls",
+     "poprawna": false,
+     "wyjasnienie": "Role są zamienione: ból to to, co dolega od dawna.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Dach to ból, dziecko w drodze to impuls",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Ból trwa od dawna (punkt zapalny), a impuls przychodzi z nowym zdarzeniem (zdarzenie wyzwalające)."
+    },
+    {
+     "tekst": "Oba fakty to impulsy, bo oba skłaniają do remontu",
+     "poprawna": false,
+     "wyjasnienie": "Oba skłaniają do działania, ale tylko jeden jest nowym zdarzeniem.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Oba fakty to cele remontu, a nie jego przyczyny",
+     "poprawna": false,
+     "wyjasnienie": "To powody działania, a nie cele.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-16-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "IM-02-05"
+   ],
+   "lekcja": "fn-k16-wdrozenie-kaskada-luka",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Sklep internetowy co roku pada w okresie świątecznym, a teraz zapowiedziano audyt zewnętrzny. W której fazie wdrożenia rozpoznaje się oba te fakty?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 38
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "W fazie 1 „Jakie są wyznaczniki?”",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. W fazie 1 identyfikuje się punkty zapalne i czynniki inicjujące (zdarzenia wyzwalające)."
+    },
+    {
+     "tekst": "W fazie 2 „Gdzie jesteśmy teraz?” – przy ocenie stanu",
+     "poprawna": false,
+     "wyjasnienie": "Faza 2 definiuje zakres i ocenia stan obecny, gdy powód działania jest już znany.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "W fazie 6 „Czy dotarliśmy do celu?” – przy pomiarze",
+     "poprawna": false,
+     "wyjasnienie": "Faza 6 mierzy korzyści, a nie rozpoznaje powody działania.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "W fazie 7 „Jak utrzymać motywację do działania?”",
+     "poprawna": false,
+     "wyjasnienie": "Faza 7 zamyka iterację i szuka dalszych wymagań.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-16-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "IM-02-05",
+    "PC-01-02"
+   ],
+   "lekcja": "fn-k16-wdrozenie-kaskada-luka",
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "tresc": "Stan obecny procesu: PA 1.1 = P, PA 2.1 = W, PA 2.2 = C. W fazie 3 organizacja wyznacza cel: poziom 2. Jaką lukę trzeba zamknąć?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 38
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 42
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Podnieść PA 2.2 co najmniej do W",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. PA 1.1 = P i PA 2.1 = W już spełniają regułę poziomu 2. Brakuje tylko PA 2.2."
+    },
+    {
+     "tekst": "Podnieść PA 2.1 i PA 2.2 do oceny P",
+     "poprawna": false,
+     "wyjasnienie": "P jest wymagane na niższych poziomach, a nie na ocenianym.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "Najpierw podnieść PA 1.1, bo poziom 1 jest niepotwierdzony",
+     "poprawna": false,
+     "wyjasnienie": "PA 1.1 ma P, więc poziom 1 jest potwierdzony.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Żadnej – średnia ocen poziomu 2 daje ocenę W",
+     "poprawna": false,
+     "wyjasnienie": "Model nie liczy średniej; każdy atrybut sprawdza się osobno.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-16-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "IM-02-05"
+   ],
+   "lekcja": "fn-k16-wdrozenie-kaskada-luka",
+   "bloom": "rozumienie",
+   "trudnosc": 3,
+   "tresc": "Dyrektor IT chce od razu wdrożyć wszystkie 37 procesów. Co według COBIT 5 wyznacza zakres inicjatywy w fazie 2?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 38
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Pełna lista procesów z Rysunku 16",
+     "poprawna": false,
+     "wyjasnienie": "Wdrażanie wszystkich procesów naraz ignoruje kaskadę celów.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Mapowanie celów organizacji na cele związane z informatyką i procesy",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. W fazie 2 zakres definiuje się z mapowania celów, czyli z kaskady celów."
+    },
+    {
+     "tekst": "Termin zapowiedzianego audytu zewnętrznego",
+     "poprawna": false,
+     "wyjasnienie": "Audyt to zdarzenie wyzwalające, a nie źródło zakresu.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Ocena wszystkich 37 procesów na poziomie 5",
+     "poprawna": false,
+     "wyjasnienie": "Zakres nie wynika z najwyższego poziomu zdolności.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-17-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-02-14"
+   ],
+   "lekcja": "fn-k17-kto-monitoruje",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Rodzice co tydzień sprawdzają, czy wydatki na wakacje mieszczą się w budżecie, a syn sprawdza rezerwacje. Jak opisać ich sprawdzanie?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "uproszczenie",
+   "opcje": [
+    {
+     "tekst": "Sprawdzają to samo, więc jedno z nich jest zbędne",
+     "poprawna": false,
+     "wyjasnienie": "Sprawdzają różne rzeczy, więc oba sprawdzania są potrzebne.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Oboje sprawdzają: rodzice kierunek, syn wykonanie",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Tak samo Ład monitoruje kierunek, a kierownictwo – bieżące wykonanie."
+    },
+    {
+     "tekst": "Sprawdza tylko syn, a rodzice jedynie decydują o wyjeździe",
+     "poprawna": false,
+     "wyjasnienie": "Rodzice też sprawdzają – budżet i cel.",
+     "pulapka": "zbyt-waskie"
+    },
+    {
+     "tekst": "Rodzice sprawdzają rezerwacje, a syn pilnuje budżetu",
+     "poprawna": false,
+     "wyjasnienie": "Role są zamienione.",
+     "pulapka": "odwrocone"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-17-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-02-14"
+   ],
+   "lekcja": "fn-k17-kto-monitoruje",
+   "bloom": "zastosowanie",
+   "trudnosc": 2,
+   "tresc": "Zarząd banku co kwartał sprawdza, czy ryzyko IT mieści się w przyjętym apetycie na ryzyko. Jaką czynność w rozumieniu COBIT 5 wykonuje zarząd?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 32
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Monitorowanie w domenie MEA",
+     "poprawna": false,
+     "wyjasnienie": "MEA to procesy Zarządzania; zarząd sprawdza tu własny kierunek.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Monitorowanie w ramach Ładu",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Ład monitoruje sprawność i zgodność względem kierunku, który sam wyznaczył."
+    },
+    {
+     "tekst": "Planowanie w ramach Zarządzania",
+     "poprawna": false,
+     "wyjasnienie": "Zarząd niczego tu nie planuje, tylko sprawdza kierunek.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "Raportowanie właściwe rolom operacyjnym",
+     "poprawna": false,
+     "wyjasnienie": "Raportują wykonawcy, a nie organ Ładu.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-17-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-02-14"
+   ],
+   "lekcja": "fn-k17-kto-monitoruje",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Bank co kwartał sprawdza, czy osiąga cele organizacji. Kto według Rysunku 9 i uzasadnień egzaminu PL odpowiada wykonawczo za to monitorowanie?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 24
+    },
+    {
+     "doc": "SP1"
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Organ Ładu",
+     "poprawna": false,
+     "wyjasnienie": "Organ Ładu jest na Rysunku 9 rolą rozliczaną wobec interesariuszy i wyznacza kierunek; odpowiedzialność wykonawczą za monitorowanie osiągania celów egzamin PL przypisuje Kierownictwu.",
+     "pulapka": "prawda-nie-na-temat"
+    },
+    {
+     "tekst": "Właściciele i interesariusze",
+     "poprawna": false,
+     "wyjasnienie": "Oni delegują uprawnienia organowi Ładu i rozliczają go. Nie monitorują na bieżąco osiągania celów.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Kierownictwo (Zarządzanie)",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Na Rysunku 9 relacja „Monitorowanie” łączy kierownictwo z organem Ładu, a egzamin PL przypisuje kierownictwu odpowiedzialność wykonawczą za monitorowanie osiągania celów."
+    },
+    {
+     "tekst": "Role operacyjne (eksploatacja i wykonanie)",
+     "poprawna": false,
+     "wyjasnienie": "Role operacyjne wykonują pracę i raportują do kierownictwa. Za monitorowanie osiągania celów nie odpowiadają.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-17-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01",
+    "PR-02-14"
+   ],
+   "lekcja": "fn-k17-kto-monitoruje",
+   "bloom": "wiedza",
+   "trudnosc": 3,
+   "tresc": "Które zdanie o monitorowaniu w COBIT 5 jest prawdziwe?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 14
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Ład niczego nie monitoruje – robi to wyłącznie domena MEA",
+     "poprawna": false,
+     "wyjasnienie": "Definicja Ładu wprost obejmuje monitorowanie.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Monitorowanie należy wyłącznie do audytu zewnętrznego",
+     "poprawna": false,
+     "wyjasnienie": "Monitorują Ład i kierownictwo; audyt to inna rola.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Organ nadzorujący monitoruje bieżące działania operacyjne",
+     "poprawna": false,
+     "wyjasnienie": "Organ Ładu monitoruje kierunek, a bieżące wykonanie – kierownictwo.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Ład monitoruje sprawność i zgodność względem kierunku",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Definicja nadzoru (Ładu) obejmuje monitorowanie względem uzgodnionego kierunku i celów."
+    }
+   ]
+  }
+ ]
+}

@@ -10,7 +10,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Skarbnik powiatu mówi komendantce Wrzos: „Tworzenie wartości to po prostu największa korzyść za najmniejsze pieniądze”. Które sformułowanie NAJLEPIEJ oddaje cel Ładu według COBIT 5?",
+   "tresc": "Dyrektor finansowy ubezpieczyciela mówi prezesowi zarządu: „Tworzenie wartości to po prostu największa korzyść za najmniejsze pieniądze”. Które sformułowanie NAJLEPIEJ oddaje cel Ładu według COBIT 5?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -54,7 +54,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Przy każdej decyzji o „Syrenie” komendantka chce zadawać trzy pytania, które COBIT 5 wiąże z tworzeniem wartości. Które to pytania?",
+   "tresc": "Przy każdej decyzji o nowym systemie CRM zarząd chce zadawać trzy pytania, które COBIT 5 wiąże z tworzeniem wartości. Które to pytania?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -98,11 +98,15 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Komenda wojewódzka ogłasza nowe wymagania dotyczące czasu powiadamiania zastępów. W KASKADZIE CELÓW COBIT 5 ta zmiana jest przede wszystkim:",
+   "tresc": "Regulator rynku finansowego ogłasza nowe wymagania dotyczące raportowania incydentów przez banki. W KASKADZIE CELÓW COBIT 5 ta zmiana jest przede wszystkim:",
    "zrodlo": [
     {
      "doc": "FW-PL",
-     "strona": 17,
+     "strona": 17
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 18,
      "ilustracja": "4"
     }
    ],
@@ -142,7 +146,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Naczelnik Sikora twierdzi: „Kaskada celów kończy się na procesach, bo Rysunek 23 mapuje cele związane z Informatyką na procesy”. Jak to ocenić?",
+   "tresc": "Dyrektor IT (CIO) twierdzi: „Kaskada celów kończy się na procesach, bo Rysunek 23 mapuje cele związane z Informatyką na procesy”. Jak to ocenić?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -237,7 +241,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Na Rysunku 9 (kluczowe role, działania i relacje) jaka relacja łączy właścicieli i interesariuszy z organem Ładu?",
+   "tresc": "Na Rysunku 9 (kluczowe role, działania i relacje) jaka relacja łączy interesariuszy (w podręczniku: właścicieli oraz interesariuszy) z organem Ładu?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -256,7 +260,7 @@
     {
      "tekst": "Delegowanie",
      "poprawna": true,
-     "wyjasnienie": "Właściciele delegują, a organ Ładu rozlicza się przed nimi."
+     "wyjasnienie": "Interesariusze delegują, a organ Ładu rozlicza się przed nimi."
     },
     {
      "tekst": "Instruowanie i dopasowanie",
@@ -333,12 +337,8 @@
    "zrodlo": [
     {
      "doc": "FW-PL",
-     "strona": 32,
+     "strona": 33,
      "ilustracja": "16"
-    },
-    {
-     "doc": "FW-PL",
-     "strona": 33
     }
    ],
    "status": "oficjalne",
@@ -377,7 +377,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Audytorka Lis ma co kwartał sprawdzać, czy komenda spełnia wymogi zewnętrzne (przepisy, umowy z dostawcą). Który proces COBIT 5 to obejmuje?",
+   "tresc": "Audytorka wewnętrzna szpitala ma co kwartał sprawdzać, czy szpital spełnia wymogi zewnętrzne (przepisy, umowy z dostawcą). Który proces COBIT 5 to obejmuje?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -421,16 +421,16 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Komendantka Wrzos ustala apetyt na ryzyko dla systemów łączności i sprawdza, czy ryzyko IT mieści się w tej granicy. Który proces to opisuje?",
+   "tresc": "Zarząd banku ustala apetyt na ryzyko dla bankowości internetowej i sprawdza, czy ryzyko IT mieści się w tej granicy. Który proces to opisuje?",
    "zrodlo": [
     {
      "doc": "FW-PL",
-     "strona": 31,
-     "ilustracja": "16"
+     "strona": 31
     },
     {
      "doc": "FW-PL",
-     "strona": 33
+     "strona": 33,
+     "ilustracja": "16"
     }
    ],
    "status": "oficjalne",
@@ -470,7 +470,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Komenda stosuje ITIL w obsłudze zgłoszeń i ISO/IEC 27001 w bezpieczeństwie. Co według zasady 3 robi wobec nich COBIT 5?",
+   "tresc": "Ubezpieczyciel stosuje ITIL w obsłudze zgłoszeń i ISO/IEC 27001 w bezpieczeństwie. Co według zasady 3 robi wobec nich COBIT 5?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -514,24 +514,28 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Który miernik dla nowej polityki powiadamiania jest wskaźnikiem WIODĄCYM?",
+   "tresc": "Który miernik dla nowej polityki obsługi incydentów jest wskaźnikiem WIODĄCYM?",
    "zrodlo": [
     {
      "doc": "FW-PL",
-     "strona": 29,
+     "strona": 28,
      "ilustracja": "13"
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 29
     }
    ],
    "status": "oficjalne",
    "opcje": [
     {
-     "tekst": "Spadek liczby opóźnionych alarmów w kwartale po wdrożeniu",
+     "tekst": "Spadek liczby incydentów obsłużonych po terminie w kwartale po wdrożeniu",
      "poprawna": false,
      "wyjasnienie": "To efekt, czyli osiągnięcie celu. To wskaźnik opóźniony.",
      "pulapka": "odwrocone"
     },
     {
-     "tekst": "Zadowolenie dyżurnych z polityki",
+     "tekst": "Zadowolenie pracowników helpdesku z polityki",
      "poprawna": false,
      "wyjasnienie": "Dotyczy potrzeb interesariuszy, więc to wskaźnik opóźniony.",
      "pulapka": "odwrocone"
@@ -543,7 +547,7 @@
      "pulapka": "odwrocone"
     },
     {
-     "tekst": "Odsetek dyżurnych przeszkolonych z polityki przed jej wejściem w życie",
+     "tekst": "Odsetek pracowników helpdesku przeszkolonych przed startem polityki",
      "poprawna": true,
      "wyjasnienie": "Mierzy stosowanie praktyk i cykl życia, czyli przebieg. FW s. 29: to wskaźniki wiodące."
     }
@@ -654,7 +658,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Raport dla komendantki zawiera dane sprzed trzech miesięcy, choć potrzebne są bieżące. Którą kategorię jakości informacji to narusza?",
+   "tresc": "Raport dla zarządu banku zawiera dane sprzed trzech miesięcy, choć potrzebne są bieżące. Którą kategorię jakości informacji to narusza?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -697,7 +701,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Informacja pochodzi z cenionego źródła, np. z oficjalnego komunikatu komendy głównej. Ta cecha to „reputacja”. Do której kategorii jakości informacji należy?",
+   "tresc": "Informacja pochodzi z cenionego źródła, np. z oficjalnego komunikatu regulatora rynku. Ta cecha to „reputacja”. Do której kategorii jakości informacji należy?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -740,7 +744,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Ola Dudek usuwa zduplikowane rekordy i czyści dane w hurtowni zgłoszeń, żeby nadal były wartościowe. Która to faza cyklu informacji?",
+   "tresc": "Administratorka danych usuwa zduplikowane rekordy i czyści dane w hurtowni danych o klientach, żeby nadal były wartościowe. Która to faza cyklu informacji?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -826,7 +830,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Ola Dudek odpowiada za przechowywanie i utrzymanie danych w systemie „Syrena”. Do której OGÓLNEJ kategorii ról interesariuszy informacji należy?",
+   "tresc": "Dział IT odpowiada za przechowywanie i utrzymanie danych w systemie CRM. Do której OGÓLNEJ kategorii ról interesariuszy informacji należy?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -869,7 +873,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Komenda pisze dokument „Zasady łączności” i chce, żeby spełniał kryteria COBIT 5 dla ZASAD (a nie polityk). Co jest wymagane?",
+   "tresc": "Bank pisze dokument „Zasady bezpieczeństwa informacji” i chce, żeby spełniał kryteria COBIT 5 dla ZASAD (a nie polityk). Co jest wymagane?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -913,7 +917,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Nowa polityka haseł wywołuje u dyżurnych niepotrzebny opór, bo wydaje im się nielogiczna. Której cechy dobrej polityki brakuje?",
+   "tresc": "Nowa polityka haseł wywołuje u pracowników niepotrzebny opór, bo wydaje im się nielogiczna. Której cechy dobrej polityki brakuje?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -957,7 +961,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Komenda A unika ryzyka, a komenda B jest gotowa je podejmować. Co według COBIT 5 powinno z tego wynikać dla ich polityk?",
+   "tresc": "Firma A unika ryzyka, a firma B jest gotowa je podejmować. Co według COBIT 5 powinno z tego wynikać dla ich polityk?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -973,12 +977,12 @@
      "pulapka": "falsz"
     },
     {
-     "tekst": "Komenda A powinna mieć polityki bardziej restrykcyjne niż komenda B",
+     "tekst": "Firma A powinna mieć polityki bardziej restrykcyjne niż firma B",
      "poprawna": true,
      "wyjasnienie": "FW s. 68: przedsiębiorstwo niechętne ryzyku ma bardziej restrykcyjne polityki."
     },
     {
-     "tekst": "Komenda B powinna mieć polityki bardziej restrykcyjne",
+     "tekst": "Firma B powinna mieć polityki bardziej restrykcyjne",
      "poprawna": false,
      "wyjasnienie": "Odwrotnie: bardziej restrykcyjne ma ta, która unika ryzyka.",
      "pulapka": "odwrocone"
@@ -1044,7 +1048,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Komenda zebrała ogromną, poprawną bazę danych o zdarzeniach, ale nikt jej nie używa. Ile ta informacja jest warta według COBIT 5?",
+   "tresc": "Ubezpieczyciel zebrał ogromną, poprawną bazę danych o szkodach, ale nikt jej nie używa. Ile ta informacja jest warta według COBIT 5?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -1087,36 +1091,48 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Przy zakupie „Syreny” komendantka Wrzos ponosi ostateczną odpowiedzialność za decyzję. Sikora przygotowuje analizę, księgowa Mak opiniuje koszty, a dyżurni dostają informację o wyniku. Jak wygląda RACI dla tej czynności?",
+   "tresc": "Przy zakupie systemu ERP prezes ponosi ostateczną odpowiedzialność za decyzję. CIO przygotowuje analizę, dyrektor finansowy (CFO) opiniuje koszty, a kierownicy działów dostają informację o wyniku. Jak wygląda RACI dla tej czynności?",
    "zrodlo": [
     {
      "doc": "FW-PL",
-     "strona": 30
+     "strona": 89
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 90
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 92
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 93
     }
    ],
    "status": "oficjalne",
    "opcje": [
     {
-     "tekst": "Wrzos – A, Sikora – R, Mak – C, dyżurni – I",
+     "tekst": "Prezes – A, CIO – R, CFO – C, kierownicy – I",
      "poprawna": true,
-     "wyjasnienie": "A = rozliczany (ostateczna odpowiedzialność), R = odpowiedzialny (wykonuje), C = konsultowany, I = informowany (s. 30)."
+     "wyjasnienie": "A = odpowiedzialny decyzyjnie (ostateczna odpowiedzialność), R = odpowiedzialny wykonawczo (wykonuje), C = konsultant, I = informowany (słowniczek, s. 89–93)."
     },
     {
-     "tekst": "Wrzos – R, Sikora – A, Mak – C, dyżurni – I",
+     "tekst": "Prezes – R, CIO – A, CFO – C, kierownicy – I",
      "poprawna": false,
-     "wyjasnienie": "Pomylone R i A: A (rozliczany) to ostateczna odpowiedzialność, R to wykonawca.",
+     "wyjasnienie": "Pomylone R i A: A (odpowiedzialny decyzyjnie) to ostateczna odpowiedzialność, R to wykonawca.",
      "pulapka": "odwrocone"
     },
     {
-     "tekst": "Wrzos – A, Sikora – R, Mak – I, dyżurni – C",
+     "tekst": "Prezes – A, CIO – R, CFO – I, kierownicy – C",
      "poprawna": false,
-     "wyjasnienie": "Mak opiniuje, więc jest C. Dyżurni tylko dostają informację, więc są I.",
+     "wyjasnienie": "CFO opiniuje, więc jest C. Kierownicy działów tylko dostają informację, więc są I.",
      "pulapka": "odwrocone"
     },
     {
-     "tekst": "Wrzos – A, Sikora – A, Mak – C, dyżurni – I",
+     "tekst": "Prezes – A, CIO – A, CFO – C, kierownicy – I",
      "poprawna": false,
-     "wyjasnienie": "Dwie osoby rozliczane rozmywają odpowiedzialność. Sikora wykonuje (R).",
+     "wyjasnienie": "Dwie osoby z A rozmywają odpowiedzialność. CIO wykonuje (R).",
      "pulapka": "falsz"
     }
    ]
@@ -1131,7 +1147,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "W komendzie działa „Zespół ds. priorytetów IT”, który decyduje, które projekty będą realizowane. Który to aktywator?",
+   "tresc": "W banku działa „Zespół ds. priorytetów IT”, który decyduje, które projekty będą realizowane. Który to aktywator?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -1186,7 +1202,7 @@
    "status": "oficjalne",
    "opcje": [
     {
-     "tekst": "Polityka bezpieczeństwa jest formalnie zatwierdzona przez komendantkę",
+     "tekst": "Polityka bezpieczeństwa jest formalnie zatwierdzona przez zarząd banku",
      "poprawna": false,
      "wyjasnienie": "Zdanie prawdziwe, ale nie pokazuje zależności między aktywatorami.",
      "pulapka": "prawda-nie-na-temat"
@@ -1220,7 +1236,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Nowo powołani kierownicy procesów w komendzie najpierw projektują i definiują proces obsługi zgłoszeń. Później podnoszą jego poziom zdolności. Który wymiar aktywatora Procesy opisuje tę sekwencję?",
+   "tresc": "Nowo powołani kierownicy procesów w firmie ubezpieczeniowej najpierw projektują i definiują proces obsługi zgłoszeń. Później podnoszą jego poziom zdolności. Który wymiar aktywatora Procesy opisuje tę sekwencję?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -1238,7 +1254,7 @@
     {
      "tekst": "Cele",
      "poprawna": false,
-     "wyjasnienie": "Cele to mierniki procesu, a nie jego fazy.",
+     "wyjasnienie": "Cele (z powiązanymi miernikami) mówią, co proces ma osiągnąć; nie opisują jego faz.",
      "pulapka": "inna-kategoria"
     },
     {
@@ -1317,7 +1333,7 @@
    "status": "oficjalne",
    "opcje": [
     {
-     "tekst": "Nowy komendant wojewódzki",
+     "tekst": "Nowy prezes zarządu",
      "poprawna": false,
      "wyjasnienie": "Zmiana kluczowej osoby (nowy CEO, CIO) to zdarzenie wyzwalające.",
      "pulapka": "odwrocone"
@@ -1334,7 +1350,7 @@
      "pulapka": "odwrocone"
     },
     {
-     "tekst": "Połączenie dwóch komend w jedną",
+     "tekst": "Połączenie dwóch banków w jeden",
      "poprawna": false,
      "wyjasnienie": "Fuzje i przejęcia to zdarzenia wyzwalające.",
      "pulapka": "odwrocone"
@@ -1351,7 +1367,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Komenda organizuje szkolenia, komunikację i zaangażowanie liderów, żeby dyżurni zaakceptowali nowy system. Który komponent cyklu życia wdrożenia to opisuje?",
+   "tresc": "Szpital organizuje szkolenia, komunikację i zaangażowanie liderów, żeby personel zaakceptował nowy system. Który komponent cyklu życia wdrożenia to opisuje?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -1416,7 +1432,7 @@
      "pulapka": "inna-kategoria"
     },
     {
-     "tekst": "Faza 3 – Dokąd zmierzamy?",
+     "tekst": "Faza 3 – Dokąd chcemy dojść?",
      "poprawna": false,
      "wyjasnienie": "W fazie 3 określa się cel i analizuje luki.",
      "pulapka": "inna-kategoria"
@@ -1489,7 +1505,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Księgowa Mak pyta, czym ma być uzasadnienie biznesowe programu „Syrena”. Które zdanie jest zgodne z COBIT 5?",
+   "tresc": "Dyrektorka finansowa pyta, czym ma być uzasadnienie biznesowe programu wdrożenia ERP. Które zdanie jest zgodne z COBIT 5?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -1533,7 +1549,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "mistrz",
-   "tresc": "Audytorka Lis ocenia proces: PA 1.1 = W (w znacznym stopniu), PA 2.1 = P (w pełni), PA 2.2 = P (w pełni). Jaki poziom zdolności osiągnął proces?",
+   "tresc": "Audytorka wewnętrzna ocenia proces: PA 1.1 = W (Większościowy), PA 2.1 = P (Pełny), PA 2.2 = P (Pełny). Jaki poziom zdolności osiągnął proces?",
    "zrodlo": [
     {
      "doc": "FW-PL",
@@ -1635,12 +1651,12 @@
    "status": "oficjalne",
    "opcje": [
     {
-     "tekst": "C – częściowo",
+     "tekst": "C – Częściowy",
      "poprawna": true,
-     "wyjasnienie": "15–50% to ocena „częściowo” (FW s. 45: P = Partially w EN). Na egzaminie PL to C."
+     "wyjasnienie": "15–50% to ocena „Częściowy” (FW s. 45: P = Partially w EN). Na egzaminie PL to C."
     },
     {
-     "tekst": "W – w znacznym stopniu",
+     "tekst": "W – Większościowy",
      "poprawna": false,
      "wyjasnienie": "W to przedział 50–85%.",
      "pulapka": "falsz"
@@ -1648,7 +1664,7 @@
     {
      "tekst": "P – bo w skali angielskiej P oznacza „Partially”",
      "poprawna": false,
-     "wyjasnienie": "Pułapka językowa: w polskiej skali egzaminacyjnej P to „w pełni” (85–100%), a „częściowo” to C.",
+     "wyjasnienie": "Pułapka językowa: w polskiej skali egzaminacyjnej P to „Pełny” (85–100%), a „Częściowy” to C.",
      "pulapka": "forma-podrecznikowa"
     },
     {

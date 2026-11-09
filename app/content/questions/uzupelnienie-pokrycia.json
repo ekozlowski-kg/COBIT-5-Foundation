@@ -6,7 +6,7 @@
       "sylabus": [
         "M0-00-02"
       ],
-      "lekcja": "m0-02-potrzeba",
+      "lekcja": "m0-15-wyznacznik-z-czym-nie-mylic",
       "bloom": "rozumienie",
       "trudnosc": 2,
       "tresc": "Właścicielka małego salonu kosmetycznego mówi: „Od przyszłego roku przepisy wymagają faktur elektronicznych, więc musimy kupić nowy program księgowy, żeby dalej wystawiać faktury zgodnie z prawem”. Co w tej wypowiedzi jest **wyznacznikiem** w rozumieniu COBIT 5?",
@@ -51,71 +51,12 @@
       ]
     },
     {
-      "id": "q-uzup-m0-00-02-2",
-      "typ": "klasyfikacja",
-      "sylabus": [
-        "M0-00-02"
-      ],
-      "lekcja": "m0-02-potrzeba",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Potrzeba, oczekiwanie czy wyznacznik? Przyporządkuj wypowiedzi z komendy PSP i z urzędu.",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 17
-        },
-        {
-          "doc": "FW-PL",
-          "strona": 91
-        }
-      ],
-      "status": "uproszczenie",
-      "kategorie": [
-        "Potrzeba",
-        "Oczekiwanie",
-        "Wyznacznik"
-      ],
-      "elementy": [
-        {
-          "tekst": "Dyżurny: „Chcę dwa monitory zamiast jednego”",
-          "kategoria": "Oczekiwanie",
-          "wyjasnienie": "To wyobrażony sposób rozwiązania, a nie stan, który dyżurny chce osiągnąć."
-        },
-        {
-          "tekst": "Dyżurny musi widzieć mapę i status zastępów jednocześnie, bez przełączania okien",
-          "kategoria": "Potrzeba",
-          "wyjasnienie": "Stan, który ma zostać osiągnięty. Można go zaspokoić na kilka sposobów."
-        },
-        {
-          "tekst": "Komenda wojewódzka wprowadza nowe zasady dysponowania sił i środków",
-          "kategoria": "Wyznacznik",
-          "wyjasnienie": "Zmiana w otoczeniu regulacyjnym, która wywołuje zmianę potrzeb (s. 17)."
-        },
-        {
-          "tekst": "Mieszkańcy mają złożyć wniosek bez wizyty w urzędzie",
-          "kategoria": "Potrzeba",
-          "wyjasnienie": "Stan docelowy. Sposób (portal, e-mail, skrzynka podawcza) nie jest jeszcze przesądzony."
-        },
-        {
-          "tekst": "Na rynek wchodzi nowa technologia łączności, która zastępuje dotychczasowe radiotelefony",
-          "kategoria": "Wyznacznik",
-          "wyjasnienie": "Nowe technologie to jeden z czynników, które wpływają na potrzeby interesariuszy (s. 17)."
-        },
-        {
-          "tekst": "Naczelnik wydziału: „Potrzebujemy aplikacji mobilnej”",
-          "kategoria": "Oczekiwanie",
-          "wyjasnienie": "Mimo słowa „potrzebujemy” to gotowe rozwiązanie. Potrzebą byłoby np. szybkie powiadomienie ochotników."
-        }
-      ]
-    },
-    {
       "id": "q-uzup-m0-00-05-1",
       "typ": "egzamin",
       "sylabus": [
         "M0-00-05"
       ],
-      "lekcja": "m0-05-proces-projekt",
+      "lekcja": "m0-24-proces-w-cobit",
       "bloom": "wiedza",
       "trudnosc": 2,
       "tresc": "Zidentyfikuj brakujące słowa w zdaniu: „Proces to zbiór praktyk ukierunkowanych przez polityki i procedury organizacji, które wykorzystują ______, przetwarzają je i dostarczają wyniki (np. produkty, usługi)”.",
@@ -165,7 +106,7 @@
       "sylabus": [
         "M0-00-06"
       ],
-      "lekcja": "m0-06-lad-zarzadzanie",
+      "lekcja": "m0-27-lad-czym-nie-jest",
       "bloom": "rozumienie",
       "trudnosc": 2,
       "tresc": "Które działanie w urzędzie miasta jest przykładem **Ładu**?",
@@ -211,7 +152,7 @@
       "sylabus": [
         "M0-00-06"
       ],
-      "lekcja": "m0-06-lad-zarzadzanie",
+      "lekcja": "m0-27-lad-czym-nie-jest",
       "bloom": "wiedza",
       "trudnosc": 1,
       "tresc": "Kto według COBIT 5 w większości organizacji odpowiada za **Ład**?",
@@ -248,7 +189,7 @@
       "sylabus": [
         "M0-00-07"
       ],
-      "lekcja": "m0-07-cobit-standardy",
+      "lekcja": "m0-32-liczby-cobit-5",
       "bloom": "wiedza",
       "trudnosc": 2,
       "tresc": "Które stwierdzenie o nazwie i zakresie COBIT 5 jest **prawdziwe** według słownika COBIT 5 (Załącznik H)?",
@@ -341,55 +282,6 @@
           "wyjasnienie": "To czwarte pytanie (s. 29). Mierzą je wskaźniki wiodące.",
           "zycie": "W życiu to tak, jakbyś szukał obcej osoby na rodzinnym zdjęciu, a wskazał własną mamę.",
           "pulapka": "prawda-nie-na-temat"
-        }
-      ]
-    },
-    {
-      "id": "q-uzup-pr-01-05-2",
-      "typ": "klasyfikacja",
-      "sylabus": [
-        "PR-01-05"
-      ],
-      "lekcja": "pr-10-wskazniki",
-      "bloom": "zastosowanie",
-      "trudnosc": 2,
-      "tresc": "Komenda mierzy aktywator „proces przyjmowania zgłoszeń”. Który miernik jest **wskaźnikiem wiodącym**, a który **opóźnionym**?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 29
-        }
-      ],
-      "status": "uproszczenie",
-      "kategorie": [
-        "Wskaźnik wiodący",
-        "Wskaźnik opóźniony"
-      ],
-      "elementy": [
-        {
-          "tekst": "Średni czas od przyjęcia zgłoszenia do zadysponowania zastępu",
-          "kategoria": "Wskaźnik opóźniony",
-          "wyjasnienie": "Mierzy, czy osiągnięto cel aktywatora, czyli wynik (pytanie 2)."
-        },
-        {
-          "tekst": "Ocena obsługi zgłoszeń w ankiecie wśród gmin i mieszkańców",
-          "kategoria": "Wskaźnik opóźniony",
-          "wyjasnienie": "Mierzy, czy uwzględniono potrzeby interesariuszy (pytanie 1), czyli wynik."
-        },
-        {
-          "tekst": "Czy procedura przyjmowania zgłoszeń została przejrzana i zaktualizowana w terminie",
-          "kategoria": "Wskaźnik wiodący",
-          "wyjasnienie": "Dotyczy zarządzania cyklem życia (pytanie 3), czyli funkcjonowania samego aktywatora."
-        },
-        {
-          "tekst": "Odsetek dyżurnych, którzy kwalifikują zgłoszenia według ustalonych kryteriów",
-          "kategoria": "Wskaźnik wiodący",
-          "wyjasnienie": "Dotyczy stosowania dobrych praktyk (pytanie 4)."
-        },
-        {
-          "tekst": "Liczba zgłoszeń, które zaginęły bez obsługi",
-          "kategoria": "Wskaźnik opóźniony",
-          "wyjasnienie": "Pokazuje wynik działania aktywatora, czyli stopień osiągnięcia celu."
         }
       ]
     },
@@ -952,53 +844,6 @@
       ]
     },
     {
-      "id": "q-uzup-en-02-09-2",
-      "typ": "studium",
-      "sylabus": [
-        "EN-02-09"
-      ],
-      "lekcja": "en-02-procesy",
-      "bloom": "zastosowanie",
-      "trudnosc": 2,
-      "scenariusz": "Procedurę dysponowania zastępów komenda zdefiniowała w 2019 roku. Od tamtej pory nikt jej nie zmieniał. Teraz komenda wprowadziła nowy system łączności, a monitorowanie pokazuje, że dyżurni coraz częściej obchodzą procedurę, bo nie pasuje do nowego sprzętu.",
-      "tresc": "Co według cyklu życia procesu powinna teraz zrobić komenda?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 70
-        }
-      ],
-      "status": "przyklad",
-      "opcje": [
-        {
-          "tekst": "Dostosować i zaktualizować proces (albo go wycofać i zastąpić)",
-          "poprawna": true,
-          "wyjasnienie": "Proces jest definiowany, tworzony, obsługiwany, monitorowany oraz dostosowywany/aktualizowany lub wycofywany (s. 70). Monitorowanie wykazało potrzebę dostosowania."
-        },
-        {
-          "tekst": "Niczego nie zmieniać – proces raz zdefiniowany działa bez zmian",
-          "poprawna": false,
-          "wyjasnienie": "Każdy proces ma cykl życia i trzeba go dostosowywać.",
-          "zycie": "W życiu to tak, jakbyś gotował według przepisu sprzed lat, choć rodzina od dawna mówi, że nie smakuje.",
-          "pulapka": "falsz"
-        },
-        {
-          "tekst": "Rozpocząć fazę 1 cyklu wdrożenia „Jakie są wyznaczniki?”",
-          "poprawna": false,
-          "wyjasnienie": "Fazy cyklu wdrożenia dotyczą programu wdrażania Ładu, a nie cyklu życia jednego procesu.",
-          "zycie": "W życiu to tak, jakbyś przy nieudanym przepisie zaczynał od planowania remontu całej kuchni.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Od razu ocenić proces na poziom zdolności 5",
-          "poprawna": false,
-          "wyjasnienie": "Ocena zdolności mierzy proces, ale go nie aktualizuje. Poziom 5 wymaga pełnego osiągnięcia niższych poziomów.",
-          "zycie": "W życiu to tak, jakbyś przepis, który nie wychodzi, od razu ocenił na szóstkę, zamiast go poprawić.",
-          "pulapka": "inna-kategoria"
-        }
-      ]
-    },
-    {
       "id": "q-uzup-en-02-11-1",
       "typ": "egzamin",
       "sylabus": [
@@ -1041,52 +886,6 @@
           "tekst": "Zachowanie i kultura decydują o skuteczności procesów",
           "poprawna": true,
           "wyjasnienie": "„Aspekty związane z zachowaniem i kulturą determinują skuteczność realizacji procesów” (s. 71)."
-        }
-      ]
-    },
-    {
-      "id": "q-uzup-en-02-21-1",
-      "typ": "egzamin",
-      "sylabus": [
-        "EN-02-21"
-      ],
-      "lekcja": "en-08-uslugi",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Komenda chce, by wydział informatyki traktował dyżurnych jak klientów i budował kulturę ukierunkowaną na usługi. Co mówi o tym COBIT 5 w opisie relacji aktywatora Usługi, Infrastruktura i Aplikacje z innymi aktywatorami?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 86
-        }
-      ],
-      "status": "oficjalne",
-      "opcje": [
-        {
-          "tekst": "Przy budowaniu kultury usługowej istotne są aspekty zachowania i kultury",
-          "poprawna": true,
-          "wyjasnienie": "„Gdy konieczne jest zbudowanie kultury ukierunkowanej na usługi, istotne są również aspekty związane z zachowaniem i kulturą” (s. 86). To relacja z aktywatorem Kultura, Etyka i Zachowanie."
-        },
-        {
-          "tekst": "Zdolności usługowe nie mogą być danymi wejściowymi ani wynikami praktyk zarządzania",
-          "poprawna": false,
-          "wyjasnienie": "Odwrotnie: dane wejściowe i wyniki praktyk zarządzania mogą obejmować zdolności usługowe (s. 86).",
-          "zycie": "W życiu to tak, jakbyś twierdził, że prąd z gniazdka nie może być tym, co dostajesz ani czego używasz.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Wystarczy wdrożyć nowe aplikacje, bo kultura nie wpływa na usługi",
-          "poprawna": false,
-          "wyjasnienie": "COBIT 5 wprost wiąże kulturę usługową z aspektami zachowania i kultury (s. 86). Sama technologia nie wystarczy.",
-          "zycie": "W życiu to tak, jakbyś myślał, że nowa kasa w sklepie sama sprawi, że ekspedientki będą miłe.",
-          "pulapka": "falsz"
-        },
-        {
-          "tekst": "TOGAF zapewnia techniczny model referencyjny architektury",
-          "poprawna": false,
-          "wyjasnienie": "To prawda (zewnętrzna dobra praktyka, s. 86), ale dotyczy dobrych praktyk aktywatora, a nie jego relacji z kulturą.",
-          "zycie": "W życiu to tak, jakbyś pytany o uprzejmość obsługi w sklepie opowiadał o planie rozmieszczenia półek.",
-          "pulapka": "prawda-nie-na-temat"
         }
       ]
     },
@@ -1298,6 +1097,10 @@
         {
           "doc": "FW-PL",
           "strona": 33
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 43
         }
       ],
       "status": "oficjalne",
@@ -1305,13 +1108,13 @@
         {
           "tekst": "Wymiar zdolności: dziewięć atrybutów procesu na poziomach 1–5",
           "poprawna": false,
-          "wyjasnienie": "Atrybuty procesu należą do wymiaru zdolności. Opis procesu w PRM nie może zawierać cech atrybutów powyżej poziomu 1 (s. 42).",
+          "wyjasnienie": "Atrybuty procesu należą do wymiaru zdolności. Opis procesu w PRM nie może zawierać cech atrybutów powyżej poziomu 1 (s. 43).",
           "pulapka": "odwrocone"
         },
         {
           "tekst": "Wymiar procesu: opisy 37 procesów z ich przeznaczeniem i rezultatami",
           "poprawna": true,
-          "wyjasnienie": "PRM wyznacza wymiar procesu. Opis każdego procesu zawiera jego przeznaczenie (cel) i rezultaty (s. 42), a PRM COBIT 5 ma 37 procesów (s. 33)."
+          "wyjasnienie": "PRM wyznacza wymiar procesu. Opis każdego procesu zawiera jego przeznaczenie (cel) i rezultaty (s. 43), a PRM COBIT 5 ma 37 procesów (s. 33)."
         },
         {
           "tekst": "Skalę ocen N, C, W, P stosowaną do atrybutów",
@@ -1324,59 +1127,6 @@
           "poprawna": false,
           "wyjasnienie": "To opisuje Przewodnik Asesora.",
           "pulapka": "inna-kategoria"
-        }
-      ]
-    },
-    {
-      "id": "q-uzup-pc-02-03-2",
-      "typ": "bledy",
-      "sylabus": [
-        "PC-02-03"
-      ],
-      "lekcja": "pc-04-wymiary",
-      "bloom": "rozumienie",
-      "trudnosc": 3,
-      "tresc": "Komenda przygotowuje ocenę zdolności i czyta opis modelu PRM w COBIT 5. Wskaż **błędne** zdania z notatek zespołu.",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 42
-        },
-        {
-          "doc": "FW-PL",
-          "strona": 32
-        },
-        {
-          "doc": "FW-PL",
-          "strona": 33
-        }
-      ],
-      "status": "oficjalne",
-      "twierdzenia": [
-        {
-          "tekst": "Opis każdego procesu w PRM zawiera jego przeznaczenie (cel) i rezultaty.",
-          "poprawne": true,
-          "wyjasnienie": "Prawda. Taki jest wymóg ISO/IEC 15504-2 dla modelu referencyjnego (s. 42)."
-        },
-        {
-          "tekst": "Opis procesu w PRM może zawierać cechy atrybutów z poziomów 2–5.",
-          "poprawne": false,
-          "wyjasnienie": "Błąd. Opis procesu nie może zawierać żadnej cechy atrybutu procesu powyżej poziomu 1 (s. 42)."
-        },
-        {
-          "tekst": "PRM COBIT 5 obejmuje 37 procesów: 5 procesów Ładu i 32 procesy Zarządzania.",
-          "poprawne": true,
-          "wyjasnienie": "Prawda (Rysunek 16, s. 33)."
-        },
-        {
-          "tekst": "PRM tworzy wymiar zdolności oceny.",
-          "poprawne": false,
-          "wyjasnienie": "Błąd. PRM tworzy wymiar procesu. Wymiar zdolności to atrybuty i poziomy."
-        },
-        {
-          "tekst": "Każda organizacja musi wdrożyć wszystkie 37 procesów PRM.",
-          "poprawne": false,
-          "wyjasnienie": "Błąd. Model nie ma charakteru normatywnego (s. 32), a organizacja dobiera procesy do swojej sytuacji."
         }
       ]
     },

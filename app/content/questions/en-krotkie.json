@@ -1,0 +1,5189 @@
+{
+  "_opis": "Moduł 2 (EN) – krótkie lekcje 2.10–2.52: siedem aktywatorów, opis procesu i tabela RACI. Przykłady ogólne (życie codzienne, organizacja, IT) – FORMAT-KROTKI.md.",
+  "pytania": [
+    {
+      "id": "q-enk-10-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-01"
+      ],
+      "lekcja": "en-k10-po-co-zasady-polityki",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rodzice mówią: „w naszym domu wszyscy dbają o porządek”. Potem wieszają na lodówce grafik: kto i kiedy wynosi śmieci. Do czego służy ten grafik?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 27
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zastępuje dawne hasło, które od dziś przestaje obowiązywać.",
+          "poprawna": false,
+          "wyjasnienie": "Hasło nadal obowiązuje. Grafik tylko mówi, jak je stosować.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Sam jest najważniejszą wartością rodziny.",
+          "poprawna": false,
+          "wyjasnienie": "Wartością jest porządek. Grafik to szczegółowa reguła, czyli odpowiednik polityki.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Sprawdza, czy dzieci znają zasady domu.",
+          "poprawna": false,
+          "wyjasnienie": "Grafik nie jest sprawdzianem wiedzy. Mówi, co i kiedy zrobić.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Zamienia ogólne hasło w konkretne zachowanie na co dzień.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak działa pierwszy aktywator: przekłada pożądane zachowanie na praktyczne wytyczne."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-10-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-01"
+      ],
+      "lekcja": "en-k10-po-co-zasady-polityki",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Zarząd ubezpieczyciela chce, by wszyscy pracownicy tak samo chronili dane klientów. Jaką rolę pełni tu aktywator Zasady, Polityki i Struktury ramowe?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Przekazuje wytyczne zarządu wszystkim pracownikom w spisanej, zrozumiałej formie.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Zasady i polityki to mechanizmy komunikacji wytycznych organu Ładu i kierownictwa."
+        },
+        {
+          "tekst": "Opisuje kroki procesu obsługi szkód i jego wejścia.",
+          "poprawna": false,
+          "wyjasnienie": "Kroki, wejścia i wyjścia opisuje aktywator Procesy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ustala, kto zasiada w komitecie ds. bezpieczeństwa.",
+          "poprawna": false,
+          "wyjasnienie": "Skład zespołu to dobra praktyka aktywatora Struktury organizacyjne.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zapewnia serwery i aplikacje do szyfrowania danych.",
+          "poprawna": false,
+          "wyjasnienie": "Sprzęt i programy to aktywator Usługi, Infrastruktura i Aplikacje.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-10-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-01"
+      ],
+      "lekcja": "en-k10-po-co-zasady-polityki",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jak COBIT 5 opisuje rolę **zasad i polityk**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Kluczowe jednostki odpowiedzialne za podejmowanie decyzji w organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Tak COBIT 5 opisuje Struktury organizacyjne.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Mechanizmy komunikacji, które przekazują wytyczne organu Ładu i kierownictwa",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 67."
+        },
+        {
+          "tekst": "Uporządkowany zbiór praktyk i działań, który przetwarza dane wejściowe w wyniki",
+          "poprawna": false,
+          "wyjasnienie": "To opis aktywatora Procesy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zbiór zachowań indywidualnych i zbiorowych w organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Tak COBIT 5 opisuje Kulturę, Etykę i Zachowanie.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-10-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-01"
+      ],
+      "lekcja": "en-k10-po-co-zasady-polityki",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak brzmi **na polskim egzaminie** nazwa pierwszego aktywatora (*Principles, Policies and Frameworks*)?",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zasady, polityki i metodyki",
+          "poprawna": false,
+          "wyjasnienie": "To nazwa z polskiego podręcznika. Egzamin używa „Struktur ramowych”.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Zasady, Polityki i Struktury ramowe",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To nazwa egzaminacyjna; w podręczniku: zasady, polityki i metodyki."
+        },
+        {
+          "tekst": "Pięć zasad COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Pięć zasad to fundament całej metodyki, a nie aktywator.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zasady (pryncypia) architektury korporacyjnej",
+          "poprawna": false,
+          "wyjasnienie": "To dobra praktyka aktywatora Usługi, Infrastruktura i Aplikacje.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-11-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-02",
+        "EN-02-03"
+      ],
+      "lekcja": "en-k11-zasada-a-polityka",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Które zdanie z regulaminu sklepu internetowego jest **zasadą**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "„Na e-mail klienta odpowiadamy w ciągu 24 godzin.”",
+          "poprawna": false,
+          "wyjasnienie": "To szczegółowa reguła, czyli polityka.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "„Zwroty powyżej 1000 zł zatwierdza kierownik.”",
+          "poprawna": false,
+          "wyjasnienie": "To reguła z wyjątkiem – fragment polityki.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "„Za spóźnioną odpowiedź pracownik traci premię.”",
+          "poprawna": false,
+          "wyjasnienie": "To konsekwencja nieprzestrzegania – element polityki.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "„Szanujemy czas naszych klientów.”",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To krótkie hasło o wartości – tak wygląda zasada."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-11-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-02",
+        "EN-02-03"
+      ],
+      "lekcja": "en-k11-zasada-a-polityka",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Sklep wprowadza politykę: każdy zwrot zatwierdzają trzej kierownicy. Zwroty są poprawne, ale klienci czekają tydzień, a koszty rosną. Której cechy dobrej polityki brakuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Skuteczności",
+          "poprawna": false,
+          "wyjasnienie": "Polityka jest skuteczna, bo zwroty są poprawne. Brakuje niskiego kosztu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ograniczonej liczby",
+          "poprawna": false,
+          "wyjasnienie": "Ograniczona liczba to kryterium zasad, a nie polityk.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wydajności",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Polityka osiąga cel, ale zbyt dużym kosztem, więc nie jest wydajna."
+        },
+        {
+          "tekst": "Prostego języka",
+          "poprawna": false,
+          "wyjasnienie": "Prosty język to kryterium zasad. Tu problemem jest koszt.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-11-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-02",
+        "EN-02-03"
+      ],
+      "lekcja": "en-k11-zasada-a-polityka",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Które kryteria COBIT 5 stawia **zasadom** organizacji?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Skuteczne, wydajne i nieinwazyjne",
+          "poprawna": false,
+          "wyjasnienie": "To cechy dobrych polityk.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kompleksowe, otwarte i elastyczne, aktualne oraz dostępne",
+          "poprawna": false,
+          "wyjasnienie": "To cechy struktur ramowych (metodyk).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ograniczona liczba, prosty język i podstawowe wartości",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje zasady podręcznik na s. 67."
+        },
+        {
+          "tekst": "Szczegółowe wytyczne stosowania w praktyce",
+          "poprawna": false,
+          "wyjasnienie": "Tak opisuje się polityki, a nie zasady.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-11-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-02",
+        "EN-02-03"
+      ],
+      "lekcja": "en-k11-zasada-a-polityka",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Bank każe zmieniać hasło co tydzień. Pracownicy zapisują hasła na karteczkach przy monitorach. Której cechy dobrej polityki brakuje przede wszystkim?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Ograniczonej liczby",
+          "poprawna": false,
+          "wyjasnienie": "To kryterium zasad, a nie polityk.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nieinwazyjności",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Polityka budzi opór i wydaje się nielogiczna, więc ludzie ją obchodzą."
+        },
+        {
+          "tekst": "Restrykcyjności",
+          "poprawna": false,
+          "wyjasnienie": "Polityka jest aż za restrykcyjna. To nie jest cecha dobrej polityki.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Otwartości i elastyczności",
+          "poprawna": false,
+          "wyjasnienie": "To cechy struktur ramowych, a nie polityk.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-12-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-04",
+        "EN-02-05"
+      ],
+      "lekcja": "en-k12-struktura-polityk",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Regulamin siłowni mówi: „W razie choroby karnet można zawiesić na miesiąc”. Który element polityki opisuje ten zapis?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Sposób obsługi wyjątków",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To sytuacja, w której wolno inaczej niż zwykle."
+        },
+        {
+          "tekst": "Zakres i ważność",
+          "poprawna": false,
+          "wyjasnienie": "Zakres mówi, kogo polityka dotyczy i jak długo obowiązuje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Konsekwencje nieprzestrzegania",
+          "poprawna": false,
+          "wyjasnienie": "Konsekwencje mówią, co grozi za złamanie reguły.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kontrolę zgodności",
+          "poprawna": false,
+          "wyjasnienie": "Kontrola mówi, jak sprawdzamy przestrzeganie polityki.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-12-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-04",
+        "EN-02-05"
+      ],
+      "lekcja": "en-k12-struktura-polityk",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Dział audytu szpitala co kwartał sprawdza, czy lekarze logują się do systemu wyłącznie własnym kontem. Który element struktury polityk to ilustruje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Konsekwencje nieprzestrzegania polityki",
+          "poprawna": false,
+          "wyjasnienie": "Nie ma tu mowy o karze, tylko o sprawdzaniu.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Sposób kontroli i pomiaru zgodności",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Regularne sprawdzanie przestrzegania polityki to kontrola zgodności."
+        },
+        {
+          "tekst": "Zakres i ważność polityki",
+          "poprawna": false,
+          "wyjasnienie": "Zakres mówi, kogo polityka dotyczy, a nie jak ją sprawdzamy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Cykl życia polityki",
+          "poprawna": false,
+          "wyjasnienie": "Cykl życia dotyczy aktualizacji polityki, a nie kontroli jej przestrzegania.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-12-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-04",
+        "EN-02-05"
+      ],
+      "lekcja": "en-k12-struktura-polityk",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Bank bardzo niechętnie podejmuje ryzyko. Co według COBIT 5 wynika z tego dla jego polityk?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Powinny być łagodniejsze, bo każda dobra polityka musi być nieinwazyjna.",
+          "poprawna": false,
+          "wyjasnienie": "Nieinwazyjność nie znaczy łagodności. Ostrożna organizacja ma surowsze polityki.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Powinny być bardziej restrykcyjne niż w organizacji skłonnej do ryzyka.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Polityki odzwierciedlają apetyt na ryzyko (s. 68)."
+        },
+        {
+          "tekst": "Apetyt na ryzyko wpływa tylko na zasady, a nie na polityki.",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik mówi wprost, że polityki dopasowuje się do apetytu na ryzyko.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Polityki banku zatwierdza wtedy regulator zamiast zarządu.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nic takiego nie mówi.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-12-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-04",
+        "EN-02-05"
+      ],
+      "lekcja": "en-k12-struktura-polityk",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Dlaczego polityki trzeba regularnie przeglądać i aktualizować?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Bo co roku zmieniają się podstawowe wartości organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "Wartości, czyli zasady, są trwałe. Zmieniają się szczegóły w politykach.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Bo każdy pracownik musi co miesiąc podpisać nową wersję.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie wymaga takiego podpisu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Bo po roku polityka traci ważność z mocy prawa.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie mówi o wygasaniu polityk z mocy prawa.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Bo mają cykl życia i muszą nadążać za celami organizacji.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Polityki muszą być przedłużane lub aktualizowane w regularnych odstępach czasu."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-13-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-06"
+      ],
+      "lekcja": "en-k13-polityki-a-inne-aktywatory",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rodzina ustala regułę: „nie marnujemy jedzenia”. Reguła działa dopiero, gdy co piątek ktoś sprawdza lodówkę i robi listę zakupów. Co to pokazuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Sama spisana reguła wystarcza, żeby działała.",
+          "poprawna": false,
+          "wyjasnienie": "Bez stałych działań reguła zostaje na papierze.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Reguła powinna być surowsza, żeby działała.",
+          "poprawna": false,
+          "wyjasnienie": "Surowość nie zastąpi działań, które ją realizują.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Reguła jest po prostu wartością rodziny, a nie polityką.",
+          "poprawna": false,
+          "wyjasnienie": "Wartością jest szacunek do jedzenia. Pytanie dotyczy tego, co realizuje regułę.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Regułę realizują powtarzalne działania, czyli proces.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Praktyki i działania procesów to najistotniejszy środek realizacji polityk."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-13-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-06"
+      ],
+      "lekcja": "en-k13-polityki-a-inne-aktywatory",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Firma ubezpieczeniowa przyjęła politykę szyfrowania dokumentów, ale nikt jej nie stosuje. Co COBIT 5 wskazuje jako **najistotniejszy środek realizacji polityk**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Praktyki i działania procesów",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Politykę trzeba wpisać w kroki procesów (s. 68)."
+        },
+        {
+          "tekst": "Podpis prezesa pod dokumentem",
+          "poprawna": false,
+          "wyjasnienie": "Podpis nie zmienia codziennej pracy.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Struktury organizacyjne w swoim zakresie kontroli",
+          "poprawna": false,
+          "wyjasnienie": "Struktury definiują i wdrażają polityki, ale najistotniejszym środkiem są procesy.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Aktywator Kultura, Etyka i Zachowanie",
+          "poprawna": false,
+          "wyjasnienie": "Polityki odzwierciedlają kulturę, ale wykonuje się je przez procesy.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-13-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-06"
+      ],
+      "lekcja": "en-k13-polityki-a-inne-aktywatory",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które zdanie poprawnie opisuje związek polityk z aktywatorem Informacja?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Polityki same są informacją, więc stosuje się do nich dobre praktyki dotyczące informacji.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 68."
+        },
+        {
+          "tekst": "Informacja jest najistotniejszym środkiem realizacji polityk.",
+          "poprawna": false,
+          "wyjasnienie": "Najistotniejszym środkiem są praktyki i działania procesów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Polityki określają mandat każdej informacji w organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "Mandat dotyczy struktur organizacyjnych, nie informacji.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Informacja promuje pożądane zachowanie zamiast polityk.",
+          "poprawna": false,
+          "wyjasnienie": "Pożądane zachowanie wiąże się z kulturą, a polityki ją odzwierciedlają.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-13-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-06"
+      ],
+      "lekcja": "en-k13-polityki-a-inne-aktywatory",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Firma z Przykładu 9 łagodzi politykę dostępu do mediów społecznościowych. Co jeszcze musi się zmienić według podręcznika?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Nic więcej, bo polityka to osobny dokument",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik pokazuje, że zmiana polityki porusza inne aktywatory.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Zachowania i umiejętności pracowników oraz procesy i ustawienia bezpieczeństwa",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Nowa polityka wpływa na pozostałe aktywatory."
+        },
+        {
+          "tekst": "Tylko pięć zasad COBIT 5 stosowanych w firmie",
+          "poprawna": false,
+          "wyjasnienie": "Pięć zasad COBIT 5 nie zmienia się przez jedną politykę firmy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Tylko skład zarządu, który przyjął politykę",
+          "poprawna": false,
+          "wyjasnienie": "Przykład 9 nie mówi o zmianie zarządu.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-15-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-01-01",
+        "EN-02-07",
+        "EN-02-09"
+      ],
+      "lekcja": "en-k15-proces-aktywator",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Wkładasz brudne ubrania do pralki, wybierasz program i wyjmujesz czyste. Czym w języku procesu są czyste ubrania?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wejściem procesu",
+          "poprawna": false,
+          "wyjasnienie": "Wejściem są brudne ubrania. Czyste wychodzą na końcu.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Działaniem procesu",
+          "poprawna": false,
+          "wyjasnienie": "Działaniem jest pranie, czyli przerabianie wejść.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Celem, do którego dąży proces",
+          "poprawna": false,
+          "wyjasnienie": "Cel to zdanie o pożądanym wyniku, a nie sam wynik.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wynikiem (wyjściem) procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To, co powstaje na końcu działań, to wynik procesu."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-15-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-01-01",
+        "EN-02-07",
+        "EN-02-09"
+      ],
+      "lekcja": "en-k15-proces-aktywator",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Bank opisuje proces obsługi reklamacji. Kto z wymienionych jest jego interesariuszem **zewnętrznym**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zarząd banku",
+          "poprawna": false,
+          "wyjasnienie": "Zarząd to interesariusz wewnętrzny.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Pracownicy działu reklamacji",
+          "poprawna": false,
+          "wyjasnienie": "Pracownicy to interesariusze wewnętrzni.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Urząd nadzoru finansowego",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Organy regulacyjne to interesariusze zewnętrzni procesu."
+        },
+        {
+          "tekst": "Kierownictwo oddziałów banku",
+          "poprawna": false,
+          "wyjasnienie": "Kierownictwo to interesariusz wewnętrzny.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-15-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-01-01",
+        "EN-02-07",
+        "EN-02-09"
+      ],
+      "lekcja": "en-k15-proces-aktywator",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jak COBIT 5 definiuje **proces**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Jednorazowe przedsięwzięcie z budżetem i datą zakończenia",
+          "poprawna": false,
+          "wyjasnienie": "To opis projektu, a nie procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kluczowa jednostka podejmująca decyzje w organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Tak opisuje się Struktury organizacyjne.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Mechanizm komunikowania wytycznych kierownictwa",
+          "poprawna": false,
+          "wyjasnienie": "Tak opisuje się Zasady, Polityki i Struktury ramowe.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zbiór praktyk ukierunkowanych przez polityki i procedury, który przetwarza wejścia w wyniki",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To definicja z s. 69."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-15-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-01-01",
+        "EN-02-07",
+        "EN-02-09"
+      ],
+      "lekcja": "en-k15-proces-aktywator",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Która sekwencja opisuje **cykl życia procesu** w COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Dane, informacje, wiedza, wartość",
+          "poprawna": false,
+          "wyjasnienie": "To cykl informacji z Rysunku 35.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zakres, konsekwencje, wyjątki, kontrola zgodności",
+          "poprawna": false,
+          "wyjasnienie": "To elementy struktury polityk.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Definiowanie, tworzenie, obsługa, monitorowanie, dostosowanie albo wycofanie",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje cykl życia procesu podręcznik na s. 70."
+        },
+        {
+          "tekst": "Wgląd, rozwijanie, wdrażanie, ocena, pozbycie się",
+          "poprawna": false,
+          "wyjasnienie": "To cykl życia umiejętności.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-16-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-08"
+      ],
+      "lekcja": "en-k16-kategorie-celow-procesu",
+      "bloom": "zastosowanie",
+      "trudnosc": 1,
+      "tresc": "Przepis na ciasto jest sprawdzony i poprawny, ale wymaga piekarnika parowego, którego NIE masz. Jakiego rodzaju celu przepis u Ciebie NIE spełnia?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wewnętrznego – przepis jest błędny",
+          "poprawna": false,
+          "wyjasnienie": "Przepis jest poprawny, więc jakość sama w sobie jest w porządku.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Kontekstowego – nie pasuje do Twojej sytuacji",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Cel kontekstowy pyta, czy coś jest dopasowane do sytuacji."
+        },
+        {
+          "tekst": "Dostępności i bezpieczeństwa – przepis jest tajny",
+          "poprawna": false,
+          "wyjasnienie": "Przepis masz pod ręką. Problemem jest dopasowanie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Żadnego – przepis jest po prostu dobry",
+          "poprawna": false,
+          "wyjasnienie": "Przepis jest dobry, ale nie dla Ciebie. To brak dopasowania.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-16-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-08"
+      ],
+      "lekcja": "en-k16-kategorie-celow-procesu",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Cel procesu w szpitalu: „procedurę wydawania leków zna każda pielęgniarka, a kod do szafy z lekami zna tylko upoważniony personel”. Do której kategorii należy?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Cele wewnętrzne",
+          "poprawna": false,
+          "wyjasnienie": "Cele wewnętrzne dotyczą jakości i zgodności z regułami.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Cele kontekstowe",
+          "poprawna": false,
+          "wyjasnienie": "Cele kontekstowe dotyczą dopasowania i łatwości użycia.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Cele dostępności i bezpieczeństwa",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Proces jest znany potrzebującym i poufny tam, gdzie trzeba."
+        },
+        {
+          "tekst": "Cele organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Cele organizacji to inny poziom kaskady celów.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-16-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-08"
+      ],
+      "lekcja": "en-k16-kategorie-celow-procesu",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Proces udzielania kredytów musi być zgodny z rozporządzeniem regulatora. Do której **kategorii celów procesu** należy ten cel?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Cele wewnętrzne",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Zgodność z regułami wewnętrznymi i zewnętrznymi to cel wewnętrzny (*intrinsic*)."
+        },
+        {
+          "tekst": "Cele kontekstowe, bo przepis pochodzi spoza banku",
+          "poprawna": false,
+          "wyjasnienie": "„Wewnętrzny” znaczy tu „jakość sama w sobie”, nie „wewnątrz organizacji”.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Cele dostępności i bezpieczeństwa",
+          "poprawna": false,
+          "wyjasnienie": "Ta kategoria dotyczy poufności i dostępności procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Cele związane z informatyką",
+          "poprawna": false,
+          "wyjasnienie": "To wyższy poziom kaskady celów, a nie kategoria celów procesu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-16-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-08"
+      ],
+      "lekcja": "en-k16-kategorie-celow-procesu",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co oznacza słowo „wewnętrzne” w nazwie **cele wewnętrzne** procesu (*intrinsic*)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Cele ustalone wewnątrz organizacji przez jej zarząd i kierownictwo",
+          "poprawna": false,
+          "wyjasnienie": "To pomylenie *intrinsic* z *internal*.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Cele dotyczące wyłącznie pracowników organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Kategoria nie dotyczy grupy osób, tylko jakości procesu.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Cele ukryte przed klientami i regulatorem",
+          "poprawna": false,
+          "wyjasnienie": "Słowo nie ma związku z poufnością.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Jakość procesu samą w sobie, w tym zgodność z regułami",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. *Intrinsic* znaczy „istotny sam w sobie”."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-17-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-10"
+      ],
+      "lekcja": "en-k17-praktyki-dzialania",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Idziesz do lekarza ze skierowaniem. Wychodzisz z receptą i wpisem w karcie. Czym są recepta i wpis w języku procesu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wejściami procesu",
+          "poprawna": false,
+          "wyjasnienie": "Wejściem było skierowanie, z którym przyszedłeś.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Praktykami procesu",
+          "poprawna": false,
+          "wyjasnienie": "Praktyka mówi, co trzeba robić, a nie co z tego wychodzi.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wyjściami, czyli produktami działań",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To, co powstaje w wyniku działań, to wyjścia."
+        },
+        {
+          "tekst": "Celami procesu",
+          "poprawna": false,
+          "wyjasnienie": "Cel to zdanie o pożądanym wyniku, a nie dokument.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-17-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-10"
+      ],
+      "lekcja": "en-k17-praktyki-dzialania",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Uczelnia wdraża COBIT 5 i chce wykonać działania z przewodnika dokładnie słowo w słowo. Co mówi o tym COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "To wymóg certyfikacji, więc trzeba je wykonać dokładnie.",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie stawia takiego wymogu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Działania wykonuje się dokładnie, a dostosowuje się tylko cele.",
+          "poprawna": false,
+          "wyjasnienie": "Jest odwrotnie: działania trzeba dostosować do organizacji.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Działania nie są normatywne – trzeba je dostosować i rozwinąć w procedury uczelni.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 70."
+        },
+        {
+          "tekst": "Działania może dostosować wyłącznie zewnętrzny audytor.",
+          "poprawna": false,
+          "wyjasnienie": "Dostosowuje je organizacja, a nie audytor.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-17-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-10"
+      ],
+      "lekcja": "en-k17-praktyki-dzialania",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Skąd według COBIT 5 można wziąć **szczegółowe działania**, gdy działania są za mało szczegółowe?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Z tabeli RACI w opisie procesu",
+          "poprawna": false,
+          "wyjasnienie": "Tabela RACI przypisuje role, a nie opisuje kroków.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Z celów związanych z IT w kaskadzie",
+          "poprawna": false,
+          "wyjasnienie": "Cele mówią, co osiągnąć, a nie jak to zrobić krok po kroku.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Z modelu informacji i jego sześciu warstw",
+          "poprawna": false,
+          "wyjasnienie": "Model informacji opisuje właściwości informacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ze szczegółowych standardów, np. ITIL, ISO/IEC 27000, PRINCE2",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 70."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-17-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-10"
+      ],
+      "lekcja": "en-k17-praktyki-dzialania",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który element modelu procesu mówi, **co** trzeba robić, bez rozpisywania na kroki?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Działanie",
+          "poprawna": false,
+          "wyjasnienie": "Działania to konkretne kroki, czyli „jak”.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wyjście",
+          "poprawna": false,
+          "wyjasnienie": "Wyjście to produkt działań.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Praktyka Ładu lub zarządzania",
+          "poprawna": true,
+          "wyjasnienie": "Praktyka to ogólne wymaganie (co osiągnąć); działania rozpisują ją na kroki – jak, dlaczego i co wdrożyć (s. 70)."
+        },
+        {
+          "tekst": "Szczegółowe działanie z innego standardu",
+          "poprawna": false,
+          "wyjasnienie": "To jeszcze niższy poziom szczegółowości niż działanie.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-18-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-11"
+      ],
+      "lekcja": "en-k18-procesy-a-inne-aktywatory",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Płacisz rachunki w aplikacji banku. Gdy aplikacja ma awarię, Twój comiesięczny „proces płacenia” staje. Jakie powiązanie procesu to pokazuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 71
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Procesy wymagają zdolności usługowych, np. aplikacji.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Procesy zapewniają i wymagają zdolności usługowych."
+        },
+        {
+          "tekst": "Procesy wymagają polityk i procedur.",
+          "poprawna": false,
+          "wyjasnienie": "To prawdziwe powiązanie, ale tu zawiodła aplikacja.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Skuteczność procesu zależy od kultury.",
+          "poprawna": false,
+          "wyjasnienie": "To prawdziwe powiązanie, ale nie o nim jest ta sytuacja.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Procesy wytwarzają informację.",
+          "poprawna": false,
+          "wyjasnienie": "To prawdziwe powiązanie, ale nie wyjaśnia awarii aplikacji.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-18-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-11"
+      ],
+      "lekcja": "en-k18-procesy-a-inne-aktywatory",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Urząd ma dobrze zaprojektowany proces obsługi wniosków, ale urzędnicy go omijają, bo „tak szybciej”. Co według COBIT 5 decyduje tu o skuteczności procesu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 71
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Polityki i procedury",
+          "poprawna": false,
+          "wyjasnienie": "Procedura jest dobra. Ludzie po prostu jej nie stosują.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Struktury organizacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Problem nie dotyczy decyzji zespołów, tylko codziennego zachowania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zdolności usługowe",
+          "poprawna": false,
+          "wyjasnienie": "Nic nie wskazuje na awarię sprzętu ani aplikacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zachowanie i kultura",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Aspekty związane z zachowaniem i kulturą determinują skuteczność procesów."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-18-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-11"
+      ],
+      "lekcja": "en-k18-procesy-a-inne-aktywatory",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które zdanie poprawnie opisuje związek **Procesów** z informacją?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 71
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Procesy wymagają informacji jako wejść i mogą ją dostarczać jako produkty działań.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 71."
+        },
+        {
+          "tekst": "Procesy tylko zużywają informację, ale nigdy jej nie wytwarzają.",
+          "poprawna": false,
+          "wyjasnienie": "Procesy także wytwarzają informację.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Informacja jest zawsze tylko wynikiem procesu, nigdy wejściem.",
+          "poprawna": false,
+          "wyjasnienie": "Informacja jest też jednym z typów danych wejściowych.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Informacja zastępuje w procesie tabelę RACI.",
+          "poprawna": false,
+          "wyjasnienie": "Role opisuje tabela RACI, a informacja jej nie zastępuje.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-18-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-11"
+      ],
+      "lekcja": "en-k18-procesy-a-inne-aktywatory",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak COBIT 5 nazywa mierniki stopnia, w jakim proces osiągnął swoje cele?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 71
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wskaźniki wiodące (podręcznik: wyprzedzające)",
+          "poprawna": false,
+          "wyjasnienie": "Wskaźniki wiodące mierzą stosowanie dobrych praktyk i cykl życia.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Wskaźniki zdolności procesu",
+          "poprawna": false,
+          "wyjasnienie": "Zdolność to osobny schemat oceny, a nie nazwa tych mierników.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wskaźniki opóźnione (podręcznik: następujące)",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Mierzą wynik procesu, więc pojawiają się po fakcie."
+        },
+        {
+          "tekst": "Wskaźniki RACI",
+          "poprawna": false,
+          "wyjasnienie": "Takich wskaźników COBIT 5 nie definiuje.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-20-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "lekcja": "en-k20-opis-procesu",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Instrukcja ekspresu do kawy ma rozdział „Do czego służy to urządzenie”. Której części opisu procesu odpowiada ten rozdział?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Identyfikacji procesu",
+          "poprawna": false,
+          "wyjasnienie": "Identyfikacja to kod, nazwa, obszar i domena.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Opisowi procesu",
+          "poprawna": false,
+          "wyjasnienie": "Opis mówi, co proces robi, a nie po co istnieje.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Tabeli RACI",
+          "poprawna": false,
+          "wyjasnienie": "Tabela RACI przypisuje role do praktyk.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Przeznaczeniu procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Przeznaczenie mówi, po co proces istnieje."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-20-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "lekcja": "en-k20-opis-procesu",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Audytor otwiera opis procesu w przewodniku i szuka, kto jest rozliczany za każdą praktykę. Do której części zagląda?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Do celów i miar procesu",
+          "poprawna": false,
+          "wyjasnienie": "Cele i miary mówią, co proces osiąga i jak to mierzyć.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Do tabeli RACI",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tabela RACI pokazuje role przy każdej praktyce."
+        },
+        {
+          "tekst": "Do identyfikacji procesu",
+          "poprawna": false,
+          "wyjasnienie": "Identyfikacja podaje kod, nazwę, obszar i domenę.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Do powiązanych wytycznych",
+          "poprawna": false,
+          "wyjasnienie": "Tam są odwołania do innych standardów.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-20-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "lekcja": "en-k20-opis-procesu",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Fragment opisu: „APO12, Zarządzanie ryzykiem, obszar: Zarządzanie, domena: Dostosuj, Planuj i Organizuj”. Którą częścią **opisu procesu** jest ten fragment?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Identyfikacją procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Kod, nazwa, obszar i domena to identyfikacja."
+        },
+        {
+          "tekst": "Opisem procesu",
+          "poprawna": false,
+          "wyjasnienie": "Opis mówi, co proces robi.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Przeznaczeniem procesu",
+          "poprawna": false,
+          "wyjasnienie": "Przeznaczenie mówi, po co proces istnieje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Informacjami z kaskady celów",
+          "poprawna": false,
+          "wyjasnienie": "Tam są powiązane cele związane z informatyką i mierniki.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-20-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "lekcja": "en-k20-opis-procesu",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Która część opisu procesu podaje powiązane **cele związane z informatyką** i ich mierniki?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Praktyki procesu",
+          "poprawna": false,
+          "wyjasnienie": "Praktyki zawierają wejścia, wyjścia i działania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Informacje z kaskady celów",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Ta część łączy proces z kaskadą celów."
+        },
+        {
+          "tekst": "Określenie przeznaczenia procesu",
+          "poprawna": false,
+          "wyjasnienie": "Przeznaczenie to jedno zdanie o tym, po co proces istnieje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Tabela RACI",
+          "poprawna": false,
+          "wyjasnienie": "Tabela RACI przypisuje role.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-21-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k21-tabela-raci",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Organizujesz przyjęcie. Wynajęta firma przygotowuje salę, a Ty odpowiadasz za to, żeby wszystko się udało. Jaką rolę RACI ma firma?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "A – Odpowiedzialny decyzyjnie",
+          "poprawna": false,
+          "wyjasnienie": "Za sukces odpowiadasz Ty, więc Ty masz A.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "C – Konsultant",
+          "poprawna": false,
+          "wyjasnienie": "Firma nie tylko doradza, ale wykonuje pracę.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "I – Informowany",
+          "poprawna": false,
+          "wyjasnienie": "Firma nie tylko dostaje informacje, ale pracuje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "R – Odpowiedzialny wykonawczo",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Firma wykonuje pracę."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-21-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k21-tabela-raci",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Po co organizacji tabela RACI w opisie procesu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wiąże praktyki procesu z rolami i strukturami organizacji.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje to podręcznik na s. 75."
+        },
+        {
+          "tekst": "Pokazuje, kto komu podlega służbowo.",
+          "poprawna": false,
+          "wyjasnienie": "To zadanie schematu organizacyjnego, a nie RACI.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Mierzy poziom zdolności każdego procesu.",
+          "poprawna": false,
+          "wyjasnienie": "Zdolność mierzy się innym schematem oceny.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wymienia wejścia i wyjścia każdej praktyki.",
+          "poprawna": false,
+          "wyjasnienie": "Wejścia i wyjścia są w części o praktykach.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-21-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k21-tabela-raci",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Które nazwy ról RACI są nazwami z **polskiego egzaminu**?",
+      "zrodlo": [
+        {
+          "doc": "SP1"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Strona odpowiedzialna, Strona rozliczana, Strona konsultowana, Strona informowana",
+          "poprawna": false,
+          "wyjasnienie": "To nazwy z podręcznika (FW-PL s. 89–93), a nie z egzaminu. Egzamin: odpowiedzialny wykonawczo (R), odpowiedzialny decyzyjnie (A), konsultant (C), informowany (I).",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Odpowiedzialny wykonawczo, Odpowiedzialny decyzyjnie, Konsultant, Informowany",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To nazwy egzaminacyjne R, A, C, I. R i A różni drugie słowo: wykonawczo – wykonuje, decyzyjnie – odpowiada za sukces."
+        },
+        {
+          "tekst": "Raportujący, Akceptujący, Kontrolujący, Inicjujący",
+          "poprawna": false,
+          "wyjasnienie": "Takich ról RACI nie ma.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Odpowiedzialny wykonawczo, Odpowiedzialny decyzyjnie, Kontrolujący, Informowany",
+          "poprawna": false,
+          "wyjasnienie": "C to Konsultant (rola konsultanta), a nie Kontrolujący.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-21-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k21-tabela-raci",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Ten sam informatyk ma w jednym procesie literę R, a w innym C. Co to pokazuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Literę daje rola przy zadaniu, a nie stanowisko.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Literę RACI nadaje się przy każdej praktyce osobno."
+        },
+        {
+          "tekst": "Jedna z tabel RACI jest na pewno błędna.",
+          "poprawna": false,
+          "wyjasnienie": "Różne litery w różnych procesach to nic złego.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Informatyk powinien zawsze mieć literę R.",
+          "poprawna": false,
+          "wyjasnienie": "Litera zależy od zadania, a nie od zawodu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Litery R i C oznaczają w praktyce dokładnie to samo.",
+          "poprawna": false,
+          "wyjasnienie": "R wykonuje, a C daje wejścia.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-22-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k22-raci-r-a",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Mama prosi syna o umycie samochodu i przed wyjazdem sprawdza, czy auto jest czyste. Syn myje auto. Jaką literę RACI ma syn?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "R",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Syn wykonuje zadanie."
+        },
+        {
+          "tekst": "A",
+          "poprawna": false,
+          "wyjasnienie": "A ma mama, bo to ona odpowiada za efekt.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "C",
+          "poprawna": false,
+          "wyjasnienie": "Syn nie jest pytany o zdanie, tylko wykonuje pracę.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "I",
+          "poprawna": false,
+          "wyjasnienie": "Syn nie tylko dostaje wiadomość, ale pracuje.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-22-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k22-raci-r-a",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "W banku dyrektor ds. IT odpowiada przed zarządem za udane wdrożenie aplikacji mobilnej. Kod piszą trzy zespoły. Jaką rolę RACI ma dyrektor?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "R – Odpowiedzialny wykonawczo",
+          "poprawna": false,
+          "wyjasnienie": "R mają zespoły, które piszą kod.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "A – Odpowiedzialny decyzyjnie",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Odpowiada za sukces, choć sam nie programuje."
+        },
+        {
+          "tekst": "C – Konsultant",
+          "poprawna": false,
+          "wyjasnienie": "Dyrektor nie tylko doradza, ale odpowiada za wynik.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "I – Informowany",
+          "poprawna": false,
+          "wyjasnienie": "Dyrektor dostaje informacje, ale przede wszystkim odpowiada za sukces.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-22-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k22-raci-r-a",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jak w tabeli RACI rozumieć rolę **Odpowiedzialny wykonawczo** (*Responsible*)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Osoba ostatecznie odpowiedzialna za powodzenie zadania",
+          "poprawna": false,
+          "wyjasnienie": "To opis roli A – Odpowiedzialny decyzyjnie.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Osoba, u której zasięga się opinii o działaniu",
+          "poprawna": false,
+          "wyjasnienie": "To opis roli C – Konsultant.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Rola informowana o osiągnięciach i efektach",
+          "poprawna": false,
+          "wyjasnienie": "To opis roli I – Informowany.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Rola najbardziej zaangażowana operacyjnie, która wykonuje zadanie",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. R odpowiada na pytanie: kto zajmuje się realizacją zadania?"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-22-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k22-raci-r-a",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Ile ról A powinno być przy jednym zadaniu w tabeli RACI?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Dowolnie wiele",
+          "poprawna": false,
+          "wyjasnienie": "Wiele ról może mieć R, C i I, ale A powinno być jedno.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Co najmniej dwie",
+          "poprawna": false,
+          "wyjasnienie": "Dwie role A rozmywają odpowiedzialność.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Jedna",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Reguła „jeden A” pochodzi z praktyki tabel RACI; słowniczek mówi o stronie ostatecznie odpowiedzialnej."
+        },
+        {
+          "tekst": "Żadna – A jest tylko przy całym procesie",
+          "poprawna": false,
+          "wyjasnienie": "A przypisuje się przy praktykach i zadaniach.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-23-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k23-raci-c-i",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Szkoła wysyła rodzicom SMS: „jutro lekcje kończą się o 12:00”. Rodzice tylko przyjmują to do wiadomości. Jaką rolę RACI mają rodzice?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 90
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "C – Konsultant",
+          "poprawna": false,
+          "wyjasnienie": "Nikt ich nie pyta o zdanie, więc to nie C.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "A – Odpowiedzialny decyzyjnie",
+          "poprawna": false,
+          "wyjasnienie": "Rodzice nie odpowiadają za organizację lekcji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "R – Odpowiedzialny wykonawczo",
+          "poprawna": false,
+          "wyjasnienie": "Rodzice niczego tu nie wykonują.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "I – Informowany",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Dostają wiadomość, a komunikacja jest jednokierunkowa."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-23-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k23-raci-c-i",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Przed wyborem nowego systemu ERP zespół pyta dyrektora finansowego o wymagania. Dyrektor zgłasza uwagi, a zespół je uwzględnia. Jaką literę RACI ma dyrektor finansowy?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 90
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "I – Informowany",
+          "poprawna": false,
+          "wyjasnienie": "Dyrektor nie tylko dostaje wiadomość, ale odpowiada i wpływa na wynik.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "C – Konsultant",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Daje wejścia, a rozmowa idzie w obie strony."
+        },
+        {
+          "tekst": "A – Odpowiedzialny decyzyjnie",
+          "poprawna": false,
+          "wyjasnienie": "Z opisu nie wynika, że odpowiada za sukces wyboru.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "R – Odpowiedzialny wykonawczo",
+          "poprawna": false,
+          "wyjasnienie": "Dyrektor nie prowadzi wyboru systemu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-23-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k23-raci-c-i",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Która rola RACI wiąże się z komunikacją **dwukierunkową**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 90
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Konsultant (*Consulted*)",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Słowniczek podręcznika mówi wprost o komunikacji dwukierunkowej."
+        },
+        {
+          "tekst": "Informowany (*Informed*)",
+          "poprawna": false,
+          "wyjasnienie": "Informowany ma komunikację jednokierunkową.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Odpowiedzialny decyzyjnie (*Accountable*)",
+          "poprawna": false,
+          "wyjasnienie": "A odpowiada za sukces zadania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Odpowiedzialny wykonawczo (*Responsible*)",
+          "poprawna": false,
+          "wyjasnienie": "R wykonuje zadanie.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-23-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-k23-raci-c-i",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Odpowiedzialny decyzyjnie (A) zawsze dostaje informacje o zadaniu. Czy ma przez to także literę I?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 92
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Tak – A i I zawsze występują razem.",
+          "poprawna": false,
+          "wyjasnienie": "To dwie różne role w tabeli.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Tak – jeśli A sam nie wykonuje pracy.",
+          "poprawna": false,
+          "wyjasnienie": "To, czy A pracuje, nie zmienia jego litery.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie – bo A nie dostaje żadnych informacji.",
+          "poprawna": false,
+          "wyjasnienie": "A powinien zawsze otrzymywać odpowiednie informacje.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Nie – I mają inne role, które tylko dostają wiadomość.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. A dostaje informacje, żeby nadzorować, ale jego rolą jest A."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-25-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k25-struktury-organizacyjne",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Wspólnota mieszkaniowa powołuje komisję do wyboru firmy remontowej. Co jest głównym wynikiem pracy takiej komisji?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wyremontowana klatka schodowa",
+          "poprawna": false,
+          "wyjasnienie": "To wynik pracy firmy remontowej, a nie komisji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Spisana procedura remontu",
+          "poprawna": false,
+          "wyjasnienie": "Procedura to raczej polityka albo proces.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Decyzje",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wynikiem struktury organizacyjnej są działania i decyzje."
+        },
+        {
+          "tekst": "Raport z kosztów wspólnoty",
+          "poprawna": false,
+          "wyjasnienie": "Raport może być wejściem, ale wynikiem komisji jest decyzja.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-25-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k25-struktury-organizacyjne",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Szpital tworzy radę ds. bezpieczeństwa danych. Co według COBIT 5 trzeba określić w chwili jej założenia?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Architekturę docelową systemów szpitala",
+          "poprawna": false,
+          "wyjasnienie": "To dobra praktyka aktywatora Usługi, Infrastruktura i Aplikacje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Cykl informacji dla danych pacjentów",
+          "poprawna": false,
+          "wyjasnienie": "Cykl informacji dotyczy aktywatora Informacja.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziomy usług dla dostawców",
+          "poprawna": false,
+          "wyjasnienie": "Poziomy usług to dobra praktyka innego aktywatora.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Mandat – powód i cel istnienia rady",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 75."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-25-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k25-struktury-organizacyjne",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jak COBIT 5 opisuje aktywator **Struktury organizacyjne**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 27
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zbiór zachowań indywidualnych i zbiorowych w organizacji",
+          "poprawna": false,
+          "wyjasnienie": "To opis Kultury, Etyki i Zachowania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Mechanizmy komunikacji wytycznych kierownictwa",
+          "poprawna": false,
+          "wyjasnienie": "To opis Zasad, Polityk i Struktur ramowych.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kluczowe jednostki odpowiedzialne za podejmowanie decyzji w organizacji",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To opis z s. 27."
+        },
+        {
+          "tekst": "Zbiór praktyk ukierunkowanych przez polityki i procedury",
+          "poprawna": false,
+          "wyjasnienie": "To definicja procesu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-25-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k25-struktury-organizacyjne",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Komitet sterujący wdrożenia CRM zostaje rozwiązany po zakończeniu projektu. Co to pokazuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Struktura ma cykl życia: powstaje, działa, zmienia się i może zostać rozwiązana.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje cykl życia struktury podręcznik na s. 75."
+        },
+        {
+          "tekst": "Komitet był od początku źle zaprojektowany.",
+          "poprawna": false,
+          "wyjasnienie": "Rozwiązanie po wykonaniu zadania to naturalny koniec cyklu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Struktury organizacyjne powinny istnieć zawsze.",
+          "poprawna": false,
+          "wyjasnienie": "Struktura może zostać rozwiązana, gdy nie jest potrzebna.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Rozwiązanie komitetu to procedura eskalacji.",
+          "poprawna": false,
+          "wyjasnienie": "Eskalacja to droga decyzji w górę, a nie koniec struktury.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-26-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k26-praktyki-struktur",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Wspólnota mieszkaniowa decyduje o dachu i klatce schodowej, ale nie o tym, jak urządzisz swoje mieszkanie. Którą praktykę struktury to opisuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "Poziom uprawnień mówi, jakie decyzje wolno podjąć, a tu chodzi o granice.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Zasady operacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Zasady operacyjne mówią, jak zespół działa na co dzień.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zakres kontroli",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To granice spraw, o których wspólnota może decydować."
+        },
+        {
+          "tekst": "Skład",
+          "poprawna": false,
+          "wyjasnienie": "Skład to lista członków.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-26-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k26-praktyki-struktur",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Regulamin komitetu ds. inwestycji IT mówi: „spotkania w pierwszy wtorek miesiąca, protokół rozsyłany w trzy dni”. Którą dobrą praktykę struktury opisuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zasady operacyjne",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Częstotliwość spotkań i dokumentacja to zasady operacyjne."
+        },
+        {
+          "tekst": "Skład",
+          "poprawna": false,
+          "wyjasnienie": "Skład mówi, kto jest członkiem komitetu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Procedury eskalacji",
+          "poprawna": false,
+          "wyjasnienie": "Eskalacja dotyczy problemów z podjęciem decyzji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zakres kontroli",
+          "poprawna": false,
+          "wyjasnienie": "Zakres kontroli to granice decyzji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-26-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k26-praktyki-struktur",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Komitet sterujący może sam zatwierdzać zmiany budżetu projektu do 10%. Którą **dobrą praktykę struktur organizacyjnych** opisuje ten zapis?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom uprawnień",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To decyzje, do których podjęcia struktura jest uprawniona."
+        },
+        {
+          "tekst": "Zakres kontroli",
+          "poprawna": false,
+          "wyjasnienie": "Zakres kontroli to granice spraw, a tu chodzi o rodzaj decyzji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Delegowanie uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "Delegowanie to przekazanie decyzji strukturom podległym.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zasady działania",
+          "poprawna": false,
+          "wyjasnienie": "To podręcznikowa nazwa zasad operacyjnych – inna praktyka.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-26-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k26-praktyki-struktur",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Dyrektor ubezpieczyciela dobiera członków rady ds. architektury tak, żeby były w niej wszystkie potrzebne umiejętności. Którą praktykę struktury ustala?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Skład",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. „Kto zasiada” to skład struktury."
+        },
+        {
+          "tekst": "Aktywator Ludzie, Umiejętności i Kompetencje",
+          "poprawna": false,
+          "wyjasnienie": "Umiejętności są ważne, ale pytanie dotyczy praktyki struktury.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Zasady operacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Zasady operacyjne to sposób pracy, a nie lista członków.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zakres kontroli",
+          "poprawna": false,
+          "wyjasnienie": "Zakres kontroli to granice decyzji rady.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-27-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k27-delegowanie-eskalacja",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rodzeństwo nie może się dogadać, kto dostaje większy pokój. Wcześniej umówili się, że wtedy decyduje mama. Jak COBIT 5 nazywa taką umowę?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Delegowaniem uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "Delegowanie oddaje decyzje w dół, a tu sprawa idzie w górę.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Zasadami operacyjnymi",
+          "poprawna": false,
+          "wyjasnienie": "Zasady operacyjne mówią, jak zespół działa na co dzień.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Procedurą eskalacji",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To ustalona droga w górę, gdy nie da się podjąć decyzji."
+        },
+        {
+          "tekst": "Zakresem kontroli",
+          "poprawna": false,
+          "wyjasnienie": "Zakres kontroli to granice decyzji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-27-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k27-delegowanie-eskalacja",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Komitet ds. strategii IT przekazuje kierownikom projektów decyzje o wydatkach do 50 000 zł. Którą dobrą praktykę struktury stosuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Delegowanie uprawnień",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Komitet oddaje część decyzji strukturom podległym."
+        },
+        {
+          "tekst": "Procedurę eskalacji sporu",
+          "poprawna": false,
+          "wyjasnienie": "Eskalacja przenosi sprawę w górę, a nie w dół.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Skład",
+          "poprawna": false,
+          "wyjasnienie": "Skład to lista członków komitetu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zasady operacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Zasady operacyjne to sposób pracy komitetu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-27-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k27-delegowanie-eskalacja",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Która dobra praktyka struktur organizacyjnych opisuje **wymagane działania w przypadku problemów z podjęciem decyzji**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Procedury eskalacji",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak definiuje je podręcznik na s. 75."
+        },
+        {
+          "tekst": "Delegowanie uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "Delegowanie to przekazanie decyzji strukturom podległym.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zakres kontroli",
+          "poprawna": false,
+          "wyjasnienie": "Zakres kontroli to granice uprawnień decyzyjnych.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "Poziom uprawnień to decyzje, które struktura może podjąć.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-27-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "lekcja": "en-k27-delegowanie-eskalacja",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak brzmi **na polskim egzaminie** nazwa praktyki *Delegation of authority*?",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Przekazywanie uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "To nazwa z polskiego podręcznika.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Delegowanie uprawnień",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To nazwa egzaminacyjna."
+        },
+        {
+          "tekst": "Poziom uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "To inna praktyka: *Level of authority*.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Eskalacja uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "Takiej praktyki COBIT 5 nie wymienia.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-30-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k30-role-c-level",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "W domu jedna osoba pilnuje rachunków i budżetu. Druga dba, żeby wszystko działało na co dzień: zakupy, naprawy, grafik. Do której roli z Rysunku 33 podobna jest druga osoba?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "CFO – dyrektor ds. finansowych",
+          "poprawna": false,
+          "wyjasnienie": "CFO przypomina pierwsza osoba, od budżetu.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "CIO – dyrektor ds. informatyki",
+          "poprawna": false,
+          "wyjasnienie": "CIO dopasowuje IT do biznesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "COO – dyrektor ds. operacyjnych",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. COO odpowiada za funkcjonowanie organizacji."
+        },
+        {
+          "tekst": "CEO – dyrektor generalny całej organizacji",
+          "poprawna": false,
+          "wyjasnienie": "CEO odpowiada za pełne zarządzanie, a nie tylko za codzienne działanie.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-30-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k30-role-c-level",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "W banku jedna osoba odpowiada za bezpieczeństwo informacji we wszystkich formach, także papierowych. Jaka to rola z Rysunku 33?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "CISO",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. CISO to dyrektor ds. bezpieczeństwa informacji we wszystkich formach."
+        },
+        {
+          "tekst": "CIO",
+          "poprawna": false,
+          "wyjasnienie": "CIO odpowiada za dopasowanie strategii IT i biznesowej.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "CRO",
+          "poprawna": false,
+          "wyjasnienie": "CRO odpowiada za ryzyko całej organizacji, nie tylko za informację.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Dyrektor ds. operacji IT",
+          "poprawna": false,
+          "wyjasnienie": "Ten dyrektor odpowiada za środowiska operacyjne i infrastrukturę.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-30-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k30-role-c-level",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Która rola jest **rozliczana za Ład** organizacji (w podręczniku: nadzór) i sprawuje ogólną kontrolę nad jej zasobami?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zarząd",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje zarząd Rysunek 33."
+        },
+        {
+          "tekst": "CEO – dyrektor generalny całej organizacji",
+          "poprawna": false,
+          "wyjasnienie": "CEO odpowiada za pełne zarządzanie organizacją, a nie za Ład.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Komitet ds. strategii (wykonawczy IT)",
+          "poprawna": false,
+          "wyjasnienie": "Komitet zajmuje się portfelami IT.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Audyt",
+          "poprawna": false,
+          "wyjasnienie": "Audyt przeprowadza audyty wewnętrzne.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-31-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k31-komitety-biura",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "W szkole rada rodziców decyduje, na co wydać fundusz klasowy. Sekretariat zbiera faktury i robi zestawienia. Kto bardziej przypomina **biuro** z Rysunku 33?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 77
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Rada rodziców – bo decyduje o pieniądzach",
+          "poprawna": false,
+          "wyjasnienie": "Rada decyduje, więc przypomina komitet, a nie biuro.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Dyrektor szkoły – bo zatwierdza wydatki",
+          "poprawna": false,
+          "wyjasnienie": "Dyrektor to rola, a nie biuro wspierające.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Sekretariat – wspiera i raportuje",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Biura z Rysunku 33 wspierają, zbierają informacje i raportują."
+        },
+        {
+          "tekst": "Wszyscy rodzice – bo dostają zestawienia",
+          "poprawna": false,
+          "wyjasnienie": "Odbiorcy zestawień nie są biurem.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-31-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k31-komitety-biura",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Ubezpieczyciel chce, by ktoś oceniał szanse inwestycyjne i uzasadnienia biznesowe nowych projektów IT. Która struktura z Rysunku 33 ma to w opisie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 77
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PMO – biuro zarządzania projektami",
+          "poprawna": false,
+          "wyjasnienie": "PMO wspiera kierowników projektów i raportuje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Rada ds. Architektury",
+          "poprawna": false,
+          "wyjasnienie": "Rada zajmuje się architekturą korporacyjną.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Komitet ds. zarządzania ryzykiem",
+          "poprawna": false,
+          "wyjasnienie": "Ten komitet zajmuje się ryzykiem całej organizacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "VMO – biuro zarządzania wartością",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. VMO doradza w sprawie szans inwestycyjnych i uzasadnień biznesowych."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-31-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k31-komitety-biura",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Kto zazwyczaj **przewodniczy** komitetowi ds. strategii (wykonawczemu IT)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Członek zarządu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Podręcznik mówi: członek zarządu, nie zaś CIO."
+        },
+        {
+          "tekst": "Dyrektor ds. informatyki (CIO)",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik wyraźnie mówi, że zazwyczaj nie CIO.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Kierownik biura PMO",
+          "poprawna": false,
+          "wyjasnienie": "PMO wspiera projekty, a nie prowadzi komitetu strategii.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Dyrektor ds. bezpieczeństwa informacji",
+          "poprawna": false,
+          "wyjasnienie": "CISO odpowiada za bezpieczeństwo informacji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-31-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k31-komitety-biura",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która struktura daje wytyczne programom i projektom, przydziela im zasoby i zarządza ich ryzykiem?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PMO",
+          "poprawna": false,
+          "wyjasnienie": "PMO tylko wspiera kierowników i raportuje.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "VMO",
+          "poprawna": false,
+          "wyjasnienie": "VMO to sekretariat portfela inwestycji i usług.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Rada ds. Architektury",
+          "poprawna": false,
+          "wyjasnienie": "Rada zajmuje się architekturą korporacyjną.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Komitet sterujący",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje komitety sterujące Rysunek 33."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-32-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k32-pozostale-role",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "W restauracji kierowniczka sali dba o sprawną obsługę gości, stale ją poprawia i zatwierdza zmiany w sposobie obsługi. Do której roli z Rysunku 33 jest jej najbliżej?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "CEO – dyrektora generalnego",
+          "poprawna": false,
+          "wyjasnienie": "CEO odpowiada za całą organizację.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Audytu",
+          "poprawna": false,
+          "wyjasnienie": "Audyt niezależnie sprawdza, a nie prowadzi procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Właściciela procesu biznesowego",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Odpowiada za sprawność, doskonalenie i zmiany jednego procesu."
+        },
+        {
+          "tekst": "Członka naczelnego kierownictwa",
+          "poprawna": false,
+          "wyjasnienie": "Ta rola odpowiada za całą jednostkę biznesową.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-32-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k32-pozostale-role",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Uczelnia chce mieć osobę, która dopilnuje, by po awarii centrum danych najważniejsze funkcje działały dalej. Jaka to rola z Rysunku 33?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 77
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Dyrektor ds. operacji IT",
+          "poprawna": false,
+          "wyjasnienie": "Odpowiada za środowiska operacyjne i infrastrukturę, a nie za ciągłość działania.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Kierownik ds. ciągłości działalności biznesowej",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Odpowiada za ciągłość funkcji krytycznych po zakłóceniach."
+        },
+        {
+          "tekst": "CISO",
+          "poprawna": false,
+          "wyjasnienie": "CISO odpowiada za bezpieczeństwo informacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Audyt",
+          "poprawna": false,
+          "wyjasnienie": "Audyt przeprowadza audyty wewnętrzne.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-32-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k32-pozostale-role",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Która rola z Rysunku 33 odpowiada za **proces** związany z architekturą korporacyjną?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "CIO",
+          "poprawna": false,
+          "wyjasnienie": "CIO odpowiada za dopasowanie strategii IT i biznesowej.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Rada ds. Architektury",
+          "poprawna": false,
+          "wyjasnienie": "Rada daje wytyczne oraz tworzy polityki i standardy architektury.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Dyrektor ds. rozwoju rozwiązań IT",
+          "poprawna": false,
+          "wyjasnienie": "Odpowiada za procesy rozwoju rozwiązań IT.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Dyrektor ds. architektury",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje tę rolę podręcznik na s. 76."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-32-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k32-pozostale-role",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak nazywa się funkcja odpowiedzialna za wytyczne dotyczące zgodności z wymogami prawnymi, regulacyjnymi i umownymi?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Audyt",
+          "poprawna": false,
+          "wyjasnienie": "Audyt przeprowadza audyty wewnętrzne.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Dyrektor ds. prywatności",
+          "poprawna": false,
+          "wyjasnienie": "Odpowiada tylko za przepisy o ochronie prywatności.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Zgodność",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje ją Rysunek 33."
+        },
+        {
+          "tekst": "CRO – dyrektor ds. ryzyka",
+          "poprawna": false,
+          "wyjasnienie": "CRO odpowiada za ryzyko całej organizacji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-35-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-16"
+      ],
+      "lekcja": "en-k35-kultura-czym-jest",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "W domu obowiązuje hasło „mówimy prawdę”, ale za każdą przyznaną stłuczkę dzieci dostają karę. Co zwykle się dzieje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 80
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Dzieci mówią jeszcze więcej prawdy.",
+          "poprawna": false,
+          "wyjasnienie": "Kara za szczerość działa odwrotnie.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Dzieci zaczynają ukrywać stłuczki.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Kary i nagrody kształtują zachowanie silniej niż hasło."
+        },
+        {
+          "tekst": "Nic się nie zmienia, bo hasło wystarcza.",
+          "poprawna": false,
+          "wyjasnienie": "Hasło przegrywa z tym, co ludzi spotyka w praktyce.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Trzeba zapisać dłuższe hasło.",
+          "poprawna": false,
+          "wyjasnienie": "Długość hasła nie zmieni zachowania.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-35-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-16"
+      ],
+      "lekcja": "en-k35-kultura-czym-jest",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Firma ma rzetelną metodykę tworzenia oprogramowania, a aplikacje i tak są pełne błędów. Zespoły dostają premie tylko za termin. Gdzie leży główna przyczyna według COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 80
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "W zachętach, które nagradzają pośpiech, czyli w kulturze i zachowaniu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To Przykład 11: zachęty promowały złe zachowanie."
+        },
+        {
+          "tekst": "W samej metodyce, którą trzeba napisać od nowa",
+          "poprawna": false,
+          "wyjasnienie": "Metodyka jest dobra. Ludzie omijają ją z powodu zachęt.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "W zbyt słabych serwerach testowych",
+          "poprawna": false,
+          "wyjasnienie": "Problem nie wynika ze sprzętu ani z narzędzi.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "W niskiej jakości danych o projektach",
+          "poprawna": false,
+          "wyjasnienie": "Nic nie wskazuje na złą jakość informacji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-35-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-16"
+      ],
+      "lekcja": "en-k35-kultura-czym-jest",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Który aktywator podręcznik COBIT 5 nazywa **często niedocenianym czynnikiem sukcesu** działań związanych z Ładem i Zarządzaniem?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 27
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Aktywator 3 – Struktury organizacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Struktury to kluczowe jednostki decyzyjne.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Aktywator 5 – Informacja",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik opisuje informację jako kluczowy produkt organizacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Aktywator 7 – Ludzie, Umiejętności i Kompetencje",
+          "poprawna": false,
+          "wyjasnienie": "Ten aktywator jest wymagany do działań i decyzji, ale to nie on jest tak nazwany.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Aktywator 4 – Kultura, Etyka i Zachowanie",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 27."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-35-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-16"
+      ],
+      "lekcja": "en-k35-kultura-czym-jest",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak COBIT 5 opisuje aktywator **Kultura, Etyka i Zachowanie**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 79
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Kluczowe jednostki podejmujące decyzje",
+          "poprawna": false,
+          "wyjasnienie": "To opis Struktur organizacyjnych.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zbiór zachowań indywidualnych i zbiorowych w organizacji",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To opis z s. 79."
+        },
+        {
+          "tekst": "Wartości zapisane w regulaminie pracy",
+          "poprawna": false,
+          "wyjasnienie": "Kultura to rzeczywiste zachowania, nie tylko zapisy.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Ludzie potrzebni do realizacji działań",
+          "poprawna": false,
+          "wyjasnienie": "To opis aktywatora Ludzie, Umiejętności i Kompetencje.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-36-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-15"
+      ],
+      "lekcja": "en-k36-poziomy-etyki",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Twój kolega z pracy nigdy nie kłamie, bo tak go wychowano, a jego wiara tego wymaga. Który poziom celów aktywatora to opisuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 79
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Etykę indywidualną",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To osobiste wartości z domu, wiary i doświadczeń."
+        },
+        {
+          "tekst": "Etykę organizacyjną",
+          "poprawna": false,
+          "wyjasnienie": "Etyka organizacyjna to wartości całej organizacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kulturę organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Kulturę tworzą zachowania wielu osób, a nie wartości jednej.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Reguły i normy",
+          "poprawna": false,
+          "wyjasnienie": "Reguły i normy to dobra praktyka, a nie poziom celów.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-36-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-15"
+      ],
+      "lekcja": "en-k36-poziomy-etyki",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Bank zapisuje w kodeksie: „uczciwość wobec klienta stawiamy ponad wynik sprzedaży”. Który poziom celów aktywatora to jest?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 79
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom etyki indywidualnej pracowników",
+          "poprawna": false,
+          "wyjasnienie": "Etyka indywidualna to wartości jednej osoby.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom zachowań indywidualnych",
+          "poprawna": false,
+          "wyjasnienie": "Zachowania to to, co ludzie faktycznie robią.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom etyki organizacyjnej",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To wartości, na których organizacja chce działać."
+        },
+        {
+          "tekst": "Dobra praktyka komunikowania wartości",
+          "poprawna": false,
+          "wyjasnienie": "Komunikowanie to dobra praktyka, a nie poziom celów.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-36-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-15"
+      ],
+      "lekcja": "en-k36-poziomy-etyki",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Po każdej awarii w firmie najpierw szuka się winnego, a przyczyny zostają. Który rodzaj zachowań z COBIT 5 opisuje ta sytuacja?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 79
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zachowanie związane z podejmowaniem ryzyka",
+          "poprawna": false,
+          "wyjasnienie": "Ta kategoria dotyczy tego, ile ryzyka organizacja przyjmuje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zachowanie związane z przestrzeganiem polityki",
+          "poprawna": false,
+          "wyjasnienie": "Ta kategoria dotyczy stosowania polityk.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zachowanie w przypadku negatywnych wyników",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Organizacja przypisuje winę zamiast uczyć się na błędach."
+        },
+        {
+          "tekst": "Etyka indywidualna pracowników",
+          "poprawna": false,
+          "wyjasnienie": "To poziom wartości, a nie rodzaj zachowania.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-36-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-15"
+      ],
+      "lekcja": "en-k36-poziomy-etyki",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Co według COBIT 5 łącznie określa **kulturę** organizacji?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 79
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Indywidualne wzorce zachowań",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Zachowania wielu osób razem tworzą kulturę."
+        },
+        {
+          "tekst": "Etyka indywidualna jednego lidera",
+          "poprawna": false,
+          "wyjasnienie": "Wartości jednej osoby nie tworzą kultury całej organizacji.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Treść regulaminu pracy",
+          "poprawna": false,
+          "wyjasnienie": "Regulamin to zapis, a kultura to rzeczywiste zachowania.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Struktura organizacyjna firmy",
+          "poprawna": false,
+          "wyjasnienie": "Struktury to inny aktywator.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-37-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-14"
+      ],
+      "lekcja": "en-k37-praktyki-zachowan",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Trener sam przychodzi punktualnie na każdy trening. Po miesiącu zawodnicy też przestają się spóźniać. Jaką praktykę to ilustruje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 80
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zachęty i nagrody",
+          "poprawna": false,
+          "wyjasnienie": "Trener nikogo nie nagradza.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Reguły i normy",
+          "poprawna": false,
+          "wyjasnienie": "Nie pojawia się żadna spisana reguła.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Egzekwowanie wymagań",
+          "poprawna": false,
+          "wyjasnienie": "Trener nie egzekwuje, tylko daje przykład.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Budowanie świadomości przez przykład przełożonego",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Przykład kierownictwa buduje świadomość pożądanych zachowań."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-37-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-14"
+      ],
+      "lekcja": "en-k37-praktyki-zachowan",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Firma wiąże część premii z ukończeniem szkoleń z bezpieczeństwa i zgłaszaniem incydentów. Którą dobrą praktykę kształtowania zachowań stosuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 80
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Komunikowanie pożądanych wartości",
+          "poprawna": false,
+          "wyjasnienie": "Komunikowanie to mówienie o wartościach, a nie premia.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wskazanie czempionów",
+          "poprawna": false,
+          "wyjasnienie": "Czempioni to osoby dające przykład.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Procedury eskalacji",
+          "poprawna": false,
+          "wyjasnienie": "To dobra praktyka struktur organizacyjnych.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zachęty i środki zniechęcające",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Zachęty wiążą się z systemem wynagrodzeń."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-37-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-14"
+      ],
+      "lekcja": "en-k37-praktyki-zachowan",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Która z opcji jest dobrą praktyką aktywatora **Kultura, Etyka i Zachowanie**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 79
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wskazanie czempionów (osób wspierających)",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Czempioni to dobra praktyka z Rysunku 34."
+        },
+        {
+          "tekst": "Delegowanie uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "To dobra praktyka struktur organizacyjnych.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zasady operacyjne",
+          "poprawna": false,
+          "wyjasnienie": "To dobra praktyka struktur organizacyjnych.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Definicja pryncypiów architektury korporacyjnej",
+          "poprawna": false,
+          "wyjasnienie": "To dobra praktyka aktywatora Usługi, Infrastruktura i Aplikacje.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-37-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-14"
+      ],
+      "lekcja": "en-k37-praktyki-zachowan",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Szpital dopisuje do polityki: „każdy błąd w podaniu leku zgłaszasz w ciągu godziny; za samo zgłoszenie nie ma kary”. Jaką dobrą praktykę ilustruje ten zapis?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 80
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Etykę indywidualną",
+          "poprawna": false,
+          "wyjasnienie": "To poziom celów, a nie dobra praktyka.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Procedury eskalacji",
+          "poprawna": false,
+          "wyjasnienie": "To dobra praktyka struktur organizacyjnych.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wskazanie czempionów",
+          "poprawna": false,
+          "wyjasnienie": "Zapis nie wskazuje żadnej osoby.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Reguły i normy",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To szczegółowa wskazówka zachowania powiązana z polityką."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-40-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-18"
+      ],
+      "lekcja": "en-k40-informacja-cykl",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Komputer w aucie zapisuje spalanie z każdej trasy. Po miesiącu widzisz, że w mieście auto pali dwa razy więcej. Zaczynasz jeździć tramwajem. Co jest tu **wiedzą**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 81
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zapisy spalania z każdej trasy",
+          "poprawna": false,
+          "wyjasnienie": "To dane.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zestawienie spalania ze wszystkich tras z miesiąca",
+          "poprawna": false,
+          "wyjasnienie": "To informacja.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Pieniądze zaoszczędzone na paliwie",
+          "poprawna": false,
+          "wyjasnienie": "To wartość.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wniosek, że w mieście auto pali dwa razy więcej",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wiedza to wniosek wyciągnięty z informacji."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-40-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-18"
+      ],
+      "lekcja": "en-k40-informacja-cykl",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Sklep internetowy od pięciu lat gromadzi dane o zakupach, ale nikt ich nie analizuje. Jaką wartość mają te informacje według COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 84
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Tym większą, im więcej danych zebrano.",
+          "poprawna": false,
+          "wyjasnienie": "Ilość danych nie tworzy wartości.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Równą kosztom ich zebrania i przechowania.",
+          "poprawna": false,
+          "wyjasnienie": "Koszt to nie wartość.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Same w sobie żadnej – korzyść daje dopiero ich wykorzystanie.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Informacje nie mają wartości same w sobie (s. 84)."
+        },
+        {
+          "tekst": "Pełną, bo informacja jest zasobem organizacji.",
+          "poprawna": false,
+          "wyjasnienie": "Informacja jest zasobem, ale wartość daje dopiero wykorzystanie.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-40-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-18"
+      ],
+      "lekcja": "en-k40-informacja-cykl",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jaka jest kolejność w **cyklu informacji** COBIT 5 (Rysunek 35)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 81
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Informacje → dane → wiedza → wartość",
+          "poprawna": false,
+          "wyjasnienie": "Dane i informacje są zamienione.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Dane → wiedza → informacje → wartość",
+          "poprawna": false,
+          "wyjasnienie": "Wiedza powstaje z informacji, nie odwrotnie.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Dane → informacje → wiedza → wartość",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak wygląda Ilustracja 35 w podręczniku."
+        },
+        {
+          "tekst": "Planowanie → projektowanie → budowanie → użytkowanie",
+          "poprawna": false,
+          "wyjasnienie": "To początek cyklu życia informacji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-40-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-18"
+      ],
+      "lekcja": "en-k40-informacja-cykl",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Za co odpowiada **opiekun informacji**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 82
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Za tworzenie informacji",
+          "poprawna": false,
+          "wyjasnienie": "To rola wytwórcy informacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Za korzystanie z informacji",
+          "poprawna": false,
+          "wyjasnienie": "To rola konsumenta informacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Za zatwierdzanie budżetu na systemy informacyjne",
+          "poprawna": false,
+          "wyjasnienie": "To nie jest rola z modelu informacji.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Za przechowywanie i utrzymywanie informacji",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje tę rolę podręcznik na s. 82."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-41-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-17"
+      ],
+      "lekcja": "en-k41-jakosc-informacji",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rozkład jazdy na przystanku był poprawny, ale od miesiąca obowiązuje nowy. Które kryterium jakości informacji zawodzi?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 82
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Dokładność",
+          "poprawna": false,
+          "wyjasnienie": "Rozkład był dokładny w swoim czasie. Problemem jest wiek informacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Aktualność",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Informacja nie jest dość aktualna do zadania."
+        },
+        {
+          "tekst": "Ograniczony dostęp",
+          "poprawna": false,
+          "wyjasnienie": "Rozkład wisi publicznie i tak ma być.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Obiektywność",
+          "poprawna": false,
+          "wyjasnienie": "Rozkład jest bezstronny.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-41-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-17"
+      ],
+      "lekcja": "en-k41-jakosc-informacji",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Lekarz na nocnej zmianie nie może otworzyć wyników badań pacjenta, bo nie ma uprawnień. Do którego podwymiaru należy kryterium, które zawiodło?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 82
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Jakość wewnętrzna",
+          "poprawna": false,
+          "wyjasnienie": "Wyniki mogą być dokładne. Problemem jest dostęp.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Jakość kontekstowa i reprezentacji",
+          "poprawna": false,
+          "wyjasnienie": "Nie chodzi o przydatność treści, tylko o dostęp.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Jakość bezpieczeństwa i dostępności",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Informacja nie jest dostępna, gdy jest wymagana."
+        },
+        {
+          "tekst": "Warstwa empiryczna modelu informacji",
+          "poprawna": false,
+          "wyjasnienie": "To warstwa modelu, a nie podwymiar jakości.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-41-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-17"
+      ],
+      "lekcja": "en-k41-jakosc-informacji",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Do którego podwymiaru jakości informacji należą **dokładność, obiektywność, wiarygodność i reputacja**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 82
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Jakość wewnętrzna",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. W podręczniku: jakość rzeczywista."
+        },
+        {
+          "tekst": "Jakość kontekstowa i reprezentacji",
+          "poprawna": false,
+          "wyjasnienie": "Tu należą m.in. istotność, kompletność, aktualność.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Jakość bezpieczeństwa i dostępności",
+          "poprawna": false,
+          "wyjasnienie": "Tu należą dostępność i ograniczony dostęp.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Warstwa semantyczna",
+          "poprawna": false,
+          "wyjasnienie": "To warstwa modelu informacji, a nie podwymiar jakości.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-41-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-17"
+      ],
+      "lekcja": "en-k41-jakosc-informacji",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Co oznacza kryterium **ograniczony dostęp**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 82
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Informacje są dostępne zawsze, gdy są wymagane.",
+          "poprawna": false,
+          "wyjasnienie": "To kryterium dostępności/terminowości.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Informacje są udostępniane wyłącznie upoważnionym stronom.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak definiuje je podręcznik na s. 82."
+        },
+        {
+          "tekst": "Informacje są przedstawione zwięźle.",
+          "poprawna": false,
+          "wyjasnienie": "To kryterium zwięzłego przedstawienia.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Informacji jest odpowiednia ilość do zadania.",
+          "poprawna": false,
+          "wyjasnienie": "To kryterium odpowiedniej ilości informacji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-42-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-19"
+      ],
+      "lekcja": "en-k42-model-informacji",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Zastanawiasz się, czy zdjęcia z wakacji trzymać na pendrivie, czy w chmurze. Której warstwy modelu informacji dotyczy to pytanie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 84
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Semantycznej",
+          "poprawna": false,
+          "wyjasnienie": "Semantyczna dotyczy znaczenia informacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Społecznej",
+          "poprawna": false,
+          "wyjasnienie": "Społeczna dotyczy kontekstu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Syntaktycznej",
+          "poprawna": false,
+          "wyjasnienie": "Syntaktyczna dotyczy języka i formatu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Fizycznej",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Warstwa fizyczna opisuje nośnik informacji."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-42-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-19"
+      ],
+      "lekcja": "en-k42-model-informacji",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Zespół bezpieczeństwa szpitala sprawdza, gdzie fizycznie leżą dane pacjentów, jakimi kanałami są dostępne i jak długo trzeba je przechowywać. Do czego używa modelu informacji?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 84
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Do specyfikacji informacji dla nowej aplikacji",
+          "poprawna": false,
+          "wyjasnienie": "To zastosowanie z Przykładu 13, a tu chodzi o ochronę.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Do oceny poziomu zdolności procesu",
+          "poprawna": false,
+          "wyjasnienie": "Model informacji nie służy do oceny zdolności.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Do określenia wymaganej ochrony informacji",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To zastosowanie z Przykładu 14."
+        },
+        {
+          "tekst": "Do zaprojektowania architektury docelowej",
+          "poprawna": false,
+          "wyjasnienie": "To dobra praktyka innego aktywatora.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-42-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-19"
+      ],
+      "lekcja": "en-k42-model-informacji",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Która warstwa modelu informacji obejmuje atrybut **język i format**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 83
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Syntaktyczna",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Składnia odnosi się do formy informacji."
+        },
+        {
+          "tekst": "Semantyczna",
+          "poprawna": false,
+          "wyjasnienie": "Semantyczna dotyczy znaczenia.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Empiryczna",
+          "poprawna": false,
+          "wyjasnienie": "Empiryczna dotyczy kanału dostępu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Pragmatyczna",
+          "poprawna": false,
+          "wyjasnienie": "Pragmatyczna dotyczy wykorzystania informacji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-42-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-19"
+      ],
+      "lekcja": "en-k42-model-informacji",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Do której warstwy modelu informacji należy atrybut **okres przechowywania**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 83
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Fizycznej",
+          "poprawna": false,
+          "wyjasnienie": "Fizyczna opisuje nośnik.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Semantycznej",
+          "poprawna": false,
+          "wyjasnienie": "Semantyczna opisuje typ, aktualność i poziom informacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Pragmatycznej",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Pragmatyka odnosi się do sposobu wykorzystania informacji."
+        },
+        {
+          "tekst": "Społecznej (kontekst)",
+          "poprawna": false,
+          "wyjasnienie": "Społeczna opisuje kontekst.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-45-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-21"
+      ],
+      "lekcja": "en-k45-uslugi-zdolnosc",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Oglądasz wieczorem film. Router, telewizor i aplikacja z filmami razem dają Ci usługę „oglądamy film”. Jak COBIT 5 nazywa to, co razem dają?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 85
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Infrastruktura",
+          "poprawna": false,
+          "wyjasnienie": "Infrastruktura to tylko część całości, np. router.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Zdolność usługowa",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To łącznie usługi, infrastruktura i aplikacje."
+        },
+        {
+          "tekst": "Aplikacja",
+          "poprawna": false,
+          "wyjasnienie": "Aplikacja to tylko część całości.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Architektura docelowa",
+          "poprawna": false,
+          "wyjasnienie": "Architektura docelowa to plan na przyszłość.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-45-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-21"
+      ],
+      "lekcja": "en-k45-uslugi-zdolnosc",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Ubezpieczyciel przenosi pocztę e-mail do dostawcy chmury. Kto według COBIT 5 może świadczyć usługi w tym aktywatorze?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 85
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wyłącznie wewnętrzny dział IT",
+          "poprawna": false,
+          "wyjasnienie": "Usługi mogą świadczyć też dostawcy w ramach outsourcingu.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Wyłącznie zewnętrzni dostawcy",
+          "poprawna": false,
+          "wyjasnienie": "Usługi świadczy także dział IT.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Wyłącznie zarząd organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Zarząd nie świadczy usług IT.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Strony wewnętrzne, np. dział IT, i zewnętrzne, np. dostawcy",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 85."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-45-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-21"
+      ],
+      "lekcja": "en-k45-uslugi-zdolnosc",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Co według COBIT 5 stanowi **jedną ze zdolności usługowych** (w podręczniku: zdolności do świadczenia usług)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 28
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Cele procesu",
+          "poprawna": false,
+          "wyjasnienie": "Cele procesu należą do wymiaru Cele aktywatora Procesy; nie są zdolnością usługową.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Polityka bezpieczeństwa informacji",
+          "poprawna": false,
+          "wyjasnienie": "To dokument z aktywatora Zasady, polityki i struktury ramowe. Kieruje zachowaniem, ale nie jest zdolnością usługową.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kultura organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Kultura to osobny aktywator.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Informacja",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Podręcznik (s. 86): informacje stanowią jedną ze zdolności do świadczenia usług, czyli – w nazwie egzaminacyjnej – zdolności usługowych."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-45-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-21"
+      ],
+      "lekcja": "en-k45-uslugi-zdolnosc",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak brzmi **na polskim egzaminie** termin *Service capabilities*?",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zdolność do świadczenia usług",
+          "poprawna": false,
+          "wyjasnienie": "To nazwa z polskiego podręcznika.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Poziom usług",
+          "poprawna": false,
+          "wyjasnienie": "Poziom usług to *service level*, inny termin.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Katalog usług",
+          "poprawna": false,
+          "wyjasnienie": "Katalog usług to inny termin.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zdolność usługowa",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To nazwa egzaminacyjna."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-46-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-20"
+      ],
+      "lekcja": "en-k46-trzy-architektury",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Przeprowadzasz się. Masz plan mebli w starym mieszkaniu, plan w nowym i plan na tydzień, gdy część rzeczy jest już przewieziona. Jak COBIT 5 nazwałby plan na ten tydzień?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 85
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Architekturą referencyjną",
+          "poprawna": false,
+          "wyjasnienie": "Referencyjna opisuje stan obecny, czyli stare mieszkanie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Architekturą przejściową",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Opisuje etap pośredni w drodze do celu."
+        },
+        {
+          "tekst": "Architekturą docelową",
+          "poprawna": false,
+          "wyjasnienie": "Docelowa opisuje nowe mieszkanie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Repozytorium architektury",
+          "poprawna": false,
+          "wyjasnienie": "Repozytorium to miejsce na opisy, a nie plan.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-46-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-20"
+      ],
+      "lekcja": "en-k46-trzy-architektury",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Uczelnia opisuje serwery, aplikacje i sieć, z których korzysta dziś. Jaką architekturę opisuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 85
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Docelową",
+          "poprawna": false,
+          "wyjasnienie": "Docelowa opisuje stan przyszły.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Przejściową",
+          "poprawna": false,
+          "wyjasnienie": "Przejściowa opisuje etapy w drodze do celu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Punkt widzenia architektury",
+          "poprawna": false,
+          "wyjasnienie": "Punkt widzenia to sposób przedstawienia architektury.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Referencyjną (bazową)",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Architektura referencyjna opisuje obecną zdolność usługową."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-46-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-20"
+      ],
+      "lekcja": "en-k46-trzy-architektury",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Które elementy to dobre praktyki aktywatora **Usługi, Infrastruktura i Aplikacje**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zasady operacyjne, zakres kontroli, eskalacja",
+          "poprawna": false,
+          "wyjasnienie": "To dobre praktyki struktur organizacyjnych.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Komunikowanie, zachęty, czempioni",
+          "poprawna": false,
+          "wyjasnienie": "To dobre praktyki kultury.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zakres, konsekwencje, wyjątki, kontrola zgodności",
+          "poprawna": false,
+          "wyjasnienie": "To elementy struktury polityk.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Pryncypia, punkty widzenia, repozytorium architektury i poziomy usług",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 86."
+        }
+      ]
+    },
+    {
+      "id": "q-enk-46-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-20"
+      ],
+      "lekcja": "en-k46-trzy-architektury",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Gdzie zwykle opisuje się **przyszłą lub planowaną** zdolność usługową?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 85
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "W architekturze docelowej",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 85."
+        },
+        {
+          "tekst": "W architekturze referencyjnej",
+          "poprawna": false,
+          "wyjasnienie": "Referencyjna opisuje stan obecny.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "W architekturze przejściowej",
+          "poprawna": false,
+          "wyjasnienie": "Przejściowa opisuje tylko etapy pośrednie.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "W tabeli RACI",
+          "poprawna": false,
+          "wyjasnienie": "Tabela RACI przypisuje role.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-47-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-20"
+      ],
+      "lekcja": "en-k47-pryncypia-architektury",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rodzina zamiast pięciu osobnych kartek ma jedną wspólną listę zakupów w telefonie. Każdy dopisuje do niej swoje rzeczy. Które pryncypium architektury to przypomina?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Nabywanie zamiast budowania",
+          "poprawna": false,
+          "wyjasnienie": "Nie ma tu wyboru między kupnem a budową.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ponowne wykorzystanie",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Jeden wspólny komponent służy wszystkim."
+        },
+        {
+          "tekst": "Zwinność",
+          "poprawna": false,
+          "wyjasnienie": "Zwinność to szybka odpowiedź na zmiany.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Otwartość",
+          "poprawna": false,
+          "wyjasnienie": "Otwartość dotyczy otwartych standardów.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-47-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-20"
+      ],
+      "lekcja": "en-k47-pryncypia-architektury",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Szpital potrzebuje systemu rejestracji. Gotowy produkt spełnia wymagania, a nikt nie zatwierdził powodu, by pisać własny. Które pryncypium wskazuje decyzję?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Prostota",
+          "poprawna": false,
+          "wyjasnienie": "Prostota to prawdziwe pryncypium, ale nie rozstrzyga o kupnie.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Nabywanie zamiast budowania",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Kupuj, chyba że jest zatwierdzony powód, by budować."
+        },
+        {
+          "tekst": "Zwinność",
+          "poprawna": false,
+          "wyjasnienie": "Zwinność dotyczy szybkiej reakcji na zmiany.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ponowne wykorzystanie komponentów",
+          "poprawna": false,
+          "wyjasnienie": "Ponowne wykorzystanie dotyczy wspólnych komponentów.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-47-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-20"
+      ],
+      "lekcja": "en-k47-pryncypia-architektury",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Które pryncypium architektury mówi, że architektura korporacyjna powinna opierać się na **otwartych standardach branżowych**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Otwartość",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje je podręcznik na s. 86."
+        },
+        {
+          "tekst": "Prostota",
+          "poprawna": false,
+          "wyjasnienie": "Prostota to architektura możliwie najprostsza.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zwinność",
+          "poprawna": false,
+          "wyjasnienie": "Zwinność to szybka odpowiedź na zmieniające się potrzeby.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ponowne wykorzystanie",
+          "poprawna": false,
+          "wyjasnienie": "Ponowne wykorzystanie to wspólne komponenty.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-47-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-20"
+      ],
+      "lekcja": "en-k47-pryncypia-architektury",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Sklep internetowy chce, by jego systemy szybko dało się dostosować do nowych potrzeb, np. nowej formy płatności. Które pryncypium architektury to opisuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Prostota",
+          "poprawna": false,
+          "wyjasnienie": "Prostota dotyczy możliwie najprostszej architektury.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Otwartość",
+          "poprawna": false,
+          "wyjasnienie": "Otwartość dotyczy otwartych standardów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zwinność",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Zwinność pozwala spełniać zmieniające się potrzeby biznesu."
+        },
+        {
+          "tekst": "Nabywanie zamiast budowania",
+          "poprawna": false,
+          "wyjasnienie": "Nabywanie dotyczy wyboru między kupnem a budową.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-50-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-22"
+      ],
+      "lekcja": "en-k50-ludzie-cele",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Wybierając opiekunkę do dziecka, patrzysz na kurs pierwszej pomocy, ale też na cierpliwość i sposób bycia. Co z tego to **umiejętności behawioralne**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 87
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Ukończony kurs pierwszej pomocy dla dzieci",
+          "poprawna": false,
+          "wyjasnienie": "To kwalifikacje, czyli jakość wewnętrzna.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Liczba lat w zawodzie",
+          "poprawna": false,
+          "wyjasnienie": "To doświadczenie, osobny cel.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Cierpliwość i sposób zachowania",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Umiejętności behawioralne dotyczą zachowania."
+        },
+        {
+          "tekst": "Wiek opiekunki",
+          "poprawna": false,
+          "wyjasnienie": "Wiek nie jest celem tego aktywatora.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-50-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-22"
+      ],
+      "lekcja": "en-k50-ludzie-cele",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "W dziale IT banku co roku odchodzi 40% administratorów. Do której grupy celów aktywatora Ludzie, Umiejętności i Kompetencje należy ten problem?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 87
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Jakości wewnętrznej – kwalifikacje",
+          "poprawna": false,
+          "wyjasnienie": "Tu należą wykształcenie, kwalifikacje i umiejętności techniczne.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Jakości kontekstowej – rotacja",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Rotacja i dostępność to cele jakości kontekstowej."
+        },
+        {
+          "tekst": "Cyklu informacji",
+          "poprawna": false,
+          "wyjasnienie": "Cykl informacji to inny aktywator.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Pryncypiów architektury",
+          "poprawna": false,
+          "wyjasnienie": "Pryncypia to dobra praktyka innego aktywatora.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-50-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-22"
+      ],
+      "lekcja": "en-k50-ludzie-cele",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Które cele Rysunek 38 przypisuje **jakości wewnętrznej** w aktywatorze Ludzie, Umiejętności i Kompetencje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 87
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Doświadczenie, wiedza i umiejętności behawioralne pracowników",
+          "poprawna": false,
+          "wyjasnienie": "To cele jakości kontekstowej.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wykształcenie i kwalifikacje oraz umiejętności techniczne",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak podaje Ilustracja 38 w podręczniku."
+        },
+        {
+          "tekst": "Dostępność personelu i wskaźnik rotacji",
+          "poprawna": false,
+          "wyjasnienie": "To też cele jakości kontekstowej.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Okres przechowywania i status",
+          "poprawna": false,
+          "wyjasnienie": "To atrybuty modelu informacji.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-50-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-22"
+      ],
+      "lekcja": "en-k50-ludzie-cele",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Do czego według COBIT 5 jest wymagany aktywator Ludzie, Umiejętności i Kompetencje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 27
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wyłącznie do rekrutacji nowych pracowników",
+          "poprawna": false,
+          "wyjasnienie": "Rekrutacja to część procesu APO07.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Do realizacji działań, podejmowania decyzji i działań naprawczych",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 27."
+        },
+        {
+          "tekst": "Do przetwarzania informacji i usług IT",
+          "poprawna": false,
+          "wyjasnienie": "To opis aktywatora Usługi, Infrastruktura i Aplikacje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Do komunikowania wartości organizacji",
+          "poprawna": false,
+          "wyjasnienie": "To rola zasad i polityk.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-51-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-22"
+      ],
+      "lekcja": "en-k51-cykl-zycia-umiejetnosci",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Zanim zapiszesz dziecko na dodatkowe zajęcia, sprawdzasz, co już umie, a czego musi się nauczyć. Od którego etapu cyklu życia umiejętności zaczynasz?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 87
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Od rozwijania umiejętności",
+          "poprawna": false,
+          "wyjasnienie": "Zajęcia przyjdą później, po wglądzie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Od wglądu w obecne umiejętności i planowania",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Cykl zaczyna się od wiedzy o tym, co jest dziś."
+        },
+        {
+          "tekst": "Od okresowej oceny",
+          "poprawna": false,
+          "wyjasnienie": "Ocena okresowa zamyka cykl i wraca do planowania.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Od pozbywania się umiejętności",
+          "poprawna": false,
+          "wyjasnienie": "Nic tu nie przestaje być potrzebne.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-51-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-22"
+      ],
+      "lekcja": "en-k51-cykl-zycia-umiejetnosci",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Bank zleca drukowanie wyciągów zewnętrznej firmie. Jego pracownicy nie muszą już obsługiwać maszyn drukarskich. Który etap cyklu życia umiejętności to opisuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 87
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Pozyskiwanie nowych umiejętności",
+          "poprawna": false,
+          "wyjasnienie": "Pozyskiwanie to np. rekrutacja nowych osób.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Wdrażanie w rolach",
+          "poprawna": false,
+          "wyjasnienie": "Nikt nie dostaje nowej roli.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Pozbywanie się umiejętności",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Działanie zlecono w ramach outsourcingu."
+        },
+        {
+          "tekst": "Okresowa ocena",
+          "poprawna": false,
+          "wyjasnienie": "Nie ma tu przeglądu bazy umiejętności.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-51-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-22"
+      ],
+      "lekcja": "en-k51-cykl-zycia-umiejetnosci",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jaka jest **dobra praktyka** aktywatora Ludzie, Umiejętności i Kompetencje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 87
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zdefiniowanie pryncypiów architektury",
+          "poprawna": false,
+          "wyjasnienie": "To dobra praktyka aktywatora Usługi, Infrastruktura i Aplikacje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zdefiniowanie wymagań umiejętności dla każdej roli",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wymagania opisuje się poziomami w kategoriach umiejętności."
+        },
+        {
+          "tekst": "Wskazanie czempionów",
+          "poprawna": false,
+          "wyjasnienie": "To dobra praktyka kultury.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Opisanie zakresu kontroli",
+          "poprawna": false,
+          "wyjasnienie": "To dobra praktyka struktur organizacyjnych.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-51-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-22"
+      ],
+      "lekcja": "en-k51-cykl-zycia-umiejetnosci",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co dzieje się z wynikami okresowej oceny bazy umiejętności?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 87
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Są archiwizowane bez dalszego użycia.",
+          "poprawna": false,
+          "wyjasnienie": "Wyniki służą planowaniu kolejnego okresu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Trafiają wyłącznie do audytu wewnętrznego.",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik wskazuje planowanie i wynagradzanie.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Trafiają do planowania i mogą trafić do systemu wynagradzania.",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak mówi podręcznik na s. 87."
+        },
+        {
+          "tekst": "Zastępują rekrutację w kolejnym roku.",
+          "poprawna": false,
+          "wyjasnienie": "Ocena nie zastępuje pozyskiwania umiejętności.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-52-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-23"
+      ],
+      "lekcja": "en-k52-kategorie-umiejetnosci",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "W firmie remontowej jedna osoba wybiera, które zlecenia w ogóle przyjąć w tym roku. Druga prowadzi jeden konkretny remont. Jak COBIT 5 nazwałby umiejętność pierwszej osoby?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 88
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zarządzanie pojedynczymi projektami",
+          "poprawna": false,
+          "wyjasnienie": "To umiejętność drugiej osoby, która prowadzi jeden remont.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Analiza biznesowa",
+          "poprawna": false,
+          "wyjasnienie": "Analiza biznesowa dotyczy wymagań rozwiązania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zarządzanie portfelami projektów",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wybór, które projekty robimy, to portfel."
+        },
+        {
+          "tekst": "Eksploatacja IT",
+          "poprawna": false,
+          "wyjasnienie": "Eksploatacja to codzienna obsługa systemów.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-52-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-23"
+      ],
+      "lekcja": "en-k52-kategorie-umiejetnosci",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Dział IT ubezpieczyciela szuka osoby, która dopilnuje, by serwery wytrzymały styczniowy szczyt obciążenia. Do której domeny Rysunek 39 przypisuje zarządzanie pojemnością?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 88
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "BAI",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Zarządzanie pojemnością to kategoria domeny BAI."
+        },
+        {
+          "tekst": "DSS",
+          "poprawna": false,
+          "wyjasnienie": "W DSS jest zarządzanie dostępnością, a nie pojemnością.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "APO",
+          "poprawna": false,
+          "wyjasnienie": "APO to m.in. strategia, architektura i portfele.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "MEA",
+          "poprawna": false,
+          "wyjasnienie": "MEA to zgodność, monitorowanie i audyt.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-52-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-23"
+      ],
+      "lekcja": "en-k52-kategorie-umiejetnosci",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Do której domeny Rysunek 39 przypisuje kategorię umiejętności **zarządzanie portfelami projektów**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 88
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "BAI",
+          "poprawna": false,
+          "wyjasnienie": "W BAI jest zarządzanie projektami, a nie portfelami.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "APO",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wybór projektów to planowanie, czyli APO."
+        },
+        {
+          "tekst": "EDM",
+          "poprawna": false,
+          "wyjasnienie": "EDM to Ład IT (w podręczniku: nadzór nad IT).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "MEA",
+          "poprawna": false,
+          "wyjasnienie": "MEA to zgodność, monitorowanie i audyt.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-52-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-23"
+      ],
+      "lekcja": "en-k52-kategorie-umiejetnosci",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Do której domeny należy kategoria umiejętności **audyt mechanizmów kontrolnych**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 88
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "DSS",
+          "poprawna": false,
+          "wyjasnienie": "DSS to codzienna obsługa, np. Service Desk.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "MEA",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. MEA sprawdza: zgodność, sprawność i mechanizmy kontrolne."
+        },
+        {
+          "tekst": "EDM",
+          "poprawna": false,
+          "wyjasnienie": "EDM to Ład IT (w podręczniku: nadzór nad IT).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "APO",
+          "poprawna": false,
+          "wyjasnienie": "APO to planowanie i organizacja.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-enk-30-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "lekcja": "en-k30-role-c-level",
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Bank powołuje komitet ds. strategii (wykonawczy IT), który ma dbać o zaangażowanie zarządu w najważniejsze decyzje o IT. Kto według Rysunku 33 zwykle przewodniczy takiemu komitetowi?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Dyrektor ds. informatyki (CIO)",
+          "poprawna": false,
+          "wyjasnienie": "To typowa pułapka. Podręcznik zaznacza, że przewodniczącym jest zwykle członek zarządu, a nie CIO.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Dyrektor ds. finansowych (CFO)",
+          "poprawna": false,
+          "wyjasnienie": "CFO odpowiada za zarządzanie finansami, ryzyko finansowe i rachunkowość, a nie za prowadzenie komitetu IT.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Członek zarządu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Komitet tworzy zarząd, a przewodniczy mu zazwyczaj członek zarządu – dzięki temu zarząd jest blisko decyzji o IT."
+        },
+        {
+          "tekst": "Dyrektor ds. architektury",
+          "poprawna": false,
+          "wyjasnienie": "Dyrektor ds. architektury odpowiada za proces architektury korporacyjnej; wytyczne architektoniczne daje Rada ds. Architektury.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    }
+  ]
+}

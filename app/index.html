@@ -3,8 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>COBIT 5 Foundation – kurs od zera</title>
+  <title>COBIT 5 Foundation</title>
   <meta name="color-scheme" content="light dark">
+  <script>
+    // Aplikacja główna to podręcznik krok po kroku – tutaj zostały tylko narzędzia (egzamin, słownik, powtórki).
+    if (!location.hash || location.hash === '#/' || location.hash === '#') location.replace('podrecznik/index.html');
+  </script>
   <script>
     // Ustaw motyw i rozmiar tekstu przed pierwszym renderem (bez migania).
     try {
@@ -21,32 +25,24 @@
   <div id="app" class="app">
     <header class="topbar" role="banner">
       <button class="icon-btn only-mobile" id="navToggle" aria-expanded="false" aria-controls="nav">☰ Menu</button>
-      <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">C5</span>COBIT 5 <span class="brand-sub">Foundation</span></a>
+      <a class="brand" href="podrecznik/index.html"><span class="brand-mark" aria-hidden="true">C5</span>COBIT 5 <span class="brand-sub">Foundation</span></a>
       <nav class="topnav" aria-label="Sekcje">
-        <a href="#/" data-nav="home">Start</a>
-        <a href="#/dzien" data-nav="dzien">Dziś</a>
+        <a href="podrecznik/index.html" data-nav="podrecznik">Podręcznik</a>
+        <a href="podrecznik/mapa.html" data-nav="mapa">Mapa COBIT 5</a>
         <a href="#/powtorki" data-nav="powtorki">Powtórki</a>
         <a href="#/slownik" data-nav="slownik">Słownik</a>
         <a href="#/egzamin" data-nav="egzamin">Egzamin</a>
-        <a class="nav-extra" href="#/mapa" data-nav="mapa">Mapa COBIT 5</a>
         <a class="nav-extra" href="#/dryl" data-nav="dryl">Ćwiczenie nazw z egzaminu</a>
         <a class="nav-extra" href="#/notatki" data-nav="notatki">Notatki</a>
-        <a class="nav-extra" href="#/mentor" data-nav="mentor">Mentor</a>
         <details class="more" id="moreMenu">
           <summary>Więcej</summary>
           <div class="pop">
-            <a href="#/mapa" data-nav="mapa">Mapa COBIT 5</a>
             <a href="#/dryl" data-nav="dryl">Ćwiczenie nazw z egzaminu</a>
             <a href="#/notatki" data-nav="notatki">Notatki</a>
-            <a href="#/mentor" data-nav="mentor">Mentor</a>
           </div>
         </details>
       </nav>
       <div class="topbar-tools">
-        <details class="settings help" id="helpMenu">
-          <summary class="icon-btn help-btn" aria-label="Co mam teraz zrobić?">? <span class="lbl-long">Co mam teraz zrobić</span><span class="lbl-short">Co teraz?</span></summary>
-          <div class="pop pop-right help-pop" id="helpPop" aria-live="polite"></div>
-        </details>
         <details class="settings" id="settingsMenu">
           <summary class="icon-btn" title="Poziom szczegółów, kolory i wielkość liter">Aa Wygląd</summary>
           <div class="pop pop-right set-pop">

@@ -44,11 +44,13 @@ export async function renderExam(main) {
   AREA_WEIGHT = Object.fromEntries(Object.entries(w).map(([a, v]) => [a, v / wSum]));
   store.ensureStarted();
   const dayNow = currentDay(units);
-  const sp1Locked = dayNow < sp1Day && !store.get().sp1Early;
+  // Plan dni zastąpił podręcznik krok po kroku – arkusz nie jest już blokowany dniem kursu.
+  const sp1Locked = false;
   const authored = [...questions.values()].filter((q) => (q.typ === 'egzamin' || q.typ === 'studium') && !q.pretest && !q.final && q.opcje?.length === 4);
   // §15 – finał: pytania z plików final-* (pliki, www, mistrz); odblokowanie po pierwszym podejściu do SP1.
   const finalPool = [...questions.values()].filter((q) => q.final && (q.typ === 'egzamin' || q.typ === 'studium') && q.opcje?.length === 4);
-  const sp1Done = () => store.get().exams.some((e) => e.name === 'Sample Paper 1');
+  // Bez arkusza (wersja do udostępnienia) finał odblokowuje się od razu.
+  const sp1Done = () => !sample || store.get().exams.some((e) => e.name === 'Sample Paper 1');
   let sessionCleanup = null;
 
   function lobby() {
@@ -57,18 +59,21 @@ export async function renderExam(main) {
       <div class="page">
         <h1>Centrum egzaminacyjne</h1>
         <p class="page-lead">Jak egzamin komputerowy PeopleCert po polsku: 50 pytań, 4 odpowiedzi, jedna poprawna, jedno pytanie na ekranie, możliwość oznaczenia pytania do powrotu, 40 minut. Próg zaliczenia: 25/50; cel w próbnych egzaminach: co najmniej 35/50. Omówienie dopiero po zakończeniu.</p>
-        <p class="small muted" style="margin:-16px 0 24px">Dodatkowe 10 minut przysługuje tylko przy egzaminie w języku innym niż ojczysty, więc tu ich nie ma (sylabus PeopleCert v01.2, pkt 3.3).</p>
+        <p class="small muted" style="margin:-16px 0 24px">Dodatkowe 10 minut przysługuje przy egzaminie w języku innym niż ojczysty albo osobom z niepełnosprawnością, więc tu ich nie ma (sylabus PeopleCert v01.2, pkt 3.3). Sylabus podaje próg „50% (20 or more marks)” – bezpieczniej celować w co najmniej 25 z 50.</p>
         <label class="card" style="display:flex;gap:12px;align-items:flex-start;margin-bottom:16px;cursor:pointer">
           <input type="checkbox" id="fullFlow" checked style="margin-top:4px">
           <span><strong>Pełna procedura krok po kroku</strong><br><span class="small muted">Test systemu, logowanie, NDA, instrukcja, samouczek, zasady, dokument tożsamości, kontrola z proktorem, egzamin, ankieta i raport – w kolejności jak w dniu egzaminu online. Odznacz, żeby od razu przejść do pytań.</span></span>
         </label>
         <div class="grid grid-2">
-          <div class="card">
+          ${sample ? `<div class="card">
             <h3 style="margin-top:0">Sample Paper 1 (PL)</h3>
             <p class="muted small">${sample ? `${sample.length} pytań z oficjalnego arkusza próbnego, z uzasadnieniami. Tylko do użytku lokalnego.` : 'Arkusza Sample Paper 1 nie ma jeszcze na tym komputerze.'}</p>
             ${sp1Locked && sample ? `<p class="small" style="color:var(--trap)">🔒 Zablokowany do dnia ${sp1Day} (dziś: dzień ${dayNow}). To jedyny niezależny pomiar na nieznanych pytaniach.</p>` : ''}
             <button class="btn ${sp1Locked ? '' : 'btn-primary'}" data-start="sample" ${sample ? '' : 'disabled'}>${sp1Locked ? 'Otwórz mimo blokady…' : 'Rozpocznij'}</button>
-          </div>
+          </div>` : `<div class="card">
+            <h3 style="margin-top:0">Oficjalny arkusz próbny</h3>
+            <p class="muted small">Arkusz próbny PeopleCert (Sample Paper) jest chroniony prawem autorskim, więc nie ma go w tej wersji aplikacji. Poproś o niego organizatora szkolenia albo ośrodek egzaminacyjny i rozwiąż go na papierze w 40 minut – to najlepszy niezależny pomiar.</p>
+          </div>`}
           <div class="card">
             <h3 style="margin-top:0">Próbny egzamin z pytań kursu</h3>
             <p class="muted small">${authored.length} pytań w puli. Losowanie w proporcjach egzaminu: ${Object.entries(w).map(([a, v]) => `${a} ${v}`).join(' · ')} (na 50).</p>
@@ -81,11 +86,11 @@ export async function renderExam(main) {
         </div>
         <h2 class="section-title">Finał – „skrajnie biegły”</h2>
         <div class="grid grid-2">
-          <div class="card">
+          ${sample ? `<div class="card">
             <h3 style="margin-top:0">Sample Paper 1 – drugi raz, z omówieniem</h3>
             <p class="muted small">Po pierwszym pomiarze nic już nie zawyża wyniku. Teraz przechodzisz arkusz spokojnie, pytanie po pytaniu, z uzasadnieniem każdej odpowiedzi.</p>
-            ${sp1Done() ? `<button class="btn btn-lg" data-start="sp1learn" ${sample ? '' : 'disabled'}>Przejdź z omówieniem</button>` : '<p class="small">🔒 Odblokuje się po pierwszym podejściu do Sample Paper 1.</p>'}
-          </div>
+            ${store.get().exams.some((e) => e.name === 'Sample Paper 1') ? `<button class="btn btn-lg" data-start="sp1learn">Przejdź z omówieniem</button>` : '<p class="small">🔒 Odblokuje się po pierwszym podejściu do Sample Paper 1.</p>'}
+          </div>` : ''}
           <div class="card">
             <h3 style="margin-top:0">Egzamin mistrzowski</h3>
             <p class="muted small">50 trudniejszych pytań (z plików kursu, inspirowane źródłami z internetu i mistrzowskie), 40 minut, bez podpowiedzi. Próg: co najmniej 40/50 dwa razy z rzędu i każdy obszar ≥ 70%.</p>

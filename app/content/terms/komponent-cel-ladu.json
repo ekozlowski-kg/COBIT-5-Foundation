@@ -35,8 +35,8 @@
   "przyklady": {
     "zycie": "Rodzina planuje zakup samochodu. Zanim wybierze model, ustala, po co. Auto ma wozić dzieci do szkoły (korzyść), nie psuć się zimą (ryzyko) i nie zjeść oszczędności (zasoby). To „po co” jest Celem Ładu w domowym systemie decyzji.",
     "biuro": "Kierowniczka biura ustala, po co kupuje nową drukarkę: ma drukować szybciej, nie psuć się co tydzień i nie kosztować fortuny. Ten cel rozstrzyga potem wybór modelu i umowy serwisowej.",
-    "organizacja": "Właściciel piekarni ustala, po co mu nowy system kasowy: szybsza obsługa klientów, bez ryzyka utraty danych i bez przepłacania. Każdą decyzję o kasach porównuje potem z tym celem. To Cel Ładu, pierwszy komponent Podejścia do Ładu.\n\nRada gminy zapisuje w strategii cyfryzacji: e-usługi mają oszczędzać czas mieszkańców, chronić ich dane i mieścić się w budżecie. Ten zapis to Cel Ładu, czyli wspólny punkt odniesienia dla decyzji o IT w gminie.",
-    "psp": "**Po co nam Syrena?** Komendantka Anna Wrzos zaczyna odprawę od jednego zdania na tablicy: „Syrena ma szybciej sprowadzać pomoc, nie może zawodzić i nie może pochłonąć całego budżetu”. Każdy pomysł kpt. Sikory porównuje potem z tym zdaniem. To Cel Ładu komendy: tworzenie wartości z korzyści, ryzyka i zasobów.",
+    "organizacja": "Właściciel piekarni ustala, po co mu nowy system kasowy: szybsza obsługa klientów, bez ryzyka utraty danych i bez przepłacania. Każdą decyzję o kasach porównuje potem z tym celem. To Cel Ładu, pierwszy komponent Podejścia do Ładu.",
+    "admin": "Rada gminy zapisuje w strategii cyfryzacji: e-usługi mają oszczędzać czas mieszkańców, chronić ich dane i mieścić się w budżecie. Ten zapis to Cel Ładu, czyli wspólny punkt odniesienia dla decyzji o IT w gminie. Gdy wójt proponuje nowy system, radni pytają: kto zyska, kto poniesie ryzyko i ile to będzie kosztować.",
     "it": "Procesy EDM02, EDM03 i EDM04 odpowiadają trzem częściom Celu Ładu: realizacji korzyści, optymalizacji ryzyka i optymalizacji zasobów (Ilustracja 16, s. 33)."
   },
   "nieMylicZ": [
@@ -86,7 +86,7 @@
   "mapa": "komponent-cel-ladu",
   "glebokosc": {
     "prosty": "Zanim kupisz coś dużego, pytasz: po co mi to? Ma się przydać, nie narobić kłopotów i nie zrujnować portfela. To „po co” jest celem. Bez niego każda decyzja jest przypadkowa.",
-    "zaawansowany": "Po awarii na Lipowej komendantka Wrzos ustala Cel Ładu dla Syreny. Chce szybszego alarmu ([[realizacja-korzysci|korzyść]]), braku cichych awarii ([[optymalizacja-ryzyka|ryzyko]]) i rozsądnego abonamentu ([[optymalizacja-zasobow|zasoby]]). Dopiero potem dobiera [[aktywatory-ladu|aktywatory Ładu]], np. politykę powiadamiania. Zakup najtańszej oferty bez pytania o korzyść i ryzyko pokazał, co się dzieje bez celu. Cel Ładu jest punktem odniesienia dla pozostałych trzech komponentów.",
+    "zaawansowany": "Po awarii płatności zarząd sklepu internetowego ustala Cel Ładu dla nowej platformy sprzedażowej. Chce większej sprzedaży ([[realizacja-korzysci|korzyść]]), braku niezauważonych awarii ([[optymalizacja-ryzyka|ryzyko]]) i rozsądnego abonamentu ([[optymalizacja-zasobow|zasoby]]). Dopiero potem dobiera [[aktywatory-ladu|aktywatory Ładu]], np. politykę bezpieczeństwa płatności. Zakup najtańszej oferty bez pytania o korzyść i ryzyko pokazał, co się dzieje bez celu. Cel Ładu jest punktem odniesienia dla pozostałych trzech komponentów.",
     "skrajny": "Na egzaminie pada lista: Cel Ładu, aktywatory Ładu, zakres Ładu oraz „Oszacuj, Kieruj i Monitoruj”. Brzmi spójnie, bo EDM to przecież domena Ładu. Ale Oszacuj, Kieruj i Monitoruj to praktyki w każdym z 5 procesów Ładu, a procesy to jeden z aktywatorów. Czwartym komponentem z Ilustracji 8 są **role, działania i relacje**. Drugi haczyk: korzyści, ryzyko i zasoby to nie trzy osobne komponenty, tylko trzy części jednego Celu Ładu. **Rozstrzygnięcie:** komponenty są cztery: cel, aktywatory, zakres oraz role, działania i relacje. Korzyści, ryzyko i zasoby siedzą wewnątrz celu, a EDM to praktyki procesów Ładu."
   },
   "zagmatwania": [
@@ -99,7 +99,7 @@
       "prawda": "To trzy składniki jednego komponentu: Celu Ładu, czyli tworzenia wartości."
     },
     {
-      "mit": "W urzędzie albo w PSP Cel Ładu to zysk.",
+      "mit": "W urzędzie albo w szpitalu publicznym Cel Ładu to zysk.",
       "prawda": "W podmiotach publicznych korzyścią są usługi publiczne, np. szybka pomoc (s. 17)."
     }
   ],

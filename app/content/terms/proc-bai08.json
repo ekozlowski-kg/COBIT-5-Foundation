@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Dziadek jako jedyny wie, jak odpowietrzyć piec w domu. Wnuk nagrywa go telefonem, spisuje kroki na kartce i przykleja ją przy piecu. Gdy piec się zmieni, kartkę wymienia. Wiedza przestaje być w jednej głowie.",
     "biuro": "Przed urlopem spisujesz w zeszycie, jak obsłużyć trzech trudnych klientów. Koleżanka po powrocie dopisuje czwartego.",
-    "organizacja": "Infolinia firmy kurierskiej ma bazę odpowiedzi, którą konsultantki uzupełniają, a kierownik co miesiąc czyści. Kierowniczka urzędu stanu cywilnego przed emeryturą spisuje z młodszymi koleżankami nietypowe przypadki.",
-    "psp": "**Kto umie obsłużyć Syrenę.** Okazuje się, że tylko asp. sztab. Paweł Grab zna tryb awaryjny Syreny. Kpt. Sikora prosi go o spisanie kroków, a Ola Dudek wrzuca instrukcję do wspólnej bazy SK i ustala, że po każdej zmianie ktoś ją sprawdza. Stara wersja trafia do archiwum. Utrzymywanie aktualnej, dostępnej wiedzy to [[proc-bai08]].",
+    "organizacja": "Infolinia firmy kurierskiej ma bazę odpowiedzi, którą konsultantki uzupełniają, a kierownik co miesiąc czyści.",
+    "admin": "Kierowniczka urzędu stanu cywilnego w urzędzie miasta za rok przechodzi na emeryturę. Razem z dwiema młodszymi koleżankami spisuje nietypowe przypadki, np. ślub z cudzoziemcem albo przeniesienie zagranicznego aktu urodzenia do polskiego rejestru, i zapisuje instrukcje we wspólnym folderze. Co pół roku zespół przegląda wpisy i usuwa te, które zdezaktualizowały się po zmianie przepisów.",
     "it": "Praktyki BAI08: kultura dzielenia się wiedzą, źródła informacji, porządkowanie wiedzy, jej użycie oraz ocena i wycofanie. Rejestr znanych błędów z DSS03 to przykład takiej wiedzy."
   },
   "nieMylicZ": [
@@ -80,8 +80,8 @@
   "mapa": "proc-bai08",
   "glebokosc": {
     "prosty": "Mama ma w głowie przepis na pierogi i nikt inny go nie zna. Pewnego dnia siadasz z nią i spisujesz go krok po kroku. Teraz pierogi zrobi każdy w rodzinie, także gdy mamy nie ma.",
-    "zaawansowany": "Grab jako jedyny umie włączyć tryb awaryjny Syreny. Sikora każe spisać instrukcję, Dudek umieszcza ją w bazie SK i pilnuje aktualności po każdej zmianie. To [[proc-bai08]]. Informacje o tym, z jakich elementów składa się Syrena, prowadzi osobno [[proc-bai10]]. Przygotowanie dyżurnych do nowego sposobu pracy to [[proc-bai05]].",
-    "skrajny": "Kasia Nowik pyta dwie rzeczy. „Na jakim serwerze stoi Syrena i z jaką bramką SMS jest połączona?” oraz „Jak krok po kroku przełączyć Syrenę w tryb awaryjny?”. Obie odpowiedzi leżą w komputerze, obie są informacją. Pierwsza opisuje elementy systemu i ich powiązania – to repozytorium konfiguracji z BAI10. Druga to wiedza o tym, jak pracować – instrukcja z BAI08. Pułapka: oba procesy prowadzą „bazę”. **Rozstrzygnięcie:** „Z czego to się składa i co od czego zależy?” → BAI10. „Jak to zrobić i czego się nauczyliśmy?” → BAI08 (interpretacja kursu)."
+    "zaawansowany": "Tylko jeden starszy administrator umie przełączyć system rozliczeń w tryb awaryjny. Kierownik IT każe spisać instrukcję, administratorka umieszcza ją w bazie wiedzy helpdesku i pilnuje aktualności po każdej zmianie. To [[proc-bai08]]. Informacje o tym, z jakich elementów składa się system, prowadzi osobno [[proc-bai10]]. Przygotowanie pracowników do nowego sposobu pracy to [[proc-bai05]].",
+    "skrajny": "Nowy konsultant helpdesku pyta o dwie rzeczy. „Na jakim serwerze stoi system rozliczeń i z jaką bazą danych jest połączony?” oraz „Jak krok po kroku przełączyć system w tryb awaryjny?”. Obie odpowiedzi leżą w komputerze, obie są informacją. Pierwsza opisuje elementy systemu i ich powiązania – to repozytorium konfiguracji z BAI10. Druga to wiedza o tym, jak pracować – instrukcja z BAI08. Pułapka: oba procesy prowadzą „bazę”. **Rozstrzygnięcie:** „Z czego to się składa i co od czego zależy?” → BAI10. „Jak to zrobić i czego się nauczyliśmy?” → BAI08 (interpretacja kursu)."
   },
   "zagmatwania": [
     {
@@ -100,7 +100,7 @@
   "mentor": {
     "czestyBlad": "Uczeń myli BAI08 z BAI10, bo oba „przechowują informacje o systemie”.",
     "jakTlumaczyc": "BAI10 to schemat instalacji elektrycznej w domu. BAI08 to kartka „co zrobić, gdy wywali korki”.",
-    "pytanieKontrolne": "Dudek spisuje obejście znanego błędu Syreny, żeby dyżurni sami mogli je zastosować. Który proces utrzymuje tę instrukcję?",
+    "pytanieKontrolne": "Administratorka spisuje obejście znanego błędu systemu CRM, żeby konsultanci helpdesku sami mogli je zastosować. Który proces utrzymuje tę instrukcję?",
     "odpowiedzKontrolna": "**BAI08** – to wiedza potrzebna do pracy. Sam znany błąd i jego przyczynę ustala DSS03, a z obejścia korzysta DSS02."
   }
 }

@@ -1,0 +1,248 @@
+{
+ "k-en-zasady": [
+  {
+   "h": "Zasada mówi, co cenimy; polityka – jak to robimy",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Warstwa</th><th>Co mówi</th></tr><tr><td><b>Zasada</b></td><td>co cenimy – mało, prostym językiem</td></tr><tr><td><b>Polityka</b></td><td>jak to stosujemy na co dzień</td></tr><tr><td><b>Struktura ramowa</b></td><td>jak wszystko się łączy</td></tr></table></div><p><w k=\"cechy-dobrej-polityki\">Dobra polityka</w>: <b>skuteczna, wydajna, nieinwazyjna</b>.</p>",
+   "c": "Pierwszy aktywator to mechanizm komunikacji: przekłada pożądane zachowanie na praktyczne wytyczne.",
+   "s": "COBIT 5 Framework (PL), s. 27, 67–68",
+   "ctx": "<p><w k=\"zasady-polityki-struktury\">Zasady, Polityki i Struktury ramowe</w> (<span class=\"en\">Principles, Policies and Frameworks</span>) to według podręcznika mechanizm komunikacji, którym <w k=\"organ-ladu\">Organ Ładu i nadzoru</w> i kierownictwo przekazują ludziom wytyczne. Zasad ma być niewiele i mają wyrażać podstawowe wartości. <w k=\"polityka\">Polityki</w> (<span class=\"en\">Policies</span>) podają szczegóły ich stosowania. Struktura ramowa porządkuje całość. Sam COBIT 5 jest przykładem takiej struktury.</p><p>Pułapki. Podręcznik pisze „zasady, polityki i metodyki” i „nieingerencyjne”, a egzamin – „Struktury ramowe” i „nieinwazyjne”. „Zasady” w nazwie aktywatora to wartości Twojej organizacji, a nie pięć zasad COBIT 5. Cechy się nie mieszają. „Ograniczona liczba” opisuje zasady. „Skuteczna i wydajna” opisuje polityki. „Kompleksowa, otwarta i elastyczna, aktualna, dostępna” opisuje strukturę ramową. Skuteczna znaczy, że polityka osiąga cel. Wydajna – że robi to najmniejszym kosztem. Nieinwazyjna – że ludziom wydaje się logiczna.</p><p>Przykład: bank każe zmieniać hasło co tydzień. Pracownicy zapisują hasła na karteczkach. Polityka budzi opór, więc nie jest nieinwazyjna, i w efekcie przestaje być skuteczna. Surowsza polityka nie zawsze jest lepsza.</p>",
+   "lekcje": [
+    "en-k10-po-co-zasady-polityki",
+    "en-k11-zasada-a-polityka"
+   ]
+  },
+  {
+   "h": "Każda polityka mówi: kogo dotyczy, co grozi, kiedy wyjątek, jak sprawdzamy",
+   "b": "<p>W <w k=\"struktura-ramowa-polityki\">strukturze polityk</w> (<span class=\"en\">Policy framework</span>) opisuje się:</p><ol><li>zakres i ważność,</li><li>konsekwencje nieprzestrzegania,</li><li>obsługę wyjątków,</li><li>kontrolę i pomiar zgodności.</li></ol>",
+   "c": "Organizacja niechętna ryzyku ma bardziej restrykcyjne polityki, a każda polityka ma cykl życia.",
+   "s": "COBIT 5 Framework (PL), s. 68",
+   "ctx": "<p>Po angielsku te elementy to <span class=\"en\">scope and validity, consequences of non-compliance, exception handling, compliance monitoring</span>. Podręcznik pisze „zakres i prawidłowość”, ale chodzi o ważność, czyli o to, od kiedy i jak długo polityka obowiązuje. Najczęściej brakuje dwóch elementów: obsługi wyjątków i kontroli zgodności.</p><p>Polityki dopasowuje się do apetytu na ryzyko. Organizacja niechętna ryzyku ma polityki <b>bardziej</b> restrykcyjne niż ta, która ryzykuje agresywnie. Polityki mają też <w k=\"cykl-zycia-polityki\">cykl życia</w> (<span class=\"en\">Policy life cycle</span>). Trzeba je regularnie przeglądać i aktualizować, informować ludzi o nowej wersji i archiwizować stare wersje.</p><p>Przykład: polityka zwrotów w sklepie internetowym. Zakres: wszyscy klienci, obowiązuje od 1 marca. Konsekwencja: bez dowodu zakupu nie ma zwrotu. Wyjątek: towar szyty na miarę. Kontrola: dział jakości co miesiąc sprawdza losowo wybrane zwroty.</p>",
+   "lekcje": [
+    "en-k12-struktura-polityk"
+   ]
+  },
+  {
+   "h": "Politykę realizują przede wszystkim praktyki i działania procesów",
+   "b": "<blockquote>„Praktyki i działania dotyczące procesów są najistotniejszym środkiem realizacji polityk”</blockquote><p>Polityka mówi <b>co i dlaczego</b>, proces – <b>kto, kiedy i w jakich krokach</b>.</p>",
+   "c": "Polityka, której nie wpisano w kroki procesu, zostaje dokumentem w szafie.",
+   "s": "COBIT 5 Framework (PL), s. 68, Przykład 9",
+   "ctx": "<p>Podręcznik wymienia cztery powiązania polityk. Odzwierciedlają one <w k=\"kultura-etyka-zachowanie\">kulturę</w> i promują pożądane zachowanie. Realizują je procesy. <w k=\"struktury-organizacyjne\">Struktury organizacyjne</w> definiują je i wdrażają w swoim zakresie kontroli. Same polityki są informacją, więc muszą być aktualne i dostępne.</p><p>Pułapka: polityka to nie proces. Polityka ustala reguły, a proces je wykonuje. To dwa różne aktywatory. Zmiana jednej polityki porusza też inne aktywatory. W Przykładzie 9 firma pozwala korzystać z mediów społecznościowych na służbowych laptopach. Ludzie muszą przyswoić nowe zachowania i umiejętności, a procesy i ustawienia bezpieczeństwa trzeba zmienić.</p><p>Przykład z urzędu: polityka „pliki z danymi osobowymi szyfrujemy” przez rok niczego nie zmieniła. Zadziałała dopiero wtedy, gdy do procedury wysyłki dopisano krok „zaszyfruj plik”.</p>",
+   "lekcje": [
+    "en-k13-polityki-a-inne-aktywatory"
+   ]
+  }
+ ],
+ "k-en-procesy": [
+  {
+   "h": "Proces zamienia wejścia w wyniki – i zapewnia oraz wymaga innych aktywatorów",
+   "b": "<p><w k=\"proces\">Proces</w> (<span class=\"en\">Process</span>) to zbiór praktyk ukierunkowanych przez polityki i procedury: wejścia → przetwarzanie → wyniki.</p><ul><li>Potrzebuje i wytwarza <b>informację</b>.</li><li><b>Zapewnia i wymaga</b> zdolności usługowych.</li><li>O skuteczności decyduje <b>kultura</b>.</li></ul>",
+   "c": "Udziałowcy, klienci i regulatorzy to interesariusze zewnętrzni procesu.",
+   "s": "COBIT 5 Framework (PL), s. 69–71",
+   "ctx": "<p>Interesariusze procesu są wewnętrzni (zarząd, kierownictwo, pracownicy, wolontariusze) i zewnętrzni (klienci, partnerzy biznesowi, udziałowcy, organy regulacyjne). Ich role zapisuje diagram RACI. Cykl życia procesu: definiowanie, tworzenie, obsługa, monitorowanie, a potem dostosowanie albo wycofanie. Proces potrzebuje też ról z diagramów RACI, innych procesów oraz polityk i procedur.</p><p>Pułapka: proces korzysta z <w k=\"zdolnosc-uslugowa\">zdolności usługowych</w> (infrastruktury i aplikacji), ale też je zapewnia. Pytania o interesariuszy i cele mierzą wynik procesu, czyli <w k=\"wskaznik-opozniony\">wskaźniki opóźnione</w>. Pytania o cykl życia i dobre praktyki mierzą jego działanie, czyli <w k=\"wskaznik-wiodacy\">wskaźniki wiodące</w>. Podręcznik nazywa je „następującymi” i „wyprzedzającymi”.</p><p>Przykład: sklep ma świetnie opisany proces wysyłki. Mimo to magazyn nie dostaje danych, nikt nie wie, kto zatwierdza zwroty, a system kuriera często nie działa. Każdy z tych braków to inny aktywator. Poprawianie samego opisu procesu nic tu nie da.</p>",
+   "lekcje": [
+    "en-k15-proces-aktywator",
+    "en-k18-procesy-a-inne-aktywatory"
+   ]
+  },
+  {
+   "h": "Cele procesu: wewnętrzne, kontekstowe, dostępności i bezpieczeństwa",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Kategoria</th><th>Pytanie</th></tr><tr><td><w k=\"cel-wewnetrzny-procesu\">Wewnętrzne</w> (<span class=\"en\">Intrinsic</span>)</td><td>dobry sam w sobie, zgodny z regułami wewnętrznymi <b>i zewnętrznymi</b>?</td></tr><tr><td><w k=\"cel-kontekstowy-procesu\">Kontekstowe</w> (<span class=\"en\">Contextual</span>)</td><td>dopasowany, zrozumiały, łatwy w użyciu?</td></tr><tr><td><w k=\"cel-dostepnosci-procesu\">Dostępności i bezpieczeństwa</w></td><td>poufny, gdy trzeba, i znany potrzebującym?</td></tr></table></div>",
+   "c": "Zgodność z przepisami zewnętrznymi to cel wewnętrzny, bo „wewnętrzny” znaczy tu „jakość sama w sobie”.",
+   "s": "COBIT 5 Framework (PL), s. 69",
+   "ctx": "<p>Cel procesu to według podręcznika „stwierdzenie opisujące pożądany wynik procesu”. Ma mierniki zgodne z kryteriami SMART. Cele procesu wspierają <w k=\"cele-zwiazane-z-it\">cele związane z Informatyką</w>, a te wspierają cele organizacji (<w k=\"kaskada-celow\">Kaskada Celów</w>). Trzy <w k=\"kategorie-celow-procesu\">kategorie celów procesu</w> odpowiadają ogólnym kategoriom celów aktywatora: jakość wewnętrzna, jakość kontekstowa, dostęp i bezpieczeństwo.</p><p>Pułapka: angielskie <span class=\"en\">intrinsic</span> to nie <span class=\"en\">internal</span>. Zgodność z dowolnym przepisem, nawet unijnym, jest cechą samego procesu, więc to cel wewnętrzny. Podręcznik nazywa cele kontekstowe „celami dotyczącymi zgodności z kontekstem”.</p><p>Przykład: proces reklamacji w banku. Zgodność z ustawą o reklamacjach to cel wewnętrzny. Łatwe stosowanie w małych oddziałach to cel kontekstowy. Procedurę zna każdy konsultant, a dane klientów widzą tylko uprawnieni – to cel dostępności i bezpieczeństwa.</p>",
+   "lekcje": [
+    "en-k16-kategorie-celow-procesu"
+   ]
+  },
+  {
+   "h": "Praktyka mówi „co”, działanie – „jak”, a działania nie są normatywne",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th><w k=\"praktyka-procesu\">Praktyka</w> – „co”</th><th><w k=\"dzialanie-procesu\">Działanie</w> – „jak”</th></tr><tr><td>deklaracja działań dających korzyści i optymalizujących ryzyko oraz zasoby</td><td>konieczne i wystarczające kroki wdrożenia praktyki</td></tr><tr><td>typowa – do dostosowania</td><td>uwzględnia wejścia i wyjścia, ułatwia wyznaczenie ról; <b>nienormatywne</b></td></tr></table></div>",
+   "c": "Działania COBIT 5 to wzór do przerobienia na własne procedury, a nie przepis do wykonania słowo w słowo.",
+   "s": "COBIT 5 Framework (PL), s. 70",
+   "ctx": "<p>Praktyki nadzoru i zarządzania (<span class=\"en\">Governance / Management practices</span>) to katalog, a nie obowiązek. Kierownictwo wybiera praktyki i decyduje, jak je wdrożyć. Może też świadomie zaakceptować ryzyko, że jakiejś praktyki nie wdroży. Szczegółowe działania COBIT 5 odsyła do innych standardów, np. <w k=\"itil\">ITIL</w>, ISO/IEC 27000 i PRINCE2 (metodyka zarządzania projektami). <w k=\"wejscia-wyjscia\">Wejścia i wyjścia</w> dają rejestr i ścieżkę rewizyjną działań; wyjście jednego procesu często jest wejściem innego.</p><p>Podręcznik (s. 70) wylicza cechy obu poziomów osobno. Praktyki nadzoru i zarządzania: są deklaracjami działań, które mają przynieść korzyści oraz zoptymalizować ryzyko i wykorzystanie zasobów; są zgodne z uznanymi normami; są typowe, więc trzeba je dopasować; obejmują role biznesu i IT. Działania (<span class=\"en\">Activities</span>): opisują konieczne i wystarczające kroki wdrożenia praktyki, uwzględniają dane wejściowe i wyniki procesu, ułatwiają ustalenie ról i odpowiedzialności, nie są normatywne. Pułapka: zdanie o korzyściach, ryzyku i zasobach (czyli o Tworzeniu Wartości) opisuje <b>praktykę</b>; zdania o krokach, wejściach i wyjściach oraz rolach – <b>działanie</b>.</p><p>Przykład: firma zmienia ERP (zintegrowany system do zarządzania firmą). Praktyka: zarządzaj zmianami. Działanie: oceń wpływ zmiany i uzyskaj zgodę. Wejście: wniosek o zmianę. Wyjście: zatwierdzona zmiana i wpis w rejestrze zmian. To firma ustala, kto zatwierdza zmianę i w jakim narzędziu.</p>",
+   "lekcje": [
+    "en-k17-praktyki-dzialania"
+   ]
+  }
+ ],
+ "k-en-raci": [
+  {
+   "h": "Każdy z 37 procesów ma ten sam szablon opisu",
+   "b": "<p>Przewodnik Procesy umożliwiające (<span class=\"en\">COBIT 5: Enabling Processes</span>):</p><ul><li>identyfikacja: kod, nazwa, obszar, domena,</li><li>opis – <b>co</b> proces robi,</li><li><w k=\"przeznaczenie-procesu\">przeznaczenie</w> – <b>po co</b> istnieje,</li><li>cele i miary, RACI, praktyki, wytyczne.</li></ul>",
+   "c": "Przeznaczenie procesu (w podręczniku: „cel procesu”) to nie to samo co cele procesu z miernikami.",
+   "s": "COBIT 5 Framework (PL), s. 76; części opisu wg sylabusa",
+   "ctx": "<p>Pełny <w k=\"opis-procesu\">opis procesu</w> ma osiem części. Są to: identyfikacja, opis, przeznaczenie, informacje z kaskady celów (cele związane z Informatyką i ich mierniki), cele i miary procesu, diagram RACI, praktyki (wejścia, wyjścia i działania) oraz powiązane wytyczne. Kolejność prowadzi od ogółu do szczegółu. Nazwy „Przewodnik Aktywacji” nie potwierdziliśmy w oficjalnym arkuszu.</p><p>Pułapka: angielskie <span class=\"en\">process purpose</span> podręcznik tłumaczy jako „cel procesu”, a egzamin jako „przeznaczenie procesu”. „Cele procesu” to osobna część opisu, z miernikami. Przykład identyfikacji: <w k=\"proc-apo12\">APO12</w> Zarządzanie ryzykiem, obszar Zarządzanie, domena Dostosuj, Planuj i Organizuj (<span class=\"en\">Align, Plan and Organise</span>). Dalej idą praktyki APO12.01–APO12.06. Obszar mówi, czy proces należy do Ładu czy do Zarządzania, a domena – do której z pięciu grup procesów.</p>",
+   "lekcje": [
+    "en-k20-opis-procesu"
+   ]
+  },
+  {
+   "h": "RACI: kto wykonuje, kto odpowiada, kogo pytamy, kogo informujemy",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Litera</th><th>Egzamin PL</th><th>Pytanie</th></tr><tr><td>R</td><td><w k=\"raci-r\">Odpowiedzialny wykonawczo</w></td><td>kto wykonuje?</td></tr><tr><td>A</td><td><w k=\"raci-a\">Odpowiedzialny decyzyjnie</w></td><td>kto odpowiada za sukces?</td></tr><tr><td>C</td><td><w k=\"raci-c\">Konsultant</w></td><td>kto daje wejścia?</td></tr><tr><td>I</td><td><w k=\"raci-i\">Informowany</w></td><td>kto dostaje informację?</td></tr></table></div>",
+   "c": "Literę daje rola przy konkretnej praktyce, a nie stanowisko.",
+   "s": "COBIT 5 Framework (PL), s. 75, 89–93",
+   "ctx": "<p><w k=\"raci\">Diagram RACI</w> (<span class=\"en\">RACI chart</span>) wiąże działania procesów ze strukturami organizacyjnymi i rolami. Jest w opisie każdego z 37 procesów i opisuje wymiar interesariuszy procesu. Rozwinięcie liter: <span class=\"en\">Responsible, Accountable, Consulted, Informed</span>.</p><p>RACI nie jest schematem organizacyjnym, bo nie pokazuje, kto komu podlega. Nie jest też Rysunkiem 9, który pokazuje ogólne role w systemie Ładu. Ta sama osoba może mieć R w jednym procesie, a C w innym.</p><p>Przykład: praktyka rozwiązywania incydentów w sklepie internetowym. Zespół wsparcia ma R, kierownik ds. usług IT ma A. Właściciel procesu sprzedaży ma C, bo mówi, co jest najpilniejsze. Klienci mają I, bo dostają komunikat, że sklep działa (przykład kursu, nie cytat z DSS02).</p>",
+   "lekcje": [
+    "en-k21-tabela-raci"
+   ]
+  },
+  {
+   "h": "„Strona odpowiedzialna” to R, nie A; C rozmawia, I tylko słucha",
+   "b": "<ul><li><b>R</b> wykonuje (może być kilku); <b>A</b> jest <b>ostatecznie</b> odpowiedzialny za sukces.</li><li><b>C</b> – komunikacja <b>dwukierunkowa</b>; <b>I</b> – <b>jednokierunkowa</b>.</li><li>A też dostaje informacje, ale nie jest I.</li></ul>",
+   "c": "W pytaniu decyduje czasownik i kierunek rozmowy: „wykonuje” to R, „ostatecznie odpowiada” to A, „zasięga opinii” to C.",
+   "s": "COBIT 5 Framework (PL), s. 89–90, 92–93",
+   "ctx": "<p>Pułapka nazw. Podręcznik pisze „strona odpowiedzialna” (R) i „strona rozliczana” (A). Egzamin pisze „Odpowiedzialny wykonawczo” (R) i „Odpowiedzialny decyzyjnie” (A). Obie nazwy zaczynają się tak samo – różni je drugie słowo: wykonawczo = wykonuje, decyzyjnie = odpowiada za sukces. Regułę „przy jednym zadaniu jeden A” znamy z praktyki diagramów RACI. Słowniczek mówi o stronie ostatecznie odpowiedzialnej.</p><p>Uwagi C to nie grzeczność. R i A powinni uwzględnić dane wejściowe od stron konsultowanych. Gdy tego nie robią, sprawę można przekazać właścicielowi procesu albo komitetowi sterującemu. Rola A zawsze dostaje informacje, żeby nadzorować zadanie.</p><p>Przykład: ubezpieczyciel zmienia CRM. Dział sprzedaży zgłasza wymagania przed zmianą, więc ma C. Agenci dostają e-mail „od poniedziałku nowy ekran”, więc mają I. Programista i tester mają R, a kierownik projektu ma A.</p>",
+   "lekcje": [
+    "en-k22-raci-r-a",
+    "en-k23-raci-c-i"
+   ]
+  }
+ ],
+ "k-en-struktury": [
+  {
+   "h": "Struktura organizacyjna to zespół, którego wynikiem są decyzje",
+   "b": "<p><w k=\"struktury-organizacyjne\">Struktury organizacyjne</w> (<span class=\"en\">Organisational Structures</span>) – zarząd, komitety, rady.</p><ul><li><b>Wynik:</b> działania i decyzje.</li><li><b>Mandat</b> – powód i cel, określone przy założeniu.</li><li><b>Cykl życia:</b> utworzenie → istnienie → dostosowanie → rozwiązanie.</li></ul>",
+   "c": "Komitet bez mandatu ma nazwę i członków, ale nie podejmuje decyzji.",
+   "s": "COBIT 5 Framework (PL), s. 27, 75–76",
+   "ctx": "<p>Struktura podejmuje decyzje na podstawie danych wejściowych, zwykle informacji. Jej wynikiem są decyzje, inne informacje albo prośba o dodatkowe dane. Kultura, etyka i zachowanie decydują o wydajności i skuteczności struktur. Skład zespołu odzwierciedla potrzebne umiejętności, a mandat i zasady działania określają polityki. Struktura może należeć do Ładu albo do Zarządzania – zależy to od jej składu i zakresu decyzji.</p><p>Przykład: komitet sterujący wdrożenia CRM w banku. Mandat: nadzór nad wdrożeniem. Wejście: comiesięczne raporty. Wynik: decyzje, np. przesunięcie terminu albo dodatkowy budżet. Po wdrożeniu komitet się rozwiązuje, co zamyka jego cykl życia. Komitet uczelni powołany bez mandatu po trzech miesiącach nie wiedział, o czym może decydować.</p>",
+   "lekcje": [
+    "en-k25-struktury-organizacyjne"
+   ]
+  },
+  {
+   "h": "Zakres kontroli to granice decyzji, poziom uprawnień – jakie decyzje wolno podjąć",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Dobra praktyka</th><th>Pytanie</th></tr><tr><td><w k=\"zasady-operacyjne\">Zasady operacyjne</w></td><td>jak działamy?</td></tr><tr><td>Skład</td><td>kto jest członkiem?</td></tr><tr><td><w k=\"zakres-kontroli\">Zakres kontroli</w></td><td>granice decyzji?</td></tr><tr><td><w k=\"poziom-uprawnien\">Poziom uprawnień</w></td><td>jakie decyzje?</td></tr><tr><td><w k=\"delegowanie-uprawnien\">Delegowanie uprawnień</w></td><td>co oddajemy <b>w dół</b>?</td></tr><tr><td><w k=\"procedury-eskalacji\">Procedury eskalacji</w></td><td>co idzie <b>w górę</b>?</td></tr></table></div>",
+   "c": "„Granice” to zakres kontroli, „struktura podległa” to delegowanie, „problem z podjęciem decyzji” to eskalacja.",
+   "s": "COBIT 5 Framework (PL), s. 75",
+   "ctx": "<p>Pułapka nazw. W podręczniku są to: zasady działania, zakres (zasięg) kontroli, poziom decyzyjny, przekazywanie uprawnień. Na egzaminie: zasady operacyjne, zakres kontroli, poziom uprawnień, delegowanie uprawnień. Po angielsku: <span class=\"en\">operating principles, composition, span of control, level of authority, delegation of authority, escalation procedures</span>. Wszystkie sześć to <w k=\"dobre-praktyki-struktur\">dobre praktyki struktur</w>, a nie kultury. Czempioni należą do kultury.</p><p>Delegowanie przekazuje część uprawnień strukturom podległym. Procedura eskalacji to droga ustalona z góry na wypadek, gdy struktura nie może podjąć decyzji. Zasady operacyjne to praktyczne ustalenia: jak często się spotykamy i jak dokumentujemy prace.</p><p>Przykład: komitet ds. IT w szpitalu decyduje o systemach, a nie o lekach (zakres kontroli). Sam zatwierdza zakupy do 200 000 zł (poziom uprawnień). Gdy jego członkowie nie mogą się porozumieć, regulamin kieruje sprawę do zarządu (eskalacja).</p>",
+   "lekcje": [
+    "en-k26-praktyki-struktur",
+    "en-k27-delegowanie-eskalacja"
+   ]
+  }
+ ],
+ "k-en-role": [
+  {
+   "h": "Rysunek 33: każda rola ma jedno słowo-klucz",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Rola</th><th>Słowo-klucz</th></tr><tr><td>Zarząd</td><td>rozliczany za nadzór</td></tr><tr><td>CEO – dyrektor generalny</td><td>pełne zarządzanie</td></tr><tr><td>COO</td><td>funkcjonowanie organizacji</td></tr><tr><td>CFO / CRO</td><td>finanse / ryzyko całej organizacji</td></tr><tr><td>CIO – dyrektor ds. informatyki</td><td>dopasowanie strategii IT i biznesowej</td></tr><tr><td>CISO</td><td>bezpieczeństwo informacji we wszystkich formach</td></tr></table></div>",
+   "c": "Dopasowanie strategii IT i biznesu to CIO, a nie CISO ani dyrektor ds. architektury.",
+   "s": "COBIT 5 Framework (PL), s. 76, Ilustracja 33",
+   "ctx": "<p><w k=\"role-organizacyjne\">Role i struktury organizacyjne</w> (<span class=\"en\">Roles and organisational structures</span>; w podręczniku Ilustracja 33) to wzorce używane w diagramach RACI. Tabela ma charakter ilustracyjny i nie wyznacza uniwersalnej struktury organizacyjnej. Jedna osoba może pełnić kilka ról.</p><p>Rozwinięcia skrótów: <span class=\"en\">Chief Executive / Operating / Financial / Risk / Information / Information Security Officer</span>, czyli dyrektor generalny, operacyjny, finansowy, ds. ryzyka, ds. informatyki i ds. bezpieczeństwa informacji. CIO odpowiada też za planowanie, optymalizację zasobów i dostarczanie usług IT. Dyrektor ds. architektury odpowiada za proces architektury korporacyjnej, a dyrektor jednostki biznesowej – za działalność swojej jednostki lub spółki zależnej (s. 76).</p><p>Przykład: w sklepie z 15 pracownikami właścicielka jest CEO i właścicielką procesu sprzedaży. Kierownik IT pełni role dyrektora ds. rozwoju i dyrektora ds. operacji IT. Każda rola z Rysunku 33 istnieje, tylko nie jako osobny etat.</p>",
+   "lekcje": [
+    "en-k30-role-c-level"
+   ]
+  },
+  {
+   "h": "Komitetowi ds. strategii przewodniczy członek zarządu, nie CIO",
+   "b": "<ul><li><b>Komitety</b> decydują: ds. strategii (portfele IT), sterujące (projekty), Rada ds. Architektury, ds. ryzyka.</li><li><b>Biura</b> wspierają: PMO (projekty), VMO (wartość, portfel).</li><li><b>Właściciel procesu biznesowego</b> – sprawność i doskonalenie procesu.</li></ul>",
+   "c": "Komitet decyduje, biuro pomaga, a właściciel procesu pilnuje jednego procesu.",
+   "s": "COBIT 5 Framework (PL), s. 76–77, Ilustracja 33",
+   "ctx": "<p>Komitet ds. strategii (wykonawczy IT) angażuje zarząd w decyzje o IT. Jest rozliczany za portfele inwestycji, usług i zasobów IT. Komitety sterujące dają wytyczne programom i projektom oraz przydzielają im zasoby. Komitet ds. zarządzania ryzykiem w przedsiębiorstwie uzgadnia stanowisko w sprawie ERM (<span class=\"en\">Enterprise Risk Management</span>, zarządzanie ryzykiem w przedsiębiorstwie). PMO (<span class=\"en\">Project Management Office</span>) wspiera kierowników projektów i raportuje. VMO (<span class=\"en\">Value Management Office</span>) jest sekretariatem portfela inwestycji i usług.</p><p>Właściciel procesu biznesowego dba o realizację celów procesu, dąży do jego doskonalenia i zatwierdza zmiany. Inne role z Rysunku 33: zgodność (wymogi prawne i umowne), audyt (audyty wewnętrzne), kierownik ds. ciągłości działania (funkcje krytyczne po zakłóceniach), dyrektor ds. prywatności (ochrony danych).</p><p>Przykład z urzędu marszałkowskiego: komitet wybiera projekty informatyczne na kolejny rok. Biuro zbiera raporty z tych projektów i pomaga kierownikom.</p>",
+   "lekcje": [
+    "en-k31-komitety-biura",
+    "en-k32-pozostale-role"
+   ]
+  }
+ ],
+ "k-en-kultura": [
+  {
+   "h": "Kultura to rzeczywiste zachowania – bez niej procesy i struktury nie działają",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Poziom</th><th>Co to jest</th></tr><tr><td>Etyka organizacyjna</td><td>wartości, na których organizacja chce działać</td></tr><tr><td>Etyka indywidualna</td><td>osobiste wartości pracownika</td></tr><tr><td>Zachowania indywidualne</td><td>razem tworzą kulturę</td></tr></table></div>",
+   "c": "Wartość zapisana dla całej organizacji to etyka organizacyjna, nawet gdy pracownicy osobiście ją podzielają.",
+   "s": "COBIT 5 Framework (PL), s. 27, 79–80, Przykłady 11–12",
+   "ctx": "<p><w k=\"kultura-etyka-zachowanie\">Kultura, Etyka i Zachowanie</w> (<span class=\"en\">Culture, Ethics and Behaviour</span>) to zbiór zachowań indywidualnych i zbiorowych. Podręcznik nazywa ten aktywator często niedocenianym czynnikiem sukcesu. Bez właściwej kultury procesy nie dają wyników, a decyzje struktur nie są wdrażane. Zasady i polityki to bardzo ważny mechanizm komunikowania wartości. Warto obserwować trzy zachowania: podejmowanie ryzyka, przestrzeganie polityk i reakcję na negatywne wyniki.</p><p>Przykład 11: zespoły programistów oceniano tylko za termin i budżet, więc skracały testy. Rozwiązaniem były lepsze zachęty, bo procedury były dobre. Przykład 12: działy biznesowe obwiniają IT o opóźnienia, choć same nie określiły jasno oczekiwań. Podręcznik każe za wszelką cenę unikać kultury obwiniania, bo najbardziej blokuje ona komunikację.</p>",
+   "lekcje": [
+    "en-k35-kultura-czym-jest",
+    "en-k36-poziomy-etyki"
+   ]
+  },
+  {
+   "h": "Zachowania kształtuje komunikowanie, przykład, zachęty i reguły",
+   "b": "<ol><li><b>Komunikowanie</b> wartości.</li><li><b>Świadomość</b> – przykład kierownictwa i <b>czempionów</b> (<span class=\"en\">Champions</span>).</li><li><b>Zachęty</b> i środki zniechęcające.</li><li><b>Reguły i normy</b>.</li></ol><p>Rysunek 34 dodaje <b>egzekwowanie wymagań</b>.</p>",
+   "c": "Czempioni to kultura; delegowanie, zasady operacyjne i eskalacja to struktury organizacyjne.",
+   "s": "COBIT 5 Framework (PL), s. 79–80, Ilustracja 34",
+   "ctx": "<p>Tekst podręcznika opisuje cztery <w k=\"praktyki-zachowan\">dobre praktyki kształtowania zachowań</w>. Zachęty łączy się z systemem wynagrodzeń. Reguły i normy podają szczegóły do zasad i polityk. Ilustracja 34 wymienia sześć haseł: komunikowanie, egzekwowanie wymagań, zachęty i nagrody, świadomość, reguły i normy, osoby wspierające. Podręcznik pisze „osoby wspierające”, a egzamin – „czempioni”.</p><p>Przykład: ubezpieczyciel walczy z fałszywymi e-mailami. Prezes publicznie zgłasza podejrzaną wiadomość (przykład kierownictwa). W każdym dziale działa czempion bezpieczeństwa. Za zgłoszenie jest pochwała (zachęta). Polityka każe przekazać podejrzany e-mail w ciągu godziny (reguła). Sama polityka by nie wystarczyła. Na egzaminie pytanie o praktyki tego aktywatora często zawiera dystraktory z innych aktywatorów – wszystkie prawdziwe, ale tylko jedna odpowiedź dotyczy kultury.</p>",
+   "lekcje": [
+    "en-k37-praktyki-zachowan"
+   ]
+  }
+ ],
+ "k-en-informacja": [
+  {
+   "h": "Informacja daje wartość dopiero wtedy, gdy ktoś z niej korzysta",
+   "b": "<p><w k=\"cykl-informacji\">Cykl informacji</w> (Rysunek 35):</p><p>procesy biznesowe → <b>dane</b> → <b>informacje</b> → <b>wiedza</b> → <b>wartość</b></p><blockquote>„informacje nie mają wartości same w sobie”</blockquote>",
+   "c": "Aktywator Informacja obejmuje wszystkie informacje istotne dla organizacji, nie tylko zautomatyzowane.",
+   "s": "COBIT 5 Framework (PL), s. 81–82, 84, Ilustracja 35",
+   "ctx": "<p><w k=\"informacja\">Informacja</w> (<span class=\"en\">Information</span>) to piąty aktywator i jednocześnie zasób. Obejmuje informacje elektroniczne, papierowe i ustne. Procesy biznesowe generują i przetwarzają dane, a procesy IT je wspierają. Korzyść daje dopiero wykorzystanie informacji w organizacji albo jej sprzedaż.</p><p>Pułapka: cykl informacji to nie cykl życia informacji. Cykl informacji to droga do wartości. Cykl życia to wymiar aktywatora: planowanie, projektowanie, budowanie/nabywanie, użytkowanie, ocena/monitorowanie i aktualizacja/pozbywanie się. Ogólne role wobec informacji to wytwórca (tworzy ją), opiekun (przechowuje i utrzymuje) i konsument (korzysta).</p><p>Przykład: sklep latami zbiera dane o klientach, ale nikt ich nie analizuje. Dane nie dają korzyści, a kosztują miejsce na serwerach i ochronę.</p>",
+   "lekcje": [
+    "en-k40-informacja-cykl"
+   ]
+  },
+  {
+   "h": "Każde kryterium jakości informacji należy do jednego z trzech podwymiarów",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Podwymiar</th><th>Kryteria</th></tr><tr><td><w k=\"jakosc-wewnetrzna\">Jakość wewnętrzna</w></td><td>dokładność, obiektywność, wiarygodność, reputacja</td></tr><tr><td><w k=\"jakosc-kontekstowa\">Jakość kontekstowa</w></td><td>istotność, kompletność, <b>aktualność</b>, ilość, przedstawienie…</td></tr><tr><td><w k=\"dostep-i-bezpieczenstwo\">Dostęp i bezpieczeństwo</w></td><td>dostępność/terminowość, ograniczony dostęp</td></tr></table></div><p>Siedem <b>kryteriów informacji</b> COBIT 4.1 ma w COBIT 5 odpowiedniki wśród tych celów (Rysunek 26).</p>",
+   "c": "Aktualność to kryterium kontekstowe – nieaktualna informacja może nadal być dokładna.",
+   "s": "COBIT 5 Framework (PL), s. 82; s. 63 (Załącznik F, Ilustracja 26)",
+   "ctx": "<p><w k=\"jakosc-informacji\">Kryteria jakości informacji</w> (<span class=\"en\">intrinsic quality, contextual and representational quality, security/accessibility quality</span>) dzielą się na trzy podwymiary. Jakość kontekstowa i reprezentacji obejmuje: istotność, kompletność, aktualność, odpowiednią ilość, zwięzłe i spójne przedstawienie, możliwość interpretacji, jasność przekazu i łatwość posługiwania się. Jakość wewnętrzna nie zależy od tego, kto i kiedy używa informacji. Podręcznik pisze „jakość rzeczywista” i „jakość bezpieczeństwa/dostępności”.</p><p>Załącznik F (s. 63, Ilustracja 26 – na egzaminie Rysunek 26) zestawia siedem kryteriów informacji COBIT 4.1: skuteczność, wydajność, integralność, wiarygodność, dostępność, poufność, zgodność – z celami jakości COBIT 5. <b>Skuteczność</b> (<span class=\"en\">effectiveness</span>) patrzy na informację jak na produkt: wystarczy, że zaspokaja potrzeby odbiorcy, który wykonuje na jej podstawie swoje zadanie (cele: właściwa ilość, istotność, jasność przekazu, możliwość interpretacji, obiektywność). <b>Wydajność</b> (<span class=\"en\">efficiency</span>) patrzy na proces: potrzeby są spełnione <em>i</em> informację zdobywa się oraz wykorzystuje małym nakładem czasu, pieniędzy i wysiłku (cele: wiarygodność, dostępność, łatwość eksploatacji, reputacja).</p><p>Pozostałe kryteria: integralność to kompletność i dokładność; wiarygodność – informacja godna zaufania (ocena bardziej subiektywna niż integralność); dostępność i poufność (ograniczony dostęp) należą do dostępu i bezpieczeństwa; zgodność ze specyfikacjami mieści się w każdym celu, a zgodność z przepisami dotyczy raczej sposobu użycia informacji. Pułapka: podręcznik przy skuteczności pisze „efektywne”, a materiały egzaminacyjne nazywają wydajność „efektywnością”. Trzymaj się sedna: samo spełnienie potrzeby odbiorcy – skuteczność; spełnienie jej małym kosztem i wysiłkiem – wydajność.</p><p>Przykład: raport sprzedaży z błędnymi kwotami narusza dokładność. Raport, który przychodzi po zamknięciu kwartału, narusza aktualność. Gdy kierownik regionu nie może go otworzyć, cierpi dostępność. Gdy raport widzą osoby spoza firmy, naruszony jest ograniczony dostęp.</p>",
+   "lekcje": [
+    "en-k41-jakosc-informacji"
+   ]
+  },
+  {
+   "h": "Model informacji opisuje informację w sześciu warstwach",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Warstwa</th><th>Atrybut</th></tr><tr><td>Fizyczna</td><td>nośnik</td></tr><tr><td>Empiryczna</td><td>kanał dostępu</td></tr><tr><td>Syntaktyczna</td><td>język, format</td></tr><tr><td>Semantyczna</td><td>typ, aktualność, szczegółowość</td></tr><tr><td>Pragmatyczna</td><td>przechowywanie, status</td></tr><tr><td>Społeczna</td><td>kontekst</td></tr></table></div>",
+   "c": "Warstwy opisują właściwości informacji, a podwymiary jakości mówią, czy informacja jest dobra.",
+   "s": "COBIT 5 Framework (PL), s. 83–84, Przykłady 13–15",
+   "ctx": "<p><w k=\"model-informacji\">Model informacji</w> (<span class=\"en\">Information Model</span>) jest dobrą praktyką aktywatora Informacja. Warstwa pragmatyczna obejmuje też innowacyjność i zależność. Społeczna opisuje kontekst, np. umowę albo prawo. Model ma trzy zastosowania (Przykłady 13–15): specyfikację informacji dla nowej aplikacji, określenie wymaganej ochrony informacji i ocenę łatwości korzystania z danych, czyli ich jakości.</p><p>Pułapka: warstwa empiryczna to kanał dostępu, a dostępność to kryterium jakości. „Aktualność” występuje w obu miejscach: jako atrybut semantyczny i jako kryterium jakości kontekstowej. Przykład: zespół projektowy aplikacji bankowej pyta, gdzie trzymać dane (warstwa fizyczna), jak klient do nich dotrze (empiryczna), w jakim formacie je zapisać (syntaktyczna) i jak długo je przechowywać (pragmatyczna).</p>",
+   "lekcje": [
+    "en-k42-model-informacji"
+   ]
+  }
+ ],
+ "k-en-uslugi": [
+  {
+   "h": "Usługi, infrastruktura i aplikacje razem tworzą zdolność usługową",
+   "b": "<p><w k=\"zdolnosc-uslugowa\">Zdolność usługowa</w> (<span class=\"en\">Service capabilities</span>) = usługi + infrastruktura + aplikacje.</p><blockquote>„Informacje stanowią jedną ze zdolności do świadczenia usług, a zdolności te wykorzystuje się poprzez procesy”</blockquote>",
+   "c": "Na pytanie „co jest jedną ze zdolności usługowych?” odpowiedź brzmi: informacja.",
+   "s": "COBIT 5 Framework (PL), s. 27, 85–86",
+   "ctx": "<p><w k=\"uslugi-infrastruktura-aplikacje\">Usługi, Infrastruktura i Aplikacje</w> (<span class=\"en\">Services, Infrastructure and Applications</span>) dają organizacji przetwarzanie informacji i usługi IT. To jeden z trzech aktywatorów, które są też zasobami, obok Informacji oraz Ludzi, Umiejętności i Kompetencji. Usługi świadczy dział IT albo dostawca zewnętrzny. Potrzebna jest kultura nastawiona na usługi. Podręcznik pisze „zdolność do świadczenia usług”.</p><p>Przykład: bankowość mobilna. Centrum danych i sieć to infrastruktura. System transakcyjny i aplikacja w telefonie to aplikacje. „Przelew w 10 sekund przez całą dobę” to usługa, której poziom zapisano w umowie z dostawcą chmury. Klient widzi tylko przelew, a bank musi zadbać o każde ogniwo.</p>",
+   "lekcje": [
+    "en-k45-uslugi-zdolnosc"
+   ]
+  },
+  {
+   "h": "Architektura: dziś, cel i etapy; budujesz tylko z zatwierdzonego powodu",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Architektura</th><th>Opisuje</th></tr><tr><td>Referencyjna (bazowa)</td><td>obecną zdolność usługową</td></tr><tr><td>Docelowa</td><td>przyszłą</td></tr><tr><td>Przejściowa</td><td>etapy pośrednie</td></tr></table></div><p><w k=\"zasady-architektury\">Pryncypia</w>: ponowne wykorzystanie, nabywanie zamiast budowania, prostota, zwinność, otwartość.</p>",
+   "c": "Pryncypia architektury to dobra praktyka aktywatora 6, a nie pięć zasad COBIT 5.",
+   "s": "COBIT 5 Framework (PL), s. 85–86",
+   "ctx": "<p>Inne dobre praktyki tego aktywatora to punkty widzenia architektury (modele, katalogi, macierze), repozytorium architektury i poziomy usług, które dostawcy muszą zdefiniować i osiągnąć. Źródła zewnętrzne to TOGAF (<span class=\"en\">The Open Group Architecture Framework</span>) i ITIL. Nabywanie zamiast budowania oznacza, że rozwiązania się kupuje, chyba że istnieje <b>zatwierdzony</b> powód, by je zbudować. Prostota nie znaczy „byle jak”.</p><p>Pułapki: architektura referencyjna to stan obecny. Nie myl jej z repozytorium ani z modelem referencyjnym architektury. „Zasady” w COBIT 5 to trzy różne rzeczy: pięć zasad COBIT 5, aktywator Zasady, Polityki i Struktury ramowe oraz pryncypia architektury. Egzamin nazywa je „zasady (pryncypia) architektury” (<span class=\"en\">reuse, buy vs. build, simplicity, agility, openness</span>).</p><p>Przykład: bank przenosi systemy do chmury. Po pół roku system kart działa już w chmurze, a system kredytów jeszcze nie – to architektura przejściowa.</p>",
+   "lekcje": [
+    "en-k46-trzy-architektury",
+    "en-k47-pryncypia-architektury"
+   ]
+  }
+ ],
+ "k-en-ludzie": [
+  {
+   "h": "Cele ludzi: kwalifikacje to jakość wewnętrzna, doświadczenie i rotacja – kontekstowa",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Podwymiar</th><th>Cele (Rysunek 38)</th></tr><tr><td>Jakość wewnętrzna</td><td>wykształcenie i kwalifikacje, umiejętności techniczne</td></tr><tr><td>Jakość kontekstowa</td><td>doświadczenie, wiedza, umiejętności behawioralne, dostępność, rotacja</td></tr></table></div>",
+   "c": "Umiejętnościami zarządza się w cyklu życia – od wglądu w obecną bazę po pozbycie się umiejętności.",
+   "s": "COBIT 5 Framework (PL), s. 27, 87–88, Ilustracja 38",
+   "ctx": "<p><w k=\"ludzie-umiejetnosci-kompetencje\">Ludzie, Umiejętności i Kompetencje</w> (<span class=\"en\">People, Skills and Competencies</span>) są potrzebni do realizacji działań, podejmowania decyzji i działań naprawczych. Cykl życia umiejętności wygląda tak: wgląd w obecną bazę i planowanie według strategii, rozwijanie (szkolenia) albo pozyskiwanie (rekrutacja), wdrażanie w rolach, okresowa ocena (np. raz w roku), a w razie potrzeby pozbycie się umiejętności po automatyzacji lub outsourcingu.</p><p>Dobra praktyka: wymagania umiejętności definiuje się <b>dla każdej roli</b>, a nie dla osoby, poziomami w kategoriach umiejętności. Zewnętrzne źródło to SFIA (<span class=\"en\">Skills Framework for the Information Age</span>). Pułapka: ten aktywator to nie proces <w k=\"proc-apo07\">APO07</w> Zarządzanie zasobami ludzkimi. Proces APO07 jedynie wspiera cykl życia umiejętności. Podręcznik pisze „jakość rzeczywista”.</p><p>Przykład z urzędu: zespół helpdesku ma certyfikaty ITIL (jakość wewnętrzna). Połowa zespołu odchodzi jednak co roku, a w piątki po południu nikt nie odbiera telefonu – to problemy z rotacją i dostępnością.</p>",
+   "lekcje": [
+    "en-k50-ludzie-cele",
+    "en-k51-cykl-zycia-umiejetnosci"
+   ]
+  },
+  {
+   "h": "Rysunek 39: APO planuje, BAI buduje, DSS obsługuje, MEA sprawdza",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Domena</th><th>Przykładowe umiejętności</th></tr><tr><td><w k=\"edm\">EDM</w></td><td>nadzór nad IT</td></tr><tr><td><w k=\"apo\">APO</w></td><td>strategia IT, architektura korporacyjna, portfele projektów</td></tr><tr><td><w k=\"bai\">BAI</w></td><td>analiza biznesowa, projekty, pojemność</td></tr><tr><td><w k=\"dss\">DSS</w></td><td>dostępność, Service Desk, bezpieczeństwo</td></tr><tr><td><w k=\"mea\">MEA</w></td><td>zgodność, audyt mechanizmów kontrolnych</td></tr></table></div>",
+   "c": "Portfele projektów i architektura to APO, projekty i pojemność – BAI, dostępność – DSS.",
+   "s": "COBIT 5 Framework (PL), s. 88, Ilustracja 39",
+   "ctx": "<p>Domeny to: Oszacuj, Kieruj i Monitoruj (EDM); Dostosuj, Planuj i Organizuj (APO); Twórz, Nabywaj i Wdrażaj (BAI); Dostarczaj, Obsługuj i Wspieraj (DSS); Monitoruj, Oszacuj i Oceń (MEA). Pełna lista <w k=\"kategorie-umiejetnosci\">kategorii umiejętności</w>: APO – polityka IT, strategia, architektura korporacyjna, innowacje, finanse, portfele projektów. BAI – analiza biznesowa, zarządzanie projektami, ocena użyteczności, wymagania, programowanie, ergonomia, wycofanie oprogramowania, pojemność. DSS – dostępność, problemy, Service Desk i incydenty, administracja bezpieczeństwa, eksploatacja IT, bazy danych. MEA – weryfikacja zgodności, monitorowanie sprawności, audyt mechanizmów kontrolnych.</p><p>Pułapka: decyduje jedno słowo. Wybór projektów (portfel) to planowanie, czyli APO. Prowadzenie jednego projektu to budowanie, czyli BAI. Architekt korporacyjny należy do APO, a audytor IT do MEA. Powiązania z innymi aktywatorami: procesy i struktury wymagają umiejętności, umiejętności behawioralne łączą się z kulturą, a definicje umiejętności są informacją.</p>",
+   "lekcje": [
+    "en-k52-kategorie-umiejetnosci"
+   ]
+  }
+ ]
+}

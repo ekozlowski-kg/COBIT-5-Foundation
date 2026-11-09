@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Syn sprząta pokój, ale tylko wtedy, gdy mu przypomnisz, i nie zawsze. Mniej więcej co trzeci raz jest porządek. To C: coś jest, ale bez systemu.",
     "biuro": "Część pism w rejestrze ma datę odpowiedzi, a część nie. Liczysz około 40% kompletnych wpisów. To C.",
-    "organizacja": "W warsztacie kartę naprawy ma około 40% zleceń, a w urzędzie komplet podpisów ma około 45% decyzji. Obie oceny to C.",
-    "psp": "**Raz tak, raz nie**\nAudytorka Ewa Lis sprawdza, czy alarm z Syreny jest potwierdzany przez OSP. Potwierdzenie jest w mniej więcej co trzecim zdarzeniu. PA 1.1 dostaje C, więc proces powiadamiania ma poziom 0. To ocena [[ocena-c|C – Częściowy]].",
+    "organizacja": "W warsztacie kartę naprawy ma około 40% zleceń. Ocena to C.",
+    "admin": "Kontrola w urzędzie miasta sprawdza 100 decyzji podatkowych. Komplet podpisów ma około 45% z nich. Dowody są, ale z dużymi brakami, więc ocena to C – Częściowy.",
     "it": "Incydenty w DSS02 rejestruje tylko jedna zmiana serwisu. Asesor znajduje dowody w około 30% przypadków i daje C na PA 1.1."
   },
   "nieMylicZ": [
@@ -78,8 +78,8 @@
   "mapa": "ocena-c",
   "glebokosc": {
     "prosty": "Uczysz się jeździć na rowerze. Czasem przejedziesz kawałek, czasem się przewrócisz. Nie da się jeszcze powiedzieć, że umiesz. To ocena C: częściowo.",
-    "zaawansowany": "Lis daje PA 1.1 ocenę C: alarm czasem dochodzi z potwierdzeniem, czasem bez. To >15–50%, więc proces nie ma poziomu 1. Do poziomu 1 PA 1.1 musiałby mieć co najmniej [[ocena-w|W]]. Na angielskim arkuszu ta sama ocena miałaby literę P, co łatwo pomylić z polskim [[ocena-p|Pełnym]].",
-    "skrajny": "Lis liczy dowody: wychodzi równo 50%. Sikora cieszy się: „Połowa, czyli już Większościowy!”. Ale W zaczyna się powyżej 50%, więc dokładnie 50% to C. Druga pułapka: angielski raport konsultanta pisze „PA 1.1 = P”. Czytelnik po polskim egzaminie myśli „Pełny”, a konsultant miał na myśli Partially, czyli C. **Rozstrzygnięcie:** dokładnie 50% = C (konwencja ISO/IEC 15504-2, nie tekst FW-PL); litera P w angielskim materiale to Częściowy, nie Pełny."
+    "zaawansowany": "Audytor daje PA 1.1 ocenę C: incydent czasem jest zamykany z potwierdzeniem od użytkownika, czasem bez. To >15–50%, więc proces nie ma poziomu 1. Do poziomu 1 PA 1.1 musiałby mieć co najmniej [[ocena-w|W]]. Na angielskim arkuszu ta sama ocena miałaby literę P, co łatwo pomylić z polskim [[ocena-p|Pełnym]].",
+    "skrajny": "Audytor liczy dowody: wychodzi równo 50%. CIO cieszy się: „Połowa, czyli już Większościowy!”. Ale W zaczyna się powyżej 50%, więc dokładnie 50% to C. Druga pułapka: angielski raport konsultanta pisze „PA 1.1 = P”. Czytelnik po polskim egzaminie myśli „Pełny”, a konsultant miał na myśli Partially, czyli C. **Rozstrzygnięcie:** dokładnie 50% = C (konwencja ISO/IEC 15504-2, nie tekst FW-PL); litera P w angielskim materiale to Częściowy, nie Pełny."
   },
   "zagmatwania": [
     {

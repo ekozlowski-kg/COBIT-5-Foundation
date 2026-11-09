@@ -25,7 +25,7 @@
     "it-system-operacyjny"
   ],
   "poLudzku": "Program, którego używasz do konkretnego zadania: pisania, liczenia, płacenia, wysyłania wiadomości.",
-  "poziom1": "Program użytkowy – oprogramowanie, z którego człowiek korzysta, żeby coś załatwić. Na telefonie to „apka” banku czy pogody; w pracy to np. program kadrowy albo system powiadamiania.",
+  "poziom1": "Program użytkowy – oprogramowanie, z którego człowiek korzysta, żeby coś załatwić. Na telefonie to „apka” banku czy pogody; w pracy to np. program kadrowy albo system CRM.",
   "poziom2": "Aplikacja działa w systemie operacyjnym. Może działać tylko na Twoim urządzeniu (np. kalkulator) albo łączyć się przez sieć z innym komputerem (np. aplikacja banku – takie połączenie poznasz w lekcji 0A.4). W organizacji aplikacje wspierają pracę ludzi: przyjmowanie zgłoszeń, rozliczanie faktur, prowadzenie spraw.",
   "poziom3": "Słownik COBIT 5: aplikacja IT to *„Funkcjonalność elektroniczna stanowiąca część procesów biznesowych podejmowanych przez dział IT lub z jego pomocą.”* (FW-PL s. 92). Aplikacje są częścią aktywatora Usługi, infrastruktura i aplikacje (s. 27).",
   "wyobrazSobie": "Narzędzia w skrzynce. Młotek do gwoździ, śrubokręt do śrub – każda aplikacja to narzędzie do jednego rodzaju pracy.",
@@ -36,7 +36,7 @@
     "zycie": "Aplikacja banku na telefonie: logujesz się, sprawdzasz saldo, płacisz za prąd. Telefon to sprzęt, a „apka” banku to aplikacja.",
     "biuro": "Księgowa pracuje w aplikacji do faktur, a sekretarka w aplikacji do obiegu pism. Obie działają na takich samych komputerach.",
     "organizacja": "Szkoła prowadzi dziennik elektroniczny – aplikację, w której nauczyciele wpisują oceny, a rodzice je czytają.",
-    "psp": "„Syrena” to aplikacja: dyżurny klika „Alarm”, a ona wysyła SMS-y do strażaków ochotników z OSP Zawilce (ochotniczej straży pożarnej).",
+    "admin": "Doradca w powiatowym urzędzie pracy rejestruje bezrobotnego w aplikacji: wpisuje dane, wybiera zawód i szuka pasujących ofert. Nie widzi serwerów ani bazy danych, tylko okno z polami i przyciskami. Aplikacja wykonuje jego zadanie i pokazuje listę ofert.",
     "it": "Aplikacje to część aktywatora Usługi, infrastruktura i aplikacje; słownik FW-PL definiuje „aplikację IT” (s. 92)."
   },
   "nieMylicZ": [
@@ -46,10 +46,10 @@
     },
     {
       "termin": "it-usluga-it",
-      "roznica": "Aplikacja to narzędzie. Usługa IT to to, co ludzie dostają dzięki aplikacjom, serwerom i wsparciu, np. „wysyłanie alarmów całą dobę”."
+      "roznica": "Aplikacja to narzędzie. Usługa IT to to, co ludzie dostają dzięki aplikacjom, serwerom i wsparciu, np. „bankowość internetowa dostępna całą dobę”."
     }
   ],
-  "przykladWypowiedzi": "An application, czyli aplikacja, to program użytkowy; w komendzie taką aplikacją jest system powiadamiania „Syrena”.",
+  "przykladWypowiedzi": "An application, czyli aplikacja, to program użytkowy; w banku taką aplikacją jest np. aplikacja mobilna dla klientów albo system CRM.",
   "egzamin": "Na egzaminie „aplikacje” pojawiają się w nazwie aktywatora Usługi, infrastruktura i aplikacje (Services, Infrastructure and Applications). Nie myl aplikacji z usługą: usługa to efekt dla użytkownika.",
   "powiazane": [
     "it-software",
@@ -74,7 +74,7 @@
   ],
   "glebokosc": {
     "prosty": "W kuchni masz mikser, czajnik i toster. Każde urządzenie robi jedną rzecz. Aplikacje w telefonie są jak te urządzenia, tylko „zapisane” w jednym telefonie: jedna do zdjęć, druga do wiadomości, trzecia do płacenia.",
-    "zaawansowany": "Dyżurny Grab mówi o „Syrenie” „system”. Ma rację w potocznym sensie: aplikacja działa razem z innymi komputerami i z listą numerów telefonów. Gdy „Syrena” nie powiadomiła OSP Zawilce, trzeba było sprawdzić, co zawiodło: aplikacja, [[it-hardware|sprzęt]] czy zapisane numery.",
+    "zaawansowany": "Konsultant w banku mówi o CRM „system”. Ma rację w potocznym sensie: aplikacja działa razem z innymi komputerami i z bazą danych klientów. Gdy klienci nie dostali powiadomień, trzeba było sprawdzić, co zawiodło: aplikacja, [[it-hardware|sprzęt]] czy zapisane numery.",
     "skrajny": "Czy strona internetowa banku to aplikacja? W praktyce tak: daje te same funkcje co „apka”, tylko otwierasz ją w przeglądarce (programie do oglądania stron). Czy przeglądarka to aplikacja? Też tak. Czy system operacyjny telefonu to aplikacja? Nie. **Rozstrzygnięcie:** aplikacja to program, który wykonuje zadanie człowieka, niezależnie od tego, czy ma ikonę, czy otwierasz ją w przeglądarce; system operacyjny aplikacją nie jest."
   },
   "zagmatwania": [

@@ -24,7 +24,7 @@ Wszystkie teksty są po polsku. Termin angielski jest zawsze w osobnym polu `en`
 |---|---|---|
 | `oficjalne` | treść / definicja z COBIT 5 lub sylabusa, ze źródłem | „Oficjalne COBIT 5” |
 | `uproszczenie` | nasze wyjaśnienie prostym językiem, zgodne merytorycznie | „Uproszczenie dydaktyczne” |
-| `przyklad` | przykład autorski (życie, firma, urząd, PSP) | „Przykład autorski” |
+| `przyklad` | przykład autorski (życie, firma, urząd) | „Przykład autorski” |
 | `niepotwierdzone` | np. termin egzaminacyjny PL, którego nie widzieliśmy w oficjalnym arkuszu | „Do potwierdzenia” |
 
 ### `Zrodlo`
@@ -91,7 +91,7 @@ Dla treści wprowadzających spoza sylabusa używamy obszaru `M0`, np. `M0-00-01
     "prosto": "…", "dokladniej": "…", "ekspercko": "…"
   },
   "przyklady": {                           // każdy opcjonalny; status zawsze "przyklad"
-    "zycie": "…", "firma": "…", "admin": "…", "psp": "…"
+    "zycie": "…", "organizacja": "…", "admin": "…", "it": "…"
   },
   "nieMylicZ": [{ "termin": "zarzadzanie", "roznica": "…" }],   // termin = id hasła albo tekst
   "egzamin": "Co trzeba zapamiętać na egzamin.",
@@ -136,7 +136,7 @@ Treść slajdu…
 - `:::zapamietaj` to ramka „Zapamiętaj”.
 - `:::pulapka` to ostrzeżenie terminologiczne.
 - `:::egzamin` to wskazówka egzaminacyjna.
-- `:::kontekst zycie|firma|admin|psp` to przykład w jednym z 4 kontekstów. Ikona zależy od kontekstu, status zawsze `przyklad`.
+- `:::kontekst zycie|firma|admin` to przykład w jednym z kontekstów. Ikona zależy od kontekstu, status zawsze `przyklad`. Kontekst `psp` (przykłady strażackie) jest wycofany od 2026-11-08 – walidator traktuje go jako błąd w lekcjach `format: krotki`.
 - `:::zrodlo FW-PL 17 3` to odnośnik źródłowy w formacie `doc strona [ilustracja]`. Renderowany jako mała stopka.
 - `:::uproszczenie` oznacza fragment, który jest naszym uproszczeniem dydaktycznym.
 - `:::mapa <id-węzła>` i `:::wlasne-slowa` – patrz §8.3.
@@ -272,7 +272,7 @@ Zasada zera: kurs nie zakłada żadnej wiedzy wejściowej. Każde słowo spoza c
 - UI: slajd `pojecie` i przypis pokazują `poLudzku` **przed** nazwą egzaminacyjną; `skadNazwa` jest w części rozwijanej.
 
 ### 10.2 Lekcje
-- W każdej lekcji **pierwszy** blok `:::kontekst psp` jest sceną z historii przewodniej (`content/historia.md`); jego pierwsza linia to tytuł sceny. Pozostałe konteksty to „inny przykład”.
+- (Wycofane 2026-11-08) Dawne lekcje zaczynały się sceną `:::kontekst psp` z historii przewodniej (`content/historia.md`). Nowe lekcje i podręcznik używają wyłącznie przykładów ogólnych: firma i urząd.
 - UI pokazuje na slajdzie tylko pierwszy blok `:::kontekst`; kolejne kryją się pod przyciskiem „Pokaż inny przykład”. Gdy hasło ze slajdu ma ≥ `powtorzonaPomylka` pomyłek, UI sam rozwija kolejny kontekst.
 - Nowy typ slajdu **`rozwiazany`** (rozwiązany przykład przed „Sprawdź”):
   ```
@@ -469,7 +469,7 @@ Parser rozumie: `klucz: wartość`, listy `[a, b]`, listy wielowierszowe (`klucz
 
 ### 17.3 Hasło – karta terminologiczna (§17.4)
 Nowe pola: `wymowa`, `wymowaAkcent`, `statusTlumaczenia` ∈ `A|B|C|D` (inna wartość = błąd), `zrodloTlumaczenia` `{wydawcaEgzaminu, podrecznik, kurs, uwaga}` (`uwaga` wymagana przy C/D – błąd), `poCo`, `jakDziala`, `dlaczegoWazne`, `wyobrazSobie`, `przykladWypowiedzi`, `poziomP` ∈ `P0–P3` (błąd), `wymaga` (id haseł). `nieMylicZ` może być listą id haseł albo obiektów `{termin, roznica}`. Brak `wymowa`, `statusTlumaczenia` lub `przykladWypowiedzi` → ostrzeżenie (§17.14 pkt 8).
-- `przyklady` – klucze w kolejności **`zycie` → `biuro` → `organizacja` → `psp` → `it`**; `firma` i `admin` przejściowo = `organizacja` (UI pokazuje je jako „Organizacja”, gdy brak `organizacja`). To samo dla bloków `:::kontekst <klucz>`. Etykiety: Życie codzienne · Biuro · Organizacja · PSP (Modrzewiów) · IT/COBIT.
+- `przyklady` – klucze w kolejności **`zycie` → `biuro` → `organizacja` (firma) → `admin` (urząd) → `it`**; `firma` to starszy synonim `organizacja`. Każde hasło ma przykład z firmy **i** z urzędu (zasada kursu). Słownik pokazuje je jako zakładki „Firma” i „Urząd”, a podręcznik w karcie „Przykłady”. Przykładów strażackich (`psp`) nie używamy.
 - UI: karta zaczyna się od EN + wymowa (zawsze widoczne, także w trybie laika), potem formy PL ze statusem, definicja ze źródłem, po ludzku, wyobraź sobie, po co / jak działa, przykłady, nie mylić, przykład wypowiedzi, powiązane, źródło.
 
 ### 17.4 Slajdy i bloki (§17.5–§17.8, §17.11)

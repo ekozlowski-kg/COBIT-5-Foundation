@@ -33,7 +33,7 @@
     "zycie": "Zdjęcie z wakacji w telefonie to plik. Możesz je wysłać rodzinie – wysyłasz kopię pliku.",
     "biuro": "Sekretarka zapisuje pismo jako „wniosek_Kowalski.docx” i wysyła je mailem jako załącznik.",
     "organizacja": "Biuro rachunkowe przechowuje tysiące plików z fakturami klientów. Każdy plik musi mieć jasną nazwę, żeby dało się go znaleźć.",
-    "psp": "Po alarmie dyżurna Kasia Nowik zapisuje raport z akcji jako plik i odkłada go do wspólnego miejsca na dokumenty komendy.",
+    "admin": "Urzędniczka w urzędzie gminy zapisuje decyzję o podatku od nieruchomości jako plik „decyzja_2026_0154.pdf”. Plik trafia do systemu obiegu dokumentów, a kopia idzie do mieszkańca na jego skrzynkę elektroniczną. Stała zasada nadawania nazw sprawia, że po latach każdy znajdzie właściwy plik.",
     "it": "Pliki to jedna z postaci informacji, którą chroni się m.in. kopiami zapasowymi (proces DSS04 Zarządzanie ciągłością, lekcja 0A.8)."
   },
   "nieMylicZ": [
@@ -59,7 +59,7 @@
   "zrodla": [],
   "glebokosc": {
     "prosty": "Przepis na sernik zapisany na karteczce w pudełku z przepisami. Karteczka ma tytuł „Sernik babci”. W komputerze taka karteczka to plik.",
-    "zaawansowany": "Kasia Nowik zapisała raport w pliku na swoim komputerze, a nie we wspólnym miejscu. Gdy komputer się zepsuł, raport przepadł. Ola Dudek tłumaczy: plik ważny dla komendy powinien leżeć tam, gdzie robi się [[it-kopia-zapasowa|kopię zapasową]] – poznasz ją w lekcji 0A.8.",
+    "zaawansowany": "Pracownica księgowości zapisała raport w pliku na swoim komputerze, a nie we wspólnym miejscu. Gdy komputer się zepsuł, raport przepadł. Informatyk tłumaczy: plik ważny dla firmy powinien leżeć tam, gdzie robi się [[it-kopia-zapasowa|kopię zapasową]] – poznasz ją w lekcji 0A.8.",
     "skrajny": "Czy zdjęcie wysłane mailem to ten sam plik? Nie, odbiorca dostaje kopię – po zmianach możecie mieć dwie różne wersje. Czy ikonka na pulpicie to plik? Często to tylko skrót wskazujący na plik; jego usunięcie nie usuwa właściwego pliku. Czy plik w koszu jest usunięty? Jeszcze nie – można go przywrócić. **Rozstrzygnięcie:** plik to jedna nazwana porcja danych; kopia jest osobnym plikiem, a skrót tylko wskazuje na plik."
   },
   "zagmatwania": [

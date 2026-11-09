@@ -1,0 +1,289 @@
+{
+ "k-im-kontekst": [
+  {
+   "h": "Każda organizacja projektuje własny plan wdrożenia",
+   "b": "<p><w k=\"czynniki-srodowiskowe\">Czynniki środowiskowe</w> <span class=\"en\">Internal and external environment factors</span> to warunki, które plan musi uwzględnić:</p><ul><li>wewnątrz: kultura, styl zarządzania, apetyt na ryzyko, zasoby,</li><li>z zewnątrz: przepisy, praktyki branży.</li></ul>",
+   "c": "Odpowiedź „wszyscy wdrażają COBIT 5 według jednego planu” jest zawsze błędna.",
+   "s": "COBIT 5 Framework (PL), s. 35",
+   "ctx": "<p>Podręcznik: optymalne podejście do Ładu i Zarządzania IT „będzie inne w każdym przedsiębiorstwie”, więc każda organizacja projektuje własny plan wdrożenia lub mapę działań i rozwija aktywatory, które już ma. Lista ma dziesięć pozycji: etyka i kultura; przepisy, regulacje i polityki; misja, wizja i wartości; polityki i praktyki nadzoru; plan biznesowy; model operacyjny i poziom dojrzałości; styl zarządzania; apetyt na ryzyko; potencjał i zasoby; praktyki branży. Podział „wewnątrz / z zewnątrz” jest nasz. Egzamin mówi krótko „czynniki środowiskowe”, podręcznik – „czynniki związane ze środowiskiem wewnętrznym i zewnętrznym”.</p><p>Pułapka: czynnik środowiskowy to stały warunek (może pomagać albo przeszkadzać), punkt zapalny – trwający problem, zdarzenie wyzwalające – nowa zmiana. Przykład: bank z regulatorem i niskim apetytem na ryzyko wdraża ostrożnie i krok po kroku, mały sklep internetowy – szybko, od najważniejszych spraw. Ten sam COBIT 5, dwa różne plany.</p>",
+   "lekcje": [
+    "im-k10-kontekst"
+   ]
+  },
+  {
+   "h": "Pięć kluczowych czynników sukcesu wdrożenia",
+   "b": "<p><w k=\"kluczowe-czynniki-sukcesu\">Kluczowe czynniki sukcesu</w> <span class=\"en\">Critical success factors</span>:</p><ol><li>widoczne i <b>ciągłe</b> wsparcie kierownictwa,</li><li>zrozumienie celów biznesowych i celów IT,</li><li>komunikacja i gotowość do zmian,</li><li><b>dostosowanie</b> COBIT 5 do organizacji,</li><li>najpierw <b>szybkie korzyści</b>.</li></ol>",
+   "c": "Błędna odpowiedź zwykle odwraca czynnik: jednorazowa decyzja, kopiowanie podręcznika, wszystko naraz.",
+   "s": "COBIT 5 Framework (PL), s. 35–36",
+   "ctx": "<p>Kierownictwo najwyższego szczebla daje wytyczne i uprawnienia, a jego zaangażowanie jest widoczne i ciągłe – jeden podpis na starcie to za mało. Podręcznik dodaje, że ważne inicjatywy IT często upadają z braku ukierunkowania, wsparcia i nadzoru. Czwarty czynnik to odpowiedź na czynniki środowiskowe (dopasuj, nie kopiuj), piąty każe zaczynać od usprawnień najłatwiejszych i najbardziej opłacalnych.</p><p>Pułapka „odwrócone”: „wystarczy jednorazowa decyzja zarządu” przeczy wsparciu ciągłemu, „stosuj COBIT dokładnie jak w podręczniku” – dostosowaniu, „wdrażaj wszystko naraz” – szybkim korzyściom. Przykład: uczelnia wdraża system ERP – rektor co miesiąc mówi o projekcie na senacie, a zespół zaczyna od elektronicznych wniosków studentów, których efekt widać od razu.</p>",
+   "lekcje": [
+    "im-k11-czynniki-sukcesu"
+   ]
+  },
+  {
+   "h": "Punkt zapalny trwa, zdarzenie wyzwalające właśnie nastąpiło",
+   "b": "<p><w k=\"punkty-zapalne\">Punkty zapalne</w> <span class=\"en\">Pain points</span> – trwające problemy. <w k=\"zdarzenia-wyzwalajace\">Zdarzenia wyzwalające</w> <span class=\"en\">Trigger events</span> – nowe zmiany.</p><div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Zdanie</th><th>Kategoria</th></tr><tr><td>obowiązujące przepisy</td><td>czynnik środowiskowy</td></tr><tr><td><b>niespełnione</b> wymagania regulacyjne</td><td>punkt zapalny</td></tr><tr><td><b>nowe</b> wymagania regulacyjne</td><td>zdarzenie wyzwalające</td></tr></table></div>",
+   "c": "Rozstrzyga jedno słowo: obowiązujące – warunek, niespełnione – ból, nowe – zmiana.",
+   "s": "COBIT 5 Framework (PL), s. 35–37",
+   "ctx": "<p>Punkty zapalne to np. regularnie złe wyniki audytu, ukryte wydatki na IT, dublujące się projekty, poważne incydenty, dostawca stale łamiący umowę, złożone modele operacyjne IT. Zaczynanie od nich daje akceptację zmiany, poczucie pilności i szybkie korzyści, a uzasadnienie biznesowe opiera się wtedy na codziennych problemach. Zdarzenia wyzwalające to np. fuzja lub przejęcie, nowe wymagania regulacyjne, istotna zmiana technologii, nowy dyrektor generalny, finansowy lub ds. informatyki (CEO, CFO, CIO), audyt zewnętrzny, nowa strategia. Oba bodźce wracają w fazie 1 cyklu wdrożenia.</p><p>Pułapka nazw: podręcznik pisze „zdarzenia inicjujące” (w fazie 1 nawet „czynniki inicjujące”), egzamin – zdarzenia wyzwalające. Pierwszy raport z audytu zewnętrznego to zdarzenie, te same uwagi powtarzane co roku – już punkt zapalny. Przykład: ubezpieczyciela od lat obowiązuje ustawa o ochronie danych (czynnik), audytor od pół roku wpisuje te same uwagi o kopiach zapasowych (punkt zapalny), a za rok wejdą nowe przepisy o odporności cyfrowej (zdarzenie).</p>",
+   "lekcje": [
+    "im-k12-punkty-zapalne",
+    "im-k13-zdarzenia-wyzwalajace"
+   ]
+  }
+ ],
+ "k-im-cykl": [
+  {
+   "h": "Trzy pierścienie cyklu wdrożenia działają jednocześnie",
+   "b": "<p><w k=\"cykl-wdrozenia\">Cykl Życia Wdrożenia</w> (Rysunek 17):</p><div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Pierścień</th><th>Zajmuje się</th></tr><tr><td>zewnętrzny: <w k=\"pierscien-program\">Zarządzanie programem</w></td><td>budżet, terminy, korzyści</td></tr><tr><td>środkowy: <w k=\"pierscien-zmiana\">Aktywowanie zmiany</w></td><td>ludzie, zachowania, kultura</td></tr><tr><td>wewnętrzny: <w k=\"pierscien-doskonalenie\">Główny cykl życia ciągłego doskonalenia</w></td><td>procesy – nie projekt jednorazowy</td></tr></table></div>",
+   "c": "Aspekty ludzkie i kulturowe to Aktywowanie zmiany; ciągłe doskonalenie nie jest projektem jednorazowym.",
+   "s": "COBIT 5 Framework (PL), s. 37, Ilustracja 17",
+   "ctx": "<p>EN: <span class=\"en\">Implementation life cycle</span>; <span class=\"en\">Programme management</span>, <span class=\"en\">Change enablement</span>, <span class=\"en\">Continual improvement life cycle</span>. Podręcznik pisze „umożliwienie zmian” i „podstawowy cykl życia ciągłego doskonalenia”, a Rysunek 17 nazywa Ilustracją 17. Pierścienie nie są etapami po kolei – kręcą się naraz przez całe wdrożenie.</p><p>Podręcznik ostrzega, że zbyt małą wagę przywiązuje się do ludzi, zachowań i kultury: „Nie należy zakładać”, że interesariusze chętnie przyjmą zmianę – brak świadomości i opór trzeba przewidzieć w sposób ustrukturyzowany i proaktywny. Narzędzie: plan komunikacji (co, jak, komu – w każdej fazie). Dystraktor: Zarządzanie programem też przydziela role, ale opór i kultura należą do pierścienia środkowego. Przykład: urząd kupił sprawny system obiegu dokumentów, a urzędnicy dalej drukują pisma – technika jest, zmiany nie ma.</p>",
+   "lekcje": [
+    "im-k14-trzy-pierscienie",
+    "im-k15-aktywowanie-zmiany"
+   ]
+  },
+  {
+   "h": "Siedem faz to siedem pytań jednego okrążenia",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Faza</th><th>Pytanie (egzamin PL)</th></tr><tr><td>1</td><td><w k=\"faza-1\">Jakie są wyznaczniki?</w></td></tr><tr><td>2</td><td><w k=\"faza-2\">Gdzie jesteśmy teraz?</w></td></tr><tr><td>3</td><td><w k=\"faza-3\">Dokąd chcemy dojść?</w></td></tr><tr><td>4</td><td><w k=\"faza-4\">Co trzeba zrobić?</w></td></tr><tr><td>5</td><td><w k=\"faza-5\">Jak się tam dostaniemy?</w></td></tr><tr><td>6</td><td><w k=\"faza-6\">Czy dotarliśmy do celu?</w></td></tr><tr><td>7</td><td><w k=\"faza-7\">Jak utrzymać motywację do działania?</w></td></tr></table></div>",
+   "c": "Po fazie 7 rusza kolejne okrążenie – cykl służy ciągłemu doskonaleniu.",
+   "s": "COBIT 5 Framework (PL), s. 38, Ilustracja 17",
+   "ctx": "<p>EN: <span class=\"en\">What are the drivers? · Where are we now? · Where do we want to be? · What needs to be done? · How do we get there? · Did we get there? · How do we keep the momentum going?</span> <w k=\"fazy-wdrozenia\">Fazy</w> idą po kolei, a w każdej działa każdy z trzech pierścieni. Fazy 1–3 to diagnoza, 4–7 – działanie i jego utrzymanie.</p><p>Pułapka: podręcznik tłumaczy pytania inaczej – faza 2 „Jaka jest nasza obecna sytuacja?”, 3 „Do czego dążymy?”, 6 „Czy cel został osiągnięty?”, 7 „Jak utrzymać obecną dynamikę?”. W razie wątpliwości myśl po angielsku. Przykład – sklep internetowy: skargi na zwroty (1), zwrot trwa 14 dni (2), cel 5 dni (3), projekt z uzasadnieniem (4), wdrożenie (5), 6 dni w praktyce (6), przegląd i kolejny cel – reklamacje (7).</p>",
+   "lekcje": [
+    "im-k16-siedem-faz"
+   ]
+  },
+  {
+   "h": "Fazę rozpoznasz po działaniu: 1–3 diagnoza, 4–7 zmiana",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Faza</th><th>Słowo-klucz</th></tr><tr><td>1 · 2 · 3</td><td>potrzeba zmiany · stan obecny · stan docelowy i luki</td></tr><tr><td>4</td><td>projekty <b>wspierane przez uzasadnienia biznesowe</b>, budowanie</td></tr><tr><td>5</td><td>wdrażanie usprawnień</td></tr><tr><td>6 · 7</td><td>korzyści w użyciu · ogólny sukces</td></tr></table></div>",
+   "c": "Budowanie usprawnień to faza 4, wdrażanie – faza 5; inicjatywę dłuższą niż pół roku dzieli się na okrążenia.",
+   "s": "COBIT 5 Framework (PL), s. 38",
+   "ctx": "<p>Faza 2 najpierw ustala zakres (mapowanie celów organizacji na cele związane z Informatyką i procesy, scenariusze ryzyka), potem ocenia stan obecny i zdolność procesów. Przy niej pada reguła: inicjatywa trwająca dłużej niż sześć miesięcy grozi utratą dynamiki, koncentracji i akceptacji interesariuszy, więc duże wdrożenie buduje się z wielu okrążeń – to próg dla inicjatywy, nie czas fazy. Faza 3 daje priorytet szybkim korzyściom, faza 5 wymaga wyraźnego zaangażowania najwyższego kierownictwa.</p><p>Pułapki sąsiednich faz: uzasadnienia biznesowe to faza 4, nie 3 (faza 3 wybiera rozwiązania); monitorowanie korzyści w codziennym użyciu to faza 6, weryfikacja ogólnego sukcesu i dalszych wymagań – faza 7. Przykład: uczelnia w fazie 2 mierzy, że zaświadczenie czeka 10 dni, w fazie 3 ustala cel 2 dni (luka 8 dni) i wybiera szybką korzyść – gotowy wzór w systemie.</p>",
+   "lekcje": [
+    "im-k17-fazy-1-3",
+    "im-k18-fazy-4-7"
+   ]
+  },
+  {
+   "h": "Rysunek 17: 7 faz × 3 pierścienie = 21 działań",
+   "b": "<p>Kolejność: program · zmiana · doskonalenie.</p><ul><li>Faza 3: mapa drogowa · komunikowanie rezultatu · stan docelowy</li><li>Faza 4: planowanie programu · odtwórcy ról · budowanie usprawnień</li><li>Faza 5: wykonywanie planu · działaj i używaj · wdrażanie usprawnień</li></ul>",
+   "c": "Pierścień wskazuje temat (plan, ludzie, procesy), a fazę – słowa o stanie, budowaniu i wdrażaniu.",
+   "s": "COBIT 5 Framework (PL), s. 38, Ilustracja 17",
+   "ctx": "<p>Pozostałe działania: faza 1 – inicjowanie programu, ustanowienie chęci zmiany, rozpoznanie potrzeby działania; faza 2 – definiowanie problemów i okazji, utworzenie zespołu wdrożeniowego, ocena stanu obecnego; faza 6 – realizacja korzyści (pierścień programu!), umożliwianie nowych podejść, eksploatacja i pomiar; faza 7 – przegląd skuteczności, utrzymanie, monitorowanie i szacowanie. Część nazw to tłumaczenie kursu z oryginału, bo polska Ilustracja 17 jest słabo czytelna.</p><p>Pułapka: „monitorowanie i szacowanie” to działanie fazy 7 w pierścieniu wewnętrznym, a nie domena Monitoruj, Oszacuj i Oceń <span class=\"en\">MEA – Monitor, Evaluate and Assess</span>. Odtwórcy ról to osoby, które pierwsze pokazują nowy sposób pracy – przykład: ubezpieczyciel w fazie 4 wybiera w każdym oddziale doświadczonego likwidatora szkód, który pierwszy przejdzie na nowy proces.</p>",
+   "lekcje": [
+    "im-k19-rysunek-17"
+   ]
+  }
+ ],
+ "k-im-uzasadnienie": [
+  {
+   "h": "Uzasadnienie biznesowe pozwala kierownictwu kierować wartością",
+   "b": "<p><w k=\"uzasadnienie-biznesowe\">Uzasadnienie biznesowe</w> <span class=\"en\">Business case</span>: po co, ile kosztuje, jakie korzyści i ryzyko.</p><ul><li>inicjatywą kieruje <b>sponsor</b>,</li><li>wspiera projekty w <b>fazie 4</b>.</li></ul>",
+   "c": "To narzędzie decyzji o wartości, a nie projekt techniczny ani raport z oceny procesu.",
+   "s": "COBIT 5 Framework (PL), s. 39",
+   "ctx": "<p>Podręcznik: uzasadnienie biznesowe to „cenne narzędzie, za pomocą którego kierownictwo może ukierunkować sposób tworzenia wartości biznesowej”. Najpierw organizacja musi uznać potrzebę działania – „dzwonek alarmowy” oparty na punktach zapalnych albo komunikat o szansie – a kluczowi interesariusze powinni znać ryzyko niepodjęcia działań. Inicjatywa ma sponsora, obejmuje kluczowych interesariuszy i opiera się na uzasadnieniu.</p><p>Czym nie jest: projektem technicznym (dokument specjalistów), listą celów organizacji (to Kaskada Celów), oceną zdolności procesu (diagnoza z fazy 2 – uzasadnienie tylko korzysta z jej wyników). Przykład: członkini zarządu banku jako sponsorka przedstawia aplikację mobilną – punkt zapalny (odpływ klientów), koszt 4 mln zł, oczekiwane 50 tys. nowych klientów, ryzyko opóźnienia dostawcy.</p>",
+   "lekcje": [
+    "im-k20-uzasadnienie-biznesowe"
+   ]
+  },
+  {
+   "h": "Osiem elementów minimum – w dokumencie, który żyje",
+   "b": "<ol><li>korzyści i beneficjenci</li><li>zmiany biznesowe</li><li>inwestycje</li><li>bieżące koszty</li><li>korzyści po zmianie</li><li>ryzyka</li><li>role i rozliczalność</li><li><b>sposób monitorowania</b></li></ol><p>Aktualizowane stale, nie raz na starcie.</p>",
+   "c": "Uzasadnienie to dynamiczne narzędzie operacyjne; najczęściej pomijany element to sposób monitorowania.",
+   "s": "COBIT 5 Framework (PL), s. 39",
+   "ctx": "<p>Pełniej: docelowe korzyści, ich zgodność ze strategią i beneficjenci; zmiany biznesowe (co w zakresie, co poza nim); inwestycje; bieżące koszty IT i biznesowe; oczekiwane korzyści; ryzyka, ograniczenia i zależności; role, odpowiedzialność i rozliczalność; sposób monitorowania wartości przez pełny cykl życia ekonomicznego i mierniki. Liczy się tylko korzyści realistyczne i możliwe do osiągnięcia. Podręcznik: uzasadnienie „nie jest jednorazowym statycznym dokumentem, ale dynamicznym narzędziem operacyjnym, które musi być stale aktualizowane”.</p><p>Pułapki: „pisze się raz, na starcie” – fałsz; „liczy tylko pieniądze” – za wąsko; „raport końcowy z fazy 7” – fałsz, wspiera projekty od fazy 4. Przykład: urząd zakładał zwrot systemu e-usług w trzy lata; po podwyżce opłat dostawcy aktualizuje uzasadnienie (zwrot w pięć lat) i decyduje, czy ograniczyć projekt.</p>",
+   "lekcje": [
+    "im-k21-elementy-uzasadnienia"
+   ]
+  }
+ ],
+ "k-pc-model": [
+  {
+   "h": "Model zdolności ocenia osobno każdy proces według ISO/IEC 15504",
+   "b": "<p><w k=\"model-zdolnosci\">Model zdolności procesu</w> <span class=\"en\">Process Capability Model</span> mierzy procesy Ładu i Zarządzania i wskazuje usprawnienia.</p><ul><li>każdy <w k=\"proces\">proces</w> ma własny poziom – nie ma „poziomu organizacji”,</li><li>procesy to 1 z 7 <w k=\"aktywator\">aktywatorów</w>, więc to nie pełny obraz Ładu.</li></ul>",
+   "c": "„Zdolność” i podręcznikowy „potencjał” to jedno pojęcie; „dojrzałość” należy do COBIT 4.1.",
+   "s": "COBIT 5 Framework (PL), s. 41, 43",
+   "ctx": "<p>Model opiera się na normie ISO/IEC 15504 (ocena procesów) i obejmuje 37 procesów: Ładu z domeny Oszacuj, Kieruj i Monitoruj <span class=\"en\">EDM – Evaluate, Direct and Monitor</span> oraz Zarządzania (Planuj, Twórz, Wykonuj i Monitoruj, <span class=\"en\">PBRM – Plan, Build, Run and Monitor</span>). Każdy proces ocenia się według dziewięciu atrybutów; wyników się nie uśrednia, bo średnia ukryłaby najsłabszy proces. Ocena procesów „nie zapewni pełnego obrazu stanu nadzoru” – kultura czy struktury organizacyjne wymagają osobnej oceny.</p><p>Pułapka nazw: podręcznik mówi „model potencjału” i „procesy nadzoru”, egzamin – zdolność i Ład. Przykład: bank dostaje trzy wyniki – obsługa zgłoszeń 2, zarządzanie ryzykiem 1, kopie zapasowe 3 – i od razu widzi, gdzie wydać pieniądze. Odpowiedź „organizacja osiągnęła poziom 3” jest błędna.</p>",
+   "lekcje": [
+    "pc-k10-model-zdolnosci",
+    "pc-k11-jeden-proces"
+   ]
+  },
+  {
+   "h": "Zdolność COBIT 5 to surowsza miara niż dojrzałość COBIT 4.1",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Cecha</th><th>COBIT 4.1</th><th>COBIT 5</th></tr><tr><td>podstawa</td><td>własny model</td><td>ISO/IEC 15504</td></tr><tr><td>atrybuty</td><td>6 atrybutów dojrzałości</td><td>9 atrybutów procesu</td></tr><tr><td>poziom 1</td><td>działanie doraźne</td><td>osiągnięty cel procesu</td></tr></table></div>",
+   "c": "Wyniki w COBIT 5 są zwykle niższe, a wyników obu modeli nie porównuje się wprost.",
+   "s": "COBIT 5 Framework (PL), s. 41–45, Ilustracja 20",
+   "ctx": "<p>Podręcznik: „Zasadniczo w przypadku modelu potencjału procesu w ramach metodyki COBIT 5 wyniki będą niższe”. Proces z dawnym poziomem 1 lub 2 może dostać 0 lub 1, bo od poziomu 1 liczy się osiąganie celu procesu. COBIT 5 nie ma osobnego modelu dla każdego procesu – opis daje Referencyjny Model Procesu, skala jest wspólna. Pięć korzyści: skupienie na celu procesu, uproszczenie (bez powielania treści), większa niezawodność i powtarzalność ocen, podstawa formalnej oceny, zgodność z uznanym standardem.</p><p>Pułapka: „Zarządzane i mierzalne” to poziom 4 dojrzałości COBIT 4.1, a „Proces zarządzany” – poziom 2 zdolności COBIT 5; „Nieistniejące” (4.1) to nie „Proces niekompletny” (5). Przykład: ubezpieczyciel miał obsługę szkód na poziomie 3 dojrzałości, nowa ocena daje 1 – zmieniła się miara, nie praca.</p>",
+   "lekcje": [
+    "pc-k12-dojrzalosc-a-zdolnosc",
+    "pc-k13-nizsze-wyniki-korzysci"
+   ]
+  }
+ ],
+ "k-pc-poziomy": [
+  {
+   "h": "Sześć poziomów zdolności: od 0 do 5",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th></th><th>Egzamin PL</th><th>EN</th></tr><tr><td>0</td><td><w k=\"poziom-0\">Proces niekompletny</w></td><td><span class=\"en\">Incomplete</span></td></tr><tr><td>1</td><td><w k=\"poziom-1\">Proces wykonywany</w></td><td><span class=\"en\">Performed</span></td></tr><tr><td>2</td><td><w k=\"poziom-2\">Proces zarządzany</w></td><td><span class=\"en\">Managed</span></td></tr><tr><td>3</td><td><w k=\"poziom-3\">Proces ustanowiony</w></td><td><span class=\"en\">Established</span></td></tr><tr><td>4</td><td><w k=\"poziom-4\">Proces przewidywalny</w></td><td><span class=\"en\">Predictable</span></td></tr><tr><td>5</td><td><w k=\"poziom-5\">Proces zoptymalizowany</w></td><td><span class=\"en\">Optimising</span></td></tr></table></div>",
+   "c": "Każdy poziom można osiągnąć tylko wtedy, gdy niższy jest w pełni uzyskany.",
+   "s": "COBIT 5 Framework (PL), s. 42, Ilustracja 19",
+   "ctx": "<p>Drabina <span class=\"en\">capability levels</span> jest wspólna dla wszystkich 37 procesów: szczeble nie zmieniają celu procesu, tylko sposób, w jaki organizacja nim kieruje. Poziom 1 ma jeden atrybut, poziomy 2–5 po dwa, poziom 0 – żadnego.</p><p>Pułapka: egzamin pisze „Proces zoptymalizowany”, podręcznik – „proces optymalizujący”; Rysunek 19 egzaminu to Ilustracja 19 podręcznika. Nie myl z poziomem 5 dojrzałości COBIT 4.1 („Zoptymalizowane”). Przykład – zwroty w sklepie internetowym: 0 część zwrotów ginie; 1 zwroty są załatwiane; 2 ktoś planuje i pilnuje terminów; 3 jedna procedura dla całej firmy; 4 czas zwrotu mierzony i trzymany w limicie; 5 proces stale ulepszany pod cele biznesowe.</p>",
+   "lekcje": [
+    "pc-k20-szesc-poziomow"
+   ]
+  },
+  {
+   "h": "Poziomy 0, 1, 2: najpierw efekt, potem zarządzanie",
+   "b": "<ul><li><b>0</b> – nie wdrożono albo cel nieosiągnięty, choć ludzie pracują,</li><li><b>1</b> – cel osiągnięty, bez planu i pomiaru,</li><li><b>2</b> – praca planowana, monitorowana i dostosowywana; produkty pracy określone, kontrolowane, utrzymywane.</li></ul>",
+   "c": "O poziomie 0 albo 1 decyduje efekt, nie wysiłek; poziom 2 dokłada plan i porządek w produktach.",
+   "s": "COBIT 5 Framework (PL), s. 42",
+   "ctx": "<p>Podręcznik: na poziomie 0 „proces nie został wdrożony lub jego cel nie został osiągnięty”, na poziomie 1 „cel wdrożonego procesu został osiągnięty” – to już ważne osiągnięcie. Poziom 2 buduje na poziomie 1 i ma dwa atrybuty (PA 2.1, PA 2.2), ale nie wymaga jednej procedury dla całej organizacji – każdy zespół może zarządzać po swojemu; wspólny standard to poziom 3.</p><p>Pułapka: „Proces niekompletny” to nie „Nieistniejące” z COBIT 4.1 – proces może być codziennie wykonywany, a i tak stać na zerze. Przykład: helpdesk banku rejestruje zgłoszenia, ale połowa zostaje bez rozwiązania – poziom 0; zgłoszenia są rozwiązywane, choć bez grafiku i statystyk – poziom 1; kierownik planuje obsadę, co tydzień sprawdza terminy, a szablon zgłoszenia ma wersję – poziom 2.</p>",
+   "lekcje": [
+    "pc-k21-poziom-0-i-1",
+    "pc-k22-poziom-2"
+   ]
+  },
+  {
+   "h": "Poziomy 3–5: wspólny standard, limity, ciągłe ulepszanie",
+   "b": "<ul><li><b>3</b> – działa według zdefiniowanego, wspólnego procesu,</li><li><b>4</b> – działa w zdefiniowanych limitach,</li><li><b>5</b> – jest stale doskonalony pod aktualne i przyszłe cele biznesowe.</li></ul>",
+   "c": "3 – tak samo wszędzie, 4 – w liczbach i granicach, 5 – coraz lepiej.",
+   "s": "COBIT 5 Framework (PL), s. 42–43",
+   "ctx": "<p>Kolejności nie da się przeskoczyć: sensownie mierzyć można tylko proces, który wszędzie przebiega tak samo, a ulepszać – taki, którego wyniki znamy w liczbach. Poziom 5 nie jest celem dla każdego procesu: poziom docelowy wybiera się z rachunku kosztów i korzyści oraz analizy wykonalności i „rzadko będzie jednym z najwyższych poziomów”.</p><p>Słowa-klucze w pytaniach: „standard dla całej organizacji” – 3, „limity, pomiar, odchylenia” – 4, „ulepszenia pod cele biznesowe” – 5. Przykład – dostawca chmury: wszystkie centra danych wdrażają zmiany według jednej procedury (3); czas wdrożenia jest mierzony, a po przekroczeniu limitu zespół szuka przyczyny (4); firma testuje automatyzację, bo klienci chcą szybszych zmian (5).</p>",
+   "lekcje": [
+    "pc-k23-poziomy-3-5"
+   ]
+  },
+  {
+   "h": "Dziewięć atrybutów procesu: 1 + 2 + 2 + 2 + 2",
+   "b": "<p><w k=\"atrybuty-procesu\">Atrybuty procesu</w> <span class=\"en\">Process attributes</span>, PA: poziom 1 ma jeden (PA 1.1), poziomy 2–5 po dwa. Pierwsza cyfra kodu to numer poziomu.</p>",
+   "c": "Dziewięć atrybutów procesu to COBIT 5; sześć atrybutów dojrzałości to COBIT 4.1.",
+   "s": "COBIT 5 Framework (PL), s. 41–42, Ilustracja 19",
+   "ctx": "<p>Mapa: PA 1.1 Wykonanie procesu; PA 2.1 Zarządzanie wydajnością, PA 2.2 Zarządzanie produktami pracy; PA 3.1 Definicja procesu, PA 3.2 Wdrożenie procesu; PA 4.1 Miara procesu, PA 4.2 Kontrola procesu; PA 5.1 Innowacja procesu, PA 5.2 Optymalizacja procesu. Formy PA 1.1 i PA 2.2 nie są potwierdzone w oficjalnych materiałach – rozpoznawaj atrybut po kodzie i nazwie angielskiej. Każdy atrybut ocenia się osobno, a z dziewięciu ocen wynika poziom.</p><p>Pułapka: podręcznik pisze „atrybuty potencjału procesu”. Liczba 6 to atrybuty dojrzałości COBIT 4.1, np. świadomość i komunikowanie, narzędzia i automatyzacja; częściowo pokrywają się z nowymi (Ilustracja 21), więc dawną ocenę można przeklasyfikować. Przykład: raport banku o procesie zarządzania dostępem ma dziewięć wierszy – po jednym na atrybut – i dopiero z nich wynika poziom.</p>",
+   "lekcje": [
+    "pc-k24-dziewiec-atrybutow"
+   ]
+  }
+ ],
+ "k-pc-atrybuty": [
+  {
+   "h": "PA 1.1 pyta o efekt, PA 2.1 o zarządzanie pracą, PA 2.2 o jej produkty",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Atrybut</th><th>Sprawdza</th></tr><tr><td><w k=\"pa-1-1\">PA 1.1 Wykonanie procesu</w></td><td>czy proces osiąga cel</td></tr><tr><td><w k=\"pa-2-1\">PA 2.1 Zarządzanie wydajnością</w></td><td>planowanie, monitorowanie, dostosowanie pracy</td></tr><tr><td><w k=\"pa-2-2\">PA 2.2 Zarządzanie produktami pracy</w></td><td>produkty określone, kontrolowane, utrzymywane</td></tr></table></div>",
+   "c": "PA 1.1 to jedyny atrybut poziomu 1; „wydajność” w PA 2.1 nie znaczy „szybciej”.",
+   "s": "COBIT 5 Framework (PL), s. 42, Ilustracja 19",
+   "ctx": "<p>EN: <span class=\"en\">Process performance</span>, <span class=\"en\">Performance management</span>, <span class=\"en\">Work product management</span>; podręcznik: Sprawność procesu, Zarządzanie sprawnością, Zarządzanie produktami działań. Poziom 1 wymaga PA 1.1 osiągniętego „w znacznym stopniu” – dowodem są wyniki procesu, nie plany. PA 2.1 to plan, grafik, odpowiedzialności i korekta; PA 2.2 – wzór, wersja, właściciel i przegląd dokumentów i rejestrów (produkty działań to wejścia i wyjścia procesów). Do poziomu 2 potrzebne są oba.</p><p>Nie myl PA 2.1 z zarządzaniem wydajnością aktywatora ani z oceną pracowników. Przykład – helpdesk z systemem do obsługi klientów (CRM): kierownik układa grafik i dokłada ludzi w szczycie (PA 2.1), a szablon zgłoszenia ma wersję zatwierdzaną przez właściciela (PA 2.2).</p>",
+   "lekcje": [
+    "pc-k30-pa-1-1",
+    "pc-k31-pa-2-1-pa-2-2"
+   ]
+  },
+  {
+   "h": "PA 3.1 – standard spisany, PA 3.2 – standard stosowany",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Atrybut</th><th>Sprawdza</th></tr><tr><td><w k=\"pa-3-1\">PA 3.1 Definicja procesu</w> <span class=\"en\">Process definition</span></td><td>czy jest jeden opisany proces dla organizacji</td></tr><tr><td><w k=\"pa-3-2\">PA 3.2 Wdrożenie procesu</w> <span class=\"en\">Process deployment</span></td><td>czy wszyscy według niego pracują</td></tr></table></div>",
+   "c": "Procedura w szufladzie nie daje poziomu 3.",
+   "s": "COBIT 5 Framework (PL), s. 42",
+   "ctx": "<p>Opis atrybutów to streszczenie normy ISO/IEC 15504 – podręcznik podaje tylko nazwy i regułę, że poziom 3 „wymaga zdefiniowania procesu oraz osiągnięcia (w znacznym stopniu) atrybutów wdrożenia”. Wdrożenie obejmuje też szkolenia, kompetencje i zasoby, więc oceniający sprawdza codzienną pracę, nie tylko dokument.</p><p>Dwie typowe słabości: brak wspólnego standardu (uczelnia ma na trzech wydziałach trzy sposoby zakładania kont studentom – słaby PA 3.1) i standard, którego nikt nie stosuje (centrala banku spisała procedurę reklamacji, a nieprzeszkolone oddziały pracują po swojemu – słaby PA 3.2). „Każdy zespół planuje i pilnuje terminów” to poziom 2, „wyniki mierzone i trzymane w limicie” – poziom 4.</p>",
+   "lekcje": [
+    "pc-k32-pa-3-1-pa-3-2"
+   ]
+  },
+  {
+   "h": "Poziom 4 mierzy i pilnuje granic, poziom 5 ulepsza",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Atrybut</th><th>Sprawdza</th></tr><tr><td><w k=\"pa-4-1\">PA 4.1 Miara procesu</w></td><td>wyniki mierzone względem celów</td></tr><tr><td><w k=\"pa-4-2\">PA 4.2 Kontrola procesu</w></td><td>odchylenia od limitów korygowane</td></tr><tr><td><w k=\"pa-5-1\">PA 5.1 Innowacja procesu</w></td><td>wybór ulepszenia pod cele biznesowe</td></tr><tr><td><w k=\"pa-5-2\">PA 5.2 Optymalizacja procesu</w></td><td>wdrożenie zmiany i ocena efektu</td></tr></table></div>",
+   "c": "Liczby bez reakcji to słaby PA 4.2; wskazanie zmiany to PA 5.1, jej wdrożenie z oceną efektu – PA 5.2.",
+   "s": "COBIT 5 Framework (PL), s. 42, Ilustracja 19",
+   "ctx": "<p>EN: <span class=\"en\">Process measurement, Process control, Process innovation, Process optimisation</span>. Podręcznik pisze „Pomiar procesu” i „Innowacje procesowe”; opis atrybutów to streszczenie normy ISO/IEC 15504. „Kontrola” w PA 4.2 to sterowanie procesem w granicach, nie inspekcja ludzi. Różnica wobec PA 2.1: poziom 2 sprawdza, czy praca idzie zgodnie z planem, poziom 4 mierzy liczbowo wyniki procesu względem celów.</p><p>Przykład – dostawca chmury: cel to 95% usług przywróconych w ciągu godziny (PA 4.1); gdy tygodniowy wynik spada do 80%, zespół szuka przyczyny i ją usuwa (PA 4.2). Sklep internetowy: analiza wskazuje automatyczne zwroty (PA 5.1), zmiana działa najpierw w jednym magazynie, a po pomiarze efektu – wszędzie (PA 5.2).</p>",
+   "lekcje": [
+    "pc-k33-pa-4-1-pa-4-2",
+    "pc-k34-pa-5-1-pa-5-2"
+   ]
+  }
+ ],
+ "k-pc-oceny": [
+  {
+   "h": "Skala ocen N/C/W/P: progi 15, 50 i 85%",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Egzamin PL</th><th>EN = podręcznik</th><th>Stopień</th></tr><tr><td><w k=\"ocena-n\">N – Nieosiągnięty</w></td><td>N – Not achieved</td><td>0–15%</td></tr><tr><td><w k=\"ocena-c\">C – Częściowy</w></td><td><b>P</b> – Partially</td><td>&gt;15–50%</td></tr><tr><td><w k=\"ocena-w\">W – Większościowy</w></td><td>L – Largely</td><td>&gt;50–85%</td></tr><tr><td><w k=\"ocena-p\"><b>P</b> – Pełny</w></td><td>F – Fully</td><td>&gt;85–100%</td></tr></table></div>",
+   "c": "Na egzaminie P znaczy Pełny; w podręczniku P znaczy „częściowo”.",
+   "s": "COBIT 5 Framework (PL), s. 45",
+   "ctx": "<p><w k=\"skala-ocen\">Skalę ocen</w> <span class=\"en\">Rating scale</span> stosuje się do każdego atrybutu osobno; procent opisuje stopień, w jakim istnieją dowody. N – brak dowodów lub znikoma ich liczba. C – pewne dowody, osiąganie częściowe, niektóre aspekty nieprzewidywalne. W – dowody systematyczne, mogą istnieć pewne słabości. P – dowody kompletne, brak istotnych słabości (co nie znaczy 100%).</p><p>Skutek: PA 1.1 z oceną N albo C oznacza poziom 0, bo „w znacznym stopniu” zaczyna się od W. Tylko N znaczy to samo w obu skalach. Przykład: bank dostaje angielski raport „PA 2.1 – P”; w polskim zestawieniu musi wpisać C – Częściowy, inaczej słaby atrybut wyglądałby na wzorowy.</p>",
+   "lekcje": [
+    "pc-k40-skala-ocen",
+    "pc-k41-oceny-n-i-c",
+    "pc-k42-oceny-w-i-p"
+   ]
+  },
+  {
+   "h": "Reguła poziomu: nowy szczebel co najmniej W, niższe – P",
+   "b": "<p>Proces osiąga poziom n, gdy:</p><ol><li>atrybuty poziomu n mają <b>W lub P</b>,</li><li>wszystkie atrybuty niższych poziomów mają <b>P</b>.</li></ol><p>Poziom 1: wystarczy PA 1.1 = W.</p>",
+   "c": "Bez średniej i bez przeskoków: piętro może być w budowie, fundament musi być gotowy.",
+   "s": "Sylabus; COBIT 5 Framework (PL), s. 42",
+   "ctx": "<p>Regułę formułuje sylabus, a jej sedno podaje podręcznik: „Każdy z poziomów potencjału może zostać osiągnięty tylko wtedy, gdy w pełni uzyskano niższy poziom”. Przykład z podręcznika – poziom 3: PA 3.1 i PA 3.2 na W lub P, a PA 1.1, PA 2.1 i PA 2.2 na P. Poziom 1 nie ma niższych atrybutów, więc wystarczy W; na poziomie 2 PA 1.1 musi już mieć P.</p><p>Trzy błędy egzaminacyjne: liczenie średniej z atrybutów, wymaganie P także na zdobywanym szczeblu i przeskakiwanie szczebla dzięki dobrym ocenom wyżej. Przykład: gmina ma wspólną, stosowaną procedurę (PA 3.1 i PA 3.2 = P), ale nikt nie planuje pracy (PA 2.1 = C) – wynik to poziom 1, nie 3.</p>",
+   "lekcje": [
+    "pc-k43-regula-poziomu"
+   ]
+  },
+  {
+   "h": "Poziom liczysz od dołu, cel wybierasz z kosztów i korzyści",
+   "b": "<p>PA 1.1 P · 2.1 W · 2.2 P · 3.1 P · 3.2 W</p><ul><li>poziomy 1 i 2 – spełnione,</li><li>poziom 3 – nie, bo PA 2.1 nie ma P.</li></ul><p><b>Wynik: poziom 2.</b></p>",
+   "c": "Pierwszy niespełniony szczebel zatrzymuje wynik; rozsądne minimum to poziom 1 dla wszystkich procesów.",
+   "s": "Sylabus; COBIT 5 Framework (PL), s. 43, 45",
+   "ctx": "<p>Sprawdzaj szczeble od poziomu 1 w górę i przy każdym pytaj: czy jego atrybuty mają co najmniej W i czy wszystkie niższe mają P. Drugi przykład: PA 1.1 = W, PA 2.1 = P, PA 2.2 = P daje poziom 1 – poziom 2 blokuje PA 1.1 bez P.</p><p>Poziom docelowy wybiera organizacja dla każdego procesu osobno, na podstawie rachunku kosztów i korzyści oraz analizy wykonalności; rzadko jest to jeden z najwyższych. Podręcznik: ambicją wielu organizacji będzie poziom 1 we wszystkich procesach – proces, który nie daje wyniku, nie ma sensu. Przykład: ubezpieczyciel przyjmuje minimum 1 dla wszystkich 37 procesów i cel 3 dla obsługi szkód; różnica między stanem obecnym a docelowym to luka do planu doskonalenia.</p>",
+   "lekcje": [
+    "pc-k44-liczymy-poziom"
+   ]
+  }
+ ],
+ "k-pc-iso": [
+  {
+   "h": "Wymiar Procesu: czy proces robi swoje; Wymiar Zdolności: jak nim kierujemy",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th></th><th><w k=\"wymiar-procesu\">Wymiar Procesu</w></th><th><w k=\"wymiar-zdolnosci\">Wymiar Zdolności</w></th></tr><tr><td>wskaźniki</td><td>wyniki, praktyki bazowe, produkty pracy – inne dla każdego procesu</td><td>typowe praktyki, zasoby i produkty – wspólne</td></tr><tr><td>służy</td><td>poziomowi 1</td><td>poziomom 2–5</td></tr></table></div>",
+   "c": "Wskaźnik specyficzny dla procesu to Wymiar Procesu; wspólny dla wszystkich – Wymiar Zdolności.",
+   "s": "COBIT 5 Framework (PL), s. 42, 45, Ilustracja 19",
+   "ctx": "<p>EN: <span class=\"en\">Process dimension</span>, <span class=\"en\">Capability dimension</span>. Na Ilustracji 19 podręcznik mówi o „wskaźnikach wydajności” i „wskaźnikach potencjału” – to te same dwie grupy; „wydajność” znaczy tu wykonanie procesu, nie szybkość. Dla wyższych poziomów używa się typowych praktyk <span class=\"en\">generic practices</span> opartych na normie ISO/IEC 15504-2, np. „zaplanuj wykonanie procesu” – pasują do każdego procesu.</p><p>To jedna ocena z dwóch stron, nie dwie kontrole. Przykład – obsługa incydentów IT w szpitalu: Wymiar Procesu to rejestr zgłoszeń i to, czy awarie są usuwane; Wymiar Zdolności – czy praca jest planowana, czy jest wspólna procedura, czy wyniki są mierzone. Jeśli awarie nie są usuwane, dowody z Wymiaru Zdolności nie podniosą wyniku ponad 0.</p>",
+   "lekcje": [
+    "pc-k50-dwa-wymiary"
+   ]
+  },
+  {
+   "h": "Referencyjny Model Procesu opisuje tylko to, co prowadzi do celu",
+   "b": "<p><w k=\"prm\">Referencyjny Model Procesu</w> <span class=\"en\">Process Reference Model</span>, PRM:</p><div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Pojęcie</th><th>Znaczy</th></tr><tr><td><w k=\"przeznaczenie-procesu\">Przeznaczenie procesu</w></td><td>po co istnieje</td></tr><tr><td><w k=\"rezultat-procesu\">Rezultat</w></td><td>widoczny skutek</td></tr><tr><td><w k=\"praktyka-bazowa\">Praktyka bazowa</w></td><td>praktyka Ładu lub Zarządzania</td></tr><tr><td><w k=\"produkt-pracy\">Produkt pracy</w></td><td>wejścia i wyjścia</td></tr></table></div>",
+   "c": "Planowanie, pomiar i standaryzacja nie należą do opisu procesu – to atrybuty poziomów 2–5.",
+   "s": "COBIT 5 Framework (PL), s. 43",
+   "ctx": "<p>W COBIT 5 PRM to 37 procesów z przewodnika „Procesy umożliwiające” <span class=\"en\">COBIT 5: Enabling Processes</span>; ich opisy zawierają „wyłącznie kroki konieczne do osiągnięcia rzeczywistych zamiarów i celów procesu”. Cechy wspólne (plan, pomiar, standard) przeniesiono do atrybutów, żeby się nie powielały. PRM łączy się z Wymiarem Procesu. Opis czterech pojęć to streszczenie normy ISO/IEC 15504; EN: <span class=\"en\">purpose, outcome, base practice, work product</span>.</p><p>Pułapki: przeznaczenie to podręcznikowy „cel procesu”; rezultat <span class=\"en\">outcome</span> to stan, a nie wyjście <span class=\"en\">output</span> – raport jest produktem pracy. Formy „praktyka bazowa” i „produkt pracy” są niepotwierdzone (podręcznik: podstawowe praktyki, produkty działań). Przykład – helpdesk: przeznaczenie – szybko przywracać usługi; rezultat – incydenty rozwiązane w uzgodnionym czasie; praktyka – rejestruj i klasyfikuj zgłoszenia; produkt – rejestr zgłoszeń.</p>",
+   "lekcje": [
+    "pc-k51-referencyjny-model-procesu",
+    "pc-k52-cztery-pojecia-iso"
+   ]
+  },
+  {
+   "h": "Poziom 1 ocenia się po wynikach, a praktyki pokazują, co poprawić",
+   "b": "<ol><li>wyniki procesu porównaj z jego opisem i oceń N/C/W/P,</li><li>tą samą skalą oceń praktyki,</li><li>dla dokładności uwzględnij produkty pracy.</li></ol>",
+   "c": "Gdy proces nie osiąga poziomu 1, ocena praktyk wskazuje, które praktyki wdrożyć w planie doskonalenia.",
+   "s": "COBIT 5 Framework (PL), s. 45",
+   "ctx": "<p>Podręcznik: „Oszacowanie praktyk procesów pozwoli na ustalenie, których praktyk brakuje” albo które nie działają – z tego powstaje plan doskonalenia. Sam wynik mówi, że jest problem; ocena praktyk – gdzie dokładnie. Przykład: u ubezpieczyciela wypłaty się opóźniają, a ocena praktyk pokazuje, że nikt nie weryfikuje kompletności dokumentów – plan to wdrożyć tę praktykę.</p><p>Czym ocena poziomu 1 nie jest: przeliczeniem dawnej oceny dojrzałości z COBIT 4.1, oceną ludzi ani sprawdzaniem planów i procedur – te należą do Wymiaru Zdolności i poziomów 2–5. Trzy kroki odpowiadają pojęciom normy – rezultatom, praktykom bazowym i produktom pracy – czyli dowodom z Wymiaru Procesu.</p>",
+   "lekcje": [
+    "pc-k53-ocena-poziomu-1"
+   ]
+  },
+  {
+   "h": "Ocena zdolności ma cel wewnętrzny albo zewnętrzny",
+   "b": "<p><w k=\"cele-oceny\">Cele oceny zdolności procesu</w>:</p><ol><li>porównanie procesów przez <w k=\"organ-ladu\">Organ Ładu i nadzoru</w> i kierownictwo,</li><li>stan „jak jest” i „jak ma być”,</li><li>analiza luk i plan usprawnień,</li><li>klasyfikacja ocen do monitorowania.</li></ol>",
+   "c": "Formalna ocena, raportowanie i certyfikacja to cel zewnętrzny; porównania i doskonalenie – wewnętrzny.",
+   "s": "COBIT 5 Framework (PL), s. 45",
+   "ctx": "<p>Cel wewnętrzny to porównanie obszarów organizacji albo doskonalenie dla własnych korzyści. Podręcznik: cele „mogą mieć charakter zewnętrzny i dotyczyć formalnego oszacowania, raportowania i certyfikacji”; od celu zależy stopień rygoryzmu oceny. Cztery cele tworzą ciąg: porównanie pokazuje słabe procesy, „jak jest / jak ma być” daje podstawę decyzji inwestycyjnych, analiza luk zamienia różnicę w projekty, a klasyfikacja ocen pozwala sprawdzić, czy luki maleją. Podręcznik pisze „organ nadzorujący” <span class=\"en\">governing body</span>.</p><p>Przykład: zarząd banku pyta, gdzie są kluczowe procesy i co sfinansować w przyszłym roku – cel wewnętrzny; regulator żąda formalnego raportu o procesach – cel zewnętrzny. Ocenia się procesy, a nie ludzi.</p>",
+   "lekcje": [
+    "pc-k55-cele-oceny"
+   ]
+  },
+  {
+   "h": "PAM to wspólna podstawa, przewodniki – dwa rodzaje oceny",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Publikacja</th><th>Do czego</th></tr><tr><td><w k=\"pam\">Model Oceny Procesu</w> (PAM)</td><td>procesy, wskaźniki, atrybuty, skala</td></tr><tr><td><w k=\"przewodnik-asesora\">Przewodnik Asesora</w></td><td>formalna ocena z dowodami</td></tr><tr><td><w k=\"przewodnik-samooceny\">Przewodnik Samooceny</w></td><td>uproszczona, nieformalna ocena – przygotowanie do formalnej</td></tr></table></div>",
+   "c": "Formalna ocena z dowodami to Przewodnik Asesora; lżejsza, bez wymogu dowodów – Przewodnik Samooceny.",
+   "s": "Sylabus; COBIT 5 Framework (PL), s. 41",
+   "ctx": "<p>Model Oceny Procesu <span class=\"en\">Process Assessment Model</span> opiera się na ISO/IEC 15504 i łączy procesy z Referencyjnego Modelu Procesu, wskaźniki obu wymiarów, dziewięć atrybutów i skalę ocen – dzięki temu wyniki różnych ocen znaczą to samo. Opis przewodników pochodzi z sylabusa; podręcznik FW-PL ich nazw nie podaje. Przewodnik Asesora prowadzi formalną ocenę zgodną z normą. Przewodnik Samooceny nie jest jego kopią „do użytku wewnętrznego” – to uproszczona, nieformalna ocena, która może przygotować do oceny formalnej. Sam PAM ma wartość jako model referencyjny; przewodniki z niego korzystają, a nie go oceniają.</p><p>Pułapka nazw: <span class=\"en\">Assessor Guide</span> bywa tłumaczony jako „Przewodnik osoby oceniającej”, <span class=\"en\">Self-Assessment Guide</span> – jako „Podręcznik samooceny”; na egzaminie: Przewodnik Asesora i Przewodnik Samooceny. Przykład: dział IT uczelni najpierw sam ocenia procesy i usuwa luki, a po roku zaprasza asesora, który zbiera dowody i wystawia formalną ocenę.</p>",
+   "lekcje": [
+    "pc-k56-przewodniki-oceny"
+   ]
+  }
+ ]
+}

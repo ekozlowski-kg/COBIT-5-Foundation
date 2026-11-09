@@ -32,8 +32,8 @@
   "przyklady": {
     "zycie": "Wybraliście remont łazienki z prysznicem zamiast wanny. Teraz rysujecie plan: gdzie odpływ, jakie płytki, ile gniazdek. Nic jeszcze nie kujecie. To faza projektowania.",
     "biuro": "Kierowniczka projektuje arkusz zamówień: jakie kolumny, kto zatwierdza, do kiedy składać zamówienia. Arkusza jeszcze nikt nie używa.",
-    "organizacja": "Sklep wybrał bramkę płatności. Informatyk projektuje, jak będzie wyglądał koszyk, kto zatwierdza zwroty i jakie dane trafią do księgowości. To projektowanie aktywatora.\n\nUrząd wybrał zapisy przez internet. Kierownik projektuje formularz, godziny wizyt i to, kto potwierdza rezerwacje. Nikt jeszcze nie kupił systemu. To faza projektowania.",
-    "psp": "**Procedura na papierze** St. ogn. Kasia Nowik z kpt. Markiem Sikorą projektują nową procedurę alarmowania OSP. Rozpisują kroki, wejście (zgłoszenie z CPR 112), wynik (potwierdzenie z OSP) i to, kto za co odpowiada w RACI. Syrena działa jeszcze po staremu. To faza projektowania aktywatora Proces.",
+    "organizacja": "Sklep wybrał bramkę płatności. Informatyk projektuje, jak będzie wyglądał koszyk, kto zatwierdza zwroty i jakie dane trafią do księgowości. To projektowanie aktywatora.",
+    "admin": "Urząd miasta wybrał zapisy przez Internet. Kierownik projektuje formularz, godziny wizyt i to, kto potwierdza rezerwacje. Nikt jeszcze nie kupił systemu. To faza projektowania.",
     "it": "Projektując proces, korzystasz z modelu opisu procesu z przewodnika *Procesy umożliwiające*: cele, praktyki, działania, wejścia i wyjścia oraz RACI."
   },
   "nieMylicZ": [
@@ -82,8 +82,8 @@
   "mapa": "cykl-faza-2",
   "glebokosc": {
     "prosty": "Krawcowa przyjęła zamówienie na sukienkę. Zanim przetnie materiał, rysuje wykrój i zapisuje wymiary. Rysunek to projekt. Bez niego cięcie materiału byłoby zgadywaniem.",
-    "zaawansowany": "Sikora projektuje proces alarmowania według [[opis-procesu|modelu opisu procesu]]. Wpisuje cel procesu, praktyki, wejścia i wyjścia. Do każdej praktyki dopisuje [[raci|RACI]]: kto wykonuje, kto odpowiada. Tak robią kierownicy ds. procesów w Przykładzie 5 z FW-PL. Dopiero gotowy projekt przechodzi do [[cykl-faza-3|fazy 3]].",
-    "skrajny": "Komenda chce kupić Syrenę 2.0 jako gotowy produkt. Czy wolno pominąć projektowanie, skoro nic się nie buduje? Nie. Projektujesz wtedy, jak gotowy system wpasuje się w procedury, uprawnienia i dane OSP. Nabywanie z fazy 3 nie zastępuje projektu. Pierwsza Syrena zawiodła m.in. dlatego, że kupiono ją bez takiego projektu. **Rozstrzygnięcie:** projektowanie dotyczy też aktywatorów kupowanych gotowych; projektujesz ich miejsce i zasady działania (interpretacja kursu)."
+    "zaawansowany": "CIO projektuje proces obsługi powiadomień klientów według [[opis-procesu|modelu opisu procesu]]. Wpisuje cel procesu, praktyki, wejścia i wyjścia. Do każdej praktyki dopisuje [[raci|RACI]]: kto wykonuje, kto odpowiada. Tak robią kierownicy ds. procesów w Przykładzie 5 z FW-PL. Dopiero gotowy projekt przechodzi do [[cykl-faza-3|fazy 3]].",
+    "skrajny": "Szpital chce kupić nowy system rejestracji pacjentów jako gotowy produkt. Czy wolno pominąć projektowanie, skoro nic się nie buduje? Nie. Projektujesz wtedy, jak gotowy system wpasuje się w procedury, uprawnienia i dane pacjentów. Nabywanie z fazy 3 nie zastępuje projektu. Poprzedni system zawiódł m.in. dlatego, że kupiono go bez takiego projektu. **Rozstrzygnięcie:** projektowanie dotyczy też aktywatorów kupowanych gotowych; projektujesz ich miejsce i zasady działania (interpretacja kursu)."
   },
   "zagmatwania": [
     {

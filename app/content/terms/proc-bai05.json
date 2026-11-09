@@ -39,8 +39,8 @@
   "przyklady": {
     "zycie": "Babcia dostaje smartfon zamiast starej komórki. Wnuczka nie tylko daje jej telefon. Tłumaczy, po co jej wideorozmowy, uczy po kawałku, chwali za pierwszy wysłany SMS i przez miesiąc dzwoni z pytaniem, jak idzie. To BAI05 w domowej skali.",
     "biuro": "Biuro przechodzi na nowy sposób rozliczania delegacji. Szefowa tłumaczy powody, szkoli w małych grupach i wyznacza osobę do pytań.",
-    "organizacja": "Hurtownia przechodzi na skanery: kierowniczka pyta magazynierów o obawy i robi ze sceptyka ambasadora. Sekretarz gminy szkoli urzędników z e-obiegu i po pół roku wycofuje papierowe dzienniki.",
-    "psp": "**Starzy dyżurni i nowy ekran.** Po wdrożeniu nowej Syreny asp. sztab. Paweł Grab dalej woli dzwonić do OSP z telefonu. Komendantka Wrzos tłumaczy na odprawie, po co jest zmiana, i przypomina noc na Lipowej. Kasia Nowik zostaje „ambasadorką” i pomaga kolegom na zmianach. Po miesiącu Grab pierwszy chwali się alarmem w 40 sekund. Przekonanie ludzi do nowego sposobu pracy to [[proc-bai05]].",
+    "organizacja": "Hurtownia przechodzi na skanery: kierowniczka pyta magazynierów o obawy i robi ze sceptyka ambasadora.",
+    "admin": "Gmina przechodzi z papierowych dzienników korespondencji na elektroniczny obieg dokumentów. Sekretarz gminy najpierw tłumaczy 45 urzędnikom, po co ta zmiana, a w każdym referacie wyznacza osobę, która pomaga innym. Szkoli w małych grupach, chwali referaty, które pierwsze przeszły na nowy obieg, i po pół roku wycofuje papierowe dzienniki, żeby nikt nie wrócił do starych nawyków.",
     "it": "Siedem praktyk BAI05 to m.in. ustanowienie chęci zmiany, komunikowanie wizji, umożliwienie działania i użytkowania oraz utrzymanie zmian."
   },
   "nieMylicZ": [
@@ -95,8 +95,8 @@
   "mapa": "proc-bai05",
   "glebokosc": {
     "prosty": "Kupujesz rodzinie zmywarkę. Mąż dalej myje ręcznie, bo „tak szybciej”. Pokazujesz mu, jak ją załadować w minutę, i chwalisz pierwszy raz. Po miesiącu nikt już nie pamięta zlewu. To jest zmiana przyjęta przez ludzi.",
-    "zaawansowany": "Nowa Syrena jest odebrana i działa. Mimo to część dyżurnych nadal dzwoni do OSP z telefonu, bo „tak zawsze było”. Komendantka Wrzos tłumaczy cel, Nowik pomaga na zmianach, a pierwsze sukcesy są ogłaszane na odprawie. To [[proc-bai05]]. Wiedzę i instrukcje dla dyżurnych utrzymuje [[proc-bai08]], a samo uruchomienie systemu było w [[proc-bai07]].",
-    "skrajny": "Wdrożenie nowej Syreny ma trzy wątki, które w rozmowie zlewają się w „zarządzanie zmianą”. Sikora składa wniosek o zmianę, a Rada ds. Informatyki ocenia wpływ i ją zatwierdza – BAI06. Dyżurni robią testy odbiorcze na stanowisku zapasowym, potem następuje przełączenie – BAI07. Grab i inni doświadczeni dyżurni opierają się nowemu ekranowi – BAI05. Pułapka: BAI06 w podręczniku nazywa się po prostu „Zarządzanie zmianami” i kusi przy pytaniach o ludzi. **Rozstrzygnięcie:** ludzie, kultura i opór → BAI05. Ocena, zatwierdzenie i kontrola zmiany → BAI06. Odbiór i przejście do eksploatacji → BAI07."
+    "zaawansowany": "Nowy system CRM w banku jest odebrany i działa. Mimo to część konsultantów nadal prowadzi notatki o klientach w arkuszach, bo „tak zawsze było”. Zarząd tłumaczy cel, liderzy zmiany pomagają w zespołach, a pierwsze sukcesy są ogłaszane na spotkaniach. To [[proc-bai05]]. Wiedzę i instrukcje dla użytkowników utrzymuje [[proc-bai08]], a samo uruchomienie systemu było w [[proc-bai07]].",
+    "skrajny": "Wdrożenie nowego systemu CRM ma trzy wątki, które w rozmowie zlewają się w „zarządzanie zmianą”. Kierownik IT składa wniosek o zmianę, a komitet sterujący IT ocenia wpływ i ją zatwierdza – BAI06. Użytkownicy robią testy odbiorcze w środowisku testowym, potem następuje przełączenie – BAI07. Doświadczeni konsultanci opierają się nowemu ekranowi – BAI05. Pułapka: BAI06 w podręczniku nazywa się po prostu „Zarządzanie zmianami” i kusi przy pytaniach o ludzi. **Rozstrzygnięcie:** ludzie, kultura i opór → BAI05. Ocena, zatwierdzenie i kontrola zmiany → BAI06. Odbiór i przejście do eksploatacji → BAI07."
   },
   "zagmatwania": [
     {
@@ -109,13 +109,13 @@
     },
     {
       "mit": "BAI05 dotyczy tylko dużych reorganizacji.",
-      "prawda": "Dotyczy każdej zmiany wspieranej przez IT, która zmienia sposób pracy ludzi, także nowego ekranu dla dyżurnych."
+      "prawda": "Dotyczy każdej zmiany wspieranej przez IT, która zmienia sposób pracy ludzi, także nowego ekranu dla konsultantów obsługi klienta."
     }
   ],
   "mentor": {
     "czestyBlad": "Uczeń zaznacza BAI06 przy każdym pytaniu ze słowem „zmiana”, nawet gdy chodzi o opór pracowników.",
     "jakTlumaczyc": "Zapytaj: „Co trzeba zmienić – system czy ludzi?”. System → BAI06 i BAI07. Ludzie i ich nawyki → BAI05.",
-    "pytanieKontrolne": "Nowa Syrena przeszła testy i działa, ale po dwóch miesiącach połowa dyżurnych nadal dzwoni do OSP z telefonu. Który proces zawiódł?",
+    "pytanieKontrolne": "Nowy system CRM przeszedł testy i działa, ale po dwóch miesiącach połowa konsultantów nadal prowadzi notatki o klientach w arkuszach. Który proces zawiódł?",
     "odpowiedzKontrolna": "**BAI05** – zmiana nie została przyjęta i utrwalona w zachowaniu ludzi. BAI06 i BAI07 zrobiły swoje: zmianę zatwierdzono, odebrano i uruchomiono."
   }
 }

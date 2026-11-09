@@ -15,7 +15,7 @@
   },
   "pulapka": false,
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "polityka",
@@ -33,14 +33,14 @@
   "przyklady": {
     "zycie": "Gdy dziecko idzie do przedszkola, rodzice ustalają regułę: bajka tylko po kolacji. Po roku dziecko idzie do szkoły i reguła przestaje pasować, więc ją zmieniacie: bajka po odrobieniu lekcji. Starą kartkę zdejmujecie z lodówki, żeby nikt się na nią nie powoływał.",
     "biuro": "W biurze projektowym regulamin korzystania z drukarki kolorowej był sprzed lat i zakazywał druku powyżej 10 stron. Przy przeglądzie kierownik zmienia limit, rozsyła nową wersję mailem i usuwa starą z tablicy ogłoszeń.",
-    "organizacja": "Kwiaciarnia ma starą politykę zwrotów. Właścicielka raz w roku ją przegląda i skraca termin z 7 do 3 dni, bo kwiaty szybko więdną. Nową wersję wiesza przy kasie, a starą usuwa z folderu, żeby sprzedawczynie nie drukowały złej. Urząd gminy ma politykę haseł sprzed lat, która każe je zmieniać co 30 dni. Przy przeglądzie informatyk proponuje dłuższe hasła i rzadsze zmiany. Sekretarz zatwierdza nową wersję, ogłasza ją w intranecie i archiwizuje starą.",
-    "psp": "Polityka powiadamiania w komendzie w Modrzewiowie ma datę przeglądu: co pół roku. Przy pierwszym przeglądzie dyżurna Kasia Nowik zauważa, że polityka nic nie mówi o nowej aplikacji dla OSP. Sikora dopisuje punkt, komendantka Wrzos zatwierdza nową wersję, a Ola Dudek usuwa starą z komputerów SK. Tak działa cykl życia polityki.",
+    "organizacja": "Kwiaciarnia ma starą politykę zwrotów. Właścicielka raz w roku ją przegląda i skraca termin z 7 do 3 dni, bo kwiaty szybko więdną. Nową wersję wiesza przy kasie, a starą usuwa z folderu, żeby sprzedawczynie nie drukowały złej.",
+    "admin": "Urząd gminy ma politykę haseł sprzed lat, która każe je zmieniać co 30 dni. Przy przeglądzie informatyk proponuje dłuższe hasła i rzadsze zmiany. Sekretarz zatwierdza nową wersję, ogłasza ją w intranecie (wewnętrznej stronie urzędu) i archiwizuje starą.",
     "it": "Polityka bezpieczeństwa informacji w procesie APO13 ma datę przeglądu. Po wdrożeniu chmury zespół aktualizuje ją, ogłasza zmiany i archiwizuje poprzednią wersję, żeby nikt nie korzystał z nieaktualnych reguł."
   },
   "glebokosc": {
     "prosty": "Rozkład jazdy autobusu wisi na przystanku. Gdy linia zmienia trasę, nowy rozkład trzeba wywiesić, a stary zdjąć. Jeśli zostaną oba, ludzie się pogubią. Reguły w pracy też trzeba tak wymieniać.",
-    "zaawansowany": "Po roku polityka powiadamiania komendy jest w fazie oceny i monitorowania. Audytorka Ewa Lis widzi, że w SK leżą trzy wydruki w różnych wersjach. Polityka była dobra, ale cykl życia zawiódł na końcu: nikt nie usunął starych wersji. Sikora zostawia jedną wersję w systemie i wpisuje datę przeglądu. Teraz [[struktura-ramowa-polityki|struktura polityk]] mówi, gdzie polityka leży, a cykl życia mówi, kiedy ją odświeżyć.",
-    "skrajny": "Komendantka Wrzos podpisuje nową politykę i ogłasza ją na odprawie. Sikora mówi: „Wdrożone, temat zamknięty”. Pół roku później polityka nadal obowiązuje, ale opisuje stary serwer, którego już nie ma. Formalnie jest aktualna, bo nikt jej nie uchylił. W praktyce jest martwa i wprowadza ludzi w błąd. Cykl życia nie kończy się na ogłoszeniu: obejmuje też ocenę, aktualizację i pozbywanie się. **Rozstrzygnięcie:** ogłoszenie polityki to środek jej cyklu życia, a nie koniec. Politykę trzeba regularnie przeglądać, a stare wersje archiwizować i usuwać."
+    "zaawansowany": "Po roku polityka bezpieczeństwa informacji ubezpieczyciela jest w fazie oceny i monitorowania. Audytor widzi, że w działach leżą trzy wydruki w różnych wersjach. Polityka była dobra, ale cykl życia zawiódł na końcu: nikt nie usunął starych wersji. CIO zostawia jedną wersję w intranecie i wpisuje datę przeglądu. Teraz [[struktura-ramowa-polityki|struktura polityk]] mówi, gdzie polityka leży, a cykl życia mówi, kiedy ją odświeżyć.",
+    "skrajny": "Zarząd podpisuje nową politykę i ogłasza ją pracownikom. CIO mówi: „Wdrożone, temat zamknięty”. Pół roku później polityka nadal obowiązuje, ale opisuje stary serwer, którego już nie ma. Formalnie jest aktualna, bo nikt jej nie uchylił. W praktyce jest martwa i wprowadza ludzi w błąd. Cykl życia nie kończy się na ogłoszeniu: obejmuje też ocenę, aktualizację i pozbywanie się. **Rozstrzygnięcie:** ogłoszenie polityki to środek jej cyklu życia, a nie koniec. Politykę trzeba regularnie przeglądać, a stare wersje archiwizować i usuwać."
   },
   "zagmatwania": [
     {

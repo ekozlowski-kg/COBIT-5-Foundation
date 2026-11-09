@@ -26,17 +26,17 @@
   ],
   "poLudzku": "Uporządkowany zbiór danych w komputerze, w którym łatwo coś znaleźć, dodać i zmienić.",
   "poziom1": "Baza danych to elektroniczna kartoteka: dane są ułożone według stałego wzoru (np. nazwisko, telefon, jednostka), więc komputer szybko je wyszukuje, dopisuje i poprawia. Zwykle leży na serwerze i korzysta z niej wiele osób naraz.",
-  "poziom2": "Dane w bazie układa się w **tabele**: wiersz to jedna rzecz (np. jeden strażak), kolumna to jedna cecha (np. numer telefonu). Z bazy korzystają aplikacje: człowiek nie „wchodzi” do bazy, tylko używa aplikacji, która ją czyta i zapisuje. Ta sama baza może służyć kilku aplikacjom.",
+  "poziom2": "Dane w bazie układa się w **tabele**: wiersz to jedna rzecz (np. jeden klient), kolumna to jedna cecha (np. numer telefonu). Z bazy korzystają aplikacje: człowiek nie „wchodzi” do bazy, tylko używa aplikacji, która ją czyta i zapisuje. Ta sama baza może służyć kilku aplikacjom.",
   "poziom3": "COBIT 5 nie definiuje bazy danych. Dane i informacje w bazach to treść aktywatora Informacja; aplikacje i serwery, na których bazy działają, należą do aktywatora Usługi, infrastruktura i aplikacje.",
   "wyobrazSobie": "Szafa z kartoteką w przychodni: każda karta ma te same rubryki, a karty stoją w porządku alfabetycznym.",
   "poCo": "Żeby wiele osób mogło korzystać z tych samych, aktualnych danych i szybko je znajdować.",
-  "jakDziala": "Aplikacja wysyła do bazy żądanie, np. „pokaż numery strażaków z OSP Zawilce”. Baza wyszukuje pasujące wiersze i odsyła je. Gdy ktoś poprawi numer, wszyscy od razu widzą nową wersję.",
+  "jakDziala": "Aplikacja wysyła do bazy żądanie, np. „pokaż zamówienia klientów z Krakowa”. Baza wyszukuje pasujące wiersze i odsyła je. Gdy ktoś poprawi adres, wszyscy od razu widzą nową wersję.",
   "dlaczegoWazne": "W organizacji najważniejsze dane – klienci, pracownicy, zgłoszenia – leżą w bazach. Złe dane w bazie psują pracę wszystkich aplikacji, które z niej korzystają.",
   "przyklady": {
     "zycie": "Kontakty w telefonie to mała baza danych: każda osoba ma imię, numer i zdjęcie. Wyszukasz „Ania” w sekundę.",
     "biuro": "Baza klientów biura podróży: nazwisko, telefon, wykupione wycieczki. Każdy pracownik widzi te same dane.",
     "organizacja": "Przychodnia trzyma w bazie danych karty pacjentów. Lekarz i rejestracja korzystają z tej samej bazy.",
-    "psp": "„Syrena” ma bazę danych: kto jest w gotowości w OSP Zawilce i pod jakim numerem. Numer naczelnika Pietrzaka był w niej nieaktualny.",
+    "admin": "Urząd miasta prowadzi bazę danych opłat za wywóz śmieci: adres, liczba mieszkańców pod adresem, wysokość opłaty. Gdy urzędniczka z wydziału ochrony środowiska poprawi liczbę osób, księgowość od razu widzi nową kwotę. Obie pracują na tych samych danych.",
     "it": "Dane w bazach to treść aktywatora Informacja, a same bazy działają na infrastrukturze z aktywatora Usługi, infrastruktura i aplikacje."
   },
   "nieMylicZ": [
@@ -49,7 +49,7 @@
       "roznica": "Arkusz to zwykle jeden plik z tabelą dla jednej osoby. Baza danych pilnuje porządku i pozwala wielu osobom pracować na tych samych danych naraz."
     }
   ],
-  "przykladWypowiedzi": "A database, czyli baza danych, przechowuje dane w tabelach; aplikacja „Syrena” czyta z database numery strażaków.",
+  "przykladWypowiedzi": "A database, czyli baza danych, przechowuje dane w tabelach; system CRM czyta z database dane klientów.",
   "egzamin": "Nie jest terminem egzaminu. Pomaga zrozumieć aktywator Informacja (jakość danych) i aktywator Usługi, infrastruktura i aplikacje.",
   "powiazane": [
     "it-dane",
@@ -63,8 +63,8 @@
   "zrodla": [],
   "glebokosc": {
     "prosty": "W bibliotece każda książka ma kartę: tytuł, autor, półka. Bibliotekarka znajduje książkę w minutę, bo karty mają te same rubryki i stały porządek. Baza danych to taka kartoteka w komputerze.",
-    "zaawansowany": "Ola Dudek poprawia w bazie „Syreny” numer naczelnika Pietrzaka. Od tej chwili każdy dyżurny, na każdym komputerze, widzi nowy numer. Gdyby numery były w osobnych [[it-plik|plikach]] na komputerach dyżurnych, trzeba by je poprawiać w kilku miejscach – i ktoś by zapomniał.",
-    "skrajny": "Czy arkusz w Excelu z listą strażaków to baza danych? W luźnym sensie tak, ale brakuje mu pilnowania porządku i pracy wielu osób naraz. Czy aplikacja „Syrena” to baza danych? Nie – to narzędzie, które z bazy korzysta. Czy baza bez kopii zapasowej jest bezpieczna? Nie: awaria serwera może ją zniszczyć. **Rozstrzygnięcie:** baza danych to uporządkowany, wspólny zbiór danych; aplikacja to tylko okno do niej, a arkusz kalkulacyjny to zwykle jeden plik dla jednej osoby."
+    "zaawansowany": "Konsultant poprawia w bazie CRM adres klienta. Od tej chwili każdy pracownik, na każdym komputerze, widzi nowy adres. Gdyby adresy były w osobnych [[it-plik|plikach]] na komputerach pracowników, trzeba by je poprawiać w kilku miejscach – i ktoś by zapomniał.",
+    "skrajny": "Czy arkusz w Excelu z listą klientów to baza danych? W luźnym sensie tak, ale brakuje mu pilnowania porządku i pracy wielu osób naraz. Czy system CRM to baza danych? Nie – to narzędzie, które z bazy korzysta. Czy baza bez kopii zapasowej jest bezpieczna? Nie: awaria serwera może ją zniszczyć. **Rozstrzygnięcie:** baza danych to uporządkowany, wspólny zbiór danych; aplikacja to tylko okno do niej, a arkusz kalkulacyjny to zwykle jeden plik dla jednej osoby."
   },
   "zagmatwania": [
     {
@@ -79,7 +79,7 @@
   "mentor": {
     "czestyBlad": "Mylenie bazy danych z aplikacją albo z arkuszem kalkulacyjnym.",
     "jakTlumaczyc": "Kartoteka (baza) i okienko rejestracji (aplikacja): pani w okienku nie jest kartoteką, tylko z niej korzysta.",
-    "pytanieKontrolne": "Czy arkusz kalkulacyjny, aplikacja „Syrena” i baza danych oznaczają dokładnie to samo?",
+    "pytanieKontrolne": "Czy arkusz kalkulacyjny, system CRM i baza danych oznaczają dokładnie to samo?",
     "odpowiedzKontrolna": "Nie. Baza przechowuje uporządkowane dane, aplikacja z niej korzysta, a arkusz to zwykle pojedynczy plik z tabelą."
   }
 }

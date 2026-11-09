@@ -1,0 +1,45 @@
+[
+  {
+    "id": "q-sym-001",
+    "typ": "egzamin",
+    "zestaw": "symulacja",
+    "sylabus": [
+      "EN-02-02"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Która cecha dotyczy **polityk** (a nie zasad) w aktywatorze Zasady, Polityki i Struktury ramowe?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 67
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Powinno ich być niewiele",
+        "poprawna": false,
+        "wyjasnienie": "To cecha zasad.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Wyrażają podstawowe wartości organizacji",
+        "poprawna": false,
+        "wyjasnienie": "To cecha zasad.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Powinny być otwarte i elastyczne, by pasować do konkretnej sytuacji organizacji",
+        "poprawna": false,
+        "wyjasnienie": "To cecha struktur ramowych.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Dają szczegółowe wytyczne, jak stosować zasady w praktyce",
+        "poprawna": true,
+        "wyjasnienie": "s. 67."
+      }
+    ]
+  }
+]

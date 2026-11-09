@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Masz w szafce latarkę, zapas wody, powerbank i listę telefonów na kartce. Zapasowy klucz leży u sąsiada, a zdjęcia rodzinne mają kopię w chmurze. Raz w roku sprawdzasz, czy latarka świeci. To plan ciągłości w domowej skali.",
     "biuro": "Biuro ma papierową listę telefonów klientów na wypadek braku prądu. Raz w roku sprawdzacie, czy da się przepracować dzień bez komputerów.",
-    "organizacja": "Piekarnia ma agregat, papierowe zamówienia i umowę z drugą piekarnią, a raz w roku robi próbę. Urząd gminy trzyma kopię danych w drugim budynku i ćwiczy scenariusz „spłonęła serwerownia”.",
-    "psp": "**Woda w serwerowni.** Kpt. Marek Sikora pisze plan ciągłości dla Syreny: kopia zapasowa systemu w komendzie wojewódzkiej, ręczna procedura alarmowania OSP przez radio i telefon, lista telefonów na papierze w SK. Raz na kwartał dyżurni ćwiczą noc bez Syreny. Plan, dzięki któremu komenda dalej wysyła pomoc mimo katastrofy, to [[proc-dss04]].",
+    "organizacja": "Piekarnia ma agregat, papierowe zamówienia i umowę z drugą piekarnią, a raz w roku robi próbę.",
+    "admin": "Urząd gminy trzyma kopię danych w drugim budynku, w szkole po drugiej stronie miasta, i ma papierowe wzory najważniejszych zaświadczeń. Raz w roku sekretarz gminy z informatykiem ćwiczą scenariusz „zalana serwerownia”: sprawdzają, w ile godzin da się wznowić wydawanie dokumentów. Po ćwiczeniu poprawiają plan, np. dopisują brakujące telefony do dostawców.",
     "it": "Praktyki DSS04 obejmują m.in. strategię ciągłości, plan reagowania, testy planu, szkolenia, kopie zapasowe i przegląd po wznowieniu działania."
   },
   "nieMylicZ": [
@@ -91,13 +91,13 @@
   "mapa": "proc-dss04",
   "glebokosc": {
     "prosty": "Jedziesz na wesele z ważnym prezentem. Masz zapasowe koło, numer do pomocy drogowej i plan: jak auto stanie, siostra Cię podwiezie. Nie liczysz, że nic się nie stanie. Wiesz, co zrobisz, gdy się stanie.",
-    "zaawansowany": "Sikora pisze plan na wypadek, gdyby serwer Syreny przestał istnieć: kopia w komendzie wojewódzkiej, ręczne alarmowanie OSP, papierowa lista numerów. To [[proc-dss04]]. Na co dzień o moc i dostępność Syreny dba [[proc-bai04]], a zwykłe awarie obsługuje [[proc-dss02]]. Plan uruchamia się wtedy, gdy zwykła obsługa nie wystarcza.",
-    "skrajny": "Komenda ma gruby plan ciągłości w szafie: jak odtworzyć serwer Syreny z kopii w 4 godziny. Plan nigdy nie był ćwiczony i nie mówi nic o tym, co dyżurni robią przez te 4 godziny. Czy komenda ma DSS04? Tylko na papierze. Po pierwsze, ciągłość dotyczy działania organizacji, a nie tylko serwera: OSP musi dostać alarm także bez Syreny. Po drugie, nieprzećwiczony plan to plan niepewny. DSS04 obejmuje ćwiczenia, szkolenia i przegląd planu. **Rozstrzygnięcie:** DSS04 to ciągłość działania organizacji wspieranej przez IT, nie samo odtworzenie systemu. Plan, którego nikt nie przećwiczył, nie spełnia celu procesu."
+    "zaawansowany": "Dyrektor IT szpitala pisze plan na wypadek, gdyby serwer systemu rejestracji pacjentów przestał istnieć: kopia w zapasowym centrum danych, ręczna rejestracja na papierowych formularzach, wydrukowana lista kontaktów. To [[proc-dss04]]. Na co dzień o moc i dostępność systemu dba [[proc-bai04]], a zwykłe awarie obsługuje [[proc-dss02]]. Plan uruchamia się wtedy, gdy zwykła obsługa nie wystarcza.",
+    "skrajny": "Szpital ma gruby plan ciągłości w szafie: jak odtworzyć serwer systemu rejestracji z kopii w 4 godziny. Plan nigdy nie był ćwiczony i nie mówi nic o tym, co rejestratorki robią przez te 4 godziny. Czy szpital ma DSS04? Tylko na papierze. Po pierwsze, ciągłość dotyczy działania organizacji, a nie tylko serwera: pacjenci muszą być przyjmowani także bez systemu. Po drugie, nieprzećwiczony plan to plan niepewny. DSS04 obejmuje ćwiczenia, szkolenia i przegląd planu. **Rozstrzygnięcie:** DSS04 to ciągłość działania organizacji wspieranej przez IT, nie samo odtworzenie systemu. Plan, którego nikt nie przećwiczył, nie spełnia celu procesu."
   },
   "zagmatwania": [
     {
       "mit": "Ciągłość to sprawa informatyków: odtworzyć serwer z kopii.",
-      "prawda": "DSS04 obejmuje ciągłość krytycznych procesów biznesowych, np. ręczne alarmowanie, gdy system nie działa."
+      "prawda": "DSS04 obejmuje ciągłość krytycznych procesów biznesowych, np. ręczną rejestrację pacjentów, gdy system nie działa."
     },
     {
       "mit": "Wystarczy mieć plan.",
@@ -110,8 +110,8 @@
   ],
   "mentor": {
     "czestyBlad": "Uczeń ogranicza ciągłość do kopii zapasowych i odtworzenia serwera.",
-    "jakTlumaczyc": "Zapytaj: „Co robią dyżurni w pierwszej godzinie bez Syreny?”. Jeśli plan nie ma odpowiedzi, to nie jest pełny plan ciągłości.",
-    "pytanieKontrolne": "W sylwestra Syrena zwalnia, bo przychodzi dziesięć razy więcej zgłoszeń. Czy przygotowanie na to należy do DSS04?",
-    "odpowiedzKontrolna": "**Nie, to BAI04** – planowanie pojemności na szczyt. DSS04 przygotowuje przetrwanie poważnego zakłócenia, np. pożaru czy zalania serwerowni."
+    "jakTlumaczyc": "Zapytaj: „Co robią pracownicy w pierwszej godzinie bez systemu?”. Jeśli plan nie ma odpowiedzi, to nie jest pełny plan ciągłości.",
+    "pytanieKontrolne": "W Czarny Piątek sklep internetowy zwalnia, bo przychodzi dziesięć razy więcej zamówień. Czy przygotowanie na to należy do DSS04?",
+    "odpowiedzKontrolna": "**Nie, to BAI04** – planowanie pojemności na szczyt. DSS04 przygotowuje przetrwanie poważnego zakłócenia, np. zniszczenia czy zalania serwerowni."
   }
 }

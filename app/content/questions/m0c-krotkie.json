@@ -1,0 +1,1912 @@
+{
+  "_opis": "Pytania do krótkich lekcji Modułu 0 (FORMAT-KROTKI): lekcje 0.0–0.2 oraz 0.30–0.37 (COBIT 5 na tle standardów, egzamin i pułapki, słowa-wytrychy). Przykłady ogólne (życie codzienne, organizacja, IT).",
+  "pytania": [
+    {
+      "id": "q-m0k-00-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-00-organizacja-cel",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Kilka rodzin wspólnie kupuje warzywa od rolników. Dzielą się zadaniami, a jedna osoba koordynuje zamówienia. Czy to [[organizacja]]?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Nie, bo organizacja musi przynosić zysk",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 dotyczy także organizacji not-for-profit i publicznych. Zysk nie jest warunkiem.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Tak, bo są ludzie, wspólny cel i podział pracy",
+          "poprawna": true,
+          "wyjasnienie": "Dokładnie tak: ludzie działają razem w jakimś celu, mają podział pracy i kogoś, kto koordynuje."
+        },
+        {
+          "tekst": "Nie, bo organizacja musi mieć własny dział IT",
+          "poprawna": false,
+          "wyjasnienie": "Dział IT nie decyduje o tym, czy coś jest organizacją. IT jest tylko narzędziem.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie, bo organizacją jest tylko urząd albo firma",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. Organizacją jest też fundacja, szpital czy stowarzyszenie.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-00-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-00-organizacja-cel",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Sklep internetowy kupił nowy system zamówień. Zarząd chce ocenić, czy inwestycja była udana. Od którego pytania warto zacząć?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Czy system ma najnowszą wersję oprogramowania?",
+          "poprawna": false,
+          "wyjasnienie": "Wersja programu to szczegół techniczny. Nie mówi, czy sklep osiąga swój cel.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Czy dział IT jest zadowolony z nowego narzędzia?",
+          "poprawna": false,
+          "wyjasnienie": "Zadowolenie działu IT to tylko część obrazu. Liczy się cel całego sklepu.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Ile serwerów potrzeba do działania systemu?",
+          "poprawna": false,
+          "wyjasnienie": "To pytanie o środki, a nie o cel. Najpierw pytamy, po co sklep istnieje.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Czy system pomaga sklepowi sprzedawać z zyskiem?",
+          "poprawna": true,
+          "wyjasnienie": "Tak. IT jest narzędziem celu, więc najpierw sprawdzamy, czy pomaga ten cel osiągnąć."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-00-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-00-organizacja-cel",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Dla jakich organizacji, według COBIT 5, przeznaczona jest ta [[struktura-ramowa|struktura ramowa]]?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Tylko dla przedsiębiorstw komercyjnych, bo podręcznik mówi o „przedsiębiorstwie”",
+          "poprawna": false,
+          "wyjasnienie": "„Przedsiębiorstwo” to podręcznikowy przekład słowa Enterprise. Na egzaminie to „Organizacja” każdego rodzaju.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Tylko dla dużych firm notowanych na giełdzie",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. Podręcznik mówi o przedsiębiorstwach każdej wielkości.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Dla organizacji każdej wielkości: komercyjnych, not-for-profit i publicznych",
+          "poprawna": true,
+          "wyjasnienie": "Tak mówi streszczenie COBIT 5 (FW-PL s. 13)."
+        },
+        {
+          "tekst": "Tylko dla działów IT w urzędach",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 dotyczy całych organizacji, nie tylko działów IT, i nie tylko urzędów.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-00-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-00-organizacja-cel",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który przykład pokazuje IT jako narzędzie celu organizacji?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Urząd wymienia komputery, bo stare wyglądają niemodnie",
+          "poprawna": false,
+          "wyjasnienie": "Wygląd sprzętu nie jest celem urzędu. Tu technologia staje się celem sama w sobie.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Firma rozbudowuje centrum danych, bo dział IT chce najszybszych serwerów",
+          "poprawna": false,
+          "wyjasnienie": "To cel działu IT, a nie organizacji. Brakuje związku z celem całej firmy.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Szpital wdraża e-rejestrację, żeby pacjenci krócej czekali",
+          "poprawna": true,
+          "wyjasnienie": "Tak. System służy celowi szpitala, czyli leczeniu i obsłudze pacjentów."
+        },
+        {
+          "tekst": "Bank kupuje nowy program, bo dostawca daje rabat",
+          "poprawna": false,
+          "wyjasnienie": "Rabat to powód zakupu, ale nie cel banku. Nie wiadomo, czemu program ma służyć.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-01-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-01-ramy-cobit",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Kucharz korzysta z książki z ogólnymi zasadami pieczenia, ale proporcje dopasowuje do swojego pieca. Co to przypomina?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 91
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Instalowanie gotowego programu",
+          "poprawna": false,
+          "wyjasnienie": "Programu się nie dopasowuje w ten sposób. Książka z zasadami to raczej rama.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wykonywanie przepisu prawa",
+          "poprawna": false,
+          "wyjasnienie": "Prawo trzeba spełnić. Kucharz dobrowolnie korzysta z zasad i je dopasowuje.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Korzystanie ze struktury ramowej i dopasowanie jej do siebie",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Struktura ramowa daje sprawdzony porządek, a każdy dopasowuje go do swoich warunków."
+        },
+        {
+          "tekst": "Wymyślanie wszystkiego od zera",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie: kucharz korzysta z gotowych, sprawdzonych zasad.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-01-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-01-ramy-cobit",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Szybko rosnący sklep internetowy przyjmuje [[cobit-5|COBIT 5]]. Co powinien zrobić?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 13
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Zainstalować COBIT 5 na serwerach sklepu",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 to zbiór zasad i praktyk, a nie program.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Dopasować COBIT 5 do siebie: ustalić, kto decyduje i kto prowadzi systemy",
+          "poprawna": true,
+          "wyjasnienie": "Tak. COBIT 5 daje porządek, a sklep wypełnia go własnymi decyzjami."
+        },
+        {
+          "tekst": "Skopiować bez zmian procedury innej firmy, która stosuje COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Każda organizacja ma inne cele. Ramę trzeba dopasować, a nie kopiować.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Przekazać COBIT 5 wyłącznie działowi IT",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. COBIT 5 dotyczy całej organizacji, także zarządu.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-01-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-01-ramy-cobit",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Analityk uczy się z polskiego podręcznika, w którym COBIT 5 (*Framework*) to „metodyka”. Jakiego określenia ma szukać w odpowiedziach na egzaminie?",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM",
+          "strona": 1
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 91
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Struktura ramowa COBIT 5",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Framework to na egzaminie PL „Struktura ramowa”."
+        },
+        {
+          "tekst": "Metodyka COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "To nazwa z polskiego podręcznika. Na egzaminie stoi „Struktura ramowa”.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Aktywator COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Aktywator to przekład słowa Enabler, a nie Framework.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Referencyjny model procesów COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Model procesów to tylko część COBIT 5, a nie nazwa całej ramy.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-01-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-01-ramy-cobit",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Kto i kiedy wydał COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 2
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "ISACA, w 2019 roku",
+          "poprawna": false,
+          "wyjasnienie": "Rok 2019 to nowsza wersja, COBIT 2019. COBIT 5 wyszedł wcześniej.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Rząd, jako ustawa z 2012 roku",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie jest ustawą. Organizacja stosuje go dobrowolnie.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "ISO, jako norma z 2005 roku",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie jest normą ISO.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "ISACA, w 2012 roku",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Polski podręcznik ma notę „© 2012 ISACA”."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-02-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-02-cobit-czym-nie-jest",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Kolega mówi: „Zainstalowałem sobie COBIT 5 na laptopie”. Na czym polega jego błąd?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "COBIT 5 to zbiór zasad i praktyk, a nie program",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Zasad się nie instaluje, tylko się je stosuje i dopasowuje."
+        },
+        {
+          "tekst": "COBIT 5 instaluje się tylko na serwerach firmy",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie jest programem, więc nie instaluje się go nigdzie.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "COBIT 5 można zainstalować dopiero po zakupie licencji",
+          "poprawna": false,
+          "wyjasnienie": "Nie chodzi o licencję. COBIT 5 w ogóle nie jest programem.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie ma błędu, COBIT 5 to program do zarządzania IT",
+          "poprawna": false,
+          "wyjasnienie": "To częsty mit. COBIT 5 to struktura ramowa, a nie oprogramowanie.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-02-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-02-cobit-czym-nie-jest",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Zarząd urzędu chce, żeby COBIT 5 stosował wyłącznie dział IT. Jak to ocenić?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Słusznie, bo COBIT 5 to instrukcja dla informatyków",
+          "poprawna": false,
+          "wyjasnienie": "To odwrócenie prawdy. Podręcznik mówi, że COBIT 5 nie koncentruje się tylko na funkcji IT.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Słusznie, bo urzędy muszą stosować COBIT 5 z mocy ustawy",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie jest ustawą. Stosuje się go dobrowolnie.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "To błąd, bo COBIT 5 dotyczy tylko zarządu",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko w drugą stronę. COBIT 5 obejmuje całą organizację.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "To błąd, bo COBIT 5 dotyczy całej organizacji",
+          "poprawna": true,
+          "wyjasnienie": "Tak. COBIT 5 obejmuje zarząd, użytkowników, księgowość i dostawców, a nie tylko IT."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-02-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-02-cobit-czym-nie-jest",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Materiał szkoleniowy mówi o „40 celach Ładu i Zarządzania” i „czynnikach projektowych”. Co to oznacza dla osoby, która zdaje COBIT 5 Foundation?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "To nowe nazwy 37 procesów COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 ma 37 procesów. 40 celów to pojęcie z innej wersji.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Materiał dotyczy COBIT 2019, więc te pojęcia są tu błędne",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Egzamin dotyczy COBIT 5, a te pojęcia pochodzą z COBIT 2019."
+        },
+        {
+          "tekst": "To podręcznikowe nazwy aktywatorów COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Aktywatory w podręczniku to „czynniki umożliwiające”, a nie „czynniki projektowe”.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "To pojęcia z ITIL, który COBIT 5 zastępuje",
+          "poprawna": false,
+          "wyjasnienie": "To nie ITIL. Poza tym COBIT 5 nie zastępuje innych standardów.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-02-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-02-cobit-czym-nie-jest",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Bank i mały sklep internetowy stosują COBIT 5 w różny sposób. Czy to zgodne z COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Nie, każda organizacja musi wdrożyć COBIT 5 tak samo",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie. COBIT 5 dopasowuje się do kontekstu organizacji.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Nie, COBIT 5 jest przeznaczony tylko dla banków",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. COBIT 5 jest dla organizacji każdego rodzaju i wielkości.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Tak, bo COBIT 5 ma różne wersje programu dla firm",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie jest programem, więc nie ma wersji programu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Tak, bo COBIT 5 dopasowuje się do kontekstu organizacji",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Podręcznik mówi o dostosowaniu COBIT 5 do kontekstu danej organizacji."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-30-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-30-cobit-laczy-standardy",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "W domu trzymasz umowę za prąd, polisę i dokumenty medyczne w jednym segregatorze. Co w tym obrazie przypomina rolę COBIT 5 wobec innych standardów?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Segregator zastępuje wszystkie dokumenty jednym nowym",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie. Segregator, tak jak COBIT 5, niczego nie wyrzuca.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Segregator porządkuje dokumenty w całość i niczego nie wyrzuca",
+          "poprawna": true,
+          "wyjasnienie": "Tak. COBIT 5 łączy inne standardy w jedną ramę i zostawia je w użyciu."
+        },
+        {
+          "tekst": "Segregator mieści tylko jeden rodzaj dokumentów",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. Sens segregatora polega na zebraniu różnych dokumentów.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Segregator służy wyłącznie do kontroli przez urząd",
+          "poprawna": false,
+          "wyjasnienie": "Segregator porządkuje dokumenty dla właściciela, a nie dla kontroli.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-30-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-30-cobit-laczy-standardy",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Firma ubezpieczeniowa od lat stosuje metodykę prowadzenia projektów i normę ochrony danych. Teraz przyjmuje COBIT 5. Co powinna zrobić z dotychczasowymi standardami?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wycofać je, bo COBIT 5 zastępuje inne standardy",
+          "poprawna": false,
+          "wyjasnienie": "To odwrócenie prawdy. COBIT 5 integruje standardy, a nie je zastępuje.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Stosować je tylko w dziale IT, a COBIT 5 tylko w zarządzie",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 obejmuje całą organizację. Nie dzieli się go w ten sposób.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Dalej je stosować, a COBIT 5 połączy je w jedną ramę",
+          "poprawna": true,
+          "wyjasnienie": "Tak. COBIT 5 jest strukturą nadrzędną, która umożliwia integrację innych metodyk."
+        },
+        {
+          "tekst": "Odłożyć COBIT 5, dopóki stare standardy nie wygasną",
+          "poprawna": false,
+          "wyjasnienie": "Nie ma takiej potrzeby. COBIT 5 współgra z innymi standardami.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-30-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-30-cobit-laczy-standardy",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Która zasada COBIT 5 wyraża myśl, że COBIT 5 łączy inne standardy i metodyki w jedną ramę?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zasada 1: Realizacja potrzeb interesariusza",
+          "poprawna": false,
+          "wyjasnienie": "Zasada 1 dotyczy tworzenia wartości dla interesariuszy, a nie łączenia standardów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zasada 4: Aktywacja holistycznego podejścia",
+          "poprawna": false,
+          "wyjasnienie": "„Holistyczne” brzmi jak „łączące”, ale Zasada 4 dotyczy współdziałania aktywatorów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zasada 5: Oddzielenie Ładu od Zarządzania",
+          "poprawna": false,
+          "wyjasnienie": "Zasada 5 rozdziela dwie role, a nie łączy standardy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zasada 3: Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej",
+          "poprawna": true,
+          "wyjasnienie": "Tak. W podręczniku: „Stosowanie jednej zintegrowanej metodyki” (FW-PL s. 25)."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-30-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-30-cobit-laczy-standardy",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Szpital ma normy jakości w laboratorium i osobne zasady w dziale IT. Dyrekcja chce jednej ramy dla całości. Jaką rolę odegra COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Połączy istniejące normy i pokaże, kto o czym decyduje",
+          "poprawna": true,
+          "wyjasnienie": "Tak. COBIT 5 integruje inne standardy i dokłada odpowiedź o odpowiedzialność."
+        },
+        {
+          "tekst": "Zastąpi normy laboratorium jedną procedurą COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie zastępuje innych norm, tylko je łączy.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Obejmie tylko dział IT, bo to standard informatyczny",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko. COBIT 5 obejmuje całą organizację.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Da szpitalowi certyfikat zgodności z COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie przewiduje certyfikatu dla organizacji.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-31-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-31-itil-iso-27001",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Zgłaszasz na infolinii operatora awarię internetu. Konsultant przyjmuje zgłoszenie, nadaje mu numer i mówi, kiedy usterka zostanie usunięta. Którego standardu dotyczy taki sposób obsługi?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 60
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "ISO/IEC 27001 – bezpieczeństwo informacji",
+          "poprawna": false,
+          "wyjasnienie": "Ta norma dotyczy ochrony informacji, a nie obsługi zgłoszeń.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "COBIT 2019 – nowsza wersja COBIT",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 2019 to inna wersja COBIT, a nie standard obsługi zgłoszeń.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Żadnego, bo obsługi zgłoszeń nie opisują standardy",
+          "poprawna": false,
+          "wyjasnienie": "Opisują. To typowy obszar zarządzania usługami IT.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "[[itil|ITIL]] – zarządzanie usługami IT",
+          "poprawna": true,
+          "wyjasnienie": "Tak. ITIL opisuje, jak przyjmować zgłoszenia i usuwać awarie."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-31-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-31-itil-iso-27001",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Sklep internetowy chce uzyskać certyfikat, który potwierdzi, że dobrze chroni dane klientów. Zgodność z czym może potwierdzić taki certyfikat?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 60
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Z COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie przewiduje certyfikatu dla organizacji. Certyfikaty ISACA dotyczą osób.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Z normą [[iso-27001|ISO/IEC 27001]]",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To norma bezpieczeństwa informacji, z którą organizacja może się certyfikować."
+        },
+        {
+          "tekst": "Z ITIL jako normą bezpieczeństwa danych",
+          "poprawna": false,
+          "wyjasnienie": "ITIL dotyczy usług IT, a nie bezpieczeństwa informacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Z sylabusem COBIT 5 Foundation",
+          "poprawna": false,
+          "wyjasnienie": "Sylabus to spis tematów egzaminu dla osób, a nie norma dla firm.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-31-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-31-itil-iso-27001",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które zdanie poprawnie opisuje związek COBIT 5 i ITIL?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 60
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "ITIL to angielska nazwa COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "To dwa osobne standardy. ITIL nie jest inną nazwą COBIT 5.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "COBIT 5 zastępuje ITIL, więc ITIL nie jest już potrzebny",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 integruje inne standardy, a nie je zastępuje.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "ITIL szczegółowo opisuje część obszarów, które COBIT 5 obejmuje szerzej",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Podręcznik podaje, że ITIL obejmuje podzbiór procesów COBIT 5 (FW-PL s. 60)."
+        },
+        {
+          "tekst": "ITIL dotyczy Ładu, a COBIT 5 tylko usług IT",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie. ITIL dotyczy usług IT, a COBIT 5 Ładu i Zarządzania w całej organizacji.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-31-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-31-itil-iso-27001",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Bank ma helpdesk prowadzony według ITIL i certyfikat ISO/IEC 27001. Zarząd wciąż pyta, czy wydatki na IT się opłacają i kto odpowiada za te wydatki. Czego bankowi brakuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 60
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Drugiego certyfikatu ISO/IEC 27001",
+          "poprawna": false,
+          "wyjasnienie": "Certyfikat bezpieczeństwa nie odpowie na pytanie o wartość IT.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Nowszej wersji ITIL",
+          "poprawna": false,
+          "wyjasnienie": "ITIL dotyczy usług IT, a pytanie zarządu dotyczy całej organizacji.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Ramy Ładu i Zarządzania IT, takiej jak COBIT 5",
+          "poprawna": true,
+          "wyjasnienie": "Tak. COBIT 5 odpowiada na pytanie o wartość IT i odpowiedzialność za nią."
+        },
+        {
+          "tekst": "Większej liczby zgłoszeń w helpdesku",
+          "poprawna": false,
+          "wyjasnienie": "Liczba zgłoszeń nie mówi, czy IT daje wartość.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-32-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-32-liczby-cobit-5",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "W bibliotece leżą dwa wydania przewodnika o tym samym tytule: piąte i nowsze. Egzamin zdajesz z piątego. Co robisz?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Uczę się z nowszego, bo nowsze jest zawsze lepsze",
+          "poprawna": false,
+          "wyjasnienie": "Nowsze wydanie ma inne treści. Egzamin pyta o piąte.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Uczę się z obu naraz",
+          "poprawna": false,
+          "wyjasnienie": "Pojęcia z dwóch wydań łatwo się mieszają. To prosta droga do błędów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Sprawdzam numer wydania i uczę się z piątego",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Tak samo z COBIT: egzamin dotyczy COBIT 5, a nie COBIT 2019."
+        },
+        {
+          "tekst": "Wybieram wydanie, które ma więcej stron",
+          "poprawna": false,
+          "wyjasnienie": "Liczba stron nie mówi, czy materiał pasuje do egzaminu.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-32-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-32-liczby-cobit-5",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Dział szkoleń banku wybiera kurs przed egzaminem COBIT 5 Foundation. Który spis treści pasuje do egzaminu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 33
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "40 celów Ładu i Zarządzania, czynniki projektowe",
+          "poprawna": false,
+          "wyjasnienie": "To pojęcia z COBIT 2019, a nie z COBIT 5.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "7 zasad, 5 kategorii aktywatorów, 37 procesów",
+          "poprawna": false,
+          "wyjasnienie": "Liczby zamienione miejscami. Zasad jest 5, a kategorii aktywatorów 7.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "4 zasady, 5 aktywatorów, 30 procesów",
+          "poprawna": false,
+          "wyjasnienie": "Żadna liczba nie pasuje do swojego elementu: zasad jest 5, kategorii aktywatorów 7, procesów 37.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "5 zasad, 7 kategorii aktywatorów, 37 procesów",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To trzy liczby COBIT 5."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-32-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-32-liczby-cobit-5",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Ile procesów Ładu i Zarządzania opisuje COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 33
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 60
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "37",
+          "poprawna": true,
+          "wyjasnienie": "Tak. COBIT 5 ma pełny zestaw 37 procesów: 5 Ładu i 32 Zarządzania."
+        },
+        {
+          "tekst": "40",
+          "poprawna": false,
+          "wyjasnienie": "40 celów Ładu i Zarządzania to pojęcie z COBIT 2019.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "32",
+          "poprawna": false,
+          "wyjasnienie": "To tylko procesy Zarządzania. Brakuje 5 procesów Ładu.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "5",
+          "poprawna": false,
+          "wyjasnienie": "Tyle jest procesów Ładu (albo zasad). Wszystkich procesów jest więcej.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-32-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-07"
+      ],
+      "lekcja": "m0-32-liczby-cobit-5",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Ile kategorii aktywatorów (w podręczniku: czynników umożliwiających) opisuje COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "5",
+          "poprawna": false,
+          "wyjasnienie": "5 to liczba zasad COBIT 5, a nie kategorii aktywatorów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "7",
+          "poprawna": true,
+          "wyjasnienie": "Tak. COBIT 5 ma siedem kategorii czynników umożliwiających (FW-PL s. 14)."
+        },
+        {
+          "tekst": "37",
+          "poprawna": false,
+          "wyjasnienie": "37 to liczba procesów, a procesy są tylko jedną z kategorii aktywatorów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "4",
+          "poprawna": false,
+          "wyjasnienie": "Taka liczba nie występuje w tym miejscu COBIT 5.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-33-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-33-egzamin-w-liczbach",
+      "bloom": "zastosowanie",
+      "trudnosc": 1,
+      "tresc": "Egzamin trwa 40 minut i ma 50 pytań. Ile czasu masz średnio na jedno pytanie?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Około 2 minut",
+          "poprawna": false,
+          "wyjasnienie": "To byłoby 100 minut na 50 pytań. Masz mniej czasu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Około 80 sekund",
+          "poprawna": false,
+          "wyjasnienie": "Tyle wyszłoby przy ponad 66 minutach. Masz 40.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Około 48 sekund",
+          "poprawna": true,
+          "wyjasnienie": "Tak: 40 minut, czyli 2400 sekund, podzielone na 50 pytań."
+        },
+        {
+          "tekst": "Około 30 sekund",
+          "poprawna": false,
+          "wyjasnienie": "To za mało. 50 pytań po 30 sekund to tylko 25 minut.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-33-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-33-egzamin-w-liczbach",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Pracownik działu IT chce zabrać na egzamin COBIT 5 Foundation polski podręcznik. Co mu odpowiesz?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Może, ale tylko wydanie polskie",
+          "poprawna": false,
+          "wyjasnienie": "Język wydania nie ma znaczenia. Żadne materiały nie są dozwolone.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie może, bo egzamin jest bez żadnych materiałów",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Egzamin jest typu closed book."
+        },
+        {
+          "tekst": "Może wziąć własne notatki, ale nie podręcznik",
+          "poprawna": false,
+          "wyjasnienie": "Notatki też są zakazane. Liczy się tylko pamięć.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Może, jeśli zdaje w języku obcym",
+          "poprawna": false,
+          "wyjasnienie": "Zdający w języku obcym (oraz osoba z niepełnosprawnością) dostaje 10 minut więcej, ale nie materiały.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-33-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-33-egzamin-w-liczbach",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Który opis egzaminu COBIT 5 Foundation jest poprawny?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "40 pytań, 50 minut, próg 50%, bez materiałów",
+          "poprawna": false,
+          "wyjasnienie": "Liczby pytań i minut zamienione miejscami.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "50 pytań, 40 minut, próg 65%, z podręcznikiem",
+          "poprawna": false,
+          "wyjasnienie": "Próg to 50%, a materiały są zakazane.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "50 pytań, 40 minut, ocena praktycznego wdrożenia COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Egzamin sprawdza wiedzę i rozumienie, a nie umiejętność wdrożenia.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "50 pytań, 40 minut, próg 50%, bez materiałów",
+          "poprawna": true,
+          "wyjasnienie": "Tak. To cztery liczby egzaminu z sylabusa."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-33-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-33-egzamin-w-liczbach",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Z którego obszaru sylabusa pochodzi pytanie o siedem kategorii aktywatorów?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PR – Zasady COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Zasady to osobny obszar. Aktywatory mają własny kod.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "IM – Wprowadzenie do wdrożenia",
+          "poprawna": false,
+          "wyjasnienie": "Wdrożenie dotyczy uruchamiania COBIT 5 w organizacji, a nie aktywatorów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PC – Model zdolności procesu",
+          "poprawna": false,
+          "wyjasnienie": "Model zdolności dotyczy oceny procesów, a nie aktywatorów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "EN – Aktywatory (*Enablers*)",
+          "poprawna": true,
+          "wyjasnienie": "Tak. EN pochodzi od angielskiego Enablers."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-34-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-34-trzy-nazwy-terminu",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "W dowodzie stoi „Aleksander”, a w domu wszyscy mówią „Olek”. Co ten przykład mówi o terminach COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM",
+          "strona": 1
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Każda nazwa oznacza zupełnie inne pojęcie",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie. Różne nazwy mogą oznaczać to samo pojęcie.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Jedno pojęcie może mieć nazwę angielską, podręcznikową i egzaminacyjną",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Na egzaminie trzeba rozpoznać nazwę egzaminacyjną."
+        },
+        {
+          "tekst": "Poprawna jest zawsze tylko nazwa z podręcznika",
+          "poprawna": false,
+          "wyjasnienie": "Na egzaminie w odpowiedziach stoją nazwy egzaminacyjne.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Nazwy angielskie nie mają polskich odpowiedników",
+          "poprawna": false,
+          "wyjasnienie": "Mają, często nawet dwa: z podręcznika i z egzaminu.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-34-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-34-trzy-nazwy-terminu",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Analityczka banku uczy się z polskiego podręcznika i notuje: „Nadzór ocenia potrzeby interesariuszy”. Jak to zdanie zabrzmi w poprawnej odpowiedzi na egzaminie?",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM",
+          "strona": 1
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Nadzór ocenia potrzeby interesariuszy",
+          "poprawna": false,
+          "wyjasnienie": "To forma z podręcznika. Na egzaminie ten sam termin brzmi inaczej.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Kierownictwo ocenia potrzeby interesariuszy",
+          "poprawna": false,
+          "wyjasnienie": "Kierownictwo to rola Management, czyli Zarządzanie, a nie Governance.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ład ocenia potrzeby interesariuszy",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Governance to w podręczniku Nadzór, a na egzaminie [[lad|Ład]]."
+        },
+        {
+          "tekst": "Kontrola ocenia potrzeby interesariuszy",
+          "poprawna": false,
+          "wyjasnienie": "To inne słowo. Governance nie oznacza samej kontroli.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-34-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-34-trzy-nazwy-terminu",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Który zestaw par „termin angielski → nazwa na egzaminie PL” jest w całości poprawny?",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM",
+          "strona": 1
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Enabler → Czynnik umożliwiający; Framework → Metodyka",
+          "poprawna": false,
+          "wyjasnienie": "Obie nazwy pochodzą z podręcznika, a nie z egzaminu.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Governance → Zarządzanie; Enterprise → Przedsiębiorstwo",
+          "poprawna": false,
+          "wyjasnienie": "Governance to Ład, a Przedsiębiorstwo to forma z podręcznika.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Enterprise → Organizacja; Governance → Nadzór",
+          "poprawna": false,
+          "wyjasnienie": "Pierwsza para jest dobra, ale Nadzór to forma z podręcznika.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Enabler → Aktywator; Framework → Struktura ramowa",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Obie pary to nazwy z egzaminu PL."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-34-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-34-trzy-nazwy-terminu",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Na egzaminie stoi termin „Organizacja”. Jak nazywa go polski podręcznik?",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM",
+          "strona": 1
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Przedsiębiorstwo",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Enterprise to w podręczniku Przedsiębiorstwo, a na egzaminie Organizacja."
+        },
+        {
+          "tekst": "Metodyka",
+          "poprawna": false,
+          "wyjasnienie": "Metodyka to podręcznikowa nazwa słowa Framework.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Interesariusz",
+          "poprawna": false,
+          "wyjasnienie": "Interesariusz (Stakeholder) to ktoś, kogo sprawa dotyczy, a nie organizacja.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Czynnik umożliwiający",
+          "poprawna": false,
+          "wyjasnienie": "To podręcznikowa nazwa słowa Enabler.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-35-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-35-litera-p",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Oceniasz ciasto w czterech stopniach: nie wyszło, wyszło trochę, wyszło w większości, wyszło w pełni. Który stopień odpowiada ocenie „P” na polskim egzaminie?",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM",
+          "strona": 2
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Wyszło trochę",
+          "poprawna": false,
+          "wyjasnienie": "Tak byłoby po angielsku (P – Partially). Na polskim egzaminie to C.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Wyszło w większości",
+          "poprawna": false,
+          "wyjasnienie": "To W – Większościowy.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wyszło w pełni",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Na polskim egzaminie P oznacza Pełny."
+        },
+        {
+          "tekst": "Nie wyszło",
+          "poprawna": false,
+          "wyjasnienie": "To N – Nieosiągnięty.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-35-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-35-litera-p",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Bank dostał angielski raport z oceny procesu. Przy jednym atrybucie stoi „P”. Jak zapisać tę ocenę w polskiej skali z egzaminu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "ALTKOM",
+          "strona": 2
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Literą C – osiągnięcie częściowe",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Angielskie P (Partially) to na egzaminie PL C – Częściowy."
+        },
+        {
+          "tekst": "Literą P – osiągnięcie pełne",
+          "poprawna": false,
+          "wyjasnienie": "Przepisanie litery bez tłumaczenia odwraca sens oceny.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Literą W – osiągnięcie w większości",
+          "poprawna": false,
+          "wyjasnienie": "W odpowiada angielskiemu L (Largely).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Literą N – brak osiągnięcia",
+          "poprawna": false,
+          "wyjasnienie": "N oznacza brak osiągnięcia, a P po angielsku to osiągnięcie częściowe.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-35-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-35-litera-p",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jaka jest kolejność ocen w skali z polskiego egzaminu, od najniższej do najwyższej?",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM",
+          "strona": 2
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "N – P – L – F",
+          "poprawna": false,
+          "wyjasnienie": "To litery z podręcznika i wersji angielskiej, a nie z egzaminu PL.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "P – W – C – N",
+          "poprawna": false,
+          "wyjasnienie": "Kolejność odwrócona: od najwyższej do najniższej.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "N – C – W – P",
+          "poprawna": true,
+          "wyjasnienie": "Tak: Nieosiągnięty, Częściowy, Większościowy, Pełny."
+        },
+        {
+          "tekst": "N – W – C – P",
+          "poprawna": false,
+          "wyjasnienie": "C i W są zamienione. Częściowy jest niżej niż Większościowy.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-35-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-35-litera-p",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Według podręcznika ocena P (częściowo osiągnięto) oznacza osiągnięcie atrybutu w jakim zakresie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "0–15%",
+          "poprawna": false,
+          "wyjasnienie": "To zakres oceny N (nie osiągnięto).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "50–85%",
+          "poprawna": false,
+          "wyjasnienie": "To zakres oceny L (w znacznym stopniu osiągnięto).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "85–100%",
+          "poprawna": false,
+          "wyjasnienie": "To zakres F. Tak wychodzi, gdy P z podręcznika pomyli się z egzaminacyjnym P – Pełny.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "15–50%",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Podręcznik podaje dla P zakres 15–50% (FW-PL s. 45)."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-36-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-36-lad-a-kierownictwo",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rodzice ustalają: „w tym roku oszczędzamy na wakacje” i co miesiąc sprawdzają konto. Nastolatek robi zakupy według listy. Co w tej rodzinie odpowiada Ładowi?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Robienie zakupów według listy",
+          "poprawna": false,
+          "wyjasnienie": "To wykonywanie pracy w ustalonym kierunku, czyli Zarządzanie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Utrzymywanie porządku w szafkach kuchennych",
+          "poprawna": false,
+          "wyjasnienie": "Ład w COBIT 5 to nie porządek, tylko wyznaczanie kierunku.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Płacenie rachunków w terminie",
+          "poprawna": false,
+          "wyjasnienie": "To codzienna praca, a nie wyznaczanie kierunku.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ustalenie celu oszczędzania i sprawdzanie konta",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Ład wyznacza kierunek i pilnuje, czy organizacja go trzyma."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-36-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-36-lad-a-kierownictwo",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Dyrektor IT (CIO) firmy ubezpieczeniowej planuje przeniesienie systemów do chmury. Robi to zgodnie z kierunkiem, który przyjął zarząd. Jaką rolę pełni w tej czynności?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Ład, bo kieruje dużym działem",
+          "poprawna": false,
+          "wyjasnienie": "O roli decyduje czynność, a nie stanowisko.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Zarządzanie",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Planowanie i realizacja działań w wyznaczonym kierunku to Zarządzanie."
+        },
+        {
+          "tekst": "Ład, bo podejmuje decyzje",
+          "poprawna": false,
+          "wyjasnienie": "Zarządzanie też podejmuje decyzje, ale w ramach kierunku od Ładu.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Żadną, bo to zadanie dostawcy chmury",
+          "poprawna": false,
+          "wyjasnienie": "Dostawca świadczy usługę, ale planowanie zmian w firmie to wciąż jej Zarządzanie.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-36-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-36-lad-a-kierownictwo",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "W pytaniu czytasz: „Kierownictwo planuje i realizuje działania zgodnie z kierunkiem wyznaczonym przez zarząd”. Którą rolę opisuje to zdanie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Ład (*Governance*), bo kierownictwo to szefowie",
+          "poprawna": false,
+          "wyjasnienie": "To pułapka językowa. Kierownictwo to przekład słowa Management.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nadzór, czyli Ład w wersji z podręcznika",
+          "poprawna": false,
+          "wyjasnienie": "Nadzór to podręcznikowa nazwa Ładu, a zdanie opisuje Zarządzanie.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Interesariuszy zewnętrznych",
+          "poprawna": false,
+          "wyjasnienie": "Kierownictwo to rola wewnątrz organizacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zarządzanie (*Management*)",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Planowanie i realizacja działań w kierunku od Ładu to Zarządzanie."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-36-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-36-lad-a-kierownictwo",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Kto według podręcznika w większości organizacji odpowiada za Ład (w podręczniku: nadzór)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zarząd pod przywództwem prezesa",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Tak mówi podręcznik (FW-PL s. 31)."
+        },
+        {
+          "tekst": "Kadra zarządzająca pod przywództwem dyrektora generalnego",
+          "poprawna": false,
+          "wyjasnienie": "To opis odpowiedzialności za Zarządzanie, a nie za Ład.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Dział IT pod przywództwem dyrektora IT",
+          "poprawna": false,
+          "wyjasnienie": "Dział IT nie odpowiada za kierunek całej organizacji.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Audytorzy zewnętrzni",
+          "poprawna": false,
+          "wyjasnienie": "Audytor sprawdza, ale nie wyznacza kierunku organizacji.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-37-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-37-dziwne-slowa",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Prognoza mówi, że po południu może padać, więc bierzesz parasol. Czym jest w tym przykładzie możliwy deszcz?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "[[ryzyko|Ryzykiem]] – czymś, co może pójść źle",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Ryzyko to coś, co może się zdarzyć, a nie coś, co już się stało."
+        },
+        {
+          "tekst": "Awarią, która już się wydarzyła",
+          "poprawna": false,
+          "wyjasnienie": "Deszcz jeszcze nie pada. Ryzyko dotyczy przyszłości.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Zasobem, którym dysponujesz",
+          "poprawna": false,
+          "wyjasnienie": "Zasobem jest parasol, a nie deszcz.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Interesariuszem tej sytuacji",
+          "poprawna": false,
+          "wyjasnienie": "Interesariusz to ktoś, kto coś zyska albo straci, czyli Ty, a nie deszcz.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-37-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-37-dziwne-slowa",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "W Twojej firmie o zakupie serwerów decyduje kierownik działu IT, bez udziału zarządu. Pytanie egzaminacyjne pyta, kto według COBIT 5 wyznacza kierunek dla IT. Jak odpowiadasz?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Według praktyki firmy: kierownik działu IT",
+          "poprawna": false,
+          "wyjasnienie": "Praktyka firmy może być inna, ale egzamin pyta o model COBIT 5.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Pomijam pytanie, bo nie pasuje do mojej firmy",
+          "poprawna": false,
+          "wyjasnienie": "Pytanie dotyczy modelu, a nie Twojej firmy. Trzeba na nie odpowiedzieć.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Według modelu COBIT 5: kierunek wyznacza Ład",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Na egzaminie liczy się model COBIT 5, a nie praktyka organizacji."
+        },
+        {
+          "tekst": "Szukam odpowiedzi ze słowem „Nadzór”",
+          "poprawna": false,
+          "wyjasnienie": "Nadzór to forma z podręcznika. Na egzaminie stoi „Ład”.",
+          "pulapka": "forma-podrecznikowa"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-37-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-37-dziwne-slowa",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "W pytaniu pojawia się słowo „Oszacuj” i brzmi obco. Co warto zrobić najpierw?",
+      "zrodlo": [
+        {
+          "doc": "ALTKOM",
+          "strona": 1
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Szukać odpowiedzi z nazwą z podręcznika („Ocena”)",
+          "poprawna": false,
+          "wyjasnienie": "Na egzaminie w odpowiedziach stoją nazwy egzaminacyjne, a nie podręcznikowe.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Uznać słowo za błąd tłumaczenia i pominąć pytanie",
+          "poprawna": false,
+          "wyjasnienie": "To nie błąd. „Oszacuj” to nazwa egzaminacyjna angielskiego Evaluate.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Odpowiedzieć tak, jak robi się to w mojej firmie",
+          "poprawna": false,
+          "wyjasnienie": "Egzamin pyta o model COBIT 5, a nie o praktykę Twojej organizacji.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Przetłumaczyć je na *Evaluate*, czyli „oceń”",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Angielski oryginał odsłania znane pojęcie."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-37-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-08"
+      ],
+      "lekcja": "m0-37-dziwne-slowa",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Kierownik wdrożenia nowego systemu CRM (do obsługi klientów) w urzędzie pyta, czy jego wdrożenie to proces. Co odpowiesz?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Tak, każde działanie w IT to proces",
+          "poprawna": false,
+          "wyjasnienie": "Nie każde. Jednorazowe przedsięwzięcie z końcem to projekt.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie, to projekt: ma początek i koniec, a proces się powtarza",
+          "poprawna": true,
+          "wyjasnienie": "Tak. Proces powtarza się regularnie, a projekt się kończy."
+        },
+        {
+          "tekst": "Tak, projekt i proces to dwie nazwy tej samej rzeczy",
+          "poprawna": false,
+          "wyjasnienie": "To dwa różne pojęcia.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie, bo procesy dotyczą tylko zarządu",
+          "poprawna": false,
+          "wyjasnienie": "Procesy są w całej organizacji, nie tylko w zarządzie.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    }
+  ]
+}

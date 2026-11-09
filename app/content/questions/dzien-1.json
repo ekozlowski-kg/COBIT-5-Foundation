@@ -1,115 +1,12 @@
 {
   "pytania": [
     {
-      "id": "q-m0-01-01",
-      "typ": "klasyfikacja",
-      "sylabus": [
-        "M0-00-01"
-      ],
-      "lekcja": "m0-01-interesariusz",
-      "bloom": "rozumienie",
-      "trudnosc": 1,
-      "tresc": "Kto lub co jest [[interesariusz|interesariuszem]] wdrożenia nowego systemu w stanowisku kierowania PSP?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 93
-        }
-      ],
-      "status": "uproszczenie",
-      "kategorie": [
-        "Interesariusz",
-        "Nie jest interesariuszem"
-      ],
-      "elementy": [
-        {
-          "tekst": "Dyżurny korzystający z nowego systemu",
-          "kategoria": "Interesariusz",
-          "wyjasnienie": "Użytkownik ma potrzeby i odczuwa skutki wdrożenia."
-        },
-        {
-          "tekst": "Firma dostarczająca oprogramowanie",
-          "kategoria": "Interesariusz",
-          "wyjasnienie": "Dostawca ma interes w przedsięwzięciu (umowa, reputacja) i wpływa na wynik. COBIT wymienia dostawców wśród interesariuszy zewnętrznych."
-        },
-        {
-          "tekst": "Mieszkaniec, który nie korzysta z systemu, ale czeka na zastęp",
-          "kategoria": "Interesariusz",
-          "wyjasnienie": "Ponosi skutki działania lub awarii systemu. Interesariusz nie musi być użytkownikiem."
-        },
-        {
-          "tekst": "Serwer, na którym działa aplikacja",
-          "kategoria": "Nie jest interesariuszem",
-          "wyjasnienie": "Serwer to zasób (infrastruktura). Nie ma potrzeb, oczekiwań ani interesów."
-        },
-        {
-          "tekst": "Komenda wojewódzka nadzorująca komendę powiatową",
-          "kategoria": "Interesariusz",
-          "wyjasnienie": "Podmiot nadzorujący ma oczekiwania i wpływ, więc jest interesariuszem."
-        },
-        {
-          "tekst": "Procedura dysponowania sił i środków",
-          "kategoria": "Nie jest interesariuszem",
-          "wyjasnienie": "Procedura to element aktywatora (proces / polityka), a nie podmiot z interesami."
-        }
-      ]
-    },
-    {
-      "id": "q-m0-01-02",
-      "typ": "egzamin",
-      "sylabus": [
-        "M0-00-01",
-        "EN-02-07"
-      ],
-      "lekcja": "m0-01-interesariusz",
-      "bloom": "wiedza",
-      "trudnosc": 1,
-      "tresc": "Komenda sporządziła listę interesariuszy nowego systemu SK z podziałem na wewnętrznych i zewnętrznych. Który wpis jest zakwalifikowany **błędnie**?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 22,
-          "ilustracja": "7"
-        }
-      ],
-      "status": "oficjalne",
-      "opcje": [
-        {
-          "tekst": "Audyt wewnętrzny – interesariusz wewnętrzny",
-          "poprawna": false,
-          "wyjasnienie": "Poprawnie zakwalifikowany (Rysunek 7).",
-          "zycie": "W życiu to tak, jakbyś szukając pomyłki na liście gości weselnych, wskazał wpis zupełnie poprawny.",
-          "pulapka": "prawda-nie-na-temat"
-        },
-        {
-          "tekst": "Właściciel procesu dysponowania – interesariusz wewnętrzny",
-          "poprawna": false,
-          "wyjasnienie": "Poprawnie.",
-          "zycie": "W życiu to tak, jakbyś pytany o przepalony bezpiecznik wskazał ten, który działa.",
-          "pulapka": "prawda-nie-na-temat"
-        },
-        {
-          "tekst": "Firma dostarczająca system – interesariusz wewnętrzny",
-          "poprawna": true,
-          "wyjasnienie": "Błąd: dostawcy to interesariusze zewnętrzni (Rysunek 7).",
-          "zycie": "W życiu to tak, jakbyś hydraulika z firmy wpisał na listę domowników, bo naprawia ci kran."
-        },
-        {
-          "tekst": "Użytkownicy IT w komendzie – interesariusze wewnętrzni",
-          "poprawna": false,
-          "wyjasnienie": "Poprawnie.",
-          "zycie": "W życiu to tak, jakbyś szukał w koszyku przeterminowanego jogurtu, a wyjął świeży.",
-          "pulapka": "prawda-nie-na-temat"
-        }
-      ]
-    },
-    {
       "id": "q-m0-01-03",
       "typ": "bledy",
       "sylabus": [
         "M0-00-01"
       ],
-      "lekcja": "m0-01-interesariusz",
+      "lekcja": "m0-12-rozne-oczekiwania",
       "bloom": "rozumienie",
       "trudnosc": 2,
       "tresc": "Kierownik projektu napisał w notatce kilka twierdzeń o interesariuszach. Które są **błędne**?",
@@ -149,7 +46,7 @@
       "sylabus": [
         "M0-00-02"
       ],
-      "lekcja": "m0-02-potrzeba",
+      "lekcja": "m0-15-wyznacznik-z-czym-nie-mylic",
       "bloom": "rozumienie",
       "trudnosc": 1,
       "tresc": "Kierownik wydziału mówi: „Potrzebujemy nowego systemu”. Co jest najprawdopodobniej jego **rzeczywistą potrzebą**?",
@@ -181,7 +78,7 @@
       "sylabus": [
         "PR-02-02"
       ],
-      "lekcja": "m0-02-potrzeba",
+      "lekcja": "m0-15-wyznacznik-z-czym-nie-mylic",
       "bloom": "rozumienie",
       "trudnosc": 1,
       "tresc": "Który z poniższych jest przykładem **wyznacznika** wpływającego na potrzeby interesariuszy?",
@@ -227,7 +124,7 @@
       "sylabus": [
         "M0-00-03"
       ],
-      "lekcja": "m0-03-wartosc",
+      "lekcja": "m0-18-optymalizacja",
       "bloom": "rozumienie",
       "trudnosc": 1,
       "tresc": "Dopasuj pojęcie do przykładu z urzędu wdrażającego elektroniczny obieg dokumentów (EZD).",
@@ -265,7 +162,7 @@
         "M0-00-03",
         "PR-02-01"
       ],
-      "lekcja": "m0-03-wartosc",
+      "lekcja": "m0-18-optymalizacja",
       "bloom": "zastosowanie",
       "trudnosc": 2,
       "tresc": "Który wniosek jest **najbardziej zgodny z COBIT 5**?",
@@ -307,45 +204,12 @@
       ]
     },
     {
-      "id": "q-m0-03-03",
-      "typ": "rozpoznanie",
-      "sylabus": [
-        "M0-00-03"
-      ],
-      "lekcja": "m0-03-wartosc",
-      "bloom": "rozumienie",
-      "trudnosc": 1,
-      "tresc": "Która sytuacja pokazuje **rezultat bez korzyści**?",
-      "zrodlo": [],
-      "status": "uproszczenie",
-      "opcje": [
-        {
-          "tekst": "Dyżurni korzystają z nowej mapy i czas wyboru trasy spadł o połowę.",
-          "poprawna": false,
-          "wyjasnienie": "Tu korzyść została osiągnięta.",
-          "zycie": "W życiu to tak, jakbyś robot kuchenny, dzięki któremu gotujesz dwa razy szybciej, nazwał zakupem bez pożytku."
-        },
-        {
-          "tekst": "Moduł mapowy działa, ale dyżurni dalej wybierają trasę „po staremu”.",
-          "poprawna": true,
-          "wyjasnienie": "Produkt (rezultat) istnieje, ale nie przynosi poprawy, więc korzyść nie została zrealizowana.",
-          "zycie": "W życiu to tak, jakby kupiony rower stał w garażu: rzecz jest, a pożytku brak."
-        },
-        {
-          "tekst": "Projekt modułu mapowego nie został jeszcze rozpoczęty.",
-          "poprawna": false,
-          "wyjasnienie": "Tu nie ma ani rezultatu, ani korzyści.",
-          "zycie": "W życiu to tak, jakbyś narzekał na nieużywany rower, którego jeszcze nawet nie kupiłeś."
-        }
-      ]
-    },
-    {
       "id": "q-m0-04-01",
       "typ": "klasyfikacja",
       "sylabus": [
         "M0-00-04"
       ],
-      "lekcja": "m0-04-ryzyko-zasob",
+      "lekcja": "m0-22-zasob",
       "bloom": "rozumienie",
       "trudnosc": 2,
       "tresc": "Przyporządkuj działanie do strategii postępowania z ryzykiem awarii systemu w stanowisku kierowania.",
@@ -392,7 +256,7 @@
         "M0-00-04",
         "PR-02-01"
       ],
-      "lekcja": "m0-04-ryzyko-zasob",
+      "lekcja": "m0-22-zasob",
       "bloom": "rozumienie",
       "trudnosc": 1,
       "tresc": "Co oznacza **optymalizacja ryzyka** w COBIT 5?",
@@ -421,7 +285,7 @@
         {
           "tekst": "Rozpoznanie i oszacowanie ryzyka oraz zarządzanie nim w granicach apetytu",
           "poprawna": true,
-          "wyjasnienie": "Zgodne z definicją z Załącznika H (s. 93)."
+          "wyjasnienie": "Zgodne z hasłem „Zarządzanie ryzykiem” w słowniczku (Załącznik H, s. 93), które opisuje ten cel Ładu: rozpoznanie i oszacowanie ryzyka, strategie postępowania i zarządzanie w kontekście apetytu na ryzyko."
         },
         {
           "tekst": "Minimalizacja kosztów IT",
@@ -433,152 +297,12 @@
       ]
     },
     {
-      "id": "q-m0-05-01",
-      "typ": "klasyfikacja",
-      "sylabus": [
-        "M0-00-05"
-      ],
-      "lekcja": "m0-05-proces-projekt",
-      "bloom": "rozumienie",
-      "trudnosc": 1,
-      "tresc": "Proces czy projekt?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 93
-        }
-      ],
-      "status": "uproszczenie",
-      "kategorie": [
-        "Proces",
-        "Projekt"
-      ],
-      "elementy": [
-        {
-          "tekst": "Codzienne przyjmowanie zgłoszeń alarmowych",
-          "kategoria": "Proces",
-          "wyjasnienie": "Działanie ciągłe i powtarzalne."
-        },
-        {
-          "tekst": "Wymiana central telefonicznych w 2026 roku",
-          "kategoria": "Projekt",
-          "wyjasnienie": "Jednorazowe, z początkiem i końcem."
-        },
-        {
-          "tekst": "Comiesięczne rozliczanie paliwa pojazdów",
-          "kategoria": "Proces",
-          "wyjasnienie": "Działanie powtarzalne."
-        },
-        {
-          "tekst": "Budowa nowego portalu mieszkańca",
-          "kategoria": "Projekt",
-          "wyjasnienie": "Jednorazowe przedsięwzięcie, które potem przechodzi w proces obsługi e-wniosków."
-        }
-      ]
-    },
-    {
-      "id": "q-m0-05-02",
-      "typ": "egzamin",
-      "sylabus": [
-        "EN-01-01"
-      ],
-      "lekcja": "m0-05-proces-projekt",
-      "bloom": "wiedza",
-      "trudnosc": 1,
-      "tresc": "Dyżurny opisuje swoją pracę: „Zgłoszenie wpływa, kwalifikujemy je według instrukcji, dysponujemy siły i środki, a na końcu raportujemy. Przy każdym zgłoszeniu robimy to tak samo”. Czym jest to w terminologii COBIT 5?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 93
-        }
-      ],
-      "status": "oficjalne",
-      "opcje": [
-        {
-          "tekst": "Projektem",
-          "poprawna": false,
-          "wyjasnienie": "Projekt jest jednorazowy. Tu działanie się powtarza.",
-          "zycie": "W życiu to tak, jakbyś codzienne gotowanie obiadu nazwał remontem kuchni, czyli czymś jednorazowym.",
-          "pulapka": "falsz"
-        },
-        {
-          "tekst": "Procesem",
-          "poprawna": true,
-          "wyjasnienie": "Powtarzalny zbiór praktyk ukierunkowany procedurami, który przetwarza wejścia (zgłoszenie) w wyniki (zadysponowane siły, raport)."
-        },
-        {
-          "tekst": "Polityką",
-          "poprawna": false,
-          "wyjasnienie": "Polityka to wytyczne kierownictwa. Sama niczego nie przetwarza.",
-          "zycie": "W życiu to tak, jakbyś domową zasadę „nie jemy przed telewizorem” pomylił z samym gotowaniem obiadu.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Strukturą organizacyjną",
-          "poprawna": false,
-          "wyjasnienie": "Strukturą jest SK jako jednostka decyzyjna, a nie sposób wykonywania pracy.",
-          "zycie": "W życiu to tak, jakbyś rodzinną naradę przy stole pomylił z codziennym zmywaniem naczyń.",
-          "pulapka": "inna-kategoria"
-        }
-      ]
-    },
-    {
-      "id": "q-m0-06-01",
-      "typ": "klasyfikacja",
-      "sylabus": [
-        "M0-00-06",
-        "PR-02-14"
-      ],
-      "lekcja": "m0-06-lad-zarzadzanie",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Ład czy Zarządzanie? Przyporządkuj działania w komendzie PSP.",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 14
-        }
-      ],
-      "status": "oficjalne",
-      "kategorie": [
-        "Ład",
-        "Zarządzanie"
-      ],
-      "elementy": [
-        {
-          "tekst": "Komendant ustala priorytet: skrócenie czasu dysponowania o 20% w 2 lata",
-          "kategoria": "Ład",
-          "wyjasnienie": "Wyznaczanie kierunku i priorytetów (Kieruj)."
-        },
-        {
-          "tekst": "Kierownik SK przygotowuje harmonogram wdrożenia i szkoleń",
-          "kategoria": "Zarządzanie",
-          "wyjasnienie": "Planowanie (Planuj)."
-        },
-        {
-          "tekst": "Kierownictwo komendy co kwartał przegląda wskaźniki i koryguje kierunek",
-          "kategoria": "Ład",
-          "wyjasnienie": "Monitorowanie zgodności z kierunkiem (Monitoruj, w EDM)."
-        },
-        {
-          "tekst": "Informatyk konfiguruje serwer i uruchamia system",
-          "kategoria": "Zarządzanie",
-          "wyjasnienie": "Budowanie i uruchamianie (Twórz, Wykonuj)."
-        },
-        {
-          "tekst": "Ocena, które z trzech wariantów modernizacji najlepiej odpowiadają potrzebom interesariuszy",
-          "kategoria": "Ład",
-          "wyjasnienie": "Ocena potrzeb, warunków i opcji (Oszacuj)."
-        }
-      ]
-    },
-    {
       "id": "q-m0-06-02",
       "typ": "egzamin",
       "sylabus": [
         "PR-02-14"
       ],
-      "lekcja": "m0-06-lad-zarzadzanie",
+      "lekcja": "m0-27-lad-czym-nie-jest",
       "bloom": "wiedza",
       "trudnosc": 1,
       "tresc": "Kto w większości organizacji odpowiada za **Ład**?",
@@ -624,7 +348,7 @@
       "sylabus": [
         "PR-02-14"
       ],
-      "lekcja": "m0-06-lad-zarzadzanie",
+      "lekcja": "m0-27-lad-czym-nie-jest",
       "bloom": "wiedza",
       "trudnosc": 2,
       "tresc": "Dopasuj wersję egzaminacyjną PL do oryginału EN.",
@@ -660,7 +384,7 @@
       "sylabus": [
         "M0-00-07"
       ],
-      "lekcja": "m0-07-cobit-standardy",
+      "lekcja": "m0-32-liczby-cobit-5",
       "bloom": "wiedza",
       "trudnosc": 1,
       "tresc": "Dopasuj standard do obszaru, którego dotyczy.",
@@ -697,7 +421,7 @@
       "sylabus": [
         "M0-00-07"
       ],
-      "lekcja": "m0-07-cobit-standardy",
+      "lekcja": "m0-32-liczby-cobit-5",
       "bloom": "wiedza",
       "trudnosc": 2,
       "tresc": "Które twierdzenia o COBIT 5 są **błędne**?",
@@ -746,7 +470,7 @@
       "sylabus": [
         "M0-00-08"
       ],
-      "lekcja": "m0-08-egzamin",
+      "lekcja": "m0-35-litera-p",
       "bloom": "wiedza",
       "trudnosc": 2,
       "tresc": "Dopasuj termin z podręcznika PL do jego wersji z egzaminu PL.",
@@ -787,7 +511,7 @@
         "M0-00-08",
         "PC-01-03"
       ],
-      "lekcja": "m0-08-egzamin",
+      "lekcja": "m0-35-litera-p",
       "bloom": "wiedza",
       "trudnosc": 2,
       "tresc": "Na polskim egzaminie ocena atrybutu procesu „**P**” oznacza:",
@@ -1073,53 +797,6 @@
       ]
     },
     {
-      "id": "q-pr-02-03",
-      "typ": "studium",
-      "sylabus": [
-        "PR-02-01"
-      ],
-      "lekcja": "pr-02-tworzenie-wartosci",
-      "bloom": "zastosowanie",
-      "trudnosc": 2,
-      "tresc": "Która decyzja **najlepiej** realizuje Cel Ładu „Tworzenie Wartości”?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 17
-        }
-      ],
-      "status": "oficjalne",
-      "scenariusz": "Komenda rozważa trzy warianty systemu SK. A: najtańszy, bez zasilania awaryjnego. B: średni koszt, z rezerwowym łączem i szkoleniami, skraca czas dysponowania o 15%. C: najdroższy, skraca czas o 17%, ale wymaga zatrudnienia 4 nowych informatyków, na których nie ma budżetu.",
-      "opcje": [
-        {
-          "tekst": "Wariant A, bo najmniej kosztuje",
-          "poprawna": false,
-          "wyjasnienie": "Najniższy koszt przy nieakceptowalnym ryzyku awarii to nie jest optymalizacja.",
-          "zycie": "W życiu to tak, jakbyś kupił najtańsze opony, które pękną na pierwszej dziurze.",
-          "pulapka": "zbyt-waskie"
-        },
-        {
-          "tekst": "Wariant B, bo równoważy korzyści, ryzyko i zasoby",
-          "poprawna": true,
-          "wyjasnienie": "Daje korzyść przy kontrolowanym ryzyku i realnym koszcie. To właśnie równowaga trzech elementów."
-        },
-        {
-          "tekst": "Wariant C, bo daje największą korzyść",
-          "poprawna": false,
-          "wyjasnienie": "Sama maksymalizacja korzyści przy nierealnych zasobach nie jest tworzeniem wartości.",
-          "zycie": "W życiu to tak, jakbyś zamówił wesele marzeń na 300 osób, na które nie masz pieniędzy.",
-          "pulapka": "zbyt-waskie"
-        },
-        {
-          "tekst": "Żaden. Należy poczekać, aż ryzyko spadnie do zera",
-          "poprawna": false,
-          "wyjasnienie": "Ryzyka nie trzeba eliminować. Brak decyzji też niesie ryzyko i brak korzyści.",
-          "zycie": "W życiu to tak, jakbyś z kupnem auta czekał, aż na drogach zniknie ryzyko wypadków, i chodził pieszo.",
-          "pulapka": "falsz"
-        }
-      ]
-    },
-    {
       "id": "q-pr-02-04",
       "typ": "bledy",
       "sylabus": [
@@ -1206,54 +883,6 @@
           "zycie": "W życiu to tak, jakby pożytkiem z gminnego basenu było to, że dzieci mają gdzie uczyć się pływać."
         }
       ]
-    },
-    {
-      "id": "q-pr-03-01",
-      "typ": "studium",
-      "sylabus": [
-        "PR-02-03"
-      ],
-      "lekcja": "pr-03-kaskada-celow",
-      "bloom": "wiedza",
-      "trudnosc": 1,
-      "tresc": "Co zgodnie z Kaskadą Celów jest **następnym** krokiem?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 18,
-          "ilustracja": "4"
-        }
-      ],
-      "status": "oficjalne",
-      "opcje": [
-        {
-          "tekst": "Zdefiniowanie celów związanych z informatyką",
-          "poprawna": false,
-          "wyjasnienie": "To krok 3. Najpierw potrzeby przekłada się na cele organizacji.",
-          "zycie": "W życiu to tak, jakbyś kupował kafelki, zanim rodzina ustaliła, jaki remont w ogóle robi.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Przełożenie potrzeb na cele organizacji",
-          "poprawna": true,
-          "wyjasnienie": "Krok 2: potrzeby interesariuszy → cele organizacji (Rysunek 4)."
-        },
-        {
-          "tekst": "Zdefiniowanie celów procesu obsługi incydentów",
-          "poprawna": false,
-          "wyjasnienie": "To cele aktywatora, czyli ostatni krok kaskady.",
-          "zycie": "W życiu to tak, jakbyś wybierał kolor serwetek, zanim ustalisz datę i salę wesela.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Ocena poziomu zdolności procesów",
-          "poprawna": false,
-          "wyjasnienie": "Ocena zdolności to inny model (PAM), a nie krok kaskady.",
-          "zycie": "W życiu to tak, jakbyś w środku pisania listy zakupów zaczął robić przegląd auta: zupełnie inna sprawa.",
-          "pulapka": "inna-kategoria"
-        }
-      ],
-      "scenariusz": "Komenda zebrała oczekiwania mieszkańców, samorządu i KW PSP wobec działań ratowniczych."
     },
     {
       "id": "q-pr-03-02",

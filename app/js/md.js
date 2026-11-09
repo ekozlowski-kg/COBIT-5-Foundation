@@ -153,7 +153,7 @@ function block(name, args, inner, termRef) {
       const [ans, stmt, why] = (f.sprawdz || '').split('::').map((x) => x.trim());
       return `<div class="atom">
         ${f.zycie ? `<div class="atom-row atom-life"><div class="box-label">🏠 W życiu</div><p>${il2(f.zycie)}</p></div>` : ''}
-        ${f.komenda ? `<div class="atom-row atom-unit"><div class="box-label">🚒 W komendzie</div><p>${il2(f.komenda)}</p></div>` : ''}
+        ${''/* f.komenda – przykłady strażackie wyłączone (FORMAT-KROTKI §2) */}
         <div class="atom-row atom-claim"><div class="box-label">COBIT 5 mówi</div><p class="atom-claim-t">${il2(f.twierdzenie)}</p>${f.poLudzku ? `<p class="small muted">Po ludzku: ${il2(f.poLudzku)}</p>` : ''}</div>
         ${stmt ? `<div class="atom-check" data-atom-check="${ans === 'P' ? 'P' : 'F'}"><p><strong>Sprawdź się:</strong> ${il2(stmt)}</p>
           <div class="btn-row"><button class="btn" data-pf="P">Prawda</button><button class="btn" data-pf="F">Fałsz</button></div>

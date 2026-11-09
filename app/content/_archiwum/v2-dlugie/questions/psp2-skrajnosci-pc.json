@@ -1,0 +1,101 @@
+[
+  {
+    "id": "q-sk-poziom-2-1",
+    "typ": "studium",
+    "sylabus": [
+      "PC-01-01",
+      "PC-02-06"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "tresc": "Kto ma rację i dlaczego?",
+    "scenariusz": "Audytorka Ewa Lis wystawia procesowi powiadamiania oceny: PA 1.1 = W, PA 2.1 = P, PA 2.2 = P, PA 3.1 = P, PA 3.2 = W. Naczelnik Sikora uważa, że „skoro plan i dokumenty są wzorowe, to co najmniej poziom 2”.",
+    "opcje": [
+      {
+        "tekst": "Sikora się myli: W na PA 1.1 zatrzymuje proces na pierwszym szczeblu.",
+        "poprawna": true,
+        "wyjasnienie": "PA 1.1 = W wystarcza na poziom 1. Poziom 2 wymaga P na PA 1.1, więc pełne oceny wyższych atrybutów nie pomagają."
+      },
+      {
+        "tekst": "Sikora ma rację: pełne oceny planu i dokumentów przesądzają o szczeblu zarządzanym.",
+        "poprawna": false,
+        "wyjasnienie": "Atrybuty poziomu 2 mają P, ale niższy atrybut (PA 1.1) musi mieć P, a ma tylko W.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Sikora zaniża wynik: przy P na PA 3.1 proces jest już ustanowiony.",
+        "poprawna": false,
+        "wyjasnienie": "Do poziomu 3 potrzeba P na wszystkich atrybutach poziomów 1 i 2. PA 1.1 = W to wyklucza.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Sikora zawyża wynik: bez P na PA 1.1 proces jest niekompletny.",
+        "poprawna": false,
+        "wyjasnienie": "Odwrócona reguła: do poziomu 1 wystarczy W. P jest wymagane dopiero od poziomu 2 w górę.",
+        "pulapka": "odwrocone"
+      }
+    ],
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      },
+      {
+        "doc": "SYL"
+      }
+    ],
+    "status": "oficjalne",
+    "skrajnosc": true,
+    "atom": "poziom-2"
+  },
+  {
+    "id": "q-sk-pa-1-1-1",
+    "typ": "studium",
+    "sylabus": [
+      "PC-01-02",
+      "PC-02-06"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "tresc": "Co powinna odpowiedzieć audytorka?",
+    "scenariusz": "W opisie procesu powiadamiania rezultat brzmi: „każda wezwana jednostka otrzymuje alarm i potwierdza odbiór”. Alarm dochodzi zawsze do wszystkich, ale jest wolny: zajmuje 3 minuty. Naczelnik Sikora twierdzi: „Atrybut nazywa się Sprawność procesu, a my sprawni nie jesteśmy, więc PA 1.1 musi być niskie”.",
+    "opcje": [
+      {
+        "tekst": "PA 1.1 może mieć P, bo liczy się osiąganie rezultatów, a nie tempo.",
+        "poprawna": true,
+        "wyjasnienie": "„Sprawność procesu” (PA 1.1) to osiąganie rezultatów. Rezultatem jest tu potwierdzony odbiór, a nie czas."
+      },
+      {
+        "tekst": "PA 1.1 musi być niskie, bo „sprawność” oznacza szybkość działania.",
+        "poprawna": false,
+        "wyjasnienie": "Podręcznikowa nazwa myli. Atrybut sprawdza, czy proces osiąga rezultaty.",
+        "pulapka": "forma-podrecznikowa"
+      },
+      {
+        "tekst": "Tempo ocenia się w PA 2.1 „Zarządzanie wydajnością”, więc to ono będzie niskie.",
+        "poprawna": false,
+        "wyjasnienie": "PA 2.1 to plan, monitorowanie i korekta wykonania, a nie tempo.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "PA 1.1 = W, bo proces nigdy nie dostaje P, dopóki nie jest mierzony.",
+        "poprawna": false,
+        "wyjasnienie": "Pomiar to PA 4.1. PA 1.1 nie wymaga pomiaru, tylko osiągania rezultatów.",
+        "pulapka": "falsz"
+      }
+    ],
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 45
+      }
+    ],
+    "status": "uproszczenie",
+    "skrajnosc": true,
+    "atom": "pa-1-1"
+  }
+]

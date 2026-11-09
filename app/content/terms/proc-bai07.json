@@ -39,8 +39,8 @@
   "przyklady": {
     "zycie": "Kupujesz mieszkanie od dewelopera. Na odbiorze chodzisz z listą usterek, odkręcasz krany i sprawdzasz okna. Podpisujesz protokół, przenosisz meble, a przez pierwszy miesiąc deweloper szybciej reaguje na zgłoszenia. To odbiór i przejście.",
     "biuro": "Biuro dostaje nowy segregator procedur. Dwie osoby pracują z nim przez tydzień i podpisują odbiór. Dopiero wtedy stara wersja trafia do kosza.",
-    "organizacja": "Kasjerki z jednego sklepu testują nowe kasy, potem jest nocne przełączenie i technik na miejscu w poniedziałek. Gmina sprawdza nowy system podatkowy na kopii danych i wyłącza stary dopiero po protokole odbioru.",
-    "psp": "**Próba na stanowisku zapasowym.** Asp. sztab. Paweł Grab i st. ogn. Kasia Nowik testują nową wersję Syreny na stanowisku zapasowym w SK (stanowisku kierowania). Przechodzą scenariusz z życia: pożar w Zawilcach, alarm do OSP i potwierdzenie. Po podpisaniu odbioru Ola Dudek przełącza dyżurnych na nowy system, a przez dwa tygodnie jest pod telefonem. Odbiór i przejście do codziennej pracy to [[proc-bai07]].",
+    "organizacja": "Kasjerki z jednego sklepu testują nowe kasy, potem jest nocne przełączenie i technik na miejscu w poniedziałek.",
+    "admin": "Gmina sprawdza nowy system podatkowy na kopii prawdziwych danych. Przez dwa tygodnie trzy pracownice referatu podatków wystawiają w nim próbne decyzje i porównują je ze starym systemem. Dopiero po podpisaniu protokołu odbioru dane zostają przeniesione, a stary system wyłączony. Przez pierwszy miesiąc dostawca szybciej odpowiada na zgłoszenia urzędu.",
     "it": "Praktyki BAI07 obejmują m.in. plan konwersji danych, środowisko testowe, testy akceptacyjne, wydanie do produkcji i przegląd po wdrożeniu."
   },
   "nieMylicZ": [
@@ -80,8 +80,8 @@
   "mapa": "proc-bai07",
   "glebokosc": {
     "prosty": "Krawcowa uszyła Ci garnitur. Przymierzasz go, chodzisz, siadasz. Dopiero gdy wszystko leży dobrze, odbierasz go i idziesz w nim na wesele. Przymiarka i odbiór to sedno tego procesu.",
-    "zaawansowany": "Kwant-Sygnał przetestował poprawioną Syrenę u siebie ([[proc-bai03]]). Teraz dyżurni testują ją na prawdziwych scenariuszach i podpisują odbiór. Potem następuje przełączenie i dwa tygodnie wzmożonego wsparcia. To [[proc-bai07]]. Gdy wsparcie startowe się kończy, Syrena przechodzi do zwykłej eksploatacji w [[proc-dss01]].",
-    "skrajny": "Nowa Syrena działa od tygodnia. W piątek pada bramka SMS i dzwoni Kasia Nowik. Czy to jeszcze BAI07, czy już DSS02? W okresie wsparcia po uruchomieniu zespół wdrożeniowy z BAI07 pomaga szybciej, ale sama awaria jest incydentem. Rejestruje się ją i obsługuje w DSS02. BAI07 zbiera takie zgłoszenia do przeglądu po wdrożeniu, żeby ocenić, czy przejście się udało. **Rozstrzygnięcie:** awaria zawsze jest incydentem w DSS02. BAI07 zapewnia wsparcie na starcie i ocenia przejście, a po jego zakończeniu codzienną pracę przejmuje DSS01 (interpretacja kursu)."
+    "zaawansowany": "Dostawca przetestował nowy system CRM u siebie ([[proc-bai03]]). Teraz użytkownicy banku testują go na prawdziwych scenariuszach i podpisują odbiór. Potem następuje przełączenie i dwa tygodnie wzmożonego wsparcia. To [[proc-bai07]]. Gdy wsparcie startowe się kończy, system przechodzi do zwykłej eksploatacji w [[proc-dss01]].",
+    "skrajny": "Nowy system CRM działa od tygodnia. W piątek pada integracja z bramką SMS i dzwoni konsultantka obsługi klienta. Czy to jeszcze BAI07, czy już DSS02? W okresie wsparcia po uruchomieniu zespół wdrożeniowy z BAI07 pomaga szybciej, ale sama awaria jest incydentem. Rejestruje się ją i obsługuje w DSS02. BAI07 zbiera takie zgłoszenia do przeglądu po wdrożeniu, żeby ocenić, czy przejście się udało. **Rozstrzygnięcie:** awaria zawsze jest incydentem w DSS02. BAI07 zapewnia wsparcie na starcie i ocenia przejście, a po jego zakończeniu codzienną pracę przejmuje DSS01 (interpretacja kursu)."
   },
   "zagmatwania": [
     {
@@ -100,7 +100,7 @@
   "mentor": {
     "czestyBlad": "Uczeń myli testy akceptacyjne (BAI07) z testami budowanego rozwiązania (BAI03) i ze zatwierdzeniem zmiany (BAI06).",
     "jakTlumaczyc": "Porównaj z przeprowadzką: BAI06 to zgoda wspólnoty na remont, BAI03 to sam remont, BAI07 to odbiór mieszkania i wprowadzenie się.",
-    "pytanieKontrolne": "Dyżurni testują nową Syrenę na stanowisku zapasowym, zanim przejdą na nią na stałe. Który proces?",
+    "pytanieKontrolne": "Użytkownicy testują nowy system CRM w środowisku testowym, zanim przejdą na niego na stałe. Który proces?",
     "odpowiedzKontrolna": "**BAI07** – testy akceptacyjne użytkowników i przygotowanie przejścia do eksploatacji."
   }
 }

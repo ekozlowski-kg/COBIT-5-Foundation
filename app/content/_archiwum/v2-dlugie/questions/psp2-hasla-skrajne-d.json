@@ -1,0 +1,144 @@
+[
+  {
+    "id": "q-skr-wymiary-aktywatora-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-12"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Kpt. Sikora rysuje Rysunek 13 i pyta, czym jest pozycja „dostęp i bezpieczeństwo” w modelu typowego aktywatora. Która odpowiedź jest poprawna?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 28
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "oficjalne",
+    "skrajnosc": true,
+    "atom": "wymiary-aktywatora",
+    "opcje": [
+      {
+        "tekst": "Kategorią celów w wymiarze Cele",
+        "poprawna": true,
+        "wyjasnienie": "s. 29: cele dzielą się na jakość wewnętrzną, jakość kontekstową oraz dostęp i bezpieczeństwo. To zawartość wymiaru, a nie osobny wymiar."
+      },
+      {
+        "tekst": "Piątym wymiarem aktywatora",
+        "poprawna": false,
+        "wyjasnienie": "Wymiary są dokładnie cztery: interesariusze, cele, cykl życia, dobre praktyki.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Fazą cyklu życia aktywatora",
+        "poprawna": false,
+        "wyjasnienie": "Fazy cyklu życia to planowanie, projektowanie, budowanie, użytkowanie, ocena/monitorowanie i aktualizacja/pozbywanie się.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Jednym z czterech pytań zarządzania wydajnością, mierzonym wskaźnikiem wiodącym",
+        "poprawna": false,
+        "wyjasnienie": "Bezpieczeństwo nie jest jednym z czterech pytań. Pytania dotyczą potrzeb, celów, cyklu życia i dobrych praktyk.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-skr-wymiary-oceny-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PC-02-03",
+      "PC-02-04"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Ewa Lis zbiera w ocenie dowody, które są **specyficzne dla ocenianego procesu** i pochodzą z Referencyjnego Modelu Procesu. Do którego wymiaru należą i czym są?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "oficjalne",
+    "skrajnosc": true,
+    "atom": "wymiary-oceny",
+    "opcje": [
+      {
+        "tekst": "Wymiar Procesu: praktyki bazowe i produkty pracy",
+        "poprawna": true,
+        "wyjasnienie": "il. 19: wskaźniki wykonania procesu (podręcznik: wskaźniki wydajności) to praktyki bazowe i produkty pracy. PRM odnosi się tylko do wymiaru procesu."
+      },
+      {
+        "tekst": "Wymiar Zdolności: typowe praktyki, typowe zasoby i typowe produkty pracy",
+        "poprawna": false,
+        "wyjasnienie": "To wskaźniki ogólne, wspólne dla wszystkich procesów, a nie specyficzne dla jednego.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Wymiar Zdolności: atrybuty PA 1.1–PA 5.2",
+        "poprawna": false,
+        "wyjasnienie": "Atrybuty to skala zdolności, a nie dowody specyficzne dla procesu z PRM.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Wymiary aktywatora: interesariusze, cele, cykl życia, dobre praktyki",
+        "poprawna": false,
+        "wyjasnienie": "To model aktywatora, a nie wymiary oceny procesu.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-skr-zarzadzanie-wydajnoscia-aktywatora-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-05",
+      "PR-02-13"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Audytorka sprawdza, czy wykonanie procesu powiadamiania jest **planowane, monitorowane i dostosowywane**, i zapisuje wynik w skali N/C/W/P. Co ocenia?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "oficjalne",
+    "skrajnosc": true,
+    "atom": "zarzadzanie-wydajnoscia-aktywatora",
+    "opcje": [
+      {
+        "tekst": "Atrybut PA 2.1 Zarządzanie wydajnością w modelu zdolności procesów",
+        "poprawna": true,
+        "wyjasnienie": "s. 42: na poziomie 2 proces jest wdrożony w sposób zarządzany (planowanie, monitorowanie, dostosowanie). To atrybut oceniany w skali N/C/W/P, a nie model aktywatora."
+      },
+      {
+        "tekst": "Zarządzanie wydajnością aktywatora: pytanie „Czy zadbano o zarządzanie cyklem życia?”",
+        "poprawna": false,
+        "wyjasnienie": "Cztery pytania z modelu aktywatora nie są oceniane w skali N/C/W/P i nie dotyczą planowania wykonania procesu.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Wskaźnik wiodący procesu",
+        "poprawna": false,
+        "wyjasnienie": "Wskaźniki wiodące należą do zarządzania wydajnością aktywatora, a nie do oceny atrybutów.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Zarządzanie wydajnością aktywatora, bo proces jest jednym z siedmiu aktywatorów",
+        "poprawna": false,
+        "wyjasnienie": "Proces jest aktywatorem, ale opisana ocena (planowanie, monitorowanie, dostosowanie, skala N/C/W/P) należy do modelu zdolności.",
+        "pulapka": "prawda-nie-na-temat"
+      }
+    ]
+  }
+]

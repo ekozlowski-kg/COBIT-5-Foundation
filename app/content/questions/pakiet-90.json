@@ -1305,58 +1305,6 @@
       ]
     },
     {
-      "id": "q-pak-T04Q03",
-      "typ": "egzamin",
-      "sylabus": [
-        "PR-02-14"
-      ],
-      "lekcja": "pr-11-zasada-5",
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Zespół operacyjny obserwuje w czasie rzeczywistym obciążenie serwerów i reaguje na przekroczenie progów wydajności. Jak należy zaklasyfikować tę czynność w COBIT 5?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 31
-        },
-        {
-          "doc": "FW-PL",
-          "strona": 32,
-          "ilustracja": "15"
-        },
-        {
-          "doc": "PAKIET",
-          "uwaga": "pakiet-90 – materiał nieoficjalny z innej rozmowy, zredagowany do terminologii egzaminu"
-        }
-      ],
-      "status": "uproszczenie",
-      "opcje": [
-        {
-          "tekst": "Monitorowanie w ramach Zarządzania",
-          "poprawna": true,
-          "wyjasnienie": "Bieżące pomiary techniczne i reakcja na alarmy to Zarządzanie, mimo słowa „monitorowanie”."
-        },
-        {
-          "tekst": "Monitorowanie w ramach Ładu",
-          "poprawna": false,
-          "wyjasnienie": "Monitoruj w Ładzie to przegląd wyników i zgodności z kierunkiem, a nie obsługa alarmów serwera.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Wyznaczanie kierunku w ramach Ładu",
-          "poprawna": false,
-          "wyjasnienie": "Nikt tu nie ustala priorytetów ani kierunku.",
-          "pulapka": "falsz"
-        },
-        {
-          "tekst": "Ocena potrzeb interesariuszy w ramach Ładu",
-          "poprawna": false,
-          "wyjasnienie": "Nie analizuje się potrzeb interesariuszy, tylko wykonuje czynności eksploatacyjne.",
-          "pulapka": "falsz"
-        }
-      ]
-    },
-    {
       "id": "q-pak-T04Q04",
       "typ": "egzamin",
       "sylabus": [

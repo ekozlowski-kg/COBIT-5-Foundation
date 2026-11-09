@@ -1,8 +1,8 @@
 {
   "id": "organ-ladu",
-  "en": "Governance body",
-  "wymowa": "gawernens bodi",
-  "wymowaAkcent": "GA-wer-nens BO-di",
+  "en": "Governing body",
+  "wymowa": "gawerning bodi",
+  "wymowaAkcent": "GA-wer-ning BO-di",
   "plEgzamin": "Organ Ładu i nadzoru",
   "plPodrecznik": "Organ nadzorujący",
   "plInne": [],
@@ -10,7 +10,7 @@
   "zrodloTlumaczenia": {
     "wydawcaEgzaminu": "Organ Ładu i nadzoru",
     "podrecznik": "Organ nadzorujący",
-    "kurs": "Organ Ładu i nadzoru (Governance body)",
+    "kurs": "Organ Ładu i nadzoru (Governing body)",
     "uwaga": "Egzamin PL: „Organ Ładu i nadzoru”; podręcznik PL: „Organ nadzorujący” – konkurencyjne odpowiedniki. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 14, 24, 31."
   },
   "pulapka": true,
@@ -22,32 +22,31 @@
     "lad",
     "interesariusz"
   ],
-  "poLudzku": "Szef albo grupa na samej górze, np. zarząd, rada czy komendant, którzy decydują o kierunku.",
-  "skadNazwa": "Angielskie *governance body*. Podręcznik pisze „organ nadzorujący”, a egzamin „Organ Ładu i nadzoru”.",
+  "poLudzku": "Szef albo grupa na samej górze, np. zarząd, rada nadzorcza czy dyrektor urzędu, którzy decydują o kierunku.",
+  "skadNazwa": "Angielskie *governing body*. Podręcznik pisze „organ nadzorujący”, a egzamin „Organ Ładu i nadzoru”.",
   "wyobrazSobie": "Zarząd stowarzyszenia: członkowie powierzają mu prowadzenie spraw, on wyznacza kierunek dyrektorowi biura, a raz w roku rozlicza się przed walnym zebraniem.",
   "poCo": "Żeby było jasne, kto w imieniu właścicieli i interesariuszy sprawuje Ład: wyznacza kierunek kierownictwu i odpowiada za wyniki.",
-  "jakDziala": "Na Ilustracji 9 właściciele i interesariusze delegują (delegate) uprawnienia organowi Ładu (governance body), a ten jest przed nimi rozliczany (accountable). Organ Ładu wyznacza kierunek (set direction) kierownictwu (management). Kierownictwo instruuje i dopasowuje (instruct and align) role operacyjne, które raportują (report) do kierownictwa, a kierownictwo monitoruje (monitor) ich pracę. Sam organ Ładu też monitoruje, ale wyniki względem kierunku, który wyznaczył (EDM).",
+  "jakDziala": "Na Ilustracji 9 właściciele i interesariusze delegują (delegate) uprawnienia organowi Ładu (governing body), a ten jest przed nimi rozliczany (accountable). Organ Ładu wyznacza kierunek (set direction) kierownictwu (management). Kierownictwo instruuje i dopasowuje (instruct and align) role operacyjne, które raportują (report) do kierownictwa (FW-PL s. 24, Il. 9). Strzałka monitorowania (monitor) łączy kierownictwo z organem Ładu; według uzasadnień egzaminacyjnych to kierownictwo odpowiada wykonawczo za monitorowanie. Sam organ Ładu też monitoruje, ale wyniki względem kierunku, który wyznaczył (EDM).",
   "dlaczegoWazne": "Egzamin pyta o relacje z Ilustracji 9: organ Ładu jest rozliczany przed interesariuszami i wyznacza kierunek, a relacja „monitorowanie” należy na tej ilustracji do kierownictwa. Trzeba też wiedzieć, że w większości organizacji Ład sprawuje zarząd pod przewodnictwem prezesa.",
   "poziom1": "Ci, którzy sprawują Ład: właściciele powierzają im pilnowanie kierunku, oni wyznaczają go kierownictwu i rozliczają się z tego przed właścicielami (np. rada nadzorcza spółki, zarząd wspólnoty mieszkaniowej). Zwykle jest to zarząd lub rada pod przewodnictwem prezesa.",
-  "poziom2": "Na Ilustracji 9 organ Ładu otrzymuje **delegowanie** od właścicieli i interesariuszy i jest wobec nich **rozliczany** (accountable). **Wyznacza kierunek** kierownictwu. Kierownictwo **instruuje i dopasowuje** role operacyjne, które **raportują** do kierownictwa, a kierownictwo **monitoruje** realizację.",
+  "poziom2": "Na Ilustracji 9 organ Ładu otrzymuje **delegowanie** od właścicieli i interesariuszy i jest wobec nich **rozliczany** (accountable). **Wyznacza kierunek** kierownictwu. Kierownictwo **instruuje i dopasowuje** role operacyjne, które **raportują** do kierownictwa. Strzałka **monitorowanie** łączy kierownictwo z organem Ładu; według uzasadnień egzaminacyjnych kierownictwo odpowiada wykonawczo za monitorowanie osiągania celów.",
   "poziom3": "Ilustracja 9 (s. 24): Właściciele oraz interesariusze → *Delegowanie* → Organ nadzorujący → *Wyznaczanie kierunku* → Zarządzanie → *Instruowanie i dopasowanie* → Eksploatacja i wykonanie. W drugą stronę: *Raportowanie* (od ról operacyjnych), *Monitorowanie*, *Strona rozliczana* (organ wobec interesariuszy).",
   "przyklady": {
     "zycie": "Właściciele mieszkań na zebraniu wspólnoty wybierają zarząd i powierzają mu dbanie o budynek. Zarząd wyznacza kierunek – w tym roku dach – i każe administratorowi to załatwić, a administrator raportuje postępy. Na następnym zebraniu zarząd rozlicza się przed właścicielami: to on jest organem Ładu.",
     "biuro": "Właścicielka sieci trzech biur rachunkowych powołuje zarząd, który ustala priorytety, np. „wszystkie biura na jednym programie księgowym”, i co kwartał rozlicza się przed nią z wyników. Kierowniczki biur dostają ten kierunek i same planują, jak go zrealizować.",
     "firma": "Właściciele rodzinnej sieci piekarni powołują radę, która raz na kwartał ustala, dokąd firma zmierza: otwieramy dwa nowe punkty, nie wchodzimy w catering. Dyrektor zarządzający dostaje ten kierunek i sam układa plan, a rada sprawdza wyniki i odpowiada przed właścicielami. Ta rada to organ Ładu.",
     "admin": "Mieszkańcy w wyborach powierzają radzie gminy pilnowanie spraw gminy. Rada uchwala strategię i budżet, wyznacza kierunek wójtowi i urzędowi, a potem rozlicza ich z wykonania; sama odpowiada przed mieszkańcami przy kolejnych wyborach. W tej scenie rada gminy pełni rolę organu Ładu.",
-    "psp": "Komendant powiatowy z zastępcami na początku roku wyznacza kierunek: krótszy czas dysponowania i odporna łączność, i rozlicza się z tego przed komendantem wojewódzkim. Kierownicy sekcji przekładają to na plany i instruują dowódców zmian, a ci razem z dyżurnymi raportują wyniki w górę. Komendant z zastępcami działa tu jak organ Ładu komendy.",
-    "it": "Zarząd jako organ Ładu w EDM01 (Zapewnienie i utrzymanie ładu korporacyjnego) ustala zasady podejmowania decyzji o IT, a w EDM05 (Zapewnienie przejrzystości dotyczącej interesariuszy) raportuje udziałowcom i regulatorom, jak IT realizuje cele. Plany i nadzór nad zespołami zostawia kierownictwu IT (APO, BAI, DSS, MEA)."
+    "it": "Zarząd jako organ Ładu w EDM01 (Zapewnienie i utrzymanie ładu korporacyjnego) ustala zasady podejmowania decyzji o IT, a w EDM05 (Zapewnienie przejrzystości dotyczącej interesariuszy) raportuje udziałowcom i regulatorom, jak IT realizuje cele. Plany i kierowanie pracą zespołów zostawia kierownictwu IT (APO, BAI, DSS, MEA)."
   },
   "glebokosc": {
     "prosty": "Członkowie klubu sportowego wybierają radę klubu i powierzają jej decyzję, w którą stronę klub ma iść: szkolenie dzieci czy walka o awans. Rada mówi trenerowi, co jest priorytetem, i raz w roku rozlicza się przed członkami. Sama nie prowadzi treningów – od tego jest trener z zespołem.",
-    "zaawansowany": "W Modrzewiowie organem Ładu jest komendantka Wrzos. Mieszkańcy i państwo powierzają komendzie zadania (delegowanie), a komendantka jest z nich rozliczana, m.in. przed komendą wojewódzką. Wyznacza kierunek kpt. Sikorze, który jako [[zarzadzanie|kierownictwo]] instruuje Olę Dudek i dyżurnych, odbiera ich raporty i monitoruje wykonanie. Tak wygląda Ilustracja 9: organ Ładu przyjmuje delegowanie, wyznacza kierunek i jest rozliczany, a monitorowanie realizacji należy do kierownictwa. To rozdział [[lad|Ładu]] od Zarządzania, o którym mówi [[zasada-5|zasada 5]].",
-    "skrajny": "Komendantka Wrzos co miesiąc czyta raport o skuteczności alarmów, więc st. ogn. Nowik uznaje, że monitorowanie to zadanie organu Ładu. Oba zdania mają podstawę: Ład (EDM: Oszacuj, Kieruj, Monitoruj) rzeczywiście monitoruje sprawność i zgodność względem uzgodnionego kierunku i celów (s. 14). Jednak w układzie ról z Ilustracji 9 i w uzasadnieniach egzaminacyjnych monitorowanie realizacji przypisane jest kierownictwu, które odbiera raporty od ról operacyjnych; organ Ładu przyjmuje delegowanie, wyznacza kierunek i jest stroną rozliczaną przed właścicielami i interesariuszami. Druga pułapka: podręcznik pisze „organ nadzorujący”, co brzmi jak ktoś, kto głównie kontroluje. W pytaniu o role trzeba więc dla organu Ładu wskazać wyznaczanie kierunku i rozliczalność, a nie monitorowanie realizacji. **Rozstrzygnięcie:** pytanie o role z Ilustracji 9 (kto monitoruje osiąganie celów) → kierownictwo, a organ Ładu wyznacza kierunek i jest rozliczany (*accountable*); pytanie o działania Ładu (EDM) → Ład też monitoruje, ale sprawność i zgodność względem wyznaczonego kierunku."
+    "zaawansowany": "W banku organem Ładu jest zarząd pod nadzorem rady nadzorczej. Akcjonariusze powierzają mu prowadzenie banku (delegowanie), a zarząd jest z tego rozliczany, m.in. na walnym zgromadzeniu. Wyznacza kierunek CIO, który jako [[zarzadzanie|kierownictwo]] instruuje administratorów i helpdesk i odbiera ich raporty. Tak wygląda Ilustracja 9: organ Ładu przyjmuje delegowanie, wyznacza kierunek i jest rozliczany. Strzałka monitorowania łączy go z kierownictwem, a według uzasadnień egzaminacyjnych to kierownictwo odpowiada wykonawczo za monitorowanie osiągania celów. To rozdział [[lad|Ładu]] od Zarządzania, o którym mówi [[zasada-5|zasada 5]].",
+    "skrajny": "Prezes co miesiąc czyta raport o dostępności bankowości internetowej, więc nowy analityk uznaje, że monitorowanie to zadanie organu Ładu. Oba zdania mają podstawę: Ład (EDM: Oszacuj, Kieruj, Monitoruj) rzeczywiście monitoruje sprawność i zgodność względem uzgodnionego kierunku i celów (s. 14). Jednak na Ilustracji 9 strzałka „Monitorowanie” łączy kierownictwo z organem Ładu, a uzasadnienia egzaminacyjne przypisują kierownictwu odpowiedzialność wykonawczą za monitorowanie osiągania celów; organ Ładu przyjmuje delegowanie, wyznacza kierunek i jest stroną rozliczaną przed właścicielami i interesariuszami. Druga pułapka: podręcznik pisze „organ nadzorujący”, co brzmi jak ktoś, kto głównie kontroluje. W pytaniu o role trzeba więc dla organu Ładu wskazać wyznaczanie kierunku i rozliczalność, a nie monitorowanie realizacji. **Rozstrzygnięcie:** pytanie o role z Ilustracji 9 (kto monitoruje osiąganie celów) → kierownictwo, a organ Ładu wyznacza kierunek i jest rozliczany (*accountable*); pytanie o działania Ładu (EDM) → Ład też monitoruje, ale sprawność i zgodność względem wyznaczonego kierunku."
   },
   "zagmatwania": [
     {
       "mit": "Organ Ładu to ten, kto najwięcej kontroluje – stąd „organ nadzorujący”.",
-      "prawda": "Organ Ładu wyznacza kierunek i jest rozliczany przed właścicielami i interesariuszami. Monitorowanie realizacji to w układzie ról z Ilustracji 9 zadanie kierownictwa."
+      "prawda": "Organ Ładu wyznacza kierunek i jest rozliczany przed właścicielami i interesariuszami. Za monitorowanie osiągania celów odpowiada wykonawczo kierownictwo; strzałka monitorowania na Ilustracji 9 łączy je z organem Ładu."
     },
     {
       "mit": "Skoro w Ilustracji 9 monitoruje kierownictwo, Ład niczego nie monitoruje.",
@@ -59,23 +58,23 @@
     },
     {
       "mit": "Organ Ładu to zawsze rada nadzorcza spółki.",
-      "prawda": "Zwykle jest to zarząd lub rada pod przewodnictwem prezesa, ale w urzędzie czy komendzie tę funkcję pełni np. kierownik jednostki – liczy się funkcja, nie nazwa (interpretacja kursu)."
+      "prawda": "Zwykle jest to zarząd lub rada pod przewodnictwem prezesa, ale w urzędzie czy szpitalu publicznym tę funkcję pełni np. kierownik jednostki – liczy się funkcja, nie nazwa (interpretacja kursu)."
     }
   ],
   "mentor": {
     "czestyBlad": "Przypisywanie organowi Ładu monitorowania realizacji i odwracanie kierunku rozliczalności.",
-    "jakTlumaczyc": "Narysuj Ilustrację 9 jak sztafetę: właściciele → (delegowanie) → organ Ładu → (kierunek) → kierownictwo → (instruowanie i dopasowanie) → wykonawcy. W drugą stronę: raporty do kierownictwa, monitorowanie przez kierownictwo, rozliczenie organu Ładu przed właścicielami. Strzałki z czasownikami zapamiętuje się lepiej niż definicje.",
-    "pytanieKontrolne": "Kto w Modrzewiowie jest stroną rozliczaną przed mieszkańcami i państwem za IT komendy, a kto monitoruje, czy plan wdrożenia jest realizowany? Uzasadnij na podstawie Ilustracji 9.",
-    "odpowiedzKontrolna": "Rozliczana jest komendantka Wrzos jako organ Ładu: przyjęła delegowanie i wyznacza kierunek. Realizację monitoruje kpt. Sikora jako kierownictwo: instruuje wykonawców, odbiera ich raporty i monitoruje wykonanie."
+    "jakTlumaczyc": "Narysuj Ilustrację 9 jak sztafetę: właściciele → (delegowanie) → organ Ładu → (kierunek) → kierownictwo → (instruowanie i dopasowanie) → wykonawcy. W drugą stronę: raporty od wykonawców do kierownictwa, strzałka monitorowania między kierownictwem a organem Ładu (wykonawczo odpowiada za nie kierownictwo), rozliczenie organu Ładu przed właścicielami. Strzałki z czasownikami zapamiętuje się lepiej niż definicje.",
+    "pytanieKontrolne": "Kto w banku jest stroną rozliczaną przed akcjonariuszami za IT banku, a kto odpowiada wykonawczo za monitorowanie, czy bank osiąga swoje cele? Uzasadnij na podstawie Ilustracji 9.",
+    "odpowiedzKontrolna": "Rozliczany jest zarząd jako organ Ładu: przyjął delegowanie i wyznacza kierunek. Za monitorowanie osiągania celów odpowiada wykonawczo CIO jako kierownictwo; strzałka monitorowania łączy kierownictwo z organem Ładu. Wykonawców CIO instruuje i dopasowuje, a oni raportują mu wyniki."
   },
   "nieMylicZ": [
     {
       "termin": "Kierownictwo (management)",
-      "roznica": "Kierownictwo realizuje kierunek i monitoruje wykonanie; organ Ładu wyznacza kierunek i jest rozliczany przed interesariuszami."
+      "roznica": "Kierownictwo realizuje kierunek, instruuje i dopasowuje role operacyjne i odpowiada wykonawczo za monitorowanie osiągania celów; organ Ładu wyznacza kierunek i jest rozliczany przed interesariuszami."
     }
   ],
-  "przykladWypowiedzi": "The governance body, czyli organ Ładu i nadzoru, otrzymuje delegowanie od właścicieli i interesariuszy, jest przed nimi rozliczany (accountable) i wyznacza kierunek (sets direction) kierownictwu.",
-  "egzamin": "Według uzasadnień egzaminacyjnych organ Ładu i nadzoru jest **odpowiedzialny decyzyjnie** (rozliczany) i wyznacza kierunek. **Monitorowanie** realizacji to zadanie **kierownictwa**.",
+  "przykladWypowiedzi": "The governing body, czyli organ Ładu i nadzoru, otrzymuje delegowanie od właścicieli i interesariuszy, jest przed nimi rozliczany (accountable) i wyznacza kierunek (sets direction) kierownictwu.",
+  "egzamin": "Według uzasadnień egzaminacyjnych organ Ładu i nadzoru jest **odpowiedzialny decyzyjnie** (rozliczany) i wyznacza kierunek. Za **monitorowanie** osiągania celów odpowiada wykonawczo **kierownictwo**.",
   "powiazane": [
     "lad",
     "zarzadzanie",

@@ -33,14 +33,14 @@
   "przyklady": {
     "zycie": "Pilnujesz w domu temperatury 20–22 stopnie. Gdy spada do 18, sprawdzasz, czy okno nie jest otwarte, i reagujesz. Granice i reakcja na odchylenia to PA 4.2.",
     "biuro": "Gdy obieg faktury przekracza 10 dni, kierowniczka księgowości od razu sprawdza, gdzie utknęła faktura, i zmienia kolejność zatwierdzeń. To PA 4.2.",
-    "organizacja": "Piekarnia przemysłowa waży co dziesiąty bochenek. Gdy waga wychodzi poza 490–510 g, linia staje, a technik szuka przyczyny. To kontrola procesu.\n\nUrząd ma limit: 90% decyzji w 21 dni. Gdy w marcu wychodzi 75%, kierownik od razu analizuje przyczynę i przesuwa ludzi. To PA 4.2.",
-    "psp": "**Lipcowy skok.** W lipcu raport pokazuje, że czasy alarmu wychodzą poza limit 60 sekund. Ola Dudek analizuje dane i znajduje przyczynę u operatora SMS. Naczelnik Sikora zmienia ustawienia wysyłki, a czasy wracają w granice. Audytorka Ewa Lis widzi, że odchylenie wykryto i usunięto. To PA 4.2.",
+    "organizacja": "Piekarnia przemysłowa waży co dziesiąty bochenek. Gdy waga wychodzi poza 490–510 g, linia staje, a technik szuka przyczyny. To kontrola procesu.",
+    "admin": "Urząd miasta ma limit: 90% decyzji w 21 dni. Gdy w marcu wychodzi 75%, kierownik od razu analizuje przyczynę i przesuwa ludzi. To PA 4.2.",
     "it": "Proces DSS01: gdy czas zadań wsadowych wychodzi poza limit, zespół operacji analizuje przyczynę i wprowadza korektę. To dowody dla PA 4.2, a nie dla procesu MEA02."
   },
   "glebokosc": {
     "prosty": "Kierowca na autostradzie patrzy na licznik. Gdy przekracza dozwoloną prędkość, zdejmuje nogę z gazu. Sam licznik nic nie daje, jeśli nikt na niego nie reaguje. Reakcja to kontrola procesu.",
-    "zaawansowany": "Proces powiadamiania ma już cel i raporty ([[pa-4-1|miara procesu]]). Sikora ustala dopuszczalny zakres 40–60 sekund. Gdy czasy wychodzą poza zakres, Dudek analizuje przyczynę, a Sikora wprowadza korektę. Ewa Lis ocenia kontrolę procesu. Razem z P na niższych atrybutach to droga do [[poziom-4|poziomu 4]].",
-    "skrajny": "Komenda ma piękny raport z czasami alarmów, ale nikt nie reaguje na odchylenia. PA 4.1 = W, PA 4.2 = C, więc poziomu 4 nie ma. Odwrotna sytuacja: Sikora reaguje na każdą skargę, ale bez danych i limitów. To gaszenie pożarów, a nie PA 4.2, bo kontrola procesu opiera się na pomiarach. Trzecia pułapka to samo słowo „kontrola”. Kontrola wewnętrzna z MEA02 i inspekcja z komendy wojewódzkiej to coś innego. **Rozstrzygnięcie:** PA 4.2 = reakcja na odchylenia od limitów ustalonych z pomiarów PA 4.1. Bez pomiaru nie ma kontroli procesu, a pomiar bez reakcji nie daje poziomu 4 (interpretacja kursu według ISO/IEC 15504)."
+    "zaawansowany": "Proces obsługi incydentów ma już cel i raporty ([[pa-4-1|miara procesu]]). CIO ustala dopuszczalny zakres: incydent krytyczny rozwiązany w 2–4 godziny. Gdy czasy wychodzą poza zakres, kierownik helpdesku analizuje przyczynę, a CIO wprowadza korektę. Audytor ocenia kontrolę procesu. Razem z P na niższych atrybutach to droga do [[poziom-4|poziomu 4]].",
+    "skrajny": "Bank ma piękny raport z czasami rozwiązania incydentów, ale nikt nie reaguje na odchylenia. PA 4.1 = W, PA 4.2 = C, więc poziomu 4 nie ma. Odwrotna sytuacja: CIO reaguje na każdą skargę, ale bez danych i limitów. To doraźne łatanie dziur, a nie PA 4.2, bo kontrola procesu opiera się na pomiarach. Trzecia pułapka to samo słowo „kontrola”. Kontrola wewnętrzna z MEA02 i inspekcja regulatora to coś innego. **Rozstrzygnięcie:** PA 4.2 = reakcja na odchylenia od limitów ustalonych z pomiarów PA 4.1. Bez pomiaru nie ma kontroli procesu, a pomiar bez reakcji nie daje poziomu 4 (interpretacja kursu według ISO/IEC 15504)."
   },
   "zagmatwania": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "mit": "Wystarczy reagować na problemy, żeby mieć PA 4.2.",
-      "prawda": "Reakcja musi wynikać z danych i limitów z pomiaru (PA 4.1). Gaszenie pożarów bez liczb to nie kontrola procesu."
+      "prawda": "Reakcja musi wynikać z danych i limitów z pomiaru (PA 4.1). Doraźne łatanie dziur bez liczb to nie kontrola procesu."
     },
     {
       "mit": "Pomiar i kontrola to jeden atrybut.",

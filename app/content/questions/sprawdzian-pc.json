@@ -425,7 +425,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Ewa Lis ma ustalić, czy DSS02 jest już Procesem wykonywanym. Od czego zaczyna według podręcznika COBIT 5?",
+      "tresc": "Audytor wewnętrzny banku ma ustalić, czy proces DSS02 jest już Procesem wykonywanym. Od czego zaczyna według podręcznika COBIT 5?",
       "opcje": [
         {
           "tekst": "Sprawdza się, czy proces jest mierzony i kontrolowany w zdefiniowanych granicach.",
@@ -479,7 +479,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Jaki poziom zdolności osiągnął proces (skala egzaminu PL: N/C/W/P)?",
-      "scenariusz": "Audytorka Ewa Lis oceniła proces DSS02 *Manage Service Requests and Incidents*:\n- PA 1.1 – P\n- PA 2.1 – P\n- PA 2.2 – W\n- PA 3.1 – W\n- PA 3.2 – C",
+      "scenariusz": "Zewnętrzny asesor ocenił w sklepie internetowym proces DSS02 *Manage Service Requests and Incidents*:\n- PA 1.1 – P\n- PA 2.1 – P\n- PA 2.2 – W\n- PA 3.1 – W\n- PA 3.2 – C",
       "opcje": [
         {
           "tekst": "Proces osiągnął poziom 3, bo PA 3.1 ma ocenę W, a to wystarcza na tym poziomie.",
@@ -535,13 +535,13 @@
       ],
       "bloom": "zastosowanie",
       "trudnosc": 3,
-      "tresc": "Któremu celowi oceny zdolności procesu odpowiada potrzeba komendantki?",
-      "scenariusz": "Komendantka Anna Wrzos mówi: „Nie potrzebuję żadnego certyfikatu. Chcę mniej więcej wiedzieć, gdzie dziś są nasze kluczowe procesy i gdzie powinny być, żeby zdecydować, które usprawnienia sfinansować w przyszłym roku”.",
+      "tresc": "Któremu celowi oceny zdolności procesu odpowiada potrzeba prezesa?",
+      "scenariusz": "Prezes ubezpieczyciela mówi: „Nie potrzebuję żadnego certyfikatu. Chcę mniej więcej wiedzieć, gdzie dziś są nasze kluczowe procesy i gdzie powinny być, żeby zdecydować, które usprawnienia sfinansować w przyszłym roku”.",
       "opcje": [
         {
-          "tekst": "Formalnej ocenie zewnętrznej z raportowaniem i certyfikacją wyników komendy.",
+          "tekst": "Formalnej ocenie zewnętrznej z raportowaniem i certyfikacją wyników firmy.",
           "poprawna": false,
-          "wyjasnienie": "To cel zewnętrzny i rygorystyczny. Komendantka wprost mówi, że certyfikatu nie potrzebuje.",
+          "wyjasnienie": "To cel zewnętrzny i rygorystyczny. Prezes wprost mówi, że certyfikatu nie potrzebuje.",
           "pulapka": "inna-kategoria"
         },
         {
@@ -550,13 +550,13 @@
           "wyjasnienie": "Tak. Wysokopoziomowe określenie stanu obecnego i wymaganego ułatwia organowi Ładu i kierownictwu decyzje o inwestycjach w usprawnienia."
         },
         {
-          "tekst": "Porównaniu zdolności procesów komendy z innymi komendami w województwie, czyli benchmarkingowi.",
+          "tekst": "Porównaniu zdolności procesów firmy z innymi ubezpieczycielami na rynku, czyli benchmarkingowi.",
           "poprawna": false,
-          "wyjasnienie": "Porównywanie zdolności to prawdziwy cel oceny, ale komendantka mówi o stanie obecnym, docelowym i budżecie.",
+          "wyjasnienie": "Porównywanie zdolności to prawdziwy cel oceny, ale prezes mówi o stanie obecnym, docelowym i budżecie.",
           "pulapka": "prawda-nie-na-temat"
         },
         {
-          "tekst": "Sprawdzeniu, czy komenda spełnia wymagania normy ISO/IEC 27001 w zakresie bezpieczeństwa informacji.",
+          "tekst": "Sprawdzeniu, czy firma spełnia wymagania normy ISO/IEC 27001 w zakresie bezpieczeństwa informacji.",
           "poprawna": false,
           "wyjasnienie": "To inna norma i inny rodzaj oceny. Model zdolności opiera się na ISO/IEC 15504.",
           "pulapka": "falsz"
@@ -585,7 +585,7 @@
       ],
       "bloom": "zastosowanie",
       "trudnosc": 3,
-      "tresc": "Komendantka czyta raport: „DSS02 – poziom 1” i pyta: „Czyli jest źle?”. Wyjaśnij jej jak mentor, co oznacza ten wynik i dlaczego nie jest porażką (4–6 zdań). Użyj terminów EN: **Process Capability Model**, **ISO/IEC 15504**, **Performed process**, **PA 1.1**, **rating scale**.",
+      "tresc": "Członkini zarządu banku czyta raport: „DSS02 – poziom 1” i pyta: „Czyli jest źle?”. Wyjaśnij jej jak mentor, co oznacza ten wynik i dlaczego nie jest porażką (4–6 zdań). Użyj terminów EN: **Process Capability Model**, **ISO/IEC 15504**, **Performed process**, **PA 1.1**, **rating scale**.",
       "wymagane": [
         "Process Capability Model",
         "ISO/IEC 15504",
@@ -628,11 +628,11 @@
       ],
       "bloom": "zastosowanie",
       "trudnosc": 3,
-      "tresc": "Która rada dla komendantki jest najbardziej zgodna z COBIT 5?",
-      "scenariusz": "W fazie 2 wdrożenia Ewa Lis oceniła zdolność procesów: DSS02 i DSS04 *Manage Continuity* są na poziomie 1, a APO12 *Manage Risk* na poziomie 0. Komendantka mówi: „Do końca roku chcę poziomu 5 dla wszystkich procesów. A skoro oceniliśmy procesy, wiemy już wszystko o Ładzie komendy”.",
+      "tresc": "Która rada dla zarządu szpitala jest najbardziej zgodna z COBIT 5?",
+      "scenariusz": "W fazie 2 wdrożenia audytor wewnętrzny szpitala ocenił zdolność procesów: DSS02 i DSS04 *Manage Continuity* są na poziomie 1, a APO12 *Manage Risk* na poziomie 0. Dyrektor szpitala mówi: „Do końca roku chcę poziomu 5 dla wszystkich procesów. A skoro oceniliśmy procesy, wiemy już wszystko o Ładzie szpitala”.",
       "opcje": [
         {
-          "tekst": "Przyjąć jej cel: poziom 5 dla wszystkich procesów, bo tylko najwyższy poziom oznacza dobry Ład.",
+          "tekst": "Przyjąć cel dyrektora: poziom 5 dla wszystkich procesów, bo tylko najwyższy poziom oznacza dobry Ład.",
           "poprawna": false,
           "wyjasnienie": "Podręcznik mówi, że poziom docelowy bardzo rzadko jest jednym z najwyższych.",
           "pulapka": "falsz"

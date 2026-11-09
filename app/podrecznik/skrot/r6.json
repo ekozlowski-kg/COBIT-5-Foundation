@@ -1,0 +1,217 @@
+{
+ "k-m0-lad": [
+  {
+   "h": "Ład wyznacza kierunek, Zarządzanie go realizuje",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th></th><th><w k=\"lad\">Ład</w> <span class=\"en\">Governance</span></th><th><w k=\"zarzadzanie\">Zarządzanie</w> <span class=\"en\">Management</span></th></tr><tr><td>pyta</td><td>co i po co?</td><td>jak i kiedy?</td></tr><tr><td>robi</td><td>Oszacuj, Kieruj, Monitoruj</td><td>Planuj, Twórz, Wykonuj, Monitoruj</td></tr><tr><td>kto</td><td>zarząd z prezesem</td><td>kadra zarządzająca z dyrektorem generalnym</td></tr></table></div>",
+   "c": "Ład decyduje, dokąd organizacja zmierza, i sprawdza, czy tam dochodzi; Zarządzanie planuje i wykonuje pracę w tym kierunku.",
+   "s": "COBIT 5 Framework (PL), s. 31–32",
+   "ctx": "<p>Podręcznik opisuje Ład trzema krokami: ocenia potrzeby, warunki i opcje interesariuszy, ukierunkowuje działania przez priorytety i decyzje, a potem monitoruje sprawność i zgodność z uzgodnionym kierunkiem. Zarządzanie planuje, buduje, realizuje i monitoruje działania „w sposób spójny z kierunkiem wskazanym przez organ nadzorujący” – na egzaminie: <w k=\"organ-ladu\">Organ Ładu i nadzoru</w>. Dyrektor IT (CIO, <span class=\"en\">Chief Information Officer</span>) należy do kadry zarządzającej, nie do Ładu.</p><p>Pułapka nazw: podręcznik pisze „nadzór”, egzamin – <b>Ład</b>. „Monitoruj” jest po obu stronach: w Ładzie dotyczy kierunku, w Zarządzaniu bieżących wyników. Waga decyzji niczego nie przesądza – wybór dostawcy za miliony to nadal „jak”, czyli Zarządzanie.</p><p>Przykład: zarząd banku ustala, że w tym roku priorytetem są klienci mobilni (Ład). Wybór firmy, która napisze aplikację, harmonogram testów i codzienne kopie zapasowe to Zarządzanie.</p>",
+   "lekcje": [
+    "m0-25-lad-zarzadzanie",
+    "m0-26-czynnosci-ladu-zarzadzania"
+   ]
+  },
+  {
+   "h": "Ład to osobna dziedzina – nie audyt i nie najwyższe piętro Zarządzania",
+   "b": "<ul><li><b>≠ audyt</b> – audyt sprawdza zgodność, Ład też wyznacza kierunek</li><li><b>≠ wyższy szczebel</b> ani synonim Zarządzania</li><li>decyduje <b>czynność</b>, nie stanowisko</li><li>„Kierownictwo” na egzaminie = <span class=\"en\">Management</span>, czyli Zarządzanie</li></ul>",
+   "c": "O roli decyduje to, co ktoś robi: kto ocenia, kieruje i monitoruje kierunek, sprawuje Ład; kto planuje i prowadzi pracę, zarządza.",
+   "s": "COBIT 5 Framework (PL), s. 31",
+   "ctx": "<p>Podręcznik podkreśla, że Ład i Zarządzanie obejmują „działania o odmiennym charakterze”, wymagają innych struktur organizacyjnych i służą innym celom. To treść <w k=\"zasada-5\">Zasady 5</w>. Wyniki audytu są dla Ładu źródłem informacji przy monitorowaniu, ale go nie zastępują.</p><p>Pułapka językowa: rola <span class=\"en\">Management</span> ma na egzaminie nazwę <w k=\"rola-kierownictwo\">Kierownictwo</w> – brzmi jak „szefowie, którzy decydują”, a oznacza Zarządzanie. Podręcznik mówi też, że struktura należy do Ładu albo Zarządzania zależnie od składu i zakresu decyzji, więc jedna osoba może działać po obu stronach.</p><p>Przykład: wójt małej gminy zatwierdza z radnymi strategię cyfryzacji (Ład), a nazajutrz sam ustala z informatykiem harmonogram wymiany komputerów (Zarządzanie). Rozdział ról chroni przed sytuacją, w której ten sam dyrektor IT ustala priorytety, wykonuje pracę i sam ocenia swój sukces.</p>",
+   "lekcje": [
+    "m0-27-lad-czym-nie-jest",
+    "m0-36-lad-a-kierownictwo"
+   ]
+  }
+ ],
+ "k-pr-zasada-5": [
+  {
+   "h": "Zasada 5: Ład i Zarządzanie różnią się działaniami, strukturami i celami",
+   "b": "<p><w k=\"zasada-5\">Oddzielenie Ładu od Zarządzania</w> <span class=\"en\">Separating Governance From Management</span></p><ul><li>inne <b>działania</b></li><li>inne <b>struktury organizacyjne</b></li><li>inne <b>cele</b></li></ul><p>Oddziela się role, nie kontakt.</p>",
+   "c": "Zasada 5 rozdziela dwie dziedziny, ale nie przerywa ich współpracy: kierunek idzie w dół, raporty wracają w górę.",
+   "s": "COBIT 5 Framework (PL), s. 31",
+   "ctx": "<p>Podręcznikowa nazwa to „Oddzielenie nadzoru od zarządzania”; na egzaminie wybieraj „Oddzielenie Ładu od Zarządzania”. Trójka różnic – działania, struktury, cele – to ulubiony materiał pytań. Za Ład odpowiada zwykle zarząd z prezesem, za Zarządzanie kadra zarządzająca z dyrektorem generalnym (CEO).</p><p>Trzy błędne odczytania zasady: Ład nie jest „wyższym piętrem” Zarządzania; oddzielenie nie oznacza braku rozmów; o przynależności nie decyduje nazwa stanowiska, lecz zakres decyzji. Jako przykładowe decyzje struktur Ładu podręcznik podaje portfel inwestycyjny i apetyt na ryzyko.</p><p>Przykład: zarząd ubezpieczyciela ustala, że priorytetem jest zgłaszanie szkód przez internet, i określa, ile ryzyka przestojów zniesie. Dyrektor IT wybiera dostawcę chmury, prowadzi wdrożenie i co miesiąc raportuje wyniki. Zarząd nie wybiera dostawcy, dyrektor IT nie ustala apetytu na ryzyko.</p>",
+   "lekcje": [
+    "pr-k42-zasada-5"
+   ]
+  },
+  {
+   "h": "Na egzaminie czynności mają tryb rozkazujący: EDM i PBRM",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th></th><th>podręcznik</th><th>egzamin</th></tr><tr><td><w k=\"edm\">EDM</w> – Ład</td><td>ocena, kierowanie, monitorowanie</td><td><b>Oszacuj, Kieruj, Monitoruj</b></td></tr><tr><td><w k=\"pbrm\">PBRM</w> – Zarządzanie</td><td>planowanie, budowanie, uruchamianie, monitorowanie</td><td><b>Planuj, Twórz, Wykonuj, Monitoruj</b></td></tr></table></div><p>Zarządzanie działa zgodnie z kierunkiem od Ładu, <b>aby osiągnąć cele organizacji</b>.</p>",
+   "c": "Ład ma trzy czynności, Zarządzanie cztery – zapamiętaj formy egzaminacyjne i angielskie skróty.",
+   "s": "COBIT 5 Framework (PL), s. 14, 31–32",
+   "ctx": "<p>EDM to <span class=\"en\">Evaluate, Direct and Monitor</span>, PBRM to <span class=\"en\">Plan, Build, Run and Monitor</span>. Podręcznik mówi, że w każdym z pięciu procesów Ładu zdefiniowano praktyki oceny, kierowania i monitorowania. Kolejność ma sens: Oszacuj przed decyzją, Kieruj to decyzja, Monitoruj po niej.</p><p>Pełna definicja (s. 14 i 31): „Zarządzanie polega na planowaniu, budowaniu, realizacji i monitorowaniu działań w sposób spójny z kierunkiem wskazanym przez organ nadzorujący, aby osiągnąć cele przedsiębiorstwa”. Na egzaminie „cele przedsiębiorstwa” to <b>cele organizacji</b>. Definicja Ładu też na nich się opiera: Ład ocenia potrzeby interesariuszy, by ustalić zrównoważone, uzgodnione cele organizacji, wyznacza kierunek priorytetami i decyzjami oraz monitoruje sprawność i zgodność. Obie definicje wskazują ten sam poziom Kaskady Celów – nie cele związane z Informatyką ani Cele aktywatora.</p><p>Pułapka: <span class=\"en\">Build</span> to w podręczniku „budowanie”, na egzaminie „Twórz” (w zestawieniu Altkom także „Wytwarzaj”); <span class=\"en\">Run</span> to „uruchamianie” lub „realizacja”, na egzaminie „Wykonuj”. Czasowniki PBRM nie są nazwami domen – domeny mają nazwy trzyczłonowe, np. „Dostosuj, Planuj i Organizuj”.</p><p>Przykład: rada uczelni i rektor porównują oferty e-dziekanatu (Oszacuj), wybierają priorytet i budżet (Kieruj), co semestr sprawdzają efekty (Monitoruj). Dział IT planuje projekt, kupuje i konfiguruje system, obsługuje go i mierzy awarie (PBRM).</p>",
+   "lekcje": [
+    "pr-k43-czynnosci-edm-pbrm"
+   ]
+  },
+  {
+   "h": "Kierunek płynie w dół, informacje zwrotne wracają w górę – dwa różne „Monitoruj”",
+   "b": "<p>Potrzeby biznesowe → <b>Oszacuj → Kieruj</b> → Planuj → Twórz → Wykonuj → <b>Monitoruj (MEA)</b> → informacje zwrotne → <b>Monitoruj (Ład)</b></p><ul><li>Ład: czy kierunek wcielono w życie</li><li>MEA: jak idzie bieżąca praca</li></ul>",
+   "c": "Raport Zarządzania sam niczego nie zmienia – zmienia go dopiero decyzja Ładu, która zamyka obieg.",
+   "s": "COBIT 5 Framework (PL), s. 32, Ilustracja 15, przypis 5",
+   "ctx": "<p>Ilustracja 15 (na egzaminie Rysunek 15) pokazuje zamknięte koło: Ład ocenia potrzeby i kieruje, Zarządzanie w obszarach Planowanie (APO), Budowanie (BAI), Uruchamianie (DSS) i Monitorowanie (MEA) wykonuje pracę, a „informacje zwrotne dotyczące zarządzania” wracają do Ładu, który znów ocenia.</p><p>Najczęstsza pomyłka: <w k=\"mea\">MEA</w> to domena <b>Zarządzania</b>. Przypis podręcznika mówi, że w Ładzie monitorowanie to sprawdzanie, „w jakim stopniu określony kierunek wytyczony dla zarządzania został wcielony w życie”. Pytanie o kierunek i decyzje zarządu – Ład; o bieżące wyniki i zgodność procesów – MEA.</p><p>Przykład: dział IT banku raportuje dostępność aplikacji i postęp projektów (MEA). Zarząd porównuje to z decyzją „aplikacja mobilna głównym kanałem sprzedaży”, widzi opóźnienie i przesuwa budżet (Monitoruj, potem znów Oszacuj i Kieruj).</p>",
+   "lekcje": [
+    "pr-k44-obieg-informacji"
+   ]
+  },
+  {
+   "h": "Ład i Zarządzanie łączy wszystkie siedem aktywatorów",
+   "b": "<ul><li>procesy – osobne procesy obu stron, diagramy RACI</li><li>polityki – zamieniają decyzje Ładu w reguły</li><li>struktury Ładu – portfel i apetyt na ryzyko</li><li>kultura – ustalana odgórnie, przez przykład</li><li>informacje, ludzie, usługi – dane i kompetencje dla obu stron</li></ul>",
+   "c": "Interakcje Ładu i Zarządzania opisuje się aktywator po aktywatorze, a raporty są tylko jednym z kanałów.",
+   "s": "COBIT 5 Framework (PL), s. 31, Ilustracja 14",
+   "ctx": "<p>Podręcznik: skoro Ład ocenia, kieruje i monitoruje, potrzebny jest „zbiór interakcji między nadzorem i zarządzaniem”, aby system Ładu był skuteczny. Ilustracja 14 (na egzaminie Rysunek 14) opisuje je przez siedem <w k=\"aktywator\">aktywatorów</w>: informacje są wymieniane jako wejścia i wyniki procesów, usługi i aplikacje dostarczają Ładowi danych, a kluczową kompetencją obu stron jest rozumienie różnicy między ich zadaniami.</p><p>Pułapki: łącznikiem nie są wyłącznie raporty; połączenie działa w obie strony; polityka napisana przez dział IT bez decyzji Ładu nie jest interakcją, tylko regułą wewnętrzną Zarządzania. Kultura to „przywództwo przez dawanie przykładu”.</p><p>Przykład: rada nadzorcza szpitala decyduje o w pełni elektronicznej dokumentacji. Polityka szpitala zamienia to w regułę, proces wdrożenia ma tabelę <w k=\"raci\">RACI</w>, a system raportowy co kwartał pokazuje radzie postęp.</p>",
+   "lekcje": [
+    "pr-k45-interakcje-aktywatory"
+   ]
+  }
+ ],
+ "k-pr-prm": [
+  {
+   "h": "Referencyjny Model Procesu: 37 procesów = 5 Ładu + 32 Zarządzania",
+   "b": "<ul><li><w k=\"prm\">Referencyjny Model Procesu</w> <span class=\"en\">Process Reference Model</span> – wzorcowa lista procesów IT</li><li><b>wzorzec, nie przepis</b>: układ dowolny, cele obowiązkowe</li><li>następca COBIT 4.1, łączy Risk IT i Val IT</li></ul>",
+   "c": "Model daje kompletny wzorzec i wspólny język, ale organizacja może układać procesy po swojemu, byle pokryła wszystkie konieczne cele.",
+   "s": "COBIT 5 Framework (PL), s. 32–33, Ilustracja 16",
+   "ctx": "<p>Podręcznik: COBIT 5 „nie ma charakteru normatywnego”. Przedsiębiorstwo organizuje procesy, jak uznaje za stosowne, „o ile obejmują one wszystkie konieczne cele w zakresie nadzoru i zarządzania”. Model jest kompletny, ale „nie jest to jedyny możliwy model procesów”. Daje wspólny język dla IT, biznesu, audytu i dostawców.</p><p>Pułapki egzaminacyjne: „organizacja musi wdrożyć wszystkie 37 procesów” – fałsz; „może pominąć dowolny cel” – też fałsz. Pochodzenie: następca modelu procesów COBIT 4.1, łączy modele procesów Risk IT (ryzyko) i Val IT (wartość) – obie ramy wydała ISACA. Pełna lista to Ilustracja 16 (na egzaminie Rysunek 16).</p><p>Przykład: biuro rachunkowe z 20 osobami łączy kilka procesów w jeden, a duży bank dzieli jeden proces między kilka zespołów. Oba podejścia są zgodne z COBIT 5.</p>",
+   "lekcje": [
+    "pr-k46-prm-37-procesow",
+    "pr-k47-prm-nie-normatywny"
+   ]
+  },
+  {
+   "h": "Jedna domena Ładu i cztery domeny Zarządzania",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>domena (egzamin PL)</th><th>procesy</th></tr><tr><td><w k=\"edm\">EDM</w> Oszacuj, Kieruj i Monitoruj</td><td>5</td></tr><tr><td><w k=\"apo\">APO</w> Dostosuj, Planuj i Organizuj</td><td>13</td></tr><tr><td><w k=\"bai\">BAI</w> Twórz, Nabywaj i Wdrażaj</td><td>10</td></tr><tr><td><w k=\"dss\">DSS</w> Dostarczaj, Obsługuj i Wspieraj</td><td>6</td></tr><tr><td><w k=\"mea\">MEA</w> Monitoruj, Oszacuj i Oceń</td><td>3</td></tr></table></div>",
+   "c": "Zapamiętaj 5 + 13 + 10 + 6 + 3 = 37 i to, że MEA należy do Zarządzania.",
+   "s": "COBIT 5 Framework (PL), s. 32–33, Ilustracja 16",
+   "ctx": "<p>Angielskie nazwy: <span class=\"en\">Evaluate, Direct and Monitor</span>; <span class=\"en\">Align, Plan and Organise</span>; <span class=\"en\">Build, Acquire and Implement</span>; <span class=\"en\">Deliver, Service and Support</span>; <span class=\"en\">Monitor, Evaluate and Assess</span>. Podręcznik używa rzeczowników („Dopasowanie, planowanie i organizacja”, „Budowanie, nabywanie i wdrażanie”, „Monitorowanie, ocena i oszacowanie”) – to tylko pułapka, na egzaminie tryb rozkazujący.</p><p>Pułapka: EDM i MEA mają oba „Oszacuj” i „Monitoruj”, ale EDM zaczyna się od „Oszacuj” i jest Ładem, a MEA ma je w środku i jest Zarządzaniem. W każdym procesie EDM są praktyki Oszacuj, Kieruj, Monitoruj – „Monitoruj” to praktyka, nie szósty proces Ładu.</p><p>Przykład: zarząd sklepu internetowego może zlecić prawie wszystko, ale nie oddaje pięciu spraw: zasad decydowania o IT, rozliczenia korzyści, granicy ryzyka, wystarczalności zasobów i rzetelnej informacji dla interesariuszy. To pięć procesów EDM.</p>",
+   "lekcje": [
+    "pr-k48-piec-procesow-edm",
+    "pr-k49-cztery-domeny"
+   ]
+  },
+  {
+   "h": "Proces trafia do domeny według głównego obszaru pracy",
+   "b": "<ul><li>planujemy, organizujemy → <b>APO</b></li><li>coś powstaje lub się zmienia → <b>BAI</b></li><li>coś działa na co dzień → <b>DSS</b></li><li>sprawdzamy i oceniamy → <b>MEA</b></li></ul>",
+   "c": "Przy pytaniu o proces najpierw ustal etap pracy – to wskaże domenę.",
+   "s": "COBIT 5 Framework (PL), s. 33",
+   "ctx": "<p>Prawie każdy proces trochę planuje, wdraża, działa i mierzy, ale podręcznik umieszcza go w domenie „odpowiadającej zasadniczo najwłaściwszemu obszarowi działania”. Dlatego bezpieczeństwo jest w dwóch miejscach: plan w APO13, codzienna ochrona w DSS05. Domeny nie działają jedna po drugiej – wszystkie procesy biegną równolegle.</p><p>Pary do odróżnienia: APO05 portfel (wybór inwestycji) ≠ BAI01 (prowadzenie projektu); BAI05 zmiana organizacyjna (ludzie) ≠ BAI06 zmiany (systemy); DSS02 incydent (przywróć teraz) ≠ DSS03 problem (usuń przyczynę); DSS04 ciągłość (katastrofa) ≠ BAI04 pojemność (szczyt ruchu); MEA (Zarządzanie mierzy pracę) ≠ EDM (Ład sprawdza kierunek).</p><p>Przykład ze sklepu internetowego: strategia IT i wybór dostawców – APO; nowa bramka płatności – BAI; codzienna obsługa i helpdesk – DSS; raport zgodności z przepisami o ochronie danych – MEA (przypisanie to interpretacja kursu).</p>",
+   "lekcje": [
+    "pr-k50-apo-bai",
+    "pr-k51-dss-mea"
+   ]
+  },
+  {
+   "h": "Podobne polskie nazwy rozróżniaj po angielskim słowie",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><td>EDM04 <span class=\"en\">Resource</span></td><td>APO07 <span class=\"en\">Human Resources</span></td><td>BAI09 <span class=\"en\">Assets</span></td></tr><tr><td>wszystkie zasoby (Ład)</td><td>ludzie</td><td>sprzęt, licencje</td></tr><tr><td>APO13 plan bezpieczeństwa</td><td>DSS05 codzienna ochrona</td><td>MEA02 ocena kontroli</td></tr></table></div>",
+   "c": "Słowo „zasoby” czy „bezpieczeństwo” nie wskazuje procesu – wskazuje go domena i angielski oryginał.",
+   "s": "COBIT 5 Framework (PL), s. 33, Ilustracja 16",
+   "ctx": "<p>Trzy pytania kontrolne: (1) Ład czy Zarządzanie – kierunek i granice to EDM, praca to APO, BAI, DSS, MEA; (2) który etap – plan, budowa, codzienne działanie czy sprawdzanie; (3) jakie słowo angielskie – <span class=\"en\">Resource</span>, <span class=\"en\">Human Resources</span>, <span class=\"en\">Assets</span>.</p><p>Najbardziej myląca jest podręcznikowa nazwa BAI09 „Zarządzanie zasobami” – chodzi o aktywa, nie o wszystkie zasoby. Kontrola też występuje dwa razy: DSS06 stosuje mechanizmy kontrolne w codziennej pracy, a MEA02 sprawdza, czy działają.</p><p>Przykład: sklep przed świętami sprawdza, czy serwery udźwigną trzy razy większy ruch – BAI04, nie DSS04. Zalane centrum danych i praca z zapasowego – DSS04. Plan bezpieczeństwa informacji na trzy lata – APO13; codzienna aktualizacja ochrony antywirusowej – DSS05.</p>",
+   "lekcje": [
+    "pr-k52-domeny-pomylki"
+   ]
+  }
+ ],
+ "k-pr-atlas-edm": [
+  {
+   "h": "Pięć procesów Ładu – każdy ma sobowtóra w Zarządzaniu",
+   "b": "<ul><li><w k=\"proc-edm01\">EDM01</w> rama Ładu: kto i jak decyduje ≠ APO01</li><li><w k=\"proc-edm02\">EDM02</w> czy inwestycje dały korzyści ≠ APO05</li><li><w k=\"proc-edm03\">EDM03</w> apetyt na ryzyko ≠ APO12</li><li><w k=\"proc-edm04\">EDM04</w> dość zasobów, bez marnowania ≠ APO07, BAI09</li><li><w k=\"proc-edm05\">EDM05</w> rzetelny obraz IT dla interesariuszy ≠ MEA01</li></ul>",
+   "c": "Zasady decydowania, wartość, granica ryzyka, zasoby i rozliczenie z interesariuszami należą do Ładu; praca w tych ramach – do Zarządzania.",
+   "s": "COBIT 5 Framework (PL), s. 31, 33, Ilustracja 16",
+   "ctx": "<p>Nazwy z podręcznika (egzaminacyjne niepotwierdzone, poza EDM05): EDM01 Zapewnienie i utrzymanie ładu korporacyjnego <span class=\"en\">Ensure Governance Framework Setting and Maintenance</span>; EDM02 Zapewnienie realizacji korzyści <span class=\"en\">Benefits Delivery</span>; EDM03 Zapewnienie optymalizacji ryzyka; EDM04 Zapewnienie optymalizacji zasobów; EDM05 na egzaminie „Zapewnienie Transparentności Interesariuszy” (podręcznik: „przejrzystości dotyczącej interesariuszy”). Opisy „po co” to wyjaśnienia kursu.</p><p>Rozróżnienia: „realizacja korzyści” w EDM02 to osiągnięcie wartości, nie przeprowadzenie projektu. Optymalizacja ryzyka to nie ryzyko zerowe, lecz trzymanie się akceptowanej granicy; rejestr ryzyk i reakcje to APO12. MEA01 raportuje w górę, do Ładu; EDM05 decyduje, co trafia na zewnątrz. Procesy Ładu zaczynają się od „Zapewnienie”, procesy Zarządzania od „Zarządzanie”.</p><p>Przykład: rada nadzorcza banku zatwierdza, że bank akceptuje najwyżej jedną poważną awarię systemu płatności rocznie (EDM03), a kierownik bezpieczeństwa aktualizuje mapę ryzyk po incydencie (APO12).</p>",
+   "lekcje": [
+    "pr-k53-atlas-edm01-edm03",
+    "pr-k54-atlas-edm04-edm05"
+   ]
+  },
+  {
+   "h": "EDM02–EDM04 to Cel Ładu zamieniony w procesy",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>składnik Celu Ładu</th><th>proces</th></tr><tr><td><w k=\"realizacja-korzysci\">realizacja korzyści</w></td><td>EDM02 <span class=\"en\">Benefits</span></td></tr><tr><td><w k=\"optymalizacja-ryzyka\">optymalizacja ryzyka</w></td><td>EDM03 <span class=\"en\">Risk</span></td></tr><tr><td><w k=\"optymalizacja-zasobow\">optymalizacja zasobów</w></td><td>EDM04 <span class=\"en\">Resource</span></td></tr></table></div><p>EDM01 daje ramę, EDM05 – rozliczenie.</p>",
+   "c": "Domena Ładu w całości: rama (EDM01), trzy składniki tworzenia wartości (EDM02–EDM04) i rozliczenie z interesariuszami (EDM05).",
+   "s": "COBIT 5 Framework (PL), s. 17, 71",
+   "ctx": "<p>Podręcznik: procesy nadzoru odnoszą się do celów wobec interesariuszy – „dostarczania wartości, optymalizacji ryzyka oraz optymalizacji zasobów”. Na egzaminie to <w k=\"tworzenie-wartosci\">Cel Ładu (Tworzenie Wartości)</w>, w podręczniku „cel nadzoru”. Przypisanie składnika do jednego procesu po słowie angielskim to ułatwienie kursu; w praktyce procesy się przenikają.</p><p>Schemat „rama → trzy składniki → rozliczenie” jest pamięciowy, nie pochodzi z ilustracji. Trzy pytania z zasady 1 – kto odnosi korzyści, kto ponosi ryzyko, jakie zasoby są wymagane – pasują do EDM02, EDM03 i EDM04.</p><p>Przykład: zarząd szpitala decyduje o systemie dokumentacji. Komitet z lekarzami decyduje (EDM01), sprawdza, czy obsługa przyspieszyła (EDM02), uznaje przestój ponad godzinę za niedopuszczalny (EDM03), ocenia budżet i obsadę (EDM04) i składa raport radzie (EDM05). Nikt tu nie instaluje systemu – to praca Zarządzania.</p>",
+   "lekcje": [
+    "pr-k55-edm-cel-ladu"
+   ]
+  }
+ ],
+ "k-pr-atlas-apo": [
+  {
+   "h": "APO01–APO04: organizacja IT, strategia, architektura, innowacje",
+   "b": "<ul><li><w k=\"proc-apo01\">APO01</w> – role, polityki i procesy zarządzania IT</li><li><w k=\"proc-apo02\">APO02</w> – strategia IT: stan dziś, cel, luka, kroki</li><li><w k=\"proc-apo03\">APO03</w> – architektura korporacyjna: jak całość jest poskładana</li><li><w k=\"proc-apo04\">APO04</w> – innowacje: pilotaż i rekomendacja</li></ul>",
+   "c": "APO01 porządkuje dział IT, APO02 wyznacza mu drogę, APO03 opisuje całość i jej zasady, APO04 sprawdza nowości.",
+   "s": "COBIT 5 Framework (PL), s. 33, Ilustracja 16; s. 59, 61",
+   "ctx": "<p>Nazwy angielskie: <span class=\"en\">Manage the IT Management Framework</span>, <span class=\"en\">Strategy</span>, <span class=\"en\">Enterprise Architecture</span>, <span class=\"en\">Innovation</span>. W nazwie APO01 podręcznikowa „metodyka” to <span class=\"en\">Framework</span> (na egzaminie struktura ramowa) – cały system zarządzania IT, nie metodyka projektów (tę prowadzi BAI01). Nazwy egzaminacyjne niepotwierdzone.</p><p>Pary: APO01 ≠ EDM01 (zasady decydowania ustala zarząd); APO02 to strategia IT, nie całej organizacji – podręcznik mówi, że pomaga dopasować plan IT do celów biznesowych; APO03 to model i zasady, a spis serwerów z wersjami to BAI10; APO04 kończy się rekomendacją, a decyzja o finansowaniu to APO05. Do APO03 podręcznik odwzorował metodykę TOGAF.</p><p>Przykład: uczelnia ustala jeden numer studenta we wszystkich systemach (APO03), a w jednym wydziale przez semestr testuje aplikację z planem zajęć i przedstawia rekomendację (APO04).</p>",
+   "lekcje": [
+    "pr-k60-apo01-apo02",
+    "pr-k61-apo03-apo04"
+   ]
+  },
+  {
+   "h": "APO05–APO10: pieniądze, ludzie i druga strona umowy",
+   "b": "<ul><li><w k=\"proc-apo05\">APO05</w> – portfel: w co inwestujemy</li><li><w k=\"proc-apo06\">APO06</w> – budżet i koszty IT</li><li><w k=\"proc-apo07\">APO07</w> – ludzie IT: obsada, umiejętności</li><li><w k=\"proc-apo08\">APO08</w> – relacje z własną organizacją</li><li><w k=\"proc-apo09\">APO09</w> – umowy o usługi (SLA)</li><li><w k=\"proc-apo10\">APO10</w> – dostawcy zewnętrzni</li></ul>",
+   "c": "Przy APO05–APO07 pytaj, czego dotyczy decyzja; przy APO08–APO10 – kto jest drugą stroną.",
+   "s": "COBIT 5 Framework (PL), s. 33, Ilustracja 16; s. 58–60",
+   "ctx": "<p>APO05 <span class=\"en\">Manage Portfolio</span> to jedyny tu proces z potwierdzoną nazwą egzaminacyjną: „Zarządzanie Portfelem” (podręcznik: „portfelem projektów”). Wybiera i równoważy inwestycje „z myślą o zapewnieniu realizacji korzyści i optymalizacji kosztów”. APO05 ≠ BAI01 (prowadzenie wybranego projektu) ≠ EDM02 (Ład ocenia, czy inwestycje dały wartość). APO06 liczy koszty, ale nie wybiera inwestycji; APO07 <span class=\"en\">Human Resources</span> ≠ BAI09 (sprzęt i licencje).</p><p>APO08 <span class=\"en\">Relationships</span> i APO09 <span class=\"en\">Service Agreements</span> dotyczą własnej organizacji: rozmowa i zaufanie albo spisana obietnica usług SLA (<span class=\"en\">Service Level Agreement</span>, umowa o poziomie usług) i jej pomiar. APO10 <span class=\"en\">Suppliers</span>: wybór, kontrakt, ocena i ryzyko dostawcy. Naprawa awarii to nie APO09, tylko DSS02.</p><p>Przykład: sklep internetowy obiecuje sprzedaży, że platforma działa 99,9% czasu (APO09); kontrakt z firmą, która ją utrzymuje, i jego rozliczanie to APO10.</p>",
+   "lekcje": [
+    "pr-k62-apo05-apo07",
+    "pr-k63-apo08-apo10"
+   ]
+  },
+  {
+   "h": "APO11–APO13: jakość, ryzyko i bezpieczeństwo planuje się w APO",
+   "b": "<ul><li><w k=\"proc-apo11\">APO11</w> – standard jakości i doskonalenie ≠ MEA01</li><li><w k=\"proc-apo12\">APO12</w> – rejestr ryzyk i reakcje ≠ EDM03</li><li><w k=\"proc-apo13\">APO13</w> – system i plan bezpieczeństwa ≠ DSS05</li></ul>",
+   "c": "APO planuje i organizuje, DSS wykonuje na co dzień, MEA mierzy i ocenia, a EDM wyznacza granice.",
+   "s": "COBIT 5 Framework (PL), s. 33, Ilustracja 16; s. 51–53, Ilustracja 23",
+   "ctx": "<p>Nazwy angielskie: <span class=\"en\">Manage Quality</span>, <span class=\"en\">Risk</span>, <span class=\"en\">Security</span> (egzaminacyjne niepotwierdzone). Zbieranie mierników ze wszystkich procesów i raport dla zarządu to nie APO11, lecz MEA01. Ryzyko jest w dwóch domenach: granicę akceptowanego ryzyka ustala Ład (EDM03), a APO12 pracuje w tej granicy.</p><p>Załącznik C (Ilustracja 23) mapuje 17 celów związanych z Informatyką na 37 procesów: P – relacja podstawowa, S – wspierająca. Przykład 8 z podręcznika: APO13 przede wszystkim wspiera m.in. cel 10 „Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji” i cel 04 – zarządzanie ryzykiem biznesowym związanym z IT.</p><p>Przykład: szpital przyjmuje politykę i plan bezpieczeństwa na trzy lata (APO13); administrator co rano przegląda alerty zapory i blokuje podejrzane konto (DSS05); audytor sprawdza, czy zabezpieczenia działają (MEA).</p>",
+   "lekcje": [
+    "pr-k64-apo11-apo13"
+   ]
+  }
+ ],
+ "k-pr-atlas-bai": [
+  {
+   "h": "BAI01–BAI04: projekt, wymagania, budowa i moc",
+   "b": "<ul><li><w k=\"proc-bai01\">BAI01</w> – prowadzi wybrany projekt: termin, budżet, korzyści</li><li><w k=\"proc-bai02\">BAI02</w> – wymagania: CO ma działać</li><li><w k=\"proc-bai03\">BAI03</w> – JAK: projekt, budowa lub zakup, testy</li><li><w k=\"proc-bai04\">BAI04</w> – dostępność i pojemność na szczyt</li></ul>",
+   "c": "Wybór projektu to APO05, jego prowadzenie BAI01; „co” to BAI02, „jak” to BAI03; tłok to BAI04, katastrofa DSS04.",
+   "s": "COBIT 5 Framework (PL), s. 33, Ilustracja 16; s. 60–61",
+   "ctx": "<p>Nazwy angielskie: <span class=\"en\">Manage Programmes and Projects</span>, <span class=\"en\">Requirements Definition</span>, <span class=\"en\">Solutions Identification and Build</span>, <span class=\"en\">Availability and Capacity</span> (egzaminacyjne niepotwierdzone). Podręcznik łączy z BAI01 metodykę PRINCE2, a BAI02 ma uwzględniać także potrzeby użytkowników i pracowników wsparcia.</p><p>Pary: testy zespołu budującego to BAI03, odbiór przez użytkowników – BAI07. BAI03 obejmuje też nabywanie gotowego rozwiązania, ale kontrakt i ocena dostawcy to APO10. BAI04 patrzy w przyszłość: prognoza obciążenia i rozbudowa; gdy pada centrum danych i trzeba przenieść system w inne miejsce, to już ciągłość z DSS04. Słowa-klucze BAI01: harmonogram, kierownik projektu; BAI02: kryteria akceptacji.</p><p>Przykład: uczelnia buduje i testuje formularz rekrutacji (BAI03), a przed lipcowym szczytem 20 tysięcy kandydatów prognozuje ruch i dokłada serwery (BAI04).</p>",
+   "lekcje": [
+    "pr-k65-bai01-bai02",
+    "pr-k66-bai03-bai04"
+   ]
+  },
+  {
+   "h": "BAI05–BAI10: trzy razy „zmiana” i trzy rodzaje informacji o systemach",
+   "b": "<ul><li><w k=\"proc-bai05\">BAI05</w> – ludzie przyjmują zmianę</li><li><w k=\"proc-bai06\">BAI06</w> – zgoda na zmianę w systemie</li><li><w k=\"proc-bai07\">BAI07</w> – odbiór i przejście</li><li><w k=\"proc-bai08\">BAI08</w> – wiedza: jak to zrobić</li><li><w k=\"proc-bai09\">BAI09</w> – aktywa: sprzęt, licencje</li><li><w k=\"proc-bai10\">BAI10</w> – konfiguracja: elementy i powiązania</li></ul>",
+   "c": "Przy „zmianie” pytaj: ludzie, zgoda czy odbiór; przy informacji o systemie: instrukcja, majątek czy budowa.",
+   "s": "COBIT 5 Framework (PL), s. 33, Ilustracja 16; s. 58, 60",
+   "ctx": "<p>Nazwy z podręcznika: BAI05 Zarządzanie wdrażaniem zmian organizacyjnych <span class=\"en\">Organisational Change Enablement</span>; BAI06 Zarządzanie zmianami <span class=\"en\">Changes</span> – tylko ta krótka nazwa to BAI06, także dla zmian awaryjnych; BAI07 Zarządzanie procesem akceptacji zmian i przejścia <span class=\"en\">Change Acceptance and Transitioning</span>. BAI05 razem z BAI08 pozwala użytkownikom efektywnie korzystać z systemów.</p><p>Pułapka: BAI09 w podręczniku to „Zarządzanie zasobami”, ale oryginał <span class=\"en\">Manage Assets</span> oznacza aktywa – nie EDM04 i nie APO07. BAI10 <span class=\"en\">Configuration</span> opisuje wersje, ustawienia i zależności, aktualizowane po każdej zmianie z BAI06; model całości to APO03.</p><p>Przykład: ubezpieczyciel wdraża portal. Komitet zmian zatwierdza termin (BAI06), agenci testują i podpisują odbiór (BAI07), a gdy po miesiącu połowa nadal pisze maile, firma organizuje szkolenia i liderów zmiany (BAI05).</p>",
+   "lekcje": [
+    "pr-k67-bai05-bai07",
+    "pr-k68-bai08-bai10"
+   ]
+  }
+ ],
+ "k-pr-atlas-dss-mea": [
+  {
+   "h": "DSS01–DSS06: codzienne działanie i ochrona",
+   "b": "<ul><li><w k=\"proc-dss01\">DSS01</w> – eksploatacja: zaplanowana rutyna</li><li><w k=\"proc-dss02\">DSS02</w> – incydenty i prośby: przywróć teraz</li><li><w k=\"proc-dss03\">DSS03</w> – problemy: usuń przyczynę</li><li><w k=\"proc-dss04\">DSS04</w> – ciągłość po katastrofie</li><li><w k=\"proc-dss05\">DSS05</w> – codzienna ochrona</li><li><w k=\"proc-dss06\">DSS06</w> – kontrole w procesach biznesowych</li></ul>",
+   "c": "DSS wykonuje pracę dzień po dniu; plan, budowę i ocenę tych samych spraw prowadzą inne domeny.",
+   "s": "COBIT 5 Framework (PL), s. 33, Ilustracja 16; s. 88",
+   "ctx": "<p>Nazwy angielskie: <span class=\"en\">Operations</span>, <span class=\"en\">Service Requests and Incidents</span>, <span class=\"en\">Problems</span>, <span class=\"en\">Continuity</span>, <span class=\"en\">Security Services</span>, <span class=\"en\">Business Process Controls</span> (egzaminacyjne niepotwierdzone). DSS02 kończy się, gdy usługa znów działa, nawet bez znanej przyczyny; <w k=\"it-problem\">problem</w> to nieznana przyczyna jednego lub wielu incydentów. Trwała poprawka w systemie przechodzi przez BAI06.</p><p>Pary: DSS04 (katastrofa) ≠ BAI04 (szczyt ruchu); DSS05 (konta, antywirus, zapora) ≠ APO13 (system i plan); DSS06 (rozdział obowiązków, zatwierdzanie we dwoje) ≠ MEA02 (ocena, czy kontrole działają). Plan ciągłości, którego nikt nie przećwiczył, nie spełnia celu DSS04.</p><p>Przykład: w poniedziałek klienci banku nie mogą się zalogować – helpdesk restartuje serwer (DSS02). Sytuacja wraca co tydzień, więc zespół szuka błędu w aplikacji (DSS03).</p>",
+   "lekcje": [
+    "pr-k69-dss01-dss03",
+    "pr-k70-dss04-dss06"
+   ]
+  },
+  {
+   "h": "MEA01–MEA03: co sprawdzamy – wyniki, kontrole czy wymogi z zewnątrz",
+   "b": "<ul><li><w k=\"proc-mea01\">MEA01</w> – wyniki względem celów <span class=\"en\">Conformance</span></li><li><w k=\"proc-mea02\">MEA02</w> – czy kontrola wewnętrzna działa</li><li><w k=\"proc-mea03\">MEA03</w> – prawo, regulacje, umowy <span class=\"en\">Compliance</span></li></ul><p>MEA to Zarządzanie, nie Ład.</p>",
+   "c": "W MEA zawsze pytaj, co sprawdzamy: wyniki (MEA01), kontrole (MEA02) czy wymogi zewnętrzne (MEA03).",
+   "s": "COBIT 5 Framework (PL), s. 33, Ilustracja 16; s. 59",
+   "ctx": "<p>Pełne nazwy zaczynają się od „Monitorowanie, ocena i oszacowanie”: wydajności i zgodności, systemu kontroli wewnętrznej, zgodności z wymogami zewnętrznymi. Pułapka: oba słowa „zgodność” to po angielsku co innego – <span class=\"en\">Conformance</span> w MEA01 (zgodność z naszymi celami) i <span class=\"en\">Compliance</span> w MEA03 (z prawem i umowami).</p><p>MEA01 zbiera mierniki, raportuje i inicjuje działania naprawcze; MEA02 według podręcznika pozwala ocenić, czy mechanizmy kontrolne spełniają wymogi zgodności – nie projektuje ich (DSS06). Ład też monitoruje, ale kierunek; MEA dostarcza mu danych.</p><p>Przykład: bank dostaje zalecenie urzędu nadzoru o chmurze. Ustalenie, co z niego wynika, i sprawdzenie zgodności – MEA03; ocena kontroli dostępu do chmury – MEA02; miesięczny raport dostępności dla zarządu – MEA01.</p>",
+   "lekcje": [
+    "pr-k71-mea01-mea03"
+   ]
+  }
+ ]
+}

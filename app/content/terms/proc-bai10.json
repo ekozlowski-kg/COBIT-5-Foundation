@@ -35,8 +35,8 @@
   "przyklady": {
     "zycie": "Masz w szafce schemat instalacji elektrycznej: który bezpiecznik obsługuje kuchnię, a który łazienkę. Gdy elektryk dołoży gniazdko, dopisujesz je na schemacie. Przy awarii od razu wiesz, co wyłączyć.",
     "biuro": "Sekretarka ma rozpisane, który telefon jest podłączony do której linii i kto ma jaki numer wewnętrzny. Przed przestawieniem biurek sprawdza, co się rozłączy.",
-    "organizacja": "Administrator sklepu ma opis: sklep na serwerze A, baza na B, płatności przez operatora C. Informatyk powiatu w pięć minut wie, które stanowiska mają podatną wersję programu.",
-    "psp": "**Mapa Syreny.** Ola Dudek opisuje w repozytorium, z czego składa się Syrena: serwer pod schodami, wersja oprogramowania, zapasowa bramka SMS, łącze do OSP Zawilce. Zapisuje też, co od czego zależy. Gdy Kwant-Sygnał proponuje aktualizację, kpt. Sikora od razu widzi, które elementy ona dotknie. Utrzymywanie aktualnego opisu elementów i powiązań to [[proc-bai10]].",
+    "organizacja": "Administrator sklepu ma opis: sklep na serwerze A, baza na B, płatności przez operatora C.",
+    "admin": "Informatyk starostwa powiatowego prowadzi spis konfiguracji (repozytorium): który z 80 komputerów ma jaką wersję systemu i programów i z którym serwerem się łączy. Gdy producent ogłasza lukę w jednej wersji programu, informatyk w pięć minut wie, których stanowisk to dotyczy. Raz na kwartał sprawdza, czy zapisy zgadzają się ze stanem faktycznym.",
     "it": "Praktyki BAI10 obejmują m.in. model konfiguracji, repozytorium z wersją bazową, raporty stanu i weryfikację integralności. Przed każdą zmianą w BAI06 sprawdzasz zależności w repozytorium."
   },
   "nieMylicZ": [
@@ -77,8 +77,8 @@
   "mapa": "proc-bai10",
   "glebokosc": {
     "prosty": "Masz w aucie książkę serwisową: jaki olej, jakie opony, kiedy wymieniony rozrząd. Mechanik zagląda do niej, zanim cokolwiek ruszy. Wpisuje każdą zmianę, żeby następny wiedział, co jest pod maską.",
-    "zaawansowany": "Dudek prowadzi opis Syreny: serwer, wersja, bramka SMS, łącze do OSP i powiązania między nimi. Przed każdą zmianą ([[proc-bai06]]) Sikora sprawdza w nim, co zmiana dotknie. Po zmianie opis jest aktualizowany. To [[proc-bai10]]. Ten sam serwer jest w ewidencji aktywów z kosztem i gwarancją – to już [[proc-bai09]].",
-    "skrajny": "Audytorka Ewa Lis porównuje repozytorium konfiguracji z rzeczywistością. W zapisie bramka SMS ma starą wersję, a na serwerze działa nowa, wgrana miesiąc temu po zatwierdzonej zmianie. Kto zawiódł? Zmiana przeszła BAI06, ale nie została domknięta aktualizacją dokumentacji i konfiguracji. BAI10 też zawiódł, bo jego weryfikacja nie wykryła rozbieżności. Skutek: przy następnej awarii DSS02 i DSS03 diagnozują na podstawie fałszywej mapy. **Rozstrzygnięcie:** BAI06 decyduje, czy wolno zmienić. BAI10 pamięta, jak jest teraz, i regularnie sprawdza zapis z rzeczywistością. Rozjazd zapisu z rzeczywistością to luka na styku obu procesów (interpretacja kursu)."
+    "zaawansowany": "Administratorka w banku prowadzi opis systemu powiadamiania klientów: serwer, wersja, bramka SMS, łącze do operatora i powiązania między nimi. Przed każdą zmianą ([[proc-bai06]]) kierownik IT sprawdza w nim, co zmiana dotknie. Po zmianie opis jest aktualizowany. To [[proc-bai10]]. Ten sam serwer jest w ewidencji aktywów z kosztem i gwarancją – to już [[proc-bai09]].",
+    "skrajny": "Audytorka wewnętrzna porównuje repozytorium konfiguracji z rzeczywistością. W zapisie bramka SMS ma starą wersję, a na serwerze działa nowa, wgrana miesiąc temu po zatwierdzonej zmianie. Kto zawiódł? Zmiana przeszła BAI06, ale nie została domknięta aktualizacją dokumentacji i konfiguracji. BAI10 też zawiódł, bo jego weryfikacja nie wykryła rozbieżności. Skutek: przy następnej awarii DSS02 i DSS03 diagnozują na podstawie fałszywej mapy. **Rozstrzygnięcie:** BAI06 decyduje, czy wolno zmienić. BAI10 pamięta, jak jest teraz, i regularnie sprawdza zapis z rzeczywistością. Rozjazd zapisu z rzeczywistością to luka na styku obu procesów (interpretacja kursu)."
   },
   "zagmatwania": [
     {
@@ -97,7 +97,7 @@
   "mentor": {
     "czestyBlad": "Uczeń myli BAI10 z BAI09, bo oba „prowadzą spis sprzętu”.",
     "jakTlumaczyc": "BAI09 to akt własności samochodu i karta gwarancyjna. BAI10 to książka serwisowa: co jest pod maską i jak jest ustawione.",
-    "pytanieKontrolne": "Przed aktualizacją Syreny Sikora chce wiedzieć, czy zmiana wpłynie na łącze do OSP. Z którego procesu bierze tę informację?",
+    "pytanieKontrolne": "Przed aktualizacją systemu powiadamiania klientów kierownik IT chce wiedzieć, czy zmiana wpłynie na łącze do operatora SMS. Z którego procesu bierze tę informację?",
     "odpowiedzKontrolna": "Z **BAI10** – repozytorium konfiguracji pokazuje powiązania między elementami. Samą ocenę i decyzję o zmianie podejmuje się w BAI06."
   }
 }

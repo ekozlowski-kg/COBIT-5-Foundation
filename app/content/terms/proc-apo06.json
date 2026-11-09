@@ -35,8 +35,8 @@
   "przyklady": {
     "zycie": "Prowadzisz zeszyt wydatków domowych. Planujesz miesiąc, zapisujesz każdy rachunek i sprawdzasz, czemu prąd kosztował więcej. Koszt wspólnego internetu dzielisz między współlokatorów. To APO06.",
     "biuro": "Kierowniczka biura porównuje co miesiąc plan wydatków z fakturami za internet, drukarki i program księgowy. Rachunek za drukarki wzrósł, więc sprawdza, kto drukuje najwięcej.",
-    "organizacja": "Dział finansów i IT co miesiąc porównują plan z wydatkami na licencje i chmurę. Wzrost kosztów chmury o 30% trzeba wyjaśnić. Koszt systemu sprzedażowego rozlicza się na dział sprzedaży. To APO06. Skarbnik gminy z informatykiem planują budżet IT na rok. W trakcie roku śledzą faktury za serwis i licencje. Gdy koszt rośnie, szukają przyczyny i korygują plan. To APO06.",
-    "psp": "**Księgowa liczy SMS-y.** Księgowa Halina Mak z naczelnikiem Sikorą układa budżet IT komendy. Co miesiąc sprawdza faktury za abonament Syreny i SMS-y. Gdy koszt rośnie po ćwiczeniach, wyjaśnia przyczynę. Koszty dzieli między JRG 1, JRG 2 i SK. To jest [[proc-apo06|APO06]].",
+    "organizacja": "Dział finansów i IT co miesiąc porównują plan z wydatkami na licencje i chmurę. Wzrost kosztów chmury o 30% trzeba wyjaśnić. Koszt systemu sprzedażowego rozlicza się na dział sprzedaży. To APO06.",
+    "admin": "Skarbnik gminy z informatykiem planują budżet IT na rok. W trakcie roku śledzą faktury za serwis i licencje. Gdy koszt rośnie, szukają przyczyny i korygują plan. To APO06.",
     "it": "Kontroler IT dzieli koszt chmury między działy według zużycia i wyjaśnia zarządowi wzrost o 30%. To APO06. Negocjacje z dostawcą chmury prowadzi [[proc-apo10]]."
   },
   "nieMylicZ": [
@@ -93,8 +93,8 @@
   "mapa": "proc-apo06",
   "glebokosc": {
     "prosty": "Na początku miesiąca dzielisz pensję: czynsz, jedzenie, oszczędności. Potem zapisujesz wydatki. Na koniec sprawdzasz, gdzie wydałeś za dużo i czemu. To budżet i koszty.",
-    "zaawansowany": "Księgowa Mak i naczelnik Sikora prowadzą budżet IT komendy. Pieniądze na zasilanie awaryjne wynikają z decyzji portfelowej ([[proc-apo05]]). Mak śledzi faktury Kwant-Sygnału i koszt SMS-ów. Gdy koszt rośnie, wyjaśnia, czy to więcej alarmów, czy wyższa stawka z umowy ([[proc-apo10]]). Komendantka dostaje raport do [[proc-edm04]].",
-    "skrajny": "Kwant-Sygnał podnosi cenę SMS-a o połowę. Kto co robi? Mak w APO06 widzi odchylenie od budżetu i je raportuje. Sikora w APO10 negocjuje z dostawcą albo szuka innego. Jeśli trzeba wybrać, którą inwestycję obciąć, decyzja idzie do portfela (APO05). Gdy brak pieniędzy zagraża celom komendy, Wrzos w EDM04 zmienia zasady przydziału. Jedno zdarzenie dotyka czterech procesów. **Rozstrzygnięcie:** liczenie i kontrola pieniędzy → APO06; dostawca i umowa → APO10; wybór inwestycji → APO05; kierunek dla zasobów → EDM04. (interpretacja kursu)"
+    "zaawansowany": "Dyrektor finansowy i dyrektor IT prowadzą budżet IT banku. Pieniądze na zasilanie awaryjne centrum danych wynikają z decyzji portfelowej ([[proc-apo05]]). Dyrektor finansowy śledzi faktury dostawcy usług SMS i koszt wiadomości. Gdy koszt rośnie, wyjaśnia, czy to więcej wysłanych powiadomień, czy wyższa stawka z umowy ([[proc-apo10]]). Zarząd dostaje raport do [[proc-edm04]].",
+    "skrajny": "Dostawca usług SMS podnosi cenę wiadomości o połowę. Kto co robi? Dyrektor finansowy w APO06 widzi odchylenie od budżetu i je raportuje. Dyrektor IT w APO10 negocjuje z dostawcą albo szuka innego. Jeśli trzeba wybrać, którą inwestycję obciąć, decyzja idzie do portfela (APO05). Gdy brak pieniędzy zagraża celom banku, zarząd w EDM04 zmienia zasady przydziału. Jedno zdarzenie dotyka czterech procesów. **Rozstrzygnięcie:** liczenie i kontrola pieniędzy → APO06; dostawca i umowa → APO10; wybór inwestycji → APO05; kierunek dla zasobów → EDM04. (interpretacja kursu)"
   },
   "zagmatwania": [
     {

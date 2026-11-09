@@ -34,7 +34,7 @@
     "uslugi-infrastruktura-aplikacje"
   ],
   "poLudzku": "Plan, jak systemy, dane i działania organizacji łączą się ze sobą i według jakich reguł je budujemy.",
-  "wyobrazSobie": "Plan zagospodarowania miasta: strefy, drogi i zasady zabudowy, do których musi pasować każdy nowy budynek.",
+  "wyobrazSobie": "Miejski plan zabudowy: strefy, drogi i zasady budowania, do których musi pasować każdy nowy budynek.",
   "poCo": "Żeby systemy, dane i działania organizacji pasowały do siebie, a nowe rozwiązania nie tworzyły chaosu.",
   "jakDziala": "Kierownictwo IT opisuje architekturę obecną i docelową w warstwach: działania, informacje, aplikacje, technologia. Ustala zasady i standardy architektury. Każde nowe rozwiązanie sprawdza się z tym opisem.",
   "dlaczegoWazne": "Architektura wiąże strategię z budową rozwiązań. Na egzaminie myli się ze strategią (APO02) i z konfiguracją (BAI10).",
@@ -45,8 +45,8 @@
   "przyklady": {
     "zycie": "Przed remontem rysujesz plan mieszkania: gdzie biegną rury, prąd i internet. Ustalasz zasadę: wszystkie gniazdka w jednym standardzie. Dzięki temu nowa pralka pasuje bez kucia ścian. To architektura.",
     "biuro": "Biuro ustala zasadę: dane klientów tylko w jednym programie, a inne programy z niego korzystają. Gdy ktoś chce kupić nowy program z własną listą klientów, kierownik odmawia.",
-    "organizacja": "Hurtownia ma sklep, magazyn, płatności i księgowość. Architekt IT rysuje, kto z kim wymienia dane. Ustala zasadę: dane klienta tylko w jednym systemie. Nowy moduł musi pasować do tego planu. To APO03. Powiat ma osobne systemy ewidencji, podatków i kadr. Zespół architektury opisuje ich połączenia i wprowadza zasadę: jeden rejestr mieszkańców dla wszystkich. Każdy nowy zakup musi się w tym zmieścić. To APO03.",
-    "psp": "**Trzy listy numerów.** Naczelnik Marek Sikora odkrywa, że numery OSP są w trzech miejscach: w Syrenie, w arkuszu SK i w telefonie Graba. Rysuje, jak Syrena łączy się z CPR 112, bazą numerów i bramką SMS. Ustala zasadę: jedna baza numerów dla wszystkich systemów. To jest [[proc-apo03|APO03]].",
+    "organizacja": "Hurtownia ma sklep, magazyn, płatności i księgowość. Architekt IT rysuje, kto z kim wymienia dane. Ustala zasadę: dane klienta tylko w jednym systemie. Nowy moduł musi pasować do tego planu. To APO03.",
+    "admin": "Powiat ma osobne systemy ewidencji, podatków i kadr. Zespół architektury opisuje ich połączenia i wprowadza zasadę: jeden rejestr mieszkańców dla wszystkich. Każdy nowy zakup musi się w tym zmieścić. To APO03.",
     "it": "Rada ds. Architektury zatwierdza docelową architekturę i zasady integracji systemów, np. jedno źródło danych o klientach. To APO03. Ewidencję elementów prowadzi [[proc-bai10]]."
   },
   "nieMylicZ": [
@@ -106,8 +106,8 @@
   "mapa": "proc-apo03",
   "glebokosc": {
     "prosty": "Budujesz dom z klocków. Najpierw ustalasz plan: gdzie kuchnia, gdzie łazienka, jak biegną rury. Każdy nowy pokój musi pasować do planu. Dzięki temu nic nie trzeba burzyć.",
-    "zaawansowany": "Kwant-Sygnał proponuje komendzie nowy moduł z własną bazą numerów. Naczelnik Sikora porównuje go z architekturą komendy. Zasada mówi: jedna baza numerów dla wszystkich systemów. Moduł musi więc korzystać z istniejącej bazy. Strategia z [[proc-apo02]] mówiła, *że* moduł ma powstać. Architektura (APO03) mówi, *jak* ma pasować.",
-    "skrajny": "Dudek prowadzi tabelę: serwer S1, Syrena w wersji 4.2, bramka SMS podłączona do S1. Czy to architektura korporacyjna? Nie. To ewidencja konkretnych elementów konfiguracji i ich powiązań, czyli BAI10. Architektura działa poziom wyżej: opisuje warstwy (działania, informacje, aplikacje, technologia) i zasady budowy. Uwaga też na Ład: Framework łączy nadzór nad architekturą z optymalizacją zasobów w EDM (s. 61). Ład nad architekturą to więc EDM04, a samo zarządzanie architekturą zostaje w APO03. **Rozstrzygnięcie:** model i zasady budowy całości → APO03; wykaz konkretnych elementów i wersji → BAI10; nadzór nad zasobami, w tym nad architekturą → EDM04."
+    "zaawansowany": "Dostawca oprogramowania proponuje bankowi nowy moduł z własną bazą klientów. Dyrektor IT porównuje go z architekturą banku. Zasada mówi: jedna baza klientów dla wszystkich systemów. Moduł musi więc korzystać z istniejącej bazy. Strategia z [[proc-apo02]] mówiła, *że* moduł ma powstać. Architektura (APO03) mówi, *jak* ma pasować.",
+    "skrajny": "Administratorka prowadzi tabelę: serwer S1, system CRM w wersji 4.2, bramka SMS podłączona do S1. Czy to architektura korporacyjna? Nie. To ewidencja konkretnych elementów konfiguracji i ich powiązań, czyli BAI10. Architektura działa poziom wyżej: opisuje warstwy (działania, informacje, aplikacje, technologia) i zasady budowy. Uwaga też na Ład: Framework łączy nadzór nad architekturą z optymalizacją zasobów w EDM (s. 61). Ład nad architekturą to więc EDM04, a samo zarządzanie architekturą zostaje w APO03. **Rozstrzygnięcie:** model i zasady budowy całości → APO03; wykaz konkretnych elementów i wersji → BAI10; nadzór nad zasobami, w tym nad architekturą → EDM04."
   },
   "zagmatwania": [
     {
@@ -125,7 +125,7 @@
   ],
   "mentor": {
     "czestyBlad": "Uczeń myli architekturę ze strategią (APO02) albo z ewidencją konfiguracji (BAI10).",
-    "jakTlumaczyc": "Plan zagospodarowania miasta: strefy, drogi, zasady zabudowy. To APO03. Rejestr konkretnych budynków z numerami to BAI10. Decyzja, w którą stronę miasto ma rosnąć, to APO02.",
+    "jakTlumaczyc": "Miejski plan zabudowy: strefy, drogi, zasady budowania. To APO03. Rejestr konkretnych budynków z numerami to BAI10. Decyzja, w którą stronę miasto ma rosnąć, to APO02.",
     "pytanieKontrolne": "Zespół ustala zasadę: „nie kupujemy systemu, który ma własną, osobną bazę klientów”. Który to proces?",
     "odpowiedzKontrolna": "APO03, bo to zasada architektury. Ustala, jak systemy mają być poskładane."
   }

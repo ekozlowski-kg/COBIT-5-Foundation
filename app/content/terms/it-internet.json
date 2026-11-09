@@ -29,12 +29,12 @@
   "wyobrazSobie": "Wszystkie drogi świata połączone ze sobą. Twoja ulica (sieć domowa) jest tylko ich małym kawałkiem.",
   "poCo": "Żeby urządzenia z różnych miejsc i różnych organizacji mogły się porozumiewać.",
   "jakDziala": "Twój router wysyła dane do sieci dostawcy Internetu. Stamtąd dane przechodzą przez kolejne sieci, aż dotrą do komputera, do którego były adresowane. Odpowiedź wraca w ten sam sposób.",
-  "dlaczegoWazne": "Wiele usług, z których korzystają organizacje, działa przez Internet. Gdy łącze internetowe zawiedzie, alarmy, płatności czy poczta mogą stanąć.",
+  "dlaczegoWazne": "Wiele usług, z których korzystają organizacje, działa przez Internet. Gdy łącze internetowe zawiedzie, sprzedaż, płatności czy poczta mogą stanąć.",
   "przyklady": {
     "zycie": "Sprawdzasz rozkład jazdy w telefonie. Telefon łączy się przez Internet z komputerem przewoźnika i pobiera aktualny rozkład.",
     "biuro": "Pracownik biura wysyła mailem ofertę do klienta w innym mieście. Wiadomość leci przez Internet.",
     "organizacja": "Sklep internetowy przyjmuje zamówienia przez Internet całą dobę. Gdy łącze pada, sklep nie zarabia.",
-    "psp": "„Syrena” wysyła SMS-y do OSP Zawilce przez łącze internetowe komendy. W historii kursu komenda miała tylko jedno takie łącze.",
+    "admin": "Mieszkaniec wieczorem wysyła wniosek do urzędu gminy przez ePUAP (elektroniczną platformę usług administracji publicznej). Wniosek idzie przez sieć jego dostawcy Internetu i kolejne sieci, aż trafi na serwery platformy. Gdy w urzędzie padnie łącze z Internetem, urzędnicy nie mogą odebrać nowych wniosków aż do naprawy.",
     "it": "Łącze internetowe należy do infrastruktury sieciowej; zapewnia je zwykle dostawca zewnętrzny (APO10 Zarządzanie dostawcami)."
   },
   "nieMylicZ": [
@@ -47,7 +47,7 @@
       "roznica": "Wi-Fi to bezprzewodowe połączenie z siecią w pobliżu. Możesz mieć Wi-Fi bez dostępu do Internetu."
     }
   ],
-  "przykladWypowiedzi": "The Internet, czyli Internet, to sieć sieci; nasz network, czyli sieć w komendzie, łączy się z Internetem przez łącze od dostawcy.",
+  "przykladWypowiedzi": "The Internet, czyli Internet, to sieć sieci; nasz network, czyli sieć w firmie, łączy się z Internetem przez łącze od dostawcy.",
   "egzamin": "Nie jest terminem egzaminu. Pomaga zrozumieć zależność od dostawców i ciągłość usług.",
   "powiazane": [
     "it-siec",
@@ -60,7 +60,7 @@
   "zrodla": [],
   "glebokosc": {
     "prosty": "Wysyłasz kartkę świąteczną do cioci w Kanadzie. Kartka jedzie przez pocztę w Polsce, samolotem i przez pocztę w Kanadzie. Internet działa podobnie: wiadomość przechodzi przez wiele sieci, zanim dotrze.",
-    "zaawansowany": "W nocy łącze internetowe komendy przestaje działać. Sieć w budynku działa: dyżurni widzą zgłoszenia na ekranach. Ale „Syrena” nie wyśle SMS-ów do OSP, bo potrzebuje Internetu. To pokazuje, że [[it-siec|sieć]] w budynku i Internet to dwie różne rzeczy.",
+    "zaawansowany": "W nocy łącze internetowe firmy przestaje działać. Sieć w budynku działa: pracownicy widzą pliki na wspólnym dysku. Ale sklep internetowy nie przyjmie zamówień, a poczta nie wyjdzie do klientów, bo potrzebują Internetu. To pokazuje, że [[it-siec|sieć]] w budynku i Internet to dwie różne rzeczy.",
     "skrajny": "Czy strona internetowa to Internet? Nie – strona to treść, którą Internet przenosi. Czy poczta elektroniczna to Internet? To usługa działająca przez Internet. Czy Internet jest „w powietrzu”? Nie: to fizyczne kable, maszty i urządzenia na całym świecie. **Rozstrzygnięcie:** Internet to ogólnoświatowa sieć sieci, czyli droga; strony, poczta i aplikacje to rzeczy, które tą drogą przesyłamy."
   },
   "zagmatwania": [

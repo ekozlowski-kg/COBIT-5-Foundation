@@ -16,7 +16,7 @@
   "pulapka": true,
   "pulapkaOpis": "Forma kursu (analogia, niepotwierdzona na egzaminie): „Aktywatory Ładu”. Podręcznik (s. 24): „Czynniki umożliwiające nadzór”. To ta sama rzecz.",
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "aktywator",
@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Rodzice chcą pilnować domowego budżetu. Używają do tego zasady „duże zakupy razem”, wspólnego konta, arkusza wydatków i comiesięcznej rozmowy. Bez tych narzędzi cel „żyć bez długów” zostałby pobożnym życzeniem. To aktywatory Ładu w domu.",
     "biuro": "Szefowa biura nadzoruje obieg faktur przez regulamin, wyznaczoną osobę zatwierdzającą, program księgowy i cotygodniowe zestawienie. To jej aktywatory Ładu w małej skali.",
-    "organizacja": "Rada spółki prowadzącej sklepy chce nadzorować informatykę. Posługuje się regulaminem zakupów IT, komitetem inwestycyjnym, kwartalnym raportem i ludźmi, którzy umieją go czytać. To aktywatory Ładu: środki, którymi rada sprawuje nadzór.\n\nWójt chce trzymać rękę na pulsie cyfryzacji gminy. Ma do tego zarządzenie o zakupach IT, zespół ds. cyfryzacji, procedurę zgłaszania incydentów i raport z systemu obiegu dokumentów. Każdy z tych elementów to aktywator Ładu.",
-    "psp": "**Czym rządzi komendantka?** Komendantka Anna Wrzos nie ma własnego serwera ani klawiatury w SK (stanowisku kierowania). Rządzi Syreną przez politykę powiadamiania, nową Radę ds. Informatyki, procedurę alarmowania i kwartalny raport kpt. Sikory. To są jej aktywatory Ładu.",
+    "organizacja": "Rada spółki prowadzącej sklepy chce nadzorować informatykę. Posługuje się regulaminem zakupów IT, komitetem inwestycyjnym, kwartalnym raportem i ludźmi, którzy umieją go czytać. To aktywatory Ładu: środki, którymi rada sprawuje nadzór.",
+    "admin": "Wójt chce trzymać rękę na pulsie cyfryzacji gminy. Ma do tego zarządzenie o zakupach IT, zespół do spraw cyfryzacji, procedurę zgłaszania incydentów i raport z systemu obiegu dokumentów. Każdy z tych elementów to aktywator Ładu, czyli środek, którym wójt sprawuje nadzór.",
     "it": "Proces EDM01 (Zapewnienie i utrzymanie ładu korporacyjnego) dba o to, żeby struktury decyzyjne, zasady i inne aktywatory Ładu istniały i działały (interpretacja kursu)."
   },
   "nieMylicZ": [
@@ -89,8 +89,8 @@
   "mapa": "aktywatory-ladu",
   "glebokosc": {
     "prosty": "Trener chce wygrać ligę. Nie gra sam, tylko używa narzędzi: regulaminu drużyny, planu treningów, kapitana, zawodników i nagrań meczów. Te narzędzia to jego „aktywatory”. Bez nich cel zostaje na papierze.",
-    "zaawansowany": "Komendantka Wrzos ma [[komponent-cel-ladu|Cel Ładu]] dla Syreny, ale cel sam nie działa. Potrzebuje polityki powiadamiania (zasady), Rady ds. Informatyki (struktura organizacyjna), procesu alarmowania i ludzi, którzy znają tryb awaryjny. Gdy jednego brakuje, np. aktualnych danych adresowych, cała Syrena traci wartość. To ilustracja zdania z s. 24: brak aktywatorów osłabia tworzenie wartości.",
-    "skrajny": "Czy przeszkolony dyżurny Paweł Grab to aktywator Ładu, czy już rola operacyjna? Jedno i drugie, tylko w różnych komponentach. Jego umiejętności to aktywator (Ludzie, umiejętności i kompetencje). To, że raportuje kierownictwu, należy do ról, działań i relacji. Podobnie Rada ds. Informatyki: jest aktywatorem (strukturą organizacyjną), choć zasiada w niej organ Ładu. Komponent wynika z pytania: „czym?” to aktywator, „kto komu?” to rola. **Rozstrzygnięcie:** ta sama rzecz może pojawić się w dwóch komponentach; o przypisaniu decyduje pytanie, na które odpowiada (interpretacja kursu)."
+    "zaawansowany": "Zarząd banku ma [[komponent-cel-ladu|Cel Ładu]] dla nowej aplikacji mobilnej, ale cel sam nie działa. Potrzebna jest polityka bezpieczeństwa (zasady), komitet sterujący IT (struktura organizacyjna), proces obsługi zgłoszeń klientów i ludzie, którzy znają procedurę awaryjną. Gdy jednego brakuje, np. aktualnych danych klientów, cała aplikacja traci wartość. To ilustracja zdania z s. 24: brak aktywatorów osłabia tworzenie wartości.",
+    "skrajny": "Czy doświadczony administrator systemów w banku to aktywator Ładu, czy już rola operacyjna? Jedno i drugie, tylko w różnych komponentach. Jego umiejętności to aktywator (Ludzie, umiejętności i kompetencje). To, że raportuje kierownictwu, należy do ról, działań i relacji. Podobnie komitet sterujący IT: jest aktywatorem (strukturą organizacyjną), choć zasiada w nim organ Ładu. Komponent wynika z pytania: „czym?” to aktywator, „kto komu?” to rola. **Rozstrzygnięcie:** ta sama rzecz może pojawić się w dwóch komponentach; o przypisaniu decyduje pytanie, na które odpowiada (interpretacja kursu)."
   },
   "zagmatwania": [
     {
@@ -109,7 +109,7 @@
   "mentor": {
     "czestyBlad": "Uczeń myli aktywatory Ładu z rolami, bo w obu komponentach pojawiają się ludzie.",
     "jakTlumaczyc": "Każ pytać: „czym?” (narzędzie, czyli aktywator) czy „kto komu?” (relacja, czyli rola). Ludzie jako umiejętności to aktywator. Ludzie jako ogniwo delegowania to rola.",
-    "pytanieKontrolne": "Do którego komponentu Podejścia do Ładu należy polityka powiadamiania podpisana przez komendantkę? Dlaczego nie do Celu Ładu?",
+    "pytanieKontrolne": "Do którego komponentu Podejścia do Ładu należy polityka bezpieczeństwa informacji podpisana przez zarząd? Dlaczego nie do Celu Ładu?",
     "odpowiedzKontrolna": "Do **aktywatorów Ładu** (zasady, polityki i struktury ramowe). Cel Ładu mówi, po co jest system. Polityka to środek, którym ten cel się realizuje."
   }
 }

@@ -7,7 +7,7 @@
   "plPodrecznik": "Kluczowe czynniki sukcesu",
   "mapa": "kluczowe-czynniki-sukcesu",
   "poLudzku": "Rzeczy, bez których zmiana się nie uda, np. szef ją popiera, a ludzie rozumieją, po co jest.",
-  "wyobrazSobie": "Przejście całej rodziny na zdrowe jedzenie udaje się, gdy rodzice sami jedzą to samo, wszyscy wiedzą po co, jadłospis pasuje do domowego budżetu, a pierwszy efekt widać po dwóch tygodniach.",
+  "wyobrazSobie": "Przejście całej rodziny na zdrowe jedzenie udaje się, gdy rodzice sami jedzą to samo, wszyscy wiedzą po co, plan posiłków pasuje do domowego budżetu, a pierwszy efekt widać po dwóch tygodniach.",
   "poCo": "Żeby z góry wiedzieć, bez czego wdrożenie Ładu IT zwykle się nie udaje, i zadbać o te warunki, zanim pojawią się kłopoty.",
   "jakDziala": "COBIT 5 (s. 35–36) wymienia kluczowe czynniki sukcesu wdrożenia (critical success factors): wytyczne, mandat oraz widoczne i ciągłe wsparcie kierownictwa najwyższego szczebla; zrozumienie celów biznesowych i celów IT przez wszystkie strony; skuteczną komunikację i umożliwienie zmian; dostosowanie COBIT i innych standardów do kontekstu organizacji; skupienie na szybkich korzyściach (quick wins) i priorytetach. Inicjatywy dzieli się na krótkie iteracje, bo długie tracą dynamikę.",
   "dlaczegoWazne": "Egzamin pyta o warunki powodzenia wdrożenia, np. że inicjatywy dłuższe niż 6 miesięcy grożą utratą dynamiki, koncentracji i akceptacji. Bez tych warunków wiedza o 7 fazach i 3 pierścieniach zostaje na papierze.",
@@ -19,13 +19,12 @@
     "biuro": "Biuro przechodzi na elektroniczny obieg dokumentów. Udaje się, bo dyrektor sam pierwszy przestaje drukować, wszyscy wiedzą, że chodzi o szybsze płatności, a po miesiącu znika kolejka do drukarki: pierwsza korzyść, którą każdy widzi.",
     "firma": "Właściciel warsztatu wprowadza elektroniczne zlecenia zamiast karteczek. Sam codziennie z nich korzysta, mechanikom tłumaczy, że chodzi o mniej zgubionych części, na porannej odprawie mówi, co się poprawiło, system jest prosty i pasuje do małego warsztatu, a już po miesiącu nikt nie szuka zleceń po szafkach. Tych pięć rzeczy sprawia, że zmiana się przyjmuje.",
     "admin": "Burmistrz chce uporządkować informatykę w urzędzie według COBIT. Projekt ma szansę, bo burmistrz osobiście otwiera spotkania, naczelnicy rozumieją cel (krótsze kolejki mieszkańców), co miesiąc idzie krótka informacja o postępach, z COBIT wzięto tylko to, co pasuje do małego urzędu, a na start naprawiono najbardziej uciążliwą rzecz – zawieszający się system kancelaryjny. To kluczowe czynniki sukcesu w praktyce.",
-    "psp": "Komenda powiatowa porządkuje informatykę stanowiska kierowania. Udaje się, bo komendant osobiście wspiera zmianę i pyta o nią na odprawach, wszyscy wiedzą, po co to (krótszy czas dysponowania), dowódcy zmian regularnie słyszą, co się zmienia, rozwiązania dopasowano do małej komendy, a pierwszy efekt – koniec zawieszania się systemu przy przekazaniu dyżuru – widać po dwóch miesiącach. Tak działają kluczowe czynniki sukcesu.",
     "it": "Program wdrożenia COBIT 5 ma sponsora z zarządu, który co miesiąc pyta o postępy, a pierwszą iterację ogranicza do usprawnienia DSS02 (Zarządzanie zgłoszeniami serwisowymi i incydentami), bo da szybko widoczny efekt. Komunikację i przygotowanie ludzi prowadzi się w BAI05 (Zarządzanie wdrażaniem zmian organizacyjnych)."
   },
   "glebokosc": {
     "prosty": "Rodzina postanawia zdrowiej jeść. Uda się, jeśli rodzice sami jedzą warzywa, a nie tylko każą dzieciom, wszyscy wiedzą, po co to robią, przepisy pasują do tego, co rodzina lubi, a pierwszy efekt widać po dwóch tygodniach. Gdy ktoś ogłosi rewolucję na cały rok bez żadnego etapu po drodze, po miesiącu wszyscy wrócą do chipsów.",
-    "zaawansowany": "Wdrożenie porządku po COBIT-owemu ma w komendzie szansę, bo komendantka Wrzos daje mandat i sama co tydzień pyta o postępy – to widoczne i ciągłe wsparcie kierownictwa najwyższego szczebla. Kpt. Sikora tłumaczy dyżurnym, po co są zmiany, i nie kopiuje COBIT 5 w całości, tylko dopasowuje go do małej komendy. Na start wybiera szybką korzyść: aktualizację numerów OSP, która od razu zmniejsza ryzyko powtórki z Lipowej. Całość dzieli na krótkie iteracje [[cykl-wdrozenia|cyklu życia wdrożenia]], a księgowa Mak w [[uzasadnienie-biznesowe|uzasadnieniu biznesowym]] pokazuje, jakie korzyści da każda z nich.",
-    "skrajny": "Kpt. Sikora proponuje „wielkie wdrożenie COBIT 5”: 37 procesów naraz, harmonogram na 18 miesięcy, pełny pakiet dokumentów. Wygląda to na rzetelność, bo nic nie zostaje pominięte. Framework ostrzega jednak, że inicjatywy dłuższe niż sześć miesięcy grożą utratą dynamiki, koncentracji i akceptacji interesariuszy, więc trzeba je dzielić na iteracje (s. 38). Do tego aktywatory muszą rozwiązywać realne problemy biznesowe i nie mogą być celem samym w sobie: „wdrożyć COBIT” to nie cel, celem jest np. pewne alarmowanie OSP. Samo poparcie komendantki nie wystarczy, jeśli przez rok nikt nie zobaczy żadnej korzyści. **Rozstrzygnięcie:** wdrożenie zaczyna się od realnego problemu i szybkich korzyści, jest dopasowane do organizacji i podzielone na iteracje (powyżej sześciu miesięcy rośnie ryzyko utraty dynamiki); kompletność zakresu nie jest czynnikiem sukcesu."
+    "zaawansowany": "Wdrożenie porządku po COBIT-owemu ma w banku szansę, bo prezes daje mandat i sam co tydzień pyta o postępy – to widoczne i ciągłe wsparcie kierownictwa najwyższego szczebla. CIO tłumaczy pracownikom, po co są zmiany, i nie kopiuje COBIT 5 w całości, tylko dopasowuje go do banku. Na start wybiera szybką korzyść: aktualizację danych kontaktowych klientów, która od razu zmniejsza ryzyko powtórki ostatniej awarii powiadomień. Całość dzieli na krótkie iteracje [[cykl-wdrozenia|cyklu życia wdrożenia]], a dyrektor finansowy w [[uzasadnienie-biznesowe|uzasadnieniu biznesowym]] pokazuje, jakie korzyści da każda z nich.",
+    "skrajny": "CIO proponuje „wielkie wdrożenie COBIT 5”: 37 procesów naraz, harmonogram na 18 miesięcy, pełny pakiet dokumentów. Wygląda to na rzetelność, bo nic nie zostaje pominięte. Framework ostrzega jednak, że inicjatywy dłuższe niż sześć miesięcy grożą utratą dynamiki, koncentracji i akceptacji interesariuszy, więc trzeba je dzielić na iteracje (s. 38). Do tego aktywatory muszą rozwiązywać realne problemy biznesowe i nie mogą być celem samym w sobie: „wdrożyć COBIT” to nie cel, celem jest np. niezawodna bankowość internetowa. Samo poparcie prezesa nie wystarczy, jeśli przez rok nikt nie zobaczy żadnej korzyści. **Rozstrzygnięcie:** wdrożenie zaczyna się od realnego problemu i szybkich korzyści, jest dopasowane do organizacji i podzielone na iteracje (powyżej sześciu miesięcy rośnie ryzyko utraty dynamiki); kompletność zakresu nie jest czynnikiem sukcesu."
   },
   "zagmatwania": [
     {
@@ -44,8 +43,8 @@
   "mentor": {
     "czestyBlad": "Sprowadzanie czynników sukcesu do „poparcia szefa” i planowanie jednego długiego projektu bez etapów.",
     "jakTlumaczyc": "Pięć palców jednej dłoni: przykład z góry (kierownictwo), wiedza po co (cele), rozmowa (komunikacja), dopasowanie do domu (dostosowanie), pierwszy efekt szybko (szybkie korzyści). Brak jednego palca osłabia cały chwyt.",
-    "pytanieKontrolne": "Komendantka w pełni popiera wdrożenie, ale projekt ma trwać rok bez etapów pośrednich. Jakie ryzyko widzisz i co zmienić?",
-    "odpowiedzKontrolna": "Ryzyko utraty dynamiki, koncentracji i akceptacji interesariuszy, typowe dla inicjatyw dłuższych niż sześć miesięcy. Trzeba podzielić wdrożenie na krótkie iteracje cyklu życia wdrożenia i zacząć od szybkich korzyści, np. aktualizacji danych OSP, żeby wsparcie i zaangażowanie nie wygasły."
+    "pytanieKontrolne": "Prezes w pełni popiera wdrożenie, ale projekt ma trwać rok bez etapów pośrednich. Jakie ryzyko widzisz i co zmienić?",
+    "odpowiedzKontrolna": "Ryzyko utraty dynamiki, koncentracji i akceptacji interesariuszy, typowe dla inicjatyw dłuższych niż sześć miesięcy. Trzeba podzielić wdrożenie na krótkie iteracje cyklu życia wdrożenia i zacząć od szybkich korzyści, np. aktualizacji danych kontaktowych klientów, żeby wsparcie i zaangażowanie nie wygasły."
   },
   "egzamin": "Inicjatywy trwające dłużej niż **6 miesięcy** grożą utratą dynamiki, koncentracji i akceptacji. Trzeba je dzielić na iteracje (s. 38).",
   "powiazane": [
@@ -77,7 +76,7 @@
   },
   "pulapka": false,
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "interesariusz",

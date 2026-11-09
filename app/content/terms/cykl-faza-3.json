@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Wybraliście i zaprojektowaliście kompostownik. Teraz zbijacie go z desek albo kupujecie gotowy w markecie. Stawiacie go w ogrodzie i pokazujecie dzieciom, co tam wrzucać. To faza 3.",
     "biuro": "Biuro kupuje gotowy program do rezerwacji sal, informatyk go instaluje, a pracownicy dostają krótką instrukcję. To faza 3.",
-    "organizacja": "Sklep podpisuje umowę z operatorem bramki płatności, informatyk podłącza ją do koszyka, a obsługa przechodzi szkolenie. Nabywanie i wdrażanie to jedna faza 3.\n\nGmina kupuje system zapisów, konfiguruje go i szkoli urzędników. Równocześnie sekretarz pisze zarządzenie o jego używaniu. Kupno, stworzenie zarządzenia i uruchomienie należą do fazy 3.",
-    "psp": "**Syrena przyjeżdża** Komenda podpisuje umowę z firmą Kwant-Sygnał i odbiera system Syrena. Technicy dostawcy instalują go na serwerze, a dyżurni przechodzą dwugodzinne szkolenie. Komenda niczego nie programowała, tylko kupiła i uruchomiła. To nadal faza 3: nabywanie i wdrażanie.",
+    "organizacja": "Sklep podpisuje umowę z operatorem bramki płatności, informatyk podłącza ją do koszyka, a obsługa przechodzi szkolenie. Nabywanie i wdrażanie to jedna faza 3.",
+    "admin": "Gmina kupuje system zapisów, konfiguruje go i szkoli urzędników. Równocześnie sekretarz gminy pisze zarządzenie o jego używaniu. Kupno, stworzenie zarządzenia i uruchomienie należą do fazy 3.",
     "it": "Dla rozwiązań IT tę fazę wspierają m.in. procesy BAI03 (Zarządzanie identyfikacją i budowaniem rozwiązań) i BAI07 (Zarządzanie procesem akceptacji zmian i przejścia) (interpretacja kursu)."
   },
   "nieMylicZ": [
@@ -79,8 +79,8 @@
   "mapa": "cykl-faza-3",
   "glebokosc": {
     "prosty": "Masz projekt półki. Możesz zrobić ją sam z desek albo kupić gotową w sklepie. Tak czy inaczej przykręcasz ją do ściany i stawiasz książki. Zrobienie, kupienie i powieszenie to jeden etap.",
-    "zaawansowany": "Rada ds. Informatyki zatwierdza zakup drugiej bramki SMS. Ola Dudek ją konfiguruje, Sikora pisze instrukcję, a dyżurni ćwiczą przełączanie. Zakup, konfiguracja, instrukcja i szkolenie to faza 3 tego aktywatora. Procesy, w których to się dzieje, należą do domeny [[bai|BAI]]. Ale faza 3 dotyczy też polityki powiadamiania, którą komendantka Wrzos właśnie tworzy.",
-    "skrajny": "Pytanie: „Komenda kupiła gotowy system i go uruchomiła. Która to faza cyklu życia aktywatora?”. Kusi „Użytkowanie/eksploatacja”, bo system już działa. Kusi też „Planowanie”, bo zakup to decyzja. Kupno i uruchomienie to jednak **nabywanie** i **wdrażanie**, czyli faza 3. Użytkowanie zaczyna się, gdy dyżurni pracują z systemem na co dzień. Do tego BAI ma podobne czasowniki, ale to domena procesów, a nie faza. **Rozstrzygnięcie:** zbudowanie, kupienie, napisanie i uruchomienie aktywatora to faza 3; codzienna praca z nim to faza 4."
+    "zaawansowany": "Komitet sterujący IT zatwierdza zakup drugiej bramki SMS. Administrator ją konfiguruje, CIO zleca napisanie instrukcji, a pracownicy helpdesku ćwiczą przełączanie. Zakup, konfiguracja, instrukcja i szkolenie to faza 3 tego aktywatora. Procesy, w których to się dzieje, należą do domeny [[bai|BAI]]. Ale faza 3 dotyczy też polityki bezpieczeństwa, którą zarząd właśnie tworzy.",
+    "skrajny": "Pytanie: „Firma kupiła gotowy system i go uruchomiła. Która to faza cyklu życia aktywatora?”. Kusi „Użytkowanie/eksploatacja”, bo system już działa. Kusi też „Planowanie”, bo zakup to decyzja. Kupno i uruchomienie to jednak **nabywanie** i **wdrażanie**, czyli faza 3. Użytkowanie zaczyna się, gdy pracownicy korzystają z systemu na co dzień. Do tego BAI ma podobne czasowniki, ale to domena procesów, a nie faza. **Rozstrzygnięcie:** zbudowanie, kupienie, napisanie i uruchomienie aktywatora to faza 3; codzienna praca z nim to faza 4."
   },
   "zagmatwania": [
     {
@@ -99,7 +99,7 @@
   "mentor": {
     "czestyBlad": "Mylenie fazy 3 z domeną BAI.",
     "jakTlumaczyc": "BAI to dział z procesami, a faza 3 to moment w życiu rzeczy. Polityka też przechodzi fazę 3, choć nie jest systemem IT.",
-    "pytanieKontrolne": "Komendantka podpisuje nową politykę powiadamiania i ogłasza ją na odprawie. W której fazie życia jest ta polityka?",
-    "odpowiedzKontrolna": "W **fazie 3** (tworzenie i wdrażanie). Gdy dyżurni zaczną się nią kierować na co dzień, wejdzie w fazę 4."
+    "pytanieKontrolne": "Zarząd podpisuje nową politykę bezpieczeństwa informacji i ogłasza ją pracownikom. W której fazie życia jest ta polityka?",
+    "odpowiedzKontrolna": "W **fazie 3** (tworzenie i wdrażanie). Gdy pracownicy zaczną się nią kierować na co dzień, wejdzie w fazę 4."
   }
 }

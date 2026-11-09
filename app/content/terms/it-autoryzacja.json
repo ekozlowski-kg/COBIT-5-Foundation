@@ -26,7 +26,7 @@
   ],
   "poLudzku": "Ustalenie, co wolno zrobić osobie, która już się zalogowała.",
   "poziom1": "Autoryzacja odpowiada na pytanie „co wolno Ci zrobić?”. Po zalogowaniu system sprawdza uprawnienia konta: które foldery możesz otworzyć, co możesz zmieniać, a co tylko oglądać.",
-  "poziom2": "Uprawnienia przydziela się zwykle według stanowiska (roli): kadrowa widzi dane kadrowe, dyżurny wysyła alarmy, informatyk zmienia ustawienia. Dobra zasada: każdy dostaje tylko tyle uprawnień, ile potrzebuje do pracy (EN: least privilege – zasada najmniejszych uprawnień).",
+  "poziom2": "Uprawnienia przydziela się zwykle według stanowiska (roli): kadrowa widzi dane kadrowe, konsultant obsługuje zgłoszenia klientów, informatyk zmienia ustawienia. Dobra zasada: każdy dostaje tylko tyle uprawnień, ile potrzebuje do pracy (EN: least privilege – zasada najmniejszych uprawnień).",
   "poziom3": "W COBIT 5 zarządzanie uprawnieniami to część usług bezpieczeństwa (DSS05 Zarządzanie usługami bezpieczeństwa). Słownik FW-PL włącza sprawdzanie uprawnień do definicji uwierzytelnienia (s. 89). Uwaga: [[poziom-uprawnien|poziom uprawnień]] w COBIT 5 oznacza uprawnienia decyzyjne struktur organizacyjnych – to inne znaczenie.",
   "wyobrazSobie": "Klucze w hotelu: recepcja wie, kim jesteś, i daje klucz tylko do Twojego pokoju, a nie do wszystkich.",
   "poCo": "Żeby każdy widział i zmieniał tylko to, czego potrzebuje do pracy – i żeby błąd albo włamanie nie objęły wszystkiego.",
@@ -36,7 +36,7 @@
     "zycie": "Telefon pyta: „Czy aplikacja Mapy może korzystać z Twojej lokalizacji?”. Gdy klikniesz „Nie”, aplikacja działa, ale nie wie, gdzie jesteś.",
     "biuro": "Pracownik działu sprzedaży otwiera folder „Oferty”, ale folder „Płace” pokazuje mu „Brak dostępu”.",
     "organizacja": "W banku kasjer może wypłacić do 10 000 zł. Większą wypłatę musi zatwierdzić kierownik, bo ma szersze uprawnienia.",
-    "psp": "Dyżurni mogą w „Syrenie” wysyłać alarmy, ale tylko Ola Dudek może zmieniać numery w bazie strażaków.",
+    "admin": "W ZUS (Zakładzie Ubezpieczeń Społecznych) pracownicy logują się do tego samego systemu. Pracownik sali obsługi może przeglądać konto ubezpieczonego, ale wypłatę emerytury zatwierdza tylko pracownik wydziału świadczeń. Po zalogowaniu system sprawdza uprawnienia i nie pokazuje przycisku „Zatwierdź” osobom, którym go nie przyznano.",
     "it": "Zarządzanie uprawnieniami to część DSS05 Zarządzanie usługami bezpieczeństwa; w dużych organizacjach uprawnienia nadaje się według ról."
   },
   "nieMylicZ": [
@@ -75,7 +75,7 @@
   ],
   "glebokosc": {
     "prosty": "Masz klucz do swojego mieszkania, ale nie do mieszkania sąsiada, choć wchodzicie tą samą klatką. Domofon wpuszcza Was obu do budynku (uwierzytelnianie), ale klucz otwiera tylko Twoje drzwi (autoryzacja).",
-    "zaawansowany": "Ola Dudek przegląda uprawnienia w „Syrenie”. Okazuje się, że wszyscy dyżurni mogą zmieniać numery w bazie. Dlatego ktoś mógł omyłkowo nadpisać numer Pietrzaka. Ola zostawia tę możliwość tylko sobie i zastępcy. Tak wąskie uprawnienia chronią [[it-baza-danych|bazę danych]] przed przypadkowymi zmianami.",
+    "zaawansowany": "Administrator przegląda uprawnienia w systemie CRM. Okazuje się, że wszyscy konsultanci mogą zmieniać dane klientów w bazie. Dlatego ktoś mógł omyłkowo nadpisać numer konta klienta. Administrator zostawia tę możliwość tylko wyznaczonym osobom z działu obsługi. Tak wąskie uprawnienia chronią [[it-baza-danych|bazę danych]] przed przypadkowymi zmianami.",
     "skrajny": "Czy „brak dostępu” po zalogowaniu to błąd systemu? Nie – system działa i odmawia. Czy informatyk z pełnymi uprawnieniami powinien używać ich na co dzień? Lepiej, by do zwykłej pracy miał zwykłe konto, a pełne uprawnienia tylko do zadań administracyjnych. Czy autoryzacja płatności kartą to to samo? To zgoda banku na płatność – inne użycie słowa. **Rozstrzygnięcie:** autoryzacja to decyzja, co wolno zalogowanej osobie; następuje po uwierzytelnieniu i powinna dawać tylko tyle, ile potrzeba do pracy."
   },
   "zagmatwania": [
@@ -91,7 +91,7 @@
   "mentor": {
     "czestyBlad": "Mylenie autoryzacji z uwierzytelnianiem i nadawanie wszystkim pełnych uprawnień „na wszelki wypadek”.",
     "jakTlumaczyc": "Domofon i klucz do mieszkania; hotelowa recepcja i klucz do jednego pokoju.",
-    "pytanieKontrolne": "Dlaczego dyżurny nie powinien móc zmieniać numerów w bazie „Syreny”?",
+    "pytanieKontrolne": "Dlaczego każdy konsultant nie powinien móc zmieniać numerów kont w bazie klientów?",
     "odpowiedzKontrolna": "Bo nie potrzebuje tego do pracy. Mniej uprawnień to mniej przypadkowych zmian i mniejsze szkody przy włamaniu."
   }
 }

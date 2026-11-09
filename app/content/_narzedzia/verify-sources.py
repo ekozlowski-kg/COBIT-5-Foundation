@@ -157,13 +157,14 @@ for p in sorted(glob.glob(os.path.join(content, "lessons", "**", "*.md"), recurs
     zm = re.search(r"^zgadnij:\s*\[(.*?)\]", fm, re.M)
     for c in ([c.strip() for c in zm.group(1).split(",") if c.strip()] if zm else []):
         if c not in q_ids: errors.append(f"{w}: zgadnij {c} nie istnieje")
-    if not zm: warnings.append(f"{w}: brak 'zgadnij'")
+    krotki = bool(re.search(r"^format:\s*krotki\b", fm, re.M))  # FORMAT-KROTKI.md: bez rozgrzewki, mapy i „własnymi słowami”
+    if not zm and not krotki: warnings.append(f"{w}: brak 'zgadnij'")
     body = txt[m.end():]
     for mm in re.finditer(r":::mapa (\S+)", body):
         if mm.group(1) not in nodes: errors.append(f"{w}: :::mapa → nieznany węzeł {mm.group(1)}")
-    if ":::wlasne-slowa" not in body: warnings.append(f"{w}: brak slajdu wlasne-slowa")
+    if ":::wlasne-slowa" not in body and not krotki: warnings.append(f"{w}: brak slajdu wlasne-slowa")
     # IT0 (podstawy cyfrowe) to wiedza ogólna sprzed COBIT – nie ma miejsca na mapie COBIT 5.
-    if ":::mapa" not in body and not re.search(r"^modul:\s*IT0\b", fm, re.M):
+    if ":::mapa" not in body and not krotki and not re.search(r"^modul:\s*IT0\b", fm, re.M):
         warnings.append(f"{w}: brak slajdu mapa")
     slides = re.split(r"\n---\n", body)
     if not (3 <= len(slides) <= 20): warnings.append(f"{w}: {len(slides)} slajdów (limit 20, METODYKA §18.4)")

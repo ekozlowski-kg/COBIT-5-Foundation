@@ -35,7 +35,7 @@ terminy:
   - przewodniki-oceny
 zadania:
   - "Studium: oceny atrybutów procesu DSS02 Manage Service Requests and Incidents – jaki poziom zdolności osiągnięto?"
-  - "Studium: komendantka chce wiedzieć „jak jest” i „jak ma być” bez certyfikatu – który cel oceny?"
+  - "Studium: zarząd ubezpieczyciela chce wiedzieć „jak jest” i „jak ma być” bez certyfikatu – który cel oceny?"
   - "Synteza: poziom 5 dla wszystkich procesów do końca roku? Rada mentora zgodna z COBIT 5."
   - "Wypowiedź: wyjaśnij kierownictwu wynik „DSS02 – poziom 1”, używając terminów EN."
 kryteria:

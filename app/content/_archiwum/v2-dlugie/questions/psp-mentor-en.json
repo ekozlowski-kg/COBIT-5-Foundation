@@ -1,0 +1,441 @@
+[
+  {
+    "id": "q-men-en-01-zasady-polityki-1",
+    "typ": "mentor",
+    "sylabus": [
+      "EN-02-06"
+    ],
+    "lekcja": "en-01-zasady-polityki",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Kasia Nowik, dyżurna SK",
+    "tresc": "„Komendantka podpisała politykę powiadamiania. Czyli sprawa załatwiona, prawda?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 68
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Tak, podpis komendantki wystarczy. Od jutra wszyscy będą jej przestrzegać.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakujesz błędnemu założeniu. Sam podpis nie sprawia, że polityka działa.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Jeszcze nie. Polityka zaczyna działać, gdy wpiszesz ją w codzienne kroki pracy, np. w comiesięczne sprawdzanie numerów przez Olę Dudek.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto i trafnie: praktyki i działania procesów to najważniejszy środek realizacji polityk (s. 68)."
+      },
+      {
+        "tekst": "Praktyki i działania dotyczące procesów stanowią najistotniejszy środek realizacji polityk w systemie kontroli wewnętrznej przedsiębiorstwa.",
+        "poprawna": false,
+        "wyjasnienie": "Merytorycznie dobrze, ale językiem podręcznika. Kasia nie zrozumie, co ma z tym zrobić.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Polityka działa wtedy, gdy jest bardzo surowa i grozi wysoką karą.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie. Dobra polityka jest nieinwazyjna, a działa przez praktyki procesów.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      }
+    ]
+  },
+  {
+    "id": "q-men-en-02-procesy-1",
+    "typ": "mentor",
+    "sylabus": [
+      "EN-02-08"
+    ],
+    "lekcja": "en-02-procesy",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Kasia Nowik, dyżurna SK",
+    "tresc": "„Zgodność z wytycznymi KG PSP to cel kontekstowy, bo wytyczne przychodzą z zewnątrz, tak?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 69
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Tak, wszystko, co przychodzi spoza komendy, to cel kontekstowy.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakujesz błędowi. Zgodność z przepisami zewnętrznymi to cel wewnętrzny.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Cele procesu trzeba mierzyć miernikami SMART, więc najpierw ustal termin i miarę.",
+        "poprawna": false,
+        "wyjasnienie": "Prawda, ale nie odpowiada na pytanie Kasi o kategorię celu.",
+        "pulapkaMentora": "nie-na-temat"
+      },
+      {
+        "tekst": "Nie. To cel wewnętrzny. „Wewnętrzny” znaczy tu: jakość samego procesu, w tym zgodność z przepisami, a nie: wewnątrz komendy.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto prostujesz błędne założenie i pokazujesz, skąd się bierze pomyłka (s. 69)."
+      },
+      {
+        "tekst": "To intrinsic goal, bo zgodność z regułami zewnętrznymi zalicza się do jakości rzeczywistej procesu, a nie do contextual goals.",
+        "poprawna": false,
+        "wyjasnienie": "Treść jest dobra, ale angielskie słowa i żargon nic Kasi nie wyjaśnią.",
+        "pulapkaMentora": "zargon"
+      }
+    ]
+  },
+  {
+    "id": "q-men-en-03-opis-procesu-raci-1",
+    "typ": "mentor",
+    "sylabus": [
+      "EN-02-25"
+    ],
+    "lekcja": "en-03-opis-procesu-raci",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Halina Mak, główna księgowa",
+    "tresc": "„Co miesiąc dostaję raport z Syreny. Czyli w tabeli RACI jestem konsultowana?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 93
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Tak. Każdy, kto dostaje raport, jest konsultowany.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakujesz błędowi. Samo dostawanie raportu to rola I.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "C i I to w praktyce to samo, więc nie ma się czym przejmować.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie. Różnica w kierunku komunikacji to częste pytanie egzaminu.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      },
+      {
+        "tekst": "Rola I implikuje jednokierunkowy przepływ informacji, a rola C dwukierunkowy, z dostarczaniem wejść do praktyki procesu.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawnie, ale suchym żargonem. Księgowa nie dowie się, którą literę ma.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Nie. Dostajesz wiadomość i nie odpowiadasz, więc jesteś I, czyli informowana. Konsultowana byłabyś, gdyby pytano Cię o zdanie przed zmianą.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto: pokazujesz kierunek rozmowy, który odróżnia C od I."
+      }
+    ]
+  },
+  {
+    "id": "q-men-en-04-struktury-1",
+    "typ": "mentor",
+    "sylabus": [
+      "EN-02-12"
+    ],
+    "lekcja": "en-04-struktury",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "mł. kpt. Robert Dąb, dowódca zmiany JRG 1",
+    "tresc": "„Rada ds. Informatyki od miesiąca nie może się dogadać w sprawie nowego modułu. Chyba trzeba ją rozwiązać?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 75
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Nie trzeba. Rada potrzebuje procedury eskalacji, czyli ustalonej drogi, którą sporna sprawa trafia wyżej, tu do komendantki.",
+        "poprawna": true,
+        "wyjasnienie": "Trafnie: brak eskalacji to brak jednej dobrej praktyki, a nie powód do rozwiązania rady (s. 75)."
+      },
+      {
+        "tekst": "Tak. Skoro członkowie się kłócą, trzeba ją rozwiązać i powołać nową.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakujesz błędnemu wnioskowi. Spór nie znaczy, że struktura jest zbędna.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Należy zdefiniować escalation procedures w ramach dobrych praktyk struktury, z uwzględnieniem span of control i decision rights.",
+        "poprawna": false,
+        "wyjasnienie": "Dobra myśl, ale schowana w żargonie i angielskich nazwach.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Rada powinna zbierać się częściej i prowadzić dokładniejszy protokół.",
+        "poprawna": false,
+        "wyjasnienie": "To zasady operacyjne. Częstsze spotkania nie rozstrzygną sporu.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-men-en-05-role-1",
+    "typ": "mentor",
+    "sylabus": [
+      "EN-02-13"
+    ],
+    "lekcja": "en-05-role",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Kasia Nowik, dyżurna SK",
+    "tresc": "„Czyli komitetowi strategii IT szefuje kpt. Sikora, bo najlepiej zna się na informatyce?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 76
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Tak. Najlepiej, żeby prowadził go ten, kto zna się na sprzęcie.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakujesz błędowi. Według COBIT 5 przewodniczy zazwyczaj członek zarządu, a nie CIO.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Nie. Przewodniczy mu zazwyczaj członek zarządu, bo strategia IT ma służyć całej komendzie.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto i z powodem, który łatwo zapamiętać (s. 76)."
+      },
+      {
+        "tekst": "IT executive committee ma chair z boardu, a nie CIO, zgodnie z Rysunkiem 33, rolami RACI i dobrą praktyką governance.",
+        "poprawna": false,
+        "wyjasnienie": "Treść jest dobra, ale angielskie nazwy i skróty nic Kasi nie powiedzą.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Wszystkimi komitetami w COBIT 5 zawsze kieruje osobiście komendant.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie. Podręcznik mówi o członku zarządu przy tym komitecie, a nie o wszystkich.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      }
+    ]
+  },
+  {
+    "id": "q-men-en-06-kultura-1",
+    "typ": "mentor",
+    "sylabus": [
+      "EN-02-14"
+    ],
+    "lekcja": "en-06-kultura",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "asp. sztab. Paweł Grab, dyżurny SK",
+    "tresc": "„Po co ta cała kultura? Wystarczy surowo karać za każdy błąd, to ludzie się nauczą.”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 80
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Racja. Surowe kary to najprostsza i najlepsza dobra praktyka kultury.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakujesz błędowi. Kara za każdy błąd uczy ukrywania błędów.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Kultura, Etyka i Zachowanie to czwarty z siedmiu aktywatorów.",
+        "poprawna": false,
+        "wyjasnienie": "Prawda, ale nie odpowiada na wątpliwość Graba.",
+        "pulapkaMentora": "nie-na-temat"
+      },
+      {
+        "tekst": "Kara za każdy błąd uczy ukrywania błędów, jak z tym SMS-em sprzed miesiąca. Lepiej działa przykład z góry, zachęty i jasna reguła: zgłoszenie bez kary.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto, na przykładzie samego Graba, i zgodnie z dobrymi praktykami z s. 80."
+      },
+      {
+        "tekst": "Należy stosować zachęty i środki zniechęcające zintegrowane ze schematem wynagradzania oraz zwiększać świadomość przez przykład kierownictwa i osób wspierających.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawnie, ale językiem podręcznika. Grab machnie ręką.",
+        "pulapkaMentora": "zargon"
+      }
+    ]
+  },
+  {
+    "id": "q-men-en-07-informacja-1",
+    "typ": "mentor",
+    "sylabus": [
+      "EN-02-17"
+    ],
+    "lekcja": "en-07-informacja",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Kasia Nowik, dyżurna SK",
+    "tresc": "„Numer Pietrzaka w Syrenie był zły. Czyli zawiodła jakość wewnętrzna informacji?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 82
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Tak. Każdy zły numer to błąd jakości wewnętrznej.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakujesz błędowi. Numer był kiedyś dobry, tylko się zestarzał.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Jakość to jakość. Nie ma sensu dzielić jej na podwymiary.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie. Egzamin pyta właśnie o podwymiary.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      },
+      {
+        "tekst": "To defekt kryterium aktualności w podwymiarze jakości kontekstowej i reprezentacji, a nie jakości rzeczywistej.",
+        "poprawna": false,
+        "wyjasnienie": "Treść dobra, ale za dużo terminów naraz, bez wyjaśnienia.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Numer nie był zmyślony, tylko się zestarzał. To brak aktualności, a aktualność należy do jakości kontekstowej i reprezentacji.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto rozróżniasz „fałszywe” od „nieaktualne” (s. 82)."
+      }
+    ]
+  },
+  {
+    "id": "q-men-en-08-uslugi-1",
+    "typ": "mentor",
+    "sylabus": [
+      "EN-02-20"
+    ],
+    "lekcja": "en-08-uslugi",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Halina Mak, główna księgowa",
+    "tresc": "„Kupiliśmy gotową Syrenę, zamiast zlecić własny program. Czy według COBIT 5 to był błąd?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 86
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Nie. Jedno z pryncypiów architektury to nabywanie zamiast budowania. Własny system buduje się tylko z zatwierdzonego powodu.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto i trafnie odpowiadasz na pytanie (s. 86)."
+      },
+      {
+        "tekst": "Tak. COBIT 5 każe zawsze budować własne systemy.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakujesz błędowi i odwracasz pryncypium.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Zgodnie z architecture principles preferowane jest buy over build, o ile nie istnieje approved rationale dla in-house development.",
+        "poprawna": false,
+        "wyjasnienie": "Dobra treść, ale angielski żargon.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Syrena działa na jednym serwerze bez zasilania awaryjnego, a to duże ryzyko.",
+        "poprawna": false,
+        "wyjasnienie": "Prawda, ale nie odpowiada na pytanie o zakup.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-men-en-09-ludzie-1",
+    "typ": "mentor",
+    "sylabus": [
+      "EN-02-22"
+    ],
+    "lekcja": "en-09-ludzie",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Kasia Nowik, dyżurna SK",
+    "tresc": "„Tylko Grab zna tryb awaryjny Syreny. To po prostu wyślijmy wszystkich na to samo szkolenie?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 87
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Tak. Wszyscy na to samo szkolenie i sprawa załatwiona.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakujesz. Pomijasz pierwszy krok cyklu życia umiejętności.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Najpierw sprawdź, kto co umie i czego potrzebuje każda rola. Dopiero potem planuj szkolenia albo rekrutację.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto: cykl życia umiejętności zaczyna się od wglądu w obecną bazę umiejętności i planowania (s. 87)."
+      },
+      {
+        "tekst": "Trzeba przeprowadzić skills baseline assessment i gap analysis, a potem zaplanować development albo acquisition zgodnie z SFIA.",
+        "poprawna": false,
+        "wyjasnienie": "Trafnie, ale żargonem, którego Kasia nie zna.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Umiejętności się nie planuje. Wystarczy zatrudnić drugiego Graba.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie. COBIT 5 zaleca wymagania dla każdej roli i planowanie.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      }
+    ]
+  },
+  {
+    "id": "q-men-en-03-opis-procesu-raci-2",
+    "typ": "bledy",
+    "mentor": true,
+    "sylabus": [
+      "EN-02-25"
+    ],
+    "lekcja": "en-03-opis-procesu-raci",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "mł. kpt. Robert Dąb, dowódca zmiany JRG 1",
+    "tresc": "Robert Dąb tłumaczy RACI nowemu strażakowi. Które zdanie w jego wyjaśnieniu jest **błędne**?",
+    "tekst": "„R to osoba odpowiedzialna wykonawczo, czyli ta, która wykonuje zadanie. A to drugi wykonawca, który pomaga R, gdy jest dużo pracy. C to konsultowany: daje swoje uwagi, więc rozmowa idzie w obie strony. I to informowany: tylko dostaje wiadomość.”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 93
+      }
+    ],
+    "status": "przyklad",
+    "twierdzenia": [
+      {
+        "tekst": "R to osoba odpowiedzialna wykonawczo, czyli ta, która wykonuje zadanie.",
+        "poprawne": true,
+        "wyjasnienie": "Dobrze. R wykonuje zadanie."
+      },
+      {
+        "tekst": "A to drugi wykonawca, który pomaga R, gdy jest dużo pracy.",
+        "poprawne": false,
+        "wyjasnienie": "Błąd. A to rozliczany: odpowiada za sukces zadania, a nie pomaga w wykonaniu."
+      },
+      {
+        "tekst": "C to konsultowany: daje swoje uwagi, więc rozmowa idzie w obie strony.",
+        "poprawne": true,
+        "wyjasnienie": "Dobrze. C to komunikacja dwukierunkowa."
+      },
+      {
+        "tekst": "I to informowany: tylko dostaje wiadomość.",
+        "poprawne": true,
+        "wyjasnienie": "Dobrze. I to komunikacja jednokierunkowa."
+      }
+    ]
+  }
+]

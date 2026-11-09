@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Twój dostawca Internetu to firma, której płacisz co miesiąc za łącze. Gdy nie działa, dzwonisz na jej infolinię.",
     "biuro": "Biuro kupuje drukarki od jednej firmy, a ta sama firma raz w miesiącu przyjeżdża je serwisować.",
-    "organizacja": "Gmina płaci firmie zewnętrznej za program do podatków i za jego aktualizacje, gdy zmienia się prawo.",
-    "psp": "Firma Kwant-Sygnał sprzedała komendzie „Syrenę”. Jej handlowiec Igor Wolny po awarii mówi: „system działa zgodnie z umową”.",
+    "organizacja": "Sieć sklepów spożywczych kupuje kasy i ich serwis od jednej firmy. W umowie zapisano, że technik przyjeżdża w ciągu 24 godzin od zgłoszenia awarii.",
+    "admin": "Gmina płaci firmie zewnętrznej za program do podatków lokalnych i za jego aktualizacje, gdy zmienia się prawo. Skarbnik gminy co kwartał sprawdza, czy firma dotrzymuje terminów z umowy.",
     "it": "Dostawcy to interesariusze zewnętrzni; relacjami z nimi zarządza proces APO10 Zarządzanie dostawcami (FW-PL s. 33)."
   },
   "nieMylicZ": [
@@ -80,8 +80,8 @@
   ],
   "glebokosc": {
     "prosty": "Zamawiasz tort w cukierni na urodziny. Cukiernia jest Twoim „dostawcą”. Jeśli tort nie przyjedzie, przyjęcie i tak jest Twoje – to Ty musisz mieć plan B.",
-    "zaawansowany": "Po nocy na Lipowej Igor Wolny z Kwant-Sygnału twierdzi, że „Syrena” działa zgodnie z umową. Halina Mak, główna księgowa, czyta umowę: nie ma w niej, jak szybko dostawca musi naprawić awarię. Komenda zależy od dostawcy, ale nie zapisała, czego od niego oczekuje. Za chwilę poznasz [[it-outsourcing|outsourcing]], gdzie ta zależność jest jeszcze większa.",
-    "skrajny": "Czy dział informatyki komendy jest dostawcą? Dla dyżurnych tak – to dostawca wewnętrzny usług. Czy dostawca jest interesariuszem? Tak, zewnętrznym (FW-PL s. 93). Czy kupienie usługi od dostawcy przenosi na niego odpowiedzialność wobec mieszkańców? Nie – komenda nadal odpowiada za skutki. **Rozstrzygnięcie:** dostawca to ten, kto coś organizacji dostarcza (zwykle firma zewnętrzna); można mu zlecić pracę, ale nie odpowiedzialność organizacji za wynik."
+    "zaawansowany": "Po wielogodzinnej awarii bankowości internetowej dostawca systemu twierdzi, że działał zgodnie z umową. Dyrektor finansowy czyta umowę: nie ma w niej, jak szybko dostawca musi naprawić awarię. Bank zależy od dostawcy, ale nie zapisał, czego od niego oczekuje. Za chwilę poznasz [[it-outsourcing|outsourcing]], gdzie ta zależność jest jeszcze większa.",
+    "skrajny": "Czy dział IT banku jest dostawcą? Dla pozostałych działów tak – to dostawca wewnętrzny usług. Czy dostawca jest interesariuszem? Tak, zewnętrznym (FW-PL s. 93). Czy kupienie usługi od dostawcy przenosi na niego odpowiedzialność wobec klientów? Nie – bank nadal odpowiada za skutki. **Rozstrzygnięcie:** dostawca to ten, kto coś organizacji dostarcza (zwykle firma zewnętrzna); można mu zlecić pracę, ale nie odpowiedzialność organizacji za wynik."
   },
   "zagmatwania": [
     {
@@ -96,7 +96,7 @@
   "mentor": {
     "czestyBlad": "Przekonanie, że zakup od dostawcy zdejmuje z organizacji odpowiedzialność.",
     "jakTlumaczyc": "Cukiernia i przyjęcie urodzinowe: tort możesz zamówić, ale za przyjęcie odpowiadasz Ty.",
-    "pytanieKontrolne": "Kwant-Sygnał mówi, że działał zgodnie z umową. Czy komenda może uznać, że to nie jej sprawa?",
-    "odpowiedzKontrolna": "Nie. Komenda odpowiada za alarmy wobec mieszkańców. Musi zapisać w umowie swoje wymagania i pilnować dostawcy."
+    "pytanieKontrolne": "Dostawca systemu mówi, że działał zgodnie z umową. Czy bank może uznać, że awaria to nie jego sprawa?",
+    "odpowiedzKontrolna": "Nie. Bank odpowiada za usługi wobec klientów i regulatora. Musi zapisać w umowie swoje wymagania i pilnować dostawcy."
   }
 }

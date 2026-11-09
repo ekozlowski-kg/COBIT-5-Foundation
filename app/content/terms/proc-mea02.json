@@ -39,8 +39,8 @@
   "przyklady": {
     "zycie": "Masz w domu zasadę: gaz zakręcony przed wyjazdem, czujnik dymu sprawdzany co miesiąc. Raz w roku robisz przegląd: wciskasz test czujnika i odkrywasz, że bateria padła pół roku temu. Sprawdzasz, czy Twoje zabezpieczenia naprawdę działają.",
     "biuro": "Raz w kwartale bierzesz 10 losowych faktur i sprawdzasz, czy każda ma drugi podpis. Braki zapisujesz i omawiasz z zespołem.",
-    "organizacja": "Wspólnik biura rachunkowego co kwartał sprawdza drugi podpis na 20 losowych przelewach, a raz w roku przychodzi niezależny audytor. W starostwie audytor sprawdza wnioski o uprawnienia i blokadę kont.",
-    "psp": "**Lis sprawdza zabezpieczenia.** Audytorka Ewa Lis bierze 30 losowych zmian numerów OSP z ostatniego kwartału. Sprawdza, czy każdą wpisała Ola Dudek, a zatwierdził kpt. Sikora. Testuje też, czy czerwone okno „brak potwierdzenia z OSP” da się zamknąć bez telefonu. Wyniki i słabości trafiają do komendantki. Ocena, czy kontrole wewnętrzne działają, to [[proc-mea02]].",
+    "organizacja": "Wspólnik biura rachunkowego co kwartał sprawdza drugi podpis na 20 losowych przelewach, a raz w roku przychodzi niezależny audytor.",
+    "admin": "Audytor wewnętrzny starostwa raz w roku sprawdza, czy działają zasady nadawania i odbierania uprawnień do systemów. Bierze 20 losowych wniosków o uprawnienia i listę osób, które odeszły z pracy, i porównuje je z kontami w systemie. Znajduje dwa niezablokowane konta byłych pracowników i opisuje tę słabość w raporcie dla starosty.",
     "it": "Praktyki MEA02 obejmują m.in. monitorowanie kontroli, samoocenę, raport o słabościach oraz planowanie i wykonanie przeglądów zapewnienia (assurance). Wykonawca przeglądu musi być niezależny i kompetentny."
   },
   "nieMylicZ": [
@@ -96,8 +96,8 @@
   "mapa": "proc-mea02",
   "glebokosc": {
     "prosty": "Masz alarm w mieszkaniu. Raz na pół roku sprawdzasz: otwierasz okno przy włączonym alarmie i patrzysz, czy zawyje. Nie wystarczy, że alarm jest zamontowany. Ważne, czy działa.",
-    "zaawansowany": "W procesie alarmowania są zabezpieczenia: czerwone okno przy braku potwierdzenia z OSP i „dwie pary oczu” przy zmianie numerów. To [[proc-dss06]]. Ewa Lis co kwartał sprawdza na próbce, czy te zabezpieczenia działają w praktyce. To [[proc-mea02]]. Wyniki idą do komendantki, a poprawki wracają do właścicieli procesów.",
-    "skrajny": "Inspektorka Lucyna Ostrowska z komendy wojewódzkiej zapowiada kontrolę: czy komenda spełnia przepisy o czasie dysponowania i ochronie danych. Przed jej przyjazdem Ewa Lis robi samoocenę: czy kontrole w procesie alarmowania działają. Czy to MEA02, czy MEA03? Ustalenie, jakie przepisy obowiązują komendę, i ocena, czy są spełnione, to MEA03. Sprawdzenie, czy własne mechanizmy kontrolne działają – nawet te, które istnieją po to, żeby spełnić przepis – to MEA02. FW-PL wprost wiąże MEA02 z oszacowaniem, czy mechanizmy kontrolne pozwalają spełnić wymogi zgodności. **Rozstrzygnięcie:** pytaj „co sprawdzamy?”. Nasze mechanizmy kontrolne → MEA02. Wymogi z zewnątrz i ich spełnienie → MEA03. Sam mechanizm działający w procesie → DSS06."
+    "zaawansowany": "W procesie płatności banku są zabezpieczenia: blokada przelewu powyżej limitu bez drugiego zatwierdzenia i „dwie pary oczu” przy zmianie danych kontrahenta. To [[proc-dss06]]. Audytorka wewnętrzna co kwartał sprawdza na próbce, czy te zabezpieczenia działają w praktyce. To [[proc-mea02]]. Wyniki idą do zarządu, a poprawki wracają do właścicieli procesów.",
+    "skrajny": "Regulator (urząd nadzoru finansowego) zapowiada kontrolę: czy bank spełnia przepisy o ochronie danych i raportowaniu incydentów. Przed kontrolą audytorka wewnętrzna robi samoocenę: czy kontrole w procesie płatności działają. Czy to MEA02, czy MEA03? Ustalenie, jakie przepisy obowiązują bank, i ocena, czy są spełnione, to MEA03. Sprawdzenie, czy własne mechanizmy kontrolne działają – nawet te, które istnieją po to, żeby spełnić przepis – to MEA02. FW-PL wprost wiąże MEA02 z oszacowaniem, czy mechanizmy kontrolne pozwalają spełnić wymogi zgodności. **Rozstrzygnięcie:** pytaj „co sprawdzamy?”. Nasze mechanizmy kontrolne → MEA02. Wymogi z zewnątrz i ich spełnienie → MEA03. Sam mechanizm działający w procesie → DSS06."
   },
   "zagmatwania": [
     {
@@ -119,8 +119,8 @@
   ],
   "mentor": {
     "czestyBlad": "Uczeń wybiera MEA03, gdy pytanie wspomina przepis, choć pyta o działanie mechanizmu kontrolnego.",
-    "jakTlumaczyc": "MEA02 to przegląd gaśnic w budynku: czy działają. MEA03 to sprawdzenie, ile gaśnic wymaga przepis i czy budynek je ma.",
-    "pytanieKontrolne": "Lis sprawdza na próbce, czy konta odchodzących dyżurnych są blokowane w ciągu doby, jak każe procedura komendy. MEA02 czy MEA03?",
-    "odpowiedzKontrolna": "**MEA02** – ocenia skuteczność wewnętrznego mechanizmu kontrolnego. MEA03 byłby wtedy, gdyby ustalała, czy komenda spełnia zewnętrzny przepis."
+    "jakTlumaczyc": "MEA02 to sprawdzenie, czy hamulce w Twoim aucie naprawdę działają. MEA03 to sprawdzenie, czego wymaga przegląd techniczny i czy auto to spełnia.",
+    "pytanieKontrolne": "Audytorka wewnętrzna sprawdza na próbce, czy konta odchodzących pracowników są blokowane w ciągu doby, jak każe procedura banku. MEA02 czy MEA03?",
+    "odpowiedzKontrolna": "**MEA02** – ocenia skuteczność wewnętrznego mechanizmu kontrolnego. MEA03 byłby wtedy, gdyby ustalała, czy bank spełnia zewnętrzny przepis."
   }
 }

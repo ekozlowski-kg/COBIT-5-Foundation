@@ -1,0 +1,47 @@
+[
+  {
+    "id": "q-sk-raci-i-1",
+    "typ": "egzamin",
+    "skrajnosc": true,
+    "atom": "raci-i",
+    "sylabus": [
+      "EN-02-25"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Naczelnik dostaje co miesiąc raport z aktualizacji listy numerów i odpowiada za jej poprawność. Jaką literę RACI ma przy tym zadaniu?",
+    "opcje": [
+      {
+        "tekst": "A, bo odpowiada za powodzenie. Raporty są mu potrzebne do nadzoru.",
+        "poprawna": true,
+        "wyjasnienie": "Tak. Rola rozliczana zawsze powinna otrzymywać odpowiednie informacje, żeby nadzorować zadanie (s. 92). Nadal jest A."
+      },
+      {
+        "tekst": "I, bo otrzymuje informacje o postępach.",
+        "poprawna": false,
+        "wyjasnienie": "Za wąsko. Dostawanie raportów nie wystarcza. Odpowiedzialność za wynik czyni go rolą A.",
+        "pulapka": "zbyt-waskie"
+      },
+      {
+        "tekst": "I oraz A naraz, bo informowanie i rozliczanie to osobne obowiązki.",
+        "poprawna": false,
+        "wyjasnienie": "Informowanie roli A (odpowiedzialnej decyzyjnie) jest częścią tej roli, a nie osobną literą I.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "C, bo raport to dla niego dane wejściowe.",
+        "poprawna": false,
+        "wyjasnienie": "Odwrotnie. C dostarcza wejścia w rozmowie dwukierunkowej. Tu raport płynie do naczelnika.",
+        "pulapka": "odwrocone"
+      }
+    ],
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 92,
+        "cytat": "rola „rozliczana” powinna zawsze otrzymywać odpowiednie informacje"
+      }
+    ],
+    "status": "oficjalne"
+  }
+]

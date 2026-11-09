@@ -1,0 +1,91 @@
+[
+  {
+    "id": "q-skr-atrybuty-procesu-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Ewa Lis oceniła proces powiadamiania: PA 1.1 = W, PA 2.1 = P, PA 2.2 = P, PA 3.1 = W, PA 3.2 = W (skala egzaminacyjna N/C/W/P). Jaki poziom zdolności osiąga proces?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "oficjalne",
+    "skrajnosc": true,
+    "atom": "atrybuty-procesu",
+    "opcje": [
+      {
+        "tekst": "Poziom 1, bo PA 1.1 nie ma oceny P, a to blokuje wyższe poziomy",
+        "poprawna": true,
+        "wyjasnienie": "Poziom n wymaga W lub P na atrybutach poziomu n i P na wszystkich atrybutach niższych. PA 1.1 = W wystarcza na poziom 1, ale nie pozwala wejść wyżej."
+      },
+      {
+        "tekst": "Poziom 3, bo atrybuty poziomu 3 mają W, a atrybuty poziomu 2 mają P",
+        "poprawna": false,
+        "wyjasnienie": "Sprawdzono tylko poziom bezpośrednio niższy. PA 1.1 też musiałby mieć P.",
+        "pulapka": "zbyt-waskie"
+      },
+      {
+        "tekst": "Poziom 2, bo atrybuty poziomu 2 mają P",
+        "poprawna": false,
+        "wyjasnienie": "Poziom 2 wymaga też P na PA 1.1, a jest tylko W.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Poziom 0, bo PA 1.1 nie jest oceniony na P",
+        "poprawna": false,
+        "wyjasnienie": "Do poziomu 1 wystarczy W na PA 1.1. P jest potrzebne dopiero do wejścia na poziom 2.",
+        "pulapka": "falsz"
+      }
+    ]
+  },
+  {
+    "id": "q-skr-fazy-wdrozenia-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "IM-02-06",
+      "IM-02-07"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Ewa Lis ocenia aktualny stan procesu powiadamiania i szacuje jego zdolność, żeby wskazać problemy. W której fazie cyklu życia wdrożenia to następuje?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 38
+      }
+    ],
+    "status": "oficjalne",
+    "skrajnosc": true,
+    "atom": "fazy-wdrozenia",
+    "opcje": [
+      {
+        "tekst": "W fazie 2, odpowiadającej na pytanie „Gdzie jesteśmy teraz?”",
+        "poprawna": true,
+        "wyjasnienie": "s. 38: w fazie 2 przeprowadza się ocenę aktualnego stanu oraz szacowanie potencjału procesu."
+      },
+      {
+        "tekst": "W fazie 6, odpowiadającej na pytanie „Czy dotarliśmy do celu?”",
+        "poprawna": false,
+        "wyjasnienie": "W fazie 6 monitoruje się uzyskanie korzyści i zrównoważone wykorzystanie zmian.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "W fazie 3, odpowiadającej na pytanie „Dokąd chcemy dojść?”",
+        "poprawna": false,
+        "wyjasnienie": "W fazie 3 określa się cel i analizuje luki, korzystając z wyniku oceny z fazy 2.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "W fazie 1, odpowiadającej na pytanie „Jakie są wyznaczniki?”",
+        "poprawna": false,
+        "wyjasnienie": "W fazie 1 uznaje się potrzebę zmiany i identyfikuje punkty zapalne oraz czynniki inicjujące.",
+        "pulapka": "falsz"
+      }
+    ]
+  }
+]

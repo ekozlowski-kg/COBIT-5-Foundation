@@ -1,0 +1,443 @@
+[
+  {
+    "id": "q-pr-06-01",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-08"
+    ],
+    "lekcja": "pr-06-zasada-2",
+    "bloom": "wiedza",
+    "trudnosc": 2,
+    "tresc": "Komenda opisuje swój system Ładu nad IT zdaniem: „obejmuje komendę powiatową i wszystkie podległe jednostki”. Który komponent Podejścia do Ładu (Rysunek 8) opisuje to zdanie?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 23,
+        "ilustracja": "8"
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Cel Ładu",
+        "poprawna": false,
+        "wyjasnienie": "Cel to tworzenie wartości, a nie obszar objęty Ładem.",
+        "zycie": "W życiu to tak, jakbyś pytany, które pokoje obejmie remont, odpowiedział, że chodzi o wygodny dom.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Zakres Ładu",
+        "poprawna": true,
+        "wyjasnienie": "Zakres mówi, czego dotyczy Ład: całej organizacji, jednostki, aktywów (s. 24)."
+      },
+      {
+        "tekst": "Aktywatory Ładu",
+        "poprawna": false,
+        "wyjasnienie": "Aktywatory to środki, np. struktury i procesy.",
+        "zycie": "W życiu to tak, jakbyś pytany, które pokoje obejmie remont, wymienił narzędzia i ekipę.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Role, działania i relacje",
+        "poprawna": false,
+        "wyjasnienie": "To kto i jak sprawuje Ład.",
+        "zycie": "W życiu to tak, jakbyś pytany, które pokoje obejmie remont, opowiadał, kto komu zleca prace.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-pr-06-03",
+    "typ": "studium",
+    "sylabus": [
+      "PR-02-09"
+    ],
+    "lekcja": "pr-06-zasada-2",
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Który opis roli z Rysunku 9 pasuje do kierownika SK?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 24,
+        "ilustracja": "9"
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Rola, która deleguje uprawnienia organowi Ładu",
+        "poprawna": false,
+        "wyjasnienie": "To interesariusze (właściciele).",
+        "zycie": "W życiu to tak, jakbyś brygadzistę na budowie pomylił z właścicielem działki, który zleca budowę.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Rola, która wyznacza kierunek i jest rozliczana przed interesariuszami",
+        "poprawna": false,
+        "wyjasnienie": "To organ Ładu (komendant).",
+        "zycie": "W życiu to tak, jakbyś brygadzistę pomylił z inwestorem, który decyduje, jaki dom ma powstać.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Rola, która instruuje i dopasowuje działania podległych osób oraz monitoruje realizację kierunku",
+        "poprawna": true,
+        "wyjasnienie": "To kierownictwo (Rysunek 9)."
+      },
+      {
+        "tekst": "Rola, która wykonuje działania i raportuje wyżej",
+        "poprawna": false,
+        "wyjasnienie": "To role operacyjne (dyżurni).",
+        "zycie": "W życiu to tak, jakbyś brygadzistę pomylił z murarzem, który kładzie cegły i melduje postęp.",
+        "pulapka": "odwrocone"
+      }
+    ],
+    "scenariusz": "Kierownik SK co tydzień zbiera raporty od dyżurnych, wydaje im polecenia i sprawdza, czy prace idą zgodnie z kierunkiem zatwierdzonym przez komendanta."
+  },
+  {
+    "id": "q-pr-08-03",
+    "typ": "studium",
+    "sylabus": [
+      "PR-01-02",
+      "PR-01-01"
+    ],
+    "lekcja": "pr-08-zasada-4",
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Która zasada COBIT 5 najlepiej wyjaśnia porażkę wdrożenia?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 27
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 28
+      }
+    ],
+    "status": "oficjalne",
+    "scenariusz": "Komenda kupiła nowoczesny system SK. Dyżurni nie przeszli szkoleń, procedury nie zostały zaktualizowane, a starsi dyżurni otwarcie mówią, że „stary system był lepszy”. Po pół roku czas dysponowania się nie zmienił.",
+    "opcje": [
+      {
+        "tekst": "Zasada 2 – Pokrycie całej organizacji",
+        "poprawna": false,
+        "wyjasnienie": "Problem nie wynika z zakresu Ładu, tylko z braku współdziałania aktywatorów.",
+        "zycie": "W życiu to tak, jakbyś nieużywany nowy piekarnik tłumaczył tym, że remont objął za mało pokoi.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Zasada 3 – Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej",
+        "poprawna": false,
+        "wyjasnienie": "Tu nie chodzi o integrację standardów.",
+        "zycie": "W życiu to tak, jakbyś nieużywany nowy piekarnik tłumaczył tym, że przepisy są z różnych książek kucharskich.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Zasada 4 – podejście holistyczne",
+        "poprawna": true,
+        "wyjasnienie": "Sam system (aktywator 6) nie zadziała bez procesów, kompetencji i kultury. To istota Zasady 4.",
+        "zycie": "W życiu to tak, jakbyś kupił świetny piekarnik, ale nikt nie umie gotować i nie ma przepisów."
+      },
+      {
+        "tekst": "Zasada 5 – Oddzielenie Ładu od Zarządzania",
+        "poprawna": false,
+        "wyjasnienie": "Podział ról nie jest tu głównym problemem.",
+        "zycie": "W życiu to tak, jakbyś nieużywany nowy piekarnik tłumaczył tym, że nie ustalono, kto decyduje o menu.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-pr-09-02",
+    "typ": "klasyfikacja",
+    "sylabus": [
+      "PR-02-12"
+    ],
+    "lekcja": "pr-09b-kategorie-celow-aktywatora",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Do której kategorii celów aktywatora należy każde wymaganie?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "oficjalne",
+    "kategorie": [
+      "Jakość wewnętrzna",
+      "Jakość kontekstowa",
+      "Dostęp i bezpieczeństwo"
+    ],
+    "elementy": [
+      {
+        "tekst": "Wyniki są dokładne i obiektywne",
+        "kategoria": "Jakość wewnętrzna",
+        "wyjasnienie": "Dokładność i obiektywność to jakość wewnętrzna (rzeczywista)."
+      },
+      {
+        "tekst": "Raport jest aktualny, kompletny i zrozumiały dla odbiorcy",
+        "kategoria": "Jakość kontekstowa",
+        "wyjasnienie": "Dopasowanie do celu w kontekście."
+      },
+      {
+        "tekst": "System jest dostępny, gdy dyżurny go potrzebuje",
+        "kategoria": "Dostęp i bezpieczeństwo",
+        "wyjasnienie": "Dostępność w razie potrzeby."
+      },
+      {
+        "tekst": "Dane zgłaszającego widzą tylko uprawnieni",
+        "kategoria": "Dostęp i bezpieczeństwo",
+        "wyjasnienie": "Zabezpieczenie wyników."
+      },
+      {
+        "tekst": "Informacja jest istotna dla podejmowanej decyzji",
+        "kategoria": "Jakość kontekstowa",
+        "wyjasnienie": "Istotność to jakość kontekstowa."
+      }
+    ]
+  },
+  {
+    "id": "q-pr-09-03",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-12"
+    ],
+    "lekcja": "pr-09b-kategorie-celow-aktywatora",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Komendant formułuje wymagania wobec raportu z działań ratowniczych. Które wymaganie należy do kategorii **jakości kontekstowej**?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Raport zawiera wszystkie potrzebne komendantowi dane i jest aktualny w chwili odprawy",
+        "poprawna": true,
+        "wyjasnienie": "Kompletność i aktualność to jakość kontekstowa (s. 29)."
+      },
+      {
+        "tekst": "Dane w raporcie są dokładne i obiektywne",
+        "poprawna": false,
+        "wyjasnienie": "To jakość wewnętrzna.",
+        "zycie": "W życiu to tak, jakbyś pytany, czy prognoza przydała się na wycieczkę, odpowiadał tylko, że była dokładna.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Raport mogą otworzyć tylko osoby uprawnione",
+        "poprawna": false,
+        "wyjasnienie": "To dostęp i bezpieczeństwo.",
+        "zycie": "W życiu to tak, jakbyś pytany, czy prognoza przydała się na wycieczkę, odpowiadał, że zna ją tylko rodzina.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Raport przygotowano według sprawdzonego wzorca z innej komendy",
+        "poprawna": false,
+        "wyjasnienie": "To wymiar dobrych praktyk, a nie kategoria celu.",
+        "zycie": "W życiu to tak, jakbyś pytany, czy tort smakował gościom, odpowiadał, że upieczono go według przepisu babci.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-pr-10-02",
+    "typ": "klasyfikacja",
+    "sylabus": [
+      "PR-02-13"
+    ],
+    "lekcja": "pr-10-wskazniki",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Wskaźnik wiodący czy opóźniony?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "oficjalne",
+    "kategorie": [
+      "Wskaźnik wiodący",
+      "Wskaźnik opóźniony"
+    ],
+    "elementy": [
+      {
+        "tekst": "Czy potrzeby interesariuszy są uwzględnione?",
+        "kategoria": "Wskaźnik opóźniony",
+        "wyjasnienie": "Wynik aktywatora."
+      },
+      {
+        "tekst": "Czy cele aktywatora są osiągane?",
+        "kategoria": "Wskaźnik opóźniony",
+        "wyjasnienie": "Wynik aktywatora."
+      },
+      {
+        "tekst": "Czy cykl życia aktywatora jest zarządzany?",
+        "kategoria": "Wskaźnik wiodący",
+        "wyjasnienie": "Funkcjonowanie aktywatora."
+      },
+      {
+        "tekst": "Czy stosowane są dobre praktyki?",
+        "kategoria": "Wskaźnik wiodący",
+        "wyjasnienie": "Funkcjonowanie aktywatora."
+      },
+      {
+        "tekst": "Odsetek dyżurnych przeszkolonych w tym kwartale",
+        "kategoria": "Wskaźnik wiodący",
+        "wyjasnienie": "Mierzy, czy praktyka jest stosowana, i przewiduje wynik."
+      },
+      {
+        "tekst": "Średni czas dotarcia do zdarzenia w ubiegłym roku",
+        "kategoria": "Wskaźnik opóźniony",
+        "wyjasnienie": "Mierzy wynik, po fakcie."
+      }
+    ]
+  },
+  {
+    "id": "q-pr-10-03",
+    "typ": "studium",
+    "sylabus": [
+      "PR-02-13"
+    ],
+    "lekcja": "pr-10-wskazniki",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Jak COBIT 5 nazywa taki miernik?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Wskaźnik opóźniony – mierzy stopień osiągnięcia celu",
+        "poprawna": true,
+        "wyjasnienie": "Mierniki osiągnięcia celów to wskaźniki opóźnione (s. 29)."
+      },
+      {
+        "tekst": "Wskaźnik wiodący – mierzy stosowanie praktyk",
+        "poprawna": false,
+        "wyjasnienie": "Tu mierzy się wynik, a nie praktyki.",
+        "zycie": "W życiu to tak, jakbyś wynik na wadze po miesiącu diety nazwał licznikiem zjedzonych sałatek.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Wskaźnik wiodący – przewiduje przyszłe potrzeby interesariuszy",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywa definicja. Wskaźniki wiodące mierzą stosowanie praktyk i zarządzanie cyklem życia, a nie przewidują potrzeb.",
+        "zycie": "W życiu to tak, jakbyś twierdził, że licznik przejechanych kilometrów przewiduje, dokąd pojedziesz jutro.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Atrybut PA 4.1 – Miara procesu",
+        "poprawna": false,
+        "wyjasnienie": "To model zdolności, a nie model aktywatora.",
+        "zycie": "W życiu to tak, jakbyś termometr w kuchni pomylił z oceną ze szkoły gotowania: inny miernik, inny system.",
+        "pulapka": "inna-kategoria"
+      }
+    ],
+    "scenariusz": "Komenda co kwartał porównuje średni czas dotarcia do zdarzeń z założonym celem."
+  },
+  {
+    "id": "q-pr-13-04",
+    "typ": "studium",
+    "sylabus": [
+      "PR-01-04"
+    ],
+    "lekcja": "pr-13-domeny-zarzadzania",
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "tresc": "Który proces COBIT 5 najlepiej odpowiada **drugiemu** działaniu?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 33,
+        "ilustracja": "16"
+      }
+    ],
+    "status": "oficjalne",
+    "scenariusz": "W nocy padł serwer systemu dysponowania. Dyżurny informatyk przywrócił działanie w 20 minut (działanie 1). Ponieważ to już czwarta taka awaria w miesiącu, kierownik zlecił analizę przyczyny i trwałe usunięcie usterki (działanie 2).",
+    "opcje": [
+      {
+        "tekst": "DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami",
+        "poprawna": false,
+        "wyjasnienie": "To działanie 1: szybkie przywrócenie usługi.",
+        "zycie": "W życiu to tak, jakbyś pytany o naprawę przeciekającej rury opisał tylko wycieranie podłogi.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "DSS03 Zarządzanie problemami",
+        "poprawna": true,
+        "wyjasnienie": "Usuwanie przyczyny powtarzających się incydentów to zarządzanie problemami."
+      },
+      {
+        "tekst": "DSS04 Zarządzanie ciągłością",
+        "poprawna": false,
+        "wyjasnienie": "Ciągłość dotyczy planów na wypadek poważnych zakłóceń, a nie analizy przyczyn usterki.",
+        "zycie": "W życiu to tak, jakbyś zamiast szukać przyczyny przecieku układał plan ewakuacji na wypadek powodzi.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "MEA01 Monitorowanie wydajności i zgodności",
+        "poprawna": false,
+        "wyjasnienie": "MEA mierzy i raportuje, ale nie usuwa przyczyn.",
+        "zycie": "W życiu to tak, jakbyś zapisywał w zeszycie kałuże pod zlewem, zamiast naprawić rurę.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-pr-13-05",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-04",
+      "EN-02-23"
+    ],
+    "lekcja": "pr-13-domeny-zarzadzania",
+    "bloom": "wiedza",
+    "trudnosc": 2,
+    "tresc": "Informatyk w komendzie obsługuje zgłoszenia użytkowników i incydenty (Service Desk). Według Rysunku 39 jego kategoria umiejętności należy do tej samej domeny co:",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 88,
+        "ilustracja": "39"
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "architektura korporacyjna i strategia IT",
+        "poprawna": false,
+        "wyjasnienie": "To domena planowania (APO).",
+        "zycie": "W życiu to tak, jakbyś kelnera przypisał do działu, który układa menu restauracji na przyszły rok.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "zarządzanie problemami i administrowanie bazami danych",
+        "poprawna": true,
+        "wyjasnienie": "Wszystkie trzy należą do domeny DSS (Rysunek 39)."
+      },
+      {
+        "tekst": "zarządzanie projektami i programowanie",
+        "poprawna": false,
+        "wyjasnienie": "To domena budowania (BAI).",
+        "zycie": "W życiu to tak, jakbyś kelnera przypisał do ekipy, która buduje nową salę restauracji.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "weryfikacja zgodności i audyt mechanizmów kontroli wewnętrznej",
+        "poprawna": false,
+        "wyjasnienie": "To domena monitorowania (MEA).",
+        "zycie": "W życiu to tak, jakbyś kelnera przypisał do inspektora sanepidu, który kontroluje restaurację.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  }
+]

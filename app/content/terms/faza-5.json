@@ -31,10 +31,10 @@
   "jakDziala": "Wdrażasz usprawnienia według planu. Ustalasz miary i monitorowanie na podstawie celów i mierników COBIT. Najwyższe kierownictwo wyraźnie to wspiera, a biznes i IT przejmują własność rozwiązania.",
   "dlaczegoWazne": "Wdrażanie usprawnień to faza 5, a budowanie usprawnień to faza 4. Miary ustala się w fazie 5, a korzysta z nich w fazie 6.",
   "przyklady": {
-    "zycie": "Masz plan treningów i jadłospis. Teraz naprawdę biegasz we wtorki i gotujesz według listy. Wieszasz w kuchni kartkę, na której co tydzień zapiszesz wagę. To faza 5: robisz i ustawiasz pomiar.",
+    "zycie": "Masz plan treningów i plan posiłków. Teraz naprawdę biegasz we wtorki i gotujesz według listy. Wieszasz w kuchni kartkę, na której co tydzień zapiszesz wagę. To faza 5: robisz i ustawiasz pomiar.",
     "biuro": "Teczki trafiają na nowe regały z nowymi opisami. Przy każdym szukaniu zapisujesz czas na kartce przy drzwiach.",
-    "organizacja": "Sklep zmienia kuriera, przestawia półki i włącza licznik czasu wysyłki. Starostwo uruchamia e-rezerwację, a system notuje czas każdej wizyty.",
-    "psp": "**Pierwszy alarm po nowemu**\nInformatyczka Ola Dudek włącza nową konfigurację Syreny i zasilanie awaryjne serwera. Dyżurni pracują według nowej procedury, a liderzy pomagają kolegom przy pierwszych alarmach. Komendantka Anna Wrzos przychodzi do SK i pokazuje, że jej na tym zależy. Dudek ustawia licznik czasu alarmu do OSP. To [[faza-5|faza 5: Jak się tam dostaniemy?]]",
+    "organizacja": "Sklep zmienia kuriera, przestawia półki i włącza licznik czasu wysyłki.",
+    "admin": "Starostwo uruchamia e-rezerwację dla mieszkańców. Od pierwszego dnia system notuje czas oczekiwania i czas każdej wizyty. Starosta publicznie popiera zmianę, a wydział komunikacji przejmuje system jako swój.",
     "it": "Usprawniony DSS02 rusza w praktyce. Mierniki, np. odsetek incydentów rozwiązanych w uzgodnionym czasie, trafiają do monitorowania w MEA01."
   },
   "nieMylicZ": [
@@ -83,7 +83,7 @@
   "mapa": "faza-5",
   "glebokosc": {
     "prosty": "Masz przepis i zakupy. Teraz gotujesz i stawiasz obiad na stole. Przy okazji ustawiasz minutnik, żeby wiedzieć, ile to trwało. Gotowanie to wdrożenie, a minutnik – pomiar.",
-    "zaawansowany": "Plan z [[faza-4|fazy 4]] wchodzi w życie: Dudek uruchamia usprawnienia, a dyżurni zaczynają używać nowej Syreny. To działanie pierścienia [[pierscien-zmiana|Aktywowanie zmiany]]: „Działaj i używaj”. Wrzos jest widoczna w SK, bo bez wsparcia góry ludzie wrócą do starych nawyków. Licznik czasu alarmu to miara, którą w [[faza-6|fazie 6]] wykorzysta pomiar korzyści.",
+    "zaawansowany": "Plan z [[faza-4|fazy 4]] wchodzi w życie: dział IT uruchamia usprawnienia, a konsultanci helpdesku zaczynają używać nowego systemu zgłoszeń. To działanie pierścienia [[pierscien-zmiana|Aktywowanie zmiany]]: „Działaj i używaj”. Zarząd jest widoczny w zespołach, bo bez wsparcia góry ludzie wrócą do starych nawyków. Czas rozwiązania incydentu to miara, którą w [[faza-6|fazie 6]] wykorzysta pomiar korzyści.",
     "skrajny": "Dwa działania brzmią prawie tak samo: „Działaj i używaj” (pierścień zmiany) i „Eksploatacja i pomiar” (pierścień doskonalenia). Pierwsze jest w fazie 5, drugie w fazie 6. W fazie 5 ludzie zaczynają pracować po nowemu, a zespół ustawia miary. W fazie 6 rozwiązanie już działa na co dzień i jest mierzone, a program sprawdza korzyści. Kusi też myśl, że miary ustala się dopiero wtedy, gdy jest co mierzyć. Podręcznik umieszcza jednak definiowanie miar i monitorowania w fazie 5. **Rozstrzygnięcie:** pierwsze użycie i ustawienie miar to faza 5; codzienna eksploatacja z pomiarem i sprawdzanie korzyści to faza 6 („Działaj i używaj” – nazwa z arkusza SP1; „Eksploatacja i pomiar” – tłumaczenie kursu)."
   },
   "zagmatwania": [

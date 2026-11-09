@@ -43,8 +43,8 @@
   "przyklady": {
     "zycie": "Rodzina przechodzi na segregację śmieci. Mama tłumaczy dzieciom, po co to jest, starszy syn pilnuje młodszego, a po miesiącu nikt już nie wrzuca szkła do plastiku. To aktywowanie zmiany: chodzi o ludzi i nawyki, nie o kosze.",
     "biuro": "Biuro przechodzi z papierowego kalendarza na wspólny grafik. Szefowa tłumaczy powody, pomaga najstarszej koleżance i chwali pierwszych chętnych.",
-    "organizacja": "Warsztat przechodzi z zeszytu na tablet: właściciel wysłuchuje obaw starszego mechanika i robi z najmłodszego „lidera tabletu”. W szkole wicedyrektorka organizuje dyżury pomocy przy e-dzienniku, aż papierowy dziennik znika.",
-    "psp": "**Grab i nowy ekran**\nDyżurny Paweł Grab mówi, że stara Syrena „była prostsza” i nie chce nowej. Naczelnik Marek Sikora nie wydaje rozkazu, tylko robi Graba współautorem instrukcji. Kasia Nowik zostaje liderką zmiany na swojej zmianie. Plan komunikacji mówi, co i kiedy usłyszy każda zmiana SK. To pierścień środkowy – [[pierscien-zmiana|Aktywowanie zmiany]].",
+    "organizacja": "Warsztat przechodzi z zeszytu na tablet: właściciel wysłuchuje obaw starszego mechanika i robi z najmłodszego „lidera tabletu”.",
+    "admin": "Gmina wprowadza e-dziennik w swoich szkołach. W szkole podstawowej wicedyrektorka wysłuchuje obaw starszych nauczycieli i organizuje dla nich cotygodniowe godziny pomocy. Najsprawniejsza nauczycielka zostaje „liderką e-dziennika”, aż papierowy dziennik znika.",
     "it": "Proces BAI05 (Zarządzanie wdrażaniem zmian organizacyjnych) ma praktyki odpowiadające działaniom tego pierścienia: od chęci zmiany po jej utrzymanie."
   },
   "nieMylicZ": [
@@ -95,8 +95,8 @@
   "mapa": "pierscien-zmiana",
   "glebokosc": {
     "prosty": "Kupujesz babci smartfon. Telefon to nie problem, problemem jest przekonanie babci, że warto. Siadasz z nią, pokazujesz zdjęcia wnuków i odwiedzasz ją co tydzień. Po miesiącu babcia sama dzwoni na wideo.",
-    "zaawansowany": "W fazie 2 Sikora tworzy zespół wdrożeniowy, a w fazie 4 wskazuje odtwórców ról: liderów zmiany na każdej zmianie SK. W fazie 3 komenda komunikuje rezultat: „żaden alarm nie może zginąć”. Program ([[pierscien-program]]) pilnuje budżetu, ale bez tej pracy z ludźmi dyżurni obejdą nowy system. Dlatego plan komunikacji ma osobne treści na każdą fazę.",
-    "skrajny": "Grab dalej wysyła alarmy „po staremu”, więc komendantka Wrzos wydaje rozkaz: od poniedziałku tylko nowa Syrena. Czy rozkaz to jeszcze Aktywowanie zmiany, czy już porażka tego pierścienia? Podręcznik mówi wprost, że trwałą poprawę daje zaangażowanie **albo**, gdy trzeba, egzekwowanie zgodności. Kusi też wrzucenie tej sceny do aktywatora „Kultura, etyka i zachowanie”. Aktywator opisuje jednak stałą kulturę komendy, a pierścień – pracę z ludźmi w tym wdrożeniu. **Rozstrzygnięcie:** zarówno przekonywanie, jak i egzekwowanie zgodności należą do Aktywowania zmiany; liczy się to, że dotyczą ludzi i zachowań podczas wdrożenia."
+    "zaawansowany": "W fazie 2 dyrektor IT tworzy zespół wdrożeniowy, a w fazie 4 wskazuje odtwórców ról: liderów zmiany w każdym zespole obsługi klienta. W fazie 3 bank komunikuje rezultat: „żadne powiadomienie dla klienta nie może zginąć”. Program ([[pierscien-program]]) pilnuje budżetu, ale bez tej pracy z ludźmi konsultanci obejdą nowy system. Dlatego plan komunikacji ma osobne treści na każdą fazę.",
+    "skrajny": "Doświadczony konsultant dalej wysyła powiadomienia „po staremu”, więc zarząd wydaje polecenie: od poniedziałku tylko nowy system. Czy polecenie to jeszcze Aktywowanie zmiany, czy już porażka tego pierścienia? Podręcznik mówi wprost, że trwałą poprawę daje zaangażowanie **albo**, gdy trzeba, egzekwowanie zgodności. Kusi też wrzucenie tej sceny do aktywatora „Kultura, etyka i zachowanie”. Aktywator opisuje jednak stałą kulturę organizacji, a pierścień – pracę z ludźmi w tym wdrożeniu. **Rozstrzygnięcie:** zarówno przekonywanie, jak i egzekwowanie zgodności należą do Aktywowania zmiany; liczy się to, że dotyczą ludzi i zachowań podczas wdrożenia."
   },
   "zagmatwania": [
     {

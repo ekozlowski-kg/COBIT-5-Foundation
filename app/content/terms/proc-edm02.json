@@ -36,8 +36,8 @@
   "przyklady": {
     "zycie": "Kupiliście robota sprzątającego za 1500 zł. Po trzech miesiącach pytacie: czy naprawdę mamy więcej wolnego czasu? Jeśli robot stoi w szafie, korzyści nie ma, choć zakup się „udał”. Pilnowanie tej różnicy to EDM02.",
     "biuro": "Biuro kupiło skaner dokumentów, żeby szybciej odpowiadać klientom. Po kwartale kierownik sprawdza, czy odpowiedzi rzeczywiście są szybsze. Jeśli nie, zmienia sposób pracy albo przestaje płacić za abonament.",
-    "organizacja": "Zarząd sklepu internetowego zatwierdził nową bramkę płatności, bo miała zmniejszyć porzucanie koszyków. Pół roku po wdrożeniu zarząd sprawdza, czy porzuceń jest mniej. Nie liczy, czy projekt skończył się w terminie. Liczy, czy przyszła korzyść. Rada powiatu dała pieniądze na e-rejestrację pojazdów. Po roku pyta starostę: o ile skróciły się kolejki? Gdy korzyści brak, rada każe poprawić usługę albo przestać na nią wydawać. To EDM02.",
-    "psp": "**Ile jest warta minuta.** Pół roku po naprawie Syreny komendantka Anna Wrzos pyta: czy alarm do OSP dochodzi szybciej? Księgowa Halina Mak pokazuje uzasadnienie biznesowe, a naczelnik Sikora czasy z ćwiczeń. Wrzos ocenia, czy korzyść przyszła, i decyduje o dalszych pieniądzach. To jest [[proc-edm02|EDM02]].",
+    "organizacja": "Zarząd sklepu internetowego zatwierdził nową bramkę płatności, bo miała zmniejszyć porzucanie koszyków. Pół roku po wdrożeniu zarząd sprawdza, czy porzuceń jest mniej. Nie liczy, czy projekt skończył się w terminie. Liczy, czy przyszła korzyść.",
+    "admin": "Rada powiatu dała pieniądze na e-rejestrację pojazdów. Po roku pyta starostę: o ile skróciły się kolejki w wydziale komunikacji? Gdy korzyści brak, rada każe poprawić usługę albo przestać na nią wydawać. To EDM02.",
     "it": "Rada nadzorcza przegląda portfel inwestycji IT z mierzonymi korzyściami (np. czas obsługi klienta). Ocenę wartości i decyzje o dalszym finansowaniu podejmuje w EDM02, a portfel układa [[proc-apo05]]."
   },
   "nieMylicZ": [
@@ -90,8 +90,8 @@
   "mapa": "proc-edm02",
   "glebokosc": {
     "prosty": "Kupujesz rower, żeby jeździć do pracy i oszczędzać na biletach. Po miesiącu sprawdzasz: jeździsz czy rower stoi? Sam zakup to nie korzyść. Korzyść to mniejsze wydatki i lepsza kondycja.",
-    "zaawansowany": "Komendantka Wrzos zatwierdza pieniądze na zasilanie awaryjne serwera Syreny. Oczekuje korzyści: alarm ma działać także bez prądu z sieci. Naczelnik Sikora ustawia tę inwestycję w portfelu ([[proc-apo05]]), a projekt prowadzi jego zespół. Po ćwiczeniu nocnym Wrzos sprawdza, czy Syrena zadziałała. Ocena wartości i decyzja o dalszych pieniądzach to EDM02.",
-    "skrajny": "Projekt zasilania awaryjnego skończył się w terminie i w budżecie. Kierownik projektu raportuje sukces. Ale nikt nie przeszkolił dyżurnych, więc przy braku prądu nie umieją przełączyć Syreny. Z punktu widzenia projektu wszystko gra. Z punktu widzenia EDM02 korzyści nie ma. Organ Ładu ocenia wartość dla organizacji, a nie samo dowiezienie projektu. **Rozstrzygnięcie:** „projekt zakończony” to jeszcze nie „korzyść zrealizowana”. Wartość rozlicza Ład (EDM02), a projekt prowadzi Zarządzanie (BAI01)."
+    "zaawansowany": "Zarząd banku zatwierdza pieniądze na zasilanie awaryjne centrum danych. Oczekuje korzyści: bankowość internetowa ma działać także bez prądu z sieci. Dyrektor IT ustawia tę inwestycję w portfelu ([[proc-apo05]]), a projekt prowadzi jego zespół. Po próbie nocnej zarząd sprawdza, czy systemy zadziałały. Ocena wartości i decyzja o dalszych pieniądzach to EDM02.",
+    "skrajny": "Projekt zasilania awaryjnego skończył się w terminie i w budżecie. Kierownik projektu raportuje sukces. Ale nikt nie przeszkolił operatorów centrum danych, więc przy braku prądu nie umieją przełączyć systemów. Z punktu widzenia projektu wszystko gra. Z punktu widzenia EDM02 korzyści nie ma. Organ Ładu ocenia wartość dla organizacji, a nie samo dowiezienie projektu. **Rozstrzygnięcie:** „projekt zakończony” to jeszcze nie „korzyść zrealizowana”. Wartość rozlicza Ład (EDM02), a projekt prowadzi Zarządzanie (BAI01)."
   },
   "zagmatwania": [
     {

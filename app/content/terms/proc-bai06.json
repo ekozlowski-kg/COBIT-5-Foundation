@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Wspólnota mieszkaniowa chce wymienić domofon. Administrator zgłasza pomysł, zarząd sprawdza koszt i wpływ na mieszkańców, wyznacza termin i ogłasza go na klatce. Po wymianie aktualizuje spis kodów. Nikt nie wymienia domofonu „na dziko” w nocy.",
     "biuro": "Kierowniczka chce zmienić wzór umowy. Najpierw pyta prawnika o skutki, ustala datę od 1 maja i zapisuje zmianę w rejestrze wzorów.",
-    "organizacja": "Programista sklepu zgłasza zmianę liczenia rabatów, kierownik ocenia ryzyko i zmiana wchodzi we wtorek o 6:00. W starostwie komitet zmian przesuwa aktualizację EZD na sobotę, a potem ją zamyka i opisuje.",
-    "psp": "**Wniosek o zmianę numerów.** Ola Dudek chce zmienić w Syrenie sposób wysyłania SMS-ów do OSP. Składa wniosek, a kpt. Sikora z Radą ds. Informatyki ocenia wpływ: co, jeśli zmiana zablokuje alarmy w nocy? Rada zatwierdza zmianę na wtorek rano, przy dyżurze Kasi Nowik. Po wdrożeniu Dudek zamyka wniosek i aktualizuje dokumentację. Ocena, zatwierdzenie i kontrola zmiany to [[proc-bai06]].",
+    "organizacja": "Programista sklepu zgłasza zmianę liczenia rabatów, kierownik ocenia ryzyko i zmiana wchodzi we wtorek o 6:00.",
+    "admin": "Dostawca systemu elektronicznego zarządzania dokumentacją (EZD) w starostwie zgłasza aktualizację. Komitet zmian – kierownik informatyki, sekretarz powiatu i kierowniczka kancelarii – ocenia ryzyko i przesuwa wdrożenie z czwartku na sobotę, gdy urząd nie przyjmuje interesantów. Po aktualizacji informatyk zamyka wniosek o zmianę i opisuje, co zmieniono.",
     "it": "Praktyki BAI06: ocena, priorytet i autoryzacja wniosków o zmianę, zmiany awaryjne, śledzenie statusu oraz zamknięcie i dokumentacja. Opis zmienionych elementów aktualizujesz w BAI10."
   },
   "nieMylicZ": [
@@ -85,8 +85,8 @@
   "mapa": "proc-bai06",
   "glebokosc": {
     "prosty": "W bloku chcesz przestawić ścianę w mieszkaniu. Najpierw pytasz zarządcę, czy to nie ściana nośna. Dostajesz zgodę, robisz remont w ustalonym terminie i zgłaszasz koniec prac. Zmiana jest kontrolowana od pomysłu do odbioru.",
-    "zaawansowany": "Ola Dudek chce przestawić w Syrenie kolejność wysyłki: najpierw OSP, potem JRG. Zgłasza zmianę, a Rada ds. Informatyki ocenia ryzyko i zatwierdza termin. To [[proc-bai06]]. Odbiór zmiany przez dyżurnych i jej uruchomienie to [[proc-bai07]], a wpisanie nowego ustawienia do opisu konfiguracji to [[proc-bai10]]. Jeśli dyżurni będą się opierać nowej kolejności, wkracza [[proc-bai05]].",
-    "skrajny": "O 2:00 dyżurna Kasia Nowik zgłasza, że Syrena nie wysyła SMS-ów. Ola Dudek przywraca usługę, zmieniając ustawienie bramki, bez czekania na Radę ds. Informatyki. Czy to w ogóle BAI06? Samo przywrócenie usługi to obsługa incydentu w DSS02. Ale zmiana ustawienia to zmiana awaryjna, a zmiany awaryjne są częścią BAI06. Wolno ją wprowadzić szybciej, ale trzeba ją zarejestrować, a potem ocenić i zatwierdzić po fakcie. Nowe ustawienie trzeba też wpisać do opisu konfiguracji (BAI10). **Rozstrzygnięcie:** „pilne” nie znaczy „poza kontrolą zmian”. Zmiana awaryjna idzie szybszą ścieżką BAI06, ale nigdy jej nie omija."
+    "zaawansowany": "Administratorka chce zmienić w systemie powiadamiania klientów kolejność wysyłki: najpierw powiadomienie w aplikacji, potem SMS. Zgłasza zmianę, a komitet ds. zmian ocenia ryzyko i zatwierdza termin. To [[proc-bai06]]. Odbiór zmiany przez użytkowników i jej uruchomienie to [[proc-bai07]], a wpisanie nowego ustawienia do opisu konfiguracji to [[proc-bai10]]. Jeśli pracownicy będą się opierać nowej kolejności, wkracza [[proc-bai05]].",
+    "skrajny": "O 2:00 konsultant helpdesku zgłasza, że system banku nie wysyła SMS-ów z kodami. Administratorka przywraca usługę, zmieniając ustawienie bramki, bez czekania na komitet ds. zmian. Czy to w ogóle BAI06? Samo przywrócenie usługi to obsługa incydentu w DSS02. Ale zmiana ustawienia to zmiana awaryjna, a zmiany awaryjne są częścią BAI06. Wolno ją wprowadzić szybciej, ale trzeba ją zarejestrować, a potem ocenić i zatwierdzić po fakcie. Nowe ustawienie trzeba też wpisać do opisu konfiguracji (BAI10). **Rozstrzygnięcie:** „pilne” nie znaczy „poza kontrolą zmian”. Zmiana awaryjna idzie szybszą ścieżką BAI06, ale nigdy jej nie omija."
   },
   "zagmatwania": [
     {

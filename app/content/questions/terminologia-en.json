@@ -1273,7 +1273,7 @@
       "poprawne": [
         "Responsible, Accountable, Consulted, Informed"
       ],
-      "wyjasnienie": "Oryginał ISACA: **Responsible, Accountable, Consulted, Informed** (wym. „resi czart”). Egzamin PL: „Tabela (diagram) RACI”; w podręczniku: „Tabela RACI”.",
+      "wyjasnienie": "Oryginał ISACA: **Responsible, Accountable, Consulted, Informed** (wym. „resi czart”). Egzamin PL: „Diagram RACI”; w podręczniku: „Tabela RACI”.",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -2413,22 +2413,22 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 2,
-      "tresc": "Tabela RACI dla zadania „Test syreny alarmowej”. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
+      "tresc": "Tabela RACI dla zadania „Test kopii zapasowych”. Wskaż zdania z błędnym terminem i podaj poprawny termin (EN i egzamin PL).",
       "twierdzenia": [
         {
-          "tekst": "Dyżurny, który sam wykonuje test, ma w tabeli literę A (Accountable).",
+          "tekst": "Administrator, który sam wykonuje test, ma w tabeli literę A (Accountable).",
           "poprawne": false,
           "wyjasnienie": "Kto wykonuje zadanie, jest R – Responsible (egzamin PL: „Odpowiedzialny wykonawczo”). A ma ten, kto rozlicza i zatwierdza wynik.",
           "blednyTermin": "A (Accountable)",
           "poprawka": "R (Responsible)"
         },
         {
-          "tekst": "Naczelnik, który odpowiada za sukces zadania i zatwierdza wynik, ma literę A (Accountable).",
+          "tekst": "CIO, który odpowiada za sukces zadania i zatwierdza wynik, ma literę A (Accountable).",
           "poprawne": true,
-          "wyjasnienie": "Tak. A = Accountable, „Rozliczany”; w zadaniu jest jedna osoba z A."
+          "wyjasnienie": "Tak. A = Accountable, „Odpowiedzialny decyzyjnie”; w zadaniu jest jedna osoba z A."
         },
         {
-          "tekst": "Kierownik łączności, którego tylko powiadamia się o wyniku testu, ma literę C (Consulted).",
+          "tekst": "Kierownik działu sprzedaży, którego tylko powiadamia się o wyniku testu, ma literę C (Consulted).",
           "poprawne": false,
           "wyjasnienie": "Kogo się tylko powiadamia, ten jest I – Informed. C – Consulted – to osoba, której zdania zasięga się przed wykonaniem.",
           "blednyTermin": "C (Consulted)",

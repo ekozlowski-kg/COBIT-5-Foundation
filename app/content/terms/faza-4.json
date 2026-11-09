@@ -17,7 +17,7 @@
   "pulapkaOpis": "„Budowanie usprawnień” brzmi jak robota w terenie, ale to faza 4. Samo „Wdrażanie usprawnień” to faza 5. Podręcznik nazywa działanie programu „Zaplanowanie programu”, a egzamin – „Planowanie programu”.",
   "skadNazwa": "Angielskie *What needs to be done?*. Nazwy działań: *Plan programme* → „Planowanie programu” (egzamin), *Identify role players* → „Identyfikacja odtwórców ról”, *Build improvements* → „Budowanie usprawnień” (podr. „Opracowanie udoskonaleń”).",
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "faza-3",
@@ -32,10 +32,10 @@
   "jakDziala": "Planujesz program i projekty wspierane przez uzasadnienia biznesowe. Wskazujesz odtwórców ról, czyli osoby do nowych zadań. Budujesz usprawnienia, ale jeszcze ich nie wdrażasz.",
   "dlaczegoWazne": "Hasło „projekty wspierane przez uzasadnienia biznesowe” wskazuje na egzaminie fazę 4. Identyfikacja odtwórców ról to też faza 4, nie 3.",
   "przyklady": {
-    "zycie": "Masz cel: minus 8 kg. Teraz rozpisujesz jadłospis, kupujesz karnet i umawiasz się z kolegą na wspólne bieganie we wtorki. Liczysz koszt i sprawdzasz, czy się opłaca. Jeszcze nie biegasz. To faza 4.",
+    "zycie": "Masz cel: minus 8 kg. Teraz rozpisujesz plan posiłków, kupujesz karnet i umawiasz się z kolegą na wspólne bieganie we wtorki. Liczysz koszt i sprawdzasz, czy się opłaca. Jeszcze nie biegasz. To faza 4.",
     "biuro": "Rozpisujesz zakup regałów i nowy opis teczek, z kosztem każdej rzeczy. Pani Ania zostaje opiekunką archiwum. Przenoszenie teczek dopiero w następnym kroku.",
-    "organizacja": "Sklep rozpisuje dwa projekty, zmianę kuriera i nowy magazyn, każdy z kosztorysem i zyskiem. Starostwo planuje e-rezerwację z budżetem i wyznacza dwie opiekunki systemu.",
-    "psp": "**Księgowa liczy**\nGłówna księgowa Halina Mak pisze uzasadnienie biznesowe dla każdego projektu: zasilanie serwera, nowa lista numerów, aplikacja. Naczelnik Marek Sikora wskazuje na każdej zmianie SK dyżurnego-lidera. Informatyczka Ola Dudek przygotowuje nową konfigurację Syreny, ale jej jeszcze nie włącza. To [[faza-4|faza 4: Co trzeba zrobić?]]",
+    "organizacja": "Sklep rozpisuje dwa projekty, zmianę kuriera i nowy magazyn, każdy z kosztorysem i zyskiem.",
+    "admin": "Starostwo rozpisuje projekt e-rezerwacji z budżetem i uzasadnieniem biznesowym: ile kosztuje i o ile skróci kolejki. Wyznacza dwie urzędniczki na opiekunki systemu. System jest przygotowany, ale mieszkańcy jeszcze z niego nie korzystają.",
     "it": "Każdy projekt prowadzisz według BAI01 i z uzasadnieniem biznesowym. Tabela RACI wskazuje, kto odpowiada za usprawniony proces DSS02."
   },
   "nieMylicZ": [
@@ -84,8 +84,8 @@
   "mapa": "faza-4",
   "glebokosc": {
     "prosty": "Przed przeprowadzką robisz listę: kto pakuje kuchnię, kto zamawia auto, ile to kosztuje. Pakujesz pudła, ale jeszcze nie jedziesz. Najpierw wszystko rozpisane i przygotowane, potem ruszasz.",
-    "zaawansowany": "Mapa drogowa z [[faza-3|fazy 3]] zamienia się w plan programu. Każdy projekt dostaje [[uzasadnienie-biznesowe]] od Haliny Mak. Pierścień [[pierscien-zmiana|Aktywowanie zmiany]] wskazuje odtwórców ról: liderów na zmianach SK. Pierścień doskonalenia buduje usprawnienia, np. nową procedurę, ale wdroży ją dopiero w [[faza-5|fazie 5]].",
-    "skrajny": "Halina Mak napisała pierwsze uzasadnienie biznesowe już w marcu, gdy komendantka szukała sponsora. Czy to znaczy, że uzasadnienie biznesowe należy do fazy 1? Podręcznik każe oprzeć inicjatywę na uzasadnieniu od początku i stale je aktualizować. Jednak na pytanie o fazę, w której **projekty są wspierane przez uzasadnienia biznesowe**, odpowiedź brzmi: faza 4. Druga pułapka: „Budowanie usprawnień” to faza 4, choć brzmi jak wdrażanie. **Rozstrzygnięcie:** uzasadnienie biznesowe żyje przez cały cykl, ale „projekty wspierane przez uzasadnienia biznesowe” to faza 4; budujesz w 4, wdrażasz w 5."
+    "zaawansowany": "Mapa drogowa z [[faza-3|fazy 3]] zamienia się w plan programu. Każdy projekt dostaje [[uzasadnienie-biznesowe]] od dyrektora finansowego. Pierścień [[pierscien-zmiana|Aktywowanie zmiany]] wskazuje odtwórców ról: liderów w zespołach helpdesku. Pierścień doskonalenia buduje usprawnienia, np. nową procedurę, ale wdroży ją dopiero w [[faza-5|fazie 5]].",
+    "skrajny": "Dyrektor finansowy napisał pierwsze uzasadnienie biznesowe już w marcu, gdy zarząd szukał sponsora. Czy to znaczy, że uzasadnienie biznesowe należy do fazy 1? Podręcznik każe oprzeć inicjatywę na uzasadnieniu od początku i stale je aktualizować. Jednak na pytanie o fazę, w której **projekty są wspierane przez uzasadnienia biznesowe**, odpowiedź brzmi: faza 4. Druga pułapka: „Budowanie usprawnień” to faza 4, choć brzmi jak wdrażanie. **Rozstrzygnięcie:** uzasadnienie biznesowe żyje przez cały cykl, ale „projekty wspierane przez uzasadnienia biznesowe” to faza 4; budujesz w 4, wdrażasz w 5."
   },
   "zagmatwania": [
     {

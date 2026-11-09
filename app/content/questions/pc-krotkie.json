@@ -1,0 +1,4404 @@
+{
+  "_opis": "Moduł 4 (PC), krótkie lekcje 4.10–4.56: model zdolności procesu (ISO/IEC 15504), poziomy 0–5, dziewięć atrybutów PA 1.1–PA 5.2, skala ocen N/C/W/P (egzamin PL; EN N/P/L/F), reguła poziomów, wymiary oceny, pojęcia ISO 15504, cele oceny i przewodniki. Przykłady ogólne (życie codzienne, organizacja, IT) – FORMAT-KROTKI.md.",
+  "pytania": [
+    {
+      "id": "q-pck-10-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k10-model-zdolnosci",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rodzina chce wiedzieć, jak dobrze działa u niej płacenie rachunków. Co jest odpowiednikiem **modelu zdolności procesu**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wspólna miara tego, jak dobrze działa każda czynność",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Model zdolności mierzy sprawność każdego procesu według jednej miary i pokazuje, co poprawić."
+        },
+        {
+          "tekst": "Lista wszystkich rachunków do zapłacenia w tym miesiącu",
+          "poprawna": false,
+          "wyjasnienie": "To lista zadań, a nie miara tego, jak dobrze działa proces.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Ocena, czy cała rodzina jest „dojrzała” finansowo",
+          "poprawna": false,
+          "wyjasnienie": "Model zdolności ocenia konkretny proces, a nie dojrzałość całej rodziny czy organizacji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kupno nowej aplikacji bankowej do płacenia rachunków",
+          "poprawna": false,
+          "wyjasnienie": "To narzędzie, czyli zasób. Samo narzędzie niczego nie mierzy.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-10-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k10-model-zdolnosci",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Dział IT banku chce ocenić procesy Ładu i Zarządzania według uznanego wzorca. Na jakiej normie opiera się model zdolności procesu COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "ISO/IEC 27001",
+          "poprawna": false,
+          "wyjasnienie": "To norma o bezpieczeństwie informacji, a nie o ocenie zdolności procesów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Na własnym modelu dojrzałości ISACA z COBIT 4.1",
+          "poprawna": false,
+          "wyjasnienie": "Model dojrzałości to starsze podejście. COBIT 5 oparł się na zewnętrznej normie.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "ITIL, czyli zbiorze dobrych praktyk zarządzania usługami IT",
+          "poprawna": false,
+          "wyjasnienie": "ITIL to inne źródło dobrych praktyk, a nie podstawa modelu zdolności.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "ISO/IEC 15504",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Model zdolności procesu COBIT 5 opiera się na normie ISO/IEC 15504 dotyczącej oceny procesów."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-10-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k10-model-zdolnosci",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jak na egzaminie PL nazywa się model, który podręcznik PL nazywa „modelem potencjału procesu” (*Process Capability Model*)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Model potencjału procesu",
+          "poprawna": false,
+          "wyjasnienie": "To forma z podręcznika. Na egzaminie PL wybieraj „model zdolności procesu”.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Model dojrzałości procesu",
+          "poprawna": false,
+          "wyjasnienie": "Dojrzałość (*maturity*) to inny, starszy model z COBIT 4.1.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Model zdolności procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Egzamin PL: zdolność procesu. Podręcznik: potencjał procesu. To ten sam model."
+        },
+        {
+          "tekst": "Referencyjny Model Procesu",
+          "poprawna": false,
+          "wyjasnienie": "To model opisu procesów (PRM), a nie model ich oceny.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-10-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k10-model-zdolnosci",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Szpital ocenił proces obsługi incydentów modelem zdolności. Co szpital przede wszystkim zyskuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Dostaje certyfikat bezpieczeństwa wszystkich systemów szpitala",
+          "poprawna": false,
+          "wyjasnienie": "Ocena zdolności nie jest certyfikatem bezpieczeństwa systemów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wie, jak dobrze działa proces i które obszary trzeba usprawnić",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Model zapewnia pomiar sprawności procesu i identyfikację obszarów do usprawnienia."
+        },
+        {
+          "tekst": "Wie, którzy pracownicy helpdesku pracują najgorzej i kogo zwolnić",
+          "poprawna": false,
+          "wyjasnienie": "Ocenia się procesy, a nie ludzi.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ma pełny obraz Ładu w całym szpitalu",
+          "poprawna": false,
+          "wyjasnienie": "Procesy to tylko jeden z siedmiu aktywatorów, więc obraz Ładu nie jest pełny.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-11-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k11-jeden-proces",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Mechanik po przeglądzie mówi: „Hamulce sprawne, opony zużyte”. Która cecha oceny zdolności procesów jest do tego podobna?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Każdy proces dostaje osobny wynik, a nie jedną ocenę całości",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Model zdolności ocenia każdy proces osobno, tak jak mechanik każdą część auta."
+        },
+        {
+          "tekst": "Wynik to średnia ze wszystkich procesów organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Model nie liczy średniej dla całej organizacji.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ocena dotyczy tylko procesów, które się zepsuły",
+          "poprawna": false,
+          "wyjasnienie": "Ocenia się każdy wybrany proces, niezależnie od tego, czy działa dobrze.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Oceniający wystawia ocenę osobom pracującym w procesie",
+          "poprawna": false,
+          "wyjasnienie": "Ocena dotyczy procesu, a nie pracowników.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-11-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k11-jeden-proces",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Zarząd sklepu internetowego prosi: „Podajcie jeden poziom zdolności dla całej firmy”. Co odpowiada zgodnie z COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wystarczy policzyć średnią z poziomów wszystkich 37 procesów",
+          "poprawna": false,
+          "wyjasnienie": "Model nie przewiduje średniej. Średnia ukryłaby słabe procesy.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom firmy to poziom jej najlepszego procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nie ma „poziomu firmy” w modelu zdolności.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Trzeba użyć modelu dojrzałości COBIT 4.1, bo on ocenia całe firmy",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie wraca do modelu dojrzałości, a ten też miał modele dla procesów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Model daje wyniki dla poszczególnych procesów, a nie jeden poziom firmy",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Każdy proces jest oceniany osobno dla dziewięciu atrybutów."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-11-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k11-jeden-proces",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Ubezpieczyciel ocenił wszystkie procesy na wysokim poziomie. Dlaczego według COBIT 5 nie może z tego wnioskować, że jego Ład jest w pełni dobry?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wysoki poziom procesów oznacza zawsze dobry Ład",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik mówi wprost, że ocena procesów nie zapewni pełnego obrazu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ład ocenia się wyłącznie modelem dojrzałości COBIT 4.1",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie każe oceniać Ładu starym modelem dojrzałości.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Procesy to tylko jeden z siedmiu aktywatorów",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Ocena procesów nie daje pełnego obrazu Ładu, więc trzeba ocenić też pozostałe aktywatory."
+        },
+        {
+          "tekst": "Model zdolności ocenia tylko procesy Zarządzania, a pomija procesy Ładu EDM",
+          "poprawna": false,
+          "wyjasnienie": "Model obejmuje procesy Ładu (EDM) i Zarządzania (PBRM).",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-11-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k11-jeden-proces",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Bank ma wyniki: helpdesk – poziom 2, zarządzanie ryzykiem – poziom 1, kopie zapasowe – poziom 3. Co z tego wynika?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Bank ma poziom 2, bo to średnia z trzech wyników",
+          "poprawna": false,
+          "wyjasnienie": "Model nie liczy średniej dla organizacji.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Bank ma poziom 1, bo liczy się najsłabszy proces",
+          "poprawna": false,
+          "wyjasnienie": "Model nie wystawia poziomu dla całego banku.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wyniki są nieważne, bo ocenia się tylko procesy EDM",
+          "poprawna": false,
+          "wyjasnienie": "Ocenia się procesy Ładu i Zarządzania.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Każdy proces ma własny wynik i widać, który kuleje",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wyniki dotyczą poszczególnych procesów i pozwalają wskazać priorytety."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-12-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k12-dojrzalosc-a-zdolnosc",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rozmiar butów 40 w Europie i 40 w USA to różne buty. Jaka zasada COBIT 5 jest do tego podobna?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wyników obu modeli nie porównuje się wprost",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Obie skale mają liczby 0–5, ale różnią się zakresem, ukierunkowaniem i intencjami."
+        },
+        {
+          "tekst": "Każdy proces ma inną skalę ocen",
+          "poprawna": false,
+          "wyjasnienie": "W COBIT 5 skala jest wspólna dla wszystkich procesów.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Poziom 2 w COBIT 4.1 to zawsze poziom 2 w COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "To właśnie błąd porównywania wprost.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziomy zdolności zależą od kraju organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Norma ISO/IEC 15504 jest międzynarodowa i nie zależy od kraju.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-12-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k12-dojrzalosc-a-zdolnosc",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Uczelnia przechodzi z COBIT 4.1 na COBIT 5. Ile atrybutów ma nowy model oceny?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Sześć atrybutów dojrzałości",
+          "poprawna": false,
+          "wyjasnienie": "To liczba z modelu dojrzałości COBIT 4.1.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Siedem atrybutów, po jednym na aktywator",
+          "poprawna": false,
+          "wyjasnienie": "Siedem to liczba aktywatorów, a nie atrybutów procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Dwanaście atrybutów, po dwa na każdy z sześciu poziomów",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 0 nie ma atrybutów, a poziom 1 ma tylko jeden.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Dziewięć atrybutów procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. W COBIT 5 poziomy definiuje zbiór dziewięciu atrybutów procesu."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-12-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k12-dojrzalosc-a-zdolnosc",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Która cecha opisuje model zdolności COBIT 5, a NIE model dojrzałości COBIT 4.1?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Osobny model dojrzałości dla każdego procesu",
+          "poprawna": false,
+          "wyjasnienie": "To cecha COBIT 4.1.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Sześć atrybutów, np. świadomość i komunikowanie",
+          "poprawna": false,
+          "wyjasnienie": "To atrybuty dojrzałości z COBIT 4.1.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Jeden wspólny model oceny dla wszystkich procesów",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. COBIT 5 zrezygnował z osobnych modeli dojrzałości dla każdego procesu."
+        },
+        {
+          "tekst": "Poziom 4 nazywa się „zarządzany i mierzalny”",
+          "poprawna": false,
+          "wyjasnienie": "To nazwa poziomu 4 w modelu dojrzałości COBIT 4.1.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-12-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k12-dojrzalosc-a-zdolnosc",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "W raporcie COBIT 4.1 proces miał „poziom 4 – zarządzany i mierzalny”. Na którym szczeblu skali 0–5 COBIT 5 leży „Proces zarządzany”?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 44
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Czwarty",
+          "poprawna": false,
+          "wyjasnienie": "Numer pochodzi z modelu dojrzałości COBIT 4.1. Nie przenoś go razem ze słowem.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Trzeci",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 3 w COBIT 5 to Proces ustanowiony.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Piąty",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 5 w COBIT 5 to Proces zoptymalizowany.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Drugi",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. W COBIT 5 Proces zarządzany to poziom 2. Słowo jest podobne, numer inny."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-13-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k13-nizsze-wyniki-korzysci",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Egzamin na prawo jazdy stał się surowszy i mniej osób zdaje. Czego to dotyczy w COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wyniki w COBIT 5 są zwykle wyższe niż w COBIT 4.1",
+          "poprawna": false,
+          "wyjasnienie": "Jest odwrotnie.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Procesy w organizacjach pogorszyły się po wydaniu COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Zmieniła się miara, a nie jakość pracy.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wyniki w modelu zdolności są zwykle niższe niż w modelu dojrzałości",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Poziom 1 wymaga osiągnięcia celu procesu, więc wyniki są zwykle niższe."
+        },
+        {
+          "tekst": "COBIT 5 nie pozwala już na poziom 1",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 1 jest możliwy, ale wymaga osiągnięcia celu procesu.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-13-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k13-nizsze-wyniki-korzysci",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Helpdesk urzędu miał poziom 1 dojrzałości (ad hoc), ale wiele zgłoszeń zostaje bez rozwiązania. Jaki wynik prawdopodobnie da ocena COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 44
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 1, bo wyniki obu modeli są takie same",
+          "poprawna": false,
+          "wyjasnienie": "Wyników obu modeli nie przenosi się wprost.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 2, bo nowy model jest łagodniejszy",
+          "poprawna": false,
+          "wyjasnienie": "Nowy model jest surowszy, a nie łagodniejszy.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Żadnego wyniku, bo helpdesku nie ocenia się w COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Obsługa zgłoszeń to proces COBIT 5 i można go ocenić.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 0, bo proces nie osiąga swojego celu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Procesy z poziomem 1 dojrzałości mogą dostać 0, jeśli nie osiągają wyników procesu."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-13-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k13-nizsze-wyniki-korzysci",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Która z odpowiedzi jest korzyścią modelu zdolności COBIT 5 w porównaniu z modelami dojrzałości COBIT 4.1?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 44
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Większa niezawodność i powtarzalność ocen",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To jedna z pięciu korzyści: mniej sporów między interesariuszami o wynik oceny."
+        },
+        {
+          "tekst": "Osobny, szczegółowy model dojrzałości dla każdego procesu",
+          "poprawna": false,
+          "wyjasnienie": "To cecha COBIT 4.1, z której COBIT 5 zrezygnował.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Pełny obraz Ładu z samej oceny procesów",
+          "poprawna": false,
+          "wyjasnienie": "Ocena procesów nie daje pełnego obrazu Ładu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wyższe wyniki, które łatwiej pokazać zarządowi",
+          "poprawna": false,
+          "wyjasnienie": "Wyniki są zwykle niższe, a nie wyższe.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-13-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-05"
+      ],
+      "lekcja": "pc-k13-nizsze-wyniki-korzysci",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Dyrektor IT ubezpieczyciela chce, żeby ocena była podstawą formalnego, rygorystycznego przeglądu. Którą korzyść modelu zdolności wykorzystuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 44
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Uproszczenie, bo model nie wymaga żadnych dowodów",
+          "poprawna": false,
+          "wyjasnienie": "Uproszczenie dotyczy braku powielania treści, a nie rezygnacji z dowodów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Możliwość porównania wyniku z poziomem dojrzałości COBIT 4.1",
+          "poprawna": false,
+          "wyjasnienie": "Takie porównanie jest trudne i nie jest korzyścią.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ocenę wszystkich siedmiu aktywatorów jedną skalą",
+          "poprawna": false,
+          "wyjasnienie": "Model zdolności ocenia tylko procesy.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Większą użyteczność wyników jako podstawy formalnej oceny",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Nowy model może być podstawą bardziej formalnej oceny, wewnętrznej i zewnętrznej."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-20-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k20-szesc-poziomow",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Ile poziomów ma drabina zdolności procesu w COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Pięć, od 1 do 5",
+          "poprawna": false,
+          "wyjasnienie": "Pominięto poziom 0 – Proces niekompletny.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Sześć, od 0 do 5",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Proces może osiągnąć jeden z sześciu poziomów zdolności: 0–5."
+        },
+        {
+          "tekst": "Dziewięć, po jednym na atrybut",
+          "poprawna": false,
+          "wyjasnienie": "Dziewięć to liczba atrybutów, a nie poziomów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Siedem, po jednym na aktywator",
+          "poprawna": false,
+          "wyjasnienie": "Siedem to liczba aktywatorów.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-20-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k20-szesc-poziomow",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Sklep internetowy ma jedną procedurę zwrotów dla wszystkich magazynów. Który poziom opisuje ta cecha?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 2 – Proces zarządzany",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 2 to plan i kontrola, bez wspólnego standardu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom 3 – Proces ustanowiony",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wspólny, zdefiniowany proces to cecha poziomu 3."
+        },
+        {
+          "tekst": "Poziom 4 – Proces przewidywalny",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 4 to pomiar i działanie w limitach.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom 1 – Proces wykonywany",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 1 to tylko osiąganie celu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-20-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k20-szesc-poziomow",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jak na egzaminie PL nazywa się poziom 5 zdolności (*Optimising process*)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Proces optymalizujący",
+          "poprawna": false,
+          "wyjasnienie": "To forma z podręcznika PL.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Proces zoptymalizowany",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Egzamin PL: Proces zoptymalizowany. Podręcznik: proces optymalizujący."
+        },
+        {
+          "tekst": "Proces przewidywalny",
+          "poprawna": false,
+          "wyjasnienie": "To poziom 4 (*Predictable process*).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Proces zarządzany i mierzalny",
+          "poprawna": false,
+          "wyjasnienie": "To nazwa z modelu dojrzałości COBIT 4.1.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-20-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k20-szesc-poziomow",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Która kolejność poziomów zdolności jest poprawna, od najniższego?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Niekompletny, zarządzany, wykonywany, ustanowiony, przewidywalny, zoptymalizowany",
+          "poprawna": false,
+          "wyjasnienie": "Zamieniono poziomy 1 i 2.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Niekompletny, wykonywany, zarządzany, ustanowiony, przewidywalny, zoptymalizowany",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak wygląda drabina 0–5."
+        },
+        {
+          "tekst": "Wykonywany, niekompletny, ustanowiony, zarządzany, zoptymalizowany, przewidywalny",
+          "poprawna": false,
+          "wyjasnienie": "Kolejność jest pomieszana.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nieistniejący, ad hoc, powtarzalny, zdefiniowany, zarządzany, zoptymalizowany",
+          "poprawna": false,
+          "wyjasnienie": "To poziomy modelu dojrzałości COBIT 4.1.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-21-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k21-poziom-0-i-1",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Ktoś codziennie piecze ciasto, ale prawie zawsze wychodzi zakalec. Jak opisałby to model zdolności?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Proces wykonywany, bo ktoś piecze codziennie",
+          "poprawna": false,
+          "wyjasnienie": "Samo wykonywanie nie wystarcza. Poziom 1 wymaga osiągnięcia celu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Proces nieistniejący, bo ciasto się nie udaje",
+          "poprawna": false,
+          "wyjasnienie": "„Nieistniejący” to opis z COBIT 4.1, a proces tu istnieje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Proces zarządzany, bo piecze się regularnie",
+          "poprawna": false,
+          "wyjasnienie": "Regularność to nie planowanie i kontrola.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Proces niekompletny, bo nie osiąga celu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Poziom 0 obejmuje też proces wykonywany, który nie osiąga celu."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-21-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k21-poziom-0-i-1",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Helpdesk banku rozwiązuje zgłoszenia, choć nikt nie planuje pracy ani nie zbiera statystyk. Jaki poziom opisuje ta sytuacja?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 0 – Proces niekompletny",
+          "poprawna": false,
+          "wyjasnienie": "Proces osiąga cel, więc nie jest niekompletny.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 2 – Proces zarządzany",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 2 wymaga planowania i monitorowania.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 1 – Proces wykonywany",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Proces osiąga cel. Brak planu i statystyk nie przeszkadza w poziomie 1."
+        },
+        {
+          "tekst": "Poziom 3 – Proces ustanowiony",
+          "poprawna": false,
+          "wyjasnienie": "Brakuje zdefiniowanego standardu.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-21-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k21-poziom-0-i-1",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które zdanie poprawnie opisuje poziom 0 – Proces niekompletny w COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 44
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Proces nie jest wdrożony albo nie osiąga swojego celu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak definiuje go podręcznik na s. 42."
+        },
+        {
+          "tekst": "W organizacji nie istnieje żaden rozpoznawalny proces",
+          "poprawna": false,
+          "wyjasnienie": "To opis poziomu 0 dojrzałości COBIT 4.1 („Nieistniejące”).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Proces osiąga cel, ale nie jest planowany",
+          "poprawna": false,
+          "wyjasnienie": "To opis poziomu 1.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Proces nie ma spisanej procedury dla całej organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Brak standardu nie przesądza o poziomie 0.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-21-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k21-poziom-0-i-1",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Jak podręcznik ocenia osiągnięcie poziomu 1 przez proces?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Jako wynik bez znaczenia, bo poziomów jest pięć",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik mówi coś odwrotnego.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Jako ważne osiągnięcie dla przedsiębiorstwa",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Już poziom 1 stanowi ważne osiągnięcie, bo proces daje wymagane wyniki."
+        },
+        {
+          "tekst": "Jako poziom, który trzeba szybko przeskoczyć",
+          "poprawna": false,
+          "wyjasnienie": "Poziomów nie przeskakuje się, a poziom 1 jest fundamentem.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Jako dowód, że proces jest mierzony liczbami",
+          "poprawna": false,
+          "wyjasnienie": "Pomiar liczbami to poziom 4.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-22-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k22-poziom-2",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Obiad jest codziennie, a do tego ktoś planuje zakupy, sprawdza zapasy i zmienia plan, gdy czegoś brakuje. Jaki to poziom?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 1 – Proces wykonywany",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 1 to sam efekt, bez planu.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Poziom 2 – Proces zarządzany",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Efekt plus planowanie, monitorowanie i dostosowanie to poziom 2."
+        },
+        {
+          "tekst": "Poziom 4 – Proces przewidywalny",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 4 wymaga pomiarów i limitów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom 5 – Proces zoptymalizowany",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 5 to ciągłe ulepszanie.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-22-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k22-poziom-2",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "W każdym oddziale ubezpieczyciela kierownik planuje i pilnuje obsługi szkód, ale każdy oddział robi to po swojemu. Jaki poziom jest osiągnięty?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 3, bo każdy oddział ma swój proces",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 3 wymaga jednego, zdefiniowanego procesu dla organizacji.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 1, bo różnice między oddziałami blokują poziom 2",
+          "poprawna": false,
+          "wyjasnienie": "Różnice między oddziałami nie blokują poziomu 2.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 4, bo kierownicy pilnują pracy",
+          "poprawna": false,
+          "wyjasnienie": "Pilnowanie to nie pomiar w limitach.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 2, bo brakuje wspólnego standardu do poziomu 3",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Zarządzanie w oddziałach to poziom 2. Wspólny standard to dopiero poziom 3."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-22-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k22-poziom-2",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Co według podręcznika dokłada poziom 2 – Proces zarządzany do procesu wykonywanego?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zdefiniowany proces standardowy dla całej organizacji",
+          "poprawna": false,
+          "wyjasnienie": "To cecha poziomu 3.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Działanie w ramach zdefiniowanych limitów",
+          "poprawna": false,
+          "wyjasnienie": "To cecha poziomu 4.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Planowanie, monitorowanie, dostosowanie i kontrolę produktów",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje poziom 2 podręcznik na s. 42."
+        },
+        {
+          "tekst": "Ciągłe doskonalenie pod cele biznesowe",
+          "poprawna": false,
+          "wyjasnienie": "To cecha poziomu 5.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-22-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k22-poziom-2",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Ile atrybutów ma poziom 2 – Proces zarządzany?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Jeden",
+          "poprawna": false,
+          "wyjasnienie": "Jeden atrybut ma tylko poziom 1.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Trzy",
+          "poprawna": false,
+          "wyjasnienie": "Żaden poziom nie ma trzech atrybutów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Dwa",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Poziom 2 ma dwa atrybuty: PA 2.1 i PA 2.2."
+        },
+        {
+          "tekst": "Żadnego",
+          "poprawna": false,
+          "wyjasnienie": "Atrybutów nie ma tylko poziom 0.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-23-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k23-poziomy-3-5",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Sieć kawiarni ustala jedną recepturę kawy i wszystkie lokale ją stosują. Który poziom zdolności to przypomina?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 2 – Proces zarządzany",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 2 nie wymaga wspólnego standardu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom 4 – Proces przewidywalny",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 4 to mierzenie i limity.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom 3 – Proces ustanowiony",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wspólny, zdefiniowany sposób pracy to poziom 3."
+        },
+        {
+          "tekst": "Poziom 5 – Proces zoptymalizowany",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 5 to ciągłe ulepszanie.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-23-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k23-poziomy-3-5",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Dostawca chmury mierzy czas wdrażania zmian, a po przekroczeniu limitu zespół szuka przyczyny. Jaki poziom opisuje ta cecha?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 3 – Proces ustanowiony",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 3 to wspólny standard, bez limitów liczbowych.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom 4 – Proces przewidywalny",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Działanie w zdefiniowanych limitach to poziom 4."
+        },
+        {
+          "tekst": "Poziom 5 – Proces zoptymalizowany",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 5 dotyczy ulepszania, a nie pilnowania limitów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom 2 – Proces zarządzany",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 2 to plan i kontrola bez pomiaru w limitach.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-23-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k23-poziomy-3-5",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Który opis odpowiada poziomowi 5 – Proces zoptymalizowany (*Optimising process*)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Jest stale doskonalony pod obecne i przyszłe cele biznesowe",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak podręcznik opisuje poziom 5."
+        },
+        {
+          "tekst": "Proces działa w ramach zdefiniowanych limitów",
+          "poprawna": false,
+          "wyjasnienie": "To poziom 4.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Proces jest wdrażany za pomocą zdefiniowanego procesu",
+          "poprawna": false,
+          "wyjasnienie": "To poziom 3.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Proces został dopracowany do poziomu dobrej praktyki na wzór innych firm",
+          "poprawna": false,
+          "wyjasnienie": "To opis poziomu 5 w modelu dojrzałości COBIT 4.1.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-23-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "lekcja": "pc-k23-poziomy-3-5",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Bank, którego proces działa już przewidywalnie w ustalonych granicach, stale i planowo doskonali obsługę kredytów pod bieżące i przyszłe cele biznesowe. Na którym szczeblu skali zdolności 0–5 leży takie działanie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Trzeci",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 3 to standard, a nie ulepszanie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Piąty",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Ciągłe doskonalenie przewidywalnego procesu pod bieżące i przyszłe cele biznesowe to poziom 5 (s. 42)."
+        },
+        {
+          "tekst": "Czwarty",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 4 to działanie przewidywalne, w ustalonych granicach. To punkt wyjścia; stałe doskonalenie dodaje dopiero poziom 5.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Pierwszy",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 1 to samo osiąganie celu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-24-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01",
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k24-dziewiec-atrybutow",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Ile atrybutów procesu ma model zdolności COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Dziewięć",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Jeden na poziomie 1 i po dwa na poziomach 2–5."
+        },
+        {
+          "tekst": "Sześć",
+          "poprawna": false,
+          "wyjasnienie": "Sześć atrybutów miał model dojrzałości COBIT 4.1.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Pięć",
+          "poprawna": false,
+          "wyjasnienie": "Pięć to liczba poziomów od 1 do 5, a nie atrybutów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Dwanaście",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 0 nie ma atrybutów, a poziom 1 ma jeden.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-24-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01",
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k24-dziewiec-atrybutow",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Do którego poziomu należy atrybut PA 4.2 Kontrola procesu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Do poziomu 2",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 2 ma PA 2.1 i PA 2.2.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Do poziomu 5",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 5 ma PA 5.1 i PA 5.2.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Do poziomu 4",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Pierwsza cyfra kodu to numer poziomu."
+        },
+        {
+          "tekst": "Do poziomu 3",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 3 ma PA 3.1 i PA 3.2.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-24-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01",
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k24-dziewiec-atrybutow",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Które zdanie poprawnie opisuje rozkład atrybutów procesu (Rysunek 19)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Każdy poziom od 0 do 5 ma po dwa atrybuty",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 0 nie ma atrybutów, a poziom 1 ma jeden.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 1 ma dwa atrybuty, a poziomy 2–5 po jednym",
+          "poprawna": false,
+          "wyjasnienie": "Liczby są zamienione.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Atrybuty są tylko na poziomach 2–5, a poziom 1 ocenia się bez atrybutu",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 1 też ma atrybut: PA 1.1 Wykonanie procesu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 1 ma jeden atrybut, a poziomy 2–5 po dwa",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Razem dziewięć atrybutów procesu."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-24-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-01",
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k24-dziewiec-atrybutow",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak egzamin PL nazywa cechy, które podręcznik nazywa „atrybutami potencjału procesu”?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Atrybuty procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Egzamin: atrybuty procesu (*process attributes*)."
+        },
+        {
+          "tekst": "Atrybuty dojrzałości",
+          "poprawna": false,
+          "wyjasnienie": "To atrybuty modelu COBIT 4.1.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Atrybuty zdolności organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Forma niepoprawna: w COBIT 5 ocenia się zdolność procesów, a nie organizacji.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wymiary aktywatora",
+          "poprawna": false,
+          "wyjasnienie": "To pojęcie z modelu aktywatorów.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-30-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k30-pa-1-1",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Pralka pracuje godzinę. Które pytanie jest odpowiednikiem atrybutu PA 1.1?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Czy pranie zaplanowano na odpowiedni dzień tygodnia?",
+          "poprawna": false,
+          "wyjasnienie": "Planowanie sprawdza PA 2.1.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Czy instrukcja obsługi pralki leży w szufladzie?",
+          "poprawna": false,
+          "wyjasnienie": "Spisany wzorzec to temat PA 3.1, a nie PA 1.1.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Czy zużycie wody jest mierzone co miesiąc?",
+          "poprawna": false,
+          "wyjasnienie": "Pomiar liczbami sprawdza PA 4.1.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Czy ubrania wyszły czyste?",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. PA 1.1 sprawdza, czy proces osiąga swój cel."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-30-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k30-pa-1-1",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Szpital ocenia rejestrację online. Który dowód jest najważniejszy dla atrybutu PA 1.1?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Plan obsady rejestracji na najbliższy kwartał",
+          "poprawna": false,
+          "wyjasnienie": "To dowód dla PA 2.1 Zarządzanie wydajnością.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Szablon formularza z numerem wersji",
+          "poprawna": false,
+          "wyjasnienie": "To dowód dla PA 2.2 Zarządzanie produktami pracy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Dane, że pacjenci faktycznie dostają terminy wizyt",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Dla PA 1.1 liczą się wyniki procesu, czyli osiągnięcie jego celu."
+        },
+        {
+          "tekst": "Wspólna procedura rejestracji dla wszystkich szpitali sieci",
+          "poprawna": false,
+          "wyjasnienie": "To dowód dla PA 3.1 Definicja procesu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-30-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k30-pa-1-1",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Atrybut *Process performance* (PA 1.1) podręcznik PL nazywa „Sprawność procesu”. Jaką formę przyjmuje kurs jako nazwę egzaminacyjną?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zarządzanie wydajnością",
+          "poprawna": false,
+          "wyjasnienie": "To PA 2.1 (*Performance management*).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wykonanie procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Kurs przyjmuje „PA 1.1 Wykonanie procesu”; forma egzaminacyjna nie jest potwierdzona, więc rozpoznawaj też kod i EN."
+        },
+        {
+          "tekst": "Sprawność procesu",
+          "poprawna": false,
+          "wyjasnienie": "To forma z podręcznika PL.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Miara procesu",
+          "poprawna": false,
+          "wyjasnienie": "To PA 4.1 (*Process measurement*).",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-30-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k30-pa-1-1",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Bank rejestruje każdą awarię aplikacji mobilnej, ale wiele awarii nie zostaje usuniętych. Co to oznacza dla PA 1.1?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 1.1 jest słaby, bo proces nie osiąga swojego celu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Rejestrowanie nie wystarcza, jeśli awarie nie są usuwane."
+        },
+        {
+          "tekst": "PA 1.1 jest osiągnięty, bo proces jest wykonywany codziennie",
+          "poprawna": false,
+          "wyjasnienie": "Wykonywanie to nie osiąganie celu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "PA 1.1 nie ma tu znaczenia, liczy się PA 2.2",
+          "poprawna": false,
+          "wyjasnienie": "PA 1.1 jest podstawą wszystkich wyższych poziomów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "PA 1.1 jest osiągnięty, bo rejestr awarii ma wzór i wersję",
+          "poprawna": false,
+          "wyjasnienie": "Wzór i wersja rejestru to dowody dla PA 2.2.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-31-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k31-pa-2-1-pa-2-2",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Podczas remontu trzymasz umowy i faktury w podpisanym segregatorze i co roku go przeglądasz. Któremu atrybutowi to odpowiada?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 2.2 Zarządzanie produktami pracy",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Produkty pracy są określone, kontrolowane i utrzymywane."
+        },
+        {
+          "tekst": "PA 2.1 Zarządzanie wydajnością",
+          "poprawna": false,
+          "wyjasnienie": "PA 2.1 dotyczy planowania i pilnowania samej pracy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 1.1 Wykonanie procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 1.1 pyta tylko, czy remont daje efekt.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 4.1 Miara procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 4.1 to pomiar liczbami.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-31-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k31-pa-2-1-pa-2-2",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Kierownik helpdesku układa grafik zmian, śledzi czas obsługi i dokłada ludzi w szczycie. Który atrybut wspierają te dowody?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 2.2 Zarządzanie produktami pracy",
+          "poprawna": false,
+          "wyjasnienie": "PA 2.2 dotyczy dokumentów i rejestrów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 2.1 Zarządzanie wydajnością",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Planowanie, monitorowanie i dostosowanie pracy to PA 2.1."
+        },
+        {
+          "tekst": "PA 4.2 Kontrola procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 4.2 wymaga limitów liczbowych na poziomie 4.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 3.2 Wdrożenie procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 3.2 dotyczy stosowania wspólnego standardu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-31-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k31-pa-2-1-pa-2-2",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jak na egzaminie PL nazywa się atrybut PA 2.1 (*Performance management*)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zarządzanie sprawnością",
+          "poprawna": false,
+          "wyjasnienie": "To forma z podręcznika PL.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Zarządzanie wydajnością",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Egzamin PL: Zarządzanie wydajnością. Podręcznik: Zarządzanie sprawnością."
+        },
+        {
+          "tekst": "Zarządzanie wydajnością aktywatora",
+          "poprawna": false,
+          "wyjasnienie": "To pojęcie z modelu aktywatorów, a nie atrybut procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wykonanie procesu",
+          "poprawna": false,
+          "wyjasnienie": "To PA 1.1 (*Process performance*).",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-31-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k31-pa-2-1-pa-2-2",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Szablon zgłoszenia w systemie CRM ma właściciela, numer wersji, a zmiany są zatwierdzane. Dla którego atrybutu to dowód?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 2.2 Zarządzanie produktami pracy",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Produkt pracy jest określony, kontrolowany i utrzymywany."
+        },
+        {
+          "tekst": "PA 2.1 Zarządzanie wydajnością",
+          "poprawna": false,
+          "wyjasnienie": "PA 2.1 dotyczy zarządzania pracą, a nie jej produktami.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 3.1 Definicja procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 3.1 to standardowy proces, a nie szablon jednego dokumentu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 5.2 Optymalizacja procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 5.2 to wdrażanie ulepszeń.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-32-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k32-pa-3-1-pa-3-2",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rodzina ma spisany przepis babci na sernik, ale każdy piecze po swojemu. Który atrybut jest tu słaby?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 3.1 Definicja procesu",
+          "poprawna": false,
+          "wyjasnienie": "Przepis jest spisany, więc definicja istnieje.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "PA 3.2 Wdrożenie procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wzorzec istnieje (PA 3.1), ale nie jest stosowany (PA 3.2)."
+        },
+        {
+          "tekst": "PA 1.1 Wykonanie procesu",
+          "poprawna": false,
+          "wyjasnienie": "Sernik powstaje, więc cel jest osiągany.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "PA 4.1 Miara procesu",
+          "poprawna": false,
+          "wyjasnienie": "Nikt tu niczego nie mierzy, ale główny brak dotyczy stosowania wzorca.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-32-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k32-pa-3-1-pa-3-2",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Trzy wydziały uczelni zakładają konta studentom na trzy różne sposoby. Każdy dobrze tym zarządza. Którego atrybutu brakuje u źródła problemu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 3.2 Wdrożenie procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 3.2 też nie będzie osiągnięty, ale to skutek: najpierw brakuje wspólnego standardu (PA 3.1).",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "PA 2.1 Zarządzanie wydajnością",
+          "poprawna": false,
+          "wyjasnienie": "Wydziały dobrze zarządzają pracą, więc PA 2.1 jest w porządku.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "PA 1.1 Wykonanie procesu",
+          "poprawna": false,
+          "wyjasnienie": "Konta są zakładane, więc cel jest osiągany.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "PA 3.1 Definicja procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Brakuje jednego, standardowego procesu dla całej uczelni."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-32-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k32-pa-3-1-pa-3-2",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Centrala banku spisała jedną procedurę reklamacji, ale w oddziałach nikt jej nie stosuje. Co to oznacza dla poziomu 3?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 3 jest osiągnięty, bo istnieje spisana procedura",
+          "poprawna": false,
+          "wyjasnienie": "Sama procedura to za mało, musi być stosowana.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Poziom 3 jest osiągnięty, bo PA 3.1 wystarczy",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 3 ma dwa atrybuty i oba muszą mieć co najmniej W.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Poziom 3 nie jest osiągnięty, bo PA 3.2 jest słaby",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Poziom 3 wymaga definicji procesu i jego wdrożenia w znacznym stopniu."
+        },
+        {
+          "tekst": "Proces spada na poziom 0",
+          "poprawna": false,
+          "wyjasnienie": "Brak wdrożenia standardu nie przekreśla osiągania celu procesu.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-32-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k32-pa-3-1-pa-3-2",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Która para atrybutów należy do poziomu 3 – Proces ustanowiony?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 2.1 Zarządzanie wydajnością i PA 2.2 Zarządzanie produktami pracy",
+          "poprawna": false,
+          "wyjasnienie": "To atrybuty poziomu 2.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 4.1 Miara procesu i PA 4.2 Kontrola procesu",
+          "poprawna": false,
+          "wyjasnienie": "To atrybuty poziomu 4.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 5.1 Innowacja procesu i PA 5.2 Optymalizacja procesu",
+          "poprawna": false,
+          "wyjasnienie": "To atrybuty poziomu 5.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 3.1 Definicja procesu i PA 3.2 Wdrożenie procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To dwa atrybuty poziomu 3."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-33-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k33-pa-4-1-pa-4-2",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Biegacz wyznacza liczbowe cele treningowe wynikające z celu startowego, mierzy czas każdego treningu i analizuje wyniki względem tych celów. Któremu atrybutowi to odpowiada?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 4.1 Miara procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Ilościowe cele pomiaru wynikające z celu nadrzędnego i analiza wyników względem nich to PA 4.1."
+        },
+        {
+          "tekst": "PA 4.2 Kontrola procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 4.2 to reakcja, gdy wynik wypada poza granice.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 2.1 Zarządzanie wydajnością",
+          "poprawna": false,
+          "wyjasnienie": "PA 2.1 to planowanie, monitorowanie i dostosowanie wykonania; PA 4.1 dodaje ilościowe cele pomiaru wynikające z celów biznesowych i analizę wyników.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 5.1 Innowacja procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 5.1 to wybór ulepszenia.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-33-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k33-pa-4-1-pa-4-2",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Dostawca chmury co tydzień raportuje czas przywracania usług. Gdy wynik spada poniżej celu, raport trafia do szuflady. Który atrybut jest słaby?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 4.2 Kontrola procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Pomiar istnieje (PA 4.1), ale brakuje reakcji na odchylenia (PA 4.2)."
+        },
+        {
+          "tekst": "PA 4.1 Miara procesu",
+          "poprawna": false,
+          "wyjasnienie": "Pomiar jest prowadzony, więc PA 4.1 nie jest głównym problemem.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "PA 1.1 Wykonanie procesu",
+          "poprawna": false,
+          "wyjasnienie": "Usługi są przywracane, więc cel jest osiągany.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "PA 3.1 Definicja procesu",
+          "poprawna": false,
+          "wyjasnienie": "Brak reakcji na raport nie dotyczy definicji procesu.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-33-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k33-pa-4-1-pa-4-2",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jak na egzaminie PL nazywa się atrybut PA 4.1 (*Process measurement*)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Miara procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Egzamin PL: Miara procesu. Podręcznik: Pomiar procesu."
+        },
+        {
+          "tekst": "Pomiar procesu",
+          "poprawna": false,
+          "wyjasnienie": "To forma z podręcznika PL.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Kontrola procesu",
+          "poprawna": false,
+          "wyjasnienie": "To PA 4.2 (*Process control*).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zarządzanie wydajnością",
+          "poprawna": false,
+          "wyjasnienie": "To PA 2.1 (*Performance management*).",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-33-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k33-pa-4-1-pa-4-2",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Do którego poziomu zdolności należą PA 4.1 i PA 4.2?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 5 – Proces zoptymalizowany",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 5 ma atrybuty PA 5.1 i PA 5.2.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 3 – Proces ustanowiony",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 3 ma atrybuty PA 3.1 i PA 3.2.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 4 – Proces przewidywalny",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Pomiar i kontrola w limitach dają proces przewidywalny."
+        },
+        {
+          "tekst": "Poziom 2 – Proces zarządzany",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 2 ma atrybuty PA 2.1 i PA 2.2.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-34-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k34-pa-5-1-pa-5-2",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Szef kuchni wprowadza nowy przepis na próbę i sprawdza, czy goście są bardziej zadowoleni. Któremu atrybutowi to odpowiada?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 5.1 Innowacja procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 5.1 to wybór ulepszenia, a tu zmiana jest już wdrażana.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 5.2 Optymalizacja procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wdrożenie zmiany i sprawdzenie jej efektu to PA 5.2."
+        },
+        {
+          "tekst": "PA 4.1 Miara procesu",
+          "poprawna": false,
+          "wyjasnienie": "Tu mierzy się efekt zmiany, a celem jest ulepszenie procesu.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "PA 3.2 Wdrożenie procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 3.2 dotyczy stosowania standardu, a nie ulepszeń.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-34-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k34-pa-5-1-pa-5-2",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Analiza danych sklepu internetowego pokazuje, że automatyczne zwroty skrócą czas obsługi. Firma wybiera tę zmianę. Który atrybut to wspiera?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 5.1 Innowacja procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wskazanie i wybór ulepszenia pod cele biznesowe to PA 5.1."
+        },
+        {
+          "tekst": "PA 5.2 Optymalizacja procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 5.2 to wdrożenie zmiany i sprawdzenie efektu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 4.2 Kontrola procesu",
+          "poprawna": false,
+          "wyjasnienie": "PA 4.2 pilnuje limitów, a nie wybiera ulepszeń.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 2.2 Zarządzanie produktami pracy",
+          "poprawna": false,
+          "wyjasnienie": "PA 2.2 dotyczy dokumentów i rejestrów.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-34-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k34-pa-5-1-pa-5-2",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Zarząd szpitala chce poziomu 5 dla wszystkich procesów. Co mówi COBIT 5 o poziomie docelowym?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Każdy proces powinien dążyć do poziomu 5",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik mówi coś przeciwnego.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom docelowy ustala norma ISO/IEC 15504 dla każdego procesu",
+          "poprawna": false,
+          "wyjasnienie": "Organizacja sama wybiera poziom docelowy.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 5 jest obowiązkowy dla procesów Ładu EDM",
+          "poprawna": false,
+          "wyjasnienie": "Nie ma takiego wymogu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Wybiera się go z kosztów, korzyści i wykonalności",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Poziom docelowy bardzo rzadko jest jednym z najwyższych."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-34-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "lekcja": "pc-k34-pa-5-1-pa-5-2",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Czym poziom 5 różni się od poziomu 4?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 4 mierzy i pilnuje limitów, a poziom 5 ulepsza proces",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Pilnowanie to poziom 4, ulepszanie to poziom 5."
+        },
+        {
+          "tekst": "Poziom 4 ulepsza proces, a poziom 5 tylko go mierzy",
+          "poprawna": false,
+          "wyjasnienie": "Kolejność jest odwrócona.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Poziom 5 wymaga wspólnej procedury, a poziom 4 nie",
+          "poprawna": false,
+          "wyjasnienie": "Wspólna procedura to już poziom 3.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Niczym, oba poziomy mają te same atrybuty",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 4 ma PA 4.1 i 4.2, poziom 5 – PA 5.1 i 5.2.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-40-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k40-skala-ocen",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Remont jest zrobiony mniej więcej w 70%. Jaką ocenę dałaby mu skala egzaminu PL?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "W – Większościowy",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. W to ponad 50–85%."
+        },
+        {
+          "tekst": "P – Pełny",
+          "poprawna": false,
+          "wyjasnienie": "P zaczyna się powyżej 85%.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "C – Częściowy",
+          "poprawna": false,
+          "wyjasnienie": "C to ponad 15–50%.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "L – w znacznym stopniu",
+          "poprawna": false,
+          "wyjasnienie": "Zakres się zgadza, ale litera L pochodzi z podręcznika i EN.",
+          "pulapka": "forma-podrecznikowa"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-40-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k40-skala-ocen",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Bank dostał angielski raport: „PA 2.1 – P (Partially achieved)”. Co trzeba wpisać w polskim zestawieniu według skali egzaminu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "P – Pełny",
+          "poprawna": false,
+          "wyjasnienie": "Przepisanie litery odwraca sens oceny. P w PL to Fully.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "W – Większościowy",
+          "poprawna": false,
+          "wyjasnienie": "W odpowiada EN L (Largely).",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "N – Nieosiągnięty",
+          "poprawna": false,
+          "wyjasnienie": "N to brak dowodów, a raport mówi o częściowym osiągnięciu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "C – Częściowy",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. EN P (Partially) to na egzaminie PL C (Częściowy)."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-40-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k40-skala-ocen",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Co na **polskim egzaminie** oznacza ocena P?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Częściowy – atrybut osiągnięty w ponad 15–50%",
+          "poprawna": false,
+          "wyjasnienie": "To znaczenie litery P w podręczniku i EN (*Partially*). Na egzaminie to C.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Przewidywalny – poziom 4 zdolności",
+          "poprawna": false,
+          "wyjasnienie": "Litera skali ocen nie jest nazwą poziomu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Większościowy – atrybut osiągnięty w ponad 50–85%",
+          "poprawna": false,
+          "wyjasnienie": "To ocena W.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Pełny – atrybut osiągnięty w ponad 85–100%",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Na egzaminie PL P = Pełny (*Fully achieved*)."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-40-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k40-skala-ocen",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Która kolejność ocen skali egzaminu PL jest poprawna, od najniższej?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "N, C, W, P",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Nieosiągnięty, Częściowy, Większościowy, Pełny."
+        },
+        {
+          "tekst": "N, P, L, F",
+          "poprawna": false,
+          "wyjasnienie": "To kolejność z podręcznika i EN.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "N, W, C, P",
+          "poprawna": false,
+          "wyjasnienie": "W i C są zamienione.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "P, W, C, N",
+          "poprawna": false,
+          "wyjasnienie": "To kolejność od najwyższej.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-41-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k41-oceny-n-i-c",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Uczeń rozwiązał poprawnie dwa zadania z pięciu, czyli 40%. Jaką ocenę dałaby mu skala egzaminu PL?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "N – Nieosiągnięty",
+          "poprawna": false,
+          "wyjasnienie": "N to 0–15%, a tu jest 40%.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "W – Większościowy",
+          "poprawna": false,
+          "wyjasnienie": "W zaczyna się powyżej 50%.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "P – Partially",
+          "poprawna": false,
+          "wyjasnienie": "To forma podręcznikowa i EN. Na egzaminie PL to C.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "C – Częściowy",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. C to ponad 15–50%."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-41-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k41-oceny-n-i-c",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Helpdesk uczelni rozwiązuje część zgłoszeń, ale większość czeka tygodniami. PA 1.1 dostaje C. Jaki poziom ma proces?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 1, bo część zgłoszeń jest rozwiązywana",
+          "poprawna": false,
+          "wyjasnienie": "Częściowe osiąganie celu to za mało na poziom 1.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 0, bo poziom 1 wymaga PA 1.1 co najmniej W",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Poziom 1 wymaga osiągnięcia PA 1.1 w znacznym stopniu."
+        },
+        {
+          "tekst": "Poziom 1, bo ocena C wystarcza na poziomie 1",
+          "poprawna": false,
+          "wyjasnienie": "Na każdym nowym poziomie potrzeba co najmniej W.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie da się ustalić bez ocen PA 2.1 i PA 2.2",
+          "poprawna": false,
+          "wyjasnienie": "Ocena PA 1.1 = C rozstrzyga o poziomie 0.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-41-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k41-oceny-n-i-c",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jak podręcznik opisuje ocenę, którą egzamin PL nazywa N – Nieosiągnięty?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Brak dowodów osiągania atrybutu albo ich znikoma liczba",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. N to 0–15%."
+        },
+        {
+          "tekst": "Pewne dowody i częściowe osiąganie atrybutu",
+          "poprawna": false,
+          "wyjasnienie": "To opis oceny C (w podręczniku P).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Dowody systematycznego osiągania, z pewnymi słabościami",
+          "poprawna": false,
+          "wyjasnienie": "To opis oceny W (w podręczniku L).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Proces nie istnieje w organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Ocena N dotyczy atrybutu, a nie istnienia procesu.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-41-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k41-oceny-n-i-c",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jaki zakres obejmuje ocena C – Częściowy?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "0–15%",
+          "poprawna": false,
+          "wyjasnienie": "To ocena N.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ponad 50–85%",
+          "poprawna": false,
+          "wyjasnienie": "To ocena W.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ponad 15–50%",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. C to ponad 15 do 50%."
+        },
+        {
+          "tekst": "Ponad 85–100%",
+          "poprawna": false,
+          "wyjasnienie": "To ocena P.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-42-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k42-oceny-w-i-p",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Mieszkanie po remoncie nadaje się do życia, ale brakuje listew i jednej lampy. Jaka ocena pasuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "P – Pełny",
+          "poprawna": false,
+          "wyjasnienie": "P oznacza brak istotnych słabości.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "C – Częściowy",
+          "poprawna": false,
+          "wyjasnienie": "Remont jest zrobiony w większości, a nie częściowo.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "W – Większościowy",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Większość zrobiona, ale zostały słabości."
+        },
+        {
+          "tekst": "F – Fully",
+          "poprawna": false,
+          "wyjasnienie": "To forma EN i podręcznikowa, a do tego zbyt wysoka ocena.",
+          "pulapka": "forma-podrecznikowa"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-42-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k42-oceny-w-i-p",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Rejestr szkód ubezpieczyciela ma wzór, wersje i comiesięczny przegląd. Ostatni przegląd nie wykazał istotnych słabości. Jaka ocena PA 2.2?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "P – Pełny",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Kompletne i systematyczne dowody bez istotnych słabości to P."
+        },
+        {
+          "tekst": "W – Większościowy",
+          "poprawna": false,
+          "wyjasnienie": "W dopuszcza pewne słabości, a tu ich nie stwierdzono.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "C – Częściowy",
+          "poprawna": false,
+          "wyjasnienie": "Dowody są kompletne, a nie częściowe.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "L – Largely",
+          "poprawna": false,
+          "wyjasnienie": "To litera EN. Do tego zakres jest za niski.",
+          "pulapka": "forma-podrecznikowa"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-42-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k42-oceny-w-i-p",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Który zestaw par EN → egzamin PL jest poprawny?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "L → W, F → P, P → P",
+          "poprawna": false,
+          "wyjasnienie": "EN P (Partially) to na egzaminie C, a nie P.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "L → C, F → W, P → P",
+          "poprawna": false,
+          "wyjasnienie": "Pary są przesunięte.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "L → P, F → W, P → C",
+          "poprawna": false,
+          "wyjasnienie": "L i F są zamienione.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "L → W, F → P, P → C",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Largely = Większościowy, Fully = Pełny, Partially = Częściowy."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-42-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k42-oceny-w-i-p",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Czym ocena W różni się od oceny P?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "W oznacza 100%, a P co najmniej 85%",
+          "poprawna": false,
+          "wyjasnienie": "P to ponad 85–100%, a W to ponad 50–85%.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "W to ocena procesu, a P to ocena ludzi",
+          "poprawna": false,
+          "wyjasnienie": "Obie oceny dotyczą atrybutów procesu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Niczym, to dwie nazwy tej samej oceny",
+          "poprawna": false,
+          "wyjasnienie": "To dwie różne oceny.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Przy W zostają pewne słabości, przy P – brak istotnych",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak rozróżnia je podręcznik."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-43-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k43-regula-poziomu",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Na budowie nowe piętro może być w trakcie prac, ale fundament musi być gotowy. Jaka reguła oceny to przypomina?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Każdy poziom musi mieć same oceny P",
+          "poprawna": false,
+          "wyjasnienie": "Na nowym poziomie wystarczy W.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nowy poziom: co najmniej W; niższe poziomy: P",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Atrybuty nowego poziomu mają W lub P, a niższe – P."
+        },
+        {
+          "tekst": "Wystarczy, że średnia ocen przekracza 50%",
+          "poprawna": false,
+          "wyjasnienie": "Model nie liczy średniej.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Niższe poziomy mogą mieć W, a nowy musi mieć P",
+          "poprawna": false,
+          "wyjasnienie": "Reguła jest odwrócona.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-43-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k43-regula-poziomu",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Proces ma PA 1.1 = P, PA 2.1 = W, PA 2.2 = W. Jaki poziom osiąga?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 1, bo PA 2.1 i PA 2.2 nie mają P",
+          "poprawna": false,
+          "wyjasnienie": "Na nowym poziomie wystarczy W.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 3, bo wszystkie oceny są co najmniej W",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 3 wymaga atrybutów PA 3.1 i PA 3.2 oraz P na poziomie 2.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 0, bo nie wszystkie atrybuty mają P",
+          "poprawna": false,
+          "wyjasnienie": "PA 1.1 = P, więc poziom 1 jest osiągnięty.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 2",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. PA 2.1 i PA 2.2 mają co najmniej W, a PA 1.1 = P."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-43-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k43-regula-poziomu",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Asesor chce uznać proces za Proces ustanowiony. Jaki warunek muszą spełnić oceny?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "PA 3.1 i PA 3.2 – P; niższym atrybutom wystarczy W",
+          "poprawna": false,
+          "wyjasnienie": "Reguła jest odwrócona.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Tylko PA 3.1 – co najmniej W",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: liczą się oba atrybuty poziomu 3 i pełne niższe poziomy.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "PA 3.1 i PA 3.2 – W lub P; PA 1.1, PA 2.1 i PA 2.2 – P",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak wygląda przykład z podręcznika dla poziomu 3."
+        },
+        {
+          "tekst": "Średnia ze wszystkich atrybutów powyżej 50%",
+          "poprawna": false,
+          "wyjasnienie": "Model nie liczy średniej.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-43-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k43-regula-poziomu",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Proces ma P przy PA 3.1 i PA 3.2, ale PA 2.2 = C. Czy osiąga poziom 3?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Tak, bo atrybuty poziomu 3 mają P",
+          "poprawna": false,
+          "wyjasnienie": "Dobre oceny wyżej nie zastąpią fundamentu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Tak, bo C wystarcza na niższych poziomach",
+          "poprawna": false,
+          "wyjasnienie": "Niższe poziomy wymagają P.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie, bo poziom 2 nie jest osiągnięty w pełni",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Poziomu nie da się przeskoczyć: niższy musi być pełny."
+        },
+        {
+          "tekst": "Nie, bo poziom 3 wymaga P przy wszystkich dziewięciu atrybutach",
+          "poprawna": false,
+          "wyjasnienie": "Atrybuty poziomów 4 i 5 nie mają tu znaczenia.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-44-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k44-liczymy-poziom",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Od czego zaczynasz, gdy z ocen atrybutów wyznaczasz poziom zdolności?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Od najwyższej oceny i przyjmujesz jej poziom",
+          "poprawna": false,
+          "wyjasnienie": "Dobra ocena wyżej nie przesądza poziomu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Od policzenia średniej z wszystkich atrybutów",
+          "poprawna": false,
+          "wyjasnienie": "Model nie liczy średniej.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Od poziomu 5 i schodzisz w dół do pierwszej oceny P",
+          "poprawna": false,
+          "wyjasnienie": "Kierunek jest odwrócony, a reguła inna.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Od poziomu 1 i idziesz w górę, aż trafisz na niespełniony szczebel",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Sprawdzaj szczeble od dołu."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-44-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k44-liczymy-poziom",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Helpdesk banku: PA 1.1 = P, PA 2.1 = W, PA 2.2 = P, PA 3.1 = P, PA 3.2 = W. Jaki to poziom?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 3, bo PA 3.1 i PA 3.2 mają co najmniej W",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 3 blokuje PA 2.1 = W.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Poziom 2, bo PA 2.1 nie ma P",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Poziom 3 wymaga P przy wszystkich atrybutach poziomu 2."
+        },
+        {
+          "tekst": "Poziom 1, bo PA 3.2 nie ma P",
+          "poprawna": false,
+          "wyjasnienie": "Ocena PA 3.2 nie wpływa na poziom 2.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 4, bo żaden atrybut nie ma C",
+          "poprawna": false,
+          "wyjasnienie": "Brak ocen poziomu 4 i reguła poziomów to wykluczają.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-44-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k44-liczymy-poziom",
+      "bloom": "zastosowanie",
+      "trudnosc": 3,
+      "tresc": "Sklep internetowy: PA 1.1 = W, PA 2.1 = P, PA 2.2 = P. Jaki poziom zdolności osiągnął proces?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Poziom 2, bo atrybuty poziomu 2 mają P",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 1 nie jest osiągnięty w pełni.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Poziom 0, bo PA 1.1 nie ma P",
+          "poprawna": false,
+          "wyjasnienie": "Na poziom 1 wystarczy PA 1.1 = W.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 1",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Poziom 2 wymaga PA 1.1 = P, a tu jest W."
+        },
+        {
+          "tekst": "Poziom 3, bo większość ocen to P",
+          "poprawna": false,
+          "wyjasnienie": "Brak ocen poziomu 3 i nie liczy się większość.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-44-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-03",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k44-liczymy-poziom",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Uczelnia chce poziomu 1 dla wszystkich swoich procesów. Co mówi o tym podręcznik?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "To ambicja wielu organizacji, bo proces bez celu nie ma sensu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Podręcznik pyta, po co realizować proces, który nie osiąga celu."
+        },
+        {
+          "tekst": "To błąd, bo każdy proces powinien mieć poziom 5",
+          "poprawna": false,
+          "wyjasnienie": "Poziom docelowy rzadko jest najwyższy.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziom 1 jest zarezerwowany dla procesów EDM",
+          "poprawna": false,
+          "wyjasnienie": "Nie ma takiej reguły.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Poziomu 1 nie da się ocenić bez certyfikacji",
+          "poprawna": false,
+          "wyjasnienie": "Ocena może mieć też cel wewnętrzny.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-50-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-04"
+      ],
+      "lekcja": "pc-k50-dwa-wymiary",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Na egzaminie z gotowania sprawdza się, czy danie wyszło, oraz jak kucharz planuje pracę i pilnuje czasu. Co odpowiada pierwszemu pytaniu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Ocena w Wymiarze Zdolności",
+          "poprawna": false,
+          "wyjasnienie": "Wymiar Zdolności odpowiada drugiemu pytaniu: jak dobrze kierujemy pracą.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Ocena według modelu dojrzałości COBIT 4.1",
+          "poprawna": false,
+          "wyjasnienie": "To starszy model z COBIT 4.1, a nie wymiar oceny.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ocena w Wymiarze Procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wymiar Procesu sprawdza, czy proces robi swoje i daje wynik."
+        },
+        {
+          "tekst": "Ocena celów aktywatora",
+          "poprawna": false,
+          "wyjasnienie": "Cele aktywatora to pojęcie z modelu aktywatorów, a nie wymiar oceny procesu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-50-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-04"
+      ],
+      "lekcja": "pc-k50-dwa-wymiary",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Oceniający w szpitalu sprawdza, czy praca nad incydentami jest planowana i czy wyniki są mierzone. Do którego wymiaru należą te wskaźniki?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Do Wymiaru Procesu",
+          "poprawna": false,
+          "wyjasnienie": "Wymiar Procesu to wyniki, praktyki bazowe i produkty pracy danego procesu.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Do Referencyjnego Modelu Procesu",
+          "poprawna": false,
+          "wyjasnienie": "PRM opisuje proces, ale nie zawiera cech wyższych poziomów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Do Wymiaru Zdolności",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Planowanie i pomiar to atrybuty wyższych poziomów, oceniane typowymi praktykami."
+        },
+        {
+          "tekst": "Do żadnego, bo pomiaru nie ocenia się w COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Pomiar ocenia atrybut PA 4.1.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-50-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-04"
+      ],
+      "lekcja": "pc-k50-dwa-wymiary",
+      "bloom": "rozumienie",
+      "trudnosc": 3,
+      "tresc": "Które wskaźniki należą do **Wymiaru Procesu**, a NIE do Wymiaru Zdolności?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Praktyki bazowe i produkty pracy konkretnego procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Wymiar Procesu: wyniki, praktyki bazowe i produkty pracy danego procesu."
+        },
+        {
+          "tekst": "Typowe praktyki, zasoby i produkty pracy, wspólne dla wszystkich procesów",
+          "poprawna": false,
+          "wyjasnienie": "To wskaźniki Wymiaru Zdolności.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Atrybuty od PA 2.1 do PA 5.2 oceniane skalą N/C/W/P",
+          "poprawna": false,
+          "wyjasnienie": "Atrybuty poziomów 2–5 ocenia się w Wymiarze Zdolności.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wskaźniki wydajności i wskaźniki potencjału",
+          "poprawna": false,
+          "wyjasnienie": "To podręcznikowe nazwy obu grup naraz, a nie samego Wymiaru Procesu.",
+          "pulapka": "forma-podrecznikowa"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-50-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-04"
+      ],
+      "lekcja": "pc-k50-dwa-wymiary",
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak egzamin PL nazywa to, co podręcznik na Ilustracji 19 opisuje jako „wskaźniki potencjału”?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wymiar Procesu (Process dimension)",
+          "poprawna": false,
+          "wyjasnienie": "Wymiar Procesu to podręcznikowe „wskaźniki wydajności”.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Poziomy zdolności 0–5",
+          "poprawna": false,
+          "wyjasnienie": "Poziomy to szczeble drabiny, a nie grupa wskaźników.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wskaźniki potencjału",
+          "poprawna": false,
+          "wyjasnienie": "To forma z podręcznika.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Wymiar Zdolności (Capability dimension)",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Egzamin: Wymiar Zdolności (*Capability dimension*)."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-51-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-03"
+      ],
+      "lekcja": "pc-k51-referencyjny-model-procesu",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Żeby ocenić, czy ciasto się udało, potrzebny jest przepis: cel, kroki i to, co ma powstać. Co jest takim przepisem w ocenie zdolności?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Skala ocen N/C/W/P",
+          "poprawna": false,
+          "wyjasnienie": "Skala służy do oceniania, ale nie opisuje procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Referencyjny Model Procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. PRM podaje opis procesu z celem, praktyki i produkty działań."
+        },
+        {
+          "tekst": "Przewodnik Samooceny",
+          "poprawna": false,
+          "wyjasnienie": "To przewodnik do prowadzenia oceny, a nie opis procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Model dojrzałości COBIT 4.1",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie używa modelu dojrzałości jako wzorca.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-51-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-03"
+      ],
+      "lekcja": "pc-k51-referencyjny-model-procesu",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Bank pisze opis procesu obsługi incydentów do Referencyjnego Modelu Procesu. Którego zdania NIE powinno być w tym opisie?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "„Rejestruj każde zgłoszenie incydentu”",
+          "poprawna": false,
+          "wyjasnienie": "To krok potrzebny do osiągnięcia celu procesu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "„Co miesiąc mierz czas obsługi i porównuj z celem”",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Pomiar to cecha poziomu 4. Opis w PRM zawiera tylko kroki potrzebne do osiągnięcia celu."
+        },
+        {
+          "tekst": "„Klasyfikuj incydenty według wpływu”",
+          "poprawna": false,
+          "wyjasnienie": "To praktyka procesu, więc pasuje do opisu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "„Zamknij zgłoszenie po usunięciu przyczyny”",
+          "poprawna": false,
+          "wyjasnienie": "To krok procesu, więc pasuje do opisu.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-51-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-03"
+      ],
+      "lekcja": "pc-k51-referencyjny-model-procesu",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Co według podręcznika zawiera Referencyjny Model Procesu dla każdego procesu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Osobny model dojrzałości z sześcioma atrybutami",
+          "poprawna": false,
+          "wyjasnienie": "Z osobnych modeli dojrzałości COBIT 5 zrezygnował.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Opis wszystkich dziewięciu atrybutów dla danego procesu",
+          "poprawna": false,
+          "wyjasnienie": "Opis procesu nie może zawierać cech poza poziomem 1.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Skalę ocen i poziom docelowy procesu",
+          "poprawna": false,
+          "wyjasnienie": "Skala jest wspólna, a poziom docelowy wybiera organizacja.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Opis procesu z celem, podstawowe praktyki i produkty działań",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Praktyki to praktyki Ładu/Zarządzania, a produkty to wejścia i wyjścia."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-52-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-04"
+      ],
+      "lekcja": "pc-k52-cztery-pojecia-iso",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Proces „pranie” ma kroki: posortuj ubrania, wybierz program, rozwieś. Jak norma ISO/IEC 15504 nazywa takie kroki?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Praktyki bazowe",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Praktyka bazowa to czynność, która daje rezultat procesu."
+        },
+        {
+          "tekst": "Produkty pracy",
+          "poprawna": false,
+          "wyjasnienie": "Produkt pracy to ślad lub dowód, np. lista rzeczy do prania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Rezultaty procesu",
+          "poprawna": false,
+          "wyjasnienie": "Rezultat to widoczny skutek, np. czyste ubrania.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Przeznaczenie procesu",
+          "poprawna": false,
+          "wyjasnienie": "Przeznaczenie mówi, po co proces istnieje.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-52-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-04"
+      ],
+      "lekcja": "pc-k52-cztery-pojecia-iso",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Helpdesk prowadzi rejestr zgłoszeń i co miesiąc wysyła raport. Czym są te dokumenty w ocenie procesu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Praktykami bazowymi",
+          "poprawna": false,
+          "wyjasnienie": "Praktyka to czynność, a rejestr to jej ślad.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Przeznaczeniem procesu",
+          "poprawna": false,
+          "wyjasnienie": "Przeznaczenie to cel istnienia procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Rezultatami procesu",
+          "poprawna": false,
+          "wyjasnienie": "Rezultat to stan, a nie dokument. Raport to wyjście (*output*).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Produktami pracy",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Produkty pracy to wejścia i wyjścia procesu, czyli dowody pracy."
+        }
+      ]
+    },
+    {
+      "id": "q-pck-52-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-04"
+      ],
+      "lekcja": "pc-k52-cztery-pojecia-iso",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Jak egzamin PL nazywa *process purpose*, które podręcznik PL tłumaczy jako „cel procesu”?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        },
+        {
+          "doc": "ALTKOM"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Przeznaczenie procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Egzamin: przeznaczenie procesu (zestawienie Altkom)."
+        },
+        {
+          "tekst": "Cel procesu",
+          "poprawna": false,
+          "wyjasnienie": "To forma z podręcznika.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Rezultat procesu",
+          "poprawna": false,
+          "wyjasnienie": "Rezultat to *outcome*, czyli widoczny skutek.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Praktyka bazowa",
+          "poprawna": false,
+          "wyjasnienie": "To czynność procesu (*base practice*).",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-52-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-04"
+      ],
+      "lekcja": "pc-k52-cztery-pojecia-iso",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które zdanie jest przykładem **rezultatu procesu** (*outcome*) dla helpdesku?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Raport miesięczny z liczbą zgłoszeń",
+          "poprawna": false,
+          "wyjasnienie": "To produkt pracy, czyli wyjście (*output*).",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Incydenty są rozwiązywane w uzgodnionym czasie",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Rezultat to obserwowalny skutek osiągania przeznaczenia."
+        },
+        {
+          "tekst": "Rejestruj i klasyfikuj zgłoszenia",
+          "poprawna": false,
+          "wyjasnienie": "To praktyka bazowa.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Helpdesk istnieje, by przywracać działanie usług",
+          "poprawna": false,
+          "wyjasnienie": "To przeznaczenie procesu.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-53-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-04",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k53-ocena-poziomu-1",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Lekarz zaczyna od wyników badań, a potem pyta o nawyki. Od czego zaczyna się ocena, czy proces osiągnął poziom 1?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Od sprawdzenia, czy proces jest mierzony w limitach",
+          "poprawna": false,
+          "wyjasnienie": "To poziom 4.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Od przeliczenia wyniku z modelu dojrzałości",
+          "poprawna": false,
+          "wyjasnienie": "Model dojrzałości nie jest podstawą oceny w COBIT 5.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Od weryfikacji wyników procesu z jego opisu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Pierwszy krok to sprawdzenie wyników procesu i ocena skalą N/C/W/P."
+        },
+        {
+          "tekst": "Od oceny planów i grafików pracy",
+          "poprawna": false,
+          "wyjasnienie": "Plany to dowody dla poziomu 2.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-53-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-04",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k53-ocena-poziomu-1",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Proces obsługi szkód u ubezpieczyciela nie osiąga poziomu 1. Co pozwala ustalić, czego brakuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Ocena atrybutu PA 5.1",
+          "poprawna": false,
+          "wyjasnienie": "Innowacja to poziom 5 i nie wyjaśni braku poziomu 1.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Porównanie z wynikiem innej firmy",
+          "poprawna": false,
+          "wyjasnienie": "Porównanie nie wskaże brakujących praktyk.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Ocena praktyk procesu",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Ocena praktyk pokazuje, których brakuje albo które nie działają."
+        },
+        {
+          "tekst": "Ocena pracowników działu szkód",
+          "poprawna": false,
+          "wyjasnienie": "Ocenia się procesy, a nie ludzi.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-53-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-04",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k53-ocena-poziomu-1",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Która kolejność kroków oceny poziomu 1 jest zgodna z podręcznikiem?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Produkty pracy, potem praktyki, potem wyniki procesu",
+          "poprawna": false,
+          "wyjasnienie": "Kolejność jest odwrócona.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Typowe praktyki, potem atrybuty poziomów 2–5",
+          "poprawna": false,
+          "wyjasnienie": "To ocena wyższych poziomów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wyniki procesu, potem praktyki, potem produkty pracy",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Tak opisuje to podręcznik na s. 45."
+        },
+        {
+          "tekst": "Poziom dojrzałości, potem przeliczenie na zdolność",
+          "poprawna": false,
+          "wyjasnienie": "Nie przelicza się wyników COBIT 4.1.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-53-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-04",
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k53-ocena-poziomu-1",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co dzieje się, gdy proces tylko czasem daje wymagany wynik?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Proces automatycznie dostaje poziom 1",
+          "poprawna": false,
+          "wyjasnienie": "Bez osiągania celu nie ma poziomu 1.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Proces nie osiąga celu i trzeba go udoskonalić",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Z oceny powstaje plan doskonalenia."
+        },
+        {
+          "tekst": "Proces przechodzi od razu do oceny poziomu 2",
+          "poprawna": false,
+          "wyjasnienie": "Poziomu 1 nie da się pominąć.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Organizacja musi wycofać proces z COBIT 5",
+          "poprawna": false,
+          "wyjasnienie": "Nie ma takiej reguły.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-55-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-01"
+      ],
+      "lekcja": "pc-k55-cele-oceny",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Przed wakacjami chcesz wiedzieć, w jakim stanie jest auto i co naprawić. Który cel oceny zdolności jest do tego podobny?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Certyfikacja zgodności dla regulatora",
+          "poprawna": false,
+          "wyjasnienie": "To cel zewnętrzny, formalny.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ocena pracy kierowcy",
+          "poprawna": false,
+          "wyjasnienie": "Ocenia się proces, a nie osobę.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Analiza luk i planowanie usprawnień",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Ocena pokazuje luki i pozwala zaplanować poprawki."
+        },
+        {
+          "tekst": "Wybór nowej marki samochodu",
+          "poprawna": false,
+          "wyjasnienie": "To decyzja zakupowa, nie cel oceny procesu.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-55-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-01"
+      ],
+      "lekcja": "pc-k55-cele-oceny",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Zarząd banku mówi: „Nie potrzebujemy certyfikatu. Chcemy wiedzieć, gdzie są nasze procesy i gdzie powinny być, by wybrać inwestycje”. Który to cel?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Formalna ocena zewnętrzna z certyfikacją",
+          "poprawna": false,
+          "wyjasnienie": "Zarząd wprost mówi, że certyfikatu nie potrzebuje.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Określenie stanu „jak jest” i „jak ma być”",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To podstawa decyzji inwestycyjnych w usprawnienia."
+        },
+        {
+          "tekst": "Porównanie zdolności z innymi bankami",
+          "poprawna": false,
+          "wyjasnienie": "To prawdziwy cel oceny, ale zarząd mówi o stanie i budżecie.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Sprawdzenie zgodności z ISO/IEC 27001",
+          "poprawna": false,
+          "wyjasnienie": "To inna norma i inny rodzaj oceny.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-55-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-01"
+      ],
+      "lekcja": "pc-k55-cele-oceny",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Który cel oceny ma według podręcznika charakter **zewnętrzny**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Porównanie obszarów przedsiębiorstwa",
+          "poprawna": false,
+          "wyjasnienie": "To cel wewnętrzny.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Doskonalenie procesów dla korzyści wewnętrznych",
+          "poprawna": false,
+          "wyjasnienie": "To cel wewnętrzny.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Formalne oszacowanie, raportowanie i certyfikacja",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Cele zewnętrzne to formalna ocena, raport i certyfikacja."
+        },
+        {
+          "tekst": "Ocena kultury organizacyjnej",
+          "poprawna": false,
+          "wyjasnienie": "Kultura to inny aktywator, a nie cel oceny zdolności procesów.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-55-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-01"
+      ],
+      "lekcja": "pc-k55-cele-oceny",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Kto według podręcznika korzysta z porównania zdolności procesów jako celu oceny?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wyłącznie zewnętrzny audytor",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik wskazuje organ Ładu i kierownictwo.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Organ Ładu i kierownictwo",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Ocena umożliwia organowi nadzorującemu i kierownictwu porównanie zdolności procesów."
+        },
+        {
+          "tekst": "Klienci organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Klienci nie są wskazani jako odbiorcy porównania.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Dostawcy oprogramowania",
+          "poprawna": false,
+          "wyjasnienie": "Dostawcy nie są wskazani jako odbiorcy porównania.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-56-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "lekcja": "pc-k56-przewodniki-oceny",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Przed trasą sam sprawdzasz olej i opony, bez zbierania dokumentów. Który przewodnik oceny to przypomina?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Przewodnik Asesora",
+          "poprawna": false,
+          "wyjasnienie": "To formalna ocena oparta na dowodach.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Referencyjny Model Procesu",
+          "poprawna": false,
+          "wyjasnienie": "PRM opisuje procesy, ale nie jest przewodnikiem oceny.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Przewodnik Samooceny",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. To lżejsza ocena wewnętrzna bez wymogu dowodów."
+        },
+        {
+          "tekst": "Model dojrzałości",
+          "poprawna": false,
+          "wyjasnienie": "To model z COBIT 4.1.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-56-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "lekcja": "pc-k56-przewodniki-oceny",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Regulator wymaga od ubezpieczyciela formalnej oceny procesów, opartej na dowodach. Z którego przewodnika skorzysta oceniający?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Z Przewodnika Asesora",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Pełna, formalna ocena z dowodami to Przewodnik Asesora."
+        },
+        {
+          "tekst": "Z Przewodnika Samooceny",
+          "poprawna": false,
+          "wyjasnienie": "Samoocena nie wymaga dowodów i nie jest formalna.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Z Podręcznika samooceny",
+          "poprawna": false,
+          "wyjasnienie": "To inna polska nazwa Przewodnika Samooceny, a do tego zły przewodnik.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Wyłącznie z PAM, bez przewodnika",
+          "poprawna": false,
+          "wyjasnienie": "PAM jest podstawą, ale sposób formalnej oceny opisuje Przewodnik Asesora.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-56-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "lekcja": "pc-k56-przewodniki-oceny",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Która publikacja jest wspólną podstawą Przewodnika Asesora i Przewodnika Samooceny?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        },
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Przewodnik osoby oceniającej",
+          "poprawna": false,
+          "wyjasnienie": "To inna polska nazwa Przewodnika Asesora.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Model Oceny Procesu (PAM)",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. PAM zawiera procesy, wskaźniki, atrybuty i skalę."
+        },
+        {
+          "tekst": "Model dojrzałości COBIT 4.1",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 nie opiera oceny na modelu dojrzałości.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Norma ISO/IEC 27001",
+          "poprawna": false,
+          "wyjasnienie": "To norma o bezpieczeństwie informacji.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-56-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "lekcja": "pc-k56-przewodniki-oceny",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Dział IT uczelni robi samoocenę przed audytem. Które zdanie o Przewodniku Samooceny jest prawdziwe?",
+      "zrodlo": [
+        {
+          "doc": "SYL"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "To Przewodnik Asesora używany we własnym gronie",
+          "poprawna": false,
+          "wyjasnienie": "To inna, lżejsza metoda, a nie ta sama ocena.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "To lżejsza ocena przed oceną formalną",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Samoocena pokazuje luki przed formalną oceną asesora."
+        },
+        {
+          "tekst": "Daje certyfikat zgodności z normą ISO/IEC 15504",
+          "poprawna": false,
+          "wyjasnienie": "Samoocena nie jest formalną certyfikacją.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Zastępuje Model Oceny Procesu",
+          "poprawna": false,
+          "wyjasnienie": "Samoocena korzysta z PAM, a nie go zastępuje.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-pck-51-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-03"
+      ],
+      "lekcja": "pc-k51-referencyjny-model-procesu",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Asesor w urzędzie wojewódzkim sprawdza, czy proces obsługi zgłoszeń wykonuje praktyki bazowe i wytwarza produkty pracy opisane w modelu referencyjnym procesu. Na czym się teraz skupia?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Na ocenie w Wymiarze Procesu (Process dimension)",
+          "poprawna": true,
+          "wyjasnienie": "Dobrze. Praktyki bazowe i produkty pracy z modelu referencyjnego to wskaźniki Wymiaru Procesu – sprawdzają, czy proces osiąga swoje przeznaczenie (poziom 1)."
+        },
+        {
+          "tekst": "Na ocenie w Wymiarze Zdolności (Capability dimension)",
+          "poprawna": false,
+          "wyjasnienie": "Wymiar Zdolności ocenia atrybuty procesu poziomów 2–5 (np. zarządzanie wydajnością), wspólne dla wszystkich procesów, a nie praktyki z modelu referencyjnego.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Na ustaleniu poziomu dojrzałości według COBIT 4.1",
+          "poprawna": false,
+          "wyjasnienie": "Model dojrzałości to dawne podejście COBIT 4.1, zastąpione w COBIT 5 modelem zdolności procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Na przypisaniu procesu do celów w kaskadzie celów",
+          "poprawna": false,
+          "wyjasnienie": "Kaskada celów łączy cele z procesami, ale nie służy do oceny, czy proces wykonuje swoje praktyki.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    }
+  ]
+}

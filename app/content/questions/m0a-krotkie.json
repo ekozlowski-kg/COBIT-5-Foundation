@@ -1,0 +1,1590 @@
+{
+  "_opis": "Pytania do krótkich lekcji M0 0.10–0.18 (interesariusze, potrzeby, wyznaczniki, rezultat, korzyść, wartość, optymalizacja). FORMAT-KROTKI.md §6: trudnosc 1 → 3, przykłady ogólne.",
+  "pytania": [
+    {
+      "id": "q-m0k-10-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-10-interesariusz",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rodzina remontuje mieszkanie. Kto oprócz rodziny i ekipy jest **interesariuszem** tego remontu?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Sąsiad zza ściany, który słyszy hałas",
+          "poprawna": true,
+          "wyjasnienie": "Odczuwa skutki remontu, więc sprawa go obchodzi. To wystarczy, żeby być interesariuszem."
+        },
+        {
+          "tekst": "Wiertarka, której używa ekipa",
+          "poprawna": false,
+          "wyjasnienie": "Rzecz nie ma oczekiwań ani interesów. Wiertarka to narzędzie, czyli zasób.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wyłącznie właściciel, bo to on płaci za remont",
+          "poprawna": false,
+          "wyjasnienie": "Płacący jest interesariuszem, ale nie jedynym. Interesariuszem jest każdy, kogo sprawa obchodzi.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Nikt, bo interesariuszem jest tylko wykonawca",
+          "poprawna": false,
+          "wyjasnienie": "Wykonawca też jest interesariuszem, ale sąsiad odczuwający skutki – również.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-10-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-10-interesariusz",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Szpital uruchamia rejestrację internetową. Kto lub co **NIE** jest interesariuszem tej zmiany?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Pacjent bez internetu, który dzwoni do rejestracji",
+          "poprawna": false,
+          "wyjasnienie": "Jest interesariuszem: nie korzysta z systemu, ale odczuwa skutki zmiany.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Serwer, na którym działa system rejestracji",
+          "poprawna": true,
+          "wyjasnienie": "Serwer to rzecz (zasób). Nie ma oczekiwań, udziału ani odpowiedzialności, więc nie jest interesariuszem."
+        },
+        {
+          "tekst": "Firma, która napisała system rejestracji",
+          "poprawna": false,
+          "wyjasnienie": "Dostawca ma w sprawie interes (umowę, reputację). Podręcznik wymienia dostawców wśród interesariuszy.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Urząd nadzorujący ochronę danych osobowych",
+          "poprawna": false,
+          "wyjasnienie": "Organ nadzorczy ma oczekiwania wobec szpitala, więc jest interesariuszem.",
+          "pulapka": "prawda-nie-na-temat"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-10-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-10-interesariusz",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Które stwierdzenie najlepiej opisuje **interesariusza** (*Stakeholder*) w COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Udziałowiec (*Shareholder*), czyli właściciel akcji lub udziałów organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Pułapka językowa: shareholder to udziałowiec, a nie stakeholder. Udziałowiec jest tylko jednym z interesariuszy.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Użytkownik końcowy, który codziennie korzysta z systemów informatycznych",
+          "poprawna": false,
+          "wyjasnienie": "Użytkownik jest interesariuszem, ale interesariusz nie musi korzystać z systemu.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Każdy, kto ma wobec organizacji oczekiwania, udział lub odpowiedzialność",
+          "poprawna": true,
+          "wyjasnienie": "Tak opisuje interesariusza słowniczek podręcznika (Załącznik H)."
+        },
+        {
+          "tekst": "Członek zarządu, który podejmuje decyzje o inwestycjach w IT",
+          "poprawna": false,
+          "wyjasnienie": "Decydent jest interesariuszem, ale nie jedynym. Decyzja może dotyczyć kogoś bez jego udziału.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-10-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-10-interesariusz",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Bank wdraża aplikację mobilną. Kto jest interesariuszem tego wdrożenia?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Tylko klienci, bo to oni korzystają z aplikacji",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: interesariusz nie musi być użytkownikiem.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Tylko zarząd, bo to on zatwierdza budżet projektu",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: interesariusz nie musi być decydentem.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Tylko dział IT, bo to on utrzymuje aplikację",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: sprawa obchodzi także klientów, zarząd i regulatora.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Klienci, zarząd, dział IT i regulator",
+          "poprawna": true,
+          "wyjasnienie": "Każda z tych stron ma w sprawie interes: wygodę, nowych klientów, stabilność albo bezpieczeństwo."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-11-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-11-interesariusze-wewnetrzni-zewnetrzni",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Na weselu jest rodzina młodej pary oraz fotograf wynajęty na cały dzień. Kogo według testu przynależności uznasz za osobę „z zewnątrz”?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 22,
+          "ilustracja": "7"
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Rodziców młodej pary, bo najwięcej płacą",
+          "poprawna": false,
+          "wyjasnienie": "Płacenie nie zmienia przynależności. Rodzice należą do rodziny.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Fotografa, bo działa w osobnej firmie",
+          "poprawna": true,
+          "wyjasnienie": "Liczy się przynależność, a nie czas spędzony na sali. Fotograf nie należy do rodziny."
+        },
+        {
+          "tekst": "Nikogo, bo wszyscy są na sali przez cały dzień",
+          "poprawna": false,
+          "wyjasnienie": "Częstość i długość obecności nie decyduje o grupie.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Świadków, bo nie są parą młodą",
+          "poprawna": false,
+          "wyjasnienie": "Świadkowie to zwykle rodzina lub bliscy, a test pyta o przynależność do grupy.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-11-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-11-interesariusze-wewnetrzni-zewnetrzni",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Firma ubezpieczeniowa spisuje swoich interesariuszy. Który wpis jest zakwalifikowany **błędnie**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 22,
+          "ilustracja": "7"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Audyt wewnętrzny firmy – interesariusz wewnętrzny",
+          "poprawna": false,
+          "wyjasnienie": "Wpis poprawny: audyt wewnętrzny należy do organizacji.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Właściciele procesów biznesowych – interesariusze wewnętrzni",
+          "poprawna": false,
+          "wyjasnienie": "Wpis poprawny według Rysunku 7.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Organ nadzoru nad ubezpieczeniami – interesariusz zewnętrzny",
+          "poprawna": false,
+          "wyjasnienie": "Wpis poprawny: organy nadzorcze są interesariuszami zewnętrznymi.",
+          "pulapka": "prawda-nie-na-temat"
+        },
+        {
+          "tekst": "Dostawca chmury – interesariusz wewnętrzny",
+          "poprawna": true,
+          "wyjasnienie": "Błąd: dostawca to osobna firma, więc jest interesariuszem zewnętrznym (Rysunek 7)."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-11-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-11-interesariusze-wewnetrzni-zewnetrzni",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Która grupa zawiera **wyłącznie** interesariuszy zewnętrznych według COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 22,
+          "ilustracja": "7"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Klienci, dostawcy, udziałowcy, audytorzy zewnętrzni",
+          "poprawna": true,
+          "wyjasnienie": "Wszystkie te grupy są po stronie zewnętrznej Ilustracji 7 (na egzaminie: Rysunek 7)."
+        },
+        {
+          "tekst": "Zarząd, klienci, dostawcy, konsultanci",
+          "poprawna": false,
+          "wyjasnienie": "Zarząd to interesariusz wewnętrzny.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Audyt wewnętrzny, organy nadzorcze, partnerzy biznesowi",
+          "poprawna": false,
+          "wyjasnienie": "Pułapka nazwy: audyt wewnętrzny jest wewnętrzny, choć kontroluje innych. Zewnętrzni są audytorzy zewnętrzni.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Użytkownicy IT, organy nadzorcze, klienci",
+          "poprawna": false,
+          "wyjasnienie": "Użytkownicy IT to interesariusze wewnętrzni.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-11-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-11-interesariusze-wewnetrzni-zewnetrzni",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Do której grupy należą udziałowcy banku według Ilustracji 7 (na egzaminie: Rysunek 7)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 22,
+          "ilustracja": "7"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Do wewnętrznych, bo są właścicielami banku",
+          "poprawna": false,
+          "wyjasnienie": "Własność nie przesądza o grupie w Ilustracji 7. Udziałowcy są tam po stronie zewnętrznej.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Do żadnej, bo udziałowiec nie jest interesariuszem",
+          "poprawna": false,
+          "wyjasnienie": "Udziałowiec jest interesariuszem – jednym z wielu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Do interesariuszy zewnętrznych",
+          "poprawna": true,
+          "wyjasnienie": "Ilustracja 7 wymienia udziałowców po stronie zewnętrznej."
+        },
+        {
+          "tekst": "Do wewnętrznych, tak samo jak zarząd banku",
+          "poprawna": false,
+          "wyjasnienie": "Zarząd jest wewnętrzny, ale udziałowcy – zewnętrzni.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-12-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-12-rozne-oczekiwania",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rodzina wybiera samochód. Jedna osoba chce taniego, druga bezpiecznego, trzecia z dużym bagażnikiem. Co to pokazuje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Że jedna z osób na pewno się myli i trzeba ją przekonać do zmiany zdania",
+          "poprawna": false,
+          "wyjasnienie": "Nikt tu się nie myli. Sprzeczne oczekiwania są normalne.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Że liczy się tylko życzenie osoby, która płaci",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: płacący to tylko jeden z zainteresowanych.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Że różne osoby mają różne, czasem sprzeczne oczekiwania",
+          "poprawna": true,
+          "wyjasnienie": "Tak: każdy patrzy na sprawę ze swojej strony, a życzenia mogą się wykluczać."
+        },
+        {
+          "tekst": "Że rodzina nie powinna kupować samochodu",
+          "poprawna": false,
+          "wyjasnienie": "Sprzeczne życzenia nie oznaczają, że decyzja jest zła. Trzeba je wyważyć.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-12-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-12-rozne-oczekiwania",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Szpital wdraża elektroniczną kartotekę. Lekarze chcą szybkiego dostępu, inspektor ochrony danych – ograniczeń, a dyrekcja – niskich kosztów. Co powinno nastąpić przed decyzją?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Uwzględnienie oczekiwań wszystkich interesariuszy i ich wyważenie",
+          "poprawna": true,
+          "wyjasnienie": "Podręcznik mówi, że przed decyzją trzeba uwzględnić oczekiwania wszystkich interesariuszy."
+        },
+        {
+          "tekst": "Spełnienie oczekiwań lekarzy, bo to oni najczęściej korzystają z systemu",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: użytkownicy to tylko jedna grupa interesariuszy.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Wybór najtańszej oferty, bo koszt najłatwiej zmierzyć",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: koszt to tylko jedno z oczekiwań.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Przekazanie całej decyzji dostawcy, bo najlepiej zna technologię",
+          "poprawna": false,
+          "wyjasnienie": "Dostawca jest interesariuszem zewnętrznym. Nie on waży oczekiwania szpitala.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-12-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-12-rozne-oczekiwania",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Na czym według COBIT 5 polega **Ład** (*Governance*; w podręczniku: nadzór) wobec różnych oczekiwań interesariuszy?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Na spełnianiu wszystkich oczekiwań po kolei, w kolejności zgłoszeń",
+          "poprawna": false,
+          "wyjasnienie": "Oczekiwania mogą się wykluczać, więc nie da się spełnić wszystkich po kolei.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Na negocjowaniu i podejmowaniu decyzji o wartości dla różnych interesariuszy",
+          "poprawna": true,
+          "wyjasnienie": "Tak opisuje to podręcznik na s. 17."
+        },
+        {
+          "tekst": "Na planowaniu i wykonywaniu codziennej pracy działu IT",
+          "poprawna": false,
+          "wyjasnienie": "To opis zarządzania, a nie Ładu – inna kategoria.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Na spełnianiu wyłącznie oczekiwań udziałowców organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: udziałowcy to tylko jedna grupa interesariuszy.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-12-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-01",
+        "PR-02-03"
+      ],
+      "lekcja": "m0-12-rozne-oczekiwania",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "W banku dział finansów chce taniego systemu płatności, a dział bezpieczeństwa – najlepszej ochrony. Jak to ocenić?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "To błąd jednego z działów, który trzeba szybko naprawić",
+          "poprawna": false,
+          "wyjasnienie": "Żaden dział się nie myli. Każdy patrzy ze swojej strony.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "To znak, że bank w ogóle nie potrzebuje nowego systemu",
+          "poprawna": false,
+          "wyjasnienie": "Sprzeczne oczekiwania nie przesądzają o potrzebie. Trzeba je wyważyć.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "To sprawa działu IT, bo inne działy nie są interesariuszami",
+          "poprawna": false,
+          "wyjasnienie": "Działy finansów i bezpieczeństwa też są interesariuszami.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "To normalne: oczekiwania interesariuszy mogą się wykluczać",
+          "poprawna": true,
+          "wyjasnienie": "Podręcznik mówi, że wartość oznacza dla różnych interesariuszy różne, niekiedy wykluczające się rzeczy."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-13-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-13-potrzeba",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Mówisz: „potrzebuję nowej lodówki”, bo jedzenie szybko się psuje. Co jest tu prawdziwą potrzebą?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Nowa lodówka z wyższej półki cenowej",
+          "poprawna": false,
+          "wyjasnienie": "To oczekiwanie, czyli pomysł na rozwiązanie, a nie sama potrzeba.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Większa kuchnia na nowy sprzęt",
+          "poprawna": false,
+          "wyjasnienie": "To kolejny pomysł na rozwiązanie, i to niezwiązany z potrzebą.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Żeby jedzenie dłużej było świeże",
+          "poprawna": true,
+          "wyjasnienie": "To stan, który chcesz osiągnąć. Czasem wystarczy nowa uszczelka."
+        },
+        {
+          "tekst": "Lodówka tej samej marki co u sąsiadów",
+          "poprawna": false,
+          "wyjasnienie": "Marka sąsiadów nie mówi nic o tym, czego potrzebujesz.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-13-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-13-potrzeba",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Dział sprzedaży prosi: „Kupcie nam nowy CRM”. Po pytaniu „po co?” okazuje się, że handlowcy nie widzą historii rozmów z klientem. Co jest potrzebą?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Zakup nowego systemu CRM od dostawcy",
+          "poprawna": false,
+          "wyjasnienie": "To oczekiwanie (prośba o konkretne rozwiązanie), a nie potrzeba.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nowe, szybsze komputery dla wszystkich handlowców",
+          "poprawna": false,
+          "wyjasnienie": "Nic w opisie nie wskazuje, że problemem są komputery.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Szkolenie z obsługi arkuszy kalkulacyjnych",
+          "poprawna": false,
+          "wyjasnienie": "Arkusze nie rozwiążą braku historii klienta w jednym miejscu.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Pełna historia klienta w jednym miejscu",
+          "poprawna": true,
+          "wyjasnienie": "To stan do osiągnięcia. Można go spełnić na kilka sposobów, np. łącząc obecne systemy."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-13-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-13-potrzeba",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Które zdanie najlepiej opisuje podejście COBIT 5 do potrzeb interesariuszy?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Potrzeby interesariuszy przekłada się na konkretne cele i działania",
+          "poprawna": true,
+          "wyjasnienie": "Podręcznik: potrzeby trzeba przekształcić w strategię złożoną z konkretnych działań."
+        },
+        {
+          "tekst": "Dział IT wybiera technologię, a potrzeby dopasowuje się potem do niej",
+          "poprawna": false,
+          "wyjasnienie": "Kolejność odwrócona: najpierw potrzeby, potem rozwiązania.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Potrzeby interesariuszy to wyznaczniki, czyli czynniki wpływające na potrzeby",
+          "poprawna": false,
+          "wyjasnienie": "Pomieszanie pojęć: wyznacznik to przyczyna zmiany potrzeby, a nie sama potrzeba.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Potrzeby ustala dostawca systemu na podstawie swojej oferty",
+          "poprawna": false,
+          "wyjasnienie": "Potrzeby należą do interesariuszy, a nie wynikają z oferty dostawcy.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-13-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-13-potrzeba",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Wykładowcy proszą o „nowe tablety”. Po rozmowie okazuje się, że chcą pokazywać studentom notatki na żywo. Co jest potrzebą, a co oczekiwaniem?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Potrzeba: tablety; oczekiwanie: pokazywanie notatek na żywo",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie: tablety to pomysł na rozwiązanie.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Potrzeba: pokazywanie notatek na żywo; oczekiwanie: tablety",
+          "poprawna": true,
+          "wyjasnienie": "Potrzeba to stan do osiągnięcia, a tablety to jeden z pomysłów, jak go osiągnąć."
+        },
+        {
+          "tekst": "Obie rzeczy są potrzebami w tym samym znaczeniu",
+          "poprawna": false,
+          "wyjasnienie": "Tablety to sposób, a nie stan do osiągnięcia.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Obie rzeczy są wyznacznikami, bo zmieniają potrzeby",
+          "poprawna": false,
+          "wyjasnienie": "Wyznacznik to zmiana strategii, otoczenia albo technologii – inna kategoria.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-14-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-14-wyznaczniki",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Rodzina postanawia przeprowadzić się na wieś i nagle potrzebuje samochodu. Co jest przyczyną nowej potrzeby?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Sam samochód, który rodzina kupi",
+          "poprawna": false,
+          "wyjasnienie": "Samochód to sposób spełnienia potrzeby, a nie jej przyczyna.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Decyzja o przeprowadzce, czyli zmiana planów",
+          "poprawna": true,
+          "wyjasnienie": "To odpowiednik zmiany strategii: nowy plan wywołuje nową potrzebę."
+        },
+        {
+          "tekst": "Salon samochodowy w najbliższym mieście",
+          "poprawna": false,
+          "wyjasnienie": "Salon nie wywołał potrzeby. Wywołała ją przeprowadzka.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Cena paliwa na najbliższej stacji",
+          "poprawna": false,
+          "wyjasnienie": "Cena paliwa nie spowodowała potrzeby samochodu.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-14-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-14-wyznaczniki",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Wchodzi nowy przepis o ochronie danych osobowych. Sklep internetowy potrzebuje lepszej ochrony danych klientów. Jaki to wyznacznik?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zmiana strategii sklepu",
+          "poprawna": false,
+          "wyjasnienie": "Sklep nie zmienił własnego planu. Zmiana przyszła z zewnątrz.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nowa technologia",
+          "poprawna": false,
+          "wyjasnienie": "Przepis nie jest technologią.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Zmiana otoczenia biznesowego i regulacyjnego",
+          "poprawna": true,
+          "wyjasnienie": "Nowy przepis to zmiana otoczenia regulacyjnego (s. 17)."
+        },
+        {
+          "tekst": "Nowa potrzeba interesariuszy",
+          "poprawna": false,
+          "wyjasnienie": "Potrzeba to skutek. Pytanie dotyczy przyczyny.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-14-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-14-wyznaczniki",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Bank zastanawia się, co może zmienić potrzeby jego interesariuszy. Która odpowiedź jest zgodna z COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Nowa polityka bezpieczeństwa informacji banku",
+          "poprawna": false,
+          "wyjasnienie": "Polityka pomaga spełniać potrzeby – to aktywator, inna kategoria.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Czynnik umożliwiający, np. proces zarządzania zmianą",
+          "poprawna": false,
+          "wyjasnienie": "Pułapka słowa „czynnik”: czynnik umożliwiający to aktywator, a nie wyznacznik.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nowy podział ról i obowiązków w dziale IT banku",
+          "poprawna": false,
+          "wyjasnienie": "Struktura i role to aktywatory. Nie wywołują potrzeb, tylko pomagają je spełnić.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Przejście konkurencji na obsługę wyłącznie mobilną",
+          "poprawna": true,
+          "wyjasnienie": "To zmiana otoczenia biznesowego, czyli jeden z trzech wyznaczników."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-14-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-14-wyznaczniki",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Jaka jest kolejność na początku Kaskady Celów COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wyznaczniki → potrzeby interesariuszy → cele organizacji",
+          "poprawna": true,
+          "wyjasnienie": "Najpierw zmiana, potem nowa potrzeba, a z niej cele (krok 1 i 2 kaskady)."
+        },
+        {
+          "tekst": "Cele organizacji → potrzeby interesariuszy → wyznaczniki",
+          "poprawna": false,
+          "wyjasnienie": "Kolejność odwrócona.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Potrzeby interesariuszy → wyznaczniki → cele organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Wyznacznik jest przyczyną, więc stoi przed potrzebą.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Aktywatory → wyznaczniki → potrzeby interesariuszy",
+          "poprawna": false,
+          "wyjasnienie": "Aktywatory nie otwierają kaskady – to inna kategoria.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-15-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-15-wyznacznik-z-czym-nie-mylic",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Przychodzi zima i kupujesz ciepłą kurtkę. Co jest przyczyną, a co sposobem spełnienia potrzeby?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Kurtka jest przyczyną, a zima sposobem spełnienia potrzeby",
+          "poprawna": false,
+          "wyjasnienie": "Odwrotnie: kurtka to sposób, a nie przyczyna.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Obie są przyczynami tej samej potrzeby",
+          "poprawna": false,
+          "wyjasnienie": "Kurtka niczego nie wywołuje. Ona potrzebę zaspokaja.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Obie są sposobami spełnienia potrzeby",
+          "poprawna": false,
+          "wyjasnienie": "Zima nie spełnia potrzeby. Ona ją wywołuje.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Zima jest przyczyną, a kurtka sposobem spełnienia potrzeby",
+          "poprawna": true,
+          "wyjasnienie": "Najpierw zmiana (zima), potem potrzeba ciepła, a kurtka ją spełnia."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-15-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-15-wyznacznik-z-czym-nie-mylic",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "W banku wchodzi nowy przepis o ochronie danych, a bank pisze nową politykę ochrony danych. Jak je zaklasyfikować?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Przepis to wyznacznik, a polityka to aktywator",
+          "poprawna": true,
+          "wyjasnienie": "Przepis wywołuje potrzebę, a polityka pomaga ją spełnić."
+        },
+        {
+          "tekst": "Przepis to aktywator, a polityka to wyznacznik",
+          "poprawna": false,
+          "wyjasnienie": "Kolejność odwrócona.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Oba są wyznacznikami, bo dotyczą ochrony danych",
+          "poprawna": false,
+          "wyjasnienie": "Polityka nie wywołuje potrzeby, tylko odpowiada na nią.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Oba są potrzebami interesariuszy banku",
+          "poprawna": false,
+          "wyjasnienie": "Ani przepis, ani polityka nie są stanem do osiągnięcia.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-15-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-15-wyznacznik-z-czym-nie-mylic",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Pytanie egzaminacyjne mówi o „czynniku wpływającym na potrzeby interesariuszy”. Jak to pojęcie nazywa polski podręcznik COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Czynnik umożliwiający",
+          "poprawna": false,
+          "wyjasnienie": "Tak podręcznik nazywa aktywator (*Enabler*) – inne pojęcie mimo słowa „czynnik”.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Zdarzenie wyzwalające",
+          "poprawna": false,
+          "wyjasnienie": "Zdarzenie wyzwalające uruchamia wdrożenie COBIT 5 – inna kategoria.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Wyznacznik",
+          "poprawna": true,
+          "wyjasnienie": "Podręcznik: „wyznaczniki dotyczące interesariuszy” (*Stakeholder drivers*)."
+        },
+        {
+          "tekst": "Cel przedsiębiorstwa",
+          "poprawna": false,
+          "wyjasnienie": "Cel organizacji to dalszy krok kaskady, a nie przyczyna zmiany potrzeb.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-15-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-02",
+        "PR-02-02"
+      ],
+      "lekcja": "m0-15-wyznacznik-z-czym-nie-mylic",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Uczelnia zmienia sposób pracy. Który przykład jest wyznacznikiem, a **NIE** aktywatorem?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Nowy regulamin korzystania z poczty uczelni",
+          "poprawna": false,
+          "wyjasnienie": "Regulamin to polityka, czyli aktywator.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nowe przepisy o studiach zdalnych",
+          "poprawna": true,
+          "wyjasnienie": "Zmiana otoczenia regulacyjnego wywołuje nowe potrzeby, więc to wyznacznik."
+        },
+        {
+          "tekst": "Nowa struktura organizacyjna działu IT",
+          "poprawna": false,
+          "wyjasnienie": "Struktura organizacyjna to aktywator.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nowy proces obsługi zgłoszeń studentów",
+          "poprawna": false,
+          "wyjasnienie": "Proces to aktywator.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-16-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-16-rezultat-korzysc",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Kupujesz rower stacjonarny. Stoi złożony w pokoju, ale nikt na nim nie ćwiczy. Co już masz?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Korzyść, bo rower jest w pełni sprawny",
+          "poprawna": false,
+          "wyjasnienie": "Sprawny rower to rezultat. Korzyść to poprawa, której brak.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Rezultat, ale jeszcze bez korzyści",
+          "poprawna": true,
+          "wyjasnienie": "Rower to produkt działania. Korzyść, czyli lepsza kondycja, jeszcze się nie pojawiła."
+        },
+        {
+          "tekst": "Wartość, bo zakup przebiegł bez kłopotów",
+          "poprawna": false,
+          "wyjasnienie": "Bez korzyści nie ma wartości.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Ani rezultatu, ani żadnej korzyści",
+          "poprawna": false,
+          "wyjasnienie": "Rezultat jest: rower stoi i działa.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-16-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-16-rezultat-korzysc",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Firma wdrożyła CRM zgodnie z umową i w terminie. Po pół roku handlowcy dalej notują rozmowy w arkuszach. Jak ocenić tę sytuację?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Osiągnięto korzyść, bo umowę wykonano w terminie",
+          "poprawna": false,
+          "wyjasnienie": "Wykonanie umowy to rezultat, a nie korzyść.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Osiągnięto wartość, bo koszt zmieścił się w budżecie",
+          "poprawna": false,
+          "wyjasnienie": "Wartość wymaga korzyści. Sam koszt w budżecie to za mało.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Jest rezultat, ale korzyści brak",
+          "poprawna": true,
+          "wyjasnienie": "Wdrożony system to rezultat. Nic się nie poprawiło, więc korzyści nie ma."
+        },
+        {
+          "tekst": "Nie ma nawet rezultatu, bo nikt z systemu nie korzysta",
+          "poprawna": false,
+          "wyjasnienie": "Rezultat jest – system wdrożono. Brakuje korzyści.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-16-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-16-rezultat-korzysc",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Które działanie **również** należy do Realizacji korzyści (*Benefits Realisation*)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wyeliminowanie inicjatyw, które nie dają wystarczającej wartości",
+          "poprawna": true,
+          "wyjasnienie": "Słowniczek (s. 89): realizacja korzyści obejmuje też eliminowanie inicjatyw i zasobów bez wystarczającej wartości."
+        },
+        {
+          "tekst": "Utrzymanie ryzyka w granicach apetytu na ryzyko",
+          "poprawna": false,
+          "wyjasnienie": "To optymalizacja ryzyka – inny składnik wartości.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Odebranie systemu od dostawcy zgodnie z umową",
+          "poprawna": false,
+          "wyjasnienie": "To rezultat, a nie korzyść.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Ograniczenie wszystkich wydatków na IT do minimum",
+          "poprawna": false,
+          "wyjasnienie": "Minimalizacja kosztów to nie realizacja korzyści ani optymalizacja zasobów.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-16-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-16-rezultat-korzysc",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Urząd miasta wprowadził wnioski przez internet. Nie zarabia na tym. Co jest jego korzyścią według COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Żadna, bo urząd nie osiąga zysku z wniosków",
+          "poprawna": false,
+          "wyjasnienie": "Korzyść nie musi być finansowa.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Sam działający system wniosków internetowych",
+          "poprawna": false,
+          "wyjasnienie": "Działający system to rezultat, a nie korzyść.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Mniejsze ryzyko utraty papierowych dokumentów urzędu",
+          "poprawna": false,
+          "wyjasnienie": "To optymalizacja ryzyka – inny składnik Tworzenia Wartości; korzyścią dla urzędu jest lepsza usługa publiczna.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Lepsza usługa publiczna, np. krótsze kolejki",
+          "poprawna": true,
+          "wyjasnienie": "Podręcznik: dla podmiotów rządowych korzyściami są usługi publiczne."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-17-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-17-wartosc",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Zmywarka oszczędza Ci pół godziny dziennie, ale kosztuje dwie pensje i może zalać sąsiadów. Co z wartością?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Jest mała, bo koszt i ryzyko są za duże",
+          "poprawna": true,
+          "wyjasnienie": "Wartość wymaga korzyści przy rozsądnym ryzyku i rozsądnym zużyciu zasobów."
+        },
+        {
+          "tekst": "Jest duża, bo oszczędność czasu jest duża",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: sama korzyść nie wystarczy.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Nie ma jej, bo zmywarka to rzecz, a nie usługa",
+          "poprawna": false,
+          "wyjasnienie": "Rzeczy też mogą dawać wartość. Liczy się równowaga.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Zależy wyłącznie od ceny w sklepie",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: liczą się też korzyść i ryzyko.",
+          "pulapka": "zbyt-waskie"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-17-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-17-wartosc",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Bank rozważa czat z klientem w aplikacji. Które trzy pytania z podręcznika COBIT 5 warto zadać przed decyzją?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Ile to kosztuje? Kto to wdroży? Kiedy projekt się skończy?",
+          "poprawna": false,
+          "wyjasnienie": "To pytania projektowe, a nie pytania o wartość.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Jaka technologia jest najnowsza? Który dostawca jest największy na rynku?",
+          "poprawna": false,
+          "wyjasnienie": "Nowość i wielkość dostawcy nie mówią nic o wartości.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Kto zatwierdza budżet? Kto kontroluje projekt? Kto raportuje wyniki?",
+          "poprawna": false,
+          "wyjasnienie": "To pytania o role, a nie o korzyści, ryzyko i zasoby.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kto odnosi korzyści? Kto ponosi ryzyko? Jakie zasoby są wymagane?",
+          "poprawna": true,
+          "wyjasnienie": "Te trzy pytania podręcznik zaleca przy każdej decyzji (s. 17)."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-17-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-17-wartosc",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Organizacja chce osiągnąć Cel Ładu „Tworzenie Wartości”. Co musi zapewnić?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17,
+          "ilustracja": "3"
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Wyłącznie realizację korzyści z inwestycji w IT",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: brakuje ryzyka i zasobów.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Równowagę realizacji korzyści, optymalizacji ryzyka i optymalizacji zasobów",
+          "poprawna": true,
+          "wyjasnienie": "Cel Ładu osiąga się przez wszystkie trzy składniki naraz (Rysunek 3)."
+        },
+        {
+          "tekst": "Osobny cel nadzoru, bo podręcznik opisuje go jako cel inny niż Cel Ładu",
+          "poprawna": false,
+          "wyjasnienie": "„Cel nadzoru” to tylko forma z podręcznika. To ten sam cel co Cel Ładu.",
+          "pulapka": "forma-podrecznikowa"
+        },
+        {
+          "tekst": "Minimalne koszty i całkowite wyeliminowanie ryzyka",
+          "poprawna": false,
+          "wyjasnienie": "Optymalizacja to nie minimum i nie zero ryzyka.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-17-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-17-wartosc",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Sklep: oferta A przyspiesza wysyłkę, ale dwukrotnie przekracza budżet. Oferta B daje to samo, jest tania, ale gubi dane. Co z tego wynika według COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Lepsza jest A, bo daje szybszą wysyłkę",
+          "poprawna": false,
+          "wyjasnienie": "Obie dają tę samą korzyść, a A przekracza budżet.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Lepsza jest B, bo jest tańsza od A",
+          "poprawna": false,
+          "wyjasnienie": "Niska cena nie równoważy zbyt dużego ryzyka.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Żadna nie zapewnia równowagi korzyści, ryzyka i zasobów",
+          "poprawna": true,
+          "wyjasnienie": "A zużywa za dużo zasobów, B niesie za duże ryzyko."
+        },
+        {
+          "tekst": "Obie są równie dobre, bo dają tę samą korzyść",
+          "poprawna": false,
+          "wyjasnienie": "Sama korzyść nie wystarczy do oceny wartości.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-18-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-18-optymalizacja",
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Kupujesz najtańszy parasol. Psuje się przy pierwszym wietrze. Czy to była optymalizacja zasobów?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Tak, bo wydałeś najmniej pieniędzy",
+          "poprawna": false,
+          "wyjasnienie": "Optymalizacja to nie minimalizacja kosztów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Tak, bo każda oszczędność jest optymalizacją",
+          "poprawna": false,
+          "wyjasnienie": "Oszczędność bez korzyści to marnotrawstwo.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Nie, bo zakup nie dał korzyści",
+          "poprawna": true,
+          "wyjasnienie": "Pieniądze wydano, a parasol nie chroni przed deszczem. To nie jest skuteczne wykorzystanie zasobów."
+        },
+        {
+          "tekst": "Nie, bo optymalizacja to zawsze najdroższa opcja",
+          "poprawna": false,
+          "wyjasnienie": "Optymalizacja to najlepszy rozsądny poziom, a nie najwyższa cena.",
+          "pulapka": "odwrocone"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-18-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-18-optymalizacja",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Uczelnia wybiera usługę chmurową dla studentów. Która oferta najlepiej odpowiada optymalizacji zasobów i ryzyka?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "uproszczenie",
+      "opcje": [
+        {
+          "tekst": "Najtańsza, ale bez kopii zapasowych danych",
+          "poprawna": false,
+          "wyjasnienie": "Ryzyko utraty danych jest za duże.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Potrzebne funkcje, kopie i rozsądna cena",
+          "poprawna": true,
+          "wyjasnienie": "Równowaga: korzyść przy akceptowalnym ryzyku i rozsądnym koszcie."
+        },
+        {
+          "tekst": "Najdroższa, z dziesiątkami funkcji, których nikt nie użyje",
+          "poprawna": false,
+          "wyjasnienie": "Płacenie za niepotrzebne funkcje marnuje zasoby.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Darmowa, bez żadnej umowy z dostawcą usługi",
+          "poprawna": false,
+          "wyjasnienie": "Brak umowy oznacza duże, niekontrolowane ryzyko.",
+          "pulapka": "falsz"
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-18-3",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-18-optymalizacja",
+      "bloom": "wiedza",
+      "trudnosc": 3,
+      "tresc": "Które zdanie poprawnie opisuje **optymalizację ryzyka** (*Risk Optimisation*)?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Całkowite wyeliminowanie ryzyka związanego z IT",
+          "poprawna": false,
+          "wyjasnienie": "Ryzyka nie da się wyeliminować do zera. To typowy dystraktor.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Przeniesienie całego ryzyka na zewnętrznych dostawców",
+          "poprawna": false,
+          "wyjasnienie": "Transfer to tylko jeden ze sposobów postępowania z ryzykiem.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Optymalizacja zasobów, czyli inna nazwa tego samego celu",
+          "poprawna": false,
+          "wyjasnienie": "To drugi, osobny składnik Celu Ładu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Zarządzanie ryzykiem w granicach apetytu na ryzyko",
+          "poprawna": true,
+          "wyjasnienie": "Słowniczek (s. 93) nie ma osobnego hasła „Optymalizacja ryzyka”. Ten cel Ładu opisuje hasło „Zarządzanie ryzykiem”: zarządzanie ryzykiem w kontekście apetytu na ryzyko w przedsiębiorstwie."
+        }
+      ]
+    },
+    {
+      "id": "q-m0k-18-z1",
+      "typ": "egzamin",
+      "sylabus": [
+        "M0-00-03"
+      ],
+      "lekcja": "m0-18-optymalizacja",
+      "bloom": "zastosowanie",
+      "trudnosc": 2,
+      "tresc": "Które zdanie o **optymalizacji zasobów** (*Resource Optimisation*) jest zgodne z COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Obejmuje skuteczne, wydajne i odpowiedzialne wykorzystanie zasobów",
+          "poprawna": true,
+          "wyjasnienie": "Tak opisuje ją słowniczek podręcznika (s. 93)."
+        },
+        {
+          "tekst": "Oznacza ograniczenie wydatków na IT do minimum",
+          "poprawna": false,
+          "wyjasnienie": "Optymalizacja to nie minimalizacja kosztów.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Dotyczy tylko pieniędzy, a nie ludzi i sprzętu",
+          "poprawna": false,
+          "wyjasnienie": "Za wąsko: obejmuje zasoby ludzkie, finansowe, sprzęt i infrastrukturę.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Polega na kupowaniu licencji na zapas",
+          "poprawna": false,
+          "wyjasnienie": "Kupowanie na wyrost marnuje zasoby.",
+          "pulapka": "falsz"
+        }
+      ]
+    }
+  ]
+}

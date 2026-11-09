@@ -22,7 +22,7 @@
   "pulapkaOpis": "Podręcznik: „osoby wspierające”. Egzamin: „czempioni”. To te same osoby: dają przykład i promują pożądane zachowania.",
   "skadNazwa": "*Champions* podręcznik tłumaczy jako „osoby wspierające”, a egzamin jako „czempioni (biznesu)”.",
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "kultura-etyka-zachowanie",
@@ -40,14 +40,14 @@
   "przyklady": {
     "zycie": "Chcesz, żeby dzieci segregowały śmieci. Tłumaczysz, po co to (komunikacja). Sam segregujesz na ich oczach (przykład). Za tydzień bez pomyłek jest pizza (zachęta). Na koszach wiszą naklejki z opisem (reguły). To cztery praktyki naraz.",
     "biuro": "W biurze kierowniczka chce, żeby wszyscy zapisywali pliki na dysku wspólnym, a nie na pulpicie. Sama tak robi, wyznacza jedną osobę do pomocy innym i chwali zespół, który pierwszy przeniósł pliki.",
-    "organizacja": "Sieć piekarni chce, żeby sprzedawcy myli ręce po każdej płatności gotówką. Kierowniczka robi to pierwsza, w każdym sklepie jest „ambasadorka higieny”, a premia zależy od wyniku kontroli sanepidu. Instrukcja wisi przy kasie. To dobre praktyki kształtowania zachowań. Starostwo chce, żeby urzędnicy blokowali komputer przy odchodzeniu od biurka. Starosta robi to na oczach wszystkich, w każdym wydziale jest jedna osoba-czempion, a wydział z najlepszym wynikiem kontroli dostaje dodatkowy dzień szkoleniowy. Reguła jest wpisana do polityki bezpieczeństwa.",
-    "psp": "Dyżurny Paweł Grab przyznaje się na odprawie do zatajonej awarii Syreny. Komendantka Anna Wrzos publicznie mu dziękuje. Ogłasza zasadę zgłaszania błędów bez kar, a Grab zostaje czempionem w SK i uczy młodszych. W polityce powiadamiania pojawia się punkt o zgłaszaniu usterek. Komunikacja, przykład, zachęta i reguła działają razem.",
+    "organizacja": "Sieć piekarni chce, żeby sprzedawcy myli ręce po każdej płatności gotówką. Kierowniczka robi to pierwsza, w każdym sklepie jest „ambasadorka higieny”, a premia zależy od wyniku kontroli sanepidu. Instrukcja wisi przy kasie. To dobre praktyki kształtowania zachowań.",
+    "admin": "Starostwo chce, żeby urzędnicy blokowali komputer przy odchodzeniu od biurka. Starosta robi to na oczach wszystkich, w każdym wydziale jest jedna osoba-czempion, a wydział z najlepszym wynikiem kontroli dostaje dodatkowy dzień szkoleniowy. Reguła jest wpisana do polityki bezpieczeństwa.",
     "it": "Proces APO07 (Zarządzanie zasobami ludzkimi) obejmuje ocenę pracowników. Jeśli oceny nagradzają tylko terminy, rośnie ryzyko jak w Przykładzie 11. Dlatego cele w ocenach powinny obejmować też jakość (interpretacja kursu)."
   },
   "glebokosc": {
     "prosty": "Trener drużyny chce, żeby chłopcy przychodzili na czas. Mówi, dlaczego to ważne. Sam przychodzi pierwszy. Spóźnialski biega dodatkowe okrążenie, a punktualni wybierają muzykę w szatni. Tak kształtuje się zachowanie.",
-    "zaawansowany": "Komendantka chce zmienić [[poziomy-etyki|zachowania]] dyżurnych: błędy mają być zgłaszane od razu. Ogłasza to na odprawie (komunikacja) i sama przyznaje się do błędu przy zakupie Syreny (przykład). Grab zostaje czempionem w SK. Zgłoszenie usterki liczy się przy ocenie okresowej (zachęta). Punkt o zgłaszaniu trafia do [[zasady-polityki-struktury|polityki]] powiadamiania (reguły i normy).",
-    "skrajny": "Komenda wprowadza premię za „zero awarii Syreny w kwartale”. Na papierze to zachęta do dobrego zachowania. W praktyce dyżurni przestają zgłaszać drobne usterki, bo zgłoszenie psuje statystykę. Zachęta wzmocniła zachowanie przeciwne do zamierzonego, jak w Przykładzie 11 z podręcznika (premie za termin, a nie za jakość). Druga pułapka: kary też są dobrą praktyką, bo podręcznik mówi o zachętach ORAZ środkach zniechęcających. **Rozstrzygnięcie:** dobre praktyki to komunikowanie, przykład kierownictwa i czempionów, zachęty i środki zniechęcające oraz reguły i normy. Zachętę ocenia się po zachowaniu, które naprawdę wywołuje."
+    "zaawansowany": "Zarząd chce zmienić [[poziomy-etyki|zachowania]] pracowników helpdesku: błędy mają być zgłaszane od razu. Prezes ogłasza to na spotkaniu (komunikacja) i sam przyznaje się do błędu przy zakupie systemu CRM (przykład). Doświadczony konsultant zostaje czempionem w helpdesku. Zgłoszenie usterki liczy się przy ocenie okresowej (zachęta). Punkt o zgłaszaniu trafia do [[zasady-polityki-struktury|polityki]] obsługi incydentów (reguły i normy).",
+    "skrajny": "Firma wprowadza premię za „zero awarii systemu CRM w kwartale”. Na papierze to zachęta do dobrego zachowania. W praktyce pracownicy przestają zgłaszać drobne usterki, bo zgłoszenie psuje statystykę. Zachęta wzmocniła zachowanie przeciwne do zamierzonego, jak w Przykładzie 11 z podręcznika (premie za termin, a nie za jakość). Druga pułapka: kary też są dobrą praktyką, bo podręcznik mówi o zachętach ORAZ środkach zniechęcających. **Rozstrzygnięcie:** dobre praktyki to komunikowanie, przykład kierownictwa i czempionów, zachęty i środki zniechęcające oraz reguły i normy. Zachętę ocenia się po zachowaniu, które naprawdę wywołuje."
   },
   "zagmatwania": [
     {

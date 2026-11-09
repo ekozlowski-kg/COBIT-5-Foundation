@@ -36,8 +36,8 @@
   "przyklady": {
     "zycie": "Masz 20 tys. zł i pięć pomysłów: auto, kurs językowy, wakacje, remont, lokata. Nie starczy na wszystko. Wybierasz zestaw, który da najwięcej. Co pół roku sprawdzasz, czy wybór był dobry.",
     "biuro": "Biuro ma pieniądze na jedną rzecz z trzech: nowe krzesła, program księgowy albo szkolenie z obsługi klienta. Zespół porównuje korzyści i wybiera program księgowy. Krzesła wracają na listę za pół roku.",
-    "organizacja": "Firma ma 12 pomysłów na nowe systemy i budżet na cztery. Komitet porównuje uzasadnienia biznesowe, ryzyko i zgodność ze strategią. Wybiera cztery, resztę odkłada. Co kwartał przegląda cały portfel. To APO05. Miasto zgłosiło do budżetu 30 projektów cyfrowych. Zespół wybiera te, które najbardziej skrócą sprawy mieszkańców. Jeden projekt w trakcie zostaje wstrzymany, bo przestał się opłacać. Takie decyzje to APO05.",
-    "psp": "**Pięć pomysłów, pieniądze na dwa.** Naczelnik Marek Sikora ma listę: zasilanie awaryjne, drugi serwer, aplikacja dla OSP, nowa centrala, moduł statystyk. Budżet starczy na dwa. Z księgową Haliną Mak porównuje korzyści i ryzyka. Wybiera zasilanie i drugi serwer, resztę odkłada. Ten wybór to [[proc-apo05|APO05]].",
+    "organizacja": "Firma ma 12 pomysłów na nowe systemy i budżet na cztery. Komitet porównuje uzasadnienia biznesowe, ryzyko i zgodność ze strategią. Wybiera cztery, resztę odkłada. Co kwartał przegląda cały portfel. To APO05.",
+    "admin": "Miasto zgłosiło do budżetu 30 projektów cyfrowych. Zespół wybiera te, które najbardziej skrócą sprawy mieszkańców. Jeden projekt w trakcie zostaje wstrzymany, bo przestał się opłacać. Takie decyzje to APO05.",
     "it": "Komitet portfelowy co kwartał przegląda wszystkie programy IT, porównuje uzasadnienia biznesowe i wstrzymuje jeden program. To APO05. Prowadzenie programów to [[proc-bai01]]."
   },
   "nieMylicZ": [
@@ -103,8 +103,8 @@
   "mapa": "proc-apo05",
   "glebokosc": {
     "prosty": "W sklepie z zabawkami masz 100 zł dla trojga dzieci. Każde chce czegoś innego. Wybierasz zestaw, żeby wszyscy byli zadowoleni i żeby starczyło pieniędzy. To portfel: wybór całości, a nie jednej zabawki.",
-    "zaawansowany": "Naczelnik Sikora w APO05 wybiera dwa z pięciu pomysłów. Projekt zasilania awaryjnego prowadzi potem Dudek jako kierowniczka projektu (BAI01). Po kwartale koszt zasilania rośnie. Sikora w portfelu decyduje: kontynuujemy, a moduł statystyk wypada. Komendantka Wrzos ocenia wartość całości w [[proc-edm02]].",
-    "skrajny": "Projekt drugiego serwera ma opóźnienie. Kierowniczka projektu Dudek zmienia harmonogram i dokłada testy. To BAI01. Ale Sikora zauważa, że opóźniony projekt blokuje pieniądze na aplikację dla OSP. Decyzja „wstrzymać serwer i przesunąć pieniądze” dotyczy całego zestawu inwestycji. To APO05, choć dotyczy jednego projektu. Podręcznikowe „portfel projektów” dodatkowo myli, bo portfel obejmuje też usługi. **Rozstrzygnięcie:** decyzje *wewnątrz* projektu → BAI01; decyzje *o* projekcie na tle innych inwestycji → APO05; ocena wartości przez organ Ładu → EDM02."
+    "zaawansowany": "Dyrektor IT w APO05 wybiera dwa z pięciu pomysłów. Projekt zasilania awaryjnego centrum danych prowadzi potem kierowniczka projektu (BAI01). Po kwartale koszt zasilania rośnie. Dyrektor IT w portfelu decyduje: kontynuujemy, a moduł statystyk wypada. Zarząd ocenia wartość całości w [[proc-edm02]].",
+    "skrajny": "Projekt drugiego serwera ma opóźnienie. Kierowniczka projektu zmienia harmonogram i dokłada testy. To BAI01. Ale dyrektor IT zauważa, że opóźniony projekt blokuje pieniądze na nową aplikację mobilną. Decyzja „wstrzymać serwer i przesunąć pieniądze” dotyczy całego zestawu inwestycji. To APO05, choć dotyczy jednego projektu. Podręcznikowe „portfel projektów” dodatkowo myli, bo portfel obejmuje też usługi. **Rozstrzygnięcie:** decyzje *wewnątrz* projektu → BAI01; decyzje *o* projekcie na tle innych inwestycji → APO05; ocena wartości przez organ Ładu → EDM02."
   },
   "zagmatwania": [
     {

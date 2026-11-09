@@ -22,7 +22,7 @@
   "pulapkaOpis": "Działanie programu w fazie 3 na egzaminie to „Definiowanie mapy drogowej”. Podręcznik (il. 17) pisze „Zdefiniowanie planu działań”. Słowo „plan” kusi, żeby wskazać fazę 4, a to faza 3.",
   "skadNazwa": "Angielskie *Define road map* egzamin tłumaczy jako „mapa drogowa”, a podręcznik jako „plan działań”. Pytanie fazy *Where do we want to be?* podręcznik oddaje jako „Do czego dążymy?”.",
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "faza-2"
@@ -38,8 +38,8 @@
   "przyklady": {
     "zycie": "Ważysz 92 kg. Ustalasz cel: 84 kg do lipca. Widzisz lukę – 8 kg. Najprostszy ruch to rzucić słodzone napoje, więc zaczynasz od niego. Mówisz rodzinie, do czego dążysz. To faza 3.",
     "biuro": "Cel: każdą umowę znajdziesz w 2 minuty. Brakuje spisu teczek i jednego sposobu opisywania. Ogłaszasz cel całemu biuru.",
-    "organizacja": "Sklep chce wysyłać paczki w 2 dni zamiast 4: najpierw nowy kurier, potem nowy magazyn. Starostwo celuje w połowę spraw z e-rezerwacją, a analiza luk pokazuje brak systemu i szkoleń.",
-    "psp": "**Cel na tablicy**\nKomendantka Anna Wrzos ogłasza cel: alarm ma docierać do OSP w 60 sekund. Naczelnik Marek Sikora rysuje mapę drogową: najpierw aktualne numery, potem zasilanie serwera, na końcu nowa aplikacja. Aktualizacja numerów to szybka korzyść. Każda zmiana SK słyszy ten sam komunikat o celu. To [[faza-3|faza 3: Dokąd chcemy dojść?]]",
+    "organizacja": "Sklep chce wysyłać paczki w 2 dni zamiast 4: najpierw nowy kurier, potem nowy magazyn.",
+    "admin": "Starostwo ustala cel: połowa spraw w wydziale komunikacji ma być umawiana przez e-rezerwację, czyli rezerwację wizyt przez Internet. Analiza luk pokazuje, że brakuje systemu rezerwacji i szkoleń dla urzędników. Cel i plan dojścia starosta ogłasza wszystkim pracownikom.",
     "it": "Stan docelowy: DSS02 na poziomie 3. Analiza luk pokazuje braki w atrybutach PA 2.1, PA 2.2, PA 3.1 i PA 3.2."
   },
   "nieMylicZ": [
@@ -91,7 +91,7 @@
   "mapa": "faza-3",
   "glebokosc": {
     "prosty": "Jedziesz na wakacje. Wiesz już, gdzie mieszkasz, więc wybierasz cel: morze. Patrzysz na mapę i wybierasz trasę przez dwa miasta. Mówisz dzieciom, dokąd jedziecie. Bilety i nocleg załatwisz w następnym kroku.",
-    "zaawansowany": "Po pomiarze z [[faza-2|fazy 2]] komenda zna lukę: alarm idzie 3 minuty, a ma iść minutę. Wrzos ustala stan docelowy, Sikora rysuje mapę drogową, a plan komunikacji niesie cel do każdej zmiany SK. Szybka korzyść to poprawa listy numerów OSP. Szczegółowe projekty z budżetem powstaną w [[faza-4|fazie 4]].",
+    "zaawansowany": "Po pomiarze z [[faza-2|fazy 2]] bank zna lukę: incydent krytyczny jest rozwiązywany w 8 godzin, a ma być w 4. Zarząd ustala stan docelowy, CIO rysuje mapę drogową, a plan komunikacji niesie cel do każdego zespołu helpdesku. Szybka korzyść to uporządkowanie listy kontaktów do dostawców. Szczegółowe projekty z budżetem powstaną w [[faza-4|fazie 4]].",
     "skrajny": "W podręczniku działanie programu w fazie 3 to „Zdefiniowanie planu działań”. Kandydat czyta pytanie „w której fazie powstaje plan działań?” i odruchowo zaznacza fazę 4, bo tam jest „Planowanie programu”. Tymczasem „plan działań” z il. 17 to egzaminacyjna **mapa drogowa**, czyli faza 3. Mapa drogowa mówi, w jakiej kolejności dojdziemy do celu. Plan programu w fazie 4 rozpisuje projekty, budżety i uzasadnienia biznesowe. **Rozstrzygnięcie:** „mapa drogowa” = „plan działań” z podręcznika = faza 3; „Planowanie programu” = faza 4."
   },
   "zagmatwania": [

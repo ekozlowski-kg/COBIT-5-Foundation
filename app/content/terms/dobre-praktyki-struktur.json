@@ -22,13 +22,12 @@
     "biuro": "Biuro powołuje zespół ds. zakupów: kierowniczka, księgowa i informatyk (skład). Zbierają się w pierwszy poniedziałek miesiąca i piszą notatkę (zasady operacyjne), zajmują się tylko sprzętem i materiałami (zakres kontroli), zatwierdzają zakupy do 10 tys. zł (poziom uprawnień), drobne zakupy zostawiają asystentce (delegowanie), a większe przekazują dyrektorowi (eskalacja).",
     "firma": "Sklep internetowy powołuje komitet zakupów: właściciel, księgowa i kierownik magazynu (skład). Spotykają się w poniedziałki i notują decyzje (zasady operacyjne), decydują tylko o zakupach towaru, nie o pensjach (zakres kontroli), zatwierdzają zamówienia do 50 tys. zł (poziom uprawnień), drobne zamówienia zostawiają magazynierowi (delegowanie), a większe kierują do wspólników (eskalacja). Te ustalenia to dobre praktyki struktury organizacyjnej.",
     "admin": "Dyrektor szkoły powołuje zespół do spraw sprzętu: informatyka, wicedyrektora i dwoje nauczycieli (skład). Zespół spotyka się raz na kwartał (zasady operacyjne), zajmuje się sprzętem, ale nie budżetem szkoły (zakres kontroli), sam przydziela laptopy salom (poziom uprawnień), drobne naprawy zleca informatykowi (delegowanie), a gdy nie może się dogadać, rozstrzyga dyrektor (eskalacja). Tak wyglądają dobre praktyki struktur organizacyjnych.",
-    "psp": "Przy dużym pożarze lasu komendant powiatowy powołuje sztab akcji z oficerami operacyjnymi, logistykiem i przedstawicielem nadleśnictwa (skład). Sztab robi odprawę co 2 godziny i prowadzi dziennik (zasady operacyjne), decyduje o siłach w powiecie, ale nie w całym województwie (zakres kontroli), może zarządzić ewakuację wsi (poziom uprawnień), dowodzenie odcinkiem przekazuje dowódcy z JRG (delegowanie), a gdy brakuje sił, prosi o decyzję komendanta wojewódzkiego (eskalacja). Te ustalenia to dobre praktyki struktury organizacyjnej.",
-    "it": "Rada ds. Informatyki w komendzie ma skład (Wrzos, Sikora, Mak) i zasady operacyjne (posiedzenie raz w miesiącu z protokołem). Zajmuje się tylko sprawami IT (zakres kontroli) i zatwierdza projekty do ustalonej kwoty (poziom uprawnień). Zatwierdzanie bieżących zmian w Syrenie deleguje do wydziału Sikory (BAI06 Zarządzanie zmianami), a wydatki ponad budżet komendy kieruje do komendy wojewódzkiej (eskalacja)."
+    "it": "Komitet sterujący IT w banku ma skład (członek zarządu, CIO, dyrektor finansowy) i zasady operacyjne (posiedzenie raz w miesiącu z protokołem). Zajmuje się tylko sprawami IT (zakres kontroli) i zatwierdza projekty do ustalonej kwoty (poziom uprawnień). Zatwierdzanie bieżących zmian w systemach deleguje do działu IT (BAI06 Zarządzanie zmianami), a wydatki ponad budżet kieruje do zarządu (eskalacja)."
   },
   "glebokosc": {
     "prosty": "Rada rodziców w szkole ustala, że spotyka się w pierwszy wtorek miesiąca i kto w niej zasiada. Ustala też, o czym może decydować (wycieczki, ale nie oceny) i co zleca trójkom klasowym. Wie, do kogo idzie, gdy nie może się porozumieć: do dyrektora.",
-    "zaawansowany": "Komendantka Wrzos powołuje Radę ds. Informatyki, czyli [[struktury-organizacyjne|strukturę organizacyjną]]. Skład: komendantka, Sikora, Mak, Lis i Grab jako głos użytkowników. Zakres kontroli obejmuje systemy łączności i IT komendy, a poziom uprawnień pozwala Radzie zatwierdzać zakupy do 50 tys. zł. Drobne zmiany konfiguracji Rada deleguje Sikorze, a gdy sama się nie porozumie, sprawę eskaluje do komendantki. Harmonogram spotkań to zasady operacyjne.",
-    "skrajny": "„Rada decyduje tylko o systemach łączności, a nie o samochodach” – to zakres kontroli czy poziom uprawnień? To zakres kontroli: granice obszaru, którego dotyczy władza Rady. „Rada może zatwierdzać zakupy do 50 tys. zł” to poziom uprawnień, czyli jakie decyzje wolno jej podjąć. Gdy Rada przekazuje Sikorze zatwierdzanie drobnych zmian, to delegowanie, a nie eskalacja, bo sprawa idzie w dół. Gdy Rada utknie i sprawa trafia do komendantki, to eskalacja. **Rozstrzygnięcie:** GDZIE sięga władza → zakres kontroli; JAKIE decyzje wolno podjąć → poziom uprawnień; uprawnienia W DÓŁ → delegowanie; sprawa DALEJ, gdy decyzja utknie → eskalacja; JAK się spotykamy → zasady operacyjne."
+    "zaawansowany": "Zarząd szpitala powołuje komitet sterujący IT, czyli [[struktury-organizacyjne|strukturę organizacyjną]]. Skład: dyrektor szpitala, CIO, dyrektor finansowy, audytor wewnętrzny i ordynator jako głos użytkowników. Zakres kontroli obejmuje systemy informatyczne szpitala, a poziom uprawnień pozwala komitetowi zatwierdzać zakupy do 50 tys. zł. Drobne zmiany konfiguracji komitet deleguje CIO, a gdy sam się nie porozumie, sprawę eskaluje do zarządu. Harmonogram spotkań to zasady operacyjne.",
+    "skrajny": "„Komitet decyduje tylko o systemach informatycznych, a nie o sprzęcie medycznym” – to zakres kontroli czy poziom uprawnień? To zakres kontroli: granice obszaru, którego dotyczy władza komitetu. „Komitet może zatwierdzać zakupy do 50 tys. zł” to poziom uprawnień, czyli jakie decyzje wolno mu podjąć. Gdy komitet przekazuje CIO zatwierdzanie drobnych zmian, to delegowanie, a nie eskalacja, bo sprawa idzie w dół. Gdy komitet utknie i sprawa trafia do zarządu, to eskalacja. **Rozstrzygnięcie:** GDZIE sięga władza → zakres kontroli; JAKIE decyzje wolno podjąć → poziom uprawnień; uprawnienia W DÓŁ → delegowanie; sprawa DALEJ, gdy decyzja utknie → eskalacja; JAK się spotykamy → zasady operacyjne."
   },
   "zagmatwania": [
     {
@@ -47,7 +46,7 @@
   "mentor": {
     "czestyBlad": "Mylenie zakresu kontroli z poziomem uprawnień oraz delegowania z eskalacją.",
     "jakTlumaczyc": "Sześć pytań do każdej komisji: jak się spotykamy, kto jest w środku, czego dotyczy nasza władza, co wolno nam zdecydować, co oddajemy w dół i dokąd idziemy, gdy utkniemy. Kolejność pytań to kolejność praktyk.",
-    "pytanieKontrolne": "Rada ds. Informatyki nie może się porozumieć co do wyboru dostawcy i sprawa trafia do komendantki. Która to praktyka i czym różni się od delegowania?",
+    "pytanieKontrolne": "Komitet sterujący IT nie może się porozumieć co do wyboru dostawcy i sprawa trafia do zarządu. Która to praktyka i czym różni się od delegowania?",
     "odpowiedzKontrolna": "To procedura eskalacji: ścieżka i działania, gdy nie da się podjąć decyzji. Delegowanie działa w drugą stronę, bo struktura przekazuje część uprawnień strukturom podległym."
   },
   "nieMylicZ": [
@@ -83,7 +82,7 @@
     "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię."
   },
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "struktury-organizacyjne",

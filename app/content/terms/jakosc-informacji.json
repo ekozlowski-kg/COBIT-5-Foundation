@@ -19,13 +19,12 @@
     "biuro": "Sekretarka dostaje listę telefonów do klientów. Numery są prawdziwe (jakość wewnętrzna), ale lista jest sprzed roku i bez nazwisk osób kontaktowych (słaba jakość kontekstowa), a leży w zamkniętej szufladzie kierownika na urlopie (słaba dostępność).",
     "firma": "Sklep internetowy pokazuje klientom stan magazynu. Liczba sztuk musi zgadzać się z półką (wewnętrzna), być aktualna i jasno podana jako „ostatnie 2 sztuki” (kontekstowa i reprezentacji), a widzieć ją ma klient, ale ceny zakupu od hurtowni już nie (bezpieczeństwo i dostępność). To trzy podwymiary jakości informacji.",
     "admin": "Urząd gminy publikuje harmonogram wywozu śmieci. Daty muszą być prawdziwe (wewnętrzna), aktualne na ten rok i podane w prostej tabeli dla każdej ulicy (kontekstowa i reprezentacji), a plik ma być na stronie cały czas, bez możliwości zmiany przez osoby z zewnątrz (bezpieczeństwo i dostępność). Wystarczy błąd w jednym z tych wymiarów, żeby mieszkańcy wystawili kosze w zły dzień.",
-    "psp": "Dowódca zastępu jedzie do pożaru i sprawdza na tablecie najbliższy hydrant. Wpis w rejestrze musi być dokładny (wewnętrzna), aktualny i czytelny na małym ekranie w nocy (kontekstowa i reprezentacji), a rejestr dostępny przez całą dobę i chroniony przed zmianami przez osoby postronne (bezpieczeństwo i dostępność). Jeśli zawiedzie którykolwiek z tych trzech podwymiarów, dowódca traci cenne minuty.",
     "it": "Przy zamawianiu systemu kadrowego zespół w BAI02 (Zarządzanie definiowaniem wymagań) zapisuje wymagania jakości danych: poprawne dane osobowe, aktualizacja w dniu zmiany, wgląd tylko dla kadr. Każde wymaganie odpowiada jednemu z trzech podwymiarów jakości informacji."
   },
   "glebokosc": {
     "prosty": "Mapa w schronisku górskim musi pokazywać szlaki zgodnie z prawdą, być aktualna i czytelna dla turysty, a wisieć tam, gdzie każdy ją zobaczy, za szybą, żeby nikt jej nie przerobił. Prawdziwa, ale schowana w szufladzie – nie pomoże. Widoczna, ale nieczytelna albo z zamkniętym od lat szlakiem – zaprowadzi na manowce.",
-    "zaawansowany": "Mł. kpt. Ola Dudek porządkuje rejestr OSP w Syrenie i sprawdza każdy rekord z trzech stron. Przestawione cyfry w numerze telefonu to wada [[jakosc-wewnetrzna|jakości wewnętrznej]] (dokładność). Rekord bez numeru zastępczego, gdy naczelnik nie odbiera, to brak kompletności, czyli wada jakości kontekstowej i reprezentacji. Rejestr poprawny, ale niedostępny w nocy dla dyżurnego, zawodzi w podwymiarze bezpieczeństwa i dostępności. Tak wyglądają trzy podwymiary celów aktywatora [[informacja|Informacja]].",
-    "skrajny": "Ewa Lis pisze w raporcie po staremu: „naruszona integralność danych adresowych”. W COBIT 4.1 integralność była jednym kryterium, a w COBIT 5 odpowiadają jej dwa cele z dwóch różnych podwymiarów: dokładność (jakość wewnętrzna) i kompletność (jakość kontekstowa i reprezentacji). Podobnie skuteczność z COBIT 4.1 obejmuje naraz istotność, jasność przekazu i właściwą ilość (kontekstowa) oraz obiektywność (wewnętrzna). Kto szuka w COBIT 5 jednego odpowiednika dla każdego starego kryterium, utknie. Za to wiarygodność, często brana za synonim dokładności, jest osobnym kryterium jakości wewnętrznej, bardziej subiektywnym: chodzi o to, czy informację uznaje się za prawdziwą i godną zaufania. **Rozstrzygnięcie:** kryteria COBIT 4.1 nie przekładają się jeden do jednego na podwymiary COBIT 5 (integralność = kompletność + dokładność, Załącznik F); do podwymiaru przypisuj konkretne kryterium z s. 82, a nie stare hasło."
+    "zaawansowany": "Administrator porządkuje bazę klientów w systemie CRM i sprawdza każdy rekord z trzech stron. Przestawione cyfry w numerze telefonu to wada [[jakosc-wewnetrzna|jakości wewnętrznej]] (dokładność). Rekord bez drugiej osoby kontaktowej, gdy pierwsza nie odbiera, to brak kompletności, czyli wada jakości kontekstowej i reprezentacji. Baza poprawna, ale niedostępna w nocy dla konsultanta infolinii, zawodzi w podwymiarze bezpieczeństwa i dostępności. Tak wyglądają trzy podwymiary celów aktywatora [[informacja|Informacja]].",
+    "skrajny": "Audytor pisze w raporcie po staremu: „naruszona integralność danych adresowych”. W COBIT 4.1 integralność była jednym kryterium, a w COBIT 5 odpowiadają jej dwa cele z dwóch różnych podwymiarów: dokładność (jakość wewnętrzna) i kompletność (jakość kontekstowa i reprezentacji). Podobnie skuteczność z COBIT 4.1 obejmuje naraz istotność, jasność przekazu i właściwą ilość (kontekstowa) oraz obiektywność (wewnętrzna). Kto szuka w COBIT 5 jednego odpowiednika dla każdego starego kryterium, utknie. Za to wiarygodność, często brana za synonim dokładności, jest osobnym kryterium jakości wewnętrznej, bardziej subiektywnym: chodzi o to, czy informację uznaje się za prawdziwą i godną zaufania. **Rozstrzygnięcie:** kryteria COBIT 4.1 nie przekładają się jeden do jednego na podwymiary COBIT 5 (integralność = kompletność + dokładność, Załącznik F); do podwymiaru przypisuj konkretne kryterium z s. 82, a nie stare hasło."
   },
   "zagmatwania": [
     {
@@ -48,7 +47,7 @@
   "mentor": {
     "czestyBlad": "Przypisywanie aktualności i kompletności do jakości wewnętrznej, bo „brzmią jak prawdziwość”.",
     "jakTlumaczyc": "Trzy pytania do każdej informacji: (1) Czy to prawda? – jakość wewnętrzna. (2) Czy przyda mi się teraz i rozumiem ją? – jakość kontekstowa i reprezentacji. (3) Czy mogę ją dostać, a obcy nie? – jakość bezpieczeństwa i dostępności. Każde kryterium z listy z s. 82 przypinaj do jednego pytania.",
-    "pytanieKontrolne": "Dyżurny ma bezbłędną i kompletną listę numerów OSP, ale tylko w pliku na komputerze kierownika, zamkniętym na noc. Które podwymiary jakości są spełnione, a który zawodzi?",
+    "pytanieKontrolne": "Konsultant nocnej infolinii ma bezbłędną i kompletną listę kontaktów do dostawców, ale tylko w pliku na komputerze kierownika, zamkniętym na noc. Które podwymiary jakości są spełnione, a który zawodzi?",
     "odpowiedzKontrolna": "Jakość wewnętrzna jest spełniona (numery dokładne), kontekstowa i reprezentacji – co do treści też (lista istotna i kompletna). Zawodzi jakość bezpieczeństwa i dostępności: informacja nie jest dostępna wtedy, gdy jest wymagana. Dobra informacja musi spełnić wszystkie trzy podwymiary naraz."
   },
   "nieMylicZ": [
@@ -94,7 +93,7 @@
   },
   "pulapka": false,
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "informacja",

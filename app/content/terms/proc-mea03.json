@@ -38,8 +38,8 @@
   "przyklady": {
     "zycie": "Wynajmujesz mieszkanie. Sprawdzasz, co mówią przepisy (zgłoszenie najmu, podatek) i co jest w umowie z najemcą (kaucja, termin wypowiedzenia). Raz w roku sprawdzasz, czy wszystko się zgadza, zanim przyjdzie urząd skarbowy.",
     "biuro": "Biuro spisuje przepisy BHP i wymogi z umowy najmu. Raz w roku sprawdza, czy gaśnice mają przegląd, a drogi ewakuacji są wolne.",
-    "organizacja": "Sklep internetowy prowadzi listę przepisów, m.in. RODO i prawa konsumenta, a prawniczka co roku szuka luk. Informatyk gminy przed kontrolą KRI spisuje wymogi i przekazuje sekretarzowi listę braków.",
-    "psp": "**Kontrola zapowiedziana.** Mł. bryg. Lucyna Ostrowska z komendy wojewódzkiej zapowiada kontrolę. Kpt. Sikora spisuje wymogi z zewnątrz: przepisy o ochronie danych i cyberbezpieczeństwie oraz umowę z OSP Zawilce o czasie alarmowania. Sprawdza, które są spełnione, a braki zgłasza komendantce. Rozpoznanie wymogów zewnętrznych i ocena ich spełnienia to [[proc-mea03]].",
+    "organizacja": "Sklep internetowy prowadzi listę przepisów, m.in. RODO i prawa konsumenta, a prawniczka co roku szuka luk.",
+    "admin": "Przed kontrolą zgodności z rozporządzeniem w sprawie Krajowych Ram Interoperacyjności (KRI) informatyk gminy spisuje wymogi tego przepisu, m.in. dotyczące bezpieczeństwa informacji i szkoleń pracowników. Sprawdza, które z nich urząd już spełnia, a które nie. Listę braków przekazuje sekretarzowi gminy, który ustala terminy ich usunięcia.",
     "it": "Praktyki MEA03: identyfikacja wymogów zewnętrznych, optymalizacja odpowiedzi na nie, potwierdzenie zgodności i uzyskanie zapewnienia. Przykład: wymogi RODO dla systemów z danymi osobowymi."
   },
   "nieMylicZ": [
@@ -95,8 +95,8 @@
   "mapa": "proc-mea03",
   "glebokosc": {
     "prosty": "Przed przeglądem technicznym auta sprawdzasz, czego wymagają przepisy: światła, hamulce, opony. Robisz listę i odhaczasz, co jest w porządku. Wymogi przychodzą z zewnątrz, a Ty sprawdzasz, czy je spełniasz.",
-    "zaawansowany": "Przed kontrolą z komendy wojewódzkiej Sikora spisuje przepisy i umowy, które dotyczą Syreny, i sprawdza, czy komenda je spełnia. To [[proc-mea03]]. Czy działają wewnętrzne zabezpieczenia, które mają te wymogi spełnić, ocenia Ewa Lis w [[proc-mea02]]. Wskaźniki pracy Syreny względem celów komendy zbiera [[proc-mea01]].",
-    "skrajny": "Umowa z OSP Zawilce mówi: alarm ma dojść w 60 sekund. Polityka komendy, podpisana przez Wrzos, mówi: w 40 sekund. W marcu średni czas to 50 sekund. Czy jest problem ze zgodnością? Z umową – nie, bo 50 sekund mieści się w 60. Wymóg z umowy to wymóg zewnętrzny, więc ocenia go MEA03. Z własną polityką – tak, ale to zgodność z ustaleniami wewnętrznymi, czyli raczej MEA01 (*conformance*) i cel IT „zgodność z politykami wewnętrznymi”. **Rozstrzygnięcie:** o procesie decyduje źródło wymogu. Prawo, regulator, umowa → MEA03. Własny cel lub polityka → MEA01. Czy działają mechanizmy kontrolne → MEA02 (interpretacja kursu w części o polityce wewnętrznej)."
+    "zaawansowany": "Przed kontrolą regulatora dyrektor IT banku spisuje przepisy i umowy, które dotyczą bankowości internetowej, i sprawdza, czy bank je spełnia. To [[proc-mea03]]. Czy działają wewnętrzne zabezpieczenia, które mają te wymogi spełnić, ocenia audytorka wewnętrzna w [[proc-mea02]]. Wskaźniki pracy systemów względem celów banku zbiera [[proc-mea01]].",
+    "skrajny": "Umowa z klientem korporacyjnym mówi: zlecenie ma być zaksięgowane w 60 minut. Polityka banku, zatwierdzona przez zarząd, mówi: w 40 minut. W marcu średni czas to 50 minut. Czy jest problem ze zgodnością? Z umową – nie, bo 50 minut mieści się w 60. Wymóg z umowy to wymóg zewnętrzny, więc ocenia go MEA03. Z własną polityką – tak, ale to zgodność z ustaleniami wewnętrznymi, czyli raczej MEA01 (*conformance*) i cel IT „zgodność z politykami wewnętrznymi”. **Rozstrzygnięcie:** o procesie decyduje źródło wymogu. Prawo, regulator, umowa → MEA03. Własny cel lub polityka → MEA01. Czy działają mechanizmy kontrolne → MEA02 (interpretacja kursu w części o polityce wewnętrznej)."
   },
   "zagmatwania": [
     {
@@ -115,7 +115,7 @@
   "mentor": {
     "czestyBlad": "Uczeń wybiera MEA03 przy każdym słowie „zgodność”, także przy zgodności z wewnętrzną polityką.",
     "jakTlumaczyc": "Zadaj jedno pytanie: „Kto wymyślił ten wymóg?”. Ktoś z zewnątrz (ustawodawca, regulator, kontrahent) → MEA03. My sami → MEA01.",
-    "pytanieKontrolne": "Umowa z dostawcą łącza zobowiązuje komendę do zgłaszania awarii w ciągu godziny. Ewa Lis sprawdza, czy komenda tego dotrzymuje. Który proces?",
-    "odpowiedzKontrolna": "**MEA03** – to wymóg zewnętrzny wynikający z umowy. Jeśli Lis sprawdzałaby, czy działa wewnętrzna procedura zgłaszania, byłby to MEA02."
+    "pytanieKontrolne": "Umowa z dostawcą łącza zobowiązuje bank do zgłaszania awarii w ciągu godziny. Audytorka wewnętrzna sprawdza, czy bank tego dotrzymuje. Który proces?",
+    "odpowiedzKontrolna": "**MEA03** – to wymóg zewnętrzny wynikający z umowy. Jeśli audytorka sprawdzałaby, czy działa wewnętrzna procedura zgłaszania, byłby to MEA02."
   }
 }

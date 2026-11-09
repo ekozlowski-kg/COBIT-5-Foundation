@@ -15,7 +15,7 @@
   },
   "pulapka": false,
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "integrator",
@@ -33,8 +33,8 @@
   "przyklady": {
     "zycie": "Babcia przez lata zbierała przepisy z gazet, od sąsiadek i z telewizji. Wkłada je do jednego pudełka z przegródkami i zostawia puste przegródki na nowe. Z pudełka wnuczka robi książeczki: „ciasta”, „zupy”. Pudełko to baza wiedzy, książeczki to produkty.",
     "biuro": "Biuro rachunkowe trzyma w jednym folderze sieciowym przepisy, interpretacje i własne wzory. Ma w nim też puste podfoldery na nowe przepisy. Z folderu pracownicy robią ściągi dla klientów.",
-    "organizacja": "Sieć kawiarni zbiera w jednym firmowym repozytorium wymagania sanepidu, normy jakości i własne receptury. Z niego powstają osobne instrukcje dla baristy, kucharza i kierownika. Repozytorium to baza wiedzy.\n\nUrząd wojewódzki tworzy jedną bazę przepisów, wytycznych i wzorów pism. Ma w niej też miejsce na przepisy, które dopiero przyjdą. Z bazy przygotowuje osobne poradniki dla różnych wydziałów. Tak działa baza wiedzy COBIT 5.",
-    "psp": "**Segregator Sikory** Kpt. Marek Sikora zbiera w jednym segregatorze wytyczne KG PSP, instrukcję Syreny, zalecenia ITIL i stare procedury wydziału. Zostawia puste przekładki na przepisy, które dopiero przyjdą. Z segregatora robi osobne karty dla SK i dla JRG. Segregator to odpowiednik bazy wiedzy, a karty to produkty.",
+    "organizacja": "Sieć kawiarni zbiera w jednym firmowym repozytorium wymagania sanepidu, normy jakości i własne receptury. Z niego powstają osobne instrukcje dla baristy, kucharza i kierownika. Repozytorium to baza wiedzy.",
+    "admin": "Urząd wojewódzki tworzy jedną bazę przepisów, wytycznych i wzorów pism. Ma w niej też miejsce na przepisy, które dopiero przyjdą. Z bazy przygotowuje osobne poradniki dla różnych wydziałów. Tak działa baza wiedzy COBIT 5.",
     "it": "Przewodnik *COBIT 5: Procesy umożliwiające* to produkt z bazy wiedzy przefiltrowany przez aktywator Proces. Stąd jednolity układ opisu każdego z 37 procesów (interpretacja kursu)."
   },
   "nieMylicZ": [
@@ -85,8 +85,8 @@
   "mapa": "baza-wiedzy",
   "glebokosc": {
     "prosty": "Masz w domu jedną szafę na wszystkie instrukcje: od pralki, od auta, od telewizora. Zostawiasz w niej wolną półkę na instrukcje do rzeczy, które dopiero kupisz. Gdy czegoś szukasz, idziesz do jednej szafy. To jest baza wiedzy.",
-    "zaawansowany": "Sikora tłumaczy st. ogn. Nowik Ilustrację 10. Do bazy wiedzy wpadają [[wytyczne-isaca|wcześniejsze wytyczne ISACA]], nowe materiały ISACA i inne standardy, np. [[itil|ITIL]]. Baza nie trafia do czytelnika wprost. Najpierw przesiewa ją filtr [[aktywator|aktywatorów]], a dopiero potem powstają publikacje z [[rodzina-produktow|rodziny produktów]]. Dzięki temu każdy przewodnik ma ten sam układ.",
-    "skrajny": "Nowik pyta: „Skoro trzymam w ręku COBIT 5, to trzymam bazę wiedzy?”. Nie. Książka „COBIT 5” to jeden produkt z rodziny, a baza wiedzy jest pod spodem. Baza zawiera też strukturę dla treści, których jeszcze nie napisano. Drugi haczyk: filtrem zawartości nie są zasady ani procesy, tylko aktywatory COBIT 5. **Rozstrzygnięcie:** baza wiedzy to źródło z miejscem na przyszłość, aktywatory to filtr, a rodzina produktów to wynik; Framework to tylko jeden z produktów."
+    "zaawansowany": "CIO tłumaczy nowemu analitykowi Ilustrację 10. Do bazy wiedzy wpadają [[wytyczne-isaca|wcześniejsze wytyczne ISACA]], nowe materiały ISACA i inne standardy, np. [[itil|ITIL]]. Baza nie trafia do czytelnika wprost. Najpierw przesiewa ją filtr [[aktywator|aktywatorów]], a dopiero potem powstają publikacje z [[rodzina-produktow|rodziny produktów]]. Dzięki temu każdy przewodnik ma ten sam układ.",
+    "skrajny": "Analityk pyta: „Skoro trzymam w ręku COBIT 5, to trzymam bazę wiedzy?”. Nie. Książka „COBIT 5” to jeden produkt z rodziny, a baza wiedzy jest pod spodem. Baza zawiera też strukturę dla treści, których jeszcze nie napisano. Drugi haczyk: filtrem zawartości nie są zasady ani procesy, tylko aktywatory COBIT 5. **Rozstrzygnięcie:** baza wiedzy to źródło z miejscem na przyszłość, aktywatory to filtr, a rodzina produktów to wynik; Framework to tylko jeden z produktów."
   },
   "zagmatwania": [
     {

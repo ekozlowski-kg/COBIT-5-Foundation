@@ -36,7 +36,7 @@
     "zycie": "Masz konto w banku internetowym: login, hasło i dostęp tylko do swoich pieniędzy.",
     "biuro": "Nowa pracownica dostaje konto w poczcie służbowej i w programie kadrowym. Pierwszego dnia ustawia własne hasło.",
     "organizacja": "Gdy pracownik odchodzi z firmy, dział IT blokuje jego konta tego samego dnia, żeby nie miał już dostępu do danych.",
-    "psp": "Każdy dyżurny ma w „Syrenie” własne konto. Po alarmie widać, że to konto Pawła Graba wysłało SMS-y.",
+    "admin": "Urzędniczka w urzędzie gminy przechodzi z referatu podatków do kadr. Informatyk tego samego dnia zmienia uprawnienia jej konta: zabiera dostęp do systemu podatkowego i nadaje dostęp do programu kadrowego. Nazwa użytkownika zostaje ta sama, zmienia się to, co wolno jej robić.",
     "it": "Zarządzanie kontami to część procesu DSS05 Zarządzanie usługami bezpieczeństwa."
   },
   "nieMylicZ": [
@@ -49,7 +49,7 @@
       "roznica": "Konto bankowe to miejsce na pieniądze. Konto użytkownika to dostęp do systemu – np. do bankowości internetowej."
     }
   ],
-  "przykladWypowiedzi": "A user account, czyli konto użytkownika, ma login i hasło; każdy dyżurny ma własne account w „Syrenie”.",
+  "przykladWypowiedzi": "A user account, czyli konto użytkownika, ma login i hasło; każdy pracownik ma własne account w systemie CRM.",
   "egzamin": "Nie jest terminem egzaminu. Przydaje się przy procesach bezpieczeństwa (DSS05) i przy jakości informacji (ograniczony dostęp).",
   "powiazane": [
     "it-uwierzytelnianie",
@@ -68,8 +68,8 @@
   ],
   "glebokosc": {
     "prosty": "W siłowni dostajesz kartę członkowską z nazwiskiem. Na bramce przykładasz kartę i bramka Cię wpuszcza. Karta jest jak konto: siłownia wie, kim jesteś i czy masz opłacony karnet.",
-    "zaawansowany": "Grab mówi nowej dyżurnej: „Zaloguj się na moim koncie, swojego jeszcze nie masz”. Kasia odmawia. Gdyby się zgodziła, w „Syrenie” byłoby widać, że alarm wysłał Grab, choć go nie wysłał. Konto jest osobiste, bo system zapisuje, kto co zrobił. Sprawdzenie, czy przy koncie siedzi właściwa osoba, to [[it-uwierzytelnianie|uwierzytelnianie]].",
-    "skrajny": "Czy wspólne konto „dyżurny” dla wszystkich jest wygodne? Tak, ale nie wiadomo wtedy, kto co zrobił i kto za co odpowiada. Czy konto byłego pracownika „nikomu nie szkodzi”? Szkodzi – ktoś może go użyć. Czy konto bez hasła to konto? Tak, ale bez ochrony. **Rozstrzygnięcie:** konto to osobisty zapis w systemie przypisany jednej osobie; współdzielenie kont i nieusuwanie starych kont osłabia bezpieczeństwo."
+    "zaawansowany": "Doświadczony konsultant mówi nowej koleżance: „Zaloguj się na moim koncie, swojego jeszcze nie masz”. Koleżanka odmawia. Gdyby się zgodziła, w systemie byłoby widać, że przelew zatwierdził on, choć go nie zatwierdził. Konto jest osobiste, bo system zapisuje, kto co zrobił. Sprawdzenie, czy przy koncie siedzi właściwa osoba, to [[it-uwierzytelnianie|uwierzytelnianie]].",
+    "skrajny": "Czy wspólne konto „recepcja” dla wszystkich jest wygodne? Tak, ale nie wiadomo wtedy, kto co zrobił i kto za co odpowiada. Czy konto byłego pracownika „nikomu nie szkodzi”? Szkodzi – ktoś może go użyć. Czy konto bez hasła to konto? Tak, ale bez ochrony. **Rozstrzygnięcie:** konto to osobisty zapis w systemie przypisany jednej osobie; współdzielenie kont i nieusuwanie starych kont osłabia bezpieczeństwo."
   },
   "zagmatwania": [
     {
@@ -84,7 +84,7 @@
   "mentor": {
     "czestyBlad": "Utożsamianie konta z hasłem i pożyczanie kont.",
     "jakTlumaczyc": "Karta biblioteczna: karta (konto), podpis albo PIN, czyli tajny kod (uwierzytelnianie), limit książek (uprawnienia).",
-    "pytanieKontrolne": "Dlaczego każdy dyżurny powinien mieć własne konto w „Syrenie”?",
-    "odpowiedzKontrolna": "Bo system zapisuje, kto co zrobił. Przy wspólnym koncie nie wiadomo, kto wysłał alarm albo popełnił błąd."
+    "pytanieKontrolne": "Dlaczego każdy pracownik powinien mieć własne konto w systemie CRM?",
+    "odpowiedzKontrolna": "Bo system zapisuje, kto co zrobił. Przy wspólnym koncie nie wiadomo, kto zatwierdził operację albo popełnił błąd."
   }
 }

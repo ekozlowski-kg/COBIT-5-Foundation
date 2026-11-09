@@ -35,8 +35,8 @@
   "przyklady": {
     "zycie": "Gotujesz obiady dla gości. Ustalasz: zupa zawsze gorąca, porcje równe. Pytasz gości o opinię i poprawiasz przepis. Wymagania, sprawdzanie i poprawki to zarządzanie jakością.",
     "biuro": "Biuro ustala standard: każda odpowiedź na e-mail klienta w ciągu doby i bez literówek. Kierowniczka sprawdza próbki i raz w miesiącu poprawia szablony odpowiedzi.",
-    "organizacja": "Firma programistyczna wprowadza zasadę: żaden kod bez przeglądu drugiej osoby i bez testów. Co kwartał analizuje skargi klientów i poprawia standard. To APO11. Urząd wprowadza standard: odpowiedź na e-mail mieszkańca w 3 dni, prostym językiem. Kierownik sprawdza próbki i poprawia szablony. To APO11.",
-    "psp": "**Alarm testowy w każdy poniedziałek.** Naczelnik Marek Sikora ustala standard: co tydzień alarm testowy do OSP i lista kontrolna po każdej aktualizacji Syreny. Raz na kwartał pyta dyżurnych o zadowolenie i poprawia procedurę. To jest [[proc-apo11|APO11]].",
+    "organizacja": "Firma programistyczna wprowadza zasadę: żaden kod bez przeglądu drugiej osoby i bez testów. Co kwartał analizuje skargi klientów i poprawia standard. To APO11.",
+    "admin": "Urząd skarbowy wprowadza standard: odpowiedź na e-mail podatnika w 3 dni, prostym językiem. Kierownik sprawdza próbki i poprawia szablony. To APO11.",
     "it": "Dział IT utrzymuje system zarządzania jakością: standard przeglądu kodu, testy przed wdrożeniem, analiza skarg. To APO11. Przekrojowy raport mierników dla zarządu przygotowuje [[proc-mea01]]."
   },
   "nieMylicZ": [
@@ -87,7 +87,7 @@
   "mapa": "proc-apo11",
   "glebokosc": {
     "prosty": "Piekarnia ustala: chleb ma ważyć 500 gramów i mieć chrupiącą skórkę. Piekarz waży losowe bochenki i słucha klientów. Gdy coś nie gra, zmienia przepis. To dbanie o jakość.",
-    "zaawansowany": "Sikora w APO11 ustala standard: alarm testowy co tydzień i lista kontrolna po aktualizacji. Audytorka Lis co miesiąc zbiera mierniki procesów i raportuje je wyżej (MEA01). Jej dane pokazują spadek jakości po ostatniej aktualizacji. Sikora w APO11 poprawia standard testów. Pomiar i raport to MEA01, poprawa standardu to APO11.",
+    "zaawansowany": "Kierownik działu IT w banku ustala w APO11 standard: test powiadomień do klientów co tydzień i lista kontrolna po każdej aktualizacji. Audytorka wewnętrzna co miesiąc zbiera mierniki procesów i raportuje je zarządowi (MEA01). Jej dane pokazują spadek jakości po ostatniej aktualizacji. Kierownik IT w APO11 poprawia standard testów. Pomiar i raport to MEA01, poprawa standardu to APO11.",
     "skrajny": "Oba procesy korzystają z pomiarów, więc łatwo je pomylić. Nie rozstrzygaj po samym słowie „miernik”. MEA01 to przekrojowy mechanizm: zbiera mierniki ze wszystkich procesów, ocenia je względem celów i raportuje kierownictwu i Ładowi. APO11 skupia się na wymaganiach jakości, opiniach klientów i doskonaleniu. „Zbierz mierniki i zaraportuj zarządowi” to MEA01. „Ustal standard i popraw proces, bo klienci narzekają” to APO11. **Rozstrzygnięcie:** przekrojowy pomiar i raport wyników i zgodności → MEA01; wymagania jakości i doskonalenie → APO11. (interpretacja kursu: uproszczony podział)"
   },
   "zagmatwania": [

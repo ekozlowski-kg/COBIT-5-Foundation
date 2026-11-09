@@ -31,13 +31,12 @@
     "biuro": "W biurze wszystkie umowy klientów są tylko na komputerze kierownika. Awaria dysku jest mało prawdopodobna, ale utrata umów byłaby bardzo bolesna, więc kierownik zleca codzienną kopię na dysk sieciowy – to praca z ryzykiem, zanim cokolwiek się stało.",
     "firma": "W biurze rachunkowym tylko pani Ewa umie obsługiwać program do płac. Jeśli zachoruje w ostatnim tygodniu miesiąca, pensje u klientów się spóźnią. Szef ocenia, że to mało prawdopodobne, ale bolesne, więc każe przeszkolić drugą osobę – tak wygląda praca z ryzykiem.",
     "admin": "Nabór wniosków o dopłaty do wymiany pieców w urzędzie gminy zamyka się w piątek o 15:00, a wszystko idzie przez jeden serwer. Awaria akurat w piątek jest mało prawdopodobna, ale skutek byłby fatalny, więc informatyk robi kopię i ma tego dnia dyżur. To ryzyko: możliwość zdarzenia plus jego skutki.",
-    "psp": "Przy dużym pożarze lasu kilkanaście zastępów pracuje w pagórkowatym terenie. Utrata łączności jest realna i oznaczałaby brak kontaktu z ratownikami w lesie. Dlatego komenda ma łączność zapasową, retransmisję i procedurę na taki wypadek – tak się odpowiada na ryzyko.",
     "it": "W procesie APO12 (Zarządzanie ryzykiem) dział IT prowadzi rejestr ryzyk: np. „awaria serwerowni” ma ocenione prawdopodobieństwo i skutki. Dla ryzyk powyżej apetytu ustalonego przez Ład w EDM03 (Zapewnienie optymalizacji ryzyka) planuje się działania, np. zapasowe centrum danych."
   },
   "glebokosc": {
     "prosty": "Planujesz grilla w sobotę. Prognoza daje 30% szans na burzę, a jeśli lunie, zmokną goście i jedzenie. Ryzyko to te dwie rzeczy razem: jak bardzo to możliwe i jak bardzo zaboli. Gdy już leje, to nie ryzyko, tylko problem do rozwiązania.",
-    "zaawansowany": "Kpt. Sikora wpisuje do rejestru: „Syrena ma jedno łącze internetowe; awaria zdarza się raz na kilka lat, a wtedy OSP Zawilce nie dostaje alarmu”. To ryzyko, bo łączy prawdopodobieństwo i skutek. Bryg. Wrzos nie chce go zerować za wszelką cenę, tylko utrzymać na akceptowalnym poziomie – to [[optymalizacja-ryzyka]]. Gdy w lipcu łącze naprawdę pada, mł. kpt. Dudek obsługuje już incydent, a nie ryzyko. Ryzykiem jako procesem zarządza się w domenie [[apo|APO]].",
-    "skrajny": "Burza nad Modrzewiowem to zagrożenie, a nie ryzyko – to tylko źródło. Ryzykiem staje się dopiero połączenie: burza może uszkodzić maszt (prawdopodobieństwo), a wtedy OSP nie dostanie alarmu (konsekwencja). Wczorajsza awaria masztu to z kolei incydent, bo zdarzenie już nastąpiło. Pułapka z drugiej strony: optymalizacja ryzyka nie oznacza jego wyeliminowania, tylko utrzymanie na akceptowalnym poziomie. Ład dba o optymalizację ryzyka, a Zarządzanie prowadzi zarządzanie ryzykiem w APO. **Rozstrzygnięcie:** ryzyko = połączenie prawdopodobieństwa i konsekwencji zdarzenia, które **może** nastąpić; samo źródło to zagrożenie, a zdarzenie, które już nastąpiło, to incydent lub problem."
+    "zaawansowany": "Kierownik działu IT sklepu internetowego wpisuje do rejestru: „Serwerownia ma jedno łącze internetowe; awaria zdarza się raz na kilka lat, a wtedy klienci nie mogą złożyć zamówienia”. To ryzyko, bo łączy prawdopodobieństwo i skutek. Zarząd nie chce go zerować za wszelką cenę, tylko utrzymać na akceptowalnym poziomie – to [[optymalizacja-ryzyka]]. Gdy w lipcu łącze naprawdę pada, administratorka obsługuje już incydent, a nie ryzyko. Ryzykiem jako procesem zarządza się w domenie [[apo|APO]].",
+    "skrajny": "Burza nad miastem to zagrożenie, a nie ryzyko – to tylko źródło. Ryzykiem staje się dopiero połączenie: burza może uszkodzić zasilanie centrum danych (prawdopodobieństwo), a wtedy sklep internetowy przestanie przyjmować zamówienia (konsekwencja). Wczorajsza awaria zasilania to z kolei incydent, bo zdarzenie już nastąpiło. Pułapka z drugiej strony: optymalizacja ryzyka nie oznacza jego wyeliminowania, tylko utrzymanie na akceptowalnym poziomie. Ład dba o optymalizację ryzyka, a Zarządzanie prowadzi zarządzanie ryzykiem w APO. **Rozstrzygnięcie:** ryzyko = połączenie prawdopodobieństwa i konsekwencji zdarzenia, które **może** nastąpić; samo źródło to zagrożenie, a zdarzenie, które już nastąpiło, to incydent lub problem."
   },
   "zagmatwania": [
     {
@@ -56,8 +55,8 @@
   "mentor": {
     "czestyBlad": "Nazywanie ryzykiem samego zagrożenia albo incydentu, który już nastąpił.",
     "jakTlumaczyc": "Oś czasu: przed zdarzeniem – ryzyko (może się stać, z jakimś prawdopodobieństwem i skutkiem); po – incydent. Zagrożenie narysuj obok jako chmurkę, czyli źródło.",
-    "pytanieKontrolne": "Rozłóż zdanie „Burza może uszkodzić maszt i wtedy alarmy nie dotrą” na zagrożenie, prawdopodobieństwo i konsekwencję. Czym jest wczorajsza awaria masztu?",
-    "odpowiedzKontrolna": "Zagrożenie: burza. Prawdopodobieństwo: szansa uszkodzenia masztu. Konsekwencja: alarmy nie docierają. Razem to ryzyko. Wczorajsza awaria to incydent, bo zdarzenie już nastąpiło."
+    "pytanieKontrolne": "Rozłóż zdanie „Burza może uszkodzić zasilanie centrum danych i wtedy sklep przestanie przyjmować zamówienia” na zagrożenie, prawdopodobieństwo i konsekwencję. Czym jest wczorajsza awaria zasilania?",
+    "odpowiedzKontrolna": "Zagrożenie: burza. Prawdopodobieństwo: szansa uszkodzenia zasilania. Konsekwencja: sklep nie przyjmuje zamówień. Razem to ryzyko. Wczorajsza awaria to incydent, bo zdarzenie już nastąpiło."
   },
   "nieMylicZ": [
     {

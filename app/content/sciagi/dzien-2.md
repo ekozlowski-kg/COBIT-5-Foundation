@@ -12,8 +12,8 @@
 | **4. Aktywacja holistycznego podejścia** | 7 aktywatorów działa **indywidualnie i kolektywnie**. Aktywatory 5, 6, 7 to też **zasoby**. |
 | **5. Oddzielenie Ładu od Zarządzania** | Ład: **Oszacuj, Kieruj, Monitoruj** (zarząd, prezes). Zarządzanie: **Planuj, Twórz, Wykonuj, Monitoruj** (kierownictwo, CEO). Łączą je aktywatory i informacje zwrotne. |
 
-## 7 aktywatorów (Rysunek 12) – „Remiza”
-1 Zasady, Polityki i Struktury ramowe (tablica z regulaminem) · 2 Procesy (grafik zmian) · 3 Struktury organizacyjne (gabinet komendantki) · 4 Kultura, Etyka i Zachowanie (kuchnia) · 5 Informacja* (monitor dyżurnego) · 6 Usługi, Infrastruktura i Aplikacje* (serwerownia) · 7 Ludzie, Umiejętności i Kompetencje* (szatnia) – * zasoby
+## 7 aktywatorów (Rysunek 12) – „Biuro firmy”
+1 Zasady, Polityki i Struktury ramowe (tablica z regulaminem) · 2 Procesy (grafik zmian) · 3 Struktury organizacyjne (gabinet dyrektorki) · 4 Kultura, Etyka i Zachowanie (kuchnia) · 5 Informacja* (monitor w biurze obsługi klienta) · 6 Usługi, Infrastruktura i Aplikacje* (serwerownia) · 7 Ludzie, Umiejętności i Kompetencje* (sala szkoleń) – * zasoby
 
 ## Model aktywatora (Rysunek 13)
 | Element | Treść |

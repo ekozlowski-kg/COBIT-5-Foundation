@@ -17,7 +17,7 @@ umiejetnosci:
 terminy: []
 # moduł EX nie wprowadza nowych haseł; ćwiczy terminy modułów M0, PR, EN, IM i PC w warunkach egzaminu
 zadania:
-  - "Lekcje 9.0–9.6: czytanie pytania, słowa kluczowe, kategoria odpowiedzi, tempo, powtórki PR/EN i IM/PC, dzień egzaminu."
+  - "Lekcje 9.10–9.22: trzy kroki czytania pytania, słowa kluczowe (NIE, NAJLEPIEJ, GŁÓWNY, ZAWSZE), kategoria odpowiedzi i sześć typów dystraktorów, tempo, powtórki (zasady i aktywatory, wymiary i procesy, wdrożenie, model zdolności, nazwy egzaminacyjne), dzień egzaminu."
   - "Próbny egzamin 1 (dzień 8): 50 pytań w 40 minut, z analizą błędów według rodzaju dystraktora."
   - "Sample Paper 1 (dzień 9, odblokowany dopiero wtedy) i próbny egzamin 2, z analizą."
   - "Lista kontrolna dnia egzaminu: dokument tożsamości, tryb online z nadzorem albo centrum egzaminacyjne, zasady closed book."

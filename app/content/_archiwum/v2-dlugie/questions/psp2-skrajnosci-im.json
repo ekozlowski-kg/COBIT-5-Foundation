@@ -1,0 +1,162 @@
+[
+  {
+    "id": "q-sk-pierscien-doskonalenie-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "IM-01-01",
+      "IM-02-05"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "skrajnosc": true,
+    "atom": "pierscien-doskonalenie",
+    "tresc": "Proces powiadamiania dostał w ocenie zdolności **poziom 5**. Naczelnik mówi: „Mamy już Główny cykl życia ciągłego doskonalenia, więc wdrożenie COBIT jest zakończone”. Co jest prawdą?",
+    "opcje": [
+      {
+        "tekst": "Nie ma racji: poziom 5 ocenia jeden proces, a pierścień wewnętrzny nie jest projektem jednorazowym.",
+        "poprawna": true,
+        "wyjasnienie": "Model zdolności ocenia pojedynczy proces. Cykl życia ciągłego doskonalenia opisuje prowadzenie wdrożenia i trwa w kolejnych iteracjach (s. 37–38)."
+      },
+      {
+        "tekst": "Ma rację: poziom 5 to inna nazwa pierścienia wewnętrznego.",
+        "poprawna": false,
+        "wyjasnienie": "To dwa różne pojęcia: ocena procesu i komponent cyklu wdrożenia.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Ma rację, ale dopiero po fazie 7, która zamyka cykl na stałe.",
+        "poprawna": false,
+        "wyjasnienie": "Faza 7 wzmacnia potrzebę ciągłego doskonalenia, a cykl realizuje się iteracyjnie. Nie zamyka go na stałe.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Nie ma racji, bo pierścień wewnętrzny dotyczy tylko kultury i zachowań ludzi.",
+        "poprawna": false,
+        "wyjasnienie": "Kultura i zachowania to pierścień środkowy, Aktywowanie zmiany.",
+        "pulapka": "odwrocone"
+      }
+    ],
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 37
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 38,
+        "ilustracja": "17"
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "oficjalne"
+  },
+  {
+    "id": "q-sk-ocena-c-2",
+    "typ": "studium",
+    "sylabus": [
+      "PC-01-03",
+      "PC-02-06"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "skrajnosc": true,
+    "atom": "ocena-c",
+    "tresc": "Lis musi wpisać do raportu jeden wynik. Na którym szczeblu drabiny 0–5 stoi ten proces po tej ocenie?",
+    "scenariusz": "Lis podaje wyniki procesu powiadamiania w procentach: PA 1.1 – 90%, PA 2.1 – dokładnie 50%, PA 2.2 – 70%. Wyższych atrybutów nie oceniała.",
+    "opcje": [
+      {
+        "tekst": "Szczebel 1 – PA 2.1 z dokładnie 50% ma tylko C.",
+        "poprawna": true,
+        "wyjasnienie": "90% to P, 70% to W, ale dokładnie 50% to C, bo W zaczyna się powyżej 50%. Przy C na PA 2.1 poziom 2 nie jest osiągnięty."
+      },
+      {
+        "tekst": "Szczebel 2 – połowa to już Większościowy.",
+        "poprawna": false,
+        "wyjasnienie": "W zaczyna się powyżej 50%. Dokładnie 50% to C.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Szczebel 2 – średnia PA 2.1 i PA 2.2 to 60%.",
+        "poprawna": false,
+        "wyjasnienie": "Skala nie uśrednia atrybutów. Każdy atrybut poziomu musi mieć co najmniej W.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Szczebel 0 – wystarczy jedno C, by spaść na dół.",
+        "poprawna": false,
+        "wyjasnienie": "C na PA 2.1 blokuje tylko poziom 2. PA 1.1 ma P, więc poziom 1 jest osiągnięty.",
+        "pulapka": "zbyt-waskie"
+      }
+    ],
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 45
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      },
+      {
+        "doc": "SYL"
+      }
+    ],
+    "status": "oficjalne"
+  },
+  {
+    "id": "q-sk-ocena-p-2",
+    "typ": "studium",
+    "sylabus": [
+      "PC-01-03",
+      "PC-02-06"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "skrajnosc": true,
+    "atom": "ocena-p",
+    "tresc": "Wrzos pyta Lis: „Na którym szczeblu drabiny 0–5 jesteśmy i czego brakuje do następnego?”. Co odpowie Lis?",
+    "scenariusz": "Lis kończy ocenę procesu powiadamiania: PA 1.1 = P, PA 2.1 = P, PA 2.2 = P, PA 3.1 = P, PA 3.2 = W, PA 4.1 = W, PA 4.2 = W. Atrybutów poziomu 5 nie oceniała.",
+    "opcje": [
+      {
+        "tekst": "Szczebel 3; do 4 brakuje P na PA 3.2.",
+        "poprawna": true,
+        "wyjasnienie": "Poziomy 1 i 2 mają P, a atrybuty poziomu 3 mają P i W, więc poziom 3 jest osiągnięty. Do poziomu 4 PA 3.2 musiałby mieć P."
+      },
+      {
+        "tekst": "Szczebel 4; PA 4.1 i PA 4.2 mają W, więc wystarczy.",
+        "poprawna": false,
+        "wyjasnienie": "W na PA 4.x wystarczyłoby tylko przy P na wszystkich niższych atrybutach. PA 3.2 ma W.",
+        "pulapka": "zbyt-waskie"
+      },
+      {
+        "tekst": "Szczebel 2; PA 3.2 nie jest pełny, więc 3 odpada.",
+        "poprawna": false,
+        "wyjasnienie": "Dla atrybutów ocenianego poziomu wystarczy W. Poziom 3 jest osiągnięty.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Szczebel 5; żaden atrybut nie ma C ani N.",
+        "poprawna": false,
+        "wyjasnienie": "Atrybutów poziomu 5 nie oceniono, a poziom 4 nie jest osiągnięty.",
+        "pulapka": "falsz"
+      }
+    ],
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 45
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      },
+      {
+        "doc": "SYL"
+      }
+    ],
+    "status": "oficjalne"
+  }
+]

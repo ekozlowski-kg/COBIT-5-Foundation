@@ -35,8 +35,8 @@
   "przyklady": {
     "zycie": "W rodzinnej piekarni tylko dziadek umie zrobić zakwas. Gdy zachoruje, nie ma chleba. Rodzina postanawia: wnuczka uczy się od dziadka i co tydzień piecze z nim. Dbanie o umiejętności i zastępstwa to APO07.",
     "biuro": "Tylko jedna księgowa umie wysłać deklaracje elektroniczne. Kierowniczka biura planuje, że nauczy tego drugą osobę przed urlopami. Raz w roku rozmawia z każdym o rozwoju.",
-    "organizacja": "W firmie transportowej jeden informatyk zna system rozliczeń kierowców. Kierownik IT planuje szkolenie drugiej osoby i ocenia kompetencje zespołu. Raz w roku rozmawia z każdym o celach. To APO07. Sekretarz powiatu widzi, że informatyk odchodzi na emeryturę. Planuje nabór, wdrożenie następcy i szkolenia. Ustala też zasady pracy firmy zewnętrznej, która pomaga w serwisie. To APO07.",
-    "psp": "**Tylko Grab zna tryb awaryjny.** Okazuje się, że tylko dyżurny Paweł Grab umie przełączyć Syrenę w tryb awaryjny. Naczelnik Marek Sikora spisuje umiejętności potrzebne w każdej roli i planuje szkolenia. Kasia Nowik ćwiczy tryb awaryjny z Grabem, żeby móc go zastąpić. To jest [[proc-apo07|APO07]].",
+    "organizacja": "W firmie transportowej jeden informatyk zna system rozliczeń kierowców. Kierownik IT planuje szkolenie drugiej osoby i ocenia kompetencje zespołu. Raz w roku rozmawia z każdym o celach. To APO07.",
+    "admin": "Sekretarz powiatu widzi, że informatyk odchodzi na emeryturę. Planuje nabór, wdrożenie następcy i szkolenia. Ustala też zasady pracy firmy zewnętrznej, która pomaga w serwisie. To APO07.",
     "it": "Kierownik IT ma plan sukcesji dla administratora bazy danych i matrycę kompetencji zespołu. To APO07. Spisana instrukcja administratora to już BAI08."
   },
   "nieMylicZ": [
@@ -92,8 +92,8 @@
   "mapa": "proc-apo07",
   "glebokosc": {
     "prosty": "W drużynie harcerskiej tylko jedna osoba umie rozpalić ognisko w deszczu. Drużynowy uczy tego dwie kolejne osoby. Teraz nikt nie jest niezastąpiony. Dbanie o umiejętności i zastępstwa to opieka nad ludźmi.",
-    "zaawansowany": "Komendantka Wrzos w [[proc-edm04]] ustala kierunek: żadna kluczowa czynność nie może zależeć od jednej osoby. Naczelnik Sikora wykonuje to w APO07. Spisuje umiejętności ról, planuje szkolenia dyżurnych i ocenia postępy. Instrukcję trybu awaryjnego Dudek zapisuje w bazie wiedzy (BAI08). Szkolenie ludzi to APO07, a spisanie wiedzy to inny proces.",
-    "skrajny": "Pytanie egzaminacyjne: „Komenda chce ograniczyć zależność od jednego eksperta”. Kusi kilka odpowiedzi. EDM04 brzmi dobrze, bo ma „zasoby” i dotyczy wystarczalności. BAI09 też ma „zasoby” w podręcznikowej nazwie. BAI08 kusi, bo chodzi o wiedzę eksperta. Ale zależność od kluczowych osób, szkolenia i zastępstwa to rdzeń APO07. EDM04 byłby trafny tylko wtedy, gdyby pytanie mówiło o decyzji organu Ładu. **Rozstrzygnięcie:** działania wobec ludzi (obsada, szkolenia, zastępstwa, ocena) → APO07; kierunek dla wszystkich zasobów → EDM04; aktywa → BAI09; spisana wiedza → BAI08."
+    "zaawansowany": "Zarząd w [[proc-edm04]] ustala kierunek: żadna kluczowa czynność nie może zależeć od jednej osoby. Dyrektor IT wykonuje to w APO07. Spisuje umiejętności ról, planuje szkolenia konsultantów helpdesku i ocenia postępy. Instrukcję trybu awaryjnego administratorka zapisuje w bazie wiedzy (BAI08). Szkolenie ludzi to APO07, a spisanie wiedzy to inny proces.",
+    "skrajny": "Pytanie egzaminacyjne: „Firma chce ograniczyć zależność od jednego eksperta”. Kusi kilka odpowiedzi. EDM04 brzmi dobrze, bo ma „zasoby” i dotyczy wystarczalności. BAI09 też ma „zasoby” w podręcznikowej nazwie. BAI08 kusi, bo chodzi o wiedzę eksperta. Ale zależność od kluczowych osób, szkolenia i zastępstwa to rdzeń APO07. EDM04 byłby trafny tylko wtedy, gdyby pytanie mówiło o decyzji organu Ładu. **Rozstrzygnięcie:** działania wobec ludzi (obsada, szkolenia, zastępstwa, ocena) → APO07; kierunek dla wszystkich zasobów → EDM04; aktywa → BAI09; spisana wiedza → BAI08."
   },
   "zagmatwania": [
     {

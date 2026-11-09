@@ -4,19 +4,11 @@ import { currentDay, nextStep } from './progress.js';
 import { showHowTo } from './ui.js';
 import { esc } from './md.js';
 import { toast } from './ui.js';
-import { renderHome } from './views/home.js';
-import { renderLesson } from './views/lesson.js';
 import { renderGlossary } from './views/glossary.js';
 import { renderDrill } from './views/drill.js';
 import { renderReview } from './views/review.js';
 import { renderNotes } from './views/notes.js';
 import { renderExam } from './views/exam.js';
-import { renderDay } from './views/day.js';
-import { renderMap } from './views/map.js';
-import { renderMentor, renderMentorExam } from './views/mentor.js';
-import { renderTeacherCard, renderPrint } from './views/print.js';
-import { renderQuick } from './views/quick.js';
-import { renderModules, renderModule } from './views/module.js';
 
 const main = document.getElementById('main');
 let cleanup = null;
@@ -114,7 +106,7 @@ async function fillHelp() {
     <p class="small muted" style="margin:10px 0 0">Wszystko zapisuje się samo. Niczego nie zepsujesz klikaniem.</p>`;
   document.getElementById('helpHow').addEventListener('click', () => { closeMenus(); showHowTo(); });
 }
-document.getElementById('helpMenu').addEventListener('toggle', (e) => { if (e.target.open) fillHelp(); });
+document.getElementById('helpMenu')?.addEventListener('toggle', (e) => { if (e.target.open) fillHelp(); });
 
 // Menu „Więcej” i „Wygląd”: zamykanie kliknięciem obok, Esc i po zmianie widoku.
 const menus = [...document.querySelectorAll('details.more, details.settings')];
@@ -137,25 +129,23 @@ function closeNav() {
 }
 
 // ---------- Router ----------
+// Aplikacją główną jest podręcznik krok po kroku (podrecznik/). Tu zostały narzędzia: powtórki, słownik,
+// egzamin próbny, ćwiczenie nazw i notatki. Dawne trasy kursu prowadzą do odpowiedniej części podręcznika.
+const PODRECZNIK = 'podrecznik/index.html';
+let lekcjeP = null;
+const lekcjaDoCzesci = (id) => (lekcjeP ||= fetch('podrecznik/lekcje.json').then((r) => (r.ok ? r.json() : {})).catch(() => ({})))
+  .then((m) => (m[id] ? 'podrecznik/' + m[id] : PODRECZNIK));
+const doPodrecznika = (href) => { location.replace(href || PODRECZNIK); return new Promise(() => {}); };
 const routes = [
-  [/^#?\/?$/, () => renderHome(main), 'home'],
-  [/^#\/lekcja\/([\w-]+)(?:\/(\d+))?$/, (m) => renderLesson(main, m[1], { slide: m[2] ? +m[2] - 1 : null }), 'home'],
-  [/^#\/prezentacja\/([\w-]+)(?:\/(\d+))?$/, (m) => renderLesson(main, m[1], { slide: m[2] ? +m[2] - 1 : null, present: true }), 'home'],
+  [/^#?\/?$/, () => doPodrecznika(), 'podrecznik'],
+  [/^#\/(?:lekcja|prezentacja|karta)\/([\w-]+)(?:\/\d+)?$/, async (m) => doPodrecznika(await lekcjaDoCzesci(m[1])), 'podrecznik'],
   [/^#\/slownik(?:\/([\w-]+))?$/, (m) => renderGlossary(main, m[1]), 'slownik'],
   [/^#\/dryl$/, () => renderDrill(main), 'dryl'],
   [/^#\/powtorki$/, () => renderReview(main), 'powtorki'],
   [/^#\/notatki$/, () => renderNotes(main), 'notatki'],
   [/^#\/egzamin$/, () => renderExam(main), 'egzamin'],
-  // Dni 0–11 – numer może mieć dwie cyfry (inaczej „#/dzien/10” otwierał dzień 0 z akcją „10”).
-  [/^#\/dzien(?:\/(\d{1,2}))?(?:\/([\w-]+))?$/, (m) => renderDay(main, m[1], m[2] || null), 'dzien'],
-  [/^#\/mapa$/, () => renderMap(main), 'mapa'],
-  [/^#\/mentor$/, () => renderMentor(main), 'mentor'],
-  [/^#\/moduly$/, () => renderModules(main), 'home'],
-  [/^#\/modul\/([\w-]+)$/, (m) => renderModule(main, m[1]), 'home'],
-  [/^#\/szybka\/(rano|przerwa)$/, (m) => renderQuick(main, m[1]), 'home'],
-  [/^#\/sprawdzian-mentora$/, () => renderMentorExam(main), 'mentor'],
-  [/^#\/karta\/([\w-]+)$/, (m) => renderTeacherCard(main, m[1]), 'mentor'],
-  [/^#\/druk\/(cobit|dzien)(?:\/(\d{1,2}))?$/, (m) => renderPrint(main, m[1], m[2]), 'home'],
+  [/^#\/mapa$/, () => doPodrecznika('podrecznik/mapa.html'), 'mapa'],
+  [/^#\/(?:dzien|mentor|moduly|modul|szybka|sprawdzian-mentora|druk)(?:\/.*)?$/, () => doPodrecznika(), 'podrecznik'],
 ];
 
 // Przerwa w nauce (§16.5): ile minut minęło od ostatniej aktywności – Start może zaproponować mikropowtórkę.
@@ -186,7 +176,7 @@ async function route() {
       if (a.dataset.nav === nav) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
     });
     currentNav = /^#\/(lekcja|prezentacja)/.test(hash) ? 'lekcja' : nav;
-    document.getElementById('moreMenu').classList.toggle('current', ['mapa', 'dryl', 'notatki', 'mentor'].includes(nav));
+    document.getElementById('moreMenu').classList.toggle('current', ['dryl', 'notatki'].includes(nav));
     closeMenus();
     document.body.classList.remove('lnav-open');
     try {
@@ -196,13 +186,13 @@ async function route() {
     } catch (e) {
       console.error(e);
       main.innerHTML = `<div class="page page-narrow"><h1>Nie udało się otworzyć tego miejsca</h1>
-        <p class="page-lead">Twój postęp jest zapisany – nic się nie stało. Wróć na Start i kliknij duży przycisk.</p>
-        <a class="btn btn-primary btn-xl" href="#/">← Wróć na Start</a>
+        <p class="page-lead">Twój postęp jest zapisany – nic się nie stało. Wróć do podręcznika.</p>
+        <a class="btn btn-primary btn-xl" href="podrecznik/index.html">← Wróć do podręcznika</a>
         <p class="small muted" style="margin-top:24px">Szczegóły dla osoby, która pomaga w obsłudze: ${esc(e.message)}</p></div>`;
     }
     return;
   }
-  location.hash = '#/';
+  location.replace(PODRECZNIK);
 }
 
 window.addEventListener('hashchange', route);

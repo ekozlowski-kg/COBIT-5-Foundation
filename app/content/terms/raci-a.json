@@ -3,26 +3,26 @@
   "en": "Accountable (A)",
   "wymowa": "akałntabl",
   "wymowaAkcent": "a-KAŁN-ta-bl",
-  "plEgzamin": "Rozliczany (A)",
+  "plEgzamin": "Odpowiedzialny decyzyjnie (A)",
   "plPodrecznik": "Strona rozliczana",
   "plInne": [
     {
-      "nazwa": "Odpowiedzialny za sukces zadania (opis spotykany w materiałach egzaminacyjnych)",
-      "zrodlo": "SP1"
+      "nazwa": "Rozliczany",
+      "zrodlo": "kurs (od „strona rozliczana”, FW-PL s. 89)"
     }
   ],
   "statusTlumaczenia": "D",
   "zrodloTlumaczenia": {
-    "wydawcaEgzaminu": "Rozliczany (A)",
+    "wydawcaEgzaminu": "Odpowiedzialny decyzyjnie (A)",
     "podrecznik": "Strona rozliczana",
-    "kurs": "Rozliczany (A) – Accountable",
-    "uwaga": "Litera A = Accountable. PL „Rozliczany” / „odpowiedzialny za sukces” – rozróżnienie Accountability vs Responsibility wymaga oryginału. Ani SP1, ani zestawienie Altkom nie podają polskiej nazwy roli A; podręcznik: „strona rozliczana”. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 24, 89. Inne formy w obiegu: Odpowiedzialny za sukces zadania (opis spotykany w materiałach egzaminacyjnych) (SP1)."
+    "kurs": "Odpowiedzialny decyzyjnie (A) – Accountable",
+    "uwaga": "Litera A = Accountable. Forma egzaminu PL potwierdzona: Sample Paper 1 PL (uzasadnienia: rola odpowiedzialna decyzyjnie). Podręcznik: „strona rozliczana” (FW-PL s. 89)."
   },
   "pulapka": true,
-  "pulapkaOpis": "Podręcznik: „strona rozliczana”. Na egzaminie spodziewaj się „rozliczany” albo opisu „odpowiedzialny za sukces zadania” (dokładna nazwa egzaminacyjna do potwierdzenia). Nie myl z „odpowiedzialnym wykonawczo” (R).",
-  "skadNazwa": "*Accountable* to „ten, kto zdaje rachunek”. Stąd podręcznikowe „rozliczany”. Polskie „odpowiedzialny” pasowałoby lepiej, ale zajęło je już R.",
+  "pulapkaOpis": "Podręcznik: „strona rozliczana”. Egzamin: „odpowiedzialny decyzyjnie” (A), w parze z „odpowiedzialny wykonawczo” (R). Rozróżnia je drugie słowo: decyzyjnie = odpowiada za sukces, wykonawczo = wykonuje.",
+  "skadNazwa": "*Accountable* to „ten, kto zdaje rachunek”. Stąd podręcznikowe „strona rozliczana”. Egzamin PL mówi „odpowiedzialny decyzyjnie”, a dla R – „odpowiedzialny wykonawczo”. Obie nazwy zaczynają się tak samo, więc patrz na drugie słowo.",
   "kategoria": "egzaminacyjne",
-  "status": "niepotwierdzone",
+  "status": "oficjalne",
   "poziomP": "P2",
   "wymaga": [
     "raci",
@@ -34,20 +34,20 @@
   "wyobrazSobie": "Kapitan statku: nie wiosłuje, ale to jego rozliczą, gdy statek nie dopłynie.",
   "poCo": "Żeby przy każdym działaniu była jedna osoba, która odpowiada za jego powodzenie.",
   "jakDziala": "W tabeli RACI przy działaniu wpisujesz A jednej roli, ostatecznie odpowiedzialnej za wynik. A nie musi wykonywać pracy. A zawsze powinien dostawać informacje o realizacji, żeby nadzorować zadanie.",
-  "dlaczegoWazne": "Bez jednego A po porażce nikt za nic nie odpowiada. Na egzaminie A to „odpowiada za powodzenie / sukces”, a nie „wykonuje”.",
-  "poziom2": "| | A – Rozliczany |\n|---|---|\n| Pytanie RACI | Kto **odpowiada za powodzenie** zadania? |\n| Kim jest | osoba, grupa lub jednostka **ostatecznie odpowiedzialna** |\n| Ile A przy działaniu | **jeden** |\n| Informacje | zawsze dostaje informacje o realizacji, żeby nadzorować zadanie (s. 92) |\n| Czym nie jest | nie jest wykonawcą (to R) |\n\nZasada „jeden A” pochodzi z praktyki tabel RACI w przewodniku *Procesy umożliwiające*. Podręcznik (FW-PL) nie formułuje jej wprost.",
+  "dlaczegoWazne": "Bez jednego A po porażce nikt za nic nie odpowiada. Na egzaminie A to „odpowiedzialny decyzyjnie”, czyli „odpowiada za powodzenie / sukces”, a nie „wykonuje” (to R – „odpowiedzialny wykonawczo”).",
+  "poziom2": "| | A – Odpowiedzialny decyzyjnie |\n|---|---|\n| Pytanie RACI | Kto **odpowiada za powodzenie** zadania? |\n| Kim jest | osoba, grupa lub jednostka **ostatecznie odpowiedzialna** |\n| Ile A przy działaniu | **jeden** |\n| Informacje | zawsze dostaje informacje o realizacji, żeby nadzorować zadanie (s. 92) |\n| Czym nie jest | nie jest wykonawcą (to R) |\n\nZasada „jeden A” pochodzi z praktyki tabel RACI w przewodniku *Procesy umożliwiające*. Podręcznik (FW-PL) nie formułuje jej wprost.",
   "poziom3": "Słownik (s. 89): strona rozliczana to *„Osoba, grupa lub jednostka ostatecznie odpowiedzialna za daną kwestię, proces lub zakres.”* W tabeli RACI: *„Kto odpowiada za powodzenie zadania?”*",
   "przyklady": {
     "zycie": "Organizujecie wesele. Pomaga wiele osób: kucharze, DJ, świadkowie. Ale to para młoda odpowiada za całość i to ją rozliczą goście i rodzice. Para młoda jest A.",
     "biuro": "W biurze kierowniczka zespołu odpowiada za to, żeby raport miesięczny trafił do zarządu na czas. Dane zbierają dwie analityczki (R), a kierowniczka jest A.",
-    "organizacja": "W firmie budowlanej kierownik budowy odpowiada za oddanie domu w terminie. Murarze i elektrycy wykonują pracę (R). Gdy dom jest opóźniony, inwestor rozlicza kierownika budowy. On jest A. Burmistrz zleca remont szkoły. Sprawę prowadzi wydział inwestycji, a jego naczelnik odpowiada za wynik przed burmistrzem. Firma remontowa jest R, naczelnik wydziału jest A.",
-    "psp": "Po nocy na Lipowej komendantka Anna Wrzos pyta: „Kto odpowiada za aktualność numerów w Syrenie?”. Okazuje się, że trzy osoby myślały, że ktoś inny. W nowej tabeli RACI naczelnik Sikora dostaje A, a Ola Dudek R. Od teraz jest jedna osoba, którą komendantka rozlicza z listy numerów.",
+    "organizacja": "W firmie budowlanej kierownik budowy odpowiada za oddanie domu w terminie. Murarze i elektrycy wykonują pracę (R). Gdy dom jest opóźniony, inwestor rozlicza kierownika budowy. On jest A.",
+    "admin": "Burmistrz zleca remont szkoły podstawowej. Sprawę prowadzi wydział inwestycji, a jego naczelnik odpowiada przed burmistrzem za termin i budżet. Firma remontowa wykonuje pracę, więc jest R. Naczelnik wydziału jest A – to jego burmistrz rozliczy, gdy remont się opóźni.",
     "it": "W tabelach RACI COBIT 5 przy praktykach EDM literę A ma zwykle zarząd. Przy praktykach zarządzania A często ma CIO albo właściciel procesu biznesowego (przykład kursu, nie cytat z tabeli)."
   },
   "glebokosc": {
     "prosty": "Gdy dziecko idzie z babcią do parku, za dziecko odpowiada babcia. Nawet jeśli to dziadek pcha huśtawkę. Jeśli coś się stanie, rodzice zapytają babcię. Babcia jest A.",
-    "zaawansowany": "Przy aktualizacji numerów Sikora ma A, a Dudek [[raci-r|R]]. Sikora nie wpisuje numerów sam, ale co miesiąc dostaje raport z aktualizacji. Nie jest przez to [[raci-i|I]]: informacje są mu potrzebne, żeby nadzorować zadanie. Gdy inspektorka Ostrowska pyta, kto odpowiada za listę, komendantka wskazuje jedno nazwisko: Sikora.",
-    "skrajny": "Komendantka chce, żeby za listę numerów odpowiadali razem Sikora i kierownik SK. Na papierze to brzmi bezpieczniej: dwie osoby zamiast jednej. W praktyce każdy myśli, że pilnuje ten drugi, a po awarii nie wiadomo, kogo rozliczyć. Dlatego w tabelach RACI COBIT 5 przy działaniu jest jeden A. Drugi przypadek: Sikora sam wykonuje pracę w nocy. Nadal jest A, a nie R, bo literę wyznacza rola przy zadaniu, a nie pojedyncza noc. **Rozstrzygnięcie:** A to jedna rola ostatecznie odpowiedzialna za powodzenie. Kilku R – tak, kilku A – nie. Rozliczany to nie wykonawca (interpretacja kursu na podstawie tabel RACI z przewodnika *Procesy umożliwiające*)."
+    "zaawansowany": "Przy aktualizacji danych kontaktowych klientów kierownik działu IT ma A, a administratorka [[raci-r|R]]. Kierownik nie wpisuje danych sam, ale co miesiąc dostaje raport z aktualizacji. Nie jest przez to [[raci-i|I]]: informacje są mu potrzebne, żeby nadzorować zadanie. Gdy audytor regulatora pyta, kto odpowiada za tę listę, zarząd wskazuje jedno nazwisko: kierownika działu IT.",
+    "skrajny": "Zarząd chce, żeby za listę danych kontaktowych klientów odpowiadali razem kierownik działu IT i kierownik obsługi klienta. Na papierze to brzmi bezpieczniej: dwie osoby zamiast jednej. W praktyce każdy myśli, że pilnuje ten drugi, a po awarii nie wiadomo, kogo rozliczyć. Dlatego w tabelach RACI COBIT 5 przy działaniu jest jeden A. Drugi przypadek: kierownik działu IT sam wykonuje pracę w nocy. Nadal jest A, a nie R, bo literę wyznacza rola przy zadaniu, a nie pojedyncza noc. **Rozstrzygnięcie:** A to jedna rola ostatecznie odpowiedzialna za powodzenie. Kilku R – tak, kilku A – nie. Odpowiedzialny decyzyjnie to nie wykonawca (interpretacja kursu na podstawie tabel RACI z przewodnika *Procesy umożliwiające*)."
   },
   "zagmatwania": [
     {
@@ -63,28 +63,28 @@
       "prawda": "A zawsze powinien być informowany, żeby nadzorować zadanie (s. 92). Litera I dotyczy innych ról, które tylko dostają informacje."
     },
     {
-      "mit": "Rozliczany to ten, kto rozlicza pieniądze zadania.",
-      "prawda": "Rozliczany (accountable) to ten, kogo się rozlicza z wyniku, a nie księgowy zadania."
+      "mit": "„Odpowiedzialny decyzyjnie” i „odpowiedzialny wykonawczo” to ta sama rola, bo obie są „odpowiedzialne”.",
+      "prawda": "To dwie różne litery. Decyzyjnie (A) – odpowiada za sukces zadania. Wykonawczo (R) – wykonuje zadanie. Rozróżnia je drugie słowo. Podręcznik nazywa A „stroną rozliczaną”."
     }
   ],
   "mentor": {
-    "czestyBlad": "Uczeń wpisuje A kilku osobom „dla bezpieczeństwa” albo myli A z R, bo „odpowiedzialny” to w podręczniku R.",
-    "jakTlumaczyc": "Mów: A = „na kogo spadnie, gdy się nie uda”. Zapytaj: kogo komendantka wezwie na dywanik? To jedna osoba.",
+    "czestyBlad": "Uczeń wpisuje A kilku osobom „dla bezpieczeństwa” albo myli A z R, bo na egzaminie obie nazwy zaczynają się od „odpowiedzialny” (decyzyjnie – A, wykonawczo – R).",
+    "jakTlumaczyc": "Mów: A = „na kogo spadnie, gdy się nie uda” – odpowiada decyzyjnie. R odpowiada wykonawczo, czyli robi. Zapytaj: kogo prezes wezwie na dywanik? To jedna osoba.",
     "pytanieKontrolne": "W tabeli RACI dwie osoby mają A przy tym samym działaniu. Co jest nie tak i jak to poprawić?",
-    "odpowiedzKontrolna": "Przy działaniu powinien być **jeden A**. Trzeba wskazać jedną rolę rozliczaną za powodzenie, a drugą osobę oznaczyć jako R, C albo I."
+    "odpowiedzKontrolna": "Przy działaniu powinien być **jeden A**. Trzeba wskazać jedną rolę odpowiedzialną decyzyjnie za powodzenie, a drugą osobę oznaczyć jako R, C albo I."
   },
   "nieMylicZ": [
     {
       "termin": "raci-r",
-      "roznica": "A odpowiada za powodzenie. R wykonuje. Pracę może robić kilku R, ale rozliczany jest jeden A."
+      "roznica": "A (odpowiedzialny decyzyjnie) odpowiada za powodzenie. R (odpowiedzialny wykonawczo) wykonuje. Pracę może robić kilku R, ale A jest jeden. Różnicę niesie drugie słowo nazwy."
     },
     {
       "termin": "raci-i",
       "roznica": "A zawsze powinien dostawać informacje o realizacji, ale nie staje się przez to rolą I. Informacje są mu potrzebne do nadzoru."
     }
   ],
-  "przykladWypowiedzi": "Accountable, czyli rozliczany (A), is the one role answerable for the success of the task.",
-  "egzamin": "„Kto **odpowiada za powodzenie / sukces** zadania” → **A**. „Ostatecznie odpowiedzialny” → **A**. „Wykonuje” → R. Przy jednym działaniu **jeden A**.",
+  "przykladWypowiedzi": "Accountable, czyli odpowiedzialny decyzyjnie (A), is the one role answerable for the success of the task.",
+  "egzamin": "„Kto **odpowiada za powodzenie / sukces** zadania”, „**odpowiedzialny decyzyjnie**” → **A**. „Ostatecznie odpowiedzialny” → **A**. „Wykonuje”, „odpowiedzialny wykonawczo” → R. Przy jednym działaniu **jeden A**.",
   "powiazane": [
     "raci",
     "raci-r",

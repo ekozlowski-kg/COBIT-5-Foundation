@@ -652,7 +652,7 @@
     },
     {
       "id": "raci-a",
-      "nazwa": "A – Rozliczany",
+      "nazwa": "A – Odpowiedzialny decyzyjnie",
       "en": "Accountable",
       "rodzic": "raci",
       "obszar": "EN",
@@ -660,7 +660,7 @@
     },
     {
       "id": "raci-c",
-      "nazwa": "C – Konsultowany",
+      "nazwa": "C – Konsultant",
       "en": "Consulted",
       "rodzic": "raci",
       "obszar": "EN",

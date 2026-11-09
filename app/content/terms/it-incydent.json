@@ -24,18 +24,18 @@
     "it-usluga-it"
   ],
   "poLudzku": "Nagła przerwa albo pogorszenie działania usługi, które trzeba szybko naprawić.",
-  "poziom1": "Incydent to zdarzenie, które przerywa albo psuje usługę IT: poczta nie działa, drukarka sieciowa nie drukuje, „Syrena” nie wysyła SMS-ów. Celem jest jak najszybsze przywrócenie działania.",
+  "poziom1": "Incydent to zdarzenie, które przerywa albo psuje usługę IT: poczta nie działa, drukarka sieciowa nie drukuje, bankowość internetowa nie wysyła kodów SMS. Celem jest jak najszybsze przywrócenie działania.",
   "poziom2": "Incydent zgłasza się zwykle do pomocy technicznej (EN: service desk). Ta go zapisuje, ocenia, jak pilny, i przywraca działanie – czasem obejściem, np. ręcznym powiadomieniem przez telefon. Szukanie głębokiej przyczyny to osobna praca: zarządzanie problemami.",
   "poziom3": "W COBIT 5 incydentami zajmuje się proces DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami (FW-PL s. 33). FW-PL używa też słowa szerzej, np. *„istotne incydenty związane z ryzykiem informatycznym, takie jak utrata danych lub niepowodzenie projektu”* (s. 36).",
   "wyobrazSobie": "Przebita opona w drodze. Zakładasz koło zapasowe, żeby jechać dalej. Dlaczego opona pękła, sprawdzisz później.",
   "poCo": "Żeby jak najszybciej przywrócić ludziom działającą usługę.",
   "jakDziala": "Ktoś zauważa, że coś nie działa, i zgłasza to. Pomoc techniczna zapisuje zgłoszenie i ustala, jak pilne. Technik przywraca działanie albo stosuje obejście. Zgłaszający potwierdza, że już działa.",
-  "dlaczegoWazne": "Każda minuta incydentu w ważnej usłudze to straty. W komendzie – opóźniony alarm.",
+  "dlaczegoWazne": "Każda minuta incydentu w ważnej usłudze to straty. W sklepie internetowym – utracone zamówienia.",
   "przyklady": {
     "zycie": "W domu nagle znika Internet. Wyłączasz i włączasz router i po dwóch minutach działa. To był incydent.",
     "biuro": "O 9:00 nie działa poczta w całym biurze. Pracownicy dzwonią do informatyka, a on o 9:20 przywraca pocztę.",
     "organizacja": "W sklepie internetowym przez godzinę nie działa płatność kartą. Klienci nie mogą kupować – sklep traci pieniądze.",
-    "psp": "W nocy na Lipowej „Syrena” nie powiadomiła OSP Zawilce i pomoc dotarła 6 minut później, niż mogła. Brak alarmu dla OSP to incydent.",
+    "admin": "O 10:00 w wydziale komunikacji urzędu miasta przestaje działać system do rejestracji samochodów. Przy okienkach czeka 30 osób, więc urzędniczka zgłasza awarię do pomocy technicznej. Informatyk o 10:40 przywraca działanie systemu i obsługa rusza dalej – incydent zamknięty.",
     "it": "Incydentami zarządza proces DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami (FW-PL s. 33)."
   },
   "nieMylicZ": [
@@ -73,8 +73,8 @@
   ],
   "glebokosc": {
     "prosty": "Gotujesz obiad i wysiadają korki. Włączasz bezpiecznik i gotujesz dalej. To szybkie przywrócenie działania. Dlaczego korki wysiadły – może za dużo urządzeń naraz – to już inna sprawa.",
-    "zaawansowany": "O 2:10 Kasia Nowik zgłasza Oli Dudek, że „Syrena” nie wysyła SMS-ów. Ola w 10 minut uruchamia ponownie serwer i SMS-y znów wychodzą. Incydent zamknięty. Ale to trzeci taki raz w miesiącu. Ola otwiera osobną sprawę: szukanie przyczyny – to [[it-problem|problem]].",
-    "skrajny": "Czy powolne działanie „Syreny” (SMS po 3 minutach zamiast po 10 sekundach) to incydent? Tak – usługa działa gorzej, niż powinna. Czy awaria, której nikt nie zauważył od razu, to incydent? Tak, choć wykryto ją później. Czy ryzyko awarii to incydent? Nie – dopóki się nie wydarzy. **Rozstrzygnięcie:** incydent to rzeczywiste przerwanie albo pogorszenie usługi; liczy się szybkie przywrócenie działania, a nie od razu szukanie przyczyny."
+    "zaawansowany": "O 2:10 konsultant nocnej zmiany zgłasza administratorowi, że bankowość internetowa nie wysyła kodów SMS. Administrator w 10 minut uruchamia ponownie serwer i SMS-y znów wychodzą. Incydent zamknięty. Ale to trzeci taki raz w miesiącu. Administrator otwiera osobną sprawę: szukanie przyczyny – to [[it-problem|problem]].",
+    "skrajny": "Czy powolne działanie systemu (SMS z kodem po 3 minutach zamiast po 10 sekundach) to incydent? Tak – usługa działa gorzej, niż powinna. Czy awaria, której nikt nie zauważył od razu, to incydent? Tak, choć wykryto ją później. Czy ryzyko awarii to incydent? Nie – dopóki się nie wydarzy. **Rozstrzygnięcie:** incydent to rzeczywiste przerwanie albo pogorszenie usługi; liczy się szybkie przywrócenie działania, a nie od razu szukanie przyczyny."
   },
   "zagmatwania": [
     {
@@ -89,7 +89,7 @@
   "mentor": {
     "czestyBlad": "Mylenie incydentu z problemem i z ryzykiem.",
     "jakTlumaczyc": "Przebita opona: zmiana koła (incydent), sprawdzenie, dlaczego pękają opony (problem), obawa przed przebiciem na długiej trasie (ryzyko).",
-    "pytanieKontrolne": "„Syrena” nie działała 20 minut, Ola uruchomiła ją ponownie. Czy sprawa jest zakończona?",
+    "pytanieKontrolne": "Bankowość internetowa nie działała 20 minut, administrator uruchomił serwer ponownie. Czy sprawa jest zakończona?",
     "odpowiedzKontrolna": "Incydent – tak, bo usługa działa. Ale jeśli awaria się powtarza, trzeba otworzyć problem i szukać przyczyny."
   }
 }

@@ -35,7 +35,7 @@
     "zycie": "Rodzina ma 20 000 zł oszczędności i trzy pomysły: nowe auto, remont łazienki, kurs dla córki. Porównuje i wybiera łazienkę i kurs – to zarządzanie domowym portfelem.",
     "biuro": "Szef biura ma budżet na jedno ulepszenie w tym roku: nowy program księgowy albo nowe komputery. Wybiera program, bo stare komputery jeszcze wystarczą.",
     "organizacja": "Zarząd szpitala przegląda co kwartał listę 12 projektów IT. Dwa zatrzymuje, bo przestały być potrzebne, a pieniądze przenosi na bezpieczeństwo danych.",
-    "psp": "Na liście komendy są: program „Bezpieczna Syrena”, nowe tablety dla JRG i nowa strona internetowa. Komendantka Wrzos daje pierwszeństwo „Syrenie”, a stronę przesuwa na przyszły rok.",
+    "admin": "Urząd marszałkowski ma na liście 15 projektów IT, m.in. nową stronę, e-usługi dla przedsiębiorców i wymianę serwerów. Zarząd województwa co pół roku przegląda całą listę i porównuje koszty, korzyści i ryzyko. Jeden projekt wstrzymuje, a zaoszczędzone pieniądze przesuwa na e-usługi.",
     "it": "APO05 Zarządzanie portfelem projektów; definicja portfela inwestycyjnego w słowniku FW-PL (s. 92)."
   },
   "nieMylicZ": [
@@ -79,7 +79,7 @@
   ],
   "glebokosc": {
     "prosty": "W sklepie masz 100 zł i koszyk pełen rzeczy za 180 zł. Odkładasz to, co mniej potrzebne. Koszyk to Twój „portfel”: wszystko, co chcesz, z którego wybierasz to, na co Cię stać.",
-    "zaawansowany": "Halina Mak, główna księgowa, kładzie przed komendantką listę: program „Bezpieczna Syrena”, tablety dla JRG, nowa strona internetowa. Pieniędzy starczy na dwie pozycje. Komendantka porównuje korzyść i [[it-ryzyko-it|ryzyko]]: „Syrena” chroni życie, strona może poczekać. Tak wygląda decyzja o portfelu.",
+    "zaawansowany": "Dyrektor finansowy szpitala kładzie przed zarządem listę: program „Bezpieczne dane pacjentów”, tablety dla lekarzy, nowa strona internetowa. Pieniędzy starczy na dwie pozycje. Zarząd porównuje korzyść i [[it-ryzyko-it|ryzyko]]: ochrona danych pacjentów jest krytyczna, strona może poczekać. Tak wygląda decyzja o portfelu.",
     "skrajny": "Czy portfel to tylko nowe projekty? Nie – obejmuje też trwające inwestycje, które można zatrzymać. Czy zatrzymanie projektu to porażka? Nie zawsze: to dobra decyzja, gdy projekt nie da już korzyści. Kto decyduje o portfelu – informatyk? Nie: FW-PL wiąże decyzje o portfelu inwestycyjnym ze strukturami nadzoru (s. 31). **Rozstrzygnięcie:** portfel to zbiór rozważanych i realizowanych inwestycji (FW-PL s. 92); decyzje o nim podejmuje kierownictwo, porównując korzyść, koszt i ryzyko."
   },
   "zagmatwania": [

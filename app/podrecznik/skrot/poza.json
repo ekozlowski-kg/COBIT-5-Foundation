@@ -1,0 +1,245 @@
+{
+ "k-m0-egzamin": [
+  {
+   "h": "Egzamin: 50 pytań, 40 minut, próg 50%, bez notatek",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Co</th><th>Ile</th></tr><tr><td>Pytania</td><td><b>50</b>, jedna dobra z 4</td></tr><tr><td>Czas</td><td><b>40 minut</b> (+10 w języku obcym)</td></tr><tr><td>Próg</td><td><b>50%</b>, czyli 25 z 50</td></tr><tr><td>Materiały</td><td><b>żadnych</b> (<span class=\"en\">closed book</span>)</td></tr><tr><td>Obszary</td><td>zasady, aktywatory, wdrożenie, zdolność procesu</td></tr></table></div>",
+   "c": "Egzamin sprawdza znajomość i rozumienie pojęć, a nie umiejętność wdrożenia COBIT 5.",
+   "s": "Sylabus egzaminu COBIT 5 Foundation",
+   "ctx": "<p>40 minut na 50 pytań to średnio <b>48 sekund</b> na pytanie. Sylabus celuje w dwa najniższe poziomy taksonomii Blooma: znać i rozumieć – pojęcia muszą siedzieć w pamięci, nikt nie poprosi o plan wdrożenia.</p><p>Sylabus PeopleCert podaje próg 50%, a w nawiasie „20 or more marks” – to niespójność w samym dokumencie; licz na co najmniej 25 z 50.</p><p>Każde pytanie ma kod obszaru: PR – zasady (<span class=\"en\">Principles</span>), EN – aktywatory (<span class=\"en\">Enablers</span>), IM – wdrożenie (<span class=\"en\">Implementation</span>), PC – zdolność procesu (<span class=\"en\">Process Capability</span>). W oficjalnym arkuszu próbnym rozkład wynosi 15 / 21 / 7 / 7, więc aktywatory to największy obszar. Kurs celuje w <b>35 z 50</b> na próbach – w stresie wynik zwykle spada o kilka punktów.</p><p>Przykład: specjalistka ds. informatyki w starostwie, mając miesiąc na naukę, zaczyna od aktywatorów i list nazw, które da się rozpoznać w kilka sekund.</p>",
+   "lekcje": [
+    "m0-33-egzamin-w-liczbach"
+   ]
+  },
+  {
+   "h": "Zaznaczasz nazwę z egzaminu, a P znaczy Pełny",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>EN</th><th>Podręcznik PL</th><th>Egzamin PL</th></tr><tr><td>Governance</td><td>nadzór</td><td><b><w k=\"lad\">Ład</w></b></td></tr><tr><td>Enabler</td><td>czynnik umożliwiający</td><td><b><w k=\"aktywator\">Aktywator</w></b></td></tr><tr><td>Framework</td><td>metodyka</td><td><b><w k=\"struktura-ramowa\">Struktura ramowa</w></b></td></tr><tr><td>Enterprise</td><td>przedsiębiorstwo</td><td><b><w k=\"organizacja\">Organizacja</w></b></td></tr><tr><td>F – Fully</td><td>F – w pełni</td><td><b><w k=\"ocena-p\">P – Pełny</w></b></td></tr><tr><td>P – Partially</td><td>P – częściowo</td><td><b><w k=\"ocena-c\">C – Częściowy</w></b></td></tr></table></div>",
+   "c": "Angielski oryginał łączy obie polskie nazwy; na arkuszu wybierasz egzaminacyjną, a skalę czytasz N – C – W – P.",
+   "s": "COBIT 5 Framework (PL), s. 45; zestawienie nazw ALTKOM",
+   "ctx": "<p>Podręcznik i egzamin tłumaczono osobno, więc forma podręcznikowa jest częstym dystraktorem: z odpowiedzi „Nadzór ocenia potrzeby interesariuszy” i „Ład ocenia potrzeby interesariuszy” wybierasz drugą. Dziwne słowo rozbrajasz w trzech krokach: zwykły sens → nazwa z egzaminu → oryginał (Oszacuj – <span class=\"en\">Evaluate</span>, czyli „oceń”). Słowo po ludzku to most, nie zamiennik: <w k=\"ryzyko\">ryzyko</w> to coś, co <b>może</b> pójść źle, a nie awaria; <w k=\"zasob\">zasób</w> to nie to samo co aktywator. Odpowiadasz według modelu COBIT 5, nie praktyki swojej firmy.</p><p><w k=\"skala-ocen\">Skala ocen</w> w podręczniku zachowała litery angielskie N, P, L, F z progami 0–15, 15–50, 50–85 i 85–100% (s. 45); tam P znaczy „częściowo”. Na egzaminie PL jest N – C – W – P i P to ocena najwyższa.</p><p>Przykład: pracownik banku przepisuje z angielskiego raportu audytora literę „P” do polskiego raportu – i proces oceniony „częściowo” wygląda na wzorowy. Zawsze zapisuj, z której skali pochodzi litera.</p>",
+   "lekcje": [
+    "m0-34-trzy-nazwy-terminu",
+    "m0-35-litera-p",
+    "m0-37-dziwne-slowa"
+   ]
+  }
+ ],
+ "k-ex-strategia": [
+  {
+   "h": "Trzy kroki: słowo-klucz, temat, eliminacja",
+   "b": "<ol><li><b>Słowo-klucz</b>: NIE, NAJLEPIEJ, GŁÓWNY?</li><li><b>Temat</b>: z jakiej szuflady ma być odpowiedź?</li><li><b>Eliminacja</b>: odrzuć fałszywe, nie na temat i zbyt wąskie.</li></ol><p>Dobra odpowiedź jest prawdziwa <b>i</b> odpowiada na to pytanie w całości.</p>",
+   "c": "Prawda to warunek konieczny, ale nie wystarczający.",
+   "s": "COBIT 5 Framework (PL), s. 14, 93",
+   "ctx": "<p>Wiele punktów traci się przez pośpieszne czytanie, nie przez niewiedzę. Przykład: „Kto <b>NIE</b> jest interesariuszem nowego systemu sklepu internetowego?” – klient, dostawca płatności i zarząd mają oczekiwania; serwer to rzecz, więc to on jest odpowiedzią.</p><p>Najtrudniej odrzucić odpowiedzi prawdziwe. <b>Nie na temat</b>: na pytanie o definicję <w k=\"ryzyko\">ryzyka</w> odpowiedź „organizacja powinna zarządzać ryzykiem IT” jest prawdą, ale nie definicją (definicja: połączenie prawdopodobieństwa zdarzenia i jego skutków, s. 93). Sygnał: „powinno”, „należy” w odpowiedzi na „czym jest…”. <b>Zbyt wąskie</b>: „realizacja korzyści” przegrywa z pełnym celem Ładu – korzyściami przy optymalizacji ryzyka i zasobów (s. 14).</p><p>Test: gdy dwie odpowiedzi brzmią dobrze, a jedna zawiera drugą, wybierz pełniejszą. Pytanie kontrolne przy każdej kuszącej opcji: czy to odpowiedź właśnie na to pytanie?</p>",
+   "lekcje": [
+    "ex-k10-trzy-kroki",
+    "ex-k11-prawdziwe-ale-zle"
+   ]
+  },
+  {
+   "h": "Słowo-klucz zmienia zadanie",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Słowo</th><th>Co robisz</th></tr><tr><td>NIE</td><td>trzy pasują – zaznacz czwartą</td></tr><tr><td>NAJLEPIEJ</td><td>wybierz najpełniejszą</td></tr><tr><td>GŁÓWNY</td><td>szukaj sedna, nie szczegółu</td></tr><tr><td>ZAWSZE, MUSI, WSZYSTKIE</td><td>sygnał ostrzegawczy – sprawdź z modelem</td></tr></table></div>",
+   "c": "Słowa-klucza szukasz, zanim przeczytasz odpowiedzi, a odpowiadasz według modelu COBIT 5, nie swojej firmy.",
+   "s": "COBIT 5 Framework (PL), s. 14, 20, 32",
+   "ctx": "<p>Przy NIE najczęstszy błąd to zaznaczenie pierwszej poprawnej opcji z przyzwyczajenia („Który <b>NIE</b> jest aktywatorem?” – Budżet IT, bo to zasób, a nie jedna z 7 kategorii). Przy NAJLEPIEJ i GŁÓWNY wygrywa odpowiedź, która obejmuje pozostałe: <w k=\"interesariusz\">interesariusz</w> to „każdy, kto ma oczekiwania, udział lub odpowiedzialność”, a nie tylko „użytkownik systemu”; głównym celem Ładu jest <w k=\"tworzenie-wartosci\">tworzenie wartości</w>, a nie zatwierdzanie budżetu IT.</p><p>Słowa absolutne każą się zatrzymać, ale nie są wyrokiem. Model procesów nie jest jedynym możliwym (s. 32), więc „organizacja musi wdrożyć wszystkie 37 procesów” to fałsz. Za to „pierwszą czynnością przy kaskadzie celów jest <b>zawsze</b> dostosowanie mapowania” to prawda (s. 20). Reguła: zdanie przeciw dostosowaniu jest prawie zawsze fałszywe.</p><p>Pułapka doświadczonych: w Twojej firmie budżet IT zatwierdza dyrektor IT, ale według modelu za Ład odpowiada zarząd pod przywództwem prezesa (s. 14).</p>",
+   "lekcje": [
+    "ex-k12-nie-najlepiej",
+    "ex-k13-glowny-zawsze"
+   ]
+  },
+  {
+   "h": "Każdą złą odpowiedź da się nazwać – najczęściej to inna szuflada",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Typ</th><th>Objaw</th></tr><tr><td>inna kategoria</td><td>prawda z innej szuflady</td></tr><tr><td>zbyt wąskie</td><td>część pełnej odpowiedzi</td></tr><tr><td>nie na temat</td><td>dobre zdanie o czymś innym</td></tr><tr><td>forma podręcznikowa</td><td>nazwa z podręcznika</td></tr><tr><td>fałsz</td><td>np. zła liczba</td></tr><tr><td>odwrócone</td><td>para zamieniona miejscami</td></tr></table></div>",
+   "c": "Nazwany typ błędnej odpowiedzi odrzucasz w sekundę.",
+   "s": "COBIT 5 Framework (PL), s. 14, 28, 33",
+   "ctx": "<p>Technika szuflady: przy każdej opcji pytasz, z jakiej kategorii jest – zasada, aktywator, wymiar, proces, faza, poziom. Na pytanie o <b>zasadę</b> „Procesy” i „Kultura, Etyka i Zachowanie” to aktywatory, a zasadą jest Oddzielenie Ładu od Zarządzania. Aktywator 1 „Zasady, Polityki i Struktury ramowe” ma „zasady” w nazwie, ale zasadą nie jest; <w k=\"zasada-4\">zasada 4</w> mówi o aktywatorach, ale sama jest zasadą.</p><p>Uważaj na szuflady zagnieżdżone: <w k=\"dostep-i-bezpieczenstwo\">dostęp i bezpieczeństwo</w> to kategoria celów wewnątrz wymiaru Cele, a nie wymiar (wymiary: interesariusze, cele, cykl życia, <w k=\"dobre-praktyki\">dobre praktyki</w>, s. 28). Odwrócone: „<w k=\"wskaznik-wiodacy\">wskaźnik wiodący</w> mierzy wynik po fakcie” – to opisuje wskaźnik opóźniony. Fałsz: „COBIT 5 ma 40 procesów” – ma 37 (s. 33).</p><p>Po każdym egzaminie próbnym zanotuj, który typ kosztował Cię najwięcej, i wróć do tego tematu.</p>",
+   "lekcje": [
+    "ex-k14-inna-kategoria",
+    "ex-k15-szesc-pulapek"
+   ]
+  },
+  {
+   "h": "Tempo: dwa przejścia, kontrola, zero pustych pól",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Minuty</th><th>Co robisz</th></tr><tr><td>0–25</td><td>pewne od razu, trudne oznacz</td></tr><tr><td>25–35</td><td>wracasz do oznaczonych</td></tr><tr><td>35–40</td><td>puste pola; jeszcze raz NIE i NAJLEPIEJ</td></tr></table></div><p>Nie ma punktów ujemnych – nie zostawiaj pustych odpowiedzi.</p>",
+   "c": "Średnio 48 sekund na pytanie wystarczy, jeśli trudne odkładasz na drugie przejście.",
+   "s": "Sylabus egzaminu COBIT 5 Foundation",
+   "ctx": "<p>2400 sekund na 50 pytań to ok. 48 s, a większość pytań rozwiązuje się w 20–30 s. Plan 25 + 10 + 5 to propozycja kursu, nie przepis. Każde pytanie jest warte tyle samo, więc po około minucie zaznacz najlepszą opcję, oznacz pytanie i idź dalej – inne pytanie często przypomni odpowiedź.</p><p>Puste pole to pewne zero; strzał daje 25%, a po wyeliminowaniu dwóch opcji 50%. „Wszystkie powyższe” nie jest z góry pułapką: odpada dopiero wtedy, gdy choć jedna opcja jest fałszywa albo z innej szuflady. Przećwicz plan na egzaminie próbnym z zegarem.</p>",
+   "lekcje": [
+    "ex-k16-tempo"
+   ]
+  }
+ ],
+ "k-ex-powtorka": [
+  {
+   "h": "5 · 7 · 4 · 3 · 37 – szkielet zasad i aktywatorów",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Liczba</th><th>Co</th></tr><tr><td>5</td><td>zasady</td></tr><tr><td>7</td><td>aktywatory</td></tr><tr><td>4</td><td>wymiary: interesariusze, cele, cykl życia, dobre praktyki</td></tr><tr><td>3</td><td>kategorie celów: jakość wewnętrzna, jakość kontekstowa, dostęp i bezpieczeństwo</td></tr><tr><td>37</td><td>procesy: EDM 5, APO 13, BAI 10, DSS 6, MEA 3</td></tr></table></div>",
+   "c": "Zakryj tabelę i odtwórz ją z pamięci – te dwa obszary to ponad połowa pytań.",
+   "s": "COBIT 5 Framework (PL), s. 14, 27–29, 33",
+   "ctx": "<p>Zasady (nazwy z egzaminu): Realizacja potrzeb interesariusza; Pokrycie całej organizacji; Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej; Aktywacja holistycznego podejścia; Oddzielenie Ładu od Zarządzania. Aktywatory: Zasady, Polityki i Struktury ramowe; Procesy; Struktury organizacyjne; Kultura, Etyka i Zachowanie; Informacja; Usługi, Infrastruktura i Aplikacje; Ludzie, Umiejętności i Kompetencje.</p><p>Pułapki: kategorie celów leżą wewnątrz wymiaru Cele; „jakość rzeczywista” to forma podręcznikowa <w k=\"jakosc-wewnetrzna\">jakości wewnętrznej</w>. Osiągnięcie celów mierzą wskaźniki opóźnione, a cykl życia i dobre praktyki – wiodące (s. 28–29). „Oszacuj” jest w dwóch domenach: <w k=\"edm\">Oszacuj, Kieruj i Monitoruj</w> (<span class=\"en\">Evaluate, Direct and Monitor</span>, Ład) – na początku; <w k=\"mea\">Monitoruj, Oszacuj i Oceń</w> (Zarządzanie) – w środku. 37 = 5 procesów Ładu + 32 Zarządzania.</p>",
+   "lekcje": [
+    "ex-k17-powtorka-zasady-aktywatory",
+    "ex-k18-powtorka-wymiary-procesy"
+   ]
+  },
+  {
+   "h": "Wdrożenie: pierścienie działają naraz, fazy idą po kolei",
+   "b": "<ul><li><b>Zewnętrzny</b>: zarządzanie programem.</li><li><b>Środkowy</b>: Aktywowanie zmiany – ludzie i kultura.</li><li><b>Wewnętrzny</b>: ciągłe doskonalenie – nie projekt jednorazowy.</li></ul><p>Warunek → czynnik środowiskowy; ból → punkt zapalny; zmiana → zdarzenie wyzwalające.</p>",
+   "c": "Fazy mówią, co robisz po kolei, pierścienie – czego pilnujesz cały czas.",
+   "s": "COBIT 5 Framework (PL), s. 37–39",
+   "ctx": "<p>Siedem faz: 1 Jakie są wyznaczniki? 2 Gdzie jesteśmy teraz? 3 Dokąd chcemy dojść? 4 Co trzeba zrobić? 5 Jak się tam dostaniemy? 6 Czy dotarliśmy do celu? 7 Jak utrzymać motywację do działania? Najczęstsze fakty: ocena stanu obecnego – faza 2, stan docelowy – 3, projekty wspierane <w k=\"uzasadnienie-biznesowe\">uzasadnieniami biznesowymi</w> – 4, wdrażanie usprawnień – 5. Inicjatywa dłuższa niż 6 miesięcy grozi utratą dynamiki (reguła dotyczy całej inicjatywy, nie fazy).</p><p>Pytanie o aspekty behawioralne i kulturowe to pierścień środkowy. Uzasadnienie biznesowe jest dokumentem dynamicznym, aktualizowanym przez cały cykl. Przykład czynników: obowiązujące przepisy – warunek; powtarzające się złe wyniki audytu – ból; fuzja albo nowy dyrektor IT – zmiana. Wdrożenie i zdolność to razem ok. 14 z 50 pytań – schematycznych, więc łatwych do zdobycia.</p>",
+   "lekcje": [
+    "ex-k19-powtorka-wdrozenie"
+   ]
+  },
+  {
+   "h": "Poziom: jego atrybuty W lub P, wszystkie niższe P",
+   "b": "<p>Poziomy: 0 niekompletny, 1 wykonywany, 2 zarządzany, 3 ustanowiony, 4 przewidywalny, 5 zoptymalizowany.</p><p>Skala: N 0–15%, C &gt;15–50%, W &gt;50–85%, P &gt;85–100%.</p><p>Bez średniej – każdy atrybut osobno.</p>",
+   "c": "Jedna ocena W na niższym poziomie blokuje wszystkie wyższe.",
+   "s": "COBIT 5 Framework (PL), s. 42, 45",
+   "ctx": "<p>Poziom 1 ma jeden atrybut (sprawność procesu, PA 1.1), poziomy 2–5 po dwa – razem 9 <w k=\"atrybuty-procesu\">atrybutów</w>. Podręcznik pisze „potencjał” zamiast egzaminacyjnej „zdolności” i „optymalizujący” zamiast „zoptymalizowany”:</p><blockquote>„Każdy z poziomów potencjału może zostać osiągnięty tylko wtedy, gdy w pełni uzyskano niższy poziom”</blockquote><p>Przykład z helpdesku: PA 1.1 = P, 2.1 = P, 2.2 = W, 3.1 = P, 3.2 = P. Poziom 2 jest osiągnięty (jego atrybuty co najmniej W, PA 1.1 = P), poziom 3 nie, bo PA 2.2 ma tylko W. Wynik: 2.</p>",
+   "lekcje": [
+    "ex-k20-powtorka-zdolnosc"
+   ]
+  },
+  {
+   "h": "Ostatnie zamiany nazw i spokojny poranek",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Podręcznik PL</th><th>Egzamin PL</th></tr><tr><td>ilustracja</td><td>Rysunek</td></tr><tr><td>wskaźnik wyprzedzający / następujący</td><td>wiodący / opóźniony</td></tr><tr><td>jakość rzeczywista</td><td>jakość wewnętrzna</td></tr><tr><td>zdarzenia inicjujące</td><td>zdarzenia wyzwalające</td></tr><tr><td>plan działań</td><td>mapa drogowa</td></tr></table></div><p>Rano: dokument tożsamości i 15 minut zapasu.</p>",
+   "c": "Gdy obok siebie stoją nazwa z podręcznika i z egzaminu, wybierasz egzaminacyjną.",
+   "s": "Zestawienie nazw ALTKOM; sylabus egzaminu",
+   "ctx": "<p>Numer rysunku na egzaminie jest taki sam jak numer ilustracji w podręczniku. Do listy dochodzi „ocena, kierowanie i monitorowanie” → Oszacuj, Kieruj i Monitoruj. Pary podstawowe (Ład, Aktywator, Struktura ramowa, Organizacja, P = Pełny) zebrano na początku tego rozdziału.</p><p>Egzamin przeprowadza organizacja egzaminacyjna PeopleCert – online z nadzorem przez kamerę albo w centrum egzaminacyjnym; ISACA jest autorem COBIT 5, nie organizatorem egzaminu (wiedza ogólna). Dzień przed: lekka powtórka bez nowego materiału, test komputera, kamery i internetu albo dojazdu, wcześnie spać. Przed startem powtórz w myślach: słowo-klucz, temat, eliminacja.</p>",
+   "lekcje": [
+    "ex-k21-nazwy-egzaminacyjne",
+    "ex-k22-dzien-egzaminu"
+   ]
+  }
+ ],
+ "k-mt-lad-kaskada": [
+  {
+   "h": "Ład i Zarządzanie różnią się rodzajem pracy, nie piętrem",
+   "b": "<p>Trzy testy dobrej analogii:</p><ol><li>inne czynności, a nie wyższy szczebel;</li><li>kierunek w dół, informacja w górę;</li><li>obie strony monitorują, ale co innego.</li></ol><p>Pytaj kursanta: co ta osoba <b>teraz</b> robi?</p>",
+   "c": "Mentor sprawdza analogię – swoją i kursanta – zanim jej użyje.",
+   "s": "COBIT 5 Framework (PL), s. 14, 31",
+   "ctx": "<p>Mentor (pojęcie kursu, nie COBIT 5 – egzamin go nie sprawdza) doprowadza do odpowiedzi inną osobę: przewiduje jej pomyłkę i wie, gdzie pęka jej analogia. Dobra analogia: rodzice ustalają cel wakacji i budżet, syn rezerwuje nocleg i co tydzień raportuje.</p><p>„Ład to dyrektor IT” myli stanowisko z czynnością: CIO w komitecie ustalającym apetyt na ryzyko uczestniczy w <w k=\"lad\">Ładzie</w>, a układając harmonogram wdrożeń – w <w k=\"zarzadzanie\">Zarządzaniu</w>; struktury należą do jednej lub drugiej przestrzeni zależnie od składu i zakresu decyzji (s. 31). „Wyższe piętro” gubi inne czasowniki: Ład ocenia, kieruje i monitoruje (czy robimy właściwe rzeczy?), Zarządzanie planuje, buduje, realizuje i monitoruje (czy robimy je dobrze?).</p><p>Pułapka analogii przełożony–podwładny: dyrektor generalny (CEO) stoi na czele Zarządzania, a za Ład odpowiada zarząd pod przywództwem prezesa (s. 14). Mów o czynnościach, nie nazwach – „zarząd wspólnoty mieszkaniowej” jest stroną Ładu.</p>",
+   "lekcje": [
+    "mt-k10-dobra-analogia-ladu",
+    "mt-k11-bledne-analogie-ladu"
+   ]
+  },
+  {
+   "h": "Ład też monitoruje – kierunek, a nie bieżące wykonanie",
+   "b": "<ul><li><b>Ład</b> sprawdza, czy jego kierunek wcielono w życie.</li><li><b>Rysunek 9</b>: relację „Monitorowanie” wykonania ma kierownictwo.</li></ul><p>Rozstrzyga kategoria pytania: czynności Ładu czy role z rysunku?</p>",
+   "c": "Najpierw uznaj trafną część („rysunek się zgadza”), potem dołóż definicję Ładu.",
+   "s": "COBIT 5 Framework (PL), s. 14, 24 (Ilustracja 9), 32",
+   "ctx": "<p>Przypis na s. 32 doprecyzowuje monitorowanie w domenie Ładu:</p><blockquote>„monitorowanie oznacza te działania, w ramach których organ nadzorujący sprawdza, w jakim stopniu określony kierunek”</blockquote><p>Przykład z banku: zarząd co kwartał sprawdza, czy ryzyko IT mieści się w przyjętym apetycie – to monitorowanie Ładu; kierownik utrzymania co tydzień mierzy dostępność bankowości internetowej – to monitorowanie kierownictwa. Mentor nie przytakuje („monitoruje tylko kierownictwo”), nie odwraca („na rysunku monitoruje Ład”) i nie ucieka („to bez znaczenia”). Mówi: „Masz rację co do rysunku. A teraz zobacz definicję Ładu”.</p>",
+   "lekcje": [
+    "mt-k12-lad-tez-monitoruje"
+   ]
+  },
+  {
+   "h": "Kaskadę tłumaczysz od końca pytaniem „po co?” – i pamiętasz, że to sieć",
+   "b": "<p>Cel aktywatora → cel związany z IT → cel organizacji → potrzeba interesariusza → wyznacznik.</p><ul><li>Powiązania wiele do wielu (P – podstawowe, S – wspierające).</li><li>Brak ścieżki w górę to sygnał do przeglądu, nie wyrok.</li></ul>",
+   "c": "Kto zna tylko swój proces, najszybciej zrozumie kaskadę, idąc w górę.",
+   "s": "COBIT 5 Framework (PL), s. 17–20, Ilustracje 5 i 6",
+   "ctx": "<p>Przykład z banku: administrator testuje centrum zapasowe (DSS04) → usługa działa po awarii → cel IT 07 „Dostarczanie usług IT zgodnie z wymogami biznesowymi” → cel organizacji 7 „Ciągłość i dostępność usług biznesowych” → klienci mają stały dostęp do konta → nowe wymogi regulatora. Nazwy celów pochodzą z s. 19, ale sam łańcuch jest dydaktyczny, a nie odczytem z tabel. Nazwę szczebla podajesz dopiero po odpowiedzi kursanta.</p><p>Ten sam test wspiera też bezpieczeństwo i ryzyko – mentor idzie najważniejszą ścieżką, ale mówi, że jest ich więcej. Litery P/S w mapowaniu to nie ocena P ze skali. Raport, „którego nikt nie czyta”, może czytać audytor – priorytety ustala Ład, nie wykonawca. Tabel nie przepisuje się jeden do jednego: najpierw dostosowanie (s. 20).</p><p>Na szczycie: <w k=\"wyznacznik\">wyznacznik</w> (zmienia potrzeby, np. przepisy) ≠ <w k=\"potrzeba\">potrzeba</w> (stan, którego chcą interesariusze) ≠ gotowe rozwiązanie („kupmy drugie centrum danych”). Zapowiedź audytu to wyznacznik w pytaniu o kaskadę, ale zdarzenie wyzwalające w pytaniu o wdrożenie.</p>",
+   "lekcje": [
+    "mt-k13-kaskada-od-konca",
+    "mt-k14-kaskada-siec"
+   ]
+  }
+ ],
+ "k-mt-aktywatory": [
+  {
+   "h": "Incydent ma przyczyny w kilku aktywatorach – pytaj, co dokładnie zawiodło",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Co zawiodło</th><th>Aktywator</th></tr><tr><td>dokument</td><td>Zasady, Polityki i Struktury ramowe</td></tr><tr><td>praca</td><td>Procesy</td></tr><tr><td>decyzja</td><td>Struktury organizacyjne</td></tr><tr><td>zachowanie</td><td>Kultura, Etyka i Zachowanie</td></tr><tr><td>dane</td><td>Informacja</td></tr><tr><td>technika</td><td>Usługi, Infrastruktura i Aplikacje</td></tr><tr><td>umiejętności</td><td>Ludzie, Umiejętności i Kompetencje</td></tr></table></div>",
+   "c": "Nowy serwer naprawia jeden aktywator; trwała naprawa obejmuje kilka.",
+   "s": "COBIT 5 Framework (PL), s. 27–28",
+   "ctx": "<p><w k=\"zasada-4\">Zasada 4</w>: aktywatory (<span class=\"en\">Enablers</span>) są powiązane – każdy jest w pełni efektywny tylko z wejściami od pozostałych (s. 28). Przykład: sklep internetowy przez trzy godziny wyprzedaży nie przyjmuje zamówień. Brak reguły testów (polityka), nikt nie zaplanował pojemności (procesy), zakup bez decyzji komitetu (struktury), przemilczane spowolnienia (kultura), prognoza ruchu sprzed roku (informacja), za mała pojemność serwerów (usługi), konfigurację zna jedna osoba (ludzie).</p><p>Przypadki graniczne rozstrzyga pytanie o to, co dokładnie zawiodło (skrót dydaktyczny kursu). Regulamin z karą za błędy to dokument → polityka, a strach przed zgłaszaniem to zachowanie → kultura; podręcznik mówi, że bez odpowiedniej kultury procedury bezpieczeństwa nie będą skuteczne (s. 28). Nieaktualny adres klienta: treść danych → Informacja, brak aktualizacji → Procesy. CIO to rola osoby, komitet sterujący IT – Struktury organizacyjne. Jedna sytuacja może mieć poprawnie dwie przyczyny.</p>",
+   "lekcje": [
+    "mt-k15-incydent-siedem-aktywatorow",
+    "mt-k16-granica-aktywatorow"
+   ]
+  },
+  {
+   "h": "37 procesów: zapamiętaj układ i pytania, które rozplątują pary",
+   "b": "<p>EDM 5, APO 13, BAI 10, DSS 6, MEA 3.</p><div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Para</th><th>Pytanie</th></tr><tr><td>EDM03 / APO12</td><td>ile ryzyka akceptujemy czy jakie ryzyka mamy?</td></tr><tr><td>DSS02 / DSS03</td><td>przywrócić usługę czy usunąć przyczynę?</td></tr><tr><td>BAI09 / APO07 / EDM04</td><td>zasoby: rzeczy, ludzie czy kierunek?</td></tr></table></div>",
+   "c": "Słowo w nazwie wskazuje temat, a pytanie o rodzaj pracy – konkretny proces.",
+   "s": "COBIT 5 Framework (PL), s. 17, 33, Ilustracja 16",
+   "ctx": "<p><w k=\"prm\">Model referencyjny procesu</w> łatwiej zapamiętać przez jedno słowo na domenę (skrót kursu): EDM – kierunek, APO (Dostosuj, Planuj i Organizuj) – przygotowanie, BAI (Twórz, Nabywaj i Wdrażaj) – zmiana, DSS (Dostarczaj, Obsługuj i Wspieraj) – codzienność, MEA – kontrola. EDM odbija <w k=\"tworzenie-wartosci\">tworzenie wartości</w>: EDM02 korzyści, EDM03 ryzyko, EDM04 zasoby, do tego EDM01 ramy Ładu i EDM05 przejrzystość.</p><p>Kolejne pary: BAI05 – ludzie przyjmują zmianę, BAI06 – zmiana IT zatwierdzona, BAI07 – rozwiązanie odebrane; BAI04 – zwykły wzrost obciążenia, DSS04 – poważna awaria (ciągłość); APO13 – system zarządzania bezpieczeństwem, DSS05 – codzienne zabezpieczenia; APO09 – obietnica dla odbiorcy usług, APO10 – umowa z dostawcą; APO05 – w co inwestujemy, BAI01 – jak prowadzimy projekt.</p><p>„Zasoby”: ewidencja serwerów i licencji to <w k=\"proc-bai09\">BAI09</w>, rekrutacja specjalisty w szpitalu – <w k=\"proc-apo07\">APO07</w>, decyzja zarządu, ile ludzi i pieniędzy dać na IT – <w k=\"proc-edm04\">EDM04</w>. Proces trafia do domeny według najwłaściwszego obszaru działania (s. 33).</p>",
+   "lekcje": [
+    "mt-k17-37-procesow-szuflady",
+    "mt-k18-pary-procesow"
+   ]
+  }
+ ],
+ "k-mt-zdolnosc": [
+  {
+   "h": "Granica należy do niższej oceny, a profil czytasz od dołu",
+   "b": "<ul><li>Dokładnie 15% → N, 50% → C, 85% → W.</li><li>Swój poziom: co najmniej W; wszystko niżej: P.</li><li>Raport angielski: F → P, L → W, P → C.</li></ul>",
+   "c": "Pierwszy atrybut bez P od dołu zatrzymuje wynik, niezależnie od ocen wyżej.",
+   "s": "COBIT 5 Framework (PL), s. 42, 45",
+   "ctx": "<p>Podręcznik podaje przedziały 0–15, 15–50, 50–85, 85–100% bez „powyżej”; przypisanie granicy do niższej oceny to interpretacja kursu według ISO/IEC 15504. „85% dowodów dla PA 2.2 – czyli Pełny?” Nie, W. Raport PA 1.1 = F, 2.1 = L, 2.2 = P po zamianie słów daje P, W, C – więc poziom 1, nie 2.</p><p>Profile graniczne (PA 1.1/2.1/2.2/3.1/3.2): W/P/P/P/P → 1; P/P/W/P/P → 2; P/W/W/N/N → 2 (N blokuje tylko poziom 3); P/P/P/W/W → 3; C na PA 1.1 → 0. Profil to nie średnia ani najlepsza ocena; literę dostaje <w k=\"atrybuty-procesu\">atrybut</w>, a poziom 0–5 – proces.</p><p>„Poziom 1 to wstyd”? Nie: proces osiąga swój cel, co podręcznik nazywa ważnym osiągnięciem (s. 42); ambicją wielu przedsiębiorstw jest poziom 1 we wszystkich procesach (s. 45). Dawny „poziom 2 dojrzałości” z COBIT 4.1 może dać w COBIT 5 poziom 1 – zmienił się model, nie praca.</p>",
+   "lekcje": [
+    "mt-k19-skala-i-regula-poziomu",
+    "mt-k20-profile-graniczne"
+   ]
+  },
+  {
+   "h": "Wdrożenie to koło: trzy pierścienie naraz, iteracja do pół roku",
+   "b": "<ul><li>Każda faza: trzy działania równolegle (7 × 3 = 21).</li><li>Po fazie 7 cykl wraca do fazy 1.</li><li>Iteracja dłuższa niż 6 miesięcy grozi utratą dynamiki.</li><li>Audyt zewnętrzny to impuls, nie cel.</li></ul>",
+   "c": "Cel wdrożenia wynika z potrzeb interesariuszy, a nie z terminu audytu.",
+   "s": "COBIT 5 Framework (PL), s. 37–39, Ilustracja 17",
+   "ctx": "<p>Plan „kwiecień – program, czerwiec – ludzie, wrzesień – usprawnienia, październik – koniec” ma dwa błędy: <w k=\"cykl-wdrozenia\">pierścienie</w> idą po kolei, a wdrożenie ma koniec. W fazie 2 w tym samym tygodniu: Definiowanie problemów i okazji (program), Utworzenie zespołu wdrożeniowego (zmiana), Ocena stanu obecnego (doskonalenie). Ocena zdolności wraca w fazie 2 (stan obecny) i 6 (pomiar).</p><p>Pułapki nazw: Aktywowanie zmiany (<span class=\"en\">Change enablement</span>) to pierścień, a nie aktywator; Monitorowanie i szacowanie (faza 7) to działanie cyklu, a nie domena MEA; mapa drogowa powstaje w fazie 3, w fazie 4 jest planowanie programu. Audyt zewnętrzny to <w k=\"zdarzenia-wyzwalajace\">zdarzenie wyzwalające</w> (s. 37), a uzasadnienie biznesowe „nie jest jednorazowym statycznym dokumentem” (s. 39).</p><p>Przykład: bank dzieli plan na 14 miesięcy na dwie iteracje – najpierw bankowość mobilna (kwiecień–wrzesień), potem bezpieczeństwo i kopie zapasowe; każda przechodzi wszystkie fazy.</p>",
+   "lekcje": [
+    "mt-k21-wdrozenie-21-dzialan",
+    "mt-k22-wdrozenie-w-kalendarzu"
+   ]
+  },
+  {
+   "h": "Mini-szkolenie: jeden atom w 15 minut, poprawka w czterech ruchach",
+   "b": "<ul><li>Jeden atom, jeden cel, jedna reguła, pytanie kontrolne na końcu.</li><li>Błędne założenie: uznaj intencję → popraw założenie → daj regułę → sprawdź nowym przypadkiem.</li></ul>",
+   "c": "Zrozumienie widać przy nowym przypadku, a nie przy recytacji definicji.",
+   "s": "COBIT 5 Framework (PL), s. 89",
+   "ctx": "<p>Karta prowadzącego (metodyka kursu, nie COBIT 5): cel, rozgrzewka, po ludzku z przykładem z życia, przykład z organizacji, typowa pomyłka, nazwa EN i PL, pytania kursanta, pytanie kontrolne. Atom <w k=\"raci-a\">A – Odpowiedzialny decyzyjnie</w>: „Kto odpowiada za powodzenie zadania?” (s. 89); w banku kierownik działu – A, analityk aktualizujący dane – <w k=\"raci-r\">R – Odpowiedzialny wykonawczo</w>. Obie nazwy zaczynają się od „odpowiedzialny”, co kusi, by wpisać R zamiast A – różni je drugie słowo (wykonawczo – R, decyzyjnie – A).</p><p>„Dajmy A dwóm osobom, będzie bezpieczniej”. Złe odpowiedzi: żargon, fałszywe uproszczenie („A to szef”), przytaknięcie, odpowiedź nie na temat. Dobra: „Dobrze, że myślisz o bezpieczeństwie. Przy dwóch A każdy liczy na drugiego. Przy zadaniu jest jedno A – drugą osobę oznacz C albo I”. Gdy nie znasz odpowiedzi, sprawdź źródło razem z kursantem.</p><p>Ocena odpowiedzi na „Kierownik sam w nocy aktualizuje dane – czy zmienia się jego litera?”: sama definicja – Nie mam; „nadal A” – Częściowo; „nadal A, bo literę wyznacza rola przy zadaniu” – Mam to.</p>",
+   "lekcje": [
+    "mt-k23-karta-prowadzacego",
+    "mt-k24-bledne-zalozenie"
+   ]
+  }
+ ],
+ "k-fn-final": [
+  {
+   "h": "Zanim odczytasz literę z tabeli, ustal, co to za tabela",
+   "b": "<ol><li>Rodzaj: macierz P/S, skala, role, cykl?</li><li>Kierunek czytania.</li><li>Katalog: cel organizacji 7 ≠ cel IT 07.</li><li>System liter.</li><li>Czy trzeba dostosować?</li></ol><p>Rysunek (egzamin) = Ilustracja (podręcznik).</p>",
+   "c": "Tabele kaskady są wytyczną: litera P podpowiada, a nie nakazuje.",
+   "s": "COBIT 5 Framework (PL), s. 18–21, 45, 50, 52",
+   "ctx": "<p><w k=\"cele-organizacji\">Cele organizacji</w> i <w k=\"cele-zwiazane-z-it\">cele związane z IT</w> mają osobne katalogi po 17 pozycji: 7 to „Ciągłość i dostępność usług biznesowych”, 07 – „Dostarczanie usług IT zgodnie z wymogami biznesowymi” (s. 19). Rysunek 22 (s. 50) prowadzi od celów organizacji do celów IT, Rysunek 23 (s. 52) – od celów IT do procesów.</p><p>Tabela kaskady „nie zawiera uniwersalnej prawdy” (s. 20): priorytety są różne i zmienne, tabele nie znają wielkości ani branży, a podział P/S upraszcza ciągłą skalę. W Przykładzie 1 organizacja z siedmiu celów IT z relacją P wybiera cztery (s. 21) – to wzorcowe użycie. Pytanie o „mechaniczne stosowanie” tabel ma odpowiedź przeczącą.</p><p>Litera P w trzech tabelach: kaskada – relacja podstawowa (<span class=\"en\">Primary</span>); egzamin PL – Pełny; podręcznik PL – częściowo (<span class=\"en\">Partially</span>, egzaminacyjne C). Profil PA 1.1 = W, 2.1 = P, 2.2 = P to poziom 1 – czytasz od dołu.</p>",
+   "lekcje": [
+    "fn-k10-czytanie-tabel",
+    "fn-k11-kaskada-to-wytyczna",
+    "fn-k12-profil-ocen-od-dolu"
+   ]
+  },
+  {
+   "h": "Obce pytanie: przetłumacz, sprawdź model, rozstrzygnij podręcznikiem",
+   "b": "<ol><li>Nazwy na egzaminacyjne (Enabler → Aktywator).</li><li>Słowa z COBIT 2019 odrzucasz.</li><li>Klucz ze strony sprawdzasz w podręczniku.</li><li>Czy to prawda i ta sama szuflada?</li></ol>",
+   "c": "Z internetu bierzesz pomysł na sytuację, nigdy rozstrzygnięcie.",
+   "s": "COBIT 5 Framework (PL), s. 14, 29, 33",
+   "ctx": "<p><w k=\"cobit-2019\">COBIT 2019</w> to inny model (wiedza ogólna): komponenty, 40 celów Ładu i Zarządzania, czynniki projektowe, obszary koncentracji. COBIT 5 ma siedem kategorii aktywatorów i 37 procesów. W pytaniu „która jest kategorią aktywatorów?” trzy fachowo brzmiące opcje z COBIT 2019 to dystraktory – zostają „Procesy”. „Dumpy”, czyli rzekome pytania z egzaminu, mają złe klucze, łamią poufność i uczą liter zamiast uzasadnień.</p><p>Jeden termin <span class=\"en\">Governance</span> to „ład informatyczny” w artykułach, „nadzór” w podręczniku i Ład na egzaminie; „przedsiębiorstwo” to zawsze Organizacja, także urząd czy szpital. Rozstrzyga definicja, nie brzmienie: odsetek pracowników banku przeszkolonych z bezpieczeństwa, liczony raz w roku, mierzy stosowanie praktyki, więc jest <w k=\"wskaznik-wiodacy\">wskaźnikiem wiodącym</w>; liczba udanych ataków phishingowych mierzy osiągnięcie celu – <w k=\"wskaznik-opozniony\">opóźniony</w> (s. 29).</p>",
+   "lekcje": [
+    "fn-k13-pytanie-z-internetu",
+    "fn-k14-cobit-2019-i-dumpy"
+   ]
+  },
+  {
+   "h": "Pytanie przekrojowe: rozłóż scenariusz, znajdź regułę, która decyduje",
+   "b": "<ol><li>Przy każdym zdaniu zapisz obszar: PR, EN, IM, PC.</li><li>Ostatnie zdanie mówi, o co pytają.</li><li>Przy „prawie” wypisz elementy definicji.</li><li>Opcja: prawdziwa i z tej samej kategorii?</li><li>Litery skali: ustal język tabeli.</li></ol>",
+   "c": "Pytanie mistrzowskie nie wymaga nowej wiedzy, tylko porządku w tej, którą masz.",
+   "s": "COBIT 5 Framework (PL), s. 14, 24, 32, 38",
+   "ctx": "<p>Rodzaje pytań mistrzowskich: przekrojowe, przypadek graniczny, trzy nazwy, „prawie spełnia definicję”, wstecz po kaskadzie, reguły oceny. Egzamin mistrzowski kursu (metodyka, nie wymóg egzaminu): 50 pytań w proporcjach PR 15, EN 21, IM 7, PC 7, 40 minut; „Skrajnie biegły” to co najmniej 40/50 dwa razy z rzędu i każdy obszar co najmniej 70%.</p><p>Przykład: sklep internetowy co roku pada w święta (<w k=\"punkty-zapalne\">punkt zapalny</w>), a zapowiedziano audyt (zdarzenie wyzwalające) – oba rozpoznajesz w fazie 1. W fazie 2 zakres wyznacza mapowanie celów organizacji na cele IT (np. ciągłość → DSS04, BAI04), a nie „wszystkie 37 procesów”. Stan PA 1.1 = P, 2.1 = W, 2.2 = C i cel „poziom 2” dają lukę tylko w PA 2.2 (z C do co najmniej W). Luka to nie średnia ani „wszystko do P”.</p><p>Kto monitoruje? Pytanie o czynności Ładu (EDM) – Ład, względem kierunku (s. 14, 32); pytanie o role z Rysunku 9 – kierownictwo i bieżące wykonanie (s. 24). Czasownik jest w obu, więc szukaj słów „Rysunek 9” albo „role”. <span class=\"en\">Governing body</span> to na egzaminie <w k=\"organ-ladu\">Organ Ładu i nadzoru</w>.</p>",
+   "lekcje": [
+    "fn-k15-pytanie-przekrojowe",
+    "fn-k16-wdrozenie-kaskada-luka",
+    "fn-k17-kto-monitoruje"
+   ]
+  }
+ ]
+}

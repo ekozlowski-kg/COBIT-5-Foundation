@@ -1,0 +1,45 @@
+[
+  {
+    "id": "q-enk-30-3",
+    "typ": "egzamin",
+    "sylabus": [
+      "EN-02-13"
+    ],
+    "lekcja": "en-k30-role-c-level",
+    "bloom": "wiedza",
+    "trudnosc": 3,
+    "tresc": "Która rola z Rysunku 33 odpowiada za **dopasowanie strategii IT i strategii biznesowej**?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 76
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "COO – dyrektor ds. operacyjnych",
+        "poprawna": false,
+        "wyjasnienie": "COO odpowiada za funkcjonowanie organizacji.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "CIO – dyrektor ds. informatyki",
+        "poprawna": true,
+        "wyjasnienie": "Dobrze. Tak opisuje rolę CIO podręcznik na s. 76."
+      },
+      {
+        "tekst": "Dyrektor ds. architektury",
+        "poprawna": false,
+        "wyjasnienie": "Odpowiada za proces architektury korporacyjnej.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Członek naczelnego kierownictwa",
+        "poprawna": false,
+        "wyjasnienie": "Odpowiada za jednostkę biznesową albo spółkę zależną.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  }
+]

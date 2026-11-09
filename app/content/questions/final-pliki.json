@@ -9,7 +9,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Rysunek 5 (w podręczniku PL: Rysunek 5) pokazuje 17 celów organizacji i ich związek z trzema składnikami Celu Ładu: P to relacja podstawowa, S – wspierająca. Tylko jeden cel ma **P przy wszystkich trzech** składnikach: realizacji korzyści, optymalizacji ryzyka i optymalizacji zasobów. Który?",
+      "tresc": "Rysunek 5 (w podręczniku PL: Ilustracja 5, s. 19) pokazuje 17 celów organizacji i ich związek z trzema składnikami Celu Ładu: P to relacja podstawowa, S – wspierająca. Tylko jeden cel ma **P przy wszystkich trzech** składnikach: realizacji korzyści, optymalizacji ryzyka i optymalizacji zasobów. Który?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -55,7 +55,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Kto ma rację i dlaczego?",
-      "scenariusz": "Komendantka Anna Wrzos ogłasza, że najważniejsze jest zadowolenie mieszkańców. Zespół robi to samo co organizacja z przykładu 1 podręcznika (s. 21). Podnosi priorytet celów organizacji: **6** (kultura usług zorientowanych na klienta), **7** (ciągłość i dostępność usług biznesowych) i **8** (zwinność w reagowaniu na zmiany otoczenia).\n\nZ Rysunku 22 wychodzi lista celów związanych z Informatyką o relacji P: **01, 04, 07, 09, 10, 14, 17**.\n\nKpt. Marek Sikora, naczelnik Wydziału Łączności i Informatyki, protestuje: „Przykład 7 (s. 49) mówi, że dla celu 7 cele 01 i 07 mają tylko relację S. Lista jest błędna!”",
+      "scenariusz": "Prezes banku ogłasza, że najważniejsze jest zadowolenie klientów. Zespół robi to samo co organizacja z przykładu 1 podręcznika (s. 21). Podnosi priorytet celów organizacji: **6** (kultura usług zorientowanych na klienta), **7** (ciągłość i dostępność usług biznesowych) i **8** (zwinność w reagowaniu na zmiany otoczenia).\n\nZ Rysunku 22 wychodzi lista celów związanych z Informatyką o relacji P: **01, 04, 07, 09, 10, 14, 17**.\n\nDyrektor IT (CIO) protestuje: „Przykład 7 (s. 49) mówi, że dla celu 7 cele 01 i 07 mają tylko relację S. Lista jest błędna!”",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -74,7 +74,7 @@
       "status": "oficjalne",
       "opcje": [
         {
-          "tekst": "Sikora: cel związany z Informatyką trafia na listę tylko wtedy, gdy ma P z każdym z trzech wybranych celów organizacji.",
+          "tekst": "CIO: cel związany z Informatyką trafia na listę tylko wtedy, gdy ma P z każdym z trzech wybranych celów organizacji.",
           "poprawna": false,
           "wyjasnienie": "Takiej reguły w podręczniku nie ma. Gdyby obowiązywała, z celem 7 odpadłyby 01 i 07, a przykład 1 wprost je wymienia.",
           "pulapka": "falsz"
@@ -91,9 +91,9 @@
           "wyjasnienie": "Przykład 1 (s. 21) łączy trzy cele organizacji i bierze relacje P z dowolnego z nich. Przykład 7 (s. 49) opisuje tylko cel 7. Oba przykłady się nie wykluczają. Podręcznik dodaje, że organizacja i tak weryfikuje listę i wybiera z niej priorytety (tu pierwsze cztery cele)."
         },
         {
-          "tekst": "Sikora ma rację co do celu 7, więc trzeba usunąć 01 i 07 i zostawić tylko 04, 10 i 14.",
+          "tekst": "CIO ma rację co do celu 7, więc trzeba usunąć 01 i 07 i zostawić tylko 04, 10 i 14.",
           "poprawna": false,
-          "wyjasnienie": "04, 10 i 14 to relacje P tylko dla celu 7 (przykład 7). Komenda podniosła priorytet trzech celów organizacji, a nie jednego.",
+          "wyjasnienie": "04, 10 i 14 to relacje P tylko dla celu 7 (przykład 7). Bank podniósł priorytet trzech celów organizacji, a nie jednego.",
           "pulapka": "zbyt-waskie"
         }
       ]
@@ -205,7 +205,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Który wniosek o procesie APO13 Zarządzanie bezpieczeństwem jest uprawniony?",
-      "scenariusz": "Po nocy na Lipowej komenda uznaje za najważniejszy cel organizacji **7 Ciągłość i dostępność usług biznesowych**. Ewa Lis, audytorka wewnętrzna komendy, przechodzi kaskadę dwiema tabelami:\n\n- Rysunek 22: cele organizacji → cele związane z Informatyką (przykład 7, s. 49);\n- Rysunek 23: cele związane z Informatyką → procesy (przykład 8, s. 51).",
+      "scenariusz": "Po całodniowej awarii bankowości internetowej bank uznaje za najważniejszy cel organizacji **7 Ciągłość i dostępność usług biznesowych**. Audytorka wewnętrzna banku przechodzi kaskadę dwiema tabelami:\n\n- Rysunek 22: cele organizacji → cele związane z Informatyką (przykład 7, s. 49);\n- Rysunek 23: cele związane z Informatyką → procesy (przykład 8, s. 51).",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -225,7 +225,7 @@
         {
           "tekst": "APO13 ma P ze wszystkimi trzema celami IT podstawowymi dla celu 7 (04, 10, 14), więc to mocny kandydat do zakresu.",
           "poprawna": true,
-          "wyjasnienie": "Łańcuch: cel 7 → P: 04, 10, 14 (przykład 7) → APO13 ma P z 04, 10 i 14 (przykład 8). „Kandydat”, bo tabele są wytyczną, a nie gotowym planem: listę trzeba dostosować do komendy (s. 20)."
+          "wyjasnienie": "Łańcuch: cel 7 → P: 04, 10, 14 (przykład 7) → APO13 ma P z 04, 10 i 14 (przykład 8). „Kandydat”, bo tabele są wytyczną, a nie gotowym planem: listę trzeba dostosować do banku (s. 20)."
         },
         {
           "tekst": "Rysunek 22 wiąże APO13 bezpośrednio z celem organizacji 7, więc Rysunek 23 nie jest tu potrzebny.",
@@ -256,7 +256,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Kpt. Sikora proponuje: „Bierzemy tabele z Rysunków 22 i 23 i wdrażamy każdy proces, który ma P”. Co według podręcznika (s. 20) organizacja powinna zrobić **najpierw**, gdy korzysta z kaskady celów?",
+      "tresc": "Dyrektor IT proponuje: „Bierzemy tabele z Rysunków 22 i 23 i wdrażamy każdy proces, który ma P”. Co według podręcznika (s. 20) organizacja powinna zrobić **najpierw**, gdy korzysta z kaskady celów?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -266,7 +266,7 @@
       "status": "oficjalne",
       "opcje": [
         {
-          "tekst": "Zastosować tabele wprost, bo uwzględniają wielkość organizacji i branżę, w której ona działa, więc pasują do każdej komendy.",
+          "tekst": "Zastosować tabele wprost, bo uwzględniają wielkość organizacji i branżę, w której ona działa, więc pasują do każdej firmy.",
           "poprawna": false,
           "wyjasnienie": "Jest odwrotnie: tabele nie uwzględniają wielkości ani branży. To „wspólny mianownik” wielu organizacji.",
           "pulapka": "falsz"
@@ -286,7 +286,7 @@
         {
           "tekst": "Dostosować mapowanie do własnej sytuacji: opracować własną kaskadę i porównać ją z COBIT.",
           "poprawna": true,
-          "wyjasnienie": "Podręcznik nazywa to pierwszą czynnością przy kaskadzie. Tabele „nie zawierają uniwersalnej prawdy” i są wytyczną, a nie przepisem."
+          "wyjasnienie": "Podręcznik nazywa to pierwszą czynnością przy kaskadzie. Kaskada celów „nie zawiera uniwersalnej prawdy” (s. 20) i jest wytyczną, a nie przepisem."
         }
       ]
     },
@@ -299,7 +299,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Rysunek 9 (w podręczniku PL: Rysunek 9, s. 24) pokazuje role, działania i relacje. Która **para** działań łączy organ Ładu z Zarządzaniem – jedno w dół, drugie z powrotem w górę?",
+      "tresc": "Rysunek 9 (w podręczniku PL: Ilustracja 9, s. 24) pokazuje role, działania i relacje. Która **para** działań łączy organ Ładu z Zarządzaniem – jedno w dół, drugie z powrotem w górę?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -393,7 +393,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Rada ma odpowiadać opisowi **Komitetu ds. strategii (wykonawczego IT)** z Rysunku 33. Który element odbiega od tego opisu?",
-      "scenariusz": "Komendantka Anna Wrzos powołuje Radę ds. Informatyki. Skład: zastępca komendanta, główna księgowa Halina Mak oraz kpt. Marek Sikora, naczelnik Wydziału Łączności i Informatyki (w roli CIO). Rada ma być rozliczana za portfel inwestycji wspieranych przez IT, usług IT i zasobów IT, z dbałością o wartość i ryzyko. **Przewodniczy jej kpt. Sikora.**\n\nPodręcznik zastrzega, że role z Rysunku 33 nie muszą odpowiadać rzeczywistym funkcjom w organizacji (s. 76).",
+      "scenariusz": "Prezes ubezpieczyciela powołuje Radę ds. Informatyki. Skład: wiceprezes ds. operacyjnych, dyrektorka finansowa (CFO) oraz dyrektor IT (CIO). Rada ma być rozliczana za portfel inwestycji wspieranych przez IT, usług IT i zasobów IT, z dbałością o wartość i ryzyko. **Przewodniczy jej dyrektor IT (CIO).**\n\nPodręcznik zastrzega, że role z Rysunku 33 nie muszą odpowiadać rzeczywistym funkcjom w organizacji (s. 76).",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -444,7 +444,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Które przyporządkowanie do Referencyjnego Modelu Procesu (Rysunek 16) jest poprawne?",
-      "scenariusz": "Trzy osoby w komendzie „monitorują”:\n\n1. Komendantka Anna Wrzos co kwartał sprawdza, w jakim stopniu wyznaczony przez nią kierunek wcielono w życie.\n2. Audytorka wewnętrzna Ewa Lis ocenia system kontroli wewnętrznej komendy.\n3. Kpt. Marek Sikora sprawdza, czy komenda spełnia wymogi zewnętrzne, które sprawdzi inspektorka z komendy wojewódzkiej.",
+      "scenariusz": "Trzy role w banku „monitorują”:\n\n1. Zarząd banku co kwartał sprawdza, w jakim stopniu wyznaczony przez siebie kierunek wcielono w życie.\n2. Audytorka wewnętrzna ocenia system kontroli wewnętrznej banku.\n3. Dyrektor ds. zgodności sprawdza, czy bank spełnia wymogi zewnętrzne, które sprawdzi inspektor nadzoru finansowego.",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -493,7 +493,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Która ocena jest zgodna z opisem cyklu życia wdrożenia (Rysunek 17, s. 38)?",
-      "scenariusz": "Komenda zaczyna wdrożenie. Zespół:\n\n- (a) ustala zakres na podstawie mapowania celów organizacji na cele związane z Informatyką i procesy;\n- (b) rozważa scenariusze ryzyka, żeby wskazać kluczowe procesy;\n- (c) ocenia obecny stan i zdolność procesu powiadamiania.\n\nKpt. Sikora planuje, że cała inicjatywa przejdzie przez cykl **jeden raz i potrwa półtora roku**.",
+      "scenariusz": "Szpital zaczyna wdrożenie. Zespół:\n\n- (a) ustala zakres na podstawie mapowania celów organizacji na cele związane z Informatyką i procesy;\n- (b) rozważa scenariusze ryzyka, żeby wskazać kluczowe procesy;\n- (c) ocenia obecny stan i zdolność procesu rejestracji pacjentów.\n\nDyrektor IT planuje, że cała inicjatywa przejdzie przez cykl **jeden raz i potrwa półtora roku**.",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -541,7 +541,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Komenda zamienia zaplanowane rozwiązania w praktyczne działania. Definiuje miary i uruchamia monitorowanie na podstawie celów i mierników COBIT. Podręcznik zaznacza, że wymaga to wyraźnego zaangażowania kierownictwa najwyższego szczebla i przejęcia własności przez interesariuszy z biznesu i IT. Która to faza cyklu życia wdrożenia (Rysunek 17)?",
+      "tresc": "Ubezpieczyciel zamienia zaplanowane rozwiązania w praktyczne działania. Definiuje miary i uruchamia monitorowanie na podstawie celów i mierników COBIT. Podręcznik zaznacza, że wymaga to wyraźnego zaangażowania kierownictwa najwyższego szczebla i przejęcia własności przez interesariuszy z biznesu i IT. Która to faza cyklu życia wdrożenia (Rysunek 17)?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -587,7 +587,7 @@
       ],
       "bloom": "zastosowanie",
       "trudnosc": 3,
-      "tresc": "Ewa Lis ocenia proces powiadamiania w skali egzaminu PL (N/C/W/P). Wyniki: PA 1.1 = P, PA 2.1 = P, PA 2.2 = W, PA 3.1 = P, PA 3.2 = W. Jaki poziom zdolności osiągnął proces?",
+      "tresc": "Audytorka wewnętrzna ocenia proces zarządzania incydentami w skali egzaminu PL (N/C/W/P). Wyniki: PA 1.1 = P, PA 2.1 = P, PA 2.2 = W, PA 3.1 = P, PA 3.2 = W. Jaki poziom zdolności osiągnął proces?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -632,7 +632,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Kpt. Sikora dopisuje do opisu procesu „Obsługa alarmu” w modelu referencyjnym zdanie: „Proces jest co miesiąc mierzony wskaźnikami i formalnie udokumentowany”. Co mówi o takim zapisie podręcznik (s. 43)?",
+      "tresc": "Dyrektor IT dopisuje do opisu procesu „Obsługa zgłoszeń” w modelu referencyjnym zdanie: „Proces jest co miesiąc mierzony wskaźnikami i formalnie udokumentowany”. Co mówi o takim zapisie podręcznik (s. 43)?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -682,7 +682,7 @@
       "bloom": "rozumienie",
       "trudnosc": 3,
       "tresc": "Który wniosek jest zgodny z podręcznikiem (Rysunek 20, s. 43–44)?",
-      "scenariusz": "Trzy lata temu audyt według modelu dojrzałości COBIT 4.1 dał procesowi powiadamiania poziom 2 („powtarzalny, lecz intuicyjny”). Teraz audytorka Ewa Lis ocenia ten sam proces modelem zdolności COBIT 5 i wychodzi poziom 1. Kpt. Sikora mówi: „Proces się pogorszył”.",
+      "scenariusz": "Trzy lata temu audyt według modelu dojrzałości COBIT 4.1 dał procesowi obsługi zgłoszeń poziom 2 („powtarzalny, lecz intuicyjny”). Teraz audytorka wewnętrzna ocenia ten sam proces modelem zdolności COBIT 5 i wychodzi poziom 1. Dyrektor IT mówi: „Proces się pogorszył”.",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -697,7 +697,7 @@
       "status": "oficjalne",
       "opcje": [
         {
-          "tekst": "Sikora ma rację: oba modele mają skalę 0–5, więc spadek o jeden poziom oznacza pogorszenie.",
+          "tekst": "Dyrektor IT ma rację: oba modele mają skalę 0–5, więc spadek o jeden poziom oznacza pogorszenie.",
           "poprawna": false,
           "wyjasnienie": "Liczby 0–5 są w obu modelach, ale to „pozorne podobieństwo”. Z liczby nie wynika, że proces się zmienił.",
           "pulapka": "prawda-nie-na-temat"
@@ -730,7 +730,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Komenda ma szczegółową ocenę sprzed lat według sześciu atrybutów typowego modelu dojrzałości COBIT 4.1 (np. świadomość i komunikowanie, narzędzia i automatyzacja). Co z nią zrobić przy przejściu na model zdolności COBIT 5 (Rysunek 21, s. 43–44)?",
+      "tresc": "Bank ma szczegółową ocenę sprzed lat według sześciu atrybutów typowego modelu dojrzałości COBIT 4.1 (np. świadomość i komunikowanie, narzędzia i automatyzacja). Co z nią zrobić przy przejściu na model zdolności COBIT 5 (Rysunek 21, s. 43–44)?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -784,7 +784,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "W Syrenie leży kompletna i aktualna lista numerów ochotników OSP Zawilce. Przez pół roku nikt jej nie użył, bo dyżurni dzwonią „z pamięci”. Jaką wartość ma ta lista według COBIT 5 (cykl informacji, Rysunek 35)?",
+      "tresc": "W systemie CRM leży kompletna i aktualna lista kontaktów do kluczowych klientów. Przez pół roku nikt jej nie użył, bo handlowcy dzwonią „z pamięci”. Jaką wartość ma ta lista według COBIT 5 (cykl informacji, Rysunek 35)?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -877,7 +877,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "St. ogn. Kasia Nowik widzi literę **P** w trzech miejscach: (1) w macierzy Rysunku 23 przy APO13 i celu związanym z Informatyką 10; (2) w polskim arkuszu egzaminu przy ocenie atrybutu PA 2.1; (3) w polskim podręczniku (s. 45) w skali ocen atrybutu. Co oznacza P w każdym z tych miejsc?",
+      "tresc": "Kandydatka do egzaminu widzi literę **P** w trzech miejscach: (1) w macierzy Rysunku 23 przy APO13 i celu związanym z Informatyką 10; (2) w polskim arkuszu egzaminu przy ocenie atrybutu PA 2.1; (3) w polskim podręczniku (s. 45) w skali ocen atrybutu. Co oznacza P w każdym z tych miejsc?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -927,7 +927,7 @@
       ],
       "bloom": "zastosowanie",
       "trudnosc": 3,
-      "tresc": "W polskim podręczniku na rysunku aktywatora Informacja (Rysunek 36, s. 81) pod pytaniem „Czy stosowane są dobre praktyki?” stoi: „Mierniki stosowania praktyk (wskaźniki wyprzedzające)”. Jak nazwie je egzamin PL i który miernik z komendy do nich pasuje?",
+      "tresc": "W polskim podręczniku na rysunku aktywatora Informacja (Ilustracja 36, s. 81) pod pytaniem „Czy stosowane są dobre praktyki?” stoi: „Mierniki stosowania praktyk (wskaźniki wyprzedzające)”. Jak nazwie je egzamin PL i który miernik z działu IT do nich pasuje?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -941,24 +941,24 @@
       "status": "oficjalne",
       "opcje": [
         {
-          "tekst": "Wskaźniki opóźnione; np. odsetek numerów OSP sprawdzonych w tym miesiącu",
+          "tekst": "Wskaźniki opóźnione; np. odsetek kopii zapasowych przetestowanych w tym miesiącu",
           "poprawna": false,
           "wyjasnienie": "Opóźnione (podręcznik: następujące, EN: lag) mierzą realizację celów, czyli efekt. Tu pytanie dotyczy stosowania praktyk.",
           "pulapka": "odwrocone"
         },
         {
-          "tekst": "Wskaźniki wiodące; np. średni czas dotarcia alarmu do OSP w ostatnim kwartale",
+          "tekst": "Wskaźniki wiodące; np. średni czas przywrócenia usługi po awarii w ostatnim kwartale",
           "poprawna": false,
-          "wyjasnienie": "Nazwa się zgadza, przykład nie. Czas dotarcia alarmu to efekt mierzony po fakcie, czyli wskaźnik opóźniony.",
+          "wyjasnienie": "Nazwa się zgadza, przykład nie. Czas przywrócenia usługi to efekt mierzony po fakcie, czyli wskaźnik opóźniony.",
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "Wskaźniki wiodące; np. odsetek numerów OSP sprawdzonych w tym miesiącu",
+          "tekst": "Wskaźniki wiodące; np. odsetek kopii zapasowych przetestowanych w tym miesiącu",
           "poprawna": true,
-          "wyjasnienie": "Podręcznik: wyprzedzające (EN: lead), egzamin: wiodące. Mierzą stosowanie praktyk, więc ostrzegają wcześniej. Sprawdzanie numerów to praktyka, a nie końcowy efekt."
+          "wyjasnienie": "Podręcznik: wyprzedzające (EN: lead), egzamin: wiodące. Mierzą stosowanie praktyk, więc ostrzegają wcześniej. Testowanie kopii zapasowych to praktyka, a nie końcowy efekt."
         },
         {
-          "tekst": "Wskaźniki następujące; np. średni czas dotarcia alarmu do OSP",
+          "tekst": "Wskaźniki następujące; np. średni czas przywrócenia usługi po awarii",
           "poprawna": false,
           "wyjasnienie": "„Następujące” to nazwa z podręcznika dla wskaźników opóźnionych (lag). Na egzaminie jej nie ma, a do tego dotyczy innej kolumny rysunku.",
           "pulapka": "forma-podrecznikowa"
@@ -1027,7 +1027,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Pytanie w arkuszu egzaminu PL brzmi: „Który komponent cyklu życia wdrożenia obejmuje te działania?”. Którą odpowiedź zaznaczysz?",
-      "scenariusz": "Starzy dyżurni bronią się przed nową procedurą Syreny. Kpt. Marek Sikora przygotowuje plan komunikacji. Dla każdej fazy programu ustala treść komunikatu, sposób przekazania i adresatów. W polskim podręczniku (s. 37) ten krąg cyklu życia wdrożenia nazywa się „Umożliwienie zmian”.",
+      "scenariusz": "Doświadczeni konsultanci call center bronią się przed nową procedurą w systemie CRM. Dyrektor IT przygotowuje plan komunikacji. Dla każdej fazy programu ustala treść komunikatu, sposób przekazania i adresatów. W polskim podręczniku (s. 37) ten krąg cyklu życia wdrożenia nazywa się „Umożliwienie zmian”.",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1079,7 +1079,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Nowik czyta w podręczniku „cele przedsiębiorstwa” i „cele związane z IT”, a w arkuszu egzaminu – „cele organizacji” i „cele związane z Informatyką”. Które zdanie jest prawdziwe?",
+      "tresc": "Kandydat czyta w podręczniku „cele przedsiębiorstwa” i „cele związane z IT”, a w arkuszu egzaminu – „cele organizacji” i „cele związane z Informatyką”. Które zdanie jest prawdziwe?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1103,7 +1103,7 @@
           "pulapka": "falsz"
         },
         {
-          "tekst": "Komenda PSP nie jest przedsiębiorstwem, więc kaskadę celów można w niej stosować tylko w ograniczonym zakresie.",
+          "tekst": "Urząd miasta nie jest przedsiębiorstwem, więc kaskadę celów można w nim stosować tylko w ograniczonym zakresie.",
           "poprawna": false,
           "wyjasnienie": "Słowo „przedsiębiorstwo” to tylko tłumaczenie „enterprise”. Podręcznik pisze o każdym przedsiębiorstwie, „niezależnie od tego, czy prowadzi ono działalność komercyjną” (s. 17).",
           "pulapka": "forma-podrecznikowa"
@@ -1131,7 +1131,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "W polskim podręczniku (Rysunek 14, s. 31) czytasz, że pewien aktywator stanowi „środek umożliwiający zinstytucjonalizowanie decyzji dotyczących nadzoru”. Na egzaminie to samo zdanie pada przy „Rysunku 14” i decyzjach Ładu. O który aktywator chodzi (nazwa egzaminacyjna)?",
+      "tresc": "W polskim podręczniku (Ilustracja 14, s. 31) czytasz, że pewien aktywator stanowi „środek umożliwiający zinstytucjonalizowanie decyzji dotyczących nadzoru”. Na egzaminie to samo zdanie pada przy „Rysunku 14” i decyzjach Ładu. O który aktywator chodzi (nazwa egzaminacyjna)?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1183,7 +1183,7 @@
       ],
       "bloom": "zastosowanie",
       "trudnosc": 3,
-      "tresc": "Ewa Lis ma oceny w procentach: PA 1.1 – ok. 90%, PA 2.1 – ok. 70%, PA 2.2 – ok. 60%. Podręcznik PL (s. 45) podaje skalę literami N/P/L/F. Jak zapiszesz te oceny w notacji egzaminu PL i jaki poziom zdolności z nich wynika?",
+      "tresc": "Audytorka wewnętrzna ma oceny w procentach: PA 1.1 – ok. 90%, PA 2.1 – ok. 70%, PA 2.2 – ok. 60%. Podręcznik PL (s. 45) podaje skalę literami N/P/L/F. Jak zapiszesz te oceny w notacji egzaminu PL i jaki poziom zdolności z nich wynika?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1234,7 +1234,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Który cel jakości informacji (nazwa egzaminacyjna) zawiódł?",
-      "scenariusz": "St. ogn. Kasia Nowik, dyżurna stanowiska kierowania, bierze z Syreny grafik dyżurów OSP Zawilce. Każdy wpis jest zgodny z prawdą, ale dla **poprzedniego tygodnia**. Dziś według tego grafiku wzywa ochotników, a połowa z nich jest na urlopie. Do grafiku dostała się bez problemu.",
+      "scenariusz": "Koordynatorka helpdesku bierze z systemu kadrowego grafik pracy serwisantów. Każdy wpis jest zgodny z prawdą, ale dla **poprzedniego tygodnia**. Dziś według tego grafiku wzywa serwisantów do awarii, a połowa z nich jest na urlopie. Do grafiku dostała się bez problemu.",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1255,13 +1255,13 @@
         {
           "tekst": "Jakość wewnętrzna – dokładność: wpisy były błędne",
           "poprawna": false,
-          "wyjasnienie": "Wpisy były zgodne z prawdą dla poprzedniego tygodnia. Dokładność (zgodność z prawdziwymi wartościami) jest zachowana.",
+          "wyjasnienie": "Wpisy były zgodne z prawdą dla poprzedniego tygodnia, więc dokładność (informacje poprawne i wiarygodne, s. 82) jest zachowana.",
           "pulapka": "inna-kategoria"
         },
         {
           "tekst": "Dostęp i Bezpieczeństwo – dostępność: grafik był niedostępny",
           "poprawna": false,
-          "wyjasnienie": "Nowik dostała grafik bez problemu. Dostępność nie zawiodła.",
+          "wyjasnienie": "Koordynatorka dostała grafik bez problemu. Dostępność nie zawiodła.",
           "pulapka": "prawda-nie-na-temat"
         },
         {
@@ -1282,7 +1282,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Halina Mak, główna księgowa komendy, opisuje w modelu informacji prognozę kosztów Syreny na przyszły rok. Chce zapisać cechę: „ta informacja dotyczy przyszłości”. Gdzie w COBIT 5 leży ta cecha?",
+      "tresc": "Główna księgowa szpitala opisuje w modelu informacji prognozę kosztów systemu ERP na przyszły rok. Chce zapisać cechę: „ta informacja dotyczy przyszłości”. Gdzie w COBIT 5 leży ta cecha?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1335,7 +1335,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Jak podręcznik (s. 36–37) klasyfikuje te dwie sytuacje?",
-      "scenariusz": "1. Od trzech lat raporty audytorki wewnętrznej Ewy Lis **regularnie** wskazują na niedostateczną sprawność Syreny.\n2. Mł. bryg. Lucyna Ostrowska z komendy wojewódzkiej zapowiada na maj **zewnętrzną kontrolę** komendy.",
+      "scenariusz": "1. Od trzech lat raporty audytorki wewnętrznej **regularnie** wskazują na niedostateczną sprawność systemu likwidacji szkód.\n2. Organ nadzoru finansowego zapowiada na maj **zewnętrzną kontrolę** ubezpieczyciela.",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1387,7 +1387,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Na posiedzeniu Rady ds. Informatyki kpt. Sikora mówi: „Naszym priorytetem jest cel związany z Informatyką 04, czyli zarządzanie ryzykiem biznesowym związanym z IT. Skoro 04, to wdrażamy proces APO04”. Co jest nie tak?",
+      "tresc": "Na posiedzeniu Rady ds. Informatyki dyrektor IT mówi: „Naszym priorytetem jest cel związany z Informatyką 04, czyli zarządzanie ryzykiem biznesowym związanym z IT. Skoro 04, to wdrażamy proces APO04”. Na czym polega błąd?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -1419,7 +1419,7 @@
         {
           "tekst": "Numery celów i procesów to osobne katalogi; APO04 to Zarządzanie innowacjami.",
           "poprawna": true,
-          "wyjasnienie": "Cel 04 pochodzi z listy 17 celów związanych z Informatyką (Rysunek 6). APO04 pochodzi z listy 37 procesów (Rysunek 16). Procesy dla celu 04 odczytuje się dopiero z Rysunku 23, a i tak trzeba je dostosować do komendy."
+          "wyjasnienie": "Cel 04 pochodzi z listy 17 celów związanych z Informatyką (Rysunek 6). APO04 pochodzi z listy 37 procesów (Rysunek 16). Procesy dla celu 04 odczytuje się dopiero z Rysunku 23, a i tak trzeba je dostosować do organizacji."
         },
         {
           "tekst": "Cel 04 należy do wymiaru Klient karty IT BSC, więc trzeba wybrać proces z domeny DSS.",
@@ -1446,7 +1446,7 @@
       "bloom": "rozumienie",
       "trudnosc": 3,
       "tresc": "Co mówi na ten temat podręcznik (s. 38–39)?",
-      "scenariusz": "Halina Mak, główna księgowa komendy, przygotowała uzasadnienie biznesowe naprawy Syreny. Komendantka Wrzos je zatwierdziła. Mak chce teraz odłożyć dokument do segregatora, bo „spełnił swoje zadanie”.",
+      "scenariusz": "Główna księgowa urzędu miasta przygotowała uzasadnienie biznesowe modernizacji systemu podatkowego. Prezydent miasta je zatwierdził. Księgowa chce teraz odłożyć dokument do segregatora, bo „spełnił swoje zadanie”.",
       "zrodlo": [
         {
           "doc": "FW-PL",

@@ -32,8 +32,8 @@
   "przyklady": {
     "zycie": "Przeglądasz domową apteczkę: przeterminowane leki oddajesz do apteki, a brakujące kupujesz. Stary termometr rtęciowy oddajesz do punktu zbiórki i kupujesz elektroniczny. To aktualizacja i pozbywanie się.",
     "biuro": "Biuro zmienia program do rezerwacji na nowszy. Stary wyłącza, dane przenosi, a niepotrzebne bezpiecznie usuwa.",
-    "organizacja": "Sklep po ocenie bramki płatności zmienia operatora na tańszego. Stary panel wyłącza, a dane transakcji archiwizuje zgodnie z przepisami. To faza 6.\n\nPo zmianie przepisów gmina wycofuje stary wzór wniosku i publikuje nowy. Stare formularze z korytarza trafiają do niszczarki. To aktualizacja i pozbywanie się.",
-    "psp": "**Stara bramka idzie na złom** Po ocenie audytorki Ewy Lis mł. kpt. Ola Dudek poprawia 14 numerów na liście OSP. To aktualizacja. Stara bramka SMS sprzed Syreny zostaje odłączona, a dane z niej bezpiecznie usunięte. To pozbywanie się. Obie czynności to faza 6 cyklu życia aktywatora.",
+    "organizacja": "Sklep po ocenie bramki płatności zmienia operatora na tańszego. Stary panel wyłącza, a dane transakcji archiwizuje zgodnie z przepisami. To faza 6.",
+    "admin": "Po zmianie przepisów gmina wycofuje stary wzór wniosku i publikuje nowy. Stare formularze z korytarza trafiają do niszczarki. To aktualizacja i pozbywanie się.",
     "it": "Wycofanie systemu IT wymaga bezpiecznego usunięcia danych. W procesach COBIT 5 wiąże się to m.in. z DSS05 (Zarządzanie usługami bezpieczeństwa) (interpretacja kursu)."
   },
   "nieMylicZ": [
@@ -81,7 +81,7 @@
   "mapa": "cykl-faza-6",
   "glebokosc": {
     "prosty": "Twoje ulubione buty się zdarły. Możesz oddać je do szewca, żeby wymienił podeszwę. Możesz też je wyrzucić i kupić nowe. Naprawa albo pożegnanie: to ostatni etap życia rzeczy.",
-    "zaawansowany": "Po ocenie Ewy Lis komenda decyduje: procedurę alarmowania się aktualizuje, a starą bramkę SMS wycofuje. Dane z bramki Dudek usuwa tak, żeby nie wyciekły numery druhów, bo liczy się [[dostep-i-bezpieczenstwo|dostęp i bezpieczeństwo]]. Zaktualizowana procedura wraca do [[cykl-faza-4|użytkowania]]. Następca bramki zaczyna własne życie od [[cykl-faza-1|planowania]].",
+    "zaawansowany": "Po ocenie audytora firma decyduje: procedurę obsługi incydentów się aktualizuje, a starą bramkę SMS wycofuje. Dane z bramki administrator usuwa tak, żeby nie wyciekły numery klientów, bo liczy się [[dostep-i-bezpieczenstwo|dostęp i bezpieczeństwo]]. Zaktualizowana procedura wraca do [[cykl-faza-4|użytkowania]]. Następca bramki zaczyna własne życie od [[cykl-faza-1|planowania]].",
     "skrajny": "Kolega mówi: „Faza 6 to koniec, więc po niej aktywatora już nie ma”. To tylko połowa prawdy. „Pozbywanie się” rzeczywiście kończy życie aktywatora. „Aktualizacja” go odnawia, więc aktywator żyje dalej. Druga pułapka: ostatnia faza wdrożenia („Jak utrzymać motywację do działania?”) też brzmi jak koniec, ale to inna lista i inny przedmiot. **Rozstrzygnięcie:** faza 6 ma dwa wyjścia: aktualizację (aktywator żyje dalej) albo pozbycie się (koniec życia); nie myl jej z 7. fazą wdrożenia."
   },
   "zagmatwania": [
@@ -96,8 +96,8 @@
   ],
   "mentor": {
     "czestyBlad": "Traktowanie fazy 6 wyłącznie jako usunięcia.",
-    "jakTlumaczyc": "Faza 6 to rozwidlenie: remont albo złomowanie. Wóz po remoncie wraca do służby, a wóz zezłomowany odchodzi.",
-    "pytanieKontrolne": "Komenda poprawia procedurę po ocenie i znów jej używa. Czy procedura przeszła fazę 6?",
+    "jakTlumaczyc": "Faza 6 to rozwidlenie: remont albo złomowanie. Samochód służbowy po naprawie wraca do floty, a zezłomowany odchodzi.",
+    "pytanieKontrolne": "Firma poprawia procedurę po ocenie i znów jej używa. Czy procedura przeszła fazę 6?",
     "odpowiedzKontrolna": "Tak, przez **aktualizację**. Potem wraca do użytkowania, więc jej życie trwa dalej."
   }
 }

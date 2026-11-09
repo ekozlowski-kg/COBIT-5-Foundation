@@ -4,7 +4,7 @@
   "wymowa": "ajsoł ajisi 27001",
   "wymowaAkcent": "AJ-soł aj-i-SI 27001",
   "plEgzamin": "ISO/IEC 27001",
-  "plPodrecznik": "ISO/IEC 27001",
+  "plPodrecznik": "ISO/IEC serii 27000",
   "plInne": [
     {
       "nazwa": "PN-EN ISO/IEC 27001",
@@ -14,7 +14,7 @@
   "statusTlumaczenia": "D",
   "zrodloTlumaczenia": {
     "wydawcaEgzaminu": "ISO/IEC 27001",
-    "podrecznik": "ISO/IEC 27001",
+    "podrecznik": "ISO/IEC serii 27000",
     "kurs": "ISO/IEC 27001 (ISO/IEC 27001)",
     "uwaga": "Oznaczenie normy – nie tłumaczy się. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Inne formy w obiegu: PN-EN ISO/IEC 27001 (polska norma)."
   },
@@ -38,13 +38,12 @@
     "biuro": "Biuro rachunkowe chce obsługiwać bank, a bank wymaga certyfikatu ISO/IEC 27001. Biuro spisuje, co może się stać z dokumentami klientów (zgubienie, wyciek, kradzież laptopa), wprowadza szafy na klucz, szyfrowanie laptopów i rejestr wydanych kluczy, a audytor jednostki certyfikującej sprawdza, czy to działa.",
     "firma": "Biuro rachunkowe trzyma PIT-y i listy płac setek klientów. Właścicielka wprowadza zasady: hasła, szyfrowane laptopy, zamykana szafa na dokumenty, procedura na wypadek wycieku, a raz w roku przychodzi audytor i potwierdza certyfikat ISO 27001. Klient widzi certyfikat i wie, że jego dane są chronione według uznanej normy.",
     "admin": "Urząd gminy trzyma w systemach dane meldunkowe, podatkowe i dane o pomocy społecznej. Sekretarz wprowadza politykę: kto ma dostęp do czego, co robić po zgubieniu pendrive’a, jak zgłosić incydent, i co roku ją przegląda. KRI każe opierać takie zasady na normach z rodziny ISO 27000 – to właśnie system zarządzania bezpieczeństwem informacji.",
-    "psp": "W komendzie powiatowej dane o zdarzeniach, numery telefonów zgłaszających i dostęp do SWD-PSP to informacje, których wyciek albo utrata sparaliżowałyby pracę stanowiska kierowania. Komenda spisuje zasady: kto ma konto w systemie, jak zmienia się hasła, co robić, gdy zginie laptop z JRG, i regularnie sprawdza, czy są przestrzegane. To system zarządzania bezpieczeństwem informacji w duchu ISO 27001.",
     "it": "W APO13 (Zarządzanie bezpieczeństwem) organizacja ustanawia i utrzymuje ISMS, a szczegółowe zabezpieczenia dobiera według ISO/IEC 27001. COBIT 5 mówi, po co i kto odpowiada, a norma podaje szczegóły."
   },
   "glebokosc": {
     "prosty": "Rodzina spisuje zasady chronienia ważnych papierów: gdzie leżą, kto ma klucz do szuflady, co robimy, gdy klucz zginie, i raz w roku sprawdzamy, czy to działa. Znajomy, który zna się na rzeczy, przychodzi, ogląda i potwierdza na piśmie, że porządek jest. Tak działa norma z certyfikatem: są zasady, jest regularne sprawdzanie i jest potwierdzenie od kogoś z zewnątrz.",
-    "zaawansowany": "Mł. bryg. Ostrowska zapowiada kontrolę i pyta, jak komenda chroni dane zgłaszających. Kpt. Sikora mógłby zbudować system zarządzania bezpieczeństwem informacji według ISO/IEC 27001, a nawet starać się o certyfikat. COBIT 5 w tym nie przeszkadza: jako [[integrator]] jest spójny z normami ISO, ale patrzy szerzej – czy całe IT służy celom komendy. Samo bezpieczeństwo pojawia się w COBIT 5 m.in. jako kategoria celów aktywatora: [[dostep-i-bezpieczenstwo|Dostęp i Bezpieczeństwo]].",
-    "skrajny": "Kpt. Sikora po zdobyciu certyfikatu ISO/IEC 27001 mówi: „Mamy certyfikat, więc ład IT mamy załatwiony”. Brzmi rozsądnie, bo certyfikat to twarde potwierdzenie od zewnętrznego audytora. Certyfikat dotyczy jednak systemu zarządzania bezpieczeństwem informacji, a nie tego, czy IT tworzy wartość, czy ryzyko i zasoby są zoptymalizowane i kto o tym decyduje. W drugą stronę też łatwo o pomyłkę: COBIT 5 nie wystawia organizacji certyfikatu zgodności, a ocena zdolności procesu daje poziom od 0 do 5, nie certyfikat. **Rozstrzygnięcie:** ISO/IEC 27001 = bezpieczeństwo informacji z możliwą certyfikacją organizacji; COBIT 5 = całościowy Ład i Zarządzanie IT, bez certyfikatu dla organizacji; jedno nie zastępuje drugiego (interpretacja kursu w części o ocenie zdolności)."
+    "zaawansowany": "Regulator zapowiada kontrolę i pyta, jak bank chroni dane klientów. CIO mógłby zbudować system zarządzania bezpieczeństwem informacji według ISO/IEC 27001, a nawet starać się o certyfikat. COBIT 5 w tym nie przeszkadza: jako [[integrator]] jest spójny z normami ISO, ale patrzy szerzej – czy całe IT służy celom banku. Samo bezpieczeństwo pojawia się w COBIT 5 m.in. jako kategoria celów aktywatora: [[dostep-i-bezpieczenstwo|Dostęp i Bezpieczeństwo]].",
+    "skrajny": "CIO po zdobyciu certyfikatu ISO/IEC 27001 mówi: „Mamy certyfikat, więc ład IT mamy załatwiony”. Brzmi rozsądnie, bo certyfikat to twarde potwierdzenie od zewnętrznego audytora. Certyfikat dotyczy jednak systemu zarządzania bezpieczeństwem informacji, a nie tego, czy IT tworzy wartość, czy ryzyko i zasoby są zoptymalizowane i kto o tym decyduje. W drugą stronę też łatwo o pomyłkę: COBIT 5 nie wystawia organizacji certyfikatu zgodności, a ocena zdolności procesu daje poziom od 0 do 5, nie certyfikat. **Rozstrzygnięcie:** ISO/IEC 27001 = bezpieczeństwo informacji z możliwą certyfikacją organizacji; COBIT 5 = całościowy Ład i Zarządzanie IT, bez certyfikatu dla organizacji; jedno nie zastępuje drugiego (interpretacja kursu w części o ocenie zdolności)."
   },
   "zagmatwania": [
     {
@@ -62,8 +61,8 @@
   ],
   "mentor": {
     "czestyBlad": "Traktowanie ISO/IEC 27001 i COBIT 5 jako zamienników albo przekonanie, że COBIT 5 też daje certyfikat organizacji.",
-    "jakTlumaczyc": "Przegląd techniczny hamulców a cała polityka floty: przegląd (ISO/IEC 27001) dokładnie sprawdza jedną ważną rzecz i daje pieczątkę, a polityka floty (COBIT 5) mówi, po co komendzie wozy, ile ich ma być i kto o tym decyduje. Sprawne hamulce nie dowodzą, że flota jest dobrze zarządzana.",
-    "pytanieKontrolne": "Komenda ma certyfikat ISO/IEC 27001. Czego ten certyfikat NIE mówi komendantce Wrzos o IT komendy?",
+    "jakTlumaczyc": "Przegląd techniczny hamulców a cała polityka floty: przegląd (ISO/IEC 27001) dokładnie sprawdza jedną ważną rzecz i daje pieczątkę, a polityka floty (COBIT 5) mówi, po co firmie samochody, ile ich ma być i kto o tym decyduje. Sprawne hamulce nie dowodzą, że flota jest dobrze zarządzana.",
+    "pytanieKontrolne": "Bank ma certyfikat ISO/IEC 27001. Czego ten certyfikat NIE mówi zarządowi o IT banku?",
     "odpowiedzKontrolna": "Nie mówi, czy IT tworzy wartość (korzyści, ryzyko i zasoby w równowadze), czy cele IT wynikają z potrzeb interesariuszy ani kto o IT decyduje i czy Ład jest oddzielony od Zarządzania. Mówi tylko, że system zarządzania bezpieczeństwem informacji spełnia wymagania normy."
   },
   "nieMylicZ": [
@@ -85,6 +84,11 @@
     {
       "doc": "FW-PL",
       "strona": 15
+    },
+    {
+      "doc": "FW-PL",
+      "strona": 60,
+      "cytat": "ISO/IEC serii 27000"
     }
   ]
 }

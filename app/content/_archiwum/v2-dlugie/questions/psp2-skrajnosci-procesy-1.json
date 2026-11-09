@@ -1,0 +1,105 @@
+[
+  {
+    "id": "q-sk-proc-edm02-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-03",
+      "PR-02-01"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "skrajnosc": true,
+    "atom": "proc-edm02",
+    "tresc": "Projekt nowej bramki SMS zakończył się w terminie i w budżecie. Pół roku później organ Ładu sprawdza, czy alarmy docierają szybciej, i decyduje o dalszym finansowaniu. Który proces opisano?",
+    "opcje": [
+      {
+        "tekst": "BAI01: zarządzanie programami i projektami, bo chodzi o efekt projektu",
+        "poprawna": false,
+        "wyjasnienie": "BAI01 kończy pracę na dowiezieniu projektu. Ocena korzyści po wdrożeniu przez organ Ładu to EDM02.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "MEA01: monitorowanie wydajności, bo ktoś sprawdza wyniki",
+        "poprawna": false,
+        "wyjasnienie": "MEA01 dostarcza pomiary, ale to Zarządzanie. Decyzja organu Ładu o wartości i finansowaniu to EDM02.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "APO05: zarządzanie portfelem, bo decyzja dotyczy pieniędzy na inwestycję",
+        "poprawna": false,
+        "wyjasnienie": "APO05 to Zarządzanie: układa portfel według kierunku. Tu decyzję o wartości podejmuje organ Ładu, czyli EDM02.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "EDM02: Ład ocenia i monitoruje, czy inwestycja dała zakładaną korzyść",
+        "poprawna": true,
+        "wyjasnienie": "Tak. Ocena wartości po wdrożeniu i decyzja organu Ładu o dalszych pieniądzach to EDM02."
+      }
+    ],
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 33,
+        "ilustracja": "16"
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 58,
+        "cytat": "realizacja celów strategicznych powinna być poparta odpowiednimi uzasadnieniami biznesowymi"
+      }
+    ],
+    "status": "uproszczenie"
+  },
+  {
+    "id": "q-sk-proc-apo13-1",
+    "typ": "studium",
+    "sylabus": [
+      "PR-01-04"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "skrajnosc": true,
+    "atom": "proc-apo13",
+    "scenariusz": "(1) Informatyczka Dudek widzi w dzienniku zdarzeń próbę logowania z obcego adresu i blokuje konto. (2) Naczelnik Sikora po tym zdarzeniu przegląda politykę bezpieczeństwa informacji i plan postępowania z ryzykiem bezpieczeństwa.",
+    "tresc": "Które przypisanie jest poprawne?",
+    "opcje": [
+      {
+        "tekst": "(1) APO13, (2) DSS05",
+        "poprawna": false,
+        "wyjasnienie": "Odwrotnie. Blokada konta to praca operacyjna (DSS05), a przegląd polityki to APO13.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "(1) DSS05, (2) APO13",
+        "poprawna": true,
+        "wyjasnienie": "Tak. (1) to codzienna usługa bezpieczeństwa: monitorowanie zdarzeń i dostęp. (2) to przegląd systemu zarządzania bezpieczeństwem (ISMS)."
+      },
+      {
+        "tekst": "(1) i (2) to APO13, bo oba dotyczą bezpieczeństwa",
+        "poprawna": false,
+        "wyjasnienie": "Słowo „bezpieczeństwo” nie wystarcza. Codzienne zabezpieczanie i reagowanie to DSS05.",
+        "pulapka": "zbyt-waskie"
+      },
+      {
+        "tekst": "(1) DSS05, (2) APO12",
+        "poprawna": false,
+        "wyjasnienie": "APO12 obejmuje całe ryzyko IT. Polityka i plan bezpieczeństwa informacji to system prowadzony w APO13.",
+        "pulapka": "inna-kategoria"
+      }
+    ],
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 88,
+        "ilustracja": "39",
+        "cytat": "Administracja bezpieczeństwa"
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 60,
+        "cytat": "procesy związane z bezpieczeństwem i ryzykiem w domenach EDM, APO oraz DSS"
+      }
+    ],
+    "status": "uproszczenie"
+  }
+]

@@ -11,7 +11,7 @@
     "wydawcaEgzaminu": "Działania",
     "podrecznik": "Działania",
     "kurs": "Działania (Activities)",
-    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 2, 7, 9; zestawienie Altkom (kolumna „Podręczniki PL”)."
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 2, 7, 9."
   },
   "pulapka": false,
   "kategoria": "egzaminacyjne",
@@ -33,13 +33,13 @@
   "przyklady": {
     "zycie": "Praktyka: „Przygotuj dziecko do szkoły”. Działania: kup podręczniki, podpisz zeszyty, sprawdź plan lekcji. To wystarczy, żeby praktyka była wykonana. Każda rodzina zrobi to po swojemu i to jest w porządku.",
     "biuro": "W sekretariacie praktyka „Zarejestruj korespondencję” ma działania: otwórz kopertę, nadaj numer, wpisz do dziennika, przekaż adresatowi. Sekretarka spisuje je jako własną instrukcję z nazwami programów, których używa.",
-    "organizacja": "W warsztacie samochodowym praktyka brzmi: „Przyjmij auto do naprawy”. Działania: spisz usterki z klientem, zrób zdjęcia, ustal termin, wydaj potwierdzenie. Właściciel zamienia je na własną kartę przyjęcia z rubrykami. Działania z wzoru stały się procedurą warsztatu. W urzędzie praktyka brzmi: „Zarządzaj uprawnieniami użytkowników”. Działania to: przyjmij wniosek kierownika, nadaj dostęp, raz w roku przejrzyj listę. Informatyk dopisuje do nich szczegóły z normy ISO 27001 – to już szczegółowe działania.",
-    "psp": "Dyżurna Kasia Nowik rozpisuje praktykę „rejestruj zgłoszenia awarii Syreny” na działania. Zapisz godzinę i objawy, nadaj priorytet, powiadom wydział łączności, potwierdź naprawę z dyżurnym. Informatyczka Ola Dudek przerabia to na kartę procedury SK z numerami telefonów. Działania z przewodnika były wzorem, a procedura jest już własna komendy.",
+    "organizacja": "W warsztacie samochodowym praktyka brzmi: „Przyjmij auto do naprawy”. Działania: spisz usterki z klientem, zrób zdjęcia, ustal termin, wydaj potwierdzenie. Właściciel zamienia je na własną kartę przyjęcia z rubrykami. Działania z wzoru stały się procedurą warsztatu.",
+    "admin": "W urzędzie praktyka brzmi: „Zarządzaj uprawnieniami użytkowników”. Działania to: przyjmij wniosek kierownika, nadaj dostęp, raz w roku przejrzyj listę. Informatyk dopisuje do nich szczegóły z normy ISO 27001 (międzynarodowej normy o bezpieczeństwie informacji) – to już szczegółowe działania.",
     "it": "W DSS02 działania pod praktyką rejestrowania incydentów obejmują zapisanie zgłoszenia, klasyfikację i nadanie priorytetu. Zespół uzupełnia je szczegółowymi działaniami z ITIL (szczegóły procesu: uproszczenie kursu)."
   },
   "glebokosc": {
     "prosty": "Przepis na zupę mówi: obierz warzywa, zagotuj wodę, gotuj 30 minut. To kroki, bez których zupa nie wyjdzie, i nic ponad to. Ty możesz dodać swoje przyprawy. Działania w procesie są jak kroki przepisu.",
-    "zaawansowany": "Pod [[praktyka-procesu|praktyką]] obsługi incydentów przewodnik podaje działania. Nowik widzi, że każde działanie ma [[wejscia-wyjscia|wejście]] (zgłoszenie od dyżurnego) i wyjście (wpis w rejestrze). Przy każdym działaniu łatwo też wskazać, kto je robi, więc z działań rodzi się tabela [[raci|RACI]]. Sikora mówi: „To wzór, nie regulamin. Procedurę SK piszemy sami”.",
+    "zaawansowany": "Pod [[praktyka-procesu|praktyką]] obsługi incydentów przewodnik podaje działania. Nowy kierownik helpdesku widzi, że każde działanie ma [[wejscia-wyjscia|wejście]] (zgłoszenie od użytkownika) i wyjście (wpis w rejestrze). Przy każdym działaniu łatwo też wskazać, kto je robi, więc z działań rodzi się tabela [[raci|RACI]]. CIO mówi: „To wzór, nie regulamin. Własną procedurę helpdesku piszemy sami”.",
     "skrajny": "Kursant uczy się skrótu: praktyka mówi CO, działanie mówi JAK. Na egzaminie pada pytanie, czy działania określają tylko sposób wykonania. Podręcznik mówi więcej: działania określają sposób, powody oraz przedmiot wdrożenia praktyk. Skrót „co i jak” jest pomocą do nauki, a nie definicją. Drugi przypadek graniczny: działania są „konieczne i wystarczające”, a jednak nie są normatywne. Kompletne nie znaczy obowiązkowe: organizacja i tak pisze z nich własne procedury. **Rozstrzygnięcie:** działania to kompletny zestaw kroków do realizacji praktyki, z wejściami i wyjściami. Nie są nakazem i trzeba je przerobić na procedury organizacji."
   },
   "zagmatwania": [

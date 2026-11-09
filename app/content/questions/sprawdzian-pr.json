@@ -11,7 +11,7 @@
       ],
       "bloom": "wiedza",
       "trudnosc": 2,
-      "tresc": "Dyżurny Paweł Grab pyta, po co komendzie trzecia zasada, skoro wydział informatyki korzysta już z ITIL. Które zdanie najlepiej oddaje sens tej zasady?",
+      "tresc": "Dyrektor IT banku pyta, po co trzecia zasada, skoro dział IT korzysta już z ITIL. Które zdanie najlepiej oddaje sens tej zasady?",
       "opcje": [
         {
           "tekst": "Organizacja powinna zrezygnować z ITIL i ISO/IEC 27001, bo COBIT 5 w całości je zastępuje.",
@@ -329,16 +329,16 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 2,
-      "tresc": "Który miernik procesu obsługi zgłoszeń awarii Syreny jest wskaźnikiem **wiodącym** (lead indicator)?",
+      "tresc": "Który miernik procesu obsługi zgłoszeń awarii w helpdesku banku jest wskaźnikiem **wiodącym** (lead indicator)?",
       "opcje": [
         {
-          "tekst": "Liczba skarg dowódców zmian na opóźnione alarmy zgłoszonych w ostatnim kwartale.",
+          "tekst": "Liczba skarg klientów na opóźnioną obsługę zgłoszeń w ostatnim kwartale.",
           "poprawna": false,
           "wyjasnienie": "Skargi pokazują efekt końcowy, czyli czy potrzeby są spełnione. To wskaźnik **opóźniony**.",
           "pulapka": "odwrocone"
         },
         {
-          "tekst": "Średnia ocena zadowolenia dyżurnych z obsługi zgłoszeń w corocznej ankiecie.",
+          "tekst": "Średnia ocena zadowolenia użytkowników z obsługi zgłoszeń w corocznej ankiecie.",
           "poprawna": false,
           "wyjasnienie": "Zadowolenie interesariuszy mierzy wynik, więc to wskaźnik opóźniony (lag).",
           "pulapka": "odwrocone"
@@ -349,7 +349,7 @@
           "wyjasnienie": "Tak. Mierzy, czy stosujemy dobre praktyki, czyli funkcjonowanie samego aktywatora. To wskaźnik wiodący."
         },
         {
-          "tekst": "Odsetek celów procesu osiągniętych w danym roku, zapisany w sprawozdaniu wydziału.",
+          "tekst": "Odsetek celów procesu osiągniętych w danym roku, zapisany w sprawozdaniu działu IT.",
           "poprawna": false,
           "wyjasnienie": "Osiągnięcie celów aktywatora to drugie pytanie zarządzania wydajnością, mierzone wskaźnikiem opóźnionym.",
           "pulapka": "odwrocone"
@@ -391,19 +391,19 @@
           "wyjasnienie": "Tak. Podręcznik podaje decyzje o portfelu inwestycji i apetycie na ryzyko jako decyzje struktur Ładu, które wyznaczają kierunek."
         },
         {
-          "tekst": "Przygotowanie szczegółowego harmonogramu wdrożenia nowej wersji systemu Syrena w obu jednostkach.",
+          "tekst": "Przygotowanie szczegółowego harmonogramu wdrożenia nowej wersji systemu sprzedaży w obu oddziałach.",
           "poprawna": false,
           "wyjasnienie": "Planowanie wdrożenia to „Planuj” z PBRM, czyli Zarządzanie.",
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "Codzienne monitorowanie dostępności serwerów i reagowanie na alarmy przez dział informatyki.",
+          "tekst": "Codzienne monitorowanie dostępności serwerów i reagowanie na powiadomienia o awariach przez dział informatyki.",
           "poprawna": false,
           "wyjasnienie": "Monitorowanie jest i w EDM, i w PBRM. Tu chodzi o monitorowanie operacyjne (MEA/DSS), czyli Zarządzanie.",
           "pulapka": "prawda-nie-na-temat"
         },
         {
-          "tekst": "Zbudowanie, przetestowanie i przekazanie do eksploatacji nowego modułu powiadamiania OSP.",
+          "tekst": "Zbudowanie, przetestowanie i przekazanie do eksploatacji nowego modułu powiadomień dla klientów.",
           "poprawna": false,
           "wyjasnienie": "„Twórz” i „Wykonuj” to działania Zarządzania (BAI, DSS).",
           "pulapka": "inna-kategoria"
@@ -439,11 +439,11 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 2,
-      "tresc": "Którą zasadę COBIT 5 komendantka stosuje przede wszystkim?",
-      "scenariusz": "Komendantka Anna Wrzos poleca: „Przy naprawie Syreny nie patrzcie tylko na wydział informatyki. Uwzględnijcie księgowość, kadry, SK, OSP Zawilce i firmę Kwant-Sygnał. Informacja o alarmach dotyczy wszystkich, wewnątrz i na zewnątrz komendy”.",
+      "tresc": "Którą zasadę COBIT 5 prezes banku stosuje przede wszystkim?",
+      "scenariusz": "Prezes banku poleca: „Przy naprawie systemu płatności nie patrzcie tylko na dział IT. Uwzględnijcie księgowość, kadry, oddziały, agentów i dostawcę chmury. Informacja o płatnościach dotyczy wszystkich, wewnątrz i na zewnątrz banku”.",
       "opcje": [
         {
-          "tekst": "Zasadę 4, Aktywacja holistycznego podejścia, bo komendantka łączy w jedną całość wiele osób i komórek.",
+          "tekst": "Zasadę 4, Aktywacja holistycznego podejścia, bo prezes łączy w jedną całość wiele osób i komórek.",
           "poprawna": false,
           "wyjasnienie": "Zasada 4 mówi o siedmiu wzajemnie powiązanych **aktywatorach**, a nie o objęciu wszystkich komórek i stron.",
           "pulapka": "inna-kategoria"
@@ -455,7 +455,7 @@
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "Zasadę 1, Realizacja potrzeb interesariusza, bo komendantka wymienia wielu interesariuszy systemu.",
+          "tekst": "Zasadę 1, Realizacja potrzeb interesariusza, bo prezes wymienia wielu interesariuszy systemu.",
           "poprawna": false,
           "wyjasnienie": "Interesariusze są w tle, ale sedno polecenia to **zakres**: cała organizacja, wewnątrz i na zewnątrz.",
           "pulapka": "prawda-nie-na-temat"
@@ -514,7 +514,7 @@
         {
           "tekst": "Każdy cel organizacji ma dokładnie jeden przypisany cel związany z informatyką, ustalony przez ISACA.",
           "poprawna": false,
-          "wyjasnienie": "Każdy cel organizacji wspiera **szereg** celów IT, a mapowanie trzeba dostosować, nie stosować mechanicznie.",
+          "wyjasnienie": "Każdy cel organizacji jest wspierany przez szereg celów związanych z informatyką (s. 18), a mapowanie trzeba dostosować, nie stosować mechanicznie.",
           "pulapka": "falsz"
         }
       ],
@@ -651,22 +651,22 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Które zdanie odpowiada poziomowi **celów związanych z informatyką** (IT-related goals)?",
-      "scenariusz": "W dokumentach komendy są cztery zdania:\n1. „Mieszkańcy chcą, żeby straż przyjeżdżała szybko”.\n2. „Komenda utrzymuje ciągłość i dostępność swoich usług ratowniczych”.\n3. „Syrena dostarcza alarmy zgodnie z wymaganiami SK i JRG”.\n4. „Procedura testu syren ma jasno opisane role RACI”.",
+      "scenariusz": "W dokumentach szpitala są cztery zdania:\n1. „Pacjenci chcą szybko dostawać termin wizyty”.\n2. „Szpital utrzymuje ciągłość i dostępność swoich usług medycznych”.\n3. „System rejestracji dostarcza usługi zgodnie z wymaganiami oddziałów i przychodni”.\n4. „Procedura testu kopii zapasowych ma jasno opisane role RACI”.",
       "opcje": [
         {
-          "tekst": "Zdanie 1, bo opisuje to, czego oczekuje się od informatyki komendy w sprawie szybkiego przyjazdu.",
+          "tekst": "Zdanie 1, bo opisuje to, czego oczekuje się od informatyki szpitala w sprawie szybkich terminów.",
           "poprawna": false,
           "wyjasnienie": "Zdanie 1 to potrzeba interesariuszy (Stakeholder Needs), czyli wyższy poziom kaskady.",
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "Zdanie 2, bo ciągłość i dostępność usług zawsze zależą od systemów informatycznych komendy.",
+          "tekst": "Zdanie 2, bo ciągłość i dostępność usług zawsze zależą od systemów informatycznych szpitala.",
           "poprawna": false,
           "wyjasnienie": "Ciągłość i dostępność usług to cel **organizacji** (Rysunek 5), a nie cel związany z informatyką.",
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "Zdanie 4, bo procedura testu syren jest najbliżej codziennej pracy działu informatyki.",
+          "tekst": "Zdanie 4, bo procedura testu kopii zapasowych jest najbliżej codziennej pracy działu informatyki.",
           "poprawna": false,
           "wyjasnienie": "Opisana procedura z rolami to poziom **aktywatora** (proces i jego praktyki), czyli cel aktywatora.",
           "pulapka": "zbyt-waskie"
@@ -707,29 +707,29 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Jaki podział decyzji jest najbardziej zgodny z COBIT 5?",
-      "scenariusz": "Kpt. Marek Sikora przychodzi z dwiema ofertami naprawy Syreny. Tańsza oznacza 48 godzin przestoju, droższa wymaga przesunięcia pieniędzy z zakupu sprzętu dla JRG 2. Obie przekraczają plan budżetu wydziału.",
+      "scenariusz": "Dyrektor IT sklepu internetowego przychodzi z dwiema ofertami naprawy systemu sprzedaży. Tańsza oznacza 48 godzin przestoju, droższa wymaga przesunięcia pieniędzy z budżetu marketingu. Obie przekraczają plan budżetu działu IT.",
       "opcje": [
         {
-          "tekst": "Sikora sam wybiera ofertę, bo to sprawa techniczna, a komendantce przekazuje tylko gotowy wynik.",
+          "tekst": "Dyrektor IT sam wybiera ofertę, bo to sprawa techniczna, a zarządowi przekazuje tylko gotowy wynik.",
           "poprawna": false,
           "wyjasnienie": "Przesunięcie budżetu i akceptacja ryzyka przestoju to kierunek, czyli decyzja Ładu, nie samego Zarządzania.",
           "pulapka": "zbyt-waskie"
         },
         {
-          "tekst": "Komendantka szacuje opcje, ustala priorytet i budżet; Sikora planuje wdrożenie i raportuje.",
+          "tekst": "Zarząd szacuje opcje, ustala priorytet i budżet; dyrektor IT planuje wdrożenie i raportuje.",
           "poprawna": true,
           "wyjasnienie": "Tak. Ład (Oszacuj, Kieruj, Monitoruj) wybiera kierunek; Zarządzanie (Planuj, Twórz, Wykonuj, Monitoruj) realizuje i daje informację zwrotną."
         },
         {
-          "tekst": "Komendantka wybiera ofertę, a potem osobiście kieruje pracami firmy i przydziela zadania informatykom.",
+          "tekst": "Prezes wybiera ofertę, a potem osobiście kieruje pracami firmy i przydziela zadania informatykom.",
           "poprawna": false,
           "wyjasnienie": "Ład wyznacza kierunek i monitoruje, ale nie wykonuje pracy Zarządzania.",
           "pulapka": "falsz"
         },
         {
-          "tekst": "Decyzję podejmuje dostawca, Kwant-Sygnał, bo najlepiej zna system i jego ograniczenia techniczne.",
+          "tekst": "Decyzję podejmuje dostawca systemu, bo najlepiej zna system i jego ograniczenia techniczne.",
           "poprawna": false,
-          "wyjasnienie": "Dostawca jest interesariuszem zewnętrznym. Nie wyznacza kierunku komendy.",
+          "wyjasnienie": "Dostawca jest interesariuszem zewnętrznym. Nie wyznacza kierunku sklepu.",
           "pulapka": "falsz"
         }
       ],
@@ -767,17 +767,17 @@
       ],
       "bloom": "zastosowanie",
       "trudnosc": 3,
-      "tresc": "Na które pytanie zarządzania wydajnością aktywatora komenda musi dziś odpowiedzieć przecząco?",
-      "scenariusz": "Procedura alarmowania OSP Zawilce powstała sześć lat temu. Od tego czasu zmieniono numery telefonów i dodano aplikację, ale nikt procedury nie przeglądał ani nie zaktualizował. Dyżurni pracują „po swojemu”.",
+      "tresc": "Na które pytanie zarządzania wydajnością aktywatora firma musi dziś odpowiedzieć przecząco?",
+      "scenariusz": "Procedura obsługi awarii systemu sprzedaży powstała sześć lat temu. Od tego czasu zmieniono numery kontaktowe dostawców i dodano aplikację mobilną, ale nikt procedury nie przeglądał ani nie zaktualizował. Pracownicy helpdesku działają „po swojemu”.",
       "opcje": [
         {
-          "tekst": "Czy potrzeby interesariuszy są uwzględnione? – OSP nie zgłosiła żadnych nowych oczekiwań.",
+          "tekst": "Czy potrzeby interesariuszy są uwzględnione? – dostawcy nie zgłosili żadnych nowych oczekiwań.",
           "poprawna": false,
           "wyjasnienie": "Scenariusz nie opisuje braku rozpoznania potrzeb. Problem leży w braku przeglądu i aktualizacji.",
           "pulapka": "prawda-nie-na-temat"
         },
         {
-          "tekst": "Czy cele aktywatora są osiągane? – trzeba najpierw policzyć, ile alarmów dotarło z opóźnieniem.",
+          "tekst": "Czy cele aktywatora są osiągane? – trzeba najpierw policzyć, ile zgłoszeń obsłużono z opóźnieniem.",
           "poprawna": false,
           "wyjasnienie": "To ważny wskaźnik opóźniony, ale sedno opisu to zaniedbanie przeglądu i aktualizacji procedury.",
           "pulapka": "zbyt-waskie"
@@ -825,7 +825,7 @@
       ],
       "bloom": "zastosowanie",
       "trudnosc": 3,
-      "tresc": "Komendantka pyta: „Jak z oczekiwań mieszkańców zrobić konkretne zadanie dla wydziału Sikory?”. Wyjaśnij Kaskadę Celów krok po kroku na przykładzie Syreny (5–7 zdań). Użyj terminów EN: **Stakeholder Drivers**, **Stakeholder Needs**, **Enterprise Goals**, **IT-related Goals**, **Enabler Goals**.",
+      "tresc": "Dyrektor szpitala pyta: „Jak z oczekiwań pacjentów zrobić konkretne zadanie dla działu IT?”. Wyjaśnij Kaskadę Celów krok po kroku na przykładzie systemu rejestracji (5–7 zdań). Użyj terminów EN: **Stakeholder Drivers**, **Stakeholder Needs**, **Enterprise Goals**, **IT-related Goals**, **Enabler Goals**.",
       "wymagane": [
         "Stakeholder Drivers",
         "Stakeholder Needs",
@@ -833,7 +833,7 @@
         "IT-related Goals",
         "Enabler Goals"
       ],
-      "wzorzec": "1. **Stakeholder Drivers** (wyznaczniki): nowe przepisy o czasie alarmowania i awaria z Lipowej zmieniają oczekiwania.\n2. **Stakeholder Needs** (potrzeby interesariuszy): mieszkańcy i JRG potrzebują pewnego, szybkiego alarmu; komendantka chce przy tym rozsądnego ryzyka i kosztów (korzyści, ryzyko, zasoby).\n3. **Enterprise Goals** (cele organizacji): np. ciągłość i dostępność usług ratowniczych (Rysunek 5).\n4. **IT-related Goals** (cele związane z informatyką): np. dostarczanie usług IT zgodnie z wymogami SK i JRG (Rysunek 6, mapowanie w Załączniku B).\n5. **Enabler Goals** (cele aktywatora): np. cel procesu obsługi incydentów i cel procedury testów, z miernikami (Załącznik C).\nKaskadę traktujemy jako wytyczną: mapowania dostosowujemy do komendy, a nie stosujemy ich mechanicznie (s. 20).",
+      "wzorzec": "1. **Stakeholder Drivers** (wyznaczniki): nowe przepisy o czasie oczekiwania na wizytę i skargi pacjentów zmieniają oczekiwania.\n2. **Stakeholder Needs** (potrzeby interesariuszy): pacjenci i lekarze potrzebują szybkiej, pewnej rejestracji; dyrekcja chce przy tym rozsądnego ryzyka i kosztów (korzyści, ryzyko, zasoby).\n3. **Enterprise Goals** (cele organizacji): np. ciągłość i dostępność usług (Rysunek 5).\n4. **IT-related Goals** (cele związane z informatyką): np. dostarczanie usług IT zgodnie z wymogami oddziałów i przychodni (Rysunek 6, mapowanie w Załączniku B).\n5. **Enabler Goals** (cele aktywatora): np. cel procesu obsługi incydentów i cel procedury testów, z miernikami (Załącznik C).\nKaskadę traktujemy jako wytyczną: mapowania dostosowujemy do szpitala, a nie stosujemy ich mechanicznie (s. 20).",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -871,7 +871,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Które przypisanie elementów planu do zasad COBIT 5 jest poprawne?",
-      "scenariusz": "Po awarii z Lipowej komenda przyjmuje plan:\n(1) zapytać mieszkańców, JRG i OSP, czego oczekują, i zważyć korzyści, ryzyko oraz koszty;\n(2) przy naprawie uwzględnić procedury, ludzi, kulturę zgłaszania błędów, informację i sprzęt naraz;\n(3) komendantka ustala priorytety i monitoruje, a wydział Sikory planuje i realizuje zmiany.",
+      "scenariusz": "Po poważnej awarii systemu sprzedaży sklep internetowy przyjmuje plan:\n(1) zapytać klientów, pracowników i partnerów, czego oczekują, i zważyć korzyści, ryzyko oraz koszty;\n(2) przy naprawie uwzględnić procedury, ludzi, kulturę zgłaszania błędów, informację i sprzęt naraz;\n(3) zarząd ustala priorytety i monitoruje, a dział IT planuje i realizuje zmiany.",
       "opcje": [
         {
           "tekst": "(1) – zasada 1, Realizacja potrzeb interesariusza; (2) – zasada 4, Aktywacja holistycznego podejścia; (3) – zasada 5, Oddzielenie Ładu od Zarządzania.",
@@ -891,7 +891,7 @@
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "(1) – zasada 5, bo pyta interesariuszy o kierunek; (2) – zasada 4; (3) – zasada 1, bo komendantka dba o wartość.",
+          "tekst": "(1) – zasada 5, bo pyta interesariuszy o kierunek; (2) – zasada 4; (3) – zasada 1, bo zarząd dba o wartość.",
           "poprawna": false,
           "wyjasnienie": "Przypisania (1) i (3) są zamienione: pytanie o potrzeby to zasada 1, a podział ról to zasada 5.",
           "pulapka": "odwrocone"

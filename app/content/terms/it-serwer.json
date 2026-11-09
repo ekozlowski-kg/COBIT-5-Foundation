@@ -34,7 +34,7 @@
     "zycie": "Bankomat pyta serwer banku, czy masz pieniądze. Serwer sprawdza konto i odpowiada: „tak, wypłać”.",
     "biuro": "Wspólne foldery działu leżą na serwerze plików. Każdy komputer w biurze prosi go o dokumenty.",
     "organizacja": "Sklep internetowy ma serwer, który pokazuje klientom towary i przyjmuje zamówienia z całego kraju.",
-    "psp": "„Syrena” działa na jednym serwerze pod schodami komendy, bez zasilania awaryjnego. Gdy on stoi, żaden dyżurny nie wyśle alarmu.",
+    "admin": "Na serwerze urzędu wojewódzkiego działa system umawiania wizyt w sprawie paszportu. Mieszkaniec wybiera w przeglądarce termin, a serwer sprawdza, czy godzina jest wolna, zapisuje rezerwację i odsyła potwierdzenie mailem.",
     "it": "Serwery to część infrastruktury technicznej w aktywatorze Usługi, infrastruktura i aplikacje (FW-PL s. 86)."
   },
   "nieMylicZ": [
@@ -47,7 +47,7 @@
       "roznica": "Internet to droga, którą idzie prośba. Serwer jest na końcu tej drogi i odpowiada."
     }
   ],
-  "przykladWypowiedzi": "A server, czyli serwer, odpowiada na requests, czyli żądania, od clients, czyli klientów; „Syrena” ma jeden server.",
+  "przykladWypowiedzi": "A server, czyli serwer, odpowiada na requests, czyli żądania, od clients, czyli klientów; sklep internetowy ma jeden server.",
   "egzamin": "Nie jest terminem egzaminu. Bez niego trudno zrozumieć usługi IT i infrastrukturę w aktywatorze Usługi, infrastruktura i aplikacje.",
   "powiazane": [
     "it-klient",
@@ -67,7 +67,7 @@
   ],
   "glebokosc": {
     "prosty": "Dzwonisz do pizzerii i zamawiasz pizzę. Pizzeria przyjmuje zamówienie, piecze i przywozi. Ty prosisz, pizzeria odpowiada. Serwer to taka „pizzeria” dla komputerów.",
-    "zaawansowany": "Kasia Nowik pyta: „Czy serwer to ta szafa w piwnicy?”. Ola Dudek odpowiada: „Szafa to [[it-hardware|sprzęt]]. Serwerem jest to, co w niej odpowiada na prośby”. W piwnicy komendy jeden komputer jest jednocześnie serwerem plików i serwerem poczty. Gdy się zepsuje, padają obie rzeczy naraz.",
+    "zaawansowany": "Nowy pracownik pyta: „Czy serwer to ta szafa w piwnicy?”. Administrator odpowiada: „Szafa to [[it-hardware|sprzęt]]. Serwerem jest to, co w niej odpowiada na prośby”. W piwnicy firmy jeden komputer jest jednocześnie serwerem plików i serwerem poczty. Gdy się zepsuje, padają obie rzeczy naraz.",
     "skrajny": "Czy telefon może być serwerem? Tak, jeśli udostępnia coś innym, np. swoje połączenie z Internetem dla laptopa. Czy serwer musi być duży? Nie, to rola. Czy awaria jednego serwera to awaria jednej usługi? Nie zawsze – jeden serwer może obsługiwać kilka usług. **Rozstrzygnięcie:** serwer to rola „odpowiadającego”, a nie rodzaj obudowy; o tym, czy coś jest serwerem, decyduje to, czy odpowiada na prośby innych."
   },
   "zagmatwania": [

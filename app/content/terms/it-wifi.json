@@ -25,7 +25,7 @@
   ],
   "poLudzku": "Połączenie z siecią bez kabla, przez fale radiowe, w pobliżu routera.",
   "poziom1": "Wi-Fi to sposób łączenia urządzeń z siecią lokalną bez kabla. Działa na kilkadziesiąt metrów od routera, czyli urządzenia, które nadaje sygnał.",
-  "poziom2": "Sieć Wi-Fi ma nazwę (np. „Komenda-Goście”) i zwykle hasło. Bez hasła każdy w pobliżu mógłby się podłączyć. Wi-Fi to tylko „ostatni odcinek” – router dalej łączy się kablem z siecią i z Internetem.",
+  "poziom2": "Sieć Wi-Fi ma nazwę (np. „Firma-Goście”) i zwykle hasło. Bez hasła każdy w pobliżu mógłby się podłączyć. Wi-Fi to tylko „ostatni odcinek” – router dalej łączy się kablem z siecią i z Internetem.",
   "poziom3": "Nie jest terminem COBIT 5. Zabezpieczenie sieci bezprzewodowej to element usług bezpieczeństwa (DSS05 Zarządzanie usługami bezpieczeństwa).",
   "wyobrazSobie": "Krótkofalówka zamiast telefonu na kablu: działa bez przewodu, ale tylko w zasięgu.",
   "poCo": "Żeby łączyć się z siecią w dowolnym miejscu budynku bez ciągnięcia kabli.",
@@ -35,7 +35,7 @@
     "zycie": "W kawiarni prosisz o hasło do Wi-Fi. Po wpisaniu telefon łączy się z siecią kawiarni i przez nią z Internetem.",
     "biuro": "W sali konferencyjnej laptopy gości łączą się z Wi-Fi „Biuro-Goście”, które nie ma dostępu do folderów pracowników.",
     "organizacja": "Hotel ma osobne Wi-Fi dla gości i osobną sieć dla recepcji, żeby goście nie widzieli danych rezerwacji.",
-    "psp": "Strażacy w JRG 1 łączą tablety przez Wi-Fi w remizie. Komputery na SK są podłączone kablem, bo kabel jest pewniejszy.",
+    "admin": "Urząd miasta ma w holu bezpłatne Wi-Fi dla mieszkańców czekających w kolejce. Ta sieć jest oddzielona od sieci, w której urzędnicy pracują na danych mieszkańców. Hasło do sieci urzędników zna tylko referat informatyki, a służbowe laptopy łączą się z nią same.",
     "it": "Ochrona sieci bezprzewodowej to część zarządzania usługami bezpieczeństwa (DSS05)."
   },
   "nieMylicZ": [
@@ -60,7 +60,7 @@
   "zrodla": [],
   "glebokosc": {
     "prosty": "Radio w kuchni gra bez kabla do stacji radiowej, bo łapie fale. Ale gdy odejdziesz z odbiornikiem daleko, sygnał słabnie. Wi-Fi jest podobne – działa tylko blisko nadajnika.",
-    "zaawansowany": "W JRG 2 tablety strażaków tracą Wi-Fi w garażu, bo grube ściany tłumią fale. Ola Dudek dokłada drugi nadajnik. To nie naprawa [[it-internet|Internetu]], tylko lepszy zasięg sieci w budynku.",
+    "zaawansowany": "W magazynie sklepu internetowego skanery magazynierów tracą Wi-Fi między regałami, bo metalowe półki tłumią fale. Dział IT dokłada drugi nadajnik. To nie naprawa [[it-internet|Internetu]], tylko lepszy zasięg sieci w budynku.",
     "skrajny": "Czy „mam pełne Wi-Fi, a nic nie działa” to sprzeczność? Nie – sygnał do routera jest dobry, ale router może nie mieć Internetu. Czy otwarte Wi-Fi bez hasła jest bezpieczne? Każdy w pobliżu może się podłączyć i próbować podglądać, co przesyłasz. Czy „dane komórkowe” w telefonie to Wi-Fi? Nie, to łączność przez maszty operatora. **Rozstrzygnięcie:** Wi-Fi to tylko bezprzewodowy odcinek do routera w pobliżu; nie gwarantuje Internetu i wymaga ochrony hasłem."
   },
   "zagmatwania": [

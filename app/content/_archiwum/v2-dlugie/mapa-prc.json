@@ -1,0 +1,12 @@
+{
+ "pr-16-atlas-apo-a": "pr-k61-apo03-apo04",
+ "pr-17-atlas-apo-b": "pr-k62-apo05-apo07",
+ "pr-18-atlas-apo-c": "pr-k63-apo08-apo10",
+ "pr-19-atlas-apo-d": "pr-k64-apo11-apo13",
+ "pr-20-atlas-bai-a": "pr-k66-bai03-bai04",
+ "pr-21-atlas-bai-b": "pr-k67-bai05-bai07",
+ "pr-22-atlas-bai-c": "pr-k68-bai08-bai10",
+ "pr-23-atlas-dss-a": "pr-k69-dss01-dss03",
+ "pr-24-atlas-dss-b": "pr-k70-dss04-dss06",
+ "pr-25-atlas-mea": "pr-k71-mea01-mea03"
+}

@@ -35,7 +35,7 @@
     "zycie": "Telefon ma aparat (sprzęt) i program „Aparat”, który robi zdjęcie po dotknięciu ekranu. Gdy program się zawiesi, aparat jest sprawny, ale zdjęcia nie zrobisz.",
     "biuro": "Pani w sekretariacie pisze pismo w edytorze tekstu (programie do pisania), a potem je drukuje. Po południu ten sam komputer liczy faktury w innym programie.",
     "organizacja": "Szpital kupuje licencję (prawo do używania) programu do rejestracji pacjentów na 3 lata. Płaci za oprogramowanie, a nie za nowe komputery.",
-    "psp": "Na komputerze dyżurnej Kasi Nowik działa kilka programów: poczta, mapa okolicy i system powiadamiania „Syrena”. Komputer jest jeden, programów kilka.",
+    "admin": "Ministerstwo kupuje na 4 lata licencję (prawo do używania) programu do elektronicznego obiegu dokumentów dla 800 pracowników. Płaci za oprogramowanie, a komputery zostają te same. Po aktualizacji programu komputery mają nowe funkcje, choć nikt nie wymienił w nich żadnej części.",
     "it": "COBIT 5 rozróżnia oprogramowanie systemowe (część infrastruktury technicznej) i aplikacje (FW-PL s. 86)."
   },
   "nieMylicZ": [
@@ -67,7 +67,7 @@
   ],
   "glebokosc": {
     "prosty": "Ten sam odtwarzacz (sprzęt) gra różną muzykę, zależnie od płyty. Płyta z nagraniem jest jak program: zmienia to, co urządzenie robi, choć urządzenie zostaje to samo.",
-    "zaawansowany": "Ola Dudek instaluje na komputerze SK nową wersję programu „Syrena”. Sprzęt się nie zmienia, ale komputer zaczyna działać inaczej. Dlatego każda taka podmiana programu musi być zaplanowana – w lekcji 0A.8 nazwiemy ją [[it-zmiana|zmianą]].",
+    "zaawansowany": "Administrator instaluje na komputerach działu obsługi klienta nową wersję systemu CRM. Sprzęt się nie zmienia, ale komputer zaczyna działać inaczej. Dlatego każda taka podmiana programu musi być zaplanowana – w lekcji 0A.8 nazwiemy ją [[it-zmiana|zmianą]].",
     "skrajny": "Czy system operacyjny to aplikacja? Nie: oba są oprogramowaniem, ale system operacyjny obsługuje sam komputer, a aplikacja – zadanie człowieka. Czy program „wbudowany” w pralkę to oprogramowanie? Tak, choć nie da się go odinstalować. Czy dokument zapisany w edytorze to oprogramowanie? Nie, to dane. **Rozstrzygnięcie:** oprogramowanie to polecenia wykonywane przez sprzęt; to, co program tworzy albo pokazuje (teksty, zdjęcia, liczby), to dane."
   },
   "zagmatwania": [

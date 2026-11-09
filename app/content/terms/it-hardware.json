@@ -32,8 +32,8 @@
   "przyklady": {
     "zycie": "Telefon w Twojej dłoni: ekran, przyciski, bateria i aparat to sprzęt. Gdy upuścisz telefon i pęknie ekran, uszkodziłeś sprzęt – zdjęcia w środku mogą być całe.",
     "biuro": "Na biurku stoi komputer, monitor, klawiatura i drukarka. Gdy drukarka zacina papier, wzywasz kogoś od sprzętu, a nie od programów.",
-    "organizacja": "Urząd miasta kupuje 50 nowych komputerów i 10 drukarek. W budżecie to pozycja „sprzęt komputerowy”, osobna od opłat za programy.",
-    "psp": "Na stanowisku kierowania (SK) dyżurny Paweł Grab ma dwa monitory, klawiaturę, słuchawki z mikrofonem i komputer pod biurkiem. Wszystko to jest sprzętem.",
+    "organizacja": "Firma kurierska kupuje kierowcom 200 skanerów do paczek i 20 drukarek etykiet. To wydatek na sprzęt, osobny od opłaty za program do śledzenia przesyłek.",
+    "admin": "Urząd miasta kupuje 50 nowych komputerów i 10 drukarek. W budżecie to pozycja „sprzęt komputerowy”, osobna od opłat za programy.",
     "it": "W COBIT 5 sprzęt należy do infrastruktury technicznej w aktywatorze Usługi, infrastruktura i aplikacje (FW-PL s. 86)."
   },
   "nieMylicZ": [
@@ -65,7 +65,7 @@
   ],
   "glebokosc": {
     "prosty": "Pralka to sprzęt: bęben, silnik, drzwiczki. Program prania mówi jej, jak długo kręcić i jak mocno grzać wodę. Bez programu pralka stoi. Bez pralki program nie ma czego uruchomić.",
-    "zaawansowany": "Dyżurny Grab zgłasza: „komputer nie działa”. Informatyczka Ola Dudek najpierw pyta: „Czy ekran świeci? Czy słychać wentylator?”. Tak sprawdza, czy zawiódł sprzęt, czy [[it-software|oprogramowanie]]. Naprawia się je inaczej: sprzęt się wymienia, a program poprawia albo instaluje od nowa.",
+    "zaawansowany": "Pracownik księgowości zgłasza na helpdesk: „komputer nie działa”. Informatyczka najpierw pyta: „Czy ekran świeci? Czy słychać wentylator?”. Tak sprawdza, czy zawiódł sprzęt, czy [[it-software|oprogramowanie]]. Naprawia się je inaczej: sprzęt się wymienia, a program poprawia albo instaluje od nowa.",
     "skrajny": "Czy telefon to sprzęt? Sam telefon – tak. Ale aplikacja pogodowa w nim to już oprogramowanie, a prognoza, którą pokazuje, to dane. Czy pendrive (mała przenośna pamięć) z plikami to sprzęt? Pendrive tak, pliki na nim – nie. Przy awarii warto więc pytać: co dokładnie zawiodło – rzecz, program czy zapisane informacje? **Rozstrzygnięcie:** sprzęt to tylko to, co fizyczne; programy i dane zapisane w sprzęcie są czymś innym, nawet jeśli „siedzą” w tym samym urządzeniu."
   },
   "zagmatwania": [

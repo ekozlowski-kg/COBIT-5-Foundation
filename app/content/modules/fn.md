@@ -21,9 +21,9 @@ umiejetnosci:
 terminy: []
 # moduł FN nie wprowadza nowych haseł; to biegłość we wszystkich hasłach M0, PR, EN, IM i PC
 zadania:
-  - "Lekcja 10.1: finał z plików – ilustracje, załączniki i pułapki nazw, z omówieniem Sample Paper 1."
-  - "Lekcja 10.2: finał z internetu – pytania inspirowane publicznymi źródłami, sprawdzone z podręcznikiem."
-  - "Lekcja 10.3: finał mistrzowski – pytania przekrojowe."
+  - "Lekcje 10.10–10.12 (etap F1 – z plików): czytanie tabel i rysunków podręcznika, tabele kaskady jako wytyczna, profil ocen czytany od dołu i trzy znaczenia litery P; potem zestaw F1 i omówienie Sample Paper 1."
+  - "Lekcje 10.13–10.14 (etap F2 – z internetu): cztery kroki dla pytania z obcego źródła, rozpoznawanie pojęć z COBIT 2019; potem zestaw F2."
+  - "Lekcje 10.15–10.17 (etap F3 – mistrzowskie): rodzaje pytań przekrojowych, wdrożenie z kaskadą i luką zdolności, kto monitoruje; potem zestaw F3."
   - "Egzamin mistrzowski ×2 (METODYKA §15.3) i projekt końcowy."
 kryteria:
   wiedza: 70
@@ -43,7 +43,7 @@ bibliografia:
 
 # Synteza modułu
 
-Finał sprawdza, czy COBIT 5 masz w głowie jako jeden system, a nie jako listę haseł. Rozwiązujesz pytania przekrojowe, które łączą zasady (Principles), aktywatory (Enablers), wdrożenie (Implementation) i model zdolności (Process Capability), i każde rozstrzygasz regułą z podręcznika, z rysunkiem lub stroną na poparcie. Czytasz ilustracje i załączniki tak, jak robi to asesor, rozpoznajesz pułapki nazw polskiego arkusza i umiesz poprawić błędne pytanie z internetu. Egzamin mistrzowski na poziomie co najmniej 40/50 i projekt końcowy pokazują, że jesteś gotowy do prawdziwego egzaminu i do tłumaczenia COBIT 5 innym jako mentor.
+Finał sprawdza, czy COBIT 5 masz w głowie jako jeden system, a nie jako listę haseł. Rozwiązujesz pytania przekrojowe, które łączą zasady (Principles), aktywatory (Enablers), wdrożenie (Implementation) i model zdolności (Process Capability), i każde rozstrzygasz regułą z podręcznika, z rysunkiem lub stroną na poparcie. Czytasz ilustracje i załączniki tak, jak robi to asesor albo audytor w banku czy szpitalu, rozpoznajesz pułapki nazw polskiego arkusza i umiesz poprawić błędne pytanie z internetu. Egzamin mistrzowski na poziomie co najmniej 40/50 i projekt końcowy pokazują, że jesteś gotowy do prawdziwego egzaminu i do tłumaczenia COBIT 5 innym jako mentor.
 
 # Powtórka terminów
 
@@ -56,7 +56,7 @@ Finał sprawdza, czy COBIT 5 masz w głowie jako jeden system, a nie jako listę
 - Enabler dimensions: Stakeholders, Goals, Life cycle, Good practices – Wymiary aktywatora: interesariusze, cele, cykl życia, dobre praktyki
 - Lead / Lag indicators – Wskaźniki wiodące / opóźnione
 - EDM / PBRM – Oszacuj, Kieruj i Monitoruj / Planuj, Twórz, Wykonuj i Monitoruj
-- RACI: Responsible, Accountable, Consulted, Informed – Odpowiedzialny wykonawczo, Rozliczany, Konsultowany, Informowany
+- RACI: Responsible, Accountable, Consulted, Informed – Odpowiedzialny wykonawczo, Odpowiedzialny decyzyjnie, Konsultant, Informowany
 - Programme management / Change enablement / Continual improvement life cycle – Zarządzanie programem / Aktywowanie zmiany / Główny cykl życia ciągłego doskonalenia
 - Business case – Uzasadnienie biznesowe
 - Process Capability Model – Model Zdolności Procesu

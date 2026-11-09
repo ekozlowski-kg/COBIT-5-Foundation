@@ -38,22 +38,21 @@
     "biuro": "Zmiana dostawcy tonera obchodzi nie tylko kierownika, który podpisuje umowę. Obchodzi też pracowników, którym drukarka zaczyna smużyć, księgowość płacącą faktury i klientów czekających na wydruk umowy. Wszyscy oni są interesariuszami tej decyzji.",
     "firma": "Właściciel piekarni kupuje na kredyt nowy piec. Piekarze martwią się, czy ogarną nową obsługę, klienci liczą na świeże bułki od szóstej, bank pyta o spłatę rat, a sanepid przyjdzie sprawdzić, czy wszystko jest zgodnie z przepisami. Każdy z nich coś zyska albo straci na tej decyzji: piekarze to interesariusze wewnętrzni, klienci, bank i sanepid – zewnętrzni.",
     "admin": "Urząd gminy przenosi zapisy do przedszkoli do internetu. Rodzice chcą zapisać dziecko z telefonu, dyrektorki przedszkoli boją się bałaganu na listach, a babcia, która wychowuje wnuka, nie ma komputera i pyta, czy dalej może przyjść z papierem. Wszyscy oni są interesariuszami tej zmiany – również babcia, która z systemu nigdy nie skorzysta.",
-    "psp": "Komenda powiatowa przechodzi na nową wersję SWD-PSP na stanowisku kierowania. Dyżurni uczą się nowych ekranów, dowódcy zmian w JRG i naczelnicy OSP pytają, czy alarmowanie dalej zadziała, CPR 112 musi bez przerwy przekazywać zgłoszenia, a KW PSP wyznacza termin przejścia dla całego województwa. Mieszkaniec, który dzwoni z pożarem, nic o tej zmianie nie wie, ale jeśli system padnie, odczuje to pierwszy – on też jest interesariuszem.",
     "it": "W EDM05 (Zapewnienie przejrzystości dotyczącej interesariuszy) zarząd ustala, którym interesariuszom i jak raportuje wyniki IT, np. udziałowcom raport kwartalny, a regulatorowi wymagane sprawozdania. Relacje z interesariuszami biznesowymi wewnątrz organizacji prowadzi APO08 (Zarządzanie relacjami)."
   },
   "glebokosc": {
     "prosty": "Sąsiedzi z kamienicy decydują, czy wyciąć stare drzewo na podwórku. Pani z parteru zyska światło w kuchni, dzieci stracą cień do zabawy, a pan, który bywa tu tylko w weekendy, dołoży się do kosztów wycinki. Każde z nich jest interesariuszem, choć decyzję podpisze tylko zarządca.",
-    "zaawansowany": "Gdy Syrena nie wysłała SMS-a do OSP Zawilce, skutki poczuła Zofia Kaczmarek – nigdy nie dotknęła systemu, a straciła strych. Jest interesariuszem zewnętrznym, tak jak dh Pietrzak (partner), Igor Wolny (dostawca) i mł. bryg. Ostrowska (regulator). Dyżurni Grab i Nowik oraz dowódca zmiany Dąb to interesariusze wewnętrzni. Ich [[potrzeba|potrzeby]] są różne, a czasem sprzeczne, i właśnie od nich startuje [[kaskada-celow|kaskada celów]]. Komendantka Wrzos jako Ład musi te oczekiwania wyważyć, zanim powstanie jakikolwiek cel.",
-    "skrajny": "Ewa Lis jest audytorką wewnętrzną komendy, a mł. bryg. Ostrowska kontroluje komendę z zewnątrz. Obie sprawdzają, czy procesy działają, więc kusi, by wrzucić je do jednego worka „audyt”. COBIT 5 dzieli jednak interesariuszy na wewnętrznych i zewnętrznych, a nie według tego, czym się zajmują: audyt wewnętrzny to interesariusz wewnętrzny, a regulatorzy i audytorzy zewnętrzni – zewnętrzni (Ilustracja 7). Drugi przypadek graniczny: dh Pietrzak dostaje alarmy z Syreny, więc jest jej użytkownikiem, a mimo to OSP Zawilce to partner zewnętrzny, bo nie jest częścią komendy. Kategorii nie wyznacza więc korzystanie z systemu ani rola kontrolna, tylko położenie względem organizacji. **Rozstrzygnięcie:** wewnętrzny albo zewnętrzny zależy od tego, czy ktoś należy do organizacji; to, czy korzysta z systemu, decyduje albo kontroluje, kategorii nie zmienia (interpretacja kursu)."
+    "zaawansowany": "Gdy bank przez pół dnia nie wysyłał kodów SMS, skutki poczuła klientka, która nie zapłaciła na czas rachunku – nigdy nie dotknęła systemu, a straciła pieniądze na odsetkach. Jest interesariuszem zewnętrznym, tak jak partner biznesowy, dostawca bramki SMS i regulator. Pracownicy helpdesku i kierownik zmiany to interesariusze wewnętrzni. Ich [[potrzeba|potrzeby]] są różne, a czasem sprzeczne, i właśnie od nich startuje [[kaskada-celow|kaskada celów]]. Zarząd jako Ład musi te oczekiwania wyważyć, zanim powstanie jakikolwiek cel.",
+    "skrajny": "Audytor wewnętrzny banku i inspektor regulatora sprawdzają, czy procesy działają, więc kusi, by wrzucić ich do jednego worka „audyt”. COBIT 5 dzieli jednak interesariuszy na wewnętrznych i zewnętrznych, a nie według tego, czym się zajmują: audyt wewnętrzny to interesariusz wewnętrzny, a regulatorzy i audytorzy zewnętrzni – zewnętrzni (Ilustracja 7). Drugi przypadek graniczny: firma kurierska korzysta z systemu sklepu internetowego do śledzenia przesyłek, więc jest jego użytkownikiem, a mimo to pozostaje partnerem zewnętrznym, bo nie jest częścią sklepu. Kategorii nie wyznacza więc korzystanie z systemu ani rola kontrolna, tylko położenie względem organizacji. **Rozstrzygnięcie:** wewnętrzny albo zewnętrzny zależy od tego, czy ktoś należy do organizacji; to, czy korzysta z systemu, decyduje albo kontroluje, kategorii nie zmienia (interpretacja kursu)."
   },
   "zagmatwania": [
     {
       "mit": "Interesariusz to ten, kto korzysta z systemu albo o nim decyduje.",
-      "prawda": "Wystarczy mieć oczekiwania wobec organizacji, odpowiadać za nią albo mieć w niej udział. Mieszkanka Lipowej 7 nie dotyka Syreny, a jest interesariuszem."
+      "prawda": "Wystarczy mieć oczekiwania wobec organizacji, odpowiadać za nią albo mieć w niej udział. Klientka banku, która nigdy nie zalogowała się do bankowości internetowej, i tak jest interesariuszem."
     },
     {
       "mit": "Interesariusz to udziałowiec (akcjonariusz).",
-      "prawda": "Udziałowiec to tylko jeden z interesariuszy. W urzędzie czy komendzie udziałowców nie ma wcale, a interesariuszy jest wielu."
+      "prawda": "Udziałowiec to tylko jeden z interesariuszy. W urzędzie czy szpitalu publicznym udziałowców nie ma wcale, a interesariuszy jest wielu."
     },
     {
       "mit": "Audytor zawsze jest interesariuszem zewnętrznym, bo patrzy z boku.",
@@ -63,8 +62,8 @@
   "mentor": {
     "czestyBlad": "Zawężanie interesariuszy do użytkowników i decydentów oraz zaliczanie audytu wewnętrznego do interesariuszy zewnętrznych.",
     "jakTlumaczyc": "Zacznij od pytania: „Kto coś zyska albo straci, jeśli to się uda lub nie uda?”. Wypisz wszystkich, a dopiero potem podziel ich jedną kreską: kto jest w organizacji, a kto poza nią.",
-    "pytanieKontrolne": "Czy mieszkaniec Modrzewiowa, który nigdy nie dzwonił pod 112, jest interesariuszem komendy? Czy audytorka Lis jest interesariuszem wewnętrznym, czy zewnętrznym?",
-    "odpowiedzKontrolna": "Mieszkaniec – tak: ma wobec komendy oczekiwania (szybka pomoc, gdy będzie potrzebna) i poniesie skutki jej działania, choć z żadnego systemu nie korzysta. Audytorka Lis – wewnętrzny, bo audyt wewnętrzny należy do organizacji; to, że kontroluje, nie robi z niej interesariusza zewnętrznego."
+    "pytanieKontrolne": "Czy mieszkaniec gminy, który nigdy nie załatwiał sprawy przez internet, jest interesariuszem urzędu? Czy audytor wewnętrzny urzędu jest interesariuszem wewnętrznym, czy zewnętrznym?",
+    "odpowiedzKontrolna": "Mieszkaniec – tak: ma wobec urzędu oczekiwania (sprawna obsługa, gdy będzie potrzebna) i poniesie skutki jego działania, choć z żadnego systemu nie korzysta. Audytor wewnętrzny – wewnętrzny, bo audyt wewnętrzny należy do organizacji; to, że kontroluje, nie robi z niego interesariusza zewnętrznego."
   },
   "nieMylicZ": [
     {
@@ -73,7 +72,7 @@
     },
     {
       "termin": "Użytkownik systemu",
-      "roznica": "Użytkownik jest interesariuszem, ale interesariuszem może być też ktoś, kto z systemu w ogóle nie korzysta (np. mieszkaniec czekający na zastęp)."
+      "roznica": "Użytkownik jest interesariuszem, ale interesariuszem może być też ktoś, kto z systemu w ogóle nie korzysta (np. pacjent czekający na wynik badania)."
     },
     {
       "termin": "Decydent",

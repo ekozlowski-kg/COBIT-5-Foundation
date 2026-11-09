@@ -1,13 +1,13 @@
 {
   "pytania": [
     {
-      "id": "q-pre-m0-01-interesariusz",
+      "id": "q-pre-m0-12-rozne-oczekiwania",
       "typ": "rozpoznanie",
       "pretest": true,
       "sylabus": [
         "M0-00-01"
       ],
-      "lekcja": "m0-01-interesariusz",
+      "lekcja": "m0-12-rozne-oczekiwania",
       "bloom": "wiedza",
       "trudnosc": 1,
       "tresc": "Mieszkaniec, który nigdy nie korzysta z systemu stanowiska kierowania, ale czeka na przyjazd zastępu – czy jest interesariuszem tego systemu?",
@@ -39,13 +39,13 @@
       ]
     },
     {
-      "id": "q-pre-m0-02-potrzeba",
+      "id": "q-pre-m0-15-wyznacznik-z-czym-nie-mylic",
       "typ": "rozpoznanie",
       "pretest": true,
       "sylabus": [
         "PR-02-02"
       ],
-      "lekcja": "m0-02-potrzeba",
+      "lekcja": "m0-15-wyznacznik-z-czym-nie-mylic",
       "bloom": "wiedza",
       "trudnosc": 1,
       "tresc": "Co jest przykładem czynnika, który ZMIENIA potrzeby interesariuszy?",
@@ -77,13 +77,13 @@
       ]
     },
     {
-      "id": "q-pre-m0-03-wartosc",
+      "id": "q-pre-m0-18-optymalizacja",
       "typ": "rozpoznanie",
       "pretest": true,
       "sylabus": [
         "M0-00-03"
       ],
-      "lekcja": "m0-03-wartosc",
+      "lekcja": "m0-18-optymalizacja",
       "bloom": "wiedza",
       "trudnosc": 1,
       "tresc": "Wdrożono system zgodnie z umową, ale nikt go nie używa. Co osiągnięto?",
@@ -110,13 +110,13 @@
       ]
     },
     {
-      "id": "q-pre-m0-04-ryzyko-zasob",
+      "id": "q-pre-m0-22-zasob",
       "typ": "rozpoznanie",
       "pretest": true,
       "sylabus": [
         "M0-00-04"
       ],
-      "lekcja": "m0-04-ryzyko-zasob",
+      "lekcja": "m0-22-zasob",
       "bloom": "wiedza",
       "trudnosc": 1,
       "tresc": "Jaki jest cel zarządzania ryzykiem według COBIT 5?",
@@ -148,84 +148,13 @@
       ]
     },
     {
-      "id": "q-pre-m0-05-proces-projekt",
-      "typ": "rozpoznanie",
-      "pretest": true,
-      "sylabus": [
-        "M0-00-05"
-      ],
-      "lekcja": "m0-05-proces-projekt",
-      "bloom": "wiedza",
-      "trudnosc": 1,
-      "tresc": "Codzienne przyjmowanie zgłoszeń alarmowych to:",
-      "zrodlo": [],
-      "status": "uproszczenie",
-      "opcje": [
-        {
-          "tekst": "Proces",
-          "poprawna": true,
-          "wyjasnienie": "Działanie ciągłe i powtarzalne."
-        },
-        {
-          "tekst": "Projekt",
-          "poprawna": false,
-          "wyjasnienie": "Projekt jest jednorazowy.",
-          "zycie": "W życiu to tak, jakbyś codzienne odbieranie dziecka ze szkoły nazwał jednorazową wyprawą."
-        },
-        {
-          "tekst": "Program",
-          "poprawna": false,
-          "wyjasnienie": "Program to zbiór powiązanych projektów.",
-          "zycie": "W życiu to tak, jakbyś codzienne gotowanie obiadu nazwał planem kilku remontów w całym domu."
-        }
-      ]
-    },
-    {
-      "id": "q-pre-m0-06-lad-zarzadzanie",
-      "typ": "rozpoznanie",
-      "pretest": true,
-      "sylabus": [
-        "M0-00-06"
-      ],
-      "lekcja": "m0-06-lad-zarzadzanie",
-      "bloom": "wiedza",
-      "trudnosc": 1,
-      "tresc": "Komendant ustala priorytet „skrócić czas dysponowania” i co kwartał sprawdza postępy. To przykład:",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 14
-        }
-      ],
-      "status": "oficjalne",
-      "opcje": [
-        {
-          "tekst": "Ładu",
-          "poprawna": true,
-          "wyjasnienie": "Kierowanie (priorytety) i monitorowanie kierunku to Ład."
-        },
-        {
-          "tekst": "Zarządzania",
-          "poprawna": false,
-          "wyjasnienie": "Zarządzanie planuje i realizuje – nie wyznacza kierunku.",
-          "zycie": "W życiu to tak, jakbyś decyzję rodziców „w tym roku oszczędzamy” pomylił z robieniem zakupów według listy."
-        },
-        {
-          "tekst": "Audytu",
-          "poprawna": false,
-          "wyjasnienie": "Audyt to niezależna ocena.",
-          "zycie": "W życiu to tak, jakbyś decyzję rodziców „oszczędzamy” pomylił z kontrolą rachunków przez niezależnego księgowego."
-        }
-      ]
-    },
-    {
-      "id": "q-pre-m0-07-cobit-standardy",
+      "id": "q-pre-m0-32-liczby-cobit-5",
       "typ": "rozpoznanie",
       "pretest": true,
       "sylabus": [
         "M0-00-07"
       ],
-      "lekcja": "m0-07-cobit-standardy",
+      "lekcja": "m0-32-liczby-cobit-5",
       "bloom": "wiedza",
       "trudnosc": 1,
       "tresc": "Ile procesów zawiera model referencyjny COBIT 5?",
@@ -257,13 +186,13 @@
       ]
     },
     {
-      "id": "q-pre-m0-08-egzamin",
+      "id": "q-pre-m0-35-litera-p",
       "typ": "rozpoznanie",
       "pretest": true,
       "sylabus": [
         "M0-00-08"
       ],
-      "lekcja": "m0-08-egzamin",
+      "lekcja": "m0-35-litera-p",
       "bloom": "wiedza",
       "trudnosc": 1,
       "tresc": "Na polskim egzaminie termin „Aktywator” odpowiada w podręczniku PL:",

@@ -25,7 +25,7 @@
     "optymalizacja-zasobow"
   ],
   "poLudzku": "Szefostwo pilnuje, żeby ludzi, pieniędzy i sprzętu do informatyki było tyle, ile trzeba, i żeby ich nie marnować.",
-  "wyobrazSobie": "Dowódca wyprawy w góry sprawdza, czy starczy ludzi, jedzenia i sprzętu, i decyduje, co zabrać. Plecaków sam nie pakuje.",
+  "wyobrazSobie": "Zarząd szpitala sprawdza, czy na nowy oddział starczy lekarzy, pieniędzy i sprzętu, i decyduje, jak je rozdzielić. Grafików pracy sam nie układa.",
   "poCo": "Żeby IT miało dość ludzi, pieniędzy i technologii do realizacji celów i żeby tych zasobów nie marnować.",
   "jakDziala": "Organ Ładu ocenia, czy zasoby IT wystarczają i czy są dobrze używane. Ustala zasady ich zdobywania i podziału oraz priorytety. Monitoruje, czy zasoby są wykorzystywane optymalnie, i koryguje kierunek.",
   "dlaczegoWazne": "EDM04 to trzeci składnik Celu Ładu (zasoby). Polskie słowo „zasoby” występuje też w APO07 i BAI09, więc to częsta pułapka tłumaczenia.",
@@ -36,8 +36,8 @@
   "przyklady": {
     "zycie": "Planujesz przeprowadzkę. Sprawdzasz, czy wystarczy rąk do noszenia, pieniędzy na auto i czasu. Sam nie nosisz kartonów. Decydujesz, ile czego potrzeba i czy niczego nie marnujesz. To EDM04.",
     "biuro": "Właścicielka biura rachunkowego widzi, że trzy osoby czekają na jedną drukarkę, a dwa laptopy leżą w szafie. Decyduje: laptopy wracają do pracy, a na drukarkę dokłada pieniądze. Wykonanie zleca kierowniczce.",
-    "organizacja": "Zarząd firmy kurierskiej widzi, że dwóch programistów obsługuje dziesięć systemów, a serwery stoją w połowie puste. Każe przesunąć pieniądze ze sprzętu na ludzi. Dyrektor IT wykonuje to w swoich procesach. Zarząd sprawdza efekt po kwartale. Starosta widzi, że każdy wydział kupuje własne skanery i programy. Decyduje: jeden wspólny zakup i jeden informatyk na trzy wydziały. Potem sprawdza, czy zasoby nie leżą odłogiem. To EDM04.",
-    "psp": "**Kto umie obsłużyć Syrenę.** Komendantka Anna Wrzos dowiaduje się, że tylko dyżurny Grab zna tryb awaryjny Syreny. Ocenia, że ludzi jest za mało, a serwer pod schodami jest za słaby. Kieruje: „Dwie osoby na każdą kluczową czynność i pieniądze na drugi serwer”. Monitoruje to na odprawach. Szkolenia organizuje już Sikora ([[proc-apo07|APO07]]), a Wrzos działa w [[proc-edm04|EDM04]].",
+    "organizacja": "Zarząd firmy kurierskiej widzi, że dwóch programistów obsługuje dziesięć systemów, a serwery stoją w połowie puste. Każe przesunąć pieniądze ze sprzętu na ludzi. Dyrektor IT wykonuje to w swoich procesach. Zarząd sprawdza efekt po kwartale.",
+    "admin": "Starosta widzi, że każdy wydział kupuje własne skanery i programy, a część sprzętu stoi nieużywana. Decyduje: jeden wspólny zakup i jeden informatyk na trzy wydziały. Potem sprawdza, czy zasoby nie leżą odłogiem. To EDM04.",
     "it": "Zarząd ocenia, że dział IT ma za mało specjalistów od chmury i za dużo nieużywanych licencji. Ustala kierunek: mniej licencji, więcej szkoleń. Wykonują to [[proc-apo07]] i BAI09."
   },
   "nieMylicZ": [
@@ -93,7 +93,7 @@
   "mapa": "proc-edm04",
   "glebokosc": {
     "prosty": "Prowadzisz dom. Sprawdzasz, czy starcza pieniędzy, czasu i rąk do pracy. Decydujesz: w tym roku mniej na sprzęt, więcej na kurs dla syna. Sam niczego nie kupujesz. Ustalasz, na co idą zasoby.",
-    "zaawansowany": "Komendantka Wrzos widzi, że Syrena ma jednego eksperta i jeden serwer. Kieruje: drugi serwer i drugi przeszkolony dyżurny. Naczelnik Sikora szkoli ludzi w [[proc-apo07]], a ewidencję serwerów i licencji prowadzi w BAI09. Wrzos monitoruje, czy zasoby wystarczają i nie są marnowane. Jej część to EDM04.",
+    "zaawansowany": "Zarząd ubezpieczyciela widzi, że system likwidacji szkód ma jednego eksperta i jeden serwer. Kieruje: drugi serwer i drugi przeszkolony specjalista. Dyrektor IT szkoli ludzi w [[proc-apo07]], a ewidencję serwerów i licencji prowadzi w BAI09. Zarząd monitoruje, czy zasoby wystarczają i nie są marnowane. Jego część to EDM04.",
     "skrajny": "Na egzaminie widzisz słowo „zasoby”. Po polsku pasują trzy procesy. „Ewidencja laptopów i licencji przez cały cykl życia” to BAI09 *Manage Assets*. „Plan szkoleń i zastępstw w kluczowych rolach” to APO07 *Human Resources*. „Zarząd ocenia, czy IT ma dość ludzi, pieniędzy i technologii, i ustala zasady ich podziału” to EDM04. Podręcznik PL nazywa BAI09 „Zarządzanie zasobami”, co jeszcze bardziej miesza. **Rozstrzygnięcie:** kierunek i nadzór nad *wszystkimi* zasobami → EDM04; ludzie → APO07; konkretne aktywa (sprzęt, licencje) → BAI09."
   },
   "zagmatwania": [

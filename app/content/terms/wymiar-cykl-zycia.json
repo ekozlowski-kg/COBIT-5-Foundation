@@ -35,8 +35,8 @@
   "przyklady": {
     "zycie": "Domowy regulamin korzystania z telefonu ma swoje życie. Wymyślacie go, spisujecie, wieszacie na lodówce i stosujecie. Po miesiącu sprawdzacie, czy działa. Gdy dziecko dorasta, zmieniacie go albo znosicie.",
     "biuro": "Szablon umowy w biurze ktoś zaprojektował, wdrożył i używa się go od lat. Raz w roku prawnik go przegląda, a po zmianie przepisów stary szablon trafia do archiwum.",
-    "organizacja": "Formularz zamówienia w hurtowni zaczyna się od pomysłu, potem grafik go projektuje, a informatyk wstawia na stronę. Klienci go używają, a kierownik co kwartał sprawdza, które pola sprawiają kłopot. W końcu formularz zastępuje aplikacja.\n\nProcedura przyjmowania skarg w urzędzie zostaje zaplanowana, napisana i wprowadzona zarządzeniem. Urzędnicy ją stosują, a audytor raz w roku ją ocenia. Po zmianie przepisów stara wersja zostaje uchylona.",
-    "psp": "**Lista, która się starzeje** Kpt. Marek Sikora rysuje cykl życia listy numerów OSP. Jest tam zaplanowanie, zaprojektowanie pól i wprowadzenie do Syreny. Potem codzienne używanie, comiesięczne sprawdzanie oraz aktualizacja albo usuwanie starych numerów. Numer druha Pietrzaka był nieaktualny, bo nikt nie dbał o ocenę i aktualizację. To wymiar „Cykl życia” w praktyce.",
+    "organizacja": "Formularz zamówienia w hurtowni zaczyna się od pomysłu, potem grafik go projektuje, a informatyk wstawia na stronę. Klienci go używają, a kierownik co kwartał sprawdza, które pola sprawiają kłopot. W końcu formularz zastępuje aplikacja.",
+    "admin": "Procedura przyjmowania skarg w urzędzie miasta zostaje zaplanowana, napisana i wprowadzona zarządzeniem prezydenta. Urzędnicy ją stosują, a audytor raz w roku ją ocenia. Po zmianie przepisów stara wersja zostaje uchylona i zastąpiona nową.",
     "it": "Przykład 5 z FW-PL: proces trzeba utworzyć, realizować, monitorować i dostosowywać, a w końcu przestaje istnieć. Po drodze można podnosić jego zdolność według Modelu potencjału procesu (s. 30)."
   },
   "nieMylicZ": [
@@ -96,8 +96,8 @@
   "mapa": "wymiar-cykl-zycia",
   "glebokosc": {
     "prosty": "Samochód w rodzinie: najpierw wybieracie model, potem go kupujecie, jeździcie nim, co rok robicie przegląd, a w końcu go sprzedajecie. Każda rzecz ma takie „życie”. Dbać o nie trzeba na każdym etapie, nie tylko przy zakupie.",
-    "zaawansowany": "Audytorka Ewa Lis pyta Sikorę: „Kto dba o listę numerów po wdrożeniu?”. Nikt, bo projekt Syreny skończył się na zakupie. Lis mierzy to [[wskaznik-wiodacy|wskaźnikiem wiodącym]]: odsetkiem numerów sprawdzonych w miesiącu. Taki wskaźnik ostrzega, zanim alarm nie dojdzie. Czas dotarcia alarmu to wynik, czyli [[wskaznik-opozniony|wskaźnik opóźniony]].",
-    "skrajny": "Komenda jest w fazie 5 wdrożenia COBIT 5 („Jak się tam dostaniemy?”). W tym samym czasie nowa procedura alarmowania jest dopiero w fazie 2 swojego cyklu życia, czyli w projektowaniu. To nie jest sprzeczność. Siedem faz wdrożenia dotyczy całego programu zmian. Sześć faz cyklu życia dotyczy każdego aktywatora z osobna. W jednym programie wiele aktywatorów bywa na różnych etapach życia. **Rozstrzygnięcie:** 7 faz to wdrożenie COBIT 5 (IM), 6 faz to życie pojedynczego aktywatora; nie łącz ich numerów (równoległość etapów to interpretacja kursu)."
+    "zaawansowany": "Audytorka wewnętrzna pyta kierownika działu IT: „Kto dba o bazę kontaktów klientów po wdrożeniu?”. Nikt, bo projekt nowego systemu powiadomień skończył się na zakupie. Audytorka mierzy to [[wskaznik-wiodacy|wskaźnikiem wiodącym]]: odsetkiem numerów sprawdzonych w miesiącu. Taki wskaźnik ostrzega, zanim powiadomienie nie dojdzie. Czas doręczenia powiadomienia to wynik, czyli [[wskaznik-opozniony|wskaźnik opóźniony]].",
+    "skrajny": "Bank jest w fazie 5 wdrożenia COBIT 5 („Jak się tam dostaniemy?”). W tym samym czasie nowa procedura obsługi incydentów jest dopiero w fazie 2 swojego cyklu życia, czyli w projektowaniu. To nie jest sprzeczność. Siedem faz wdrożenia dotyczy całego programu zmian. Sześć faz cyklu życia dotyczy każdego aktywatora z osobna. W jednym programie wiele aktywatorów bywa na różnych etapach życia. **Rozstrzygnięcie:** 7 faz to wdrożenie COBIT 5 (IM), 6 faz to życie pojedynczego aktywatora; nie łącz ich numerów (równoległość etapów to interpretacja kursu)."
   },
   "zagmatwania": [
     {
@@ -115,7 +115,7 @@
   ],
   "mentor": {
     "czestyBlad": "Mylenie 6 faz aktywatora z 7 fazami wdrożenia.",
-    "jakTlumaczyc": "Aktywator to pojedynczy wóz w remizie: ma swoje życie od zakupu do kasacji (6 faz). Wdrożenie to program modernizacji całej floty (7 faz). We flocie są wozy w różnych fazach.",
+    "jakTlumaczyc": "Aktywator to pojedynczy samochód we flocie firmy: ma swoje życie od zakupu do kasacji (6 faz). Wdrożenie to program wymiany całej floty (7 faz). We flocie są samochody w różnych fazach.",
     "pytanieKontrolne": "Ile faz ma cykl życia aktywatora i jakim wskaźnikiem mierzysz, czy jest zarządzany?",
     "odpowiedzKontrolna": "**6 faz**; mierzysz to **wskaźnikiem wiodącym**."
   }

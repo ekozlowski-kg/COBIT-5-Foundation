@@ -9,6 +9,10 @@
     {
       "nazwa": "Praktyka Ładu (gdy *governance* tłumaczy się jako „Ład”)",
       "zrodlo": "uproszczenie"
+    },
+    {
+      "nazwa": "Praktyki procesu",
+      "zrodlo": "SP1"
     }
   ],
   "statusTlumaczenia": "A",
@@ -16,7 +20,7 @@
     "wydawcaEgzaminu": "Praktyka nadzoru / zarządzania",
     "podrecznik": "Praktyka nadzoru/zarządzania",
     "kurs": "Praktyka nadzoru / zarządzania (Governance / management practice)",
-    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 91 (słownik: „Praktyka nadzoru/zarządzania”); por. s. 70 (praktyki nadzoru/zarządzania). Inne formy w obiegu: Praktyka Ładu (gdy *governance* tłumaczy się jako „Ład”) (uproszczenie)."
+    "uwaga": "SP1: „praktyka zarządzania”, „Praktyki procesu”; forma „praktyka nadzoru” tylko w podręczniku (FW-PL s. 70, 91)."
   },
   "pulapka": true,
   "pulapkaOpis": "Podręcznik: „praktyka nadzoru/zarządzania” (GP/MP). Egzamin tłumaczy *governance* jako „Ład”, więc możesz spotkać „praktyka Ładu”. To ten sam element. Nie myl z „praktyką bazową” z modelu oceny zdolności.",
@@ -41,14 +45,14 @@
   "przyklady": {
     "zycie": "Plan „Dbaj o zdrowie rodziny” ma kilka dużych punktów: szczepienia, regularne badania, zdrowe jedzenie. Każdy punkt to praktyka: mówi, co robić, ale jeszcze nie jak. Szczegóły, np. „w marcu umów cytologię”, to już działania.",
     "biuro": "W biurze obsługi klienta procedura „Obsłuż reklamację” ma trzy praktyki: przyjmij, rozpatrz, odpowiedz. Kierowniczka pomija praktykę „przekaż do działu prawnego”, bo biuro go nie ma, i zapisuje to jako świadomą decyzję.",
-    "organizacja": "Właściciel sklepu internetowego bierze z COBIT 5 praktykę „Zarządzaj dostawcami”. Nie wdraża jej słowo w słowo: ma tylko dwóch dostawców, więc upraszcza ją do jednego przeglądu rocznie. Praktyki są typowe, więc wolno, a nawet trzeba je dopasować. Informatyk powiatu przegląda praktyki procesu kopii zapasowych. Jedną praktykę starosta świadomie pomija, bo urząd nie ma drugiej serwerowni. Zapisuje to jako zaakceptowane ryzyko. Tak COBIT 5 każe postępować z praktykami, których się nie wdraża.",
-    "psp": "Naczelnik Marek Sikora wybiera dla komendy w Modrzewiowie praktyki procesu obsługi incydentów. Bierze rejestrowanie zgłoszeń i przywracanie działania usługi. Pomija praktykę, która zakłada całodobowy dział wsparcia IT, bo komenda go nie ma. Komendantka Anna Wrzos podpisuje akceptację tego ryzyka.",
+    "organizacja": "Właściciel sklepu internetowego bierze z COBIT 5 praktykę „Zarządzaj dostawcami”. Nie wdraża jej słowo w słowo: ma tylko dwóch dostawców, więc upraszcza ją do jednego przeglądu rocznie. Praktyki są typowe, więc wolno, a nawet trzeba je dopasować.",
+    "admin": "Informatyk starostwa powiatowego przegląda praktyki procesu kopii zapasowych i ciągłości działania. Jedną praktykę starosta świadomie pomija, bo urząd nie ma drugiej serwerowni. Zapisuje to jako zaakceptowane ryzyko – tak COBIT 5 każe postępować z praktykami, których się nie wdraża.",
     "it": "Proces APO12 (Zarządzanie ryzykiem) dzieli się na praktyki, np. zbieranie danych o ryzyku, analiza ryzyka, reagowanie na ryzyko. Organizacja dopasowuje je do swojej wielkości, a pominięcie którejś akceptuje kierownictwo."
   },
   "glebokosc": {
     "prosty": "Lista „Przygotuj dom do zimy” ma kilka dużych punktów: uszczelnij okna, sprawdź piec, kup sól na chodnik. Każdy punkt mówi, co zrobić, ale nie rozpisuje kroków. To są praktyki. Jeśli nie masz chodnika, punkt o soli pomijasz.",
-    "zaawansowany": "Sikora czyta opis procesu w przewodniku i widzi praktyki, a pod każdą listę [[dzialanie-procesu|działań]]. Wybiera praktyki potrzebne komendzie i dopasowuje je, bo są typowe. Przy każdej praktyce zapisuje [[wejscia-wyjscia|wejścia i wyjścia]], np. zgłoszenie z SK na wejściu i wpis w rejestrze na wyjściu. Jedną praktykę pomija, a komendantka podpisuje akceptację ryzyka.",
-    "skrajny": "Inspektorka Ostrowska z komendy wojewódzkiej zarzuca: „Nie wdrożyliście wszystkich praktyk COBIT 5, więc jesteście niezgodni”. Sikora odpowiada, że COBIT 5 nie ma charakteru normatywnego, a praktyki są typowe. Organizacja wybiera właściwe, może dodać nowe i dopasować istniejące. Za pominięcie płaci się jednak świadomie: kierownictwo musi zaakceptować ryzyko niewdrożenia. Pominięcie bez decyzji to zaniedbanie, a nie wybór. **Rozstrzygnięcie:** nie trzeba wdrażać wszystkich praktyk. Każde pominięcie to decyzja kierownictwa o akceptacji ryzyka."
+    "zaawansowany": "Kierownik działu IT czyta opis procesu w przewodniku i widzi praktyki, a pod każdą listę [[dzialanie-procesu|działań]]. Wybiera praktyki potrzebne firmie i dopasowuje je, bo są typowe. Przy każdej praktyce zapisuje [[wejscia-wyjscia|wejścia i wyjścia]], np. zgłoszenie z helpdesku na wejściu i wpis w rejestrze na wyjściu. Jedną praktykę pomija, a zarząd podpisuje akceptację ryzyka.",
+    "skrajny": "Inspektorka urzędu nadzoru zarzuca: „Nie wdrożyliście wszystkich praktyk COBIT 5, więc jesteście niezgodni”. Dyrektor IT odpowiada, że COBIT 5 nie ma charakteru normatywnego, a praktyki są typowe. Organizacja wybiera właściwe, może dodać nowe i dopasować istniejące. Za pominięcie płaci się jednak świadomie: kierownictwo musi zaakceptować ryzyko niewdrożenia. Pominięcie bez decyzji to zaniedbanie, a nie wybór. **Rozstrzygnięcie:** nie trzeba wdrażać wszystkich praktyk. Każde pominięcie to decyzja kierownictwa o akceptacji ryzyka."
   },
   "zagmatwania": [
     {

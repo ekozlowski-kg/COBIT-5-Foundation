@@ -3,23 +3,23 @@
   "en": "RACI chart",
   "wymowa": "resi czart",
   "wymowaAkcent": "RE-si czart",
-  "plEgzamin": "Tabela (diagram) RACI",
+  "plEgzamin": "Diagram RACI",
   "plPodrecznik": "Tabela RACI",
   "mapa": "raci",
   "pulapka": true,
-  "pulapkaOpis": "R po polsku na egzaminie to „Odpowiedzialny wykonawczo”, czyli ten, kto wykonuje. A to „Rozliczany”, czyli ten, kto odpowiada za sukces. Nie myl „odpowiedzialny” (R) z „rozliczany” (A).",
+  "pulapkaOpis": "R po polsku na egzaminie to „Odpowiedzialny wykonawczo”, czyli ten, kto wykonuje. A to „Odpowiedzialny decyzyjnie”, czyli ten, kto odpowiada za sukces. Obie nazwy zaczynają się od „odpowiedzialny” – rozróżnia je drugie słowo. Podręcznik: „strona odpowiedzialna” (R) i „strona rozliczana” (A).",
   "poLudzku": "Tabela, która dla każdego zadania mówi: kto robi, kto odpowiada, kogo pytamy, kogo informujemy.",
   "wyobrazSobie": "Jak rozpiska przy przeprowadzce: ekipa nosi meble, Ty odpowiadasz, żeby wszystko dotarło całe, z partnerem ustalasz, co gdzie stanie, a administratora tylko zawiadamiasz o terminie.",
   "poCo": "Żeby przy każdej czynności było jasne, kto ją wykonuje, kto ostatecznie za nią odpowiada, kogo trzeba zapytać i kogo poinformować, i żeby żadne zadanie nie zostało bez właściciela.",
-  "jakDziala": "Tabela RACI (RACI chart) ma w wierszach praktyki procesu, a w kolumnach role i struktury organizacyjne. W każdej komórce stoi litera: R (Responsible) – wykonuje, A (Accountable) – odpowiada za sukces, C (Consulted) – dostarcza wejścia, komunikacja dwukierunkowa, I (Informed) – otrzymuje informacje, komunikacja jednokierunkowa. Przy jednej praktyce powinien być tylko jeden A (praktyka tabel RACI – interpretacja kursu; FW-PL nie formułuje tej reguły).",
+  "jakDziala": "Diagram RACI (RACI chart; w podręczniku: tabela RACI) ma w wierszach praktyki procesu, a w kolumnach role i struktury organizacyjne. W każdej komórce stoi litera: R (Responsible) – wykonuje, A (Accountable) – odpowiada za sukces, C (Consulted) – dostarcza wejścia, komunikacja dwukierunkowa, I (Informed) – otrzymuje informacje, komunikacja jednokierunkowa. Przy jednej praktyce powinien być tylko jeden A (praktyka tabel RACI – interpretacja kursu; FW-PL nie formułuje tej reguły).",
   "dlaczegoWazne": "Egzamin często podaje opis roli („dostaje zadanie do wykonania”, „odpowiada za sukces”) i pyta o literę RACI. RACI wiąże aktywator „Procesy” z aktywatorem „Struktury organizacyjne”, więc pokazuje w praktyce zasadę 4 („Aktywacja holistycznego podejścia”).",
   "skadNazwa": "Skrót od angielskich słów *Responsible, Accountable, Consulted, Informed*. Litery zostają angielskie także po polsku.",
   "poziom1": "Tabela, która przy każdej czynności w procesie mówi, kto ją robi (R), kto odpowiada za jej sukces (A), kogo trzeba zapytać o zdanie (C) i komu tylko dać znać (I). Przy jednej czynności powinien być jeden A (praktyka tabel RACI – interpretacja kursu; FW-PL nie formułuje tej reguły).",
-  "poziom2": "| Rola | EN | Pytanie | Komunikacja |\n|---|---|---|---|\n| **R** – Odpowiedzialny wykonawczo | Responsible | Kto **wykonuje** zadanie? | – |\n| **A** – Rozliczany | Accountable | Kto **odpowiada za sukces** zadania? | – |\n| **C** – Konsultowany | Consulted | Kto **dostarcza wejścia** (opinie)? | **dwukierunkowa** |\n| **I** – Informowany | Informed | Kto **otrzymuje informacje**? | **jednokierunkowa** |\n\nRACI wiąże **procesy** ze **strukturami organizacyjnymi i rolami**.",
+  "poziom2": "| Rola | EN | Pytanie | Komunikacja |\n|---|---|---|---|\n| **R** – Odpowiedzialny wykonawczo | Responsible | Kto **wykonuje** zadanie? | – |\n| **A** – Odpowiedzialny decyzyjnie | Accountable | Kto **odpowiada za sukces** zadania? | – |\n| **C** – Konsultant | Consulted | Kto **dostarcza wejścia** (opinie)? | **dwukierunkowa** |\n| **I** – Informowany | Informed | Kto **otrzymuje informacje**? | **jednokierunkowa** |\n\nRACI wiąże **procesy** ze **strukturami organizacyjnymi i rolami**.",
   "poziom3": "Słownik: strona rozliczana (s. 89) – *„Kto odpowiada za powodzenie zadania?”*; konsultowana (s. 90) – *„Kto zapewnia dane wejściowe?”*, komunikacja dwukierunkowa; informowana (s. 92) – *„Kto otrzymuje informacje?”*, jednokierunkowa; odpowiedzialna (s. 93) – *„Kto zajmuje się realizacją zadania?”*.",
   "warianty": {
     "prosto": "Malujecie pokój. Szwagier maluje (R), Ty płacisz i odpowiadasz za efekt (A), sąsiada pytacie, jaką farbę kupić (C), a teściowa dostaje zdjęcie gotowego pokoju (I). Tabela RACI zapisuje, kto jest kim przy każdym zadaniu.",
-    "dokladniej": "R wykonuje, A jest rozliczany za sukces, C daje wejścia (dwie strony), I dostaje informacje (jedna strona).",
+    "dokladniej": "R wykonuje, A odpowiada decyzyjnie za sukces, C daje wejścia (dwie strony), I dostaje informacje (jedna strona).",
     "ekspercko": "RACI w Procesach umożliwiających łączy praktyki procesów z rolami z Ilustracji 33. Na praktykę powinien przypadać jeden A (praktyka tabel RACI – interpretacja kursu; FW-PL nie formułuje tej reguły)."
   },
   "przyklady": {
@@ -27,25 +27,24 @@
     "biuro": "Przy zamawianiu materiałów biurowych sekretarka składa zamówienie (R), kierownik biura je zatwierdza i odpowiada za budżet (A), a księgowa mówi, ile jeszcze można wydać (C). Pracownicy dostają maila, kiedy przyjdą nowe tonery (I).",
     "firma": "Sklep internetowy przygotowuje promocję na Black Friday. Grafik robi banery (R), kierowniczka marketingu odpowiada za wynik akcji (A), księgowa mówi, jakie rabaty się opłacają (C). Magazyn dostaje maila z terminem, żeby przygotował towar (I).",
     "admin": "W wydziale budownictwa starostwa inspektor przygotowuje decyzję (R), a naczelnik wydziału ją podpisuje i za nią odpowiada (A). Radca prawny wcześniej opiniuje projekt (C), a wójt gminy, na której terenie ma stanąć budynek, dostaje kopię do wiadomości (I).",
-    "psp": "Komenda aktualizuje procedurę przyjmowania zgłoszeń w SK. Starszy dyżurny pisze projekt (R), kierownik SK odpowiada za to, żeby procedura była dobra i wdrożona (A), a dowódcy zmian JRG zgłaszają uwagi (C). Wszyscy dyżurni dostają gotową procedurę do zapoznania się (I).",
     "it": "COBIT 5 podaje dla każdej praktyki wzorcową tabelę RACI, którą organizacja dostosowuje. Dla praktyki DSS02.05 (rozwiązywanie incydentów i przywracanie usług) organizacja może wpisać: kierownik ds. usług IT – A, zespół wsparcia – R, właściciel procesu biznesowego – C, użytkownicy – I."
   },
   "glebokosc": {
     "prosty": "Organizujesz urodziny córki. Babcia piecze tort (robi – R), Ty odpowiadasz za to, żeby impreza się udała (A), pytasz córkę, jaki ma być smak (C), a sąsiadom mówisz tylko, że będzie głośno (I). Za sukces odpowiada jedna osoba, nawet jeśli pracuje wiele.",
-    "zaawansowany": "W tabeli RACI dla kopii zapasowych Syreny mł. kpt. Dudek wykonuje kopie, więc ma R. Kpt. Sikora odpowiada przed komendantką za to, czy kopie działają, więc ma A. Firmę Kwant-Sygnał pyta się o ustawienia, bo zna system (C – rozmowa w obie strony), a bryg. Wrzos dostaje raport miesięczny (I – informacja w jedną stronę). Tabela łączy praktyki [[proces|procesu]] ze [[struktury-organizacyjne|strukturami]] i [[role-organizacyjne|rolami]].",
-    "skrajny": "Kpt. Sikora mówi: „Jestem odpowiedzialny za kopie zapasowe”. Po polsku brzmi to jak R, ale on ich nie robi, tylko się z nich rozlicza – to A. Na egzaminie PL R to „Odpowiedzialny wykonawczo”, a A to „Rozliczany”, więc potoczne „odpowiedzialny” często wskazuje na A. Druga pułapka: litera należy do pary osoba–czynność, a nie do osoby. Sikora może mieć A przy kopiach, C przy zakupie radiotelefonów i R przy własnym raporcie dla komendantki. W praktyce RACI ta sama osoba może mieć przy czynności R i A naraz, ale A jest tylko jedno. **Rozstrzygnięcie:** R = kto wykonuje, A = kto odpowiada za sukces (jeden na czynność); patrz na to, co osoba robi przy danej czynności, a nie na to, jak o sobie mówi."
+    "zaawansowany": "W tabeli RACI dla kopii zapasowych systemu CRM administratorka wykonuje kopie, więc ma R. Kierownik działu IT odpowiada przed zarządem za to, czy kopie działają, więc ma A. Dostawcę systemu pyta się o ustawienia, bo zna system (C – rozmowa w obie strony), a prezes dostaje raport miesięczny (I – informacja w jedną stronę). Tabela łączy praktyki [[proces|procesu]] ze [[struktury-organizacyjne|strukturami]] i [[role-organizacyjne|rolami]].",
+    "skrajny": "Kierownik działu IT mówi: „Jestem odpowiedzialny za kopie zapasowe”. Po polsku brzmi to jak R, ale on ich nie robi, tylko się z nich rozlicza – to A. Na egzaminie PL R to „Odpowiedzialny wykonawczo”, a A to „Odpowiedzialny decyzyjnie”, więc samo „odpowiedzialny” nic nie rozstrzyga – liczy się drugie słowo. Druga pułapka: litera należy do pary osoba–czynność, a nie do osoby. Kierownik może mieć A przy kopiach, C przy zakupie laptopów i R przy własnym raporcie dla zarządu. W praktyce RACI ta sama osoba może mieć przy czynności R i A naraz, ale A jest tylko jedno. **Rozstrzygnięcie:** R = kto wykonuje, A = kto odpowiada za sukces (jeden na czynność); patrz na to, co osoba robi przy danej czynności, a nie na to, jak o sobie mówi."
   },
   "zagmatwania": [
     {
-      "mit": "„Odpowiedzialny” to A.",
-      "prawda": "Na egzaminie PL R = „Odpowiedzialny wykonawczo” (wykonuje), a A = „Rozliczany” (odpowiada za sukces)."
+      "mit": "„Odpowiedzialny” to zawsze A.",
+      "prawda": "Na egzaminie PL R = „Odpowiedzialny wykonawczo” (wykonuje), a A = „Odpowiedzialny decyzyjnie” (odpowiada za sukces). Rozróżnia je drugie słowo."
     },
     {
       "mit": "C i I różnią się tylko ważnością.",
       "prawda": "C to komunikacja dwukierunkowa (pytamy o zdanie, dostarcza wejścia). I to komunikacja jednokierunkowa (tylko dostaje informację)."
     },
     {
-      "mit": "Przy jednej czynności może być kilku rozliczanych.",
+      "mit": "Przy jednej czynności może być kilku odpowiedzialnych decyzyjnie (A).",
       "prawda": "Przy jednej czynności powinien być jeden A (praktyka tabel RACI – interpretacja kursu; FW-PL nie formułuje tej reguły). Osób z R może być kilka."
     },
     {
@@ -54,10 +53,10 @@
     }
   ],
   "mentor": {
-    "czestyBlad": "Odwracanie R i A przez polskie słowo „odpowiedzialny”.",
+    "czestyBlad": "Odwracanie R i A, bo obie nazwy egzaminacyjne zaczynają się od „odpowiedzialny” (wykonawczo – R, decyzyjnie – A).",
     "jakTlumaczyc": "Cztery pytania w stałej kolejności: Kto robi? (R) Kto się tłumaczy, jeśli się nie uda? (A) Kogo pytamy przed? (C) Komu mówimy po? (I). Potem jedno ćwiczenie na znanej sytuacji, np. urodzinach.",
     "pytanieKontrolne": "Przy praktyce „testuj odtwarzanie kopii” wpisano dwóch A i nikogo z R. Co jest nie tak i jak to poprawić?",
-    "odpowiedzKontrolna": "Przy czynności powinien być jeden A – jedna osoba rozliczana za sukces (praktyka tabel RACI – interpretacja kursu; FW-PL nie formułuje tej reguły). Brakuje R, czyli kogoś, kto naprawdę wykonuje test. Trzeba zostawić jednego A (np. Sikorę) i dopisać R (np. Dudek)."
+    "odpowiedzKontrolna": "Przy czynności powinien być jeden A – jedna osoba odpowiedzialna decyzyjnie za sukces (praktyka tabel RACI – interpretacja kursu; FW-PL nie formułuje tej reguły). Brakuje R, czyli kogoś, kto naprawdę wykonuje test. Trzeba zostawić jednego A (np. kierownika działu IT) i dopisać R (np. administratorkę)."
   },
   "nieMylicZ": [
     {
@@ -65,8 +64,8 @@
       "roznica": "Ilustracja 9 to ogólne relacje w systemie Ładu. RACI przypisuje role do konkretnych praktyk procesu."
     }
   ],
-  "przykladWypowiedzi": "W RACI chart (tabeli RACI) Responsible (odpowiedzialny wykonawczo) wykonuje praktykę, Accountable (rozliczany) odpowiada za jej sukces, Consulted (konsultowany) dostarcza wejścia, a Informed (informowany) otrzymuje informacje.",
-  "egzamin": "„Ktoś, kto **dostaje zadanie do wykonania**” → **R (odpowiedzialny wykonawczo)**. „Odpowiada za **sukces**” → **A**. „Dostarcza **wejścia**” → **C**. „**Otrzymuje informacje**” → **I**.",
+  "przykladWypowiedzi": "W RACI chart (diagramie RACI) Responsible (odpowiedzialny wykonawczo) wykonuje praktykę, Accountable (odpowiedzialny decyzyjnie) odpowiada za jej sukces, Consulted (konsultant) dostarcza wejścia, a Informed (informowany) otrzymuje informacje.",
+  "egzamin": "„Ktoś, kto **dostaje zadanie do wykonania**” → **R (odpowiedzialny wykonawczo)**. „Odpowiada za **sukces**” → **A (odpowiedzialny decyzyjnie)**. „Dostarcza **wejścia**” → **C (rola konsultanta)**. „**Otrzymuje informacje**” → **I**.",
   "powiazane": [
     "opis-procesu",
     "struktury-organizacyjne",
@@ -97,13 +96,18 @@
       "cytat": "Kto zajmuje się realizacją zadania?"
     }
   ],
-  "plInne": [],
+  "plInne": [
+    {
+      "nazwa": "Tabela RACI",
+      "zrodlo": "FW-PL"
+    }
+  ],
   "statusTlumaczenia": "D",
   "zrodloTlumaczenia": {
-    "wydawcaEgzaminu": "Tabela (diagram) RACI",
+    "wydawcaEgzaminu": "Diagram RACI",
     "podrecznik": "Tabela RACI",
-    "kurs": "Tabela (diagram) RACI – RACI chart",
-    "uwaga": "Litery R, A, C, I pochodzą z EN; polskie nazwy ról nie zaczynają się od tych liter – zachować skrót i rozwinięcie EN. Forma egzaminu PL NIEPOTWIERDZONA (brak w zestawieniu Altkom i w Sample Paper 1 PL) – przyjęta w kursie przez analogię. Forma podręcznika: FW-PL s. 30, 31, 57."
+    "kurs": "Diagram RACI – RACI chart",
+    "uwaga": "Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 30, 31, 57."
   },
   "kategoria": "egzaminacyjne",
   "status": "oficjalne",

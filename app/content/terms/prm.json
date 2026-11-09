@@ -35,13 +35,12 @@
     "biuro": "Nowa kierowniczka biura dostaje od centrali wzorcową listę spraw: poczta, archiwum, materiały biurowe, drukarki, grafik dyżurów, umowy serwisowe. W jej małym biurze pocztę i archiwum prowadzi jedna osoba, ale kierowniczka sprawdza, czy żadna pozycja z listy nie została bez opieki.",
     "firma": "Właściciel warsztatu czyta listę 37 procesów COBIT i łapie się za głowę. Konsultant tłumaczy: to wzorzec, nie obowiązek – u Ciebie jedna osoba może zajmować się i dostawcami, i umowami, i sprzętem. Ważne tylko, żeby żaden istotny obszar nie został bez opieki.",
     "admin": "Informatyk w urzędzie gminy kładzie obok siebie listę procesów PRM i to, co urząd faktycznie robi. Kopie zapasowe i obsługę zgłoszeń mają, ale nikt nie pilnuje umów z dostawcami oprogramowania. PRM posłużył jako wzorzec do znalezienia luki, a nie jako 37 procedur do napisania.",
-    "psp": "Komenda powiatowa przegląda PRM i postanawia, że jedna procedura utrzymania systemów SK obejmie kilka procesów DSS – bieżącą pracę systemów, zgłoszenia, problemy i ciągłość działania. Nikt nie pisze 37 osobnych instrukcji. PRM jest wzorcem, który komenda przycina do swojej wielkości.",
     "it": "Organizacja porównuje swoją pracę z PRM i widzi, że ma kopie zapasowe (DSS04) i obsługę incydentów (DSS02), ale nikt nie prowadzi APO10 (Zarządzanie dostawcami). Luka trafia do planu doskonalenia, a pozostałe procesy organizacja łączy i przycina według swojej wielkości."
   },
   "glebokosc": {
-    "prosty": "Książka kucharska ma 37 przepisów w pięciu rozdziałach. Nikt nie gotuje wszystkich – wybierasz te, które pasują do Twojej rodziny, a niektóre przerabiasz. Książka to wzór, a nie obowiązkowy jadłospis.",
-    "zaawansowany": "Kpt. Sikora porównuje pracę wydziału z PRM: 5 procesów Ładu w [[edm|EDM]] i 32 procesy Zarządzania w czterech domenach [[pbrm|PBRM]]. Mała komenda nie potrzebuje wszystkich 37 w pełnej postaci, więc Sikora łączy kilka procesów w jeden. To zgodne z COBIT 5, bo model nie jest normatywny. Ewa Lis używa później PRM jako wymiaru procesu w ocenie [[model-zdolnosci|zdolności]]: stąd bierze opisy procesów, które ocenia.",
-    "skrajny": "Ewa Lis słyszy na szkoleniu: „PRM ma pięć domen, więc ma pięć głównych obszarów”. To prawie dobrze. PRM dzieli procesy na **dwie** główne domeny – Ład i Zarządzanie – a w nich jest **pięć** domen: EDM (5 procesów) oraz APO 13, BAI 10, DSS 6, MEA 3. Druga pułapka: PRM to nie model oceny. PRM dostarcza procesy (wymiar procesu), a model oceny dokłada atrybuty i skalę (wymiar zdolności). Trzecia: brak któregoś procesu w organizacji nie jest „niezgodnością z COBIT”, bo model nie jest normatywny. **Rozstrzygnięcie:** PRM = 2 główne obszary, 5 domen, 37 procesów (5 + 32); to wzór do dopasowania i wymiar procesu w ocenie, a nie lista obowiązkowa ani narzędzie oceny."
+    "prosty": "Książka kucharska ma 37 przepisów w pięciu rozdziałach. Nikt nie gotuje wszystkich – wybierasz te, które pasują do Twojej rodziny, a niektóre przerabiasz. Książka to wzór, a nie obowiązkowe menu.",
+    "zaawansowany": "Dyrektor IT porównuje pracę swojego działu z PRM: 5 procesów Ładu w [[edm|EDM]] i 32 procesy Zarządzania w czterech domenach [[pbrm|PBRM]]. Mała firma ubezpieczeniowa nie potrzebuje wszystkich 37 w pełnej postaci, więc dyrektor łączy kilka procesów w jeden. To zgodne z COBIT 5, bo model nie jest normatywny. Audytorka wewnętrzna używa później PRM jako wymiaru procesu w ocenie [[model-zdolnosci|zdolności]]: stąd bierze opisy procesów, które ocenia.",
+    "skrajny": "Audytorka wewnętrzna słyszy na szkoleniu: „PRM ma pięć domen, więc ma pięć głównych obszarów”. To prawie dobrze. PRM dzieli procesy na **dwie** główne domeny – Ład i Zarządzanie – a w nich jest **pięć** domen: EDM (5 procesów) oraz APO 13, BAI 10, DSS 6, MEA 3. Druga pułapka: PRM to nie model oceny. PRM dostarcza procesy (wymiar procesu), a model oceny dokłada atrybuty i skalę (wymiar zdolności). Trzecia: brak któregoś procesu w organizacji nie jest „niezgodnością z COBIT”, bo model nie jest normatywny. **Rozstrzygnięcie:** PRM = 2 główne obszary, 5 domen, 37 procesów (5 + 32); to wzór do dopasowania i wymiar procesu w ocenie, a nie lista obowiązkowa ani narzędzie oceny."
   },
   "zagmatwania": [
     {
@@ -60,7 +59,7 @@
   "mentor": {
     "czestyBlad": "Mylenie liczby głównych obszarów (2) z liczbą domen (5) i odwracanie 5 i 32.",
     "jakTlumaczyc": "Zacznij od dwóch pięter (Ład, Zarządzanie), potem dopisz domeny i liczby 5 | 13-10-6-3. Suma kontrolna: 13 + 10 + 6 + 3 = 32, plus 5 = 37. Analogia: katalog wzorcowych mebli – wybierasz i przycinasz pod swoje mieszkanie.",
-    "pytanieKontrolne": "Komenda ma tylko 25 procesów. Czy to znaczy, że nie stosuje COBIT 5? Co PRM wnosi do oceny zdolności?",
+    "pytanieKontrolne": "Firma ma tylko 25 procesów. Czy to znaczy, że nie stosuje COBIT 5? Co PRM wnosi do oceny zdolności?",
     "odpowiedzKontrolna": "Nie – PRM nie jest normatywny, organizacja dobiera i dostosowuje procesy. W ocenie zdolności PRM tworzy wymiar procesu (co oceniamy), a poziomy i atrybuty to wymiar zdolności."
   },
   "nieMylicZ": [

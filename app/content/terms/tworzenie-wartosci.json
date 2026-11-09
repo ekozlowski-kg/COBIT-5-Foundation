@@ -47,18 +47,17 @@
     "biuro": "Biuro rozważa przejście na elektroniczny obieg faktur. Korzyść to księgowanie w jeden dzień zamiast w tydzień, ryzyko to awaria systemu przy zamknięciu miesiąca, więc potrzebna jest kopia zapasowa, a zasoby to abonament i dwa dni szkolenia. Kierownik się decyduje, bo te trzy elementy się bilansują.",
     "firma": "Właściciel warsztatu rozważa program do rezerwacji wizyt online. Zyska więcej klientów i mniej telefonów, ale ryzykuje wyciek danych klientów, a do tego płaci 150 zł abonamentu i traci dwa dni na szkolenie. Decyduje się, gdy znajduje dostawcę z dobrymi zabezpieczeniami – korzyść, ryzyko i koszt są w równowadze.",
     "admin": "Starostwo wdraża elektroniczny obieg dokumentów. Sprawy idą o tydzień szybciej (korzyść), ale trzeba robić kopie zapasowe, żeby awaria nie zgubiła akt (ryzyko), i kupić licencje oraz oddelegować dwie osoby do wdrożenia (zasoby). Gdyby system był szybki, ale zawodny albo za drogi, nie byłoby z niego wartości.",
-    "psp": "Komenda daje dowódcom zastępów tablety z mapą i danymi o zdarzeniu. Dojazd i rozpoznanie idą szybciej (korzyść), ale na wypadek braku zasięgu zostają papierowe mapy i łączność radiowa (ryzyko), a komenda płaci za sprzęt, transmisję danych i szkolenia (zasoby). Wartość jest dopiero wtedy, gdy te trzy elementy są w równowadze.",
     "it": "W procesach EDM02 (Zapewnienie realizacji korzyści), EDM03 (Zapewnienie optymalizacji ryzyka) i EDM04 (Zapewnienie optymalizacji zasobów) zarząd ocenia inwestycję w usługi chmurowe: jakie korzyści da, czy ryzyko mieści się w apetycie na ryzyko i czy wystarczy ludzi i pieniędzy. Wartość jest dopiero przy równowadze tych trzech ocen."
   },
   "glebokosc": {
     "prosty": "Kupujesz samochód rodzinny. Liczy się, czy wygodnie dowiezie dzieci (korzyść), czy nie zepsuje się w trasie (ryzyko) i czy nie zjada całej pensji na paliwo i raty (zasoby). Sportowe auto, które często się psuje i kosztuje fortunę, nie jest dla rodziny dobrą wartością, choć daje dużo frajdy.",
-    "zaawansowany": "Halina Mak, kpt. Sikora i bryg. Wrzos rozważają zapasowy serwer Syreny. Korzyść: alarm dociera nawet przy awarii. Ryzyko: krótsze przerwy w działaniu, czyli [[optymalizacja-ryzyka]]. Zasoby: 80 tys. zł i czas mł. kpt. Dudek, czyli [[optymalizacja-zasobow]]. Komendantka szuka równowagi tych trzech składników, bo dopiero ona oznacza tworzenie wartości. W komendzie korzyścią nie jest zysk, tylko bezpieczeństwo mieszkańców, takich jak Zofia Kaczmarek – to cel [[lad|Ładu]] z [[zasada-1|Zasady 1]].",
-    "skrajny": "Kpt. Sikora proponuje wyłączyć zapasowe łącza i ciąć koszty IT o połowę. Halina Mak się cieszy, bo zasoby są „zoptymalizowane”. Jeśli jednak Syrena traci zapasowe łącze, rośnie ryzyko, a korzyść – pewny alarm – słabnie. Odwrotny błąd to inwestycja, która daje dużą korzyść kosztem ogromnego ryzyka. W obu przypadkach jeden składnik wygrywa z pozostałymi, więc wartości nie przybywa. **Rozstrzygnięcie:** tworzenie wartości = równowaga realizacji korzyści, optymalizacji ryzyka i optymalizacji zasobów naraz; maksymalizacja jednego składnika to za mało, a wartość zależy od interesariusza (w PSP to usługa publiczna, nie zysk)."
+    "zaawansowany": "Dyrektor finansowy, dyrektor IT i zarząd szpitala rozważają zapasowy serwer systemu dokumentacji medycznej. Korzyść: lekarze mają dostęp do kart pacjentów nawet przy awarii. Ryzyko: krótsze przerwy w działaniu, czyli [[optymalizacja-ryzyka]]. Zasoby: 80 tys. zł i czas administratorki, czyli [[optymalizacja-zasobow]]. Zarząd szuka równowagi tych trzech składników, bo dopiero ona oznacza tworzenie wartości. W szpitalu publicznym korzyścią nie jest zysk, tylko bezpieczeństwo pacjentów – to cel [[lad|Ładu]] z [[zasada-1|Zasady 1]].",
+    "skrajny": "Dyrektor IT proponuje wyłączyć zapasowe łącza i ciąć koszty IT o połowę. Dyrektor finansowy się cieszy, bo zasoby są „zoptymalizowane”. Jeśli jednak system dokumentacji medycznej traci zapasowe łącze, rośnie ryzyko, a korzyść – pewny dostęp do danych pacjentów – słabnie. Odwrotny błąd to inwestycja, która daje dużą korzyść kosztem ogromnego ryzyka. W obu przypadkach jeden składnik wygrywa z pozostałymi, więc wartości nie przybywa. **Rozstrzygnięcie:** tworzenie wartości = równowaga realizacji korzyści, optymalizacji ryzyka i optymalizacji zasobów naraz; maksymalizacja jednego składnika to za mało, a wartość zależy od interesariusza (w szpitalu publicznym to usługa publiczna, nie zysk)."
   },
   "zagmatwania": [
     {
       "mit": "Wartość to zysk.",
-      "prawda": "Zysk to jedna z postaci korzyści. W administracji i PSP wartością są usługi publiczne."
+      "prawda": "Zysk to jedna z postaci korzyści. W administracji i w publicznej ochronie zdrowia wartością są usługi publiczne."
     },
     {
       "mit": "Najwięcej wartości daje najtańsze rozwiązanie.",
@@ -72,7 +71,7 @@
   "mentor": {
     "czestyBlad": "Sprowadzanie wartości do jednego składnika – korzyści albo oszczędności.",
     "jakTlumaczyc": "Stołek na trzech nogach: korzyści, ryzyko, zasoby. Utnij jedną nogę, a stołek się przewróci. Przy każdej decyzji zadaj trzy pytania z s. 17: kto odnosi korzyści, kto ponosi ryzyko, jakie zasoby są potrzebne.",
-    "pytanieKontrolne": "Projekt dał duże korzyści, ale naraził komendę na wielodniową przerwę w alarmowaniu. Czy stworzył wartość w rozumieniu COBIT 5?",
+    "pytanieKontrolne": "Projekt dał duże korzyści, ale naraził szpital na wielodniową przerwę w dostępie do dokumentacji pacjentów. Czy stworzył wartość w rozumieniu COBIT 5?",
     "odpowiedzKontrolna": "Nie w pełni. Wartość wymaga równowagi korzyści, ryzyka i zasobów, a korzyść okupiona nieakceptowalnym ryzykiem nie jest wartością."
   },
   "nieMylicZ": [

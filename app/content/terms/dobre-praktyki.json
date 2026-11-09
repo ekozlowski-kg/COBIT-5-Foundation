@@ -33,13 +33,12 @@
     "biuro": "Nowa asystentka dostaje sprawdzoną instrukcję wysyłki poczty: na wejściu lista pism z dziennika, potem koperta, znaczek i wpis do książki nadawczej, a na wyjściu potwierdzenie nadania wpięte do teczki. Tak samo robi się w każdym oddziale firmy, bo ten sposób się sprawdził.",
     "firma": "Sieć trzech sklepów rowerowych ma jedną checklistę otwarcia: włączyć kasę, przeliczyć gotówkę, uruchomić terminal, wystawić rowery testowe. Na wejściu jest raport z zamknięcia z poprzedniego dnia, na wyjściu podpisana lista. Sposób sprawdzony we wszystkich punktach to dobra praktyka.",
     "admin": "Nowy pracownik urzędu dostaje skargę mieszkańca i nie wie, co z nią zrobić. Kierowniczka daje mu wzorcową procedurę: rejestracja w EZD, przekazanie do właściwego wydziału, odpowiedź w ciągu miesiąca zgodnie z KPA. Na wejściu jest skarga, na wyjściu pismo z odpowiedzią – to dobra praktyka z gotowymi produktami działań.",
-    "psp": "Po zdarzeniu kierujący działaniem ratowniczym sporządza informację ze zdarzenia według tych samych zasad, które obowiązują w całym KSRG. Na wejściu są dane z miejsca akcji i z SK, na wyjściu kompletny wpis w SWD-PSP. Ujednolicony, sprawdzony sposób dokumentowania to dobra praktyka.",
     "it": "Dla procesu DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami publikacja „Procesy umożliwiające” podaje praktyki, np. rejestrowanie, klasyfikowanie i nadawanie priorytetu zgłoszeniom, wraz z wejściami i wyjściami, np. raportami o zgłoszeniach. To dobre praktyki aktywatora Procesy."
   },
   "glebokosc": {
     "prosty": "Babcia ma sprawdzony sposób na rosół: co włożyć, w jakiej kolejności, ile gotować i co ma wyjść. Nie musisz wymyślać go od zera. Ale przepis to jeszcze nie obiad: trzeba go ugotować i spróbować.",
-    "zaawansowany": "Ola Dudek układa procedurę obsługi alarmu. Nie wymyśla jej od zera: bierze praktyki oraz produkty działań (wejścia i wyniki) z *Procesów umożliwiających*. Do kultury zgłaszania błędów sięga po wskazówki z innych źródeł, bo COBIT 5 nie daje tu gotowego wzoru. Dobre praktyki to jeden z czterech [[wymiary-aktywatora|wymiarów aktywatora]]. To, czy komenda je stosuje, mierzy [[wskaznik-wiodacy|wskaźnik wiodący]].",
-    "skrajny": "Komenda stosuje wszystkie dobre praktyki z podręcznika, a alarmy dalej nie docierają do OSP. Czy to możliwe? Tak: pytanie „czy stosowane są dobre praktyki?” dotyczy funkcjonowania aktywatora i mierzy je wskaźnik wiodący. O wyniku mówią wskaźniki opóźnione: czy osiągnięto cele i czy uwzględniono potrzeby interesariuszy. Druga pułapka: COBIT 5 podaje przykłady dobrych praktyk tylko dla niektórych aktywatorów (np. procesów), a dla innych korzysta się z innych standardów (s. 29). **Rozstrzygnięcie:** dobre praktyki zwiększają szansę na cel, ale go nie gwarantują; stosowanie praktyk → wskaźnik wiodący, osiągnięcie celu → wskaźnik opóźniony."
+    "zaawansowany": "Kierownik helpdesku układa procedurę obsługi incydentów. Nie wymyśla jej od zera: bierze praktyki oraz produkty działań (wejścia i wyniki) z *Procesów umożliwiających*. Do kultury zgłaszania błędów sięga po wskazówki z innych źródeł, bo COBIT 5 nie daje tu gotowego wzoru. Dobre praktyki to jeden z czterech [[wymiary-aktywatora|wymiarów aktywatora]]. To, czy firma je stosuje, mierzy [[wskaznik-wiodacy|wskaźnik wiodący]].",
+    "skrajny": "Bank stosuje wszystkie dobre praktyki z podręcznika, a powiadomienia dalej nie docierają do klientów. Czy to możliwe? Tak: pytanie „czy stosowane są dobre praktyki?” dotyczy funkcjonowania aktywatora i mierzy je wskaźnik wiodący. O wyniku mówią wskaźniki opóźnione: czy osiągnięto cele i czy uwzględniono potrzeby interesariuszy. Druga pułapka: COBIT 5 podaje przykłady dobrych praktyk tylko dla niektórych aktywatorów (np. procesów), a dla innych korzysta się z innych standardów (s. 29). **Rozstrzygnięcie:** dobre praktyki zwiększają szansę na cel, ale go nie gwarantują; stosowanie praktyk → wskaźnik wiodący, osiągnięcie celu → wskaźnik opóźniony."
   },
   "zagmatwania": [
     {
@@ -58,8 +57,8 @@
   "mentor": {
     "czestyBlad": "Mylenie „stosujemy praktykę” z „osiągnęliśmy cel” i przypisywanie praktykom złego rodzaju wskaźnika.",
     "jakTlumaczyc": "Trening i wynik meczu: trening według planu (dobra praktyka, wskaźnik wiodący) nie gwarantuje wygranej (cel, wskaźnik opóźniony), ale zwiększa jej szansę.",
-    "pytanieKontrolne": "Dlaczego „100% dyżurnych zna procedurę” nie dowodzi, że proces powiadamiania osiąga swój cel?",
-    "odpowiedzKontrolna": "Bo to miara stosowania praktyki, czyli wskaźnik wiodący. O osiągnięciu celu świadczą wskaźniki opóźnione, np. odsetek alarmów, które dotarły do OSP na czas."
+    "pytanieKontrolne": "Dlaczego „100% konsultantów helpdesku zna procedurę” nie dowodzi, że proces obsługi incydentów osiąga swój cel?",
+    "odpowiedzKontrolna": "Bo to miara stosowania praktyki, czyli wskaźnik wiodący. O osiągnięciu celu świadczą wskaźniki opóźnione, np. odsetek incydentów rozwiązanych w uzgodnionym czasie."
   },
   "nieMylicZ": [
     {

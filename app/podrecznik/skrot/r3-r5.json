@@ -1,0 +1,155 @@
+{
+ "k-pr-zasada-2": [
+  {
+   "h": "Zasada 2: Ład nad IT to część ładu całej organizacji",
+   "b": "<p><w k=\"zasada-2\">Pokrycie całej organizacji</w> <span class=\"en\">Covering the Enterprise End-to-end</span>:</p><ul><li><w k=\"lad\">Ład</w> nad IT jest <b>częścią</b> ładu korporacyjnego.</li><li>Obejmuje wszystkie funkcje i procesy przetwarzające informacje – także <b>zewnętrzne</b> usługi IT i procesy biznesowe.</li></ul>",
+   "c": "Ład nad IT sięga wszędzie, gdzie przetwarza się informacje organizacji – w środku i na zewnątrz.",
+   "s": "COBIT 5 Framework (PL), s. 23; s. 14",
+   "ctx": "<p>Ład nad IT nie jest osobnym systemem działu IT, tylko fragmentem ładu korporacyjnego, czyli sposobu, w jaki władze kierują całą organizacją. Informacje i technologia to aktywa, o które dbają wszyscy pracownicy. Zasięg obejmuje „rozszerzony zakres przedsiębiorstwa”: dostawcę chmury, firmę outsourcingową, partnera logistycznego. Podręcznik dodaje, że COBIT 5 jest spójny z najnowszymi poglądami dotyczącymi Ładu (s. 23).</p><p>Pułapki: zasada 2 mówi o <b>zasięgu</b> (cała organizacja, od początku do końca). Współdziałanie aktywatorów to zasada 4, a łączenie standardów – zasada 3. Podręcznik nazywa ją „Uwzględnienie wszystkich aspektów działania przedsiębiorstwa”; na egzaminie szukaj nazwy „Pokrycie całej organizacji”.</p><p>Przykład: sklep internetowy zleca magazyn firmie zewnętrznej, a dane zamówień trafiają do jej systemu. Ten przepływ też podlega Ładowi; relacjami z dostawcą zajmuje się proces <w k=\"proc-apo10\">APO10 Zarządzanie dostawcami</w> <span class=\"en\">Manage Suppliers</span>.</p>",
+   "lekcje": [
+    "pr-k27-zasada-2"
+   ]
+  },
+  {
+   "h": "Podejście do Ładu: cztery komponenty",
+   "b": "<p><w k=\"system-ladu\">Podejście do Ładu</w> <span class=\"en\">Governance approach</span>, Ilustracja 8:</p><div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Komponent</th><th>Pytanie</th></tr><tr><td><w k=\"komponent-cel-ladu\">Cel Ładu</w>: Tworzenie Wartości</td><td>Po co?</td></tr><tr><td><w k=\"aktywatory-ladu\">Aktywatory Ładu</w></td><td>Czym?</td></tr><tr><td><w k=\"zakres-ladu\">Zakres Ładu</w></td><td>Czego dotyczy?</td></tr><tr><td><w k=\"role-dzialania-relacje\">Role, działania i relacje</w></td><td>Kto i jak?</td></tr></table></div>",
+   "c": "Komponenty są tylko cztery: cel, aktywatory, zakres oraz role, działania i relacje.",
+   "s": "COBIT 5 Framework (PL), s. 23–24, Ilustracja 8",
+   "ctx": "<p>Aktywatory Ładu <span class=\"en\">Governance enablers</span> to metodyki, zasady, struktury, procesy i praktyki oraz zasoby: infrastruktura, aplikacje, ludzie i informacje; ich brak osłabia tworzenie wartości. Zakres Ładu <span class=\"en\">Governance scope</span> to cała organizacja, jednostka albo konkretne aktywa – można go ująć różnie, ale trzeba go zdefiniować. Role, działania i relacje mówią, kto uczestniczy w Ładzie i jak współpracuje (rozwija je Ilustracja 9).</p><p>Pułapki: „Oszacuj, Kieruj i Monitoruj” to czynności Ładu, a „Planuj, Twórz, Wykonuj i Monitoruj” – Zarządzania; żadne z nich nie jest komponentem; Zapewnienie Transparentności Interesariuszy to proces EDM05, a nie komponent. Ilustracja 8 to na egzaminie Rysunek 8.</p><p>Przykład ze szpitala: cel – lepsza opieka przy rozsądnym ryzyku i koszcie; aktywatory – regulaminy, komitet ds. IT, systemy, ludzie; zakres – cały szpital albo tylko dokumentacja medyczna; role – rada nadzorcza, dyrekcja, informatycy.</p>",
+   "lekcje": [
+    "pr-k28-podejscie-do-ladu"
+   ]
+  },
+  {
+   "h": "Cztery role: władza idzie w dół, informacja wraca w górę",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Rola</th><th>W dół</th><th>W górę</th></tr><tr><td><w k=\"rola-interesariusze\">Interesariusze</w></td><td>delegują</td><td>–</td></tr><tr><td><w k=\"organ-ladu\">Organ Ładu i nadzoru</w></td><td>wyznacza kierunek</td><td>jest rozliczany</td></tr><tr><td><w k=\"rola-kierownictwo\">Kierownictwo</w></td><td>instruuje i dopasowuje</td><td>monitoruje</td></tr><tr><td><w k=\"rola-operacyjne\">Role operacyjne</w></td><td>wykonują</td><td>raportują</td></tr></table></div>",
+   "c": "Interesariusze tylko delegują; Organ Ładu wyznacza kierunek i jest rozliczany; Kierownictwo instruuje i monitoruje; role operacyjne wykonują i raportują.",
+   "s": "COBIT 5 Framework (PL), s. 24, Ilustracja 9; s. 14",
+   "ctx": "<p>Ilustracja 9 (na egzaminie Rysunek 9) rozwija komponent „role, działania i relacje”. W dół idzie władza: delegowanie, wyznaczanie kierunku, instruowanie i dopasowanie. W górę wraca informacja: rozliczanie, monitorowanie, raportowanie. Strzałka monitorowania łączy Kierownictwo z Organem Ładu; egzamin przypisuje monitorowanie Kierownictwu. W wyjaśnieniach egzaminu Organ Ładu i nadzoru jest „odpowiedzialny decyzyjnie” (rozliczany), a Kierownictwo „odpowiedzialne wykonawczo” za monitorowanie. Interesariusze <b>tylko delegują</b> – nie kierują i nie monitorują.</p><p>Pułapka nazw: podręcznik podpisuje role „Właściciele oraz interesariusze”, „Organ nadzorujący”, „Zarządzanie”, „Eksploatacja i wykonanie”. Na egzaminie: Interesariusze, Organ Ładu i nadzoru, Kierownictwo, Role operacyjne (<span class=\"en\">Owners and Stakeholders, Governing Body, Management, Operations and Execution</span>).</p><p>Przykład ze spółki: akcjonariusze delegują; zarząd pod przywództwem prezesa wyznacza kierunek (s. 14); kadra z dyrektorem generalnym i dyrektorem IT instruuje i monitoruje; administratorzy i helpdesk wykonują i raportują. Stanowiska to przykład kursu – COBIT 5 opisuje role ogólnie.</p>",
+   "lekcje": [
+    "pr-k29-role-ladu"
+   ]
+  }
+ ],
+ "k-pr-zasada-3": [
+  {
+   "h": "Zasada 3: COBIT 5 integruje inne standardy – nie zastępuje ich",
+   "b": "<p><w k=\"zasada-3\">Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej</w> <span class=\"en\">Applying a Single Integrated Framework</span>. Cztery powody:</p><ol><li>spójny z innymi normami i metodykami,</li><li>obejmuje całą organizację,</li><li>prosta architektura materiałów,</li><li>łączy wcześniej rozproszoną wiedzę ISACA.</li></ol>",
+   "c": "COBIT 5 może być nadrzędną strukturą ramową – integruje, nie zastępuje; może, ale nie musi działać z innymi standardami.",
+   "s": "COBIT 5 Framework (PL), s. 25; s. 23",
+   "ctx": "<p>COBIT 5 jest <w k=\"integrator\">integratorem</w>: organizacja może użyć go jako nadrzędnej <w k=\"struktura-ramowa\">struktury ramowej</w> i wpiąć pod nią ITIL, normy ISO czy TOGAF (rama architektury korporacyjnej, wiedza ogólna). COBIT 5 mówi, po co praktyka istnieje i kto ustala priorytety; szczegółowe standardy – jak ją wykonać. Rozproszona wiedza ISACA to m.in. COBIT, Val IT (wartość), Risk IT (ryzyko), BMIS (model bezpieczeństwa informacji), Board Briefing on IT Governance i ITAF (rama audytu IT).</p><p>Pułapki: „COBIT 5 zastępuje ITIL i ISO” – fałsz; „COBIT 5 musi być stosowany z innymi standardami” – fałsz. Zdania prawdziwe, ale nie na temat, nie są powodami integracji: „współdziałanie siedmiu aktywatorów” to zasada 4, „ITIL dobrze opisuje usługi” to cecha ITIL. Podręcznik pisze „jednej zintegrowanej metodyki” – na egzaminie <b>struktura ramowa</b>.</p><p>Pułapka „najnowsze”: zasada 2 mówi, że COBIT 5 jest spójny z najnowszymi <b>poglądami dotyczącymi Ładu</b>, więc da się go wpiąć w każdy system ładu korporacyjnego (s. 23). Zasada 3 mówi o spójności z innymi najnowszymi <b>normami i metodykami</b> (s. 25). Poglądy na Ład → zasada 2; normy i metodyki → zasada 3. Inne zasady też mają swoje hasła: przełożenie potrzeb interesariuszy – zasada 1, relacja Ładu i Zarządzania – zasada 5.</p><p>Przykład z banku: ITIL dla obsługi zgłoszeń i ISO/IEC 27001 dla bezpieczeństwa zostają, ale bank przypina je do procesów i celów COBIT 5 – i widzi całość w jednym miejscu.</p>",
+   "lekcje": [
+    "pr-k30-zasada-3",
+    "pr-k31-cztery-powody-integracji"
+   ]
+  },
+  {
+   "h": "Baza wiedzy: wiele źródeł, filtr aktywatorów, jedna rodzina produktów",
+   "b": "<p>Ilustracja 10:</p><div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Wejście</th><th>Środek</th><th>Wyjście</th></tr><tr><td><w k=\"wytyczne-isaca\">obecne wytyczne ISACA</w>, nowe materiały ISACA, inne standardy</td><td><w k=\"baza-wiedzy\">Baza wiedzy COBIT 5</w>, filtr: aktywatory</td><td><w k=\"rodzina-produktow\">Rodzina produktów COBIT 5</w></td></tr></table></div>",
+   "c": "Baza wiedzy przechowuje obecne treści i daje strukturę przyszłym; aktywatory filtrują ją w rodzinę produktów.",
+   "s": "COBIT 5 Framework (PL), s. 25–26, Ilustracje 10–11",
+   "ctx": "<p>Baza wiedzy <span class=\"en\">COBIT 5 knowledge base</span> ma dwie role: zawiera wszystkie dotychczasowe wytyczne i treści oraz jest strukturą dla przyszłych. Wejściem są wcześniejsze wytyczne ISACA (COBIT 4.1, Val IT 2.0, Risk IT, BMIS), nowe materiały ISACA i inne standardy – COBIT 5 dopasowano m.in. do ITIL, TOGAF i norm ISO. Aktywatory działają jak filtr zawartości.</p><p>Rodzina produktów (Ilustracja 11): główny podręcznik COBIT 5 <span class=\"en\">Framework</span>; przewodniki o aktywatorach, np. „Procesy umożliwiające”, „Informacje umożliwiające”; przewodniki specjalistyczne, np. „Wdrożenie”, „Bezpieczeństwo informacji”, „Audyt”, „Ryzyko”; do tego środowisko sieciowe oparte na współpracy. Pułapka: „Procesy umożliwiające” to przewodnik o aktywatorze, a nie specjalistyczny.</p>",
+   "lekcje": [
+    "pr-k32-baza-wiedzy"
+   ]
+  }
+ ],
+ "k-pr-aktywatory": [
+  {
+   "h": "Aktywator pomaga osiągnąć cele – ale nie działa w pojedynkę",
+   "b": "<p><w k=\"aktywator\">Aktywator</w> <span class=\"en\">Enabler</span>: ludzie, zasady, procesy, informacje, technologia.</p><p><w k=\"zasada-4\">Zasada 4: Aktywacja holistycznego podejścia</w> <span class=\"en\">Enabling a Holistic Approach</span> – aktywatory działają <b>indywidualnie i kolektywnie</b>, a ich cele wynikają z <w k=\"kaskada-celow\">Kaskady Celów</w>.</p>",
+   "c": "Jeden aktywator nie wystarczy – liczy się każdy osobno i wszystkie razem.",
+   "s": "COBIT 5 Framework (PL), s. 14, 27–28, Przykład 3",
+   "ctx": "<p>Pojęcie jest celowo szerokie: obejmuje „wszystko, co może ułatwić osiągnięcie celów przedsiębiorstwa” – także kulturę, procedury i zespoły decyzyjne, nie tylko narzędzia IT. <w k=\"cele-zwiazane-z-it\">Cele związane z Informatyką</w> określają, co mają osiągnąć poszczególne aktywatory; stąd <w k=\"cele-aktywatorow\">Cele aktywatora</w>.</p><p>Przykład 3: usługi IT dla użytkowników wymagają naraz infrastruktury i aplikacji, ludzi z umiejętnościami (także behawioralnymi), procesów realizacji usług i struktur organizacyjnych. Helpdesk z najlepszym programem nie pomoże bez przeszkolonych ludzi i jasnego procesu.</p><p>Pułapka nazw: podręcznik pisze „czynnik umożliwiający” i „Wdrożenie podejścia całościowego”; na egzaminie – aktywator i Aktywacja holistycznego podejścia. Gdy pytanie opisuje jeden wdrożony element, który nic nie zmienił, szukaj odpowiedzi o brakujących pozostałych aktywatorach.</p>",
+   "lekcje": [
+    "pr-k33-zasada-4-aktywator"
+   ]
+  },
+  {
+   "h": "Siedem kategorii aktywatorów – procesy to tylko jedna z nich",
+   "b": "<p>Ilustracja 12 (egzamin: Rysunek 12):</p><ol><li><w k=\"zasady-polityki-struktury\">Zasady, Polityki i Struktury ramowe</w></li><li>Procesy</li><li><w k=\"struktury-organizacyjne\">Struktury organizacyjne</w></li><li><w k=\"kultura-etyka-zachowanie\">Kultura, Etyka i Zachowanie</w></li><li><w k=\"informacja\">Informacja</w></li><li><w k=\"uslugi-infrastruktura-aplikacje\">Usługi, Infrastruktura i Aplikacje</w></li><li><w k=\"ludzie-umiejetnosci-kompetencje\">Ludzie, Umiejętności i Kompetencje</w></li></ol>",
+   "c": "Siedem kategorii w stałej kolejności z Ilustracji 12 – pytania odwołują się do numerów.",
+   "s": "COBIT 5 Framework (PL), s. 27, Ilustracja 12",
+   "ctx": "<p>Sens kategorii: zasady i polityki przekładają pożądane zachowanie na praktyczne wytyczne; procesy to uporządkowane praktyki prowadzące do celów; struktury organizacyjne to kluczowe jednostki decyzyjne; kultura, etyka i zachowanie to często niedoceniany czynnik sukcesu; informacja to wszystkie informacje organizacji; usługi, infrastruktura i aplikacje dają przetwarzanie i usługi IT; ludzie, umiejętności i kompetencje są potrzebni do działań i decyzji.</p><p>Przypisuj według tego, czym element jest z natury. Helpdesk: regulamin → 1, proces obsługi zgłoszeń → 2, kierownik i komitet zmian → 3 (decydują), życzliwość wobec klienta → 4, baza wiedzy → 5 (choć leży w systemie), system zgłoszeń → 6, przeszkoleni konsultanci → 7.</p><p>Pułapki: „Zasady” w nazwie aktywatora 1 to zasady działania organizacji, a nie pięć zasad COBIT 5 (zasad jest 5, kategorii 7). Podręcznik pisze „Zasady, polityki i metodyki” oraz „Informacje”.</p>",
+   "lekcje": [
+    "pr-k34-siedem-aktywatorow"
+   ]
+  },
+  {
+   "h": "Aktywatory 5, 6 i 7 są też zasobami – a wszystkie zależą od siebie",
+   "b": "<p><w k=\"zasob\">Zasoby</w> <span class=\"en\">Resources</span>: informacja; usługi, infrastruktura i aplikacje; ludzie, umiejętności i kompetencje.</p><p>Każdy aktywator potrzebuje <b>wejść</b> od innych i daje im <b>wyniki</b>.</p><blockquote>„procesy wymagają informacji, struktury organizacyjne wymagają umiejętności i zachowania”</blockquote>",
+   "c": "Zasoby to informacja, technologia i ludzie; słabe ogniwo osłabia cały system aktywatorów.",
+   "s": "COBIT 5 Framework (PL), s. 27–28, Ilustracja 12, Przykład 4",
+   "ctx": "<p>Na Ilustracji 12 trzy ostatnie kategorie podpisano jako zasoby, które też wymagają zarządzania i nadzoru. Pułapki: procesy i struktury to nie zasoby; zasoby to nie „tylko technologia”; nie wszystkie siedem aktywatorów to zasoby. Bezpieczna odpowiedź: 5, 6, 7.</p><p>Zależność działa w obie strony: procesy wymagają informacji i same ją wytwarzają; umiejętności i zachowanie zwiększają efektywność procesów. Dobre decyzje wymagają uwzględnienia tego systemowego charakteru i wsparcia najwyższego kierownictwa.</p><p>Przykład 4 w szpitalu: polityka i procedury bezpieczeństwa są spisane, ale lekarze dzielą się hasłami, „bo tak szybciej”. Zawodzi aktywator 4 – kultura i etyka – więc procesy i procedury nie są skuteczne. Lekarstwem nie jest kolejna procedura, lecz praca nad kulturą.</p>",
+   "lekcje": [
+    "pr-k35-aktywatory-zasoby"
+   ]
+  },
+  {
+   "h": "Proces się powtarza i zamienia wejścia w wyniki; projekt ma koniec",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th></th><th><w k=\"projekt\">Projekt</w> <span class=\"en\">Project</span></th><th><w k=\"proces\">Proces</w> <span class=\"en\">Process</span></th></tr><tr><td>czas</td><td>jednorazowy, ma koniec</td><td>powtarzalny, bez końca</td></tr><tr><td>cel</td><td>tworzy albo zmienia</td><td>utrzymuje działanie</td></tr><tr><td>budowa</td><td>budżet, harmonogram</td><td>wejście → praktyki → wynik; właściciel, mierniki</td></tr></table></div>",
+   "c": "Zapytaj „czy ta praca ma datę końca?” – proces w COBIT 5 to praktyki zamieniające wejścia w wyniki, z właścicielem i miernikami.",
+   "s": "COBIT 5 Framework (PL), s. 93 (słowniczek), s. 33",
+   "ctx": "<p>Definicja: proces to „zbiór praktyk ukierunkowanych przez polityki i procedury przedsiębiorstwa”, który przetwarza dane wejściowe z różnych źródeł (także z innych procesów) i dostarcza wyniki – produkty, usługi. Do tego rozliczany właściciel, jasne role i zakresy odpowiedzialności oraz środki pomiaru sprawności. COBIT 5 opisuje wzorcowo 37 procesów, które organizacja dopasowuje do siebie.</p><p>Pułapki: projekt (jednorazowe przedsięwzięcie z budżetem), polityka (zasada spisana przez kierownictwo) i program komputerowy (narzędzie – inny aktywator) to nie procesy. Po zakończeniu projektu jego rezultat muszą przejąć procesy, inaczej korzyść znika.</p><p>Przykład z urzędu: wdrożenie systemu ERP (planowania zasobów organizacji) od marca do grudnia to projekt. Codzienna obsługa zgłoszeń to proces: wejście – zgłoszenie, praktyki – weryfikacja i reset hasła, wynik – działające konto, właściciel – kierownik helpdesku.</p>",
+   "lekcje": [
+    "m0-23-proces-projekt",
+    "m0-24-proces-w-cobit"
+   ]
+  }
+ ],
+ "k-pr-wymiary": [
+  {
+   "h": "Każdy aktywator opisują te same cztery wymiary",
+   "b": "<p><w k=\"wymiary-aktywatora\">Wymiary aktywatora</w> <span class=\"en\">Enabler dimensions</span>, Ilustracja 13:</p><div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Wymiar</th><th>Zawiera</th></tr><tr><td><w k=\"wymiar-interesariusze\">Interesariusze</w></td><td>wewnętrzni, zewnętrzni</td></tr><tr><td><w k=\"wymiar-cele\">Cele</w></td><td>trzy kategorie celów</td></tr><tr><td><w k=\"wymiar-cykl-zycia\">Cykl życia</w></td><td>sześć faz</td></tr><tr><td><w k=\"dobre-praktyki\">Dobre praktyki</w> <span class=\"en\">Good practices</span></td><td>praktyki, produkty działań (wejścia i wyniki)</td></tr></table></div>",
+   "c": "Wymiary to cztery rubryki opisu każdego z siedmiu aktywatorów, a nie kolejne aktywatory.",
+   "s": "COBIT 5 Framework (PL), s. 28–30, Ilustracja 13, Przykład 5",
+   "ctx": "<p>Wspólne wymiary pozwalają używać aktywatorów w sposób typowy, prosty i uporządkowany oraz zarządzać ich złożonymi powiązaniami. Interesariusze to strony aktywne lub zainteresowane aktywatorem; Cele to ostatni etap Kaskady Celów; Dobre praktyki to sugestie optymalnego wdrożenia plus wymagane wejścia i wyniki. COBIT 5 podaje dobre praktyki tylko dla niektórych aktywatorów (np. procesów); dla innych sięga się po inne standardy.</p><p>Pułapki: <b>dobre</b>, a nie „najlepsze” praktyki <span class=\"en\">best practices</span>; dobre praktyki to wymiar, a nie <w k=\"wyznacznik\">wyznacznik</w>; wymiary aktywatora to coś innego niż wymiar procesu i wymiar zdolności z oceny procesów.</p><p>Przykład 5: kierownicy ds. procesów opisują proces wymiarami – interesariuszy wskazuje tabela <w k=\"raci\">RACI</w>, cele i mierniki podano dla APO08 Zarządzanie relacjami, cykl życia to zaprojektowanie, realizacja, monitorowanie i dostosowanie, a dobre praktyki daje przewodnik „COBIT 5: Procesy umożliwiające”.</p>",
+   "lekcje": [
+    "pr-k36-wymiary-aktywatora"
+   ]
+  },
+  {
+   "h": "Cykl życia aktywatora: sześć faz – nie kończy się na wdrożeniu",
+   "b": "<p><w k=\"cykl-zycia-aktywatora\">Cykl życia</w> <span class=\"en\">Life cycle</span> ma każdy aktywator:</p><ol><li>Planowanie</li><li>Projektowanie</li><li>Budowanie / nabywanie / tworzenie / wdrażanie</li><li>Użytkowanie / eksploatacja</li><li>Ocena / monitorowanie</li><li>Aktualizacja / pozbywanie się</li></ol>",
+   "c": "Każdy aktywator – także polityka czy komitet – przechodzi sześć faz; po wdrożeniu są jeszcze użytkowanie, ocena i aktualizacja.",
+   "s": "COBIT 5 Framework (PL), s. 28–29, Ilustracja 13",
+   "ctx": "<p>Cykl prowadzi od rozpoczęcia, przez okres funkcjonowania, do wycofania i dotyczy informacji, struktur, procesów, polityk – nie tylko systemów IT. Planowanie obejmuje opracowanie i wybór koncepcji. Fazę 4 tekst podręcznika nazywa „Użytkowanie/obsługa”, Ilustracja 13 – „Użytkowanie/eksploatacja”; to ta sama faza. Najwięcej problemów bierze się z zaniedbania dwóch ostatnich faz.</p><p>Pułapka: cykl życia aktywatora to nie <w k=\"cykl-wdrozenia\">cykl życia wdrożenia COBIT 5</w>. Pierwszy opisuje jedną rzecz i ma sześć faz; drugi to program wprowadzania COBIT 5 w organizacji – siedem faz i pierścienie. Liczba faz w pytaniu podpowiada, o który chodzi.</p><p>Przykład z urzędu: wykaz osób upoważnionych do przetwarzania danych osobowych przygotowano i wdrożono, ale nikt go nie przegląda (faza 5) ani nie usuwa osób, które odeszły (faza 6) – formalnie działa, a celów już nie spełnia.</p>",
+   "lekcje": [
+    "pr-k37-cykl-zycia"
+   ]
+  },
+  {
+   "h": "Trzy kategorie celów: czy prawdziwy, czy przydatny, czy dostępny i chroniony",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Kategoria</th><th>Słowa-klucze</th></tr><tr><td><w k=\"jakosc-wewnetrzna\">Jakość wewnętrzna</w> <span class=\"en\">Intrinsic quality</span></td><td>dokładne, obiektywne, uznane</td></tr><tr><td><w k=\"jakosc-kontekstowa\">Jakość kontekstowa</w> <span class=\"en\">Contextual quality</span></td><td>istotne, kompletne, aktualne, zrozumiałe, łatwe w użyciu</td></tr><tr><td><w k=\"dostep-i-bezpieczenstwo\">Dostęp i Bezpieczeństwo</w> <span class=\"en\">Accessibility and security</span></td><td>dostępne w razie potrzeby, tylko dla uprawnionych</td></tr></table></div>",
+   "c": "Kategorię rozpoznajesz po słowie-kluczu; „wewnętrzna” znaczy „sama w sobie”, a nie „wewnątrz organizacji”.",
+   "s": "COBIT 5 Framework (PL), s. 28–29, Ilustracja 13",
+   "ctx": "<p>Jakość wewnętrzna: czy aktywator działa dokładnie i obiektywnie i daje dokładne, obiektywne, uznane wyniki. Jakość kontekstowa: czy aktywator i jego wyniki pasują do celu w danej sytuacji. Dostęp i Bezpieczeństwo: czy jest dostępny, gdy trzeba, a wyniki są „dostępne jedynie dla osób uprawnionych i potrzebujących takiego dostępu”. Dokładny raport, który przychodzi za późno, ma dobrą jakość wewnętrzną i złą kontekstową.</p><p>Pułapki: podręcznik pisze „jakość rzeczywista” (egzamin: wewnętrzna), a na Ilustracji 13 „Dostępność i bezpieczeństwo”. „Wewnętrzna” to cecha samej rzeczy – kategorii „jakość zewnętrzna” nie ma. <b>Kompletne</b> to jakość kontekstowa, nie wewnętrzna, bo kompletność zależy od potrzeb odbiorcy.</p><p>Przykład z banku: „kursy walut zgodne z notowaniami” → wewnętrzna; „wyciąg zawiera wszystkie operacje i jest czytelny” → kontekstowa; „aplikacja działa całą dobę, a dane widzi tylko właściciel konta” → dostęp i bezpieczeństwo.</p>",
+   "lekcje": [
+    "pr-k38-kategorie-celow",
+    "pr-k39-kategorie-rozpoznaj"
+   ]
+  }
+ ],
+ "k-pr-wydajnosc": [
+  {
+   "h": "Wydajność aktywatora: cztery pytania, regularnie i miernikami",
+   "b": "<p><w k=\"zarzadzanie-wydajnoscia-aktywatora\">Zarządzanie wydajnością aktywatora</w> <span class=\"en\">Enabler performance management</span>:</p><ol><li>Czy uwzględniono potrzeby interesariuszy?</li><li>Czy osiągnięto cele aktywatora?</li><li>Czy zadbano o zarządzanie cyklem życia?</li><li>Czy stosowane są dobre praktyki?</li></ol>",
+   "c": "Cztery pytania to cztery wymiary aktywatora zamienione w pytania kontrolne, na które odpowiada się miernikami.",
+   "s": "COBIT 5 Framework (PL), s. 28–29, Ilustracja 13",
+   "ctx": "<p>Podręcznik wymaga „regularnego monitorowania i udzielania odpowiedzi na poniższe pytania — na podstawie mierników”. To nie jednorazowy odbiór po wdrożeniu i nie tylko pomiar procesów – dotyczy każdego z siedmiu aktywatorów. Na Ilustracji 13 pytania stoją pod wymiarami, którym odpowiadają.</p><p>Pułapki: pytania „czy aktywator jest tani?” albo „czy wdrożono go szybko?” brzmią rozsądnie, ale nie należą do modelu. Podręcznik pisze „sprawność” – na egzaminie <b>wydajność</b> (<span class=\"en\">performance</span>).</p><p>Przykład ze szpitala dla polityki haseł: czy lekarze szybko się logują? czy spadła liczba nieuprawnionych logowań? czy politykę co roku się przegląda? czy jest zgodna z dobrymi praktykami bezpieczeństwa?</p>",
+   "lekcje": [
+    "pr-k40-wydajnosc-aktywatora"
+   ]
+  },
+  {
+   "h": "Pytania 1–2 mierzy wskaźnik opóźniony, pytania 3–4 – wiodący",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th></th><th>Pytania 1–2</th><th>Pytania 3–4</th></tr><tr><td>dotyczą</td><td>wyniku (potrzeby, cele)</td><td>funkcjonowania (cykl życia, praktyki)</td></tr><tr><td>egzamin</td><td><w k=\"wskaznik-opozniony\">wskaźnik opóźniony</w> <span class=\"en\">Lag indicator</span></td><td><w k=\"wskaznik-wiodacy\">wskaźnik wiodący</w> <span class=\"en\">Lead indicator</span></td></tr><tr><td>podręcznik</td><td>następujący</td><td>wyprzedzający</td></tr></table></div>",
+   "c": "Opóźniony potwierdza wynik po fakcie, wiodący ostrzega wcześniej – „wiodący” znaczy „idący przodem”, nie „najważniejszy”.",
+   "s": "COBIT 5 Framework (PL), s. 28–29, Ilustracja 13",
+   "ctx": "<p>Podręcznik: pierwsze dwa punkty „dotyczą rzeczywistego wyniku”, ostatnie dwa – „rzeczywistego funkcjonowania samego czynnika umożliwiającego”. Na Ilustracji 13 to „mierniki realizacji celów” i „mierniki stosowania praktyk”. O typie decyduje to, co wskaźnik mierzy, a nie waga tematu: zadowolenie interesariuszy jest ważne, ale to wynik, więc wskaźnik opóźniony.</p><p>Typowa pułapka to zamiana typów: pytanie poprawne, ale przypisane do złego wskaźnika. Dobry zestaw łączy oba: same opóźnione alarmują za późno, same wiodące mogą wyglądać dobrze, choć wyniku nie ma.</p><p>Przykład (kursu, nie z podręcznika): ubezpieczyciel raz w roku mierzy satysfakcję klientów z likwidacji szkód – wskaźnik opóźniony. Co tydzień liczy odsetek szkód z odpowiedzią w 24 godziny – wskaźnik wiodący; gdy spada, roczna satysfakcja też spadnie.</p>",
+   "lekcje": [
+    "pr-k41-wskazniki-opoznione-wiodace"
+   ]
+  }
+ ]
+}

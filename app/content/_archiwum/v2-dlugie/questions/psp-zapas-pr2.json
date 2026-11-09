@@ -1,0 +1,427 @@
+[
+  {
+    "id": "q-zap-pr-08-zasada-4-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-02"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Który element komendy **NIE** jest jednocześnie zasobem organizacji w rozumieniu COBIT 5?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 27
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Opisany krok po kroku sposób obsługi alarmu",
+        "poprawna": true,
+        "wyjasnienie": "To proces, czyli aktywator 2. Zasobami są tylko informacja, technologia i ludzie (aktywatory 5, 6 i 7)."
+      },
+      {
+        "tekst": "Lista numerów telefonów ochotników OSP",
+        "poprawna": false,
+        "wyjasnienie": "To informacja (aktywator 5), a informacja jest zasobem.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Serwer i aplikacja Syrena",
+        "poprawna": false,
+        "wyjasnienie": "To usługi, infrastruktura i aplikacje (aktywator 6) – zasób.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Wyszkoleni dyżurni stanowiska kierowania",
+        "poprawna": false,
+        "wyjasnienie": "To ludzie i ich umiejętności (aktywator 7) – zasób.",
+        "pulapka": "prawda-nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-08-zasada-4-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-02"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Komenda ma spisaną politykę zgłaszania usterek Syreny, ale dyżurni boją się z niej korzystać, bo za błędy dotąd karano. Co trzeba poprawić w pierwszej kolejności, żeby polityka zaczęła działać?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 27
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Spisane reguły: dopisać do polityki kolejne punkty",
+        "poprawna": false,
+        "wyjasnienie": "Polityka już istnieje. Problem leży w zachowaniu ludzi, a nie w braku zapisu.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Atmosferę w zespole: zgłaszanie błędów bez szukania winnych",
+        "poprawna": true,
+        "wyjasnienie": "To aktywator Kultura, Etyka i Zachowanie. Przykład 4 (s. 28): procesy i procedury bezpieczeństwa informacji nie będą skuteczne bez odpowiedniej kultury i etyki."
+      },
+      {
+        "tekst": "Technologię: kupić nowy serwer dla Syreny",
+        "poprawna": false,
+        "wyjasnienie": "Technologia działa. Ludzie nie zgłaszają usterek z obawy przed karą.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Dane: uzupełnić listę numerów OSP",
+        "poprawna": false,
+        "wyjasnienie": "Brakuje zgłoszeń, a nie danych. Przyczyna leży w kulturze.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-09b-kategorie-celow-aktywatora-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-12"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Raport o czasach dojazdu jest dokładny, ale trafia do komendantki tydzień po odprawie, na której był potrzebny. Którego celu aktywatora raport **NIE** spełnia?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Jakości kontekstowej, bo nie jest aktualny w chwili potrzeby",
+        "poprawna": true,
+        "wyjasnienie": "Aktualność i dopasowanie do sytuacji to jakość kontekstowa (s. 29)."
+      },
+      {
+        "tekst": "Jakości wewnętrznej, bo dane w raporcie są niedokładne",
+        "poprawna": false,
+        "wyjasnienie": "Raport jest dokładny, więc jakość wewnętrzna jest spełniona.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Dostępu i bezpieczeństwa, bo raport czytają osoby nieuprawnione",
+        "poprawna": false,
+        "wyjasnienie": "W sytuacji nie ma mowy o nieuprawnionym dostępie.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Jakości rzeczywistej, bo raport jest nieobiektywny",
+        "poprawna": false,
+        "wyjasnienie": "To nazwa z podręcznika. Na egzaminie mówi się „jakość wewnętrzna”, a raport jest dokładny.",
+        "pulapka": "forma-podrecznikowa"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-09b-kategorie-celow-aktywatora-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-12"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Informatyczka Ola Dudek dzwoni do każdego ochotnika z listy OSP, żeby sprawdzić, czy numer jest prawdziwy. Który cel aktywatora sprawdza?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Jakość kontekstową – czy lista jest łatwa w użyciu",
+        "poprawna": false,
+        "wyjasnienie": "Łatwość użycia to jakość kontekstowa, a Ola sprawdza prawdziwość numerów.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Jakość wewnętrzną – czy dane są dokładne",
+        "poprawna": true,
+        "wyjasnienie": "Prawdziwość i dokładność danych to jakość wewnętrzna (s. 29)."
+      },
+      {
+        "tekst": "Dostęp i bezpieczeństwo – czy listę widzą tylko uprawnieni",
+        "poprawna": false,
+        "wyjasnienie": "Uprawnienia to dostęp i bezpieczeństwo, a tu chodzi o poprawność.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Jakość wewnętrzną – czy listy używa się tylko w komendzie",
+        "poprawna": false,
+        "wyjasnienie": "„Wewnętrzna” znaczy „sama w sobie”, a nie „wewnątrz organizacji”.",
+        "pulapka": "falsz"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-10-wskazniki-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-05",
+      "PR-02-13"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Który miernik jest **wskaźnikiem wiodącym** dla alarmowania w komendzie?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Średni czas dotarcia alarmu w ubiegłym kwartale",
+        "poprawna": false,
+        "wyjasnienie": "Ten wynik widać po fakcie, więc to wskaźnik opóźniony.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Liczba alarmów, które w zeszłym roku nie dotarły do OSP",
+        "poprawna": false,
+        "wyjasnienie": "To wynik po fakcie, czyli wskaźnik opóźniony.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Odsetek dyżurnych przećwiczonych w tym miesiącu",
+        "poprawna": true,
+        "wyjasnienie": "Mierzy stosowanie dobrych praktyk dziś i ostrzega wcześniej, więc jest wiodący."
+      },
+      {
+        "tekst": "Liczba procesów w domenie DSS",
+        "poprawna": false,
+        "wyjasnienie": "To fakt o modelu COBIT, a nie miernik wydajności aktywatora.",
+        "pulapka": "prawda-nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-10-wskazniki-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-05",
+      "PR-02-13"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Kpt. Sikora przygotowuje comiesięczny przegląd listy numerów OSP. Które z jego pytań **NIE** należy do zarządzania wydajnością aktywatora?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Czy dyżurni i OSP dostają z listy to, czego potrzebują?",
+        "poprawna": false,
+        "wyjasnienie": "To pytanie o potrzeby interesariuszy – należy do modelu.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Czy numery są dopisywane, sprawdzane i usuwane na czas?",
+        "poprawna": false,
+        "wyjasnienie": "To pytanie o zarządzanie cyklem życia – należy do modelu.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Czy sprawdzamy listę sposobem sprawdzonym w innej komendzie?",
+        "poprawna": false,
+        "wyjasnienie": "To pytanie o dobre praktyki – należy do modelu.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Czy listę przygotowała najtańsza firma?",
+        "poprawna": true,
+        "wyjasnienie": "Wśród czterech pytań COBIT 5 (s. 29) nie ma pytania o cenę."
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-11-zasada-5-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-14",
+      "PR-02-15"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Kpt. Sikora co tydzień mierzy, czy poprawki Syreny działają zgodnie z planem, i melduje to komendantce. Jaki obszar wykonuje?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 31
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Monitoruj po stronie Ładu (EDM)",
+        "poprawna": false,
+        "wyjasnienie": "W Ładzie monitoruje organ Ładu, czyli komendantka, a nie Sikora.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Monitoruj po stronie Zarządzania (MEA)",
+        "poprawna": true,
+        "wyjasnienie": "Sikora to Zarządzanie. Pomiar wydajności i zgodności to Monitoruj w MEA."
+      },
+      {
+        "tekst": "Kieruj – wyznaczanie kierunku przez Ład",
+        "poprawna": false,
+        "wyjasnienie": "Kieruj to wyznaczanie kierunku przez Ład.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Twórz",
+        "poprawna": false,
+        "wyjasnienie": "Tworzenie to budowa rozwiązań, a tu Sikora mierzy wyniki.",
+        "pulapka": "prawda-nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pr-13-domeny-zarzadzania-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-04"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Komenda opracowuje system zarządzania bezpieczeństwem informacji: zasady, role i plan na trzy lata. Który proces najlepiej pasuje?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 33
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "APO13 Zarządzanie bezpieczeństwem",
+        "poprawna": true,
+        "wyjasnienie": "APO13 to planowanie i utrzymanie systemu zarządzania bezpieczeństwem (s. 33)."
+      },
+      {
+        "tekst": "DSS05 Zarządzanie usługami bezpieczeństwa",
+        "poprawna": false,
+        "wyjasnienie": "DSS05 to codzienna ochrona, a nie budowa systemu i planu.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "EDM03 Zapewnienie optymalizacji ryzyka",
+        "poprawna": false,
+        "wyjasnienie": "EDM03 to proces Ładu o ryzyku, a nie system bezpieczeństwa.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "BAI06 Zarządzanie zmianami",
+        "poprawna": false,
+        "wyjasnienie": "Zmiany to inny proces BAI, niezwiązany z planem bezpieczeństwa.",
+        "pulapka": "prawda-nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-pr2-pr-09-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-12"
+    ],
+    "lekcja": "pr-09-wymiary-aktywatora",
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Kpt. Sikora przejmuje z innej komendy sprawdzony sposób comiesięcznej weryfikacji numerów OSP: co trzeba mieć na wejściu i jaki wynik ma powstać. Który wymiar aktywatora opisuje?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Wyznacznik potrzeb",
+        "poprawna": false,
+        "wyjasnienie": "Wyznacznik zmienia potrzeby. Nie jest wymiarem aktywatora.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Cele",
+        "poprawna": false,
+        "wyjasnienie": "Cele mówią, co lista ma dawać, a nie jak ją sprawdzać.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Interesariusze",
+        "poprawna": false,
+        "wyjasnienie": "Interesariusze to osoby, których lista dotyczy.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Dobre praktyki",
+        "poprawna": true,
+        "wyjasnienie": "Sprawdzony sposób wdrożenia wraz z wejściami i wynikami to dobre praktyki (s. 29)."
+      }
+    ]
+  },
+  {
+    "id": "q-pr2-pr-09b-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-12"
+    ],
+    "lekcja": "pr-09b-kategorie-celow-aktywatora",
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Dyżurna mówi: „Numery na liście są poprawne, ale ułożone po nazwiskach. W nocy szukam po nazwie jednostki i tracę czas”. Której kategorii celów aktywatora dotyczy problem?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 29
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Jakości kontekstowej",
+        "poprawna": true,
+        "wyjasnienie": "Lista nie jest łatwa w użyciu w tej sytuacji, a to jakość kontekstowa (s. 29)."
+      },
+      {
+        "tekst": "Jakości wewnętrznej",
+        "poprawna": false,
+        "wyjasnienie": "Numery są poprawne, więc jakość wewnętrzna jest w porządku.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Dostępu i bezpieczeństwa",
+        "poprawna": false,
+        "wyjasnienie": "Dyżurna ma dostęp do listy. Problemem jest jej układ.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Dobrych praktyk",
+        "poprawna": false,
+        "wyjasnienie": "Dobre praktyki to wymiar aktywatora, a nie kategoria celów.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  }
+]

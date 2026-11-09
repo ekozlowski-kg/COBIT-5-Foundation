@@ -39,12 +39,11 @@
     "biuro": "Kierownik zleca nową instrukcję obiegu dokumentów i po tygodniu dostaje ją wydrukowaną i podpisaną – to rezultat. Korzyść będzie wtedy, gdy pisma przestaną ginąć między pokojami.",
     "firma": "Warsztat zamawia stronę internetową z rezerwacją wizyt i od poniedziałku strona działa – to rezultat. Czy przyniesie korzyść, okaże się, gdy właściciel policzy, ile osób naprawdę się przez nią umówiło.",
     "admin": "Szkoła robi dla rodziców szkolenie z e-dziennika: 80 osób na sali, lista obecności podpisana. To rezultat. Korzyść będzie wtedy, gdy rodzice przestaną dzwonić do sekretariatu po oceny.",
-    "psp": "Informatyk komendy kończy wdrożenie modułu mapowego w SK i podpisuje protokół odbioru – to rezultat. Korzyść pojawi się, gdy dyżurni zaczną dzięki mapie wybierać bliższy zastęp i czas dojazdu faktycznie spadnie.",
     "it": "Projekt w BAI03 (Zarządzanie identyfikacją i budowaniem rozwiązań) dostarcza nową aplikację – to rezultat (output). Czy powstała korzyść, sprawdza się później, np. w EDM02 (Zapewnienie realizacji korzyści), porównując efekty z uzasadnieniem biznesowym."
   },
   "glebokosc": {
     "prosty": "Malarz pomalował pokój – to rezultat, który widać od razu. Korzyść przychodzi później: pokój jest jaśniejszy i lepiej się w nim śpi. Jeśli kolor wyszedł tak ciemny, że nikt nie chce tam siedzieć, rezultat jest, a korzyści brak.",
-    "zaawansowany": "Kwant-Sygnał przekazuje Syrenę zgodnie z umową: system działa, a dyżurni są przeszkoleni. To rezultat [[projekt|projektu]]. Dh Pietrzak z OSP Zawilce mówi jednak, że SMS-y przychodzą z kilkuminutowym opóźnieniem, więc ochotnicy dalej czekają na dźwięk syreny. Rezultat jest, ale korzyści – szybszego wyjazdu – jeszcze nie ma. Dlatego bryg. Wrzos pyta o [[realizacja-korzysci|realizację korzyści]], a nie tylko o odbiór systemu.",
+    "zaawansowany": "Dostawca przekazuje sklepowi internetowemu nowy system CRM zgodnie z umową: system działa, a pracownicy obsługi klienta są przeszkoleni. To rezultat [[projekt|projektu]]. Kierowniczka obsługi klienta mówi jednak, że historia zamówień ładuje się z kilkuminutowym opóźnieniem, więc konsultanci dalej sprawdzają ją w starym arkuszu. Rezultat jest, ale korzyści – szybszej obsługi – jeszcze nie ma. Dlatego zarząd pyta o [[realizacja-korzysci|realizację korzyści]], a nie tylko o odbiór systemu.",
     "skrajny": "Słowo „rezultat” ma w kursie dwa znaczenia. W tym haśle to *output* – produkt pracy, np. wdrożony system albo raport. W modelu oceny ISO 15504 „rezultat procesu” to *outcome* – obserwowalny efekt osiągnięcia przeznaczenia procesu (zob. [[pojecia-iso15504]]). Outcome jest bliżej „to działa i daje efekt” niż „coś powstało”. Kto pomyli te znaczenia, uzna gruby raport za dowód, że proces osiąga swój cel. **Rozstrzygnięcie:** sprawdzaj angielskie słowo albo kontekst – *output* (rezultat, wynik) to to, co powstało; *outcome* (rezultat procesu w ocenie) to obserwowalny efekt; *benefit* (korzyść) to poprawa dla interesariusza (interpretacja kursu)."
   },
   "zagmatwania": [
@@ -64,8 +63,8 @@
   "mentor": {
     "czestyBlad": "Utożsamianie rezultatu (output) z korzyścią i z rezultatem procesu (outcome) w ocenie zdolności.",
     "jakTlumaczyc": "Trzy pytania po kolei: co powstało? (rezultat) co się zmieniło? (korzyść) czy to się opłaca przy tym ryzyku i koszcie? (wartość). Przykład: kupiony karnet na siłownię, lepsza kondycja, zdrowie bez kontuzji.",
-    "pytanieKontrolne": "Projekt Syreny zakończył się w terminie i w budżecie. Czy można powiedzieć, że przyniósł korzyść? Co trzeba sprawdzić?",
-    "odpowiedzKontrolna": "Jeszcze nie wiadomo – na razie jest rezultat. Korzyść trzeba sprawdzić w użyciu, np. czy alarm dociera szybciej i czy ochotnicy wyjeżdżają wcześniej."
+    "pytanieKontrolne": "Projekt nowego systemu CRM zakończył się w terminie i w budżecie. Czy można powiedzieć, że przyniósł korzyść? Co trzeba sprawdzić?",
+    "odpowiedzKontrolna": "Jeszcze nie wiadomo – na razie jest rezultat. Korzyść trzeba sprawdzić w użyciu, np. czy klienci są obsługiwani szybciej i czy jest mniej reklamacji."
   },
   "nieMylicZ": [
     {

@@ -1,0 +1,751 @@
+[
+  {
+    "id": "q-pre-pc-02-2",
+    "typ": "rozpoznanie",
+    "sylabus": [
+      "PC-01-01"
+    ],
+    "lekcja": "pc-02-poziomy",
+    "bloom": "wiedza",
+    "trudnosc": 1,
+    "tresc": "Dyżurni codziennie wysyłają alarm, ale część jednostek go nie dostaje. Czy taki proces może mieć poziom zdolności 0?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "oficjalne",
+    "pretest": true,
+    "opcje": [
+      {
+        "tekst": "Tak – poziom 0 to też proces wykonywany, który nie osiąga celu",
+        "poprawna": true,
+        "wyjasnienie": "Poziom 0, proces niekompletny: proces nie został wdrożony lub jego cel nie został osiągnięty (s. 42)."
+      },
+      {
+        "tekst": "Nie – poziom 0 dostaje tylko proces, którego w ogóle nie ma",
+        "poprawna": false,
+        "wyjasnienie": "„Nieistniejący” to nazwa z modelu dojrzałości COBIT 4.1. W COBIT 5 poziom 0 obejmuje też proces bez efektu."
+      },
+      {
+        "tekst": "Nie – skoro ludzie pracują, proces ma co najmniej poziom 1",
+        "poprawna": false,
+        "wyjasnienie": "Poziom 1 wymaga osiągania celu, a nie samej pracy."
+      }
+    ]
+  },
+  {
+    "id": "q-men-pc-02-poziomy-3",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-01-01"
+    ],
+    "lekcja": "pc-02-poziomy",
+    "bloom": "rozumienie",
+    "trudnosc": 1,
+    "postac": "Paweł Grab, dyżurny SK",
+    "tresc": "„Klikamy alarm na każdej zmianie, a audytorka daje nam zero, bo SMS dociera do OSP tylko w co trzecim alarmie. Przecież my pracujemy!”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Pracujecie, i nikt tego nie kwestionuje. Ocena pyta jednak, czy alarm dochodzi. Skoro dochodzi tylko w co trzecim przypadku, cel jest osiągany najwyżej częściowo i to poziom 0. Pojedyncza wpadka zera by nie dała.",
+        "poprawna": true,
+        "wyjasnienie": "Oddziela wysiłek ludzi od efektu procesu, mówi prostym językiem i trafia w próg: cel osiągany tylko częściowo (PA 1.1 = C) to poziom 0."
+      },
+      {
+        "tekst": "Masz rację, skoro klikacie, to powinna być co najmniej jedynka.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi: poziom 1 wymaga osiągania celu co najmniej w znacznym stopniu (PA 1.1 = W lub P).",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "PA 1.1 ma ocenę C, czyli poniżej W, bo rezultaty procesu są uzyskiwane tylko częściowo, więc proces jest niekompletny.",
+        "poprawna": false,
+        "wyjasnienie": "Merytorycznie trafne, ale w żargonie, którego Grab nie zna.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Zero to tylko liczba, nie przejmuj się, za rok będzie lepiej.",
+        "poprawna": false,
+        "wyjasnienie": "Pociesza, ale nie wyjaśnia, skąd zero i co poprawić.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-men-pc-02b-1",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-01-01"
+    ],
+    "lekcja": "pc-02b-poziomy-3-5",
+    "bloom": "rozumienie",
+    "trudnosc": 1,
+    "postac": "Kasia Nowik, dyżurna SK",
+    "tresc": "„Spisaliśmy procedurę powiadamiania i wisi w SK. To już mamy poziom 3, prawda?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Jeszcze nie. Procedura musi być naprawdę stosowana na każdej zmianie, a niższe poziomy osiągnięte w pełni. Sama kartka na ścianie to za mało.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto: poziom 3 to zdefiniowany i stosowany proces na pełnej dwójce."
+      },
+      {
+        "tekst": "Tak, spisana procedura to właśnie poziom 3.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi: liczy się stosowanie i pełne niższe poziomy.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Tak, wystarczy procedura – reszta, czyli planowanie i porządek w dokumentach, nie ma znaczenia.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie: każdy poziom wymaga pełnego osiągnięcia niższego.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      },
+      {
+        "tekst": "Poziom 3 sprawdzają atrybuty PA 3.1 i PA 3.2, ale tylko przy pełnym PA 2.1 i PA 2.2 oraz PA 1.1.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawne, ale w żargonie, którego Kasia jeszcze nie zna.",
+        "pulapkaMentora": "zargon"
+      }
+    ]
+  },
+  {
+    "id": "q-pc-02c-02",
+    "typ": "studium",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "lekcja": "pc-02c-atrybuty-1-2",
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "tresc": "Który atrybut procesu wypada w tym opisie najsłabiej?",
+    "scenariusz": "Wydział informatyki komendy obsługuje zgłoszenia awarii. Każda awaria jest usuwana, a karta zgłoszenia ma jeden wzór i trafia do archiwum. Nikt jednak nie układa dyżurów. Gdy Ola Dudek jest na urlopie, zgłoszenia czekają kilka dni, bo nikt nie wyznacza zastępstwa.",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42,
+        "ilustracja": "19"
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "PA 1.1 Wykonanie procesu",
+        "poprawna": false,
+        "wyjasnienie": "Awarie są usuwane, więc efekt jest osiągany.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "PA 2.1 Zarządzanie wydajnością",
+        "poprawna": true,
+        "wyjasnienie": "Brakuje planowania, monitorowania i dostosowania pracy: dyżurów i zastępstw."
+      },
+      {
+        "tekst": "PA 2.2 Zarządzanie produktami pracy",
+        "poprawna": false,
+        "wyjasnienie": "Karta ma wzór i trafia do archiwum, więc dokumenty są pod kontrolą.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "PA 4.2 Kontrola procesu",
+        "poprawna": false,
+        "wyjasnienie": "Kontrola procesu to poziom 4. Problem leży niżej, w planowaniu pracy.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-men-pc-02c-1",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "lekcja": "pc-02c-atrybuty-1-2",
+    "bloom": "rozumienie",
+    "trudnosc": 1,
+    "postac": "Kasia Nowik, dyżurna SK",
+    "tresc": "„Zarządzanie wydajnością to sprawdzanie, czy dyżurni pracują szybko, tak?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42,
+        "ilustracja": "19"
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Nie. Chodzi o to, czy ktoś planuje naszą pracę, pilnuje planu i poprawia go, gdy coś idzie nie tak.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto i trafnie: planowanie, monitorowanie, dostosowanie."
+      },
+      {
+        "tekst": "Tak, liczy się, kto szybciej wyśle alarm.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi. Wydajność nie znaczy tu szybkości.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "PA 2.1 obejmuje cele wykonania, planowanie, monitorowanie, dostosowanie oraz alokację zasobów i odpowiedzialności.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawne, ale w żargonie, którego Kasia jeszcze nie zna.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Ocenia się procesy, a nie ludzi.",
+        "poprawna": false,
+        "wyjasnienie": "Prawda, ale nie wyjaśnia, czym jest ten atrybut.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-men-pc-02c-2",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "lekcja": "pc-02c-atrybuty-1-2",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Paweł Grab, dyżurny SK",
+    "tresc": "„Mamy grafik i segregator z wersjami listy numerów. To już poziom 2, nawet jak alarm czasem nie dochodzi?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42,
+        "ilustracja": "19"
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Nie. Najpierw alarm musi dochodzić. Bez pełnego efektu grafik i segregator nie dadzą poziomu 2.",
+        "poprawna": true,
+        "wyjasnienie": "Trafia w regułę: wyższy poziom tylko po pełnym osiągnięciu niższego."
+      },
+      {
+        "tekst": "Tak, plan i dokumenty to właśnie poziom 2.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie: pomija warunek pełnego PA 1.1.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      },
+      {
+        "tekst": "Tak, skoro macie porządek w papierach.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Poziom 2 ma dwa atrybuty.",
+        "poprawna": false,
+        "wyjasnienie": "Prawda, ale nie odpowiada na pytanie.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-pre-pc-02d",
+    "typ": "rozpoznanie",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "lekcja": "pc-02d-atrybuty-3",
+    "bloom": "wiedza",
+    "trudnosc": 1,
+    "tresc": "Audytorka sprawdza, czy komenda ma jedną spisaną procedurę dla wszystkich zmian. Atrybut „Definicja procesu” jest częścią którego szczebla drabinki?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42,
+        "ilustracja": "19"
+      }
+    ],
+    "status": "oficjalne",
+    "pretest": true,
+    "opcje": [
+      {
+        "tekst": "Poziom 3 – proces ustanowiony",
+        "poprawna": true,
+        "wyjasnienie": "PA 3.1 należy do poziomu 3."
+      },
+      {
+        "tekst": "Poziom 2 – proces zarządzany",
+        "poprawna": false,
+        "wyjasnienie": "Poziom 2 to zarządzanie wydajnością i produktami pracy."
+      },
+      {
+        "tekst": "Poziom 4 – proces przewidywalny",
+        "poprawna": false,
+        "wyjasnienie": "Poziom 4 to miara i kontrola procesu."
+      }
+    ]
+  },
+  {
+    "id": "q-pc-02d-02",
+    "typ": "studium",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "lekcja": "pc-02d-atrybuty-3",
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "tresc": "Co komenda powinna poprawić w pierwszej kolejności, żeby wzmocnić atrybuty poziomu 3?",
+    "scenariusz": "Komenda ma podpisaną procedurę powiadamiania z wariantem na awarię zasięgu. Procedura leży w segregatorze w SK (stanowisku kierowania). Audytorka Ewa Lis rozmawia z sześcioma dyżurnymi. Wariant awaryjny potrafi uruchomić tylko jeden z nich, a nikt nie przeszedł szkolenia.",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42,
+        "ilustracja": "19"
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Napisać od nowa procedurę powiadamiania",
+        "poprawna": false,
+        "wyjasnienie": "Procedura istnieje i jest podpisana, więc PA 3.1 nie jest głównym problemem.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Przeszkolić dyżurnych wszystkich zmian i przećwiczyć wariant awaryjny",
+        "poprawna": true,
+        "wyjasnienie": "Słaby jest PA 3.2: standard nie działa w każdym wykonaniu."
+      },
+      {
+        "tekst": "Wprowadzić pomiar czasu wysyłki alarmu i limity",
+        "poprawna": false,
+        "wyjasnienie": "Pomiar to poziom 4. Najpierw trzeba domknąć poziom 3.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Dodać numer wersji do listy numerów OSP",
+        "poprawna": false,
+        "wyjasnienie": "To PA 2.2. Opis nie wskazuje problemu z dokumentami.",
+        "pulapka": "prawda-nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-men-pc-02d-1",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "lekcja": "pc-02d-atrybuty-3",
+    "bloom": "rozumienie",
+    "trudnosc": 1,
+    "postac": "Kasia Nowik, dyżurna SK",
+    "tresc": "„Mamy spisaną procedurę, więc mamy poziom 3, prawda?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42,
+        "ilustracja": "19"
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Jeszcze nie. Procedura to połowa. Wszyscy muszą ją znać i stosować, a poziom 2 musi być pełny.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto: wzorzec, stosowanie i pełny fundament."
+      },
+      {
+        "tekst": "Tak, spisana procedura to właśnie poziom 3.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie: pomija PA 3.2 i warunek pełnego poziomu 2.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      },
+      {
+        "tekst": "Poziom 3 wymaga osiągnięcia PA 3.1 i PA 3.2 przy pełnym osiągnięciu atrybutów PA 1.1, PA 2.1 i PA 2.2.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawne, ale same skróty i numery bez wyjaśnienia.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Procedurę podpisała komendantka Wrzos.",
+        "poprawna": false,
+        "wyjasnienie": "Nie odpowiada na pytanie.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-men-pc-02d-2",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "lekcja": "pc-02d-atrybuty-3",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Robert Dąb, dowódca zmiany w JRG 1",
+    "tresc": "„Wdrożenie procesu to chyba ten dzień, kiedy uruchomiliśmy Syrenę?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42,
+        "ilustracja": "19"
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Nie. Chodzi o to, czy każda zmiana na co dzień pracuje według wspólnej procedury i ma do tego szkolenie i sprzęt.",
+        "poprawna": true,
+        "wyjasnienie": "Trafnie: PA 3.2 to stosowanie standardu w każdym wykonaniu."
+      },
+      {
+        "tekst": "Tak, to jednorazowe uruchomienie systemu.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "To siedem faz wdrażania COBIT 5.",
+        "poprawna": false,
+        "wyjasnienie": "Myli PA 3.2 z cyklem wdrożenia COBIT 5.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      },
+      {
+        "tekst": "Syrenę kupiono od firmy Kwant-Sygnał.",
+        "poprawna": false,
+        "wyjasnienie": "Nie odpowiada na pytanie.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-pc-02e-02",
+    "typ": "studium",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "lekcja": "pc-02e-atrybuty-4-5",
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "tresc": "Dla którego atrybutu procesu jest to najmocniejszy dowód?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42,
+        "ilustracja": "19"
+      }
+    ],
+    "status": "przyklad",
+    "scenariusz": "Dyżurna Kasia Nowik przeanalizowała raporty czasów alarmu z pół roku. Zauważyła, że Syrena wysyła wiadomości według alfabetu, a nie od najbliższej jednostki. Naczelnik Sikora sprawdził też ofertę aplikacji zamiast wiadomości tekstowych. Zespół wybrał nową kolejność wysyłki i zaplanował jej próbę na jednej zmianie.",
+    "opcje": [
+      {
+        "tekst": "PA 4.2 Kontrola procesu",
+        "poprawna": false,
+        "wyjasnienie": "Kontrola to reakcja na odchylenie od limitu. Tu nikt nie usuwa usterki, tylko szuka lepszego sposobu pracy.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "PA 5.1 Innowacja procesu",
+        "poprawna": true,
+        "wyjasnienie": "Analiza danych, przegląd nowych pomysłów i wybór zmiany to PA 5.1 Innowacja procesu."
+      },
+      {
+        "tekst": "PA 5.2 Optymalizacja procesu",
+        "poprawna": false,
+        "wyjasnienie": "Zmiana jest dopiero wybrana i zaplanowana. Jej wdrożenie i sprawdzenie efektu to dopiero PA 5.2.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "PA 4.1 Miara procesu",
+        "poprawna": false,
+        "wyjasnienie": "Raporty czasów to dane z PA 4.1, ale dowód dotyczy tego, co z nimi zrobiono: wyboru zmiany.",
+        "pulapka": "prawda-nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-men-pc-02e-1",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "lekcja": "pc-02e-atrybuty-4-5",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Kasia Nowik, dyżurna SK",
+    "tresc": "„Mamy co tydzień raport czasów alarmu. Czyli powiadamianie jest już przewidywalne, prawda?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Tak, skoro jest raport, to jest poziom 4.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi: sam pomiar to dopiero połowa poziomu 4.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Jeszcze nie. Raport to pomiar. Przewidywalny proces ma też granice i ktoś reaguje, gdy wynik z nich wypada.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto i trafnie: poziom 4 to miara i kontrola procesu."
+      },
+      {
+        "tekst": "Poziom 4 wymaga osiągnięcia PA 4.1 i PA 4.2 przy pełnym osiągnięciu atrybutów poziomów 1–3 według ISO/IEC 15504.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawne, ale w żargonie, którego Kasia jeszcze nie zna.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Raporty robi Ola Dudek z wydziału informatyki.",
+        "poprawna": false,
+        "wyjasnienie": "Prawda, ale nie odpowiada na pytanie.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-men-pc-02e-2",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "lekcja": "pc-02e-atrybuty-4-5",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Paweł Grab, dyżurny SK",
+    "tresc": "„Innowacja i optymalizacja to przecież to samo: ulepszanie. Po co dwa atrybuty?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Racja, to dwie nazwy jednej rzeczy.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi: to dwa różne atrybuty poziomu 5.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Innowacja dotyczy nowych produktów, a optymalizacja oszczędzania pieniędzy.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie: oba atrybuty dotyczą ulepszania samego procesu.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      },
+      {
+        "tekst": "To dwa kroki. Innowacja to wybór zmiany na podstawie danych. Optymalizacja to jej wprowadzenie i sprawdzenie, czy pomogła.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto i trafnie: PA 5.1 wybiera, PA 5.2 wdraża i sprawdza efekt."
+      },
+      {
+        "tekst": "Poziom 5 jest celem bardzo rzadko, więc tym się nie przejmuj.",
+        "poprawna": false,
+        "wyjasnienie": "Prawda (s. 42–43), ale nie odpowiada na pytanie.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pc-02e-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PC-01-02"
+    ],
+    "lekcja": "pc-02e-atrybuty-4-5",
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Nowa kolejność wysyłki alarmu działa przez miesiąc na jednej zmianie dyżurnych. Potem zespół porównuje czasy przed zmianą i po niej i dopiero wtedy szkoli pozostałe zmiany. Którego atrybutu dotyczy ten dowód?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42,
+        "ilustracja": "19"
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "PA 5.1 Innowacja procesu",
+        "poprawna": false,
+        "wyjasnienie": "Zmiana była już wybrana. Tu chodzi o jej wdrożenie i ocenę efektu.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "PA 4.2 Kontrola procesu",
+        "poprawna": false,
+        "wyjasnienie": "Kontrola to korekta odchyleń od limitów, a nie wdrażanie ulepszenia.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "PA 3.2 Wdrożenie procesu",
+        "poprawna": false,
+        "wyjasnienie": "Słowo „wdrożenie” kusi, ale PA 3.2 dotyczy stosowania wspólnej procedury, a nie ulepszeń.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "PA 5.2 Optymalizacja procesu",
+        "poprawna": true,
+        "wyjasnienie": "Zaplanowane wdrożenie zmiany i sprawdzenie jej efektu to PA 5.2."
+      }
+    ]
+  },
+  {
+    "id": "q-men-pc-03-skala-4",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-01-03",
+      "PC-02-06"
+    ],
+    "lekcja": "pc-03-skala",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Kasia Nowik, dyżurna SK",
+    "tresc": "„Skoro C to „częściowy”, to proces na C jakoś działa. Czyli ma poziom 1, tak?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 45
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Nie. Coś w nim działa, ale cel jest osiągany najwyżej w połowie. Poziom 1 wymaga na PA 1.1 co najmniej W, więc przy C proces ma poziom 0.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto, z progiem i z poprawnym wnioskiem."
+      },
+      {
+        "tekst": "Tak, skoro coś działa, to jest już poziom 1.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi: „działa trochę” to jeszcze poziom 0.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Rating P (Partially) dla PA 1.1 nie spełnia kryterium L lub F dla capability level 1 w ISO/IEC 15504.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawne, ale w żargonie i po angielsku, którego Kasia jeszcze nie zna.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "C to druga ocena od dołu, zaraz po N.",
+        "poprawna": false,
+        "wyjasnienie": "Prawda, ale nie odpowiada na pytanie o poziom.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-pc-03b-02",
+    "typ": "studium",
+    "sylabus": [
+      "PC-01-03",
+      "PC-02-06"
+    ],
+    "lekcja": "pc-03b-oceny-w-p",
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "tresc": "Który wynik powinna wpisać Ewa Lis do raportu z oceny procesu powiadamiania?",
+    "scenariusz": "Audytorka Ewa Lis ocenia proces powiadamiania w komendzie. Oceny atrybutów (zapis z polskiego egzaminu): PA 1.1 = P, PA 2.1 = P, PA 2.2 = P, PA 3.1 = W, PA 3.2 = W, PA 4.1 = C, PA 4.2 = N.",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 45
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Poziom 2 – zarządzany, bo PA 3.1 i PA 3.2 nie są pełne",
+        "poprawna": false,
+        "wyjasnienie": "Na nowym poziomie wystarczy W. P jest wymagane dopiero od poziomu wyżej.",
+        "pulapka": "zbyt-waskie"
+      },
+      {
+        "tekst": "Poziom 4 – przewidywalny, bo PA 4.1 jest częściowo osiągnięty",
+        "poprawna": false,
+        "wyjasnienie": "C to za mało. Atrybuty poziomu 4 musiałyby mieć co najmniej W.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Poziom 1 – wykonywany, bo nie wszystkie atrybuty mają P",
+        "poprawna": false,
+        "wyjasnienie": "Pełne P są potrzebne tylko poniżej docelowego poziomu.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Poziom 3 – ustanowiony",
+        "poprawna": true,
+        "wyjasnienie": "Poziomy 1 i 2 mają same P, a atrybuty poziomu 3 mają W. Poziomu 4 nie ma, bo PA 4.1 = C i PA 4.2 = N."
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pc-03b-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PC-02-06"
+    ],
+    "lekcja": "pc-03b-oceny-w-p",
+    "bloom": "zastosowanie",
+    "trudnosc": 3,
+    "tresc": "Proces ma oceny PA 1.1 = P, PA 2.1 = W, PA 2.2 = W, PA 3.1 = W, PA 3.2 = W. Komenda liczyła na poziom 3, a ocena dała poziom 2. Którego warunku poziomu 3 proces dziś NIE spełnia?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "PA 1.1 musi mieć ocenę P",
+        "poprawna": false,
+        "wyjasnienie": "Ten warunek jest spełniony: PA 1.1 już ma P.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "PA 2.1 i PA 2.2 muszą mieć ocenę P",
+        "poprawna": true,
+        "wyjasnienie": "Na poziom 3 wszystkie atrybuty poziomów 1 i 2 muszą być osiągnięte w pełni, czyli mieć P (s. 42). Dziś mają tylko W."
+      },
+      {
+        "tekst": "PA 3.1 i PA 3.2 muszą mieć ocenę P",
+        "poprawna": false,
+        "wyjasnienie": "Atrybuty własnego poziomu wystarczy osiągnąć w znacznym stopniu, więc W na PA 3.1 i PA 3.2 spełnia warunek. P jest potrzebne dopiero wtedy, gdy poziom 3 staje się fundamentem poziomu 4.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "PA 4.1 i PA 4.2 muszą mieć co najmniej W",
+        "poprawna": false,
+        "wyjasnienie": "To warunek poziomu 4, a nie poziomu 3.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  }
+]

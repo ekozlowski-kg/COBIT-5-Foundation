@@ -1,0 +1,140 @@
+[
+  {
+    "id": "q-en-03b-02",
+    "typ": "studium",
+    "sylabus": [
+      "EN-02-25"
+    ],
+    "lekcja": "en-03b-litery-raci",
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "scenariusz": "Dyżurny Paweł Grab co tydzień przeprowadza test alarmu w Syrenie i zapisuje wynik. Dzień przed testem dzwoni do dh. Stanisława Pietrzaka. Pietrzak mówi, o której godzinie ochotnicy z OSP Zawilce mogą odebrać próbny SMS, i Grab ustawia test na tę godzinę. Wynik testu trafia e-mailem do dowódcy zmiany Roberta Dąba, który go tylko czyta. Kierownik SK odpowiada przed komendantką za to, że testy się odbywają.",
+    "tresc": "Jaką rolę RACI przy cotygodniowym teście alarmu ma **dh Stanisław Pietrzak**?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 90
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "I – informowany",
+        "poprawna": false,
+        "wyjasnienie": "Informowany tylko dostaje wiadomość. Pietrzaka się pyta, a on odpowiada i jego odpowiedź zmienia test.",
+        "pulapka": "odwrocone",
+        "zycie": "W życiu to tak, jakbyś sąsiada, którego pytasz o godziny wiercenia, uznał za kogoś, komu tylko wieszasz kartkę."
+      },
+      {
+        "tekst": "R – odpowiedzialny wykonawczo",
+        "poprawna": false,
+        "wyjasnienie": "Test przeprowadza Grab, więc to on jest R.",
+        "pulapka": "inna-kategoria",
+        "zycie": "W życiu to tak, jakbyś gościa pytanego o ulubione danie wziął za kucharza."
+      },
+      {
+        "tekst": "A – rozliczany",
+        "poprawna": false,
+        "wyjasnienie": "Za to, że testy się odbywają, odpowiada kierownik SK.",
+        "pulapka": "inna-kategoria",
+        "zycie": "W życiu to tak, jakbyś sąsiada pytanego o radę uznał za inwestora, który odpowiada za cały remont."
+      },
+      {
+        "tekst": "C – konsultowany",
+        "poprawna": true,
+        "wyjasnienie": "Pietrzak dostarcza wejście (godzinę gotowości ochotników), a rozmowa idzie w obie strony. To rola C (FW-PL s. 90)."
+      }
+    ]
+  },
+  {
+    "id": "q-men-en-03b-1",
+    "typ": "mentor",
+    "sylabus": [
+      "EN-02-25"
+    ],
+    "lekcja": "en-03b-litery-raci",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "mł. kpt. Ola Dudek, informatyczka",
+    "tresc": "„Skoro to ja wpisuję numery do Syreny, to chyba ja odpowiadam za całą listę? Czyli w tabeli RACI jestem A?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 89
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 93
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Tak, kto wpisuje, ten odpowiada. Jesteś A.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakujesz błędowi. Wpisywanie to wykonanie zadania, czyli R.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "R i A to prawie to samo, więc nie ma znaczenia, którą literę wpiszesz.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie. Pomylenie R z A to najczęstsza pułapka egzaminu i źródło sporów po awarii.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      },
+      {
+        "tekst": "Nie. Ty wpisujesz numery, więc jesteś R: robisz zadanie. Za to, że lista jest dobra, odpowiada kpt. Sikora i to on jest A.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto: wskazujesz czynność (wpisuje = R) i osobę, która odpowiada za wynik (A)."
+      },
+      {
+        "tekst": "Rola Responsible obejmuje realizację operacyjną, a Accountable – ostateczną rozliczalność za rezultat w ramach praktyki.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawnie, ale żargonem. Ola nie dowie się, którą literę ma.",
+        "pulapkaMentora": "zargon"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-en-03b-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "EN-02-25"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 1,
+    "scenariusz": "Po każdej aktualizacji listy numerów w Syrenie dyżurni w SK dostają SMS: „Lista numerów OSP zaktualizowana”. Nikt ich wcześniej nie pyta o zdanie i nie muszą niczego potwierdzać.",
+    "tresc": "Jaką rolę RACI przy aktualizacji listy numerów mają dyżurni w SK?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 92
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "C – konsultowany",
+        "poprawna": false,
+        "wyjasnienie": "Konsultowanego pyta się o zdanie przed zmianą, a dyżurnych nikt nie pyta.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "I – informowany",
+        "poprawna": true,
+        "wyjasnienie": "Dyżurni tylko otrzymują wiadomość, a komunikacja jest jednokierunkowa. To rola I (FW-PL s. 92)."
+      },
+      {
+        "tekst": "R – odpowiedzialny wykonawczo",
+        "poprawna": false,
+        "wyjasnienie": "Numery wpisuje Ola Dudek, a nie dyżurni.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "A – rozliczany",
+        "poprawna": false,
+        "wyjasnienie": "Za listę odpowiada kpt. Sikora. Dyżurni nie tłumaczą się z jej jakości.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  }
+]

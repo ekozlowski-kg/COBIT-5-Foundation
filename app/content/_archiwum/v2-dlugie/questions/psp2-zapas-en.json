@@ -1,0 +1,131 @@
+[
+  {
+    "id": "q-zap-en-02-procesy-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "EN-02-08"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Która kategoria celów procesu **NIE** jest spełniona?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 69
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Cele wewnętrzne",
+        "poprawna": false,
+        "wyjasnienie": "Procedura jest zgodna z wytycznymi i dobrze napisana, więc cele wewnętrzne są spełnione.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Cele kontekstowe",
+        "poprawna": false,
+        "wyjasnienie": "Cele kontekstowe dotyczą dopasowania i zrozumiałości. Tu problemem jest brak dostępu.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Cele dostępności i bezpieczeństwa",
+        "poprawna": true,
+        "wyjasnienie": "Proces ma być znany i dostępny dla osób, które go potrzebują (s. 69). Nocna zmiana nie ma do niego dostępu."
+      },
+      {
+        "tekst": "Mierniki SMART (specyficzne, wymierne, składające się z konkretnych działań)",
+        "poprawna": false,
+        "wyjasnienie": "Mierniki służą do pomiaru celów, ale nie są kategorią celów procesu.",
+        "pulapka": "inna-kategoria"
+      }
+    ],
+    "scenariusz": "Procedura obsługi alarmu jest zgodna z wytycznymi i dobrze napisana. Leży jednak w zamkniętej szafie kierownika, a nocna zmiana nie ma do niej klucza."
+  },
+  {
+    "id": "q-zap-en-02-procesy-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "EN-02-09"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Który etap cyklu życia procesu wykonuje audytorka?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 70
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Monitorowanie",
+        "poprawna": true,
+        "wyjasnienie": "Każdy proces jest definiowany, tworzony, obsługiwany, monitorowany oraz dostosowywany albo wycofywany (s. 70). Regularne sprawdzanie działania to monitorowanie."
+      },
+      {
+        "tekst": "Definiowanie",
+        "poprawna": false,
+        "wyjasnienie": "Definiowanie jest na początku, zanim proces zacznie działać. Ten proces działa od roku.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Tworzenie",
+        "poprawna": false,
+        "wyjasnienie": "Tworzenie to budowa procesu. Audytorka sprawdza proces, który już działa.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Dostosowanie albo wycofanie",
+        "poprawna": false,
+        "wyjasnienie": "Nikt tu niczego w procesie nie zmienia ani z niego nie rezygnuje.",
+        "pulapka": "falsz"
+      }
+    ],
+    "scenariusz": "Proces obsługi alarmu działa od roku. Audytorka wewnętrzna Ewa Lis co kwartał sprawdza, czy alarmy docierają do jednostek na czas."
+  },
+  {
+    "id": "q-zap-en-07-informacja-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "EN-02-17"
+    ],
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Które kryterium jakości informacji tu zawiodło?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 82
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Dokładność",
+        "poprawna": false,
+        "wyjasnienie": "Opis mówi, że raport jest dokładny, więc to kryterium jest spełnione.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Odpowiednia ilość informacji",
+        "poprawna": true,
+        "wyjasnienie": "Odpowiednia ilość to stopień, w jakim wolumen informacji pasuje do zadania (s. 82). Dowódca potrzebuje jednej liczby, a nie 90 stron."
+      },
+      {
+        "tekst": "Ograniczony dostęp dla nieuprawnionych osób",
+        "poprawna": false,
+        "wyjasnienie": "Ograniczony dostęp dotyczy ochrony przed niepowołanymi. Tu problemem jest nadmiar treści.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Wiarygodność",
+        "poprawna": false,
+        "wyjasnienie": "Wiarygodność to jakość wewnętrzna źródła. Nic nie wskazuje, że źródło jest niepewne.",
+        "pulapka": "inna-kategoria"
+      }
+    ],
+    "scenariusz": "Raport o czasach dojazdu jest dokładny i aktualny. Ma jednak 90 stron, a dowódca zmiany potrzebuje z niego jednej liczby przed odprawą."
+  }
+]

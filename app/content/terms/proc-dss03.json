@@ -30,12 +30,12 @@
   "poziom3": "Oficjalnie (FW-PL): nazwa na il. 16 (s. 33). Il. 39 (s. 88) wymienia przy DSS umiejętność *„Zarządzanie problemami”*. Szczegóły praktyk pochodzą z przewodnika *COBIT 5: Procesy umożliwiające*, którego nie ma w korpusie – traktuj je jako uproszczenie dydaktyczne.",
   "poCo": "Żeby te same awarie nie wracały. Szukasz przyczyny źródłowej i usuwasz ją trwale.",
   "jakDziala": "Rozpoznajesz i klasyfikujesz problemy, a potem badasz ich przyczyny źródłowe. Zapisujesz znane błędy i obejścia. Rozwiązujesz i zamykasz problem, a najlepiej wykrywasz go, zanim wywoła incydent.",
-  "dlaczegoWazne": "DSS03 szuka przyczyny, a DSS02 gasi skutki. Egzamin często sprawdza to rozróżnienie (interpretacja kursu).",
+  "dlaczegoWazne": "DSS03 szuka przyczyny, a DSS02 usuwa skutki. Egzamin często sprawdza to rozróżnienie (interpretacja kursu).",
   "przyklady": {
     "zycie": "Bezpiecznik w łazience wybija trzeci raz w tygodniu. Zamiast znowu go podnosić, wołasz elektryka. Ten znajduje przyczynę: stara suszarka ma uszkodzony kabel. Wyrzucasz suszarkę i bezpiecznik przestaje wybijać.",
     "biuro": "Co tydzień ktoś gubi klucz do szafy z aktami. Zamiast dorabiać kolejny, kierowniczka wiesza tablicę na klucze przy drzwiach.",
-    "organizacja": "Sklep odkrywa, że płatności padają w piątki przez cotygodniową kopię bazy, i przenosi kopię na noc. Starostwo widzi, że EZD zwalnia zawsze w tej samej filii, i wymienia stary przełącznik.",
-    "psp": "**Dlaczego bramka pada?** Syrena trzy razy w miesiącu nie wysłała SMS-a, za każdym razem pomagał restart. Kpt. Sikora zleca Oli Dudek szukanie przyczyny. Dudek zestawia trzy zgłoszenia i odkrywa, że bramka pada, gdy kolejka SMS-ów przekroczy 200. Do czasu naprawy restart jest zapisanym obejściem. Szukanie i usuwanie przyczyny powtarzających się awarii to [[proc-dss03]].",
+    "organizacja": "Sklep odkrywa, że płatności padają w piątki przez cotygodniową kopię bazy, i przenosi kopię na noc.",
+    "admin": "Starostwo widzi w rejestrze zgłoszeń, że system elektronicznego zarządzania dokumentacją (EZD) od trzech miesięcy zwalnia zawsze w tej samej filii, w drugim mieście powiatu. Zamiast co tydzień restartować komputery, informatyk szuka przyczyny i znajduje stary, przeciążony przełącznik sieciowy. Do czasu wymiany zapisuje obejście w rejestrze znanych błędów, a samą wymianę przeprowadza jako zaplanowaną zmianę.",
     "it": "Praktyki DSS03: identyfikacja i klasyfikacja problemów, diagnoza, rejestr znanych błędów, rozwiązanie i proaktywne zarządzanie problemami. Trwała poprawka przechodzi przez BAI06."
   },
   "nieMylicZ": [
@@ -86,8 +86,8 @@
   "mapa": "proc-dss03",
   "glebokosc": {
     "prosty": "Kran przecieka już piąty raz. Zakręcanie zaworu nie wystarcza. Odkręcasz go, widzisz zużytą uszczelkę i ją wymieniasz. Kran przestaje cieknąć na dobre.",
-    "zaawansowany": "Po trzecim nocnym restarcie bramki Sikora zleca szukanie przyczyny. Dudek zestawia zgłoszenia z [[proc-dss02]] i znajduje wspólny wzór: bramka pada przy kolejce ponad 200 SMS-ów. To [[proc-dss03]]. Do czasu naprawy restart jest zapisanym obejściem w [[proc-bai08]], a trwałą poprawkę Kwant-Sygnał wprowadzi jako zmianę w [[proc-bai06]].",
-    "skrajny": "Dudek przegląda pół roku dzienników Syreny. Nic jeszcze nie padło, ale widzi, że czas wysyłki SMS-a rośnie z miesiąca na miesiąc. Czy to w ogóle DSS03, skoro nie ma incydentu? Tak. DSS03 działa też proaktywnie: analizuje dane o incydentach, zmianach i działaniu, żeby wykryć problem, zanim wywoła awarię. Druga pułapka: Dudek znajduje przyczynę, ale sam nie wgrywa poprawki „po cichu”. Trwała naprawa idzie jako zmiana przez BAI06. **Rozstrzygnięcie:** problem może istnieć bez awarii. DSS03 znajduje przyczynę i inicjuje rozwiązanie, ale poprawkę w systemie przeprowadza się przez BAI06."
+    "zaawansowany": "Po trzecim nocnym restarcie bramki SMS kierownik IT banku zleca szukanie przyczyny. Administratorka zestawia zgłoszenia z [[proc-dss02]] i znajduje wspólny wzór: bramka pada przy kolejce ponad 200 SMS-ów. To [[proc-dss03]]. Do czasu naprawy restart jest zapisanym obejściem w [[proc-bai08]], a trwałą poprawkę dostawca wprowadzi jako zmianę w [[proc-bai06]].",
+    "skrajny": "Administratorka przegląda pół roku dzienników systemu powiadamiania klientów. Nic jeszcze nie padło, ale widzi, że czas wysyłki SMS-a rośnie z miesiąca na miesiąc. Czy to w ogóle DSS03, skoro nie ma incydentu? Tak. DSS03 działa też proaktywnie: analizuje dane o incydentach, zmianach i działaniu, żeby wykryć problem, zanim wywoła awarię. Druga pułapka: administratorka znajduje przyczynę, ale sama nie wgrywa poprawki „po cichu”. Trwała naprawa idzie jako zmiana przez BAI06. **Rozstrzygnięcie:** problem może istnieć bez awarii. DSS03 znajduje przyczynę i inicjuje rozwiązanie, ale poprawkę w systemie przeprowadza się przez BAI06."
   },
   "zagmatwania": [
     {
@@ -106,7 +106,7 @@
   "mentor": {
     "czestyBlad": "Uczeń myli „problem” z incydentem, bo w mowie potocznej to synonimy.",
     "jakTlumaczyc": "Incydent to gorączka – zbijasz ją szybko. Problem to infekcja, która tę gorączkę wywołuje – trzeba ją znaleźć i wyleczyć.",
-    "pytanieKontrolne": "Dudek zauważa w raportach, że czas wysyłki SMS-ów rośnie od trzech miesięcy, choć nic jeszcze nie padło. Który proces?",
+    "pytanieKontrolne": "Administratorka zauważa w raportach, że czas wysyłki SMS-ów rośnie od trzech miesięcy, choć nic jeszcze nie padło. Który proces?",
     "odpowiedzKontrolna": "**DSS03** – proaktywne zarządzanie problemami: analiza trendów, żeby wykryć przyczynę przed awarią. Nie DSS02, bo nie ma incydentu."
   }
 }

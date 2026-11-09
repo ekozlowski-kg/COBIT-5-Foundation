@@ -60,7 +60,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Każda organizacja ma inne cele. Jak zasada 1 pozwala dopasować COBIT 5 do konkretnej komendy?",
+   "tresc": "Każda organizacja ma inne cele. Jak zasada 1 pozwala dopasować COBIT 5 do konkretnego banku?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -95,7 +95,7 @@
     {
      "tekst": "Przez certyfikację zgodności z COBIT 5",
      "poprawna": false,
-     "wyjasnienie": "COBIT 5 nie certyfikuje organizacji.",
+     "wyjasnienie": "Certyfikacja nie dopasowuje COBIT 5 do celów organizacji; mechanizmem dopasowania jest kaskada celów (s. 14).",
      "pulapka": "falsz"
     }
    ]
@@ -208,7 +208,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Dyżurni chcą prostego systemu, inspektorka – bezpiecznego, a księgowa – taniego. Jaka jest rola Ładu wobec tych sprzecznych oczekiwań?",
+   "tresc": "Konsultanci call center chcą prostego systemu, inspektor ochrony danych – bezpiecznego, a księgowa – taniego. Jaka jest rola Ładu wobec tych sprzecznych oczekiwań?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -409,7 +409,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Mała OSP Zawilce chce stosować COBIT 5. Czy musi mieć wszystkie 37 procesów?",
+   "tresc": "Małe biuro rachunkowe chce stosować COBIT 5. Czy musi mieć wszystkie 37 procesów?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -507,7 +507,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Komenda zaczyna korzystać z tabel mapowania kaskady celów. Co według COBIT 5 powinna zrobić NAJPIERW?",
+   "tresc": "Firma zaczyna korzystać z tabel mapowania kaskady celów. Co według COBIT 5 powinna zrobić NAJPIERW?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -556,7 +556,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Na egzaminie pada pytanie, kto zwykle odpowiada za Ład. W Twojej komendzie robi to w praktyce naczelnik informatyki. Co zaznaczasz?",
+   "tresc": "Na egzaminie pada pytanie, kto zwykle odpowiada za Ład. W Twojej firmie robi to w praktyce dyrektor IT. Co zaznaczasz?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -577,7 +577,7 @@
      "wyjasnienie": "FW s. 31: w większości organizacji za Ład odpowiada zarząd pod przywództwem prezesa."
     },
     {
-     "tekst": "Naczelnika informatyki, bo tak jest w mojej organizacji",
+     "tekst": "Dyrektora IT, bo tak jest w mojej organizacji",
      "poprawna": false,
      "wyjasnienie": "Na egzaminie odpowiada się według COBIT, a nie według praktyki własnej organizacji.",
      "pulapka": "prawda-nie-na-temat"
@@ -605,7 +605,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Co oznacza zasada 2 dla traktowania informacji i technologii w komendzie?",
+   "tresc": "Co oznacza zasada 2 dla traktowania informacji i technologii w banku?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -625,7 +625,7 @@
    "status": "oficjalne",
    "opcje": [
     {
-     "tekst": "Są sprawą wyłącznie Wydziału Łączności i Informatyki komendy",
+     "tekst": "Są sprawą wyłącznie departamentu informatyki banku",
      "poprawna": false,
      "wyjasnienie": "Zasada 2 mówi o całej organizacji.",
      "pulapka": "zbyt-waskie"
@@ -658,7 +658,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Komenda przeniosła serwery „Syreny” do firmy Kwant-Sygnał. Czy ta zewnętrzna usługa mieści się w zakresie COBIT 5?",
+   "tresc": "Sklep internetowy przeniósł swoje serwery do zewnętrznego dostawcy chmury. Czy ta zewnętrzna usługa mieści się w zakresie COBIT 5?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -861,7 +861,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Komenda nie znajduje w COBIT 5 szczegółowych dobrych praktyk dla aktywatora Usługi, infrastruktura i aplikacje. Co według COBIT 5 robi?",
+   "tresc": "Bank nie znajduje w COBIT 5 szczegółowych dobrych praktyk dla aktywatora Usługi, infrastruktura i aplikacje. Co według COBIT 5 robi?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -959,7 +959,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Dane alarmowe „Syreny” mają być widoczne tylko dla uprawnionych dyżurnych. Do której kategorii celów aktywatora należy ten wymóg?",
+   "tresc": "Dane pacjentów w systemie szpitalnym mają być widoczne tylko dla uprawnionego personelu. Do której kategorii celów aktywatora należy ten wymóg?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -1009,7 +1009,7 @@
    "bloom": "zastosowanie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Pani Kaczmarek z ul. Lipowej nie używa „Syreny”, ale ponosi skutki jej awarii. Czy jest interesariuszem tego aktywatora?",
+   "tresc": "Klientka sklepu internetowego nie używa jego systemu magazynowego, ale ponosi skutki jego awarii. Czy jest interesariuszem tego aktywatora?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -1040,9 +1040,9 @@
      "wyjasnienie": "FW s. 28: interesariusze odgrywają aktywną rolę i/lub są zainteresowani. Bywają wewnętrzni i zewnętrzni."
     },
     {
-     "tekst": "Tak, wewnętrznym, bo mieszka w Modrzewiowie",
+     "tekst": "Tak, wewnętrznym, bo często robi tam zakupy",
      "poprawna": false,
-     "wyjasnienie": "Nie jest częścią komendy.",
+     "wyjasnienie": "Nie jest częścią firmy.",
      "pulapka": "falsz"
     },
     {
@@ -1111,7 +1111,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Proces obsługi zgłoszeń w komendzie osiągnął dopiero poziom zdolności 1. Jak to ocenić według COBIT 5?",
+   "tresc": "Proces obsługi zgłoszeń w banku osiągnął dopiero poziom zdolności 1. Jak to ocenić według COBIT 5?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -1356,7 +1356,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Komendantka chce „jednego projektu COBIT na pół roku i koniec”. Co odpowiada na to COBIT 5?",
+   "tresc": "Prezes zarządu chce „jednego projektu COBIT na pół roku i koniec”. Co odpowiada na to COBIT 5?",
    "zrodlo": [
     {
      "doc": "WWW",
@@ -1391,7 +1391,7 @@
     {
      "tekst": "Wdrożenie COBIT 5 nie wymaga zmiany",
      "poprawna": false,
-     "wyjasnienie": "Wymaga, i to w krągu aktywowania zmiany.",
+     "wyjasnienie": "Wymaga, i to w kręgu aktywowania zmiany.",
      "pulapka": "falsz"
     }
    ]
@@ -1455,7 +1455,7 @@
    "bloom": "rozumienie",
    "trudnosc": 3,
    "final": "www",
-   "tresc": "Komendantka chce, żeby wszystkie procesy komendy osiągnęły poziom zdolności 5. Jak to ocenić według COBIT 5?",
+   "tresc": "Dyrektor generalny chce, żeby wszystkie procesy firmy osiągnęły poziom zdolności 5. Jak to ocenić według COBIT 5?",
    "zrodlo": [
     {
      "doc": "WWW",

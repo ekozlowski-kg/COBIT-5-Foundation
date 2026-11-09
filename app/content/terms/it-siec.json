@@ -30,12 +30,12 @@
   "wyobrazSobie": "Sieć dróg między domami. Drogi same nic nie przewożą, ale bez nich listonosz nie dojedzie.",
   "poCo": "Żeby urządzenia mogły dzielić się danymi, drukarką i dostępem do innych komputerów.",
   "jakDziala": "Komputer dzieli wiadomość na małe porcje. Porcje płyną kablem albo falami radiowymi do urządzenia sieciowego. Ono przekazuje je dalej do odbiorcy, który składa je z powrotem w całość.",
-  "dlaczegoWazne": "Bez sieci nie działa poczta, wspólne foldery ani system powiadamiania. Awaria sieci zatrzymuje pracę całego budynku.",
+  "dlaczegoWazne": "Bez sieci nie działa poczta, wspólne foldery ani system CRM. Awaria sieci zatrzymuje pracę całego budynku.",
   "przyklady": {
     "zycie": "W domu telefon, laptop i telewizor łączą się z jednym domowym routerem. To mała sieć – możesz np. wysłać zdjęcie z telefonu na telewizor.",
     "biuro": "Pięć komputerów w biurze drukuje na jednej drukarce. Dzieje się tak dzięki sieci w biurze.",
     "organizacja": "Szpital łączy kablami komputery na wszystkich piętrach, żeby wyniki z laboratorium od razu widział lekarz na oddziale.",
-    "psp": "Komputery na stanowisku kierowania (SK) i w obu jednostkach ratowniczo-gaśniczych (JRG) łączy sieć komendy. Dzięki niej wszyscy widzą to samo zgłoszenie.",
+    "admin": "Urząd skarbowy ma dwa budynki po dwóch stronach ulicy. Łączy je światłowodem, czyli szybkim kablem, który przesyła dane światłem. Dzięki temu urzędnik w budynku B drukuje na drukarce w budynku A i otwiera te same foldery – to jedna sieć urzędu.",
     "it": "Infrastruktura sieciowa należy do infrastruktury technicznej (FW-PL s. 86)."
   },
   "nieMylicZ": [
@@ -48,7 +48,7 @@
       "roznica": "Wi-Fi to tylko jeden sposób łączenia się z siecią – bez kabla."
     }
   ],
-  "przykladWypowiedzi": "A network, czyli sieć komputerowa, łączy urządzenia; w komendzie network łączy SK z JRG.",
+  "przykladWypowiedzi": "A network, czyli sieć komputerowa, łączy urządzenia; w firmie network łączy centralę z oddziałami.",
   "egzamin": "Nie jest terminem egzaminu. W COBIT 5 sieć to część infrastruktury (aktywator Usługi, infrastruktura i aplikacje).",
   "powiazane": [
     "it-internet",
@@ -67,7 +67,7 @@
   ],
   "glebokosc": {
     "prosty": "Dzieci przy stole podają sobie solniczkę z rąk do rąk. Każde dziecko może dostać sól, choć solniczka jest jedna. Sieć działa podobnie: dane przechodzą z urządzenia do urządzenia.",
-    "zaawansowany": "Po burzy w komendzie przestaje działać kabel łączący SK z JRG 2. Komputery są sprawne, programy też. Ale zgłoszenia z SK nie docierają do JRG 2. Zawiodła sieć, a nie [[it-hardware|sprzęt]] na biurkach. Dlatego Ola Dudek ma plan łączności zapasowej.",
+    "zaawansowany": "Po burzy przestaje działać kabel łączący centralę banku z oddziałem. Komputery są sprawne, programy też. Ale wnioski kredytowe z oddziału nie docierają do centrali. Zawiodła sieć, a nie [[it-hardware|sprzęt]] na biurkach. Dlatego dział IT ma plan łączności zapasowej.",
     "skrajny": "Czy dwa telefony połączone na chwilę, by przesłać zdjęcie, to sieć? Tak – mała i krótka, ale sieć. Czy sieć wymaga Internetu? Nie: sieć w biurze działa nawet przy zerwanym łączu z Internetem. Czy kabel to sieć? Kabel to tylko droga; sieć to urządzenia, drogi i zasady przesyłania razem. **Rozstrzygnięcie:** sieć to połączone urządzenia, które wymieniają dane; może istnieć bez Internetu, a kabel czy fale radiowe to tylko jej drogi."
   },
   "zagmatwania": [

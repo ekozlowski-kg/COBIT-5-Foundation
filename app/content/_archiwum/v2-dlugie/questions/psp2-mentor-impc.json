@@ -1,0 +1,136 @@
+[
+  {
+    "id": "q-men-im-03-pierscienie-1",
+    "typ": "mentor",
+    "sylabus": [
+      "IM-01-01",
+      "IM-02-05"
+    ],
+    "lekcja": "im-03-pierscienie",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Marek Sikora, szef informatyki",
+    "tresc": "„Wdrożenie to sprawa techniczna. Kupimy serwer, poprawimy numery i koniec, tak?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 37
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Nie. Wdrożenie to trzy koła naraz: prowadzenie programu, przekonanie ludzi i stałe poprawianie. Sama technika to za mało.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto pokazuje trzy pierścienie bez nazw z podręcznika."
+      },
+      {
+        "tekst": "Tak, ludzie sami się dostosują, gdy system zacznie działać.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi. COBIT 5 każe nie zakładać, że ludzie chętnie przyjmą zmianę.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Cykl życia wdrożenia obejmuje trzy pierścienie: zarządzanie programem, aktywowanie zmiany oraz cykl życia ciągłego doskonalenia.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawne, ale same nazwy niczego nie tłumaczą.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Liczy się tylko przekonanie ludzi, technika jest nieważna.",
+        "poprawna": false,
+        "wyjasnienie": "Fałszywe uproszczenie. Potrzebne są wszystkie trzy pierścienie.",
+        "pulapkaMentora": "falszywe-uproszczenie"
+      }
+    ]
+  },
+  {
+    "id": "q-men-im-05-uzasadnienie-1",
+    "typ": "mentor",
+    "sylabus": [
+      "IM-02-03",
+      "IM-02-04"
+    ],
+    "lekcja": "im-05-uzasadnienie",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Marek Sikora, szef informatyki",
+    "tresc": "„Uzasadnienie biznesowe piszemy raz, do zatwierdzenia, a potem do szuflady?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 39
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Nie. To żywy dokument. Poprawiasz go, gdy zmieniają się ceny, plany albo ryzyka, i sprawdzasz, czy zmiana nadal się opłaca.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto: uzasadnienie trzeba stale aktualizować."
+      },
+      {
+        "tekst": "Tak, po zatwierdzeniu nikt już do niego nie wraca.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "To dynamiczne narzędzie operacyjne, które trzeba stale aktualizować, by monitorować tworzenie wartości w pełnym cyklu życia ekonomicznego.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawne, ale niezrozumiałe.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Najważniejsze, żeby miało podpis księgowej.",
+        "poprawna": false,
+        "wyjasnienie": "Nie odpowiada na pytanie, czy dokument się aktualizuje.",
+        "pulapkaMentora": "nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-men-pc-01-zdolnosc-2",
+    "typ": "mentor",
+    "sylabus": [
+      "PC-02-05"
+    ],
+    "lekcja": "pc-01-zdolnosc",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "postac": "Marek Sikora, szef informatyki",
+    "tresc": "„W starej ocenie mieliśmy poziom 2, a teraz mamy 0. Czyli pracujemy gorzej?”",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 43
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Tak, proces bardzo się pogorszył.",
+        "poprawna": false,
+        "wyjasnienie": "Przytakuje błędowi. Spadek wynika z innej skali.",
+        "pulapkaMentora": "przytakniecie"
+      },
+      {
+        "tekst": "Poziomy ocenia się co pół roku.",
+        "poprawna": false,
+        "wyjasnienie": "Nie na temat.",
+        "pulapkaMentora": "nie-na-temat"
+      },
+      {
+        "tekst": "COBIT 5 stosuje skalę ISO/IEC 15504. Tu już poziom 1 wymaga osiągania przeznaczenia procesu, stąd wyniki niższe niż w modelu dojrzałości.",
+        "poprawna": false,
+        "wyjasnienie": "Poprawne, ale niezrozumiałe dla laika.",
+        "pulapkaMentora": "zargon"
+      },
+      {
+        "tekst": "Niekoniecznie. Nowa skala liczy inaczej. Poziom 1 dostajesz dopiero, gdy proces naprawdę osiąga swój cel.",
+        "poprawna": true,
+        "wyjasnienie": "Prosto: wyniki w COBIT 5 są zwykle niższe."
+      }
+    ]
+  }
+]

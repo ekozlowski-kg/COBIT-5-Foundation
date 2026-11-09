@@ -1,0 +1,47 @@
+[
+  {
+    "id": "q-ex-00-01",
+    "typ": "egzamin",
+    "sylabus": [
+      "M0-00-08",
+      "M0-00-01"
+    ],
+    "lekcja": "ex-00-jak-czytac-pytanie",
+    "bloom": "rozumienie",
+    "trudnosc": 1,
+    "tresc": "Który z wymienionych **NIE** jest interesariuszem zewnętrznym komendy PSP?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 22,
+        "ilustracja": "7"
+      }
+    ],
+    "status": "uproszczenie",
+    "opcje": [
+      {
+        "tekst": "Dyżurny stanowiska kierowania",
+        "poprawna": true,
+        "wyjasnienie": "Dyżurny pracuje w komendzie, więc jest interesariuszem **wewnętrznym**."
+      },
+      {
+        "tekst": "Mieszkaniec czekający na zastęp",
+        "poprawna": false,
+        "wyjasnienie": "Mieszkaniec jest spoza komendy, więc to interesariusz zewnętrzny.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Dostawca systemu powiadamiania",
+        "poprawna": false,
+        "wyjasnienie": "Dostawcy są w COBIT 5 interesariuszami zewnętrznymi.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Komenda wojewódzka, która nadzoruje komendę",
+        "poprawna": false,
+        "wyjasnienie": "Nadzór spoza jednostki jest interesariuszem zewnętrznym (jak regulator).",
+        "pulapka": "odwrocone"
+      }
+    ]
+  }
+]

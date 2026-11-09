@@ -2,49 +2,6 @@
   "opis": "Bank pytań symulacyjnych (autorskie, format egzaminu). Nie są przypisane do lekcji – do symulacji i testów dnia.",
   "pytania": [
     {
-      "id": "q-sym-001",
-      "typ": "egzamin",
-      "zestaw": "symulacja",
-      "sylabus": [
-        "EN-02-02"
-      ],
-      "bloom": "rozumienie",
-      "trudnosc": 2,
-      "tresc": "Która cecha dotyczy **polityk** (a nie zasad) w aktywatorze Zasady, Polityki i Struktury ramowe?",
-      "zrodlo": [
-        {
-          "doc": "FW-PL",
-          "strona": 67
-        }
-      ],
-      "status": "oficjalne",
-      "opcje": [
-        {
-          "tekst": "Powinno ich być niewiele",
-          "poprawna": false,
-          "wyjasnienie": "To cecha zasad.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Wyrażają podstawowe wartości organizacji",
-          "poprawna": false,
-          "wyjasnienie": "To cecha zasad.",
-          "pulapka": "odwrocone"
-        },
-        {
-          "tekst": "Powinny być otwarte i elastyczne, by pasować do konkretnej sytuacji organizacji",
-          "poprawna": false,
-          "wyjasnienie": "To cecha struktur ramowych.",
-          "pulapka": "inna-kategoria"
-        },
-        {
-          "tekst": "Dają szczegółowe wytyczne, jak stosować zasady w praktyce",
-          "poprawna": true,
-          "wyjasnienie": "s. 67."
-        }
-      ]
-    },
-    {
       "id": "q-sym-002",
       "typ": "egzamin",
       "zestaw": "symulacja",
@@ -498,7 +455,7 @@
       "status": "oficjalne",
       "opcje": [
         {
-          "tekst": "C – konsultowany",
+          "tekst": "C – konsultant",
           "poprawna": true,
           "wyjasnienie": "s. 90."
         },
@@ -509,7 +466,7 @@
           "pulapka": "odwrocone"
         },
         {
-          "tekst": "A – rozliczany",
+          "tekst": "A – odpowiedzialny decyzyjnie",
           "poprawna": false,
           "wyjasnienie": "Odpowiada za sukces.",
           "pulapka": "inna-kategoria"
@@ -547,7 +504,7 @@
           "pulapka": "odwrocone"
         },
         {
-          "tekst": "C – konsultowany",
+          "tekst": "C – konsultant",
           "poprawna": false,
           "wyjasnienie": "Dostarcza wejść.",
           "pulapka": "inna-kategoria"
@@ -559,7 +516,7 @@
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "A – rozliczany",
+          "tekst": "A – odpowiedzialny decyzyjnie",
           "poprawna": true,
           "wyjasnienie": "s. 89."
         }
@@ -978,7 +935,7 @@
           "tekst": "CEO",
           "poprawna": false,
           "wyjasnienie": "Pełne zarządzanie organizacją.",
-          "pulapka": "zbyt-waskie"
+          "pulapka": "inna-kategoria"
         },
         {
           "tekst": "Właściciel procesu biznesowego",
@@ -1364,9 +1321,9 @@
       "status": "oficjalne",
       "opcje": [
         {
-          "tekst": "Jakość bezpieczeństwa i dostępności",
+          "tekst": "Dostęp i Bezpieczeństwo (w podręczniku: jakość bezpieczeństwa/dostępności)",
           "poprawna": true,
-          "wyjasnienie": "s. 82."
+          "wyjasnienie": "s. 82: ograniczony dostęp należy do jakości bezpieczeństwa/dostępności, czyli – w nazwie egzaminacyjnej – Dostęp i Bezpieczeństwo."
         },
         {
           "tekst": "Jakość wewnętrzna",
@@ -1935,7 +1892,7 @@
         {
           "tekst": "zdolności procesu",
           "poprawna": false,
-          "wyjasnienie": "Zdolność procesu mierzy się w ocenie PAM (poziomy 0–5), nie w Zarządzaniu wydajnością aktywatora.",
+          "wyjasnienie": "Poziom zdolności (0–5) to osobny schemat oceny procesów; miary osiągnięcia celów aktywatora to wskaźniki opóźnione.",
           "pulapka": "inna-kategoria"
         },
         {
@@ -2017,7 +1974,7 @@
         {
           "tekst": "RACI",
           "poprawna": false,
-          "wyjasnienie": "RACI opisuje role (wykonawczo odpowiedzialny, rozliczany, konsultowany, informowany), nie cechy mierników.",
+          "wyjasnienie": "RACI opisuje role (odpowiedzialny wykonawczo, odpowiedzialny decyzyjnie, konsultant, informowany), nie cechy mierników.",
           "pulapka": "inna-kategoria"
         },
         {
@@ -2098,6 +2055,11 @@
           "doc": "FW-PL",
           "strona": 37,
           "cytat": "Zarządzanie programem"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38,
+          "ilustracja": "17"
         }
       ],
       "status": "oficjalne",

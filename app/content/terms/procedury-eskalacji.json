@@ -15,7 +15,7 @@
   },
   "pulapka": false,
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "dobre-praktyki-struktur",
@@ -33,14 +33,14 @@
   "przyklady": {
     "zycie": "Rodzeństwo nie może się dogadać, kto dostaje większy pokój. Umówili się wcześniej: gdy po dwóch rozmowach nie ma zgody, decyduje mama. Tak działa procedura eskalacji: wiadomo, kiedy i do kogo sprawa idzie wyżej.",
     "biuro": "W biurze dwa działy spierają się, kto ma obsługiwać nowego klienta. Regulamin mówi: po tygodniu bez porozumienia decyduje dyrektor operacyjny na podstawie krótkiej notatki obu stron.",
-    "organizacja": "W firmie budowlanej zespół projektu nie może wybrać dostawcy okien. Procedura mówi: po tygodniu bez decyzji kierownik projektu przekazuje sprawę dyrektorowi, z opisem dwóch ofert. Dyrektor rozstrzyga w 3 dni. Komisja przetargowa w gminie dzieli się po równo w ocenie ofert. Regulamin komisji mówi, że przy remisie decyduje głos przewodniczącego, a gdy przewodniczący jest wyłączony, sprawa idzie do wójta. To procedura eskalacji.",
-    "psp": "Rada ds. Informatyki w Modrzewiowie nie może się zgodzić, czy przedłużyć umowę z Kwant-Sygnałem. Sikora jest za, a księgowa Halina Mak przeciw. Regulamin Rady mówi: po dwóch posiedzeniach bez decyzji sprawa idzie do komendantki Wrzos z notatką o obu stanowiskach. Komendantka decyduje w tydzień. To procedura eskalacji.",
+    "organizacja": "W firmie budowlanej zespół projektu nie może wybrać dostawcy okien. Procedura mówi: po tygodniu bez decyzji kierownik projektu przekazuje sprawę dyrektorowi, z opisem dwóch ofert. Dyrektor rozstrzyga w 3 dni.",
+    "admin": "Komisja przetargowa w gminie nie może uzgodnić oceny dwóch ofert na przebudowę drogi. Regulamin komisji mówi: gdy po dwóch posiedzeniach nie ma zgody, przewodniczący w ciągu 2 dni przekazuje sprawę wójtowi z notatką opisującą oba stanowiska. Wójt jako kierownik zamawiającego rozstrzyga. To procedura eskalacji.",
     "it": "Gdy komitet sterujący programu nie może się zgodzić co do przesunięcia budżetu, sprawa trafia do komitetu ds. strategii (wykonawczego IT). Taka ścieżka powinna być zapisana z góry (przykład kursu)."
   },
   "glebokosc": {
     "prosty": "Dwóch sędziów piłkarskich spiera się, czy był faul. Umówili się, że w takiej sytuacji decyduje sędzia główny. Gra nie stoi w miejscu. To procedura eskalacji: wiadomo, kto rozstrzyga, gdy nie ma zgody.",
-    "zaawansowany": "Rada ds. Informatyki utknęła w sprawie umowy z dostawcą. Jej [[poziom-uprawnien|poziom uprawnień]] pozwala na tę decyzję, ale członkowie się nie zgadzają. Regulamin mówi: po dwóch posiedzeniach sprawa idzie do komendantki z notatką. Zwróć uwagę na kierunek: eskalacja idzie w górę. Przekazanie drobnych zakupów wydziałowi szło w dół i było [[delegowanie-uprawnien|delegowaniem]].",
-    "skrajny": "Kasia Nowik słyszy na dyżurze: „Eskaluj awarię Syreny do serwisu”. Myśli, że to ta sama procedura eskalacji co w Radzie ds. Informatyki. Nie do końca. Dobra praktyka struktur dotyczy problemów z podjęciem decyzji przez strukturę organizacyjną. Przekazanie awarii wyżej, do serwisu, to część procesu obsługi incydentów (DSS02). Słowo jest to samo, ale miejsce w COBIT 5 jest inne. **Rozstrzygnięcie:** procedury eskalacji jako dobra praktyka struktur to ścieżka na wypadek problemów z decyzją. Eskalowanie incydentu należy do procesu, a nie do aktywatora Struktury organizacyjne (interpretacja kursu)."
+    "zaawansowany": "Komitet sterujący IT banku utknął w sprawie umowy z dostawcą chmury. Jego [[poziom-uprawnien|poziom uprawnień]] pozwala na tę decyzję, ale członkowie się nie zgadzają. Regulamin mówi: po dwóch posiedzeniach sprawa idzie do zarządu z notatką. Zwróć uwagę na kierunek: eskalacja idzie w górę. Przekazanie drobnych zakupów działowi IT szło w dół i było [[delegowanie-uprawnien|delegowaniem]].",
+    "skrajny": "Nowy konsultant helpdesku słyszy: „Eskaluj awarię systemu CRM do dostawcy”. Myśli, że to ta sama procedura eskalacji co w komitecie sterującym IT. Nie do końca. Dobra praktyka struktur dotyczy problemów z podjęciem decyzji przez strukturę organizacyjną. Przekazanie awarii wyżej, do dostawcy, to część procesu obsługi incydentów (DSS02). Słowo jest to samo, ale miejsce w COBIT 5 jest inne. **Rozstrzygnięcie:** procedury eskalacji jako dobra praktyka struktur to ścieżka na wypadek problemów z decyzją. Eskalowanie incydentu należy do procesu, a nie do aktywatora Struktury organizacyjne (interpretacja kursu)."
   },
   "zagmatwania": [
     {

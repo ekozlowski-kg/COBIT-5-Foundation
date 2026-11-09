@@ -1143,8 +1143,8 @@
       "en": "RACI roles and their differences",
       "zakres": [
         "R – odpowiedzialny wykonawczo",
-        "A – rozliczany",
-        "C – konsultowany",
+        "A – odpowiedzialny decyzyjnie",
+        "C – konsultant",
         "I – informowany"
       ],
       "zrodlo": [
@@ -1562,19 +1562,13 @@
   "dni": [
     {
       "dzien": 0,
-      "tytul": "Start i podstawy cyfrowe",
+      "tytul": "Start: po co jest COBIT 5",
       "pustaKartka": {
-        "tytul": "Komputer, dane, sieć, serwer",
-        "polecenie": "Narysuj na kartce drogę jednego SMS-a z alarmem: od dyżurnego przez program, serwer i sieć do telefonu strażaka OSP. Podpisz: sprzęt, program, dane, sieć, serwer, usługa. Dopisz, co się stanie, gdy padnie każdy z tych elementów.",
-        "wzorzec": "Dyżurny klika w **aplikacji** (program) na **komputerze** (sprzęt) → **dane** (adres, lista numerów) idą przez **sieć** do **serwera** → serwer świadczy **usługę IT** „powiadamianie” → **Internet**/sieć komórkowa → telefon strażaka. Awaria sprzętu, programu, sieci albo serwera = alarm nie dochodzi (incydent); brak kopii zapasowej danych = utrata listy numerów."
+        "tytul": "Organizacja, cel, informatyka",
+        "polecenie": "Zapisz z pamięci trzy zdania: czym jest organizacja, po co jej informatyka i czym jest COBIT 5 (a czym nie jest).",
+        "wzorzec": "**Organizacja** to ludzie, którzy razem działają w jakimś celu (firma, urząd, szpital). **Informatyka** jest jej narzędziem, a nie celem. **COBIT 5** to struktura ramowa – zbiór sprawdzonych zasad i dobrych praktyk; nie program do zainstalowania i nie ustawa."
       },
       "potrafie": [
-        "Potrafię odróżnić sprzęt od oprogramowania i aplikację od systemu operacyjnego.",
-        "Potrafię powiedzieć, czym różnią się dane od informacji.",
-        "Potrafię wyjaśnić, co robi serwer, a co klient, i czym jest usługa IT.",
-        "Potrafię odróżnić uwierzytelnienie (kim jesteś) od autoryzacji (co ci wolno).",
-        "Potrafię odróżnić incydent, problem i zmianę oraz wyjaśnić, po co jest kopia zapasowa.",
-        "Potrafię odróżnić projekt, program i portfel.",
         "Potrafię powiedzieć po ludzku, czym jest organizacja, jej cel i po co komu ramy takie jak COBIT 5."
       ],
       "rusztowanie": "pelny",
@@ -1592,15 +1586,15 @@
       "tytul": "Organizacja po ludzku",
       "pustaKartka": {
         "tytul": "Interesariusz, potrzeba, wartość, ryzyko, Ład",
-        "polecenie": "Wypisz dla komendy z Modrzewiowa: 3 interesariuszy z ich potrzebami, 1 wyznacznik, po jednym przykładzie korzyści, ryzyka i zasobu, jedną rzecz dziejącą się stale (proces) i jedno jednorazowe przedsięwzięcie (projekt). Na końcu jednym zdaniem: kto decyduje (Ład), a kto wykonuje (Zarządzanie).",
-        "wzorzec": "Interesariusze: mieszkańcy (szybka pomoc), dyżurni (prosty i niezawodny system), komenda wojewódzka (czasy dojazdu zgodne z wymaganiami). Wyznacznik: zapowiedziana kontrola. Korzyść: szybszy alarm; ryzyko: awaria Syreny; zasób: ludzie Sikory i budżet. Proces: wysyłanie każdego alarmu; projekt: naprawa Syreny do 30 kwietnia. Ład: komendantka ocenia, kieruje i monitoruje; Zarządzanie: naczelnik Sikora planuje, tworzy, wykonuje i monitoruje."
+        "polecenie": "Wypisz dla urzędu miasta z projektu końcowego (elektroniczne wnioski mieszkańców): 3 interesariuszy z ich potrzebami, 1 wyznacznik, po jednym przykładzie korzyści, ryzyka i zasobu, jedną rzecz dziejącą się stale (proces) i jedno jednorazowe przedsięwzięcie (projekt). Na końcu jednym zdaniem: kto decyduje (Ład), a kto wykonuje (Zarządzanie).",
+        "wzorzec": "Interesariusze: mieszkańcy (szybkie i pewne załatwienie sprawy), urzędnicy obsługi (prosty i niezawodny system), urząd wojewódzki (terminy zgodne z przepisami). Wyznacznik: zapowiedziana kontrola. Korzyść: szybsze załatwienie wniosku; ryzyko: awaria systemu wniosków; zasób: informatycy urzędu i budżet. Proces: przyjmowanie każdego wniosku; projekt: wymiana systemu wniosków do 30 kwietnia. Ład: burmistrz szacuje, kieruje i monitoruje; Zarządzanie: naczelnik wydziału informatyki planuje, tworzy, wykonuje i monitoruje."
       },
       "potrafie": [
         "Potrafię powiedzieć po ludzku, kim jest interesariusz, i podać interesariusza, który nie korzysta z systemu.",
-        "Potrafię odróżnić potrzebę od wyznacznika i podać przykład wyznacznika z komendy.",
+        "Potrafię odróżnić potrzebę od wyznacznika i podać przykład wyznacznika z urzędu albo firmy.",
         "Potrafię wymienić trzy składniki Tworzenia Wartości: korzyści, ryzyko i zasoby.",
         "Potrafię odróżnić proces od projektu na przykładzie z życia.",
-        "Potrafię powiedzieć, kto w komendzie decyduje o kierunku (Ład), a kto planuje i wykonuje (Zarządzanie)."
+        "Potrafię powiedzieć, kto w urzędzie albo firmie decyduje o kierunku (Ład), a kto planuje i wykonuje (Zarządzanie)."
       ],
       "rusztowanie": "pelny",
       "podpowiedzi": "widoczne",
@@ -1642,8 +1636,8 @@
       "tytul": "Kaskada celów i zasady 2–4",
       "pustaKartka": {
         "tytul": "Kaskada Celów i Cel Ładu",
-        "polecenie": "Na pustej kartce narysuj Kaskadę Celów (5 poziomów, od wyznaczników do celów aktywatora) i trzy składniki Celu Ładu. Przy każdym poziomie dopisz jeden przykład z PSP.",
-        "wzorzec": "| Poziom | Przykład PSP |\n|---|---|\n| Wyznaczniki | nowe wymagania dotyczące czasu dysponowania |\n| Potrzeby interesariuszy | szybka i pewna pomoc |\n| Cele organizacji (17, BSC) | 7. Ciągłość i dostępność usług |\n| Cele związane z informatyką (17, IT BSC) | 07 Usługi IT zgodne z wymogami; 10 Bezpieczeństwo |\n| Cele aktywatora | proces obsługi awarii SK, przećwiczeni dyżurni |\n\n**Cel Ładu: Tworzenie Wartości** = realizacja korzyści + optymalizacja ryzyka + optymalizacja zasobów."
+        "polecenie": "Na pustej kartce narysuj Kaskadę Celów (5 poziomów, od wyznaczników do celów aktywatora) i trzy składniki Celu Ładu. Przy każdym poziomie dopisz jeden przykład z urzędu miasta.",
+        "wzorzec": "| Poziom | Przykład z urzędu miasta |\n|---|---|\n| Wyznaczniki | nowe wymagania dotyczące terminów załatwiania spraw |\n| Potrzeby interesariuszy | szybkie i pewne załatwienie sprawy |\n| Cele organizacji (17, BSC) | 7. Ciągłość i dostępność usług |\n| Cele związane z informatyką (17, IT BSC) | 07 Usługi IT zgodne z wymogami; 10 Bezpieczeństwo |\n| Cele aktywatora | proces obsługi awarii systemu wniosków, przeszkoleni urzędnicy obsługi |\n\n**Cel Ładu: Tworzenie Wartości** = realizacja korzyści + optymalizacja ryzyka + optymalizacja zasobów."
       },
       "potrafie": [
         "Potrafię narysować Kaskadę Celów od wyznaczników do celów aktywatora.",
@@ -1695,8 +1689,8 @@
       "tytul": "Aktywatory, część 1",
       "pustaKartka": {
         "tytul": "Aktywatory 1–3 i RACI",
-        "polecenie": "Dla aktywatorów 1–3 (Zasady/Polityki/Struktury ramowe, Procesy, Struktury organizacyjne) zapisz 2–3 elementy egzaminacyjne. Wypełnij tabelę RACI dla aktualizacji listy numerów OSP (4 osoby z historii).",
-        "wzorzec": "**Zasady i polityki:** zasady = wartości (niewiele, prosto); dobra polityka: skuteczna, wydajna, nieinwazyjna. **Procesy:** cele wewnętrzne / kontekstowe / dostępności i bezpieczeństwa; praktyki → działania → wejścia/wyjścia. **Struktury:** zasady operacyjne, zakres kontroli, poziom uprawnień, delegowanie uprawnień, procedura eskalacji. **RACI:** Dudek R, Sikora A (tylko jeden A!), Pietrzak C, SK I."
+        "polecenie": "Dla aktywatorów 1–3 (Zasady/Polityki/Struktury ramowe, Procesy, Struktury organizacyjne) zapisz 2–3 elementy egzaminacyjne. Wypełnij tabelę RACI dla aktualizacji listy adresów skrzynek wydziałów w systemie wniosków urzędu (4 role).",
+        "wzorzec": "**Zasady i polityki:** zasady = wartości (niewiele, prosto); dobra polityka: skuteczna, wydajna, nieinwazyjna. **Procesy:** cele wewnętrzne / kontekstowe / dostępności i bezpieczeństwa; praktyki → działania → wejścia/wyjścia. **Struktury:** zasady operacyjne, zakres kontroli, poziom uprawnień, delegowanie uprawnień, procedura eskalacji. **RACI:** administrator systemu R, naczelnik wydziału informatyki A (tylko jeden A!), kierownik wydziału obsługi mieszkańców C, urzędnicy obsługi I."
       },
       "potrafie": [
         "Potrafię powiedzieć, czym różni się zasada od polityki i jakie cechy ma dobra polityka.",
@@ -1722,7 +1716,7 @@
       "pustaKartka": {
         "tytul": "Siedem aktywatorów – szczegóły",
         "polecenie": "Dla każdego z 7 aktywatorów zapisz 2–3 najważniejsze elementy egzaminacyjne (np. cechy dobrej polityki, kategorie celów procesu, dobre praktyki struktur, poziomy etyki, cykl informacji, zasady architektury, kategorie umiejętności) oraz role RACI.",
-        "wzorzec": "1 **Zasady i polityki:** zasady = podstawowe wartości (niewiele, prosto); polityki = szczegółowe wytyczne; dobra polityka: skuteczna, wydajna, nieinwazyjna; zakres, konsekwencje niezgodności, wyjątki, monitorowanie\n2 **Procesy:** cele wewnętrzne / kontekstowe / dostępności i bezpieczeństwa; praktyki → działania → wejścia/wyjścia; RACI\n3 **Struktury:** zasady operacyjne, zakres kontroli, poziom uprawnień, delegowanie, eskalacja\n4 **Kultura:** etyka organizacyjna → etyka indywidualna → zachowania; czempioni, przykład z góry\n5 **Informacja:** cykl informacji; jakość wewnętrzna/kontekstowa/bezpieczeństwa\n6 **Usługi:** zasady architektury; zdolność usługowa\n7 **Ludzie:** kategorie umiejętności według domen (np. architektura korporacyjna → APO)\n\n**RACI:** R wykonuje · A rozliczany (jedna osoba) · C konsultowany (dwukierunkowo) · I informowany (jednokierunkowo)"
+        "wzorzec": "1 **Zasady i polityki:** zasady = podstawowe wartości (niewiele, prosto); polityki = szczegółowe wytyczne; dobra polityka: skuteczna, wydajna, nieinwazyjna; zakres, konsekwencje niezgodności, wyjątki, monitorowanie\n2 **Procesy:** cele wewnętrzne / kontekstowe / dostępności i bezpieczeństwa; praktyki → działania → wejścia/wyjścia; RACI\n3 **Struktury:** zasady operacyjne, zakres kontroli, poziom uprawnień, delegowanie, eskalacja\n4 **Kultura:** etyka organizacyjna → etyka indywidualna → zachowania; czempioni, przykład z góry\n5 **Informacja:** cykl informacji; jakość wewnętrzna/kontekstowa/bezpieczeństwa\n6 **Usługi:** zasady architektury; zdolność usługowa\n7 **Ludzie:** kategorie umiejętności według domen (np. architektura korporacyjna → APO)\n\n**RACI:** R wykonuje · A odpowiedzialny decyzyjnie (jedna osoba) · C konsultant (dwukierunkowo) · I informowany (jednokierunkowo)"
       },
       "potrafie": [
         "Potrafię podać przykład kultury, etyki i zachowania, które pomagają albo szkodzą.",
@@ -1854,9 +1848,9 @@
       "dzien": 11,
       "tytul": "Finał „skrajnie biegły”",
       "pustaKartka": {
-        "tytul": "Moja komenda w COBIT 5",
-        "polecenie": "Wypełnij 8 pól projektu końcowego dla własnej organizacji (albo komendy z Modrzewiowa) i porównaj z wzorcem w aplikacji.",
-        "wzorzec": "Wzorzec: Projekt końcowy → wzorzec (komenda w Modrzewiowie)."
+        "tytul": "Moja organizacja w COBIT 5",
+        "polecenie": "Wypełnij 8 pól projektu końcowego dla własnej organizacji (albo urzędu miasta z wzorca) i porównaj z wzorcem w aplikacji.",
+        "wzorzec": "Wzorzec: Projekt końcowy → wzorzec (urząd miasta, elektroniczne wnioski mieszkańców)."
       },
       "potrafie": [
         "Potrafię wytłumaczyć laikowi w minutę dowolne pojęcie z rdzenia.",
@@ -1915,14 +1909,14 @@
   ],
   "projekt": {
     "wzorzec": [
-      "**Interesariusze i potrzeby:** mieszkańcy, np. Zofia Kaczmarek z ul. Lipowej, potrzebują szybkiej i pewnej pomocy. Dyżurni SK, np. Paweł Grab, potrzebują prostego systemu, który zawsze wysyła alarm. Komenda wojewódzka (inspektorka Ostrowska) potrzebuje czasów dojazdu zgodnych z wymaganiami i rzetelnych raportów.",
-      "**Kaskada:** cel organizacji „7. Ciągłość i dostępność usług biznesowych” → cele związane z informatyką: przede wszystkim „10 Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji”, „04 Zarządzanie ryzykiem biznesowym związanym z IT” i „14 Dostępność wiarygodnych i przydatnych informacji wspierających proces decyzyjny”, w mniejszym stopniu m.in. „07 Dostarczanie usług IT zgodnie z wymogami biznesowymi” (Przykład 7, FW-PL s. 49; system powiadamiania działa i alarmuje wszystkie jednostki) → cel aktywatora Informacja: lista numerów OSP w Syrenie jest aktualna (sprawdzana co miesiąc) i dostępna dla każdego dyżurnego.",
-      "**Najsłabszy aktywator:** Informacja, bo numer naczelnika OSP Zawilce był sprzed dwóch lat. Zaraz za nią są Kultura, Etyka i Zachowanie: dyżurny bał się zgłosić wcześniejszą awarię.",
+      "**Interesariusze i potrzeby:** mieszkańcy, np. pani składająca wniosek o dodatek mieszkaniowy, potrzebują szybkiego i pewnego załatwienia sprawy przez internet. Urzędnicy wydziału obsługi mieszkańców potrzebują prostego systemu, który nie gubi wniosków. Urząd wojewódzki (kontrola) potrzebuje terminów zgodnych z przepisami i rzetelnych raportów.",
+      "**Kaskada:** cel organizacji „7. Ciągłość i dostępność usług biznesowych” → cele związane z informatyką: przede wszystkim „10 Bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji”, „04 Zarządzanie ryzykiem biznesowym związanym z IT” i „14 Dostępność wiarygodnych i przydatnych informacji wspierających proces decyzyjny”, w mniejszym stopniu m.in. „07 Dostarczanie usług IT zgodnie z wymogami biznesowymi” (Przykład 7, FW-PL s. 49; system wniosków działa i kieruje każdy wniosek do właściwego wydziału) → cel aktywatora Informacja: lista adresów skrzynek wydziałów w systemie wniosków jest aktualna (sprawdzana co miesiąc) i dostępna dla każdego urzędnika obsługi.",
+      "**Najsłabszy aktywator:** Informacja, bo adres skrzynki wydziału świadczeń był sprzed dwóch lat. Zaraz za nią są Kultura, Etyka i Zachowanie: urzędnik bał się zgłosić wcześniejszą awarię.",
       "**Dwa procesy:** DSS02 Zarządzanie zgłoszeniami serwisowymi i incydentami (domena Dostarczaj, Obsługuj i Wspieraj – DSS) oraz APO12 Zarządzanie ryzykiem (domena Dostosuj, Planuj i Organizuj – APO).",
-      "**Punkt zapalny:** nocny pożar na ul. Lipowej, kiedy OSP Zawilce nie dostała alarmu i pomoc spóźniła się o 6 minut. Do tego niejasne, kto odpowiada za system.",
-      "**Zdarzenie wyzwalające:** zapowiedziana kontrola komendy wojewódzkiej dotycząca czasów dojazdu (audyt zewnętrzny, wymaganie regulacyjne).",
-      "**Faza cyklu życia:** faza 2 „Gdzie jesteśmy teraz?”. Komenda ma już zgodę komendantki i zespół (faza 1). Audytorka Ewa Lis ocenia teraz obecny stan procesu powiadamiania, a cel na fazę 3 to poziom 3.",
-      "**Poziom zdolności DSS02:** **poziom 1**. PA 1.1 = W (Większościowy), bo alarmy zwykle docierają, ale nie zawsze. Poziom 2 nie jest osiągnięty: PA 2.1 = C (Częściowy), bo nikt nie planuje przeglądów listy numerów, a PA 2.2 = C (brak wzoru karty zdarzenia). Żeby mieć poziom 2, PA 1.1 musi być P (Pełny), a PA 2.1 i 2.2 co najmniej W."
+      "**Punkt zapalny:** przez tydzień wnioski o dodatek mieszkaniowy trafiały do nieistniejącej skrzynki i część mieszkańców czekała na decyzję po terminie. Do tego niejasne, kto odpowiada za system.",
+      "**Zdarzenie wyzwalające:** zapowiedziana kontrola urzędu wojewódzkiego dotycząca terminowości załatwiania spraw (audyt zewnętrzny, wymaganie regulacyjne).",
+      "**Faza cyklu życia:** faza 2 „Gdzie jesteśmy teraz?”. Urząd ma już zgodę burmistrza i zespół (faza 1). Audytorka wewnętrzna ocenia teraz obecny stan procesu obsługi zgłoszeń, a cel na fazę 3 to poziom 3.",
+      "**Poziom zdolności DSS02:** **poziom 1**. PA 1.1 = W (Większościowy), bo zgłoszenia awarii systemu wniosków są zwykle obsługiwane, ale nie zawsze. Poziom 2 nie jest osiągnięty: PA 2.1 = C (Częściowy), bo nikt nie planuje przeglądów listy adresów skrzynek, a PA 2.2 = C (brak wzoru karty zgłoszenia). Żeby mieć poziom 2, PA 1.1 musi być P (Pełny), a PA 2.1 i 2.2 co najmniej W."
     ]
   }
 }

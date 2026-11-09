@@ -39,8 +39,8 @@
   "przyklady": {
     "zycie": "Kupiliście i zamontowaliście zmywarkę. Teraz codziennie ładujecie naczynia, dosypujecie sól i wyjmujecie czyste talerze. To faza użytkowania: zwykłe, codzienne korzystanie.",
     "biuro": "Program do rezerwacji sal działa od pół roku. Pracownicy rezerwują sale, a recepcja sprawdza grafik. To faza użytkowania.",
-    "organizacja": "Bramka płatności działa od miesiąca. Klienci płacą BLIK-iem, a kasjerka sprawdza wpłaty w panelu. To faza użytkowania/eksploatacji.\n\nSystem zapisów działa w urzędzie. Mieszkańcy się zapisują, a urzędnicy przyjmują ich o wyznaczonych godzinach. To faza 4.",
-    "psp": "**Zwykła noc w SK** Asp. sztab. Paweł Grab, dyżurny SK (stanowiska kierowania), wysyła w nocy trzy alarmy z Syreny. JRG potwierdzają wyjazd, OSP odpisują SMS-em. Nikt nic nie zmienia ani nie ocenia, system po prostu pracuje. To faza 4 cyklu życia aktywatora: użytkowanie/eksploatacja.",
+    "organizacja": "Bramka płatności działa od miesiąca. Klienci płacą BLIK-iem, a kasjerka sprawdza wpłaty w panelu. To faza użytkowania/eksploatacji.",
+    "admin": "System zapisów działa w urzędzie. Mieszkańcy się zapisują, a urzędnicy przyjmują ich o wyznaczonych godzinach. To faza 4: zwykłe, codzienne korzystanie.",
     "it": "Dla usług IT codzienne działanie wspiera m.in. proces DSS01, w podręczniku „Zarządzanie eksploatacją”. To kolejna „eksploatacja”, ale tym razem proces, a nie faza życia aktywatora."
   },
   "nieMylicZ": [
@@ -86,7 +86,7 @@
   "mapa": "cykl-faza-4",
   "glebokosc": {
     "prosty": "Rower stoi w garażu, kupiony i złożony. Od teraz jeździsz nim codziennie do pracy. Nic w nim nie zmieniasz, po prostu z niego korzystasz. To faza użytkowania.",
-    "zaawansowany": "Od kwietnia Syrena 2.0 pracuje codziennie: dyżurni wysyłają alarmy, OSP je potwierdzają. To faza 4 aktywatora Usługi, infrastruktura i aplikacje. Dyżurni, którzy z niej korzystają, to na Ilustracji 9 [[rola-operacyjne|role operacyjne]]. Procesy codziennej obsługi należą do domeny [[dss|DSS]]. To trzy różne spojrzenia na tę samą noc w SK.",
+    "zaawansowany": "Od kwietnia nowy system CRM pracuje codziennie: konsultanci obsługują w nim klientów, a handlowcy zapisują oferty. To faza 4 aktywatora Usługi, infrastruktura i aplikacje. Pracownicy, którzy z niego korzystają, to na Ilustracji 9 [[rola-operacyjne|role operacyjne]]. Procesy codziennej obsługi należą do domeny [[dss|DSS]]. To trzy różne spojrzenia na ten sam dzień pracy.",
     "skrajny": "W jednym pytaniu mogą paść trzy „eksploatacje”. Role operacyjne nazywają się w podręczniku „Eksploatacja i wykonanie”. Faza 4 cyklu życia aktywatora to „Użytkowanie/eksploatacja”, a w tekście s. 29 „Użytkowanie/obsługa”. Faza 6 wdrożenia w pierścieniu ciągłego doskonalenia to „Eksploatacja i pomiar”. Każde z nich to inna kategoria: rola, faza aktywatora, faza wdrożenia. **Rozstrzygnięcie:** sprawdź, czego dotyczy zdanie: ludzi w łańcuchu (rola), życia jednego aktywatora (faza 4 z 6) czy programu wdrożenia (faza 6 z 7)."
   },
   "zagmatwania": [

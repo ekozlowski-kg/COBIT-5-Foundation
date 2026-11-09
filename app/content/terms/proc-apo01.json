@@ -41,8 +41,8 @@
   "przyklady": {
     "zycie": "Zakładasz z sąsiadami ogródek. Spisujecie, kto podlewa, kto kupuje nasiona i kto prowadzi zeszyt wydatków. Ustalacie też zastępstwa na urlopy. Taka organizacja wspólnej pracy to APO01.",
     "biuro": "Nowa kierowniczka biura spisuje, kto odpowiada za pocztę, kto za faktury, a kto za archiwum. Wprowadza jedną zasadę obiegu dokumentów i co kwartał ją poprawia.",
-    "organizacja": "Nowy dyrektor IT w hurtowni spisuje, kto jest właścicielem każdego systemu i procesu. Wprowadza politykę IT i jeden sposób zgłaszania zmian. Raz na kwartał przegląda procesy i je poprawia. To APO01. Kierownik referatu informatyki w urzędzie gminy pisze regulamin referatu: zakresy obowiązków, zastępstwa, właściciele systemów, zasady dokumentowania. Burmistrz go zatwierdza. Opracowanie i utrzymanie tego układu to APO01.",
-    "psp": "**Kto jest właścicielem powiadamiania?** Naczelnik Marek Sikora po awarii Syreny porządkuje swój wydział. Wyznacza właściciela procesu powiadamiania i właściciela listy numerów OSP. Pisze politykę IT komendy i rozpisuje role. Robi to w zasadach ustalonych przez komendantkę. To jest [[proc-apo01|APO01]].",
+    "organizacja": "Nowy dyrektor IT w hurtowni spisuje, kto jest właścicielem każdego systemu i procesu. Wprowadza politykę IT i jeden sposób zgłaszania zmian. Raz na kwartał przegląda procesy i je poprawia. To APO01.",
+    "admin": "Kierownik referatu informatyki w urzędzie miasta pisze regulamin referatu: zakresy obowiązków, zastępstwa, właściciele systemów, zasady dokumentowania. Burmistrz go zatwierdza. Opracowanie i utrzymanie tego układu to APO01.",
     "it": "Dyrektor IT tworzy katalog ról, tabele [[raci]] dla procesów i politykę IT oraz wyznacza właścicieli procesów. To APO01, oparte na zasadach z [[proc-edm01]]."
   },
   "nieMylicZ": [
@@ -98,7 +98,7 @@
   "mapa": "proc-apo01",
   "glebokosc": {
     "prosty": "W rodzinie ustalasz, kto wynosi śmieci, kto płaci rachunki i kto pilnuje terminów. Spisujesz to na lodówce. Gdy coś nie działa, poprawiasz podział. To organizacja codziennej pracy.",
-    "zaawansowany": "Komendantka Wrzos ustaliła w [[proc-edm01]], że o Syrenie decyduje Rada ds. Informatyki. Naczelnik Sikora organizuje pod to swój wydział. Wyznacza właścicieli procesów, pisze politykę IT i tabele [[raci]]. Kompetencje ludzi do tych ról rozwija w [[proc-apo07]]. Cały ten układ zarządzania IT to APO01.",
+    "zaawansowany": "Zarząd banku ustalił w [[proc-edm01]], że o systemie powiadamiania klientów decyduje komitet sterujący IT. Dyrektor IT organizuje pod to swój dział. Wyznacza właścicieli procesów, pisze politykę IT i tabele [[raci]]. Kompetencje ludzi do tych ról rozwija w [[proc-apo07]]. Cały ten układ zarządzania IT to APO01.",
     "skrajny": "Podręcznik nazywa APO01 „Zarządzanie metodyką zarządzania IT”. Ktoś słyszy „metodyka” i myśli o PRINCE2 dla projektów. To błąd: chodzi o *framework*, czyli cały system zarządzania IT. Druga pułapka: EDM01 też dotyczy „ram”. Różnica leży w poziomie. Ład ustala, kto i jak decyduje. Zarządzanie organizuje role, polityki i procesy, by tę decyzję wykonać. **Rozstrzygnięcie:** organizacja pracy zarządczej IT (role, polityki, procesy, doskonalenie) → APO01; zasady decydowania na górze → EDM01; prowadzenie projektów → BAI01."
   },
   "zagmatwania": [

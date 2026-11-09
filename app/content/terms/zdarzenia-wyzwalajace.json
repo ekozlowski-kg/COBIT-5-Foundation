@@ -22,12 +22,11 @@
     "biuro": "Do firmy przychodzi nowa dyrektorka i od razu zapowiada audyt zewnętrzny. Bałagan w segregatorach i w dostępach do wspólnej skrzynki trwał od lat, ale dopiero te dwa zdarzenia sprawiają, że biuro zaczyna porządki.",
     "firma": "Piekarnia przejmuje sąsiednią cukiernię razem z jej kasami i programem do zamówień. W tym samym roku wchodzi obowiązek e-faktur. Przejęcie i nowe przepisy to zdarzenia wyzwalające, które skłaniają właściciela, żeby wziąć się za IT na poważnie.",
     "admin": "Do urzędu gminy przychodzi nowy sekretarz, a jednocześnie wchodzi obowiązek e-Doręczeń. Na dodatek audyt zewnętrzny wytyka braki w zabezpieczeniach. Każde z tych wydarzeń to zdarzenie wyzwalające, po którym urząd bierze się za Ład i Zarządzanie IT.",
-    "psp": "KW PSP postanawia połączyć stanowiska kierowania trzech komend powiatowych w jedno. W tym samym roku przychodzi nowy komendant wojewódzki i wchodzą nowe wymagania cyberbezpieczeństwa. Te wydarzenia są sygnałem, żeby na nowo przyjrzeć się Ładowi i Zarządzaniu IT – to zdarzenia wyzwalające.",
     "it": "Nowe wymogi prawne to zdarzenie wyzwalające: organizacja uruchamia inicjatywę wdrożenia COBIT 5 od fazy 1. W kolejnych fazach ocenia i usprawnia m.in. MEA03 (Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi) i APO13 (Zarządzanie bezpieczeństwem)."
   },
   "glebokosc": {
     "prosty": "Od miesięcy w szafie panuje bałagan i jakoś się z tym żyje. Nagle dzwoni teściowa: „Przyjeżdżam w sobotę”. Bałagan był od dawna, ale dopiero ten telefon sprawia, że sprzątasz teraz – to zdarzenie wyzwalające.",
-    "zaawansowany": "Awaria przy Lipowej to [[punkty-zapalne|punkt zapalny]], czyli ból, który komenda czuje. Dopiero gdy mł. bryg. Ostrowska z komendy wojewódzkiej zapowiada kontrolę, komendantka uruchamia program wdrożenia COBIT 5 – to zdarzenie wyzwalające. Oba mogą być podstawą [[uzasadnienie-biznesowe|uzasadnienia biznesowego]] i budują poczucie pilności. Innym zdarzeniem wyzwalającym byłby np. nowy naczelnik wydziału IT albo nowe przepisy o powiadamianiu.",
+    "zaawansowany": "Powtarzające się awarie aplikacji mobilnej to [[punkty-zapalne|punkt zapalny]], czyli ból, który bank czuje. Dopiero gdy regulator zapowiada kontrolę, zarząd uruchamia program wdrożenia COBIT 5 – to zdarzenie wyzwalające. Oba mogą być podstawą [[uzasadnienie-biznesowe|uzasadnienia biznesowego]] i budują poczucie pilności. Innym zdarzeniem wyzwalającym byłby np. nowy dyrektor IT albo nowe przepisy o ochronie danych.",
     "skrajny": "Dwa zdania z listy wyglądają prawie tak samo: „niespełnienie wymagań regulacyjnych” i „nowe wymagania regulacyjne”. Pierwsze to punkt zapalny (s. 36), bo opisuje trwający problem, a drugie to zdarzenie wyzwalające (s. 37), bo opisuje zmianę w otoczeniu. Ta sama para pułapek dotyczy audytu: „wyniki audytu regularnie wskazują na problemy” to punkt zapalny, a „audyt zewnętrzny lub ocena konsultantów” to zdarzenie wyzwalające. Intuicja „wszystko o przepisach i audycie to jedno” zawodzi. Co więcej, nowe przepisy w pytaniu o kaskadę celów to wyznacznik, a nie zdarzenie wyzwalające. **Rozstrzygnięcie:** trwający ból („niespełnienie”, „regularnie”, „powielające się”) → punkt zapalny; zmiana lub impuls („nowy”, „fuzja”, „audyt zewnętrzny”) → zdarzenie wyzwalające."
   },
   "zagmatwania": [
@@ -66,6 +65,11 @@
     "IM-02-02"
   ],
   "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 36,
+      "cytat": "Wykorzystanie punktów zapalnych lub zdarzeń inicjujących jako punktów, które stanowią bodziec do realizacji inicjatyw"
+    },
     {
       "doc": "FW-PL",
       "strona": 37,

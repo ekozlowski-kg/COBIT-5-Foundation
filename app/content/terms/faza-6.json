@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Od dwóch miesięcy biegasz i gotujesz po nowemu. To już nawyk, nie zryw. Stajesz na wadze: minus 6 kg i lepsze ciśnienie. Sprawdzasz, czy dostałeś to, po co zacząłeś. To faza 6.",
     "biuro": "Od kwartału archiwum działa po nowemu. Liczysz: umowę znajdziesz średnio w 3 minuty, a nikt nie chowa teczek „po staremu”.",
-    "organizacja": "Sklep po kwartale porównuje czasy wysyłek i skargi z kosztorysem. Starostwo po pół roku liczy sprawy z e-rezerwacji i skrócenie kolejki.",
-    "psp": "**Czy alarm dochodzi szybciej?**\nPo trzech miesiącach informatyczka Ola Dudek pokazuje pomiary: alarm do OSP Zawilce idzie średnio 50 sekund. Księgowa Halina Mak porównuje to z korzyściami z uzasadnienia biznesowego. Dyżurny Paweł Grab sam uczy nowych kolegów nowej procedury. To [[faza-6|faza 6: Czy dotarliśmy do celu?]]",
+    "organizacja": "Sklep po kwartale porównuje czasy wysyłek i skargi z kosztorysem.",
+    "admin": "Po pół roku starostwo liczy: 45% spraw umawia się przez e-rezerwację, a średnie czekanie spadło z 50 do 15 minut. Wyniki porównuje z uzasadnieniem biznesowym projektu. Urzędnicy pracują już po nowemu na co dzień.",
     "it": "Czas rozwiązania incydentów w DSS02 porównujesz z uzasadnieniem biznesowym. Ład monitoruje korzyści w EDM02 (Zapewnienie realizacji korzyści)."
   },
   "nieMylicZ": [
@@ -76,8 +76,8 @@
   "mapa": "faza-6",
   "glebokosc": {
     "prosty": "Kupiłeś zmywarkę, żeby mieć wolne wieczory. Po miesiącu zmywarka to już codzienność. Pytasz siebie: czy faktycznie mam więcej czasu? Jeśli tak, dotarłeś do celu.",
-    "zaawansowany": "Nowa Syrena działa od kwartału. Dudek mierzy czasy alarmów, a program porównuje je z korzyściami z [[uzasadnienie-biznesowe|uzasadnienia biznesowego]]. Pierścień zmiany pilnuje, żeby nowe podejście się osadziło: Grab uczy nowych. Czas dotarcia alarmu to [[wskaznik-opozniony|wskaźnik opóźniony]] – pokazuje efekt po fakcie.",
-    "skrajny": "Na odprawie padają dwa pytania. Księgowa Mak pyta: „Czy alarm dochodzi szybciej, tak jak obiecaliśmy?”. Komendantka Wrzos pyta: „Czy cała inicjatywa się udała i co robimy dalej?”. Pierwsze to faza 6, drugie – faza 7. Kusi też, żeby „Realizację korzyści” z fazy 6 utożsamić z celem Ładu o tej samej nazwie. Cel Ładu obowiązuje komendę zawsze, a działanie fazy 6 sprawdza korzyści tego jednego programu. **Rozstrzygnięcie:** „czy dostaliśmy obiecane korzyści i czy rozwiązanie się przyjęło?” to faza 6; „czy całość się udała i jakie są dalsze potrzeby?” to faza 7."
+    "zaawansowany": "Nowy system zgłoszeń działa od kwartału. Kierownik helpdesku mierzy czasy rozwiązania incydentów, a program porównuje je z korzyściami z [[uzasadnienie-biznesowe|uzasadnienia biznesowego]]. Pierścień zmiany pilnuje, żeby nowe podejście się osadziło: doświadczeni konsultanci uczą nowych. Czas rozwiązania incydentu to [[wskaznik-opozniony|wskaźnik opóźniony]] – pokazuje efekt po fakcie.",
+    "skrajny": "Na spotkaniu zarządu padają dwa pytania. Dyrektor finansowy pyta: „Czy incydenty są rozwiązywane szybciej, tak jak obiecaliśmy?”. Prezes pyta: „Czy cała inicjatywa się udała i co robimy dalej?”. Pierwsze to faza 6, drugie – faza 7. Kusi też, żeby „Realizację korzyści” z fazy 6 utożsamić z celem Ładu o tej samej nazwie. Cel Ładu obowiązuje organizację zawsze, a działanie fazy 6 sprawdza korzyści tego jednego programu. **Rozstrzygnięcie:** „czy dostaliśmy obiecane korzyści i czy rozwiązanie się przyjęło?” to faza 6; „czy całość się udała i jakie są dalsze potrzeby?” to faza 7."
   },
   "zagmatwania": [
     {

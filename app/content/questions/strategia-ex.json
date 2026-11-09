@@ -122,7 +122,7 @@
       "lekcja": "ex-01-slowa-kluczowe",
       "bloom": "rozumienie",
       "trudnosc": 1,
-      "tresc": "W Twojej komendzie robi się coś inaczej, niż opisuje COBIT. Jak odpowiadasz na egzaminie?",
+      "tresc": "W Twojej firmie robi się coś inaczej, niż opisuje COBIT. Jak odpowiadasz na egzaminie?",
       "zrodlo": [],
       "status": "uproszczenie",
       "opcje": [
@@ -132,7 +132,7 @@
           "wyjasnienie": "Egzamin sprawdza znajomość modelu, a nie praktyki organizacji."
         },
         {
-          "tekst": "Według praktyki komendy",
+          "tekst": "Według praktyki firmy",
           "poprawna": false,
           "wyjasnienie": "To częsty błąd.",
           "zycie": "W życiu to tak, jakbyś na egzaminie na prawo jazdy jechał tak, jak jeździ wujek, a nie według przepisów."

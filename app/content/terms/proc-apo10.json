@@ -35,8 +35,8 @@
   "przyklady": {
     "zycie": "Wybierasz firmę do wywozu śmieci. Porównujesz oferty, podpisujesz umowę, a potem sprawdzasz, czy przyjeżdża w terminie. Gdy zawodzi, rozmawiasz albo zmieniasz firmę. To APO10.",
     "biuro": "Biuro co pół roku ocenia firmę serwisującą kserokopiarki: czas przyjazdu, liczbę awarii, cenę. Gdy umowa się kończy, porównuje dwie inne oferty.",
-    "organizacja": "Sklep internetowy co kwartał ocenia firmę hostingową: dostępność, czas reakcji, cenę. Sprawdza też, co się stanie, jeśli firma upadnie. Przy odnowieniu umowy negocjuje lepsze warunki. To APO10. Urząd przed przetargiem na serwis drukarek opisuje wymagania. Po wyborze wykonawcy co miesiąc sprawdza protokoły napraw. Za spóźnienia nalicza kary z umowy. To APO10.",
-    "psp": "**„System działa zgodnie z umową”.** Igor Wolny z Kwant-Sygnału twierdzi, że Syrena działa zgodnie z umową. Naczelnik Marek Sikora czyta umowę: nie ma w niej potwierdzenia doręczenia SMS-a. Negocjuje aneks i zaczyna co kwartał oceniać dostawcę. To jest [[proc-apo10|APO10]].",
+    "organizacja": "Sklep internetowy co kwartał ocenia firmę hostingową: dostępność, czas reakcji, cenę. Sprawdza też, co się stanie, jeśli firma upadnie. Przy odnowieniu umowy negocjuje lepsze warunki. To APO10.",
+    "admin": "Ministerstwo przed przetargiem na serwis drukarek opisuje wymagania. Po wyborze wykonawcy co miesiąc sprawdza protokoły napraw. Za spóźnienia nalicza kary z umowy. To APO10.",
     "it": "Kierownik ds. dostawców prowadzi rejestr kontraktów, kwartalną ocenę dostawców i ocenę ryzyka uzależnienia od jednego dostawcy chmury. To APO10. Ryzyko trafia też do [[proc-apo12]]."
   },
   "nieMylicZ": [
@@ -87,8 +87,8 @@
   "mapa": "proc-apo10",
   "glebokosc": {
     "prosty": "Zatrudniasz ekipę do remontu łazienki. Wybierasz ją z trzech ofert, spisujesz umowę i terminy. Co tydzień sprawdzasz postęp. Gdy się spóźnia, sięgasz do umowy. To zarządzanie dostawcą.",
-    "zaawansowany": "Po awarii Sikora ocenia Kwant-Sygnał. Umowa nie przewidywała potwierdzenia doręczenia SMS-a. W APO10 Sikora negocjuje aneks i wprowadza kwartalną ocenę dostawcy. Ryzyko „dostawca jest jeden i może upaść” wpisuje do rejestru ryzyk ([[proc-apo12]]). Poziom usługi dla SK ustala osobno w [[proc-apo09]].",
-    "skrajny": "Wolny mówi: „Wszystko zgodnie z umową”. Ma rację i to jest problem. Umowa z dostawcą (APO10) nie pokrywała tego, czego potrzebuje SK (APO09). Gdyby SLA dla SK powstało pierwsze, Sikora wiedziałby, czego żądać od Kwant-Sygnału. Dostawca, który spełnia umowę, a nie spełnia potrzeb, to sygnał błędu w obu procesach. **Rozstrzygnięcie:** „czego potrzebują nasi użytkownicy” → APO09; „czego żądamy od dostawcy i czy to dostajemy” → APO10. Zgodność z umową nie oznacza dobrej usługi. (interpretacja kursu)"
+    "zaawansowany": "Po awarii dyrektor IT ocenia dostawcę usług SMS. Umowa nie przewidywała potwierdzenia doręczenia wiadomości. W APO10 dyrektor negocjuje aneks i wprowadza kwartalną ocenę dostawcy. Ryzyko „dostawca jest jeden i może upaść” wpisuje do rejestru ryzyk ([[proc-apo12]]). Poziom usługi dla działu obsługi klienta ustala osobno w [[proc-apo09]].",
+    "skrajny": "Handlowiec dostawcy mówi: „Wszystko zgodnie z umową”. Ma rację i to jest problem. Umowa z dostawcą (APO10) nie pokrywała tego, czego potrzebuje dział obsługi klienta (APO09). Gdyby SLA dla działu obsługi klienta powstało pierwsze, dyrektor IT wiedziałby, czego żądać od dostawcy. Dostawca, który spełnia umowę, a nie spełnia potrzeb, to sygnał błędu w obu procesach. **Rozstrzygnięcie:** „czego potrzebują nasi użytkownicy” → APO09; „czego żądamy od dostawcy i czy to dostajemy” → APO10. Zgodność z umową nie oznacza dobrej usługi. (interpretacja kursu)"
   },
   "zagmatwania": [
     {

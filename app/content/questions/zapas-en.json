@@ -1,772 +1,215 @@
 {
- "pytania": [
-  {
-   "id": "q-zap-en-01-zasady-polityki-1",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-02"
-   ],
-   "bloom": "rozumienie",
-   "trudnosc": 1,
-   "tresc": "Komenda ma dwa dokumenty. Pierwszy to jedno zdanie: „Bezpieczeństwo mieszkańców jest dla nas najważniejsze”. Drugi opisuje, kto i co ile dni sprawdza syreny w gminie. Czym według COBIT 5 jest **pierwszy** dokument?",
-   "zrodlo": [
+  "pytania": [
     {
-     "doc": "FW-PL",
-     "strona": 67
+      "id": "q-zap-en-03-opis-procesu-raci-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Która część opisu procesu w przewodniku *Procesy umożliwiające* mówi, **po co** proces istnieje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Opis procesu",
+          "poprawna": false,
+          "wyjasnienie": "Opis procesu mówi, CO proces robi. Nie odpowiada na pytanie „po co”.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Tabela RACI",
+          "poprawna": false,
+          "wyjasnienie": "RACI pokazuje role przy praktykach procesu, a nie jego przeznaczenie.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Powiązane wytyczne z innych standardów i dokumentów",
+          "poprawna": false,
+          "wyjasnienie": "To odwołania do innych standardów i dokumentów, a nie przeznaczenie procesu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Określenie przeznaczenia procesu",
+          "poprawna": true,
+          "wyjasnienie": "Przeznaczenie procesu mówi, po co proces istnieje. Opis procesu mówi, co robi."
+        }
+      ]
+    },
+    {
+      "id": "q-zap-en-04-struktury-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 1,
+      "tresc": "Którą dobrą praktykę struktury organizacyjnej opisuje ten zapis?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zasady operacyjne",
+          "poprawna": true,
+          "wyjasnienie": "Zasady operacyjne opisują, jak struktura działa na co dzień, np. częstotliwość spotkań i dokumentowanie (s. 75)."
+        },
+        {
+          "tekst": "Skład",
+          "poprawna": false,
+          "wyjasnienie": "Skład mówi, kto jest członkiem rady. Zapis nie wymienia osób.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Poziom uprawnień",
+          "poprawna": false,
+          "wyjasnienie": "Poziom uprawnień mówi, jakie decyzje rada może podjąć. Zapis dotyczy spotkań.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Procedury eskalacji",
+          "poprawna": false,
+          "wyjasnienie": "Eskalacja to droga sporu w górę. Zapis nie dotyczy sporów.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "scenariusz": "Regulamin Rady ds. Informatyki mówi: „Rada zbiera się w pierwszy poniedziałek miesiąca, a z każdego posiedzenia powstaje protokół”."
+    },
+    {
+      "id": "q-zap-en-05-role-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Która rola według Rysunku 33 odpowiada za wszystkie aspekty zarządzania **ryzykiem w całej organizacji**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Dyrektor ds. ryzyka (CRO)",
+          "poprawna": true,
+          "wyjasnienie": "CRO odpowiada za wszystkie aspekty zarządzania ryzykiem w całym przedsiębiorstwie (s. 76)."
+        },
+        {
+          "tekst": "Dyrektor finansowy (CFO)",
+          "poprawna": false,
+          "wyjasnienie": "CFO odpowiada za ryzyko finansowe, czyli tylko za część ryzyka.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Dyrektor ds. bezpieczeństwa informacji (CISO)",
+          "poprawna": false,
+          "wyjasnienie": "CISO odpowiada za bezpieczeństwo informacji, czyli tylko za jeden rodzaj ryzyka.",
+          "pulapka": "zbyt-waskie"
+        },
+        {
+          "tekst": "Audyt",
+          "poprawna": false,
+          "wyjasnienie": "Audyt niezależnie sprawdza, czy wszystko działa. Nie zarządza ryzykiem.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-en-08-uslugi-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-21"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Co według COBIT 5 tworzą razem infrastruktura, technologia i aplikacje?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 85
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Zdolność usługową, czyli zdolność do świadczenia usług",
+          "poprawna": true,
+          "wyjasnienie": "Usługi, infrastruktura i aplikacje dają organizacji przetwarzanie informacji i usługi IT (s. 85)."
+        },
+        {
+          "tekst": "Strukturę ramową, w której każda polityka ma swoje miejsce",
+          "poprawna": false,
+          "wyjasnienie": "Struktura ramowa należy do aktywatora Zasady, Polityki i Struktury ramowe.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Kaskadę celów",
+          "poprawna": false,
+          "wyjasnienie": "Kaskada celów przekłada potrzeby interesariuszy na cele. Nie tworzą jej systemy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Model informacji",
+          "poprawna": false,
+          "wyjasnienie": "Model informacji opisuje cechy informacji, a nie sprzęt i programy.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
+    },
+    {
+      "id": "q-zap-en-09-ludzie-1",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-23"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Do której domeny procesów należy kategoria umiejętności **zarządzanie pojemnością**?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 88
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Dopasowanie, planowanie i organizacja (APO)",
+          "poprawna": false,
+          "wyjasnienie": "APO to planowanie, np. portfel projektów i architektura korporacyjna.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Dostarczanie, obsługa i wsparcie (DSS)",
+          "poprawna": false,
+          "wyjasnienie": "DSS ma zarządzanie dostępnością. Pojemność i dostępność łatwo pomylić.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Budowanie, nabywanie i wdrażanie (BAI)",
+          "poprawna": true,
+          "wyjasnienie": "Zarządzanie pojemnością to kategoria umiejętności domeny BAI (Ilustracja 39, s. 88)."
+        },
+        {
+          "tekst": "Monitorowanie, ocena i oszacowanie (MEA)",
+          "poprawna": false,
+          "wyjasnienie": "MEA to sprawdzanie, np. weryfikacja zgodności i audyt mechanizmów kontrolnych.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
     }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Polityką, bo wyznacza kierunek działania komendy",
-     "poprawna": false,
-     "wyjasnienie": "Odwrotnie: politykę przypomina drugi dokument, ze szczegółami. Pierwszy to krótka wartość.",
-     "pulapka": "odwrocone"
-    },
-    {
-     "tekst": "Zasadą, bo krótko i prostym językiem wyraża podstawową wartość",
-     "poprawna": true,
-     "wyjasnienie": "Zasad jest niewiele, są proste i wyrażają podstawowe wartości organizacji (s. 67)."
-    },
-    {
-     "tekst": "Strukturą ramową, bo obejmuje wszystkie obszary działania komendy i jej polityki",
-     "poprawna": false,
-     "wyjasnienie": "Struktura ramowa porządkuje cały zbiór polityk. Jedno zdanie o wartości nią nie jest.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Praktyką procesu, bo dotyczy codziennej pracy",
-     "poprawna": false,
-     "wyjasnienie": "Praktyki procesów realizują polityki. Samo hasło o wartości nie jest praktyką.",
-     "pulapka": "inna-kategoria"
-    }
-   ]
-  },
-  {
-   "id": "q-zap-en-01-zasady-polityki-2",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-03"
-   ],
-   "bloom": "zastosowanie",
-   "trudnosc": 2,
-   "tresc": "Której cechy dobrej polityki według COBIT 5 **brakuje** tej polityce?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 67
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Skuteczności",
-     "poprawna": false,
-     "wyjasnienie": "Skuteczność to osiąganie celu. Opis nie mówi, że polityka celu nie osiąga.",
-     "pulapka": "prawda-nie-na-temat"
-    },
-    {
-     "tekst": "Nieinwazyjności",
-     "poprawna": false,
-     "wyjasnienie": "Opis mówi wprost, że polityka nie budzi oporu, więc ta cecha jest spełniona.",
-     "pulapka": "falsz"
-    },
-    {
-     "tekst": "Ograniczonej liczby",
-     "poprawna": false,
-     "wyjasnienie": "Ograniczona liczba to cecha zasad, a nie polityk.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Wydajności",
-     "poprawna": true,
-     "wyjasnienie": "Dobra polityka jest wydajna, czyli wdraża zasady najmniejszym kosztem (s. 67). Trzy dni pracy kilku osób przy zmianie numeru to brak wydajności."
-    }
-   ],
-   "scenariusz": "Polityka zmian w systemie Syrena jest logiczna dla informatyków i nie budzi oporu. Wymaga jednak tylu podpisów, że prosta zmiana numeru telefonu kosztuje trzy dni pracy kilku osób."
-  },
-  {
-   "id": "q-zap-en-02-procesy-1",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-08"
-   ],
-   "bloom": "zastosowanie",
-   "trudnosc": 2,
-   "tresc": "Która kategoria celów procesu **NIE** jest spełniona?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 69
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Cele wewnętrzne",
-     "poprawna": false,
-     "wyjasnienie": "Procedura jest zgodna z wytycznymi i dobrze napisana, więc cele wewnętrzne są spełnione.",
-     "pulapka": "falsz"
-    },
-    {
-     "tekst": "Cele kontekstowe",
-     "poprawna": false,
-     "wyjasnienie": "Cele kontekstowe dotyczą dopasowania i zrozumiałości. Tu problemem jest brak dostępu.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Cele dostępności i bezpieczeństwa",
-     "poprawna": true,
-     "wyjasnienie": "Proces ma być znany i dostępny dla osób, które go potrzebują (s. 69). Nocna zmiana nie ma do niego dostępu."
-    },
-    {
-     "tekst": "Mierniki SMART (specyficzne, wymierne, składające się z konkretnych działań)",
-     "poprawna": false,
-     "wyjasnienie": "Mierniki służą do pomiaru celów, ale nie są kategorią celów procesu.",
-     "pulapka": "inna-kategoria"
-    }
-   ],
-   "scenariusz": "Procedura obsługi alarmu jest zgodna z wytycznymi i dobrze napisana. Leży jednak w zamkniętej szafie kierownika, a nocna zmiana nie ma do niej klucza."
-  },
-  {
-   "id": "q-zap-en-02-procesy-2",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-09"
-   ],
-   "bloom": "rozumienie",
-   "trudnosc": 2,
-   "tresc": "Który etap cyklu życia procesu wykonuje audytorka?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 70
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Monitorowanie",
-     "poprawna": true,
-     "wyjasnienie": "Każdy proces jest definiowany, tworzony, obsługiwany, monitorowany oraz dostosowywany albo wycofywany (s. 70). Regularne sprawdzanie działania to monitorowanie."
-    },
-    {
-     "tekst": "Definiowanie",
-     "poprawna": false,
-     "wyjasnienie": "Definiowanie jest na początku, zanim proces zacznie działać. Ten proces działa od roku.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Tworzenie",
-     "poprawna": false,
-     "wyjasnienie": "Tworzenie to budowa procesu. Audytorka sprawdza proces, który już działa.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Dostosowanie albo wycofanie",
-     "poprawna": false,
-     "wyjasnienie": "Nikt tu niczego w procesie nie zmienia ani z niego nie rezygnuje.",
-     "pulapka": "falsz"
-    }
-   ],
-   "scenariusz": "Proces obsługi alarmu działa od roku. Audytorka wewnętrzna Ewa Lis co kwartał sprawdza, czy alarmy docierają do jednostek na czas."
-  },
-  {
-   "id": "q-zap-en-03-opis-procesu-raci-1",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-25"
-   ],
-   "bloom": "zastosowanie",
-   "trudnosc": 2,
-   "tresc": "Jaką rolę w tabeli RACI ma kpt. Sikora przy aktualizacji listy?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 93
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "R – odpowiedzialny wykonawczo",
-     "poprawna": false,
-     "wyjasnienie": "R wykonuje zadanie, a numery wpisuje Ola Dudek. To typowe pomylenie R z A.",
-     "pulapka": "odwrocone"
-    },
-    {
-     "tekst": "C – konsultowany",
-     "poprawna": false,
-     "wyjasnienie": "Konsultowany daje uwagi przed decyzją. Sikora zatwierdza i odpowiada za wynik.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "A – rozliczany",
-     "poprawna": true,
-     "wyjasnienie": "A odpowiada za sukces zadania i tłumaczy się z wyniku. Tak jest z Sikorą."
-    },
-    {
-     "tekst": "I – informowany",
-     "poprawna": false,
-     "wyjasnienie": "Informowany tylko dostaje wiadomość. Sikora zatwierdza listę i za nią odpowiada.",
-     "pulapka": "inna-kategoria"
-    }
-   ],
-   "scenariusz": "Informatyczka Ola Dudek wpisuje do Syreny nowe numery OSP. Kpt. Marek Sikora zatwierdza gotową listę. Jeśli lista okaże się zła, to on tłumaczy się przed komendantką."
-  },
-  {
-   "id": "q-zap-en-03-opis-procesu-raci-2",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-24"
-   ],
-   "bloom": "wiedza",
-   "trudnosc": 1,
-   "tresc": "Która część opisu procesu w przewodniku *Procesy umożliwiające* mówi, **po co** proces istnieje?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 93
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Opis procesu",
-     "poprawna": false,
-     "wyjasnienie": "Opis procesu mówi, CO proces robi. Nie odpowiada na pytanie „po co”.",
-     "pulapka": "odwrocone"
-    },
-    {
-     "tekst": "Tabela RACI",
-     "poprawna": false,
-     "wyjasnienie": "RACI pokazuje role przy praktykach procesu, a nie jego przeznaczenie.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Powiązane wytyczne z innych standardów i dokumentów",
-     "poprawna": false,
-     "wyjasnienie": "To odwołania do innych standardów i dokumentów, a nie przeznaczenie procesu.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Określenie przeznaczenia procesu",
-     "poprawna": true,
-     "wyjasnienie": "Przeznaczenie procesu mówi, po co proces istnieje. Opis procesu mówi, co robi."
-    }
-   ]
-  },
-  {
-   "id": "q-zap-en-04-struktury-1",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-12"
-   ],
-   "bloom": "rozumienie",
-   "trudnosc": 1,
-   "tresc": "Którą dobrą praktykę struktury organizacyjnej opisuje ten zapis?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 75
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Zasady operacyjne",
-     "poprawna": true,
-     "wyjasnienie": "Zasady operacyjne opisują, jak struktura działa na co dzień, np. częstotliwość spotkań i dokumentowanie (s. 75)."
-    },
-    {
-     "tekst": "Skład",
-     "poprawna": false,
-     "wyjasnienie": "Skład mówi, kto jest członkiem rady. Zapis nie wymienia osób.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Poziom uprawnień",
-     "poprawna": false,
-     "wyjasnienie": "Poziom uprawnień mówi, jakie decyzje rada może podjąć. Zapis dotyczy spotkań.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Procedury eskalacji",
-     "poprawna": false,
-     "wyjasnienie": "Eskalacja to droga sporu w górę. Zapis nie dotyczy sporów.",
-     "pulapka": "inna-kategoria"
-    }
-   ],
-   "scenariusz": "Regulamin Rady ds. Informatyki mówi: „Rada zbiera się w pierwszy poniedziałek miesiąca, a z każdego posiedzenia powstaje protokół”."
-  },
-  {
-   "id": "q-zap-en-04-struktury-2",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-12"
-   ],
-   "bloom": "zastosowanie",
-   "trudnosc": 2,
-   "tresc": "Którą dobrą praktykę struktury organizacyjnej stosuje rada?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 75
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Procedury eskalacji",
-     "poprawna": false,
-     "wyjasnienie": "Eskalacja przekazuje sprawę w górę, gdy nie da się zdecydować. Tu rada oddaje uprawnienia w dół.",
-     "pulapka": "odwrocone"
-    },
-    {
-     "tekst": "Delegowanie uprawnień",
-     "poprawna": true,
-     "wyjasnienie": "Delegowanie to przekazanie uprawnień strukturom podległym (s. 75). Rada przekazuje zespołowi prawo do decyzji."
-    },
-    {
-     "tekst": "Zakres kontroli",
-     "poprawna": false,
-     "wyjasnienie": "Zakres kontroli to granice władzy rady. Rada nie zmienia granic, tylko oddaje część decyzji.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Skład rady i dobór jej członków",
-     "poprawna": false,
-     "wyjasnienie": "Skład to lista członków rady. Nikt tu nie dochodzi do rady ani z niej nie odchodzi.",
-     "pulapka": "inna-kategoria"
-    }
-   ],
-   "scenariusz": "Rada ds. Informatyki postanawia, że zespół kpt. Sikory może sam zatwierdzać drobne poprawki w Syrenie, bez pytania rady."
-  },
-  {
-   "id": "q-zap-en-05-role-1",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-13"
-   ],
-   "bloom": "wiedza",
-   "trudnosc": 1,
-   "tresc": "Która rola według Rysunku 33 odpowiada za wszystkie aspekty zarządzania **ryzykiem w całej organizacji**?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 76
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Dyrektor ds. ryzyka (CRO)",
-     "poprawna": true,
-     "wyjasnienie": "CRO odpowiada za wszystkie aspekty zarządzania ryzykiem w całym przedsiębiorstwie (s. 76)."
-    },
-    {
-     "tekst": "Dyrektor finansowy (CFO)",
-     "poprawna": false,
-     "wyjasnienie": "CFO odpowiada za ryzyko finansowe, czyli tylko za część ryzyka.",
-     "pulapka": "zbyt-waskie"
-    },
-    {
-     "tekst": "Dyrektor ds. bezpieczeństwa informacji (CISO)",
-     "poprawna": false,
-     "wyjasnienie": "CISO odpowiada za bezpieczeństwo informacji, czyli tylko za jeden rodzaj ryzyka.",
-     "pulapka": "zbyt-waskie"
-    },
-    {
-     "tekst": "Audyt",
-     "poprawna": false,
-     "wyjasnienie": "Audyt niezależnie sprawdza, czy wszystko działa. Nie zarządza ryzykiem.",
-     "pulapka": "inna-kategoria"
-    }
-   ]
-  },
-  {
-   "id": "q-zap-en-05-role-2",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-13"
-   ],
-   "bloom": "rozumienie",
-   "trudnosc": 2,
-   "tresc": "Która struktura z Rysunku 33 najlepiej opisuje ten zespół?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 77
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Biuro zarządzania wartością (VMO)",
-     "poprawna": false,
-     "wyjasnienie": "VMO zajmuje się portfelem inwestycji, wartością i uzasadnieniami biznesowymi, a nie wsparciem kierowników projektów.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Rada ds. architektury",
-     "poprawna": false,
-     "wyjasnienie": "Ta rada zajmuje się architekturą korporacyjną, a nie projektami.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Komitet ds. strategii (wykonawczy IT)",
-     "poprawna": false,
-     "wyjasnienie": "Ten komitet decyduje o portfelach inwestycji, usług i zasobów IT. Nie wspiera kierowników projektów na co dzień.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Biuro zarządzania projektami (PMO)",
-     "poprawna": true,
-     "wyjasnienie": "PMO wspiera kierowników programów i projektów oraz gromadzi i raportuje informacje o ich realizacji (s. 77)."
-    }
-   ],
-   "scenariusz": "Komenda powołuje zespół, który ma wspierać kierowników wszystkich projektów. Zespół zbiera od nich informacje o postępach i przygotowuje raporty."
-  },
-  {
-   "id": "q-zap-en-06-kultura-1",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-15"
-   ],
-   "bloom": "rozumienie",
-   "trudnosc": 1,
-   "tresc": "Na którym poziomie aktywatora Kultura, Etyka i Zachowanie leży ta wartość?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 79
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Na poziomie etyki całej komendy",
-     "poprawna": false,
-     "wyjasnienie": "Etyka organizacyjna to wartości, według których chce działać cała organizacja. Tu to wartość jednej osoby.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Na poziomie etyki jednej osoby",
-     "poprawna": true,
-     "wyjasnienie": "Etyka indywidualna to osobiste wartości pracownika, wyniesione np. z domu i z doświadczeń (s. 79)."
-    },
-    {
-     "tekst": "W regułach i normach spisanych przez komendę",
-     "poprawna": false,
-     "wyjasnienie": "Reguły i normy to spisane wskazówki organizacji, a nie osobiste przekonania.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "W zasadach operacyjnych Rady ds. Informatyki",
-     "poprawna": false,
-     "wyjasnienie": "Zasady operacyjne to dobra praktyka struktur organizacyjnych.",
-     "pulapka": "inna-kategoria"
-    }
-   ],
-   "scenariusz": "Dyżurny Paweł Grab wyniósł z domu przekonanie, że zawsze mówi prawdę, nawet gdy mu to szkodzi."
-  },
-  {
-   "id": "q-zap-en-06-kultura-2",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-14"
-   ],
-   "bloom": "wiedza",
-   "trudnosc": 2,
-   "tresc": "Które z tych działań komendy COBIT 5 zalicza do dobrych praktyk aktywatora Kultura, Etyka i Zachowanie?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 80
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Powiązanie zachęt i środków zniechęcających z systemem wynagradzania",
-     "poprawna": true,
-     "wyjasnienie": "Zachęty i środki zniechęcające promują pożądane zachowanie i są związane ze schematem wynagradzania (s. 80)."
-    },
-    {
-     "tekst": "Ustalenie poziomu uprawnień rady",
-     "poprawna": false,
-     "wyjasnienie": "Poziom uprawnień to dobra praktyka struktur organizacyjnych.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Zdefiniowanie pryncypiów architektury",
-     "poprawna": false,
-     "wyjasnienie": "Pryncypia architektury to dobra praktyka aktywatora Usługi, Infrastruktura i Aplikacje.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Ukaranie każdego dyżurnego, który zgłosi własny błąd, żeby inni bardziej uważali",
-     "poprawna": false,
-     "wyjasnienie": "Kara za zgłoszenie uczy ukrywania błędów. COBIT 5 nie zaleca takiej praktyki.",
-     "pulapka": "falsz"
-    }
-   ]
-  },
-  {
-   "id": "q-zap-en-07-informacja-1",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-17"
-   ],
-   "bloom": "zastosowanie",
-   "trudnosc": 2,
-   "tresc": "Które kryterium jakości informacji tu zawiodło?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 82
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Dokładność",
-     "poprawna": false,
-     "wyjasnienie": "Opis mówi, że raport jest dokładny, więc to kryterium jest spełnione.",
-     "pulapka": "falsz"
-    },
-    {
-     "tekst": "Odpowiednia ilość informacji",
-     "poprawna": true,
-     "wyjasnienie": "Odpowiednia ilość to stopień, w jakim wolumen informacji pasuje do zadania (s. 82). Dowódca potrzebuje jednej liczby, a nie 90 stron."
-    },
-    {
-     "tekst": "Ograniczony dostęp dla nieuprawnionych osób",
-     "poprawna": false,
-     "wyjasnienie": "Ograniczony dostęp dotyczy ochrony przed niepowołanymi. Tu problemem jest nadmiar treści.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Wiarygodność",
-     "poprawna": false,
-     "wyjasnienie": "Wiarygodność to jakość wewnętrzna źródła. Nic nie wskazuje, że źródło jest niepewne.",
-     "pulapka": "inna-kategoria"
-    }
-   ],
-   "scenariusz": "Raport o czasach dojazdu jest dokładny i aktualny. Ma jednak 90 stron, a dowódca zmiany potrzebuje z niego jednej liczby przed odprawą."
-  },
-  {
-   "id": "q-zap-en-07-informacja-2",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-18"
-   ],
-   "bloom": "rozumienie",
-   "trudnosc": 2,
-   "tresc": "Czym jest średni czas dojazdu w cyklu informacji COBIT 5?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 81
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Danymi",
-     "poprawna": false,
-     "wyjasnienie": "Danymi są pojedyncze zapisy godzin wyjazdów. Średnia powstała z ich przetworzenia.",
-     "pulapka": "odwrocone"
-    },
-    {
-     "tekst": "Wiedzą",
-     "poprawna": false,
-     "wyjasnienie": "Wiedzą byłby wniosek z informacji, np. „w tej dzielnicy dojazd jest za długi”.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Informacją",
-     "poprawna": true,
-     "wyjasnienie": "Dane przekształcone w uporządkowane zestawienie to informacja. Cykl: dane → informacje → wiedza → wartość (s. 81)."
-    },
-    {
-     "tekst": "Wartością dla organizacji",
-     "poprawna": false,
-     "wyjasnienie": "Wartość powstaje dopiero z wykorzystania wiedzy, np. z decyzji o nowym posterunku.",
-     "pulapka": "falsz"
-    }
-   ],
-   "scenariusz": "Dyżurni zapisują godzinę każdego wyjazdu zastępu. Z tych zapisów powstaje średni czas dojazdu w każdej dzielnicy."
-  },
-  {
-   "id": "q-zap-en-08-uslugi-1",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-20"
-   ],
-   "bloom": "rozumienie",
-   "trudnosc": 1,
-   "tresc": "Które pryncypium architektury stosuje komenda?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 86
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Ponowne wykorzystanie",
-     "poprawna": false,
-     "wyjasnienie": "Ponowne wykorzystanie to korzystanie ze wspólnych komponentów. Tu chodzi o standard zapisu danych.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Zwinność",
-     "poprawna": false,
-     "wyjasnienie": "Zwinność to szybkie reagowanie na zmiany potrzeb. Opis dotyczy standardu wymiany danych.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Otwartość",
-     "poprawna": true,
-     "wyjasnienie": "Otwartość oznacza oparcie architektury na otwartych standardach branżowych (s. 86)."
-    },
-    {
-     "tekst": "Nabywanie zamiast budowania",
-     "poprawna": false,
-     "wyjasnienie": "To pryncypium mówi o kupowaniu gotowych rozwiązań. Tu wybiera się format, a nie zakup.",
-     "pulapka": "inna-kategoria"
-    }
-   ],
-   "scenariusz": "Komenda wybiera do Syreny powszechnie znany format zapisu danych. Odczyta go każdy system, także od innych dostawców, bez dopłat za licencję."
-  },
-  {
-   "id": "q-zap-en-08-uslugi-2",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-21"
-   ],
-   "bloom": "wiedza",
-   "trudnosc": 1,
-   "tresc": "Co według COBIT 5 tworzą razem infrastruktura, technologia i aplikacje?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 85
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Zdolność usługową, czyli zdolność do świadczenia usług",
-     "poprawna": true,
-     "wyjasnienie": "Usługi, infrastruktura i aplikacje dają organizacji przetwarzanie informacji i usługi IT (s. 85)."
-    },
-    {
-     "tekst": "Strukturę ramową, w której każda polityka ma swoje miejsce",
-     "poprawna": false,
-     "wyjasnienie": "Struktura ramowa należy do aktywatora Zasady, Polityki i Struktury ramowe.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Kaskadę celów",
-     "poprawna": false,
-     "wyjasnienie": "Kaskada celów przekłada potrzeby interesariuszy na cele. Nie tworzą jej systemy.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Model informacji",
-     "poprawna": false,
-     "wyjasnienie": "Model informacji opisuje cechy informacji, a nie sprzęt i programy.",
-     "pulapka": "inna-kategoria"
-    }
-   ]
-  },
-  {
-   "id": "q-zap-en-09-ludzie-1",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-23"
-   ],
-   "bloom": "wiedza",
-   "trudnosc": 1,
-   "tresc": "Do której domeny procesów należy kategoria umiejętności **zarządzanie pojemnością**?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 88
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Dopasowanie, planowanie i organizacja (APO)",
-     "poprawna": false,
-     "wyjasnienie": "APO to planowanie, np. portfel projektów i architektura korporacyjna.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Dostarczanie, obsługa i wsparcie (DSS)",
-     "poprawna": false,
-     "wyjasnienie": "DSS ma zarządzanie dostępnością. Pojemność i dostępność łatwo pomylić.",
-     "pulapka": "odwrocone"
-    },
-    {
-     "tekst": "Budowanie, nabywanie i wdrażanie (BAI)",
-     "poprawna": true,
-     "wyjasnienie": "Zarządzanie pojemnością to kategoria umiejętności domeny BAI (Ilustracja 39, s. 88)."
-    },
-    {
-     "tekst": "Monitorowanie, ocena i oszacowanie (MEA)",
-     "poprawna": false,
-     "wyjasnienie": "MEA to sprawdzanie, np. weryfikacja zgodności i audyt mechanizmów kontrolnych.",
-     "pulapka": "inna-kategoria"
-    }
-   ]
-  },
-  {
-   "id": "q-zap-en-09-ludzie-2",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-22"
-   ],
-   "bloom": "rozumienie",
-   "trudnosc": 2,
-   "tresc": "Który etap cyklu życia umiejętności opisuje ta sytuacja?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 87
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Pozbywanie się umiejętności",
-     "poprawna": false,
-     "wyjasnienie": "Żadna umiejętność tu nie przestaje być potrzebna.",
-     "pulapka": "falsz"
-    },
-    {
-     "tekst": "Pozyskiwanie umiejętności",
-     "poprawna": false,
-     "wyjasnienie": "Pozyskiwanie to np. rekrutacja nowych osób. Tu komenda sprawdza obecnych ludzi.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Wdrażanie ludzi w nowych rolach w komendzie",
-     "poprawna": false,
-     "wyjasnienie": "Wdrażanie to przydzielanie ludzi do ról. Tu chodzi o sprawdzenie, co umieją.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "Okresowa ocena bazy umiejętności",
-     "poprawna": true,
-     "wyjasnienie": "Okresowo, np. raz w roku, organizacja ocenia bazę umiejętności. Wyniki mogą trafić do planowania i do wynagradzania (s. 87)."
-    }
-   ],
-   "scenariusz": "Raz w roku komenda sprawdza, jakie umiejętności mają dyżurni. Wyniki trafiają do planu szkoleń i do systemu nagród."
-  }
- ]
+  ]
 }

@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kaskada celów w praktyce · COBIT 5</title>
+<script>try{var t=localStorage.getItem('c5.theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Fraunces:opsz,wght@9..144,560&display=swap">
+<link rel="stylesheet" href="podrecznik.css">
+</head>
+<body>
+<script>
+window.DECK={id:'02c-kaskada-praktyka',rozdzial:'Rozdział 2 · Zasada 1 · s. 20–22',tytul:'Kaskada celów w praktyce',prev:'02b-kaskada-schemat.html',next:'k-pr-kaskada-uzycie.html',
+T:{
+kas:{
+  t:'Kaskada celów',
+  eg:'Kaskada Celów',
+  pd:'Kaskada celów',
+  en:'Goals Cascade',
+  wyj:'Kaskada celów to mechanizm, który przekłada ogólne potrzeby interesariuszy na coraz bardziej konkretne cele: najpierw na cele organizacji, potem na cele związane z Informatyką, a na końcu na cele aktywatora (procesów, struktur, ludzi, informacji itd.). Działa jak rozpisanie hasła „chcemy zadowolonych klientów” na zadania, które konkretne zespoły mogą wykonać i zmierzyć.\n\nW praktyce kaskada odpowiada na pytanie „od czego zacząć?”. Pozwala ustalić priorytety wdrożenia, doskonalenia i audytu ładu IT na podstawie strategicznych celów organizacji i związanego z nimi ryzyka – zamiast wdrażać cały COBIT 5 naraz.\n\nKaskada należy do zasady 1 (Realizacja potrzeb interesariusza; w podręczniku: Spełnienie potrzeb interesariuszy). Jej tabele powiązań (załączniki B, C i D) to wskazówka, którą każda organizacja dopasowuje do siebie, a nie gotowy przepis.',
+  zycie:'Postanawiasz w tym roku „lepiej żyć”. Rozpisujesz to na cele: zdrowie, finanse, rodzina. Zdrowie rozpisujesz dalej na „3 treningi w tygodniu” i „badania okresowe do marca”, a do tego dobierasz narzędzia: karnet, aplikację, kalendarz – i w każdy wtorek wiesz, co robić.',
+  firma:'Sklep internetowy chce, żeby klienci wracali. Kaskada prowadzi od tej potrzeby do celu organizacji 7 (ciągłość i dostępność usług biznesowych), dalej do celów IT 04, 10 i 14 (wszystkie z oznaczeniem P w Załączniku B), a stamtąd do celów dla procesów, zespołu utrzymania platformy i informacji o zamówieniach. Dzięki temu informatyk wie, że jego cel „sklep dostępny 99,9% czasu” wynika wprost ze strategii.',
+  urzad:'Gmina chce sprawnie załatwiać sprawy mieszkańców przez internet. Kaskada zamienia to w cele gminy (usługi dostępne, mieszkaniec w centrum uwagi), potem w cele IT (system e-usług działa, dane są chronione), a na końcu w cele dla procedur, urzędników i danych: „wniosek o zaświadczenie rozpatrzony online w 3 dni”, „każdy urzędnik referatu podatkowego przeszkolony z obsługi platformy”.',
+  egz:'Kaskada służy do przełożenia potrzeb interesariuszy na konkretne cele i do ustalania priorytetów (wdrożenie, doskonalenie, audyt). Kolejność poziomów: potrzeby interesariuszy → cele organizacji → cele związane z Informatyką → cele aktywatora. Typowe złe odpowiedzi: „tabele kaskady stosuje się mechanicznie”, „kaskada to model oceny zdolności procesów”. Podręcznik mówi „przedsiębiorstwo” i „IT”, egzamin – „organizacja” i „Informatyka”.',
+  src:'FW-PL s. 17–21'
+},
+prio:{
+  t:'Priorytety',
+  eg:'Priorytety',
+  pd:'Priorytety',
+  en:'Priorities',
+  wyj:'Priorytet to decyzja, co robimy najpierw, a co może poczekać. COBIT 5 opisuje 37 procesów i siedem kategorii aktywatorów – żadna organizacja nie wdroży tego wszystkiego naraz, bo nie ma tyle ludzi, czasu ani pieniędzy.\n\nKaskada celów ustala priorytety na podstawie strategicznych celów organizacji i związanego z nimi ryzyka. Podręcznik wymienia trzy obszary, w których się to przydaje: wdrożenie, doskonalenie i audyt ładu IT.\n\nPriorytety nie są dane raz na zawsze – każda organizacja ustala je inaczej i mogą się zmieniać w czasie. Dlatego własną kaskadę warto co jakiś czas przejrzeć.',
+  zycie:'Remontujesz mieszkanie za ograniczoną kwotę. Najpierw cieknący dach i instalacja elektryczna, bo od nich zależy bezpieczeństwo, potem kuchnia, a nowe zasłony na końcu. Gdyby za rok pojawiło się dziecko, kolejność by się zmieniła – najpierw pokój dziecięcy.',
+  firma:'Bank ma w strategii „zero przestojów bankowości mobilnej”. Dlatego w tym roku najpierw usprawnia zarządzanie incydentami i ciągłością działania, a nowe funkcje aplikacji (np. spersonalizowane oferty) przesuwa na kolejny rok. Gdy nadzorca zapowie nowe wymogi, priorytety znów się przesuną.',
+  urzad:'Gmina ma budżet na jeden duży projekt informatyczny w roku. Najpierw uruchamia elektroniczne płatności podatków, bo tego najczęściej chcą mieszkańcy, a e-rezerwację sal gminnych przesuwa na przyszły rok. Rada gminy zatwierdza tę kolejność w planie wydatków.',
+  egz:'Kaskada ustala priorytety dla trzech obszarów: wdrożenia, doskonalenia i audytu (ang. implementation, improvement, assurance). Podstawą są strategiczne cele organizacji i związane z nimi ryzyko – nie upodobania działu IT ani cena narzędzi. Pułapka: „kaskada wymaga wdrożenia wszystkich procesów COBIT 5” – nieprawda.',
+  src:'FW-PL s. 20'
+},
+audyt:{
+  t:'Audyt (zapewnienie)',
+  eg:'Audyt',
+  pd:'Audyt',
+  en:'Assurance / Audit',
+  wyj:'Audyt to niezależne sprawdzenie, czy coś działa tak, jak powinno – czy procesy są przestrzegane, zabezpieczenia skuteczne, a cele osiągane. Audytor nie wykonuje pracy, tylko ją ocenia i daje kierownictwu pewność (stąd angielskie „assurance” – zapewnienie, upewnienie; wiedza ogólna).\n\nKaskada celów pomaga zaplanować audyt: zamiast sprawdzać wszystko po trochu, audytor wybiera obszary najważniejsze dla celów organizacji i najbardziej ryzykowne. Podręcznik wymienia audyt obok wdrożenia i doskonalenia jako trzeci obszar, dla którego kaskada ustala priorytety.\n\nAudyt może być wewnętrzny (dział w organizacji) albo zewnętrzny (firma audytorska, organ kontroli) – na Ilustracji 7 są to odpowiednio interesariusze wewnętrzni i zewnętrzni.',
+  zycie:'Przed kupnem używanego samochodu zabierasz go do niezależnego mechanika. Nie naprawia auta – sprawdza i mówi, co jest w porządku, a co budzi wątpliwości. Ma ograniczony czas, więc zaczyna od hamulców i silnika, a nie od radia.',
+  firma:'Audyt wewnętrzny szpitala ma w planie 30 dni na IT. Ponieważ strategia stawia na bezpieczeństwo pacjentów, sprawdza najpierw dostępność systemu dokumentacji medycznej i kopie zapasowe, a nie system rezerwacji parkingu. Raport z zaleceniami trafia do dyrektora szpitala.',
+  urzad:'Audytor wewnętrzny starostwa planuje roczny program audytów. Najpierw sprawdza system rejestracji pojazdów i ochronę danych w nim, bo od tego zależy najwięcej spraw mieszkańców. Niezależnie od niego kontrolę zewnętrzną może przeprowadzić NIK (Najwyższa Izba Kontroli).',
+  egz:'„Assurance” tłumaczy się jako zapewnienie lub audyt (wiedza ogólna); kaskada ustala priorytety także dla audytu, nie tylko dla wdrożenia. Audyt wewnętrzny to interesariusz wewnętrzny, audytorzy zewnętrzni – zewnętrzny (Ilustracja 7). Na egzaminie łatwo pomylić te dwie grupy.',
+  src:'FW-PL s. 20, 22 (Ilustracja 7)'
+},
+cele:{
+  t:'Cele organizacji',
+  eg:'Cele organizacji',
+  pd:'Cele przedsiębiorstwa',
+  en:'Enterprise Goals',
+  wyj:'Cele organizacji to 17 typowych celów, które może mieć każda firma czy urząd – np. 4 „zgodność z przepisami prawa i regulacjami”, 6 „kultura usług zorientowanych na klienta”, 7 „ciągłość i dostępność usług biznesowych”. Są ułożone według czterech wymiarów zrównoważonej karty wyników (BSC – Balanced Scorecard): finanse, klient, obszar wewnętrzny, szkolenie i rozwój.\n\nTo pierwszy poziom kaskady po potrzebach interesariuszy. Organizacja nie musi traktować wszystkich 17 jednakowo – podręcznik podaje jako przykład nadanie im wag zgodnie ze strategią.\n\nFirma, dla której najważniejsze jest zadowolenie klientów, podnosi priorytet celów 6, 7 i 8 (przykład 1); firma stawiająca na zrównoważony rozwój – celów 1, 4, 8, 16 i 17 (przykład 2).',
+  zycie:'Rodzina siada w styczniu i ustala, co jest ważne w tym roku: oszczędności na wakacje, zdrowie, dobre oceny dzieci. Z długiej listy możliwych celów wybiera trzy i umawia się, że te są najważniejsze – reszta dostaje mniejszą wagę.',
+  firma:'Ubezpieczyciel uznaje za najważniejsze cel 4 (zgodność z przepisami – nowe wymogi nadzoru) i cel 6 (obsługa nastawiona na klienta – szybka likwidacja szkód). Cel 17 (kultura innowacji) dostaje niższą wagę, bo w tym roku firma nie wprowadza nowych produktów.',
+  urzad:'Ministerstwo przygotowujące nową e-usługę dla obywateli nadaje najwyższą wagę celom 4 (zgodność z przepisami) i 7 (ciągłość i dostępność usług). Cel 2 (portfel konkurencyjnych produktów i usług) ma dla niego niewielkie znaczenie, bo ministerstwo nie konkuruje na rynku.',
+  egz:'„Cele przedsiębiorstwa” w podręczniku = „cele organizacji” na egzaminie. Jest ich 17, ułożonych według 4 wymiarów BSC (Balanced Scorecard – zrównoważona karta wyników). Nie myl ich z trzema elementami celu Ładu (realizacja korzyści, optymalizacja ryzyka, optymalizacja zasobów).',
+  src:'FW-PL s. 18–21, Ilustracja 5'
+},
+celeit:{
+  t:'Cele związane z Informatyką',
+  eg:'Cele związane z Informatyką',
+  pd:'Cele związane z IT',
+  en:'IT-related Goals',
+  wyj:'Cele związane z Informatyką to 17 typowych celów opisujących, co IT musi zapewnić organizacji – np. 01 „zgodność IT z biznesowymi celami strategicznymi”, 04 „zarządzanie ryzykiem biznesowym związanym z IT”, 10 „bezpieczeństwo informacji, infrastruktury przetwarzania i aplikacji”. Ułożono je według karty wyników IT (IT BSC).\n\nTo trzeci poziom kaskady (krok 3): gdy organizacja wie, które swoje cele uważa za najważniejsze, Załącznik B podpowiada, które cele IT je wspierają. Z kolei cele IT wskazują, czego potrzeba od aktywatorów (krok 3 → krok 4; dla procesów – Załącznik C).\n\nTabela tylko podpowiada: w przykładzie 1 Załącznik B wskazał siedem celów IT, a firma uznała za priorytetowe tylko cztery z nich.',
+  zycie:'Chcesz zdrowiej żyć (cel ogólny). Co to oznacza dla Twojej kuchni? Lodówka z warzywami, piekarnik zamiast frytownicy, przepisy rozpisane na tydzień. To „cele kuchni” – służą celowi ogólnemu, ale same nim nie są.',
+  firma:'Szpital ma cel organizacji 7 „ciągłość i dostępność usług”. Załącznik B łączy go podstawowo (P) m.in. z celem IT 10 (bezpieczeństwo informacji i infrastruktury) oraz 14 (wiarygodna informacja do decyzji): system dokumentacji medycznej ma działać także w nocy, a dane pacjentów nie mogą wyciec.',
+  urzad:'Starostwo chce sprawnie wydawać prawa jazdy i rejestrować pojazdy. Jego cele IT to np.: system wydziału komunikacji zgodny z potrzebami urzędników (cel 07), dane kierowców chronione (cel 10), informatycy i urzędnicy z aktualnymi kompetencjami (cel 16).',
+  egz:'„Cele związane z IT” w podręczniku = „cele związane z Informatyką” na egzaminie. To trzeci poziom kaskady, krok 3 (między celami organizacji a celami aktywatorów). Powiązanie z celami organizacji – Załącznik B; z procesami – Załącznik C (krok 3 → krok 4). Cele IT mają numery dwucyfrowe (01–17), cele organizacji – 1–17.',
+  src:'FW-PL s. 18–21, Ilustracja 6'
+},
+akt:{
+  t:'Aktywatory',
+  eg:'Aktywatory',
+  pd:'Czynniki umożliwiające',
+  en:'Enablers',
+  wyj:'Aktywatory to wszystko, czym organizacja faktycznie osiąga swoje cele. COBIT 5 wyróżnia siedem kategorii: zasady, polityki i struktury ramowe; procesy; struktury organizacyjne; kulturę, etykę i zachowania; informację; usługi, infrastrukturę i aplikacje; ludzi, umiejętności i kompetencje.\n\nTo ostatni poziom kaskady: wybrane cele związane z Informatyką przekłada się na cele dla aktywatorów. Podręcznik podkreśla, że same procesy nie wystarczą – kultura, struktury i umiejętności również potrzebują jasnych celów.\n\nNa końcu dobrze użytej kaskady każdy aktywator ma swój cel i miernik, a każdy zespół widzi, jak jego praca wspiera cele organizacji.',
+  zycie:'Chcesz nauczyć się pływać. Potrzebujesz „procesu” (plan zajęć), „struktury” (instruktor i grupa), „informacji” (godziny otwarcia basenu), „infrastruktury” (basen, okularki), „umiejętności” (podstawy techniki), a także „kultury” – motywacji, żeby nie odpuszczać. Brak któregokolwiek spowalnia naukę.',
+  firma:'Bank chce lepiej chronić dane klientów. Ustala cele nie tylko dla procesu zarządzania bezpieczeństwem, ale też dla polityki haseł (zatwierdzona do marca), struktury (komitet bezpieczeństwa zbiera się co miesiąc), ludzi (szkolenie dla 100% pracowników) i kultury (pracownicy zgłaszają podejrzane maile bez obawy przed karą).',
+  urzad:'Gmina wdraża e-usługi. Cele aktywatora: procedura obsługi e-wniosków spisana i znana (proces), zespół ds. e-usług powołany zarządzeniem wójta (struktura), urzędnicy przeszkoleni do końca kwartału (ludzie), platforma dostępna w godzinach pracy urzędu i wieczorem (infrastruktura).',
+  egz:'„Aktywator” (egzamin) = „czynnik umożliwiający” (podręcznik) = „enabler” (EN). Jest 7 kategorii. Pułapka: „wystarczy wdrożyć procesy z Załącznika C” – podręcznik wprost mówi, że same procesy nie wystarczą.',
+  src:'FW-PL s. 18, 21, 27'
+},
+ps:{
+  t:'P i S',
+  eg:'P – podstawowa · S – wspierająca',
+  pd:'P · S',
+  en:'Primary · Secondary',
+  wyj:'W tabelach kaskady (Załączniki B i C) powiązania oznacza się dwiema literami: P – związek podstawowy (ang. primary), gdy jeden cel bardzo mocno wspiera drugi, oraz S – związek wspierający (ang. secondary), gdy wsparcie jest wyraźne, ale słabsze. Puste pole oznacza brak typowego powiązania.\n\nPodręcznik wskazuje ograniczenie tej skali: tylko dwa poziomy sugerują, że istotność łatwo podzielić na dwie kategorie, a w rzeczywistości powiązania tworzą płynne continuum. To jeden z trzech powodów, dla których tabel nie stosuje się mechanicznie.\n\nW przykładzie 1 firma dostała z tabeli cele IT powiązane literą P z celami 6, 7 i 8 – a potem i tak sama zdecydowała, że priorytetem będą tylko cztery z nich.',
+  zycie:'Ocena potraw w skali „lubię / bardzo lubię” jest wygodna, ale uboga – między „trochę lubię” a „uwielbiam” jest wiele odcieni. Planując menu na wesele, i tak dopytujesz gości, zamiast liczyć tylko na dwa stopnie.',
+  firma:'Sklep internetowy widzi w Załączniku B, że cel IT 10 (bezpieczeństwo) ma P z jego celem 7 (ciągłość i dostępność usług). Ponieważ obsługuje płatności kartami, uznaje to powiązanie za ważniejsze niż inne P – i nadaje mu najwyższą wagę.',
+  urzad:'Mała gmina widzi w tabeli powiązanie S między celem IT 17 (wiedza i inicjatywy w zakresie innowacji) a jednym ze swoich celów. Uznaje je za mało istotne w tym roku i świadomie pomija – bo P i S to wskazówka, nie obowiązek.',
+  egz:'P = primary (podstawowe), S = secondary (wspierające). P nie oznacza „obowiązkowe” ani kolejności wdrażania. Uwaga: w skali ocen atrybutów procesu litery znaczą co innego – na egzaminie PL P = Pełny (najwyższa ocena), a „częściowy” to C; w podręczniku (s. 45) i po angielsku P = częściowo osiągnięto (Partially). Dwa poziomy P/S to jeden z trzech powodów, dla których tabele są tylko wskazówką.',
+  src:'FW-PL s. 18, 20, 49–50'
+},
+zalB:{
+  t:'Załącznik B',
+  eg:'Załącznik B',
+  pd:'Załącznik B',
+  en:'Appendix B',
+  wyj:'Załącznik B to tabela 17 × 17 (Ilustracja 22), która pokazuje, które cele związane z Informatyką wspierają które cele organizacji. W kolumnach są cele organizacji, w wierszach cele IT, a na przecięciu litera P (powiązanie podstawowe) albo S (wspierające).\n\nKorzysta się z niej w kroku 3 kaskady (cele organizacji → cele związane z Informatyką): organizacja wybiera swoje najważniejsze cele, czyta odpowiednie kolumny i dostaje listę kandydatów na cele IT. W przykładzie 1 dla celów 6, 7 i 8 tabela podsunęła siedem celów IT z oznaczeniem P.\n\nTo sugestia, nie wyrok: organizacja weryfikuje listę pod swoją sytuację i wybiera to, co dla niej naprawdę ważne.',
+  zycie:'Dietetyk daje Ci tabelę: „chcesz schudnąć – ruch, sen, mniej cukru; chcesz mieć więcej energii – sen, śniadania, nawodnienie”. Szukasz kolumny ze swoim celem i widzisz, co go wspiera. Ale to Ty decydujesz, od czego zaczniesz.',
+  firma:'Ubezpieczyciel wybrał cel 6 (kultura usług zorientowanych na klienta). W kolumnie 6 Załącznika B widzi P przy celach IT 01 i 07 oraz S przy kilku innych. Zarząd wybiera na najbliższy rok te dwa cele IT i jeden z oznaczeniem S, który uważa za ważny przy likwidacji szkód online.',
+  urzad:'Ministerstwo wybrało cel 4 (zgodność z przepisami). W Załączniku B widzi, że podstawowo (P) wspierają go cele IT 02 (zgodność IT z przepisami prawa i regulacjami) oraz 10 (bezpieczeństwo informacji). Powiązania weryfikuje jeszcze pod kątem własnych ustaw i rozporządzeń.',
+  egz:'Załącznik B: cele organizacji ↔ cele związane z Informatyką (Ilustracja 22, s. 50). Załącznik C: cele IT ↔ procesy (Ilustracja 23). Załącznik D: pytania interesariuszy ↔ cele organizacji (Ilustracja 24). Na egzaminie łatwo zamienić te załączniki.',
+  src:'FW-PL s. 49–50'
+},
+zalC:{
+  t:'Załącznik C',
+  eg:'Załącznik C',
+  pd:'Załącznik C',
+  en:'Appendix C',
+  wyj:'Załącznik C (Ilustracja 23) to tabela pokazująca, które z 37 procesów COBIT 5 wspierają które cele związane z Informatyką – znów z oznaczeniami P i S. Pozwala znaleźć procesy najważniejsze dla wybranych celów IT.\n\nTo kolejny krok kaskady w przykładzie 1: po wybraniu celów IT 01, 04, 07 i 09 firma szuka w Załączniku C procesów, które je wspierają. Podręcznik od razu dodaje, że same procesy nie wystarczą – pozostałe aktywatory też potrzebują celów.\n\nPodobnie jak inne tabele kaskady, Załącznik C jest sugestią typowych powiązań, którą trzeba dopasować do własnej organizacji.',
+  zycie:'Masz cel „sprawny samochód”. Tabela w instrukcji mówi, które czynności serwisowe go wspierają: wymiana oleju, przegląd hamulców, kontrola opon. Ale samochód jest sprawny także dzięki kierowcy, który rozsądnie jeździ – a o tym tabela czynności nic nie mówi.',
+  firma:'Bank wybrał cel IT 10 (bezpieczeństwo informacji). W Załączniku C znajduje procesy z oznaczeniem P, m.in. APO12 „Zarządzanie ryzykiem” i APO13 „Zarządzanie bezpieczeństwem”. Dodatkowo ustala cele dla polityki bezpieczeństwa i szkoleń – bo procesy to tylko jeden z aktywatorów.',
+  urzad:'Gmina wybrała cel IT 07 (dostarczanie usług IT zgodnie z wymogami). Załącznik C wskazuje jej m.in. procesy APO08 „Zarządzanie relacjami” i APO09 „Zarządzanie umowami o świadczenie usług” (oba P). Kierownik informatyki zaczyna od spisania, jakie godziny dostępności e-usług gmina obiecuje mieszkańcom.',
+  egz:'Załącznik C = cele związane z Informatyką ↔ procesy COBIT 5 (Ilustracja 23). Pułapka: „po Załączniku C kaskada jest zakończona” – nie, cele dostają też pozostałe aktywatory (kultura, struktury, umiejętności itd.).',
+  src:'FW-PL s. 19, 21, 51–53'
+},
+zalD:{
+  t:'Załącznik D',
+  eg:'Załącznik D',
+  pd:'Załącznik D',
+  en:'Appendix D',
+  wyj:'Załącznik D (Ilustracja 24) łączy typowe pytania interesariuszy z Ilustracji 7 z 17 celami organizacji. Na przecięciu wiersza (pytanie) i kolumny (cel) pole jest wypełnione, jeśli daną potrzebę należy uwzględnić przy tym celu.\n\nDzięki temu pytania stają się wejściem do kaskady. Na przykład „Czy informacje, które przetwarzam, są dobrze zabezpieczone?” wskazuje cele organizacji 3, 4, 7 i 15, a dalej postępuje się jak zwykle – przez Załącznik B i C.\n\nPodręcznik zastrzega, że tę tabelę stosuje się z taką samą ostrożnością jak inne tabele kaskady: to sugerowany typowy zbiór relacji, a nie mechaniczny przepis.',
+  zycie:'Lekarz słyszy pytanie pacjenta „dlaczego tak szybko się męczę?” i ma w głowie tabelę: to może dotyczyć serca, płuc, krwi albo snu. Pytanie nie jest diagnozą, ale wskazuje, gdzie szukać dalej.',
+  firma:'Dyrektor szpitala pyta: „Jak dużą rolę odgrywa IT w utrzymaniu funkcjonowania szpitala? Co robić, gdy IT jest niedostępne?”. Załącznik D łączy to pytanie m.in. z celem 7 (ciągłość i dostępność usług). Szpital zaczyna kaskadę od tego celu i dochodzi do planów awaryjnych dla systemu dokumentacji medycznej.',
+  urzad:'Sekretarz gminy pyta: „Jak mogę sprawdzić, czy przestrzegamy wszystkich obowiązujących regulacji?”. Załącznik D łączy to pytanie z celami 4 (zgodność z przepisami prawa i regulacjami) i 15 (zgodność z politykami wewnętrznymi). Od nich gmina zaczyna dalsze kroki kaskady.',
+  egz:'Załącznik D = pytania (potrzeby) interesariuszy ↔ cele organizacji. Kolejność użycia tabel: D (pytanie → cele organizacji), potem B (cele organizacji → cele IT), potem C (cele IT → procesy). Pytania interesariuszy to dane wejściowe kaskady, a nie jej wynik.',
+  src:'FW-PL s. 22, 55–56 (Ilustracja 24)'
+},
+mier:{
+  t:'Mierniki',
+  eg:'Mierniki',
+  pd:'Mierniki',
+  en:'Metrics',
+  wyj:'Miernik to liczba, po której poznajesz, czy cel jest osiągany – np. „odsetek zgłoszeń rozwiązanych w 4 godziny” albo „liczba godzin przestoju systemu w miesiącu”. Bez miernika cel pozostaje deklaracją, której nie da się sprawdzić.\n\nPodręcznik opisuje efekt dobrze użytej kaskady: organizacja ma spójne cele dla wszystkich aktywatorów oraz komplet powiązanych mierników do pomiaru sprawności. Jedną z trzech korzyści kaskady jest właśnie definiowanie istotnych i wymiernych celów na różnych poziomach odpowiedzialności.\n\nMierniki łączą poziomy kaskady: jeśli pogarsza się miernik procesu, widać, który cel IT, a dalej który cel organizacji jest zagrożony.',
+  zycie:'Chcesz „więcej się ruszać”. Dopóki nie wiesz, ile, nie wiesz, czy się udaje. Gdy ustalisz „8000 kroków dziennie” i patrzysz na licznik w telefonie, każdego wieczoru wiesz, na czym stoisz.',
+  firma:'Sklep internetowy mierzy: dostępność platformy (cel 99,9% w miesiącu), czas obsługi reklamacji (średnio poniżej 48 godzin) i odsetek pracowników po szkoleniu z bezpieczeństwa (100% do końca kwartału). Każdy z tych mierników jest przypisany do konkretnego aktywatora.',
+  urzad:'Starostwo mierzy: odsetek wniosków o rejestrację pojazdu złożonych online (cel 40%), średni czas oczekiwania na decyzję (poniżej 3 dni) i liczbę godzin niedostępności systemu w miesiącu (poniżej 2). Wyniki trafiają co kwartał do starosty.',
+  egz:'Wynik dobrze użytej kaskady (przykład 1): spójne cele dla wszystkich aktywatorów + komplet mierników do pomiaru sprawności. Korzyść kaskady: „definiuje istotne i wymierne cele na różnych poziomach odpowiedzialności”.',
+  src:'FW-PL s. 20–21'
+},
+zrr:{
+  t:'Zrównoważony rozwój',
+  eg:'Zrównoważony rozwój',
+  pd:'Zrównoważony rozwój',
+  en:'Sustainability',
+  wyj:'Zrównoważony rozwój w COBIT 5 nie oznacza wyłącznie ekologii. Podręcznik mówi, że obejmuje nie tylko aspekty środowiskowe, lecz wszystkie elementy składające się na długoterminowy sukces organizacji.\n\nW przykładzie 2 firma po analizie potrzeb interesariuszy uznaje zrównoważony rozwój za priorytet strategiczny i wybiera pięć celów organizacji: 1 (wartość inwestycji dla interesariuszy, szczególnie dla społeczności), 4 (zgodność z przepisami, zwłaszcza środowiskowymi i dotyczącymi warunków zatrudnienia przy outsourcingu), 8 (zwinność), 16 (wykwalifikowany i zmotywowany personel) i 17 (kultura innowacji).\n\nDalej kaskada działa tak samo jak w przykładzie 1 – inny priorytet daje po prostu inne cele startowe.',
+  zycie:'Ogrodnik, który myśli długofalowo, nie tylko podlewa rośliny, ale dba o glebę, sadzi drzewa, które dadzą owoce za 10 lat, i uczy dzieci, jak przejąć ogród. Liczy się nie tylko tegoroczny plon.',
+  firma:'Ubezpieczyciel stawiający na zrównoważony rozwój sprawdza, czy firma obsługująca jego infolinię przestrzega prawa pracy (cel 4), inwestuje w szkolenia likwidatorów szkód (cel 16) i co roku testuje nowe produkty, np. polisy dla właścicieli instalacji fotowoltaicznych (cel 17).',
+  urzad:'Gmina planuje cyfryzację tak, by służyła przez lata, a nie tylko do końca kadencji: wybiera rozwiązania zgodne z przepisami (cel 4), szkoli własnych urzędników zamiast polegać na jednym zewnętrznym informatyku (cel 16) i przy zakupach sprzętu bierze pod uwagę zużycie energii.',
+  egz:'Przykład 2: zrównoważony rozwój → cele organizacji 1, 4, 8, 16, 17. Pułapka: „zrównoważony rozwój = tylko ochrona środowiska” – podręcznik wprost to wyklucza. Nie myl z przykładem 1 (zadowolenie klientów → cele 6, 7, 8).',
+  src:'FW-PL s. 21'
+},
+wew:{
+  t:'Interesariusze wewnętrzni',
+  eg:'Interesariusze wewnętrzni',
+  pd:'Interesariusze wewnętrzni',
+  en:'Internal stakeholders',
+  wyj:'Interesariusze wewnętrzni to osoby i grupy działające wewnątrz organizacji, którym zależy na tym, jak działa IT. Ilustracja 7 wymienia m.in.: zarząd, dyrektora generalnego (CEO – Chief Executive Officer), dyrektora ds. finansowych (CFO – Chief Financial Officer), dyrektora ds. informatyki (CIO – Chief Information Officer), dyrektora ds. ryzyka (CRO – Chief Risk Officer), naczelne kierownictwo, właścicieli procesów biznesowych, kierowników (obszarów biznesowych, ryzyka, bezpieczeństwa, usług, HR – zasobów ludzkich, IT), audyt wewnętrzny, dyrektorów ds. prywatności i użytkowników IT.\n\nZadają pytania takie jak: „Jak kontrolować koszty IT?”, „Czy uwzględniłem całe ryzyko związane z IT?”, „Czy informacje, które przetwarzam, są dobrze zabezpieczone?”.\n\nTe pytania to wejście do kaskady – Załącznik D wiąże je z celami organizacji.',
+  zycie:'W domu „interesariuszami” domowego budżetu są domownicy: jeden pyta, ile kosztuje internet, drugi – czy wystarczy na wakacje, trzeci – dlaczego wi-fi nie działa w jego pokoju. Każdy patrzy z innej strony, ale wszyscy są „w środku”.',
+  firma:'W banku dyrektor ds. finansowych (CFO) pyta o koszty utrzymania systemów, dyrektor ds. ryzyka (CRO) – czy uwzględniono całe ryzyko IT, a audyt wewnętrzny – jak zapewnić audyt IT. Kasjerka w oddziale, jako użytkownik IT, pyta, czy system działa wystarczająco szybko przy kolejce klientów.',
+  urzad:'W gminie interesariuszami wewnętrznymi są wójt (odpowiednik CEO), skarbnik (odpowiednik CFO), sekretarz gminy, kierownik informatyki, kierownicy referatów, audytor wewnętrzny i urzędnicy korzystający z systemów. Te odpowiedniki stanowisk to ilustracja kursu, nie lista z podręcznika.',
+  egz:'Audyt wewnętrzny jest interesariuszem wewnętrznym, a udziałowcy – zewnętrznym (Ilustracja 7). Rozwinięcia: CEO – Chief Executive Officer (dyrektor generalny), CFO – Chief Financial Officer (dyrektor ds. finansowych), CIO – Chief Information Officer (dyrektor ds. informatyki), CRO – Chief Risk Officer (dyrektor ds. ryzyka). Zarząd też jest interesariuszem wewnętrznym.',
+  src:'FW-PL s. 22, Ilustracja 7'
+},
+zew:{
+  t:'Interesariusze zewnętrzni',
+  eg:'Interesariusze zewnętrzni',
+  pd:'Interesariusze zewnętrzni',
+  en:'External stakeholders',
+  wyj:'Interesariusze zewnętrzni to osoby i instytucje spoza organizacji, którym zależy na tym, jak organizacja korzysta z IT. Ilustracja 7 wymienia: partnerów biznesowych, dostawców, udziałowców, organy nadzorcze i rządowe, użytkowników zewnętrznych, klientów, organizacje normalizacyjne, audytorów zewnętrznych i konsultantów.\n\nIch pytania dotyczą głównie zaufania: „Skąd wiadomo, że przedsiębiorstwo przestrzega obowiązujących przepisów?”, „Czy utrzymuje efektywny system kontroli wewnętrznej?”, „Czy działalność mojego partnera biznesowego jest chroniona i wiarygodna?”.\n\nUdziałowcy są na tej liście, choć są właścicielami – nie kierują organizacją od środka, tylko oczekują od niej wartości.',
+  zycie:'Gdy wynajmujesz mieszkanie, właściciel nie mieszka z Tobą, ale pyta: czy płacisz na czas, czy nic nie jest zniszczone. Sąsiedzi pytają o hałas, a zarządca budynku – o przestrzeganie regulaminu. Wszyscy są „na zewnątrz”, ale mają swoje oczekiwania.',
+  firma:'Sklep internetowy pytają: klienci – czy dane ich kart są bezpieczne, operator płatności (partner biznesowy) – czy sklep spełnia standard bezpieczeństwa kart, a audytor zewnętrzny badający sprawozdanie finansowe – czy działa kontrola wewnętrzna. Udziałowcy pytają, czy inwestycje w IT przynoszą wartość.',
+  urzad:'Wobec gminy interesariuszami zewnętrznymi są mieszkańcy (użytkownicy e-usług), dostawca systemu podatkowego, wojewoda i RIO (regionalna izba obrachunkowa) jako organy nadzorcze oraz NIK (Najwyższa Izba Kontroli). RIO pyta np., czy wydatki na informatykę są zgodne z budżetem i przepisami.',
+  egz:'Zewnętrzni wg Ilustracji 7: partnerzy biznesowi, dostawcy, udziałowcy, organy nadzorcze/rządowe, użytkownicy zewnętrzni, klienci, organizacje normalizacyjne, audytorzy zewnętrzni, konsultanci. Pułapki: „udziałowcy są wewnętrzni” – błąd; „audyt wewnętrzny jest zewnętrzny, bo jest niezależny” – błąd.',
+  src:'FW-PL s. 22, Ilustracja 7'
+}
+},
+S:[
+{pt:'Część 1 · Po co jest kaskada',h:'Kaskada mówi, od czego zacząć',b:'<p>COBIT 5 jest ogromny – nikt nie wdraża wszystkiego naraz.</p><p><w k="kas">Kaskada celów</w> pomaga ustalić <w k="prio">priorytety</w>: co wdrożyć, co poprawić i co sprawdzić w <w k="audyt">audycie</w> najpierw.</p><p>Podstawą są strategiczne <w k="cele">cele organizacji</w> i związane z nimi ryzyko.</p>',c:'Najpierw to, co najważniejsze dla celów organizacji.',s:'COBIT 5 Framework (PL), s. 20. Przykłady z urzędu – kursu.',ctx:'<p>Poprzednia część pokazała schemat kaskady – od potrzeb interesariuszy do celów aktywatora. Tu pytanie jest praktyczne: po co ją w ogóle rozpisywać? Podręcznik odpowiada jednym zdaniem: kaskada pozwala ustalić <w k="prio">priorytety</w> wdrożenia, doskonalenia i <w k="audyt">audytu</w> <span class="en">implementation, improvement and assurance</span> ładu IT.</p><p>Przykład: ubezpieczyciel ma budżet na dwa projekty IT w roku. Zamiast zaczynać od tego, co najbardziej interesuje informatyków, sprawdza, które <w k="cele">cele organizacji</w> są w strategii najważniejsze i gdzie ryzyko jest największe – i od tego zaczyna.</p><p>Pułapka egzaminacyjna: kaskada nie jest modelem oceny zdolności procesów ani listą wszystkiego do wdrożenia. To narzędzie wyboru. Podręcznik pisze o „(strategicznych) celach” – punktem wyjścia jest strategia i ryzyko, a nie technologia.</p>'},
+{pt:'Część 1 · Po co jest kaskada',h:'Trzy korzyści w praktyce',b:'<div class="cards"><div><b>1. Mierzalne cele</b>Na każdym poziomie odpowiedzialności: zarząd, dział, zespół. Np. „95% zgłoszeń w 4 godziny” (<w k="mier">mierniki</w>).</div><div><b>2. Filtr</b>Z całej bazy wiedzy COBIT 5 wybierasz tylko to, co potrzebne w danym projekcie wdrożenia, doskonalenia czy audytu.</div><div><b>3. Jasny związek</b>Każdy widzi, jak jego praca – <w k="akt">aktywator</w> – pomaga celom organizacji.</div></div>',c:'Kaskada porządkuje, filtruje i pokazuje sens działań.',s:'COBIT 5 Framework (PL), s. 20. Przykłady z urzędu – kursu.',ctx:'<p>Trzy korzyści wynikają z jednego mechanizmu: każdy poziom kaskady wywodzi się z poziomu wyżej, więc cele tworzą łańcuch. Dzięki temu można je mierzyć na każdym szczeblu (<w k="mier">mierniki</w>), wybrać z COBIT 5 tylko potrzebną część i pokazać ludziom, po co robią to, co robią.</p><p>Przykład: szpital wdraża nowy system rejestracji pacjentów. Filtr sprawia, że zespół projektu czyta tylko wytyczne związane z celami szpitala, np. z ciągłością usług, zamiast całej bazy wiedzy. Jasny związek sprawia, że rejestratorka wie, iż jej szkolenie (<w k="akt">aktywator</w> „ludzie, umiejętności i kompetencje”) służy krótszym kolejkom.</p><p>Na egzaminie korzyści bywają mieszane z obietnicami, których podręcznik nie składa – np. automatycznymi gwarancjami czy oceną dojrzałości. Zapamiętaj trzy hasła: mierzalne cele, filtr, komunikowanie związku aktywatorów z celami.</p>'},
+{pt:'Sprawdź się', quiz:{
+  kontekst:'Zarząd banku zatwierdził wdrożenie COBIT 5, ale dział IT ma w tym roku tylko 4 wolne etaty. Dyrektor ds. informatyki (CIO – Chief Information Officer) pyta, czy kaskada celów w czymś tu pomoże.',
+  tresc:'Do czego <b>przede wszystkim</b> posłuży bankowi kaskada celów w tej sytuacji?',
+  opcje:[
+    {t:'Do oceny poziomu zdolności wszystkich 37 procesów', w:'Skala 0–5 to poziomy zdolności procesu z modelu zdolności procesu (rozdział 8, s. 42); ocenia się je według modelu oceny procesów (PAM), a nie kaskady celów. Bank i tak nie ma ludzi, by badać wszystko naraz.'},
+    {t:'Do ustalenia, co wdrożyć, poprawić i zbadać w audycie najpierw', ok:true, w:'Podręcznik: kaskada pozwala zdefiniować priorytety wdrożenia, doskonalenia i audytu na podstawie celów strategicznych i związanego z nimi ryzyka – dokładnie tego potrzebuje bank z ograniczonymi zasobami.'},
+    {t:'Do przypisania ról i odpowiedzialności w macierzy RACI dla każdego procesu', w:'Macierze RACI są częścią opisu procesów, a nie zadaniem kaskady celów.'},
+    {t:'Do zastąpienia analizy ryzyka gotową listą z tabel COBIT 5', w:'Kaskada uwzględnia ryzyko, ale go nie analizuje za organizację, a jej tabel nie traktuje się jako gotowej listy.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 20. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Pytanie dotyczy tego, po co według podręcznika istnieje kaskada celów (s. 20, pierwszy akapit części „Korzyści”). Zestaw to z sytuacją banku, który ma mało ludzi, a dużo możliwych działań.',k:['kas','cele']}
+}},
+{pt:'Sprawdź się', quiz:{
+  tresc:'Która z poniższych NIE jest jedną z trzech praktycznych korzyści kaskady celów wymienionych w podręczniku?',
+  opcje:[
+    {t:'Definiuje istotne i wymierne cele na różnych poziomach odpowiedzialności', w:'To pierwsza korzyść – mierzalne cele dla zarządu, działów i zespołów.'},
+    {t:'Filtruje bazę wiedzy COBIT 5, by znaleźć wytyczne do konkretnych projektów', w:'To druga korzyść – z całego COBIT 5 wybierasz to, co potrzebne we wdrożeniu, doskonaleniu czy audycie.'},
+    {t:'Pokazuje i komunikuje, jak aktywatory pomagają osiągnąć cele organizacji', w:'To trzecia korzyść – każdy widzi związek swojej pracy z celami organizacji.'},
+    {t:'Gwarantuje zgodność z przepisami bez dalszej analizy', ok:true, w:'Kaskada niczego nie gwarantuje automatycznie – to narzędzie do ustalania priorytetów, które trzeba dopasować do organizacji. Zgodność z przepisami to tylko jeden z 17 celów organizacji (cel 4).'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 20. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Podręcznik (s. 20) wymienia dokładnie trzy praktyczne korzyści kaskady. Przypomnij je sobie i porównaj każdą opcję z tą listą – szukasz tej, której na liście nie ma.',k:['kas','mier','akt']}
+}},
+{pt:'Sprawdź się', quiz:{
+  kontekst:'Audytor wewnętrzny starostwa ma 20 dni na audyt informatyki. Nie chce sprawdzać wszystkiego po trochu – wybiera z COBIT 5 tylko te praktyki, które wiążą się z najważniejszymi celami starostwa: sprawną rejestracją pojazdów i ochroną danych.',
+  tresc:'Z której korzyści kaskady celów korzysta audytor?',
+  opcje:[
+    {t:'Z filtrowania bazy wiedzy COBIT 5', ok:true, w:'Tak: na podstawie celów organizacji kaskada zawęża COBIT 5 do wytycznych potrzebnych w konkretnym projekcie – tu w audycie.'},
+    {t:'Z definiowania mierzalnych celów na różnych poziomach odpowiedzialności', w:'To inna korzyść – dotyczy ustalania celów i mierników dla zarządu, działów i zespołów, a nie wyboru zakresu audytu.'},
+    {t:'Z komunikowania, jak aktywatory wspierają cele organizacji', w:'Ta korzyść pokazuje ludziom sens ich pracy. Audytor niczego tu nie komunikuje – zawęża zakres badania.'},
+    {t:'Z oceny dojrzałości ładu w skali od 0 do 5', w:'Skala 0–5 to poziomy zdolności procesu z modelu zdolności procesu (rozdział 8, s. 42), a nie korzyść kaskady.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 20. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Pytanie dotyczy trzech praktycznych korzyści kaskady (s. 20). Zastanów się, jaki problem audytora rozwiązuje kaskada w opisanej sytuacji i która z korzyści opisuje właśnie to.',k:['kas','audyt']}
+}},
+{pt:'Część 2 · Jak jej używać',h:'To wskazówka, nie gotowy przepis',b:'<p>Tabele powiązań to „wspólny mianownik” – typowe zależności oparte na badaniach (Antwerp Management School). Podręcznik: nie zawierają <b>uniwersalnej prawdy</b> i nie stosuje się ich mechanicznie. Trzy powody:</p><div class="cards"><div><b>Priorytety</b>Każda organizacja ma inne i zmieniają się w czasie.</div><div><b>Skala i branża</b>Tabela nie wie, czy jesteś bankiem, czy małą gminą.</div><div><b>Tylko P i S</b>Dwa stopnie (<w k="ps">P/S</w>), a w życiu powiązania są płynne – to continuum.</div></div>',c:'Nie używaj tabel mechanicznie.',s:'COBIT 5 Framework (PL), s. 20 (wraz z przypisem 3). Przykłady z urzędu – kursu.',ctx:'<p>Tabele kaskady (<w k="zalB">Załącznik B</w>, <w k="zalC">Załącznik C</w>) oparto na badaniach Antwerp Management School (IT Alignment and Governance Institute w Belgii) oraz na opiniach ekspertów. Są więc uśrednieniem dla wszystkich organizacji – i właśnie dlatego żadnej konkretnej nie opisują dokładnie.</p><p>Przykład: mała gmina i duży bank widzą w tej samej kolumnie te same litery <w k="ps">P i S</w>. Dla banku bezpieczeństwo informacji (cel IT 10) jest sprawą kluczową dla zaufania klientów, dla gminy – ważną, ale równie pilne są proste e-usługi dla mieszkańców. Tabela tej różnicy nie widzi.</p><p>To zastrzeżenie prowadzi wprost do następnego slajdu: skoro tabela nie jest uniwersalną prawdą, pierwszym krokiem musi być jej dopasowanie. Na egzaminie zła jest odpowiedź „stosuj tabele mechanicznie”, ale zła jest też skrajność odwrotna – „odrzuć tabele”.</p>'},
+{pt:'Sprawdź się', quiz:{
+  tresc:'Podręcznik podaje powody, dla których tabele mapowania kaskady należy traktować jako wskazówkę. Który powód NIE jest wśród nich?',
+  opcje:[
+    {t:'Każda organizacja inaczej ustala priorytety celów, a te zmieniają się w czasie', w:'To pierwszy powód z podręcznika.'},
+    {t:'Tabele nie uwzględniają wielkości organizacji ani branży, w której działa', w:'To drugi powód – tabele są „wspólnym mianownikiem” dla wszystkich.'},
+    {t:'Tabele opracowano tylko dla banków i administracji publicznej', ok:true, w:'Jest odwrotnie: tabele są ogólne i właśnie dlatego nie biorą pod uwagę branży. Ten powód jest wymyślony.'},
+    {t:'Dwa poziomy P/S sugerują wyraźny podział, a powiązania tworzą raczej continuum', w:'To trzeci powód – skala P/S upraszcza płynne stopnie powiązania.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 20. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Podręcznik (s. 20, część „Właściwe korzystanie z kaskady celów”) podaje trzy powody, dla których tabel nie stosuje się mechanicznie. Przypomnij je sobie i sprawdź, która opcja do nich nie należy.',k:['kas','ps']}
+}},
+{pt:'Sprawdź się', quiz:{
+  kontekst:'Konsultant w firmie ubezpieczeniowej proponuje: „Bierzemy Załącznik B, każde pole P to obowiązkowy projekt, a pola S dorzucimy, jeśli zostanie budżet. Nie ma co analizować – tabela pochodzi z badań”.',
+  tresc:'Która reakcja jest najbardziej zgodna z COBIT 5?',
+  opcje:[
+    {t:'Najpierw dopasować mapowanie do własnej sytuacji', ok:true, w:'Podręcznik: pierwszą czynnością jest zawsze dostosowanie mapowania do konkretnej sytuacji – organizacja tworzy własną kaskadę, porównuje ją z COBIT i dopracowuje.'},
+    {t:'Zgodzić się, bo oznaczenie P oznacza powiązanie obowiązkowe', w:'P to powiązanie podstawowe (primary), a nie obowiązek. Tabele nie zawierają uniwersalnej prawdy i nie stosuje się ich mechanicznie.'},
+    {t:'Zrezygnować z kaskady, skoro tabele nie są uniwersalną prawdą', w:'Za daleko: tabele są cenną wskazówką – trzeba je dopasować, a nie odrzucać.'},
+    {t:'Wdrożyć wszystkie pola P i S jednocześnie, żeby niczego nie pominąć', w:'To zaprzecza idei kaskady, która służy ustalaniu priorytetów, a nie wdrażaniu wszystkiego naraz.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 20. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Pytanie dotyczy części „Właściwe” i „Praktyczne wykorzystanie kaskady celów” (s. 20). Przypomnij sobie, jak podręcznik każe traktować tabele mapowania i co naprawdę oznaczają litery P i S.',k:['zalB','ps','kas']}
+}},
+{pt:'Część 2 · Jak jej używać',h:'Najpierw dopasuj, potem korzystaj',b:'<p>Pierwsza czynność – <b>zawsze</b>: dostosuj mapowanie do swojej sytuacji. Podręcznik podaje przykłady:</p><p>1. <b>Nadaj wagi</b> <w k="cele">celom organizacji</w> według priorytetów strategicznych.</p><p>2. <b>Zweryfikuj powiązania</b> pod swoje środowisko i branżę.</p><p>Innymi słowy: <b>zbuduj własną kaskadę</b>, porównaj ją z COBIT 5 i dopracuj.</p>',c:'Każda organizacja ma własną kaskadę.',s:'COBIT 5 Framework (PL), s. 20. Przykłady z urzędu – kursu.',ctx:'<p>Dopasowanie nie jest formalnością – wynika wprost z trzech zastrzeżeń z poprzedniego slajdu. Podręcznik ujmuje to tak: każda organizacja opracowuje własną kaskadę, porównuje ją z COBIT 5 i dopracowuje szczegóły.</p><p>Przykład: starostwo nadaje wagi swoim <w k="cele">celom organizacji</w>. Cel 4 (zgodność z przepisami prawa i regulacjami) i cel 7 (ciągłość i dostępność usług biznesowych) dostają wagę 3, a cel 2 (portfel konkurencyjnych produktów i usług) – wagę 1, bo urząd nie konkuruje na rynku. Potem sprawdza, czy powiązania z <w k="zalB">Załącznika B</w> pasują do specyfiki administracji. Skala wag 1–3 to pomysł kursu, nie podręcznika.</p><p>Typowe nieporozumienie: „dopasować” nie znaczy „przebudować kaskadę”. Poziomy zostają te same, zmieniają się wagi i powiązania. Kolejne slajdy pokazują to na przykładzie 1 z podręcznika.</p>'},
+{pt:'Sprawdź się', quiz:{
+  tresc:'Co według podręcznika organizacja powinna zrobić <b>zawsze jako pierwsze</b>, gdy korzysta z kaskady celów?',
+  opcje:[
+    {t:'Wdrożyć procesy oznaczone literą P w Załączniku C', w:'Procesy pojawiają się dopiero na końcu kaskady – i nie jako mechaniczna lista do wdrożenia.'},
+    {t:'Dostosować mapowanie do swojej sytuacji', ok:true, w:'Tak: dopasowanie mapowania do konkretnej sytuacji to pierwszy krok. Organizacja tworzy własną kaskadę, porównuje ją z COBIT i dopracowuje.'},
+    {t:'Przeprowadzić ocenę zdolności wszystkich procesów COBIT 5', w:'Ocena zdolności procesów to osobne narzędzie. Skala 0–5 to poziomy zdolności procesu z modelu zdolności procesu (rozdział 8, s. 42), a nie pierwszy krok kaskady.'},
+    {t:'Nadać wszystkim 17 celom organizacji jednakową wagę', w:'Przeciwnie: podręcznik proponuje nadać celom różne wagi według priorytetów strategicznych.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 20. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Szukaj w części „Praktyczne wykorzystanie kaskady celów COBIT 5” na s. 20 – podręcznik używa tam słowa „zawsze”.',k:['kas','cele']}
+}},
+{pt:'Sprawdź się', quiz:{
+  tresc:'Które działania podręcznik podaje jako przykłady dopasowania kaskady celów do organizacji?<br>1. Przełożenie priorytetów strategicznych na „wagę” każdego celu organizacji<br>2. Weryfikacja mapowania z uwzględnieniem środowiska i branży<br>3. Pominięcie poziomu celów związanych z Informatyką, by skrócić kaskadę<br>4. Zastąpienie oznaczeń P i S jedną wspólną kategorią',
+  opcje:[
+    {t:'1 i 3', w:'Działanie 1 jest w podręczniku, ale 3 nie – poziomu celów związanych z Informatyką się nie pomija, to część kaskady.'},
+    {t:'2 i 4', w:'Działanie 2 jest w podręczniku, ale 4 nie – podręcznik krytykuje dwa poziomy P/S jako uproszczenie, ale nie każe łączyć ich w jedną kategorię.'},
+    {t:'1 i 2', ok:true, w:'Tak: nadanie celom wag oraz weryfikacja mapowania pod środowisko i branżę to dwa przykłady z s. 20.'},
+    {t:'3 i 4', w:'Oba działania są wymyślone – podręcznik ich nie proponuje.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 20. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Na s. 20, po słowach „Przedsiębiorstwo może na przykład zdecydować się na”, podręcznik podaje przykłady dopasowania kaskady. Porównaj z nimi każde z czterech działań.',k:['cele','kas']}
+}},
+{pt:'Część 3 · Przykład 1 z podręcznika',h:'Krok 1: najważniejsze jest zadowolenie klientów',b:'<p>Firma wybiera z 17 <w k="cele">celów organizacji</w> te, które wiążą się z zadowoleniem klientów:</p><div class="chips"><span><span class="no">6</span>Kultura usług zorientowanych na klienta<span class="en">Customer-oriented service culture</span></span><span><span class="no">7</span>Ciągłość i dostępność usług biznesowych<span class="en">Business service continuity and availability</span></span><span><span class="no">8</span>Zwinność w reagowaniu na zmiany otoczenia<span class="en">Agile responses to a changing business environment</span></span></div><p>W urzędzie byłoby podobnie: priorytet „zadowolenie mieszkańców”.</p>',c:'Strategia → wybrane cele organizacji.',s:'COBIT 5 Framework (PL), s. 21, przykład 1. Przykłady z urzędu – kursu.',ctx:'<p>Przykład 1 zaczyna się od strategii: firma ma kilka celów strategicznych, a najważniejszy to zwiększenie zadowolenia klientów. Chce wiedzieć, które aspekty IT wymagają poprawy. Pierwszy krok to przełożenie tego priorytetu na <w k="cele">cele organizacji</w> z listy 17 (Ilustracja 5).</p><p>Wszystkie trzy wybrane cele należą do wymiaru „klient” zrównoważonej karty wyników (BSC – Balanced Scorecard). Zadowolenie klientów to nie tylko uprzejma obsługa (6), lecz także to, czy usługa w ogóle działa (7) i czy firma szybko reaguje na zmiany (8).</p><p>Przykład: sklep internetowy po fali skarg na awarie w okresie świątecznym wybiera te same trzy cele – szybka obsługa reklamacji nie pomoże, jeśli strona nie działa w szczycie zakupów. Następny krok: sprawdzić w <w k="zalB">Załączniku B</w>, które cele IT je wspierają.</p>'},
+{pt:'Część 3 · Przykład 1 z podręcznika',h:'Krok 2: tabela podpowiada cele IT',b:'<p>Podpowiedź daje <w k="zalB">Załącznik B</w><span class="en">Appendix B: Detailed Mapping Enterprise Goals – IT-related Goals</span></p><p>Wskazuje <w k="celeit">cele związane z Informatyką</w> powiązane podstawowo (P) z celami 6, 7 i 8:</p><div class="chips"><span><span class="no">01</span>IT zgodne ze strategią<span class="en">Alignment of IT and business strategy</span></span><span><span class="no">04</span>Ryzyko biznesowe związane z IT<span class="en">Managed IT-related business risk</span></span><span><span class="no">07</span>Usługi IT zgodne z wymogami<span class="en">Delivery of IT services in line with business requirements</span></span><span><span class="no">09</span>Zwinność IT<span class="en">IT agility</span></span><span class="off"><span class="no">10</span>Bezpieczeństwo<span class="en">Security of information, processing infrastructure and applications</span></span><span class="off"><span class="no">14</span>Informacje do decyzji<span class="en">Availability of reliable and useful information for decision making</span></span><span class="off"><span class="no">17</span>Innowacje<span class="en">Knowledge, expertise and initiatives for business innovation</span></span></div><p>Firma weryfikuje listę i <b>sama decyduje</b>: priorytetem są tylko pierwsze cztery.</p><a class="go" href="02b-kaskada-schemat.html">Sprawdź cele 6, 7, 8 w schemacie →</a>',c:'Tabela podpowiada, organizacja wybiera.',s:'COBIT 5 Framework (PL), s. 21, 50. Przykłady z urzędu – kursu.',ctx:'<p>Tu widać, po co było ostrzeżenie o „wspólnym mianowniku”. <w k="zalB">Załącznik B</w> podsunął siedem <w k="celeit">celów związanych z Informatyką</w>, wszystkie z oznaczeniem P – a firma i tak wybrała cztery. Podręcznik nie wyjaśnia, dlaczego akurat te; ważne jest samo zachowanie: tabela podpowiada, organizacja decyduje.</p><p>Tabelę można czytać kolumnami. Przykład 7 z Załącznika B pokazuje, że cel organizacji 7 (ciągłość i dostępność usług) zależy przede wszystkim od celów IT 04, 10 i 14. Szpital, dla którego dostępność systemu dokumentacji medycznej jest kluczowa, mógłby więc zostawić na liście cel 10 (bezpieczeństwo) – inna organizacja, inny wybór (ilustracja kursu).</p><p>Pułapka: P nie znaczy „obowiązkowe”, a odrzucenie celu z P nie jest błędem metodycznym. Uwaga też na numery: cele IT zapisuje się dwucyfrowo (01–17), cele organizacji – 1–17.</p>'},
+{pt:'Część 3 · Przykład 1 z podręcznika',h:'Krok 3: cele IT → aktywatory',b:'<p>Procesy wspierające wybrane cele IT wskazuje <w k="zalC">Załącznik C</w><span class="en">Appendix C: Detailed Mapping IT-related Goals – IT-related Processes</span></p><p>Ale <b>same procesy nie wystarczą</b>. Jasne cele dostają też kultura, etyka i zachowanie, struktury organizacyjne, umiejętności i kompetencje oraz pozostałe <w k="akt">aktywatory</w>.</p><p>Efekt: spójne cele dla wszystkich aktywatorów i komplet <w k="mier">mierników</w> sprawności.</p>',c:'Na końcu każdy aktywator ma cel i miernik.',s:'COBIT 5 Framework (PL), s. 21. Przykłady z urzędu – kursu.',ctx:'<p>Trzeci krok domyka kaskadę: wybrane <w k="celeit">cele związane z Informatyką</w> (01, 04, 07, 09) przekłada się na Cele aktywatora. <w k="zalC">Załącznik C</w> pomaga tylko w części – mapuje cele IT na procesy COBIT 5. Cele dla pozostałych kategorii <w k="akt">aktywatorów</w> organizacja ustala sama, zgodnie z koncepcją aktywatora z rozdziału 5.</p><p>Przykład: bank wybrał cel IT 04 (zarządzanie ryzykiem biznesowym związanym z IT). Oprócz celu dla procesu zarządzania ryzykiem ustala cel dla struktury („komitet ryzyka omawia ryzyko IT co kwartał”), dla ludzi („analitycy ryzyka przeszkoleni z ryzyka IT”) i dla kultury („pracownicy zgłaszają incydenty bez obawy przed karą”). Do każdego dobiera <w k="mier">miernik</w>.</p><p>Typowy błąd na egzaminie: uznać, że kaskada kończy się na liście procesów. Podręcznik mówi wprost, że same procesy nie wystarczą – efektem są spójne cele dla wszystkich aktywatorów i komplet mierników sprawności.</p>'},
+{pt:'Sprawdź się', quiz:{
+  kontekst:'Sklep internetowy po rozmowach z interesariuszami uznał, że jego najważniejszym celem strategicznym jest zwiększenie zadowolenia klientów – tak jak firma z przykładu 1 w podręczniku.',
+  tresc:'Które cele organizacji sklep powinien – według przykładu 1 – potraktować priorytetowo?',
+  opcje:[
+    {t:'1, 4, 8, 16 i 17', w:'To zestaw z przykładu 2 – zrównoważony rozwój.'},
+    {t:'3, 7 i 15', w:'Cele 3 (zarządzane ryzyko biznesowe) i 15 (zgodność z politykami wewnętrznymi) Załącznik D łączy np. z pytaniem o zabezpieczenie informacji – nie z zadowoleniem klientów.'},
+    {t:'6, 7 i 9', w:'Cel 9 (świadome podejmowanie decyzji strategicznych na podstawie informacji) nie należy do przykładu 1 – trzecim celem jest 8, zwinność.'},
+    {t:'6, 7 i 8', ok:true, w:'Tak: 6 kultura usług zorientowanych na klienta, 7 ciągłość i dostępność usług biznesowych, 8 zwinność w reagowaniu na zmieniające się otoczenie biznesowe.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 21, przykład 1. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Pytanie odwołuje się do przykładu 1 z s. 21 (zadowolenie klientów). Przypomnij sobie, priorytet których z 17 celów organizacji firma z tego przykładu podnosi.',k:['cele','kas']}
+}},
+{pt:'Sprawdź się', quiz:{
+  tresc:'W przykładzie 1 Załącznik B wskazał siedem celów związanych z Informatyką z oznaczeniem P (01, 04, 07, 09, 10, 14, 17). Co firma zrobiła z tą listą?',
+  opcje:[
+    {t:'Zweryfikowała ją i za priorytet uznała pierwsze cztery cele', ok:true, w:'Tak: 01, 04, 07 i 09. To pokazuje, że tabela podpowiada, a organizacja wybiera.'},
+    {t:'Wdrożyła wszystkie siedem, bo każde P jest wiążące', w:'P nie jest wiążące – firma sama zawęziła listę do czterech celów.'},
+    {t:'Dodała jeszcze wszystkie cele oznaczone literą S', w:'Przeciwnie – firma listę zawęziła, a nie poszerzyła.'},
+    {t:'Przekazała ją do Załącznika D, by znaleźć procesy', w:'Procesy wskazuje Załącznik C. Załącznik D łączy pytania interesariuszy z celami organizacji.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 21, przykład 1. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Pytanie dotyczy drugiego kroku przykładu 1 (s. 21): co dzieje się z listą celów związanych z Informatyką podsuniętą przez Załącznik B. Przypomnij sobie, czy tabele kaskady są wiążące.',k:['zalB','celeit','ps']}
+}},
+{pt:'Sprawdź się', quiz:{
+  tresc:'Uzupełnij zdanie opisujące przykład 1: „Załącznik C pozwala wskazać procesy wspierające cele związane z Informatyką. Same [?] jednak nie wystarczą – kultura, struktury organizacyjne oraz umiejętności także wymagają jasnych celów”.',
+  opcje:[
+    {t:'mierniki', w:'Mierniki są efektem kaskady, ale zdanie mówi o tym, co daje Załącznik C – o procesach.'},
+    {t:'polityki', w:'Polityki to inny aktywator; Załącznik C mapuje cele IT na procesy.'},
+    {t:'procesy', ok:true, w:'Tak: podręcznik podkreśla, że same procesy nie wystarczą – cele dostają wszystkie aktywatory.'},
+    {t:'cele organizacji', w:'Cele organizacji to wcześniejszy poziom kaskady, a nie wynik Załącznika C.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 21, przykład 1. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Zdanie pochodzi z opisu trzeciego kroku przykładu 1 (s. 21). Zastanów się, którego rodzaju aktywatora dotyczy Załącznik C i przed czym podręcznik ostrzega w tym miejscu.',k:['zalC','akt']}
+}},
+{pt:'Część 3 · Przykład 2 z podręcznika',h:'Inny priorytet: zrównoważony rozwój',b:'<p>Inna firma po analizie potrzeb interesariuszy stawia na <w k="zrr">zrównoważony rozwój</w> – nie tylko ekologię, ale wszystko, co składa się na długoterminowy sukces. Wybiera cele:</p><div class="chips"><span><span class="no">1</span>Wartość inwestycji dla interesariuszy<span class="en">Stakeholder value of business investments</span></span><span><span class="no">4</span>Zgodność z przepisami (też środowiskowymi)<span class="en">Compliance with external laws and regulations</span></span><span><span class="no">8</span>Zwinność<span class="en">Agile responses to a changing business environment</span></span><span><span class="no">16</span>Wykwalifikowany i zmotywowany personel<span class="en">Skilled and motivated people</span></span><span><span class="no">17</span>Kultura innowacji<span class="en">Product and business innovation culture</span></span></div><p>Dalej kaskada działa tak samo jak w przykładzie 1.</p>',c:'Inny priorytet → inne cele → inna kaskada.',s:'COBIT 5 Framework (PL), s. 21, przykład 2. Przykłady z urzędu – kursu.',ctx:'<p>Przykład 2 pokazuje, że kaskada nie ma jednego „właściwego” zestawu celów. Tym razem punktem wyjścia jest analiza potrzeb interesariuszy, z której wynika priorytet strategiczny: <w k="zrr">zrównoważony rozwój</w>. Dalej mechanizm jest ten sam co w przykładzie 1.</p><p>Wybrane cele należą do różnych wymiarów karty wyników: finanse (1, 4), klient (8), szkolenie i rozwój (16, 17). Podręcznik doprecyzowuje je pod ten priorytet: cel 1 – szczególnie wartość dla społeczności interesariuszy, cel 4 – zwłaszcza przepisy środowiskowe i warunki zatrudnienia w umowach outsourcingowych.</p><p>Przykład: bank sprawdza, czy firma prowadząca jego infolinię przestrzega prawa pracy (cel 4), i inwestuje w rozwój własnych analityków (cel 16). Pułapka: kojarzenie zrównoważonego rozwoju wyłącznie z ekologią – podręcznik wprost to wyklucza.</p>'},
+{pt:'Sprawdź się', quiz:{
+  kontekst:'Zarząd ubezpieczyciela po analizie potrzeb interesariuszy ogłasza: „Naszym priorytetem strategicznym jest zrównoważony rozwój”. Jeden z członków zarządu dodaje: „Czyli zajmujemy się tylko ekologią”.',
+  tresc:'Które stwierdzenie jest zgodne z przykładem 2 z podręcznika?',
+  opcje:[
+    {t:'Członek zarządu ma rację – wystarczy cel 4 i przepisy środowiskowe', w:'Podręcznik mówi wprost, że zrównoważony rozwój obejmuje nie tylko aspekty środowiskowe.'},
+    {t:'Chodzi o długoterminowy sukces; firma wybiera cele 1, 4, 8, 16 i 17', ok:true, w:'Tak: zrównoważony rozwój to wszystkie elementy długoterminowego sukcesu, a w przykładzie 2 firma skupia się na pięciu celach: 1, 4, 8, 16 i 17.'},
+    {t:'Firma powinna wybrać cele 6, 7 i 8, bo to standardowy zestaw kaskady', w:'To zestaw z przykładu 1 (zadowolenie klientów). Nie ma jednego „standardowego” zestawu – inny priorytet daje inne cele.'},
+    {t:'Zrównoważony rozwój wymaga osobnej metody, bo kaskada COBIT 5 go nie obejmuje', w:'Podręcznik pisze, że przy tych priorytetach kaskadę stosuje się dalej tak, jak opisano w tekście.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 21, przykład 2. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Pytanie dotyczy przykładu 2 z s. 21. Przypomnij sobie, jak podręcznik rozumie zrównoważony rozwój i które cele organizacji firma wybiera w tym przykładzie.',k:['zrr','cele']}
+}},
+{pt:'Część 4 · Ilustracja 7',h:'Kto zadaje pytania o IT?',b:'<div class="cards"><div><b>Wewnątrz</b><w k="wew">Interesariusze wewnętrzni</w><span class="en">Internal stakeholders</span>Zarząd, dyrektor generalny (CEO), dyrektor ds. finansowych (CFO), dyrektor ds. informatyki (CIO), dyrektor ds. ryzyka (CRO), naczelne kierownictwo, właściciele procesów biznesowych, kierownicy (obszaru biznesowego, ryzyka, bezpieczeństwa, usług, HR – zasobów ludzkich, IT), audyt wewnętrzny, dyrektorzy ds. prywatności, użytkownicy IT.<span class="en">Board, Chief Executive Officer (CEO), Chief Financial Officer (CFO), Chief Information Officer (CIO), Chief Risk Officer (CRO), business executives, business process owners, business managers, risk managers, security managers, service managers, HR managers, internal audit, privacy officers, IT users, IT managers</span></div><div><b>Na zewnątrz</b><w k="zew">Interesariusze zewnętrzni</w><span class="en">External stakeholders</span>Partnerzy biznesowi, dostawcy, udziałowcy, organy nadzorcze/rządowe, użytkownicy zewnętrzni, klienci, organizacje normalizacyjne, audytorzy zewnętrzni, konsultanci.<span class="en">Business partners, suppliers, shareholders, regulators/government, external users, customers, standardisation organisations, external auditors, consultants</span></div></div><p>Ilustracja 7 zbiera ich typowe pytania o Ład i Zarządzanie IT (w podręczniku: nadzór).<span class="en">Figure 7: Governance and Management Questions on IT</span></p>',c:'Pytania pokazują, czego interesariusze potrzebują.',s:'COBIT 5 Framework (PL), s. 22, Ilustracja 7. Przykłady z urzędu – kursu.',ctx:'<p>Ilustracja 7 odpowiada na pytanie, skąd biorą się potrzeby interesariuszy, od których zaczyna się kaskada. Podręcznik zauważa, że przy dużym uzależnieniu od IT spełnienie tych potrzeb wymaga odpowiedzi na szereg pytań o Ład i Zarządzanie IT (w podręczniku: nadzór) <span class="en">governance and management of IT</span>.</p><p>Najprościej zapamiętać podział tak: <w k="wew">wewnętrzni</w> działają w organizacji, <w k="zew">zewnętrzni</w> – poza nią. Niezależność ani własność nie mają tu znaczenia: audyt wewnętrzny jest po stronie wewnętrznej, a udziałowcy – po zewnętrznej. Obie listy kończą się słowem „itd.”, więc nie są zamknięte.</p><p>Przykład: w ministerstwie interesariuszami wewnętrznymi są m.in. kierownictwo resortu, dyrektor departamentu informatyki i komórka audytu wewnętrznego, a zewnętrznymi – obywatele korzystający z e-usług, dostawcy systemów i NIK (Najwyższa Izba Kontroli). To przypisanie jest ilustracją kursu.</p>'},
+{pt:'Część 4 · Ilustracja 7',h:'Przykłady pytań',b:'<div class="cards"><div><b>Prezes / wójt</b>„W jaki sposób uzyskuje się wartość z korzystania z IT?”</div><div><b>Dyrektor finansowy / skarbnik</b>„Jak kontrolować koszty IT?”</div><div><b>Dyrektor IT / kierownik informatyki</b>„Czy liczba pracowników odpowiedzialnych za IT jest wystarczająca?”</div><div><b>Organ nadzorczy / RIO</b>„Skąd wiadomo, że przedsiębiorstwo przestrzega obowiązujących przepisów i regulacji?”</div></div><p>Ilustracja 7 podaje pytania dla całych grup (wewnętrzni / zewnętrzni); przypisanie do osób to ilustracja kursu.</p>',c:'Każde pytanie da się powiązać z celami organizacji.',s:'COBIT 5 Framework (PL), s. 22, Ilustracja 7 (w skrócie). Przykłady z urzędu – kursu.',ctx:'<p>Pytania z Ilustracji 7 brzmią jak zwykłe wątpliwości z posiedzenia zarządu – i o to chodzi. Interesariusz nie mówi językiem COBIT 5; nie powie „potrzebuję celu IT 06”, tylko „jak kontrolować koszty IT?”. Zadaniem kaskady jest przełożenie takiego pytania na cele.</p><p>Pytania interesariuszy wewnętrznych dotyczą głównie wartości, kosztów, ryzyka, ludzi i sprawności IT. Cztery pytania interesariuszy zewnętrznych dotyczą zaufania: przestrzegania przepisów, kontroli wewnętrznej, wiarygodności partnera i kontroli łańcucha informacji między partnerami.</p><p>Przykład: w szpitalu dyrektor ds. finansowych pyta, czy wszystkie inwestycje IT są transparentne, a kierownik oddziału – co robić, gdy IT jest niedostępne. Przypisanie pytań do konkretnych stanowisk to uproszczenie kursu: na Ilustracji 7 pytania przypisano całym grupom. Następny slajd: jak pytanie zamienić na cele organizacji.</p>'},
+{pt:'Sprawdź się', quiz:{
+  tresc:'Która grupa składa się <b>wyłącznie</b> z interesariuszy wewnętrznych według Ilustracji 7?',
+  opcje:[
+    {t:'Zarząd, dyrektor ds. informatyki (CIO), udziałowcy', w:'Udziałowcy są na Ilustracji 7 wśród interesariuszy zewnętrznych. CIO – Chief Information Officer.'},
+    {t:'Audyt wewnętrzny, audytorzy zewnętrzni, kierownicy ds. ryzyka', w:'Audytorzy zewnętrzni to interesariusze zewnętrzni.'},
+    {t:'Dyrektor ds. finansowych (CFO), organy nadzorcze, użytkownicy IT', w:'Organy nadzorcze i rządowe to interesariusze zewnętrzni. CFO – Chief Financial Officer.'},
+    {t:'Audyt wewnętrzny, CRO, właściciele procesów biznesowych', ok:true, w:'Tak: wszyscy trzej są na liście interesariuszy wewnętrznych. CRO – Chief Risk Officer, dyrektor ds. ryzyka.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 22, Ilustracja 7. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Pytanie dotyczy Ilustracji 7 (s. 22). Sprawdź każdą osobę w każdej grupie – jeden interesariusz zewnętrzny wystarczy, by grupa nie spełniała warunku.',k:['wew','zew']}
+}},
+{pt:'Sprawdź się', quiz:{
+  kontekst:'Szpital przygotowuje listę interesariuszy na warsztat o IT. W kolumnie „zewnętrzni” wpisał: udziałowców spółki, organizację normalizacyjną, konsultantów i dział audytu wewnętrznego.',
+  tresc:'Który wpis NIE pasuje do kolumny „zewnętrzni” według Ilustracji 7?',
+  opcje:[
+    {t:'Dział audytu wewnętrznego', ok:true, w:'Audyt wewnętrzny to interesariusz wewnętrzny – działa w organizacji, choć jest niezależny od badanych obszarów.'},
+    {t:'Udziałowcy spółki', w:'Udziałowcy są na Ilustracji 7 wśród interesariuszy zewnętrznych – ten wpis jest poprawny.'},
+    {t:'Organizacja normalizacyjna', w:'Organizacje normalizacyjne są interesariuszami zewnętrznymi – wpis poprawny.'},
+    {t:'Konsultanci', w:'Konsultanci są na liście interesariuszy zewnętrznych – wpis poprawny.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 22, Ilustracja 7. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Porównaj każdy wpis z dwiema listami interesariuszy na Ilustracji 7 (s. 22): wewnętrznych i zewnętrznych.',k:['zew','wew']}
+}},
+{pt:'Część 4 · Ilustracja 7',h:'Pytania → wejście do kaskady',b:'<p>Wszystkie pytania z Ilustracji 7 da się powiązać z <w k="cele">celami organizacji</w> – są <b>danymi wejściowymi</b> kaskady.</p><p>Połączenia pokazuje <w k="zalD">Załącznik D</w><span class="en">Appendix D: Stakeholder Needs and Enterprise Goals</span></p><p>Przykład: pytanie „Czy informacje, które przetwarzam, są dobrze zabezpieczone?” łączy się z celami:</p><div class="chips"><span><span class="no">3</span>Zarządzane ryzyko biznesowe (ochrona zasobów)<span class="en">Managed business risk (safeguarding of assets)</span></span><span><span class="no">4</span>Zgodność z przepisami prawa i regulacjami<span class="en">Compliance with external laws and regulations</span></span><span><span class="no">7</span>Ciągłość i dostępność usług biznesowych<span class="en">Business service continuity and availability</span></span><span><span class="no">15</span>Zgodność z politykami wewnętrznymi<span class="en">Compliance with internal policies</span></span></div><p>Dalej kaskada działa jak zwykle: <b>D → B → C</b>.</p>',c:'Pytania → cele organizacji → cele IT → aktywatory.',s:'COBIT 5 Framework (PL), s. 22, 55–56 (Ilustracja 24). Przykłady z urzędu – kursu.',ctx:'<p>Ten slajd łączy dwie części rozdziału: pytania z Ilustracji 7 i kaskadę z przykładów 1 i 2. Pytanie interesariusza staje się pierwszym ogniwem łańcucha: <w k="zalD">Załącznik D</w> przekłada je na <w k="cele">cele organizacji</w>, <w k="zalB">Załącznik B</w> – na cele związane z Informatyką, a <w k="zalC">Załącznik C</w> – na procesy.</p><p>Jedno pytanie zwykle wskazuje kilka celów naraz. Przykład: kierownik referatu w urzędzie gminy pyta „Czy informacje, które przetwarzam, są dobrze zabezpieczone?”. Tabela łączy to nie tylko z ryzykiem (cel 3), ale też ze zgodnością z przepisami (4), ciągłością usług (7) i politykami wewnętrznymi (15).</p><p>Warto wiedzieć: według wstępu do Załącznika D Ilustracja 24 mapuje potrzeby interesariuszy <b>wewnętrznych</b>. Obowiązują też te same zastrzeżenia co przy innych tabelach – to sugerowany typowy zbiór relacji, a nie mechaniczny przepis.</p>'},
+{pt:'Sprawdź się', quiz:{
+  tresc:'Jaką rolę w kaskadzie celów pełnią pytania interesariuszy z Ilustracji 7?',
+  opcje:[
+    {t:'Są jej wynikiem – powstają po zdefiniowaniu celów aktywatorów', w:'Odwrotnie: pytania są na początku kaskady, a nie na jej końcu.'},
+    {t:'Zastępują cele organizacji, więc Załącznik B nie jest potrzebny', w:'Pytania wskazują cele organizacji (przez Załącznik D), ale ich nie zastępują – dalej korzysta się z Załącznika B.'},
+    {t:'Są danymi wejściowymi, powiązanymi z celami organizacji', ok:true, w:'Tak: wszystkie pytania z Ilustracji 7 można powiązać z celami organizacji i stanowią one dane wejściowe kaskady celów.'},
+    {t:'Służą wyłącznie do oceny zdolności procesów IT', w:'Pytania nie są narzędziem oceny procesów – wyrażają potrzeby interesariuszy.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 22. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Szukaj w akapicie „Jak można znaleźć odpowiedzi na te pytania?” pod Ilustracją 7 (s. 22). Przypomnij sobie też, w którym miejscu łańcucha kaskady stoją potrzeby interesariuszy.',k:['kas','zalD','cele']}
+}},
+{pt:'Sprawdź się', quiz:{
+  kontekst:'Skarbnik gminy pyta: „Ile wynosiła średnia wartość przekroczenia budżetów operacyjnych IT?”. Kierownik informatyki chce przejść od tego pytania do konkretnych procesów COBIT 5.',
+  tresc:'W jakiej kolejności powinien skorzystać z załączników podręcznika?',
+  opcje:[
+    {t:'B → C → D', w:'Załącznik B zaczyna od celów organizacji, których jeszcze nie ma – najpierw trzeba je wyznaczyć z pytania (Załącznik D).'},
+    {t:'D → B → C', ok:true, w:'Tak: D – pytanie → cele organizacji (tu 5 przejrzystość finansowa, 10 optymalizacja kosztów świadczenia usług, 12 optymalizacja kosztów procesów biznesowych, 14 wydajność pracowników i działań operacyjnych); B – cele organizacji → cele IT; C – cele IT → procesy.'},
+    {t:'C → B → D', w:'To kierunek odwrotny – od procesów do pytań. Tak można sprawdzać, czemu służy proces, ale nie zaczyna się od pytania interesariusza.'},
+    {t:'D → C → B', w:'Załącznik C wymaga celów związanych z Informatyką, które daje dopiero Załącznik B.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 22, 49–56. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Zastanów się, co jest na wejściu, a co na wyjściu każdego z trzech załączników. Kierownik zaczyna od pytania interesariusza, a chce dojść do procesów.',k:['zalD','zalB','zalC']}
+}},
+{pt:'Podsumowanie',h:'Na egzamin',b:'<p>• Kaskada służy do <b>ustalania priorytetów</b> wdrożenia, doskonalenia i audytu.</p><p>• Trzy korzyści: <b>mierzalne cele</b>, <b>filtr</b> COBIT 5, <b>jasny związek</b> aktywatorów z celami.</p><p>• Tabele kaskady to <b>wskazówka</b> – najpierw dopasuj je do siebie.</p><p>• Same procesy nie wystarczą – cele dostają <b>wszystkie aktywatory</b>.</p><p>• Pytania interesariuszy (Ilustracja 7) to <b>wejście</b> do kaskady; Załącznik D → B → C.</p>',c:'Zła odpowiedź na egzaminie: „tabele kaskady stosuje się mechanicznie”.',s:'COBIT 5 Framework (PL), s. 20–22, 55–56. Przykłady z urzędu – kursu.',ctx:'<p>Cała część układa się w jeden łańcuch: pytanie interesariusza → <w k="cele">cele organizacji</w> → <w k="celeit">cele związane z Informatyką</w> → Cele aktywatora z <w k="mier">miernikami</w>. Na każdym kroku tabela podpowiada, a organizacja decyduje i ustala <w k="prio">priorytety</w>.</p><p>Przykład na powtórkę: bank pyta „Czy informacje, które przetwarzam, są dobrze zabezpieczone?”. Załącznik D prowadzi m.in. do celu 7, Załącznik B – do celów IT, od których cel 7 zależy przede wszystkim (04, 10, 14), a Załącznik C – do procesów. Na końcu bank ustala cele także dla ludzi, struktur i kultury.</p><p>Najczęstsze pułapki z tej części: mechaniczne stosowanie tabel, mylenie Załączników B, C i D, zaliczanie udziałowców do interesariuszy wewnętrznych, utożsamianie zrównoważonego rozwoju z ekologią oraz przekonanie, że kaskada kończy się na procesach.</p>'}
+]};
+</script>
+<script src="sp1.local.js"></script>
+<script src="ilustracje/ilu.js"></script>
+<script src="deck.js"></script>
+</body>
+</html>

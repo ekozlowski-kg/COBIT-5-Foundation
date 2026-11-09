@@ -40,13 +40,13 @@
   "przyklady": {
     "zycie": "Rada rodziców w szkole spotyka się w pierwszy wtorek miesiąca. Ktoś zawsze pisze notatkę i rozsyła ją w grupie. Zebranie ma porządek obrad i trwa najwyżej godzinę. To zasady operacyjne tej rady.",
     "biuro": "Zespół projektowy w biurze ustala: odprawa w poniedziałki o 9, notatka z ustaleń w ciągu dnia, prowadzący zmienia się co tydzień. To zasady operacyjne zespołu.",
-    "organizacja": "Zarząd spółdzielni mleczarskiej zbiera się co dwa tygodnie. Każde zebranie ma prowadzącego, a kończy się protokołem z listą decyzji. To zasady operacyjne zarządu. Komisja do spraw zakupów w starostwie ma regulamin: posiedzenia raz w miesiącu, kworum trzech osób, protokół w ciągu trzech dni. Te ustalenia to zasady operacyjne komisji.",
-    "psp": "Komendantka Anna Wrzos powołuje w Modrzewiowie Radę ds. Informatyki. Pierwsze posiedzenie ustala: spotkania w pierwszy poniedziałek miesiąca, protokół pisze dyżurna Kasia Nowik i rozsyła go w 3 dni. Bez wpisu do protokołu decyzja się nie liczy. To zasady operacyjne Rady.",
+    "organizacja": "Zarząd spółdzielni mleczarskiej zbiera się co dwa tygodnie. Każde zebranie ma prowadzącego, a kończy się protokołem z listą decyzji. To zasady operacyjne zarządu.",
+    "admin": "Komisja do spraw zakupów w starostwie ma regulamin: posiedzenia raz w miesiącu, kworum trzech osób, protokół w ciągu trzech dni. Te ustalenia to zasady operacyjne komisji.",
     "it": "Komitet ds. strategii (wykonawczy IT) z il. 33 potrzebuje ustalonych terminów posiedzeń i rejestru decyzji. Bez tego nie widać, jak rozliczał portfele inwestycji IT."
   },
   "glebokosc": {
-    "prosty": "Grupa przyjaciół gra w planszówki w każdy czwartek o 19. Gospodarz się zmienia, a wyniki zapisują w zeszycie. Nikt nie musi pytać, kiedy i gdzie gramy. To zasady operacyjne grupy.",
-    "zaawansowany": "Rada ds. Informatyki komendy ma zasady operacyjne: zebrania co miesiąc, protokół w 3 dni. Na drugim zebraniu naczelnik Sikora proponuje, żeby Rada sama zatwierdzała zakupy sprzętu. To już nie zasada operacyjna, tylko [[poziom-uprawnien|poziom uprawnień]]. Komendantka przypomina, że mandat i zasady działania Rady wynikają z polityk komendy, czyli ze [[struktura-ramowa-polityki|struktury polityk]].",
+    "prosty": "Grupa przyjaciół gra w planszówki w każdy czwartek o 19. Co tydzień gra się u kogoś innego, a wyniki zapisują w zeszycie. Nikt nie musi pytać, kiedy i gdzie gramy. To zasady operacyjne grupy.",
+    "zaawansowany": "Komitet sterujący IT w banku ma zasady operacyjne: zebrania co miesiąc, protokół w 3 dni. Na drugim zebraniu dyrektor IT proponuje, żeby komitet sam zatwierdzał zakupy sprzętu. To już nie zasada operacyjna, tylko [[poziom-uprawnien|poziom uprawnień]]. Prezes przypomina, że mandat i zasady działania komitetu wynikają z polityk banku, czyli ze [[struktura-ramowa-polityki|struktury polityk]].",
     "skrajny": "Pytanie: „Rada ustaliła, że decyzje zapadają zwykłą większością głosów przy kworum trzech osób”. Czy to zasady operacyjne, czy poziom uprawnień? Kusi poziom uprawnień, bo mowa o decyzjach. Ale ustalenie mówi, JAK Rada podejmuje decyzje, a nie JAKIE decyzje wolno jej podjąć. To praktyczna reguła pracy zespołu, więc zasady operacyjne. Gdyby brzmiało „Rada zatwierdza zakupy do 30 tys. zł”, byłby to poziom uprawnień. **Rozstrzygnięcie:** zasady operacyjne opisują sposób pracy struktury (zebrania, dokumentacja, porządek). Rodzaj dozwolonych decyzji to poziom uprawnień (interpretacja kursu)."
   },
   "zagmatwania": [
@@ -72,7 +72,7 @@
   "nieMylicZ": [
     {
       "termin": "zasady-polityki-struktury",
-      "roznica": "Zasady w aktywatorze 1 to wartości organizacji (np. „bezpieczeństwo ratowników przede wszystkim”). Zasady operacyjne to reguły pracy jednego zespołu."
+      "roznica": "Zasady w aktywatorze 1 to wartości organizacji (np. „bezpieczeństwo danych klientów przede wszystkim”). Zasady operacyjne to reguły pracy jednego zespołu."
     },
     {
       "termin": "zakres-kontroli",

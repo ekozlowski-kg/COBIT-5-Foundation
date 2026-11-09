@@ -21,10 +21,10 @@ cat <<'TXT'
 TXT
 # Jeśli kurs już działa (np. drugi dwuklik), wystarczy otworzyć przeglądarkę.
 if curl -s -o /dev/null "http://localhost:$PORT/"; then
-  open "http://localhost:$PORT/"
+  open "http://localhost:$PORT/podrecznik/"
   echo "     Kurs był już uruchomiony – otworzyłem go w przeglądarce."
   echo "     To okno możesz zamknąć."
   exit 0
 fi
-( sleep 1; open "http://localhost:$PORT/" ) &
+( sleep 1; open "http://localhost:$PORT/podrecznik/" ) &
 exec python3 tools/serve.py --port "$PORT" >/dev/null 2>&1

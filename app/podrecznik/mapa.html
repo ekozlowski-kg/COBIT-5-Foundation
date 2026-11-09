@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mapa COBIT 5</title>
+<meta name="description" content="Interaktywny schemat całego COBIT 5: zasady, kaskada celów, Ład i role, 37 procesów, aktywatory, wdrożenie i model zdolności.">
+<script>try{var t=localStorage.getItem('c5.theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="podrecznik.css">
+<style>
+  .mtop{max-width:1400px;margin:0 auto 8px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .mtop h1{font-family:var(--f-display);font-weight:560;font-size:clamp(22px,2.6vw,28px);margin:0;flex:1;min-width:180px}
+  .mtop .back{font-size:14px;text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:6px 12px;color:var(--ink);background:var(--surface)}
+  .tabs{max-width:1400px;margin:0 auto 6px;display:flex;gap:6px;flex-wrap:wrap}
+  .tabs button{font:inherit;font-size:14px;cursor:pointer;border-radius:99px;padding:6px 13px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+  .tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  .tabs button:focus-visible,.node:focus-visible,.zoom button:focus-visible,.lv button:focus-visible,.rel:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+  .desc{max-width:1400px;margin:0 auto 10px;color:var(--muted);font-size:15px}
+  .mwrap{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:16px;align-items:start}
+  .stage{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:auto;-webkit-overflow-scrolling:touch}
+  .board{position:relative;transform-origin:0 0}
+  .zoom{position:sticky;left:8px;top:8px;z-index:3;display:inline-flex;gap:4px;margin:8px 0 -44px 8px}
+  .zoom button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:5px 10px;cursor:pointer}
+  .node{position:absolute;box-sizing:border-box;padding:4px 8px;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;cursor:pointer;border-radius:10px;
+    font:inherit;background:var(--nb);border:1px solid var(--nl);color:var(--nt);transition:opacity .15s,box-shadow .15s}
+  .node span{white-space:pre-line;overflow:hidden;max-width:100%;font-size:13px;line-height:16px;font-weight:600}
+  .node.small span{font-size:11.5px;line-height:13px;font-weight:400}
+  .node.on{border:2px solid var(--ink);box-shadow:0 0 0 3px var(--accent-soft)}
+  .node.pair{border:2px solid #d85a30;background:#fdf3ee;color:#4a1b0c}
+  .dimmed .node.dim,.dimmed .edge.dim,.dimmed .head.dim,.dimmed .lab.dim{opacity:.22}
+  .edge{position:absolute;height:0;border-top:2px solid var(--edge);transform-origin:0 0;pointer-events:none}
+  .head{position:absolute;width:10px;height:10px;background:var(--edge);clip-path:polygon(0 0,100% 50%,0 100%);transform-origin:10px 5px;pointer-events:none}
+  .edge.hot{border-top-width:3px;border-top-color:var(--accent)} .head.hot{background:var(--accent)}
+  .lab{position:absolute;box-sizing:border-box;padding:2px 6px;white-space:pre-line;text-align:center;font-size:12px;line-height:15px;color:var(--muted);background:var(--surface);border-radius:6px;pointer-events:none}
+  .lab.hot{color:var(--accent);font-weight:600}
+  :root{--edge:#a3a8b0}
+  .node,.kind,.legend i{--nb:var(--cb);--nl:var(--cl);--nt:var(--ct)}
+  /* Panel szczegółów – jak panel pojęcia w podręczniku */
+  .mside{position:sticky;top:12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px;max-height:calc(100vh - 24px);overflow:auto}
+  .mside h2{font-family:var(--f-display);font-weight:560;font-size:22px;line-height:1.2;margin:6px 0 8px;text-wrap:balance}
+  .kind{display:inline-block;font-size:12px;font-weight:600;padding:3px 10px;border-radius:99px;background:var(--nb);color:var(--nt);border:1px solid var(--nl)}
+  .trapb{display:inline-block;font-size:12px;font-weight:600;padding:2px 9px;border-radius:99px;background:#fdf2dc;color:#7a4d00;margin:0 0 4px}
+  .sh{display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .sh button{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:6px 14px;cursor:pointer}
+  .lv{display:flex;background:var(--bg);border-radius:10px;padding:3px;margin:12px 0}
+  .lv button{flex:1;border:0;border-radius:7px;padding:8px 6px;font:inherit;font-size:14px;background:transparent;color:var(--muted);cursor:pointer}
+  .lv button[aria-pressed="true"]{background:var(--surface);color:var(--ink);font-weight:600;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+  .ptrap{background:#fdf2dc;color:#5a3a00;border-radius:8px;padding:10px 12px;margin:8px 0 4px;font-size:15px}
+  .lbl{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:16px 0 4px}
+  .rel{display:block;width:100%;text-align:left;font:inherit;font-size:14.5px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:7px 10px;margin:0 0 6px;cursor:pointer}
+  .rel b{font-weight:600} .rel small{display:block;color:var(--muted);font-size:13px}
+  .rel.pr{border-color:#f0c3ad;background:#fdf3ee;color:#4a1b0c} .rel.pr small{color:#7a3a1d}
+  .legend div{display:flex;align-items:center;gap:10px;margin:5px 0;font-size:14px}
+  .legend i{display:inline-block;width:18px;height:18px;border-radius:5px;background:var(--nb);border:1px solid var(--nl)}
+  .msrc{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:16px}
+  .note{font-size:13px;color:var(--muted);max-width:1400px;margin:10px auto 0}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--edge:#6d7670}
+    :root:not([data-theme="light"]) .node,:root:not([data-theme="light"]) .kind,:root:not([data-theme="light"]) .legend i{--nb:color-mix(in srgb,var(--cl) 24%,var(--surface));--nt:var(--ink)}}
+  :root[data-theme="dark"]{--edge:#6d7670}
+  :root[data-theme="dark"] .node,:root[data-theme="dark"] .kind,:root[data-theme="dark"] .legend i{--nb:color-mix(in srgb,var(--cl) 24%,var(--surface));--nt:var(--ink)}
+  @media (max-width:1000px){
+    .mwrap{grid-template-columns:minmax(0,1fr)}
+    .mside{position:fixed;left:0;right:0;bottom:0;top:auto;max-height:62vh;border-radius:16px 16px 0 0;z-index:20;box-shadow:0 -8px 30px rgba(0,0,0,.18);
+      padding:12px max(16px,env(safe-area-inset-left,0px)) calc(16px + env(safe-area-inset-bottom,0px));transform:translateY(105%);transition:transform .2s}
+    .mside.open{transform:none}
+    .mside .grab{display:block;width:40px;height:4px;border-radius:99px;background:var(--line);margin:0 auto 8px}
+    .mside .intro{display:none}
+  }
+  @media (min-width:1001px){.mside .grab{display:none}}
+  @media (prefers-reduced-motion:reduce){.mside,.node{transition:none}}
+</style>
+</head>
+<body>
+<header class="mtop">
+  <a class="back" href="index.html">← Spis treści</a>
+  <h1>Mapa COBIT 5</h1>
+</header>
+<nav class="tabs" role="tablist" aria-label="Mapy" id="tabs"></nav>
+<p class="desc" id="desc"></p>
+<div class="mwrap">
+  <section class="stage" id="stage" aria-label="Mapa">
+    <div class="zoom"><button type="button" id="zFit">Dopasuj</button><button type="button" id="zFull">100%</button></div>
+    <div class="board" id="board"></div>
+  </section>
+  <aside class="mside" id="side" aria-label="Szczegóły" aria-live="polite"></aside>
+</div>
+<p class="note">Kolejność nazw: najpierw egzaminacyjna (PL), potem z podręcznika COBIT 5 (PL) i angielska. Nazwy oznaczone „niepotwierdzona” nie pojawiły się w znanych pytaniach egzaminacyjnych – rozpoznawaj je po kodzie i słowie kluczowym.</p>
+<script src="mapa-dane.js"></script>
+<script>
+(function () {
+  const { C, N, M } = window.MAPA;
+  const W = 1120, H = 780;
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const st = { map: 0, sel: null, lvl: 'p', fit: true };
+  const cache = {};
+
+  // ---------- geometria (ten sam algorytm, który przeszedł kontrolę kolizji na kanwie)
+  const nodesOf = (m) => { const ns = m.nodes.map((n) => n.slice()); (m.cols || []).forEach(([x, ids]) => ids.forEach((id, i) => ns.push([id, x, 96 + i * 44, 172, 36, 1]))); return ns; };
+  function geom(a, b, off) {
+    const ca = [a[1] + a[3] / 2, a[2] + a[4] / 2], cb = [b[1] + b[3] / 2, b[2] + b[4] / 2];
+    const dx = cb[0] - ca[0], dy = cb[1] - ca[1], L = Math.hypot(dx, dy) || 1, ux = dx / L, uy = dy / L, px = -uy * off, py = ux * off;
+    const t = (r) => Math.min((r[3] / 2) / (Math.abs(ux) || 1e-9), (r[4] / 2) / (Math.abs(uy) || 1e-9));
+    const ta = t(a), tb = t(b) + 3;
+    return { s: [ca[0] + ux * ta + px, ca[1] + uy * ta + py], e: [cb[0] - ux * tb + px, cb[1] - uy * tb + py], ux, uy };
+  }
+  function layout(mi) {
+    if (cache[mi]) return cache[mi];
+    const m = M[mi], ns = nodesOf(m), by = {};
+    ns.forEach((n) => { by[n[0]] = n; });
+    const rects = ns.map((n) => [n[1], n[2], n[3], n[4]]);
+    const inter = (a, b, p) => !(a[0] + a[2] + p <= b[0] || b[0] + b[2] + p <= a[0] || a[1] + a[3] + p <= b[1] || b[1] + b[3] + p <= a[1]);
+    const segRect = (p, q, r) => {
+      const x0 = r[0], y0 = r[1], x1 = r[0] + r[2], y1 = r[1] + r[3], dx = q[0] - p[0], dy = q[1] - p[1]; let t0 = 0, t1 = 1;
+      for (const [pp, qq] of [[-dx, p[0] - x0], [dx, x1 - p[0]], [-dy, p[1] - y0], [dy, y1 - p[1]]]) {
+        if (pp === 0) { if (qq < 0) return false; } else { const t = qq / pp; if (pp < 0) t0 = Math.max(t0, t); else t1 = Math.min(t1, t); if (t0 > t1) return false; }
+      }
+      return true;
+    };
+    const segs = m.edges.map((e) => geom(by[e[0]], by[e[1]], e[3] || 0));
+    const placed = [], labels = [];
+    m.edges.forEach((e, i) => {
+      if (!e[2]) { labels.push(null); return; }
+      const g = segs[i], off = e[3] || 0, lines = e[2].split('\n');
+      const w = Math.max(...lines.map((l) => l.length)) * 6.6 + 12, h = lines.length * 15 + 4;
+      const horiz = Math.abs(g.ux) >= Math.abs(g.uy), cands = [];
+      for (const t of [0.5, 0.42, 0.58, 0.34, 0.66, 0.26, 0.74]) {
+        const mx = g.s[0] + (g.e[0] - g.s[0]) * t, my = g.s[1] + (g.e[1] - g.s[1]) * t;
+        if (horiz) { const above = [mx - w / 2, my - h - 4, w, h], below = [mx - w / 2, my + 4, w, h]; if (off > 0) cands.push(below, above); else cands.push(above, below); }
+        else cands.push([mx + 6, my - h / 2, w, h], [mx - w - 6, my - h / 2, w, h]);
+      }
+      let pick = null;
+      for (const c of cands) {
+        if (c[0] < 2 || c[1] < 2 || c[0] + c[2] > W - 2 || c[1] + c[3] > H - 2) continue;
+        if (rects.some((r) => inter(c, r, 3))) continue;
+        if (placed.some((p) => inter(c, p, 2))) continue;
+        if (segs.some((sg, j) => j !== i && segRect(sg.s, sg.e, c))) continue;
+        pick = c; break;
+      }
+      if (!pick) pick = cands[0];
+      placed.push(pick); labels.push(pick);
+    });
+    return (cache[mi] = { ns, by, segs, labels });
+  }
+  const mapOf = (id) => { for (let i = 0; i < M.length; i++) if (layout(i).by[id]) return i; return -1; };
+  const cvars = (k) => { const c = C[k] || C.n; return `--cb:${c[0]};--cl:${c[1]};--ct:${c[2]}`; };
+
+  // ---------- stan w adresie (#m=3&w=apo05) – podręcznik może linkować do węzła
+  function readHash() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    const w = p.get('w'), m = +p.get('m');
+    if (w && N[w]) { const mi = mapOf(w); if (mi >= 0) { st.map = mi; st.sel = w; return; } }
+    if (m >= 1 && m <= M.length) st.map = m - 1;
+  }
+  function writeHash() { const h = 'm=' + (st.map + 1) + (st.sel ? '&w=' + st.sel : ''); if (location.hash.slice(1) !== h) history.replaceState(null, '', '#' + h); }
+
+  function pick(id) {
+    if (!layout(st.map).by[id]) { const mi = mapOf(id); if (mi < 0) return; st.map = mi; }
+    st.sel = id; render(); focusNode(id);
+  }
+  function focusNode(id) {
+    const el = $('board').querySelector(`[data-id="${id}"]`); if (!el) return;
+    el.focus({ preventScroll: true });
+    if (!st.fit) el.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  }
+
+  function renderTabs() {
+    $('tabs').innerHTML = M.map((m, i) => `<button type="button" role="tab" aria-selected="${i === st.map}" data-m="${i}">${esc(m.name)}</button>`).join('');
+  }
+
+  function renderBoard() {
+    const m = M[st.map], lay = layout(st.map), sel = st.sel && lay.by[st.sel] ? st.sel : null;
+    const near = new Set(sel ? [sel] : []);
+    if (sel) m.edges.forEach((e) => { if (e[0] === sel) near.add(e[1]); if (e[1] === sel) near.add(e[0]); });
+    const pairIds = new Set();
+    (m.pairs || []).forEach((p) => { if (sel && (p[0] === sel || p[1] === sel)) pairIds.add(p[0] === sel ? p[1] : p[0]); });
+    let h = '';
+    m.edges.forEach((e, i) => {
+      const g = lay.segs[i], len = Math.max(0, Math.hypot(g.e[0] - g.s[0], g.e[1] - g.s[1]) - 8), ang = Math.atan2(g.e[1] - g.s[1], g.e[0] - g.s[0]) * 180 / Math.PI;
+      const hot = sel && (e[0] === sel || e[1] === sel), cls = hot ? ' hot' : sel ? ' dim' : '';
+      h += `<div class="edge${cls}" style="left:${g.s[0]}px;top:${g.s[1]}px;width:${len}px;transform:rotate(${ang}deg)"></div>`;
+      h += `<div class="head${cls}" style="left:${g.e[0] - 10}px;top:${g.e[1] - 5}px;transform:rotate(${ang}deg)"></div>`;
+    });
+    lay.ns.forEach((n) => {
+      const d = N[n[0]], on = sel === n[0], pair = pairIds.has(n[0]), dim = sel && !near.has(n[0]) && !pair;
+      h += `<button type="button" class="node${n[5] ? ' small' : ''}${on ? ' on' : ''}${pair ? ' pair' : ''}${dim ? ' dim' : ''}" data-id="${n[0]}" aria-pressed="${on}"
+        style="${cvars(d.k)};left:${n[1]}px;top:${n[2]}px;width:${n[3]}px;height:${n[4]}px" title="${esc(d.exam)}"><span>${esc(d.short)}</span></button>`;
+    });
+    m.edges.forEach((e, i) => {
+      const r = lay.labels[i]; if (!r) return;
+      const hot = sel && (e[0] === sel || e[1] === sel);
+      h += `<div class="lab${hot ? ' hot' : sel ? ' dim' : ''}" aria-hidden="true" style="left:${r[0]}px;top:${r[1]}px;width:${r[2]}px;height:${r[3]}px">${esc(e[2])}</div>`;
+    });
+    const b = $('board');
+    b.innerHTML = h;
+    b.classList.toggle('dimmed', !!sel);
+    $('desc').textContent = m.desc;
+    scale();
+  }
+
+  function renderSide() {
+    const side = $('side'), sel = st.sel && N[st.sel] ? st.sel : null;
+    if (!sel) {
+      side.classList.remove('open');
+      side.innerHTML = `<span class="grab" aria-hidden="true"></span><div class="intro">
+        <div class="lbl" style="margin-top:0">Szczegóły</div>
+        <h2>Kliknij element na mapie</h2>
+        <p>Podświetlą się jego powiązania, a tutaj zobaczysz wyjaśnienie na trzech poziomach: Prościej, Dokładniej i Na egzamin.</p>
+        <p>Napis przy linii mówi, co łączy dwa elementy. Mapy idą od ogółu (1) do szczegółu (7).</p>
+        <p>Na mapie 4 kliknięty proces podświetla na pomarańczowo procesy, z którymi łatwo go pomylić.</p>
+        <div class="lbl">Kolory</div>
+        <div class="legend">${Object.keys(C).map((k) => `<div style="${cvars(k)}"><i></i>${esc(C[k][3])}</div>`).join('')}</div></div>`;
+      return;
+    }
+    const d = N[sel], lvl = st.lvl;
+    const text = lvl === 'p' ? (d.po || d.opis) : lvl === 'd' ? d.opis : (d.pyt ? 'Typowe pytanie: ' + d.pyt : 'Zapamiętaj nazwę egzaminacyjną: ' + d.exam + '.');
+    const trap = d.pul && d.pod !== d.exam;
+    const rels = [], seen = new Set();
+    M.forEach((x, mi) => x.edges.forEach((e) => {
+      if (e[0] !== sel && e[1] !== sel) return;
+      const o = e[0] === sel ? e[1] : e[0], key = o + '|' + e[2];
+      if (seen.has(key) || !N[o]) return; seen.add(key);
+      rels.push(`<button type="button" class="rel" data-go="${o}"><b>${e[0] === sel ? '→' : '←'} ${esc(N[o].exam)}</b><small>${esc((e[2] || 'powiązanie').replace(/\n/g, ' ').replace(/- /g, ''))}${mi !== st.map ? ' · mapa ' + (mi + 1) : ''}</small></button>`);
+    }));
+    const pairs = [];
+    (M[st.map].pairs || []).forEach((p) => { if (p[0] === sel || p[1] === sel) { const o = p[0] === sel ? p[1] : p[0]; pairs.push(`<button type="button" class="rel pr" data-go="${o}"><b>${esc(N[o].exam)}</b><small>${esc(p[2])}</small></button>`); } });
+    side.innerHTML = `<span class="grab" aria-hidden="true"></span>
+      <div class="sh"><span class="kind" style="${cvars(d.k)}">${esc((C[d.k] || C.n)[3])}</span><button type="button" data-close>Zamknij</button></div>
+      <h2>${esc(d.exam)}</h2>
+      ${trap ? '<span class="trapb">Pułapka nazw – egzamin ≠ podręcznik</span>' : ''}
+      <div class="lv" role="group" aria-label="Poziom wyjaśnienia">${[['p', 'Prościej'], ['d', 'Dokładniej'], ['e', 'Na egzamin']].map(([k, n]) => `<button type="button" data-lvl="${k}" aria-pressed="${lvl === k}">${n}</button>`).join('')}</div>
+      <p style="margin:0 0 6px">${esc(text)}</p>
+      ${lvl === 'e' && d.pul ? `<div class="ptrap"><b>Pułapka:</b> ${esc(d.pul)}</div>` : ''}
+      <div class="lbl">Nazwy</div>
+      <table class="names"><tr><td>Egzamin PL</td><td><b>${esc(d.exam)}</b></td></tr><tr><td>Podręcznik</td><td>${esc(d.pod)}</td></tr><tr><td>Angielski</td><td><i>${esc(d.en)}</i></td></tr></table>
+      ${pairs.length ? '<div class="lbl" style="color:#b4570f">Łatwo pomylić z</div>' + pairs.join('') : ''}
+      ${rels.length ? '<div class="lbl">Powiązania</div>' + rels.join('') : ''}
+      <div class="msrc">Źródło: ${esc(d.src)}</div>`;
+    side.classList.add('open');
+    side.scrollTop = 0;
+  }
+
+  function render() { renderTabs(); renderBoard(); renderSide(); writeHash(); }
+
+  // ---------- skala: „Dopasuj” mieści całą mapę w szerokości, „100%” pozwala przewijać
+  function scale() {
+    const stg = $('stage'), b = $('board');
+    const avail = stg.clientWidth - 2;
+    let k = st.fit ? Math.min(1, avail / W) : 1;
+    if (st.fit && k < 0.55) k = 0.55;                 // na telefonie nie mniej niż 55% – reszta przewijana palcem
+    b.style.width = W + 'px'; b.style.height = H + 'px'; b.style.transform = `scale(${k})`;
+    b.style.marginBottom = (H * k - H) + 'px'; b.style.marginRight = (W * k - W) + 'px';
+    $('zFit').setAttribute('aria-pressed', st.fit); $('zFull').setAttribute('aria-pressed', !st.fit);
+  }
+
+  // ---------- zdarzenia
+  $('tabs').addEventListener('click', (e) => { const b = e.target.closest('[data-m]'); if (!b) return; st.map = +b.dataset.m; st.sel = null; render(); });
+  $('tabs').addEventListener('keydown', (e) => {
+    if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+    st.map = (st.map + (e.key === 'ArrowRight' ? 1 : M.length - 1)) % M.length; st.sel = null; render();
+    $('tabs').querySelector(`[data-m="${st.map}"]`).focus();
+  });
+  $('board').addEventListener('click', (e) => { const b = e.target.closest('[data-id]'); if (!b) { if (st.sel) { st.sel = null; render(); } return; } st.sel = st.sel === b.dataset.id ? null : b.dataset.id; render(); focusNode(b.dataset.id); });
+  $('side').addEventListener('click', (e) => {
+    const l = e.target.closest('[data-lvl]'); if (l) { st.lvl = l.dataset.lvl; renderSide(); return; }
+    const g = e.target.closest('[data-go]'); if (g) { pick(g.dataset.go); return; }
+    if (e.target.closest('[data-close]')) { const id = st.sel; st.sel = null; render(); focusNode(id); }
+  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && st.sel) { const id = st.sel; st.sel = null; render(); focusNode(id); } });
+  $('zFit').addEventListener('click', () => { st.fit = true; scale(); });
+  $('zFull').addEventListener('click', () => { st.fit = false; scale(); });
+  window.addEventListener('hashchange', () => { readHash(); render(); });
+  if (window.ResizeObserver) new ResizeObserver(scale).observe($('stage')); else window.addEventListener('resize', scale);
+
+  readHash(); render();
+})();
+</script>
+</body>
+</html>

@@ -65,29 +65,66 @@ export async function renderHome(main) {
     return [c.nr, { done: us.filter((u) => store.unit(u.id).done).length, total: us.length }];
   }));
   const wytrychy = units.find((u) => /slowa-wytrychy/.test(u.id));
+  // Ścieżka postępu (zamiast list lekcji): moduły w kolejności nauki, „jesteś tutaj” i procent całości.
+  const course = units.map((u, i) => ({ u, i })).sort((a, b) => ((typeof a.u.dzien === 'number' ? a.u.dzien : 99) - (typeof b.u.dzien === 'number' ? b.u.dzien : 99)) || a.i - b.i).map((x) => x.u);
+  const curUnit = course.find((u) => !store.unit(u.id).done);
+  const modsPath = [...new Set(course.map((u) => u.modul.kod))].map((k) => {
+    const us = course.filter((u) => u.modul.kod === k);
+    return { k, name: (us[0].modul.tytul || k).replace(/\s*\([^)]*\)\s*$/, ''), done: us.filter((u) => store.unit(u.id).done).length, total: us.length };
+  });
+  // Strategia egzaminacyjna (EX) jest wpleciona w dni – nie jest osobnym etapem. Finał i Mentor idą po próbnym egzaminie.
+  const msMain = modsPath.filter((mp) => !['EX', 'FN', 'MT'].includes(mp.k));
+  const msAfter = modsPath.filter((mp) => ['FN', 'MT'].includes(mp.k));
+  const msRow = (mp) => {
+    const state = mp.done === mp.total ? 'done' : curUnit && curUnit.modul.kod === mp.k ? 'now' : '';
+    return `<li class="${state}"><span class="ms-dot" aria-hidden="true">${state === 'done' ? '✓' : ''}</span>
+      <span class="ms-name">${esc(mp.name)}</span>
+      <span class="ms-meta">${state === 'now' ? '<b>jesteś tutaj</b> · ' : ''}${mp.done}/${mp.total}</span>
+      <span class="ms-bar" aria-hidden="true"><span style="width:${mp.total ? (mp.done / mp.total) * 100 : 0}%"></span></span></li>`;
+  };
+  const pctAll = units.length ? Math.round((allDone / units.length) * 100) : 0;
+  const bestExam = st.exams.reduce((b, e) => (e.total === 50 && (!b || e.score > b.score) ? e : b), null);
+  const goLabel = step.kind === 'lekcja' ? (firstRun ? 'Zaczynam →' : 'Kontynuuj →') : ({ mini: 'Krótki test →', test: 'Test dnia →', skrajnosci: 'Test skrajności →', naprawa: 'Powtórka →', kartka: 'Pusta kartka →', egzamin: 'Próbny egzamin →', jutro: 'Powtórki →', rano: 'Zaczynam – 3 pytania →', przerwa: 'Zaczynam – 3 pytania →' }[step.kind] || 'Dalej →');
 
   main.innerHTML = `
-    <div class="page page-narrow">
+    <div class="page page-narrow home-min">
       <section class="hero" aria-label="Następny krok">
-        <p class="eyebrow">Dzień ${step.day ?? dayNow} z ${C.lastDayOf(daysAll)} · Twój następny krok</p>
+        <p class="eyebrow">Dzień ${step.day ?? dayNow} z ${C.lastDayOf(daysAll)}${curUnit && step.kind === 'lekcja' ? ` · ${esc((curUnit.modul.tytul || '').replace(/\s*\([^)]*\)\s*$/, ''))}` : ''}</p>
         <h1 class="hero-title">${esc(step.label)}</h1>
         <div class="btn-row hero-actions">
-          <a class="btn btn-primary btn-xl" href="${esc(step.href)}" id="stepGo">${{ lekcja: 'Następny krok: lekcja →', mini: 'Następny krok: krótki test →', test: 'Następny krok: test dnia →', skrajnosci: 'Następny krok: test skrajności →', naprawa: 'Następny krok: powtórka →', kartka: 'Następny krok: pusta kartka →', egzamin: 'Następny krok: próbny egzamin →', jutro: 'Następny krok: powtórki →', rano: 'Zaczynam – 3 pytania →', przerwa: 'Zaczynam – 3 pytania →' }[step.kind] || 'Następny krok →'}</a>
+          <a class="btn btn-primary btn-xl" href="${esc(step.href)}" id="stepGo">${goLabel}</a>
+          <a class="btn btn-lg" href="podrecznik/index.html">📘 Podręcznik krok po kroku</a>
           ${step.kind === 'naprawa' ? `<button class="btn btn-lg" id="retest">Powtórzyłem – test jeszcze raz</button>` : ''}
         </div>
-        <p class="hero-why">Po kliknięciu: ${esc(step.why)}</p>
+        <p class="hero-why">${esc(step.why)}</p>
+        ${firstRun ? '<p class="small muted">Klikasz „Dalej”. Podkreślone słowo otwiera wyjaśnienie, a przycisk „Szczegóły” – resztę. Wszystko zapisuje się samo.</p>' : ''}
       </section>
 
-      ${backupDue ? `<div class="notice backup">Zapisz kopię postępu w pliku – 1 klik. Chroni przed utratą postępu, gdyby przeglądarka wyczyściła dane.
-        <div class="btn-row" style="margin-top:8px"><button class="btn btn-primary" id="backupNow">Zapisz kopię postępu w pliku</button><button class="btn" id="backupLater">Nie dziś</button></div></div>` : ''}
+      <section class="journey" aria-label="Twoja droga przez kurs">
+        <div class="journey-top"><span>Twoja droga</span><strong>${pctAll}%</strong></div>
+        <div class="progress journey-bar"><span style="width:${pctAll}%"></span></div>
+        <ol class="milestones">
+          ${msMain.map((mp) => msRow(mp)).join('')}
+          <li class="${bestExam && bestExam.score >= cel ? 'done' : ''} ms-goal"><span class="ms-dot" aria-hidden="true">${bestExam && bestExam.score >= cel ? '✓' : '🎯'}</span>
+            <span class="ms-name">Próbny egzamin: ${cel}/50</span>
+            <span class="ms-meta">${bestExam ? `najlepszy: ${bestExam.score}/50` : 'jeszcze nie'}</span></li>
+          ${msAfter.map((mp) => msRow(mp)).join('')}
+        </ol>
+      </section>
 
-      ${firstRun ? `<section class="howto" aria-label="Jak korzystać z kursu">
-        <h2>Jak korzystać – 4 kroki</h2>
-        ${howToHTML()}
-        <p style="margin:12px 0 0"><strong>Wszystko zapisuje się samo. Niczego nie zepsujesz klikaniem.</strong></p>
-        <p class="small muted" style="margin:6px 0 0">Nie musisz nic umieć – zaczynamy od codziennych sytuacji. Cel: zdać COBIT 5 Foundation i umieć nauczyć tego innych. Około 20 godzin od zera wystarczy, pod warunkiem codziennych powtórek.</p>
-      </section>` : ''}
+      <nav class="quick-links" aria-label="Skróty">
+        <a href="podrecznik/index.html">📘 Podręcznik</a>
+        <a href="#/powtorki">🔁 Powtórki</a>
+        <a href="#/slownik">📖 Słownik</a>
+        <a href="#/egzamin">⏱️ Egzamin</a>
+      </nav>
 
+      ${backupDue ? `<div class="notice backup small">Zapisz kopię postępu w pliku – chroni przed utratą danych przeglądarki.
+        <div class="btn-row" style="margin-top:8px"><button class="btn btn-primary" id="backupNow">Zapisz kopię</button><button class="btn" id="backupLater">Nie dziś</button></div></div>` : ''}
+
+      <details class="fold home-more">
+        <summary>Więcej: plan dni, mapa, gotowość, kopia postępu</summary>
+        <div class="fold-body">
       <h2 class="section-title">O co naprawdę chodzi w COBIT 5</h2>
       ${compassHTML(C.COMPASS, { progress: compassProg })}
 
@@ -201,6 +238,8 @@ export async function renderHome(main) {
         <summary><span style="color:${errs.length ? 'var(--bad)' : 'var(--trap)'}">Walidacja treści</span><span class="fold-meta">${errs.length} błędów · ${problems.length - errs.length} uwag</span></summary>
         <div class="fold-body"><ul class="small" style="margin:0;padding-left:18px">${problems.slice(0, 80).map((p) => `<li><span style="color:${p.poziom === 'blad' ? 'var(--bad)' : 'var(--trap)'}">${p.poziom === 'blad' ? 'Błąd' : 'Uwaga'}</span> <code>${esc(p.gdzie)}</code>: ${esc(p.opis)}</li>`).join('')}</ul></div>
       </details>` : ''}
+        </div>
+      </details>
     </div>`;
 
   document.getElementById('retest')?.addEventListener('click', () => { store.setFlag(step.flag, 'wazne', true); location.hash = step.retest; });

@@ -23,8 +23,8 @@
     "it-serwer",
     "it-aplikacja"
   ],
-  "poLudzku": "To, co informatyka daje ludziom do pracy, np. „poczta działa”, „alarm wychodzi”.",
-  "poziom1": "Usługa IT to korzyść, którą użytkownik dostaje od informatyki: działająca poczta, dostęp do folderów, wysyłanie alarmów, pomoc przy kłopotach. Użytkownika nie interesuje, który serwer to robi – ważne, że działa.",
+  "poLudzku": "To, co informatyka daje ludziom do pracy, np. „poczta działa”, „płatność przechodzi”.",
+  "poziom1": "Usługa IT to korzyść, którą użytkownik dostaje od informatyki: działająca poczta, dostęp do folderów, bankowość internetowa, pomoc przy kłopotach. Użytkownika nie interesuje, który serwer to robi – ważne, że działa.",
   "poziom2": "Na usługę składają się aplikacje, serwery, sieć i ludzie, którzy pomagają (np. telefon do informatyka). Usługa ma zwykle obietnicę jakości: kiedy działa, jak szybko, kto pomaga przy kłopocie. Taką obietnicę nazywa się poziomem usługi.",
   "poziom3": "Słownik FW-PL: usługi IT to *„Codzienne zapewnianie klientom infrastruktury i aplikacji IT oraz wsparcia przy korzystaniu z nich.”* (s. 92). Usługi są częścią aktywatora [[uslugi-infrastruktura-aplikacje|Usługi, infrastruktura i aplikacje]] (s. 27).",
   "wyobrazSobie": "Ciepła woda w kranie. Nie widzisz pieca ani rur – liczy się, że po odkręceniu leci ciepła.",
@@ -35,7 +35,7 @@
     "zycie": "Bankowość internetowa to usługa: możesz zapłacić rachunek o północy. Nie musisz wiedzieć, gdzie stoją serwery banku.",
     "biuro": "„Wspólne foldery działu dostępne od 7 do 19, pomoc pod numerem 100” – tak brzmi opis usługi IT w biurze.",
     "organizacja": "Uczelnia daje studentom usługę „poczta i oceny w Internecie”. Za nią stoją serwery, aplikacje i dział informatyki.",
-    "psp": "Dla dyżurnego liczy się usługa „alarm wychodzi do JRG i OSP w kilka sekund, całą dobę”. Nie interesuje go, na którym serwerze działa „Syrena”.",
+    "admin": "Zakład Ubezpieczeń Społecznych (ZUS) daje klientom usługę: przez Platformę Usług Elektronicznych można sprawdzić swoje składki i wysłać wniosek, także wieczorem. Za tą usługą stoją serwery, aplikacje, sieć i infolinia pomocy technicznej. Klienta nie interesuje, który serwer go obsługuje – ważne, że wniosek da się wysłać.",
     "it": "FW-PL definiuje usługi IT jako codzienne zapewnianie infrastruktury, aplikacji i wsparcia (s. 92); są częścią aktywatora Usługi, infrastruktura i aplikacje."
   },
   "nieMylicZ": [
@@ -48,7 +48,7 @@
       "roznica": "Aktywator COBIT 5 obejmuje usługi oraz infrastrukturę i aplikacje, które je tworzą. To hasło opisuje samą usługę."
     }
   ],
-  "przykladWypowiedzi": "An IT service, czyli usługa IT, to na przykład „wysyłanie alarmów całą dobę”; tworzą ją applications, servers and support, czyli aplikacje, serwery i wsparcie.",
+  "przykladWypowiedzi": "An IT service, czyli usługa IT, to na przykład „bankowość internetowa całą dobę”; tworzą ją applications, servers and support, czyli aplikacje, serwery i wsparcie.",
   "egzamin": "Usługi IT to część aktywatora Usługi, infrastruktura i aplikacje (FW-PL s. 27, 85). Na egzaminie pamiętaj: usługa to efekt dla użytkownika, a infrastruktura i aplikacje to jej składniki.",
   "powiazane": [
     "it-aplikacja",
@@ -73,7 +73,7 @@
   ],
   "glebokosc": {
     "prosty": "Zamawiasz taksówkę przez telefon. Nie obchodzi Cię, jaki silnik ma auto ani gdzie jest centrala. Liczy się usługa: „samochód pod domem za 5 minut”.",
-    "zaawansowany": "Komendantka Anna Wrzos nie pyta naczelnika Sikory o serwery. Pyta: „czy alarm zawsze dociera do OSP w minutę?”. To pytanie o usługę IT. Za nią stoją [[it-serwer|serwer]], łącze, aplikacja „Syrena” i dyżur Oli Dudek. Jeśli zawiedzie choć jeden składnik, usługa zawodzi.",
+    "zaawansowany": "Zarząd banku nie pyta CIO o serwery. Pyta: „czy klient zawsze może zrobić przelew w aplikacji?”. To pytanie o usługę IT. Za nią stoją [[it-serwer|serwer]], łącze, aplikacja mobilna i nocny dyżur administratorów. Jeśli zawiedzie choć jeden składnik, usługa zawodzi.",
     "skrajny": "Czy telefon do informatyka z prośbą o pomoc to część usługi IT? Tak – wsparcie należy do usługi (FW-PL s. 92). Czy serwer to usługa? Nie, to jej składnik. Czy usługa przestaje być usługą IT, gdy świadczy ją zewnętrzna firma? Nie – zmienia się tylko, kto ją dostarcza. **Rozstrzygnięcie:** usługa IT to to, co użytkownik dostaje (infrastruktura i aplikacje w działaniu plus wsparcie); sprzęt i programy to składniki, a dostawca może być wewnętrzny albo zewnętrzny."
   },
   "zagmatwania": [
@@ -89,7 +89,7 @@
   "mentor": {
     "czestyBlad": "Opisywanie usługi przez urządzenia („mamy serwer poczty”) zamiast przez efekt dla ludzi („poczta działa całą dobę”).",
     "jakTlumaczyc": "Ciepła woda z kranu: użytkownik widzi wodę, a nie piec i rury.",
-    "pytanieKontrolne": "Wymień trzy składniki usługi „wysyłanie alarmów” w komendzie.",
-    "odpowiedzKontrolna": "Np. aplikacja „Syrena”, serwer, na którym działa, łącze z Internetem i pomoc informatyczki (wsparcie)."
+    "pytanieKontrolne": "Wymień trzy składniki usługi „bankowość internetowa” w banku.",
+    "odpowiedzKontrolna": "Np. aplikacja bankowa, serwer, na którym działa, łącze z Internetem i pomoc helpdesku (wsparcie)."
   }
 }

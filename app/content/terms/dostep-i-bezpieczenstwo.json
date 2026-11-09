@@ -34,13 +34,12 @@
     "biuro": "Segregator z umowami klientów stoi w szafie przy biurku kierowniczki, więc gdy klient dzwoni z pytaniem, jest pod ręką. Szafa jest zamykana na klucz, a klucz mają tylko kierowniczka i księgowa.",
     "firma": "W ostatni dzień miesiąca księgowa warsztatu zamyka rozliczenia, a program księgowy po prostu działa. Jednocześnie listę płac widzi tylko ona i właściciel, mechanicy nie mają do niej wglądu. Dostępne, gdy trzeba, i chronione przed niepowołanymi – to dostęp i bezpieczeństwo.",
     "admin": "Mieszkaniec przychodzi do urzędu o 15:30, a urzędniczka od ręki sprawdza jego dane w rejestrze. Stażysta widzi w tym samym rejestrze tylko sprawy, które sam prowadzi, a nikt z zewnątrz nie ma do niego dostępu. Tak wygląda cel „dostęp i bezpieczeństwo” dla rejestru.",
-    "psp": "O 3 w nocy dyżurny SK dostaje zgłoszenie z CPR 112, a SWD-PSP działa bez zarzutu. Dane osobowe zgłaszającego widzą tylko uprawnieni, a nie każdy, kto wejdzie do pomieszczenia SK. System dostępny całą dobę i chroniony przed niepowołanymi – to dostęp i bezpieczeństwo.",
-    "it": "Dla aktywatora Informacja, czyli bazy numerów telefonów w Syrenie, cel dostępu i bezpieczeństwa brzmi: baza działa w każdej chwili, gdy dyżurny wysyła alarm, a numery ochotników widzą tylko uprawnieni. Zabezpieczenia techniczne zapewnia proces DSS05 Zarządzanie usługami bezpieczeństwa."
+    "it": "Dla aktywatora Informacja, czyli bazy danych klientów w systemie CRM, cel dostępu i bezpieczeństwa brzmi: baza działa w każdej chwili, gdy konsultant obsługuje klienta, a dane osobowe widzą tylko uprawnieni. Zabezpieczenia techniczne zapewnia proces DSS05 Zarządzanie usługami bezpieczeństwa."
   },
   "glebokosc": {
     "prosty": "Apteczka w domu ma być pod ręką, gdy dziecko się skaleczy. Ale leki na receptę trzymasz wysoko, żeby maluch ich nie dosięgnął. Jedno i drugie naraz: dostępne dla potrzebujących i schowane przed niepowołanymi.",
-    "zaawansowany": "Baza numerów OSP w Syrenie ma dwa cele dostępu i bezpieczeństwa. Musi działać o 3 w nocy, gdy Grab klika „alarm”. Nie może jej też przeglądać każdy, bo zawiera prywatne telefony ochotników Pietrzaka. Ola Dudek nadaje uprawnienia tylko dyżurnym i administratorom. To trzecia kategoria celów aktywatora, obok [[jakosc-wewnetrzna|jakości wewnętrznej]] i [[jakosc-kontekstowa|jakości kontekstowej]].",
-    "skrajny": "„Dane OSP są aktualne” – czy to dostęp i bezpieczeństwo? Nie: aktualność to jakość kontekstowa, a poprawność to jakość wewnętrzna. Dostęp i bezpieczeństwo pyta tylko o dwie rzeczy: czy aktywator jest dostępny w razie potrzeby i czy wyniki są zabezpieczone przed nieuprawnionymi. Druga pułapka: kategoria dotyczy każdego aktywatora, nie tylko informacji, np. procedura alarmowa ma być dostępna dla dyżurnego, gdy jest potrzebna. Trzecia: to kategoria celu, a nie procesy APO13 czy DSS05. **Rozstrzygnięcie:** „czy dostanę się, gdy trzeba, i czy nie dostanie się niepowołany?” → Dostęp i Bezpieczeństwo; „czy to prawda?” → jakość wewnętrzna; „czy pasuje do zadania (aktualne, kompletne)?” → jakość kontekstowa."
+    "zaawansowany": "Baza danych klientów w systemie CRM ma dwa cele dostępu i bezpieczeństwa. Musi działać w szczycie sprzedaży, gdy konsultant obsługuje klienta przez telefon. Nie może jej też przeglądać każdy, bo zawiera dane osobowe i historię zamówień. Administrator nadaje uprawnienia tylko konsultantom i administratorom. To trzecia kategoria celów aktywatora, obok [[jakosc-wewnetrzna|jakości wewnętrznej]] i [[jakosc-kontekstowa|jakości kontekstowej]].",
+    "skrajny": "„Dane klientów są aktualne” – czy to dostęp i bezpieczeństwo? Nie: aktualność to jakość kontekstowa, a poprawność to jakość wewnętrzna. Dostęp i bezpieczeństwo pyta tylko o dwie rzeczy: czy aktywator jest dostępny w razie potrzeby i czy wyniki są zabezpieczone przed nieuprawnionymi. Druga pułapka: kategoria dotyczy każdego aktywatora, nie tylko informacji, np. procedura awaryjna ma być dostępna dla pracownika helpdesku, gdy jest potrzebna. Trzecia: to kategoria celu, a nie procesy APO13 czy DSS05. **Rozstrzygnięcie:** „czy dostanę się, gdy trzeba, i czy nie dostanie się niepowołany?” → Dostęp i Bezpieczeństwo; „czy to prawda?” → jakość wewnętrzna; „czy pasuje do zadania (aktualne, kompletne)?” → jakość kontekstowa."
   },
   "zagmatwania": [
     {
@@ -59,8 +58,8 @@
   "mentor": {
     "czestyBlad": "Wrzucanie aktualności i poprawności do dostępu i bezpieczeństwa oraz utożsamianie tej kategorii z procesami bezpieczeństwa.",
     "jakTlumaczyc": "Drzwi z zamkiem: mają się otwierać przed domownikami (dostęp) i nie otwierać przed złodziejem (bezpieczeństwo). To, co jest w środku i czy jest świeże, to już sprawa jakości.",
-    "pytanieKontrolne": "Dyżurny o 3 w nocy nie może zalogować się do Syreny, bo system wymaga hasła administratora. Który cel aktywatora jest naruszony i dlaczego to nie jakość wewnętrzna?",
-    "odpowiedzKontrolna": "Dostęp i Bezpieczeństwo, w części „dostępne w razie potrzeby”. Dane w Syrenie mogą być prawdziwe (jakość wewnętrzna) i aktualne (jakość kontekstowa), ale uprawniona osoba nie może z nich skorzystać."
+    "pytanieKontrolne": "Lekarz na nocnym dyżurze w szpitalu nie może otworzyć dokumentacji pacjenta, bo system wymaga hasła administratora. Który cel aktywatora jest naruszony i dlaczego to nie jakość wewnętrzna?",
+    "odpowiedzKontrolna": "Dostęp i Bezpieczeństwo, w części „dostępne w razie potrzeby”. Dane w systemie mogą być prawdziwe (jakość wewnętrzna) i aktualne (jakość kontekstowa), ale uprawniona osoba nie może z nich skorzystać."
   },
   "nieMylicZ": [
     {
@@ -80,6 +79,10 @@
     "EN-02-08"
   ],
   "zrodla": [
+    {
+      "doc": "FW-PL",
+      "strona": 28
+    },
     {
       "doc": "FW-PL",
       "strona": 29,

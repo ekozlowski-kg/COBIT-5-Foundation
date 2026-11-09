@@ -16,7 +16,7 @@
   "pulapka": true,
   "pulapkaOpis": "Grupy w podręczniku: „Przewodniki dotyczące czynników umożliwiających” i „Specjalistyczne przewodniki”. Egzamin mówi „aktywator” zamiast „czynnik umożliwiający”. Egzaminacyjnych nazw grup po polsku nie potwierdziliśmy.",
   "kategoria": "egzaminacyjne",
-  "status": "oficjalne",
+  "status": "niepotwierdzone",
   "poziomP": "P2",
   "wymaga": [
     "baza-wiedzy",
@@ -34,8 +34,8 @@
   "przyklady": {
     "zycie": "Producent mebli dokłada do szafy główną instrukcję montażu. Osobno są ulotki: jak dbać o drewno, jak bezpiecznie przykręcić szafę do ściany. Wszystko ma jeden styl i te same numery części. To rodzina produktów.",
     "biuro": "Firma szkoleniowa wydaje główny podręcznik kursu i osobne zeszyty: dla trenera, dla uczestnika, dla egzaminatora. Wszystkie mają te same rozdziały i to samo słownictwo.",
-    "organizacja": "Franczyza pizzerii ma księgę marki, a obok osobne poradniki: dla kuchni, dla dostawców, dla kontroli jakości. Wszystkie wychodzą z jednej centrali i mają ten sam układ. To odpowiednik rodziny produktów COBIT 5.\n\nMinisterstwo wydaje główne wytyczne cyfryzacji urzędów. Osobno publikuje poradniki: o bezpieczeństwie, o audycie systemów, o wdrażaniu e-usług. Razem tworzą jedną rodzinę publikacji.",
-    "psp": "**Półka w wydziale** Kpt. Marek Sikora stawia na półce COBIT 5, a obok przewodnik *Procesy umożliwiające*. Audytorka Ewa Lis dostaje przewodnik o audycie, a zespół wdrożeniowy *Wdrożenie*. St. ogn. Kasia Nowik pyta, który z nich to „prawdziwy COBIT”. Sikora odpowiada: wszystkie, bo to jedna rodzina produktów.",
+    "organizacja": "Franczyza pizzerii ma księgę marki, a obok osobne poradniki: dla kuchni, dla dostawców, dla kontroli jakości. Wszystkie wychodzą z jednej centrali i mają ten sam układ. To odpowiednik rodziny produktów COBIT 5.",
+    "admin": "Ministerstwo odpowiedzialne za cyfryzację wydaje główne wytyczne dla urzędów. Osobno publikuje poradniki: o bezpieczeństwie, o audycie systemów i o wdrażaniu e-usług. Wszystkie mają ten sam układ i słownictwo, a urzędnik sięga po ten, którego akurat potrzebuje. Razem tworzą jedną rodzinę publikacji.",
     "it": "Audytor IT szuka praktyk procesu MEA02 (Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej) w *COBIT 5: Procesy umożliwiające*. Do planu audytu bierze przewodnik specjalistyczny *COBIT 5 — Audyt*."
   },
   "nieMylicZ": [
@@ -85,7 +85,7 @@
   "mapa": "rodzina-produktow",
   "glebokosc": {
     "prosty": "Kupujesz zestaw klocków. W pudełku jest główna instrukcja i kilka małych książeczek: osobno do auta, osobno do domku. Wszystkie wyglądają podobnie. To „rodzina produktów” jednego zestawu.",
-    "zaawansowany": "Audytorka Ewa Lis szuka szczegółów procesu powiadamiania. Nie znajdzie ich w samym COBIT 5, bo pełne opisy 37 procesów są w przewodniku *Procesy umożliwiające*. To przewodnik o aktywatorze Proces. Na wdrożenie Sikora sięga po *Wdrożenie*, czyli przewodnik specjalistyczny. Oba wyrosły z tej samej [[baza-wiedzy|bazy wiedzy]], więc mają spójne pojęcia.",
+    "zaawansowany": "Audytorka wewnętrzna szuka szczegółów procesu zarządzania incydentami. Nie znajdzie ich w samym COBIT 5, bo pełne opisy 37 procesów są w przewodniku *Procesy umożliwiające*. To przewodnik o aktywatorze Proces. Na wdrożenie dyrektor IT sięga po *Wdrożenie*, czyli przewodnik specjalistyczny. Oba wyrosły z tej samej [[baza-wiedzy|bazy wiedzy]], więc mają spójne pojęcia.",
     "skrajny": "Pytanie: „Który dokument jest przewodnikiem o aktywatorach: *Wdrożenie*, *Ryzyko*, *Informacje umożliwiające* czy *Audyt*?”. Kusi *Wdrożenie*, bo przecież wdraża się aktywatory. Ale *Wdrożenie* to przewodnik specjalistyczny, tak jak *Ryzyko* i *Audyt*. Przewodnikiem o aktywatorze jest *Informacje umożliwiające*, bo opisuje jeden aktywator: Informację. Słowo „umożliwiające” w tytule to ślad po podręcznikowym „czynniku umożliwiającym”. **Rozstrzygnięcie:** tytuł z „umożliwiające” (Procesy, Informacje) to przewodnik o aktywatorze; Wdrożenie, Bezpieczeństwo informacji, Audyt i Ryzyko to przewodniki specjalistyczne."
   },
   "zagmatwania": [

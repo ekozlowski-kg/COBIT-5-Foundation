@@ -1,0 +1,180 @@
+[
+  {
+    "id": "q-skr-poziomy-zdolnosci-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PC-01-01"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Ewa Lis wystawia oceny atrybutów: PA 1.1 = W, PA 2.1 = P, PA 2.2 = P, PA 3.1 = W, PA 3.2 = W (skala egzaminu PL). Jaki poziom zdolności osiągnął proces?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Ustanowiony – bo atrybuty poziomu 3 mają co najmniej W.",
+        "poprawna": false,
+        "wyjasnienie": "Do poziomu 3 wszystkie atrybuty poziomów 1 i 2 musiałyby mieć P, a PA 1.1 ma tylko W.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Zarządzany – bo oba atrybuty poziomu 2 są pełne.",
+        "poprawna": false,
+        "wyjasnienie": "Atrybuty poziomu 2 są pełne, ale niższy atrybut PA 1.1 nie ma P, więc poziomu 2 nie można zaliczyć.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Wykonywany – bo PA 1.1 ma W, a nie P.",
+        "poprawna": true,
+        "wyjasnienie": "PA 1.1 = W wystarcza do poziomu 1. Wyżej proces nie wchodzi, bo każdy wyższy poziom wymaga P na wszystkich atrybutach niższych poziomów."
+      },
+      {
+        "tekst": "Niekompletny – bo PA 1.1 nie ma oceny P.",
+        "poprawna": false,
+        "wyjasnienie": "Poziom 0 byłby przy PA 1.1 = N albo C. Ocena W na atrybucie poziomu 1 oznacza, że poziom 1 jest osiągnięty.",
+        "pulapka": "falsz"
+      }
+    ],
+    "skrajnosc": true,
+    "atom": "poziomy-zdolnosci"
+  },
+  {
+    "id": "q-skr-prm-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-03",
+      "PR-01-04",
+      "PC-02-03"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Kpt. Sikora mówi: „Wdrożyliśmy 25 z 37 procesów, więc ocena zdolności wykaże niezgodność z modelem PRM”. Które twierdzenie jest zgodne z COBIT 5?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 32
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Ocena wykaże niezgodność, bo PRM wymaga wdrożenia wszystkich 37 procesów.",
+        "poprawna": false,
+        "wyjasnienie": "s. 32: metodyka COBIT 5 nie ma charakteru normatywnego.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "PRM nie jest normatywny; w ocenie tworzy wymiar procesu.",
+        "poprawna": true,
+        "wyjasnienie": "PRM to wzór do dopasowania. W ocenie zdolności opisuje procesy (wymiar procesu), a atrybuty i skala to wymiar zdolności."
+      },
+      {
+        "tekst": "PRM tworzy w ocenie wymiar zdolności, czyli poziomy 0–5.",
+        "poprawna": false,
+        "wyjasnienie": "Zamieniono wymiary: PRM to wymiar procesu, a poziomy 0–5 należą do wymiaru zdolności.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Ocena zdolności mierzy zgodność z PRM, a nie poziomy zdolności procesów.",
+        "poprawna": false,
+        "wyjasnienie": "Ocena zdolności przypisuje procesom poziomy 0–5 na podstawie atrybutów; nie jest audytem zgodności z listą procesów.",
+        "pulapka": "falsz"
+      }
+    ],
+    "skrajnosc": true,
+    "atom": "prm"
+  },
+  {
+    "id": "q-skr-przewodniki-oceny-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PC-02-02"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Kpt. Sikora ma kilka tygodni do zapowiedzianej formalnej oceny zdolności. Chce szybko, bez zbierania dowodów, sprawdzić, gdzie są luki. Co powinien wybrać?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 45
+      }
+    ],
+    "status": "uproszczenie",
+    "opcje": [
+      {
+        "tekst": "Przewodnik Asesora, bo tylko on daje wiarygodny wynik.",
+        "poprawna": false,
+        "wyjasnienie": "Przewodnik Asesora służy do pełnej oceny opartej na dowodach – to prawda, ale nie odpowiada na potrzebę szybkiego sprawdzenia bez dowodów.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Przewodnik Samooceny.",
+        "poprawna": true,
+        "wyjasnienie": "Samoocena jest mniej rygorystyczna, nie wymaga zbierania dowodów i może służyć do przygotowania się do formalnej oceny."
+      },
+      {
+        "tekst": "Przewodnik Asesora prowadzony przez własny zespół, bo to właśnie jest samoocena.",
+        "poprawna": false,
+        "wyjasnienie": "Samoocena to osobna, lżejsza metoda, a nie Przewodnik Asesora użyty wewnętrznie.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Referencyjny Model Procesu, bo zawiera skalę ocen.",
+        "poprawna": false,
+        "wyjasnienie": "PRM to zestaw procesów (wymiar procesu); skalę i atrybuty zawiera model oceny (PAM).",
+        "pulapka": "inna-kategoria"
+      }
+    ],
+    "skrajnosc": true,
+    "atom": "przewodniki-oceny"
+  },
+  {
+    "id": "q-skr-role-dzialania-relacje-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-02-09"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 3,
+    "tresc": "Bryg. Wrzos (organ Ładu) poleca bezpośrednio mł. kpt. Dudek zmianę konfiguracji serwera, z pominięciem kpt. Sikory (Kierownictwo). Które stwierdzenie trafnie ocenia to z punktu widzenia rysunku 9?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 24
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "To prawidłowe, bo organ Ładu instruuje role operacyjne.",
+        "poprawna": false,
+        "wyjasnienie": "Instruowanie i dopasowanie ról operacyjnych to działanie Kierownictwa.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Złamano podział: role operacyjne instruuje Kierownictwo, nie organ Ładu.",
+        "poprawna": true,
+        "wyjasnienie": "Rys. 9 (s. 24): organ Ładu wyznacza kierunek Kierownictwu, a Kierownictwo instruuje i dopasowuje role operacyjne."
+      },
+      {
+        "tekst": "To prawidłowe, bo role operacyjne raportują bezpośrednio do organu Ładu.",
+        "poprawna": false,
+        "wyjasnienie": "Role operacyjne raportują do Kierownictwa.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Organ Ładu powinien najpierw delegować tę decyzję interesariuszom, a dopiero oni instruują role.",
+        "poprawna": false,
+        "wyjasnienie": "Kierunek jest odwrotny: to interesariusze delegują do organu Ładu.",
+        "pulapka": "odwrocone"
+      }
+    ],
+    "skrajnosc": true,
+    "atom": "role-dzialania-relacje"
+  }
+]

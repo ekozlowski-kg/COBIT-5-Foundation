@@ -1,318 +1,180 @@
 {
- "pytania": [
-  {
-   "id": "q-pre-en-03b",
-   "typ": "rozpoznanie",
-   "sylabus": [
-    "EN-02-25"
-   ],
-   "lekcja": "en-03b-litery-raci",
-   "bloom": "wiedza",
-   "trudnosc": 1,
-   "tresc": "Która litera tabeli RACI odpowiada na pytanie „kto odpowiada za powodzenie zadania?”",
-   "zrodlo": [
+  "pytania": [
     {
-     "doc": "FW-PL",
-     "strona": 89
+      "id": "q-pre-en-03b",
+      "typ": "rozpoznanie",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-03b-litery-raci",
+      "bloom": "wiedza",
+      "trudnosc": 1,
+      "tresc": "Która litera tabeli RACI odpowiada na pytanie „kto odpowiada za powodzenie zadania?”",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        }
+      ],
+      "status": "oficjalne",
+      "pretest": true,
+      "opcje": [
+        {
+          "tekst": "R – odpowiedzialny wykonawczo",
+          "poprawna": false,
+          "wyjasnienie": "R wykonuje zadanie, ale nie odpowiada ostatecznie za jego powodzenie.",
+          "zycie": "W życiu to tak, jakbyś za udane wesele uznał odpowiedzialnym kelnera, który tylko roznosi talerze."
+        },
+        {
+          "tekst": "A – odpowiedzialny decyzyjnie",
+          "poprawna": true,
+          "wyjasnienie": "A (Accountable) to strona ostatecznie odpowiedzialna za powodzenie zadania (FW-PL s. 89)."
+        },
+        {
+          "tekst": "C – konsultant",
+          "poprawna": false,
+          "wyjasnienie": "C daje wejścia i opinie, ale nie odpowiada za wynik.",
+          "zycie": "W życiu to tak, jakbyś za udany remont uznał odpowiedzialnym sąsiada, którego tylko spytałeś o godziny wiercenia."
+        }
+      ]
+    },
+    {
+      "id": "q-en-03b-01",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-03b-litery-raci",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "W słowniku podręcznika PL czytasz hasło „strona odpowiedzialna (RACI)”. Której roli z tabeli RACI, w nazewnictwie egzaminu PL, odpowiada to hasło?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "A – odpowiedzialny decyzyjnie",
+          "poprawna": false,
+          "wyjasnienie": "To pułapka tłumaczenia. Za powodzenie odpowiada A (na egzaminie: odpowiedzialny decyzyjnie), ale podręcznik nazywa A „stroną rozliczaną”, a nie „odpowiedzialną”.",
+          "pulapka": "forma-podrecznikowa",
+          "zycie": "W życiu to tak, jakbyś słowo „odpowiedzialny” na liście dyżurów wziął za szefa, a nie za osobę, która ma dyżur."
+        },
+        {
+          "tekst": "C – konsultant",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik nazywa C „stroną konsultowaną” (s. 90).",
+          "pulapka": "inna-kategoria",
+          "zycie": "W życiu to tak, jakbyś osobę, którą pytasz o radę, wziął za tę, która robi robotę."
+        },
+        {
+          "tekst": "R – odpowiedzialny wykonawczo",
+          "poprawna": true,
+          "wyjasnienie": "„Strona odpowiedzialna” to R (Responsible): w tabeli RACI odpowiada na pytanie „Kto zajmuje się realizacją zadania?” (FW-PL s. 93). Egzamin dopisuje słowo „wykonawczo”."
+        },
+        {
+          "tekst": "I – informowany",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik nazywa I „stroną informowaną” (s. 92).",
+          "pulapka": "inna-kategoria",
+          "zycie": "W życiu to tak, jakbyś sąsiada, któremu powiesiłeś kartkę o remoncie, uznał za fachowca."
+        }
+      ]
+    },
+    {
+      "id": "q-en-03b-03",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "lekcja": "en-03b-litery-raci",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które zdanie o roli **A (odpowiedzialny decyzyjnie)** w tabeli RACI jest zgodne z COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 92
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "A musi osobiście wykonać zadanie, bo za nie odpowiada",
+          "poprawna": false,
+          "wyjasnienie": "Zadanie wykonuje R. A odpowiada za jego powodzenie i nie musi sam pracować.",
+          "pulapka": "inna-kategoria",
+          "zycie": "W życiu to tak, jakbyś myślał, że inwestor sam musi kłaść płytki, bo odpowiada za remont."
+        },
+        {
+          "tekst": "A dostarcza wejść w komunikacji dwukierunkowej",
+          "poprawna": false,
+          "wyjasnienie": "To opis roli C, czyli konsultanta (s. 90).",
+          "pulapka": "inna-kategoria",
+          "zycie": "W życiu to tak, jakbyś inwestora remontu pomylił z sąsiadem, którego pytasz o zdanie."
+        },
+        {
+          "tekst": "A powinien zawsze otrzymywać informacje o realizacji, żeby nadzorować zadanie",
+          "poprawna": true,
+          "wyjasnienie": "Słownik: rola rozliczana powinna zawsze otrzymywać odpowiednie informacje, by nadzorować realizację zadania (FW-PL s. 92). A jest stroną ostatecznie odpowiedzialną (s. 89)."
+        },
+        {
+          "tekst": "A tylko otrzymuje informacje i nie odpowiada za wynik",
+          "poprawna": false,
+          "wyjasnienie": "To opis roli I. A dostaje informacje, ale przede wszystkim odpowiada za powodzenie zadania.",
+          "pulapka": "odwrocone",
+          "zycie": "W życiu to tak, jakbyś inwestora, który odpowiada za remont, uznał za sąsiada, który tylko czyta kartkę na klatce."
+        }
+      ]
+    },
+    {
+      "id": "q-zap-en-03b-2",
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Konsultowany przekazał swoje uwagi do zadania, ale wykonawca ich nie uwzględnił. Co według COBIT 5 powinny zrobić role R i A?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 90
+        }
+      ],
+      "status": "oficjalne",
+      "opcje": [
+        {
+          "tekst": "Pominąć uwagi, bo konsultowany tylko doradza",
+          "poprawna": false,
+          "wyjasnienie": "Podręcznik mówi, że R i A powinni uwzględnić wejścia od stron konsultowanych.",
+          "pulapka": "falsz"
+        },
+        {
+          "tekst": "Przekazać decyzję konsultowanemu, bo to on zna temat",
+          "poprawna": false,
+          "wyjasnienie": "C dostarcza wejścia, ale nie przejmuje odpowiedzialności. Odpowiedzialność za sukces ma A.",
+          "pulapka": "odwrocone"
+        },
+        {
+          "tekst": "Uwzględnić uwagi C, a w razie potrzeby eskalować sprawę, np. do właściciela procesu",
+          "poprawna": true,
+          "wyjasnienie": "FW-PL s. 90: R i A powinni uwzględnić dane wejściowe od stron konsultowanych i w razie potrzeby podjąć eskalację, w tym poinformować właściciela procesu lub komitet sterujący."
+        },
+        {
+          "tekst": "Tylko poinformować konsultowanego o decyzji",
+          "poprawna": false,
+          "wyjasnienie": "Samo informowanie to rola I. Uwagi C trzeba uwzględnić.",
+          "pulapka": "inna-kategoria"
+        }
+      ]
     }
-   ],
-   "status": "oficjalne",
-   "pretest": true,
-   "opcje": [
-    {
-     "tekst": "R – odpowiedzialny wykonawczo",
-     "poprawna": false,
-     "wyjasnienie": "R wykonuje zadanie, ale nie odpowiada ostatecznie za jego powodzenie.",
-     "zycie": "W życiu to tak, jakbyś za udane wesele uznał odpowiedzialnym kelnera, który tylko roznosi talerze."
-    },
-    {
-     "tekst": "A – rozliczany",
-     "poprawna": true,
-     "wyjasnienie": "A (Accountable) to strona ostatecznie odpowiedzialna za powodzenie zadania (FW-PL s. 89)."
-    },
-    {
-     "tekst": "C – konsultowany",
-     "poprawna": false,
-     "wyjasnienie": "C daje wejścia i opinie, ale nie odpowiada za wynik.",
-     "zycie": "W życiu to tak, jakbyś za udany remont uznał odpowiedzialnym sąsiada, którego tylko spytałeś o godziny wiercenia."
-    }
-   ]
-  },
-  {
-   "id": "q-en-03b-01",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-25"
-   ],
-   "lekcja": "en-03b-litery-raci",
-   "bloom": "rozumienie",
-   "trudnosc": 2,
-   "tresc": "W słowniku podręcznika PL czytasz hasło „strona odpowiedzialna (RACI)”. Której roli z tabeli RACI, w nazewnictwie egzaminu PL, odpowiada to hasło?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 93
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "A – rozliczany",
-     "poprawna": false,
-     "wyjasnienie": "To pułapka tłumaczenia. Za powodzenie odpowiada A, ale podręcznik nazywa A „stroną rozliczaną”, a nie „odpowiedzialną”.",
-     "pulapka": "forma-podrecznikowa",
-     "zycie": "W życiu to tak, jakbyś słowo „odpowiedzialny” na liście dyżurów wziął za szefa, a nie za osobę, która ma dyżur."
-    },
-    {
-     "tekst": "C – konsultowany",
-     "poprawna": false,
-     "wyjasnienie": "Podręcznik nazywa C „stroną konsultowaną” (s. 90).",
-     "pulapka": "inna-kategoria",
-     "zycie": "W życiu to tak, jakbyś osobę, którą pytasz o radę, wziął za tę, która robi robotę."
-    },
-    {
-     "tekst": "R – odpowiedzialny wykonawczo",
-     "poprawna": true,
-     "wyjasnienie": "„Strona odpowiedzialna” to R (Responsible): w tabeli RACI odpowiada na pytanie „Kto zajmuje się realizacją zadania?” (FW-PL s. 93). Egzamin dopisuje słowo „wykonawczo”."
-    },
-    {
-     "tekst": "I – informowany",
-     "poprawna": false,
-     "wyjasnienie": "Podręcznik nazywa I „stroną informowaną” (s. 92).",
-     "pulapka": "inna-kategoria",
-     "zycie": "W życiu to tak, jakbyś sąsiada, któremu powiesiłeś kartkę o remoncie, uznał za fachowca."
-    }
-   ]
-  },
-  {
-   "id": "q-en-03b-02",
-   "typ": "studium",
-   "sylabus": [
-    "EN-02-25"
-   ],
-   "lekcja": "en-03b-litery-raci",
-   "bloom": "zastosowanie",
-   "trudnosc": 2,
-   "scenariusz": "Dyżurny Paweł Grab co tydzień przeprowadza test alarmu w Syrenie i zapisuje wynik. Dzień przed testem dzwoni do dh. Stanisława Pietrzaka. Pietrzak mówi, o której godzinie ochotnicy z OSP Zawilce mogą odebrać próbny SMS, i Grab ustawia test na tę godzinę. Wynik testu trafia e-mailem do dowódcy zmiany Roberta Dąba, który go tylko czyta. Kierownik SK odpowiada przed komendantką za to, że testy się odbywają.",
-   "tresc": "Jaką rolę RACI przy cotygodniowym teście alarmu ma **dh Stanisław Pietrzak**?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 90
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "I – informowany",
-     "poprawna": false,
-     "wyjasnienie": "Informowany tylko dostaje wiadomość. Pietrzaka się pyta, a on odpowiada i jego odpowiedź zmienia test.",
-     "pulapka": "odwrocone",
-     "zycie": "W życiu to tak, jakbyś sąsiada, którego pytasz o godziny wiercenia, uznał za kogoś, komu tylko wieszasz kartkę."
-    },
-    {
-     "tekst": "R – odpowiedzialny wykonawczo",
-     "poprawna": false,
-     "wyjasnienie": "Test przeprowadza Grab, więc to on jest R.",
-     "pulapka": "inna-kategoria",
-     "zycie": "W życiu to tak, jakbyś gościa pytanego o ulubione danie wziął za kucharza."
-    },
-    {
-     "tekst": "A – rozliczany",
-     "poprawna": false,
-     "wyjasnienie": "Za to, że testy się odbywają, odpowiada kierownik SK.",
-     "pulapka": "inna-kategoria",
-     "zycie": "W życiu to tak, jakbyś sąsiada pytanego o radę uznał za inwestora, który odpowiada za cały remont."
-    },
-    {
-     "tekst": "C – konsultowany",
-     "poprawna": true,
-     "wyjasnienie": "Pietrzak dostarcza wejście (godzinę gotowości ochotników), a rozmowa idzie w obie strony. To rola C (FW-PL s. 90)."
-    }
-   ]
-  },
-  {
-   "id": "q-en-03b-03",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-25"
-   ],
-   "lekcja": "en-03b-litery-raci",
-   "bloom": "rozumienie",
-   "trudnosc": 2,
-   "tresc": "Które zdanie o roli **A (rozliczany)** w tabeli RACI jest zgodne z COBIT 5?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 89
-    },
-    {
-     "doc": "FW-PL",
-     "strona": 92
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "A musi osobiście wykonać zadanie, bo za nie odpowiada",
-     "poprawna": false,
-     "wyjasnienie": "Zadanie wykonuje R. A odpowiada za jego powodzenie i nie musi sam pracować.",
-     "pulapka": "inna-kategoria",
-     "zycie": "W życiu to tak, jakbyś myślał, że inwestor sam musi kłaść płytki, bo odpowiada za remont."
-    },
-    {
-     "tekst": "A dostarcza wejść w komunikacji dwukierunkowej",
-     "poprawna": false,
-     "wyjasnienie": "To opis roli C, czyli konsultowanego (s. 90).",
-     "pulapka": "inna-kategoria",
-     "zycie": "W życiu to tak, jakbyś inwestora remontu pomylił z sąsiadem, którego pytasz o zdanie."
-    },
-    {
-     "tekst": "A powinien zawsze otrzymywać informacje o realizacji, żeby nadzorować zadanie",
-     "poprawna": true,
-     "wyjasnienie": "Słownik: rola rozliczana powinna zawsze otrzymywać odpowiednie informacje, by nadzorować realizację zadania (FW-PL s. 92). A jest stroną ostatecznie odpowiedzialną (s. 89)."
-    },
-    {
-     "tekst": "A tylko otrzymuje informacje i nie odpowiada za wynik",
-     "poprawna": false,
-     "wyjasnienie": "To opis roli I. A dostaje informacje, ale przede wszystkim odpowiada za powodzenie zadania.",
-     "pulapka": "odwrocone",
-     "zycie": "W życiu to tak, jakbyś inwestora, który odpowiada za remont, uznał za sąsiada, który tylko czyta kartkę na klatce."
-    }
-   ]
-  },
-  {
-   "id": "q-men-en-03b-1",
-   "typ": "mentor",
-   "sylabus": [
-    "EN-02-25"
-   ],
-   "lekcja": "en-03b-litery-raci",
-   "bloom": "rozumienie",
-   "trudnosc": 2,
-   "postac": "mł. kpt. Ola Dudek, informatyczka",
-   "tresc": "„Skoro to ja wpisuję numery do Syreny, to chyba ja odpowiadam za całą listę? Czyli w tabeli RACI jestem A?”",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 89
-    },
-    {
-     "doc": "FW-PL",
-     "strona": 93
-    }
-   ],
-   "status": "przyklad",
-   "opcje": [
-    {
-     "tekst": "Tak, kto wpisuje, ten odpowiada. Jesteś A.",
-     "poprawna": false,
-     "wyjasnienie": "Przytakujesz błędowi. Wpisywanie to wykonanie zadania, czyli R.",
-     "pulapkaMentora": "przytakniecie"
-    },
-    {
-     "tekst": "R i A to prawie to samo, więc nie ma znaczenia, którą literę wpiszesz.",
-     "poprawna": false,
-     "wyjasnienie": "Fałszywe uproszczenie. Pomylenie R z A to najczęstsza pułapka egzaminu i źródło sporów po awarii.",
-     "pulapkaMentora": "falszywe-uproszczenie"
-    },
-    {
-     "tekst": "Nie. Ty wpisujesz numery, więc jesteś R: robisz zadanie. Za to, że lista jest dobra, odpowiada kpt. Sikora i to on jest A.",
-     "poprawna": true,
-     "wyjasnienie": "Prosto: wskazujesz czynność (wpisuje = R) i osobę, która odpowiada za wynik (A)."
-    },
-    {
-     "tekst": "Rola Responsible obejmuje realizację operacyjną, a Accountable – ostateczną rozliczalność za rezultat w ramach praktyki.",
-     "poprawna": false,
-     "wyjasnienie": "Poprawnie, ale żargonem. Ola nie dowie się, którą literę ma.",
-     "pulapkaMentora": "zargon"
-    }
-   ]
-  },
-  {
-   "id": "q-zap-en-03b-1",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-25"
-   ],
-   "bloom": "zastosowanie",
-   "trudnosc": 1,
-   "scenariusz": "Po każdej aktualizacji listy numerów w Syrenie dyżurni w SK dostają SMS: „Lista numerów OSP zaktualizowana”. Nikt ich wcześniej nie pyta o zdanie i nie muszą niczego potwierdzać.",
-   "tresc": "Jaką rolę RACI przy aktualizacji listy numerów mają dyżurni w SK?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 92
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "C – konsultowany",
-     "poprawna": false,
-     "wyjasnienie": "Konsultowanego pyta się o zdanie przed zmianą, a dyżurnych nikt nie pyta.",
-     "pulapka": "odwrocone"
-    },
-    {
-     "tekst": "I – informowany",
-     "poprawna": true,
-     "wyjasnienie": "Dyżurni tylko otrzymują wiadomość, a komunikacja jest jednokierunkowa. To rola I (FW-PL s. 92)."
-    },
-    {
-     "tekst": "R – odpowiedzialny wykonawczo",
-     "poprawna": false,
-     "wyjasnienie": "Numery wpisuje Ola Dudek, a nie dyżurni.",
-     "pulapka": "inna-kategoria"
-    },
-    {
-     "tekst": "A – rozliczany",
-     "poprawna": false,
-     "wyjasnienie": "Za listę odpowiada kpt. Sikora. Dyżurni nie tłumaczą się z jej jakości.",
-     "pulapka": "inna-kategoria"
-    }
-   ]
-  },
-  {
-   "id": "q-zap-en-03b-2",
-   "typ": "egzamin",
-   "sylabus": [
-    "EN-02-25"
-   ],
-   "bloom": "rozumienie",
-   "trudnosc": 2,
-   "tresc": "Konsultowany przekazał swoje uwagi do zadania, ale wykonawca ich nie uwzględnił. Co według COBIT 5 powinny zrobić role R i A?",
-   "zrodlo": [
-    {
-     "doc": "FW-PL",
-     "strona": 90
-    }
-   ],
-   "status": "oficjalne",
-   "opcje": [
-    {
-     "tekst": "Pominąć uwagi, bo konsultowany tylko doradza",
-     "poprawna": false,
-     "wyjasnienie": "Podręcznik mówi, że R i A powinni uwzględnić wejścia od stron konsultowanych.",
-     "pulapka": "falsz"
-    },
-    {
-     "tekst": "Przekazać decyzję konsultowanemu, bo to on zna temat",
-     "poprawna": false,
-     "wyjasnienie": "C dostarcza wejścia, ale nie przejmuje odpowiedzialności. Odpowiedzialność za sukces ma A.",
-     "pulapka": "odwrocone"
-    },
-    {
-     "tekst": "Uwzględnić uwagi C, a w razie potrzeby eskalować sprawę, np. do właściciela procesu",
-     "poprawna": true,
-     "wyjasnienie": "FW-PL s. 90: R i A powinni uwzględnić dane wejściowe od stron konsultowanych i w razie potrzeby podjąć eskalację, w tym poinformować właściciela procesu lub komitet sterujący."
-    },
-    {
-     "tekst": "Tylko poinformować konsultowanego o decyzji",
-     "poprawna": false,
-     "wyjasnienie": "Samo informowanie to rola I. Uwagi C trzeba uwzględnić.",
-     "pulapka": "inna-kategoria"
-    }
-   ]
-  }
- ]
+  ]
 }

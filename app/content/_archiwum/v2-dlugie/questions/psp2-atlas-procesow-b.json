@@ -1,0 +1,58 @@
+[
+  {
+    "id": "q-atl-dss-a-02",
+    "typ": "klasyfikacja",
+    "sylabus": [
+      "PR-01-04"
+    ],
+    "lekcja": "pr-23-atlas-dss-a",
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Przypisz każde działanie do procesu domeny DSS.",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 33,
+        "ilustracja": "16"
+      }
+    ],
+    "status": "uproszczenie",
+    "kategorie": [
+      "DSS01",
+      "DSS02",
+      "DSS03"
+    ],
+    "elementy": [
+      {
+        "tekst": "Codzienne sprawdzanie dzienników nocnych zadań",
+        "kategoria": "DSS01",
+        "wyjasnienie": "Zaplanowana rutyna i monitorowanie to eksploatacja."
+      },
+      {
+        "tekst": "Cotygodniowa kontrola zasilania awaryjnego i klimatyzacji w serwerowni",
+        "kategoria": "DSS01",
+        "wyjasnienie": "Dbanie o środowisko i pomieszczenia IT należy do DSS01."
+      },
+      {
+        "tekst": "Odblokowanie hasła na prośbę pracownika",
+        "kategoria": "DSS02",
+        "wyjasnienie": "Zwykła prośba użytkownika to zgłoszenie serwisowe w DSS02."
+      },
+      {
+        "tekst": "Restart bramki SMS, żeby alarm znów wychodził",
+        "kategoria": "DSS02",
+        "wyjasnienie": "Szybkie przywrócenie usługi to obsługa incydentu."
+      },
+      {
+        "tekst": "Analiza zgłoszeń z pół roku w poszukiwaniu wspólnej przyczyny",
+        "kategoria": "DSS03",
+        "wyjasnienie": "Szukanie przyczyny źródłowej to zarządzanie problemami."
+      },
+      {
+        "tekst": "Zapisanie znanego błędu i obejścia do czasu trwałej poprawki",
+        "kategoria": "DSS03",
+        "wyjasnienie": "Znany błąd i obejście należą do DSS03; problem zostaje otwarty do usunięcia przyczyny."
+      }
+    ]
+  }
+]

@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wstęp · COBIT 5</title>
+<script>try{var t=localStorage.getItem('c5.theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Fraunces:opsz,wght@9..144,560&display=swap">
+<link rel="stylesheet" href="podrecznik.css">
+</head>
+<body>
+<script>
+window.DECK={id:'00-wstep',rozdzial:'Część 0 · Wstęp i streszczenie · s. 11–14',tytul:'Po co jest COBIT 5',prev:null,next:'k-m0-cobit.html',
+T:{
+isaca:{
+  t:'ISACA',
+  eg:'ISACA',
+  pd:'ISACA',
+  en:'ISACA (dawniej Information Systems Audit and Control Association – Stowarzyszenie ds. Audytu i Kontroli Systemów Informatycznych)',
+  wyj:'ISACA to międzynarodowe stowarzyszenie non-profit założone w 1969 r., które zrzesza specjalistów od audytu, bezpieczeństwa, ryzyka i ładu informatycznego (podręcznik podaje 95 tysięcy członków w 160 krajach). To ona opracowała i wydaje COBIT 5 – nie jest to norma państwowa ani ustawa, tylko dorobek środowiska zawodowego.\n\nISACA prowadzi też certyfikaty zawodowe: CISA (Certified Information Systems Auditor – certyfikowany audytor systemów informatycznych), CISM (Certified Information Security Manager – kierownik ds. bezpieczeństwa informacji), CGEIT (Certified in the Governance of Enterprise IT – specjalista ds. ładu IT w organizacji) i CRISC (Certified in Risk and Information Systems Control – specjalista ds. ryzyka i kontroli systemów informatycznych).\n\nDla kursu ważne jest to, że COBIT 5 zebrał w jednym miejscu wcześniejsze opracowania ISACA: COBIT 4.1, Val IT (o wartości z inwestycji w IT) i Risk IT (o ryzyku IT). Dlatego COBIT 5 może być „pojedynczą zintegrowaną strukturą ramową” (zasada 3).',
+  zycie:'Lekarze mają towarzystwa naukowe, które piszą wytyczne leczenia. Wytyczne nie są prawem, ale lekarz, który ich nie zna, szybko wypada z obiegu. ISACA jest takim „towarzystwem” dla audytorów i specjalistów od ładu IT, a COBIT – jego najważniejszymi wytycznymi.',
+  firma:'Bank zatrudnia audytora wewnętrznego z certyfikatem CISA. Gdy nadzorca finansowy pyta, jak bank kontroluje swoje systemy, audytor pokazuje plan audytu oparty na procesach COBIT 5. Bank, audytor i nadzorca mówią wtedy wspólnym językiem.',
+  urzad:'W ministerstwie biuro audytu wewnętrznego planuje roczny przegląd systemów teleinformatycznych. Audytorka z certyfikatem CISA bierze za punkt wyjścia procesy COBIT 5, żeby nie wymyślać od zera, co sprawdzić, i żeby wyniki dało się porównać z wcześniejszymi latami.',
+  egz:'ISACA to wydawca COBIT 5 (2012 r.). Nie jest wydawcą ITIL (ten pochodzi z brytyjskiej administracji rządowej, dziś prawa do niego ma AXELOS, należąca do PeopleCert – wiedza ogólna) ani norm ISO (Międzynarodowa Organizacja Normalizacyjna). Odpowiedzi „COBIT 5 wydała ISO” albo „COBIT 5 to norma ISO” odrzucaj od razu. Pełnego rozwinięcia skrótu ISACA dziś się nie używa – organizacja posługuje się samym skrótem.',
+  src:'FW-PL s. 2 (opis ISACA, rok 1969, certyfikaty, © 2012), s. 25 (COBIT, Val IT, Risk IT w jednej strukturze); ITIL/AXELOS i dawna nazwa – wiedza ogólna'
+},
+info:{
+  t:'Informacja',
+  eg:'Informacja',
+  pd:'Informacje / informacja',
+  en:'Information',
+  wyj:'Informacja to w COBIT 5 kluczowy zasób każdej organizacji – tak samo ważny jak pieniądze czy ludzie. Streszczenie zaczyna się od stwierdzenia, że technologia odgrywa istotną rolę od chwili utworzenia informacji aż do jej zniszczenia, więc kto nie panuje nad IT, ten nie panuje nad własnymi danymi.\n\nInformacja ma cykl życia. Podręcznik wymienia fazy: planowanie, projektowanie, budowanie/nabywanie, użytkowanie/obsługa (przechowywanie, udostępnianie, wykorzystanie), ocena/monitorowanie oraz aktualizacja/pozbywanie się (archiwizacja albo zniszczenie). Na każdym etapie co innego może pójść źle i kto inny odpowiada za dane.\n\nW dalszej części kursu informacja wróci jako jeden z siedmiu aktywatorów (zasada 4), a cykl życia – jako jeden z czterech wymiarów, którymi opisuje się każdy aktywator (obok interesariuszy, celów i dobrych praktyk).',
+  zycie:'Twoja dokumentacja medyczna: ktoś zaplanował formularz, lekarz tworzy wpis przy wizycie, przychodnia go przechowuje, udostępnia specjaliście przez e-skierowanie, a po latach archiwizuje albo niszczy. Gdy na którymś etapie coś zawiedzie – zgubione wyniki, dostęp dla niewłaściwej osoby – cierpisz Ty, a nie komputer.',
+  firma:'Ubezpieczyciel przyjmuje zgłoszenie szkody przez aplikację (nabywanie), trzyma zdjęcia i opisy w bazie (przechowywanie), przekazuje je likwidatorowi (udostępnianie), na ich podstawie wypłaca odszkodowanie (wykorzystanie), a po upływie okresu przechowywania usuwa dane. Jeśli zdjęcia trafią do niewłaściwej osoby, problemem jest bezpieczeństwo informacji, a nie tylko „usterka IT”.',
+  urzad:'Gmina przyjmuje deklarację podatku od nieruchomości (nabywanie), wprowadza ją do systemu podatkowego (przechowywanie), udostępnia referatowi księgowości (udostępnianie), nalicza podatek i wysyła decyzję (wykorzystanie), a po latach przekazuje akta do archiwum zakładowego. Każdy z tych etapów ma swojego właściciela i swoje ryzyka.',
+  egz:'Podręcznik raz pisze „informacje”, raz „informacja”; na egzaminie aktywator nazywa się „Informacja”. Pułapka: Informacja to NIE to samo co aktywator „Usługi, Infrastruktura i Aplikacje” – system to infrastruktura, a dane w nim to Informacja. Cykl życia jest wymiarem każdego aktywatora, nie tylko informacji.',
+  src:'FW-PL s. 13 (informacja jako kluczowy zasób), s. 14 i 27 (7 aktywatorów), s. 82–83 (fazy cyklu życia informacji)'
+},
+lad:{
+  t:'Ład',
+  eg:'Ład',
+  pd:'Nadzór',
+  en:'Governance',
+  wyj:'Ład to wszystko, co robi najwyższy organ organizacji, żeby IT służyło jej celom: ocenia potrzeby, warunki i opcje interesariuszy, wybiera kierunek i priorytety, a potem sprawdza, czy działania idą w ustalonym kierunku. COBIT 5 opisuje to trzema czasownikami: Oszacuj (Evaluate), Kieruj (Direct) i Monitoruj (Monitor) – stąd skrót EDM.\n\nZa Ład odpowiada zwykle zarząd (ang. board) pod przewodnictwem prezesa (ang. chairperson); w dużych, złożonych organizacjach część obowiązków można przekazać specjalnym strukturom, np. komitetom. Ład nie wdraża systemów i nie prowadzi projektów – mówi „co i dlaczego”, a nie „jak”.\n\nŁad jest jedną stroną zasady 5 (Oddzielenie Ładu od Zarządzania). W modelu procesów odpowiada mu domena EDM z pięcioma procesami (EDM01–EDM05).',
+  zycie:'We wspólnocie mieszkaniowej zebranie właścicieli decyduje: w tym roku remont dachu, a nie nowa elewacja, budżet do 200 tys. zł. Potem co kwartał czyta raport zarządcy. Zebranie nie kładzie dachówek – ocenia, decyduje i pilnuje; to jest Ład.',
+  firma:'Zarząd banku dostaje trzy propozycje: nowa aplikacja mobilna, wymiana systemu kart, wzmocnienie ochrony przed wyłudzeniami. Po ocenie korzyści i ryzyka decyduje: najpierw ochrona przed wyłudzeniami, aplikacja w drugiej kolejności. Co kwartał sprawdza raport, czy liczba wyłudzeń spada – to Oszacuj, Kieruj, Monitoruj.',
+  urzad:'W gminie wójt razem z radą gminy (która uchwala budżet) ustala, że w tym roku priorytetem jest e-płatność podatków, a cyfryzacja archiwum poczeka. Co pół roku wójt dostaje od sekretarza gminy informację, ilu mieszkańców płaci online. Wójt nie konfiguruje systemu – wyznacza kierunek i rozlicza wyniki.',
+  egz:'Podręcznik pisze „nadzór”, egzamin – „Ład” (EN Governance); „nadzór” pojawia się jako dystraktor albo w zbitce „ład i nadzór”. Ład = Oszacuj, Kieruj i Monitoruj (EDM), a NIE „Planuj, Twórz, Wykonuj i Monitoruj” – to Zarządzanie. Oba mają „Monitoruj”, ale Ład monitoruje, czy realizacja idzie w kierunku, który sam wyznaczył. Uwaga na polskie realia: w spółce „prezes zarządu” to zwykle CEO, a COBIT opisuje model, w którym board z przewodniczącym (chair) nadzoruje CEO.',
+  src:'FW-PL s. 14 (definicja, zarząd pod przywództwem prezesa), s. 32 (EDM, 5 procesów, przypis o monitorowaniu); nazwy egzaminacyjne – słownik kursu (zestawienie Altkom, SP1); uwaga o polskich spółkach – wiedza ogólna'
+},
+zarz:{
+  t:'Zarządzanie',
+  eg:'Zarządzanie (jako rola: Kierownictwo)',
+  pd:'Zarządzanie',
+  en:'Management',
+  wyj:'Zarządzanie to codzienna realizacja kierunku wyznaczonego przez Ład: planowanie, budowanie, uruchamianie i monitorowanie działań tak, żeby osiągnąć cele organizacji. Na egzaminie: Planuj, Twórz, Wykonuj i Monitoruj (EN Plan, Build, Run, Monitor – PBRM).\n\nOdpowiada za nie kadra kierownicza pod przewodnictwem dyrektora generalnego (CEO – Chief Executive Officer, prezes wykonawczy, szef całej bieżącej działalności). Do kadry należą też np. CIO (Chief Information Officer – dyrektor ds. informatyki) i CFO (Chief Financial Officer – dyrektor finansowy).\n\nW modelu procesów Zarządzanie ma cztery domeny: APO (Dostosuj, Planuj i Organizuj), BAI (Twórz, Nabywaj i Wdrażaj), DSS (Dostarczaj, Obsługuj i Wspieraj) oraz MEA (Monitoruj, Oszacuj i Oceń) – razem 32 procesy. Wyniki Zarządzania wracają do Ładu jako informacja zwrotna.',
+  zycie:'We wspólnocie mieszkaniowej zarządca nieruchomości po decyzji zebrania zbiera oferty dekarzy (planuje), podpisuje umowę i pilnuje robót (buduje), odbiera dach i organizuje przeglądy (uruchamia), a co kwartał raportuje postępy (monitoruje). Nie zmienia sam decyzji „dach zamiast elewacji” – realizuje ją.',
+  firma:'W szpitalu dyrektor generalny zleca kierownikowi działu IT wdrożenie elektronicznej dokumentacji medycznej, o której zdecydowała rada. Kierownik IT układa harmonogram, wybiera dostawcę, uruchamia system na oddziałach i co miesiąc raportuje, ile oddziałów pracuje już bez papieru.',
+  urzad:'W starostwie powiatowym sekretarz powiatu i naczelnik wydziału informatyki realizują decyzję zarządu powiatu o elektronicznym obiegu dokumentów. Ogłaszają przetarg, nadzorują wdrożenie, szkolą urzędników i co miesiąc raportują, ile spraw prowadzi się już elektronicznie.',
+  egz:'Ta sama nazwa w podręczniku i na egzaminie, ale jako rola (np. na schemacie ról) pojawia się „Kierownictwo”. Zarządzanie = Planuj, Twórz, Wykonuj i Monitoruj; zła odpowiedź to „Oszacuj, Kieruj i Monitoruj” (to Ład). Pułapka nazw: podręcznik pisze „planowanie, budowanie, realizacja i monitorowanie”, a egzamin „Twórz” i „Wykonuj”. Za Zarządzanie odpowiada CEO, za Ład – zarząd z prezesem (chairperson).',
+  src:'FW-PL s. 14 (definicja, CEO), s. 32 (PBRM, domeny APO, BAI, DSS, MEA); nazwy egzaminacyjne domen – SP1, słownik kursu; CIO, CFO – wiedza ogólna'
+},
+wartosc:{
+  t:'Tworzenie wartości',
+  eg:'Cel Ładu: Tworzenie Wartości',
+  pd:'Cel nadzoru: tworzenie wartości',
+  en:'Governance Objective: Value Creation',
+  wyj:'Tworzenie wartości to cel Ładu w COBIT 5 – odpowiedź na pytanie, po co w ogóle zajmować się IT na poziomie zarządu. Wartość nie oznacza „jak najwięcej funkcji” ani „jak najtaniej”, tylko osiąganie korzyści przy optymalnym ryzyku i optymalnym zużyciu zasobów.\n\nMa trzy elementy: realizacja korzyści (Benefits Realisation), optymalizacja ryzyka (Risk Optimisation) i optymalizacja zasobów (Resource Optimisation). Przy każdej decyzji pyta się: kto odnosi korzyści, kto ponosi ryzyko, jakie zasoby są potrzebne. Korzyści w firmie są zwykle finansowe, a w administracji to lepsze usługi publiczne.\n\nTworzenie wartości to punkt wyjścia zasady 1 (Realizacja potrzeb interesariusza): potrzeby interesariuszy przekłada się na cel Ładu, a potem przez kaskadę celów na cele organizacji, cele związane z Informatyką i cele aktywatora.',
+  zycie:'Kupujesz samochód rodzinny. Korzyść: bezpieczne dojazdy z dziećmi. Ryzyko: awaria w trasie, więc wybierasz model z dobrą opinią i gwarancją. Zasoby: budżet 60 tys. zł i czas na serwis. Najdroższe auto nie daje najlepszej wartości, najtańsze też nie – szukasz równowagi.',
+  firma:'Sklep internetowy rozważa płatność jednym kliknięciem. Korzyść: o 8% więcej zamówień. Ryzyko: więcej prób oszustw, więc dodaje weryfikację przy dużych kwotach. Zasoby: dwóch programistów na trzy miesiące zamiast pięciu, bo część rozwiązania kupuje od operatora płatności. Taki świadomy kompromis to tworzenie wartości.',
+  urzad:'Gmina wdraża internetową rezerwację wizyt w urzędzie stanu cywilnego. Korzyść: krótsze kolejki i mniej skarg. Ryzyko: przetwarzanie danych osobowych – trzeba zabezpieczyć system i umowę z dostawcą. Zasoby: 40 tys. zł z budżetu i informatyk na pół etatu. Wartością jest wygoda mieszkańców, a nie zysk finansowy.',
+  egz:'Na egzaminie: „Cel Ładu: Tworzenie Wartości” – trzy elementy: realizacja korzyści, optymalizacja ryzyka, optymalizacja zasobów. Typowe pułapki: „minimalizacja ryzyka” albo „eliminacja ryzyka” (źle – ma być optymalizacja), „maksymalizacja zysku”, „minimalizacja kosztów IT” (koszty to tylko część zasobów). Nie mylić z 17 celami organizacji – to inny poziom.',
+  src:'FW-PL s. 13 (optymalna wartość, równowaga), s. 14 (zasada 1), s. 17 (Ilustracja 3, trzy pytania, korzyści w sektorze publicznym)'
+},
+ryzyko:{
+  t:'Ryzyko związane z IT',
+  eg:'Ryzyko; element celu Ładu: Optymalizacja ryzyka',
+  pd:'Ryzyko związane z IT; optymalizacja ryzyka',
+  en:'IT-related Risk; Risk Optimisation',
+  wyj:'Ryzyko związane z IT to możliwość, że coś związanego z informatyką pójdzie źle i zaszkodzi organizacji – od utraty danych, przez nieudany projekt, po karę za złamanie przepisów. Ocenia się je zawsze w dwóch wymiarach: jak prawdopodobne jest zdarzenie i jak duże byłyby jego skutki.\n\nCOBIT 5 nie każe ryzyka usuwać, tylko je optymalizować – utrzymać na poziomie, który organizacja świadomie akceptuje (apetyt na ryzyko). Zero ryzyka oznaczałoby zero innowacji: żaden nowy system nie zostałby uruchomiony.\n\nOptymalizacja ryzyka to jeden z trzech elementów celu Ładu (obok realizacji korzyści i optymalizacji zasobów). Na poziomie Ładu odpowiada za nią proces EDM03, a bieżące zarządzanie ryzykiem prowadzi proces APO12.',
+  zycie:'Jeździsz rowerem do pracy. Możesz zrezygnować (zero ryzyka, ale i zero korzyści), ale wolisz kask, światła i bezpieczniejszą trasę. Ryzyko zostaje, tylko na poziomie, który akceptujesz – to właśnie optymalizacja.',
+  firma:'Szpital przenosi system rejestracji pacjentów do chmury. Ryzyka: przerwa w dostępie, wyciek danych medycznych, dostawca nie dotrzyma umowy. Dyrekcja nie rezygnuje z chmury, ale wymaga szyfrowania, zapasowego łącza i kar umownych – i świadomie akceptuje ryzyko, które zostaje.',
+  urzad:'Ministerstwo uruchamia portal do składania wniosków o dotacje. Ryzyko: awaria w ostatnim dniu naboru i zarzut nierównego traktowania wnioskodawców. Ministerstwo robi testy obciążeniowe i przygotowuje procedurę przedłużenia terminu – ryzyko zmalało do akceptowalnego, choć nie zniknęło.',
+  egz:'Słowo klucz: OPTYMALIZACJA ryzyka. Odpowiedzi „minimalizacja ryzyka”, „eliminacja ryzyka”, „unikanie wszelkiego ryzyka” są złe. W streszczeniu zarząd dąży do „utrzymania ryzyka związanego z IT na akceptowalnym poziomie”. Nie mylić: EDM03 (Ład – Zapewnienie optymalizacji ryzyka) i APO12 (Zarządzanie – Zarządzanie ryzykiem).',
+  src:'FW-PL s. 13 (ryzyko na akceptowalnym poziomie), s. 17 (optymalizacja ryzyka, apetyt na ryzyko), s. 33 (EDM03, APO12), s. 36 (utrata danych, niepowodzenie projektu)'
+},
+framework:{
+  t:'Struktura ramowa',
+  eg:'Struktura ramowa',
+  pd:'Metodyka',
+  en:'Framework',
+  wyj:'Struktura ramowa to szkielet pojęć, zasad i modeli, w który organizacja wkłada własne decyzje. COBIT 5 nie jest gotową instrukcją krok po kroku ani programem komputerowym – mówi, o czym trzeba pomyśleć i jak to uporządkować, ale nie dyktuje każdego szczegółu.\n\nPodręcznik podkreśla, że COBIT 5 ma charakter ogólny: nadaje się dla organizacji każdej wielkości – komercyjnych, non-profit i publicznych. Model procesów też nie jest normatywny: każda organizacja definiuje własny zbiór procesów, mniejsze mogą mieć ich mniej.\n\nW zasadzie 3 COBIT 5 występuje jako „pojedyncza zintegrowana struktura ramowa” – parasol, pod którym mieszczą się bardziej szczegółowe standardy, np. ITIL czy ISO/IEC 27001.',
+  zycie:'Szkielet domu z prefabrykatów: ściany nośne, dach i instalacje są zaprojektowane, ale układ kuchni, kolor ścian i meble wybierasz sam. Dwa domy z tego samego szkieletu wyglądają w środku zupełnie inaczej.',
+  firma:'Duży bank i mały sklep internetowy korzystają z tej samej ramy COBIT 5. Bank ma osobne komitety, dziesiątki procesów i zespół audytu; sklep z 20 pracownikami łączy kilka procesów w jeden, a wszystkie role pełni trzech menedżerów. Oba podejścia są zgodne z COBIT 5, choć wyglądają inaczej.',
+  urzad:'Mała gmina wiejska z dwoma informatykami i ministerstwo z 150-osobowym departamentem IT korzystają z tej samej struktury ramowej. Gmina wybiera kilka najważniejszych obszarów (kopie zapasowe, uprawnienia, umowy z dostawcami), ministerstwo wdraża szeroki zestaw procesów – dopasowanie do skali jest wpisane w ramę.',
+  egz:'Podręcznik: „metodyka”, egzamin: „struktura ramowa” (EN Framework). Gdy w odpowiedzi stoi „metodyka COBIT 5”, to nazwa podręcznikowa – na egzaminie szukaj „struktury ramowej”. Pułapki: COBIT 5 NIE jest normą do certyfikacji organizacji (to ISO/IEC 27001), programem komputerowym ani przepisem prawa.',
+  src:'FW-PL s. 13 (charakter ogólny, każda wielkość i sektor), s. 14 i 25 (nadrzędna struktura), s. 32 (model nie jest normatywny); nazwa egzaminacyjna – słownik kursu (Altkom, SP1)'
+},
+aktywator:{
+  t:'Aktywator',
+  eg:'Aktywator',
+  pd:'Czynnik umożliwiający',
+  en:'Enabler',
+  wyj:'Aktywator to wszystko, co pomaga organizacji osiągnąć cele – podręcznik mówi wprost, że to pojęcie bardzo szerokie. Nie wystarczy sam proces ani sam system: potrzebni są też ludzie z umiejętnościami, jasne zasady, odpowiednia kultura i dobre dane.\n\nCOBIT 5 wyróżnia 7 kategorii aktywatorów: 1) Zasady, polityki i struktury ramowe; 2) Procesy; 3) Struktury organizacyjne; 4) Kultura, etyka i zachowanie; 5) Informacja; 6) Usługi, infrastruktura i aplikacje; 7) Ludzie, umiejętności i kompetencje.\n\nAktywatory to treść zasady 4 (Aktywacja holistycznego podejścia): działają razem i zależą od siebie. Na samym dole kaskady celów każdy aktywator dostaje własne cele – cele aktywatora.',
+  zycie:'Chcesz nauczyć się pływać. Potrzebujesz basenu (infrastruktura), planu treningów (proces), instruktora (ludzie i umiejętności), zasady „nie pływam sam” (zasady), motywacji (kultura i zachowanie) i zapisu postępów (informacja). Brak jednego elementu psuje całość.',
+  firma:'Ubezpieczyciel chce szybciej likwidować szkody. Aktywatory: proces likwidacji szkód, aplikacja do zgłoszeń, zespół likwidatorów z jasnymi uprawnieniami, polityka limitów wypłat, rzetelne dane o szkodach i kultura, w której likwidator nie boi się zgłosić błędu w systemie.',
+  urzad:'Starostwo chce szybciej wydawać prawa jazdy. Aktywatory: procedura obsługi wniosku, system do obsługi dokumentów komunikacyjnych, przeszkoleni urzędnicy, zarządzenie starosty o terminach, rzetelne dane o wnioskach i kultura życzliwej obsługi interesanta.',
+  egz:'Podręcznik: „czynnik umożliwiający”, egzamin: „aktywator” (EN Enabler). Liczba: 7 kategorii (nie 5 – to zasady; nie 37 – to procesy). Pułapka: „Zasady, polityki i metodyki” to nazwa podręcznikowa pierwszego aktywatora, na egzaminie: „Zasady, Polityki i Struktury ramowe”. Typowa zła odpowiedź: „aktywatorem jest tylko technologia”.',
+  src:'FW-PL s. 14 (definicja, 7 kategorii), s. 27 (zasada 4); nazwy egzaminacyjne – słownik kursu (Altkom, SP1)'
+},
+assurance:{
+  t:'Audyt (Assurance)',
+  eg:'Audyt (Assurance) – nazwa przewodnika na egzaminie niepotwierdzona',
+  pd:'COBIT 5 — Audyt',
+  en:'Assurance (COBIT 5 for Assurance)',
+  wyj:'Assurance to po angielsku „dawanie pewności”: niezależna osoba lub zespół sprawdza coś według ustalonych kryteriów i wydaje opinię, czy działa tak, jak powinno. Formalny audyt (audit) jest jednym z rodzajów assurance, ale do tej rodziny należą też np. przeglądy i oceny.\n\nPolski podręcznik tłumaczy tytuł przewodnika specjalistycznego „COBIT 5 for Assurance” jako „COBIT 5 — Audyt”. To przewodnik dla audytorów i osób, które mają dać zarządowi pewność, że Ład i Zarządzanie IT działają.\n\nW samej strukturze ramowej niezależne sprawdzanie łączy się z domeną MEA (Monitoruj, Oszacuj i Oceń) – szczegóły w dalszych częściach kursu.',
+  zycie:'Kupujesz używane auto i jedziesz z nim do niezależnego mechanika. Mechanik nie jest ani sprzedawcą, ani Tobą – sprawdza według listy kontrolnej i mówi: „hamulce w porządku, rozrząd do wymiany”. Daje Ci pewność, zanim podejmiesz decyzję.',
+  firma:'Zarząd ubezpieczyciela chce wiedzieć, czy kopie zapasowe danych klientów naprawdę da się odtworzyć. Audyt wewnętrzny losuje trzy kopie, odtwarza je na serwerze testowym i pisze raport: dwie poprawne, jedna niekompletna. Zarząd dostaje pewność opartą na dowodach, a nie na zapewnieniach działu IT.',
+  urzad:'Audytor wewnętrzny ministerstwa sprawdza, czy uprawnienia do systemu kadrowego mają tylko osoby, które ich potrzebują. Porównuje listę kont z listą zatrudnionych i znajduje 12 kont osób, które odeszły z pracy. Raport z zaleceniami trafia do dyrektora generalnego urzędu.',
+  egz:'Tytuł przewodnika w podręczniku PL: „COBIT 5 — Audyt”, w oryginale „COBIT 5 for Assurance” – nie „for Audit”. Przewodniki specjalistyczne to: Wdrożenie, Bezpieczeństwo informacji, Audyt (Assurance), Ryzyko. Pułapka: przewodniki specjalistyczne NIE są przewodnikami o aktywatorach (tymi są Procesy umożliwiające i Informacje umożliwiające).',
+  src:'FW-PL s. 11 (Ilustracja 1, lista przewodników); różnica audit/assurance i tytuły EN – wiedza ogólna'
+},
+kultura:{
+  t:'Kultura, etyka i zachowanie',
+  eg:'Kultura, Etyka i Zachowanie',
+  pd:'Kultura, etyka i zachowanie',
+  en:'Culture, Ethics and Behaviour',
+  wyj:'Ten aktywator opisuje, jak ludzie w organizacji naprawdę się zachowują – indywidualnie i zbiorowo – a nie jak każe regulamin. Obejmuje wartości, według których organizacja chce działać, wartości samych pracowników i codzienne zachowania, np. stosunek do ryzyka czy gotowość do zgłaszania błędów.\n\nCOBIT 5 zalicza kulturę do aktywatorów, bo bez niej pozostałe nie działają: najlepsza polityka bezpieczeństwa jest martwa, jeśli wszyscy uważają ją za biurokrację i ją omijają.\n\nTo jeden z 7 aktywatorów (zasada 4) – często niedoceniany i najtrudniejszy do zmiany. Wróci w kursie przy wdrażaniu, gdzie zmiana zachowań ludzi jest osobnym zadaniem.',
+  zycie:'W domu obowiązuje zasada „nie jemy przed telewizorem”, ale rodzice sami jedzą na kanapie. Dzieci uczą się z tego, co widzą, a nie z zasady. Kultura to właśnie to, co dzieje się naprawdę.',
+  firma:'Bank ma politykę haseł: 12 znaków, zmiana co 90 dni. Audyt znajduje hasła na karteczkach przyklejonych do monitorów w trzech oddziałach. Problem nie leży w polityce ani w systemie, tylko w kulturze i zachowaniu – pomaga szkolenie, przykład dyrektorów oddziałów i menedżer haseł zamiast karteczek.',
+  urzad:'W urzędzie gminy pracownica klika w podejrzany link i od razu mówi o tym informatykowi, bo wie, że nikt jej za to nie ukarze. Informatyk odcina komputer od sieci w 10 minut. W urzędzie, w którym za błędy się karze, ta sama sytuacja wyszłaby na jaw po tygodniu.',
+  egz:'Na egzaminie wielkimi literami: „Kultura, Etyka i Zachowanie”. Nie mylić z aktywatorem „Ludzie, Umiejętności i Kompetencje” (co ludzie umieją, a nie jak się zachowują) ani z „Zasady, Polityki i Struktury ramowe” (co jest spisane, a nie co się dzieje). Kultura to jeden z 7 aktywatorów, nie osobna zasada.',
+  src:'FW-PL s. 14 (lista aktywatorów), s. 79 (zachowania indywidualne i zbiorowe)'
+},
+itil:{
+  t:'ITIL i ISO/IEC 27001',
+  eg:'ITIL, ISO/IEC 27001',
+  pd:'ITIL, ISO/IEC 27000',
+  en:'ITIL (IT Infrastructure Library); ISO/IEC 27001',
+  wyj:'ITIL (IT Infrastructure Library – „biblioteka infrastruktury IT”) to zbiór dobrych praktyk świadczenia usług IT: jak prowadzić helpdesk, obsługiwać awarie, wprowadzać zmiany w systemach. ISO/IEC 27001 to międzynarodowa norma (ISO – Międzynarodowa Organizacja Normalizacyjna, IEC – Międzynarodowa Komisja Elektrotechniczna) o systemie zarządzania bezpieczeństwem informacji; organizacja może uzyskać certyfikat zgodności z nią.\n\nOba są węższe i bardziej szczegółowe niż COBIT 5. COBIT 5 nie próbuje ich zastąpić – jest z nimi spójny na poziomie ogólnym i działa jak parasol: mówi, co organizacja ma osiągnąć i kto o tym decyduje, a ITIL czy ISO/IEC 27001 podpowiadają, jak to zrobić w swoim wycinku.\n\nTo sedno zasady 3 (Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej). Podręcznik pokazuje też, które obszary COBIT 5 pokrywają m.in. ITIL, ISO/IEC 27000, ISO/IEC 38500, TOGAF (The Open Group Architecture Framework) i PRINCE2 (PRojects IN Controlled Environments).',
+  zycie:'Plan remontu mieszkania mówi: w tym roku łazienka, budżet 30 tys. zł, gotowe do wakacji. Szczegółowe instrukcje układania płytek czy podłączania prądu dają fachowcy i normy budowlane. Plan ich nie zastępuje, tylko układa w całość.',
+  firma:'Bank prowadzi helpdesk i obsługę awarii według ITIL, dział bezpieczeństwa ma certyfikat ISO/IEC 27001, a zarząd ustala priorytety i rozlicza wyniki według COBIT 5. Dzięki COBIT 5 wiadomo, który standard odpowiada za który obszar i jak to wszystko łączy się z celami banku.',
+  urzad:'Ministerstwo buduje system zarządzania bezpieczeństwem informacji na wzór ISO/IEC 27001, a punkt obsługi zgłoszeń użytkowników organizuje według ITIL. COBIT 5 służy kierownictwu do spięcia tego w jeden system Ładu i Zarządzania, żeby departamenty nie działały każdy według innej logiki.',
+  egz:'COBIT 5 NIE zastępuje ITIL ani ISO/IEC 27001 i NIE wymaga ich stosowania – jest ramą nadrzędną, spójną z nimi (zasada 3). Pułapki: „COBIT 5 to norma ISO”, „COBIT 5 szczegółowo opisuje obsługę helpdesku”. Z ISO/IEC 27001 certyfikuje się organizację; w COBIT 5 certyfikuje się ludzi (np. egzamin Foundation), a procesy się ocenia.',
+  src:'FW-PL s. 14 i 25 (spójność z innymi standardami, struktura nadrzędna), s. 60–61 (ITIL, ISO/IEC 27000, 38500, TOGAF, PRINCE2); opisy ITIL i ISO/IEC 27001, certyfikacja – wiedza ogólna'
+},
+interes:{
+  t:'Interesariusz',
+  eg:'Interesariusz',
+  pd:'Interesariusz',
+  en:'Stakeholder',
+  wyj:'Interesariusz to każdy, kogo obchodzi to, co organizacja robi z IT, albo na kogo jej decyzje wpływają. Interesariusze mogą być wewnętrzni (np. zarząd, dyrektorzy, właściciele procesów biznesowych, użytkownicy IT) i zewnętrzni (np. klienci, dostawcy, udziałowcy, regulatorzy).\n\nInteresariusze chcą różnych, czasem sprzecznych rzeczy: udziałowiec – zysku, regulator – zgodności z przepisami, klient – wygody i bezpieczeństwa. Ład polega na negocjowaniu i podejmowaniu decyzji o tym, co jest dla nich wartością.\n\nOd interesariuszy zaczyna się zasada 1 (Realizacja potrzeb interesariusza) i cała kaskada celów: potrzeby interesariuszy, cele organizacji, cele związane z Informatyką i cele aktywatora.',
+  zycie:'Planujesz wesele. Interesariusze: para młoda (chce pięknej imprezy), rodzice (pilnują budżetu), goście (dojazd i jedzenie), właściciel sali (terminowa płatność). Każdy chce czegoś innego i trzeba to wyważyć.',
+  firma:'Przy nowej aplikacji mobilnej sklepu internetowego interesariusze to: zarząd (sprzedaż), klienci (szybkie zakupy), dział obsługi klienta (mniej reklamacji), dział IT (stabilność), operator płatności (zgodność z jego zasadami) i Prezes Urzędu Ochrony Danych Osobowych (zgodność z RODO).',
+  urzad:'Przy e-usłudze w gminie interesariusze to: mieszkańcy, wójt, rada gminy (budżet), skarbnik, inspektor ochrony danych, informatycy, dostawca systemu i wojewoda jako organ nadzoru nad legalnością działań gminy.',
+  egz:'Ta sama nazwa w podręczniku i na egzaminie. Interesariusz to nie tylko ktoś „zainteresowany”, ale też ktoś, na kogo decyzje wpływają. Zasada 1 na egzaminie: „Realizacja potrzeb interesariusza” (liczba pojedyncza), w podręczniku: „Spełnienie potrzeb interesariuszy”.',
+  src:'FW-PL s. 13–14 (interesariusze wewnętrzni i zewnętrzni, zasada 1), s. 17 (negocjowanie wartości), s. 22 (Ilustracja 7); przykłady – wiedza ogólna'
+},
+zasady:{
+  t:'Pięć zasad COBIT 5',
+  eg:'Zasady COBIT 5',
+  pd:'Zasady metodyki COBIT 5',
+  en:'COBIT 5 Principles',
+  wyj:'Pięć zasad to fundament, na którym zbudowano całą strukturę ramową COBIT 5 – z nich wynika wszystko inne: kaskada celów, aktywatory, model procesów. Nazwy egzaminacyjne: 1) Realizacja potrzeb interesariusza, 2) Pokrycie całej organizacji, 3) Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej, 4) Aktywacja holistycznego podejścia, 5) Oddzielenie Ładu od Zarządzania.\n\nW skrócie: po co (1 – wartość dla interesariuszy), jak szeroko (2 – cała organizacja, nie tylko dział IT), w jakiej relacji do innych standardów (3 – parasol), czym (4 – 7 aktywatorów działających razem) i kto (5 – Ład decyduje, Zarządzanie realizuje).\n\nPodręcznik poświęca każdej zasadzie osobny rozdział (rozdziały 2–6). Razem mają pozwolić organizacji zbudować skuteczny system Ładu i Zarządzania, który optymalizuje inwestycje w informację i technologię.',
+  zycie:'Pięć zasad gotowania dla rodziny: gotuj to, czego domownicy potrzebują (1); myśl o całym tygodniu, nie tylko o niedzieli (2); jeden zeszyt porządkuje przepisy z różnych książek (3); liczy się wszystko naraz – produkty, sprzęt, umiejętności i nawyki (4); ktoś decyduje o menu, ktoś inny gotuje (5).',
+  firma:'Szpital wdrażający COBIT 5 pyta pacjentów, lekarzy i NFZ (Narodowy Fundusz Zdrowia), czego potrzebują (1); obejmuje IT na oddziałach, w aptece i w księgowości (2); łączy stosowane już ITIL i ISO/IEC 27001 pod jednym parasolem (3); dba jednocześnie o procesy, ludzi, dane i kulturę (4); rada i dyrektor decydują, kierownik IT realizuje (5).',
+  urzad:'Starostwo zaczyna od potrzeb mieszkańców i wymogów prawa (1), obejmuje wszystkie wydziały, także komunikację i geodezję (2), porządkuje dotychczasowe procedury bezpieczeństwa w jednej ramie (3), patrzy łącznie na systemy, ludzi, zarządzenia i dane (4); zarząd powiatu decyduje, a sekretarz i informatycy realizują (5).',
+  egz:'Liczba: 5 zasad (nie 7 – to aktywatory; nie 37 – to procesy). Na egzaminie padają nazwy egzaminacyjne; podręcznikowe („Spełnienie potrzeb interesariuszy”, „Uwzględnienie wszystkich aspektów działania przedsiębiorstwa”, „Stosowanie jednej zintegrowanej metodyki”, „Wdrożenie podejścia całościowego”, „Oddzielenie nadzoru od zarządzania”) warto rozpoznawać. Pułapka: COBIT 2019 ma inny układ (6 zasad systemu ładu i 3 zasady struktury ramowej) – to NIE COBIT 5.',
+  src:'FW-PL s. 13 (Ilustracja 2), s. 14 (opis zasad); nazwy egzaminacyjne – słownik kursu (Altkom, SP1); COBIT 2019 – wiedza ogólna'
+}
+},
+S:[
+{pt:'Streszczenie · s. 13',h:'Po co w ogóle powstał COBIT 5?',b:'<p>Każda firma i każdy urząd żyje z <w k="info">informacji</w>, a technologia towarzyszy jej od chwili utworzenia aż do zniszczenia.</p><p>COBIT 5 to <w k="framework">struktura ramowa</w>, która pomaga uzyskać z IT <b>optymalną <w k="wartosc">wartość</w></b>: równowagę między osiąganiem korzyści a optymalizacją <w k="ryzyko">ryzyka</w> i wykorzystania zasobów.</p><div class="cards"><div><b>Dla kogo?</b>organizacje każdej wielkości: komercyjne, non-profit i publiczne</div><div><b>Kto wydał?</b><w k="isaca">ISACA</w>, 2012 r.</div></div>',c:'COBIT 5 = optymalna wartość z IT, w każdej organizacji.',s:'COBIT 5 Framework (PL), s. 2, 13.',ctx:'<p>Streszczenie zaczyna się od prostej obserwacji: <w k="info">informacja</w> jest kluczowym zasobem każdej organizacji, a technologia towarzyszy jej przez cały cykl życia. Skoro IT przenika wszystko, decyzje o IT stają się decyzjami o całej organizacji – i potrzebny jest wspólny język, który zarząd i informatycy rozumieją tak samo. Tym językiem ma być COBIT 5.</p><p>COBIT 5 nie powstał od zera: łączy wcześniejsze wytyczne <w k="isaca">ISACA</w> – COBIT 4.1, Val IT, Risk IT i BMIS (Business Model for Information Security – rozwinięcie: wiedza ogólna) – w jedną strukturę ramową i korzysta z ponad 15 lat doświadczeń użytkowników COBIT (s. 15, 25–26).</p><p>Przykład: starostwo powiatowe i bank detaliczny mają zupełnie inne cele, ale pytają o to samo – czy wydatki na IT się zwracają, czy ryzyko jest pod kontrolą i czy nie przepłacamy. COBIT 5 daje obu tę samą miarę: optymalną <w k="wartosc">wartość</w>.</p><p>Pułapka: COBIT 5 nie jest normą do certyfikacji ani programem komputerowym – podręcznik zaznacza, że nie ma charakteru normatywnego (s. 32). To ogólna struktura ramowa <span class="en">framework</span>, którą każda organizacja dopasowuje do siebie. Dalej: czego konkretnie zarządy oczekują od IT.</p>'},
+{pt:'Sprawdź się',quiz:{
+  tresc:'Uzupełnij zdanie ze streszczenia COBIT 5: „COBIT 5 ułatwia organizacjom uzyskanie optymalnej wartości z IT poprzez zachowanie równowagi między osiąganiem korzyści a optymalizacją poziomu [?] oraz wykorzystania zasobów.”',
+  opcje:[
+    {t:'kosztów',w:'Koszty mieszczą się w „wykorzystaniu zasobów”, które jest w zdaniu osobno. Brakuje drugiego elementu celu Ładu.'},
+    {t:'ryzyka',ok:true,w:'Trzy elementy wartości to korzyści, optymalizacja ryzyka i optymalizacja zasobów. Zdanie wymienia korzyści i zasoby – brakuje ryzyka.'},
+    {t:'zgodności',w:'Zgodność z przepisami to ważne dążenie zarządu (lista na s. 13), ale nie element równowagi, z której składa się wartość.'},
+    {t:'innowacji',w:'Innowacyjne wykorzystanie IT pojawia się w opisie korzyści biznesowych, ale nie jest osobnym elementem równowagi.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 13 (nazwa „metodyka” i „przedsiębiorstwa” zamienione na egzaminacyjne). Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Zdanie pochodzi ze streszczenia (s. 13) i opisuje, z czego składa się optymalna wartość z IT. Przypomnij sobie trzy elementy, które COBIT 5 równoważy, i porównaj je z tym, co zdanie już wymienia.',k:['wartosc','framework']}
+}},
+{pt:'Sprawdź się',quiz:{
+  kontekst:'Dyrektor publicznego szpitala powiatowego słyszy na naradzie o COBIT 5 i mówi: „To narzędzie dla korporacji. Jesteśmy jednostką publiczną, więc nas nie dotyczy”.',
+  tresc:'Która odpowiedź najlepiej koryguje jego pogląd zgodnie z COBIT 5?',
+  opcje:[
+    {t:'Ma rację – w sektorze publicznym stosuje się wyłącznie COBIT 2019.',w:'COBIT 2019 to późniejsza wersja, a nie „wersja dla sektora publicznego”. COBIT 5 sam deklaruje, że nadaje się także dla sektora publicznego.'},
+    {t:'Szpital może stosować COBIT 5 dopiero po certyfikacji ISO/IEC 27001.',w:'COBIT 5 nie ma takiego warunku. ISO/IEC 27001 to osobna norma o bezpieczeństwie informacji, z którą COBIT 5 jest spójny.'},
+    {t:'COBIT 5 dotyczy tylko działu IT, więc dyrektor może oddać temat informatykom.',w:'To przeczy zasadzie 2 (Pokrycie całej organizacji) i streszczeniu: zarząd i kierownictwo muszą traktować IT jako istotny element działalności.'},
+    {t:'COBIT 5 jest ogólny: pasuje do firm, organizacji non-profit i sektora publicznego.',ok:true,w:'Streszczenie mówi wprost, że COBIT 5 można z powodzeniem stosować w organizacjach każdej wielkości – komercyjnych, not-for-profit i publicznych. Korzyścią szpitala są lepsze usługi dla pacjentów, a nie zysk.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 13, 17. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Pytanie dotyczy zakresu stosowania COBIT 5: dla jakich organizacji jest przeznaczona struktura ramowa. Zajrzyj do ostatnich zdań streszczenia na s. 13.',k:['framework','isaca']}
+}},
+{pt:'Streszczenie · s. 13',h:'Czego zarząd chce od IT?',b:'<div class="cards"><div><b>Jakość informacji</b><span class="en">Maintain quality information</span>dobre dane do decyzji biznesowych</div><div><b>Wartość biznesowa</b><span class="en">Generate business value from IT-enabled investments</span>korzyści z inwestycji wspieranych przez IT</div><div><b>Sprawność operacyjna</b><span class="en">Achieve operational excellence</span>niezawodne i efektywne działanie technologii</div><div><b>Ryzyko</b><span class="en">Maintain IT-related risk at an acceptable level</span>na akceptowalnym poziomie, a nie zerowe</div><div><b>Koszty</b><span class="en">Optimise the cost of IT services and technology</span>zoptymalizowane, a nie jak najniższe</div><div><b>Zgodność</b><span class="en">Comply with laws, regulations, contracts and policies</span>z przepisami, regulacjami, umowami i politykami</div></div>',c:'Wszystko naraz – dlatego potrzebna jest rama, która to wyważy.',s:'COBIT 5 Framework (PL), s. 13. Nazwy angielskie – oryginał COBIT 5 (wiedza ogólna).',ctx:'<p>Sześć dążeń ze s. 13 odpowiada na pytanie, dlaczego zarząd w ogóle ma się interesować IT. Każde jest sformułowane językiem biznesu, nie techniki: decyzje, inwestycje, sprawność, ryzyko, koszt, zgodność. To zapowiedź logiki całego COBIT 5 – zaczynamy od potrzeb <w k="interes">interesariuszy</w>, a nie od serwerów.</p><p>Zwróć uwagę na słowa „akceptowalny” i „optymalizacja”. Zarząd nie chce ryzyka zerowego ani kosztu najniższego, tylko rozsądnego w stosunku do korzyści. Ta myśl wraca za chwilę jako trzy elementy <w k="wartosc">celu Ładu</w>: korzyści, ryzyko, zasoby.</p><p>Przykład: sklep internetowy przed sezonem świątecznym chce naraz szybkiej strony (sprawność operacyjna), wiarygodnych raportów sprzedaży (jakość informacji), płatności zgodnych z przepisami (zgodność) i rozsądnego rachunku za serwery (koszty). Te dążenia ciągną w różne strony – dlatego potrzebna jest rama, która je wyważy.</p><p>Pułapka: na egzaminie pojawiają się warianty „eliminacja ryzyka” i „minimalizacja kosztów”. W streszczeniu ich nie ma.</p>'},
+{pt:'Sprawdź się',quiz:{
+  tresc:'Które z poniższych NIE jest jednym z dążeń organizacji i ich zarządów wymienionych w streszczeniu COBIT 5?',
+  opcje:[
+    {t:'Wyeliminowanie wszelkiego ryzyka związanego z IT',ok:true,w:'Streszczenie mówi o utrzymaniu ryzyka związanego z IT na akceptowalnym poziomie. Ryzyka się nie eliminuje, tylko optymalizuje – zero ryzyka to też zero innowacji.'},
+    {t:'Utrzymanie ryzyka związanego z IT na akceptowalnym poziomie',w:'To dokładnie jedno z sześciu dążeń z listy na s. 13.'},
+    {t:'Optymalizacja kosztu usług i technologii IT',w:'Jest na liście – optymalizacja, a nie „jak najniższy koszt”.'},
+    {t:'Osiągnięcie sprawności operacyjnej dzięki niezawodnej technologii',w:'Jest na liście jako sprawność operacyjna (operational excellence).'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 13. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Przypomnij sobie sześć dążeń zarządów wobec IT ze streszczenia (s. 13). Zwróć uwagę na dokładne sformułowania – jedno słowo może zmienić sens całego zdania.',k:['interes','info']}
+}},
+{pt:'Sprawdź się',quiz:{
+  kontekst:'Zarząd ubezpieczyciela formułuje trzy oczekiwania wobec IT: (1) codzienny raport o szkodach ma być rano gotowy i bez błędów, bo na jego podstawie ustala się rezerwy; (2) system likwidacji szkód nie może przestawać działać w godzinach pracy; (3) nowa aplikacja musi spełniać wymogi RODO i regulacji nadzoru finansowego.',
+  tresc:'Które dążenia ze streszczenia COBIT 5 odpowiadają kolejno oczekiwaniom 1, 2 i 3?',
+  opcje:[
+    {t:'Sprawność operacyjna; jakość informacji; zgodność',w:'Zamienione 1 i 2: raport do decyzji o rezerwach to jakość informacji, a nieprzerwane działanie systemu – sprawność operacyjna.'},
+    {t:'Jakość informacji; optymalizacja ryzyka; wartość biznesowa',w:'Niezawodność bywa związana z ryzykiem, ale streszczenie nazywa ją sprawnością operacyjną. Wymogi RODO to zgodność, a nie wartość biznesowa.'},
+    {t:'Jakość informacji; sprawność operacyjna; zgodność',ok:true,w:'(1) Dobre dane do decyzji = jakość informacji, (2) niezawodne działanie = sprawność operacyjna, (3) przepisy i regulacje = zgodność.'},
+    {t:'Zgodność; sprawność operacyjna; jakość informacji',w:'Zamienione 1 i 3: zgodność dotyczy przepisów (oczekiwanie 3), a nie jakości raportu.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 13. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Dopasuj każde z trzech oczekiwań zarządu do jednego z sześciu dążeń ze streszczenia (s. 13). Przy każdym zapytaj, czego ono naprawdę dotyczy, a potem sprawdź kolejność w opcjach.',k:['info','interes']}
+}},
+{pt:'Streszczenie · s. 13 · Załącznik G s. 82–83',h:'Informacja ma swój cykl życia',b:'<div class="tblwrap"><table class="tbl"><tr><th>Faza</th><th>Bank</th><th>Gmina</th></tr><tr><td>Planowanie i projektowanie<span class="en">Plan, Design</span></td><td>jakie dane o kliencie zbieramy i jak je definiujemy</td><td>wzór deklaracji podatkowej i rejestru podatników</td></tr><tr><td>Budowanie/nabywanie<span class="en">Build/Acquire</span></td><td>klient zakłada konto</td><td>mieszkaniec składa deklarację</td></tr><tr><td>Użytkowanie/obsługa: przechowywanie, udostępnianie, wykorzystanie<span class="en">Use/Operate: Store, Share, Use</span></td><td>baza klientów, dostęp doradcy, decyzja kredytowa</td><td>system podatkowy, dostęp księgowości, naliczenie podatku</td></tr><tr><td>Ocena/monitorowanie<span class="en">Evaluate/Monitor</span></td><td>czyszczenie duplikatów, aktualizacja adresów</td><td>przegląd aktualności rejestru</td></tr><tr><td>Aktualizacja/pozbywanie się<span class="en">Update/Dispose</span></td><td>archiwizacja lub zniszczenie po okresie przechowywania</td><td>przekazanie akt do archiwum zakładowego</td></tr></table></div><p>Na każdym etapie pracuje technologia – i na każdym coś może pójść źle.</p>',c:'Kto nie panuje nad IT, ten nie panuje nad informacją.',s:'COBIT 5 Framework (PL), s. 13, 82–83. Nazwy angielskie – oryginał COBIT 5 (wiedza ogólna).',ctx:'<p>Streszczenie mówi, że technologia odgrywa rolę od utworzenia informacji aż do jej zniszczenia. Tabela rozwija to zdanie według cyklu życia informacji z Załącznika G (s. 82–83). Informacja jest w COBIT 5 jednym z siedmiu <w k="aktywator">aktywatorów</w>, a cykl życia – jednym z wymiarów jej modelu, obok interesariuszy i celów (jakości informacji).</p><p>Po co to już we wstępie? Bo każda faza ma innych opiekunów i inne ryzyka. Podręcznik wyróżnia ogólne role: wytwórcę informacji (tworzy ją), opiekuna (przechowuje i utrzymuje) i konsumenta (korzysta z niej).</p><p>Przykład: w szpitalu rejestracja wytwarza dane pacjenta, dział IT jest ich opiekunem, a lekarz – konsumentem. Jeśli w fazie oceny nikt nie scala zdublowanych kartotek, lekarz może podjąć decyzję na podstawie niepełnej historii leczenia.</p><p>Pułapka: faza „Ocena/monitorowanie” w cyklu życia informacji to dbanie o wartość danych. Nie myl jej z „Monitoruj” w Ładzie ani z domeną MEA (Monitorowanie, ocena i oszacowanie) w Zarządzaniu.</p>'},
+{pt:'Sprawdź się',quiz:{
+  kontekst:'Urząd gminy raz w roku przegląda rejestr podatników: scala zdublowane rekordy, poprawia nieaktualne adresy i sprawdza, czy dane nadal nadają się do naliczania podatku.',
+  tresc:'W której fazie cyklu życia informacji (według COBIT 5) mieszczą się te działania?',
+  opcje:[
+    {t:'Planowanie',w:'Planowanie to przygotowanie: cele, architektura informacji, definicje danych – zanim dane w ogóle powstaną.'},
+    {t:'Budowanie/nabywanie',w:'W tej fazie dane się tworzy lub pozyskuje, np. wprowadza nowe deklaracje albo ładuje plik zewnętrzny.'},
+    {t:'Ocena/monitorowanie',ok:true,w:'Podręcznik opisuje tę fazę jako dbanie, by zasób informacyjny zachował wartość: zapewnienie aktualności, czyszczenie, scalanie i usuwanie zduplikowanych danych.'},
+    {t:'Udostępnianie',w:'Udostępnianie to dostarczanie informacji tam, gdzie się z niej korzysta (np. dostęp referatu księgowości do bazy). Tu dane się porządkuje, a nie przekazuje.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 82–83. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Pytanie dotyczy faz cyklu życia informacji z Załącznika G (s. 82–83). Przypomnij sobie, co dzieje się z danymi w każdej fazie, i porównaj to z działaniami urzędu.',k:['info']}
+}},
+{pt:'Streszczenie · s. 13–14',h:'IT to sprawa zarządu, nie tylko informatyków',b:'<p>Organizacje, którym się udało, zrozumiały, że zarząd i kadra kierownicza – i ci od biznesu, i ci od IT – muszą działać <b>razem</b>, a IT traktować jako istotny element prowadzenia działalności.</p><div class="cards"><div><b>Biznes wie</b>czego potrzebuje: klientów, usług, oszczędności</div><div><b>IT wie</b>jak to zrobić i ile to kosztuje</div></div><p>To samo mówi <w k="zasady">zasada 2</w>: Pokrycie całej organizacji<span class="en">Principle 2: Covering the Enterprise End-to-End</span></p>',c:'Decyzje o IT to decyzje o całej organizacji.',s:'COBIT 5 Framework (PL), s. 13–14.',ctx:'<p>Streszczenie przywołuje doświadczenia ostatniej dekady: popularność pojęcia <w k="lad">Ładu</w> (w podręczniku „nadzoru”) wzięła się zarówno z przykładów dobrego Ładu, jak i z nieudanych przedsięwzięć biznesowych. Sprzyjają temu też nowe przepisy i regulacje (s. 13).</p><p>Rozdział 1 (s. 15) dopowiada, dlaczego: oddzielenie IT od działalności biznesowej nie jest już optymalnym rozwiązaniem, rola CIO (Chief Information Officer – dyrektora ds. informatyki) ewoluuje, a coraz więcej osób z biznesu ma umiejętności IT i bierze udział w decyzjach o IT.</p><p>Przykład: ubezpieczyciel buduje aplikację do zgłaszania szkód. Jeśli projekt prowadzi sam dział IT, może powstać aplikacja dopracowana technicznie, ale bez uzgodnień z likwidatorami i działem prawnym. Wspólne decyzje biznesu i IT od początku zapobiegają takim rozjazdom.</p><p>Pułapka: „wspólnie” nie znaczy „wszyscy decydują o wszystkim”. Role i tak są rozdzielone – mówi o tym zasada 5 (Oddzielenie Ładu od Zarządzania), omawiana na końcu tej części.</p>'},
+{pt:'Sprawdź się',quiz:{
+  kontekst:'Prezes sklepu internetowego mówi na zebraniu: „IT to sprawa informatyków. Niech dyrektor IT sam zdecyduje, w co inwestujemy w przyszłym roku, a ja zajmę się sprzedażą”.',
+  tresc:'Które stwierdzenie najlepiej oddaje podejście COBIT 5 do tej sytuacji?',
+  opcje:[
+    {t:'Zarząd i kierownictwo biznesu oraz IT powinni decydować o IT wspólnie.',ok:true,w:'Streszczenie: odnoszące sukcesy organizacje zrozumiały, że zarząd i kadra kierownicza – z biznesu i z IT – muszą działać razem, traktując IT jako istotny element działalności. To też sedno zasady 2.'},
+    {t:'Prezes ma rację, o ile dyrektor IT co roku przedstawia mu raport z kosztów.',w:'Raport po fakcie nie zastąpi wspólnego wyznaczania kierunku. Ład wymaga, by zarząd sam oceniał opcje i ustalał priorytety.'},
+    {t:'O inwestycjach w IT powinien decydować audyt wewnętrzny, bo zna ryzyka.',w:'Audyt daje niezależną pewność (assurance), ale nie wyznacza kierunku – to zadanie Ładu.'},
+    {t:'Decyzję powinien podjąć dostawca platformy sklepu, bo najlepiej zna technologię.',w:'Dostawca jest interesariuszem zewnętrznym; może doradzać, ale nie ustala priorytetów organizacji.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 13–14. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Pytanie dotyczy tego, kto według streszczenia (s. 13–14) powinien zajmować się decyzjami o IT. Przypomnij sobie, co zrozumiały organizacje odnoszące sukcesy, i co mówi zasada 2.',k:['lad','zasady','interes']}
+}},
+{pt:'Streszczenie · s. 13 · Zasada 1 · s. 17',h:'Wartość: korzyści, ryzyko, zasoby',b:'<p><w k="wartosc">Cel Ładu: Tworzenie Wartości</w><span class="en">Governance Objective: Value Creation</span></p><p>Wartość dla <w k="interes">interesariuszy</w> to <b>równowaga</b> trzech elementów:</p><div class="cards"><div><b>Realizacja korzyści</b><span class="en">Benefits Realisation</span>kto odnosi korzyści? (w firmie – zysk, w urzędzie – usługa publiczna)</div><div><b>Optymalizacja ryzyka</b><span class="en">Risk Optimisation</span>kto ponosi <w k="ryzyko">ryzyko</w>? np. utrata danych, nieudany projekt, kara za złamanie przepisów</div><div><b>Optymalizacja zasobów</b><span class="en">Resource Optimisation</span>jakie zasoby są wymagane? pieniądze, ludzie, czas</div></div><p>„Optymalizacja ryzyka” nie oznacza „zero ryzyka” – bez ryzyka nie ma innowacji.</p>',c:'Rozsądne ryzyko, rozsądny koszt, realna korzyść.',s:'COBIT 5 Framework (PL), s. 13, 17 (Ilustracja 3), 36.',ctx:'<p>To najważniejsze zdanie streszczenia, rozwinięte w rozdziale 2 (s. 17, Ilustracja 3). Wartość to nie to samo co zysk: w firmie komercyjnej korzyści są finansowe, a dla podmiotów publicznych są nimi usługi publiczne. Dlatego cel Ładu dotyczy każdej organizacji.</p><p>Przy każdej decyzji Ład pyta: kto odnosi korzyści, kto ponosi <w k="ryzyko">ryzyko</w>, jakie zasoby są wymagane. <w k="interes">Interesariusze</w> chcą różnych, czasem sprzecznych rzeczy, więc Ład polega na negocjowaniu i wyważaniu ich oczekiwań. Stąd prowadzi droga do kaskady celów (zasada 1), a w modelu procesów każdemu elementowi odpowiada proces Ładu: EDM02, EDM03 i EDM04 (s. 33).</p><p>Przykład: gmina rozważa elektroniczny obieg dokumentów. Korzyść – szybsze załatwianie spraw mieszkańców; ryzyko – wyciek danych osobowych albo przestój systemu; zasoby – budżet, czas urzędników i informatyka. Decyzja ma sens dopiero przy równowadze wszystkich trzech.</p><p>Pułapka: dystraktory mówią o „minimalizacji” ryzyka lub kosztów. Poprawne nazwy zawierają słowo „optymalizacja”.</p>'},
+{pt:'Sprawdź się',quiz:{
+  kontekst:'Szpital rozważa system e-rejestracji pacjentów. Na posiedzeniu padają trzy pytania. Ordynator: „Czy pacjenci szybciej dostaną termin?”. Inspektor ochrony danych: „Czy dane medyczne będą bezpieczne?”. Dyrektor finansowy: „Ile to kosztuje i ilu informatyków zajmie na pół roku?”.',
+  tresc:'Do którego elementu celu Ładu odnosi się pytanie <b>dyrektora finansowego</b>?',
+  opcje:[
+    {t:'Realizacja korzyści',w:'Korzyść – szybszy termin dla pacjenta – to pytanie ordynatora.'},
+    {t:'Optymalizacja ryzyka',w:'Bezpieczeństwo danych medycznych to troska inspektora ochrony danych.'},
+    {t:'Minimalizacja kosztów',w:'Pułapka słowna: w COBIT 5 nie ma elementu „minimalizacja kosztów”. Koszty i ludzie mieszczą się w optymalizacji zasobów – chodzi o rozsądne, a nie najniższe zużycie.'},
+    {t:'Optymalizacja zasobów',ok:true,w:'Pieniądze i czas informatyków to zasoby. „Jakie zasoby są wymagane?” to jedno z trzech pytań, które Ład zadaje przy każdej decyzji.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 17 (Ilustracja 3; pytania: kto odnosi korzyści, kto ponosi ryzyko, jakie zasoby są wymagane). Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Cel Ładu ma trzy elementy, a każdy odpowiada na jedno z pytań z s. 17: kto odnosi korzyści, kto ponosi ryzyko, jakie zasoby są wymagane. Uważaj na nazwy, których nie ma w COBIT 5.',k:['wartosc','lad']}
+}},
+{pt:'Sprawdź się',quiz:{
+  tresc:'Które zestawienie poprawnie wymienia trzy elementy celu Ładu „Tworzenie Wartości” w COBIT 5?',
+  opcje:[
+    {t:'Realizacja korzyści, minimalizacja ryzyka, minimalizacja kosztów',w:'„Minimalizacja” to typowa pułapka. COBIT 5 mówi o optymalizacji – ryzyko i zasoby mają być na właściwym, a nie najniższym poziomie.'},
+    {t:'Realizacja korzyści, optymalizacja ryzyka, optymalizacja zasobów',ok:true,w:'Tak – to trzy elementy z Ilustracji 3, które Ład równoważy przy każdej decyzji.'},
+    {t:'Maksymalizacja zysku, eliminacja ryzyka, optymalizacja zasobów',w:'Korzyść nie musi być zyskiem (w urzędzie to usługa publiczna), a ryzyka nie da się i nie należy eliminować.'},
+    {t:'Dostarczanie wartości, zarządzanie ryzykiem, pomiar wydajności',w:'To obszary ładu IT z wcześniejszej wersji (COBIT 4.1), a nie elementy celu Ładu w COBIT 5.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 17 (Ilustracja 3); obszary COBIT 4.1 – wiedza ogólna. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Szukasz dokładnych nazw trzech elementów z Ilustracji 3 (s. 17). Czytaj każde słowo – dystraktory różnią się często jednym wyrazem albo pochodzą z innej wersji COBIT.',k:['wartosc','ryzyko']}
+}},
+{pt:'Rodzina produktów · s. 11',h:'Jedna struktura ramowa i przewodniki dookoła',b:'<div class="cards"><div><b>COBIT 5</b><span class="en">COBIT 5 (Framework)</span><w k="framework">struktura ramowa</w> – rdzeń i główne źródło egzaminu Foundation</div><div><b>Przewodniki o aktywatorach</b><span class="en">COBIT 5 Enabler Guides</span>głębiej o <w k="aktywator">aktywatorach</w>: Procesy umożliwiające <span class="en">COBIT 5: Enabling Processes</span> Informacje umożliwiające <span class="en">COBIT 5: Enabling Information</span></div><div><b>Przewodniki specjalistyczne</b><span class="en">COBIT 5 Professional Guides</span>Wdrożenie <span class="en">COBIT 5 Implementation</span> Bezpieczeństwo informacji <span class="en">COBIT 5 for Information Security</span> <w k="assurance">Audyt</w> <span class="en">COBIT 5 for Assurance</span> Ryzyko <span class="en">COBIT 5 for Risk</span></div><div><b>Środowisko współpracy sieciowej</b><span class="en">COBIT 5 Online Collaborative Environment</span>wymiana doświadczeń i materiałów</div></div><p>Egzamin Foundation sięga też do przewodnika Wdrożenie i do oceny zdolności procesów – o tym w dalszych częściach.</p>',c:'Każdy czyta to, czego potrzebuje; rdzeniem jest struktura ramowa.',s:'COBIT 5 Framework (PL), s. 11, Ilustracja 1. Tytuły angielskie i zakres egzaminu (sylabus) – wiedza ogólna.',ctx:'<p>Ilustracja 1 (s. 11) pokazuje, że COBIT 5 to rodzina publikacji, a nie jedna książka. Rdzeniem jest <w k="framework">struktura ramowa</w> – ten podręcznik – z pięcioma zasadami i opisem aktywatorów. Wokół niej są przewodniki, które pogłębiają wybrane tematy dla konkretnych odbiorców.</p><p>Przewodniki o <w k="aktywator">aktywatorach</w> opisują szczegółowo, z czego zbudowany jest system Ładu i Zarządzania (np. Procesy umożliwiające zawierają szczegóły wszystkich 37 procesów, s. 33). Przewodniki specjalistyczne pokazują, jak użyć COBIT 5 w określonej roli: przy wdrożeniu, w bezpieczeństwie informacji, w audycie, w zarządzaniu ryzykiem. Zasada 3 (s. 25) podkreśla, że prosta architektura daje spójny zbiór produktów.</p><p>Przykład: w ministerstwie dyrektor generalny sięga po strukturę ramową, pełnomocnik ds. bezpieczeństwa informacji – po przewodnik o bezpieczeństwie, audytor wewnętrzny – po przewodnik o audycie, a zespół wdrożeniowy – po Wdrożenie. Wszyscy posługują się jednym słownikiem.</p><p>Pułapka: tytuły obu grup brzmią podobnie, więc na egzaminie łatwo przypisać przewodnik do złej grupy. Zapamiętaj, które dwa tytuły należą do przewodników o aktywatorach.</p>'},
+{pt:'Sprawdź się',quiz:{
+  tresc:'Która publikacja z rodziny produktów COBIT 5 NIE jest przewodnikiem specjalistycznym?',
+  opcje:[
+    {t:'COBIT 5 — Wdrożenie',w:'To przewodnik specjalistyczny – jak wprowadzić Ład i Zarządzanie IT w organizacji.'},
+    {t:'COBIT 5 — Ryzyko',w:'To przewodnik specjalistyczny dla osób zajmujących się ryzykiem.'},
+    {t:'COBIT 5 — Procesy umożliwiające',ok:true,w:'To przewodnik o aktywatorach (enabler guide) – szczegółowo opisuje 37 procesów. Drugi taki przewodnik to Informacje umożliwiające.'},
+    {t:'COBIT 5 — Bezpieczeństwo informacji',w:'To przewodnik specjalistyczny dla osób odpowiedzialnych za bezpieczeństwo informacji.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 11 (Ilustracja 1). Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Przypomnij sobie Ilustrację 1 (s. 11): rodzina produktów dzieli przewodniki na dwie grupy. Ustal, do której grupy należy każdy z wymienionych tytułów.',k:['framework','aktywator']}
+}},
+{pt:'Sprawdź się',quiz:{
+  tresc:'W polskim podręczniku COBIT 5 czytasz o „metodyce”, „nadzorze” i „czynnikach umożliwiających”. Którymi nazwami zastąpi je egzamin COBIT 5 Foundation w języku polskim?',
+  opcje:[
+    {t:'Struktura ramowa, Zarządzanie, aktywator',w:'Pierwsza i trzecia nazwa się zgadzają, ale „nadzór” (Governance) to na egzaminie Ład. Zarządzanie (Management) to druga strona zasady 5.'},
+    {t:'Model referencyjny, Ład, wyznacznik',w:'„Model referencyjny procesu” to model 37 procesów, a „wyznacznik” to słowo z kaskady celów – to nie są odpowiedniki tych pojęć.'},
+    {t:'Metodyka, nadzór, kluczowy czynnik sukcesu',w:'Metodyka i nadzór to właśnie nazwy podręcznikowe. „Kluczowy czynnik sukcesu” to zupełnie inne pojęcie z zarządzania projektami.'},
+    {t:'Struktura ramowa, Ład, aktywator',ok:true,w:'Framework = struktura ramowa, Governance = Ład, Enabler = aktywator. Ucz się obu nazw, ale na egzaminie szukaj egzaminacyjnych.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 11, 13–14; nazwy egzaminacyjne – słownik kursu (zestawienie Altkom, SP1). Pytanie autorskie.',
+  pomoc:{t:'Pytanie sprawdza słownik: nazwy z polskiego podręcznika a nazwy z polskiego egzaminu. Pomogą angielskie odpowiedniki: Framework, Governance, Enabler.',k:['framework','lad','aktywator']}
+}},
+{pt:'Streszczenie · s. 13–14 · Ilustracja 2',h:'Pięć zasad COBIT 5',b:'<p><w k="zasady">Pięć zasad</w> to fundament całej struktury ramowej:</p><div class="tblwrap"><table class="tbl"><tr><th>Egzamin</th><th>Podręcznik</th><th>O co chodzi</th></tr><tr><td>1 Realizacja potrzeb interesariusza<span class="en">Meeting Stakeholder Needs</span></td><td>Spełnienie potrzeb interesariuszy</td><td>IT ma dawać wartość <w k="interes">interesariuszom</w>; kaskada celów</td></tr><tr><td>2 Pokrycie całej organizacji<span class="en">Covering the Enterprise End-to-End</span></td><td>Uwzględnienie wszystkich aspektów działania przedsiębiorstwa</td><td>IT to sprawa całej organizacji, nie tylko działu IT</td></tr><tr><td>3 Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej<span class="en">Applying a Single, Integrated Framework</span></td><td>Stosowanie jednej zintegrowanej metodyki</td><td>parasol nad innymi standardami, np. <w k="itil">ITIL, ISO/IEC 27001</w></td></tr><tr><td>4 Aktywacja holistycznego podejścia<span class="en">Enabling a Holistic Approach</span></td><td>Wdrożenie podejścia całościowego</td><td>7 <w k="aktywator">aktywatorów</w> naraz – od procesów po <w k="kultura">kulturę</w></td></tr><tr><td>5 Oddzielenie Ładu od Zarządzania<span class="en">Separating Governance From Management</span></td><td>Oddzielenie nadzoru od zarządzania</td><td>zarząd decyduje, kierownictwo realizuje</td></tr></table></div>',c:'Po co, jak szeroko, z czym, czym i kto – pięć zasad.',s:'COBIT 5 Framework (PL), s. 13–14. Nazwy egzaminacyjne – słownik kursu (Altkom, SP1; zasada 4 – uzasadnienia SP1). Nazwy angielskie – oryginał COBIT 5.',ctx:'<p>Pięć zasad to szkielet podręcznika – każda ma osobny rozdział (rozdziały 2–6). Razem odpowiadają na pytania: po co (1 – wartość dla interesariuszy), jak szeroko (2 – cała organizacja), z czym (3 – jedna rama nad innymi standardami), czym (4 – siedem kategorii aktywatorów) i kto (5 – Ład oddzielony od Zarządzania).</p><p>Podręcznik podkreśla, że dopiero wszystkie pięć zasad łącznie pozwala zbudować skuteczny system Ładu i Zarządzania, który optymalizuje inwestycje w informacje i technologię z korzyścią dla interesariuszy (s. 14).</p><p>Przykład: bank, który stosuje <w k="itil">ITIL</w> w obsłudze zgłoszeń i ISO/IEC 27001 w bezpieczeństwie, nie musi z nich rezygnować. Zasada 3 pozwala potraktować COBIT 5 jako parasol nad nimi (s. 25–26), a zasada 4 przypomina, że same procesy nie wystarczą – potrzebni są też ludzie, informacja i <w k="kultura">kultura</w>.</p><p>Pułapka: polski podręcznik używa innych nazw („Spełnienie potrzeb interesariuszy”, „Wdrożenie podejścia całościowego”). Egzamin używa nazw z kolumny „Egzamin”, a dystraktory wplatają nazwy procesów (np. APO05) albo słowo „minimalizacja”.</p>'},
+{pt:'Sprawdź się',quiz:{
+  kontekst:'Bank od lat obsługuje zgłoszenia i awarie według ITIL, dział bezpieczeństwa ma certyfikat ISO/IEC 27001, a projekty prowadzi według PRINCE2. Zarząd chce jednej, nadrzędnej ramy, która spójnie połączy te praktyki i powiąże je z celami banku, bez rezygnowania z żadnej z nich.',
+  tresc:'Która zasada COBIT 5 najlepiej odpowiada na tę potrzebę?',
+  opcje:[
+    {t:'Aktywacja holistycznego podejścia',w:'Ta zasada mówi o 7 aktywatorach działających razem, a nie o łączeniu standardów.'},
+    {t:'Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej',ok:true,w:'Zasada 3: COBIT 5 jest spójny z innymi standardami i może być nadrzędną strukturą, która je integruje.'},
+    {t:'Pokrycie całej organizacji',w:'Zasada 2 dotyczy zasięgu (cała organizacja, nie tylko dział IT), a nie relacji do innych standardów.'},
+    {t:'Oddzielenie Ładu od Zarządzania',w:'Zasada 5 rozdziela role zarządu i kierownictwa; nie mówi o integracji ITIL czy ISO.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 14, 25, 60–61. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Każda z pięciu zasad odpowiada na inne pytanie: po co, jak szeroko, z czym, czym i kto. Zastanów się, które z tych pytań stawia zarząd banku.',k:['zasady','itil']}
+}},
+{pt:'Sprawdź się',quiz:{
+  tresc:'Które z poniższych to egzaminacyjne nazwy zasad COBIT 5?<br>1. Realizacja potrzeb interesariusza<br>2. Minimalizacja ryzyka związanego z IT<br>3. Pokrycie całej organizacji<br>4. Zarządzanie portfelem inwestycji IT',
+  opcje:[
+    {t:'1 i 2',w:'2 nie jest zasadą – a „minimalizacja” to dodatkowy błąd: COBIT 5 mówi o optymalizacji ryzyka, i to jako elemencie celu Ładu.'},
+    {t:'2 i 4',w:'Żadna z nich nie jest zasadą. Zarządzanie portfelem to obszar procesu Zarządzania (APO05), a nie zasada.'},
+    {t:'3 i 4',w:'3 jest zasadą (zasada 2), ale 4 to obszar procesu Zarządzania, a nie zasada.'},
+    {t:'1 i 3',ok:true,w:'Realizacja potrzeb interesariusza to zasada 1, Pokrycie całej organizacji – zasada 2.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 13–14, 33 (APO05); nazwy egzaminacyjne – słownik kursu (SP1). Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Przypomnij sobie pięć zasad w brzmieniu egzaminacyjnym (s. 13–14) i odróżnij je od elementów celu Ładu oraz od nazw procesów.',k:['zasady','wartosc']}
+}},
+{pt:'Sprawdź się',quiz:{
+  kontekst:'W sieci szpitali dyrekcja ogłasza: informacje o pacjentach i systemy, które je przetwarzają, są aktywami całej organizacji – odpowiadają za nie oddziały, apteka, rejestracja i księgowość, a nie tylko dział informatyki. Te same reguły obejmują zewnętrzne laboratorium i firmę hostingową.',
+  tresc:'Którą zasadę COBIT 5 stosuje dyrekcja?',
+  opcje:[
+    {t:'Pokrycie całej organizacji',ok:true,w:'Zasada 2: Ład IT jest częścią ładu korporacyjnego, obejmuje wszystkie funkcje i procesy, a informację i technologię traktuje jak aktywa, o które dbają wszyscy – także to, co poza organizacją, a jest dla niej istotne.'},
+    {t:'Oddzielenie Ładu od Zarządzania',w:'Zasada 5 rozdziela decydowanie i realizację; tu nie chodzi o podział ról zarządu i kierownictwa.'},
+    {t:'Aktywacja holistycznego podejścia',w:'Zasada 4 mówi o wielu aktywatorach naraz (procesy, ludzie, kultura…). Tu sednem jest zasięg: cała organizacja i jej otoczenie.'},
+    {t:'Realizacja potrzeb interesariusza',w:'Zasada 1 dotyczy tworzenia wartości dla interesariuszy i kaskady celów, a nie zasięgu odpowiedzialności.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 14. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Ustal, czego dotyczy decyzja dyrekcji: celu, zasięgu, standardów, aktywatorów czy podziału ról. Każda zasada odpowiada na inne z tych pytań (s. 14).',k:['zasady','info']}
+}},
+{pt:'Zasada 5 · s. 14, 32',h:'Ład i Zarządzanie – kto co robi?',b:'<div class="tblwrap"><table class="tbl"><tr><th></th><th><w k="lad">Ład</w><span class="en">Governance</span></th><th><w k="zarz">Zarządzanie</w><span class="en">Management</span></th></tr><tr><td>Kto</td><td>zarząd pod przewodnictwem prezesa<span class="en">Board, led by the Chairperson</span></td><td>kadra kierownicza pod przewodnictwem CEO<span class="en">Executive management, led by the CEO</span></td></tr><tr><td>Co robi</td><td>Oszacuj, Kieruj i Monitoruj<span class="en">Evaluate, Direct and Monitor (EDM)</span></td><td>Planuj, Twórz, Wykonuj i Monitoruj<span class="en">Plan, Build, Run and Monitor (PBRM)</span></td></tr><tr><td>Procesy</td><td>domena EDM – 5 procesów</td><td>domeny APO, BAI, DSS, MEA – 32 procesy</td></tr><tr><td>Bank</td><td>„najpierw ochrona przed wyłudzeniami”</td><td>dyrektor IT planuje, wdraża i raportuje</td></tr><tr><td>Gmina</td><td>wójt z radą ustala priorytet e-podatków</td><td>sekretarz i informatyk wdrażają e-usługę</td></tr></table></div><p>Dziedziny różnią się charakterem działań, wymagają różnych struktur organizacyjnych i służą innym celom.</p>',c:'Ład wyznacza kierunek, Zarządzanie go realizuje.',s:'COBIT 5 Framework (PL), s. 14, 32. Nazwy egzaminacyjne – słownik kursu (SP1); nazwy angielskie – oryginał COBIT 5.',ctx:'<p>Zasada 5 to jedno z najczęściej sprawdzanych rozróżnień. Podręcznik podaje trzy powody rozdziału: inne działania, inne struktury organizacyjne, inne cele (s. 14). <w k="lad">Ład</w> ocenia potrzeby i opcje interesariuszy, ustala priorytety i monitoruje realizację; <w k="zarz">Zarządzanie</w> planuje, buduje, uruchamia i monitoruje działania zgodnie z tym kierunkiem.</p><p>Podział przenosi się do modelu referencyjnego procesów (s. 32–33): 5 procesów domeny EDM (Evaluate, Direct and Monitor – Oszacuj, Kieruj i Monitoruj) należy do Ładu, a 32 procesy w domenach APO, BAI, DSS i MEA – do Zarządzania. Zarządzanie przekazuje Ładowi informacje zwrotne.</p><p>Przykład: u ubezpieczyciela zarząd z komitetem ds. IT decyduje, że priorytetem na dwa lata jest szybsza likwidacja szkód, i co kwartał sprawdza postępy. Kadra kierownicza z CEO (Chief Executive Officer – dyrektor generalny) planuje projekt, wybiera dostawcę i uruchamia system.</p><p>Pułapka: monitorowanie jest po obu stronach. W Ładzie oznacza sprawdzanie, w jakim stopniu wyznaczony kierunek wcielono w życie (przypis na s. 32). Druga pułapka: prezes <span class="en">chairperson</span> przewodniczy zarządowi i jest w COBIT 5 inną rolą niż CEO.</p>'},
+{pt:'Sprawdź się',quiz:{
+  kontekst:'W ministerstwie trwają cztery działania związane z nowym systemem obsługi dotacji:<br>1. Minister z komitetem sterującym ds. cyfryzacji porównuje trzy warianty i wybiera priorytet na dwa lata.<br>2. Departament informatyki układa harmonogram wdrożenia i wybiera dostawcę.<br>3. Komitet sterujący co kwartał sprawdza, czy wdrożenie przebiega zgodnie z wybranym kierunkiem.<br>4. Zespół wsparcia uruchamia system i obsługuje zgłoszenia użytkowników.',
+  tresc:'Które działania należą do Ładu?',
+  opcje:[
+    {t:'1 i 2',w:'1 to Ład (ocena opcji i wybór kierunku), ale 2 to planowanie i budowanie – Zarządzanie.'},
+    {t:'2 i 4',w:'Oba to Zarządzanie: Planuj/Twórz (2) i Wykonuj (4).'},
+    {t:'1 i 3',ok:true,w:'1 = Oszacuj i Kieruj (ocena wariantów, ustalenie priorytetu), 3 = Monitoruj (czy realizacja idzie w wyznaczonym kierunku). To praktyki EDM.'},
+    {t:'3 i 4',w:'3 to Ład, ale 4 to bieżąca eksploatacja – Zarządzanie (Wykonuj).'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 14, 32 (przypis o monitorowaniu w domenie nadzoru). Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Ład ocenia, kieruje i monitoruje, a Zarządzanie planuje, buduje, uruchamia i monitoruje (s. 14, 32). Przy każdym działaniu zapytaj, czy wyznacza ono kierunek, czy go realizuje.',k:['lad','zarz']}
+}},
+{pt:'Sprawdź się',quiz:{
+  tresc:'Kto według COBIT 5 w większości organizacji odpowiada za Zarządzanie?',
+  opcje:[
+    {t:'Zarząd pod przewodnictwem prezesa (chairperson)',w:'To organ odpowiedzialny za Ład. W modelu COBIT prezes (chair) przewodniczy zarządowi i jest inną rolą niż CEO – choć w polskiej spółce „prezes zarządu” bywa właśnie CEO.'},
+    {t:'Kadra kierownicza pod przewodnictwem CEO',ok:true,w:'Tak: Zarządzaniem kieruje CEO (Chief Executive Officer – dyrektor generalny, prezes wykonawczy) razem z kadrą kierowniczą.'},
+    {t:'Dyrektor ds. informatyki (CIO) z działem IT, bez udziału biznesu',w:'CIO (Chief Information Officer) należy do kadry kierowniczej, ale Zarządzanie IT nie jest sprawą samego działu IT – przeczy temu zasada 2.'},
+    {t:'Komitet audytu wspierany przez audyt wewnętrzny',w:'Audyt daje niezależną pewność (assurance) i wspiera Ład w monitorowaniu; nie planuje ani nie wykonuje działań.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 14; rozwinięcia skrótów i uwaga o polskich spółkach – wiedza ogólna. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Zasada 5 (s. 14) wskazuje, kto w większości organizacji odpowiada za Ład, a kto za Zarządzanie. Uważaj na podobnie brzmiące role kierownicze.',k:['zarz','lad']}
+}},
+{pt:'Sprawdź się',quiz:{
+  tresc:'Które stwierdzenie o zasadzie „Oddzielenie Ładu od Zarządzania” NIE jest prawdziwe?',
+  opcje:[
+    {t:'Ład wyznacza kierunek, a potem sam planuje i buduje rozwiązania IT.',ok:true,w:'Planowanie i budowanie to Zarządzanie (Planuj, Twórz, Wykonuj i Monitoruj). Ład ocenia, kieruje i monitoruje – nie realizuje.'},
+    {t:'Ład i Zarządzanie obejmują działania o odmiennym charakterze i służą innym celom.',w:'Prawda – podręcznik mówi to wprost w opisie zasady 5.'},
+    {t:'Ład i Zarządzanie wymagają różnych struktur organizacyjnych.',w:'Prawda – to kolejny element rozróżnienia z opisu zasady 5.'},
+    {t:'Część obowiązków Ładu można przekazać specjalnym strukturom, np. komitetom.',w:'Prawda – szczególnie w dużych, złożonych organizacjach obowiązki Ładu mogą przejąć wyspecjalizowane struktury na właściwym poziomie.'}
+  ],
+  src:'COBIT 5 Framework (PL), s. 14. Pytanie autorskie w stylu egzaminu.',
+  pomoc:{t:'Przypomnij sobie opis zasady 5 na s. 14: czym różnią się Ład i Zarządzanie i komu można przekazać część obowiązków Ładu. Szukasz zdania sprzecznego z tym opisem.',k:['lad','zarz','zasady']}
+}},
+{pt:'Podsumowanie',h:'Na egzamin',b:'<p>• COBIT 5 wydała <w k="isaca">ISACA</w> (2012); to struktura ramowa, nie program, norma ISO ani ustawa – dla organizacji każdej wielkości i sektora.</p><p>• Cel Ładu: <b>Tworzenie Wartości</b> – realizacja korzyści przy optymalizacji ryzyka i zasobów (optymalizacja, nie minimalizacja).</p><p>• Ład (zarząd, Oszacuj/Kieruj/Monitoruj) ≠ Zarządzanie (kierownictwo z CEO, Planuj/Twórz/Wykonuj/Monitoruj).</p><p>• 5 zasad, 7 aktywatorów, 37 procesów (5 Ładu + 32 Zarządzania).</p><div class="cards"><div><b>nadzór → Ład</b><span class="en">Governance</span></div><div><b>czynnik umożliwiający → aktywator</b><span class="en">Enabler</span></div><div><b>metodyka → struktura ramowa</b><span class="en">Framework</span></div><div><b>przedsiębiorstwo → organizacja</b><span class="en">Enterprise</span></div></div>',c:'Zła odpowiedź: „COBIT 5 dotyczy tylko działu IT”.',s:'COBIT 5 Framework (PL), s. 2, 11–14, 17, 32. Nazwy egzaminacyjne – słownik kursu (Altkom, SP1).',ctx:'<p>Ta część to mapa kursu: każde hasło z podsumowania wróci osobno. Wartość i interesariusze – przy zasadzie 1 i kaskadzie celów (cele organizacji, cele związane z Informatyką, Cele aktywatora); siedem aktywatorów – przy zasadzie 4; 37 procesów w domenach EDM, APO, BAI, DSS i MEA – przy modelu referencyjnym procesów.</p><p>Najwięcej punktów traci się nie na faktach, tylko na nazwach. Polski podręcznik pisze „metodyka”, „nadzór”, „czynnik umożliwiający”, „przedsiębiorstwo”, a egzamin – struktura ramowa, Ład, aktywator, organizacja. Znajomość obu zestawów pozwala czytać podręcznik i rozpoznawać dystraktory.</p><p>Przykład do ćwiczenia: rada gminy z wójtem ustala priorytety cyfryzacji urzędu, a sekretarz z informatykami je wdraża. Zanim spojrzysz na opcje w takim pytaniu, nazwij, co jest Ładem, a co Zarządzaniem.</p><p>Pułapka: odpowiedź „COBIT 5 dotyczy tylko działu IT” jest zawsze błędna – przeczy streszczeniu i zasadzie 2. Tak samo „minimalizacja” w miejscu „optymalizacji”.</p>'}
+]};
+</script>
+<script src="sp1.local.js"></script>
+<script src="ilustracje/ilu.js"></script>
+<script src="deck.js"></script>
+</body>
+</html>

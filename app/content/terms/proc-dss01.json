@@ -39,8 +39,8 @@
   "przyklady": {
     "zycie": "W domu masz rutynę: w niedzielę wynosisz śmieci, co miesiąc czyścisz filtr w okapie, zimą sprawdzasz ciśnienie w piecu. Nic się nie psuje, a dom działa. Ta codzienna, zaplanowana obsługa to eksploatacja.",
     "biuro": "Woźny co rano włącza ogrzewanie, sprawdza zamki i opróżnia skrzynkę na listy. Gdy wszystko gra, nikt o nim nie myśli.",
-    "organizacja": "Informatyk hurtowni co rano sprawdza nocne zadania, klimatyzację serwerowni i komunikaty dostawcy chmury. W urzędzie gminy informatyk testuje zasilacz awaryjny i pilnuje firmy od poczty.",
-    "psp": "**Serwer pod schodami.** Ola Dudek co rano sprawdza panel Syreny: czy nocne zadania się wykonały i czy łącze do OSP Zawilce odpowiada. Kpt. Sikora przenosi serwer ze schowka do pomieszczenia z klimatyzacją i zasilaniem awaryjnym. Od teraz Dudek raz w tygodniu sprawdza temperaturę i stan akumulatorów. Codzienna, zaplanowana obsługa i dbałość o otoczenie sprzętu to [[proc-dss01]].",
+    "organizacja": "Informatyk hurtowni co rano sprawdza nocne zadania, klimatyzację serwerowni i komunikaty dostawcy chmury.",
+    "admin": "W urzędzie gminy informatyk co rano sprawdza, czy nocna kopia zapasowa się wykonała i czy w serwerowni jest właściwa temperatura. Raz w miesiącu testuje zasilacz awaryjny serwera. Pilnuje też firmy, która prowadzi gminie pocztę elektroniczną: czyta jej komunikaty i sprawdza, czy wykonuje zaplanowane prace.",
     "it": "Praktyki DSS01: procedury operacyjne, usługi zlecone na zewnątrz, monitorowanie infrastruktury, środowisko i pomieszczenia. Przykład: kontrola, czy nocna kopia zapasowa się wykonała."
   },
   "nieMylicZ": [
@@ -96,8 +96,8 @@
   "mapa": "proc-dss01",
   "glebokosc": {
     "prosty": "Masz kota. Codziennie dajesz jeść, raz w tygodniu czyścisz kuwetę, raz w roku idziesz na szczepienie. Robisz to według planu, nie czekając, aż coś się stanie. To jest eksploatacja.",
-    "zaawansowany": "Dudek co rano sprawdza panel Syreny i dzienniki nocnych zadań, a co tydzień stan zasilania awaryjnego w nowej serwerowni. To [[proc-dss01]]. Gdy pewnej nocy łącze do OSP przestaje odpowiadać i alarm nie wychodzi, sprawa przechodzi do [[proc-dss02]] jako incydent. Dane o rosnącym obciążeniu Dudek przekazuje Sikorze do planowania w [[proc-bai04]].",
-    "skrajny": "Komendantka Wrzos proponuje, żeby Syrena działała w chmurze firmy Kwant-Sygnał. Sikora cieszy się: „Wtedy DSS01 nas nie dotyczy, bo serwerem zajmie się dostawca”. To błąd. DSS01 obejmuje także eksploatację usług zleconych na zewnątrz. Komenda nadal musi wiedzieć, czy zadania się wykonują, czy dostawca monitoruje usługę i czy dane są chronione. Zmienia się tylko rola: z „robimy sami” na „pilnujemy, żeby dostawca robił”. Umowa i ocena dostawcy to APO10, a obiecany poziom usług to APO09. **Rozstrzygnięcie:** oddanie eksploatacji na zewnątrz nie usuwa DSS01. Odpowiedzialności nie da się zlecić, można zlecić tylko wykonanie."
+    "zaawansowany": "Administratorka co rano sprawdza panel systemów banku i dzienniki nocnych zadań, a co tydzień stan zasilania awaryjnego w centrum danych. To [[proc-dss01]]. Gdy pewnej nocy łącze do operatora SMS przestaje odpowiadać i powiadomienia nie wychodzą, sprawa przechodzi do [[proc-dss02]] jako incydent. Dane o rosnącym obciążeniu administratorka przekazuje kierownikowi IT do planowania w [[proc-bai04]].",
+    "skrajny": "Zarząd banku proponuje, żeby system powiadamiania klientów działał w chmurze dostawcy. Kierownik IT cieszy się: „Wtedy DSS01 nas nie dotyczy, bo serwerem zajmie się dostawca”. To błąd. DSS01 obejmuje także eksploatację usług zleconych na zewnątrz. Bank nadal musi wiedzieć, czy zadania się wykonują, czy dostawca monitoruje usługę i czy dane są chronione. Zmienia się tylko rola: z „robimy sami” na „pilnujemy, żeby dostawca robił”. Umowa i ocena dostawcy to APO10, a obiecany poziom usług to APO09. **Rozstrzygnięcie:** oddanie eksploatacji na zewnątrz nie usuwa DSS01. Odpowiedzialności nie da się zlecić, można zlecić tylko wykonanie."
   },
   "zagmatwania": [
     {

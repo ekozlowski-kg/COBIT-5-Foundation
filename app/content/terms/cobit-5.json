@@ -40,12 +40,11 @@
     "biuro": "W biurze każdy kupuje programy na własną rękę, nikt nie wie, kto robi kopie zapasowe, a szef nie wie, ile to kosztuje. Według COBIT 5 szef ustalałby priorytety i sprawdzał wyniki, kierownik organizowałby zakupy i kopie, a każdy wiedziałby, za co odpowiada.",
     "firma": "Właściciel warsztatu kupił program do rezerwacji, kasę online i monitoring, ale nie wie, czy to się opłaca i kto za co odpowiada. COBIT 5 podpowiada, jak to poukładać: kto wyznacza kierunek, kto prowadzi codzienne sprawy, jak mierzyć efekty i ryzyko. To gotowa rama, a nie program do zainstalowania.",
     "admin": "Burmistrz słyszy, że urząd wydaje na informatykę coraz więcej, a mieszkańcy dalej stoją w kolejkach. Sięga po COBIT 5, żeby ustalić, czego chce od systemów, kto w urzędzie za nie odpowiada i jak co roku sprawdzać, czy przynoszą korzyści. COBIT 5 służy tu do uporządkowania Ładu i Zarządzania IT.",
-    "psp": "Komendant powiatowy chce wiedzieć, czy SWD-PSP, łączność i sprzęt w SK naprawdę pomagają szybciej dysponować zastępy, kto za nie odpowiada i co się stanie przy awarii. COBIT 5 daje mu gotowy układ – zasady, aktywatory i procesy – według którego to sprawdzi i poukłada. To rama Ładu i Zarządzania IT, a nie kolejny system.",
-    "it": "Komenda w Modrzewiowie po awarii Syreny porządkuje IT według COBIT 5: komendantka Wrzos przejmuje 5 procesów Ładu (EDM01–EDM05), kpt. Sikora 32 procesy Zarządzania, np. DSS04 Zarządzanie ciągłością, a audytorka Lis ocenia zdolność procesów."
+    "it": "Bank po poważnej awarii bankowości internetowej porządkuje IT według COBIT 5: zarząd przejmuje 5 procesów Ładu (EDM01–EDM05), CIO 32 procesy Zarządzania, np. DSS04 Zarządzanie ciągłością, a audyt wewnętrzny ocenia zdolność procesów."
   },
   "glebokosc": {
     "prosty": "Kodeks drogowy nie mówi Ci, dokąd jechać. Mówi, jak jechać bezpiecznie i kto ma pierwszeństwo. Każdy kierowca stosuje go na własnej trasie, a COBIT 5 jest takim kodeksem dla decyzji o informacji i technologii.",
-    "zaawansowany": "Kpt. Sikora przynosi na naradę COBIT 5. Komendantka Wrzos pyta, czy to zastąpi ITIL, który zna Ola Dudek. Sikora wyjaśnia, że COBIT 5 to [[integrator]]: mówi, kto decyduje (Ład), kto wykonuje (Zarządzanie) i jak to sprawdzać. [[itil|ITIL]] podpowie Oli, jak obsługiwać zgłoszenia na co dzień. Oba się uzupełniają, a COBIT 5 daje całej komendzie wspólny język.",
+    "zaawansowany": "CIO przynosi na posiedzenie zarządu COBIT 5. Prezes pyta, czy to zastąpi ITIL, który zna kierownik helpdesku. CIO wyjaśnia, że COBIT 5 to [[integrator]]: mówi, kto decyduje (Ład), kto wykonuje (Zarządzanie) i jak to sprawdzać. [[itil|ITIL]] podpowie helpdeskowi, jak obsługiwać zgłoszenia na co dzień. Oba się uzupełniają, a COBIT 5 daje całej firmie wspólny język.",
     "skrajny": "Czy COBIT 5 nakazuje wdrożyć dokładnie 37 procesów? Intuicja mówi: skoro model ma 37, to tyle musi być. FW-PL (s. 32) mówi jednak, że COBIT 5 nie ma charakteru normatywnego, a model procesów „nie jest to jedyny możliwy model procesów”. W mniejszej organizacji procesów może być mniej, byle obejmowały wszystkie konieczne cele Ładu i Zarządzania. Druga pułapka: COBIT 5 nie jest normą z certyfikacją jak ISO/IEC 27001, choć ocena zdolności opiera się na ISO/IEC 15504. **Rozstrzygnięcie:** 37 procesów to model odniesienia, a nie obowiązek; każda organizacja definiuje własny zbiór procesów, który pokrywa cele Ładu i Zarządzania."
   },
   "zagmatwania": [
@@ -65,7 +64,7 @@
   "mentor": {
     "czestyBlad": "Traktowanie COBIT 5 jak normy z obowiązkowymi wymaganiami i jak narzędzia tylko dla informatyków.",
     "jakTlumaczyc": "Mapa, a nie trasa: COBIT 5 pokazuje cały teren (zasady, aktywatory, procesy), a organizacja wyznacza na nim własną drogę. Zacznij od liczb 5–7–37, a potem dodaj, że to model do dopasowania.",
-    "pytanieKontrolne": "Mała OSP chce „wdrożyć COBIT 5”, ale ma trzy osoby do pracy biurowej. Czy musi uruchomić 37 procesów? Co jej powiesz?",
+    "pytanieKontrolne": "Mała firma rodzinna chce „wdrożyć COBIT 5”, ale ma trzy osoby w biurze. Czy musi uruchomić 37 procesów? Co jej powiesz?",
     "odpowiedzKontrolna": "Nie. COBIT 5 nie jest normatywny, a 37 procesów to model referencyjny. Mniejsza organizacja może mieć mniej procesów, jeśli pokrywają konieczne cele Ładu i Zarządzania (s. 32). Plan dopasowuje się do jej kontekstu, czyli czynników środowiskowych."
   },
   "nieMylicZ": [

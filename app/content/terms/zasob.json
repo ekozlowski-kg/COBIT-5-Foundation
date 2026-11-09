@@ -11,7 +11,7 @@
     "wydawcaEgzaminu": "Zasób",
     "podrecznik": "Zasób",
     "kurs": "Zasób (Resource)",
-    "uwaga": "Resource („zasób”) koliduje z Assets w BAI09, które też przetłumaczono jako „zasoby”. Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 2, 7, 8; zestawienie Altkom (kolumna „Podręczniki PL”)."
+    "uwaga": "Resource („zasób”) koliduje z Assets w BAI09, które też przetłumaczono jako „zasoby”. Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 2, 7, 8."
   },
   "pulapka": false,
   "kategoria": "podstawowe",
@@ -33,12 +33,11 @@
     "biuro": "Kierownik biura planuje tydzień: ma trzy osoby, jedną drukarkę wielofunkcyjną, 500 zł na materiały i bazę adresów klientów. To jego zasoby, a od nich zależy, ile pism biuro zdąży wysłać.",
     "firma": "Właściciel warsztatu dostaje duże zlecenie na serwis floty aut. Sprawdza, czy ma wolnych mechaników, podnośniki, pieniądze na części i aktualną bazę klientów z historią napraw. Ludzie, sprzęt, pieniądze i informacje to zasoby warsztatu.",
     "admin": "Dyrektor szkoły układa plan na nowy rok. Ma określoną liczbę etatów nauczycieli, budżet z gminy, pracownię komputerową z siecią i dane uczniów w dzienniku. To wszystko są zasoby szkoły.",
-    "psp": "Dowódca zmiany w JRG zaczyna 24-godzinną służbę. Sprawdza, ilu ratowników ma na zmianie, które pojazdy są sprawne po przeglądzie, czy aparaty ODO są gotowe i czy dane o hydrantach w SWD-PSP są aktualne. Ludzie, sprzęt i informacje to zasoby, z którymi zmiana wyjedzie do zdarzeń.",
     "it": "EDM04 (Zapewnienie optymalizacji zasobów) pilnuje, by zasoby IT (ludzie, procesy, technologie) były wystarczające i optymalnie wykorzystane. Szczegółami zajmuje się Zarządzanie, np. APO07 (Zarządzanie zasobami ludzkimi) ludźmi, a APO06 (Zarządzanie budżetem i kosztami) pieniędzmi."
   },
   "glebokosc": {
     "prosty": "Żeby upiec ciasto na urodziny, potrzebujesz mąki, piekarnika, pieniędzy na zakupy, dwóch godzin i przepisu. Wszystko, z czego korzystasz, żeby dojść do celu, to zasoby. Przepis też jest zasobem, choć nie da się go dotknąć.",
-    "zaawansowany": "Halina Mak liczy, czego komenda potrzebuje do modernizacji Syreny: pieniędzy z budżetu, czasu Oli Dudek i Sikory, serwera i łącza, a także aktualnych danych kontaktowych OSP. To zasoby, a decyzja o ich użyciu to [[optymalizacja-zasobow]], jeden z trzech elementów [[tworzenie-wartosci|tworzenia wartości]]. Przy każdej decyzji komendantka pyta: Kto odnosi korzyści? Kto ponosi ryzyko? Jakie zasoby są wymagane? (s. 17).",
+    "zaawansowany": "Dyrektor finansowy banku liczy, czego bank potrzebuje do modernizacji systemu powiadomień: pieniędzy z budżetu, czasu administratorów i kierownika działu IT, serwera i łącza, a także aktualnych danych kontaktowych klientów. To zasoby, a decyzja o ich użyciu to [[optymalizacja-zasobow]], jeden z trzech elementów [[tworzenie-wartosci|tworzenia wartości]]. Przy każdej decyzji zarząd pyta: Kto odnosi korzyści? Kto ponosi ryzyko? Jakie zasoby są wymagane? (s. 17).",
     "skrajny": "Uczeń mówi: „Aktywator i zasób to to samo – jedno i drugie pomaga osiągnąć cele”. Prawie: definicja zasobu (Załącznik H) i opis aktywatora rzeczywiście brzmią podobnie. Ilustracja 12 pokazuje jednak, że tylko trzy z siedmiu kategorii aktywatorów są jednocześnie zasobami przedsiębiorstwa: informacja; usługi, infrastruktura i aplikacje; ludzie, umiejętności i kompetencje (s. 27). Zasady i polityki, procesy, struktury organizacyjne oraz kultura są aktywatorami, ale Framework nie zalicza ich do zasobów. Te trzy kategorie wymagają więc podwójnej uwagi: zarządza się nimi jak zasobem i jak aktywatorem. **Rozstrzygnięcie:** trzy z siedmiu kategorii aktywatorów (informacja; usługi, infrastruktura i aplikacje; ludzie, umiejętności i kompetencje) są też zasobami, a pozostałe cztery są aktywatorami, ale nie zasobami."
   },
   "zagmatwania": [

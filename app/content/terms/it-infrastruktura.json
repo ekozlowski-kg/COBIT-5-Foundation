@@ -37,7 +37,7 @@
     "zycie": "W bloku wspólne są: instalacja elektryczna, wodociąg i winda. To infrastruktura budynku – mieszkańcy z niej korzystają, ale rzadko o niej myślą.",
     "biuro": "Serwer plików, sieć w biurze, drukarka sieciowa i router to infrastruktura biura. Program do faktur stoi na niej.",
     "organizacja": "Bank ma dwie serwerownie w różnych miastach, każdą z własnym zasilaniem. Gdy jedna zawiedzie, druga przejmuje pracę.",
-    "psp": "Infrastruktura „Syreny” to serwer pod schodami, jedno łącze internetowe i sieć komendy. Brak zasilania awaryjnego to jej słaby punkt.",
+    "admin": "Urząd wojewódzki ma serwerownię z zasilaniem awaryjnym i klimatyzacją, sieć łączącą siedzibę z delegaturami w trzech miastach i systemy operacyjne na serwerach. Na tej podstawie działają aplikacje, na przykład do wydawania paszportów. Urzędnicy korzystają z aplikacji, a infrastrukturą zajmuje się wydział informatyki.",
     "it": "Infrastruktura techniczna i fizyczna to część aktywatora Usługi, infrastruktura i aplikacje (FW-PL s. 86)."
   },
   "nieMylicZ": [
@@ -81,7 +81,7 @@
   ],
   "glebokosc": {
     "prosty": "Mieszkasz w domu z kranem, gniazdkiem i grzejnikiem. Gdy w nocy pęknie rura w piwnicy, nie umyjesz zębów, choć Twoja łazienka jest w porządku. Rura to infrastruktura: niewidoczna, a wszystko od niej zależy.",
-    "zaawansowany": "Kpt. Marek Sikora, naczelnik wydziału informatyki, rysuje komendantce schemat: aplikacja „Syrena” → [[it-serwer|serwer]] pod schodami → jedno łącze internetowe. Pod każdym klockiem pisze, co się stanie, gdy zawiedzie. Okazuje się, że brak prądu w budynku wyłączy alarmy, bo serwer nie ma zasilania awaryjnego.",
+    "zaawansowany": "CIO rysuje zarządowi schemat: aplikacja sklepu internetowego → [[it-serwer|serwer]] w małej serwerowni → jedno łącze internetowe. Pod każdym klockiem pisze, co się stanie, gdy zawiedzie. Okazuje się, że brak prądu w budynku zatrzyma sprzedaż, bo serwer nie ma zasilania awaryjnego.",
     "skrajny": "Czy budynek serwerowni to infrastruktura IT? Tak – FW-PL wymienia infrastrukturę fizyczną (s. 86). Czy system operacyjny to infrastruktura czy aplikacja? Infrastruktura – to oprogramowanie systemowe. Czy usługa „poczta” to infrastruktura? Nie – to usługa, która na infrastrukturze działa. **Rozstrzygnięcie:** infrastruktura to sprzęt, sieć, oprogramowanie systemowe i fizyczne zaplecze; aplikacje stoją na niej, a usługi są efektem dla użytkownika."
   },
   "zagmatwania": [
@@ -90,14 +90,14 @@
       "prawda": "To też serwery, komputery, systemy operacyjne i pomieszczenia z zasilaniem (FW-PL s. 86)."
     },
     {
-      "mit": "Aplikacja „Syrena” jest infrastrukturą.",
+      "mit": "System CRM jest infrastrukturą.",
       "prawda": "Aplikacja działa na infrastrukturze, ale sama jest aplikacją."
     }
   ],
   "mentor": {
     "czestyBlad": "Mieszanie infrastruktury, aplikacji i usługi w jednym słowie „system”.",
     "jakTlumaczyc": "Dom: fundamenty i rury (infrastruktura), sprzęty kuchenne (aplikacje), ciepły obiad (usługa).",
-    "pytanieKontrolne": "Gdzie w tym podziale umieścisz: łącze internetowe, „Syrenę” i „alarm wychodzi całą dobę”?",
-    "odpowiedzKontrolna": "Łącze – infrastruktura, „Syrena” – aplikacja, „alarm wychodzi całą dobę” – usługa IT."
+    "pytanieKontrolne": "Gdzie w tym podziale umieścisz: łącze internetowe, system CRM i „obsługa klientów działa całą dobę”?",
+    "odpowiedzKontrolna": "Łącze – infrastruktura, system CRM – aplikacja, „obsługa klientów działa całą dobę” – usługa IT."
   }
 }

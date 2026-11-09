@@ -1,0 +1,265 @@
+[
+  {
+    "id": "q-zap-im-01-kontekst-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "IM-02-01"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Komendantka podpisała zgodę na wdrożenie COBIT 5 i więcej się nim nie zajmuje. Którego kluczowego czynnika sukcesu brakuje?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 35
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 36
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Zrozumienia celów biznesowych i celów IT",
+        "poprawna": false,
+        "wyjasnienie": "To też czynnik sukcesu, ale opis mówi o postawie komendantki, a nie o rozumieniu celów.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Dostosowania COBIT 5 do kontekstu komendy",
+        "poprawna": false,
+        "wyjasnienie": "To czynnik sukcesu, ale nie tego dotyczy opis.",
+        "pulapka": "prawda-nie-na-temat"
+      },
+      {
+        "tekst": "Widocznego i ciągłego wsparcia kierownictwa najwyższego szczebla",
+        "poprawna": true,
+        "wyjasnienie": "Sam podpis to za mało. Kierownictwo ma wspierać zmianę widocznie i stale (s. 35)."
+      },
+      {
+        "tekst": "Niskiego apetytu na ryzyko",
+        "poprawna": false,
+        "wyjasnienie": "Apetyt na ryzyko to czynnik środowiskowy, czyli kontekst, a nie czynnik sukcesu.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-im-02-punkty-zapalne-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "IM-02-02"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Do komendy przychodzi nowy szef informatyki z zewnątrz i zapowiada porządki. Jak COBIT 5 nazywa taką sytuację?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 37
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Zdarzenie wyzwalające",
+        "poprawna": true,
+        "wyjasnienie": "Nowy CIO to zmiana, która uruchamia działania, czyli zdarzenie wyzwalające (s. 37)."
+      },
+      {
+        "tekst": "Punkt zapalny",
+        "poprawna": false,
+        "wyjasnienie": "Punkt zapalny to trwający problem, który boli. Tu chodzi o zmianę.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Czynnik środowiskowy, który trzeba uwzględnić",
+        "poprawna": false,
+        "wyjasnienie": "Czynnik środowiskowy to stały kontekst, np. przepisy. Nowa osoba na stanowisku to zmiana.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Zdarzenie inicjujące",
+        "poprawna": false,
+        "wyjasnienie": "Tak nazywa to podręcznik. Na egzaminie obowiązuje nazwa „zdarzenie wyzwalające”.",
+        "pulapka": "forma-podrecznikowa"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-im-03-pierscienie-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "IM-01-01",
+      "IM-02-05"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Komenda naprawia Syrenę. Które działanie należy do pierścienia **Aktywowanie zmiany**?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 37
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Zatwierdzenie budżetu i harmonogramu całego programu",
+        "poprawna": false,
+        "wyjasnienie": "Budżet i harmonogram to pierścień zewnętrzny, Zarządzanie programem.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Comiesięczny pomiar czasu alarmu i kolejne poprawki",
+        "poprawna": false,
+        "wyjasnienie": "Stałe mierzenie i poprawianie to pierścień wewnętrzny, ciągłe doskonalenie.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Wskazanie liderów zmiany wśród dyżurnych na każdej zmianie",
+        "poprawna": true,
+        "wyjasnienie": "Aktywowanie zmiany dotyczy ludzi, zachowań i kultury. Liderzy zmiany pomagają przekonać kolegów (s. 37)."
+      },
+      {
+        "tekst": "Zakup nowego serwera z zasilaniem awaryjnym",
+        "poprawna": false,
+        "wyjasnienie": "To techniczna część naprawy, a nie praca z ludźmi i ich nawykami.",
+        "pulapka": "prawda-nie-na-temat"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-im-05-uzasadnienie-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "IM-02-03",
+      "IM-02-04"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Halina Mak pisze uzasadnienie biznesowe naprawy Syreny. Czego uzasadnienie **NIE** musi zawierać według COBIT 5?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 39
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Ryzyka, w tym ograniczeń i zależności",
+        "poprawna": false,
+        "wyjasnienie": "Ryzyko jest obowiązkowym elementem (s. 39).",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Ról, odpowiedzialności i rozliczalności",
+        "poprawna": false,
+        "wyjasnienie": "Role i rozliczalność są obowiązkowym elementem (s. 39).",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Sposobu monitorowania w pełnym cyklu życia ekonomicznego",
+        "poprawna": false,
+        "wyjasnienie": "Monitorowanie jest obowiązkowym elementem (s. 39).",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Oceny poziomu zdolności każdego procesu komendy",
+        "poprawna": true,
+        "wyjasnienie": "Ocena zdolności to osobne narzędzie z modułu 4. Nie jest elementem uzasadnienia biznesowego."
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pc-01-zdolnosc-1",
+    "typ": "egzamin",
+    "sylabus": [
+      "PC-02-05"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "Proces w komendzie jest wykonywany, ale nie osiąga swojego celu. Jaki poziom dostanie w modelu zdolności COBIT 5?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 41
+      },
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Poziom 0 – niekompletny",
+        "poprawna": true,
+        "wyjasnienie": "Proces, który nie osiąga celu, ma w COBIT 5 poziom 0."
+      },
+      {
+        "tekst": "Poziom 1 – wykonywany, bo proces działa",
+        "poprawna": false,
+        "wyjasnienie": "Poziom 1 wymaga, żeby proces naprawdę osiągał swój cel.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Poziom 2 – powtarzalny",
+        "poprawna": false,
+        "wyjasnienie": "„Powtarzalny” to nazwa poziomu z modelu dojrzałości COBIT 4.1.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "Poziom „ad hoc”",
+        "poprawna": false,
+        "wyjasnienie": "„Ad hoc” to poziom z modelu dojrzałości COBIT 4.1, nie z modelu zdolności.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  },
+  {
+    "id": "q-zap-pc-02-poziomy-2",
+    "typ": "egzamin",
+    "sylabus": [
+      "PC-01-01",
+      "PC-01-02"
+    ],
+    "bloom": "rozumienie",
+    "trudnosc": 2,
+    "tresc": "W komendzie obsługa alarmu jest planowana i monitorowana, a rejestry są kontrolowane. Każda zmiana pracuje jednak według własnego sposobu. Który poziom zdolności najlepiej to opisuje?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 42
+      }
+    ],
+    "status": "przyklad",
+    "opcje": [
+      {
+        "tekst": "Poziom 1 – wykonywany",
+        "poprawna": false,
+        "wyjasnienie": "Proces ma więcej niż poziom 1, bo jest planowany i monitorowany.",
+        "pulapka": "zbyt-waskie"
+      },
+      {
+        "tekst": "Poziom 3 – ustanowiony",
+        "poprawna": false,
+        "wyjasnienie": "Poziom 3 wymaga jednego, zdefiniowanego procesu dla wszystkich.",
+        "pulapka": "falsz"
+      },
+      {
+        "tekst": "Poziom 2 – zarządzany",
+        "poprawna": true,
+        "wyjasnienie": "Planowanie, monitorowanie i kontrola produktów pracy to poziom 2 (s. 42)."
+      },
+      {
+        "tekst": "Poziom 4 – przewidywalny",
+        "poprawna": false,
+        "wyjasnienie": "Poziom 4 wymaga pomiaru i limitów. O pomiarze nic nie wiadomo.",
+        "pulapka": "falsz"
+      }
+    ]
+  }
+]

@@ -36,8 +36,8 @@
   "przyklady": {
     "zycie": "Przed wyjazdem na wakacje spisujesz, co może pójść źle: kradzież, zalanie, zgubiony paszport. Oceniasz, co najgroźniejsze. Kupujesz ubezpieczenie, prosisz sąsiada o zaglądanie i robisz kopię paszportu. To APO12.",
     "biuro": "Kierownik biura spisuje, co może pójść źle: awaria komputera z fakturami, zgubiony klucz do archiwum, choroba jedynej księgowej. Przy każdym ryzyku zapisuje, co zrobi, i co kwartał to przegląda.",
-    "organizacja": "Kierownik ryzyka IT w banku prowadzi rejestr ryzyk: awaria centrum danych, wyciek danych, odejście kluczowych ludzi. Co miesiąc aktualizuje oceny i postęp działań. Raport trafia do zarządu. To APO12. Informatyk starostwa analizuje: co, jeśli wirus zaszyfruje dane? Ocenia prawdopodobieństwo i skutki. Proponuje kopie zapasowe poza budynkiem i szkolenie pracowników. To APO12.",
-    "psp": "**Tablica w gabinecie Sikory.** Naczelnik Marek Sikora wypisuje na tablicy, co może zawieść w Syrenie: zasięg, prąd w serwerowni, nieaktualne numery. Ocenia każde ryzyko i dobiera reakcję, np. comiesięczną weryfikację numerów OSP. Raz w miesiącu aktualizuje rejestr. To jest [[proc-apo12|APO12]].",
+    "organizacja": "Kierownik ryzyka IT w banku prowadzi rejestr ryzyk: awaria centrum danych, wyciek danych, odejście kluczowych ludzi. Co miesiąc aktualizuje oceny i postęp działań. Raport trafia do zarządu. To APO12.",
+    "admin": "Informatyk starostwa analizuje: co, jeśli wirus zaszyfruje dane? Ocenia prawdopodobieństwo i skutki. Proponuje kopie zapasowe poza budynkiem i szkolenie pracowników. To APO12.",
     "it": "Kierownik ryzyka IT prowadzi rejestr ryzyk z oceną prawdopodobieństwa i skutków oraz plan reakcji. To APO12. Ryzyka ponad apetyt eskaluje do [[proc-edm03]]. (interpretacja kursu: eskalacja)"
   },
   "nieMylicZ": [
@@ -98,8 +98,8 @@
   "mapa": "proc-apo12",
   "glebokosc": {
     "prosty": "Przed burzą sprawdzasz dom: czy okna zamknięte, czy rynna drożna, czy w piwnicy nic nie stoi na podłodze. Robisz to regularnie, nie raz. Szukasz zagrożeń i zapobiegasz im.",
-    "zaawansowany": "Komendantka Wrzos ustaliła w [[proc-edm03]]: żaden alarm nie może zginąć. Naczelnik Sikora w APO12 szuka, co temu zagraża. Stary numer Pietrzaka to ryzyko wysokie, więc wprowadza comiesięczną weryfikację numerów. Ryzyko ataku na serwer przekazuje do [[proc-apo13]], a plan awaryjny do DSS04.",
-    "skrajny": "Sikora ocenia ryzyko awarii bramki SMS jako wysokie i proponuje drugą bramkę. Kosztuje to tyle, że trzeba odłożyć aplikację dla OSP. Kto decyduje? Ocena i propozycja to APO12. Jeśli reakcja mieści się w budżecie i w apetycie, Sikora wdraża ją w Zarządzaniu. Jeśli trzeba przyjąć ryzyko ponad apetyt albo zmienić priorytety komendy, decyzja wraca do Wrzos (EDM03). APO12 nie ustala apetytu, tylko pracuje w jego granicach. **Rozstrzygnięcie:** APO12 rozpoznaje, ocenia i obsługuje ryzyko w granicach apetytu; zmiana granic i ryzyko ponad apetyt → EDM03. (interpretacja kursu: zasada eskalacji)"
+    "zaawansowany": "Zarząd banku ustalił w [[proc-edm03]]: żadne powiadomienie o transakcji nie może zginąć. Dyrektor IT w APO12 szuka, co temu zagraża. Nieaktualne numery telefonów klientów to ryzyko wysokie, więc wprowadza comiesięczną weryfikację danych kontaktowych. Ryzyko ataku na serwer przekazuje do [[proc-apo13]], a plan awaryjny do DSS04.",
+    "skrajny": "Dyrektor IT ocenia ryzyko awarii bramki SMS jako wysokie i proponuje drugą bramkę u innego operatora. Kosztuje to tyle, że trzeba odłożyć nową funkcję aplikacji mobilnej. Kto decyduje? Ocena i propozycja to APO12. Jeśli reakcja mieści się w budżecie i w apetycie, dyrektor IT wdraża ją w Zarządzaniu. Jeśli trzeba przyjąć ryzyko ponad apetyt albo zmienić priorytety banku, decyzja wraca do zarządu (EDM03). APO12 nie ustala apetytu, tylko pracuje w jego granicach. **Rozstrzygnięcie:** APO12 rozpoznaje, ocenia i obsługuje ryzyko w granicach apetytu; zmiana granic i ryzyko ponad apetyt → EDM03. (interpretacja kursu: zasada eskalacji)"
   },
   "zagmatwania": [
     {

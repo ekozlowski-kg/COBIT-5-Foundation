@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>COBIT 5 krok po kroku</title>
+<script>try{var t=localStorage.getItem('c5.theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="podrecznik.css">
+<style>
+  .home{max-width:760px;margin:0 auto;padding:clamp(24px,6vh,64px) 0 48px}
+  .home .brand{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+  .home h1{font-size:clamp(30px,4.4vw,46px);font-weight:600;letter-spacing:-.015em;line-height:1.1;margin:0 0 12px}
+  .home .lead{font-size:17px;color:var(--muted);margin:0 0 36px;max-width:60ch}
+  .resume{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);padding:20px 0;margin:0 0 12px}
+  .resume small{display:block;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .resume strong{display:block;font-size:20px;font-weight:600;margin:2px 0}
+  .resume span{color:var(--muted);font-size:15px}
+  .go{display:inline-block;background:var(--ink);color:var(--bg);text-decoration:none;font-size:17px;font-weight:500;padding:12px 22px;border-radius:6px;white-space:nowrap}
+  .go:focus-visible,.path a:focus-visible,.tools a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+  .stats{font-size:14.5px;color:var(--muted);margin:0 0 40px;font-variant-numeric:tabular-nums}
+  .chap{font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:26px 0 4px 40px}
+  .path{list-style:none;margin:0;padding:0;position:relative}
+  .path li{position:relative;padding-left:40px}
+  .path li::before{content:"";position:absolute;left:11px;top:0;bottom:0;width:2px;background:var(--line)}
+  .path li.done::before{background:var(--ink)}
+  .dot{position:absolute;left:3px;top:20px;width:18px;height:18px;border-radius:50%;border:2px solid var(--ink);background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:11px;line-height:1;z-index:1}
+  .done .dot{background:var(--ink);color:var(--bg)}
+  .cur .dot{box-shadow:0 0 0 4px var(--bg),0 0 0 6px var(--ink)}
+  .soon .dot{border-style:dashed;border-color:var(--muted)}
+  .path a,.path .off{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;align-items:baseline;padding:14px 0 14px;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line)}
+  .path a:hover .t{text-decoration:underline;text-underline-offset:3px}
+  .path .t{font-size:17.5px;font-weight:600}
+  .path .n{font-family:var(--f-mono);font-size:13px;color:var(--muted);margin-right:8px;font-weight:500}
+  .path .d{grid-column:1;font-size:14.5px;color:var(--muted)}
+  .path .st{grid-row:1;grid-column:2;font-size:13.5px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+  .path .done .st,.path .cur .st{color:var(--ink)}
+  .path .bar{grid-column:1/-1;height:2px;background:var(--line);margin-top:6px}
+  .path .bar i{display:block;height:100%;background:var(--ink)}
+  .path .off{color:var(--muted)}
+  .path .off .t{font-weight:500}
+  .mapcard{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 16px;align-items:center;text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:14px 16px;margin:0 0 18px}
+  .mapcard strong{font-size:17px;font-weight:600}
+  .mapcard span{grid-column:1;font-size:14.5px;color:var(--muted)}
+  .mapcard em{grid-row:1/3;grid-column:2;font-style:normal;color:var(--accent);font-weight:500;white-space:nowrap}
+  .mapcard:hover strong{text-decoration:underline;text-underline-offset:3px}
+  .mapcard:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+  @media (max-width:560px){.mapcard{grid-template-columns:minmax(0,1fr)}.mapcard em{grid-row:auto;grid-column:1}}
+  .tools{display:flex;flex-wrap:wrap;gap:6px 22px;margin:44px 0 0;padding-top:18px;border-top:1px solid var(--line)}
+  .tools p{width:100%;margin:0 0 4px;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .tools a{color:var(--ink);font-size:15.5px;text-underline-offset:3px}
+  .legal{margin:28px 0 0;font-size:12.5px;color:var(--muted);max-width:70ch}
+  @media (max-width:560px){.path a,.path .off{grid-template-columns:minmax(0,1fr)}.path .st{grid-row:auto;grid-column:1}.chap{margin-left:40px}}
+</style>
+</head>
+<body>
+<main class="home">
+  <p class="brand">COBIT 5 Foundation</p>
+  <h1>COBIT 5 krok po kroku</h1>
+  <p class="lead">Podręcznik rozdział po rozdziale: jedna myśl na slajd, pytania kontrolne po ważniejszych slajdach. Podkreślone pojęcia i przycisk „Kontekst” otwierają wyjaśnienia.</p>
+  <div class="resume" id="resume"></div>
+  <a class="mapcard" href="mapa.html"><strong>Mapa COBIT 5</strong><span>Cały framework na 7 interaktywnych schematach: zasady, kaskada celów, Ład i role, 37 procesów, aktywatory, wdrożenie i model zdolności.</span><em>Otwórz mapę →</em></a>
+  <p class="stats" id="stats"></p>
+  <div id="path"></div>
+  <nav class="tools" aria-label="Narzędzia">
+    <p>Narzędzia</p>
+    <a href="mapa.html">Mapa COBIT 5 – schemat całego frameworka</a>
+    <a href="../index.html#/egzamin">Egzamin próbny (50 pytań, 40 min)</a>
+    <a href="../index.html#/slownik">Słownik pojęć</a>
+    <a href="../index.html#/powtorki">Powtórki</a>
+    <a href="../index.html#/dryl">Ćwiczenie nazw z egzaminu</a>
+    <a href="../index.html#/notatki">Notatki</a>
+  </nav>
+  <p class="legal">Niezależny materiał do nauki do egzaminu COBIT 5 Foundation – nie jest powiązany z ISACA ani z PeopleCert. COBIT® jest znakiem towarowym ISACA®. Numery stron („s. 17”) odnoszą się do polskiego wydania podręcznika COBIT 5 (ISACA, 2012). Postęp nauki zapisuje się tylko w tej przeglądarce.</p>
+</main>
+<script src="spis.js"></script>
+<script>
+// Spis treści ułożony jak podręcznik COBIT 5 – generuje go z_kursu.py (spis.js).
+const PARTS=[];
+(window.SPIS||[]).forEach(c=>{
+  const m=c.chap.match(/^Rozdział (\d+)/), no=m?m[1]:/^Wstęp/.test(c.chap)?'0':/^Załącznik (\w)/.test(c.chap)?c.chap.match(/^Załącznik (\w)/)[1]:'+';
+  PARTS.push({chap:c.chap+(c.s?' · '+c.s:'')});
+  c.parts.forEach((p,k)=>PARTS.push({id:p.id,href:p.href,n:no+'.'+(k+1),t:p.t,q:(p.pytania||0)+(p.sp1||0),
+    d:p.d+(p.slajdy?' · '+p.slajdy+' slajdów':'')+(p.pytania?' · '+p.pytania+' pytań':'')+(p.sp1?' · '+p.sp1+' z arkusza próbnego':'')}));
+});
+let st={};try{st=JSON.parse(localStorage.getItem('c5.podrecznik')||'{}')}catch(e){}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const real=PARTS.filter(p=>p.id);
+if(!real.length){document.getElementById('resume').innerHTML='<div><strong>Nie udało się wczytać spisu treści</strong><span>Sprawdź połączenie i odśwież stronę.</span></div><a class="go" href="">Odśwież</a>';}else{
+function info(p){
+  const e=st[p.id];if(!e)return{state:'todo',pct:0,lab:'nie zaczęte'};
+  const q=e.q||{},n=Object.keys(q).length,ok=Object.values(q).filter(Boolean).length,qT=e.qTotal||0;
+  const pct=Math.round(100*Math.min(e.max||0,e.total||1)/(e.total||1));
+  const done=pct>=100&&n>=qT;
+  let lab=done?'✓ gotowe':'slajd '+(e.max||0)+' z '+(e.total||'?');
+  if(qT)lab+=' · pytania '+ok+'/'+qT;
+  return{state:done?'done':'part',pct,lab,ok,qT,n,e};
+}
+// Gdzie wrócić: ostatnio otwierana część, a gdy brak – pierwsza nieukończona.
+let last=null;real.forEach(p=>{const e=st[p.id];if(e&&e.ts&&(!last||e.ts>st[last.id].ts))last=p});
+const firstOpen=real.find(p=>info(p).state!=='done')||real[0];
+const cur=last&&info(last).state!=='done'?last:firstOpen;
+const ci=info(cur);
+const startNow=!st[cur.id];
+document.getElementById('resume').innerHTML='<div><small>'+(startNow?'Zacznij tutaj':'Kontynuuj')+'</small><strong>'+esc(cur.n+' · '+cur.t)+'</strong><span>'+esc(startNow?cur.d:ci.lab)+'</span></div><a class="go" href="'+cur.href+'">'+(startNow?'Zacznij →':'Kontynuuj →')+'</a>';
+let doneN=0,okAll=0,qAll=0;real.forEach(p=>{const x=info(p);if(x.state==='done')doneN++;okAll+=x.ok||0;qAll+=x.qT||p.q||0});
+document.getElementById('stats').textContent='Gotowe części: '+doneN+' z '+real.length+(qAll?' · dobre odpowiedzi: '+okAll+' z '+qAll:'');
+let h='',open=false;
+PARTS.forEach(p=>{
+  if(p.chap){if(open)h+='</ol>';h+='<p class="chap">'+esc(p.chap)+'</p><ol class="path">';open=true;return}
+  if(p.soon){h+='<li class="soon"><span class="dot" aria-hidden="true"></span><div class="off"><span class="t"><span class="n">'+p.n+'</span>'+esc(p.t)+'</span><span class="d">'+esc(p.d)+'</span><span class="st">wkrótce</span></div></li>';return}
+  const x=info(p);const cls=x.state==='done'?'done':p===cur?'cur':'';
+  h+='<li class="'+cls+'"><span class="dot" aria-hidden="true">'+(x.state==='done'?'✓':'')+'</span><a href="'+p.href+'"'+(p===cur?' aria-current="step"':'')+'><span class="t"><span class="n">'+p.n+'</span>'+esc(p.t)+'</span><span class="d">'+esc(p.d)+'</span><span class="st">'+esc(x.lab)+'</span>'+(x.pct&&x.state!=='done'?'<span class="bar" aria-hidden="true"><i style="width:'+x.pct+'%"></i></span>':'')+'</a></li>';
+});
+if(open)h+='</ol>';
+document.getElementById('path').innerHTML=h;
+}
+</script>
+</body>
+</html>

@@ -24,18 +24,18 @@
     "it-zmiana"
   ],
   "poLudzku": "Kilka powiązanych projektów prowadzonych razem, żeby osiągnąć jeden większy cel.",
-  "poziom1": "Program to zestaw powiązanych projektów i innych działań, prowadzonych wspólnie, bo dopiero razem dają zamierzony efekt. Przykład: „Bezpieczna Syrena” = projekt nowego serwera + projekt drugiego łącza + szkolenia dyżurnych.",
-  "poziom2": "Pojedynczy projekt ma swój produkt (np. zainstalowany serwer). Program pilnuje, żeby z wielu produktów powstała **korzyść** (np. alarm zawsze dociera). Program ma kierownika programu, budżet i plan, który łączy terminy projektów.",
+  "poziom1": "Program to zestaw powiązanych projektów i innych działań, prowadzonych wspólnie, bo dopiero razem dają zamierzony efekt. Przykład: „Niezawodna bankowość” = projekt nowego serwera + projekt drugiego łącza + szkolenia helpdesku.",
+  "poziom2": "Pojedynczy projekt ma swój produkt (np. zainstalowany serwer). Program pilnuje, żeby z wielu produktów powstała **korzyść** (np. bankowość internetowa zawsze działa). Program ma kierownika programu, budżet i plan, który łączy terminy projektów.",
   "poziom3": "W COBIT 5 programami i projektami zarządza proces BAI01 Zarządzanie programami i projektami (FW-PL s. 33). Wdrożenie COBIT 5 też prowadzi się jako program – pierścień zewnętrzny „Zarządzanie programem” (s. 37–38), który poznasz w dniu 4.",
   "wyobrazSobie": "Przygotowanie wesela: osobno sala, jedzenie, zespół i zaproszenia. Każde to mały projekt, a całość – program „wesele”.",
   "poCo": "Żeby wiele projektów nie szło w różne strony, tylko razem dało jedną korzyść.",
-  "jakDziala": "Kierownictwo wyznacza cel, np. „alarm zawsze dociera”. Kierownik programu dzieli go na projekty, ustala kolejność i budżet. Co jakiś czas sprawdza, czy projekty razem zbliżają organizację do celu.",
+  "jakDziala": "Kierownictwo wyznacza cel, np. „usługa zawsze dostępna dla klientów”. Kierownik programu dzieli go na projekty, ustala kolejność i budżet. Co jakiś czas sprawdza, czy projekty razem zbliżają organizację do celu.",
   "dlaczegoWazne": "COBIT 5 łączy programy z realizacją korzyści: nie wystarczy skończyć projekty, trzeba osiągnąć efekt.",
   "przyklady": {
     "zycie": "Remont całego domu: projekt „nowy dach”, projekt „ocieplenie”, projekt „nowe okna”. Razem dają program „ciepły dom”.",
     "biuro": "Program „biuro bez papieru”: projekt skanera, projekt elektronicznego obiegu dokumentów i szkolenia pracowników.",
-    "organizacja": "Miasto prowadzi przez trzy lata program „urząd przez Internet”: kilka projektów nowych aplikacji i szkolenia urzędników.",
-    "psp": "Komendantka Wrzos ogłasza program „Bezpieczna Syrena”: drugi serwer, drugie łącze, nowa lista numerów i szkolenia dyżurnych.",
+    "organizacja": "Sieć hoteli prowadzi dwuletni program „gość bez kolejki”: projekt aplikacji do zameldowania, projekt elektronicznych kluczy do pokoi i szkolenia recepcji. Każdy projekt ma własny budżet, ale wszystkie służą jednemu celowi.",
+    "admin": "Miasto prowadzi przez trzy lata program „urząd przez Internet”: kilka projektów nowych aplikacji i szkolenia urzędników. Pełnomocnik prezydenta miasta pilnuje kolejności projektów i sprawdza, czy razem przybliżają cel: większość spraw do załatwienia bez wizyty w urzędzie.",
     "it": "Programami i projektami zarządza BAI01 Zarządzanie programami i projektami (FW-PL s. 33); wdrożenie COBIT 5 to program (s. 37)."
   },
   "nieMylicZ": [
@@ -78,8 +78,8 @@
   ],
   "glebokosc": {
     "prosty": "Przygotowujesz święta: sprzątanie, zakupy, gotowanie, prezenty. Każde to osobne zadanie z terminem. Dopiero razem dają „udane święta”. Program to takie spinanie wielu przedsięwzięć w jeden cel.",
-    "zaawansowany": "Komendantka Wrzos widzi, że Sikora prowadzi osobno trzy [[projekt|projekty]]: serwer, łącze, szkolenia. Każdy idzie dobrze, ale nikt nie sprawdza, czy razem dają cel „alarm zawsze dociera”. Wrzos powołuje program „Bezpieczna Syrena” z jednym kierownikiem. On pilnuje kolejności: najpierw drugi serwer, potem przeniesienie danych, na końcu szkolenia.",
-    "skrajny": "Czy program to po prostu duży projekt? Nie – projekt ma jeden produkt, a program łączy kilka projektów i działań wokół korzyści. Czy program może trwać bez końca? Ma cel, więc ma koniec, choć zwykle dłuższy niż projekt. Czy „program Syrena” to program w tym sensie? Nie – to program komputerowy! **Rozstrzygnięcie:** program (programme) to grupa powiązanych projektów i działań prowadzonych dla wspólnej korzyści; słowo „program” w znaczeniu oprogramowania to zupełnie co innego."
+    "zaawansowany": "Zarząd banku widzi, że CIO prowadzi osobno trzy [[projekt|projekty]]: serwer, łącze, szkolenia. Każdy idzie dobrze, ale nikt nie sprawdza, czy razem dają cel „bankowość internetowa zawsze działa”. Zarząd powołuje program „Niezawodna bankowość” z jednym kierownikiem. On pilnuje kolejności: najpierw drugi serwer, potem przeniesienie danych, na końcu szkolenia.",
+    "skrajny": "Czy program to po prostu duży projekt? Nie – projekt ma jeden produkt, a program łączy kilka projektów i działań wokół korzyści. Czy program może trwać bez końca? Ma cel, więc ma koniec, choć zwykle dłuższy niż projekt. Czy „program Excel” to program w tym sensie? Nie – to program komputerowy! **Rozstrzygnięcie:** program (programme) to grupa powiązanych projektów i działań prowadzonych dla wspólnej korzyści; słowo „program” w znaczeniu oprogramowania to zupełnie co innego."
   },
   "zagmatwania": [
     {
@@ -94,7 +94,7 @@
   "mentor": {
     "czestyBlad": "Mylenie programu z dużym projektem albo z programem komputerowym.",
     "jakTlumaczyc": "Wesele jako program: sala, jedzenie, zespół to projekty; korzyść to udane przyjęcie.",
-    "pytanieKontrolne": "„Bezpieczna Syrena” obejmuje serwer, łącze i szkolenia. Czy to projekt, czy program?",
-    "odpowiedzKontrolna": "Program – łączy kilka projektów i działań, które razem mają dać korzyść: alarm zawsze dociera."
+    "pytanieKontrolne": "„Niezawodna bankowość” obejmuje serwer, łącze i szkolenia. Czy to projekt, czy program?",
+    "odpowiedzKontrolna": "Program – łączy kilka projektów i działań, które razem mają dać korzyść: bankowość internetowa zawsze działa."
   }
 }

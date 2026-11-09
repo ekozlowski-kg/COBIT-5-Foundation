@@ -1,0 +1,97 @@
+[
+  {
+    "id": "q-pr-02-03",
+    "typ": "studium",
+    "sylabus": [
+      "PR-02-01"
+    ],
+    "lekcja": "pr-02-tworzenie-wartosci",
+    "bloom": "zastosowanie",
+    "trudnosc": 2,
+    "tresc": "Która decyzja **najlepiej** realizuje Cel Ładu „Tworzenie Wartości”?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 17
+      }
+    ],
+    "status": "oficjalne",
+    "scenariusz": "Komenda rozważa trzy warianty systemu SK. A: najtańszy, bez zasilania awaryjnego. B: średni koszt, z rezerwowym łączem i szkoleniami, skraca czas dysponowania o 15%. C: najdroższy, skraca czas o 17%, ale wymaga zatrudnienia 4 nowych informatyków, na których nie ma budżetu.",
+    "opcje": [
+      {
+        "tekst": "Wariant A, bo najmniej kosztuje",
+        "poprawna": false,
+        "wyjasnienie": "Najniższy koszt przy nieakceptowalnym ryzyku awarii to nie jest optymalizacja.",
+        "zycie": "W życiu to tak, jakbyś kupił najtańsze opony, które pękną na pierwszej dziurze.",
+        "pulapka": "zbyt-waskie"
+      },
+      {
+        "tekst": "Wariant B, bo równoważy korzyści, ryzyko i zasoby",
+        "poprawna": true,
+        "wyjasnienie": "Daje korzyść przy kontrolowanym ryzyku i realnym koszcie. To właśnie równowaga trzech elementów."
+      },
+      {
+        "tekst": "Wariant C, bo daje największą korzyść",
+        "poprawna": false,
+        "wyjasnienie": "Sama maksymalizacja korzyści przy nierealnych zasobach nie jest tworzeniem wartości.",
+        "zycie": "W życiu to tak, jakbyś zamówił wesele marzeń na 300 osób, na które nie masz pieniędzy.",
+        "pulapka": "zbyt-waskie"
+      },
+      {
+        "tekst": "Żaden. Należy poczekać, aż ryzyko spadnie do zera",
+        "poprawna": false,
+        "wyjasnienie": "Ryzyka nie trzeba eliminować. Brak decyzji też niesie ryzyko i brak korzyści.",
+        "zycie": "W życiu to tak, jakbyś z kupnem auta czekał, aż na drogach zniknie ryzyko wypadków, i chodził pieszo.",
+        "pulapka": "falsz"
+      }
+    ]
+  },
+  {
+    "id": "q-pr-03-01",
+    "typ": "studium",
+    "sylabus": [
+      "PR-02-03"
+    ],
+    "lekcja": "pr-03-kaskada-celow",
+    "bloom": "wiedza",
+    "trudnosc": 1,
+    "tresc": "Co zgodnie z Kaskadą Celów jest **następnym** krokiem?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 18,
+        "ilustracja": "4"
+      }
+    ],
+    "status": "oficjalne",
+    "opcje": [
+      {
+        "tekst": "Zdefiniowanie celów związanych z informatyką",
+        "poprawna": false,
+        "wyjasnienie": "To krok 3. Najpierw potrzeby przekłada się na cele organizacji.",
+        "zycie": "W życiu to tak, jakbyś kupował kafelki, zanim rodzina ustaliła, jaki remont w ogóle robi.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Przełożenie potrzeb na cele organizacji",
+        "poprawna": true,
+        "wyjasnienie": "Krok 2: potrzeby interesariuszy → cele organizacji (Rysunek 4)."
+      },
+      {
+        "tekst": "Zdefiniowanie celów procesu obsługi incydentów",
+        "poprawna": false,
+        "wyjasnienie": "To cele aktywatora, czyli ostatni krok kaskady.",
+        "zycie": "W życiu to tak, jakbyś wybierał kolor serwetek, zanim ustalisz datę i salę wesela.",
+        "pulapka": "odwrocone"
+      },
+      {
+        "tekst": "Ocena poziomu zdolności procesów",
+        "poprawna": false,
+        "wyjasnienie": "Ocena zdolności to inny model (PAM), a nie krok kaskady.",
+        "zycie": "W życiu to tak, jakbyś w środku pisania listy zakupów zaczął robić przegląd auta: zupełnie inna sprawa.",
+        "pulapka": "inna-kategoria"
+      }
+    ],
+    "scenariusz": "Komenda zebrała oczekiwania mieszkańców, samorządu i KW PSP wobec działań ratowniczych."
+  }
+]

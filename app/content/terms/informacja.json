@@ -19,13 +19,12 @@
     "biuro": "Asystentka wpisuje do wspólnego kalendarza spotkanie z klientem (wytwórca), informatyk utrzymuje kalendarz na serwerze (opiekun), a kierownik sprawdza go rano i jedzie na spotkanie (konsument). Gdyby nikt nie zajrzał do kalendarza, wpis nie miałby żadnej wartości.",
     "firma": "Piekarz zapisuje w zeszycie, ile chleba zostało wieczorem, kasa drukuje raport sprzedaży, a sprzedawczyni mówi, o co pytali klienci. Z tego wszystkiego właścicielka planuje jutrzejszy wypiek. Piekarz informację tworzy, zeszyt i kasa ją przechowują, a właścicielka z niej korzysta – to role wokół aktywatora Informacja.",
     "admin": "W szkole sekretarka prowadzi rejestr uczniów, wychowawca wpisuje oceny do dziennika, a dyrektor na radzie pedagogicznej słyszy ustnie o kłopotach w klasie 3b. Wszystko to jest informacja, także to, czego nie ma w żadnym systemie. Coś z niej wynika dopiero wtedy, gdy dyrektor na tej podstawie organizuje pomoc dla klasy.",
-    "psp": "Operator numeru alarmowego w CPR 112 przekazuje zgłoszenie, dyżurny SK wpisuje je do SWD-PSP, a dowódca zastępu przez radio melduje, co zastał na miejscu. Formatka, wpis w systemie i meldunek radiowy to informacja, choć tylko część z niej jest w komputerze. Wartość pojawia się dopiero wtedy, gdy dyżurny na tej podstawie dysponuje właściwe siły.",
-    "it": "Numery telefonów ochotników OSP Zawilce w Syrenie to aktywator Informacja: dh Pietrzak je przekazuje (wytwórca), Ola Dudek utrzymuje bazę (opiekun), a dyżurny korzysta z niej przy alarmie (konsument). Nieaktualny numer to błąd jakości informacji, przez który alarm nie dotarł."
+    "it": "Dane kontaktowe klientów w systemie CRM to aktywator Informacja: klient podaje je przy zakładaniu konta (wytwórca), administrator utrzymuje bazę (opiekun), a konsultant korzysta z niej przy obsłudze (konsument). Nieaktualny numer to błąd jakości informacji, przez który powiadomienie nie dotarło."
   },
   "glebokosc": {
     "prosty": "Numer do hydraulika zapisany na kartce przy telefonie to informacja. Nic nie daje, dopóki leży. Gdy pęknie rura i ktoś zadzwoni, ta kartka ratuje mieszkanie. Gorzej, jeśli numer jest nieaktualny albo ktoś kartkę wyrzucił.",
-    "zaawansowany": "Nieaktualny numer Pietrzaka w Syrenie to słabość aktywatora Informacja. Ola Dudek wpisuje numery, więc jest wytwórcą. Sikora jako administrator bazy ją przechowuje i utrzymuje, czyli jest opiekunem. Dyżurny Grab korzysta z numerów, więc jest konsumentem. Numer był poprawny w dniu wpisania, ale przestał być aktualny, a to porażka [[jakosc-kontekstowa|jakości kontekstowej]]. Informacja jest też [[zasob|zasobem]], którym trzeba zarządzać.",
-    "skrajny": "Czy notatka przekazana ustnie przy zmianie dyżuru to aktywator Informacja? Tak: COBIT 5 obejmuje wszystkie istotne informacje, nie tylko zautomatyzowane, także niesformalizowane (s. 81). Druga pułapka: role wytwórcy, opiekuna i konsumenta zależą od fazy cyklu życia informacji (s. 82), więc ta sama osoba może pełnić różne role. Grab jest konsumentem, gdy czyta numer, i wytwórcą, gdy wpisuje raport z alarmu. Trzecia: informacja jest jednocześnie aktywatorem i zasobem (s. 27). **Rozstrzygnięcie:** o roli decyduje działanie wobec informacji (tworzy, przechowuje, korzysta), a nie stanowisko; informacja w każdej postaci, także ustnej, jest aktywatorem."
+    "zaawansowany": "Nieaktualny numer klienta w systemie CRM to słabość aktywatora Informacja. Konsultant wpisuje numery, więc jest wytwórcą. Administrator bazy ją przechowuje i utrzymuje, czyli jest opiekunem. Pracownik windykacji korzysta z numerów, więc jest konsumentem. Numer był poprawny w dniu wpisania, ale przestał być aktualny, a to porażka [[jakosc-kontekstowa|jakości kontekstowej]]. Informacja jest też [[zasob|zasobem]], którym trzeba zarządzać.",
+    "skrajny": "Czy notatka przekazana ustnie przy przekazaniu nocnej zmiany w helpdesku to aktywator Informacja? Tak: COBIT 5 obejmuje wszystkie istotne informacje, nie tylko zautomatyzowane, także niesformalizowane (s. 81). Druga pułapka: role wytwórcy, opiekuna i konsumenta zależą od fazy cyklu życia informacji (s. 82), więc ta sama osoba może pełnić różne role. Konsultant jest konsumentem, gdy czyta zgłoszenie, i wytwórcą, gdy wpisuje raport z jego obsługi. Trzecia: informacja jest jednocześnie aktywatorem i zasobem (s. 27). **Rozstrzygnięcie:** o roli decyduje działanie wobec informacji (tworzy, przechowuje, korzysta), a nie stanowisko; informacja w każdej postaci, także ustnej, jest aktywatorem."
   },
   "zagmatwania": [
     {
@@ -44,8 +43,8 @@
   "mentor": {
     "czestyBlad": "Zawężanie informacji do baz danych i przypisywanie ról informacyjnych do stanowisk zamiast do działań.",
     "jakTlumaczyc": "Biblioteka: autor pisze książkę (wytwórca), bibliotekarz ją przechowuje i dba o nią (opiekun), a czytelnik ją czyta (konsument). Ta sama osoba może być autorem jednej książki i czytelnikiem innej.",
-    "pytanieKontrolne": "Grab wpisuje do Syreny raport z nocnego alarmu, a rano czyta go komendantka. Jakie role pełnią i co się zmieni, gdy Grab przeczyta raport kolegi?",
-    "odpowiedzKontrolna": "Przy wpisywaniu Grab jest wytwórcą, a komendantka czytająca raport – konsumentem. Administrator bazy, który ją przechowuje, jest opiekunem. Gdy Grab czyta cudzy raport, sam staje się konsumentem, bo rola zależy od działania w danej fazie, a nie od osoby."
+    "pytanieKontrolne": "Konsultant helpdesku wpisuje do systemu raport z nocnej awarii, a rano czyta go CIO. Jakie role pełnią i co się zmieni, gdy konsultant przeczyta raport kolegi?",
+    "odpowiedzKontrolna": "Przy wpisywaniu konsultant jest wytwórcą, a CIO czytający raport – konsumentem. Administrator bazy, który ją przechowuje, jest opiekunem. Gdy konsultant czyta cudzy raport, sam staje się konsumentem, bo rola zależy od działania w danej fazie, a nie od osoby."
   },
   "nieMylicZ": [
     {
@@ -83,7 +82,7 @@
     "wydawcaEgzaminu": "Informacja",
     "podrecznik": "Informacje",
     "kurs": "Informacja (Information)",
-    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: zestawienie Altkom, Sample Paper 1 PL. Forma podręcznika: FW-PL s. 1, 2, 5; zestawienie Altkom (kolumna „Podręczniki PL”)."
+    "uwaga": "Egzamin PL i podręcznik PL używają tej samej formy (różnice wielkości liter/szyku pominięte). Forma egzaminu PL potwierdzona: Sample Paper 1 PL. Forma podręcznika: FW-PL s. 1, 2, 5."
   },
   "pulapka": false,
   "kategoria": "egzaminacyjne",

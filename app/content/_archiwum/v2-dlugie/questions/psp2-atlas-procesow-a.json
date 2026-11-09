@@ -1,0 +1,46 @@
+[
+  {
+    "id": "q-atl-apo-b-06",
+    "typ": "egzamin",
+    "sylabus": [
+      "PR-01-04"
+    ],
+    "lekcja": "pr-17-atlas-apo-b",
+    "bloom": "wiedza",
+    "trudnosc": 2,
+    "tresc": "Kierowniczka projektu nowej bramki SMS przesuwa termin testów i dokłada zadania do harmonogramu. Który proces opisuje tę pracę?",
+    "zrodlo": [
+      {
+        "doc": "FW-PL",
+        "strona": 33,
+        "ilustracja": "16"
+      }
+    ],
+    "status": "uproszczenie",
+    "opcje": [
+      {
+        "tekst": "BAI01 Zarządzanie programami i projektami",
+        "poprawna": true,
+        "wyjasnienie": "Decyzje wewnątrz jednego projektu, np. harmonogram i zakres testów, to BAI01."
+      },
+      {
+        "tekst": "APO05 Zarządzanie Portfelem",
+        "poprawna": false,
+        "wyjasnienie": "APO05 decyduje o projekcie na tle innych inwestycji. Harmonogram wewnątrz projektu to BAI01.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "APO06 Zarządzanie budżetem i kosztami",
+        "poprawna": false,
+        "wyjasnienie": "APO06 śledzi koszty, ale nie układa harmonogramu projektu.",
+        "pulapka": "inna-kategoria"
+      },
+      {
+        "tekst": "EDM02 Zapewnienie realizacji korzyści",
+        "poprawna": false,
+        "wyjasnienie": "EDM02 to Ład, który ocenia wartość, a nie prowadzi projektu.",
+        "pulapka": "inna-kategoria"
+      }
+    ]
+  }
+]

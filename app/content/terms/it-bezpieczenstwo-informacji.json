@@ -36,7 +36,7 @@
     "zycie": "Ustawiasz w telefonie kod blokady i nie podajesz nikomu kodu z SMS-a od banku. To Twoje bezpieczeństwo informacji.",
     "biuro": "Dokumenty z danymi osobowymi leżą w zamykanej szafie i w folderze z ograniczonym dostępem.",
     "organizacja": "Przychodnia szkoli pracowników, jak rozpoznać fałszywego maila, i wymaga dwóch dowodów przy logowaniu do kart pacjentów.",
-    "psp": "Komenda chroni adresy zgłaszających i numery ochotników w „Syrenie”: tylko dyżurni je widzą, a każda zmiana jest zapisywana.",
+    "admin": "Urząd skarbowy przechowuje zeznania podatkowe tysięcy osób. Pracownicy logują się kartą i hasłem, widzą tylko sprawy swojego działu, a każde przeglądanie danych podatnika zostaje zapisane. Raz w roku przechodzą szkolenie z rozpoznawania fałszywych maili.",
     "it": "Cel związany z IT nr 10 i procesy APO13 Zarządzanie bezpieczeństwem oraz DSS05 Zarządzanie usługami bezpieczeństwa (FW-PL s. 19, 33)."
   },
   "nieMylicZ": [
@@ -83,8 +83,8 @@
   ],
   "glebokosc": {
     "prosty": "Pamiętnik nastolatki: zamyka go na kłódkę (poufność), nikt nie może wyrwać kartek ani dopisać zdań (integralność), a ona sama zawsze ma kluczyk (dostępność). Te trzy rzeczy razem to bezpieczeństwo informacji.",
-    "zaawansowany": "Ola Dudek ocenia „Syrenę”. Poufność: czy numery ochotników widzą tylko dyżurni? Integralność: czy nikt nie może po cichu zmienić numeru Pietrzaka? [[it-dostepnosc|Dostępność]]: czy lista działa w nocy? Ola odkrywa, że wszyscy mogą zmieniać numery – to słabość integralności, którą naprawia [[it-autoryzacja|uprawnieniami]].",
-    "skrajny": "Czy usługa, która działa, ale pokazuje dane obcym osobom, jest bezpieczna? Nie – zawodzi poufność. Czy system zamknięty tak szczelnie, że dyżurny nie może go użyć w nocy, jest bezpieczny? Też nie – zawodzi dostępność. Czy bezpieczeństwo to tylko sprawa techniki? Nie: karteczka z hasłem na monitorze to luka w ludziach. **Rozstrzygnięcie:** bezpieczeństwo informacji to równowaga poufności, integralności i dostępności, osiągana techniką, procedurami i zachowaniem ludzi."
+    "zaawansowany": "Administrator ocenia system CRM. Poufność: czy dane klientów widzą tylko uprawnieni pracownicy? Integralność: czy nikt nie może po cichu zmienić numeru konta klienta? [[it-dostepnosc|Dostępność]]: czy system działa w godzinach pracy infolinii? Administrator odkrywa, że wszyscy mogą zmieniać dane – to słabość integralności, którą naprawia [[it-autoryzacja|uprawnieniami]].",
+    "skrajny": "Czy usługa, która działa, ale pokazuje dane obcym osobom, jest bezpieczna? Nie – zawodzi poufność. Czy system zamknięty tak szczelnie, że lekarz nie może go użyć na nocnym dyżurze, jest bezpieczny? Też nie – zawodzi dostępność. Czy bezpieczeństwo to tylko sprawa techniki? Nie: karteczka z hasłem na monitorze to luka w ludziach. **Rozstrzygnięcie:** bezpieczeństwo informacji to równowaga poufności, integralności i dostępności, osiągana techniką, procedurami i zachowaniem ludzi."
   },
   "zagmatwania": [
     {
@@ -99,7 +99,7 @@
   "mentor": {
     "czestyBlad": "Sprowadzanie bezpieczeństwa do poufności („żeby nikt nie podejrzał”).",
     "jakTlumaczyc": "Pamiętnik z kłódką: zamknięty, nienaruszony, dostępny dla właścicielki.",
-    "pytanieKontrolne": "Ktoś zmienił numer w „Syrenie” bez zgody. Która cecha bezpieczeństwa zawiodła?",
+    "pytanieKontrolne": "Ktoś zmienił numer konta klienta w systemie bez zgody. Która cecha bezpieczeństwa zawiodła?",
     "odpowiedzKontrolna": "Integralność – informacja została zmieniona bez uprawnienia."
   }
 }

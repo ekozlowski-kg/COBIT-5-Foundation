@@ -28,10 +28,10 @@ terminy:
   - fazy-wdrozenia
   - uzasadnienie-biznesowe
 zadania:
-  - "Studium: zespół Ewy Lis ustala stan docelowy, luki i szybkie korzyści – w której fazie jest?"
-  - "Studium: projekt uzasadnienia biznesowego Haliny Mak – którego wymaganego elementu brakuje?"
-  - "Synteza: kontrola, awaria i zmęczony zespół – plan wdrożenia zgodny z COBIT 5 zamiast jednego dwuletniego projektu."
-  - "Wypowiedź: trzy pierścienie i siedem faz na przykładzie naprawy Syreny, z terminami EN."
+  - "Studium: zespół wdrożeniowy ubezpieczyciela ustala stan docelowy, luki i szybkie korzyści – w której fazie jest?"
+  - "Studium: projekt uzasadnienia biznesowego nowego systemu rejestracji w szpitalu – którego wymaganego elementu brakuje?"
+  - "Synteza: zapowiedziana kontrola regulatora, seria awarii i zmęczony zespół sklepu internetowego – plan wdrożenia zgodny z COBIT 5 zamiast jednego dwuletniego projektu."
+  - "Wypowiedź: trzy pierścienie i siedem faz na przykładzie wdrożenia nowego procesu obsługi incydentów w banku, z terminami EN."
 kryteria:
   wiedza: 70
   terminologia: 70

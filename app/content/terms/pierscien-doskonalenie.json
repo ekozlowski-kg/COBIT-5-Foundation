@@ -39,8 +39,8 @@
   "przyklady": {
     "zycie": "Uczysz się piec chleb. Pieczesz, próbujesz, za twardy – dodajesz wody. Następnym razem za blady – dłużej pieczesz. Nie ma dnia, w którym kończysz naukę na zawsze. To ciągłe doskonalenie.",
     "biuro": "Biuro co miesiąc liczy, ile dni czeka się na podpis szefa. Zmienia jeden krok obiegu pism i liczy znowu.",
-    "organizacja": "Kawiarnia mierzy czas obsługi, dodaje drugą kasę, mierzy znowu i bierze kolejny problem. Urząd gminy co kwartał poprawia jeden krok wydawania zaświadczeń i ponownie mierzy czas.",
-    "psp": "**Pomiar, poprawka, pomiar**\nInformatyczka Ola Dudek co miesiąc sprawdza, ile sekund idzie alarm z Syreny do OSP Zawilce. Gdy czas rośnie, szuka przyczyny, poprawia i mierzy znowu. Po ostatniej fazie nie zamyka teczki, tylko otwiera kolejną iterację. To pierścień wewnętrzny – [[pierscien-doskonalenie|Cykl życia ciągłego doskonalenia]].",
+    "organizacja": "Kawiarnia mierzy czas obsługi, dodaje drugą kasę, mierzy znowu i bierze kolejny problem.",
+    "admin": "Urząd gminy co kwartał poprawia jeden krok wydawania zaświadczeń i ponownie mierzy czas. Gdy czas spada z 5 do 3 dni, sekretarz gminy bierze na warsztat kolejny krok. Ta pętla nie ma daty zakończenia.",
     "it": "Ocena zdolności procesu, np. DSS02, w fazie 2 daje stan obecny. Ponowna ocena w fazie 7 pokazuje, czy proces wszedł na wyższy poziom."
   },
   "nieMylicZ": [
@@ -91,8 +91,8 @@
   "mapa": "pierscien-doskonalenie",
   "glebokosc": {
     "prosty": "Myjesz zęby codziennie, a nie raz w życiu. Co pół roku dentysta sprawdza efekt i coś doradza. Ty zmieniasz szczoteczkę i myjesz dalej. Tak działa ciągłe doskonalenie: nigdy się nie kończy.",
-    "zaawansowany": "W fazie 2 audytorka Ewa Lis ocenia stan obecny procesu powiadamiania. W fazie 3 komenda ustala stan docelowy, w 4 buduje usprawnienia, a w 5 je wdraża. W fazie 6 Dudek mierzy, w 7 monitoruje i ocenia. Potem pętla rusza znowu. Budżet i harmonogram tej pracy pilnuje [[pierscien-program]].",
-    "skrajny": "Po roku proces powiadamiania dostaje u Lis poziom 5 – proces jest stale ulepszany. Ktoś mówi: „Skoro mamy poziom 5, mamy już Cykl życia ciągłego doskonalenia, więc wdrożenie jest skończone”. To mieszanie dwóch rzeczy. Poziom 5 to ocena jednego procesu w [[poziomy-zdolnosci|modelu zdolności]]. Pierścień wewnętrzny to sposób prowadzenia całego wdrożenia COBIT, także innych procesów i aktywatorów. Do tego podręcznik sam mówi, że pierścień nie jest projektem jednorazowym. **Rozstrzygnięcie:** wysoki poziom zdolności nie „zamyka” pierścienia; po fazie 7 cykl zaczyna kolejną iterację."
+    "zaawansowany": "W fazie 2 audytor ocenia stan obecny procesu obsługi incydentów. W fazie 3 firma ustala stan docelowy, w 4 buduje usprawnienia, a w 5 je wdraża. W fazie 6 kierownik helpdesku mierzy, w 7 monitoruje i ocenia. Potem pętla rusza znowu. Budżet i harmonogram tej pracy pilnuje [[pierscien-program]].",
+    "skrajny": "Po roku proces obsługi incydentów dostaje od audytora poziom 5 – proces jest stale ulepszany. Ktoś mówi: „Skoro mamy poziom 5, mamy już Cykl życia ciągłego doskonalenia, więc wdrożenie jest skończone”. To mieszanie dwóch rzeczy. Poziom 5 to ocena jednego procesu w [[poziomy-zdolnosci|modelu zdolności]]. Pierścień wewnętrzny to sposób prowadzenia całego wdrożenia COBIT, także innych procesów i aktywatorów. Do tego podręcznik sam mówi, że pierścień nie jest projektem jednorazowym. **Rozstrzygnięcie:** wysoki poziom zdolności nie „zamyka” pierścienia; po fazie 7 cykl zaczyna kolejną iterację."
   },
   "zagmatwania": [
     {

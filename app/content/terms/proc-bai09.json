@@ -39,8 +39,8 @@
   "przyklady": {
     "zycie": "Masz w domu teczkę: kiedy kupiłeś pralkę, do kiedy jest gwarancja, ile lat ma laptop i kiedy odnowić antywirusa. Gdy laptop się zestarzeje, kasujesz dane i oddajesz go do elektrośmieci. To zarządzanie aktywami.",
     "biuro": "Biuro prowadzi spis: 12 krzeseł, 3 drukarki i 2 ekspresy, każdy z datą zakupu. Co roku planuje wymianę najstarszych.",
-    "organizacja": "Biuro rachunkowe pilnuje, żeby licencji nie było mniej niż stanowisk, i planuje wymianę laptopów. W starostwie każdy komputer ma numer inwentarzowy, a przy likwidacji dysk niszczy się protokolarnie.",
-    "psp": "**Radiotelefony w ewidencji.** Ola Dudek wpisuje każdy nowy radiotelefon i serwer Syreny do ewidencji: numer, przydział do zastępu, data zakupu, koniec gwarancji. Halina Mak, księgowa, widzi z niej koszty i plan wymiany. Licencja Syreny wygasa w grudniu, więc odnowienie trafia do kalendarza. Prowadzenie sprzętu i licencji przez cały cykl życia to [[proc-bai09]].",
+    "organizacja": "Biuro rachunkowe pilnuje, żeby licencji nie było mniej niż stanowisk, i planuje wymianę laptopów.",
+    "admin": "W starostwie każdy komputer i każda licencja ma numer inwentarzowy, datę zakupu i osobę odpowiedzialną. Informatyk co roku sprawdza, czy licencji na program biurowy nie jest mniej niż 120 stanowisk, i planuje wymianę najstarszych komputerów. Przy likwidacji sprzętu dysk niszczy się protokolarnie, żeby dane mieszkańców nie wyszły poza urząd.",
     "it": "Praktyki BAI09: identyfikacja i ewidencja aktywów, aktywa krytyczne, cykl życia, optymalizacja kosztów i zarządzanie licencjami."
   },
   "nieMylicZ": [
@@ -95,8 +95,8 @@
   "mapa": "proc-bai09",
   "glebokosc": {
     "prosty": "Prowadzisz zeszyt sprzętu w domu: co masz, gdzie leży, kiedy kupione i do kiedy gwarancja. Stary telewizor oddajesz do elektrośmieci, a nie wrzucasz do piwnicy. Pilnujesz rzeczy od zakupu do pożegnania.",
-    "zaawansowany": "Dudek prowadzi ewidencję radiotelefonów, serwera i licencji Syreny. Halina Mak widzi z niej koszty i daty wymiany. To [[proc-bai09]]. Ten sam serwer jest też elementem konfiguracji, ale jego ustawienia i powiązania z usługą prowadzi [[proc-bai10]]. Ludzie Sikory to nie „zasoby” z BAI09 – nimi zajmuje się [[proc-apo07]].",
-    "skrajny": "Na naradzie trzy osoby mówią „zarządzanie zasobami” i każda myśli o czym innym. Halina Mak – o spisie radiotelefonów i licencji Syreny. Sikora – o tym, że brakuje mu dwóch informatyków. Komendantka Wrzos – o tym, czy komenda w ogóle ma dość ludzi, pieniędzy i sprzętu na swoje cele. W COBIT to trzy różne procesy: BAI09 (*Assets*), APO07 (*Human Resources*) i EDM04 (*Resource Optimisation*). Czwarty kłopot: serwer Syreny jest zarazem aktywem (BAI09) i elementem konfiguracji (BAI10). **Rozstrzygnięcie:** zawsze tłumacz „zasoby” z powrotem na angielski. Pytanie o koszt, licencję i cykl życia rzeczy → BAI09. O ustawienia i powiązania → BAI10. O ludzi → APO07. O decyzję szefostwa → EDM04."
+    "zaawansowany": "Administratorka w szpitalu prowadzi ewidencję laptopów, serwerów i licencji systemu rejestracji pacjentów. Dyrektor finansowy widzi z niej koszty i daty wymiany. To [[proc-bai09]]. Ten sam serwer jest też elementem konfiguracji, ale jego ustawienia i powiązania z usługą prowadzi [[proc-bai10]]. Pracownicy działu IT to nie „zasoby” z BAI09 – nimi zajmuje się [[proc-apo07]].",
+    "skrajny": "Na zebraniu w szpitalu trzy osoby mówią „zarządzanie zasobami” i każda myśli o czym innym. Dyrektor finansowy – o spisie laptopów i licencji systemu rejestracji. Kierownik działu IT – o tym, że brakuje mu dwóch informatyków. Zarząd – o tym, czy szpital w ogóle ma dość ludzi, pieniędzy i sprzętu na swoje cele. W COBIT to trzy różne procesy: BAI09 (*Assets*), APO07 (*Human Resources*) i EDM04 (*Resource Optimisation*). Czwarty kłopot: serwer systemu rejestracji jest zarazem aktywem (BAI09) i elementem konfiguracji (BAI10). **Rozstrzygnięcie:** zawsze tłumacz „zasoby” z powrotem na angielski. Pytanie o koszt, licencję i cykl życia rzeczy → BAI09. O ustawienia i powiązania → BAI10. O ludzi → APO07. O decyzję szefostwa → EDM04."
   },
   "zagmatwania": [
     {
@@ -115,7 +115,7 @@
   "mentor": {
     "czestyBlad": "Uczeń widzi słowo „zasoby” i odruchowo wybiera EDM04 albo APO07.",
     "jakTlumaczyc": "Naucz odruchu „przetłumacz z powrotem na angielski”. *Assets* to rzeczy z numerem inwentarzowym. *Resources* to wszystko, czym dysponujemy. *Human resources* to ludzie.",
-    "pytanieKontrolne": "Komenda sprawdza, czy liczba zainstalowanych kopii Syreny zgadza się z liczbą kupionych licencji. Który proces?",
+    "pytanieKontrolne": "Szpital sprawdza, czy liczba zainstalowanych kopii systemu rejestracji zgadza się z liczbą kupionych licencji. Który proces?",
     "odpowiedzKontrolna": "**BAI09** – zarządzanie licencjami to część zarządzania aktywami. Czy to zgodne z umową licencyjną, może dodatkowo oceniać MEA03."
   }
 }

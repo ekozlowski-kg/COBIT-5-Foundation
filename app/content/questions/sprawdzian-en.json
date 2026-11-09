@@ -258,11 +258,11 @@
           "wyjasnienie": "Poprawnie. Słownik: Responsible odpowiada na pytanie „Kto zajmuje się realizacją zadania?”."
         },
         {
-          "tekst": "A (Accountable) – Konsultowany: osoba, która zapewnia dane wejściowe do zadania.",
+          "tekst": "A (Accountable) – Konsultant: osoba, która zapewnia dane wejściowe do zadania.",
           "poprawne": false,
-          "wyjasnienie": "Dane wejściowe zapewnia **C – Consulted (Konsultowany)**. A to **Accountable (Rozliczany)**: kto odpowiada za powodzenie zadania.",
-          "blednyTermin": "Konsultowany",
-          "poprawka": "Rozliczany (Accountable)"
+          "wyjasnienie": "Dane wejściowe zapewnia **C – Consulted (Konsultant)**. A to **Accountable (Odpowiedzialny decyzyjnie)**: kto odpowiada za powodzenie zadania.",
+          "blednyTermin": "Konsultant",
+          "poprawka": "Odpowiedzialny decyzyjnie (Accountable)"
         },
         {
           "tekst": "Dobra polityka jest skuteczna, wydajna i nieingerencyjna (non-intrusive).",
@@ -373,7 +373,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 2,
-      "tresc": "Cel procesu brzmi: „Procedura alarmowania jest znana i dostępna każdemu dyżurnemu, a hasła konfiguracyjne pozostają poufne”. Do której **kategorii celów procesu** należy?",
+      "tresc": "Cel procesu obsługi zgłoszeń w helpdesku brzmi: „Procedurę zgłaszania awarii zna każdy pracownik helpdesku, a hasła konfiguracyjne systemu pozostają poufne”. Do której **kategorii celów procesu** należy?",
       "opcje": [
         {
           "tekst": "Cele wewnętrzne – proces ma jakość wewnętrzną, jest zgodny z dobrą praktyką oraz z regułami wewnętrznymi i zewnętrznymi.",
@@ -382,7 +382,7 @@
           "pulapka": "inna-kategoria"
         },
         {
-          "tekst": "Cele kontekstowe – proces jest dopasowany do sytuacji komendy, zrozumiały i łatwy w użyciu.",
+          "tekst": "Cele kontekstowe – proces jest dopasowany do sytuacji organizacji, zrozumiały i łatwy w użyciu.",
           "poprawna": false,
           "wyjasnienie": "Cele kontekstowe dotyczą dopasowania i użyteczności, a nie poufności i dostępu.",
           "pulapka": "inna-kategoria"
@@ -422,23 +422,23 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Raport o awariach Syreny jest dokładny, obiektywny i pochodzi z wiarygodnego źródła, ale komendantka dostaje go tydzień po awarii, gdy decyzja już zapadła. Którego kryterium jakości informacji brakuje?",
+      "tresc": "Raport o awariach systemu płatności jest obiektywny i pochodzi z wiarygodnego źródła. Zarząd sklepu internetowego dostaje raport na czas, ale raport opiera się na danych sprzed miesiąca, sprzed ostatnich zmian w systemie. Którego kryterium jakości informacji brakuje?",
       "opcje": [
         {
           "tekst": "Aktualności, czyli kryterium jakości kontekstowej.",
           "poprawna": true,
-          "wyjasnienie": "Tak. Aktualność (informacja wystarczająco aktualna dla zadania) należy do jakości zgodności z kontekstem, nie do jakości wewnętrznej."
+          "wyjasnienie": "Tak. Aktualność (informacja wystarczająco aktualna do realizacji zadania) należy do jakości kontekstowej, nie do jakości wewnętrznej. Dane sprzed zmian w systemie nie są już wystarczająco aktualne."
         },
         {
-          "tekst": "Dokładności, czyli kryterium jakości wewnętrznej, bo dane w raporcie mogły się od tamtej pory zmienić.",
+          "tekst": "Dokładności, czyli kryterium jakości wewnętrznej, bo w raporcie mogą być błędy w liczbach.",
           "poprawna": false,
-          "wyjasnienie": "Scenariusz mówi, że raport jest dokładny. Problemem jest czas dostarczenia.",
+          "wyjasnienie": "Nic nie wskazuje na błędy: dane były poprawne w chwili zebrania. Problemem jest ich wiek, czyli aktualność.",
           "pulapka": "falsz"
         },
         {
           "tekst": "Dostępności z grupy dostępu i bezpieczeństwa, bo raport mógł być zablokowany hasłem w systemie.",
           "poprawna": false,
-          "wyjasnienie": "Nic nie wskazuje na problem z dostępem. Raport dotarł, tylko za późno na decyzję.",
+          "wyjasnienie": "Raport dotarł na czas i był dostępny; problemem są nieaktualne dane.",
           "pulapka": "inna-kategoria"
         },
         {
@@ -574,7 +574,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Komenda ma dobrze opisaną procedurę zgłaszania błędów w Syrenie. Dyżurni jednak ukrywają pomyłki, bo za każdą dostają naganę. Jaki mechanizm opisuje tu COBIT 5?",
+      "tresc": "Bank ma dobrze opisaną procedurę zgłaszania błędów w systemie transakcyjnym. Pracownicy jednak ukrywają pomyłki, bo za każdą dostają naganę. Jaki mechanizm opisuje tu COBIT 5?",
       "opcje": [
         {
           "tekst": "Zachowanie i kultura decydują o skuteczności procesu; bez zmiany zachęt procedura nie da wyników.",
@@ -584,13 +584,13 @@
         {
           "tekst": "Procedura jest dobrze zaprojektowana, więc wyniki procesu zostaną osiągnięte bez względu na zachowania.",
           "poprawna": false,
-          "wyjasnienie": "Odwrotnie. Podręcznik podaje właśnie ten przypadek jako przykład porażki dobrze zaprojektowanego procesu.",
+          "wyjasnienie": "Podręcznik zaznacza, że nawet doskonale zaprojektowany proces nie da wyników, jeśli uczestnicy nie chcą działać właściwie (s. 80).",
           "pulapka": "odwrocone"
         },
         {
-          "tekst": "To problem wyłącznie aktywatora Ludzie, Umiejętności i Kompetencje, więc wystarczy przeszkolić dyżurnych.",
+          "tekst": "To problem wyłącznie aktywatora Ludzie, Umiejętności i Kompetencje, więc wystarczy przeszkolić pracowników.",
           "poprawna": false,
-          "wyjasnienie": "Dyżurni umieją zgłaszać. Problemem jest system kar, czyli kultura i zachowanie, a nie same umiejętności.",
+          "wyjasnienie": "Pracownicy umieją zgłaszać. Problemem jest system kar, czyli kultura i zachowanie, a nie same umiejętności.",
           "pulapka": "zbyt-waskie"
         },
         {
@@ -626,31 +626,31 @@
       ],
       "bloom": "zastosowanie",
       "trudnosc": 3,
-      "tresc": "Jak poprawnie oznaczyć w tabeli RACI Sikorę i Graba?",
-      "scenariusz": "Comiesięczny test syren: test wykonuje mł. kpt. Ola Dudek. Kpt. Marek Sikora odpowiada przed komendantką za to, czy testy w ogóle się udają. Przed testem Ola pyta dyżurnego Pawła Graba o najlepszą godzinę i zbiera jego uwagi. Komendantka dostaje tylko miesięczny raport.",
+      "tresc": "Jak poprawnie oznaczyć w tabeli RACI kierownika działu IT i kierowniczkę rejestracji?",
+      "scenariusz": "Comiesięczny test kopii zapasowych w szpitalu: test wykonuje administratorka systemów. Kierownik działu IT odpowiada przed dyrektorem szpitala za to, czy testy w ogóle się udają. Przed testem administratorka pyta kierowniczkę rejestracji pacjentów o najlepszą godzinę i zbiera jej uwagi. Dyrektor szpitala dostaje tylko miesięczny raport.",
       "opcje": [
         {
-          "tekst": "Sikora – R (Odpowiedzialny wykonawczo), Grab – I (Informowany).",
+          "tekst": "Kierownik IT – R (Odpowiedzialny wykonawczo), kierowniczka rejestracji – I (Informowany).",
           "poprawna": false,
-          "wyjasnienie": "Wykonuje Ola, więc to ona jest R. Grab daje dane wejściowe, więc jest C, a nie I.",
+          "wyjasnienie": "Wykonuje administratorka, więc to ona jest R. Kierowniczka rejestracji daje dane wejściowe, więc jest C, a nie I.",
           "pulapka": "falsz"
         },
         {
-          "tekst": "Sikora – C (Konsultowany), Grab – A (Rozliczany).",
+          "tekst": "Kierownik IT – C (Konsultant), kierowniczka rejestracji – A (Odpowiedzialny decyzyjnie).",
           "poprawna": false,
-          "wyjasnienie": "Role są zamienione. Za powodzenie odpowiada Sikora, a Grab jest pytany o opinię.",
+          "wyjasnienie": "Role są zamienione. Za powodzenie odpowiada kierownik IT, a kierowniczka rejestracji jest pytana o opinię.",
           "pulapka": "odwrocone"
         },
         {
-          "tekst": "Sikora – R (Odpowiedzialny wykonawczo), Grab – C (Konsultowany).",
+          "tekst": "Kierownik IT – R (Odpowiedzialny wykonawczo), kierowniczka rejestracji – C (Konsultant).",
           "poprawna": false,
-          "wyjasnienie": "Grab jest dobrze oznaczony, ale Sikora nie wykonuje testu. Odpowiada za jego powodzenie, więc jest A.",
+          "wyjasnienie": "Kierowniczka rejestracji jest dobrze oznaczona, ale kierownik IT nie wykonuje testu. Odpowiada za jego powodzenie, więc jest A.",
           "pulapka": "zbyt-waskie"
         },
         {
-          "tekst": "Sikora – A (Rozliczany), Grab – C (Konsultowany).",
+          "tekst": "Kierownik IT – A (Odpowiedzialny decyzyjnie), kierowniczka rejestracji – C (Konsultant).",
           "poprawna": true,
-          "wyjasnienie": "Tak. A: kto odpowiada za powodzenie zadania. C: kto zapewnia dane wejściowe. Ola to R, komendantka I."
+          "wyjasnienie": "Tak. A: kto odpowiada za powodzenie zadania. C: kto zapewnia dane wejściowe. Administratorka to R, dyrektor szpitala I."
         }
       ],
       "zrodlo": [
@@ -691,7 +691,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Której dobrej praktyki struktury organizacyjnej brakuje przede wszystkim?",
-      "scenariusz": "W komendzie działa zespół ds. Syreny (Sikora, Mak, Grab). Ma regulamin z terminami spotkań i listą decyzji, które może podejmować sam, do 20 000 zł. Gdy członkowie się nie zgadzają albo sprawa przekracza limit, nikt nie wie, co dalej, i decyzje wiszą tygodniami.",
+      "scenariusz": "U ubezpieczyciela działa zespół ds. systemu likwidacji szkód (kierownik IT, główna księgowa, kierownik likwidacji szkód). Ma regulamin z terminami spotkań i listą decyzji, które może podejmować sam, do 20 000 zł. Gdy członkowie się nie zgadzają albo sprawa przekracza limit, nikt nie wie, co dalej, i decyzje wiszą tygodniami.",
       "opcje": [
         {
           "tekst": "Poziomu uprawnień – listy decyzji, które zespół może podejmować samodzielnie.",
@@ -742,7 +742,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Którą zasadę (pryncypium) architektury warto przywołać przy tej decyzji?",
-      "scenariusz": "Firma Kwant-Sygnał proponuje, że od podstaw napisze dla komendy nowy moduł SMS. Na rynku jest gotowy produkt, który spełnia wszystkie wymagania SK. Nikt w komendzie nie zatwierdził powodu, by tworzyć własne rozwiązanie.",
+      "scenariusz": "Firma programistyczna proponuje, że od podstaw napisze dla urzędu miasta nowy moduł powiadomień SMS. Na rynku jest gotowy produkt, który spełnia wszystkie wymagania urzędu. Nikt w urzędzie nie zatwierdził powodu, by tworzyć własne rozwiązanie.",
       "opcje": [
         {
           "tekst": "Ponowne wykorzystanie – wspólne komponenty architektury stosuje się w nowych rozwiązaniach.",
@@ -797,7 +797,7 @@
       ],
       "bloom": "zastosowanie",
       "trudnosc": 3,
-      "tresc": "Komenda pisze „Politykę testów systemu Syrena”. Opisz tę politykę przez cztery wymiary aktywatora i wskaż po jednym mierniku wiodącym i opóźnionym (5–7 zdań). Użyj terminów EN: **Principles, Policies and Frameworks**, **Stakeholders**, **Goals**, **Life cycle**, **Good practices**.",
+      "tresc": "Sklep internetowy pisze „Politykę kopii zapasowych”. Opisz tę politykę przez cztery wymiary aktywatora i wskaż po jednym mierniku wiodącym i opóźnionym (5–7 zdań). Użyj terminów EN: **Principles, Policies and Frameworks**, **Stakeholders**, **Goals**, **Life cycle**, **Good practices**.",
       "wymagane": [
         "Principles, Policies and Frameworks",
         "Stakeholders",
@@ -805,7 +805,7 @@
         "Life cycle",
         "Good practices"
       ],
-      "wzorzec": "Polityka testów to element aktywatora **Principles, Policies and Frameworks** (Zasady, Polityki i Struktury ramowe).\n- **Stakeholders** (interesariusze): komendantka i Sikora ją ustalają; dyżurni, JRG, OSP Zawilce i Kwant-Sygnał muszą jej przestrzegać albo z niej korzystają.\n- **Goals** (cele): polityka ma być skuteczna, wydajna i nieinwazyjna, a interesariusze mają do niej łatwy dostęp.\n- **Life cycle** (cykl życia): planowanie, projektowanie, wdrożenie, użytkowanie, ocena i regularna aktualizacja; nieaktualną wersję się wycofuje.\n- **Good practices** (dobre praktyki): opisuje zakres i ważność, konsekwencje nieprzestrzegania, obsługę wyjątków i monitorowanie zgodności; pasuje do apetytu na ryzyko.\nMiernik wiodący (lead): odsetek testów przeprowadzonych według polityki. Miernik opóźniony (lag): liczba alarmów, które nie dotarły na czas. Polityka działa tylko razem z kulturą (Kultura, Etyka i Zachowanie) i procesami, które ją wykonują (s. 67–68).",
+      "wzorzec": "Polityka kopii zapasowych to element aktywatora **Principles, Policies and Frameworks** (Zasady, Polityki i Struktury ramowe).\n- **Stakeholders** (interesariusze): zarząd i CIO ją ustalają; administratorzy, dział obsługi klienta i dostawca chmury muszą jej przestrzegać albo z niej korzystają; audyt sprawdza zgodność.\n- **Goals** (cele): polityka ma być skuteczna, wydajna i nieinwazyjna, a interesariusze mają do niej łatwy dostęp.\n- **Life cycle** (cykl życia): planowanie, projektowanie, wdrożenie, użytkowanie, ocena i regularna aktualizacja; nieaktualną wersję się wycofuje.\n- **Good practices** (dobre praktyki): opisuje zakres i ważność, konsekwencje nieprzestrzegania, obsługę wyjątków i monitorowanie zgodności; pasuje do apetytu na ryzyko.\nMiernik wiodący (lead): odsetek kopii wykonanych i przetestowanych według polityki. Miernik opóźniony (lag): liczba przypadków utraty danych klientów. Polityka działa tylko razem z kulturą (Kultura, Etyka i Zachowanie) i procesami, które ją wykonują (s. 67–68).",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -841,7 +841,7 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Które przypisanie ustaleń do kategorii aktywatorów jest poprawne?",
-      "scenariusz": "Po awarii z Lipowej audytorka Ewa Lis zapisała ustalenia:\n(a) polityka testów syren od sześciu lat nie była aktualizowana;\n(b) konfigurację zna tylko Ola Dudek;\n(c) dyżurni ukrywają pomyłki ze strachu przed naganą;\n(d) raport o awariach dociera do komendantki po tygodniu;\n(e) gdy SK i dostawca się spierają, nikt nie ma prawa rozstrzygnąć sprawy.",
+      "scenariusz": "Po poważnej awarii systemu płatności w sklepie internetowym audytorka wewnętrzna zapisała ustalenia:\n(a) polityka kopii zapasowych od sześciu lat nie była aktualizowana;\n(b) konfigurację systemu płatności zna tylko jeden administrator;\n(c) pracownicy ukrywają pomyłki ze strachu przed naganą;\n(d) raport o awariach dociera do zarządu po tygodniu;\n(e) gdy dział IT i dostawca się spierają, nikt nie ma prawa rozstrzygnąć sprawy.",
       "opcje": [
         {
           "tekst": "(a) Zasady, Polityki i Struktury ramowe; (b) Ludzie, Umiejętności i Kompetencje; (c) Kultura, Etyka i Zachowanie; (d) Informacja; (e) Struktury organizacyjne.",
@@ -861,7 +861,7 @@
           "pulapka": "odwrocone"
         },
         {
-          "tekst": "Wszystkie ustalenia (a)–(e) należą do aktywatora Procesy, bo każde dotyczy jakiegoś procesu komendy.",
+          "tekst": "Wszystkie ustalenia (a)–(e) należą do aktywatora Procesy, bo każde dotyczy jakiegoś procesu sklepu.",
           "poprawna": false,
           "wyjasnienie": "Za wąsko. Zasada 4 każe widzieć siedem wzajemnie powiązanych aktywatorów, nie tylko procesy.",
           "pulapka": "zbyt-waskie"
@@ -897,10 +897,10 @@
       "bloom": "zastosowanie",
       "trudnosc": 3,
       "tresc": "Która odpowiedź mentora jest najpełniejsza?",
-      "scenariusz": "Jesteś mentorem. Kolega z wydziału mówi: „Mamy politykę bezpieczeństwa w segregatorze, podpisaną przez komendantkę. Aktywator Zasady, Polityki i Struktury ramowe mamy więc z głowy”.",
+      "scenariusz": "Jesteś mentorem. Kolega z działu finansów mówi: „Mamy politykę bezpieczeństwa w segregatorze, podpisaną przez prezesa. Aktywator Zasady, Polityki i Struktury ramowe mamy więc z głowy”.",
       "opcje": [
         {
-          "tekst": "Masz rację – wystarczy, że polityka istnieje i została formalnie zatwierdzona przez komendantkę.",
+          "tekst": "Masz rację – wystarczy, że polityka istnieje i została formalnie zatwierdzona przez prezesa.",
           "poprawna": false,
           "wyjasnienie": "Samo istnienie dokumentu nie mówi, czy aktywator działa. Liczą się jego wymiary i wyniki.",
           "pulapka": "falsz"

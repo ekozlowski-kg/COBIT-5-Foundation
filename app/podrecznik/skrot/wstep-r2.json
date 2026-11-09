@@ -1,0 +1,215 @@
+{
+ "k-m0-cobit": [
+  {
+   "h": "COBIT 5 to ogólna struktura ramowa – dopasowujesz ją, nie instalujesz",
+   "b": "<ul><li><w k=\"struktura-ramowa\">Struktura ramowa</w> <span class=\"en\">Framework</span> = sprawdzony porządek zasad i praktyk.</li><li>Dla każdej <w k=\"organizacja\">organizacji</w> <span class=\"en\">Enterprise</span>: firmy, urzędu, szpitala.</li><li>≠ program, ≠ ustawa, ≠ instrukcja dla samego działu IT.</li></ul><blockquote>„metodyka COBIT 5 nie koncentruje się tylko na funkcji IT”</blockquote>",
+   "c": "Najpierw cel organizacji, potem informatyka – IT jest narzędziem, nie celem.",
+   "s": "COBIT 5 Framework (PL), s. 13–14, 91",
+   "ctx": "<p>Organizacja (podręcznik: przedsiębiorstwo) to ludzie działający razem w jakimś celu, z podziałem pracy i kierownictwem – także urząd, szpital i fundacja. Według słowniczka metodyka (na egzaminie: struktura ramowa) to „podstawowa struktura koncepcyjna wykorzystywana do rozwiązywania lub uwzględniania złożonych problemów”: daje porządek, a decyzje wkłada w niego sama organizacja. Dlatego podręcznik pisze o dostosowaniu COBIT 5 „do kontekstu danej organizacji”.</p><p>Pułapki: COBIT 5 nie da się zainstalować (to nie program), nikt nie nakazuje go stosować (to nie przepis) i nie dotyczy samego działu IT, tylko całej organizacji. Odpowiedź, która stawia technologię ponad cel organizacji, zwykle jest błędna. Uważaj też na materiały o COBIT 2019 – egzamin dotyczy COBIT 5.</p><p>Przykład: urząd miasta przyjmuje COBIT 5 jako wspólne ramy. Nie kupuje „systemu COBIT”, tylko ustala, kto decyduje o wydatkach na IT, kto prowadzi systemy i jak raportuje wyniki.</p>",
+   "lekcje": [
+    "m0-00-organizacja-cel",
+    "m0-01-ramy-cobit",
+    "m0-02-cobit-czym-nie-jest"
+   ]
+  }
+ ],
+ "k-pr-zasady": [
+  {
+   "h": "Pięć zasad rozpoznasz po słowach-kluczach",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Zasada</th><th>Klucz</th><th>Sygnał w opisie</th></tr><tr><td><w k=\"zasada-1\">1</w></td><td>potrzeby</td><td>interesariusze, wartość</td></tr><tr><td><w k=\"zasada-2\">2</w></td><td>cała</td><td>ład korporacyjny, wszystkie funkcje</td></tr><tr><td><w k=\"zasada-3\">3</w></td><td>jedna</td><td>inne standardy, struktura nadrzędna</td></tr><tr><td><w k=\"zasada-4\">4</w></td><td>całość</td><td>współdziałające aktywatory</td></tr><tr><td><w k=\"zasada-5\">5</w></td><td>rozdzielenie</td><td>Ład ≠ Zarządzanie</td></tr></table></div>",
+   "c": "Numer zasady to nie kolejność kroków – pięć zasad działa łącznie.",
+   "s": "COBIT 5 Framework (PL), s. 13–14, Ilustracja 2",
+   "ctx": "<p>Pytanie egzaminacyjne rzadko podaje numer zasady – opisuje sytuację. Szukaj słowa-klucza: potrzeby (1 – „po co”), cała organizacja (2 – „czego dotyczy”), jedna rama (3 – „skąd wzorce”), całość aktywatorów (4 – „czym to robimy”), rozdzielenie Ładu i Zarządzania (5 – „kto co robi”). Zaznaczasz nazwę egzaminacyjną, np. „Aktywacja holistycznego podejścia”, a nie podręcznikową „Wdrożenie podejścia całościowego”.</p><p>Podręcznik podkreśla, że pięć zasad „łącznie” pozwala stworzyć skuteczny system Ładu i Zarządzania. To nie etapy realizowane po kolei: organizacja stosuje je naraz, bo każda odpowiada na inne pytanie. Ilustracja 2 w podręczniku to Rysunek 2 na egzaminie.</p><p>Przykład: urząd uruchamia e-usługi. Ankietuje mieszkańców (1), włącza wydział podatków, archiwum i firmę hostingową (2), wpina praktyki ITIL pod jedną politykę IT (3), dba naraz o szkolenia, dane i procedury (4), a wójt z radą ustala priorytety, które wdrażają informatycy (5).</p>",
+   "lekcje": [
+    "pr-k10-piec-zasad",
+    "pr-k11-zasady-1-3"
+   ]
+  },
+  {
+   "h": "Zasada 2 to zasięg, zasada 4 to składniki",
+   "b": "<ul><li><w k=\"zasada-2\">Zasada 2</w>: <b>kogo</b> dotyczy – cała organizacja, nie tylko dział IT.</li><li><w k=\"zasada-4\">Zasada 4</w>: <b>z czego</b> się składa – współdziałające <w k=\"aktywator\">aktywatory</w>, nie jeden proces.</li><li><w k=\"zasada-5\">Zasada 5</w>: Ład też monitoruje – kierunek, nie wykonanie.</li></ul>",
+   "c": "„Cała” i „całościowe” brzmią podobnie – pytaj: zasięg czy składniki?",
+   "s": "COBIT 5 Framework (PL), s. 14",
+   "ctx": "<p>Najczęstsza pomyłka wynika z nazwy podręcznikowej zasady 4: „Wdrożenie podejścia całościowego” brzmi jak „Uwzględnienie wszystkich aspektów działania przedsiębiorstwa” (zasada 2). Jeśli opis mówi, kogo sprawa dotyczy (Ład nad IT jako część ładu korporacyjnego, wszystkie funkcje), to zasada 2. Jeśli mówi, z czego rozwiązanie się składa (wiele wzajemnie oddziałujących komponentów – siedem kategorii aktywatorów), to zasada 4.</p><p>Dwa inne dystraktory: „wystarczy dopracować jeden proces” (proces to tylko jeden z aktywatorów) oraz „Ład tylko decyduje i niczego nie sprawdza” (Ład ocenia, kieruje i monitoruje, czy organizacja trzyma uzgodniony kierunek; Zarządzanie planuje, buduje, uruchamia i monitoruje pracę).</p><p>Przykład: firma kupiła system obsługi klientów, z którego po roku nikt nie korzysta – zabrakło szkoleń, procedur i czystych danych (zasada 4) oraz podziału: zarząd ustala priorytet i co kwartał sprawdza wyniki, dział IT wdraża i raportuje (zasada 5).</p>",
+   "lekcje": [
+    "pr-k12-zasady-4-5",
+    "pr-k13-rozpoznaj-zasade"
+   ]
+  }
+ ],
+ "k-m0-standardy": [
+  {
+   "h": "COBIT 5 spina inne standardy – nie zastępuje ich",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Standard</th><th>Odpowiada na pytanie</th></tr><tr><td><w k=\"cobit-5\">COBIT 5</w></td><td>Czy IT daje wartość i kto decyduje?</td></tr><tr><td><w k=\"itil\">ITIL</w></td><td>Jak świadczyć usługi IT?</td></tr><tr><td><w k=\"iso-27001\">ISO/IEC 27001</w></td><td>Jak chronić informację?</td></tr></table></div><p>Organizacji nie certyfikuje się „na COBIT 5”.</p>",
+   "c": "COBIT 5 integruje – dystraktor mówi „zastępuje”.",
+   "s": "COBIT 5 Framework (PL), s. 14, 25, 60",
+   "ctx": "<p>Zasada 3: COBIT 5 jest spójny z innymi standardami, więc organizacja może go wykorzystać jako „nadrzędną strukturę nadzoru” nad IT, „umożliwiającą integrację innych metodyk” (s. 25). Integrować znaczy łączyć – każdy standard zostaje w swoim obszarze, a COBIT 5 pokazuje, gdzie pasuje (mapowanie na domeny omawia rozdział 1).</p><p>Pułapki: ITIL to nie inna nazwa COBIT 5, tylko węższy zbiór praktyk zarządzania usługami IT. Certyfikat zgodności z ISO/IEC 27001 może uzyskać organizacja (wiedza ogólna), COBIT 5 takiego certyfikatu dla organizacji nie przewiduje. ISACA oferuje cztery certyfikaty dla specjalistów – CGEIT, CISA, CISM, CRISC (s. 60); certyfikat COBIT 5 Foundation też dostaje osoba.</p><p>Przykład: bank dalej obsługuje zgłoszenia według ITIL i chroni dane według ISO/IEC 27001. COBIT 5 dokłada odpowiedź, po co to robi i kto za całość odpowiada.</p>",
+   "lekcje": [
+    "m0-30-cobit-laczy-standardy",
+    "m0-31-itil-iso-27001"
+   ]
+  },
+  {
+   "h": "5 – 7 – 37: po tych liczbach poznasz COBIT 5",
+   "b": "<ul><li><b>5</b> zasad</li><li><b>7</b> kategorii <w k=\"aktywator\">aktywatorów</w> <span class=\"en\">Enablers</span></li><li><b>37</b> <w k=\"proces\">procesów</w> (5 Ładu + 32 Zarządzania)</li></ul><p>„40 celów” albo „czynniki projektowe” <span class=\"en\">design factors</span> = <w k=\"cobit-2019\">COBIT 2019</w> – zła odpowiedź.</p>",
+   "c": "Egzamin Foundation dotyczy wyłącznie COBIT 5.",
+   "s": "COBIT 5 Framework (PL), s. 14, 33",
+   "ctx": "<p>Strona 14 podręcznika wymienia pięć zasad i siedem kategorii czynników umożliwiających (na egzaminie: aktywatorów), a s. 33 – pełny zestaw 37 procesów. Te trzy liczby to najszybszy test, czy materiał, z którego się uczysz, dotyczy właściwej wersji.</p><p>COBIT 2019 to nowsza wersja ramy ISACA z innym słownictwem: 40 celów Ładu i Zarządzania, komponenty systemu ładu, czynniki projektowe (wiedza ogólna). Na egzaminie COBIT 5 takie pojęcia są dystraktorami, nawet jeśli brzmią nowocześnie.</p><p>Przykład: dział szkoleń firmy kupuje kurs „COBIT w pigułce”, a pracownicy uczą się listy 40 celów. Wystarczyło przed zakupem sprawdzić spis treści: brak 37 procesów oznacza inną wersję.</p>",
+   "lekcje": [
+    "m0-32-liczby-cobit-5"
+   ]
+  }
+ ],
+ "k-m0-interesariusze": [
+  {
+   "h": "Interesariuszem jest każdy, kogo sprawa obchodzi – grupę wyznacza przynależność",
+   "b": "<blockquote>„Każda osoba, na której spoczywa odpowiedzialność za przedsiębiorstwo, mająca wobec niego oczekiwania lub jakiś udział w przedsiębiorstwie”</blockquote><ul><li><w k=\"interesariusz\">Interesariusz</w> wewnętrzny należy do organizacji, zewnętrzny – nie.</li><li>Częstość kontaktów nie ma znaczenia.</li></ul>",
+   "c": "Nie trzeba decydować ani korzystać z systemu – a rzecz, np. serwer, nigdy nie jest interesariuszem.",
+   "s": "COBIT 5 Framework (PL), s. 22 (Ilustracja 7), 93",
+   "ctx": "<p>Wystarczy jedna z trzech rzeczy: odpowiedzialność, oczekiwania albo udział. Odpowiedzi „interesariusz to użytkownik systemu”, „to decydent” albo „to udziałowiec” są za wąskie. <em>Stakeholder</em> (interesariusz) to nie <em>shareholder</em> (udziałowiec) – udziałowiec jest tylko jednym z wielu interesariuszy. Baza danych nie ma oczekiwań, więc jest zasobem.</p><p>Rysunek 7 dzieli interesariuszy na wewnętrznych i zewnętrznych. Pary, które egzamin lubi zamieniać: audyt wewnętrzny – wewnętrzny, audytorzy zewnętrzni i organy nadzorcze – zewnętrzni; zarząd – wewnętrzny, udziałowcy – zewnętrzni. Konsultanci i dostawcy są zewnętrzni, nawet jeśli rok pracują w siedzibie firmy.</p><p>Przykład: urząd skraca godziny obsługi telefonicznej po uruchomieniu e-wniosków. Starszy mieszkaniec bez internetu nie skorzysta z systemu, ale odczuje zmianę – jest interesariuszem, choć nie użytkownikiem.</p>",
+   "lekcje": [
+    "m0-10-interesariusz",
+    "m0-11-interesariusze-wewnetrzni-zewnetrzni"
+   ]
+  },
+  {
+   "h": "Potrzeba to stan do osiągnięcia, nie zamówione rozwiązanie",
+   "b": "<ul><li><w k=\"potrzeba\">Potrzeba interesariusza</w> <span class=\"en\">Stakeholder need</span>: „klient widzi historię swoich spraw”.</li><li>Prośba: „kupcie nowy system” – tylko jeden pomysł.</li><li>Potrzeby bywają sprzeczne – waży je <w k=\"lad\">Ład</w>.</li></ul>",
+   "c": "Pytaj „po co?”, aż dojdziesz do stanu, który da się sprawdzić.",
+   "s": "COBIT 5 Framework (PL), s. 17",
+   "ctx": "<p>Rozróżnienie potrzeby i prośby to narzędzie kursu – COBIT 5 mówi po prostu o potrzebach interesariuszy. Pomaga, bo podręcznik każe zaczynać od potrzeb: trzeba je przekształcić w strategię złożoną z konkretnych działań, w kolejności potrzeba → cel → rozwiązanie. Odpowiedź zaczynająca od technologii („kupić aplikację”) zwykle jest dystraktorem.</p><p>Dla każdego interesariusza „tworzenie wartości” znaczy co innego, niekiedy rzeczy wykluczające się. Ład (podręcznik: nadzór) nie spełnia życzeń po kolei ani nie czeka na zgodę wszystkich: zbiera oczekiwania wszystkich stron, negocjuje i decyduje.</p><p>Przykład: zarząd szpitala mówi „potrzebujemy aplikacji”, a pacjenci skarżą się, że nie wiedzą, kiedy będą wyniki. Potrzebą jest „pacjent zna termin wyników” – może wystarczy SMS.</p>",
+   "lekcje": [
+    "m0-12-rozne-oczekiwania",
+    "m0-13-potrzeba"
+   ]
+  },
+  {
+   "h": "Wyznacznik wywołuje potrzebę, aktywator pomaga ją spełnić",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Pojęcie</th><th>Rola</th><th>Przykład</th></tr><tr><td><w k=\"wyznacznik\">Wyznacznik</w> <span class=\"en\">Stakeholder Driver</span></td><td>przyczyna</td><td>nowy przepis o ochronie danych</td></tr><tr><td><w k=\"potrzeba\">Potrzeba</w></td><td>skutek</td><td>dane klientów bezpieczne</td></tr><tr><td><w k=\"aktywator\">Aktywator</w> <span class=\"en\">Enabler</span></td><td>środek</td><td>nowa polityka ochrony danych</td></tr></table></div>",
+   "c": "„Czynnik wpływający na potrzeby” to wyznacznik, a „czynnik umożliwiający” – aktywator.",
+   "s": "COBIT 5 Framework (PL), s. 14, 17",
+   "ctx": "<p>Podręcznik wymienia trzy wyznaczniki: zmiany w strategii, zmiany w otoczeniu biznesowym i regulacyjnym (jeden wyznacznik) oraz nowe technologie. Na egzaminie wyznacznik bywa opisany jako „czynnik wpływający na potrzeby interesariuszy”, a w podręczniku aktywator to „czynnik umożliwiający” – to samo słowo, dwa pojęcia. Gdy pytanie dotyczy tego, co zmienia potrzeby, szukaj strategii, otoczenia albo technologii; procesy, polityki i zespoły to aktywatory.</p><p>Kolejność jest stała: wyznacznik → potrzeba → cele organizacji; odpowiedź, która nazywa potrzebę przyczyną, jest błędna. Wyznacznik to też nie zdarzenie wyzwalające, które uruchamia wdrożenie COBIT 5 – ta sama zmiana może być jednym albo drugim, zależnie od etapu, o który pyta egzamin.</p><p>Przykład: konkurent sklepu internetowego wprowadza dostawę w dwie godziny (zmiana otoczenia biznesowego). Klienci zaczynają tego oczekiwać (potrzeba). Nowy proces logistyki to aktywator.</p>",
+   "lekcje": [
+    "m0-14-wyznaczniki",
+    "m0-15-wyznacznik-z-czym-nie-mylic"
+   ]
+  }
+ ],
+ "k-m0-wartosc": [
+  {
+   "h": "Rezultat to jeszcze nie korzyść",
+   "b": "<ul><li><w k=\"rezultat\">Rezultat</w> <span class=\"en\">Output</span>: co powstało – wdrożony system, odbyte szkolenie.</li><li>Korzyść: co się poprawiło dzięki rezultatowi.</li><li>W urzędzie korzyścią są usługi publiczne, nie zysk.</li></ul>",
+   "c": "Wyłączenie systemu, który nic nie daje, też jest realizacją korzyści.",
+   "s": "COBIT 5 Framework (PL), s. 17, 89",
+   "ctx": "<p>Słowniczek opisuje <w k=\"realizacja-korzysci\">realizację korzyści</w> jako jeden z celów nadzoru: uzyskiwanie nowych korzyści, utrzymanie i rozszerzenie istniejących oraz „wyeliminowanie inicjatyw i zasobów, które nie generują wystarczającej wartości”. Trzecia część to pułapka: rezygnacja z nieopłacalnego systemu brzmi jak strata, a jest realizacją korzyści.</p><p>Rezultat może istnieć bez korzyści: szkolenie odbyte, certyfikaty rozdane, a pracownicy klikają w fałszywe wiadomości tak samo często. Odpowiedź „korzyść, bo projekt odebrano” myli rezultat z korzyścią. Uwaga: w ocenie zdolności procesu „rezultat” tłumaczy inne słowo – <em>outcome</em>.</p><p>Przykład: gmina uruchamia e-wnioski. Rezultat – działający formularz. Korzyść – krótsze kolejki i szybsze załatwianie spraw.</p>",
+   "lekcje": [
+    "m0-16-rezultat-korzysc"
+   ]
+  },
+  {
+   "h": "Optymalizacja to najlepszy rozsądny poziom, nie minimum",
+   "b": "<ul><li><w k=\"optymalizacja-zasobow\">Optymalizacja zasobów</w>: skuteczne, wydajne i odpowiedzialne użycie – nie „najtaniej”.</li><li><w k=\"optymalizacja-ryzyka\">Optymalizacja ryzyka</w>: w granicach apetytu na ryzyko – nie „zero”.</li><li><w k=\"zasob\">Zasoby</w>: ludzie, finanse, sprzęt, infrastruktura… i informacja.</li></ul>",
+   "c": "Wartość jest dopiero wtedy, gdy korzyści, ryzyko i zasoby są w równowadze.",
+   "s": "COBIT 5 Framework (PL), s. 13, 17, 93",
+   "ctx": "<p>Tworzenie wartości to osiąganie korzyści „w sposób maksymalnie oszczędny” przy zoptymalizowanym ryzyku – łatwo to odczytać jako „najtaniej”, ale składnik nazywa się optymalizacja, nie minimalizacja. Za tanio: kopie zapasowe niepełne, korzyść znika. Za drogo: funkcje, których nikt nie używa. Odpowiedź z jednym składnikiem („tylko realizacja korzyści”) jest za wąska.</p><p>Zasób to w słowniczku „każdy zasób przedsiębiorstwa, który ułatwia organizacji osiągnięcie jej celów” – lista jest otwarta („itd.”), a streszczenie zaczyna się od zdania, że informacje są kluczowym zasobem. Pułapka: „możliwość wycieku danych” to ryzyko, nie zasób.</p><p>Przykład: urząd wybiera usługę chmurową. Najtańsza oferta nie ma kopii (ryzyko za duże), najdroższa ma dziesiątki zbędnych funkcji (zasoby zmarnowane) – optymalna jest środkowa.</p>",
+   "lekcje": [
+    "m0-17-wartosc",
+    "m0-18-optymalizacja",
+    "m0-22-zasob"
+   ]
+  },
+  {
+   "h": "Ryzyko to przyszłe zdarzenie – zarządza się nim, nie usuwa do zera",
+   "b": "<blockquote>„Połączenie prawdopodobieństwa zdarzenia i jego konsekwencji”</blockquote><ul><li><w k=\"ryzyko\">Ryzyko</w> ≠ problem (już się stał) ≠ zagrożenie (samo źródło).</li><li>Strategie: unikanie, ograniczanie, transfer (i świadoma akceptacja).</li></ul>",
+   "c": "„Wyeliminować ryzyko” to na egzaminie prawie zawsze zła odpowiedź.",
+   "s": "COBIT 5 Framework (PL), s. 13, 93",
+   "ctx": "<p>Ryzyko ocenia się dwiema miarami: jak łatwo się zdarzy i jak bardzo zaszkodzi – rzadki wyciek danych klientów z ogromnym skutkiem to duże ryzyko. Zdanie o ryzyku ma budowę „jeśli…, to…”. Awaria, która trwa teraz, jest problemem, a „hakerzy atakują sklepy” – samym zagrożeniem.</p><p>Streszczenie mówi o dążeniu do „utrzymania ryzyka związanego z IT na akceptowalnym poziomie” (s. 13). Słowniczek wymienia unikanie, ograniczanie negatywnego wpływu i transfer; resztą zarządza się w granicach apetytu na ryzyko. Świadomą akceptację kurs dodaje za ogólną praktyką (wiedza ogólna). Słowa „całkowicie”, „zero”, „wyeliminować” sygnalizują dystraktor.</p><p>Przykład: bank buduje zapasowe centrum danych w innym mieście – to ograniczanie (mniejsze skutki awarii). Ubezpieczenie od skutków awarii byłoby transferem.</p>",
+   "lekcje": [
+    "m0-20-ryzyko",
+    "m0-21-postepowanie-z-ryzykiem"
+   ]
+  }
+ ],
+ "k-pr-wartosc": [
+  {
+   "h": "Cel Ładu: Tworzenie Wartości – jedna nazwa, bez słowa „jedyny”",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Egzamin</th><th>Podręcznik</th><th>EN</th></tr><tr><td><w k=\"tworzenie-wartosci\">Cel Ładu: Tworzenie Wartości</w></td><td>cel nadzoru: tworzenie wartości</td><td><span class=\"en\">Governance Objective: Value Creation</span></td></tr></table></div><blockquote>„jednym z celów w zakresie nadzoru jest tworzenie wartości”</blockquote>",
+   "c": "Tworzenie Wartości zawsze ma trzy składniki naraz: korzyści, ryzyko, zasoby.",
+   "s": "COBIT 5 Framework (PL), s. 17 (Ilustracja 3), 93",
+   "ctx": "<p>Na egzaminie przeczytasz „Cel Ładu: Tworzenie Wartości”, w podręczniku „cel nadzoru: tworzenie wartości”, w materiałach egzaminacyjnych bywa też „kreowanie wartości” – to ten sam cel (Rysunek 3). Słowniczek definiuje go jako „główny cel nadzoru w przedsiębiorstwie”, osiągany przez równowagę realizacji korzyści, optymalizacji ryzyka i optymalizacji zasobów; każdy z tych składników też opisuje jako „jeden z celów nadzoru”. Bezpieczna formuła: Cel Ładu to Tworzenie Wartości – bez „jedyny”.</p><p>Rysunek 3 pokazuje łańcuch: wyznacznik → potrzeby interesariuszy → Cel Ładu z trzema składnikami. Korzyści w firmie są zwykle finansowe, w administracji są nimi usługi publiczne – dlatego Tworzenie Wartości dotyczy każdej organizacji, także niekomercyjnej.</p><p>Przykład: szpital wdraża elektroniczną dokumentację etapami – lekarz od razu widzi wyniki, ryzyko przestoju i wycieku pozostaje akceptowalne, a koszt licencji i szkoleń rozsądny.</p>",
+   "lekcje": [
+    "pr-k14-tworzenie-wartosci"
+   ]
+  },
+  {
+   "h": "Skrajność w odpowiedzi to sygnał błędu",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Dystraktor</th><th>Poprawnie</th></tr><tr><td>„ryzyko do zera”</td><td>ryzyko akceptowalne</td></tr><tr><td>„najtańsza oferta”</td><td>skuteczne i odpowiedzialne użycie zasobów</td></tr><tr><td>„system odebrany = korzyść”</td><td>faktyczna poprawa</td></tr><tr><td>„decyduje największa grupa”</td><td>Ład uwzględnia wszystkich interesariuszy</td></tr></table></div>",
+   "c": "Przy każdej decyzji: kto odnosi korzyści, kto ponosi ryzyko, jakie zasoby są wymagane?",
+   "s": "COBIT 5 Framework (PL), s. 13, 17",
+   "ctx": "<p>Trzy pytania z s. 17 to praktyczna wersja trzech składników Celu Ładu. Podręcznik dodaje, że przed decyzją system nadzoru powinien uwzględnić oczekiwania wszystkich interesariuszy – Ład negocjuje i decyduje, co jest wartością. Korzyść i ryzyko często spadają na różne strony, dlatego pytania zaczynają się od „kto”.</p><p>Każdy dystraktor z tabeli zamienia równowagę w jedną skrajność. Słowa „do zera”, „zawsze najtaniej”, „w dniu odbioru systemu” czy „głos większości” to sygnał ostrzegawczy; poprawna odpowiedź mówi o poziomie akceptowalnym, rozsądnym użyciu zasobów i uwzględnieniu wszystkich stron.</p><p>Przykład: bank wybiera dostawcę chmury. Oferta A jest najtańsza, ale bez kopii w drugim centrum danych; oferta B jest droższa, z kopiami i certyfikatem bezpieczeństwa. Wybór B to optymalizacja ryzyka i zasobów naraz.</p>",
+   "lekcje": [
+    "pr-k15-optymalizacja",
+    "pr-k16-trzy-pytania"
+   ]
+  }
+ ],
+ "k-pr-kaskada": [
+  {
+   "h": "Poziomy kaskady: kolejność stała, nazwy z egzaminu",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Egzamin</th><th>Podręcznik (pułapka)</th></tr><tr><td><w k=\"wyznacznik\">Wyznaczniki</w></td><td>wyznaczniki dotyczące interesariuszy</td></tr><tr><td>Potrzeby interesariuszy</td><td>potrzeby interesariuszy</td></tr><tr><td><w k=\"cele-organizacji\">Cele organizacji</w></td><td>cele przedsiębiorstwa</td></tr><tr><td><w k=\"cele-zwiazane-z-it\">Cele związane z Informatyką</w></td><td>cele związane z IT</td></tr><tr><td><w k=\"cele-aktywatorow\">Cele aktywatora</w></td><td>cele czynników umożliwiających</td></tr></table></div>",
+   "c": "Potrzeby przekłada się najpierw na cele całej organizacji, dopiero potem na cele IT.",
+   "s": "COBIT 5 Framework (PL), s. 17–18, Ilustracja 4",
+   "ctx": "<p><w k=\"kaskada-celow\">Kaskada Celów</w> (Rysunek 4) to pięć poziomów połączonych czterema krokami, od ogółu („po co”) do szczegółu („co robimy”). Egzamin każe układać elementy w kolejności – najwięcej błędów rodzi zamiana wyznacznika z potrzebą (zmiana w otoczeniu to wyznacznik, oczekiwanie ludzi – potrzeba) i przeskoczenie celów organizacji: potrzeby nie trafiają od razu do informatyków.</p><p>Podręcznik dodaje, czego nie widać na schemacie: każda organizacja działa w innym kontekście – zewnętrznym (rynek, branża, sytuacja geopolityczna) i wewnętrznym (kultura, organizacja, apetyt na ryzyko) – i system Ładu trzeba do niego dostosować. Lista 17 celów organizacji nie jest wyczerpująca, ale większość konkretnych celów da się przypisać do jednego lub kilku z nich.</p><p>Przykład: nowe przepisy o ochronie danych (wyznacznik) → klienci i regulator chcą pewności, że dane są bezpieczne (potrzeba) → cel organizacji 4 „Zgodność z przepisami prawa i regulacjami” → dopiero teraz pytanie, co musi zapewnić IT.</p>",
+   "lekcje": [
+    "pr-k17-kaskada-celow",
+    "pr-k18-kaskada-krok-1-2"
+   ]
+  },
+  {
+   "h": "„Związane z Informatyką” to nie „działu IT” – na dole są wszystkie aktywatory",
+   "b": "<blockquote>„Związane z IT oznacza informacje i powiązaną technologię”</blockquote><ul><li>Cele aktywatora: procesy, struktury, kultura, ludzie… – nie same procesy.</li><li>Kaskada porządkuje cele, nie ludzi – to nie hierarchia ani <w k=\"raci\">RACI</w>.</li></ul>",
+   "c": "Tabele podpowiadają, ale priorytety wybiera organizacja – w Przykładzie 1 cztery z siedmiu celów IT.",
+   "s": "COBIT 5 Framework (PL), s. 18, 21",
+   "ctx": "<p>Krok 3 (s. 18): cele organizacji wymagają określonych rezultatów związanych z IT, a reprezentują je właśnie cele związane z Informatyką – 17 celów uporządkowanych według zrównoważonej karty wyników IT (IT BSC). Cele aktywatora tylko je wspierają. Cel związany z Informatyką może dotyczyć księgowości czy sprzedaży, jeśli opiera się na danych i systemach. Przypis na s. 18 dodaje: rezultaty IT nie są jedynymi pośrednimi korzyściami potrzebnymi do celów organizacji – wpływają na nie też finanse czy marketing – ale COBIT 5 uwzględnia tylko działania i cele związane z IT.</p><p>Odpowiedź „cele aktywatora to cele procesów” jest za wąska: Załącznik C mapuje cele IT tylko na procesy, ale podręcznik zaznacza, że „same procesy jednak nie wystarczą” – kultura, struktury organizacyjne i umiejętności też potrzebują jasnych celów. Kaskada nie mówi, kto jest czyim przełożonym ani kto za co odpowiada – to zadanie ról i diagramów RACI.</p><p>W Przykładzie 1 Załącznik B podsuwa siedem celów IT z relacją P, a firma „weryfikuje tę listę” i za priorytetowe uznaje pierwsze cztery (01, 04, 07, 09). Urząd postępuje tak samo: z podpowiedzi wybiera to, co dla niego najważniejsze.</p>",
+   "lekcje": [
+    "pr-k19-kaskada-krok-3-4",
+    "pr-k20-kaskada-przyklad"
+   ]
+  },
+  {
+   "h": "Wymiar karty wyników rozpoznasz po sensie celu",
+   "b": "<div class=\"tblwrap\"><table class=\"tbl\"><tr><th>Cel organizacji</th><th>Wymiar <w k=\"bsc\">BSC</w></th></tr><tr><td>4. Zgodność z przepisami prawa</td><td>Finanse</td></tr><tr><td>7. Ciągłość i dostępność usług</td><td>Klient</td></tr><tr><td>15. Zgodność z politykami wewnętrznymi</td><td>Obszar wewnętrzny</td></tr><tr><td>16. Wykwalifikowany personel</td><td>Szkolenie i rozwój</td></tr></table></div>",
+   "c": "„Optymalizacja zasobów” to składnik Celu Ładu, nie wymiar BSC – taka odpowiedź odpada od razu.",
+   "s": "COBIT 5 Framework (PL), s. 17–19, Ilustracja 5",
+   "ctx": "<p>Zrównoważona karta wyników (<em>Balanced Scorecard</em>; Kaplan i Norton) ma cztery wymiary: Finanse, Klient, Obszar wewnętrzny, Szkolenie i rozwój. Każdy z 17 celów organizacji leży w dokładnie jednym; 17 celów związanych z Informatyką ułożono według analogicznej karty IT BSC. Cele układa się według BSC, a nie według pięciu zasad.</p><p>Pułapki: dwie „zgodności” leżą w różnych wymiarach (prawo – Finanse, polityki wewnętrzne – Obszar wewnętrzny); ludzie i innowacje to zawsze Szkolenie i rozwój; wymiar Klient działa też tam, gdzie nikt nie płaci wprost – w urzędzie klientem jest mieszkaniec. Odpowiedź spoza czterech wymiarów („Optymalizacja zasobów”, „Ryzyko”) odrzucasz od razu.</p><p>Przykład: urząd chce, by mieszkańcy załatwiali sprawy przez internet bez przerw (cel 7 – Klient), wnioski krążyły między wydziałami bez zgubień (Obszar wewnętrzny), a urzędnicy umieli obsłużyć nowy system (cel 16 – Szkolenie i rozwój).</p>",
+   "lekcje": [
+    "pr-k21-bsc",
+    "pr-k22-cele-organizacji-17"
+   ]
+  },
+  {
+   "h": "P i S: jak mocno cel organizacji wiąże się z korzyściami, ryzykiem i zasobami",
+   "b": "<ul><li><b>P</b> – relacja podstawowa; <b>S</b> – wspierająca, słabsza; puste pole – brak związku.</li><li>S ≠ „mniej ważny cel”.</li><li>P tutaj ≠ <w k=\"ocena-p\">ocena „Pełny”</w> w ocenie procesu.</li></ul>",
+   "c": "Na egzaminie wystarczy logika P/S, nie cała tabela.",
+   "s": "COBIT 5 Framework (PL), s. 18–19, Ilustracja 5",
+   "ctx": "<p>Kolumny Rysunku 5 to trzy składniki Celu Ładu. Kilka wzorców ułatwia rozumowanie: cel 9 „Świadome podejmowanie decyzji strategicznych na podstawie informacji” jako jedyny ma P przy wszystkich trzech; cele 4 (zgodność z przepisami), 7 (ciągłość i dostępność usług) i 15 (zgodność z politykami wewnętrznymi) mają tylko P przy ryzyku; cel 17 (kultura innowacji) – tylko P przy korzyściach; cel 16 (personel) jako jedyny ma S przy korzyściach.</p><p>Te same litery stoją w Załącznikach B i C (cele organizacji → cele IT → procesy) – też tylko dwa stopnie, choć w rzeczywistości powiązania są płynne. W skali ocen atrybutów procesu litera P znaczy „Pełny” – zupełnie inne pojęcie.</p><p>Przykład: bank, który łamie przepisy, ryzykuje kary i utratę licencji – dlatego zgodność z prawem (cel 4) ma P przy optymalizacji ryzyka, a nie przy korzyściach.</p>",
+   "lekcje": [
+    "pr-k23-relacje-p-s"
+   ]
+  }
+ ],
+ "k-pr-kaskada-uzycie": [
+  {
+   "h": "Kaskada przekłada potrzeby na cele i wspiera dopasowanie biznesu i IT",
+   "b": "<ol><li><b>Przełożenie</b> potrzeb interesariuszy na konkretne cele.</li><li><b>Dopasowanie</b> <span class=\"en\">alignment</span> potrzeb organizacji do rozwiązań i usług IT.</li></ol><p>Nie opisuje wejść i wyjść procesów, ról ani architektury.</p>",
+   "c": "„Najpierw” przy kaskadzie znaczy: dostosuj tabele do swojej organizacji.",
+   "s": "COBIT 5 Framework (PL), s. 17, 20, 22",
+   "ctx": "<p>Pytanie „do czego służy Kaskada Celów” ma dwie poprawne odpowiedzi z s. 17: przełożenie potrzeb na konkretne cele na każdym poziomie oraz wspieranie dopasowania potrzeb przedsiębiorstwa do rozwiązań i usług IT. Prawdziwe, ale obce odpowiedzi – wejścia i wyjścia procesu, przypisanie ról i odpowiedzialności, architektura korporacyjna – nie są celem kaskady.</p><p>Dostosowanie to nie wymyślanie kaskady od zera: organizacja opracowuje własną kaskadę, porównuje ją z COBIT 5 i dopracowuje szczegóły; „wdrożyć wszystkie cele z tabel” to zła odpowiedź. Pytania interesariuszy z Rysunku 7 wchodzą na samą górę kaskady jako dane wejściowe (przez Załącznik D), a nie na poziomie celów IT.</p><p>Przykład: ubezpieczyciel stawia na szybkie wypłaty odszkodowań. Kaskada wskazuje kilka celów IT i procesów, więc dział IT nie czyta całego COBIT 5, tylko wytyczne o ciągłości usług i obsłudze zgłoszeń.</p>",
+   "lekcje": [
+    "pr-k24-po-co-kaskada",
+    "pr-k25-kaskada-dostosuj",
+    "pr-k26-pytania-interesariuszy"
+   ]
+  }
+ ]
+}
