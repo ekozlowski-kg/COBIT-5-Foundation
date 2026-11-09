@@ -114,7 +114,7 @@ SPIS = [
         K("mt-lad-kaskada", "Mentor: Ład i kaskada celów", rng("MT", "MT", 10, 14)),
         K("mt-aktywatory", "Mentor: aktywatory i procesy", rng("MT", "MT", 15, 18)),
         K("mt-zdolnosc", "Mentor: zdolność, wdrożenie, prowadzenie zajęć", rng("MT", "MT", 19, 24)),
-        K("fn-final", "Finał: tabele, obce źródła, pytania przekrojowe", rng("FN", "10", 10, 17)),
+        K("fn-final", "Finał: tabele, obce źródła, pytania przekrojowe", rng("FN", "10", 10, 18)),
     ]},
 ]
 
@@ -382,7 +382,7 @@ LIMIT = {"k-m0-cobit": 2, "k-pr-zasady": 3, "k-m0-standardy": 2, "k-m0-interesar
          "k-im-cykl": 6, "k-im-uzasadnienie": 2, "k-pc-model": 4, "k-pc-poziomy": 5, "k-pc-atrybuty": 5, "k-pc-oceny": 5,
          "k-pc-iso": 5, "k-en-zasady": 4, "k-en-procesy": 4, "k-en-raci": 4, "k-en-struktury": 3, "k-en-role": 3,
          "k-en-kultura": 3, "k-en-informacja": 3, "k-en-uslugi": 3, "k-en-ludzie": 3, "k-m0-egzamin": 3,
-         "k-ex-strategia": 5, "k-ex-powtorka": 5, "k-mt-lad-kaskada": 4, "k-mt-aktywatory": 4, "k-mt-zdolnosc": 4, "k-fn-final": 4}
+         "k-ex-strategia": 5, "k-ex-powtorka": 5, "k-mt-lad-kaskada": 4, "k-mt-aktywatory": 4, "k-mt-zdolnosc": 4, "k-fn-final": 5}
 (HERE / "skrot" / "BUDZET.json").write_text(json.dumps({p["id"]: {"tytul": p["t"], "rozdzial": ch["chap"], "max_slajdow": LIMIT.get(p["id"], 3),
     "lekcje": [LESSONS[k]["id"] for k in p["lessons"]]} for ch in SPIS for p in ch["parts"] if not p.get("hand")}, ensure_ascii=False, indent=1), encoding="utf-8")
 # Dawna lekcja → część podręcznika (aplikacja przekierowuje stare linki „#/lekcja/…” do podręcznika).

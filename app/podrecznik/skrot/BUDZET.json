@@ -484,7 +484,7 @@
  "k-fn-final": {
   "tytul": "Finał: tabele, obce źródła, pytania przekrojowe",
   "rozdzial": "Poza podręcznikiem · Mentor i finał",
-  "max_slajdow": 4,
+  "max_slajdow": 5,
   "lekcje": [
    "fn-k10-czytanie-tabel",
    "fn-k11-kaskada-to-wytyczna",
@@ -493,7 +493,8 @@
    "fn-k14-cobit-2019-i-dumpy",
    "fn-k15-pytanie-przekrojowe",
    "fn-k16-wdrozenie-kaskada-luka",
-   "fn-k17-kto-monitoruje"
+   "fn-k17-kto-monitoruje",
+   "fn-k18-bledy-w-materialach"
   ]
  }
 }

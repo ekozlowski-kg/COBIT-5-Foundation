@@ -1423,6 +1423,182 @@
      "wyjasnienie": "Dobrze. Definicja nadzoru (Ładu) obejmuje monitorowanie względem uzgodnionego kierunku i celów."
     }
    ]
+  },
+  {
+   "id": "q-fnk-18-1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k18-bledy-w-materialach",
+   "bloom": "rozumienie",
+   "trudnosc": 1,
+   "tresc": "Film szkoleniowy opisuje proces EDM02 jako „zarządzanie strategią”. Który proces COBIT 5 naprawdę odpowiada za strategię IT?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 33
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "EDM02 Zapewnienie realizacji korzyści",
+     "poprawna": false,
+     "wyjasnienie": "To błąd z filmu. EDM02 pilnuje, by inwestycje w IT dawały obiecane korzyści – nie układa strategii.",
+     "pulapka": "odwrocone"
+    },
+    {
+     "tekst": "APO02 Zarządzanie strategią",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Strategią IT zajmuje się APO02 w domenie Zarządzania (s. 33)."
+    },
+    {
+     "tekst": "EDM01 Zapewnienie i utrzymanie ładu korporacyjnego",
+     "poprawna": false,
+     "wyjasnienie": "EDM01 ustala ramy Ładu: zasady, struktury i odpowiedzialności, a nie strategię IT.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "MEA01 – monitorowanie wydajności i zgodności z celami",
+     "poprawna": false,
+     "wyjasnienie": "MEA01 mierzy, czy cele są osiągane; strategii nie tworzy.",
+     "pulapka": "inna-kategoria"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-18-2",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k18-bledy-w-materialach",
+   "bloom": "rozumienie",
+   "trudnosc": 2,
+   "tresc": "Kurs online wymienia „pięć komponentów COBIT 5”: strukturę ramową, opisy procesów, cele kontrolne, wytyczne zarządcze i modele dojrzałości. Jak to ocenić?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 13
+    },
+    {
+     "doc": "FW-PL",
+     "strona": 41
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "To opis nowszej wersji, czyli COBIT 2019",
+     "poprawna": false,
+     "wyjasnienie": "COBIT 2019 mówi o komponentach systemu Ładu i 40 celach; tej listy w nim nie ma.",
+     "pulapka": "inna-kategoria"
+    },
+    {
+     "tekst": "To elementy wspólne dla wszystkich wersji COBIT",
+     "poprawna": false,
+     "wyjasnienie": "COBIT 5 zastąpił model dojrzałości modelem zdolności, więc lista nie pasuje do wszystkich wersji.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "To pełny i aktualny opis COBIT 5 z podręcznika",
+     "poprawna": false,
+     "wyjasnienie": "Podręcznik COBIT 5 opisuje 5 zasad i 7 kategorii aktywatorów, a nie taki zestaw komponentów.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "To układ z COBIT 4.1; COBIT 5 ma model zdolności",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Cele kontrolne i modele dojrzałości to COBIT 4.1. COBIT 5 ocenia procesy modelem zdolności procesu (s. 41)."
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-18-3",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k18-bledy-w-materialach",
+   "bloom": "zastosowanie",
+   "trudnosc": 3,
+   "tresc": "Kolega powtarza z filmu: „Zasada 3 to Aktywacja holistycznego podejścia, a zasada 4 to Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej”. Jak go poprawić?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 13
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Zamienić numery: 3 to jedna struktura ramowa, 4 to holizm",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Zasada 3: Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej, zasada 4: Aktywacja holistycznego podejścia (s. 13)."
+    },
+    {
+     "tekst": "Nic nie zmieniać, bo kolejność zasad COBIT 5 nie ma znaczenia dla egzaminu",
+     "poprawna": false,
+     "wyjasnienie": "Numery zasad są stałe i pytania egzaminacyjne się do nich odwołują.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poprawić zasadę 3 na Oddzielenie Ładu od Zarządzania, a resztę zostawić",
+     "poprawna": false,
+     "wyjasnienie": "Oddzielenie Ładu od Zarządzania to zasada 5.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Poprawić zasadę 4 na Pokrycie całej organizacji, a resztę zostawić bez zmian",
+     "poprawna": false,
+     "wyjasnienie": "Pokrycie całej organizacji to zasada 2.",
+     "pulapka": "falsz"
+    }
+   ]
+  },
+  {
+   "id": "q-fnk-18-z1",
+   "typ": "egzamin",
+   "sylabus": [
+    "EX-00-01"
+   ],
+   "lekcja": "fn-k18-bledy-w-materialach",
+   "bloom": "wiedza",
+   "trudnosc": 2,
+   "tresc": "W filmie pada zdanie: „COBIT 5 ma 17 potrzeb interesariuszy”. Czego w COBIT 5 naprawdę jest 17?",
+   "zrodlo": [
+    {
+     "doc": "FW-PL",
+     "strona": 19
+    }
+   ],
+   "status": "oficjalne",
+   "opcje": [
+    {
+     "tekst": "Procesów w domenie APO (Dostosuj, Planuj i Organizuj)",
+     "poprawna": false,
+     "wyjasnienie": "Domena APO ma 13 procesów (s. 33).",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Kategorii aktywatorów opisanych w zasadzie 4",
+     "poprawna": false,
+     "wyjasnienie": "Kategorii aktywatorów jest 7.",
+     "pulapka": "falsz"
+    },
+    {
+     "tekst": "Celów organizacji i osobno celów związanych z IT",
+     "poprawna": true,
+     "wyjasnienie": "Dobrze. Podręcznik podaje 17 celów organizacji i 17 celów związanych z IT (s. 19). Potrzeby interesariuszy opisuje jako pytania Ładu i Zarządzania (Ilustracja 24)."
+    },
+    {
+     "tekst": "Pytań interesariuszy w Załączniku D",
+     "poprawna": false,
+     "wyjasnienie": "Potrzeby interesariuszy to pytania z Ilustracji 24 i jest ich więcej niż 17; liczba 17 dotyczy celów.",
+     "pulapka": "zbyt-waskie"
+    }
+   ]
   }
  ]
 }

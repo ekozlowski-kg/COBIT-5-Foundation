@@ -491,10 +491,10 @@ window.SPIS=[
     "id": "k-fn-final",
     "href": "k-fn-final.html",
     "t": "Finał: tabele, obce źródła, pytania przekrojowe",
-    "slajdy": 11,
-    "pytania": 8,
+    "slajdy": 13,
+    "pytania": 9,
     "sp1": 0,
-    "d": "Lekcje 10.10–10.17"
+    "d": "Lekcje 10.10–10.18"
    }
   ]
  }

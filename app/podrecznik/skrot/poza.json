@@ -240,6 +240,16 @@
     "fn-k16-wdrozenie-kaskada-luka",
     "fn-k17-kto-monitoruje"
    ]
+  },
+  {
+   "h": "Film szkoleniowy też się myli – rozstrzyga podręcznik",
+   "b": "<ul><li><w k=\"proc-edm02\">EDM02</w> to korzyści, strategia to <w k=\"proc-apo02\">APO02</w>.</li><li>Zasada 3 – jedna struktura ramowa, <w k=\"zasada-4\">zasada 4</w> – holizm.</li><li>COBIT 5 ma <w k=\"model-zdolnosci\">model zdolności</w>, nie dojrzałości.</li><li><w k=\"kaskada-celow\">Kaskada celów</w> ma 4 kroki.</li><li>17 to liczba celów, nie potrzeb.</li></ul>",
+   "c": "Gdy film i podręcznik mówią co innego, wygrywa podręcznik COBIT 5.",
+   "s": "COBIT 5 Framework (PL), s. 13, 17–19, 33, 41",
+   "ctx": "<p>Te pięć błędów pochodzi z przeglądu popularnych filmów szkoleniowych o COBIT 5 na YouTube (wiedza ogólna, listopad 2026). Dwa są pomyłkami w kodach i numerach: <w k=\"proc-edm02\">EDM02</w> to Zapewnienie realizacji korzyści, a strategią zajmuje się <w k=\"proc-apo02\">APO02</w> (s. 33); zasada 3 to Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej, a zasada 4 – Aktywacja holistycznego podejścia (s. 13).</p><p>Trzy pozostałe mieszają wersje i listy. Cele kontrolne, wytyczne zarządcze i modele dojrzałości to elementy COBIT 4.1 – COBIT 5 ocenia procesy <w k=\"model-zdolnosci\">modelem zdolności procesu</w> (s. 41). <w k=\"kaskada-celow\">Kaskada celów</w> ma cztery kroki (s. 17–18), a liczba 17 dotyczy <w k=\"cele-organizacji\">celów organizacji</w> i celów związanych z IT (s. 19). Potrzeby interesariuszy podręcznik podaje jako pytania Ładu i Zarządzania (Ilustracja 24).</p><p>Przykład: kurs dla urzędu marszałkowskiego podaje „EDM02 – Zarządzanie strategią”. Zanim zapiszesz to w notatkach, sprawdzasz Ilustrację 16 na s. 33.</p>",
+   "lekcje": [
+    "fn-k18-bledy-w-materialach"
+   ]
   }
  ]
 }
