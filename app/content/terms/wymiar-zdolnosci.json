@@ -28,7 +28,7 @@
   "poLudzku": "Drabina od „robi” do „ciągle poprawia”: te same pytania o każdą robotę, bez względu na jej rodzaj.",
   "wyobrazSobie": "Oś pionowa wykresu ze szczeblami 0–5: ta sama drabina przy każdym zadaniu.",
   "poCo": "Żeby wszystkie procesy, choć różne, dało się ocenić tą samą miarą: jak dobrze są prowadzone.",
-  "jakDziala": "Wymiar zdolności to 6 poziomów i 9 atrybutów. Asesor ocenia je ogólnymi wskaźnikami: praktykami, zasobami i produktami pracy, takimi samymi dla każdego procesu. Dowody do PA 1.1 bierze z wymiaru procesu.",
+  "jakDziala": "Wymiar zdolności to 6 poziomów (0–5) i 9 atrybutów (PA 1.1–5.2). Dla PA 1.1 dowody bierze się ze specyficznych wskaźników wymiaru procesu. Dla poziomów 2–5 służą wskaźniki ogólne, wspólne dla różnych procesów.",
   "dlaczegoWazne": "Egzamin odróżnia wskaźniki zdolności od wskaźników wykonania. Podręcznikowe „typowe” łatwo źle zrozumieć.",
   "poziom2": "| Element | Podręcznik PL (Il. 19) | Do czego |\n|---|---|---|\n| 9 atrybutów (PA 1.1 – PA 5.2) | typowe atrybuty potencjału procesu | skala poziomów |\n| praktyki ogólne | typowe praktyki | co robić, żeby spełnić atrybut |\n| zasoby ogólne | typowe zasoby | ludzie, narzędzia, infrastruktura |\n| produkty pracy ogólne | typowe produkty działań | np. plan procesu, standard |\n\nPraktyki ogólne pochodzą z ISO/IEC 15504-2 i **nie zależą od procesu**: te same pytania zadasz w DSS02 i w APO12.",
   "poziom3": "Il. 19 (s. 42): *„COBIT 5 Model oceny procesu — wskaźniki potencjału”*: typowe praktyki, typowe zasoby, typowe produkty działań. (s. 45): dla wyższych poziomów *„wykorzystuje się typowe praktyki oparte na normie ISO/IEC 15504:2”*. (s. 43): wspólne atrybuty dla wszystkich procesów zdefiniowano na poziomach 2–5.",
@@ -41,7 +41,7 @@
   },
   "glebokosc": {
     "prosty": "Nauczycielka ocenia wypracowanie i rysunek. Treść jest inna, ale pytania wspólne: czy uczeń zaplanował pracę, oddał ją na czas i poprawił po uwagach. Te wspólne pytania to wymiar zdolności.",
-    "zaawansowany": "Po ocenie [[pa-1-1|PA 1.1]] audytorka wewnętrzna przechodzi do wymiaru zdolności. Dla [[pa-2-1|PA 2.1]] pyta o plan i pilnowanie, dla [[pa-3-1|PA 3.1]] o wspólny standard. Używa praktyk ogólnych, takich samych dla każdego procesu. Wynik to poziom z [[poziomy-zdolnosci|drabiny 0–5]]. Treść procesu daje [[wymiar-procesu|wymiar procesu]].",
+    "zaawansowany": "Audytorka ocenia [[pa-1-1|PA 1.1]], a następnie wyższe atrybuty tego samego wymiaru zdolności. Dla [[pa-2-1|PA 2.1]] pyta o plan i pilnowanie, dla [[pa-3-1|PA 3.1]] o wspólny standard. Używa praktyk ogólnych, takich samych dla każdego procesu. Wynik to poziom z [[poziomy-zdolnosci|drabiny 0–5]]. Treść procesu daje [[wymiar-procesu|wymiar procesu]].",
     "skrajny": "Młody analityk pyta: „PA 1.1 to atrybut, więc należy do wymiaru zdolności. Czemu audytorka bierze do niego praktyki bazowe?”. To trafne pytanie. Wszystkie 9 atrybutów tworzy skalę wymiaru zdolności. Ale PA 1.1 sprawdza, czy proces osiąga rezultaty, więc jego dowody pochodzą z wymiaru procesu. Ogólne praktyki służą głównie poziomom 2–5. Druga pułapka: „typowe” w podręczniku nie znaczy „przeciętne”, tylko „ogólne, wspólne dla wszystkich procesów”. **Rozstrzygnięcie:** wymiar zdolności to skala atrybutów z ogólnymi wskaźnikami. Poziom 1 sprawdzasz dowodami z wymiaru procesu, a poziomy 2–5 praktykami ogólnymi."
   },
   "zagmatwania": [
@@ -101,6 +101,10 @@
       "doc": "FW-PL",
       "strona": 43,
       "cytat": "zdefiniowano obecnie na poziomach 2–5 modelu oszacowania"
+    },
+    {
+      "doc": "PAM",
+      "sekcja": "2.4"
     }
   ],
   "mapa": "wymiar-zdolnosci"

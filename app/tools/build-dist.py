@@ -31,7 +31,7 @@ POMIN = [
     "podrecznik/ilustracje", "podrecznik/ilustracje/*",  # skany ilustracji/stron FW-PL (ISACA)
     "podrecznik/skrot", "podrecznik/kontekst",  # dane robocze generatora podręcznika
     "content/_archiwum", "content/_narzedzia",  # archiwum i narzędzia redakcyjne
-    "tools", "*.py", "*.swift", "*.command", "*.sh",
+    "tools", "tests", "*.py", "*.swift", "*.command", "*.sh",
     "*/BRIEF*.md", "podrecznik/FORMAT.md",       # dokumenty redakcyjne (uwaga: * w fnmatch obejmuje też „/”)
     "content/METODYKA.md", "content/SCHEMA.md", "content/FORMAT-KROTKI.md", "content/README*.md",
     "content/historia.md", "content/STANDARD-DYDAKTYCZNY.md", "content/_wzorce", "content/manifest.json",

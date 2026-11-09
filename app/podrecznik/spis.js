@@ -503,5 +503,17 @@ window.SPIS=[
     "d": "Lekcje 10.10–10.18"
    }
   ]
+ },
+ {
+  "chap": "Poza podręcznikiem · Warsztat i materiały",
+  "s": "",
+  "parts": [
+   {
+    "id": "04-warsztat",
+    "href": "04-warsztat.html",
+    "t": "Od potrzeb do dowodów",
+    "d": "Autorskie scenariusze, PRM/PAM, dowody, integracja i katalog materiałów"
+   }
+  ]
  }
 ];

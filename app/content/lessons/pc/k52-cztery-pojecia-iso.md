@@ -9,7 +9,7 @@ format: krotki
 sylabus: [PC-01-04]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pck-52-1, q-pck-52-2, q-pck-52-3]
+cwiczenia: [q-pck-52-1, q-pck-52-2, q-pck-52-3, q-warsztat-outcome-artefakt]
 zapas: [q-pck-52-z1]
 wprowadza: [pojecia-iso15504]
 wprowadzaListe: [przeznaczenie-procesu, rezultat-procesu, praktyka-bazowa, produkt-pracy]
@@ -61,7 +61,7 @@ Streszczenie normy ISO/IEC 15504; praktyki i wejścia/wyjścia: FW-PL s. 43.
 - **Produkt pracy:** rejestr zgłoszeń, raport miesięczny.
 
 :::wykladowca
-Przejdź ten przykład z góry na dół. Przeznaczenie to jedno zdanie o sensie procesu. Rezultat to stan, który można zaobserwować. Praktyka to czynność. Produkt pracy to dokument albo wpis, który da się pokazać oceniającemu.
+Przejdź ten przykład z góry na dół. Przeznaczenie to jedno zdanie o sensie procesu. Rezultat to obserwowalny efekt; może nim być także powstanie wymaganego artefaktu. Praktyka to czynność. Produkt pracy to dokument albo wpis, który da się pokazać oceniającemu.
 :::
 
 ---
@@ -71,7 +71,7 @@ Przejdź ten przykład z góry na dół. Przeznaczenie to jedno zdanie o sensie 
 
 :::pulapka
 - *Process purpose*: egzamin – **przeznaczenie procesu**, podręcznik – „cel procesu”.
-- Rezultat (*outcome*) to skutek, a nie wyjście (*output*). Wyjście to produkt pracy, np. raport.
+- Rezultat (*outcome*) opisuje osiągnięty efekt; może nim być powstanie artefaktu, zmiana stanu albo spełnienie warunku. Produkt pracy (*work product*) to artefakt użyty lub wytworzony w procesie.
 - „Praktyka bazowa” i „produkt pracy” – formy egzaminu niepotwierdzone; podręcznik: podstawowe praktyki, produkty działań.
 :::
 
@@ -79,7 +79,7 @@ Przejdź ten przykład z góry na dół. Przeznaczenie to jedno zdanie o sensie 
 :::
 
 :::wykladowca
-Słowo „cel” ma w COBIT kilka znaczeń, więc patrz na kontekst. W ocenie zdolności „po co proces istnieje” to przeznaczenie. Uważaj też na rezultat i wyjście. Rezultat to stan, na przykład „klienci mają działające usługi”. Wyjście to raport albo rejestr.
+Słowo „cel” ma w COBIT kilka znaczeń, więc patrz na kontekst. W ocenie zdolności „po co proces istnieje” to przeznaczenie. Uważaj też na rezultat i wyjście. Rezultatem może być stan, np. „klienci mają działające usługi”, albo powstanie wymaganego artefaktu. Raport i rejestr są produktami pracy; sprawdzamy, czego dowodzą.
 :::
 
 ---
@@ -91,6 +91,6 @@ Słowo „cel” ma w COBIT kilka znaczeń, więc patrz na kontekst. W ocenie zd
 
 :::zapamietaj
 - Przeznaczenie procesu (*Process purpose*) = podręcznikowy „cel procesu”.
-- Rezultat (*outcome*) ≠ wyjście (*output*).
+- Rezultat (*outcome*) opisuje efekt; wyjście (*output*) jest produktem pracy i może potwierdzać jego osiągnięcie.
 - Praktyka bazowa = praktyka Ładu/Zarządzania; produkt pracy = wejścia i wyjścia.
 :::

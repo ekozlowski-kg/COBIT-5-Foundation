@@ -14,7 +14,10 @@
 //   pytanie: { pt, quiz: { kontekst?, tresc, opcje: [{ t, ok?, w }], src, pomoc?: { t?, k?: [klucze] } } }
 //            pomoc.t – podpowiedź, która NIE zdradza odpowiedzi; pomoc.k – pojęcia do przypomnienia.
 //            Bez pomocy silnik pokazuje pojęcia i kontekst najbliższego slajdu treści przed pytaniem.
-(function () {
+(async function () {
+  const { store: progressStore } = await import('../js/store.js');
+  let freshQuestion = false;
+  let helped = false;
   const D = window.DECK;
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -146,6 +149,10 @@
     const q = s.quiz;
     const [n, of] = groupInfo(i);
     const answered = (entry()[1].qa || {})[i];
+    // Dawne ręczne pytania bez ID pozostają wyłącznie w wynikach treningowych.
+    if (typeof answered === 'number' && q.id) progressStore.markQuestionSeen(q.id);
+    freshQuestion = progressStore.markQuestionSeen(q.id);
+    helped = false;
     let h = `<div class="phead"><p class="part qpart">${s.sp ? esc(s.pt) : `${esc(s.pt || 'Sprawdź się')} · pytanie ${n} z ${of}`}</p><button class="ctxbtn" data-open="help">? Pomoc</button></div>`;
     if (q.kontekst) h += `<div class="qctx">${words(q.kontekst)}</div>`;
     h += `<h2 class="qstem">${words(q.tresc)}</h2><div class="qopts" role="group" aria-label="Odpowiedzi">`;
@@ -176,6 +183,7 @@
     $('qres').insertAdjacentHTML('beforeend', `<div class="qai"><span>${k === good ? 'Pogłęb z AI' : 'Nadal niejasne? Wyjaśnij z AI'}:</span><button class="ctxbtn" data-ai="c">Claude ↗</button><button class="ctxbtn" data-ai="g">ChatGPT ↗</button><button class="ctxbtn" data-ai="k">Kopiuj prompt</button></div>`);
     $('qres').querySelectorAll('[data-ai]').forEach((b) => b.addEventListener('click', () => askAI(q, k, good, b)));
     if (store) {
+      progressStore.recordFirstAttempt(q, k === good, freshQuestion, { mode: 'podręcznik', hinted: helped });
       const [st, e] = entry();
       e.q = e.q || {}; e.qa = e.qa || {};
       e.q[i] = k === good; e.qa[i] = k;
@@ -266,6 +274,7 @@
     $('ovbody').scrollTop = 0; $('ov').querySelector('.ovp').scrollTop = 0;
   }
   function open(v, push) {
+    if (S[i]?.quiz) helped = true;
     if (v.type === 'term' && !term(v.k)) return;
     if (v.type === 'term') tab = 'wyj';
     stack = push && $('ov').open ? stack.concat([v]) : [v];

@@ -1,4 +1,4 @@
-// Diagnoza poziomu: szacuje wynik egzaminu z odpowiedzi w ćwiczeniach, podręczniku i próbnych egzaminach,
+// Diagnoza treningu: umowny wskaźnik z odpowiedzi w ćwiczeniach, podręczniku i próbnych egzaminach,
 // wskazuje słabe tematy sylabusa i część podręcznika, do której trzeba wrócić.
 import * as C from './content.js';
 import { store } from './store.js';
@@ -37,11 +37,11 @@ export async function topicParts() {
 function podrecznikState() { try { return JSON.parse(localStorage.getItem(PODR_KEY) || '{}'); } catch (e) { return {}; } }
 
 const LEVELS = [
-  [45, 'Mistrz', 'Wynik 90–100%. Utrzymuj formę egzaminem mistrzowskim raz na kilka dni.', 'ok'],
-  [40, 'Cel osiągnięty (80%+)', 'Jesteś na poziomie 80–89%. Domknij ostatnie słabe tematy, żeby mieć zapas.', 'ok'],
-  [35, 'Zdasz z zapasem', 'Szacunkowo 70–79%. Do celu 80% brakuje kilku tematów: przerób listę poniżej.', 'mid'],
-  [25, 'Na granicy zdania', 'Szacunkowo 50–69%. Próg jest w zasięgu, ale bez zapasu. Wróć do najsłabszych działów.', 'mid'],
-  [0, 'Poniżej progu', 'Szacunkowo poniżej 50%. Przejdź podręcznik dział po dziale i wracaj tu po każdym rozdziale.', 'bad'],
+  [45, 'Trening 90–100%', 'Wysoka trafność w materiale ćwiczeniowym. Sprawdź wiedzę także na nieznanym arkuszu.', 'ok'],
+  [40, 'Trening 80–89%', 'Cel treningowy osiągnięty. Powtórz słabe tematy i sprawdź pierwsze odpowiedzi poniżej.', 'ok'],
+  [35, 'Trening 70–79%', 'Do celu treningowego 80% brakuje kilku tematów. Przerób listę poniżej.', 'mid'],
+  [25, 'Trening 50–69%', 'Wróć do najsłabszych działów i przećwicz je ponownie.', 'mid'],
+  [0, 'Trening poniżej 50%', 'Przejdź podręcznik dział po dziale i wracaj tu po każdym rozdziale.', 'bad'],
 ];
 
 // Wygładzenie: przy małej liczbie odpowiedzi wynik ciągnie do 50% (nie wiemy jeszcze, jak jest).
@@ -50,10 +50,10 @@ const smooth = (ok, n, prior = 0.5, k = 3) => (ok + prior * k) / (n + k);
 export async function diagnose() {
   const [questions, syl, wagi, tp] = await Promise.all([C.questions(), C.syllabus(), C.wagi(), topicParts()]);
   const st = store.get();
-  const topics = syl.tematy || [];
+  const topics = (syl.tematy || []).filter((t) => t.obszar !== 'M0');
   const per = {};
   for (const t of topics) per[t.kod] = { t, ok: 0, n: 0, seen: 0, lastWrong: 0, sources: new Set() };
-  // 1) ćwiczenia i egzaminy z aplikacji: pierwsza odpowiedź = rzetelny pomiar, ostatnia = czy już naprawione
+  // 1) ćwiczenia i egzaminy z aplikacji: pierwsza i ostatnia odpowiedź opisują trening; pytanie mogło być wcześniej oglądane
   for (const [qid, a] of Object.entries(st.answers || {})) {
     const q = questions.get(qid);
     if (!q) continue;
@@ -61,7 +61,7 @@ export async function diagnose() {
       const p = per[code];
       if (!p) continue;
       p.seen++;
-      // pierwsza próba waży 1, ostatnia (jeśli była powtórka) też 1 – pokazuje postęp, ale nie zawyża
+      // pierwsza próba waży 1, ostatnia (jeśli była powtórka) też 1 – pokazuje postęp, lecz może odzwierciedlać zapamiętanie odpowiedzi
       const first = a.firstCorrect ? 1 : 0;
       const last = (a.lastMastered ?? a.lastCorrect) ? 1 : 0;
       if (a.tries > 1) { p.ok += (first + last) / 2; } else p.ok += first;
@@ -85,28 +85,28 @@ export async function diagnose() {
       p.ok += ok * share; p.n += qs.length * share; p.sources.add('podręcznik');
     }
   }
-  // 3) obszary: tematy + próbne egzaminy (najmocniejszy sygnał – nieznane wcześniej pytania na czas)
+  // 3) obszary: tematy + próbne egzaminy (także powtórki; waga jest założeniem aplikacji)
   const AREAS = ['PR', 'EN', 'IM', 'PC'];
   const area = {};
   for (const a of AREAS) area[a] = { ok: 0, n: 0, exOk: 0, exN: 0 };
   for (const p of Object.values(per)) {
-    // M0 to wprowadzenie spoza sylabusa – nie liczy się do prognozy wyniku.
+    // M0 to wprowadzenie spoza sylabusa – nie liczy się do wskaźnika treningowego.
     if (area[p.t.obszar]) { area[p.t.obszar].ok += p.ok; area[p.t.obszar].n += p.n; }
   }
   const exams = (st.exams || []).slice(0, 3);
   for (const e of exams) for (const [a, r] of Object.entries(e.byArea || {})) if (area[a]) { area[a].exOk += r.ok; area[a].exN += r.total; }
   const wSum = Object.values(wagi).reduce((x, y) => x + y, 0) || 50;
-  let predicted = 0;
+  let trainingScore = 0;
   for (const a of AREAS) {
     const r = area[a];
     const pr = smooth(r.ok, r.n);
     const ex = r.exN ? smooth(r.exOk, r.exN) : null;
     r.p = ex === null ? pr : (r.n >= 5 ? 0.6 * ex + 0.4 * pr : ex);
     r.w = wagi[a] || 0;
-    predicted += (r.w / wSum) * r.p * 50;
+    trainingScore += (r.w / wSum) * r.p * 50;
   }
   const evidence = Object.values(area).reduce((x, r) => x + r.n + r.exN, 0);
-  const score = Math.round(predicted);
+  const score = Math.round(trainingScore);
   const level = evidence < 10
     ? [0, 'Brak danych', 'Nie wiem jeszcze, na jakim jesteś poziomie. Zrób test diagnostyczny albo przejdź kilka części podręcznika z pytaniami.', 'mid']
     : LEVELS.find(([min]) => score >= min);
@@ -121,7 +121,16 @@ export async function diagnose() {
   const unseen = list.filter((x) => x.n === 0).sort((a, b) => b.prio - a.prio);
   const strong = list.filter((x) => x.n >= 2 && x.pct >= 0.85);
   const weakParts = partScores.filter((p) => p.n >= 2 && p.ok / p.n < 0.7).sort((a, b) => a.ok / a.n - b.ok / b.n);
-  return { score, level, area, evidence, weak, unseen, strong, list, weakParts, partScores, exams, title: tp.title };
+  const first = { ok: 0, total: 0, byArea: {} };
+  for (const a of Object.values(st.firstAttempts || {})) {
+    first.total++; if (a.correct) first.ok++;
+    const codes = Array.isArray(a.sylabus) ? a.sylabus : [a.sylabus];
+    for (const ar of new Set(codes.map((c) => C.areaOf(c)).filter((a) => AREAS.includes(a)))) {
+      const r = (first.byArea[ar] ||= { ok: 0, total: 0 });
+      r.total++; if (a.correct) r.ok++;
+    }
+  }
+  return { first, score, level, area, evidence, weak, unseen, strong, list, weakParts, partScores, exams, title: tp.title };
 }
 
 // Pytania do treningu: najsłabsze tematy, najpierw pytania jeszcze niezaliczone; proporcje egzaminu przy diagnozie.
@@ -149,7 +158,7 @@ export async function trainingSet(d, n = 15, { codes = null } = {}) {
   return out.sort(() => Math.random() - 0.5);
 }
 
-// Test diagnostyczny: po jednym pytaniu z możliwie wielu tematów, w proporcjach obszarów egzaminu.
+// Test diagnostyczny: po jednym pytaniu z możliwie wielu tematów, w przykładowych proporcjach SP1.
 export async function diagnosticSet(n = 20) {
   const [questions, syl, wagi] = await Promise.all([C.questions(), C.syllabus(), C.wagi()]);
   const st = store.get();

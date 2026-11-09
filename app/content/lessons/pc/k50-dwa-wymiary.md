@@ -9,7 +9,7 @@ format: krotki
 sylabus: [PC-02-04]
 minuty: 7
 zgadnij: []
-cwiczenia: [q-pck-50-1, q-pck-50-2, q-pck-50-3]
+cwiczenia: [q-pck-50-1, q-pck-50-2, q-pck-50-3, q-warsztat-dwa-wymiary]
 zapas: [q-pck-50-z1]
 wprowadza: [wymiary-oceny]
 wprowadzaListe: [wymiar-procesu, wymiar-zdolnosci]
@@ -36,13 +36,13 @@ Pierwsze pytanie dotyczy samego wyniku. Drugie dotyczy sposobu kierowania pracą
 |---|---|---|
 | Pyta | czy proces robi swoje | jak dobrze nim kierujemy |
 | Wskaźniki | wyniki, praktyki bazowe, produkty pracy – inne dla każdego procesu | typowe praktyki, zasoby i produkty pracy – wspólne dla wszystkich |
-| Służy | poziomowi 1 | poziomom 2–5 |
+| Obejmuje | procesy oraz ich przeznaczenie i rezultaty; dowody dla poziomu 1 | poziomy 0–5; atrybuty PA 1.1–PA 5.2 |
 
 :::zrodlo FW-PL 42 19
 :::
 
 :::wykladowca
-To są [[wymiary-oceny|wymiary oceny]]. [[wymiar-procesu|Wymiar Procesu]], po angielsku process dimension, sprawdza wykonanie konkretnego procesu. [[wymiar-zdolnosci|Wymiar Zdolności]], po angielsku capability dimension, sprawdza atrybuty wyższych poziomów. Jego wskaźniki są takie same dla każdego procesu. Uwaga: PA 1.1 też jest atrybutem, ale dowody dla niego daje Wymiar Procesu.
+To są [[wymiary-oceny|wymiary oceny]]. [[wymiar-procesu|Wymiar Procesu]], po angielsku process dimension, sprawdza wykonanie konkretnego procesu. [[wymiar-zdolnosci|Wymiar Zdolności]], po angielsku capability dimension, obejmuje wszystkie dziewięć atrybutów, od PA 1.1 do PA 5.2. Jego wskaźniki są takie same dla każdego procesu. Uwaga: PA 1.1 też jest atrybutem, ale dowody dla niego daje Wymiar Procesu.
 :::
 
 ---
@@ -103,5 +103,5 @@ Na Ilustracji 19 podręcznik pisze o wskaźnikach wydajności i wskaźnikach pot
 
 :::zapamietaj
 - Wymiar Procesu (*Process dimension*): praktyki bazowe i produkty pracy danego procesu → poziom 1.
-- Wymiar Zdolności (*Capability dimension*): typowe praktyki, wspólne → poziomy 2–5.
+- Wymiar Zdolności (*Capability dimension*): poziomy 0–5 i dziewięć atrybutów; praktyki ogólne wspierają poziomy 2–5.
 :::

@@ -107,12 +107,16 @@ const SECTION_HINTS = ['Gdzie to leży?', 'Odrzuć jedną', 'Pokaż rozwiązany 
  *   hints: { where: html, onSolved: fn|null, hidden: bool } (§11.2 – 3 stopnie podpowiedzi) }
  */
 export function renderQuestion(el, q, opts = {}) {
+  const fresh = store.markQuestionSeen(q.id);
   // Nowe podejście = nowa kolejność odpowiedzi (stała w obrębie podejścia).
   if (opts.shuffle !== false) q = shuffleOptions(q, (store.answer(q.id) || {}).tries || 0);
   const termRef = opts.termRef || null;
   let hinted = false;
+  const onTerm = opts.onTerm;
+  if (onTerm) opts = { ...opts, onTerm: (id) => { hinted = true; onTerm(id); } };
   let conf = null;
   const done = (correct) => {
+    if (!opts.pretest && opts.record !== false) store.recordFirstAttempt(q, correct, fresh, { hinted });
     if (opts.pretest) store.recordPretest(q.id, correct);
     else if (opts.record !== false) store.recordAnswer(q, correct, { terms: termsOfQuestion(q), conf, hinted });
     // §12.3 – pomyłka w pytaniu skrajnym: atom wraca w powtórkach z odsłoniętym szczeblem „skrajny”.
@@ -420,6 +424,7 @@ function bindTerms(el, opts) {
 
 // Pytanie w symulacji egzaminu (bez podpowiedzi). reveal=true pokazuje omówienie wszystkich opcji.
 export function renderExamQuestion(el, q, { selected = null, onPick, reveal = false, backLink = '' } = {}) {
+  store.markQuestionSeen(q.id);
   const good = correctIndex(q);
   el.innerHTML = head(q, null, !reveal) + `
     <ul class="options" role="list" aria-labelledby="stem-${esc(q.id)}">

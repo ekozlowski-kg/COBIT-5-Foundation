@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bazy pytań i materiały · COBIT 5 Foundation</title>
+<link rel="stylesheet" href="podrecznik/podrecznik.css">
+<style>
+main{max-width:920px;margin:auto;padding:32px 20px 64px}h1{font-size:clamp(28px,5vw,42px);line-height:1.15}p{line-height:1.6}.muted{color:var(--muted)}.filters{display:flex;gap:14px;flex-wrap:wrap;margin:24px 0}.filters label{display:flex;flex-direction:column;gap:5px;flex:1;min-width:160px}input,select{font:inherit;padding:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px}article{padding:20px 0;border-top:1px solid var(--line)}h2{font-size:21px;margin:0 0 8px}a{color:inherit;text-underline-offset:3px}a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--ink);outline-offset:3px}.tag{display:inline-block;border:1px solid var(--line);border-radius:5px;padding:3px 7px;margin:0 5px 5px 0;font-size:13px}article p{margin:8px 0}.note{border-left:3px solid var(--ink);padding-left:16px}nav{display:flex;gap:20px;flex-wrap:wrap}
+</style>
+</head>
+<body><main>
+<nav aria-label="Nawigacja"><a href="podrecznik/index.html">← Podręcznik</a><a href="podrecznik/04-warsztat.html">Warsztat od potrzeb do dowodów</a><a href="index.html#/egzamin">Egzamin próbny</a></nav>
+<h1>Bazy pytań i materiały COBIT 5 Foundation</h1>
+<p class="muted">Rozpoznanie z 9 listopada 2026. Arkusze operatorów, publiczne quizy, płatne symulatory, kursy i źródła. Przy każdej pozycji wskazano, co rzeczywiście sprawdzono.</p>
+<p class="note">Zacznij od arkusza operatora uzyskanego przez ATO/APMG, krótkiego quizu Purple Griffon i testu Simplilearn oznaczonego COBIT 5. Oferty płatne oceniono na podstawie opisów, bez zakupu i przeglądu całych banków. Nie sumuj liczby pytań: zestawy i tłumaczenia mogą powielać SP1.</p>
+<p>Przeanalizowano automatyczną transkrypcję filmu ISACA. Pozostałe nagrania i płatne lekcje oceniono na podstawie publicznych programów i opisów. Nie odsłuchano pełnych kursów. Zewnętrzne pytania pozostają u ich wydawców; katalog nie oznacza otwartej licencji ani potwierdzenia wszystkich kluczy.</p>
+<div class="filters">
+<label>Szukaj<input id="query" type="search" placeholder="np. polski, PAM, 50, quiz" autocomplete="off"></label>
+<label>Rodzaj<select id="kind"><option value="">Wszystkie rodzaje</option></select></label>
+<label>Ocena<select id="priority"><option value="">Wszystkie oceny</option></select></label>
+</div>
+<p id="count" role="status" aria-live="polite">Wczytywanie katalogu…</p><section id="results" aria-label="Znalezione materiały"></section>
+<noscript><p>Wyszukiwarka wymaga JavaScript. Pełny opis materiałów jest też w repozytorium: <a href="https://github.com/ekozlowski-kg/COBIT-5-Foundation/blob/main/docs/BAZY-PYTAN-I-MATERIALY.md">katalog źródeł</a>.</p></noscript>
+</main><script type="module" src="js/resources.js"></script></body></html>

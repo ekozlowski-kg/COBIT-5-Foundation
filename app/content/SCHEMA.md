@@ -37,6 +37,11 @@ Wszystkie teksty są po polsku. Termin angielski jest zawsze w osobnym polu `en`
 - `SP1`: Sample Paper 1 PL (ISACA 2016) z uzasadnieniem.
 - `ALTKOM`: Altkom „Różnice tłumaczenia PL v1.1”.
 - `WWW`: źródło internetowe, wtedy jest dodatkowe pole `url`.
+- `PAM`: ISACA, COBIT Process Assessment Model (PAM): Using COBIT 5 (2013).
+- `ENPROC`: ISACA, COBIT 5: Enabling Processes (2012).
+- `ISO-VOC`: ISO/IEC/IEEE 24765:2010, słownik pojęć procesu.
+
+Metadane publikacji i zakres użycia znajdują się w `zrodla.json`.
 
 Pola `strona`, `ilustracja` i `cytat` są opcjonalne. Jeśli jest `cytat`, skrypt weryfikujący szuka go dosłownie na wskazanej stronie.
 
@@ -500,3 +505,11 @@ Nowe pola: `wymowa`, `wymowaAkcent`, `statusTlumaczenia` ∈ `A|B|C|D` (inna war
 Pole frontmatter lekcji: `wprowadzaListe: [id…]`. Zawiera elementy listy (np. 7 faz, poziomy 0–5, 4 wymiary aktywatora), których rodzic jest wprowadzany w tej lekcji (`wprowadza`) i pokazany w stałym układzie listy.
 - Elementy listy liczą się do pojęć wprowadzonych w lekcji: odblokowują ćwiczenia z `terminy` i trafiają do słownika narastającego. **Nie** wchodzą do limitu 4 nowych pojęć.
 - Każdy element ma w lekcji przypis `[[id]]`, zdanie po ludzku i przykład. Wzorzec to slajd „…: każdy element z bliska”, czyli tabela „element (EN, wymowa) – po ludzku – przykład z życia”. `--check` ostrzega, gdy przypisu brak.
+
+### Uzupełnienia źródeł i kontroli pokrycia (2026-11-09)
+
+Odwołanie źródłowe może mieć `sekcja`, gdy wskazujemy rozdział/atrybut zamiast niepotwierdzonej strony. UI i generator wyświetlają ten lokalizator. `PAM`, `ENPROC` i `ISO-VOC` mają opisy w rejestrze źródeł.
+
+`resources/catalog.json` jest katalogiem linków, poza definicjami merytorycznymi `content/`. Zawiera datę, zakres rzeczywistej weryfikacji i deklarowaną liczbę pytań. Nie jest źródłem dla statusu `oficjalne`.
+
+Wygenerowane slajdy treści mają `lekcje`, a quizy `id` i `sylabus`, dzięki czemu macierz pokrycia może wskazać konkretne slajdy. Metadane oznaczają powiązanie, nie recenzję każdego pytania.

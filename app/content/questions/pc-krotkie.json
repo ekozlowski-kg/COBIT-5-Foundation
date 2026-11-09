@@ -1046,7 +1046,7 @@
         {
           "tekst": "Jako dowód, że proces jest mierzony liczbami",
           "poprawna": false,
-          "wyjasnienie": "Pomiar liczbami to poziom 4.",
+          "wyjasnienie": "Sam pomiar liczbami nie dowodzi poziomu 4. Poziom 4 wymaga PA 4.1 i PA 4.2 oraz pełnego osiągnięcia niższych poziomów.",
           "pulapka": "inna-kategoria"
         }
       ]
@@ -2858,11 +2858,15 @@
       "lekcja": "pc-k42-oceny-w-i-p",
       "bloom": "zastosowanie",
       "trudnosc": 2,
-      "tresc": "Rejestr szkód ubezpieczyciela ma wzór, wersje i comiesięczny przegląd. Ostatni przegląd nie wykazał istotnych słabości. Jaka ocena PA 2.2?",
+      "tresc": "Asesor potwierdził w całym zakresie oceny kompletne i systematyczne spełnienie wymagań PA 2.2: wymagania produktów pracy, ich dokumentowania i kontroli, identyfikację oraz przeglądy i dostosowanie. Nie ma istotnych słabości. Jaką ocenę zapisze w skali egzaminu PL?",
       "zrodlo": [
         {
           "doc": "FW-PL",
           "strona": 45
+        },
+        {
+          "doc": "PAM",
+          "sekcja": "4.2, PA 2.2"
         }
       ],
       "status": "oficjalne",
@@ -3581,11 +3585,15 @@
       "lekcja": "pc-k51-referencyjny-model-procesu",
       "bloom": "rozumienie",
       "trudnosc": 2,
-      "tresc": "Bank pisze opis procesu obsługi incydentów do Referencyjnego Modelu Procesu. Którego zdania NIE powinno być w tym opisie?",
+      "tresc": "Bank przygotowuje normatywny opis procesu obsługi incydentów w PRM. Który zapis błędnie uzależnia osiągnięcie przeznaczenia od wyższego poziomu zdolności?",
       "zrodlo": [
         {
           "doc": "FW-PL",
           "strona": 43
+        },
+        {
+          "doc": "ENPROC",
+          "strona": 180
         }
       ],
       "status": "oficjalne",
@@ -3597,9 +3605,9 @@
           "pulapka": "falsz"
         },
         {
-          "tekst": "„Co miesiąc mierz czas obsługi i porównuj z celem”",
+          "tekst": "„Przeznaczenie procesu uznaje się za osiągnięte dopiero przy poziomie zdolności 4”",
           "poprawna": true,
-          "wyjasnienie": "Dobrze. Pomiar to cecha poziomu 4. Opis w PRM zawiera tylko kroki potrzebne do osiągnięcia celu."
+          "wyjasnienie": "PRM nie narzuca atrybutów powyżej poziomu 1 jako warunku osiągnięcia przeznaczenia. Same pomiary lub raporty mogą jednak należeć do praktyk procesu."
         },
         {
           "tekst": "„Klasyfikuj incydenty według wpływu”",
@@ -3608,9 +3616,9 @@
           "pulapka": "falsz"
         },
         {
-          "tekst": "„Zamknij zgłoszenie po usunięciu przyczyny”",
+          "tekst": "„Potwierdź przywrócenie usługi przed zamknięciem incydentu”",
           "poprawna": false,
-          "wyjasnienie": "To krok procesu, więc pasuje do opisu.",
+          "wyjasnienie": "To treść procesu, bez narzucenia poziomu zdolności 4.",
           "pulapka": "falsz"
         }
       ]
@@ -3734,7 +3742,7 @@
         {
           "tekst": "Rezultatami procesu",
           "poprawna": false,
-          "wyjasnienie": "Rezultat to stan, a nie dokument. Raport to wyjście (*output*).",
+          "wyjasnienie": "Tutaj pytanie dotyczy dokumentów używanych jako dowody, czyli produktów pracy. Rezultat opisuje osiągnięcie przeznaczenia; może obejmować także powstanie artefaktu, więc nie odróżniamy tych pojęć samym słowem „dokument”.",
           "pulapka": "inna-kategoria"
         },
         {
@@ -4383,7 +4391,7 @@
         {
           "tekst": "Na ocenie w Wymiarze Zdolności (Capability dimension)",
           "poprawna": false,
-          "wyjasnienie": "Wymiar Zdolności ocenia atrybuty procesu poziomów 2–5 (np. zarządzanie wydajnością), wspólne dla wszystkich procesów, a nie praktyki z modelu referencyjnego.",
+          "wyjasnienie": "Wymiar Zdolności obejmuje poziomy 0–5 i atrybuty PA 1.1–PA 5.2. Dowody specyficzne dla procesu służą ocenie PA 1.1; praktyki ogólne wspierają ocenę poziomów 2–5.",
           "pulapka": "odwrocone"
         },
         {

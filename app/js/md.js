@@ -8,14 +8,14 @@ export const esc = (s) => String(s ?? '')
 export const TERM_RE = /\[\[([a-z0-9][a-z0-9-]*)(?:\|([^\]]+))?\]\]/g;
 
 const DOCS = {
-  'FW-PL': 'COBIT 5 Framework (PL)', SYL: 'Sylabus PeopleCert', SP1: 'Sample Paper 1 (PL)', ALTKOM: 'Altkom: różnice tłumaczenia', WWW: 'Internet',
+  'FW-PL': 'COBIT 5 Framework (PL)', SYL: 'Sylabus PeopleCert', SP1: 'Sample Paper 1 (PL)', ALTKOM: 'Altkom: różnice tłumaczenia', WWW: 'Internet', PAM: 'COBIT 5 PAM', ENPROC: 'COBIT 5: Enabling Processes', 'ISO-VOC': 'ISO/IEC/IEEE 24765:2010',
 };
 // §17.6 – konteksty: życie → biuro → organizacja → PSP → IT/COBIT (firma/admin = organizacja, przejściowo).
 const CTX = { zycie: 'Życie codzienne', biuro: 'Biuro', organizacja: 'Organizacja', firma: 'Organizacja', admin: 'Organizacja', psp: 'PSP (Modrzewiów)', it: 'IT/COBIT' };
 const CTX_ICON = { zycie: '🏠', biuro: '🗂️', organizacja: '🏢', firma: '🏢', admin: '🏢', psp: '🚒', it: '💻' };
 
-export function sourceLabel(doc, strona, ilu) {
-  return [DOCS[doc] || doc, strona && `s. ${strona}`, ilu && `il. ${ilu}`].filter(Boolean).join(', ');
+export function sourceLabel(doc, strona, ilu, sekcja) {
+  return [DOCS[doc] || doc, strona && `s. ${strona}`, ilu && `il. ${ilu}`, sekcja && `sekcja ${sekcja}`].filter(Boolean).join(', ');
 }
 
 // Nazwy haseł dla [[id]] bez etykiety (ustawia content.js po wczytaniu słownika) – nigdy surowe id na ekranie.
@@ -136,7 +136,7 @@ function block(name, args, inner, termRef) {
     }
     case 'zrodlo': {
       const [doc, strona, ilu] = args.split(/\s+/);
-      return `<p class="src">Źródło: ${esc(sourceLabel(doc, strona, ilu))}${body ? ` – ${body.replace(/^<p>|<\/p>$/g, '')}` : ''}</p>`;
+      return `<p class="src">Źródło: ${esc(sourceLabel(doc, strona, ilu, sekcja))}${body ? ` – ${body.replace(/^<p>|<\/p>$/g, '')}` : ''}</p>`;
     }
     case 'mapa':
       // Fragment taksonomii rysuje widok lekcji (potrzebuje mapa-cobit.json).

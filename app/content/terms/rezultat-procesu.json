@@ -22,30 +22,30 @@
   "wymaga": [
     "przeznaczenie-procesu"
   ],
-  "poziom1": "Obserwowalny efekt osiągnięcia przeznaczenia procesu, np. stan rzeczy, zmiana albo spełniony warunek. Proces ma zwykle kilka rezultatów. Ich osiąganie ocenia się na poziomie 1 skalą N/C/W/P.",
+  "poziom1": "Obserwowalny rezultat osiągnięcia przeznaczenia procesu: powstanie artefaktu, istotna zmiana stanu albo spełnienie określonego warunku. Produkty pracy dostarczają dowodów, że rezultat został osiągnięty.",
   "poLudzku": "To, co widać, gdy robota naprawdę spełnia swoje zadanie, np. „każde zgłoszenie dostało odpowiedź”.",
   "wyobrazSobie": "Lista „po czym poznasz, że ciasto się udało”: rośnie, jest rumiane, w środku suche.",
   "poCo": "Żeby przeznaczenie dało się sprawdzić: wiadomo, jakie konkretne efekty mają być widoczne.",
   "jakDziala": "Opis procesu wymienia kilka rezultatów. Asesor sprawdza, czy są osiągane, i ocenia to skalą N/C/W/P. Wynik decyduje o PA 1.1 i o tym, czy proces ma poziom 1.",
   "dlaczegoWazne": "Rezultat łatwo pomylić z dokumentem wyjściowym, bo podręcznik oba nazywa „wynikami”. Bez rezultatów nie ma poziomu 1.",
-  "poziom2": "| Pojęcie | EN | Przykład (powiadamianie klientów) |\n|---|---|---|\n| [[przeznaczenie-procesu|przeznaczenie]] | purpose | klienci powiadomieni bez zwłoki |\n| **rezultat procesu** | **outcome** | każdy powiadamiany klient potwierdza odbiór |\n| [[produkt-pracy|produkt pracy]] (wyjście) | work product (output) | log wysyłki, raport |\n\nRezultat to **stan** („klienci wiedzą”), a nie **dokument** („log”). W *Procesach umożliwiających* rezultatom odpowiadają cele procesu (uproszczenie, spoza korpusu).",
+  "poziom2": "| Pojęcie | EN | Przykład (powiadamianie klientów) |\n|---|---|---|\n| [[przeznaczenie-procesu|przeznaczenie]] | purpose | klienci powiadomieni bez zwłoki |\n| **rezultat procesu** | **outcome** | każdy powiadamiany klient potwierdza odbiór |\n| [[produkt-pracy|produkt pracy]] (wyjście) | work product (output) | log wysyłki, raport |\n\nW tym przykładzie rezultatem jest potwierdzony odbiór, a log jest produktem pracy. W innym procesie rezultatem może być także powstanie określonego artefaktu. Rozróżniamy znaczenie, nie papierową lub elektroniczną formę. W *Procesach umożliwiających* rezultatom odpowiadają cele procesu (uproszczenie, spoza korpusu).",
   "poziom3": "(s. 45): ocenę poziomu 1 zaczyna *„Weryfikacja wyników procesu na podstawie ich charakterystyki zawartej w szczegółowych opisach procesów”*. (s. 45): *„Jeśli wymagany wynik procesu nie jest konsekwentnie uzyskiwany, proces nie osiąga swojego celu”*. Il. 19: „Wyniki procesu” jako pierwszy wskaźnik wydajności.",
   "przyklady": {
     "zycie": "Przeznaczenie odkurzania: czysty dom. Rezultaty: na podłodze nie ma okruchów, a pod łóżkiem kurzu. Odkurzacz, który hałasuje godzinę, to czynność, a nie rezultat.",
     "biuro": "Rezultaty obiegu dokumentów: każde pismo jest zarejestrowane i dociera do adresata w dniu wpływu. Dziennik korespondencji to tylko dowód.",
-    "organizacja": "Rezultaty procesu reklamacji: każda reklamacja ma decyzję w 14 dni, a klient wie, co dalej. Formularz i e-mail to produkty pracy, a nie rezultaty.",
+    "organizacja": "Rezultaty procesu reklamacji: każda reklamacja ma decyzję w uzgodnionym czasie, a klient zna dalsze kroki. Formularz i e-mail służą jako produkty pracy potwierdzające te rezultaty.",
     "admin": "Rezultat procesu wydawania dowodów osobistych w urzędzie gminy: mieszkaniec w ustawowym terminie dostaje ważny dowód z poprawnymi danymi. Wniosek w systemie i potwierdzenie odbioru to produkty pracy, które ten rezultat potwierdzają. Gdy co dziesiąty dowód trzeba wymieniać przez literówkę, rezultat nie jest uzyskiwany konsekwentnie.",
     "it": "Dla DSS02 rezultatami są m.in. przywrócone usługi i rozwiązane incydenty, a w *Procesach umożliwiających* odpowiadają im cele procesu. Rejestr incydentów to produkt pracy, który te rezultaty potwierdza."
   },
   "glebokosc": {
     "prosty": "Podlewasz kwiaty. Czynność to lanie wody. Rezultat to zielone liście i wilgotna ziemia. Oceniasz rezultat, a nie to, ile razy chwyciłeś konewkę.",
-    "zaawansowany": "Audytorka wewnętrzna banku bierze z opisu procesu wysyłki powiadomień do klientów jego rezultaty i sprawdza, czy są osiągane. Dowodem są [[produkt-pracy|produkty pracy]], np. logi potwierdzeń doręczenia w systemie powiadomień. Rezultaty osiągane w 82% przypadków dają W na [[pa-1-1|PA 1.1]]. Przy 40% proces miałby [[poziom-0|poziom 0]].",
-    "skrajny": "Kierownik działu IT pokazuje audytorce log systemu powiadomień: „Wiadomość wysłana do wszystkich, więc rezultat osiągnięty”. Audytorka odpowiada, że log to produkt pracy, czyli dowód wysyłki. Rezultat to stan: klient naprawdę wie o blokadzie karty i potwierdza odbiór. W dniu awarii bramki SMS log był, a rezultatu nie było. Druga pułapka: podręcznik pisze „wyniki procesu” o *outcomes*, ale „wyniki” także o wyjściach (*outputs*). Hasło „Rezultat” w kursie to też *output*. **Rozstrzygnięcie:** rezultat procesu to obserwowalny stan albo efekt, a nie dokument. Dokument może być tylko dowodem rezultatu."
+    "zaawansowany": "Audytorka bierze z opisu procesu jego rezultaty i sprawdza ich osiągnięcie w uzgodnionym zakresie. Dowodami mogą być logi potwierdzeń doręczenia. Odsetek doręczeń jest jedną z miar, lecz nie jest automatycznie procentową oceną całego PA 1.1. Ocenę nadaje się względem kryteriów atrybutu i całości odpowiednich dowodów.",
+    "skrajny": "Kierownik działu IT pokazuje audytorce log systemu powiadomień: „Wiadomość wysłana do wszystkich, więc rezultat osiągnięty”. Audytorka odpowiada, że log to produkt pracy, czyli dowód wysyłki. W tym procesie rezultatem jest stan: klient naprawdę wie o blokadzie karty i potwierdza odbiór. W dniu awarii bramki SMS log był, a rezultatu nie było. Druga pułapka: podręcznik pisze „wyniki procesu” o *outcomes*, ale „wyniki” także o wyjściach (*outputs*). Hasło „Rezultat” w kursie to też *output*. **Rozstrzygnięcie:** rezultat to obserwowalny efekt, w tym także powstanie wymaganego artefaktu. Dokument może być produktem pracy i dowodem osiągnięcia rezultatu; jego samo istnienie nie rozstrzyga oceny."
   },
   "zagmatwania": [
     {
-      "mit": "Rezultat procesu to dokument wychodzący z procesu.",
-      "prawda": "Dokument to produkt pracy (wyjście). Rezultat to obserwowalny stan, np. „jednostka potwierdziła odbiór”."
+      "mit": "Każdy dokument wychodzący z procesu automatycznie dowodzi osiągnięcia jego przeznaczenia.",
+      "prawda": "Dokument jest produktem pracy. Rezultat może obejmować powstanie artefaktu, lecz trzeba sprawdzić wymagania, np. kompletność, zatwierdzenie i przydatność."
     },
     {
       "mit": "„Wyniki” w podręczniku zawsze znaczą wyjścia.",
@@ -57,8 +57,8 @@
     }
   ],
   "mentor": {
-    "czestyBlad": "Uczeń bierze dokument (log, raport) za rezultat.",
-    "jakTlumaczyc": "Zapytaj: „Czy to da się położyć na biurku?”. Jeśli tak, to raczej produkt pracy. Rezultat to stan świata, który ten papier potwierdza.",
+    "czestyBlad": "Uczeń uznaje samo istnienie dokumentu za dowód osiągnięcia całego rezultatu.",
+    "jakTlumaczyc": "Porównaj wymagany efekt z dowodem. Log wysłania nie dowodzi odbioru. Zatwierdzony plan może natomiast być wymaganym rezultatem procesu planowania.",
     "pytanieKontrolne": "Log systemu powiadomień pokazuje wysłanie SMS-a do klienta. Czy to dowodzi osiągnięcia rezultatu „klient potwierdza odbiór”?",
     "odpowiedzKontrolna": "Nie. Log to produkt pracy, dowód wysyłki. Rezultat to potwierdzony odbiór przez jednostkę, a log wysyłki tego nie pokazuje."
   },
@@ -69,7 +69,7 @@
     },
     {
       "termin": "produkt-pracy",
-      "roznica": "Produkt pracy to artefakt (dokument, log). Rezultat to stan, który ten artefakt może potwierdzać."
+      "roznica": "Produkt pracy to artefakt związany z wykonaniem procesu. Rezultat opisuje oczekiwany efekt, który może obejmować również powstanie artefaktu o wymaganych cechach."
     },
     {
       "termin": "przeznaczenie-procesu",
@@ -103,6 +103,14 @@
       "strona": 42,
       "ilustracja": "19",
       "cytat": "Wyniki procesu"
+    },
+    {
+      "doc": "ISO-VOC",
+      "strona": 271
+    },
+    {
+      "doc": "PAM",
+      "strona": 9
     }
   ],
   "mapa": "rezultat-procesu"

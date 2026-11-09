@@ -1,4 +1,4 @@
-// „Mój poziom”: prognoza wyniku egzaminu, słabe tematy z powrotem do działu podręcznika, trening adaptacyjny i pomoc AI.
+// „Mój poziom”: wskaźnik treningowy, słabe tematy z powrotem do działu podręcznika, trening adaptacyjny i pomoc AI.
 import * as C from '../content.js';
 import { esc } from '../md.js';
 import { renderQuestion } from '../quiz.js';
@@ -36,13 +36,13 @@ export async function renderLevel(main, sub = '') {
   main.innerHTML = `
     <div class="page">
       <h1>Mój poziom</h1>
-      <p class="page-lead">Aplikacja szacuje Twój wynik na egzaminie na podstawie pytań w podręczniku, ćwiczeń i egzaminów próbnych. Wskazuje też, do których działów wrócić. Cel to 40/50 (80%) albo więcej.</p>
+      <p class="page-lead">Wskaźnik podsumowuje trening w podręczniku, ćwiczeniach i egzaminach próbnych. Nie jest prognozą wyniku oficjalnego egzaminu. Wskazuje też, do których działów wrócić. Cel to 40/50 (80%) albo więcej.</p>
       <div class="card lv-hero">
-        <div><div class="muted small">Szacowany wynik na egzaminie</div>
+        <div><div class="muted small">Wskaźnik treningowy</div>
           <div class="score" style="color:${color}">${d.evidence < 10 ? '?' : d.score}/50</div>
           <div style="font-weight:700;color:${color}">${esc(label)}</div></div>
         <div class="lv-adv"><p style="margin:0 0 8px">${esc(advice)}</p>
-          <p class="small muted" style="margin:0">${few ? `Na razie mało danych (${Math.round(d.evidence)} odpowiedzi), więc to tylko wstępny szacunek. Zrób test diagnostyczny: 20 pytań, około 15 minut.` : `Na podstawie ${Math.round(d.evidence)} odpowiedzi${d.exams.length ? ` i ${d.exams.length} egzaminów próbnych` : ''}. Próg zaliczenia to 25/50.`}</p></div>
+          <p class="small muted" style="margin:0">${few ? `Na razie mało danych (${Math.round(d.evidence)} obserwacji treningowych), więc to wstępne podsumowanie treningu. Zrób test diagnostyczny: 20 pytań, około 15 minut.` : `Na podstawie ${Math.round(d.evidence)} obserwacji treningowych${d.exams.length ? ` i ${d.exams.length} egzaminów próbnych` : ''}. Próg zaliczenia to 25/50.`}</p></div>
       </div>
       <div class="btn-row" style="margin:16px 0 8px">
         <button class="btn ${few ? 'btn-primary' : ''} btn-lg" id="diag">Test diagnostyczny (20 pytań)</button>
@@ -51,15 +51,20 @@ export async function renderLevel(main, sub = '') {
       </div>
       <div id="run"></div>
 
-      <h2 class="section-title">Wynik w obszarach egzaminu</h2>
+      <h2 class="section-title">Trening w obszarach sylabusa</h2>
       <div class="area-bars card">${['PR', 'EN', 'IM', 'PC'].map((a) => { const r = d.area[a]; return `<div class="area-bar">
         <strong title="${esc(C.AREAS[a] || '')}">${a}</strong>
         <div class="progress"><span style="width:${pct(r.p)}%;background:${r.p >= 0.8 ? 'var(--ok)' : r.p >= 0.5 ? 'var(--trap, #b7791f)' : 'var(--bad)'}"></span></div>
         <span class="small">${pct(r.p)}% · ${r.w} pyt.</span></div>`; }).join('')}
-        <p class="small muted" style="margin:8px 0 0">${['PR', 'EN', 'IM', 'PC'].map((a) => `${a} = ${AREA_NAME[a]}`).join(' · ')}. Liczba po prawej to liczba pytań z tego obszaru na egzaminie (z 50). Obszar poniżej 50% bez danych oznacza, że nie było jeszcze odpowiedzi.</p></div>
+        <p class="small muted" style="margin:8px 0 0">${['PR', 'EN', 'IM', 'PC'].map((a) => `${a} = ${AREA_NAME[a]}`).join(' · ')}. Liczba po prawej to waga treningowa z pojedynczego arkusza SP1 (z 50), a nie gwarantowany rozkład każdego egzaminu. Bez danych wskaźnik wynosi 50% wskutek wygładzenia.</p></div>
+
+      <h2 class="section-title">Pierwsze zarejestrowane odpowiedzi bez pomocy</h2>
+      <div class="card"><p>${d.first.total ? `${d.first.ok}/${d.first.total} (${pct(d.first.ok / d.first.total)}%)` : 'Brak pierwszych odpowiedzi od czasu dodania tej funkcji.'}</p>
+        <p class="small muted">${Object.entries(d.first.byArea).map(([a, r]) => `${a}: ${r.ok}/${r.total}`).join(' · ')}</p>
+        <p class="small muted">Osobny wynik dla pytań z 4 opcjami, zarejestrowanych po raz pierwszy w ćwiczeniach, podręczniku lub egzaminie. Powtórki, testy wstępne i odpowiedzi po pomocy nie wchodzą do tego wyniku. Historia starych slajdów bez identyfikatorów oraz nauka poza aplikacją mogą być nieznane. To opis próby, bez przeliczania na wynik egzaminu.</p></div>
 
       <h2 class="section-title">Wróć do tych tematów${d.weak.length ? ` (${d.weak.length})` : ''}</h2>
-      ${d.weak.length ? `<p class="small muted">Od najważniejszych: najwyżej są tematy z dużą liczbą pytań na egzaminie i największą luką.</p><div class="grid grid-2">${d.weak.slice(0, 10).map(topicRow).join('')}</div>`
+      ${d.weak.length ? `<p class="small muted">Od najważniejszych: najwyżej są tematy z wyższą wagą treningową i największą luką.</p><div class="grid grid-2">${d.weak.slice(0, 10).map(topicRow).join('')}</div>`
         : '<p class="muted">Brak tematów poniżej 70%. Tematy pojawią się tu po błędnych odpowiedziach w podręczniku, ćwiczeniach lub egzaminie.</p>'}
 
       ${d.weakParts.length ? `<h2 class="section-title">Części podręcznika do powtórki</h2>
@@ -82,7 +87,7 @@ export async function renderLevel(main, sub = '') {
       </div>
 
       <details class="card" style="margin-top:24px"><summary>Jak liczony jest poziom</summary>
-        <p class="small">Dla każdego z ${d.list.length} tematów sylabusa liczę trafność z pytań w podręczniku i w ćwiczeniach. Pierwsza odpowiedź na pytanie liczy się najbardziej, a poprawiona za drugim razem pokazuje postęp. W każdym obszarze łączę ten wynik z 3 ostatnimi egzaminami próbnymi, które ważą 60%, bo to pytania nowe i rozwiązywane na czas. Potem przeliczam wynik na 50 pytań w proporcjach egzaminu: PR 15, EN 21, IM 7, PC 7. Przy małej liczbie odpowiedzi wynik jest ciągnięty w stronę 50%. Temat uznaję za słaby poniżej 70%.</p></details>
+        <p class="small">Wynik opisuje ćwiczenia i powtórki. Przy powtórce średnia pierwszej i ostatniej odpowiedzi ma równe wagi. Odpowiedzi z podręcznika są rozdzielane między tematy części, więc jedna odpowiedź może zasilać kilka tematów. W obszarze wynik ćwiczeń łączę z 3 ostatnimi egzaminami: przy co najmniej 5 obserwacjach ćwiczeń egzaminom nadaję umowną wagę 60%; przy mniejszej liczbie używam samego wyniku egzaminów. To założenie aplikacji, bez walidacji prognostycznej; arkusze mogą zawierać znane pytania. Skala /50 i wagi PR 15, EN 21, IM 7, PC 7 pochodzą z jednego SP1. Przy małej liczbie odpowiedzi wskaźnik jest ciągnięty w stronę 50%. Temat uznaję za słaby poniżej 70%.</p></details>
     </div>`;
 
   main.querySelectorAll('[data-ai-topic]').forEach((el) => bindAI(el, () => promptForTopic(topicByCode[el.dataset.aiTopic])));

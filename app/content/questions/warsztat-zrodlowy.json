@@ -1,0 +1,330 @@
+{
+  "_opis": "Autorskie scenariusze po przeglądzie merytorycznym 2026-11-09; nie są pytaniami z egzaminu ani kopiami baz zewnętrznych.",
+  "pytania": [
+    {
+      "id": "q-warsztat-prm-pomiar",
+      "typ": "studium",
+      "status": "uproszczenie",
+      "sylabus": [
+        "PC-02-03"
+      ],
+      "lekcja": "pc-k51-referencyjny-model-procesu",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który wniosek o PRM i zdolności procesu jest uzasadniony?",
+      "zrodlo": [
+        {
+          "doc": "ENPROC",
+          "strona": 180
+        },
+        {
+          "doc": "PAM",
+          "sekcja": "2.4"
+        }
+      ],
+      "opcje": [
+        {
+          "tekst": "Raportowanie w procesie nie przyznaje mu automatycznie poziomu 4.",
+          "poprawna": true,
+          "wyjasnienie": "DSS02.07 obejmuje monitorowanie i raportowanie. PA 4.1 dotyczy ilościowego zarządzania przewidywalnością, a sam raport nie dowodzi spełnienia atrybutów."
+        },
+        {
+          "tekst": "DSS02 należy usunąć z PRM, bo opis procesu nie może dotyczyć pomiaru.",
+          "poprawna": false,
+          "wyjasnienie": "PRM nie powinien narzucać wymaganego poziomu zdolności powyżej 1 w przeznaczeniu i rezultatach. Nie jest to zakaz pomiarów w treści procesów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Każdy raport liczbowy oznacza pełne osiągnięcie PA 4.1.",
+          "poprawna": false,
+          "wyjasnienie": "Do oceny atrybutu potrzebny jest zestaw dowodów względem jego kryteriów; jedna miara nie wystarcza.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Raportowanie sprawia, że DSS02 staje się procesem Ładu EDM.",
+          "poprawna": false,
+          "wyjasnienie": "DSS02 jest procesem Zarządzania. Samo monitorowanie nie przenosi procesu do EDM.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "scenariusz": "Opis DSS02 przewiduje raportowanie trendów obsługi zgłoszeń."
+    },
+    {
+      "id": "q-warsztat-outcome-artefakt",
+      "typ": "studium",
+      "status": "uproszczenie",
+      "sylabus": [
+        "PC-01-04"
+      ],
+      "lekcja": "pc-k52-cztery-pojecia-iso",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Jak interpretować te dowody?",
+      "zrodlo": [
+        {
+          "doc": "ISO-VOC",
+          "strona": 271
+        },
+        {
+          "doc": "PAM",
+          "sekcja": "1.7"
+        }
+      ],
+      "opcje": [
+        {
+          "tekst": "Dokument nigdy nie może świadczyć o rezultacie procesu.",
+          "poprawna": false,
+          "wyjasnienie": "To zbyt wąskie rozumienie outcome. Rezultat może obejmować artefakt lub zmianę stanu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Specyfikacja może być produktem pracy i dowodem rezultatu.",
+          "poprawna": true,
+          "wyjasnienie": "Rezultat procesu może obejmować powstanie artefaktu. Produkt pracy wspiera ocenę rezultatu, jeżeli spełnia wymagania; nazwy nie wykluczają się."
+        },
+        {
+          "tekst": "Każda specyfikacja wystarcza, nawet nieaktualna i bez zatwierdzenia.",
+          "poprawna": false,
+          "wyjasnienie": "Dowód musi odpowiadać oczekiwanemu rezultatowi. Tu wymagane są zatwierdzenie i dostępność aktualnej wersji.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Sam dokument dowodzi poziomu 3 dla całego procesu.",
+          "poprawna": false,
+          "wyjasnienie": "Dokument nie dowodzi osiągnięcia wszystkich atrybutów potrzebnych do poziomu 3.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "scenariusz": "Oczekiwany rezultat procesu brzmi: zatwierdzona specyfikacja jest dostępna dla zespołu. Zespół pokazuje aktualną specyfikację i zapis zatwierdzenia."
+    },
+    {
+      "id": "q-warsztat-dwa-wymiary",
+      "typ": "studium",
+      "status": "uproszczenie",
+      "sylabus": [
+        "PC-02-04"
+      ],
+      "lekcja": "pc-k50-dwa-wymiary",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które przyporządkowanie do wymiarów modelu jest poprawne?",
+      "zrodlo": [
+        {
+          "doc": "PAM",
+          "sekcja": "2.4"
+        },
+        {
+          "doc": "SYL"
+        }
+      ],
+      "opcje": [
+        {
+          "tekst": "PA 1.1 jest poza wymiarem zdolności, bo ten zaczyna się od poziomu 2.",
+          "poprawna": false,
+          "wyjasnienie": "Wymiar zdolności obejmuje także poziom 1 i PA 1.1.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "PA 2.1 jest specyficzne tylko dla DSS02.",
+          "poprawna": false,
+          "wyjasnienie": "PA 2.1 opisuje ogólne zarządzanie wykonywaniem procesu, niezależnie od jego nazwy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Oba PA należą do wymiaru zdolności.",
+          "poprawna": true,
+          "wyjasnienie": "Wymiar zdolności obejmuje poziomy 0–5 i PA 1.1–5.2. Wskaźniki wymiaru procesu (praktyki bazowe i produkty pracy) wspierają ocenę wykonania na poziomie 1."
+        },
+        {
+          "tekst": "Dla poziomu 0 trzeba dodatkowo ocenić PA 0.1.",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 0 nie ma odrębnego atrybutu PA 0.1.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "scenariusz": "Oceniający bada PA 1.1 i następnie PA 2.1."
+    },
+    {
+      "id": "q-warsztat-dowody-pa22",
+      "typ": "studium",
+      "status": "uproszczenie",
+      "sylabus": [
+        "PC-02-06"
+      ],
+      "lekcja": "pc-k42-oceny-w-i-p",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Czy ten fakt wystarcza do nadania PA 2.2 oceny F (Fully achieved)?",
+      "zrodlo": [
+        {
+          "doc": "PAM",
+          "sekcja": "2.5; 4.2"
+        }
+      ],
+      "opcje": [
+        {
+          "tekst": "Tak, numer wersji zawsze oznacza ponad 85% osiągnięcia PA 2.2.",
+          "poprawna": false,
+          "wyjasnienie": "Oceny nie wylicza się z obecności jednego pola metadanych.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nie, ponieważ PA 2.2 wolno oceniać dopiero przy poziomie 4.",
+          "poprawna": false,
+          "wyjasnienie": "PA 2.2 należy do poziomu 2 i dotyczy zarządzania produktami pracy.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Tak, jeśli tytuł rejestru zawiera nazwę COBIT.",
+          "poprawna": false,
+          "wyjasnienie": "Nazwa dokumentu nie jest kryterium osiągnięcia atrybutu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nie; trzeba ocenić spełnienie kryteriów atrybutu w całym uzgodnionym zakresie i zebrać odpowiednie dowody.",
+          "poprawna": true,
+          "wyjasnienie": "Pojedynczy rejestr nie pokazuje stopnia osiągnięcia wszystkich rezultatów atrybutu. F oznacza ponad 85% do 100% osiągnięcia i brak istotnych słabości."
+        }
+      ],
+      "scenariusz": "Audytor zobaczył jeden rejestr z numerem wersji i datą przeglądu."
+    },
+    {
+      "id": "q-warsztat-interesariusze",
+      "typ": "studium",
+      "status": "uproszczenie",
+      "sylabus": [
+        "PR-02-09"
+      ],
+      "lekcja": "pr-k29-role-ladu",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które stwierdzenie najlepiej opisuje ich relację do Ładu w COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 24,
+          "ilustracja": "9"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "opcje": [
+        {
+          "tekst": "Wszyscy mogą być interesariuszami; nie wszyscy są właścicielami.",
+          "poprawna": true,
+          "wyjasnienie": "Krąg interesariuszy jest szerszy niż właścicieli. Uproszczony schemat delegowania na ilustracji 9 nie opisuje wszystkich form udziału każdego interesariusza."
+        },
+        {
+          "tekst": "Tylko właściciele mogą być interesariuszami.",
+          "poprawna": false,
+          "wyjasnienie": "Interesariusze mogą być wewnętrzni lub zewnętrzni i nie muszą mieć udziałów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Każdy klient sam nadaje uprawnienia organowi nadzorczemu.",
+          "poprawna": false,
+          "wyjasnienie": "Schemat delegowania nie oznacza, że każdy zewnętrzny interesariusz formalnie powołuje organ Ładu.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Potrzeby pracowników uwzględnia się dopiero po wybraniu narzędzia IT.",
+          "poprawna": false,
+          "wyjasnienie": "Potrzeby interesariuszy stanowią punkt wyjścia kaskady celów, a nie dopisek do gotowej technologii.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "scenariusz": "Klienci, pracownicy i właściciele mają różne oczekiwania wobec e-usługi."
+    },
+    {
+      "id": "q-warsztat-integracja",
+      "typ": "studium",
+      "status": "uproszczenie",
+      "sylabus": [
+        "PR-02-11"
+      ],
+      "lekcja": "pr-k30-zasada-3",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co najlepiej odpowiada zasadzie jednej zintegrowanej metodyki COBIT 5?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        }
+      ],
+      "opcje": [
+        {
+          "tekst": "Zastąpić wszystkie szczegółowe praktyki jedną listą nazw procesów COBIT.",
+          "poprawna": false,
+          "wyjasnienie": "Integracja nie polega na usunięciu potrzebnych szczegółowych praktyk z innych źródeł.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Powiązać praktyki wspólnym podejściem i celami.",
+          "poprawna": true,
+          "wyjasnienie": "COBIT 5 pełni rolę nadrzędnego podejścia integrującego inne standardy i dobre praktyki; konkretne sposoby wdrożenia dobiera się do organizacji."
+        },
+        {
+          "tekst": "Utrzymać całkowicie odrębne cele i odpowiedzialności dla każdej metodyki.",
+          "poprawna": false,
+          "wyjasnienie": "Rozdzielone cele i brak powiązań utrudniają zintegrowane podejście.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Uznać każdy dokument ISO za proces EDM.",
+          "poprawna": false,
+          "wyjasnienie": "Dokument lub standard nie jest automatycznie procesem Ładu.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "scenariusz": "Organizacja ma praktyki ITIL i polityki oparte na ISO/IEC 27001. Chce objąć je wspólnym nadzorem."
+    },
+    {
+      "id": "q-warsztat-kaskada-scenariusz",
+      "typ": "studium",
+      "status": "uproszczenie",
+      "sylabus": [
+        "PR-02-03"
+      ],
+      "lekcja": "pr-k20-kaskada-przyklad",
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Jaki powinien być punkt wyjścia do użycia kaskady celów?",
+      "zrodlo": [
+        {
+          "doc": "FW-PL",
+          "strona": 17,
+          "ilustracja": "4"
+        }
+      ],
+      "opcje": [
+        {
+          "tekst": "Zakup platformy, a następnie dopisanie uzasadnienia do wybranego produktu.",
+          "poprawna": false,
+          "wyjasnienie": "To odwraca punkt wyjścia kaskady: technologia powinna wspierać potrzeby i cele.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Nadanie wszystkim 37 procesom jednakowego priorytetu.",
+          "poprawna": false,
+          "wyjasnienie": "Kaskada wspiera dopasowanie i priorytetyzację, nie jednakowy priorytet wszystkich procesów.",
+          "pulapka": "inna-kategoria"
+        },
+        {
+          "tekst": "Uzgodnienie potrzeb interesariuszy oraz oczekiwanej równowagi korzyści, ryzyka i zasobów.",
+          "poprawna": true,
+          "wyjasnienie": "Kaskada przekłada potrzeby interesariuszy na cele przedsiębiorstwa, cele IT i cele aktywatorów. Dopasowania należy dobrać do sytuacji i sprawdzić w tabelach frameworka."
+        },
+        {
+          "tekst": "Zastąpienie potrzeb interesariuszy samą liczbą serwerów.",
+          "poprawna": false,
+          "wyjasnienie": "Liczba zasobów nie zastępuje oczekiwanych korzyści i akceptowalnego ryzyka.",
+          "pulapka": "inna-kategoria"
+        }
+      ],
+      "scenariusz": "Firma chce przyspieszyć obsługę klientów, ale nie zaakceptuje większego ryzyka ujawnienia danych."
+    }
+  ]
+}

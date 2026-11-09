@@ -632,7 +632,7 @@
       ],
       "bloom": "rozumienie",
       "trudnosc": 3,
-      "tresc": "Dyrektor IT dopisuje do opisu procesu „Obsługa zgłoszeń” w modelu referencyjnym zdanie: „Proces jest co miesiąc mierzony wskaźnikami i formalnie udokumentowany”. Co mówi o takim zapisie podręcznik (s. 43)?",
+      "tresc": "Dyrektor IT dopisuje do normatywnego opisu procesu w PRM: „Osiągnięcie przeznaczenia wymaga pełnego spełnienia PA 3.1 i PA 3.2”. Jak ocenić ten zapis?",
       "zrodlo": [
         {
           "doc": "FW-PL",
@@ -647,27 +647,27 @@
       "status": "oficjalne",
       "opcje": [
         {
-          "tekst": "Narusza wymóg: opis procesu nie może zawierać cech atrybutów powyżej poziomu 1.",
+          "tekst": "Jest błędny: narzuca atrybuty zdolności powyżej poziomu 1 jako warunek osiągnięcia przeznaczenia.",
           "poprawna": true,
-          "wyjasnienie": "Wymóg ISO/IEC 15504 (s. 43): opis procesu zawiera tylko cel, wyniki i kroki potrzebne do osiągnięcia celu. Pomiar ocenia się atrybutem PA 4.1 Miara procesu, a formalną definicję – PA 3.1, czyli na poziomach 2–5."
+          "wyjasnienie": "Treść procesu i jego zdolność ocenia się oddzielnie. Opis nie może wymagać poziomu 3 dla podstawowego osiągnięcia przeznaczenia."
         },
         {
-          "tekst": "Jest poprawny, bo opis procesu ma zawierać cel, wyniki i sposób pomiaru procesu.",
+          "tekst": "Jest poprawny, ponieważ każdy proces musi od razu mieć poziom 3.",
           "poprawna": false,
-          "wyjasnienie": "Cel i wyniki – tak. Sposób pomiaru – nie, bo to cecha atrybutu z poziomu 4.",
+          "wyjasnienie": "Poziom docelowy zależy od potrzeb organizacji; poziom 1 ma własne znaczenie.",
           "pulapka": "falsz"
         },
         {
-          "tekst": "Jest poprawny, bo w COBIT 5 każdy proces ma własny model dojrzałości ze szczegółami pomiaru.",
+          "tekst": "Jest błędny, ponieważ opis procesu nigdy nie może wspominać pomiarów ani planów.",
           "poprawna": false,
-          "wyjasnienie": "Odwrócenie COBIT 4.1 i COBIT 5. Osobny model dojrzałości dla każdego procesu miał COBIT 4.1. COBIT 5 z niego zrezygnował (s. 43).",
-          "pulapka": "odwrocone"
+          "wyjasnienie": "Planowanie i pomiary mogą być treścią procesu. Błąd dotyczy narzucenia atrybutów zdolności wyższego poziomu.",
+          "pulapka": "zbyt-waskie"
         },
         {
-          "tekst": "Narusza wymóg, bo pomiar procesu należy do aktywatora Informacja, a nie do opisu procesu.",
+          "tekst": "Jest poprawny, ponieważ COBIT 5 stosuje osobny model dojrzałości do każdego procesu.",
           "poprawna": false,
-          "wyjasnienie": "Wniosek „narusza” jest trafny, ale powód nie. Pomiar procesu to atrybut zdolności (PA 4.1), a nie aktywator Informacja.",
-          "pulapka": "inna-kategoria"
+          "wyjasnienie": "COBIT 5 stosuje wspólny model zdolności oparty na ISO/IEC 15504.",
+          "pulapka": "falsz"
         }
       ]
     },

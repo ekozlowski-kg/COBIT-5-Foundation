@@ -23,7 +23,7 @@ function drawAuthored(poolAll, n) {
   const extreme = shuffle(poolAll.filter((q) => q.skrajnosc)).slice(0, maxExtreme);
   const pool = [...poolAll.filter((q) => !q.skrajnosc), ...extreme];
   // Druga symulacja w miarę możliwości bez pytań z poprzednich (pula wystarcza na 2 rozłączne arkusze).
-  const used = new Set(store.get().examUsed || []);
+  const used = new Set(pool.filter((q) => store.questionSeen(q.id)).map((q) => q.id));
   const byArea = {};
   const ordered = [...shuffle(pool.filter((q) => !used.has(q.id))), ...shuffle(pool.filter((q) => used.has(q.id)))];
   // Jak w Sample Paper 1: zwykle jedno pytanie na temat sylabusa. Limit na temat, żeby np. nazwy procesów
@@ -68,7 +68,7 @@ export async function renderExam(main) {
       <div class="page">
         <h1>Centrum egzaminacyjne</h1>
         <p class="page-lead">Jak egzamin komputerowy PeopleCert po polsku: 50 pytań, 4 odpowiedzi, jedna poprawna, jedno pytanie na ekranie, możliwość oznaczenia pytania do powrotu, 40 minut. Próg zaliczenia: 25/50; cel w próbnych egzaminach: co najmniej 35/50. Omówienie dopiero po zakończeniu.</p>
-        <p class="small muted" style="margin:-16px 0 24px">Dodatkowe 10 minut przysługuje przy egzaminie w języku innym niż ojczysty albo osobom z niepełnosprawnością, więc tu ich nie ma (sylabus PeopleCert v01.2, pkt 3.3). Sylabus podaje próg „50% (20 or more marks)” – bezpieczniej celować w co najmniej 25 z 50.</p>
+        <p class="small muted" style="margin:-16px 0 24px">Historyczny sylabus przewiduje dodatkowy czas w określonych przypadkach; warunki i udogodnienia należy potwierdzić u operatora swojego egzaminu. Ta próba używa podstawowych 40 minut (sylabus PeopleCert v01.2, pkt 3.3). Sylabus v01.2 zawiera niespójny nawias „20 or more marks”; 50% z 50 to 25 punktów, zgodnie z instrukcją APMG do arkusza Foundation.</p>
         <label class="card" style="display:flex;gap:12px;align-items:flex-start;margin-bottom:16px;cursor:pointer">
           <input type="checkbox" id="fullFlow" checked style="margin-top:4px">
           <span><strong>Pełna procedura krok po kroku</strong><br><span class="small muted">Test systemu, logowanie, NDA, instrukcja, samouczek, zasady, dokument tożsamości, kontrola z proktorem, egzamin, ankieta i raport – w kolejności jak w dniu egzaminu online. Odznacz, żeby od razu przejść do pytań.</span></span>
@@ -85,7 +85,7 @@ export async function renderExam(main) {
           </div>`}
           <div class="card">
             <h3 style="margin-top:0">Próbny egzamin z pytań kursu</h3>
-            <p class="muted small">${authored.length} pytań w puli. Losowanie w proporcjach egzaminu: ${Object.entries(w).map(([a, v]) => `${a} ${v}`).join(' · ')} (na 50).</p>
+            <p class="muted small">${authored.length} pytań w puli. Losowanie według przykładowego rozkładu SP1: ${Object.entries(w).map(([a, v]) => `${a} ${v}`).join(' · ')} (na 50). Pytania znane z ćwiczeń i podręcznika są wybierane w dalszej kolejności; przy wyczerpaniu puli wracają powtórki.</p>
             <div class="btn-row">
               <button class="btn btn-primary" data-start="authored" ${authored.length >= 10 ? '' : 'disabled'}>Pełna (${Math.min(50, authored.length)} pytań)</button>
               <button class="btn" data-start="mini" ${authored.length >= 10 ? '' : 'disabled'}>Krótka (10 pytań / 8 min)</button>
@@ -97,7 +97,7 @@ export async function renderExam(main) {
         <div class="grid grid-2">
           ${sample ? `<div class="card">
             <h3 style="margin-top:0">Sample Paper 1 – drugi raz, z omówieniem</h3>
-            <p class="muted small">Po pierwszym pomiarze nic już nie zawyża wyniku. Teraz przechodzisz arkusz spokojnie, pytanie po pytaniu, z uzasadnieniem każdej odpowiedzi.</p>
+            <p class="muted small">To powtórka znanych pytań. Teraz przechodzisz arkusz spokojnie, pytanie po pytaniu, z uzasadnieniem każdej odpowiedzi.</p>
             ${store.get().exams.some((e) => e.name === 'Sample Paper 1') ? `<button class="btn btn-lg" data-start="sp1learn">Przejdź z omówieniem</button>` : '<p class="small">🔒 Odblokuje się po pierwszym podejściu do Sample Paper 1.</p>'}
           </div>` : ''}
           <div class="card">
@@ -149,6 +149,8 @@ export async function renderExam(main) {
   function run(qsIn, minutes, name) {
     const attempt = Date.now();
     const qs = qsIn.map((q) => C.shuffleOptions(q, attempt));
+    // Rezerwacja całego arkusza: przerwane podejście nie wraca do puli nowych pytań.
+    const fresh = new Set(qs.filter((q) => store.markQuestionSeen(q.id)).map((q) => q.id));
     const full = !!document.getElementById('fullFlow')?.checked;
     sessionCleanup = runExamSession(main, {
       qs, minutes, name, full,
@@ -164,6 +166,7 @@ export async function renderExam(main) {
           r.total++;
           const ok = ans[i] === correctIndex(q);
           if (ok) { r.ok++; score++; }
+          if (ans[i] !== null) store.recordFirstAttempt(q, ok, fresh.has(q.id), { mode: 'egzamin' });
           store.recordAnswer(q, ok, { terms: C.termsOfQuestion(q) });
         });
         store.saveExam({ at: Date.now(), name, score, total: qs.length, byArea, minutes: minutesUsed, ankieta: survey });

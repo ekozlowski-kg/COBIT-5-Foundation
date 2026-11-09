@@ -9,7 +9,7 @@ format: krotki
 sylabus: [PR-02-03, PR-02-05, PR-02-06]
 minuty: 6
 zgadnij: []
-cwiczenia: [q-pra-20-1, q-pra-20-2, q-pra-20-3]
+cwiczenia: [q-pra-20-1, q-pra-20-2, q-pra-20-3, q-warsztat-kaskada-scenariusz]
 zapas: [q-pra-20-z1]
 wprowadza: []
 wymaga: [pr-k19-kaskada-krok-3-4]
