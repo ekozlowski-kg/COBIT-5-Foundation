@@ -29,12 +29,15 @@
   };
   // Klikalne pojęcie z nazwą angielską pod spodem (żeby wzrokowo kojarzyć PL ↔ EN).
   // Gdy tuż za pojęciem stoi już <span class="en">, nie dublujemy oryginału.
-  const words = (html) => String(html || '').replace(/<w k="([\w-]+)">(.*?)<\/w>(?:\s*<span class="en">(.*?)<\/span>)?/g, (m, k, lab, enNext) => {
+  // Znak interpunkcyjny tuż za pojęciem (także za </b>) wchodzi do środka pojęcia (.wp, bez podkreślenia),
+  // bo przeglądarka łamie linię za blokiem pojęcia i „:” albo „,” spadałby na początek następnej linii.
+  const words = (html) => String(html || '').replace(/<w k="([\w-]+)">(.*?)<\/w>(?:\s*<span class="en">(.*?)<\/span>)?((?:<\/(?:b|strong|em|i)>)*)([,.;:!?)\]”»…]+)?/g, (m, k, lab, enNext, closers, punct) => {
     const t = D.T[k] && (Array.isArray(D.T[k]) ? { en: D.T[k][3] } : D.T[k]);
     const txt = enNext || (t && t.en ? esc(t.en) : '');
     const same = txt.replace(/<[^>]+>/g, '').trim().toLowerCase() === lab.replace(/<[^>]+>/g, '').trim().toLowerCase();
-    const en = txt && !same ? `<span class="wen" lang="en">${txt}</span>` : '';
-    return `<button class="w" data-k="${k}"><span class="wl">${lab}</span>${en}</button>`;
+    const en = txt && !same ? `<span class="wen" lang="en"><span>${txt}</span></span>` : '';
+    const wp = punct ? `<span class="wp">${punct}</span>` : '';
+    return `<button class="w" data-k="${k}"><span class="wl">${lab}</span>${wp}${en}</button>${closers || ''}`;
   });
   const keysIn = (html) => [...new Set([...String(html || '').matchAll(/<w k="([\w-]+)">/g)].map((m) => m[1]))].filter((k) => D.T[k]);
   const firstSentence = (s) => { const m = String(s || '').match(/^.*?[.!?](\s|$)/); return m ? m[0].trim() : String(s || ''); };
@@ -300,6 +303,50 @@
     }
   });
   addEventListener('hashchange', () => { const n = fromHash(); if (n !== null && n !== i) { i = n; draw(); } });
+
+  // Etykiety EN pod pojęciami (.wen): nie mogą nachodzić na sąsiednią etykietę ani wychodzić poza akapit.
+  // Za szeroką etykietę zawijamy do szerokości wolnego miejsca (linia rośnie w pionie), a gdy miejsca
+  // jest bardzo mało – skracamy wielokropkiem; pełna nazwa zostaje w podpowiedzi (title).
+  const BLK = 'p,li,td,th,h1,h2,h3,blockquote,dd,figcaption,div';
+  // Kolejno w każdej linii (od lewej): etykieta może przesunąć się w lewo pod wcześniejsze słowa
+  // (tam jest wolne miejsce), ale nie dalej niż koniec poprzedniej etykiety i lewa krawędź akapitu.
+  // Dopiero gdy i tak się nie mieści – zawija się do szerokości wolnego pasa albo dostaje wielokropek.
+  function fitWen() {
+    const labs = [...document.querySelectorAll('.w .wen')].filter((l) => !l.closest('.chips,th'));
+    labs.forEach((l) => { l.classList.remove('fit', 'cut'); l.firstElementChild.style.width = ''; l.style.marginLeft = ''; });
+    const vw = document.documentElement.clientWidth;
+    const items = labs.map((l) => {
+      const blk = l.closest('.w').parentElement.closest(BLK);
+      let lo = 8, hi = vw - 8;
+      if (blk) { const b = blk.getBoundingClientRect(), cs = getComputedStyle(blk); lo = Math.max(lo, b.left + parseFloat(cs.paddingLeft || 0)); hi = Math.min(hi, b.right - parseFloat(cs.paddingRight || 0)); }
+      return { l, r: l.getBoundingClientRect(), nat: l.scrollWidth, lo, hi };
+    }).filter((x) => x.r.height > 0).sort((a, b) => a.r.top - b.r.top || a.r.left - b.r.left);
+    let prev = null;
+    items.forEach((x, k) => {
+      const same = (y) => y && Math.abs(y.r.top - x.r.top) < 3;
+      const next = same(items[k + 1]) ? items[k + 1] : null;
+      const left = same(prev) ? Math.max(x.lo, prev.end + 8) : x.lo;
+      const right = next ? Math.min(x.hi, next.r.left - 8) : x.hi;
+      let start = x.r.left;
+      if (start + x.nat > right) start = Math.max(left, right - x.nat);
+      let width = x.nat;
+      if (start + width > right) {
+        width = Math.max(24, Math.floor(right - start));
+        const w = x.l.closest('.w');
+        if (!w.title) w.title = x.l.textContent;
+        x.l.firstElementChild.style.width = width + 'px'; // szerokość ma wnętrze – .wen zostaje 0 i nie rozpycha pojęcia
+        x.l.classList.add(width >= 64 ? 'fit' : 'cut');
+      }
+      if (start < x.r.left) x.l.style.marginLeft = Math.round(start - x.r.left) + 'px';
+      x.end = start + width;
+      prev = x;
+    });
+  }
+  let fitQ = 0;
+  const fitSoon = () => { cancelAnimationFrame(fitQ); fitQ = requestAnimationFrame(fitWen); };
+  new MutationObserver(fitWen).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['open'] });
+  addEventListener('resize', fitSoon);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitSoon);
 
   const h = fromHash();
   if (location.hash === '#koniec') i = S.length - 1;
