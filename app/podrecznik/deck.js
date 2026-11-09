@@ -108,7 +108,7 @@
   const S = D.S.filter((s) => !s.sp1 || SP[s.sp1]).map((s) => {
     if (!s.sp1) return s;
     const q = SP[s.sp1];
-    return { pt: 'Arkusz próbny · pytanie nr ' + q.nr, sp: true, quiz: { tresc: q.tresc, opcje: q.opcje, kurs: q.kurs,
+    return { pt: 'Arkusz próbny · pytanie nr ' + q.nr, sp: true, quiz: { id: s.sp1, sylabus: q.sylabus || [], tresc: q.tresc, opcje: q.opcje, kurs: q.kurs,
       src: 'COBIT 5 Foundation Sample Paper 1 (PL), pytanie ' + q.nr + ' – oficjalny arkusz próbny, uzasadnienia z arkusza',
       pomoc: { t: 'Pytanie z oficjalnego arkusza próbnego. Dotyczy lekcji ' + s.lekcja + ' „' + s.temat + '”.', k: s.k || [] } } };
   });

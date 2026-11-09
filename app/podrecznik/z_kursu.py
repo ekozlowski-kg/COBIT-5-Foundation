@@ -574,8 +574,9 @@ for c in spis:
 (HERE / "spis.js").write_text("// Wygenerowane przez z_kursu.py – spis treści ułożony jak podręcznik COBIT 5.\nwindow.SPIS=" + json.dumps(spis, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
 
 # sp1.local.js – treść arkusza próbnego, tylko lokalnie
-sp = {q["id"]: {"nr": q.get("numer"), "kurs": MAPA.get(q["id"], {}).get("wyjasnienie", ""), "tresc": inline(q.get("tresc")), "opcje": [{"t": inline(o.get("tekst")), **({"ok": True} if o.get("poprawna") else {}), "w": inline(o.get("wyjasnienie") or "")} for o in q["opcje"]]} for q in SP1}
-(HERE / "sp1.local.js").write_text("// Sample Paper 1 (ISACA/PeopleCert) – tylko do nauki lokalnej, NIE commitować (*.local.* w .gitignore).\nwindow.SP1=" + json.dumps(sp, ensure_ascii=False) + ";\n", encoding="utf-8")
+sp = {q["id"]: {"sylabus": q.get("sylabus", []), "nr": q.get("numer"), "kurs": MAPA.get(q["id"], {}).get("wyjasnienie", ""), "tresc": inline(q.get("tresc")), "opcje": [{"t": inline(o.get("tekst")), **({"ok": True} if o.get("poprawna") else {}), "w": inline(o.get("wyjasnienie") or "")} for o in q["opcje"]]} for q in SP1}
+if SP1:
+    (HERE / "sp1.local.js").write_text("// Sample Paper 1 (ISACA/PeopleCert) – tylko do nauki lokalnej, NIE commitować (*.local.* w .gitignore).\nwindow.SP1=" + json.dumps(sp, ensure_ascii=False) + ";\n", encoding="utf-8")
 
 tot = sum(p.get("slajdy", 0) for p in flat)
 print(f"slajdów treści w częściach z kursu: {sum(p.get('tresc', 0) for p in flat)} (skrót w {sum(1 for p in flat if p['id'] in SKROT)} z {written} części)")
