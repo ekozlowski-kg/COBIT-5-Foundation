@@ -49,19 +49,43 @@
 :root[data-theme="dark"] .g-red{--f:#5c1717;--s:#F09595;--t:#F7C1C1}
 
 *{box-sizing:border-box}
-html,body{margin:0}
-body{background:var(--bg);color:var(--text);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
-.bar{height:56px;display:flex;align-items:center;gap:12px;padding:0 20px;border-bottom:1px solid var(--border);background:var(--surface);overflow-x:auto}
-.bar h1{font-size:18px;font-weight:600;margin:0;white-space:nowrap}
-.bar .sp{flex:1}
-.bar .hint{font-size:13px;color:var(--muted);white-space:nowrap}
-.bar a{font-size:14px;color:var(--muted);white-space:nowrap}
+html,body{margin:0;height:100%}
+body{height:100vh;height:100dvh;display:flex;flex-direction:column;overflow:hidden;background:var(--bg);color:var(--text);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.bar{flex:none;position:relative;z-index:20;display:flex;flex-direction:column;gap:14px;padding:18px 24px 14px;border-bottom:1px solid var(--border);background:var(--surface);box-shadow:0 3px 16px #00000008}
+.bar-top,.bar-tools,.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.bar-top{justify-content:space-between;gap:20px}
+.brand-mark{display:grid;place-items:center;flex:none;width:44px;height:44px;border-radius:13px;background:var(--acc-f);color:var(--acc-t);font-size:17px;font-weight:800;letter-spacing:-.08em}
+.bar h1{font-size:20px;line-height:1.25;font-weight:750;letter-spacing:-.025em;margin:0}
+.bar .hint{font-size:12px;color:var(--muted);margin:3px 0 0;line-height:1.4}
+.bar-tools{gap:8px}
+.bar button,.bar select,.bar summary{font:inherit;font-size:13px;font-weight:550;min-height:40px;border:1px solid var(--border);border-radius:9px;background:var(--surface);color:var(--text);padding:8px 12px;cursor:pointer}
+.bar button:hover,.bar summary:hover{background:var(--bg)}
+.bar :is(button,select,summary):focus-visible{outline:3px solid var(--acc-s);outline-offset:2px}
+.bar .exam-link{display:flex;gap:10px;align-items:center;justify-content:center;flex:none;background:#6552c5;border-color:#6552c5;color:white;padding:10px 16px;font-weight:700;box-shadow:0 3px 8px #6552c525}
+.bar .exam-link:hover{background:#5442af}
+.exam-count{font-size:11px;font-weight:600;border-left:1px solid #ffffff55;padding-left:10px;opacity:.9}
+.bar .area-select{flex:1;min-width:150px;max-width:360px;background:var(--bg)}
+.bar #exbtn[aria-pressed="true"]{background:var(--acc-f);color:var(--acc-t);border-color:var(--acc-s)}
+.tools-menu{position:relative;margin-left:auto;flex:none}
+.tools-menu summary{list-style:none;display:flex;align-items:center;justify-content:center;gap:10px;user-select:none}
+.tools-menu summary::-webkit-details-marker{display:none}
+.tools-menu summary::after{content:'⌄';font-size:16px;color:var(--muted);line-height:1}
+.tools-menu[open] summary{border-color:var(--acc-s);background:var(--acc-f)}
+.tools-popover{position:absolute;right:0;top:calc(100% + 8px);width:300px;max-width:calc(100vw - 28px);padding:16px;border:1px solid var(--border);border-radius:14px;background:var(--surface);box-shadow:0 16px 48px #00000030;display:grid;gap:10px}
+.tools-popover .menu-label{font-size:11px;color:var(--muted);font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin:4px 0 0}
+.tools-popover .menu-row{display:flex;gap:8px}
+.tools-popover .menu-row button{flex:1}
+.tools-popover .menu-help{font-size:12px;color:var(--muted);line-height:1.6;border-top:1px solid var(--border);padding-top:12px;margin:4px 0 0}
+.tools-popover kbd{font:inherit;font-size:11px;border:1px solid var(--border);padding:1px 4px;border-radius:4px;background:var(--bg)}
+.tools-popover .theme{display:flex}
+.tools-popover .theme button{flex:1;padding:8px}
+@media(max-width:520px){.bar{padding:12px 14px;gap:12px}.bar-top{gap:10px}.brand{gap:9px}.brand-mark{width:36px;height:36px;border-radius:10px;font-size:14px}.bar h1{font-size:17px}.bar .hint{font-size:11px}.bar .exam-link{padding:9px 12px;font-size:12px}.exam-count{display:none}.bar-tools{flex-wrap:wrap}.bar .area-select{flex-basis:100%;max-width:none}.bar #exbtn,.bar .tools-menu{flex:1}.bar .tools-menu{margin-left:0}.bar summary{width:100%}}
 .grp{display:inline-flex;border:1px solid var(--border);border-radius:8px;overflow:hidden;flex-shrink:0}
 .grp button{font:inherit;font-size:14px;padding:6px 12px;border:0;background:var(--surface);color:var(--muted);cursor:pointer;white-space:nowrap}
 .grp button+button{border-left:1px solid var(--border)}
 .grp button[aria-pressed="true"]{background:var(--acc-f);color:var(--acc-t);font-weight:600}
 .grp button:focus-visible{outline:2px solid var(--acc-s);outline-offset:-2px}
-.wrap{position:relative;display:flex;height:calc(100vh - 56px);min-height:520px}
+.wrap{position:relative;display:flex;flex:1;min-height:0}
 .wrap:fullscreen{height:100vh}
 #app{flex:1;min-width:0;height:100%;background:var(--bg)}
 #side{position:absolute;right:28px;top:50%;transform:translateY(-50%);width:min(800px,58%);max-height:calc(100% - 40px);overflow-y:auto;background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.25);padding:18px 26px 28px;font-size:16px;line-height:1.55;z-index:10}
@@ -271,18 +295,23 @@ main li{margin:6px 0}
 </style>
 </head>
 <body>
-<div class="bar">
-<h1>COBIT 5: co z czego wynika</h1>
-<span class="hint">kliknij kafelek → szczegóły · ←/→ następny · Esc zamyka</span>
-<span class="sp"></span>
-<div class="grp"><button type="button" id="exbtn" aria-pressed="false" title="Jeden przykład (sklep internetowy) krok po kroku przez cały schemat">▶ Tryb przykładu</button></div>
-<div class="grp"><button type="button" id="exam75" title="Plan nauki i dwa sprawdziany po 50 pytań; cel minimum 38/50">Cel 75% · 400 pytań</button></div>
-<div class="grp"><button type="button" id="exall" title="Przełącza pełne i skupione szczegóły schematu. Zwinięcie elementu nie wyłącza go z zakresu egzaminu.">Pełne szczegóły</button></div>
-<div class="grp"><button type="button" id="fs">Pełny ekran</button></div>
-<div class="grp theme" role="group" aria-label="Motyw kolorów">
-<button type="button" data-t="system">Systemowy</button><button type="button" data-t="light">Jasny</button><button type="button" data-t="dark">Ciemny</button>
+<header class="bar" aria-label="Nawigacja kursu">
+<div class="bar-top">
+  <div class="brand"><span class="brand-mark" aria-hidden="true">C5</span><div><h1>COBIT 5 Foundation</h1><p class="hint">Mapa wiedzy · odkrywaj powiązania</p></div></div>
+  <button type="button" id="exam75" class="exam-link" title="Plan nauki i dwa sprawdziany po 50 pytań; cel minimum 38/50">Nauka i testy <span class="exam-count">400 pytań</span></button>
 </div>
-</div>
+<nav class="bar-tools" aria-label="Narzędzia mapy">
+  <select id="area" class="area-select" aria-label="Przejdź do obszaru mapy"><option value="">Przejdź do obszaru…</option><option value="kont">Od czego zacząć</option><option value="z1">5 zasad COBIT 5</option><option value="potrz">Kaskada celów</option><option value="akt">7 aktywatorów</option><option value="lad">Ład i Zarządzanie</option><option value="ocena">Ocena zdolności</option><option value="petla">Cykl wdrożenia</option></select>
+  <button type="button" id="exbtn" aria-pressed="false" title="Przejdź krok po kroku przez przykład sklepu internetowego">▶ Przykład sklepu</button>
+  <details class="tools-menu"><summary>Widok i motyw</summary><div class="tools-popover">
+    <p class="menu-label">Nawigacja</p><div class="menu-row"><button type="button" id="homeview">Początek mapy</button><button type="button" id="allview">Cała mapa</button></div>
+    <button type="button" id="exall" title="Zwiń lub rozwiń szczegóły. Zakres nauki pozostaje taki sam.">Skup widok</button>
+    <button type="button" id="fs">Pełny ekran</button>
+    <p class="menu-label">Wygląd</p><div class="grp theme" role="group" aria-label="Motyw kolorów"><button type="button" data-t="system">Auto</button><button type="button" data-t="light">Jasny</button><button type="button" data-t="dark">Ciemny</button></div>
+    <p class="menu-help">Przeciągnij, aby przesunąć mapę.<br>Kliknij kafelek, aby otworzyć temat.<br><kbd>←</kbd> <kbd>→</kbd> następny temat · <kbd>Esc</kbd> zamknij<br>Pozycja i przybliżenie zapisują się automatycznie.</p>
+  </div></details>
+</nav>
+</header>
 
 <div class="wrap" id="wrap">
 <div id="app"><div class="loading">Ładuję schemat (React Flow, potrzebny internet)…</div></div>
@@ -1334,7 +1363,7 @@ function exHTML(id){
     (i>=0&&i<EX_ORDER.length-1?'<p class="note2">Dalej: '+esc((INFO[EX_ORDER[i+1]]||{}).title||'')+' (→ lub „następny”)</p>':'')+
     '<p class="note2">Przykład autorski, do nauki. Nazwy i numery celów oraz procesów z podręcznika.</p></div>';
 }
-function exBtnSync(){ const b=document.getElementById('exbtn'); if(!b) return; b.setAttribute('aria-pressed',String(EXMODE)); b.textContent=EXMODE?'■ Zakończ przykład':'▶ Tryb przykładu'; }
+function exBtnSync(){ const b=document.getElementById('exbtn'); if(!b) return; b.setAttribute('aria-pressed',String(EXMODE)); b.textContent=EXMODE?'■ Zakończ przykład':'▶ Przykład sklepu'; }
 /* wycinek koła dla fazy: ta sama geometria co Ilustracja 17, podświetlona tylko faza n */
 function wedgeHTML(n){
   const C=110, rings=[[104,80,'g-amber'],[80,56,'g-teal'],[56,32,'g-purple']];
@@ -1629,7 +1658,17 @@ document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!pv.hidden){ close
 /* ---------- aplikacja ---------- */
 let RF=null;
 const NEIGH={};
-function fitAll(d){ if(!RF) return; setTimeout(()=>{ const b=RF.getNodesBounds(RF.getNodes()); b.height+=260; RF.fitBounds(b,{padding:0.04,duration:d||0}); },40); }
+function fitAll(d=300){ if(!RF) return; const b=RF.getNodesBounds(RF.getNodes()); b.height+=260; RF.fitBounds(b,{padding:0.04,duration:d}); }
+/* Widok zmieniamy tylko po nawigacji użytkownika. Zamknięcie panelu,
+   zmiana rozmiaru okna i zakończenie ładowania nie dopasowują całej mapy. */
+const VIEW_KEY='cobit-schemat-widok-v1';
+function initialViewport(){ return {x:28,y:24,zoom:document.getElementById('app').clientWidth<520?0.8:0.9}; }
+function readViewport(){
+  try{ const v=JSON.parse(localStorage.getItem(VIEW_KEY)||'null');
+    if(v&&[v.x,v.y,v.zoom].every(Number.isFinite)&&v.zoom>=0.03&&v.zoom<=2) return {x:v.x,y:v.y,zoom:v.zoom};
+  }catch(_){} return null;
+}
+function saveViewport(v){ try{localStorage.setItem(VIEW_KEY,JSON.stringify({x:v.x,y:v.y,zoom:v.zoom}));}catch(_){} }
 function focusOn(id){
   if(!RF) return;
   const el=document.getElementById('app'), W=el.clientWidth, H=el.clientHeight;
@@ -1664,11 +1703,11 @@ function App(){
   React.useEffect(()=>{
     window.__sel=sel;
     if(sel){ showInfo(sel); focusOn(sel); }
-    else { clearInfo(); fitAll(400); }
+    else clearInfo();
   },[sel]);
   React.useEffect(()=>{
     const k=(e)=>{
-      if(e.target && /INPUT|TEXTAREA/.test(e.target.tagName)) return;
+      if(e.target && (/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)||e.target.closest('.bar'))) return;
       if(e.key==='Escape') setSel(null);
       else if(e.key==='ArrowRight') setSel(s=>s?step(s,1):s);
       else if(e.key==='ArrowLeft') setSel(s=>s?step(s,-1):s);
@@ -1676,6 +1715,7 @@ function App(){
     window.addEventListener('keydown',k); return ()=>window.removeEventListener('keydown',k);
   },[]);
   const live = sel ? (NEIGH[sel]||[sel]) : null;
+  const [startViewport] = React.useState(()=>readViewport()||initialViewport());
   const viewNodes = React.useMemo(()=>nodes.map(n=>!sel?n:{...n,className:live.includes(n.id)?'sel':'dim'}),[sel]);
   const viewEdges = React.useMemo(()=>edges.map(x=>{
     let y=x;
@@ -1689,14 +1729,9 @@ function App(){
     onEdgeClick:(_,ed)=>{ if(ed.id==='e17') setSel('petla'); },
     onPaneClick:()=>setSel(null),
     colorMode: theme,
-    fitView:true, fitViewOptions:{padding:0.06},
-    onInit:(inst)=>{
-      RF=inst;
-      const refit=()=>{ if(window.__sel) return; fitAll(0); };
-      let t; window.addEventListener('resize',()=>{clearTimeout(t);t=setTimeout(refit,120);});
-      document.addEventListener('fullscreenchange',()=>setTimeout(refit,150));
-      setTimeout(refit,300); setTimeout(refit,1000);
-    },
+    defaultViewport:startViewport,
+    onMoveEnd:(_,viewport)=>saveViewport(viewport),
+    onInit:(inst)=>{RF=inst;},
     minZoom:0.03, maxZoom:2,
     zoomOnScroll:false, panOnScroll:false, preventScrolling:false, zoomOnPinch:true,
     nodesConnectable:false, elementsSelectable:true,
@@ -1710,7 +1745,7 @@ createRoot(document.getElementById('app')).render(h(App));
 window.SCHEMAT_EXAM.init({getResults:()=>WYN,refresh:()=>{if(window.__sel&&INFO[window.__sel])showInfo(window.__sel);},record:(u,i,ok)=>{const r=WYN[u]||{n:0,g:0};r.n++;r.g+=ok?1:0;r.ok=ok?1:0;r.i=i;r.t=Date.now();WYN[u]=r;wynSave();},jump:code=>{const nodes=(window.PYTANIA.plan.kody[code]||[]);const id=nodes.find(n=>INFO[n]);if(id)window.dispatchEvent(new CustomEvent('cobit-sel',{detail:id}));}});
 
 /* tylko egzamin / cały podręcznik */
-{ const b=document.getElementById('exall'); b.textContent=EX_ALL?'Pełne szczegóły · skup widok':'Widok skupiony · rozwiń szczegóły ('+EX_HIDDEN+')'; b.setAttribute('aria-pressed',String(!EX_ALL));
+{ const b=document.getElementById('exall'); b.textContent=EX_ALL?'Skup widok — zwiń szczegóły':'Rozwiń wszystkie szczegóły'; b.setAttribute('aria-pressed',String(!EX_ALL));
   b.addEventListener('click',()=>{ try{ localStorage.setItem('cobit-schemat-szczegoly',EX_ALL?'compact':'full'); }catch(_){} location.reload(); }); }
 /* tryb przykładu */
 document.getElementById('exbtn').addEventListener('click',()=>{
@@ -1722,6 +1757,12 @@ document.getElementById('exbtn').addEventListener('click',()=>{
 const app=document.getElementById('wrap'), fs=document.getElementById('fs');
 fs.addEventListener('click',()=>{ if(document.fullscreenElement) document.exitFullscreen(); else if(app.requestFullscreen) app.requestFullscreen(); });
 document.addEventListener('fullscreenchange',()=>{ fs.textContent=document.fullscreenElement?'Zamknij pełny ekran':'Pełny ekran'; });
+document.getElementById('area').addEventListener('change',e=>{const id=e.target.value;if(id)window.dispatchEvent(new CustomEvent('cobit-sel',{detail:id}));e.target.value='';});
+const toolsMenu=document.querySelector('.tools-menu');
+document.getElementById('homeview').addEventListener('click',()=>{toolsMenu.open=false;window.dispatchEvent(new CustomEvent('cobit-sel',{detail:null}));if(RF)RF.setViewport(initialViewport(),{duration:300});});
+document.getElementById('allview').addEventListener('click',()=>{toolsMenu.open=false;window.dispatchEvent(new CustomEvent('cobit-sel',{detail:null}));fitAll();});
+document.addEventListener('click',e=>{if(!toolsMenu.contains(e.target))toolsMenu.open=false;});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&toolsMenu.open){toolsMenu.open=false;toolsMenu.querySelector('summary').focus();e.stopImmediatePropagation();}},true);
 </script>
 </body>
 </html>
