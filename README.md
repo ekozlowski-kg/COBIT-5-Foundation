@@ -34,6 +34,6 @@ python3 tests/sprawdz-recenzje.py
 
 Testy sprawdzają logikę, pokrycie zakresu, progi, świeżość pomiarów, czas, odsyłacze oraz zachowanie pozycji mapy. Testy Node VM z atrapą DOM nie zastępują kontroli wyglądu w przeglądarce.
 
-Mapa zapamiętuje przesunięcie i przybliżenie. Zamknięcie szczegółów i zmiana rozmiaru okna nie przywracają widoku całości. Nawigacja obszarami znajduje się w pasku, a dopasowanie całej mapy jest dostępne w menu **Widok i motyw → Cała mapa**.
+Mapa zapamiętuje przesunięcie i przybliżenie. Zamknięcie szczegółów i zmiana rozmiaru okna nie przywracają widoku całości. Pasek zajmuje 48–50 px wysokości. Nawigacja obszarami, przykład oraz ustawienia widoku są dostępne w **Menu**; dopasowanie całej mapy wymaga wybrania **Menu → Cała mapa**.
 
 Zakres merytoryczny oparto na dostarczonych Framework PL/EN, Enabling Processes, sylabusie PeopleCert v01.2, SP1 i materiałach Altkom, z kontrolą [oficjalnego opisu Foundation](https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/COBIT5-10/cobit-5-foundation-2020). Kurs dotyczy COBIT 5, a nie COBIT 2019.
