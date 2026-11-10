@@ -1,0 +1,656 @@
+[
+  {
+    "kod": "PR-01-01",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      13,
+      14
+    ],
+    "sha256": "84e5904612d1a185c529e3f46ed0edc5b1919ab5f4ec874286d0503d3f99a195"
+  },
+  {
+    "kod": "PR-01-02",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      27,
+      28
+    ],
+    "sha256": "8cc16632cea481f76b7565b315ee45d2f39d6b167565f0154b36272cf68fabf8"
+  },
+  {
+    "kod": "PR-01-03",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      31,
+      32,
+      33
+    ],
+    "sha256": "37eb37804c94075aa527108b3a23e325d544a3880f9b7a9a8f4bec7f84ab85e7"
+  },
+  {
+    "kod": "PR-01-04",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      32,
+      33,
+      41
+    ],
+    "sha256": "4397fa5e2f17759b86927fb83fbea43f984aa5b9bfe0d7282094a9859cefb849"
+  },
+  {
+    "kod": "PR-01-05",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      28,
+      29
+    ],
+    "sha256": "8e01b9ffe2a5def54afb93473e29bfcc85a8e9a6bc3829fbaa29241f19d30ac4"
+  },
+  {
+    "kod": "PR-02-01",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      17,
+      23
+    ],
+    "sha256": "0e9ea980ee280de5f28d7b7e39dfdc9daa9313d8ddbb95d9ea00766b8a1f752c"
+  },
+  {
+    "kod": "PR-02-02",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      17,
+      18
+    ],
+    "sha256": "ab2b197503b3e7e115848bc27d42daa6cb4ee01b1781b703c251f98e1edffac3"
+  },
+  {
+    "kod": "PR-02-03",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      17,
+      18,
+      22
+    ],
+    "sha256": "a805057ce52241e62575aa6d81f2cd11fc7113b96ea2e028a7462bbc5f14833d"
+  },
+  {
+    "kod": "PR-02-04",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      18,
+      19,
+      20
+    ],
+    "sha256": "605bcc064c0248bdbd569a1178009e87949e58245f896bf8de07dd4b80140167"
+  },
+  {
+    "kod": "PR-02-05",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      18,
+      19,
+      50
+    ],
+    "sha256": "59d80e442d9f342d87ae08c85bfb2eabe2bb67a7d4181bec142dad725f9c73db"
+  },
+  {
+    "kod": "PR-02-06",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      18,
+      21,
+      52,
+      53
+    ],
+    "sha256": "9dcd839c0520d67bee05c18e7ddd3a45d001c531ca5e68abe0ac04454fbef319"
+  },
+  {
+    "kod": "PR-02-07",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      20,
+      21
+    ],
+    "sha256": "f5014807d9798e475aa35d37da7c4ac4bbf403e841794fb5aadc4734e24e3eb2"
+  },
+  {
+    "kod": "PR-02-08",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      23,
+      24
+    ],
+    "sha256": "a4cf81ec899ec3920d47491350556eea1f0c410e0e886e4040d1cfbbcd98c566"
+  },
+  {
+    "kod": "PR-02-09",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      24,
+      31,
+      32
+    ],
+    "sha256": "03d352e8e56a8dbe5e5eea4df207482672eb0e95bbbe846dc01db24b3c364d81"
+  },
+  {
+    "kod": "PR-02-10",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      11,
+      25,
+      26
+    ],
+    "sha256": "647cb35e86b7a9394f5a0a7607a46d8d1bee2d94cfb991fa90bcc62e15b043c3"
+  },
+  {
+    "kod": "PR-02-11",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      25,
+      26
+    ],
+    "sha256": "6b74ef929d404b8d91c4fe594561ef9ad380d715bd3196b1e86d809d9a776ac3"
+  },
+  {
+    "kod": "PR-02-12",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      28,
+      29
+    ],
+    "sha256": "516722a983ab3c3622d825609f6a04e3daf39fad10c1b0df808175e041a9b660"
+  },
+  {
+    "kod": "PR-02-13",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      29
+    ],
+    "sha256": "35e9c536b83246aa4c2a2529ab780a1323a9e42a9fe3367939e0b0d72361e19f"
+  },
+  {
+    "kod": "PR-02-14",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      14,
+      31,
+      32
+    ],
+    "sha256": "44006be3bac992d0c55f4ddd14a7ebaf629d98326da14e7ca5c0c9e17ac7209c"
+  },
+  {
+    "kod": "PR-02-15",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      31,
+      32
+    ],
+    "sha256": "279cab8593893ad24e52e5d1ad5dc21bc3d8a7f3a2a76bddb67e3a3e17edd720"
+  },
+  {
+    "kod": "EN-01-01",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      69,
+      70,
+      89
+    ],
+    "sha256": "6c306c25a43224dfe9bf71073b9f90fb77eb4edcf929ed80cd09fdb8a6ea70f8"
+  },
+  {
+    "kod": "EN-02-01",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      67,
+      68
+    ],
+    "sha256": "21e1763b290c4475dd05ea3a6c286355583678621c26e693b91de86d0954e633"
+  },
+  {
+    "kod": "EN-02-02",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      67,
+      68
+    ],
+    "sha256": "50194818b2342d4aa48a21cbc1a85cb83a46adc6819db151f33d78c5d35b4bbe"
+  },
+  {
+    "kod": "EN-02-03",
+    "werdykt": "OK po korekcie",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      67,
+      68
+    ],
+    "sha256": "b95b77389c3a9f287fb1b839ab1870355a84dd2b2daa56b79e5dd62eba155b82"
+  },
+  {
+    "kod": "EN-02-04",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      29,
+      68
+    ],
+    "sha256": "f4e651ba33b5860852521d4cee247fe829604c40a4dd6f8e2dd9793fad4e06f2"
+  },
+  {
+    "kod": "EN-02-05",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      68
+    ],
+    "sha256": "1aa4e0477d8f64db3959f1574207c998e9dc8673b7ab81f876f2ed7475e478f8"
+  },
+  {
+    "kod": "EN-02-06",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      68,
+      69
+    ],
+    "sha256": "9cd8dd561e557c31f976d7b8c5c47b9ac9b58252b8c89fd257654550dc511a90"
+  },
+  {
+    "kod": "EN-02-07",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      69,
+      71
+    ],
+    "sha256": "2c42960ef0201d1b11cb1e59de317ac6f642c908f89b234adec98fc41ea1ce01"
+  },
+  {
+    "kod": "EN-02-08",
+    "werdykt": "OK po korekcie",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      69
+    ],
+    "sha256": "c2f02e618d935f1e6b8cb784b6b57c34b9d6472c5f90551f95189b76771dfba6"
+  },
+  {
+    "kod": "EN-02-09",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      29,
+      69,
+      70
+    ],
+    "sha256": "b804ff71f877bc64abdbe542cf315bf2615d785fc3392a5f6ff4793fa669649d"
+  },
+  {
+    "kod": "EN-02-10",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      70,
+      71
+    ],
+    "sha256": "ea4fc2c1a7968233b16230b7e2972fbec67f424311430b7613a3694da6bbde83"
+  },
+  {
+    "kod": "EN-02-11",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      71
+    ],
+    "sha256": "074f69fd89ebfec7fdaaa8d13d351579089a5c03403a98c3eba447edfa533059"
+  },
+  {
+    "kod": "EN-02-12",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      75
+    ],
+    "sha256": "b669643b82dbc08892aedb4ec5b7bc2d60b5585d8a67b627c7612385678725e0"
+  },
+  {
+    "kod": "EN-02-13",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      73,
+      75,
+      76,
+      77
+    ],
+    "sha256": "174b675ab54825ccf442d94d357dfb8e84d7e2597b610be9fa5d0f6573e435b0"
+  },
+  {
+    "kod": "EN-02-14",
+    "werdykt": "OK po korekcie",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      79,
+      80
+    ],
+    "sha256": "2599025f972ffb5570a60813ff969bec1a592dc5233c99063e61a71eb2717965"
+  },
+  {
+    "kod": "EN-02-15",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      79,
+      80
+    ],
+    "sha256": "a034a6c806c13926c8c3aa3181ccea778e8f9c5e243d53883f952327bd305a49"
+  },
+  {
+    "kod": "EN-02-16",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      79,
+      80
+    ],
+    "sha256": "9d517b64ca3b6726e5730f85718c8028d8dfcde98c91229851efcbbd8bde83f9"
+  },
+  {
+    "kod": "EN-02-17",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      81,
+      82
+    ],
+    "sha256": "283125a3638be7929eab0c9deaf6e8c7a0f41c6e301aa633f8f5eab26cdd2cb7"
+  },
+  {
+    "kod": "EN-02-18",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      63,
+      81,
+      83
+    ],
+    "sha256": "e0e2bb13c765dfa2c87e7887f48ad95bb9aaf34ee6e8ad297127a95023dac44a"
+  },
+  {
+    "kod": "EN-02-19",
+    "werdykt": "OK po korekcie",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      83,
+      84
+    ],
+    "sha256": "539300e2ec5d8597f5b41d26b03f5d8796c91a46b70630580d53a108d7ed0804"
+  },
+  {
+    "kod": "EN-02-20",
+    "werdykt": "OK po korekcie",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      85,
+      86
+    ],
+    "sha256": "d84af524240ba13c46880876a85b3937ec2dd83fdf2f782d18d6ff62805b55c7"
+  },
+  {
+    "kod": "EN-02-21",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      85,
+      86
+    ],
+    "sha256": "17101745b7efbe393afc4e5dacf3ed03762fa9a92a32f0f5d62e4f9694d494b3"
+  },
+  {
+    "kod": "EN-02-22",
+    "werdykt": "OK po korekcie",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      87,
+      88
+    ],
+    "sha256": "e3260d6ab5a1d442d985a18086dd89bd3fe9d14379eb496b0f182c5396c1d146"
+  },
+  {
+    "kod": "EN-02-23",
+    "werdykt": "OK po korekcie",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      88
+    ],
+    "sha256": "00e66568a42124f39d5c992d8c8b62946e492fa5dd664029e817ce2467106472"
+  },
+  {
+    "kod": "EN-02-24",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      71,
+      72
+    ],
+    "sha256": "1d07079524000638bcf27ba6d4314116fdc6b0a6124d3973a5681bb43e168c69"
+  },
+  {
+    "kod": "EN-02-25",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      71,
+      72
+    ],
+    "sha256": "7529ffc810a57c25c78a2a899ab4ca0e5f0dde8f5c910ea5c5abd3bb750b0fb3"
+  },
+  {
+    "kod": "IM-01-01",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      37,
+      38
+    ],
+    "sha256": "5e93c49340c825a1d6d370a2d2cc59973a44dd820fd63a199e2b7a1da524945e"
+  },
+  {
+    "kod": "IM-02-01",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      35,
+      36
+    ],
+    "sha256": "a3ee1fad5d00234c2b6ca43b8ea037bbd53cef791bad069781a7d9cad8805eb1"
+  },
+  {
+    "kod": "IM-02-02",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      36,
+      37
+    ],
+    "sha256": "6d1bc745b5b51f6e0819c3e3e13984678045309df87bde185b818c88fe12743a"
+  },
+  {
+    "kod": "IM-02-03",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      36,
+      39
+    ],
+    "sha256": "e7d41689352f191b4c505c95cf5d91145d946044f5336b54d54d3efa091cbfec"
+  },
+  {
+    "kod": "IM-02-04",
+    "werdykt": "OK po korekcie",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      39
+    ],
+    "sha256": "416b44dc37222b16befa96787f3a287f5689c35f33d678788d33b7a77b599636",
+    "dopelnienie": "Oryginał EN wskazuje benefit owners — osoby odpowiedzialne za uzyskanie korzyści."
+  },
+  {
+    "kod": "IM-02-05",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      37,
+      38
+    ],
+    "sha256": "d055da4c072bb3df3d1c94fbb32f6b2418b3d60f56290159efbd141b02d22cc4"
+  },
+  {
+    "kod": "IM-02-06",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      37,
+      38
+    ],
+    "sha256": "5be212b786917d69f6e9bd775b82431ab46e4a4871a88c49ffe95a9db4044425"
+  },
+  {
+    "kod": "IM-02-07",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      37,
+      38,
+      39
+    ],
+    "sha256": "c294889163223393dc296e1d2fad282c0443e0f05645407467499745cd91f94b"
+  },
+  {
+    "kod": "PC-01-01",
+    "werdykt": "OK po korekcie",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      41,
+      42,
+      43,
+      44
+    ],
+    "sha256": "c9c87e9bf94c9db83ccd59fb3e3aef3bef523885e19bb0b8fd36085d8761745e"
+  },
+  {
+    "kod": "PC-01-02",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      42
+    ],
+    "sha256": "2c552754d8c3d34e38a0f0e8008b4a53afbfe7da6c85ddef8af4e8ea03931762"
+  },
+  {
+    "kod": "PC-01-03",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      45
+    ],
+    "sha256": "f83e878a78f2d4977c89f3d32a306f3acf658d97dffa952dce0b8ce3cb63e441"
+  },
+  {
+    "kod": "PC-01-04",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      42,
+      43
+    ],
+    "sha256": "c61d726a9da3007ce4aabf9495a1b919cc730c0b92cc2a28bb47b1b3948bebd8"
+  },
+  {
+    "kod": "PC-02-01",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      43,
+      44,
+      45
+    ],
+    "sha256": "fbe9d6528b13e46efbcbf4d3af85158e7f2aa09452dfc5b81c0ed7ecf5831981"
+  },
+  {
+    "kod": "PC-02-02",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      41,
+      43,
+      45
+    ],
+    "sha256": "65edeefa87d67340d778bcccaafbcc1507ee16b9abe851fbdc52d5c590a32fed"
+  },
+  {
+    "kod": "PC-02-03",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      42,
+      43
+    ],
+    "sha256": "923ba5dbde5bfa4f703bdac7308ee1aea5af3a219a065d2c9994dbc38d92a943"
+  },
+  {
+    "kod": "PC-02-04",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      42,
+      43,
+      45
+    ],
+    "sha256": "feb32d958627e66d47ee46f290cb6921a65f0836988f04630a3cfd0d5ae1634a"
+  },
+  {
+    "kod": "PC-02-05",
+    "werdykt": "OK po korekcie",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      43,
+      44,
+      45
+    ],
+    "sha256": "ee1d7ad398be7cb051c325161a0bd88d914a6f7ed586fc7f06324b429c78976c"
+  },
+  {
+    "kod": "PC-02-06",
+    "werdykt": "OK",
+    "metoda": "Indywidualny pełny odczyt wyjaśnienia, przykładu i pułapki; porównanie z właściwymi definicjami Framework PL i sylabusem.",
+    "strony": [
+      42,
+      45
+    ],
+    "sha256": "b09d2bd2206cd6eb99580b1cf7a6baa7c51bab4428663f4101ed292ee2d821b8"
+  }
+]

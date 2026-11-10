@@ -1,0 +1,36 @@
+# COBIT 5 Foundation — schemat nauki
+
+Kompletny schemat z nauką i testami: **[notatki/schemat-cobit5.html](notatki/schemat-cobit5.html)**.
+
+Repozytorium zawiera wszystkie dane używane przez stronę, w tym pliki o historycznym przyrostku `.local.js` / `.local.json`, tekst i ilustracje podręcznika oraz lokalne materiały testowe. Niczego nie trzeba dokładać z prywatnego katalogu autora. Nazwy plików zachowano dla zgodności strony i zapisanych wyników. Materiały źródłowe zachowują oznaczenia autorstwa ISACA, PeopleCert i Altkom; obecność w repozytorium nie nadaje im licencji open source.
+
+## Uruchomienie
+
+Pobierz repozytorium i otwórz `notatki/schemat-cobit5.html` w przeglądarce. Biblioteki React i React Flow są pobierane z CDN, więc potrzebne jest połączenie z internetem. Można też uruchomić serwer statyczny w katalogu repozytorium: `python3 -m http.server 8123`.
+
+Postęp jest zapisywany w przeglądarce. Zmiana adresu, ścieżki lub przeglądarki może zmienić dostęp do wcześniejszych wyników. W panelu testów można zapisać kopię wyników.
+
+## Nauka i 400 pytań
+
+- 64 cele nauki z objaśnieniami, przykładami i pułapkami.
+- 300 pytań treningowych z uzasadnieniami wszystkich czterech odpowiedzi.
+- Dwa rozłączne sprawdziany A/B po 50 pytań, standardowo 40 minut; pełne omówienie po zakończeniu.
+- Cel treningowy co najmniej 75% oznacza **38/50 = 76%**; 37/50 to 74%.
+- Łącznie 330 pytań autorskich, 50 SP1 i 20 Altkom, z jawnymi korektami dydaktycznymi materiałów lokalnych. To nie jest oficjalny kurs PeopleCert ani gwarancja wyniku egzaminu.
+
+Każde z 400 aktywnych pytań przejrzano osobno. W końcowym przeglądzie wymieniono 13 powtarzających się pozycji i poprawiono 119 zachowanych pytań autorskich; opracowano ponownie wszystkie 200 wyjaśnień SP1. Rejestry aktualnej treści znajdują się w [notatki/audyt/](notatki/audyt/).
+
+## Odtworzenie banku i kontrole
+
+Wymagane Python 3 i Node.js (18 lub nowszy). Generator korzysta z dołączonych 330 pytań w `notatki/pytania-autorskie.json`, korekt oraz 70 pytań w `notatki/materialy-testowe.local.json`. Nie wymaga poprzedniej aplikacji.
+
+```sh
+python3 notatki/generuj-pytania-schematu.py
+node tests/model.cjs
+node tests/schemat.test.cjs
+python3 tests/sprawdz-recenzje.py
+```
+
+Testy sprawdzają logikę, pokrycie zakresu, progi, świeżość pomiarów, czas oraz odsyłacze. **Nie wykonano testu renderowania tej strony w prawdziwej przeglądarce**: narzędzie użyte podczas audytu zablokowało `file://`. Testy Node VM z atrapą DOM nie zastępują kontroli wyglądu.
+
+Zakres merytoryczny oparto na dostarczonych Framework PL/EN, Enabling Processes, sylabusie PeopleCert v01.2, SP1 i materiałach Altkom, z kontrolą [oficjalnego opisu Foundation](https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/COBIT5-10/cobit-5-foundation-2020). Kurs dotyczy COBIT 5, a nie COBIT 2019.

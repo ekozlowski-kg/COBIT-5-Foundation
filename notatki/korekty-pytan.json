@@ -1,0 +1,2488 @@
+{
+  "wersja": "2026-11-10",
+  "pytania": {
+    "q-pc-en1-002": {
+      "sha256Wejscia": "2da5bf2852a3214f566998c9b7c7220f16b4960bb1c3e063317d942707b59a33",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "struktury organizacyjne",
+            "ok": false,
+            "w": "Struktury są potrzebne do realizacji procesu (RACI), ale definicja mówi o politykach i procedurach (s. 69, 71)."
+          },
+          {
+            "t": "polityki",
+            "ok": true,
+            "w": "Praktyki procesu są „ukierunkowane przez polityki i procedury” organizacji (s. 69)."
+          },
+          {
+            "t": "cele organizacji",
+            "ok": false,
+            "w": "Cele są istotne dla procesu, ale cytowana definicja w tej luce wymienia polityki i procedury, a nie cele (FW-PL s. 69)."
+          },
+          {
+            "t": "zasady architektury",
+            "ok": false,
+            "w": "Zasady architektury dotyczą aktywatora Usługi, Infrastruktura i Aplikacje, nie definicji procesu (s. 69)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-012": {
+      "sha256Wejscia": "d812ce249c3c69c4fb9b3d625aa481d9c9a81f437524a24625a0f76dc4b140a0",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Praktyki → wyniki → polityki",
+            "ok": false,
+            "w": "Proces może dostarczać polityk i procedur (s. 71). Ta odpowiedź nie oddaje jednak ogólnej definicji procesu: zbioru praktyk przetwarzających wejścia w wyniki (s. 69)."
+          },
+          {
+            "t": "Polityki → decyzje → zasoby",
+            "ok": false,
+            "w": "To nie jest definicja procesu; decyzje to wynik struktur organizacyjnych (s. 69, 75)."
+          },
+          {
+            "t": "Wyniki → praktyki → wejścia",
+            "ok": false,
+            "w": "Odwrócona kolejność – wyniki są na końcu (s. 69)."
+          },
+          {
+            "t": "Wejścia → przetwarzanie przez praktyki → wyniki",
+            "ok": true,
+            "w": "Praktyki wykorzystują dane wejściowe, przetwarzają je i dostarczają wyniki (s. 69)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-014": {
+      "sha256Wejscia": "bfee19eec93f02fa99435a0d732dba5be0c1e11db3e163d2e678fdc87961cff5",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Audytorów zewnętrznych",
+            "ok": false,
+            "w": "Audytorzy sprawdzają zgodność; wytyczne pochodzą od Ładu i kierownictwa (s. 67)."
+          },
+          {
+            "t": "Organu Ładu i kierownictwa",
+            "ok": true,
+            "w": "Zasady i polityki to mechanizmy komunikacji wytycznych i instrukcji organu nadzorującego (Ładu) i kierownictwa (s. 67)."
+          },
+          {
+            "t": "Klientów i dostawców usług",
+            "ok": false,
+            "w": "Klienci i dostawcy mogą być źródłem wymagań lub współtworzyć uzgodnienia. Definicja tego aktywatora akcentuje jednak komunikowanie kierunku wyznaczonego przez organ Ładu i kierownictwo (s. 67)."
+          },
+          {
+            "t": "Regulatorów zewnętrznych",
+            "ok": false,
+            "w": "Wymagania regulatora mogą wpływać na polityki. Nie zastępują wskazanej w definicji funkcji komunikowania kierunku i instrukcji organu Ładu oraz kierownictwa (s. 67)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-017": {
+      "sha256Wejscia": "056d53c32fa02c8e30ddf95bcb70475d7918d7f69fd41024f1bbfdafcf915ba7",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Której cechy NIE wymieniono w podręcznikowej liście wymagań wobec dobrych struktur ramowych (FW-PL s. 67)?"
+      }
+    },
+    "q-pc-en1-018": {
+      "sha256Wejscia": "b7077e1f8cfa58fd003bdbad4fe6c6905f8f79ec6caf990e8bc3a0ec4d882709",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Który element aktywatora Zasady, Polityki i Struktury ramowe wyraża podstawowe wartości organizacji?"
+      }
+    },
+    "q-pc-en1-023": {
+      "sha256Wejscia": "df2b5a2b60116ea19cb8e96fba9f8453cd05173a256e5e44755df10912d47a57",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "W której kategorii aktywatorów COBIT 5 wymienia polityki wprost?",
+        "z": [
+          "FW-PL s. 27",
+          "FW-PL s. 67"
+        ],
+        "o": [
+          {
+            "t": "Informacja",
+            "ok": false,
+            "w": "Polityka zapisana w dokumencie jest również informacją. Pytanie dotyczy jednak kategorii, której nazwa i opis wprost obejmują polityki (s. 27, 67)."
+          },
+          {
+            "t": "Procesy",
+            "ok": false,
+            "w": "Procesy realizują polityki, ale polityka należy do pierwszego aktywatora (s. 68)."
+          },
+          {
+            "t": "Struktury organizacyjne",
+            "ok": false,
+            "w": "Struktury mogą definiować polityki, ale same są jednostkami decyzyjnymi (s. 68, 75)."
+          },
+          {
+            "t": "Zasady, Polityki i Struktury ramowe",
+            "ok": true,
+            "w": "Polityki są częścią aktywatora Zasady, Polityki i Struktury ramowe (s. 67)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-025": {
+      "sha256Wejscia": "14ecab46073e5e72a515d553d66756c52a7227a165ff0f8a034c217ae7a09437",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Jaką funkcję przypisuje definicja politykom jako bardziej szczegółowym wytycznym względem zasad?",
+        "o": [
+          {
+            "t": "Wyrażają podstawowe wartości organizacji",
+            "ok": false,
+            "w": "Polityki także mogą odzwierciedlać wartości. Podstawowe wartości są jednak punktem wyjścia zasad, natomiast polityki przekładają je na bardziej szczegółowe wytyczne (s. 67)."
+          },
+          {
+            "t": "Są nadrzędne wobec zasad organizacji",
+            "ok": false,
+            "w": "Odwrotnie: polityki wynikają z zasad i się do nich odnoszą (s. 67–68)."
+          },
+          {
+            "t": "Muszą być nieliczne i sformułowane prosto",
+            "ok": false,
+            "w": "Ograniczona liczba i prosty język to kryteria ZASAD (s. 67)."
+          },
+          {
+            "t": "Dają szczegółowe wytyczne stosowania zasad w praktyce",
+            "ok": true,
+            "w": "Polityki zawierają bardziej szczegółowe wytyczne praktycznego zastosowania zasad (s. 67)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-030": {
+      "sha256Wejscia": "e5b92196dada4adc7ba4f700c9f86e9c831382617a4a5b39c9ada646880e23a8",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Ubezpieczyciel przyjął zbiór szczegółowych wytycznych określających progi zatwierdzania wypłat. Który aktywator opisuje ten zbiór wytycznych?",
+        "o": [
+          {
+            "t": "Zasada",
+            "ok": false,
+            "w": "Zasada wyraża podstawową wartość, np. rzetelność obsługi. Szczegółowe wytyczne postępowania i progi zatwierdzania są w tym przykładzie treścią polityki (s. 67)."
+          },
+          {
+            "t": "Struktura ramowa",
+            "ok": false,
+            "w": "Struktura ramowa porządkuje cały zbiór polityk i daje kierownictwu narzędzia (s. 67–68)."
+          },
+          {
+            "t": "Polityka",
+            "ok": true,
+            "w": "Polityki stanowią szczegółowe wytyczne przekładające zasady na codzienne postępowanie; mogą określać progi zatwierdzania (s. 67–68)."
+          },
+          {
+            "t": "Struktura organizacyjna",
+            "ok": false,
+            "w": "Struktura organizacyjna to jednostka decyzyjna, nie dokument (s. 75)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-031": {
+      "sha256Wejscia": "ea4bc7c79efd4ae543023d957708346d3a9747eb00e04692df6014de1f14f672",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Której cechy NIE wymieniono w podręcznikowej liście cech dobrych zasad (FW-PL s. 67)?"
+      }
+    },
+    "q-pc-en1-035": {
+      "sha256Wejscia": "6ad44d6d9e08af0c3b097bc10d165a2984459e26bea9ccb7b040e27f288895e2",
+      "uzasadnienie": "Usunięto przykład okresowej zmiany haseł, aby nie przedstawiać go jako zalecenia bezpieczeństwa COBIT.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Nowe uprawnienia do dokumentów zatwierdza właściciel informacji; wyjątki rozpatruje wskazana rola.",
+            "ok": true,
+            "w": "To przykład autorskiej polityki: konkretne wytyczne określające postępowanie i odpowiedzialność. COBIT 5 nie nakazuje tego konkretnego rozwiązania (s. 67)."
+          },
+          {
+            "t": "Szanujemy czas mieszkańców",
+            "ok": false,
+            "w": "Krótkie zdanie o wartościach – zasada (s. 67)."
+          },
+          {
+            "t": "Działamy uczciwie i przejrzyście",
+            "ok": false,
+            "w": "Krótkie zdanie o wartościach – zasada (s. 67)."
+          },
+          {
+            "t": "Chronimy dane jak własne",
+            "ok": false,
+            "w": "Krótkie zdanie o wartościach – zasada (s. 67)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-038": {
+      "sha256Wejscia": "f2d440f1f8132fa65d850ad57f5087b0bf0bc4fcb9d9d25f275bb756b8812649",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "zap": "Wydajność polityki: wdrożenie w sposób najbardziej efektywny z punktu widzenia zasobów, przy osiąganiu zamierzonego wyniku (FW-PL s. 67).",
+        "o": [
+          {
+            "t": "Odzwierciedla aktualne cele organizacji",
+            "ok": false,
+            "w": "Aktualność to cecha struktur ramowych (s. 67)."
+          },
+          {
+            "t": "Zapewnia wdrożenie zasad w najbardziej wydajny sposób",
+            "ok": true,
+            "w": "Wydajność odnosi się do zasobów potrzebnych do wdrożenia polityki. Nie sprowadza się do obniżania kosztów pieniężnych niezależnie od wyniku (s. 67)."
+          },
+          {
+            "t": "Wydaje się logiczna jej odbiorcom",
+            "ok": false,
+            "w": "To opis polityki NIEINWAZYJNEJ (s. 67)."
+          },
+          {
+            "t": "Umożliwia osiągnięcie wskazanego celu",
+            "ok": false,
+            "w": "To opis polityki SKUTECZNEJ (s. 67)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-041": {
+      "sha256Wejscia": "10563e9c05e1631ffc374b7552ed2cc7ab14349083c7211935abbb09330b4312",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "W której liście cech podręcznik umieszcza „ograniczoną liczbę” elementów?",
+        "zap": "Ograniczoną liczbę wymieniono przy zasadach. Przy politykach: skuteczność, wydajność i nieinwazyjność.",
+        "o": [
+          {
+            "t": "W wymaganiach wobec struktur ramowych",
+            "ok": false,
+            "w": "Struktury ramowe mają być kompleksowe, otwarte, aktualne i dostępne (s. 67)."
+          },
+          {
+            "t": "Jako czwartą główną cechę dobrych polityk",
+            "ok": false,
+            "w": "COBIT 5 podaje trzy cechy dobrych polityk (s. 67)."
+          },
+          {
+            "t": "W kryteriach dobrych zasad",
+            "ok": true,
+            "w": "FW-PL s. 67 wymienia ograniczoną liczbę zasad. Nie ustanawia przez to zakazu racjonalizowania liczby polityk w organizacji."
+          },
+          {
+            "t": "W wymaganiach dotyczących procedur eskalacji",
+            "ok": false,
+            "w": "Procedury eskalacji to dobra praktyka struktur organizacyjnych (s. 75)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-049": {
+      "sha256Wejscia": "93979a47eea21e6b5526aa5fe8f2994d091ca701a63f044d31678c0254af92c9",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "celów",
+            "ok": true,
+            "w": "Polityki mają cykl życia, który musi wspierać realizację zdefiniowanych celów (s. 68)."
+          },
+          {
+            "t": "budżetów",
+            "ok": false,
+            "w": "Budżety mogą wpływać na tworzenie i utrzymanie polityk. W przytoczonym zdaniu o cyklu życia chodzi jednak o cykl życia organizacji i jej cele (s. 68)."
+          },
+          {
+            "t": "procesów",
+            "ok": false,
+            "w": "Procesy realizują polityki; zdanie mówi o celach (s. 68)."
+          },
+          {
+            "t": "ról",
+            "ok": false,
+            "w": "Role uczestniczą w cyklu życia polityk. Nie są jednak wyrazem uzupełniającym cytowany opis powiązania z cyklem życia i celami organizacji (s. 68)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-050": {
+      "sha256Wejscia": "46633350455fb3c56d517323326fb2c0138e6ec8f765aa1e541acfc56736e3d9",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Właściwie ją zarchiwizować i wycofać",
+            "ok": true,
+            "w": "Kluczowa jest aktualność: dostęp do najnowszej wersji oraz archiwizacja i pozbywanie się nieaktualnych (s. 68)."
+          },
+          {
+            "t": "Pozostawić dwie nieoznaczone wersje jako równocześnie obowiązujące",
+            "ok": false,
+            "w": "Należy jednoznacznie oznaczyć wersję aktualną. Zachowanie poprzedniej wersji w oznaczonym archiwum może być zasadne; dwie sprzeczne wersje obowiązujące równocześnie wprowadzają niejasność (s. 68)."
+          },
+          {
+            "t": "Przekształcić ją w zasadę organizacji",
+            "ok": false,
+            "w": "Zasady to podstawowe wartości, nie stare polityki (s. 67)."
+          },
+          {
+            "t": "Przekazać ją do oceny zdolności procesu",
+            "ok": false,
+            "w": "Polityka może być dowodem w ocenie procesu. Sama ocena nie zastępuje jednak jej aktualizacji, wycofania lub oznaczenia wersji (s. 68)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-051": {
+      "sha256Wejscia": "69a8ca2721962c17f04cd41fa9f0139645e13eafdf8684f3845507d7760ef294",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Co zapewnia struktura ramowa polityk w ich cyklu życia?",
+        "o": [
+          {
+            "t": "Decyzje podejmowane przez komitety",
+            "ok": false,
+            "w": "Decyzje komitetów mogą prowadzić do zmiany polityk. Opis struktury ramowej polityk podkreśla jednak utworzenie i utrzymanie ich spójnego zbioru (s. 68)."
+          },
+          {
+            "t": "Wejścia dla procesów domeny MEA",
+            "ok": false,
+            "w": "Informacje o politykach mogą zasilać procesy MEA. Nie jest to jednak podstawowa rola struktury ramowej wskazana w tym fragmencie (s. 68)."
+          },
+          {
+            "t": "Strukturę do tworzenia i utrzymania spójnego zbioru polityk",
+            "ok": true,
+            "w": "Metodyka dotycząca polityk zapewnia strukturę do utworzenia i utrzymania spójnego zbioru polityk (s. 68)."
+          },
+          {
+            "t": "Ograniczoną liczbę wartości organizacji",
+            "ok": false,
+            "w": "To kryterium zasad (s. 67)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-056": {
+      "sha256Wejscia": "02f95baba983fcfaed05b04c7e2a57fdf37e43a18bedc0d0216e0c9acf589805",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Które dopasowanie tekst podręcznika wskazuje wprost wśród dobrych praktyk polityk?",
+        "o": [
+          {
+            "t": "Do liczby interesariuszy zewnętrznych",
+            "ok": false,
+            "w": "Skład interesariuszy wpływa na kontekst, ale w tej praktyce podręcznik wskazuje dopasowanie polityk do apetytu na ryzyko (s. 68)."
+          },
+          {
+            "t": "Do apetytu na ryzyko organizacji",
+            "ok": true,
+            "w": "Polityki powinny być dopasowane do apetytu na ryzyko (s. 68)."
+          },
+          {
+            "t": "Do wysokości budżetu IT",
+            "ok": false,
+            "w": "Budżet jest uwarunkowaniem wdrożenia polityki. W tym fragmencie wskazano jednak wprost dopasowanie do apetytu na ryzyko (s. 68)."
+          },
+          {
+            "t": "Do poziomu zdolności procesów",
+            "ok": false,
+            "w": "Stan zdolności procesu może wpływać na sposób wdrożenia polityki. Nie jest jednak wymienionym w tym punkcie dopasowaniem do apetytu na ryzyko (s. 68)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-058": {
+      "sha256Wejscia": "b9d5dbbc6bce6c2029f554497fb0ac7ecc8f41674e6c3cddd52afc9c736ee8c8",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Do wskaźników opóźnionych",
+            "ok": false,
+            "w": "Wskaźniki opóźnione mierzą osiągnięcie celów (s. 29)."
+          },
+          {
+            "t": "Do diagramu RACI",
+            "ok": false,
+            "w": "RACI opisuje role w procesie (s. 69)."
+          },
+          {
+            "t": "Do podstawowych zasad",
+            "ok": true,
+            "w": "Każda polityka powinna wyraźnie odnosić się do podstawowych zasad (s. 68)."
+          },
+          {
+            "t": "Do procedur eskalacji",
+            "ok": false,
+            "w": "Eskalacja to dobra praktyka struktur organizacyjnych (s. 75)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-061": {
+      "sha256Wejscia": "0c8deb10ea7dff793f9bcdd7f56f46031a2bb7942b95a4d3a3e9c2010af76550",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Wbudowanie jej w praktyki i działania procesu",
+            "ok": true,
+            "w": "Najistotniejszym środkiem realizacji polityk są praktyki i działania procesów (s. 68)."
+          },
+          {
+            "t": "Powołanie nowej rady nadzorczej",
+            "ok": false,
+            "w": "Struktury definiują i wdrażają polityki, ale główny nośnik to procesy (s. 68)."
+          },
+          {
+            "t": "Opublikowanie jej jako wskaźnika wiodącego",
+            "ok": false,
+            "w": "Wskaźniki mierzą, nie wykonują polityk (s. 29)."
+          },
+          {
+            "t": "Dopisanie jej do zasad szpitala",
+            "ok": false,
+            "w": "Zasady to podstawowe wartości; polityki je uszczegóławiają (s. 67)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-060": {
+      "sha256Wejscia": "65e8ca41fdc6d6138ac42c1987c49253cdb7d39e4f18087be8b57b5cfb27567f",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "środkiem",
+            "ok": true,
+            "w": "Praktyki i działania procesów są najistotniejszym środkiem realizacji polityk (s. 68)."
+          },
+          {
+            "t": "celem",
+            "ok": false,
+            "w": "Procesy realizują polityki – nie są ich celem (s. 68)."
+          },
+          {
+            "t": "wynikiem",
+            "ok": false,
+            "w": "Praktyki mogą powstawać lub zmieniać się pod wpływem polityk. W cytowanym zdaniu rozpoznajemy jednak ich rolę jako środka realizacji polityk, a nie wyniku (s. 68)."
+          },
+          {
+            "t": "właścicielem",
+            "ok": false,
+            "w": "Właściciela ma proces; zdanie dotyczy realizacji polityk (s. 68)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-062": {
+      "sha256Wejscia": "195cbf70dc5fb0f3a30f1610719b7e51b5d2d1b8d3995dbdc0b330c53f16225e",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Struktury organizacyjne",
+            "ok": false,
+            "w": "Inne aktywatory również mogą być powiązane z etyką. Pytanie dotyczy wskazanej w tym fragmencie relacji zasad i polityk z pożądanymi wartościami i zachowaniami (s. 68)."
+          },
+          {
+            "t": "Informacja",
+            "ok": false,
+            "w": "Związek z Informacją wynika z tego, że polityki są informacją, nie z etyki (s. 68)."
+          },
+          {
+            "t": "Procesy",
+            "ok": false,
+            "w": "Procesy są głównym środkiem realizacji polityk – to inny związek (s. 68)."
+          },
+          {
+            "t": "Kultura, Etyka i Zachowanie",
+            "ok": true,
+            "w": "Zasady i polityki mają odzwierciedlać kulturę i wartości etyczne – silny związek z Kulturą, Etyką i Zachowaniem (s. 68)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-073": {
+      "sha256Wejscia": "d4db50aabfe0d5ded8dcd003163a069a4657ce21527e50aa6df09417c45e617c",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Która grupa NIE należy do zewnętrznych interesariuszy procesu? Wybierz według przykładowej klasyfikacji na s. 69 FW-PL."
+      }
+    },
+    "q-pc-en1-081": {
+      "sha256Wejscia": "1685d6fc2865b7f55eff677860007b28ac1f0cf21b43b0e098a872c08a4dfb91",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Uzupełnij brakujące słowo: „Interesariusze wewnętrzni procesu to zarząd, kierownictwo, pracownicy i [?]”. Odpowiedz według przykładowej klasyfikacji FW-PL s. 69.",
+        "zap": "Wolontariusze – czwarta grupa interesariuszy wewnętrznych. To klasyfikacja przykładowa; położenie granicy organizacji i przyjęta rola mogą zmieniać kontekst."
+      }
+    },
+    "q-pc-en1-082": {
+      "sha256Wejscia": "cf761efb063791e023758c69da8e8e70026b1420b615d4c4b0f1bf54e5b5ee14",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Które zdanie o interesariuszach procesu jest prawdziwe? Odpowiedz według przykładowej klasyfikacji FW-PL s. 69.",
+        "zap": "Udziałowcy – zewnętrzni; zarząd – wewnętrzny. To klasyfikacja przykładowa; położenie granicy organizacji i przyjęta rola mogą zmieniać kontekst."
+      }
+    },
+    "q-pc-en1-089": {
+      "sha256Wejscia": "acd082cc603eefd254ef8ca692b0b00e702489e5cae75758e5e066c3da807c3b",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "zap": "Czytając od dołu: cele procesu wspierają cele IT, a te cele organizacji. To kierunek wsparcia, odwrotny do rozwijania kaskady od potrzeb.",
+        "o": [
+          {
+            "t": "cele organizacji",
+            "ok": true,
+            "w": "Cele procesu wspierają realizację celów związanych z IT, które wspierają osiągnięcie celów przedsiębiorstwa (organizacji) (s. 69)."
+          },
+          {
+            "t": "cele aktywatorów",
+            "ok": false,
+            "w": "Kolejność kaskady jest odwrotna: cele aktywatorów (procesu) są na dole (s. 69)."
+          },
+          {
+            "t": "cele dostępności i bezpieczeństwa",
+            "ok": false,
+            "w": "To kategoria celów procesu, nie poziom kaskady (s. 69)."
+          },
+          {
+            "t": "potrzeby interesariuszy",
+            "ok": false,
+            "w": "Cele organizacji mają zaspokajać potrzeby interesariuszy. W bezpośrednim kolejnym kroku przytoczonej zależności cele IT wspierają jednak cele organizacji (s. 69)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-100": {
+      "sha256Wejscia": "98c475491e04662d9141ca8c8dc0c9aef95908730f495c3204ef7bf0dea44679",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Cykl życia którego aktywatora opisano na s. 70 FW-PL słowami: definiowany, tworzony, obsługiwany, monitorowany, dostosowywany lub wycofywany?"
+      }
+    },
+    "q-pc-en1-102": {
+      "sha256Wejscia": "9cc79cd1dcf072550449eb0aa504d382aa491273073490e2ca879f5e6d0a196f",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Który element procesu opisano w podręczniku jako deklarację działań umożliwiających uzyskanie korzyści, optymalizację ryzyka i zasobów?",
+        "o": [
+          {
+            "t": "Działanie",
+            "ok": false,
+            "w": "Działania wdrażają praktyki i także służą uzyskiwaniu korzyści. Przytoczony opis ogólnych deklaracji odnosi się jednak do praktyk (s. 70)."
+          },
+          {
+            "t": "Praktyka",
+            "ok": true,
+            "w": "Praktyki są deklaracjami działań umożliwiającymi uzyskanie korzyści, optymalizację ryzyka i zasobów (s. 70)."
+          },
+          {
+            "t": "Wynik",
+            "ok": false,
+            "w": "Wyniki to produkty działań/pozostałości (s. 70)."
+          },
+          {
+            "t": "Szczegółowe działanie",
+            "ok": false,
+            "w": "To dodatkowe wytyczne, np. z ITIL czy PRINCE2 (s. 70)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-108": {
+      "sha256Wejscia": "c6a175e89a04fc45318b900e58b3cb41f3bcd4f2ce42aa9ec74deff60fdd6819",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "zap": "Organizacja dobiera praktyki do kontekstu. Świadome niewdrożenie praktyki mającej zastosowanie oznacza akceptację związanego z tym ryzyka.",
+        "o": [
+          {
+            "t": "Bank musi uzyskać zgodę ISACA",
+            "ok": false,
+            "w": "COBIT 5 nie wymaga zgody ISACA (s. 70)."
+          },
+          {
+            "t": "Proces automatycznie ma poziom zdolności 0",
+            "ok": false,
+            "w": "Brak pojedynczej praktyki nie wyznacza automatycznie poziomu 0. Zdolność ocenia się na podstawie osiągnięcia wyników procesu i atrybutów (s. 70, 45–46)."
+          },
+          {
+            "t": "Bank musi usunąć proces z modelu PRM",
+            "ok": false,
+            "w": "Podręcznik tego nie wymaga (s. 70)."
+          },
+          {
+            "t": "Bank akceptuje ryzyko jej niewdrożenia",
+            "ok": true,
+            "w": "Ład i kierownictwo wybierają praktyki, m.in. akceptując ryzyko niewdrożenia praktyk, które mogą mieć zastosowanie (s. 70)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-109": {
+      "sha256Wejscia": "abbf46b647ef760eb6cf408a12d06b66df55d0279524236ebdc9be4ba111911c",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Wyrażają podstawowe wartości",
+            "ok": false,
+            "w": "Produkt pracy może zawierać opis wartości. Ogólna funkcja wejść i wyjść podana tutaj to wsparcie decyzji, rejestr i ścieżka rewizyjna (s. 70)."
+          },
+          {
+            "t": "Określają apetyt na ryzyko organizacji",
+            "ok": false,
+            "w": "Deklaracja apetytu na ryzyko może być produktem pracy. Samo pojęcie wejść i wyjść ma jednak szerszą funkcję: wsparcie decyzji i zapewnienie śladu (s. 70)."
+          },
+          {
+            "t": "Zastępują diagram RACI",
+            "ok": false,
+            "w": "RACI opisuje role, a produkty pracy – efekty (s. 69–70)."
+          },
+          {
+            "t": "Wspierają kluczowe decyzje i dają ścieżkę rewizyjną",
+            "ok": true,
+            "w": "Wejścia i wyniki umożliwiają kluczowe decyzje, zapewniają rejestr i ścieżkę rewizyjną (s. 70)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-111": {
+      "sha256Wejscia": "75c8f2200c11bf45f8493a565547ec789945fb0cc0d0cd5fa422e019ba623ad5",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Audytor zewnętrzny",
+            "ok": false,
+            "w": "Audytor może doradzać lub oceniać. Wybór praktyk do wdrożenia pozostaje odpowiedzialnością organu Ładu i kierownictwa organizacji (s. 70)."
+          },
+          {
+            "t": "ISACA",
+            "ok": false,
+            "w": "ISACA tworzy COBIT 5, ale wyboru dokonuje organizacja (s. 70)."
+          },
+          {
+            "t": "Organ Ładu i kadra kierownicza",
+            "ok": true,
+            "w": "Organ nadzorujący oraz kadra kierownicza dokonują wyboru praktyk do wdrożenia (s. 70)."
+          },
+          {
+            "t": "Dostawcy usług IT",
+            "ok": false,
+            "w": "Dostawcy mogą uczestniczyć we wdrożeniu i proponować praktyki. Nie przejmują przez to odpowiedzialności organu Ładu i kierownictwa za wybór (s. 70)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-118": {
+      "sha256Wejscia": "fe05fdaabea5f3d1334584e65eb7c3bd5ba5cd5627a21037ad915af4093a7530",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Którą parę elementów wymienia FW-PL s. 71 w relacji: procesy mogą je dostarczać lub ich wymagać dla spójnego wdrożenia?",
+        "o": [
+          {
+            "t": "Kategorii umiejętności",
+            "ok": false,
+            "w": "Procesy potrzebują odpowiednich umiejętności. Przytoczona relacja mówi jednak o politykach i procedurach (s. 71)."
+          },
+          {
+            "t": "Modelu informacji",
+            "ok": false,
+            "w": "Proces może tworzyć model informacji. Cytowane zdanie dotyczy jednak polityk i procedur zapewniających spójność realizacji (s. 71)."
+          },
+          {
+            "t": "Zasad architektury",
+            "ok": false,
+            "w": "Proces może dostarczać zasad architektury. Przytoczona ogólna relacja wymienia polityki i procedury (s. 71)."
+          },
+          {
+            "t": "Polityk i procedur",
+            "ok": true,
+            "w": "Procesy umożliwiają uzyskanie (lub wymagają) polityk i procedur zapewniających spójne wdrożenie i realizację (s. 71)."
+          }
+        ]
+      }
+    },
+    "q-pc-en1-128": {
+      "sha256Wejscia": "80d4b648f49ccdd5b95a3f86acda39cfcb5d5b3854819edd0003b324b1e2ef97",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Którego elementu NIE wymieniono w liście dobrych praktyk struktur organizacyjnych (FW-PL s. 75)?"
+      }
+    },
+    "q-pc-en2-003": {
+      "sha256Wejscia": "08bd6d5f27cfd8edae0377110ab48ef033d6af4037e8a40f3a6e1626188467bd",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Opis której roli na Rysunku 33 wskazuje wprost monitorowanie ryzyka i wpływu przepisów o ochronie prywatności na biznes?",
+        "zap": "W Rysunku 33 dyrektor ds. prywatności monitoruje wpływ przepisów i ryzyko prywatności. To opis COBIT 5 z 2012 r., a nie automatyczne utożsamienie z każdą późniejszą rolą prawną inspektora ochrony danych.",
+        "o": [
+          {
+            "t": "Kierownik ds. bezpieczeństwa informacji",
+            "ok": false,
+            "w": "Bezpieczeństwo informacji obejmuje także ochronę danych. W Rysunku 33 opis monitorowania wpływu przepisów o prywatności wyróżnia jednak dyrektora ds. prywatności (s. 77)."
+          },
+          {
+            "t": "Funkcja Zgodność",
+            "ok": false,
+            "w": "Funkcja zgodności także zajmuje się tymi przepisami. Jej opis jest ogólny; przytoczone szczegółowe zadanie wyróżnia opis dyrektora ds. prywatności (s. 76–77)."
+          },
+          {
+            "t": "Dyrektor ds. ryzyka (CRO)",
+            "ok": false,
+            "w": "CRO odpowiada za wszystkie aspekty zarządzania ryzykiem w całej organizacji (s. 76)."
+          },
+          {
+            "t": "Dyrektor ds. prywatności",
+            "ok": true,
+            "w": "Monitoruje ryzyko i wpływ przepisów o prywatności oraz koordynuje polityki; zwany też dyrektorem ds. ochrony danych (s. 77)."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-016": {
+      "sha256Wejscia": "5173e33182048230ae3cdff81cf88a819fe4ffd8e625786386741461b2cc45e7",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Którego elementu NIE wymieniono w liście dobrych praktyk kształtowania pożądanego zachowania (FW-PL s. 80)?",
+        "zap": "W tej klasyfikacji: procedury eskalacji → struktury; komunikowanie, przykład, zachęty, reguły i normy → kultura. Aktywatory współdziałają."
+      }
+    },
+    "q-pc-en2-023": {
+      "sha256Wejscia": "14461c7ad50727c9aa45ec4609be3375d352b825cc45a87dc556e64c16566ed1",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Jak opisano praktykę „świadomość” w liście dobrych praktyk aktywatora Kultura, Etyka i Zachowanie (FW-PL s. 80)?",
+        "zap": "W liście FW-PL s. 80 świadomość akcentuje przykład kierownictwa i osób wspierających; nie wyklucza to innych metod zwiększania świadomości.",
+        "o": [
+          {
+            "t": "Na szkoleniach z kategorii umiejętności",
+            "ok": false,
+            "w": "Szkolenia także mogą zwiększać świadomość. W tym konkretnym punkcie listy praktyk wskazano jednak przykład kierownictwa i czempionów (s. 80)."
+          },
+          {
+            "t": "Na publikowaniu zasad operacyjnych komitetów",
+            "ok": false,
+            "w": "Zasady operacyjne to praktyka Struktur organizacyjnych (s. 75)."
+          },
+          {
+            "t": "Na przykładzie kierownictwa i czempionów",
+            "ok": true,
+            "w": "Świadomość pożądanych zachowań zwiększa przykład kierownictwa wyższego szczebla i osób wspierających (s. 80)."
+          },
+          {
+            "t": "Na nagradzaniu za realizację budżetu",
+            "ok": false,
+            "w": "Nagrody to zachęty; Przykład 11 pokazuje, że nagroda tylko za budżet szkodzi jakości (s. 80)."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-026": {
+      "sha256Wejscia": "e0875f23da726ba79b70e69a8f3695a791603c74037e6d71f4513e1de47efe71",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Która odpowiedź wymienia cele aktywatora Kultura, Etyka i Zachowanie w kolejności: wartości organizacji, wartości osoby, wzorce postępowania?",
+        "zap": "Etyka organizacyjna, etyka indywidualna i indywidualne wzorce zachowań to elementy opisu celów; nie jest to obowiązkowa chronologiczna sekwencja wdrożenia."
+      }
+    },
+    "q-pc-en2-031": {
+      "sha256Wejscia": "7cabe5e8d7867044bf59ca07b6d32cc3d1a804a1ea9bbcc9c442fcf5e331e42d",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Którą opcję wymieniono jako przykład zachowania indywidualnego w opisie celów (s. 79), a pozostałe jako praktyki kształtowania kultury (s. 80)?"
+      }
+    },
+    "q-pc-en2-034": {
+      "sha256Wejscia": "59ee1f8ad16d2cbf87b608c41ec7ec383078915b82495e0c1577f9ca02c91b11",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "wartości",
+            "ok": true,
+            "w": "Etyka organizacji jest determinowana przez wartości, które mają być podstawą jej funkcjonowania (s. 79)."
+          },
+          {
+            "t": "regulacje",
+            "ok": false,
+            "w": "Regulacje mogą wpływać na organizację i jej wartości. Cytowana definicja etyki organizacyjnej wskazuje jednak wartości, które mają stanowić podstawę jej funkcjonowania (s. 79)."
+          },
+          {
+            "t": "procedury",
+            "ok": false,
+            "w": "Procedury mogą wzmacniać zachowania i odzwierciedlać wartości. W tej definicji podstawę etyki stanowią jednak wartości (s. 79)."
+          },
+          {
+            "t": "zasoby",
+            "ok": false,
+            "w": "Zasoby nie są w definicji etyki organizacji (s. 79)."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-043": {
+      "sha256Wejscia": "25c015c883211ef1f7a83117425744f2bec094d0439b45559742a149e0c3a719",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Które powiązanie Kultury, Etyki i Zachowania z innym aktywatorem wymieniono wprost w FW-PL s. 80?",
+        "o": [
+          {
+            "t": "Informacja determinuje etykę indywidualną",
+            "ok": false,
+            "w": "Informacja może wpływać na przekonania człowieka, ale definicja etyki indywidualnej akcentuje osobiste wartości i czynniki zewnętrzne. Przytoczony fragment s. 80 opisuje inną relację."
+          },
+          {
+            "t": "Usługi określają osobiste wartości pracowników",
+            "ok": false,
+            "w": "Usługi mogą wpływać na doświadczenia i zachowania. Wskazana relacja z s. 80 dotyczy jednak komunikowania wartości przez zasady i polityki."
+          },
+          {
+            "t": "Procesy zastępują potrzebę właściwych zachowań pracowników",
+            "ok": false,
+            "w": "Odwrotnie: procesy wymagają właściwych zachowań (s. 80)."
+          },
+          {
+            "t": "Polityki komunikują wartości i pożądane zachowanie",
+            "ok": true,
+            "w": "Zasady i polityki to bardzo ważny mechanizm komunikowania wartości korporacyjnych i pożądanego zachowania (s. 80)."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-046": {
+      "sha256Wejscia": "506a2e075797189e9e8618ca2c9cb38f1db2f2f5dbee0cb82cbd229610d4fc72",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Bank chce zbudować kulturę ukierunkowaną na usługi. Którą relację z innym aktywatorem COBIT 5 wskazuje w tym kontekście wprost (FW-PL s. 86)?",
+        "o": [
+          {
+            "t": "Aspekty związane z zachowaniem i kulturą",
+            "ok": true,
+            "w": "Relacje aktywatora Usługi: gdy trzeba zbudować kulturę usług, istotne są aspekty zachowania i kultury (s. 86)."
+          },
+          {
+            "t": "Poziomy usług zapisane w umowach",
+            "ok": false,
+            "w": "Uzgodnione poziomy usług również są istotne. Pytanie dotyczy jednak wskazanej relacji między aktywatorem usług a kulturą i zachowaniami."
+          },
+          {
+            "t": "Pryncypium otwartości architektury",
+            "ok": false,
+            "w": "Otwartość architektury może wspierać świadczenie usług, lecz nie jest opisaną relacją z aktywatorem kultury."
+          },
+          {
+            "t": "Warstwa fizyczna informacji",
+            "ok": false,
+            "w": "Warstwa fizyczna opisuje nośnik informacji (s. 83)."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-052": {
+      "sha256Wejscia": "54fb02efada2761b7745e5e0360c4a57fe235d596bb7a9858e5ffe09fd791975",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Raport spełnia potrzeby dyrektora szpitala, ale jego ręczne przygotowanie zajmuje tydzień, mimo że te same informacje można wiarygodnie uzyskać w godzinę. Które kryterium wymaga poprawy?",
+        "zap": "Spełnienie potrzeb odbiorcy odnosi się do skuteczności. Niepotrzebny nakład zasobów na uzyskanie i użycie informacji wskazuje problem wydajności."
+      }
+    },
+    "q-pc-en2-067": {
+      "sha256Wejscia": "34ba080d9509003d3b6d4e870b1c4cfeb8fe988a3feecac0fe95402e86d97ffe",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "dane",
+            "ok": true,
+            "w": "Procesy biznesowe generują i przetwarzają dane, przekształcając je w informacje i wiedzę (s. 81)."
+          },
+          {
+            "t": "usługi",
+            "ok": false,
+            "w": "Usługi nie są punktem wyjścia cyklu informacji (s. 81)."
+          },
+          {
+            "t": "zasoby",
+            "ok": false,
+            "w": "Rysunek 35 zaczyna się od danych (s. 81)."
+          },
+          {
+            "t": "decyzje",
+            "ok": false,
+            "w": "Decyzje mogą też generować nowe dane i informacje. Cytowane zdanie z opisu cyklu informacji mówi jednak o przetwarzaniu danych w informacje i wiedzę (s. 81)."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-076": {
+      "sha256Wejscia": "dcaf8ad2c84afa62607f650a650be1ae280ac519f1b46964884444a72f1d7c60",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Którego zastosowania NIE wymieniono w trzech przykładach zastosowania modelu informacji (Przykłady 13–15, FW-PL s. 84)?"
+      }
+    },
+    "q-pc-en2-077": {
+      "sha256Wejscia": "448dac57fa4e077a1aab0187e2bea97421c8e0614d98791913ffe50029f744d6",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "z": [
+          "FW-PL s. 84",
+          "Enabling Processes s. 25"
+        ],
+        "o": [
+          {
+            "t": "Do ustalenia budżetu projektu",
+            "ok": false,
+            "w": "Przykład 13 nie mówi o budżecie (s. 84)."
+          },
+          {
+            "t": "Do opracowania przypadków testowych",
+            "ok": true,
+            "w": "Testerzy analizują kryteria jakości informacji, by opracować kompleksowy zbiór przypadków testowych (s. 84)."
+          },
+          {
+            "t": "Do przypisania ról w diagramie RACI",
+            "ok": false,
+            "w": "RACI przypisuje odpowiedzialność za praktyki. W Przykładzie 13 chodzi o wykorzystanie kryteriów jakości informacji do przygotowania przypadków testowych (s. 84; opis RACI: Enabling Processes s. 25)."
+          },
+          {
+            "t": "Do oceny zdolności procesu",
+            "ok": false,
+            "w": "Informacja może stanowić dowód w ocenie procesu. Przykład 13 opisuje jednak opracowanie przypadków testowych, nie wyznaczenie poziomu zdolności (s. 84)."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-082": {
+      "sha256Wejscia": "0c572e90042a78f8292cdf283f32f15b7809745624462708fc9d7e5e7477e73f",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Zgody wszystkich interesariuszy zewnętrznych",
+            "ok": false,
+            "w": "Pryncypium nie wymaga zgody interesariuszy zewnętrznych (s. 86)."
+          },
+          {
+            "t": "Zatwierdzonego powodu samodzielnego tworzenia",
+            "ok": true,
+            "w": "Rozwiązania należy nabywać, chyba że istnieje zatwierdzony powód, by opracować je w organizacji (s. 86)."
+          },
+          {
+            "t": "Wyboru zawsze najtańszego rozwiązania dostępnego na rynku",
+            "ok": false,
+            "w": "Pryncypium nie mówi o najniższej cenie (s. 86)."
+          },
+          {
+            "t": "Oparcia się na architekturze referencyjnej",
+            "ok": false,
+            "w": "Architektura referencyjna (w tym tłumaczeniu: bazowa) opisuje obecną zdolność usługową. Samo jej posiadanie nie jest wskazanym w pryncypium uzasadnieniem samodzielnego tworzenia rozwiązania (s. 85–86)."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-086": {
+      "sha256Wejscia": "328f7a241f07bf690c4c24c0f5d293514984851024066e5a6c76805159bfcde4",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Którego elementu NIE wymieniono w liście dobrych praktyk aktywatora Usługi, Infrastruktura i Aplikacje (FW-PL s. 85–86)?",
+        "o": [
+          {
+            "t": "Definicja pryncypiów architektury",
+            "ok": false,
+            "w": "Dobra praktyka tego aktywatora (s. 85)."
+          },
+          {
+            "t": "Dysponowanie repozytorium architektury",
+            "ok": false,
+            "w": "Dobra praktyka tego aktywatora (s. 86)."
+          },
+          {
+            "t": "Definiowanie poziomów usług",
+            "ok": false,
+            "w": "Dobra praktyka tego aktywatora (s. 86)."
+          },
+          {
+            "t": "Definiowanie atrybutów informacji",
+            "ok": true,
+            "w": "Definiowanie atrybutów informacji opisano w aktywatorze Informacja. Może pomagać projektować aplikacje, ale nie jest pozycją wskazanej listy praktyk UIA (s. 83, 85–86)."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-094": {
+      "sha256Wejscia": "93c9e2af4859c9ff7ed81a815bad105b2e67bdc8f1fc41197bc63e43a880690b",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Informacja",
+            "ok": true,
+            "w": "Informacje stanowią jedną ze zdolności usługowych do świadczenia usług wewnętrznych i zewnętrznych (s. 86)."
+          },
+          {
+            "t": "Kultura, Etyka i Zachowanie",
+            "ok": false,
+            "w": "Kultura ma znaczenie dla budowy kultury usług. W przytoczonej relacji jako jedną ze zdolności usługowych wymieniono jednak informację (s. 86)."
+          },
+          {
+            "t": "Struktury organizacyjne",
+            "ok": false,
+            "w": "Struktury podejmują decyzje i wspierają świadczenie usług. Wskazana relacja na s. 86 dotyczy jednak informacji jako zdolności usługowej."
+          },
+          {
+            "t": "Kategorie umiejętności",
+            "ok": false,
+            "w": "Umiejętności wspierają świadczenie usług. W przytoczonym zdaniu na s. 86 jako zdolność usługową wskazano informację."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-097": {
+      "sha256Wejscia": "74da3acfe2b910e856b586c00744f69a2e7f0eeea59a5aee1592f632a817de3c",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Który produkt działań wskazano wprost na Rysunku 38 dla aktywatora Ludzie, Umiejętności i Kompetencje?"
+      }
+    },
+    "q-pc-en2-103": {
+      "sha256Wejscia": "6993032858b9675b2c0461925192565b7cc6bea7bf39d5244da1b1b01ebf6b30",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "zap": "Baza umiejętności wymaga okresowej oceny. „Raz w roku” to przykład z podręcznika, nie bezwzględny wymóg dla każdej organizacji.",
+        "o": [
+          {
+            "t": "raz na pięć lat",
+            "ok": false,
+            "w": "Podręcznik podaje przykład „raz w roku” (s. 87)."
+          },
+          {
+            "t": "raz w roku",
+            "ok": true,
+            "w": "Okresowo (np. raz w roku) organizacja ocenia bazę umiejętności (s. 87)."
+          },
+          {
+            "t": "po każdym incydencie",
+            "ok": false,
+            "w": "Po incydencie również można ocenić potrzebne umiejętności. Pytanie przytacza jednak podany przez podręcznik przykład oceny okresowej: raz w roku (s. 87)."
+          },
+          {
+            "t": "tylko przy rekrutacji",
+            "ok": false,
+            "w": "Ocena jest potrzebna również po rekrutacji i podczas zatrudnienia. Okresowa ocena bazy nie jest ograniczona do rekrutacji (s. 87)."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-112": {
+      "sha256Wejscia": "4636cd2e9515a982515713f64a5e891a52be95654c5dab866cbfa86ad0e52bd6",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Szpital szuka osoby do monitorowania wydajności (sprawności) IT. Do której domeny należy ta kategoria umiejętności? Wybierz według Rysunku 39 (FW-PL s. 88)."
+      }
+    },
+    "q-pc-en2-115": {
+      "sha256Wejscia": "c5d5efa7fea89096b487539095ed1f3bf9b811166cecc9834b61e7d45340971a",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Który zestaw kategorii umiejętności należy w całości do domeny BAI? Wybierz według Rysunku 39 (FW-PL s. 88)."
+      }
+    },
+    "q-pc-en2-118": {
+      "sha256Wejscia": "368cb12bc27167e958898d7adcc02d1f75ce11f9ac530e1ea33e5bf8348394a8",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Które przyporządkowanie kategorii umiejętności do domeny procesów jest POPRAWNE? Wybierz według Rysunku 39 (FW-PL s. 88)."
+      }
+    },
+    "q-pc-en2-119": {
+      "sha256Wejscia": "0b9373d1a2b097a339f951688aa4ead02967b8470ed27b6ac86bdbb151784116",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "z": [
+          "SYL",
+          "FW-PL s. 32",
+          "FW-PL s. 70",
+          "Enabling Processes s. 25"
+        ]
+      }
+    },
+    "q-pc-en2-121": {
+      "sha256Wejscia": "c4d1d0d2b21dddc6ea166db8f8bd99a38aaae59bd694c120fc69cd9a78a4b8a5",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Którego elementu NIE zawiera standardowy opis procesu w przewodniku Enabling Processes?",
+        "zap": "Standardowy opis procesu nie jest wynikiem oceny jego zdolności w konkretnej organizacji.",
+        "z": [
+          "FW-PL s. 43",
+          "Enabling Processes s. 25"
+        ],
+        "o": [
+          {
+            "t": "Diagramu RACI",
+            "ok": false,
+            "w": "Diagram RACI jest elementem opisu procesu (sylabus EN-02-24 (Procesy umożliwiające); s. 69)."
+          },
+          {
+            "t": "Wejść i wyjść praktyk",
+            "ok": false,
+            "w": "Są w szczegółach praktyk (sylabus EN-02-24 (Procesy umożliwiające); s. 70)."
+          },
+          {
+            "t": "Powiązanych wytycznych z innych standardów",
+            "ok": false,
+            "w": "To ostatni element opisu (sylabus EN-02-24 (Procesy umożliwiające))."
+          },
+          {
+            "t": "Oceny zdolności procesu (np. poziom 3)",
+            "ok": true,
+            "w": "Opis referencyjny przedstawia proces, jego cel, praktyki i wyniki; nie podaje oceny poziomu zdolności konkretnej organizacji. Ta wymaga odrębnej oceny. Rozdzielenie wymiaru procesu i zdolności nie oznacza zakazu omawiania zdolności w innych materiałach (FW-PL s. 43; EP s. 25)."
+          }
+        ]
+      }
+    },
+    "q-pc-en2-122": {
+      "sha256Wejscia": "a3ad922e98c8a337be77513fc3de028a5e98a895994446202d29ae9d6d973770",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "z": [
+          "SYL",
+          "FW-PL s. 69",
+          "FW-PL s. 70",
+          "Enabling Processes s. 25"
+        ]
+      }
+    },
+    "q-pc-en2-125": {
+      "sha256Wejscia": "191538ecd6179e9a5050cf82e6596956605eef715ba2879ff884f9e419f757cc",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "z": [
+          "SYL",
+          "FW-PL s. 69",
+          "Enabling Processes s. 25"
+        ]
+      }
+    },
+    "q-pc-en2-128": {
+      "sha256Wejscia": "50331881166813c686a2dc3e223f908559410644e6ff25963aa330d1518b1db1",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "z": [
+          "SYL",
+          "FW-PL s. 31",
+          "FW-PL s. 69",
+          "FW-PL s. 70",
+          "Enabling Processes s. 25"
+        ]
+      }
+    },
+    "q-pc-en2-134": {
+      "sha256Wejscia": "c7dd7b7f4ea0266a7c8657c4bd76e6cf7ba439e874baa9d5247cc95254c54f75",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "zap": "RACI: jedna rola A dla danego zakresu zadania; wielu R jest możliwych. Wyższe szczeble zachowują rozliczalność, a A może też działać operacyjnie.",
+        "z": [
+          "FW-PL s. 89",
+          "FW-PL s. 90",
+          "FW-PL s. 92",
+          "FW-PL s. 93",
+          "Enabling Processes s. 25"
+        ],
+        "o": [
+          {
+            "t": "Kilka ról R przy jednym działaniu",
+            "ok": false,
+            "w": "Dopuszczalne: wykonawców może być wielu (s. 93)."
+          },
+          {
+            "t": "A otrzymuje informacje o realizacji zadania",
+            "ok": false,
+            "w": "Zgodne: rola A zawsze powinna je otrzymywać (s. 92)."
+          },
+          {
+            "t": "C dostarcza dane wejściowe do zadania",
+            "ok": false,
+            "w": "Zgodne: tak działa Konsultant (s. 90)."
+          },
+          {
+            "t": "Dwie role A przy jednym działaniu",
+            "ok": true,
+            "w": "Dla danego zakresu zadania nie dzieli się ostatecznej rozliczalności: należy wskazać jedną rolę A. EP s. 25 dopuszcza przy tym wyższe szczeble rozliczalności i przekazywanie jej na najniższy właściwy poziom; A może także wykonywać pracę."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-001": {
+      "sha256Wejscia": "bcde14cdf69d9bc9cd2776845df63e52f4eb76e357b81eb4880f0a5ed6fbfd74",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Oszacuj, kieruj i monitoruj",
+            "ok": false,
+            "w": "To trzy rodzaje działań Ładu (domena EDM, s. 32), a nie komponenty cyklu wdrożenia (s. 37)."
+          },
+          {
+            "t": "Planowanie, wdrażanie i ocena zdolności procesów",
+            "ok": false,
+            "w": "Te działania mogą występować w inicjatywie wdrożenia. Nie są jednak trzema nazwami komponentów Rysunku 17: program, aktywowanie zmiany, ciągłe doskonalenie (s. 37–38)."
+          },
+          {
+            "t": "Zarządzanie programem, aktywowanie zmiany i ciągłe doskonalenie",
+            "ok": true,
+            "w": "Tak. Strona 37 wymienia cykl ciągłego doskonalenia, zmianę (aspekty behawioralne i kulturowe) i zarządzanie programem; rys. 17 pokazuje je jako trzy pierścienie (s. 38)."
+          },
+          {
+            "t": "Zarządzanie programem, zarządzanie ryzykiem i zarządzanie dostawcami",
+            "ok": false,
+            "w": "Tylko pierwszy element jest pierścieniem. Ryzyko i dostawcy to obszary procesów, nie komponenty cyklu (s. 37)."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-004": {
+      "sha256Wejscia": "36be8cf3f2c883a3d7ed4eeedbee2236c381bf016313919d111caa7bc5e8fe91",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "korzyści",
+            "ok": false,
+            "w": "Korzyści także mogą podlegać przeglądowi. Nazwą działania pierścienia programu w fazie 7 jest jednak Przegląd skuteczności; Realizacja korzyści figuruje w fazie 6 (rys. 17)."
+          },
+          {
+            "t": "skuteczności",
+            "ok": true,
+            "w": "Faza 7, pierścień zarządzania programem: Przegląd skuteczności (rys. 17, s. 38)."
+          },
+          {
+            "t": "dojrzałości",
+            "ok": false,
+            "w": "To nie jest nazwa działania w tej komórce Rysunku 17. Nie oznacza to zakazu oceny dojrzałości innych elementów organizacji."
+          },
+          {
+            "t": "zdolności",
+            "ok": false,
+            "w": "Zdolność można ponownie oceniać podczas przeglądu. Cytowana nazwa działania programu w fazie 7 brzmi jednak Przegląd skuteczności (rys. 17)."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-012": {
+      "sha256Wejscia": "ab1f254da4611b3b1ff32969d3fae2901088103505c474149458674bab3beb97",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Które sformułowanie występuje na liście punktów zapalnych (s. 37), a NIE w przytoczonej liście czynników kontekstu (s. 35)?",
+        "zap": "Rozróżnij brzmienie list: model operacyjny i dojrzałość → kontekst; złożone modele operacyjne IT → punkty zapalne. W praktyce problem może być jednocześnie elementem kontekstu."
+      }
+    },
+    "q-pc-impc-026": {
+      "sha256Wejscia": "28051cb2d1f5dfe5fc992a6d07aa40bf9b27479c005c16004d30006fcc802d93",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Który przykład umieszczono w podręczniku wśród punktów zapalnych, a pozostałe wśród zdarzeń wyzwalających (FW-PL s. 36–37)?"
+      }
+    },
+    "q-pc-impc-031": {
+      "sha256Wejscia": "b03b09957799494304993111b2664c81855f8ae40a5f349b57795b3e9e2ea803",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Które narzędzie FW-PL s. 39 wskazuje wprost jako pomoc kierownictwu w ukierunkowaniu tworzenia wartości biznesowej inicjatywy?",
+        "o": [
+          {
+            "t": "Mapa drogowa",
+            "ok": false,
+            "w": "Mapa drogowa wskazuje drogę do stanu docelowego i może wspierać tworzenie wartości. Cytowane określenie na s. 39 odnosi się jednak do uzasadnienia biznesowego."
+          },
+          {
+            "t": "Model Oceny Procesu (PAM)",
+            "ok": false,
+            "w": "PAM służy do oceny zdolności procesów (s. 41)."
+          },
+          {
+            "t": "Plan komunikacji",
+            "ok": false,
+            "w": "Plan komunikacji należy do aktywowania zmiany (s. 37)."
+          },
+          {
+            "t": "Uzasadnienie biznesowe (business case)",
+            "ok": true,
+            "w": "Strona 39: uzasadnienie biznesowe to narzędzie, którym kierownictwo ukierunkowuje tworzenie wartości biznesowej."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-038": {
+      "sha256Wejscia": "e2586634229f3248f7898a6769ed8a418e2b0c251a207323287c77ce3b1e7467",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "z": [
+          "FW-PL s. 36",
+          "FW-PL s. 37",
+          "FW-PL s. 39",
+          "FW-EN s. 37"
+        ],
+        "o": [
+          {
+            "t": "Raport z oceny zdolności wszystkich procesów IT",
+            "ok": false,
+            "w": "Raport oceny może ujawnić luki i wspierać uzasadnienie inwestycji. Nie zastępuje uzasadnienia biznesowego, które zbiera cele, korzyści, koszty, ryzyko i sposób monitorowania wartości (s. 36, 39)."
+          },
+          {
+            "t": "Plan komunikacji zmiany",
+            "ok": false,
+            "w": "Plan komunikacji opisuje co, jak i komu przekazywać (FW-PL s. 37); EN s. 37 wskazuje także kto komunikuje. Sam nie zastępuje uzasadnienia biznesowego."
+          },
+          {
+            "t": "Mapa drogowa z fazy 3",
+            "ok": false,
+            "w": "Mapa drogowa planuje drogę do stanu docelowego (rys. 17, s. 38)."
+          },
+          {
+            "t": "Uzasadnienie biznesowe z celami i korzyściami",
+            "ok": true,
+            "w": "Cele i korzyści w kategoriach biznesowych podsumowuje się w uzasadnieniu biznesowym (s. 36)."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-041": {
+      "sha256Wejscia": "bb1dcb4c3d703f662dfdbc97d6be71b89635c4e59fd523dfe15612a75c3166a8",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "zap": "Minimum obejmuje 8 elementów: korzyści, wymagane zmiany, inwestycje, koszty bieżące, korzyści po zmianach, ryzyko, role i rozliczalność, monitorowanie wartości w pełnym cyklu ekonomicznym.",
+        "o": [
+          {
+            "t": "Role i zakresy odpowiedzialności",
+            "ok": true,
+            "w": "Role, zakresy odpowiedzialności i rozliczalności są na liście minimum (s. 39)."
+          },
+          {
+            "t": "Ocena zdolności każdego procesu w skali N–P",
+            "ok": false,
+            "w": "Ocena zdolności może dostarczać danych do uzasadnienia. Pełna ocena wszystkich procesów nie jest jednak wymieniona jako obowiązkowy element minimalnej zawartości (s. 39)."
+          },
+          {
+            "t": "Lista punktów zapalnych konkurencji",
+            "ok": false,
+            "w": "Podstawą korzyści są punkty zapalne i zdarzenia własnej organizacji (s. 39)."
+          },
+          {
+            "t": "Szczegółowe procedury nowych procesów",
+            "ok": false,
+            "w": "Podręcznik nie wymienia procedur w minimum uzasadnienia (s. 39)."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-042": {
+      "sha256Wejscia": "4ea855fc1d8badf7b5da1b261e6758248d74d92a97afba74f1a955f45486459f",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "zap": "Wyników oceny pracowników nie ma na liście minimum uzasadnienia biznesowego. Uzasadnienie opisuje m.in. korzyści, koszty, ryzyko, role i monitorowanie wartości."
+      }
+    },
+    "q-pc-impc-043": {
+      "sha256Wejscia": "58a3c9a33efc440d2f418e7f72acbd72f73a5a0b311c9a01cc19dccb2603f4f9",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Na czym mogą się opierać docelowe korzyści biznesowe opisane w uzasadnieniu biznesowym? Wybierz powiązanie podane wprost w liście minimalnych elementów na s. 39 FW-PL.",
+        "o": [
+          {
+            "t": "Na kontrolach kondycji oraz analizach luk zdolności",
+            "ok": false,
+            "w": "To podstawa opisu wymaganych zmian biznesowych, w tym punkcie listy (s. 39). To przypisanie z listy podręcznika, a nie zakaz wykorzystywania tych danych także przy innych elementach uzasadnienia."
+          },
+          {
+            "t": "Na celach i miernikach",
+            "ok": false,
+            "w": "To podstawa sposobu monitorowania inwestycji (s. 39). To przypisanie z listy podręcznika, a nie zakaz wykorzystywania tych danych także przy innych elementach uzasadnienia."
+          },
+          {
+            "t": "Na punktach zapalnych i zdarzeniach wyzwalających",
+            "ok": true,
+            "w": "Strona 39: podstawą docelowych korzyści mogą być punkty zapalne i zdarzenia."
+          },
+          {
+            "t": "Na wyzwaniach i czynnikach sukcesu",
+            "ok": false,
+            "w": "To podstawa opisu ryzyka (s. 39). To przypisanie z listy podręcznika, a nie zakaz wykorzystywania tych danych także przy innych elementach uzasadnienia."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-044": {
+      "sha256Wejscia": "7a795d78e769acc28bab3472f320382f7e50ae99b405fd37a89a7194b3010ce6",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Na czym może się opierać opis zmian biznesowych potrzebnych do uzyskania wartości? Wybierz powiązanie podane wprost w liście minimalnych elementów na s. 39 FW-PL.",
+        "o": [
+          {
+            "t": "Na kontrolach kondycji i analizach luk zdolności",
+            "ok": true,
+            "w": "Strona 39: podstawą mogą być kontrole kondycji i analizy luk; trzeba też określić, co jest w zakresie."
+          },
+          {
+            "t": "Na szacunkach wymaganych projektów",
+            "ok": false,
+            "w": "To podstawa opisu inwestycji (s. 39). To przypisanie z listy podręcznika, a nie zakaz wykorzystywania tych danych także przy innych elementach uzasadnienia."
+          },
+          {
+            "t": "Na punktach zapalnych i zdarzeniach wyzwalających",
+            "ok": false,
+            "w": "To podstawa docelowych korzyści (s. 39). To przypisanie z listy podręcznika, a nie zakaz wykorzystywania tych danych także przy innych elementach uzasadnienia."
+          },
+          {
+            "t": "Na rolach i zakresach odpowiedzialności",
+            "ok": false,
+            "w": "Role to osobny element uzasadnienia (s. 39). To przypisanie z listy podręcznika, a nie zakaz wykorzystywania tych danych także przy innych elementach uzasadnienia."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-049": {
+      "sha256Wejscia": "640eb948852344f2c088eadc4f46574403b513334f0ce75cbcba50f0945eca28",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Egzekwowanie zgodności przez administrowanie i monitorowanie",
+            "ok": false,
+            "w": "To druga, osobna droga, stosowana, gdy jest wymagana (s. 37); tu opisano zaangażowanie."
+          },
+          {
+            "t": "Trwałą poprawę dzięki zaangażowaniu interesariuszy",
+            "ok": true,
+            "w": "Strona 37: trwałą poprawę daje zaangażowanie interesariuszy – zaufanie, liderzy, komunikacja i reagowanie na potrzeby."
+          },
+          {
+            "t": "Wyższy poziom zdolności procesów",
+            "ok": false,
+            "w": "Zaangażowanie ludzi może wspierać poprawę zdolności procesu. Samo nie jest jednak wynikiem oceny jego atrybutów; opisany efekt to trwała poprawa przez zaangażowanie interesariuszy (s. 37)."
+          },
+          {
+            "t": "Realizację korzyści w fazie 6",
+            "ok": false,
+            "w": "Te działania mogą przyczyniać się do realizacji korzyści. Pytanie akcentuje jednak opisany na s. 37 mechanizm zaangażowania interesariuszy."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-052": {
+      "sha256Wejscia": "608a91148c5e0e4105c775c497deb73e4fa4dee6f03e89ea25bb132c799a263e",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Które zadanie przypisuje się przede wszystkim zarządzaniu programem, podczas gdy pozostałe wymieniono w pierścieniu aktywowania zmiany?",
+        "zap": "Aktywowanie zmiany koncentruje się na ludziach i kulturze; zarządzanie programem obejmuje m.in. budżet i harmonogram. Komponenty współdziałają."
+      }
+    },
+    "q-pc-impc-054": {
+      "sha256Wejscia": "aab8f405aedaa8079dc76d01e4319eb3dae60e354d6890654c5de21b0869bed0",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "zap": "Nie należy zakładać automatycznej akceptacji zmiany. Trzeba świadomie wspierać ludzi, uwzględniając opór i potrzeby."
+      }
+    },
+    "q-pc-impc-074": {
+      "sha256Wejscia": "35537a1eab954cac8a64acc6a8ae84bfafc669fa5df1380877e430a6987646ad",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Wykonywanie planu → Planowanie programu → Realizacja korzyści → Przegląd skuteczności",
+            "ok": false,
+            "w": "Plan powstaje (faza 4) przed jego wykonaniem (faza 5) (rys. 17)."
+          },
+          {
+            "t": "Planowanie programu → Wykonywanie planu → Realizacja korzyści → Przegląd skuteczności",
+            "ok": true,
+            "w": "Fazy 4, 5, 6, 7 pierścienia zewnętrznego (rys. 17, s. 38)."
+          },
+          {
+            "t": "Planowanie programu → Realizacja korzyści → Wykonywanie planu → Przegląd skuteczności",
+            "ok": false,
+            "w": "Rysunek 17 umieszcza Realizację korzyści programu w fazie 6, po Wykonywaniu planu w fazie 5. Nie wyklucza to wcześniejszych szybkich korzyści ani ich dalszego monitorowania."
+          },
+          {
+            "t": "Planowanie programu → Wykonywanie planu → Przegląd skuteczności → Realizacja korzyści",
+            "ok": false,
+            "w": "Przegląd skuteczności to ostatnia faza 7 (rys. 17)."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-081": {
+      "sha256Wejscia": "c877950f857d6171691637072368d09a6a489b64fdcff6a71c5697098dfbdc2f",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Którego poziomu charakterystyką jest wdrażanie procesu według standardowego procesu organizacji, dopasowywanego do danego wykonania?",
+        "zap": "To charakterystyka poziomu 3. Formalne przyznanie poziomu wymaga też PA 3.1 i 3.2 na W/P oraz wszystkich niższych atrybutów na P; sam krótki opis tego nie dowodzi."
+      }
+    },
+    "q-pc-impc-094": {
+      "sha256Wejscia": "9a2d67d8ae692de45ecb4bdcb62f5e3eaa38a32b34f8115b208e6c2391f5a10c",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Z którym poziomem model wiąże atrybut PA 3.1 Definicja procesu?",
+        "zap": "PA 3.1 należy do poziomu 3. Do jego osiągnięcia potrzeba także PA 3.2 na W/P i wszystkich niższych atrybutów na P."
+      }
+    },
+    "q-pc-impc-095": {
+      "sha256Wejscia": "5580c5dbd838a902a4bc8f438b5085355f81943589a8add88ea08b7cf53531b3",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Które dwa atrybuty poziomu 4 muszą mieć co najmniej W, oprócz pełnego osiągnięcia wszystkich niższych atrybutów, by proces był przewidywalny?",
+        "zap": "Poziom 4: PA 4.1 i PA 4.2 na W/P, wszystkie niższe atrybuty na P."
+      }
+    },
+    "q-pc-impc-096": {
+      "sha256Wejscia": "538be8790d2a3e6ee1fe84f911a4e39551425d1daa6678952a736b9a66340073",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Większościowy – powyżej 85% do 100% osiągnięcia",
+            "ok": false,
+            "w": "Ten przedział to P – Pełny (s. 45)."
+          },
+          {
+            "t": "Wstępny – od 0% do 15% osiągnięcia",
+            "ok": false,
+            "w": "Takiej oceny nie ma; 0–15% to N – Nieosiągnięty (s. 45)."
+          },
+          {
+            "t": "Większościowy – powyżej 15% do 50% osiągnięcia",
+            "ok": false,
+            "w": "Ten przedział to C – Częściowy (s. 45)."
+          },
+          {
+            "t": "Większościowy – powyżej 50% do 85% osiągnięcia",
+            "ok": true,
+            "w": "W – Większościowy odpowiada angielskiemu L – Largely: powyżej 50% do 85% włącznie. Skrót 50–85% nie włącza progu 50 do W (FW-PL s. 45; różnice tłumaczenia PL)."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-106": {
+      "sha256Wejscia": "39335dad67cd168e582f6869325e26f450a4a00148cb9369ffb916e6faaa08c8",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Ocena wydajności i kompetencji poszczególnych pracowników",
+            "ok": false,
+            "w": "Ocenia się procesy, a nie ludzi (s. 41, 45)."
+          },
+          {
+            "t": "Wyliczenie zwrotu z inwestycji w IT",
+            "ok": false,
+            "w": "Ocena zdolności może wesprzeć decyzje inwestycyjne, ale sama nie wylicza zwrotu z inwestycji. Główny wskazany tu pożytek to rozpoznanie obszarów wymagających usprawnień (s. 41, 45)."
+          },
+          {
+            "t": "Certyfikacja dostawców usług IT",
+            "ok": false,
+            "w": "Podręcznik nie wymienia takiego celu (s. 45)."
+          },
+          {
+            "t": "Wskazanie obszarów procesów wymagających usprawnień",
+            "ok": true,
+            "w": "Strona 41: model umożliwia pomiar procesów i identyfikację obszarów wymagających usprawnień."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-112": {
+      "sha256Wejscia": "14cdc7510c9df65e50eedc63692fd0bb1e515cfe1eeb7129aac41b85f63069b2",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Pominąć proces, bo poziom 1 nie ma znaczenia",
+            "ok": false,
+            "w": "Odwrotnie: poziom 1 jest bardzo ważny i stanowi fundament wyższych (s. 45)."
+          },
+          {
+            "t": "Od razu przejść do oceny atrybutów poziomu 2",
+            "ok": false,
+            "w": "Można zbierać dowody dotyczące wyższych atrybutów. Nie pozwala to jednak przyznać poziomu 2 bez PA 1.1 osiągniętego w pełni. Najpierw należy rozpoznać braki w osiąganiu celu procesu (s. 42, 45)."
+          },
+          {
+            "t": "Zastąpić ocenę analizą kosztów i korzyści procesu",
+            "ok": false,
+            "w": "Podręcznik wskazuje plan doskonalenia oparty na ocenie praktyk (s. 45)."
+          },
+          {
+            "t": "Ustalić brakujące praktyki i zaplanować doskonalenie",
+            "ok": true,
+            "w": "Strona 45: ocena praktyk wskazuje braki, co pozwala zdefiniować plan doskonalenia."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-123": {
+      "sha256Wejscia": "0aab7866de8f3989c3666db146332712aa561db2922e3dd30b809e3912453b77",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "zap": "Samoocena służy prostszemu rozpoznaniu sytuacji i może przygotować ocenę formalną. Przewodnik Asesora opisuje formalną procedurę; dokument sam nie nadaje wyniku.",
+        "o": [
+          {
+            "t": "Jako formalny wynik do certyfikacji",
+            "ok": false,
+            "w": "Mniej rygorystyczna samoocena nie jest równoważna formalnej ocenie prowadzonej według Przewodnika Asesora. Sam wynik poziomu nie oznacza automatycznej certyfikacji."
+          },
+          {
+            "t": "Jako orientacyjny, przed formalną oceną",
+            "ok": true,
+            "w": "To orientacyjny wynik mniej rygorystycznej samooceny, mogący pomóc przygotować formalną ocenę. Znaczenie wyniku zależy też od jakości dowodów i zakresu oceny."
+          },
+          {
+            "t": "Jako nieważny, bo samoocena nie korzysta z PAM",
+            "ok": false,
+            "w": "Oba przewodniki opierają się na PAM (sylabus)."
+          },
+          {
+            "t": "Jako poziom dojrzałości według COBIT 4.1",
+            "ok": false,
+            "w": "Wyników zdolności nie da się prosto przenieść na skalę dojrzałości (s. 43)."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-130": {
+      "sha256Wejscia": "ce99d86f2e3f2b0ce226e18e452b100f70fe8294edf5510bf143cd6555582bd8",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Na jakie dwa główne obszary dzieli procesy Referencyjny Model Procesu COBIT 5?",
+        "o": [
+          {
+            "t": "Ład i Zarządzanie",
+            "ok": true,
+            "w": "Ład i Zarządzanie to dwa główne obszary. Wyróżnia się pięć domen: EDM oraz APO, BAI, DSS i MEA (s. 32–33)."
+          },
+          {
+            "t": "Planowanie i wykonanie",
+            "ok": false,
+            "w": "Taki podział nie występuje w modelu (s. 32)."
+          },
+          {
+            "t": "Wymiar procesu i wymiar zdolności",
+            "ok": false,
+            "w": "To dwa wymiary oceny zdolności (sylabus), a nie domeny procesów."
+          },
+          {
+            "t": "Biznes i informatyka",
+            "ok": false,
+            "w": "Model dzieli procesy na Ład i Zarządzanie (s. 32)."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-131": {
+      "sha256Wejscia": "0493836b37988d6bc925cc95341a1193fd3fc0c858214faa057e6877a7007d46",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Który model stanowi źródło specyficznego opisu procesu DSS02, jego przeznaczenia i rezultatów, rozwiniętych w praktyki bazowe w modelu oceny?",
+        "zap": "PRM: procesy, przeznaczenie i rezultaty. PAM: model oceny, który wykorzystuje PRM i wskaźniki wykonania oraz wymiar zdolności.",
+        "o": [
+          {
+            "t": "Z Referencyjnego Modelu Procesu",
+            "ok": true,
+            "w": "PRM określa proces DSS02, jego przeznaczenie i rezultaty. PAM rozwija wymiar procesu o specyficzne wskaźniki wykonania, w tym praktyki bazowe i produkty pracy (s. 43, 45)."
+          },
+          {
+            "t": "Z Przewodnika Samooceny",
+            "ok": false,
+            "w": "Przewodnik Samooceny opisuje prostszy sposób oceny i może odwoływać się do treści modeli. Źródłem specyficznego opisu procesu jest jednak PRM, rozwinięty w PAM."
+          },
+          {
+            "t": "Z ogólnych praktyk ISO/IEC 15504-2",
+            "ok": false,
+            "w": "Ogólne praktyki są wspólne dla wszystkich procesów (s. 43, 45)."
+          },
+          {
+            "t": "Z uzasadnienia biznesowego wdrożenia",
+            "ok": false,
+            "w": "Uzasadnienie dotyczy inicjatywy, nie opisu procesu (s. 39)."
+          }
+        ]
+      }
+    },
+    "q-pc-impc-141": {
+      "sha256Wejscia": "83dac834f7a03e2259710d80d574410fdc254686b89160a41bdfa85d979d8076",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Dla którego poziomu praktyki bazowe i produkty pracy konkretnego procesu stanowią specyficzne wskaźniki osiągania rezultatów?",
+        "zap": "Praktyki bazowe i produkty pracy wspierają ocenę wykonania na poziomie 1. Dowody z procesu mogą być także użyteczne przy ocenie innych atrybutów."
+      }
+    },
+    "q-pc-impc-151": {
+      "sha256Wejscia": "6a1fa06bc81ad66c1dced0d95475656e027512f92ddbae1c8dd20208b2f6f472",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "zap": "Dla poziomu k = 1–5: jego atrybuty na W/P; wszystkie atrybuty niższych poziomów na P. Poziom 0 nie ma własnego atrybutu."
+      }
+    },
+    "q-pc-impc-156": {
+      "sha256Wejscia": "12f7559dac8fc32e448c4af21bf7a0f8b32dec07f430bee1cf40e94cfa8b6501",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Uzupełnij: Proces osiąga poziom od 1 do 5, gdy jego atrybuty mają W lub P, a atrybuty wszystkich niższych poziomów – [?]."
+      }
+    },
+    "q-pc-impc-157": {
+      "sha256Wejscia": "bb870903d34a2a93b3cdba09822ab94b09409f9bd932cd90285e95ba46c11ca9",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Proces w szpitalu ma oceny PA 1.1 = W, PA 2.1 = W, PA 2.2 = P. Która minimalna zmiana ocen jest konieczna, by uzyskać poziom 2?",
+        "o": [
+          {
+            "t": "Podnieść ocenę PA 2.1 do P",
+            "ok": false,
+            "w": "Dla atrybutów poziomu 2 wystarczy W (s. 42)."
+          },
+          {
+            "t": "Nic – proces ma już poziom 2",
+            "ok": false,
+            "w": "PA 1.1 = W to za mało, by wejść na poziom 2 (s. 42)."
+          },
+          {
+            "t": "Podnieść wszystkie trzy atrybuty do P",
+            "ok": false,
+            "w": "Pełne osiągnięcie wszystkich trzech również spełniłoby warunek. Nie jest to jednak zmiana minimalna: PA 2.1 już ma wystarczające W, a PA 2.2 ma P (s. 42)."
+          },
+          {
+            "t": "Podnieść ocenę PA 1.1 do P",
+            "ok": true,
+            "w": "Poziom 2 wymaga PA 1.1 = P; PA 2.1 = W i PA 2.2 = P już wystarczą (s. 42)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-016": {
+      "sha256Wejscia": "f015f380a14a8f006a71021d9c482ad5ee4135f8104d696c724987f93a148bd5",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Bank ma jasno opisaną politykę bezpieczeństwa; pracownicy znają zasady i potrafią je stosować, lecz świadomie je lekceważą. Który aktywator wymaga tu przede wszystkim poprawy?",
+        "o": [
+          {
+            "t": "Informacja",
+            "ok": false,
+            "w": "Informacja nadal wspiera bezpieczeństwo, ale opis podkreśla świadome lekceważenie znanych reguł, a więc postawy i zachowania."
+          },
+          {
+            "t": "Kultura, Etyka i Zachowanie",
+            "ok": true,
+            "w": "Bez właściwej kultury i etyki procesy bezpieczeństwa nie będą skuteczne (s. 28, przykład 4)."
+          },
+          {
+            "t": "Struktury organizacyjne",
+            "ok": false,
+            "w": "Struktury także mogą wymagać działania. Bezpośrednim problemem wskazanym w scenariuszu są jednak postawy pracowników."
+          },
+          {
+            "t": "Procesy",
+            "ok": false,
+            "w": "Procesy współdziałają z kulturą. Scenariusz akcentuje świadome zachowania, a nie brak opisu praktyk."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-018": {
+      "sha256Wejscia": "cd4f427d5a71ae12a4cb03fe0e3f9d430579e00610b5a68323057ab4ffb27d47",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Który element napędza przekształcanie danych w informacje i wiedzę oraz ostatecznie wartość w opisie Rysunku 35?",
+        "o": [
+          {
+            "t": "Usługi, Infrastruktura i Aplikacje",
+            "ok": false,
+            "w": "Zapewniają przetwarzanie, ale cykl napędzają procesy biznesowe (s. 81)."
+          },
+          {
+            "t": "Procesy biznesowe",
+            "ok": true,
+            "w": "Procesy biznesowe generują i przetwarzają dane, przekształcając je w informacje, wiedzę i wartość (s. 81)."
+          },
+          {
+            "t": "Struktury organizacyjne",
+            "ok": false,
+            "w": "To jednostki decyzyjne, nie element cyklu informacji (s. 27, 81)."
+          },
+          {
+            "t": "Procesy IT",
+            "ok": false,
+            "w": "Procesy IT również uczestniczą w tworzeniu wartości. Opis Rysunku 35 mówi szerzej o procesach biznesowych; nie ustanawia rozłączności biznesu i IT (s. 81)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-024": {
+      "sha256Wejscia": "92c28b738b3a6d0e30ba7db5332e14598adc31113a420cc86f60708d7ca20ceb",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Uzupełnij nazwę EDM01: Zapewnienie ustanowienia i utrzymania struktury ramowej [?].",
+        "zap": "EDM01 dotyczy struktury ramowej Ładu, jej ustanowienia i utrzymania, a nie tylko ogólnego zapewnienia Ładu.",
+        "z": [
+          "FW-PL s. 33",
+          "Enabling Processes s. 27"
+        ],
+        "o": [
+          {
+            "t": "ryzyka",
+            "ok": false,
+            "w": "Ryzyko to EDM03 – Zapewnienie optymalizacji ryzyka (s. 33)."
+          },
+          {
+            "t": "Ładu",
+            "ok": true,
+            "w": "EDM01 to Ensure Governance Framework Setting and Maintenance: ustanowienie i utrzymanie struktury ramowej Ładu. FW-PL s. 33 używa skróconej nazwy „Zapewnienie i utrzymanie ładu korporacyjnego”."
+          },
+          {
+            "t": "zarządzania",
+            "ok": false,
+            "w": "Domena EDM dotyczy Ładu, nie Zarządzania (s. 32–33)."
+          },
+          {
+            "t": "portfela",
+            "ok": false,
+            "w": "Portfel to APO05 (s. 33)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-025": {
+      "sha256Wejscia": "a0e03f315ccecd480ec8406992f0e866a4acca756bd8760e68a98f9be8caa7e5",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "MEA01 Monitorowanie, ocena i oszacowanie wydajności i zgodności",
+            "ok": false,
+            "w": "MEA01 dostarcza monitorowania i ocen, które mogą zasilać raportowanie. Zapewnienie przejrzystości wobec interesariuszy na poziomie Ładu to jednak EDM05 (s. 33)."
+          },
+          {
+            "t": "EDM05 Zapewnienie Transparentności Interesariuszy",
+            "ok": true,
+            "w": "Przejrzystość wobec interesariuszy to EDM05 (s. 33)."
+          },
+          {
+            "t": "EDM01 Zapewnienie ustanowienia i utrzymania struktury ramowej Ładu",
+            "ok": false,
+            "w": "EDM01 dotyczy ustanowienia systemu Ładu (s. 33)."
+          },
+          {
+            "t": "EDM02 Zapewnienie realizacji korzyści",
+            "ok": false,
+            "w": "Korzyści również należy przejrzyście raportować. Proces, którego głównym tematem jest transparentność wobec interesariuszy, to EDM05 (s. 33)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-043": {
+      "sha256Wejscia": "db838bf655b38578ae687fd125167fecc05a3769e2f092ab7ddd8c509b880018",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Które trzy pytania dotyczące korzyści, ryzyka i zasobów podręcznik wskazuje przy każdej decyzji Ładu?",
+        "o": [
+          {
+            "t": "Kto decyduje? Kto wykonuje? Kto jest informowany?",
+            "ok": false,
+            "w": "Ustalenie odpowiedzialności także jest ważne dla Ładu. Pytanie dotyczy jednak trzech pytań o wartość, przytoczonych na s. 17."
+          },
+          {
+            "t": "Kto odnosi korzyści? Kto ponosi ryzyko? Jakie zasoby są wymagane?",
+            "ok": true,
+            "w": "Te trzy pytania podaje podręcznik (s. 17)."
+          },
+          {
+            "t": "Jaki budżet? Jaki termin? Jaki zakres projektu?",
+            "ok": false,
+            "w": "Budżet, termin i zakres mogą wpływać na decyzję Ładu. Nie są jednak przytoczoną trójką pytań o korzyści, ryzyko i zasoby."
+          },
+          {
+            "t": "Czy osiągnięto cele? Czy stosuje się praktyki?",
+            "ok": false,
+            "w": "To pytania o wydajność aktywatora (s. 29)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-045": {
+      "sha256Wejscia": "46bce73c933f1c73cc0d794bc4ac81534cb4962355927a2b83d07158a5bb93dc",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Którego elementu NIE wymieniono w trójce składowych Tworzenia Wartości na Rysunku 3?",
+        "zap": "Trójka z Rysunku 3: realizacja korzyści, optymalizacja ryzyka, optymalizacja zasobów. Transparentność jest tematem EDM05 i wspiera Ład."
+      }
+    },
+    "q-pc-pr-056": {
+      "sha256Wejscia": "5766b01051853076979c8a1c55884b3d4360f2d9480b7045db9411b1f8af4f18",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "regulacyjnego",
+            "ok": true,
+            "w": "Zmiany w otoczeniu biznesowym i regulacyjnym wpływają na potrzeby interesariuszy (s. 17)."
+          },
+          {
+            "t": "aplikacyjnego",
+            "ok": false,
+            "w": "Podręcznik nie wymienia takiego otoczenia (s. 17)."
+          },
+          {
+            "t": "procesowego",
+            "ok": false,
+            "w": "Podręcznik nie wymienia „otoczenia procesowego” (s. 17)."
+          },
+          {
+            "t": "architektonicznego",
+            "ok": false,
+            "w": "Zmiany architektury mogą wpływać na potrzeby interesariuszy. W cytowanym sformułowaniu wymieniono jednak otoczenie biznesowe i regulacyjne (s. 17)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-057": {
+      "sha256Wejscia": "c137e3067eac28c1fe5e40451f5dbda0a6fe1fe40fe7f67a13fdf2d8db9e0368",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Bo zmienia poziomy zdolności procesów",
+            "ok": false,
+            "w": "Zmiana wyznaczników może pośrednio zmienić wymagany poziom zdolności procesów. Przegląd kaskady jest potrzebny przede wszystkim ze względu na zmienione potrzeby interesariuszy (s. 17–18)."
+          },
+          {
+            "t": "Bo zmienia potrzeby interesariuszy, od których zaczyna się kaskada",
+            "ok": true,
+            "w": "Wyznaczniki wpływają na potrzeby, a te na cele niższych poziomów (s. 17–18)."
+          },
+          {
+            "t": "Bo wyznaczniki zastępują cele organizacji",
+            "ok": false,
+            "w": "Wyznaczniki są przed potrzebami i celami, niczego nie zastępują (s. 18)."
+          },
+          {
+            "t": "Bo wyznaczniki są celami aktywatorów",
+            "ok": false,
+            "w": "Cele aktywatorów to ostatni krok kaskady (s. 29)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-060": {
+      "sha256Wejscia": "05851deefd91fe0fd097680c0a39d916a8e104fefb532cd4c589588da38925a3",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Na co w pierwszym kroku Kaskady Celów wskazuje strzałka od wyznacznika „ewolucja technologii”?",
+        "o": [
+          {
+            "t": "Cele aktywatorów",
+            "ok": false,
+            "w": "Cele aktywatorów są w kroku 4 (s. 18)."
+          },
+          {
+            "t": "Potrzeby interesariuszy",
+            "ok": true,
+            "w": "Wyznaczniki wpływają na potrzeby interesariuszy (s. 17–18, il. 4)."
+          },
+          {
+            "t": "Cele związane z IT w kroku 3",
+            "ok": false,
+            "w": "Cele IT są pośrednio, w kroku 3 (s. 18)."
+          },
+          {
+            "t": "Procesy domeny MEA",
+            "ok": false,
+            "w": "Technologia może bezpośrednio oddziaływać na działania operacyjne. Pytanie dotyczy jednak strzałki modelu kaskady, która prowadzi do potrzeb interesariuszy (s. 17–18)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-067": {
+      "sha256Wejscia": "482b5e30a3421c6002d422c179637311c4a37234893571f41e3f4b008f820ddb",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "zap": "Na Rysunku 4 potrzeby interesariuszy odniesiono do korzyści, ryzyka i zasobów; następnie rozwija się je w cele organizacji."
+      }
+    },
+    "q-pc-pr-071": {
+      "sha256Wejscia": "a4625c13ed0594b9f5fb3527637340166f3796918b196912485f9a3a80f285da",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Co oznacza litera P w tabeli celów organizacji? Odpowiedz zgodnie z mapowaniem Rysunku 5.",
+        "zap": "P = relacja podstawowa; S = wspierająca (słabsza). P/S opisują typowe relacje modelu, nie ocenę realizacji celu ani uniwersalny zakaz innych powiązań."
+      }
+    },
+    "q-pc-pr-072": {
+      "sha256Wejscia": "0907f96c29e637d8801d6eac8dc97e298982323d4bf23a3f842dd5b006a268f7",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Na co wskazuje litera S w tabeli celów organizacji? Odpowiedz zgodnie z mapowaniem Rysunku 5.",
+        "zap": "S = wspierająca (słabsza). P/S opisują typowe relacje modelu, nie ocenę realizacji celu ani uniwersalny zakaz innych powiązań."
+      }
+    },
+    "q-pc-pr-074": {
+      "sha256Wejscia": "de764bbb116ecf47fd264c2a141ee26a9281a206c5ae5f1a42d8e923baf78899",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Cel „Zgodność z przepisami prawa i regulacjami” ma relację P wyłącznie z… Odpowiedz zgodnie z mapowaniem Rysunku 5.",
+        "zap": "Zgodność z przepisami → P z optymalizacją ryzyka. P/S opisują typowe relacje modelu, nie ocenę realizacji celu ani uniwersalny zakaz innych powiązań."
+      }
+    },
+    "q-pc-pr-075": {
+      "sha256Wejscia": "5cf1127b812855d17df5abfdd789f911acb5b6102729a176afc139231f7bc61b",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Który cel organizacji ma relację P ze wszystkimi trzema celami Ładu? Odpowiedz zgodnie z mapowaniem Rysunku 5.",
+        "zap": "Cel 9 (decyzje na podstawie informacji) = P, P, P. P/S opisują typowe relacje modelu, nie ocenę realizacji celu ani uniwersalny zakaz innych powiązań."
+      }
+    },
+    "q-pc-pr-084": {
+      "sha256Wejscia": "ef4c740ba92996f96c1b2eca2764af1f0c206d94994004885a107aade9ccedce",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Czy cele związane z IT są jedynymi rezultatami potrzebnymi do osiągnięcia celów organizacji, według przypisu 2 na s. 18 FW-PL?",
+        "zap": "IT nie jest jedynym źródłem wyników organizacji. Cele IT pokazują wkład informatyki; COBIT obejmuje powiązane działania biznesu w całej organizacji.",
+        "o": [
+          {
+            "t": "Tak, cele organizacji zależą tylko od IT",
+            "ok": false,
+            "w": "Przypis 2 mówi wprost, że nie (s. 18)."
+          },
+          {
+            "t": "Tak, inne obszary organizacji realizują tylko cele aktywatorów",
+            "ok": false,
+            "w": "Inne obszary też wpływają na cele organizacji (s. 18)."
+          },
+          {
+            "t": "Nie, ale COBIT 5 uwzględnia tylko cele związane z IT",
+            "ok": true,
+            "w": "Nie. Także np. marketing i finanse mają wkład w cele organizacji. W tym kroku kaskady COBIT rozpatruje rezultaty związane z IT, a nie komplet wszystkich rezultatów biznesowych."
+          },
+          {
+            "t": "Nie, więc COBIT 5 obejmuje też cele marketingu",
+            "ok": false,
+            "w": "Cele marketingu mogą być celami organizacji. W tym kroku kaskady COBIT rozwija jednak ich wymagania dotyczące IT w cele związane z informatyką."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-047": {
+      "sha256Wejscia": "21c6c1613aa3a326ebfcbeb8e19c185c681cb558077ed66d25de2bd3660d8f6b",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Czyje oczekiwania powinien uwzględniać system Ładu przed decyzją o korzyściach, ryzyku i zasobach?",
+        "o": [
+          {
+            "t": "Wyniki ostatniej oceny zdolności wszystkich procesów",
+            "ok": false,
+            "w": "Wyniki ocen mogą wspierać decyzję, ale nie odpowiadają na pytanie o grupy interesariuszy. Podręcznik wskazuje uwzględnienie wszystkich interesariuszy (s. 17)."
+          },
+          {
+            "t": "Wyłącznie oczekiwania zarządu",
+            "ok": false,
+            "w": "Za wąsko – chodzi o wszystkich interesariuszy (s. 17)."
+          },
+          {
+            "t": "Oczekiwania wszystkich interesariuszy",
+            "ok": true,
+            "w": "System Ładu powinien uwzględnić wszystkich interesariuszy (s. 17)."
+          },
+          {
+            "t": "Tylko wymagania działu IT",
+            "ok": false,
+            "w": "Za wąsko (s. 17)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-131": {
+      "sha256Wejscia": "ffb29c62c729a1ab9561baf08bfcf6a9556e55679218206dc616cce741db04e5",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Jaki sposób formułowania wytycznych wskazano jako atut jednej nadrzędnej struktury ramowej (FW-PL s. 25)?",
+        "o": [
+          {
+            "t": "Prawniczym, dla działu zgodności",
+            "ok": false,
+            "w": "COBIT może być wykorzystywany przez dział zgodności, ale podany atut to przystępność języka dla szerokiego grona odbiorców."
+          },
+          {
+            "t": "Formalnym, zgodnym z normami ISO",
+            "ok": false,
+            "w": "Spójność ze standardami nie oznacza, że wskazanym atutem jest specjalistyczny język formalny. Podręcznik akcentuje przystępność."
+          },
+          {
+            "t": "Technicznym, dla specjalistów IT",
+            "ok": false,
+            "w": "Materiały mogą zawierać zagadnienia techniczne, ale wskazany atut to język zrozumiały także dla osób bez wiedzy technicznej."
+          },
+          {
+            "t": "Przystępnym, zrozumiałym dla osób bez wiedzy technicznej",
+            "ok": true,
+            "w": "Jedna struktura to źródło wytycznych napisanych przystępnym językiem (s. 25)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-133": {
+      "sha256Wejscia": "b12805089e4f2ef7514a4f5fa48892a4de98b806a80ddc034f41dad94df2f059",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Który zestaw zawiera przykłady zewnętrznych standardów i struktur, z którymi COBIT 5 jest spójny według podręcznika?"
+      }
+    },
+    "q-pc-impc-117": {
+      "sha256Wejscia": "29a13ca02488dd9d6cadbf01e8c237603aaef2abb52f01347127134841b1260e",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "z": [
+          "FW-PL s. 41",
+          "FW-PL s. 43",
+          "Altkom 2022, PDF s. 75, slajdy 149–150"
+        ]
+      }
+    },
+    "q-pc-pr-092": {
+      "sha256Wejscia": "b836e66e331237c12147c0919cc5fbe5f44ae7b3c68165af58d013506d05a405",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Filtruje bazę wiedzy COBIT 5, by dobrać właściwe wytyczne",
+            "ok": true,
+            "w": "Kaskada filtruje bazę wiedzy na podstawie celów organizacji (s. 20)."
+          },
+          {
+            "t": "Wyznacza skład Organu Ładu i nadzoru",
+            "ok": false,
+            "w": "Kaskada może pomóc rozpoznać potrzebne aktywatory i role. Nie wyznacza jednak sama składu konkretnego organu Ładu (s. 20)."
+          },
+          {
+            "t": "Określa poziom zdolności każdego procesu",
+            "ok": false,
+            "w": "Kaskada pomaga ustalić priorytety. Poziom zdolności konkretnego procesu wyznacza odrębna ocena, nie samo mapowanie (s. 20, 45)."
+          },
+          {
+            "t": "Zastępuje analizę ryzyka w organizacji",
+            "ok": false,
+            "w": "Kaskada uwzględnia ryzyko, ale go nie analizuje za organizację (s. 20)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-103": {
+      "sha256Wejscia": "13a7442cc89784081f797e4bb8a53c77ad3605522725c51d9b94d524c399bd6a",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Którego elementu NIE wymieniono jako osobnego komponentu Podejścia do Ładu na Rysunku 8?",
+        "zap": "EDM05 jest procesem wspierającym Ład. Nazwy czterech komponentów Rysunku 8 to cel, aktywatory, zakres oraz role, działania i relacje."
+      }
+    },
+    "q-pc-pr-111": {
+      "sha256Wejscia": "601c69804426bc4aae9d1b25e05d50b53298ae6d4d2d729a674ad5ec13a9a71c",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Jaką relację od właścicieli do Organu Ładu przedstawia Rysunek 9?",
+        "o": [
+          {
+            "t": "Wyznaczają kierunek",
+            "ok": false,
+            "w": "Właściciele mogą określać oczekiwania i ograniczenia. Na Rysunku 9 relację od nich do organu Ładu oznaczono jednak jako delegowanie; Set direction łączy organ Ładu z kierownictwem."
+          },
+          {
+            "t": "Delegują",
+            "ok": true,
+            "w": "Właściciele i interesariusze delegują uprawnienia Organowi Ładu (s. 24, il. 9)."
+          },
+          {
+            "t": "Raportują",
+            "ok": false,
+            "w": "Na Rysunku 9 Report oznacza relację od ról operacyjnych do kierownictwa. Pytanie dotyczy innej strzałki."
+          },
+          {
+            "t": "Instruują i dopasowują",
+            "ok": false,
+            "w": "To Kierownictwo wobec ról operacyjnych (s. 24)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-113": {
+      "sha256Wejscia": "b654f2bde87e7d2c54692238aff441d1dc7317305ac12346b6f7065b182412fc",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Delegowanie i rozliczanie",
+            "ok": false,
+            "w": "To relacja interesariuszy z Organem Ładu (s. 24)."
+          },
+          {
+            "t": "Wyznaczanie kierunku oraz monitorowanie wyników",
+            "ok": false,
+            "w": "Rysunek 9 łączy organ Ładu i kierownictwo strzałkami Set direction oraz Monitor. Dosłowny kierunek strzałki Monitor na rysunku prowadzi od kierownictwa ku organowi Ładu; nie zmienia to funkcji monitorowania w EDM."
+          },
+          {
+            "t": "Instruowanie i dopasowanie oraz raportowanie",
+            "ok": true,
+            "w": "Kierownictwo instruuje i dopasowuje, role operacyjne raportują (s. 24)."
+          },
+          {
+            "t": "Delegowanie i raportowanie",
+            "ok": false,
+            "w": "Na Rysunku 9 Delegation łączy właścicieli z organem Ładu, zaś Report role operacyjne z kierownictwem. Nie tworzą one pary między kierownictwem a rolami operacyjnymi."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-115": {
+      "sha256Wejscia": "58028dd715912e1b74be49840216a8cd53954d2e31c45d1b9191c00bacb4e6b6",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "W jakiej kolejności Rysunek 9 łączy delegowanie, wyznaczanie kierunku oraz instruowanie i dopasowanie?",
+        "zap": "To trzy różne relacje: właściciele delegują organowi Ładu; organ wyznacza kierunek kierownictwu; kierownictwo instruuje i dopasowuje role operacyjne."
+      }
+    },
+    "q-pc-pr-119": {
+      "sha256Wejscia": "179e4f7d27927a68aa9f4ddf3a886b53ef7b17817f8a99f2e7e0002493199734",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Uzupełnij zgodnie z Rysunkiem 9: Organ Ładu jest [?] wobec właścicieli i interesariuszy."
+      }
+    },
+    "q-pc-pr-123": {
+      "sha256Wejscia": "96cc6ae09fc9daba476dafb50e239d84be34c6da36ca8a561719d5e4547a07e8",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Co, według przypisu 4 w podręczniku COBIT 5 z 2012 r., stało się z inicjatywą Taking Governance Forward (TGF)?",
+        "o": [
+          {
+            "t": "Stała się przewodnikiem COBIT 5 – Ryzyko",
+            "ok": false,
+            "w": "To osobny przewodnik specjalistyczny (s. 26)."
+          },
+          {
+            "t": "Działa nadal jako osobny zasób",
+            "ok": false,
+            "w": "Przypis 4 mówi o włączeniu pojęć TGF do COBIT 5 i wycofaniu inicjatywy. Pytanie dotyczy tego historycznego opisu (s. 23)."
+          },
+          {
+            "t": "Zastąpiła COBIT 4.1",
+            "ok": false,
+            "w": "COBIT 4.1 zastąpił COBIT 5 (s. 33)."
+          },
+          {
+            "t": "Włączono ją do COBIT 5 i wycofano",
+            "ok": true,
+            "w": "Pojęcia TGF włączono do COBIT 5, a TGF wycofano (s. 23, przypis 4)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-145": {
+      "sha256Wejscia": "7f3ee5014d5f3e44c622663ac642b53690e11ddff43ad33f520f5892dbfb66fb",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Którą drugą możliwość opisu celu aktywatora, obok oczekiwanych wyników, wskazuje wprost FW-PL s. 29?",
+        "o": [
+          {
+            "t": "liczbę jego interesariuszy wewnętrznych",
+            "ok": false,
+            "w": "Interesariusze to inny wymiar (s. 28)."
+          },
+          {
+            "t": "jego koszt zakupu",
+            "ok": false,
+            "w": "Koszt może być elementem celu lub miernika w konkretnym kontekście. Cytowany ogólny podział rozróżnia jednak oczekiwane wyniki i zastosowanie samego aktywatora."
+          },
+          {
+            "t": "jego poziom dojrzałości",
+            "ok": false,
+            "w": "Można oceniać różne właściwości aktywatora, ale wskazany podział dotyczy oczekiwanych wyników oraz jego zastosowania. Pojęcie dojrzałości nie jest zastrzeżone wyłącznie dla COBIT 4.1."
+          },
+          {
+            "t": "zastosowanie samego aktywatora",
+            "ok": true,
+            "w": "Cele mogą dotyczyć oczekiwanych wyników lub zastosowania aktywatora (s. 29)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-147": {
+      "sha256Wejscia": "a9a17fca16dc0134c6c4ad3d38483a6876c06d5e2e23886bfb79fbdada7fa44d",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Wskaźnik ryzyka",
+            "ok": false,
+            "w": "Mierniki ryzyka mogą być użyteczne w organizacji. W klasyfikacji mierników aktywatora stosowanie dobrych praktyk traktuje się jako wskaźnik wiodący (s. 29)."
+          },
+          {
+            "t": "Wskaźnik opóźniony",
+            "ok": false,
+            "w": "Mierzy osiągnięcie celów (s. 29)."
+          },
+          {
+            "t": "Cel aktywatora",
+            "ok": false,
+            "w": "Cel to nie miernik (s. 29)."
+          },
+          {
+            "t": "Wskaźnik wiodący",
+            "ok": true,
+            "w": "Mierniki stosowania praktyk to wskaźniki wiodące (s. 28–29)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-159": {
+      "sha256Wejscia": "55266ac34cbe86a7f2804f7d1a022dcb57368e5c98041b5ddf1def4d723367e8",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "grono interesariuszy zewnętrznych",
+            "ok": false,
+            "w": "Interesariusze wpływają na oczekiwania i cele. Formalny kierunek, z którym ma być spójne Zarządzanie, wyznacza według tej definicji organ Ładu (s. 31)."
+          },
+          {
+            "t": "Organ Ładu i nadzoru",
+            "ok": true,
+            "w": "Zarządzanie działa spójnie z kierunkiem Organu Ładu (s. 31)."
+          },
+          {
+            "t": "zespół ról operacyjnych",
+            "ok": false,
+            "w": "Role operacyjne wykonują i raportują (s. 24)."
+          },
+          {
+            "t": "dyrektor ds. informatyki",
+            "ok": false,
+            "w": "Za wąsko (s. 31)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-162": {
+      "sha256Wejscia": "8b57feb636a9191336235b03ddfc83919c3b01a738f26aa5b9ec0bfc445e5436",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Które działanie definicja COBIT 5 przypisuje Zarządzaniu, podczas gdy pozostałe opisują Ład?"
+      }
+    },
+    "q-pc-pr-165": {
+      "sha256Wejscia": "3d5eb99d7bee5dd6d1171c895563d692037a069ae1dce571daf28c501f7b0f44",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Delegowaniu uprawnień przez właścicieli",
+            "ok": false,
+            "w": "To rola interesariuszy (s. 24)."
+          },
+          {
+            "t": "Wyznaczaniu kierunku dla Organu Ładu",
+            "ok": false,
+            "w": "Odwrotnie – to Organ Ładu wyznacza kierunek (s. 31)."
+          },
+          {
+            "t": "Ustalaniu apetytu na ryzyko",
+            "ok": false,
+            "w": "Kierownictwo może przygotowywać propozycje apetytu na ryzyko i wdrażać go. Definicja Zarządzania wskazuje szerzej planowanie, tworzenie, wykonywanie i monitorowanie dla osiągania celów organizacji (s. 31)."
+          },
+          {
+            "t": "Osiąganiu celów organizacji",
+            "ok": true,
+            "w": "Zarządzanie planuje, tworzy, wykonuje i monitoruje, by osiągnąć cele organizacji (s. 31)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-170": {
+      "sha256Wejscia": "ba2d814d3f66ccb2a9d910df14146307ec7c285454abf71f934a4fd0b6e24a51",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Który aktywator wskazano wprost w tabeli interakcji Ładu i Zarządzania jako instytucjonalizujący decyzje Ładu (FW-PL s. 31)?",
+        "o": [
+          {
+            "t": "Informacja",
+            "ok": false,
+            "w": "Informacja także utrwala i komunikuje decyzje. W tej tabeli instytucjonalizację decyzji przypisano jednak zasadom i politykom."
+          },
+          {
+            "t": "Zasady, Polityki i Struktury ramowe",
+            "ok": true,
+            "w": "Zasady i polityki instytucjonalizują decyzje Ładu i łączą je z realizacją (s. 31)."
+          },
+          {
+            "t": "Struktury organizacyjne",
+            "ok": false,
+            "w": "Struktury podejmują decyzje i pomagają je wdrożyć. W cytowanej pozycji tabeli chodzi o ich instytucjonalizację przez zasady i polityki."
+          },
+          {
+            "t": "Procesy",
+            "ok": false,
+            "w": "Procesy rozróżniają praktyki Ładu i Zarządzania (s. 31)."
+          }
+        ]
+      }
+    },
+    "q-pc-pr-171": {
+      "sha256Wejscia": "b8a5741529dd528b9b67d4e87fdf946ffe0aa6b2d7c3d6eeb2886356dbcb3ba8",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Jaką interakcję przypisano Kulturze, Etyce i Zachowaniu w tabeli interakcji Ładu i Zarządzania (FW-PL s. 31)?"
+      }
+    },
+    "q-pc-pr-174": {
+      "sha256Wejscia": "3ba41150469edf1a959d37ad607dc8b325ef8ad8603e9c63758545537a6024ce",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "t": "Rada banku ustala apetyt na ryzyko, a kierownictwo podejmuje decyzje wdrożeniowe o zabezpieczeniach. Której pozycji tabeli interakcji Ładu i Zarządzania odpowiada ten przykład (FW-PL s. 31)?"
+      }
+    },
+    "q-pc-pr-175": {
+      "sha256Wejscia": "cc205f9bce8b7cae6359f3381c26b1b195272d94da60e3ae65dc7dcbff1ff167",
+      "uzasadnienie": "Doprecyzowanie treści i uzasadnień na podstawie wskazanych stron FW-PL.",
+      "zmiany": {
+        "o": [
+          {
+            "t": "Jest normatywny – każdy musi wdrożyć 37 procesów",
+            "ok": true,
+            "w": "COBIT 5 nie ma charakteru normatywnego; organizacja definiuje własne procesy (s. 32)."
+          },
+          {
+            "t": "Jest następcą modelu procesów COBIT 4.1",
+            "ok": false,
+            "w": "Prawda (s. 33)."
+          },
+          {
+            "t": "Łączy modele procesów Risk IT i Val IT",
+            "ok": false,
+            "w": "Prawda (s. 33)."
+          },
+          {
+            "t": "Dzieli procesy na dwa główne obszary: Ład i Zarządzanie",
+            "ok": false,
+            "w": "Tak. Ład obejmuje domenę EDM, a Zarządzanie cztery domeny: APO, BAI, DSS i MEA (s. 32–33)."
+          }
+        ]
+      }
+    }
+  }
+}

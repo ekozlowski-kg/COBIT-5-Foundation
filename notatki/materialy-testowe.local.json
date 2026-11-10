@@ -1,0 +1,3702 @@
+{
+  "pytania": [
+    {
+      "id": "sp1-01",
+      "numer": 1,
+      "typ": "egzamin",
+      "kodSP": "PR0105",
+      "sylabus": [
+        "PR-01-05"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Które z pytań jest właściwe żeby ustalić jak zarządzać wydajnością aktywatora?",
+      "opcje": [
+        {
+          "tekst": "Czy stosowane są dobre praktyki?",
+          "poprawna": true,
+          "wyjasnienie": "To czwarte modelowe pytanie. Dwa pierwsze dotyczą potrzeb i celów, trzecie cyklu życia, a czwarte stosowania dobrych praktyk."
+        },
+        {
+          "tekst": "Czy zapewnione jest bezpieczeństwo?",
+          "poprawna": false,
+          "wyjasnienie": "Bezpieczeństwo jest ważne, ale nie jest dosłowną nazwą jednego z czterech pytań. W modelu należy m.in. do kategorii celów Dostęp i Bezpieczeństwo."
+        },
+        {
+          "tekst": "Czy działania są efektywne?",
+          "poprawna": false,
+          "wyjasnienie": "Ogólna efektywność działań nie jest nazwą tego pytania. Model rozdziela osiągane wyniki od zarządzania cyklem życia i stosowania praktyk."
+        },
+        {
+          "tekst": "Czy wydajność jest monitorowana?",
+          "poprawna": false,
+          "wyjasnienie": "Sprawność trzeba regularnie monitorować; pytanie o samo monitorowanie nie zastępuje czterech pytań modelu."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 3
+        },
+        {
+          "doc": "SP1",
+          "strona": 21
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 28
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-02",
+      "numer": 2,
+      "typ": "egzamin",
+      "kodSP": "EN0208",
+      "sylabus": [
+        "EN-02-08"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który typ celu procesu jest zgodny z regułami zewnętrznymi?",
+      "opcje": [
+        {
+          "tekst": "Wewnętrzny",
+          "poprawna": true,
+          "wyjasnienie": "Cele wewnętrzne (intrinsic) obejmują jakość samą w sobie i zgodność z regułami wewnętrznymi oraz zewnętrznymi. „Wewnętrzny” nie oznacza pochodzenia reguły."
+        },
+        {
+          "tekst": "Biznesowy",
+          "poprawna": false,
+          "wyjasnienie": "Cele biznesowe są szerszym pojęciem. Trzy kategorie celów procesu to wewnętrzne, kontekstowe oraz dostępu i bezpieczeństwa."
+        },
+        {
+          "tekst": "Kontekstowy",
+          "poprawna": false,
+          "wyjasnienie": "Kontekstowe dotyczą dostosowania procesu do konkretnej sytuacji, zrozumiałości i łatwości stosowania."
+        },
+        {
+          "tekst": "Dostępności i bezpieczeństwa",
+          "poprawna": false,
+          "wyjasnienie": "Dostęp i bezpieczeństwo dotyczą dostępności procesu dla potrzebujących i poufności tam, gdzie jest wymagana."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 3
+        },
+        {
+          "doc": "SP1",
+          "strona": 21
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-03",
+      "numer": 3,
+      "typ": "egzamin",
+      "kodSP": "IM0101",
+      "sylabus": [
+        "IM-01-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak nazywa się Faza Zarządzania Programem w Cyklu Życia Wdrożenia, podczas której praktyczne rozwiązania są wspierane przez uzasadnienia biznesowe?",
+      "opcje": [
+        {
+          "tekst": "Budowanie usprawnień",
+          "poprawna": false,
+          "wyjasnienie": "Budowanie usprawnień to działanie fazy 4 w pierścieniu ciągłego doskonalenia, a pytanie dotyczy pierścienia programu."
+        },
+        {
+          "tekst": "Definiowanie mapy drogowej",
+          "poprawna": false,
+          "wyjasnienie": "Definiowanie mapy drogowej to faza 3 zarządzania programem: ustala kierunek dojścia do celu."
+        },
+        {
+          "tekst": "Planowanie programu",
+          "poprawna": true,
+          "wyjasnienie": "Planowanie programu to faza 4 pierścienia zewnętrznego. W opisie tej fazy definiuje się projekty poparte uzasadnieniami biznesowymi."
+        },
+        {
+          "tekst": "Inicjowanie programu",
+          "poprawna": false,
+          "wyjasnienie": "Inicjowanie programu to faza 1. Rozpoznaje się wtedy potrzebę działania i uzyskuje poparcie dla zmiany."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 3
+        },
+        {
+          "doc": "SP1",
+          "strona": 22
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-04",
+      "numer": 4,
+      "typ": "egzamin",
+      "kodSP": "IM0205",
+      "sylabus": [
+        "IM-02-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który komponent Cyklu Życia Wdrożenia odnosi się do behawioralnych i kulturowych aspektów wdrożenia?",
+      "opcje": [
+        {
+          "tekst": "Zarządzanie programem",
+          "poprawna": false,
+          "wyjasnienie": "Zarządzanie programem jest pierścieniem zewnętrznym; porządkuje inicjatywę, plan, realizację i korzyści."
+        },
+        {
+          "tekst": "Aktywowanie Zmiany",
+          "poprawna": true,
+          "wyjasnienie": "Aktywowanie zmiany jest pierścieniem środkowym i uwzględnia ludzi, zachowania, kulturę oraz przyjęcie zmiany."
+        },
+        {
+          "tekst": "Główny cykl życia ciągłego doskonalenia",
+          "poprawna": false,
+          "wyjasnienie": "Wewnętrzny cykl ciągłego doskonalenia rozwija aktywatory i podkreśla, że doskonalenie nie jest jednorazowym projektem."
+        },
+        {
+          "tekst": "Definiowanie mapy drogowej",
+          "poprawna": false,
+          "wyjasnienie": "Definiowanie mapy drogowej jest pojedynczym działaniem fazy 3 programu, nie nazwą jednego z trzech komponentów."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 4
+        },
+        {
+          "doc": "SP1",
+          "strona": 22
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-05",
+      "numer": 5,
+      "typ": "egzamin",
+      "kodSP": "EN0216",
+      "sylabus": [
+        "EN-02-16"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który mechanizm komunikowania wartości organizacji i pożądanych zachowań wskazano w opisie relacji aktywatora Kultura, Etyka i Zachowanie?",
+      "opcje": [
+        {
+          "tekst": "Rezultaty procesu",
+          "poprawna": false,
+          "wyjasnienie": "Rezultaty opisują osiągnięcia procesu; nie są nazwą mechanizmu komunikowania wartości w opisie relacji aktywatora Kultura, Etyka i Zachowanie."
+        },
+        {
+          "tekst": "Struktury organizacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Struktury podejmują decyzje i mogą uczestniczyć w komunikacji. Podręcznik jako wskazany tu mechanizm wymienia jednak zasady i polityki."
+        },
+        {
+          "tekst": "Zasady i polityki",
+          "poprawna": true,
+          "wyjasnienie": "Zasady i polityki komunikują wartości organizacji oraz oczekiwane zachowania; ich realizacja wymaga także pozostałych aktywatorów."
+        },
+        {
+          "tekst": "Reguły i normy",
+          "poprawna": false,
+          "wyjasnienie": "Reguły i normy dają dodatkowe wskazówki dotyczące zachowań i są powiązane z zasadami i politykami. Nie są nazwą poszukiwanego mechanizmu w tym opisie."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 4
+        },
+        {
+          "doc": "SP1",
+          "strona": 23
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 80
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-06",
+      "numer": 6,
+      "typ": "egzamin",
+      "kodSP": "PR0212",
+      "sylabus": [
+        "PR-02-12"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które wymaganie opisuje jakość kontekstową w wymiarze Cele aktywatora?",
+      "opcje": [
+        {
+          "tekst": "Rezultaty powinny być właściwe i kompletne",
+          "poprawna": true,
+          "wyjasnienie": "Właściwe i kompletne wyniki pasują do potrzeb zadania, czyli do jakości kontekstowej. W tej kategorii są też aktualność, zrozumiałość i łatwość użycia."
+        },
+        {
+          "tekst": "Aktywatory są dostępne kiedy, i gdy potrzebne",
+          "poprawna": false,
+          "wyjasnienie": "Dostępność aktywatora, gdy jest potrzebny, należy do Dostępu i Bezpieczeństwa."
+        },
+        {
+          "tekst": "Aktywatory zapewniają dokładne, obiektywne i uznane wyniki",
+          "poprawna": false,
+          "wyjasnienie": "Dokładne, obiektywne i uznane wyniki charakteryzują jakość wewnętrzną, zwaną w podręczniku rzeczywistą."
+        },
+        {
+          "tekst": "Rezultaty są zabezpieczone",
+          "poprawna": false,
+          "wyjasnienie": "Ochrona wyników i ograniczanie dostępu do uprawnionych stron należą do Dostępu i Bezpieczeństwa."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 4
+        },
+        {
+          "doc": "SP1",
+          "strona": 23
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-07",
+      "numer": 7,
+      "typ": "egzamin",
+      "kodSP": "PC0202",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które stwierdzenie jest właściwe w odniesieniu do trzech przewodników COBIT (Model Oceny Procesu, Przewodnik Asesora, Przewodnik samooceny)?",
+      "opcje": [
+        {
+          "tekst": "Model Oceny Procesu (PAM) jest oceniany przez Przewodnik Asesora",
+          "poprawna": false,
+          "wyjasnienie": "Przewodnik Asesora opisuje przeprowadzenie oceny procesów z użyciem PAM; sam model PAM nie jest tu obiektem oceny."
+        },
+        {
+          "tekst": "Model Oceny Procesu NIE posiada żadnej wartości bez Przewodnika Asesora",
+          "poprawna": false,
+          "wyjasnienie": "PAM ma wartość jako model zawierający procesy i wskaźniki oceny. Przewodnik Asesora rozwija sposób przeprowadzenia formalnej oceny."
+        },
+        {
+          "tekst": "Przewodnik Samooceny jest taki sam jak Przewodnik Asesora, ale jest używany wewnętrznie w organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Samoocena nie jest identycznym przewodnikiem użytym w innym miejscu: stanowi mniej rygorystyczny, prostszy punkt wyjścia."
+        },
+        {
+          "tekst": "Przewodnik Samooceny może być użyty do przygotowania do formalnej Oceny Zdolności Procesu",
+          "poprawna": true,
+          "wyjasnienie": "Samoocena może pomóc rozpoznać stan, luki i potrzebne dowody, przygotowując do bardziej formalnej oceny zdolności."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 5
+        },
+        {
+          "doc": "SP1",
+          "strona": 24
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        },
+        {
+          "doc": "Altkom 2022 (slajdy 149–150)",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null,
+      "zapamietaj": "Trzy przewodniki: PAM daje model, Przewodnik Asesora sposób formalnej oceny, a Przewodnik Samooceny prostsze rozpoznanie i przygotowanie. Materiały Altkom 2022: slajdy 149–150 (PDF s. 75)."
+    },
+    {
+      "id": "sp1-08",
+      "numer": 8,
+      "typ": "egzamin",
+      "kodSP": "PR0208",
+      "sylabus": [
+        "PR-02-08"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który element jest kluczowym komponentem COBIT 5 Podejście do Ładu?",
+      "opcje": [
+        {
+          "tekst": "Transparentność Interesariuszy",
+          "poprawna": false,
+          "wyjasnienie": "EDM05 jest procesem Ładu. Nie jest nazwą jednego z czterech komponentów podejścia z Rysunku 8."
+        },
+        {
+          "tekst": "Oszacuj, Kieruj i Monitoruj",
+          "poprawna": false,
+          "wyjasnienie": "Evaluate, Direct and Monitor to praktyki Ładu, występujące w każdym procesie EDM. Nie są nazwą komponentu tego rysunku."
+        },
+        {
+          "tekst": "Planuj, Twórz, Wykonuj i Monitoruj",
+          "poprawna": false,
+          "wyjasnienie": "Plan, Build, Run and Monitor opisują obszary odpowiedzialności Zarządzania; odpowiadają domenom APO, BAI, DSS i MEA."
+        },
+        {
+          "tekst": "Zakres Ładu",
+          "poprawna": true,
+          "wyjasnienie": "Zakres Ładu jest komponentem podejścia obok celu tworzenia wartości, aktywatorów oraz ról, działań i relacji."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 5
+        },
+        {
+          "doc": "SP1",
+          "strona": 24
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 23
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 24
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 32
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 33
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Oryginalne uzasadnienie odpowiedzi D opisuje optymalizację zasobów. Tutaj objaśnienie dotyczy rzeczywiście wybranego zakresu Ładu."
+    },
+    {
+      "id": "sp1-09",
+      "numer": 9,
+      "typ": "egzamin",
+      "kodSP": "EN0212",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które działanie jest dobrą praktyką zasad operacyjnych w odniesieniu do aktywatora struktur organizacyjnych?",
+      "opcje": [
+        {
+          "tekst": "Publikowanie harmonogramu spotkań Zarządu z wyprzedzeniem",
+          "poprawna": true,
+          "wyjasnienie": "Harmonogram spotkań to praktyczne ustalenie sposobu działania struktury, czyli zasady operacyjne."
+        },
+        {
+          "tekst": "Wyznaczenie granic uprawnień do podejmowania decyzji w strukturze organizacyjnej",
+          "poprawna": false,
+          "wyjasnienie": "Granice uprawnień decyzyjnych określają zakres kontroli struktury."
+        },
+        {
+          "tekst": "Definiowanie struktury delegowania uprawnień do podejmowania decyzji",
+          "poprawna": false,
+          "wyjasnienie": "Delegowanie oznacza przekazywanie uprawnień decyzyjnych lub ich części strukturom podległym. To odrębna praktyka od zakresu kontroli."
+        },
+        {
+          "tekst": "Dokumentowanie decyzji, które mogą być podejmowane przez uprawnioną strukturę",
+          "poprawna": false,
+          "wyjasnienie": "Określenie decyzji, które struktura może podejmować, opisuje poziom uprawnień lub prawa decyzyjne."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 5
+        },
+        {
+          "doc": "SP1",
+          "strona": 25
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Poprawiono błędną klasyfikację delegowania jako zakresu kontroli."
+    },
+    {
+      "id": "sp1-10",
+      "numer": 10,
+      "typ": "egzamin",
+      "kodSP": "PR0207",
+      "sylabus": [
+        "PR-02-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które stwierdzenie najlepiej opisuje istotę Kaskady Celów?",
+      "opcje": [
+        {
+          "tekst": "Rozważenie wejść i wyjść procesu informatycznego w organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Wejścia i wyjścia rozwija opis praktyk procesu. Nie jest to definicja mechanizmu przekładania potrzeb na cele."
+        },
+        {
+          "tekst": "Definiowanie i wdrażanie Architektury Korporacyjnej w organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Architekturą korporacyjną zajmuje się m.in. APO03. Kaskada pomaga wybrać cele i aktywatory, a nie zastępuje prac architektonicznych."
+        },
+        {
+          "tekst": "Wspieranie ujednolicenia potrzeb organizacji z rozwiązaniami informatycznymi i usługami",
+          "poprawna": true,
+          "wyjasnienie": "Kaskada przekłada potrzeby interesariuszy na dostosowane cele organizacji, cele IT i cele aktywatorów, wspierając dopasowanie rozwiązań do potrzeb."
+        },
+        {
+          "tekst": "Wspieranie jasnego zdefiniowania ról i odpowiedzialności w organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Role i odpowiedzialności rozwija się m.in. w RACI. Kaskada wiąże cele na różnych poziomach odpowiedzialności, lecz sama nie definiuje szczegółowego przydziału RACI."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 5
+        },
+        {
+          "doc": "SP1",
+          "strona": 25
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 20
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-11",
+      "numer": 11,
+      "typ": "egzamin",
+      "kodSP": "EN0202",
+      "sylabus": [
+        "EN-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Do czego służą polityki w modelu zasady, polityki i modele ramowe?",
+      "opcje": [
+        {
+          "tekst": "Bycie otwartym i elastycznym",
+          "poprawna": false,
+          "wyjasnienie": "Otwartość i elastyczność wymieniono jako cechy struktur ramowych. To nie podstawowa funkcja polityki."
+        },
+        {
+          "tekst": "Określenie skutków braku zgodności",
+          "poprawna": false,
+          "wyjasnienie": "Konsekwencje nieprzestrzegania są elementem struktury polityk; nie wyczerpują przeznaczenia wszystkich polityk."
+        },
+        {
+          "tekst": "Dostarczenie szczegółowych wytycznych stosowania zasad w praktyce",
+          "poprawna": true,
+          "wyjasnienie": "Polityki rozwijają zasady w szczegółowe wytyczne praktycznego działania i podejmowania decyzji."
+        },
+        {
+          "tekst": "Określenie głównych wartości organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Podstawowe wartości i założenia wyrażają zasady; polityki podają bardziej szczegółowe wskazówki ich stosowania."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 6
+        },
+        {
+          "doc": "SP1",
+          "strona": 25
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-12",
+      "numer": 12,
+      "typ": "egzamin",
+      "kodSP": "PC0102",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Zidentyfikuj brakujące słowo / słowa w następującym zdaniu. [?] procesu jest atrybutem procesu dla Procesu przewidywalnego.",
+      "opcje": [
+        {
+          "tekst": "Innowacja",
+          "poprawna": false,
+          "wyjasnienie": "Innowacja procesu PA 5.1 należy do poziomu 5, procesu zoptymalizowanego."
+        },
+        {
+          "tekst": "Zarządzanie wydajnością",
+          "poprawna": false,
+          "wyjasnienie": "Zarządzanie wydajnością PA 2.1 należy do poziomu 2, procesu zarządzanego."
+        },
+        {
+          "tekst": "Ocena",
+          "poprawna": false,
+          "wyjasnienie": "Ocena procesu nie jest nazwą jednego z dziewięciu atrybutów PA 1.1–5.2."
+        },
+        {
+          "tekst": "Miara",
+          "poprawna": true,
+          "wyjasnienie": "Miara procesu, w podręczniku Pomiar procesu, to PA 4.1 na poziomie 4. Drugim atrybutem jest PA 4.2 Kontrola procesu."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 6
+        },
+        {
+          "doc": "SP1",
+          "strona": 26
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-13",
+      "numer": 13,
+      "typ": "egzamin",
+      "kodSP": "EN0211",
+      "sylabus": [
+        "EN-02-11"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Proces wdrożenia rozwiązania dostarczył działającą aplikację i infrastrukturę. Jakie powiązanie procesów z innymi aktywatorami ilustruje ten wynik?",
+      "opcje": [
+        {
+          "tekst": "Diagramy RACI",
+          "poprawna": false,
+          "wyjasnienie": "RACI przypisuje odpowiedzialności rolom i strukturom. Nie oznacza działającej aplikacji oraz infrastruktury z tego scenariusza."
+        },
+        {
+          "tekst": "Aspekty kulturowe",
+          "poprawna": false,
+          "wyjasnienie": "Kultura wpływa na wykonywanie procesów. Nie jest nazwą uzyskanej tutaj zdolności technicznej i usługowej."
+        },
+        {
+          "tekst": "Zdolności usługowe",
+          "poprawna": true,
+          "wyjasnienie": "Procesy mogą zapewniać, ale również potrzebować zdolności usługowych, takich jak aplikacje i infrastruktura. Scenariusz opisuje właśnie taki wynik."
+        },
+        {
+          "tekst": "Cele biznesowe",
+          "poprawna": false,
+          "wyjasnienie": "Proces wspiera cele biznesowe; wdrożona aplikacja i infrastruktura są tu zdolnością usługową, nie samą deklaracją celu."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 7
+        },
+        {
+          "doc": "SP1",
+          "strona": 26
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 71
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-14",
+      "numer": 14,
+      "typ": "egzamin",
+      "kodSP": "EN0222",
+      "sylabus": [
+        "EN-02-22"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która z domen jest NAJBARDZIEJ właściwa dla umiejętności takich jak Zarządzanie Portfelem?",
+      "opcje": [
+        {
+          "tekst": "Monitoruj, Oszacuj i Oceń (MEA)",
+          "poprawna": false,
+          "wyjasnienie": "MEA obejmuje w tej tabeli umiejętności monitorowania sprawności, audytu mechanizmów kontrolnych i weryfikacji zgodności."
+        },
+        {
+          "tekst": "Dostarczaj, Obsługuj i Wspieraj (DSS)",
+          "poprawna": false,
+          "wyjasnienie": "DSS obejmuje m.in. Service Desk, incydenty, problemy, eksploatację i administrowanie bazami."
+        },
+        {
+          "tekst": "Twórz, Nabywaj i Wdrażaj (BAI)",
+          "poprawna": false,
+          "wyjasnienie": "BAI obejmuje zarządzanie projektami, a nie portfelami projektów. To podobne, lecz różne kategorie umiejętności."
+        },
+        {
+          "tekst": "Dostosuj, Planuj i Organizuj (APO)",
+          "poprawna": true,
+          "wyjasnienie": "Rysunek 39 umieszcza zarządzanie portfelami projektów w APO: chodzi o dobór i równowagę zbioru inicjatyw."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 7
+        },
+        {
+          "doc": "SP1",
+          "strona": 26
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 88
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-15",
+      "numer": 15,
+      "typ": "egzamin",
+      "kodSP": "PR0102",
+      "sylabus": [
+        "PR-01-02"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Który aktywator przekształca pożądane zachowanie w praktyczne wytyczne?",
+      "opcje": [
+        {
+          "tekst": "Kultura, Etyka i Zachowanie",
+          "poprawna": false,
+          "wyjasnienie": "Kultura, Etyka i Zachowanie dotyczą wzorców zachowań i wartości; nie są nazwą aktywatora przekładającego je na praktyczne wytyczne."
+        },
+        {
+          "tekst": "Usługi, Infrastruktura i Aplikacje",
+          "poprawna": false,
+          "wyjasnienie": "Usługi, Infrastruktura i Aplikacje zapewniają możliwości przetwarzania informacji i świadczenia usług."
+        },
+        {
+          "tekst": "Zasady, Polityki i Struktury ramowe",
+          "poprawna": true,
+          "wyjasnienie": "Zasady, Polityki i Struktury ramowe przekładają oczekiwane zachowania na praktyczne wytyczne codziennego zarządzania."
+        },
+        {
+          "tekst": "Ludzie, Umiejętności i Kompetencje",
+          "poprawna": false,
+          "wyjasnienie": "Ludzie, Umiejętności i Kompetencje umożliwiają działania, właściwe decyzje i działania naprawcze."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 7
+        },
+        {
+          "doc": "SP1",
+          "strona": 27
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 27
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-16",
+      "numer": 16,
+      "typ": "egzamin",
+      "kodSP": "IM0206",
+      "sylabus": [
+        "IM-02-06"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która z opcji NIE jest elementem fazy 3 w Cyklu Życia Wdrożenia?",
+      "opcje": [
+        {
+          "tekst": "Zidentyfikuj odtwórców ról",
+          "poprawna": true,
+          "wyjasnienie": "Identyfikacja odtwórców ról należy do fazy 4 pierścienia aktywowania zmiany, więc nie jest działaniem fazy 3."
+        },
+        {
+          "tekst": "Zdefiniuj Stan docelowy",
+          "poprawna": false,
+          "wyjasnienie": "Stan docelowy definiuje się w fazie 3 wewnętrznego cyklu ciągłego doskonalenia. Dlatego nie wybiera się tej odpowiedzi w pytaniu z NIE."
+        },
+        {
+          "tekst": "Komunikuj Rezultat",
+          "poprawna": false,
+          "wyjasnienie": "Komunikowanie rezultatu należy do fazy 3 pierścienia aktywowania zmiany."
+        },
+        {
+          "tekst": "Zdefiniuj mapę drogową",
+          "poprawna": false,
+          "wyjasnienie": "Definiowanie mapy drogowej należy do fazy 3 zarządzania programem."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 8
+        },
+        {
+          "doc": "SP1",
+          "strona": 27
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Poprawiono pierścień przypisany stanowi docelowemu; klucz A pozostaje zgodny z arkuszem."
+    },
+    {
+      "id": "sp1-17",
+      "numer": 17,
+      "typ": "egzamin",
+      "kodSP": "EN0213",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która z ról najwyższa rangą w organizacji jest odpowiedzialna za ujednolicenie strategii informatycznej i strategii biznesowej?",
+      "opcje": [
+        {
+          "tekst": "Dyrektor Działu Biznesowego",
+          "poprawna": false,
+          "wyjasnienie": "Dyrektor działu biznesowego odpowiada za działalność jednostki biznesowej lub spółki zależnej."
+        },
+        {
+          "tekst": "Szef Architektury",
+          "poprawna": false,
+          "wyjasnienie": "Szef Architektury odpowiada za proces architektury korporacyjnej; nie jest nazwą roli z poszukiwanego opisu."
+        },
+        {
+          "tekst": "Dyrektor ds. Informatyki (CIO)",
+          "poprawna": true,
+          "wyjasnienie": "Opis CIO w Rysunku 33 wskazuje dopasowanie strategii IT do strategii biznesowej, planowanie, zasoby i dostarczanie usług IT."
+        },
+        {
+          "tekst": "Dyrektor Operacyjny (COO)",
+          "poprawna": false,
+          "wyjasnienie": "COO odpowiada za funkcjonowanie całej organizacji. Nie jest to szczególny opis dopasowania strategii przypisany CIO."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 8
+        },
+        {
+          "doc": "SP1",
+          "strona": 28
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-18",
+      "numer": 18,
+      "typ": "egzamin",
+      "kodSP": "PR0202",
+      "sylabus": [
+        "PR-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który z podanych elementów jest przykładem wyznacznika wpływającego na potrzeby interesariuszy w kroku 1 Kaskady Celów?",
+      "opcje": [
+        {
+          "tekst": "Dobre praktyki",
+          "poprawna": false,
+          "wyjasnienie": "Dobre praktyki to wymiar aktywatora. Nie są wymienionym tu przykładem wyznacznika z kroku 1 kaskady. Nie oznacza to, że praktyki nie mogą wpływać na oczekiwania ludzi."
+        },
+        {
+          "tekst": "Jakość kontekstowa",
+          "poprawna": false,
+          "wyjasnienie": "Jakość kontekstowa jest kategorią celów aktywatora. Pytanie dotyczy przykładu zmiany otoczenia wpływającej na potrzeby."
+        },
+        {
+          "tekst": "Wskaźniki opóźnione",
+          "poprawna": false,
+          "wyjasnienie": "Wskaźnik opóźniony mierzy osiągnięte wyniki. Wynik może dostarczyć informacji do decyzji, lecz to inne pojęcie niż wyznacznik z tej listy."
+        },
+        {
+          "tekst": "Otoczenie regulacyjne",
+          "poprawna": true,
+          "wyjasnienie": "Otoczenie regulacyjne może zmieniać potrzeby interesariuszy; krok 1 kaskady uwzględnia m.in. zmiany otoczenia biznesowego i regulacyjnego."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 8
+        },
+        {
+          "doc": "SP1",
+          "strona": 28
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 28
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-19",
+      "numer": 19,
+      "typ": "egzamin",
+      "kodSP": "EN0206",
+      "sylabus": [
+        "EN-02-06"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co podręcznik określa jako najistotniejszy środek realizacji polityk?",
+      "opcje": [
+        {
+          "tekst": "Struktury organizacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Struktury mogą definiować i wdrażać polityki w swoim zakresie kontroli. Nie jest to jednak odpowiedź na pytanie, co tekst nazywa najistotniejszym środkiem ich realizacji."
+        },
+        {
+          "tekst": "Praktyki i działania procesów",
+          "poprawna": true,
+          "wyjasnienie": "Praktyki i działania procesów urzeczywistniają wytyczne polityk. Podręcznik wskazuje je jako najistotniejszy środek realizacji polityk."
+        },
+        {
+          "tekst": "Struktura ramowa Ładu",
+          "poprawna": false,
+          "wyjasnienie": "Struktura ramowa porządkuje spójne wytyczne, role i relacje; sama nie zastępuje praktyk realizujących politykę."
+        },
+        {
+          "tekst": "Reguły i normy",
+          "poprawna": false,
+          "wyjasnienie": "Reguły i normy rozwijają wskazówki dotyczące zachowań. Wskazanym w tekście środkiem realizacji polityk są praktyki i działania procesów."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 9
+        },
+        {
+          "doc": "SP1",
+          "strona": 29
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-20",
+      "numer": 20,
+      "typ": "egzamin",
+      "kodSP": "PR0209",
+      "sylabus": [
+        "PR-02-09"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Według relacji pokazanej na Rysunku 9 która rola odpowiada wykonawczo za monitorowanie osiągania celów i przekazuje informacje organowi Ładu?",
+      "opcje": [
+        {
+          "tekst": "Organ Ładu i nadzoru",
+          "poprawna": false,
+          "wyjasnienie": "Organ Ładu nadaje kierunek, odpowiada przed interesariuszami i sam również monitoruje. Pytanie dotyczy wskazanej relacji wykonawczej Zarządzania na Rysunku 9."
+        },
+        {
+          "tekst": "Role operacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Role operacyjne raportują do Kierownictwa. To inna strzałka na Rysunku 9 niż Monitorowanie łączące Zarządzanie z organem Ładu."
+        },
+        {
+          "tekst": "Interesariusze",
+          "poprawna": false,
+          "wyjasnienie": "Interesariusze delegują i otrzymują rozliczenie organu Ładu. Nie wynika stąd brak innych odpowiedzialności; nie są jednak rolą wskazaną tą strzałką."
+        },
+        {
+          "tekst": "Kierownictwo",
+          "poprawna": true,
+          "wyjasnienie": "Rysunek 9 pokazuje Monitorowanie jako relację od Zarządzania do organu Ładu. Nie znosi to funkcji Monitorowania w EDM."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 9
+        },
+        {
+          "doc": "SP1",
+          "strona": 29
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 24
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 32
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano odpowiedzialność wykonawczą. Nie ucz się ogólnej reguły, że Ład nie monitoruje. Jest to wersja dydaktyczna pytania, a nie literalna kopia arkusza."
+    },
+    {
+      "id": "sp1-21",
+      "numer": 21,
+      "typ": "egzamin",
+      "kodSP": "IM0202",
+      "sylabus": [
+        "IM-02-02"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Jakiego terminu używa się do opisania zduplikowanych projektów, które mogą wskazywać na potrzebę usprawnienia ładu i nadzoru nad informatyką?",
+      "opcje": [
+        {
+          "tekst": "Fuzje i przejęcia",
+          "poprawna": false,
+          "wyjasnienie": "Fuzje i przejęcia są przykładami zdarzeń wyzwalających. W pytaniu opisano natomiast problem dublowania projektów."
+        },
+        {
+          "tekst": "Punkty zapalne",
+          "poprawna": true,
+          "wyjasnienie": "Dublujące się lub nakładające inicjatywy i marnotrawstwo zasobów znajdują się na liście punktów zapalnych."
+        },
+        {
+          "tekst": "Zdarzenia wyzwalające",
+          "poprawna": false,
+          "wyjasnienie": "Zdarzenie wyzwalające jest bodźcem do działania, np. nową strategią lub zmianą struktury firmy. Podany problem sklasyfikowano wśród punktów zapalnych."
+        },
+        {
+          "tekst": "Ryzyko w informatyce",
+          "poprawna": false,
+          "wyjasnienie": "Dublowanie inicjatyw może nieść ryzyko, ale poszukiwaną nazwą pozycji z listy wdrożeniowej są punkty zapalne."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 9
+        },
+        {
+          "doc": "SP1",
+          "strona": 30
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-22",
+      "numer": 22,
+      "typ": "egzamin",
+      "kodSP": "PC0203",
+      "sylabus": [
+        "PC-02-03"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Do czego służy Referencyjny Model Procesu?",
+      "opcje": [
+        {
+          "tekst": "Określenie wymiaru zdolności, który definiuje metodę oceny dla zgodności z ISO15504",
+          "poprawna": false,
+          "wyjasnienie": "PRM opisuje procesy; nie definiuje ogólnej skali i atrybutów zdolności. To rola odrębnego wymiaru zdolności."
+        },
+        {
+          "tekst": "Określenie wymiaru procesu, który nakreśla strukturę 37 procesów COBIT",
+          "poprawna": true,
+          "wyjasnienie": "Referencyjny model procesu określa wymiar procesu: procesy, ich przeznaczenie i wyniki. COBIT 5 proponuje 37 procesów."
+        },
+        {
+          "tekst": "Określenie wymiaru procesu, który daje specyficzne odniesienia dla każdego poziomu zdolności",
+          "poprawna": false,
+          "wyjasnienie": "PRM nie dostarcza osobnych opisów treści każdego procesu dla kolejnych poziomów zdolności. Treść procesu jest oddzielona od dodatkowych atrybutów zdolności."
+        },
+        {
+          "tekst": "Określenie ogólnych atrybutów dla poziomów drugiego, trzeciego, czwartego i piątego",
+          "poprawna": false,
+          "wyjasnienie": "Ogólne atrybuty wyższych poziomów nie należą do PRM. PRM nadal wskazuje proces oceniany na dowolnym poziomie; nie znika po osiągnięciu poziomu 1."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 10
+        },
+        {
+          "doc": "SP1",
+          "strona": 30
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Usunięto twierdzenie, że PRM przestaje być używany powyżej poziomu 1; rozdzielono treść procesu i dodatkowe atrybuty zdolności."
+    },
+    {
+      "id": "sp1-23",
+      "numer": 23,
+      "typ": "egzamin",
+      "kodSP": "PR0215",
+      "sylabus": [
+        "PR-02-15"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która sekwencja najlepiej oddaje zależność między kierunkiem wyznaczanym przez Ład a planowaniem i tworzeniem rozwiązania na Rysunku 15?",
+      "opcje": [
+        {
+          "tekst": "Kieruj → Planuj → Twórz",
+          "poprawna": true,
+          "wyjasnienie": "W przedstawionym fragmencie modelu kierunek od Ładu poprzedza planowanie i tworzenie w Zarządzaniu. Model ma także wykonanie, monitorowanie oraz sprzężenia zwrotne."
+        },
+        {
+          "tekst": "Twórz → Kieruj → Planuj",
+          "poprawna": false,
+          "wyjasnienie": "Ta sekwencja umieszcza tworzenie przed kierowaniem i planowaniem; nie odpowiada wskazanemu fragmentowi Rysunku 15."
+        },
+        {
+          "tekst": "Planuj → Twórz → Kieruj",
+          "poprawna": false,
+          "wyjasnienie": "Ta sekwencja stawia kierowanie dopiero po planowaniu i tworzeniu, odwracając pokazaną zależność."
+        },
+        {
+          "tekst": "Kieruj → Twórz → Planuj",
+          "poprawna": false,
+          "wyjasnienie": "Ta sekwencja zamienia planowanie z tworzeniem. Poprawny fragment to Kieruj → Planuj → Twórz."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 10
+        },
+        {
+          "doc": "SP1",
+          "strona": 31
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 32
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "W oryginale podano tylko pary numerów, przez co więcej niż jedna para odpowiada fragmentowi właściwego przebiegu. Wersja dydaktyczna pokazuje pełną sekwencję."
+    },
+    {
+      "id": "sp1-24",
+      "numer": 24,
+      "typ": "egzamin",
+      "kodSP": "EN0223",
+      "sylabus": [
+        "EN-02-23"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Zidentyfikuj brakujące słowa w następującym zdaniu. Architektura Korporacyjna jest uważana za kategorię umiejętności dla [?] Domeny Procesu.",
+      "opcje": [
+        {
+          "tekst": "Oszacuj, Kieruj i Monitoruj (EDM)",
+          "poprawna": false,
+          "wyjasnienie": "W tabeli umiejętności EDM ma kategorię Ład IT w organizacji. Architektura korporacyjna znajduje się w innym wierszu."
+        },
+        {
+          "tekst": "Twórz, Nabywaj i Wdrażaj (BAI)",
+          "poprawna": false,
+          "wyjasnienie": "BAI obejmuje m.in. analizę biznesową, wymagania i projektowanie rozwiązań. Tabela umieszcza architekturę korporacyjną w APO."
+        },
+        {
+          "tekst": "Dostosuj, Planuj i Organizuj (APO)",
+          "poprawna": true,
+          "wyjasnienie": "Rysunek 39 przypisuje kategorię Architektura korporacyjna do APO. Nie wyklucza to korzystania z tych umiejętności także w innych obszarach."
+        },
+        {
+          "tekst": "Monitoruj, Oszacuj i Oceń (MEA)",
+          "poprawna": false,
+          "wyjasnienie": "MEA obejmuje w tej tabeli monitorowanie, audyt mechanizmów kontrolnych i weryfikację zgodności."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 10
+        },
+        {
+          "doc": "SP1",
+          "strona": 31
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 88
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-25",
+      "numer": 25,
+      "typ": "egzamin",
+      "kodSP": "PC0101",
+      "sylabus": [
+        "PC-01-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Na którym poziomie zdolności znajduje się proces ustanowiony?",
+      "opcje": [
+        {
+          "tekst": "Poziom 1",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 1 to proces wykonywany, który osiąga przeznaczenie."
+        },
+        {
+          "tekst": "Poziom 2",
+          "poprawna": false,
+          "wyjasnienie": "Poziom 2 to proces zarządzany: planowane, monitorowane i dostosowywane wykonanie oraz zarządzane produkty pracy."
+        },
+        {
+          "tekst": "Poziom 3",
+          "poprawna": true,
+          "wyjasnienie": "Poziom 3 to proces ustanowiony, realizowany za pomocą zdefiniowanego i wdrożonego procesu."
+        },
+        {
+          "tekst": "Poziom 6",
+          "poprawna": false,
+          "wyjasnienie": "W modelu nie ma poziomu 6. Najwyższy jest poziom 5; proces ustanowiony znajduje się na poziomie 3."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 11
+        },
+        {
+          "doc": "SP1",
+          "strona": 32
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Poprawiono błędne uzasadnienie nieistniejącego poziomu 6; oryginalny klucz C jest prawidłowy."
+    },
+    {
+      "id": "sp1-26",
+      "numer": 26,
+      "typ": "egzamin",
+      "kodSP": "PR0205",
+      "sylabus": [
+        "PR-02-05"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co stanowi reprezentację wyników związanych z informatyką, wymaganych do osiągnięcia celów organizacji?",
+      "opcje": [
+        {
+          "tekst": "Cele związane z informatyką",
+          "poprawna": true,
+          "wyjasnienie": "Cele związane z IT reprezentują wyniki IT wymagane do wspierania celów organizacji. To trzeci krok kaskady."
+        },
+        {
+          "tekst": "Cele aktywatora",
+          "poprawna": false,
+          "wyjasnienie": "Cele aktywatorów są kolejnym poziomem kaskady i wspierają cele związane z IT."
+        },
+        {
+          "tekst": "Zrównoważona karta wyników dla informatyki",
+          "poprawna": false,
+          "wyjasnienie": "IT BSC porządkuje cele związane z IT w czterech perspektywach; karta nie jest nazwą samych wyników reprezentowanych przez cele."
+        },
+        {
+          "tekst": "Procesy",
+          "poprawna": false,
+          "wyjasnienie": "Procesy są jednym z siedmiu aktywatorów i pomagają osiągać wyniki. Pytanie dotyczy nazwy poziomu celów w kaskadzie."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 11
+        },
+        {
+          "doc": "SP1",
+          "strona": 32
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-27",
+      "numer": 27,
+      "typ": "egzamin",
+      "kodSP": "EN0101",
+      "sylabus": [
+        "EN-01-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Jak nazywa się zbiór praktyk, na które wpływają polityki i procedury organizacji, wykorzystujący wiele źródeł na wejściu, przetwarzający wejścia i wytwarzający rezultaty?",
+      "opcje": [
+        {
+          "tekst": "Struktura Ramowa",
+          "poprawna": false,
+          "wyjasnienie": "Struktura ramowa porządkuje wytyczne i zależności. Nie jest definicją zbioru praktyk przekształcającego wejścia w wyniki."
+        },
+        {
+          "tekst": "Polityki",
+          "poprawna": false,
+          "wyjasnienie": "Polityki rozwijają zasady w szczegółowe wytyczne. Praktyki kierowane politykami i procedurami tworzą proces opisany w pytaniu."
+        },
+        {
+          "tekst": "Aktywatory",
+          "poprawna": false,
+          "wyjasnienie": "Aktywator jest szerszym pojęciem; procesy stanowią jedną z jego siedmiu kategorii."
+        },
+        {
+          "tekst": "Proces",
+          "poprawna": true,
+          "wyjasnienie": "Definicja procesu obejmuje zbiór praktyk kierowanych politykami i procedurami, które wykorzystują wejścia i przekształcają je w wyniki."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 11
+        },
+        {
+          "doc": "SP1",
+          "strona": 33
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Rozdzielono rolę zasad i polityk; klucz D pozostaje bez zmian."
+    },
+    {
+      "id": "sp1-28",
+      "numer": 28,
+      "typ": "egzamin",
+      "kodSP": "EN0224",
+      "sylabus": [
+        "EN-02-24"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który element Referencyjnego Modelu Procesu (PRM) zapewnia przegląd tego, co wykonuje proces?",
+      "opcje": [
+        {
+          "tekst": "Określenie do czego służy proces",
+          "poprawna": false,
+          "wyjasnienie": "Określenie przeznaczenia (purpose) wyjaśnia ogólny powód istnienia procesu. Poszukiwany opis obejmuje to, co proces robi i jak ogólnie realizuje przeznaczenie."
+        },
+        {
+          "tekst": "Identyfikacja procesu",
+          "poprawna": false,
+          "wyjasnienie": "Identyfikacja podaje etykietę, nazwę, obszar Ład/Zarządzanie oraz domenę procesu."
+        },
+        {
+          "tekst": "Opis procesu",
+          "poprawna": true,
+          "wyjasnienie": "Opis procesu przedstawia, co proces robi i na wysokim poziomie jak osiąga swoje przeznaczenie."
+        },
+        {
+          "tekst": "Cel i miara procesu",
+          "poprawna": false,
+          "wyjasnienie": "Cele i miary określają oczekiwane osiągnięcia oraz przykładowe sposoby ich pomiaru. Są osobnym elementem opisu w przewodniku."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 12
+        },
+        {
+          "doc": "SP1",
+          "strona": 33
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        },
+        {
+          "doc": "Enabling Processes",
+          "strona": 25
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Wyjaśniono odrębne funkcje opisu, przeznaczenia, identyfikacji oraz celów i miar procesu."
+    },
+    {
+      "id": "sp1-29",
+      "numer": 29,
+      "typ": "egzamin",
+      "kodSP": "PR0201",
+      "sylabus": [
+        "PR-02-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "W jaki sposób realizowany jest Cel Ładu “Tworzenie Wartości”?",
+      "opcje": [
+        {
+          "tekst": "Przez realizację korzyści",
+          "poprawna": false,
+          "wyjasnienie": "Realizacja korzyści jest jednym z trzech elementów. Trzeba ją równoważyć z ryzykiem i zasobami."
+        },
+        {
+          "tekst": "Przez optymalizację zasobów",
+          "poprawna": false,
+          "wyjasnienie": "Optymalizacja zasobów jest potrzebna, lecz sama nie wyczerpuje tworzenia wartości."
+        },
+        {
+          "tekst": "Przez optymalizację ryzyka",
+          "poprawna": false,
+          "wyjasnienie": "Optymalizacja ryzyka jest potrzebna, lecz sama nie zastępuje realizacji korzyści i właściwego użycia zasobów."
+        },
+        {
+          "tekst": "Wszystkie trzy wymienione elementy",
+          "poprawna": true,
+          "wyjasnienie": "Tworzenie wartości wymaga równowagi realizacji korzyści, optymalizacji ryzyka oraz optymalizacji zasobów."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 12
+        },
+        {
+          "doc": "SP1",
+          "strona": 34
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-30",
+      "numer": 30,
+      "typ": "egzamin",
+      "kodSP": "EN0201",
+      "sylabus": [
+        "EN-02-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Do czego służą zasady w modelu zasady, polityki i struktury ramowe?",
+      "opcje": [
+        {
+          "tekst": "Ograniczenie liczby zasad",
+          "poprawna": false,
+          "wyjasnienie": "Ograniczona liczba jest kryterium dobrych zasad, a nie ich przeznaczeniem."
+        },
+        {
+          "tekst": "Określenie głównych wartości organizacji",
+          "poprawna": true,
+          "wyjasnienie": "Zasady mają jasno wyrażać podstawowe wartości, założenia i przekonania organizacji."
+        },
+        {
+          "tekst": "Otwartość i elastyczność w zapewnianiu, że polityki realizują określone cele",
+          "poprawna": false,
+          "wyjasnienie": "Otwartość i elastyczność wymieniono jako cechy struktur ramowych. Nie opisują one podstawowej funkcji zasad."
+        },
+        {
+          "tekst": "Dostarczenie logicznego przepływu dla personelu, który powinien być z nimi zgodny",
+          "poprawna": false,
+          "wyjasnienie": "Logiczność i brak zbędnego oporu wiążą się z nieinwazyjnością polityk. Praktyczne wytyczne rozwijają zasady; nie zastępuje to ich roli wyrażania wartości."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 12
+        },
+        {
+          "doc": "SP1",
+          "strona": 34
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Usunięto nieuprawnione twierdzenie, że logiczne wytyczne mogą występować wyłącznie w politykach."
+    },
+    {
+      "id": "sp1-31",
+      "numer": 31,
+      "typ": "egzamin",
+      "kodSP": "PC0201",
+      "sylabus": [
+        "PC-02-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Dlaczego wykonuje się ocenę zdolności procesu?",
+      "opcje": [
+        {
+          "tekst": "Aby zidentyfikować, co w procesie należy usprawnić",
+          "poprawna": true,
+          "wyjasnienie": "Ocena porównuje dowody z kryteriami i pomaga wskazać braki oraz uzasadnione usprawnienia."
+        },
+        {
+          "tekst": "Aby przeprowadzić analizę nakłady-korzyści dla procesu",
+          "poprawna": false,
+          "wyjasnienie": "Wyniki oceny mogą wesprzeć decyzję inwestycyjną i analizę kosztów i korzyści. Samo oszacowanie zdolności nie wykonuje pełnej analizy finansowej."
+        },
+        {
+          "tekst": "Aby osądzić jakość ludzi realizujących proces",
+          "poprawna": false,
+          "wyjasnienie": "Przedmiotem jest proces i jego zdolność, nie wartość ani ogólna jakość ludzi."
+        },
+        {
+          "tekst": "Aby zdefiniować miary procesu",
+          "poprawna": false,
+          "wyjasnienie": "Miary mogą być dowodami i przedmiotem rekomendacji usprawnień. Ich samo zdefiniowanie nie jest podstawowym celem oceny zdolności procesu."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 13
+        },
+        {
+          "doc": "SP1",
+          "strona": 35
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Usunięto zakaz definiowania lub rekomendowania miar przy ocenie; rozróżniono główny cel oceny i możliwe działania usprawniające."
+    },
+    {
+      "id": "sp1-32",
+      "numer": 32,
+      "typ": "egzamin",
+      "kodSP": "EN0225",
+      "sylabus": [
+        "EN-02-25"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Jak w diagramie RACI jest opisana rola kogoś, kto jest Odpowiedzialny wykonawczo za zadanie?",
+      "opcje": [
+        {
+          "tekst": "Ktoś, kto dostarcza wejścia do zadania",
+          "poprawna": false,
+          "wyjasnienie": "Dostarczanie wkładu w konsultacji opisuje C — Consulted."
+        },
+        {
+          "tekst": "Ktoś, kto dostaje zadanie do wykonania",
+          "poprawna": true,
+          "wyjasnienie": "R — Responsible odpowiada wykonawczo za realizację zadania i uzyskanie jego zamierzonego wyniku."
+        },
+        {
+          "tekst": "Ktoś, kto jest odpowiedzialny za sukces zadania",
+          "poprawna": false,
+          "wyjasnienie": "Odpowiedzialność za powodzenie zadania opisuje A — Accountable. Co do zasady A nie dzieli się między role; osoba A może także uczestniczyć w wykonaniu, a wyższe szczeble zachowują własną rozliczalność."
+        },
+        {
+          "tekst": "Ktoś, kto otrzymuje informacje o zadaniu",
+          "poprawna": false,
+          "wyjasnienie": "Otrzymywanie informacji o osiągnięciach i produktach zadania opisuje I — Informed."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 13
+        },
+        {
+          "doc": "SP1",
+          "strona": 35
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 89
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 90
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 92
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 93
+        },
+        {
+          "doc": "Enabling Processes",
+          "strona": 25
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano A: zasada niepodzielności dotyczy przypisania rozliczalności; rola A może wykonywać zadanie, a wyższe szczeble zachowują rozliczalność."
+    },
+    {
+      "id": "sp1-33",
+      "numer": 33,
+      "typ": "egzamin",
+      "kodSP": "PR0203",
+      "sylabus": [
+        "PR-02-03"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Na jaki pierwszy poziom celów formalna Kaskada Celów bezpośrednio przekłada potrzeby interesariuszy?",
+      "opcje": [
+        {
+          "tekst": "Cele związane z informatyką",
+          "poprawna": false,
+          "wyjasnienie": "Cele związane z IT są następnym poziomem po celach organizacji, nie pierwszym bezpośrednio po potrzebach."
+        },
+        {
+          "tekst": "Cele organizacji",
+          "poprawna": true,
+          "wyjasnienie": "Formalna kaskada przekłada potrzeby na cele organizacji, potem na cele IT i cele aktywatorów."
+        },
+        {
+          "tekst": "Cele procesu",
+          "poprawna": false,
+          "wyjasnienie": "Cele procesu są celami jednego z aktywatorów. W kaskadzie występują po celach organizacji i celach IT."
+        },
+        {
+          "tekst": "Cele Optymalizacji Ryzyka",
+          "poprawna": false,
+          "wyjasnienie": "Optymalizacja ryzyka jest jednym z trzech celów Ładu związanych z tworzeniem wartości; nie jest nazwą pierwszego poziomu celów po potrzebach w kaskadzie."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 13
+        },
+        {
+          "doc": "SP1",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-34",
+      "numer": 34,
+      "typ": "egzamin",
+      "kodSP": "EN0203",
+      "sylabus": [
+        "EN-02-03"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która cecha należy do trzech głównych cech dobrych polityk wymienionych w podręczniku?",
+      "opcje": [
+        {
+          "tekst": "Skuteczna",
+          "poprawna": true,
+          "wyjasnienie": "Skuteczność oznacza osiąganie wskazanego celu. To jedna z trzech wymienionych cech, obok wydajności i nieinwazyjności."
+        },
+        {
+          "tekst": "Wyraża główne wartości organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Wyrażanie podstawowych wartości jest funkcją zasad. Polityki przekładają zasady na praktyczne wytyczne."
+        },
+        {
+          "tekst": "Inwazyjna",
+          "poprawna": false,
+          "wyjasnienie": "Polityki powinny być nieinwazyjne: logiczne dla stosujących, bez niepotrzebnego oporu i obchodzenia."
+        },
+        {
+          "tekst": "Ograniczona liczbowo",
+          "poprawna": false,
+          "wyjasnienie": "Ograniczona liczba jest w tej klasyfikacji kryterium zasad. Ograniczenie liczby polityk może być użyteczne, ale nie jest nazwą jednej z trzech cech polityki wymienionych w podręczniku."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 14
+        },
+        {
+          "doc": "SP1",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-35",
+      "numer": 35,
+      "typ": "egzamin",
+      "kodSP": "PC0206",
+      "sylabus": [
+        "PC-02-06"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Jakie oceny wystarczają minimalnie dla każdego atrybutu na ocenianym poziomie zdolności, jeżeli wszystkie atrybuty niższych poziomów osiągnięto w pełni?",
+      "opcje": [
+        {
+          "tekst": "P - Tylko Pełny",
+          "poprawna": false,
+          "wyjasnienie": "Wszystkie P również wystarczą, lecz nie są minimalnym wymaganiem na ocenianym poziomie: dopuszczalne jest także W."
+        },
+        {
+          "tekst": "C - Częściowy i/lub W - Większościowy",
+          "poprawna": false,
+          "wyjasnienie": "C nie wystarcza dla atrybutu na ocenianym poziomie. Zestaw C i/lub W dopuszcza więc wynik niespełniający minimum."
+        },
+        {
+          "tekst": "W - Większościowy i/lub P - Pełny",
+          "poprawna": true,
+          "wyjasnienie": "Każdy atrybut ocenianego poziomu musi mieć W lub P. Wszystkie atrybuty niższych poziomów muszą mieć P."
+        },
+        {
+          "tekst": "C - Częściowy",
+          "poprawna": false,
+          "wyjasnienie": "Ocena C atrybutu oznacza częściowe osiągnięcie i nie pozwala uznać danego poziomu za osiągnięty."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 14
+        },
+        {
+          "doc": "SP1",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-36",
+      "numer": 36,
+      "typ": "egzamin",
+      "kodSP": "EN0214",
+      "sylabus": [
+        "EN-02-14"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które działanie wymieniono jako dobrą praktykę aktywatora Kultura, Etyka i Zachowanie?",
+      "opcje": [
+        {
+          "tekst": "Publikowanie Zasad Działania",
+          "poprawna": false,
+          "wyjasnienie": "Zasady operacyjne wymieniono jako praktykę struktur organizacyjnych. Mogą wspierać zachowania, ale nie są poszukiwaną nazwą praktyki w tej kategorii."
+        },
+        {
+          "tekst": "Komunikowanie kategorii Umiejętności",
+          "poprawna": false,
+          "wyjasnienie": "Definiowanie kategorii umiejętności należy do dobrych praktyk aktywatora Ludzie, Umiejętności i Kompetencje."
+        },
+        {
+          "tekst": "Wskazywanie czempionów Biznesu",
+          "poprawna": true,
+          "wyjasnienie": "Czempioni (podręcznik: osoby wspierające) dają przykład i wspierają pożądane zachowania. Wymieniono ich wśród praktyk kultury, etyki i zachowania."
+        },
+        {
+          "tekst": "Publikowanie procedur Delegowania Uprawnień i Odpowiedzialności",
+          "poprawna": false,
+          "wyjasnienie": "Delegowanie to przekazywanie uprawnień decyzyjnych strukturom podległym, praktyka struktur organizacyjnych. Rozwiązywanie problemów decyzyjnych przez ścieżkę w górę jest eskalacją."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 14
+        },
+        {
+          "doc": "SP1",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 79
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 80
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 87
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu. Rozdzielono delegowanie i eskalację oraz klasyfikację praktyk od ich możliwych oddziaływań."
+    },
+    {
+      "id": "sp1-37",
+      "numer": 37,
+      "typ": "egzamin",
+      "kodSP": "PR0101",
+      "sylabus": [
+        "PR-01-01"
+      ],
+      "bloom": "wiedza",
+      "trudnosc": 2,
+      "tresc": "Który aspekt odnosi się do głównej zasady COBIT 5 “Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej”?",
+      "opcje": [
+        {
+          "tekst": "Zastąpienie szczegółowych wytycznych innych standardów",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 jest spójny z innymi wytycznymi; nie zastępuje ich szczegółowych treści."
+        },
+        {
+          "tekst": "Dostarczenie prostej architektury",
+          "poprawna": true,
+          "wyjasnienie": "Prosta architektura porządkująca materiały pomocnicze i tworząca spójny zbiór produktów jest jednym z czterech podanych uzasadnień zasady 3."
+        },
+        {
+          "tekst": "Przełożenie potrzeb Interesariuszy na strategię",
+          "poprawna": false,
+          "wyjasnienie": "Przełożenie potrzeb na cele wiąże się przede wszystkim z zasadą 1 i kaskadą celów."
+        },
+        {
+          "tekst": "Zdefiniowanie relacji między Ładem i Zarządzaniem",
+          "poprawna": false,
+          "wyjasnienie": "Oddzielenie oraz interakcje Ładu i Zarządzania rozwija zasada 5."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 15
+        },
+        {
+          "doc": "SP1",
+          "strona": 37
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 17
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 23
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Zastąpiono niejednoznaczny dystraktor o zgodności z poglądami Ładu jednoznacznie błędnym twierdzeniem o zastępowaniu standardów."
+    },
+    {
+      "id": "sp1-38",
+      "numer": 38,
+      "typ": "egzamin",
+      "kodSP": "EN0207",
+      "sylabus": [
+        "EN-02-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Kto jest interesariuszem wewnętrznym według przykładowej klasyfikacji interesariuszy procesu w podręczniku?",
+      "opcje": [
+        {
+          "tekst": "Klient",
+          "poprawna": false,
+          "wyjasnienie": "W przykładowej klasyfikacji na s. 69 klientów wymieniono po stronie zewnętrznej. W innym kontekście można mówić także o kliencie wewnętrznym."
+        },
+        {
+          "tekst": "Partner biznesowy",
+          "poprawna": false,
+          "wyjasnienie": "Partnerów biznesowych w tym zestawieniu wymieniono jako interesariuszy zewnętrznych."
+        },
+        {
+          "tekst": "Regulator",
+          "poprawna": false,
+          "wyjasnienie": "Organ regulacyjny jest w tym zestawieniu zewnętrzny wobec przedsiębiorstwa."
+        },
+        {
+          "tekst": "Kierownictwo",
+          "poprawna": true,
+          "wyjasnienie": "Kierownictwo wymieniono jako interesariusza wewnętrznego obok organu nadzorującego, pracowników i wolontariuszy."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 15
+        },
+        {
+          "doc": "SP1",
+          "strona": 38
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-39",
+      "numer": 39,
+      "typ": "egzamin",
+      "kodSP": "IM0207",
+      "sylabus": [
+        "IM-02-07"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który element Cyklu Życia Wdrożenia odpowiada na pytanie “jak się tam dostaniemy”?",
+      "opcje": [
+        {
+          "tekst": "Definiowanie problemów i okazji",
+          "poprawna": false,
+          "wyjasnienie": "Definiowanie problemów i okazji jest działaniem programu w fazie 2: Gdzie jesteśmy teraz?"
+        },
+        {
+          "tekst": "Umożliwianie nowych podejść",
+          "poprawna": false,
+          "wyjasnienie": "Umożliwianie nowych podejść (EN: Embed new approaches) to środkowy pierścień fazy 6: Czy dotarliśmy do celu?"
+        },
+        {
+          "tekst": "Monitorowanie i szacowanie",
+          "poprawna": false,
+          "wyjasnienie": "Monitorowanie i szacowanie jest działaniem wewnętrznego cyklu w fazie 7: Jak utrzymać motywację do działania?"
+        },
+        {
+          "tekst": "Wdrażanie usprawnień",
+          "poprawna": true,
+          "wyjasnienie": "Wdrażanie usprawnień należy do wewnętrznego cyklu fazy 5, razem z Wykonywaniem planu w programie i Działaj i używaj w pierścieniu zmiany."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 15
+        },
+        {
+          "doc": "SP1",
+          "strona": 38
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-40",
+      "numer": 40,
+      "typ": "egzamin",
+      "kodSP": "IM0201",
+      "sylabus": [
+        "IM-02-01"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Która z podanych pozycji jest wymieniona na liście czynników kontekstu uwzględnianych przy planowaniu wdrożenia (FW-PL s. 35)?",
+      "opcje": [
+        {
+          "tekst": "Złożone Modele operacyjne w informatyce",
+          "poprawna": false,
+          "wyjasnienie": "Złożone modele operacyjne IT znajdują się w podręczniku na liście punktów zapalnych. Sam model operacyjny i dojrzałość należą też do kontekstu, więc pytanie odwołuje się do konkretnej klasyfikacji."
+        },
+        {
+          "tekst": "Ukryte i niewłaściwe wydatki na informatykę",
+          "poprawna": false,
+          "wyjasnienie": "Ukryte i niewłaściwe wydatki IT wymieniono jako punkt zapalny."
+        },
+        {
+          "tekst": "Obowiązujące prawa i regulacje",
+          "poprawna": true,
+          "wyjasnienie": "Obowiązujące przepisy i regulacje należą do listy czynników kontekstu, które uwzględnia się w planie wdrożenia."
+        },
+        {
+          "tekst": "Oceny audytu zewnętrznego lub konsultanta",
+          "poprawna": false,
+          "wyjasnienie": "Audyt zewnętrzny lub ocena konsultantów są w tej klasyfikacji zdarzeniami wyzwalającymi. Mogą dostarczyć informacji o kontekście, lecz znajdują się na innej liście."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 16
+        },
+        {
+          "doc": "SP1",
+          "strona": 39
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 35
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-41",
+      "numer": 41,
+      "typ": "egzamin",
+      "kodSP": "EN0209",
+      "sylabus": [
+        "EN-02-09"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Którą charakterystykę podręcznik przypisuje praktykom procesu, podczas gdy pozostałe trzy odpowiedzi opisują cechy rozwijających je działań?",
+      "opcje": [
+        {
+          "tekst": "Rozpatruje wejścia i wyjścia procesu",
+          "poprawna": false,
+          "wyjasnienie": "Działania uwzględniają wejścia i wyniki procesu; jest to jedna z wymienionych cech działań."
+        },
+        {
+          "tekst": "Wspiera ustanowienie jasnych ról i odpowiedzialności",
+          "poprawna": false,
+          "wyjasnienie": "Działania pomagają określić zrozumiałe role i odpowiedzialności."
+        },
+        {
+          "tekst": "Opisuje zestaw kroków wdrożeniowych dla osiągnięcia praktyki zarządzania",
+          "poprawna": false,
+          "wyjasnienie": "Zbiór działań opisuje konieczne i wystarczające kroki wdrożenia praktyki Ładu lub Zarządzania."
+        },
+        {
+          "tekst": "Określa działania przynoszące korzyści",
+          "poprawna": true,
+          "wyjasnienie": "Tekst nazywa praktyki deklaracjami działań dla realizacji korzyści, optymalizacji ryzyka i zasobów. Nie oznacza to, że rozwijające je działania nie przynoszą korzyści; chodzi o rozróżnienie poziomu opisu."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 16
+        },
+        {
+          "doc": "SP1",
+          "strona": 39
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-42",
+      "numer": 42,
+      "typ": "egzamin",
+      "kodSP": "PR0214",
+      "sylabus": [
+        "PR-02-14"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Uzupełnij definicję: Zarządzanie planuje, buduje, realizuje i monitoruje działania zgodnie z kierunkiem ustanowionym przez organ Ładu, aby osiągnąć cele [?].",
+      "opcje": [
+        {
+          "tekst": "aktywatora",
+          "poprawna": false,
+          "wyjasnienie": "Cele aktywatorów są poziomem kaskady wspierającym cele IT. Nie uzupełniają w ten sposób ogólnej definicji Zarządzania."
+        },
+        {
+          "tekst": "interesariusza",
+          "poprawna": false,
+          "wyjasnienie": "Potrzeby interesariuszy przekłada się na cele organizacji. Poszukiwany termin w definicji Zarządzania to organizacja."
+        },
+        {
+          "tekst": "związane z informatyką",
+          "poprawna": false,
+          "wyjasnienie": "Cele IT wspierają cele organizacji; nie ogranicza się do nich definicji Zarządzania."
+        },
+        {
+          "tekst": "organizacji",
+          "poprawna": true,
+          "wyjasnienie": "Zarządzanie planuje, buduje, realizuje i monitoruje działania zgodnie z kierunkiem organu Ładu, aby osiągnąć cele organizacji."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 16
+        },
+        {
+          "doc": "SP1",
+          "strona": 39
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 14
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-43",
+      "numer": 43,
+      "typ": "egzamin",
+      "kodSP": "EN0215",
+      "sylabus": [
+        "EN-02-15"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Jaki termin jest stosowany do opisania wartości, w oparciu o które organizacja chce działać?",
+      "opcje": [
+        {
+          "tekst": "Jakość wewnętrzna",
+          "poprawna": false,
+          "wyjasnienie": "Jakość wewnętrzna jest kategorią celów aktywatora, a nie nazwą wartości, na których chce działać organizacja."
+        },
+        {
+          "tekst": "Etyka organizacyjna",
+          "poprawna": true,
+          "wyjasnienie": "Etyka organizacyjna odnosi się do wartości stanowiących podstawę pożądanego funkcjonowania organizacji."
+        },
+        {
+          "tekst": "Etyka indywidualna",
+          "poprawna": false,
+          "wyjasnienie": "Etyka indywidualna odnosi się do osobistych wartości jednostki; to inny poziom niż wartości organizacji."
+        },
+        {
+          "tekst": "Dobre praktyki",
+          "poprawna": false,
+          "wyjasnienie": "Dobre praktyki pomagają tworzyć, promować i utrzymywać pożądane zachowania. Nie są nazwą samej etyki organizacyjnej."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 17
+        },
+        {
+          "doc": "SP1",
+          "strona": 40
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 79
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Poprawiono rozróżnienie etyki organizacyjnej i indywidualnej."
+    },
+    {
+      "id": "sp1-44",
+      "numer": 44,
+      "typ": "egzamin",
+      "kodSP": "IM0203",
+      "sylabus": [
+        "IM-02-03"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Jakie narzędzie biznesowe jest używane do uzasadnienia inwestycji biznesowych?",
+      "opcje": [
+        {
+          "tekst": "Cele biznesowe",
+          "poprawna": false,
+          "wyjasnienie": "Cele wyznaczają pożądane rezultaty i pomagają ocenić inwestycję. Nie są pełnym narzędziem uzasadniającym koszty, ryzyko i korzyści."
+        },
+        {
+          "tekst": "Uzasadnienie biznesowe",
+          "poprawna": true,
+          "wyjasnienie": "Uzasadnienie biznesowe łączy potrzebę działania, korzyści, wymagane zmiany, inwestycje, koszty, ryzyko, role i monitorowanie wartości."
+        },
+        {
+          "tekst": "Polityki biznesowe",
+          "poprawna": false,
+          "wyjasnienie": "Polityki wpływają na zasady podejmowania decyzji, lecz nie zastępują uzasadnienia konkretnej inwestycji."
+        },
+        {
+          "tekst": "Model Zdolności Procesu",
+          "poprawna": false,
+          "wyjasnienie": "Model zdolności procesu pomaga ocenić stan obecny, wymagany i luki. Nie jest modelem dojrzałości COBIT 4.1 ani pełnym uzasadnieniem inwestycji."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 17
+        },
+        {
+          "doc": "SP1",
+          "strona": 40
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Zdolność procesu odróżniono od dojrzałości COBIT 4.1."
+    },
+    {
+      "id": "sp1-45",
+      "numer": 45,
+      "typ": "egzamin",
+      "kodSP": "PR0211",
+      "sylabus": [
+        "PR-02-11"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które stwierdzenie NIE uzasadnia, że COBIT 5 jest zintegrowaną strukturą ramową?",
+      "opcje": [
+        {
+          "tekst": "Jest kompletny w pokryciu organizacji",
+          "poprawna": false,
+          "wyjasnienie": "Objęcie przedsiębiorstwa i wspólny język wytycznych są jednym z uzasadnień zintegrowanej struktury."
+        },
+        {
+          "tekst": "Dostarcza prostej architektury",
+          "poprawna": false,
+          "wyjasnienie": "Prosta architektura porządkuje materiały i spójny zbiór produktów; jest uzasadnieniem zasady 3."
+        },
+        {
+          "tekst": "Musi być wykorzystywany z innymi standardami",
+          "poprawna": true,
+          "wyjasnienie": "COBIT 5 można łączyć z innymi standardami, ale nie musi być z nimi używany. Przymus takiego połączenia nie uzasadnia zasady 3."
+        },
+        {
+          "tekst": "Działa z poprzednimi strukturami ramowymi ISACA",
+          "poprawna": false,
+          "wyjasnienie": "Zintegrowanie wiedzy wcześniejszych wytycznych ISACA jest podanym uzasadnieniem zasady 3."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 17
+        },
+        {
+          "doc": "SP1",
+          "strona": 41
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 26
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-46",
+      "numer": 46,
+      "typ": "egzamin",
+      "kodSP": "EN0218",
+      "sylabus": [
+        "EN-02-18"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Zidentyfikuj brakujące słowo lub słowa w następującym zdaniu. Procesy biznesowe przekształcają wiedzę żeby stworzyć [?] dla przedsiębiorstwa.",
+      "opcje": [
+        {
+          "tekst": "procesy informatyczne",
+          "poprawna": false,
+          "wyjasnienie": "Procesy IT są pokazane wewnątrz procesów biznesowych; nie są końcowym efektem cyklu informacji."
+        },
+        {
+          "tekst": "informacje",
+          "poprawna": false,
+          "wyjasnienie": "Informacje powstają w modelu z przekształcania danych. Po wiedzy wskazano tworzenie wartości."
+        },
+        {
+          "tekst": "dane",
+          "poprawna": false,
+          "wyjasnienie": "Procesy biznesowe generują i przetwarzają dane; nie jest to nazwa efektu wykorzystania wiedzy w końcowym fragmencie modelu."
+        },
+        {
+          "tekst": "wartości",
+          "poprawna": true,
+          "wyjasnienie": "Rysunek 35 pokazuje dane → informacje → wiedzę → wartość; wiedza pozwala tworzyć wartość dla przedsiębiorstwa."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 18
+        },
+        {
+          "doc": "SP1",
+          "strona": 41
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 81
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-47",
+      "numer": 47,
+      "typ": "egzamin",
+      "kodSP": "PC0204",
+      "sylabus": [
+        "PC-02-04"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który wymiar ma związek w szczególności z Referencyjnym Modelem Procesu?",
+      "opcje": [
+        {
+          "tekst": "Wymiar Zdolności",
+          "poprawna": false,
+          "wyjasnienie": "Wymiar zdolności obejmuje PA 1.1–5.2 i ocenę poziomów 0–5. Jest odrębny od treści procesów definiowanej w PRM."
+        },
+        {
+          "tekst": "Wymiar Procesu",
+          "poprawna": true,
+          "wyjasnienie": "PRM dostarcza wymiaru procesu: wskazuje procesy, ich przeznaczenie i wyniki. Dowody ich realizacji łączą się z oceną PA 1.1."
+        },
+        {
+          "tekst": "Wymiar Aktywatora",
+          "poprawna": false,
+          "wyjasnienie": "Cztery wymiary aktywatora należą do całościowego modelu COBIT 5; nie są nazwą jednego z dwóch wymiarów modelu oceny procesu."
+        },
+        {
+          "tekst": "Wymiary Procesu i Zdolności",
+          "poprawna": false,
+          "wyjasnienie": "PRM dotyczy treści procesu. Ocena łączy go z osobnym wymiarem zdolności; nie oznacza to, że PRM sam definiuje oba wymiary."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 18
+        },
+        {
+          "doc": "SP1",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Wyjaśniono PA 1.1 i odrębność obu wymiarów bez wykluczania PRM z ocen na wyższych poziomach."
+    },
+    {
+      "id": "sp1-48",
+      "numer": 48,
+      "typ": "egzamin",
+      "kodSP": "EN0221",
+      "sylabus": [
+        "EN-02-21"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Który z podanych aktywatorów podręcznik określa jako jedną ze zdolności wykorzystywanych przez procesy do świadczenia usług wewnętrznych i zewnętrznych?",
+      "opcje": [
+        {
+          "tekst": "Struktury ramowe",
+          "poprawna": false,
+          "wyjasnienie": "Struktury ramowe organizują spójne wytyczne Ładu i Zarządzania. Nie są wskazaną w tej relacji zdolnością."
+        },
+        {
+          "tekst": "Informacja",
+          "poprawna": true,
+          "wyjasnienie": "Podręcznik określa informację jako jedną ze zdolności do świadczenia usług, wykorzystywanych przez procesy do usług wewnętrznych i zewnętrznych."
+        },
+        {
+          "tekst": "Cel wewnętrzny",
+          "poprawna": false,
+          "wyjasnienie": "Cel wewnętrzny dotyczy jakości samej w sobie i zgodności z regułami; nie jest zasobem umożliwiającym świadczenie usługi."
+        },
+        {
+          "tekst": "Cel kontekstowy",
+          "poprawna": false,
+          "wyjasnienie": "Cel kontekstowy dotyczy przydatności i dopasowania do konkretnej sytuacji; nie jest definicją zdolności usługowej."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 18
+        },
+        {
+          "doc": "SP1",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Poprawiono powieloną definicję celu kontekstowego i objaśnienie relacji informacji ze zdolnościami usługowymi. Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu."
+    },
+    {
+      "id": "sp1-49",
+      "numer": 49,
+      "typ": "egzamin",
+      "kodSP": "PR0213",
+      "sylabus": [
+        "PR-02-13"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Co mierzy “Wskaźnik Wiodący”?",
+      "opcje": [
+        {
+          "tekst": "Czy cele aktywatora zostały osiągnięte",
+          "poprawna": false,
+          "wyjasnienie": "Osiąganie celów opisuje wyniki aktywatora i jest monitorowane wskaźnikami opóźnionymi."
+        },
+        {
+          "tekst": "Czy potrzeby interesariuszy są uwzględnione",
+          "poprawna": false,
+          "wyjasnienie": "Uwzględnienie potrzeb interesariuszy opisuje wynik i wiąże się ze wskaźnikami opóźnionymi."
+        },
+        {
+          "tekst": "Czy ład jest zarządzany",
+          "poprawna": false,
+          "wyjasnienie": "Nie jest to jedno z czterech pytań zarządzania sprawnością aktywatora, więc nie identyfikuje poszukiwanej grupy mierników."
+        },
+        {
+          "tekst": "Czy stosowane są dobre praktyki",
+          "poprawna": true,
+          "wyjasnienie": "Stosowanie dobrych praktyk opisuje funkcjonowanie aktywatora i wiąże się ze wskaźnikami wiodącymi. Do tej grupy należy też zarządzanie jego cyklem życia."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 19
+        },
+        {
+          "doc": "SP1",
+          "strona": 43
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 28
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "oficjalne",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł",
+      "rezerwa": null
+    },
+    {
+      "id": "sp1-50",
+      "numer": 50,
+      "typ": "egzamin",
+      "kodSP": "EN0217",
+      "sylabus": [
+        "EN-02-17"
+      ],
+      "bloom": "rozumienie",
+      "trudnosc": 2,
+      "tresc": "Które kryterium informacji COBIT 4.1, omówione w Załączniku F, opisuje informację spełniającą potrzeby odbiorcy w wykonaniu określonego zadania?",
+      "opcje": [
+        {
+          "tekst": "Zgodność",
+          "poprawna": false,
+          "wyjasnienie": "Zgodność ze specyfikacją jest uwzględniona w celach jakości, a zgodność z regulacjami dotyczy sposobu użycia. To nie definicja spełniania potrzeb odbiorcy."
+        },
+        {
+          "tekst": "Wiarygodność",
+          "poprawna": false,
+          "wyjasnienie": "Wiarygodność oznacza postrzeganie informacji jako prawdziwej i godnej zaufania. Nie jest synonimem skuteczności."
+        },
+        {
+          "tekst": "Łatwość wykonywania",
+          "poprawna": false,
+          "wyjasnienie": "Łatwość użycia lub eksploatacji nie jest nazwą kryterium Skuteczność. Wydajność uwzględnia mały nakład zasobów przy uzyskiwaniu i wykorzystywaniu informacji spełniającej potrzeby."
+        },
+        {
+          "tekst": "Skuteczność",
+          "poprawna": true,
+          "wyjasnienie": "Skuteczność (Effectiveness) dotyczy informacji jako produktu: odbiorca może dzięki niej wykonać określone zadanie. Nie utożsamiaj jej z wydajnością, która uwzględnia też nakłady."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "SP1",
+          "strona": 19
+        },
+        {
+          "doc": "SP1",
+          "strona": 43
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 63
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 82
+        }
+      ],
+      "status": "przyklad",
+      "pochodzenie": "Arkusz próbny SP1 (lokalnie); objaśnienia autorskie według źródeł; wersja dydaktyczna z oznaczoną korektą",
+      "rezerwa": null,
+      "errata": "Doprecyzowano zakres pytania, aby nie opierać klucza na fałszywej wyłączności lub niejednoznacznym sformułowaniu. Poprawiono utożsamienie wiarygodności i łatwości użycia z wydajnością oraz odwołanie do nakładów zasobów."
+    },
+    {
+      "id": "altkom-01",
+      "numer": 1,
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-07"
+      ],
+      "tresc": "Na co kaskadowane są cele organizacji?",
+      "opcje": [
+        {
+          "tekst": "Na cele aktywatorów",
+          "poprawna": false,
+          "wyjasnienie": "Cele aktywatorów to kolejny poziom, po celach związanych z IT: krok 4 kaskady."
+        },
+        {
+          "tekst": "Na cele związane z informatyką",
+          "poprawna": true,
+          "wyjasnienie": "Cele organizacji przekłada się bezpośrednio na cele związane z IT — to krok 3, FW-PL s. 18."
+        },
+        {
+          "tekst": "Na procesy",
+          "poprawna": false,
+          "wyjasnienie": "Procesy są jednym z aktywatorów; wybiera się je przez cele IT, a nie zamiast tego poziomu kaskady."
+        },
+        {
+          "tekst": "Na potrzeby interesariuszy",
+          "poprawna": false,
+          "wyjasnienie": "Potrzeby interesariuszy znajdują się wcześniej; kaskada przekłada je na cele organizacji, nie odwrotnie."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 18
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Cele organizacji → cele związane z IT (s. 18).",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null
+    },
+    {
+      "id": "altkom-02",
+      "numer": 2,
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-08"
+      ],
+      "tresc": "Które wymaganie odnosi się do kategorii celów aktywatorów „Jakość kontekstowa”?",
+      "opcje": [
+        {
+          "tekst": "Wyniki są dostępne w razie potrzeby",
+          "poprawna": false,
+          "wyjasnienie": "Dostępność w razie potrzeby należy do kategorii Dostęp i bezpieczeństwo."
+        },
+        {
+          "tekst": "Wyniki są istotne i zrozumiałe",
+          "poprawna": true,
+          "wyjasnienie": "Istotność i zrozumiałość oceniają dopasowanie do potrzeb i kontekstu użycia wyników."
+        },
+        {
+          "tekst": "Wyniki są zabezpieczone",
+          "poprawna": false,
+          "wyjasnienie": "Zabezpieczenie wyników dotyczy Dostępu i bezpieczeństwa."
+        },
+        {
+          "tekst": "Wyniki są dokładne i obiektywne",
+          "poprawna": false,
+          "wyjasnienie": "Dokładność i obiektywność opisują jakość rzeczywistą, zwaną też wewnętrzną."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 28
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 29
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Kontekstowa = istotne i zrozumiałe; rzeczywista = dokładne i obiektywne.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null
+    },
+    {
+      "id": "altkom-03",
+      "numer": 3,
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-08"
+      ],
+      "tresc": "Który element podejścia do Ładu określa granice jego stosowania, np. całą organizację albo wybraną jednostkę?",
+      "opcje": [
+        {
+          "tekst": "Role, działania i relacje",
+          "poprawna": false,
+          "wyjasnienie": "Ten komponent opisuje uczestników i ich współdziałanie, a nie granice zastosowania."
+        },
+        {
+          "tekst": "Optymalizacja ryzyka",
+          "poprawna": false,
+          "wyjasnienie": "Optymalizacja ryzyka współtworzy wartość; nie definiuje granic zakresu."
+        },
+        {
+          "tekst": "Zakres Ładu",
+          "poprawna": true,
+          "wyjasnienie": "Zakres określa, do jakiej części organizacji lub zasobów stosuje się Ład (FW-PL s. 23–24)."
+        },
+        {
+          "tekst": "Realizacja korzyści",
+          "poprawna": false,
+          "wyjasnienie": "Realizacja korzyści jest aspektem tworzenia wartości, a nie granicą stosowania Ładu."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 23
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 24
+        }
+      ],
+      "status": "Oryginał lokalny z autorskim objaśnieniem",
+      "zapamietaj": "Podejście do Ładu obejmuje cel, aktywatory, zakres oraz role, działania i relacje.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie; pytanie doprecyzowane",
+      "rezerwa": null,
+      "errata": "Oryginalne pytanie ma kilka merytorycznie poprawnych opcji. Zastąpiono je jednoznacznym ćwiczeniem o zakresie; nie jest to literalne pytanie Altkom."
+    },
+    {
+      "id": "altkom-04",
+      "numer": 4,
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-11"
+      ],
+      "tresc": "Które zdanie odnosi się do zasady „Zastosowanie Pojedynczej Zintegrowanej Struktury Ramowej”?",
+      "opcje": [
+        {
+          "tekst": "COBIT 5 jest spójny z najnowszymi metodykami i normami",
+          "poprawna": true,
+          "wyjasnienie": "Zgodność i integracja z innymi wytycznymi uzasadniają zasadę 3, FW-PL s. 25."
+        },
+        {
+          "tekst": "COBIT 5 przekłada potrzeby interesariuszy na cele przedsiębiorstwa",
+          "poprawna": false,
+          "wyjasnienie": "Przekładanie potrzeb na cele wiąże się z zasadą 1 i kaskadą celów."
+        },
+        {
+          "tekst": "COBIT 5 zastępuje szczegółowe normy bezpieczeństwa",
+          "poprawna": false,
+          "wyjasnienie": "COBIT 5 integruje i porządkuje inne standardy; nie zastępuje ich szczegółowych wytycznych."
+        },
+        {
+          "tekst": "COBIT 5 definiuje relację między ładem a zarządzaniem",
+          "poprawna": false,
+          "wyjasnienie": "Oddzielenie i relacje Ładu oraz Zarządzania opisuje zasada 5."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 25
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 31
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Zasada 3 = spójność i integracja z innymi metodykami i normami.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie; pytanie doprecyzowane",
+      "rezerwa": null,
+      "errata": "Zastąpiono niejednoznaczny dystraktor jednoznacznie błędnym stwierdzeniem o zastępowaniu norm. To autorska wersja dydaktyczna pytania."
+    },
+    {
+      "id": "altkom-05",
+      "numer": 5,
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-07"
+      ],
+      "tresc": "Jakie korzyści uzyskuje się stosując Kaskadę Celów?",
+      "opcje": [
+        {
+          "tekst": "Oddzielenie ładu od zarządzania",
+          "poprawna": false,
+          "wyjasnienie": "Oddzielenie Ładu od Zarządzania jest zasadą 5, a nie podstawową korzyścią kaskady."
+        },
+        {
+          "tekst": "Określenie wejść i wyników procesów",
+          "poprawna": false,
+          "wyjasnienie": "Wejścia i wyniki rozwija opis praktyk procesowych. Kaskada pomaga wybrać cele oraz aktywatory."
+        },
+        {
+          "tekst": "Wyznaczenie zakresu odpowiedzialności ról",
+          "poprawna": false,
+          "wyjasnienie": "Szczegółowe przypisanie odpowiedzialności opisuje m.in. RACI. Kaskada wiąże cele na kolejnych poziomach."
+        },
+        {
+          "tekst": "Dopasowanie rozwiązań IT do strategii przedsiębiorstwa",
+          "poprawna": true,
+          "wyjasnienie": "Kaskada przekłada potrzeby i strategię na cele IT oraz aktywatorów, pomagając dopasować rozwiązania do organizacji."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 20
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 21
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Kaskada celów: dopasowanie IT do strategii organizacji.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null
+    },
+    {
+      "id": "altkom-06",
+      "numer": 6,
+      "typ": "egzamin",
+      "sylabus": [
+        "PR-02-14"
+      ],
+      "tresc": "Który porządek odzwierciedla fragment układu działań na Rysunku 15 COBIT 5: kierowanie przez Ład, a następnie planowanie i tworzenie w Zarządzaniu?",
+      "opcje": [
+        {
+          "tekst": "Planuj, Twórz, Kieruj",
+          "poprawna": false,
+          "wyjasnienie": "Ten porządek stawia kierowanie po planowaniu i tworzeniu, odwrotnie do pokazanej zależności."
+        },
+        {
+          "tekst": "Planuj, Kieruj, Twórz",
+          "poprawna": false,
+          "wyjasnienie": "Planowanie umieszczono przed kierunkiem nadanym przez Ład."
+        },
+        {
+          "tekst": "Kieruj, Twórz, Planuj",
+          "poprawna": false,
+          "wyjasnienie": "Tworzenie umieszczono przed planowaniem. W przedstawionym fragmencie układu planowanie poprzedza tworzenie."
+        },
+        {
+          "tekst": "Kieruj, Planuj, Twórz",
+          "poprawna": true,
+          "wyjasnienie": "Rysunek 15 łączy kierowanie z planowaniem i tworzeniem. Dalej są wykonanie, monitorowanie i sprzężenia zwrotne; nie jest to niezmienny harmonogram każdego działania."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 32
+        }
+      ],
+      "status": "Oryginał lokalny z autorskim objaśnieniem",
+      "zapamietaj": "Rysunek 15: Kieruj → Planuj → Twórz, z dalszym wykonaniem i sprzężeniem zwrotnym.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie; pytanie doprecyzowane",
+      "rezerwa": null,
+      "errata": "Pytanie dotyczy układu modelu, a nie uniwersalnej chronologii wszystkich zdarzeń. Klucz pozostaje bez zmian."
+    },
+    {
+      "id": "altkom-07",
+      "numer": 7,
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-06"
+      ],
+      "tresc": "Uzupełnij brakujące słowo: proces to „zbiór [ ? ] ukierunkowanych przez polityki i procedury przedsiębiorstwa, które wykorzystują dane wejściowe z różnych źródeł, przetwarzają je i dostarczają wyniki”.",
+      "opcje": [
+        {
+          "tekst": "Zasad",
+          "poprawna": false,
+          "wyjasnienie": "Zasady wyrażają podstawowe wartości; w cytowanej definicji procesu chodzi o praktyki."
+        },
+        {
+          "tekst": "Działań",
+          "poprawna": false,
+          "wyjasnienie": "Działania rozwijają praktyki. W tej konkretnej definicji z FW-PL s. 69 brakującym słowem jest praktyk."
+        },
+        {
+          "tekst": "Praktyk",
+          "poprawna": true,
+          "wyjasnienie": "W definicji z s. 69 proces jest zbiorem praktyk ukierunkowanych przez polityki i procedury."
+        },
+        {
+          "tekst": "Celów",
+          "poprawna": false,
+          "wyjasnienie": "Cele opisują pożądane wyniki; nie zastępują praktyk przetwarzających wejścia w wyniki."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 27
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 69
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 70
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "W przytoczonej definicji z s. 69 chodzi o praktyki. Proces obejmuje również rozwijające je działania; nie wykluczaj działań z pojęcia procesu.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null
+    },
+    {
+      "id": "altkom-08",
+      "numer": 8,
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-13"
+      ],
+      "tresc": "Opis której roli na Rysunku 33 wskazuje wprost dopasowanie strategii IT do strategii biznesowej?",
+      "opcje": [
+        {
+          "tekst": "Dyrektor generalny (CEO)",
+          "poprawna": false,
+          "wyjasnienie": "CEO odpowiada za całe Zarządzanie, ale konkretna rola opisana w pytaniu na Rysunku 33 dotyczy CIO."
+        },
+        {
+          "tekst": "Dyrektor ds. ryzyka (CRO)",
+          "poprawna": false,
+          "wyjasnienie": "CRO odpowiada za zarządzanie ryzykiem przedsiębiorstwa."
+        },
+        {
+          "tekst": "Dyrektor ds. informatyki (CIO)",
+          "poprawna": true,
+          "wyjasnienie": "Rysunek 33 przypisuje CIO dopasowanie strategii IT do biznesowej; współpracują z nim inne role."
+        },
+        {
+          "tekst": "Zarząd",
+          "poprawna": false,
+          "wyjasnienie": "Organ Ładu nadaje kierunek i monitoruje. Bieżąca odpowiedzialność wskazana w opisie tej roli dotyczy CIO."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 76
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Dopasowanie strategii IT do biznesu: CIO.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null,
+      "errata": "Doprecyzowano odwołanie do opisu roli na Rysunku 33; dopasowanie strategii wymaga współpracy wielu ról. Klucz pozostaje bez zmian."
+    },
+    {
+      "id": "altkom-09",
+      "numer": 9,
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-12"
+      ],
+      "tresc": "Które działanie jest dobrą praktyką odnoszącą się do składu w kontekście aktywatora struktur organizacyjnych?",
+      "opcje": [
+        {
+          "tekst": "Definiowanie struktury delegowania uprawnień do podejmowania decyzji",
+          "poprawna": false,
+          "wyjasnienie": "To delegowanie uprawnień, osobna dobra praktyka struktur."
+        },
+        {
+          "tekst": "Wyznaczenie granic uprawnień do podejmowania decyzji",
+          "poprawna": false,
+          "wyjasnienie": "Granice uprawnień to zakres kontroli, nie skład uczestników."
+        },
+        {
+          "tekst": "Identyfikowanie odpowiednich członków wewnętrznych lub zewnętrznych",
+          "poprawna": true,
+          "wyjasnienie": "Skład wskazuje odpowiednich członków wewnętrznych i zewnętrznych struktury."
+        },
+        {
+          "tekst": "Publikowanie harmonogramu spotkań Zarządu z wyprzedzeniem",
+          "poprawna": false,
+          "wyjasnienie": "Harmonogram i sposób prowadzenia spotkań odnoszą się do zasad działania struktury."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 75
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Skład = dobór członków wewnętrznych/zewnętrznych.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null
+    },
+    {
+      "id": "altkom-10",
+      "numer": 10,
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-21"
+      ],
+      "tresc": "Które pryncypium architektury zajmuje się zarządzaniem zasobami IT tak, by spełniać zmieniające się potrzeby biznesowe?",
+      "opcje": [
+        {
+          "tekst": "Zwinność",
+          "poprawna": true,
+          "wyjasnienie": "Zwinność pozwala dostosowywać architekturę do zmieniających się potrzeb biznesowych."
+        },
+        {
+          "tekst": "Otwartość",
+          "poprawna": false,
+          "wyjasnienie": "Otwartość odnosi się do otwartych standardów branżowych i współdziałania rozwiązań."
+        },
+        {
+          "tekst": "Prostota",
+          "poprawna": false,
+          "wyjasnienie": "Prostota ogranicza zbędną złożoność i ułatwia zrozumienie rozwiązań."
+        },
+        {
+          "tekst": "Ponowne wykorzystanie",
+          "poprawna": false,
+          "wyjasnienie": "Ponowne wykorzystanie polega na używaniu wspólnych komponentów w wielu rozwiązaniach."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 86
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Zwinność = zmieniające się potrzeby biznesowe.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null
+    },
+    {
+      "id": "altkom-11",
+      "numer": 11,
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-15"
+      ],
+      "tresc": "Który przykład podręcznik wymienia w kategorii zachowań indywidualnych aktywatora Kultura, Etyka i Zachowanie?",
+      "opcje": [
+        {
+          "tekst": "Nagrody w celu promowania pożądanego zachowania",
+          "poprawna": false,
+          "wyjasnienie": "Nagrody są dobrą praktyką wspierającą pożądane zachowania, a nie nazwą przykładu zachowania indywidualnego z tej listy."
+        },
+        {
+          "tekst": "Przykład kierownictwa wyższego szczebla",
+          "poprawna": false,
+          "wyjasnienie": "Przykład kierownictwa jest dobrą praktyką kształtowania kultury. Pytanie odwołuje się do kategorii wymienionej w podręczniku."
+        },
+        {
+          "tekst": "Komunikowanie pożądanych wzorców zachowań",
+          "poprawna": false,
+          "wyjasnienie": "Komunikowanie pożądanych wzorców jest dobrą praktyką wspierania zachowania."
+        },
+        {
+          "tekst": "Podejście do negatywnych wyników",
+          "poprawna": true,
+          "wyjasnienie": "Podejście do negatywnych wyników jest jednym z przykładów zachowań indywidualnych wymienionych w opisie aktywatora."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 79
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 80
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Odróżnij przykłady zachowania z opisu celów aktywatora od dobrych praktyk, które pomagają kształtować takie zachowanie.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie; pytanie doprecyzowane",
+      "rezerwa": null,
+      "errata": "Doprecyzowano odwołanie do klasyfikacji podręcznika; przykład kierownictwa sam także może być zachowaniem osoby, lecz jest tu nazwą dobrej praktyki."
+    },
+    {
+      "id": "altkom-12",
+      "numer": 12,
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-03"
+      ],
+      "tresc": "Której cechy NIE wymieniono w podręcznikowej liście trzech głównych cech dobrych polityk (FW-PL s. 67)?",
+      "opcje": [
+        {
+          "tekst": "Polityki są wydajne",
+          "poprawna": false,
+          "wyjasnienie": "Wydajność jest jedną z trzech głównych cech dobrych polityk, więc nie odpowiada na pytanie z NIE."
+        },
+        {
+          "tekst": "Polityki nie budzą niepotrzebnego oporu",
+          "poprawna": false,
+          "wyjasnienie": "Brak niepotrzebnego oporu rozwija cechę nieinwazyjności; należy do trzech głównych cech polityk."
+        },
+        {
+          "tekst": "Liczba polityk jest ograniczona",
+          "poprawna": true,
+          "wyjasnienie": "Ograniczona liczba jest w tym zestawieniu cechą zasad. Trzy główne cechy polityk to skuteczność, wydajność i nieinwazyjność."
+        },
+        {
+          "tekst": "Polityki umożliwiają osiągnięcie wskazanego celu",
+          "poprawna": false,
+          "wyjasnienie": "Osiąganie wskazanego celu odpowiada skuteczności polityki, więc jest jedną z wymaganych cech."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 67
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 68
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Dobra polityka: skuteczna, wydajna, nieinwazyjna.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie; pytanie doprecyzowane",
+      "rezerwa": null,
+      "errata": "Pytanie doprecyzowano do listy trzech cech z podręcznika. Ograniczanie liczby polityk może być praktycznym wyborem, ale nie jest nazwą jednej z tych trzech cech."
+    },
+    {
+      "id": "altkom-13",
+      "numer": 13,
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-23"
+      ],
+      "tresc": "Z którą domeną procesów Rysunek 39 wiąże kategorię umiejętności Zarządzanie Portfelami Projektów?",
+      "opcje": [
+        {
+          "tekst": "Oszacuj, Kieruj i Monitoruj (EDM)",
+          "poprawna": false,
+          "wyjasnienie": "EDM obejmuje kompetencje Ładu. Kategorię zarządzania portfelem tabela wiąże z APO."
+        },
+        {
+          "tekst": "Twórz, Nabywaj i Wdrażaj (BAI)",
+          "poprawna": false,
+          "wyjasnienie": "BAI obejmuje m.in. zarządzanie programami i projektami; portfel jako kategoria umiejętności jest w APO."
+        },
+        {
+          "tekst": "Dostosuj, Planuj i Organizuj (APO)",
+          "poprawna": true,
+          "wyjasnienie": "Rysunek 39 przypisuje zarządzanie portfelem do APO."
+        },
+        {
+          "tekst": "Monitoruj, Oszacuj i Oceń (MEA)",
+          "poprawna": false,
+          "wyjasnienie": "MEA obejmuje monitorowanie i ocenę; zarządzanie portfelem w tej tabeli należy do APO."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 88
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Portfel → APO (Dostosuj, Planuj i Organizuj).",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null
+    },
+    {
+      "id": "altkom-14",
+      "numer": 14,
+      "typ": "egzamin",
+      "sylabus": [
+        "EN-02-18"
+      ],
+      "tresc": "Jakie kryterium informacji zapewnia spełnianie potrzeb odbiorców informacji?",
+      "opcje": [
+        {
+          "tekst": "Dostępność",
+          "poprawna": false,
+          "wyjasnienie": "Dostępność oznacza możliwość uzyskania informacji wtedy, gdy jest potrzebna. Kryterium spełniania potrzeb to skuteczność."
+        },
+        {
+          "tekst": "Skuteczność",
+          "poprawna": true,
+          "wyjasnienie": "Skuteczność dotyczy spełniania potrzeb odbiorcy. To jedno z siedmiu dawnych kryteriów informacji omówionych porównawczo w FW-PL s. 63."
+        },
+        {
+          "tekst": "Zgodność",
+          "poprawna": false,
+          "wyjasnienie": "Zgodność oznacza zgodność z określonymi wymaganiami i regułami, nie samo spełnianie potrzeby odbiorcy."
+        },
+        {
+          "tekst": "Wiarygodność",
+          "poprawna": false,
+          "wyjasnienie": "Wiarygodność dotyczy informacji, na której można polegać. Sformułowanie o potrzebach odbiorcy wskazuje skuteczność."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 63
+        }
+      ],
+      "status": "Oryginał lokalny z autorskim objaśnieniem",
+      "zapamietaj": "Skuteczność: informacja spełnia potrzeby odbiorcy. Wydajność (Efficiency): uzyskuje się ją i wykorzystuje przy odpowiednio małym zużyciu zasobów — czasu, wysiłku i pieniędzy.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie; pytanie doprecyzowane",
+      "rezerwa": null,
+      "errata": "Poprawiono odsyłacz z s. 82 na s. 63 oraz rozróżniono dawne kryteria informacji i model jakości COBIT 5."
+    },
+    {
+      "id": "altkom-15",
+      "numer": 15,
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-02"
+      ],
+      "tresc": "Co można potraktować jako punkt zapalny?",
+      "opcje": [
+        {
+          "tekst": "Złożone modele operacyjne IT",
+          "poprawna": true,
+          "wyjasnienie": "Złożony model operacyjny jest przykładem problemu uzasadniającego usprawnienie, czyli punktu zapalnego."
+        },
+        {
+          "tekst": "Zmiana pozycji na rynku",
+          "poprawna": false,
+          "wyjasnienie": "Zmiana pozycji na rynku jest przykładem zdarzenia wyzwalającego."
+        },
+        {
+          "tekst": "Istotna zmiana dotycząca technologii",
+          "poprawna": false,
+          "wyjasnienie": "Istotna zmiana technologii jest zdarzeniem, które może uruchomić inicjatywę."
+        },
+        {
+          "tekst": "Nowe wymagania regulacyjne",
+          "poprawna": false,
+          "wyjasnienie": "Nowe wymagania regulacyjne są przykładem zdarzenia wyzwalającego."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 36
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 37
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Punkt zapalny: dostrzegany problem. Zdarzenie wyzwalające: bodziec do działania, pochodzący także z wnętrza organizacji, np. nowy CEO.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null
+    },
+    {
+      "id": "altkom-16",
+      "numer": 16,
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-03"
+      ],
+      "tresc": "Który element minimalnego uzasadnienia biznesowego dotyczy regularnych wydatków ponoszonych przez biznes i IT?",
+      "opcje": [
+        {
+          "tekst": "Mapę drogową",
+          "poprawna": false,
+          "wyjasnienie": "Mapa działań porządkuje dojście do celu; sama nie jest kategorią bieżących kosztów."
+        },
+        {
+          "tekst": "Nadzór",
+          "poprawna": false,
+          "wyjasnienie": "Nadzór określa sposób kierowania i monitorowania; nie jest kategorią regularnych wydatków z pytania."
+        },
+        {
+          "tekst": "Bieżące koszty IT i koszty biznesowe",
+          "poprawna": true,
+          "wyjasnienie": "FW-PL s. 39 wprost wymienia bieżące koszty IT i koszty biznesowe w minimum uzasadnienia biznesowego."
+        },
+        {
+          "tekst": "Strategię biznesową",
+          "poprawna": false,
+          "wyjasnienie": "Uzasadnienie powinno wykazać zgodność korzyści ze strategią; strategia sama nie jest kategorią bieżących kosztów."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 39
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Minimum uzasadnienia obejmuje 8 elementów: korzyści, wymagane zmiany, inwestycje, koszty bieżące, korzyści po zmianach, ryzyko, role i rozliczalność, monitorowanie wartości w pełnym cyklu ekonomicznym.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie; pytanie doprecyzowane",
+      "rezerwa": null,
+      "errata": "Doprecyzowano pytanie do kategorii kosztów. Oryginalne szerokie pytanie o dowolny element business case mogło obejmować również uzgodnienie strategii i sposób nadzoru."
+    },
+    {
+      "id": "altkom-17",
+      "numer": 17,
+      "typ": "egzamin",
+      "sylabus": [
+        "IM-02-06"
+      ],
+      "tresc": "Które działanie aktywowania zmiany na Rysunku 17 występuje w fazie 2, równolegle z oceną stanu obecnego?",
+      "opcje": [
+        {
+          "tekst": "Przedstawienie wyniku",
+          "poprawna": false,
+          "wyjasnienie": "Przedstawienie wyniku jest działaniem aktywowania zmiany w fazie 3."
+        },
+        {
+          "tekst": "Utworzenie zespołu wdrożeniowego",
+          "poprawna": true,
+          "wyjasnienie": "Zespół wdrożeniowy tworzy się w fazie 2, współbieżnie z oceną stanu obecnego w pierścieniu doskonalenia."
+        },
+        {
+          "tekst": "Określenie chęci dokonania zmiany",
+          "poprawna": false,
+          "wyjasnienie": "Określenie chęci zmiany należy do fazy 1."
+        },
+        {
+          "tekst": "Zidentyfikowanie osób pełniących określone role",
+          "poprawna": false,
+          "wyjasnienie": "Osoby pełniące role identyfikuje się w fazie 4."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 38
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Faza 2: zespół wdrożeniowy (aktywowanie zmiany).",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null,
+      "errata": "Doprecyzowano pytanie do przypisania fazy i pierścienia z Rysunku 17; nie zakłada ono, że tylko zespół wdrożeniowy może zbierać dane. Klucz bez zmian."
+    },
+    {
+      "id": "altkom-18",
+      "numer": 18,
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-01-02"
+      ],
+      "tresc": "Który atrybut jest związany z Procesem ustanowionym?",
+      "opcje": [
+        {
+          "tekst": "Miara procesu",
+          "poprawna": false,
+          "wyjasnienie": "Miara/pomiar procesu to PA 4.1, atrybut poziomu 4."
+        },
+        {
+          "tekst": "Zarządzanie sprawnością",
+          "poprawna": false,
+          "wyjasnienie": "Zarządzanie sprawnością/wydajnością to PA 2.1, atrybut poziomu 2."
+        },
+        {
+          "tekst": "Optymalizacja procesu",
+          "poprawna": false,
+          "wyjasnienie": "Optymalizacja procesu to PA 5.2, atrybut poziomu 5."
+        },
+        {
+          "tekst": "Wdrożenie procesu",
+          "poprawna": true,
+          "wyjasnienie": "Wdrożenie procesu PA 3.2 wraz z definicją PA 3.1 należy do poziomu 3."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Poziom 3 = Definicja + Wdrożenie procesu.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null
+    },
+    {
+      "id": "altkom-19",
+      "numer": 19,
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-06"
+      ],
+      "tresc": "Jakie są MINIMALNE wymagania ocen atrybutów, by proces osiągnął poziom zdolności 3?",
+      "opcje": [
+        {
+          "tekst": "Wszystkie atrybuty na poziomie 1, 2, 3 ocenione na P – Tylko Pełny",
+          "poprawna": false,
+          "wyjasnienie": "Pełne osiągnięcie wszystkich atrybutów poziomów 1–3 wystarczyłoby, ale nie jest wymaganym minimum: na poziomie 3 dopuszcza się W."
+        },
+        {
+          "tekst": "Atrybuty na poziomie 3 ocenione na P – Tylko Pełny lub W – Większościowy, atrybuty na poziomie 1, 2 ocenione na P – Tylko Pełny",
+          "poprawna": true,
+          "wyjasnienie": "Minimalna reguła: PA 3.1 i PA 3.2 co najmniej W; PA 1.1, PA 2.1 i PA 2.2 w pełni, czyli P."
+        },
+        {
+          "tekst": "Atrybuty na poziomie 2, 3 ocenione na P – Tylko Pełny lub W – Większościowy, atrybuty na poziomie 1 ocenione na P – Tylko Pełny",
+          "poprawna": false,
+          "wyjasnienie": "W na atrybucie poziomu 2 blokuje osiągnięcie poziomu 3. Wszystkie niższe atrybuty muszą mieć P."
+        },
+        {
+          "tekst": "Wszystkie atrybuty na poziomie 1, 2, 3 ocenione na P – Tylko Pełny lub W – Większościowy",
+          "poprawna": false,
+          "wyjasnienie": "W na dowolnym niższym atrybucie nie wystarcza. W jest dopuszczalne na atrybutach ocenianego poziomu."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 42
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Dla poziomu k = 1–5: jego atrybuty W/P, niższe tylko P. Poziom 0 nie ma własnego atrybutu.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie; pytanie doprecyzowane",
+      "rezerwa": null,
+      "errata": "Dodano warunek minimum. Wariant ze wszystkimi P także byłby wystarczający do osiągnięcia poziomu 3, lecz jest mocniejszy niż wymagane minimum."
+    },
+    {
+      "id": "altkom-20",
+      "numer": 20,
+      "typ": "egzamin",
+      "sylabus": [
+        "PC-02-02"
+      ],
+      "tresc": "Do czego służy Przewodnik Asesora?",
+      "opcje": [
+        {
+          "tekst": "Przedstawia szczegółowy opis procesów według COBIT i ISO 15504",
+          "poprawna": false,
+          "wyjasnienie": "To opis treści procesów/modelu, a nie instrukcja prowadzenia formalnej oceny. Przewodnik asesora wyjaśnia sposób jej przeprowadzenia."
+        },
+        {
+          "tekst": "Przedstawia model, który jest bazą dla oceny zdolności procesów",
+          "poprawna": false,
+          "wyjasnienie": "Model będący podstawą oceny to PAM — Process Assessment Model."
+        },
+        {
+          "tekst": "Przedstawia „jak” przeprowadzić ocenę procesów zgodnie z ISO 15504",
+          "poprawna": true,
+          "wyjasnienie": "Assessor Guide opisuje prowadzenie formalnej oceny procesów przy użyciu PAM i zasad ISO/IEC 15504."
+        },
+        {
+          "tekst": "Przedstawia mniej rygorystyczny sposób oceny zgodny z ISO 15504",
+          "poprawna": false,
+          "wyjasnienie": "Mniej rygorystyczne rozpoznanie do potrzeb wewnętrznych opisuje przewodnik samooceny."
+        }
+      ],
+      "zrodlo": [
+        {
+          "doc": "KURS-ALTKOM"
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 41
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 43
+        },
+        {
+          "doc": "FW-PL",
+          "strona": 45
+        }
+      ],
+      "status": "oficjalne",
+      "zapamietaj": "Asesora = jak oceniać; Samooceny = mniej rygorystycznie; PAM = model.",
+      "pochodzenie": "Materiał Altkom (lokalnie); objaśnienia autorskie",
+      "rezerwa": null
+    }
+  ],
+  "uwaga": "Materiały właściciela, wyłącznie lokalnie. Oryginalne PDF pozostają niezmienione. Korekty dydaktyczne są jawnie oznaczone."
+}
