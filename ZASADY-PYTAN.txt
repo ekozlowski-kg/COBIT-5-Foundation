@@ -1,7 +1,8 @@
 ZASADY PYTAŃ — COBIT 5 FOUNDATION
 Wersja: 2026-11-11-r5
 
-1. Jeden bank: 597 pytań (527 własnych, 50 SP1, 20 Altkom). Nauka i Egzamin korzystają z tej
+1. Jeden bank: 584 pytania (514 własnych, 50 SP1, 20 Altkom). Pytanie własne
+   nie może dublować pytania SP1 ani Altkom (ten sam fakt, także odwrócony). Nauka i Egzamin korzystają z tej
    samej konwencji pytań. Nie ma osobnego trybu „tylko fiszki”.
 
 2. Każde pytanie ma cztery odpowiedzi, dokładnie jedną poprawną i sprawdza
