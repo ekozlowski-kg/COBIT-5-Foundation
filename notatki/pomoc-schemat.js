@@ -31,6 +31,8 @@ window.COBIT_HELP = (() => {
     CO: ['Enterprise Goal', 'cel organizacji', 'Skrót oznaczający cel organizacji w przykładach; np. CO7. Nie jest nazwą roli.'],
     SFIA: ['Skills Framework for the Information Age', 'struktura ramowa umiejętności dla ery informacji', 'Przykład zewnętrznego źródła definiowania i oceny umiejętności.'],
     ITIL: ['Information Technology Infrastructure Library', 'biblioteka dobrych praktyk zarządzania usługami IT', 'Historyczne rozwinięcie nazwy. COBIT 5 może integrować wytyczne ITIL; ich nie zastępuje.'],
+    PMBOK: ['Project Management Body of Knowledge', 'zbiór wiedzy o zarządzaniu projektami', 'Standard zarządzania projektami wydawany przez Project Management Institute; w COBIT 5 stoi obok PRINCE2 (portfel w APO, programy i projekty w BAI).'],
+    CMMI: ['Capability Maturity Model Integration', 'zintegrowany model dojrzałości zdolności', 'Model doskonalenia procesów, m.in. wytwarzania oprogramowania; w COBIT 5 wiąże się z budowaniem aplikacji i nabywaniem w BAI.'],
     TOGAF: ['The Open Group Architecture Framework', 'struktura ramowa architektury The Open Group', 'Przykład wytycznych dotyczących architektury przedsiębiorstwa.'],
     TGF: ['Taking Governance Forward', 'inicjatywa rozwoju podejścia do Ładu', 'Jej koncepcje włączono do COBIT 5, a samą inicjatywę wycofano.'],
     BMIS: ['Business Model for Information Security', 'biznesowy model bezpieczeństwa informacji', 'Jedno ze źródeł podejścia uwzględniającego współzależności organizacji, ludzi, procesów i technologii.'],
