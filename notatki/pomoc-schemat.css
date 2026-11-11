@@ -1,0 +1,21 @@
+.cobit-glossary { margin: 1rem 0; padding-top: .75rem; border-top: 1px solid var(--border, #8885); }
+.cobit-glossary h4 { margin: 0 0 .6rem; font-size: 1rem; }
+.cobit-glossary dl { display: grid; grid-template-columns: minmax(3.5rem, auto) 1fr; gap: .5rem .8rem; margin: 0; font-size: .9rem; line-height: 1.5; }
+.cobit-glossary dt { font-weight: 700; overflow-wrap: anywhere; }
+.cobit-glossary dd { margin: 0; }
+.cobit-help abbr, .rn-why abbr { text-decoration: underline dotted; text-underline-offset: .2em; }
+.abbr-expansion { font-weight: 400; }
+.cobit-sources { font-size: .85rem; line-height: 1.8; overflow-wrap: anywhere; }
+.cobit-sources .pref { display: inline; min-height: 0 !important; padding: 0 .15rem !important; border: 0 !important; border-bottom: 1px dotted currentColor !important; background: transparent !important; color: inherit !important; }
+.cobit-alternatives { margin: .75rem 0; }
+.cobit-alternatives summary { cursor: pointer; font-weight: 600; padding: .5rem 0; }
+.cobit-help .qerrata { display: block; }
+.qglossary { display: none; }
+.qb.done .qglossary { display: block; }
+.rn-assisted { border-left: 3px solid currentColor; padding: .5rem .75rem; font-size: .9rem; }
+.rn-sheet .cobit-glossary { padding-bottom: .5rem; }
+#pv.over-exam { position: fixed; left: 50%; top: 5vh; transform: translateX(-50%); width: min(740px, calc(100vw - 32px)); max-height: 90vh; box-sizing: border-box; z-index: 1200; }
+@media (max-width: 450px) {
+  .cobit-glossary dl { grid-template-columns: 1fr; gap: .2rem; }
+  .cobit-glossary dd { margin-bottom: .7rem; }
+}
