@@ -1,4 +1,4 @@
-/* Nauka, egzamin i postęp wbudowane w schemat-cobit5.html. Bank: 542 pytania (468 własnych + 74 oryginały 1:1: SP1, Altkom, znaleziska). */
+/* Nauka, egzamin i postęp wbudowane w schemat-cobit5.html. Bank: 543 pytania (469 własnych + 74 oryginały 1:1: SP1, Altkom, znaleziska). */
 window.SCHEMAT_EXAM = (function () {
   'use strict';
   const KEY='cobit-schemat-egzaminy75', SEEN='cobit-schemat-widziane', LEARN='cobit-schemat-nauka75', STAR='cobit-schemat-wyroznione';
