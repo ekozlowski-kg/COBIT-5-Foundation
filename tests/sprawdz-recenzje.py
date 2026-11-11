@@ -21,10 +21,12 @@ def window_data(path, name):
 html = (R / 'notatki/schemat-cobit5.html').read_text(encoding='utf-8')
 p = json.loads(re.search(r'window.PYTANIA=(.*?);</script><!--PYTANIA-END-->', html).group(1))
 s = window_data(R / 'notatki/sp1.local.js', 'PYTANIA_SP1')
-questions = {**p['Q'], **s['Q']}
-assert len(questions) == 400
-reviews = read(A / 'recenzja-400.json')
-assert len(reviews) == 400 and {r['id'] for r in reviews} == set(questions)
+bank = {**p['Q'], **s['Q']}
+assert len(bank) == p['plan']['limit'] <= 500
+# pytania z fiszek mają własną kontrolę (generator); recenzja dotyczy pytań autorskich i lokalnych
+questions = {k: v for k, v in bank.items() if v.get('st') != 'fiszki'}
+reviews = [r for r in read(A / 'recenzja-400.json') if r['id'] in questions]
+assert {r['id'] for r in reviews} == set(questions)
 for record in reviews:
     q = questions[record['id']]
     assert sha(q) == record['sha256WersjiWyswietlanej'], record['id']

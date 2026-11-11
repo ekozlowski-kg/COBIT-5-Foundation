@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Wstawia do notatki/schemat-cobit5.html wybrany bank 400 pytań ABCD:
+"""Wstawia do notatki/schemat-cobit5.html wybrany bank pytań ABCD (limit w pula-schematu.json, maks. 500):
 4 odpowiedzi, dokładnie jedna poprawna. Pytania przypisane do węzłów schematu według kodów sylabusa.
 
 Uruchom:  python3 notatki/generuj-pytania-schematu.py
-330 autorskich wskazuje pula-schematu.json; 70 lokalnych jest w materialy-testowe.local.json.
+Pytania autorskie wskazuje pula-schematu.json, pytania z fiszek są w pytania-fiszki.json
+(każde z treścią fiszki do przycisku „Sprawdź”), 70 lokalnych jest w materialy-testowe.local.json.
 Kończy się błędem, jeśli jakieś pytanie nie trafi do żadnego węzła."""
 import json, glob, os, re, sys, hashlib
 
@@ -16,7 +17,7 @@ SELECTED = set(PLAN['ids'])
 RESERVE = {uid: name for name, ids in PLAN['sprawdziany'].items() for uid in ids}
 FIX_PATH = os.path.join(ROOT, 'notatki/korekty-pytan.json')
 FIX = json.load(open(FIX_PATH, encoding='utf-8'))['pytania'] if os.path.exists(FIX_PATH) else {}
-assert set(FIX) <= SELECTED, 'Korekta dotyczy pytania spoza wybranej puli'
+assert set(FIX) <= set(PLAN['weryfikacja']), 'Korekta dotyczy pytania spoza recenzji'
 
 # kod sylabusa -> węzły schematu
 CODE = {
@@ -154,10 +155,28 @@ for n in N:
 for it in Q.values():
     it.pop('tr', None)
 
+# --- Pytania z fiszek (autorskie fiszki COBIT 5, karty P1/P2) ---
+FZ_PATH = os.path.join(ROOT, 'notatki/pytania-fiszki.json')
+FZ = json.load(open(FZ_PATH, encoding='utf-8'))['pytania'] if os.path.exists(FZ_PATH) else []
+for q in FZ:
+    assert q['id'] not in Q, 'Powtórzone id: ' + q['id']
+    assert len(q['o']) == 4 and sum(1 for o in q['o'] if o['ok']) == 1, 'Fiszka nie ABCD: ' + q['id']
+    assert len({o['t'].strip().casefold() for o in q['o']}) == 4, 'Powtórzone opcje: ' + q['id']
+    assert all(o['w'].strip() for o in q['o']) and q['fz'].get('a'), 'Brak wyjaśnienia: ' + q['id']
+    nodes = nodes_for({'sylabus': q['s'].split(','), 'tresc': q['t'], 'opcje': q['o']}, unknown)
+    if not nodes:
+        missing.append(q['id']); continue
+    Q[q['id']] = {'id': q['id'], 'typ': 'egzamin', 's': q['s'], 't': q['t'], 'k': False, 'st': 'fiszki',
+                  'src': 'Fiszki COBIT 5', 'z': q['z'], 'r': None, 'zap': '', 'scen': '', 'o': q['o'], 'fz': q['fz']}
+    for n in nodes:
+        N[n].append(q['id'])
+for n in N:  # fiszki są priorytetem nauki: na początku listy pytań kafelka
+    N[n].sort(key=lambda u: Q[u]['st'] != 'fiszki')
+
 if unknown or missing:
     print('BŁĄD: kody bez mapowania:', sorted(unknown), 'pytania bez węzła:', missing[:20]); sys.exit(1)
-assert len(Q) == total, (len(Q), total)
-assert set(Q) == SELECTED and len(Q) == PLAN['autorskie'], 'Niepełny bank po recenzji'
+assert len(Q) == total + len(FZ), (len(Q), total, len(FZ))
+assert set(Q) == SELECTED | {q['id'] for q in FZ} and len(Q) == PLAN['autorskie'] + PLAN.get('fiszki', 0), 'Niepełny bank po recenzji'
 
 # Znaczniki robocze nie są identyfikatorami kafelków. Plan nauki i powroty
 # z omówień sprawdzianu muszą wskazywać rzeczywiste miejsca w schemacie.
@@ -166,7 +185,8 @@ plan_codes = {code: list(dict.fromkeys(real for node in nodes
               for code, nodes in CODE.items()}
 data = json.dumps({'Q': Q, 'N': N, 'plan': {**{k:PLAN[k] for k in ['limit','celMinimum','sprawdziany']}, 'kody': plan_codes}}, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 block = ('<!--PYTANIA-START--><script>/* wygenerowane: notatki/generuj-pytania-schematu.py; '
-         '330 pytań autorskich po recenzji, plan: pula-schematu.json; 70 lokalnych w sp1.local.js */window.PYTANIA=' + data + ';</script><!--PYTANIA-END-->')
+         + str(PLAN['autorskie']) + ' pytań autorskich po recenzji + ' + str(PLAN.get('fiszki', 0)) + ' z fiszek, plan: pula-schematu.json; '
+         + str(PLAN['lokalne']) + ' lokalnych w sp1.local.js */window.PYTANIA=' + data + ';</script><!--PYTANIA-END-->')
 html = open(HTML, encoding='utf-8').read()
 html, n = re.subn(r'<!--PYTANIA-START-->.*?<!--PYTANIA-END-->', lambda m: block, html, flags=re.S)
 assert n == 1, 'brak znaczników PYTANIA w HTML'
@@ -198,7 +218,7 @@ if os.path.exists(SP1):
     with open(SP1_OUT, 'w', encoding='utf-8') as fh:
         fh.write('// LOKALNIE: SP1 i Altkom, z oznaczonymi autorskimi korektami dydaktycznymi. Oryginały PDF bez zmian. Nie publikować.\n')
         fh.write('window.PYTANIA_SP1=' + json.dumps({'Q': sq, 'N': sn}, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/') + ';\n')
-    assert len(sq) == PLAN['lokalne'] and len(sq) + len(Q) == PLAN['limit'] == 400
+    assert len(sq) == PLAN['lokalne'] and len(sq) + len(Q) == PLAN['limit'] <= 500
     print('Materiały lokalne: pytań', len(sq), '->', SP1_OUT)
 else:
     print('SP1: brak', SP1, '(pomijam)')

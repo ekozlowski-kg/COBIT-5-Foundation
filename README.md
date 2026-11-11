@@ -10,19 +10,21 @@ Pobierz repozytorium i otwórz `notatki/schemat-cobit5.html` w przeglądarce. Bi
 
 Postęp jest zapisywany w przeglądarce. Zmiana adresu, ścieżki lub przeglądarki może zmienić dostęp do wcześniejszych wyników. W panelu testów można zapisać kopię wyników.
 
-## Nauka i 400 pytań
+## Nauka i 500 pytań
 
 - 64 cele nauki z objaśnieniami, przykładami i pułapkami.
-- 300 pytań treningowych z uzasadnieniami wszystkich czterech odpowiedzi.
+- **301 pytań z fiszek** (karty P1 i P2). Przycisk „Sprawdź” pokazuje treść fiszki: odpowiedź, przykład i zastosowanie w organizacji.
+- 129 pytań autorskich (w tym 100 w sprawdzianach A/B), 50 SP1 i 20 Altkom. Usunięto 201 pytań autorskich, które pokrywały się z fiszkami.
+- Tryb „wszystkie pytania ciągiem”: po kolei, losowo, tylko fiszki, tylko nierozwiązane, tylko błędne. Wynik i wyjaśnienie od razu po odpowiedzi.
 - Dwa rozłączne sprawdziany A/B po 50 pytań, standardowo 40 minut; pełne omówienie po zakończeniu.
-- Cel treningowy co najmniej 75% oznacza **38/50 = 76%**; 37/50 to 74%.
-- Łącznie 330 pytań autorskich, 50 SP1 i 20 Altkom, z jawnymi korektami dydaktycznymi materiałów lokalnych. To nie jest oficjalny kurs PeopleCert ani gwarancja wyniku egzaminu.
+- Widok testów na telefonie: monochromatyczny (kolor tylko dla dobrej i złej odpowiedzi), tryb jasny i ciemny, duże pola dotyku, dolny pasek akcji, fiszka w dolnym arkuszu, przesunięcie palcem w lewo/prawo = następne/poprzednie pytanie.
+- Cel treningowy co najmniej 75% oznacza **38/50 = 76%**; 37/50 to 74%. To nie jest oficjalny kurs PeopleCert ani gwarancja wyniku egzaminu.
 
-Każde z 400 aktywnych pytań przejrzano osobno. W końcowym przeglądzie wymieniono 13 powtarzających się pozycji i poprawiono 119 zachowanych pytań autorskich; opracowano ponownie wszystkie 200 wyjaśnień SP1. Rejestry aktualnej treści znajdują się w [notatki/audyt/](notatki/audyt/).
+Pytania autorskie i lokalne mają rejestry recenzji w [notatki/audyt/](notatki/audyt/); pytania z fiszek sprawdza generator (4 opcje, jedna poprawna, wyjaśnienie każdej opcji, treść fiszki).
 
 ## Odtworzenie banku i kontrole
 
-Wymagane Python 3 i Node.js (18 lub nowszy). Generator korzysta z dołączonych 330 pytań w `notatki/pytania-autorskie.json`, korekt oraz 70 pytań w `notatki/materialy-testowe.local.json`. Nie wymaga poprzedniej aplikacji.
+Wymagane Python 3 i Node.js (18 lub nowszy). Generator korzysta z pytań autorskich w `notatki/pytania-autorskie.json` (wybór w `notatki/pula-schematu.json`), pytań z fiszek w `notatki/pytania-fiszki.json`, korekt oraz 70 pytań w `notatki/materialy-testowe.local.json`. Nie wymaga poprzedniej aplikacji.
 
 ```sh
 python3 notatki/generuj-pytania-schematu.py
