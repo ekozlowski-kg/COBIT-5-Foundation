@@ -100,6 +100,16 @@ window.COBIT_HELP = (() => {
     }
     return out+plain(input.slice(end));
   }
+  /* Dosłowny cytat z podręcznika COBIT 5 PL potwierdzający poprawną odpowiedź (pole q.cyt: s – strona, t – cytat, w – werdykt, u – uwaga). */
+  const VERDICT = {ZGODNE: 'Uwaga', CZESCIOWO: 'Podręcznik potwierdza to tylko częściowo', BRAK_W_FW: 'Źródło spoza podręcznika FW-PL', TERMIN: 'Nazwa z egzaminu PL – podręcznik używa innego słowa', SPRZECZNE: 'Podręcznik mówi co innego'};
+  function quote(q) {
+    const c=q&&q.cyt; if(!c||(!c.t&&!c.u)) return '';
+    const label=c.w==='BRAK_W_FW'?'Najbliższy fragment podręcznika COBIT 5':'Podręcznik COBIT 5';
+    const head=c.s?'<b>'+label+' – '+references('FW-PL s. '+c.s)+':</b> ':'';
+    const note=c.u||(c.w&&c.w!=='ZGODNE')?'<span class="cobit-zgodnosc"><b>'+esc(VERDICT[c.w]||c.w)+(c.u?':':'.')+'</b> '+explain(c.u||'')+'</span>':'';
+    const text=c.t?(/^\p{Ll}/u.test(c.t)?'…':'')+c.t:'';
+    return '<p class="cobit-quote">'+head+(c.s&&text?'<q>'+esc(text)+'</q>':'')+note+'</p>';
+  }
   function sources(q) { return '<p class="cobit-sources"><b>Sprawdź w źródłach:</b> '+(q.z||[]).map(z=>references(z)).join(' · ')+'</p>'; }
   function card(q) {
     if(!q)return '';
@@ -109,6 +119,7 @@ window.COBIT_HELP = (() => {
     return '<article class="fz-card cobit-help"><p class="fz-n">Omówienie autorskie · COBIT 5'+(f?.pulapka?' · pułapka egzaminacyjna':'')+'</p>'+
       '<h4 class="fz-h">'+esc(f?.h||'Dlaczego ta odpowiedź?')+'</h4>'+
       (correct?'<p><b>Poprawna odpowiedź:</b> '+plain(correct.t)+'</p><p>'+explain(correct.w)+'</p>':'')+
+      quote(q)+
       (f?.a?'<p class="fz-a">'+explain(f.a)+'</p>':'')+
       '<details class="cobit-alternatives"><summary>Dlaczego pozostałe odpowiedzi nie pasują?</summary>'+q.o.filter(o=>!o.ok).map(o=>'<p><b>'+plain(o.t)+'</b><br>'+explain(o.w)+'</p>').join('')+'</details>'+
       (q.zap?'<p><b>Zapamiętaj:</b> '+explain(q.zap)+'</p>':'')+
@@ -117,5 +128,5 @@ window.COBIT_HELP = (() => {
       (q.err?'<p class="qerrata"><b>Korekta dydaktyczna:</b> '+explain(q.err)+'</p>':'')+
       glossary(q)+sources(q)+'</article>';
   }
-  return {terms,found,explain,glossary,references,sources,card};
+  return {terms,found,explain,glossary,references,sources,quote,card};
 })();

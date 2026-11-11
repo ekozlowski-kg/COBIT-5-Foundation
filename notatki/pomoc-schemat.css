@@ -7,6 +7,10 @@
 .abbr-expansion { font-weight: 400; }
 .cobit-sources { font-size: .85rem; line-height: 1.8; overflow-wrap: anywhere; }
 .cobit-sources .pref { display: inline; min-height: 0 !important; padding: 0 .15rem !important; border: 0 !important; border-bottom: 1px dotted currentColor !important; background: transparent !important; color: inherit !important; }
+.cobit-quote { margin: .75rem 0; padding: .55rem .8rem; border-left: 3px solid currentColor; font-size: .92rem; line-height: 1.55; }
+.cobit-quote q { quotes: "„" "”"; font-style: italic; }
+.cobit-quote .pref { display: inline; min-height: 0 !important; padding: 0 .15rem !important; border: 0 !important; border-bottom: 1px dotted currentColor !important; background: transparent !important; color: inherit !important; }
+.cobit-quote .cobit-zgodnosc { display: block; margin-top: .4rem; font-style: normal; font-size: .85rem; }
 .cobit-alternatives { margin: .75rem 0; }
 .cobit-alternatives summary { cursor: pointer; font-weight: 600; padding: .5rem 0; }
 .cobit-help .qerrata { display: block; }

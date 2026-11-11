@@ -5,7 +5,12 @@ const html=fs.readFileSync('notatki/schemat-cobit5.html','utf8');
 vm.runInContext(html.match(/<!--PYTANIA-START--><script>([\s\S]*?)<\/script><!--PYTANIA-END-->/)[1],ctx);
 const H=ctx.window.COBIT_HELP,qs=Object.values(ctx.window.PYTANIA.Q).concat(Object.values(ctx.window.PYTANIA_SP1.Q));
 assert.equal(qs.length,ctx.window.PYTANIA.plan.limit,'limit obejmuje także lokalne pytania');
+const fwRaw=fs.readFileSync('notatki/fw-pl.local.js','utf8'),FW=JSON.parse(fwRaw.slice(fwRaw.indexOf('window.FWPL=')+12).trim().replace(/;$/,''));
+const czysty=t=>t.replace(/([\p{L}\d_])-\n([\p{L}\d_])/gu,'$1$2').replace(/\s*\n\s*/g,' ').replace(/\s+/g,' ').trim();
 for(const q of qs){
+ assert(q.cyt&&q.cyt.w,q.id+': brak weryfikacji z podręcznikiem');
+ if(q.cyt.s&&q.cyt.t)assert(czysty(FW[q.cyt.s]).includes(q.cyt.t),q.id+': cytat nie jest dosłowny (FW-PL s. '+q.cyt.s+')');
+ for(const o of q.o)assert(!/fiszk|\bkarcie\b|\bkarta (wskazuje|ostrzega)|z karty/i.test(o.w),q.id+': uzasadnienie powołuje się na fiszkę zamiast podręcznika');
  const card=H.card(q);
  assert(card.includes('Poprawna odpowiedź:'),q.id);
  assert(card.includes('Dlaczego pozostałe odpowiedzi nie pasują?'),q.id);
@@ -27,4 +32,4 @@ for(const ref of ['SP1, s. 3','Enabling Processes s. 25','FW-EN s. 37','Altkom 2
 const mixed=H.references('FW-PL s. 42; SP1 s. 3; Enabling Processes s. 25','FW-PL');
 assert.equal((mixed.match(/data-p=/g)||[]).length,1,'nie otwieramy innej książki pod numerem strony FW-PL');
 assert(!H.references('FW-PL s. 149').includes('data-p='),'nie obcinamy numeru 149 do14');
-console.log('OK: '+qs.length+' omówień z przykładami, pełne nazwy skrótów oraz rozdzielenie dokumentów i zakresów stron.');
+console.log('OK: '+qs.length+' omówień z dosłownymi cytatami FW-PL z przykładami, pełne nazwy skrótów oraz rozdzielenie dokumentów i zakresów stron.');
