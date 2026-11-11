@@ -3,7 +3,7 @@
 Cała nauka to jeden schemat: **[notatki/schemat-cobit5.html](notatki/schemat-cobit5.html)**. Testy w schemacie sprawdzają, co już umiesz.
 
 - **Nauka:** mapa COBIT 5 z objaśnieniami, przykładami z życia i pułapkami (64 cele nauki).
-- **Testy:** 544 pytania: 301 z fiszek, 173 autorskie, 50 SP1 i 20 Altkom. Są dwa sprawdziany A/B po 50 pytań na 40 minut i tryb „wszystkie pytania ciągiem”.
+- **Testy:** 554 pytania: 301 z fiszek, 183 autorskie, 50 SP1 i 20 Altkom. Są dwa sprawdziany A/B po 50 pytań na 40 minut i tryb „wszystkie pytania ciągiem”.
 - **Sprawdź:** każde pytanie ma omówienie wszystkich odpowiedzi, przykład, źródła i rozwinięcia użytych skrótów. Otwarcie pomocy przed odpowiedzią oznacza naukę „z pomocą”; takiej odpowiedzi nie zalicza się jako samodzielnego rozwiązania w planie gotowości. W sprawdzianach pomoc pojawia się po zakończeniu.
 - **Cel:** co najmniej 38/50 (76%). To nie jest oficjalny kurs PeopleCert ani gwarancja wyniku.
 
