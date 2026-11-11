@@ -2,11 +2,11 @@
 
 Cała nauka to jeden schemat: **[notatki/schemat-cobit5.html](notatki/schemat-cobit5.html)**. Testy w schemacie sprawdzają, co już umiesz.
 
-- **Nauka:** mapa 64 celów oraz 584 pytania z objaśnieniami, przykładami i pułapkami. Można uczyć się po kolei, losowo, z pytań nierozwiązanych, błędnych albo oznaczonych gwiazdką jako „Wyróżnione”.
+- **Nauka:** mapa 64 celów oraz 583 pytania z objaśnieniami, przykładami i pułapkami. Można uczyć się po kolei, losowo, z pytań nierozwiązanych, błędnych albo oznaczonych gwiazdką jako „Wyróżnione”.
 - **Egzamin:** jedna funkcja uruchamia próbę 50 pytań z limitem 40 minut. Kolejne próby korzystają naprzemiennie z dwóch rozłącznych, wewnętrznych szablonów o proporcjach PR 15 / EN 21 / IM 7 / PC 7; oznaczenia A/B nie są pokazywane użytkownikowi.
 - **Sprawdź:** każde pytanie ma omówienie wszystkich odpowiedzi, przykład, źródła i rozwinięcia użytych skrótów. W trybie Nauka pomoc jest dostępna przy każdym pytaniu; w trybie Egzamin pojawia się dopiero po zakończeniu.
 
-Bank obejmuje 293 pytania przekształcone z kart nauki, 221 pytań autorskich, 50 pozycji Sample Paper 1 i 20 pytań Altkom. Pytania z Sample Paper 1 i Altkom są w brzmieniu 1:1 z oryginałów (treść, odpowiedzi, klucz). Pozostałe pytania są napisane w ich stylu: cztery odpowiedzi i jeden klucz, krótkie pytanie (Który/Co/Jak nazywa się…/Zidentyfikuj brakujące słowo…), bez formatu Czy/Tak/Nie, bez odwołań do rysunków, stron i podręcznika w treści oraz bez wyróżniania klucza długością. Pytania własne, które dublowały SP1 lub Altkom, usunięto – zostają oryginały. Każde pytanie ma w „Sprawdź” stronę polskiego podręcznika COBIT 5 (FW-PL) i dosłowny cytat potwierdzający odpowiedź albo uwagę, że temat pochodzi spoza podręcznika. Pełne zasady: [ZASADY-PYTAN.txt](ZASADY-PYTAN.txt).
+Bank obejmuje 293 pytania przekształcone z kart nauki, 220 pytań autorskich, 50 pozycji Sample Paper 1 i 20 pytań Altkom. Pytania z Sample Paper 1 i Altkom są w brzmieniu 1:1 z oryginałów (treść, odpowiedzi, klucz). Pozostałe pytania są napisane w ich stylu: cztery odpowiedzi i jeden klucz, krótkie pytanie (Który/Co/Jak nazywa się…/Zidentyfikuj brakujące słowo…), bez formatu Czy/Tak/Nie, bez odwołań do rysunków, stron i podręcznika w treści oraz bez wyróżniania klucza długością. Pytania własne, które dublowały SP1 lub Altkom, usunięto – zostają oryginały. Każde pytanie ma w „Sprawdź” stronę polskiego podręcznika COBIT 5 (FW-PL) i dosłowny cytat potwierdzający odpowiedź albo uwagę, że temat pochodzi spoza podręcznika. Pełne zasady: [ZASADY-PYTAN.txt](ZASADY-PYTAN.txt).
 
 Tryb Nauka udostępnia również pytania używane w Egzaminie. Kolejne próby służą ćwiczeniu; po rozwiązaniu całego banku będą powtórką znanych treści.
 
