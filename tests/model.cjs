@@ -7,7 +7,7 @@ for (const full of [false,true]) {
  const doc={innerHTML:'',hidden:true,addEventListener(){},setAttribute(){},querySelectorAll(){return[]},querySelector(){return null}};
  const ctx={window:{},document:{...doc,documentElement:doc,getElementById(){return doc},cookie:''},React:{createElement(){}},Position:{},MarkerType:{ArrowClosed:'arrow'},localStorage:{getItem(k){return k==='cobit-schemat-szczegoly'?(full?'full':'compact'):null}}};vm.createContext(ctx);
  for (const file of ['fw-pl.local.js','sp1.local.js','ilustracje-kafelki.local.js','braki-kafelki.local.js','schemat-opisy.js'])vm.runInContext(fs.readFileSync(path.join(repo,'notatki',file),'utf8'),ctx);
- vm.runInContext(html.match(/<script>\/\* wygenerowane:[\s\S]*?<\/script>/)[0].replace(/^<script>|<\/script>$/g,''),ctx);
+ vm.runInContext(html.match(/<!--PYTANIA-START--><script>([\s\S]*?)<\/script><!--PYTANIA-END-->/)[1],ctx);
  vm.runInContext(fs.readFileSync(path.join(repo,'app/podrecznik/ilustracje/ilu.js'),'utf8'),ctx);
  let code=mod.slice(0,mod.indexOf('function showInfo(id)'));
  code+=mod.slice(mod.indexOf('const pv=document.getElementById'),mod.indexOf('let RF=null'));

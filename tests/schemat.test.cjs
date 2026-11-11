@@ -2,12 +2,12 @@ const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/st
 const R=process.cwd(),html=fs.readFileSync('notatki/schemat-cobit5.html','utf8');
 let passed=0;const check=(name,fn)=>{fn();passed++;console.log('OK '+name);};
 const store=new Map(),WYN={};let now=10000;
-const fakeEl=()=>({hidden:false,innerHTML:'',dataset:{},disabled:false,inert:false,setAttribute(){},removeAttribute(){},addEventListener(){},appendChild(){},querySelector(){return fakeEl()},querySelectorAll(){return[]},focus(){},scrollIntoView(){},getClientRects(){return[{}]}});
+const fakeEl=()=>({classList:{add(){},remove(){},toggle(){},contains(){return false}},style:{},hidden:false,innerHTML:'',dataset:{},disabled:false,inert:false,setAttribute(){},removeAttribute(){},addEventListener(){},appendChild(){},querySelector(){return fakeEl()},querySelectorAll(){return[]},focus(){},scrollIntoView(){},getClientRects(){return[{}]}});
 const document={...fakeEl(),head:fakeEl(),body:fakeEl(),createElement:fakeEl,getElementById:fakeEl,querySelector:fakeEl};
 const ctx={window:{},document,localStorage:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v)},Date:class extends Date{static now(){return now}},setTimeout(){},clearTimeout(){},setInterval(){return 1},clearInterval(){},Blob,URL,console};vm.createContext(ctx);
 for(const file of ['sp1.local.js','nauka-sylabus.js'])vm.runInContext(fs.readFileSync('notatki/'+file,'utf8'),ctx);
 vm.runInContext(html.match(/<!--PYTANIA-START--><script>([\s\S]*?)<\/script><!--PYTANIA-END-->/)[1],ctx);
-let src=fs.readFileSync('notatki/testy-schemat.js','utf8').replace('return {init(value)','window.__test={status,start,finish,question,getState:()=>state,getSeen:()=>seen,getLearning:()=>learning};return {init(value)');vm.runInContext(src,ctx);
+let src=fs.readFileSync('notatki/testy-schemat.js','utf8').replace('return {fiszka,init(value)','window.__test={status,start,finish,question,getState:()=>state,getSeen:()=>seen,getLearning:()=>learning};return {fiszka,init(value)');vm.runInContext(src,ctx);
 ctx.window.SCHEMAT_EXAM.init({getResults:()=>WYN,record(u,i,ok){WYN[u]={i,ok,n:1,g:+ok,t:now}},jump(){}});
 const P=ctx.window.PYTANIA,S=ctx.window.PYTANIA_SP1,T=ctx.window.__test,own=Object.values(P.Q),local=Object.values(S.Q),all=own.concat(local),lessons=ctx.window.NAUKA_SYLABUS.lekcje;
 check('bank zgodny z limitem (maks. 500), unikalne id i treści',()=>{const L=P.plan.limit;assert(L<=500);assert.equal(all.length,L);assert.equal(new Set(all.map(q=>q.id)).size,L);const norm=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();assert.equal(new Set(all.map(q=>norm(q.t))).size,L);});
