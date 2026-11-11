@@ -1,4 +1,4 @@
-/* Nauka, egzamin i postęp wbudowane w schemat-cobit5.html. Bank: 534 pytania (464 własnych + 70 SP1/Altkom 1:1). */
+/* Nauka, egzamin i postęp wbudowane w schemat-cobit5.html. Bank: 538 pytań (464 własne + 74 oryginały 1:1: SP1, Altkom, znaleziska). */
 window.SCHEMAT_EXAM = (function () {
   'use strict';
   const KEY='cobit-schemat-egzaminy75', SEEN='cobit-schemat-widziane', LEARN='cobit-schemat-nauka75', STAR='cobit-schemat-wyroznione';
@@ -86,7 +86,7 @@ window.SCHEMAT_EXAM = (function () {
   }
 
   /* ---------- Ciągiem: wszystkie pytania banku jedno po drugim, z wyjaśnieniem od razu ---------- */
-  const origin=q=>/^altkom/.test(q.id)?'Altkom':/^sp1/.test(q.id)?'Sample Paper 1':'treningowe';
+  const origin=q=>/^altkom/.test(q.id)?'Altkom':/^sp1/.test(q.id)?'Sample Paper 1':/^zn-/.test(q.id)?'Znalezisko (internet)':'treningowe';
   /* pełne omówienie pod przyciskiem „Sprawdź” */
   function fiszka(q){return window.COBIT_HELP.card(q);}
   const byU=()=>Object.fromEntries(all().map(q=>[q.u,q]));

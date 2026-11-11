@@ -1,7 +1,7 @@
 ZASADY PYTAŃ — COBIT 5 FOUNDATION
 Wersja: 2026-11-11-r5
 
-1. Jeden bank: 534 pytania (464 własnych, 50 SP1, 20 Altkom). Pytanie własne
+1. Jeden bank: 538 pytań (464 własne, 50 SP1, 20 Altkom, 4 znaleziska internetowe). Pytanie własne
    nie może dublować pytania SP1 ani Altkom (ten sam fakt, także odwrócony). Nauka i Egzamin korzystają z tej
    samej konwencji pytań. Nie ma osobnego trybu „tylko fiszki”.
 
@@ -46,7 +46,7 @@ Wersja: 2026-11-11-r5
    64 punkty sylabusa; kolejne próby zmieniają kolejność pytań i opcji.
    Przyjęty rozkład treningowy: PR 15, EN 21, IM 7, PC 7.
 
-10. Pytania Sample Paper 1 i Altkom są w brzmieniu 1:1 z oryginałów
+10. Pytania Sample Paper 1, Altkom i znalezisk internetowych są w brzmieniu 1:1 z oryginałów
     (treść, odpowiedzi, klucz) i nie podlegają redakcji stylu. Ich
     ewentualne błędy opisuje uwaga w omówieniu, a nie zmiana treści.
     Pytania autorskie nie są przedstawiane jako oficjalne pytania PeopleCert.
