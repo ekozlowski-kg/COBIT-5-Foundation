@@ -1,0 +1,60 @@
+ZASADY PYTAŃ — COBIT 5 FOUNDATION
+Wersja: 2026-11-11-r5
+
+1. Jeden bank: 597 pytań (527 własnych, 50 SP1, 20 Altkom). Nauka i Egzamin korzystają z tej
+   samej konwencji pytań. Nie ma osobnego trybu „tylko fiszki”.
+
+2. Każde pytanie ma cztery odpowiedzi, dokładnie jedną poprawną i sprawdza
+   wiedzę lub rozumienie COBIT 5 Foundation. Pytania autorskie nie są
+   przedstawiane jako oficjalne pytania PeopleCert.
+
+3. Pytania są krótkie i jednoznaczne. Zamiast „Czy...?” oraz wariantów
+   „Tak/Nie” stosujemy pytanie o pojęcie, relację, właściwość lub działanie.
+   Krótki kontekst jest dopuszczalny, gdy sprawdza rozumienie; nie powinien
+   wymagać analizy właściwej dla poziomu Implementation lub Assessor.
+
+4. Wszystkie cztery opcje mają porównywalną formę gramatyczną, poziom
+   szczegółowości i wiarygodność. Klucza nie wyróżniają objaśnienie,
+   rozwinięcie skrótu, dopisek w nawiasie, format ani niepotrzebna długość.
+   Kontrola długości jest sygnałem do recenzji, a nie powodem do zmiany
+   oficjalnego terminu lub dopisywania pustych słów.
+
+5. Pytanie można zrozumieć bez otwierania źródła. W treści pytania nie ma
+   odwołań do rysunków, ilustracji, stron, podręcznika, załączników ani
+   przykładów (egzamin jest bez książki, a SP1 nie zawiera takich odwołań).
+   Fakt zostaje, znika odsyłacz. Numery stron i dosłowny cytat z FW-PL
+   są w omówieniu „Sprawdź”. Scenariusz z życia trafia do ramki PRZYKŁAD.
+6. Używamy terminologii egzaminacyjnej PL: Ład, Aktywator, Struktura ramowa.
+   W omówieniu pokazujemy odpowiedniki podręcznikowe i angielskie oraz
+   wyjaśniamy skróty, m.in. RACI, CEO, CIO, CRO, PRM, PAM, EDM i PBRM.
+   Nie dodajemy do samego klucza rozwinięcia zdradzającego odpowiedź.
+
+7. Każde pytanie ma „Sprawdź”: poprawną odpowiedź, wyjaśnienie każdej
+   z czterech opcji, przykład dydaktyczny, źródło i użyte skróty.
+   Numer strony prowadzi wyłącznie do właściwego dokumentu.
+
+8. Nauka: odpowiedź jest oceniana od razu, pomoc jest dostępna przy każdym
+   pytaniu. Gwiazdka dodaje lub usuwa pytanie z kategorii „Wyróżnione”.
+   Oznaczenia i postęp zapisują się w tej przeglądarce. Dostępne listy:
+   po kolei, losowo, nierozwiązane, błędne i wyróżnione.
+
+9. Egzamin: jedno wejście, 50 pytań, 40 minut, bez omówień przed końcem.
+   Można zmieniać odpowiedzi i oznaczać pytania do powrotu. Po końcu
+   pojawia się wynik oraz pełne omówienia. Zegar zachowuje termin końca
+   po odświeżeniu. Dwa wewnętrzne zestawy są rozłączne i razem obejmują
+   64 punkty sylabusa; kolejne próby zmieniają kolejność pytań i opcji.
+   Przyjęty rozkład treningowy: PR 15, EN 21, IM 7, PC 7.
+
+10. Pytania Sample Paper 1 i Altkom są w brzmieniu 1:1 z oryginałów
+    (treść, odpowiedzi, klucz) i nie podlegają redakcji stylu. Ich
+    ewentualne błędy opisuje uwaga w omówieniu, a nie zmiana treści.
+    Pytania autorskie nie są przedstawiane jako oficjalne pytania PeopleCert.
+    Każde pytanie ma pole cyt: stronę FW-PL i dosłowny cytat albo uwagę,
+    że temat pochodzi spoza podręcznika (sylabus, Enabling Processes, PAM).
+11. Kontrola po redakcji obejmuje jednoznaczność klucza, sens dystraktorów,
+    zgodność omówień, pokrycie sylabusa, brak duplikatów, dosłowność cytatów FW-PL i liczbę pytań w planie banku.
+    Wyniki starszej wersji są archiwalne; nie przeliczamy ich na nową treść.
+
+Cel użytkownika to co najmniej 75% poprawnych odpowiedzi; w próbie 50 pytań
+odpowiada temu 38/50. Jest to cel treningowy, a nie oficjalny próg zdania.
+Te informacje pozostają w dokumentacji, bez rozbudowanego planu w interfejsie.

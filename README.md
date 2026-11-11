@@ -2,10 +2,13 @@
 
 Cała nauka to jeden schemat: **[notatki/schemat-cobit5.html](notatki/schemat-cobit5.html)**. Testy w schemacie sprawdzają, co już umiesz.
 
-- **Nauka:** mapa COBIT 5 z objaśnieniami, przykładami z życia i pułapkami (64 cele nauki).
-- **Testy:** 554 pytania: 301 z fiszek, 183 autorskie, 50 SP1 i 20 Altkom. Są dwa sprawdziany A/B po 50 pytań na 40 minut i tryb „wszystkie pytania ciągiem”.
-- **Sprawdź:** każde pytanie ma omówienie wszystkich odpowiedzi, przykład, źródła i rozwinięcia użytych skrótów. Otwarcie pomocy przed odpowiedzią oznacza naukę „z pomocą”; takiej odpowiedzi nie zalicza się jako samodzielnego rozwiązania w planie gotowości. W sprawdzianach pomoc pojawia się po zakończeniu.
-- **Cel:** co najmniej 38/50 (76%). To nie jest oficjalny kurs PeopleCert ani gwarancja wyniku.
+- **Nauka:** mapa 64 celów oraz 597 pytań z objaśnieniami, przykładami i pułapkami. Można uczyć się po kolei, losowo, z pytań nierozwiązanych, błędnych albo oznaczonych gwiazdką jako „Wyróżnione”.
+- **Egzamin:** jedna funkcja uruchamia próbę 50 pytań z limitem 40 minut. Kolejne próby korzystają naprzemiennie z dwóch rozłącznych, wewnętrznych szablonów o proporcjach PR 15 / EN 21 / IM 7 / PC 7; oznaczenia A/B nie są pokazywane użytkownikowi.
+- **Sprawdź:** każde pytanie ma omówienie wszystkich odpowiedzi, przykład, źródła i rozwinięcia użytych skrótów. W trybie Nauka pomoc jest dostępna przy każdym pytaniu; w trybie Egzamin pojawia się dopiero po zakończeniu.
+
+Bank obejmuje 301 pytań przekształconych z kart nauki, 226 pytań autorskich, 50 pozycji Sample Paper 1 i 20 pytań Altkom. Pytania z Sample Paper 1 i Altkom są w brzmieniu 1:1 z oryginałów (treść, odpowiedzi, klucz). Pozostałe pytania są napisane w ich stylu: cztery odpowiedzi i jeden klucz, krótkie pytanie (Który/Co/Jak nazywa się…/Zidentyfikuj brakujące słowo…), bez formatu Czy/Tak/Nie, bez odwołań do rysunków, stron i podręcznika w treści oraz bez wyróżniania klucza długością. Każde pytanie ma w „Sprawdź” stronę polskiego podręcznika COBIT 5 (FW-PL) i dosłowny cytat potwierdzający odpowiedź albo uwagę, że temat pochodzi spoza podręcznika. Pełne zasady: [ZASADY-PYTAN.txt](ZASADY-PYTAN.txt).
+
+Tryb Nauka udostępnia również pytania używane w Egzaminie. Kolejne próby służą ćwiczeniu; po rozwiązaniu całego banku będą powtórką znanych treści.
 
 ## Uruchomienie
 
@@ -16,7 +19,7 @@ Otwórz `notatki/schemat-cobit5.html` w przeglądarce albo uruchom serwer: `pyth
 | Plik | Zawartość |
 |---|---|
 | `notatki/schemat-cobit5.html` | schemat i bank pytań (blok `PYTANIA-START`) |
-| `notatki/testy-schemat.js` | sprawdziany, ciąg pytań, postęp |
+| `notatki/testy-schemat.js` | tryby Nauka i Egzamin, wyróżnione pytania i postęp |
 | `notatki/pomoc-schemat.js` i `.css` | wspólne omówienia, słownik skrótów i przypisy do właściwych dokumentów |
 | `notatki/nauka-sylabus.js` | cele nauki |
 | `notatki/schemat-opisy.js` | przykłady z życia i pułapki przy kafelkach |
@@ -25,4 +28,4 @@ Otwórz `notatki/schemat-cobit5.html` w przeglądarce albo uruchom serwer: `pyth
 
 Materiały źródłowe zachowują oznaczenia autorstwa ISACA, PeopleCert i Altkom. Obecność w repozytorium nie nadaje im licencji open source. Kurs dotyczy COBIT 5, a nie COBIT 2019.
 
-Po aktualizacji banku starsze wyniki pozostają w historii, ale nie potwierdzają gotowości dla nowej treści. Przerwany ciąg ze starszej wersji zachowuje się w kopii wyników. Odsyłacze FW-PL otwierają konkretną stronę; oznaczenia innych dokumentów zachowują własne nazwy i nie kierują do FW-PL.
+Po aktualizacji banku starsze wyniki pozostają w historii. Przerwana nauka ze starszej wersji zachowuje się w kopii wyników. Odsyłacze FW-PL otwierają konkretną stronę; oznaczenia innych dokumentów zachowują własne nazwy i nie kierują do FW-PL.
