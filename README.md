@@ -2,7 +2,7 @@
 
 Cała nauka to jeden schemat: **[notatki/schemat-cobit5.html](notatki/schemat-cobit5.html)**. Testy w schemacie sprawdzają, co już umiesz.
 
-- **Nauka:** mapa 64 celów oraz 538 pytań z objaśnieniami, przykładami i pułapkami. Można uczyć się po kolei, losowo, z pytań nierozwiązanych, błędnych albo oznaczonych gwiazdką jako „Wyróżnione”.
+- **Nauka:** mapa 64 celów oraz 542 pytań z objaśnieniami, przykładami i pułapkami. Można uczyć się po kolei, losowo, z pytań nierozwiązanych, błędnych, oznaczonych gwiazdką jako „Wyróżnione” albo tylko z pytań-pułapek (znacznik ⚠ PUŁAPKA i opis pułapki po odpowiedzi). Ściąga „do wykucia” (PDF, 7 stron A4) jest do pobrania z panelu Nauka i egzamin.
 - **Egzamin:** jedna funkcja uruchamia próbę 50 pytań z limitem 40 minut. Kolejne próby korzystają naprzemiennie z dwóch rozłącznych, wewnętrznych szablonów o proporcjach PR 15 / EN 21 / IM 7 / PC 7; oznaczenia A/B nie są pokazywane użytkownikowi.
 - **Sprawdź:** każde pytanie ma omówienie wszystkich odpowiedzi, przykład, źródła i rozwinięcia użytych skrótów. W trybie Nauka pomoc jest dostępna przy każdym pytaniu; w trybie Egzamin pojawia się dopiero po zakończeniu.
 

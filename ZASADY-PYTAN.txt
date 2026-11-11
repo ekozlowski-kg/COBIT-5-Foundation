@@ -1,7 +1,7 @@
 ZASADY PYTAŃ — COBIT 5 FOUNDATION
-Wersja: 2026-11-11-r5
+Wersja: 2026-11-11-r6
 
-1. Jeden bank: 538 pytań (464 własne, 50 SP1, 20 Altkom, 4 znaleziska internetowe). Pytanie własne
+1. Jeden bank: 542 pytania (468 własnych, 50 SP1, 20 Altkom, 4 znaleziska internetowe). Pytanie własne
    nie może dublować pytania SP1 ani Altkom (ten sam fakt, także odwrócony). Nauka i Egzamin korzystają z tej
    samej konwencji pytań. Nie ma osobnego trybu „tylko fiszki”.
 
@@ -55,6 +55,10 @@ Wersja: 2026-11-11-r5
 11. Kontrola po redakcji obejmuje jednoznaczność klucza, sens dystraktorów,
     zgodność omówień, pokrycie sylabusa, brak duplikatów, dosłowność cytatów FW-PL i liczbę pytań w planie banku.
     Wyniki starszej wersji są archiwalne; nie przeliczamy ich na nową treść.
+12. Pytania sprawdzające typową pułapkę egzaminacyjną (liczby, nazwy z egzaminu PL ≠ podręcznik,
+    wiarygodne „czwarte” elementy list, mylone pary pojęć) mają opis w plan.pulapki (id → opis, maks. 20 słów).
+    Opis jest poza treścią pytania, więc oryginały 1:1 też mogą być oznaczone. W Nauce: znacznik ⚠ PUŁAPKA,
+    filtr „Pułapki” i opis po odpowiedzi; w Egzaminie znacznika nie ma.
 
 Cel użytkownika to co najmniej 75% poprawnych odpowiedzi; w próbie 50 pytań
 odpowiada temu 38/50. Jest to cel treningowy, a nie oficjalny próg zdania.
