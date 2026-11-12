@@ -115,7 +115,8 @@ window.COBIT_HELP = (() => {
     if(!q)return '';
     const f=q.fz, correct=(q.o||[]).find(o=>o.ok);
     const lesson=(window.NAUKA_SYLABUS?.lekcje||[]).find(l=>(q.s||'').split(',').includes(l.kod));
-    const example=q.przyklad||f?.ex||lesson?.przyklad;
+    // Przykład KG PSP (scenariusz szkoleniowy „SWD 24/7”) ma pierwszeństwo przed przykładem ogólnym – notatki/pytania-kg-psp.js.
+    const kg=(window.PYTANIA_KG||{})[q.id], example=kg||q.przyklad||f?.ex||lesson?.przyklad;
     return '<article class="fz-card cobit-help"><p class="fz-n">Omówienie autorskie · COBIT 5'+(f?.pulapka?' · pułapka egzaminacyjna':'')+'</p>'+
       '<h4 class="fz-h">'+esc(f?.h||'Dlaczego ta odpowiedź?')+'</h4>'+
       (correct?'<p><b>Poprawna odpowiedź:</b> '+plain(correct.t)+'</p><p>'+explain(correct.w)+'</p>':'')+
@@ -123,8 +124,8 @@ window.COBIT_HELP = (() => {
       (f?.a?'<p class="fz-a">'+explain(f.a)+'</p>':'')+
       '<details class="cobit-alternatives"><summary>Dlaczego pozostałe odpowiedzi nie pasują?</summary>'+q.o.filter(o=>!o.ok).map(o=>'<p><b>'+plain(o.t)+'</b><br>'+explain(o.w)+'</p>').join('')+'</details>'+
       (q.zap?'<p><b>Zapamiętaj:</b> '+explain(q.zap)+'</p>':'')+
-      (example?'<div class="fz-ex"><span>PRZYKŁAD — UPROSZCZENIE DYDAKTYCZNE</span>'+explain(example)+'</div>':'')+
-      (f?.org&&f.org!==example?'<div class="fz-ex fz-org"><span>W ORGANIZACJI</span>'+explain(f.org)+'</div>':'')+
+      (example?'<div class="fz-ex'+(kg?' fz-kg':'')+'"><span>'+(kg?'PRZYKŁAD KG PSP — SCENARIUSZ SZKOLENIOWY „SWD 24/7”':'PRZYKŁAD — UPROSZCZENIE DYDAKTYCZNE')+'</span>'+explain(example)+'</div>':'')+
+      (!kg&&f?.org&&f.org!==example?'<div class="fz-ex fz-org"><span>W ORGANIZACJI</span>'+explain(f.org)+'</div>':'')+
       (q.err?'<p class="qerrata"><b>Korekta dydaktyczna:</b> '+explain(q.err)+'</p>':'')+
       glossary(q)+sources(q)+'</article>';
   }
