@@ -4,6 +4,7 @@ Cała nauka to jeden schemat: **[notatki/schemat-cobit5.html](notatki/schemat-co
 
 - **Nauka:** mapa 64 celów oraz 543 pytań z objaśnieniami, przykładami i pułapkami. Można uczyć się po kolei, losowo, z pytań nierozwiązanych, błędnych, oznaczonych gwiazdką jako „Wyróżnione” albo tylko z pytań-pułapek (znacznik ⚠ PUŁAPKA i opis pułapki po odpowiedzi). Ściąga „do wykucia” (PDF, 7 stron A4) jest do pobrania z panelu Nauka i egzamin.
 - **Egzamin:** jedna funkcja uruchamia próbę 50 pytań z limitem 40 minut. Kolejne próby korzystają naprzemiennie z dwóch rozłącznych, wewnętrznych szablonów o proporcjach PR 15 / EN 21 / IM 7 / PC 7; oznaczenia A/B nie są pokazywane użytkownikowi.
+- **Przykładowy proces (KG PSP):** każdy kafelek schematu ma ramkę z jednym, ciągłym przykładem: Komenda Główna PSP przechodzi przez cały COBIT 5 w scenariuszu „SWD 24/7” (dostępność Systemu Wspomagania Decyzji PSP, proces DSS02 od poziomu 1 do 3). Ramka mówi, co dzieje się w KG PSP, skąd to przychodzi i co przekazuje dalej. Przycisk „▶ Przykład KG PSP” prowadzi krok po kroku przez pętlę wdrożenia. Prawdziwe są struktura KG PSP (regulamin z 12.09.2024), przepisy i mierniki planu działalności Komendanta Głównego na 2026 r.; program, awarie, liczby i wyniki ocen to scenariusz szkoleniowy.
 - **Sprawdź:** każde pytanie ma omówienie wszystkich odpowiedzi, przykład, źródła i rozwinięcia użytych skrótów. W trybie Nauka pomoc jest dostępna przy każdym pytaniu; w trybie Egzamin pojawia się dopiero po zakończeniu.
 
 Bank obejmuje 252 pytania przekształcone z kart nauki, 217 pytań autorskich, 50 pozycji Sample Paper 1, 20 pytań Altkom i 4 pytania znalezione w źródłach internetowych. Pytania z Sample Paper 1, Altkom i znalezisk internetowych są w brzmieniu 1:1 z oryginałów (treść, odpowiedzi, klucz). Pozostałe pytania są napisane w ich stylu: cztery odpowiedzi i jeden klucz, krótkie pytanie (Który/Co/Jak nazywa się…/Zidentyfikuj brakujące słowo…), bez formatu Czy/Tak/Nie, bez odwołań do rysunków, stron i podręcznika w treści oraz bez wyróżniania klucza długością. Pytania własne, które dublowały SP1 lub Altkom, usunięto – zostają oryginały. Każde pytanie ma w „Sprawdź” stronę polskiego podręcznika COBIT 5 (FW-PL) i dosłowny cytat potwierdzający odpowiedź albo uwagę, że temat pochodzi spoza podręcznika. Pełne zasady: [ZASADY-PYTAN.txt](ZASADY-PYTAN.txt).
@@ -22,7 +23,8 @@ Otwórz `notatki/schemat-cobit5.html` w przeglądarce albo uruchom serwer: `pyth
 | `notatki/testy-schemat.js` | tryby Nauka i Egzamin, wyróżnione pytania i postęp |
 | `notatki/pomoc-schemat.js` i `.css` | wspólne omówienia, słownik skrótów i przypisy do właściwych dokumentów |
 | `notatki/nauka-sylabus.js` | cele nauki |
-| `notatki/schemat-opisy.js` | przykłady z życia i pułapki przy kafelkach |
+| `notatki/schemat-opisy.js` | słowa kluczowe i pułapki przy kafelkach |
+| `notatki/przyklad-kg-psp.js` | ramki „Przykładowy proces”: scenariusz KG PSP „SWD 24/7” dla każdego kafelka |
 | `notatki/*.local.js`, `app/podrecznik/ilustracje/` | podręcznik, ilustracje, SP1 i Altkom |
 | `tests/` | kontrola logiki: `node tests/model.cjs && node tests/schemat.test.cjs && node tests/navigation.test.cjs && node tests/pomoc.test.cjs` |
 

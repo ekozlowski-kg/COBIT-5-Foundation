@@ -207,6 +207,9 @@ details.q.sp1 .meta{color:#854F0B;font-weight:600}
 .pol-box{background:var(--f,var(--acc-f));border:1px solid var(--s,var(--acc-s));border-radius:12px;padding:10px 14px;margin:2px 0 12px}
 .pol-box b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--t,var(--text))}
 .pol-box p{margin:4px 0 0;font-size:16px;line-height:1.5}
+.kg-box b .kg-tag{display:inline;font-size:11px;font-weight:600;text-transform:none;letter-spacing:0;margin-left:6px;opacity:.75}
+.kg-box p.kg-flow{font-size:14.5px;margin-top:6px}
+.kg-box p.kg-flow span{font-weight:700}
 .expane-out{font-weight:700;background:var(--f,var(--acc-f));border-left:4px solid var(--s,var(--acc-s));padding:8px 10px;border-radius:0 8px 8px 0}
 #exbtn[aria-pressed="true"]{background:var(--acc-f);color:var(--acc-t);font-weight:600}
 .wedge-fig{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:4px 0 8px}
@@ -301,7 +304,7 @@ main li{margin:6px 0}
   <details class="tools-menu"><summary aria-label="Menu mapy">Menu</summary><div class="tools-popover">
     <p class="menu-label">Przejdź do obszaru</p>
     <select id="area" class="area-select" aria-label="Przejdź do obszaru mapy"><option value="">Wybierz obszar…</option><option value="kont">Od czego zacząć</option><option value="z1">5 zasad COBIT 5</option><option value="potrz">Kaskada celów</option><option value="akt">7 aktywatorów</option><option value="lad">Ład i Zarządzanie</option><option value="ocena">Ocena zdolności</option><option value="petla">Cykl wdrożenia</option></select>
-    <button type="button" id="exbtn" aria-pressed="false" title="Przejdź krok po kroku przez przykład sklepu internetowego">▶ Przykład sklepu</button>
+    <button type="button" id="exbtn" aria-pressed="false" title="Przejdź krok po kroku przez przykład KG PSP: program „SWD 24/7” (scenariusz szkoleniowy)">▶ Przykład KG PSP</button>
     <p class="menu-label">Widok mapy</p><div class="menu-row"><button type="button" id="homeview">Początek mapy</button><button type="button" id="allview">Cała mapa</button></div>
     <button type="button" id="exall" title="Zwiń lub rozwiń szczegóły. Zakres nauki pozostaje taki sam.">Skup widok</button>
     <button type="button" id="fs">Pełny ekran</button>
@@ -319,7 +322,8 @@ main li{margin:6px 0}
 <script src="sp1.local.js?v=20261111r7"></script>
 <script src="ilustracje-kafelki.local.js"></script>
 <script src="braki-kafelki.local.js"></script>
-<script src="schemat-opisy.js"></script>
+<script src="schemat-opisy.js?v=20261112"></script>
+<script src="przyklad-kg-psp.js?v=20261112"></script>
 <script src="nauka-sylabus.js"></script>
 <script src="pomoc-schemat.js?v=20261111r5"></script>
 <script src="testy-schemat.js?v=20261111r6"></script>
@@ -426,85 +430,85 @@ const frame = (id,x,y,w,hgt,title,en,sub)=>({id,type:'grp',position:{x,y},style:
 
 /* ---------- procesy EDM i domeny Zarządzania: osobne kafelki (Rysunek 15 i 16, FW-PL s. 32–33) ---------- */
 const EDMP=[
-  ['edm1','EDM01','Zapewnienie ustanowienia i utrzymania struktury ramowej Ładu','Ensure Governance Framework Setting and Maintenance','są reguły: kto i jak decyduje o IT','zarząd ustala, że o wydatkach IT powyżej 100 tys. decyduje komitet IT','komitet IT decyduje o wydatkach'],
-  ['edm2','EDM02','Zapewnienie realizacji korzyści','Ensure Benefits Delivery','korzyści: co zyskamy','program „Stabilny sklep” ma odzyskać sprzedaż traconą na przestojach','odzyskać sprzedaż traconą na przestojach'],
-  ['edm3','EDM03','Zapewnienie optymalizacji ryzyka','Ensure Risk Optimisation','ryzyko: ile go akceptujemy','zarząd ustala: w Black Friday najwyżej 1 godzina przestoju','max 1 h przestoju w Black Friday'],
-  ['edm4','EDM04','Zapewnienie optymalizacji zasobów','Ensure Resource Optimisation','zasoby: pieniądze i ludzie','zarząd daje programowi budżet i 2 etaty w helpdesku','budżet i 2 etaty dla helpdesku'],
-  ['edm5','EDM05','Zapewnienie przejrzystości dotyczącej interesariuszy','Ensure Stakeholder Transparency','raportowanie interesariuszom','kwartalny raport dla właścicieli: dostępność sklepu i koszty IT','kwartalny raport dla właścicieli']
+  ['edm1','EDM01','Zapewnienie ustanowienia i utrzymania struktury ramowej Ładu','Ensure Governance Framework Setting and Maintenance','są reguły: kto i jak decyduje o IT','Komendant Główny decyzją ustala, kto i jak decyduje o systemach teleinformatycznych PSP: zespół sterujący ds. cyfryzacji, progi decyzji i raportowanie do kierownictwa','zasady decydowania o IT w PSP'],
+  ['edm2','EDM02','Zapewnienie realizacji korzyści','Ensure Benefits Delivery','korzyści: co zyskamy','Komendant wymaga od programu „SWD 24/7” dowodu korzyści: dostępność SWD PSP co najmniej 97% i krótszy czas przywrócenia','korzyści programu „SWD 24/7”'],
+  ['edm3','EDM03','Zapewnienie optymalizacji ryzyka','Ensure Risk Optimisation','ryzyko: ile go akceptujemy','Komendant ustala apetyt na ryzyko: przerwa SWD na stanowisku kierowania dłuższa niż 1 godzina jest nieakceptowalna','max 1 h przerwy SWD na SK'],
+  ['edm4','EDM04','Zapewnienie optymalizacji zasobów','Ensure Resource Optimisation','zasoby: pieniądze i ludzie','Komendant przydziela programowi środki z ustawy modernizacyjnej i obsadę punktu zgłoszeń 24/7','środki i obsada 24/7'],
+  ['edm5','EDM05','Zapewnienie przejrzystości dotyczącej interesariuszy','Ensure Stakeholder Transparency','raportowanie interesariuszom','sprawozdanie z planu działalności (miernik dostępności SWD PSP) i oświadczenie o stanie kontroli zarządczej','sprawozdanie i oświadczenie']
 ];
 const DOM=[
   ['dapo','APO','P','Dostosuj, Planuj i Organizuj','Dopasowanie, planowanie i organizacja','Align, Plan and Organise','Planuj','Planowanie','Plan',[
-    ['APO01','Zarządzanie metodyką zarządzania IT','Manage the IT Management Framework','spisane role i zasady działu IT'],
-    ['APO02','Zarządzanie strategią','Manage Strategy','plan IT na 2 lata: aplikacja mobilna'],
-    ['APO03','Zarządzanie architekturą korporacyjną','Manage Enterprise Architecture','mapa: sklep, magazyn, płatności i jak się łączą'],
-    ['APO04','Zarządzanie innowacjami','Manage Innovation','test nowych płatności i rekomendacji'],
-    ['APO05','Zarządzanie portfelem projektów','Manage Portfolio','wybór: system zgłoszeń przed nowym wyglądem strony'],
-    ['APO06','Zarządzanie budżetem i kosztami','Manage Budget and Costs','budżet IT na rok, koszt programu'],
-    ['APO07','Zarządzanie zasobami ludzkimi','Manage Human Resources','rekrutacja i szkolenie techników'],
-    ['APO08','Zarządzanie relacjami','Manage Relationships','kierownik IT co tydzień rozmawia z działem sprzedaży'],
-    ['APO09','Zarządzanie umowami o świadczenie usług','Manage Service Agreements','umowa SLA: awaria krytyczna naprawiona w 2 godziny'],
-    ['APO10','Zarządzanie dostawcami','Manage Suppliers','umowa z firmą hostingową'],
-    ['APO11','Zarządzanie jakością','Manage Quality','kontrola jakości obsługi zgłoszeń'],
-    ['APO12','Zarządzanie ryzykiem','Manage Risk','rejestr ryzyk: przestój w Black Friday'],
-    ['APO13','Zarządzanie bezpieczeństwem','Manage Security','polityka bezpieczeństwa informacji']],
-   'kierownik IT układa plan i budżet (APO06)',
+    ['APO01','Zarządzanie metodyką zarządzania IT','Manage the IT Management Framework','regulamin wewnętrzny BIŁ: role, procesy, RACI'],
+    ['APO02','Zarządzanie strategią','Manage Strategy','plan rozwoju systemów PSP zatwierdzany przez Komendanta'],
+    ['APO03','Zarządzanie architekturą korporacyjną','Manage Enterprise Architecture','mapa: SWD PSP, CPR 112, ośrodki danych, sieć, łączność'],
+    ['APO04','Zarządzanie innowacjami','Manage Innovation','pilotaż automatycznego wykrywania niedostępności SWD'],
+    ['APO05','Zarządzanie portfelem projektów','Manage Portfolio','priorytet: „SWD 24/7” przed nowymi funkcjami SWD'],
+    ['APO06','Zarządzanie budżetem i kosztami','Manage Budget and Costs','koszty programu w budżecie i ustawie modernizacyjnej'],
+    ['APO07','Zarządzanie zasobami ludzkimi','Manage Human Resources','obsada punktu zgłoszeń 24/7, zastępstwa, szkolenia'],
+    ['APO08','Zarządzanie relacjami','Manage Relationships','stałe spotkania BIŁ z KCKR i koordynatorami KW'],
+    ['APO09','Zarządzanie umowami o świadczenie usług','Manage Service Agreements','umowa o poziomie usług SWD: 97%, priorytety P1–P3'],
+    ['APO10','Zarządzanie dostawcami','Manage Suppliers','umowa z wykonawcą utrzymania SWD: czasy reakcji, kary'],
+    ['APO11','Zarządzanie jakością','Manage Quality','przegląd próbki zgłoszeń i ankieta dyżurnych'],
+    ['APO12','Zarządzanie ryzykiem','Manage Risk','rejestr ryzyk SWD w kontroli zarządczej'],
+    ['APO13','Zarządzanie bezpieczeństwem','Manage Security','SZBI według KRI uzupełniony o wymagania KSC']],
+   'BIŁ z Biurem Finansów planuje program i jego koszty (APO06)',
    ['APO12 Zarządzanie ryzykiem to codzienna praca kierowników. EDM03 to zarząd, który ustala, ile ryzyka akceptujemy.','APO13 Zarządzanie bezpieczeństwem to system i polityka. DSS05 to codzienne zabezpieczenia (antywirus, uprawnienia).','APO07 to ludzie, BAI09 to aktywa (sprzęt, licencje), EDM04 to zasoby ogólnie, pilnowane przez zarząd.']],
   ['dbai','BAI','B','Twórz, Nabywaj i Wdrażaj','Budowanie, nabywanie i wdrażanie','Build, Acquire and Implement','Twórz','Budowanie','Build',[
-    ['BAI01','Zarządzanie programami i projektami','Manage Programmes and Projects','prowadzenie programu „Stabilny sklep”'],
-    ['BAI02','Zarządzanie definiowaniem wymagań','Manage Requirements Definition','czego helpdesk chce od systemu zgłoszeń'],
-    ['BAI03','Zarządzanie identyfikacją i budowaniem rozwiązań','Manage Solutions Identification and Build','wybór i konfiguracja systemu zgłoszeń'],
-    ['BAI04','Zarządzanie dostępnością i pojemnością','Manage Availability and Capacity','serwery wytrzymają ruch w Black Friday'],
-    ['BAI05','Zarządzanie wdrażaniem zmian organizacyjnych','Manage Organisational Change Enablement','szkolenia, przekonanie ludzi do nowej procedury'],
-    ['BAI06','Zarządzanie zmianami','Manage Changes','każda zmiana na serwerze przez zatwierdzenie'],
-    ['BAI07','Zarządzanie procesem akceptacji zmian i przejścia','Manage Change Acceptance and Transitioning','testy i odbiór systemu przed startem'],
-    ['BAI08','Zarządzanie wiedzą','Manage Knowledge','baza „jak naprawić typowe awarie”'],
-    ['BAI09','Zarządzanie zasobami','Manage Assets','ewidencja serwerów i licencji (aktywa)'],
-    ['BAI10','Zarządzanie konfiguracją','Manage Configuration','co od czego zależy w systemach']],
-   'zespół kupuje i wdraża system zgłoszeń (BAI03)',
+    ['BAI01','Zarządzanie programami i projektami','Manage Programmes and Projects','program „SWD 24/7”: karta, harmonogram M1–M12'],
+    ['BAI02','Zarządzanie definiowaniem wymagań','Manage Requirements Definition','wymagania dyżurnych, KCKR, KW, Sekcji Cyberbezpieczeństwa i IOD'],
+    ['BAI03','Zarządzanie identyfikacją i budowaniem rozwiązań','Manage Solutions Identification and Build','wybór i konfiguracja narzędzia zgłoszeń SWD'],
+    ['BAI04','Zarządzanie dostępnością i pojemnością','Manage Availability and Capacity','SWD wytrzyma szczyt zgłoszeń przy nawałnicach'],
+    ['BAI05','Zarządzanie wdrażaniem zmian organizacyjnych','Manage Organisational Change Enablement','przekonanie dyżurnych i administratorów KW do nowej procedury'],
+    ['BAI06','Zarządzanie zmianami','Manage Changes','aktualizacja SWD tylko przez rejestr zmian i okno serwisowe'],
+    ['BAI07','Zarządzanie procesem akceptacji zmian i przejścia','Manage Change Acceptance and Transitioning','testy akceptacyjne nowej wersji SWD z dyżurnymi'],
+    ['BAI08','Zarządzanie wiedzą','Manage Knowledge','baza wiedzy: obejścia dla stanowisk kierowania'],
+    ['BAI09','Zarządzanie zasobami','Manage Assets','ewidencja stacji SK, serwerów i licencji SWD (aktywa)'],
+    ['BAI10','Zarządzanie konfiguracją','Manage Configuration','zależności SWD – serwery – sieć – łącze do CPR']],
+   'zespół programu wdraża narzędzie zgłoszeń SWD (BAI03)',
    ['BAI05 to zmiana organizacyjna, czyli ludzie. BAI06 to zmiany techniczne w systemach.','BAI09 „Zarządzanie zasobami” to aktywa (Manage Assets), nie ludzie.','BAI01 prowadzi programy i projekty; wybór, w które inwestować, to APO05.']],
   ['ddss','DSS','R','Dostarczaj, Obsługuj i Wspieraj','Dostarczanie, obsługa i wsparcie','Deliver, Service and Support','Wykonuj','Uruchamianie','Run',[
-    ['DSS01','Zarządzanie eksploatacją','Manage Operations','kopie zapasowe, codzienne zadania serwerowni'],
-    ['DSS02','Zarządzanie zgłoszeniami serwisowymi i incydentami','Manage Service Requests and Incidents','helpdesk naprawia awarię koszyka'],
-    ['DSS03','Zarządzanie problemami','Manage Problems','dlaczego koszyk pada w każdy piątek'],
-    ['DSS04','Zarządzanie ciągłością','Manage Continuity','plan awaryjny, zapasowe centrum danych'],
-    ['DSS05','Zarządzanie usługami bezpieczeństwa','Manage Security Services','antywirus, hasła, uprawnienia'],
-    ['DSS06','Zarządzanie mechanizmami kontrolnymi procesów biznesowych','Manage Business Process Controls','kontrola zwrotów i płatności w systemie']],
-   'helpdesk naprawia awarie (DSS02)',
+    ['DSS01','Zarządzanie eksploatacją','Manage Operations','kopie zapasowe i monitoring SWD 24/7'],
+    ['DSS02','Zarządzanie zgłoszeniami serwisowymi i incydentami','Manage Service Requests and Incidents','punkt zgłoszeń przywraca SWD na stanowisku kierowania'],
+    ['DSS03','Zarządzanie problemami','Manage Problems','przyczyna powtarzających się przerw łącza do CPR'],
+    ['DSS04','Zarządzanie ciągłością','Manage Continuity','tryb awaryjny SK i ośrodek zapasowy SWD'],
+    ['DSS05','Zarządzanie usługami bezpieczeństwa','Manage Security Services','uprawnienia do SWD w zakresie niezbędnym, ochrona kont'],
+    ['DSS06','Zarządzanie mechanizmami kontrolnymi procesów biznesowych','Manage Business Process Controls','kontrola znaczników czasu w karcie zdarzenia']],
+   'punkt zgłoszeń przywraca SWD na stanowiskach kierowania (DSS02)',
    ['DSS02 incydent: przywróć działanie teraz. DSS03 problem: znajdź przyczynę, żeby się nie powtarzało.','DSS04 dotyczy ciągłości działalności przy zakłóceniach, nie tylko katastrofach. BAI04 zarządza dostępnością i pojemnością, także bieżącą i przyszłą.']],
   ['dmea','MEA','M','Monitoruj, Oszacuj i Oceń','Monitorowanie, ocena i oszacowanie','Monitor, Evaluate and Assess','Monitoruj','Monitorowanie','Monitor',[
-    ['MEA01','Monitorowanie, ocena i oszacowanie wydajności i zgodności','Monitor, Evaluate and Assess Performance and Conformance','miesięczny raport: czas naprawy, dostępność sklepu'],
-    ['MEA02','Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej','Monitor, Evaluate and Assess the System of Internal Control','przegląd, czy kontrole naprawdę działają'],
-    ['MEA03','Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi','Monitor, Evaluate and Assess Compliance With External Requirements','zgodność z RODO']],
-   'kierownik co miesiąc raportuje wyniki zarządowi (MEA01)',
+    ['MEA01','Monitorowanie, ocena i oszacowanie wydajności i zgodności','Monitor, Evaluate and Assess Performance and Conformance','kwartalny raport dostępności SWD dla kierownictwa'],
+    ['MEA02','Monitorowanie, ocena i oszacowanie systemu kontroli wewnętrznej','Monitor, Evaluate and Assess the System of Internal Control','kontrola zarządcza i zadanie zapewniające audytu'],
+    ['MEA03','Monitorowanie, ocena i oszacowanie zgodności z wymogami zewnętrznymi','Monitor, Evaluate and Assess Compliance With External Requirements','zgodność z KSC (do 3.04.2027), KRI i RODO']],
+   'BIŁ co kwartał raportuje kierownictwu dostępność SWD (MEA01)',
    ['Dwa różne „Monitoruj”: M w EDM to zarząd, który sprawdza, czy jego kierunek został wykonany. MEA to kierownicy, którzy mierzą działanie IT i raportują w górę.']]
 ];
 const EDM_Y=[310,452,573,694,815], DOM_Y=[980,1083,1204,1307];
 /* ---------- skala ocen N/C/W/P (Rysunek 19, FW-PL s. 42) i wymiary aktywatora (Rysunek 13, FW-PL s. 28) ---------- */
 const SKALA=[
-  ['sN','N','nie osiągnięto','Not achieved','0–15%','brak lub znikome dowody osiągania ocenianego atrybutu; nie przesądza o tym samo istnienie procedury'],
-  ['sC','C','częściowy','Partially achieved','>15–50%','Przykład: istnieją dowody częściowego osiągania ocenianego atrybutu, ale podejście bywa nieprzewidywalne. Sam odsetek techników nie wyznacza oceny.'],
-  ['sW','W','większościowy','Largely achieved','>50–85%','Przykład: dowody wskazują systematyczne i znaczne osiąganie atrybutu, lecz pozostają pewne słabości. Nie wylicza się ratingu wyłącznie z liczby pracowników.'],
-  ['sP','P','pełny','Fully achieved','>85–100%','kompletne i systematyczne osiąganie atrybutu, bez istotnych słabości; P nie oznacza obowiązkowo 100%']
+  ['sN','N','nie osiągnięto','Not achieved','0–15%','np. PA 4.1: w KG PSP nikt nie mierzy czasu przywrócenia SWD, więc brak dowodów – N; samo istnienie procedury nie przesądza o ocenie'],
+  ['sC','C','częściowy','Partially achieved','>15–50%','np. PA 2.1 przed programem: grafik dyżurów administratorów BIŁ jest, ale obsługi awarii SWD nikt nie planuje ani nie monitoruje – C. O ocenie decydują dowody, nie liczba osób'],
+  ['sW','W','większościowy','Largely achieved','>50–85%','np. PA 3.2 po wdrożeniu: standardową procedurę stosują KG i 16 KW, ale część KM/KP nadal zgłasza awarie telefonicznie – W. Nie wylicza się ratingu z liczby jednostek'],
+  ['sP','P','pełny','Fully achieved','>85–100%','np. PA 1.1: awarie SWD są ostatecznie usuwane i usługa wraca na stanowiska kierowania – P; P nie oznacza obowiązkowo 100%']
 ];
 const WYM=[
   ['wym0','Wymiary każdego aktywatora','enabler dimensions','4 wymiary + zarządzanie sprawnością (Rysunek 13)'],
-  ['wym1','1. Interesariusze','Stakeholders','wewnętrzni i zewnętrzni · pytanie: czy uwzględniono potrzeby interesariuszy? · np. helpdesk, klienci, zarząd'],
+  ['wym1','1. Interesariusze','Stakeholders','wewnętrzni i zewnętrzni · pytanie: czy uwzględniono potrzeby interesariuszy? · np. dyżurni SK, KCKR, BIŁ, MSWiA, obywatele'],
   ['wym2','2. Cele','Goals','jakość wewnętrzna (podr.: rzeczywista), jakość kontekstowa (istotność, skuteczność), dostępność i bezpieczeństwo · pytanie: czy osiągnięto cele aktywatora?'],
   ['wym3','3. Cykl życia','Life Cycle','planowanie, projektowanie, budowanie / nabywanie / tworzenie / wdrażanie, użytkowanie / eksploatacja, ocena / monitorowanie, aktualizacja / pozbywanie się · pytanie: czy zadbano o zarządzanie cyklem życia?'],
   ['wym4','4. Dobre praktyki','Good Practices','praktyki, produkty działań (dane wejściowe / wyniki) · pytanie: czy stosowane są dobre praktyki?'],
-  ['mier1','Wskaźniki opóźnione','lag indicators','podręcznik: mierniki realizacji celów, wskaźniki następujące · mierzą wymiary 1–2: czy cel osiągnięto · np. sklep dostępny 99,9% czasu'],
-  ['mier2','Wskaźniki wiodące','lead indicators','podręcznik: mierniki stosowania praktyk, wskaźniki wyprzedzające · mierzą wymiary 3–4: czy dobrze pracujemy · np. % awarii zarejestrowanych w systemie']
+  ['mier1','Wskaźniki opóźnione','lag indicators','podręcznik: mierniki realizacji celów, wskaźniki następujące · mierzą wymiary 1–2: czy cel osiągnięto · np. dostępność SWD PSP co najmniej 97% (miernik planu działalności 2026)'],
+  ['mier2','Wskaźniki wiodące','lead indicators','podręcznik: mierniki stosowania praktyk, wskaźniki wyprzedzające · mierzą wymiary 3–4: czy dobrze pracujemy · np. % awarii SWD zarejestrowanych w jednym rejestrze, % przeszkolonych dyżurnych']
 ];
 const SK_HB={N:'N (nie osiągnięto)',C:'P (częściowo osiągnięto)',W:'L (w znacznym stopniu osiągnięto)',P:'F (w pełni osiągnięto)'};
 const SK_Y=[690,840,990,1140], WYM_Y=[310,433,575,736,916,1070,1212];
 /* ---------- model zdolności procesu: poziomy 0–5 i atrybuty (Rysunek 19, FW-PL s. 42) ---------- */
 const LV=[
-  ['lv0','Poziom 0 · niekompletny','Incomplete process','brak atrybutu','awarie często w ogóle nie są naprawiane'],
-  ['lv1','Poziom 1 · wykonywany','Performed process','PA 1.1 Wykonanie procesu (podr.: Sprawność procesu)','proces napraw osiąga swoje przeznaczenie; do poziomu 2 potrzebne są dodatkowe dowody'],
-  ['lv2','Poziom 2 · zarządzany','Managed process','PA 2.1 Zarządzanie wydajnością (podr.: sprawnością) · PA 2.2 Zarządzanie produktami pracy (podr.: produktami działań)','Przykład: wykonanie DSS02 jest planowane, monitorowane i dostosowywane, a produkty pracy odpowiednio określane, kontrolowane i utrzymywane. Sam grafik dyżurów nie dowodzi całego poziomu 2.'],
-  ['lv3','Poziom 3 · ustanowiony','Established process','PA 3.1 Definicja procesu · PA 3.2 Wdrożenie procesu','zdefiniowany standard procesu jest wdrożony; dopuszcza uzasadnione dostosowanie do kontekstu'],
-  ['lv4','Poziom 4 · przewidywalny','Predictable process','PA 4.1 Miara procesu (podr.: Pomiar procesu) · PA 4.2 Kontrola procesu','czas naprawy mierzony i trzymany w granicach'],
-  ['lv5','Poziom 5 · zoptymalizowany (podr.: optymalizujący)','Optimising process','PA 5.1 Innowacja procesu (podr.: Innowacje procesowe) · PA 5.2 Optymalizacja procesu','na podstawie pomiarów stale ulepszają proces']
+  ['lv0','Poziom 0 · niekompletny','Incomplete process','brak atrybutu','część przerw SWD nie jest usuwana albo usługa nie wraca na stanowiska kierowania'],
+  ['lv1','Poziom 1 · wykonywany','Performed process','PA 1.1 Wykonanie procesu (podr.: Sprawność procesu)','awarie SWD są ostatecznie usuwane (PA 1.1 = P), ale każdy po swojemu; do poziomu 2 potrzebne są dodatkowe dowody'],
+  ['lv2','Poziom 2 · zarządzany','Managed process','PA 2.1 Zarządzanie wydajnością (podr.: sprawnością) · PA 2.2 Zarządzanie produktami pracy (podr.: produktami działań)','Przykład: obsługa awarii SWD jest planowana, monitorowana i dostosowywana (dyżury, czasy, odpowiedzialności), a zgłoszenia i raporty są określane, kontrolowane i utrzymywane. Sam grafik dyżurów nie dowodzi całego poziomu 2.'],
+  ['lv3','Poziom 3 · ustanowiony','Established process','PA 3.1 Definicja procesu · PA 3.2 Wdrożenie procesu','jeden standardowy proces obsługi incydentów SWD dla KG, 16 KW i KM/KP jest faktycznie stosowany; KW mogą go w uzasadnionym zakresie dostosować'],
+  ['lv4','Poziom 4 · przewidywalny','Predictable process','PA 4.1 Miara procesu (podr.: Pomiar procesu) · PA 4.2 Kontrola procesu','czas przywrócenia SWD mierzony i utrzymywany w ustalonych granicach'],
+  ['lv5','Poziom 5 · zoptymalizowany (podr.: optymalizujący)','Optimising process','PA 5.1 Innowacja procesu (podr.: Innowacje procesowe) · PA 5.2 Optymalizacja procesu','na podstawie pomiarów BIŁ stale ulepsza proces, np. automatyczne wykrywanie przerw z monitoringu']
 ];
 const WSK=[
   ['ws1','Wskaźniki wydajności (poziom 1)','process performance indicators','wyniki procesu, podstawowe praktyki (praktyki nadzoru / zarządzania), produkty działań (dane wejściowe / wyniki)'],
@@ -539,9 +543,15 @@ function examFilter(items,pk,suf){
   return out;
 }
 const TLO={}, TLOM={};
-/* opis „Po ludzku” dla kafelka zbiorczego: złożony z opisów jego członków (window.OPISY, plik drugiej sesji) */
+/* ramka „Przykładowy proces”: jeden przykład KG PSP (scenariusz „SWD 24/7”) w każdym kafelku (window.PRZYKLAD_KG) */
+function tloKG(id){ const m=TLOM[id], K=window.PRZYKLAD_KG||{}; if(!m) return null; const ks=m.map(x=>K[x]).filter(Boolean); if(!ks.length) return null;
+  return {co:ks.slice(0,4).map(k=>(k.co.match(/^.*?[.!?](\s|$)/)||[k.co])[0].trim()).join(' · ')}; }
+function kgHTML(K){ if(!K||!K.co) return '';
+  return '<div class="pol-box kg-box"><b>Przykładowy proces · KG PSP <span class="kg-tag">scenariusz szkoleniowy</span></b><p>'+esc(K.co)+'</p>'+
+    (K.we?'<p class="kg-flow"><span>← Wcześniej:</span> '+esc(K.we)+'</p>':'')+(K.wy?'<p class="kg-flow"><span>→ Dalej:</span> '+esc(K.wy)+'</p>':'')+'</div>'; }
+/* kafelek zbiorczy: słowa kluczowe i pułapki z opisów członków (window.OPISY) */
 function tloOP(id){ const m=TLOM[id], O=window.OPISY||{}; if(!m) return null; const ops=m.map(x=>O[x]).filter(Boolean); if(!ops.length) return null;
-  return {zycie:ops.map(o=>o.zycie).filter(Boolean).slice(0,6).join(' · '),pulapka:ops.map(o=>o.pulapka).filter(Boolean).slice(0,4).join(' · '),kw:[...new Set(ops.flatMap(o=>o.kw||[]))]}; }
+  return {pulapka:ops.map(o=>o.pulapka).filter(Boolean).slice(0,4).join(' · '),kw:[...new Set(ops.flatMap(o=>o.kw||[]))]}; }
 /* ---------- warstwa szczegółów pod pętlą: treść ilustracji jako kafelki (każdy element osobno) ---------- */
 const DY=1900, FT=300, FTH=118, FSTEP=130, FHEAD=96;
 const GOALS_E=[
@@ -594,12 +604,12 @@ function figGroup(id,x,y,cols,title,sub,g,items){
     data:{g:it.g||g,title:it.title,sub:it.sub,mini:1,fix:1}}));
   return {w,h:hgt};
 }
-const gE=GOALS_E.map((r,i)=>({id:'ce'+(i+1),title:(i+1)+'. '+r[0],sub:r[2]+(i===6?' · ★ przykład sklepu':''),g:i===6?'amber':'green'}));
-const gI=GOALS_I.map((r,i)=>({id:'ci'+(i+1),title:String(i+1).padStart(2,'0')+' '+r[0],sub:r[2]+(i===6?' · ★ przykład sklepu':''),g:i===6?'amber':'green'}));
+const gE=GOALS_E.map((r,i)=>({id:'ce'+(i+1),title:(i+1)+'. '+r[0],sub:r[2]+(i===6?' · ★ przykład KG PSP':''),g:i===6?'amber':'green'}));
+const gI=GOALS_I.map((r,i)=>({id:'ci'+(i+1),title:String(i+1).padStart(2,'0')+' '+r[0],sub:r[2]+(i===6?' · ★ przykład KG PSP':''),g:i===6?'amber':'green'}));
 figGroup('gce',X.c3-22,DY,2,'Rysunek 5: 17 celów organizacji','szczegóły kafelka „Cele organizacji” (faza 2) · 4 perspektywy BSC: Finanse 1–5, Klient 6–10, Obszar wewnętrzny 11–15, Szkolenie i rozwój 16–17','green',gE);
 figGroup('gci',X.c7-22,DY,2,'Rysunek 6: 17 celów związanych z IT','szczegóły kafelka „Cele związane z IT” (faza 2) · IT BSC: Finanse 01–06, Klient 07–08, Obszar wewnętrzny 09–15, Szkolenie i rozwój 16–17','green',gI);
 DOM.forEach((d,k)=>figGroup('gp'+d[1].toLowerCase(),X.c6-22+k*(FT+60),DY,1,d[1]+': '+d[3]+' ('+d[9].length+')','Rysunek 16 · procesy domeny z kafelka „'+d[2]+' · '+d[1]+'” (faza 5) · PBRM: '+d[2],'teal',
-  d[9].map(p=>({id:'p'+p[0].toLowerCase(),title:p[0]+' '+p[1],sub:'np. '+p[3]+(p[0]==='DSS02'?' · ★ przykład sklepu':''),g:p[0]==='DSS02'?'amber':'teal'}))));
+  d[9].map(p=>({id:'p'+p[0].toLowerCase(),title:p[0]+' '+p[1],sub:'np. '+p[3]+(p[0]==='DSS02'?' · ★ przykład KG PSP':''),g:p[0]==='DSS02'?'amber':'teal'}))));
 /* ---------- ilustracje 1:1 jako kafelki: każdy element rysunku osobno, strzałki jak na oryginale ---------- */
 const FIG2=[], FIG2E=[], FIG2INFO={};
 const CW=320; const cx=i=>20+i*CW;
@@ -1267,102 +1277,104 @@ function cyklHTML(){
     '<p class="note2">Nazwy działań: polski arkusz egzaminacyjny i tłumaczenie kursu z oryginału EN (lekcja 3.19). Pierścień rozpoznasz po tym, czego dotyczy działanie: planu i korzyści (program), ludzi (zmiana) czy wszystkich aktywatorów (doskonalenie).</p>'+
     '<h3>Co dzieje się w każdej fazie</h3>'+opis;
 }
-/* ---------- tryb przykładu: jeden sklep przepuszczony przez cały COBIT 5 (przykład autorski) ---------- */
-const EX_NAME='sklep internetowy „Koszyk”';
+/* ---------- tryb przykładu: KG PSP przepuszczona przez cały COBIT 5 (scenariusz szkoleniowy „SWD 24/7”) ----------
+   Prawdziwe: struktura KG PSP (regulamin z 12.09.2024), przepisy, mierniki planu działalności Komendanta Głównego na 2026 r.
+   Fikcyjne: program „SWD 24/7”, awarie, liczby, harmonogram M1–M12 i wyniki ocen. Spójne z ramkami „Przykładowy proces” (przyklad-kg-psp.js). */
+const EX_NAME='KG PSP: program „SWD 24/7” (scenariusz szkoleniowy)';
 const EX={
-  kont:{co:'„Koszyk” to sklep internetowy: 80 osób, 70% sprzedaży przez stronę. Na zewnątrz: silna konkurencja, RODO, szczyt sprzedaży w Black Friday i przed świętami. W środku: mały dział IT, każdy technik robi po swojemu.',
-    cobit:'Kontekst organizacji (enterprise context): czynniki wewnętrzne i zewnętrzne. Od nich zależy, jak wdrażać COBIT w tej konkretnej firmie (FW-PL s. 35).',
-    wynik:'Wiemy, z jaką firmą mamy do czynienia.'},
-  pz:{co:'W Black Friday sklep nie działał przez 6 godzin. Awarie naprawia się „na wyczucie”, klienci piszą skargi, a dział IT gasi pożary.',
+  kont:{co:'KG PSP to centralny organ administracji rządowej podległy MSWiA: 13 komórek, w tym Biuro Informatyki i Łączności (administruje SWD PSP) i Krajowe Centrum Koordynacji Ratownictwa (koordynuje KSRG). SWD PSP to podstawowe narzędzie stanowisk kierowania w 16 KW i ponad 300 KM/KP, połączone z centrami powiadamiania ratunkowego 112. Na zewnątrz: znowelizowana KSC, KRI, RODO, nadzór MSWiA, kontrole NIK. W środku: mierniki planu działalności (dostępność SWD 97%, dojazd poniżej 15 minut w co najmniej 90% interwencji) i kultura analizy działań.',
+    cobit:'Kontekst organizacji (enterprise context): czynniki wewnętrzne i zewnętrzne. Od nich zależy, jak wdrażać COBIT w tej konkretnej organizacji (FW-PL s. 35).',
+    wynik:'Wiemy, w jakiej organizacji wdrażamy COBIT i od czego zależy jej misja.'},
+  pz:{co:'Scenariusz: w jednym kwartale dostępność SWD spada do 96,4% przy mierniku 97%. Dyżurni zgłaszają awarie telefonem, mailem i komunikatorem, bez jednego rejestru. Wykonawca utrzymania dostaje to samo zgłoszenie od kilku osób, a przywrócenie trwa średnio ok. 5 godzin. Po przerwie dyżurni przepisują dane z papierowych kart do SWD, co psuje dane do miernika dojazdu poniżej 15 minut.',
     cobit:'Punkty zapalne (pain points): dostrzegane problemy wskazujące potrzebę poprawy. Nie muszą trwać od dawna; poważny incydent także może być punktem zapalnym.',
-    wynik:'Lista bólu: przestoje, chaos przy awariach, skargi klientów.'},
-  zi:{co:'Po fuzji przychodzi nowy prezes, a za pół roku firmę czeka zewnętrzny audyt.',
+    wynik:'Lista problemów: przerwy SWD, chaos w zgłoszeniach, luki w danych.'},
+  zi:{co:'Nowelizacja KSC obowiązuje od 3.04.2026: podmioty mają 12 miesięcy (do 3.04.2027) na dostosowanie, w tym obsługę incydentów i zgłaszanie ich do właściwego CSIRT. Ustawa modernizacyjna na lata 2026–2029 daje środki na ośrodki przetwarzania danych, cyberbezpieczeństwo i stanowisko kierowania KG PSP.',
     cobit:'Zdarzenia wyzwalające (trigger events; podręcznik: inicjujące): zmiana, która daje powód, żeby działać teraz.',
-    wynik:'Powód, żeby zacząć właśnie teraz.'},
-  decyz:{co:'Szef IT pokazuje prezesowi, ile sprzedaży stracono w Black Friday. Prezes zostaje sponsorem, daje budżet i wyznacza kierownika programu.',
-    cobit:'Stworzenie właściwego środowiska (creating the appropriate environment): poparcie zarządu, uzasadnienie i zasoby, zanim cokolwiek ruszy. Brak takiego wsparcia zwiększa ryzyko niepowodzenia i nietrwałości zmiany.',
-    wynik:'Zielone światło od zarządu.'},
-  f1:{co:'Powstaje program „Stabilny sklep”. Prezes tłumaczy ludziom, po co ta zmiana. Zespół zapisuje, co trzeba naprawić.',
+    wynik:'Powód, żeby zacząć właśnie teraz: termin KSC i środki modernizacyjne.'},
+  decyz:{co:'Dyrektor BIŁ i dyrektor KCKR pokazują na naradzie kierownictwa, jak przerwy SWD opóźniają dysponowanie i ile zostało do terminu KSC. Komendant Główny ustanawia decyzją program „SWD 24/7”, wyznacza sponsora (zastępcę nadzorującego BIŁ), powołuje komitet sterujący i zatwierdza budżet.',
+    cobit:'Stworzenie właściwego środowiska (creating the appropriate environment): poparcie kierownictwa, uzasadnienie i zasoby, zanim cokolwiek ruszy. Brak takiego wsparcia zwiększa ryzyko niepowodzenia i nietrwałości zmiany.',
+    wynik:'Zielone światło od Komendanta Głównego.'},
+  f1:{co:'M1: start programu „SWD 24/7”. Komendant Główny na odprawie kadry kierowniczej wyjaśnia, po co ta zmiana: SWD ma działać 24/7, a KG PSP ma zdążyć przed terminem KSC. Zespół spisuje punkty zapalne i zdarzenia wyzwalające.',
     cobit:'Faza 1: Jakie są wyznaczniki? Wyznaczniki = punkty zapalne + zdarzenia wyzwalające. Trzy kręgi: Inicjowanie programu (program) · Określenie chęci dokonania zmiany (zmiana) · Zidentyfikowanie potrzeby działania (doskonalenie).',
-    wynik:'Program wystartował, ludzie wiedzą po co.'},
-  potrz:{co:'Pytamy, kto czego chce. Klienci chcą kupować bez przerw. Zarząd nie chce tracić sprzedaży. Audytor chce widzieć porządek.',
+    wynik:'Program wystartował, kadra wie, po co.'},
+  potrz:{co:'Pytamy interesariuszy, czego potrzebują. Dyżurni SK i KCKR: SWD ma działać zawsze, a awaria ma być szybko usunięta. Obywatel: pomoc ma dotrzeć szybko także wtedy, gdy system zawiedzie. MSWiA: spełnione mierniki planu działalności i wymagania KSC. Audytor wewnętrzny: rzetelne dowody kontroli zarządczej.',
     cobit:'Potrzeby interesariuszy (stakeholder needs): początek kaskady celów, Zasada 1.',
     wynik:'Spisane potrzeby interesariuszy.'},
-  wart:{co:'Najważniejsze jest ryzyko: każda godzina przestoju to utracona sprzedaż. Liczą się też korzyści (sprzedaż) i zasoby (nie przepalać budżetu).',
+  wart:{co:'Dla Komendanta Głównego wartość to przede wszystkim optymalizacja ryzyka: każda przerwa SWD na stanowisku kierowania opóźnia dysponowanie. Liczą się też korzyści (dojazd poniżej 15 minut w co najmniej 90% interwencji) i zasoby (środki modernizacyjne, ograniczona kadra BIŁ).',
     cobit:'Cel Ładu: tworzenie wartości (Rysunek 3) = realizacja korzyści + optymalizacja ryzyka + optymalizacja zasobów. Potrzeby interesariuszy są jego wyznacznikiem.',
-    wynik:'Wiemy, o jaką wartość chodzi: głównie mniejsze ryzyko przestojów.'},
-  corg:{co:'Z 17 celów organizacji wybieramy ten, który pasuje do „klienci kupują bez przerw”.',
+    wynik:'Wiemy, o jaką wartość chodzi: głównie mniejsze ryzyko przerw SWD.'},
+  corg:{co:'Z 17 celów organizacji wybieramy ten, który oddaje „dysponowanie przez SWD działa 24/7”. Pomocniczo: cel 4 (zgodność z przepisami, KSC) i cel 9 (decyzje na podstawie informacji: dane SWD do analiz KCKR).',
     cobit:'Cel organizacji 7: „Ciągłość i dostępność usług biznesowych” (perspektywa Klient, Rysunek 5). W tabeli jest powiązany z optymalizacją ryzyka.',
     wynik:'Cel organizacji nr 7.'},
-  cit:{co:'Pytamy: co musi zrobić IT, żeby sklep był dostępny?',
+  cit:{co:'Pytamy: co musi zapewnić BIŁ, żeby stanowiska kierowania miały SWD wtedy, gdy go potrzebują? Usługę zgodną z wymogami KCKR: dostępność co najmniej 97% i szybkie przywracanie po awarii.',
     cobit:'Mapowanie celów organizacji na cele IT (Rysunek 22, dodatek B) prowadzi m.in. do celu IT 07: „Dostarczanie usług IT zgodnie z wymogami biznesowymi” (perspektywa Klient, Rysunek 6).',
     wynik:'Cel IT 07.'},
-  cakt:{co:'Pytamy: które procesy (i inne aktywatory) muszą działać, żeby IT osiągnęło ten cel?',
+  cakt:{co:'Pytamy: które procesy i inne aktywatory muszą działać, żeby BIŁ osiągnęło cel IT 07? Najpilniejsza jest obsługa zgłoszeń i incydentów SWD; obok niej problemy, ciągłość, bezpieczeństwo, umowy o poziomie usług i dostawcy.',
     cobit:'Cele aktywatorów: ostatni stopień kaskady. Dla aktywatora Procesy mapowanie celów IT na procesy (Rysunek 23, dodatek C) wskazuje m.in. DSS02 „Zarządzanie zgłoszeniami serwisowymi i incydentami”.',
-    wynik:'Wybrany proces: DSS02 (naprawianie awarii).'},
-  f2:{co:'Zakres programu: proces DSS02, czyli jak helpdesk przyjmuje i naprawia awarie. Powstaje zespół: kierownik helpdesku, 2 techników, ktoś z obsługi klienta. Zbierają dane o tym, jak jest dziś.',
+    wynik:'Wybrany proces: DSS02 (obsługa incydentów SWD).'},
+  f2:{co:'M2–M3: zakres programu to DSS02 dla SWD PSP. Zespół wdrożeniowy: naczelnik Wydziału Utrzymania Systemów Informatycznych (właściciel procesu), przedstawiciel KCKR, Sekcja Cyberbezpieczeństwa, administratorzy dwóch KW pilotażowych; IOD doradza. Zbierają dowody stanu obecnego: maile, zgłoszenia u wykonawcy, notatki dyżurnych.',
     cobit:'Faza 2: Gdzie jesteśmy teraz? Zakres wyznacza kaskada celów, potem ocena stanu obecnego (FW-PL s. 38). Kręgi: Definiowanie problemów i okazji · Utworzenie zespołu wdrożeniowego · Zebranie danych dotyczących aktualnego stanu.',
-    wynik:'Zakres (DSS02) i zespół.'},
-  prm:{co:'Szukamy DSS02 na liście procesów COBIT, żeby wiedzieć, co dokładnie ma robić.',
+    wynik:'Zakres (DSS02 dla SWD) i zespół.'},
+  prm:{co:'Zespół odszukuje DSS02 w modelu referencyjnym procesów, żeby ustalić przeznaczenie procesu i jego praktyki: rejestrację, klasyfikację, priorytet, rozwiązanie, zamknięcie i raportowanie zgłoszeń.',
     cobit:'PRM, model referencyjny procesów (Rysunek 16): 37 procesów. DSS02 należy do domeny DSS (Dostarczanie, obsługa i wsparcie), czyli do Zarządzania.',
-    wynik:'Wiemy, co oceniamy i jaki jest cel procesu.'},
-  ocena:{co:'Na potrzeby przykładu zakładamy wynik oceny dowodów: PA 1.1 = P, PA 2.1 = C i PA 2.2 = C. Proces osiąga wymagane wyniki, lecz planowanie, monitorowanie i zarządzanie produktami pracy są tylko częściowe. Sam brak spisanej procedury nie ustala ratingu.',
+    wynik:'Wiemy, co oceniamy i jakie jest przeznaczenie procesu.'},
+  ocena:{co:'Na potrzeby scenariusza wynik oceny dowodów: PA 1.1 = P (awarie SWD są ostatecznie usuwane), PA 2.1 = C (grafik dyżurów jest, ale obsługi nikt nie planuje ani nie monitoruje) i PA 2.2 = C (zgłoszenia i notatki są niejednolite i rozproszone). Sam brak spisanej procedury nie ustala ratingu.',
     cobit:'Ocena zdolności procesu (Rysunek 19). Skala: N, C, W, P (EN: N, P, L, F). Poziom osiągnięty = ten poziom co najmniej W, a niższe P. Tu PA 1.1 = P, a oba atrybuty poziomu 2 = C, więc wynik to poziom 1 (wykonywany). To jest ocena stanu obecnego z fazy 2.',
-    wynik:'DSS02 dziś = poziom 1.'},
-  f3:{co:'Organ Ładu i zespół wybierają poziom docelowy 3 po analizie kosztów, korzyści i wykonalności. Wymaga to pełnego osiągnięcia PA 1.1, 2.1 i 2.2 oraz co najmniej W dla definicji i wdrożenia procesu (PA 3.1 i 3.2). Sam dokument nie wystarczy.',
+    wynik:'DSS02 w KG PSP dziś = poziom 1.'},
+  f3:{co:'M3–M4: Komendant Główny i komitet sterujący wybierają poziom docelowy 3 przed terminem KSC, po analizie kosztów, korzyści i wykonalności. Wymaga to pełnego osiągnięcia PA 1.1, 2.1 i 2.2 oraz co najmniej W dla definicji i wdrożenia procesu (PA 3.1 i 3.2). Sam dokument nie wystarczy, a poziom 5 byłby za drogi.',
     cobit:'Faza 3: Do czego dążymy? Stan docelowy i analiza luk. Kręgi: Definiowanie mapy drogowej · Komunikowanie rezultatu · Zdefiniowanie stanu docelowego.',
     wynik:'Cel: DSS02 = poziom 3.'},
-  wynik:{co:'Analiza luk wskazuje braki w planowaniu, monitorowaniu, dostosowaniu wykonania i zarządzaniu produktami pracy, a następnie w zdefiniowaniu oraz wdrożeniu standardowego procesu. Różnica numerów 3 i 1 nie określa nakładu pracy ani listy potrzebnych działań.',
+  wynik:{co:'Analiza luk wskazuje braki: jednego punktu zgłoszeń dla KG, KW i KM/KP; kategorii i priorytetów P1–P3; czasów reakcji w umowie z wykonawcą; rejestru i bazy wiedzy; pomiaru czasu przywrócenia; ścieżki incydentu bezpieczeństwa do CSIRT; szkoleń oraz standardowego procesu z dopuszczalnym dostosowaniem dla KW. Różnica numerów poziomów nie określa nakładu pracy ani listy działań.',
     cobit:'Luka (gap): różnica między stanem docelowym a obecnym.',
     wynik:'Konkretna lista braków.'},
-  f4:{co:'Zespół planuje usprawnienia i wyznacza, kto za co odpowiada.',
+  f4:{co:'M4–M5: zespół planuje usprawnienia we wszystkich potrzebnych aktywatorach, wyznacza właścicieli i aktualizuje uzasadnienie biznesowe na komitecie sterującym.',
     cobit:'Faza 4: Jakie działania należy podjąć? Plan we wszystkich potrzebnych aktywatorach. Kręgi: Planowanie programu · Identyfikacja odtwórców ról · Budowanie usprawnień.',
     wynik:'Plan usprawnień z właścicielami.'},
-  akt:{co:'1. Zasady i polityki: reguły zgłaszania awarii. 2. Procesy: praktyki DSS02 oraz ich realizacja zgodnie z dopasowaną procedurą. 3. Struktury: kierownik helpdesku jako właściciel procesu. 4. Kultura: zgłaszamy awarie, nie ukrywamy ich. 5. Informacja: rejestr awarii z czasem naprawy. 6. Usługi i aplikacje: system zgłoszeń. 7. Ludzie: szkolenie techników z procedury i systemu.',
+  akt:{co:'1. Zasady i polityki: procedura obsługi zgłoszeń SWD wprowadzona decyzją Komendanta Głównego. 2. Procesy: praktyki DSS02 ze stykami z DSS03, DSS04 i DSS05. 3. Struktury: Punkt Zgłoszeń SWD 24/7 w BIŁ i koordynatorzy w 16 KW. 4. Kultura: zgłaszamy od razu, bez szukania winnych. 5. Informacja: rejestr incydentów i raport dostępności. 6. Usługi i aplikacje: narzędzie zgłoszeń i monitoring SWD. 7. Ludzie: szkolenia administratorów KW i dyżurnych.',
     cobit:'7 aktywatorów naraz, nie tylko procesy: Zasada 4, Aktywacja holistycznego podejścia.',
     wynik:'Usprawnienia w 7 aktywatorach.'},
-  f5:{co:'Wdrażają system zgłoszeń, nową procedurę i szkolenia. Helpdesk zaczyna pracować po nowemu.',
+  f5:{co:'M5–M10: pilotaż w KG i dwóch KW (od M6), potem 16 KW (od M8) i KM/KP (od M9). Punkt Zgłoszeń SWD działa 24/7, dyżurni zgłaszają jednym kanałem, a wykonawca dostaje zgłoszenia tylko z rejestru.',
     cobit:'Faza 5: Jak się tam dostaniemy? Kręgi: Wykonywanie planu · Działaj i używaj · Wdrażanie usprawnień.',
     wynik:'Nowy sposób pracy działa.'},
-  lad:{co:'Zarząd ocenia ryzyko przestojów (Oszacuj), zatwierdza budżet i priorytet programu (Kieruj) i co miesiąc patrzy na raport dostępności sklepu (Monitoruj). Sam nie naprawia awarii.',
+  lad:{co:'Komendant Główny ocenia ryzyko przerw SWD i termin KSC (Oszacuj), zatwierdza program, budżet i apetyt na ryzyko (Kieruj), a co kwartał na naradzie kierownictwa sprawdza raport dostępności SWD (Monitoruj). Sam nie usuwa awarii.',
     cobit:'Ład = EDM (Evaluate, Direct, Monitor), Zasada 5. Tu m.in. EDM03, zapewnienie optymalizacji ryzyka (Ensure Risk Optimisation).',
-    wynik:'Kierunek i nadzór z góry.'},
-  zarz:{co:'Kierownik IT przygotowuje plan i budżet (APO). Zespół wdraża system zgłoszeń (BAI). Helpdesk naprawia awarie według DSS02 (DSS). Kierownik co miesiąc raportuje wyniki zarządowi (MEA).',
+    wynik:'Kierunek i nadzór od Komendanta Głównego.'},
+  zarz:{co:'BIŁ z Biurem Finansów planuje program i koszty (APO). Zespół programu wdraża narzędzie zgłoszeń i procedurę (BAI). Punkt Zgłoszeń SWD przywraca usługę według DSS02 (DSS). BIŁ co kwartał raportuje kierownictwu dostępność i czasy przywrócenia (MEA).',
     cobit:'Zarządzanie = PBRM: APO, BAI, DSS, MEA, czyli 32 z 37 procesów. Działa zgodnie z kierunkiem Ładu i podejmuje decyzje w granicach przydzielonych uprawnień; zatwierdzanie nie jest zastrzeżone wyłącznie dla Ładu.',
-    wynik:'Robota zrobiona i zaraportowana.'},
-  f6:{co:'Po pół roku sprawdzają, czy się udało: ponowna ocena DSS02 i porównanie z tym, co obiecano zarządowi.',
+    wynik:'Praca wykonana i zaraportowana.'},
+  f6:{co:'M11: ponowna ocena DSS02 (zespół z przeszkolonym asesorem, audytor wewnętrzny jako obserwator) i porównanie z korzyściami obiecanymi Komendantowi w uzasadnieniu biznesowym.',
     cobit:'Faza 6: Czy dotarliśmy do celu? Kręgi: Realizacja korzyści · Umożliwianie nowych podejść · Obsługa i pomiar.',
     wynik:'Wiadomo, czy cel jest osiągnięty.'},
-  pomiar:{co:'W przykładzie ponowna ocena potwierdza: PA 1.1, 2.1 i 2.2 = P; PA 3.1 i 3.2 co najmniej W, zatem osiągnięto poziom 3. Osobno zmierzono korzyści: czas naprawy spadł z 8 do 2 godzin, a w Black Friday nie odnotowano przestoju.',
-    cobit:'Liczy się korzyść dla firmy, nie sam dokument. Sam dokument nie dowodzi ani poziomu 3, ani korzyści biznesowej. Poziom zdolności oraz uzyskane korzyści ocenia się osobno; liczba awarii sama nie opisuje ich czasu ani wpływu.',
+  pomiar:{co:'W scenariuszu ponowna ocena potwierdza: PA 1.1, 2.1 i 2.2 = P; PA 3.1 i 3.2 = W, zatem poziom 3. Osobno zmierzono korzyści: średni czas przywrócenia SWD spadł z ok. 5 godzin do ok. 1,5 godziny, dostępność utrzymuje się na poziomie co najmniej 97%, a wszystkie incydenty P1 są w rejestrze.',
+    cobit:'Liczy się korzyść dla organizacji, nie sam dokument. Sam dokument nie dowodzi ani poziomu 3, ani korzyści. Poziom zdolności oraz uzyskane korzyści ocenia się osobno; liczba awarii sama nie opisuje ich czasu ani wpływu.',
     wynik:'Korzyść zrealizowana.'},
-  f7:{co:'Zespół zapisuje, co zadziałało, a co nie. Właściciel procesu pilnuje DSS02 na co dzień, a raz w roku robi się ponowną ocenę.',
+  f7:{co:'Od M12: procedura trafia do regulaminu wewnętrznego BIŁ, właściciel procesu pilnuje DSS02 na co dzień, kierownictwo co kwartał przegląda miernik dostępności, a raz w roku powtarza się ocenę.',
     cobit:'Faza 7: Jak utrzymać motywację do działania? Kręgi: Przegląd skuteczności · Utrzymanie · Monitorowanie i szacowanie.',
     wynik:'Nowy sposób pracy zostaje na stałe.'},
-  przeg:{co:'Rok później ktoś wykrada dane klientów. To nowy punkt zapalny, więc cykl rusza od fazy 1, tym razem dla bezpieczeństwa.',
+  przeg:{co:'Przegląd pokazuje nowy wyznacznik: SWD działa, ale przełączenia na ośrodek zapasowy i pracy stanowisk kierowania w trybie awaryjnym nie ćwiczono. Cykl rusza od fazy 1, tym razem dla DSS04 (ciągłość) i pełnych wymagań KSC.',
     cobit:'Przegląd i utrzymanie, potem pętla: nowe wyznaczniki → znowu faza 1 (ciągłe doskonalenie).',
     wynik:'Nowy obrót cyklu.'},
-  petla:{co:'Cały obrót dla sklepu: 1. przestoje + nowy prezes → 2. zakres DSS02, dziś poziom 1 → 3. cel poziom 3, analiza brakujących wymagań → 4. plan w 7 aktywatorach → 5. wdrożenie → 6. poziom 3 osiągnięty, sklep nie pada → 7. utrzymanie, nowy problem → faza 1.',
+  petla:{co:'Cały obrót dla KG PSP: 1. przerwy SWD i termin KSC → 2. zakres DSS02, dziś poziom 1 → 3. cel poziom 3, analiza luk → 4. plan w 7 aktywatorach → 5. wdrożenie w KG, 16 KW i KM/KP → 6. poziom 3, przywrócenie ok. 1,5 godziny → 7. utrzymanie i nowy wyznacznik (DSS04) → faza 1.',
     cobit:'Cykl wdrożenia: 7 faz, w każdej 3 kręgi (program, zmiana, doskonalenie), Rysunek 17.',
     wynik:'Pełne koło na jednym przykładzie.'},
-  z1:{co:'Zaczęli od tego, czego chcą klienci i zarząd, a nie od „poprawmy wszystkie procesy”.',
+  z1:{co:'Zaczęli od potrzeb dyżurnych, KCKR, obywateli i MSWiA, a nie od „poprawmy wszystkie procesy BIŁ”.',
     cobit:'Zasada 1: Realizacja potrzeb interesariusza (kaskada celów).', wynik:'Robili tylko to, co ma znaczenie.'},
-  z23:{co:'Do zespołu weszła obsługa klienta, nie tylko IT. Procedurę oparli na ITIL, a COBIT spiął to w jedną całość.',
-    cobit:'Zasada 2: Pokrycie całej organizacji. Zasada 3: Zastosowanie pojedynczej zintegrowanej struktury ramowej.', wynik:'Cała firma i jedna rama.'},
-  z4:{co:'Nie skończyło się na procedurze: były też zasady, ludzie, system zgłoszeń, kultura, informacja i struktura.',
+  z23:{co:'W programie uczestniczą KCKR, KW, Biuro Kadr, Biuro Edukacji i Biuro Finansów, nie tylko BIŁ. Procedurę oparto na praktykach ITIL, a COBIT spina je w jedną strukturę ramową.',
+    cobit:'Zasada 2: Pokrycie całej organizacji. Zasada 3: Zastosowanie pojedynczej zintegrowanej struktury ramowej.', wynik:'Cała organizacja i jedna rama.'},
+  z4:{co:'Nie skończyło się na procedurze: były też zasady, struktura, kultura zgłaszania, informacja, narzędzia i ludzie.',
     cobit:'Zasada 4: Aktywacja holistycznego podejścia (7 aktywatorów).', wynik:'Wszystkie aktywatory razem.'},
-  z5:{co:'Zarząd zatwierdzał i pilnował, kierownicy przygotowywali i robili.',
+  z5:{co:'Komendant Główny zatwierdzał i monitorował, BIŁ, KCKR i KW planowali, budowali, wykonywali i raportowali.',
     cobit:'Zasada 5: Oddzielenie Ładu od Zarządzania.', wynik:'Koniec przykładu. Esc zamyka tryb.'}
 };
 const EX_ORDER=['kont','pz','zi','decyz','z1','z23','z4','z5','f1','potrz','wart','corg','cit','cakt','f2','prm','ocena','sN','sC','sW','sP','ws1','ws2','lv0','lv1','lv2','lv3','lv4','lv5','obecny','f3','docel','wynik','f4','akt','wym0','wym1','wym2','wym3','wym4','mier1','mier2','f5','lad','edm1','edm2','edm3','edm4','edm5','zarz','dapo','dbai','ddss','dmea','f6','pomiar','f7','przeg','petla'];
 let EXMODE=false;
 function exHTML(id){
   const e=EX[id], i=EX_ORDER.indexOf(id);
-  return '<div class="expane-box"><h3>W sklepie</h3><p>'+lk(e.co)+'</p><h3>Filtr COBIT</h3><p>'+lk(e.cobit)+'</p><h3>Co przechodzi dalej</h3><p class="expane-out">'+lk(e.wynik)+'</p>'+
+  return '<div class="expane-box"><h3>W KG PSP</h3><p>'+lk(e.co)+'</p><h3>Filtr COBIT</h3><p>'+lk(e.cobit)+'</p><h3>Co przechodzi dalej</h3><p class="expane-out">'+lk(e.wynik)+'</p>'+
     (i>=0&&i<EX_ORDER.length-1?'<p class="note2">Dalej: '+esc((INFO[EX_ORDER[i+1]]||{}).title||'')+' (→ lub „następny”)</p>':'')+
-    '<p class="note2">Przykład autorski, do nauki. Nazwy i numery celów oraz procesów z podręcznika.</p></div>';
+    '<p class="note2">Scenariusz szkoleniowy. Prawdziwe: struktura KG PSP (regulamin z 12.09.2024), przepisy i mierniki planu działalności Komendanta Głównego na 2026 r. Fikcyjne: program „SWD 24/7”, awarie, liczby i wyniki ocen. Nazwy i numery celów oraz procesów z podręcznika.</p></div>';
 }
-function exBtnSync(){ const b=document.getElementById('exbtn'); if(!b) return; b.setAttribute('aria-pressed',String(EXMODE)); b.textContent=EXMODE?'■ Zakończ przykład':'▶ Przykład sklepu'; }
+function exBtnSync(){ const b=document.getElementById('exbtn'); if(!b) return; b.setAttribute('aria-pressed',String(EXMODE)); b.textContent=EXMODE?'■ Zakończ przykład':'▶ Przykład KG PSP'; }
 /* wycinek koła dla fazy: ta sama geometria co Ilustracja 17, podświetlona tylko faza n */
 function wedgeHTML(n){
   const C=110, rings=[[104,80,'g-amber'],[80,56,'g-teal'],[56,32,'g-purple']];
@@ -1380,23 +1392,23 @@ function wedgeHTML(n){
   return '<h3>Wycinek koła: faza '+n+' w trzech kręgach (Rysunek 17)</h3><div class="wedge-fig">'+svg+'<div class="wedge-rows">'+rows+'</div></div>';
 }
 TILE_EN.zarz='management · Plan, Build, Run, Monitor (PBRM)';
-EDMP.forEach(([id,code,pl,en,co,sklep])=>{ TILE_EN[id]=en;
+EDMP.forEach(([id,code,pl,en,co,przyk])=>{ TILE_EN[id]=en;
   INFO[id]={g:'purple',qkey:'lad',title:code+' '+pl,names:'EN: '+en+(code==='EDM05'?' · kurs (egzamin): Zapewnienie Transparentności Interesariuszy':'')+' · domena: EDM (Ład)',
-    from:'Jeden z 5 procesów Ładu (Rysunek 16). O co chodzi: '+co+'. Przykład w sklepie: '+sklep+'. Organ Ładu ocenia, kieruje i monitoruje; rozróżniamy odpowiedzialność Ładu od zarządzania wykonaniem (FW-PL s. 32–33).',
+    from:'Jeden z 5 procesów Ładu (Rysunek 16). O co chodzi: '+co+'. Przykład w KG PSP: '+przyk+'. Organ Ładu ocenia, kieruje i monitoruje; rozróżniamy odpowiedzialność Ładu od zarządzania wykonaniem (FW-PL s. 32–33).',
     refs:[R(33,16)+': model referencyjny procesów',R(32,15)+': kluczowe obszary Ładu i Zarządzania','Sylabus: PR-02-14, PR-02-15'],
     trap:'Procesy EDM zaczynają się od „Zapewnienie…” (Ensure). Jeśli w odpowiedzi jest „Zarządzanie…” (Manage), to Zarządzanie, nie Ład.'};
-  EX[id]={co:sklep.charAt(0).toUpperCase()+sklep.slice(1)+'.',cobit:code+' '+pl+' ('+en+'): '+co+'. Proces Ładu.',wynik:code+' w sklepie działa.'}; });
-DOM.forEach(([id,code,lit,ex,hb,en,pbE,pbH,pbEN,rows,sklep,traps])=>{ TILE_EN[id]=en;
+  EX[id]={co:przyk.charAt(0).toUpperCase()+przyk.slice(1)+'.',cobit:code+' '+pl+' ('+en+'): '+co+'. Proces Ładu.',wynik:code+' działa w KG PSP.'}; });
+DOM.forEach(([id,code,lit,ex,hb,en,pbE,pbH,pbEN,rows,przyk,traps])=>{ TILE_EN[id]=en;
   INFO[id]={g:'teal',qkey:'zarz',title:code+': '+ex,names:'Egzamin PL: '+ex+' · Podręcznik: '+hb+' · EN: '+en+' · PBRM: '+lit+' = '+pbE+' (podręcznik: '+pbH+', EN: '+pbEN+')',
-    from:'Domena Zarządzania „'+lit+'” z PBRM: '+rows.length+' procesów (Rysunek 16). W sklepie: '+sklep+'. Pełna lista z przykładami poniżej.',
-    tables:[{title:'Procesy '+code+' ('+rows.length+') z przykładami ze sklepu',head:['Kod','Podręcznik PL','EN','Przykład: sklep'],rows:rows,note:'Nazwy procesów: Rysunek 16, FW-PL s. 33. Przykłady autorskie.'}],
+    from:'Domena Zarządzania „'+lit+'” z PBRM: '+rows.length+' procesów (Rysunek 16). W KG PSP: '+przyk+'. Pełna lista z przykładami poniżej.',
+    tables:[{title:'Procesy '+code+' ('+rows.length+') z przykładami z KG PSP',head:['Kod','Podręcznik PL','EN','Przykład: KG PSP'],rows:rows,note:'Nazwy procesów: Rysunek 16, FW-PL s. 33. Przykłady: scenariusz szkoleniowy KG PSP (program „SWD 24/7”).'}],
     refs:[R(32,15)+': PBRM i nazwy domen',R(33,16)+': wszystkie 37 procesów','Sylabus: PR-02-14, PR-02-15'],traps:traps};
-  EX[id]={co:sklep.charAt(0).toUpperCase()+sklep.slice(1)+'. Pozostałe procesy domeny z przykładami są w zakładce Informacja.',cobit:code+' ('+ex+'; EN: '+en+') = litera „'+lit+'” w PBRM, '+rows.length+' procesów Zarządzania.',wynik:code+' zrobione, wynik idzie dalej.'}; });
+  EX[id]={co:przyk.charAt(0).toUpperCase()+przyk.slice(1)+'. Pozostałe procesy domeny z przykładami są w zakładce Informacja.',cobit:code+' ('+ex+'; EN: '+en+') = litera „'+lit+'” w PBRM, '+rows.length+' procesów Zarządzania.',wynik:code+' zrobione, wynik idzie dalej.'}; });
 INFO.lad.tables=(INFO.lad.tables||[]).concat([{title:'5 procesów Ładu (EDM)',head:['Kod','Podręcznik PL','EN','O co chodzi'],rows:EDMP.map(r=>[r[1],r[2],r[3],r[4]]),note:'Rysunek 16, FW-PL s. 33. EDM05 w kursie: Zapewnienie Transparentności Interesariuszy.'}]);
 INFO.zarz.tables=(INFO.zarz.tables||[]).concat([{title:'Domeny: Ład i 4 domeny Zarządzania',head:['Skrót','Egzamin PL','EN','Proc.','Piętro'],rows:[['EDM','Oszacuj, Kieruj i Monitoruj','Evaluate, Direct and Monitor','5','Ład']].concat(DOM.map(d=>[d[1],d[3],d[5],String(d[9].length),'Zarządzanie'])),note:'Razem 5 + 32 = 37 procesów (Rysunek 16).'}]);
 SKALA.forEach(([id,l,pl,en,pr,sk])=>{ TILE_EN[id]=en;
   INFO[id]={g:'gray',qkey:'ocena',title:l+' = '+pl+' ('+pr+')',names:'Egzamin (kurs): '+l+' = '+pl+' · Podręcznik PL: '+SK_HB[l]+' · EN: '+en+' · zakres: '+pr,
-    from:'Skala ocen atrybutu procesu (FW-PL s. 45). Oceniający zbiera dowody i ocenia, w ilu procentach atrybut jest spełniony: '+pr+' = '+l+' ('+pl+'). Przykład dla DSS02 w sklepie: '+sk+'. Reguła: proces ma dany poziom, gdy ten poziom ma co najmniej W, a wszystkie niższe P.',
+    from:'Skala ocen atrybutu procesu (FW-PL s. 45). Oceniający zbiera dowody i ocenia, w ilu procentach atrybut jest spełniony: '+pr+' = '+l+' ('+pl+'). Przykład dla DSS02 w KG PSP: '+sk+'. Reguła: proces ma dany poziom, gdy ten poziom ma co najmniej W, a wszystkie niższe P.',
     refs:[R(45)+': skala ocen atrybutu',R(42,19)+': model zdolności procesu','Sylabus: PC-02-04'],
     trap:'Uwaga na litery: podręcznik PL (s. 45) używa liter ISO N/P/L/F, gdzie P = częściowo. Kurs i polski egzamin używają N/C/W/P, gdzie P = pełny. Zawsze patrz na nazwę, nie na samą literę.'};
   EX[id]={co:sk.charAt(0).toUpperCase()+sk.slice(1)+'.',cobit:l+' = '+pl+' ('+en+'), '+pr+'.',wynik:l==='P'?'PA 1.1 ma P, a PA 2.1 i 2.2 mają C; najwyższy osiągnięty poziom DSS02 to 1.':'Następny stopień skali.'}; });
@@ -1408,7 +1420,7 @@ WYM.forEach(([id,t,en,sub])=>{ TILE_EN[id]=en;
   EX[id]={co:sub.split(' · ').pop().replace(/^np\. /,'')+'.',cobit:t+' ('+en+'): '+sub.split(' · ')[0]+'.',wynik:'Aktywator jest opisany i mierzony.'}; });
 LV.forEach(([id,t,en,pa,sk],i)=>{ TILE_EN[id]=en;
   INFO[id]={g:'gray',qkey:'ocena',title:t,names:'EN: '+en+' · atrybuty: '+pa,
-    from:'Poziom zdolności '+i+' w modelu COBIT 5 (Rysunek 19, FW-PL s. 42–43). Atrybuty tego poziomu: '+pa+'. Przykład dla DSS02 w sklepie: '+sk+'. '+(i===0?'Poziom 0 oznacza, że PA 1.1 nie osiąga co najmniej W. Nie ma własnego atrybutu.':'Proces ma ten poziom, gdy jego atrybuty mają co najmniej W, a atrybuty wszystkich niższych poziomów P.'),
+    from:'Poziom zdolności '+i+' w modelu COBIT 5 (Rysunek 19, FW-PL s. 42–43). Atrybuty tego poziomu: '+pa+'. Przykład dla DSS02 w KG PSP: '+sk+'. '+(i===0?'Poziom 0 oznacza, że PA 1.1 nie osiąga co najmniej W. Nie ma własnego atrybutu.':'Proces ma ten poziom, gdy jego atrybuty mają co najmniej W, a atrybuty wszystkich niższych poziomów P.'),
     refs:[R(42,19)+': model zdolności procesu',R(43)+': opis poziomów','Sylabus: PC-02-01, PC-02-02'],
     trap:i===0?'Poziom 0 nie ma atrybutu: proces nie jest wdrożony albo nie osiąga swojego celu. Sam brak spisanej procedury nie wystarcza do takiej oceny.':i===1?'Poziom 1 ma jeden atrybut (PA 1.1). Poziomy 2–5 mają po dwa, razem 9 atrybutów.':'Każdy poziom 2–5 ma dwa atrybuty; oba muszą mieć co najmniej W.'};
   EX[id]={co:sk.charAt(0).toUpperCase()+sk.slice(1)+'.',cobit:t+' ('+en+'): '+pa+'.',wynik:i===0?'Poziom 0: proces niewdrożony lub PA 1.1 nie osiąga W; brak własnego atrybutu.':i===1?'DSS02 osiąga ten poziom (P).':i===2?'DSS02 tu ma C, więc nie osiąga poziomu 2.':'Sprawdzane dopiero, gdy niższe poziomy mają P.'}; });
@@ -1416,33 +1428,33 @@ WSK.forEach(([id,t,en,sub])=>{ TILE_EN[id]=en;
   INFO[id]={g:'gray',qkey:'ocena',title:t,names:'EN: '+en,
     from:'Dowody do oceny (Rysunek 19, model oceny procesu): '+sub+'.',refs:[R(42,19)+': model oceny procesu'],
     trap:id==='ws1'?'Wskaźniki wydajności dotyczą tylko poziomu 1: czy proces osiąga swój cel.':'Typowe praktyki, zasoby i produkty pracy wspierają ocenę poziomów 2–5. Cały wymiar zdolności obejmuje także PA 1.1 na poziomie 1; nie zaczyna się dopiero od poziomu 2.'};
-  EX[id]={co:id==='ws1'?'Oceniający sprawdza, czy awarie są faktycznie naprawiane: rejestr zgłoszeń, raporty z napraw.':'Oceniający sprawdza plan dyżurów, procedurę, szkolenia i narzędzia.',cobit:t+': '+sub+'.',wynik:'Są dowody do oceny.'}; });
+  EX[id]={co:id==='ws1'?'Oceniający sprawdza, czy awarie SWD są faktycznie usuwane: maile, zgłoszenia u wykonawcy, notatki dyżurnych.':'Oceniający sprawdza grafik dyżurów BIŁ, procedurę, szkolenia administratorów KW i narzędzie zgłoszeń.',cobit:t+': '+sub+'.',wynik:'Są dowody do oceny.'}; });
 TILE_EN.obecny='current state'; TILE_EN.docel='target state';
 INFO.obecny={g:'gray',qkey:'ocena',title:'Stan obecny: poziom 0–5',names:'EN: Current state (assess current state)',
   from:'Wynik oceny w fazie 2: najwyższy poziom, który proces osiąga według reguły (ten poziom co najmniej W, niższe P). FW-PL s. 38: w fazie 2 ustala się stan obecny.',refs:[R(38)+': faza 2',R(42,19)],trap:'Stan obecny to faza 2. Stan docelowy i luka to faza 3.'};
 INFO.docel={g:'gray',qkey:'wynik',title:'Stan docelowy',names:'EN: Target state · egzamin: Zdefiniowanie stanu docelowego · podręcznik: Zdefiniowanie celu działania',
   from:'W fazie 3 ustalasz, na jakim poziomie proces ma być. Nie zawsze 5: każdy wyższy poziom kosztuje, cel dobiera się do potrzeb firmy (FW-PL s. 42–43).',refs:[R(38)+': faza 3',R('42–43')+': dobór poziomu docelowego'],trap:'Cel to nie zawsze poziom 5.'};
-EX.obecny={co:'DSS02: PA 1.1 = P; PA 2.1 = C; PA 2.2 = C.',cobit:'Stan obecny = poziom 1 (wykonywany). Faza 2.',wynik:'DSS02 dziś = poziom 1.'};
-EX.docel={co:'Zarząd i zespół: DSS02 ma dojść do poziomu 3. Poziom 5 byłby za drogi.',cobit:'Stan docelowy (target state), faza 3.',wynik:'Cel: poziom 3.'};
+EX.obecny={co:'DSS02 dla SWD PSP: PA 1.1 = P; PA 2.1 = C; PA 2.2 = C.',cobit:'Stan obecny = poziom 1 (wykonywany). Faza 2.',wynik:'DSS02 dziś = poziom 1.'};
+EX.docel={co:'Komendant Główny i komitet sterujący: DSS02 ma dojść do poziomu 3 przed terminem KSC (3.04.2027). Poziom 5 byłby za drogi.',cobit:'Stan docelowy (target state), faza 3.',wynik:'Cel: poziom 3.'};
 INFO.f2.from+=' Na schemacie w fazie 2: kaskada celów, potem PRM, ocena procesu, skala N/C/W/P, poziomy 0–5 z atrybutami i stan obecny.';
 EX.cit.cobit+=' Dla celu organizacji 7 relacja z celem IT 07 jest wspierająca (S). Podstawowe (P) to cele IT 04, 10 i 14 (FW-PL s. 49–50). Wybrana ścieżka to przykład autorski, a nie jedyne powiązanie.';
-EX.z1={co:'Zarząd przyjmuje zasadę: zaczynamy od tego, czego chcą klienci i zarząd, a nie od „poprawmy wszystkie procesy”.',cobit:'Zasada 1: Realizacja potrzeb interesariusza (kaskada celów). Obowiązuje we wszystkich fazach.',wynik:'Wszystko wynika z potrzeb interesariuszy.'};
-EX.z23={co:'W programie bierze udział cała firma (obsługa klienta, magazyn), nie tylko IT. Procedury z ITIL zostaną spięte przez COBIT w jedną całość.',cobit:'Zasada 2: Pokrycie całej organizacji. Zasada 3: Zastosowanie pojedynczej zintegrowanej struktury ramowej.',wynik:'Cała firma i jedna rama.'};
-EX.z4={co:'Usprawnienia obejmą nie tylko procedurę, ale też zasady, ludzi, narzędzia, kulturę, informację i strukturę.',cobit:'Zasada 4: Aktywacja holistycznego podejścia (7 aktywatorów).',wynik:'Patrzymy na wszystkie aktywatory razem.'};
-EX.z5={co:'Zarząd będzie zatwierdzał i pilnował, kierownicy przygotowywali i robili.',cobit:'Zasada 5: Oddzielenie Ładu od Zarządzania.',wynik:'Zasady ustalone, rusza faza 1.'};
+EX.z1={co:'Komendant przyjmuje zasadę: zaczynamy od potrzeb dyżurnych, KCKR, obywateli i MSWiA, a nie od „poprawmy wszystkie procesy BIŁ”.',cobit:'Zasada 1: Realizacja potrzeb interesariusza (kaskada celów). Obowiązuje we wszystkich fazach.',wynik:'Wszystko wynika z potrzeb interesariuszy.'};
+EX.z23={co:'W programie uczestniczą KCKR, KW, Biuro Kadr, Biuro Edukacji i Biuro Finansów, nie tylko BIŁ. Procedurę oparto na praktykach ITIL, a bezpieczeństwo na KRI i normach ISO/IEC 27000; COBIT spina je w jedną strukturę ramową.',cobit:'Zasada 2: Pokrycie całej organizacji. Zasada 3: Zastosowanie pojedynczej zintegrowanej struktury ramowej.',wynik:'Cała firma i jedna rama.'};
+EX.z4={co:'Usprawnienia obejmą nie tylko procedurę, ale też zasady, strukturę (punkt zgłoszeń), kulturę zgłaszania, informację (rejestr), narzędzia i ludzi.',cobit:'Zasada 4: Aktywacja holistycznego podejścia (7 aktywatorów).',wynik:'Patrzymy na wszystkie aktywatory razem.'};
+EX.z5={co:'Komendant Główny ocenia, kieruje i monitoruje; BIŁ, KCKR i KW planują, budują, wykonują i raportują.',cobit:'Zasada 5: Oddzielenie Ładu od Zarządzania.',wynik:'Zasady ustalone, rusza faza 1.'};
 GOALS_E.forEach((r,i)=>{ const id='ce'+(i+1); TILE_EN[id]=r[1];
   INFO[id]={g:'green',qkey:'corg',title:'Cel organizacji '+(i+1)+': '+r[0],names:'EN: '+r[1]+' · perspektywa BSC: '+r[2]+' ('+PERSP_EN[r[2]]+')',
-    from:'Jeden z 17 typowych celów organizacji (Rysunek 5, FW-PL s. 19). Wynika z potrzeb interesariuszy; w kaskadzie mapuje się go na cele związane z IT (Rysunek 22, dodatek B, FW-PL s. 50).'+(i===6?' W przykładzie sklepu to właśnie ten cel: sklep ma działać bez przerw.':''),
+    from:'Jeden z 17 typowych celów organizacji (Rysunek 5, FW-PL s. 19). Wynika z potrzeb interesariuszy; w kaskadzie mapuje się go na cele związane z IT (Rysunek 22, dodatek B, FW-PL s. 50).'+(i===6?' W przykładzie KG PSP to właśnie ten cel: dysponowanie i koordynacja przez SWD PSP mają działać 24/7.':''),
     refs:[R(19,5)+': cele organizacji',R(50,22)+': mapowanie na cele IT','Sylabus: PR-02-04'],
     trap:'17 celów organizacji ułożonych jest w 4 perspektywach zrównoważonej karty wyników (BSC): Finanse, Klient, Obszar wewnętrzny, Szkolenie i rozwój.'}; });
 GOALS_I.forEach((r,i)=>{ const id='ci'+(i+1), nr=String(i+1).padStart(2,'0'); TILE_EN[id]=r[1];
   INFO[id]={g:'green',qkey:'cit',title:'Cel IT '+nr+': '+r[0],names:'EN: '+r[1]+' · perspektywa IT BSC: '+r[2]+' ('+PERSP_EN[r[2]]+')',
-    from:'Jeden z 17 celów związanych z IT (Rysunek 6, FW-PL s. 19). Wynika z celów organizacji (Rysunek 22); dalej mapuje się go na procesy (Rysunek 23, dodatek C, FW-PL s. 52).'+(i===6?' W przykładzie sklepu: cel IT 07 prowadzi m.in. do procesu DSS02.':''),
+    from:'Jeden z 17 celów związanych z IT (Rysunek 6, FW-PL s. 19). Wynika z celów organizacji (Rysunek 22); dalej mapuje się go na procesy (Rysunek 23, dodatek C, FW-PL s. 52).'+(i===6?' W przykładzie KG PSP: cel IT 07 (dostępność SWD PSP 97%) prowadzi m.in. do procesu DSS02.':''),
     refs:[R(19,6)+': cele związane z IT',R(52,23)+': mapowanie na procesy','Sylabus: PR-02-05'],
     trap:'Cele IT też są w 4 perspektywach (IT BSC). Nie myl ich z 17 celami organizacji: tamte są biznesowe, te dotyczą IT.'}; });
 DOM.forEach(d=>d[9].forEach(p=>{ const id='p'+p[0].toLowerCase(); TILE_EN[id]=p[2];
   INFO[id]={g:'teal',qkey:'zarz',title:p[0]+' '+p[1],names:'EN: '+p[2]+' · domena: '+d[1]+' ('+d[3]+') · PBRM: '+d[2]+' · Zarządzanie',
-    from:'Proces Zarządzania z domeny '+d[1]+' (Rysunek 16, FW-PL s. 33). Przykład w sklepie: '+p[3]+'. Szczegóły praktyk, RACI i wejść/wyjść każdego procesu są w osobnej publikacji „COBIT 5: Procesy umożliwiające” (FW-PL s. 33); dla Foundation rozpoznawaj nazwę, domenę i przeznaczenie procesu oraz wymagane sylabusem pojęcia praktyk, RACI i produktów pracy.',
+    from:'Proces Zarządzania z domeny '+d[1]+' (Rysunek 16, FW-PL s. 33). Przykład w KG PSP: '+p[3]+'. Szczegóły praktyk, RACI i wejść/wyjść każdego procesu są w osobnej publikacji „COBIT 5: Procesy umożliwiające” (FW-PL s. 33); dla Foundation rozpoznawaj nazwę, domenę i przeznaczenie procesu oraz wymagane sylabusem pojęcia praktyk, RACI i produktów pracy.',
     refs:[R(33,16)+': model referencyjny procesów',R(32,15)+': domena '+d[1],'Sylabus: PR-02-14, PR-02-15'],traps:d[11]}; }));
 Object.entries(FIG2INFO).forEach(([id,d])=>{ if(d.en) TILE_EN[id]=d.en;
   INFO[id]={g:d.g,qkey:d.qkey,title:d.title,names:(d.en?'EN: '+d.en+' · ':'')+'Rysunek '+d.fig,
@@ -1499,7 +1511,7 @@ function showInfo(id){
   const d=INFO[id]; if(!d) return;
   const P=window.PYTANIA||{Q:{},N:{}};
   const seenU=new Set(), all=[]; const S=window.PYTANIA_SP1;
-  const OP=(window.OPISY||{})[id]||tloOP(id);
+  const OP=(window.OPISY||{})[id]||tloOP(id), KG=(window.PRZYKLAD_KG||{})[id]||tloKG(id);
   /* pytania tematyczne: frazy kw z opisu kafelka szukane w całej bazie (treść + odpowiedzi), na początku listy */
   if(OP&&OP.kw&&OP.kw.length){
     const kws=OP.kw.map(k=>String(k).toLowerCase()).filter(k=>k.length>1);
@@ -1527,12 +1539,12 @@ function showInfo(id){
       '<button type="button" role="tab" data-tab="pg">Strony podręcznika ('+pagesOf(id).length+')</button>'+
       '<button type="button" role="tab" data-tab="q">Pytania testowe ('+all.length+')</button></div>'+
     (exOn?'<div class="pane" data-pane="ex">'+exHTML(id)+'</div>':'')+
-    '<div class="pane" data-pane="info">'+(OP&&OP.zycie?'<div class="pol-box"><b>Po ludzku</b><p>'+esc(OP.zycie)+'</p></div>':'')+namesHTML+figHTML(id)+(/^f[1-7]$/.test(id)?wedgeHTML(+id.slice(1)):'')+(d.illu==='cykl'?cyklHTML():'')+
+    '<div class="pane" data-pane="info">'+kgHTML(KG)+namesHTML+figHTML(id)+(/^f[1-7]$/.test(id)?wedgeHTML(+id.slice(1)):'')+(d.illu==='cykl'?cyklHTML():'')+
       '<h3>Z czego to wynika</h3><p>'+lk(d.from)+'</p>'+navHTML(id)+naukaHTML(id)+
       (d.list?'<h3>Pełna lista ('+d.list.length+')</h3><table class="mini"><tr><th>PL</th><th>EN</th></tr>'+d.list.map(r=>'<tr><td>'+esc(r[0])+'</td><td>'+esc(r[1])+'</td></tr>').join('')+'</table><p class="note2">'+esc(ENNOTE)+'</p>':'')+
       (d.tables||[]).map(t=>'<h3>'+esc(t.title)+'</h3><table class="mini"><tr>'+t.head.map(x=>'<th>'+esc(x)+'</th>').join('')+'</tr>'+
         t.rows.map(r=>'<tr>'+r.map(c=>'<td>'+esc(c)+'</td>').join('')+'</tr>').join('')+'</table>'+(t.note?'<p class="note2">'+lk(t.note)+'</p>':'')).join('')+
-    window.COBIT_HELP.glossary(JSON.stringify({nazwy:d.names,opis:d.from,tabele:d.tables,przyklad:OP?.zycie}))+'</div>'+
+    window.COBIT_HELP.glossary(JSON.stringify({nazwy:d.names,opis:d.from,tabele:d.tables,przyklad:KG?.co}))+'</div>'+
     '<div class="pane" data-pane="trap"><h3>Na co uważać na egzaminie</h3>'+(traps.length?traps.map((x,i)=>'<p class="trap"><b>'+(i+1)+'.</b> '+lk(x)+'</p>').join(''):'<p class="note2">Brak opisanych pułapek dla tego elementu.</p>')+'</div>'+
     '<div class="pane" data-pane="src"><h3>Metodyka (podręcznik COBIT 5 PL)</h3><ul class="refs">'+d.refs.map(r=>'<li>'+lk(r)+'</li>').join('')+'</ul>'+
       '<p class="note2">FW-PL = COBIT 5 Framework, wydanie polskie. „Ilustracja N” w podręczniku to „Rysunek N” na egzaminie.</p></div>'+
