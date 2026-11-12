@@ -294,6 +294,8 @@ code{font-family:ui-monospace,Menlo,monospace;font-size:14px}
 main ul{padding-left:20px}
 main li{margin:6px 0}
 .note{font-size:14px;color:var(--muted)}
+
+.map-relations{margin-top:18px;border-top:1px solid var(--line,#8885);padding-top:12px}.map-relations summary{cursor:pointer;font-weight:700}.map-relations small{display:block;opacity:.7;font-size:11px}.map-relations p{margin:10px 0}
 </style>
 <link rel="stylesheet" href="pomoc-schemat.css?v=20261111r5">
 </head>
@@ -305,7 +307,7 @@ main li{margin:6px 0}
     <p class="menu-label">Przejdź do obszaru</p>
     <select id="area" class="area-select" aria-label="Przejdź do obszaru mapy"><option value="">Wybierz obszar…</option><option value="kont">Od czego zacząć</option><option value="z1">5 zasad COBIT 5</option><option value="potrz">Kaskada celów</option><option value="akt">7 aktywatorów</option><option value="lad">Ład i Zarządzanie</option><option value="ocena">Ocena zdolności</option><option value="petla">Cykl wdrożenia</option></select>
     <button type="button" id="exbtn" aria-pressed="false" title="Przejdź krok po kroku przez przykład KG PSP: program „SWD 24/7” (scenariusz szkoleniowy)">▶ Przykład KG PSP</button>
-    <p class="menu-label">Widok mapy</p><div class="menu-row"><button type="button" id="homeview">Początek mapy</button><button type="button" id="allview">Cała mapa</button></div>
+    <p class="menu-label">Widok mapy</p><div class="menu-row"><button type="button" id="homeview">Początek mapy</button><button type="button" id="coreview">Główny schemat</button><button type="button" id="allview">Cała mapa</button></div>
     <button type="button" id="exall" title="Zwiń lub rozwiń szczegóły. Zakres nauki pozostaje taki sam.">Skup widok</button>
     <button type="button" id="fs">Pełny ekran</button>
     <p class="menu-label">Wygląd</p><div class="grp theme" role="group" aria-label="Motyw kolorów"><button type="button" data-t="system">Auto</button><button type="button" data-t="light">Jasny</button><button type="button" data-t="dark">Ciemny</button></div>
@@ -322,8 +324,9 @@ main li{margin:6px 0}
 <script src="sp1.local.js?v=20261111r7"></script>
 <script src="ilustracje-kafelki.local.js"></script>
 <script src="braki-kafelki.local.js"></script>
-<script src="schemat-opisy.js?v=20261112"></script>
-<script src="przyklad-kg-psp.js?v=20261112"></script>
+<script src="schemat-opisy.js?v=20261112r1"></script>
+<script src="schemat-relacje.js?v=20261112r2"></script>
+<script src="przyklad-kg-psp.js?v=20261112r1"></script>
 <script src="nauka-sylabus.js"></script>
 <script src="pomoc-schemat.js?v=20261111r5"></script>
 <script src="testy-schemat.js?v=20261111r6"></script>
@@ -345,6 +348,8 @@ function Handles(){
   return [
     h(Handle,{key:'l',type:'target',position:Position.Left,id:'l'}),
     h(Handle,{key:'r',type:'source',position:Position.Right,id:'r'}),
+    h(Handle,{key:'ls',type:'source',position:Position.Left,id:'ls'}),
+    h(Handle,{key:'rt',type:'target',position:Position.Right,id:'rt'}),
     h(Handle,{key:'t',type:'target',position:Position.Top,id:'t'}),
     h(Handle,{key:'b',type:'source',position:Position.Bottom,id:'b'}),
     h(Handle,{key:'b1',type:'source',position:Position.Bottom,id:'b1',style:{left:'30%'}}),
@@ -377,7 +382,7 @@ function ZasadaH({ id, data }){
     h('b',null,data.title),' · ',data.text, enEl(id));
 }
 function Stage({ data }){
-  return h('div',{className:'stg g-'+data.g}, h('span',{className:'n'},data.n), data.text);
+  return h('div',{className:'stg g-'+data.g}, ...Handles(), h('span',{className:'n'},data.n), data.text);
 }
 function ListNode({ data }){
   const info = INFO[data.key] || {};
@@ -400,16 +405,13 @@ function Cykl({ id }){
 }
 function Fund(){
   return h('div',{className:'fundbox'},
-    h(Handle,{type:'target',position:Position.Left,id:'l',style:{top:'60%'}}),
+    ...Handles(),
     h('div',{className:'fund-t'},'Zasady nadrzędne: 5 zasad COBIT 5 ',h('i',null,'(five principles)')),
-    h('div',{className:'fund-s'},'Decyzja o COBIT 5 = przyjęcie 5 zasad (Rysunek 2). Stoją nad całym wdrożeniem: obowiązują w każdej fazie 1–7 poniżej (rozdz. 2–6). Kliknij zasadę, żeby otworzyć jej okno.'));
+    h('div',{className:'fund-s'},'5 zasad dotyczy całego systemu Ładu i Zarządzania. Cykl wdrożenia pokazano osobno poniżej. Strzałki mają opis kierunku; linie przerywane rozwijają temat, nie oznaczają następnego kroku.'));
 }
 function Grp({ data }){
   return h('div',{className:'f1box g-'+(data.g||'amber')},
-    h(Handle,{type:'source',position:Position.Bottom,id:'b'}),
-    h(Handle,{type:'source',position:Position.Right,id:'r'}),
-    h(Handle,{type:'target',position:Position.Left,id:'l'}),
-    h(Handle,{type:'target',position:Position.Top,id:'t'}),
+    ...Handles(),
     h(Handle,{type:'target',position:Position.Bottom,id:'bt',style:{left:'30%'}}),
     data.n ? h('div',{className:'grp-t'},'Faza '+data.n) : h('div',{className:'grp-t'},data.title,' ',h('i',{className:'grp-en'},data.en)),
     data.n && h('div',{className:'grp-names'},
@@ -485,10 +487,10 @@ const DOM=[
 const EDM_Y=[310,452,573,694,815], DOM_Y=[980,1083,1204,1307];
 /* ---------- skala ocen N/C/W/P (Rysunek 19, FW-PL s. 42) i wymiary aktywatora (Rysunek 13, FW-PL s. 28) ---------- */
 const SKALA=[
-  ['sN','N','nie osiągnięto','Not achieved','0–15%','np. PA 4.1: w KG PSP nikt nie mierzy czasu przywrócenia SWD, więc brak dowodów – N; samo istnienie procedury nie przesądza o ocenie'],
-  ['sC','C','częściowy','Partially achieved','>15–50%','np. PA 2.1 przed programem: grafik dyżurów administratorów BIŁ jest, ale obsługi awarii SWD nikt nie planuje ani nie monitoruje – C. O ocenie decydują dowody, nie liczba osób'],
-  ['sW','W','większościowy','Largely achieved','>50–85%','np. PA 3.2 po wdrożeniu: standardową procedurę stosują KG i 16 KW, ale część KM/KP nadal zgłasza awarie telefonicznie – W. Nie wylicza się ratingu z liczby jednostek'],
-  ['sP','P','pełny','Fully achieved','>85–100%','np. PA 1.1: awarie SWD są ostatecznie usuwane i usługa wraca na stanowiska kierowania – P; P nie oznacza obowiązkowo 100%']
+  ['sN','N','nie osiągnięto','Not achieved','0–15%','założona ocena N: brak albo znikome dowody osiągania ocenianego atrybutu; nie oznacza braku całego procesu'],
+  ['sC','C','częściowy','Partially achieved','>15–50%','założona ocena C: dowody częściowego osiągania atrybutu; sam grafik dyżurów nie wystarcza do ustalenia oceny'],
+  ['sW','W','większościowy','Largely achieved','>50–85%','założona ocena W: systematyczne i znaczne osiąganie atrybutu, z pozostałymi słabościami; nie jest to odsetek jednostek'],
+  ['sP','P','pełny','Fully achieved','>85–100%','założona ocena P: kompletne i systematyczne osiąganie atrybutu bez istotnych słabości; samo usunięcie awarii nie dowodzi P']
 ];
 const WYM=[
   ['wym0','Wymiary każdego aktywatora','enabler dimensions','4 wymiary + zarządzanie sprawnością (Rysunek 13)'],
@@ -503,8 +505,8 @@ const SK_HB={N:'N (nie osiągnięto)',C:'P (częściowo osiągnięto)',W:'L (w z
 const SK_Y=[690,840,990,1140], WYM_Y=[310,433,575,736,916,1070,1212];
 /* ---------- model zdolności procesu: poziomy 0–5 i atrybuty (Rysunek 19, FW-PL s. 42) ---------- */
 const LV=[
-  ['lv0','Poziom 0 · niekompletny','Incomplete process','brak atrybutu','część przerw SWD nie jest usuwana albo usługa nie wraca na stanowiska kierowania'],
-  ['lv1','Poziom 1 · wykonywany','Performed process','PA 1.1 Wykonanie procesu (podr.: Sprawność procesu)','awarie SWD są ostatecznie usuwane (PA 1.1 = P), ale każdy po swojemu; do poziomu 2 potrzebne są dodatkowe dowody'],
+  ['lv0','Poziom 0 · niekompletny','Incomplete process','brak atrybutu','ocena wyników DSS02 wykazała PA 1.1 = C; sam pojedynczy nieusunięty incydent nie wystarcza do ustalenia poziomu'],
+  ['lv1','Poziom 1 · wykonywany','Performed process','PA 1.1 Wykonanie procesu (podr.: Sprawność procesu)','zakładamy ocenę PA 1.1 = P na podstawie pełnej analizy wyników procesu; PA 2.1 i PA 2.2 = C, więc osiągnięto poziom 1'],
   ['lv2','Poziom 2 · zarządzany','Managed process','PA 2.1 Zarządzanie wydajnością (podr.: sprawnością) · PA 2.2 Zarządzanie produktami pracy (podr.: produktami działań)','Przykład: obsługa awarii SWD jest planowana, monitorowana i dostosowywana (dyżury, czasy, odpowiedzialności), a zgłoszenia i raporty są określane, kontrolowane i utrzymywane. Sam grafik dyżurów nie dowodzi całego poziomu 2.'],
   ['lv3','Poziom 3 · ustanowiony','Established process','PA 3.1 Definicja procesu · PA 3.2 Wdrożenie procesu','jeden standardowy proces obsługi incydentów SWD dla KG, 16 KW i KM/KP jest faktycznie stosowany; KW mogą go w uzasadnionym zakresie dostosować'],
   ['lv4','Poziom 4 · przewidywalny','Predictable process','PA 4.1 Miara procesu (podr.: Pomiar procesu) · PA 4.2 Kontrola procesu','czas przywrócenia SWD mierzony i utrzymywany w ustalonych granicach'],
@@ -708,7 +710,7 @@ figFold('r13','wym0',X13,DY2,20+4*CW,1440,'Rysunek 13: czynniki umożliwiające 
   ['m1','qi','t2','b2'],['m1','qc','t2','b2'],['m2','qz','t2','b2'],['m2','qp','t2','b2']]);
 /* Rysunek 25: inne standardy w domenach COBIT 5, FW-PL s. 61 */
 figGroup2('r25',X12+400,DY2,20+5*CW,470,'Rysunek 25: uwzględnienie innych standardów i metodyk w COBIT 5','Zasada 3 (jedna zintegrowana rama) · standardy i domeny COBIT 5, które obejmują według tekstu (FW-PL s. 60–61)','coral',25,61,'z23',[
-  ['s38500',cx(0),130,0,'ISO/IEC 38500','ład IT','EDM: ocena, kierowanie, monitorowanie (s. 60)'],['s31000',cx(1),130,0,'ISO/IEC 31000','zarządzanie ryzykiem','EDM i APO: procesy zarządzania ryzykiem (s. 60)'],
+  ['s38500',cx(0),130,0,'ISO/IEC 38500','ład IT','EDM: ocena, kierowanie, monitorowanie (s. 60)'],['s31000',cx(1),130,0,'ISO/IEC 31000','zarządzanie ryzykiem','EDM i APO: procesy zarządzania ryzykiem (s. 60); właściwa nazwa normy: ISO 31000'],
   ['stogaf',cx(2),130,0,'TOGAF 9','architektura korporacyjna','tekst s. 61: EDM (zasoby) i APO (architektura); rysunek: APO i BAI'],['sprince',cx(3),130,0,'PRINCE2 / PMBOK','zarządzanie projektami','APO (portfel) i BAI (programy i projekty), s. 61'],
   ['scmmi',cx(4),130,0,'CMMI','dojrzałość procesów wytwórczych','BAI (budowanie, nabycie) i część APO (organizacja, jakość), s. 61'],
   ['s27000',cx(0),260,0,'ISO/IEC 27000','bezpieczeństwo informacji','EDM, APO, DSS (bezpieczeństwo, ryzyko) i MEA (monitorowanie), s. 60'],
@@ -766,7 +768,7 @@ const IL_LINK={1:['z23','Zasada 3: rodzina produktów COBIT 5'],10:['z23','Zasad
 FGROUPS.push(...ILGROUPS);
 function FigBox({ data }){
   return h('div',{className:'figbox g-'+(data.g||'gray')},
-    h(Handle,{type:'target',position:Position.Top,id:'t'}),h(Handle,{type:'source',position:Position.Bottom,id:'b'}),
+    ...Handles(),
     h('div',{className:'figbox-t'},data.title),h('div',{className:'figbox-s'},data.sub));
 }
 const AKT=['Zasady, Polityki i Struktury ramowe','Procesy','Struktury organizacyjne','Kultura, Etyka i Zachowanie','Informacja','Usługi, Infrastruktura i Aplikacje','Ludzie, Umiejętności i Kompetencje'];
@@ -1318,7 +1320,7 @@ const EX={
   prm:{co:'Zespół odszukuje DSS02 w modelu referencyjnym procesów, żeby ustalić przeznaczenie procesu i jego praktyki: rejestrację, klasyfikację, priorytet, rozwiązanie, zamknięcie i raportowanie zgłoszeń.',
     cobit:'PRM, model referencyjny procesów (Rysunek 16): 37 procesów. DSS02 należy do domeny DSS (Dostarczanie, obsługa i wsparcie), czyli do Zarządzania.',
     wynik:'Wiemy, co oceniamy i jakie jest przeznaczenie procesu.'},
-  ocena:{co:'Na potrzeby scenariusza wynik oceny dowodów: PA 1.1 = P (awarie SWD są ostatecznie usuwane), PA 2.1 = C (grafik dyżurów jest, ale obsługi nikt nie planuje ani nie monitoruje) i PA 2.2 = C (zgłoszenia i notatki są niejednolite i rozproszone). Sam brak spisanej procedury nie ustala ratingu.',
+  ocena:{co:'Na potrzeby scenariusza wynik oceny dowodów: PA 1.1 = P (założony wynik pełnej oceny rezultatów, nie wniosek z samego usunięcia awarii), PA 2.1 = C (grafik dyżurów jest, ale obsługi nikt nie planuje ani nie monitoruje) i PA 2.2 = C (zgłoszenia i notatki są niejednolite i rozproszone). Sam brak spisanej procedury nie ustala ratingu.',
     cobit:'Ocena zdolności procesu (Rysunek 19). Skala: N, C, W, P (EN: N, P, L, F). Poziom osiągnięty = ten poziom co najmniej W, a niższe P. Tu PA 1.1 = P, a oba atrybuty poziomu 2 = C, więc wynik to poziom 1 (wykonywany). To jest ocena stanu obecnego z fazy 2.',
     wynik:'DSS02 w KG PSP dziś = poziom 1.'},
   f3:{co:'M3–M4: Komendant Główny i komitet sterujący wybierają poziom docelowy 3 przed terminem KSC, po analizie kosztów, korzyści i wykonalności. Wymaga to pełnego osiągnięcia PA 1.1, 2.1 i 2.2 oraz co najmniej W dla definicji i wdrożenia procesu (PA 3.1 i 3.2). Sam dokument nie wystarczy, a poziom 5 byłby za drogi.',
@@ -1480,6 +1482,12 @@ function navHTML(id){
   const out=[];
   if(PARENT[id]&&INFO[PARENT[id]]) out.push('<h3>Należy do</h3><p><button type="button" class="gojump" data-go="'+PARENT[id]+'">↑ '+esc(INFO[PARENT[id]].title)+'</button></p>');
   if(DETAIL[id]) out.push('<h3>Szczegóły na schemacie</h3><p>'+DETAIL[id].map(([l,f])=>'<button type="button" class="gojump" data-go="'+f+'">↓ '+esc(l)+'</button>').join(' ')+'</p>');
+  const rels=edges.filter(e=>(e.source===id||e.target===id)&&e.data?.kind!=='classification');
+  if(rels.length) out.push('<details class="map-relations" open><summary>Powiązania na mapie ('+rels.length+')</summary><p class="note2">Strzałka opisuje kierunek zależności. Linia przerywana rozwija temat; nie wyznacza kolejnego etapu.</p>'+rels.map(e=>{
+    const other=e.source===id?e.target:e.source, go=INFO[other]?other:REL_MAP.members[other]?.[0]||REL_MAP.anchors[other];
+    const title=INFO[other]?.title||nodes.find(n=>n.id===other)?.data.title||other;
+    return '<p><span>'+esc(e.label||'relacja z ilustracji')+'</span><br><button type="button" class="gojump" data-go="'+esc(go||id)+'">'+(e.source===id?'→ ':'← ')+esc(title)+'</button><small>'+esc(e.data.refs||'')+'</small></p>';
+  }).join('')+'</details>');
   return out.join('');
 }
 document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('.gojump'); if(b){ e.preventDefault(); window.dispatchEvent(new CustomEvent('cobit-sel',{detail:b.dataset.go})); } });
@@ -1501,7 +1509,27 @@ let TAB='info';
 INFO.edm1.names+=' · podręcznik PL: Zapewnienie i utrzymanie ładu korporacyjnego';
 INFO.edm1.from+=' EDM01 dotyczy ustanowienia i utrzymania struktury ramowej Ładu, nie przejęcia wszystkich zadań całego ładu korporacyjnego.';
 for(const id of ['petla','przeg','f7']) if(INFO[id].trap) INFO[id].trap=INFO[id].trap.replace('Faza 7 dotyczy utrzymania motywacji, a nie zamknięcia projektu.','Faza 7 podtrzymuje doskonalenie i przegląda skuteczność; konkretna inicjatywa może zostać zamknięta.');
-const FOCUS_ORDER=['kont','decyz','z1','z23','z4','z5','petla','f1','pz','zi','f2','drv','potrz','wart','corg',...GOALS_E.map((r,i)=>'ce'+(i+1)),'cit',...GOALS_I.map((r,i)=>'ci'+(i+1)),'cakt','prm','ocena','sN','sC','sW','sP','ws1','ws2','lv0','lv1','lv2','lv3','lv4','lv5','obecny','f3','docel','wynik','f4','akt','a1','a2','a3','a4','a5','a6','a7','wym0','wym1','wym2','wym3','wym4','mier1','mier2','f5','lad','edm1','edm2','edm3','edm4','edm5','zarz',...DOM.flatMap(d=>[d[0],...d[9].map(p=>'p'+p[0].toLowerCase())]),'f6','pomiar','f7','przeg'];
+const REL_MAP=window.COBIT_RELATIONS({nodes,edges,INFO,DETAIL,PARENT,FGROUPS,ILINFO,BKINFO,FIG2INFO,MarkerType});
+TILE_EN.z23='Covering the Enterprise End-to-End';
+TILE_EN.z3='Applying a Single Integrated Framework';
+INFO.lad.from='Ład to odrębny od Zarządzania obszar działań: ocenia potrzeby, uwarunkowania i opcje, wyznacza kierunek oraz monitoruje wyniki i zgodność. Wspierają go wszystkie potrzebne aktywatory, a jego pięć procesów EDM opisuje PRM. Nie wynika wyłącznie z aktywatora Procesy (FW-PL s. 23, 27–33).';
+INFO.z4.from='Zasada 4 wymaga uwzględnienia współzależności siedmiu kategorii aktywatorów. Dotyczy całego systemu Ładu i Zarządzania, jego codziennego działania i doskonalenia. Powiązanie z planowaniem usprawnień w fazie 4 jest jednym z zastosowań.';
+INFO.z5.from='Zasada 5 rozdziela Ład i Zarządzanie: ich zadania, struktury i odpowiedzialności. Oba obszary współdziałają i korzystają z aktywatorów. W modelu procesów odpowiadają im EDM oraz APO, BAI, DSS i MEA. Nie są etapami występującymi po sobie ani wyłącznie częścią fazy 5 wdrożenia.';
+INFO.ocena.trap='Ocena dotyczy procesu i jego atrybutów. Poziom 1 wymaga PA 1.1 co najmniej W. Dla poziomu 2–5 wszystkie atrybuty tego poziomu muszą mieć W lub P, a wszystkich niższych poziomów P. Poziom 0 nie ma atrybutu. Nie jest to odsetek rozwiązanych incydentów ani średnia ocen.';
+INFO.ws2.title='Wskaźniki zdolności (poziomy 1–5)';
+INFO.ws2.from='Rysunek 19 łączy wskaźniki zdolności z poziomami 1–5: typowymi praktykami, zasobami i produktami pracy. Dla PA 1.1 szczególne znaczenie mają wskaźniki wykonania procesu (podr.: wskaźniki wydajności; Wymiar Procesu): wyniki procesu, praktyki bazowe i produkty pracy. Na poziomach 2–5 ocenia się dodatkowe, wspólne atrybuty. Nie pomijaj strzałki z poziomu 1 do wskaźników zdolności na Rysunku 19 (FW-PL s. 42–45).';
+INFO.z4.trap='Holistyczność oznacza uwzględnienie współzależności wszystkich siedmiu kategorii. Nie nakazuje jednoczesnego zmieniania wszystkich aktywatorów ani wdrażania wszystkich 37 procesów.';
+INFO.fund={g:'coral',title:'5 zasad COBIT 5',from:'Zasady dotyczą całego systemu Ładu i Zarządzania informacjami i powiązaną technologią, także poza inicjatywą wdrożeniową.',refs:[R(15,2)]};
+// Korekta autorskich opisów; źródłowe cytaty w banku pytań pozostają niezmienione.
+function normalizeMapText(value){
+  if(typeof value==='string') return value.replaceAll('Wskaźniki wydajności (poziom 1)','Wskaźniki wykonania procesu (poziom 1)').replaceAll('dowody dla poziomów 2–5','wskaźniki dla poziomów 1–5 (Rysunek 19)').replaceAll('Reguła: proces ma dany poziom, gdy ten poziom ma co najmniej W, a wszystkie niższe P.','Reguła dla poziomów 1–5: wszystkie atrybuty wybranego poziomu mają W lub P, a wszystkie atrybuty niższych poziomów mają P. Poziom 0 nie ma własnego atrybutu.').replace('szczegóły kafelków „Ocena procesu” i „Poziom 0–5” (faza 2)','szczegóły oceny procesu, stosowane m.in. w fazie 2');
+  if(Array.isArray(value)) return value.map(normalizeMapText);
+  if(value&&typeof value==='object') {for(const key of Object.keys(value)) value[key]=normalizeMapText(value[key]);}
+  return value;
+}
+for(const value of [INFO,EX]) normalizeMapText(value);
+for(const n of nodes) normalizeMapText(n.data);
+const FOCUS_ORDER=['kont','decyz','z1','z23','z3','z4','z5','petla','f1','pz','zi','f2','drv','potrz','wart','corg',...GOALS_E.map((r,i)=>'ce'+(i+1)),'cit',...GOALS_I.map((r,i)=>'ci'+(i+1)),'cakt','prm','ocena','sN','sC','sW','sP','ws1','ws2','lv0','lv1','lv2','lv3','lv4','lv5','obecny','f3','docel','wynik','f4','akt','a1','a2','a3','a4','a5','a6','a7','wym0','wym1','wym2','wym3','wym4','mier1','mier2','f5','lad','edm1','edm2','edm3','edm4','edm5','zarz',...DOM.flatMap(d=>[d[0],...d[9].map(p=>'p'+p[0].toLowerCase())]),'f6','pomiar','f7','przeg'];
 FOCUS_ORDER.push(...Object.keys(FIG2INFO),...Object.keys(ILINFO),...Object.keys(BKINFO),...Object.keys(TLO));
 { const live=new Set(nodes.map(n=>n.id)); for(const A of [FOCUS_ORDER,EX_ORDER]) for(let i=A.length-1;i>=0;i--) if(!live.has(A[i])) A.splice(i,1); }
 const ORD=()=>EXMODE?EX_ORDER:FOCUS_ORDER;
@@ -1675,11 +1703,11 @@ document.addEventListener('keydown',e=>{ if(pv.hidden)return; if(e.key==='Escape
 
 /* ---------- aplikacja ---------- */
 let RF=null;
-const NEIGH={};
+const NEIGH=REL_MAP.neighbours;
 function fitAll(d=300){ if(!RF) return; const b=RF.getNodesBounds(RF.getNodes()); b.height+=260; RF.fitBounds(b,{padding:0.04,duration:d}); }
 /* Widok zmieniamy tylko po nawigacji użytkownika. Zamknięcie panelu,
    zmiana rozmiaru okna i zakończenie ładowania nie dopasowują całej mapy. */
-const VIEW_KEY='cobit-schemat-widok-v1';
+const VIEW_KEY='cobit-schemat-widok-v2';
 function initialViewport(){ return {x:28,y:24,zoom:document.getElementById('app').clientWidth<520?0.8:0.9}; }
 function readViewport(){
   try{ const v=JSON.parse(localStorage.getItem(VIEW_KEY)||'null');
@@ -1734,17 +1762,17 @@ function App(){
   },[]);
   const live = sel ? (NEIGH[sel]||[sel]) : null;
   const [startViewport] = React.useState(()=>readViewport()||initialViewport());
-  const viewNodes = React.useMemo(()=>nodes.map(n=>!sel?n:{...n,className:live.includes(n.id)?'sel':'dim'}),[sel]);
-  const viewEdges = React.useMemo(()=>edges.map(x=>{
-    let y=x;
+  const viewNodes = React.useMemo(()=>nodes.map(n=>!sel?n:{...n,className:n.id===sel?'sel':live.includes(n.id)?'context':'dim'}),[sel]);
+  const viewEdges = React.useMemo(()=>edges.filter(x=>!x.data?.contextual || (sel && (x.source===sel || x.target===sel || x.source===REL_MAP.owner[sel] || x.target===REL_MAP.owner[sel]))).map(x=>{
+    let y=!sel&&x.data?.kind==='classification'?{...x,label:undefined}:x;
     if(x.id==='e17') y={...x,style:{...x.style,stroke:sel==='petla'?'#BA7517':'#6f6e69',strokeWidth:sel==='petla'?3.4:2.4},interactionWidth:24};
     if(sel){ const on = (x.source===sel||x.target===sel); y={...y,className:on?'':'dim'}; }
     return y;
   }),[sel]);
   return h(ReactFlow,{
     nodes:viewNodes, edges:viewEdges, nodeTypes,
-    onNodeClick:(_,n)=>{ if(INFO[n.id]) setSel(n.id); },
-    onEdgeClick:(_,ed)=>{ if(ed.id==='e17') setSel('petla'); },
+    onNodeClick:(_,n)=>{ const id=INFO[n.id]?n.id:REL_MAP.members[n.id]?.[0]||REL_MAP.anchors[n.id]; if(id&&INFO[id]) setSel(id); },
+    onEdgeClick:(_,ed)=>{ const id=INFO[ed.target]?ed.target:REL_MAP.members[ed.target]?.[0]||ed.source; if(INFO[id]) setSel(id); },
     onPaneClick:()=>setSel(null),
     colorMode: theme,
     defaultViewport:startViewport,
@@ -1779,6 +1807,7 @@ document.addEventListener('fullscreenchange',()=>{ fs.textContent=document.fulls
 document.getElementById('area').addEventListener('change',e=>{const id=e.target.value;if(id){toolsMenu.open=false;window.dispatchEvent(new CustomEvent('cobit-sel',{detail:id}));}e.target.value='';});
 const toolsMenu=document.querySelector('.tools-menu');
 document.getElementById('homeview').addEventListener('click',()=>{toolsMenu.open=false;window.dispatchEvent(new CustomEvent('cobit-sel',{detail:null}));if(RF)RF.setViewport(initialViewport(),{duration:300});});
+document.getElementById('coreview').addEventListener('click',()=>{toolsMenu.open=false;window.dispatchEvent(new CustomEvent('cobit-sel',{detail:null}));if(RF){const b=RF.getNodesBounds(RF.getNodes().filter(n=>REL_MAP.coreIds.includes(n.id)));RF.fitBounds(b,{padding:0.05,duration:300});}});
 document.getElementById('allview').addEventListener('click',()=>{toolsMenu.open=false;window.dispatchEvent(new CustomEvent('cobit-sel',{detail:null}));fitAll();});
 document.addEventListener('click',e=>{if(!toolsMenu.contains(e.target))toolsMenu.open=false;});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&toolsMenu.open){toolsMenu.open=false;toolsMenu.querySelector('summary').focus();e.stopImmediatePropagation();}},true);
