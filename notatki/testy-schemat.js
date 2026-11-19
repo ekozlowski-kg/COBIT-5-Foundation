@@ -158,11 +158,11 @@ window.SCHEMAT_EXAM = (function () {
   }
   const grupuj=(us,m)=>{const g={};us.forEach(u=>{const q=m[u];if(!q)return;const c=codeKey(q);(g[c]=g[c]||{code:c,n:0,g:0,bad:[]}).bad.push(u);});return Object.values(g).sort((x,y)=>y.bad.length-x.bad.length).slice(0,6);};
   function runCard(){
-    const qs=wZakresie(),nSp=all().filter(ZAKRESY.sp).length,res=api.getResults(),wrong=qs.filter(q=>res[q.u]&&!res[q.u].ok).length,fresh=qs.filter(q=>!res[q.u]).length,stars=qs.filter(q=>isStarred(q.u)).length,traps=qs.filter(q=>pul(q)).length;
+    const qs=wZakresie(),nSp=all().filter(ZAKRESY.sp).length,ud=all().some(q=>/^sp1:udemy-/.test(q.u)),res=api.getResults(),wrong=qs.filter(q=>res[q.u]&&!res[q.u].ok).length,fresh=qs.filter(q=>!res[q.u]).length,stars=qs.filter(q=>isStarred(q.u)).length,traps=qs.filter(q=>pul(q)).length;
     const cont=run&&run.ids?.length&&Object.keys(run.answers).length<run.ids.length;
     return '<div class="exam-card"><h3>Nauka</h3>'+
-      '<p class="rn-src" style="margin:4px 0 6px">Pytania do nauki:</p><div class="exam-row rn-zakres" role="group" aria-label="Pytania do nauki"><button data-zakres="all" aria-pressed="'+(zakres==='all')+'">Wszystkie ('+all().length+')</button><button data-zakres="sp" aria-pressed="'+(zakres==='sp')+'"'+(nSp?'':' disabled')+'>Sample Paper + Altkom + Udemy ('+nSp+')</button></div>'+
-      (zakres==='sp'?'<p class="rn-src">Tylko pytania z arkusza próbnego Sample Paper 1, materiałów Altkom i testów próbnych Udemy (1, 3 i 4). Gdzie klucz Udemy różni się od podręcznika, liczy się podręcznik.</p>':'')+
+      '<p class="rn-src" style="margin:4px 0 6px">Pytania do nauki:</p><div class="exam-row rn-zakres" role="group" aria-label="Pytania do nauki"><button data-zakres="all" aria-pressed="'+(zakres==='all')+'">Wszystkie ('+all().length+')</button><button data-zakres="sp" aria-pressed="'+(zakres==='sp')+'"'+(nSp?'':' disabled')+'>Sample Paper + Altkom'+(ud?' + Udemy':'')+' ('+nSp+')</button></div>'+
+      (zakres==='sp'?'<p class="rn-src">Tylko pytania z arkusza próbnego Sample Paper 1 i materiałów Altkom'+(ud?' oraz testów próbnych Udemy (1, 3 i 4). Gdzie klucz Udemy różni się od podręcznika, liczy się podręcznik.':'.')+'</p>':'')+
       (cont?'<div class="exam-row"><button data-run-cont class="rn-primary rn-wide">Kontynuuj naukę</button></div>':'')+
       '<div class="exam-row rn-modes" style="margin-top:10px"><button data-run="kolejno">Po kolei</button><button data-run="losowo">Losowo</button><button data-run="nowe"'+(fresh?'':' disabled')+'>Nierozwiązane ('+fresh+')</button><button data-run="bledne"'+(wrong?'':' disabled')+'>Błędne ('+wrong+')</button><button data-run="wyroznione"'+(stars?'':' disabled')+'>★ Wyróżnione ('+stars+')</button><button data-run="pulapki"'+(traps?'':' disabled')+'>⚠ Pułapki ('+traps+')</button></div></div>';
   }
