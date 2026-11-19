@@ -3,3 +3,10 @@ __pycache__/
 *.pyc
 tests/.generated/
 private/
+
+# Materiały chronione prawem autorskim (ISACA, PeopleCert, Altkom) – tylko lokalnie, nigdy w repozytorium.
+# Zakup daje prawo do własnego użytku, nie do publikacji (AGENTS.md).
+*.local.js
+*.local.json
+app/podrecznik/ilustracje/
+sources/

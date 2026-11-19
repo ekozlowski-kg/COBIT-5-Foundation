@@ -7,7 +7,7 @@ let selected = null, stateIndex = 0, effects = [], saved = null, fitted = 0, foc
 const listeners = [], timers = [];
 const ctx = { Number, JSON, localStorage: {getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},
  document:{getElementById:()=>({clientWidth:641})}, RF:null,
- nodes:[], edges:[], nodeTypes:{}, NEIGH:{}, window:{addEventListener:(...x)=>listeners.push(x)},
+ nodes:[], edges:[], nodeTypes:{}, NEIGH:{}, REL_MAP:{owner:{},members:{},anchors:{}}, window:{addEventListener:(...x)=>listeners.push(x)},
  ReactFlow:{}, Background:{}, Controls:{}, KEY:'theme', root:{},
  getTheme:()=> 'system', showInfo(){}, focusOn:()=>focused++, clearInfo:()=>closed++, fitAll:()=>fitted++,
  setTimeout:fn=>timers.push(fn),
@@ -35,7 +35,7 @@ props=render('kont');effects.find(e=>e.deps?.length===1&&e.deps[0]==='kont').fn(
 assert.equal(focused,1,'wybranie tematu przybliża wybrany kafelek');
 props=render(null);effects.find(e=>e.deps?.length===1&&e.deps[0]===null).fn();
 assert.equal(closed,1,'zamknięcie tematu zamyka panel');assert.equal(fitted,0,'zamknięcie tematu nie zmienia przybliżenia');
-const key='cobit-schemat-widok-v1';
+const key='cobit-schemat-widok-v2';
 for(const invalid of ['broken','null','{"x":0,"y":0,"zoom":99}','{"x":"0","y":0,"zoom":1}']){
  storage.set(key,invalid);assert.equal(ctx.readViewport(),null,'niepoprawny zapis jest ignorowany');
 }
