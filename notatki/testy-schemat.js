@@ -91,13 +91,13 @@ window.SCHEMAT_EXAM = (function () {
   /* ---------- Ciągiem: wszystkie pytania banku jedno po drugim, z wyjaśnieniem od razu ---------- */
   /* pułapki egzaminacyjne: opis z PYTANIA.plan.pulapki (klucz = id pytania) */
   const pul=q=>((window.PYTANIA.plan||{}).pulapki||{})[q.id]||'';
-  const origin=q=>/^altkom/.test(q.id)?'Altkom':/^sp1/.test(q.id)?'Sample Paper 1':/^zn-/.test(q.id)?'Znalezisko (internet)':'treningowe';
+  const origin=q=>/^altkom/.test(q.id)?'Altkom':/^sp1/.test(q.id)?'Sample Paper 1':/^ark-/.test(q.id)?'Arkusz próbny PL':/^zn-/.test(q.id)?'Znalezisko (internet)':'treningowe';
   /* pełne omówienie pod przyciskiem „Sprawdź” */
   function fiszka(q){return window.COBIT_HELP.card(q);}
   const byU=()=>Object.fromEntries(all().map(q=>[q.u,q]));
   const codeKey=q=>codes(q)[0]||'ZZ';
   const ZAKRES='cobit-schemat-zakres-nauki';
-  const ZAKRESY={sp:q=>/^sp1:(sp1|altkom|udemy)-/.test(q.u)};
+  const ZAKRESY={sp:q=>/^sp1:(sp1|altkom|udemy|ark)-/.test(q.u)};
   let zakres=(()=>{try{const z=localStorage.getItem(ZAKRES);return ZAKRESY[z]?z:'all';}catch(_){return 'all';}})();
   const wZakresie=()=>ZAKRESY[zakres]?all().filter(ZAKRESY[zakres]):all();
   function runNew(kind){
@@ -164,7 +164,7 @@ window.SCHEMAT_EXAM = (function () {
     const cont=run&&run.ids?.length&&Object.keys(run.answers).length<run.ids.length;
     return '<div class="exam-card"><h3>Nauka</h3>'+
       '<p class="rn-src" style="margin:4px 0 6px">Pytania do nauki:</p><div class="exam-row rn-zakres" role="group" aria-label="Pytania do nauki"><button data-zakres="all" aria-pressed="'+(zakres==='all')+'">Wszystkie ('+all().length+')</button><button data-zakres="sp" aria-pressed="'+(zakres==='sp')+'"'+(nSp?'':' disabled')+'>Sample Paper + Altkom'+(ud?' + Udemy':'')+' ('+nSp+')</button></div>'+
-      (zakres==='sp'?'<p class="rn-src">Tylko pytania z arkusza próbnego Sample Paper 1 i materiałów Altkom'+(ud?' oraz testów próbnych Udemy (1, 3 i 4). Gdzie klucz Udemy różni się od podręcznika, liczy się podręcznik.':'.')+'</p>':'')+
+      (zakres==='sp'?'<p class="rn-src">Tylko pytania z arkusza próbnego Sample Paper 1 i materiałów Altkom'+(ud?' oraz testów próbnych Udemy (1, 3 i 4) i arkusza próbnego PL. Gdzie klucz Udemy różni się od podręcznika, liczy się podręcznik.':'.')+'</p>':'')+
       (cont?'<div class="exam-row"><button data-run-cont class="rn-primary rn-wide">Kontynuuj naukę</button></div>':'')+
       '<div class="exam-row rn-modes" style="margin-top:10px"><button data-run="kolejno">Po kolei</button><button data-run="losowo">Losowo</button><button data-run="nowe"'+(fresh?'':' disabled')+'>Nierozwiązane ('+fresh+')</button><button data-run="bledne"'+(wrong?'':' disabled')+'>Błędne ('+wrong+')</button><button data-run="wyroznione"'+(stars?'':' disabled')+'>★ Wyróżnione ('+stars+')</button><button data-run="pulapki"'+(traps?'':' disabled')+'>⚠ Pułapki ('+traps+')</button></div></div>';
   }
